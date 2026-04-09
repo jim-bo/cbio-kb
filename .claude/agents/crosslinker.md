@@ -47,6 +47,7 @@ Editing still goes through `Read` + `Edit` so diffs land in git — the CLI is r
      - Do NOT touch frontmatter or fenced code blocks.
    - Use `Edit`, not `Write`. Preserve all other content exactly.
 6. Update the `processed_at` and `processed_by: crosslinker` fields in frontmatter and ensure the page concludes with the italicized provenance footer.
+7. After all edits are complete, call `obsidian vault=wiki reload` via Bash once so the running Obsidian app re-indexes the modified pages. This keeps `outline` / `backlinks` / `search` queries accurate for any downstream agent in the same session.
 
 ## Final output
 

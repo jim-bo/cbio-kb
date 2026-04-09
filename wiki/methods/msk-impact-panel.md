@@ -4,8 +4,8 @@ slug: msk-impact-panel
 kind: method
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-09
 ---
 
 # MSK-IMPACT panel (generic)
@@ -24,6 +24,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:37477937](../papers/37477937.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:37477937](../papers/37477937.md).
 - [PMID:38147626](../papers/38147626.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:38147626](../papers/38147626.md).
 - [PMID:38864854](../papers/38864854.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:38864854](../papers/38864854.md).
+- [PMID:38995739](../papers/38995739.md) — referenced alongside the heme-focused [MSK-HemePACT](../methods/msk-hemepact.md) panel in the phase I/II [ibrutinib](../drugs/ibrutinib.md) trial in r/r CNS lymphoma; an independent cohort of 177 MSK [PCNSL](../cancer_types/PCNSL.md) patients treated with standard of care was used to show [TBL1XR1](../genes/TBL1XR1.md) status was not prognostic under SOC, supporting its predictive (rather than prognostic) role for ibrutinib benefit [PMID:38995739](../papers/38995739.md).
 
 ## Notes
 
@@ -40,5 +41,6 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:38147626](../papers/38147626.md)
 - [PMID:38864854](../papers/38864854.md)
+- [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

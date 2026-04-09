@@ -1,0 +1,77 @@
+# cbio-kb Agents
+
+This repository uses specialized sub-agents to maintain the knowledge base. To ensure compatibility with both Claude and Gemini CLI, agents are defined in two parallel directories.
+
+## Agent Directories
+
+- **`.claude/agents/`**: Definitions for Claude Code (YAML frontmatter with `Read`, `Edit`, `Bash` etc.).
+- **`.gemini/agents/`**: Definitions for Gemini CLI (YAML frontmatter with `read_file`, `replace`, `run_shell_command` etc.).
+
+## Synchronization Strategy
+
+The **Markdown body** (System Prompt) of the agents should be kept identical. Only the YAML frontmatter differs in its `tools` definitions.
+
+| Claude Tool | Gemini CLI Tool |
+| :--- | :--- |
+| `Read` | `read_file` |
+| `Write` | `write_file` |
+| `Edit` | `replace` |
+| `Grep` | `grep_search` |
+| `Glob` | `glob` |
+| `Bash` | `run_shell_command` |
+
+### How to update an agent
+
+1.  Modify the instructions in the `.claude/agents/{name}.md` file.
+2.  Copy the updated Markdown body to the matching `.gemini/agents/{name}.md` file.
+3.  Ensure the `tools` list in the Gemini file uses the names in the table above.
+
+## Tool Execution
+
+All Python-based CLI tools (`cbio-kb`) must be executed using `uv run`. 
+
+Example:
+`uv run cbio-kb ontology lookup "KRAS"`
+
+## Available Agents
+
+- **`paper-compiler`**: Ingests raw papers into the wiki.
+- **`entity-page-writer`**: Creates/updates gene, cancer type, and drug pages.
+- **`crosslinker`**: Rewrites entity mentions as internal wiki links.
+- **`wiki-linter`**: Audits the wiki for structural issues.
+- **`wiki-querier`**: Answers questions using the wiki and FAISS index.
+- **`theme-synthesizer`**: Identifies cross-cutting research themes.
+
+## Workflows
+
+The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents are dispatched for discrete tasks; the orchestrator owns cross-cutting state (notably `wiki/index.md`).
+
+### Adding one paper
+
+1. Drop the PDF into `data/raw/pdfs/`.
+2. `uv run cbio-kb ingest extract` — idempotent; writes `data/raw/papers/{pmid}.md`.
+3. Dispatch **paper-compiler** with the PMID. It writes `wiki/papers/{pmid}.md` and returns the entity lists (genes, cancer_types, datasets, drugs, methods).
+4. For each entity kind with new/touched entries, dispatch **entity-page-writer** once with the entity→[PMID] mapping.
+5. Dispatch **crosslinker** over the new paper page plus any entity pages touched in step 4.
+6. Orchestrator refreshes `wiki/index.md` in a single Python pass (do **not** delegate this — see index contention below).
+7. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
+8. Commit.
+
+### Adding a batch of N papers
+
+1. Drop PDFs into `data/raw/pdfs/`; run `ingest extract` once.
+2. Dispatch **paper-compiler** in parallel waves of ~5 PMIDs. On 529 overloads, retry failed PMIDs sequentially — do not abandon the wave.
+3. Collect all returned entity lists and invert to `{entity_kind: {entity: [pmids...]}}` with a Python one-liner.
+4. Fan out **entity-page-writer** once per kind. Shard `genes` into alphabetical buckets of ~20 to keep prompts tight.
+5. Single **crosslinker** pass over the new papers + all touched entity pages (pin to `sonnet`).
+6. Orchestrator does one bulk `wiki/index.md` refresh at the end, not per-paper.
+7. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
+8. Commit per wave, not per paper.
+
+### Rules of thumb
+
+- **Model pinning**: `crosslinker` and `wiki-linter` → `sonnet` (mechanical). `paper-compiler` and `theme-synthesizer` → `opus` (reasoning). `entity-page-writer` and `wiki-querier` → either, based on load.
+- **Index contention**: sub-agents must never edit `wiki/index.md` in parallel. The orchestrator owns bulk index updates.
+- **Rerun semantics**: `paper-compiler` overwrites `wiki/papers/{pmid}.md` via Write (idempotent rerun OK); `entity-page-writer` merges via Edit (append-only, idempotent by PMID dedup).
+- **Ontology discipline**: never invent a HUGO symbol, OncoTree code, or cBioPortal `studyId`. Unverified terms go to `schema/ontology/_observed.md`, not into canonical pages as if they were official.
+- **Provenance**: every entity page must carry `processed_by` / `processed_at` frontmatter and an italicized footer naming the agent that last touched it.

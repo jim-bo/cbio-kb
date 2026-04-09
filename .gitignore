@@ -1,0 +1,22 @@
+# Artifacts — local-only, rebuild with `cbio-kb ingest ...` / `cbio-kb index build`
+data/
+!data/seed/
+!data/README.md
+
+# Legacy paths (pre-restructure)
+raw/
+index_dir/
+logs/
+pmid_to_pmcid.csv
+
+# Scratch
+possible_improvements.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / worktrees
+.claude/worktrees/
+wiki/.obsidian/workspace.json

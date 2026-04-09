@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cbio-kb"
+version = "0.1.0"
+description = "Agent-maintained knowledge base over cBioPortal publications"
+requires-python = ">=3.10"
+dependencies = [
+  "pdfplumber",
+  "requests",
+]
+
+[project.optional-dependencies]
+server = [
+  "sentence-transformers",
+  "faiss-cpu",
+  "numpy",
+  "fastmcp",
+  "spacy",
+  "tqdm",
+]
+ocr = [
+  "pdf2image",
+  "pytesseract",
+  "pillow",
+]
+dev = [
+  "pytest",
+]
+
+[project.scripts]
+cbio-kb = "cbio_kb.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cbio_kb"]

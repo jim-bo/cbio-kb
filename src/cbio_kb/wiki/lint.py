@@ -55,7 +55,7 @@ def _parse_list_field(text: str, field: str) -> list[str]:
     return []
 
 
-def run(wiki_dir: Path) -> int:
+def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
     if not wiki_dir.exists():
         print(f"[!] wiki dir not found: {wiki_dir}")
         return 1
@@ -101,7 +101,11 @@ def run(wiki_dir: Path) -> int:
                 continue
             stem = Path(rel).stem
             if stem not in index_text and rel not in index_text:
-                errors.append(f"orphan (not in index.md): {rel}")
+                msg = f"orphan (not in index.md): {rel}"
+                if allow_orphans:
+                    print(f"[warn] {msg}")
+                else:
+                    errors.append(msg)
 
     # Ontology validation against cBioPortal canonical lists
     field_to_canon = {

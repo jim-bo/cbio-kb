@@ -1,0 +1,5 @@
+---
+title: Themes
+---
+
+No theme pages yet. The `theme-synthesizer` agent will populate this section.

@@ -4,13 +4,18 @@ data/
 !data/README.md
 
 # Legacy paths (pre-restructure)
-raw/
-index_dir/
-logs/
-pmid_to_pmcid.csv
+/raw/
+/index_dir/
+/logs/
+/pmid_to_pmcid.csv
 
 # Scratch
 possible_improvements.md
+
+# Quarto
+wiki/_site/
+.quarto/
+wiki/.quarto/
 
 # Python
 __pycache__/

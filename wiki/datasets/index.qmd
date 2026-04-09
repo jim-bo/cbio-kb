@@ -1,0 +1,15 @@
+---
+title: Datasets
+listing:
+  contents: "*.md"
+  type: table
+  fields: [studyId, name, cancerTypeId]
+  field-display-names:
+    studyId: "Study ID"
+    name: "Name"
+    cancerTypeId: "Cancer type"
+  sort: "studyId asc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 100
+---

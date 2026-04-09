@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "_schema/**"
+
+validate-yaml: false
+
+website:
+  title: "cbio-kb"
+  description: "Agent-maintained knowledge base over cBioPortal publications"
+  repo-url: https://github.com/jim-bo/cbio-kb
+  repo-actions: [edit, source]
+  navbar:
+    left:
+      - href: index.md
+        text: Home
+      - href: papers/index.qmd
+        text: Papers
+      - href: genes/index.qmd
+        text: Genes
+      - href: cancer_types/index.qmd
+        text: Cancers
+      - href: datasets/index.qmd
+        text: Datasets
+      - href: drugs/index.qmd
+        text: Drugs
+      - href: methods/index.qmd
+        text: Methods
+      - href: themes/index.qmd
+        text: Themes
+  search:
+    type: overlay
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    link-external-newwindow: true

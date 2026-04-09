@@ -1,0 +1,15 @@
+---
+title: Drugs
+listing:
+  contents: "*.md"
+  type: table
+  fields: [name, targets, drug_class]
+  field-display-names:
+    name: "Name"
+    targets: "Targets"
+    drug_class: "Drug class"
+  sort: "name asc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 100
+---

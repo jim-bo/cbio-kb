@@ -76,7 +76,7 @@ def _cmd_ontology_lookup(args: argparse.Namespace) -> int:
 def _cmd_lint(args: argparse.Namespace) -> int:
     from cbio_kb.wiki import lint
 
-    return lint.run(wiki_dir=Path(args.wiki_dir))
+    return lint.run(wiki_dir=Path(args.wiki_dir), allow_orphans=args.allow_orphans)
 
 
 def _cmd_search(args: argparse.Namespace) -> int:
@@ -157,6 +157,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     lnt = sub.add_parser("lint", help="Validate wiki structure")
     lnt.add_argument("--wiki-dir", default="wiki")
+    lnt.add_argument(
+        "--allow-orphans",
+        action="store_true",
+        help="Downgrade 'not in index.md' errors to warnings (Quarto listing pages are the canonical index)",
+    )
     lnt.set_defaults(func=_cmd_lint)
 
     srch = sub.add_parser("search", help="Ripgrep-backed FTS over wiki/")

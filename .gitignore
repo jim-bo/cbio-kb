@@ -24,4 +24,5 @@ __pycache__/
 
 # Editor / worktrees
 .claude/worktrees/
+.worktrees/
 wiki/.obsidian/workspace.json

@@ -96,8 +96,20 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
     index = wiki_dir / "index.md"
     if index.exists():
         index_text = index.read_text()
+        # Sections whose per-section index.qmd uses a Quarto listing with
+        # `contents: "*.md"` auto-include every page in the directory, so any
+        # page under such a section is reachable from the site even if not
+        # named in the top-level index.md.
+        listed_sections: set[str] = set()
+        for qmd in wiki_dir.glob("*/index.qmd"):
+            qtext = qmd.read_text()
+            if re.search(r"contents:\s*\"?\*\.md\"?", qtext):
+                listed_sections.add(qmd.parent.name)
         for rel in all_pages:
             if rel == "index.md":
+                continue
+            section = rel.split("/", 1)[0]
+            if section in listed_sections:
                 continue
             stem = Path(rel).stem
             if stem not in index_text and rel not in index_text:

@@ -38,6 +38,19 @@ The `wiki/` directory is the Obsidian vault. Schema files are reachable from
 inside the vault via the symlinked `wiki/_schema/` folder. Windows users need
 `git config --global core.symlinks true` before cloning.
 
+## Published site
+
+The wiki is also rendered as a static site at
+<https://jim-bo.github.io/cbio-kb/>. To preview locally:
+
+```bash
+brew install quarto
+quarto preview wiki
+```
+
+A GitHub Actions workflow (`.github/workflows/publish-site.yml`) renders and
+deploys to the `gh-pages` branch on every push to `main`.
+
 ## Pipeline (rebuild from scratch)
 
 All artifacts land under `data/`, which is gitignored. Only `data/seed/` is

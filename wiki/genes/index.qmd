@@ -1,0 +1,15 @@
+---
+title: Genes
+listing:
+  contents: "*.md"
+  type: table
+  fields: [symbol, cancer_types, tags]
+  field-display-names:
+    symbol: "Symbol"
+    cancer_types: "Cancer types"
+    tags: "Tags"
+  sort: "symbol asc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 100
+---

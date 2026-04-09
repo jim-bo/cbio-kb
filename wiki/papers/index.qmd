@@ -1,0 +1,17 @@
+---
+title: Papers
+listing:
+  contents: "*.md"
+  type: table
+  fields: [title, year, journal, cancer_types, genes]
+  field-display-names:
+    title: "Title"
+    year: "Year"
+    journal: "Journal"
+    cancer_types: "Cancer types"
+    genes: "Genes"
+  sort: "year desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 50
+---

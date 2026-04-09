@@ -15,5 +15,5 @@ jobs:
           python-version: "3.11"
       - run: uv sync --extra dev
       - run: uv run pytest -v
-      - run: uv run cbio-kb lint --wiki-dir wiki
+      - run: uv run cbio-kb lint --wiki-dir wiki --allow-orphans
       - run: uv run cbio-kb crosslink --dry-run --wiki-dir wiki

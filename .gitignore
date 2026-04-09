@@ -12,6 +12,11 @@ pmid_to_pmcid.csv
 # Scratch
 possible_improvements.md
 
+# Quarto
+wiki/_site/
+.quarto/
+wiki/.quarto/
+
 # Python
 __pycache__/
 *.pyc

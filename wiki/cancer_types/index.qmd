@@ -1,0 +1,16 @@
+---
+title: Cancer Types
+listing:
+  contents: "*.md"
+  type: table
+  fields: [name, oncotree_code, main_type, parent]
+  field-display-names:
+    name: "Name"
+    oncotree_code: "OncoTree code"
+    main_type: "Main type"
+    parent: "Parent"
+  sort: "name asc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 100
+---

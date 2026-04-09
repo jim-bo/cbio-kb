@@ -1,0 +1,14 @@
+---
+title: Methods
+listing:
+  contents: "*.md"
+  type: table
+  fields: [name, kind]
+  field-display-names:
+    name: "Name"
+    kind: "Kind"
+  sort: "name asc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 100
+---

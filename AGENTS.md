@@ -52,6 +52,8 @@ Rules:
 - CLI is **read-only** from our perspective. All edits still go through `Edit` / `Write` so diffs land in git.
 - Paths are vault-relative (`papers/39506116.md`, not `wiki/papers/39506116.md`).
 - Always pass `format=json` where supported.
+- **Reload after Write.** After any `Write` into `wiki/`, call `obsidian vault=wiki reload` before the next CLI read against that file — the running Obsidian app does not pick up filesystem changes automatically, so stale-index lookups fail silently. See `docs/obsidian-cli.md`.
+- **Narrow Reads for merge-append.** The `Edit` tool requires a prior `Read` on the same file. For large entity pages, use `obsidian vault=wiki outline path=… format=json` to find the section line, then `Read offset=<line> limit=<slice_size>` for just that section — not a full-file Read. See `docs/obsidian-cli.md`.
 
 ## Available Agents
 

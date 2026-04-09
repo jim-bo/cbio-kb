@@ -70,3 +70,5 @@
 - method: log-linear-mixed-effects-model — observed in PMID:37910594 — note: longitudinal model for %TVGR per 6 months and doubling time in IDH-mt LGG
 - method: joint-longitudinal-survival-model — observed in PMID:37910594 — note: joint model linking ln(tumor volume) trajectory to NIFS and OS hazard
 - method: nlp-prissmm — observed in PMID:39506116 — note: transformer NLP trained on GENIE BPC PRISSMM curation to annotate 705,241 radiology reports for MSK-CHORD
+- method: msk-hemepact — observed in PMID:38995739 — note: MSK-HemePACT ~585-gene heme-focused targeted hybrid-capture panel applied to tumor and CSF ctDNA in r/r CNS lymphoma
+- method: msk-impact-panel — observed in PMID:38995739 — note: MSK-IMPACT referenced alongside MSK-HemePACT in r/r CNS lymphoma ibrutinib trial; used on independent 177-patient PCNSL SOC cohort

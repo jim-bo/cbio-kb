@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>cbio-kb</title>
+<title>Methods – cbio-kb</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1bacb4435680e45c9ebf9ff2856e7072.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1bacb4435680e45c9ebf9ff2856e7072.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,18 +71,76 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-kind',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">cbio-kb</span>
     </a>
   </div>
@@ -91,35 +151,35 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers/index.html"> 
+    <a class="nav-link" href="../papers/index.html"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./genes/index.html"> 
+    <a class="nav-link" href="../genes/index.html"> 
 <span class="menu-text">Genes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cancer_types/index.html"> 
+    <a class="nav-link" href="../cancer_types/index.html"> 
 <span class="menu-text">Cancers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./datasets/index.html"> 
+    <a class="nav-link" href="../datasets/index.html"> 
 <span class="menu-text">Datasets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./drugs/index.html"> 
+    <a class="nav-link" href="../drugs/index.html"> 
 <span class="menu-text">Drugs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./methods/index.html"> 
+    <a class="nav-link active" href="../methods/index.html" aria-current="page"> 
 <span class="menu-text">Methods</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./themes/index.html"> 
+    <a class="nav-link" href="../themes/index.html"> 
 <span class="menu-text">Themes</span></a>
   </li>  
 </ul>
@@ -133,14 +193,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">cbio-kb</h1>
-<p class="subtitle lead">A living knowledge base of cBioPortal publications</p>
+<h1 class="title">Methods</h1>
 </div>
 
 
@@ -157,81 +218,347 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>cbio-kb</strong> is a structured, cross-linked reading of the primary literature behind <a href="https://www.cbioportal.org/">cBioPortal</a> studies. It follows the <a href="https://x.com/karpathy/status/2039805659525644595">LLM knowledge base pattern described by Andrej Karpathy</a> (<a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f">idea file gist</a>): raw source documents are incrementally compiled by an LLM into a directory of interlinked Markdown pages, with the LLM maintaining summaries, backlinks, and indexes as the corpus grows.</p>
-<p>Every paper in the corpus is distilled into a standardized page — cohort, methods, key findings, clinical implications, open questions — and every gene, cancer type, dataset, drug, and assay mentioned gets its own page that aggregates what the corpus collectively says about it.</p>
-<p>The goal is to make it fast to answer questions like:</p>
-<ul>
-<li><em>What has been published about</em> <strong><a href="./genes/FGFR3.html">FGFR3</a></strong> <em>in</em> <strong><a href="./cancer_types/BLCA.html">urothelial carcinoma</a></strong> <em>?</em></li>
-<li><em>Which studies profiled the</em> <strong><a href="./datasets/msk_impact_2017.html">MSK-IMPACT</a></strong> <em>cohort, and what did they find?</em></li>
-<li><em>Where has</em> <strong><a href="./drugs/erdafitinib.html">erdafitinib</a></strong> <em>resistance been characterized?</em></li>
-<li><em>What methods have been used to detect clonal hematopoiesis in solid-tumor sequencing?</em></li>
-</ul>
-<p>Every claim on an entity page is traceable back to a specific paper via <code>PMID:</code> citations, and every paper page links out to the entities it touches. Nothing is invented — unverified terms are flagged rather than canonicalized.</p>
-<section id="browse" class="level2">
-<h2 class="anchored" data-anchor-id="browse">Browse</h2>
-<table class="caption-top table">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th>Section</th>
-<th>Count</th>
-<th>What you’ll find</th>
+<tr>
+
+<th>
+Name
+</th>
+
+<th>
+Kind
+</th>
+
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><a href="./papers/index.html">Papers</a></td>
-<td>17</td>
-<td>Per-publication summaries: cohort, methods, findings, citations</td>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1775744806029" data-listing-reading-time-sort="1" data-listing-word-count-sort="107" data-listing-title-sort="16S rRNA gene sequencing" data-listing-filename-sort="16s-rrna-seq.md">
+<td>
+<span class="listing-name">16S rRNA gene sequencing</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="even">
-<td><a href="./genes/index.html">Genes</a></td>
-<td>123</td>
-<td>Alterations, co-occurrence, therapeutic relevance across the corpus</td>
+
+<tr data-index="1" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="74" data-listing-title-sort="Archer FusionPlex" data-listing-filename-sort="archer-fusionplex.md">
+<td>
+<span class="listing-name">Archer FusionPlex</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="odd">
-<td><a href="./cancer_types/index.html">Cancer types</a></td>
-<td>40</td>
-<td>OncoTree-anchored disease pages linking studies and alterations</td>
+
+<tr data-index="2" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="85" data-listing-title-sort="Bayesian NMF" data-listing-filename-sort="bayesian-nmf.md">
+<td>
+<span class="listing-name">Bayesian NMF</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="even">
-<td><a href="./datasets/index.html">Datasets</a></td>
-<td>20</td>
-<td>cBioPortal studies with cohort details and linked publications</td>
+
+<tr data-index="3" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="106" data-listing-title-sort="CLUMPS" data-listing-filename-sort="clumps.md">
+<td>
+<span class="listing-name">CLUMPS</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="odd">
-<td><a href="./drugs/index.html">Drugs</a></td>
-<td>31</td>
-<td>Targeted therapies, resistance patterns, evidence in the corpus</td>
+
+<tr data-index="4" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="84" data-listing-title-sort="Consensus Molecular Subtype (CMS) classifier" data-listing-filename-sort="cms-classifier.md">
+<td>
+<span class="listing-name">Consensus Molecular Subtype (CMS) classifier</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="even">
-<td><a href="./methods/index.html">Methods</a></td>
-<td>31</td>
-<td>Sequencing assays, gene panels, and analytical pipelines</td>
+
+<tr data-index="5" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="83" data-listing-title-sort="ConsensusTME" data-listing-filename-sort="consensus-tme.md">
+<td>
+<span class="listing-name">ConsensusTME</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
-<tr class="odd">
-<td><a href="./themes/index.html">Themes</a></td>
-<td>—</td>
-<td>Cross-cutting syntheses (in progress)</td>
+
+<tr data-index="6" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="110" data-listing-title-sort="FACETS" data-listing-filename-sort="facets.md">
+<td>
+<span class="listing-name">FACETS</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
 </tr>
+
+<tr data-index="7" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="85" data-listing-title-sort="Fluorescence in situ hybridization (FISH)" data-listing-filename-sort="fish.md">
+<td>
+<span class="listing-name">Fluorescence in situ hybridization (FISH)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="93" data-listing-title-sort="IgCaller" data-listing-filename-sort="igcaller.md">
+<td>
+<span class="listing-name">IgCaller</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="82" data-listing-title-sort="Illumina 450k methylation array" data-listing-filename-sort="450k-methylation-array.md">
+<td>
+<span class="listing-name">Illumina 450k methylation array</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Immunoediting quantification" data-listing-filename-sort="immunoediting-quantification.md">
+<td>
+<span class="listing-name">Immunoediting quantification</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="140" data-listing-title-sort="Immunologic Constant of Rejection (ICR) signature" data-listing-filename-sort="icr-signature.md">
+<td>
+<span class="listing-name">Immunologic Constant of Rejection (ICR) signature</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="126" data-listing-title-sort="Joint longitudinal-survival model" data-listing-filename-sort="joint-longitudinal-survival-model.md">
+<td>
+<span class="listing-name">Joint longitudinal-survival model</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="117" data-listing-title-sort="Log-linear mixed-effects model" data-listing-filename-sort="log-linear-mixed-effects-model.md">
+<td>
+<span class="listing-name">Log-linear mixed-effects model</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="155" data-listing-title-sort="MSK-ACCESS (ACCESS129)" data-listing-filename-sort="ACCESS129.md">
+<td>
+<span class="listing-name">MSK-ACCESS (ACCESS129)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="128" data-listing-title-sort="MSK-IMPACT 341 (IMPACT341)" data-listing-filename-sort="IMPACT341.md">
+<td>
+<span class="listing-name">MSK-IMPACT 341 (IMPACT341)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="149" data-listing-title-sort="MSK-IMPACT 410 (IMPACT410)" data-listing-filename-sort="IMPACT410.md">
+<td>
+<span class="listing-name">MSK-IMPACT 410 (IMPACT410)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="152" data-listing-title-sort="MSK-IMPACT 468 (IMPACT468)" data-listing-filename-sort="IMPACT468.md">
+<td>
+<span class="listing-name">MSK-IMPACT 468 (IMPACT468)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="147" data-listing-title-sort="MSK-IMPACT 505 (IMPACT505)" data-listing-filename-sort="IMPACT505.md">
+<td>
+<span class="listing-name">MSK-IMPACT 505 (IMPACT505)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="19" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="2" data-listing-word-count-sort="373" data-listing-title-sort="MSK-IMPACT panel (generic)" data-listing-filename-sort="msk-impact-panel.md">
+<td>
+<span class="listing-name">MSK-IMPACT panel (generic)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="20" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="168" data-listing-title-sort="NLP annotation with PRISSMM curation" data-listing-filename-sort="nlp-prissmm.md">
+<td>
+<span class="listing-name">NLP annotation with PRISSMM curation</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="21" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="158" data-listing-title-sort="OncoKB" data-listing-filename-sort="oncokb.md">
+<td>
+<span class="listing-name">OncoKB</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="22" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="93" data-listing-title-sort="PhylogicNDT" data-listing-filename-sort="phylogicndt.md">
+<td>
+<span class="listing-name">PhylogicNDT</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="23" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="160" data-listing-title-sort="RNA sequencing" data-listing-filename-sort="rna-seq.md">
+<td>
+<span class="listing-name">RNA sequencing</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="24" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" data-listing-title-sort="Reduced representation bisulfite sequencing (RRBS)" data-listing-filename-sort="rrbs.md">
+<td>
+<span class="listing-name">Reduced representation bisulfite sequencing (RRBS)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="25" data-listing-file-modified-sort="1775744806031" data-listing-reading-time-sort="1" data-listing-word-count-sort="81" data-listing-title-sort="TCR sequencing (TCR-seq)" data-listing-filename-sort="tcr-seq.md">
+<td>
+<span class="listing-name">TCR sequencing (TCR-seq)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="26" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="108" data-listing-title-sort="Targeted DNA sequencing" data-listing-filename-sort="targeted-dna-seq.md">
+<td>
+<span class="listing-name">Targeted DNA sequencing</span>
+</td>
+<td>
+<span class="listing-kind">sequencing</span>
+</td>
+
+</tr>
+
+<tr data-index="27" data-listing-file-modified-sort="1775744806031" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-title-sort="Volumetric MRI segmentation" data-listing-filename-sort="volumetric-mri-segmentation.md">
+<td>
+<span class="listing-name">Volumetric MRI segmentation</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="28" data-listing-file-modified-sort="1775744806031" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" data-listing-title-sort="Whole-exome sequencing (WES)" data-listing-filename-sort="whole-exome-seq.md">
+<td>
+<span class="listing-name">Whole-exome sequencing (WES)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="29" data-listing-file-modified-sort="1775744806031" data-listing-reading-time-sort="2" data-listing-word-count-sort="232" data-listing-title-sort="Whole-genome sequencing (WGS)" data-listing-filename-sort="whole-genome-seq.md">
+<td>
+<span class="listing-name">Whole-genome sequencing (WGS)</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
+<tr data-index="30" data-listing-file-modified-sort="1775744806030" data-listing-reading-time-sort="1" data-listing-word-count-sort="138" data-listing-title-sort="ctDx Lung" data-listing-filename-sort="ctdx-lung.md">
+<td>
+<span class="listing-name">ctDx Lung</span>
+</td>
+<td>
+<span class="listing-kind">method</span>
+</td>
+
+</tr>
+
 </tbody>
 </table>
-</section>
-<section id="how-to-read-a-page" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-read-a-page">How to read a page</h2>
-<ul>
-<li><strong>Paper pages</strong> follow a fixed template — start with <em>TL;DR</em>, then <em>Cohort &amp; data</em>, <em>Key findings</em>, <em>Clinical implications</em>, and <em>Limitations &amp; open questions</em>. Every section cites back to the source PMID.</li>
-<li><strong>Entity pages</strong> (genes, cancer types, drugs, etc.) aggregate everything the corpus says about that entity, with every claim tied to the paper it came from. If an entity has only one citing paper, the page will be short — that is expected.</li>
-<li><strong>Unverified flags.</strong> When an entity couldn’t be validated against OncoTree, HUGO, or cBioPortal’s study/panel catalogs, its page carries an <code>unverified: true</code> flag. Treat those pages as provisional.</li>
-</ul>
-</section>
-<section id="about-this-site" class="level2">
-<h2 class="anchored" data-anchor-id="about-this-site">About this site</h2>
-<p>This site is built from a Markdown vault that lives in a git repository. The content is maintained by a small set of sub-agents (paper compiler, entity writer, crosslinker, linter) that read raw paper text and write into the wiki. The rendering, search, and navigation you see here are from <a href="https://quarto.org/">Quarto</a>. For the full pipeline and engineering details, see the <a href="https://github.com/jim-bo/cbio-kb">project repository</a>.</p>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -642,4 +969,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/index.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/index.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/methods/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/methods/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

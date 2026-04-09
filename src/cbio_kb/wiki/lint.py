@@ -1,0 +1,145 @@
+"""Wiki linter: frontmatter, broken links, orphans, missing required sections,
+and ontology validation against schema/ontology/*.json (cBioPortal + OncoTree).
+"""
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+
+from cbio_kb.ontology import lookup as ontology
+
+REQUIRED_FRONTMATTER = {
+    "papers": {"pmid", "title"},
+    "genes": {"symbol"},
+    "cancer_types": {"name"},
+    "datasets": {"name"},
+    "drugs": {"name"},
+    "methods": {"name"},
+    "themes": {"title"},
+}
+
+LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
+
+
+def _parse_frontmatter(text: str) -> dict[str, str]:
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return {}
+    fm: dict[str, str] = {}
+    for line in m.group(1).splitlines():
+        if ":" in line:
+            k, _, v = line.partition(":")
+            fm[k.strip()] = v.strip()
+    return fm
+
+
+def _parse_list_field(text: str, field: str) -> list[str]:
+    """Pull a YAML-ish list out of frontmatter. Handles inline `[a, b]` and
+    block `- a\n- b` forms."""
+    fm_match = FRONTMATTER_RE.match(text)
+    if not fm_match:
+        return []
+    fm = fm_match.group(1)
+    inline = re.search(rf"^{field}:\s*\[(.*?)\]\s*$", fm, re.MULTILINE)
+    if inline:
+        return [s.strip().strip('"\'') for s in inline.group(1).split(",") if s.strip()]
+    block = re.search(rf"^{field}:\s*\n((?:\s+-\s+.*\n?)+)", fm, re.MULTILINE)
+    if block:
+        return [
+            line.strip().lstrip("-").strip().strip('"\'')
+            for line in block.group(1).splitlines()
+            if line.strip().startswith("-")
+        ]
+    return []
+
+
+def run(wiki_dir: Path) -> int:
+    if not wiki_dir.exists():
+        print(f"[!] wiki dir not found: {wiki_dir}")
+        return 1
+
+    repo_root = wiki_dir.parent
+    canonical = ontology.load_canonical(repo_root / "schema" / "ontology")
+
+    ENTITY_DIRS = {"genes", "cancer_types", "datasets", "drugs", "methods", "themes"}
+    errors: list[str] = []
+    stubs_needed: set[str] = set()
+    unverified: list[str] = []
+    all_pages = {p.relative_to(wiki_dir).as_posix(): p for p in wiki_dir.rglob("*.md")}
+
+    for rel, path in sorted(all_pages.items()):
+        text = path.read_text()
+        fm = _parse_frontmatter(text)
+        section = rel.split("/", 1)[0]
+        if section in REQUIRED_FRONTMATTER:
+            missing = REQUIRED_FRONTMATTER[section] - {k for k, v in fm.items() if v}
+            if missing:
+                errors.append(f"{rel}: missing frontmatter {sorted(missing)}")
+
+        for href in LINK_RE.findall(text):
+            if href.startswith(("http://", "https://", "#", "mailto:")):
+                continue
+            target = (path.parent / href).resolve()
+            try:
+                target_rel = target.relative_to(wiki_dir.resolve()).as_posix()
+            except ValueError:
+                continue
+            if target_rel not in all_pages and not target.exists():
+                first_seg = target_rel.split("/", 1)[0]
+                if first_seg in ENTITY_DIRS:
+                    stubs_needed.add(target_rel)
+                else:
+                    errors.append(f"{rel}: broken link -> {href}")
+
+    index = wiki_dir / "index.md"
+    if index.exists():
+        index_text = index.read_text()
+        for rel in all_pages:
+            if rel == "index.md":
+                continue
+            stem = Path(rel).stem
+            if stem not in index_text and rel not in index_text:
+                errors.append(f"orphan (not in index.md): {rel}")
+
+    # Ontology validation against cBioPortal canonical lists
+    field_to_canon = {
+        "genes": "genes",
+        "cancer_types": "cancer_types",
+        "datasets": "datasets",
+    }
+    if any(canonical[k] for k in field_to_canon.values()):
+        for rel, path in sorted(all_pages.items()):
+            if not rel.startswith("papers/"):
+                continue
+            text = path.read_text()
+            for field, canon_key in field_to_canon.items():
+                canon = canonical[canon_key]
+                if not canon:
+                    continue
+                for value in _parse_list_field(text, field):
+                    if value not in canon:
+                        unverified.append(f"{rel}: {field}={value} (not in cbioportal canonical)")
+
+    for e in errors:
+        print(e)
+    if stubs_needed:
+        print(f"\n[stubs] {len(stubs_needed)} entity page(s) referenced but not yet created:")
+        for s in sorted(stubs_needed):
+            print(f"  {s}")
+    if unverified:
+        print(f"\n[unverified] {len(unverified)} non-canonical term(s) — corpus-grown, promote via _observed.md:")
+        for u in unverified:
+            print(f"  {u}")
+
+    if errors:
+        print(
+            f"\n[lint] {len(errors)} structural issue(s), {len(stubs_needed)} stub(s), "
+            f"{len(unverified)} unverified term(s)"
+        )
+        return 1
+    print(
+        f"[lint] ok ({len(stubs_needed)} stub(s), {len(unverified)} unverified term(s))"
+    )
+    return 0

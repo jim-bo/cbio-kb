@@ -1,0 +1,72 @@
+# Observed (corpus-grown) terms
+
+- drug: ibrutinib — observed in PMID:35927489 — note: BTK inhibitor referenced re TP53/17p prognosis
+- drug: venetoclax — observed in PMID:35927489 — note: BCL2 inhibitor referenced re TP53/17p prognosis
+- drug: fludarabine — observed in PMID:35927489 — note: chemotherapy; RRM1 is target
+- method: whole-exome-seq — observed in PMID:35927489 — note: 984 WES CLL samples
+- method: whole-genome-seq — observed in PMID:35927489 — note: 177 WGS samples
+- method: rna-seq — observed in PMID:35927489 — note: n=712 transcriptomes
+- method: rrbs — observed in PMID:35927489 — note: reduced representation bisulfite sequencing, n=509
+- method: 450k-methylation-array — observed in PMID:35927489 — note: Illumina 450k array, n=490
+- method: phylogicndt — observed in PMID:35927489 — note: clonal/temporal ordering tool
+- method: clumps — observed in PMID:35927489 — note: 3D structural mutation clustering
+- method: igcaller — observed in PMID:35927489 — note: Ig locus SV caller
+- method: bayesian-nmf — observed in PMID:35927489 — note: mutational signature decomposition
+- dataset: pcawg — observed in PMID:36723991 — note: PCAWG pan-cancer WGS reference cohort (n=2,780) used as mutational-burden benchmark
+- method: whole-genome-seq — observed in PMID:36723991 — note: WGS on FACS-purified HRS cells in cHL
+- method: whole-exome-seq — observed in PMID:36723991 — note: WES on additional 36 cHL cases
+- drug: vemurafenib — observed in PMID:36862133 — note: BRAF V600E inhibitor used in histiocytosis
+- drug: dabrafenib — observed in PMID:36862133 — note: BRAF inhibitor used in histiocytosis
+- drug: trametinib — observed in PMID:36862133 — note: MEK inhibitor for MAP2K1-mutant histiocytosis
+- drug: cobimetinib — observed in PMID:36862133 — note: MEK inhibitor for MAP2K1-mutant histiocytosis
+- drug: alpelisib — observed in PMID:36862133 — note: PI3Kalpha inhibitor; durable response in PIK3CA-mutant histiocytosis
+- drug: pembrolizumab — observed in PMID:36862133 — note: anti-PD1 used in TMB-H ovarian GCT
+- drug: trastuzumab — observed in PMID:36862133 — note: anti-HER2 used in ERBB2-amplified female GCT
+- drug: imatinib — observed in PMID:36862133 — note: KIT inhibitor referenced
+- drug: sirolimus — observed in PMID:36862133 — note: mTOR inhibitor referenced
+- method: whole-exome-seq — observed in PMID:36862133 — note: WES recapture on 62 ovarian GCT tumor/normal pairs
+- method: rna-seq — observed in PMID:36862133 — note: targeted RNA-seq detected PRDX1-NTRK1 fusion
+- dataset: genie — observed in PMID:36862133 — note: AACR Project GENIE referenced; not a single cBioPortal studyId
+- drug: cyclophosphamide — observed in PMID:37078708 — note: CHOP backbone agent
+- drug: doxorubicin — observed in PMID:37078708 — note: CHOP backbone agent
+- drug: vincristine — observed in PMID:37078708 — note: CHOP backbone agent
+- drug: prednisone — observed in PMID:37078708 — note: CHOP backbone agent
+- drug: etoposide — observed in PMID:37078708 — note: CHOEP/EPOCH addition
+- drug: brentuximab-vedotin — observed in PMID:37078708 — note: BV-CH(E)P regimen for CD30+ PTCL
+- drug: cyclophosphamide — observed in PMID:37315267 — note: alkylating agent in RMS chemo backbone
+- drug: irinotecan — observed in PMID:37315267 — note: used in relapsed/high-risk RMS regimens
+- drug: vinorelbine — observed in PMID:37315267 — note: used in maintenance/relapsed RMS
+- drug: bevacizumab — observed in PMID:37315267 — note: anti-VEGF used in ARST0431
+- drug: temsirolimus — observed in PMID:37315267 — note: mTOR inhibitor used in ARST0431
+- method: archer-fusionplex — observed in PMID:37315267 — note: targeted RNA fusion panel for FOXO1 fusions
+- method: fish — observed in PMID:37315267 — note: BAC probes flanking FOXO1/PAX3/PAX7 for fusion detection
+- drug: osimertinib — observed in PMID:37591896 — note: 3rd-gen EGFR TKI; partial CNS resistance in non-canonical EGFR LMD
+- drug: erlotinib — observed in PMID:37591896 — note: 1st-gen EGFR TKI used prior to BM resection
+- method: rna-seq — observed in PMID:37202560 — note: bulk RNA-seq on 348 AC-ICAM tumor/normal pairs
+- method: whole-exome-seq — observed in PMID:37202560 — note: WES on AC-ICAM for neoantigen and immunoediting analysis
+- method: whole-genome-seq — observed in PMID:37202560 — note: tumor WGS used for microbiome read mining
+- method: tcr-seq — observed in PMID:37202560 — note: deep TCRbeta sequencing (immunoSEQ) on AC-ICAM
+- method: 16s-rrna-seq — observed in PMID:37202560 — note: 16S rRNA gene sequencing on AC-ICAM and ICAM42
+- method: icr-signature — observed in PMID:37202560 — note: 20-gene Immunologic Constant of Rejection signature for prognostic stratification
+- method: consensus-tme — observed in PMID:37202560 — note: ConsensusTME deconvolution of immune cell subsets
+- method: cms-classifier — observed in PMID:37202560 — note: Consensus Molecular Subtype classifier for colon cancer
+- method: immunoediting-quantification — observed in PMID:37202560 — note: observed-vs-expected neoantigen ratio scoring genetic immunoediting
+- drug: fluorouracil — observed in PMID:36493333 — note: 5-FU backbone of FOLFOX/FOLFIRI regimens in appendiceal adenocarcinoma
+- drug: leucovorin — observed in PMID:36493333 — note: folinic acid in FOLFOX/FOLFIRI backbones for appendiceal adenocarcinoma
+- drug: oxaliplatin — observed in PMID:36493333 — note: platinum in FOLFOX for appendiceal adenocarcinoma
+- drug: irinotecan — observed in PMID:36493333 — note: topo I inhibitor in FOLFIRI for appendiceal adenocarcinoma
+- drug: capecitabine — observed in PMID:36493333 — note: oral 5-FU prodrug used in appendiceal adenocarcinoma
+- method: ctdx-lung — observed in PMID:36357680 — note: Resolution Bioscience ctDx Lung targeted ctDNA NGS panel
+- method: oncokb — observed in PMID:36357680 — note: OncoKB precision oncology knowledge base for variant annotation
+- method: oncokb — observed in PMID:36493333 — note: OncoKB used to annotate oncogenic/actionable variants
+- method: facets — observed in PMID:36493333 — note: FACETS allele-specific copy-number / clonality tool
+- method: msk-impact-panel — observed in PMID:36493333 — note: MSK-IMPACT targeted hybrid-capture sequencing (generic slug)
+- method: msk-impact-panel — observed in PMID:37084736 — note: MSK-IMPACT targeted panel used for LUAD organotropism cohort
+- method: targeted-dna-seq — observed in PMID:25730765 — note: targeted DNA resequencing for validation/deep coverage in infant MLL-R ALL
+- drug: erdafitinib — observed in PMID:37682528 — note: FDA-approved pan-FGFR inhibitor for FGFR2/3-altered metastatic urothelial carcinoma
+- drug: infigratinib — observed in PMID:37682528 — note: FGFR inhibitor referenced for prior cfDNA resistance study in urothelial carcinoma
+- drug: enfortumab-vedotin — observed in PMID:37682528 — note: Nectin-4 ADC cited as alternative line in metastatic urothelial carcinoma
+- method: volumetric-mri-segmentation — observed in PMID:37910594 — note: manual 3D T2/FLAIR volumetric MRI segmentation (TeraRecon iNtuition) for tumor volume growth rate in IDH-mt LGG
+- method: log-linear-mixed-effects-model — observed in PMID:37910594 — note: longitudinal model for %TVGR per 6 months and doubling time in IDH-mt LGG
+- method: joint-longitudinal-survival-model — observed in PMID:37910594 — note: joint model linking ln(tumor volume) trajectory to NIFS and OS hazard
+- method: nlp-prissmm — observed in PMID:39506116 — note: transformer NLP trained on GENIE BPC PRISSMM curation to annotate 705,241 radiology reports for MSK-CHORD

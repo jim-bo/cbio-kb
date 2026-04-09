@@ -1,0 +1,30 @@
+{
+  "synced_at": "2026-04-08T14:52:57.571137+00:00",
+  "sources": {
+    "genes": {
+      "count": 44896,
+      "key": "hugoGeneSymbol",
+      "ok": true
+    },
+    "studies": {
+      "count": 535,
+      "key": "studyId",
+      "ok": true
+    },
+    "cancer_types": {
+      "count": 897,
+      "key": "cancerTypeId",
+      "ok": true
+    },
+    "gene_panels": {
+      "count": 69,
+      "key": "genePanelId",
+      "ok": true
+    },
+    "oncotree": {
+      "count": 897,
+      "key": "code",
+      "ok": true
+    }
+  }
+}

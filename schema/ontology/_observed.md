@@ -80,3 +80,6 @@
 - drug: crizotinib — observed in PMID:39289779 — note: ALK/MET inhibitor; patient with MET exon 14 skipping transitioned from crizotinib to capmatinib upon CSF-detected resistance
 - drug: capmatinib — observed in PMID:39289779 — note: MET inhibitor; used after crizotinib resistance detected in CSF ctDNA
 - method: oncokb — observed in PMID:39289779 — note: OncoKB used to annotate clinical actionability of CSF ctDNA alterations (levels 1-4, R1-R2)
+- drug: gemcitabine — observed in PMID:39214094 — note: gemcitabine/nab-paclitaxel (GnP) alternative first-line chemo regimen in COMPASS trial for advanced PDAC
+- drug: nab-paclitaxel — observed in PMID:39214094 — note: gemcitabine/nab-paclitaxel (GnP) alternative first-line chemo regimen in COMPASS trial for advanced PDAC
+- method: rna-seq — observed in PMID:39214094 — note: bulk RNA-seq on 100 resected PDAC tumors from COMPASS trial cohort for allele-specific transcriptomic analysis

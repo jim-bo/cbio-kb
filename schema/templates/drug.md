@@ -2,6 +2,8 @@
 name:
 targets: []
 drug_class:
+canonical_source:
+unverified:
 tags: []
 processed_by:
 processed_at:

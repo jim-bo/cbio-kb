@@ -75,13 +75,31 @@ uv run cbio-kb index search -q "KRAS G12C in lung cancer" --rerank
 
 ## Wiki maintenance (agent-driven)
 
-See [AGENTS.md](./AGENTS.md) for the runbook. Core flow per paper:
+See [AGENTS.md](./AGENTS.md) for the full runbook. Core flow per paper:
 
 1. `uv run cbio-kb ingest extract` to produce `data/raw/papers/{pmid}.md`.
 2. Dispatch the `paper-compiler` agent → writes `wiki/papers/{pmid}.md`.
 3. Dispatch `entity-page-writer` for each entity kind.
-4. `uv run cbio-kb crosslink` (deterministic, no LLM).
-5. `uv run cbio-kb lint` and commit.
+4. `uv run cbio-kb crosslink --update-provenance` (deterministic, no LLM).
+5. `uv run cbio-kb wiki build-index` (deterministic, regenerates index.md).
+6. `uv run cbio-kb lint` and commit.
+
+### Reprocessing after changes
+
+When ontology or templates change, you don't always need to recompile everything:
+
+```bash
+# Tier 1: patch frontmatter to match updated templates (free, no LLM)
+uv run cbio-kb wiki reprocess-frontmatter --dry-run   # preview
+uv run cbio-kb wiki reprocess-frontmatter              # apply
+
+# Tier 2: find papers with extraction gaps, generate targeted prompts
+uv run cbio-kb wiki reprocess-extract                  # JSON manifest
+uv run cbio-kb wiki reprocess-extract --prompts        # agent-ready prompts
+
+# Tier 3: full recompile (expensive, only when templates fundamentally change)
+# Re-dispatch paper-compiler for each PMID
+```
 
 ## MCP server
 
@@ -99,7 +117,7 @@ src/cbio_kb/        Python package
   ingest/           PDF → Markdown pipeline
   index/            FAISS semantic search
   ontology/         cBioPortal + OncoTree validation
-  wiki/             crosslinker, linter, fts
+  wiki/             vault queries, crosslinker, linter, reprocess, fts
   logs/             session transcript stitcher
   server/           MCP server
 wiki/               Obsidian vault (papers, genes, cancer_types, …)
@@ -110,6 +128,12 @@ tests/              pytest suite
 data/               local artifacts (gitignored)
   seed/             committed seed CSVs
 ```
+
+## Future improvements
+
+- **Theme synthesis**: The `theme-synthesizer` agent is defined but hasn't been
+  run at scale yet. Cross-paper theme pages would surface convergence and
+  conflicts across the corpus.
 
 ## License
 

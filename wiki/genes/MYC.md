@@ -1,10 +1,10 @@
 ---
 symbol: MYC
 aliases: []
-cancer_types: [CLLSLL, LUAD, NSCLC]
+cancer_types: [CLLSLL, LUAD, NSCLC, ANGS]
 tags: [oncogene, amplification, brain-metastasis]
 processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # MYC
@@ -19,15 +19,17 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [NSCLC](../cancer_types/NSCLC.md) brain metastases: MYC alterations enriched in [LUAD](../cancer_types/LUAD.md) primary tumors from patients who later developed BM (BM+ vs BM−/EM−) [PMID:37591896](../papers/37591896.md).
 - MYC amplifications associated with multifocal regional intracranial progression (22% vs 0% in local progressors, p=0.023); MYC pathway alterations enriched in LMD (p=0.013, q=0.14) and regional progression groups [PMID:37591896](../papers/37591896.md).
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the elastic-net Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) [PMID:37477937](../papers/37477937.md).
+- MYC amplification was present in 75% of RT-[ANGS](../cancer_types/ANGS.md) (33/44), exclusively in breast/chest wall cases (87% of 38 breast cases); no RT-AS from other anatomic sites were MYC-amplified (vs 13% sporadic AS). MYC-amplified RT-AS had significantly shorter radiation-to-sarcoma latency (log-rank P=0.0083) [PMID:37350195](../papers/37350195.md).
 
 ## Cancer types (linked)
 
 - [CLLSLL](../cancer_types/CLLSLL.md) — rare adverse 8q gain in M-CLL [PMID:35927489](../papers/35927489.md).
 - [LUAD](../cancer_types/LUAD.md) / [NSCLC](../cancer_types/NSCLC.md) — enriched in brain-metastatic primaries and linked to multifocal regional intracranial progression [PMID:37591896](../papers/37591896.md).
+- [ANGS](../cancer_types/ANGS.md) — MYC amplification in 75% of RT-AS (breast/chest wall), defining the dominant genomic event in radiation-associated angiosarcoma; co-occurs with [FLT4](../genes/FLT4.md), [CRKL](../genes/CRKL.md), [HRAS](../genes/HRAS.md), and [KMT2D](../genes/KMT2D.md) [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- None reported.
+- In RT-[ANGS](../cancer_types/ANGS.md), MYC amplification co-occurs with [FLT4](../genes/FLT4.md), [CRKL](../genes/CRKL.md), [HRAS](../genes/HRAS.md), and [KMT2D](../genes/KMT2D.md) alterations [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic relevance
 
@@ -36,11 +38,13 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 ## Open questions
 
 - Whether MYC-amplified [NSCLC](../cancer_types/NSCLC.md) brain metastases respond differently to available systemic therapy is not resolved [PMID:37591896](../papers/37591896.md).
+- The mechanism underlying the exclusive association of MYC amplification with breast/chest wall RT-AS (and not other anatomic sites) remains unclear [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:37477937](../papers/37477937.md)
+- [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-10**.*

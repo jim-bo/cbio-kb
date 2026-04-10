@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ARMS, RMS]
 tags: [fusion, pediatric, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # PAX7
@@ -16,7 +16,7 @@ PAX7 is a paired-box transcription factor. PAX7::[FOXO1](../genes/FOXO1.md) fusi
 ## Alterations observed in the corpus
 
 - PAX7::[FOXO1](../genes/FOXO1.md) fusion present in a minority of extremity [ARMS](../cancer_types/ARMS.md) cases in the 61-patient MSK cohort; detected by Archer FusionPlex or [FISH](../methods/fish.md) [PMID:37315267](../papers/37315267.md).
-- PAX7::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) carries more favorable prognosis relative to [PAX3](../genes/PAX3.md)::FOXO1 (HR 3.45 favoring PAX7, P=.016) [PMID:37315267](../papers/37315267.md).
+- PAX7::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) carries more favorable prognosis relative to [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) (HR 3.45 favoring PAX7, P=.016) [PMID:37315267](../papers/37315267.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ PAX7 is a paired-box transcription factor. PAX7::[FOXO1](../genes/FOXO1.md) fusi
 
 - [PMID:37315267](../papers/37315267.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

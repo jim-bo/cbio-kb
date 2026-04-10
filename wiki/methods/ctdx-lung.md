@@ -5,7 +5,7 @@ kind: method
 unverified: true
 tags: [ctdna, liquid-biopsy, targeted-sequencing, nsclc]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # ctDx Lung
@@ -16,7 +16,7 @@ Resolution Bioscience ctDx Lung targeted next-generation sequencing panel for pl
 
 ## Used by
 
-- [PMID:36357680](../papers/36357680.md) — used to profile plasma ctDNA from 1,127 advanced [NSCLC](../cancer_types/NSCLC.md) patients across MSK and GenesisCare (Sydney); ctDNA detection rate was 64% (722/1,127), and ctDNA detection was independently associated with shorter OS (HR 2.05, 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
+- [PMID:36357680](../papers/36357680.md) — used to profile plasma ctDNA from 1,127 advanced [NSCLC](../cancer_types/NSCLC.md) patients across MSK and GenesisCare (Sydney); ctDNA detection rate was 64% (722/1,127), and ctDNA detection was independently associated with shorter [OS](../cancer_types/OS.md) (HR 2.05, 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ Resolution Bioscience ctDx Lung targeted next-generation sequencing panel for pl
 
 - [PMID:36357680](../papers/36357680.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

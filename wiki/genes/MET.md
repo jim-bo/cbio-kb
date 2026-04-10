@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [rtk, metastasis, resistance]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # MET
@@ -21,7 +21,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 ## Cancer types (linked)
 
 - [LUAD](../cancer_types/LUAD.md) — metastasis-enriched alteration in the MSK organotropism cohort (n=2,532) [PMID:37084736](../papers/37084736.md).
-- [NSCLC](../cancer_types/NSCLC.md) — MET amplification and exon 14 skipping detected in CSF ctDNA; resistance mutation p.Y1230N on crizotinib; [capmatinib](../drugs/capmatinib.md) used as targeted therapy [PMID:39289779](../papers/39289779.md).
+- [NSCLC](../cancer_types/NSCLC.md) — MET amplification and exon 14 skipping detected in CSF ctDNA; resistance mutation p.Y1230N on [crizotinib](../drugs/crizotinib.md); [capmatinib](../drugs/capmatinib.md) used as targeted therapy [PMID:39289779](../papers/39289779.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

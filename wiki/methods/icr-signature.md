@@ -5,7 +5,7 @@ kind: method
 unverified: true
 tags: [immune-signature, prognostic, expression]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Immunologic Constant of Rejection (ICR) signature
@@ -16,7 +16,7 @@ A 20-gene transcriptional signature capturing T-helper-1 / cytotoxic immune acti
 
 ## Used by
 
-- [PMID:37202560](../papers/37202560.md) — applied to AC-ICAM (n=348 colon cancer); ICR was prognostic for OS (ICR-high vs ICR-low HR 0.54, 95% CI 0.34–0.86, P=0.0095; ICR-medium vs ICR-low HR 0.63, 95% CI 0.43–0.91, P=0.014) and outperformed CMS and MSI classifications, retaining prognostic value within the CMS4/mesenchymal subtype [PMID:37202560](../papers/37202560.md).
+- [PMID:37202560](../papers/37202560.md) — applied to AC-ICAM (n=348 colon cancer); ICR was prognostic for [OS](../cancer_types/OS.md) (ICR-high vs ICR-low HR 0.54, 95% CI 0.34–0.86, P=0.0095; ICR-medium vs ICR-low HR 0.63, 95% CI 0.43–0.91, P=0.014) and outperformed CMS and MSI classifications, retaining prognostic value within the CMS4/mesenchymal subtype [PMID:37202560](../papers/37202560.md).
 
 ## Notes
 
@@ -27,4 +27,4 @@ A 20-gene transcriptional signature capturing T-helper-1 / cytotoxic immune acti
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

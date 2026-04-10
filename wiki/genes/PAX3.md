@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ARMS, RMS]
 tags: [fusion, pediatric, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # PAX3
@@ -24,7 +24,7 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 
 ## Co-occurrence and mutual exclusivity
 
-- PAX3::[FOXO1](../genes/FOXO1.md) and [PAX7](../genes/PAX7.md)::FOXO1 are alternative, mutually exclusive fusion events in [ARMS](../cancer_types/ARMS.md) [PMID:37315267](../papers/37315267.md).
+- PAX3::[FOXO1](../genes/FOXO1.md) and [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) are alternative, mutually exclusive fusion events in [ARMS](../cancer_types/ARMS.md) [PMID:37315267](../papers/37315267.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +38,4 @@ PAX3 is a paired-box transcription factor. PAX3::[FOXO1](../genes/FOXO1.md) fusi
 
 - [PMID:37315267](../papers/37315267.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -5,7 +5,7 @@ main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Anaplastic Large Cell Lymphoma (ALCL)
@@ -21,7 +21,7 @@ Anaplastic Large Cell Lymphoma is a Mature T and NK Neoplasm (parent MTNN) and i
 ## Recurrent alterations
 
 - [TP53](../genes/TP53.md) mutations and 17p deletions were the only somatic aberrancies independently correlated with inferior PFS on CHOP-based chemotherapy in the broader [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
-- [CDKN2A](../genes/CDKN2A.md) deletions correlated with markedly inferior OS in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
+- [CDKN2A](../genes/CDKN2A.md) deletions correlated with markedly inferior [OS](../cancer_types/OS.md) in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
 
 ## Subtypes
 
@@ -36,4 +36,4 @@ Anaplastic Large Cell Lymphoma is a Mature T and NK Neoplasm (parent MTNN) and i
 
 - [PMID:37078708](../papers/37078708.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

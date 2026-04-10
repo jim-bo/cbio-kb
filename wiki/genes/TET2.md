@@ -3,8 +3,8 @@ symbol: TET2
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator, t-cell-lymphoma]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # TET2
@@ -33,11 +33,11 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 
 ## Open questions
 
-- TET2 mutation did not correlate with PFS or OS — its functional role in CHOP response is unclear [PMID:37078708](../papers/37078708.md).
+- TET2 mutation did not correlate with PFS or [OS](../cancer_types/OS.md) — its functional role in CHOP response is unclear [PMID:37078708](../papers/37078708.md).
 
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

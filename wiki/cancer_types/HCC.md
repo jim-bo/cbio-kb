@@ -3,8 +3,8 @@ name: Hepatocellular Carcinoma
 oncotree_code: HCC
 parent: LIVER
 tags: [liver, hepatobiliary]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Hepatocellular Carcinoma (HCC)
@@ -19,16 +19,16 @@ Primary liver cancer of hepatocellular origin.
 
 ## Recurrent alterations
 
-- HCC reference class characterized by [TERT](../genes/TERT.md) alterations; "HCC-class" [IHCH](IHCH.md) (IHC tumors with >90% HCC homology, 5.7%) likewise exhibit TERT alterations [PMID:38864854](../papers/38864854.md).
+- HCC reference class characterized by [TERT](../genes/TERT.md) alterations; "HCC-class" [IHCH](IHCH.md) (IHC tumors with >90% HCC homology, 5.7%) likewise exhibit [TERT](../genes/TERT.md) alterations [PMID:38864854](../papers/38864854.md).
 
 ## Subtypes
 
 ## Therapeutic landscape
 
-- HCC-class IHC has markedly better OS than biliary-class IHC, independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
+- HCC-class IHC has markedly better [OS](../cancer_types/OS.md) than biliary-class IHC, independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -6,7 +6,7 @@ tags:
   - cns-lymphoma
   - b-cell-lymphoma
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # Primary CNS Lymphoma (PCNSL)
@@ -33,11 +33,11 @@ Primary central nervous system lymphoma, an aggressive extranodal non-Hodgkin ly
 ## Therapeutic landscape
 
 - [ibrutinib](../drugs/ibrutinib.md) single-agent 840 mg/day produced 74% ORR (12 CR) in r/r PCNSL; ~10% of patients achieved >3-year durable responses. [TBL1XR1](../genes/TBL1XR1.md) mutation predicted longer PFS (16.5 vs 3.1 months, p=0.0075); [MYD88](../genes/MYD88.md) mutation also associated with longer PFS (9.2 vs 2.9 months); [CARD11](../genes/CARD11.md) coiled-coil mutations marked shorter PFS (2.2 vs 5.5 months) [PMID:38995739](../papers/38995739.md).
-- CSF ctDNA clearance within 4 weeks on ibrutinib correlated with complete and durable response [PMID:38995739](../papers/38995739.md).
+- CSF ctDNA clearance within 4 weeks on [ibrutinib](../drugs/ibrutinib.md) correlated with complete and durable response [PMID:38995739](../papers/38995739.md).
 - Prior lines in the cohort included [methotrexate](../drugs/methotrexate.md) (universal), [temozolomide](../drugs/temozolomide.md), [temsirolimus](../drugs/temsirolimus.md), [lenalidomide](../drugs/lenalidomide.md), and [pembrolizumab](../drugs/pembrolizumab.md) [PMID:38995739](../papers/38995739.md).
 
 ## Sources
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

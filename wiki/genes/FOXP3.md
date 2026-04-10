@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [treg, immune-signature, icr]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # FOXP3
@@ -19,7 +19,7 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 
 ## Cancer types (linked)
 
-- [COAD](../cancer_types/COAD.md) — expression measured as part of the ICR signature in the AC-ICAM cohort, where ICR-high tumors carried better OS [PMID:37202560](../papers/37202560.md).
+- [COAD](../cancer_types/COAD.md) — expression measured as part of the ICR signature in the AC-ICAM cohort, where ICR-high tumors carried better [OS](../cancer_types/OS.md) [PMID:37202560](../papers/37202560.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ FOXP3 is the master transcription factor of regulatory T cells (Tregs), and is u
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

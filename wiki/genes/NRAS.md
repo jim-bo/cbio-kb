@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD]
 tags: [ras-pathway]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # NRAS
@@ -15,7 +15,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 ## Alterations observed in the corpus
 
-- RAS mutations (KRAS/NRAS) in the absence of [GNAS](../genes/GNAS.md) and [TP53](../genes/TP53.md) alterations define the clinically indolent MAAP subtype (n=24) with the lowest mutational/chromosomal burden and best OS [PMID:36493333](../papers/36493333.md).
+- RAS mutations (KRAS/NRAS) in the absence of [GNAS](../genes/GNAS.md) and [TP53](../genes/TP53.md) alterations define the clinically indolent MAAP subtype (n=24) with the lowest mutational/chromosomal burden and best [OS](../cancer_types/OS.md) [PMID:36493333](../papers/36493333.md).
 - NRAS A59_E76 mutation in one histiocytosis patient treated with a MEK inhibitor; mostly subclonal in female germ cell tumors [PMID:36862133](../papers/36862133.md).
 
 ## Cancer types (linked)
@@ -41,4 +41,4 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:36493333](../papers/36493333.md)
 - [PMID:36862133](../papers/36862133.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

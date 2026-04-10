@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD]
 tags: [oncogene, mapk, driver, allele-specific]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # KRAS
@@ -16,7 +16,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 ## Alterations observed in the corpus
 
 - Advanced [NSCLC](../cancer_types/NSCLC.md): detection of pathogenic KRAS alterations in ctDNA (vs tissue only) was associated with worse prognosis in the prospective ctDx Lung cohort (n=1,127) [PMID:36357680](../papers/36357680.md).
-- Appendiceal adenocarcinoma: KRAS/NRAS mutations in the absence of [GNAS](../genes/GNAS.md) and [TP53](../genes/TP53.md) alterations mark the clinically indolent RAS-mut predominant MAAP subtype with lowest mutational and chromosomal burden and best OS [PMID:36493333](../papers/36493333.md).
+- Appendiceal adenocarcinoma: KRAS/NRAS mutations in the absence of [GNAS](../genes/GNAS.md) and [TP53](../genes/TP53.md) alterations mark the clinically indolent RAS-mut predominant MAAP subtype with lowest mutational and chromosomal burden and best [OS](../cancer_types/OS.md) [PMID:36493333](../papers/36493333.md).
 - Histiocytosis: KRAS mutated in 7% of profiled cases; one case had co-occurring KRAS G12D and [BRAF](../genes/BRAF.md) D594H [PMID:36862133](../papers/36862133.md).
 - Female germ cell tumors: KRAS among oncogenic mutations observed in a minority of cases [PMID:36862133](../papers/36862133.md).
 - [LUAD](../cancer_types/LUAD.md) metastasis: KRAS G12C elevated (21%) in primaries that metastasized to liver vs the matched liver lesions (6%, p<0.001); mutually exclusive with [EGFR](../genes/EGFR.md) [PMID:37084736](../papers/37084736.md).
@@ -61,4 +61,4 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

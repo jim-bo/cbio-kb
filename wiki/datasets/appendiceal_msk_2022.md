@@ -6,7 +6,7 @@ cancerTypeId: apad
 pmid: "36493333"
 allSampleCount: 1
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Appendiceal Cancer (MSK, J Clin Oncol 2022)
@@ -30,11 +30,11 @@ Retrospective MSK cohort of patients with appendiceal adenocarcinoma (AC) sequen
 ## Notable findings derived from this cohort
 
 - Three MAAP molecular subtypes defined by co-occurring mutations in [GNAS](../genes/GNAS.md), [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md), and [TP53](../genes/TP53.md): a RAS-mut predominant indolent subtype, a GNAS-mut predominant chemo-resistant subtype, and a TP53-mut predominant highly aneuploid aggressive subtype [PMID:36493333](../papers/36493333.md).
-- OS was significantly better in RAS-mut predominant patients than GNAS-mut (P=.05) or TP53-mut (P=.004) subtypes; first-line chemotherapy response was 50% in RAS-mut vs 6% in GNAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
+- [OS](../cancer_types/OS.md) was significantly better in RAS-mut predominant patients than GNAS-mut (P=.05) or TP53-mut (P=.004) subtypes; first-line chemotherapy response was 50% in RAS-mut vs 6% in GNAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
 - Tumor aneuploidy was independently associated with poor prognosis (P=.001) in multivariable models adjusting for histology, grade, age, CRS number, and first-line chemotherapy [PMID:36493333](../papers/36493333.md).
 
 ## Sources
 
 - cBioPortal study `appendiceal_msk_2022` [PMID:36493333](../papers/36493333.md).
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

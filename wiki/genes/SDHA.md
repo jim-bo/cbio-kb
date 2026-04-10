@@ -3,8 +3,8 @@ symbol: SDHA
 aliases: []
 cancer_types: [GIST]
 tags: [tumor-suppressor, sdh-deficient, gist]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # SDHA
@@ -15,7 +15,7 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 
 ## Alterations observed in the corpus
 
-- SDHA was assessed for germline and somatic mutation in the SDH-deficient GIST subset (n=26) of the MSK [gist_msk_2023](../datasets/gist_msk_2023.md) cohort [PMID:37477937](../papers/37477937.md).
+- SDHA was assessed for germline and somatic mutation in the SDH-deficient [GIST](../cancer_types/GIST.md) subset (n=26) of the MSK [gist_msk_2023](../datasets/gist_msk_2023.md) cohort [PMID:37477937](../papers/37477937.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

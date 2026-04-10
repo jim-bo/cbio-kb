@@ -5,7 +5,7 @@ main_type: Mature T and NK Neoplasms
 parent: ALCL
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Anaplastic Large-Cell Lymphoma ALK Negative (ALCLALKN)
@@ -20,7 +20,7 @@ ALK-negative Anaplastic Large-Cell Lymphoma, a subtype of [ALCL](./ALCL.md) with
 
 ## Recurrent alterations
 
-- Analyzed within the broader [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior OS [PMID:37078708](../papers/37078708.md).
+- Analyzed within the broader [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
 
 ## Subtypes
 
@@ -34,4 +34,4 @@ ALK-negative Anaplastic Large-Cell Lymphoma, a subtype of [ALCL](./ALCL.md) with
 
 - [PMID:37078708](../papers/37078708.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

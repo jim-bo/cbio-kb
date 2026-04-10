@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [immunoregulatory, icr, immune-signature]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # IDO1
@@ -27,7 +27,7 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 
 ## Therapeutic relevance
 
-- Contributes to the ICR module; ICR-high tumors had better OS, and the paper notes potential predictive utility for immunotherapy response in other tumor types [PMID:37202560](../papers/37202560.md).
+- Contributes to the ICR module; ICR-high tumors had better [OS](../cancer_types/OS.md), and the paper notes potential predictive utility for immunotherapy response in other tumor types [PMID:37202560](../papers/37202560.md).
 
 ## Open questions
 
@@ -37,4 +37,4 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

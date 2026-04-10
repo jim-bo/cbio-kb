@@ -5,7 +5,7 @@ main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell, intestinal]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Enteropathy-Associated T-Cell Lymphoma (EATL)
@@ -20,7 +20,7 @@ Enteropathy-Associated T-Cell Lymphoma is a Mature T and NK Neoplasm (parent MTN
 
 ## Recurrent alterations
 
-- Analyzed within the [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior OS [PMID:37078708](../papers/37078708.md).
+- Analyzed within the [PTCL](../cancer_types/PTCL.md) cohort where [TP53](../genes/TP53.md) mutations/17p deletions independently predicted inferior PFS and [CDKN2A](../genes/CDKN2A.md) deletions predicted inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
 
 ## Subtypes
 
@@ -34,4 +34,4 @@ Enteropathy-Associated T-Cell Lymphoma is a Mature T and NK Neoplasm (parent MTN
 
 - [PMID:37078708](../papers/37078708.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

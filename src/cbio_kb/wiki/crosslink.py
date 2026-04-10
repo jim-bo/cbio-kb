@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import re
+from datetime import date
 from pathlib import Path
 
 KINDS = ["genes", "cancer_types", "datasets", "drugs", "methods"]
@@ -137,9 +138,44 @@ def crosslink_file(path: Path, entities: dict[str, dict[str, Path]]) -> tuple[in
     return len(edits), new_text
 
 
-def run(wiki_dir: Path, paths: list[Path] | None = None, *, dry_run: bool = False) -> int:
+def _update_provenance(text: str, today: str) -> str:
+    """Update processed_by/processed_at in frontmatter and append/replace footer."""
+    # Update frontmatter fields
+    if text.startswith("---\n"):
+        end = text.find("\n---\n", 4)
+        if end != -1:
+            fm = text[4:end]
+            body = text[end + 5:]
+            if "processed_by:" in fm:
+                fm = re.sub(r"^processed_by:.*$", f"processed_by: crosslinker", fm, flags=re.MULTILINE)
+            else:
+                fm += f"\nprocessed_by: crosslinker"
+            if "processed_at:" in fm:
+                fm = re.sub(r"^processed_at:.*$", f"processed_at: {today}", fm, flags=re.MULTILINE)
+            else:
+                fm += f"\nprocessed_at: {today}"
+            text = f"---\n{fm}\n---\n{body}"
+
+    # Update or append footer
+    footer = f"*This page was processed by **crosslinker** on **{today}**.*"
+    footer_re = re.compile(r"^\*This page was processed by .*$", re.MULTILINE)
+    if footer_re.search(text):
+        text = footer_re.sub(footer, text)
+    else:
+        text = text.rstrip() + "\n\n" + footer + "\n"
+    return text
+
+
+def run(
+    wiki_dir: Path,
+    paths: list[Path] | None = None,
+    *,
+    dry_run: bool = False,
+    update_provenance: bool = False,
+) -> int:
     wiki_dir = wiki_dir.resolve()
     entities = _load_entities(wiki_dir)
+    today = date.today().isoformat()
 
     if paths:
         targets = [p.resolve() for p in paths]
@@ -159,6 +195,8 @@ def run(wiki_dir: Path, paths: list[Path] | None = None, *, dry_run: bool = Fals
             continue
         changed += 1
         total_links += n
+        if update_provenance:
+            new_text = _update_provenance(new_text, today)
         if dry_run:
             print(f"  would add {n:3d} links → {p.relative_to(wiki_dir.parent)}")
         else:
@@ -175,10 +213,13 @@ def main(argv=None):
     ap.add_argument("--wiki-dir", default="wiki")
     ap.add_argument("--paths", nargs="*", help="Specific pages to crosslink (default: all)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--update-provenance", action="store_true",
+                     help="Update processed_by/processed_at frontmatter and footer")
     args = ap.parse_args(argv)
     return run(Path(args.wiki_dir),
                [Path(p) for p in args.paths] if args.paths else None,
-               dry_run=args.dry_run)
+               dry_run=args.dry_run,
+               update_provenance=args.update_provenance)
 
 
 if __name__ == "__main__":

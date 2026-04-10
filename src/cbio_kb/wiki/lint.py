@@ -8,6 +8,7 @@ import re
 from pathlib import Path
 
 from cbio_kb.ontology import lookup as ontology
+from cbio_kb.wiki.vault import _parse_frontmatter, _LINK_RE as LINK_RE, _FRONTMATTER_RE as FRONTMATTER_RE
 
 REQUIRED_FRONTMATTER = {
     "papers": {"pmid", "title"},
@@ -18,21 +19,6 @@ REQUIRED_FRONTMATTER = {
     "methods": {"name"},
     "themes": {"title"},
 }
-
-LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
-FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
-
-
-def _parse_frontmatter(text: str) -> dict[str, str]:
-    m = FRONTMATTER_RE.match(text)
-    if not m:
-        return {}
-    fm: dict[str, str] = {}
-    for line in m.group(1).splitlines():
-        if ":" in line:
-            k, _, v = line.partition(":")
-            fm[k.strip()] = v.strip()
-    return fm
 
 
 def _parse_list_field(text: str, field: str) -> list[str]:

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # GNAS
@@ -17,7 +17,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 
 - Defines the GNAS-mut predominant molecular subtype of mucinous appendiceal adenocarcinoma (MAAP) in the MSK cohort [PMID:36493333](../papers/36493333.md).
 - GNAS-mut predominant tumors are chemotherapy-resistant: 6% first-line response rate vs 50% in RAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
-- GNAS-mut predominant patients had worse OS than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes [PMID:36493333](../papers/36493333.md).
+- GNAS-mut predominant patients had worse [OS](../cancer_types/OS.md) than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes [PMID:36493333](../papers/36493333.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 
 - [PMID:36493333](../papers/36493333.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

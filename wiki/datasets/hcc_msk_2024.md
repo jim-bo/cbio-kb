@@ -10,8 +10,8 @@ tags:
   - cholangiocarcinoma
   - classifier
   - prognosis
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Biliary Tract and Hepatocellular Carcinoma Hidden-Genome Classifier, MSK, Clin Cancer Res 2024
@@ -36,12 +36,12 @@ MSK cohort of 1,370 patients with histologically confirmed biliary tract cancer,
 ## Notable findings derived from this cohort
 
 - 410 IHC (78%) had >50% genetic homology with EHC/GBC; 122 (23%) exceeded >90% homology ("biliary-class"), characterized by [KRAS](../genes/KRAS.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) loss [PMID:38864854](../papers/38864854.md).
-- 117 IHC (22%) had >50% homology with HCC; 30 (5.7%) exceeded >90% ("HCC-class"), characterized by [TERT](../genes/TERT.md) alterations [PMID:38864854](../papers/38864854.md).
-- Median OS (unresectable): biliary-class 1.0 y vs non-biliary-class 1.8 y; (resectable): 2.4 y vs 5.1 y [PMID:38864854](../papers/38864854.md).
+- 117 IHC (22%) had >50% homology with [HCC](../cancer_types/HCC.md); 30 (5.7%) exceeded >90% ("HCC-class"), characterized by [TERT](../genes/TERT.md) alterations [PMID:38864854](../papers/38864854.md).
+- Median [OS](../cancer_types/OS.md) (unresectable): biliary-class 1.0 y vs non-biliary-class 1.8 y; (resectable): 2.4 y vs 5.1 y [PMID:38864854](../papers/38864854.md).
 - Classifier predicted OS independently of [FGFR2](../genes/FGFR2.md) and [IDH1](../genes/IDH1.md) alterations and outperformed histologic subtyping [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 
 - cBioPortal study `hcc_msk_2024` [PMID:38864854](../papers/38864854.md).
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

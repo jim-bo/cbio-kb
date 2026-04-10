@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LCH, ECD, NSCLC]
 tags: [fusion, kinase, histiocytosis]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # ALK
@@ -21,7 +21,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 ## Cancer types (linked)
 
 - Histiocytosis (LCH/ECD) — ALK fusions are a rare but actionable driver class within the broader MAPK/kinase-driven histiocytosis landscape [PMID:36862133](../papers/36862133.md).
-- [NSCLC](../cancer_types/NSCLC.md) — EML4::ALK fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors; resistance mutations p.G1202R and p.G1269A emerged on targeted therapy [PMID:39289779](../papers/39289779.md).
+- [NSCLC](../cancer_types/NSCLC.md) — [EML4](../genes/EML4.md)::ALK fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors; resistance mutations p.G1202R and p.G1269A emerged on targeted therapy [PMID:39289779](../papers/39289779.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -30,7 +30,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 ## Therapeutic relevance
 
 - ALK fusions in histiocytosis are candidates for matched targeted therapy through the Make-an-IMPACT direct-to-patient program, in which 17/18 histiocytosis patients who received genomically matched therapy had clinical benefit (mean duration 21.7 months) [PMID:36862133](../papers/36862133.md).
-- Serial CSF ctDNA profiling identified emergence of ALK resistance mutations (p.G1202R, p.G1269A) in EML4::ALK-positive NSCLC patients, directly informing treatment changes [PMID:39289779](../papers/39289779.md).
+- Serial CSF ctDNA profiling identified emergence of ALK resistance mutations (p.G1202R, p.G1269A) in EML4::ALK-positive [NSCLC](../cancer_types/NSCLC.md) patients, directly informing treatment changes [PMID:39289779](../papers/39289779.md).
 
 ## Open questions
 
@@ -41,4 +41,4 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -6,7 +6,7 @@ tags:
   - urothelial
   - fgfr3
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -29,12 +29,12 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 ## Subtypes
 
-- NMIBC vs MIBC disease states show markedly different FGFR3 alteration frequencies (39% vs 14%), supporting distinct molecular biology ([PMID:37682528](../papers/37682528.md)).
+- NMIBC vs MIBC disease states show markedly different [FGFR3](../genes/FGFR3.md) alteration frequencies (39% vs 14%), supporting distinct molecular biology ([PMID:37682528](../papers/37682528.md)).
 - FGFR3-fusion tumors carry lower TMB than FGFR3-mutant tumors (median 5 vs 9 mut/Mb, p=0.0006) ([PMID:37682528](../papers/37682528.md)).
 
 ## Therapeutic landscape
 
-- [erdafitinib](../drugs/erdafitinib.md) — real-world ORR 40%, median PFS 2.8 months, OS 6.6 months in 32 metastatic FGFR3-altered urothelial carcinoma patients; tolerability-limited with 38% dose reductions ([PMID:37682528](../papers/37682528.md)).
+- [erdafitinib](../drugs/erdafitinib.md) — real-world ORR 40%, median PFS 2.8 months, [OS](../cancer_types/OS.md) 6.6 months in 32 metastatic FGFR3-altered urothelial carcinoma patients; tolerability-limited with 38% dose reductions ([PMID:37682528](../papers/37682528.md)).
 - Immune checkpoint blockade outcomes did not differ by FGFR3 status (n=26 altered vs 155 wildtype) ([PMID:37682528](../papers/37682528.md)).
 - [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) and next-generation FGFR3-selective inhibitors (e.g., TYRA300, LOXO435) cited as alternative options given [erdafitinib](../drugs/erdafitinib.md)'s modest durability ([PMID:37682528](../papers/37682528.md)).
 
@@ -42,4 +42,4 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

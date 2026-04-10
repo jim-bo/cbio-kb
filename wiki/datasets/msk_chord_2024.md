@@ -10,8 +10,8 @@ tags:
   - nlp
   - clinicogenomics
   - survival-prediction
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # MSK-CHORD Clinicogenomic Harmonized Real-World Dataset, Nature 2024
@@ -40,11 +40,11 @@ MSK-CHORD integrates NLP annotations of free-text clinician, radiology and patho
 
 - Integrated multimodal models with NLP-derived sites-of-disease features outperformed genomics-only or stage-only models for overall survival [PMID:39506116](../papers/39506116.md).
 - NLP per-site metastasis classification AUCs 0.85–0.99 across bone, liver, lung, lymph node, adrenal, pleura, CNS [PMID:39506116](../papers/39506116.md).
-- [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) (204/5,957) predict longer OS, lower CNS metastasis, and longer immune checkpoint blockade response independent of TMB [PMID:39506116](../papers/39506116.md).
+- [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) (204/5,957) predict longer [OS](../cancer_types/OS.md), lower CNS metastasis, and longer immune checkpoint blockade response independent of TMB [PMID:39506116](../papers/39506116.md).
 - [RB1](../genes/RB1.md) oncogenic alterations enriched in brain and liver metastases [PMID:39506116](../papers/39506116.md).
 
 ## Sources
 
 - cBioPortal study `msk_chord_2024`; released as a public resource [PMID:39506116](../papers/39506116.md).
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

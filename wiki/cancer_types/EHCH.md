@@ -3,8 +3,8 @@ name: Extrahepatic Cholangiocarcinoma
 oncotree_code: EHCH
 parent: CHOL
 tags: [biliary, hepatobiliary]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Extrahepatic Cholangiocarcinoma (EHCH)
@@ -25,10 +25,10 @@ Extrahepatic cholangiocarcinoma arising from the extrahepatic biliary tree.
 
 ## Therapeutic landscape
 
-- Used as reference to demonstrate that biliary-class IHC has worse OS than non-biliary-class IHC independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
+- Used as reference to demonstrate that biliary-class IHC has worse [OS](../cancer_types/OS.md) than non-biliary-class IHC independent of FGFR2/IDH1 alterations [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

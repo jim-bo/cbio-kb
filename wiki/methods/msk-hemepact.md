@@ -5,7 +5,7 @@ kind: method
 unverified: true
 tags: [msk, targeted-sequencing, panel, heme, ctdna]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # MSK-HemePACT panel
@@ -16,7 +16,7 @@ MSK-HemePACT is a Memorial Sloan Kettering targeted hybrid-capture DNA sequencin
 
 ## Used by
 
-- [PMID:38995739](../papers/38995739.md) — applied to archival tumor (25/31 [PCNSL](../cancer_types/PCNSL.md)) and paired pre-/on-treatment CSF ctDNA (14 patients) in a phase I/II [ibrutinib](../drugs/ibrutinib.md) trial in r/r CNS lymphoma; identified [TBL1XR1](../genes/TBL1XR1.md) WD40-domain mutations as associated with prolonged ibrutinib PFS (16.5 vs 3.1 months, p=0.0075), and enabled CSF ctDNA kinetic analysis showing that ctDNA clearance within 4 weeks correlated with complete and long-term response [PMID:38995739](../papers/38995739.md).
+- [PMID:38995739](../papers/38995739.md) — applied to archival tumor (25/31 [PCNSL](../cancer_types/PCNSL.md)) and paired pre-/on-treatment CSF ctDNA (14 patients) in a phase I/II [ibrutinib](../drugs/ibrutinib.md) trial in r/r CNS lymphoma; identified [TBL1XR1](../genes/TBL1XR1.md) WD40-domain mutations as associated with prolonged [ibrutinib](../drugs/ibrutinib.md) PFS (16.5 vs 3.1 months, p=0.0075), and enabled CSF ctDNA kinetic analysis showing that ctDNA clearance within 4 weeks correlated with complete and long-term response [PMID:38995739](../papers/38995739.md).
 
 ## Notes
 
@@ -27,4 +27,4 @@ MSK-HemePACT is a Memorial Sloan Kettering targeted hybrid-capture DNA sequencin
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

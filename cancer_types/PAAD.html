@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1bacb4435680e45c9ebf9ff2856e7072.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -160,35 +160,46 @@ ul.task-list li input[type="checkbox"] {
 <h1>Pancreatic Adenocarcinoma (PAAD)</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>OncoTree code for pancreatic adenocarcinoma.</p>
+<p>OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterized by near-universal <a href="../genes/KRAS.html">KRAS</a> mutation with allele-specific biology, recurrent <a href="../genes/TP53.html">TP53</a> / <a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/SMAD4.html">SMAD4</a> co-alterations, and clinical behavior strongly shaped by stage at resection.</p>
 </section>
 <section id="cohorts-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li><a href="../datasets/msk_chord_2024.html">msk_chord_2024</a> — 3,109 pancreatic cancer patients at MSK in the MSK-CHORD clinicogenomic harmonized real-world dataset <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li><a href="../datasets/pancreas_msk_2024.html">pancreas_msk_2024</a> — 1,360 consecutive resected PDAC patients at MSK (2004–2019), with <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted sequencing on 397, bulk RNA-seq on 100, and <a href="../methods/cosmx-smi.html">CosMx SMI</a> spatial profiling on 20 <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li>Included in pan-cancer MSK-IMPACT pathway and metastasis analyses <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>Canonical driver frequencies in the resected MSK cohort (n=397 sequenced): <a href="../genes/KRAS.html">KRAS</a> 90%, <a href="../genes/TP53.html">TP53</a> 71%, <a href="../genes/CDKN2A.html">CDKN2A</a> 24%, <a href="../genes/SMAD4.html">SMAD4</a> 17%; no significant difference in these frequencies between early- and late-stage disease after multiple-testing correction <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>KRAS allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other KRAS 8.1%, KRAS wildtype 9.1% <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>KRAS<sup>G12R</sup> tumors carry a higher proportion of CDKN2A mutations than KRAS<sup>G12D</sup> (40% vs 22.1%, p=0.046) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
+<ul>
+<li>KRAS<sup>G12R</sup>-mutant PDAC is a distinct clinical subset: enriched in stage I disease (23% vs 11% in stage II–III, p=0.022), more often node-negative (47% vs 26% for KRAS<sup>G12D</sup>, p=0.019), with improved OS and decreased distant recurrence compared to KRAS<sup>G12D</sup>; also associated with family history of pancreatic cancer (16.4% vs 4.2%, p=0.003) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>Transcriptional programs diverge by KRAS allele: KRAS<sup>G12D</sup> tumors show enhanced KRAS signaling and EMT; KRAS<sup>G12R</sup> tumors show increased TNF/NF-κB signaling by both bulk RNA-seq and <a href="../methods/cosmx-smi.html">CosMx SMI</a> spatial profiling <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+</ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
 <li>NLP-augmented integrated survival-prediction models outperformed stage- or genomics-only models <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>KRAS<sup>G12R</sup> resected PDAC was enriched among patients who received neoadjuvant <a href="../drugs/fluorouracil.html">fluorouracil</a>-based chemotherapy (most frequently FOLFIRINOX with <a href="../drugs/irinotecan.html">irinotecan</a> and <a href="../drugs/oxaliplatin.html">oxaliplatin</a>), consistent with higher response likelihood rather than borderline-resectable selection <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>Allele-specific transcriptional divergence (NF-κB vs KRAS/EMT) suggests divergent actionable dependencies across KRAS-mutant PDAC rather than a single pan-KRAS strategy <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
 <li><a href="../papers/39506116.html">PMID:39506116</a></li>
+<li><a href="../papers/39214094.html">PMID:39214094</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-04-08</strong>.</em></p>
+<p><em>This page was processed by <strong>paper-compiler</strong> on <strong>2026-04-09</strong>.</em></p>
 
 
 </section>

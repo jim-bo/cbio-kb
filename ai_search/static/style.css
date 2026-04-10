@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f1117;
+    color: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 12px 24px;
+    border-bottom: 1px solid #1e2030;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #666;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Chat panel */
+.chat-panel {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #1e2030;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.msg {
+    max-width: 80%;
+    padding: 10px 14px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.msg.user {
+    background: #1a3a5c;
+    margin-left: auto;
+    border-bottom-right-radius: 2px;
+}
+
+.msg.assistant {
+    background: #1e2030;
+    margin-right: auto;
+    border-bottom-left-radius: 2px;
+}
+
+#chat-form {
+    display: flex;
+    padding: 12px 20px;
+    border-top: 1px solid #1e2030;
+    gap: 8px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #2a2d3e;
+    border-radius: 6px;
+    background: #161825;
+    color: #e0e0e0;
+    font-size: 14px;
+    outline: none;
+}
+
+#user-input:focus {
+    border-color: #4a7dff;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #4a7dff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background: #3a6dee;
+}
+
+#send-btn:disabled {
+    background: #2a3a5e;
+    cursor: not-allowed;
+}
+
+/* Glass panel */
+.glass-panel {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    background: #13151f;
+}
+
+.glass-panel h3 {
+    padding: 12px 16px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #666;
+    border-bottom: 1px solid #1e2030;
+}
+
+.tool-feed {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px;
+}
+
+.empty-state {
+    color: #444;
+    font-size: 13px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.tool-card {
+    background: #1a1d2e;
+    border-left: 3px solid #4a7dff;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    animation: fadeIn 0.2s ease-in;
+}
+
+.tool-card.tool-search { border-left-color: #f0ad4e; }
+.tool-card.tool-read_page { border-left-color: #5cb85c; }
+.tool-card.tool-read_section { border-left-color: #5cb85c; }
+.tool-card.tool-follow_links { border-left-color: #d9534f; }
+.tool-card.tool-find_references { border-left-color: #d9534f; }
+.tool-card.tool-get_page_metadata { border-left-color: #9b59b6; }
+.tool-card.tool-list_pages { border-left-color: #1abc9c; }
+
+.tool-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.tool-icon {
+    font-size: 14px;
+}
+
+.tool-name {
+    font-weight: 600;
+    color: #aaa;
+    font-family: "SF Mono", "Fira Code", monospace;
+}
+
+.tool-args {
+    color: #666;
+    font-family: "SF Mono", "Fira Code", monospace;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tool-preview {
+    color: #555;
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a2d3e;
+    border-radius: 3px;
+}

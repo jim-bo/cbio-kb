@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cbio-kb Chat</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#128218;</text></svg>">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>cbio-kb</h1>
+        <span class="subtitle">wiki research assistant</span>
+    </header>
+
+    <div class="container">
+        <div class="chat-panel">
+            <div id="messages" class="messages"></div>
+            <form id="chat-form">
+                <input type="text" id="user-input"
+                       placeholder="Ask about genes, papers, cancer types..."
+                       autocomplete="off" autofocus>
+                <button type="submit" id="send-btn">Send</button>
+            </form>
+        </div>
+
+        <div class="glass-panel">
+            <h3>Agent Activity</h3>
+            <div id="tool-feed" class="tool-feed">
+                <p class="empty-state">Tool usage will appear here as the agent navigates the wiki.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    let sessionId = null;
+    let sending = false;
+
+    const form = document.getElementById('chat-form');
+    const input = document.getElementById('user-input');
+    const messages = document.getElementById('messages');
+    const toolFeed = document.getElementById('tool-feed');
+    const sendBtn = document.getElementById('send-btn');
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const msg = input.value.trim();
+        if (!msg || sending) return;
+        sendMessage(msg);
+    });
+
+    function sendMessage(msg) {
+        sending = true;
+        sendBtn.disabled = true;
+        input.value = '';
+
+        // Add user message
+        const userDiv = document.createElement('div');
+        userDiv.className = 'msg user';
+        userDiv.textContent = msg;
+        messages.appendChild(userDiv);
+
+        // Create assistant message container
+        const assistantDiv = document.createElement('div');
+        assistantDiv.className = 'msg assistant';
+        messages.appendChild(assistantDiv);
+        messages.scrollTop = messages.scrollHeight;
+
+        // Clear tool feed
+        toolFeed.innerHTML = '';
+
+        // Stream response
+        fetch('/chat', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({message: msg, session_id: sessionId}),
+        }).then(function(response) {
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+            let buffer = '';
+
+            let currentEvent = 'message';
+            let currentData = '';
+
+            function flushEvent() {
+                if (currentData) {
+                    handleEvent(currentEvent, currentData, assistantDiv);
+                }
+                currentEvent = 'message';
+                currentData = '';
+            }
+
+            function processChunk(result) {
+                if (result.done) {
+                    flushEvent();
+                    finishSending();
+                    return;
+                }
+                buffer += decoder.decode(result.value, {stream: true});
+
+                // Line-by-line parse: accumulate event/data until an empty line.
+                const lines = buffer.split('\n');
+                buffer = lines.pop(); // last (possibly incomplete) line
+
+                for (const rawLine of lines) {
+                    const line = rawLine.replace(/\r$/, '');
+                    if (line === '') {
+                        flushEvent();
+                    } else if (line.startsWith('event:')) {
+                        currentEvent = line.slice(6).trim();
+                    } else if (line.startsWith('data:')) {
+                        currentData = line.slice(5).trim();
+                    } else if (line.startsWith(':')) {
+                        // comment / ping — ignore
+                    }
+                }
+
+                messages.scrollTop = messages.scrollHeight;
+                return reader.read().then(processChunk);
+            }
+
+            return reader.read().then(processChunk);
+        }).catch(function(err) {
+            assistantDiv.textContent = 'Error: ' + err.message;
+            finishSending();
+        });
+    }
+
+    function handleEvent(eventType, data, assistantDiv) {
+        if (!data) return;
+        try {
+            const parsed = JSON.parse(data);
+
+            if (eventType === 'text') {
+                assistantDiv.textContent += parsed.delta;
+            } else if (eventType === 'tool_use') {
+                addToolCard(parsed);
+            } else if (eventType === 'done') {
+                sessionId = parsed.session_id;
+            } else if (eventType === 'error') {
+                assistantDiv.textContent += '\n[Error: ' + parsed.error + ']';
+            }
+        } catch (e) {
+            // skip unparseable
+        }
+    }
+
+    function addToolCard(info) {
+        // Remove empty state
+        const empty = toolFeed.querySelector('.empty-state');
+        if (empty) empty.remove();
+
+        const card = document.createElement('div');
+        card.className = 'tool-card tool-' + info.name;
+
+        const header = document.createElement('div');
+        header.className = 'tool-header';
+        header.innerHTML = '<span class="tool-icon">' + toolIcon(info.name) + '</span>'
+            + '<span class="tool-name">' + escapeHtml(info.name) + '</span>'
+            + '<span class="tool-args">' + escapeHtml(formatArgs(info.args)) + '</span>';
+
+        const preview = document.createElement('div');
+        preview.className = 'tool-preview';
+        preview.textContent = info.preview;
+
+        card.appendChild(header);
+        card.appendChild(preview);
+        toolFeed.appendChild(card);
+        card.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+    }
+
+    function finishSending() {
+        sending = false;
+        sendBtn.disabled = false;
+        input.focus();
+    }
+
+    function toolIcon(name) {
+        var icons = {
+            read_page: '\u{1F4C4}',
+            read_section: '\u{1F4D1}',
+            get_page_metadata: '\u{1F3F7}',
+            list_pages: '\u{1F4C1}',
+            search: '\u{1F50D}',
+            follow_links: '\u{1F517}',
+            find_references: '\u21A9'
+        };
+        return icons[name] || '\u{1F527}';
+    }
+
+    function formatArgs(args) {
+        return Object.entries(args).map(function(kv) {
+            return kv[0] + '=' + kv[1];
+        }).join(', ');
+    }
+
+    function escapeHtml(s) {
+        var div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+    }
+    </script>
+</body>
+</html>

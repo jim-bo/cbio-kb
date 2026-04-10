@@ -1,10 +1,10 @@
 ---
 symbol: RB1
 aliases: []
-cancer_types: [LUAD, NSCLC, BLCA, UTUC]
+cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
 processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # RB1
@@ -20,11 +20,13 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Rare in [FGFR3](../genes/FGFR3.md)-altered urothelial carcinoma (1.2%, 5/414) and inversely associated with [FGFR3](../genes/FGFR3.md) alterations in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - RB1 oncogenic alterations were enriched in brain and liver metastases across the MSK-CHORD pan-cancer organotropism analyses (n=24,950) [PMID:39506116](../papers/39506116.md).
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the elastic-net Cox genomic risk model was defined in part by RB1 alterations [PMID:37477937](../papers/37477937.md).
+- RB1 truncating mutations/deletions in 14% of RT-[MFH](../cancer_types/MFH.md) (UPS) vs 19% sporadic UPS (n=14 RT-UPS, n=273 sporadic UPS); frequencies were similar between RT and sporadic settings [PMID:37350195](../papers/37350195.md).
 
 ## Cancer types (linked)
 
 - Lung adenocarcinoma ([LUAD](../cancer_types/LUAD.md)) — brain-metastasis-associated and local-progression-associated [PMID:37591896](../papers/37591896.md).
 - [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — rare and inversely associated with [FGFR3](../genes/FGFR3.md) alterations [PMID:37682528](../papers/37682528.md).
+- [MFH](../cancer_types/MFH.md) (UPS) — RB1 truncating mutations/deletions at similar frequency in RT-UPS (14%) and sporadic UPS (19%) [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,5 +46,6 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:37477937](../papers/37477937.md)
+- [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-10**.*

@@ -10,7 +10,7 @@ It defines the rules, the page templates, and the controlled vocabulary.
 3. **Always cite by PMID** as `[PMID:12345678](../papers/12345678.md)` (path relative to the citing page).
 4. **Cross-link aggressively.** Every mention of a known gene/cancer-type/dataset/drug/method
    in any wiki page is rewritten as a link to its canonical page.
-5. **Update `wiki/index.md`** whenever you create a new wiki page.
+5. **Do not edit `wiki/index.md`** — it is regenerated deterministically by `uv run cbio-kb wiki build-index`.
 6. **Conflicts are recorded, not resolved.** When papers disagree, write both positions
    with citations and (if material) flag in `wiki/themes/open_questions.md`.
 7. **Prefer specificity** — sample sizes, p-values, cohort identifiers, OncoTree codes,

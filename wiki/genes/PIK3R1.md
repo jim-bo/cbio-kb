@@ -3,8 +3,8 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG]
 tags: [pi3k-pathway]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # PIK3R1
@@ -23,7 +23,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-altered with PIK3CA in 1p19q codeleted oligodendrogliomas in this cohort [PMID:37910594](../papers/37910594.md).
+- Co-altered with [PIK3CA](../genes/PIK3CA.md) in 1p19q codeleted oligodendrogliomas in this cohort [PMID:37910594](../papers/37910594.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 - [PMID:37910594](../papers/37910594.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

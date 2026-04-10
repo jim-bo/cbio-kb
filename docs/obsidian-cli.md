@@ -1,5 +1,7 @@
 # Obsidian CLI cheat sheet for cbio-kb agents
 
+> **Deprecated.** This file documents the old Obsidian CLI dependency. All agents now use `uv run cbio-kb wiki <cmd>` instead. See [wiki-cli.md](wiki-cli.md) for the current reference.
+
 The Obsidian app ships an official CLI (`obsidian` on PATH). It is a remote-control for a running Obsidian instance, operating on a named vault. For this repo the vault is `wiki` (mapped to `wiki/` on disk).
 
 **Always pass `vault=wiki` as the first argument** so commands don't resolve against whichever vault happens to be active.

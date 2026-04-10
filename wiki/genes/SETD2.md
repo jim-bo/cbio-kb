@@ -3,8 +3,8 @@ symbol: SETD2
 aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # SETD2
@@ -21,11 +21,11 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 ## Cancer types (linked)
 
-- [LUAD](../cancer_types/LUAD.md) / [NSCLC](../cancer_types/NSCLC.md) — uncommon (~3%) driver predictive of longer OS, lower CNS metastasis, and immune checkpoint blockade response [PMID:39506116](../papers/39506116.md).
+- [LUAD](../cancer_types/LUAD.md) / [NSCLC](../cancer_types/NSCLC.md) — uncommon (~3%) driver predictive of longer [OS](../cancer_types/OS.md), lower CNS metastasis, and immune checkpoint blockade response [PMID:39506116](../papers/39506116.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Positively associated with [BRAF](../genes/BRAF.md) and [ARID1A](../genes/ARID1A.md) alterations and negatively associated with [EGFR](../genes/EGFR.md) and [MDM2](../genes/MDM2.md) alterations and mucinous subtype in LUAD (q<0.05) [PMID:39506116](../papers/39506116.md).
+- Positively associated with [BRAF](../genes/BRAF.md) and [ARID1A](../genes/ARID1A.md) alterations and negatively associated with [EGFR](../genes/EGFR.md) and [MDM2](../genes/MDM2.md) alterations and mucinous subtype in [LUAD](../cancer_types/LUAD.md) (q<0.05) [PMID:39506116](../papers/39506116.md).
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

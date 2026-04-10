@@ -3,8 +3,8 @@ name: Gallbladder Cancer
 oncotree_code: GBC
 parent: BILIARY_TRACT
 tags: [biliary, hepatobiliary]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Gallbladder Cancer (GBC)
@@ -25,10 +25,10 @@ Gallbladder carcinoma; in the corpus it is grouped with extrahepatic cholangioca
 
 ## Therapeutic landscape
 
-- Used as a reference class to define biliary-class [IHCH](IHCH.md), which carries markedly worse OS than HCC-class IHC [PMID:38864854](../papers/38864854.md).
+- Used as a reference class to define biliary-class [IHCH](IHCH.md), which carries markedly worse [OS](../cancer_types/OS.md) than HCC-class IHC [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

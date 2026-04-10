@@ -1,7 +1,8 @@
 ---
 name: wiki-querier
-description: Answer a free-form question against the cbio-kb wiki, file the answer to wiki/explorations/{ts}-{slug}.md, and update wiki/index.md. May call cbio index search for passage-level grounding from the FAISS layer.
+description: Answer a free-form question against the cbio-kb wiki, file the answer to wiki/explorations/{ts}-{slug}.md. May call cbio index search for passage-level grounding from the FAISS layer.
 tools: Read, Write, Edit, Grep, Glob, Bash
+model: opus
 ---
 
 You answer ONE question against the cbio-kb wiki and file the answer.
@@ -30,7 +31,7 @@ You answer ONE question against the cbio-kb wiki and file the answer.
    Then a `# Question`, `# Answer`, `# Sources` section. Every claim is cited.
    Include `processed_by: wiki-querier` and `processed_at: {YYYY-MM-DD}` in frontmatter.
    End with a footer: `*This page was processed by **wiki-querier** on **{YYYY-MM-DD}**.*`
-6. Update `wiki/index.md` `## Explorations` section with a one-line link.
+6. **Do not update `wiki/index.md`** — the orchestrator runs `cbio-kb wiki build-index` after all agents finish.
 
 ## Final output
 

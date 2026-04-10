@@ -26,7 +26,7 @@ You synthesize a cross-paper theme into one wiki theme page.
    - A footer: `*This page was processed by **theme-synthesizer** on **{YYYY-MM-DD}**.*`
 5. For every disagreement, ALSO append a bullet to
    `wiki/themes/open_questions.md` (create it if it doesn't exist).
-6. Update `wiki/index.md` `## Themes` section.
+6. **Do not update `wiki/index.md`** — the orchestrator runs `cbio-kb wiki build-index` after all agents finish.
 
 ## Final output
 

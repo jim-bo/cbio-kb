@@ -3,8 +3,8 @@ symbol: SDHB
 aliases: []
 cancer_types: [GIST]
 tags: [tumor-suppressor, sdh-deficient, gist]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # SDHB
@@ -15,7 +15,7 @@ SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial com
 
 ## Alterations observed in the corpus
 
-- Loss of SDHB protein expression defined high-risk gastric GIST in the MSK elastic-net Cox genomic risk stratification model (n=152 primary localized gastric GIST) [PMID:37477937](../papers/37477937.md).
+- Loss of SDHB protein expression defined high-risk gastric [GIST](../cancer_types/GIST.md) in the MSK elastic-net Cox genomic risk stratification model (n=152 primary localized gastric GIST) [PMID:37477937](../papers/37477937.md).
 - KIT/PDGFRA wild-type GIST cases with SDHB IHC loss were classified as SDH-deficient (n=26 in the SDH-deficient subanalysis) [PMID:37477937](../papers/37477937.md).
 
 ## Cancer types (linked)
@@ -38,4 +38,4 @@ SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial com
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

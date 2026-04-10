@@ -3,8 +3,8 @@ symbol: MAX
 aliases: []
 cancer_types: [GIST]
 tags: [myc-pathway, transcription-factor]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # MAX
@@ -15,7 +15,7 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 ## Alterations observed in the corpus
 
-- High-risk small bowel GIST class in the MSK elastic-net Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) (n=80 primary localized small bowel GIST) [PMID:37477937](../papers/37477937.md).
+- High-risk small bowel [GIST](../cancer_types/GIST.md) class in the MSK elastic-net Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) (n=80 primary localized small bowel GIST) [PMID:37477937](../papers/37477937.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

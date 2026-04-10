@@ -5,7 +5,7 @@ kind: method
 unverified: true
 tags: [fusion-detection, rna, targeted-sequencing]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Archer FusionPlex
@@ -16,7 +16,7 @@ Targeted RNA-based anchored multiplex PCR sequencing assay used to detect gene f
 
 ## Used by
 
-- [PMID:37315267](../papers/37315267.md) — used to detect [FOXO1](../genes/FOXO1.md) fusions ([PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md), [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md)) in extremity rhabdomyosarcoma, complementing [FISH](../methods/fish.md) with custom BAC probes flanking FOXO1, [PAX3](../genes/PAX3.md), and [PAX7](../genes/PAX7.md) [PMID:37315267](../papers/37315267.md).
+- [PMID:37315267](../papers/37315267.md) — used to detect [FOXO1](../genes/FOXO1.md) fusions ([PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md), [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md)) in extremity rhabdomyosarcoma, complementing [FISH](../methods/fish.md) with custom BAC probes flanking [FOXO1](../genes/FOXO1.md), [PAX3](../genes/PAX3.md), and [PAX7](../genes/PAX7.md) [PMID:37315267](../papers/37315267.md).
 
 ## Notes
 
@@ -26,4 +26,4 @@ Targeted RNA-based anchored multiplex PCR sequencing assay used to detect gene f
 
 - [PMID:37315267](../papers/37315267.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

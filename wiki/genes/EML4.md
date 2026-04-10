@@ -4,14 +4,14 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion-partner]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # EML4
 
 ## Overview
 
-EML4 (echinoderm microtubule-associated protein-like 4) is best known as the most common fusion partner of [ALK](../genes/ALK.md) in non-small cell lung cancer. The EML4::ALK fusion is a canonical oncogenic driver and a primary target of ALK inhibitors.
+EML4 (echinoderm microtubule-associated protein-like 4) is best known as the most common fusion partner of [ALK](../genes/ALK.md) in non-small cell lung cancer. The EML4::[ALK](../genes/ALK.md) fusion is a canonical oncogenic driver and a primary target of ALK inhibitors.
 
 ## Alterations observed in the corpus
 
@@ -27,7 +27,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 ## Therapeutic relevance
 
-- EML4::ALK fusions are level 1 OncoKB actionable alterations in NSCLC, targetable by ALK inhibitors; serial CSF ctDNA profiling identified emergence of ALK resistance mutations in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
+- EML4::ALK fusions are level 1 OncoKB actionable alterations in [NSCLC](../cancer_types/NSCLC.md), targetable by ALK inhibitors; serial CSF ctDNA profiling identified emergence of ALK resistance mutations in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
 
 ## Open questions
 
@@ -37,4 +37,4 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -2,7 +2,7 @@
 name: wiki-linter
 description: Validate wiki/ structure — frontmatter completeness, broken intra-wiki links, orphan pages not in index.md, missing required sections. Reports findings, does not fix them.
 tools: Read, Grep, Glob, Bash
-model: sonnet
+model: haiku
 ---
 
 You audit `wiki/` and report problems. You do NOT fix anything.

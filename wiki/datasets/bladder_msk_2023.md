@@ -12,7 +12,7 @@ tags:
   - cfdna
   - real-world-evidence
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Urothelial Carcinoma (MSK, Clin Cancer Res 2023)
@@ -42,11 +42,11 @@ Single-institution MSK cohort of 1,421 urothelial carcinoma patients (1,507 tumo
 - Only 1/1,507 tumors carried an actionable [FGFR2](../genes/FGFR2.md) alteration (an [FGFR2](../genes/FGFR2.md):MARVELD3 fusion of unclear significance) ([PMID:37682528](../papers/37682528.md)).
 - Primary/metastatic [FGFR3](../genes/FGFR3.md) status discordant in 7/27 (26%) paired cases ([PMID:37682528](../papers/37682528.md)).
 - FGFR3-altered tumors inversely associated with [ERBB2](../genes/ERBB2.md), [TP53](../genes/TP53.md), and [RB1](../genes/RB1.md); frequently co-altered with [CDKN2A](../genes/CDKN2A.md), [CDKN2B](../genes/CDKN2B.md), and [KDM6A](../genes/KDM6A.md) ([PMID:37682528](../papers/37682528.md)).
-- Real-world [erdafitinib](../drugs/erdafitinib.md) ORR 40%, median PFS 2.8 mo, median OS 6.6 mo (n=32) ([PMID:37682528](../papers/37682528.md)).
+- Real-world [erdafitinib](../drugs/erdafitinib.md) ORR 40%, median PFS 2.8 mo, median [OS](../cancer_types/OS.md) 6.6 mo (n=32) ([PMID:37682528](../papers/37682528.md)).
 - Serial cfDNA identified acquired [TP53](../genes/TP53.md) (5/27), [AKT1](../genes/AKT1.md) (1/27), and second-site [FGFR3](../genes/FGFR3.md) kinase-domain mutations (V553M, N540S) as putative [erdafitinib](../drugs/erdafitinib.md) resistance drivers ([PMID:37682528](../papers/37682528.md)).
 
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., "Clinical and Genomic Landscape of FGFR3-Altered Urothelial Carcinoma and Treatment Outcomes with Erdafitinib," Clin Cancer Res 2023.
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

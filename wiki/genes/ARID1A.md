@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # ARID1A
@@ -18,7 +18,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Driver mutations enriched in IGHV-unmutated CLL (U-CLL), reinforced by 1p36.11 copy loss (4.4%) in the cBioPortal CLL map [PMID:35927489](../papers/35927489.md).
 - Altered more often in [LUAD](../cancer_types/LUAD.md) metastases than in matched primary tumors in the MSK [LUAD](../cancer_types/LUAD.md) organotropism cohort [PMID:37084736](../papers/37084736.md).
 - Enriched in primary [LUAD](../cancer_types/LUAD.md) tumors from patients who later developed brain metastasis compared with non-metastatic primaries [PMID:37591896](../papers/37591896.md).
-- ARID1A alterations were positively associated with [SETD2](../genes/SETD2.md) driver mutations in LUAD (q<0.05) in the MSK-CHORD cohort [PMID:39506116](../papers/39506116.md).
+- ARID1A alterations were positively associated with [SETD2](../genes/SETD2.md) driver mutations in [LUAD](../cancer_types/LUAD.md) (q<0.05) in the MSK-CHORD cohort [PMID:39506116](../papers/39506116.md).
 
 ## Cancer types (linked)
 
@@ -44,4 +44,4 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

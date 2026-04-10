@@ -12,19 +12,19 @@ tags:
   - btk-inhibitor
   - csf-ctdna
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # PCNSL MSK Ibrutinib Phase I/II Cohort (2024)
 
 ## Overview
 
-Single-center phase I/II trial cohort (NCT02315326) at Memorial Sloan Kettering of 46 patients with relapsed/refractory CNS lymphoma treated with single-agent ibrutinib, with paired tumor and CSF genomic profiling [PMID:38995739](../papers/38995739.md).
+Single-center phase I/II trial cohort (NCT02315326) at Memorial Sloan Kettering of 46 patients with relapsed/refractory CNS lymphoma treated with single-agent [ibrutinib](../drugs/ibrutinib.md), with paired tumor and CSF genomic profiling [PMID:38995739](../papers/38995739.md).
 
 ## Composition
 
 - 46 patients with r/r CNS lymphoma: 31 [PCNSL](../cancer_types/PCNSL.md) + 15 SCNSL (secondary CNS [DLBCLNOS](../cancer_types/DLBCLNOS.md)); median age 68 (range 21–90); median 2 prior therapies; all previously received [methotrexate](../drugs/methotrexate.md) [PMID:38995739](../papers/38995739.md).
-- Archival tumor biopsies sequenced in 25/31 PCNSL cases; paired pre-/on-treatment CSF (CSF1/CSF2) available for 14 patients [PMID:38995739](../papers/38995739.md).
+- Archival tumor biopsies sequenced in 25/31 [PCNSL](../cancer_types/PCNSL.md) cases; paired pre-/on-treatment CSF (CSF1/CSF2) available for 14 patients [PMID:38995739](../papers/38995739.md).
 
 ## Assays / panels (linked)
 
@@ -46,4 +46,4 @@ Single-center phase I/II trial cohort (NCT02315326) at Memorial Sloan Kettering 
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=pcnsl_msk_2024
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -3,8 +3,8 @@ name: Intrahepatic Cholangiocarcinoma
 oncotree_code: IHCH
 parent: CHOL
 tags: [biliary, hepatobiliary]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Intrahepatic Cholangiocarcinoma (IHCH)
@@ -21,7 +21,7 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 
 - 410 IHC (78%) had >50% genetic homology with EHC/GBC; 122 (23%) exceeded >90% homology ("biliary-class") characterized by [KRAS](../genes/KRAS.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) loss [PMID:38864854](../papers/38864854.md).
 - 117 IHC (22%) had >50% genetic homology with [HCC](../cancer_types/HCC.md); 30 (5.7%) exceeded >90% homology ("HCC-class") characterized by [TERT](../genes/TERT.md) alterations [PMID:38864854](../papers/38864854.md).
-- Classifier predicted OS independently of [FGFR2](../genes/FGFR2.md) and [IDH1](../genes/IDH1.md) alterations [PMID:38864854](../papers/38864854.md).
+- Classifier predicted [OS](../cancer_types/OS.md) independently of [FGFR2](../genes/FGFR2.md) and [IDH1](../genes/IDH1.md) alterations [PMID:38864854](../papers/38864854.md).
 
 ## Subtypes
 
@@ -36,4 +36,4 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

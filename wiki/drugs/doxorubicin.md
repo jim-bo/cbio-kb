@@ -5,7 +5,7 @@ drug_class: anthracycline
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # doxorubicin
@@ -20,7 +20,7 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 
 ## Resistance mechanisms
 
-- [TP53](../genes/TP53.md) mutations and 17p deletions associate with inferior PFS on CHOP-based induction; [CDKN2A](../genes/CDKN2A.md) deletion associates with inferior OS [PMID:37078708](../papers/37078708.md).
+- [TP53](../genes/TP53.md) mutations and 17p deletions associate with inferior PFS on CHOP-based induction; [CDKN2A](../genes/CDKN2A.md) deletion associates with inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
 
 ## Cancer types (linked)
 
@@ -30,4 +30,4 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 
 - [PMID:37078708](../papers/37078708.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -6,7 +6,7 @@ cancerTypeId: nsclc
 pmid: "36357680"
 allSampleCount: 1
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)
@@ -30,7 +30,7 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 ## Notable findings derived from this cohort
 
 - ctDNA detection rate was 722/1,127 (64%), and ctDNA detection was an independent poor prognostic marker (HR 2.05; 95% CI 1.74–2.42; P<0.001) even after correction for clinicopathologic factors and PET-based metabolic tumor volume [PMID:36357680](../papers/36357680.md).
-- Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer OS than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
+- Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer [OS](../cancer_types/OS.md) than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
 - 25% of patients had alterations detected only in ctDNA (not in time-matched tissue), disproportionately subclonal resistance drivers such as [RICTOR](../genes/RICTOR.md) and [PIK3CA](../genes/PIK3CA.md), and associated with short survival [PMID:36357680](../papers/36357680.md).
 - Operational metrics: only 2% of ctDx Lung / MSK-ACCESS samples failed vs 13% tissue sequencing failures; turnaround 11 days vs 33 days for MSK-IMPACT [PMID:36357680](../papers/36357680.md).
 
@@ -38,4 +38,4 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 
 - cBioPortal study `nsclc_ctdx_msk_2022` [PMID:36357680](../papers/36357680.md).
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

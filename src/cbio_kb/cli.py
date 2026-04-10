@@ -92,6 +92,7 @@ def _cmd_crosslink(args: argparse.Namespace) -> int:
         Path(args.wiki_dir),
         [Path(p) for p in args.paths] if args.paths else None,
         dry_run=args.dry_run,
+        update_provenance=args.update_provenance,
     )
 
 
@@ -107,6 +108,124 @@ def _cmd_serve(args: argparse.Namespace) -> int:
     from cbio_kb.server import mcp
 
     return mcp.main(["--host", args.host, "--port", str(args.port)])
+
+
+# ---- wiki vault queries ---------------------------------------------------
+
+def _json_print(obj) -> int:
+    import json
+    print(json.dumps(obj, indent=2, ensure_ascii=False))
+    return 0
+
+
+def _cmd_wiki_files(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.list_files(Path(args.wiki_dir), args.folder))
+
+
+def _cmd_wiki_properties(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.get_properties(Path(args.wiki_dir), args.path))
+
+
+def _cmd_wiki_property(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.get_property(Path(args.wiki_dir), args.path, args.name))
+
+
+def _cmd_wiki_outline(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.get_outline(Path(args.wiki_dir), args.path))
+
+
+def _cmd_wiki_search(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.search_files(Path(args.wiki_dir), args.query))
+
+
+def _cmd_wiki_search_context(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(
+        vault.search_context(
+            Path(args.wiki_dir), args.query,
+            limit=args.limit, path=args.path,
+        )
+    )
+
+
+def _cmd_wiki_backlinks(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_backlinks(Path(args.wiki_dir), args.file))
+
+
+def _cmd_wiki_links(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_links(Path(args.wiki_dir), args.path))
+
+
+def _cmd_wiki_tag(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_by_tag(Path(args.wiki_dir), args.name))
+
+
+def _cmd_wiki_unresolved(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_unresolved(Path(args.wiki_dir)))
+
+
+def _cmd_wiki_orphans(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_orphans(Path(args.wiki_dir)))
+
+
+def _cmd_wiki_deadends(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.find_deadends(Path(args.wiki_dir)))
+
+
+def _cmd_wiki_reload(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+    return _json_print(vault.reload())
+
+
+def _cmd_wiki_build_index(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import vault
+
+    wiki_dir = Path(args.wiki_dir)
+    template = Path(args.template)
+    if not template.exists():
+        print(f"[!] template not found: {template}")
+        return 1
+    rendered = vault.build_index(wiki_dir, template)
+    if args.dry_run:
+        print(rendered)
+    else:
+        (wiki_dir / "index.md").write_text(rendered)
+        print(f"[build-index] wrote {wiki_dir / 'index.md'}")
+    return 0
+
+
+def _cmd_wiki_reprocess_frontmatter(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import reprocess
+
+    sections = args.sections.split(",") if args.sections else None
+    return reprocess.run_patch(
+        Path(args.wiki_dir),
+        Path(args.template_dir),
+        sections=sections,
+        dry_run=args.dry_run,
+    )
+
+
+def _cmd_wiki_reprocess_extract(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import reprocess
+
+    return reprocess.run_extract(
+        Path(args.wiki_dir),
+        Path(args.raw_dir),
+        Path(args.template_dir),
+        emit_prompts=args.prompts,
+    )
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -173,6 +292,8 @@ def build_parser() -> argparse.ArgumentParser:
     xl.add_argument("--wiki-dir", default="wiki")
     xl.add_argument("--paths", nargs="*")
     xl.add_argument("--dry-run", action="store_true")
+    xl.add_argument("--update-provenance", action="store_true",
+                     help="Update processed_by/processed_at and footer")
     xl.set_defaults(func=_cmd_crosslink)
 
     logs = sub.add_parser("logs", help="Session transcript tools")
@@ -189,6 +310,84 @@ def build_parser() -> argparse.ArgumentParser:
     srv.add_argument("--host", default="localhost")
     srv.add_argument("--port", type=int, default=8123)
     srv.set_defaults(func=_cmd_serve)
+
+    # ---- wiki vault queries -----------------------------------------------
+    wiki = sub.add_parser("wiki", help="Token-efficient wiki vault queries (JSON)")
+    wiki_sub = wiki.add_subparsers(dest="subcmd", required=True)
+    wiki.add_argument("--wiki-dir", default="wiki")
+
+    w_files = wiki_sub.add_parser("files", help="List .md stems in a folder")
+    w_files.add_argument("--folder", required=True)
+    w_files.set_defaults(func=_cmd_wiki_files)
+
+    w_props = wiki_sub.add_parser("properties", help="Frontmatter as JSON")
+    w_props.add_argument("--path", required=True)
+    w_props.set_defaults(func=_cmd_wiki_properties)
+
+    w_prop = wiki_sub.add_parser("property", help="Single frontmatter field")
+    w_prop.add_argument("--path", required=True)
+    w_prop.add_argument("--name", required=True)
+    w_prop.set_defaults(func=_cmd_wiki_property)
+
+    w_outline = wiki_sub.add_parser("outline", help="Heading map with line numbers")
+    w_outline.add_argument("--path", required=True)
+    w_outline.set_defaults(func=_cmd_wiki_outline)
+
+    w_search = wiki_sub.add_parser("search", help="File paths matching query")
+    w_search.add_argument("--query", required=True)
+    w_search.set_defaults(func=_cmd_wiki_search)
+
+    w_ctx = wiki_sub.add_parser("search-context", help="Matching lines with context")
+    w_ctx.add_argument("--query", required=True)
+    w_ctx.add_argument("--limit", type=int, default=50)
+    w_ctx.add_argument("--path", default=None)
+    w_ctx.set_defaults(func=_cmd_wiki_search_context)
+
+    w_bl = wiki_sub.add_parser("backlinks", help="Pages linking to a file stem")
+    w_bl.add_argument("--file", required=True)
+    w_bl.set_defaults(func=_cmd_wiki_backlinks)
+
+    w_links = wiki_sub.add_parser("links", help="Outgoing links from a page")
+    w_links.add_argument("--path", required=True)
+    w_links.set_defaults(func=_cmd_wiki_links)
+
+    w_tag = wiki_sub.add_parser("tag", help="Pages with a frontmatter tag")
+    w_tag.add_argument("--name", required=True)
+    w_tag.set_defaults(func=_cmd_wiki_tag)
+
+    w_unres = wiki_sub.add_parser("unresolved", help="Broken intra-wiki links")
+    w_unres.set_defaults(func=_cmd_wiki_unresolved)
+
+    w_orph = wiki_sub.add_parser("orphans", help="Pages not in index.md")
+    w_orph.set_defaults(func=_cmd_wiki_orphans)
+
+    w_dead = wiki_sub.add_parser("deadends", help="Pages with no outgoing links")
+    w_dead.set_defaults(func=_cmd_wiki_deadends)
+
+    w_reload = wiki_sub.add_parser("reload", help="No-op (filesystem is always fresh)")
+    w_reload.set_defaults(func=_cmd_wiki_reload)
+
+    w_bindex = wiki_sub.add_parser("build-index", help="Regenerate wiki/index.md from template")
+    w_bindex.add_argument("--template", default="schema/templates/index.md")
+    w_bindex.add_argument("--dry-run", action="store_true",
+                          help="Print rendered index to stdout instead of writing")
+    w_bindex.set_defaults(func=_cmd_wiki_build_index)
+
+    w_repatch = wiki_sub.add_parser("reprocess-frontmatter",
+                                     help="Tier 1: patch frontmatter to match templates (deterministic)")
+    w_repatch.add_argument("--template-dir", default="schema/templates")
+    w_repatch.add_argument("--sections", default=None,
+                            help="Comma-separated sections to process (default: all)")
+    w_repatch.add_argument("--dry-run", action="store_true")
+    w_repatch.set_defaults(func=_cmd_wiki_reprocess_frontmatter)
+
+    w_reextract = wiki_sub.add_parser("reprocess-extract",
+                                       help="Tier 2: find papers needing delta extraction")
+    w_reextract.add_argument("--template-dir", default="schema/templates")
+    w_reextract.add_argument("--raw-dir", default="data/raw/papers")
+    w_reextract.add_argument("--prompts", action="store_true",
+                              help="Emit agent prompts instead of JSON manifest")
+    w_reextract.set_defaults(func=_cmd_wiki_reprocess_extract)
 
     return p
 

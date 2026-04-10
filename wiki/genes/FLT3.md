@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A]
 tags: [kinase, signaling, sub-clonal]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # FLT3
@@ -28,7 +28,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 
 ## Therapeutic relevance
 
-- Kinase/PI3K/RAS pathway mutations showed a trend toward poorer EFS and OS, suggesting potential utility for pathway-targeted therapy [PMID:25730765](../papers/25730765.md).
+- Kinase/PI3K/RAS pathway mutations showed a trend toward poorer EFS and [OS](../cancer_types/OS.md), suggesting potential utility for pathway-targeted therapy [PMID:25730765](../papers/25730765.md).
 
 ## Open questions
 
@@ -38,4 +38,4 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 
 - [PMID:25730765](../papers/25730765.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

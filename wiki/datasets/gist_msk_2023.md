@@ -9,8 +9,8 @@ tags:
   - GIST
   - risk-stratification
   - adjuvant-therapy
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Gastrointestinal Stromal Tumor Genomic Risk Stratification, MSK, Clin Cancer Res 2023
@@ -22,7 +22,7 @@ MSKCC cohort of 501 [GIST](../cancer_types/GIST.md) patients (592 samples) diagn
 ## Composition
 
 - 501 patients / 592 samples: 275 gastric (307 samples), 194 small bowel (244 samples), 32 rectal (41 samples; excluded from modeling) [PMID:37477937](../papers/37477937.md).
-- Modeling cohort: 152 primary localized gastric and 80 small bowel GISTs; 41% of gastric and 53% of small bowel received adjuvant imatinib [PMID:37477937](../papers/37477937.md).
+- Modeling cohort: 152 primary localized gastric and 80 small bowel GISTs; 41% of gastric and 53% of small bowel received adjuvant [imatinib](../drugs/imatinib.md) [PMID:37477937](../papers/37477937.md).
 - Cancer type: [GIST](../cancer_types/GIST.md).
 
 ## Assays / panels (linked)
@@ -31,7 +31,7 @@ MSKCC cohort of 501 [GIST](../cancer_types/GIST.md) patients (592 samples) diagn
 
 ## Papers using this cohort
 
-- [PMID:37477937](../papers/37477937.md) — Dermawan et al., Novel Genomic Risk Stratification Model for Primary GIST in the Adjuvant Therapy Era, Clin Cancer Res 2023.
+- [PMID:37477937](../papers/37477937.md) — Dermawan et al., Novel Genomic Risk Stratification Model for Primary [GIST](../cancer_types/GIST.md) in the Adjuvant Therapy Era, Clin Cancer Res 2023.
 
 ## Notable findings derived from this cohort
 
@@ -44,4 +44,4 @@ MSKCC cohort of 501 [GIST](../cancer_types/GIST.md) patients (592 samples) diagn
 
 - cBioPortal study `gist_msk_2023` [PMID:37477937](../papers/37477937.md).
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

@@ -5,7 +5,7 @@ parent: BLL
 tags:
   - b-cell-lymphoma
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # Diffuse Large B-Cell Lymphoma NOS (DLBCLNOS)
@@ -30,10 +30,10 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 ## Therapeutic landscape
 
 - [ibrutinib](../drugs/ibrutinib.md) single-agent showed activity in both [PCNSL](../cancer_types/PCNSL.md) (74% ORR) and SCNSL (60% ORR) in r/r disease [PMID:38995739](../papers/38995739.md).
-- [CARD11](../genes/CARD11.md) coiled-coil mutations mark known primary ibrutinib resistance in B-cell malignancies [PMID:38995739](../papers/38995739.md).
+- [CARD11](../genes/CARD11.md) coiled-coil mutations mark known primary [ibrutinib](../drugs/ibrutinib.md) resistance in B-cell malignancies [PMID:38995739](../papers/38995739.md).
 
 ## Sources
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

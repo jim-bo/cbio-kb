@@ -11,19 +11,19 @@ tags:
   - kras-alleles
   - surgical-resection
   - spatial-transcriptomics
-processed_by: paper-compiler
-processed_at: 2026-04-09
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # MSK Resected PDAC KRAS-Allele Cohort (2024)
 
 ## Overview
 
-Single-institution retrospective cohort of 1,360 consecutive patients with pancreatic ductal adenocarcinoma who underwent surgical resection at Memorial Sloan Kettering between April 2004 and April 2019, assembled to interrogate KRAS allele–specific clinical outcomes and biology in [PAAD](../cancer_types/PAAD.md) [PMID:39214094](../papers/39214094.md).
+Single-institution retrospective cohort of 1,360 consecutive patients with pancreatic ductal adenocarcinoma who underwent surgical resection at Memorial Sloan Kettering between April 2004 and April 2019, assembled to interrogate [KRAS](../genes/KRAS.md) allele–specific clinical outcomes and biology in [PAAD](../cancer_types/PAAD.md) [PMID:39214094](../papers/39214094.md).
 
 ## Composition
 
-- 1,360 resected PDAC patients; 397 (29%) stage I, 963 (71%) stage II–III; OS of the full cohort 30.7 months (95% CI 28.0–32.8) [PMID:39214094](../papers/39214094.md).
+- 1,360 resected PDAC patients; 397 (29%) stage I, 963 (71%) stage II–III; [OS](../cancer_types/OS.md) of the full cohort 30.7 months (95% CI 28.0–32.8) [PMID:39214094](../papers/39214094.md).
 - Tumor targeted sequencing on [MSK-IMPACT](../methods/msk-impact-panel.md) in 397 patients (103 stage I, 294 stage II–III) with no sequencing selection criteria [PMID:39214094](../papers/39214094.md).
 - Bulk RNA-seq on 100 resected tumors and high-plex spatial profiling on 20 patients (14 tumors, 6 normal) using NanoString [CosMx SMI](../methods/cosmx-smi.md) tissue microarrays [PMID:39214094](../papers/39214094.md).
 - 22% of the sequenced subset received neoadjuvant therapy (most commonly 5-FU–based regimens, frequently FOLFIRINOX); 82% received adjuvant therapy [PMID:39214094](../papers/39214094.md).
@@ -47,4 +47,4 @@ Single-institution retrospective cohort of 1,360 consecutive patients with pancr
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=pancreas_msk_2024
 
-*This page was processed by **paper-compiler** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

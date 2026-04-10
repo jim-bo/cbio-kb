@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # FGFR3
@@ -34,9 +34,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 ## Therapeutic relevance
 
-- Primary actionable biomarker for [erdafitinib](../drugs/erdafitinib.md); real-world ORR 40% (12/30) but median PFS 2.8 mo and OS 6.6 mo in 32 metastatic UC patients [PMID:37682528](../papers/37682528.md).
+- Primary actionable biomarker for [erdafitinib](../drugs/erdafitinib.md); real-world ORR 40% (12/30) but median PFS 2.8 mo and [OS](../cancer_types/OS.md) 6.6 mo in 32 metastatic UC patients [PMID:37682528](../papers/37682528.md).
 - Acquired second-site FGFR3 V553M/N540S kinase-domain mutations are putative resistance drivers detectable in cfDNA [PMID:37682528](../papers/37682528.md).
-- Archival primary-tumor FGFR3 status misclassifies metastatic disease in ~26% of patients, arguing for metastatic-site or cfDNA profiling before erdafitinib selection [PMID:37682528](../papers/37682528.md).
+- Archival primary-tumor FGFR3 status misclassifies metastatic disease in ~26% of patients, arguing for metastatic-site or cfDNA profiling before [erdafitinib](../drugs/erdafitinib.md) selection [PMID:37682528](../papers/37682528.md).
 - FGFR3 status did not alter PFS/OS on immune checkpoint blockade (p=0.47/0.52) [PMID:37682528](../papers/37682528.md).
 
 ## Open questions
@@ -48,4 +48,4 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

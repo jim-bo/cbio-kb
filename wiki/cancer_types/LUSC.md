@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)
@@ -30,11 +30,11 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 
 ## Therapeutic landscape
 
-- ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05, P<0.001), with ctDNA-guided matching to targeted therapy conferring OS benefit (HR 0.63, P<0.001) [PMID:36357680](../papers/36357680.md).
+- ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05, P<0.001), with ctDNA-guided matching to targeted therapy conferring [OS](../cancer_types/OS.md) benefit (HR 0.63, P<0.001) [PMID:36357680](../papers/36357680.md).
 
 ## Sources
 
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37591896](../papers/37591896.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

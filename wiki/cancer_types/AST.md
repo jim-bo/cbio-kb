@@ -3,8 +3,8 @@ name: Astrocytoma
 oncotree_code: AST
 parent: DIFG
 tags: [glioma, cns, IDH-mutant]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Astrocytoma (AST)
@@ -20,7 +20,7 @@ Diffuse astrocytoma, a diffuse glioma subtype (parent [DIFG](DIFG.md)). In this 
 ## Recurrent alterations
 
 - [TP53](../genes/TP53.md) mutations in 94% and [ATRX](../genes/ATRX.md) mutations in 77% of 1p19q intact IDH-mt astrocytomas in the MSK-IMPACT subcohort [PMID:37910594](../papers/37910594.md).
-- [PIK3R1](../genes/PIK3R1.md) and [PIK3CA](../genes/PIK3CA.md) mutations (with TP53 and broad CNV load) used to define "molecular grade-intermediate" in 1p19q intact tumors [PMID:37910594](../papers/37910594.md).
+- [PIK3R1](../genes/PIK3R1.md) and [PIK3CA](../genes/PIK3CA.md) mutations (with [TP53](../genes/TP53.md) and broad CNV load) used to define "molecular grade-intermediate" in 1p19q intact tumors [PMID:37910594](../papers/37910594.md).
 - CDKN2A/B homozygous deletion (molecular grade-high, n=4) drove markedly faster TVGR (19.17% vs 9.54% per 6 months, P<0.0001) [PMID:37910594](../papers/37910594.md).
 
 ## Subtypes
@@ -35,4 +35,4 @@ Diffuse astrocytoma, a diffuse glioma subtype (parent [DIFG](DIFG.md)). In this 
 
 - [PMID:37910594](../papers/37910594.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

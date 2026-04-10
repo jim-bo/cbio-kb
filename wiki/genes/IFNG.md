@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [th1, icr, immune-signature]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # IFNG
@@ -19,7 +19,7 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 
 ## Cancer types (linked)
 
-- [COAD](../cancer_types/COAD.md) — ICR Th1 component; ICR-high tumors had improved OS (HR 0.54, P=0.0095) [PMID:37202560](../papers/37202560.md).
+- [COAD](../cancer_types/COAD.md) — ICR Th1 component; ICR-high tumors had improved [OS](../cancer_types/OS.md) (HR 0.54, P=0.0095) [PMID:37202560](../papers/37202560.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

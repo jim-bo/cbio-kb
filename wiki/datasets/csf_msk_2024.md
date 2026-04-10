@@ -15,7 +15,7 @@ tags:
   - resistance-monitoring
   - clinical-actionability
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # CSF ctDNA MSK 2024
@@ -47,7 +47,7 @@ Comprehensive prospective cohort of circulating tumor DNA (ctDNA) profiled in ce
 - 7,110 somatic alterations detected across 489 ctDNA-positive samples (3,944 non-synonymous mutations, 2,980 copy number alterations, 186 structural rearrangements) [PMID:39289779](../papers/39289779.md).
 - [TP53](../genes/TP53.md) was the most frequently altered gene (n=242, 49% of ctDNA-positive samples) [PMID:39289779](../papers/39289779.md).
 - 50.7% (248/489) of ctDNA-positive samples carried a level 1 OncoKB actionable alteration; lung carcinomas had the highest actionability rate [PMID:39289779](../papers/39289779.md).
-- ctDNA positivity associated with three-fold increased risk of death (HR 3.23, 95% CI 2.58-4.05, p < 0.001); median OS 235 days vs. 1,089 days [PMID:39289779](../papers/39289779.md).
+- ctDNA positivity associated with three-fold increased risk of death (HR 3.23, 95% CI 2.58-4.05, p < 0.001); median [OS](../cancer_types/OS.md) 235 days vs. 1,089 days [PMID:39289779](../papers/39289779.md).
 - In [NSCLC](../cancer_types/NSCLC.md), leptomeningeal involvement was a strong predictor of ctDNA positivity (OR 20.17, p < 0.0001). CSF ctDNA had greater sensitivity than positive cytology for leptomeningeal disease (85.4% vs. 61.7%) [PMID:39289779](../papers/39289779.md).
 - CSF VAFs were significantly higher than plasma VAFs (median 36.4% vs. 2.3%, p < 0.01), demonstrating the superiority of CSF over plasma for CNS tumor monitoring [PMID:39289779](../papers/39289779.md).
 - Resistance mechanisms detected in serial CSF ctDNA: [EGFR](../genes/EGFR.md) gatekeeper mutations (p.T790M, p.C797S), [ALK](../genes/ALK.md) resistance mutations (p.G1202R, p.G1269A), and [MET](../genes/MET.md) resistance mutation (p.Y1230N) [PMID:39289779](../papers/39289779.md).
@@ -57,4 +57,4 @@ Comprehensive prospective cohort of circulating tumor DNA (ctDNA) profiled in ce
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=csf_msk_2024
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

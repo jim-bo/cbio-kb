@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion, kinase, actionable]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # ROS1
@@ -27,7 +27,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 
 ## Therapeutic relevance
 
-- ROS1 fusions are level 1 OncoKB actionable alterations in NSCLC; lung carcinomas had the highest clinical actionability rate among CSF ctDNA-positive samples in the MSK CSF cohort [PMID:39289779](../papers/39289779.md).
+- ROS1 fusions are level 1 OncoKB actionable alterations in [NSCLC](../cancer_types/NSCLC.md); lung carcinomas had the highest clinical actionability rate among CSF ctDNA-positive samples in the MSK CSF cohort [PMID:39289779](../papers/39289779.md).
 
 ## Open questions
 
@@ -37,4 +37,4 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

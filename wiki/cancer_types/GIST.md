@@ -3,8 +3,8 @@ name: Gastrointestinal Stromal Tumor
 oncotree_code: GIST
 parent: SOFT_TISSUE
 tags: [sarcoma, gi]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # Gastrointestinal Stromal Tumor (GIST)
@@ -19,7 +19,7 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 
 ## Recurrent alterations
 
-- KIT exon 11 mutation status, chr1p deletion, chr14q deletion, and [SDHB](../genes/SDHB.md) loss incorporated into a gastric GIST risk model [PMID:37477937](../papers/37477937.md).
+- [KIT](../genes/KIT.md) exon 11 mutation status, chr1p deletion, chr14q deletion, and [SDHB](../genes/SDHB.md) loss incorporated into a gastric GIST risk model [PMID:37477937](../papers/37477937.md).
 - Small bowel GIST high-risk features: MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) alterations; intermediate-risk: chr1p deletion or chr5q amplification [PMID:37477937](../papers/37477937.md).
 - In 26 SDH-deficient GISTs, [TP53](../genes/TP53.md) mutations or chr1q amplification portended worse recurrence-free and disease-free survival [PMID:37477937](../papers/37477937.md).
 - Longitudinal sequencing detected most KIT-independent genomic alterations already at baseline [PMID:37477937](../papers/37477937.md).
@@ -36,4 +36,4 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

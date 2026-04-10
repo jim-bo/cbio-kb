@@ -1,10 +1,10 @@
 ---
 symbol: CDKN2A
 aliases: []
-cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD]
+cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: paper-compiler
-processed_at: 2026-04-09
+processed_by: crosslinker
+processed_at: 2026-04-10
 ---
 
 # CDKN2A
@@ -15,7 +15,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 ## Alterations observed in the corpus
 
-- Homozygous/heterozygous CDKN2A deletions in 7% (9/132) of nodal peripheral T-cell lymphomas on MSK-IMPACT; strong independent predictor of inferior OS (HR 12.1; 95% CI 2.8–52.0; P<.001) with median OS 17.6 vs 56.7 months; 3/4 [MEITL](../cancer_types/MEITL.md) cases carried CDKN2A aberrancies [PMID:37078708](../papers/37078708.md).
+- Homozygous/heterozygous CDKN2A deletions in 7% (9/132) of nodal peripheral T-cell lymphomas on MSK-IMPACT; strong independent predictor of inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001) with median OS 17.6 vs 56.7 months; 3/4 [MEITL](../cancer_types/MEITL.md) cases carried CDKN2A aberrancies [PMID:37078708](../papers/37078708.md).
 - CDKN2A inactivation correlated with site-specific shorter time to metastasis in the 2,532-specimen [LUAD](../cancer_types/LUAD.md) organotropism cohort, with inactivation more frequent in CNS and liver metastases than in matched primary tumors [PMID:37084736](../papers/37084736.md).
 - CDKN2A was among the recurrent events in extremity alveolar [RMS](../cancer_types/RMS.md) (8%–17% frequency); CDKN2A deletions were mutually exclusive with [CDK4](../genes/CDK4.md) amplification, enriched in acral and high-risk lesions, and correlated with poor OS (P=.02) [PMID:37315267](../papers/37315267.md).
 - CDKN2A/CDKN2B alterations were enriched in [NSCLC](../cancer_types/NSCLC.md) brain metastases compared with primary tumors (34% BM vs 13% PT; p=0.003, q=0.04), with cell-cycle pathway alterations 56% BM vs 32% PT (p=0.004, q=0.041) driven by CDKN2A/B; in the [LUAD](../cancer_types/LUAD.md) subset the enrichment persisted (31% BM vs 18% PT; p=0.004) [PMID:37591896](../papers/37591896.md).
@@ -23,7 +23,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous CDKN2A/B deletion ("molecular grade-high") drove ~2x faster tumor-volume growth (19.17% per 6 months vs 9.54%) in IDH-mutant WHO Grade 2 low-grade glioma on active surveillance, supporting WHO 2021 Grade 4 upgrade [PMID:37910594](../papers/37910594.md).
 - High small bowel [GIST](../cancer_types/GIST.md) risk class in an elastic-net Cox genomic risk model was defined in part by CDKN2A alterations (along with [RB1](../genes/RB1.md) and MAX/MGA/MYC) [PMID:37477937](../papers/37477937.md).
 - CDKN2A loss characterized "biliary-class" intrahepatic cholangiocarcinoma (along with [KRAS](../genes/KRAS.md) and [SMAD4](../genes/SMAD4.md)) in the MSK hidden-genome classifier cohort, associated with markedly worse OS [PMID:38864854](../papers/38864854.md).
-- In 397 sequenced resected [PAAD](../cancer_types/PAAD.md) patients (MSK `pancreas_msk_2024`), CDKN2A mutations were enriched in [KRAS](../genes/KRAS.md)^G12R^ tumors (40%) versus KRAS^G12D^ (22.1%, p=0.046); overall CDKN2A mutation rate 24% (95/397); CDKN2A/B deep deletions were notably under-detected on MSK-IMPACT in this PDAC cohort [PMID:39214094](../papers/39214094.md).
+- In 397 sequenced resected [PAAD](../cancer_types/PAAD.md) patients (MSK `pancreas_msk_2024`), CDKN2A mutations were enriched in [KRAS](../genes/KRAS.md)^G12R^ tumors (40%) versus [KRAS](../genes/KRAS.md)^G12D^ (22.1%, p=0.046); overall CDKN2A mutation rate 24% (95/397); CDKN2A/B deep deletions were notably under-detected on MSK-IMPACT in this PDAC cohort [PMID:39214094](../papers/39214094.md).
+- [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions were nearly universal in RT-[MPNST](../cancer_types/MPNST.md) (92% vs 44% sporadic), present in 29% of RT-[MFH](../cancer_types/MFH.md) (UPS) and 33% of RT-[OS](../cancer_types/OS.md), but almost absent in RT-[ANGS](../cancer_types/ANGS.md) (2%) in a comparative genomic analysis of 82 radiation-associated sarcomas [PMID:37350195](../papers/37350195.md).
 
 ## Cancer types (linked)
 
@@ -32,6 +33,10 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [NSCLC](../cancer_types/NSCLC.md) brain metastasis — CDKN2A/B deletions are enriched vs primaries, marking cell-cycle dysregulation as near-obligate for BM development [PMID:37591896](../papers/37591896.md).
 - Extremity alveolar [RMS](../cancer_types/RMS.md) — CDKN2A deletion is recurrent and adverse [PMID:37315267](../papers/37315267.md).
 - [PAAD](../cancer_types/PAAD.md) — CDKN2A mutation rate is KRAS-allele-dependent, enriched in KRAS^G12R^ relative to KRAS^G12D^ tumors [PMID:39214094](../papers/39214094.md).
+- [MPNST](../cancer_types/MPNST.md) — CDKN2A/B deletions in 92% of RT-MPNST (vs 44% sporadic), making it the most enriched alteration in RT-MPNST [PMID:37350195](../papers/37350195.md).
+- [MFH](../cancer_types/MFH.md) (UPS) — CDKN2A/B deletions in 29% of RT-UPS [PMID:37350195](../papers/37350195.md).
+- [OS](../cancer_types/OS.md) — CDKN2A/B deletions in 33% of RT-OS [PMID:37350195](../papers/37350195.md).
+- [ANGS](../cancer_types/ANGS.md) — CDKN2A/B deletions rare (2%) in RT-AS, distinguishing it from other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -58,5 +63,6 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39214094](../papers/39214094.md)
+- [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **paper-compiler** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

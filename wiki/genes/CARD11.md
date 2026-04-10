@@ -8,7 +8,7 @@ tags:
   - bcr-pathway
   - ibrutinib-resistance
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-10
 ---
 
 # CARD11
@@ -23,7 +23,7 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 
 ## Cancer types (linked)
 
-- [PCNSL](../cancer_types/PCNSL.md) — CARD11-mutant PCNSLs had shorter PFS on [ibrutinib](../drugs/ibrutinib.md) (median 2.2 vs 5.5 months), consistent with prior reports of CARD11-mediated ibrutinib resistance in B-cell malignancies [PMID:38995739](../papers/38995739.md).
+- [PCNSL](../cancer_types/PCNSL.md) — CARD11-mutant PCNSLs had shorter PFS on [ibrutinib](../drugs/ibrutinib.md) (median 2.2 vs 5.5 months), consistent with prior reports of CARD11-mediated [ibrutinib](../drugs/ibrutinib.md) resistance in B-cell malignancies [PMID:38995739](../papers/38995739.md).
 - [DLBCLNOS](../cancer_types/DLBCLNOS.md) — established site of CARD11-mediated BTK-independent NF-kB activation [PMID:38995739](../papers/38995739.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -42,4 +42,4 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

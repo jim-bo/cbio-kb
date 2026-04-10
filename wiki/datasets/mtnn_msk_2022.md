@@ -6,7 +6,7 @@ cancerTypeId: mtnn
 pmid: "37078708"
 allSampleCount: 1
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-10
 ---
 
 # Mature T and NK Neoplasms (MSK, Blood Adv 2023)
@@ -32,10 +32,10 @@ Retrospective MSK cohort of adults with nodal peripheral T-cell lymphoma treated
 
 - Most frequently mutated genes: [TET2](../genes/TET2.md) 52%, [RHOA](../genes/RHOA.md) 30%, [DNMT3A](../genes/DNMT3A.md) 19%, [TP53](../genes/TP53.md) 16%, [IDH2](../genes/IDH2.md) 11%; in [AITL](../cancer_types/AITL.md), 88% of [RHOA](../genes/RHOA.md) mutations were canonical G17V [PMID:37078708](../papers/37078708.md).
 - [TP53](../genes/TP53.md) mutations (HR 3.1; 95% CI 1.4–6.8; P=.005) and TP53/17p deletions (HR 4.1; 95% CI 1.1–15.0; P=.03) were the only somatic aberrancies correlating with inferior PFS; median PFS 4.5 vs 10.5 months (TP53-mut vs TP53-wt) [PMID:37078708](../papers/37078708.md).
-- [CDKN2A](../genes/CDKN2A.md) deletions (n=9) correlated with inferior OS (HR 12.1; 95% CI 2.8–52.0; P<.001); 3/4 [MEITL](../cancer_types/MEITL.md) cases carried [CDKN2A](../genes/CDKN2A.md) aberrancies [PMID:37078708](../papers/37078708.md).
+- [CDKN2A](../genes/CDKN2A.md) deletions (n=9) correlated with inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001); 3/4 [MEITL](../cancer_types/MEITL.md) cases carried [CDKN2A](../genes/CDKN2A.md) aberrancies [PMID:37078708](../papers/37078708.md).
 
 ## Sources
 
 - cBioPortal study `mtnn_msk_2022` [PMID:37078708](../papers/37078708.md).
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-10**.*

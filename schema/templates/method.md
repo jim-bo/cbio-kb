@@ -2,6 +2,8 @@
 name:
 slug:
 kind:
+canonical_source:
+unverified:
 tags: []
 processed_by:
 processed_at:

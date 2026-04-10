@@ -3,6 +3,9 @@ name:
 slug:
 institution:
 size:
+reference_genome:
+canonical_source:
+unverified:
 assays: []
 tags: []
 processed_by:

@@ -8,6 +8,8 @@ from pathlib import Path
 from pydantic_ai import Agent
 from pydantic_ai.models import KnownModelName
 
+from .memory import prune_history
+
 WIKI_DIR = Path(__file__).resolve().parent.parent / "wiki"
 MODEL: KnownModelName = "anthropic:claude-sonnet-4-20250514"
 
@@ -62,4 +64,5 @@ agent = Agent(
     system_prompt=SYSTEM_PROMPT,
     deps_type=Deps,
     defer_model_check=True,
+    history_processors=[prune_history],
 )

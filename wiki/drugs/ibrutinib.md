@@ -5,7 +5,7 @@ drug_class: BTK inhibitor
 unverified: true
 tags: [targeted-therapy, cll]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-09
 ---
 
 # ibrutinib
@@ -30,4 +30,4 @@ Covalent BTK inhibitor; standard-of-care in CLL and other B-cell malignancies.
 
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

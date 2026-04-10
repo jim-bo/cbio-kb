@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-09
 ---
 
 # pembrolizumab
@@ -31,4 +31,4 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 - [PMID:36862133](../papers/36862133.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

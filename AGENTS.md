@@ -33,6 +33,28 @@ All Python-based CLI tools (`cbio-kb`) must be executed using `uv run`.
 Example:
 `uv run cbio-kb ontology lookup "KRAS"`
 
+## Obsidian CLI (token-efficient wiki access)
+
+When the target lives in `wiki/`, prefer the Obsidian CLI (`obsidian vault=wiki …`) over `Read` / `Grep` / `Glob`. It returns structured JSON and costs a fraction of the tokens. The full command reference is in [docs/obsidian-cli.md](docs/obsidian-cli.md).
+
+High-value substitutions:
+
+| Task | Old | New |
+| :-- | :-- | :-- |
+| Paper structure | `Read wiki/papers/{pmid}.md` | `obsidian vault=wiki outline path=papers/{pmid}.md format=json` |
+| Frontmatter only | Read + parse | `obsidian vault=wiki properties path=papers/{pmid}.md format=json` |
+| Entity mentions with context | `Grep -C 3 EGFR wiki/` | `obsidian vault=wiki search:context query=EGFR format=json limit=20` |
+| Pages citing an entity | `Grep '\[\[EGFR\]\]' wiki/` | `obsidian vault=wiki backlinks file=EGFR format=json` |
+| Unresolved / orphan lint checks | custom walk | `obsidian vault=wiki unresolved format=json` / `orphans` / `deadends` |
+
+Rules:
+- Only for `wiki/` content — `data/raw/`, `schema/`, `.claude/`, and code still use Read / Grep / Glob.
+- CLI is **read-only** from our perspective. All edits still go through `Edit` / `Write` so diffs land in git.
+- Paths are vault-relative (`papers/39506116.md`, not `wiki/papers/39506116.md`).
+- Always pass `format=json` where supported.
+- **Reload after Write.** After any `Write` into `wiki/`, call `obsidian vault=wiki reload` before the next CLI read against that file — the running Obsidian app does not pick up filesystem changes automatically, so stale-index lookups fail silently. See `docs/obsidian-cli.md`.
+- **Narrow Reads for merge-append.** The `Edit` tool requires a prior `Read` on the same file. For large entity pages, use `obsidian vault=wiki outline path=… format=json` to find the section line, then `Read offset=<line> limit=<slice_size>` for just that section — not a full-file Read. See `docs/obsidian-cli.md`.
+
 ## Available Agents
 
 - **`paper-compiler`**: Ingests raw papers into the wiki.

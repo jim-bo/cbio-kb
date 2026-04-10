@@ -13,6 +13,8 @@ ON_DISK_SOURCES = [
     ("gene_panels.json", "genePanelId", "gene_panels"),
     ("cancer_types.json", "cancerTypeId", "cancer_types"),
     ("oncotree.json", "code", "cancer_types"),
+    ("molecular_profiles.json", "molecularAlterationType", "molecular_profiles"),
+    ("clinical_attributes.json", "clinicalAttributeId", "clinical_attributes"),
 ]
 
 def load_canonical(ontology_dir: Path) -> dict[str, set[str]]:
@@ -22,6 +24,8 @@ def load_canonical(ontology_dir: Path) -> dict[str, set[str]]:
         "cancer_types": set(),
         "datasets": set(),
         "gene_panels": set(),
+        "molecular_profiles": set(),
+        "clinical_attributes": set(),
     }
     
     for fname, key, dest in ON_DISK_SOURCES:

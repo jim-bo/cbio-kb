@@ -65,6 +65,7 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
 
     ENTITY_DIRS = {"genes", "cancer_types", "datasets", "drugs", "methods", "themes"}
     errors: list[str] = []
+    warnings: list[str] = []
     stubs_needed: set[str] = set()
     unverified: list[str] = []
     all_pages = {p.relative_to(wiki_dir).as_posix(): p for p in wiki_dir.rglob("*.md")}
@@ -77,6 +78,15 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
             missing = REQUIRED_FRONTMATTER[section] - {k for k, v in fm.items() if v}
             if missing:
                 errors.append(f"{rel}: missing frontmatter {sorted(missing)}")
+
+        if section == "datasets":
+            if "reference_genome" not in fm or not fm["reference_genome"]:
+                warnings.append(f"{rel}: missing reference_genome")
+        if section in {"datasets", "methods", "drugs"}:
+            if "canonical_source" not in fm:
+                warnings.append(f"{rel}: missing canonical_source")
+            if "unverified" not in fm:
+                warnings.append(f"{rel}: missing unverified flag")
 
         for href in LINK_RE.findall(text):
             if href.startswith(("http://", "https://", "#", "mailto:")):
@@ -115,7 +125,7 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
             if stem not in index_text and rel not in index_text:
                 msg = f"orphan (not in index.md): {rel}"
                 if allow_orphans:
-                    print(f"[warn] {msg}")
+                    warnings.append(msg)
                 else:
                     errors.append(msg)
 
@@ -124,22 +134,48 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
         "genes": "genes",
         "cancer_types": "cancer_types",
         "datasets": "datasets",
+        "assays": "molecular_profiles",
+        "clinical_fields": "clinical_attributes",
     }
-    if any(canonical[k] for k in field_to_canon.values()):
-        for rel, path in sorted(all_pages.items()):
-            if not rel.startswith("papers/"):
-                continue
-            text = path.read_text()
-            for field, canon_key in field_to_canon.items():
-                canon = canonical[canon_key]
+    
+    for rel, path in sorted(all_pages.items()):
+        text = path.read_text()
+        fm = _parse_frontmatter(text)
+        
+        section = rel.split("/", 1)[0]
+        is_unverified = fm.get("unverified", "").lower() == "true"
+        
+        if section == "methods":
+            kind = fm.get("kind")
+            if kind and not is_unverified:
+                if kind not in canonical.get("molecular_profiles", set()) and kind not in canonical.get("gene_panels", set()):
+                    warnings.append(f"{rel}: kind '{kind}' not canonical, but unverified is not true")
+
+        if section == "datasets":
+            for field in ["assays", "clinical_fields"]:
+                canon = canonical.get(field_to_canon.get(field))
                 if not canon:
                     continue
                 for value in _parse_list_field(text, field):
-                    if value not in canon:
-                        unverified.append(f"{rel}: {field}={value} (not in cbioportal canonical)")
+                    if value not in canon and not is_unverified:
+                         warnings.append(f"{rel}: {field}={value} not canonical, but unverified is not true")
 
+        if not rel.startswith("papers/"):
+            continue
+            
+        for field, canon_key in field_to_canon.items():
+            if field in ["assays", "clinical_fields"]: continue
+            canon = canonical.get(canon_key)
+            if not canon:
+                continue
+            for value in _parse_list_field(text, field):
+                if value not in canon:
+                    unverified.append(f"{rel}: {field}={value} (not in cbioportal canonical)")
+
+    for w in warnings:
+        print(f"[warn] {w}")
     for e in errors:
-        print(e)
+        print(f"[err] {e}")
     if stubs_needed:
         print(f"\n[stubs] {len(stubs_needed)} entity page(s) referenced but not yet created:")
         for s in sorted(stubs_needed):
@@ -151,11 +187,11 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
 
     if errors:
         print(
-            f"\n[lint] {len(errors)} structural issue(s), {len(stubs_needed)} stub(s), "
+            f"\n[lint] {len(errors)} structural issue(s), {len(warnings)} warning(s), {len(stubs_needed)} stub(s), "
             f"{len(unverified)} unverified term(s)"
         )
         return 1
     print(
-        f"[lint] ok ({len(stubs_needed)} stub(s), {len(unverified)} unverified term(s))"
+        f"[lint] ok ({len(warnings)} warning(s), {len(stubs_needed)} stub(s), {len(unverified)} unverified term(s))"
     )
     return 0

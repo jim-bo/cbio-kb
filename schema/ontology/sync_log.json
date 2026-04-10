@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-04-08T14:52:57.571137+00:00",
+  "synced_at": "2026-04-09T21:45:44.518172+00:00",
   "sources": {
     "genes": {
       "count": 44896,
@@ -24,6 +24,16 @@
     "oncotree": {
       "count": 897,
       "key": "code",
+      "ok": true
+    },
+    "molecular_profiles": {
+      "count": 2488,
+      "key": "molecularAlterationType",
+      "ok": true
+    },
+    "clinical_attributes": {
+      "count": 10000,
+      "key": "clinicalAttributeId",
       "ok": true
     }
   }

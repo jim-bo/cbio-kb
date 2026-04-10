@@ -46,17 +46,17 @@ it against the canonical ontology. Run:
 `uv run cbio-kb ontology lookup "<slug>"` via Bash.
 
 1. If `found: true` in the JSON response, use the `canonical_id` exactly as
-   returned.
+   returned. Set `canonical_source: cbioportal` (or `oncotree` or `oncokb`) and `unverified: false`.
 2. If `found: false`, the tool will return `suggestions`. If a suggestion is
    clearly the right canonical term (e.g., "TP-53" -> "TP53"), use it.
 3. If no canonical match exists:
    - Use a corpus-derived slug (kebab-case for non-gene/non-OncoTree).
-   - Set `unverified: true` in the entity page frontmatter.
+   - Set `unverified: true` and `canonical_source: corpus` in the entity page frontmatter.
    - Append one line to `schema/ontology/_observed.md` in the form
      `- {kind}: {slug} — observed in PMID:{pmid} — note: {brief}`.
 
 **Never invent a HUGO symbol or an OncoTree code.** If the lookup tool
-doesn't confirm it, it is unverified.
+doesn't confirm it, it is unverified. Drugs should be manually verified against OncoKB. Datasets must specify `reference_genome`.
 
 ## Tool affordances
 

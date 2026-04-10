@@ -10,67 +10,51 @@ The canonical ontology for cbio-kb is **cBioPortal + OncoTree**, fetched via
 | `schema/ontology/cancer_types.json` | cBioPortal `/api/cancer-types` | `cancerTypeId` | cBioPortal cancer-type tree (mirrors OncoTree) |
 | `schema/ontology/oncotree.json` | OncoTree `/api/tumorTypes` | `code` | Authoritative OncoTree codes (~897) |
 | `schema/ontology/gene_panels.json` | cBioPortal `/api/gene-panels` | `genePanelId` | cBioPortal gene panel IDs (~69) — canonical method slugs for panels |
+| `schema/ontology/molecular_profiles.json` | cBioPortal `/api/molecular-profiles` | `molecularAlterationType` | Profile Types for assays and methods |
+| `schema/ontology/clinical_attributes.json`| cBioPortal `/api/clinical-attributes`| `clinicalAttributeId` | Clinical metadata fields for datasets |
 | `schema/ontology/sync_log.json` | — | — | Last sync timestamp + counts per source |
 | `schema/ontology/_observed.md` | corpus | — | Terms agents observed in papers that are NOT in any canonical list. Curated for promotion. |
 
+## Molecular & Clinical Logic
+
+| Concept | Source | Field | Usage |
+| :--- | :--- | :--- | :--- |
+| **Profile Type** | `/api/molecular-profiles` | `molecularAlterationType` | `method.kind` and `dataset.assays` |
+| **Clinical Attr** | `/api/clinical-attributes` | `clinicalAttributeId` | `dataset.clinical_fields` / composition |
+| **Drug** | OncoKB `/api/v1/drugs` | `drugName` | `drug.slug` |
+
 ## Validation rules for agents
 
-Before assigning ANY entity slug in a wiki page, the agent must check the
-canonical lists. Use Bash + `grep`/`jq` against the JSON files (do not load
-the whole genes.json — it's ~45k entries; grep for the specific symbol).
+Before assigning ANY entity slug in a wiki page, the agent must check the canonical lists using:
+```bash
+uv run cbio-kb ontology lookup "<slug>"
+```
 
 **Genes** — must be a `hugoGeneSymbol` in `genes.json`.
-```bash
-grep -o '"hugoGeneSymbol":"EGFR"' schema/ontology/genes.json | head -1
-```
-
-**Cancer types** — must be a `code` in `oncotree.json` (preferred) or a
-`cancerTypeId` in `cancer_types.json`.
-```bash
-grep -o '"code":"LUAD"' schema/ontology/oncotree.json | head -1
-```
-
-**Datasets** — must be a `studyId` in `studies.json`. The cBioPortal `studyId`
-IS the canonical slug — use it verbatim, do NOT transform underscores to hyphens.
-```bash
-grep -o '"studyId":"luad_tcga"' schema/ontology/studies.json | head -1
-```
-
+**Cancer types** — must be a `code` in `oncotree.json` (preferred) or a `cancerTypeId` in `cancer_types.json`.
+**Datasets** — must be a `studyId` in `studies.json`. The cBioPortal `studyId` IS the canonical slug.
 **Gene panels** — must be a `genePanelId` in `gene_panels.json`.
-```bash
-grep -o '"genePanelId":"IMPACT468"' schema/ontology/gene_panels.json | head -1
-```
+**Drugs** — Agents should verify against OncoKB `/api/v1/drugs`. If found, use `canonical_source: oncokb` and `unverified: false`. Otherwise, `canonical_source: corpus` and `unverified: true`.
+**Methods** — If it's a sequencing panel, use `genePanelId`. For assays, use `molecularAlterationType`. If neither, `unverified: true` and `canonical_source: corpus`.
 
-**Drugs** — cBioPortal does not expose a drug ontology. Use generic names
-(lowercase, hyphenated). All drugs are corpus-grown; record them in
-`_observed.md`.
+## The "Verify-then-Observe" Workflow
 
-**Methods** — if a method is a sequencing panel that exists in `gene_panels.json`,
-use its `genePanelId`. Otherwise it is corpus-grown — record in `_observed.md`.
+When an agent finds a concept, it must classify it:
+1. **Canonical**: Exists in cBioPortal API. Set `canonical_source: cbioportal` (or `oncotree`) and `unverified: false`.
+2. **Standardized but Off-Catalog**: Valid standard (e.g. HUGO symbol) but not in sync JSON yet. Set `canonical_source: cbioportal` and `unverified: true`.
+3. **Learned / Corpus-Grown**: Entirely new (e.g. new assay). Set `canonical_source: corpus` and `unverified: true`. Add to `_observed.md`.
 
 ## When a term is NOT in cBioPortal
 
-This is expected. Papers contain real concepts cBioPortal does not catalog
-(novel gene aliases, unusual cancer subtypes, computational methods,
-institutional cohorts, drugs).
-
-In that case the agent must:
-
-1. Use a corpus-derived slug (kebab-case, lowercase for non-gene/non-OncoTree).
-2. Set `unverified: true` in the entity page frontmatter.
+1. Use a corpus-derived slug (kebab-case, lowercase).
+2. Set `unverified: true` and `canonical_source: corpus` in the frontmatter.
 3. Append a line to `schema/ontology/_observed.md` in the form:
    ```
    - {kind}: {slug} — observed in PMID:{pmid} — note: {one-line context}
    ```
-4. Never invent a HUGO symbol or an OncoTree code. If the canonical list
-   does not contain it, it is corpus-grown and must be marked `unverified`.
 
 ## Refreshing
 
 ```bash
 uv run cbio-kb ontology sync
 ```
-
-Re-runs against cBioPortal + OncoTree and overwrites the JSON files. Safe to
-run anytime; cBioPortal's APIs are read-only and cheap. Drift is expected —
-re-run periodically (monthly is plenty).

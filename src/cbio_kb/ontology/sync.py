@@ -41,12 +41,22 @@ def fetch_oncotree() -> list[dict]:
     return _get(ONCOTREE)
 
 
+def fetch_molecular_profiles() -> list[dict]:
+    return _get(f"{CBIO}/molecular-profiles?pageSize=10000")
+
+
+def fetch_clinical_attributes() -> list[dict]:
+    return _get(f"{CBIO}/clinical-attributes?pageSize=10000")
+
+
 SOURCES = [
     ("genes", fetch_genes, "hugoGeneSymbol"),
     ("studies", fetch_studies, "studyId"),
     ("cancer_types", fetch_cancer_types, "cancerTypeId"),
     ("gene_panels", fetch_gene_panels, "genePanelId"),
     ("oncotree", fetch_oncotree, "code"),
+    ("molecular_profiles", fetch_molecular_profiles, "molecularAlterationType"),
+    ("clinical_attributes", fetch_clinical_attributes, "clinicalAttributeId"),
 ]
 
 

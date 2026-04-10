@@ -46,7 +46,24 @@ def fetch_molecular_profiles() -> list[dict]:
 
 
 def fetch_clinical_attributes() -> list[dict]:
-    return _get(f"{CBIO}/clinical-attributes?pageSize=10000")
+    data = _get(f"{CBIO}/clinical-attributes?pageSize=100000")
+    from collections import Counter
+    counts = Counter(a["clinicalAttributeId"] for a in data)
+    
+    # Keep only IDs present in more than one study (Global/Standardized)
+    global_ids = {aid for aid, count in counts.items() if count > 1}
+    
+    # Deduplicate: Keep only the first study's definition for each global ID
+    seen = set()
+    filtered = []
+    for a in data:
+        aid = a["clinicalAttributeId"]
+        if aid in global_ids and aid not in seen:
+            filtered.append(a)
+            seen.add(aid)
+            
+    # Sort for deterministic output
+    return sorted(filtered, key=lambda x: x["clinicalAttributeId"])
 
 
 SOURCES = [

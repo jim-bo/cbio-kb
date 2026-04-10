@@ -1,10 +1,10 @@
 ---
 symbol: KRAS
 aliases: []
-cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC]
-tags: [oncogene, mapk, driver]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD]
+tags: [oncogene, mapk, driver, allele-specific]
+processed_by: paper-compiler
+processed_at: 2026-04-09
 ---
 
 # KRAS
@@ -23,6 +23,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [NSCLC](../cancer_types/NSCLC.md) brain metastases: KRAS commonly shared (truncal) between BM and matched primary or extracranial metastasis [PMID:37591896](../papers/37591896.md).
 - KRAS was included in [LUAD](../cancer_types/LUAD.md) pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
 - KRAS alterations characterized "biliary-class" intrahepatic cholangiocarcinoma (along with [SMAD4](../genes/SMAD4.md) and [CDKN2A](../genes/CDKN2A.md) loss), associated with markedly worse OS [PMID:38864854](../papers/38864854.md).
+- In 1,360 resected [PAAD](../cancer_types/PAAD.md) patients at MSK (`pancreas_msk_2024`, 397 sequenced on [MSK-IMPACT](../methods/msk-impact-panel.md)), KRAS was altered in 90%; allele distribution G12D 36.5% / G12V 32.5% / G12R 13.9% / other 8.1% / WT 9.1%. KRAS^G12R^ was enriched in stage I (23% vs 11% in stage II–III, p=0.022), more often node-negative (47% vs 26% for G12D, p=0.019), and associated with improved OS and decreased distant recurrence; bulk RNA-seq (n=100) and [CosMx SMI](../methods/cosmx-smi.md) spatial profiling (n=20) identified enhanced KRAS signaling / EMT in KRAS^G12D^ tumors and increased TNF/NF-κB signaling in KRAS^G12R^; isogenic Kras^G12R/+^;Trp53^KO^ mouse PDAC organoids recapitulated reduced migration and improved orthotopic survival [PMID:39214094](../papers/39214094.md).
 
 ## Cancer types (linked)
 
@@ -30,6 +31,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [APAD](../cancer_types/APAD.md) — RAS-mut predominant MAAP subtype has best prognosis and 50% first-line chemotherapy response [PMID:36493333](../papers/36493333.md).
 - [LCH](../cancer_types/LCH.md) / [ECD](../cancer_types/ECD.md) — KRAS mutated in 7% of histiocytosis [PMID:36862133](../papers/36862133.md).
 - Advanced [NSCLC](../cancer_types/NSCLC.md) — ctDNA-detected KRAS associated with worse prognosis [PMID:36357680](../papers/36357680.md).
+- [PAAD](../cancer_types/PAAD.md) — KRAS altered in 90% of resected PDAC; G12R is prognostically favorable (early-stage, node-negative, longer OS) while G12D drives canonical KRAS/EMT programs [PMID:39214094](../papers/39214094.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,6 +46,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 ## Open questions
 
 - Mechanistic basis for apparent loss of KRAS G12C clones in matched liver metastases of [LUAD](../cancer_types/LUAD.md) is unresolved [PMID:37084736](../papers/37084736.md).
+- Mechanistic basis for reduced metastatic propensity of KRAS^G12R^ [PAAD](../cancer_types/PAAD.md) beyond the NF-κB / EMT axis identified by spatial profiling and organoids remains to be resolved [PMID:39214094](../papers/39214094.md).
 
 ## Sources
 
@@ -54,5 +57,6 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:38864854](../papers/38864854.md)
+- [PMID:39214094](../papers/39214094.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **paper-compiler** on **2026-04-09**.*

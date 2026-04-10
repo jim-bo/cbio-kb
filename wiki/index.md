@@ -32,12 +32,12 @@ Nothing is invented — unverified terms are flagged rather than canonicalized.
 
 | Section | Count | What you'll find |
 |---|---|---|
-| [Papers](papers/index.qmd) | 17 | Per-publication summaries: cohort, methods, findings, citations |
-| [Genes](genes/index.qmd) | 123 | Alterations, co-occurrence, therapeutic relevance across the corpus |
-| [Cancer types](cancer_types/index.qmd) | 40 | OncoTree-anchored disease pages linking studies and alterations |
-| [Datasets](datasets/index.qmd) | 20 | cBioPortal studies with cohort details and linked publications |
-| [Drugs](drugs/index.qmd) | 31 | Targeted therapies, resistance patterns, evidence in the corpus |
-| [Methods](methods/index.qmd) | 31 | Sequencing assays, gene panels, and analytical pipelines |
+| [Papers](papers/index.qmd) | 19 | Per-publication summaries: cohort, methods, findings, citations |
+| [Genes](genes/index.qmd) | 126 | Alterations, co-occurrence, therapeutic relevance across the corpus |
+| [Cancer types](cancer_types/index.qmd) | 42 | OncoTree-anchored disease pages linking studies and alterations |
+| [Datasets](datasets/index.qmd) | 22 | cBioPortal studies with cohort details and linked publications |
+| [Drugs](drugs/index.qmd) | 35 | Targeted therapies, resistance patterns, evidence in the corpus |
+| [Methods](methods/index.qmd) | 33 | Sequencing assays, gene panels, and analytical pipelines |
 | [Themes](themes/index.qmd) | — | Cross-cutting syntheses (in progress) |
 
 ## How to read a page

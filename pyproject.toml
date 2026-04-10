@@ -26,6 +26,14 @@ ocr = [
   "pytesseract",
   "pillow",
 ]
+chat = [
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic-ai[anthropic]",
+  "jinja2",
+  "python-multipart",
+  "sse-starlette",
+]
 dev = [
   "pytest",
 ]

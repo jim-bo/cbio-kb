@@ -1,10 +1,10 @@
 ---
 symbol: ALK
 aliases: []
-cancer_types: [LCH, ECD]
+cancer_types: [LCH, ECD, NSCLC]
 tags: [fusion, kinase, histiocytosis]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-09
 ---
 
 # ALK
@@ -16,10 +16,12 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 ## Alterations observed in the corpus
 
 - TFG-ALK fusion identified in one histiocytosis patient profiled on MSK-IMPACT with targeted RNA sequencing [PMID:36862133](../papers/36862133.md).
+- [EML4](../genes/EML4.md)::ALK fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients); ALK resistance mutations p.G1202R and p.G1269A were detected upon targeted therapy progression [PMID:39289779](../papers/39289779.md).
 
 ## Cancer types (linked)
 
 - Histiocytosis (LCH/ECD) — ALK fusions are a rare but actionable driver class within the broader MAPK/kinase-driven histiocytosis landscape [PMID:36862133](../papers/36862133.md).
+- [NSCLC](../cancer_types/NSCLC.md) — EML4::ALK fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors; resistance mutations p.G1202R and p.G1269A emerged on targeted therapy [PMID:39289779](../papers/39289779.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,6 +30,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 ## Therapeutic relevance
 
 - ALK fusions in histiocytosis are candidates for matched targeted therapy through the Make-an-IMPACT direct-to-patient program, in which 17/18 histiocytosis patients who received genomically matched therapy had clinical benefit (mean duration 21.7 months) [PMID:36862133](../papers/36862133.md).
+- Serial CSF ctDNA profiling identified emergence of ALK resistance mutations (p.G1202R, p.G1269A) in EML4::ALK-positive NSCLC patients, directly informing treatment changes [PMID:39289779](../papers/39289779.md).
 
 ## Open questions
 
@@ -36,5 +39,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 ## Sources
 
 - [PMID:36862133](../papers/36862133.md)
+- [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

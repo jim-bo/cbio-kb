@@ -1,10 +1,10 @@
 ---
 symbol: PIK3CA
 aliases: []
-cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC]
+cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC]
 tags: [pi3k-pathway, actionable]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-09
 ---
 
 # PIK3CA
@@ -20,6 +20,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in one histiocytosis patient and two ovarian GCT patients in the Make-an-IMPACT rare-cancer program [PMID:36862133](../papers/36862133.md).
 - PIK3CA was the most frequent PI3K-pathway co-alteration in FGFR2/3-altered urothelial carcinoma (28%, 115/414), but did not predict response to [erdafitinib](../drugs/erdafitinib.md) in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - PIK3CA mutations (with [PIK3R1](../genes/PIK3R1.md) and [TP53](../genes/TP53.md), plus broad CNV load) were used to define "molecular grade-intermediate" in 1p19q codeleted IDH-mutant oligodendrogliomas [PMID:37910594](../papers/37910594.md).
+- PIK3CA p.E545K was common in breast cancer CSF ctDNA samples; PIK3CA also appeared as an off-target resistance alteration in EGFR-mutant lung cancer CSF ctDNA in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
 
 ## Cancer types (linked)
 
@@ -27,6 +28,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Histiocytosis ([LCH](../cancer_types/LCH.md), [ECD](../cancer_types/ECD.md)) — actionable with [alpelisib](../drugs/alpelisib.md) [PMID:36862133](../papers/36862133.md).
 - Ovarian germ cell tumor ([OGCT](../cancer_types/OGCT.md)) — non-responsive to [alpelisib](../drugs/alpelisib.md) in this cohort [PMID:36862133](../papers/36862133.md).
 - [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — common co-alteration in FGFR3-altered tumors (28%), not predictive of [erdafitinib](../drugs/erdafitinib.md) response [PMID:37682528](../papers/37682528.md).
+- [BRCA](../cancer_types/BRCA.md) — PIK3CA p.E545K frequently altered in breast cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
+- [NSCLC](../cancer_types/NSCLC.md) — off-target resistance alteration in EGFR-mutant lung cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -48,5 +51,6 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:37910594](../papers/37910594.md)
+- [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

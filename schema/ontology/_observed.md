@@ -77,3 +77,6 @@
 - drug: fluorouracil — observed in PMID:39214094 — note: 5-FU backbone of FOLFIRINOX (neo)adjuvant chemotherapy in resected PDAC
 - drug: irinotecan — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
 - drug: oxaliplatin — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
+- drug: crizotinib — observed in PMID:39289779 — note: ALK/MET inhibitor; patient with MET exon 14 skipping transitioned from crizotinib to capmatinib upon CSF-detected resistance
+- drug: capmatinib — observed in PMID:39289779 — note: MET inhibitor; used after crizotinib resistance detected in CSF ctDNA
+- method: oncokb — observed in PMID:39289779 — note: OncoKB used to annotate clinical actionability of CSF ctDNA alterations (levels 1-4, R1-R2)

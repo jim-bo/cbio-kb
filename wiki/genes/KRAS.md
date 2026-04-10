@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: paper-compiler
+processed_by: crosslinker
 processed_at: 2026-04-09
 ---
 
@@ -24,6 +24,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS was included in [LUAD](../cancer_types/LUAD.md) pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
 - KRAS alterations characterized "biliary-class" intrahepatic cholangiocarcinoma (along with [SMAD4](../genes/SMAD4.md) and [CDKN2A](../genes/CDKN2A.md) loss), associated with markedly worse OS [PMID:38864854](../papers/38864854.md).
 - In 1,360 resected [PAAD](../cancer_types/PAAD.md) patients at MSK (`pancreas_msk_2024`, 397 sequenced on [MSK-IMPACT](../methods/msk-impact-panel.md)), KRAS was altered in 90%; allele distribution G12D 36.5% / G12V 32.5% / G12R 13.9% / other 8.1% / WT 9.1%. KRAS^G12R^ was enriched in stage I (23% vs 11% in stage II–III, p=0.022), more often node-negative (47% vs 26% for G12D, p=0.019), and associated with improved OS and decreased distant recurrence; bulk RNA-seq (n=100) and [CosMx SMI](../methods/cosmx-smi.md) spatial profiling (n=20) identified enhanced KRAS signaling / EMT in KRAS^G12D^ tumors and increased TNF/NF-κB signaling in KRAS^G12R^; isogenic Kras^G12R/+^;Trp53^KO^ mouse PDAC organoids recapitulated reduced migration and improved orthotopic survival [PMID:39214094](../papers/39214094.md).
+- KRAS mutations were detected in CSF ctDNA from [NSCLC](../cancer_types/NSCLC.md) patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients); KRAS appeared as an off-target resistance alteration in EGFR-mutant patients [PMID:39289779](../papers/39289779.md).
 
 ## Cancer types (linked)
 
@@ -58,5 +59,6 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39214094](../papers/39214094.md)
+- [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **paper-compiler** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-09
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -20,6 +20,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [luad_mskcc_2023_met_organotropism](../datasets/luad_mskcc_2023_met_organotropism.md): 2,532 LUAD specimens from 2,309 MSK patients profiled on MSK-IMPACT with a WES subcohort for mutational signature analysis [PMID:37084736](../papers/37084736.md).
 - [bm_nsclc_mskcc_2023](../datasets/bm_nsclc_mskcc_2023.md): 180/233 (77%) of the resected [NSCLC](../cancer_types/NSCLC.md) brain metastasis cohort were LUAD; LUAD-restricted downstream analysis used 179 BM, 37 primary tumors, 34 extracranial metastases [PMID:37591896](../papers/37591896.md).
 - [msk_chord_2024](../datasets/msk_chord_2024.md): 5,957 LUAD patients included in the MSK-CHORD [SETD2](../genes/SETD2.md) biomarker analysis [PMID:39506116](../papers/39506116.md).
+- [csf_msk_2024](../datasets/csf_msk_2024.md): LUAD patients included within the lung cancer subset (n=188) of the MSK CSF ctDNA cohort; CSF samples profiled by MSK-IMPACT [PMID:39289779](../papers/39289779.md).
 
 ## Recurrent alterations
 
@@ -38,6 +39,10 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Comparing LUAD PT BM+ vs BM−/EM−, [TP53](../genes/TP53.md), [MYC](../genes/MYC.md), [SMARCA4](../genes/SMARCA4.md), [RB1](../genes/RB1.md), [ARID1A](../genes/ARID1A.md), and [FOXA1](../genes/FOXA1.md) alterations were enriched in PTs from patients who later developed BM; [NKX2-1](../genes/NKX2-1.md) alterations enriched in both BM and EM [PMID:37591896](../papers/37591896.md).
 - ctDNA alterations not detected in time-matched tissue sequencing disproportionately featured subclonal resistance drivers [RICTOR](../genes/RICTOR.md) and [PIK3CA](../genes/PIK3CA.md) [PMID:36357680](../papers/36357680.md).
 - Pathogenic [TP53](../genes/TP53.md), [EGFR](../genes/EGFR.md), or [KRAS](../genes/KRAS.md) alterations detected in ctDNA (vs tissue only) were associated with worse prognosis [PMID:36357680](../papers/36357680.md).
+- [EGFR](../genes/EGFR.md) mutations and high-level amplification detected in CSF ctDNA; acquired resistance mutations (p.T790M, p.C797S, p.L792H, p.L718Q, p.L718V, p.G724S) identified in serial CSF samples from LUAD patients [PMID:39289779](../papers/39289779.md).
+- [KRAS](../genes/KRAS.md) mutations detected in CSF ctDNA; also observed as off-target resistance alteration in EGFR-mutant LUAD patients [PMID:39289779](../papers/39289779.md).
+- [ALK](../genes/ALK.md) [EML4](../genes/EML4.md)::ALK fusions detected in CSF ctDNA from lung adenocarcinoma; resistance mutations p.G1202R and p.G1269A identified upon targeted therapy progression [PMID:39289779](../papers/39289779.md).
+- Smoking mutational signatures identified in CSF ctDNA from lung adenocarcinoma samples (n=8 among 35 high-TMB samples) [PMID:39289779](../papers/39289779.md).
 
 ## Subtypes
 
@@ -53,12 +58,16 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Only ~4% of LUAD metastases carried therapeutically actionable alterations undetected in their matched primaries, limiting incremental benefit from routine re-biopsy [PMID:37084736](../papers/37084736.md).
 - Non-canonical [EGFR](../genes/EGFR.md) mutations in BM may identify patients at elevated risk for leptomeningeal disease and partial resistance to [osimertinib](../drugs/osimertinib.md) [PMID:37591896](../papers/37591896.md).
 - [SETD2](../genes/SETD2.md) mutation associated with longer time to next treatment or death following immune checkpoint blockade but not cytotoxic chemotherapy or molecularly targeted therapy; association held among TMB-low (<10 mut/Mb) patients and replicated in DFCI and commercial RWD validation cohorts [PMID:39506116](../papers/39506116.md).
+- CSF ctDNA had greater sensitivity than positive cytology for leptomeningeal disease detection in lung cancer patients (85.4% vs. 61.7%), supporting its use as a complementary diagnostic modality [PMID:39289779](../papers/39289779.md).
+- CSF liquid biopsy outperformed plasma for CNS cancer monitoring with significantly higher VAFs (median 36.4% vs. 2.3%) due to blood-brain barrier limiting tumor DNA shedding into peripheral blood [PMID:39289779](../papers/39289779.md).
+- Serial CSF ctDNA profiling identified clonal evolution and emergence of resistance mechanisms (EGFR gatekeeper mutations, [ALK](../genes/ALK.md) resistance mutations, [MET](../genes/MET.md) resistance mutations), directly informing treatment changes in lung cancer patients [PMID:39289779](../papers/39289779.md).
 
 ## Sources
 
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37591896](../papers/37591896.md)
+- [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

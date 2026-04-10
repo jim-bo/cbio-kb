@@ -3,8 +3,8 @@ name: Diffuse Glioma
 oncotree_code: DIFG
 parent: GLIOMA
 tags: [glioma, cns]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-04-09
 ---
 
 # Diffuse Glioma (DIFG)
@@ -16,12 +16,17 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 ## Cohorts in the corpus
 
 - [difg_msk_2023](../datasets/difg_msk_2023.md) — 128 adult patients at MSKCC with WHO 2016 Grade 2 IDH-mutant astrocytoma or oligodendroglioma on active surveillance; 73/128 profiled by MSK-IMPACT [PMID:37910594](../papers/37910594.md).
+- [csf_msk_2024](../datasets/csf_msk_2024.md) — Gliomas were the third most common tumor type in the MSK CSF ctDNA cohort (n=148 patients), including diffuse gliomas profiled by MSK-IMPACT on CSF samples [PMID:39289779](../papers/39289779.md).
 
 ## Recurrent alterations
 
-- IDH1/IDH2 mutation required for cohort inclusion; verified by IHC (93.8%) and/or NGS (57%) [PMID:37910594](../papers/37910594.md).
-- CDKN2A/B homozygous deletion defines "molecular grade-high" IDH-mt glioma (WHO 2021 Grade 4 astrocytoma) and drove ~2× faster tumor-volume growth rate (19.17% vs 9.54% per 6 months) [PMID:37910594](../papers/37910594.md).
+- [IDH1](../genes/IDH1.md)/IDH2 mutation required for cohort inclusion; verified by IHC (93.8%) and/or NGS (57%) [PMID:37910594](../papers/37910594.md).
+- [CDKN2A](../genes/CDKN2A.md)/B homozygous deletion defines "molecular grade-high" IDH-mt glioma (WHO 2021 Grade 4 astrocytoma) and drove ~2× faster tumor-volume growth rate (19.17% vs 9.54% per 6 months) [PMID:37910594](../papers/37910594.md).
 - Focal amplifications of [MYCN](../genes/MYCN.md), [CDK4](../genes/CDK4.md), [PDGFRA](../genes/PDGFRA.md) defined "molecular grade-intermediate" in 1p19q intact tumors [PMID:37910594](../papers/37910594.md).
+- [IDH1](../genes/IDH1.md) p.R132H detected in CSF ctDNA from IDH-mutant gliomas [PMID:39289779](../papers/39289779.md).
+- [H3-3A](../genes/H3-3A.md) p.K28M histone mutation supporting diagnosis of diffuse midline glioma detected in CSF ctDNA [PMID:39289779](../papers/39289779.md).
+- [BRAF](../genes/BRAF.md)::[KIAA1549](../genes/KIAA1549.md) fusions detected in CSF ctDNA from gliomas [PMID:39289779](../papers/39289779.md).
+- Temozolomide mutational signatures identified in CSF ctDNA from glioma samples among high-TMB cases [PMID:39289779](../papers/39289779.md).
 
 ## Subtypes
 
@@ -35,5 +40,6 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 ## Sources
 
 - [PMID:37910594](../papers/37910594.md)
+- [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-09**.*

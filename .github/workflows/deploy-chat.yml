@@ -57,22 +57,10 @@ jobs:
 
       - name: Build image via Cloud Build
         run: |
-          set -euo pipefail
           gcloud builds submit \
             --project="${PROJECT_ID}" \
-            --config=- <<EOF
-          steps:
-            - name: gcr.io/cloud-builders/docker
-              args:
-                - build
-                - --file=Dockerfile.chat
-                - --tag=${{ steps.tag.outputs.IMAGE_URI }}
-                - .
-          images:
-            - ${{ steps.tag.outputs.IMAGE_URI }}
-          options:
-            logging: CLOUD_LOGGING_ONLY
-          EOF
+            --config=cloudbuild-chat.yaml \
+            --substitutions="_IMAGE_URI=${{ steps.tag.outputs.IMAGE_URI }}"
 
       - name: Deploy to Cloud Run
         run: |

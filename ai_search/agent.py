@@ -50,7 +50,10 @@ Paths are vault-relative: use "papers/25730765.md", not "wiki/papers/25730765.md
 class ToolEvent:
     tool_name: str
     args: dict
-    result_preview: str
+    result_preview: str  # first ~500 chars of the actual serialized payload
+    result_chars: int  # full length of the tool result payload
+    result_tokens: int  # rough token estimate (chars // 4)
+    summary: str | None = None  # optional short descriptor ("21 pages")
 
 
 @dataclass

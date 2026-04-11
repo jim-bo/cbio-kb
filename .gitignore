@@ -24,7 +24,16 @@ __pycache__/
 
 # Editor / worktrees
 .claude/worktrees/
+.claude/settings.local.json
 .worktrees/
 wiki/.obsidian/workspace.json
 .obsidian/
 .gemini/plans/
+
+# Secrets — never commit local env or credential files
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+service-account*.json

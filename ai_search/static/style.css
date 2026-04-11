@@ -122,6 +122,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     background: #13151f;
+    overflow: hidden;
 }
 
 .glass-panel h3 {
@@ -131,13 +132,26 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: #666;
-    border-bottom: 1px solid #1e2030;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
 }
 
-.tool-feed {
+.context-feed {
     flex: 1;
     overflow-y: auto;
-    padding: 12px;
+    padding: 0 12px 12px 12px;
+    min-height: 0;
+}
+
+.context-total {
+    font-weight: 400;
+    font-size: 11px;
+    color: #4a7dff;
+    text-transform: none;
+    letter-spacing: 0;
+    font-family: "SF Mono", "Fira Code", monospace;
 }
 
 .empty-state {
@@ -147,7 +161,8 @@ header h1 {
     padding: 40px 20px;
 }
 
-.tool-card {
+/* Context stack — the context window being built for this turn */
+.context-card {
     background: #1a1d2e;
     border-left: 3px solid #4a7dff;
     border-radius: 4px;
@@ -157,46 +172,145 @@ header h1 {
     animation: fadeIn 0.2s ease-in;
 }
 
-.tool-card.tool-search { border-left-color: #f0ad4e; }
-.tool-card.tool-read_page { border-left-color: #5cb85c; }
-.tool-card.tool-read_section { border-left-color: #5cb85c; }
-.tool-card.tool-follow_links { border-left-color: #d9534f; }
-.tool-card.tool-find_references { border-left-color: #d9534f; }
-.tool-card.tool-get_page_metadata { border-left-color: #9b59b6; }
-.tool-card.tool-list_pages { border-left-color: #1abc9c; }
+.context-card.context-pending {
+    border-left-color: #555;
+    background: #14162188;
+    border-style: dashed;
+    border-left-style: solid;
+    opacity: 0.75;
+}
 
-.tool-header {
+.context-card.context-user {
+    border-left-color: #4a7dff;
+}
+
+.context-card.context-system {
+    border-left-color: #6a6a6a;
+}
+
+.context-card.context-assistant {
+    border-left-color: #c678dd;
+}
+
+.context-card.context-pruned {
+    opacity: 0.5;
+}
+
+.context-card.context-pruned .context-body {
+    font-style: italic;
+    color: #555;
+}
+
+.context-card.context-pruned .context-tokens {
+    color: #555;
+}
+
+/* Context card bodies are collapsed by default — click the header to
+   expand. The caret icon rotates to indicate the state. */
+.context-body.context-collapsed {
+    max-height: 1.4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.context-caret {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: #888;
+    flex-shrink: 0;
+    width: 14px;
+    text-align: center;
+    user-select: none;
+}
+
+.context-card-header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.context-card-header:hover {
+    background: #1f2234;
+    border-radius: 3px;
+}
+
+.context-card-header:hover .context-caret {
+    color: #4a7dff;
+}
+
+.context-summary {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 10px;
+    color: #888;
+    background: #0f1117;
+    padding: 1px 6px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.context-card.tool-search { border-left-color: #f0ad4e; }
+.context-card.tool-read_page { border-left-color: #5cb85c; }
+.context-card.tool-read_section { border-left-color: #5cb85c; }
+.context-card.tool-follow_links { border-left-color: #d9534f; }
+.context-card.tool-find_references { border-left-color: #d9534f; }
+.context-card.tool-get_page_metadata { border-left-color: #9b59b6; }
+.context-card.tool-list_pages { border-left-color: #1abc9c; }
+
+.context-card-header {
     display: flex;
     align-items: center;
     gap: 6px;
     margin-bottom: 4px;
 }
 
-.tool-icon {
+.context-icon {
     font-size: 14px;
 }
 
-.tool-name {
+.context-kind {
     font-weight: 600;
     color: #aaa;
     font-family: "SF Mono", "Fira Code", monospace;
 }
 
-.tool-args {
+.context-tokens {
+    margin-left: auto;
+    font-size: 10px;
+    color: #4a7dff;
+    font-family: "SF Mono", "Fira Code", monospace;
+    background: #0f1117;
+    padding: 1px 6px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.context-args {
     color: #666;
     font-family: "SF Mono", "Fira Code", monospace;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    min-width: 0;
+    flex: 1;
 }
 
-.tool-preview {
-    color: #555;
+.context-body {
+    color: #888;
     font-family: "SF Mono", "Fira Code", monospace;
     font-size: 11px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 1.4;
+}
+
+.context-tool-preview {
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
 }
 
 @keyframes fadeIn {

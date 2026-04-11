@@ -317,6 +317,67 @@
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* ─── Cold-start indicator ─────────────────────────────────────────────
+   Shown inside the assistant bubble while we wait for the first SSE
+   event (Cloud Run cold-start, initial SSE handshake). Hidden as soon
+   as any event arrives. */
+
+.chat-container .cold-start {
+    text-align: center;
+    padding: 24px 0 16px;
+    perspective: 400px;
+}
+
+.chat-container .dna-helix {
+    display: inline-block;
+    margin: 0;
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 15px;
+    line-height: 1.1;
+    color: var(--bs-primary);
+    letter-spacing: 2px;
+    transform-style: preserve-3d;
+    animation: dna-rotate 2.2s linear infinite;
+}
+
+@keyframes dna-rotate {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+.chat-container .cold-start-label {
+    margin: 14px 0 0 0;
+    font-size: 12px;
+    font-family: "SF Mono", "Fira Code", monospace;
+    color: var(--bs-secondary-color);
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    animation: cold-start-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes cold-start-pulse {
+    0%, 100% { opacity: 0.45; }
+    50%      { opacity: 1; }
+}
+
+/* ─── Streaming thinking cursor ────────────────────────────────────────
+   A blinking block cursor appended to the assistant bubble while text
+   is streaming in. Removed on the `done` event. */
+
+.chat-container .streaming-cursor {
+    display: inline-block;
+    width: 0.6em;
+    height: 1em;
+    margin-left: 2px;
+    background: var(--bs-primary);
+    vertical-align: text-bottom;
+    animation: cursor-blink 1s steps(2, start) infinite;
+}
+
+@keyframes cursor-blink {
+    to { visibility: hidden; }
+}
+
 /* Scrollbar styling */
 .chat-container ::-webkit-scrollbar {
     width: 6px;

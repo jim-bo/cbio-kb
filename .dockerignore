@@ -1,12 +1,39 @@
-# Ignore the git repository
+# Version control + CI
 .git
+.github/
 
-# Ignore large data
-batch_pdfs/
-
-# Ignore Python cache files
+# Python artifacts
 __pycache__/
 *.pyc
+*.pyo
+.venv/
 
-# Ignore GitHub Actions workflows
-.github/
+# Local env + secrets (never ship into an image)
+.env
+.env.*
+.claude/
+.claude.json
+credentials.json
+service-account*.json
+*.pem
+
+# Editor junk
+.vscode/
+.idea/
+.DS_Store
+
+# Large / unused data
+batch_pdfs/
+data/
+*.log
+
+# Docs & tests not needed at runtime
+docs/
+tests/
+AGENTS.md
+GEMINI.md
+
+# Quarto build output — the chat image does NOT need the rendered site,
+# only the raw wiki/*.md files. _site is served by GitHub Pages.
+wiki/_site/
+wiki/.quarto/

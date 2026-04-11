@@ -1,0 +1,14 @@
+# Cloud Build config for the cbio-kb chat API image.
+# Called by scripts/deploy-chat.sh and .github/workflows/deploy-chat.yml.
+# Pass the image URI via --substitutions=_IMAGE_URI=...
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --file=Dockerfile.chat
+      - --tag=$_IMAGE_URI
+      - .
+images:
+  - $_IMAGE_URI
+options:
+  logging: CLOUD_LOGGING_ONLY

@@ -41,24 +41,11 @@ echo "CORS:     ${CORS_ORIGINS}"
 echo
 
 # 1. Build & push the image via Cloud Build (remote build, no local Docker).
-#    We pass an inline cloudbuild config so we can point at Dockerfile.chat
-#    (gcloud builds submit --tag only works with the default ./Dockerfile).
 echo ">>> Submitting build to Cloud Build..."
 gcloud builds submit \
     --project="${PROJECT_ID}" \
-    --config=/dev/stdin <<EOF
-steps:
-  - name: gcr.io/cloud-builders/docker
-    args:
-      - build
-      - --file=Dockerfile.chat
-      - --tag=${IMAGE_URI}
-      - .
-images:
-  - ${IMAGE_URI}
-options:
-  logging: CLOUD_LOGGING_ONLY
-EOF
+    --config=cloudbuild-chat.yaml \
+    --substitutions="_IMAGE_URI=${IMAGE_URI}"
 
 # 2. Deploy the new revision to Cloud Run.
 echo ">>> Deploying to Cloud Run..."

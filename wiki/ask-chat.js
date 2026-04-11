@@ -1,7 +1,17 @@
 // API endpoint — local dev uses bundled FastAPI, production hits Cloud Run.
-const API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+// Append ?cloud=1 to the URL to force the Cloud Run backend from localhost
+// (useful for testing the real prod API without leaving local dev).
+const _params = new URLSearchParams(location.search);
+const _forceCloud = _params.get('cloud') === '1';
+const _isLocal = !_forceCloud && (location.hostname === 'localhost' || location.hostname === '127.0.0.1');
+const API_URL = _isLocal
     ? 'http://localhost:8080/api/chat'
-    : 'https://cbio-kb-api.run.app/api/chat';
+    : 'https://cbio-kb-api-7vd2hab3va-uc.a.run.app/api/chat';
+
+// Dev-only: ?delay=N holds the first event for N milliseconds so you can
+// see the cold-start indicator without actually forcing a Cloud Run cold
+// start. e.g. ?cloud=1&delay=3000 → 3 second fake cold start.
+const COLD_START_FAKE_DELAY_MS = parseInt(_params.get('delay') || '0', 10);
 
 // Accumulates the assistant's streamed text so we can re-parse it as markdown on every delta.
 let assistantFullText = '';
@@ -65,11 +75,47 @@ form.addEventListener('submit', function(e) {
     sendMessage(msg);
 });
 
+// Static ASCII art for the cold-start DNA helix. CSS rotates it in 3D
+// so it looks like a double helix spinning around its axis while we wait
+// for the first SSE event from Cloud Run.
+const DNA_HELIX_ART =
+    " A━━━T\n" +
+    " │   │\n" +
+    " T━━━A\n" +
+    " │   │\n" +
+    " G━━━C\n" +
+    " │   │\n" +
+    " C━━━G\n" +
+    " │   │\n" +
+    " A━━━T\n" +
+    " │   │\n" +
+    " T━━━A";
+
+function coldStartHTML() {
+    return '<div class="cold-start">' +
+               '<pre class="dna-helix">' + DNA_HELIX_ART + '</pre>' +
+               '<p class="cold-start-label">waking up the agent…</p>' +
+           '</div>';
+}
+
+// Tracks whether the first SSE event of the current turn has been seen.
+// Used to hide the cold-start indicator on the first signal from the
+// server (any event type) rather than waiting for text specifically.
+let firstEventSeen = false;
+// When ?delay=N is active we buffer every event until the fake delay
+// expires, then drain them in order. Prevents streaming text from
+// flashing into a bubble that still contains the DNA indicator.
+let coldStartCleared = false;
+let pendingEvents = [];
+
 function sendMessage(msg) {
     sending = true;
     sendBtn.disabled = true;
     input.value = '';
     assistantFullText = '';
+    firstEventSeen = false;
+    coldStartCleared = false;
+    pendingEvents = [];
 
     // Add user message
     const userDiv = document.createElement('div');
@@ -77,9 +123,11 @@ function sendMessage(msg) {
     userDiv.textContent = msg;
     messages.appendChild(userDiv);
 
-    // Create assistant message container
+    // Create assistant message container, seeded with the cold-start
+    // indicator. It's cleared on the first event of any kind.
     const assistantDiv = document.createElement('div');
     assistantDiv.className = 'msg assistant';
+    assistantDiv.innerHTML = coldStartHTML();
     messages.appendChild(assistantDiv);
     messages.scrollTop = messages.scrollHeight;
 
@@ -152,12 +200,53 @@ function sendMessage(msg) {
 
 function handleEvent(eventType, data, assistantDiv) {
     if (!data) return;
+
+    // First-event gating: handle the cold-start DNA indicator and the
+    // optional ?delay=N fake cold start. When a delay is active we
+    // buffer every event until the timer fires, then drain them in
+    // order so real events never touch a bubble still showing the DNA.
+    if (!firstEventSeen) {
+        firstEventSeen = true;
+        if (COLD_START_FAKE_DELAY_MS > 0) {
+            pendingEvents.push({eventType: eventType, data: data});
+            setTimeout(function() {
+                coldStartCleared = true;
+                const coldStart = assistantDiv.querySelector('.cold-start');
+                if (coldStart) assistantDiv.innerHTML = '';
+                const queue = pendingEvents;
+                pendingEvents = [];
+                for (const ev of queue) {
+                    dispatchEvent(ev.eventType, ev.data, assistantDiv);
+                }
+            }, COLD_START_FAKE_DELAY_MS);
+            return;
+        }
+        coldStartCleared = true;
+        const coldStart = assistantDiv.querySelector('.cold-start');
+        if (coldStart) assistantDiv.innerHTML = '';
+    }
+
+    // Still buffering during the fake delay?
+    if (!coldStartCleared) {
+        pendingEvents.push({eventType: eventType, data: data});
+        return;
+    }
+
+    dispatchEvent(eventType, data, assistantDiv);
+}
+
+function dispatchEvent(eventType, data, assistantDiv) {
     try {
         const parsed = JSON.parse(data);
 
         if (eventType === 'text') {
             assistantFullText += parsed.delta;
-            assistantDiv.innerHTML = marked.parse(assistantFullText);
+            // Re-render the full markdown on each delta and append a
+            // blinking cursor so the user can see the agent is still
+            // producing text.
+            assistantDiv.innerHTML =
+                marked.parse(assistantFullText) +
+                '<span class="streaming-cursor"></span>';
             appendAssistantDelta(parsed.delta);
         } else if (eventType === 'tool_use') {
             finalizeAssistantCard();
@@ -170,6 +259,9 @@ function handleEvent(eventType, data, assistantDiv) {
             addContextUserBlock(parsed);
         } else if (eventType === 'done') {
             finalizeAssistantCard();
+            // Strip the streaming cursor now that the turn is complete.
+            const cursor = assistantDiv.querySelector('.streaming-cursor');
+            if (cursor) cursor.remove();
             sessionId = parsed.session_id;
         } else if (eventType === 'error') {
             assistantDiv.textContent += '\n[Error: ' + parsed.error + ']';

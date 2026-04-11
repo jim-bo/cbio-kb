@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-11
 ---
 
 # B2M
@@ -17,6 +17,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 
 - Mutated in ~32–33% of classic Hodgkin lymphoma cases in the combined 61-patient WGS+WES cohort, making it one of the most common cHL drivers [PMID:36723991](../papers/36723991.md).
 - Evolutionary timing analysis placed B2M driver mutations before large chromosomal gains and whole-genome duplication, establishing them as early events in cHL pathogenesis [PMID:36723991](../papers/36723991.md).
+- B2M mutated in 6% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md) (n=35); no enrichment of antigen-presenting machinery alterations in non-responders to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 
 ## Cancer types (linked)
 
@@ -37,5 +38,6 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 ## Sources
 
 - [PMID:36723991](../papers/36723991.md)
+- [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

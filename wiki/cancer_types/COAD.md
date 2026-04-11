@@ -1,11 +1,11 @@
 ---
 name: Colon Adenocarcinoma
 oncotree_code: COAD
-main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-11
+main_type: Colorectal Cancer
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -35,9 +35,11 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 ## Therapeutic landscape
 
 - Paper does not directly test predictive utility for immunotherapy in colon cancer [PMID:37202560](../papers/37202560.md).
+- [TRIM24](../genes/TRIM24.md)-BRAF fusions identified in 43% of BRAF-fusion-positive colorectal cases; frequent co-mutations include [RNF43](../genes/RNF43.md) (64%), [TP53](../genes/TP53.md) (57%), [KMT2D](../genes/KMT2D.md) (43%), [MSH3](../genes/MSH3.md) (42%), and [ARID1A](../genes/ARID1A.md) (36%) [PMID:38922339](../papers/38922339.md).
 
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
+- [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

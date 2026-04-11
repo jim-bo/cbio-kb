@@ -1,10 +1,10 @@
 ---
 symbol: IDH1
 aliases: []
-cancer_types: [DIFG, AST, ODG, IHCH]
-tags: [metabolic-driver, glioma, actionable]
+cancer_types: [DIFG, AST, ODG, IHCH, GB]
+tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-11
 ---
 
 # IDH1
@@ -18,12 +18,14 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 (or [IDH2](../genes/IDH2.md)) mutation was required for inclusion in a 128-patient MSKCC WHO 2016 Grade 2 IDH-mutant low-grade glioma active-surveillance cohort; verified by IHC (93.8%) and/or NGS (57%) [PMID:37910594](../papers/37910594.md).
 - IDH1 is an actionable driver in intrahepatic cholangiocarcinoma; the MSK hidden-genome classifier predicted overall survival in IHC independently of IDH1 alteration status [PMID:38864854](../papers/38864854.md).
 - IDH1 p.R132H was detected in CSF ctDNA from IDH-mutant glioma patients in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) profiled by MSK-IMPACT [PMID:39289779](../papers/39289779.md).
+- IDH1 (or [IDH2](../genes/IDH2.md)) mutation status determines the epigenetic trajectory of glioma at recurrence: IDH-mutant gliomas (n=72 from the GLASS consortium) show genome-wide progressive DNA hypomethylation (674 CpG probes with >15% difference), while IDH-wildtype gliomas (n=60) have a stable epigenome; treatment with [temozolomide](../drugs/temozolomide.md) and/or radiotherapy accelerates GCIMP-high to GCIMP-low transition (34% vs 4% without treatment, Fisher P=0.005) [PMID:38117484](../papers/38117484.md).
 
 ## Cancer types (linked)
 
-- [DIFG](../cancer_types/DIFG.md) / [AST](../cancer_types/AST.md) / [ODG](../cancer_types/ODG.md) — defining alteration of IDH-mutant low-grade glioma; tumor volume growth rate ~10% per 6 months on active surveillance, accelerated by CDKN2A/B homozygous deletion [PMID:37910594](../papers/37910594.md).
+- [DIFG](../cancer_types/DIFG.md) / [ASTR](../cancer_types/ASTR.md) / [ODG](../cancer_types/ODG.md) — defining alteration of IDH-mutant low-grade glioma; tumor volume growth rate ~10% per 6 months on active surveillance, accelerated by CDKN2A/B homozygous deletion [PMID:37910594](../papers/37910594.md).
 - [IHCH](../cancer_types/IHCH.md) — actionable driver; classifier prognostic independent of IDH1 status [PMID:38864854](../papers/38864854.md).
 - [DIFG](../cancer_types/DIFG.md) / glioma — IDH1 p.R132H detected in CSF ctDNA as non-invasive molecular diagnosis [PMID:39289779](../papers/39289779.md).
+- [ASTR](../cancer_types/ASTR.md) / [GB](../cancer_types/GB.md) — IDH1 mutation status determines epigenetic stability; IDH-mutant astrocytomas undergo progressive GCIMP-high to GCIMP-low methylation loss especially with TMZ/RT treatment, leading to transcriptional programs resembling IDH-wildtype GBM [PMID:38117484](../papers/38117484.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -42,5 +44,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:37910594](../papers/37910594.md)
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39289779](../papers/39289779.md)
+- [PMID:38117484](../papers/38117484.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

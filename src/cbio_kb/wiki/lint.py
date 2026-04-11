@@ -120,7 +120,8 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
         "genes": "genes",
         "cancer_types": "cancer_types",
         "datasets": "datasets",
-        "assays": "molecular_profiles",
+        "assays": "assays",
+        "panels": "gene_panels",
         "clinical_fields": "clinical_attributes",
     }
     
@@ -134,11 +135,13 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
         if section == "methods":
             kind = fm.get("kind")
             if kind and not is_unverified:
-                if kind not in canonical.get("molecular_profiles", set()) and kind not in canonical.get("gene_panels", set()):
+                known_kinds = canonical.get("molecular_profiles", set()) | canonical.get("gene_panels", set()) | canonical.get("assays", set())
+                known_kinds.update({"method", "gene-panel", "sequencing"})
+                if kind not in known_kinds:
                     warnings.append(f"{rel}: kind '{kind}' not canonical, but unverified is not true")
 
         if section == "datasets":
-            for field in ["assays", "clinical_fields"]:
+            for field in ["assays", "panels", "clinical_fields"]:
                 canon = canonical.get(field_to_canon.get(field))
                 if not canon:
                     continue

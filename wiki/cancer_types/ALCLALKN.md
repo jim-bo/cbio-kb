@@ -1,11 +1,11 @@
 ---
 name: Anaplastic Large-Cell Lymphoma ALK Negative
 oncotree_code: ALCLALKN
-main_type: Mature T and NK Neoplasms
 parent: ALCL
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
 processed_at: 2026-04-10
+main_type: Mature T and NK Neoplasms
 ---
 
 # Anaplastic Large-Cell Lymphoma ALK Negative (ALCLALKN)

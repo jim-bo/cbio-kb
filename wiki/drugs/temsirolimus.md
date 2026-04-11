@@ -2,6 +2,7 @@
 name: temsirolimus
 targets: [MTOR]
 drug_class: mTOR inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy]
 processed_by: crosslinker

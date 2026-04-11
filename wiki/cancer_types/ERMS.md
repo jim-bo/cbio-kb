@@ -1,11 +1,11 @@
 ---
 name: Embryonal Rhabdomyosarcoma
 oncotree_code: ERMS
-main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-11
+main_type: Soft Tissue Sarcoma
 ---
 
 # Embryonal Rhabdomyosarcoma (ERMS)
@@ -21,6 +21,8 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 ## Recurrent alterations
 
 - ERMS in this cohort is fusion-negative (FOXO1-negative) [PMID:37315267](../papers/37315267.md).
+- FN-RMS (ERMS): [TP53](../genes/TP53.md) loss-of-function in 41%, [BCOR](../genes/BCOR.md) alterations in 30%, RAS/PIK3CA pathway alterations in 5/17 cases [PMID:37730754](../papers/37730754.md).
+- [SMARCA2](../genes/SMARCA2.md) missense mutations and frameshift deletions (24%) found exclusively at relapse in FN-RMS; FN-RMS acquired an average of 4.3 new alterations per patient at relapse (range 0–17) [PMID:37730754](../papers/37730754.md).
 
 ## Subtypes
 
@@ -33,5 +35,6 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 ## Sources
 
 - [PMID:37315267](../papers/37315267.md)
+- [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

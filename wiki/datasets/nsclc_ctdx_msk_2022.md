@@ -1,12 +1,21 @@
 ---
-studyId: nsclc_ctdx_msk_2022
-name: "Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)"
-description: "Targeted sequencing of ctDNA samples drawn from patients with metastatic NSCLC using the Resolution ctDx Lung platform."
-cancerTypeId: nsclc
-pmid: "36357680"
-allSampleCount: 1
+name: Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+studyId: nsclc_ctdx_msk_2022
+description: Targeted sequencing of ctDNA samples drawn from patients with metastatic NSCLC using the Resolution ctDx Lung platform.
+cancerTypeId: nsclc
+pmid: 36357680
+allSampleCount: 1
 ---
 
 # Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)
@@ -26,6 +35,7 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 ## Papers using this cohort
 
 - [PMID:36357680](../papers/36357680.md) — Jee et al., Overall survival with ctDNA-guided therapy in advanced [NSCLC](../cancer_types/NSCLC.md).
+- [PMID:39147831](../papers/39147831.md) — ctDNA-based prediction of cancer-associated VTE; international generalizability cohort (n = 463 advanced [NSCLC](../cancer_types/NSCLC.md)) from MSK and GenesisCare sequenced with ctDx Lung.
 
 ## Notable findings derived from this cohort
 
@@ -33,9 +43,11 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 - Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer [OS](../cancer_types/OS.md) than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
 - 25% of patients had alterations detected only in ctDNA (not in time-matched tissue), disproportionately subclonal resistance drivers such as [RICTOR](../genes/RICTOR.md) and [PIK3CA](../genes/PIK3CA.md), and associated with short survival [PMID:36357680](../papers/36357680.md).
 - Operational metrics: only 2% of ctDx Lung / MSK-ACCESS samples failed vs 13% tissue sequencing failures; turnaround 11 days vs 33 days for MSK-IMPACT [PMID:36357680](../papers/36357680.md).
+- Used as an international generalizability cohort (n = 463 advanced NSCLC) for a ctDNA-based VTE prediction model; the LB+ random survival forest achieved a c-index of 0.67 in this cohort, outperforming Khorana score (0.54). [PMID:39147831](../papers/39147831.md)
 
 ## Sources
 
 - cBioPortal study `nsclc_ctdx_msk_2022` [PMID:36357680](../papers/36357680.md).
+- Used as generalizability cohort in VTE prediction study [PMID:39147831](../papers/39147831.md).
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

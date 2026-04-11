@@ -2,6 +2,7 @@
 name: imatinib
 targets: [KIT, ABL1, PDGFRA]
 drug_class: tyrosine kinase inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy]
 processed_by: entity-page-writer

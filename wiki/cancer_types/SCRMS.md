@@ -1,11 +1,11 @@
 ---
 name: Spindle Cell Rhabdomyosarcoma
 oncotree_code: SCRMS
-main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, rhabdomyosarcoma]
 processed_by: crosslinker
 processed_at: 2026-04-08
+main_type: Soft Tissue Sarcoma
 ---
 
 # Spindle Cell Rhabdomyosarcoma (SCRMS)

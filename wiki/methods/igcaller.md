@@ -2,6 +2,7 @@
 name: IgCaller
 slug: igcaller
 kind: method
+canonical_source: 
 unverified: true
 tags: [structural-variants, ig-locus, computational, lymphoma]
 processed_by: crosslinker

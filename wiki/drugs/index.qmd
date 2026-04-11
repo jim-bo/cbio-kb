@@ -8,6 +8,7 @@ listing:
     name: "Name"
     targets: "Targets"
     drug_class: "Drug class"
+  field-links: [name]
   sort: "name asc"
   filter-ui: true
   sort-ui: true

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [GIST]
 tags: [tumor-suppressor, sdh-deficient, gist]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # SDHA
@@ -19,7 +19,7 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 
 ## Cancer types (linked)
 
-- [GIST](../cancer_types/GIST.md) — SDHA mutation contributes to the SDH-deficient GIST subset [PMID:37477937](../papers/37477937.md).
+- [GIST](../cancer_types/GIST.md) — SDHA mutation contributes to the SDH-deficient [GIST](../cancer_types/GIST.md) subset [PMID:37477937](../papers/37477937.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ SDHA encodes the catalytic flavoprotein subunit of the succinate dehydrogenase c
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

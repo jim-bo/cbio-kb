@@ -1,12 +1,21 @@
 ---
-studyId: bm_nsclc_mskcc_2023
-name: "Non-Small Cell Lung Cancer Brain Metastasis (MSK, Nat Commun 2023)"
-description: "Targeted sequencing of 322 NSCLC brain metastasis and their matched normals via MSK-IMPACT."
-cancerTypeId: nsclc
-pmid: "37591896"
-allSampleCount: 1
+name: Non-Small Cell Lung Cancer Brain Metastasis (MSK, Nat Commun 2023)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
+studyId: bm_nsclc_mskcc_2023
+description: Targeted sequencing of 322 NSCLC brain metastasis and their matched normals via MSK-IMPACT.
+cancerTypeId: nsclc
+pmid: 37591896
+allSampleCount: 1
 ---
 
 # Non-Small Cell Lung Cancer Brain Metastasis (MSK, Nat Commun 2023)

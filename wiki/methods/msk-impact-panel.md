@@ -2,10 +2,11 @@
 name: MSK-IMPACT panel (generic)
 slug: msk-impact-panel
 kind: method
+canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # MSK-IMPACT panel (generic)
@@ -20,12 +21,22 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:37084736](../papers/37084736.md) — used to profile 2,532 [LUAD](../cancer_types/LUAD.md) specimens from 2,309 MSK patients for the metastatic organotropism study; an additional WES subcohort supported mutational signature analysis. Identified TP53/SMARCA4/CDKN2A inactivation as correlated with site-specific shorter time to metastasis, and showed only ~4% of metastases harbored actionable alterations not present in the matched primary [PMID:37084736](../papers/37084736.md).
 - [PMID:37682528](../papers/37682528.md) — used to sequence 1,507 urothelial carcinoma tumors from 1,421 MSK patients ([BLCA](../cancer_types/BLCA.md)/[UTUC](../cancer_types/UTUC.md)), defining the landscape of [FGFR3](../genes/FGFR3.md) alterations across NMIBC, MIBC, [UTUC](../cancer_types/UTUC.md), and metastatic disease, and documenting 26% primary/metastasis [FGFR3](../genes/FGFR3.md) discordance in paired samples [PMID:37682528](../papers/37682528.md).
 - [PMID:37910594](../papers/37910594.md) — 468-gene targeted hybrid-capture NGS applied to 73/128 patients with IDH-mutant Grade 2 glioma with tissue available, identifying [TERT](../genes/TERT.md) promoter mutations (100%), [CIC](../genes/CIC.md) (42%) and [FUBP1](../genes/FUBP1.md) (24%) in 1p19q codeleted tumors and [TP53](../genes/TP53.md) (94%) and [ATRX](../genes/ATRX.md) (77%) in 1p19q intact tumors; CDKN2A/B homozygous deletion defined molecular grade-high tumors with ~2x faster tumor volume growth rate [PMID:37910594](../papers/37910594.md).
-- [PMID:39506116](../papers/39506116.md) — MSK-IMPACT targeted panel sequencing of 24,950 MSK patients across [NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), and [PAAD](../cancer_types/PAAD.md) formed the genomic backbone of the MSK-CHORD clinicogenomic dataset; enabled discovery of [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) as a biomarker of longer OS, lower CNS metastasis, and improved immune checkpoint blockade response [PMID:39506116](../papers/39506116.md).
+- [PMID:39506116](../papers/39506116.md) — MSK-IMPACT targeted panel sequencing of 24,950 MSK patients across [NSCLC](../cancer_types/NSCLC.md), [BRCA](../cancer_types/BRCA.md), [COADREAD](../cancer_types/COADREAD.md), [PRAD](../cancer_types/PRAD.md), and [PAAD](../cancer_types/PAAD.md) formed the genomic backbone of the MSK-CHORD clinicogenomic dataset; enabled discovery of [SETD2](../genes/SETD2.md) driver mutations in 3% of [LUAD](../cancer_types/LUAD.md) as a biomarker of longer [OS](../cancer_types/OS.md), lower CNS metastasis, and improved immune checkpoint blockade response [PMID:39506116](../papers/39506116.md).
 - [PMID:37477937](../papers/37477937.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:37477937](../papers/37477937.md).
 - [PMID:38147626](../papers/38147626.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:38147626](../papers/38147626.md).
 - [PMID:38864854](../papers/38864854.md) — MSK-IMPACT sequencing contributed to the cohort analysis [PMID:38864854](../papers/38864854.md).
 - [PMID:38995739](../papers/38995739.md) — referenced alongside the heme-focused [MSK-HemePACT](../methods/msk-hemepact.md) panel in the phase I/II [ibrutinib](../drugs/ibrutinib.md) trial in r/r CNS lymphoma; an independent cohort of 177 MSK [PCNSL](../cancer_types/PCNSL.md) patients treated with standard of care was used to show [TBL1XR1](../genes/TBL1XR1.md) status was not prognostic under SOC, supporting its predictive (rather than prognostic) role for [ibrutinib](../drugs/ibrutinib.md) benefit [PMID:38995739](../papers/38995739.md).
 - [PMID:39214094](../papers/39214094.md) — applied to 397/1,360 resected [PAAD](../cancer_types/PAAD.md) patients in the MSK `pancreas_msk_2024` cohort with no selection criteria, producing driver-gene and [KRAS](../genes/KRAS.md)-allele calls that underpinned the stage I [KRAS](../genes/KRAS.md)^G12R^ enrichment and allele-specific outcome findings; authors explicitly note that CDKN2A/B deep deletions were under-detected by IMPACT and excluded from their main analyses [PMID:39214094](../papers/39214094.md).
+- [PMID:37643132](../papers/37643132.md) — MSK-IMPACT (341, 410, or 468 genes, avg 648x coverage) used to sequence 177 [CESC](../cancer_types/CESC.md) patients; actionability annotated via [OncoKB](../methods/oncokb.md) v3.1.4 [PMID:37643132](../papers/37643132.md).
+- [PMID:37651310](../papers/37651310.md) — MSK-IMPACT (341–505 gene panel, tumor-normal, FDA-authorized) used to sequence 1,882 endometrial carcinoma patients; genetic ancestry inferred from IMPACT data; copy number analysis performed with [FACETS](../methods/facets.md) [PMID:37651310](../papers/37651310.md).
+- [PMID:37699004](../papers/37699004.md) — MSK-IMPACT ([IMPACT505](../methods/IMPACT505.md), up to 505 genes) used to sequence 902/1,123 esophagogastric cancer patients; germline analysis performed with a 76–88-gene MSK-IMPACT panel [PMID:37699004](../papers/37699004.md).
+- [PMID:37730754](../papers/37730754.md) — MSK-IMPACT used to sequence MSK cohort (n=20) of relapsed/metastatic rhabdomyosarcoma patients [PMID:37730754](../papers/37730754.md).
+- [PMID:38488807](../papers/38488807.md) — MSK-IMPACT (341–505 genes) used to profile 195 STLMS and 238 [ULMS](../cancer_types/ULMS.md) cases; longitudinal subset of 18 STLMS and 15 ULMS patients had sequential tumors sequenced [PMID:38488807](../papers/38488807.md).
+- [PMID:38630790](../papers/38630790.md) — MSK-IMPACT used to profile 290 diffuse pleural mesothelioma ([PLMESO](../cancer_types/PLMESO.md)) patients; 210 (72%) had sufficient tumor purity for [FACETS](../methods/facets.md) LOH analysis [PMID:38630790](../papers/38630790.md).
+- [PMID:38653864](../papers/38653864.md) — MSK-IMPACT used for MSI/TMB assessment in 35 patients with dMMR/MSI-H/hypermutated gynecologic cancers on [nivolumab](../drugs/nivolumab.md) phase 2 trial [PMID:38653864](../papers/38653864.md).
+- [PMID:38758238](../papers/38758238.md) — MSK-IMPACT used to sequence all pituitary neuroendocrine tumors; retrospective cohort (n=26) also underwent [WES](../methods/whole-exome-seq.md) for [USP8](../genes/USP8.md) mutation detection [PMID:38758238](../papers/38758238.md).
+- [PMID:38922339](../papers/38922339.md) — 97,024 samples from 69,337 patients sequenced via MSK-IMPACT, MSK-ACCESS, and MSK-Fusion between January 2014 and November 2022; identified 212 patients with oncogenic [BRAF](../genes/BRAF.md) fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
+- [PMID:38949888](../papers/38949888.md) — 3,244 prostate cancer tumors from 2,257 patients sequenced using MSK-IMPACT targeted NGS panel; WES performed on 48 tumor samples via recapture of MSK-IMPACT libraries [PMID:38949888](../papers/38949888.md).
 
 ## Notes
 
@@ -44,5 +55,15 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:38995739](../papers/38995739.md)
 - [PMID:39214094](../papers/39214094.md)
+- [PMID:37643132](../papers/37643132.md)
+- [PMID:37651310](../papers/37651310.md)
+- [PMID:37699004](../papers/37699004.md)
+- [PMID:37730754](../papers/37730754.md)
+- [PMID:38488807](../papers/38488807.md)
+- [PMID:38630790](../papers/38630790.md)
+- [PMID:38653864](../papers/38653864.md)
+- [PMID:38758238](../papers/38758238.md)
+- [PMID:38922339](../papers/38922339.md)
+- [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

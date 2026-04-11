@@ -7,6 +7,7 @@ listing:
   field-display-names:
     name: "Name"
     kind: "Kind"
+  field-links: [name]
   sort: "name asc"
   filter-ui: true
   sort-ui: true

@@ -2,6 +2,7 @@
 name: fluorouracil
 targets: [TYMS]
 drug_class: fluoropyrimidine antimetabolite
+canonical_source: 
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker

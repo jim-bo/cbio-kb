@@ -1,12 +1,21 @@
 ---
-studyId: mtnn_msk_2022
-name: "Mature T and NK Neoplasms (MSK, Blood Adv 2023)"
-description: "Targeted sequencing of 132 Mature T and NK Neoplasms and their matched normals via MSK-IMPACT."
-cancerTypeId: mtnn
-pmid: "37078708"
-allSampleCount: 1
+name: Mature T and NK Neoplasms (MSK, Blood Adv 2023)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-10
+studyId: mtnn_msk_2022
+description: Targeted sequencing of 132 Mature T and NK Neoplasms and their matched normals via MSK-IMPACT.
+cancerTypeId: mtnn
+pmid: 37078708
+allSampleCount: 1
 ---
 
 # Mature T and NK Neoplasms (MSK, Blood Adv 2023)

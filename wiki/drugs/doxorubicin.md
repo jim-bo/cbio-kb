@@ -2,6 +2,7 @@
 name: doxorubicin
 targets: [TOP2A]
 drug_class: anthracycline
+canonical_source: 
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker

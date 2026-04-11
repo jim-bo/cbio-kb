@@ -2,6 +2,8 @@
 name: lenalidomide
 targets: [CRBN]
 drug_class: immunomodulatory agent (IMiD, cereblon E3 ligase modulator)
+canonical_source: 
+unverified: 
 tags: [imid, cns-lymphoma]
 processed_by: crosslinker
 processed_at: 2026-04-09

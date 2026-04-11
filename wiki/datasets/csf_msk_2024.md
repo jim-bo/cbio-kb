@@ -3,10 +3,11 @@ name: CSF ctDNA MSK 2024
 slug: csf_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 711
-assays:
-  - IMPACT468
-  - IMPACT505
-  - ACCESS129
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: [targeted-panel]
+panels: [ACCESS129, IMPACT468, IMPACT505]
 tags:
   - liquid-biopsy
   - csf-ctdna

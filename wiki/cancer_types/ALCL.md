@@ -1,11 +1,11 @@
 ---
 name: Anaplastic Large Cell Lymphoma
 oncotree_code: ALCL
-main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
 processed_at: 2026-04-10
+main_type: Mature T and NK Neoplasms
 ---
 
 # Anaplastic Large Cell Lymphoma (ALCL)

@@ -2,10 +2,11 @@
 name: infigratinib
 targets: [FGFR1, FGFR2, FGFR3]
 drug_class: FGFR tyrosine kinase inhibitor
+canonical_source: 
+unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
 processed_by: crosslinker
 processed_at: 2026-04-08
-unverified: true
 ---
 
 # infigratinib

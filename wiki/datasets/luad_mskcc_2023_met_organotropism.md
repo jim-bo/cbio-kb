@@ -1,12 +1,21 @@
 ---
-studyId: luad_mskcc_2023_met_organotropism
-name: "Lung Adenocarcinoma Met Organotropism (MSK, Cancer Cell 2023)"
-description: "Targeted and whole-exome sequencing of 2653 lung adenocarcinoma tumor/normal sample pairs."
-cancerTypeId: luad
-pmid: "37084736"
-allSampleCount: 1
+name: Lung Adenocarcinoma Met Organotropism (MSK, Cancer Cell 2023)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
+studyId: luad_mskcc_2023_met_organotropism
+description: Targeted and whole-exome sequencing of 2653 lung adenocarcinoma tumor/normal sample pairs.
+cancerTypeId: luad
+pmid: 37084736
+allSampleCount: 1
 ---
 
 # Lung Adenocarcinoma Met Organotropism (MSK, Cancer Cell 2023)

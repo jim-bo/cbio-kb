@@ -2,6 +2,8 @@
 name: methotrexate
 targets: [DHFR]
 drug_class: antifolate chemotherapy
+canonical_source: 
+unverified: 
 tags: [chemotherapy, cns-lymphoma, standard-of-care]
 processed_by: crosslinker
 processed_at: 2026-04-09

@@ -1,14 +1,12 @@
 ---
-name: "Osteosarcoma"
+name: Osteosarcoma
 oncotree_code: OS
 parent: BONE
+tags: [radiation-associated-sarcoma, bone-tumor]
+processed_by: crosslinker
+processed_at: 2026-04-11
 canonical_source: oncotree
 unverified: false
-tags:
-  - radiation-associated-sarcoma
-  - bone-tumor
-processed_by: crosslinker
-processed_at: 2026-04-10
 ---
 
 # Osteosarcoma (OS)
@@ -34,14 +32,14 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 ## Subtypes
 
 - **Radiation-associated osteosarcoma (RT-OS):** Higher [TP53](../genes/TP53.md) alteration rate (42% vs 14%) and enrichment for [FGFR1](../genes/FGFR1.md) and [PTPRT](../genes/PTPRT.md) alterations compared to sporadic OS. Median latency from radiation: 9.0 years [PMID:37350195](../papers/37350195.md).
-- **Sporadic osteosarcoma:** Lower TP53 alteration frequency (14%) and similar [PTEN](../genes/PTEN.md) rates [PMID:37350195](../papers/37350195.md).
+- **Sporadic osteosarcoma:** Lower [TP53](../genes/TP53.md) alteration frequency (14%) and similar [PTEN](../genes/PTEN.md) rates [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
 
-- Genomic profiling supports histotype-specific treatment; RT-OS shows distinct alterations (FGFR1 amplification, PTPRT mutations) that may represent therapeutic targets [PMID:37350195](../papers/37350195.md).
+- Genomic profiling supports histotype-specific treatment; RT-OS shows distinct alterations ([FGFR1](../genes/FGFR1.md) amplification, [PTPRT](../genes/PTPRT.md) mutations) that may represent therapeutic targets [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-osteosarcomas.
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

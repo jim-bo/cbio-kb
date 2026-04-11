@@ -2,6 +2,7 @@
 name: TCR sequencing (TCR-seq)
 slug: tcr-seq
 kind: method
+canonical_source: 
 unverified: true
 tags: [immune-repertoire, t-cell, sequencing]
 processed_by: crosslinker

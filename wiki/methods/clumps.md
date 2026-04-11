@@ -2,6 +2,7 @@
 name: CLUMPS
 slug: clumps
 kind: method
+canonical_source: 
 unverified: true
 tags: [driver-discovery, structural-clustering, computational]
 processed_by: crosslinker

@@ -1,12 +1,21 @@
 ---
-studyId: msk_impact_2017
-name: "MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)"
-description: "Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay"
-cancerTypeId: mixed
-pmid: "28481359"
-allSampleCount: 1
+name: MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
+studyId: msk_impact_2017
+description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
+cancerTypeId: mixed
+pmid: 28481359
+allSampleCount: 1
 ---
 
 # MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)

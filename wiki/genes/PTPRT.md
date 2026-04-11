@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [OS]
 tags: [phosphatase, tumor-suppressor]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # PTPRT
@@ -19,7 +19,7 @@ PTPRT (protein tyrosine phosphatase receptor type T) encodes a receptor-type pho
 
 ## Cancer types (linked)
 
-- [OS](../cancer_types/OS.md) -- PTPRT missense mutations enriched in RT-OS (17%) compared to sporadic OS (7%) [PMID:37350195](../papers/37350195.md).
+- [OS](../cancer_types/OS.md) -- PTPRT missense mutations enriched in RT-OS (17%) compared to sporadic [OS](../cancer_types/OS.md) (7%) [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ PTPRT (protein tyrosine phosphatase receptor type T) encodes a receptor-type pho
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

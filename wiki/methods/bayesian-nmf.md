@@ -2,6 +2,7 @@
 name: Bayesian NMF
 slug: bayesian-nmf
 kind: method
+canonical_source: 
 unverified: true
 tags: [mutational-signatures, computational]
 processed_by: crosslinker

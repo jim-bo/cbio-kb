@@ -1,11 +1,11 @@
 ---
 name: Lung Adenocarcinoma
 oncotree_code: LUAD
-main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+main_type: Non-Small Cell Lung Cancer
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -46,12 +46,14 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 ## Subtypes
 
-- Among 179 LUAD BM patients, 56% had intracranial progression after craniotomy+RT (regional 30%, local 14%, LMD 11%); median OS 2.7 years, median iPFS 1.2 years [PMID:37591896](../papers/37591896.md).
+- Among 179 LUAD BM patients, 56% had intracranial progression after craniotomy+RT (regional 30%, local 14%, LMD 11%); median [OS](../cancer_types/OS.md) 2.7 years, median iPFS 1.2 years [PMID:37591896](../papers/37591896.md).
 - LMD patients had more [EGFR](../genes/EGFR.md) alterations (45% vs 21%, p=0.044), including uncommon drivers L861Q, G719A/S, A755G, N771_H773dup [PMID:37591896](../papers/37591896.md).
 - Multifocal regional progressors had [MYC](../genes/MYC.md) amplifications in 22% vs 0% in local progressors (p=0.023) [PMID:37591896](../papers/37591896.md).
 
 ## Therapeutic landscape
 
+- ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUAD represented in the 22-class site classifier with de-differentiation score prognostic for survival (HR 0.24, P=0.001) [PMID:27634761](../papers/27634761.md).
+- [BRAF](../genes/BRAF.md) fusions identified as acquired resistance mechanism to [EGFR](../genes/EGFR.md) TKIs in LUAD (10/15 acquired BRAF fusion patients had EGFR-mutant LUAD); median time from EGFR TKI start to acquired BRAF fusion detection: 23 months (range 9–37) [PMID:38922339](../papers/38922339.md).
 - ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05; 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
 - ctDNA-guided matching to targeted therapy improved OS among ctDNA-positive patients (HR 0.63; 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
 - Faster turnaround (11 vs 33 days) and lower failure rate (2% vs 13%) for ctDNA vs tissue sequencing support clinical use of liquid biopsy [PMID:36357680](../papers/36357680.md).
@@ -61,13 +63,17 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - CSF ctDNA had greater sensitivity than positive cytology for leptomeningeal disease detection in lung cancer patients (85.4% vs. 61.7%), supporting its use as a complementary diagnostic modality [PMID:39289779](../papers/39289779.md).
 - CSF liquid biopsy outperformed plasma for CNS cancer monitoring with significantly higher VAFs (median 36.4% vs. 2.3%) due to blood-brain barrier limiting tumor DNA shedding into peripheral blood [PMID:39289779](../papers/39289779.md).
 - Serial CSF ctDNA profiling identified clonal evolution and emergence of resistance mechanisms ([EGFR](../genes/EGFR.md) gatekeeper mutations, [ALK](../genes/ALK.md) resistance mutations, [MET](../genes/MET.md) resistance mutations), directly informing treatment changes in lung cancer patients [PMID:39289779](../papers/39289779.md).
+- ctDNA detection associated with higher venous thromboembolism (VTE) risk in LUAD patients as part of the pan-cancer VTE study (HR=2.49, 95% CI 1.99--3.11); the ctDNA-VTE association held across most cancer types including lung. [PMID:39147831](../papers/39147831.md)
 
 ## Sources
 
+- [PMID:27634761](../papers/27634761.md)
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37591896](../papers/37591896.md)
+- [PMID:38922339](../papers/38922339.md)
+- [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -3,13 +3,13 @@ from __future__ import annotations
 
 import asyncio
 import json
+import os
 import uuid
 from pathlib import Path
 
 from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
 from pydantic_ai import Agent
 from pydantic_ai.messages import (
     PartDeltaEvent,
@@ -26,22 +26,27 @@ from .sessions import get_store
 # Force tool registration
 from . import tools as _tools  # noqa: F401
 
-_HERE = Path(__file__).resolve().parent
-
 app = FastAPI(title="cbio-kb Chat")
-app.mount("/static", StaticFiles(directory=_HERE / "static"), name="static")
-templates = Jinja2Templates(directory=_HERE / "templates")
+
+# CORS — allow the Quarto-published chat page (github.io) and local dev origins.
+# Override with CHAT_CORS_ORIGINS env var (comma-separated list).
+_cors_origins = os.environ.get(
+    "CHAT_CORS_ORIGINS",
+    "http://localhost:8080,http://127.0.0.1:8080,https://jim-bo.github.io",
+).split(",")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[o.strip() for o in _cors_origins if o.strip()],
+    allow_methods=["POST", "GET", "OPTIONS"],
+    allow_headers=["*"],
+    allow_credentials=False,
+)
 
 # Session store — in-memory by default, Firestore when SESSION_STORE=firestore
 _session_store = get_store()
 
 
-@app.get("/", response_class=HTMLResponse)
-async def index(request: Request):
-    return templates.TemplateResponse(request, "index.html")
-
-
-@app.post("/chat")
+@app.post("/api/chat")
 async def chat(request: Request):
     body = await request.json()
     user_message = body["message"]
@@ -164,3 +169,12 @@ async def chat(request: Request):
         await asyncio.gather(agent_task, tool_task)
 
     return EventSourceResponse(event_generator())
+
+
+# Local dev convenience: with SERVE_STATIC=1, serve the rendered Quarto site
+# (wiki/_site) at the root. Production Cloud Run deployments leave this off
+# and serve only the API — the static site is hosted on GitHub Pages.
+if os.environ.get("SERVE_STATIC") == "1":
+    _SITE_DIR = Path(__file__).resolve().parent.parent / "wiki" / "_site"
+    if _SITE_DIR.is_dir():
+        app.mount("/", StaticFiles(directory=_SITE_DIR, html=True), name="site")

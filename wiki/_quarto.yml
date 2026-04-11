@@ -3,6 +3,9 @@ project:
   output-dir: _site
   resources:
     - "_schema/**"
+    - "ask-chat.js"
+    - "ask-chat.css"
+    - "site-styles.css"
 
 validate-yaml: false
 
@@ -29,12 +32,15 @@ website:
         text: Methods
       - href: themes/index.qmd
         text: Themes
+      - href: ask.qmd
+        text: Ask
   search:
     type: overlay
 
 format:
   html:
     theme: cosmo
+    css: site-styles.css
     toc: true
     code-copy: true
     link-external-newwindow: true

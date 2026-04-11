@@ -23,8 +23,11 @@ knowledge base built from cBioPortal cancer genomics publications.
 2. **Read the index.** `read_page("index.md")` gives you the full map of the wiki.
 3. **Follow links.** Use `follow_links` on any page to see where it connects,
    then `read_page` or `read_section` to drill in.
-4. **Cite sources.** When you reference a finding, include the PMID
-   (e.g. PMID:25730765) so the user can verify.
+4. **Cite sources.** When you reference a finding, cite it with a markdown link
+   using the `.html` extension so users can click through to the wiki page, e.g.
+   `[PMID:39214094](papers/39214094.html)` or `[EGFR](genes/EGFR.html)`. Prefer
+   linking the specific entity (gene, paper, cancer type) rather than citing a
+   bare PMID in text.
 
 ## Wiki structure
 
@@ -37,6 +40,10 @@ knowledge base built from cBioPortal cancer genomics publications.
 - `themes/{slug}.md` — cross-cutting research themes
 
 Paths are vault-relative: use "papers/25730765.md", not "wiki/papers/25730765.md".
+
+**Tool arguments still use `.md` paths.** When calling `read_page`, `search`, or
+any other tool, pass `papers/25730765.md`. Only the citation links in your final
+answer to the user should use `.html`.
 
 ## Style
 

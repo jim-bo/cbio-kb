@@ -1,0 +1,32 @@
+---
+title: "Ask"
+page-layout: full
+css: ask-chat.css
+include-in-header:
+  - text: |
+      <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+include-after-body:
+  - text: |
+      <script src="ask-chat.js"></script>
+---
+
+```{=html}
+<div class="chat-container">
+    <div class="chat-panel">
+        <div id="messages" class="messages"></div>
+        <form id="chat-form">
+            <input type="text" id="user-input"
+                   placeholder="Ask about genes, papers, cancer types..."
+                   autocomplete="off" autofocus>
+            <button type="submit" id="send-btn">Send</button>
+        </form>
+    </div>
+
+    <div class="glass-panel">
+        <h3>Context <span class="context-total" id="context-total"></span></h3>
+        <div id="context-feed" class="context-feed">
+            <p class="empty-state">As you ask a question, the context the model sees will build up here block-by-block.</p>
+        </div>
+    </div>
+</div>
+```

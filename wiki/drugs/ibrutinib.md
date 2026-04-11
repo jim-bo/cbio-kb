@@ -2,6 +2,7 @@
 name: ibrutinib
 targets: [BTK]
 drug_class: BTK inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy, cll]
 processed_by: crosslinker

@@ -7,7 +7,7 @@ tags:
   - upper-tract
   - fgfr3
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # Upper Tract Urothelial Carcinoma (UTUC)
@@ -28,7 +28,7 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 
 ## Subtypes
 
-- Localized UTUC shows the highest FGFR3 oncogenic alteration rate (43%) of any urothelial state examined, and a distinct R248C-enriched mutational profile ([PMID:37682528](../papers/37682528.md)).
+- Localized UTUC shows the highest [FGFR3](../genes/FGFR3.md) oncogenic alteration rate (43%) of any urothelial state examined, and a distinct R248C-enriched mutational profile ([PMID:37682528](../papers/37682528.md)).
 
 ## Therapeutic landscape
 
@@ -39,4 +39,4 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

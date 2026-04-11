@@ -8,6 +8,7 @@ listing:
     studyId: "Study ID"
     name: "Name"
     cancerTypeId: "Cancer type"
+  field-links: [studyId]
   sort: "studyId asc"
   filter-ui: true
   sort-ui: true

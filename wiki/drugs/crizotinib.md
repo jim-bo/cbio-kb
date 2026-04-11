@@ -2,10 +2,11 @@
 name: crizotinib
 targets: [ALK, ROS1, MET]
 drug_class: ALK/ROS1/MET tyrosine kinase inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, cns-resistance]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # crizotinib
@@ -21,8 +22,8 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 ## Resistance mechanisms
 
-- [MET](../genes/MET.md) p.Y1230N resistance mutation detected in CSF ctDNA during crizotinib treatment of a MET exon 14 skipping-positive lung cancer patient [PMID:39289779](../papers/39289779.md).
-- [ALK](../genes/ALK.md) p.G1202R and p.G1269A resistance mutations were detected in CSF ctDNA from ALK-rearranged lung cancer patients on targeted therapy (including [ALK](../genes/ALK.md) inhibitors); these mutations confer resistance to first-generation ALK inhibitors such as crizotinib [PMID:39289779](../papers/39289779.md).
+- [MET](../genes/MET.md) p.Y1230N resistance mutation detected in CSF ctDNA during crizotinib treatment of a [MET](../genes/MET.md) exon 14 skipping-positive lung cancer patient [PMID:39289779](../papers/39289779.md).
+- [ALK](../genes/ALK.md) p.G1202R and p.G1269A resistance mutations were detected in CSF ctDNA from ALK-rearranged lung cancer patients on targeted therapy (including [ALK](../genes/ALK.md) inhibitors); these mutations confer resistance to first-generation [ALK](../genes/ALK.md) inhibitors such as crizotinib [PMID:39289779](../papers/39289779.md).
 
 ## Cancer types (linked)
 
@@ -33,4 +34,4 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

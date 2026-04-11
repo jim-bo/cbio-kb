@@ -1,10 +1,10 @@
 ---
 symbol: FGFR3
 aliases: []
-cancer_types: [BLCA, UTUC]
+cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # FGFR3
@@ -20,11 +20,15 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3-[TACC3](../genes/TACC3.md) fusions observed; FGFR3-fusion tumors had lower TMB than FGFR3-mutant tumors (median 5 vs 9 mut/Mb, p=0.0006) [PMID:37682528](../papers/37682528.md).
 - Primary/metastatic FGFR3 discordance in 7/27 (26%) paired cases: 4 metastasis-only, 2 primary-only, 1 with different FGFR3 alterations in each site [PMID:37682528](../papers/37682528.md).
 - Acquired FGFR3 kinase-domain mutations identified in serial cfDNA on [erdafitinib](../drugs/erdafitinib.md) at conserved residues (N540S, V553M, K650M, R669G); in silico modeling supports V553M as a gatekeeper allele allosterically blocking [erdafitinib](../drugs/erdafitinib.md) binding [PMID:37682528](../papers/37682528.md).
+- Subclonal FGFR3-TACC3 fusion identified at single-cell level and by serial ctDNA in a patient with HER2+ esophagogastric cancer; the fusion expanded on-treatment and was implicated as an acquired resistance driver to [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy [PMID:37406106](../papers/37406106.md).
+- FGFR3 driver fusions were detected in patients who subsequently acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism to FGFR3-targeted therapy [PMID:38922339](../papers/38922339.md).
 
 ## Cancer types (linked)
 
 - [BLCA](../cancer_types/BLCA.md) — 39% NMIBC, 14% MIBC, 26% metastatic [PMID:37682528](../papers/37682528.md).
 - [UTUC](../cancer_types/UTUC.md) — 43% localized; R248C enriched vs bladder [PMID:37682528](../papers/37682528.md).
+- [EGC](../cancer_types/EGC.md) — FGFR3-TACC3 fusion as acquired resistance driver [PMID:37406106](../papers/37406106.md).
+- Multiple histologies — FGFR3 fusions as oncogenic drivers that can subsequently acquire BRAF fusions as resistance [PMID:38922339](../papers/38922339.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -42,10 +46,12 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 ## Open questions
 
 - Functional validation of V553M and N540S as bona fide gatekeeper mutations remains to be established [PMID:37682528](../papers/37682528.md).
-- Whether FGFR3-isoform-specific inhibitors (TYRA300, LOXO435) will overcome erdafitinib tolerability limits and resistance is unresolved [PMID:37682528](../papers/37682528.md).
+- Whether FGFR3-isoform-specific inhibitors (TYRA300, LOXO435) will overcome [erdafitinib](../drugs/erdafitinib.md) tolerability limits and resistance is unresolved [PMID:37682528](../papers/37682528.md).
 
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md)
+- [PMID:37406106](../papers/37406106.md)
+- [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

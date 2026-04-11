@@ -3,8 +3,8 @@ name: Invasive Breast Carcinoma
 oncotree_code: BRCA
 parent: BREAST
 tags: [breast]
-processed_by: crosslinker
-processed_at: 2026-04-09
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -29,13 +29,17 @@ OncoTree code for invasive breast carcinoma.
 
 ## Therapeutic landscape
 
+- ATLAS RNA-expression classifier achieved 97.1% lineage accuracy and 91.4% site-of-origin accuracy; breast was included in the 22-class site classifier and shows prognostic value of de-differentiation score (HR 0.41, P=0.002) [PMID:27634761](../papers/27634761.md).
+- ctDNA detection was independently associated with VTE risk in breast cancer patients (13% of discovery cohort); anticoagulation was associated with lower VTE rates in ctDNA-positive patients (adjusted HR=0.50) [PMID:39147831](../papers/39147831.md).
 - NLP-augmented machine learning models incorporating sites of disease improved overall-survival prediction over stage- or genomics-only models in breast cancer [PMID:39506116](../papers/39506116.md).
 - APOBEC mutational signatures identified in CSF ctDNA from breast cancer samples, aiding in determining the primary tumor site [PMID:39289779](../papers/39289779.md).
 - CSF ctDNA positivity was associated with a three-fold increased risk of death across all tumor types (HR 3.23, 95% CI 2.58-4.05, p < 0.001) [PMID:39289779](../papers/39289779.md).
 
 ## Sources
 
+- [PMID:27634761](../papers/27634761.md)
 - [PMID:39289779](../papers/39289779.md)
+- [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

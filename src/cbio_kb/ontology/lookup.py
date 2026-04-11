@@ -26,8 +26,9 @@ def load_canonical(ontology_dir: Path) -> dict[str, set[str]]:
         "gene_panels": set(),
         "molecular_profiles": set(),
         "clinical_attributes": set(),
+        "assays": set(),
     }
-    
+
     for fname, key, dest in ON_DISK_SOURCES:
         path = ontology_dir / fname
         if not path.exists():
@@ -55,7 +56,19 @@ def load_canonical(ontology_dir: Path) -> dict[str, set[str]]:
                         canonical[dest].add(v)
         except (json.JSONDecodeError, Exception):
             continue
-            
+
+    # Load assay ontology (two-level: category → types)
+    assays_path = ontology_dir / "assays.json"
+    if assays_path.exists():
+        try:
+            data = json.loads(assays_path.read_text())
+            for category in data:
+                canonical["assays"].add(category["category"])
+                for t in category.get("types", []):
+                    canonical["assays"].add(t)
+        except (json.JSONDecodeError, Exception):
+            pass
+
     return canonical
 
 def search(ontology_dir: Path, query: str) -> dict:

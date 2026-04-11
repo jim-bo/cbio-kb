@@ -1,11 +1,11 @@
 ---
 name: Rhabdomyosarcoma
 oncotree_code: RMS
-main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+main_type: Soft Tissue Sarcoma
 ---
 
 # Rhabdomyosarcoma (RMS)
@@ -17,6 +17,7 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 ## Cohorts in the corpus
 
 - [rms_msk_2023](../datasets/rms_msk_2023.md): 61 patients with extremity RMS treated at MSKCC January 2000–December 2021; median age 8; ~two-thirds lower extremity. MSK-IMPACT targeted DNA sequencing (410–505 genes) in 40% of patients [PMID:37315267](../papers/37315267.md).
+- 35 paired primary/relapse RMS samples (18 FP-RMS / [ARMS](../cancer_types/ARMS.md), 17 FN-RMS / [ERMS](../cancer_types/ERMS.md)) from MSKCC (n=20) and Institut Curie (n=15); 5-year [OS](../cancer_types/OS.md) 33%; 10 patients with longitudinal ctDNA analysis from 62 plasma samples [PMID:37730754](../papers/37730754.md).
 
 ## Recurrent alterations
 
@@ -36,9 +37,11 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - Metastatic disease (HR 2.68, P=.004), high-risk group (HR 2.78, P=.010), and age ≥10 years (HR 2.26, P=.034) significantly affected OS [PMID:37315267](../papers/37315267.md).
 - 5-year EFS/OS: metastatic 19%/29%; nodal involvement without distant mets 43%/66% [PMID:37315267](../papers/37315267.md).
 - CDK4/6-directed strategies for CDK4-amplified or CDKN2A-deleted extremity RMS are untested [PMID:37315267](../papers/37315267.md).
+- Liquid biopsy (36-gene custom panel + shallow WGS) detects alterations in 88% of patients at diagnosis and 90% at relapse; ctDNA monitoring of FP-RMS is implemented in the prospective FaR-RMS trial (NCT04625907) [PMID:37730754](../papers/37730754.md).
 
 ## Sources
 
 - [PMID:37315267](../papers/37315267.md)
+- [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -2,6 +2,8 @@
 name: tirabrutinib
 targets: [BTK]
 drug_class: BTK inhibitor (second-generation, covalent)
+canonical_source: 
+unverified: 
 tags: [btk-inhibitor, cns-lymphoma]
 processed_by: crosslinker
 processed_at: 2026-04-09

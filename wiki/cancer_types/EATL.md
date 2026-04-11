@@ -1,11 +1,11 @@
 ---
 name: Enteropathy-Associated T-Cell Lymphoma
 oncotree_code: EATL
-main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell, intestinal]
 processed_by: crosslinker
 processed_at: 2026-04-10
+main_type: Mature T and NK Neoplasms
 ---
 
 # Enteropathy-Associated T-Cell Lymphoma (EATL)

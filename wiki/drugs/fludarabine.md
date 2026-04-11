@@ -2,6 +2,7 @@
 name: fludarabine
 targets: [RRM1]
 drug_class: purine analog
+canonical_source: 
 unverified: true
 tags: [chemotherapy, cll]
 processed_by: crosslinker

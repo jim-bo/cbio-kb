@@ -1,12 +1,21 @@
 ---
-studyId: appendiceal_msk_2022
-name: "Appendiceal Cancer (MSK, J Clin Oncol 2022)"
-description: "Targeted sequencing of 273 appendiceal tumor/normal pairs via MSK-IMPACT platform."
-cancerTypeId: apad
-pmid: "36493333"
-allSampleCount: 1
+name: Appendiceal Cancer (MSK, J Clin Oncol 2022)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-10
+studyId: appendiceal_msk_2022
+description: Targeted sequencing of 273 appendiceal tumor/normal pairs via MSK-IMPACT platform.
+cancerTypeId: apad
+pmid: 36493333
+allSampleCount: 1
 ---
 
 # Appendiceal Cancer (MSK, J Clin Oncol 2022)

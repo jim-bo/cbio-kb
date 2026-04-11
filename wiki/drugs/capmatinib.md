@@ -2,17 +2,18 @@
 name: capmatinib
 targets: [MET]
 drug_class: selective MET inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, cns-monitoring]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # capmatinib
 
 ## Overview
 
-Capmatinib is a selective, potent [MET](../genes/MET.md) inhibitor FDA-approved for [MET](../genes/MET.md) exon 14 skipping mutation-positive non-small cell lung cancer. It retains activity against several MET resistance mutations that arise on first-generation inhibitors.
+Capmatinib is a selective, potent [MET](../genes/MET.md) inhibitor FDA-approved for [MET](../genes/MET.md) exon 14 skipping mutation-positive non-small cell lung cancer. It retains activity against several [MET](../genes/MET.md) resistance mutations that arise on first-generation inhibitors.
 
 ## Evidence in the corpus
 
@@ -32,4 +33,4 @@ Capmatinib is a selective, potent [MET](../genes/MET.md) inhibitor FDA-approved 
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

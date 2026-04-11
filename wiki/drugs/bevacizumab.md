@@ -2,10 +2,11 @@
 name: bevacizumab
 targets: [VEGFA]
 drug_class: anti-VEGF monoclonal antibody
+canonical_source: 
 unverified: true
 tags: [antiangiogenic]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # bevacizumab
@@ -17,6 +18,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 ## Evidence in the corpus
 
 - Referenced as a component of ARST0431-era regimens in extremity rhabdomyosarcoma treated at MSKCC 2000–2021 [PMID:37315267](../papers/37315267.md).
+- Referenced as a prior systemic therapy agent in the cervical cancer MSK cohort (N=177); clinical outcomes were primarily analyzed for immune and HER2-targeted combinations [PMID:37643132](../papers/37643132.md).
 
 ## Resistance mechanisms
 
@@ -29,5 +31,6 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 ## Sources
 
 - [PMID:37315267](../papers/37315267.md)
+- [PMID:37643132](../papers/37643132.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

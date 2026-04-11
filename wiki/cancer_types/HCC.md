@@ -3,8 +3,8 @@ name: Hepatocellular Carcinoma
 oncotree_code: HCC
 parent: LIVER
 tags: [liver, hepatobiliary]
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # Hepatocellular Carcinoma (HCC)
@@ -20,6 +20,9 @@ Primary liver cancer of hepatocellular origin.
 ## Recurrent alterations
 
 - HCC reference class characterized by [TERT](../genes/TERT.md) alterations; "HCC-class" [IHCH](IHCH.md) (IHC tumors with >90% HCC homology, 5.7%) likewise exhibit [TERT](../genes/TERT.md) alterations [PMID:38864854](../papers/38864854.md).
+- cfDNA profiling via [MSK-ACCESS](../methods/ACCESS129.md) (129-gene panel) detects alterations in 92.2% of advanced HCC patients (N=51); most frequently mutated genes: [TERT](../genes/TERT.md) promoter 57%, [TP53](../genes/TP53.md) 47%, [CTNNB1](../genes/CTNNB1.md) 37%, [ARID1A](../genes/ARID1A.md) 18%, [TSC2](../genes/TSC2.md) 14% [PMID:37769223](../papers/37769223.md).
+- Plasma-tissue concordance 92.5% in matched samples; 27% of paired samples harbored cfDNA-exclusive alterations, of which 40% were OncoKB actionable [PMID:37769223](../papers/37769223.md).
+- WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) alterations in 18% [PMID:37769223](../papers/37769223.md).
 
 ## Subtypes
 
@@ -29,6 +32,7 @@ Primary liver cancer of hepatocellular origin.
 
 ## Sources
 
+- [PMID:37769223](../papers/37769223.md)
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

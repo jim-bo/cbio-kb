@@ -2,6 +2,7 @@
 name: venetoclax
 targets: [BCL2]
 drug_class: BCL2 inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy, cll]
 processed_by: crosslinker

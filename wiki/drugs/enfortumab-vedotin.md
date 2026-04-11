@@ -2,10 +2,11 @@
 name: enfortumab-vedotin
 targets: [NECTIN4]
 drug_class: Nectin-4-directed antibody-drug conjugate (MMAE payload)
+canonical_source: 
+unverified: true
 tags: [adc, targeted-therapy]
 processed_by: crosslinker
 processed_at: 2026-04-08
-unverified: true
 ---
 
 # enfortumab-vedotin

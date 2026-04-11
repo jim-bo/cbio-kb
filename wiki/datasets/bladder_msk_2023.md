@@ -3,14 +3,12 @@ name: Urothelial Carcinoma (MSK, Clin Cancer Res 2023)
 slug: bladder_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 1421 patients / 1507 tumors
-assays:
-  - msk-impact-panel
-  - ACCESS129
-tags:
-  - urothelial-carcinoma
-  - fgfr3
-  - cfdna
-  - real-world-evidence
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: [targeted-panel]
+panels: [ACCESS129]
+tags: [urothelial-carcinoma, fgfr3, cfdna, real-world-evidence]
 processed_by: crosslinker
 processed_at: 2026-04-10
 ---

@@ -2,6 +2,7 @@
 name: Immunoediting quantification
 slug: immunoediting-quantification
 kind: method
+canonical_source: 
 unverified: true
 tags: [neoantigen, immune, computational]
 processed_by: crosslinker

@@ -1,11 +1,11 @@
 ---
 name: Erdheim-Chester Disease
 oncotree_code: ECD
-main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-11
+main_type: Histiocytosis
 ---
 
 # Erdheim-Chester Disease (ECD)
@@ -31,10 +31,12 @@ Erdheim-Chester Disease is a Histiocytosis (parent HDCN).
 
 - 47/84 (56%) histiocytosis patients had a potentially actionable alteration; 18 received matched targeted therapy; 17/18 (94%) had clinical benefit with mean treatment duration 21.7 months [PMID:36862133](../papers/36862133.md).
 - MAPK-pathway matched therapy ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md), [trametinib](../drugs/trametinib.md), [cobimetinib](../drugs/cobimetinib.md), ERK inhibitors on trial) produced high rates of clinical benefit [PMID:36862133](../papers/36862133.md).
+- ECD tumors represented in the 97,024-sample pan-cancer [BRAF](../genes/BRAF.md) fusion cohort at MSK; BRAF fusions spanning 52 histologies included rare histiocytic malignancies [PMID:38922339](../papers/38922339.md).
 - One PIK3CA-mutant histiocytosis patient had a durable response to [alpelisib](../drugs/alpelisib.md) [PMID:36862133](../papers/36862133.md).
 
 ## Sources
 
 - [PMID:36862133](../papers/36862133.md)
+- [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

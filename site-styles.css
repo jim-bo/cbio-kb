@@ -1,0 +1,29 @@
+/* Site-wide tweaks on top of the Cosmo theme.
+   Loaded on every page via format.html.css in _quarto.yml. */
+
+/* Highlight the "Ask" chat link in the navbar so it draws the eye. */
+.navbar .nav-link[href$="ask.html"],
+.navbar .nav-link[href="./ask.html"],
+.navbar .nav-link[href="ask.html"] {
+    background: var(--bs-primary);
+    color: #fff;
+    border-radius: 999px;
+    padding: 4px 14px;
+    margin-left: 6px;
+    font-weight: 600;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.navbar .nav-link[href$="ask.html"]::before,
+.navbar .nav-link[href="./ask.html"]::before,
+.navbar .nav-link[href="ask.html"]::before {
+    content: "💬 ";
+}
+
+.navbar .nav-link[href$="ask.html"]:hover,
+.navbar .nav-link[href="./ask.html"]:hover,
+.navbar .nav-link[href="ask.html"]:hover {
+    background: #fff;
+    color: var(--bs-primary);
+    outline: 2px solid var(--bs-primary);
+}

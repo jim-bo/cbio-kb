@@ -78,7 +78,7 @@ def _rebuild_frontmatter(
         val = existing.get(key, "" if key not in ("tags", "aliases", "cancer_types",
                                                     "genes", "datasets", "drugs",
                                                     "methods", "authors", "targets",
-                                                    "assays") else [])
+                                                    "assays", "panels") else [])
         if isinstance(val, list) and not val:
             # Check if the template default is a list
             val = existing.get(key, [])

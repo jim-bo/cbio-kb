@@ -2,6 +2,7 @@
 name: cyclophosphamide
 targets: []
 drug_class: alkylating agent
+canonical_source: 
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker

@@ -2,6 +2,7 @@
 name: leucovorin
 targets: []
 drug_class: folinic acid / chemo modulator
+canonical_source: 
 unverified: true
 tags: [chemotherapy-modulator]
 processed_by: crosslinker

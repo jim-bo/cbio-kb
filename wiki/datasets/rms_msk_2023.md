@@ -1,12 +1,21 @@
 ---
-studyId: rms_msk_2023
-name: "Pediatric Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)"
-description: "Targeted sequencing of 24 cases with extremity rhabdomyosarcoma tumors and their matched normals (MSK Cohort) via MSK-IMPACT."
-cancerTypeId: rms
-pmid: "37315267"
-allSampleCount: 1
+name: Pediatric Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+studyId: rms_msk_2023
+description: Targeted sequencing of 24 cases with extremity rhabdomyosarcoma tumors and their matched normals (MSK Cohort) via MSK-IMPACT.
+cancerTypeId: rms
+pmid: 37315267
+allSampleCount: 1
 ---
 
 # Pediatric Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)
@@ -31,10 +40,10 @@ Single-center retrospective MSK cohort of patients with extremity rhabdomyosarco
 
 - Metastatic disease, high-risk group, and age ≥10 years significantly affected [OS](../cancer_types/OS.md) (HR 2.68, P=.004; HR 2.78, P=.010; HR 2.26, P=.034) [PMID:37315267](../papers/37315267.md).
 - [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) had worse prognosis and afflicted older children than [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) (HR 3.45, P=.016) [PMID:37315267](../papers/37315267.md).
-- Most common [ARMS](../cancer_types/ARMS.md) genomic events were [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, and [CDKN2A](../genes/CDKN2A.md) deletions (each 8%–17%); [CDK4](../genes/CDK4.md) amplifications and [CDKN2A](../genes/CDKN2A.md) deletions were mutually exclusive, enriched in acral and high-risk lesions, and correlated with poor OS (P=.02) [PMID:37315267](../papers/37315267.md).
+- Most common [ARMS](../cancer_types/ARMS.md) genomic events were [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, and [CDKN2A](../genes/CDKN2A.md) deletions (each 8%–17%); [CDK4](../genes/CDK4.md) amplifications and [CDKN2A](../genes/CDKN2A.md) deletions were mutually exclusive, enriched in acral and high-risk lesions, and correlated with poor [OS](../cancer_types/OS.md) (P=.02) [PMID:37315267](../papers/37315267.md).
 
 ## Sources
 
 - cBioPortal study `rms_msk_2023` [PMID:37315267](../papers/37315267.md).
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

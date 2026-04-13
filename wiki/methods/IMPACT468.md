@@ -1,11 +1,13 @@
 ---
 name: MSK-IMPACT 468 (IMPACT468)
 slug: IMPACT468
-kind: method
-genePanelId: IMPACT468
+kind: gene-panel
+canonical_source: msk
+unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: crosslinker
 processed_at: 2026-04-09
+genePanelId: IMPACT468
 ---
 
 # MSK-IMPACT 468 (IMPACT468)

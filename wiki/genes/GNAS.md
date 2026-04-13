@@ -1,10 +1,10 @@
 ---
 symbol: GNAS
 aliases: []
-cancer_types: [APAD]
+cancer_types: [APAD, PTAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # GNAS
@@ -18,10 +18,12 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - Defines the GNAS-mut predominant molecular subtype of mucinous appendiceal adenocarcinoma (MAAP) in the MSK cohort [PMID:36493333](../papers/36493333.md).
 - GNAS-mut predominant tumors are chemotherapy-resistant: 6% first-line response rate vs 50% in RAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
 - GNAS-mut predominant patients had worse [OS](../cancer_types/OS.md) than RAS-mut predominant patients (P=.05), intermediate between RAS-mut and TP53-mut subtypes [PMID:36493333](../papers/36493333.md).
+- GNAS R201 hotspot mutation found in 1 of 23 treatment-refractory somatotroph pituitary neuroendocrine tumors (PitNETs); absent in benign somatotrophs in the same cohort [PMID:38758238](../papers/38758238.md).
 
 ## Cancer types (linked)
 
 - [APAD](../cancer_types/APAD.md) — GNAS mutation status is one of three axes (GNAS/RAS/TP53) defining clinically distinct MAAP molecular lineages [PMID:36493333](../papers/36493333.md).
+- [PTAD](../cancer_types/PTAD.md) (pituitary adenoma / PitNET) — GNAS R201 hotspot in 1 treatment-refractory somatotroph PitNET [PMID:38758238](../papers/38758238.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,5 +40,6 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 ## Sources
 
 - [PMID:36493333](../papers/36493333.md)
+- [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

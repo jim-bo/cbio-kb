@@ -7,6 +7,7 @@ reference_genome:
 canonical_source:
 unverified:
 assays: []
+panels: []
 tags: []
 processed_by:
 processed_at:

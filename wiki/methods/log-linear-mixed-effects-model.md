@@ -2,6 +2,7 @@
 name: Log-linear mixed-effects model
 slug: log-linear-mixed-effects-model
 kind: method
+canonical_source: 
 unverified: true
 tags: [statistics, longitudinal, mixed-effects, growth-kinetics]
 processed_by: entity-page-writer

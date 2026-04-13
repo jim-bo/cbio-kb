@@ -1,11 +1,13 @@
 ---
 name: MSK-IMPACT 341 (IMPACT341)
 slug: IMPACT341
-kind: method
-genePanelId: IMPACT341
+kind: gene-panel
+canonical_source: msk
+unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: crosslinker
 processed_at: 2026-04-08
+genePanelId: IMPACT341
 ---
 
 # MSK-IMPACT 341 (IMPACT341)

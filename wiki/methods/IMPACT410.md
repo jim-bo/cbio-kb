@@ -1,11 +1,13 @@
 ---
 name: MSK-IMPACT 410 (IMPACT410)
 slug: IMPACT410
-kind: method
-genePanelId: IMPACT410
+kind: gene-panel
+canonical_source: msk
+unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: crosslinker
 processed_at: 2026-04-10
+genePanelId: IMPACT410
 ---
 
 # MSK-IMPACT 410 (IMPACT410)

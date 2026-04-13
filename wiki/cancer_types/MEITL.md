@@ -1,11 +1,11 @@
 ---
 name: Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma
 oncotree_code: MEITL
-main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell, intestinal]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+main_type: Mature T and NK Neoplasms
 ---
 
 # Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma (MEITL)
@@ -21,7 +21,7 @@ MEITL is a Mature T and NK Neoplasm (parent MTNN).
 ## Recurrent alterations
 
 - [CDKN2A](../genes/CDKN2A.md) aberrancies in 3/4 (75%) of MEITL cases, a notable enrichment compared with the broader cohort [PMID:37078708](../papers/37078708.md).
-- [CDKN2A](../genes/CDKN2A.md) deletions (n=9 across entire cohort) correlated with markedly inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001; median OS 17.6 vs 56.7 months) [PMID:37078708](../papers/37078708.md).
+- [CDKN2A](../genes/CDKN2A.md) deletions (n=9 across entire cohort) correlated with markedly inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001; median [OS](../cancer_types/OS.md) 17.6 vs 56.7 months) [PMID:37078708](../papers/37078708.md).
 
 ## Subtypes
 
@@ -35,4 +35,4 @@ MEITL is a Mature T and NK Neoplasm (parent MTNN).
 
 - [PMID:37078708](../papers/37078708.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -9,6 +9,7 @@ listing:
     oncotree_code: "OncoTree code"
     main_type: "Main type"
     parent: "Parent"
+  field-links: [name]
   sort: "name asc"
   filter-ui: true
   sort-ui: true

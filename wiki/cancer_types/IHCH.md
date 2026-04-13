@@ -4,7 +4,7 @@ oncotree_code: IHCH
 parent: CHOL
 tags: [biliary, hepatobiliary]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # Intrahepatic Cholangiocarcinoma (IHCH)
@@ -29,11 +29,11 @@ Intrahepatic cholangiocarcinoma, a primary liver cancer arising from intrahepati
 
 ## Therapeutic landscape
 
-- Median OS, unresectable: biliary- vs non-biliary-class 1.0 vs 1.8 years; resectable: 2.4 vs 5.1 years [PMID:38864854](../papers/38864854.md).
+- Median [OS](../cancer_types/OS.md), unresectable: biliary- vs non-biliary-class 1.0 vs 1.8 years; resectable: 2.4 vs 5.1 years [PMID:38864854](../papers/38864854.md).
 - Authors propose the classifier to stratify patients in future IHC trials independent of FGFR2/IDH1-directed therapy [PMID:38864854](../papers/38864854.md).
 
 ## Sources
 
 - [PMID:38864854](../papers/38864854.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -6,8 +6,8 @@ size: 82
 reference_genome: GRCh37
 canonical_source: cbioportal
 unverified: false
-assays:
-  - msk-impact-panel
+assays: [targeted-panel]
+panels: []
 tags:
   - radiation-associated-sarcoma
   - comparative-genomics

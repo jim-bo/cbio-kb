@@ -2,6 +2,7 @@
 name: Immunologic Constant of Rejection (ICR) signature
 slug: icr-signature
 kind: method
+canonical_source: 
 unverified: true
 tags: [immune-signature, prognostic, expression]
 processed_by: crosslinker

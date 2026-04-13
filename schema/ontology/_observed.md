@@ -83,3 +83,41 @@
 - drug: gemcitabine — observed in PMID:39214094 — note: gemcitabine/nab-paclitaxel (GnP) alternative first-line chemo regimen in COMPASS trial for advanced PDAC
 - drug: nab-paclitaxel — observed in PMID:39214094 — note: gemcitabine/nab-paclitaxel (GnP) alternative first-line chemo regimen in COMPASS trial for advanced PDAC
 - method: rna-seq — observed in PMID:39214094 — note: bulk RNA-seq on 100 resected PDAC tumors from COMPASS trial cohort for allele-specific transcriptomic analysis
+- drug: vorinostat — observed in PMID:34433969 — note: HDAC inhibitor; selectively decreased viability of MG4 proliferative meningioma cell lines in vitro and in xenograft models
+- method: epic-methylation-array — observed in PMID:34433969 — note: Illumina Infinium MethylationEPIC BeadChip for genome-wide DNA methylation profiling of 121 meningiomas
+- method: coca — observed in PMID:34433969 — note: Cluster of Cluster Algorithm for multi-platform integrative unsupervised clustering
+- method: snrna-seq — observed in PMID:34433969 — note: droplet-based single nuclear RNA sequencing on 8 meningiomas + 2 healthy meninges (54,393 nuclei)
+- method: lc-ms-ms-proteomics — observed in PMID:34433969 — note: single-shot LC-MS/MS whole-cell proteomics quantifying 6,568 proteins in 96 meningioma tumors
+- drug: neratinib — observed in PMID:37643132 — note: pan-HER tyrosine kinase inhibitor; 25% ORR in HER2-mutant cervical cancer
+- drug: trastuzumab-deruxtecan — observed in PMID:37643132 — note: anti-HER2 antibody-drug conjugate under investigation in HER2-overexpressed cervical cancer (NCT04482309)
+- drug: dostarlimab — observed in PMID:37651310 — note: anti-PD1 ICI approved for dMMR/MSI-H recurrent EC
+- drug: lenvatinib — observed in PMID:37651310 — note: multi-kinase inhibitor approved with pembrolizumab for MSS EC
+- drug: trastuzumab-deruxtecan — observed in PMID:37651310 — note: anti-HER2 ADC showing activity in ERBB2-amplified EC/carcinosarcoma
+- method: facets — observed in PMID:37651310 — note: FACETS for allele-specific CNA and WGD in EC cohort
+- method: oncokb — observed in PMID:37651310 — note: OncoKB for clinically actionable alteration annotation in EC
+- method: msk-impact-panel — observed in PMID:37651310 — note: MSK-IMPACT 341-505 gene panel on 1,882 EC tumor-normal pairs
+- method: xgboost — observed in PMID:27634761 — note: XGBoost gradient-boosted decision tree ML framework used for ATLAS cancer site-of-origin and lineage classifiers
+- method: scrna-seq — observed in PMID:37406106 — note: single-cell RNA sequencing on paired pre/on-treatment EGC biopsies to identify resistance programs
+- method: 89zr-trastuzumab-pet — observed in PMID:37406106 — note: 89Zr-labeled trastuzumab PET/CT for noninvasive HER2 expression heterogeneity imaging
+- method: ctdna-dynamics — observed in PMID:37406106 — note: serial ctDNA monitoring of tumor-matched mutations and ERBB2 amplification as early response biomarker
+- drug: nivolumab — observed in PMID:37406106 — note: anti-PD1 antibody used in combination with trastuzumab and chemotherapy in standard practice EGC cohort
+- drug: everolimus — observed in PMID:37769223 — note: mTOR inhibitor; two patients received everolimus for TSC2/mTOR-AKT pathway alterations in advanced HCC
+- method: oncocast-mpm — observed in PMID:38488807 — note: OncoCast-MPM machine-learning elastic-net Cox risk-prediction tool for genomic risk stratification in sarcoma
+- method: lymphgen — observed in PMID:38497151 — note: LymphGen probabilistic classification algorithm assigning DLBCL to 6 molecular subtypes (MCD, BN2, EZB, ST2, A53, N1)
+- drug: nivolumab — observed in PMID:38653864 — note: anti-PD1 antibody; single-agent phase 2 in dMMR gynecologic cancers
+- method: multiplexed-immunofluorescence — observed in PMID:38653864 — note: Vectra 7-color multiplexed IF for TME biomarker analysis (CD8, PD-1, TOX, PD-L1, PAX8, FoxP3, DAPI)
+- method: msk-fusion — observed in PMID:38922339 — note: MSK-Fusion RNA anchored multiplex PCR panel for partner-agnostic fusion detection
+- method: msk-access — observed in PMID:38922339 — note: MSK-ACCESS ctDNA targeted NGS panel for liquid biopsy
+- drug: selumetinib — observed in PMID:38922339 — note: MEK inhibitor; durable responses in pilocytic astrocytoma with BRAF fusions
+- drug: binimetinib — observed in PMID:38922339 — note: MEK inhibitor used with encorafenib in BRAF fusion-positive cancers
+- drug: encorafenib — observed in PMID:38922339 — note: BRAF inhibitor used with binimetinib in BRAF fusion-positive cancers
+- drug: afatinib — observed in PMID:38922339 — note: 2nd-gen EGFR TKI; prior therapy in patients who acquired BRAF fusions at resistance
+- method: random-survival-forest — observed in PMID:39147831 — note: random survival forest ML model for VTE risk prediction from liquid biopsy variables
+- method: cycif — observed in PMID:39386723 — note: cyclic immunofluorescence multiplexed imaging (31-antibody panel) on 44 HGSOC precursor specimens
+- method: geomx-wta — observed in PMID:39386723 — note: NanoString GeoMx whole transcriptome spatial transcriptomics on 35 HGSOC precursor specimens with >600 ROIs
+- drug: monalizumab — observed in PMID:39386723 — note: humanized anti-NKG2A antibody proposed as early interception strategy for HLA-E+ HGSOC precursors
+- cancer_type: PITNET — observed in PMID:38758238 — note: pituitary neuroendocrine tumor (WHO 2022 terminology); closest OncoTree codes are PTAD (Pituitary Adenoma) and APTAD (Atypical Pituitary Adenoma)
+- method: spatial-transcriptomics — observed in PMID:39091884 — note: 10X Visium spatial transcriptomics on cSCC-AK cases; revealed checkpoint expression at invasive front
+- method: spatial-transcriptomics — observed in PMID:39386723 — note: NanoString GeoMx WTA on HGSOC precursors; see also geomx-wta
+- method: single-cell-genotyping — observed in PMID:39091884 — note: clonal expansion + WES for single-cell somatic mutation profiling in normal skin
+- method: single-cell-genotyping — observed in PMID:38895302 — note: single-cell clonal expansion + WES/RNA-seq (G&T-seq) on melanocytes from tanning bed users

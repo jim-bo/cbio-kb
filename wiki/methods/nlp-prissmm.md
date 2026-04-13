@@ -2,8 +2,15 @@
 name: NLP annotation with PRISSMM curation
 slug: nlp-prissmm
 kind: method
+canonical_source: 
 unverified: true
-tags: [nlp, real-world-data, prissmm, genie-bpc, radiology, pathology]
+tags:
+  - nlp
+  - real-world-data
+  - prissmm
+  - genie-bpc
+  - radiology
+  - pathology
 processed_by: entity-page-writer
 processed_at: 2026-04-08
 ---

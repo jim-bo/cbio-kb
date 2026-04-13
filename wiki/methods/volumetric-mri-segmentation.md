@@ -2,6 +2,7 @@
 name: Volumetric MRI segmentation
 slug: volumetric-mri-segmentation
 kind: method
+canonical_source: 
 unverified: true
 tags: [imaging, mri, segmentation, tumor-volume]
 processed_by: entity-page-writer

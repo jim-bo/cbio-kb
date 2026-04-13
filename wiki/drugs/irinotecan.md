@@ -2,6 +2,7 @@
 name: irinotecan
 targets: [TOP1]
 drug_class: topoisomerase I inhibitor
+canonical_source: 
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker

@@ -4,7 +4,7 @@ aliases: [LKB1]
 cancer_types: [LUAD, NSCLC]
 tags: [tumor-suppressor, metastasis, co-alteration]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # STK11
@@ -28,7 +28,7 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 ## Co-occurrence and mutual exclusivity
 
 - Co-occurs with TP53/EGFR+[KEAP1](../genes/KEAP1.md) in ever-metastatic [LUAD](../cancer_types/LUAD.md) [PMID:37084736](../papers/37084736.md).
-- Mutually exclusive with [EGFR](../genes/EGFR.md) alterations in LUAD [PMID:37084736](../papers/37084736.md).
+- Mutually exclusive with [EGFR](../genes/EGFR.md) alterations in [LUAD](../cancer_types/LUAD.md) [PMID:37084736](../papers/37084736.md).
 
 ## Therapeutic relevance
 
@@ -45,4 +45,4 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

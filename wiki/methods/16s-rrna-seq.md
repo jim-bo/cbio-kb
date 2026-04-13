@@ -2,6 +2,7 @@
 name: 16S rRNA gene sequencing
 slug: 16s-rrna-seq
 kind: method
+canonical_source: 
 unverified: true
 tags: [microbiome, sequencing]
 processed_by: crosslinker

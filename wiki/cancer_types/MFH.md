@@ -1,14 +1,12 @@
 ---
-name: "Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma"
+name: Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma
 oncotree_code: MFH
 parent: SOFT_TISSUE
-canonical_source: oncotree
-unverified: false
-tags:
-  - radiation-associated-sarcoma
-  - soft-tissue-sarcoma
+tags: [radiation-associated-sarcoma, soft-tissue-sarcoma]
 processed_by: crosslinker
 processed_at: 2026-04-10
+canonical_source: oncotree
+unverified: false
 ---
 
 # Undifferentiated Pleomorphic Sarcoma / Malignant Fibrous Histiocytoma (MFH)

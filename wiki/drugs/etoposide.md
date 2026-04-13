@@ -2,6 +2,7 @@
 name: etoposide
 targets: [TOP2A]
 drug_class: topoisomerase II inhibitor
+canonical_source: 
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker

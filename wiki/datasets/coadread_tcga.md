@@ -1,12 +1,21 @@
 ---
+name: Colorectal Adenocarcinoma (TCGA, Firehose Legacy)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
+processed_by: crosslinker
+processed_at: 2026-04-08
 studyId: coadread_tcga
-name: "Colorectal Adenocarcinoma (TCGA, Firehose Legacy)"
-description: "TCGA Colorectal Adenocarcinoma. Source data from GDAC Firehose. Previously known as TCGA Provisional."
+description: TCGA Colorectal Adenocarcinoma. Source data from GDAC Firehose. Previously known as TCGA Provisional.
 cancerTypeId: coadread
 pmid: null
 allSampleCount: 1
-processed_by: crosslinker
-processed_at: 2026-04-08
 ---
 
 # Colorectal Adenocarcinoma (TCGA, Firehose Legacy)

@@ -1,14 +1,12 @@
 ---
-name: "Angiosarcoma"
+name: Angiosarcoma
 oncotree_code: ANGS
 parent: SOFT_TISSUE
+tags: [radiation-associated-sarcoma, vascular-tumor]
+processed_by: crosslinker
+processed_at: 2026-04-11
 canonical_source: oncotree
 unverified: false
-tags:
-  - radiation-associated-sarcoma
-  - vascular-tumor
-processed_by: crosslinker
-processed_at: 2026-04-10
 ---
 
 # Angiosarcoma (ANGS)
@@ -36,15 +34,15 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 ## Subtypes
 
 - **Radiation-associated angiosarcoma (RT-AS):** Genomically distinct from sporadic AS, with enrichment of [MYC](../genes/MYC.md), [FLT4](../genes/FLT4.md), [CRKL](../genes/CRKL.md), [HRAS](../genes/HRAS.md), [KMT2D](../genes/KMT2D.md) alterations and depletion of [TP53](../genes/TP53.md), [KDR](../genes/KDR.md), [ATM](../genes/ATM.md), [ATRX](../genes/ATRX.md) alterations. MYC-amplified RT-AS had significantly shorter latency from radiation to diagnosis (P = 0.0083) [PMID:37350195](../papers/37350195.md).
-- **Sporadic angiosarcoma:** Enriched for TP53 (23%), KDR (24%), ATM (10%), and ATRX (7%) alterations relative to RT-AS [PMID:37350195](../papers/37350195.md).
+- **Sporadic angiosarcoma:** Enriched for [TP53](../genes/TP53.md) (23%), [KDR](../genes/KDR.md) (24%), [ATM](../genes/ATM.md) (10%), and [ATRX](../genes/ATRX.md) (7%) alterations relative to RT-AS [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
 
 - Both primary and RT-AS are treated with taxane-based chemotherapeutic regimens [PMID:37350195](../papers/37350195.md).
-- The stress-activated MAPK cascade (CRKL, FLT4, HRAS, MYC) and VEGF/VEGFR signaling (FLT4, HRAS, KDR) pathways represent potential histotype-dependent therapeutic targets in RT-AS [PMID:37350195](../papers/37350195.md).
+- The stress-activated MAPK cascade ([CRKL](../genes/CRKL.md), [FLT4](../genes/FLT4.md), [HRAS](../genes/HRAS.md), [MYC](../genes/MYC.md)) and VEGF/VEGFR signaling (FLT4, HRAS, KDR) pathways represent potential histotype-dependent therapeutic targets in RT-AS [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 44 RT-angiosarcomas.
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

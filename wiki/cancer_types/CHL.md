@@ -1,11 +1,11 @@
 ---
 name: Classical Hodgkin Lymphoma
 oncotree_code: CHL
-main_type: Hodgkin Lymphoma
 parent: HL
 tags: [lymphoma, hodgkin]
 processed_by: crosslinker
 processed_at: 2026-04-08
+main_type: Hodgkin Lymphoma
 ---
 
 # Classical Hodgkin Lymphoma (CHL)

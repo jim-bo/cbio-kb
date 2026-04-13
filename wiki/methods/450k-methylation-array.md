@@ -2,10 +2,11 @@
 name: Illumina 450k methylation array
 slug: 450k-methylation-array
 kind: method
+canonical_source: 
 unverified: true
 tags: [methylation, epigenetics, array]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # Illumina 450k methylation array
@@ -17,6 +18,7 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 ## Used by
 
 - [PMID:35927489](../papers/35927489.md) — DNA methylation profiling of 490 CLL samples (part of n=999 methylation cohort, complemented by [RRBS](../methods/rrbs.md) n=509) supporting the n-CLL/i-CLL/m-CLL epitype framework and the epiCMIT mitotic clock [PMID:35927489](../papers/35927489.md).
+- [PMID:38117484](../papers/38117484.md) — Illumina 450K BeadChip used alongside the EPIC array for DNA methylation profiling of 354 samples (132 initial + 132 recurrent + 90 other time points) from the GLASS International consortium; identified genome-wide methylation loss at recurrence in IDH-mutant gliomas, especially with treatment [PMID:38117484](../papers/38117484.md).
 
 ## Notes
 
@@ -25,5 +27,6 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
+- [PMID:38117484](../papers/38117484.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

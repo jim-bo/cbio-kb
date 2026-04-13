@@ -2,6 +2,7 @@
 name: ConsensusTME
 slug: consensus-tme
 kind: method
+canonical_source: 
 unverified: true
 tags: [immune-deconvolution, tme, computational]
 processed_by: crosslinker

@@ -1,11 +1,11 @@
 ---
 name: Medulloblastoma
 oncotree_code: MBL
-main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
 processed_by: crosslinker
 processed_at: 2026-04-08
+main_type: Embryonal Tumor
 ---
 
 # Medulloblastoma (MBL)

@@ -8,6 +8,7 @@ listing:
     symbol: "Symbol"
     cancer_types: "Cancer types"
     tags: "Tags"
+  field-links: [symbol]
   sort: "symbol asc"
   filter-ui: true
   sort-ui: true

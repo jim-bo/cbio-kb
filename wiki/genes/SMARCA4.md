@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # SMARCA4
@@ -19,7 +19,7 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - SMARCA4, [STK11](../genes/STK11.md), [KEAP1](../genes/KEAP1.md), and [KRAS](../genes/KRAS.md) alterations were mutually exclusive with [EGFR](../genes/EGFR.md) alterations in [LUAD](../cancer_types/LUAD.md) [PMID:37084736](../papers/37084736.md).
 - Inactivation of SMARCA4 (together with [TP53](../genes/TP53.md) and [CDKN2A](../genes/CDKN2A.md)) correlated with site-specific shorter time to metastasis in [LUAD](../cancer_types/LUAD.md) [PMID:37084736](../papers/37084736.md).
 - SMARCA4 alterations were enriched in primary [LUAD](../cancer_types/LUAD.md) tumors from patients who later developed brain metastasis compared with non-metastatic primaries [PMID:37591896](../papers/37591896.md).
-- SMARCA4 was included in LUAD pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
+- SMARCA4 was included in [LUAD](../cancer_types/LUAD.md) pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
 
 ## Cancer types (linked)
 
@@ -43,4 +43,4 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

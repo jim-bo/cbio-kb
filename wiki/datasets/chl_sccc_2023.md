@@ -1,12 +1,21 @@
 ---
-studyId: chl_sccc_2023
-name: "Classical Hodgkins Lymphoma (SCCC, Blood Cancer Discov 2023)"
-description: "Whole-exome sequencing of 36 cases and whole-genome sequencing of 25 cases of classical hodgkins lymphomas and their matched normals."
-cancerTypeId: chl
-pmid: "36723991"
-allSampleCount: 1
+name: Classical Hodgkins Lymphoma (SCCC, Blood Cancer Discov 2023)
+slug: 
+institution: 
+size: 
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: []
+panels: []
+tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
+studyId: chl_sccc_2023
+description: Whole-exome sequencing of 36 cases and whole-genome sequencing of 25 cases of classical hodgkins lymphomas and their matched normals.
+cancerTypeId: chl
+pmid: 36723991
+allSampleCount: 1
 ---
 
 # Classical Hodgkins Lymphoma (SCCC, Blood Cancer Discov 2023)

@@ -2,10 +2,11 @@
 name: erdafitinib
 targets: [FGFR1, FGFR2, FGFR3, FGFR4]
 drug_class: pan-FGFR tyrosine kinase inhibitor
+canonical_source: 
+unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
 processed_by: crosslinker
 processed_at: 2026-04-10
-unverified: true
 ---
 
 # erdafitinib

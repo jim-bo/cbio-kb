@@ -2,6 +2,7 @@
 name: Joint longitudinal-survival model
 slug: joint-longitudinal-survival-model
 kind: method
+canonical_source: 
 unverified: true
 tags: [statistics, survival, longitudinal, joint-model]
 processed_by: entity-page-writer

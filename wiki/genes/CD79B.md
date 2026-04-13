@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - bcr-pathway
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-11
 ---
 
 # CD79B
@@ -19,11 +19,12 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 ## Alterations observed in the corpus
 
 - Mutated in 48% of PCNSLs profiled with [MSK-HemePACT](../methods/msk-hemepact.md) in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial [PMID:38995739](../papers/38995739.md).
+- Mutations serve as a key classifier for the MCD subtype in the LymphGen molecular classification algorithm, alongside [MYD88](../genes/MYD88.md) mutations; detectable by targeted 400-gene clinical NGS panels (e.g., MSK-IMPACT Heme) with high fidelity [PMID:38497151](../papers/38497151.md).
 
 ## Cancer types (linked)
 
 - [PCNSL](../cancer_types/PCNSL.md) — canonical BCR-pathway driver; part of the non-germinal-center (Hans classifier) profile that dominated the MSK [ibrutinib](../drugs/ibrutinib.md) cohort (21/25, 84%) [PMID:38995739](../papers/38995739.md).
-- [DLBCLNOS](../cancer_types/DLBCLNOS.md) — established ABC-subtype driver [PMID:38995739](../papers/38995739.md).
+- [DLBCLNOS](../cancer_types/DLBCLNOS.md) — established ABC-subtype driver [PMID:38995739](../papers/38995739.md); CD79B mutations define the MCD subtype in conjunction with MYD88 mutations; validated by LymphGen classification on a real-world clinical NGS panel [PMID:38497151](../papers/38497151.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,5 +41,6 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 ## Sources
 
 - [PMID:38995739](../papers/38995739.md)
+- [PMID:38497151](../papers/38497151.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -1,10 +1,10 @@
 ---
 symbol: BCL2
 aliases: []
-cancer_types: [CLLSLL]
+cancer_types: [CLLSLL, DLBCLNOS]
 tags: [translocation, apoptosis, m-cll]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-11
 ---
 
 # BCL2
@@ -16,10 +16,12 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 ## Alterations observed in the corpus
 
 - Recurrent immunoglobulin-locus translocation partner predominantly in IGHV-mutated CLL (5/88 WGS cases, 5.7%), arising via aberrant V(D)J recombination; additional cases identified by WES [PMID:35927489](../papers/35927489.md).
+- BCL2 translocation enriched in EZB DLBCL subtype (81% of EZB cases) in a real-world LymphGen classification validation study using MSK-IMPACT Heme (400-gene panel, 241 DLBCL patients); BCL2 translocation is a robust single-gene classifier for the EZB molecular subtype [PMID:38497151](../papers/38497151.md).
 
 ## Cancer types (linked)
 
 - CLL — BCL2 translocations are an M-CLL-biased structural variant class in the integrated CLL map [PMID:35927489](../papers/35927489.md).
+- [DLBCLNOS](../cancer_types/DLBCLNOS.md) — BCL2 translocation defines EZB subtype (81% prevalence); detectable with 400-gene clinical NGS panel [PMID:38497151](../papers/38497151.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,5 +38,6 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
+- [PMID:38497151](../papers/38497151.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-11**.*

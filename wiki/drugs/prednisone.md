@@ -2,6 +2,7 @@
 name: prednisone
 targets: [NR3C1]
 drug_class: corticosteroid
+canonical_source: 
 unverified: true
 tags: [chemotherapy-backbone]
 processed_by: crosslinker

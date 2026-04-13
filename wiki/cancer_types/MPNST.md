@@ -1,14 +1,12 @@
 ---
-name: "Malignant Peripheral Nerve Sheath Tumor"
+name: Malignant Peripheral Nerve Sheath Tumor
 oncotree_code: MPNST
 parent: NST
+tags: [radiation-associated-sarcoma, nerve-sheath-tumor]
+processed_by: crosslinker
+processed_at: 2026-04-11
 canonical_source: oncotree
 unverified: false
-tags:
-  - radiation-associated-sarcoma
-  - nerve-sheath-tumor
-processed_by: crosslinker
-processed_at: 2026-04-10
 ---
 
 # Malignant Peripheral Nerve Sheath Tumor (MPNST)
@@ -34,7 +32,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 ## Subtypes
 
-- **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high NF1 inactivation (67%), and the highest FGA among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
+- **Radiation-associated MPNST (RT-MPNST):** Distinguished by near-universal CDKN2A/B deletions (92%), high [NF1](../genes/NF1.md) inactivation (67%), and the highest FGA among RT-sarcomas. Median latency from radiation to diagnosis: 12.5 years [PMID:37350195](../papers/37350195.md).
 - **Sporadic MPNST:** Lower rates of CDKN2A/B deletion (44%), NF1 inactivation (36%), and lower FGA (31%) [PMID:37350195](../papers/37350195.md).
 
 ## Therapeutic landscape
@@ -45,4 +43,4 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-MPNSTs.
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

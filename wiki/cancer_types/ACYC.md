@@ -1,11 +1,11 @@
 ---
 name: Adenoid Cystic Carcinoma
 oncotree_code: ACYC
-main_type: Salivary Gland Cancer
 parent: SACA
 tags: [rare-cancers, salivary-gland]
 processed_by: crosslinker
 processed_at: 2026-04-08
+main_type: Salivary Gland Cancer
 ---
 
 # Adenoid Cystic Carcinoma (ACYC)

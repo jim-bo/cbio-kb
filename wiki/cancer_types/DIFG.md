@@ -4,14 +4,14 @@ oncotree_code: DIFG
 parent: GLIOMA
 tags: [glioma, cns]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-04-11
 ---
 
 # Diffuse Glioma (DIFG)
 
 ## Overview
 
-OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AST](AST.md)) and oligodendroglioma ([ODG](ODG.md)).
+OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([ASTR](ASTR.md)) and oligodendroglioma ([ODG](ODG.md)).
 
 ## Cohorts in the corpus
 
@@ -36,10 +36,13 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 ## Therapeutic landscape
 
 - Tumor volume growth rate (TVGR) on volumetric MRI proposed as an earlier surrogate endpoint for active-surveillance trials of IDH-targeted therapies [PMID:37910594](../papers/37910594.md).
+- Standard treatment ([temozolomide](../drugs/temozolomide.md) and/or radiotherapy) in IDH-mutant gliomas delays progression (PFI 40.5 vs 27 months, P=0.009) but is associated with epigenetic evolution toward an aggressive IDH-wildtype-like phenotype at recurrence; survival from second surgery is markedly worse in previously treated patients (log-rank P=0.0001) [PMID:38117484](../papers/38117484.md).
+- [HOXD13](../genes/HOXD13.md) identified as master regulator of IDH-mutant astrocytoma progression; CRISPR knockout decreased cell proliferation [PMID:38117484](../papers/38117484.md).
 
 ## Sources
 
 - [PMID:37910594](../papers/37910594.md)
+- [PMID:38117484](../papers/38117484.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

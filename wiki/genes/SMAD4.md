@@ -1,10 +1,10 @@
 ---
 symbol: SMAD4
 aliases: []
-cancer_types: [IHCH, PAAD]
+cancer_types: [IHCH, PAAD, CERVIX]
 tags: [tumor-suppressor, tgf-beta]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
 ---
 
 # SMAD4
@@ -17,6 +17,8 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 
 - SMAD4 alterations characterized "biliary-class" intrahepatic cholangiocarcinoma (along with [KRAS](../genes/KRAS.md) and [CDKN2A](../genes/CDKN2A.md) loss) in the MSK hidden-genome classifier (n=527 IHC), associated with markedly worse [OS](../cancer_types/OS.md) than HCC-class IHC [PMID:38864854](../papers/38864854.md).
 - In 397 sequenced resected [PAAD](../cancer_types/PAAD.md) patients (MSK `pancreas_msk_2024`), SMAD4 was mutated in 17% (68/397); no difference by [KRAS](../genes/KRAS.md) allele or by early- vs late-stage disease [PMID:39214094](../papers/39214094.md).
+- SMAD4 is a genomic driver in gastric-type cervical adenocarcinoma (alongside [KRAS](../genes/KRAS.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md)), resembling pancreatobiliary tumors; detected in the 249-patient MSK cervical cancer cohort (`cervix_msk_2023`) [PMID:37643132](../papers/37643132.md).
+- SMAD4 was detected in liquid biopsy (ctDNA) from cancer patients in the VTE risk-stratification cohort (`msk_ctdna_vte_2024`) [PMID:39147831](../papers/39147831.md).
 
 ## Cancer types (linked)
 
@@ -40,4 +42,4 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39214094](../papers/39214094.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

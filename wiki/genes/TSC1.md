@@ -4,14 +4,14 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, mtor-pathway]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-11
 ---
 
 # TSC1
 
 ## Overview
 
-TSC1 encodes hamartin, a tumor suppressor that, with TSC2, restrains mTORC1 signaling. TSC1 loss-of-function is recurrent in urothelial carcinoma and contributes to PI3K/mTOR pathway dysregulation.
+TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), restrains mTORC1 signaling. TSC1 loss-of-function is recurrent in urothelial carcinoma and contributes to PI3K/mTOR pathway dysregulation.
 
 ## Alterations observed in the corpus
 
@@ -37,4 +37,4 @@ TSC1 encodes hamartin, a tumor suppressor that, with TSC2, restrains mTORC1 sign
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

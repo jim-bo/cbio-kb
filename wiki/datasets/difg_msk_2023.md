@@ -1,15 +1,14 @@
 ---
-name: "IDH-mutant Low-Grade Glioma Active Surveillance, MSK, Clin Cancer Res 2023"
+name: IDH-mutant Low-Grade Glioma Active Surveillance, MSK, Clin Cancer Res 2023
 slug: difg_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 128 patients (73 with MSK-IMPACT sequencing)
-assays:
-  - msk-impact-panel
-tags:
-  - glioma
-  - IDH-mutant
-  - active-surveillance
-  - tumor-growth-kinetics
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: [targeted-panel]
+panels: []
+tags: [glioma, IDH-mutant, active-surveillance, tumor-growth-kinetics]
 processed_by: entity-page-writer
 processed_at: 2026-04-08
 ---
@@ -23,7 +22,7 @@ Retrospective MSKCC cohort of 128 consecutive adult patients with WHO 2016 Grade
 ## Composition
 
 - 128 adult patients with WHO 2016 Grade 2 IDH-mutant glioma; 69 (53.9%) 1p19q codeleted oligodendrogliomas and 59 (46.1%) 1p19q intact astrocytomas [PMID:37910594](../papers/37910594.md).
-- Cancer types: [DIFG](../cancer_types/DIFG.md), [AST](../cancer_types/AST.md), [ODG](../cancer_types/ODG.md).
+- Cancer types: [DIFG](../cancer_types/DIFG.md), [ASTR](../cancer_types/ASTR.md), [ODG](../cancer_types/ODG.md).
 - Median follow-up 6.3 years (range 0.5–23.1); median 8 MRI scans per patient (range 2–28) [PMID:37910594](../papers/37910594.md).
 - MSK-IMPACT targeted sequencing on 73/128 patients with tissue available [PMID:37910594](../papers/37910594.md).
 - Manual 3D volumetric T2/FLAIR segmentation with VASARI feature annotation.

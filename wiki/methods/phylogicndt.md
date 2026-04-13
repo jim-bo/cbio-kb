@@ -2,6 +2,7 @@
 name: PhylogicNDT
 slug: phylogicndt
 kind: method
+canonical_source: 
 unverified: true
 tags: [clonal-evolution, temporal-ordering, computational]
 processed_by: crosslinker

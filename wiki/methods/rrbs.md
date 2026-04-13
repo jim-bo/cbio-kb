@@ -2,6 +2,7 @@
 name: Reduced representation bisulfite sequencing (RRBS)
 slug: rrbs
 kind: method
+canonical_source: 
 unverified: true
 tags: [methylation, epigenetics, sequencing]
 processed_by: crosslinker

@@ -2,6 +2,7 @@
 name: brentuximab-vedotin
 targets: [TNFRSF8]
 drug_class: anti-CD30 antibody-drug conjugate
+canonical_source: 
 unverified: true
 tags: [adc, lymphoma]
 processed_by: crosslinker

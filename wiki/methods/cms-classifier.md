@@ -2,6 +2,7 @@
 name: Consensus Molecular Subtype (CMS) classifier
 slug: cms-classifier
 kind: method
+canonical_source: 
 unverified: true
 tags: [colon-cancer, expression-subtypes, classifier]
 processed_by: crosslinker

@@ -1,11 +1,11 @@
 ---
 name: Non-Small Cell Lung Cancer
 oncotree_code: NSCLC
-main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-04-11
+main_type: Non-Small Cell Lung Cancer
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)
@@ -45,11 +45,15 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Leptomeningeal involvement was a strong predictor of CSF ctDNA positivity in NSCLC (OR 20.17, 95% CI 9.65-42.16, p < 0.0001). CSF ctDNA had greater sensitivity than positive cytology for leptomeningeal disease (85.4% vs. 61.7%) and greater negative predictive value (80% vs. 66%) [PMID:39289779](../papers/39289779.md).
 - Lung carcinomas had the highest rate of level 1 OncoKB actionable alterations among all tumor types in the CSF ctDNA cohort; 50.7% of ctDNA-positive samples carried a level 1 actionable alteration [PMID:39289779](../papers/39289779.md).
 - Serial CSF ctDNA profiling identified clonal evolution and emergence of resistance mechanisms ([EGFR](../genes/EGFR.md) gatekeeper mutations, [ALK](../genes/ALK.md) resistance mutations, [MET](../genes/MET.md) resistance mutations), directly informing treatment changes [PMID:39289779](../papers/39289779.md).
+- ATLAS RNA-expression classifier achieved 91.4% site-of-origin accuracy; NSCLC distinguished from [SCLC](../cancer_types/SCLC.md) by lineage de-differentiation score (AUC=0.963); classifier can identify neuroendocrine transformation. [PMID:27634761](../papers/27634761.md)
+- ctDNA detection independently associated with higher VTE rates in advanced NSCLC (HR=2.49, 95% CI 1.99--3.11); NSCLC comprised 34% of the 4,141-patient discovery cohort. The international generalizability cohort (n=463) specifically comprised advanced NSCLC patients (ctDX Lung panel); c-index 0.67 for ctDNA-based VTE prediction. [PMID:39147831](../papers/39147831.md)
 
 ## Sources
 
+- [PMID:27634761](../papers/27634761.md)
 - [PMID:37591896](../papers/37591896.md)
+- [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-04-11**.*

@@ -1,11 +1,11 @@
 ---
 name: Mixed Germ Cell Tumor
 oncotree_code: MGCT
-main_type: Germ Cell Tumor
 parent: NSGCT
 tags: [germ-cell, rare-cancers]
 processed_by: crosslinker
 processed_at: 2026-04-08
+main_type: Germ Cell Tumor
 ---
 
 # Mixed Germ Cell Tumor (MGCT)

@@ -2,6 +2,7 @@
 name: alpelisib
 targets: [PIK3CA]
 drug_class: PI3Kalpha inhibitor
+canonical_source: 
 unverified: true
 tags: [targeted-therapy, pi3k-inhibitor]
 processed_by: crosslinker

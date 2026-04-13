@@ -2,6 +2,7 @@
 name: vincristine
 targets: [TUBB]
 drug_class: vinca alkaloid
+canonical_source: 
 unverified: true
 tags: [chemotherapy-backbone]
 processed_by: crosslinker

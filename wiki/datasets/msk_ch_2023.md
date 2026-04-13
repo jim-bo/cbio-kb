@@ -1,14 +1,14 @@
 ---
-name: "Cancer Therapy and Clonal Hematopoiesis, MSK, Blood Adv 2023"
+name: Cancer Therapy and Clonal Hematopoiesis, MSK, Blood Adv 2023
 slug: msk_ch_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 42714 patients
-assays:
-  - msk-impact-panel
-tags:
-  - clonal-hematopoiesis
-  - silent-ch
-  - hematologic-malignancy-risk
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: [targeted-panel]
+panels: []
+tags: [clonal-hematopoiesis, silent-ch, hematologic-malignancy-risk]
 processed_by: entity-page-writer
 processed_at: 2026-04-08
 ---

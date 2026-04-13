@@ -1,15 +1,14 @@
 ---
-name: "MSK-CHORD Clinicogenomic Harmonized Real-World Dataset, Nature 2024"
+name: MSK-CHORD Clinicogenomic Harmonized Real-World Dataset, Nature 2024
 slug: msk_chord_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 24950 patients
-assays:
-  - msk-impact-panel
-tags:
-  - real-world-data
-  - nlp
-  - clinicogenomics
-  - survival-prediction
+reference_genome: GRCh37
+canonical_source: 
+unverified: 
+assays: [targeted-panel]
+panels: []
+tags: [real-world-data, nlp, clinicogenomics, survival-prediction]
 processed_by: crosslinker
 processed_at: 2026-04-10
 ---

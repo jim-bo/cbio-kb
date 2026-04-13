@@ -171,29 +171,53 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="cohorts-in-the-corpus">Cohorts in the corpus</h2>
 <ul>
 <li><a href="../datasets/msk_chord_2024.html">msk_chord_2024</a> — 3,211 prostate cancer patients at MSK in the MSK-CHORD clinicogenomic harmonized real-world dataset <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li><a href="../datasets/prad_msk_mdanderson_2023.html">prad_msk_mdanderson_2023</a> — 44 PDX models from 38 prostate cancer patients at MD Anderson Cancer Center, spanning adenocarcinoma and NEPC, profiled by WGS, T200.1 targeted sequencing, and RNA-seq. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li><a href="../datasets/prostate_msk_2024.html">prostate_msk_2024</a> — 2,257 PRAD patients at MSK sequenced by MSK-IMPACT (3,244 tumors); subgroups: 63 MSI-H/dMMR (2.8%), 33 TMB-H/MSS (1.5%). <a href="../papers/38949888.html">PMID:38949888</a></li>
+<li><a href="../datasets/msk_ctdna_vte_2024.html">msk_ctdna_vte_2024</a> — PRAD comprised 5% of the 4,141-patient liquid biopsy VTE discovery cohort. <a href="../papers/39147831.html">PMID:39147831</a></li>
+<li>ATLAS classifier validation — PRAD included in the 22-class site-of-origin model; de-differentiation score distinguishes PRAD from <a href="../cancer_types/PRNE.html">PRNE</a> (AUC=0.834). <a href="../papers/27634761.html">PMID:27634761</a></li>
 </ul>
 </section>
 <section id="recurrent-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="recurrent-alterations">Recurrent alterations</h2>
 <ul>
 <li>Included in pan-cancer MSK-IMPACT pathway and metastasis analyses <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>91% of PDX models harbored oncogenic alterations in at least one of <a href="../genes/AR.html">AR</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/TP53.html">TP53</a>, or <a href="../genes/PTEN.html">PTEN</a>. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li><a href="../genes/TMPRSS2.html">TMPRSS2</a>-<a href="../genes/ERG.html">ERG</a> fusion detected in 13/44 PDX models; correlated with <a href="../genes/ERG.html">ERG</a> overexpression in AR-expressing models. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li><a href="../genes/CDK12.html">CDK12</a> biallelic loss via dual mutations or structural variation in 4 PDX models; CDK12-loss-associated focal copy-number gains observed. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li>63 (2.8%) patients had MSI-H/dMMR tumors, 33 (1.5%) had TMB-H/MSS tumors among 2,257 PRAD patients. MSI-H/dMMR had significantly higher TMB than TMB-H/MSS (median 41 vs.&nbsp;15 mut/Mb, P&lt;0.01). <a href="../papers/38949888.html">PMID:38949888</a></li>
+<li><a href="../genes/BRAF.html">BRAF</a> fusions in PRAD: <a href="../genes/SND1.html">SND1</a> was the dominant 5’ fusion partner in prostate adenocarcinoma BRAF fusions (21% of PRAD BRAF fusions). <a href="../papers/38922339.html">PMID:38922339</a></li>
+<li><a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/PMS2.html">PMS2</a> — deleterious MMR gene alterations in 75% of MSI-H/dMMR PRAD patients. <a href="../papers/38949888.html">PMID:38949888</a></li>
 </ul>
 </section>
 <section id="subtypes" class="level2">
 <h2 class="anchored" data-anchor-id="subtypes">Subtypes</h2>
+<ul>
+<li>MSI-H/dMMR (2.8%) vs.&nbsp;TMB-H/MSS (1.5%) vs.&nbsp;TMB-L/MSS (95.7%) distinct subgroups by immunogenicity; both MSI-H and TMB-H/MSS are more commonly Gleason grade group 5 (62% and 59% vs.&nbsp;40%, P&lt;0.001). <a href="../papers/38949888.html">PMID:38949888</a></li>
+<li>NEPC/PRNE: defined by <a href="../genes/AR.html">AR</a> expression loss, <a href="../genes/RB1.html">RB1</a> enrichment; DDR pathway transcriptomically upregulated. ATLAS RNA classifier distinguishes PRAD from PRNE with AUC=0.834. <a href="../papers/38488813.html">PMID:38488813</a> <a href="../papers/27634761.html">PMID:27634761</a></li>
+</ul>
 </section>
 <section id="therapeutic-landscape" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-landscape">Therapeutic landscape</h2>
 <ul>
 <li>NLP-augmented integrated models outperformed stage- or genomics-only models for overall-survival prediction <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>MSI-H/dMMR PRAD: 45% RECIST ORR and 65% PSA50 response with immune checkpoint blockade (n=27 treated); MSI-H/dMMR patients should receive somatic tumor testing per NCCN recommendations. <a href="../papers/38949888.html">PMID:38949888</a></li>
+<li>TMB-H/MSS PRAD: 0% RECIST response with ICB despite FDA approval of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> for TMB-H tumors; TMB alone is an insufficient biomarker in PRAD. <a href="../papers/38949888.html">PMID:38949888</a></li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> downstream signature (NRP2, LRP4, TGFBI) stratifies patients for FGFR-targeted therapy in bone-metastatic CRPC; PARP inhibition investigated in NEPC. <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li>ctDNA detection associated with higher VTE rates in PRAD patients (5% of pan-cancer cohort); anticoagulation associated with lower VTE in ctDNA-positive patients (adjusted HR=0.50). <a href="../papers/39147831.html">PMID:39147831</a></li>
+<li>ATLAS lineage de-differentiation score prognostic for prostate cancer survival and neuroendocrine transformation detection. <a href="../papers/27634761.html">PMID:27634761</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
+<li><a href="../papers/27634761.html">PMID:27634761</a></li>
+<li><a href="../papers/38488813.html">PMID:38488813</a></li>
+<li><a href="../papers/38922339.html">PMID:38922339</a></li>
+<li><a href="../papers/38949888.html">PMID:38949888</a></li>
+<li><a href="../papers/39147831.html">PMID:39147831</a></li>
 <li><a href="../papers/39506116.html">PMID:39506116</a></li>
 </ul>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-04-08</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
 
 
 </section>

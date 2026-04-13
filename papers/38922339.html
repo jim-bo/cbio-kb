@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tumor-agnostic-genomic-and-clinical-analysis-of-braf-fusions-identify-actionable-targets" id="toc-tumor-agnostic-genomic-and-clinical-analysis-of-braf-fusions-identify-actionable-targets" class="nav-link active" data-scroll-target="#tumor-agnostic-genomic-and-clinical-analysis-of-braf-fusions-identify-actionable-targets">Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets</a>
+  <ul class="collapse">
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38922339.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38922339.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Chen MF </p>
+             <p>Yang SR </p>
+             <p>Tao JJ </p>
+             <p>Desilets A </p>
+             <p>Diamond EL </p>
+             <p>Wilhelm C </p>
+             <p>Rosen E </p>
+             <p>Gong Y </p>
+             <p>Mullaney K </p>
+             <p>Torrisi J </p>
+             <p>Young RJ </p>
+             <p>Somwar R </p>
+             <p>Yu HA </p>
+             <p>Kris MG </p>
+             <p>Riely GJ </p>
+             <p>Arcila ME </p>
+             <p>Ladanyi M </p>
+             <p>Donoghue MTA </p>
+             <p>Rosen N </p>
+             <p>Yaeger R </p>
+             <p>Drilon A </p>
+             <p>Murciano-Goroff YR </p>
+             <p>Offin M </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-23-3981">10.1158/1078-0432.CCR-23-3981</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="tumor-agnostic-genomic-and-clinical-analysis-of-braf-fusions-identify-actionable-targets" class="level1">
+<h1>Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets</h1>
+<p><strong>PMID:</strong> <a href="../papers/38922339.html">38922339</a> · <strong>DOI:</strong> 10.1158/1078-0432.CCR-23-3981 · <strong>Journal:</strong> Clinical Cancer Research (2024)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This study performed a tumor-agnostic genomic and clinical analysis of all <a href="../genes/BRAF.html">BRAF</a> fusions detected across 97,024 samples sequenced at Memorial Sloan Kettering Cancer Center. The authors identified 241 BRAF fusion-positive tumors from 212 patients spanning 52 histologies with 82 unique 5’ fusion partners, of which 39 were novel. BRAF fusions were enriched in pilocytic astrocytomas (56% prevalence), and durable responses to MAPK-pathway directed therapies (MEK inhibitors in particular) were observed in pilocytic astrocytoma patients. Fifteen patients acquired BRAF fusions as a resistance mechanism to prior targeted therapy, predominantly <a href="../genes/EGFR.html">EGFR</a> TKIs in lung adenocarcinoma.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>97,024 samples from 69,337 patients sequenced between January 2014 and November 2022 at MSK via <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>, MSK-ACCESS, and MSK-Fusion panels.</li>
+<li>212 patients with oncogenic BRAF fusions (195 de novo, 17 detected post-targeted therapy; 15 confirmed acquired).</li>
+<li>241 BRAF fusion-positive tumors across 52 histologies.</li>
+<li>Data deposited in cBioPortal as <a href="../datasets/braf_msk_archer_2024.html">braf_msk_archer_2024</a> and <a href="../datasets/braf_msk_impact_2024.html">braf_msk_impact_2024</a>.</li>
+<li>24 patients with de novo BRAF fusions treated with MAPK-pathway directed therapies were evaluable for clinical outcomes (RECIST v1.1).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>De novo BRAF fusion prevalence was &lt;1% (195/69,337) across all cancers; highest in pilocytic astrocytomas (56%, N=29), gangliogliomas, low-grade neuroepithelial tumors, and acinar cell carcinoma of the pancreas (each &gt;=5%).</li>
+<li>82 unique 5’ fusion partners identified; 39 (48%) were novel. 29% of partners were non-recurrent (identified only once).</li>
+<li>Most common 5’ partners: <a href="../genes/KIAA1549.html">KIAA1549</a> (25%, N=48), <a href="../genes/SND1.html">SND1</a> (10%, N=20), <a href="../genes/AGK.html">AGK</a> (6%, N=12), MKRN1 (5%, N=9), <a href="../genes/TRIM24.html">TRIM24</a> (5%, N=9).</li>
+<li>90% of pilocytic astrocytoma BRAF fusions involved KIAA1549-BRAF.</li>
+<li>Fusion partner distribution was histology-specific: <a href="../genes/SND1.html">SND1</a> in prostate adenocarcinoma (21%), <a href="../genes/TRIM24.html">TRIM24</a> in colorectal cancer (43%), SND1 in pancreatic adenocarcinoma (56%).</li>
+<li>Co-alterations: <a href="../genes/TP53.html">TP53</a> mutations (22%), <a href="../genes/TERT.html">TERT</a> mutations (18%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (14%), <a href="../genes/CDKN2B.html">CDKN2B</a> deletions (12%). BRAF fusions were mutually exclusive with other MAPK pathway alterations.</li>
+<li>In colorectal cancers, frequent co-mutations included <a href="../genes/RNF43.html">RNF43</a> (64%), <a href="../genes/TP53.html">TP53</a> (57%), <a href="../genes/KMT2D.html">KMT2D</a> (43%), <a href="../genes/MSH3.html">MSH3</a> (42%), <a href="../genes/ARID1A.html">ARID1A</a> (36%).</li>
+<li>Of 20 evaluable patients treated with MAPK therapies: PR (N=2), SD (N=11), PD (N=7).</li>
+<li>Median time on MEK inhibitors alone (N=9): 8 months (range 1-26). Median time on combination MEK+BRAF inhibitors (N=11): 1 month (range 0-18).</li>
+<li>All 6 pilocytic astrocytoma patients remained on MEK inhibitor therapy &gt;6 months (median 11 months, range 6-26).</li>
+<li>15 patients acquired BRAF fusions after targeted therapy: 10 with <a href="../genes/EGFR.html">EGFR</a>-mutant <a href="../cancer_types/LUAD.html">LUAD</a>, and 5 across other histologies (<a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/THPA.html">THPA</a>, <a href="../cancer_types/BLCA.html">BLCA</a>, <a href="../cancer_types/LUAD.html">LUAD</a> with <a href="../genes/NTRK1.html">NTRK1</a> fusion, LUAD with BRAF V600E).</li>
+<li>Median time from EGFR TKI start to acquired BRAF fusion detection: 23 months (range 9-37).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a>: Oncogenic fusions (class II alterations) across 52 histologies; 82 unique 5’ partners. Fusions activate MAPK pathway via loss of auto-inhibitory N-terminal region leading to constitutive dimerization.</li>
+<li><a href="../genes/EGFR.html">EGFR</a>: Exon 19 deletions (N=8), L858R (N=1), G719C/L861Q (N=1) in patients who subsequently acquired BRAF fusions as resistance mechanism to EGFR TKIs.</li>
+<li><a href="../genes/TP53.html">TP53</a>: Most common co-alteration (22% across all histologies; 57% in colorectal cancers).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a>: Deletions co-occurring with BRAF fusions (14% and 12%, respectively).</li>
+<li><a href="../genes/TERT.html">TERT</a>: Mutations co-occurring in melanomas (64%), thyroid cancers (73%), and gliomas (11%).</li>
+<li><a href="../genes/KIAA1549.html">KIAA1549</a>: Most common 5’ fusion partner (25%), dominant in pilocytic astrocytomas (90%).</li>
+<li><a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/MSH3.html">MSH3</a>, <a href="../genes/ARID1A.html">ARID1A</a>: Frequent co-mutations in BRAF fusion-positive colorectal cancers.</li>
+<li><a href="../genes/NTRK1.html">NTRK1</a>, <a href="../genes/FGFR3.html">FGFR3</a>: Driver fusions in patients who subsequently acquired BRAF fusions at resistance.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>BRAF fusions represent an emerging actionable target across histologies, though response rates to currently available MAPK therapies are lower than for other fusion-driven cancers (<a href="../genes/ALK.html">ALK</a>, <a href="../genes/ROS1.html">ROS1</a>, <a href="../genes/RET.html">RET</a>: 60-80% ORR).</li>
+<li>MEK inhibitors (<a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>) provided durable benefit in pilocytic astrocytomas (all 6 patients &gt;6 months on therapy); combination BRAF+MEK inhibition was less durable (median 1 month).</li>
+<li>BRAF fusions are a recurrent (2-4%) mechanism of acquired resistance to EGFR TKIs (<a href="../drugs/osimertinib.html">osimertinib</a>, <a href="../drugs/erlotinib.html">erlotinib</a>, <a href="../drugs/afatinib.html">afatinib</a>), underscoring the importance of post-progression genotyping.</li>
+<li>Combination strategies (EGFR TKI + MEK inhibitor) at resistance showed preliminary signals: one patient remained on <a href="../drugs/erlotinib.html">erlotinib</a> + <a href="../drugs/trametinib.html">trametinib</a> for 12 months.</li>
+<li>New therapeutic approaches targeting BRAF fusions are in development, including BRAF dimer blockers, ERK inhibitors, and PROTACs.</li>
+<li>Partner-agnostic diagnostic strategies (RNA-based NGS) are critical given the extraordinary diversity of BRAF fusion partners.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Retrospective, single-institution design with heterogeneous patient populations analyzed at various timepoints during care.</li>
+<li>Small numbers of patients per treatment type limit statistical power for response comparisons.</li>
+<li>No head-to-head comparison of MEK inhibitor monotherapy versus combination BRAF+MEK inhibition.</li>
+<li>The study did not systematically compare diagnostic assay performance (DNA vs.&nbsp;RNA vs.&nbsp;ctDNA NGS) for BRAF fusion detection sensitivity.</li>
+<li>Optimal combination strategy for acquired BRAF fusions at resistance (e.g., EGFR TKI + MEK inhibitor vs.&nbsp;other approaches) remains undetermined.</li>
+<li>The influence of specific fusion partners on treatment response and biology requires further investigation with functional studies and larger clinical datasets.</li>
+<li>Response appeared histology-dependent, paralleling BRAF V600E experience, but the mechanistic basis for this differential sensitivity is unclear.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We found 241 BRAF fusion-positive tumors from 212 patients with 82 unique 5’ fusion partners spanning 52 histologies. 39 fusion partners were not previously reported, and 61 were identified once.” (Abstract)</li>
+<li>“The prevalence of de novo BRAF fusions was &lt;1% (195/69,337). […] The tumor type most enriched for BRAF fusions was pilocytic astrocytoma (N=29, prevalence 56%).” (Results)</li>
+<li>“BRAF fusions were most commonly co-altered with TP53 mutations (22%), <a href="../genes/TERT.html">TERT</a> mutations (18%), <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (14%), and <a href="../genes/CDKN2B.html">CDKN2B</a> deletions (12%).” (Results)</li>
+<li>“The median time on combination MEK and BRAF inhibitors (N=11) therapies was 1 month (range 0-18 months) and for MEK inhibitors (N=9) was 8 months (range 1-26 months).” (Results)</li>
+<li>“Nine patients remained on treatment for &gt;6 months, including all the patients with pilocytic astrocytomas (6/6).” (Results)</li>
+<li>“Fifteen patients acquired BRAF fusions following targeted therapy [EGFR-mutant lung adenocarcinoma (N=10)…]” (Results)</li>
+<li>“The median time from start of targeted therapy to BRAF fusion detection was 23 months (range 9-37 months).” (Results)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38922339.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38922339.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

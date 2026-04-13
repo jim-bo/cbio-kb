@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sequential genomic analysis using a multisample/multiplatform approach to better define rhabdomyosarcoma progression and relapse – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sequential-genomic-analysis-using-a-multisamplemultiplatform-approach-to-better-define-rhabdomyosarcoma-progression-and-relapse" id="toc-sequential-genomic-analysis-using-a-multisamplemultiplatform-approach-to-better-define-rhabdomyosarcoma-progression-and-relapse" class="nav-link active" data-scroll-target="#sequential-genomic-analysis-using-a-multisamplemultiplatform-approach-to-better-define-rhabdomyosarcoma-progression-and-relapse">Sequential genomic analysis using a multisample/multiplatform approach to better define rhabdomyosarcoma progression and relapse</a>
+  <ul class="collapse">
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/37730754.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/37730754.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sequential genomic analysis using a multisample/multiplatform approach to better define rhabdomyosarcoma progression and relapse</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>de Traux de Wardin H </p>
+             <p>Dermawan JK </p>
+             <p>Merlin MS </p>
+             <p>Wexler LH </p>
+             <p>Orbach D </p>
+             <p>Vanoli F </p>
+             <p>Schleiermacher G </p>
+             <p>Geoerger B </p>
+             <p>Ballet S </p>
+             <p>Guillemot D </p>
+             <p>Frouin E </p>
+             <p>Cyrille S </p>
+             <p>Delattre O </p>
+             <p>Pierron G </p>
+             <p>Antonescu CR </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41698-023-00445-1">10.1038/s41698-023-00445-1</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="sequential-genomic-analysis-using-a-multisamplemultiplatform-approach-to-better-define-rhabdomyosarcoma-progression-and-relapse" class="level1">
+<h1>Sequential genomic analysis using a multisample/multiplatform approach to better define rhabdomyosarcoma progression and relapse</h1>
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/37730754/">37730754</a> · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41698-023-00445-1">10.1038/s41698-023-00445-1</a> · <strong>Journal:</strong> npj Precision Oncology (2023)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This study investigated the genomic evolution from primary to relapsed rhabdomyosarcoma (<a href="../cancer_types/RMS.html">RMS</a>) in 35 paired primary/relapse samples (18 fusion-positive, 17 fusion-negative) from MSKCC and Institut Curie, using MSK-IMPACT, whole-exome sequencing, and whole-genome sequencing. Fusion-positive RMS (FP-RMS) showed stable genomes at relapse, with secondary alterations in CDKN2A/B, <a href="../genes/MYCN.html">MYCN</a>, and <a href="../genes/CDK4.html">CDK4</a> present at diagnosis and correlating with worse survival. Fusion-negative RMS (FN-RMS) acquired more alterations at relapse, most commonly <a href="../genes/SMARCA2.html">SMARCA2</a> missense mutations. A complementary ctDNA liquid biopsy analysis in 10 patients demonstrated feasibility of detecting <a href="../genes/PAX3.html">PAX3</a>::<a href="../genes/FOXO1.html">FOXO1</a> fusions, SNVs, and CNVs in plasma, with fusion read counts correlating with disease burden.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>35 patients with relapsed/metastatic <a href="../cancer_types/RMS.html">RMS</a>: 18 fusion-positive (<a href="../cancer_types/ARMS.html">ARMS</a>) and 17 fusion-negative (<a href="../cancer_types/ERMS.html">ERMS</a>), from MSKCC (n=20) and Institut Curie (n=15) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>MSK cohort sequenced on <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a>; Curie cohort sequenced by <a href="../methods/whole-exome-seq.html">WES</a> or combined targeted DNA (Dragon panel) and WES.</li>
+<li>Dataset: <a href="../datasets/rms_msk_2023.html">rms_msk_2023</a>.</li>
+<li>10 patients (7 FP-RMS, 3 FN-RMS) had longitudinal ctDNA analysis from 62 plasma samples using a 36-gene custom RMS panel for SNV/fusion detection and shallow <a href="../methods/whole-genome-seq.html">WGS</a> for CNV assessment.</li>
+<li><a href="../methods/archer-fusionplex.html">Archer FusionPlex</a> used for FOXO1 fusion evaluation in the MSK FP-RMS cohort.</li>
+<li>Median age 14 years (FP-RMS) and 7.8 years (FN-RMS) in the MSK cohort; 5-year overall survival was 33%.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>FP-RMS genomic stability at relapse:</strong> FP-RMS had a median of 2 alterations at primary and 3 at relapse (range 0–7). Half of patients acquired additional alterations at relapse (median 1, range 0–5) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>Secondary major alterations in FP-RMS:</strong> <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> alterations (5/18, 28%), <a href="../genes/MYCN.html">MYCN</a> alterations (4/18, 22%), and <a href="../genes/CDK4.html">CDK4</a> amplifications (3/18, 17%) were the most common recurrent events, mostly present at diagnosis and largely mutually exclusive <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>Survival impact in FP-RMS:</strong> <a href="../genes/MYCN.html">MYCN</a> alterations (p=0.0012) and <a href="../genes/CDKN2A.html">CDKN2A</a> deletions (p=0.049) each had statistically significant impact on <a href="../cancer_types/OS.html">OS</a>. Combined <a href="../genes/CDKN2A.html">CDKN2A</a> and MYCN alterations correlated with worse OS (p=0.0017) and PFS (p=0.002) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>Two FP-RMS subgroups:</strong> Patients with secondary major alterations at diagnosis acquired zero or very few new alterations at relapse; patients lacking such events developed more alterations at relapse, including de novo <a href="../genes/AKT1.html">AKT1</a> deletions and <a href="../genes/CDK4.html">CDK4</a>/<a href="../genes/MYCN.html">MYCN</a> alterations <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>FN-RMS heterogeneity:</strong> FN-RMS acquired an average of 4.3 new alterations per patient at relapse (range 0–17), with 111% overall increase in alterations. Average mutations per sample was higher in FN-RMS vs FP-RMS (5.6 vs 3.2, p=0.002) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>Recurrent FN-RMS alterations:</strong> <a href="../genes/TP53.html">TP53</a> (7/17, 41%), <a href="../genes/BCOR.html">BCOR</a> (5/17, 30%), <a href="../genes/PIK3CA.html">PIK3CA</a> pathway genes (<a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>; 5/17), <a href="../genes/MDM2.html">MDM2</a> (4/17), and <a href="../genes/SMARCA2.html">SMARCA2</a> (4/17) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>SMARCA2 as relapse-specific event:</strong> <a href="../genes/SMARCA2.html">SMARCA2</a> missense mutations and frameshift deletions (4/17, 24%) were found exclusively at relapse in FN-RMS, with immunohistochemistry showing loss of SMARCA2 protein expression <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong><a href="../genes/BAP1.html">BAP1</a> deletions</strong> (2/17, 12%) also found only at relapse in FN-RMS <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>ctDNA detection rates:</strong> Combined approach detected alterations in 88% at diagnosis (7/8) and 90% at relapse (9/10). PAX3::<a href="../genes/FOXO1.html">FOXO1</a> fusion detected in 100% at diagnosis (6/6) and 86% at relapse (6/7). Blood plasma showed higher sensitivity than bone marrow (86% vs 61%) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li><strong>Fusion reads correlate with disease burden:</strong> Higher PAX3::FOXO1 fusion read counts correlated with increased disease burden and relapse in patients with fatal outcomes <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/PAX3.html">PAX3</a>::FOXO1 fusion – pathognomonic driver in FP-RMS (16/18 patients); detected in ctDNA at diagnosis (100%) and relapse (86%).</li>
+<li><a href="../genes/PAX7.html">PAX7</a>::FOXO1 fusion – found in 2/18 FP-RMS patients, associated with <a href="../genes/FOXO1.html">FOXO1</a> amplification.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> – homozygous deletions and loss-of-function in 28% of FP-RMS; correlated with worse OS (p=0.049) and PFS (p=0.0082).</li>
+<li><a href="../genes/MYCN.html">MYCN</a> – amplifications and missense mutations in 22% of FP-RMS; correlated with worse OS (p=0.0012); high MYCN mRNA expression confirmed by RNA-seq.</li>
+<li><a href="../genes/CDK4.html">CDK4</a> – amplifications in 17% of FP-RMS, often co-amplified with <a href="../genes/GLI1.html">GLI1</a> (2 tumors) or <a href="../genes/MDM2.html">MDM2</a> (1 tumor) at 12q13-15 locus.</li>
+<li><a href="../genes/AKT1.html">AKT1</a> – deletions acquired at relapse in FP-RMS lacking major secondary events.</li>
+<li><a href="../genes/TP53.html">TP53</a> – loss-of-function in 41% of FN-RMS patients (33% of samples); previously associated with poor outcome.</li>
+<li><a href="../genes/BCOR.html">BCOR</a> – alterations in 30% of FN-RMS patients (24% of samples).</li>
+<li><a href="../genes/SMARCA2.html">SMARCA2</a> – missense mutations and frameshift deletions in 24% of FN-RMS at relapse only; 4 different point mutations with no redundancy in protein domain.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/KRAS.html">KRAS</a> – RAS/PIK3CA pathway alterations in 5/17 FN-RMS.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> – amplifications in 4/17 FN-RMS, detectable in ctDNA.</li>
+<li><a href="../genes/BAP1.html">BAP1</a> – deletions in 2/17 FN-RMS, exclusively at relapse.</li>
+<li><a href="../genes/NF1.html">NF1</a>, <a href="../genes/FGFR1.html">FGFR1</a> – driver events in a subset of FN-RMS.</li>
+<li><a href="../genes/RB1.html">RB1</a> – SNV detected in ctDNA of FP-RMS.</li>
+<li><a href="../genes/MYOD1.html">MYOD1</a> – L122R mutation noted as marker for spindle/sclerosing RMS.</li>
+<li><a href="../genes/IGF2.html">IGF2</a>, <a href="../genes/MED12.html">MED12</a>, <a href="../genes/NCOR2.html">NCOR2</a> – recurrent alterations in FP-RMS.</li>
+<li><a href="../genes/GLI1.html">GLI1</a> – co-amplified with CDK4 in 2 FP-RMS tumors.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> – SNV detected in ctDNA at relapse in FN-RMS.</li>
+<li><a href="../genes/DMD.html">DMD</a> – 30Kb deletion acquired at relapse in one FN-RMS patient.</li>
+<li>DNA repair genes (<a href="../genes/RAD51B.html">RAD51B</a>, RAD21, RAD51C, <a href="../genes/ATR.html">ATR</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/FANCA.html">FANCA</a>, FANCC) – exclusively at relapse in FN-RMS with higher mutational counts.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Secondary alterations in <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/MYCN.html">MYCN</a>, and <a href="../genes/CDK4.html">CDK4</a> at diagnosis in FP-RMS identify a high-risk subgroup with worse OS and PFS, supporting their use in risk stratification <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>Liquid biopsy using a combined targeted DNA panel plus shallow WGS provides reliable detection of PAX3::FOXO1 fusions, SNVs, and CNVs in both FP-RMS and FN-RMS subtypes <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>Fusion read number quantification via unique molecular identifiers (UMIs) enables monitoring of disease burden and treatment response over time <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>Patients with FP-RMS harboring CDKN2A, CDK4, and MYCN alterations, and FN-RMS with <a href="../genes/TP53.html">TP53</a>, <a href="../genes/BCOR.html">BCOR</a>, or RAS pathway alterations, may benefit from shorter intervals between cfDNA collections during follow-up <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+<li>Rationale provided for implementing ctDNA analysis in the prospective FaR-RMS trial (NCT04625907) <a href="../papers/37730754.html">PMID:37730754</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Small cohort size (n=35 tumor pairs, n=10 ctDNA cases) limits statistical power; findings require validation in larger prospective studies.</li>
+<li>Retrospective sample collection and lack of centralized blood processing introduced variability; 4 cases excluded due to undetectable ctDNA.</li>
+<li>The prognostic role of MYCN and CDK4 amplifications in FP-RMS remains controversial, with conflicting findings in prior literature.</li>
+<li>The functional significance of relapse-specific SMARCA2 alterations in FN-RMS requires further investigation.</li>
+<li>No correlation found between cfDNA concentration and clinical status, consistent with prior observations that somatic mutation detection is more reliable than cfDNA levels alone.</li>
+<li>The study did not include digital droplet PCR, which may be more sensitive for fusion detection in low-burden settings.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“FP-RMS have a stable genome with relapse, with common secondary alterations CDKN2A/B, MYCN, and CDK4 present at diagnosis and impacting survival.” (Abstract)</li>
+<li>“MYCN alterations (p=0.0012) and CDKN2A deletions (p=0.049) have a statistically significant impact on overall survival (OS) either alone or when combining both altered populations (p=0.0017).” (Results)</li>
+<li>“SMARCA2 alterations were the most common events acquired in relapsed FN-RMS, with 4 different point mutations found (VAF&lt;50%) with no redundancy in protein domain.” (Results)</li>
+<li>“ctDNA alterations were evaluated using a targeted 36-gene custom RMS panel at high coverage for single-nucleotide variation and fusion detection, and a shallow whole-genome sequencing for copy number variation.” (Abstract)</li>
+<li>“All cases had increased fusion reads number at higher disease burden timepoints as well as at relapse in patients following a fatal outcome.” (Results)</li>
+<li>“Overall the 5-year OS was 33%.” (Results)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/37730754.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/37730754.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -204,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 39214094 · <strong>DOI:</strong> 10.1016/j.ccell.2024.08.002 · <strong>Journal:</strong> Cancer Cell (2024)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>In a consecutive MSK cohort of 1,360 resected PDAC patients, <a href="../genes/KRAS.html">KRAS</a><sup>G12R</sup> is enriched in stage I disease, associated with increased node-negativity, decreased distant recurrence, and improved overall survival relative to KRAS<sup>G12D</sup>. Spatial profiling (NanoString CosMx SMI, n=20) and bulk RNA-seq (n=100 tumors) reveal enhanced oncogenic KRAS signaling and EMT in KRAS<sup>G12D</sup> versus increased TNF/NF-κB signaling in KRAS<sup>G12R</sup> tumors. Isogenic Kras<sup>mut</sup>;Trp53<sup>KO</sup> mouse organoids recapitulate the reduced migratory potential and improved orthotopic survival phenotype, validating the clinical findings.</p>
+<p>In a consecutive MSK cohort of 1,360 resected PDAC patients, <a href="../genes/KRAS.html">KRAS</a><sup>G12R</sup> is enriched in stage I disease, associated with increased node-negativity, decreased distant recurrence, and improved overall survival relative to <a href="../genes/KRAS.html">KRAS</a><sup>G12D</sup>. Spatial profiling (NanoString CosMx SMI, n=20) and bulk RNA-seq (n=100 tumors) reveal enhanced oncogenic KRAS signaling and EMT in KRAS<sup>G12D</sup> versus increased TNF/NF-κB signaling in KRAS<sup>G12R</sup> tumors. Isogenic Kras<sup>mut</sup>;Trp53<sup>KO</sup> mouse organoids recapitulate the reduced migratory potential and improved orthotopic survival phenotype, validating the clinical findings.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Spatial profiling:</strong> High-plex in situ RNA profiling via <a href="../methods/cosmx-smi.html">CosMx SMI</a> on tissue microarrays of 20 patients (7 KRAS<sup>G12R</sup> PDAC, 7 KRAS<sup>G12D</sup> PDAC, 6 normal pancreas); ~400 0.5×0.5 mm fields-of-view interrogated <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><strong>Mouse models:</strong> Isogenic ex vivo-transformed pancreatic organoids from LSL-KrasG12D and LSL-KrasG12R mice, both carrying Trp53 loss via CRISPR; orthotopic transplantation into immunocompetent B6 mice <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><strong>Genomic data:</strong> Deposited at cBioPortal as study <code>pancreas_msk_2024</code> (reference genome: hg19). RNA-seq deposited in the European Genome-Phenome Archive (EGA) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li><strong>External validation:</strong> Pooled 950-patient multi-dataset cohort comprising <a href="../datasets/paad_tcga.md">TCGA-Firehose Legacy</a> (n=148), <a href="../datasets/paad_icgc.md">ICGC-PACA-AU/CA</a> (n=375 + n=232), and the Sausen resectable cohort (n=100); survival analyses used the 855 patients with matched genomic and survival data <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li><strong>External validation:</strong> Pooled 950-patient multi-dataset cohort comprising <a href="../datasets/paad_tcga.html">TCGA-Firehose Legacy</a> (n=148), <a href="../datasets/paad_icgc.html">ICGC-PACA-AU/CA</a> (n=375 + n=232), and the Sausen resectable cohort (n=100); survival analyses used the 855 patients with matched genomic and survival data <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>
 <section id="key-findings" class="level2">
@@ -228,8 +228,8 @@ ul.task-list li input[type="checkbox"] {
 <li>KRAS<sup>G12R</sup> patients more likely to have a family history of pancreatic cancer (16.4% vs 4.2% for KRAS<sup>G12D</sup>, p=0.003) and tended to be non-smokers (not significant) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>KRAS<sup>G12R</sup> tumors carried more <a href="../genes/CDKN2A.html">CDKN2A</a> mutations than KRAS<sup>G12D</sup> (40% vs 22.1%, p=0.046); two or more tumor suppressor co-mutations (TP53/SMAD4/CDKN2A) more common in KRAS<sup>G12R</sup> (51% vs 30%, p=0.029); <a href="../genes/TP53.html">TP53</a> and <a href="../genes/SMAD4.html">SMAD4</a> frequencies not allele-dependent <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Time-to-recurrence: distant recurrence less frequent in KRAS<sup>G12R</sup> (2-year CIF 24.2% vs 43.2% for KRAS<sup>G12D</sup>; p=0.017); local recurrence elevated in KRAS<sup>G12R</sup> (2-year CIF 20.6% vs 10.6%; p=0.045) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>Overall survival (Kaplan-Meier): other KRAS 47 months, KRAS<sup>WT</sup> 46, KRAS<sup>G12R</sup> 39, KRAS<sup>G12V</sup> 39, KRAS<sup>G12D</sup> 30 (p=0.026); TP53 mutation associated with worse <a href="../cancer_types/OS.html">OS</a> (33.7 vs 43.6 months, p=0.014) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>External validation (n=855 pooled): KRAS<sup>G12D</sup> median OS 15.6 months vs KRAS<sup>G12R</sup> 20.8, KRAS<sup>G12V</sup> 22.4, KRAS<sup>WT</sup> 27 months (p=0.006); multivariate: KRAS<sup>G12R</sup> (HR 0.77 [0.60–0.99], p=0.038) and KRAS<sup>G12V</sup> (HR 0.71 [0.58–0.88], p=0.02) independently predictive of better OS <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>Overall survival (Kaplan-Meier): other KRAS 47 months, KRAS<sup>WT</sup> 46, KRAS<sup>G12R</sup> 39, KRAS<sup>G12V</sup> 39, KRAS<sup>G12D</sup> 30 (p=0.026); <a href="../genes/TP53.html">TP53</a> mutation associated with worse <a href="../cancer_types/OS.html">OS</a> (33.7 vs 43.6 months, p=0.014) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li>External validation (n=855 pooled): KRAS<sup>G12D</sup> median <a href="../cancer_types/OS.html">OS</a> 15.6 months vs KRAS<sup>G12R</sup> 20.8, KRAS<sup>G12V</sup> 22.4, KRAS<sup>WT</sup> 27 months (p=0.006); multivariate: KRAS<sup>G12R</sup> (HR 0.77 [0.60–0.99], p=0.038) and KRAS<sup>G12V</sup> (HR 0.71 [0.58–0.88], p=0.02) independently predictive of better OS <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><a href="../methods/cosmx-smi.html">CosMx SMI</a> spatial profiling and bulk <a href="../methods/rna-seq.html">RNA-seq</a>: KRAS<sup>G12D</sup> enriched for EMT (vimentin, fibronectin), mTORC1, E2F/G2M Hallmarks; KRAS<sup>G12R</sup> enriched for cytokeratin, NF-κB (p65), CD31, TNFα/NF-κB signaling <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>Mouse organoid orthotopic transplantation: KrasG12R;p53KO median OS 90 days vs KrasG12D;p53KO 44 days (p&lt;0.001); KrasG12R organoids show reduced migration without growth/proliferation differences <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="../genes/CDKN2A.html">CDKN2A</a> — mutated in 24% overall; enriched in KRAS<sup>G12R</sup> tumors (40% vs 22.1% for KRAS<sup>G12D</sup>, p=0.046); copy number deletion frequency low and not incorporated into allele comparisons <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><a href="../genes/SMAD4.html">SMAD4</a> — mutated in 17% of sequenced PDAC; frequency not different by KRAS allele <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><a href="../genes/BRAF.html">BRAF</a> — putative oncogenic mutations enriched in early-stage vs late-stage disease (3.9% vs 0.7%, p=0.042) but not significant after multiple comparisons <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li><a href="../genes/TGFBR2.md">TGFBR2</a> — enriched in early-stage vs late-stage disease (8.7% vs 2.4%, p=0.008) but not significant after multiple comparisons <a href="../papers/39214094.html">PMID:39214094</a>.</li>
+<li><a href="../genes/TGFBR2.html">TGFBR2</a> — enriched in early-stage vs late-stage disease (8.7% vs 2.4%, p=0.008) but not significant after multiple comparisons <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li><a href="../genes/MYC.html">MYC</a> — KrasG12R organoids show loss of Myc activation relative to KrasG12D; <a href="../genes/MYC.html">MYC</a> is a key downstream effector of KRAS in PDAC <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
 </section>
@@ -274,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 <li>“Overall survival in the individual datasets was quite comparable (median OS: ICGC AU 19.0 months; ICGC-CA 19.3; Sausen 18.26; TCGA 19.55; p&gt;0.95)” — Results, external validation <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 <li>“Orthotopic transplantation of KrasMUT; p53KO organoids into the pancreas of immunocompetent B6 mice showed prolonged survival for KrasG12R (median OS 90 days versus 44 days for KrasG12D; p&lt;0.001)” — Results, organoid section <a href="../papers/39214094.html">PMID:39214094</a>.</li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-10</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
 
 
 </section>

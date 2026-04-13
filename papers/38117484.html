@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The Epigenetic Evolution of Glioma Is Determined by the IDH1 Mutation Status and Treatment Regimen – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-epigenetic-evolution-of-glioma-is-determined-by-the-idh1-mutation-status-and-treatment-regimen" id="toc-the-epigenetic-evolution-of-glioma-is-determined-by-the-idh1-mutation-status-and-treatment-regimen" class="nav-link active" data-scroll-target="#the-epigenetic-evolution-of-glioma-is-determined-by-the-idh1-mutation-status-and-treatment-regimen">The Epigenetic Evolution of Glioma Is Determined by the IDH1 Mutation Status and Treatment Regimen</a>
+  <ul class="collapse">
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38117484.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38117484.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Epigenetic Evolution of Glioma Is Determined by the IDH1 Mutation Status and Treatment Regimen</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Malta TM </p>
+             <p>Sabedot TS </p>
+             <p>Morosini NS </p>
+             <p>Datta I </p>
+             <p>Garofano L </p>
+             <p>Vallentgoed W </p>
+             <p>Varn FS </p>
+             <p>Aldape K </p>
+             <p>D’Angelo F </p>
+             <p>Bakas S </p>
+             <p>Barnholtz-Sloan JS </p>
+             <p>Gan HK </p>
+             <p>Hasanain M </p>
+             <p>Hau AC </p>
+             <p>Johnson KC </p>
+             <p>Cazacu S </p>
+             <p>de Carvalho AC </p>
+             <p>Khasraw M </p>
+             <p>Kocakavuk E </p>
+             <p>Kouwenhoven MCM </p>
+             <p>Migliozzi S </p>
+             <p>Niclou SP </p>
+             <p>Niers JM </p>
+             <p>Ormond DR </p>
+             <p>Paek SH </p>
+             <p>Reifenberger G </p>
+             <p>Sillevis Smitt PA </p>
+             <p>Smits M </p>
+             <p>Stead LF </p>
+             <p>van den Bent MJ </p>
+             <p>Van Meir EG </p>
+             <p>Walenkamp A </p>
+             <p>Weiss T </p>
+             <p>Weller M </p>
+             <p>Westerman BA </p>
+             <p>Ylstra B </p>
+             <p>Wesseling P </p>
+             <p>Lasorella A </p>
+             <p>French PJ </p>
+             <p>Poisson LM </p>
+             <p>The GLASS Consortium </p>
+             <p>Verhaak RGW </p>
+             <p>Iavarone A </p>
+             <p>Noushmehr H </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/0008-5472.CAN-23-2093">10.1158/0008-5472.CAN-23-2093</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-epigenetic-evolution-of-glioma-is-determined-by-the-idh1-mutation-status-and-treatment-regimen" class="level1">
+<h1>The Epigenetic Evolution of Glioma Is Determined by the IDH1 Mutation Status and Treatment Regimen</h1>
+<p><strong>PMID:</strong> <a href="../papers/38117484.html">38117484</a> · <strong>DOI:</strong> 10.1158/0008-5472.CAN-23-2093 · <strong>Journal:</strong> Cancer Research (2024)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This study performed an epigenomic analysis of 132 matched initial and recurrent gliomas from the GLASS consortium to characterize longitudinal epigenetic evolution. IDH-wildtype gliomas showed a stable epigenome over time, while IDH-mutant gliomas exhibited progressive loss of DNA methylation at recurrence, particularly after treatment with <a href="../drugs/temozolomide.html">temozolomide</a> and/or radiotherapy. The study identified <a href="../genes/HOXD13.html">HOXD13</a> as a master regulator of IDH-mutant astrocytoma progression and demonstrated that treatment-associated epigenetic drift results in tumor microenvironment changes resembling treatment-naive IDH-wildtype glioblastoma.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>132 patients with matched initial and first recurrent gliomas from the GLASS International consortium (<a href="../datasets/difg_glass.html">difg_glass</a>), totaling 354 DNA methylation samples profiled by Illumina 450K or EPIC BeadChip methylation arrays (<a href="../methods/450k-methylation-array.html">450k-methylation-array</a>).</li>
+<li>Cancer types: IDH-mutant 1p/19q-codeleted oligodendroglioma (<a href="../cancer_types/ODG.html">ODG</a>; n=13), IDH-mutant astrocytoma (<a href="../cancer_types/ASTR.html">ASTR</a>; n=59), IDH-wildtype glioblastoma (<a href="../cancer_types/GB.html">GB</a>; n=60).</li>
+<li>54 patients with RNA sequencing data (<a href="../methods/rna-seq.html">rna-seq</a>), 64 with DNA sequencing (whole-genome (<a href="../methods/whole-genome-seq.html">whole-genome-seq</a>) or whole-exome (<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>) sequencing), 49 with all three modalities.</li>
+<li>Independent validation cohort: GLASS-NL consortium with 100 IDH-mutant astrocytoma patients (36 treated, 64 untreated paired samples).</li>
+<li>ChIP-seq for H3K27ac and H3K4me3 on 17 fresh-frozen GCIMP tumor samples (9 primary GCIMP-high, 4 primary GCIMP-low, 3 recurrent GCIMP-low).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>IDH-wildtype gliomas had a stable epigenome over time with low global methylation and zero CpG probes showing differential methylation &gt; 15% between initial and recurrent tumors (N=60).</li>
+<li>IDH-mutant gliomas showed genome-wide loss of DNA methylation at recurrence (674 CpG probes with &gt; 15% difference; N=72), with the most prominent loss in patients progressing from GCIMP-high to GCIMP-low.</li>
+<li>71% (10/14) of IDH-mutant tumors that switched subtypes transitioned from GCIMP-high to GCIMP-low, associated with worse overall survival (log-rank P=0.06).</li>
+<li>Treatment (temozolomide and/or radiotherapy) was associated with consistent loss of DNA methylation at recurrence compared to untreated patients: 620 differentially methylated probes (Kruskal-Wallis FDR &lt; 0.01, absolute difference &gt; 20%) distinguished treated from untreated groups.</li>
+<li>34% (10/29) of GCIMP-high tumors in the treatment group progressed to GCIMP-low vs.&nbsp;4% (1/27) in the nontreatment group (Fisher test, P=0.005).</li>
+<li>68% (15/22) of IDH-mutant astrocytomas progressed to high-grade in the treatment group vs.&nbsp;23% (6/26) in the nontreatment group (Fisher test, P=0.003) by Pan-CNS classification.</li>
+<li>60% (3/5) of IDH-mutant tumors that switched subtypes and had genomic data showed a hypermutator phenotype at recurrence (Fisher test, P=0.01).</li>
+<li><a href="../genes/HOXD13.html">HOXD13</a> was identified as a master regulator of IDH-mutant astrocytoma progression, showing increased H3K27ac and H3K4me3 peaks and overexpression in recurrent IDH-mutant noncodel gliomas (t-test, P=0.0019; N=24 paired samples).</li>
+<li>CRISPR knockout of <a href="../genes/HOXD13.html">HOXD13</a> in a patient-derived IDH-wildtype cell line resulted in decreased cell proliferation in a time-dependent manner.</li>
+<li>83 of the epigenetically regulated genes in IDH-mutant noncodel progression were experimentally confirmed HOXD13 targets, including <a href="../genes/CENPF.html">CENPF</a>, <a href="../genes/PCNA.html">PCNA</a>, and <a href="../genes/HOXA7.html">HOXA7</a>.</li>
+<li>Treatment-associated DNA hypomethylation was enriched for the <a href="../genes/NEUROD1.html">NEUROD1</a> motif, leading to upregulation of 18 unique genes including <a href="../genes/MYB.html">MYB</a> and <a href="../genes/RSPO4.html">RSPO4</a>.</li>
+<li>Treated recurrent IDH-mutant tumors showed increased CD31+ endothelial cells and CD8+ T lymphocyte infiltration compared to untreated recurrences, validated by immunohistochemistry.</li>
+<li>Previously treated IDH-mutant patients had worse survival from second surgery (log-rank P=0.0001) despite longer progression-free interval (40.5 vs.&nbsp;27 months, log-rank P=0.009).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/IDH1.html">IDH1</a> / <a href="../genes/IDH2.html">IDH2</a>: Mutations define the GCIMP phenotype with high DNA methylation; IDH-mutant gliomas undergo progressive epigenetic demethylation at recurrence especially after treatment.</li>
+<li><a href="../genes/HOXD13.html">HOXD13</a>: Epigenetically activated master regulator in IDH-mutant astrocytoma progression; gained H3K27ac and H3K4me3 marks at recurrence; CRISPR KO reduced proliferation.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>: Homozygous deletion is a diagnostic molecular marker for CNS WHO grade 4 IDH-mutant astrocytoma; associated with radiotherapy-related acquisition.</li>
+<li><a href="../genes/MGMT.html">MGMT</a>: Promoter methylation status assessed by DNA methylation array; relevant to temozolomide response.</li>
+<li><a href="../genes/MYB.html">MYB</a>: Upregulated after treatment-associated DNA hypomethylation; controls cell survival and proliferation.</li>
+<li><a href="../genes/RSPO4.html">RSPO4</a>: Upregulated after treatment-associated DNA hypomethylation; Wnt/beta-catenin pathway agonist.</li>
+<li><a href="../genes/CENPF.html">CENPF</a>: HOXD13 target gene; associated with glioma prognosis and cell proliferation.</li>
+<li><a href="../genes/PCNA.html">PCNA</a>: HOXD13 target gene; prognostic indicator in gliomas and potential therapeutic target.</li>
+<li><a href="../genes/HOXA7.html">HOXA7</a>: HOXD13 target gene; promotes tumor growth and metastasis.</li>
+<li><a href="../genes/MSH6.html">MSH6</a>: Somatic mutations in recurrent gliomas linked to hypermutation phenotype after alkylator chemotherapy.</li>
+<li><a href="../genes/NEUROD1.html">NEUROD1</a>: DNA sequence motif enriched at treatment-associated hypomethylated CpGs in IDH-mutant gliomas.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Standard treatment (temozolomide and/or radiotherapy) in IDH-mutant gliomas delays progression (PFI 40.5 vs.&nbsp;27 months, P=0.009) but is associated with epigenetic evolution toward an aggressive, IDH-wildtype-like phenotype at recurrence.</li>
+<li>Survival from second surgery is markedly worse in previously treated IDH-mutant patients (log-rank P=0.0001), consistent across the GLASS-International and GLASS-NL validation cohorts.</li>
+<li>Histologic progression to higher-grade astrocytoma (WHO grade 4) is significantly enriched in treated vs.&nbsp;untreated IDH-mutant gliomas, both by molecular and histopathological criteria.</li>
+<li>GCIMP subtype transition (GCIMP-high to GCIMP-low) may serve as an epigenetic biomarker for monitoring disease progression and treatment response.</li>
+<li>The identification of HOXD13 as a master regulator and its downstream targets (<a href="../genes/CENPF.html">CENPF</a>, <a href="../genes/PCNA.html">PCNA</a>) suggests potential therapeutic targets in recurrent IDH-mutant glioma.</li>
+<li>Increased neoangiogenesis (CD31+) and T-cell infiltration (CD8+) in treated recurrent IDH-mutant tumors suggest the TME changes could inform immunotherapy strategies.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Retrospective, nonrandomized cohort design: the observed worse survival after treatment may reflect inherent tumor aggressiveness rather than treatment-induced changes.</li>
+<li>HOXD13 functional validation was limited to an IDH-wildtype cell line due to the lack of available IDH-mutant GCIMP-low or recurrent cell lines; the biology may differ in the IDH-mutant context.</li>
+<li>Treatment groups were small (temozolomide only N=12, RT only N=18, RT+TMZ N=6, untreated N=33), limiting statistical power for distinguishing the individual effects of radiotherapy vs.&nbsp;chemotherapy.</li>
+<li>Deconvolution of tumor microenvironment used in silico methods (methylCIBERSORT) from bulk data; spatial and single-cell resolution would strengthen conclusions about TME changes.</li>
+<li>The study cannot establish causality between treatment and epigenetic changes; prospective studies are needed.</li>
+<li>GLASS-NL validation cohort did not confirm the association between treatment and histologic progression to WHO grade 4 (Fisher test, P=0.3), suggesting possible cohort-specific effects.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“IDHwt gliomas showed a stable epigenome over time with relatively low levels of global methylation. The epigenome of IDHmut gliomas showed initial high levels of genome-wide DNA methylation that was progressively reduced to levels similar to those of IDHwt tumors.” (Abstract)</li>
+<li>“HOXD13 [was identified] as a master regulator of IDHmut astrocytoma evolution.” (Abstract)</li>
+<li>“34% (10/29) of GCIMP-high tumors progressed to GCIMP-low in the treatment group versus 4% (1/27) in the nontreatment group (Fisher test, P = 0.005).” (Results, Treatment section)</li>
+<li>“patients receiving treatment after initial surgery had a worse survival than patients who did not receive treatment beyond surgery (log-rank P = 0.03)” and “we found a markedly worse survival in previously treated patients (log-rank P = 0.0001)” (Results, Clinical implications section)</li>
+<li>“recurrent IDHmut tumors that were treated after surgery were marked by increased infiltration of endothelial cells (CD31+) and CD8 T lymphocytes” (Results, TME section)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38117484.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38117484.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

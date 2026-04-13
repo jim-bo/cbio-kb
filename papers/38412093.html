@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The genomic and evolutionary landscapes of anaplastic thyroid carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-genomic-and-evolutionary-landscapes-of-anaplastic-thyroid-carcinoma" id="toc-the-genomic-and-evolutionary-landscapes-of-anaplastic-thyroid-carcinoma" class="nav-link active" data-scroll-target="#the-genomic-and-evolutionary-landscapes-of-anaplastic-thyroid-carcinoma">The genomic and evolutionary landscapes of anaplastic thyroid carcinoma</a>
+  <ul class="collapse">
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38412093.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38412093.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The genomic and evolutionary landscapes of anaplastic thyroid carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zeng PYF </p>
+             <p>Paulson SD </p>
+             <p>Lee SY </p>
+             <p>Patel N </p>
+             <p>Sunderland RX </p>
+             <p>Castillo-Suyo MA </p>
+             <p>Titmuss M </p>
+             <p>Yap TN </p>
+             <p>Lindsay J </p>
+             <p>Barrett JW </p>
+             <p>Boutros PC </p>
+             <p>Nichols AC </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.celrep.2024.113826">10.1016/j.celrep.2024.113826</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-genomic-and-evolutionary-landscapes-of-anaplastic-thyroid-carcinoma" class="level1">
+<h1>The genomic and evolutionary landscapes of anaplastic thyroid carcinoma</h1>
+<p><strong>PMID:</strong> <a href="../papers/38412093.html">38412093</a> · <strong>DOI:</strong> 10.1016/j.celrep.2024.113826 · <strong>Journal:</strong> Cell Reports (2024)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The Global Anaplastic Thyroid Cancer Initiative (GATCI), a 15-site consortium, sequenced tumor DNA from 329 thyroid cancer regions, including 213 from patients with primary anaplastic thyroid carcinomas (ATC). Using whole-exome sequencing, whole-genome sequencing, SNP arrays, and RNA-seq, the study defined the mutational landscape and molecular subtypes of ATC, demonstrating that ATC has a higher mutation burden than differentiated thyroid cancers but fewer mutations than most other adult cancer types. Multi-region whole-genome sequencing of 9 patients with co-occurring differentiated (DTC) and anaplastic components unambiguously demonstrated that ATC and DTC share a common clonal origin and diverge through acquisition of characteristic driver mutations, particularly in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>329 thyroid cancer regions from 292 patients across 15 institutions (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>213 regions from ATC patients (179 primary ATC, 1 metastatic ATC, 34 co-occurring DTC within ATCs) and 115 papillary thyroid cancer (PTC) regions</li>
+<li>141 ATCs characterized by WES (n=132) or WGS (n=9); 28 co-DTCs; 114 PTCs; 13 cell lines</li>
+<li>Copy-number arrays on 110 ATCs, 22 co-DTCs, 112 PTCs, 1 metastasis, and 13 cell lines</li>
+<li>RNA-seq on 24 primary ATCs and 13 cell lines, integrated with TCGA PTC data</li>
+<li>Dataset: <a href="../datasets/thyroid_gatci_2024.html">thyroid_gatci_2024</a></li>
+<li>Methods: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>, <a href="../methods/whole-genome-seq.html">whole-genome-seq</a>, <a href="../methods/rna-seq.html">rna-seq</a>, SNP microarrays</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>ATCs harbor 3.8 +/- 1.2 SNVs/Mb and 120 +/- 44 CNAs per tumor (mean +/- 99% CI), more than PTCs but fewer than most adult cancer types (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>42 genes were recurrently mutated in ATC via SeqSig analysis (FDR &lt; 0.05); top five by FDR: <a href="../genes/TP53.html">TP53</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/USH2A.html">USH2A</a></li>
+<li>Five distinct CNA subtypes (A-E) identified by consensus clustering, each with characteristic genomic and clinical features</li>
+<li>Loss of <a href="../genes/CDKN2A.html">CDKN2A</a> in 42% of ATCs; loss of <a href="../genes/BRCA2.html">BRCA2</a> in 33.6% of ATCs; loss of <a href="../genes/RB1.html">RB1</a> also recurrent</li>
+<li><a href="../genes/BRAF.html">BRAF</a> V600E was the only driver more common in DTC (50.9% of PTCs) than ATC (21.3%); half of <a href="../genes/BRAF.html">BRAF</a> V600E variants in co-occurring cases were detected solely in the DTC component</li>
+<li><a href="../genes/TP53.html">TP53</a> mutations increased from 0.9% in PTCs to 21.4% in co-DTCs to 36.8% in ATCs</li>
+<li><a href="../genes/TERT.html">TERT</a> promoter mutations correlated with <a href="../genes/TP53.html">TP53</a> mutations (FDR &lt; 0.01)</li>
+<li>BRAF V600E and RAS mutations were mutually exclusive; BRAF V600E and <a href="../genes/PIK3CA.html">PIK3CA</a> mutations co-occurred (FDR = 0.034)</li>
+<li>Multi-region WGS of 9 patients confirmed that ATC and co-occurring DTC share a common clonal origin, with the common ancestor harboring ~95% of CNAs but only 19.1% +/- 7.9% of SNVs</li>
+<li>ATC tumors lacking SNV drivers frequently harbored deletions in tumor suppressors <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/CDK7.html">CDK7</a>, or <a href="../genes/BRCA2.html">BRCA2</a> (10/21 such tumors)</li>
+<li>COSMIC mutational signatures 1, 5, 6, and 13 (AID/APOBEC) were active in ATC</li>
+<li>Germline variants in cancer predisposition genes detected: <a href="../genes/RECQL4.html">RECQL4</a> (5% of ATCs), <a href="../genes/BRCA2.html">BRCA2</a> (n=3), <a href="../genes/FANCF.html">FANCF</a> (n=3)</li>
+<li>Patients with lower mutation rate (&gt;10 SNVs/Mb) had significantly better survival (HR = 0.51, 95% CI 0.33-0.77, p = 0.002)</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a> deletion was associated with better survival (HR = 0.48, 95% CI 0.29-0.80, p = 0.005)</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a>: Non-functional/partially functional non-synonymous SNVs in 36.8% of ATCs; associated with elevated mRNA abundance (p = 0.0067); frequency increases from PTC to co-DTC to ATC</li>
+<li><a href="../genes/BRAF.html">BRAF</a>: V600E in 21.3% of ATCs vs.&nbsp;50.9% of PTCs; clonal/early subclonal timing; mutually exclusive with RAS</li>
+<li><a href="../genes/NRAS.html">NRAS</a>: Recurrently mutated in ATC; no frequency difference between PTC and ATC</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>: Co-occurs with BRAF V600E (FDR = 0.034); preferentially mutated in ATCs and co-DTCs</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>: Deleted in 42% of ATCs, recurrent in co-DTCs, rare in PTCs (~5%)</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a>: Deleted in 33.6% of ATCs, 13.6% of co-DTCs, 4.5% of PTCs; deletion associated with better survival</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a>: Recurrent somatic and germline alterations at both SNV and CNA level</li>
+<li><a href="../genes/RB1.html">RB1</a>: Recurrent deletions in ATCs</li>
+<li><a href="../genes/ATM.html">ATM</a>: Preferentially mutated in ATCs and co-DTCs; recurrent at both SNV and CNA level</li>
+<li><a href="../genes/ATR.html">ATR</a>: Recurrently mutated in ATC</li>
+<li><a href="../genes/NF1.html">NF1</a>: Focal CNA loss on chromosome 17 in ATC</li>
+<li><a href="../genes/EIF1AX.html">EIF1AX</a>: Mutations in 5 tumors including p.A113X splice-site mutation; tends to co-occur with RAS</li>
+<li><a href="../genes/TERT.html">TERT</a>: Promoter mutations correlated with TP53 mutations</li>
+<li><a href="../genes/USH2A.html">USH2A</a>: Recurrently mutated (top 5 SeqSig FDR); previously described in ATC</li>
+<li><a href="../genes/MET.html">MET</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/FAT1.html">FAT1</a>, <a href="../genes/SPEN.html">SPEN</a>, <a href="../genes/TET1.html">TET1</a>: Recurrent SNVs identified by SeqSig analysis</li>
+<li><a href="../genes/CDK7.html">CDK7</a>: Focal CNA loss on chromosome 5 in ATC</li>
+<li><a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/FGF9.html">FGF9</a>: Focal CNA loss on chromosome 13 in ATC</li>
+<li><a href="../genes/HMCN1.html">HMCN1</a>, <a href="../genes/HSPG2.html">HSPG2</a>: Cell-adhesion genes with frequent alterations; implicated in tumor cell migration and invasion</li>
+<li><a href="../genes/VGLL3.html">VGLL3</a>: 429 kb gain on chromosome 3p in 18% of ATCs</li>
+<li><a href="../genes/LRP1.html">LRP1</a>: Recurrent mutations previously described in ATC</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Treatment with radiotherapy (FDR = 1.7 x 10^-5) or surgery (FDR = 0.0089) was associated with improved overall survival; surgery and patient age strongly stratified ATC survival outcomes</li>
+<li>Tumors with fewer CNAs more often presented with distant metastases (Wilcoxon rank-sum, FDR = 0.034)</li>
+<li>CNA subtypes show distinctive clinical features: subtype A enriched for older patients with better survival; subtype D enriched for male patients with metastatic disease</li>
+<li>Recurrent alterations in <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, and <a href="../genes/ATM.html">ATM</a> at both SNV and CNA level rationalize investigation of PARP inhibitors in ATC</li>
+<li>Most samples were collected before FDA approval of <a href="../drugs/dabrafenib.html">dabrafenib</a> and <a href="../drugs/trametinib.html">trametinib</a> for ATC, limiting survival analysis in the targeted therapy era</li>
+<li>The shared clonal origin of ATC and DTC suggests early molecular surveillance could detect progression risk before anaplastic transformation</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>WES/WGS sequencing depth may have resulted in lower mutation rates than reported in other studies</li>
+<li>Heterogeneity in platforms used across the 15-site consortium</li>
+<li>Incomplete clinical data for all patients</li>
+<li>Limited sample size for RNA-seq characterization (n=24 primary ATCs)</li>
+<li>Most samples collected prior to widespread use of targeted therapy, potentially affecting survival outcomes</li>
+<li>It is unclear whether the co-evolution model holds for ATCs arising without co-occurring DTCs</li>
+<li>Functional studies are needed to determine which novel mutations drive dedifferentiation</li>
+<li>Larger cohorts required to understand germline predisposition to ATC</li>
+<li>Alternative driver mechanisms (e.g., fusions) in tumors lacking both SNV and CNA drivers remain unexplored</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We sequenced tumor DNA from 329 regions of thyroid cancer, including 213 from patients with primary anaplastic thyroid carcinomas.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“In this large genome-wide ATC cohort (n = 141, both WES and WGS), we identified 3.8 +/- 1.2 SNVs/Mb of DNA sequenced.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“The top five genes with the smallest SeqSig FDR were TP53, <a href="../genes/NRAS.html">NRAS</a>, BRAF, PIK3CA, and <a href="../genes/USH2A.html">USH2A</a>.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“Loss of CDKN2A was widespread (42% of ATCs), as was loss of <a href="../genes/BRCA2.html">BRCA2</a> (33.6% of ATCs).” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“TP53 mutation frequency varied from 0.9% of PTCs to 21.4% of co-occurring DTCs and 36.8% of ATCs.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“Every single case shared two features. First, co-DTC and co-occurring ATC shared a common clonal origin, with a common ancestor splitting to form separate lineages.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“The common ancestor harbored ~95% of CNAs, but only 19.1% +/- 7.9% of SNVs.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+<li>“Recurrent alterations in <a href="../genes/BRCA1.html">BRCA1</a>, BRCA2, and <a href="../genes/ATM.html">ATM</a> at both the SNV and the CNA level rationalize the investigations of PARP inhibitors.” (<a href="../papers/38412093.html">PMID:38412093</a>)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-11</strong>.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/38412093.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/38412093.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

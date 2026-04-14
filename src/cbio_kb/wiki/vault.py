@@ -348,6 +348,113 @@ def _build_entity_list(wiki_dir: Path, section: str) -> str:
     return " · ".join(links)
 
 
+_SECTION_LABELS = {
+    "papers": "Papers",
+    "genes": "Genes",
+    "cancer_types": "Cancer types",
+    "datasets": "Datasets",
+    "drugs": "Drugs",
+    "methods": "Methods",
+    "themes": "Themes",
+}
+
+
+def _section_label(slug: str) -> str:
+    return _SECTION_LABELS.get(slug, slug.replace("_", " ").title())
+
+
+def build_graph(wiki_dir: Path) -> dict:
+    """Build a hierarchical graph manifest of the wiki.
+
+    Returns a JSON-serialisable dict shaped as::
+
+        {
+          "root":     {"id": "index", "label": "Index"},
+          "sections": [{"id": "papers", "label": "Papers", "count": 21}, ...],
+          "nodes":    [{"id": "papers/12345.md", "section": "papers",
+                        "label": "12345", "title": "..."}, ...],
+          "tree_edges":  [{"from": "index", "to": "papers"},
+                          {"from": "papers", "to": "papers/12345.md"}, ...],
+          "cross_edges": [{"from": "papers/12345.md", "to": "genes/EGFR.md"}, ...]
+        }
+
+    Node ids for entity pages are vault-relative paths so they match
+    ``tool_use.args.path`` from the chat agent exactly.
+    """
+    sections_meta: list[dict] = []
+    nodes: list[dict] = []
+    tree_edges: list[dict] = []
+    cross_edges: list[dict] = []
+    known_ids: set[str] = set()
+
+    root_id = "index"
+    for section in _SECTIONS:
+        folder = wiki_dir / section
+        tree_edges.append({"from": root_id, "to": section})
+        if not folder.is_dir():
+            sections_meta.append(
+                {"id": section, "label": _section_label(section), "count": 0}
+            )
+            continue
+        pages = sorted(
+            (p for p in folder.glob("*.md") if p.name != "index.md"),
+            key=lambda p: p.stem,
+        )
+        sections_meta.append(
+            {"id": section, "label": _section_label(section), "count": len(pages)}
+        )
+        for p in pages:
+            rel = f"{section}/{p.name}"
+            known_ids.add(rel)
+            fm = _parse_frontmatter(p.read_text())
+            title = (
+                fm.get("title")
+                or fm.get("name")
+                or fm.get("symbol")
+                or p.stem
+            )
+            if isinstance(title, list):
+                title = title[0] if title else p.stem
+            nodes.append(
+                {
+                    "id": rel,
+                    "section": section,
+                    "label": p.stem,
+                    "title": str(title),
+                }
+            )
+            tree_edges.append({"from": section, "to": rel})
+
+    seen: set[tuple[str, str]] = set()
+    wiki_root = wiki_dir.resolve()
+    for src in sorted(known_ids):
+        src_path = wiki_dir / src
+        text = src_path.read_text()
+        for href in _LINK_RE.findall(text):
+            if href.startswith(("http://", "https://", "#", "mailto:")):
+                continue
+            target = (src_path.parent / href).resolve()
+            try:
+                target_rel = target.relative_to(wiki_root).as_posix()
+            except ValueError:
+                continue
+            if target_rel == src or target_rel not in known_ids:
+                continue
+            key = (src, target_rel)
+            if key in seen:
+                continue
+            seen.add(key)
+            cross_edges.append({"from": src, "to": target_rel})
+
+    return {
+        "root": {"id": root_id, "label": "Index"},
+        "sections": sections_meta,
+        "nodes": nodes,
+        "tree_edges": tree_edges,
+        "cross_edges": cross_edges,
+    }
+
+
 def build_index(wiki_dir: Path, template_path: Path) -> str:
     """Render ``wiki/index.md`` from a template with section counts and entity lists.
 

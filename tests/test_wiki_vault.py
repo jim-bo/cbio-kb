@@ -280,6 +280,51 @@ def test_build_index_entity_lists(tmp_path: Path) -> None:
     assert "Test paper" in result
 
 
+def test_build_graph_shape(tmp_path: Path) -> None:
+    _build_wiki(tmp_path)
+    g = vault.build_graph(tmp_path)
+
+    assert g["root"] == {"id": "index", "label": "Index"}
+
+    section_ids = {s["id"] for s in g["sections"]}
+    assert section_ids == {
+        "papers", "genes", "cancer_types", "datasets", "drugs", "methods", "themes",
+    }
+    counts = {s["id"]: s["count"] for s in g["sections"]}
+    assert counts["genes"] == 2
+    assert counts["papers"] == 1
+    assert counts["themes"] == 0  # dir absent in fixture
+
+    node_ids = {n["id"] for n in g["nodes"]}
+    assert "genes/EGFR.md" in node_ids
+    assert "papers/12345678.md" in node_ids
+
+    # Tree edges: root → every section, section → every entity in it.
+    tree = {(e["from"], e["to"]) for e in g["tree_edges"]}
+    assert ("index", "genes") in tree
+    assert ("genes", "genes/EGFR.md") in tree
+    assert ("papers", "papers/12345678.md") in tree
+
+    # Cross-edges from the fixture: EGFR → 12345678 paper, LUAD → EGFR + KRAS.
+    cross = {(e["from"], e["to"]) for e in g["cross_edges"]}
+    assert ("genes/EGFR.md", "papers/12345678.md") in cross
+    assert ("cancer_types/LUAD.md", "genes/EGFR.md") in cross
+    assert ("cancer_types/LUAD.md", "genes/KRAS.md") in cross
+    # No external/http links should ever appear.
+    for e in g["cross_edges"]:
+        assert "://" not in e["to"]
+
+
+def test_build_graph_titles_fall_back(tmp_path: Path) -> None:
+    _build_wiki(tmp_path)
+    g = vault.build_graph(tmp_path)
+    by_id = {n["id"]: n for n in g["nodes"]}
+    # Paper title comes from frontmatter.
+    assert by_id["papers/12345678.md"]["title"] == "Test paper"
+    # KRAS has no `title` field — fall back through name/symbol/stem.
+    assert by_id["genes/KRAS.md"]["title"] in ("KRAS",)
+
+
 def test_build_index_missing_section(tmp_path: Path) -> None:
     _build_wiki(tmp_path)
     template = tmp_path / "template.md"

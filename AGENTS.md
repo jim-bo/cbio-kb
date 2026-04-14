@@ -74,8 +74,9 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 4. For each entity kind with new/touched entries, dispatch **entity-page-writer** once with the entity→[PMID] mapping.
 5. Dispatch **crosslinker** over the new paper page plus any entity pages touched in step 4.
 6. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
-7. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
-8. Commit.
+7. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
+8. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
+9. Commit.
 
 ### Adding a batch of N papers
 
@@ -85,8 +86,9 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 4. Fan out **entity-page-writer** once per kind. Shard `genes` into alphabetical buckets of ~20 to keep prompts tight.
 5. Single **crosslinker** pass over the new papers + all touched entity pages (pin to `haiku`).
 6. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from template.
-7. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
-8. Commit per wave, not per paper.
+7. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` for the `/ask` Graph tab.
+8. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
+9. Commit per wave, not per paper.
 
 ### Reprocessing after ontology or template changes
 
@@ -108,6 +110,7 @@ Not every change requires a full recompilation. Three tiers:
 
 - **Model pinning**: `crosslinker` and `wiki-linter` → `haiku` (mechanical). `paper-compiler`, `theme-synthesizer`, and `wiki-querier` → `opus` (reasoning). `entity-page-writer` → `sonnet` (bounded extraction).
 - **Index generation**: no agent edits `wiki/index.md`. Run `uv run cbio-kb wiki build-index` once at the end — it reads `schema/templates/index.md` and fills section counts + entity links from disk.
+- **Graph manifest**: no agent edits `wiki/graph.json`. Run `uv run cbio-kb wiki build-graph` after `build-index` — it walks `wiki/` to emit nodes (root + sections + entities), tree edges, and cross-link adjacency for the `/ask` Graph tab.
 - **Rerun semantics**: `paper-compiler` overwrites `wiki/papers/{pmid}.md` via Write (idempotent rerun OK); `entity-page-writer` merges via Edit (append-only, idempotent by PMID dedup).
 - **Ontology discipline**: never invent a HUGO symbol, OncoTree code, or cBioPortal `studyId`. Unverified terms go to `schema/ontology/_observed.md`, not into canonical pages as if they were official.
 - **Provenance**: every entity page must carry `processed_by` / `processed_at` frontmatter and an italicized footer naming the agent that last touched it.

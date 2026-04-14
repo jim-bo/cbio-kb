@@ -1,16 +1,35 @@
 /* cbio-kb chat styles — scoped under .chat-container so they never leak into
    the broader Quarto wiki. Colors inherit Cosmo's Bootstrap 5 CSS variables. */
 
-/* Chat panel */
+/* Suppress page-level scroll on the chat page so the inner scroll
+   regions (messages, context feed) are the only scrollers. Also hide
+   Quarto's auto-generated "Ask" title block — the chat UI is its own
+   header. Scoped via `:has()` so other wiki pages keep their titles. */
+body:has(.chat-container) {
+    overflow: hidden;
+}
+body:has(.chat-container) #title-block-header,
+body:has(.chat-container) .nav-footer,
+body:has(.chat-container) > footer {
+    display: none;
+}
+
+/* Chat panel — pinned to the viewport between the Quarto navbar and
+   the bottom, so no amount of Quarto's default padding or title-block
+   sizing can push it off-screen. The navbar is `fixed-top` at ~56px;
+   we anchor below it. Using `position: fixed` bypasses #quarto-content
+   and main.content padding entirely, so other wiki pages are
+   untouched. */
 .chat-container {
-    flex: 1;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: flex;
     overflow: hidden;
-    /* Pin to the viewport so the chat + glass panel + graph all share a
-       single fixed-height frame. 60px leaves room for the Quarto navbar.
-       `dvh` keeps the sizing stable across mobile address-bar show/hide. */
-    height: calc(100dvh - 60px);
     min-height: 480px;
+    z-index: 1;
 }
 
 .chat-container .chat-panel {
@@ -596,4 +615,59 @@
 
 .chat-container .drawer-tab:hover {
     color: var(--bs-body-color);
+}
+
+.chat-container .drawer-tab-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    margin-left: 6px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: var(--bs-secondary-color);
+    cursor: pointer;
+    user-select: none;
+    line-height: 1;
+}
+
+.chat-container .drawer-tab-info:hover,
+.chat-container .drawer-tab-info:focus-visible {
+    background: var(--bs-secondary-bg);
+    color: var(--bs-primary);
+    outline: none;
+}
+
+.chat-container .drawer-tab-info[aria-expanded="true"] {
+    background: var(--bs-secondary-bg);
+    color: var(--bs-primary);
+}
+
+.chat-container .drawer-info-panel {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--bs-border-color);
+    border-left: 3px solid var(--bs-info);
+    background: var(--bs-tertiary-bg);
+    font-size: 12px;
+    line-height: 1.45;
+    color: var(--bs-body-color);
+    flex-shrink: 0;
+}
+
+.chat-container .drawer-info-panel p {
+    margin: 0;
+}
+
+@media (max-width: 991.98px) {
+    .chat-container .drawer-tab-info {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        font-size: 16px;
+    }
+    .chat-container .drawer-info-panel {
+        padding: 8px 12px;
+    }
 }

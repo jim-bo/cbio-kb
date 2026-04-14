@@ -2188,7 +2188,7 @@
     "href": "ask.html",
     "title": "Ask",
     "section": "",
-    "text": "Send\n        \n    \n\n    \n        Context \n        \n            As you ask a question, the context the model sees will build up here block-by-block."
+    "text": "Send\n        \n    \n\n    \n        Context \n    \n\n    \n        \n        \n            \n                Context \n            \n            \n                Graph \n            \n            \n                \n            \n        \n        \n            \n                \n                    As you ask a question, the context the model sees will build up here block-by-block.\n                \n            \n            \n                \n                    Fit\n                    Reset visits\n                    \n                         visited\n                         current turn\n                    \n                \n                \n                    Loading wiki graph…"
   },
   {
     "objectID": "drugs/fludarabine.html",

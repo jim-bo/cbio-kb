@@ -40,6 +40,7 @@ def _emit(
     result,
     *,
     summary: str | None = None,
+    result_paths: list[str] | None = None,
 ) -> None:
     """Push a ToolEvent describing this tool call onto the deps queue.
 
@@ -60,7 +61,10 @@ def _emit(
     # for English text. Good enough for a "glass window" indicator.
     tokens = max(1, chars // 4) if chars else 0
     preview = serialized[:500]
-    q.put_nowait(ToolEvent(name, args, preview, chars, tokens, summary))
+    q.put_nowait(ToolEvent(
+        name, args, preview, chars, tokens, summary,
+        result_paths=list(result_paths) if result_paths else [],
+    ))
 
 
 @agent.tool
@@ -72,7 +76,7 @@ async def read_page(ctx: RunContext[Deps], path: str) -> str:
         _emit(ctx, "read_page", {"path": path}, err)
         return err
     content = fpath.read_text()
-    _emit(ctx, "read_page", {"path": path}, content)
+    _emit(ctx, "read_page", {"path": path}, content, result_paths=[path])
     return content
 
 
@@ -104,7 +108,7 @@ async def read_section(ctx: RunContext[Deps], path: str, heading: str) -> str:
         _emit(ctx, "read_section", {"path": path, "heading": heading}, msg)
         return msg
     section = "\n".join(lines[start:end])
-    _emit(ctx, "read_section", {"path": path, "heading": heading}, section)
+    _emit(ctx, "read_section", {"path": path, "heading": heading}, section, result_paths=[path])
     return section
 
 
@@ -112,7 +116,7 @@ async def read_section(ctx: RunContext[Deps], path: str, heading: str) -> str:
 async def get_page_metadata(ctx: RunContext[Deps], path: str) -> dict:
     """Get frontmatter metadata for a wiki page (title, genes, cancer_types, etc.)."""
     result = get_properties(ctx.deps.wiki_dir, path)
-    _emit(ctx, "get_page_metadata", {"path": path}, result)
+    _emit(ctx, "get_page_metadata", {"path": path}, result, result_paths=[path])
     return result
 
 
@@ -134,6 +138,7 @@ async def search(ctx: RunContext[Deps], query: str) -> list[dict]:
     _emit(
         ctx, "search", {"query": query}, result,
         summary=f"{len(result)} hits",
+        result_paths=list(dict.fromkeys(h["file"] for h in result if isinstance(h, dict) and "file" in h)),
     )
     return result
 
@@ -145,6 +150,7 @@ async def follow_links(ctx: RunContext[Deps], path: str) -> list[str]:
     _emit(
         ctx, "follow_links", {"path": path}, result,
         summary=f"{len(result)} links",
+        result_paths=list(result),
     )
     return result
 
@@ -156,5 +162,6 @@ async def find_references(ctx: RunContext[Deps], entity: str) -> list[dict]:
     _emit(
         ctx, "find_references", {"entity": entity}, result,
         summary=f"{len(result)} backlinks",
+        result_paths=list(dict.fromkeys(h["source"] for h in result if isinstance(h, dict) and "source" in h)),
     )
     return result

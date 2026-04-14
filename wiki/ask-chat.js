@@ -506,11 +506,22 @@ const PATH_BEARING_TOOLS = new Set([
 ]);
 
 function notifyGraphOfToolUse(info) {
-    if (!window.AskGraph || !info || !info.args) return;
-    if (!PATH_BEARING_TOOLS.has(info.name)) return;
-    const path = info.args.path;
-    if (typeof path !== 'string' || !path) return;
+    if (!window.AskGraph || !info) return;
     const turn = typeof info.turn_index === 'number' ? info.turn_index : currentTurnIndex;
+    const paths = Array.isArray(info.result_paths) ? info.result_paths : [];
+    if (paths.length) {
+        for (const p of paths) {
+            if (typeof p !== 'string') continue;
+            if (!p.endsWith('.md')) continue;
+            if (p.startsWith('_') || p.startsWith('.')) continue;
+            if (p.includes('://')) continue;
+            window.AskGraph.markVisited(p, turn);
+        }
+        return;
+    }
+    if (!PATH_BEARING_TOOLS.has(info.name)) return;
+    const path = info.args && info.args.path;
+    if (typeof path !== 'string' || !path) return;
     window.AskGraph.markVisited(path, turn);
 }
 
@@ -528,6 +539,23 @@ function escapeHtml(s) {
 
 // ─── Drawer tab switching ───────────────────────────────────────────
 document.addEventListener('click', function(e) {
+    var infoBtn = e.target.closest('.drawer-tab-info');
+    if (infoBtn) {
+        e.stopPropagation();
+        var infoPaneId = infoBtn.dataset.infoFor;
+        if (!infoPaneId) return;
+        var panel = document.getElementById(infoPaneId.replace('-pane', '-info'));
+        if (!panel) return;
+        if (panel.hasAttribute('hidden')) {
+            panel.removeAttribute('hidden');
+            infoBtn.setAttribute('aria-expanded', 'true');
+        } else {
+            panel.setAttribute('hidden', '');
+            infoBtn.setAttribute('aria-expanded', 'false');
+        }
+        return;
+    }
+
     var tab = e.target.closest('.drawer-tab');
     if (!tab) return;
     var paneId = tab.dataset.drawerPane;
@@ -544,6 +572,14 @@ document.addEventListener('click', function(e) {
     tab.classList.add('active');
     tab.setAttribute('aria-selected', 'true');
     document.getElementById(paneId).classList.add('active');
+});
+
+document.addEventListener('keydown', function(e) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var infoBtn = e.target.closest('.drawer-tab-info');
+    if (!infoBtn) return;
+    e.preventDefault();
+    infoBtn.click();
 });
 
 // ─── Scroll to latest context card when drawer opens ────────────────

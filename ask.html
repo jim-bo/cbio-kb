@@ -69,11 +69,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="vendor-marked.min.js"></script>
+<script src="vendor-d3.min.js"></script>
 
 
 <link rel="stylesheet" href="site-styles.css">
 <link rel="stylesheet" href="ask-chat.css">
+<link rel="stylesheet" href="ask-graph.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -174,10 +176,42 @@ ul.task-list li input[type="checkbox"] {
         </form>
     </div>
 
-    <div class="glass-panel">
-        <h3 class="anchored">Context <span class="context-total" id="context-total"></span></h3>
-        <div id="context-feed" class="context-feed">
-            <p class="empty-state">As you ask a question, the context the model sees will build up here block-by-block.</p>
+    <button class="drawer-toggle btn btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#side-drawer" aria-controls="side-drawer">
+        Context <span class="drawer-toggle-badge" id="drawer-badge"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-bottom glass-panel" tabindex="-1" id="side-drawer" aria-labelledby="side-drawer-label">
+        <div class="drawer-handle"></div>
+        <div class="drawer-tabs" role="tablist">
+            <button class="drawer-tab active" role="tab" aria-selected="true" data-drawer-pane="context-pane">
+                Context <span class="context-total" id="context-total"></span>
+            </button>
+            <button class="drawer-tab" role="tab" aria-selected="false" data-drawer-pane="graph-pane">
+                Graph <span class="graph-visited-count" id="graph-visited-count"></span>
+            </button>
+            <button class="drawer-maximize" type="button" id="drawer-maximize" aria-label="Expand drawer">
+                <i class="bi bi-arrows-angle-expand"></i>
+            </button>
+        </div>
+        <div class="drawer-panes">
+            <div class="drawer-pane active" id="context-pane">
+                <div id="context-feed" class="context-feed">
+                    <p class="empty-state">As you ask a question, the context the model sees will build up here block-by-block.</p>
+                </div>
+            </div>
+            <div class="drawer-pane" id="graph-pane">
+                <div class="graph-toolbar">
+                    <button type="button" class="graph-btn" id="graph-fit-btn">Fit</button>
+                    <button type="button" class="graph-btn" id="graph-reset-btn">Reset visits</button>
+                    <span class="graph-legend">
+                        <span class="graph-legend-dot graph-legend-visited"></span> visited
+                        <span class="graph-legend-dot graph-legend-current"></span> current turn
+                    </span>
+                </div>
+                <div id="graph-canvas" class="graph-canvas">
+                    <p class="empty-state">Loading wiki graph…</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -591,7 +625,8 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/ask.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/ask.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer><script src="ask-chat.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/ask.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/ask.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer><script src="ask-graph.js"></script>
+<script src="ask-chat.js"></script>
 
 
 

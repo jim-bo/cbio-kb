@@ -1,11 +1,12 @@
 // API endpoint — local dev uses bundled FastAPI, production hits Cloud Run.
-// Append ?cloud=1 to the URL to force the Cloud Run backend from localhost
-// (useful for testing the real prod API without leaving local dev).
+// Append ?cloud=1 to force the Cloud Run backend from localhost.
+// Append ?port=N to override the local API port (default 8080).
 const _params = new URLSearchParams(location.search);
 const _forceCloud = _params.get('cloud') === '1';
+const _port = _params.get('port') || '8080';
 const _isLocal = !_forceCloud && (location.hostname === 'localhost' || location.hostname === '127.0.0.1');
 const API_URL = _isLocal
-    ? 'http://localhost:8080/api/chat'
+    ? 'http://localhost:' + _port + '/api/chat'
     : 'https://cbio-kb-api-7vd2hab3va-uc.a.run.app/api/chat';
 
 // Dev-only: ?delay=N holds the first event for N milliseconds so you can
@@ -251,10 +252,14 @@ function dispatchEvent(eventType, data, assistantDiv) {
         } else if (eventType === 'tool_use') {
             finalizeAssistantCard();
             addContextToolBlock(parsed);
+            notifyGraphOfToolUse(parsed);
         } else if (eventType === 'context_system') {
             addContextSystemBlock(parsed);
         } else if (eventType === 'turn_start') {
             handleTurnStart(parsed);
+            if (window.AskGraph && typeof parsed.turn_index === 'number') {
+                window.AskGraph.startTurn(parsed.turn_index);
+            }
         } else if (eventType === 'context_user') {
             addContextUserBlock(parsed);
         } else if (eventType === 'done') {
@@ -457,6 +462,8 @@ function updateContextTotal() {
     } else {
         contextTotal.textContent = '~' + formatTokens(contextTokens) + ' tok';
     }
+    var badge = document.getElementById('drawer-badge');
+    if (badge) badge.textContent = contextTotal.textContent;
 }
 
 function formatTokens(n) {
@@ -488,6 +495,25 @@ function toolIcon(name) {
     return icons[name] || '\u{1F527}';
 }
 
+// Forward path-bearing tool calls to the graph viz so the agent's
+// traversal of the wiki vault can be highlighted in the Graph tab.
+// Only `read_page` / `read_section` / `get_page_metadata` / `follow_links`
+// have a vault-relative `path` arg pointing at a known node; the other
+// tools (`search`, `list_pages`, `find_references`) operate on
+// folders/queries/entities, not on a specific page.
+const PATH_BEARING_TOOLS = new Set([
+    'read_page', 'read_section', 'get_page_metadata', 'follow_links',
+]);
+
+function notifyGraphOfToolUse(info) {
+    if (!window.AskGraph || !info || !info.args) return;
+    if (!PATH_BEARING_TOOLS.has(info.name)) return;
+    const path = info.args.path;
+    if (typeof path !== 'string' || !path) return;
+    const turn = typeof info.turn_index === 'number' ? info.turn_index : currentTurnIndex;
+    window.AskGraph.markVisited(path, turn);
+}
+
 function formatArgs(args) {
     return Object.entries(args).map(function(kv) {
         return kv[0] + '=' + kv[1];
@@ -499,3 +525,196 @@ function escapeHtml(s) {
     div.textContent = s;
     return div.innerHTML;
 }
+
+// ─── Drawer tab switching ───────────────────────────────────────────
+document.addEventListener('click', function(e) {
+    var tab = e.target.closest('.drawer-tab');
+    if (!tab) return;
+    var paneId = tab.dataset.drawerPane;
+    if (!paneId) return;
+
+    tab.closest('.drawer-tabs').querySelectorAll('.drawer-tab').forEach(function(t) {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+    });
+    document.querySelectorAll('.drawer-pane').forEach(function(p) {
+        p.classList.remove('active');
+    });
+
+    tab.classList.add('active');
+    tab.setAttribute('aria-selected', 'true');
+    document.getElementById(paneId).classList.add('active');
+});
+
+// ─── Scroll to latest context card when drawer opens ────────────────
+var sideDrawer = document.getElementById('side-drawer');
+if (sideDrawer) {
+    sideDrawer.addEventListener('shown.bs.offcanvas', function() {
+        var last = contextFeed.lastElementChild;
+        if (last) last.scrollIntoView({behavior: 'instant', block: 'end'});
+    });
+}
+
+// ─── Drag-to-resize + snap + maximize on drawer ─────────────────────
+(function() {
+    var drawer = document.getElementById('side-drawer');
+    if (!drawer) return;
+    var handle = drawer.querySelector('.drawer-handle');
+    var maxBtn = document.getElementById('drawer-maximize');
+    if (!handle) return;
+
+    // Snap points as fraction of viewport height.
+    var SNAPS = { COLLAPSED: 0.25, MID: 0.6, MAX: 0.92 };
+    // Drag below this height → dismiss drawer entirely.
+    // Tuned so a single assertive swipe from MID (60vh) past the
+    // COLLAPSED band closes the drawer, while a gentle drag lands
+    // at COLLAPSED (25vh).
+    var DISMISS_BELOW_VH = 0.20;
+
+    var startY = null;
+    var startHeight = 0;
+    var dragging = false;
+    var moved = false;
+    var downTime = 0;
+    var lastSnap = 'MID';
+
+    // A pointerup that travelled < TAP_PX and took < TAP_MS is a tap,
+    // not a drag — treat it as "close the drawer."
+    var TAP_PX = 6;
+    var TAP_MS = 300;
+
+    function vhPx(ratio) { return window.innerHeight * ratio; }
+
+    function applyHeight(px) {
+        drawer.style.height = px + 'px';
+        drawer.style.maxHeight = px + 'px';
+    }
+
+    function resetInline() {
+        drawer.style.transition = '';
+        drawer.style.transform = '';
+        drawer.style.height = '';
+        drawer.style.maxHeight = '';
+    }
+
+    function nearestSnap(pxHeight) {
+        var keys = ['COLLAPSED', 'MID', 'MAX'];
+        var best = keys[0], bestDiff = Math.abs(pxHeight - vhPx(SNAPS[keys[0]]));
+        for (var i = 1; i < keys.length; i++) {
+            var d = Math.abs(pxHeight - vhPx(SNAPS[keys[i]]));
+            if (d < bestDiff) { best = keys[i]; bestDiff = d; }
+        }
+        return best;
+    }
+
+    function snapTo(name) {
+        lastSnap = name;
+        drawer.style.transition = 'height 0.2s ease-out, max-height 0.2s ease-out';
+        applyHeight(vhPx(SNAPS[name]));
+        setTimeout(function() { drawer.style.transition = ''; }, 220);
+        updateMaxBtn();
+    }
+
+    function updateMaxBtn() {
+        if (!maxBtn) return;
+        var icon = maxBtn.querySelector('i');
+        if (!icon) return;
+        var maxed = lastSnap === 'MAX';
+        icon.className = maxed ? 'bi bi-arrows-angle-contract' : 'bi bi-arrows-angle-expand';
+        maxBtn.setAttribute('aria-label', maxed ? 'Collapse drawer' : 'Expand drawer');
+    }
+
+    function dismiss() {
+        drawer.style.transition = 'transform 0.2s ease-out';
+        drawer.style.transform = 'translateY(100%)';
+        setTimeout(function() {
+            var inst = bootstrap.Offcanvas.getInstance(drawer);
+            if (inst) inst.hide(); else resetInline();
+        }, 200);
+    }
+
+    // Whenever Bootstrap finishes hiding (any path: swipe, backdrop,
+    // close button, Esc), reset inline styles so the next open starts
+    // fresh at the CSS default (60vh / MID).
+    drawer.addEventListener('hidden.bs.offcanvas', function() {
+        resetInline();
+        lastSnap = 'MID';
+        updateMaxBtn();
+    });
+
+    // Also reset on show, defensively — catches any cross-cycle leak.
+    drawer.addEventListener('show.bs.offcanvas', function() {
+        drawer.style.transition = '';
+        drawer.style.transform = '';
+        // Keep CSS default 60vh on open by clearing inline height.
+        drawer.style.height = '';
+        drawer.style.maxHeight = '';
+        startY = null;
+        dragging = false;
+        lastSnap = 'MID';
+        updateMaxBtn();
+    });
+
+    function onDown(e) {
+        if (!drawer.classList.contains('show')) return;
+        startY = e.clientY;
+        startHeight = drawer.getBoundingClientRect().height;
+        dragging = true;
+        moved = false;
+        downTime = Date.now();
+        drawer.style.transition = 'none';
+        try { handle.setPointerCapture(e.pointerId); } catch (_) {}
+        e.preventDefault();
+    }
+
+    function onMove(e) {
+        if (!dragging) return;
+        var deltaY = e.clientY - startY;
+        if (Math.abs(deltaY) > TAP_PX) moved = true;
+        // Drag DOWN (positive deltaY) shrinks; drag UP (negative) grows.
+        var newH = Math.max(0, Math.min(window.innerHeight, startHeight - deltaY));
+        applyHeight(newH);
+    }
+
+    function onUp(e) {
+        if (!dragging) {
+            // Defensive: always clear state even if onDown was missed.
+            startY = null;
+            return;
+        }
+        dragging = false;
+        startY = null;
+        try { handle.releasePointerCapture(e.pointerId); } catch (_) {}
+
+        var elapsed = Date.now() - downTime;
+        if (!moved && elapsed < TAP_MS) {
+            // Tap (no drag) → dismiss.
+            // Reset any transient height set during a sub-threshold move.
+            drawer.style.height = '';
+            drawer.style.maxHeight = '';
+            dismiss();
+            return;
+        }
+
+        var h = drawer.getBoundingClientRect().height;
+        if (h < vhPx(DISMISS_BELOW_VH)) {
+            dismiss();
+        } else {
+            snapTo(nearestSnap(h));
+        }
+    }
+
+    handle.addEventListener('pointerdown', onDown);
+    handle.addEventListener('pointermove', onMove);
+    handle.addEventListener('pointerup', onUp);
+    handle.addEventListener('pointercancel', onUp);
+    // Fallback: if pointerup escapes the handle, window still catches it.
+    window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+
+    if (maxBtn) {
+        maxBtn.addEventListener('click', function() {
+            snapTo(lastSnap === 'MAX' ? 'MID' : 'MAX');
+        });
+    }
+})();

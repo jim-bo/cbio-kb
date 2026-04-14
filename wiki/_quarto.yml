@@ -5,6 +5,11 @@ project:
     - "_schema/**"
     - "ask-chat.js"
     - "ask-chat.css"
+    - "ask-graph.js"
+    - "ask-graph.css"
+    - "graph.json"
+    - "vendor-d3.min.js"
+    - "vendor-marked.min.js"
     - "site-styles.css"
 
 validate-yaml: false

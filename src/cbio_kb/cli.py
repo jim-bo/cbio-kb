@@ -205,6 +205,26 @@ def _cmd_wiki_build_index(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_wiki_build_graph(args: argparse.Namespace) -> int:
+    import json
+    from cbio_kb.wiki import vault
+
+    wiki_dir = Path(args.wiki_dir)
+    graph = vault.build_graph(wiki_dir)
+    if args.dry_run:
+        print(json.dumps(graph, indent=2))
+        return 0
+    out_path = wiki_dir / "graph.json"
+    out_path.write_text(json.dumps(graph, indent=2) + "\n")
+    n_nodes = 1 + len(graph["sections"]) + len(graph["nodes"])
+    print(
+        f"[build-graph] wrote {out_path} "
+        f"({n_nodes} nodes, {len(graph['tree_edges'])} tree edges, "
+        f"{len(graph['cross_edges'])} cross edges)"
+    )
+    return 0
+
+
 def _cmd_wiki_reprocess_frontmatter(args: argparse.Namespace) -> int:
     from cbio_kb.wiki import reprocess
 
@@ -372,6 +392,17 @@ def build_parser() -> argparse.ArgumentParser:
     w_bindex.add_argument("--dry-run", action="store_true",
                           help="Print rendered index to stdout instead of writing")
     w_bindex.set_defaults(func=_cmd_wiki_build_index)
+
+    w_bgraph = wiki_sub.add_parser(
+        "build-graph",
+        help="Regenerate wiki/graph.json (hierarchy + cross-link adjacency)",
+    )
+    w_bgraph.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Print rendered graph JSON to stdout instead of writing",
+    )
+    w_bgraph.set_defaults(func=_cmd_wiki_build_graph)
 
     w_repatch = wiki_sub.add_parser("reprocess-frontmatter",
                                      help="Tier 1: patch frontmatter to match templates (deterministic)")

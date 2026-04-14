@@ -185,9 +185,11 @@ ul.task-list li input[type="checkbox"] {
         <div class="drawer-tabs" role="tablist">
             <button class="drawer-tab active" role="tab" aria-selected="true" data-drawer-pane="context-pane">
                 Context <span class="context-total" id="context-total"></span>
+                <span class="drawer-tab-info" data-info-for="context-pane" role="button" tabindex="0" aria-label="About the Context tab" aria-expanded="false">ⓘ</span>
             </button>
             <button class="drawer-tab" role="tab" aria-selected="false" data-drawer-pane="graph-pane">
                 Graph <span class="graph-visited-count" id="graph-visited-count"></span>
+                <span class="drawer-tab-info" data-info-for="graph-pane" role="button" tabindex="0" aria-label="About the Graph tab" aria-expanded="false">ⓘ</span>
             </button>
             <button class="drawer-maximize" type="button" id="drawer-maximize" aria-label="Expand drawer">
                 <i class="bi bi-arrows-angle-expand"></i>
@@ -195,11 +197,17 @@ ul.task-list li input[type="checkbox"] {
         </div>
         <div class="drawer-panes">
             <div class="drawer-pane active" id="context-pane">
+                <div class="drawer-info-panel" id="context-info" hidden="">
+                    <p>Everything the AI model sees on each turn — your message, its responses, and every tool call it makes. Click any card to expand the raw contents. Older tool results are automatically pruned to keep the model's attention budget lean.</p>
+                </div>
                 <div id="context-feed" class="context-feed">
                     <p class="empty-state">As you ask a question, the context the model sees will build up here block-by-block.</p>
                 </div>
             </div>
             <div class="drawer-pane" id="graph-pane">
+                <div class="drawer-info-panel" id="graph-info" hidden="">
+                    <p>A map of the wiki. Index on the left, section folders in the middle, every page as a leaf on the right. As the AI reads pages their nodes light up and the path from Index → section → page traces in yellow. Hover a leaf to see its cross-links to other pages, and click any node to open that page.</p>
+                </div>
                 <div class="graph-toolbar">
                     <button type="button" class="graph-btn" id="graph-fit-btn">Fit</button>
                     <button type="button" class="graph-btn" id="graph-reset-btn">Reset visits</button>

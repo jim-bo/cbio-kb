@@ -20,8 +20,15 @@
     let graph = null;
     let svg = null, gView = null, gTree = null, gCross = null, gNodes = null;
     let zoom = null;
+    let popupListenersInstalled = false;
+    let canvasEl = null;
     const nodesByPath = new Map();
     const nodeElements = new Map();
+    // Sections are collapsed by default; expansion is sticky for the
+    // page-life session. A section expands automatically on the first
+    // `markVisited` into one of its children, or when the user clicks
+    // the section node directly.
+    const expandedSections = new Set();
 
     // Visit state — accumulates across all turns of the page-life session.
     const visited = new Set();
@@ -112,16 +119,54 @@
         return {
             id: graph.root.id, label: graph.root.label, kind: 'root',
             children: graph.sections.map(function(s) {
+                const isExpanded = expandedSections.has(s.id);
                 return {
                     id: s.id, label: s.label, count: s.count,
                     kind: 'section', section: s.id,
-                    children: childrenBySection.get(s.id) || [],
+                    expanded: isExpanded,
+                    children: isExpanded ? (childrenBySection.get(s.id) || []) : [],
                 };
             }),
         };
     }
 
+    function rerender() {
+        if (!canvasEl) return;
+        render(canvasEl);
+        replayVisits();
+    }
+
+    function replayVisits() {
+        // Re-apply node + tree-edge state after a re-layout (e.g. a
+        // section collapse/expand). `paintNode` / `paintAncestor` /
+        // `paintTreeEdge` are idempotent.
+        for (const [path, cnt] of visitCount) {
+            paintNode(path, cnt);
+            const leaf = nodesByPath.get(path);
+            if (!leaf) continue;
+            let cursor = leaf;
+            while (cursor.parent) {
+                paintAncestor(cursor.parent.data.id);
+                paintTreeEdge(cursor.parent.data.id, cursor.data.id, currentTurn);
+                cursor = cursor.parent;
+            }
+        }
+    }
+
+    function toggleSection(sectionId) {
+        if (expandedSections.has(sectionId)) expandedSections.delete(sectionId);
+        else expandedSections.add(sectionId);
+        rerender();
+    }
+
+    function expandSection(sectionId) {
+        if (expandedSections.has(sectionId)) return false;
+        expandedSections.add(sectionId);
+        return true;
+    }
+
     function render(canvas) {
+        canvasEl = canvas;
         canvas.innerHTML = '';
         const root = d3.hierarchy(buildHierarchy());
         root.sort(function(a, b) {
@@ -214,7 +259,8 @@
             .attr('dy', '0.32em')
             .attr('text-anchor', 'end')
             .text(function(d) {
-                return d.data.label + ' (' + d.data.count + ')';
+                const chevron = d.data.expanded ? '▾' : '▸';
+                return chevron + ' ' + d.data.label + ' (' + d.data.count + ')';
             });
 
         nodeGroups.filter(function(d) { return d.data.kind === 'root'; })
@@ -228,6 +274,15 @@
         nodeGroups.filter(function(d) { return d.data.kind === 'entity'; })
             .on('mouseenter', function(_event, d) { showCrossEdges(d); })
             .on('mouseleave', function() { hideCrossEdges(); });
+
+        nodeGroups.on('click', function(event, d) {
+            event.stopPropagation();
+            if (d.data.kind === 'section') {
+                toggleSection(d.data.id);
+                return;
+            }
+            showNodePopup(d, this);
+        });
 
         nodeGroups.each(function(d) { nodeElements.set(d.data.id, this); });
 
@@ -293,6 +348,149 @@
         }
     }
 
+    function sectionSingular(section) {
+        const map = {
+            papers: 'paper', genes: 'gene', cancer_types: 'cancer type',
+            datasets: 'dataset', drugs: 'drug', methods: 'method', themes: 'theme',
+        };
+        return map[section] || section;
+    }
+
+    function removePopup() {
+        var canvas = document.getElementById('graph-canvas');
+        if (!canvas) return;
+        var existing = canvas.querySelector('.graph-popup');
+        if (existing) existing.remove();
+    }
+
+    function showNodePopup(d, nodeEl) {
+        var canvas = document.getElementById('graph-canvas');
+        if (!canvas) return;
+
+        // Remove any existing popup.
+        removePopup();
+
+        // Build popup element.
+        var popup = document.createElement('div');
+        popup.className = 'graph-popup';
+
+        // Header row.
+        var header = document.createElement('div');
+        header.className = 'graph-popup-header';
+
+        var labelEl = document.createElement('span');
+        labelEl.className = 'graph-popup-label';
+        labelEl.textContent = d.data.label || d.data.id;
+
+        var closeBtn = document.createElement('button');
+        closeBtn.className = 'graph-popup-close';
+        closeBtn.setAttribute('aria-label', 'Close');
+        closeBtn.textContent = '✕';
+        closeBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            removePopup();
+        });
+
+        header.appendChild(labelEl);
+        header.appendChild(closeBtn);
+        popup.appendChild(header);
+
+        // Meta line.
+        var meta = document.createElement('div');
+        meta.className = 'graph-popup-meta';
+        if (d.data.kind === 'entity') {
+            meta.textContent = sectionSingular(d.data.section);
+        } else if (d.data.kind === 'section') {
+            meta.textContent = (d.data.count || 0) + ' pages';
+        } else {
+            meta.textContent = 'Wiki index';
+        }
+        popup.appendChild(meta);
+
+        // Title (entity only).
+        if (d.data.kind === 'entity' && d.data.title) {
+            var titleEl = document.createElement('p');
+            titleEl.className = 'graph-popup-title';
+            titleEl.textContent = d.data.title;
+            popup.appendChild(titleEl);
+        }
+
+        // Action link.
+        var href;
+        if (d.data.kind === 'entity') {
+            href = d.data.id.replace(/\.md$/, '.html');
+        } else if (d.data.kind === 'section') {
+            href = d.data.id + '/index.html';
+        } else {
+            href = 'index.html';
+        }
+        var link = document.createElement('a');
+        link.className = 'graph-popup-link';
+        link.href = href;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = 'Open page ↗';
+        popup.appendChild(link);
+
+        // Position the popup near the clicked node.
+        var canvasRect = canvas.getBoundingClientRect();
+        var nodeRect = nodeEl.getBoundingClientRect ? nodeEl.getBoundingClientRect() :
+            (nodeEl.getBBox ? (function() {
+                var b = nodeEl.getBBox();
+                var ctm = nodeEl.getScreenCTM();
+                return {
+                    left: ctm.e + b.x,
+                    top: ctm.f + b.y,
+                    right: ctm.e + b.x + b.width,
+                    bottom: ctm.f + b.y + b.height,
+                    width: b.width,
+                    height: b.height,
+                };
+            })() : canvasRect);
+
+        var POPUP_W = 260;
+        var POPUP_H = 160; // estimated
+        var MARGIN = 8;
+
+        // Horizontal: prefer right of node, fall back to left.
+        var nodeRight = nodeRect.right - canvasRect.left;
+        var nodeLeft = nodeRect.left - canvasRect.left;
+        var left;
+        if (nodeRight + POPUP_W + MARGIN <= canvasRect.width) {
+            left = nodeRight + MARGIN;
+        } else {
+            left = nodeLeft - POPUP_W - MARGIN;
+        }
+        left = Math.max(MARGIN, left);
+
+        // Vertical: center on node, clamp to canvas.
+        var nodeMidY = (nodeRect.top + nodeRect.bottom) / 2 - canvasRect.top;
+        var top = nodeMidY - POPUP_H / 2;
+        top = Math.max(MARGIN, Math.min(top, canvasRect.height - POPUP_H - MARGIN));
+
+        popup.style.left = left + 'px';
+        popup.style.top = top + 'px';
+
+        canvas.appendChild(popup);
+
+        // Install global listeners once.
+        if (!popupListenersInstalled) {
+            popupListenersInstalled = true;
+
+            document.addEventListener('click', function(ev) {
+                var popupEl = document.querySelector('#graph-canvas .graph-popup');
+                if (!popupEl) return;
+                if (!popupEl.contains(ev.target) && !ev.target.closest('g.node')) {
+                    removePopup();
+                }
+            });
+
+            document.addEventListener('keydown', function(ev) {
+                if (ev.key === 'Escape') removePopup();
+            });
+        }
+    }
+
     function fit() {
         if (!svg || !zoom) return;
         svg.transition().duration(300)
@@ -305,6 +503,23 @@
         visitCount.set(path, cnt);
         visited.add(path);
         lastVisitedByTurn.set(currentTurn, path);
+
+        // Auto-expand the containing section so the visited leaf becomes
+        // visible. The section is inferred from the vault-relative path
+        // (first segment). `expandSection` re-renders if it flipped,
+        // after which we fall through to paint the newly-rendered node.
+        const section = typeof path === 'string' ? path.split('/')[0] : null;
+        if (section && !expandedSections.has(section)) {
+            // Only auto-expand if this section actually exists in the
+            // graph; otherwise we'd trigger a pointless re-render.
+            const known = graph && graph.sections && graph.sections.some(function(s) {
+                return s.id === section;
+            });
+            if (known) {
+                expandSection(section);
+                rerender();
+            }
+        }
 
         paintNode(path, cnt);
 

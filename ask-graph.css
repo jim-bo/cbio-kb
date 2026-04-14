@@ -174,4 +174,109 @@
     font-size: 11px;
     font-weight: 600;
     fill: var(--bs-body-color);
+    cursor: pointer;
+}
+
+.chat-container .node-section {
+    cursor: pointer;
+}
+
+.chat-container .graph-canvas {
+    position: relative;  /* anchor for absolute-positioned popup */
+}
+
+.chat-container .graph-popup {
+    position: absolute;
+    z-index: 10;
+    max-width: 260px;
+    min-width: 200px;
+    background: var(--bs-body-bg);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.4;
+    pointer-events: auto;
+}
+
+.chat-container .graph-popup-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.chat-container .graph-popup-label {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--bs-body-color);
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chat-container .graph-popup-close {
+    background: none;
+    border: none;
+    color: var(--bs-secondary-color);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    padding: 4px 6px;
+    min-width: 28px;
+    min-height: 28px;
+    border-radius: 4px;
+}
+
+.chat-container .graph-popup-close:hover {
+    background: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+}
+
+.chat-container .graph-popup-meta {
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--bs-secondary-color);
+    margin-bottom: 6px;
+}
+
+.chat-container .graph-popup-title {
+    margin: 0 0 10px 0;
+    color: var(--bs-body-color);
+}
+
+.chat-container .graph-popup-link {
+    display: block;
+    text-align: center;
+    background: var(--bs-primary);
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: 600;
+    min-height: 36px;
+    line-height: 20px;
+}
+
+.chat-container .graph-popup-link:hover {
+    background: var(--bs-primary);
+    filter: brightness(1.1);
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+    .chat-container .graph-popup-close {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    .chat-container .graph-popup-link {
+        min-height: 44px;
+        line-height: 28px;
+    }
 }

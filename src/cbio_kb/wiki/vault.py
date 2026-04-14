@@ -20,6 +20,17 @@ _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 _HEADING_RE = re.compile(r"^(#{1,6}) (.+)$")
 _LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
+_SKIP_DIRS = {"_site", ".quarto", "_freeze"}
+
+
+def _iter_md(wiki_dir: Path):
+    """Yield all vault .md files, skipping Quarto build outputs."""
+    for fpath in sorted(wiki_dir.rglob("*.md")):
+        rel = fpath.relative_to(wiki_dir)
+        if rel.parts and rel.parts[0] in _SKIP_DIRS:
+            continue
+        yield fpath
+
 
 def _parse_frontmatter(text: str) -> dict:
     """Parse YAML-ish frontmatter into a dict.
@@ -166,7 +177,7 @@ def search_context(
     if search_root.is_file():
         md_files = [search_root]
     else:
-        md_files = sorted(search_root.rglob("*.md"))
+        md_files = list(_iter_md(wiki_dir)) if search_root == wiki_dir else sorted(search_root.rglob("*.md"))
 
     pattern = re.compile(re.escape(query), re.IGNORECASE)
 
@@ -202,7 +213,7 @@ def find_backlinks(wiki_dir: Path, file_stem: str) -> list[dict]:
         rf"|(?:\[\[{re.escape(file_stem)}\]\])"
     )
     results: list[dict] = []
-    for fpath in sorted(wiki_dir.rglob("*.md")):
+    for fpath in _iter_md(wiki_dir):
         if fpath.stem == file_stem:
             continue  # skip self
         lines = fpath.read_text().splitlines()
@@ -224,7 +235,7 @@ def find_links(wiki_dir: Path, path: str) -> list[str]:
 def find_by_tag(wiki_dir: Path, tag: str) -> list[str]:
     """Return vault-relative paths of pages whose frontmatter ``tags`` includes *tag*."""
     results: list[str] = []
-    for fpath in sorted(wiki_dir.rglob("*.md")):
+    for fpath in _iter_md(wiki_dir):
         fm = _parse_frontmatter(fpath.read_text())
         tags = fm.get("tags", [])
         if isinstance(tags, str):
@@ -240,7 +251,7 @@ def find_unresolved(wiki_dir: Path) -> list[dict]:
     Returns ``[{source, target, href}, ...]``.
     """
     all_pages = {
-        p.relative_to(wiki_dir).as_posix(): p for p in wiki_dir.rglob("*.md")
+        p.relative_to(wiki_dir).as_posix(): p for p in _iter_md(wiki_dir)
     }
     results: list[dict] = []
     for rel, fpath in sorted(all_pages.items()):
@@ -274,7 +285,7 @@ def find_orphans(wiki_dir: Path) -> list[str]:
         if re.search(r"contents:\s*\"?\*\.md\"?", qtext):
             listed_sections.add(qmd.parent.name)
     orphans: list[str] = []
-    for fpath in sorted(wiki_dir.rglob("*.md")):
+    for fpath in _iter_md(wiki_dir):
         rel = fpath.relative_to(wiki_dir).as_posix()
         if rel == "index.md":
             continue
@@ -293,7 +304,7 @@ def find_deadends(wiki_dir: Path) -> list[str]:
     Returns vault-relative paths.
     """
     deadends: list[str] = []
-    for fpath in sorted(wiki_dir.rglob("*.md")):
+    for fpath in _iter_md(wiki_dir):
         text = fpath.read_text()
         has_wiki_link = False
         for href in _LINK_RE.findall(text):

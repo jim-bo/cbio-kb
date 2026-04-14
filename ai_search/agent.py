@@ -47,9 +47,11 @@ answer to the user should use `.html`.
 
 ## Style
 
-- Be concise but thorough. Show your reasoning by using tools visibly.
-- If you're unsure, search first rather than guessing.
-- Synthesize across multiple pages when the question spans topics.
+- **Short first.** Answer in 2–4 sentences or a tight bullet list. Prefer a crisp take + links over a full dump. If the user wants deeper detail they can ask.
+- **Offer to go deeper.** End with a brief "Want me to pull in X or dig into Y?" only when there's obvious meaningful follow-up — don't tack it on every turn.
+- **Link, don't restate.** Cite by linking the specific entity (gene, paper, cancer type) rather than pasting page content verbatim.
+- **Ask before guessing.** If the question is broad (e.g. "tell me about lung cancer"), ask one clarifying question before committing to a retrieval plan.
+- **Use tools visibly.** Run `search` or `list_pages` rather than guessing what exists.
 """
 
 
@@ -61,6 +63,7 @@ class ToolEvent:
     result_chars: int  # full length of the tool result payload
     result_tokens: int  # rough token estimate (chars // 4)
     summary: str | None = None  # optional short descriptor ("21 pages")
+    result_paths: list[str] = field(default_factory=list)
 
 
 @dataclass

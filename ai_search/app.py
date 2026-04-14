@@ -32,7 +32,9 @@ app = FastAPI(title="cbio-kb Chat")
 # Override with CHAT_CORS_ORIGINS env var (comma-separated list).
 _cors_origins = os.environ.get(
     "CHAT_CORS_ORIGINS",
-    "http://localhost:8080,http://127.0.0.1:8080,https://jim-bo.github.io",
+    "http://localhost:8080,http://127.0.0.1:8080,"
+    "http://localhost:4321,http://127.0.0.1:4321,"
+    "https://jim-bo.github.io",
 ).split(",")
 app.add_middleware(
     CORSMiddleware,
@@ -154,6 +156,7 @@ async def chat(request: Request):
                         "chars": event.result_chars,
                         "tokens": event.result_tokens,
                         "turn_index": turn_index,
+                        "result_paths": event.result_paths,
                     }),
                 ))
 

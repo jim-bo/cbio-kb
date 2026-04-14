@@ -33,6 +33,27 @@ All Python-based CLI tools (`cbio-kb`) must be executed using `uv run`.
 Example:
 `uv run cbio-kb ontology lookup "KRAS"`
 
+## Dev servers (local `/ask` preview)
+
+The `/ask` chat page talks to the FastAPI backend, which is served separately from the static Quarto site. Run both:
+
+```bash
+# FastAPI chat API — auto-reloads on Python edits
+uv run uvicorn ai_search.app:app --host 0.0.0.0 --port 8080 --reload
+
+# Quarto site — watches wiki/ and rebuilds on .qmd/.js/.css edits
+quarto preview --host 0.0.0.0 --port 4321 --no-browser
+```
+
+Then open `http://localhost:4321/ask.html`. The page auto-detects `localhost` and posts to `http://localhost:8080/api/chat`. Add `?cloud=1` to the URL to force the deployed Cloud Run backend instead.
+
+If you're running inside the sandbox, publish both ports to the host:
+
+```bash
+sbx ports <sandbox-name> --publish 4321:4321/tcp
+sbx ports <sandbox-name> --publish 8080:8080/tcp
+```
+
 ## Wiki CLI (token-efficient wiki access)
 
 When the target lives in `wiki/`, prefer `uv run cbio-kb wiki <cmd>` over `Read` / `Grep` / `Glob`. It returns structured JSON and costs a fraction of the tokens. Full command reference: `uv run cbio-kb wiki --help`.

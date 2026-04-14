@@ -54,6 +54,14 @@ sbx ports <sandbox-name> --publish 4321:4321/tcp
 sbx ports <sandbox-name> --publish 8080:8080/tcp
 ```
 
+## Git workflow
+
+Direct commits and pushes to `main` are the default. Open a PR only when the change is large or risky enough that a second pair of eyes adds value.
+
+- Push to `main` kicks off three workflows: `test`, `Publish Quarto site` (GitHub Pages), and `Deploy chat API to Cloud Run`.
+- Scope each commit to one concern and leave unrelated modifications (e.g. ambient WIP in `pyproject.toml`, `uv.lock`) unstaged.
+- Run `uv run pytest` before pushing any change that touches `src/cbio_kb/` or `ai_search/`.
+
 ## Wiki CLI (token-efficient wiki access)
 
 When the target lives in `wiki/`, prefer `uv run cbio-kb wiki <cmd>` over `Read` / `Grep` / `Glob`. It returns structured JSON and costs a fraction of the tokens. Full command reference: `uv run cbio-kb wiki --help`.

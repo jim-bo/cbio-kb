@@ -3,8 +3,8 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # EGFR
@@ -27,6 +27,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR amplification identified as a resistance mechanism at progression in metastatic esophagogastric cancer ([EGC](../cancer_types/EGC.md)) patients treated with [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy [PMID:37406106](../papers/37406106.md).
 - EGFR exon 19 deletions (N=8), L858R (N=1), and G719C/L861Q (N=1) identified in patients who subsequently acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism to EGFR TKIs; BRAF fusions are a recurrent (2–4%) acquired resistance event after EGFR-directed therapy [PMID:38922339](../papers/38922339.md).
 - EGFR alterations detected in plasma ctDNA were associated with venous thromboembolism (VTE) risk (adjusted HR = 1.62, 95% CI: 1.24–2.10; N=339) across multiple solid tumor types [PMID:39147831](../papers/39147831.md).
+- EGFR surface expression (not mutation status) gates radiosensitization by C-MMAE (cetuximab-MMAE conjugate); EGFR+ lines (CAL-27, A549, CALU3, SCC-61, SCC-35, SQ-9G, HCT-116) accumulate C-MMAE and show dose-dependent G2/M arrest; LN229 (EGFR-low) is refractory [PMID:27698471](../papers/27698471.md).
 
 ## Cancer types (linked)
 
@@ -34,6 +35,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [NSCLC](../cancer_types/NSCLC.md) — non-canonical drivers enriched in leptomeningeal disease [PMID:37591896](../papers/37591896.md); acquired resistance mutations (T790M, C797S, and others) detected in CSF ctDNA from patients with CNS metastases [PMID:39289779](../papers/39289779.md); BRAF fusions as acquired resistance [PMID:38922339](../papers/38922339.md).
 - [EGC](../cancer_types/EGC.md) (esophagogastric) — EGFR amplification as resistance mechanism to HER2-directed therapy [PMID:37406106](../papers/37406106.md).
 - Multiple solid tumors — EGFR ctDNA alterations associated with VTE risk [PMID:39147831](../papers/39147831.md).
+- [HNSC](../cancer_types/HNSC.md) / [NSCLC](../cancer_types/NSCLC.md) / [ESCA](../cancer_types/ESCA.md) / [BRCA](../cancer_types/BRCA.md) / [STAD](../cancer_types/STAD.md) — EGFR expression level predicts radiosensitization by ErbB-directed ADC (C-MMAE) in preclinical cell-line and xenograft models [PMID:27698471](../papers/27698471.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -45,6 +47,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - ctDNA-guided matching to EGFR-targeted therapy yielded longer [OS](../cancer_types/OS.md) in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 0.63) [PMID:36357680](../papers/36357680.md).
 - Non-canonical EGFR mutations in brain metastases may identify patients at elevated risk for LMD and partial resistance to [osimertinib](../drugs/osimertinib.md); prior [erlotinib](../drugs/erlotinib.md) exposure featured in EGFR-mutant LMD trajectories [PMID:37591896](../papers/37591896.md).
 - Serial CSF ctDNA profiling identified clonal evolution and emergence of EGFR gatekeeper resistance mutations (T790M, C797S), directly informing treatment changes in [NSCLC](../cancer_types/NSCLC.md) patients with CNS disease [PMID:39289779](../papers/39289779.md).
+- ErbB-directed ADC radiosensitization (C-MMAE) requires EGFR surface expression; the broader ErbB family (EGFR, HER2, HER3, HER4) is framed as a tumour radioresistance driver, motivating EGFR-targeted ADC delivery as an alternative to signal-transduction inhibitors that suffer bypass-pathway resistance [PMID:27698471](../papers/27698471.md).
 
 ## Open questions
 
@@ -61,5 +64,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:37406106](../papers/37406106.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

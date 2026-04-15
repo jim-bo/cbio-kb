@@ -131,3 +131,15 @@
 - method: xenium — observed in PMID:41941260 — note: 10x Genomics Xenium single-cell spatial profiling on pediatric neuroblastoma pre/post 131I-MIBG (KIDSROBIN)
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
 - method: pycerr — observed in PMID:41941260 — note: Python Computational Environment for Radiotherapy Research with AI auto-segmentation and radiomics
+- method: smart-seq2 — observed in PMID:27806376 — note: plate-based full-length single-cell/single-nucleus RNA-seq protocol used for oligodendroglioma and neuroblastoma transcriptomics
+- method: rnascope-ish — observed in PMID:34493726 — note: RNAscope multiplex fluorescent in situ hybridization for spatial validation of snRNA-seq findings in neuroblastoma and adrenal gland
+- method: imrt-reirradiation — observed in PMID:38780927 — note: intensity-modulated reirradiation therapy (IMRT) combined with nivolumab in NCT03521570 recurrent/second primary HNSCC trial
+- method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
+- method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
+- drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
+- drug: trastuzumab-emtansine — observed in PMID:27698471 — note: T-DM1/Kadcyla; anti-HER2 maytansinoid ADC; preclinical radiosensitizer in HER2+ esophageal/gastric xenografts; FDA-approved HER2+ BC; OncoKB canonical name "ado-trastuzumab emtansine" — ontology lookup returned no match
+- drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
+- drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM
+- drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1
+- drug: lapatinib — observed in PMID:27698471 — note: dual EGFR/HER2 TKI; comparator in HER2+ cell viability assays vs T-DM1
+- drug: nivolumab — observed in PMID:38780927 — note: anti-PD-1 mAb; concurrent + maintenance with IMRT reirradiation in NCT03521570 recurrent/second-primary HNSCC; 1-year PFS 61.7%

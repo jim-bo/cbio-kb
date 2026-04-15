@@ -5,8 +5,8 @@ drug_class: anti-CD30 antibody-drug conjugate
 canonical_source: 
 unverified: true
 tags: [adc, lymphoma]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # brentuximab-vedotin
@@ -19,6 +19,7 @@ Anti-CD30 antibody-drug conjugate (MMAE payload) used in CD30-expressing lymphom
 
 - 12% of 132 nodal [PTCL](../cancer_types/PTCL.md) patients in the MSK curative-intent cohort received BV-CH(E)P (brentuximab vedotin plus CHOP/CHOEP) as first-line induction [PMID:37078708](../papers/37078708.md).
 - Heterogeneous inclusion of brentuximab-vedotin across CHOP-based regimens is noted as a limitation for treatment-specific inference of [TP53](../genes/TP53.md) and [CDKN2A](../genes/CDKN2A.md) prognostic signals [PMID:37078708](../papers/37078708.md).
+- Brentuximab vedotin (BV) uses the same MC-VC-MMAE anti-tubulin ADC warhead platform (MMAE payload, valine-citrulline linker) as the experimental C-MMAE and T-MMAE constructs studied as radiosensitizers; cited as the clinical precedent for ADC-delivered anti-tubulin payloads [PMID:27698471](../papers/27698471.md).
 
 ## Resistance mechanisms
 
@@ -31,5 +32,6 @@ Anti-CD30 antibody-drug conjugate (MMAE payload) used in CD30-expressing lymphom
 ## Sources
 
 - [PMID:37078708](../papers/37078708.md)
+- [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

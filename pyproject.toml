@@ -33,6 +33,7 @@ chat = [
   "jinja2",
   "python-multipart",
   "sse-starlette",
+  "python-dotenv",
 ]
 cloud = [
   "google-cloud-firestore>=2.19",

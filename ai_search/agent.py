@@ -11,7 +11,7 @@ from pydantic_ai.models import KnownModelName
 from .memory import prune_history
 
 WIKI_DIR = Path(__file__).resolve().parent.parent / "wiki"
-MODEL: KnownModelName = "anthropic:claude-sonnet-4-20250514"
+MODEL: KnownModelName = "anthropic:claude-haiku-4-5-20251001"
 
 SYSTEM_PROMPT = """\
 You are a research assistant that navigates the cbio-kb wiki — a curated

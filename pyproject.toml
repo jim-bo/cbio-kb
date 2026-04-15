@@ -38,12 +38,14 @@ chat = [
 cloud = [
   "google-cloud-firestore>=2.19",
 ]
-dev = [
-  "pytest",
-]
 
 [project.scripts]
 cbio-kb = "cbio_kb.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cbio_kb"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]

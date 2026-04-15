@@ -17,7 +17,7 @@ Two things live in this repo:
 
 ```bash
 uv sync                 # runtime deps only
-uv sync --extra dev     # + pytest
+uv sync --group dev     # + pytest
 uv sync --extra server  # + FAISS/sentence-transformers for the MCP server
 ```
 

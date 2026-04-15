@@ -17,8 +17,6 @@ processed_by:
 processed_at:
 ---
 
-# {{title}}
-
 **PMID:** {{pmid}} · **DOI:** {{doi}} · **Journal:** {{journal}} ({{year}})
 
 ## TL;DR

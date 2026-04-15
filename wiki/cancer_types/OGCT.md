@@ -1,11 +1,11 @@
 ---
 name: Ovarian Germ Cell Tumor
 oncotree_code: OGCT
+main_type: Germ Cell Tumor
 parent: OVARY
 tags: [germ-cell, ovarian, rare-cancers]
 processed_by: crosslinker
 processed_at: 2026-04-08
-main_type: Germ Cell Tumor
 ---
 
 # Ovarian Germ Cell Tumor (OGCT)

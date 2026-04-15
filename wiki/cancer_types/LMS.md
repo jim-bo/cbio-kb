@@ -1,6 +1,7 @@
 ---
-name: "Leiomyosarcoma"
+name: Leiomyosarcoma
 oncotree_code: LMS
+main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
 processed_by: crosslinker

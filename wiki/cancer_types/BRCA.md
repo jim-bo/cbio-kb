@@ -1,6 +1,7 @@
 ---
 name: Invasive Breast Carcinoma
 oncotree_code: BRCA
+main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
 processed_by: entity-page-writer

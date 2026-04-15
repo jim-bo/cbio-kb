@@ -1,6 +1,7 @@
 ---
-name: "Esophagogastric Adenocarcinoma"
+name: Esophagogastric Adenocarcinoma
 oncotree_code: EGC
+main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
 processed_by: crosslinker

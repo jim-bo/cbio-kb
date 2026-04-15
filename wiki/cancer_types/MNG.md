@@ -1,6 +1,7 @@
 ---
-name: "Meningioma"
+name: Meningioma
 oncotree_code: MNG
+main_type: CNS Cancer
 parent: MNGT
 tags: []
 processed_by: crosslinker

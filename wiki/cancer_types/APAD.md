@@ -1,11 +1,11 @@
 ---
 name: Appendiceal Adenocarcinoma
 oncotree_code: APAD
+main_type: Appendiceal Cancer
 parent: BOWEL
 tags: [rare-cancers, gi-oncology]
 processed_by: crosslinker
 processed_at: 2026-04-10
-main_type: Appendiceal Cancer
 ---
 
 # Appendiceal Adenocarcinoma (APAD)

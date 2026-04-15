@@ -1,6 +1,7 @@
 ---
-name: "Cervical Squamous Cell Carcinoma"
+name: Cervical Squamous Cell Carcinoma
 oncotree_code: CESC
+main_type: Cervical Cancer
 parent: CERVIX
 tags: []
 processed_by: entity-page-writer

@@ -1,6 +1,7 @@
 ---
 name: Colorectal Adenocarcinoma
 oncotree_code: COADREAD
+main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
 processed_by: entity-page-writer

@@ -1,6 +1,7 @@
 ---
 name: Angiosarcoma
 oncotree_code: ANGS
+main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, vascular-tumor]
 processed_by: crosslinker

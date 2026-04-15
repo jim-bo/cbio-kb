@@ -1,6 +1,7 @@
 ---
 name: Diffuse Glioma
 oncotree_code: DIFG
+main_type: Glioma
 parent: GLIOMA
 tags: [glioma, cns]
 processed_by: crosslinker

@@ -1,6 +1,7 @@
 ---
-name: "Anaplastic Thyroid Cancer"
+name: Anaplastic Thyroid Cancer
 oncotree_code: THAP
+main_type: Thyroid Cancer
 parent: THYROID
 tags: []
 processed_by: crosslinker

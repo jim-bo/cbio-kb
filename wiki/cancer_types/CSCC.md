@@ -1,6 +1,7 @@
 ---
-name: "Cutaneous Squamous Cell Carcinoma"
+name: Cutaneous Squamous Cell Carcinoma
 oncotree_code: CSCC
+main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
 processed_by: crosslinker

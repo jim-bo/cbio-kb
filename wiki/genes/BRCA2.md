@@ -8,13 +8,14 @@ cancer_types:
   - THPA
   - HCC
   - PRAD
+  - NBL
 tags:
   - dna-damage-response
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # BRCA2
@@ -31,6 +32,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Pathogenic somatic BRCA2 alterations in 2 of 3 cervical cancer patients with [BRCA](../cancer_types/BRCA.md) alterations in a 177-patient cervical cancer genomic landscape study [PMID:37643132](../papers/37643132.md).
 - BRCA2/BRCA1 mutation rates elevated in MSI-H/dMMR (17.5%) and TMB-H/MSS (21%) vs. TMB-L/MSS (5.2%) prostate cancer; likely passenger events in the MSI/hypermutated context rather than primary actionable drivers [PMID:38949888](../papers/38949888.md).
 - [ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), BRCA2, and [CHEK2](../genes/CHEK2.md) — DDR pathway genes with driver genomic alterations predominantly in prostate adenocarcinoma PDXs (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
+- BRCA2 significantly over-expressed (FDR < 0.01, Welch's t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes [PMID:34493726](../papers/34493726.md).
 
 ## Cancer types (linked)
 
@@ -39,6 +41,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [HCC](../cancer_types/HCC.md) — BRCA2 detected by cfDNA in 4% of advanced HCC; actionable (OncoKB level) [PMID:37769223](../papers/37769223.md).
 - [CESC](../cancer_types/CESC.md) — Pathogenic somatic BRCA2 alterations in a subset of cervical cancers [PMID:37643132](../papers/37643132.md).
 - [PRAD](../cancer_types/PRAD.md) — DDR gene alterations including BRCA2 in prostate cancer adenocarcinoma PDXs; elevated rates in MSI-H/dMMR prostate cancer as likely passengers [PMID:38488813](../papers/38488813.md) [PMID:38949888](../papers/38949888.md).
+- Neuroblastoma (NBL) — BRCA2 over-expression marks the high-risk undifferentiated nC3 cluster at single-nuclei resolution; significance confirmed at FDR < 0.01 [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -64,5 +67,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
+- [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

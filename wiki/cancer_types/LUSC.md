@@ -1,11 +1,11 @@
 ---
 name: Lung Squamous Cell Carcinoma
 oncotree_code: LUSC
+main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
-main_type: Non-Small Cell Lung Cancer
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)

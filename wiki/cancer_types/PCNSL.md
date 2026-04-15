@@ -1,10 +1,9 @@
 ---
 name: Primary CNS Lymphoma
 oncotree_code: PCNSL
+main_type: Mature B-Cell Neoplasms
 parent: DLBCLNOS
-tags:
-  - cns-lymphoma
-  - b-cell-lymphoma
+tags: [cns-lymphoma, b-cell-lymphoma]
 processed_by: crosslinker
 processed_at: 2026-04-10
 ---

@@ -13,7 +13,7 @@ from cbio_kb.wiki.vault import _parse_frontmatter, _LINK_RE as LINK_RE, _FRONTMA
 REQUIRED_FRONTMATTER = {
     "papers": {"pmid", "title"},
     "genes": {"symbol"},
-    "cancer_types": {"name"},
+    "cancer_types": {"name", "oncotree_code"},
     "datasets": {"name"},
     "drugs": {"name"},
     "methods": {"name"},

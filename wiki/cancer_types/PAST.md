@@ -1,6 +1,7 @@
 ---
 name: Pilocytic Astrocytoma
 oncotree_code: PAST
+main_type: Glioma
 parent: ENCG
 tags: [glioma, cns, pediatric, low-grade]
 processed_by: entity-page-writer

@@ -1,6 +1,7 @@
 ---
-name: "Astrocytoma, IDH-Mutant"
+name: Astrocytoma, IDH-Mutant
 oncotree_code: ASTR
+main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: crosslinker

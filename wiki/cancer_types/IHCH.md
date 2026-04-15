@@ -1,6 +1,7 @@
 ---
 name: Intrahepatic Cholangiocarcinoma
 oncotree_code: IHCH
+main_type: Hepatobiliary Cancer
 parent: CHOL
 tags: [biliary, hepatobiliary]
 processed_by: crosslinker

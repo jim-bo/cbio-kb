@@ -1,11 +1,11 @@
 ---
 name: Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma
 oncotree_code: MEITL
+main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell, intestinal]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Mature T and NK Neoplasms
 ---
 
 # Monomorphic Epitheliotropic Intestinal T-Cell Lymphoma (MEITL)

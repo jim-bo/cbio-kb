@@ -1,6 +1,7 @@
 ---
 name: Prostate Adenocarcinoma
 oncotree_code: PRAD
+main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
 processed_by: entity-page-writer

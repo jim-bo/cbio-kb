@@ -1,6 +1,7 @@
 ---
 name: T-Lymphoblastic Leukemia/Lymphoma
 oncotree_code: TLL
+main_type: T-Lymphoblastic Leukemia/Lymphoma
 parent: LNM
 tags: [pediatric, leukemia]
 processed_by: entity-page-writer

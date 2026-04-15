@@ -1,6 +1,7 @@
 ---
 name: Extrahepatic Cholangiocarcinoma
 oncotree_code: EHCH
+main_type: Hepatobiliary Cancer
 parent: CHOL
 tags: [biliary, hepatobiliary]
 processed_by: crosslinker

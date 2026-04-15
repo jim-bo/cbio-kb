@@ -1,11 +1,9 @@
 ---
 name: Upper Tract Urothelial Carcinoma
 oncotree_code: UTUC
+main_type: Bladder Cancer
 parent: BLADDER
-tags:
-  - urothelial
-  - upper-tract
-  - fgfr3
+tags: [urothelial, upper-tract, fgfr3]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

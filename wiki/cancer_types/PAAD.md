@@ -1,6 +1,7 @@
 ---
 name: Pancreatic Adenocarcinoma
 oncotree_code: PAAD
+main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
 processed_by: entity-page-writer

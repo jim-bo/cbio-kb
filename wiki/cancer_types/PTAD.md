@@ -1,6 +1,7 @@
 ---
-name: "Pituitary Adenoma"
+name: Pituitary Adenoma
 oncotree_code: PTAD
+main_type: Sellar Tumor
 parent: SELT
 tags: []
 processed_by: crosslinker

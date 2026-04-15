@@ -1,11 +1,11 @@
 ---
 name: Angioimmunoblastic T-Cell Lymphoma
 oncotree_code: AITL
+main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
 processed_at: 2026-04-08
-main_type: Mature T and NK Neoplasms
 ---
 
 # Angioimmunoblastic T-Cell Lymphoma (AITL)

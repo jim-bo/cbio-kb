@@ -1,6 +1,7 @@
 ---
-name: "Small Cell Lung Cancer"
+name: Small Cell Lung Cancer
 oncotree_code: SCLC
+main_type: Small Cell Lung Cancer
 parent: LNET
 tags: []
 processed_by: crosslinker

@@ -1,6 +1,7 @@
 ---
-name: "Glioblastoma, IDH-Wildtype"
+name: Glioblastoma, IDH-Wildtype
 oncotree_code: GB
+main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: entity-page-writer

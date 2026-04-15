@@ -1,10 +1,11 @@
 ---
-name: "Cancer of Unknown Primary"
+name: Cancer of Unknown Primary
 oncotree_code: CUP
+main_type: Cancer of Unknown Primary
 parent: OTHER
 tags: []
 processed_by: entity-page-writer
-processed_at: "2026-04-11"
+processed_at: 2026-04-11
 ---
 
 # Cancer of Unknown Primary (CUP)

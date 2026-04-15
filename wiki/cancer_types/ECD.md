@@ -1,11 +1,11 @@
 ---
 name: Erdheim-Chester Disease
 oncotree_code: ECD
+main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Histiocytosis
 ---
 
 # Erdheim-Chester Disease (ECD)

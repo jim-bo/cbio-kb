@@ -1,11 +1,11 @@
 ---
 name: Anaplastic Large-Cell Lymphoma ALK Positive
 oncotree_code: ALCLALKP
+main_type: Mature T and NK Neoplasms
 parent: ALCL
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
 processed_at: 2026-04-08
-main_type: Mature T and NK Neoplasms
 ---
 
 # Anaplastic Large-Cell Lymphoma ALK Positive (ALCLALKP)

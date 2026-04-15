@@ -1,10 +1,9 @@
 ---
 name: Bladder Urothelial Carcinoma
 oncotree_code: BLCA
+main_type: Bladder Cancer
 parent: BLADDER
-tags:
-  - urothelial
-  - fgfr3
+tags: [urothelial, fgfr3]
 processed_by: entity-page-writer
 processed_at: 2026-04-15
 ---

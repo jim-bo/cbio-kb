@@ -1,6 +1,7 @@
 ---
-name: "Stomach Adenocarcinoma"
+name: Stomach Adenocarcinoma
 oncotree_code: STAD
+main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: entity-page-writer

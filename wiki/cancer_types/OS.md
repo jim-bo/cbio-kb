@@ -1,6 +1,7 @@
 ---
 name: Osteosarcoma
 oncotree_code: OS
+main_type: Bone Cancer
 parent: BONE
 tags: [radiation-associated-sarcoma, bone-tumor]
 processed_by: crosslinker

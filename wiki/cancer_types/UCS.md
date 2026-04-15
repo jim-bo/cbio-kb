@@ -1,6 +1,7 @@
 ---
-name: "Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor"
+name: Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor
 oncotree_code: UCS
+main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: crosslinker

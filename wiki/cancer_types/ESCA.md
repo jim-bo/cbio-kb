@@ -1,6 +1,7 @@
 ---
-name: "Esophageal Adenocarcinoma"
+name: Esophageal Adenocarcinoma
 oncotree_code: ESCA
+main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: entity-page-writer

@@ -1,6 +1,7 @@
 ---
-name: "Prostate Neuroendocrine Carcinoma"
+name: Prostate Neuroendocrine Carcinoma
 oncotree_code: PRNE
+main_type: Prostate Cancer
 parent: PROSTATE
 tags: []
 processed_by: crosslinker

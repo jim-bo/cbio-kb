@@ -1,6 +1,7 @@
 ---
 name: Gallbladder Cancer
 oncotree_code: GBC
+main_type: Hepatobiliary Cancer
 parent: BILIARY_TRACT
 tags: [biliary, hepatobiliary]
 processed_by: crosslinker

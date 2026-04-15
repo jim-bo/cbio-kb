@@ -1,6 +1,7 @@
 ---
-name: "Uterine Leiomyosarcoma"
+name: Uterine Leiomyosarcoma
 oncotree_code: ULMS
+main_type: Uterine Sarcoma
 parent: USMT
 tags: []
 processed_by: crosslinker

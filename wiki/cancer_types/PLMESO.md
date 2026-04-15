@@ -1,6 +1,7 @@
 ---
-name: "Pleural Mesothelioma"
+name: Pleural Mesothelioma
 oncotree_code: PLMESO
+main_type: Mesothelioma
 parent: PLEURA
 tags: []
 processed_by: crosslinker

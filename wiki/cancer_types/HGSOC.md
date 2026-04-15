@@ -1,6 +1,7 @@
 ---
-name: "High-Grade Serous Ovarian Cancer"
+name: High-Grade Serous Ovarian Cancer
 oncotree_code: HGSOC
+main_type: Ovarian Cancer
 parent: SOC
 tags: []
 processed_by: crosslinker

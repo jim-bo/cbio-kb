@@ -1,6 +1,7 @@
 ---
 name: Gastrointestinal Stromal Tumor
 oncotree_code: GIST
+main_type: Gastrointestinal Stromal Tumor
 parent: SOFT_TISSUE
 tags: [sarcoma, gi]
 processed_by: crosslinker

@@ -1,11 +1,11 @@
 ---
 name: Rhabdomyosarcoma
 oncotree_code: RMS
+main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Soft Tissue Sarcoma
 ---
 
 # Rhabdomyosarcoma (RMS)

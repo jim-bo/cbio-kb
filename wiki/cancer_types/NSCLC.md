@@ -1,11 +1,11 @@
 ---
 name: Non-Small Cell Lung Cancer
 oncotree_code: NSCLC
+main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
 processed_by: entity-page-writer
 processed_at: 2026-04-15
-main_type: Non-Small Cell Lung Cancer
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)

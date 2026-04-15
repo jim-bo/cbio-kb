@@ -1,11 +1,11 @@
 ---
 name: Lung Adenocarcinoma
 oncotree_code: LUAD
+main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Non-Small Cell Lung Cancer
 ---
 
 # Lung Adenocarcinoma (LUAD)

@@ -1,11 +1,11 @@
 ---
 name: Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
 oncotree_code: CLLSLL
+main_type: Mature B-Cell Neoplasms
 parent: MBN
 tags: [cll, b-cell, leukemia]
 processed_by: crosslinker
 processed_at: 2026-04-08
-main_type: Mature B-Cell Neoplasms
 ---
 
 # Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLLSLL)

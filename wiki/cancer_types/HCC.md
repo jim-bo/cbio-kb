@@ -1,6 +1,7 @@
 ---
 name: Hepatocellular Carcinoma
 oncotree_code: HCC
+main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: [liver, hepatobiliary]
 processed_by: entity-page-writer

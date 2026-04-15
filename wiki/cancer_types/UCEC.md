@@ -1,6 +1,7 @@
 ---
-name: "Endometrial Carcinoma"
+name: Endometrial Carcinoma
 oncotree_code: UCEC
+main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
 processed_by: crosslinker

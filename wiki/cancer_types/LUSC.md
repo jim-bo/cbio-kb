@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-04-15
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)
@@ -18,6 +18,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 
 - [nsclc_ctdx_msk_2022](../datasets/nsclc_ctdx_msk_2022.md): LUSC was included alongside [LUAD](../cancer_types/LUAD.md) in the 1,127-patient advanced [NSCLC](../cancer_types/NSCLC.md) ctDNA cohort profiled by Resolution Bioscience ctDx Lung at MSK and GenesisCare [PMID:36357680](../papers/36357680.md).
 - [bm_nsclc_mskcc_2023](../datasets/bm_nsclc_mskcc_2023.md): 23/233 (10%) of the resected [NSCLC](../cancer_types/NSCLC.md) brain metastasis cohort were LUSC [PMID:37591896](../papers/37591896.md).
+- Bakr 2018 published the NSCLC-Radiogenomics Stanford cohort with 45/211 patients being LUSC; pre-treatment CT imaging paired with RNA-seq and somatic mutation data, providing an imaging-genomics resource for LUSC [PMID:30325352](../papers/30325352.md).
 
 ## Recurrent alterations
 
@@ -38,5 +39,6 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:27634761](../papers/27634761.md)
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:37591896](../papers/37591896.md)
+- [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

@@ -19,6 +19,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK fusions cited as a reference class for MAPK-targeted therapy response comparison (60-80% ORR) in a tumor-agnostic [BRAF](../genes/BRAF.md) fusion landscape analysis of 97,024 MSK-sequenced samples; BRAF fusions were acquired as resistance mechanisms in some patients after ALK-directed therapy [PMID:38922339](../papers/38922339.md).
 - [EML4](../genes/EML4.md)::ALK fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients); ALK resistance mutations p.G1202R and p.G1269A were detected upon targeted therapy progression [PMID:39289779](../papers/39289779.md).
 - ALK significantly over-expressed in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors; co-expressed with [MYCN](../genes/MYCN.md) in discrete tumor regions (validated by RNAscope in sample K10); nC3 over-expression confirmed at FDR < 0.01 by Welch's t-test across 11 single-nuclei tumor specimens [PMID:34493726](../papers/34493726.md).
+- EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 
 ## Cancer types (linked)
 
@@ -46,5 +47,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:30325352](../papers/30325352.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

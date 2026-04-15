@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -21,6 +21,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [bm_nsclc_mskcc_2023](../datasets/bm_nsclc_mskcc_2023.md): 180/233 (77%) of the resected [NSCLC](../cancer_types/NSCLC.md) brain metastasis cohort were LUAD; LUAD-restricted downstream analysis used 179 BM, 37 primary tumors, 34 extracranial metastases [PMID:37591896](../papers/37591896.md).
 - [msk_chord_2024](../datasets/msk_chord_2024.md): 5,957 LUAD patients included in the MSK-CHORD [SETD2](../genes/SETD2.md) biomarker analysis [PMID:39506116](../papers/39506116.md).
 - [csf_msk_2024](../datasets/csf_msk_2024.md): LUAD patients included within the lung cancer subset (n=188) of the MSK CSF ctDNA cohort; CSF samples profiled by MSK-IMPACT [PMID:39289779](../papers/39289779.md).
+- Bakr 2018 published the NSCLC-Radiogenomics Stanford cohort with 135/211 patients being LUAD; pre-treatment CT imaging linked to RNA-seq expression subtypes and somatic mutations, providing an imaging-genomics resource for LUAD [PMID:30325352](../papers/30325352.md).
 
 ## Recurrent alterations
 
@@ -75,5 +76,6 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
+- [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

@@ -33,6 +33,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Esophagogastric cancer (early-onset vs average-onset): KRAS oncogenic alterations trend toward higher frequency in average-onset (15% vs 12%, P=0.23); not significantly different [PMID:37699004](../papers/37699004.md).
 - dMMR gynecologic cancers: KRAS mutated in 24% of the [nivolumab](../drugs/nivolumab.md) phase 2 trial cohort (n=35 MSI-H patients; 26% responders, 21% non-responders) — no significant association with nivolumab response [PMID:38653864](../papers/38653864.md).
 - Pan-cancer liquid biopsy VTE risk: KRAS ctDNA detection carries adjusted HR = 1.65 (95% CI: 1.30-2.09; n=465) for venous thromboembolism in MSK multi-cancer cohort [PMID:39147831](../papers/39147831.md).
+- KRAS mutation status (SNaPshot PCR, exon 2 codons 12/13) was annotated for 205/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 
 ## Cancer types (linked)
 
@@ -84,5 +85,6 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

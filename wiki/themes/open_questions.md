@@ -8,8 +8,6 @@ processed_by: theme-synthesizer
 processed_at: 2026-04-15
 ---
 
-# Open questions across the corpus
-
 This page records cross-paper disagreements that the corpus does not resolve.
 Each bullet names the conflicting papers explicitly and the point of contention.
 New theme-synthesizer runs append to this list; conflicts are recorded, not

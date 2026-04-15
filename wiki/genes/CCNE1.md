@@ -11,8 +11,8 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # CCNE1
@@ -26,12 +26,13 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - Amplification more prevalent in Black patients with endometrial carcinoma (15% vs. 4% in White patients) and specifically in carcinosarcomas from Black patients (29% vs. 10%); associated with chromosomal instability and replication stress [PMID:37651310](../papers/37651310.md).
 - Amplification enriched in early-onset esophagogastric cancer (16% vs. 7% in average-onset, P=0.001, Q=0.011), driven by the chromosomal instability esophageal/GEJ subgroup [PMID:37699004](../papers/37699004.md).
 - Amplification noted as an early copy number alteration event in serous tubal intraepithelial carcinomas (STICs), linked to breakage-fusion-bridge cycles during high-grade serous ovarian carcinoma development [PMID:39386723](../papers/39386723.md).
+- CCNE1 amplification used to assign patients to the foldback-inversion-enriched genomic subtype in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; amplification status overrides concurrent HRD-DDR variant evidence per MSKCC subtype-assignment rules; copy number assessed via MSK-IMPACT pipeline (MSKCC cases) and cBioPortal download (TCGA-OV cases) [PMID:35764743](../papers/35764743.md).
 
 ## Cancer types (linked)
 
 - **UCEC/UCS**: CCNE1 amplification enriched in Black patients, particularly carcinosarcomas; associated with CN-H/TP53abn molecular subtype; potential target for WEE1 inhibitors, [ATR](../genes/ATR.md) inhibitors, and PKMYT1 kinase inhibitors [PMID:37651310](../papers/37651310.md).
 - **EGC/STAD/ESCA/GEJ**: Enriched in early-onset disease; may represent a therapeutic opportunity with CDK2 inhibitors [PMID:37699004](../papers/37699004.md).
-- **[HGSOC](../cancer_types/HGSOC.md)**: Early CNA event in STICs preceding invasive cancer; implicated in chromosomal instability through breakage-fusion-bridge cycles [PMID:39386723](../papers/39386723.md).
+- **[HGSOC](../cancer_types/HGSOC.md)**: Early CNA event in STICs preceding invasive cancer; implicated in chromosomal instability through breakage-fusion-bridge cycles [PMID:39386723](../papers/39386723.md). Amplification also defines the foldback-inversion-enriched genomic subtype in a 444-patient multimodal risk-stratification study and takes priority over HRD-DDR variant evidence in subtype assignment [PMID:35764743](../papers/35764743.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -53,5 +54,6 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37699004](../papers/37699004.md)
 - [PMID:39386723](../papers/39386723.md)
+- [PMID:35764743](../papers/35764743.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

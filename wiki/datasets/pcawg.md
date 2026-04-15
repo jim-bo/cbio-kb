@@ -11,7 +11,7 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
-description: Pan-Cancer Analysis of Whole Genomes (PCAWG) — whole-genome sequencing of ~2,780 tumor/normal pairs across cancer types. Used in the cbio-kb corpus as a comparator for mutational burden and signatures. Note: PCAWG is not catalogued by cBioPortal.
+description: "Pan-Cancer Analysis of Whole Genomes (PCAWG) — whole-genome sequencing of ~2,780 tumor/normal pairs across cancer types. Used in the cbio-kb corpus as a comparator for mutational burden and signatures. Note: PCAWG is not catalogued by cBioPortal."
 cancerTypeId: mixed
 pmid: null
 allSampleCount: null

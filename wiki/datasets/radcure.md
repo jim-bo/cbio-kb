@@ -48,15 +48,18 @@ RADCURE is a large open-source head and neck cancer CT dataset comprising 3346 p
 ## Papers using this cohort
 
 - [PMID:38362943](../papers/38362943.md) — Welch et al. 2024, *Medical Physics*: primary dataset descriptor; 3346 HNC RT planning CTs from Princess Margaret Cancer Centre with standardised RT-STRUCT contours and longitudinal outcomes.
+- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*: RADCURE used as the primary training (n=1,802) and internal test (n=750) cohort in the HNSC prognostic-modeling challenge; split by diagnosis date (2005–2013 vs 2016–2018).
 
 ## Notable findings derived from this cohort
 
 - A custom data-mining and processing system was built to extract imaging and structure-set data from the institution's RT planning and oncology information systems, linking each scan to longitudinal clinical outcomes. [PMID:38362943](../papers/38362943.md)
 - Standardised RT-STRUCT nomenclature was applied across 3346 patients to improve interoperability for downstream radiomics and auto-segmentation research. [PMID:38362943](../papers/38362943.md)
+- In the multi-institutional prognostic challenge, the top-performing model (MTLR + EMR + tumor volume) achieved AUROC = 0.823 on the RADCURE internal test set; adding deep radiomics to EMR did not improve AUROC. [PMID:37397861](../papers/37397861.md)
 
 ## Sources
 
 - TCIA collection: RADCURE — https://www.cancerimagingarchive.net/collection/radcure/
 - [PMID:38362943](../papers/38362943.md) — Welch et al. 2024, *Medical Physics*, DOI 10.1002/mp.16971.
+- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*.
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

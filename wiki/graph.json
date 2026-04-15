@@ -7,7 +7,7 @@
     {
       "id": "papers",
       "label": "Papers",
-      "count": 54
+      "count": 56
     },
     {
       "id": "genes",
@@ -22,7 +22,7 @@
     {
       "id": "datasets",
       "label": "Datasets",
-      "count": 64
+      "count": 68
     },
     {
       "id": "drugs",
@@ -32,7 +32,7 @@
     {
       "id": "methods",
       "label": "Methods",
-      "count": 74
+      "count": 79
     },
     {
       "id": "themes",
@@ -108,6 +108,12 @@
       "title": "Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors"
     },
     {
+      "id": "papers/35764743.md",
+      "section": "papers",
+      "label": "35764743",
+      "title": "Multimodal data integration using machine learning improves risk stratification of high-grade serous ovarian cancer"
+    },
+    {
       "id": "papers/35927489.md",
       "section": "papers",
       "label": "35927489",
@@ -166,6 +172,12 @@
       "section": "papers",
       "label": "37350195",
       "title": "Distinct genomic landscapes in radiation-associated angiosarcoma compared with other radiation-associated sarcoma histologies"
+    },
+    {
+      "id": "papers/37397861.md",
+      "section": "papers",
+      "label": "37397861",
+      "title": "Multi-institutional Prognostic Modeling in Head and Neck Cancer: Evaluating Impact and Generalizability of Deep Learning Approaches"
     },
     {
       "id": "papers/37406106.md",
@@ -2712,6 +2724,12 @@
       "title": "Gastrointestinal Stromal Tumor Genomic Risk Stratification, MSK, Clin Cancer Res 2023"
     },
     {
+      "id": "datasets/gpcchn-poznan.md",
+      "section": "datasets",
+      "label": "gpcchn-poznan",
+      "title": "Greater Poland Cancer Centre HNSCC Cohort (Pozna\u0144)"
+    },
+    {
       "id": "datasets/hcc_jcopo_msk_2023.md",
       "section": "datasets",
       "label": "hcc_jcopo_msk_2023",
@@ -2790,6 +2808,12 @@
       "title": "MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)"
     },
     {
+      "id": "datasets/msk_spectrum_tme_2022.md",
+      "section": "datasets",
+      "label": "msk_spectrum_tme_2022",
+      "title": "MSK SPECTRUM Tumor Microenvironment Study (2022)"
+    },
+    {
       "id": "datasets/mtnn_msk_2022.md",
       "section": "datasets",
       "label": "mtnn_msk_2022",
@@ -2812,6 +2836,12 @@
       "section": "datasets",
       "label": "nsclc_ctdx_msk_2022",
       "title": "Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)"
+    },
+    {
+      "id": "datasets/ov_tcga.md",
+      "section": "datasets",
+      "label": "ov_tcga",
+      "title": "TCGA Ovarian Serous Cystadenocarcinoma (OV)"
     },
     {
       "id": "datasets/ovary_geomx_gray_foundation_2024.md",
@@ -2962,6 +2992,12 @@
       "section": "datasets",
       "label": "tcia-tcga-lgg",
       "title": "TCIA TCGA-LGG MRI Collection"
+    },
+    {
+      "id": "datasets/tcia-tcga-ov.md",
+      "section": "datasets",
+      "label": "tcia-tcga-ov",
+      "title": "TCIA TCGA-OV CT Imaging Collection"
     },
     {
       "id": "datasets/thyroid_gatci_2024.md",
@@ -3630,6 +3666,18 @@
       "title": "MSK-IMPACT panel (generic)"
     },
     {
+      "id": "methods/mtlr.md",
+      "section": "methods",
+      "label": "mtlr",
+      "title": "MTLR (Multi-Task Logistic Regression)"
+    },
+    {
+      "id": "methods/multimodal-late-fusion.md",
+      "section": "methods",
+      "label": "multimodal-late-fusion",
+      "title": "Multimodal Late Fusion"
+    },
+    {
       "id": "methods/multiparameter-flow-cytometry.md",
       "section": "methods",
       "label": "multiparameter-flow-cytometry",
@@ -3684,6 +3732,12 @@
       "title": "pyCERR"
     },
     {
+      "id": "methods/pyradiomics.md",
+      "section": "methods",
+      "label": "pyradiomics",
+      "title": "PyRadiomics"
+    },
+    {
       "id": "methods/radiomic-signature-4-feature.md",
       "section": "methods",
       "label": "radiomic-signature-4-feature",
@@ -3726,6 +3780,12 @@
       "title": "Single-cell RNA sequencing (scRNA-seq)"
     },
     {
+      "id": "methods/sigma-mutational-signatures.md",
+      "section": "methods",
+      "label": "sigma-mutational-signatures",
+      "title": "SigMA (Mutational Signatures)"
+    },
+    {
       "id": "methods/single-cell-genotyping.md",
       "section": "methods",
       "label": "single-cell-genotyping",
@@ -3754,6 +3814,12 @@
       "section": "methods",
       "label": "spatial-transcriptomics",
       "title": "Spatial transcriptomics"
+    },
+    {
+      "id": "methods/stardist-nuclei.md",
+      "section": "methods",
+      "label": "stardist-nuclei",
+      "title": "StarDist (Nucleus Segmentation)"
     },
     {
       "id": "methods/targeted-dna-seq.md",
@@ -3855,6 +3921,10 @@
     },
     {
       "from": "papers",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "papers",
       "to": "papers/35927489.md"
     },
     {
@@ -3892,6 +3962,10 @@
     {
       "from": "papers",
       "to": "papers/37350195.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/37397861.md"
     },
     {
       "from": "papers",
@@ -5603,6 +5677,10 @@
     },
     {
       "from": "datasets",
+      "to": "datasets/gpcchn-poznan.md"
+    },
+    {
+      "from": "datasets",
       "to": "datasets/hcc_jcopo_msk_2023.md"
     },
     {
@@ -5655,6 +5733,10 @@
     },
     {
       "from": "datasets",
+      "to": "datasets/msk_spectrum_tme_2022.md"
+    },
+    {
+      "from": "datasets",
       "to": "datasets/mtnn_msk_2022.md"
     },
     {
@@ -5668,6 +5750,10 @@
     {
       "from": "datasets",
       "to": "datasets/nsclc_ctdx_msk_2022.md"
+    },
+    {
+      "from": "datasets",
+      "to": "datasets/ov_tcga.md"
     },
     {
       "from": "datasets",
@@ -5768,6 +5854,10 @@
     {
       "from": "datasets",
       "to": "datasets/tcia-tcga-lgg.md"
+    },
+    {
+      "from": "datasets",
+      "to": "datasets/tcia-tcga-ov.md"
     },
     {
       "from": "datasets",
@@ -6223,6 +6313,14 @@
     },
     {
       "from": "methods",
+      "to": "methods/mtlr.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/multimodal-late-fusion.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/multiparameter-flow-cytometry.md"
     },
     {
@@ -6259,6 +6357,10 @@
     },
     {
       "from": "methods",
+      "to": "methods/pyradiomics.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/radiomic-signature-4-feature.md"
     },
     {
@@ -6287,6 +6389,10 @@
     },
     {
       "from": "methods",
+      "to": "methods/sigma-mutational-signatures.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/single-cell-genotyping.md"
     },
     {
@@ -6304,6 +6410,10 @@
     {
       "from": "methods",
       "to": "methods/spatial-transcriptomics.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/stardist-nuclei.md"
     },
     {
       "from": "methods",
@@ -7921,6 +8031,22 @@
     },
     {
       "from": "cancer_types/HGSOC.md",
+      "to": "datasets/msk_spectrum_tme_2022.md"
+    },
+    {
+      "from": "cancer_types/HGSOC.md",
+      "to": "datasets/ov_tcga.md"
+    },
+    {
+      "from": "cancer_types/HGSOC.md",
+      "to": "methods/msk-impact-panel.md"
+    },
+    {
+      "from": "cancer_types/HGSOC.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "cancer_types/HGSOC.md",
       "to": "genes/BRCA1.md"
     },
     {
@@ -7946,6 +8072,10 @@
     {
       "from": "cancer_types/HGSOC.md",
       "to": "genes/STING1.md"
+    },
+    {
+      "from": "cancer_types/HGSOC.md",
+      "to": "genes/CDK12.md"
     },
     {
       "from": "cancer_types/HGSOC.md",
@@ -7989,6 +8119,22 @@
     },
     {
       "from": "cancer_types/HNSC.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "cancer_types/HNSC.md",
+      "to": "datasets/tcia-hnscc.md"
+    },
+    {
+      "from": "cancer_types/HNSC.md",
+      "to": "datasets/gpcchn-poznan.md"
+    },
+    {
+      "from": "cancer_types/HNSC.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "cancer_types/HNSC.md",
       "to": "genes/CD274.md"
     },
     {
@@ -7998,6 +8144,10 @@
     {
       "from": "cancer_types/HNSC.md",
       "to": "drugs/nivolumab.md"
+    },
+    {
+      "from": "cancer_types/HNSC.md",
+      "to": "methods/mtlr.md"
     },
     {
       "from": "cancer_types/IHCH.md",
@@ -10792,6 +10942,22 @@
       "to": "genes/TP53.md"
     },
     {
+      "from": "datasets/gpcchn-poznan.md",
+      "to": "cancer_types/HNSC.md"
+    },
+    {
+      "from": "datasets/gpcchn-poznan.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "datasets/gpcchn-poznan.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "datasets/gpcchn-poznan.md",
+      "to": "methods/mtlr.md"
+    },
+    {
       "from": "datasets/hcc_jcopo_msk_2023.md",
       "to": "cancer_types/HCC.md"
     },
@@ -11216,6 +11382,30 @@
       "to": "datasets/makeanimpact_ccr_2023.md"
     },
     {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "methods/msk-impact-panel.md"
+    },
+    {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "genes/BRCA1.md"
+    },
+    {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "genes/BRCA2.md"
+    },
+    {
+      "from": "datasets/msk_spectrum_tme_2022.md",
+      "to": "methods/sigma-mutational-signatures.md"
+    },
+    {
       "from": "datasets/mtnn_msk_2022.md",
       "to": "papers/37078708.md"
     },
@@ -11386,6 +11576,18 @@
     {
       "from": "datasets/nsclc_ctdx_msk_2022.md",
       "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "datasets/ov_tcga.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "datasets/ov_tcga.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "datasets/ov_tcga.md",
+      "to": "methods/msk-impact-panel.md"
     },
     {
       "from": "datasets/ovary_geomx_gray_foundation_2024.md",
@@ -11772,6 +11974,10 @@
       "to": "methods/dicom-rt-struct.md"
     },
     {
+      "from": "datasets/radcure.md",
+      "to": "papers/37397861.md"
+    },
+    {
       "from": "datasets/rms_msk_2023.md",
       "to": "papers/37315267.md"
     },
@@ -11896,6 +12102,10 @@
       "to": "methods/ct-radiomics.md"
     },
     {
+      "from": "datasets/tcia-hn1-maastro.md",
+      "to": "papers/37397861.md"
+    },
+    {
       "from": "datasets/tcia-hn2-vumc.md",
       "to": "cancer_types/HNSC.md"
     },
@@ -11934,6 +12144,10 @@
     {
       "from": "datasets/tcia-hnscc.md",
       "to": "methods/dicom-rt-planning.md"
+    },
+    {
+      "from": "datasets/tcia-hnscc.md",
+      "to": "papers/37397861.md"
     },
     {
       "from": "datasets/tcia-multiple-delineation.md",
@@ -12046,6 +12260,18 @@
     {
       "from": "datasets/tcia-tcga-lgg.md",
       "to": "methods/captk.md"
+    },
+    {
+      "from": "datasets/tcia-tcga-ov.md",
+      "to": "datasets/ov_tcga.md"
+    },
+    {
+      "from": "datasets/tcia-tcga-ov.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "datasets/tcia-tcga-ov.md",
+      "to": "papers/35764743.md"
     },
     {
       "from": "datasets/thyroid_gatci_2024.md",
@@ -14649,6 +14875,10 @@
     },
     {
       "from": "genes/BRCA1.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "genes/BRCA1.md",
       "to": "cancer_types/OVT.md"
     },
     {
@@ -14718,6 +14948,10 @@
     {
       "from": "genes/BRCA2.md",
       "to": "papers/34493726.md"
+    },
+    {
+      "from": "genes/BRCA2.md",
+      "to": "papers/35764743.md"
     },
     {
       "from": "genes/BRCA2.md",
@@ -14921,11 +15155,15 @@
     },
     {
       "from": "genes/CCNE1.md",
-      "to": "genes/ATR.md"
+      "to": "cancer_types/HGSOC.md"
     },
     {
       "from": "genes/CCNE1.md",
-      "to": "cancer_types/HGSOC.md"
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "genes/CCNE1.md",
+      "to": "genes/ATR.md"
     },
     {
       "from": "genes/CCNE1.md",
@@ -15118,6 +15356,14 @@
     {
       "from": "genes/CDK12.md",
       "to": "papers/38488813.md"
+    },
+    {
+      "from": "genes/CDK12.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "genes/CDK12.md",
+      "to": "papers/35764743.md"
     },
     {
       "from": "genes/CDK12.md",
@@ -23589,6 +23835,10 @@
     },
     {
       "from": "methods/ct-imaging.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "methods/ct-imaging.md",
       "to": "methods/body-composition-ct.md"
     },
     {
@@ -23610,6 +23860,14 @@
     {
       "from": "methods/ct-radiomics.md",
       "to": "datasets/nsclc-radiogenomics-stanford.md"
+    },
+    {
+      "from": "methods/ct-radiomics.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "methods/ct-radiomics.md",
+      "to": "papers/35764743.md"
     },
     {
       "from": "methods/ct-radiomics.md",
@@ -23702,6 +23960,10 @@
     {
       "from": "methods/dicom-rt-struct.md",
       "to": "papers/30179230.md"
+    },
+    {
+      "from": "methods/dicom-rt-struct.md",
+      "to": "papers/37397861.md"
     },
     {
       "from": "methods/epic-methylation-array.md",
@@ -24248,6 +24510,38 @@
       "to": "papers/38949888.md"
     },
     {
+      "from": "methods/msk-impact-panel.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "methods/mtlr.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "methods/mtlr.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "methods/mtlr.md",
+      "to": "cancer_types/HNSC.md"
+    },
+    {
+      "from": "methods/multimodal-late-fusion.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "methods/multimodal-late-fusion.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "methods/multimodal-late-fusion.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "methods/multimodal-late-fusion.md",
+      "to": "cancer_types/HNSC.md"
+    },
+    {
       "from": "methods/multiparameter-flow-cytometry.md",
       "to": "papers/38780927.md"
     },
@@ -24404,6 +24698,26 @@
       "to": "papers/41941260.md"
     },
     {
+      "from": "methods/pyradiomics.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "methods/pyradiomics.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "methods/pyradiomics.md",
+      "to": "cancer_types/HNSC.md"
+    },
+    {
+      "from": "methods/pyradiomics.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "methods/pyradiomics.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
       "from": "methods/radiomic-signature-4-feature.md",
       "to": "methods/ct-radiomics.md"
     },
@@ -24434,6 +24748,10 @@
     {
       "from": "methods/radiomics.md",
       "to": "papers/38362943.md"
+    },
+    {
+      "from": "methods/radiomics.md",
+      "to": "papers/37397861.md"
     },
     {
       "from": "methods/radiomics.md",
@@ -24540,6 +24858,34 @@
       "to": "papers/34493726.md"
     },
     {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "methods/msk-impact-panel.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "genes/BRCA1.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "genes/BRCA2.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "genes/CDK12.md"
+    },
+    {
+      "from": "methods/sigma-mutational-signatures.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
       "from": "methods/single-cell-genotyping.md",
       "to": "papers/39091884.md"
     },
@@ -24618,6 +24964,14 @@
     {
       "from": "methods/spatial-transcriptomics.md",
       "to": "papers/41941260.md"
+    },
+    {
+      "from": "methods/stardist-nuclei.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "methods/stardist-nuclei.md",
+      "to": "cancer_types/HGSOC.md"
     },
     {
       "from": "methods/targeted-dna-seq.md",
@@ -24750,6 +25104,10 @@
     {
       "from": "methods/whole-exome-seq.md",
       "to": "papers/27806376.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "papers/35764743.md"
     },
     {
       "from": "methods/whole-genome-seq.md",
@@ -25442,6 +25800,54 @@
     {
       "from": "papers/34493726.md",
       "to": "genes/CHGB.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "cancer_types/HGSOC.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "datasets/ov_tcga.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "datasets/msk_spectrum_tme_2022.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "datasets/tcia-tcga-ov.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "methods/msk-impact-panel.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "methods/sigma-mutational-signatures.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "methods/pyradiomics.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "methods/stardist-nuclei.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "genes/BRCA1.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "genes/BRCA2.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "genes/CDK12.md"
+    },
+    {
+      "from": "papers/35764743.md",
+      "to": "genes/CCNE1.md"
     },
     {
       "from": "papers/35927489.md",
@@ -26334,6 +26740,46 @@
     {
       "from": "papers/37350195.md",
       "to": "genes/NOTCH3.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "datasets/radcure.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "cancer_types/HNSC.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "methods/mtlr.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "datasets/tcia-hn1-maastro.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "datasets/tcia-hnscc.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "datasets/gpcchn-poznan.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "methods/ct-imaging.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "methods/dicom-rt-struct.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "methods/ct-radiomics.md"
+    },
+    {
+      "from": "papers/37397861.md",
+      "to": "methods/pyradiomics.md"
     },
     {
       "from": "papers/37406106.md",

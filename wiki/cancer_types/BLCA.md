@@ -5,8 +5,8 @@ parent: BLADDER
 tags:
   - urothelial
   - fgfr3
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -39,11 +39,15 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [BRAF](../genes/BRAF.md) fusions were identified as acquired resistance mechanisms to [EGFR](../genes/EGFR.md) TKIs in BLCA patients [PMID:38922339](../papers/38922339.md).
 - ctDNA detection (MSK-ACCESS) was associated with higher VTE risk in BLCA patients, though the association was not significant for BLCA specifically [PMID:39147831](../papers/39147831.md).
 - [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) and next-generation FGFR3-selective inhibitors (e.g., TYRA300, LOXO435) cited as alternative options given [erdafitinib](../drugs/erdafitinib.md)'s modest durability ([PMID:37682528](../papers/37682528.md)).
+- ROBIN GenRad center (U54 CA274513; Cleveland Clinic and Emory University) RAD-SG trial (NCT05833867) evaluates RT + [sacituzumab-govitecan](../drugs/sacituzumab-govitecan.md) for bladder preservation in locally advanced muscle-invasive BLCA (MIBC); preliminary results show feasibility with only grade-1 toxicities. Flow cytometry-based immune profiling demonstrates extensive myeloid-lineage accumulation during RT+ADC treatment, with distinct profiles from ICI-treated patients. Comprehensive genomics, serum proteomics, imaging, and ctDNA analyses are underway. [PMID:41941260](../papers/41941260.md)
 
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*
+
+*This page was processed by **crosslinker** on **2026-04-15**.*

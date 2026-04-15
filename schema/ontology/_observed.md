@@ -121,3 +121,13 @@
 - method: spatial-transcriptomics — observed in PMID:39386723 — note: NanoString GeoMx WTA on HGSOC precursors; see also geomx-wta
 - method: single-cell-genotyping — observed in PMID:39091884 — note: clonal expansion + WES for single-cell somatic mutation profiling in normal skin
 - method: single-cell-genotyping — observed in PMID:38895302 — note: single-cell clonal expansion + WES/RNA-seq (G&T-seq) on melanocytes from tanning bed users
+- drug: sacituzumab-govitecan — observed in PMID:41941260 — note: Trop-2-directed antibody-drug conjugate tested with RT in MIBC (RAD-SG, NCT05833867)
+- drug: cisplatin — observed in PMID:41941260 — note: SOC chemoradiation partner referenced for MIBC and HNSCC MCTs
+- drug: etrumadenant — observed in PMID:41941260 — note: dual A2AR/A2BR adenosine-receptor antagonist in rectal-cancer MCT2 (NCT05024097)
+- drug: zimberelimab — observed in PMID:41941260 — note: anti-PD-1 mAb in rectal-cancer MCT2 (NCT05024097) combined with SCRT + etrumadenant + FOLFOX
+- drug: avelumab — observed in PMID:41941260 — note: anti-PD-L1 mAb in Javelin HN100 chemoradiation ± avelumab expansion cohort analyzed by GenRad
+- drug: folfox — observed in PMID:41941260 — note: 5-FU/leucovorin/oxaliplatin regimen combined with SCRT and immunotherapy in rectal-cancer MCT2
+- method: visium-hd — observed in PMID:41941260 — note: 10x Genomics Visium HD high-definition spatial transcriptomics on 140+ rectal-cancer biopsies (ImmunoRad)
+- method: xenium — observed in PMID:41941260 — note: 10x Genomics Xenium single-cell spatial profiling on pediatric neuroblastoma pre/post 131I-MIBG (KIDSROBIN)
+- method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
+- method: pycerr — observed in PMID:41941260 — note: Python Computational Environment for Radiotherapy Research with AI auto-segmentation and radiomics

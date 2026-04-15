@@ -3,8 +3,8 @@ name: Prostate Adenocarcinoma
 oncotree_code: PRAD
 parent: PROSTATE
 tags: [prostate]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -44,6 +44,7 @@ OncoTree code for prostate adenocarcinoma.
 - [FGFR1](../genes/FGFR1.md) downstream signature (NRP2, LRP4, TGFBI) stratifies patients for FGFR-targeted therapy in bone-metastatic CRPC; PARP inhibition investigated in NEPC. [PMID:38488813](../papers/38488813.md)
 - ctDNA detection associated with higher VTE rates in PRAD patients (5% of pan-cancer cohort); anticoagulation associated with lower VTE in ctDNA-positive patients (adjusted HR=0.50). [PMID:39147831](../papers/39147831.md)
 - ATLAS lineage de-differentiation score prognostic for prostate cancer survival and neuroendocrine transformation detection. [PMID:27634761](../papers/27634761.md)
+- ROBIN OligoMET center (U54 CA273956; UMB, Weill Cornell Medicine, Thomas Jefferson University) conducts parallel co-clinical studies in oligometastatic PRAD: the TERPS Phase II RCT (NCT05223803) of metastasis-directed SABR had enrolled 47 patients (80+ screened) as of writing; digital-pathology multimodal AI, plasma proteomics, and T-cell receptor repertoire analyses yielded preliminary SABR-benefit signatures. Preclinical dietary interventions showed low-fat/calorie-restricted diets enhanced radiosensitivity while ketogenic diets promoted radio-resistance. These findings catalyzed the biomarker-designed KNIGHTS integral-biomarker RCT (NCT06212583). OligoMET also explicitly investigates molecular drivers of poorer outcomes in African-American patients. [PMID:41941260](../papers/41941260.md)
 
 ## Sources
 
@@ -53,5 +54,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

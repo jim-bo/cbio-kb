@@ -37,7 +37,7 @@
     {
       "id": "themes",
       "label": "Themes",
-      "count": 0
+      "count": 2
     }
   ],
   "nodes": [
@@ -3868,6 +3868,18 @@
       "section": "methods",
       "label": "xgboost",
       "title": "XGBoost"
+    },
+    {
+      "id": "themes/open_questions.md",
+      "section": "themes",
+      "label": "open_questions",
+      "title": "Open questions across the corpus"
+    },
+    {
+      "id": "themes/radiation-biology.md",
+      "section": "themes",
+      "label": "radiation-biology",
+      "title": "Radiation biology"
     }
   ],
   "tree_edges": [
@@ -6450,6 +6462,14 @@
     {
       "from": "index",
       "to": "themes"
+    },
+    {
+      "from": "themes",
+      "to": "themes/open_questions.md"
+    },
+    {
+      "from": "themes",
+      "to": "themes/radiation-biology.md"
     }
   ],
   "cross_edges": [
@@ -29404,6 +29424,82 @@
     {
       "from": "papers/41941260.md",
       "to": "methods/pycerr.md"
+    },
+    {
+      "from": "themes/open_questions.md",
+      "to": "papers/24892406.md"
+    },
+    {
+      "from": "themes/open_questions.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "themes/open_questions.md",
+      "to": "papers/38780927.md"
+    },
+    {
+      "from": "themes/open_questions.md",
+      "to": "papers/41941260.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/24892406.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/37397861.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/38362943.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/30179230.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/30325352.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/28872634.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/35764743.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/34493726.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/38488813.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/37350195.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/38117484.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/39386723.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/41941260.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/27698471.md"
+    },
+    {
+      "from": "themes/radiation-biology.md",
+      "to": "papers/38780927.md"
     }
   ]
 }

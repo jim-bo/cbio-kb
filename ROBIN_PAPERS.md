@@ -1,23 +1,27 @@
 # ROBIN Citation Hunt
 
 Citations pulled from the reference list of PMID 41941260 (Gregucci et al. 2026, *Clin Cancer Res* — ROBIN white paper).
-Parsed **75** references · **66** with DOI · **63** resolved to PubMed · **0** already in wiki.
+Parsed 75 references · 66 with DOI · 58 resolved to PubMed · 0 already in wiki.
 
-Sorted chronologically. This is a candidate list — not every citation needs a full wiki page. Priorities for `paper-compiler` ingest:
+Sorted chronologically. Use this as a candidate list — not every citation needs a full wiki page, but ones heavily cited across the ROBIN batch should be prioritized for `paper-compiler`.
 
-- ROBIN centre trial / protocol papers (METEOR, OligoMET, ImmunoRad, GenRad, KIDSROBIN)
-- High-impact primary data cited for specific mechanism claims
-- Papers already referenced by multiple ROBIN-batch manuscripts (identify after batch grows)
+## 1945
 
-Skip book chapters, NIH funding announcements, and obituaries.
+### 1945 — ref #6
+**—**  
+1945
+
+[doi:10.1016/j.ijrobp.2024.05.002](https://doi.org/10.1016/j.ijrobp.2024.05.002)
+
+> Not on PubMed (book chapter, report, or unindexed)
 
 ## 1979
 
 ### 1979 — ref #21
-**Effect of host immune capability on radiocurability and subsequent transplantability of a murine fibrosarcoma**  
-Stone HB et al. (3 authors) · *J Natl Cancer Inst* · 1979
+**—**  
+1979
 
-[PMID:291749](https://pubmed.ncbi.nlm.nih.gov/291749/)
+> No DOI parsed — raw: `Stone HB, Peters LJ, Milas L. Effect of host immune capability on radiocurability and subsequent transplantability of a murine fibrosarcoma. J Natl Cancer Inst, 1979. 63(5): 1229-35.…`
 
 ## 1995
 
@@ -171,9 +175,7 @@ Herrick R et al. (6 authors) · *Neuroimage* · 2016
 
 [doi:10.1007/978-3-319-53235-6](https://doi.org/10.1007/978-3-319-53235-6)
 
-> DOI present but not indexed in PubMed (preprint, book chapter, meeting abstract)
-
-Raw: `Wong JYC, Schultheiss TE, Radany EH. Advances in Radiation Oncology. 1st ed. Berlin, Springer Nature; 2017. doi:10.1007/978-3-319-53235-6.`
+> Not on PubMed (book chapter, report, or unindexed)
 
 ### 2017 — ref #10
 **Altering the Natural History of Oligometastatic Prostate Cancer With Local Therapies: Reality Versus Illusion**  
@@ -245,6 +247,14 @@ Ciseł B et al. (30 authors) · *Ann Oncol* · 2019
 
 [PMID:31192355](https://pubmed.ncbi.nlm.nih.gov/31192355/) · [doi:10.1093/annonc/mdz186](https://doi.org/10.1093/annonc/mdz186)
 
+### 2019 — ref #43
+**—**  
+2019
+
+[doi:10.1016/S0140-6736(18](https://doi.org/10.1016/S0140-6736(18)
+
+> Not on PubMed (book chapter, report, or unindexed)
+
 ### 2019 — ref #55
 **An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma**  
 Neftel C et al. (58 authors) · *Cell* · 2019
@@ -266,10 +276,12 @@ van Timmeren JE et al. (14 authors) · *Radiother Oncol* · 2019
 ## 2020
 
 ### 2020 — ref #5
-**Radiation-induced Adaptive Response: New Potential for Cancer Treatment**  
-Coleman CN et al. (10 authors) · *Clin Cancer Res* · 2020
+**—**  
+2020
 
-[PMID:32554542](https://pubmed.ncbi.nlm.nih.gov/32554542/) · [doi:10.1158/1078-](https://doi.org/10.1158/1078-)
+[doi:10.1158/1078-](https://doi.org/10.1158/1078-)
+
+> Not on PubMed (book chapter, report, or unindexed)
 
 ### 2020 — ref #23
 **Radiation Therapy and the In Situ Vaccination Approach**  
@@ -334,10 +346,12 @@ Deek MP et al. (3 authors) · *Semin Radiat Oncol* · 2021
 [PMID:34090651](https://pubmed.ncbi.nlm.nih.gov/34090651/) · [doi:10.1016/j.semradonc.2021.03.007](https://doi.org/10.1016/j.semradonc.2021.03.007)
 
 ### 2021 — ref #29
-**Short-course radiotherapy followed by chemotherapy before total mesorectal excision (TME) versus preoperative chemoradiotherapy, TME, and optional adjuvant chemotherapy in locally advanced rectal cancer (RAPIDO): a randomised, open-label, phase 3 trial**  
-Bahadoer RR et al. (20 authors) · *Lancet Oncol* · 2021
+**—**  
+2021
 
-[PMID:33301740](https://pubmed.ncbi.nlm.nih.gov/33301740/) · [doi:10.1016/S1470-](https://doi.org/10.1016/S1470-)
+[doi:10.1016/S1470-](https://doi.org/10.1016/S1470-)
+
+> Not on PubMed (book chapter, report, or unindexed)
 
 ### 2021 — ref #41
 **Association of Ablative Radiation Therapy With Survival Among Patients With Inoperable Pancreatic Cancer**  
@@ -357,9 +371,7 @@ Floberg JM et al. (15 authors) · *Clin Cancer Res* · 2021
 
 [doi:10.1016/S1470-2045(21](https://doi.org/10.1016/S1470-2045(21)
 
-> DOI present but not indexed in PubMed (preprint, book chapter, meeting abstract)
-
-Raw: `Scott JG, Sedor G, Ellsworth P, et al. Pan-cancer prediction of radiotherapy benefit using genomic-adjusted radiation dose (GARD): a cohort-based pooled analysis. Lancet Oncol. 2021;22(9):1221-9. doi: 10.1016/S1470-2045(21)00347-8.`
+> Not on PubMed (book chapter, report, or unindexed)
 
 ### 2021 — ref #50
 **Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors**  
@@ -397,9 +409,7 @@ Katipally RR et al. (5 authors) · *Nat Rev Clin Oncol* · 2022
 **—**  
 2022
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `Radiation Oncology-Biology Integration Network (ROBIN) Centers (U54 Clinical Trial Required). https://grantsnihgov/grants/guide/rfa-files/RFA-CA-21-040html. 2022`
+> No DOI parsed — raw: `Radiation Oncology-Biology Integration Network (ROBIN) Centers (U54 Clinical Trial Required). https://grantsnihgov/grants/guide/rfa-files/RFA-CA-21-040html. 2022…`
 
 ## 2023
 
@@ -422,30 +432,20 @@ Katipally RR et al. (4 authors) · *Clin Cancer Res* · 2023
 [PMID:37115507](https://pubmed.ncbi.nlm.nih.gov/37115507/) · [doi:10.1158/1078-0432.CCR-23-0376](https://doi.org/10.1158/1078-0432.CCR-23-0376)
 
 ### 2023 — ref #24
-**Emerging evidence for adapting radiotherapy to immunotherapy**  
-Galluzzi L et al. (4 authors) · *Nat Rev Clin Oncol* · 2023
+**—**  
+2023
 
-[PMID:37280366](https://pubmed.ncbi.nlm.nih.gov/37280366/) · [doi:10.1038/s41571-023-](https://doi.org/10.1038/s41571-023-)
+[doi:10.1038/s41571-023-](https://doi.org/10.1038/s41571-023-)
+
+> Not on PubMed (book chapter, report, or unindexed)
 
 ## 2024
-
-### 2024 — ref #6
-**—**  
-2024
-
-[doi:10.1016/j.ijrobp.2024.05.002](https://doi.org/10.1016/j.ijrobp.2024.05.002)
-
-> DOI present but not indexed in PubMed (preprint, book chapter, meeting abstract)
-
-Raw: `Buchsbaum JC, Govern FS, Prasanna P. In Memoriam: C. Norman Coleman, M.D. (1945–2024). Int J Radiat Oncol Biol Phys. 2024, July 15. Obituary, Volume 119, Issue 4, p1058-1060. doi: 10.1016/j.ijrobp.2024.05.002 16`
 
 ### 2024 — ref #17
 **—**  
 2024
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `National Institutes of Health (NIH)/National Cancer Institute (NCI) “Cancer Disparities”, Last Updated: March 21, 2024. Retrieved from https://www.cancer.gov/about- cancer/understanding/disparities`
+> No DOI parsed — raw: `National Institutes of Health (NIH)/National Cancer Institute (NCI) “Cancer Disparities”, Last Updated: March 21, 2024. Retrieved from https://www.cancer.gov/about- cancer/understanding/disparities…`
 
 ### 2024 — ref #38
 **Intensity-Modulated Reirradiation Therapy With Nivolumab in Recurrent or Second Primary Head and Neck Squamous Cell Carcinoma: A Nonrandomized Controlled Trial**  
@@ -473,17 +473,7 @@ Robar JL et al. (10 authors) · *Pract Radiat Oncol* · 2024
 
 [doi:10.1158/1557-](https://doi.org/10.1158/1557-)
 
-> DOI present but not indexed in PubMed (preprint, book chapter, meeting abstract)
-
-Raw: `Golden E, Demaria S, Ben Chetrit N, et al. Abstract P021: Countering adenosine (ADO) in rectal cancer to improve RT responses to immune checkpoint blockade: a trial to test the safety and efficacy of PD1 (AB122) and ADO dual receptor (AB928) antagoni…`
-
-## 2026
-
-### 2026 — ref #43
-**Cervical Cancer Screening in Women Living With HIV in Suriname**  
-Woittiez L et al. (7 authors) · *Cureus* · 2026
-
-[PMID:41982595](https://pubmed.ncbi.nlm.nih.gov/41982595/) · [doi:10.1016/S0140-6736(18](https://doi.org/10.1016/S0140-6736(18)
+> Not on PubMed (book chapter, report, or unindexed)
 
 ## undated
 
@@ -491,46 +481,34 @@ Woittiez L et al. (7 authors) · *Cureus* · 2026
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `Suhail, Yasir et al. Cell Systems, Volume 9, Issue 2, 109 – 127.`
+> No DOI parsed — raw: `Suhail, Yasir et al. Cell Systems, Volume 9, Issue 2, 109 – 127.…`
 
 ### n.d. — ref #12
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `National Institutes of Health RePORTER. Radiation Oncology-Biology Integration Network on Oligometastasis (ROBIN OligoMET) Center. Retrieved from https://reporter.nih.gov/search/KzpUxuMCbUKKLsqzSFk8AQ/project-details/10515449`
+> No DOI parsed — raw: `National Institutes of Health RePORTER. Radiation Oncology-Biology Integration Network on Oligometastasis (ROBIN OligoMET) Center. Retrieved from https://reporter.nih.gov/search/KzpUxuMCbUKKLsqzSFk8AQ…`
 
 ### n.d. — ref #18
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `Johns Hopkins Medicine. Practical Genomics Workshop. Retrieved from https://convergence.jh.edu/practical-genomics-workshop/`
+> No DOI parsed — raw: `Johns Hopkins Medicine. Practical Genomics Workshop. Retrieved from https://convergence.jh.edu/practical-genomics-workshop/…`
 
 ### n.d. — ref #19
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `University of Maryland School of Medicine. Annual Dr. Karl Prado Physics & Radiobiology Review Course. Retrieved from https://www.medschool.umaryland.edu/radonc/education/educational-courses--events/annual-dr- karl-prado-physics--radiobiology-review-…`
+> No DOI parsed — raw: `University of Maryland School of Medicine. Annual Dr. Karl Prado Physics & Radiobiology Review Course. Retrieved from https://www.medschool.umaryland.edu/radonc/education/educational-courses--events/a…`
 
 ### n.d. — ref #20
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `Weill Cornell Medicine Pathology & Laboratory Medicine. Next-Gen Oncopathology (NGO) Program. Retrieved from https://pathology.weill.cornell.edu/education/fellowship- programs/next-gen-oncopathology-ngo-program`
+> No DOI parsed — raw: `Weill Cornell Medicine Pathology & Laboratory Medicine. Next-Gen Oncopathology (NGO) Program. Retrieved from https://pathology.weill.cornell.edu/education/fellowship- programs/next-gen-oncopathology-n…`
 
 ### n.d. — ref #58
 **—**  
 n.d.
 
-> No DOI, no PubMed match — likely a book chapter, NIH report, website, or unindexed
-
-Raw: `National Institutes of Health (NIH)/National Cancer Institute (NCI) “Radiation Oncology- Biology Integration Network (ROBIN) U54”, Last Updated: 04/23/24. https://rrp.cancer.gov/programsResources/robin.htm`
+> No DOI parsed — raw: `National Institutes of Health (NIH)/National Cancer Institute (NCI) “Radiation Oncology- Biology Integration Network (ROBIN) U54”, Last Updated: 04/23/24. https://rrp.cancer.gov/programsResources/robi…`

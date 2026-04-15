@@ -38,14 +38,14 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
 UA = "pmc-pdf-downloader/1.0 (+https://example.org)"
-PMC_HOSTS = [
-    "https://www.ncbi.nlm.nih.gov",
-    "https://pmc.ncbi.nlm.nih.gov",
-]
-# Strategies we try in order for each host
-PMC_PATH_PATTERNS = [
-    "/pmc/articles/{pmcid}/pdf/",             # canonical "directory" that serves main PDF
-    "/pmc/articles/{pmcid}/pdf/{pmcid}.pdf",  # explicit filename
+# Try Europe PMC first — NCBI's pmc.ncbi.nlm.nih.gov now gates PDFs behind a
+# JS proof-of-work challenge that requests can't solve, so PMC direct is
+# mostly a fallback at this point.
+PDF_URL_STRATEGIES = [
+    "https://europepmc.org/articles/{pmcid}?pdf=render",
+    "https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/pdf/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/pdf/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/pdf/{pmcid}.pdf",
 ]
 
 def read_rows(csv_path: str) -> List[Dict[str, str]]:
@@ -73,18 +73,16 @@ def pick_filename(pmcid: str, pmid: str = "", doi: str = "") -> str:
     return sanitize_filename(f"{base}.pdf")
 
 def stream_download(url: str, dest_path: str, timeout: int, session: requests.Session) -> Tuple[bool, str]:
-    """Stream to disk; returns (ok, message)."""
+    """Stream to disk under dest_path verbatim; returns (ok, message).
+
+    We deliberately ignore Content-Disposition filenames — downstream
+    `ingest extract` keys off the `PMC{id}` prefix in the filename to resolve
+    back to a PMID via the pmid_to_pmcid mapping, so filenames are a
+    load-bearing convention here.
+    """
     with session.get(url, stream=True, timeout=timeout) as r:
         if r.status_code != 200 or "application/pdf" not in r.headers.get("Content-Type", "").lower():
             return False, f"HTTP {r.status_code} CT={r.headers.get('Content-Type')}"
-        # Respect filename from header if present
-        cd = r.headers.get("Content-Disposition", "")
-        if "filename=" in cd:
-            # simple parse; keep extension .pdf
-            fname = cd.split("filename=")[-1].strip('"; ')
-            if fname:
-                dest_dir = os.path.dirname(dest_path)
-                dest_path = os.path.join(dest_dir, sanitize_filename(fname))
         with open(dest_path, "wb") as f:
             for chunk in r.iter_content(chunk_size=1024 * 256):
                 if chunk:
@@ -93,16 +91,22 @@ def stream_download(url: str, dest_path: str, timeout: int, session: requests.Se
 
 def try_download_pmc_pdf(pmcid: str, out_dir: str, timeout: int, session: requests.Session) -> Tuple[bool, str, str]:
     """
-    Attempt multiple PMC URL variants across hosts. Returns (ok, msg, final_path_or_empty).
+    Attempt multiple PDF source URLs in order. Returns (ok, msg, final_path_or_empty).
     """
-    for host in PMC_HOSTS:
-        for pattern in PMC_PATH_PATTERNS:
-            url = f"{host}{pattern.format(pmcid=pmcid)}"
-            target = os.path.join(out_dir, pick_filename(pmcid))
+    target = os.path.join(out_dir, pick_filename(pmcid))
+    last_msg = ""
+    for pattern in PDF_URL_STRATEGIES:
+        url = pattern.format(pmcid=pmcid)
+        try:
             ok, msg = stream_download(url, target, timeout=timeout, session=session)
-            if ok:
-                return True, f"{host} {msg}", target
-    return False, "no_pdf_found", ""
+        except requests.RequestException as e:
+            last_msg = f"{type(e).__name__}: {e}"
+            continue
+        if ok:
+            host = url.split("/")[2]
+            return True, f"{host} {msg}", target
+        last_msg = msg
+    return False, last_msg or "no_pdf_found", ""
 
 def polite_retry(fn, *, retries=4, backoff=1.5, initial_delay=0.0, on_retry=None):
     def wrapper(*args, **kwargs):

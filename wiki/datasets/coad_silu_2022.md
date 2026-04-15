@@ -1,6 +1,6 @@
 ---
 name: Colon Cancer (Sidra-LUMC AC-ICAM, Nat Med 2023)
-slug: 
+studyId: coad_silu_2022
 institution: 
 size: 
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
-studyId: coad_silu_2022
 description: Whole exome and transcriptome sequencing of 348 Colon Cancers and their matched normals from Sidra-LUMC AC-ICAM.
 cancerTypeId: coad
 pmid: 37202560

@@ -112,6 +112,73 @@ def test_patch_preserves_extra_keys(tmp_path: Path) -> None:
     assert "custom_field: hello" in new_text
 
 
+# --- _KEY_RENAMES (slug → studyId) ---
+
+def _write_dataset_template(templates: Path) -> None:
+    (templates / "dataset.md").write_text(
+        "---\nname:\nstudyId:\nsize:\n"
+        "processed_by:\nprocessed_at:\n---\n\n# {{name}}\n"
+    )
+
+
+def test_rename_slug_to_studyid_when_only_slug(tmp_path: Path) -> None:
+    wiki = tmp_path / "wiki"
+    templates = tmp_path / "templates"
+    (wiki / "datasets").mkdir(parents=True)
+    templates.mkdir()
+    _write_dataset_template(templates)
+    (wiki / "datasets" / "foo.md").write_text(
+        "---\nname: Foo Cohort\nslug: foo_cohort\nsize: 42\n"
+        "processed_by: x\nprocessed_at: 2024-01-01\n---\n\n# Foo Cohort\n"
+    )
+
+    results = patch_frontmatter(wiki, templates, sections=["datasets"])
+    assert len(results) == 1
+    assert results[0]["keys_renamed"] == ["slug"]
+
+    new_text = (wiki / "datasets" / "foo.md").read_text()
+    assert "studyId: foo_cohort" in new_text
+    assert "slug:" not in new_text
+
+
+def test_rename_prefers_existing_studyid_over_empty_slug(tmp_path: Path) -> None:
+    """When both slug and studyId exist and studyId is populated, studyId wins."""
+    wiki = tmp_path / "wiki"
+    templates = tmp_path / "templates"
+    (wiki / "datasets").mkdir(parents=True)
+    templates.mkdir()
+    _write_dataset_template(templates)
+    (wiki / "datasets" / "dual.md").write_text(
+        "---\nname: Dual\nslug: \nsize: 1\n"
+        "processed_by: x\nprocessed_at: 2024-01-01\n"
+        "studyId: real_value\n---\n\n# Dual\n"
+    )
+
+    patch_frontmatter(wiki, templates, sections=["datasets"])
+    new_text = (wiki / "datasets" / "dual.md").read_text()
+    assert "studyId: real_value" in new_text
+    assert "slug:" not in new_text
+
+
+def test_rename_migrates_slug_when_studyid_empty(tmp_path: Path) -> None:
+    """When both keys exist but studyId is empty, the slug value migrates."""
+    wiki = tmp_path / "wiki"
+    templates = tmp_path / "templates"
+    (wiki / "datasets").mkdir(parents=True)
+    templates.mkdir()
+    _write_dataset_template(templates)
+    (wiki / "datasets" / "partial.md").write_text(
+        "---\nname: Partial\nslug: migrate_me\nsize: 1\n"
+        "processed_by: x\nprocessed_at: 2024-01-01\n"
+        "studyId: \n---\n\n# Partial\n"
+    )
+
+    patch_frontmatter(wiki, templates, sections=["datasets"])
+    new_text = (wiki / "datasets" / "partial.md").read_text()
+    assert "studyId: migrate_me" in new_text
+    assert "slug:" not in new_text
+
+
 # --- Tier 2: find_extraction_gaps ---
 
 def test_find_gaps_detects_empty_lists(tmp_path: Path) -> None:

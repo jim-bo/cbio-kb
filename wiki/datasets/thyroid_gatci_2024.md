@@ -1,6 +1,6 @@
 ---
 name: Anaplastic Thyroid Carcinoma (GATCI, 2024)
-slug: thyroid_gatci_2024
+studyId: thyroid_gatci_2024
 institution: Global Anaplastic Thyroid Cancer Initiative (GATCI); 15 institutions
 size: 292
 reference_genome: hg38
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, snp-microarray, whole-exome-seq, whole-genome-seq]
 panels: []
-tags:
-  - thyroid
-  - anaplastic
-  - THAP
-  - multi-institution
+tags: [thyroid, anaplastic, THAP, multi-institution]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

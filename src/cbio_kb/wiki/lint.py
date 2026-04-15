@@ -14,7 +14,7 @@ REQUIRED_FRONTMATTER = {
     "papers": {"pmid", "title"},
     "genes": {"symbol"},
     "cancer_types": {"name", "oncotree_code"},
-    "datasets": {"name"},
+    "datasets": {"name", "studyId"},
     "drugs": {"name"},
     "methods": {"name"},
     "themes": {"title"},

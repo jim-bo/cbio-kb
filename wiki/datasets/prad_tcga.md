@@ -1,6 +1,6 @@
 ---
-name: "Prostate Adenocarcinoma (TCGA, 2015)"
-slug: prad_tcga
+name: Prostate Adenocarcinoma (TCGA, 2015)
+studyId: prad_tcga
 institution: The Cancer Genome Atlas
 size: 499
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
-tags:
-  - prostate-cancer
-  - prad
-  - tcga
-  - multi-platform
+tags: [prostate-cancer, prad, tcga, multi-platform]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

@@ -1,6 +1,6 @@
 ---
 name: ICGC Pancreatic Adenocarcinoma
-slug: paad_icgc
+studyId: paad_icgc
 institution: International Cancer Genome Consortium (ICGC)
 size: 607
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [whole-genome-seq]
 panels: []
-tags:
-  - pancreatic-cancer
-  - pdac
-  - icgc
-  - multi-national
+tags: [pancreatic-cancer, pdac, icgc, multi-national]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

@@ -1,6 +1,6 @@
 ---
 name: CSF ctDNA MSK 2024
-slug: csf_msk_2024
+studyId: csf_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 711
 reference_genome: GRCh37

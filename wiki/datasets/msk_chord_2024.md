@@ -1,6 +1,6 @@
 ---
 name: MSK-CHORD Clinicogenomic Harmonized Real-World Dataset, Nature 2024
-slug: msk_chord_2024
+studyId: msk_chord_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 24950 patients
 reference_genome: GRCh37

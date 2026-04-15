@@ -1,6 +1,6 @@
 ---
-name: "HER2-Positive Esophagogastric Cancer — TRAP Trial (MSK, Cancer Cell Reports 2023)"
-slug: egc_trap_ccr_msk_2023
+name: HER2-Positive Esophagogastric Cancer — TRAP Trial (MSK, Cancer Cell Reports 2023)
+studyId: egc_trap_ccr_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 263
 reference_genome: hg19

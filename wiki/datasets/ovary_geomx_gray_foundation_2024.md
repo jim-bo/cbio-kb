@@ -1,6 +1,6 @@
 ---
-name: "Ovarian HGSOC Precursor Lesions — GeoMx Spatial Profiling (Gray Foundation 2024)"
-slug: ovary_geomx_gray_foundation_2024
+name: Ovarian HGSOC Precursor Lesions — GeoMx Spatial Profiling (Gray Foundation 2024)
+studyId: ovary_geomx_gray_foundation_2024
 institution: Multi-institutional (University of Pennsylvania, Swedish Cancer Institute, Seattle)
 size: 44
 reference_genome: hg38

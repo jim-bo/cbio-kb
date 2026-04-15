@@ -1,6 +1,6 @@
 ---
 name: MSK Make-An-IMPACT (MSK, Clin Cancer Res 2023)
-slug: 
+studyId: makeanimpact_ccr_2023
 institution: 
 size: 
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
-studyId: makeanimpact_ccr_2023
 description: Targeted sequencing of 167 patients with Histiocytosis and Germ Cell Tumors using MSK-IMPACT, MSK-IMPACT-Heme, and MSK-ACCESS platforms.
 cancerTypeId: mixed
 pmid: 36862133

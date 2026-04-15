@@ -1,6 +1,6 @@
 ---
 name: Pediatric Rhabdomyosarcomas (MSK, JCO Precis Oncol 2023)
-slug: 
+studyId: rms_msk_2023
 institution: 
 size: 
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-11
-studyId: rms_msk_2023
 description: Targeted sequencing of 24 cases with extremity rhabdomyosarcoma tumors and their matched normals (MSK Cohort) via MSK-IMPACT.
 cancerTypeId: rms
 pmid: 37315267

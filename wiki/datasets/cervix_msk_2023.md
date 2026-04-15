@@ -1,6 +1,6 @@
 ---
-name: "Cervical Cancer (MSK, Gynecologic Oncology 2023)"
-slug: cervix_msk_2023
+name: Cervical Cancer (MSK, Gynecologic Oncology 2023)
+studyId: cervix_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 177
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - cervical-cancer
-  - cesc
-  - msk-impact
-  - hpv
+tags: [cervical-cancer, cesc, msk-impact, hpv]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

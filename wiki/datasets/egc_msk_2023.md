@@ -1,6 +1,6 @@
 ---
-name: "Esophagogastric Cancer (MSK, JCO Oncology Practice 2023)"
-slug: egc_msk_2023
+name: Esophagogastric Cancer (MSK, JCO Oncology Practice 2023)
+studyId: egc_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 1123
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [germline-seq, targeted-panel]
 panels: []
-tags:
-  - esophagogastric-cancer
-  - stad
-  - esca
-  - early-onset
-  - msk-impact
+tags: [esophagogastric-cancer, stad, esca, early-onset, msk-impact]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

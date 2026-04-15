@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ODG, DIFG]
 tags: [transcriptional-repressor, oligodendroglioma]
 processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_at: 2026-04-15
 ---
 
 # CIC
@@ -16,6 +16,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 ## Alterations observed in the corpus
 
 - CIC mutations observed in 42% of 1p19q codeleted oligodendrogliomas in the MSK-IMPACT subcohort (n=73) of an IDH-mutant low-grade glioma active-surveillance study [PMID:37910594](../papers/37910594.md).
+- Subclonal loss-of-function CIC mutation (~30% VAF) detected in oligodendroglioma tumor MGH53 by scRNA-seq; mutant cells show increased [ETV1](../genes/ETV1.md) and [ETV5](../genes/ETV5.md) expression consistent with derepression of CIC target genes; mutation found across all three developmental compartments (stem/progenitor, astro-like, oligo-like) [PMID:27806376](../papers/27806376.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 ## Sources
 
 - [PMID:37910594](../papers/37910594.md)
+- [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

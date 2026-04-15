@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # Whole-exome sequencing (WES)
@@ -33,6 +33,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:38895302](../papers/38895302.md) — single-cell clonal expansion followed by WES on 182 melanocytes from normal skin biopsies of tanning bed users and controls; paired with RNA-seq using G&T-seq protocol [PMID:38895302](../papers/38895302.md).
 - [PMID:38949888](../papers/38949888.md) — WES on 48 prostate cancer tumor samples (20 MSI-H/dMMR, 28 TMB-H/MSS) via recapture of MSK-IMPACT libraries [PMID:38949888](../papers/38949888.md).
 - [PMID:39091884](../papers/39091884.md) — WES at ~95X coverage on 137 keratinocytes, 131 melanocytes, and 23 fibroblasts from 22 skin biopsies via single-cell clonal expansion; profiled AK-to-cSCC evolutionary trajectories [PMID:39091884](../papers/39091884.md).
+- [PMID:27806376](../papers/27806376.md) — bulk WES used for subclonal mutation calling (ABSOLUTE) in 6 IDH-mutant oligodendrogliomas; identified inferred-CNV subclones and 22 subclonal point mutations to confirm that the developmental hierarchy is not driven by any single genetic clone [PMID:27806376](../papers/27806376.md).
 
 ## Notes
 
@@ -56,5 +57,6 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39091884](../papers/39091884.md)
+- [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

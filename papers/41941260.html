@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Radiation Oncology-Biology Integration Network (ROBIN): Bridging the gap between biological research and clinical practice – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#radiation-oncology-biology-integration-network-robin-bridging-the-gap-between-biological-research-and-clinical-practice" id="toc-radiation-oncology-biology-integration-network-robin-bridging-the-gap-between-biological-research-and-clinical-practice" class="nav-link active" data-scroll-target="#radiation-oncology-biology-integration-network-robin-bridging-the-gap-between-biological-research-and-clinical-practice">Radiation Oncology-Biology Integration Network (ROBIN): Bridging the gap between biological research and clinical practice</a>
+  <ul class="collapse">
+  <li><a href="#tldr" id="toc-tldr" class="nav-link" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/41941260.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/41941260.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Radiation Oncology-Biology Integration Network (ROBIN): Bridging the gap between biological research and clinical practice</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Fabiana Gregucci </p>
+             <p>Christine Lee-Poturalski </p>
+             <p>Madelyn Dirrim </p>
+             <p>Jadyn Stewart </p>
+             <p>Douglas Caruthers </p>
+             <p>Charles D. Stiles </p>
+             <p>Kathy Hentrich </p>
+             <p>Jessica Cardenas </p>
+             <p>Timothy A. Chan </p>
+             <p>David S. Yu </p>
+             <p>Phuoc Tran </p>
+             <p>Nicole Simone </p>
+             <p>Amit Sawant </p>
+             <p>Julie Schwarz </p>
+             <p>Clifford Robinson </p>
+             <p>Daphne Haas-Kogan </p>
+             <p>Franziska Michor </p>
+             <p>Claire Vanpouille-Box </p>
+             <p>John Ng </p>
+             <p>Yasmin Hasan </p>
+             <p>Jennifer Yu </p>
+             <p>Lei Ren </p>
+             <p>Luigi Marchionni </p>
+             <p>Geoffrey Hugo </p>
+             <p>Ross Berbeco </p>
+             <p>Jean L. Nakamura </p>
+             <p>James Lindsay </p>
+             <p>Xiaofeng Yang </p>
+             <p>Joseph O. Deasy </p>
+             <p>Ralph R. Weichselbaum </p>
+             <p>Silvia C. Formenti </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-25-1216">10.1158/1078-0432.CCR-25-1216</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<section id="radiation-oncology-biology-integration-network-robin-bridging-the-gap-between-biological-research-and-clinical-practice" class="level1">
+<h1>Radiation Oncology-Biology Integration Network (ROBIN): Bridging the gap between biological research and clinical practice</h1>
+<p><strong>PMID:</strong> 41941260 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-25-1216 · <strong>Journal:</strong> Clin Cancer Res (2026)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This is a white-paper / program review of the NIH/NCI-funded Radiation Oncology–Biology Integration Network (ROBIN), a U54 consortium that embeds mechanistic biology inside prospective radiation-therapy (RT) clinical trials. ROBIN comprises five disease-focused centers — OligoMET (oligometastatic prostate cancer), ImmunoRad (rectal cancer), GenRad (bladder cancer and HNSCC), METEOR (cervical and pancreatic cancer), and KIDSROBIN (pediatric diffuse midline glioma and high-risk neuroblastoma) — each running a Molecular Characterization Trial (MCT) with longitudinal biospecimen collection, single-cell and spatial multi-omics, advanced imaging (CBCT, MRI), and integrative data science. The paper summarizes the consortium’s mission, governance (Admin, CTC, DSIA, and CBCT working groups), and preliminary findings across centers; no new primary data are analyzed.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Design:</strong> consortium white paper / review, not a primary-data study. Data availability statement explicitly notes: “No new data were generated or analyzed for this review.”</li>
+<li><strong>Funded centers (U54 grants):</strong>
+<ul>
+<li>OligoMET — U54 CA273956 — UMB, Weill Cornell Medicine, Thomas Jefferson University.</li>
+<li>ImmunoRad — U54 CA274291 — Weill Cornell + 9 collaborating centers in the U.S. and Europe (MSKCC, University of Chicago, Rutgers, Cedars-Sinai, ICR/Royal Marsden, Glasgow, Manchester, Leeds, Gustave Roussy).</li>
+<li>GenRad — U54 CA274513 — Cleveland Clinic and Emory University.</li>
+<li>METEOR — U54 CA274318 — Washington University, St.&nbsp;Louis.</li>
+<li>KIDSROBIN — U54 CA274516 — Harvard University and University of California, San Francisco.</li>
+</ul></li>
+<li><strong>Active trials referenced:</strong>
+<ul>
+<li>TERPS (NCT05223803) — Phase II RCT of metastasis-directed therapy in oligometastatic <a href="../cancer_types/PRAD.html">PRAD</a>; 80+ screened, 47 randomized.</li>
+<li>KNIGHTS (NCT06212583) — first integral-biomarker-designed randomized SABR trial in oligometastatic prostate cancer.</li>
+<li>ImmunoRad MCT1 (NCT05943210) — preoperative short-course radiotherapy (SCRT) in rectal cancer; 39/50 enrolled, 140+ tissue samples banked.</li>
+<li>ImmunoRad MCT2 (NCT05024097) — Phase I/II SCRT + etrumadenant + zimberelimab + FOLFOX in rectal cancer; 21 enrolled as of writing.</li>
+<li>RAD-SG (NCT05833867, GenRad MCT part A) — RT + sacituzumab govitecan in muscle-invasive bladder cancer.</li>
+<li>GenRad HNSCC MCT (NCT03521570, part 2) — RT + cisplatin vs.&nbsp;RT + immune checkpoint inhibitor in HNSCC; completed.</li>
+<li>METEOR-CRATR (NCT05975593) — longitudinal sampling in locally advanced cervix and pancreas cancer; 26 cervical + 12 pancreatic patients, 75 tumor samples, 126 DICOM-RT plans archived.</li>
+<li>PNOC023 and COG ANBL1531 — pediatric cooperative-group trials in DMG and high-risk neuroblastoma; 33 patients accrued to PNOC023 arms A/B; ANBL1531 accrual complete.</li>
+</ul></li>
+<li><strong>Assays referenced:</strong> 10x Genomics [[visium-hd|Visium HD]] spatial transcriptomics, 10x [[xenium|Xenium]] single-cell spatial profiling, single-cell RNA-seq, bulk RNA-seq, 16S/ITS microbiome sequencing, ctDNA nucleosome positioning, serum miRNA profiling, flow-cytometry immune profiling, plasma proteomics, T-cell receptor repertoire, digital pathology / multimodal AI, CBCT delta radiomics, MRI (including DBSI), and 123I-/131I-MIBG SPECT/CT dosimetry.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p>This is a program description; the “findings” below are preliminary results the authors highlight from each center.</p>
+<ul>
+<li><strong>OligoMET (oligometastatic <a href="../cancer_types/PRAD.html">PRAD</a>):</strong> digital-pathology multimodal AI, plasma proteomics, and T-cell receptor repertoire analyses yielded signatures associated with stereotactic ablative radiation (SABR) benefit. Preclinical dietary interventions modulated radiosensitivity — low-fat and calorie-restricted regimens enhanced radiation response, whereas ketogenic diets unexpectedly promoted radio-resistance. Metabolic signatures linked to SABR-MDT response informed the biomarker-designed KNIGHTS (NCT06212583) trial.</li>
+<li><strong>ImmunoRad (<a href="../cancer_types/READ.html">READ</a>):</strong> spatial transcriptomics (Visium HD) on 140+ biopsies identified RT-associated spatial reorganization of lymphocytes and altered macrophage wound-healing signals. scRNA-seq of pre/post-RT PBMCs showed stress responses in B cells, ECM-remodeling/immune-activation in monocytes, and <a href="../genes/MYC.html">MYC</a>-driven activation in CD8+ T cells — interpreted as RT-induced trained immunity. 16S/ITS sequencing showed post-RT increases in Clostridiales and Trichocomaceae. In MCT2, preliminary CR rate was 1/5 (20%) in Part I and 11/15 stage-1 patients had 82% CR in Part II (SCRT + <a href="../drugs/etrumadenant.html">etrumadenant</a> + <a href="../drugs/zimberelimab.html">zimberelimab</a> + <a href="../drugs/folfox.html">FOLFOX</a>).</li>
+<li><strong>GenRad (<a href="../cancer_types/BLCA.html">BLCA</a> and <a href="../cancer_types/HNSC.html">HNSC</a>):</strong> RT + <a href="../drugs/sacituzumab-govitecan.html">sacituzumab-govitecan</a> (RAD-SG, NCT05833867) for bladder preservation was safe and feasible with only grade-1 toxicities observed at preliminary read-out. In recurrent/second-primary HNSCC (NCT03521570), intensity-modulated re-irradiation + PD-1 inhibition was tolerable and effective; shorter PFS correlated with a 1.5-fold increase in PD1+Ki67+CD4+ T cells from baseline to week 2–4. Analysis of the Javelin HN100 chemoradiation ± <a href="../drugs/avelumab.html">avelumab</a> expansion cohort identified intratumoral bacteria as a major source of therapy resistance in HNSCC.</li>
+<li><strong>METEOR (<a href="../cancer_types/CESC.html">CESC</a> and <a href="../cancer_types/PAAD.html">PAAD</a>):</strong> among 26 cervical and 12 pancreatic patients (75 tumor samples; 22 cervical and 3 pancreatic with serial samples), chemoradiation (CRT) remodeled the TME with consistent myeloid-derived-cell infiltration and upregulation of <a href="../genes/TP53.html">TP53</a>/<a href="../genes/MDM2.html">MDM2</a> in cervix tumor cells, without significant upregulation of <a href="../genes/CD274.html">CD274</a>/<a href="../genes/PDCD1.html">PDCD1</a> axes. SBRT altered cDC1 infiltration in human and murine pancreatic tumors with impaired antigen-presenting-cell phenotype in draining lymph nodes. HPV genotype and gene expression, rather than histology, drove cervical tumor biology.</li>
+<li><strong>KIDSROBIN (pediatric <a href="../cancer_types/DMG.html">DMG</a> and <a href="../cancer_types/NBL.html">NBL</a>):</strong> 2,039 serial MRI scans from 253 DMG patients and 8,057/7,597 clinical notes (DMG/NBL) secured for NLP and radiomics studies. Xenium single-cell spatial profiling on baseline and post-131I-MIBG second-look neuroblastoma samples identified differentially depleted/enriched cell populations. ctDNA nucleosome positioning and serum miRNA profiling identified candidate response biomarkers. Paired 123I-/131I-MIBG SPECT/CT enabled tumor-absorbed dose estimation per unit activity.</li>
+<li><strong>Infrastructure:</strong> DSIA WG targets FAIR data via the NCI Cancer Research Data Commons, adopting XNAT for imaging informatics and <a href="../methods/pycerr.html">pycerr</a> (Python Computational Environment for Radiotherapy Research) with AI auto-segmentation and radiomics. The CBCT WG standardizes Cone-Beam CT acquisition protocols across institutions to enable CBCT delta radiomics (high-temporal-resolution treatment-response imaging).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p>The paper does not make gene-level variant claims; genes are discussed as functional markers or pathway readouts in preliminary results.</p>
+<ul>
+<li><a href="../genes/MYC.html">MYC</a> — MYC-driven transcriptional activation observed in CD8+ T cells post-RT in rectal-cancer PBMC scRNA-seq (ImmunoRad).</li>
+<li><a href="../genes/TP53.html">TP53</a> / <a href="../genes/MDM2.html">MDM2</a> — p53/MDM2 axis upregulated in human cervix tumor cells after chemoradiation (METEOR).</li>
+<li><a href="../genes/CD274.html">CD274</a> (PD-L1) / <a href="../genes/PDCD1.html">PDCD1</a> (PD-1) — the PD-1/PD-L1 axis was not significantly upregulated after CRT in the METEOR cervical cohort. In GenRad HNSCC, PD1+Ki67+CD4+ T-cell expansion associated with shorter PFS under re-irradiation + PD-1 blockade.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Biomarker-driven radiation oncology:</strong> the MCT design — longitudinal tissue, blood, stool, and imaging across pre-, on-, and post-RT timepoints — is framed as a scalable template for generating actionable radiation-response biomarkers. OligoMET’s metabolic/imaging signatures already catalyzed the KNIGHTS integral-biomarker RCT (NCT06212583).</li>
+<li><strong>Radiation + systemic therapy combinations:</strong> consortium data support feasibility and biological activity of RT combined with antibody-drug conjugates (<a href="../drugs/sacituzumab-govitecan.html">sacituzumab-govitecan</a> in MIBC), adenosine-pathway + PD-1 inhibitors (<a href="../drugs/etrumadenant.html">etrumadenant</a> + <a href="../drugs/zimberelimab.html">zimberelimab</a> with <a href="../drugs/folfox.html">folfox</a> in rectal cancer), and PD-1 blockade in re-irradiated HNSCC.</li>
+<li><strong>Intratumoral microbiome as a resistance axis:</strong> HNSCC intratumoral bacteria identified in the Javelin HN100 expansion cohort are highlighted as a newly druggable resistance mechanism for chemoradiation-immunotherapy combinations.</li>
+<li><strong>Disparities research:</strong> OligoMET explicitly investigates molecular drivers of poorer outcomes in African-American prostate-cancer patients with the goal of informing trials beyond prostate cancer.</li>
+<li><strong>Pediatric translatability:</strong> KIDSROBIN positions single-cell and spatial profiling of genetically “simple” pediatric tumors (low TMB) as a tractable model for intra-tumoral heterogeneity whose mechanistic findings are expected to generalize to adult cancers.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>No primary data.</strong> This is a consortium white paper; every quantitative result is labeled preliminary and none has undergone formal peer-reviewed primary publication within this article.</li>
+<li><strong>Accrual is ongoing for most MCTs</strong> (e.g.&nbsp;ImmunoRad MCT1 at 39/50; OligoMET TERPS at 47 randomized; PNOC023 at 33) — statistical power for the stated biomarker claims is not yet established.</li>
+<li><strong>Small sample sizes</strong> in several preliminary readouts (e.g.&nbsp;11/15 patients in MCT2 Part II stage 1; 10 patients contributing spatial profiling from Glasgow) mean effect sizes may be unstable.</li>
+<li><strong>Assay heterogeneity across sites</strong> — the DSIA and CBCT working groups explicitly flag the need for harmonized ontologies, acquisition protocols, and artifact correction before cross-center integrative analysis is robust.</li>
+<li><strong>Translation gap for radiation-immunotherapy</strong> — the authors note that despite strong preclinical signal, successful translation of RT-induced immune effects to the clinic is still lacking.</li>
+<li><strong>Open:</strong> how RT-induced microbial shifts (Clostridiales, Trichocomaceae; intratumoral bacteria in HNSCC) causally shape response vs.&nbsp;resistance — the consortium flags this as a major forward-looking mechanistic question.</li>
+<li><strong>Open:</strong> whether the “trained immunity” / MYC-driven CD8+ activation signal in PBMCs post-RT is a reproducible systemic-response biomarker across disease sites.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“The Radiation Oncology-Biology Integration Network (ROBIN) initiative addresses critical gaps in radiation oncology by integrating advanced biological research, technological innovation, and clinical practice.” — Abstract.</li>
+<li>“Currently, the ROBIN program comprises five centers, including OligoMET, ImmunoRad, GenRad, METEOR, and KIDSROBIN (Table 1).” — Introduction.</li>
+<li>“To date, over 80 patients have been screened, with 47 enrolled and randomized” — OligoMET TERPS (NCT05223803) enrollment.</li>
+<li>“Project 2 preclinical studies demonstrated that dietary interventions can modulate radiosensitivity; low-fat and calorie-restricted regimens enhanced radiation responses, whereas ketogenic diets unexpectedly promoted radio-resistance.” — OligoMET.</li>
+<li>“Over 140 tissue samples have been banked, extensively quality-controlled, and processed for spatial transcriptomic profiling using the 10x Genomics Visium HD platform.” — ImmunoRad MCT1.</li>
+<li>“MYC-driven activation in CD8+ T cells, suggesting that RT induces systemic immune reprogramming, aligning with the concept of trained immunity.” — ImmunoRad scRNA-seq.</li>
+<li>“16S/ITS sequencing of stool samples revealed shifts in bacterial and fungal populations – notably, increased Clostridiales and Trichocomaceae post-RT.” — ImmunoRad microbiome.</li>
+<li>“In part II, 11/15 accrued patients to stage 1 completed treatment and are assessed for response, reporting a CR rate of 82%.” — ImmunoRad MCT2 (NCT05024097).</li>
+<li>“The preliminary results show that RT+SG for definitive bladder cancer treatment is safe and feasible, with only grade 1 toxicities observed.” — GenRad RAD-SG (NCT05833867).</li>
+<li>“A shorter progression-free survival was associated with a 1.5-fold increase in PD1+Ki67+CD4+ T cells from baseline to week 2 or 4 of treatment” — GenRad HNSCC MCT (NCT03521570).</li>
+<li>“One notable finding is that intratumoral bacteria in HNSCC is a major source of resistance to therapy.” — GenRad Javelin HN100 analysis.</li>
+<li>“CRT remodels the TME in consistent ways: inducing infiltration by novel populations of myeloid-derived cells and upregulating p53/MDM2 in human cervix tumor cells, while not significantly upregulating PDL-1 and PD-1 axes.” — METEOR Project 1.</li>
+<li>“KIDSROBIN has also secured 2,039 serial MRI scans from 253 patients for DMG radiomics studies, and 8,057 clinical notes from 99 patients with DMG and 7,597 clinical notes from 182 patients with NBL for natural language processing (NLP) studies.” — KIDSROBIN.</li>
+<li>“XNAT, an open-source imaging informatics platform [62], has been adopted for secure, multi-user, scriptable data management.” — DSIA WG.</li>
+<li>“Available tools include Wikis, Jupyter notebooks, R Studio environments, and integration with pyCERR – a Python-based evolution of the Computational Environment for Radiotherapy Research with AI auto-segmentation tools and radiomics capabilities.” — DSIA WG.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-15</strong>.</em></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/41941260.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/41941260.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

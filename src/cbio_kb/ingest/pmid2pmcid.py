@@ -109,35 +109,51 @@ def resolve_idconv_all(pmids: List[str], email: Optional[str], sleep=0.34, verbo
     return out
 
 def elink_pubmed_to_pmc(pmid: str, email: Optional[str], api_key: Optional[str]) -> str:
+    # Pin linkname=pubmed_pmc — the PMC record OF this PMID. Without it, NCBI
+    # also returns pubmed_pmc_refs (PMC records CITING this PMID), and naive
+    # [0]-indexing can grab a citing paper's PMCID for PMIDs not in PMC.
     if Entrez:
         if not email:
             raise ValueError("E-utilities elink requires --email when Biopython is installed.")
         Entrez.email = email
         if api_key:
             Entrez.api_key = api_key
-        h = Entrez.elink(dbfrom="pubmed", db="pmc", id=pmid, retmode="xml")
+        h = Entrez.elink(
+            dbfrom="pubmed", db="pmc", id=pmid,
+            linkname="pubmed_pmc", retmode="xml",
+        )
         recs = Entrez.read(h); h.close()
         try:
-            links = recs[0]["LinkSetDb"][0]["Link"]
-            if links:
-                return "PMC" + links[0]["Id"]
+            for lsdb in recs[0].get("LinkSetDb", []) or []:
+                if lsdb.get("LinkName") != "pubmed_pmc":
+                    continue
+                links = lsdb.get("Link", []) or []
+                return ("PMC" + links[0]["Id"]) if links else ""
+            return ""
         except Exception:
             return ""
-        return ""
     else:
-        params = {"dbfrom": "pubmed", "db": "pmc", "id": pmid, "retmode": "json", "tool": "pmid2pmcid-cli"}
+        params = {
+            "dbfrom": "pubmed", "db": "pmc", "id": pmid,
+            "linkname": "pubmed_pmc",
+            "retmode": "json", "tool": "pmid2pmcid-cli",
+        }
         if email:
             params["email"] = email
+        if api_key:
+            params["api_key"] = api_key
         r = requests.get(ELINK_URL, params=params, timeout=30, headers={"User-Agent": UA})
         r.raise_for_status()
-        j = r.json()
         try:
-            links = j["linksets"][0]["linksetdbs"][0]["links"]
-            if links:
-                return "PMC" + str(links[0])
+            linksetdbs = (r.json().get("linksets") or [{}])[0].get("linksetdbs") or []
+            for lsdb in linksetdbs:
+                if lsdb.get("linkname") != "pubmed_pmc":
+                    continue
+                links = lsdb.get("links") or []
+                return ("PMC" + str(links[0])) if links else ""
+            return ""
         except Exception:
             return ""
-        return ""
 
 def resolve_pmids(pmids: List[str], email: Optional[str], force_elink: bool,
                   fallback: bool, api_key: Optional[str], verbose: bool) -> Dict[str, Dict]:

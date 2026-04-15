@@ -14,8 +14,6 @@ processed_by: theme-synthesizer
 processed_at: 2026-04-15
 ---
 
-# Radiation biology
-
 ## What this is
 
 Radiation biology in this corpus spans (a) quantitative imaging biomarkers derived from

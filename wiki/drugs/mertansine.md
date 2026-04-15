@@ -13,7 +13,7 @@ processed_at: 2026-04-15
 
 ## Overview
 
-Mertansine (DM1; N2'-deacetyl-N2'-(3-mercapto-1-oxopropyl)-maytansine) is a potent maytansinoid microtubule-depolymerizing agent derived from maytansine. It is used as the cytotoxic warhead in antibody-drug conjugates, most notably [trastuzumab-emtansine](../drugs/trastuzumab-emtansine.md) (T-DM1/Kadcyla). Free mertansine is not used as a standalone clinical agent due to narrow therapeutic index; its activity is harnessed via targeted ADC delivery.
+Mertansine (DM1; N2'-deacetyl-N2'-(3-mercapto-1-oxopropyl)-maytansine) is a potent maytansinoid microtubule-depolymerizing agent derived from maytansine. It is used as the cytotoxic warhead in antibody-drug conjugates, most notably [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1/Kadcyla). Free mertansine is not used as a standalone clinical agent due to narrow therapeutic index; its activity is harnessed via targeted ADC delivery.
 
 ## Evidence in the corpus
 

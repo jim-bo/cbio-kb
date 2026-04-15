@@ -36,7 +36,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 
 - HER2-directed therapy ([trastuzumab](../drugs/trastuzumab.md)) combined with PD-1 blockade ([pembrolizumab](../drugs/pembrolizumab.md)) and chemotherapy showed median PFS 13 months, [OS](../cancer_types/OS.md) 27 months, ORR 89% in HER2-positive metastatic esophagogastric cancer including ESCA. [PMID:37406106](../papers/37406106.md)
 - CCNE1 amplification represents a potential therapeutic target (CDK2 inhibitors) in early-onset ESCA. [PMID:37699004](../papers/37699004.md)
-- [trastuzumab-emtansine](../drugs/trastuzumab-emtansine.md) (T-DM1) combined with IR produced long-term tumor control in HER2+ OE19 (ESCA) xenografts; T-MMAE was equally efficacious at 1 nmol. Authors propose T-DM1 + chemoradiotherapy as a strategy warranting clinical evaluation in HER2+ locally advanced esophageal cancer. [PMID:27698471](../papers/27698471.md)
+- [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) combined with IR produced long-term tumor control in HER2+ OE19 (ESCA) xenografts; T-MMAE was equally efficacious at 1 nmol. Authors propose T-DM1 + chemoradiotherapy as a strategy warranting clinical evaluation in HER2+ locally advanced esophageal cancer. [PMID:27698471](../papers/27698471.md)
 
 ## Sources
 

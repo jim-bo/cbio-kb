@@ -137,7 +137,6 @@
 - method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
-- drug: trastuzumab-emtansine — observed in PMID:27698471 — note: T-DM1/Kadcyla; anti-HER2 maytansinoid ADC; preclinical radiosensitizer in HER2+ esophageal/gastric xenografts; FDA-approved HER2+ BC; OncoKB canonical name "ado-trastuzumab emtansine" — ontology lookup returned no match
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
 - drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM
 - drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1

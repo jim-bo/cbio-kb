@@ -39,7 +39,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - Pembrolizumab + [trastuzumab](../drugs/trastuzumab.md) + CAPOX in HER2-positive metastatic gastric/GEJ/esophageal cancer: median PFS 13 months, [OS](../cancer_types/OS.md) 27 months, ORR 89% (n=37). [PMID:37406106](../papers/37406106.md)
 - Uniform HER2 IHC 3+ predicts longer PFS (15 vs. 8.5 months, P=0.004); HER2 IHC heterogeneity and [ERBB2](../genes/ERBB2.md) amplification status are key biomarkers. [PMID:37406106](../papers/37406106.md)
 - 35% of early-onset patients were initially treated for an alternative diagnosis, highlighting need for earlier gastric cancer recognition. [PMID:37699004](../papers/37699004.md)
-- [trastuzumab-emtansine](../drugs/trastuzumab-emtansine.md) (T-DM1) + IR produced superior long-term tumor control in HER2+ NCI-N87 STAD xenografts vs. trastuzumab or IR alone (tumor doubling time 9 → 113 days); HER2− tumor controls showed no T-DM1 benefit. Authors propose T-DM1 + chemoradiotherapy clinical evaluation for HER2+ locally advanced gastric cancer. [PMID:27698471](../papers/27698471.md)
+- [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) + IR produced superior long-term tumor control in HER2+ NCI-N87 STAD xenografts vs. trastuzumab or IR alone (tumor doubling time 9 → 113 days); HER2− tumor controls showed no T-DM1 benefit. Authors propose T-DM1 + chemoradiotherapy clinical evaluation for HER2+ locally advanced gastric cancer. [PMID:27698471](../papers/27698471.md)
 
 ## Sources
 

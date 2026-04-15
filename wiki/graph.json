@@ -2874,6 +2874,12 @@
       "title": "Endometrial and Gynecologic Cancers, Nivolumab Trial (MSK, 2024)"
     },
     {
+      "id": "drugs/ado-trastuzumab-emtansine.md",
+      "section": "drugs",
+      "label": "ado-trastuzumab-emtansine",
+      "title": "ado-trastuzumab emtansine"
+    },
+    {
       "id": "drugs/afatinib.md",
       "section": "drugs",
       "label": "afatinib",
@@ -3208,12 +3214,6 @@
       "section": "drugs",
       "label": "trastuzumab-deruxtecan",
       "title": "trastuzumab-deruxtecan"
-    },
-    {
-      "id": "drugs/trastuzumab-emtansine.md",
-      "section": "drugs",
-      "label": "trastuzumab-emtansine",
-      "title": "trastuzumab-emtansine"
     },
     {
       "id": "drugs/vemurafenib.md",
@@ -5523,6 +5523,10 @@
     },
     {
       "from": "drugs",
+      "to": "drugs/ado-trastuzumab-emtansine.md"
+    },
+    {
+      "from": "drugs",
       "to": "drugs/afatinib.md"
     },
     {
@@ -5744,10 +5748,6 @@
     {
       "from": "drugs",
       "to": "drugs/trastuzumab-deruxtecan.md"
-    },
-    {
-      "from": "drugs",
-      "to": "drugs/trastuzumab-emtansine.md"
     },
     {
       "from": "drugs",
@@ -6529,7 +6529,7 @@
     },
     {
       "from": "cancer_types/BRCA.md",
-      "to": "drugs/trastuzumab-emtansine.md"
+      "to": "drugs/ado-trastuzumab-emtansine.md"
     },
     {
       "from": "cancer_types/BRCA.md",
@@ -7381,7 +7381,7 @@
     },
     {
       "from": "cancer_types/ESCA.md",
-      "to": "drugs/trastuzumab-emtansine.md"
+      "to": "drugs/ado-trastuzumab-emtansine.md"
     },
     {
       "from": "cancer_types/GB.md",
@@ -9269,7 +9269,7 @@
     },
     {
       "from": "cancer_types/STAD.md",
-      "to": "drugs/trastuzumab-emtansine.md"
+      "to": "drugs/ado-trastuzumab-emtansine.md"
     },
     {
       "from": "cancer_types/THAP.md",
@@ -11592,6 +11592,30 @@
       "to": "genes/SETD1B.md"
     },
     {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "drugs/trastuzumab.md"
+    },
+    {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "papers/27698471.md"
+    },
+    {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "cancer_types/ESCA.md"
+    },
+    {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "cancer_types/STAD.md"
+    },
+    {
+      "from": "drugs/ado-trastuzumab-emtansine.md",
+      "to": "cancer_types/BRCA.md"
+    },
+    {
       "from": "drugs/afatinib.md",
       "to": "genes/EGFR.md"
     },
@@ -12317,7 +12341,7 @@
     },
     {
       "from": "drugs/mertansine.md",
-      "to": "drugs/trastuzumab-emtansine.md"
+      "to": "drugs/ado-trastuzumab-emtansine.md"
     },
     {
       "from": "drugs/mertansine.md",
@@ -12754,30 +12778,6 @@
     {
       "from": "drugs/trastuzumab-deruxtecan.md",
       "to": "cancer_types/UCEC.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "drugs/trastuzumab.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "genes/ERBB2.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "papers/27698471.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "cancer_types/ESCA.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "cancer_types/STAD.md"
-    },
-    {
-      "from": "drugs/trastuzumab-emtansine.md",
-      "to": "cancer_types/BRCA.md"
     },
     {
       "from": "drugs/trastuzumab.md",
@@ -24013,7 +24013,7 @@
     },
     {
       "from": "papers/27698471.md",
-      "to": "drugs/trastuzumab-emtansine.md"
+      "to": "drugs/ado-trastuzumab-emtansine.md"
     },
     {
       "from": "papers/27698471.md",

@@ -1,15 +1,15 @@
 ---
-name: trastuzumab-emtansine
+name: ado-trastuzumab emtansine
 targets: [ERBB2]
 drug_class: anti-HER2 antibody-drug conjugate (maytansinoid)
-canonical_source: corpus
-unverified: true
+canonical_source: oncokb
+unverified: false
 tags: [adc, targeted-therapy, her2, radiosensitizer]
 processed_by: entity-page-writer
 processed_at: 2026-04-15
 ---
 
-# trastuzumab-emtansine
+# ado-trastuzumab emtansine
 
 ## Overview
 

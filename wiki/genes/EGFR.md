@@ -28,6 +28,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR exon 19 deletions (N=8), L858R (N=1), and G719C/L861Q (N=1) identified in patients who subsequently acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism to EGFR TKIs; BRAF fusions are a recurrent (2–4%) acquired resistance event after EGFR-directed therapy [PMID:38922339](../papers/38922339.md).
 - EGFR alterations detected in plasma ctDNA were associated with venous thromboembolism (VTE) risk (adjusted HR = 1.62, 95% CI: 1.24–2.10; N=339) across multiple solid tumor types [PMID:39147831](../papers/39147831.md).
 - EGFR surface expression (not mutation status) gates radiosensitization by C-MMAE (cetuximab-MMAE conjugate); EGFR+ lines (CAL-27, A549, CALU3, SCC-61, SCC-35, SQ-9G, HCT-116) accumulate C-MMAE and show dose-dependent G2/M arrest; LN229 (EGFR-low) is refractory [PMID:27698471](../papers/27698471.md).
+- EGFR mutation status (SNaPshot PCR, exons 18–21) was annotated for 206/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 
 ## Cancer types (linked)
 
@@ -65,5 +66,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:27698471](../papers/27698471.md)
+- [PMID:30325352](../papers/30325352.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

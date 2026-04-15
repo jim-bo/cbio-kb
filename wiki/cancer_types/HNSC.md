@@ -20,6 +20,9 @@ Head and neck squamous cell carcinoma (HNSC) encompasses squamous cell carcinoma
 - Javelin HN100 expansion cohort (chemoradiation ± avelumab) — analyzed by the GenRad team to characterize tumor mutations and microenvironmental resistance factors. [PMID:41941260](../papers/41941260.md)
 - NCT03521570 (MIRI-based reirradiation + nivolumab): 51 evaluable patients with recurrent or second primary HNSC in a previously irradiated field (≥40 Gy); sites: oral cavity 31%, oropharynx 27%, larynx/hypopharynx 25%, nasopharynx 12%; p16-positive 12%, p16-negative 18%. Multicenter (Emory/Winship, Cleveland Clinic, Medical College of Wisconsin). [PMID:38780927](../papers/38780927.md)
 - CAL-27 and SCC-25 (EGFR+, HNSC cell lines); SCC-35, SCC-61, SQ-9G (HNSC, EGFR+): preclinical ADC radiosensitization study. [PMID:27698471](../papers/27698471.md)
+- Aerts 2014 foundational CT radiomics study included two HN cohorts: HN1 (n=136, MAASTRO Clinic, oropharyngeal/oral cavity) and HN2 (n=95, VUmc Amsterdam, HNSCC), with the 4-feature radiomic signature validated for overall survival prediction in these cohorts [PMID:24892406](../papers/24892406.md).
+- Grossberg 2018 published the MD Anderson Head and Neck Quantitative Imaging Working Group archive (n=697 HNSCC patients) pairing pre-treatment CT/PET imaging with clinical outcomes, enabling radiomics and dose-response analyses [PMID:30179230](../papers/30179230.md).
+- Welch 2024 published RADCURE, a large multi-institutional HNSCC imaging dataset (n=3,346 patients from Princess Margaret Cancer Centre) with CT scans and clinical outcome data for radiomics model development and benchmarking [PMID:38362943](../papers/38362943.md).
 
 ## Recurrent alterations
 
@@ -49,5 +52,8 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:27698471](../papers/27698471.md)
+- [PMID:24892406](../papers/24892406.md)
+- [PMID:30179230](../papers/30179230.md)
+- [PMID:38362943](../papers/38362943.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

@@ -38,7 +38,7 @@ Nothing is invented — unverified terms are flagged rather than canonicalized.
 | [Datasets](#datasets) | 68 | cBioPortal studies with cohort details and linked publications |
 | [Drugs](#drugs) | 63 | Targeted therapies, resistance patterns, evidence in the corpus |
 | [Methods](#methods) | 79 | Sequencing assays, gene panels, and analytical pipelines |
-| [Themes](#themes) | 0 | Cross-cutting syntheses (in progress) |
+| [Themes](#themes) | 2 | Cross-cutting syntheses (in progress) |
 
 ## Papers
 
@@ -121,7 +121,7 @@ Nothing is invented — unverified terms are flagged rather than canonicalized.
 
 ## Themes
 
-
+[open_questions](themes/open_questions.md) · [radiation-biology](themes/radiation-biology.md)
 
 ---
 

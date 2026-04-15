@@ -1,63 +1,64 @@
 # ROBIN citation PMID → PMCID manifest
 
 Derived from ROBIN_PAPERS.md citation hunt. 58 papers, all PMC-available.
-Sorted by publication year. Format: `PMID<TAB>PMCID<TAB>YEAR<TAB>TITLE`.
+Sorted by publication year. Format: `PMID<TAB>PMCID<TAB>YEAR<TAB>STATUS<TAB>TITLE`.
+STATUS is `ok` (PDF in data/raw/pdfs/robin_batch/) or `missing` (PMC stub, needs manual fetch).
 
-7799047	PMC13062811	1995	Oligometastases
-15128893	PMC13024878	2004	Postoperative concurrent radiotherapy and chemotherapy for high-risk squamous-cell carcinoma of the head and neck
-15128894	PMC13035714	2004	Postoperative irradiation with or without concomitant chemotherapy for locally advanced head and neck cancer
-16080176	PMC13068913	2005	The role of radiotherapy in cancer treatment: estimating optimal utilization from a review of evidence-based clinical guidelines
-16905242	PMC12823531	2007	Perioperative complications of radical cystectomy in a contemporary series
-19176454	PMC2724854	2009	Phase 3 randomized trial on larynx preservation comparing sequential vs alternating chemotherapy and radiotherapy
-19735873	PMC3038688	2009	A gene expression model of intrinsic tumor radiosensitivity: prediction of response and prognosis after chemoradiation
-19931738	PMC10779418	2009	cDNA microarray analysis of serially sampled cervical cancer specimens from patients treated with thermochemoradiotherapy
-21217399	PMC12754300	2011	Trends in colorectal cancer incidence by anatomic site and disease stage in the United States from 1976 to 2005
-21685461	PMC13026153	2011	Cancer statistics, 2011: the impact of eliminating socioeconomic and racial disparities on premature cancer deaths
-23770567	PMC3919509	2013	Mutational heterogeneity in cancer and the search for new cancer-associated genes
-23999436	PMC3754257	2013	New cast for a new era: preclinical cancer drug development revisited
-26270858	PMC13071787	2015	Role of Local Radiation Therapy in Cancer Immunotherapy
-26143202	PMC4965359	2016	XNAT Central: Open sourcing imaging research data
-26738797	PMC4794335	2016	A mouse-human phase 1 co-clinical trial of a protease-activated fluorescent probe for imaging cancer
-26978244	PMC4792175	2016	The FAIR Guiding Principles for scientific data management and stewardship
-27154913	PMC4930691	2016	Improving the Predictive Value of Preclinical Studies in Support of Radiotherapy Clinical Trials
-27389358	PMC4936733	2016	A Practical Guide for Improving Transparency and Reproducibility in Neuroimaging Research
-27698471	PMC5059467	2016	Anti-tubulin drugs conjugated to anti-ErbB antibodies selectively radiosensitize
-27806376	PMC5465819	2016	Single-cell RNA-seq supports a developmental hierarchy in human oligodendroglioma
-27826200	PMC5096771	2016	A current perspective on stereotactic body radiation therapy for pancreatic cancer
-28045614	PMC5455151	2017	Altering the Natural History of Oligometastatic Prostate Cancer With Local Therapies: Reality Versus Illusion
-28068239	PMC12589057	2017	Stereotactic Body Radiation Therapy for Locally Advanced Pancreatic Cancer: A Systematic Review and Pooled Analysis of 19 Trials
-28506693	PMC13018616	2017	Survival prediction of non-small cell lung cancer patients using radiomics analyses of cone-beam CT images
-28885881	PMC13074180	2017	Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer
-29674595	PMC5949869	2018	Developmental and oncogenic programs in H3K27M gliomas dissected by single-cell RNA-seq
-29898992	PMC6532976	2018	Elective Nodal Irradiation Attenuates the Combinatorial Efficacy of Stereotactic Radiation Therapy and Immunotherapy
-29902176	PMC6002019	2018	Cloud computing applications for biomedical science: A perspective
-30280985	PMC6322391	2018	Radiation-Drug Combinations to Improve Clinical Outcomes and Reduce Normal Tissue Toxicities: Current Challenges and New Approaches: Report of the Symposium Held at the 63rd Annual Meeting of the Radiation Research Society, 15-18 October 2017; Cancun, Mexico
-30375502	PMC12955807	2018	Why Jupyter is data scientists' computational notebook of choice
-30397353	PMC6286242	2018	Radiotherapy induces responses of lung cancer to CTLA-4 blockade
-30471129	PMC7792987	2019	Learning-based CBCT correction using alternating random forest based on auto-context model
-31015133	PMC6598851	2019	Longitudinal radiomics of cone-beam CT images from non-small cell lung cancer patients: Evaluation of the added prognostic value for overall survival and locoregional recurrence
-31192355	PMC13041475	2019	Long-course preoperative chemoradiation versus 5 × 5 Gy and consolidation chemotherapy for clinical T4 and fixed clinical T3 rectal cancer: long-term results of the randomized Polish II study
-31327527	PMC6703186	2019	An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma
-31307024	PMC13018616	2020	Cone-beam computed tomography-based delta-radiomics for early response assessment in radiotherapy for locally advanced lung cancer
-31732968	PMC8177718	2020	Decreased local immune response and retained HPV gene expression during chemoradiotherapy are associated with treatment resistance and death from cervical cancer
-32141618	PMC7762616	2020	CBCT-based synthetic CT generation using deep-attention cycleGAN for pancreatic adaptive radiotherapy
-32302564	PMC7286095	2020	Roadmap for the Emerging Field of Cancer Neuroscience
-32407878	PMC13050307	2020	FAIR data sharing: The roles of common data elements and harmonization
-32663469	PMC7479515	2020	Single-Cell RNA-Seq Reveals Cellular Hierarchies and Impaired Developmental Trajectories in Pediatric Ependymoma
-32683683	PMC7722002	2020	Multidisciplinary standards of care and recent progress in pancreatic ductal adenocarcinoma
-32800803	PMC13016702	2020	Radiation Therapy and the In Situ Vaccination Approach
-32946775	PMC13013432	2020	Single-Cell Characterization of Malignant Phenotypes and Developmental Trajectories of Adrenal Neuroblastoma
-33305538	PMC7856512	2021	A review on medical imaging synthesis using deep learning and its clinical applications
-33598943	PMC13018616	2021	Repeatability of CBCT radiomic features and their correlation with CT radiomic features for prostate cancer
-33704353	PMC7953335	2021	Association of Ablative Radiation Therapy With Survival Among Patients With Inoperable Pancreatic Cancer
-33820781	PMC8338789	2021	Standardized Uptake Value for (18)F-Fluorodeoxyglucose Is a Marker of Inflammatory State and Immune Infiltrate in Cervical Cancer
-34090651	PMC8189311	2021	Local Therapies in Oligometastatic and Oligoprogressive Prostate Cancer
-34493726	PMC8423786	2021	Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors
-34556866	PMC13044936	2021	Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers
-35831494	PMC13060679	2022	The oligometastatic spectrum in the era of improved detection and modern systemic therapy
-37059065	PMC10511214	2023	Metastasis
-37115507	PMC10687742	2023	Oligometastases: Characterizing the Role of Epigenetic Regulation of Epithelial-Mesenchymal Transition
-37119971	PMC10220275	2023	Multi-Omics Profiling for Health
-37646491	PMC11747767	2024	CBCT-Based synthetic CT image generation using conditional denoising diffusion probabilistic model
-37939844	PMC12993423	2024	Novel Technology Allowing Cone Beam Computed Tomography in 6 Seconds: A Patient Study of Comparative Image Quality
-38780927	PMC11117153	2024	Intensity-Modulated Reirradiation Therapy With Nivolumab in Recurrent or Second Primary Head and Neck Squamous Cell Carcinoma: A Nonrandomized Controlled Trial
+7799047	PMC13062811	1995	ok	Oligometastases
+15128893	PMC13024878	2004	ok	Postoperative concurrent radiotherapy and chemotherapy for high-risk squamous-cell carcinoma of the head and neck
+15128894	PMC13035714	2004	ok	Postoperative irradiation with or without concomitant chemotherapy for locally advanced head and neck cancer
+16080176	PMC13068913	2005	ok	The role of radiotherapy in cancer treatment: estimating optimal utilization from a review of evidence-based clinical guidelines
+16905242	PMC12823531	2007	ok	Perioperative complications of radical cystectomy in a contemporary series
+19176454	PMC2724854	2009	ok	Phase 3 randomized trial on larynx preservation comparing sequential vs alternating chemotherapy and radiotherapy
+19735873	PMC3038688	2009	missing	A gene expression model of intrinsic tumor radiosensitivity: prediction of response and prognosis after chemoradiation
+19931738	PMC10779418	2009	ok	cDNA microarray analysis of serially sampled cervical cancer specimens from patients treated with thermochemoradiotherapy
+21217399	PMC12754300	2011	ok	Trends in colorectal cancer incidence by anatomic site and disease stage in the United States from 1976 to 2005
+21685461	PMC13026153	2011	ok	Cancer statistics, 2011: the impact of eliminating socioeconomic and racial disparities on premature cancer deaths
+23770567	PMC3919509	2013	missing	Mutational heterogeneity in cancer and the search for new cancer-associated genes
+23999436	PMC3754257	2013	ok	New cast for a new era: preclinical cancer drug development revisited
+26270858	PMC13071787	2015	missing	Role of Local Radiation Therapy in Cancer Immunotherapy
+26143202	PMC4965359	2016	missing	XNAT Central: Open sourcing imaging research data
+26738797	PMC4794335	2016	missing	A mouse-human phase 1 co-clinical trial of a protease-activated fluorescent probe for imaging cancer
+26978244	PMC4792175	2016	ok	The FAIR Guiding Principles for scientific data management and stewardship
+27154913	PMC4930691	2016	missing	Improving the Predictive Value of Preclinical Studies in Support of Radiotherapy Clinical Trials
+27389358	PMC4936733	2016	ok	A Practical Guide for Improving Transparency and Reproducibility in Neuroimaging Research
+27698471	PMC5059467	2016	ok	Anti-tubulin drugs conjugated to anti-ErbB antibodies selectively radiosensitize
+27806376	PMC5465819	2016	ok	Single-cell RNA-seq supports a developmental hierarchy in human oligodendroglioma
+27826200	PMC5096771	2016	ok	A current perspective on stereotactic body radiation therapy for pancreatic cancer
+28045614	PMC5455151	2017	ok	Altering the Natural History of Oligometastatic Prostate Cancer With Local Therapies: Reality Versus Illusion
+28068239	PMC12589057	2017	ok	Stereotactic Body Radiation Therapy for Locally Advanced Pancreatic Cancer: A Systematic Review and Pooled Analysis of 19 Trials
+28506693	PMC13018616	2017	ok	Survival prediction of non-small cell lung cancer patients using radiomics analyses of cone-beam CT images
+28885881	PMC13074180	2017	missing	Durvalumab after Chemoradiotherapy in Stage III Non-Small-Cell Lung Cancer
+29674595	PMC5949869	2018	missing	Developmental and oncogenic programs in H3K27M gliomas dissected by single-cell RNA-seq
+29898992	PMC6532976	2018	missing	Elective Nodal Irradiation Attenuates the Combinatorial Efficacy of Stereotactic Radiation Therapy and Immunotherapy
+29902176	PMC6002019	2018	ok	Cloud computing applications for biomedical science: A perspective
+30280985	PMC6322391	2018	missing	Radiation-Drug Combinations to Improve Clinical Outcomes and Reduce Normal Tissue Toxicities: Current Challenges and New Approaches: Report of the Symposium Held at the 63rd Annual Meeting of the Radiation Research Society, 15-18 October 2017; Cancun, Mexico
+30375502	PMC12955807	2018	ok	Why Jupyter is data scientists' computational notebook of choice
+30397353	PMC6286242	2018	missing	Radiotherapy induces responses of lung cancer to CTLA-4 blockade
+30471129	PMC7792987	2019	ok	Learning-based CBCT correction using alternating random forest based on auto-context model
+31015133	PMC6598851	2019	missing	Longitudinal radiomics of cone-beam CT images from non-small cell lung cancer patients: Evaluation of the added prognostic value for overall survival and locoregional recurrence
+31192355	PMC13041475	2019	ok	Long-course preoperative chemoradiation versus 5 × 5 Gy and consolidation chemotherapy for clinical T4 and fixed clinical T3 rectal cancer: long-term results of the randomized Polish II study
+31327527	PMC6703186	2019	missing	An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma
+31307024	PMC13018616	2020	ok	Cone-beam computed tomography-based delta-radiomics for early response assessment in radiotherapy for locally advanced lung cancer
+31732968	PMC8177718	2020	missing	Decreased local immune response and retained HPV gene expression during chemoradiotherapy are associated with treatment resistance and death from cervical cancer
+32141618	PMC7762616	2020	missing	CBCT-based synthetic CT generation using deep-attention cycleGAN for pancreatic adaptive radiotherapy
+32302564	PMC7286095	2020	missing	Roadmap for the Emerging Field of Cancer Neuroscience
+32407878	PMC13050307	2020	ok	FAIR data sharing: The roles of common data elements and harmonization
+32663469	PMC7479515	2020	missing	Single-Cell RNA-Seq Reveals Cellular Hierarchies and Impaired Developmental Trajectories in Pediatric Ependymoma
+32683683	PMC7722002	2020	missing	Multidisciplinary standards of care and recent progress in pancreatic ductal adenocarcinoma
+32800803	PMC13016702	2020	ok	Radiation Therapy and the In Situ Vaccination Approach
+32946775	PMC13013432	2020	ok	Single-Cell Characterization of Malignant Phenotypes and Developmental Trajectories of Adrenal Neuroblastoma
+33305538	PMC7856512	2021	ok	A review on medical imaging synthesis using deep learning and its clinical applications
+33598943	PMC13018616	2021	ok	Repeatability of CBCT radiomic features and their correlation with CT radiomic features for prostate cancer
+33704353	PMC7953335	2021	missing	Association of Ablative Radiation Therapy With Survival Among Patients With Inoperable Pancreatic Cancer
+33820781	PMC8338789	2021	missing	Standardized Uptake Value for (18)F-Fluorodeoxyglucose Is a Marker of Inflammatory State and Immune Infiltrate in Cervical Cancer
+34090651	PMC8189311	2021	missing	Local Therapies in Oligometastatic and Oligoprogressive Prostate Cancer
+34493726	PMC8423786	2021	ok	Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors
+34556866	PMC13044936	2021	ok	Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers
+35831494	PMC13060679	2022	ok	The oligometastatic spectrum in the era of improved detection and modern systemic therapy
+37059065	PMC10511214	2023	missing	Metastasis
+37115507	PMC10687742	2023	missing	Oligometastases: Characterizing the Role of Epigenetic Regulation of Epithelial-Mesenchymal Transition
+37119971	PMC10220275	2023	ok	Multi-Omics Profiling for Health
+37646491	PMC11747767	2024	ok	CBCT-Based synthetic CT image generation using conditional denoising diffusion probabilistic model
+37939844	PMC12993423	2024	ok	Novel Technology Allowing Cone Beam Computed Tomography in 6 Seconds: A Patient Study of Comparative Image Quality
+38780927	PMC11117153	2024	ok	Intensity-Modulated Reirradiation Therapy With Nivolumab in Recurrent or Second Primary Head and Neck Squamous Cell Carcinoma: A Nonrandomized Controlled Trial

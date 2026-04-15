@@ -1,14 +1,12 @@
 ---
 name: TCGA Lower-Grade Glioma
-slug: lgg_tcga
+studyId: lgg_tcga
 institution: The Cancer Genome Atlas (TCGA)
 size: 516
 reference_genome: hg19
 canonical_source: cbioportal
 unverified: false
-assays:
-  - bulk-rna-seq
-  - whole-exome-seq
+assays: [bulk-rna-seq, whole-exome-seq]
 panels: []
 tags:
   - glioma

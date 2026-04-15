@@ -1,6 +1,6 @@
 ---
-name: "Diffuse Glioma (GLASS International Consortium)"
-slug: difg_glass
+name: Diffuse Glioma (GLASS International Consortium)
+studyId: difg_glass
 institution: GLASS International Consortium (multi-institutional)
 size: 132
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, methylation-array, whole-exome-seq, whole-genome-seq]
 panels: []
-tags:
-  - glioma
-  - idh-mutant
-  - longitudinal
-  - methylation
-  - glass-consortium
+tags: [glioma, idh-mutant, longitudinal, methylation, glass-consortium]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

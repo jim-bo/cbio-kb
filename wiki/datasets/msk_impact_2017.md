@@ -1,6 +1,6 @@
 ---
 name: MSK-IMPACT Clinical Sequencing Cohort (MSK, Nat Med 2017)
-slug: 
+studyId: msk_impact_2017
 institution: 
 size: 
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-08
-studyId: msk_impact_2017
 description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
 cancerTypeId: mixed
 pmid: 28481359

@@ -1,6 +1,6 @@
 ---
-name: "ctDNA and Venous Thromboembolism (MSK, 2024)"
-slug: msk_ctdna_vte_2024
+name: ctDNA and Venous Thromboembolism (MSK, 2024)
+studyId: msk_ctdna_vte_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 5567
 reference_genome: hg19

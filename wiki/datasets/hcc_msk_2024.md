@@ -1,6 +1,6 @@
 ---
 name: Biliary Tract and Hepatocellular Carcinoma Hidden-Genome Classifier, MSK, Clin Cancer Res 2024
-slug: hcc_msk_2024
+studyId: hcc_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 1370 patients (527 IHC classified)
 reference_genome: GRCh37

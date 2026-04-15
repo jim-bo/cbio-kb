@@ -1,6 +1,6 @@
 ---
-name: "Mature B-Cell Neoplasms (MSK, Blood Advances 2024)"
-slug: mbn_msk_2024
+name: Mature B-Cell Neoplasms (MSK, Blood Advances 2024)
+studyId: mbn_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 396
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - dlbcl
-  - lymphoma
-  - msk-impact-heme
-  - lymphgen
-  - b-cell-neoplasm
+tags: [dlbcl, lymphoma, msk-impact-heme, lymphgen, b-cell-neoplasm]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

@@ -1,6 +1,6 @@
 ---
-name: "BRAF Fusions (MSK, Cancer Discovery 2024) — Archer/Fusion Panel"
-slug: braf_msk_archer_2024
+name: BRAF Fusions (MSK, Cancer Discovery 2024) — Archer/Fusion Panel
+studyId: braf_msk_archer_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 212
 reference_genome: hg19
@@ -8,10 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [rna-fusion, targeted-panel]
 panels: []
-tags:
-  - braf-fusions
-  - tumor-agnostic
-  - msk-fusion-panel
+tags: [braf-fusions, tumor-agnostic, msk-fusion-panel]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

@@ -33,6 +33,28 @@ _SECTION_TEMPLATE = {
     "themes": "theme.md",
 }
 
+# Frontmatter key renames applied during reprocessing (old → new).
+# If both keys coexist, the new-key value wins when it is non-empty,
+# otherwise the old-key value migrates over. The old key is dropped.
+_KEY_RENAMES = {
+    "slug": "studyId",
+}
+
+
+def _apply_key_renames(existing: dict) -> list[str]:
+    """Rename legacy keys in-place per ``_KEY_RENAMES``. Returns the list of
+    old-key names that were present (useful to signal that a page needs patching
+    even when the template-ordered key set looks unchanged)."""
+    renamed: list[str] = []
+    for old_k, new_k in _KEY_RENAMES.items():
+        if old_k not in existing:
+            continue
+        old_val = existing.pop(old_k)
+        if not existing.get(new_k):
+            existing[new_k] = old_val
+        renamed.append(old_k)
+    return renamed
+
 
 def _template_keys(template_path: Path) -> list[str]:
     """Return the ordered list of frontmatter keys from a template."""
@@ -141,12 +163,14 @@ def patch_frontmatter(
             if not existing and not text.startswith("---"):
                 continue  # skip non-frontmatter files
 
+            keys_renamed = _apply_key_renames(existing)
+
             # Detect changes needed
             existing_keys = list(existing.keys())
             keys_added = [k for k in tmpl_keys if k not in existing]
             needs_reorder = existing_keys != [k for k in tmpl_keys if k in existing_keys]
 
-            if not keys_added and not needs_reorder:
+            if not keys_added and not needs_reorder and not keys_renamed:
                 continue
 
             new_fm = _rebuild_frontmatter(existing, tmpl_keys, keep_extra=True)
@@ -162,6 +186,7 @@ def patch_frontmatter(
             result = {
                 "path": str(page.relative_to(wiki_dir.parent)),
                 "keys_added": keys_added,
+                "keys_renamed": keys_renamed,
                 "reordered": needs_reorder,
             }
             results.append(result)
@@ -293,8 +318,9 @@ def run_patch(
     for r in results:
         action = "would patch" if dry_run else "patched"
         added = f", added: {r['keys_added']}" if r["keys_added"] else ""
+        renamed = f", renamed: {r['keys_renamed']}" if r.get("keys_renamed") else ""
         reord = ", reordered" if r["reordered"] else ""
-        print(f"  {action} {r['path']}{added}{reord}")
+        print(f"  {action} {r['path']}{added}{renamed}{reord}")
     suffix = " (dry run)" if dry_run else ""
     print(f"[reprocess:frontmatter] {len(results)} page(s){suffix}")
     return 0

@@ -1,6 +1,6 @@
 ---
-name: "BRAF Fusions (MSK, Cancer Discovery 2024) — MSK-IMPACT Tissue Panel"
-slug: braf_msk_impact_2024
+name: BRAF Fusions (MSK, Cancer Discovery 2024) — MSK-IMPACT Tissue Panel
+studyId: braf_msk_impact_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 97024
 reference_genome: hg19
@@ -8,10 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - braf-fusions
-  - tumor-agnostic
-  - msk-impact
+tags: [braf-fusions, tumor-agnostic, msk-impact]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

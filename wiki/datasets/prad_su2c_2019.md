@@ -1,6 +1,6 @@
 ---
-name: "Prostate Cancer (SU2C/PCF Dream Team, 2019)"
-slug: prad_su2c_2019
+name: Prostate Cancer (SU2C/PCF Dream Team, 2019)
+studyId: prad_su2c_2019
 institution: SU2C/PCF Dream Team (multi-institutional)
 size: 429
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, whole-genome-seq]
 panels: []
-tags:
-  - prostate-cancer
-  - prad
-  - metastatic-castration-resistant
-  - su2c
-  - neuroendocrine
+tags: [prostate-cancer, prad, metastatic-castration-resistant, su2c, neuroendocrine]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

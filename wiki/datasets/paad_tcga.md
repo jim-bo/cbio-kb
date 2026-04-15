@@ -1,6 +1,6 @@
 ---
 name: TCGA Pancreatic Adenocarcinoma (Firehose Legacy)
-slug: paad_tcga
+studyId: paad_tcga
 institution: The Cancer Genome Atlas (TCGA)
 size: 148
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, snp-microarray, whole-exome-seq]
 panels: []
-tags:
-  - pancreatic adenocarcinoma
-  - PDAC
-  - TCGA
-  - multi-omic
+tags: ["pancreatic adenocarcinoma", PDAC, TCGA, multi-omic]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

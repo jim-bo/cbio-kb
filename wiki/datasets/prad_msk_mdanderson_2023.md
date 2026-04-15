@@ -1,6 +1,6 @@
 ---
-name: "Prostate Cancer PDX (MSK / MD Anderson, 2023)"
-slug: prad_msk_mdanderson_2023
+name: Prostate Cancer PDX (MSK / MD Anderson, 2023)
+studyId: prad_msk_mdanderson_2023
 institution: Memorial Sloan Kettering Cancer Center / MD Anderson Cancer Center
 size: 44
 reference_genome: hg19

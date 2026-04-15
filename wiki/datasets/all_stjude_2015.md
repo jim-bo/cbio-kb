@@ -1,6 +1,6 @@
 ---
 name: Acute Lymphoblastic Leukemia (St Jude, Nat Genet 2015)
-slug: 
+studyId: all_stjude_2015
 institution: St. Jude Children's Research Hospital
 size: 85
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: [pediatric, PCGP, MLL-rearranged]
 processed_by: crosslinker
 processed_at: 2026-04-08
-studyId: all_stjude_2015
 ---
 
 # Acute Lymphoblastic Leukemia (St Jude, Nat Genet 2015)

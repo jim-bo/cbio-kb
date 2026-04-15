@@ -1,6 +1,6 @@
 ---
 name:
-slug:
+studyId:
 institution:
 size:
 reference_genome:

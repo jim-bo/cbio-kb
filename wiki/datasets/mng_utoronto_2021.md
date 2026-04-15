@@ -1,6 +1,6 @@
 ---
-name: "Meningioma (University of Toronto, Nature Genetics 2021)"
-slug: mng_utoronto_2021
+name: Meningioma (University of Toronto, Nature Genetics 2021)
+studyId: mng_utoronto_2021
 institution: University Health Network, Toronto (University of Toronto)
 size: 121
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, mass-spectrometry, methylation-array, scrna-seq, whole-exome-seq]
 panels: []
-tags:
-  - meningioma
-  - mng
-  - molecular-classification
-  - who-grade
-  - dna-methylation
+tags: [meningioma, mng, molecular-classification, who-grade, dna-methylation]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

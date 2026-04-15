@@ -3,8 +3,8 @@ name: "Cervical Squamous Cell Carcinoma"
 oncotree_code: CESC
 parent: CERVIX
 tags: []
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # Cervical Squamous Cell Carcinoma (CESC)
@@ -43,9 +43,13 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - [ERBB2](../genes/ERBB2.md) is a likely important therapeutic target, especially in UEA (28% altered); [neratinib](../drugs/neratinib.md) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer. [PMID:37643132](../papers/37643132.md)
 - TMB-H/MSI-H tumors (13%) are eligible for [pembrolizumab](../drugs/pembrolizumab.md); 2 exceptional responders to dual checkpoint blockade had TMB-low/MSS but PD-L1-positive, HPV-positive tumors. [PMID:37643132](../papers/37643132.md)
 - KRAS G12C inhibitors (adagrasib, sotorasib) relevant for ~12% of patients with KRAS mutations. [PMID:37643132](../papers/37643132.md)
+- ROBIN METEOR center (U54 CA274318; Washington University) METEOR-CRATR MCT (NCT05975593) has enrolled 26 cervical cancer patients with 65 tumor samples (22 with serial biopsies) and 126 DICOM-RT plans archived. Preliminary findings: CRT consistently induced myeloid-derived-cell infiltration and upregulation of p53/MDM2 in cervix tumor cells without significant upregulation of the PD-L1/PD-1 axis. HPV genotype and gene expression, rather than histology, drove cervical tumor biology; myeloid-derived immunosuppressive pathways are flagged as promising therapeutic targets. [PMID:41941260](../papers/41941260.md)
 
 ## Sources
 
 - [PMID:37643132](../papers/37643132.md) — Assessing the Genomic Landscape of Cervical Cancers: Clinical Opportunities and Therapeutic Targets (Clinical Cancer Research, 2023)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*
+
+*This page was processed by **crosslinker** on **2026-04-15**.*

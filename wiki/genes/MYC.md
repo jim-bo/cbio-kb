@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # MYC
@@ -38,6 +38,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 ## Therapeutic relevance
 
 - MYC amplification may flag [NSCLC](../cancer_types/NSCLC.md) patients at risk for multifocal regional intracranial progression, informing CNS surveillance/therapy strategy [PMID:37591896](../papers/37591896.md).
+- Single-cell RNA sequencing of pre- and post-RT PBMCs in the ROBIN ImmunoRad MCT identified MYC-driven transcriptional activation in CD8+ T cells following radiotherapy, consistent with systemic immune reprogramming and the concept of trained immunity [PMID:41941260](../papers/41941260.md).
 
 ## Open questions
 
@@ -54,5 +55,6 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:37406106](../papers/37406106.md)
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34433969](../papers/34433969.md)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-15**.*

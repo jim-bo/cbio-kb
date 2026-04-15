@@ -3,8 +3,8 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # MDM2
@@ -32,6 +32,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 ## Therapeutic relevance
 
 - None reported.
+- CRT upregulates the p53/MDM2 axis in human cervix tumor cells per ROBIN METEOR Project 1 preliminary data, suggesting MDM2 as a potential translational target in CRT-remodeled cervical tumor microenvironments [PMID:41941260](../papers/41941260.md).
 
 ## Open questions
 
@@ -42,5 +43,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*
+
+*This page was processed by **crosslinker** on **2026-04-15**.*

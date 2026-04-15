@@ -1,6 +1,7 @@
 ---
-name: "Adenocarcinoma of the Gastroesophageal Junction"
+name: Adenocarcinoma of the Gastroesophageal Junction
 oncotree_code: GEJ
+main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: crosslinker

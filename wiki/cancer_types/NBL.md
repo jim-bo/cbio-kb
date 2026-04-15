@@ -1,6 +1,7 @@
 ---
 name: Neuroblastoma
 oncotree_code: NBL
+main_type: Peripheral Nervous System
 parent: PNS
 tags: [pediatric, neuroblastoma, radiation, intra-tumoral-heterogeneity, mibg]
 processed_by: entity-page-writer

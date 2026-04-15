@@ -1,6 +1,7 @@
 ---
 name: Melanoma
 oncotree_code: MEL
+main_type: Melanoma
 parent: SKIN
 tags: [melanoma, skin]
 processed_by: crosslinker

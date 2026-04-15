@@ -1,11 +1,11 @@
 ---
 name: Alveolar Rhabdomyosarcoma
 oncotree_code: ARMS
+main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Soft Tissue Sarcoma
 ---
 
 # Alveolar Rhabdomyosarcoma (ARMS)

@@ -1,6 +1,7 @@
 ---
 name: Malignant Peripheral Nerve Sheath Tumor
 oncotree_code: MPNST
+main_type: Nerve Sheath Tumor
 parent: NST
 tags: [radiation-associated-sarcoma, nerve-sheath-tumor]
 processed_by: crosslinker

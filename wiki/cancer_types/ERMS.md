@@ -1,11 +1,11 @@
 ---
 name: Embryonal Rhabdomyosarcoma
 oncotree_code: ERMS
+main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
-main_type: Soft Tissue Sarcoma
 ---
 
 # Embryonal Rhabdomyosarcoma (ERMS)

@@ -1,11 +1,11 @@
 ---
 name: Peripheral T-Cell lymphoma, NOS
 oncotree_code: PTCL
+main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
 processed_by: crosslinker
 processed_at: 2026-04-11
-main_type: Mature T and NK Neoplasms
 ---
 
 # Peripheral T-Cell Lymphoma, NOS (PTCL)

@@ -1,6 +1,7 @@
 ---
 name: Oligodendroglioma
 oncotree_code: ODG
+main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
 processed_by: entity-page-writer

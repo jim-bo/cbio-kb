@@ -1,6 +1,7 @@
 ---
-name: "Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma"
+name: Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma
 oncotree_code: USC
+main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: crosslinker

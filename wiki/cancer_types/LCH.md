@@ -1,11 +1,11 @@
 ---
 name: Langerhans Cell Histiocytosis
 oncotree_code: LCH
+main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
 processed_by: crosslinker
 processed_at: 2026-04-08
-main_type: Histiocytosis
 ---
 
 # Langerhans Cell Histiocytosis (LCH)

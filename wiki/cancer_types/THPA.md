@@ -1,6 +1,7 @@
 ---
-name: "Papillary Thyroid Cancer"
+name: Papillary Thyroid Cancer
 oncotree_code: THPA
+main_type: Thyroid Cancer
 parent: WDTC
 tags: []
 processed_by: crosslinker

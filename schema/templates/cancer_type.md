@@ -1,6 +1,7 @@
 ---
 name:
 oncotree_code:
+main_type:
 parent:
 tags: []
 processed_by:

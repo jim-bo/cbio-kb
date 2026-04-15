@@ -1,6 +1,7 @@
 ---
 name: Head and Neck Squamous Cell Carcinoma
 oncotree_code: HNSC
+main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
 processed_by: entity-page-writer

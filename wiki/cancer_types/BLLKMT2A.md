@@ -1,6 +1,7 @@
 ---
 name: B-Lymphoblastic Leukemia/Lymphoma with t(v;11q23.3);KMT2A Rearranged
 oncotree_code: BLLKMT2A
+main_type: B-Lymphoblastic Leukemia/Lymphoma
 parent: BLLRGA
 tags: [pediatric, hematologic-malignancy, MLL-rearranged]
 processed_by: crosslinker

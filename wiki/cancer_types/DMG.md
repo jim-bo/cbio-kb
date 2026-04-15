@@ -1,6 +1,7 @@
 ---
-name: "Diffuse Midline Glioma, H3 K27-Altered"
+name: Diffuse Midline Glioma, H3 K27-Altered
 oncotree_code: DMG
+main_type: Gliomas, Glioneuronal Tumors, and Neuronal Tumors
 parent: PDIFHG
 tags: [pediatric, glioma, radiation, intra-tumoral-heterogeneity]
 processed_by: entity-page-writer

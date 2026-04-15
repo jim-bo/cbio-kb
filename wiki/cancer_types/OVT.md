@@ -1,6 +1,7 @@
 ---
-name: "Ovarian Epithelial Tumor"
+name: Ovarian Epithelial Tumor
 oncotree_code: OVT
+main_type: Ovarian Cancer
 parent: OVARY
 tags: []
 processed_by: crosslinker

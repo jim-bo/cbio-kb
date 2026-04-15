@@ -1,6 +1,7 @@
 ---
 name: Rectal Adenocarcinoma
 oncotree_code: READ
+main_type: Colorectal Cancer
 parent: COADREAD
 tags: [rectal, colorectal, immunotherapy]
 processed_by: entity-page-writer

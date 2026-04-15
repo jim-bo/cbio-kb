@@ -1,9 +1,9 @@
 ---
 name: Diffuse Large B-Cell Lymphoma NOS
 oncotree_code: DLBCLNOS
+main_type: Mature B-Cell Neoplasms
 parent: BLL
-tags:
-  - b-cell-lymphoma
+tags: [b-cell-lymphoma]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

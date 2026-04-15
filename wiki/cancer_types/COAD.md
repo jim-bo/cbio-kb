@@ -1,11 +1,11 @@
 ---
 name: Colon Adenocarcinoma
 oncotree_code: COAD
+main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
 processed_by: entity-page-writer
 processed_at: 2026-04-15
-main_type: Colorectal Cancer
 ---
 
 # Colon Adenocarcinoma (COAD)

@@ -24,7 +24,7 @@ OncoTree code for invasive breast carcinoma.
 - Included in pan-cancer pathway and metastasis analyses using MSK-IMPACT [PMID:39506116](../papers/39506116.md).
 - [PIK3CA](../genes/PIK3CA.md) p.E545K common in breast cancer CSF ctDNA samples [PMID:39289779](../papers/39289779.md).
 - [ERBB2](../genes/ERBB2.md) mutations and amplification detected in breast cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
-- [ERBB2](../genes/ERBB2.md) (HER2) surface expression in BT474 (HER2+) cells enables receptor-restricted T-MMAE/T-DM1 radiosensitization; [trastuzumab-emtansine](../drugs/trastuzumab-emtansine.md) (T-DM1) is FDA-approved for HER2+ metastatic breast cancer and was proposed for clinical evaluation with radiotherapy in HER2+ locally advanced disease. [PMID:27698471](../papers/27698471.md)
+- [ERBB2](../genes/ERBB2.md) (HER2) surface expression in BT474 (HER2+) cells enables receptor-restricted T-MMAE/T-DM1 radiosensitization; [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) is FDA-approved for HER2+ metastatic breast cancer and was proposed for clinical evaluation with radiotherapy in HER2+ locally advanced disease. [PMID:27698471](../papers/27698471.md)
 - [TP53](../genes/TP53.md) was the most frequently altered gene across all tumor types in the CSF ctDNA cohort (49% of ctDNA-positive samples), including breast cancer [PMID:39289779](../papers/39289779.md).
 
 ## Subtypes
@@ -36,7 +36,7 @@ OncoTree code for invasive breast carcinoma.
 - NLP-augmented machine learning models incorporating sites of disease improved overall-survival prediction over stage- or genomics-only models in breast cancer [PMID:39506116](../papers/39506116.md).
 - APOBEC mutational signatures identified in CSF ctDNA from breast cancer samples, aiding in determining the primary tumor site [PMID:39289779](../papers/39289779.md).
 - CSF ctDNA positivity was associated with a three-fold increased risk of death across all tumor types (HR 3.23, 95% CI 2.58-4.05, p < 0.001) [PMID:39289779](../papers/39289779.md).
-- [trastuzumab-emtansine](../drugs/trastuzumab-emtansine.md) (T-DM1) + IR proposed as a radiosensitization strategy for HER2+ locally advanced breast cancer given T-DM1's existing FDA approval and preclinical tumor-control data in HER2+ xenografts; no breast-specific clinical data reported. [PMID:27698471](../papers/27698471.md)
+- [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) + IR proposed as a radiosensitization strategy for HER2+ locally advanced breast cancer given T-DM1's existing FDA approval and preclinical tumor-control data in HER2+ xenografts; no breast-specific clinical data reported. [PMID:27698471](../papers/27698471.md)
 
 ## Sources
 

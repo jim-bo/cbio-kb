@@ -171,3 +171,13 @@
 - method: pet-ct-imaging — observed in PMID:30179230 — note: whole-body PET-CT in 212/215 HNSCC patients at baseline and 213/215 post-treatment; GE Discovery scanners
 - method: dicom-rt-planning — observed in PMID:30179230 — note: RTPLAN + RTDOSE re-exported from Pinnacle v9.6 for 215 HNSCC RT patients; mean dose 68.66 Gy in 28-40 fractions
 - method: body-composition-ct — observed in PMID:30179230 — note: L3-level CT skeletal muscle index (SMI) and adipose index (ADI) in 215 HNSCC RT patients; first public HNSCC RT dataset with body-composition data
+- dataset: tcia-tcga-ov — observed in PMID:35764743 — note: TCIA CT imaging for TCGA-OV ovarian cases used in this multimodal HGSOC study (n=148 TCGA patients)
+- method: sigma-mutational-signatures — observed in PMID:35764743 — note: SigMA algorithm called COSMIC SBS3 (HRD signature) in 130 MSKCC HGSOC samples; high-confidence n=48, low-confidence n=30
+- method: stardist-nuclei — observed in PMID:35764743 — note: StarDist-QuPath pipeline for nuclear segmentation on H&E WSIs with detection-probability threshold 0.5
+- method: multimodal-late-fusion — observed in PMID:35764743 — note: Cox late-fusion framework integrating radiomic, histopathological, genomic and clinical submodels by summing log partial hazards; chosen over early fusion to enable learning from partial-information cases
+- method: ct-radiomics — observed in PMID:35764743 — note: PyRadiomics 3D Coif-wavelet GLCM/GLDM/GLRLM/GLSZM/NGTDM feature extraction from manually segmented omental and adnexal lesions on pre-treatment CE-CT
+- method: msk-impact-panel — observed in PMID:35764743 — note: MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants and CCNE1 CNA in 296 MSKCC HGSOC patients
+- dataset: gpcchn-poznan — observed in PMID:37397861 — note: private 298-patient HNSCC cohort from Greater Poland Cancer Centre, Poznań; no TCIA URL or cBioPortal studyId; used as in-house external validation in Kim 2023 prognostic challenge
+- method: pyradiomics — observed in PMID:37397861 — note: open-source Python library for hand-engineered radiomic feature extraction; v2.2.0 used in RADCURE HNSC challenge, yielding ~1,316 features from CT GTV masks
+- method: pyradiomics — observed in PMID:35764743 — note: PyRadiomics used to extract 600 Coif-wavelet CT radiomic features per omental/adnexal lesion in HGSOC multimodal study
+- method: mtlr — observed in PMID:37397861 — note: Multi-Task Logistic Regression survival framework (Yu et al.); top-performing model in RADCURE HNSC prognostic challenge (AUROC 0.823); outputs full patient-level survival curves

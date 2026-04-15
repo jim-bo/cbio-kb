@@ -50,15 +50,22 @@ The TCIA HNSCC collection is a clinical imaging archive of 215 head and neck squ
 ## Papers using this cohort
 
 - [PMID:30179230](../papers/30179230.md) — Grossberg et al. 2018, *Scientific Data*: primary dataset descriptor; 215 HNSCC patients with multi-timepoint PET-CT, RT planning DICOMs, and body composition annotations at L3.
+- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*: MDACC subset (n=627 oropharynx) used as external validation; validated externally by Dana-Farber Cancer Institute collaborators using pretrained challenge models.
 
 ## Notable findings derived from this cohort
 
 - Unique body composition annotations: pre- and post-RT skeletal muscle (HU −29 to 150) and adipose (HU −190 to −30) CSA at L3, with skeletal-muscle depletion defined at SMI <52.4 cm²/m² (men) / <38.5 cm²/m² (women). Total lean body mass and fat mass derived via published formulae. [PMID:30179230](../papers/30179230.md)
 - Technical validation required 2–6 curation revisions per subject (mean 3.17) to resolve DICOM inconsistencies; 90.7% of subjects had series/study inconsistency issues on initial intake. [PMID:30179230](../papers/30179230.md)
+- On the MDACC subset, only the top combined model (MTLR + EMR + volume) beat tumor volume alone, and by a small margin; external generalizability was limited compared with the RADCURE internal test set. [PMID:37397861](../papers/37397861.md)
+
+## Notes
+
+- Kim et al. 2023 ([PMID:37397861](../papers/37397861.md)) uses a 627-patient oropharynx subset curated from the same TCIA HNSCC collection as Grossberg 2018; exact subset provenance is not reconciled in the paper. The canonical collection size (n=215) reflects the Grossberg 2018 descriptor.
 
 ## Sources
 
 - TCIA collection: HNSCC — TCIA DOI 10.7937/K9/TCIA.2017.umz8dv6s
 - [PMID:30179230](../papers/30179230.md) — Grossberg et al. 2018, *Scientific Data*, DOI 10.1038/sdata.2018.173.
+- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*.
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

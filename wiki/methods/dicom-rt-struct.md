@@ -21,6 +21,7 @@ DICOM RT-STRUCT (RT Structure Set) is the DICOM standard object for storing 3D c
 
 - [PMID:38362943](../papers/38362943.md) — RADCURE releases RT-STRUCT files for 3346 HNC patients at Princess Margaret Cancer Centre, containing manually contoured gross primary tumor, gross nodal volumes, and 19 organs at risk; nomenclature was standardized across the cohort to improve interoperability for downstream radiomics analyses [PMID:38362943](../papers/38362943.md).
 - [PMID:30179230](../papers/30179230.md) — HNSCC imaging archive at MD Anderson includes RT-STRUCT files (alongside RTPLAN and RTDOSE) as part of the 433,384 DICOM files; 195/215 (90.7%) subjects had series/study inconsistency problems on initial intake requiring 2–6 curation rounds per subject to resolve RTSTRUCT/RTDOSE/RTPLAN mis-linkages [PMID:30179230](../papers/30179230.md).
+- [PMID:37397861](../papers/37397861.md) — RT-STRUCT-derived primary gross tumor volume (GTV) binary masks in NRRD format were extracted from radiation-oncologist DICOM RT-STRUCT contours in the RADCURE dataset and used as the spatial input for CT radiomics extraction and as a standalone predictor (tumor volume) in HNSC prognostic models [PMID:37397861](../papers/37397861.md).
 
 ## Notes
 
@@ -31,5 +32,6 @@ DICOM RT-STRUCT (RT Structure Set) is the DICOM standard object for storing 3D c
 
 - [PMID:38362943](../papers/38362943.md)
 - [PMID:30179230](../papers/30179230.md)
+- [PMID:37397861](../papers/37397861.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

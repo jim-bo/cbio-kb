@@ -18,6 +18,7 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 
 - 60 IDH-wildtype glioblastoma patients from the GLASS International consortium ([difg_glass](../datasets/difg_glass.md)), with matched initial and first-recurrent DNA methylation data (Illumina 450K/EPIC arrays). [PMID:38117484](../papers/38117484.md)
 - LN229 (EGFR−/low, GB cell line): negative-control model in ADC radiosensitization study — C-MMAE did not accumulate in LN229 xenografts and did not radiosensitize LN229 cells in vitro, confirming receptor-selectivity requirement. [PMID:27698471](../papers/27698471.md)
+- Bakas 2017 published expert MRI segmentations and radiomic features for the TCGA-GBM collection (n=262 IDH-wildtype glioblastoma cases), providing multiparametric MRI (T1, T1Gd, T2, FLAIR) with manually delineated tumor sub-region labels and extracted radiomic features [PMID:28872634](../papers/28872634.md).
 
 ## Recurrent alterations
 
@@ -41,5 +42,6 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:38117484](../papers/38117484.md) — The Epigenetic Evolution of Glioma Is Determined by the [IDH1](../genes/IDH1.md) Mutation Status and Treatment Regimen (Cancer Research, 2024)
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
 - [PMID:27698471](../papers/27698471.md)
+- [PMID:28872634](../papers/28872634.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

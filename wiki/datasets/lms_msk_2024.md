@@ -1,6 +1,6 @@
 ---
-name: "Leiomyosarcoma (MSK, Annals of Oncology 2024)"
-slug: lms_msk_2024
+name: Leiomyosarcoma (MSK, Annals of Oncology 2024)
+studyId: lms_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 433
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - leiomyosarcoma
-  - soft-tissue-sarcoma
-  - uterine-lms
-  - msk-impact
-  - genomic-risk
+tags: [leiomyosarcoma, soft-tissue-sarcoma, uterine-lms, msk-impact, genomic-risk]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

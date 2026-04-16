@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-04-15
 ---
 
 # MSK-IMPACT panel (generic)
@@ -37,6 +37,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:38758238](../papers/38758238.md) — MSK-IMPACT used to sequence all pituitary neuroendocrine tumors; retrospective cohort (n=26) also underwent [WES](../methods/whole-exome-seq.md) for [USP8](../genes/USP8.md) mutation detection [PMID:38758238](../papers/38758238.md).
 - [PMID:38922339](../papers/38922339.md) — 97,024 samples from 69,337 patients sequenced via MSK-IMPACT, MSK-ACCESS, and MSK-Fusion between January 2014 and November 2022; identified 212 patients with oncogenic [BRAF](../genes/BRAF.md) fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
 - [PMID:38949888](../papers/38949888.md) — 3,244 prostate cancer tumors from 2,257 patients sequenced using MSK-IMPACT targeted NGS panel; WES performed on 48 tumor samples via recapture of MSK-IMPACT libraries [PMID:38949888](../papers/38949888.md).
+- [PMID:35764743](../papers/35764743.md) — MSK-IMPACT targeted clinical sequencing used to infer HRD status for 130 MSKCC HGSOC patients with research consent; variant significance annotated via OncoKB and Hotspot; high-confidence COSMIC SBS3 detected in 48 and low-confidence in 30 patients; HRD status combined with histopathological and radiological features in the multimodal late-fusion prognostic model [PMID:35764743](../papers/35764743.md).
 
 ## Notes
 
@@ -65,5 +66,6 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:38949888](../papers/38949888.md)
+- [PMID:35764743](../papers/35764743.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-04-15**.*

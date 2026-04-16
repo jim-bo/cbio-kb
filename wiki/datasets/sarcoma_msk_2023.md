@@ -1,16 +1,14 @@
 ---
-name: "Radiation-Associated Sarcomas (MSK, 2023)"
-slug: sarcoma_msk_2023
-institution: "Memorial Sloan Kettering Cancer Center"
+name: Radiation-Associated Sarcomas (MSK, 2023)
+studyId: sarcoma_msk_2023
+institution: Memorial Sloan Kettering Cancer Center
 size: 82
 reference_genome: GRCh37
 canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - radiation-associated-sarcoma
-  - comparative-genomics
+tags: [radiation-associated-sarcoma, comparative-genomics]
 processed_by: crosslinker
 processed_at: 2026-04-10
 ---

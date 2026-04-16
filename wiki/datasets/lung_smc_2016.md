@@ -1,6 +1,6 @@
 ---
-name: "Lung Cancer (Samsung Medical Center, 2016)"
-slug: lung_smc_2016
+name: Lung Cancer (Samsung Medical Center, 2016)
+studyId: lung_smc_2016
 institution: Samsung Medical Center
 size: 200
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq]
 panels: []
-tags:
-  - lung-cancer
-  - nsclc
-  - atlas-classifier
-  - validation-cohort
+tags: [lung-cancer, nsclc, atlas-classifier, validation-cohort]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

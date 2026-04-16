@@ -20,6 +20,10 @@ Head and neck squamous cell carcinoma (HNSC) encompasses squamous cell carcinoma
 - Javelin HN100 expansion cohort (chemoradiation ± avelumab) — analyzed by the GenRad team to characterize tumor mutations and microenvironmental resistance factors. [PMID:41941260](../papers/41941260.md)
 - NCT03521570 (MIRI-based reirradiation + nivolumab): 51 evaluable patients with recurrent or second primary HNSC in a previously irradiated field (≥40 Gy); sites: oral cavity 31%, oropharynx 27%, larynx/hypopharynx 25%, nasopharynx 12%; p16-positive 12%, p16-negative 18%. Multicenter (Emory/Winship, Cleveland Clinic, Medical College of Wisconsin). [PMID:38780927](../papers/38780927.md)
 - CAL-27 and SCC-25 (EGFR+, HNSC cell lines); SCC-35, SCC-61, SQ-9G (HNSC, EGFR+): preclinical ADC radiosensitization study. [PMID:27698471](../papers/27698471.md)
+- Aerts 2014 foundational CT radiomics study included two HN cohorts: HN1 (n=136, MAASTRO Clinic, oropharyngeal/oral cavity) and HN2 (n=95, VUmc Amsterdam, HNSCC), with the 4-feature radiomic signature validated for overall survival prediction in these cohorts [PMID:24892406](../papers/24892406.md).
+- Grossberg 2018 published the MD Anderson Head and Neck Quantitative Imaging Working Group archive (n=697 HNSCC patients) pairing pre-treatment CT/PET imaging with clinical outcomes, enabling radiomics and dose-response analyses [PMID:30179230](../papers/30179230.md).
+- Welch 2024 published RADCURE, a large multi-institutional HNSCC imaging dataset (n=3,346 patients from Princess Margaret Cancer Centre) with CT scans and clinical outcome data for radiomics model development and benchmarking [PMID:38362943](../papers/38362943.md).
+- [RADCURE](../datasets/radcure.md) internal-challenge cohort (Princess Margaret Cancer Centre, 2005–2017): 2,552 HNSC patients treated with definitive radiotherapy/chemoradiotherapy; training set n=1,802, held-out test n=750. Three external validation cohorts totaling 873 patients: HN1 (n=137, MAASTRO), MDACC / [tcia-hnscc](../datasets/tcia-hnscc.md) (n=627, MD Anderson), GPCCHN / [gpcchn-poznan](../datasets/gpcchn-poznan.md) (n=298, Greater Poland Cancer Centre). Primary task: 2-year OS from pretreatment CT + EMR. [PMID:37397861](../papers/37397861.md)
 
 ## Recurrent alterations
 
@@ -29,12 +33,14 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - PD1+Ki67+CD4+ T-cell expansion of ≥1.5-fold from baseline to week 2–4 of treatment was associated with shorter progression-free survival under intensity-modulated re-irradiation + PD-1 blockade. [PMID:41941260](../papers/41941260.md)
 - [CD274](../genes/CD274.md) (PD-L1) CPS <20 vs. ≥20 (22C3 pharmDx IHC) did not predict PFS or OS benefit in the reirradiation + nivolumab context (68.8% vs. 59.2% 1-year PFS, P=.86), unlike in recurrent/metastatic HNSCC with single-agent PD-1 blockade. [PMID:38780927](../papers/38780927.md)
 - [EGFR](../genes/EGFR.md) surface expression (not mutation status) gates C-MMAE binding and radiosensitization in HNSC cell lines (CAL-27, SCC-61, SCC-35, SQ-9G). [PMID:27698471](../papers/27698471.md)
+- Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year OS prediction (winning MTLR model AUROC = 0.823 on internal test). [PMID:37397861](../papers/37397861.md)
 
 ## Subtypes
 
 No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied by the trial populations.
 
 - In NCT03521570, p16/HPV-positive patients represented only 12% of evaluable patients; the trial was not powered for subgroup analyses by HPV status. [PMID:38780927](../papers/38780927.md)
+- RADCURE challenge cohort had significant HPV status distribution shift vs. external validation cohorts (pairwise χ² FDR ≤ 5%); GPCCHN (Poznań) had disproportionately more HPV-negative patients, contributing to external model performance drops. [PMID:37397861](../papers/37397861.md)
 
 ## Therapeutic landscape
 
@@ -43,11 +49,16 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - GenRad is leveraging longitudinal genomics and proteomic data from HNSCC MCT patients to characterize transcriptional dynamics and temporal reprogramming during RT + cisplatin vs. RT + ICI treatment to identify biomarkers of sensitivity and resistance. [PMID:41941260](../papers/41941260.md)
 - IMRT-based reirradiation + concurrent/maintenance [nivolumab](../drugs/nivolumab.md) in recurrent/second-primary HNSC (NCT03521570): 1-year PFS 61.7% (95% CI 49.2%–77.4%, 1-arm log-rank P=.002 vs. historical null of 43.8%), median PFS 20.7 months, median OS 21 months (2-year OS 48.4%). Grade ≥3 treatment-related adverse events in 11.8%; no grade 5 events. FACT-G/FACT-H&N quality-of-life scores stable through 104 weeks. [PMID:38780927](../papers/38780927.md)
 - In HNSC xenograft (CAL-27, EGFR+), C-MMAE (cetuximab–MMAE ADC) + IR produced significantly greater tumor-growth delay than free MMAE or cetuximab alone (P<0.0001 by day 35), establishing EGFR-directed ADC radiosensitization as a selective strategy. [PMID:27698471](../papers/27698471.md)
+- RADCURE crowdsourced ML challenge (Princess Margaret): multitask logistic regression ([MTLR](../methods/mtlr.md)) on EMR features + primary tumor volume was the top prognostic model for 2-year OS (AUROC 0.823, C-index 0.801, HR 8.64 for high- vs. low-risk groups). Deep-learning CT radiomics did not improve over EMR-only models when combined; standalone CT radiomics did not outperform any EMR model. External generalizability was limited (performance drop in 2 of 3 external cohorts), with distribution shift in HPV status and disease site as primary drivers. [PMID:37397861](../papers/37397861.md)
 
 ## Sources
 
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:27698471](../papers/27698471.md)
+- [PMID:24892406](../papers/24892406.md)
+- [PMID:30179230](../papers/30179230.md)
+- [PMID:38362943](../papers/38362943.md)
+- [PMID:37397861](../papers/37397861.md) — Multi-institutional prognostic ML challenge for HNSC: RADCURE cohort (n=2,552) + three external validation cohorts (n=873); Kim et al. 2023, Cancer Res Commun.
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

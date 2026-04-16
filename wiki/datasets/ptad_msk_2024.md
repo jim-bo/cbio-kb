@@ -1,6 +1,6 @@
 ---
 name: Pituitary Neuroendocrine Tumors (MSK, 2024)
-slug: ptad_msk_2024
+studyId: ptad_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 92
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel, whole-exome-seq]
 panels: []
-tags:
-  - pituitary
-  - neuroendocrine
-  - PitNET
-  - LOH
+tags: [pituitary, neuroendocrine, PitNET, LOH]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

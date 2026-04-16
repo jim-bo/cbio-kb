@@ -1,6 +1,6 @@
 ---
 name: PCNSL MSK Ibrutinib Phase I/II Cohort (2024)
-slug: pcnsl_msk_2024
+studyId: pcnsl_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 46
 reference_genome: GRCh37

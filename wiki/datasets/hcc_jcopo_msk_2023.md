@@ -1,6 +1,6 @@
 ---
-name: "Hepatocellular Carcinoma cfDNA (MSK, JCO Precision Oncology 2023)"
-slug: hcc_jcopo_msk_2023
+name: Hepatocellular Carcinoma cfDNA (MSK, JCO Precision Oncology 2023)
+studyId: hcc_jcopo_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 51
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [ctdna, targeted-panel]
 panels: []
-tags:
-  - hepatocellular-carcinoma
-  - hcc
-  - cfdna
-  - msk-access
-  - liquid-biopsy
+tags: [hepatocellular-carcinoma, hcc, cfdna, msk-access, liquid-biopsy]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

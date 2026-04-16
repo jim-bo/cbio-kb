@@ -21,6 +21,8 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - A549 and CALU3 (NSCLC cell lines, EGFR+/HER2+): preclinical ADC radiosensitization study with C-MMAE and T-MMAE. [PMID:27698471](../papers/27698471.md)
 - Commentary cohort: oligometastatic NSCLC patients treated on Gomez et al. Lancet Oncol 2016 RCT (≤3 metastases after first-line systemic therapy) cited as cross-tumor precedent for metastasis-directed local consolidative therapy. [PMID:28045614](../papers/28045614.md)
 - [csf_msk_2024](../datasets/csf_msk_2024.md): Lung cancer was the most common primary cancer type in the MSK CSF ctDNA cohort (n=188 patients); NSCLC patients profiled by MSK-IMPACT (IMPACT468/IMPACT505) on CSF samples [PMID:39289779](../papers/39289779.md).
+- Aerts 2014 introduced foundational CT radiomics across NSCLC cohorts Lung1 (n=422, Netherlands Cancer Institute), Lung2 (n=225, MAASTRO Clinic), and Lung3 (n=89, MD Anderson), deriving a 4-feature radiomic signature predictive of overall survival [PMID:24892406](../papers/24892406.md).
+- Bakr 2018 published the NSCLC-Radiogenomics Stanford cohort pairing pre-treatment CT imaging with RNA-seq and somatic mutation data in 211 NSCLC patients (135 LUAD, 45 LUSC, 31 other); CT features linked to genomic subtypes [PMID:30325352](../papers/30325352.md).
 
 ## Recurrent alterations
 
@@ -63,5 +65,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:27698471](../papers/27698471.md)
 - [PMID:28045614](../papers/28045614.md)
+- [PMID:24892406](../papers/24892406.md)
+- [PMID:30325352](../papers/30325352.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

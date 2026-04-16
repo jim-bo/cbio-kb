@@ -6,8 +6,6 @@ processed_by:
 processed_at:
 ---
 
-# {{title}}
-
 ## What this is
 
 One-paragraph framing of the theme.

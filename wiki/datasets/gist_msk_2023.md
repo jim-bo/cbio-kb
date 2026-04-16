@@ -1,6 +1,6 @@
 ---
 name: Gastrointestinal Stromal Tumor Genomic Risk Stratification, MSK, Clin Cancer Res 2023
-slug: gist_msk_2023
+studyId: gist_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 501 patients (592 samples)
 reference_genome: GRCh37

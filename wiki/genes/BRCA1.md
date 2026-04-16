@@ -8,6 +8,7 @@ cancer_types:
   - THPA
   - PRAD
   - NBL
+  - HGSOC
 tags:
   - dna-damage-response
   - homologous-recombination
@@ -33,6 +34,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [ATM](../genes/ATM.md), BRCA1, [BRCA2](../genes/BRCA2.md), and [CHEK2](../genes/CHEK2.md) — DDR pathway genes with driver genomic alterations predominantly in adenocarcinoma prostate cancer PDXs; NEPC showed transcriptomic DDR upregulation instead [PMID:38488813](../papers/38488813.md).
 - BRCA1 mutations elevated in MSI-H/dMMR prostate cancer (higher mutation rate in MSI-H/dMMR vs TMB-L/MSS; likely passenger events rather than actionable alterations) [PMID:38949888](../papers/38949888.md).
 - BRCA1 significantly over-expressed (FDR < 0.01, Welch's t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes [PMID:34493726](../papers/34493726.md).
+- Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest OS discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
 
 ## Cancer types (linked)
 
@@ -69,5 +71,6 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:35764743](../papers/35764743.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

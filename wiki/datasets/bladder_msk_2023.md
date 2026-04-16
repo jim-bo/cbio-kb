@@ -1,6 +1,6 @@
 ---
 name: Urothelial Carcinoma (MSK, Clin Cancer Res 2023)
-slug: bladder_msk_2023
+studyId: bladder_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 1421 patients / 1507 tumors
 reference_genome: GRCh37

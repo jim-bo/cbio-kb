@@ -1,6 +1,6 @@
 ---
-name: "Diffuse Pleural Mesothelioma (MSK, 2024)"
-slug: plmeso_msk_2024
+name: Diffuse Pleural Mesothelioma (MSK, 2024)
+studyId: plmeso_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 290
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [methylation-array, targeted-panel, whole-exome-seq]
 panels: []
-tags:
-  - mesothelioma
-  - plmeso
-  - msk-impact
-  - genome-near-haploidization
-  - loh
+tags: [mesothelioma, plmeso, msk-impact, genome-near-haploidization, loh]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

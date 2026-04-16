@@ -1,6 +1,6 @@
 ---
 name: Cancer Therapy and Clonal Hematopoiesis, MSK, Blood Adv 2023
-slug: msk_ch_2023
+studyId: msk_ch_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 42714 patients
 reference_genome: GRCh37

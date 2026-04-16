@@ -1,6 +1,6 @@
 ---
 name: MSK Resected PDAC KRAS-Allele Cohort (2024)
-slug: pancreas_msk_2024
+studyId: pancreas_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 1360
 reference_genome: GRCh37

@@ -26,6 +26,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - The paper also references the Javelin HN100 chemoradiation ± avelumab expansion cohort (a cisplatin-backbone CRT trial) in the GenRad HNSCC context; analysis of that cohort identified intratumoral bacteria as a major source of therapy resistance in HNSCC, implicating the tumor microbiome as a resistance axis for CRT. [PMID:41941260](../papers/41941260.md)
 - Cisplatin-based CRT is used as background context for the METEOR center's cervical cancer cohort, where CRT was found to remodel the TME with myeloid-cell infiltration and upregulation of the TP53/MDM2 axis in tumor cells, without significant upregulation of PD-L1/PD-1. [PMID:41941260](../papers/41941260.md)
 - In preclinical HER2+ xenograft models, cisplatin was used as a comparator in cell viability assays; T-DM1 was more potent than cisplatin (and paclitaxel, trastuzumab, lapatinib, erlotinib) in HER2+ OE19 esophageal cancer cells, with T-DM1 IC50 <1 nM vs >100 nM in HER2− lines [PMID:27698471](../papers/27698471.md).
+- Cohort-metadata context only: in the MD Anderson HNSCC imaging archive (n=215), 127 patients (59%) received concurrent chemotherapy, of whom 98% received platinum-based regimens (effectively cisplatin). No efficacy or biomarker claim is made; this citation records treatment-arm composition. [PMID:30179230](../papers/30179230.md)
 
 ## Resistance mechanisms
 
@@ -41,5 +42,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; cisplatin discussed as radiosensitizer reference and CRT backbone in GenRad HNSCC and METEOR cervical cohorts.
 - [PMID:27698471](../papers/27698471.md)
+- [PMID:30179230](../papers/30179230.md) — Grossberg et al. 2018, *Sci Data*. MD Anderson HNSCC imaging archive; cisplatin referenced as concurrent chemotherapy in 98% of the 127 chemo-treated patients (cohort-metadata only, no efficacy or biomarker claim).
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

@@ -1,5 +1,18 @@
 ---
 title: Themes
+listing:
+  contents: "*.md"
+  type: table
+  fields: [title, tags, processed_at]
+  field-display-names:
+    title: "Title"
+    tags: "Tags"
+    processed_at: "Updated"
+  field-links: [title]
+  sort: "processed_at desc"
+  filter-ui: true
+  sort-ui: true
+  page-size: 50
 ---
 
-No theme pages yet. The `theme-synthesizer` agent will populate this section.
+Cross-paper syntheses produced by the `theme-synthesizer` agent. See [open_questions.md](open_questions.md) for a running list of cross-paper contradictions.

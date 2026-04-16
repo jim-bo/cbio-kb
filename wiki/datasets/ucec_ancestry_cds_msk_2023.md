@@ -1,6 +1,6 @@
 ---
 name: Endometrial Carcinoma Ancestry Study (MSK, 2023)
-slug: ucec_ancestry_cds_msk_2023
+studyId: ucec_ancestry_cds_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 1882
 reference_genome: hg19
@@ -8,12 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [targeted-panel]
 panels: []
-tags:
-  - endometrial
-  - uterine
-  - ancestry
-  - racial-disparities
-  - UCEC
+tags: [endometrial, uterine, ancestry, racial-disparities, UCEC]
 processed_by: crosslinker
 processed_at: 2026-04-11
 ---

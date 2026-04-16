@@ -9,6 +9,7 @@ cancer_types:
   - HCC
   - PRAD
   - NBL
+  - HGSOC
 tags:
   - dna-damage-response
   - homologous-recombination
@@ -33,6 +34,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2/BRCA1 mutation rates elevated in MSI-H/dMMR (17.5%) and TMB-H/MSS (21%) vs. TMB-L/MSS (5.2%) prostate cancer; likely passenger events in the MSI/hypermutated context rather than primary actionable drivers [PMID:38949888](../papers/38949888.md).
 - [ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), BRCA2, and [CHEK2](../genes/CHEK2.md) — DDR pathway genes with driver genomic alterations predominantly in prostate adenocarcinoma PDXs (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
 - BRCA2 significantly over-expressed (FDR < 0.01, Welch's t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes [PMID:34493726](../papers/34493726.md).
+- Pathogenic germline/somatic BRCA2 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest OS discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
 
 ## Cancer types (linked)
 
@@ -68,5 +70,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:35764743](../papers/35764743.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*

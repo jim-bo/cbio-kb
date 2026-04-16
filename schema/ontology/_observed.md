@@ -142,3 +142,42 @@
 - drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1
 - drug: lapatinib — observed in PMID:27698471 — note: dual EGFR/HER2 TKI; comparator in HER2+ cell viability assays vs T-DM1
 - drug: nivolumab — observed in PMID:38780927 — note: anti-PD-1 mAb; concurrent + maintenance with IMRT reirradiation in NCT03521570 recurrent/second-primary HNSCC; 1-year PFS 61.7%
+- dataset: radcure — observed in PMID:38362943 — note: 3346-patient HNC RT planning CT dataset from Princess Margaret Cancer Centre, hosted on TCIA; not a cBioPortal genomic study
+- method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition
+- method: radiomics — observed in PMID:38362943 — note: quantitative imaging feature extraction; downstream use case for RADCURE
+- method: dicom-rt-struct — observed in PMID:38362943 — note: DICOM RT-STRUCT format for organ-at-risk and target contours
+- datasets: tcia-tcga-gbm — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-GBM (cBioPortal gbm_tcga); not a cBioPortal studyId.
+- datasets: tcia-tcga-lgg — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-LGG (cBioPortal lgg_tcga); not a cBioPortal studyId.
+- methods: glistrboost — observed in PMID:28872634 — note: hybrid generative-discriminative brain tumor MRI segmentation method, BraTS'15 winner.
+- methods: captk — observed in PMID:28872634 — note: Cancer Imaging Phenomics Toolkit (CBICA, U Penn) — radiomic feature extraction and seed-point initialization.
+- methods: brats-challenge — observed in PMID:28872634 — note: International Multimodal Brain Tumor Image Segmentation challenge benchmark/protocol.
+- dataset: tcia-nsclc-radiomics-lung1 — observed in PMID:24892406 — note: 422-patient NSCLC CT imaging training cohort (MAASTRO); TCIA collection NSCLC-Radiomics; not a cBioPortal studyId.
+- dataset: tcia-nsclc-radiomics-lung2 — observed in PMID:24892406 — note: 225-patient NSCLC CT imaging validation cohort (Radboud); TCIA collection NSCLC-Radiomics; not a cBioPortal studyId.
+- dataset: tcia-nsclc-radiomics-genomics-lung3 — observed in PMID:24892406 — note: 89-patient NSCLC CT + Affymetrix gene-expression radiogenomics cohort (MAASTRO); TCIA collection NSCLC-Radiomics-Genomics; not a cBioPortal studyId.
+- dataset: tcia-hn1-maastro — observed in PMID:24892406 — note: 136-patient HNSCC CT imaging validation cohort (MAASTRO); TCIA HNSCC collection; not a cBioPortal studyId.
+- dataset: tcia-hn2-vumc — observed in PMID:24892406 — note: 95-patient HNSCC CT imaging validation cohort (VU University Medical Center Amsterdam); TCIA HNSCC collection; not a cBioPortal studyId.
+- dataset: tcia-rider-lung — observed in PMID:24892406 — note: 31-patient NSCLC CT test-retest reproducibility dataset (RIDER consortium); TCIA RIDER Lung CT; not a cBioPortal studyId.
+- dataset: tcia-multiple-delineation — observed in PMID:24892406 — note: 21-patient NSCLC CT inter-observer delineation dataset (5 oncologists each); TCIA; not a cBioPortal studyId.
+- dataset: nsclc-radiogenomics-stanford — observed in PMID:30325352 — note: 211-patient NSCLC multi-modal radiogenomics dataset (Stanford + AMC); paired CT/PET-CT, RNA-seq, mutation testing; TCIA DOI 10.7937/K9/TCIA.2017.7hs46erv; not a cBioPortal studyId.
+- dataset: tcia-hnscc — observed in PMID:30179230 — note: 215-patient HNSCC PET-CT + RT planning DICOM archive (MD Anderson); includes body composition at L3; TCIA DOI 10.7937/K9/TCIA.2017.umz8dv6s; not a cBioPortal studyId.
+- method: illumina-microarray — observed in PMID:30325352 — note: Illumina HT-12 gene-expression BeadChip on 26 NSCLC subjects in NSCLC radiogenomics dataset; GEO accession GSE28827
+- method: snapshot-pcr — observed in PMID:30325352 — note: SNaPshot multiplex PCR + dideoxy single-base extension for EGFR (exons 18-21) and KRAS (exon 2 codons 12-13) hotspot genotyping in NSCLC
+- method: ct-radiomics — observed in PMID:24892406 — note: 440-feature CT radiomic feature library; four-feature Cox prognostic model trained on Lung1 (n=422), validated in Lung2, H&N1, H&N2
+- method: ct-radiomics — observed in PMID:30325352 — note: CT radiomic feature extraction from segmented NSCLC tumors; heterogeneous acquisition parameters flagged as radiomic reproducibility limitation
+- method: radiomic-signature-4-feature — observed in PMID:24892406 — note: locked four-feature Cox prognostic model (Energy, Compactness, GLNU, wavelet GLNU HLH); CI 0.65-0.69 across three validation cohorts
+- method: fdg-pet-ct — observed in PMID:30325352 — note: 18F-FDG PET/CT in 201/211 NSCLC subjects; OSEM reconstruction; FDG dose 138-572 MBq; uptake time 23-129 min
+- method: ct-imaging — observed in PMID:38362943 — note: RT simulation CT for 3346 HNC patients in RADCURE dataset; three scanner manufacturers
+- method: ct-imaging — observed in PMID:30179230 — note: diagnostic CT + RT simulation CT in 215 HNSCC patients; part of MD Anderson TCIA HNSCC archive
+- method: pet-ct-imaging — observed in PMID:30179230 — note: whole-body PET-CT in 212/215 HNSCC patients at baseline and 213/215 post-treatment; GE Discovery scanners
+- method: dicom-rt-planning — observed in PMID:30179230 — note: RTPLAN + RTDOSE re-exported from Pinnacle v9.6 for 215 HNSCC RT patients; mean dose 68.66 Gy in 28-40 fractions
+- method: body-composition-ct — observed in PMID:30179230 — note: L3-level CT skeletal muscle index (SMI) and adipose index (ADI) in 215 HNSCC RT patients; first public HNSCC RT dataset with body-composition data
+- dataset: tcia-tcga-ov — observed in PMID:35764743 — note: TCIA CT imaging for TCGA-OV ovarian cases used in this multimodal HGSOC study (n=148 TCGA patients)
+- method: sigma-mutational-signatures — observed in PMID:35764743 — note: SigMA algorithm called COSMIC SBS3 (HRD signature) in 130 MSKCC HGSOC samples; high-confidence n=48, low-confidence n=30
+- method: stardist-nuclei — observed in PMID:35764743 — note: StarDist-QuPath pipeline for nuclear segmentation on H&E WSIs with detection-probability threshold 0.5
+- method: multimodal-late-fusion — observed in PMID:35764743 — note: Cox late-fusion framework integrating radiomic, histopathological, genomic and clinical submodels by summing log partial hazards; chosen over early fusion to enable learning from partial-information cases
+- method: ct-radiomics — observed in PMID:35764743 — note: PyRadiomics 3D Coif-wavelet GLCM/GLDM/GLRLM/GLSZM/NGTDM feature extraction from manually segmented omental and adnexal lesions on pre-treatment CE-CT
+- method: msk-impact-panel — observed in PMID:35764743 — note: MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants and CCNE1 CNA in 296 MSKCC HGSOC patients
+- dataset: gpcchn-poznan — observed in PMID:37397861 — note: private 298-patient HNSCC cohort from Greater Poland Cancer Centre, Poznań; no TCIA URL or cBioPortal studyId; used as in-house external validation in Kim 2023 prognostic challenge
+- method: pyradiomics — observed in PMID:37397861 — note: open-source Python library for hand-engineered radiomic feature extraction; v2.2.0 used in RADCURE HNSC challenge, yielding ~1,316 features from CT GTV masks
+- method: pyradiomics — observed in PMID:35764743 — note: PyRadiomics used to extract 600 Coif-wavelet CT radiomic features per omental/adnexal lesion in HGSOC multimodal study
+- method: mtlr — observed in PMID:37397861 — note: Multi-Task Logistic Regression survival framework (Yu et al.); top-performing model in RADCURE HNSC prognostic challenge (AUROC 0.823); outputs full patient-level survival curves

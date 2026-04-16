@@ -1,6 +1,6 @@
 ---
-name: "Prostate Cancer (MSK, 2024)"
-slug: prostate_msk_2024
+name: Prostate Cancer (MSK, 2024)
+studyId: prostate_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 3244
 reference_genome: hg19

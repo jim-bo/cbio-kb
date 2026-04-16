@@ -1,6 +1,6 @@
 ---
 name: IDH-mutant Low-Grade Glioma Active Surveillance, MSK, Clin Cancer Res 2023
-slug: difg_msk_2023
+studyId: difg_msk_2023
 institution: Memorial Sloan Kettering Cancer Center
 size: 128 patients (73 with MSK-IMPACT sequencing)
 reference_genome: GRCh37

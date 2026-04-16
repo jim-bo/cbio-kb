@@ -1,6 +1,6 @@
 ---
 name: Endometrial and Gynecologic Cancers, Nivolumab Trial (MSK, 2024)
-slug: ucec_msk_2024
+studyId: ucec_msk_2024
 institution: Memorial Sloan Kettering Cancer Center
 size: 35
 reference_genome: hg19

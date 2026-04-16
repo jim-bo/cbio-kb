@@ -1,6 +1,6 @@
 ---
-name: "Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, PanCancer Atlas 2018)"
-slug: cesc_tcga_pan_can_atlas_2018
+name: Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, PanCancer Atlas 2018)
+studyId: cesc_tcga_pan_can_atlas_2018
 institution: The Cancer Genome Atlas
 size: 309
 reference_genome: hg19
@@ -8,11 +8,7 @@ canonical_source: cbioportal
 unverified: false
 assays: [bulk-rna-seq, snp-microarray, targeted-panel]
 panels: []
-tags:
-  - cervical-cancer
-  - cesc
-  - tcga
-  - pan-can-atlas
+tags: [cervical-cancer, cesc, tcga, pan-can-atlas]
 processed_by: entity-page-writer
 processed_at: 2026-04-11
 ---

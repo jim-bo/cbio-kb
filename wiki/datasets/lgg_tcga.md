@@ -1,14 +1,12 @@
 ---
 name: TCGA Lower-Grade Glioma
-slug: lgg_tcga
+studyId: lgg_tcga
 institution: The Cancer Genome Atlas (TCGA)
 size: 516
 reference_genome: hg19
 canonical_source: cbioportal
 unverified: false
-assays:
-  - bulk-rna-seq
-  - whole-exome-seq
+assays: [bulk-rna-seq, whole-exome-seq]
 panels: []
 tags:
   - glioma
@@ -43,10 +41,12 @@ The TCGA Lower-Grade Glioma (LGG) cohort is a large, multi-institutional dataset
 ## Papers using this cohort
 
 - [PMID:27806376](../papers/27806376.md) — Tirosh et al. 2016, *Nature*: 69 bulk oligodendroglioma samples from TCGA LGG used as an external validation cohort for scRNA-seq-derived stem/progenitor and cell-cycle signatures.
+- [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised multi-parametric MRI segmentation labels and >700 radiomic features released for 108 TCGA-LGG cases (originating set n=199), enabling radiogenomic integration with lgg_tcga molecular data.
 
 ## Notable findings derived from this cohort
 
 - The scRNA-seq-derived stem/progenitor gene signature (defined in 6 primary oligodendrogliomas) correlates positively with the cell-cycle signature across the 69 TCGA LGG oligodendroglioma bulk samples, supporting the single-cell developmental hierarchy model in a larger independent cohort [PMID:27806376](../papers/27806376.md).
+- Bakas et al. 2017 released expert-revised MRI segmentation labels (whole tumour, tumour core, non-enhancing tumour) for 108 TCGA-LGG cases via the TCIA [tcia-tcga-lgg](../datasets/tcia-tcga-lgg.md) collection. LGG cases without apparent enhancing tumour were annotated as NET-only or NET+oedema, reflecting lower blood-brain-barrier disruption typical of low-grade glioma biology. These labels became the BraTS'17 reference standard and are paired with the molecular profiles in lgg_tcga for radiogenomic studies. [PMID:28872634](../papers/28872634.md)
 
 ## Sources
 

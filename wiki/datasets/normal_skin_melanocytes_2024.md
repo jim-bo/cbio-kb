@@ -1,6 +1,6 @@
 ---
-name: "Normal Skin Melanocytes and Keratinocytes (2024)"
-slug: normal_skin_melanocytes_2024
+name: Normal Skin Melanocytes and Keratinocytes (2024)
+studyId: normal_skin_melanocytes_2024
 institution: Multi-institutional
 size: 291
 reference_genome: hg38

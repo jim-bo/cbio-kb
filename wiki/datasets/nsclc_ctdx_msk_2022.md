@@ -1,6 +1,6 @@
 ---
 name: Metastatic Non-Small Cell Lung Cancer (MSK, Nature Medicine 2022)
-slug: 
+studyId: nsclc_ctdx_msk_2022
 institution: 
 size: 
 reference_genome: GRCh37
@@ -11,7 +11,6 @@ panels: []
 tags: []
 processed_by: crosslinker
 processed_at: 2026-04-11
-studyId: nsclc_ctdx_msk_2022
 description: Targeted sequencing of ctDNA samples drawn from patients with metastatic NSCLC using the Resolution ctDx Lung platform.
 cancerTypeId: nsclc
 pmid: 36357680

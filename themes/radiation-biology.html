@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Radiation biology – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-this-is" id="toc-what-this-is" class="nav-link active" data-scroll-target="#what-this-is">What this is</a></li>
+  <li><a href="#what-the-corpus-says" id="toc-what-the-corpus-says" class="nav-link" data-scroll-target="#what-the-corpus-says">What the corpus says</a>
+  <ul class="collapse">
+  <li><a href="#imaging-biomarkers-radiomics-signatures-datasets-deep-learning" id="toc-imaging-biomarkers-radiomics-signatures-datasets-deep-learning" class="nav-link" data-scroll-target="#imaging-biomarkers-radiomics-signatures-datasets-deep-learning">Imaging biomarkers &amp; radiomics (signatures, datasets, deep learning)</a></li>
+  <li><a href="#molecular-correlates-of-radiation-response-and-resistance" id="toc-molecular-correlates-of-radiation-response-and-resistance" class="nav-link" data-scroll-target="#molecular-correlates-of-radiation-response-and-resistance">Molecular correlates of radiation response and resistance</a></li>
+  <li><a href="#radiosensitization-preclinical-mechanism" id="toc-radiosensitization-preclinical-mechanism" class="nav-link" data-scroll-target="#radiosensitization-preclinical-mechanism">Radiosensitization (preclinical mechanism)</a></li>
+  <li><a href="#clinical-biomarker-and-combination-trials" id="toc-clinical-biomarker-and-combination-trials" class="nav-link" data-scroll-target="#clinical-biomarker-and-combination-trials">Clinical biomarker and combination trials</a></li>
+  <li><a href="#normal-tissue-toxicity-and-late-genomic-effects" id="toc-normal-tissue-toxicity-and-late-genomic-effects" class="nav-link" data-scroll-target="#normal-tissue-toxicity-and-late-genomic-effects">Normal-tissue toxicity and late genomic effects</a></li>
+  </ul></li>
+  <li><a href="#where-papers-agree" id="toc-where-papers-agree" class="nav-link" data-scroll-target="#where-papers-agree">Where papers agree</a></li>
+  <li><a href="#where-papers-disagree" id="toc-where-papers-disagree" class="nav-link" data-scroll-target="#where-papers-disagree">Where papers disagree</a></li>
+  <li><a href="#open-questions" id="toc-open-questions" class="nav-link" data-scroll-target="#open-questions">Open questions</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/themes/radiation-biology.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/themes/radiation-biology.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Radiation biology</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-this-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-is">What this is</h2>
+<p>Radiation biology in this corpus spans (a) quantitative imaging biomarkers derived from radiotherapy planning or diagnostic CT/MRI (radiomics, radiogenomics, deep-learning prognostic models), (b) molecular/genomic correlates of radiation response and radioresistance (DNA-damage response (DDR), hypoxia, IFN-related DNA-damage-resistance (IRDS), late genomic sequelae such as radiation-associated sarcoma), (c) biomarker-designed radiotherapy clinical trials (ROBIN consortium, nivolumab + IMRT reirradiation) and the datasets/infrastructure that support them (RADCURE, TCIA HNSCC, NSCLC-Radiogenomics, TCGA-GBM/LGG MRI), and (d) preclinical radiosensitization strategies. The corpus has a particularly deep imaging-biomarker substrate in head-and-neck cancer and NSCLC, and offers explicit contradictions about whether radiomic signatures generalize across institutions.</p>
+</section>
+<section id="what-the-corpus-says" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-corpus-says">What the corpus says</h2>
+<section id="imaging-biomarkers-radiomics-signatures-datasets-deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="imaging-biomarkers-radiomics-signatures-datasets-deep-learning">Imaging biomarkers &amp; radiomics (signatures, datasets, deep learning)</h3>
+<ul>
+<li>A fixed four-feature CT radiomic signature (Statistics Energy, Shape Compactness, Grey Level Nonuniformity, wavelet Grey Level Nonuniformity HLH) trained on 422 curative-intent NSCLC patients (Lung1/MAASTRO) generalized without retraining to independent NSCLC (Lung2, CI=0.65, P=2.91×10⁻⁹), HNSCC (H&amp;N1, CI=0.69; H&amp;N2, CI=0.69), and retained performance in HPV-negative HNSCC (CI=0.66) and within both radiation-only and concurrent chemoradiation subgroups <a href="../papers/24892406.html">PMID:24892406</a>.</li>
+<li>Two of the four Aerts signature features (intratumour-heterogeneity descriptors Grey Level Nonuniformity and wavelet Grey Level Nonuniformity HLH) were significantly correlated with cell-cycling/proliferation gene sets by GSEA on the 89-patient Lung3 NSCLC radiogenomics cohort, providing an initial biological anchor for CT-derived heterogeneity <a href="../papers/24892406.html">PMID:24892406</a>.</li>
+<li>In a crowdsourced benchmark on 2,552 Princess Margaret HNSCC patients (RADCURE training cohort) with external validation on 873 patients (HN1 MAASTRO, MDACC, GPCCHN Poznań), the best-performing 2-year OS model was a multitask logistic regression over EMR features (age, T/N/overall stage, disease site, performance status, HPV status, dose, systemic therapy) plus primary tumor volume (AUROC=0.823, C-index=0.801); no radiomics-only model beat any EMR-only model, and replacing tumor volume with a deep-CNN image embedding lowered AUROC from 0.823 to 0.766 <a href="../papers/37397861.html">PMID:37397861</a>.</li>
+<li>The RADCURE dataset (3,346 HNSCC planning CTs with manual target and 19 organ-at-risk contours, standardized RT-STRUCT nomenclature, median 5-year follow-up, 60% surviving) is now the largest public resource for head-and-neck RT modelling <a href="../papers/38362943.html">PMID:38362943</a>.</li>
+<li>The TCIA HNSCC collection from MD Anderson (215 patients, 433,384 DICOM files, full RTPLAN/RTSTRUCT/RTDOSE, paired pre- and post-RT PET-CT, L3 skeletal-muscle/adipose body-composition measures) is the first publicly shared HNSCC RT archive that supports body composition as either a risk factor or endpoint <a href="../papers/30179230.html">PMID:30179230</a>.</li>
+<li>The NSCLC Radiogenomics Stanford dataset pairs preoperative CT/FDG-PET in 211 surgical NSCLC patients with EGFR/KRAS/ALK clinical calls and RNA-seq (n=130) or Illumina HT-12 microarrays (n=26), explicitly designed to support CT-to-molecular biomarker discovery <a href="../papers/30325352.html">PMID:30325352</a>.</li>
+<li>The TCGA-GBM/LGG MRI collection on TCIA was released with expert-revised segmentation labels (enhancing tumor, non-enhancing tumor core, peritumoral edema) generated by GLISTRboost and &gt;700 radiomic features per case (n=243), enabling glioma radiogenomics against matched gbm_tcga and lgg_tcga cBioPortal studies <a href="../papers/28872634.html">PMID:28872634</a>.</li>
+<li>In high-grade serous ovarian cancer (n=444), a multimodal late-fusion Cox model combining an omental-implant CT radiomic feature (wavelet-HLL gray-level-co-occurrence autocorrelation, log(HR)=1.68, test c=0.53) with an H&amp;E tumor-nuclear-area feature (test c=0.54) and HRD status/PARP exposure reached test c=0.61–0.62, significantly beating HRD status alone (c=0.52) and every unimodal model; modality risk scores were orthogonal (|Kendall|&lt;0.14) <a href="../papers/35764743.html">PMID:35764743</a>.</li>
+</ul>
+</section>
+<section id="molecular-correlates-of-radiation-response-and-resistance" class="level3">
+<h3 class="anchored" data-anchor-id="molecular-correlates-of-radiation-response-and-resistance">Molecular correlates of radiation response and resistance</h3>
+<ul>
+<li>In pediatric neuroblastoma single-nuclei transcriptomes (n=11 tumors; validated in the 498-sample SEQC cohort), the high-risk-enriched undifferentiated tumor cluster nC3 significantly over-expresses BRCA1, BRCA2, MYCN, and ALK; gene-ontology analysis of nC3 genes correlated with poor survival was enriched for DNA damage / repair and cell cycle pathways <a href="../papers/34493726.html">PMID:34493726</a>.</li>
+<li>In a prostate-cancer PDX series (n=44 PDXs, 38 patients; cross-referenced with SU2C), unsupervised clustering of DDR-associated gene expression segregated neuroendocrine (NEPC) from adenocarcinoma PDXs concordant with morphology; NEPC samples showed DDR-pathway upregulation plus elevated MYCN/AURKA expression without gene amplification <a href="../papers/38488813.html">PMID:38488813</a>.</li>
+<li>Radiation-associated sarcomas (n=82 MSK-IMPACT-profiled cases across 4 histotypes) show histotype-specific genomic landscapes: RT-angiosarcoma is dominated by MYC amplification (75%, exclusively in breast/chest-wall cases, 87% of 38 breast cases) with co-occurring FLT4/CRKL/HRAS/KMT2D alterations; MYC-amplified RT-AS had significantly shorter RT-to-sarcoma latency than non-MYC-amplified cases (log-rank P=0.0083, medians 8.0 vs 12.5–18.5 years across other histotypes); predominant mutational signatures across all four RT-sarcoma histotypes were associated with errors in DNA repair and replication <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li>In matched primary-recurrent glioma (GLASS consortium, n=132), IDH-mutant gliomas treated with temozolomide and/or radiotherapy undergo progressive genome-wide loss of DNA methylation at recurrence (620 differentially methylated probes Kruskal-Wallis FDR&lt;0.01, |Δβ|&gt;20%); 34% of GCIMP-high tumors progressed to GCIMP-low in the treatment group vs 4% untreated (Fisher P=0.005), with CDKN2A homozygous deletion associated with radiotherapy-related acquisition and worse survival from second surgery (log-rank P=0.0001) <a href="../papers/38117484.html">PMID:38117484</a>.</li>
+<li>In fallopian-tube HGSOC precursors, an IFN-related DNA-damage-resistance (IRDS) signature (STAT1, MX1, MCL1) emerges at the co-occurring STIC stage, and cGAS-STING is activated through BANF1+ ruptured micronuclei with gamma-H2AX co-localization as early as incidental STIC lesions — linking chronic IFN activation to a candidate treatment-resistance axis <a href="../papers/39386723.html">PMID:39386723</a>.</li>
+<li>The ROBIN consortium reports preclinical evidence that dietary interventions modulate radiosensitivity: low-fat and calorie-restricted regimens enhanced radiation response, whereas ketogenic diets unexpectedly promoted radio-resistance (OligoMET Project 2) <a href="../papers/41941260.html">PMID:41941260</a>.</li>
+<li>ROBIN-GenRad preliminary data implicate intratumoral bacteria in the Javelin HN100 chemoradiation-immunotherapy expansion cohort as a major source of therapy resistance in HNSCC <a href="../papers/41941260.html">PMID:41941260</a>.</li>
+</ul>
+</section>
+<section id="radiosensitization-preclinical-mechanism" class="level3">
+<h3 class="anchored" data-anchor-id="radiosensitization-preclinical-mechanism">Radiosensitization (preclinical mechanism)</h3>
+<ul>
+<li>Conjugating potent anti-tubulin warheads (auristatins, maytansinoids) to anti-ErbB antibodies (cetuximab→EGFR, trastuzumab→ERBB2) restricts radiosensitization to receptor-expressing tumors: free MMAE indiscriminately radiosensitized both EGFR+ CAL-27 and EGFR− LN229, but C-MMAE radiosensitized CAL-27 and not LN229; T-DM1 IC50 was &lt;1 nM in HER2+ OE19/NCI-N87 vs &gt;100 nM in HER2− HCT116/CAL-27; a single 0.25 nmol T-DM1 dose + 2.5 Gy × 3 produced tumor doubling-time increases from 7→66 days (OE19) and 9→113 days (NCI-N87) with no benefit in HER2− HCT116 <a href="../papers/27698471.html">PMID:27698471</a>.</li>
+<li>Mechanistically, ADC radiosensitization tracked G2/M accumulation (pS10 Histone H3) and DNA double-strand breaks (neutral comet assay tail length), and was abolished when the antibody-receptor pairing was mismatched, implicating receptor-mediated endocytosis and intracellular release of the anti-tubulin warhead as the gating step <a href="../papers/27698471.html">PMID:27698471</a>.</li>
+</ul>
+</section>
+<section id="clinical-biomarker-and-combination-trials" class="level3">
+<h3 class="anchored" data-anchor-id="clinical-biomarker-and-combination-trials">Clinical biomarker and combination trials</h3>
+<ul>
+<li>A single-arm phase 2 trial of IMRT reirradiation + concurrent and maintenance nivolumab in 51 recurrent/second-primary HNSCC patients met its primary endpoint (1-year PFS 61.7%, log-rank P=0.002 vs MIRI historical 43.8%), with manageable toxicity (grade ≥3 TRAEs 11.8%, no grade 5); any-grade radiation dermatitis occurred in 58.8% and oral mucositis in 49.0% <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>In that trial, PD-L1 combined positive score (22C3, &lt;20 vs ≥20) did <strong>not</strong> stratify PFS (68.8% vs 59.2% at 1 year, P=0.86) or OS (P=0.74) — divergent from PD-L1’s role in the recurrent/metastatic HNSCC setting with single-agent PD-1 blockade <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>Also in that trial, an early ≥1.5-fold peripheral-blood surge of CD4+PD-1+Ki-67+ T cells trended toward <strong>worse</strong> PFS (HR 2.09, 95% CI 0.77–5.66; median PFS 16.0 vs 27.1 months) — opposite in direction to what has been reported in lung cancer and melanoma under PD-1 blockade alone <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>The ROBIN U54 consortium is running five disease-focused Molecular Characterization Trials (OligoMET/prostate, ImmunoRad/rectal, GenRad/bladder+HNSCC, METEOR/cervix+ pancreas, KIDSROBIN/DMG+neuroblastoma) with longitudinal pre-/on-/post-RT biospecimens and imaging, and has already produced preliminary signals including RT-induced MYC-driven CD8+ T-cell activation in rectal-cancer PBMCs, p53/MDM2 upregulation (without PD-L1/PD-1 axis induction) in cervical tumors after chemoradiation, and RT-altered cDC1 infiltration in pancreatic tumors <a href="../papers/41941260.html">PMID:41941260</a>.</li>
+</ul>
+</section>
+<section id="normal-tissue-toxicity-and-late-genomic-effects" class="level3">
+<h3 class="anchored" data-anchor-id="normal-tissue-toxicity-and-late-genomic-effects">Normal-tissue toxicity and late genomic effects</h3>
+<ul>
+<li>The MIRT + nivolumab HNSCC reirradiation trial documented any-grade radiation dermatitis 58.8%, dysphagia 54.9%, oral mucositis 49.0%, dry mouth 47.1%, and fatigue 82.4%, with only 6 (11.8%) grade ≥3 TRAEs and no grade 5 events — establishing tolerability of PD-1 blockade in a previously irradiated field <a href="../papers/38780927.html">PMID:38780927</a>.</li>
+<li>Radiation-associated sarcoma latency varies by histotype (median RT→sarcoma interval: RT-AS 8.0 y, RT-MPNST 12.5 y, RT-UPS 18.5 y, RT-OS 9.0 y; global log-rank P=0.0047), and the radiation-specific angiosarcoma genome (MYC amplification, low FGA, translocation-free) differs markedly from other radiation-associated sarcomas and from sporadic angiosarcoma <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+</ul>
+</section>
+</section>
+<section id="where-papers-agree" class="level2">
+<h2 class="anchored" data-anchor-id="where-papers-agree">Where papers agree</h2>
+<ul>
+<li><strong>Tumor volume is a hard-to-beat baseline.</strong> Aerts et al.&nbsp;explicitly report that tumor volume alone performed well and that the four-feature radiomic signature <em>combined with</em> volume beat volume alone in every NSCLC/HNSCC validation cohort <a href="../papers/24892406.html">PMID:24892406</a>; Kazmierski et al.&nbsp;find the best 12-model HNSCC submission against RADCURE was an EMR + primary-tumor-volume MTLR model that no radiomics-only submission outperformed, and that on the MDACC external subset only the top model beat tumor volume alone and by a small margin <a href="../papers/37397861.html">PMID:37397861</a>. Both literatures converge on volume as a strong anchor in thoracic and head-and-neck imaging.</li>
+<li><strong>Intratumor heterogeneity on imaging has biological correlates.</strong> Aerts et al. link the two intratumor-heterogeneity features in their signature to cell-cycling pathways by GSEA on Lung3 <a href="../papers/24892406.html">PMID:24892406</a>; Boehm et al. identify an autocorrelation feature of omental implants on wavelet-transformed CT as an independent prognostic factor in HGSOC, interpretable as lesion-density / intratumoral heterogeneity <a href="../papers/35764743.html">PMID:35764743</a>; Bakas et al. release &gt;700 radiomic features on TCGA-GBM/LGG MRI precisely to support heterogeneity-to-molecular mapping <a href="../papers/28872634.html">PMID:28872634</a>.</li>
+<li><strong>Public, curated RT-planning datasets are the substrate.</strong> Welch et al. (RADCURE, n=3,346), Grossberg et al.&nbsp;(TCIA HNSCC, n=215), Bakas et al.&nbsp;(TCGA-GBM/LGG MRI, n=243), and Bakr et al.&nbsp;(NSCLC Radiogenomics Stanford, n=211) all explicitly frame their contribution as infrastructure for radiomics, radiogenomics, and RT-response modeling <a href="../papers/38362943.html">PMID:38362943</a> <a href="../papers/30179230.html">PMID:30179230</a> <a href="../papers/28872634.html">PMID:28872634</a> <a href="../papers/30325352.html">PMID:30325352</a>.</li>
+<li><strong>DNA-damage-response biology drives radiation-relevant phenotypes.</strong> The high-risk neuroblastoma undifferentiated cluster nC3 up-regulates BRCA1/BRCA2 and is enriched for DDR/cell-cycle GO categories among poor-survival genes <a href="../papers/34493726.html">PMID:34493726</a>; NEPC PDXs separate from adenocarcinoma PDXs on DDR-gene-expression clustering <a href="../papers/38488813.html">PMID:38488813</a>; RT-associated sarcomas share mutational signatures of defective DNA mismatch repair and replication errors across histotypes <a href="../papers/37350195.html">PMID:37350195</a>; an IRDS signature (STAT1, MX1, MCL1) emerges early in HGSOC precursors via cGAS-STING activation on BANF1+ ruptured micronuclei <a href="../papers/39386723.html">PMID:39386723</a>.</li>
+<li><strong>Treatment with radiotherapy leaves measurable longitudinal molecular scars.</strong> Treated IDH-mutant gliomas show genome-wide DNA hypomethylation, GCIMP-high→low transitions (10/29 vs 1/27 untreated, P=0.005), CDKN2A loss, and increased CD31+ endothelial / CD8+ T-cell infiltration at recurrence <a href="../papers/38117484.html">PMID:38117484</a>; RT-associated sarcomas carry histotype- specific driver landscapes distinct from sporadic counterparts <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+</ul>
+</section>
+<section id="where-papers-disagree" class="level2">
+<h2 class="anchored" data-anchor-id="where-papers-disagree">Where papers disagree</h2>
+<ul>
+<li><strong>Does a single CT radiomic signature generalize across institutions in head-and-neck cancer?</strong> Aerts et al.&nbsp;report that a fixed four-feature signature trained on 422 NSCLC patients validated without retraining in HNSCC H&amp;N1 (CI=0.69, P=7.99×10⁻⁷) and H&amp;N2 (CI=0.69, P=3.53×10⁻⁶), and retained prognostic performance in HPV-negative HNSCC (CI=0.66) — framed as cross-disease transferability of a “general prognostic tumour phenotype” <a href="../papers/24892406.html">PMID:24892406</a>. Kazmierski et al., working on a larger and more recent HNSCC benchmark (RADCURE n=2,552 + 873 external), report that performance of top models dropped in 2 of 3 external cohorts (HN1, MDACC, GPCCHN), that on the MDACC subset only the top model beat tumor volume alone and by a small margin, and that distribution shifts in HPV status, disease site, and outcome prevalence were statistically significant — concluding that any such model requires population-specific validation before deployment and that deep radiomics added to volume does <strong>not</strong> improve 2-year OS over EMR+volume <a href="../papers/37397861.html">PMID:37397861</a>. The papers disagree on the strength of the generalizability claim for CT-derived HNSCC radiomic prognosis; Kazmierski explicitly frames this as echoing earlier negative findings by Ger and Vallières.</li>
+<li><strong>Does volume-independent image information add prognostic value beyond volume+EMR?</strong> Aerts et al.&nbsp;state that combining the radiomic signature with tumour volume outperformed volume alone in every NSCLC/HNSCC validation cohort, and that signature + TNM beat TNM alone in all three validation cohorts <a href="../papers/24892406.html">PMID:24892406</a>. Kazmierski et al.&nbsp;report, in the RADCURE challenge, that (i) replacing tumour volume in the winning MTLR model with deep image representations from a 3D convnet <em>dropped</em> AUROC from 0.823 to 0.766,
+<ol start="2" type="i">
+<li>no radiomics-only model outperformed any EMR-only model, and (iii) the best radiomics model learned features only weakly correlated with volume (ρ=0.22) but still did not improve over the EMR+volume baseline <a href="../papers/37397861.html">PMID:37397861</a>. Boehm et al.&nbsp;land in between: omental-implant autocorrelation radiomics did add prognostic value in HGSOC independent of HRD and clinical features, but the individual radiomic Cox submodel test-set c-index was only 0.53 <a href="../papers/35764743.html">PMID:35764743</a>.</li>
+</ol></li>
+<li><strong>Does PD-L1 (CD274) combined positive score predict benefit of PD-1 blockade when combined with radiotherapy?</strong> In the MIRT + nivolumab trial, PD-L1 CPS &lt;20 vs ≥20 showed no correlation with PFS (P=0.86) or OS (P=0.74) in previously irradiated HNSCC fields, contradicting the recurrent/metastatic HNSCC setting where PD-L1 CPS stratifies benefit of single-agent PD-1 blockade <a href="../papers/38780927.html">PMID:38780927</a>. The corpus does not contain a primary RT + PD-1 HNSCC trial that shows a positive PD-L1 CPS effect, but the authors frame their result explicitly as divergent from the broader PD-L1 literature — leaving open whether the discordance reflects RT-induced PD-L1 changes, a previously-irradiated-field effect, or small-sample artifact (n=51).</li>
+<li><strong>Does an early PD-1+Ki-67+ CD4+ T-cell surge in peripheral blood mark benefit or harm under PD-1 blockade?</strong> Saba et al.&nbsp;report a trend toward <em>worse</em> PFS (HR 2.09, 95% CI 0.77–5.66; median 16.0 vs 27.1 months) in HNSCC reirradiation + nivolumab patients with a ≥1.5-fold surge at week 2–4, explicitly noting this is opposite in direction to reports in lung cancer and melanoma <a href="../papers/38780927.html">PMID:38780927</a>. The corpus does not contain the lung/melanoma references as primary papers, but the paper records the disagreement against that external literature; the unresolved question is whether radiation reshapes the interpretation of peripheral PD-1+Ki-67+ CD4 dynamics, or whether the HNSCC result is a small-sample HR artifact.</li>
+<li><strong>Do ketogenic dietary interventions enhance or undermine radiation response?</strong> The ROBIN OligoMET preclinical arm reports that low-fat and calorie-restricted regimens enhanced radiation response whereas <em>ketogenic</em> diets unexpectedly promoted radio-resistance — a finding the authors flag as contrary to prior expectation that ketogenic diets would potentiate RT <a href="../papers/41941260.html">PMID:41941260</a>. The corpus does not contain a counter-paper showing ketogenic-diet-induced radiosensitization, but the ROBIN white paper itself records the disagreement against the prior preclinical literature; the direction of the true effect remains open.</li>
+</ul>
+</section>
+<section id="open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
+<ul>
+<li>Which imaging-biomarker-plus-molecular combinations actually add prognostic information <em>beyond</em> tumor volume, EMR (stage, HPV, performance status), and HRD/driver-gene status in curative-intent RT cohorts? The corpus shows both strong positive (Aerts signature across NSCLC/HNSCC) and negative (RADCURE deep radiomics, MDACC external validation) results and does not resolve the question. <a href="../papers/24892406.html">PMID:24892406</a> <a href="../papers/37397861.html">PMID:37397861</a> <a href="../papers/35764743.html">PMID:35764743</a></li>
+<li>What is the mechanism of the observed peripheral PD-1+Ki-67+ CD4+ T-cell surge tracking worse PFS specifically in previously-irradiated HNSCC fields? Candidates enumerated by the authors — regulatory skew, exhaustion phenotype, lymphatic drainage effects from prior radiation — remain uninterrogated in the corpus. <a href="../papers/38780927.html">PMID:38780927</a></li>
+<li>Is the RT-induced intratumoral-microbiome shift (HNSCC) causal for chemoradiation- immunotherapy resistance, or a correlate of an already-resistant TME? The ROBIN consortium flags this as a major forward-looking mechanistic question. <a href="../papers/41941260.html">PMID:41941260</a></li>
+<li>Do the DDR-gene-expression signatures observed in high-risk neuroblastoma nC3 and in NEPC PDXs translate to differential radiosensitivity in patients? The corpus documents the signatures but does not test radiation-response endpoints. <a href="../papers/34493726.html">PMID:34493726</a> <a href="../papers/38488813.html">PMID:38488813</a></li>
+<li>Does treatment-induced IDH-mutant glioma hypomethylation confer actionable therapeutic vulnerability at recurrence, or merely mark worse prognosis? The corpus demonstrates the epigenetic drift and worse post-second-surgery survival (log-rank P=0.0001) but does not provide a radiation-independent intervention that reverses it. <a href="../papers/38117484.html">PMID:38117484</a></li>
+<li>Why is MYC amplification exclusively observed in breast/chest-wall radiation-associated angiosarcoma (87% of 38 breast cases) and not in radiation-associated sarcoma from other anatomic sites? The corpus records the association but not the mechanism. <a href="../papers/37350195.html">PMID:37350195</a></li>
+<li>Do ketogenic diets enhance or attenuate radiation response in humans? The ROBIN preclinical signal disagrees with the prior preclinical literature; no human data are in the corpus. <a href="../papers/41941260.html">PMID:41941260</a></li>
+<li>Can ErbB-directed antibody-drug-conjugate radiosensitization (T-DM1 + IR, C-MMAE + IR) be translated to a therapeutic index advantage over free anti-tubulin + IR in patient cohorts? No human trial data are in the corpus; HER2/EGFR expression cut-offs predictive of ADC radiosensitization in human tumors remain undefined. <a href="../papers/27698471.html">PMID:27698471</a></li>
+<li>What is the optimal sequencing, duration, and fractionation of PD-1 blockade with reirradiation? The MIRT + nivolumab trial met its primary PFS endpoint but cannot attribute the benefit to radiation vs PD-1 vs combination in a single-arm design. <a href="../papers/38780927.html">PMID:38780927</a></li>
+</ul>
+<p><em>This page was processed by <strong>theme-synthesizer</strong> on <strong>2026-04-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/themes/radiation-biology.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/themes/radiation-biology.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

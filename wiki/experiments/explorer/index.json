@@ -1,0 +1,275 @@
+{
+  "run_id": "2026-04-20-0446",
+  "questions": [
+    {
+      "id": "D01",
+      "category": "definition",
+      "question": "What is the MSK-IMPACT panel, and what are its main panel versions referenced in the corpus?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 10,
+      "rag_total": 12
+    },
+    {
+      "id": "D02",
+      "category": "definition",
+      "question": "Describe each of the four features in the Aerts CT radiomic signature and what aspect of tumor phenotype they capture.",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "D03",
+      "category": "definition",
+      "question": "What is the PRISSMM NLP curation framework and how is it used in the MSK-CHORD study?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 12
+    },
+    {
+      "id": "D04",
+      "category": "definition",
+      "question": "What is the LymphGen classification system, and how was it validated in the corpus?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 14,
+      "rag_total": 14
+    },
+    {
+      "id": "D05",
+      "category": "definition",
+      "question": "What is the ROBIN consortium, what projects does it run, and which diseases does it cover?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 13
+    },
+    {
+      "id": "D06",
+      "category": "definition",
+      "question": "How is homologous-recombination deficiency (HRD) characterized in the HGSOC multimodal risk-stratification paper?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L01",
+      "category": "lookup",
+      "question": "In the MSK-CHORD study, what percentage of lung adenocarcinoma patients harbored SETD2 driver mutations?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L02",
+      "category": "lookup",
+      "question": "In the radiation-associated sarcoma cohort, which driver alteration dominates RT-angiosarcoma of the breast/chest wall, and at what frequency?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 14
+    },
+    {
+      "id": "L03",
+      "category": "lookup",
+      "question": "In the ADC radiosensitization study, what tumor doubling-time increase was observed in HER2-positive OE19 xenografts receiving T-DM1 combined with 2.5 Gy x 3 radiation?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L04",
+      "category": "lookup",
+      "question": "In the ROBIN consortium preclinical data, which dietary intervention unexpectedly promoted radio-resistance?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L05",
+      "category": "lookup",
+      "question": "What four CT radiomic features make up the Aerts prognostic signature trained on NSCLC Lung1/MAASTRO?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L06",
+      "category": "lookup",
+      "question": "In the phase 2 MIRT + nivolumab trial for recurrent HNSCC, what was the 1-year progression-free survival rate?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L07",
+      "category": "lookup",
+      "question": "What targeted therapy is the subject of the FGFR3-altered urothelial carcinoma real-world outcomes study?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L08",
+      "category": "lookup",
+      "question": "In the peripheral T-cell lymphoma CHOP-based chemotherapy cohort, which mutation identified high-risk events?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "L09",
+      "category": "lookup",
+      "question": "In the appendiceal adenocarcinoma molecular classification, which two RAS-pathway genes co-drive the mucinous subtype?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 10,
+      "rag_total": 14
+    },
+    {
+      "id": "LS01",
+      "category": "list",
+      "question": "Which corpus papers profile patients using an MSK-IMPACT targeted panel (any version, including IMPACT341/410/468/505 or the generic msk-impact-panel)?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 12,
+      "rag_total": 11
+    },
+    {
+      "id": "LS02",
+      "category": "list",
+      "question": "Which corpus papers focus on head and neck squamous cell carcinoma (HNSC)?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 10
+    },
+    {
+      "id": "LS03",
+      "category": "list",
+      "question": "List all corpus papers that analyze circulating tumor DNA (ctDNA) as a primary modality.",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 10
+    },
+    {
+      "id": "LS04",
+      "category": "list",
+      "question": "Which corpus papers describe publicly released TCIA imaging datasets?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 4,
+      "rag_total": 13
+    },
+    {
+      "id": "LS05",
+      "category": "list",
+      "question": "Which corpus papers analyze KRAS mutations as a driver or biomarker focus (not just incidental mention)?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 10,
+      "rag_total": 9
+    },
+    {
+      "id": "LS06",
+      "category": "list",
+      "question": "Which corpus papers evaluate PD-1 or PD-L1 immune checkpoint blockade in patients?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 9,
+      "rag_total": 9
+    },
+    {
+      "id": "S01",
+      "category": "synthesis",
+      "question": "Where in the corpus do papers disagree about whether a CT radiomic signature generalizes across institutions for head-and-neck cancer prognosis? Summarize both sides.",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 14
+    },
+    {
+      "id": "S02",
+      "category": "synthesis",
+      "question": "How do the corpus papers characterize the long-term molecular sequelae of radiotherapy on previously-irradiated tissue?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 14,
+      "rag_total": 10
+    },
+    {
+      "id": "S03",
+      "category": "synthesis",
+      "question": "Across the corpus trials of PD-1 or PD-L1 blockade, what biomarkers of response appear, and do they agree across disease sites?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 12,
+      "rag_total": 8
+    },
+    {
+      "id": "S04",
+      "category": "synthesis",
+      "question": "What evidence across the corpus links DNA-damage-response biology to aggressive or treatment-refractory phenotypes in multiple tumor types?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 3,
+      "rag_total": 7
+    },
+    {
+      "id": "S05",
+      "category": "synthesis",
+      "question": "Across the ctDNA papers in the corpus, what common utilities emerge, and where do the approaches differ in clinical question?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 13,
+      "rag_total": 10
+    },
+    {
+      "id": "S06",
+      "category": "synthesis",
+      "question": "Across the lymphoma papers in the corpus (CLL, Hodgkin, DLBCL, PTCL, PCNSL), what common themes emerge about how genomic subclassification informs clinical stratification?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 10
+    },
+    {
+      "id": "S07",
+      "category": "synthesis",
+      "question": "What does the corpus say about the role of tumor volume as a baseline against which imaging-derived models must prove incremental prognostic value?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 11,
+      "rag_total": 9
+    },
+    {
+      "id": "S08",
+      "category": "synthesis",
+      "question": "How do the two rhabdomyosarcoma papers in the corpus differ in their genomic findings and clinical framing?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 15
+    },
+    {
+      "id": "S09",
+      "category": "synthesis",
+      "question": "Across the corpus, what evidence links environmental radiation or UV exposure to acquired somatic alterations or epigenetic drift?",
+      "has_agentic": true,
+      "has_rag": true,
+      "agentic_total": 15,
+      "rag_total": 9
+    }
+  ]
+}

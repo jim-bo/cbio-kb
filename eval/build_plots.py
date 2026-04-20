@@ -1,17 +1,18 @@
-"""Render the four visualization plots from an eval run.
+"""Render the visualization plots from an eval run.
 
-Writes PNGs to ``wiki/experiments/plots/{plot_name}.png`` so the Quarto
-site can embed them via plain markdown image references.
+Writes PNGs and an HTML snippet to ``wiki/experiments/plots/`` so the
+Quarto report can embed them via plain markdown image references (plus
+one raw-HTML fence for the interactive scatter).
 
 Plots:
 
-1. ``per_question_scatter.png`` — agentic total-score vs RAG total-score
-   per question; bubble size = max wall time; color = category.
+1. ``per_question_scatter.png`` / ``.html`` — agentic total-score vs
+   RAG total-score per question; bubble size = max wall time; color =
+   category. The HTML version is an interactive Plotly scatter whose
+   hover tooltip carries the full question and both answers.
 2. ``category_bars.png`` — grouped bar chart of metric × category × mode.
-3. ``cost_quality.png`` — accuracy vs (tokens, wall time), both modes
-   overlaid.
-4. ``strategy_strip.png`` — side-by-side "what did each mode look at" for
-   one sample question: agentic tool-call gantt vs RAG top-k chunks bar.
+3. ``cost_quality.png`` — total judge score vs (tokens, wall time),
+   both modes overlaid.
 
 Usage:
 
@@ -43,6 +44,42 @@ _CATEGORY_COLORS = {
 }
 _MODE_COLORS = {"agentic": "#4C78A8", "rag": "#E45756"}
 
+# Shared styling knobs. Earlier versions of the plots used matplotlib
+# defaults (title ~10pt, ticks ~8pt) which rendered too small once the
+# page shrank the PNG to column width. Bump the hierarchy so the plots
+# read cleanly even at 1/2 page width.
+_TITLE_SIZE = 15
+_LABEL_SIZE = 12
+_TICK_SIZE = 11
+_LEGEND_SIZE = 11
+
+
+def _apply_style(fig, *, title_size: int = _TITLE_SIZE,
+                 label_size: int = _LABEL_SIZE,
+                 tick_size: int = _TICK_SIZE) -> None:
+    """Apply a consistent axis style across every axes in ``fig``.
+
+    Bumps the text size hierarchy and drops the top/right spines so the
+    plots read like a light-weight publication style rather than a
+    debug dump.
+    """
+    for ax in fig.axes:
+        if ax.get_title():
+            ax.title.set_size(title_size)
+            ax.title.set_weight("medium")
+        if ax.get_xlabel():
+            ax.xaxis.label.set_size(label_size)
+        if ax.get_ylabel():
+            ax.yaxis.label.set_size(label_size)
+        ax.tick_params(axis="both", labelsize=tick_size)
+        for side in ("top", "right"):
+            if side in ax.spines:
+                ax.spines[side].set_visible(False)
+    # Make suptitles a touch bigger than panel titles.
+    if fig._suptitle is not None:
+        fig._suptitle.set_size(title_size + 1)
+        fig._suptitle.set_weight("semibold")
+
 
 def _latest_run_dir() -> Path:
     dirs = sorted(p for p in _RESULTS_DIR.iterdir() if p.is_dir() and (p / "runs.jsonl").exists())
@@ -65,13 +102,20 @@ def _total_score(rec: dict) -> int | None:
 
 
 def plot_per_question_scatter(records: list[dict], out: Path) -> None:
+    """Static scatter — per-question agentic vs RAG totals.
+
+    The upper-right corner (easy lookup/definition questions) tends to
+    pile up at (15, 15) because both modes ace those. A literal label
+    there produces a ball of overlapping text. Instead we group every
+    question stacked at a single integer grid cell and replace its
+    per-dot labels with a single corner annotation like
+    ``L01 L02 L03 D05 D06 (5)``.
+    """
     by_id: dict[str, dict[str, dict]] = {}
     for r in records:
         by_id.setdefault(r["id"], {})[r["mode"]] = r
 
-    fig, ax = plt.subplots(figsize=(8.5, 7))
-    jitter_seed = 0
-
+    points: list[dict] = []
     for qid, modes in sorted(by_id.items()):
         ag = modes.get("agentic", {})
         rg = modes.get("rag", {})
@@ -80,40 +124,84 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
         if ag_total is None or rg_total is None:
             continue
         cat = (ag or rg).get("category", "unknown")
-        color = _CATEGORY_COLORS.get(cat, "#888")
         wall = max(ag.get("wall_time_s", 0) or 0, rg.get("wall_time_s", 0) or 0)
-        size = 40 + (wall * 6)
+        points.append({
+            "qid": qid, "cat": cat, "ag": ag_total, "rg": rg_total, "wall": wall,
+        })
 
-        # Nudge overlapping points apart with deterministic per-id jitter.
+    # Group labels by (rg, ag) grid cell so overlapping corner pileups
+    # get a single compact annotation instead of N overlapping ones.
+    by_cell: dict[tuple[int, int], list[str]] = defaultdict(list)
+    for p in points:
+        by_cell[(int(p["rg"]), int(p["ag"]))].append(p["qid"])
+
+    fig, ax = plt.subplots(figsize=(10, 8))
+
+    jitter_seed = 0
+    for p in points:
+        color = _CATEGORY_COLORS.get(p["cat"], "#888")
+        size = 60 + (p["wall"] * 6)
+        # Deterministic jitter so points at the same integer coords don't
+        # hide each other.
         jitter_seed += 1
-        jx = ((jitter_seed * 17) % 7 - 3) * 0.04
-        jy = ((jitter_seed * 23) % 7 - 3) * 0.04
-
+        jx = ((jitter_seed * 17) % 7 - 3) * 0.06
+        jy = ((jitter_seed * 23) % 7 - 3) * 0.06
         ax.scatter(
-            rg_total + jx, ag_total + jy,
-            s=size, c=color, alpha=0.75, edgecolors="white", linewidths=0.8,
+            p["rg"] + jx, p["ag"] + jy,
+            s=size, c=color, alpha=0.78, edgecolors="white", linewidths=1.0,
         )
-        ax.annotate(qid, (rg_total + jx, ag_total + jy),
-                    xytext=(5, 3), textcoords="offset points",
-                    fontsize=7, color="#333")
+
+    # Annotate each grid cell exactly once, avoiding text pileups. Near
+    # the right/top edge of the plot we push labels left/down so they
+    # don't run off; at large pileups we show a compact "n=K" badge
+    # rather than listing every ID (hover on the interactive version
+    # has the full detail).
+    for (rg, ag), qids in by_cell.items():
+        near_right = rg >= 14
+        near_top = ag >= 14
+        dx = -6 if near_right else 6
+        dy = -10 if near_top else 4
+        ha = "right" if near_right else "left"
+        va = "top" if near_top else "bottom"
+        if len(qids) == 1:
+            ax.annotate(qids[0], (rg, ag),
+                        xytext=(dx, dy), textcoords="offset points",
+                        fontsize=9, color="#333", ha=ha, va=va)
+        elif len(qids) <= 3:
+            label = ", ".join(qids)
+            ax.annotate(label, (rg, ag),
+                        xytext=(dx, dy), textcoords="offset points",
+                        fontsize=9, color="#333", ha=ha, va=va,
+                        bbox=dict(boxstyle="round,pad=0.2",
+                                  fc="#fff", ec="#ddd", alpha=0.85))
+        else:
+            # Compact pileup badge — avoids smearing 10 IDs across the corner.
+            ax.annotate(f"n={len(qids)}", (rg, ag),
+                        xytext=(dx, dy), textcoords="offset points",
+                        fontsize=10, color="#222", ha=ha, va=va, weight="semibold",
+                        bbox=dict(boxstyle="round,pad=0.25",
+                                  fc="#f5f5f7", ec="#bbb", alpha=0.95))
 
     lo, hi = 2, 16
-    ax.plot([lo, hi], [lo, hi], "--", color="#999", linewidth=1, zorder=0)
+    ax.plot([lo, hi], [lo, hi], "--", color="#999", linewidth=1.1, zorder=0)
     ax.set_xlim(lo, hi)
     ax.set_ylim(lo, hi)
-    ax.set_xlabel("RAG total score  (accuracy + completeness + citation)")
-    ax.set_ylabel("Agentic total score")
-    ax.set_title("Per-question scores: agentic vs RAG\n(bubble size ∝ wall time)")
+    ax.set_xlabel("RAG judge score (accuracy + completeness + citation)")
+    ax.set_ylabel("Agentic judge score")
+    ax.set_title("Per-question judge score, agentic vs RAG\n(bubble size ∝ max wall time)")
 
     legend_handles = [
         plt.Line2D([0], [0], marker="o", color="w", label=cat,
-                   markerfacecolor=c, markersize=8)
+                   markerfacecolor=c, markersize=10)
         for cat, c in _CATEGORY_COLORS.items()
     ]
-    ax.legend(handles=legend_handles, loc="lower right", frameon=False, title="category")
+    ax.legend(handles=legend_handles, loc="lower right", frameon=True,
+              framealpha=0.9, title="category", fontsize=_LEGEND_SIZE,
+              title_fontsize=_LEGEND_SIZE)
     ax.grid(True, alpha=0.2)
+    _apply_style(fig)
     fig.tight_layout()
-    fig.savefig(out, dpi=140)
+    fig.savefig(out, dpi=150)
     plt.close(fig)
 
 
@@ -240,17 +328,24 @@ def plot_per_question_scatter_interactive(records: list[dict], out: Path) -> Non
 
 
 def plot_category_bars(records: list[dict], out: Path) -> None:
+    """Grouped bar chart — mean judge score per (mode × category × metric).
+
+    Value labels sit *above* each bar, with left/right horizontal
+    alignment keyed to the mode so adjacent labels don't overlap when
+    both bars are near the ceiling.
+    """
     categories = ["lookup", "list", "synthesis", "definition"]
     metrics = [("accuracy", "Accuracy"), ("completeness", "Completeness"),
                ("citation_correctness", "Citation")]
     modes = ["agentic", "rag"]
+    ha_by_mode = {"agentic": "right", "rag": "left"}
 
     by_mode_cat: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for r in records:
         if r.get("mode") in modes and r.get("category") in categories:
             by_mode_cat[(r["mode"], r["category"])].append(r)
 
-    fig, axes = plt.subplots(1, 3, figsize=(13, 4.2), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
     width = 0.38
     x = list(range(len(categories)))
 
@@ -264,34 +359,48 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
                 vals.append(sum(scored) / len(scored) if scored else 0)
             offset = (j - 0.5) * width
             bars = ax.bar([xi + offset for xi in x], vals, width,
-                          label=mode, color=_MODE_COLORS[mode], alpha=0.85)
+                          label=mode.title(), color=_MODE_COLORS[mode],
+                          alpha=0.9, edgecolor="white", linewidth=0.8)
             for bar, v in zip(bars, vals):
                 if v > 0:
-                    ax.text(bar.get_x() + bar.get_width() / 2, v + 0.08,
-                            f"{v:.1f}", ha="center", fontsize=7, color="#333")
+                    # Lean the label left (agentic) or right (rag) so two
+                    # near-equal bars don't collide in the centre.
+                    label_x = bar.get_x() + (bar.get_width() * 0.85
+                                             if ha_by_mode[mode] == "right"
+                                             else bar.get_width() * 0.15)
+                    ax.text(label_x, v + 0.12, f"{v:.1f}",
+                            ha=ha_by_mode[mode], va="bottom",
+                            fontsize=_TICK_SIZE, color="#222")
 
         ax.set_xticks(x)
-        ax.set_xticklabels(categories, rotation=20)
+        ax.set_xticklabels(categories, rotation=0)
         ax.set_title(metric_label)
-        ax.set_ylim(0, 5.5)
-        ax.grid(True, alpha=0.2, axis="y")
+        ax.set_ylim(0, 5.6)
+        ax.grid(True, alpha=0.25, axis="y")
 
-    axes[0].set_ylabel("mean score (1–5)")
-    axes[0].legend(loc="upper right", frameon=False)
-    fig.suptitle("Per-category scores by mode", fontsize=12)
-    fig.tight_layout(rect=[0, 0, 1, 0.96])
-    fig.savefig(out, dpi=140)
+    axes[0].set_ylabel("Mean judge score (1–5)")
+    axes[0].legend(loc="upper right", frameon=False, fontsize=_LEGEND_SIZE)
+    fig.suptitle("Mean judge score by question category", y=0.98)
+    _apply_style(fig)
+    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.savefig(out, dpi=150)
     plt.close(fig)
 
 
 def plot_cost_quality(records: list[dict], out: Path) -> None:
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
+    """Total judge score as a function of input tokens (left) and wall
+    time (right). Both modes overlaid so the frontier is visible.
+    """
+    fig, axes = plt.subplots(1, 2, figsize=(14, 5.5), sharey=True)
 
-    for ax, (xkey, xlabel, xlog) in zip(
-        axes,
-        [("input_tokens", "Input tokens", True),
-         ("wall_time_s", "Wall time (s)", False)],
-    ):
+    panels = [
+        ("input_tokens", "Input tokens per query (log scale)", True,
+         "Input cost"),
+        ("wall_time_s", "Wall time per query (s)", False,
+         "Latency"),
+    ]
+
+    for ax, (xkey, xlabel, xlog, panel_title) in zip(axes, panels):
         for mode, color in _MODE_COLORS.items():
             xs, ys = [], []
             for r in records:
@@ -304,121 +413,22 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
                 xs.append(xv)
                 ys.append(total)
             if xs:
-                ax.scatter(xs, ys, c=color, alpha=0.65, s=50,
-                           edgecolors="white", linewidths=0.6, label=mode)
+                ax.scatter(xs, ys, c=color, alpha=0.7, s=70,
+                           edgecolors="white", linewidths=0.8,
+                           label=mode.title())
         ax.set_xlabel(xlabel)
-        ax.set_ylabel("Total score (3–15)")
+        ax.set_title(panel_title)
         if xlog:
             ax.set_xscale("log")
-        ax.grid(True, alpha=0.2)
-        ax.legend(loc="lower right", frameon=False)
+        ax.grid(True, alpha=0.25)
+        ax.legend(loc="lower right", frameon=True, framealpha=0.9,
+                  fontsize=_LEGEND_SIZE)
 
-    fig.suptitle("Cost vs quality", fontsize=12)
-    fig.tight_layout(rect=[0, 0, 1, 0.95])
-    fig.savefig(out, dpi=140)
-    plt.close(fig)
-
-
-def _pick_sample_question(records: list[dict]) -> str | None:
-    """Prefer a list question with both modes and a tool_timeline on the agentic record."""
-    by_id: dict[str, dict[str, dict]] = {}
-    for r in records:
-        by_id.setdefault(r["id"], {})[r["mode"]] = r
-
-    def has_data(rec: dict) -> bool:
-        return bool(rec.get("tool_timeline") or rec.get("retrieval"))
-
-    candidates = [
-        qid for qid, modes in by_id.items()
-        if "agentic" in modes and "rag" in modes
-        and has_data(modes["agentic"]) and has_data(modes["rag"])
-    ]
-    if not candidates:
-        return None
-    # Prefer list / synthesis (more interesting traversals)
-    def prio(qid: str) -> tuple[int, str]:
-        cat = by_id[qid]["agentic"].get("category", "")
-        order = {"list": 0, "synthesis": 1, "lookup": 2, "definition": 3}
-        return (order.get(cat, 9), qid)
-    return sorted(candidates, key=prio)[0]
-
-
-def plot_strategy_strip(records: list[dict], out: Path) -> None:
-    qid = _pick_sample_question(records)
-    fig, axes = plt.subplots(2, 1, figsize=(12, 6.8),
-                             gridspec_kw={"height_ratios": [1, 1]})
-    if qid is None:
-        for ax in axes:
-            ax.text(0.5, 0.5,
-                    "No run has both a tool_timeline (agentic) and retrieval (rag).\n"
-                    "Re-run the eval after enabling the capture to populate this chart.",
-                    ha="center", va="center", fontsize=11, color="#666")
-            ax.axis("off")
-        fig.tight_layout()
-        fig.savefig(out, dpi=140)
-        plt.close(fig)
-        return
-
-    by_id: dict[str, dict[str, dict]] = {}
-    for r in records:
-        by_id.setdefault(r["id"], {})[r["mode"]] = r
-    ag = by_id[qid]["agentic"]
-    rg = by_id[qid]["rag"]
-    question = (ag.get("question") or rg.get("question") or "").strip().splitlines()[0][:110]
-
-    def _short_detail(args: dict) -> str:
-        val = args.get("path") or args.get("folder") or args.get("entity") or args.get("heading") or ""
-        if val.startswith("papers/"):
-            val = val[len("papers/"):]
-        if val.endswith(".md"):
-            val = val[:-3]
-        return val
-
-    # --- Top: agentic tool gantt ---
-    ax = axes[0]
-    timeline = ag.get("tool_timeline") or []
-    y_labels = []
-    for i, ev in enumerate(timeline):
-        t0 = float(ev.get("t_start", 0) or 0)
-        t1 = float(ev.get("t_end", 0) or 0)
-        if t1 <= t0:
-            t1 = t0 + 0.08  # zero-width → sliver for visibility
-        name = ev.get("name", "?")
-        detail = _short_detail(ev.get("args") or {})
-        ax.barh(i, t1 - t0, left=t0, height=0.65,
-                color=_MODE_COLORS["agentic"], alpha=0.85, edgecolor="white")
-        y_labels.append(f"{name}({detail})" if detail else name)
-
-    ax.set_yticks(list(range(len(timeline))))
-    ax.set_yticklabels(y_labels, fontsize=8)
-    ax.invert_yaxis()
-    ax.set_xlabel("seconds since turn start")
-    if timeline:
-        ax.set_xlim(left=0)
-    wall = ag.get("wall_time_s") or 0
-    ax.set_title(f"Agentic — {qid} ({len(timeline)} tool calls, {wall:.1f}s total)")
-    ax.grid(True, alpha=0.2, axis="x")
-
-    # --- Bottom: RAG top-k bar ---
-    ax = axes[1]
-    retrieval = (rg.get("retrieval") or [])[:15]
-    scores = [float(r.get("score", 0)) for r in retrieval]
-    labels = [f"PMID:{r.get('pmid', '?')}  (chunk {r.get('chunk_id', '?')})"
-              for r in retrieval]
-    y_pos = list(range(len(retrieval)))
-    ax.barh(y_pos, scores, color=_MODE_COLORS["rag"], alpha=0.85, edgecolor="white")
-    ax.set_yticks(y_pos)
-    ax.set_yticklabels(labels, fontsize=8)
-    ax.invert_yaxis()
-    ax.set_xlabel("cosine similarity")
-    if scores:
-        ax.set_xlim(0, max(scores) * 1.05)
-    ax.set_title(f"RAG — {qid} (top {len(retrieval)} chunks)")
-    ax.grid(True, alpha=0.2, axis="x")
-
-    fig.suptitle(f"Strategy side-by-side — “{question}”", fontsize=11)
-    fig.tight_layout(rect=[0, 0, 1, 0.95])
-    fig.savefig(out, dpi=140)
+    axes[0].set_ylabel("Total judge score (3–15)")
+    fig.suptitle("Cost vs quality: what does each mode buy you?", y=0.99)
+    _apply_style(fig)
+    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.savefig(out, dpi=150)
     plt.close(fig)
 
 
@@ -431,7 +441,6 @@ def render_all(run_dir: Path, out_dir: Path) -> list[Path]:
         ("per_question_scatter", plot_per_question_scatter_interactive, "html"),
         ("category_bars", plot_category_bars, "png"),
         ("cost_quality", plot_cost_quality, "png"),
-        ("strategy_strip", plot_strategy_strip, "png"),
     ]
     for name, fn, ext in targets:
         path = out_dir / f"{name}.{ext}"

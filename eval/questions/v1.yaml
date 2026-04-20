@@ -1,0 +1,567 @@
+# cbio-kb RAG-vs-agentic evaluation question set v1
+#
+# 50 questions × 4 categories × 3 splits (train=30, val=10, test=10).
+# Each question is grounded in at least one of the 56 corpus PMIDs
+# (see eval/corpus_pmids.txt). `gold_pmids` is the minimal set a correct
+# answer should cite; for `list` questions it is the comprehensive
+# expected set (retrieval recall computed against it).
+#
+# Categories:
+#   lookup     — single specific fact, 1–2 papers
+#   list       — enumerate papers or entities matching criteria
+#   synthesis  — cross-paper reasoning, contradictions, or theme-level claims
+#   definition — explain a method, gene, dataset, or concept
+#
+# Splits:
+#   train — tune prompts, chunk size, k
+#   val   — select final config
+#   test  — report numbers only (do not peek during dev)
+
+version: 1
+authored_on: 2026-04-16
+corpus: eval/corpus_pmids.txt
+
+questions:
+
+  # ======================================================================
+  # LOOKUP (15)
+  # ======================================================================
+
+  - id: L01
+    category: lookup
+    split: train
+    question: >
+      In the MSK-CHORD study, what percentage of lung adenocarcinoma
+      patients harbored SETD2 driver mutations?
+    gold_pmids: [39506116]
+    gold_entities: [SETD2, LUAD]
+    notes: Answer ~3% (204 of 5,957 LUAD patients).
+
+  - id: L02
+    category: lookup
+    split: train
+    question: >
+      In the radiation-associated sarcoma cohort, which driver alteration
+      dominates RT-angiosarcoma of the breast/chest wall, and at what
+      frequency?
+    gold_pmids: [37350195]
+    gold_entities: [MYC, ANGS]
+    notes: MYC amplification, 87% of 38 breast cases (75% of all 40 RT-AS).
+
+  - id: L03
+    category: lookup
+    split: train
+    question: >
+      In the ADC radiosensitization study, what tumor doubling-time
+      increase was observed in HER2-positive OE19 xenografts receiving
+      T-DM1 combined with 2.5 Gy x 3 radiation?
+    gold_pmids: [27698471]
+    gold_entities: [ERBB2, trastuzumab, ado-trastuzumab-emtansine]
+    notes: Doubling time increased from 7 to 66 days.
+
+  - id: L04
+    category: lookup
+    split: train
+    question: >
+      In the ROBIN consortium preclinical data, which dietary intervention
+      unexpectedly promoted radio-resistance?
+    gold_pmids: [41941260]
+    gold_entities: []
+    notes: Ketogenic diet.
+
+  - id: L05
+    category: lookup
+    split: train
+    question: >
+      What four CT radiomic features make up the Aerts prognostic
+      signature trained on NSCLC Lung1/MAASTRO?
+    gold_pmids: [24892406]
+    gold_entities: [radiomic-signature-4-feature]
+    notes: Statistics Energy, Shape Compactness, Grey Level Nonuniformity, wavelet Grey Level Nonuniformity HLH.
+
+  - id: L06
+    category: lookup
+    split: train
+    question: >
+      In the phase 2 MIRT + nivolumab trial for recurrent HNSCC, what was
+      the 1-year progression-free survival rate?
+    gold_pmids: [38780927]
+    gold_entities: [nivolumab, HNSC, imrt-reirradiation]
+    notes: 61.7%, vs historical 43.8% (log-rank P=0.002).
+
+  - id: L07
+    category: lookup
+    split: train
+    question: >
+      What targeted therapy is the subject of the FGFR3-altered urothelial
+      carcinoma real-world outcomes study?
+    gold_pmids: [37682528]
+    gold_entities: [erdafitinib, FGFR3, BLCA, UTUC]
+    notes: Erdafitinib.
+
+  - id: L08
+    category: lookup
+    split: train
+    question: >
+      In the peripheral T-cell lymphoma CHOP-based chemotherapy cohort,
+      which mutation identified high-risk events?
+    gold_pmids: [37078708]
+    gold_entities: [TP53, PTCL]
+    notes: TP53.
+
+  - id: L09
+    category: lookup
+    split: train
+    question: >
+      In the appendiceal adenocarcinoma molecular classification, which
+      two RAS-pathway genes co-drive the mucinous subtype?
+    gold_pmids: [36493333]
+    gold_entities: [KRAS, GNAS, APAD]
+    notes: KRAS and GNAS.
+
+  - id: L10
+    category: lookup
+    split: val
+    question: >
+      What concordance index did the Aerts four-feature CT radiomic
+      signature achieve on the HNSCC H&N1 MAASTRO validation cohort?
+    gold_pmids: [24892406]
+    gold_entities: [radiomic-signature-4-feature, HNSC]
+    notes: C-index 0.69 (P=7.99e-7).
+
+  - id: L11
+    category: lookup
+    split: val
+    question: >
+      How many patients were included in the MSK-CHORD harmonized
+      clinicogenomic dataset?
+    gold_pmids: [39506116]
+    gold_entities: []
+    notes: 24,950 patients.
+
+  - id: L12
+    category: lookup
+    split: val
+    question: >
+      In the GLASS consortium study of IDH-mutant gliomas, what fraction
+      of GCIMP-high tumors progressed to GCIMP-low in the treated group
+      versus the untreated group?
+    gold_pmids: [38117484]
+    gold_entities: [IDH1, DIFG]
+    notes: 34% treated vs 4% untreated; 10/29 vs 1/27; Fisher P=0.005.
+
+  - id: L13
+    category: lookup
+    split: test
+    question: >
+      In the NSCLC brain metastasis study, which osimertinib-treated
+      EGFR-mutant population was examined for CNS penetrance?
+    gold_pmids: [37591896]
+    gold_entities: [EGFR, osimertinib, LUAD]
+    notes: bm_nsclc_mskcc_2023 cohort.
+
+  - id: L14
+    category: lookup
+    split: test
+    question: >
+      In the extremity rhabdomyosarcoma study, which fusion gene pair
+      defines the alveolar (ARMS) subtype?
+    gold_pmids: [37315267]
+    gold_entities: [PAX3, PAX7, FOXO1, ARMS]
+    notes: PAX3-FOXO1 or PAX7-FOXO1.
+
+  - id: L15
+    category: lookup
+    split: test
+    question: >
+      In the pleural mesothelioma near-haploidization study, what
+      chromosomal signature defined the newly recognized subset?
+    gold_pmids: [38630790]
+    gold_entities: [PLMESO, BAP1, NF2]
+    notes: Genomic near-haploidization (chromosome-scale LOH with one-copy loss).
+
+  # ======================================================================
+  # LIST (10)
+  # ======================================================================
+
+  - id: LS01
+    category: list
+    split: train
+    question: >
+      Which corpus papers profile patients using an MSK-IMPACT targeted
+      panel (any version, including IMPACT341/410/468/505 or the generic
+      msk-impact-panel)?
+    gold_pmids:
+      - 35764743
+      - 36357680
+      - 36493333
+      - 36862133
+      - 37078708
+      - 37084736
+      - 37315267
+      - 37350195
+      - 37477937
+      - 37591896
+      - 37643132
+      - 37651310
+      - 37682528
+      - 37699004
+      - 37730754
+      - 37769223
+      - 37910594
+      - 38147626
+      - 38488807
+      - 38497151
+      - 38630790
+      - 38653864
+      - 38758238
+      - 38864854
+      - 38922339
+      - 38949888
+      - 38995739
+      - 39214094
+      - 39289779
+      - 39506116
+    gold_entities: [msk-impact-panel, IMPACT341, IMPACT410, IMPACT468, IMPACT505, msk-hemepact, msk-access]
+
+  - id: LS02
+    category: list
+    split: train
+    question: >
+      Which corpus papers focus on head and neck squamous cell carcinoma
+      (HNSC)?
+    gold_pmids: [24892406, 27698471, 30179230, 37397861, 38362943, 38780927, 41941260]
+    gold_entities: [HNSC]
+
+  - id: LS03
+    category: list
+    split: train
+    question: >
+      List all corpus papers that analyze circulating tumor DNA (ctDNA)
+      as a primary modality.
+    gold_pmids: [36357680, 37769223, 39147831, 39289779]
+    gold_entities: [ctdna-dynamics, ACCESS129, ctdx-lung]
+
+  - id: LS04
+    category: list
+    split: train
+    question: >
+      Which corpus papers describe publicly released TCIA imaging
+      datasets?
+    gold_pmids: [24892406, 28872634, 30179230, 30325352, 38362943]
+    gold_entities: []
+
+  - id: LS05
+    category: list
+    split: train
+    question: >
+      Which corpus papers analyze KRAS mutations as a driver or biomarker
+      focus (not just incidental mention)?
+    gold_pmids: [36357680, 36493333, 37084736, 37591896, 37643132, 37699004, 38864854, 38922339, 39147831, 39214094, 39506116]
+    gold_entities: [KRAS]
+
+  - id: LS06
+    category: list
+    split: train
+    question: >
+      Which corpus papers evaluate PD-1 or PD-L1 immune checkpoint
+      blockade in patients?
+    gold_pmids: [36862133, 37406106, 37643132, 37651310, 38630790, 38653864, 38758238, 38780927, 38949888, 38995739, 41941260]
+    gold_entities: [nivolumab, pembrolizumab, dostarlimab, PDCD1, CD274]
+
+  - id: LS07
+    category: list
+    split: val
+    question: >
+      Which corpus papers use whole-genome sequencing as part of their
+      methodology?
+    gold_pmids: [25730765, 35927489, 36723991, 37202560, 37730754, 38117484, 38412093, 38488813]
+    gold_entities: [whole-genome-seq]
+
+  - id: LS08
+    category: list
+    split: val
+    question: >
+      Which corpus papers cover rhabdomyosarcoma (RMS)?
+    gold_pmids: [37315267, 37730754]
+    gold_entities: [RMS, ARMS, ERMS]
+
+  - id: LS09
+    category: list
+    split: test
+    question: >
+      Which corpus papers investigate BRAF alterations or BRAF fusions?
+    gold_pmids: [38412093, 38895302, 38922339, 39214094]
+    gold_entities: [BRAF]
+    notes: Primary focus in 38922339 (BRAF fusions tumor-agnostic); significant secondary focus in the others.
+
+  - id: LS10
+    category: list
+    split: test
+    question: >
+      Which corpus papers study prostate cancer (PRAD or PRNE)?
+    gold_pmids: [28045614, 38488813, 38949888, 39147831, 39506116, 41941260]
+    gold_entities: [PRAD, PRNE]
+
+  # ======================================================================
+  # SYNTHESIS (15)
+  # ======================================================================
+
+  - id: S01
+    category: synthesis
+    split: train
+    question: >
+      Where in the corpus do papers disagree about whether a CT radiomic
+      signature generalizes across institutions for head-and-neck cancer
+      prognosis? Summarize both sides.
+    gold_pmids: [24892406, 37397861]
+    gold_entities: [radiomic-signature-4-feature, HNSC]
+    notes: Aerts positive cross-cohort (H&N1/H&N2); Kazmierski/RADCURE mostly negative, deep radiomics underperformed EMR+volume.
+
+  - id: S02
+    category: synthesis
+    split: train
+    question: >
+      How do the corpus papers characterize the long-term molecular
+      sequelae of radiotherapy on previously-irradiated tissue?
+    gold_pmids: [37350195, 38117484]
+    gold_entities: [MYC, IDH1, CDKN2A]
+    notes: RT-associated sarcomas have histotype-specific drivers (MYC-amp breast RT-AS); IDH-mut gliomas show hypomethylation, GCIMP-high→low, CDKN2A loss at recurrence.
+
+  - id: S03
+    category: synthesis
+    split: train
+    question: >
+      Across the corpus trials of PD-1 or PD-L1 blockade, what biomarkers
+      of response appear, and do they agree across disease sites?
+    gold_pmids: [37406106, 38653864, 38780927, 38949888, 38995739]
+    gold_entities: [CD274, PDCD1, MSH2, MSH6, MLH1]
+    notes: MSI/dMMR positive in gyn cancers and prostate; PD-L1 CPS divergent in HNSC reirradiation (P=0.86) vs recurrent/metastatic; TMB inconsistent signal.
+
+  - id: S04
+    category: synthesis
+    split: train
+    question: >
+      What evidence across the corpus links DNA-damage-response biology
+      to aggressive or treatment-refractory phenotypes in multiple tumor
+      types?
+    gold_pmids: [34493726, 37350195, 38488813, 39386723]
+    gold_entities: [BRCA1, BRCA2, ATM, MYCN]
+    notes: NBL nC3 DDR/cell-cycle enrichment; NEPC PDX DDR clustering; RT-sarcoma DNA repair signatures; HGSOC precursor IRDS/cGAS-STING axis.
+
+  - id: S05
+    category: synthesis
+    split: train
+    question: >
+      Across the ctDNA papers in the corpus, what common utilities emerge,
+      and where do the approaches differ in clinical question?
+    gold_pmids: [36357680, 37769223, 39147831, 39289779]
+    gold_entities: [ctdna-dynamics]
+    notes: Therapy-guidance (NSCLC), liquid biopsy profiling (HCC), thromboembolism prediction (VTE), CNS tumor CSF dynamics.
+
+  - id: S06
+    category: synthesis
+    split: train
+    question: >
+      Across the lymphoma papers in the corpus (CLL, Hodgkin, DLBCL,
+      PTCL, PCNSL), what common themes emerge about how genomic
+      subclassification informs clinical stratification?
+    gold_pmids: [35927489, 36723991, 37078708, 38497151, 38995739]
+    gold_entities: [TP53, MYD88, CD79B, BCL2]
+    notes: LymphGen / genomic subtypes refine risk; TP53/MYD88/CD79B as cross-disease risk markers.
+
+  - id: S07
+    category: synthesis
+    split: train
+    question: >
+      What does the corpus say about the role of tumor volume as a
+      baseline against which imaging-derived models must prove
+      incremental prognostic value?
+    gold_pmids: [24892406, 35764743, 37397861]
+    gold_entities: [radiomics, HNSC, HGSOC]
+    notes: Volume is hard to beat; radiomics typically adds value only in combination; deep CNN embeddings dropped AUROC vs volume.
+
+  - id: S08
+    category: synthesis
+    split: train
+    question: >
+      How do the two rhabdomyosarcoma papers in the corpus differ in
+      their genomic findings and clinical framing?
+    gold_pmids: [37315267, 37730754]
+    gold_entities: [PAX3, PAX7, FOXO1, RMS]
+    notes: 37315267 is extremity-focused risk stratification; 37730754 is longitudinal multi-sample evolution.
+
+  - id: S09
+    category: synthesis
+    split: train
+    question: >
+      Across the corpus, what evidence links environmental radiation or
+      UV exposure to acquired somatic alterations or epigenetic drift?
+    gold_pmids: [37350195, 38117484, 38895302, 39091884]
+    gold_entities: [TP53, NF1, CDKN2A]
+    notes: RT-sarcoma; treated IDH glioma hypomethylation; tanning UV mutagenesis; cSCC keratinocyte evolution.
+
+  - id: S10
+    category: synthesis
+    split: val
+    question: >
+      How does the corpus characterize molecular disparities by race or
+      ancestry in cancer genomics?
+    gold_pmids: [37651310]
+    gold_entities: [UCEC, TP53, CCNE1, PTEN]
+    notes: Endometrial carcinoma disparities (Black vs White) — TP53/CCNE1 over-represented, actionable therapeutic implications.
+
+  - id: S11
+    category: synthesis
+    split: val
+    question: >
+      What limitations of PD-L1 (CD274) combined positive score as a
+      predictive biomarker emerge across the corpus?
+    gold_pmids: [37406106, 38780927]
+    gold_entities: [CD274, PDCD1]
+    notes: MIRT+nivolumab no stratification (P=0.86 PFS); combined HER2+PD-1 EGC suggests variable prediction by context.
+
+  - id: S12
+    category: synthesis
+    split: val
+    question: >
+      What role does clonal hematopoiesis play in interpreting ctDNA or
+      cfDNA findings according to the corpus?
+    gold_pmids: [38147626]
+    gold_entities: [DNMT3A, TET2, JAK2, TP53, msk_ch_2023]
+    notes: CH-related alterations (DNMT3A, TET2, JAK2, ASXL1, TP53) are a false-positive source in ctDNA; high-risk genotypes identified in non-heme cancer patients.
+
+  - id: S13
+    category: synthesis
+    split: test
+    question: >
+      How does the corpus address the use of real-world data and NLP
+      to augment structured genomic data for outcome prediction?
+    gold_pmids: [39506116]
+    gold_entities: [nlp-prissmm, msk_chord_2024]
+    notes: MSK-CHORD integrates NLP-derived features with structured data; improves OS prediction over stage/genomics alone.
+
+  - id: S14
+    category: synthesis
+    split: test
+    question: >
+      Beyond breast and ovarian cancer, where does the corpus document
+      BRCA1/BRCA2 alterations or HR-pathway involvement?
+    gold_pmids: [34493726, 37769223, 38412093, 38488813, 38949888, 39386723]
+    gold_entities: [BRCA1, BRCA2]
+    notes: High-risk NBL nC3 cluster; HCC ctDNA; anaplastic thyroid; prostate PDX; prostate MSI+HR deficiency; HGSOC precursor.
+
+  - id: S15
+    category: synthesis
+    split: test
+    question: >
+      Across the corpus, what consistent findings emerge about DDR or
+      BRCA1/BRCA2 expression and outcomes in aggressive pediatric or
+      young-adult cancers?
+    gold_pmids: [34493726, 37315267, 37730754]
+    gold_entities: [BRCA1, BRCA2, MYCN, NBL, RMS]
+    notes: nC3 high-risk NBL cluster over-expresses BRCA1/BRCA2/MYCN; pediatric sarcoma genomic evolution context.
+
+  # ======================================================================
+  # DEFINITION (10)
+  # ======================================================================
+
+  - id: D01
+    category: definition
+    split: train
+    question: >
+      What is the MSK-IMPACT panel, and what are its main panel versions
+      referenced in the corpus?
+    gold_pmids: [37591896, 37078708, 38922339]
+    gold_entities: [msk-impact-panel, IMPACT341, IMPACT410, IMPACT468, IMPACT505]
+    notes: Targeted hybridization-capture NGS assay; versions 341/410/468/505 (gene count).
+
+  - id: D02
+    category: definition
+    split: train
+    question: >
+      Describe each of the four features in the Aerts CT radiomic
+      signature and what aspect of tumor phenotype they capture.
+    gold_pmids: [24892406]
+    gold_entities: [radiomic-signature-4-feature]
+    notes: Statistics Energy (intensity), Shape Compactness (shape), two GLN (heterogeneity).
+
+  - id: D03
+    category: definition
+    split: train
+    question: >
+      What is the PRISSMM NLP curation framework and how is it used in
+      the MSK-CHORD study?
+    gold_pmids: [39506116]
+    gold_entities: [nlp-prissmm]
+    notes: NLP annotation of pathology/radiology/clinician notes; labeled ground truth from Project GENIE BPC.
+
+  - id: D04
+    category: definition
+    split: train
+    question: >
+      What is the LymphGen classification system, and how was it
+      validated in the corpus?
+    gold_pmids: [38497151]
+    gold_entities: [lymphgen, DLBCLNOS]
+    notes: Genetic subtype classifier for DLBCL (MCD, BN2, N1, EZB, ST2); validated on MSK 400-gene clinical NGS panel.
+
+  - id: D05
+    category: definition
+    split: train
+    question: >
+      What is the ROBIN consortium, what projects does it run, and which
+      diseases does it cover?
+    gold_pmids: [41941260]
+    gold_entities: []
+    notes: U54 consortium of 5 Molecular Characterization Trials — OligoMET (PRAD), ImmunoRad (READ), GenRad (BLCA+HNSC), METEOR (CESC+PAAD), KIDSROBIN (DMG+NBL).
+
+  - id: D06
+    category: definition
+    split: train
+    question: >
+      How is homologous-recombination deficiency (HRD) characterized in
+      the HGSOC multimodal risk-stratification paper?
+    gold_pmids: [35764743]
+    gold_entities: [BRCA1, BRCA2, HGSOC, sigma-mutational-signatures]
+    notes: HRD status via BRCA1/2 + genomic scar signatures; part of late-fusion Cox model.
+
+  - id: D07
+    category: definition
+    split: val
+    question: >
+      What is the GLASS consortium and what does its IDH-mutant glioma
+      methylation analysis contribute to the corpus?
+    gold_pmids: [38117484]
+    gold_entities: [IDH1, DIFG]
+    notes: Longitudinal matched primary-recurrent glioma; characterizes methylation drift post-treatment.
+
+  - id: D08
+    category: definition
+    split: val
+    question: >
+      What is the Hidden-Genome Classifier introduced in the
+      cholangiocarcinoma paper?
+    gold_pmids: [38864854]
+    gold_entities: [IHCH, EHCH, HCC]
+    notes: A classifier for quantifying intrahepatic cholangiocarcinoma heterogeneity using genomic features.
+
+  - id: D09
+    category: definition
+    split: test
+    question: >
+      What defines a radiation-associated sarcoma clinically, and which
+      histotypes does the corpus examine?
+    gold_pmids: [37350195]
+    gold_entities: [ANGS, MPNST, MFH, OS]
+    notes: "Histotypes: RT-AS, RT-MPNST, RT-UPS/MFH, RT-OS. Latency varies 8-18.5 years."
+
+  - id: D10
+    category: definition
+    split: test
+    question: >
+      What is the RADCURE dataset, how large is it, and what makes it
+      distinctive compared with earlier public HNSCC imaging resources?
+    gold_pmids: [38362943, 37397861]
+    gold_entities: [radcure, HNSC]
+    notes: 3,346 HNSCC planning CTs with standardized RTSTRUCT nomenclature, 5-year median follow-up; largest public HNSCC RT resource.

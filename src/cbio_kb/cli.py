@@ -61,6 +61,20 @@ def _cmd_index_search(args: argparse.Namespace) -> int:
     return semsearch.main(argv)
 
 
+def _cmd_index_build_papers(args: argparse.Namespace) -> int:
+    from cbio_kb.index import papers
+
+    return papers.main([
+        "build",
+        "--papers-dir", args.papers_dir,
+        "--pmid-list", args.pmid_list,
+        "--index-dir", args.index_dir,
+        "--chunk-chars", str(args.chunk_chars),
+        "--overlap", str(args.overlap),
+        "--batch-size", str(args.batch_size),
+    ])
+
+
 def _cmd_ontology_sync(args: argparse.Namespace) -> int:
     from cbio_kb.ontology import sync
 
@@ -283,6 +297,17 @@ def build_parser() -> argparse.ArgumentParser:
     idx_s.add_argument("--top-k", type=int, default=5)
     idx_s.add_argument("--rerank", action="store_true")
     idx_s.set_defaults(func=_cmd_index_search)
+    idx_bp = idx_sub.add_parser(
+        "build-papers",
+        help="Index raw paper markdowns for the RAG-vs-agentic experiment",
+    )
+    idx_bp.add_argument("--papers-dir", default="data/raw/papers")
+    idx_bp.add_argument("--pmid-list", default="eval/corpus_pmids.txt")
+    idx_bp.add_argument("--index-dir", default="data/paper_index")
+    idx_bp.add_argument("--chunk-chars", type=int, default=900)
+    idx_bp.add_argument("--overlap", type=int, default=120)
+    idx_bp.add_argument("--batch-size", type=int, default=100)
+    idx_bp.set_defaults(func=_cmd_index_build_papers)
 
     ont = sub.add_parser("ontology", help="Canonical ontology management")
     ont_sub = ont.add_subparsers(dest="subcmd", required=True)

@@ -4,6 +4,7 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import time
 import uuid
 from pathlib import Path
 
@@ -15,16 +16,19 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic_ai import Agent
+from pydantic_ai.exceptions import UsageLimitExceeded
 from pydantic_ai.messages import (
     PartDeltaEvent,
     PartStartEvent,
     TextPart,
     TextPartDelta,
 )
+from pydantic_ai.usage import UsageLimits
 from sse_starlette.sse import EventSourceResponse
 
 from .agent import SYSTEM_PROMPT, Deps, ToolEvent, agent
 from .memory import KEEP_RECENT_TURNS
+from .rag import rag_event_generator
 from .sessions import get_store
 
 # Force tool registration
@@ -51,12 +55,33 @@ app.add_middleware(
 # Session store — in-memory by default, Firestore when SESSION_STORE=firestore
 _session_store = get_store()
 
+# Hard cap on the number of tool calls the agent can make within a single turn.
+# Prevents a confused model from burning context and wall time on a runaway
+# traversal. Raised to ``tool_limit_reached`` in the done payload when hit.
+MAX_TOOL_CALLS = int(os.environ.get("CBIO_MAX_TOOL_CALLS", "20"))
+
 
 @app.post("/api/chat")
 async def chat(request: Request):
     body = await request.json()
     user_message = body["message"]
     session_id = body.get("session_id") or str(uuid.uuid4())
+    mode = body.get("mode", "agentic")  # "agentic" | "rag"
+
+    if mode == "rag":
+        max_context_chars = body.get("max_context_chars", 60_000)
+        top_k = body.get("top_k", 40)
+
+        async def rag_gen():
+            async for event_type, data in rag_event_generator(
+                user_message, session_id,
+                max_context_chars=max_context_chars,
+                top_k=top_k,
+            ):
+                yield {"event": event_type, "data": data}
+
+        return EventSourceResponse(rag_gen())
+
     history = await _session_store.get(session_id) or []
 
     # Count previous user turns to derive this turn's index. The frontend
@@ -70,9 +95,11 @@ async def chat(request: Request):
         tool_queue: asyncio.Queue[ToolEvent | None] = asyncio.Queue()
         sse_queue: asyncio.Queue[tuple[str, str]] = asyncio.Queue()
 
-        deps = Deps(tool_queue=tool_queue)
+        deps = Deps(tool_queue=tool_queue, turn_start_monotonic=time.monotonic())
 
         async def run_agent():
+            usage_payload: dict = {}
+            run = None
             try:
                 # On the first turn of a session, emit the system prompt as
                 # a context block. It stays in the context forever (re-sent
@@ -115,6 +142,7 @@ async def chat(request: Request):
                     user_message,
                     deps=deps,
                     message_history=history or None,
+                    usage_limits=UsageLimits(tool_calls_limit=MAX_TOOL_CALLS),
                 ) as run:
                     async for node in run:
                         if Agent.is_model_request_node(node):
@@ -134,16 +162,48 @@ async def chat(request: Request):
                                             "text",
                                             json.dumps({"delta": delta}),
                                         ))
-                # Save updated history
+                # Save updated history and collect usage
                 if run.result is not None:
                     await _session_store.put(
                         session_id, run.result.all_messages()
                     )
+                    try:
+                        usage = run.result.usage()
+                        if usage is not None:
+                            if usage.input_tokens is not None:
+                                usage_payload["input_tokens"] = usage.input_tokens
+                            if usage.output_tokens is not None:
+                                usage_payload["output_tokens"] = usage.output_tokens
+                            if usage.requests is not None:
+                                usage_payload["llm_calls"] = usage.requests
+                    except Exception:
+                        pass
+            except UsageLimitExceeded:
+                usage_payload["tool_limit_reached"] = True
+                if run is not None and run.result is not None:
+                    try:
+                        usage = run.result.usage()
+                        if usage is not None:
+                            if usage.input_tokens is not None:
+                                usage_payload["input_tokens"] = usage.input_tokens
+                            if usage.output_tokens is not None:
+                                usage_payload["output_tokens"] = usage.output_tokens
+                            if usage.requests is not None:
+                                usage_payload["llm_calls"] = usage.requests
+                    except Exception:
+                        pass
+                await sse_queue.put((
+                    "tool_limit_reached",
+                    json.dumps({"limit": MAX_TOOL_CALLS}),
+                ))
             except Exception as e:
                 await sse_queue.put(("error", json.dumps({"error": str(e)})))
             finally:
                 await tool_queue.put(None)
-                await sse_queue.put(("done", json.dumps({"session_id": session_id})))
+                await sse_queue.put((
+                    "done",
+                    json.dumps({"session_id": session_id, **usage_payload}),
+                ))
 
         async def drain_tools():
             while True:
@@ -161,6 +221,8 @@ async def chat(request: Request):
                         "tokens": event.result_tokens,
                         "turn_index": turn_index,
                         "result_paths": event.result_paths,
+                        "t_start": event.t_start,
+                        "t_end": event.t_end,
                     }),
                 ))
 

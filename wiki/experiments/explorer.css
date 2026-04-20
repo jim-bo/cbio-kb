@@ -1,0 +1,197 @@
+/* Traversal explorer — side-by-side graph panels with their own scope.
+   CSS is intentionally parallel to ask-graph.css (same visual vocabulary)
+   but lives under .explorer-container so /ask is unaffected. */
+
+.explorer-shell {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px 0 24px;
+}
+
+.explorer-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: #f7f8fa;
+    border: 1px solid #e3e6eb;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.explorer-controls label { color: #444; font-weight: 500; }
+.explorer-controls select {
+    padding: 4px 8px;
+    font-size: 13px;
+    border: 1px solid #c5cbd3;
+    border-radius: 4px;
+    background: white;
+    min-width: 320px;
+    max-width: 640px;
+}
+.explorer-controls .explorer-meta {
+    color: #666;
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.explorer-question-card {
+    padding: 10px 14px;
+    background: #fbfbfc;
+    border-left: 3px solid #4c78a8;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.45;
+}
+.explorer-question-card .explorer-q-id {
+    font-weight: 600;
+    color: #4c78a8;
+    margin-right: 6px;
+}
+.explorer-question-card .explorer-q-category {
+    display: inline-block;
+    padding: 1px 8px;
+    background: #eef1f5;
+    color: #555;
+    border-radius: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-left: 4px;
+}
+.explorer-question-card .explorer-q-gold {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #666;
+}
+.explorer-question-card .explorer-q-gold code {
+    background: #eef1f5;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+.explorer-panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+@media (max-width: 960px) {
+    .explorer-panels { grid-template-columns: 1fr; }
+}
+
+.explorer-panel {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfe3e8;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+}
+.explorer-panel-header {
+    padding: 8px 12px;
+    border-bottom: 1px solid #dfe3e8;
+    background: #f7f8fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+}
+.explorer-panel-header h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.explorer-panel-header .explorer-panel-score {
+    font-size: 12px;
+    color: #555;
+    font-family: ui-monospace, SFMono-Regular, monospace;
+}
+
+.explorer-graph {
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+.explorer-graph .empty-state {
+    color: #888;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 13px;
+}
+
+.explorer-panel-answer {
+    border-top: 1px solid #eee;
+    padding: 10px 14px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    max-height: 180px;
+    overflow-y: auto;
+    background: #fcfcfd;
+}
+.explorer-panel-answer p:first-child { margin-top: 0; }
+.explorer-panel-answer p:last-child { margin-bottom: 0; }
+
+/* --- Graph SVG --- */
+
+.explorer-container .ex-graph-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+.explorer-container .ex-graph-svg:active { cursor: grabbing; }
+
+.explorer-container .ex-tree-link {
+    fill: none;
+    stroke: #d0d5dd;
+    stroke-width: 1;
+}
+.explorer-container .ex-tree-link.ex-traversed {
+    stroke: #e45756;
+    stroke-width: 1.6;
+}
+
+.explorer-container .ex-node circle {
+    cursor: default;
+    transition: r 180ms ease-out, stroke-width 180ms ease-out;
+}
+
+.explorer-container .ex-node-root circle,
+.explorer-container .ex-node-section circle {
+    stroke: white;
+    stroke-width: 1;
+}
+.explorer-container .ex-node.ex-visited-ancestor circle {
+    stroke: #e45756;
+    stroke-width: 1.4;
+}
+.explorer-container .ex-node.ex-intense-ancestor circle {
+    stroke: #4c78a8;
+    stroke-width: 1.2;
+}
+
+.explorer-container .ex-node-entity circle {
+    stroke: white;
+    stroke-width: 0.8;
+}
+
+.explorer-container .ex-node-section .ex-section-label,
+.explorer-container .ex-node-root .ex-root-label {
+    font-size: 11px;
+    font-family: system-ui, -apple-system, sans-serif;
+    fill: #333;
+    pointer-events: none;
+}
+.explorer-container .ex-node .ex-order {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    pointer-events: none;
+}
+.explorer-container .ex-node .ex-count {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    pointer-events: none;
+}

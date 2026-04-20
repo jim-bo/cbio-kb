@@ -11,6 +11,11 @@ project:
     - "vendor-d3.min.js"
     - "vendor-marked.min.js"
     - "site-styles.css"
+    - "experiments/explorer-graph.js"
+    - "experiments/explorer.js"
+    - "experiments/explorer.css"
+    - "experiments/explorer/**"
+    - "experiments/plots/**"
 
 validate-yaml: false
 
@@ -37,6 +42,8 @@ website:
         text: Methods
       - href: themes/index.qmd
         text: Themes
+      - href: experiments/index.qmd
+        text: Experiments
       - href: ask.qmd
         text: Ask
   search:

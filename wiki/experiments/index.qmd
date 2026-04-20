@@ -1,0 +1,8 @@
+---
+title: Experiments
+---
+
+Evaluations and experiments comparing the different ways the knowledge base is queried. Pages here are regenerated from data in `eval/results/` by the `eval/build_report.py` script — they do not live inside the curated knowledge base itself.
+
+- [RAG vs. Agentic](rag-vs-agentic.qmd) — benchmarks pure-vector RAG against the PydanticAI agent across 30 train-split questions (lookup, list, synthesis, definition).
+- [Traversal explorer](traversal-explorer.qmd) — pick a question and see what each retrieval strategy actually touched: the agent's tool-call path across the wiki graph next to RAG's chunk-retrieval footprint, on the same graph backbone.

@@ -19,6 +19,7 @@ let assistantFullText = '';
 
 let sessionId = null;
 let sending = false;
+let chatMode = 'agentic'; // 'agentic' | 'rag'
 
 const form = document.getElementById('chat-form');
 const input = document.getElementById('user-input');
@@ -26,6 +27,7 @@ const messages = document.getElementById('messages');
 const contextFeed = document.getElementById('context-feed');
 const contextTotal = document.getElementById('context-total');
 const sendBtn = document.getElementById('send-btn');
+const modeToggle = document.getElementById('mode-toggle');
 
 let contextTokens = 0;
 let pendingUserCard = null;
@@ -68,6 +70,12 @@ input.addEventListener('input', function() {
         '<div class="context-body">' + escapeHtml(text) + '</div>';
     pendingUserCard.scrollIntoView({behavior: 'smooth', block: 'nearest'});
 });
+
+if (modeToggle) {
+    modeToggle.addEventListener('change', function() {
+        chatMode = modeToggle.value;
+    });
+}
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -142,61 +150,66 @@ function sendMessage(msg) {
     currentAssistantCard = null;
     currentAssistantText = '';
 
-    // Stream response
-    fetch(API_URL, {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({message: msg, session_id: sessionId}),
-    }).then(function(response) {
-        const reader = response.body.getReader();
-        const decoder = new TextDecoder();
-        let buffer = '';
+    // Stream response. Retry once on network errors (e.g. stale HTTP/2
+    // socket after Cloud Run scale-to-zero).
+    function doFetch(retries) {
+        fetch(API_URL, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({message: msg, session_id: sessionId, mode: chatMode}),
+        }).then(function(response) {
+            var reader = response.body.getReader();
+            var decoder = new TextDecoder();
+            var buffer = '';
 
-        let currentEvent = 'message';
-        let currentData = '';
+            var currentEvent = 'message';
+            var currentData = '';
 
-        function flushEvent() {
-            if (currentData) {
-                handleEvent(currentEvent, currentData, assistantDiv);
+            function flushEvent() {
+                if (currentData) {
+                    handleEvent(currentEvent, currentData, assistantDiv);
+                }
+                currentEvent = 'message';
+                currentData = '';
             }
-            currentEvent = 'message';
-            currentData = '';
-        }
 
-        function processChunk(result) {
-            if (result.done) {
-                flushEvent();
-                finishSending();
+            function processChunk(result) {
+                if (result.done) {
+                    flushEvent();
+                    finishSending();
+                    return;
+                }
+                buffer += decoder.decode(result.value, {stream: true});
+
+                var lines = buffer.split('\n');
+                buffer = lines.pop();
+
+                for (var i = 0; i < lines.length; i++) {
+                    var line = lines[i].replace(/\r$/, '');
+                    if (line === '') {
+                        flushEvent();
+                    } else if (line.startsWith('event:')) {
+                        currentEvent = line.slice(6).trim();
+                    } else if (line.startsWith('data:')) {
+                        currentData = line.slice(5).trim();
+                    }
+                }
+
+                messages.scrollTop = messages.scrollHeight;
+                return reader.read().then(processChunk);
+            }
+
+            return reader.read().then(processChunk);
+        }).catch(function(err) {
+            if (retries > 0) {
+                setTimeout(function() { doFetch(retries - 1); }, 500);
                 return;
             }
-            buffer += decoder.decode(result.value, {stream: true});
-
-            // Line-by-line parse: accumulate event/data until an empty line.
-            const lines = buffer.split('\n');
-            buffer = lines.pop(); // last (possibly incomplete) line
-
-            for (const rawLine of lines) {
-                const line = rawLine.replace(/\r$/, '');
-                if (line === '') {
-                    flushEvent();
-                } else if (line.startsWith('event:')) {
-                    currentEvent = line.slice(6).trim();
-                } else if (line.startsWith('data:')) {
-                    currentData = line.slice(5).trim();
-                } else if (line.startsWith(':')) {
-                    // comment / ping — ignore
-                }
-            }
-
-            messages.scrollTop = messages.scrollHeight;
-            return reader.read().then(processChunk);
-        }
-
-        return reader.read().then(processChunk);
-    }).catch(function(err) {
-        assistantDiv.textContent = 'Error: ' + err.message;
-        finishSending();
-    });
+            assistantDiv.textContent = 'Error: ' + err.message;
+            finishSending();
+        });
+    }
+    doFetch(1);
 }
 
 function handleEvent(eventType, data, assistantDiv) {
@@ -490,7 +503,8 @@ function toolIcon(name) {
         list_pages: '\u{1F4C1}',
         search: '\u{1F50D}',
         follow_links: '\u{1F517}',
-        find_references: '\u21A9'
+        find_references: '\u21A9',
+        vector_search: '\u{1F9ED}'
     };
     return icons[name] || '\u{1F527}';
 }

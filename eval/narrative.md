@@ -173,12 +173,6 @@ the dashed *y = x* line are agent wins; below the line are RAG wins.
 *Hover any point in the interactive version for the full question and
 both answers.*
 
-## section:figure2_caption
-
-Figure 2 static fallback. Per-question agentic vs RAG judge scores;
-synthesis (red) clusters above the diagonal, one notable agent-loss at
-LS04 and one at S04 sits below.
-
 ## section:figure2_takeaway
 
 *Takeaway — most synthesis points (red) sit above the diagonal, most

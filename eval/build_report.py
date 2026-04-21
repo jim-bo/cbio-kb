@@ -404,16 +404,17 @@ def _results_block(records: list[dict], run_dir: Path,
         lines += _compare_splits_block(records, extra_splits)
         lines += [_prose("splits_takeaway"), ""]
 
-    # --- Figure 2: per-question scatter (interactive + PNG) ---
-    fig2_caption = _prose("figure2_caption") or "Figure 2."
+    # --- Figure 2: per-question scatter (interactive only on the web page) ---
+    # The PNG twin is still rendered to disk by build_plots.render_all()
+    # so downstream contexts (README embeds, exported static bundles)
+    # can pick it up, but the web page shows the interactive version
+    # only to avoid the same figure rendering twice in a row.
     lines += [
         "### Figure 2 — Per-question comparison",
         "",
         _prose("figure2_intro"),
         "",
         _raw_html_block(_PLOTS_DIR / "per_question_scatter.html"),
-        "",
-        f"![{fig2_caption}](plots/per_question_scatter.png)",
         "",
         _prose("figure2_takeaway"),
         "",
@@ -491,13 +492,97 @@ def _references_block(bib: dict, groups: list) -> list[str]:
     return lines
 
 
-def _appendix_block(records: list[dict], run_dir: Path) -> list[str]:
+def _load_question_bank() -> list[dict]:
+    """Load the v1 question set so the appendix can show what was asked.
+
+    Returns a list of question dicts straight from ``eval/questions/v1.yaml``.
+    Empty list if the file is missing or can't be parsed — a rendering
+    concern, not a hard failure.
+    """
+    import yaml
+
+    path = _EVAL_DIR / "questions" / "v1.yaml"
+    if not path.exists():
+        return []
+    try:
+        data = yaml.safe_load(path.read_text()) or {}
+        return list(data.get("questions") or [])
+    except Exception:
+        return []
+
+
+def _questions_table(records: list[dict]) -> list[str]:
+    """Render the question bank as a markdown table, scoped to the ids
+    that actually have records in this run.
+
+    Columns: id · category · split · question · gold PMIDs.
+    """
+    questions = _load_question_bank()
+    if not questions:
+        return []
+
+    seen_ids = {r["id"] for r in records}
+
+    # Order: by split (train → val → test), then by id.
+    split_rank = {"train": 0, "val": 1, "test": 2}
+
+    def _sort_key(q: dict) -> tuple:
+        return (split_rank.get(q.get("split", ""), 9), q.get("id", ""))
+
+    ordered = sorted(
+        [q for q in questions if q.get("id") in seen_ids],
+        key=_sort_key,
+    )
+    if not ordered:
+        return []
+
+    lines = [
+        "| ID | Split | Category | Question | Gold PMIDs |",
+        "|----|-------|----------|----------|------------|",
+    ]
+    for q in ordered:
+        qid = q.get("id", "—")
+        split = q.get("split", "—")
+        cat = q.get("category", "—")
+        # Escape pipes and collapse whitespace so the table cell stays intact.
+        text = " ".join(str(q.get("question", "")).split()).replace("|", "\\|")
+        gold = q.get("gold_pmids") or []
+        gold_str = ", ".join(f"`{p}`" for p in gold) if gold else "—"
+        lines.append(f"| {qid} | {split} | {cat} | {text} | {gold_str} |")
+    return lines
+
+
+def _appendix_block(records: list[dict], run_dir: Path,
+                    extra_splits: dict | None = None) -> list[str]:
     ts = run_dir.name
     modes = sorted({r["mode"] for r in records})
+
+    # Merged record pool lets the Question Bank table include val/test
+    # questions too, not just the train slice.
+    all_records = list(records)
+    for recs in (extra_splits or {}).values():
+        all_records.extend(recs)
+
     lines = [
         "## Appendix",
         "",
-        "### A. Per-category breakdown (train split)",
+        "### A. Question bank",
+        "",
+        "Every question that appears in this report, with its split,",
+        "category, full text, and the gold PMIDs used to score citation",
+        "recall. Scores for each question are in the *Per-question",
+        "results* section below.",
+        "",
+    ]
+    q_table = _questions_table(all_records)
+    if q_table:
+        lines += q_table
+    else:
+        lines.append("_Question bank not loadable from `eval/questions/v1.yaml`._")
+    lines.append("")
+
+    lines += [
+        "### B. Per-category breakdown (train split)",
         "",
     ]
     for mode in modes:
@@ -513,23 +598,24 @@ def _appendix_block(records: list[dict], run_dir: Path) -> list[str]:
         lines.append("")
 
     lines += [
-        "### B. Per-question results",
+        "### C. Per-question results (train split)",
         "",
         "Scores shown as `accuracy / completeness / citation_correctness` (each 1–5).",
         "",
         _per_question_table(records),
         "",
-        "### C. Notable failures",
+        "### D. Notable failures",
         "",
         "Questions where either mode scored ≤ 2 on accuracy:",
         "",
         _low_scores_section(records, threshold=2),
         "",
-        "### D. Source data",
+        "### E. Source data",
         "",
         f"- Run directory: `eval/results/{ts}/`",
         f"- Raw records: `runs.jsonl` ({len(records)} rows)",
         "- Bibliography source: `eval/bibliography.yaml`",
+        "- Narrative source: `eval/narrative.md`",
         "- Regenerate this page: `uv run python -m eval.build_report --run-dir … --val-dir … --test-dir …`",
         "",
     ]
@@ -563,7 +649,7 @@ def _render(records: list[dict], run_dir: Path, extra_splits: dict[str, list[dic
     lines += _results_block(records, run_dir, extra_splits, narrative, bib, stats)
     lines += _discussion_block(narrative, bib, stats)
     lines += _references_block(bib, groups)
-    lines += _appendix_block(records, run_dir)
+    lines += _appendix_block(records, run_dir, extra_splits)
 
     return "\n".join(lines)
 

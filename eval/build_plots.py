@@ -44,14 +44,14 @@ _CATEGORY_COLORS = {
 }
 _MODE_COLORS = {"agentic": "#4C78A8", "rag": "#E45756"}
 
-# Shared styling knobs. Earlier versions of the plots used matplotlib
-# defaults (title ~10pt, ticks ~8pt) which rendered too small once the
-# page shrank the PNG to column width. Bump the hierarchy so the plots
-# read cleanly even at 1/2 page width.
-_TITLE_SIZE = 15
-_LABEL_SIZE = 12
-_TICK_SIZE = 11
-_LEGEND_SIZE = 11
+# Shared styling knobs. The plots are rendered at reduced width on the
+# Quarto page; the sizes below are chosen to stay readable even when
+# the PNG is scaled down to ~60% of its native width.
+_TITLE_SIZE = 18
+_LABEL_SIZE = 15
+_TICK_SIZE = 13
+_LEGEND_SIZE = 13
+_ANNOT_SIZE = 12
 
 
 def _apply_style(fig, *, title_size: int = _TITLE_SIZE,
@@ -135,7 +135,7 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
     for p in points:
         by_cell[(int(p["rg"]), int(p["ag"]))].append(p["qid"])
 
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(11, 8.5))
 
     jitter_seed = 0
     for p in points:
@@ -166,19 +166,20 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
         if len(qids) == 1:
             ax.annotate(qids[0], (rg, ag),
                         xytext=(dx, dy), textcoords="offset points",
-                        fontsize=9, color="#333", ha=ha, va=va)
+                        fontsize=_ANNOT_SIZE, color="#333", ha=ha, va=va)
         elif len(qids) <= 3:
             label = ", ".join(qids)
             ax.annotate(label, (rg, ag),
                         xytext=(dx, dy), textcoords="offset points",
-                        fontsize=9, color="#333", ha=ha, va=va,
+                        fontsize=_ANNOT_SIZE, color="#333", ha=ha, va=va,
                         bbox=dict(boxstyle="round,pad=0.2",
                                   fc="#fff", ec="#ddd", alpha=0.85))
         else:
             # Compact pileup badge — avoids smearing 10 IDs across the corner.
             ax.annotate(f"n={len(qids)}", (rg, ag),
                         xytext=(dx, dy), textcoords="offset points",
-                        fontsize=10, color="#222", ha=ha, va=va, weight="semibold",
+                        fontsize=_ANNOT_SIZE + 1, color="#222",
+                        ha=ha, va=va, weight="semibold",
                         bbox=dict(boxstyle="round,pad=0.25",
                                   fc="#f5f5f7", ec="#bbb", alpha=0.95))
 
@@ -345,10 +346,11 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
         if r.get("mode") in modes and r.get("category") in categories:
             by_mode_cat[(r["mode"], r["category"])].append(r)
 
-    fig, axes = plt.subplots(1, 3, figsize=(14, 5), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(14, 5.4), sharey=True)
     width = 0.38
     x = list(range(len(categories)))
 
+    legend_handles: list = []
     for ax, (metric_key, metric_label) in zip(axes, metrics):
         for j, mode in enumerate(modes):
             vals = []
@@ -361,6 +363,9 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
             bars = ax.bar([xi + offset for xi in x], vals, width,
                           label=mode.title(), color=_MODE_COLORS[mode],
                           alpha=0.9, edgecolor="white", linewidth=0.8)
+            if not legend_handles and ax is axes[0]:
+                # Capture handle on first axis; reuse as figure-level legend.
+                pass
             for bar, v in zip(bars, vals):
                 if v > 0:
                     # Lean the label left (agentic) or right (rag) so two
@@ -370,19 +375,30 @@ def plot_category_bars(records: list[dict], out: Path) -> None:
                                              else bar.get_width() * 0.15)
                     ax.text(label_x, v + 0.12, f"{v:.1f}",
                             ha=ha_by_mode[mode], va="bottom",
-                            fontsize=_TICK_SIZE, color="#222")
+                            fontsize=_ANNOT_SIZE, color="#222")
 
         ax.set_xticks(x)
         ax.set_xticklabels(categories, rotation=0)
         ax.set_title(metric_label)
-        ax.set_ylim(0, 5.6)
+        ax.set_ylim(0, 5.8)
         ax.grid(True, alpha=0.25, axis="y")
 
     axes[0].set_ylabel("Mean judge score (1–5)")
-    axes[0].legend(loc="upper right", frameon=False, fontsize=_LEGEND_SIZE)
-    fig.suptitle("Mean judge score by question category", y=0.98)
+    # Legend as a figure-level strip, above the panels — never overlaps
+    # the bars regardless of how tall the tallest bar is.
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles, labels,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 0.93),
+        ncol=len(labels),
+        frameon=False,
+        fontsize=_LEGEND_SIZE,
+    )
+    fig.suptitle("Mean judge score by question category", y=0.995)
     _apply_style(fig)
-    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    # Reserve the top ~14% of the figure for suptitle + legend.
+    fig.tight_layout(rect=[0, 0, 1, 0.88])
     fig.savefig(out, dpi=150)
     plt.close(fig)
 
@@ -391,7 +407,7 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
     """Total judge score as a function of input tokens (left) and wall
     time (right). Both modes overlaid so the frontier is visible.
     """
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5.5), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(15, 6), sharey=True)
 
     panels = [
         ("input_tokens", "Input tokens per query (log scale)", True,
@@ -413,7 +429,7 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
                 xs.append(xv)
                 ys.append(total)
             if xs:
-                ax.scatter(xs, ys, c=color, alpha=0.7, s=70,
+                ax.scatter(xs, ys, c=color, alpha=0.7, s=80,
                            edgecolors="white", linewidths=0.8,
                            label=mode.title())
         ax.set_xlabel(xlabel)
@@ -421,13 +437,21 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
         if xlog:
             ax.set_xscale("log")
         ax.grid(True, alpha=0.25)
-        ax.legend(loc="lower right", frameon=True, framealpha=0.9,
-                  fontsize=_LEGEND_SIZE)
 
     axes[0].set_ylabel("Total judge score (3–15)")
-    fig.suptitle("Cost vs quality: what does each mode buy you?", y=0.99)
+    # Figure-level legend above the panels, same pattern as category_bars.
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles, labels,
+        loc="upper center",
+        bbox_to_anchor=(0.5, 0.93),
+        ncol=len(labels),
+        frameon=False,
+        fontsize=_LEGEND_SIZE,
+    )
+    fig.suptitle("Cost vs quality: what does each mode buy you?", y=0.995)
     _apply_style(fig)
-    fig.tight_layout(rect=[0, 0, 1, 0.94])
+    fig.tight_layout(rect=[0, 0, 1, 0.88])
     fig.savefig(out, dpi=150)
     plt.close(fig)
 

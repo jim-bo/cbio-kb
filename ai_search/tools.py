@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import time
+from pathlib import Path
 
 from pydantic_ai import RunContext
 
@@ -19,6 +20,37 @@ from cbio_kb.wiki.vault import (
 )
 
 from .agent import Deps, ToolEvent, agent
+
+# Allowed top-level wiki folders. The model picks `folder` for
+# list_pages, so we whitelist instead of trusting whatever string
+# arrives.
+_ALLOWED_FOLDERS = {
+    "papers", "genes", "cancer_types", "datasets",
+    "drugs", "methods", "themes",
+}
+
+
+def _safe_wiki_path(wiki_dir: Path, path: str) -> Path | None:
+    """Resolve *path* under *wiki_dir* or return None if it escapes.
+
+    Defends against prompt-injected `..` traversal: the model controls
+    `path`, so we verify the resolved target is still inside the vault
+    root and ends in `.md` before any filesystem read.
+    """
+    if not isinstance(path, str) or not path:
+        return None
+    root = wiki_dir.resolve()
+    try:
+        candidate = (root / path).resolve()
+    except (OSError, RuntimeError):
+        return None
+    if candidate.suffix != ".md":
+        return None
+    try:
+        candidate.relative_to(root)
+    except ValueError:
+        return None
+    return candidate
 
 
 def _serialize_result(result) -> str:
@@ -81,7 +113,11 @@ def _emit(
 async def read_page(ctx: RunContext[Deps], path: str) -> str:
     """Read the full content of a wiki page. Path is vault-relative, e.g. 'papers/25730765.md' or 'genes/EGFR.md'."""
     t_start = _now(ctx)
-    fpath = ctx.deps.wiki_dir / path
+    fpath = _safe_wiki_path(ctx.deps.wiki_dir, path)
+    if fpath is None:
+        err = f"Error: invalid path {path!r}"
+        _emit(ctx, "read_page", {"path": path}, err, t_start=t_start)
+        return err
     if not fpath.exists():
         err = f"Error: {path} not found"
         _emit(ctx, "read_page", {"path": path}, err, t_start=t_start)
@@ -95,7 +131,11 @@ async def read_page(ctx: RunContext[Deps], path: str) -> str:
 async def read_section(ctx: RunContext[Deps], path: str, heading: str) -> str:
     """Read a specific section of a wiki page by heading name. Case-insensitive match."""
     t_start = _now(ctx)
-    fpath = ctx.deps.wiki_dir / path
+    fpath = _safe_wiki_path(ctx.deps.wiki_dir, path)
+    if fpath is None:
+        err = f"Error: invalid path {path!r}"
+        _emit(ctx, "read_section", {"path": path, "heading": heading}, err, t_start=t_start)
+        return err
     if not fpath.exists():
         err = f"Error: {path} not found"
         _emit(ctx, "read_section", {"path": path, "heading": heading}, err, t_start=t_start)
@@ -128,6 +168,10 @@ async def read_section(ctx: RunContext[Deps], path: str, heading: str) -> str:
 async def get_page_metadata(ctx: RunContext[Deps], path: str) -> dict:
     """Get frontmatter metadata for a wiki page (title, genes, cancer_types, etc.)."""
     t_start = _now(ctx)
+    if _safe_wiki_path(ctx.deps.wiki_dir, path) is None:
+        err = {"error": f"invalid path {path!r}"}
+        _emit(ctx, "get_page_metadata", {"path": path}, err, t_start=t_start)
+        return err
     result = get_properties(ctx.deps.wiki_dir, path)
     _emit(ctx, "get_page_metadata", {"path": path}, result, result_paths=[path], t_start=t_start)
     return result
@@ -137,6 +181,14 @@ async def get_page_metadata(ctx: RunContext[Deps], path: str) -> dict:
 async def list_pages(ctx: RunContext[Deps], folder: str) -> list[str]:
     """List all page names in a wiki section. Folder is one of: papers, genes, cancer_types, datasets, drugs, methods, themes."""
     t_start = _now(ctx)
+    if folder not in _ALLOWED_FOLDERS:
+        err: list[str] = []
+        _emit(
+            ctx, "list_pages", {"folder": folder}, err,
+            summary=f"invalid folder {folder!r}",
+            t_start=t_start,
+        )
+        return err
     result = list_files(ctx.deps.wiki_dir, folder)
     _emit(
         ctx, "list_pages", {"folder": folder}, result,
@@ -150,6 +202,14 @@ async def list_pages(ctx: RunContext[Deps], folder: str) -> list[str]:
 async def follow_links(ctx: RunContext[Deps], path: str) -> list[str]:
     """Get all outgoing links from a wiki page. Useful for discovering connected pages."""
     t_start = _now(ctx)
+    if _safe_wiki_path(ctx.deps.wiki_dir, path) is None:
+        err: list[str] = []
+        _emit(
+            ctx, "follow_links", {"path": path}, err,
+            summary=f"invalid path {path!r}",
+            t_start=t_start,
+        )
+        return err
     result = find_links(ctx.deps.wiki_dir, path)
     _emit(
         ctx, "follow_links", {"path": path}, result,

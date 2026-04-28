@@ -85,6 +85,7 @@
 
     async function selectQuestion(qid) {
         currentQid = qid;
+        const requestedQid = qid;
         const select = document.getElementById('explorer-question-select');
         if (select) select.value = qid;
 
@@ -94,11 +95,13 @@
             if (!res.ok) throw new Error('HTTP ' + res.status);
             payload = await res.json();
         } catch (err) {
+            if (currentQid !== requestedQid) return;
             setPanelEmpty('agentic-graph', 'Failed to load: ' + err.message);
             setPanelEmpty('rag-graph', 'Failed to load: ' + err.message);
             return;
         }
 
+        if (currentQid !== requestedQid) return;
         renderQuestionCard(payload);
         renderAgentic(payload);
         renderRag(payload);

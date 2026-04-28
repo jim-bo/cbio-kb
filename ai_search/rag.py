@@ -110,7 +110,7 @@ def retrieve(
     for c in candidates:
         text_len = len(c["text"])
         if text_len > budget:
-            break
+            continue
         passages.append(c)
         budget -= text_len
     return passages

@@ -69,8 +69,19 @@ async def chat(request: Request):
     mode = body.get("mode", "agentic")  # "agentic" | "rag"
 
     if mode == "rag":
-        max_context_chars = body.get("max_context_chars", 60_000)
-        top_k = body.get("top_k", 40)
+        def _bounded_int(value, *, default: int, low: int, high: int) -> int:
+            try:
+                return max(low, min(high, int(value)))
+            except (TypeError, ValueError):
+                return default
+
+        max_context_chars = _bounded_int(
+            body.get("max_context_chars", 60_000),
+            default=60_000, low=4_000, high=120_000,
+        )
+        top_k = _bounded_int(
+            body.get("top_k", 40), default=40, low=1, high=80,
+        )
 
         async def rag_gen():
             async for event_type, data in rag_event_generator(
@@ -96,9 +107,12 @@ async def chat(request: Request):
         sse_queue: asyncio.Queue[tuple[str, str]] = asyncio.Queue()
 
         deps = Deps(tool_queue=tool_queue, turn_start_monotonic=time.monotonic())
+        # Shared payload built by run_agent and emitted by the outer
+        # coordinator after drain_tools finishes — keeps `done` from
+        # racing past trailing tool_use events.
+        usage_payload: dict = {}
 
         async def run_agent():
-            usage_payload: dict = {}
             run = None
             try:
                 # On the first turn of a session, emit the system prompt as
@@ -199,11 +213,11 @@ async def chat(request: Request):
             except Exception as e:
                 await sse_queue.put(("error", json.dumps({"error": str(e)})))
             finally:
+                # Signal drain_tools to flush and exit. The outer
+                # coordinator emits `done` once both tasks finish, so any
+                # trailing tool_use events still in flight reach the
+                # client before the stream closes.
                 await tool_queue.put(None)
-                await sse_queue.put((
-                    "done",
-                    json.dumps({"session_id": session_id, **usage_payload}),
-                ))
 
         async def drain_tools():
             while True:
@@ -229,13 +243,28 @@ async def chat(request: Request):
         agent_task = asyncio.create_task(run_agent())
         tool_task = asyncio.create_task(drain_tools())
 
+        # Defer the `done` emission until both producers have flushed.
+        # A separate task waits on them and pushes a private sentinel,
+        # so the outer loop can keep using the simple "get → yield"
+        # pattern without racing past trailing tool_use events.
+        _SENTINEL = "__producers_done__"
+
+        async def signal_done():
+            await asyncio.gather(agent_task, tool_task)
+            await sse_queue.put((_SENTINEL, ""))
+
+        asyncio.create_task(signal_done())
+
         while True:
             event_type, data = await sse_queue.get()
-            yield {"event": event_type, "data": data}
-            if event_type == "done":
+            if event_type == _SENTINEL:
                 break
+            yield {"event": event_type, "data": data}
 
-        await asyncio.gather(agent_task, tool_task)
+        yield {
+            "event": "done",
+            "data": json.dumps({"session_id": session_id, **usage_payload}),
+        }
 
     return EventSourceResponse(event_generator())
 

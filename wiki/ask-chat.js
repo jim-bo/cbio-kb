@@ -158,6 +158,14 @@ function sendMessage(msg) {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({message: msg, session_id: sessionId, mode: chatMode}),
         }).then(function(response) {
+            if (!response.ok) {
+                return response.text().then(function(body) {
+                    throw new Error('HTTP ' + response.status + (body ? ': ' + body : ''));
+                });
+            }
+            if (!response.body) {
+                throw new Error('Streaming response body is unavailable');
+            }
             var reader = response.body.getReader();
             var decoder = new TextDecoder();
             var buffer = '';
@@ -191,7 +199,13 @@ function sendMessage(msg) {
                     } else if (line.startsWith('event:')) {
                         currentEvent = line.slice(6).trim();
                     } else if (line.startsWith('data:')) {
-                        currentData = line.slice(5).trim();
+                        // Per the SSE spec, multiple `data:` lines for
+                        // a single event are joined with newlines.
+                        // Trim only the conventional leading space, not
+                        // payload content.
+                        var piece = line.slice(5);
+                        if (piece.startsWith(' ')) piece = piece.slice(1);
+                        currentData = currentData ? (currentData + '\n' + piece) : piece;
                     }
                 }
 
@@ -540,6 +554,7 @@ function notifyGraphOfToolUse(info) {
 }
 
 function formatArgs(args) {
+    if (!args || typeof args !== 'object') return '';
     return Object.entries(args).map(function(kv) {
         return kv[0] + '=' + kv[1];
     }).join(', ');

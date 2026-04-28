@@ -141,13 +141,18 @@ def _write_report(records: list[dict], modes: list[str], path: Path) -> None:
         if recalls:
             lines.append(f"- **citation_recall**: {mean(recalls):.3f}")
 
-        tokens_in = [r.get("input_tokens", 0) for r in mode_recs]
-        tokens_out = [r.get("output_tokens", 0) for r in mode_recs]
-        times = [r.get("wall_time_s", 0) for r in mode_recs]
-        if any(tokens_in):
+        def _nums(key: str) -> list[float]:
+            return [r[key] for r in mode_recs
+                    if isinstance(r.get(key), (int, float))]
+
+        tokens_in = _nums("input_tokens")
+        tokens_out = _nums("output_tokens")
+        times = _nums("wall_time_s")
+        if tokens_in:
             lines.append(f"- **avg input_tokens**: {mean(tokens_in):.0f}")
+        if tokens_out:
             lines.append(f"- **avg output_tokens**: {mean(tokens_out):.0f}")
-        if any(times):
+        if times:
             lines.append(f"- **avg wall_time_s**: {mean(times):.1f}")
 
         lines.append("\n### Per-category breakdown\n")
@@ -157,11 +162,21 @@ def _write_report(records: list[dict], modes: list[str], path: Path) -> None:
             cat_recs = [r for r in mode_recs if r.get("category") == cat]
             if not cat_recs:
                 continue
+            acc_vals = [r["scores"]["accuracy"] for r in cat_recs
+                        if isinstance(r.get("scores"), dict) and "accuracy" in r["scores"]]
+            comp_vals = [r["scores"]["completeness"] for r in cat_recs
+                         if isinstance(r.get("scores"), dict) and "completeness" in r["scores"]]
+            cite_vals = [r["scores"]["citation_correctness"] for r in cat_recs
+                         if isinstance(r.get("scores"), dict) and "citation_correctness" in r["scores"]]
+            rec_vals = [r["citation_recall"] for r in cat_recs
+                        if isinstance(r.get("citation_recall"), (int, float))]
+            if not (acc_vals and comp_vals and cite_vals):
+                continue
             n = len(cat_recs)
-            acc = mean([r["scores"]["accuracy"] for r in cat_recs if "accuracy" in r.get("scores", {})])
-            comp = mean([r["scores"]["completeness"] for r in cat_recs if "completeness" in r.get("scores", {})])
-            cite = mean([r["scores"]["citation_correctness"] for r in cat_recs if "citation_correctness" in r.get("scores", {})])
-            rec = mean([r["citation_recall"] for r in cat_recs if "citation_recall" in r])
+            acc = mean(acc_vals)
+            comp = mean(comp_vals)
+            cite = mean(cite_vals)
+            rec = mean(rec_vals) if rec_vals else 0.0
             lines.append(f"| {cat} | {n} | {acc:.2f} | {comp:.2f} | {cite:.2f} | {rec:.3f} |")
 
     path.write_text("\n".join(lines) + "\n")

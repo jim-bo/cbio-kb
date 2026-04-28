@@ -35,9 +35,21 @@ import numpy as np
 _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 
 EMBED_MODEL = "gemini-embedding-001"
-GCP_PROJECT = os.environ.get("GCP_PROJECT", "cbioportal-python")
+# GCP_PROJECT is required — embedding runs are billed, so we refuse to
+# silently fall back to whatever project happened to be cached locally.
+# Resolved at call time inside embed_texts so the import path stays cheap.
 GCP_LOCATION = os.environ.get("GCP_LOCATION", "us-central1")
 _VERTEX_BATCH_SIZE = 25  # keep well under per-minute token quota
+
+
+def _require_gcp_project() -> str:
+    project = os.environ.get("GCP_PROJECT")
+    if not project:
+        raise RuntimeError(
+            "GCP_PROJECT is not set. Embedding via Vertex AI is a paid "
+            "operation; export GCP_PROJECT explicitly before running."
+        )
+    return project
 
 
 def _strip_frontmatter(text: str) -> str:
@@ -85,7 +97,7 @@ def embed_texts(
     from google import genai
     from google.genai import types
 
-    client = genai.Client(vertexai=True, project=GCP_PROJECT, location=GCP_LOCATION)
+    client = genai.Client(vertexai=True, project=_require_gcp_project(), location=GCP_LOCATION)
     all_vecs: list[list[float]] = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i : i + batch_size]
@@ -143,6 +155,8 @@ def iter_chunks(
 
 
 def cmd_build(args: argparse.Namespace) -> int:
+    import shutil
+    import tempfile
     import faiss  # type: ignore
     import spacy  # type: ignore
 
@@ -176,34 +190,47 @@ def cmd_build(args: argparse.Namespace) -> int:
         return 1
     print(f"[*] produced {len(records)} chunks across {len(pmid_list)} papers")
 
-    meta_path = out_dir / "meta.jsonl"
-    with meta_path.open("w", encoding="utf-8") as fh:
-        for rec in records:
-            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
-    print(f"[*] wrote metadata to {meta_path}")
+    # Stage all artifacts in a sibling temp dir and swap them in only
+    # after the embedding + FAISS write succeed. Avoids leaving a fresh
+    # meta.jsonl next to a stale faiss.index when the build dies
+    # mid-embedding (which would mis-map retrieval).
+    staging = Path(tempfile.mkdtemp(prefix=".staging-", dir=out_dir.parent))
+    try:
+        meta_path = staging / "meta.jsonl"
+        with meta_path.open("w", encoding="utf-8") as fh:
+            for rec in records:
+                fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        print(f"[*] wrote metadata to {meta_path}")
 
-    texts = [r["text"] for r in records]
-    print(f"[*] embedding {len(texts)} chunks via Vertex AI ({EMBED_MODEL})…")
-    embeddings = embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size)
+        texts = [r["text"] for r in records]
+        print(f"[*] embedding {len(texts)} chunks via Vertex AI ({EMBED_MODEL})…")
+        embeddings = embed_texts(texts, task_type="RETRIEVAL_DOCUMENT", batch_size=args.batch_size)
 
-    index = faiss.IndexFlatIP(embeddings.shape[1])
-    index.add(embeddings)
-    index_path = out_dir / "faiss.index"
-    faiss.write_index(index, str(index_path))
-    print(f"[*] wrote FAISS index to {index_path}")
+        index = faiss.IndexFlatIP(embeddings.shape[1])
+        index.add(embeddings)
+        index_path = staging / "faiss.index"
+        faiss.write_index(index, str(index_path))
+        print(f"[*] wrote FAISS index to {index_path}")
 
-    config_path = out_dir / "index_config.json"
-    config_path.write_text(json.dumps({
-        "embed_model": EMBED_MODEL,
-        "embed_dim": int(embeddings.shape[1]),
-        "chunk_chars": args.chunk_chars,
-        "overlap": args.overlap,
-        "n_papers": len(pmid_list),
-        "n_chunks": len(records),
-        "papers_dir": str(papers_dir),
-        "pmid_list": str(args.pmid_list),
-    }, indent=2))
-    print(f"[*] wrote index config to {config_path}")
+        config_path = staging / "index_config.json"
+        config_path.write_text(json.dumps({
+            "embed_model": EMBED_MODEL,
+            "embed_dim": int(embeddings.shape[1]),
+            "chunk_chars": args.chunk_chars,
+            "overlap": args.overlap,
+            "n_papers": len(pmid_list),
+            "n_chunks": len(records),
+            "papers_dir": str(papers_dir),
+            "pmid_list": str(args.pmid_list),
+        }, indent=2))
+        print(f"[*] wrote index config to {config_path}")
+
+        for name in ("meta.jsonl", "faiss.index", "index_config.json"):
+            shutil.move(str(staging / name), str(out_dir / name))
+    finally:
+        shutil.rmtree(staging, ignore_errors=True)
+
+    print(f"[*] published artifacts to {out_dir}")
     print("[✓] done")
     return 0
 

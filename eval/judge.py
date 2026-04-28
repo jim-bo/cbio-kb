@@ -68,6 +68,31 @@ Return ONLY a JSON object, no markdown fencing:
 _JSON_RE = re.compile(r"\{[^{}]*\}", re.DOTALL)
 
 
+def _citation_score(gold_pmids: list, cited_pmids: list) -> int:
+    """Deterministic 1-5 score for citation overlap.
+
+    The judge model is unreliable for this — gold and cited PMIDs are
+    both already structured data, so compute the score from them
+    directly to keep the metric reproducible.
+    """
+    gold = {str(p) for p in (gold_pmids or [])}
+    cited = {str(p) for p in (cited_pmids or [])}
+    if not gold:
+        return 5 if not cited else 3
+    if not cited:
+        return 1
+    if cited == gold:
+        return 5
+    if cited.isdisjoint(gold):
+        return 1
+    diff = len(cited ^ gold)
+    if diff == 1:
+        return 4
+    if diff <= 3:
+        return 3
+    return 2
+
+
 def judge(question_entry: dict, run_result: dict) -> dict:
     """Score a single run result against its gold labels. Returns scores dict."""
     prompt = _RUBRIC.format(
@@ -79,19 +104,49 @@ def judge(question_entry: dict, run_result: dict) -> dict:
         cited_pmids=", ".join(run_result.get("cited_pmids", [])),
     )
 
-    client = anthropic.Anthropic()
-    resp = client.messages.create(
-        model=_JUDGE_MODEL,
-        max_tokens=256,
-        messages=[{"role": "user", "content": prompt}],
+    deterministic_citation = _citation_score(
+        question_entry.get("gold_pmids", []),
+        run_result.get("cited_pmids", []),
     )
-    text = resp.content[0].text.strip()
+
+    try:
+        client = anthropic.Anthropic()
+        resp = client.messages.create(
+            model=_JUDGE_MODEL,
+            max_tokens=256,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = resp.content[0].text.strip()
+    except Exception as exc:
+        return {
+            "accuracy": 0,
+            "completeness": 0,
+            "citation_correctness": deterministic_citation,
+            "reasoning": f"judge error: {type(exc).__name__}: {exc}",
+        }
 
     m = _JSON_RE.search(text)
     if not m:
-        return {"accuracy": 0, "completeness": 0, "citation_correctness": 0, "reasoning": f"parse error: {text[:200]}"}
+        return {
+            "accuracy": 0,
+            "completeness": 0,
+            "citation_correctness": deterministic_citation,
+            "reasoning": f"parse error: {text[:200]}",
+        }
 
-    scores = json.loads(m.group())
+    try:
+        scores = json.loads(m.group())
+    except json.JSONDecodeError as exc:
+        return {
+            "accuracy": 0,
+            "completeness": 0,
+            "citation_correctness": deterministic_citation,
+            "reasoning": f"parse error: {exc}",
+        }
+
     for k in ("accuracy", "completeness", "citation_correctness"):
         scores.setdefault(k, 0)
+    # Override the model's citation_correctness with the deterministic
+    # score — keeps the aggregate citation metric reproducible.
+    scores["citation_correctness"] = deterministic_citation
     return scores

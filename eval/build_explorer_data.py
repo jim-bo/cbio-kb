@@ -44,7 +44,7 @@ def _load_questions() -> dict[str, dict]:
     return {q["id"]: q for q in data["questions"]}
 
 
-def _trim_answer(text: str, limit: int = 1200) -> str:
+def _answer_preview(text: str, limit: int = 1200) -> str:
     text = (text or "").strip()
     return text if len(text) <= limit else text[:limit].rstrip() + "…"
 
@@ -60,8 +60,10 @@ def _agentic_summary(rec: dict) -> dict:
             "chars": int(ev.get("chars") or 0),
             "summary": ev.get("summary"),
         })
+    answer = (rec.get("answer") or "").strip()
     return {
-        "answer": _trim_answer(rec.get("answer", "")),
+        "answer": answer,
+        "answer_preview": _answer_preview(answer),
         "cited_pmids": list(rec.get("cited_pmids") or []),
         "scores": rec.get("scores") or {},
         "wall_time_s": rec.get("wall_time_s"),
@@ -84,8 +86,10 @@ def _rag_summary(rec: dict) -> dict:
             "path": r.get("path") or (f"papers/{r.get('pmid')}.md" if r.get("pmid") else None),
             "chars": r.get("chars"),
         })
+    answer = (rec.get("answer") or "").strip()
     return {
-        "answer": _trim_answer(rec.get("answer", "")),
+        "answer": answer,
+        "answer_preview": _answer_preview(answer),
         "cited_pmids": list(rec.get("cited_pmids") or []),
         "scores": rec.get("scores") or {},
         "wall_time_s": rec.get("wall_time_s"),

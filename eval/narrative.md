@@ -44,7 +44,7 @@ corpus. The apparatus, data, and source are all reproducible from `eval/`.
 ## section:intro
 
 What good is a knowledge base if you can't get information out of it? Retrieval-augmented generation ({cite:lewis2020rag}) has become the default
-recipe for grounding language-model answers using from a knowledge base. The
+recipe for grounding language-model answers using a knowledge base. The
 classic implementation is vector search over fixed-size text chunks
 ({cite:karpukhin2020dpr}, {cite:khattab2022colbertv2}), evaluated on
 heterogeneous retrieval benchmarks ({cite:thakur2021beir},
@@ -68,13 +68,13 @@ between entity pages and their citing papers. The question we want to
 answer is modest: **given that graph, does an agent that walks it beat a
 vanilla RAG pipeline over the same papers?** If we find some signal it motivates building more structure into our cBioPortal knowledge base;
 a negative one says the structure isn't paying for itself and a plain
-embedding pipeline would do. Borrowing from the tradiation of Biomedical-QA evaluations we asked an LLM to craft a set of questions from these types; factoid, list, yes/no and summary
+embedding pipeline would do. Borrowing from the tradition of biomedical-QA evaluations we asked an LLM to craft a set of questions from these types; factoid, list, yes/no, and summary
 question types ({cite:krithara2023bioasq}, {cite:jin2019pubmedqa},
 {cite:wadden2020scifact}).
 
 This is just a first pass, our corpus is incomplete, we haven't thought critically about how to structure our graph or the content we abstract from each paper, and what is treated as an entity or not. Our wiki graph has no community-detection layer ({cite:edge2024graphrag}), no
 pre-computed theme/subgraph summaries, and no adaptive retrieval loop
-({cite:asai2023selfrag}, {cite:yan2024crag}). The questions are AI generated with minimal review, so treat the numbers here as a gist.
+({cite:asai2023selfrag}, {cite:yan2024crag}). The questions are AI-generated with minimal review, so treat the numbers here as a gist.
 
 ## section:methods
 
@@ -125,7 +125,7 @@ answer.
 
 *Takeaway — agentic wins on completeness and recall; RAG is 2× cheaper in
 tokens and ~2× faster in wall time. Accuracy and citation correctness are
-pretty much equiavalent.*
+roughly equivalent.*
 
 ## section:figure1_intro
 

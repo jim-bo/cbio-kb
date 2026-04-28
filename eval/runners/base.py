@@ -47,6 +47,7 @@ def run_question(
     timed_out = False
     tool_limit_reached = False
     llm_calls = None
+    error = None
 
     with httpx.Client(timeout=timeout) as client:
         with client.stream(
@@ -66,6 +67,8 @@ def run_question(
                     data = json.loads(line[6:])
                     if event_type == "text":
                         answer_parts.append(data.get("delta", ""))
+                    elif event_type == "error":
+                        error = data.get("error") or json.dumps(data, ensure_ascii=False)
                     elif event_type == "tool_use":
                         tool_uses.append(data)
                         for p in data.get("result_paths", []):
@@ -116,4 +119,6 @@ def run_question(
         result["timed_out"] = True
     if tool_limit_reached:
         result["tool_limit_reached"] = True
+    if error:
+        result["error"] = error
     return result

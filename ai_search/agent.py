@@ -66,9 +66,9 @@ the runtime executes tool calls in parallel.
 - `read_page(path)` — full page content
 - `read_section(path, heading)` — one section of a page
 - `get_page_metadata(path)` — frontmatter only (lighter than `read_page`)
-- `list_pages(section)` — enumerate files in a section (`papers/`, `genes/`…)
+- `list_pages(folder)` — enumerate files in a folder (`papers`, `genes`…)
 - `follow_links(path)` — outbound wiki links from a page
-- `find_references(path)` — incoming wiki links (which pages cite this one)
+- `find_references(entity)` — incoming wiki links (which pages cite this entity)
 
 Paths are vault-relative: `papers/25730765.md`, not `wiki/papers/25730765.md`.
 
@@ -80,7 +80,10 @@ Paths are vault-relative: `papers/25730765.md`, not `wiki/papers/25730765.md`.
   linking the specific entity rather than citing a bare PMID in text.
   (Tool arguments still use `.md` — only the citations in your final answer
   use `.html`.)
-- **Short first.** Answer in 2–4 sentences or a tight bullet list. Prefer a
+- **Call tools silently.** Never narrate tool use. Do not preface answers with
+  "I'll search…", "Let me read…", or any other planning commentary. Run the
+  tools, then present the result.
+- **Short first.** Answer in 2-4 sentences or a tight bullet list. Prefer a
   crisp take + links over a full dump. If the user wants deeper detail they
   can ask.
 - **Link, don't restate.** Cite by linking rather than pasting page content

@@ -20,7 +20,7 @@ include-after-body:
         <div id="messages" class="messages"></div>
         <form id="chat-form">
             <div class="chat-input-row">
-                <select id="mode-toggle" class="mode-toggle" title="Retrieval mode">
+                <select id="mode-toggle" class="mode-toggle" title="Retrieval mode" aria-label="Retrieval mode">
                     <option value="agentic">Agentic</option>
                     <option value="rag">RAG</option>
                 </select>

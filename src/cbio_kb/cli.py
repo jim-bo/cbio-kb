@@ -306,7 +306,8 @@ def build_parser() -> argparse.ArgumentParser:
     idx_bp.add_argument("--index-dir", default="data/paper_index")
     idx_bp.add_argument("--chunk-chars", type=int, default=900)
     idx_bp.add_argument("--overlap", type=int, default=120)
-    idx_bp.add_argument("--batch-size", type=int, default=100)
+    from cbio_kb.index.papers import _VERTEX_BATCH_SIZE
+    idx_bp.add_argument("--batch-size", type=int, default=_VERTEX_BATCH_SIZE)
     idx_bp.set_defaults(func=_cmd_index_build_papers)
 
     ont = sub.add_parser("ontology", help="Canonical ontology management")

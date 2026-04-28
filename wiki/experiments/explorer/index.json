@@ -103,7 +103,7 @@
     {
       "id": "L06",
       "category": "lookup",
-      "question": "In the phase 2 MIRT + nivolumab trial for recurrent HNSCC, what was the 1-year progression-free survival rate?",
+      "question": "In the phase 2 IMRT + nivolumab trial for recurrent HNSCC, what was the 1-year progression-free survival rate?",
       "has_agentic": true,
       "has_rag": true,
       "agentic_total": 15,

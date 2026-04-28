@@ -113,11 +113,16 @@ def build(run_dir: Path, out_dir: Path) -> list[dict]:
     for qid in sorted(by_id.keys()):
         modes = by_id[qid]
         q = questions.get(qid, {})
+        # Prefer the canonical question text from questions/v1.yaml so
+        # editing the source picks up on the next regenerate even when
+        # the underlying run records still have the old text baked in.
+        run_question = (modes.get("agentic") or modes.get("rag") or {}).get("question", "").strip()
+        canonical = (q.get("question") or "").strip()
         payload = {
             "id": qid,
             "category": (modes.get("agentic") or modes.get("rag") or {}).get("category", "—"),
             "split": (modes.get("agentic") or modes.get("rag") or {}).get("split", "—"),
-            "question": (modes.get("agentic") or modes.get("rag") or {}).get("question", "").strip(),
+            "question": canonical or run_question,
             "gold_pmids": [str(p) for p in (q.get("gold_pmids") or [])],
             "gold_notes": q.get("notes", ""),
             "run_id": run_dir.name,

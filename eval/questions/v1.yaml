@@ -83,7 +83,7 @@ questions:
     category: lookup
     split: train
     question: >
-      In the phase 2 MIRT + nivolumab trial for recurrent HNSCC, what was
+      In the phase 2 IMRT + nivolumab trial for recurrent HNSCC, what was
       the 1-year progression-free survival rate?
     gold_pmids: [38780927]
     gold_entities: [nivolumab, HNSC, imrt-reirradiation]
@@ -419,7 +419,7 @@ questions:
       predictive biomarker emerge across the corpus?
     gold_pmids: [37406106, 38780927]
     gold_entities: [CD274, PDCD1]
-    notes: MIRT+nivolumab no stratification (P=0.86 PFS); combined HER2+PD-1 EGC suggests variable prediction by context.
+    notes: IMRT+nivolumab no stratification (P=0.86 PFS); combined HER2+PD-1 EGC suggests variable prediction by context.
 
   - id: S12
     category: synthesis

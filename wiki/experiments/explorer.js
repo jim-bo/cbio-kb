@@ -111,7 +111,7 @@
         const card = document.getElementById('explorer-question-card');
         if (!card) return;
         const gold = (payload.gold_pmids || []).map(function(p) {
-            return '<code>' + p + '</code>';
+            return '<code>' + escapeHtml(String(p)) + '</code>';
         }).join(' ');
         card.innerHTML =
             '<span class="explorer-q-id">' + escapeHtml(payload.id) + '</span>' +

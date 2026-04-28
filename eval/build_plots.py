@@ -44,6 +44,14 @@ _CATEGORY_COLORS = {
 }
 _MODE_COLORS = {"agentic": "#4C78A8", "rag": "#E45756"}
 
+# Marker shape encodes the split a record came from. The diagnostic
+# plots pool train + val + test so the reader sees the full corpus,
+# but the shape lets them mentally filter to held-out (test) if they
+# want strict generalization claims.
+_SPLIT_MARKERS_MPL = {"train": "o", "val": "^", "test": "s"}
+_SPLIT_MARKERS_PLOTLY = {"train": "circle", "val": "triangle-up", "test": "square"}
+_SPLIT_ORDER = ("train", "val", "test")
+
 # Shared styling knobs. The plots are rendered at reduced width on the
 # Quarto page; the sizes below are chosen to stay readable even when
 # the PNG is scaled down to ~60% of its native width.
@@ -124,9 +132,11 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
         if ag_total is None or rg_total is None:
             continue
         cat = (ag or rg).get("category", "unknown")
+        split = (ag.get("split") or rg.get("split") or "train")
         wall = max(ag.get("wall_time_s", 0) or 0, rg.get("wall_time_s", 0) or 0)
         points.append({
-            "qid": qid, "cat": cat, "ag": ag_total, "rg": rg_total, "wall": wall,
+            "qid": qid, "cat": cat, "split": split,
+            "ag": ag_total, "rg": rg_total, "wall": wall,
         })
 
     # Group labels by (rg, ag) grid cell so overlapping corner pileups
@@ -141,6 +151,7 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
     for p in points:
         color = _CATEGORY_COLORS.get(p["cat"], "#888")
         size = 60 + (p["wall"] * 6)
+        marker = _SPLIT_MARKERS_MPL.get(p["split"], "o")
         # Deterministic jitter so points at the same integer coords don't
         # hide each other.
         jitter_seed += 1
@@ -148,7 +159,8 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
         jy = ((jitter_seed * 23) % 7 - 3) * 0.06
         ax.scatter(
             p["rg"] + jx, p["ag"] + jy,
-            s=size, c=color, alpha=0.78, edgecolors="white", linewidths=1.0,
+            s=size, c=color, marker=marker,
+            alpha=0.78, edgecolors="white", linewidths=1.0,
         )
 
     # Annotate each grid cell exactly once, avoiding text pileups. Near
@@ -191,14 +203,26 @@ def plot_per_question_scatter(records: list[dict], out: Path) -> None:
     ax.set_ylabel("Agentic judge score")
     ax.set_title("Per-question judge score, agentic vs RAG\n(bubble size ∝ max wall time)")
 
-    legend_handles = [
+    cat_handles = [
         plt.Line2D([0], [0], marker="o", color="w", label=cat,
                    markerfacecolor=c, markersize=10)
         for cat, c in _CATEGORY_COLORS.items()
     ]
-    ax.legend(handles=legend_handles, loc="lower right", frameon=True,
-              framealpha=0.9, title="category", fontsize=_LEGEND_SIZE,
-              title_fontsize=_LEGEND_SIZE)
+    splits_present = {p["split"] for p in points}
+    split_handles = [
+        plt.Line2D([0], [0], marker=_SPLIT_MARKERS_MPL[s], color="w",
+                   label=s, markerfacecolor="#666", markersize=10)
+        for s in _SPLIT_ORDER if s in splits_present
+    ]
+    leg1 = ax.legend(handles=cat_handles, loc="lower right", frameon=True,
+                     framealpha=0.9, title="category", fontsize=_LEGEND_SIZE,
+                     title_fontsize=_LEGEND_SIZE)
+    ax.add_artist(leg1)
+    if split_handles:
+        ax.legend(handles=split_handles, loc="lower right",
+                  bbox_to_anchor=(1.0, 0.28), frameon=True, framealpha=0.9,
+                  title="split", fontsize=_LEGEND_SIZE,
+                  title_fontsize=_LEGEND_SIZE)
     ax.grid(True, alpha=0.2)
     _apply_style(fig)
     fig.tight_layout()
@@ -231,10 +255,7 @@ def plot_per_question_scatter_interactive(records: list[dict], out: Path) -> Non
         by_id.setdefault(r["id"], {})[r["mode"]] = r
 
     categories = list(_CATEGORY_COLORS.keys())
-    per_cat: dict[str, dict[str, list]] = {
-        cat: {"x": [], "y": [], "size": [], "ids": [], "hover": []}
-        for cat in categories
-    }
+    per_group: dict[tuple[str, str], dict[str, list]] = {}
 
     for qid, modes in sorted(by_id.items()):
         ag = modes.get("agentic", {})
@@ -244,8 +265,11 @@ def plot_per_question_scatter_interactive(records: list[dict], out: Path) -> Non
         if ag_total is None or rg_total is None:
             continue
         cat = (ag or rg).get("category", "unknown")
-        if cat not in per_cat:
+        if cat not in categories:
             continue
+        split = (ag.get("split") or rg.get("split") or "train")
+        key = (cat, split)
+        per_group.setdefault(key, {"x": [], "y": [], "size": [], "ids": [], "hover": []})
 
         ag_scores = ag.get("scores", {})
         rg_scores = rg.get("scores", {})
@@ -273,34 +297,38 @@ def plot_per_question_scatter_interactive(records: list[dict], out: Path) -> Non
         )
 
         wall = max(ag_wall, rg_wall)
-        per_cat[cat]["x"].append(rg_total)
-        per_cat[cat]["y"].append(ag_total)
-        per_cat[cat]["size"].append(10 + wall * 0.7)
-        per_cat[cat]["ids"].append(qid)
-        per_cat[cat]["hover"].append(hover)
+        d = per_group[key]
+        d["x"].append(rg_total)
+        d["y"].append(ag_total)
+        d["size"].append(10 + wall * 0.7)
+        d["ids"].append(qid)
+        d["hover"].append(hover)
 
     fig = go.Figure()
     for cat in categories:
-        d = per_cat[cat]
-        if not d["x"]:
-            continue
-        fig.add_trace(go.Scatter(
-            x=d["x"], y=d["y"],
-            mode="markers+text",
-            text=d["ids"],
-            textposition="top center",
-            textfont=dict(size=9, color="#444"),
-            marker=dict(
-                size=d["size"],
-                color=_CATEGORY_COLORS[cat],
-                opacity=0.75,
-                line=dict(color="white", width=1),
-            ),
-            name=cat,
-            hovertext=d["hover"],
-            hoverinfo="text",
-            hoverlabel=dict(bgcolor="white", font_size=11, align="left"),
-        ))
+        for split in _SPLIT_ORDER:
+            d = per_group.get((cat, split))
+            if not d or not d["x"]:
+                continue
+            fig.add_trace(go.Scatter(
+                x=d["x"], y=d["y"],
+                mode="markers+text",
+                text=d["ids"],
+                textposition="top center",
+                textfont=dict(size=9, color="#444"),
+                marker=dict(
+                    size=d["size"],
+                    color=_CATEGORY_COLORS[cat],
+                    symbol=_SPLIT_MARKERS_PLOTLY.get(split, "circle"),
+                    opacity=0.75,
+                    line=dict(color="white", width=1),
+                ),
+                name=f"{cat} · {split}",
+                legendgroup=cat,
+                hovertext=d["hover"],
+                hoverinfo="text",
+                hoverlabel=dict(bgcolor="white", font_size=11, align="left"),
+            ))
 
     # y = x reference line
     fig.add_shape(
@@ -416,22 +444,29 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
          "Latency"),
     ]
 
+    splits_seen: set[str] = set()
     for ax, (xkey, xlabel, xlog, panel_title) in zip(axes, panels):
         for mode, color in _MODE_COLORS.items():
-            xs, ys = [], []
-            for r in records:
-                if r.get("mode") != mode:
-                    continue
-                total = _total_score(r)
-                xv = r.get(xkey)
-                if total is None or xv is None or xv <= 0:
-                    continue
-                xs.append(xv)
-                ys.append(total)
-            if xs:
-                ax.scatter(xs, ys, c=color, alpha=0.7, s=80,
-                           edgecolors="white", linewidths=0.8,
-                           label=mode.title())
+            for split in _SPLIT_ORDER:
+                marker = _SPLIT_MARKERS_MPL[split]
+                xs, ys = [], []
+                for r in records:
+                    if r.get("mode") != mode:
+                        continue
+                    if (r.get("split") or "train") != split:
+                        continue
+                    total = _total_score(r)
+                    xv = r.get(xkey)
+                    if total is None or xv is None or xv <= 0:
+                        continue
+                    xs.append(xv)
+                    ys.append(total)
+                if xs:
+                    splits_seen.add(split)
+                    label = mode.title() if ax is axes[0] and split == "train" else None
+                    ax.scatter(xs, ys, c=color, marker=marker, alpha=0.7, s=80,
+                               edgecolors="white", linewidths=0.8,
+                               label=label)
         ax.set_xlabel(xlabel)
         ax.set_title(panel_title)
         if xlog:
@@ -440,12 +475,20 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
 
     axes[0].set_ylabel("Total judge score (3–15)")
     # Figure-level legend above the panels, same pattern as category_bars.
-    handles, labels = axes[0].get_legend_handles_labels()
+    # Color = mode (from axes[0]'s label-bearing scatters), shape = split
+    # (synthesized so the strip lists train/val/test in order).
+    mode_handles, mode_labels = axes[0].get_legend_handles_labels()
+    split_handles = [
+        plt.Line2D([0], [0], marker=_SPLIT_MARKERS_MPL[s], color="w",
+                   label=s, markerfacecolor="#666", markersize=10)
+        for s in _SPLIT_ORDER if s in splits_seen
+    ]
+    split_labels = [h.get_label() for h in split_handles]
     fig.legend(
-        handles, labels,
+        mode_handles + split_handles, mode_labels + split_labels,
         loc="upper center",
         bbox_to_anchor=(0.5, 0.93),
-        ncol=len(labels),
+        ncol=len(mode_labels) + len(split_labels),
         frameon=False,
         fontsize=_LEGEND_SIZE,
     )
@@ -456,8 +499,12 @@ def plot_cost_quality(records: list[dict], out: Path) -> None:
     plt.close(fig)
 
 
-def render_all(run_dir: Path, out_dir: Path) -> list[Path]:
+def render_all(run_dir: Path, out_dir: Path,
+               extra_dirs: dict[str, Path] | None = None) -> list[Path]:
     records = _load_runs(run_dir)
+    if extra_dirs:
+        for _, d in extra_dirs.items():
+            records.extend(_load_runs(d))
     out_dir.mkdir(parents=True, exist_ok=True)
     outputs = []
     targets = [

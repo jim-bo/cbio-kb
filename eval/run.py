@@ -50,7 +50,10 @@ def run_eval(
         print(f"[!] no questions for split={split} ids={ids}", file=sys.stderr)
         sys.exit(1)
 
-    ts = datetime.now().strftime("%Y-%m-%d-%H%M")
+    # Second-precision timestamp so two runs in the same minute don't
+    # merge into one results dir (which would corrupt runs.jsonl by
+    # appending records from both).
+    ts = datetime.now().strftime("%Y-%m-%d-%H%M%S")
     out_dir = _EVAL_DIR / "results" / ts
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -126,11 +129,18 @@ def run_eval(
 def _write_report(records: list[dict], modes: list[str], path: Path) -> None:
     lines = ["# Eval Report\n"]
 
+    _DIMS = ("accuracy", "completeness", "citation_correctness")
+
+    def _is_scored(r: dict) -> bool:
+        s = r.get("scores")
+        return isinstance(s, dict) and all(d in s for d in _DIMS)
+
     for mode in modes:
         mode_recs = [r for r in records if r.get("mode") == mode and "scores" in r]
         if not mode_recs:
             continue
-        lines.append(f"\n## {mode.title()} mode ({len(mode_recs)} questions)\n")
+        scored_recs = [r for r in mode_recs if _is_scored(r)]
+        lines.append(f"\n## {mode.title()} mode ({len(scored_recs)} scored questions)\n")
 
         for dim in ("accuracy", "completeness", "citation_correctness"):
             vals = [r["scores"][dim] for r in mode_recs if dim in r.get("scores", {})]
@@ -172,7 +182,7 @@ def _write_report(records: list[dict], modes: list[str], path: Path) -> None:
                         if isinstance(r.get("citation_recall"), (int, float))]
             if not (acc_vals and comp_vals and cite_vals):
                 continue
-            n = len(cat_recs)
+            n = sum(1 for r in cat_recs if _is_scored(r))
             acc = mean(acc_vals)
             comp = mean(comp_vals)
             cite = mean(cite_vals)

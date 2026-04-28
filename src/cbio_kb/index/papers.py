@@ -249,6 +249,12 @@ def main(argv: list[str] | None = None) -> int:
     pb.set_defaults(func=cmd_build)
 
     args = p.parse_args(argv)
+    if getattr(args, "batch_size", 1) <= 0:
+        p.error("--batch-size must be > 0")
+    if getattr(args, "chunk_chars", 1) <= 0:
+        p.error("--chunk-chars must be > 0")
+    if not 0 <= getattr(args, "overlap", 0) < getattr(args, "chunk_chars", 1):
+        p.error("--overlap must be >= 0 and smaller than --chunk-chars")
     return args.func(args)
 
 

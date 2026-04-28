@@ -167,56 +167,59 @@ async def rag_event_generator(
         }),
     )
 
-    # Retrieval (blocking but fast — run in executor to not block event loop)
-    loop = asyncio.get_event_loop()
-    passages = await loop.run_in_executor(
-        None, retrieve, user_message, max_context_chars, top_k
-    )
-
-    # Emit one synthetic tool_use event for the retrieval step
-    retrieved_pmids = list(dict.fromkeys(p["pmid"] for p in passages))
-    total_chars = sum(len(p["text"]) for p in passages)
-    results_payload = [
-        {
-            "pmid": p["pmid"],
-            "chunk_id": p.get("chunk_id"),
-            "score": round(float(p["score"]), 4),
-            "path": f"papers/{p['pmid']}.md",
-            "chars": len(p["text"]),
-        }
-        for p in passages
-    ]
-    yield (
-        "tool_use",
-        json.dumps({
-            "name": "vector_search",
-            "args": {
-                "query": user_message,
-                "top_k": top_k,
-                "max_context_chars": max_context_chars,
-            },
-            "preview": json.dumps(
-                [{"pmid": p["pmid"], "score": round(p["score"], 3)}
-                 for p in passages[:10]]
-            ),
-            "summary": f"{len(passages)} passages from {len(retrieved_pmids)} papers",
-            "chars": total_chars,
-            "tokens": max(1, total_chars // 4),
-            "turn_index": 0,
-            "result_paths": [f"papers/{pmid}.md" for pmid in retrieved_pmids],
-            "results": results_payload,
-            "t_start": 0.0,
-            "t_end": 0.0,
-        }),
-    )
-
-    # Build the prompt and stream from Anthropic
-    from .agent import MODEL
-
-    model_id = MODEL.replace("anthropic:", "") if MODEL.startswith("anthropic:") else MODEL
-    user_prompt = _build_rag_prompt(passages, user_message)
-
+    # Retrieval + synthesis are wrapped in a single guard so any failure
+    # (missing FAISS index, unset GCP_PROJECT, embedding error, Anthropic
+    # error) reaches the client through the structured error/done SSE
+    # path instead of bubbling out and aborting the stream uncaught.
     try:
+        loop = asyncio.get_event_loop()
+        passages = await loop.run_in_executor(
+            None, retrieve, user_message, max_context_chars, top_k
+        )
+
+        # Emit one synthetic tool_use event for the retrieval step
+        retrieved_pmids = list(dict.fromkeys(p["pmid"] for p in passages))
+        total_chars = sum(len(p["text"]) for p in passages)
+        results_payload = [
+            {
+                "pmid": p["pmid"],
+                "chunk_id": p.get("chunk_id"),
+                "score": round(float(p["score"]), 4),
+                "path": f"papers/{p['pmid']}.md",
+                "chars": len(p["text"]),
+            }
+            for p in passages
+        ]
+        yield (
+            "tool_use",
+            json.dumps({
+                "name": "vector_search",
+                "args": {
+                    "query": user_message,
+                    "top_k": top_k,
+                    "max_context_chars": max_context_chars,
+                },
+                "preview": json.dumps(
+                    [{"pmid": p["pmid"], "score": round(p["score"], 3)}
+                     for p in passages[:10]]
+                ),
+                "summary": f"{len(passages)} passages from {len(retrieved_pmids)} papers",
+                "chars": total_chars,
+                "tokens": max(1, total_chars // 4),
+                "turn_index": 0,
+                "result_paths": [f"papers/{pmid}.md" for pmid in retrieved_pmids],
+                "results": results_payload,
+                "t_start": 0.0,
+                "t_end": 0.0,
+            }),
+        )
+
+        # Build the prompt and stream from Anthropic
+        from .agent import MODEL
+
+        model_id = MODEL.replace("anthropic:", "") if MODEL.startswith("anthropic:") else MODEL
+        user_prompt = _build_rag_prompt(passages, user_message)
+
         client = anthropic.AsyncAnthropic()
         async with client.messages.stream(
             model=model_id,

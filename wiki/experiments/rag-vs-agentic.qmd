@@ -320,7 +320,7 @@ results* section below.
 | L03 | train | lookup | In the ADC radiosensitization study, what tumor doubling-time increase was observed in HER2-positive OE19 xenografts receiving T-DM1 combined with 2.5 Gy x 3 radiation? | `27698471` |
 | L04 | train | lookup | In the ROBIN consortium preclinical data, which dietary intervention unexpectedly promoted radio-resistance? | `41941260` |
 | L05 | train | lookup | What four CT radiomic features make up the Aerts prognostic signature trained on NSCLC Lung1/MAASTRO? | `24892406` |
-| L06 | train | lookup | In the phase 2 MIRT + nivolumab trial for recurrent HNSCC, what was the 1-year progression-free survival rate? | `38780927` |
+| L06 | train | lookup | In the phase 2 IMRT + nivolumab trial for recurrent HNSCC, what was the 1-year progression-free survival rate? | `38780927` |
 | L07 | train | lookup | What targeted therapy is the subject of the FGFR3-altered urothelial carcinoma real-world outcomes study? | `37682528` |
 | L08 | train | lookup | In the peripheral T-cell lymphoma CHOP-based chemotherapy cohort, which mutation identified high-risk events? | `37078708` |
 | L09 | train | lookup | In the appendiceal adenocarcinoma molecular classification, which two RAS-pathway genes co-drive the mucinous subtype? | `36493333` |

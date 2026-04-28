@@ -683,7 +683,12 @@ def main(argv: list[str] | None = None) -> int:
     # HTML snippet, so it needs to exist on disk before _render() reads it.
     try:
         from .build_plots import render_all
-        render_all(run_dir, _PLOTS_DIR)
+        plot_extras = {}
+        if args.val_dir:
+            plot_extras["val"] = args.val_dir
+        if args.test_dir:
+            plot_extras["test"] = args.test_dir
+        render_all(run_dir, _PLOTS_DIR, extra_dirs=plot_extras or None)
     except Exception as e:
         print(f"[!] plot rendering skipped: {e}", file=sys.stderr)
 

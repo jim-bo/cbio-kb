@@ -43,9 +43,9 @@ corpus. The apparatus, data, and source are all reproducible from `eval/`.
 
 ## section:intro
 
-Retrieval-augmented generation ({cite:lewis2020rag}) has become the default
-recipe for grounding language-model answers in a specific corpus. The
-dominant implementation is dense-vector search over fixed-size text chunks
+What good is a knowledge base if you can't get information out of it? Retrieval-augmented generation ({cite:lewis2020rag}) has become the default
+recipe for grounding language-model answers using from a knowledge base. The
+classic implementation is vector search over fixed-size text chunks
 ({cite:karpukhin2020dpr}, {cite:khattab2022colbertv2}), evaluated on
 heterogeneous retrieval benchmarks ({cite:thakur2021beir},
 {cite:muennighoff2022mteb}) and generation-quality rubrics
@@ -58,30 +58,23 @@ structure over the corpus and walks it; agentic retrieval
 {cite:yan2024crag}, {cite:singh2025agenticrag}) lets a language-model
 agent decide what to read next based on what it just saw. Both converge
 on the same observation: for questions that span documents, flat top-k
-vector search is underpowered.
+vector search is **not the best fit**.
 
-This experiment is a preliminary step in that direction for a
-cancer-genomics corpus. We already maintain a hand-compiled wiki of
+This experiment is a preliminary step in trying to unpack this idea for a
+cancer-genomics knowledge base powering a chat bot. We already maintain a hand-compiled wiki of
 papers, genes, cancer types, datasets, drugs and methods (56 papers as of
-this run, a subset of the cBioPortal publication list), with cross-links
+this run, a subset of the cBioPortal publication list + some extras), with cross-links
 between entity pages and their citing papers. The question we want to
-answer is modest: *given that graph, does an agent that walks it beat a
-vanilla RAG pipeline over the same papers?* A positive answer makes the
-wiki investment defensible and motivates building more structure into it;
+answer is modest: **given that graph, does an agent that walks it beat a
+vanilla RAG pipeline over the same papers?** If we find some signal it motivates building more structure into our cBioPortal knowledge base;
 a negative one says the structure isn't paying for itself and a plain
-embedding pipeline would do. Biomedical-QA evaluation has a long tradition
-of treating this setup carefully — factoid, list, yes/no and summary
+embedding pipeline would do. Borrowing from the tradiation of Biomedical-QA evaluations we asked an LLM to craft a set of questions from these types; factoid, list, yes/no and summary
 question types ({cite:krithara2023bioasq}, {cite:jin2019pubmedqa},
-{cite:wadden2020scifact}) — which shaped our question set.
+{cite:wadden2020scifact}).
 
-We are aware of several gaps before this can serve as a full comparison
-to the 2024–2026 GraphRAG / agentic-retrieval literature. Our wiki graph
-has no community-detection layer ({cite:edge2024graphrag}), no
+This is just a first pass, our corpus is incomplete, we haven't thought critically about how to structure our graph or the content we abstract from each paper, and what is treated as an entity or not. Our wiki graph has no community-detection layer ({cite:edge2024graphrag}), no
 pre-computed theme/subgraph summaries, and no adaptive retrieval loop
-({cite:asai2023selfrag}, {cite:yan2024crag}). We are under-covering the
-full cBioPortal publication set (56 of several hundred), and
-question-set coverage of synthesis and list question types is thin. Treat
-the numbers here as directional, not absolute.
+({cite:asai2023selfrag}, {cite:yan2024crag}). The questions are AI generated with minimal review, so treat the numbers here as a gist.
 
 ## section:methods
 
@@ -91,7 +84,7 @@ they were fully ingested into both our compiled wiki (at
 at `data/raw/papers/{pmid}.md`). Both retrieval modes see exactly this set
 — no side channel.
 
-**Question set.** 50 questions authored manually, split 30 / 10 / 10 across
+**Question set.** 50 questions authored by an LLM, split 30 / 10 / 10 across
 train / val / test, and tagged with one of four categories: *lookup*
 (single-paper factoid), *list* (enumerate papers or entities meeting a
 criterion), *synthesis* (cross-paper claim), or *definition* (what is X?).
@@ -132,7 +125,7 @@ answer.
 
 *Takeaway — agentic wins on completeness and recall; RAG is 2× cheaper in
 tokens and ~2× faster in wall time. Accuracy and citation correctness are
-within noise.*
+pretty much equiavalent.*
 
 ## section:figure1_intro
 

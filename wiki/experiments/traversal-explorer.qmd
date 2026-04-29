@@ -1,0 +1,87 @@
+---
+title: "Traversal explorer — agentic vs RAG, side by side"
+page-layout: full
+css:
+  - explorer.css
+include-in-header:
+  - text: |
+      <script src="../vendor-d3.min.js"></script>
+include-after-body:
+  - text: |
+      <script src="explorer-graph.js"></script>
+      <script src="explorer.js"></script>
+---
+
+Pick a question from the dropdown. The left panel shows the agentic agent's
+traversal over the wiki graph — nodes light up in call order (numbered
+badges) with ancestor chains highlighted. The right panel shows RAG's
+retrieval concentration — paper nodes are sized by how many chunks were
+pulled from that paper and tinted by their max cosine similarity.
+
+Both panels render the same wiki graph, so you see at a glance what each
+method actually *looked at* and where their footprints agree or diverge.
+
+```{=html}
+<div class="explorer-container">
+    <div class="explorer-shell">
+        <div class="explorer-controls">
+            <label for="explorer-question-select">Question:</label>
+            <select id="explorer-question-select"></select>
+            <span class="explorer-meta" id="explorer-run-meta"></span>
+        </div>
+
+        <div class="explorer-question-card" id="explorer-question-card">
+            <em>Loading…</em>
+        </div>
+
+        <div class="explorer-panels">
+            <div class="explorer-panel">
+                <div class="explorer-panel-header">
+                    <h3>Agentic — graph traversal</h3>
+                    <span class="explorer-panel-score" id="agentic-score"></span>
+                </div>
+                <div class="explorer-graph" id="agentic-graph"></div>
+                <div class="explorer-panel-answer" id="agentic-answer"></div>
+            </div>
+
+            <div class="explorer-panel">
+                <div class="explorer-panel-header">
+                    <h3>RAG — retrieval concentration</h3>
+                    <span class="explorer-panel-score" id="rag-score"></span>
+                </div>
+                <div class="explorer-graph" id="rag-graph"></div>
+                <div class="explorer-panel-answer" id="rag-answer"></div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+
+## Reading the panels
+
+**Left (agentic).** Every node with a red ring was touched by a tool call.
+The small number next to each ring is the call's position in the sequence
+(1 = first). Red tree edges show the ancestor chain from the wiki root to
+each visited page. If the agent called tools in parallel (issued multiple
+`read_page` calls in one model turn), their badges will be consecutive
+integers even though they executed at roughly the same wall-clock time.
+
+**Right (RAG).** Every blue-ringed node is a paper RAG pulled chunks
+from. Node **size** scales with chunk count (more chunks → bigger circle);
+stroke **opacity** scales with the top chunk's cosine similarity (stronger
+match → solider ring). The `×N` label is the chunk count. RAG sees
+documents only through their embedded chunks, so the right panel never
+touches `index.md` or section pages — only leaves in `papers/`.
+
+## What to look for
+
+- **Overlap:** do both panels land on the same papers? If yes, both
+  strategies "see" the same evidence and the difference is only in how
+  they assemble it. If no — one found evidence the other missed.
+- **Concentration vs breadth:** a single fat blue node (RAG) means the
+  embedder latched onto one paper; many small ones mean the question
+  lives across many papers. The same contrast shows up on the agentic
+  side as a long call chain vs a broad fan of parallel reads.
+- **Off-target retrieval:** RAG nodes with high chunk counts but not in
+  the gold PMID list hint at semantic near-misses — a sign you might
+  need chunk filtering or query rewriting.

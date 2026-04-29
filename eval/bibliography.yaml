@@ -1,0 +1,212 @@
+# Bibliography for wiki/experiments/rag-vs-agentic.qmd
+#
+# Used by eval/build_report.py to render both inline citations (via the
+# _cite(key) helper) and the ## References section at the bottom of the
+# page. Entries are grouped into five buckets; keep group order here.
+
+groups:
+  - id: seminal_rag
+    label: "Seminal RAG"
+  - id: retrieval_eval
+    label: "Dense retrieval and evaluation"
+  - id: graph_rag
+    label: "GraphRAG and knowledge-graph retrieval"
+  - id: agentic_retrieval
+    label: "Agentic retrieval and tool use"
+  - id: biomed_qa
+    label: "Biomedical question-answering benchmarks"
+
+entries:
+  # --- Seminal RAG -----------------------------------------------------
+  - key: lewis2020rag
+    authors: "Lewis, P. et al."
+    year: 2020
+    title: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+    venue: "NeurIPS"
+    url: "https://arxiv.org/abs/2005.11401"
+    bucket: seminal_rag
+    one_liner: "Founding paper of the RAG paradigm — dense retriever + seq2seq generator."
+
+  - key: guu2020realm
+    authors: "Guu, K. et al."
+    year: 2020
+    title: "REALM: Retrieval-Augmented Language Model Pre-Training"
+    venue: "ICML"
+    url: "https://arxiv.org/abs/2002.08909"
+    bucket: seminal_rag
+    one_liner: "Pre-trains retrieval directly into the language model via masked LM signal."
+
+  - key: izacard2021fid
+    authors: "Izacard, G. and Grave, E."
+    year: 2021
+    title: "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering"
+    venue: "EACL"
+    url: "https://arxiv.org/abs/2007.01282"
+    bucket: seminal_rag
+    one_liner: "Fusion-in-Decoder (FiD) architecture — encodes passages independently, fuses them in the decoder."
+
+  - key: izacard2022atlas
+    authors: "Izacard, G. et al."
+    year: 2022
+    title: "Atlas: Few-shot Learning with Retrieval Augmented Language Models"
+    venue: "JMLR"
+    url: "https://arxiv.org/abs/2208.03299"
+    bucket: seminal_rag
+    one_liner: "End-to-end pretrained RAG — Contriever + FiD trained jointly at scale."
+
+  # --- Dense retrieval and evaluation ---------------------------------
+  - key: karpukhin2020dpr
+    authors: "Karpukhin, V. et al."
+    year: 2020
+    title: "Dense Passage Retrieval for Open-Domain Question Answering"
+    venue: "EMNLP"
+    url: "https://arxiv.org/abs/2004.04906"
+    bucket: retrieval_eval
+    one_liner: "DPR — dual-encoder dense retrievers, the canonical RAG retriever baseline."
+
+  - key: khattab2022colbertv2
+    authors: "Santhanam, K., Khattab, O. et al."
+    year: 2022
+    title: "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction"
+    venue: "NAACL"
+    url: "https://arxiv.org/abs/2112.01488"
+    bucket: retrieval_eval
+    one_liner: "Token-level late interaction at cross-encoder quality, 6-10x smaller footprint."
+
+  - key: thakur2021beir
+    authors: "Thakur, N. et al."
+    year: 2021
+    title: "BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models"
+    venue: "NeurIPS Datasets & Benchmarks"
+    url: "https://arxiv.org/abs/2104.08663"
+    bucket: retrieval_eval
+    one_liner: "18 diverse IR tasks — the standard benchmark for retriever robustness."
+
+  - key: muennighoff2022mteb
+    authors: "Muennighoff, N. et al."
+    year: 2023
+    title: "MTEB: Massive Text Embedding Benchmark"
+    venue: "EACL"
+    url: "https://arxiv.org/abs/2210.07316"
+    bucket: retrieval_eval
+    one_liner: "56+ embedding tasks across retrieval, classification, clustering; de facto embedding leaderboard."
+
+  - key: es2023ragas
+    authors: "Es, S. et al."
+    year: 2023
+    title: "RAGAS: Automated Evaluation of Retrieval Augmented Generation"
+    venue: "arXiv"
+    url: "https://arxiv.org/abs/2309.15217"
+    bucket: retrieval_eval
+    one_liner: "Reference-free RAG metrics — context precision/recall, faithfulness, answer relevancy."
+
+  # --- GraphRAG and knowledge-graph retrieval -------------------------
+  - key: edge2024graphrag
+    authors: "Edge, D. et al."
+    year: 2024
+    title: "From Local to Global: A Graph RAG Approach to Query-Focused Summarization"
+    venue: "arXiv (Microsoft Research)"
+    url: "https://arxiv.org/abs/2404.16130"
+    bucket: graph_rag
+    one_liner: "Entity KG + Leiden communities + hierarchical summaries; large gains on global sensemaking queries."
+
+  - key: jimenez2024hipporag
+    authors: "Gutiérrez, B. J., Shu, Y., Jiménez, E. et al."
+    year: 2024
+    title: "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models"
+    venue: "NeurIPS"
+    url: "https://arxiv.org/abs/2405.14831"
+    bucket: graph_rag
+    one_liner: "KG + Personalized PageRank inspired by hippocampal indexing; strong on multi-hop QA at 10-30x lower cost than iterative RAG."
+
+  - key: guo2024lightrag
+    authors: "Guo, Z. et al."
+    year: 2024
+    title: "LightRAG: Simple and Fast Retrieval-Augmented Generation"
+    venue: "EMNLP Findings"
+    url: "https://arxiv.org/abs/2410.05779"
+    bucket: graph_rag
+    one_liner: "Lightweight KG with dual-level entity + theme retrieval; ~30% latency drop vs GraphRAG."
+
+  - key: gao2024structrag
+    authors: "Gao, Z. et al."
+    year: 2024
+    title: "StructRAG: Boosting Knowledge Intensive Reasoning via Inference-time Hybrid Information Structurization"
+    venue: "arXiv"
+    url: "https://arxiv.org/abs/2410.08815"
+    bucket: graph_rag
+    one_liner: "LLM router picks per-query structure (table / graph / catalogue); beats vanilla RAG on CS + science corpora."
+
+  # --- Agentic retrieval and tool use ---------------------------------
+  - key: yao2023react
+    authors: "Yao, S. et al."
+    year: 2023
+    title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+    venue: "ICLR"
+    url: "https://arxiv.org/abs/2210.03629"
+    bucket: agentic_retrieval
+    one_liner: "Interleaved reasoning traces and tool calls — the canonical agent-loop pattern."
+
+  - key: nakano2022webgpt
+    authors: "Nakano, R. et al."
+    year: 2022
+    title: "WebGPT: Browser-assisted Question-Answering with Human Feedback"
+    venue: "arXiv (OpenAI)"
+    url: "https://arxiv.org/abs/2112.09332"
+    bucket: agentic_retrieval
+    one_liner: "Fine-tuned GPT-3 browses the web and cites sources; early LLM-agent milestone."
+
+  - key: asai2023selfrag
+    authors: "Asai, A. et al."
+    year: 2023
+    title: "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+    venue: "ICLR 2024"
+    url: "https://arxiv.org/abs/2310.11511"
+    bucket: agentic_retrieval
+    one_liner: "Reflection tokens let the model decide when to retrieve and critique its own outputs."
+
+  - key: yan2024crag
+    authors: "Yan, S.-Q. et al."
+    year: 2024
+    title: "Corrective Retrieval Augmented Generation"
+    venue: "arXiv"
+    url: "https://arxiv.org/abs/2401.15884"
+    bucket: agentic_retrieval
+    one_liner: "Retrieval evaluator triggers refinement or web-search fallback — robustness against bad retrievals."
+
+  - key: singh2025agenticrag
+    authors: "Singh, A. et al."
+    year: 2025
+    title: "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG"
+    venue: "arXiv"
+    url: "https://arxiv.org/abs/2501.09136"
+    bucket: agentic_retrieval
+    one_liner: "2025 survey of agentic-RAG systems — autonomous agents replacing static pipelines."
+
+  # --- Biomedical question-answering benchmarks -----------------------
+  - key: krithara2023bioasq
+    authors: "Krithara, A. et al."
+    year: 2023
+    title: "BioASQ-QA: A Manually Curated Corpus for Biomedical Question Answering"
+    venue: "Nature Scientific Data"
+    url: "https://www.nature.com/articles/s41597-023-02068-4"
+    bucket: biomed_qa
+    one_liner: "Curated biomedical QA — factoid / list / yes-no / summary types, annual shared task."
+
+  - key: jin2019pubmedqa
+    authors: "Jin, Q. et al."
+    year: 2019
+    title: "PubMedQA: A Dataset for Biomedical Research Question Answering"
+    venue: "EMNLP"
+    url: "https://arxiv.org/abs/1909.06146"
+    bucket: biomed_qa
+    one_liner: "PubMed-abstract QA, yes/no format; canonical biomedical QA benchmark."
+
+  - key: wadden2020scifact
+    authors: "Wadden, D. et al."
+    year: 2020
+    title: "Fact or Fiction: Verifying Scientific Claims"
+    venue: "EMNLP"
+    url: "https://arxiv.org/abs/2004.14974"
+    bucket: biomed_qa
+    one_liner: "SciFact — retrieval + abstractive evidence over biomedical literature."

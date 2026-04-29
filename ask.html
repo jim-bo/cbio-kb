@@ -128,6 +128,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Themes</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./ask.html" aria-current="page"> 
 <span class="menu-text">Ask</span></a>
   </li>  
@@ -171,8 +175,14 @@ ul.task-list li input[type="checkbox"] {
     <div class="chat-panel">
         <div id="messages" class="messages"></div>
         <form id="chat-form">
-            <input type="text" id="user-input" placeholder="Ask about genes, papers, cancer types..." autocomplete="off" autofocus="">
-            <button type="submit" id="send-btn">Send</button>
+            <div class="chat-input-row">
+                <select id="mode-toggle" class="mode-toggle" title="Retrieval mode" aria-label="Retrieval mode">
+                    <option value="agentic">Agentic</option>
+                    <option value="rag">RAG</option>
+                </select>
+                <input type="text" id="user-input" placeholder="Ask about genes, papers, cancer types..." autocomplete="off" autofocus="">
+                <button type="submit" id="send-btn">Send</button>
+            </div>
         </form>
     </div>
 
@@ -206,7 +216,9 @@ ul.task-list li input[type="checkbox"] {
             </div>
             <div class="drawer-pane" id="graph-pane">
                 <div class="drawer-info-panel" id="graph-info" hidden="">
-                    <p>A map of the wiki. Index on the left, section folders in the middle, every page as a leaf on the right. As the AI reads pages their nodes light up and the path from Index → section → page traces in yellow. Hover a leaf to see its cross-links to other pages, and click any node to open that page.</p>
+                    <p>A map of the wiki. Index on the left, section folders in the middle, every page as a leaf on the right. Hover a leaf to see its cross-links to other pages, and click any node to open that page.</p>
+                    <p><strong>Agentic mode:</strong> nodes light up as the AI navigates the wiki, tracing the path it follows from Index → section → page on each turn.</p>
+                    <p><strong>RAG mode:</strong> all papers whose chunks were retrieved by the vector search light up at once, showing the retrieval footprint for your query.</p>
                 </div>
                 <div class="graph-toolbar">
                     <button type="button" class="graph-btn" id="graph-fit-btn">Fit</button>

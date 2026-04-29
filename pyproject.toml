@@ -14,12 +14,12 @@ dependencies = [
 
 [project.optional-dependencies]
 server = [
-  "sentence-transformers",
   "faiss-cpu",
   "numpy",
   "fastmcp",
   "spacy",
   "tqdm",
+  "google-genai>=1.0",
 ]
 ocr = [
   "pdf2image",
@@ -48,4 +48,12 @@ packages = ["src/cbio_kb"]
 [dependency-groups]
 dev = [
     "pytest>=9.0.3",
+]
+eval = [
+    "matplotlib>=3.8",
+    "plotly>=5.22",
+    "pyyaml",
+    "anthropic",
+    "httpx",
+    "python-dotenv",
 ]

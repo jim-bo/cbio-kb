@@ -19,6 +19,7 @@ let assistantFullText = '';
 
 let sessionId = null;
 let sending = false;
+let chatMode = 'agentic'; // 'agentic' | 'rag'
 
 const form = document.getElementById('chat-form');
 const input = document.getElementById('user-input');
@@ -26,6 +27,7 @@ const messages = document.getElementById('messages');
 const contextFeed = document.getElementById('context-feed');
 const contextTotal = document.getElementById('context-total');
 const sendBtn = document.getElementById('send-btn');
+const modeToggle = document.getElementById('mode-toggle');
 
 let contextTokens = 0;
 let pendingUserCard = null;
@@ -68,6 +70,12 @@ input.addEventListener('input', function() {
         '<div class="context-body">' + escapeHtml(text) + '</div>';
     pendingUserCard.scrollIntoView({behavior: 'smooth', block: 'nearest'});
 });
+
+if (modeToggle) {
+    modeToggle.addEventListener('change', function() {
+        chatMode = modeToggle.value;
+    });
+}
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
@@ -148,8 +156,16 @@ function sendMessage(msg) {
         fetch(API_URL, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({message: msg, session_id: sessionId}),
+            body: JSON.stringify({message: msg, session_id: sessionId, mode: chatMode}),
         }).then(function(response) {
+            if (!response.ok) {
+                return response.text().then(function(body) {
+                    throw new Error('HTTP ' + response.status + (body ? ': ' + body : ''));
+                });
+            }
+            if (!response.body) {
+                throw new Error('Streaming response body is unavailable');
+            }
             var reader = response.body.getReader();
             var decoder = new TextDecoder();
             var buffer = '';
@@ -183,7 +199,13 @@ function sendMessage(msg) {
                     } else if (line.startsWith('event:')) {
                         currentEvent = line.slice(6).trim();
                     } else if (line.startsWith('data:')) {
-                        currentData = line.slice(5).trim();
+                        // Per the SSE spec, multiple `data:` lines for
+                        // a single event are joined with newlines.
+                        // Trim only the conventional leading space, not
+                        // payload content.
+                        var piece = line.slice(5);
+                        if (piece.startsWith(' ')) piece = piece.slice(1);
+                        currentData = currentData ? (currentData + '\n' + piece) : piece;
                     }
                 }
 
@@ -495,7 +517,8 @@ function toolIcon(name) {
         list_pages: '\u{1F4C1}',
         search: '\u{1F50D}',
         follow_links: '\u{1F517}',
-        find_references: '\u21A9'
+        find_references: '\u21A9',
+        vector_search: '\u{1F9ED}'
     };
     return icons[name] || '\u{1F527}';
 }
@@ -531,6 +554,7 @@ function notifyGraphOfToolUse(info) {
 }
 
 function formatArgs(args) {
+    if (!args || typeof args !== 'object') return '';
     return Object.entries(args).map(function(kv) {
         return kv[0] + '=' + kv[1];
     }).join(', ');

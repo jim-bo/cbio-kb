@@ -8,7 +8,7 @@ tags:
   - oncogene
   - neuroendocrine
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # AR
@@ -21,10 +21,11 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 - AR oncogenic mutations (H875Y, T878A), gene amplification, enhancer region amplification, and ARv7 splice variant expression detected across multiple prostate cancer patient-derived xenografts (PDXs) in an integrative multi-omic analysis (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
 - AR expression significantly reduced in NEPC vs. adenocarcinoma PDXs (P = 4 x 10^-9); AR-negative status is a defining feature of neuroendocrine lineage plasticity [PMID:38488813](../papers/38488813.md).
+- AR alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 
 ## Cancer types (linked)
 
-- [PRAD](../cancer_types/PRAD.md) — AR mutations, amplification, and splice variants are pervasive in prostate adenocarcinoma; ARv7 specifically drives resistance to enzalutamide and abiraterone [PMID:38488813](../papers/38488813.md).
+- [PRAD](../cancer_types/PRAD.md) — AR mutations, amplification, and splice variants are pervasive in prostate adenocarcinoma; ARv7 specifically drives resistance to enzalutamide and [abiraterone](../drugs/abiraterone.md) [PMID:38488813](../papers/38488813.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -33,7 +34,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 ## Therapeutic relevance
 
-- PDX organoid assays demonstrated activity of bicalutamide and enzalutamide in AR-expressing models; PDXs were used to test cisplatin, paclitaxel, cabazitaxel, and niraparib sensitivity across lineage states [PMID:38488813](../papers/38488813.md).
+- PDX organoid assays demonstrated activity of bicalutamide and enzalutamide in AR-expressing models; PDXs were used to test [cisplatin](../drugs/cisplatin.md), [paclitaxel](../drugs/paclitaxel.md), cabazitaxel, and niraparib sensitivity across lineage states [PMID:38488813](../papers/38488813.md).
 - ARv7 expression independently drives resistance to enzalutamide; its relationship to de novo AR activity vs. treatment selection remains under investigation [PMID:38488813](../papers/38488813.md).
 
 ## Open questions
@@ -43,5 +44,6 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 ## Sources
 
 - [PMID:38488813](../papers/38488813.md)
+- [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

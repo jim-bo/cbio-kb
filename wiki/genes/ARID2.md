@@ -10,7 +10,7 @@ tags:
   - chromatin-remodeling
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # ARID2
@@ -22,8 +22,9 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 ## Alterations observed in the corpus
 
 - ARID2 T408I mutation found alongside [NF1](../genes/NF1.md) co-mutation in a melanocyte from a tanning cohort donor in a molecular study of indoor tanning effects (182 melanocytes from 26 donors) [PMID:38895302](../papers/38895302.md).
+- ARID2 (along with [CRTC1](../genes/CRTC1.md) and [MAP3K1](../genes/MAP3K1.md)) among rare shared SNVs detected across four metastatic lesions of a single PDTO-profiled sarcoma patient (SARC0075); the CNV landscape across lesions was substantially discordant despite shared SNVs [PMID:39305899](../papers/39305899.md).
 - ARID2 loss-of-function mutations enriched specifically at the actinic keratosis (AK)-to-cutaneous squamous cell carcinoma (cSCC) transition in a clonal evolution study of 16 AK-cSCC pairs; ARID2 loss was associated with SWI/SNF disruption and potential immune evasion [PMID:39091884](../papers/39091884.md).
-- ARID2 (SWI/SNF complex member) mutated in dMMR/MSI-H gynecologic cancers treated with nivolumab with no significant difference in mutation rates between responders and non-responders (n=35) [PMID:38653864](../papers/38653864.md).
+- ARID2 (SWI/SNF complex member) mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md) with no significant difference in mutation rates between responders and non-responders (n=35) [PMID:38653864](../papers/38653864.md).
 
 ## Cancer types (linked)
 
@@ -49,6 +50,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:39091884](../papers/39091884.md)
+- [PMID:39305899](../papers/39305899.md)
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # Whole-exome sequencing (WES)
@@ -34,7 +34,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:38949888](../papers/38949888.md) — WES on 48 prostate cancer tumor samples (20 MSI-H/dMMR, 28 TMB-H/MSS) via recapture of MSK-IMPACT libraries [PMID:38949888](../papers/38949888.md).
 - [PMID:39091884](../papers/39091884.md) — WES at ~95X coverage on 137 keratinocytes, 131 melanocytes, and 23 fibroblasts from 22 skin biopsies via single-cell clonal expansion; profiled AK-to-cSCC evolutionary trajectories [PMID:39091884](../papers/39091884.md).
 - [PMID:27806376](../papers/27806376.md) — bulk WES used for subclonal mutation calling (ABSOLUTE) in 6 IDH-mutant oligodendrogliomas; identified inferred-CNV subclones and 22 subclonal point mutations to confirm that the developmental hierarchy is not driven by any single genetic clone [PMID:27806376](../papers/27806376.md).
-- [PMID:35764743](../papers/35764743.md) — WES-based HRD classification methodology informed the SigMA/COSMIC SBS3 detection approach applied to MSK-IMPACT data for 444 HGSOC patients; WES is the gold-standard comparator for SBS3 calling from targeted panels in this study [PMID:35764743](../papers/35764743.md).
+- [PMID:35764743](../papers/35764743.md) — WES-based HRD classification methodology informed the SigMA/COSMIC SBS3 detection approach applied to MSK-IMPACT data for 444 [HGSOC](../cancer_types/HGSOC.md) patients; WES is the gold-standard comparator for SBS3 calling from targeted panels in this study [PMID:35764743](../papers/35764743.md).
+- [PMID:39746944](../papers/39746944.md) — WES validation set (n=582 NGS libraries) from the MiMSI test cohort re-captured with whole-exome sequencing probes and reanalyzed with the MiMSI classifier; 98.6% concordance with MSK-IMPACT classifications (5 discordant cases), demonstrating that MiMSI generalizes to WES without retraining [PMID:39746944](../papers/39746944.md).
+- [PMID:39975212](../papers/39975212.md) — WES (NimbleGen SeqCap EZ Exome+UTR or KAPA HyperExome V1) performed on 297 clonally expanded single melanocytes from 58 skin biopsies; aligned to hg19 with BWA-MEM v2.0.5 and GATK v4.1.2.0; identified bimodal UV-burden (HighMut SBS7, LowMut SBS1/SBS5) subpopulations coexisting in the same skin biopsy [PMID:39975212](../papers/39975212.md).
 
 ## Notes
 
@@ -60,5 +62,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:39091884](../papers/39091884.md)
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:35764743](../papers/35764743.md)
+- [PMID:39746944](../papers/39746944.md)
+- [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

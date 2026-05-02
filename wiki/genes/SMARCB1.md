@@ -1,10 +1,10 @@
 ---
 symbol: SMARCB1
 aliases: [INI1, SNF5]
-cancer_types: [MNG]
+cancer_types: [MNG, PAAD]
 tags: [swi-snf, tumor-suppressor, meningioma]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-05-01
 ---
 
 # SMARCB1
@@ -16,10 +16,12 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 ## Alterations observed in the corpus
 
 - SMARCB1 was assessed as a known meningioma driver gene in the mutational analysis of the four-group integrative molecular classification of meningiomas (n=121 discovery cohort) [PMID:34433969](../papers/34433969.md).
+- SMARCB1 alterations enriched in MAPK-WT PDAC (8% vs <1% in KRAS-mutant, P = 2.4 × 10⁻⁶) in a 2,336-patient MSK-IMPACT cohort; 3/4 SMARCB1-altered MAPK-WT tumors showed aggressive histology (poorly differentiated or high grade), though none met criteria for monomorphic anaplastic carcinoma. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
 
 - [MNG](../cancer_types/MNG.md) — known driver gene assessed in the meningioma molecular classification landscape [PMID:34433969](../papers/34433969.md).
+- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — SMARCB1 alterations significantly enriched in MAPK-WT PDAC (8%), associated with aggressive histologic features including poorly differentiated and high-grade morphology. [PMID:39753968](../papers/39753968.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,5 +38,6 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md)
+- [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

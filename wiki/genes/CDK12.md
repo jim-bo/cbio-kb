@@ -6,8 +6,8 @@ cancer_types:
   - PRNE
   - HGSOC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # CDK12
@@ -20,11 +20,12 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 - Biallelic loss via dual mutations or structural variation in 4 of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) series; associated with CDK12-loss-specific focal copy-number gains [PMID:38488813](../papers/38488813.md).
 - CDK12 SNVs used to assign patients to the tandem-duplicator-enriched genomic subtype in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; CDK12-subtype assignment took precedence over HRD-DDR variant evidence per the MSKCC subtype rules [PMID:35764743](../papers/35764743.md).
+- CDK12 alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 
 ## Cancer types (linked)
 
 - **PRAD/PRNE**: CDK12 biallelic inactivation identified in patient-derived xenograft models; associated with focal tandem duplications and DDR pathway dysregulation; predominantly observed in adenocarcinoma models [PMID:38488813](../papers/38488813.md).
-- **HGSOC**: CDK12 SNVs define the tandem-duplicator genomic subtype used in a multimodal ML risk-stratification model; subtype assignment overrides concurrent HRD-DDR evidence [PMID:35764743](../papers/35764743.md).
+- **[HGSOC](../cancer_types/HGSOC.md)**: CDK12 SNVs define the tandem-duplicator genomic subtype used in a multimodal ML risk-stratification model; subtype assignment overrides concurrent HRD-DDR evidence [PMID:35764743](../papers/35764743.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -42,5 +43,6 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:35764743](../papers/35764743.md)
+- [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

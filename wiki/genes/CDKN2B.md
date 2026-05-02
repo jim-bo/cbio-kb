@@ -3,8 +3,8 @@ symbol: CDKN2B
 aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2025-02-14
 ---
 
 # CDKN2B
@@ -24,7 +24,9 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Homozygous CDKN2A/CDKN2B deletions and loss-of-function in 28% of FP-RMS; correlated with worse [OS](../cancer_types/OS.md) (p=0.049) and PFS (p=0.0082) [PMID:37730754](../papers/37730754.md).
 - Classical DPM driver; not enriched in the genomic near-haploidization (GNH) subset of diffuse pleural mesothelioma [PMID:38630790](../papers/38630790.md).
 - Loss acquired in a recurrent, metastatic pituitary neuroendocrine tumor (patient TR-9) together with [CCND3](../genes/CCND3.md) amplification [PMID:38758238](../papers/38758238.md).
-- Deletions co-occurring with [BRAF](../genes/BRAF.md) fusions in 12% of BRAF fusion-positive tumors across histologies [PMID:38922339](../papers/38922339.md).
+- Deletions co-occurring with [BRAF](../genes/BRAF.md) fusions in 12% of [BRAF](../genes/BRAF.md) fusion-positive tumors across histologies [PMID:38922339](../papers/38922339.md).
+- In 2,336 PDAC patients ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), CDKN2A/CDKN2B alteration rate increased from 44% (resectable) to 60% (metastatic) (P = 6.9 × 10⁻⁵), establishing stage-dependent CDKN2B loss as a prognostic marker of PDAC progression [PMID:39753968](../papers/39753968.md).
+- Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the RB pathway (52% altered) [PMID:18772890](../papers/18772890.md).
 
 ## Cancer types (linked)
 
@@ -33,8 +35,9 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [MFH](../cancer_types/MFH.md) (UPS) — CDKN2A/B co-deletions in 29% of RT-UPS [PMID:37350195](../papers/37350195.md).
 - [OS](../cancer_types/OS.md) — CDKN2A/B co-deletions in 33% of RT-OS [PMID:37350195](../papers/37350195.md).
 - [ANGS](../cancer_types/ANGS.md) — CDKN2A/B co-deletions rare (2%) in RT-AS, distinguishing it from other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
+- [PAAD](../cancer_types/PAAD.md) — CDKN2A/CDKN2B alteration rate climbs with stage (44% resectable → 60% metastatic, P = 6.9 × 10⁻⁵) in the 2,336-patient [pdac_msk_2024](../datasets/pdac_msk_2024.md) cohort [PMID:39753968](../papers/39753968.md).
 - [EGC](../cancer_types/EGC.md) ([EGC](../cancer_types/EGC.md)/[STAD](../cancer_types/STAD.md)) — CDKN2A/CDKN2B alterations associated with inferior PFS in the HER2+/PD-1 blockade setting [PMID:37406106](../papers/37406106.md).
-- [RMS](../cancer_types/RMS.md)/[ARMS](../cancer_types/ARMS.md) — homozygous deletions in 28% of FP-RMS; correlated with worse OS and PFS [PMID:37730754](../papers/37730754.md).
+- [RMS](../cancer_types/RMS.md)/[ARMS](../cancer_types/ARMS.md) — homozygous deletions in 28% of FP-RMS; correlated with worse [OS](../cancer_types/OS.md) and PFS [PMID:37730754](../papers/37730754.md).
 - [PLMESO](../cancer_types/PLMESO.md) — classical DPM driver; not enriched in GNH mesothelioma subset [PMID:38630790](../papers/38630790.md).
 - [PTAD](../cancer_types/PTAD.md) — loss acquired at recurrence in aggressive pituitary neuroendocrine tumor [PMID:38758238](../papers/38758238.md).
 
@@ -61,5 +64,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38922339](../papers/38922339.md)
+- [PMID:39753968](../papers/39753968.md)
+- [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2025-02-14**.*

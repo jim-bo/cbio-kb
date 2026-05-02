@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [dicom, radiotherapy, rt-planning, dose, treatment-planning]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # DICOM RT planning (RTPLAN/RTDOSE)
@@ -20,6 +20,7 @@ DICOM RTPLAN and RTDOSE are the DICOM standard objects that together encode a ra
 ## Used by
 
 - [PMID:30179230](../papers/30179230.md) — HNSCC imaging archive at MD Anderson includes RTPLAN and RTDOSE files for 215 patients treated with curative-intent radiotherapy; re-exported from Pinnacle v9.6 (Philips Radiation Oncology Systems) after primary clinical use; mean prescribed dose 68.66 Gy (range 56–72 Gy) in 28–40 fractions using techniques spanning 2D RT, IMRT, and volumetric arc therapy; curation required resolving Frame of Reference UID mismatches between RT structure sets and source CTs for 90.7% of cases [PMID:30179230](../papers/30179230.md).
+- [PMID:41941260](../papers/41941260.md) — DICOM RT plan archiving is used in the ROBIN consortium METEOR project (NCT05975593): 126 DICOM-RT plans from locally advanced cervical and pancreatic cancer patients are archived to support dose-response modeling and CBCT delta [radiomics](../methods/radiomics.md) integration; the CBCT Working Group (CBCT WG) is standardizing RTPLAN/RTDOSE data harmonization across ROBIN institutions [PMID:41941260](../papers/41941260.md).
 
 ## Notes
 
@@ -29,5 +30,6 @@ DICOM RTPLAN and RTDOSE are the DICOM standard objects that together encode a ra
 ## Sources
 
 - [PMID:30179230](../papers/30179230.md)
+- [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

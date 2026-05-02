@@ -28,6 +28,10 @@ Every claim on an entity page is traceable back to a specific paper via
 `PMID:` citations, and every paper page links out to the entities it touches.
 Nothing is invented — unverified terms are flagged rather than canonicalized.
 
+## News
+
+- **2026-05-01** — Added 10 more papers from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others.
+
 ## Browse
 
 | Section | Count | What you'll find |

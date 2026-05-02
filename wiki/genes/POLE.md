@@ -1,10 +1,10 @@
 ---
 symbol: POLE
 aliases: []
-cancer_types: [UCEC, PRAD]
+cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 canonical_source: cbioportal
 unverified: false
 ---
@@ -20,12 +20,14 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE exonuclease domain hotspot mutations rare in Black endometrial cancer patients (1.2% vs. 5.8% in White patients); this favorable-prognosis subtype is substantially underrepresented in the Black EC population, contributing to disparities in access to immunotherapy-eligible molecularly favorable tumors [PMID:37651310](../papers/37651310.md).
 - One POLE exonuclease domain hotspot mutation (p.F367S) identified in an MSS gynecologic cancer patient; this patient had the highest TMB in the cohort and was MSS, confirming POLE mutation as an independent route to hypermutation [PMID:38653864](../papers/38653864.md).
 - Three prostate cancer patients harbored oncogenic POLE mutations (P286R ×2, V411M ×1; TMBs of 183, 34, and 169 mut/Mb), all with microsatellite-stable tumors; none of the ICB-treated patients in this cohort had POLE mutations [PMID:38949888](../papers/38949888.md).
+- POLE exonuclease-domain mutations (e.g. V411L) explain discordant MiMSI MSI calls in pan-cancer NGS data: two MiMSI false-negatives had POLE-deficient mutational signatures plus high TMB; one false-positive (Sample_54409, colon adenocarcinoma) attributed 72% of mutations to POLE deficiency. MiMSI can flag MMR phenotype even when co-occurring with POLE-driven hypermutation. [PMID:39746944](../papers/39746944.md)
 
 ## Cancer types (linked)
 
 - Endometrial carcinoma ([UCEC](../cancer_types/UCEC.md)) — POLE exonuclease domain mutations define the ultramutator subtype with favorable prognosis; underrepresented in Black patients (1.2% vs. 5.8%) [PMID:37651310](../papers/37651310.md).
 - Gynecologic cancers ([UCEC](../cancer_types/UCEC.md) / [OVT](../cancer_types/OVT.md)) — POLE p.F367S generates extreme TMB in the MSS background, representing a distinct hypermutation mechanism [PMID:38653864](../papers/38653864.md).
 - Prostate cancer ([PRAD](../cancer_types/PRAD.md)) — POLE mutations (P286R, V411M) produce TMB-H/MSS phenotype; not clearly associated with ICB benefit in this small series [PMID:38949888](../papers/38949888.md).
+- Pan-cancer (MSK-IMPACT) — POLE deficiency co-occurs with dMMR in rare cases; MiMSI detects the MMR component even when POLE ultramutation dominates the mutational landscape. Colon adenocarcinoma exemplar had 72% POLE-attributed mutations alongside [MSH2](../genes/MSH2.md) E580* truncation. [PMID:39746944](../papers/39746944.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -48,5 +50,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38949888](../papers/38949888.md)
+- [PMID:39746944](../papers/39746944.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

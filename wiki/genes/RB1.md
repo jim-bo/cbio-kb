@@ -1,10 +1,10 @@
 ---
 symbol: RB1
 aliases: []
-cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH]
+cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
 processed_by: entity-page-writer
-processed_at: 2026-04-10
+processed_at: 2026-05-01
 ---
 
 # RB1
@@ -19,6 +19,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - RB1 loss enriched in local intracranial progressors after craniotomy + RT (24% vs 6% in non-progressors, p=0.022; q=0.573 after multiple-testing correction) [PMID:37591896](../papers/37591896.md).
 - Rare in [FGFR3](../genes/FGFR3.md)-altered urothelial carcinoma (1.2%, 5/414) and inversely associated with [FGFR3](../genes/FGFR3.md) alterations in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - RB1 oncogenic alterations were enriched in brain and liver metastases across the MSK-CHORD pan-cancer organotropism analyses (n=24,950) [PMID:39506116](../papers/39506116.md).
+- RB1 alterations detected in 11% of cfDNA samples from 201 mUC patients in CALGB 90601; numerically higher in cfDNA than matched tumor (14% vs 12% in concordance subset), suggesting cfDNA captures some RB1 alterations missed in tissue. [PMID:40256659](../papers/40256659.md)
+- RB1 listed as an oncogenomically relevant gene in the MAPK-WT/other-MAPK-mutant PDAC subtype landscape (MSK-IMPACT, n=2,336); not singled out for a specific narrative finding beyond genomic cataloging. [PMID:39753968](../papers/39753968.md)
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the elastic-net Cox genomic risk model was defined in part by RB1 alterations [PMID:37477937](../papers/37477937.md).
 - RB1 truncating mutations/deletions in 14% of RT-[MFH](../cancer_types/MFH.md) (UPS) vs 19% sporadic UPS (n=14 RT-UPS, n=273 sporadic UPS); frequencies were similar between RT and sporadic settings [PMID:37350195](../papers/37350195.md).
 
@@ -27,6 +29,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Lung adenocarcinoma ([LUAD](../cancer_types/LUAD.md)) — brain-metastasis-associated and local-progression-associated [PMID:37591896](../papers/37591896.md).
 - [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — rare and inversely associated with [FGFR3](../genes/FGFR3.md) alterations [PMID:37682528](../papers/37682528.md).
 - [MFH](../cancer_types/MFH.md) (UPS) — RB1 truncating mutations/deletions at similar frequency in RT-UPS (14%) and sporadic UPS (19%) [PMID:37350195](../papers/37350195.md).
+- Metastatic urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) — RB1 alterations in 11% of cfDNA; numerically enriched in cfDNA vs matched tumor. [PMID:40256659](../papers/40256659.md)
+- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — RB1 catalogued in the MSK-IMPACT PDAC genomic landscape study (n=2,336). [PMID:39753968](../papers/39753968.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -47,5 +51,7 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:37350195](../papers/37350195.md)
+- [PMID:40256659](../papers/40256659.md)
+- [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-10**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

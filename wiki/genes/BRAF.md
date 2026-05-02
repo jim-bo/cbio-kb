@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # BRAF
@@ -25,6 +25,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF fusions are a recurrent (2-4%) mechanism of acquired resistance to [EGFR](../genes/EGFR.md) TKIs ([osimertinib](../drugs/osimertinib.md), [erlotinib](../drugs/erlotinib.md), [afatinib](../drugs/afatinib.md)) in lung adenocarcinoma patients in the MSK cohort [PMID:38922339](../papers/38922339.md).
 - BRAF L597R and G466R pathogenic mutations identified in melanocytes from a tanning cohort donor in a molecular study of indoor tanning effects (182 melanocytes from 26 donors) [PMID:38895302](../papers/38895302.md).
 - BRAF alterations not independently associated with VTE risk in a 4,141-patient liquid biopsy VTE prediction study [PMID:39147831](../papers/39147831.md).
+- BRAF oncogenic mutations enriched in early-stage vs late-stage [PAAD](../cancer_types/PAAD.md) (3.9% vs 0.7%, p=0.042) but not significant after multiple-comparison correction in a 397-patient sequenced resected PDAC cohort [PMID:39214094](../papers/39214094.md).
+- BRAF in-frame deletions between N486–P490 found in 7/26 oncogenic BRAF alterations in [PAAD](../cancer_types/PAAD.md) — a pattern essentially absent in melanoma (2/749) and thyroid cancer (0/473); one MAPK-WT PDAC tumor harbored a GIT2–BRAF activating fusion in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
+- BRAF alterations detected in cfDNA from metastatic urothelial carcinoma patients; numerically higher detection in cfDNA than matched tumor tissue in the CALGB 90601 liquid biopsy cohort (n=200) [PMID:40256659](../papers/40256659.md).
 
 ## Cancer types (linked)
 
@@ -32,7 +35,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Histiocytosis (LCH/ECD) — BRAF V600E is the single most common actionable alteration in the histiocytosis subcohort at 33% [PMID:36862133](../papers/36862133.md).
 - [MEL](../cancer_types/MEL.md) — BRAF V600E detected in CSF ctDNA from metastatic melanoma patients with CNS involvement; BRAF L597R and G466R mutations found in premalignant melanocytes of tanning bed users [PMID:39289779](../papers/39289779.md) [PMID:38895302](../papers/38895302.md).
 - [DIFG](../cancer_types/DIFG.md) / glioma — [KIAA1549](../genes/KIAA1549.md)::BRAF fusions detected in glioma CSF ctDNA; 56% prevalence in pilocytic astrocytoma in the tumor-agnostic fusion cohort [PMID:39289779](../papers/39289779.md) [PMID:38922339](../papers/38922339.md).
-- [NSCLC](../cancer_types/NSCLC.md) / [LUAD](../cancer_types/LUAD.md) — BRAF fusions as off-target resistance in EGFR-mutant lung cancer; acquired in 10/15 patients with prior EGFR TKI therapy [PMID:39289779](../papers/39289779.md) [PMID:38922339](../papers/38922339.md).
+- [NSCLC](../cancer_types/NSCLC.md) / [LUAD](../cancer_types/LUAD.md) — BRAF fusions as off-target resistance in EGFR-mutant lung cancer; acquired in 10/15 patients with prior [EGFR](../genes/EGFR.md) TKI therapy [PMID:39289779](../papers/39289779.md) [PMID:38922339](../papers/38922339.md).
 - [THPA](../cancer_types/THPA.md) — BRAF V600E in 21.3% of ATC vs. 50.9% of PTC; early/clonal event mutually exclusive with RAS [PMID:38412093](../papers/38412093.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -57,5 +60,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:39214094](../papers/39214094.md)
+- [PMID:39753968](../papers/39753968.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

@@ -1,10 +1,10 @@
 ---
 symbol: NF1
 aliases: []
-cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC]
+cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-02
 ---
 
 # NF1
@@ -15,30 +15,34 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 ## Alterations observed in the corpus
 
+- Somatic mutations and deletions identified in 18% of [GBM](../cancer_types/GBM.md) cases, establishing it as a major tumor suppressor in glioblastoma [PMID:18772890](../papers/18772890.md).
 - [LUAD](../cancer_types/LUAD.md): NF1 alterations associated with worse metastasis-free survival (p<0.001) in the MSK organotropism cohort (n=2,532) [PMID:37084736](../papers/37084736.md).
 - [NSCLC](../cancer_types/NSCLC.md) brain metastases: NF1 alterations more frequent in LMD patients (15%) than other progression groups [PMID:37591896](../papers/37591896.md).
-- NF1 inactivating mutations/deletions in 67% of RT-[MPNST](../cancer_types/MPNST.md) vs 36% of sporadic [MPNST](../cancer_types/MPNST.md) (n=12 RT-MPNST, n=64 sporadic MPNST); one of the most enriched alterations in radiation-associated MPNST [PMID:37350195](../papers/37350195.md).
+- NF1 inactivating mutations/deletions in 67% of RT-[MPNST](../cancer_types/MPNST.md) vs 36% of sporadic [MPNST](../cancer_types/MPNST.md) (n=12 RT-MPNST, n=64 sporadic [MPNST](../cancer_types/MPNST.md)); one of the most enriched alterations in radiation-associated [MPNST](../cancer_types/MPNST.md) [PMID:37350195](../papers/37350195.md).
 - Focal CNA loss on chromosome 17 in anaplastic thyroid carcinoma (ATC); identified among recurrent copy-number alterations [PMID:38412093](../papers/38412093.md).
 - Driver events (with [FGFR1](../genes/FGFR1.md)) in a subset of fusion-negative rhabdomyosarcoma (FN-RMS) [PMID:37730754](../papers/37730754.md).
 - Somatic mutations more frequent in carcinosarcomas from Black endometrial cancer patients (12% vs. 1% in White patients) [PMID:37651310](../papers/37651310.md).
 - Multiple loss-of-function mutations (Q1595*, V2511fs, R416*, R2517*, Q282*, R1241*, splice-site, E1034K) in melanocytes; most frequently mutated gene across tanning and control cohorts in indoor tanning melanoma study [PMID:38895302](../papers/38895302.md).
 - NF1 alterations (4%) detected in cell-free DNA from advanced hepatocellular carcinoma patients via cfDNA profiling [PMID:37769223](../papers/37769223.md).
 - Plasma ctDNA NF1 alterations associated with cancer-associated venous thromboembolism risk [PMID:39147831](../papers/39147831.md).
+- NF1 enriched after prior therapy in [BRCA](../cancer_types/BRCA.md), confirming the endocrine-resistance signature alongside [ESR1](../genes/ESR1.md) and [CCND1](../genes/CCND1.md), in the MSK-CHORD pan-cancer cohort (n=52,211 patients). [PMID:39506116](../papers/39506116.md)
+- Not specifically tabulated as a recurrent driver in the MSK 2,336-patient PDAC cohort, but MAPK-pathway context relevant as NF1 is a RAS-GTPase activating protein. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
 
-- [LUAD](../cancer_types/LUAD.md) — worse MFS in NF1-altered primaries [PMID:37084736](../papers/37084736.md).
+- [GBM](../cancer_types/GBM.md) — inactivated through both homozygous deletions and somatic mutations in 18% of cases [PMID:18772890](../papers/18772890.md).
+- [LUAD](../cancer_types/LUAD.md) — worse [MFS](../cancer_types/MFS.md) in NF1-altered primaries [PMID:37084736](../papers/37084736.md).
 - [NSCLC](../cancer_types/NSCLC.md) — enriched in leptomeningeal disease after [NSCLC](../cancer_types/NSCLC.md) brain metastasis [PMID:37591896](../papers/37591896.md).
 - [MPNST](../cancer_types/MPNST.md) — NF1 inactivation enriched in RT-MPNST (67%) vs sporadic MPNST (36%) [PMID:37350195](../papers/37350195.md).
 - Anaplastic thyroid carcinoma (ATC) — focal CNA loss on chromosome 17 [PMID:38412093](../papers/38412093.md).
-- Rhabdomyosarcoma (FN-RMS) — driver event in a subset, co-occurring with FGFR1 alterations [PMID:37730754](../papers/37730754.md).
+- Rhabdomyosarcoma (FN-RMS) — driver event in a subset, co-occurring with [FGFR1](../genes/FGFR1.md) alterations [PMID:37730754](../papers/37730754.md).
 - Endometrial carcinoma carcinosarcoma — enriched in Black patients (12% vs. 1% in White patients) [PMID:37651310](../papers/37651310.md).
 - Melanoma — most frequently mutated gene with multiple distinct LoF mutations in normal melanocytes from indoor tanning cohort [PMID:38895302](../papers/38895302.md).
 - Hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) — detected in 4% of cfDNA samples [PMID:37769223](../papers/37769223.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [ARID2](../genes/ARID2.md) in melanocytes (NF1 + ARID2 T408I) [PMID:38895302](../papers/38895302.md).
+- Co-occurs with [ARID2](../genes/ARID2.md) in melanocytes (NF1 + [ARID2](../genes/ARID2.md) T408I) [PMID:38895302](../papers/38895302.md).
 - In endometrial carcinosarcomas, NF1 mutations enriched alongside [TP53](../genes/TP53.md) mutations in Black patients [PMID:37651310](../papers/37651310.md).
 
 ## Therapeutic relevance
@@ -53,6 +57,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 ## Sources
 
+- [PMID:18772890](../papers/18772890.md)
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:37350195](../papers/37350195.md)
@@ -62,5 +67,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:38895302](../papers/38895302.md)
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:39506116](../papers/39506116.md)
+- [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-02**.*

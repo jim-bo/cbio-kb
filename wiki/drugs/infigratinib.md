@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-30
 ---
 
 # infigratinib
@@ -18,6 +18,7 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 ## Evidence in the corpus
 
 - Referenced in the MSK FGFR3-altered urothelial carcinoma study as the context for a prior cfDNA-based resistance study in urothelial carcinoma treated with FGFR inhibitors; motivates the serial cfDNA profiling approach applied here to [erdafitinib](./erdafitinib.md) ([PMID:37682528](../papers/37682528.md)).
+- In a PDTO functional screen of 92 sarcoma specimens, SARC0133 ([RMS](../cancer_types/RMS.md)) was the top responder to infigratinib; WGS revealed an [FGFR1](../genes/FGFR1.md) gain on chromosome 8, but PDTOs were not sensitive to [dovitinib](../drugs/dovitinib.md), demonstrating intra-class drug differentiation among FGFR inhibitors [PMID:39305899](../papers/39305899.md).
 
 ## Resistance mechanisms
 
@@ -27,9 +28,11 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 
 - [BLCA](../cancer_types/BLCA.md)
 - [UTUC](../cancer_types/UTUC.md)
+- [RMS](../cancer_types/RMS.md) — rhabdomyosarcoma; FGFR1-gain-driven PDTO response
 
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md)
+- [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

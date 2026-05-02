@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # BRCA1
@@ -26,7 +26,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 ## Alterations observed in the corpus
 
-- Germline BRCA1 mutations in 12 of 44 HGSOC patients in a multimodal spatial profiling study of fallopian tube precursor lesions (p53 signatures, STICs); somatic or germline BRCA1/2 alterations or epigenetic silencing account for nearly half of HGSOC exhibiting homologous recombination deficiency [PMID:39386723](../papers/39386723.md).
+- Germline BRCA1 mutations in 12 of 44 [HGSOC](../cancer_types/HGSOC.md) patients in a multimodal spatial profiling study of fallopian tube precursor lesions (p53 signatures, STICs); somatic or germline BRCA1/2 alterations or epigenetic silencing account for nearly half of HGSOC exhibiting homologous recombination deficiency [PMID:39386723](../papers/39386723.md).
 - Somatic BRCA1 mutations more frequent in CN-H/TP53abn endometrial carcinoma from Black patients (3% vs 0.3%) in a 1,025-patient molecular characterization study [PMID:37651310](../papers/37651310.md).
 - Recurrent somatic BRCA1 mutations detected at both SNV and CNA levels in anaplastic thyroid carcinoma (ATC) in a multi-omic landscape study [PMID:38412093](../papers/38412093.md).
 - BRCA1 alterations detected in 4% of advanced [HCC](../cancer_types/HCC.md) patients by cfDNA profiling (MSK-ACCESS, 51 patients); combined BRCA1/2 alterations in 8% [PMID:37769223](../papers/37769223.md).
@@ -34,7 +34,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [ATM](../genes/ATM.md), BRCA1, [BRCA2](../genes/BRCA2.md), and [CHEK2](../genes/CHEK2.md) — DDR pathway genes with driver genomic alterations predominantly in adenocarcinoma prostate cancer PDXs; NEPC showed transcriptomic DDR upregulation instead [PMID:38488813](../papers/38488813.md).
 - BRCA1 mutations elevated in MSI-H/dMMR prostate cancer (higher mutation rate in MSI-H/dMMR vs TMB-L/MSS; likely passenger events rather than actionable alterations) [PMID:38949888](../papers/38949888.md).
 - BRCA1 significantly over-expressed (FDR < 0.01, Welch's t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes [PMID:34493726](../papers/34493726.md).
-- Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest OS discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
+- Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest [OS](../cancer_types/OS.md) discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
+- Germline pathogenic BRCA1 alterations in 1.8% of [PAAD](../cancer_types/PAAD.md) overall; strong selection for biallelic LOH in carriers; co-occurrence with somatic [TP53](../genes/TP53.md) mutations (P = 4 × 10⁻⁷) in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
+- BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
 
 ## Cancer types (linked)
 
@@ -42,9 +44,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [UCEC](../cancer_types/UCEC.md) — Somatic BRCA1 mutations enriched in Black EC patients with CN-H/TP53abn subtype [PMID:37651310](../papers/37651310.md).
 - [CESC](../cancer_types/CESC.md) — Pathogenic somatic BRCA1 alterations in a subset of cervical cancers [PMID:37643132](../papers/37643132.md).
 - [THPA](../cancer_types/THPA.md) — Recurrent somatic BRCA1 SNVs and CNAs in anaplastic thyroid carcinoma [PMID:38412093](../papers/38412093.md).
-- [HCC](../cancer_types/HCC.md) — BRCA1/2 detected by cfDNA in 8% of advanced HCC; actionable (OncoKB level) [PMID:37769223](../papers/37769223.md).
+- [HCC](../cancer_types/HCC.md) — BRCA1/2 detected by cfDNA in 8% of advanced [HCC](../cancer_types/HCC.md); actionable (OncoKB level) [PMID:37769223](../papers/37769223.md).
 - [PRAD](../cancer_types/PRAD.md) — DDR gene alterations in prostate cancer adenocarcinoma PDXs; MSI-H/dMMR prostate cancers show elevated BRCA1 as likely passengers [PMID:38488813](../papers/38488813.md) [PMID:38949888](../papers/38949888.md).
-- Neuroblastoma (NBL) — BRCA1 over-expression marks the high-risk undifferentiated nC3 cluster at single-nuclei resolution; significance confirmed at FDR < 0.01 [PMID:34493726](../papers/34493726.md).
+- Neuroblastoma ([NBL](../cancer_types/NBL.md)) — BRCA1 over-expression marks the high-risk undifferentiated nC3 cluster at single-nuclei resolution; significance confirmed at FDR < 0.01 [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -53,8 +55,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 ## Therapeutic relevance
 
-- BRCA1 alterations are actionable (OncoKB level) across multiple cancer types; PARP inhibitors (olaparib, niraparib) and platinum-based regimens are established HRD-targeting strategies [PMID:37769223](../papers/37769223.md).
-- In ATC, recurrent DDR gene alterations (BRCA1, BRCA2, ATM) rationalize investigation of PARP inhibitors in this aggressive, largely therapy-refractory cancer type [PMID:38412093](../papers/38412093.md).
+- BRCA1 alterations are actionable (OncoKB level) across multiple cancer types; PARP inhibitors ([olaparib](../drugs/olaparib.md), niraparib) and platinum-based regimens are established HRD-targeting strategies [PMID:37769223](../papers/37769223.md).
+- In ATC, recurrent DDR gene alterations (BRCA1, [BRCA2](../genes/BRCA2.md), [ATM](../genes/ATM.md)) rationalize investigation of PARP inhibitors in this aggressive, largely therapy-refractory cancer type [PMID:38412093](../papers/38412093.md).
 
 ## Open questions
 
@@ -72,5 +74,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:35764743](../papers/35764743.md)
+- [PMID:39753968](../papers/39753968.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

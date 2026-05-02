@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [single-cell, genotyping, clonal-evolution, skin]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-01
 ---
 
 # Single-cell genotyping
@@ -19,6 +19,7 @@ Single-cell genotyping via clonal expansion followed by whole-exome or targeted 
 
 - [PMID:39091884](../papers/39091884.md) — 137 keratinocytes, 131 melanocytes, and 23 fibroblasts from 22 skin biopsies across 15 donors (ages 35–95) were profiled by single-cell clonal expansion followed by whole-exome sequencing (~95X coverage); revealed that keratinocytes have lower mutation burdens than melanocytes (median 1.14 vs. 3.91 mut/Mb), pathogenic mutations break UV repair capacity in keratinocytes, and AK-to-cSCC evolution is traceable in phylogenetic trees [PMID:39091884](../papers/39091884.md).
 - [PMID:38895302](../papers/38895302.md) — single-cell clonal expansion followed by WES and RNA-seq (G&T-seq protocol) on 182 melanocytes from normal skin biopsies of tanning bed users and controls; demonstrated significantly higher mutation burdens in tanning bed users (p = 0.0128), enrichment of COSMIC signature 11 (p = 0.0405) [PMID:38895302](../papers/38895302.md).
+- [PMID:39975212](../papers/39975212.md) — single-cell genotyping via clonal expansion of 297 melanocytes from 58 skin biopsies of 31 donors; colonies of ~230 cells subjected to joint DNA/RNA amplification using G&T-Seq + Smart-Seq2; variant calling against hg19 (BWA-MEM v2.0.5, GATK v4.1.2.0) identified bimodal UV-burden subpopulations (HighMut enriched for SBS7, LowMut enriched for SBS1/SBS5) within the same biopsy [PMID:39975212](../papers/39975212.md).
 
 ## Notes
 
@@ -29,5 +30,6 @@ Single-cell genotyping via clonal expansion followed by whole-exome or targeted 
 
 - [PMID:39091884](../papers/39091884.md)
 - [PMID:38895302](../papers/38895302.md)
+- [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

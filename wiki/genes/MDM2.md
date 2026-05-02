@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2025-02-14
 ---
 
 # MDM2
@@ -19,11 +19,16 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Altered less in [LUAD](../cancer_types/LUAD.md) metastases than in primaries [PMID:37084736](../papers/37084736.md).
 - MDM2 alterations were negatively associated with [SETD2](../genes/SETD2.md) driver mutations in [LUAD](../cancer_types/LUAD.md) (q<0.05), indicating mutual exclusivity in the MSK-CHORD cohort [PMID:39506116](../papers/39506116.md).
 - MDM2 amplifications in 4/17 fusion-negative rhabdomyosarcoma (FN-RMS) patients; detectable in ctDNA; co-amplified with [CDK4](../genes/CDK4.md) at the 12q13-15 locus in one FP-RMS tumor [PMID:37730754](../papers/37730754.md).
+- MDM2 amplification confirmed by FISH in a well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) specimen (SARC0120) in the UCLA sarcoma PDTO biobank; MDM2 amplification preserved in the matched patient-derived tumor organoid (PDTO), demonstrating PDTO fidelity for key sarcoma drivers. [PMID:39305899](../papers/39305899.md)
+- MDM2 included as a biologically relevant gene in cfDNA profiling of 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel, 129 genes); MDM2 was negatively associated with [SETD2](../genes/SETD2.md) driver mutations in [LUAD](../cancer_types/LUAD.md) in the MSK-CHORD cohort. [PMID:40256659](../papers/40256659.md)
+- Altered (e.g. amplification) in 14% of [GBM](../cancer_types/GB.md) samples as part of the p53 pathway [PMID:18772890](../papers/18772890.md).
 
 ## Cancer types (linked)
 
 - [LUAD](../cancer_types/LUAD.md) — differential alteration pattern between metastatic and non-metastatic primaries in the MSK cohort (n=2,532) [PMID:37084736](../papers/37084736.md).
-- Rhabdomyosarcoma (FN-RMS) — amplification in ~24%; ctDNA-detectable; co-amplified with CDK4 at 12q13-15 in FP-RMS [PMID:37730754](../papers/37730754.md).
+- Rhabdomyosarcoma (FN-RMS) — amplification in ~24%; ctDNA-detectable; co-amplified with [CDK4](../genes/CDK4.md) at 12q13-15 in FP-RMS [PMID:37730754](../papers/37730754.md).
+- [WDLS](../cancer_types/WDLS.md) — MDM2 amplification preserved in PDTO from SARC0120; key diagnostic and potential therapeutic marker in liposarcoma. [PMID:39305899](../papers/39305899.md)
+- [BLCA](../cancer_types/BLCA.md) (metastatic urothelial carcinoma) — included in MSK-ACCESS cfDNA panel gene set for mUC patients; no specific survival associations reported for MDM2 alone in this cohort. [PMID:40256659](../papers/40256659.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,7 +49,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:41941260](../papers/41941260.md)
+- [PMID:39305899](../papers/39305899.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
-
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

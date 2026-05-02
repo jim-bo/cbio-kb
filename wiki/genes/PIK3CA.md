@@ -1,10 +1,10 @@
 ---
 symbol: PIK3CA
 aliases: []
-cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS]
+cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2025-02-14
 ---
 
 # PIK3CA
@@ -15,6 +15,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 ## Alterations observed in the corpus
 
+- Identified as one of eight significantly mutated genes in [GBM](../cancer_types/GBM.md) (7% of cases); contributes to the RTK/RAS/PI3K pathway which is altered in 88% of samples [PMID:18772890](../papers/18772890.md).
 - Enriched among ctDNA-only alterations (not detected by time-matched tissue) in advanced [NSCLC](../cancer_types/NSCLC.md); flagged as a subclonal resistance driver associated with short survival [PMID:36357680](../papers/36357680.md).
 - Among ten genes differentially altered between ever- and never-metastatic [LUAD](../cancer_types/LUAD.md) primary tumors in the 2,532-specimen MSK organotropism cohort; altered less in metastases than primaries [PMID:37084736](../papers/37084736.md).
 - Mutated in one histiocytosis patient and two ovarian GCT patients in the Make-an-IMPACT rare-cancer program [PMID:36862133](../papers/36862133.md).
@@ -30,6 +31,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA co-occurs with [BRAF](../genes/BRAF.md) V600E in anaplastic thyroid carcinoma (FDR = 0.034); preferentially mutated in ATCs and co-differentiated thyroid cancers relative to PTC [PMID:38412093](../papers/38412093.md).
 - PIK3CA mutated in 48% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); not associated with clinical benefit or resistance to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - PIK3CA plasma detection associated with VTE risk (adjusted HR = 1.47, 95% CI: 1.01--2.13, N=254 patients) in pan-cancer ctDNA liquid biopsy cohort; in multivariate analysis, individual gene-level alterations including PIK3CA were not independently associated with VTE after controlling for ctDNA detection [PMID:39147831](../papers/39147831.md).
+- PIK3CA hotspot mutation (H1047L — reported as "H1074L" in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, vistusertib) in PDTO screen. SARC0134 ([MPNST](../cancer_types/MPNST.md)) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top [alpelisib](../drugs/alpelisib.md) responder. [PMID:39305899](../papers/39305899.md)
+- PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. [PMID:39753968](../papers/39753968.md)
+- PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
 
 ## Cancer types (linked)
 
@@ -39,11 +43,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — common co-alteration in FGFR3-altered tumors (28%), not predictive of [erdafitinib](../drugs/erdafitinib.md) response [PMID:37682528](../papers/37682528.md).
 - [BRCA](../cancer_types/BRCA.md) — PIK3CA p.E545K frequently altered in breast cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
 - [NSCLC](../cancer_types/NSCLC.md) — off-target resistance alteration in EGFR-mutant lung cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
-- Esophagogastric cancer ([EGC](../cancer_types/EGC.md)) — resistance mechanism in HER2-positive EGC on pembrolizumab + trastuzumab [PMID:37406106](../papers/37406106.md).
+- Esophagogastric cancer ([EGC](../cancer_types/EGC.md)) — resistance mechanism in HER2-positive [EGC](../cancer_types/EGC.md) on [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) [PMID:37406106](../papers/37406106.md).
 - Cervical cancer ([CESC](../cancer_types/CESC.md)) — most common actionable alteration (25%), enriched in squamous histology [PMID:37643132](../papers/37643132.md).
-- Endometrial carcinoma ([UCEC](../cancer_types/UCEC.md)) — similar frequency across racial groups; more amplification mechanism in Black patients [PMID:37651310](../papers/37651310.md); not predictive of nivolumab response in dMMR disease (48% mutation frequency) [PMID:38653864](../papers/38653864.md).
+- Endometrial carcinoma ([UCEC](../cancer_types/UCEC.md)) — similar frequency across racial groups; more amplification mechanism in Black patients [PMID:37651310](../papers/37651310.md); not predictive of [nivolumab](../drugs/nivolumab.md) response in dMMR disease (48% mutation frequency) [PMID:38653864](../papers/38653864.md).
 - Hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) — 8% by cfDNA; actionable at OncoKB level 3b [PMID:37769223](../papers/37769223.md).
-- Anaplastic thyroid carcinoma ([THAP](../cancer_types/THAP.md)) — co-occurs with BRAF V600E (FDR = 0.034); enriched in ATC vs. PTC [PMID:38412093](../papers/38412093.md).
+- Anaplastic thyroid carcinoma ([THAP](../cancer_types/THAP.md)) — co-occurs with [BRAF](../genes/BRAF.md) V600E (FDR = 0.034); enriched in ATC vs. PTC [PMID:38412093](../papers/38412093.md).
 - Rhabdomyosarcoma ([RMS](../cancer_types/RMS.md) / [ERMS](../cancer_types/ERMS.md)) — RAS/PIK3CA pathway alterations in 5/17 FN-RMS [PMID:37730754](../papers/37730754.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -61,6 +65,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 ## Sources
 
+- [PMID:18772890](../papers/18772890.md)
 - [PMID:36357680](../papers/36357680.md)
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:37084736](../papers/37084736.md)
@@ -76,5 +81,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
+- [PMID:39305899](../papers/39305899.md)
+- [PMID:39753968](../papers/39753968.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2025-02-14**.*

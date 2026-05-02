@@ -4,7 +4,7 @@ aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-01
 ---
 
 # KDM6A
@@ -19,6 +19,7 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - KDM6A was identified as a novel recurrent driver mutation (chromatin remodeling) enriched in MG3 and MG4 meningioma molecular groups in a clinically applicable integrative molecular classification of 201 meningiomas [PMID:34433969](../papers/34433969.md).
 - KDM6A deep deletion detected in neuroendocrine prostate cancer (NEPC) PDX pair 144 in a multi-omic characterization of 44 PDXs from 38 patients in the MDA PCa PDX series [PMID:38488813](../papers/38488813.md).
 - KDM6A was among the liquid biopsy-associated genes analyzed in ctDNA-based VTE risk prediction across cancer types in a MSK cohort (n=5,765) [PMID:39147831](../papers/39147831.md).
+- KDM6A detected in 18% of pretreatment cfDNA samples from 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS, 129-gene panel); no statistically significant survival association was reported for KDM6A alone but it is among the most common alterations in the mUC cfDNA landscape. [PMID:40256659](../papers/40256659.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,6 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

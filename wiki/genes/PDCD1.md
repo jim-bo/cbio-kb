@@ -3,8 +3,8 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # PDCD1
@@ -16,12 +16,13 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 ## Alterations observed in the corpus
 
 - Component of the 20-gene ICR immunoregulatory counter-activation module used to classify 348 primary colon cancers in the AC-ICAM cohort; no PDCD1-specific mutation finding reported [PMID:37202560](../papers/37202560.md).
-- Target of nivolumab; surface expression measured on peripheral blood T cells by multiparameter flow cytometry (22C3 pharmDx assay) in a phase 2 IMRT reirradiation trial (NCT03521570, n=51) in recurrent/second primary [HNSC](../cancer_types/HNSC.md). Co-expression of PDCD1 (PD-1) with [MKI67](../genes/MKI67.md) (Ki-67) on [CD4](../genes/CD4.md)+ T cells was used as a pharmacodynamic biomarker; ≥1.5-fold increase from baseline at week 2 or 4 trended with worse PFS (HR 2.09, 95% CI 0.77–5.66, P = .14; median PFS 16.0 vs. 27.1 months). [PMID:38780927](../papers/38780927.md)
+- Target of [nivolumab](../drugs/nivolumab.md); surface expression measured on peripheral blood T cells by multiparameter flow cytometry (22C3 pharmDx assay) in a phase 2 IMRT reirradiation trial (NCT03521570, n=51) in recurrent/second primary [HNSC](../cancer_types/HNSC.md). Co-expression of PDCD1 (PD-1) with [MKI67](../genes/MKI67.md) (Ki-67) on [CD4](../genes/CD4.md)+ T cells was used as a pharmacodynamic biomarker; ≥1.5-fold increase from baseline at week 2 or 4 trended with worse PFS (HR 2.09, 95% CI 0.77–5.66, P = .14; median PFS 16.0 vs. 27.1 months). [PMID:38780927](../papers/38780927.md)
+- PDCD1 (PD1) progressively upregulated on CD8+ T cells from the STIC.I stage onward in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursors; activation markers (Ki67+ or PD1+) rise from 11% in p53.I to 25–43% in STIC.I/STIC.C/cancer; exhaustion markers ([LAG3](../genes/LAG3.md)+ or PD1+LAG3+) increase 3- to 7-fold; PDCD1 listed alongside LAG3, [HAVCR2](../genes/HAVCR2.md) (TIM3), and [CTLA4](../genes/CTLA4.md) as exhaustion/checkpoint markers in this 44-specimen HGSOC spatial atlas. [PMID:39386723](../papers/39386723.md)
 
 ## Cancer types (linked)
 
 - Colon adenocarcinoma ([COAD](../cancer_types/COAD.md)) — part of ICR signature that outperforms CMS and MSI for prognosis [PMID:37202560](../papers/37202560.md).
-- Head and neck squamous cell carcinoma ([HNSC](../cancer_types/HNSC.md)) — target of nivolumab; PD-1+Ki-67+CD4+ T-cell surge at week 2–4 paradoxically trended with worse PFS in 51-patient reirradiation trial, unlike in lung cancer and melanoma. [PMID:38780927](../papers/38780927.md)
+- Head and neck squamous cell carcinoma ([HNSC](../cancer_types/HNSC.md)) — target of nivolumab; PD-1+Ki-67+[CD4](../genes/CD4.md)+ T-cell surge at week 2–4 paradoxically trended with worse PFS in 51-patient reirradiation trial, unlike in lung cancer and melanoma. [PMID:38780927](../papers/38780927.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -43,7 +44,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:38780927](../papers/38780927.md)
+- [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

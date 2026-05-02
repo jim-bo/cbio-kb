@@ -4,7 +4,7 @@ aliases: [MIG]
 cancer_types: [COAD]
 tags: [chemokine, icr-signature, immune-infiltration]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-04-30
 ---
 
 # CXCL9
@@ -16,10 +16,12 @@ CXCL9 is an IFN-gamma-induced CXCR3 ligand that directs CD8 T cell and NK cell r
 ## Alterations observed in the corpus
 
 - Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as a CXCR3/CCR5 chemokine ligand, alongside [CCL5](../genes/CCL5.md) and [CXCL10](../genes/CXCL10.md), applied to the 348-patient AC-ICAM colon cancer cohort [PMID:37202560](../papers/37202560.md).
+- CXCL9 was identified as an [APC](../genes/APC.md) chemoattraction marker in spatial transcriptomic profiling (GeoMx WTA) of fallopian tube [HGSOC](../cancer_types/HGSOC.md) precursor lesions; CXCL9 expression used to define infiltrating immune-cell populations and their spatial relationship to [HLA-E](../genes/HLA-E.md)+ epithelium across the p53-signature → STIC.I → STIC.C → invasive cancer axis [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
 - Colon adenocarcinoma — CXCL9 contributes to ICR-based prognostic clustering independent of CMS and MSI [PMID:37202560](../papers/37202560.md).
+- [OV](../cancer_types/OV.md) (HGSOC) / fallopian tube precursors — CXCL9 expression used as APC chemoattraction marker to characterize immune compartments across HGSOC progression stages [PMID:39386723](../papers/39386723.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,5 +38,6 @@ CXCL9 is an IFN-gamma-induced CXCR3 ligand that directs CD8 T cell and NK cell r
 ## Sources
 
 - [PMID:37202560](../papers/37202560.md)
+- [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

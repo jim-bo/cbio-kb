@@ -181,3 +181,7 @@
 - method: pyradiomics — observed in PMID:37397861 — note: open-source Python library for hand-engineered radiomic feature extraction; v2.2.0 used in RADCURE HNSC challenge, yielding ~1,316 features from CT GTV masks
 - method: pyradiomics — observed in PMID:35764743 — note: PyRadiomics used to extract 600 Coif-wavelet CT radiomic features per omental/adnexal lesion in HGSOC multimodal study
 - method: mtlr — observed in PMID:37397861 — note: Multi-Task Logistic Regression survival framework (Yu et al.); top-performing model in RADCURE HNSC prognostic challenge (AUROC 0.823); outputs full patient-level survival curves
+- method: clinical-longformer — observed in PMID:39506116 — note: Longformer-based NLP transformer fine-tuned on clinical notes for prior-treatment and HER2/HR-status extraction in MSK-CHORD pipeline
+- method: clinicalbert — observed in PMID:39506116 — note: BERT-based NLP model for ten-binary multi-label tumor-site extraction from clinical/radiology notes in MSK-CHORD pipeline
+- method: mimsi — observed in PMID:39746944 — note: deep MIL classifier for MSI detection from targeted NGS reads; outperforms MSIsensor in low-purity samples
+- method: msisensor — observed in PMID:39746944 — note: reference MSI calling tool using paired tumor-normal NGS; threshold ≥10 for MSI-H; also used in PMID:39753968 MSK PDAC cohort

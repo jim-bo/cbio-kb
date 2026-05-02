@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # Whole-genome sequencing (WGS)
@@ -24,6 +24,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38117484](../papers/38117484.md) — WGS on a subset of 64 glioma patients in the GLASS International consortium; integrated with 450K/EPIC methylation arrays and RNA-seq [PMID:38117484](../papers/38117484.md).
 - [PMID:38412093](../papers/38412093.md) — WGS on 9 of 141 characterized anaplastic thyroid carcinoma regions (the remaining 132 underwent WES) [PMID:38412093](../papers/38412093.md).
 - [PMID:38488813](../papers/38488813.md) — WGS at 30X on 44 prostate cancer PDX models; paired with targeted sequencing (T200.1 panel) and RNA-seq for integrative multi-platform molecular characterization [PMID:38488813](../papers/38488813.md).
+- [PMID:39305899](../papers/39305899.md) — WGS (BWA-MEM2, MuSE, Mutect2, SomaticSniper, Strelka2, Battenberg/ASCAT) on a subset of the UCLA sarcoma biobank (194 specimens from 126 patients); used alongside [DFCI-ONCOPANEL-3](../methods/DFCI-ONCOPANEL-3.md) targeted DNA and bulk RNA-seq to characterize 24 bone and soft-tissue sarcoma subtypes; enabled CNV analysis including whole-genome duplications in intra-patient heterogeneity studies and functional-vs-genomic concordance analyses [PMID:39305899](../papers/39305899.md).
 
 ## Notes
 
@@ -39,5 +40,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:38488813](../papers/38488813.md)
+- [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

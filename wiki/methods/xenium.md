@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [spatial, single-cell, in-situ, transcriptomics, 10x-genomics]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2026-05-01
 ---
 
 # 10x Xenium
@@ -18,6 +18,7 @@ processed_at: 2026-04-15
 ## Used by
 
 - [PMID:41941260](../papers/41941260.md) — Xenium single-cell spatial profiling was applied at KIDSROBIN to baseline and post-131I-MIBG second-look neuroblastoma samples; identified differentially depleted and enriched cell populations following radiopharmaceutical therapy [PMID:41941260](../papers/41941260.md).
+- [PMID:39975212](../papers/39975212.md) — 10X Xenium used for single-cell spatial profiling of FFPE skin sections (two adjacent sections, ~96M transcripts, ~300K cells) from a 63-year-old melanoma patient using a custom 360-gene panel; spatially validated the HighMut (interfollicular epidermis) vs LowMut (hair follicle) melanocyte niche separation that was initially identified by in vitro single-cell genotyping and Smart-Seq2 RNA profiling [PMID:39975212](../papers/39975212.md).
 
 ## Notes
 
@@ -29,7 +30,6 @@ processed_at: 2026-04-15
 ## Sources
 
 - [PMID:41941260](../papers/41941260.md)
+- [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
-
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

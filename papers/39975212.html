@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Somatic mutations distinguish melanocyte subpopulations in human skin – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39975212.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39975212.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Somatic mutations distinguish melanocyte subpopulations in human skin</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Bishal Tandukar </p>
+             <p>Delahny Deivendran </p>
+             <p>Limin Chen </p>
+             <p>Neda Bahrani </p>
+             <p>Beatrice Weier </p>
+             <p>Harsh Sharma </p>
+             <p>Noel Cruz-Pacheco </p>
+             <p>Min Hu </p>
+             <p>Kayla Marks </p>
+             <p>Rebecca G Zitnay </p>
+             <p>Aravind K Bandari </p>
+             <p>Rojina Nekoonam </p>
+             <p>Iwei Yeh </p>
+             <p>Robert Judson-Torres </p>
+             <p>A Hunter Shain </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1101/2025.02.07.637114">10.1101/2025.02.07.637114</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 39975212 · <strong>DOI:</strong> 10.1101/2025.02.07.637114 · <strong>Journal:</strong> bioRxiv (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Tandukar et al.&nbsp;clonally expanded 297 single melanocytes from 58 skin biopsies of 31 donors and jointly profiled their somatic mutations (DNA), gene expression (RNA via Smart-Seq2), and morphology. Within sun-damaged skin, two coexisting melanocyte subpopulations were identified: a <strong>HighMut</strong> population dominated by UV-induced (signature [[SBS7]]) damage that is dendritic, larger, and transcriptionally “differentiated” (e.g., upregulated [[<a href="../genes/HMOX1.html">HMOX1</a>]], [[<a href="../genes/MC1R.html">MC1R</a>]], [[<a href="../genes/HERC2.html">HERC2</a>]]); and a <strong>LowMut</strong> population enriched for clock-like signatures [[SBS1]]/[[SBS5]] that is smaller, less dendritic, more stem-like, and expresses neural-crest-lineage genes (e.g., [[<a href="../genes/VCAN.html">VCAN</a>]], [[<a href="../genes/TAGLN.html">TAGLN</a>]], [[<a href="../genes/SEMA3C.html">SEMA3C</a>]]). Single-cell spatial transcriptomics on FFPE skin from a 63-year-old male using the [[<a href="../methods/xenium.html">xenium</a>|10X Xenium]] platform showed LowMut melanocytes are enriched in hair follicles and near the follicular opening, whereas HighMut melanocytes reside almost exclusively in the interfollicular epidermis — supporting a model in which hair-follicle melanocytes serve as a UV-protected stem-cell reservoir that periodically replenishes the epidermis after photodamage.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Donors:</strong> 31 unique donors, 55 skin biopsies (3mm or 5mm punch/shave) collected at UCSF (Willed Body Program cadavers; IRB 22-36678) and Northwestern University (dermatology clinic; IRB STU00211546).</li>
+<li><strong>Cells profiled:</strong> 297 single melanocytes clonally expanded ex vivo to ~230-cell colonies before joint DNA/RNA amplification via [[<a href="../methods/smart-seq2.html">smart-seq2</a>|G&amp;T-Seq + SMART-Seq2]]; ~half of the cells were previously published, the rest newly sequenced here.</li>
+<li><strong>Cancer relevance:</strong> Normal melanocytes from cutaneous skin (OncoTree [[<a href="../cancer_types/SKIN.html">SKIN</a>]]); FFPE Xenium specimen came from non-lesional adjacent skin of a wide-excision biopsy in a 63-year-old male diagnosed with [[<a href="../cancer_types/MEL.html">MEL</a>|melanoma]] and showed solar elastosis.</li>
+<li><strong>Dataset:</strong> [[<a href="../datasets/normal_skin_melanocytes_2024.html">normal_skin_melanocytes_2024</a>]] (cBioPortal <code>studyId</code>).</li>
+<li><strong>Assays / panels:</strong> [[<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>]] (NimbleGen SeqCap EZ Exome+UTR or KAPA HyperExome V1) plus targeted DNA seq with the [[<a href="../methods/Bait_UCSF500.html">Bait_UCSF500</a>|UCSF500]] cancer gene panel; [[smart-seq2]] for matched RNA; [[<a href="../methods/single-cell-genotyping.html">single-cell-genotyping</a>]] for variant calling; [[<a href="../methods/spatial-transcriptomics.html">spatial-transcriptomics</a>]] via the [[xenium|10X Xenium]] platform on FFPE skin sections.</li>
+<li><strong>Spatial Xenium panel:</strong> Custom 360-gene panel built on the predesigned 10X human skin panel (260 genes) plus 100 custom probes covering HighMut, LowMut, adult/neonatal/fetal melanocyte, melanocyte stem cell (MSC), differentiated, transitional, neural crest, hair follicle bulge, and Schwann cell signatures.</li>
+<li><strong>Spatial yields:</strong> ~96M transcripts in ~300K cells across two FFPE sections; 1,918 melanocytes annotated (sample 1); 287 + 287 HighMut/LowMut (sample 1) and 307 + 307 (sample 2).</li>
+<li><strong>Data availability:</strong> dbGaP <code>phs001979.v1.p1</code> and <code>phs003683.v2.p1</code> (single-cell DNA/RNA); GEO <code>GSE286964</code> (Xenium spatial).</li>
+<li><strong>Reference genome:</strong> hg19 (BWA-MEM v2.0.5; STAR v2.1.0; GATK v4.1.2.0).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Coexisting mutation-burden subpopulations within the same biopsy.</strong> Plotting per-cell mutation burden against the median burden of the originating biopsy showed that even biopsies with high overall burden retained a subpopulation of low-burden melanocytes; quartile gates (top vs bottom quartile, restricted to biopsies with ≥3 mut/Mb) defined the HighMut and LowMut subsets used throughout the study <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Mutational signatures separate the subsets.</strong> HighMut melanocytes carried a higher fraction of C&gt;T transitions at the 3′ base of dipyrimidines and of UV-attributable signature [[SBS7]] (sum of SBS7a–d), whereas LowMut melanocytes were enriched for clock-like signatures [[SBS1]] and [[SBS5]] (Wilcoxon rank-sum, ****p &lt; 0.0001 for cell-to-cell comparisons; signatures assigned via SigProfilerAssignment v0.1.8 against COSMIC v3.4) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>HighMut transcriptome is “differentiated/pigmentation/immune”.</strong> [[DESeq2]] differential expression (BH-adjusted p&lt;0.10, log2FC&gt;0) showed HighMut cells upregulate pigmentation/metabolism genes ([[HMOX1]], [[<a href="../genes/ABCC2.html">ABCC2</a>]], [[MC1R]]), the pigment/eye-color GWAS gene [[HERC2]], and antigen-presentation/protein-breakdown genes ([[<a href="../genes/LIPA.html">LIPA</a>]], [[<a href="../genes/HLA-DPA1.html">HLA-DPA1</a>]]) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>LowMut transcriptome is “neural-crest / stem-like”.</strong> LowMut cells upregulate connective-tissue ([[VCAN]], [[<a href="../genes/FBN1.html">FBN1</a>]], [[<a href="../genes/PALLD.html">PALLD</a>]], [[<a href="../genes/ITM2A.html">ITM2A</a>]]), smooth-muscle ([[TAGLN]], [[<a href="../genes/MYL9.html">MYL9</a>]], [[<a href="../genes/MYLK.html">MYLK</a>]], [[<a href="../genes/SGCE.html">SGCE</a>]], [[<a href="../genes/HACD1.html">HACD1</a>]]), and neuronal ([[SEMA3C]], [[<a href="../genes/TCF4.html">TCF4</a>]], [[<a href="../genes/DAAM2.html">DAAM2</a>]], [[<a href="../genes/RGMB.html">RGMB</a>]], [[<a href="../genes/NTNG1.html">NTNG1</a>]]) genes — recapitulating the broader fates of the neural crest <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Cross-atlas alignment.</strong> Hypergeometric overlap (vs Belote et al.&nbsp;2021 and Cheng et al.&nbsp;2018) places HighMut genes with “adult” melanocyte signatures and LowMut genes with “melanocyte stem cell (MSC)” signatures from fetal hair-follicle-derived cells. The WIMMS framework places HighMut with “Differentiated” and LowMut with “<a href="../genes/AXL.html">AXL</a>” / “Neuronal” / “Invasive” melanocyte states <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Morphological dimorphism.</strong> Blinded QuPath segmentation of phase-contrast colony images (perimeter-to-area complexity following Hou 2018; manual dendrite counts) showed HighMut melanocytes are larger, more dendritic, and morphologically more complex than LowMut melanocytes (Student’s t-test, *p&lt;0.005) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Spatial niche separation by Xenium.</strong> Per-cell delta count (HighMut-gene reads minus LowMut-gene reads) ranked melanocytes; the top/bottom 15th percentiles were called HighMut/LowMut. HighMut melanocytes were almost exclusively in the interfollicular epidermis; LowMut melanocytes were concentrated in the hair follicle but also appeared in the epidermis preferentially near the follicular opening (Exact Poisson test) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Spatial cell-area replication.</strong> LowMut melanocytes were significantly smaller in inferred surface area than HighMut melanocytes in situ (Tukey HSD, *p&lt;0.001), recapitulating the in-vitro morphology <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<p>This is a normal-tissue cell-atlas study; no recurrent driver alterations are nominated. Genes are reported as transcriptomic markers separating the two melanocyte subpopulations rather than as somatic targets of mutation.</p>
+<ul>
+<li><strong>HighMut markers (pigmentation / antigen presentation):</strong> [[HMOX1]], [[ABCC2]], [[MC1R]], [[HERC2]], [[LIPA]], [[HLA-DPA1]] <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>LowMut markers (neural-crest lineage):</strong> [[VCAN]], [[FBN1]], [[PALLD]], [[ITM2A]], [[TAGLN]], [[MYL9]], [[MYLK]], [[SGCE]], [[HACD1]], [[SEMA3C]], [[TCF4]], [[DAAM2]], [[RGMB]], [[NTNG1]] <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Lineage-confirmation markers:</strong> melanocytes — [[<a href="../genes/PMEL.html">PMEL</a>]], [[<a href="../genes/TYRP1.html">TYRP1</a>]], [[<a href="../genes/MLANA.html">MLANA</a>]], [[<a href="../genes/MITF.html">MITF</a>]]; keratinocytes — [[<a href="../genes/KRT14.html">KRT14</a>]], [[<a href="../genes/KRT17.html">KRT17</a>]], [[<a href="../genes/KRT5.html">KRT5</a>]]; fibroblasts — [[<a href="../genes/LUM.html">LUM</a>]], [[<a href="../genes/COL1A1.html">COL1A1</a>]], [[<a href="../genes/S100A4.html">S100A4</a>]] <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Cross-study state alignment:</strong> LowMut genes cluster with Belote et al.&nbsp;“MSC” and WIMMS “[[AXL]] / Neuronal / Invasive” melanocyte states <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Mutational profiles:</strong> UV-attributable [[SBS7]] dominates HighMut cells; clock-like [[SBS1]]/[[SBS5]] dominate LowMut cells (somatic mutation calls in Table S2 of the paper) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<p>The authors do not claim a direct therapeutic application. They argue that:</p>
+<ul>
+<li>The hair follicle plausibly serves as a UV-protected reservoir from which melanocyte stem cells migrate to repigment the interfollicular epidermis after photodamage, paralleling the migration seen in vitiligo patients receiving UV phototherapy and in murine UV-exposure models <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li>The possibility that “homeostatic mechanisms could be co-opted for therapeutic intent… to replace heavily mutated cells with fresh cells to rejuvenate tissue” is raised as a hypothesis, not as a validated intervention <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li>The companion observation that hair-follicle melanocytes carry far fewer UV mutations is potentially relevant to melanoma origins, since the FFPE Xenium specimen was non-lesional adjacent skin from a [[MEL|melanoma]] patient — but no melanoma-specific driver claim is made.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Cell-culture artifact.</strong> Authors flag that ex-vivo clonal expansion may alter gene expression and morphology and “to a lesser extent” the mutational state — limitations partly mitigated by Xenium spatial validation in situ <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Smaller atlas footprint.</strong> Only 297 melanocytes were profiled, far fewer than typical scRNA-seq atlases — the trade-off being deeper per-cell phenotyping (DNA + RNA + morphology) <a href="../papers/39975212.html">PMID:39975212</a>.</li>
+<li><strong>Single Xenium donor.</strong> Spatial validation rests on one 63-year-old male donor with melanoma history and solar elastosis (two adjacent FFPE sections). Spatial generalization across age, anatomic site, skin tone, and disease status is not addressed.</li>
+<li><strong>Inference of mutational status from RNA in situ.</strong> HighMut/LowMut calls in Xenium data are gene-expression surrogates (delta-count of HighMut-vs-LowMut signature genes) rather than direct genotyping; the 15th-percentile cutoffs are operational, not biologically derived.</li>
+<li><strong>Bronchial-epithelial parallel.</strong> The discussion connects to Yoshida et al.’s smoker-lung observation of “near-normal” mutation-burden epithelial cells admixed with damaged cells, suggesting a generalizable barrier-organ stem-cell-niche principle that this study does not directly test.</li>
+<li><strong>Causal direction of niche.</strong> The model that LowMut cells live in the follicle and migrate out is plausible from spatial co-occurrence but not lineage-traced in humans; movement is inferred, not directly observed.</li>
+<li><strong>Probe coverage gaps.</strong> Two HighMut/LowMut signature genes (FRG2DP, FTH1P10) were excluded from the Xenium custom panel due to lack of suitable probes — a minor signature-completeness caveat.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we profiled 297 cells from 58 independent skin biopsies of 31 unique donors – approximately half were previously published and the remaining are newly sequenced here.” (Results, “Phenotyping melanocytes from human skin”)</li>
+<li>“Skin samples with high mutation burdens, on average, maintained a subpopulation of melanocytes with low mutation burdens.” (Results, Fig. 1 description)</li>
+<li>“The melanocytes with high mutation burdens had a greater proportion of cytosine to thymine transitions at the 3′ basepair of dipyrimidines… They also had a greater proportion of signature 7 mutations… By contrast, the low mutation burden melanocytes had a greater proportion of ‘clock-like’ signatures 1 and 5.” (Results, Fig. 2)</li>
+<li>“Examples include HMOX1, ABCC2, and MC1R… Melanocytes with high mutation burdens also expressed HERC2…” (Results, Fig. 3B,C)</li>
+<li>“Examples of neural crest genes include: VCAN, FBN1, PALLD, ITM2A (connective tissue genes); TAGLN, MYL9, MYLK, SGCE, HACD1 (smooth muscle genes); and SEMA3C, TCF4, DAAM2, RGMB, NTNG1 (neuronal genes).” (Results, Fig. 3C)</li>
+<li>“Melanocytes with HighMut gene expression programs were almost exclusively found in the interfollicular epidermis… Melanocytes with LowMut gene expression programs were enriched in hair follicles but could be found in the epidermis, too.” (Results, Fig. 5A–C)</li>
+<li>“The genomic and transcriptomic sequencing data for individual cells are available through dbGaP (phs001979.v1.p1 and phs003683.v2.p1). Additionally, the Xenium spatial transcriptomics data for skin sections can also be accessed via GEO (GSE286964).” (Methods, Data Availability)</li>
+<li>“DNA sequencing data were aligned to the hg19 version of the human genome using the BWA-MEM algorithm (v2.0.5).” (Methods, Workflow for sequencing data analysis and variant calling)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-30</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39975212.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39975212.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

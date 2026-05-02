@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clinicogenomic landscape of pancreatic adenocarcinoma identifies KRAS mutant dosage as prognostic of overall survival – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39753968.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39753968.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clinicogenomic landscape of pancreatic adenocarcinoma identifies KRAS mutant dosage as prognostic of overall survival</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Varghese AM </p>
+             <p>Perry MA </p>
+             <p>Chou JF </p>
+             <p>Nandakumar S </p>
+             <p>Muldoon D </p>
+             <p>Erakky A </p>
+             <p>Zucker A </p>
+             <p>Fong C </p>
+             <p>Mehine M </p>
+             <p>Nguyen B </p>
+             <p>Basturk O </p>
+             <p>Balogun F </p>
+             <p>Kelsen DP </p>
+             <p>Brannon AR </p>
+             <p>Mandelker D </p>
+             <p>Vakiani E </p>
+             <p>Park W </p>
+             <p>Yu KH </p>
+             <p>Stadler ZK </p>
+             <p>Schattner MA </p>
+             <p>Jarnagin WR </p>
+             <p>Wei AC </p>
+             <p>Chakravarty D </p>
+             <p>Capanu M </p>
+             <p>Schultz N </p>
+             <p>Berger MF </p>
+             <p>Iacobuzio-Donahue CA </p>
+             <p>Bandlamudi C </p>
+             <p>O’Reilly EM </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41591-024-03362-3">10.1038/s41591-024-03362-3</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 39753968 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/s41591-024-03362-3">10.1038/s41591-024-03362-3</a> · <strong>Journal:</strong> Nature Medicine (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Varghese, Perry et al.&nbsp;profiled 2,336 patients with pancreatic ductal adenocarcinoma (PDAC) sequenced with <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> at Memorial Sloan Kettering, with deep clinical curation for 1,480 patients. They define three genomic subtypes — KRAS-mutant (95%), other-MAPK-mutant (3%), and MAPK wild-type (2%) — and show that allelic imbalance at the <a href="../genes/KRAS.html">KRAS</a> locus is widespread, with <a href="../genes/KRAS.html">KRAS</a> mutant-allele dosage gains in roughly one in five diploid KRAS-mutant tumors. Mutant-allele dosage gains correlate with advanced disease and confer significantly worse overall survival across all clinical stages, independent of whole-genome doubling and of WT-allele status. The study positions KRAS mutant dosage as a prognostic biomarker relevant to the emerging RAS-targeted therapeutics landscape (<a href="../papers/39753968.html">PMID:39753968</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n = 2,336 patients with PDAC</strong> prospectively sequenced at MSK between January 2014 and September 2021 (<a href="../papers/39753968.html">PMID:39753968</a>). Cohort released as cBioPortal study <a href="../datasets/pdac_msk_2024.html"><code>pdac_msk_2024</code></a>.</li>
+<li><strong>Cancer type:</strong> <a href="../cancer_types/PAAD.html">PAAD</a> (pancreatic adenocarcinoma).</li>
+<li><strong>Stage distribution:</strong> 731 resectable (31%), 581 borderline-resectable / locally advanced (25%), 1,024 metastatic (44%); median <a href="../cancer_types/OS.html">OS</a> 31 / 19 / 11 months respectively.</li>
+<li><strong>Sample type:</strong> 1,424 (61%) primary, 912 (39%) metastasis. Median age at diagnosis 67 years (range 24–93).</li>
+<li><strong>Detailed clinical curation:</strong> 1,480 (63%) patients with manually curated treatment, time on treatment, and best-response data, drawn from medical records collected through March 2021.</li>
+<li><strong>Assay:</strong> FDA-authorized <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted DNA panel, sequenced to median 606× depth (25th–75th percentile 469×–749×) across four panel generations: <a href="../methods/IMPACT341.html">IMPACT341</a> (n = 17), <a href="../methods/IMPACT410.html">IMPACT410</a> (n = 438), <a href="../methods/IMPACT468.html">IMPACT468</a> (n = 1,536), and <a href="../methods/IMPACT505.html">IMPACT505</a> (n = 345).</li>
+<li><strong>Allele-specific copy number:</strong> inferred with <a href="../methods/facets.html">FACETS</a> (v0.5.14) using a two-step pipeline; 1,555 of 2,322 tumors passed copy-number QC.</li>
+<li><strong>Fusion calling:</strong> 90 patients had MSK-Fusion (<a href="../methods/archer-fusionplex.html">archer-fusionplex</a>) RNA-based fusion testing; an additional 11 tumors underwent <a href="../methods/rna-seq.html">RNA-seq</a> for fusion discovery (FusionCatcher v1.20 + Arriba v2.1.0). See <a href="../methods/msk-fusion.html">msk-fusion</a>.</li>
+<li><strong>Annotation:</strong> all somatic alterations annotated with <a href="../methods/oncokb.html">OncoKB</a> v4.12 (Dec 2023); MSI inferred by MSIsensor (cutoff ≥10).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Three genomic subtypes of PDAC:</strong> KRAS-mutant (n = 2,209, 95%), other-MAPK-mutant (n = 76, 3%), and MAPK wild-type (n = 51, 2%). 1% (n = 22) of KRAS-mutant tumors were called below the clinical reporting threshold but were retained after IGV review.</li>
+<li><strong>Other-MAPK-mutant tumors:</strong> 60% of KRAS-WT tumors carry oncogenic alterations in MAPK-pathway genes (vs 7% of KRAS-mutant; P = 1.6 × 10⁻⁴⁷). Activating fusions involving MAPK genes were nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P = 2 × 10⁻³⁵).</li>
+<li><strong>MAPK-WT tumors:</strong> had <a href="../genes/GNAS.html">GNAS</a> (16% vs 2%, P = 1.5 × 10⁻⁵), <a href="../genes/SMARCB1.html">SMARCB1</a> (8% vs &lt;1%, P = 2.4 × 10⁻⁶), and <a href="../genes/PIK3CA.html">PIK3CA</a> (10% vs 2%, P = 0.002) enrichments compared to KRAS-mutant tumors. Eleven MAPK-WT tumors with available material were RNA-sequenced; 2/11 (18%) carried activating <a href="../genes/BRAF.html">BRAF</a> or <a href="../genes/NRG1.html">NRG1</a> fusions.</li>
+<li><strong>OS by subtype:</strong> patients with other-MAPK-mutant (HR_adj = 0.69, CI 0.51–0.93, P = 0.014) and MAPK-WT (HR_adj = 0.69, CI 0.48–0.98, P = 0.041) tumors had significantly longer OS than KRAS-mutant patients in a stage-stratified multivariable Cox model (n = 2,270). After excluding the 83 patients who received targeted therapy, the MAPK-WT advantage persisted (HR_adj = 0.68, CI 0.47–0.97, P = 0.035), but the other-MAPK-mutant benefit was driven by access to targeted therapy.</li>
+<li><strong>Germline alterations:</strong> 10% of all patients carried pathogenic germline variants in high/moderate-penetrance genes — <a href="../genes/BRCA2.html">BRCA2</a> 3.7%, <a href="../genes/BRCA1.html">BRCA1</a> 1.8%, <a href="../genes/ATM.html">ATM</a> 1.8%, <a href="../genes/PALB2.html">PALB2</a> 0.5%; Lynch syndrome (MLH1/MSH2/MSH6/PMS2) in 0.7%, of which 6/17 (35%) were MSI-H.</li>
+<li><strong>gATM enrichment in MAPK-WT:</strong> gATM frequency was 18% in MAPK-WT tumors versus 1.4% in KRAS-mutant (P = 2 × 10⁻⁶); gATM and somatic <a href="../genes/TP53.html">TP53</a> mutations were mutually exclusive (P = 4 × 10⁻¹¹).</li>
+<li><strong>Allelic imbalance at KRAS:</strong> 42% of n = 1,157 KRAS-mutant tumors with high-quality copy-number fits showed allelic imbalance (focal/arm amplifications 4%, gains 16%, CNLOH 5%, LOH 11%, loss after WGD 5%). 93% of imbalance events preferentially gained or retained the mutant allele.</li>
+<li><strong>Whole-genome doubling (WGD):</strong> 19% of KRAS-mutant tumors had undergone WGD; allelic imbalance occurred in 75% of WGD vs 30% of non-WGD tumors. KRAS mutant-allele gains (≥3 mutant copies) reached 43% in WGD vs 20% in non-WGD tumors.</li>
+<li><strong>KRAS mutant dosage and OS:</strong> in the non-WGD subset (n = 934), any gain of mutant KRAS allele predicted shorter OS (HR_adj = 1.7, CI 1.4–2.0, P = 3.5 × 10⁻⁷). The dosage effect was significant within each clinical stage — resectable (median OS 23 vs 32 months; HR_adj = 2.16, CI 1.1–4.3, P = 0.03) and metastatic (8.5 vs 13 months; HR_adj = 1.63, CI 1.3–2.1, P = 4.9 × 10⁻⁵).</li>
+<li><strong>WT-allele loss compounds dosage gains:</strong> among tumors with KRAS mutant-allele dosage gains, those that also lost the WT allele (CNLOH) had significantly worse OS than those that retained WT (HR_adj = 1.64, CI 1.1–2.5, P = 0.016 with gain-of-mutant as reference), most prominent in metastatic disease.</li>
+<li><strong>KRAS allele frequencies:</strong> G12D 41%, G12V 32%, G12R 16%, G12C 1%, Q61H 1%, Q61R 0.3%; 14 tumors (0.6%) carried multiple KRAS hotspot mutations.</li>
+<li><strong>G12R has better OS than G12D:</strong> HR_adj = 0.78 (CI 0.67–0.92, P = 0.003), stratified by stage and adjusted for KRAS mutant gain. G12R tumors were enriched for <a href="../genes/SMAD4.html">SMAD4</a> alterations (30% vs 21%, P = 0.001) and depleted for <a href="../genes/ARID1A.html">ARID1A</a> alterations (5% vs 10%, P = 0.002) versus G12D.</li>
+<li><strong>Smoking and G12R:</strong> G12R-mutant patients were less likely to have a smoking history than G12D (40% vs 55%, P = 2 × 10⁻⁴).</li>
+<li><strong>Actionability landscape:</strong> ~10% of patients harbored OncoKB level 1 or 2 biomarkers (MSI-H, TMB-H, oncogenic NTRK1/NTRK3/RET fusions, KRAS G12C, BRCA1/BRCA2, PALB2). An additional 78% met level 3A based on KRAS G12D/V/R/A/S, reflecting the emerging RAS-inhibitor pipeline.</li>
+<li><strong>PARPi outcomes:</strong> of n = 29 stage-IV patients receiving PARPi, 38% (11/29) had ≥6 months on therapy. 10/11 long-responders had BRCA2 mutations, all biallelic. However, 6/16 BRCA2-mutant tumors with biallelic loss did not benefit, indicating biallelic BRCA2 loss is necessary but not sufficient.</li>
+<li><strong>First-line OS correlates (n = 304 metastatic, chemotherapy-treated):</strong> BRCA2 alterations associated with longer OS (HR_adj = 0.66, CI 0.44–0.98, P = 0.038). After FDR correction, <a href="../genes/RNF43.html">RNF43</a> alterations (HR_adj = 2.79, CI 1.40–5.56, P_adj = 0.047; median 6.6 vs 10.8 months) and <a href="../genes/AKT2.html">AKT2</a> amplifications (HR_adj = 2.03, CI 1.26–3.29, P_adj = 0.048; median 8.6 vs 10.8 months) predicted shorter OS.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>:</strong> 95% of PDACs harbor oncogenic KRAS alterations (mostly exon 2 G12D/V/R/C and Q61). Mutant-allele dosage gains in ~20% of diploid KRAS-mutant tumors are an independent negative prognostic marker across all stages. G12R is associated with better OS than G12D (HR_adj = 0.78, P = 0.003). Allelic imbalance (LOH, CNLOH, gains, amplifications, post-WGD loss) is present in 42% of KRAS-mutant tumors and almost universally favors the mutant allele.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a>:</strong> in-frame deletions between N486–P490 found in 7/26 oncogenic BRAF alterations — a pattern essentially absent in melanoma (2/749) and thyroid cancer (0/473). One MAPK-WT tumor harbored a GIT2–BRAF activating fusion.</li>
+<li><strong><a href="../genes/NRG1.html">NRG1</a>:</strong> activating ATP1B1–NRG1 fusion identified in one MAPK-WT tumor by RNA-seq. NRG1 fusions are nearly exclusive to KRAS-WT tumors. (No NRG1 page yet — entity-page-writer should create.)</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>:</strong> altered in 78% of KRAS-mutant tumors; lower in other-MAPK-mutant (38%, P = 1.4 × 10⁻⁹) and MAPK-WT (45%, P = 1.7 × 10⁻⁵). BRAF-mutant tumors showed KRAS-like TP53 rates (73%). TP53 alterations co-occurred with germline BRCA1 mutations (P = 4 × 10⁻⁷) and were depleted in tumors with biallelic ATM loss.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a>:</strong> alteration rate climbed with stage from 44% (resectable) to 60% (metastatic), P = 6.9 × 10⁻⁵.</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a>:</strong> enriched in G12R vs G12D tumors (30% vs 21%, P = 0.001).</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a>:</strong> enriched in other-MAPK-mutant (21% vs 8% in KRAS-mutant, P = 2.4 × 10⁻⁴) and in G12D vs G12R tumors (10% vs 5%, P = 0.002).</li>
+<li><strong><a href="../genes/GNAS.html">GNAS</a>:</strong> enriched in MAPK-WT (16% vs 2%, P = 1.5 × 10⁻⁵) and in resectable IPMN-derived tumors (7.9%); co-occurred with germline ATM mutations.</li>
+<li><strong><a href="../genes/SMARCB1.html">SMARCB1</a>:</strong> enriched in MAPK-WT (8% vs &lt;1%, P = 2.4 × 10⁻⁶); 3/4 SMARCB1-altered MAPK-WT tumors showed aggressive histology (poorly differentiated or high grade), though none met criteria for monomorphic anaplastic carcinoma.</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a>:</strong> enriched in MAPK-WT (10% vs 2%, P = 0.002).</li>
+<li><strong><a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/CREBBP.html">CREBBP</a>:</strong> alterations almost exclusive to other-MAPK-mutant subtype (P = 5.3 × 10⁻⁵ and 1.3 × 10⁻⁵, respectively, vs KRAS-mutant; 0% in MAPK-WT). (No <a href="../genes/FOXP1.html">FOXP1</a> page yet.)</li>
+<li><strong><a href="../genes/BRCA1.html">BRCA1</a> / <a href="../genes/BRCA2.html">BRCA2</a>:</strong> 1.8% / 3.7% germline pathogenic; strong selection for biallelic LOH in carriers. BRCA2 alterations associated with longer first-line OS (HR_adj = 0.66, P = 0.038). All 10 long-PARPi-responder BRCA2 tumors had biallelic inactivation.</li>
+<li><strong><a href="../genes/ATM.html">ATM</a>:</strong> germline pathogenic in 1.8% overall, 18% in MAPK-WT (vs 1.4% in KRAS-mutant, P = 2 × 10⁻⁶). gATM and somatic TP53 mutually exclusive (P = 4 × 10⁻¹¹).</li>
+<li><strong><a href="../genes/PALB2.html">PALB2</a>:</strong> germline pathogenic in 0.5%; 1 PALB2 patient received durable PARPi benefit. (No PALB2 page yet.)</li>
+<li><strong><a href="../genes/CHEK2.html">CHEK2</a>:</strong> higher prevalence in patients with Ashkenazi Jewish ancestry.</li>
+<li><strong>MMR genes (<a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/PMS2.html">PMS2</a>):</strong> Lynch syndrome in 17 patients (0.7%); 6/17 MSI-H.</li>
+<li><strong><a href="../genes/RNF43.html">RNF43</a>:</strong> alterations independently associated with shorter first-line OS (HR_adj = 2.79, P_adj = 0.047). Trend toward higher KRAS mutant-allele gain frequency (67% vs 30%, P = 0.2) in RNF43-mutant tumors.</li>
+<li><strong><a href="../genes/AKT2.html">AKT2</a>:</strong> amplifications associated with shorter OS in metastatic chemotherapy-treated patients (HR_adj = 2.03, P_adj = 0.048).</li>
+<li><strong><a href="../genes/BAP1.html">BAP1</a>:</strong> one BRCA1/2 wild-type, MAPK-WT tumor with a <a href="../genes/BAP1.html">BAP1</a> loss-of-function fusion received durable PARPi benefit.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarker:</strong> KRAS mutant-allele dosage gains, including shallow single-copy gains, identify high-risk PDAC across all clinical stages. Authors call for these gains to be reported by clinical sequencing assays — they are not currently reported by standard pipelines.</li>
+<li><strong>RAS-targeted therapy stratification:</strong> the authors argue that randomized trials of RAS inhibitors should stratify both intervention and control arms by KRAS mutant dosage, since dosage may modify both natural history and treatment response. They cite ongoing development of pan-RAS / KRAS-multi inhibitors including <a href="../drugs/rmc-6236.html">RMC-6236</a>.</li>
+<li><strong>MAPK-WT subtype:</strong> ~2% of PDAC; younger age at diagnosis, distinct ancestry distribution (more African ancestry), enriched germline ATM mutations, and longer OS even after excluding patients receiving targeted therapy. Suggests these tumors warrant separate clinical pathways and trials.</li>
+<li><strong>PARPi selection:</strong> germline or somatic BRCA2 alterations with biallelic inactivation are necessary but not sufficient for durable PARPi benefit; better predictive biomarkers are needed.</li>
+<li><strong>G12 allele stratification:</strong> G12R confers a modest OS advantage over G12D in chemotherapy-treated patients, independent of dosage. SMAD4 and ARID1A co-mutation patterns differ across alleles — relevant when allele-specific KRAS inhibitors enter the clinic.</li>
+<li><strong>ctDNA opportunity:</strong> authors note the potential of circulating tumor DNA assays to noninvasively assess KRAS mutant dosage, especially given the small biopsy specimens typical in PDAC.</li>
+<li><strong>Standard chemotherapy backbones:</strong> <a href="../drugs/folfirinox.html">FOLFIRINOX</a> (38% of curated cohort) and <a href="../drugs/gemcitabine.html">gemcitabine</a> / <a href="../drugs/nab-paclitaxel.html">nab-paclitaxel</a> (37%) remained the dominant first-line regimens; chemo backbone choice was not significantly associated with OS in the n = 304 metastatic subset.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Single-center, referral-biased cohort:</strong> patients evaluated at MSK with inherent biases of fitness, age, geography, and access. 41% underwent resection — higher than the broader PDAC population. Only 15% non-European ancestry, limiting power for ancestry-stratified inference. Authors call for replication in more diverse cohorts.</li>
+<li><strong>No transcriptomic subtyping at scale:</strong> only 11 MAPK-WT tumors had RNA-seq for fusion discovery. No assessment of classical vs basal-like transcriptomic subtypes; whether KRAS dosage and basal-like state are independent or correlated remains open. NCT04469556 cited as a relevant ongoing trial.</li>
+<li><strong>Predictive (not just prognostic) role of KRAS dosage gains in RAS-targeted therapies is unknown.</strong> The cohort predates broad use of KRAS inhibitors — clinical-trial cohorts will be needed.</li>
+<li><strong>Shallow gains not reported clinically:</strong> infrastructure and standardization for reporting low-level KRAS allele gains in CLIA pipelines does not yet exist.</li>
+<li><strong>MAPK-WT etiology:</strong> authors hypothesize unrecognized driver alterations in underrepresented populations, given enrichment of African and East Asian ancestry in MAPK-WT and other-MAPK-mutant subtypes; functional MAPK-pathway activity in MAPK-WT tumors needs biochemical confirmation.</li>
+<li><strong>PARPi predictive biomarker beyond biallelic BRCA2</strong> is not yet defined; 6/16 biallelic BRCA2 tumors did not benefit.</li>
+<li><strong>Excluded subclonal KRAS mutations:</strong> 22 tumors had subclonal/low-VAF KRAS mutations potentially under clinical reporting thresholds; their biological/prognostic implications were not explored separately.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We show that a genomic subtype of KRAS wild-type tumors is associated with early disease onset, distinct somatic and germline features, and significantly better overall survival.” (Abstract)</li>
+<li>“KRAS mutant allele dosage gains, observed in one in five (20%) KRAS-mutated diploid tumors, are correlated with advanced disease and demonstrate prognostic potential across disease stages.” (Abstract)</li>
+<li>“Tumor specimens were sequenced to median depth of 606× using the FDA-authorized MSK-IMPACT clinical sequencing assay that encompasses up to 505 cancer genes.” (Results — MSK-IMPACT PDAC study cohort)</li>
+<li>“Of these 1,157 tumors, 42% presented with allelic imbalance at KRAS locus including focal or arm-level amplifications (4%, n = 48), shallow gains (16%, n = 186), copy-neutral LOH (CNLOH; 5%, n = 62), LOH (11%, n = 129) and losses after WGD (5%, n = 56).” (Results — Mutant allelic imbalance at KRAS locus)</li>
+<li>“Patients with KRAS G12R-mutant tumors had significantly better OS compared with G12D-driven cancers (HR_adj = 0.78, CI = 0.67–0.92, P = 0.003).” (Results — KRAS mutant allele-specific differences)</li>
+<li>“RNF43 (HR_adj = 2.79, 95% CI = 1.40–5.56, P_adj = 0.047; median OS = 6.6 months RNF43MUT versus 10.8 months RNF43WT) and AKT2 amplifications (HR_adj = 2.03, 95% CI = 1.26, 3.29, P_adj = 0.048).” (Results — Clinical actionability in PDAC)</li>
+<li>“Genomic and associated clinical data for all patients and tumor samples included in this study have been deposited in cBioPortal for Cancer Genomics and are publicly accessible and downloadable at https://www.cbioportal.org/study/summary?id=<a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a>.” (Methods — Data availability)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-30</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/39753968.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/39753968.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

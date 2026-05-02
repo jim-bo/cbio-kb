@@ -8,7 +8,7 @@ tags:
   - oncogene
   - amplification
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # AKT2
@@ -20,10 +20,12 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 ## Alterations observed in the corpus
 
 - AKT2 amplification was more common in Black endometrial carcinoma (EC) patients than in White patients (9% vs 3%, q<0.01) in a 1,025-patient molecular characterization study at MSK [PMID:37651310](../papers/37651310.md).
+- AKT2 amplifications associated with shorter overall survival in metastatic [PAAD](../cancer_types/PAAD.md) patients receiving first-line chemotherapy (HR_adj = 2.03, P_adj = 0.048) in the MSK PDAC genomic cohort (n=2,336 tumors) [PMID:39753968](../papers/39753968.md).
 
 ## Cancer types (linked)
 
 - [UCEC](../cancer_types/UCEC.md) — AKT2 amplification enriched in Black patients; contributes to PI3K/AKT/mTOR pathway activation patterns distinct from PTEN/PIK3R1 mutation-driven activation seen in White patients [PMID:37651310](../papers/37651310.md).
+- [PAAD](../cancer_types/PAAD.md) — AKT2 amplification independently associated with shorter [OS](../cancer_types/OS.md) in metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -35,10 +37,11 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 
 ## Open questions
 
-- Whether AKT2 amplification (vs. AKT1 activation) confers differential sensitivity to pan-AKT inhibitors in endometrial carcinoma has not been directly investigated [PMID:37651310](../papers/37651310.md).
+- Whether AKT2 amplification (vs. [AKT1](../genes/AKT1.md) activation) confers differential sensitivity to pan-AKT inhibitors in endometrial carcinoma has not been directly investigated [PMID:37651310](../papers/37651310.md).
 
 ## Sources
 
 - [PMID:37651310](../papers/37651310.md)
+- [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

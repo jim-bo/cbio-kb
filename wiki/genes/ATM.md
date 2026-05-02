@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # ATM
@@ -20,6 +20,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM preferentially mutated in anaplastic thyroid carcinoma (ATC) and co-differentiated thyroid cancer (co-DTC) vs. paired PTC at both SNV and CNA levels in a multi-omic landscape study (n=87 specimens) [PMID:38412093](../papers/38412093.md).
 - ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and [CHEK2](../genes/CHEK2.md) — DDR pathway genes with driver genomic alterations predominantly in prostate adenocarcinoma PDXs vs. NEPC (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
 - ATM alterations were not independently associated with VTE risk in a 4,141-patient liquid biopsy VTE prediction study after multivariate adjustment [PMID:39147831](../papers/39147831.md).
+- Germline ATM pathogenic alterations in 1.8% of all PDAC; enriched at 18% prevalence in MAPK-WT PDAC vs 1.4% in KRAS-mutant (P = 2 × 10⁻⁶); germline ATM and somatic [TP53](../genes/TP53.md) alterations were mutually exclusive (P = 4 × 10⁻¹¹); [GNAS](../genes/GNAS.md) co-occurrence elevated in gATM carriers in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
+- ATM alterations detected in 11 cases (5.5%) of a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); part of underpowered DDR pooled analysis [PMID:40256659](../papers/40256659.md).
 
 ## Cancer types (linked)
 
@@ -27,6 +29,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [ANGS](../cancer_types/ANGS.md) — inactivating ATM mutations depleted in RT-AS (2%) relative to sporadic AS (10%) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
 - [THPA](../cancer_types/THPA.md) (anaplastic thyroid carcinoma) — ATM preferentially mutated in ATC and co-DTC at both SNV and CNA levels; recurrent DDR alteration rationalizing PARP inhibitor trials [PMID:38412093](../papers/38412093.md).
 - [PRAD](../cancer_types/PRAD.md) — ATM driver alterations predominantly in prostate adenocarcinoma PDXs; NEPC shows transcriptomic DDR upregulation without equivalent genomic alterations [PMID:38488813](../papers/38488813.md).
+- [PAAD](../cancer_types/PAAD.md) — Germline ATM enriched in MAPK-WT PDAC (18% vs 1.4% KRAS-mutant); mutually exclusive with somatic TP53; GNAS co-occurs in gATM carriers [PMID:39753968](../papers/39753968.md).
+- [BLCA](../cancer_types/BLCA.md) — ATM alterations in 5.5% of mUC cfDNA; part of underpowered DDR analysis in platinum-based chemotherapy cohort [PMID:40256659](../papers/40256659.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -47,5 +51,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:39753968](../papers/39753968.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

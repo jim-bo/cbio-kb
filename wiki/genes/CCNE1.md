@@ -11,8 +11,8 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # CCNE1
@@ -27,6 +27,7 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - Amplification enriched in early-onset esophagogastric cancer (16% vs. 7% in average-onset, P=0.001, Q=0.011), driven by the chromosomal instability esophageal/GEJ subgroup [PMID:37699004](../papers/37699004.md).
 - Amplification noted as an early copy number alteration event in serous tubal intraepithelial carcinomas (STICs), linked to breakage-fusion-bridge cycles during high-grade serous ovarian carcinoma development [PMID:39386723](../papers/39386723.md).
 - CCNE1 amplification used to assign patients to the foldback-inversion-enriched genomic subtype in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; amplification status overrides concurrent HRD-DDR variant evidence per MSKCC subtype-assignment rules; copy number assessed via MSK-IMPACT pipeline (MSKCC cases) and cBioPortal download (TCGA-OV cases) [PMID:35764743](../papers/35764743.md).
+- CCNE1 amplification reported as one of the genes appearing in volcano-plot metastasis-association analyses in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 
 ## Cancer types (linked)
 
@@ -41,13 +42,13 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 
 ## Therapeutic relevance
 
-- CCNE1 amplification is a candidate target for WEE1 inhibitors (e.g., adavosertib), ATR inhibitors, and PKMYT1 kinase inhibitors under clinical investigation in endometrial carcinoma [PMID:37651310](../papers/37651310.md).
-- Enrichment in early-onset EGC may represent a therapeutic opportunity with CDK2 inhibitors [PMID:37699004](../papers/37699004.md).
+- CCNE1 amplification is a candidate target for WEE1 inhibitors (e.g., adavosertib), [ATR](../genes/ATR.md) inhibitors, and PKMYT1 kinase inhibitors under clinical investigation in endometrial carcinoma [PMID:37651310](../papers/37651310.md).
+- Enrichment in early-onset [EGC](../cancer_types/EGC.md) may represent a therapeutic opportunity with CDK2 inhibitors [PMID:37699004](../papers/37699004.md).
 
 ## Open questions
 
 - Whether CCNE1 amplification functions differently in carcinosarcoma vs. endometrioid endometrial carcinoma contexts, and which inhibitor class is optimal, remains unresolved.
-- The causal role of CCNE1 amplification in early HGSOC precursor evolution versus its role as a passenger CNA has not been fully established [PMID:39386723](../papers/39386723.md).
+- The causal role of CCNE1 amplification in early [HGSOC](../cancer_types/HGSOC.md) precursor evolution versus its role as a passenger CNA has not been fully established [PMID:39386723](../papers/39386723.md).
 
 ## Sources
 
@@ -55,5 +56,6 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - [PMID:37699004](../papers/37699004.md)
 - [PMID:39386723](../papers/39386723.md)
 - [PMID:35764743](../papers/35764743.md)
+- [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

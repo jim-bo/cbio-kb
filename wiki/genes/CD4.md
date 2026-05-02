@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - HNSC
 tags: [t-cell, immune-biomarker, peripheral-blood, checkpoint-immunotherapy]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # CD4
@@ -16,7 +16,8 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 
 ## Alterations observed in the corpus
 
-- Peripheral CD4+ T-cell compartment measured by flow cytometry in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + nivolumab; a ≥1.5-fold increase in PD-1+Ki-67+CD4+ T cells after cycle 1 defined a "proliferative responder" group that trended toward **worse** PFS and OS — opposite to the expected direction in lung cancer and melanoma [PMID:38780927](../papers/38780927.md).
+- Peripheral CD4+ T-cell compartment measured by flow cytometry in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + [nivolumab](../drugs/nivolumab.md); a ≥1.5-fold increase in PD-1+Ki-67+CD4+ T cells after cycle 1 defined a "proliferative responder" group that trended toward **worse** PFS and [OS](../cancer_types/OS.md) — opposite to the expected direction in lung cancer and melanoma [PMID:38780927](../papers/38780927.md).
+- CD4+ T cells detected as infiltrating immune cells in [HGSOC](../cancer_types/HGSOC.md) precursor lesions (p53 signatures, STICs, cancer) by GeoMx spatial profiling across 44 fallopian tube specimens; CD4 used as an immune-cell phenotype marker to define infiltrating populations and [APC](../genes/APC.md) chemoattraction [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -24,7 +25,7 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 
 ## Co-occurrence and mutual exclusivity
 
-- The CD4+PD-1+Ki-67+ proliferative surge was evaluated alongside [FOXP3](../genes/FOXP3.md)+ Treg surge and [CD8A](../genes/CD8A.md)+ T-cell dynamics; only the CD4+PD-1+Ki-67+ and FOXP3+ surges trended with worse PFS (neither reached statistical significance: HR 1.42, P = .43 for FOXP3) [PMID:38780927](../papers/38780927.md).
+- The CD4+PD-1+Ki-67+ proliferative surge was evaluated alongside [FOXP3](../genes/FOXP3.md)+ Treg surge and [CD8A](../genes/CD8A.md)+ T-cell dynamics; only the CD4+PD-1+Ki-67+ and [FOXP3](../genes/FOXP3.md)+ surges trended with worse PFS (neither reached statistical significance: HR 1.42, P = .43 for FOXP3) [PMID:38780927](../papers/38780927.md).
 
 ## Therapeutic relevance
 
@@ -37,5 +38,6 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 ## Sources
 
 - [PMID:38780927](../papers/38780927.md)
+- [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

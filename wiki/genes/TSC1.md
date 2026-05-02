@@ -3,8 +3,8 @@ symbol: TSC1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, mtor-pathway]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-05-01
 ---
 
 # TSC1
@@ -16,10 +16,11 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 ## Alterations observed in the corpus
 
 - TSC1 was altered in 13% (52/414) of FGFR2/3-altered urothelial carcinomas, among the most frequent PI3K-pathway co-alterations [PMID:37682528](../papers/37682528.md).
+- TSC1 oncogenic alterations detected in 7% of cfDNA from 212 metastatic urothelial carcinoma (mUC) patients in the CALGB 90601 trial; numerically higher in cfDNA than matched tumor specimens [PMID:40256659](../papers/40256659.md).
 
 ## Cancer types (linked)
 
-- [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — frequent PI3K-pathway co-alteration in FGFR3-altered tumors [PMID:37682528](../papers/37682528.md).
+- [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — frequent PI3K-pathway co-alteration in FGFR3-altered tumors [PMID:37682528](../papers/37682528.md); also detected in 7% of mUC cfDNA in the CALGB 90601 cisplatin-chemotherapy cohort [PMID:40256659](../papers/40256659.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,5 +37,6 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md)
+- [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

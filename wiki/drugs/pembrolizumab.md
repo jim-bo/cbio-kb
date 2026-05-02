@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-04-30
 ---
 
 # pembrolizumab
@@ -25,6 +25,9 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Among 3 GNH diffuse pleural mesothelioma patients treated with pembrolizumab, 2 achieved partial response (67%) vs. 1/44 (2%) in non-GNH patients, suggesting GNH as a potential ICB response biomarker [PMID:38630790](../papers/38630790.md).
 - Mismatch repair deficiency in treatment-refractory pituitary neuroendocrine tumors may render them responsive to pembrolizumab; dramatic responses have been reported in this context [PMID:38758238](../papers/38758238.md).
 - In MSI-H/dMMR prostate cancer (n=27 treated with ICB), pembrolizumab achieved 45% RECIST response rate and 65% PSA50 response; TMB-H/MSS patients showed 0% RECIST responses, suggesting TMB-H alone is insufficient for ICB selection in prostate cancer [PMID:38949888](../papers/38949888.md).
+- In MSK-CHORD [NSCLC](../cancer_types/NSCLC.md), PDL1+ vs PDL1− patients on immunotherapy had [OS](../cancer_types/OS.md) HR=0.64 (95% CI 0.54–0.77, P<0.001) in 754 patients, validating at scale the same magnitude seen in the smaller MSK-BPC cohort (HR=0.58, n=29). The PDL1 biomarker practice for pembrolizumab selection in [NSCLC](../cancer_types/NSCLC.md) was supported at population scale. [PMID:39506116](../papers/39506116.md)
+- MSI-H / dMMR tumors are the primary FDA tumor-agnostic indication for pembrolizumab; MiMSI (deep-learning MSI classifier) recovers cases that MSISensor miscalls due to low tumor purity (sensitivity 91.6% vs 86.1%), directly expanding the pool of pembrolizumab-eligible patients identified through routine NGS. [PMID:39746944](../papers/39746944.md)
+- In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
 
 ## Resistance mechanisms
 
@@ -39,6 +42,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PLMESO](../cancer_types/PLMESO.md)
 - [PTAD](../cancer_types/PTAD.md)
 - [PRAD](../cancer_types/PRAD.md)
+- [NSCLC](../cancer_types/NSCLC.md)
+- [BLCA](../cancer_types/BLCA.md)
 
 ## Sources
 
@@ -49,5 +54,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
+- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in NSCLC immunotherapy.
+- [PMID:39746944](../papers/39746944.md) — Ziegler et al. 2024, MiMSI; MSI-H detection expanding pembrolizumab eligibility via improved NGS-based MSI calling.
+- [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; EV+pembrolizumab as first-line standard in mUC.
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

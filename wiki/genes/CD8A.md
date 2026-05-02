@@ -3,8 +3,8 @@ symbol: CD8A
 aliases: []
 cancer_types: [COAD, HNSC]
 tags: [t-cell, icr-signature, immune-infiltration]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-04-30
 ---
 
 # CD8A
@@ -16,7 +16,8 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 ## Alterations observed in the corpus
 
 - Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as a Th1/CD8 effector component, applied to the 348-patient AC-ICAM colon cancer cohort [PMID:37202560](../papers/37202560.md).
-- Peripheral blood CD8+ T-cell compartment measured by flow cytometry in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + nivolumab; no correlation with PFS observed, in contrast to the CD4+PD-1+Ki-67+ proliferative surge which trended with worse outcome [PMID:38780927](../papers/38780927.md).
+- Peripheral blood CD8+ T-cell compartment measured by flow cytometry in 51 recurrent/second-primary HNSCC patients treated with IMRT reirradiation + [nivolumab](../drugs/nivolumab.md); no correlation with PFS observed, in contrast to the [CD4](../genes/CD4.md)+PD-1+Ki-67+ proliferative surge which trended with worse outcome [PMID:38780927](../papers/38780927.md).
+- CD8+ T cells detected as infiltrating immune populations in [HGSOC](../cancer_types/HGSOC.md) precursor lesions across the progression spectrum (p53 signatures, STICs, cancer) by GeoMx spatial profiling of 44 fallopian tube specimens; exhaustion markers (PD-1, [LAG3](../genes/LAG3.md), TIM3) progressively upregulated on CD8+ T cells from STIC.I onward [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -39,5 +40,6 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:38780927](../papers/38780927.md)
+- [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-04-30**.*

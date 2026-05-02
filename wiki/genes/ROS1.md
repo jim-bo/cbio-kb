@@ -1,10 +1,10 @@
 ---
 symbol: ROS1
 aliases: []
-cancer_types: [NSCLC]
+cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: entity-page-writer
+processed_at: 2026-05-01
 ---
 
 # ROS1
@@ -16,10 +16,12 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 ## Alterations observed in the corpus
 
 - ROS1 rearrangements with diverse gene partners were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
+- ROS1 listed as a MAPK-pathway gene whose activating fusions are enriched in KRAS-WT / other-MAPK-mutant PDAC (activating MAPK fusions: 3.2% of KRAS-WT vs 0.04% of KRAS-mutant PDAC, P = 2 × 10⁻³⁵); ROS1 is one of the candidate fusion partners in this subtype. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
 
 - [NSCLC](../cancer_types/NSCLC.md) — ROS1 fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors [PMID:39289779](../papers/39289779.md).
+- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — ROS1 activating fusions part of the MAPK-pathway alteration landscape enriched in KRAS-WT PDAC (other-MAPK-mutant subtype). [PMID:39753968](../papers/39753968.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,5 +38,6 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 ## Sources
 
 - [PMID:39289779](../papers/39289779.md)
+- [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **entity-page-writer** on **2026-05-01**.*

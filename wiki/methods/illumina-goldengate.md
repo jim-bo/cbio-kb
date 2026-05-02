@@ -2,7 +2,7 @@
 name: Illumina GoldenGate
 slug: illumina-goldengate
 kind: method
-canonical_source: [PMID:18772890](../papers/18772890.md)
+canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [methylation]
 processed_by: crosslinker

@@ -2,7 +2,7 @@
 name: GISTIC
 slug: gistic
 kind: method
-canonical_source: [PMID:18772890](../papers/18772890.md)
+canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
 processed_by: crosslinker

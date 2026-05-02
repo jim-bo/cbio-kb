@@ -2,7 +2,7 @@
 name: Affymetrix SNP 6.0
 slug: affymetrix-snp6
 kind: method
-canonical_source: [PMID:18772890](../papers/18772890.md)
+canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
 processed_by: entity-page-writer

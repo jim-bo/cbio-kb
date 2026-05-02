@@ -2,7 +2,7 @@
 name: Agilent 244K
 slug: agilent-244k
 kind: method
-canonical_source: [PMID:18772890](../papers/18772890.md)
+canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [expression, microarray]
 processed_by: entity-page-writer

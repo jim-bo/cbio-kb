@@ -30,7 +30,7 @@ Nothing is invented — unverified terms are flagged rather than canonicalized.
 
 ## News
 
-- **2026-05-01** — Added 10 more papers from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others.
+- **2026-05-01** — Added 11 papers: the landmark 2008 TCGA glioblastoma interim analysis ([PMID 18772890](papers/18772890.md)) plus 10 from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others.
 
 ## Browse
 

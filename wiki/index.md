@@ -30,6 +30,7 @@ Nothing is invented — unverified terms are flagged rather than canonicalized.
 
 ## News
 
+- **2026-05-04** — Added 5 papers: aSCLC chromothripsis-driven ecDNA amplifications ([PMID 39185963](papers/39185963.md), `asclc_msk_2024`), HCC lipid-metabolism therapeutic landscape ([PMID 38355797](papers/38355797.md)), CBCT→synthetic-CT diffusion model for adaptive radiotherapy ([PMID 37646491](papers/37646491.md)), multi-omics integration review ([PMID 37119971](papers/37119971.md)), and colitis-associated colorectal cancer genomics ([PMID 36611031](papers/36611031.md), `bowel_colitis_msk_2022`).
 - **2026-05-01** — Added 11 papers: the landmark 2008 TCGA glioblastoma interim analysis ([PMID 18772890](papers/18772890.md)) plus 10 from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others.
 
 ## Browse

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [copy-number, clonality, computational]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # FACETS
@@ -23,7 +23,9 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:38630790](../papers/38630790.md) — FACETS used to assess tumor purity and detect genomic near-haploidization (LOH >80%) in 210 evaluable diffuse pleural mesothelioma patients from MSK-IMPACT sequencing [PMID:38630790](../papers/38630790.md).
 - [PMID:38758238](../papers/38758238.md) — FACETS v0.5.6 used for allele-specific copy-number and LOH inference in pituitary neuroendocrine tumors; identified rcLOH pattern in 11/14 treatment-refractory corticotroph PitNETs [PMID:38758238](../papers/38758238.md).
 - [PMID:38949888](../papers/38949888.md) — FACETS v0.5.6 used for copy-number analysis in 3,244 prostate cancer tumors from 2,257 patients sequenced by MSK-IMPACT [PMID:38949888](../papers/38949888.md).
-- [PMID:39753968](../papers/39753968.md) — FACETS v0.5.14 used in a two-step pipeline for allele-specific copy-number inference in 2,336 PDAC patients sequenced with MSK-IMPACT; 1,555 of 2,322 tumors passed copy-number QC; FACETS output enabled classification of [KRAS](../genes/KRAS.md) allelic imbalance events (focal/arm amplifications, gains, CNLOH, LOH, post-WGD loss) and showed that KRAS mutant-allele dosage gains independently predict shorter [OS](../cancer_types/OS.md) across all clinical stages [PMID:39753968](../papers/39753968.md).
+- [PMID:39753968](../papers/39753968.md) — FACETS v0.5.14 used in a two-step pipeline for allele-specific copy-number inference in 2,336 PDAC patients sequenced with MSK-IMPACT; 1,555 of 2,322 tumors passed copy-number QC; FACETS output enabled classification of [KRAS](../genes/KRAS.md) allelic imbalance events (focal/arm amplifications, gains, CNLOH, LOH, post-WGD loss) and showed that [KRAS](../genes/KRAS.md) mutant-allele dosage gains independently predict shorter [OS](../cancer_types/OS.md) across all clinical stages [PMID:39753968](../papers/39753968.md).
+- [PMID:39185963](../papers/39185963.md) — FACETS used for copy-number segmentation in MSK-IMPACT data from 20 atypical [SCLC](../cancer_types/SCLC.md) patients; contributed to detection of chromothripsis-associated ecDNA amplifications ([CCND1](../genes/CCND1.md), CCND2/CDK4/MDM2, [MYCL](../genes/MYCL.md)) and paradoxical [CDKN2A](../genes/CDKN2A.md) overexpression in CDK4-amplified cases [PMID:39185963](../papers/39185963.md).
+- [PMID:36611031](../papers/36611031.md) — FACETS used for copy-number analysis in colitis-associated cancer MSK-IMPACT cohort; supported documentation of broad copy-number changes and focal CNAs including [MYC](../genes/MYC.md) amplifications, and distinguished CAC vs. sporadic CRC copy-number patterns [PMID:36611031](../papers/36611031.md).
 
 ## Notes
 
@@ -38,5 +40,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39753968](../papers/39753968.md)
+- [PMID:39185963](../papers/39185963.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

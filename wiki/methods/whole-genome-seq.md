@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wgs]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # Whole-genome sequencing (WGS)
@@ -25,6 +25,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38412093](../papers/38412093.md) — WGS on 9 of 141 characterized anaplastic thyroid carcinoma regions (the remaining 132 underwent WES) [PMID:38412093](../papers/38412093.md).
 - [PMID:38488813](../papers/38488813.md) — WGS at 30X on 44 prostate cancer PDX models; paired with targeted sequencing (T200.1 panel) and RNA-seq for integrative multi-platform molecular characterization [PMID:38488813](../papers/38488813.md).
 - [PMID:39305899](../papers/39305899.md) — WGS (BWA-MEM2, MuSE, Mutect2, SomaticSniper, Strelka2, Battenberg/ASCAT) on a subset of the UCLA sarcoma biobank (194 specimens from 126 patients); used alongside [DFCI-ONCOPANEL-3](../methods/DFCI-ONCOPANEL-3.md) targeted DNA and bulk RNA-seq to characterize 24 bone and soft-tissue sarcoma subtypes; enabled CNV analysis including whole-genome duplications in intra-patient heterogeneity studies and functional-vs-genomic concordance analyses [PMID:39305899](../papers/39305899.md).
+- [PMID:39185963](../papers/39185963.md) — WGS on 12 samples from 11 atypical [SCLC](../cancer_types/SCLC.md) patients; detected chromothripsis in 16/19 (84%) non-MSI aSCLC cases (mean 565 SVs per case, up to >1,900), characterized ecDNA amplifications of [CCND1](../genes/CCND1.md) (chr11), CCND2/CDK4/MDM2 (chr12), and [MYCL](../genes/MYCL.md) (chr1), and enabled mutation timing via MutationTimeR showing amplifications arose early in tumorigenesis [PMID:39185963](../papers/39185963.md).
 
 ## Notes
 
@@ -41,5 +42,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39305899](../papers/39305899.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

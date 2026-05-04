@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
 processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_at: 2026-05-03
 ---
 
 # MDM2
@@ -22,6 +22,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification confirmed by FISH in a well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) specimen (SARC0120) in the UCLA sarcoma PDTO biobank; MDM2 amplification preserved in the matched patient-derived tumor organoid (PDTO), demonstrating PDTO fidelity for key sarcoma drivers. [PMID:39305899](../papers/39305899.md)
 - MDM2 included as a biologically relevant gene in cfDNA profiling of 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel, 129 genes); MDM2 was negatively associated with [SETD2](../genes/SETD2.md) driver mutations in [LUAD](../cancer_types/LUAD.md) in the MSK-CHORD cohort. [PMID:40256659](../papers/40256659.md)
 - Altered (e.g. amplification) in 14% of [GBM](../cancer_types/GB.md) samples as part of the p53 pathway [PMID:18772890](../papers/18772890.md).
+- Co-amplified with [CCND2](../genes/CCND2.md) and [CDK4](../genes/CDK4.md) on chromothriptic chr12 (12q13–q15) in 15% of aSCLC cases; ecDNA confirmed by FISH; aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
 
 ## Cancer types (linked)
 
@@ -51,5 +52,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:40256659](../papers/40256659.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-03
 ---
 
 # ERBB3
@@ -18,6 +18,8 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - ERBB3 identified among the recurrently altered genes in cervical cancer profiled by MSK-IMPACT (177 patients); specific frequency not reported in the primary narrative [PMID:37643132](../papers/37643132.md).
 - ERBB3 is part of the progenitor/migratory gene program shared between the postnatal human adrenal gland progenitor hC1 and the high-risk undifferentiated neuroblastoma nC3 cluster; identified as a significantly upregulated marker (FDR <0.01, Welch's t-test) [PMID:34493726](../papers/34493726.md).
 - Although the ErbB family paper names all four ErbB members in the context of tumour radioresistance, ERBB3 is not experimentally interrogated in the ADC radiosensitization experiments [PMID:27698471](../papers/27698471.md).
+- Amplified on chromothriptic chr12 (12q13) in aSCLC cases; aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
+- Recurrent in CAC (colitis-associated colorectal cancer) oncoprint at lower frequency; CAC cohort n=237 patients (MSK, whole-exome or targeted sequencing) [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
@@ -30,7 +32,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 ## Therapeutic relevance
 
-- Neratinib (pan-HER kinase inhibitor targeting ERBB1, ERBB2, and ERBB4; reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
+- Neratinib (pan-HER kinase inhibitor targeting ERBB1, [ERBB2](../genes/ERBB2.md), and ERBB4; reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
 
 ## Open questions
 
@@ -40,5 +42,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:39185963](../papers/39185963.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

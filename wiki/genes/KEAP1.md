@@ -3,8 +3,8 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD]
 tags: [co-mutation, metastasis]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-03
 ---
 
 # KEAP1
@@ -19,6 +19,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - Mutually exclusive with [EGFR](../genes/EGFR.md) alterations [PMID:37084736](../papers/37084736.md).
 - KEAP1 mutations were detected in CSF ctDNA from lung cancer patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
 - KEAP1 mutations detected in plasma ctDNA are associated with the strongest gene-specific VTE risk (adjusted HR = 2.50, 95% CI: 1.62-3.85; n=76 patients with KEAP1 alteration) in a multi-cancer liquid biopsy analysis of 5,765 MSK patients [PMID:39147831](../papers/39147831.md).
+- KEAP1/NFE2L2 (NRF2) pathway activated upon FATP5 ([SLC27A5](../genes/SLC27A5.md)) loss in [HCC](../cancer_types/HCC.md), promoting tumor progression; KEAP1 inactivation contributes to resistance to [sorafenib](../drugs/sorafenib.md) [PMID:38355797](../papers/38355797.md).
 
 ## Cancer types (linked)
 
@@ -44,5 +45,6 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:38355797](../papers/38355797.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

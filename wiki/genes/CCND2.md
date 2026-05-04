@@ -5,7 +5,7 @@ cancer_types:
   - ODG
 tags: [cell-cycle, stem-progenitor, oligodendroglioma, cyclin]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2026-05-03
 ---
 
 # CCND2
@@ -18,6 +18,7 @@ CCND2 (cyclin D2) is a D-type cyclin that promotes G1/S cell cycle progression. 
 
 - CCND2 is part of the stem/progenitor transcriptional program in grade II IDH-mutant 1p/19q-codeleted oligodendroglioma, alongside [SOX2](../genes/SOX2.md), [ASCL1](../genes/ASCL1.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [NFIB](../genes/NFIB.md), and SOX4/SOX11; identified from scRNA-seq of 4,347 cells across 6 tumors [PMID:27806376](../papers/27806376.md).
 - Cyclin switching: CCND2 predominates in stem/progenitor cells, while [CCND1](../genes/CCND1.md) and [CCND3](../genes/CCND3.md) predominate in differentiated oligo-like and astro-like tumor cells [PMID:27806376](../papers/27806376.md).
+- Co-amplified with [CDK4](../genes/CDK4.md) and [MDM2](../genes/MDM2.md) on chromothriptic chr12 (12q13–q15) in 15% of aSCLC cases; ecDNA confirmed by FISH; aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
 
 ## Cancer types (linked)
 
@@ -38,5 +39,6 @@ CCND2 (cyclin D2) is a D-type cyclin that promotes G1/S cell cycle progression. 
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

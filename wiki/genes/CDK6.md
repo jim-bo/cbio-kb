@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - rb-pathway
   - cell-cycle
-processed_by: crosslinker
-processed_at: 2026-05-02
+processed_by: entity-page-writer
+processed_at: 2026-05-03
 ---
 
 # CDK6
@@ -19,6 +19,7 @@ processed_at: 2026-05-02
 ## Alterations observed in the corpus
 
 - **Amplification/Alteration**: Observed in 1% of glioblastoma samples as part of the core RB pathway alterations [PMID:18772890](../papers/18772890.md).
+- Recurrent in CAC (colitis-associated colorectal cancer) oncoprint at lower frequency; CAC cohort n=237 patients (MSK) [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
@@ -27,5 +28,6 @@ processed_at: 2026-05-02
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

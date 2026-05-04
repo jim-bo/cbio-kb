@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_by: crosslinker
+processed_at: 2026-05-03
 ---
 
 # PIK3CA
@@ -34,6 +34,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA hotspot mutation (H1047L — reported as "H1074L" in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, vistusertib) in PDTO screen. SARC0134 ([MPNST](../cancer_types/MPNST.md)) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top [alpelisib](../drugs/alpelisib.md) responder. [PMID:39305899](../papers/39305899.md)
 - PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. [PMID:39753968](../papers/39753968.md)
 - PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
+- Enriched in Crohn's disease (CD) vs. ulcerative colitis (UC) in the CAC cohort (n=237); [IDH1](../genes/IDH1.md) R132 mutants functionally validated in PDX models; PIK3CA enrichment implies distinct oncogenic pathways between CD-CAC and UC-CAC [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
@@ -84,5 +85,6 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

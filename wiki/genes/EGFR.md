@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-03
 ---
 
 # EGFR
@@ -31,6 +31,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR surface expression (not mutation status) gates radiosensitization by C-MMAE (cetuximab-MMAE conjugate); EGFR+ lines (CAL-27, A549, CALU3, SCC-61, SCC-35, SQ-9G, HCT-116) accumulate C-MMAE and show dose-dependent G2/M arrest; LN229 (EGFR-low) is refractory [PMID:27698471](../papers/27698471.md).
 - EGFR mutation status (SNaPshot PCR, exons 18–21) was annotated for 206/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 - EGFR/[ERBB2](../genes/ERBB2.md) pathway was implicated by KEGG analysis in [chordoma](../cancer_types/CHDM.md) PDTOs (UCLA sarcoma biobank, n=194 specimens); chordomas were preferentially sensitive to TAK-285 (EGFR/ERBB2 kinase inhibitor, p=0.034) in patient-derived tumor organoid drug screening [PMID:39305899](../papers/39305899.md).
+- EGFR (39%) and [KRAS](../genes/KRAS.md) (6%) enriched in the comparator nsSCLC-RB1−/TP53− cohort, NOT in aSCLC itself; EGFR mutations effectively exclude an aSCLC diagnosis (aSCLC cohort n=20, comparator n=53, MSKCC) [PMID:39185963](../papers/39185963.md).
+- [CD274](../genes/CD274.md) (PD-L1) binds EGFR to activate AKT/mTOR and induce lipid accumulation in [HCC](../cancer_types/HCC.md); EGFR is thus downstream of a lipid-immunology crosstalk axis in HCC [PMID:38355797](../papers/38355797.md).
 
 ## Cancer types (linked)
 
@@ -73,5 +75,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:27698471](../papers/27698471.md)
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
+- [PMID:39185963](../papers/39185963.md)
+- [PMID:38355797](../papers/38355797.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

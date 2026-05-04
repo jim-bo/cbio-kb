@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-03
 ---
 
 # AKT1
@@ -19,6 +19,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - One patient acquired an activating AKT1 mutation on [erdafitinib](../drugs/erdafitinib.md) (detected in serial cfDNA, 1/27) as a putative bypass resistance mechanism [PMID:37682528](../papers/37682528.md).
 - AKT1 point mutations exclusive to MG2 meningiomas (13%) in a 201-patient integrative molecular classification study; MG2 is the NF2-wildtype benign group enriched for TRAF7/AKT1/KLF4/SMO mutations [PMID:34433969](../papers/34433969.md).
 - AKT1 deletions acquired at relapse in fusion-positive rhabdomyosarcoma (FP-RMS) lacking other major secondary events, identified by ctDNA liquid biopsy (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
+- AKT1 is a central signaling node activating SREBP1 nuclear translocation and de novo lipogenesis (DNL); activated downstream of [CD36](../genes/CD36.md), FATP5 loss, and KEAP1/NRF2 in [HCC](../cancer_types/HCC.md); blockade of AKT1/mTOR is proposed as a therapeutic strategy to resensitize HCC to TKIs and ICIs [PMID:38355797](../papers/38355797.md).
 
 ## Cancer types (linked)
 
@@ -43,5 +44,6 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:38355797](../papers/38355797.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

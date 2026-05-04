@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
 processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_at: 2026-05-03
 ---
 
 # FGFR2
@@ -18,6 +18,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - Only 1/1,507 urothelial tumors had a potentially actionable FGFR2 alteration (an FGFR2:MARVELD3 fusion of unclear significance) in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - FGFR2 is an actionable driver in intrahepatic cholangiocarcinoma; the MSK hidden-genome classifier predicted overall survival in IHC independently of FGFR2 alteration status [PMID:38864854](../papers/38864854.md).
 - In the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) PDAC cohort (n = 2,336), FGFR2 was included among OncoKB-annotated actionable alterations tracked across MAPK-wild-type and other-MAPK-mutant subtypes; activating fusions involving MAPK-pathway genes (which include FGFR2) were nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P = 2 × 10⁻³⁵) [PMID:39753968](../papers/39753968.md).
+- Recurrent in CAC (colitis-associated colorectal cancer) oncoprint at lower frequency; CAC PDX models showed sensitivity to FGFR inhibitor treatment; FGFR2 inhibitor sensitivity functionally confirmed in CAC PDX [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
@@ -41,5 +42,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:39753968](../papers/39753968.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

@@ -5,7 +5,7 @@ main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2026-05-03
 ---
 
 # Oligodendroglioma (ODG)
@@ -33,6 +33,7 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 ## Subtypes
 
 - T2-FLAIR mismatch sign absent in 96.9% of codeleted oligodendrogliomas [PMID:37910594](../papers/37910594.md).
+- Multi-omics integrative analysis (Kamoun et al.) of oligodendroglial tumors identified three subgroups of 1p/19q co-deleted gliomas, demonstrating utility of combined genomic profiling for ODG classification. [PMID:37119971](../papers/37119971.md)
 - The stem/progenitor transcriptional program in grade II ODG more closely resembles a tri-potent neural progenitor than an OPC, suggesting a neural-progenitor-like cell of origin; this was not functionally validated by xenotransplantation. [PMID:27806376](../papers/27806376.md)
 
 ## Therapeutic landscape
@@ -45,5 +46,6 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [PMID:37910594](../papers/37910594.md)
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:27806376](../papers/27806376.md)
+- [PMID:37119971](../papers/37119971.md) — Babu & Snyder, multi-omics precision health review; ODG subgroup analysis cited (2023).
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-03
 ---
 
 # FBXW7
@@ -19,12 +19,13 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Altered in 13% of squamous cervical cancers (OncoKB-annotated) [PMID:37643132](../papers/37643132.md).
 - Co-occurs with [TP53](../genes/TP53.md) mutations in serous/carcinosarcoma endometrial carcinomas [PMID:37651310](../papers/37651310.md).
 - SNV detected in ctDNA at relapse in a fusion-negative rhabdomyosarcoma (FN-RMS) patient [PMID:37730754](../papers/37730754.md).
+- Recurrent in CAC (colitis-associated colorectal cancer) oncoprint at lower frequency; CAC cohort n=237 patients (MSK) [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
 - [MNG](../cancer_types/MNG.md) — subthreshold recurrent inactivating mutations in aggressive meningioma groups [PMID:34433969](../papers/34433969.md).
 - [CESC](../cancer_types/CESC.md) — altered in 13% of squamous cervical cancer [PMID:37643132](../papers/37643132.md).
-- [UCEC](../cancer_types/UCEC.md) — co-occurs with TP53 mutations in serous/carcinosarcoma subtypes [PMID:37651310](../papers/37651310.md).
+- [UCEC](../cancer_types/UCEC.md) — co-occurs with [TP53](../genes/TP53.md) mutations in serous/carcinosarcoma subtypes [PMID:37651310](../papers/37651310.md).
 - [RMS](../cancer_types/RMS.md) — SNV detected in ctDNA at relapse [PMID:37730754](../papers/37730754.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -45,5 +46,6 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # pembrolizumab
@@ -28,6 +28,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In MSK-CHORD [NSCLC](../cancer_types/NSCLC.md), PDL1+ vs PDL1− patients on immunotherapy had [OS](../cancer_types/OS.md) HR=0.64 (95% CI 0.54–0.77, P<0.001) in 754 patients, validating at scale the same magnitude seen in the smaller MSK-BPC cohort (HR=0.58, n=29). The PDL1 biomarker practice for pembrolizumab selection in [NSCLC](../cancer_types/NSCLC.md) was supported at population scale. [PMID:39506116](../papers/39506116.md)
 - MSI-H / dMMR tumors are the primary FDA tumor-agnostic indication for pembrolizumab; MiMSI (deep-learning MSI classifier) recovers cases that MSISensor miscalls due to low tumor purity (sensitivity 91.6% vs 86.1%), directly expanding the pool of pembrolizumab-eligible patients identified through routine NGS. [PMID:39746944](../papers/39746944.md)
 - In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
+- A narrative review of lipid metabolism in [HCC](../cancer_types/HCC.md) cites pembrolizumab monotherapy as one of the approved single-agent ICI options for HCC; [FABP1](../genes/FABP1.md) impairs T-cell activation by outcompeting T cells for long-chain fatty acids (especially linoleic acid), which may specifically attenuate pembrolizumab efficacy; LINC01116-FABP1 inhibition combined with anti-PD-1 reduced HCC progression in preclinical models. [PMID:38355797](../papers/38355797.md)
 
 ## Resistance mechanisms
 
@@ -44,6 +45,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PRAD](../cancer_types/PRAD.md)
 - [NSCLC](../cancer_types/NSCLC.md)
 - [BLCA](../cancer_types/BLCA.md)
+- [HCC](../cancer_types/HCC.md) — hepatocellular carcinoma; single-agent ICI option; FABP1-mediated T-cell fatty acid competition proposed as resistance mechanism.
 
 ## Sources
 
@@ -54,8 +56,9 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
-- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in NSCLC immunotherapy.
+- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in [NSCLC](../cancer_types/NSCLC.md) immunotherapy.
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. 2024, MiMSI; MSI-H detection expanding pembrolizumab eligibility via improved NGS-based MSI calling.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; EV+pembrolizumab as first-line standard in mUC.
+- [PMID:38355797](../papers/38355797.md) — Luo et al. 2024, review; pembrolizumab as HCC single-agent ICI; FABP1/linoleic acid axis as resistance mechanism.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

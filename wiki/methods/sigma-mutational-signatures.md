@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, hrd, cosmic, targeted-sequencing, genomics]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # SigMA (Mutational Signatures)
@@ -20,6 +20,7 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:35764743](../papers/35764743.md) — SigMA applied to [MSK-IMPACT](../methods/msk-impact-panel.md) targeted sequencing data from 130 MSKCC [HGSOC](../cancer_types/HGSOC.md) patients with research consent to detect COSMIC SBS3 (HRD signature); high-confidence SBS3 in 48 patients, low-confidence in 30; SigMA-derived HRD status combined with [BRCA1](../genes/BRCA1.md)/[BRCA2](../genes/BRCA2.md)/DDR variant evidence and [CDK12](../genes/CDK12.md)/[CCNE1](../genes/CCNE1.md) subtype rules for final genomic-subtype assignment; genomic HRD status on its own had test concordance c = 0.52 in late-stage [HGSOC](../cancer_types/HGSOC.md) [PMID:35764743](../papers/35764743.md).
 - [PMID:39746944](../papers/39746944.md) — mutational signature analysis (COSMIC v3.4, SigProfilerAssignment v0.1.8) applied to the MiMSI prospective cohort (n=5,037); MMR-D samples showed median MMR-signature contribution of 0.62 vs 0.036 in MMR-P; MSH6-loss tumors had the lowest MMR-signature contribution (median 0.42) and MLH1-loss the highest (median 0.67) among the four MMR proteins [PMID:39746944](../papers/39746944.md).
 - [PMID:39975212](../papers/39975212.md) — mutational signature decomposition (SigProfilerAssignment v0.1.8 against COSMIC v3.4) applied to 297 clonally expanded single melanocytes; UV-attributable SBS7 (sum of SBS7a–d) dominated HighMut cells while clock-like SBS1/SBS5 dominated LowMut cells; signature fractions were compared by Wilcoxon rank-sum (p<0.0001) [PMID:39975212](../papers/39975212.md).
+- [PMID:39185963](../papers/39185963.md) — SigMA-style mutational signature analysis applied to MSK-IMPACT data from 20 atypical [SCLC](../cancer_types/SCLC.md) patients; showed most aSCLC had TMB <2 mut/Mb and the tobacco-associated smoking signature was absent; two high-TMB outliers were identified (one post-temozolomide, one MSI-H); APOBEC signatures were low in aSCLC relative to the nsSCLC-RB1−/TP53− comparator cohort [PMID:39185963](../papers/39185963.md).
 
 ## Notes
 
@@ -33,5 +34,6 @@ SigMA is a computational tool for detecting mutational signatures — in particu
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39975212](../papers/39975212.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

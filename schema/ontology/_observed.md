@@ -136,6 +136,16 @@
 - method: imrt-reirradiation — observed in PMID:38780927 — note: intensity-modulated reirradiation therapy (IMRT) combined with nivolumab in NCT03521570 recurrent/second primary HNSCC trial
 - method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
+- method: conditional-ddpm-sct — observed in PMID:37646491 — note: conditional DDPM for CBCT-to-synthetic-CT image synthesis for adaptive radiotherapy
+- method: cbct-imaging — observed in PMID:37646491 — note: cone-beam CT input modality for sCT generation; acquired on Varian TrueBeam 100 kVp
+- method: cycle-gan-sct — observed in PMID:37646491 — note: supervised CycleGAN baseline comparator for CBCT-to-CT synthesis
+- method: deformable-image-registration — observed in PMID:37646491 — note: Velocity AI 3.2.1 DIR to generate deformed planning CT training targets
+- method: whole-exome-sequencing — observed in PMID:36611031 — note: WES at 150x on 13 CAC + 20 dysplasia vs. adjacent normal mucosa in IBD-associated cancer cohort
+- method: rna-sequencing — observed in PMID:36611031 — note: bulk RNA-seq on 5 CAC + 6 CRC + 9 PDXs for Wnt ssGSEA pathway analysis
+- method: cnapp — observed in PMID:36611031 — note: CNApp tool for broad and focal CNA scoring; showed broad CNA enriched in sporadic CRC vs. CAC
+- method: aom-dss-mouse-model — observed in PMID:36611031 — note: AOM/DSS mouse colitis-cancer model; two proximal lesions per mouse showed independent genetic histories
+- method: patient-derived-organoid — observed in PMID:36611031 — note: CAC PDOs; demonstrated Wnt independence; LGK-974 (porcupine inhibitor) did not suppress growth
+- method: patient-derived-xenograft — observed in PMID:36611031 — note: three CAC PDXs for Wnt inhibitor testing; IDH1 R132 PDX confirmed 2-HG and IDH1/FGFR inhibitor sensitivity
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
 - drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM

@@ -3,8 +3,8 @@ symbol: DICER1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [mirna-biogenesis, novel-driver, u-cll]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: entity-page-writer
+processed_at: 2026-05-03
 ---
 
 # DICER1
@@ -17,6 +17,7 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 
 - Nominated as a novel CLL driver via 3-D clustering with [CLUMPS](../methods/clumps.md) in the 1,148-patient integrated CLL map [PMID:35927489](../papers/35927489.md).
 - Also disrupted by the recurrent ~37-Mb chromosome 14 deletion observed in U-CLL (4/87 WGS, 4.6%), which arises via class-switch recombination and simultaneously disrupts [ZFP36L1](../genes/ZFP36L1.md) and [TRAF3](../genes/TRAF3.md) [PMID:35927489](../papers/35927489.md).
+- Germline pathogenic DICER1 alterations identified among 14% of consented CAC patients with germline alterations (colitis-associated colorectal cancer, n=73 sequenced); cancer susceptibility for germline DICER1 in this setting remains uncertain [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
@@ -37,5 +38,6 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 ## Sources
 
 - [PMID:35927489](../papers/35927489.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # NRAS
@@ -20,9 +20,10 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Recurrently mutated in anaplastic thyroid carcinoma (ATC); no frequency difference between PTC and ATC; mutually exclusive with [BRAF](../genes/BRAF.md) V600E [PMID:38412093](../papers/38412093.md).
 - RAS/PIK3CA pathway alterations (including NRAS) in 5/17 fusion-negative rhabdomyosarcoma (FN-RMS) patients [PMID:37730754](../papers/37730754.md).
 - Oncogenic Q61K mutation in a neuroendocrine prostate cancer (NEPC) patient-derived xenograft; described as seldom implicated in prostate cancer [PMID:38488813](../papers/38488813.md).
-- Recurrent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers and other BRAF fusion contexts (via MAPK pathway co-activation) [PMID:38922339](../papers/38922339.md).
+- Recurrent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers and other [BRAF](../genes/BRAF.md) fusion contexts (via MAPK pathway co-activation) [PMID:38922339](../papers/38922339.md).
 - Mutated in cervical cancers (frequency not separately specified from [KRAS](../genes/KRAS.md)); enriched in certain cervical cancer histologic subtypes [PMID:37643132](../papers/37643132.md).
 - In the MSK 2,336-patient PDAC cohort, other-MAPK-mutant tumors carry NRAS (and other RAS/RAF pathway) oncogenic alterations nearly exclusive to KRAS-WT tumors (7% of KRAS-mutant tumors have other MAPK-pathway alterations vs 60% of KRAS-WT, P = 1.6×10⁻⁴⁷). [PMID:39753968](../papers/39753968.md)
+- Premalignant NRAS-driven FAO activation generates ROS and DNA damage during [HCC](../cancer_types/HCC.md) tumor initiation; NRAS-induced hepatocyte transformation is sensitive to fatty acid oxidation suppression [PMID:38355797](../papers/38355797.md).
 
 ## Cancer types (linked)
 
@@ -57,5 +58,6 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:39753968](../papers/39753968.md)
+- [PMID:38355797](../papers/38355797.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

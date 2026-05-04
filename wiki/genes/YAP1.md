@@ -9,7 +9,7 @@ tags:
   - transcriptional-coactivator
   - neuroblastoma
 processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_at: 2026-05-03
 ---
 
 # YAP1
@@ -21,6 +21,7 @@ YAP1 (Yes1 Associated Transcriptional Regulator) is the primary effector of the 
 ## Alterations observed in the corpus
 
 - YAP1 is significantly expressed in both the undifferentiated nC3 cluster and the mesenchymal stromal (MSC) nC1 cluster of high-risk neuroblastoma tumors in a single-nuclei RNA-seq study of 11 tumors (Smart-Seq2, 3,212 nuclei); RNAscope in situ hybridization confirmed absence in a low-risk stage 4S tumor (K6). [PMID:34493726](../papers/34493726.md)
+- Absent or rare in aSCLC (uniformly ASCL1-dominant subtype); the ASCL1/NEUROD1/POU2F3/YAP1 subtype classification scheme was applied to aSCLC n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
 
 ## Cancer types (linked)
 
@@ -41,5 +42,6 @@ YAP1 (Yes1 Associated Transcriptional Regulator) is the primary effector of the 
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

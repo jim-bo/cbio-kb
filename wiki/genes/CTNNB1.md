@@ -13,7 +13,7 @@ cancer_types:
   - BLCA
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-03
 ---
 
 # CTNNB1
@@ -28,17 +28,19 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Mutations less common in Black endometrial carcinoma patients (9% vs. 17% in White patients); associated with endometrioid histology [PMID:37651310](../papers/37651310.md).
 - Mutated in 15% of dMMR/MSI-H gynecologic cancers (UCEC/OVT) in a [nivolumab](../drugs/nivolumab.md) phase 2 trial; not associated with response or resistance to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - Adjusted HR = 2.70 (95% CI: 1.74--4.18, n=65) for cancer-associated VTE by pan-cancer ctDNA liquid biopsy analysis; among the strongest gene-specific VTE associations [PMID:39147831](../papers/39147831.md).
+- CTNNB1 (β-catenin) mutations drive [HCC](../cancer_types/HCC.md) with dependency on FAO via PPARα/CPT1A; Wnt/β-catenin-mutant HCC may require distinct metabolic targeting vs. other HCC subtypes [PMID:38355797](../papers/38355797.md).
+- Observed as a shared alteration between two closely positioned synchronous lesions in an AOM/DSS mouse model of IBD-associated CRC; in CAC patients (n=237), CTNNB1 mutation frequency was low, consistent with broader infrequency of Wnt alterations in CAC [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
 - **[HCC](../cancer_types/HCC.md)**: CTNNB1 mutations in 37% of advanced HCC by cfDNA (MSK-ACCESS); WNT pathway driver; high concordance with tissue sequencing [PMID:37769223](../papers/37769223.md).
 - **UCEC/UCS**: CTNNB1 mutations enriched in endometrioid histology; less common in Black patients consistent with their lower proportion of endometrioid ECs [PMID:37651310](../papers/37651310.md).
-- **UCEC/OVT**: CTNNB1 mutations in 15% of dMMR gynecologic cancers; not a biomarker for nivolumab response [PMID:38653864](../papers/38653864.md).
+- **UCEC/OVT**: CTNNB1 mutations in 15% of dMMR gynecologic cancers; not a biomarker for [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
 - **Pan-cancer**: CTNNB1 mutations in ctDNA associated with markedly elevated VTE risk (adjusted HR 2.70); one of the strongest individual gene-level VTE associations across tumor types [PMID:39147831](../papers/39147831.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- In HCC, CTNNB1 mutations co-occur with TERT promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
+- In HCC, CTNNB1 mutations co-occur with [TERT](../genes/TERT.md) promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
 - In endometrial carcinoma, CTNNB1 mutations associate with endometrioid histology and the POLE/MSI-H molecular subtypes rather than the CN-H/TP53abn subtype [PMID:37651310](../papers/37651310.md).
 
 ## Therapeutic relevance
@@ -58,5 +60,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
+- [PMID:38355797](../papers/38355797.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

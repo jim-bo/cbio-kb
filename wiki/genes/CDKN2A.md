@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-03
 ---
 
 # CDKN2A
@@ -40,10 +40,12 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - In 2,336 PDAC patients sequenced with MSK-IMPACT ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), CDKN2A/CDKN2B alteration rate climbed with stage from 44% (resectable) to 60% (metastatic), P = 6.9 × 10⁻⁵; this stage-dependent increase identifies CDKN2A/B loss as a marker of disease progression in PDAC [PMID:39753968](../papers/39753968.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions were nearly universal in RT-[MPNST](../cancer_types/MPNST.md) (92% vs 44% sporadic), present in 29% of RT-[MFH](../cancer_types/MFH.md) (UPS) and 33% of RT-[OS](../cancer_types/OS.md), but almost absent in RT-[ANGS](../cancer_types/ANGS.md) (2%) in a comparative genomic analysis of 82 radiation-associated sarcomas [PMID:37350195](../papers/37350195.md).
 - Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the p53 pathway (as *p14ARF*, 49% altered) and RB pathway (as *p16INK4A*) [PMID:18772890](../papers/18772890.md).
+- CDKN2A (p16) paradoxically overexpressed in chr12-chromothriptic, [CDK4](../genes/CDK4.md)-amplified aSCLC cases; aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
+- Recurrent in CAC (colitis-associated colorectal cancer) oncoprint at lower frequency; CAC cohort n=237 patients (MSK) [PMID:36611031](../papers/36611031.md).
 
 ## Cancer types (linked)
 
-- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk OS marker [PMID:37078708](../papers/37078708.md).
+- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk [OS](../cancer_types/OS.md) marker [PMID:37078708](../papers/37078708.md).
 - [LUAD](../cancer_types/LUAD.md) — CDKN2A loss shortens time to metastasis and is enriched in CNS/liver mets [PMID:37084736](../papers/37084736.md).
 - [NSCLC](../cancer_types/NSCLC.md) brain metastasis — CDKN2A/B deletions are enriched vs primaries, marking cell-cycle dysregulation as near-obligate for BM development [PMID:37591896](../papers/37591896.md).
 - Extremity alveolar [RMS](../cancer_types/RMS.md) — CDKN2A deletion is recurrent and adverse [PMID:37315267](../papers/37315267.md).
@@ -106,5 +108,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
+- [PMID:39185963](../papers/39185963.md)
+- [PMID:36611031](../papers/36611031.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

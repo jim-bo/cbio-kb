@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [transcriptomics, sequencing]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # RNA sequencing
@@ -27,15 +27,17 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:38488813](../papers/38488813.md) — RNA-seq on 44 prostate cancer PDX models; paired with WGS (30X) and targeted sequencing for integrative multi-platform analysis; confirmed ETS fusion-driven expression changes [PMID:38488813](../papers/38488813.md).
 - [PMID:38895302](../papers/38895302.md) — RNA-seq paired with WES using G&T-seq protocol on single-cell clones from normal skin melanocytes; supported mutation calling via RNA evidence and phasing [PMID:38895302](../papers/38895302.md).
 - [PMID:30325352](../papers/30325352.md) — Illumina HiSeq 2500 RNA-seq (TruSeq Total Stranded RNA + Ribo-Zero) on 130 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects; reads aligned to hg19 with STAR v2.3, quantified with Cufflinks v2.0.2 in FPKM; RIN <2.5 excluded; part of the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) public radiogenomic resource [PMID:30325352](../papers/30325352.md).
-- [PMID:39214094](../papers/39214094.md) — bulk RNA-seq on 100 upfront resected [PAAD](../cancer_types/PAAD.md) tumors (63 [KRAS](../genes/KRAS.md)^G12D^, 37 KRAS^G12R^) from the Canadian COMPASS trial (NCT02750657) plus consortium-resected patients; aligned to GRCh38 via STAR; revealed KRAS^G12D^ enrichment for EMT, mTORC1, and E2F/G2M Hallmarks versus KRAS^G12R^ enrichment for NF-κB/TNFα signaling [PMID:39214094](../papers/39214094.md).
+- [PMID:39214094](../papers/39214094.md) — bulk RNA-seq on 100 upfront resected [PAAD](../cancer_types/PAAD.md) tumors (63 [KRAS](../genes/KRAS.md)^G12D^, 37 [KRAS](../genes/KRAS.md)^G12R^) from the Canadian COMPASS trial (NCT02750657) plus consortium-resected patients; aligned to GRCh38 via STAR; revealed KRAS^G12D^ enrichment for EMT, mTORC1, and E2F/G2M Hallmarks versus KRAS^G12R^ enrichment for NF-κB/TNFα signaling [PMID:39214094](../papers/39214094.md).
 - [PMID:39305899](../papers/39305899.md) — bulk RNA-seq (KAPA Hyper Prep, NovaSeq6000, STAR, GRCh38.108) on sarcoma specimens from the UCLA biobank (194 total, subset sequenced); deposited on Synapse (PDTOSarcoma); used alongside WGS and targeted DNA panel sequencing to characterize 24 bone and soft-tissue sarcoma subtypes [PMID:39305899](../papers/39305899.md).
 - [PMID:39753968](../papers/39753968.md) — bulk RNA-seq applied to 11 MAPK-WT [PAAD](../cancer_types/PAAD.md) tumors for fusion discovery (FusionCatcher v1.20 + Arriba v2.1.0); also used for the COMPASS trial transcriptomics arm referenced within the study; identified activating [BRAF](../genes/BRAF.md) and [NRG1](../genes/NRG1.md) fusions in 2/11 MAPK-WT tumors [PMID:39753968](../papers/39753968.md).
+- [PMID:39185963](../papers/39185963.md) — RNA-seq on 7 atypical [SCLC](../cancer_types/SCLC.md) samples to characterize transcriptional subtype (100% ASCL1-dominant), confirm absence of [YAP1](../genes/YAP1.md) expression, detect high [DLL3](../genes/DLL3.md) and [SEZ6](../genes/SEZ6.md) expression (mean H-scores 278 and 240 respectively), and identify the TERT-non-expressing phenotype; also detected the enhancer-hijacked [CCND1](../genes/CCND1.md) overexpression event in case A17 [PMID:39185963](../papers/39185963.md).
+- [PMID:37119971](../papers/37119971.md) — cited as a core omics layer in the multi-omics precision health review; RNA-seq underpins transcriptomics in the iPOP longitudinal profiling effort and TCGA-scale cancer studies (including [SKCM](../cancer_types/SKCM.md) prognostic modeling, C-statistic 0.724); noted that RNA-seq combined with proteomics recovers functional context that genomics alone cannot provide [PMID:37119971](../papers/37119971.md).
 
 ## Notes
 
 - In the CLL-map study, RNA-seq is one arm of an integrated WES/WGS + RNA-seq + methylation analysis used to derive an integrated outcome model [PMID:35927489](../papers/35927489.md).
 - In the AC-ICAM atlas, RNA-seq drives both immune signature scoring and downstream microbiome integration [PMID:37202560](../papers/37202560.md).
-- In the NSCLC radiogenomics dataset, RNA-seq (n=130) complements CT/PET-CT imaging and SNaPshot mutational testing for EGFR/KRAS/ALK, with 17 subjects having both RNA-seq and microarray expression data [PMID:30325352](../papers/30325352.md).
+- In the [NSCLC](../cancer_types/NSCLC.md) radiogenomics dataset, RNA-seq (n=130) complements CT/PET-CT imaging and SNaPshot mutational testing for EGFR/KRAS/ALK, with 17 subjects having both RNA-seq and microarray expression data [PMID:30325352](../papers/30325352.md).
 
 ## Sources
 
@@ -52,5 +54,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
+- [PMID:39185963](../papers/39185963.md)
+- [PMID:37119971](../papers/37119971.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

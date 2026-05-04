@@ -11,7 +11,7 @@ tags:
   - hnscc
   - standard-of-care
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-03
 ---
 
 # cisplatin
@@ -27,10 +27,11 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin-based CRT is used as background context for the METEOR center's cervical cancer cohort, where CRT was found to remodel the TME with myeloid-cell infiltration and upregulation of the TP53/MDM2 axis in tumor cells, without significant upregulation of PD-L1/PD-1. [PMID:41941260](../papers/41941260.md)
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md)), cisplatin was a component of the MAP neoadjuvant regimen (methotrexate/doxorubicin/cisplatin) tested in three treatment-naïve [osteosarcoma](../cancer_types/OS.md) biopsies. Organoid residual viability after MAP correlated with post-resection necrosis and clinical outcome: two specimens with ~50–57% residual viability had 99% and 95% necrosis respectively (no recurrence at 1,400–1,500 days), while one specimen with 73% residual viability had only 60% necrosis and relapsed within 200 days. [PMID:39305899](../papers/39305899.md)
 - Cisplatin is also listed as a component of the >400-compound sarcoma PDTO screen and appears among the NCCN-listed standard-of-care regimens for osteosarcoma identified in the functional screen. [PMID:39305899](../papers/39305899.md)
-- In the phase 3 CALGB 90601 (NCT00942331) first-line metastatic urothelial carcinoma trial (gemcitabine/cisplatin ± [bevacizumab](../drugs/bevacizumab.md)), pretreatment cfDNA from 201 patients was assessed for DDR alterations and prognostic genomic features. Oncogenic DDR alterations including [ERCC2](../genes/ERCC2.md) were not significantly associated with response to cisplatin-based chemotherapy (DDR+ response 50% vs DDR− 41%, p=0.4), primarily due to insufficient power (ERCC2 only 4.5%). Higher ctDNA VAF was independently associated with shorter [OS](../cancer_types/OS.md) on cisplatin-based therapy (HR 2.51, 95% CI 1.26–5.00; p=0.009). [PMID:40256659](../papers/40256659.md)
+- In the phase 3 CALGB 90601 (NCT00942331) first-line metastatic urothelial carcinoma trial (gemcitabine/cisplatin ± [bevacizumab](../drugs/bevacizumab.md)), pretreatment cfDNA from 201 patients was assessed for DDR alterations and prognostic genomic features. Oncogenic DDR alterations including [ERCC2](../genes/ERCC2.md) were not significantly associated with response to cisplatin-based chemotherapy (DDR+ response 50% vs DDR− 41%, p=0.4), primarily due to insufficient power ([ERCC2](../genes/ERCC2.md) only 4.5%). Higher ctDNA VAF was independently associated with shorter [OS](../cancer_types/OS.md) on cisplatin-based therapy (HR 2.51, 95% CI 1.26–5.00; p=0.009). [PMID:40256659](../papers/40256659.md)
 - In the MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md), n=1,480 with curated treatment data), FOLFIRINOX ([oxaliplatin](../drugs/oxaliplatin.md), not cisplatin) and gemcitabine/nab-paclitaxel were the dominant first-line regimens (38% and 37% respectively); cisplatin is mentioned as a historical reference in PDAC chemotherapy background. [PMID:39753968](../papers/39753968.md)
 - In preclinical HER2+ xenograft models, cisplatin was used as a comparator in cell viability assays; T-DM1 was more potent than cisplatin (and [paclitaxel](../drugs/paclitaxel.md), [trastuzumab](../drugs/trastuzumab.md), [lapatinib](../drugs/lapatinib.md), [erlotinib](../drugs/erlotinib.md)) in HER2+ OE19 esophageal cancer cells, with T-DM1 IC50 <1 nM vs >100 nM in HER2− lines [PMID:27698471](../papers/27698471.md).
 - Cohort-metadata context only: in the MD Anderson HNSCC imaging archive (n=215), 127 patients (59%) received concurrent chemotherapy, of whom 98% received platinum-based regimens (effectively cisplatin). No efficacy or biomarker claim is made; this citation records treatment-arm composition. [PMID:30179230](../papers/30179230.md)
+- In atypical [SCLC](../cancer_types/SCLC.md) (aSCLC, [RB1](../genes/RB1.md)+/TP53+, never/light smokers), among 15 patients with response data to cisplatin/carboplatin + [etoposide](../drugs/etoposide.md), the combined objective response rate was 33% (13% CR + 20% PR), substantially below the ~70% historical norm for conventional SCLC. [PMID:39185963](../papers/39185963.md)
 
 ## Resistance mechanisms
 
@@ -43,6 +44,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [ESCA](../cancer_types/ESCA.md), [STAD](../cancer_types/STAD.md) — HER2+ esophageal/gastric cancer; preclinical comparator context.
 - [BLCA](../cancer_types/BLCA.md) — metastatic urothelial carcinoma; CALGB 90601 backbone cisplatin-based chemotherapy; DDR alteration predictive value not confirmed (underpowered).
 - [OS](../cancer_types/OS.md) — osteosarcoma; MAP regimen component; organoid viability correlated with post-resection necrosis.
+- [SCLC](../cancer_types/SCLC.md) — atypical SCLC (RB1+/TP53+); below-historical ORR of 33% with platinum-etoposide doublet.
 
 ## Sources
 
@@ -52,5 +54,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; MAP (methotrexate/doxorubicin/cisplatin) organoid viability correlated with post-resection necrosis in osteosarcoma.
 - [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. (2024). MSK PDAC cohort; cisplatin referenced in chemotherapy background context.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; cisplatin-based chemotherapy backbone; DDR predictive value null (underpowered); VAF and TERT/PIK3CA/ERBB2 as prognostic markers.
+- [PMID:39185963](../papers/39185963.md) — Rekhtman et al. 2024, MSKCC; atypical SCLC genomic characterization; cisplatin/carboplatin + etoposide ORR 33% (below historical norms).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

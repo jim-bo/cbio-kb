@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ODG
 tags: [proneural-transcription-factor, stem-progenitor, oligodendroglioma, neural-differentiation]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-03
 ---
 
 # ASCL1
@@ -17,10 +17,11 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 ## Alterations observed in the corpus
 
 - ASCL1 is part of the stem/progenitor transcriptional program in grade II IDH-mutant 1p/19q-codeleted oligodendroglioma, co-expressed with [SOX2](../genes/SOX2.md), [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [NFIB](../genes/NFIB.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [TCF4](../genes/TCF4.md), and [CCND2](../genes/CCND2.md); identified from scRNA-seq of 4,347 cells across 6 tumors [PMID:27806376](../papers/27806376.md).
+- Uniformly high in aSCLC (100% ASCL1-dominant subtype); [NEUROD1](../genes/NEUROD1.md), [POU2F3](../genes/POU2F3.md), and [YAP1](../genes/YAP1.md) absent or rare; aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — ASCL1 marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells (MKI67+) and most closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
+- [ODG](../cancer_types/ODG.md) — ASCL1 marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells ([MKI67](../genes/MKI67.md)+) and most closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,5 +38,6 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 ## Sources
 
 - [PMID:27806376](../papers/27806376.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-03**.*

@@ -16,6 +16,7 @@ EIF1AX (Eukaryotic Translation Initiation Factor 1A, X-Linked) encodes a compone
 ## Alterations observed in the corpus
 
 - Mutations identified in 5 anaplastic thyroid carcinoma (ATC) tumors, including a p.A113X splice-site mutation; EIF1AX mutations tend to co-occur with RAS mutations in this context [PMID:38412093](../papers/38412093.md).
+- Carcinoid-associated mutations enriched in aSCLC at 10% frequency (alongside [ARID1A](../genes/ARID1A.md) and [MEN1](../genes/MEN1.md)); aSCLC cohort n=20 (MSKCC) [PMID:39185963](../papers/39185963.md).
 
 ## Cancer types (linked)
 
@@ -36,5 +37,6 @@ EIF1AX (Eukaryotic Translation Initiation Factor 1A, X-Linked) encodes a compone
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md)
+- [PMID:39185963](../papers/39185963.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-03**.*

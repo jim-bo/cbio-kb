@@ -10,7 +10,7 @@ tags:
   - pediatric
   - rare
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # Spindle Cell/Sclerosing Rhabdomyosarcoma (SCSRMS)
@@ -30,16 +30,16 @@ Spindle cell/sclerosing rhabdomyosarcoma is a rare subtype of rhabdomyosarcoma (
 
 ## Subtypes
 
-- MYOD1-mutant spindle cell RMS (typically MYOD1 p.L122R)
+- MYOD1-mutant spindle cell [RMS](../cancer_types/RMS.md) (typically [MYOD1](../genes/MYOD1.md) p.L122R)
 - Congenital/infantile sclerosing RMS (VGLL2 or NCOA2 fusions; favorable prognosis)
 - VGLL2/NCOA2-rearranged sclerosing RMS
 
 ## Therapeutic landscape
 
-- [larotrectinib](../drugs/larotrectinib.md): resistance in SARC0127 PDTOs (expected for IFS, correctly predicted SCSRMS). The negative response was a diagnostic indicator, not a treatment failure. [PMID:39305899](../papers/39305899.md)
+- [larotrectinib](../drugs/larotrectinib.md): resistance in SARC0127 PDTOs (expected for [IFS](../cancer_types/IFS.md), correctly predicted SCSRMS). The negative response was a diagnostic indicator, not a treatment failure. [PMID:39305899](../papers/39305899.md)
 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

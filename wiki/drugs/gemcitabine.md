@@ -8,15 +8,15 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # gemcitabine
 
 ## Overview
 
-Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog incorporated into DNA during replication, leading to chain termination and apoptosis. It also inhibits ribonucleotide reductase (RRM1). Gemcitabine is a backbone agent in pancreatic, biliary, urothelial, soft-tissue sarcoma, and lung-cancer regimens.
+Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog incorporated into DNA during replication, leading to chain termination and apoptosis. It also inhibits ribonucleotide reductase ([RRM1](../genes/RRM1.md)). Gemcitabine is a backbone agent in pancreatic, biliary, urothelial, soft-tissue sarcoma, and lung-cancer regimens.
 
 ## Evidence in the corpus
 
@@ -34,7 +34,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 
 ## Sources
 
-- [PMID:39214094](../papers/39214094.md) — MSK pancreatic spatial / single-cell PDAC study; gemcitabine+nab-paclitaxel as treatment context.
+- [PMID:39214094](../papers/39214094.md) — MSK pancreatic spatial / single-cell PDAC study; gemcitabine+[nab-paclitaxel](../drugs/nab-paclitaxel.md) as treatment context.
 - [PMID:39305899](../papers/39305899.md) — UCLA sarcoma PDTO pharmacotyping including gemcitabine.
 - [PMID:39753968](../papers/39753968.md) — MSK PDAC prospective sequencing cohort; gemcitabine±nab-paclitaxel as standard-of-care reference.
 - [PMID:40256659](../papers/40256659.md) — CALGB 90601 mUC cfDNA dynamics; GC backbone.
@@ -42,3 +42,5 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 ---
 
 *Page last touched by entity-page-writer on 2026-05-01.*
+
+*This page was processed by **crosslinker** on **2026-05-04**.*

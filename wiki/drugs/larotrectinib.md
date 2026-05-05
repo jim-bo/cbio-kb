@@ -12,7 +12,7 @@ tags:
   - functional-precision-medicine
   - diagnostic-reclassification
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # larotrectinib
@@ -28,15 +28,15 @@ Larotrectinib (Vitrakvi) is an FDA-approved pan-TRK (NTRK1/2/3) tyrosine kinase 
 
 ## Resistance mechanisms
 
-- Absence of NTRK fusion (FISH-negative ETV6) predicts larotrectinib non-response in sarcomas initially suspected to be [IFS](../cancer_types/IFS.md); PDTO assay can reveal this resistance within days of tumor collection [PMID:39305899](../papers/39305899.md).
+- Absence of NTRK fusion (FISH-negative [ETV6](../genes/ETV6.md)) predicts larotrectinib non-response in sarcomas initially suspected to be [IFS](../cancer_types/IFS.md); PDTO assay can reveal this resistance within days of tumor collection [PMID:39305899](../papers/39305899.md).
 
 ## Cancer types (linked)
 
 - [IFS](../cancer_types/IFS.md) — infantile fibrosarcoma (expected responder via ETV6-NTRK3 fusion; PDTO resistance prompted diagnostic reclassification)
-- [SCSRMS](../cancer_types/SCSRMS.md) — sclerosing/spindle cell rhabdomyosarcoma (reclassified from suspected IFS after larotrectinib PDTO resistance)
+- [SCSRMS](../cancer_types/SCSRMS.md) — sclerosing/spindle cell rhabdomyosarcoma (reclassified from suspected [IFS](../cancer_types/IFS.md) after larotrectinib PDTO resistance)
 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; larotrectinib resistance enabled diagnostic reclassification from IFS to [SCSRMS](../cancer_types/SCSRMS.md).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

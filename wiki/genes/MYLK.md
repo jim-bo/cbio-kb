@@ -9,7 +9,7 @@ tags:
   - melanocyte-state
   - LowMut-marker
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MYLK
@@ -20,7 +20,7 @@ MYLK (Myosin Light Chain Kinase) encodes a kinase that phosphorylates the regula
 
 ## Alterations observed in the corpus
 
-- MYLK is a transcriptomic LowMut marker in normal human skin melanocytes; expressed in the neural-crest-lineage subpopulation with clock-like (SBS1/SBS5) rather than UV-attributable (SBS7) mutation signatures. Co-expressed with MYL9, [PALLD](../genes/PALLD.md), [NTNG1](../genes/NTNG1.md), [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [ITM2A](../genes/ITM2A.md), [TAGLN](../genes/TAGLN.md), and [SGCE](../genes/SGCE.md). [PMID:39975212](../papers/39975212.md)
+- MYLK is a transcriptomic LowMut marker in normal human skin melanocytes; expressed in the neural-crest-lineage subpopulation with clock-like (SBS1/SBS5) rather than UV-attributable (SBS7) mutation signatures. Co-expressed with [MYL9](../genes/MYL9.md), [PALLD](../genes/PALLD.md), [NTNG1](../genes/NTNG1.md), [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [ITM2A](../genes/ITM2A.md), [TAGLN](../genes/TAGLN.md), and [SGCE](../genes/SGCE.md). [PMID:39975212](../papers/39975212.md)
 
 ## Cancer types (linked)
 
@@ -42,4 +42,4 @@ MYLK (Myosin Light Chain Kinase) encodes a kinase that phosphorylates the regula
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

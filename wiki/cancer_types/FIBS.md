@@ -8,7 +8,7 @@ tags:
   - soft-tissue
   - fibrosarcoma
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # Fibrosarcoma (FIBS)
@@ -28,7 +28,7 @@ Fibrosarcoma is a malignant tumor of fibroblasts, classified under Soft Tissue S
 ## Subtypes
 
 - Adult fibrosarcoma (FIBS)
-- Infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) — distinct entity with ETV6–NTRK3 fusion
+- Infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) — distinct entity with [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion
 
 ## Therapeutic landscape
 
@@ -38,4 +38,4 @@ Fibrosarcoma is a malignant tumor of fibroblasts, classified under Soft Tissue S
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

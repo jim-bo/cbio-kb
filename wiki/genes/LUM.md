@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [fibroblast-marker, extracellular-matrix, cell-identity, transcriptomic-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # LUM
@@ -15,7 +15,7 @@ LUM (Lumican) is an extracellular matrix proteoglycan belonging to the small leu
 
 ## Alterations observed in the corpus
 
-- Used as a fibroblast lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with COL1A1 and S100A4 to define the fibroblast compartment. No somatic alterations reported. [PMID:39975212](../papers/39975212.md)
+- Used as a fibroblast lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with [COL1A1](../genes/COL1A1.md) and [S100A4](../genes/S100A4.md) to define the fibroblast compartment. No somatic alterations reported. [PMID:39975212](../papers/39975212.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ LUM (Lumican) is an extracellular matrix proteoglycan belonging to the small leu
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

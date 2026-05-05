@@ -4,7 +4,7 @@ aliases: [TMEM173, STING]
 cancer_types: [HGSOC]
 tags: [innate-immunity, cgas-sting, precursor-lesion, hgsoc]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # STING1
@@ -15,7 +15,7 @@ STING1 (Stimulator of Interferon Genes) is the downstream effector of the cGAS-S
 
 ## Alterations observed in the corpus
 
-- cGAS-STING pathway is activated in HGSOC precursor lesions: cGAS is recruited to [BANF1](../genes/BANF1.md)+ micronuclei as early as the STIC.I stage; STING1 contributes to innate immune signaling from ruptured micronuclei through STICs and into invasive HGSOC [PMID:39386723](../papers/39386723.md).
+- cGAS-STING pathway is activated in [HGSOC](../cancer_types/HGSOC.md) precursor lesions: cGAS is recruited to [BANF1](../genes/BANF1.md)+ micronuclei as early as the STIC.I stage; STING1 contributes to innate immune signaling from ruptured micronuclei through STICs and into invasive HGSOC [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ STING1 (Stimulator of Interferon Genes) is the downstream effector of the cGAS-S
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

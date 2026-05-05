@@ -10,7 +10,7 @@ tags:
   - chromatin-remodeling
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # ARID2
@@ -30,7 +30,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 - [MEL](../cancer_types/MEL.md) — ARID2 mutations identified in premalignant melanocytes of tanning bed users [PMID:38895302](../papers/38895302.md).
 - [CSCC](../cancer_types/CSCC.md) — ARID2 loss-of-function is a late event marking the AK-to-cSCC transition, potentially linked to immune evasion via SWI/SNF disruption [PMID:39091884](../papers/39091884.md).
-- [UCEC](../cancer_types/UCEC.md) — ARID2 alterations present in dMMR/MSI-H endometrial and ovarian cancers; not associated with nivolumab response [PMID:38653864](../papers/38653864.md).
+- [UCEC](../cancer_types/UCEC.md) — ARID2 alterations present in dMMR/MSI-H endometrial and ovarian cancers; not associated with [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -53,4 +53,4 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

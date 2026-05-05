@@ -4,7 +4,7 @@ aliases: [SM22, SMCC, TAGLN1]
 cancer_types: [SKIN]
 tags: [transcriptomic-marker, neural-crest, smooth-muscle, melanocyte]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # TAGLN
@@ -24,7 +24,7 @@ TAGLN (transgelin, also known as SM22-alpha) is a smooth-muscle actin-binding pr
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with other LowMut markers: [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [PALLD](../genes/PALLD.md), [ITM2A](../genes/ITM2A.md), MYL9, MYLK, SGCE, HACD1, [SEMA3C](../genes/SEMA3C.md), [TCF4](../genes/TCF4.md), [DAAM2](../genes/DAAM2.md), [RGMB](../genes/RGMB.md), [NTNG1](../genes/NTNG1.md) — genes recapitulating neural-crest lineage fates [PMID:39975212](../papers/39975212.md).
+- Co-expressed with other LowMut markers: [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [PALLD](../genes/PALLD.md), [ITM2A](../genes/ITM2A.md), [MYL9](../genes/MYL9.md), [MYLK](../genes/MYLK.md), [SGCE](../genes/SGCE.md), [HACD1](../genes/HACD1.md), [SEMA3C](../genes/SEMA3C.md), [TCF4](../genes/TCF4.md), [DAAM2](../genes/DAAM2.md), [RGMB](../genes/RGMB.md), [NTNG1](../genes/NTNG1.md) — genes recapitulating neural-crest lineage fates [PMID:39975212](../papers/39975212.md).
 - Mutually exclusive expression with HighMut markers ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md), [LIPA](../genes/LIPA.md), [HLA-DPA1](../genes/HLA-DPA1.md)) within the same biopsy [PMID:39975212](../papers/39975212.md).
 
 ## Therapeutic relevance
@@ -40,4 +40,4 @@ TAGLN (transgelin, also known as SM22-alpha) is a smooth-muscle actin-binding pr
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

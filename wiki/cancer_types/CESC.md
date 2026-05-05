@@ -4,8 +4,8 @@ oncotree_code: CESC
 main_type: Cervical Cancer
 parent: CERVIX
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Cervical Squamous Cell Carcinoma (CESC)
@@ -33,9 +33,9 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 ## Subtypes
 
 - Squamous cell carcinoma (39%): enriched for [PIK3CA](../genes/PIK3CA.md) (38%), APOBEC signature (46%), KMT2C/D, [TERT](../genes/TERT.md) promoter mutations. [PMID:37643132](../papers/37643132.md)
-- Usual endocervical adenocarcinoma (UEA, 28%): enriched for [ERBB2](../genes/ERBB2.md) (28%), KRAS (20%). [PMID:37643132](../papers/37643132.md)
+- Usual endocervical adenocarcinoma (UEA, 28%): enriched for [ERBB2](../genes/ERBB2.md) (28%), [KRAS](../genes/KRAS.md) (20%). [PMID:37643132](../papers/37643132.md)
 - Gastric-type endocervical adenocarcinoma (12%): enriched for KRAS (27%), [TP53](../genes/TP53.md) (55%), [STK11](../genes/STK11.md) (14%), SMAD4/CDKN2A; genomic drivers resemble pancreatobiliary tumors. [PMID:37643132](../papers/37643132.md)
-- Adenosquamous carcinoma (12%): enriched for STK11 (33%), [PTEN](../genes/PTEN.md) (14%). [PMID:37643132](../papers/37643132.md)
+- Adenosquamous carcinoma (12%): enriched for [STK11](../genes/STK11.md) (33%), [PTEN](../genes/PTEN.md) (14%). [PMID:37643132](../papers/37643132.md)
 - TMB-high (>10 mut/Mb): 13% of cases; 3 also MSI-H. [PMID:37643132](../papers/37643132.md)
 
 ## Therapeutic landscape
@@ -51,6 +51,6 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - [PMID:37643132](../papers/37643132.md) — Assessing the Genomic Landscape of Cervical Cancers: Clinical Opportunities and Therapeutic Targets (Clinical Cancer Research, 2023)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: [MART-1]
 cancer_types: [MEL]
 tags: [melanocyte-marker, cell-identity, melanoma-antigen, transcriptomic-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MLANA
@@ -23,7 +23,7 @@ MLANA (Melan-A, also called MART-1) is a transmembrane protein expressed in mela
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with PMEL, TYRP1, and MITF in melanocytes, defining the melanocyte cluster in normal skin single-cell/spatial data. [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), and [MITF](../genes/MITF.md) in melanocytes, defining the melanocyte cluster in normal skin single-cell/spatial data. [PMID:39975212](../papers/39975212.md)
 - Mutually exclusive with keratinocyte markers ([KRT14](../genes/KRT14.md), [KRT17](../genes/KRT17.md), [KRT5](../genes/KRT5.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
@@ -38,4 +38,4 @@ MLANA (Melan-A, also called MART-1) is a transmembrane protein expressed in mela
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

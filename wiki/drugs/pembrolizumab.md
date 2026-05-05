@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # pembrolizumab
@@ -54,8 +54,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
-- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in NSCLC immunotherapy.
+- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in [NSCLC](../cancer_types/NSCLC.md) immunotherapy.
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. 2024, MiMSI; MSI-H detection expanding pembrolizumab eligibility via improved NGS-based MSI calling.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; EV+pembrolizumab as first-line standard in mUC.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

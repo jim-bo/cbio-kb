@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # KRAS
@@ -34,7 +34,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - dMMR gynecologic cancers: KRAS mutated in 24% of the [nivolumab](../drugs/nivolumab.md) phase 2 trial cohort (n=35 MSI-H patients; 26% responders, 21% non-responders) — no significant association with [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
 - Pan-cancer liquid biopsy VTE risk: KRAS ctDNA detection carries adjusted HR = 1.65 (95% CI: 1.30-2.09; n=465) for venous thromboembolism in MSK multi-cancer cohort [PMID:39147831](../papers/39147831.md).
 - KRAS mutation status (SNaPshot PCR, exon 2 codons 12/13) was annotated for 205/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
-- In 2,336 MSK PDAC patients sequenced with MSK-IMPACT ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), KRAS was mutated in 95%; allele distribution G12D 41%, G12V 32%, G12R 16%, G12C 1%. Mutant-allele dosage gains (shallow gains, CNLOH, LOH, amplifications) were present in 42% of KRAS-mutant tumors and predict shorter OS independent of clinical stage (non-WGD HR_adj = 1.7, CI 1.4–2.0, P = 3.5×10⁻⁷). KRAS^G12R^ had better OS than G12D (HR_adj = 0.78, CI 0.67–0.92, P = 0.003). [PMID:39753968](../papers/39753968.md)
+- In 2,336 MSK PDAC patients sequenced with MSK-IMPACT ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), KRAS was mutated in 95%; allele distribution G12D 41%, G12V 32%, G12R 16%, G12C 1%. Mutant-allele dosage gains (shallow gains, CNLOH, LOH, amplifications) were present in 42% of KRAS-mutant tumors and predict shorter [OS](../cancer_types/OS.md) independent of clinical stage (non-WGD HR_adj = 1.7, CI 1.4–2.0, P = 3.5×10⁻⁷). KRAS^G12R^ had better OS than G12D (HR_adj = 0.78, CI 0.67–0.92, P = 0.003). [PMID:39753968](../papers/39753968.md)
 - KRAS detected at 5.6% in cfDNA (numerically higher than matched tumor 3.7%) among metastatic urothelial carcinoma patients in the CALGB 90601 cfDNA cohort (MSK-ACCESS, n=201). [PMID:40256659](../papers/40256659.md)
 
 ## Cancer types (linked)
@@ -95,4 +95,4 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

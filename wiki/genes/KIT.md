@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [OGCT, GIST, ANGS]
 tags: [germ-cell-tumor, gist, oncogene]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-05-04
 ---
 
 # KIT
@@ -18,6 +18,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Oncogenic KIT mutations observed in a minority of female germ cell tumors profiled by MSK-IMPACT; mostly clonal by WES [PMID:36862133](../papers/36862133.md).
 - KIT exon 11 mutation status was incorporated into the gastric [GIST](../cancer_types/GIST.md) elastic-net Cox genomic risk model (n=152 primary localized gastric GISTs); absence of KIT exon 11 mutation flagged intermediate risk for recurrence [PMID:37477937](../papers/37477937.md).
 - KIT amplification was detected exclusively in sporadic [ANGS](../cancer_types/ANGS.md) but absent in radiation-associated (RT) angiosarcoma (n=44 RT-AS, n=135 sporadic AS) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
+- Recurrent activating KIT mutations observed in [GIST](../cancer_types/GIST.md) samples and unexpectedly in one myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)); GIST/KIT biology cited as the [imatinib](../drugs/imatinib.md) precedent motivating subtype-specific sarcoma therapy [PMID:20601955](../papers/20601955.md).
 
 ## Cancer types (linked)
 
@@ -41,5 +42,6 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:37350195](../papers/37350195.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

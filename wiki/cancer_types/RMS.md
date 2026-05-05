@@ -5,7 +5,7 @@ main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Rhabdomyosarcoma (RMS)
@@ -34,7 +34,7 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 ## Therapeutic landscape
 
 - One-third localized, 18% regional nodal, 51% distant metastases at diagnosis [PMID:37315267](../papers/37315267.md).
-- Metastatic disease (HR 2.68, P=.004), high-risk group (HR 2.78, P=.010), and age ≥10 years (HR 2.26, P=.034) significantly affected OS [PMID:37315267](../papers/37315267.md).
+- Metastatic disease (HR 2.68, P=.004), high-risk group (HR 2.78, P=.010), and age ≥10 years (HR 2.26, P=.034) significantly affected [OS](../cancer_types/OS.md) [PMID:37315267](../papers/37315267.md).
 - 5-year EFS/OS: metastatic 19%/29%; nodal involvement without distant mets 43%/66% [PMID:37315267](../papers/37315267.md).
 - CDK4/6-directed strategies for CDK4-amplified or CDKN2A-deleted extremity RMS are untested [PMID:37315267](../papers/37315267.md).
 - Liquid biopsy (36-gene custom panel + shallow WGS) detects alterations in 88% of patients at diagnosis and 90% at relapse; ctDNA monitoring of FP-RMS is implemented in the prospective FaR-RMS trial (NCT04625907) [PMID:37730754](../papers/37730754.md).
@@ -44,4 +44,4 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

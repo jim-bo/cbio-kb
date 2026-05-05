@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, PTAD, PAAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # GNAS
@@ -30,7 +30,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 ## Co-occurrence and mutual exclusivity
 
 - Defines a subtype largely distinct from RAS-mut/TP53-wt indolent MAAP and from TP53-mut predominant aneuploid MAAP [PMID:36493333](../papers/36493333.md).
-- In PDAC, GNAS co-occurs with germline ATM mutations and is nearly exclusive to MAPK-WT tumors, a subtype also enriched for germline ATM (18% vs 1.4%, P = 2 × 10⁻⁶) [PMID:39753968](../papers/39753968.md).
+- In PDAC, GNAS co-occurs with germline [ATM](../genes/ATM.md) mutations and is nearly exclusive to MAPK-WT tumors, a subtype also enriched for germline ATM (18% vs 1.4%, P = 2 × 10⁻⁶) [PMID:39753968](../papers/39753968.md).
 
 ## Therapeutic relevance
 
@@ -46,4 +46,4 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

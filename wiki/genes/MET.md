@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC]
 tags: [rtk, metastasis, resistance, amplification]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MET
@@ -36,7 +36,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 ## Therapeutic relevance
 
 - MET exon 14 skipping and amplification in CSF ctDNA are actionable; [capmatinib](../drugs/capmatinib.md) was used as targeted therapy in the MSK CSF cohort. Resistance mutation p.Y1230N emerged on [crizotinib](../drugs/crizotinib.md), informing treatment switch [PMID:39289779](../papers/39289779.md).
-- MET co-amplification at progression identifies acquired resistance to [trastuzumab](../drugs/trastuzumab.md) in HER2+ EGC; serial ctDNA monitoring can detect MET amplification before radiographic progression [PMID:37406106](../papers/37406106.md).
+- MET co-amplification at progression identifies acquired resistance to [trastuzumab](../drugs/trastuzumab.md) in HER2+ [EGC](../cancer_types/EGC.md); serial ctDNA monitoring can detect MET amplification before radiographic progression [PMID:37406106](../papers/37406106.md).
 
 ## Open questions
 
@@ -51,4 +51,4 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

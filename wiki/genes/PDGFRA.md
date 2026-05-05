@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # PDGFRA
@@ -19,6 +19,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA is a co-primary [GIST](../cancer_types/GIST.md) driver; KIT/PDGFRA wild-type cases with [SDHB](../genes/SDHB.md) IHC loss were classified as SDH-deficient in the MSK [GIST](../cancer_types/GIST.md) genomic risk model cohort [PMID:37477937](../papers/37477937.md).
 - PDGFRA amplification was detected exclusively in sporadic [ANGS](../cancer_types/ANGS.md) but absent in radiation-associated (RT) angiosarcoma (n=44 RT-AS, n=135 sporadic AS) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
 - Expression marker in neuroblastoma: PDGFRA is significantly expressed in both the undifferentiated nC3 cluster and the mesenchymal stromal (MSC) nC1 cluster of high-risk neuroblastoma tumors in a single-nuclei RNA-seq study of 11 tumors; RNAscope validated absence in low-risk stage 4S tumors. [PMID:34493726](../papers/34493726.md)
+- PDGFRA cited as a known [GIST](../cancer_types/GIST.md) driver alongside [KIT](../genes/KIT.md); the KIT/PDGFRA → [imatinib](../drugs/imatinib.md) paradigm was explicitly invoked as the model for genotype-directed sarcoma therapy in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)) [PMID:20601955](../papers/20601955.md).
 
 ## Cancer types (linked)
 
@@ -29,7 +30,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with [KIT](../genes/KIT.md) mutation in GIST [PMID:37477937](../papers/37477937.md).
+- Mutually exclusive with [KIT](../genes/KIT.md) mutation in [GIST](../cancer_types/GIST.md) [PMID:37477937](../papers/37477937.md).
 - Co-expressed with [PRRX1](../genes/PRRX1.md) and [YAP1](../genes/YAP1.md) in neuroblastoma undifferentiated/mesenchymal clusters; [PDGFRB](../genes/PDGFRB.md) is more specifically elevated in the MSC nC1 cluster than in nC3. [PMID:34493726](../papers/34493726.md)
 
 ## Therapeutic relevance
@@ -46,5 +47,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:37350195](../papers/37350195.md)
 - [PMID:34493726](../papers/34493726.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

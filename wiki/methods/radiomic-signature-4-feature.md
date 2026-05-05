@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, radiomics, prognostic-signature, ct, cox-model]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 processed_by: crosslinker
 ---
 
@@ -18,7 +18,7 @@ A locked four-feature Cox proportional hazards prognostic model built from [CT r
 
 ## Used by
 
-- [PMID:24892406](../papers/24892406.md) — four-feature radiomic signature trained on Lung1 NSCLC (n=422), validated in Lung2 NSCLC (CI=0.65, P=2.91×10⁻⁹), H&N1 HNSCC (CI=0.69, P=7.99×10⁻⁷), and H&N2 HNSCC (CI=0.69, P=3.53×10⁻⁶); outperformed or significantly complemented TNM staging in all validation cohorts; intratumour-heterogeneity features (III and IV) correlated with cell-cycling gene-expression pathways in the Lung3 radiogenomics cohort (n=89) [PMID:24892406](../papers/24892406.md).
+- [PMID:24892406](../papers/24892406.md) — four-feature radiomic signature trained on Lung1 [NSCLC](../cancer_types/NSCLC.md) (n=422), validated in Lung2 NSCLC (CI=0.65, P=2.91×10⁻⁹), H&N1 HNSCC (CI=0.69, P=7.99×10⁻⁷), and H&N2 HNSCC (CI=0.69, P=3.53×10⁻⁶); outperformed or significantly complemented TNM staging in all validation cohorts; intratumour-heterogeneity features (III and IV) correlated with cell-cycling gene-expression pathways in the Lung3 radiogenomics cohort (n=89) [PMID:24892406](../papers/24892406.md).
 
 ## Notes
 
@@ -30,4 +30,4 @@ A locked four-feature Cox proportional hazards prognostic model built from [CT r
 
 - [PMID:24892406](../papers/24892406.md)
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

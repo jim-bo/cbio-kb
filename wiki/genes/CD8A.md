@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD, HNSC]
 tags: [t-cell, icr-signature, immune-infiltration]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # CD8A
@@ -22,7 +22,7 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 ## Cancer types (linked)
 
 - Colon adenocarcinoma — CD8A contributes to ICR-based stratification; NK and T cell subset abundances by ConsensusTME were highest in ICR-high tumors across all CMS subtypes [PMID:37202560](../papers/37202560.md).
-- [HNSC](../cancer_types/HNSC.md) — CD8+ T cells measured in peripheral blood of HNSCC patients; CD8A expression was not associated with PFS benefit from IMRT reirradiation + nivolumab [PMID:38780927](../papers/38780927.md).
+- [HNSC](../cancer_types/HNSC.md) — CD8+ T cells measured in peripheral blood of HNSCC patients; CD8A expression was not associated with PFS benefit from IMRT reirradiation + [nivolumab](../drugs/nivolumab.md) [PMID:38780927](../papers/38780927.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -42,4 +42,4 @@ CD8A encodes the alpha chain of the CD8 co-receptor that defines cytotoxic T lym
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

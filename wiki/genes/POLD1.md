@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC]
 tags: [dna-polymerase, proofreading, ultramutator]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -17,7 +17,7 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 
 ## Alterations observed in the corpus
 
-- POLD1 exonuclease domain hotspot mutations were assessed in endometrial carcinoma (EC) as part of the molecular characterization of the POLE/POLD1 ultramutator subtype; this subtype was rare in Black patients (1.2% POLE mutations reported specifically, POLD1 mentioned in the same molecular class) [PMID:37651310](../papers/37651310.md).
+- POLD1 exonuclease domain hotspot mutations were assessed in endometrial carcinoma (EC) as part of the molecular characterization of the POLE/POLD1 ultramutator subtype; this subtype was rare in Black patients (1.2% [POLE](../genes/POLE.md) mutations reported specifically, POLD1 mentioned in the same molecular class) [PMID:37651310](../papers/37651310.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +39,4 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

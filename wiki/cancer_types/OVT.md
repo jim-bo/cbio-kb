@@ -5,7 +5,7 @@ main_type: Ovarian Cancer
 parent: OVARY
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Ovarian Epithelial Tumor (OVT)
@@ -21,7 +21,7 @@ Ovarian epithelial tumor (OVT) is the broad OncoTree category for epithelial ova
 ## Recurrent alterations
 
 - [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md) — dMMR/MSI-H status (via MMR gene mutations or [MLH1](../genes/MLH1.md) promoter hypermethylation) defines eligibility for immune checkpoint therapy in the OVT context. [PMID:38653864](../papers/38653864.md)
-- [SETD1B](../genes/SETD1B.md) — mutations associated with response to nivolumab (58% responders vs. 14% non-responders, P=0.015). [PMID:38653864](../papers/38653864.md)
+- [SETD1B](../genes/SETD1B.md) — mutations associated with response to [nivolumab](../drugs/nivolumab.md) (58% responders vs. 14% non-responders, P=0.015). [PMID:38653864](../papers/38653864.md)
 - [MEGF8](../genes/MEGF8.md) — mutations enriched in nivolumab responders (32% vs. 0%, P=0.027). [PMID:38653864](../papers/38653864.md)
 
 ## Subtypes
@@ -30,11 +30,11 @@ Ovarian epithelial tumor (OVT) is the broad OncoTree category for epithelial ova
 
 ## Therapeutic landscape
 
-- Nivolumab in dMMR/MSI-H gynecologic cancers (UCEC and OVT combined): ORR 58.8%, PFS24 64.7%, median PFS 21.6 months. TMB and PD-L1 expression were not predictive of response within dMMR-selected populations. [PMID:38653864](../papers/38653864.md)
+- Nivolumab in dMMR/MSI-H gynecologic cancers ([UCEC](../cancer_types/UCEC.md) and OVT combined): ORR 58.8%, PFS24 64.7%, median PFS 21.6 months. TMB and PD-L1 expression were not predictive of response within dMMR-selected populations. [PMID:38653864](../papers/38653864.md)
 - T cell functional states (dysfunctional CD8+PD-1+ and terminally dysfunctional CD8+PD-1+TOX+ T cells) and spatial proximity to PD-L1+ cells predict clinical benefit (AUC=0.897, P=0.0007). [PMID:38653864](../papers/38653864.md)
 
 ## Sources
 
 - [PMID:38653864](../papers/38653864.md) — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

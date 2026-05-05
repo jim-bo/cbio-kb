@@ -16,8 +16,8 @@ tags:
   - ct
   - lung
   - training-cohort
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 processed_by: crosslinker
 ---
 
@@ -25,7 +25,7 @@ processed_by: crosslinker
 
 ## Overview
 
-The Lung1 collection is the primary training cohort used by Aerts et al. 2014 to derive a 440-feature CT radiomic library and a four-feature prognostic radiomic signature in non-small cell lung cancer. It comprises 422 NSCLC patients treated with curative-intent radiotherapy at MAASTRO Clinic (Maastricht, Netherlands). CT scans, manual tumour delineations, clinical metadata, and survival data are publicly available on The Cancer Imaging Archive (TCIA) under the collection name NSCLC-Radiomics. [PMID:24892406](../papers/24892406.md)
+The Lung1 collection is the primary training cohort used by Aerts et al. 2014 to derive a 440-feature CT radiomic library and a four-feature prognostic radiomic signature in non-small cell lung cancer. It comprises 422 [NSCLC](../cancer_types/NSCLC.md) patients treated with curative-intent radiotherapy at MAASTRO Clinic (Maastricht, Netherlands). CT scans, manual tumour delineations, clinical metadata, and survival data are publicly available on The Cancer Imaging Archive (TCIA) under the collection name NSCLC-Radiomics. [PMID:24892406](../papers/24892406.md)
 
 ## Composition
 
@@ -53,4 +53,4 @@ The Lung1 collection is the primary training cohort used by Aerts et al. 2014 to
 - TCIA collection: NSCLC-Radiomics — https://www.cancerimagingarchive.net/collection/nsclc-radiomics/
 - [PMID:24892406](../papers/24892406.md) — Aerts et al. 2014, *Nature Communications*, DOI 10.1038/ncomms5006.
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

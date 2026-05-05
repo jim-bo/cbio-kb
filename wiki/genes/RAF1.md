@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PAAD]
 tags: [mapk-pathway, kinase, braf-fusions]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -13,7 +13,7 @@ unverified: false
 
 ## Overview
 
-RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effector of RAS in the MAPK/ERK signaling pathway. RAF1 dimerizes with [BRAF](../genes/BRAF.md) to transduce RAS signals to MEK and ERK. In the context of [BRAF](../genes/BRAF.md) fusions, RAF1 is part of the broader MAPK pathway co-alteration landscape that is typically mutually exclusive with oncogenic BRAF fusions.
+RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effector of RAS in the MAPK/ERK signaling pathway. RAF1 dimerizes with [BRAF](../genes/BRAF.md) to transduce RAS signals to MEK and ERK. In the context of [BRAF](../genes/BRAF.md) fusions, RAF1 is part of the broader MAPK pathway co-alteration landscape that is typically mutually exclusive with oncogenic [BRAF](../genes/BRAF.md) fusions.
 
 ## Alterations observed in the corpus
 
@@ -42,4 +42,4 @@ RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effec
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

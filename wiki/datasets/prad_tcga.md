@@ -10,7 +10,7 @@ assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
 tags: [prostate-cancer, prad, tcga, multi-platform]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Prostate Adenocarcinoma (TCGA, 2015)
@@ -34,10 +34,10 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 
 ## Notable findings derived from this cohort
 
-- [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with FGFR1 expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. [PMID:38488813](../papers/38488813.md)
+- [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with [FGFR1](../genes/FGFR1.md) expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. [PMID:38488813](../papers/38488813.md)
 
 ## Sources
 
 - cBioPortal study `prad_tcga` [PMID:38488813](../papers/38488813.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

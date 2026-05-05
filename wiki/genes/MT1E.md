@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [EGC]
 tags: [metallothionein, resistance, scRNA-seq]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MT1E
@@ -15,7 +15,7 @@ MT1E is a member of the metallothionein family, small cysteine-rich proteins inv
 
 ## Alterations observed in the corpus
 
-- MT1E expression associated with trastuzumab + chemotherapy resistance by scRNA-seq in HER2+ esophagogastric cancer ([EGC](../cancer_types/EGC.md)) escape lesions; identified alongside [MT1H](../genes/MT1H.md), [MT2A](../genes/MT2A.md), and [MSMB](../genes/MSMB.md) as candidate future therapeutic targets [PMID:37406106](../papers/37406106.md).
+- MT1E expression associated with [trastuzumab](../drugs/trastuzumab.md) + chemotherapy resistance by scRNA-seq in HER2+ esophagogastric cancer ([EGC](../cancer_types/EGC.md)) escape lesions; identified alongside [MT1H](../genes/MT1H.md), [MT2A](../genes/MT2A.md), and [MSMB](../genes/MSMB.md) as candidate future therapeutic targets [PMID:37406106](../papers/37406106.md).
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ MT1E is a member of the metallothionein family, small cysteine-rich proteins inv
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with MT1H, MT2A, and MSMB in trastuzumab-resistant HER2+ EGC escape lesions [PMID:37406106](../papers/37406106.md).
+- Co-expressed with [MT1H](../genes/MT1H.md), [MT2A](../genes/MT2A.md), and [MSMB](../genes/MSMB.md) in trastuzumab-resistant HER2+ [EGC](../cancer_types/EGC.md) escape lesions [PMID:37406106](../papers/37406106.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ MT1E is a member of the metallothionein family, small cysteine-rich proteins inv
 
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

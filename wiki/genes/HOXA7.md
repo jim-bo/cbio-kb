@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [DIFG, AST]
 tags: [HOX, transcription-factor, epigenetic-target, glioma]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # HOXA7
@@ -15,7 +15,7 @@ HOXA7 is a homeobox transcription factor involved in developmental patterning. I
 
 ## Alterations observed in the corpus
 
-- HOXA7 is an experimentally confirmed HOXD13 target gene in IDH-mutant glioma; upregulated as part of the HOXD13-driven transcriptional program in recurrent IDH-mutant non-codeleted astrocytomas and associated with tumor growth and metastasis promotion [PMID:38117484](../papers/38117484.md).
+- HOXA7 is an experimentally confirmed [HOXD13](../genes/HOXD13.md) target gene in IDH-mutant glioma; upregulated as part of the HOXD13-driven transcriptional program in recurrent IDH-mutant non-codeleted astrocytomas and associated with tumor growth and metastasis promotion [PMID:38117484](../papers/38117484.md).
 - HOXA7 upregulation is associated with the epigenetic shift from GCIMP-high to GCIMP-low (i.e., DNA hypomethylation at recurrence) in treated IDH-mutant gliomas from the GLASS consortium (n=132 matched initial and recurrent gliomas) [PMID:38117484](../papers/38117484.md).
 
 ## Cancer types (linked)
@@ -38,4 +38,4 @@ HOXA7 is a homeobox transcription factor involved in developmental patterning. I
 
 - [PMID:38117484](../papers/38117484.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

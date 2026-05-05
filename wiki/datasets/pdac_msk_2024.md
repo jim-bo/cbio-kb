@@ -16,7 +16,7 @@ tags:
   - copy-number
   - real-world-data
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MSK PDAC Prospective Sequencing Cohort (2024)
@@ -39,14 +39,14 @@ Prospective institutional cohort of 2,336 patients with pancreatic ductal adenoc
 
 ## Papers using this cohort
 
-- [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. 2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes [KRAS](../genes/KRAS.md) mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better OS than G12D (HR_adj=0.78, P=0.003).
+- [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. 2025: Defines three genomic subtypes of PDAC (KRAS-mutant 95%, other-MAPK-mutant 3%, MAPK-WT 2%); characterizes [KRAS](../genes/KRAS.md) mutant-allele dosage gains as a prognostic biomarker independent of stage; shows G12R confers better [OS](../cancer_types/OS.md) than G12D (HR_adj=0.78, P=0.003).
 
 ## Notable findings derived from this cohort
 
 - Three genomic subtypes: KRAS-mutant (n=2,209, 95%), other-MAPK-mutant (n=76, 3%), and MAPK-WT (n=51, 2%); other-MAPK-mutant and MAPK-WT subtypes had longer OS than KRAS-mutant (HR_adj=0.69, P=0.014 and P=0.041 respectively) [PMID:39753968](../papers/39753968.md).
 - [KRAS](../genes/KRAS.md) allele distribution: G12D 41%, G12V 32%, G12R 16%, G12C 1%, Q61H 1%; G12R associated with better OS than G12D (HR_adj=0.78, 95% CI 0.67–0.92, P=0.003) [PMID:39753968](../papers/39753968.md).
 - Allelic imbalance at [KRAS](../genes/KRAS.md) in 42% of KRAS-mutant tumors with quality copy-number data; 93% of imbalance events preferentially gained/retained the mutant allele [PMID:39753968](../papers/39753968.md).
-- KRAS mutant-allele dosage gains (non-WGD subset, n=934) independently predicted shorter OS (HR_adj=1.7, 95% CI 1.4–2.0, P=3.5×10⁻⁷) across all clinical stages [PMID:39753968](../papers/39753968.md).
+- [KRAS](../genes/KRAS.md) mutant-allele dosage gains (non-WGD subset, n=934) independently predicted shorter OS (HR_adj=1.7, 95% CI 1.4–2.0, P=3.5×10⁻⁷) across all clinical stages [PMID:39753968](../papers/39753968.md).
 - 10% of patients carried pathogenic germline variants: [BRCA2](../genes/BRCA2.md) 3.7%, [BRCA1](../genes/BRCA1.md) 1.8%, [ATM](../genes/ATM.md) 1.8%, [PALB2](../genes/PALB2.md) 0.5%; Lynch syndrome in 0.7% (17 patients), 6/17 MSI-H [PMID:39753968](../papers/39753968.md).
 - ~10% of patients harbored OncoKB level 1 or 2 biomarkers; additional 78% met level 3A based on KRAS G12D/V/R/A/S [PMID:39753968](../papers/39753968.md).
 - [RNF43](../genes/RNF43.md) alterations independently associated with shorter first-line OS (HR_adj=2.79, P_adj=0.047); [AKT2](../genes/AKT2.md) amplifications associated with shorter OS in metastatic, chemotherapy-treated patients (HR_adj=2.03, P_adj=0.048) [PMID:39753968](../papers/39753968.md).
@@ -55,4 +55,4 @@ Prospective institutional cohort of 2,336 patients with pancreatic ductal adenoc
 
 - cBioPortal study `pdac_msk_2024`. Varghese AM, Perry MA, et al. *Genomic subtypes and allelic imbalance of KRAS in pancreatic ductal adenocarcinoma.* 2025. [PMID:39753968](../papers/39753968.md).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

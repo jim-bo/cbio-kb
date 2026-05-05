@@ -6,14 +6,14 @@ canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # carboplatin
 
 ## Overview
 
-Carboplatin is a second-generation platinum compound that, like [cisplatin](../drugs/cisplatin.md), forms intrastrand and interstrand DNA crosslinks via platination of guanine residues, inducing replication-fork stalling and apoptosis. It is FDA-approved for ovarian cancer and is used broadly in combination chemotherapy for lung, head and neck, and other solid tumors. Compared with cisplatin it has a more favorable toxicity profile (less nephrotoxicity, ototoxicity, and nausea) at the cost of greater myelosuppression. In the UCLA sarcoma PDTO screen it was included in the >400-compound drug panel.
+Carboplatin is a second-generation platinum compound that, like [cisplatin](../drugs/cisplatin.md), forms intrastrand and interstrand DNA crosslinks via platination of guanine residues, inducing replication-fork stalling and apoptosis. It is FDA-approved for ovarian cancer and is used broadly in combination chemotherapy for lung, head and neck, and other solid tumors. Compared with [cisplatin](../drugs/cisplatin.md) it has a more favorable toxicity profile (less nephrotoxicity, ototoxicity, and nausea) at the cost of greater myelosuppression. In the UCLA sarcoma PDTO screen it was included in the >400-compound drug panel.
 
 ## Evidence in the corpus
 
@@ -31,4 +31,4 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; carboplatin in the >400-compound functional precision-medicine screen panel.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

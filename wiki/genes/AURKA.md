@@ -8,7 +8,7 @@ tags:
   - neuroendocrine
   - mycn-axis
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # AURKA
@@ -35,10 +35,10 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 
 ## Open questions
 
-- AURKA inhibitors (e.g., alisertib) are not directly evaluated in the PDX corpus; the relative contribution of AURKA vs. MYCN upregulation to the NEPC phenotype requires further functional dissection [PMID:38488813](../papers/38488813.md).
+- AURKA inhibitors (e.g., alisertib) are not directly evaluated in the PDX corpus; the relative contribution of AURKA vs. [MYCN](../genes/MYCN.md) upregulation to the NEPC phenotype requires further functional dissection [PMID:38488813](../papers/38488813.md).
 
 ## Sources
 
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

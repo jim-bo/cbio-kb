@@ -7,8 +7,8 @@ tags:
   - catecholamine-synthesis
   - noradrenergic-marker
   - neuroblastoma
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TH
@@ -19,7 +19,7 @@ TH (Tyrosine Hydroxylase) encodes the rate-limiting enzyme in catecholamine bios
 
 ## Alterations observed in the corpus
 
-- TH is significantly over-expressed in noradrenergic (NOR) tumor clusters (nC5/nC7/nC8/nC9) of neuroblastoma (FDR <0.01, Welch's t-test), as part of the noradrenergic/adrenergic panel alongside [PHOX2A](../genes/PHOX2A.md), [PHOX2B](../genes/PHOX2B.md), [DBH](../genes/DBH.md), [PNMT](../genes/PNMT.md), and [ISL1](../genes/ISL1.md). RNAscope in situ hybridization in a MYCN-amplified high-risk tumor (K10) showed TH+/MYCN+/NTRK1+/NTRK2− cells with enlarged nuclei (possibly differentiating) surrounded by small-nucleus NTRK2+ undifferentiated cells. A low-risk 4S tumor (K6) was homogeneously TH+/NTRK1+/NTRK2−. [PMID:34493726](../papers/34493726.md)
+- TH is significantly over-expressed in noradrenergic (NOR) tumor clusters (nC5/nC7/nC8/nC9) of neuroblastoma (FDR <0.01, Welch's t-test), as part of the noradrenergic/adrenergic panel alongside [PHOX2A](../genes/PHOX2A.md), [PHOX2B](../genes/PHOX2B.md), [DBH](../genes/DBH.md), [PNMT](../genes/PNMT.md), and [ISL1](../genes/ISL1.md). RNAscope in situ hybridization in a MYCN-amplified high-risk tumor (K10) showed TH+/MYCN+/NTRK1+/NTRK2− cells with enlarged nuclei (possibly differentiating) surrounded by small-nucleus [NTRK2](../genes/NTRK2.md)+ undifferentiated cells. A low-risk 4S tumor (K6) was homogeneously TH+/NTRK1+/NTRK2−. [PMID:34493726](../papers/34493726.md)
 
 ## Cancer types (linked)
 
@@ -41,4 +41,4 @@ TH (Tyrosine Hydroxylase) encodes the rate-limiting enzyme in catecholamine bios
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

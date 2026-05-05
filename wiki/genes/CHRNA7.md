@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - NBL
 tags: [cholinergic-receptor, neuroblastoma, progenitor-identity, cell-of-origin]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # CHRNA7
@@ -20,7 +20,7 @@ CHRNA7 (cholinergic receptor nicotinic alpha 7 subunit) is a ligand-gated ion ch
 
 ## Cancer types (linked)
 
-- Neuroblastoma (NBL) — CHRNA7 expression in both hC1 progenitors and hC4 chromaffin cells supports the authors' hypothesis that the hC1 postnatal TRKB+ cholinergic progenitor is a candidate cell of origin for high-risk neuroblastoma, distinct from previously described embryonic Schwann cell precursors [PMID:34493726](../papers/34493726.md).
+- Neuroblastoma ([NBL](../cancer_types/NBL.md)) — CHRNA7 expression in both hC1 progenitors and hC4 chromaffin cells supports the authors' hypothesis that the hC1 postnatal TRKB+ cholinergic progenitor is a candidate cell of origin for high-risk neuroblastoma, distinct from previously described embryonic Schwann cell precursors [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ CHRNA7 (cholinergic receptor nicotinic alpha 7 subunit) is a ligand-gated ion ch
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [GIST]
 tags: [myc-pathway, transcription-factor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MAX
@@ -19,7 +19,7 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 ## Cancer types (linked)
 
-- [GIST](../cancer_types/GIST.md) — MAX alteration is a high-risk feature for recurrence in small bowel GIST [PMID:37477937](../papers/37477937.md).
+- [GIST](../cancer_types/GIST.md) — MAX alteration is a high-risk feature for recurrence in small bowel [GIST](../cancer_types/GIST.md) [PMID:37477937](../papers/37477937.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

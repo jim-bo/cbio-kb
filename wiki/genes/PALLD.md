@@ -9,7 +9,7 @@ tags:
   - melanocyte-state
   - LowMut-marker
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # PALLD
@@ -28,7 +28,7 @@ PALLD (Palladin) encodes an actin-associated protein that organizes the actin cy
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with MYL9, MYLK, NTNG1, and other LowMut markers; mutually exclusive with HighMut pigmentation markers ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) at the single-cell level. [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [MYL9](../genes/MYL9.md), [MYLK](../genes/MYLK.md), [NTNG1](../genes/NTNG1.md), and other LowMut markers; mutually exclusive with HighMut pigmentation markers ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) at the single-cell level. [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ PALLD (Palladin) encodes an actin-associated protein that organizes the actin cy
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

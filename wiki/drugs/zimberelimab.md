@@ -11,15 +11,15 @@ tags:
   - immunotherapy
   - radioimmunotherapy
   - rectal-cancer
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # zimberelimab
 
 ## Overview
 
-Zimberelimab (AB122) is a fully humanized IgG4 monoclonal antibody that blocks the interaction between programmed cell death protein 1 (PD-1, encoded by PDCD1) and its ligands PD-L1 (CD274) and PD-L2. By relieving PD-1-mediated inhibition of cytotoxic T lymphocytes, zimberelimab aims to restore anti-tumor immune surveillance. In the ROBIN ImmunoRad rectal cancer program, it is being tested in combination with the adenosine-receptor antagonist etrumadenant and FOLFOX chemotherapy in the context of short-course radiotherapy (SCRT), on the rationale that RT-induced immunogenic cell death creates a neoantigen-rich, inflamed microenvironment that PD-1 blockade can capitalize on — while concurrent adenosine-axis blockade removes a parallel immunosuppressive mechanism.
+Zimberelimab (AB122) is a fully humanized IgG4 monoclonal antibody that blocks the interaction between programmed cell death protein 1 (PD-1, encoded by [PDCD1](../genes/PDCD1.md)) and its ligands PD-L1 ([CD274](../genes/CD274.md)) and PD-L2. By relieving PD-1-mediated inhibition of cytotoxic T lymphocytes, zimberelimab aims to restore anti-tumor immune surveillance. In the ROBIN ImmunoRad rectal cancer program, it is being tested in combination with the adenosine-receptor antagonist [etrumadenant](../drugs/etrumadenant.md) and FOLFOX chemotherapy in the context of short-course radiotherapy (SCRT), on the rationale that RT-induced immunogenic cell death creates a neoantigen-rich, inflamed microenvironment that PD-1 blockade can capitalize on — while concurrent adenosine-axis blockade removes a parallel immunosuppressive mechanism.
 
 ## Evidence in the corpus
 
@@ -38,6 +38,6 @@ No resistance mechanisms reported in the corpus at this time.
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; ImmunoRad MCT2 (NCT05024097) preliminary CR data with SCRT + etrumadenant + zimberelimab + FOLFOX in rectal cancer.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

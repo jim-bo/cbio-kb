@@ -13,7 +13,7 @@ tags:
   - larotrectinib
   - NTRK-inhibitor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # NTRK3
@@ -24,7 +24,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 ## Alterations observed in the corpus
 
-- ETV6–NTRK3 fusion is the canonical driver of infantile fibrosarcoma (IFS); in the 194-specimen UCLA sarcoma PDTO screen, SARC0127 was initially presumed to be IFS but was FISH-negative for ETV6 and exhibited [larotrectinib](../drugs/larotrectinib.md) resistance in the PDTO, leading to reclassification as [SCSRMS](../cancer_types/SCSRMS.md) (spindle cell/sclerosing rhabdomyosarcoma). This case illustrates that NTRK3 FISH-negativity combined with PDTO larotrectinib non-response can drive diagnostic reclassification. [PMID:39305899](../papers/39305899.md)
+- [ETV6](../genes/ETV6.md)–NTRK3 fusion is the canonical driver of infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)); in the 194-specimen UCLA sarcoma PDTO screen, SARC0127 was initially presumed to be IFS but was FISH-negative for ETV6 and exhibited [larotrectinib](../drugs/larotrectinib.md) resistance in the PDTO, leading to reclassification as [SCSRMS](../cancer_types/SCSRMS.md) (spindle cell/sclerosing rhabdomyosarcoma). This case illustrates that NTRK3 FISH-negativity combined with PDTO [larotrectinib](../drugs/larotrectinib.md) non-response can drive diagnostic reclassification. [PMID:39305899](../papers/39305899.md)
 - Oncogenic NTRK3 fusions listed among OncoKB level 1 or 2 biomarkers in the MSK 2,336-patient PDAC cohort (alongside NTRK1/RET fusions), constituting part of the ~10% of patients with high-level actionable alterations. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
@@ -35,7 +35,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 ## Co-occurrence and mutual exclusivity
 
-- In sarcoma, ETV6–NTRK3 fusion is nearly exclusive to IFS; its absence (FISH-negative) in SARC0127 redirected diagnosis to SCSRMS, which has overlapping histology but distinct biology and therapeutic implications. [PMID:39305899](../papers/39305899.md)
+- In sarcoma, ETV6–NTRK3 fusion is nearly exclusive to IFS; its absence (FISH-negative) in SARC0127 redirected diagnosis to [SCSRMS](../cancer_types/SCSRMS.md), which has overlapping histology but distinct biology and therapeutic implications. [PMID:39305899](../papers/39305899.md)
 
 ## Therapeutic relevance
 
@@ -51,4 +51,4 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

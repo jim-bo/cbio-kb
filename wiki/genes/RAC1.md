@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -25,7 +25,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 
 ## Co-occurrence and mutual exclusivity
 
-- RAC1 P29L was identified in the tanning cohort alongside other UV-driven driver mutations ([BRAF](../genes/BRAF.md) L597R, BRAF G466R, [NF1](../genes/NF1.md) multiple LOF) across different donor melanocytes, reflecting field cancerization [PMID:38895302](../papers/38895302.md).
+- RAC1 P29L was identified in the tanning cohort alongside other UV-driven driver mutations ([BRAF](../genes/BRAF.md) L597R, [BRAF](../genes/BRAF.md) G466R, [NF1](../genes/NF1.md) multiple LOF) across different donor melanocytes, reflecting field cancerization [PMID:38895302](../papers/38895302.md).
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 
 - [PMID:38895302](../papers/38895302.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

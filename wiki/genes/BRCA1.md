@@ -15,7 +15,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # BRCA1
@@ -26,7 +26,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 ## Alterations observed in the corpus
 
-- Germline BRCA1 mutations in 12 of 44 [HGSOC](../cancer_types/HGSOC.md) patients in a multimodal spatial profiling study of fallopian tube precursor lesions (p53 signatures, STICs); somatic or germline BRCA1/2 alterations or epigenetic silencing account for nearly half of HGSOC exhibiting homologous recombination deficiency [PMID:39386723](../papers/39386723.md).
+- Germline BRCA1 mutations in 12 of 44 [HGSOC](../cancer_types/HGSOC.md) patients in a multimodal spatial profiling study of fallopian tube precursor lesions (p53 signatures, STICs); somatic or germline BRCA1/2 alterations or epigenetic silencing account for nearly half of [HGSOC](../cancer_types/HGSOC.md) exhibiting homologous recombination deficiency [PMID:39386723](../papers/39386723.md).
 - Somatic BRCA1 mutations more frequent in CN-H/TP53abn endometrial carcinoma from Black patients (3% vs 0.3%) in a 1,025-patient molecular characterization study [PMID:37651310](../papers/37651310.md).
 - Recurrent somatic BRCA1 mutations detected at both SNV and CNA levels in anaplastic thyroid carcinoma (ATC) in a multi-omic landscape study [PMID:38412093](../papers/38412093.md).
 - BRCA1 alterations detected in 4% of advanced [HCC](../cancer_types/HCC.md) patients by cfDNA profiling (MSK-ACCESS, 51 patients); combined BRCA1/2 alterations in 8% [PMID:37769223](../papers/37769223.md).
@@ -77,4 +77,4 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

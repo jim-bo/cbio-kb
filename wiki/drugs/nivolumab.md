@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # nivolumab
@@ -22,7 +22,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Somatic mutations in [MEGF8](../genes/MEGF8.md) (32% vs 0% in responders/non-responders, P=0.027) and [SETD1B](../genes/SETD1B.md) (58% vs 14%, P=0.015) are candidate genomic response biomarkers in dMMR gynecologic cancers treated with nivolumab [PMID:38653864](../papers/38653864.md).
 - In genomic near-haploidization (GNH) diffuse pleural mesothelioma, [ipilimumab](../drugs/ipilimumab.md)+nivolumab achieved 2/3 (67%) partial responses in GNH patients vs 1/44 (2%) in non-GNH patients [PMID:38630790](../papers/38630790.md).
 - In a phase 2 trial (NCT03521570, n=51) of IMRT reirradiation combined with concurrent and maintenance nivolumab in recurrent/second-primary [HNSC](../cancer_types/HNSC.md), estimated 1-year PFS was 61.7% (95% CI 49.2%–77.4%), rejecting the historical null of 43.8% (1-arm log-rank P=.002). Median PFS 20.7 months, 2-year [OS](../cancer_types/OS.md) 48.4%; only 12% grade ≥3 treatment-related AEs and no grade 5 events [PMID:38780927](../papers/38780927.md).
-- PD-L1 combined positive score (22C3, CPS <20 vs ≥20) did not predict PFS or OS benefit in this reirradiation + nivolumab context, diverging from the recurrent/metastatic HNSCC setting [PMID:38780927](../papers/38780927.md).
+- PD-L1 combined positive score (22C3, CPS <20 vs ≥20) did not predict PFS or [OS](../cancer_types/OS.md) benefit in this reirradiation + nivolumab context, diverging from the recurrent/metastatic HNSCC setting [PMID:38780927](../papers/38780927.md).
 - The ROBIN consortium (ROBIN white paper) identifies nivolumab (PD-1 blockade) as one of the systemic agents being combined with radiation therapy, alongside adenosine-pathway inhibition and antibody-drug conjugates, as a priority direction for radiation-immunotherapy combination trials [PMID:41941260](../papers/41941260.md).
 
 ## Resistance mechanisms
@@ -45,4 +45,4 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

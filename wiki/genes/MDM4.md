@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - p53-pathway
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # MDM4
@@ -22,10 +22,10 @@ processed_at: 2026-05-02
 
 ## Cancer types (linked)
 
-- **Glioblastoma ([GB](../cancer_types/GB.md))**: Identified as one of the core alterations in the p53 pathway, which is affected in 78% of GBM cases [PMID:18772890](../papers/18772890.md).
+- **Glioblastoma ([GB](../cancer_types/GB.md))**: Identified as one of the core alterations in the p53 pathway, which is affected in 78% of [GBM](../cancer_types/GBM.md) cases [PMID:18772890](../papers/18772890.md).
 
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

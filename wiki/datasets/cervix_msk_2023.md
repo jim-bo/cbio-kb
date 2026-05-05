@@ -10,7 +10,7 @@ assays: [targeted-panel]
 panels: []
 tags: [cervical-cancer, cesc, msk-impact, hpv]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Cervical Cancer (MSK, Gynecologic Oncology 2023)
@@ -40,10 +40,10 @@ Single-center retrospective cohort of 177 patients with cervical cancer ([CESC](
 - [KRAS](../genes/KRAS.md) mutations significantly enriched vs. TCGA (12% vs. 5%, P=0.019). [PMID:37643132](../papers/37643132.md)
 - 13% of patients had TMB-high (>10 mut/Mb) tumors; 37% had at least one actionable alteration at OncoKB level 3B. [PMID:37643132](../papers/37643132.md)
 - Oncogenic [TP53](../genes/TP53.md) mutations and HPV positivity were mutually exclusive: 3.5% of HPV-positive vs. 53.8% of non-gastric-type HPV-negative cases harbored oncogenic [TP53](../genes/TP53.md) alterations (P=0.00007). [PMID:37643132](../papers/37643132.md)
-- Median OS for survival cohort (n=97): 59.2 months (95% CI: 46.7–89.4). [PMID:37643132](../papers/37643132.md)
+- Median [OS](../cancer_types/OS.md) for survival cohort (n=97): 59.2 months (95% CI: 46.7–89.4). [PMID:37643132](../papers/37643132.md)
 
 ## Sources
 
 - cBioPortal study `cervix_msk_2023` [PMID:37643132](../papers/37643132.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

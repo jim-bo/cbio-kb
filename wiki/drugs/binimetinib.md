@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # binimetinib
@@ -17,7 +17,7 @@ Binimetinib is a selective MEK1/2 inhibitor approved in combination with [encora
 
 ## Evidence in the corpus
 
-- Binimetinib (MEK inhibitor) was among MAPK-pathway directed therapies evaluated across BRAF fusion-positive tumors (N=241, 52 histologies); MEK inhibitor monotherapy provided durable benefit particularly in pilocytic astrocytomas, while combination BRAF+MEK inhibition was less durable (median 1 month) [PMID:38922339](../papers/38922339.md).
+- Binimetinib (MEK inhibitor) was among MAPK-pathway directed therapies evaluated across [BRAF](../genes/BRAF.md) fusion-positive tumors (N=241, 52 histologies); MEK inhibitor monotherapy provided durable benefit particularly in pilocytic astrocytomas, while combination BRAF+MEK inhibition was less durable (median 1 month) [PMID:38922339](../papers/38922339.md).
 
 ## Resistance mechanisms
 
@@ -31,4 +31,4 @@ Binimetinib is a selective MEK1/2 inhibitor approved in combination with [encora
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

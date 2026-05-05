@@ -5,14 +5,14 @@ main_type: Melanoma
 parent: SKIN
 tags: [melanoma, skin]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Melanoma (MEL)
 
 ## Overview
 
-Melanoma (OncoTree code MEL, parent SKIN) is a malignant neoplasm of melanocytes. In the corpus, melanoma appears primarily in the context of CNS metastases and CSF circulating tumor DNA profiling.
+Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malignant neoplasm of melanocytes. In the corpus, melanoma appears primarily in the context of CNS metastases and CSF circulating tumor DNA profiling.
 
 ## Cohorts in the corpus
 
@@ -20,12 +20,12 @@ Melanoma (OncoTree code MEL, parent SKIN) is a malignant neoplasm of melanocytes
 - Epidemiologic cohort (Northwestern University): 2,934 tanning bed users vs. 2,929 controls; exome sequencing of 182 single melanocytes from 26 donors. Dataset: [normal_skin_melanocytes_2024](../datasets/normal_skin_melanocytes_2024.md). [PMID:38895302](../papers/38895302.md)
 - Pan-cancer liquid biopsy VTE cohort (MSK): melanoma comprised 7% of the 4,141-patient discovery cohort profiled by MSK-ACCESS. Dataset: [msk_ctdna_vte_2024](../datasets/msk_ctdna_vte_2024.md). [PMID:39147831](../papers/39147831.md)
 - ATLAS classifier validation set: melanoma included in 22-class cancer site-of-origin and 8-class lineage models. [PMID:27634761](../papers/27634761.md)
-- MSK pan-cancer [BRAF](../genes/BRAF.md) fusion study: MEL represented as a histology within the 97,024-sample cohort; [TERT](../genes/TERT.md) mutations co-occurred with BRAF fusions in 64% of melanomas. [PMID:38922339](../papers/38922339.md)
+- MSK pan-cancer [BRAF](../genes/BRAF.md) fusion study: MEL represented as a histology within the 97,024-sample cohort; [TERT](../genes/TERT.md) mutations co-occurred with [BRAF](../genes/BRAF.md) fusions in 64% of melanomas. [PMID:38922339](../papers/38922339.md)
 
 ## Recurrent alterations
 
 - [BRAF](../genes/BRAF.md) p.V600E detected in CSF ctDNA from melanoma patients with leptomeningeal disease [PMID:39289779](../papers/39289779.md).
-- [BRAF](../genes/BRAF.md) fusions (non-V600E): TERT mutations co-occur with BRAF fusions in 64% of melanoma BRAF fusion cases; melanoma is among the histologies in which BRAF fusions occur at low frequency as de novo or acquired events. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusions (non-V600E): [TERT](../genes/TERT.md) mutations co-occur with BRAF fusions in 64% of melanoma BRAF fusion cases; melanoma is among the histologies in which BRAF fusions occur at low frequency as de novo or acquired events. [PMID:38922339](../papers/38922339.md)
 - [TP53](../genes/TP53.md) was the most frequently altered gene across all tumor types in the CSF ctDNA cohort (49% of ctDNA-positive samples), including melanoma [PMID:39289779](../papers/39289779.md).
 - [NF1](../genes/NF1.md) — most frequently pathogenically mutated gene in normal melanocytes from tanning bed users; multiple loss-of-function mutations observed. [PMID:38895302](../papers/38895302.md)
 - [BRAF](../genes/BRAF.md) L597R and G466R pathogenic mutations identified in melanocytes from tanning cohort donors. [PMID:38895302](../papers/38895302.md)
@@ -52,4 +52,4 @@ Melanoma (OncoTree code MEL, parent SKIN) is a malignant neoplasm of melanocytes
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

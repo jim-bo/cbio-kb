@@ -4,7 +4,7 @@ aliases: [MEK1]
 cancer_types: [LCH, ECD]
 tags: [mapk, histiocytosis, actionable]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MAP2K1
@@ -30,7 +30,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 ## Therapeutic relevance
 
 - MAP2K1-mutant histiocytosis patients were treated with MEK inhibitors [trametinib](../drugs/trametinib.md) and [cobimetinib](../drugs/cobimetinib.md); one patient received an ERK inhibitor on trial, contributing to the 17/18 (94%) clinical-benefit rate from matched targeted therapy [PMID:36862133](../papers/36862133.md).
-- In KRAS-WT PDAC, MAP2K1 and other MAPK-pathway activation suggest eligibility for targeted MAPK-pathway therapies; the other-MAPK-mutant subtype's improved OS was partly driven by access to matched targeted therapy. [PMID:39753968](../papers/39753968.md)
+- In KRAS-WT PDAC, MAP2K1 and other MAPK-pathway activation suggest eligibility for targeted MAPK-pathway therapies; the other-MAPK-mutant subtype's improved [OS](../cancer_types/OS.md) was partly driven by access to matched targeted therapy. [PMID:39753968](../papers/39753968.md)
 
 ## Open questions
 
@@ -41,4 +41,4 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

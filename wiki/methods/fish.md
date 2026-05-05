@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [cytogenetics, fusion-detection]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -27,7 +27,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 ## Notes
 
 - FISH and Archer FusionPlex were used together for fusion confirmation in the extremity [RMS](../cancer_types/RMS.md) cohort [PMID:37315267](../papers/37315267.md).
-- In the NSCLC radiogenomics dataset, FISH was the sole assay for ALK/EML4 translocation detection (n=196/211); SNaPshot PCR covered [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) [PMID:30325352](../papers/30325352.md).
+- In the [NSCLC](../cancer_types/NSCLC.md) radiogenomics dataset, FISH was the sole assay for ALK/EML4 translocation detection (n=196/211); SNaPshot PCR covered [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) [PMID:30325352](../papers/30325352.md).
 
 ## Sources
 
@@ -38,4 +38,4 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -8,7 +8,7 @@ tags:
   - cgas-sting
   - innate-immunity
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # BANF1
@@ -19,7 +19,7 @@ BANF1 (Barrier to Autointegration Factor 1) is a DNA-binding protein that seals 
 
 ## Alterations observed in the corpus
 
-- BANF1 protein used as a marker for cytosolic DNA from ruptured micronuclei; BANF1+ micronuclei observed from the earliest HGSOC precursor stage (STIC.I) onward in a multimodal spatial profiling study of 44 fallopian tube specimens [PMID:39386723](../papers/39386723.md).
+- BANF1 protein used as a marker for cytosolic DNA from ruptured micronuclei; BANF1+ micronuclei observed from the earliest [HGSOC](../cancer_types/HGSOC.md) precursor stage (STIC.I) onward in a multimodal spatial profiling study of 44 fallopian tube specimens [PMID:39386723](../papers/39386723.md).
 - cGAS recruitment to BANF1+ micronuclei activates the cGAS-STING pathway from STIC.I stage, establishing innate immune signaling as an early event in HGSOC development [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
@@ -42,4 +42,4 @@ BANF1 (Barrier to Autointegration Factor 1) is a DNA-binding protein that seals 
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

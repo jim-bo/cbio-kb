@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, GYNEC]
 tags: [hedgehog-signaling, immunotherapy-biomarker, tumor-microenvironment]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MEGF8
@@ -19,7 +19,7 @@ MEGF8 (Multiple Epidermal Growth Factor-Like Domains 8) functions as a negative 
 
 ## Cancer types (linked)
 
-- Gynecologic cancers (dMMR/MSI-H) — MEGF8 mutations associated with response to nivolumab (anti-PD-1); candidate biomarker warranting validation in larger cohorts [PMID:38653864](../papers/38653864.md).
+- Gynecologic cancers (dMMR/MSI-H) — MEGF8 mutations associated with response to [nivolumab](../drugs/nivolumab.md) (anti-PD-1); candidate biomarker warranting validation in larger cohorts [PMID:38653864](../papers/38653864.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ MEGF8 (Multiple Epidermal Growth Factor-Like Domains 8) functions as a negative 
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

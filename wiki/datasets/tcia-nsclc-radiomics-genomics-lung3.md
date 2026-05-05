@@ -19,15 +19,15 @@ tags:
   - lung
   - gene-expression
   - validation-cohort
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCIA NSCLC-Radiomics-Genomics Lung3
 
 ## Overview
 
-The Lung3 collection is a radiogenomics cohort of 89 NSCLC patients at MAASTRO Clinic (Maastricht, Netherlands) with matched pretreatment CT imaging and whole-genome Affymetrix gene expression profiling (HuRSTA_2a520709 array, 21,766 genes). It was used by Aerts et al. 2014 to link radiomic features to gene sets via GSEA, demonstrating that intratumour-heterogeneity radiomic features correlate with cell-cycling / proliferation pathways. Publicly available on TCIA as NSCLC-Radiomics-Genomics. [PMID:24892406](../papers/24892406.md)
+The Lung3 collection is a radiogenomics cohort of 89 [NSCLC](../cancer_types/NSCLC.md) patients at MAASTRO Clinic (Maastricht, Netherlands) with matched pretreatment CT imaging and whole-genome Affymetrix gene expression profiling (HuRSTA_2a520709 array, 21,766 genes). It was used by Aerts et al. 2014 to link radiomic features to gene sets via GSEA, demonstrating that intratumour-heterogeneity radiomic features correlate with cell-cycling / proliferation pathways. Publicly available on TCIA as NSCLC-Radiomics-Genomics. [PMID:24892406](../papers/24892406.md)
 
 ## Composition
 
@@ -55,4 +55,4 @@ The Lung3 collection is a radiogenomics cohort of 89 NSCLC patients at MAASTRO C
 - TCIA collection: NSCLC-Radiomics-Genomics — https://www.cancerimagingarchive.net/collection/nsclc-radiomics-genomics/
 - [PMID:24892406](../papers/24892406.md) — Aerts et al. 2014, *Nature Communications*, DOI 10.1038/ncomms5006.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [imaging, pet, her2, nuclear-medicine]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # 89Zr-trastuzumab PET
@@ -17,7 +17,7 @@ processed_at: 2026-04-11
 
 ## Used by
 
-- [PMID:37406106](../papers/37406106.md) — 89Zr-trastuzumab PET/CT was performed on 8 patients with HER2-positive metastatic esophagogastric cancer in a phase II trial (NCT02954536); all 15 intensely avid lesions (SUV >= 10) decreased in size after a single dose of [pembrolizumab](../drugs/pembrolizumab.md) + trastuzumab vs. only 9/32 non-intensely avid lesions (P = 2.4e-6); all 4 patients with >= 1 intensely avid lesion achieved 6-month PFS [PMID:37406106](../papers/37406106.md).
+- [PMID:37406106](../papers/37406106.md) — 89Zr-trastuzumab PET/CT was performed on 8 patients with HER2-positive metastatic esophagogastric cancer in a phase II trial (NCT02954536); all 15 intensely avid lesions (SUV >= 10) decreased in size after a single dose of [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) vs. only 9/32 non-intensely avid lesions (P = 2.4e-6); all 4 patients with >= 1 intensely avid lesion achieved 6-month PFS [PMID:37406106](../papers/37406106.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ processed_at: 2026-04-11
 
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # CDKN2A
@@ -43,7 +43,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 ## Cancer types (linked)
 
-- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk OS marker [PMID:37078708](../papers/37078708.md).
+- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk [OS](../cancer_types/OS.md) marker [PMID:37078708](../papers/37078708.md).
 - [LUAD](../cancer_types/LUAD.md) — CDKN2A loss shortens time to metastasis and is enriched in CNS/liver mets [PMID:37084736](../papers/37084736.md).
 - [NSCLC](../cancer_types/NSCLC.md) brain metastasis — CDKN2A/B deletions are enriched vs primaries, marking cell-cycle dysregulation as near-obligate for BM development [PMID:37591896](../papers/37591896.md).
 - Extremity alveolar [RMS](../cancer_types/RMS.md) — CDKN2A deletion is recurrent and adverse [PMID:37315267](../papers/37315267.md).
@@ -107,4 +107,4 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

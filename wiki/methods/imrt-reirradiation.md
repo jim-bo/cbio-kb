@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [radiation-therapy, reirradiation, head-and-neck, IMRT]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Intensity-modulated reirradiation therapy (IMRT reirradiation)
@@ -17,7 +17,7 @@ Intensity-modulated reirradiation therapy (IMRT reirradiation) is the applicatio
 
 ## Used by
 
-- [PMID:38780927](../papers/38780927.md) — IMRT-based reirradiation (concurrent and maintenance nivolumab) delivered in a multicenter, single-arm, nonrandomized phase 2 trial (NCT03521570) to 51 evaluable patients with locoregionally recurrent or second primary HNSCC in a previously irradiated field (≥40 Gy to >50% of target volume, ≥6 months prior); RPA classes 1–2 (MIRI criteria). Estimated 1-year PFS 61.7% (95% CI 49.2%–77.4%); primary endpoint met (P = .002 vs historical 43.8%). Grade ≥3 treatment-related AEs in 11.8%; no grade 5 events [PMID:38780927](../papers/38780927.md).
+- [PMID:38780927](../papers/38780927.md) — IMRT-based reirradiation (concurrent and maintenance [nivolumab](../drugs/nivolumab.md)) delivered in a multicenter, single-arm, nonrandomized phase 2 trial (NCT03521570) to 51 evaluable patients with locoregionally recurrent or second primary HNSCC in a previously irradiated field (≥40 Gy to >50% of target volume, ≥6 months prior); RPA classes 1–2 (MIRI criteria). Estimated 1-year PFS 61.7% (95% CI 49.2%–77.4%); primary endpoint met (P = .002 vs historical 43.8%). Grade ≥3 treatment-related AEs in 11.8%; no grade 5 events [PMID:38780927](../papers/38780927.md).
 
 ## Notes
 
@@ -29,4 +29,4 @@ Intensity-modulated reirradiation therapy (IMRT reirradiation) is the applicatio
 
 - [PMID:38780927](../papers/38780927.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

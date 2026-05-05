@@ -4,8 +4,8 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Pancreatic Adenocarcinoma (PAAD)
@@ -23,7 +23,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 - Included in pan-cancer MSK-IMPACT pathway and metastasis analyses [PMID:39506116](../papers/39506116.md).
 - Canonical driver frequencies in the resected MSK cohort (n=397 sequenced): [KRAS](../genes/KRAS.md) 90%, [TP53](../genes/TP53.md) 71%, [CDKN2A](../genes/CDKN2A.md) 24%, [SMAD4](../genes/SMAD4.md) 17%; no significant difference in these frequencies between early- and late-stage disease after multiple-testing correction [PMID:39214094](../papers/39214094.md).
-- [KRAS](../genes/KRAS.md) allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other [KRAS](../genes/KRAS.md) 8.1%, KRAS wildtype 9.1% [PMID:39214094](../papers/39214094.md).
+- [KRAS](../genes/KRAS.md) allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other [KRAS](../genes/KRAS.md) 8.1%, [KRAS](../genes/KRAS.md) wildtype 9.1% [PMID:39214094](../papers/39214094.md).
 - KRAS^G12R^ tumors carry a higher proportion of [CDKN2A](../genes/CDKN2A.md) mutations than KRAS^G12D^ (40% vs 22.1%, p=0.046) [PMID:39214094](../papers/39214094.md).
 
 ## Subtypes
@@ -36,9 +36,9 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - NLP-augmented integrated survival-prediction models outperformed stage- or genomics-only models [PMID:39506116](../papers/39506116.md).
 - KRAS^G12R^ resected PDAC was enriched among patients who received neoadjuvant [fluorouracil](../drugs/fluorouracil.md)-based chemotherapy (most frequently FOLFIRINOX with [irinotecan](../drugs/irinotecan.md) and [oxaliplatin](../drugs/oxaliplatin.md)), consistent with higher response likelihood rather than borderline-resectable selection [PMID:39214094](../papers/39214094.md).
 - Allele-specific transcriptional divergence (NF-κB vs KRAS/EMT) suggests divergent actionable dependencies across KRAS-mutant PDAC rather than a single pan-KRAS strategy [PMID:39214094](../papers/39214094.md).
-- [BRAF](../genes/BRAF.md) fusions detected in PAAD at low frequency: [SND1](../genes/SND1.md) was the dominant 5' fusion partner in PAAD BRAF fusions (56%); acinar cell carcinoma of the pancreas had >=5% BRAF fusion prevalence. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusions detected in PAAD at low frequency: [SND1](../genes/SND1.md) was the dominant 5' fusion partner in PAAD [BRAF](../genes/BRAF.md) fusions (56%); acinar cell carcinoma of the pancreas had >=5% BRAF fusion prevalence. [PMID:38922339](../papers/38922339.md)
 - PAAD comprised 10% of the 4,141-patient liquid biopsy VTE discovery cohort; ctDNA detection was associated with higher VTE rates across pan-cancer including PAAD. [PMID:39147831](../papers/39147831.md)
-- ROBIN METEOR center (U54 CA274318; Washington University) METEOR-CRATR MCT (NCT05975593) has enrolled 12 pancreatic cancer patients with 10 tumor samples (3 with serial biopsies). Preliminary data: SBRT altered cDC1 infiltration in human and murine pancreatic tumors and produced an impaired antigen-presenting-cell (APC) phenotype with altered cDC1/cDC2 ratios in draining lymph nodes; myeloid-derived immunosuppressive remodeling of the TME is the working mechanistic hypothesis. CBCT delta-radiomics and ctDNA analyses are underway. [PMID:41941260](../papers/41941260.md)
+- ROBIN METEOR center (U54 CA274318; Washington University) METEOR-CRATR MCT (NCT05975593) has enrolled 12 pancreatic cancer patients with 10 tumor samples (3 with serial biopsies). Preliminary data: SBRT altered cDC1 infiltration in human and murine pancreatic tumors and produced an impaired antigen-presenting-cell ([APC](../genes/APC.md)) phenotype with altered cDC1/cDC2 ratios in draining lymph nodes; myeloid-derived immunosuppressive remodeling of the TME is the working mechanistic hypothesis. CBCT delta-radiomics and ctDNA analyses are underway. [PMID:41941260](../papers/41941260.md)
 
 ## Sources
 
@@ -48,6 +48,6 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

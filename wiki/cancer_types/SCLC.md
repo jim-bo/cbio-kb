@@ -5,7 +5,7 @@ main_type: Small Cell Lung Cancer
 parent: LNET
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Small Cell Lung Cancer (SCLC)
@@ -24,7 +24,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 ## Subtypes
 
-- ATLAS classifier demonstrated AUC=0.963 for distinguishing NSCLC from SCLC by lineage de-differentiation score, supporting RNA-based neuroendocrine identification in clinical contexts. [PMID:27634761](../papers/27634761.md)
+- ATLAS classifier demonstrated AUC=0.963 for distinguishing [NSCLC](../cancer_types/NSCLC.md) from SCLC by lineage de-differentiation score, supporting RNA-based neuroendocrine identification in clinical contexts. [PMID:27634761](../papers/27634761.md)
 
 ## Therapeutic landscape
 
@@ -34,4 +34,4 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 - [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

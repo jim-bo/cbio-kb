@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # ERBB2
@@ -25,7 +25,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 amplification enriched in Black endometrial carcinoma patients (12% vs 3%); therapeutic target for [trastuzumab](../drugs/trastuzumab.md) and [trastuzumab](../drugs/trastuzumab.md) deruxtecan [PMID:37651310](../papers/37651310.md).
 - ERBB2 amplification trended higher in average-onset esophagogastric cancer (20% vs 15%, P=0.16) and was associated with improved survival (HR=0.65, P=0.01) in multivariable analysis [PMID:37699004](../papers/37699004.md).
 - ERBB2 ctDNA alterations associated with VTE risk (adjusted HR = 1.72, 95% CI: 1.10–2.68; N=121) in a pan-cancer liquid biopsy cohort [PMID:39147831](../papers/39147831.md).
-- ERBB2 (HER2) surface expression gates T-MMAE (trastuzumab-MMAE) and T-DM1 (trastuzumab emtansine) radiosensitization; HER2+ lines (OE19, NCI-N87, CALU3, BT474) show sub-nanomolar T-DM1 IC50 and G2/M arrest; HER2− lines (HCT-116, CAL-27, LN229) are ~100-fold less sensitive [PMID:27698471](../papers/27698471.md).
+- ERBB2 (HER2) surface expression gates T-MMAE (trastuzumab-MMAE) and T-DM1 ([trastuzumab](../drugs/trastuzumab.md) emtansine) radiosensitization; HER2+ lines (OE19, NCI-N87, CALU3, BT474) show sub-nanomolar T-DM1 IC50 and G2/M arrest; HER2− lines (HCT-116, CAL-27, LN229) are ~100-fold less sensitive [PMID:27698471](../papers/27698471.md).
 - ERBB2 was used as a treatment-decision biomarker in the NLP-extraction pipelines for [BRCA](../cancer_types/BRCA.md) and [NSCLC](../cancer_types/NSCLC.md) in the MSK-CHORD 24,950-patient real-world clinicogenomic dataset [PMID:39506116](../papers/39506116.md).
 - EGFR/ERBB2 pathway implicated by KEGG analysis in [chordoma](../cancer_types/CHDM.md) PDTOs in the UCLA sarcoma PDTO study (n=194 specimens); chordomas were preferentially sensitive to TAK-285 (EGFR/ERBB2 kinase inhibitor, p=0.034) [PMID:39305899](../papers/39305899.md).
 - ERBB2 was among genes listed in the other-MAPK-mutant subtype gene set within the 2,336-patient [PAAD](../cancer_types/PAAD.md) MSK-IMPACT cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)) [PMID:39753968](../papers/39753968.md).
@@ -56,7 +56,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Neratinib showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; trastuzumab deruxtecan is under investigation [PMID:37643132](../papers/37643132.md).
 - Trastuzumab deruxtecan shows clinical activity in ERBB2-low carcinosarcomas, expanding the therapeutic window [PMID:37651310](../papers/37651310.md).
 - T-DM1 combined with ionizing radiation produced durable tumour control in HER2+ xenografts with a single 0.25 nmol dose + 3 IR fractions; the authors argue for speedy clinical evaluation given T-DM1's existing FDA approval for HER2+ metastatic breast cancer [PMID:27698471](../papers/27698471.md).
-- In metastatic urothelial carcinoma, ERBB2 cfDNA alterations independently predict shorter OS on cisplatin-based chemotherapy (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019); HER2-directed ADCs (trastuzumab deruxtecan, disitamab vedotin — with mUC response rates 33–83%) are flagged as therapeutic options for ERBB2-altered mUC [PMID:40256659](../papers/40256659.md).
+- In metastatic urothelial carcinoma, ERBB2 cfDNA alterations independently predict shorter [OS](../cancer_types/OS.md) on cisplatin-based chemotherapy (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019); HER2-directed ADCs (trastuzumab deruxtecan, disitamab vedotin — with mUC response rates 33–83%) are flagged as therapeutic options for ERBB2-altered mUC [PMID:40256659](../papers/40256659.md).
 
 ## Open questions
 
@@ -80,4 +80,4 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

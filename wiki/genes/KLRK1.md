@@ -4,7 +4,7 @@ aliases: [NKG2D]
 cancer_types: [HGSOC]
 tags: [NK-cell, activating-receptor, immune-surveillance, ovarian-cancer]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # KLRK1
@@ -15,7 +15,7 @@ KLRK1 encodes NKG2D, an activating C-type lectin receptor expressed on NK cells,
 
 ## Alterations observed in the corpus
 
-- KLRK1 (NKG2D) expression declined in STIC.C and invasive cancer stages in HGSOC fallopian tube specimens, indicating progressive NK cell dysfunction; NK cells became nearly undetectable in STIC.I, STIC.C, and cancer (median 0.02% of cells vs 0.1% in normal/p53.I) [PMID:39386723](../papers/39386723.md).
+- KLRK1 (NKG2D) expression declined in STIC.C and invasive cancer stages in [HGSOC](../cancer_types/HGSOC.md) fallopian tube specimens, indicating progressive NK cell dysfunction; NK cells became nearly undetectable in STIC.I, STIC.C, and cancer (median 0.02% of cells vs 0.1% in normal/p53.I) [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -37,4 +37,4 @@ KLRK1 encodes NKG2D, an activating C-type lectin receptor expressed on NK cells,
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

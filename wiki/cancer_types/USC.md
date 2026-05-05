@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Uterine Serous Carcinoma (USC)
@@ -28,15 +28,15 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 ## Subtypes
 
 - USC is enriched in Black patients (29% vs. 13%, P<0.01). [PMID:37651310](../papers/37651310.md)
-- [MED12](../genes/MED12.md) hotspot mutations distinguish serous ECs from Black patients; MED12 hotspot mutations were absent in serous ECs from White patients in this cohort. [PMID:37651310](../papers/37651310.md)
+- [MED12](../genes/MED12.md) hotspot mutations distinguish serous ECs from Black patients; [MED12](../genes/MED12.md) hotspot mutations were absent in serous ECs from White patients in this cohort. [PMID:37651310](../papers/37651310.md)
 
 ## Therapeutic landscape
 
-- [ERBB2](../genes/ERBB2.md) amplification (enriched in Black patients) represents a therapeutic target; [trastuzumab](../drugs/trastuzumab.md) and trastuzumab deruxtecan are under investigation for serous endometrial cancer. [PMID:37651310](../papers/37651310.md)
+- [ERBB2](../genes/ERBB2.md) amplification (enriched in Black patients) represents a therapeutic target; [trastuzumab](../drugs/trastuzumab.md) and [trastuzumab](../drugs/trastuzumab.md) deruxtecan are under investigation for serous endometrial cancer. [PMID:37651310](../papers/37651310.md)
 - Lower frequency of MSI-H/dMMR in Black patients with serous histology reduces eligibility for immune checkpoint inhibitors in this subgroup. [PMID:37651310](../papers/37651310.md)
 
 ## Sources
 
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

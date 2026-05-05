@@ -5,15 +5,15 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [radiomics, imaging, cbct, adaptive-rt, on-treatment]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # CBCT delta radiomics
 
 ## Overview
 
-CBCT (Cone-Beam CT) delta radiomics is an imaging-based method that extracts quantitative radiomic features from serial on-treatment cone-beam CT scans acquired during a radiation therapy course, then computes the delta (change) between time points. The approach enables high-temporal-resolution monitoring of treatment response without requiring additional dedicated imaging sessions, since CBCT is routinely acquired for patient positioning at each treatment fraction.
+CBCT (Cone-Beam CT) delta [radiomics](../methods/radiomics.md) is an imaging-based method that extracts quantitative radiomic features from serial on-treatment cone-beam CT scans acquired during a radiation therapy course, then computes the delta (change) between time points. The approach enables high-temporal-resolution monitoring of treatment response without requiring additional dedicated imaging sessions, since CBCT is routinely acquired for patient positioning at each treatment fraction.
 
 ## Used by
 
@@ -30,6 +30,6 @@ CBCT (Cone-Beam CT) delta radiomics is an imaging-based method that extracts qua
 
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

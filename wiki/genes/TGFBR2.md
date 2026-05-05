@@ -13,8 +13,8 @@ tags:
   - tumor-suppressor
   - gi-cancers
   - early-stage
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TGFBR2
@@ -29,13 +29,13 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 
 ## Cancer types (linked)
 
-- **PAAD** — In resected PDAC, TGFBR2 mutation frequency was 8.7% in stage I versus 2.4% in stage II–III patients (p=0.008, not significant after multiple-testing correction); the early-stage enrichment pattern is shared with [BRAF](../genes/BRAF.md) mutations (3.9% vs 0.7%, p=0.042) and may reflect a distinct path of tumor suppressor co-mutation in KRAS-driven PDAC. [PMID:39214094](../papers/39214094.md)
+- **[PAAD](../cancer_types/PAAD.md)** — In resected PDAC, TGFBR2 mutation frequency was 8.7% in stage I versus 2.4% in stage II–III patients (p=0.008, not significant after multiple-testing correction); the early-stage enrichment pattern is shared with [BRAF](../genes/BRAF.md) mutations (3.9% vs 0.7%, p=0.042) and may reflect a distinct path of tumor suppressor co-mutation in KRAS-driven PDAC. [PMID:39214094](../papers/39214094.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- [SMAD4](../genes/SMAD4.md) — Both TGFBR2 and SMAD4 are components of the canonical TGF-beta signaling axis. SMAD4 is mutated in 17% of sequenced PDAC in the same cohort; the two alterations represent parallel modes of TGF-beta pathway inactivation. [PMID:39214094](../papers/39214094.md)
-- [TP53](../genes/TP53.md) — Co-mutation context in PDAC: TP53 is mutated in 71% of sequenced tumors and was assessed as a tumor suppressor co-mutation together with SMAD4 and CDKN2A for prognostic modeling; TGFBR2 was evaluated independently as an early-stage enriched alteration. [PMID:39214094](../papers/39214094.md)
-- [KRAS](../genes/KRAS.md) — TGFBR2 mutation frequency was not significantly different across KRAS allele subgroups (G12D, G12V, G12R) in the MSK PDAC cohort. [PMID:39214094](../papers/39214094.md)
+- [SMAD4](../genes/SMAD4.md) — Both TGFBR2 and [SMAD4](../genes/SMAD4.md) are components of the canonical TGF-beta signaling axis. SMAD4 is mutated in 17% of sequenced PDAC in the same cohort; the two alterations represent parallel modes of TGF-beta pathway inactivation. [PMID:39214094](../papers/39214094.md)
+- [TP53](../genes/TP53.md) — Co-mutation context in PDAC: [TP53](../genes/TP53.md) is mutated in 71% of sequenced tumors and was assessed as a tumor suppressor co-mutation together with SMAD4 and [CDKN2A](../genes/CDKN2A.md) for prognostic modeling; TGFBR2 was evaluated independently as an early-stage enriched alteration. [PMID:39214094](../papers/39214094.md)
+- [KRAS](../genes/KRAS.md) — TGFBR2 mutation frequency was not significantly different across [KRAS](../genes/KRAS.md) allele subgroups (G12D, G12V, G12R) in the MSK PDAC cohort. [PMID:39214094](../papers/39214094.md)
 
 ## Therapeutic relevance
 
@@ -50,4 +50,4 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 
 - [PMID:39214094](../papers/39214094.md) — McIntyre et al. (2024). "Distinct clinical outcomes and biological features of specific KRAS mutants in human pancreatic cancer." *Cancer Cell*. MSK PDAC resected cohort (n=1,360 patients; n=397 sequenced with MSK-IMPACT).
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

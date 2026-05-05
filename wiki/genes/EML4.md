@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion-partner]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # EML4
@@ -15,7 +15,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 ## Alterations observed in the corpus
 
-- EML4::ALK fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients). ALK resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
+- EML4::[ALK](../genes/ALK.md) fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients). ALK resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
 - EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 
 ## Cancer types (linked)
@@ -39,4 +39,4 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

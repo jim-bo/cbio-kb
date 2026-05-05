@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - NBL
 tags: [transcription-factor, neuroblastoma, progenitor-program, chromatin-regulator]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # BCL11A
@@ -20,7 +20,7 @@ BCL11A is a zinc-finger transcription factor with roles in lymphocyte developmen
 
 ## Cancer types (linked)
 
-- Neuroblastoma (NBL) — BCL11A marks the high-risk undifferentiated nC3 cluster enriched for MYCN-amplified and/or 11q-deleted genotypes; its nC3 over-expression was confirmed by FDR < 0.01 Welch's t-test across 11 single-nuclei tumor specimens [PMID:34493726](../papers/34493726.md).
+- Neuroblastoma ([NBL](../cancer_types/NBL.md)) — BCL11A marks the high-risk undifferentiated nC3 cluster enriched for MYCN-amplified and/or 11q-deleted genotypes; its nC3 over-expression was confirmed by FDR < 0.01 Welch's t-test across 11 single-nuclei tumor specimens [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ BCL11A is a zinc-finger transcription factor with roles in lymphocyte developmen
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

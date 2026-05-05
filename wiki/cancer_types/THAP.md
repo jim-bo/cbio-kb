@@ -5,7 +5,7 @@ main_type: Thyroid Cancer
 parent: THYROID
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Anaplastic Thyroid Cancer (THAP)
@@ -23,10 +23,10 @@ Anaplastic thyroid carcinoma (ATC/THAP) is the most aggressive thyroid malignanc
 - [TP53](../genes/TP53.md) — mutations in 36.8% of ATCs vs. 0.9% of PTCs; frequency increases progressively from PTC to co-DTC (21.4%) to ATC; associated with elevated [TP53](../genes/TP53.md) mRNA abundance (P=0.0067). [PMID:38412093](../papers/38412093.md)
 - [BRAF](../genes/BRAF.md) — V600E in 21.3% of ATCs vs. 50.9% of PTCs; clonal/early subclonal timing; mutually exclusive with RAS; co-occurs with [PIK3CA](../genes/PIK3CA.md) mutations (FDR=0.034). [PMID:38412093](../papers/38412093.md)
 - [NRAS](../genes/NRAS.md) — recurrently mutated in ATC (top 5 by FDR); mutually exclusive with [BRAF](../genes/BRAF.md) V600E. [PMID:38412093](../papers/38412093.md)
-- [PIK3CA](../genes/PIK3CA.md) — co-occurs with BRAF V600E (FDR=0.034); preferentially mutated in ATCs and co-DTCs. [PMID:38412093](../papers/38412093.md)
+- [PIK3CA](../genes/PIK3CA.md) — co-occurs with [BRAF](../genes/BRAF.md) V600E (FDR=0.034); preferentially mutated in ATCs and co-DTCs. [PMID:38412093](../papers/38412093.md)
 - [CDKN2A](../genes/CDKN2A.md) — deleted in 42% of ATCs; recurrent in co-DTCs, rare in PTCs (~5%). [PMID:38412093](../papers/38412093.md)
 - [BRCA2](../genes/BRCA2.md) — deleted in 33.6% of ATCs; deletion associated with better survival (HR=0.48, P=0.005). [PMID:38412093](../papers/38412093.md)
-- [TERT](../genes/TERT.md) — promoter mutations correlated with TP53 mutations (FDR<0.01). [PMID:38412093](../papers/38412093.md)
+- [TERT](../genes/TERT.md) — promoter mutations correlated with [TP53](../genes/TP53.md) mutations (FDR<0.01). [PMID:38412093](../papers/38412093.md)
 - [ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md) — recurrent somatic and germline alterations at both SNV and CNA level. [PMID:38412093](../papers/38412093.md)
 - [RB1](../genes/RB1.md) — recurrent deletions in ATCs. [PMID:38412093](../papers/38412093.md)
 - [USH2A](../genes/USH2A.md) — recurrently mutated (top 5 by FDR). [PMID:38412093](../papers/38412093.md)
@@ -43,10 +43,10 @@ Anaplastic thyroid carcinoma (ATC/THAP) is the most aggressive thyroid malignanc
 - BRAF V600E-targeted therapy ([dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) FDA-approved for BRAF V600E-mutant ATC; present study mostly pre-approval, limiting survival analysis. [PMID:38412093](../papers/38412093.md)
 - Recurrent [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and [ATM](../genes/ATM.md) alterations rationalize investigation of PARP inhibitors in ATC. [PMID:38412093](../papers/38412093.md)
 - Surgery (FDR=0.0089) and radiotherapy (FDR=1.7e-5) associated with improved [OS](../cancer_types/OS.md). [PMID:38412093](../papers/38412093.md)
-- Germline variants in cancer predisposition genes: [RECQL4](../genes/RECQL4.md) (5%), BRCA2 (n=3), [FANCF](../genes/FANCF.md) (n=3). [PMID:38412093](../papers/38412093.md)
+- Germline variants in cancer predisposition genes: [RECQL4](../genes/RECQL4.md) (5%), [BRCA2](../genes/BRCA2.md) (n=3), [FANCF](../genes/FANCF.md) (n=3). [PMID:38412093](../papers/38412093.md)
 
 ## Sources
 
 - [PMID:38412093](../papers/38412093.md) — The genomic and evolutionary landscapes of anaplastic thyroid carcinoma (Cell Reports, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -10,14 +10,14 @@ assays: [targeted-panel]
 panels: []
 tags: [braf-fusions, tumor-agnostic, msk-impact]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # BRAF Fusions (MSK, Cancer Discovery 2024) — MSK-IMPACT Tissue Panel
 
 ## Overview
 
-The large MSK-IMPACT tissue sequencing background cohort underlying the [BRAF](../genes/BRAF.md) fusion tumor-agnostic study at Memorial Sloan Kettering Cancer Center. Contains 97,024 samples from 69,337 patients sequenced between January 2014 and November 2022 via [MSK-IMPACT](../methods/msk-impact-panel.md). Used to assess BRAF fusion prevalence across cancer types. A companion RNA fusion-panel cohort is available as [braf_msk_archer_2024](../datasets/braf_msk_archer_2024.md). [PMID:38922339](../papers/38922339.md)
+The large MSK-IMPACT tissue sequencing background cohort underlying the [BRAF](../genes/BRAF.md) fusion tumor-agnostic study at Memorial Sloan Kettering Cancer Center. Contains 97,024 samples from 69,337 patients sequenced between January 2014 and November 2022 via [MSK-IMPACT](../methods/msk-impact-panel.md). Used to assess [BRAF](../genes/BRAF.md) fusion prevalence across cancer types. A companion RNA fusion-panel cohort is available as [braf_msk_archer_2024](../datasets/braf_msk_archer_2024.md). [PMID:38922339](../papers/38922339.md)
 
 ## Composition
 
@@ -43,4 +43,4 @@ The large MSK-IMPACT tissue sequencing background cohort underlying the [BRAF](.
 
 - cBioPortal study `braf_msk_impact_2024` [PMID:38922339](../papers/38922339.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

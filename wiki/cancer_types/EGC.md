@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Esophagogastric Adenocarcinoma (EGC)
@@ -40,10 +40,10 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 
 ## Therapeutic landscape
 
-- Phase II trial of pembrolizumab + trastuzumab + CAPOX: median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89% in 37 HER2-positive EGC patients. [PMID:37406106](../papers/37406106.md)
-- Uniform HER2 IHC 3+ expression, plasma ERBB2 amplification, and intense 89Zr-trastuzumab PET avidity predict durable benefit from pembrolizumab + trastuzumab + chemotherapy. [PMID:37406106](../papers/37406106.md)
+- Phase II trial of [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + CAPOX: median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89% in 37 HER2-positive EGC patients. [PMID:37406106](../papers/37406106.md)
+- Uniform HER2 IHC 3+ expression, plasma [ERBB2](../genes/ERBB2.md) amplification, and intense 89Zr-trastuzumab PET avidity predict durable benefit from pembrolizumab + trastuzumab + chemotherapy. [PMID:37406106](../papers/37406106.md)
 - Early ctDNA clearance (by 9 weeks) predicts longer PFS (HR 0.18; 95% CI 0.06--0.53; P=0.001). [PMID:37406106](../papers/37406106.md)
-- CCNE1 amplification in early-onset tumors is a potential target for CDK2 inhibitors. [PMID:37699004](../papers/37699004.md)
+- [CCNE1](../genes/CCNE1.md) amplification in early-onset tumors is a potential target for CDK2 inhibitors. [PMID:37699004](../papers/37699004.md)
 - 35% of early-onset patients were initially treated for an alternative diagnosis, highlighting the need for increased clinician awareness. [PMID:37699004](../papers/37699004.md)
 
 ## Sources
@@ -51,4 +51,4 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:37406106](../papers/37406106.md) — Determinants of Survival with Combined HER2 and PD-1 Blockade in Metastatic Esophagogastric Cancer (Clinical Cancer Research, 2023)
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

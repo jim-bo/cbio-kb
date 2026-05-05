@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, pi3k-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # alpelisib
@@ -18,7 +18,7 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 ## Evidence in the corpus
 
 - One histiocytosis patient with a [PIK3CA](../genes/PIK3CA.md) mutation had a durable response to alpelisib, while two ovarian GCT PIK3CA-mutant patients had no durable response — suggesting lineage-specific conditioning of PI3Kα inhibitor efficacy [PMID:36862133](../papers/36862133.md).
-- In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md)), a metastatic undifferentiated spindle cell sarcoma (SARC0117) carrying a [PIK3CA](../genes/PIK3CA.md) hotspot mutation (reported as H1074L, corresponding to canonical H1047L) was a top responder to alpelisib and showed broad sensitivity across the PI3K/mTOR class (apitolisib, copanlisib, BGT226, vistusertib). A second specimen (SARC0134, [MPNST](../cancer_types/MPNST.md)) carried the same [PIK3CA](../genes/PIK3CA.md) mutation in the primary tumor but did not respond to alpelisib; follow-up sequencing confirmed loss of the PIK3CA mutation in the metastatic lesion. A third specimen (SARC0069_2, [osteosarcoma](../cancer_types/OS.md), no PIK3CA mutation) was the top alpelisib responder overall — illustrating biomarker-negative responders. [PMID:39305899](../papers/39305899.md)
+- In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md)), a metastatic undifferentiated spindle cell sarcoma (SARC0117) carrying a [PIK3CA](../genes/PIK3CA.md) hotspot mutation (reported as H1074L, corresponding to canonical H1047L) was a top responder to alpelisib and showed broad sensitivity across the PI3K/mTOR class (apitolisib, copanlisib, BGT226, vistusertib). A second specimen (SARC0134, [MPNST](../cancer_types/MPNST.md)) carried the same [PIK3CA](../genes/PIK3CA.md) mutation in the primary tumor but did not respond to alpelisib; follow-up sequencing confirmed loss of the [PIK3CA](../genes/PIK3CA.md) mutation in the metastatic lesion. A third specimen (SARC0069_2, [osteosarcoma](../cancer_types/OS.md), no PIK3CA mutation) was the top alpelisib responder overall — illustrating biomarker-negative responders. [PMID:39305899](../papers/39305899.md)
 
 ## Resistance mechanisms
 
@@ -35,4 +35,4 @@ PI3Kα-selective small-molecule inhibitor targeting [PIK3CA](../genes/PIK3CA.md)
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; PIK3CA-dependent and PIK3CA-independent alpelisib sensitivity; inter-lesion heterogeneity as resistance mechanism.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

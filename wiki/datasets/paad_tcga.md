@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, snp-microarray, whole-exome-seq]
 panels: []
 tags: ["pancreatic adenocarcinoma", PDAC, TCGA, multi-omic]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCGA Pancreatic Adenocarcinoma (Firehose Legacy)
@@ -21,7 +21,7 @@ The TCGA Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_tcga`, al
 
 ## Composition
 
-- **Cancer type:** Pancreatic Adenocarcinoma (OncoTree: PAAD)
+- **Cancer type:** Pancreatic Adenocarcinoma (OncoTree: [PAAD](../cancer_types/PAAD.md))
 - **Sample count:** 148 patients (somatic tumor/normal pairs with matched genomic and clinical data)
 - **Key clinical fields:** tumor stage, histological grade, treatment history, overall survival
 - **Assays:** Whole-exome sequencing (WES), RNA-seq, SNP-array copy number, DNA methylation (Illumina 450k), RPPA proteomics
@@ -34,7 +34,7 @@ The TCGA Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_tcga`, al
 
 ## Papers using this cohort
 
-- [PMID:39214094](../papers/39214094.md) — used as part of a pooled 950-patient external validation cohort (alongside [paad_icgc](../datasets/paad_icgc.md) and the Sausen resectable cohort) to confirm allele-specific survival differences by KRAS mutation in resected PDAC; contributed n=148 patients, with 855 patients having matched genomic and survival data across the full pool [PMID:39214094](../papers/39214094.md).
+- [PMID:39214094](../papers/39214094.md) — used as part of a pooled 950-patient external validation cohort (alongside [paad_icgc](../datasets/paad_icgc.md) and the Sausen resectable cohort) to confirm allele-specific survival differences by [KRAS](../genes/KRAS.md) mutation in resected PDAC; contributed n=148 patients, with 855 patients having matched genomic and survival data across the full pool [PMID:39214094](../papers/39214094.md).
 
 ## Notable findings derived from this cohort
 
@@ -46,4 +46,4 @@ The TCGA Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_tcga`, al
 - cBioPortal study: [paad_tcga](https://www.cbioportal.org/study/summary?id=paad_tcga)
 - TCGA PAAD publication: Cell 2017 (PMID: 28810144)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

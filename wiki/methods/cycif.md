@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [multiplexed-imaging, immunofluorescence, spatial, tme]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # CyCIF (Cyclic Immunofluorescence)
@@ -17,7 +17,7 @@ CyCIF is a multiplexed cyclic immunofluorescence imaging method that enables det
 
 ## Used by
 
-- [PMID:39386723](../papers/39386723.md) — CyCIF with a 31-antibody panel was applied to 44 fallopian tube specimens (including [HGSOC](../cancer_types/HGSOC.md) precursors: normal FTE, SCOUT, STIC, invasive HGSOC) to characterize the tumor immune microenvironment; revealed progressive immune suppression from FTE through STIC to invasive HGSOC, including increased PD-L1 expression and reduced CD8+ T cell infiltration [PMID:39386723](../papers/39386723.md).
+- [PMID:39386723](../papers/39386723.md) — CyCIF with a 31-antibody panel was applied to 44 fallopian tube specimens (including [HGSOC](../cancer_types/HGSOC.md) precursors: normal FTE, SCOUT, STIC, invasive [HGSOC](../cancer_types/HGSOC.md)) to characterize the tumor immune microenvironment; revealed progressive immune suppression from FTE through STIC to invasive HGSOC, including increased PD-L1 expression and reduced CD8+ T cell infiltration [PMID:39386723](../papers/39386723.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ CyCIF is a multiplexed cyclic immunofluorescence imaging method that enables det
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

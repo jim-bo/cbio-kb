@@ -5,7 +5,7 @@ main_type: Mesothelioma
 parent: PLEURA
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Pleural Mesothelioma (PLMESO)
@@ -37,7 +37,7 @@ Diffuse pleural mesothelioma (DPM/PLMESO) is a rare, aggressive malignancy of th
 ## Therapeutic landscape
 
 - GNH DPMs showed preliminary immunotherapy responsiveness: 2/3 GNH patients treated with ipilimumab/nivolumab or [pembrolizumab](../drugs/pembrolizumab.md) achieved partial response (67%) vs. 1/44 (2%) in non-GNH. A clinical trial of [durvalumab](../drugs/durvalumab.md) + platinum-pemetrexed in 3 GNH patients showed tumor shrinkage in all and [OS](../cancer_types/OS.md) >=12 months. [PMID:38630790](../papers/38630790.md)
-- [SETDB1](../genes/SETDB1.md) mutations as a molecular marker for GNH subset when detected on panels covering this gene (e.g., IMPACT505). [PMID:38630790](../papers/38630790.md)
+- [SETDB1](../genes/SETDB1.md) mutations as a molecular marker for GNH subset when detected on panels covering this gene (e.g., [IMPACT505](../methods/IMPACT505.md)). [PMID:38630790](../papers/38630790.md)
 - RNA-based mesothelioma subtype classification (epithelioid vs. biphasic/sarcomatoid) is prognostic and may guide treatment decisions. [PMID:27634761](../papers/27634761.md)
 
 ## Sources
@@ -45,4 +45,4 @@ Diffuse pleural mesothelioma (DPM/PLMESO) is a rare, aggressive malignancy of th
 - [PMID:38630790](../papers/38630790.md) — Diffuse pleural mesotheliomas with genomic near-haploidization: a newly recognized subset (Clinical Cancer Research, 2024)
 - [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

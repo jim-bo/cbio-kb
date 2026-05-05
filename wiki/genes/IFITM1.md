@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [interferon-stimulated-gene, ISG, immune-response, ovarian-cancer, IFN-signaling]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # IFITM1
@@ -15,8 +15,8 @@ IFITM1 (Interferon-Induced Transmembrane Protein 1) is an interferon-stimulated 
 
 ## Alterations observed in the corpus
 
-- IFITM1 is an IFN-stimulated gene upregulated early in HGSOC development; induced even at the fimbriae stage, making it one of the earliest markers of IFN pathway activation in fallopian tube epithelium [PMID:39386723](../papers/39386723.md).
-- Part of a coordinated IFN-alpha and IFN-gamma pathway gene upregulation including [STAT1](../genes/STAT1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), TAP1, and [HLA-A](../genes/HLA-A.md) beginning at the p53 signature stage and persisting through STIC and invasive HGSOC [PMID:39386723](../papers/39386723.md).
+- IFITM1 is an IFN-stimulated gene upregulated early in [HGSOC](../cancer_types/HGSOC.md) development; induced even at the fimbriae stage, making it one of the earliest markers of IFN pathway activation in fallopian tube epithelium [PMID:39386723](../papers/39386723.md).
+- Part of a coordinated IFN-alpha and IFN-gamma pathway gene upregulation including [STAT1](../genes/STAT1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), [TAP1](../genes/TAP1.md), and [HLA-A](../genes/HLA-A.md) beginning at the p53 signature stage and persisting through STIC and invasive HGSOC [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ IFITM1 (Interferon-Induced Transmembrane Protein 1) is an interferon-stimulated 
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

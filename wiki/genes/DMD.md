@@ -8,7 +8,7 @@ cancer_types:
   - ERMS
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # DMD
@@ -29,7 +29,7 @@ DMD encodes dystrophin, a large structural protein linking the intracellular act
 
 ## Co-occurrence and mutual exclusivity
 
-- In meningioma, DMD mutations are assessed alongside SMARCB1 as known driver genes; their co-occurrence patterns with [NF2](../genes/NF2.md), [TRAF7](../genes/TRAF7.md), [AKT1](../genes/AKT1.md), and the MG3/MG4-specific alterations ([CHD2](../genes/CHD2.md), [KDM6A](../genes/KDM6A.md), [PTEN](../genes/PTEN.md)) were not specifically quantified [PMID:34433969](../papers/34433969.md).
+- In meningioma, DMD mutations are assessed alongside [SMARCB1](../genes/SMARCB1.md) as known driver genes; their co-occurrence patterns with [NF2](../genes/NF2.md), [TRAF7](../genes/TRAF7.md), [AKT1](../genes/AKT1.md), and the MG3/MG4-specific alterations ([CHD2](../genes/CHD2.md), [KDM6A](../genes/KDM6A.md), [PTEN](../genes/PTEN.md)) were not specifically quantified [PMID:34433969](../papers/34433969.md).
 - In FN-RMS, the DMD deletion was observed as part of a set of exclusively relapse-acquired alterations; the tumor also had higher mutational counts relative to the primary [PMID:37730754](../papers/37730754.md).
 
 ## Therapeutic relevance
@@ -45,4 +45,4 @@ DMD encodes dystrophin, a large structural protein linking the intracellular act
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,8 +4,8 @@ aliases: [chromogranin B, secretogranin I]
 cancer_types:
   - NBL
 tags: [neuroendocrine-marker, neuroblastoma, noradrenergic, adrenergic]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # CHGB
@@ -20,7 +20,7 @@ CHGB (chromogranin B, also known as secretogranin I) is a neuroendocrine secreto
 
 ## Cancer types (linked)
 
-- Neuroblastoma (NBL) — CHGB marks the noradrenergic/adrenergic low-risk tumor clusters (nC5/nC7/nC8/nC9) that are enriched in low-risk disease; expression is characteristic of adrenergic/chromaffin differentiation [PMID:34493726](../papers/34493726.md).
+- Neuroblastoma ([NBL](../cancer_types/NBL.md)) — CHGB marks the noradrenergic/adrenergic low-risk tumor clusters (nC5/nC7/nC8/nC9) that are enriched in low-risk disease; expression is characteristic of adrenergic/chromaffin differentiation [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ CHGB (chromogranin B, also known as secretogranin I) is a neuroendocrine secreto
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

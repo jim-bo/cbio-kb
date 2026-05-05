@@ -19,15 +19,15 @@ tags:
   - radiation-therapy
   - rt-planning
   - public-dataset
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # RADCURE Head and Neck Cancer RT Dataset
 
 ## Overview
 
-RADCURE is a large open-source head and neck cancer CT dataset comprising 3346 patients treated with curative-intent radiotherapy at Princess Margaret Cancer Centre (Toronto, Canada). The dataset includes RT simulation CT scans, manually generated and QA-reviewed target and organ-at-risk contours in DICOM RT-STRUCT format, and longitudinal clinical metadata. It is designed as a resource for radiomics, auto-segmentation, and treatment outcome prediction research. Hosted on The Cancer Imaging Archive (TCIA) and published by Welch et al. 2024. [PMID:38362943](../papers/38362943.md)
+RADCURE is a large open-source head and neck cancer CT dataset comprising 3346 patients treated with curative-intent radiotherapy at Princess Margaret Cancer Centre (Toronto, Canada). The dataset includes RT simulation CT scans, manually generated and QA-reviewed target and organ-at-risk contours in DICOM RT-STRUCT format, and longitudinal clinical metadata. It is designed as a resource for [radiomics](../methods/radiomics.md), auto-segmentation, and treatment outcome prediction research. Hosted on The Cancer Imaging Archive (TCIA) and published by Welch et al. 2024. [PMID:38362943](../papers/38362943.md)
 
 ## Composition
 
@@ -48,7 +48,7 @@ RADCURE is a large open-source head and neck cancer CT dataset comprising 3346 p
 ## Papers using this cohort
 
 - [PMID:38362943](../papers/38362943.md) — Welch et al. 2024, *Medical Physics*: primary dataset descriptor; 3346 HNC RT planning CTs from Princess Margaret Cancer Centre with standardised RT-STRUCT contours and longitudinal outcomes.
-- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*: RADCURE used as the primary training (n=1,802) and internal test (n=750) cohort in the HNSC prognostic-modeling challenge; split by diagnosis date (2005–2013 vs 2016–2018).
+- [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*: RADCURE used as the primary training (n=1,802) and internal test (n=750) cohort in the [HNSC](../cancer_types/HNSC.md) prognostic-modeling challenge; split by diagnosis date (2005–2013 vs 2016–2018).
 
 ## Notable findings derived from this cohort
 
@@ -62,4 +62,4 @@ RADCURE is a large open-source head and neck cancer CT dataset comprising 3346 p
 - [PMID:38362943](../papers/38362943.md) — Welch et al. 2024, *Medical Physics*, DOI 10.1002/mp.16971.
 - [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

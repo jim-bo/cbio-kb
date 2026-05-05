@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone-cancer
   - pediatric
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Ewing Sarcoma (ES)
@@ -27,7 +27,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 
 ## Subtypes
 
-- Conventional Ewing sarcoma (EWSR1::FLI1 / EWSR1::ERG fusions) is the dominant subtype; CIC-rearranged and BCOR-rearranged round-cell sarcomas are histologic mimics with distinct molecular drivers and are tracked separately under the round-cell-sarcoma family.
+- Conventional Ewing sarcoma (EWSR1::FLI1 / EWSR1::[ERG](../genes/ERG.md) fusions) is the dominant subtype; CIC-rearranged and BCOR-rearranged round-cell sarcomas are histologic mimics with distinct molecular drivers and are tracked separately under the round-cell-sarcoma family.
 
 ## Therapeutic landscape
 
@@ -40,3 +40,5 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 ---
 
 *Page last touched by entity-page-writer on 2026-05-01.*
+
+*This page was processed by **crosslinker** on **2026-05-04**.*

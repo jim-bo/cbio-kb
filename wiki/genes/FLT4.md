@@ -4,7 +4,7 @@ aliases: [VEGFR3]
 cancer_types: [ANGS]
 tags: [amplification, VEGF-signaling, MAPK, sarcoma, radiation-associated]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-05-04
 ---
 
 # FLT4
@@ -32,10 +32,10 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 
 ## Open questions
 
-- Whether anti-VEGFR therapy (e.g., pazopanib, [bevacizumab](../drugs/bevacizumab.md)) is effective specifically in FLT4-amplified RT-AS is not established [PMID:37350195](../papers/37350195.md).
+- Whether anti-VEGFR therapy (e.g., [pazopanib](../drugs/pazopanib.md), [bevacizumab](../drugs/bevacizumab.md)) is effective specifically in FLT4-amplified RT-AS is not established [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

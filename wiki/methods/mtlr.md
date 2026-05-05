@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [survival-analysis, prognostic-model, logistic-regression, multitask-learning, machine-learning]
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-04
 ---
 
 # MTLR (Multi-Task Logistic Regression)
@@ -17,7 +17,7 @@ Multi-Task Logistic Regression (MTLR), introduced by Yu et al., is a survival-pr
 
 ## Used by
 
-- [PMID:37397861](../papers/37397861.md) — MTLR was the backbone of the top-performing model in the [RADCURE](../datasets/radcure.md) prognostic challenge for [HNSC](../cancer_types/HNSC.md) (n=2,552 training, n=750 internal test, n=873 external validation); the winning model combined MTLR with a single hidden layer of ELU-activated neurons fit on EMR features (age, sex, T/N/overall stage, disease site, performance status, HPV status, radiation dose, systemic-therapy use) and primary tumor volume; it achieved AUROC = 0.823, AP = 0.505, C-index = 0.801 on the internal test set — outperforming all deep-learning CT radiomics submissions and all simpler baselines (FDR < 5%); full survival curves enabled patient stratification with HR = 8.64 at the 0.5 risk threshold (p < 10⁻¹⁸) [PMID:37397861](../papers/37397861.md).
+- [PMID:37397861](../papers/37397861.md) — MTLR was the backbone of the top-performing model in the [RADCURE](../datasets/radcure.md) prognostic challenge for [HNSC](../cancer_types/HNSC.md) (n=2,552 training, n=750 internal test, n=873 external validation); the winning model combined MTLR with a single hidden layer of ELU-activated neurons fit on EMR features (age, sex, T/N/overall stage, disease site, performance status, HPV status, radiation dose, systemic-therapy use) and primary tumor volume; it achieved AUROC = 0.823, AP = 0.505, C-index = 0.801 on the internal test set — outperforming all deep-learning CT [radiomics](../methods/radiomics.md) submissions and all simpler baselines (FDR < 5%); full survival curves enabled patient stratification with HR = 8.64 at the 0.5 risk threshold (p < 10⁻¹⁸) [PMID:37397861](../papers/37397861.md).
 
 ## Notes
 
@@ -30,4 +30,4 @@ Multi-Task Logistic Regression (MTLR), introduced by Yu et al., is a survival-pr
 
 - [PMID:37397861](../papers/37397861.md)
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

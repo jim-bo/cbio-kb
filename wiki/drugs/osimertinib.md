@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, egfr-tki]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # osimertinib
@@ -37,6 +37,6 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:38922339](../papers/38922339.md)
-- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; EGFR post-treatment enrichment and SETD2 immunotherapy-vs-targeted-therapy biomarker contrast in LUAD.
+- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; [EGFR](../genes/EGFR.md) post-treatment enrichment and [SETD2](../genes/SETD2.md) immunotherapy-vs-targeted-therapy biomarker contrast in [LUAD](../cancer_types/LUAD.md).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

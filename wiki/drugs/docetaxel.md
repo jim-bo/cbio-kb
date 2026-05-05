@@ -6,14 +6,14 @@ canonical_source: corpus
 unverified: true
 tags: [chemotherapy, taxane, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # docetaxel
 
 ## Overview
 
-Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing depolymerization and inducing mitotic arrest and apoptosis. It is FDA-approved for breast, non-small-cell lung, prostate, gastric, and head and neck cancers, and is used off-label in combination with gemcitabine for sarcoma. In the UCLA sarcoma PDTO screen it was tested in the >400-compound panel.
+Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing depolymerization and inducing mitotic arrest and apoptosis. It is FDA-approved for breast, non-small-cell lung, prostate, gastric, and head and neck cancers, and is used off-label in combination with [gemcitabine](../drugs/gemcitabine.md) for sarcoma. In the UCLA sarcoma PDTO screen it was tested in the >400-compound panel.
 
 ## Evidence in the corpus
 
@@ -33,4 +33,4 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; docetaxel as part of gemcitabine+docetaxel combination in matched-treatment cohort and NCCN-listed osteosarcoma screen hits.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

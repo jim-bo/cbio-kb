@@ -8,8 +8,8 @@ tags:
   - soft-tissue
   - SS18-SSX
   - AYA
-processed_by: entity-page-writer
-processed_at: "2026-05-01"
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Synovial Sarcoma (SYNS)
@@ -20,11 +20,13 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the SS18–SSX1/2
 
 ## Cohorts in the corpus
 
+- [sarc_mskcc](../datasets/sarc_mskcc.md): 24 SYNS patients (11.6% of 207 high-grade STS), profiled by targeted resequencing (722 genes), 250K SNP-array SCNA, LOH, and expression arrays. [PMID:20601955](../papers/20601955.md)
 - [sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md): represented in the 24-subtype UCLA sarcoma PDTO biobank (194 specimens from 126 patients, Feb 2018–May 2022). [PMID:39305899](../papers/39305899.md)
 
 ## Recurrent alterations
 
 - SS18–SSX1/SSX2/SSX4 fusion (canonical driver, t(X;18)(p11.2;q11.2)): not directly genotyped in this study.
+- Relatively normal karyotype: SYNS clusters with [MRLS](../cancer_types/MRLS.md) and [GIST](../cancer_types/GIST.md) as low-complexity subtypes by copy-number analysis in the seven-subtype cohort. [PMID:20601955](../papers/20601955.md)
 
 ## Subtypes
 
@@ -39,6 +41,7 @@ Synovial sarcoma is a malignant soft-tissue sarcoma defined by the SS18–SSX1/2
 
 ## Sources
 
+- [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

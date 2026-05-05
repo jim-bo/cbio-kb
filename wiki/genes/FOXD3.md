@@ -3,8 +3,8 @@ symbol: FOXD3
 aliases: []
 cancer_types: [NBL]
 tags: [schwann-cell-precursor, neural-crest, neuroblastoma, stem-cell-marker]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # FOXD3
@@ -32,10 +32,10 @@ FOXD3 is a forkhead-box transcription factor that marks multipotent Schwann cell
 
 ## Open questions
 
-- Whether the absence of SCP markers (FOXD3, SOX10, S100B) in hC1 is sufficient to rule out an SCP developmental relationship, or merely reflects transcriptional maturation, is not resolved [PMID:34493726](../papers/34493726.md).
+- Whether the absence of SCP markers (FOXD3, [SOX10](../genes/SOX10.md), [S100B](../genes/S100B.md)) in hC1 is sufficient to rule out an SCP developmental relationship, or merely reflects transcriptional maturation, is not resolved [PMID:34493726](../papers/34493726.md).
 
 ## Sources
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: [TIE2]
 cancer_types: [MPNST]
 tags: [receptor-tyrosine-kinase, vascular-signaling]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # TEK
@@ -19,7 +19,7 @@ TEK (also known as TIE2) encodes a receptor tyrosine kinase involved in angiogen
 
 ## Cancer types (linked)
 
-- [MPNST](../cancer_types/MPNST.md) -- TEK deletions enriched in RT-MPNST (42%) compared to sporadic MPNST (6%) [PMID:37350195](../papers/37350195.md).
+- [MPNST](../cancer_types/MPNST.md) -- TEK deletions enriched in RT-MPNST (42%) compared to sporadic [MPNST](../cancer_types/MPNST.md) (6%) [PMID:37350195](../papers/37350195.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ TEK (also known as TIE2) encodes a receptor tyrosine kinase involved in angiogen
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

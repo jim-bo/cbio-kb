@@ -11,7 +11,7 @@ tags:
   - functional-precision-medicine
   - epigenetic-therapy
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # mocetinostat
@@ -31,10 +31,10 @@ Mocetinostat (MGCD0103) is an orally available selective class I/IV histone deac
 
 ## Cancer types (linked)
 
-- Sarcoma (various histologies — mocetinostat + vinorelbine PDTO-matched treatment with clinical correlation)
+- Sarcoma (various histologies — mocetinostat + [vinorelbine](../drugs/vinorelbine.md) PDTO-matched treatment with clinical correlation)
 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; mocetinostat + vinorelbine as PDTO-matched treatment with R²=0.921 correlation with time-to-next-treatment.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

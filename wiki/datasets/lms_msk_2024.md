@@ -10,7 +10,7 @@ assays: [targeted-panel]
 panels: []
 tags: [leiomyosarcoma, soft-tissue-sarcoma, uterine-lms, msk-impact, genomic-risk]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Leiomyosarcoma (MSK, Annals of Oncology 2024)
@@ -22,7 +22,7 @@ Single-center retrospective cohort of soft tissue leiomyosarcoma (STLMS) and ute
 ## Composition
 
 - **STLMS cohort**: 195 cases (151 primary, 44 metastatic); median age 58 years; 64% female; 74% retroperitoneal/intraabdominal/pelvic. [PMID:38488807](../papers/38488807.md)
-- **ULMS cohort**: 238 cases (177 primary, 61 metastatic); median age 54 years. [PMID:38488807](../papers/38488807.md)
+- **[ULMS](../cancer_types/ULMS.md) cohort**: 238 cases (177 primary, 61 metastatic); median age 54 years. [PMID:38488807](../papers/38488807.md)
 - **Longitudinal subset**: 18 STLMS and 15 ULMS patients with sequential tumor sequencing. [PMID:38488807](../papers/38488807.md)
 - External validation: 317 STLMS cases from AACR GENIE consortium. [PMID:38488807](../papers/38488807.md)
 
@@ -46,4 +46,4 @@ Single-center retrospective cohort of soft tissue leiomyosarcoma (STLMS) and ute
 
 - cBioPortal study `lms_msk_2024` [PMID:38488807](../papers/38488807.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

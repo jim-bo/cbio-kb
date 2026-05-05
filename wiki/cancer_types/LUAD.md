@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -54,9 +54,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 ## Therapeutic landscape
 
 - ATLAS RNA-expression classifier (trained on 8,249 samples including TCGA/CCLE) achieved 91.4% accuracy for cancer site classification; LUAD represented in the 22-class site classifier with de-differentiation score prognostic for survival (HR 0.24, P=0.001) [PMID:27634761](../papers/27634761.md).
-- [BRAF](../genes/BRAF.md) fusions identified as acquired resistance mechanism to [EGFR](../genes/EGFR.md) TKIs in LUAD (10/15 acquired BRAF fusion patients had EGFR-mutant LUAD); median time from EGFR TKI start to acquired BRAF fusion detection: 23 months (range 9–37) [PMID:38922339](../papers/38922339.md).
+- [BRAF](../genes/BRAF.md) fusions identified as acquired resistance mechanism to [EGFR](../genes/EGFR.md) TKIs in LUAD (10/15 acquired [BRAF](../genes/BRAF.md) fusion patients had EGFR-mutant LUAD); median time from [EGFR](../genes/EGFR.md) TKI start to acquired BRAF fusion detection: 23 months (range 9–37) [PMID:38922339](../papers/38922339.md).
 - ctDNA detection is an independent poor prognostic marker in advanced [NSCLC](../cancer_types/NSCLC.md) (HR 2.05; 95% CI 1.74–2.42, P<0.001) [PMID:36357680](../papers/36357680.md).
-- ctDNA-guided matching to targeted therapy improved OS among ctDNA-positive patients (HR 0.63; 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
+- ctDNA-guided matching to targeted therapy improved [OS](../cancer_types/OS.md) among ctDNA-positive patients (HR 0.63; 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
 - Faster turnaround (11 vs 33 days) and lower failure rate (2% vs 13%) for ctDNA vs tissue sequencing support clinical use of liquid biopsy [PMID:36357680](../papers/36357680.md).
 - Only ~4% of LUAD metastases carried therapeutically actionable alterations undetected in their matched primaries, limiting incremental benefit from routine re-biopsy [PMID:37084736](../papers/37084736.md).
 - Non-canonical [EGFR](../genes/EGFR.md) mutations in BM may identify patients at elevated risk for leptomeningeal disease and partial resistance to [osimertinib](../drugs/osimertinib.md) [PMID:37591896](../papers/37591896.md).
@@ -78,4 +78,4 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

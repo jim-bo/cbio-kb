@@ -5,7 +5,7 @@ main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Astrocytoma, IDH-Mutant (ASTR)
@@ -37,7 +37,7 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 
 ## Therapeutic landscape
 
-- Standard treatment (temozolomide and/or radiotherapy) delays progression (PFI 40.5 vs. 27 months, P=0.009) but is associated with epigenetic evolution toward an aggressive, IDH-wildtype-like phenotype at recurrence; survival from second surgery is markedly worse in previously treated patients (log-rank P=0.0001). [PMID:38117484](../papers/38117484.md)
+- Standard treatment ([temozolomide](../drugs/temozolomide.md) and/or radiotherapy) delays progression (PFI 40.5 vs. 27 months, P=0.009) but is associated with epigenetic evolution toward an aggressive, IDH-wildtype-like phenotype at recurrence; survival from second surgery is markedly worse in previously treated patients (log-rank P=0.0001). [PMID:38117484](../papers/38117484.md)
 - [HOXD13](../genes/HOXD13.md) and downstream targets ([CENPF](../genes/CENPF.md), [PCNA](../genes/PCNA.md)) represent potential therapeutic targets in recurrent IDH-mutant glioma. [PMID:38117484](../papers/38117484.md)
 
 ## Sources
@@ -45,4 +45,4 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 - [PMID:38117484](../papers/38117484.md) — The Epigenetic Evolution of Glioma Is Determined by the [IDH1](../genes/IDH1.md) Mutation Status and Treatment Regimen (Cancer Research, 2024)
 - [PMID:37910594](../papers/37910594.md) — Tumor Volume Growth Rates and Doubling Times during Active Surveillance of IDH-mutant Low-Grade Glioma (Clinical Cancer Research, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

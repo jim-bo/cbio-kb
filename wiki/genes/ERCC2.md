@@ -4,7 +4,7 @@ aliases: [XPD]
 cancer_types: [BLCA]
 tags: [DNA-damage-response, DDR, cisplatin, urothelial, prognostic-biomarker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # ERCC2
@@ -33,10 +33,10 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 ## Open questions
 
-- Whether ERCC2 mutations predict cisplatin sensitivity in mUC remains open; the 4.5% alteration frequency in cfDNA is substantially below the TCGA muscle-invasive cohort rate of 11%, limiting inference [PMID:40256659](../papers/40256659.md).
+- Whether ERCC2 mutations predict [cisplatin](../drugs/cisplatin.md) sensitivity in mUC remains open; the 4.5% alteration frequency in cfDNA is substantially below the TCGA muscle-invasive cohort rate of 11%, limiting inference [PMID:40256659](../papers/40256659.md).
 
 ## Sources
 
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

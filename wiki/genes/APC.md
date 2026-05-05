@@ -8,7 +8,7 @@ tags:
   - wnt-pathway
   - truncating
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # APC
@@ -19,7 +19,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 ## Alterations observed in the corpus
 
-- APC alterations detected in 8% of advanced HCC patients by cfDNA profiling (MSK-ACCESS panel, 51 patients); classified as a WNT pathway alteration [PMID:37769223](../papers/37769223.md).
+- APC alterations detected in 8% of advanced [HCC](../cancer_types/HCC.md) patients by cfDNA profiling (MSK-ACCESS panel, 51 patients); classified as a WNT pathway alteration [PMID:37769223](../papers/37769223.md).
 
 ## Cancer types (linked)
 
@@ -35,10 +35,10 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 ## Open questions
 
-- Whether APC versus CTNNB1 mutation defines distinct WNT pathway activation states with different therapeutic vulnerabilities in HCC is not addressed in the corpus [PMID:37769223](../papers/37769223.md).
+- Whether APC versus [CTNNB1](../genes/CTNNB1.md) mutation defines distinct WNT pathway activation states with different therapeutic vulnerabilities in HCC is not addressed in the corpus [PMID:37769223](../papers/37769223.md).
 
 ## Sources
 
 - [PMID:37769223](../papers/37769223.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

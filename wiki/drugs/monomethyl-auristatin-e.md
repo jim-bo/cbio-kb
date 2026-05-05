@@ -5,8 +5,8 @@ drug_class: auristatin microtubule inhibitor (cytotoxic payload)
 canonical_source: corpus
 unverified: true
 tags: [cytotoxin, payload, adc, anti-tubulin, radiosensitizer]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # monomethyl-auristatin-e
@@ -17,8 +17,8 @@ Monomethyl auristatin E (MMAE; vedotin) is a synthetic antimitotic agent derived
 
 ## Evidence in the corpus
 
-- Free MMAE at 2 nM radiosensitized both EGFR+ (CAL-27) and EGFR-low (LN229) cells indiscriminately (increased comet-tail length after 6 Gy), demonstrating that the payload alone lacks tumour selectivity [PMID:27698471](../papers/27698471.md).
-- Conjugation of MMAE to cetuximab (C-MMAE, MC-VC linker, DAR ~3.7) restricted radiosensitization to EGFR+ cells only; conjugation to trastuzumab (T-MMAE, DAR ~3.2) restricted activity to HER2+ cells — establishing that the antibody carrier, not the payload, governs tumour selectivity [PMID:27698471](../papers/27698471.md).
+- Free MMAE at 2 nM radiosensitized both [EGFR](../genes/EGFR.md)+ (CAL-27) and EGFR-low (LN229) cells indiscriminately (increased comet-tail length after 6 Gy), demonstrating that the payload alone lacks tumour selectivity [PMID:27698471](../papers/27698471.md).
+- Conjugation of MMAE to [cetuximab](../drugs/cetuximab.md) (C-MMAE, MC-VC linker, DAR ~3.7) restricted radiosensitization to EGFR+ cells only; conjugation to [trastuzumab](../drugs/trastuzumab.md) (T-MMAE, DAR ~3.2) restricted activity to HER2+ cells — establishing that the antibody carrier, not the payload, governs tumour selectivity [PMID:27698471](../papers/27698471.md).
 - In HER2+ OE19 (esophageal) and EGFR+ CAL-27 (HNSCC) xenografts, MMAE-bearing ADCs (T-MMAE and C-MMAE respectively) accumulated in target-positive tumours and produced superior tumour-growth delay combined with radiotherapy compared with antibody-only or free-MMAE arms [PMID:27698471](../papers/27698471.md).
 - The MC-VC-PABC linker used in these experimental ADCs (and clinically in [brentuximab-vedotin](../drugs/brentuximab-vedotin.md)) undergoes slow retro-Michael reaction in circulation, potentially releasing free MMAE; the authors acknowledge this as a limitation and note that improved linkers exist [PMID:27698471](../papers/27698471.md).
 - At 2–5 nM overnight, MMAE-conjugated ADCs arrested cognate-receptor-positive cells in G2/M (by propidium-iodide flow cytometry); antibody-only controls and non-cognate ADCs had no cell-cycle effect [PMID:27698471](../papers/27698471.md).
@@ -37,4 +37,4 @@ Monomethyl auristatin E (MMAE; vedotin) is a synthetic antimitotic agent derived
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # ETV6
@@ -15,7 +15,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 ## Alterations observed in the corpus
 
-- ETV6-NTRK3 fusion was expected (absent by FISH) in SARC0127, a suspected infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) case in the UCLA sarcoma patient-derived tumor organoid (PDTO) study (n=194 specimens, 126 patients). The PDTO was resistant to [larotrectinib](../drugs/larotrectinib.md), the TRK inhibitor indicated for NTRK-fusion-positive tumors; negative ETV6 FISH and larotrectinib resistance jointly led to reclassification as high-grade spindle cell/sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)), illustrating the diagnostic utility of functional PDTO screening as an orthogonal tool to pathology [PMID:39305899](../papers/39305899.md).
+- ETV6-NTRK3 fusion was expected (absent by FISH) in SARC0127, a suspected infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) case in the UCLA sarcoma patient-derived tumor organoid (PDTO) study (n=194 specimens, 126 patients). The PDTO was resistant to [larotrectinib](../drugs/larotrectinib.md), the TRK inhibitor indicated for NTRK-fusion-positive tumors; negative ETV6 FISH and [larotrectinib](../drugs/larotrectinib.md) resistance jointly led to reclassification as high-grade spindle cell/sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)), illustrating the diagnostic utility of functional PDTO screening as an orthogonal tool to pathology [PMID:39305899](../papers/39305899.md).
 
 ## Cancer types (linked)
 
@@ -32,10 +32,10 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 ## Open questions
 
-- Whether other NTRK3 fusion partners (not ETV6) might explain rare PDTO larotrectinib resistance in IFS-like tumors was not investigated in this case.
+- Whether other [NTRK3](../genes/NTRK3.md) fusion partners (not ETV6) might explain rare PDTO larotrectinib resistance in IFS-like tumors was not investigated in this case.
 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

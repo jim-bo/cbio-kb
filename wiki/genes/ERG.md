@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PRAD]
 tags: [fusion, oncogene, prostate]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # ERG
@@ -15,7 +15,7 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 ## Alterations observed in the corpus
 
-- TMPRSS2-ERG fusion observed in 13 of 44 prostate cancer PDX models (MDA PCa PDX series); ERG overexpression is dependent on TMPRSS2 fusion and occurs in AR-expressing (adenocarcinoma) models [PMID:38488813](../papers/38488813.md).
+- TMPRSS2-ERG fusion observed in 13 of 44 prostate cancer PDX models (MDA PCa PDX series); ERG overexpression is dependent on [TMPRSS2](../genes/TMPRSS2.md) fusion and occurs in AR-expressing (adenocarcinoma) models [PMID:38488813](../papers/38488813.md).
 - TMPRSS2-ERG fusions depleted in MSI-H/dMMR prostate cancer (3%) compared with TMB-H/MSS (12%) and TMB-L/MSS tumors (p=0.015), suggesting that the ERG fusion pathway and mismatch repair deficiency represent distinct oncogenic routes [PMID:38949888](../papers/38949888.md).
 
 ## Cancer types (linked)
@@ -40,4 +40,4 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

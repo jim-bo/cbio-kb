@@ -19,7 +19,7 @@ tags:
   - genomics
   - public-dataset
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-04
 ---
 
 # MSK SPECTRUM Tumor Microenvironment Study (2022)
@@ -32,7 +32,7 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 - Cancer type: [HGSOC](../cancer_types/HGSOC.md), predominantly stage III/IV.
 - 36 prospective MSK-SPECTRUM patients contributed to the Boehm et al. 2022 multimodal cohort (as part of 296 total MSKCC cases). [PMID:35764743](../papers/35764743.md)
-- MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants (including [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) and CCNE1 CNA, plus COSMIC SBS3 detection via [SigMA](../methods/sigma-mutational-signatures.md). [PMID:35764743](../papers/35764743.md)
+- MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants (including [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) and [CCNE1](../genes/CCNE1.md) CNA, plus COSMIC SBS3 detection via [SigMA](../methods/sigma-mutational-signatures.md). [PMID:35764743](../papers/35764743.md)
 
 ## Assays / panels (linked)
 
@@ -40,7 +40,7 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 ## Papers using this cohort
 
-- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 36 MSK-SPECTRUM patients (prospective arm) included as part of the 296-patient MSKCC cohort in the multimodal HGSOC late-fusion prognostic model.
+- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 36 MSK-SPECTRUM patients (prospective arm) included as part of the 296-patient MSKCC cohort in the multimodal [HGSOC](../cancer_types/HGSOC.md) late-fusion prognostic model.
 
 ## Notable findings derived from this cohort
 
@@ -52,4 +52,4 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=msk_spectrum_tme_2022
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -10,14 +10,14 @@ tags:
   - sarcoma
   - functional-precision-medicine
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # gefitinib
 
 ## Overview
 
-Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor (TKI) with FDA approval for first-line treatment of metastatic [NSCLC](../cancer_types/NSCLC.md) harboring EGFR exon 19 deletions or exon 21 (L858R) substitution mutations. It competes with [erlotinib](../drugs/erlotinib.md) and was largely superseded in clinical practice by third-generation [osimertinib](../drugs/osimertinib.md) for EGFR-mutant NSCLC.
+Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor (TKI) with FDA approval for first-line treatment of metastatic [NSCLC](../cancer_types/NSCLC.md) harboring [EGFR](../genes/EGFR.md) exon 19 deletions or exon 21 (L858R) substitution mutations. It competes with [erlotinib](../drugs/erlotinib.md) and was largely superseded in clinical practice by third-generation [osimertinib](../drugs/osimertinib.md) for EGFR-mutant [NSCLC](../cancer_types/NSCLC.md).
 
 ## Evidence in the corpus
 
@@ -37,4 +37,4 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; gefitinib resistance associated with progressive disease at follow-up.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

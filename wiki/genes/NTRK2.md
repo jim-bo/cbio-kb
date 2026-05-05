@@ -4,7 +4,7 @@ aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # NTRK2
@@ -18,12 +18,12 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - NTRK2 (TRKB) is a co-defining marker for the postnatal human progenitor hC1 and the undifferentiated high-risk neuroblastoma nC3 cluster; associated with poor outcome and co-expressed with [MYCN](../genes/MYCN.md) in discrete tumor regions validated by RNAscope in situ hybridization [PMID:34493726](../papers/34493726.md).
 - NTRK2+/[CLDN11](../genes/CLDN11.md)+ double-positive cells were identified by RNAscope ISH in the postnatal adrenal capsule and medulla at ages 0, 4 years, and adulthood; these cells are mutually exclusive from [TH](../genes/TH.md)+ chromaffin cells and [SOX10](../genes/SOX10.md)+ SCPs; most abundant at age 0 and declining with age [PMID:34493726](../papers/34493726.md).
 - In a MYCN-amplified high-risk tumor (K10), RNAscope showed NTRK2+ cells surrounding [NTRK1](../genes/NTRK1.md)+/TH+/NTRK2− differentiating cells, illustrating intratumoral NTRK1/NTRK2 mutual exclusivity [PMID:34493726](../papers/34493726.md).
-- NTRK1 and NTRK2 are confirmed as mutually exclusive outcome biomarkers at the single-cell level; NTRK2 high/NTRK1 low identifies the high-risk undifferentiated identity [PMID:34493726](../papers/34493726.md).
-- NTRK2 listed as an actionable fusion target within NTRK1/NTRK2/NTRK3 panel evaluated in the 194-specimen UCLA sarcoma PDTO platform; FISH-negativity for [ETV6](../genes/ETV6.md) in SARC0127 led to reclassification away from [IFS](../cancer_types/IFS.md) (which canonically carries ETV6–[NTRK3](../genes/NTRK3.md) fusion). [PMID:39305899](../papers/39305899.md)
+- [NTRK1](../genes/NTRK1.md) and NTRK2 are confirmed as mutually exclusive outcome biomarkers at the single-cell level; NTRK2 high/NTRK1 low identifies the high-risk undifferentiated identity [PMID:34493726](../papers/34493726.md).
+- NTRK2 listed as an actionable fusion target within NTRK1/NTRK2/NTRK3 panel evaluated in the 194-specimen UCLA sarcoma PDTO platform; FISH-negativity for [ETV6](../genes/ETV6.md) in SARC0127 led to reclassification away from [IFS](../cancer_types/IFS.md) (which canonically carries [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion). [PMID:39305899](../papers/39305899.md)
 
 ## Cancer types (linked)
 
-- [NBL](../cancer_types/NBL.md) — NTRK2 marks the high-risk undifferentiated nC3 neuroblastoma cluster and the postnatal hC1 progenitor; correlates with MYCN amplification and poor clinical outcome [PMID:34493726](../papers/34493726.md).
+- [NBL](../cancer_types/NBL.md) — NTRK2 marks the high-risk undifferentiated nC3 neuroblastoma cluster and the postnatal hC1 progenitor; correlates with [MYCN](../genes/MYCN.md) amplification and poor clinical outcome [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -45,4 +45,4 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

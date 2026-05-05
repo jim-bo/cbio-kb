@@ -11,18 +11,18 @@ tags:
   - PARPi
   - germline
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # PALB2
 
 ## Overview
 
-PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein that links [BRCA1](../genes/BRCA1.md) and BRCA2 in the DNA double-strand break repair by homologous recombination. Germline pathogenic variants in PALB2 confer an intermediate-to-high lifetime risk of breast cancer and a significantly elevated risk of pancreatic ductal adenocarcinoma. Biallelic inactivation produces homologous recombination deficiency (HRD), which is the mechanistic basis for sensitivity to PARP inhibitors.
+PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein that links [BRCA1](../genes/BRCA1.md) and [BRCA2](../genes/BRCA2.md) in the DNA double-strand break repair by homologous recombination. Germline pathogenic variants in PALB2 confer an intermediate-to-high lifetime risk of breast cancer and a significantly elevated risk of pancreatic ductal adenocarcinoma. Biallelic inactivation produces homologous recombination deficiency (HRD), which is the mechanistic basis for sensitivity to PARP inhibitors.
 
 ## Alterations observed in the corpus
 
-- Germline pathogenic PALB2 variants detected in 0.5% (approximately 12/2,336) of PDAC patients in the MSK 2,336-patient cohort; listed among high/moderate-penetrance germline genes (BRCA2 3.7%, BRCA1 1.8%, [ATM](../genes/ATM.md) 1.8%, PALB2 0.5%). At least 1 PALB2-variant patient received durable PARPi benefit, indicating biallelic inactivation and HRD susceptibility. PALB2 included in the ~10% of PDAC patients with OncoKB level 1 or 2 actionable biomarkers. [PMID:39753968](../papers/39753968.md)
+- Germline pathogenic PALB2 variants detected in 0.5% (approximately 12/2,336) of PDAC patients in the MSK 2,336-patient cohort; listed among high/moderate-penetrance germline genes (BRCA2 3.7%, [BRCA1](../genes/BRCA1.md) 1.8%, [ATM](../genes/ATM.md) 1.8%, PALB2 0.5%). At least 1 PALB2-variant patient received durable PARPi benefit, indicating biallelic inactivation and HRD susceptibility. PALB2 included in the ~10% of PDAC patients with OncoKB level 1 or 2 actionable biomarkers. [PMID:39753968](../papers/39753968.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +30,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 ## Co-occurrence and mutual exclusivity
 
-- In PDAC, PALB2 carriers overlap with the broader HRD germline carrier landscape (BRCA1/2, ATM); biallelic inactivation is a prerequisite for PARPi sensitivity (parallel to the BRCA2 findings in the same cohort where biallelic loss was necessary but not sufficient for durable PARPi response). [PMID:39753968](../papers/39753968.md)
+- In PDAC, PALB2 carriers overlap with the broader HRD germline carrier landscape (BRCA1/2, [ATM](../genes/ATM.md)); biallelic inactivation is a prerequisite for PARPi sensitivity (parallel to the BRCA2 findings in the same cohort where biallelic loss was necessary but not sufficient for durable PARPi response). [PMID:39753968](../papers/39753968.md)
 
 ## Therapeutic relevance
 
@@ -44,4 +44,4 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

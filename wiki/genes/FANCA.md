@@ -8,8 +8,8 @@ tags:
   - dna-repair
   - fanconi-anemia
   - homologous-recombination
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # FANCA
@@ -20,7 +20,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Alterations observed in the corpus
 
-- FANCA was identified as part of a cluster of DNA repair gene alterations (alongside RAD51B, RAD21, RAD51C, ATR, ATM, and FANCC) detected **exclusively at relapse** in fusion-negative rhabdomyosarcoma (FN-RMS) patients with higher overall mutational counts, suggesting these alterations arise under selective pressure during disease progression. [PMID:37730754](../papers/37730754.md)
+- FANCA was identified as part of a cluster of DNA repair gene alterations (alongside [RAD51B](../genes/RAD51B.md), RAD21, RAD51C, [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), and FANCC) detected **exclusively at relapse** in fusion-negative rhabdomyosarcoma (FN-RMS) patients with higher overall mutational counts, suggesting these alterations arise under selective pressure during disease progression. [PMID:37730754](../papers/37730754.md)
 
 ## Cancer types (linked)
 
@@ -32,7 +32,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Therapeutic relevance
 
-- HR-deficient tumors with FA pathway loss may be sensitized to PARP inhibitors or platinum-based crosslinking agents; no direct therapeutic data for FANCA in RMS are available in the current corpus.
+- HR-deficient tumors with FA pathway loss may be sensitized to PARP inhibitors or platinum-based crosslinking agents; no direct therapeutic data for FANCA in [RMS](../cancer_types/RMS.md) are available in the current corpus.
 
 ## Open questions
 
@@ -43,4 +43,4 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 - [PMID:37730754](../papers/37730754.md) — Sequential genomic analysis of RMS progression and relapse; FANCA identified among DNA repair genes altered exclusively at relapse in FN-RMS.
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

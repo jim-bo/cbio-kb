@@ -17,7 +17,7 @@ tags:
   - immunotherapy
   - phase2
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Endometrial and Gynecologic Cancers, Nivolumab Trial (MSK, 2024)
@@ -50,10 +50,10 @@ Single-center phase 2 clinical trial cohort (NCT03241745) of 35 patients with re
 - TMB and PD-L1 expression were not predictive of response within the dMMR-selected population. [PMID:38653864](../papers/38653864.md)
 - Dysfunctional CD8+PD-1+ T cells (P = 0.006) and terminally dysfunctional CD8+PD-1+TOX+ T cells (P = 0.001) were strongly associated with PFS24; a multivariate model combining CD8+PD-1+TOX+ percentage and PD-L1+ cell proximity achieved AUC = 0.897 (P = 0.0007). [PMID:38653864](../papers/38653864.md)
 - [MEGF8](../genes/MEGF8.md) mutations enriched in responders (32% vs. 0%; P = 0.027); [SETD1B](../genes/SETD1B.md) mutations enriched in responders (58% vs. 14%; P = 0.015). [PMID:38653864](../papers/38653864.md)
-- Mechanism of dMMR (genetic vs. epigenetic/MLH1 hypermethylation) did not predict differential nivolumab response (P = 0.43). [PMID:38653864](../papers/38653864.md)
+- Mechanism of dMMR (genetic vs. epigenetic/MLH1 hypermethylation) did not predict differential [nivolumab](../drugs/nivolumab.md) response (P = 0.43). [PMID:38653864](../papers/38653864.md)
 
 ## Sources
 
 - cBioPortal study `ucec_msk_2024`. [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

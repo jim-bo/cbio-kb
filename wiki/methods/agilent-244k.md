@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [expression, microarray]
-processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Agilent 244K
@@ -21,10 +21,10 @@ A microarray platform (Agilent 244,000-feature) used for high-resolution analysi
 
 ## Notes
 
-- Contributed to the definition of the RTK/RAS/PI3K, p53, and RB signaling pathways as being nearly universally altered in GBM [PMID:18772890](../papers/18772890.md).
+- Contributed to the definition of the RTK/RAS/PI3K, p53, and RB signaling pathways as being nearly universally altered in [GBM](../cancer_types/GBM.md) [PMID:18772890](../papers/18772890.md).
 
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

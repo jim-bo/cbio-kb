@@ -6,7 +6,7 @@ canonical_source:
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # temozolomide
@@ -22,7 +22,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - One treatment-refractory corticotroph pituitary neuroendocrine tumor (PitNET) developed acquired mismatch repair deficiency and hypermutation (93 mut/Mb) under temozolomide pressure, with 76% of mutations attributable to the alkylator signature; temozolomide was used in 77% of retrospective PitNET patients in the cohort [PMID:38758238](../papers/38758238.md).
 - Among 35 CSF ctDNA samples from the MSK CSF series with TMB ≥13.8 mut/Mb, 2 glioma samples harbored a dominant temozolomide mutational signature, providing molecular evidence of prior TMZ exposure detectable in CSF liquid biopsy. [PMID:39289779](../papers/39289779.md)
 - Irinotecan + temozolomide was among the five matched-therapy regimens tested in the UCLA PDTO sarcoma clinical application cohort (n=5 patients); normalized organoid viability correlated with time-to-next-treatment across the matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
-- In glioblastoma (GBM), [MGMT](../genes/MGMT.md) promoter methylation is a potential biomarker for response to temozolomide; however, it also serves as a prerequisite for the development of a mismatch repair-deficient hypermutator phenotype upon tumor recurrence if mismatch repair is compromised [PMID:18772890](../papers/18772890.md).
+- In glioblastoma ([GBM](../cancer_types/GBM.md)), [MGMT](../genes/MGMT.md) promoter methylation is a potential biomarker for response to temozolomide; however, it also serves as a prerequisite for the development of a mismatch repair-deficient hypermutator phenotype upon tumor recurrence if mismatch repair is compromised [PMID:18772890](../papers/18772890.md).
 
 ## Resistance mechanisms
 
@@ -46,4 +46,4 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma screen; [irinotecan](../drugs/irinotecan.md) + temozolomide in matched-therapy cohort.
 - [PMID:18772890](../papers/18772890.md) — TCGA Research Network 2008, GBM interim analysis; [MGMT](../genes/MGMT.md) methylation, alkylator response, and hypermutator phenotype.
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

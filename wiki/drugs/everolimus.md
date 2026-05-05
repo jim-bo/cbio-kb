@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # everolimus
@@ -23,7 +23,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 ## Resistance mechanisms
 
-- TSC2 frameshift deletions may not confer the same clinical benefit from everolimus as TSC2 splice site mutations in HCC, based on differential outcomes in 2 patients [PMID:37769223](../papers/37769223.md).
+- [TSC2](../genes/TSC2.md) frameshift deletions may not confer the same clinical benefit from everolimus as TSC2 splice site mutations in [HCC](../cancer_types/HCC.md), based on differential outcomes in 2 patients [PMID:37769223](../papers/37769223.md).
 
 ## Cancer types (linked)
 
@@ -36,4 +36,4 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

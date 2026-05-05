@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # PTPRD
@@ -31,10 +31,10 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 
 ## Open questions
 
-- The functional consequences of PTPRD loss in MPNST pathogenesis and whether it cooperates with other enriched RT-MPNST alterations (e.g., [NF1](../genes/NF1.md), [CDKN2A](../genes/CDKN2A.md)) remain to be determined [PMID:37350195](../papers/37350195.md).
+- The functional consequences of PTPRD loss in [MPNST](../cancer_types/MPNST.md) pathogenesis and whether it cooperates with other enriched RT-MPNST alterations (e.g., [NF1](../genes/NF1.md), [CDKN2A](../genes/CDKN2A.md)) remain to be determined [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -17,7 +17,7 @@ tags:
   - DDR
   - cisplatin
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MSK Metastatic Urothelial Carcinoma cfDNA (CALGB 90601, 2025)
@@ -29,7 +29,7 @@ Pretreatment plasma cell-free DNA (cfDNA) cohort of 201 patients with metastatic
 ## Composition
 
 - 201 patients with metastatic urothelial carcinoma (bladder primary 76%, upper tract 20%, other 3.5%); drawn from 506-patient CALGB 90601 trial; 212/506 (42%) consented to blood collection with successful cfDNA sequencing in 201/212 (95%) [PMID:40256659](../papers/40256659.md).
-- Median [OS](../cancer_types/OS.md) 14 months (95% CI 13–18) on chemo+bevacizumab; 16 months (95% CI 15–18) on chemo+placebo [PMID:40256659](../papers/40256659.md).
+- Median [OS](../cancer_types/OS.md) 14 months (95% CI 13–18) on chemo+[bevacizumab](../drugs/bevacizumab.md); 16 months (95% CI 15–18) on chemo+placebo [PMID:40256659](../papers/40256659.md).
 - 107 patients (53%) had matched archival tumor sequencing via [MSK-IMPACT](../methods/msk-impact-panel.md) [PMID:40256659](../papers/40256659.md).
 - Cancer type: metastatic [BLCA](../cancer_types/BLCA.md) (urothelial carcinoma).
 
@@ -45,7 +45,7 @@ Pretreatment plasma cell-free DNA (cfDNA) cohort of 201 patients with metastatic
 ## Notable findings derived from this cohort
 
 - 87.1% (175/201) of samples harbored ≥1 alteration in queried genes; most frequent: [TERT](../genes/TERT.md) 57%, [TP53](../genes/TP53.md) ~52%, [FGFR3](../genes/FGFR3.md) 19%, [KDM6A](../genes/KDM6A.md) 18%, [ERBB2](../genes/ERBB2.md) 14% [PMID:40256659](../papers/40256659.md).
-- Higher pretreatment ctDNA VAF associated with shorter OS (multivariable HR 2.51, 95% CI 1.26–5.00; p=0.009) and shorter PFS (HR 2.18, 95% CI 1.02–4.67; p=0.045) [PMID:40256659](../papers/40256659.md).
+- Higher pretreatment ctDNA VAF associated with shorter [OS](../cancer_types/OS.md) (multivariable HR 2.51, 95% CI 1.26–5.00; p=0.009) and shorter PFS (HR 2.18, 95% CI 1.02–4.67; p=0.045) [PMID:40256659](../papers/40256659.md).
 - [TERT](../genes/TERT.md) promoter alterations associated with shorter OS (multivariable HR 1.59, 95% CI 1.15–2.19; p=0.005) [PMID:40256659](../papers/40256659.md).
 - [PIK3CA](../genes/PIK3CA.md) alterations (17% cfDNA) associated with shorter OS (HR 1.91, 95% CI 1.20–3.04; p=0.006) [PMID:40256659](../papers/40256659.md).
 - [ERBB2](../genes/ERBB2.md) alterations (14% cfDNA) associated with shorter OS (HR 1.64, 95% CI 1.08–2.49; p=0.019) [PMID:40256659](../papers/40256659.md).
@@ -56,4 +56,4 @@ Pretreatment plasma cell-free DNA (cfDNA) cohort of 201 patients with metastatic
 
 - cBioPortal study `blca_msk_2025`. Data available per: Guercio BJ, et al. *Circulating Tumor DNA Features Associated with Outcomes in Metastatic Urothelial Carcinoma Treated with Gemcitabine-Cisplatin: Results from the Phase III Alliance CALGB 90601 Trial.* Eur Urol. 2025. [PMID:40256659](../papers/40256659.md).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

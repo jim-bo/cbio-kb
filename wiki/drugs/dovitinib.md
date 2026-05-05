@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, fgfr-inhibitor, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # dovitinib
@@ -22,7 +22,7 @@ Dovitinib (TKI258) is a multi-targeted kinase inhibitor active against FGFR1/2/3
 
 ## Resistance mechanisms
 
-- [FGFR1](../genes/FGFR1.md) genomic gain (chromosome 8) does not predict sensitivity to dovitinib in sarcoma, despite predicting sensitivity to the more selective FGFR inhibitor infigratinib — illustrating that multi-kinase inhibitor promiscuity may dilute on-target efficacy. [PMID:39305899](../papers/39305899.md)
+- [FGFR1](../genes/FGFR1.md) genomic gain (chromosome 8) does not predict sensitivity to dovitinib in sarcoma, despite predicting sensitivity to the more selective FGFR inhibitor [infigratinib](../drugs/infigratinib.md) — illustrating that multi-kinase inhibitor promiscuity may dilute on-target efficacy. [PMID:39305899](../papers/39305899.md)
 
 ## Cancer types (linked)
 
@@ -31,6 +31,6 @@ Dovitinib (TKI258) is a multi-targeted kinase inhibitor active against FGFR1/2/3
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; dovitinib LMS sensitivity signal; dovitinib vs infigratinib intra-class differentiation in FGFR1-gain [RMS](../cancer_types/RMS.md).
+- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; dovitinib [LMS](../cancer_types/LMS.md) sensitivity signal; dovitinib vs infigratinib intra-class differentiation in FGFR1-gain [RMS](../cancer_types/RMS.md).
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

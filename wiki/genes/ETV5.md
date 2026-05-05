@@ -3,15 +3,15 @@ symbol: ETV5
 aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, ETS-family, CIC-target, oligodendroglioma]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # ETV5
 
 ## Overview
 
-ETV5 is an ETS family transcription factor and a known transcriptional target of CIC (capicua transcriptional repressor). In oligodendroglioma, where CIC loss-of-function mutations are recurrent, ETV5 derepression serves as a functional readout of CIC inactivation.
+ETV5 is an ETS family transcription factor and a known transcriptional target of [CIC](../genes/CIC.md) (capicua transcriptional repressor). In oligodendroglioma, where CIC loss-of-function mutations are recurrent, ETV5 derepression serves as a functional readout of CIC inactivation.
 
 ## Alterations observed in the corpus
 
@@ -37,4 +37,4 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

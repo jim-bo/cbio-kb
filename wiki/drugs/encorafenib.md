@@ -6,14 +6,14 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # encorafenib
 
 ## Overview
 
-Encorafenib is a selective [BRAF](../genes/BRAF.md) V600E/K inhibitor approved in combination with [binimetinib](../drugs/binimetinib.md) for BRAF V600-mutant melanoma and in combination with cetuximab for BRAF V600E-mutant colorectal cancer.
+Encorafenib is a selective [BRAF](../genes/BRAF.md) V600E/K inhibitor approved in combination with [binimetinib](../drugs/binimetinib.md) for [BRAF](../genes/BRAF.md) V600-mutant melanoma and in combination with [cetuximab](../drugs/cetuximab.md) for BRAF V600E-mutant colorectal cancer.
 
 ## Evidence in the corpus
 
@@ -31,4 +31,4 @@ Encorafenib is a selective [BRAF](../genes/BRAF.md) V600E/K inhibitor approved i
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

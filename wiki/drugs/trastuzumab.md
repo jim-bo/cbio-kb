@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # trastuzumab
@@ -21,7 +21,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Pembrolizumab + trastuzumab + [capecitabine](../drugs/capecitabine.md) + [oxaliplatin](../drugs/oxaliplatin.md) (PTC) in HER2-positive metastatic esophagogastric cancer (phase II, n=37): median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89%; uniform HER2 IHC 3+ predicts longer PFS vs heterogeneous/2+ (15 vs 8.5 months, P=0.004) [PMID:37406106](../papers/37406106.md).
 - In endometrial carcinoma, [ERBB2](../genes/ERBB2.md) amplification enriched in Black patients (12% vs 3%) represents a therapeutic target for trastuzumab and trastuzumab deruxtecan [PMID:37651310](../papers/37651310.md).
 - In preclinical HER2+ xenograft models (OE19 esophageal, NCI-N87 gastric), trastuzumab alone had no significant radiosensitizing effect; it was used as antibody-only control showing that [ERBB2](../genes/ERBB2.md) binding without cytotoxic payload does not alter radiation response [PMID:27698471](../papers/27698471.md).
-- T-DM1 was more potent than trastuzumab, paclitaxel, cisplatin, lapatinib, or erlotinib in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
+- T-DM1 was more potent than trastuzumab, [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
 
 ## Resistance mechanisms
 
@@ -39,4 +39,4 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

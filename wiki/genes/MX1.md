@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [IFN-signaling, IRDS, innate-immunity, chemoresistance]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MX1
@@ -19,11 +19,11 @@ MX1 (MX Dynamin-Like GTPase 1) is an interferon-inducible gene that encodes a GT
 
 ## Cancer types (linked)
 
-- High-grade serous ovarian carcinoma (HGSOC) precursors (STIC) — MX1 upregulated as part of IRDS in STIC.C and cancer; IRDS emergence may contribute to chemoresistance observed in >80% of stage III/IV HGSOC [PMID:39386723](../papers/39386723.md).
+- High-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) precursors (STIC) — MX1 upregulated as part of IRDS in STIC.C and cancer; IRDS emergence may contribute to chemoresistance observed in >80% of stage III/IV HGSOC [PMID:39386723](../papers/39386723.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with HLA-A, [MCL1](../genes/MCL1.md), and other IRDS/IFN-stimulated genes in STIC.C and HGSOC cancer cells; part of a coordinated interferon response [PMID:39386723](../papers/39386723.md).
+- Co-expressed with [HLA-A](../genes/HLA-A.md), [MCL1](../genes/MCL1.md), and other IRDS/IFN-stimulated genes in STIC.C and HGSOC cancer cells; part of a coordinated interferon response [PMID:39386723](../papers/39386723.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ MX1 (MX Dynamin-Like GTPase 1) is an interferon-inducible gene that encodes a GT
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

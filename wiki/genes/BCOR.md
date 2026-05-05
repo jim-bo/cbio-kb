@@ -8,7 +8,7 @@ tags:
   - chromatin-remodeling
   - rhabdomyosarcoma
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # BCOR
@@ -23,7 +23,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 ## Cancer types (linked)
 
-- RMS (Fusion-Negative Rhabdomyosarcoma) — BCOR is one of the defining driver alterations in FN-RMS alongside [TP53](../genes/TP53.md) mutations and RAS pathway alterations; patients with BCOR alterations may warrant more frequent ctDNA monitoring [PMID:37730754](../papers/37730754.md).
+- [RMS](../cancer_types/RMS.md) (Fusion-Negative Rhabdomyosarcoma) — BCOR is one of the defining driver alterations in FN-RMS alongside [TP53](../genes/TP53.md) mutations and RAS pathway alterations; patients with BCOR alterations may warrant more frequent ctDNA monitoring [PMID:37730754](../papers/37730754.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,4 +41,4 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

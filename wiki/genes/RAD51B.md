@@ -7,8 +7,8 @@ tags:
   - homologous-recombination
   - DNA-repair
   - HRD
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # RAD51B
@@ -19,7 +19,7 @@ RAD51B (RAD51 Paralog B) encodes a member of the RAD51 family of proteins involv
 
 ## Alterations observed in the corpus
 
-- Somatic alteration in fusion-negative rhabdomyosarcoma (FN-RMS): RAD51B was identified as part of a cluster of DNA repair gene alterations (alongside RAD21, RAD51C, ATR, ATM, FANCA, FANCC) found exclusively at relapse in FN-RMS patients with higher mutational counts, indicating acquisition during progression rather than at diagnosis. [PMID:37730754](../papers/37730754.md)
+- Somatic alteration in fusion-negative rhabdomyosarcoma (FN-RMS): RAD51B was identified as part of a cluster of DNA repair gene alterations (alongside RAD21, RAD51C, [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), FANCC) found exclusively at relapse in FN-RMS patients with higher mutational counts, indicating acquisition during progression rather than at diagnosis. [PMID:37730754](../papers/37730754.md)
 
 ## Cancer types (linked)
 
@@ -31,7 +31,7 @@ RAD51B (RAD51 Paralog B) encodes a member of the RAD51 family of proteins involv
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of RAD51B was reported in the corpus. However, HRD pathway deficiency (of which RAD51B loss is a component) is a recognized biomarker of sensitivity to PARP inhibitors and platinum-based therapies in other cancer contexts; this connection has not yet been established in RMS.
+- No direct therapeutic targeting of RAD51B was reported in the corpus. However, HRD pathway deficiency (of which RAD51B loss is a component) is a recognized biomarker of sensitivity to PARP inhibitors and platinum-based therapies in other cancer contexts; this connection has not yet been established in [RMS](../cancer_types/RMS.md).
 
 ## Open questions
 
@@ -42,4 +42,4 @@ RAD51B (RAD51 Paralog B) encodes a member of the RAD51 family of proteins involv
 
 - [PMID:37730754](../papers/37730754.md) — de Traux de Wardin H et al., "Sequential genomic analysis using a multisample/multiplatform approach to better define rhabdomyosarcoma progression and relapse," *npj Precision Oncology* (2023).
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

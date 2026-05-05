@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MYC
@@ -24,7 +24,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC oncogenic alterations associated with inferior PFS on multivariable analysis in HER2+ metastatic esophagogastric cancer treated with [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy [PMID:37406106](../papers/37406106.md).
 - MYC amplifications seen in uterine endocervical adenocarcinoma (UEA, 4%) and small cell cervical carcinoma (2/5 cases, with concurrent [TP53](../genes/TP53.md) mutations) [PMID:37643132](../papers/37643132.md).
 - [FOXM1](../genes/FOXM1.md) and MYC transcription factor networks enriched in MG4 (proliferative) meningioma molecular group [PMID:34433969](../papers/34433969.md).
-- MYC upregulated in [HLA-E](../genes/HLA-E.md)+ STIC.I fallopian tube epithelium alongside the IFN/antigen-presentation program in [HGSOC](../cancer_types/HGSOC.md) precursor lesions; [MX1](../genes/MX1.md), [IRF1](../genes/IRF1.md), DDX60, OAS3, IFI44, PSMB8, XAF1 co-enriched in the same HLA-E+ regions by GeoMx WTA spatial transcriptomics. [PMID:39386723](../papers/39386723.md)
+- MYC upregulated in [HLA-E](../genes/HLA-E.md)+ STIC.I fallopian tube epithelium alongside the IFN/antigen-presentation program in [HGSOC](../cancer_types/HGSOC.md) precursor lesions; [MX1](../genes/MX1.md), [IRF1](../genes/IRF1.md), DDX60, OAS3, IFI44, PSMB8, XAF1 co-enriched in the same [HLA-E](../genes/HLA-E.md)+ regions by GeoMx WTA spatial transcriptomics. [PMID:39386723](../papers/39386723.md)
 - KrasG12R organoids show loss of Myc activation relative to KrasG12D organoids; MYC highlighted as a key downstream effector of [KRAS](../genes/KRAS.md) allele-specific signaling in PDAC progression. [PMID:39214094](../papers/39214094.md)
 - MYC among additional genes appearing in volcano plots of metastasis-association analyses in the MSK-CHORD pan-cancer real-world cohort (n=52,211). [PMID:39506116](../papers/39506116.md)
 - In the MSK 2,336-patient PDAC cohort, actionability landscape includes OncoKB-annotated MYC-pathway genes among emerging targets; MYC-driven transcriptional programs listed as key PDAC oncogenic mechanisms. [PMID:39753968](../papers/39753968.md)
@@ -65,4 +65,4 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

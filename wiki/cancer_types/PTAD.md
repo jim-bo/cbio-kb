@@ -5,7 +5,7 @@ main_type: Sellar Tumor
 parent: SELT
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Pituitary Adenoma (PTAD)
@@ -32,7 +32,7 @@ Pituitary adenoma (PTAD), now reclassified as pituitary neuroendocrine tumor (Pi
 ## Subtypes
 
 - Treatment-refractory corticotroph PitNETs: recurrent chromosomal LOH pattern involving 12 specific chromosomes (1, 2, 3, 4, 6, 10, 11, 15, 17, 18, 21, 22) in 11/14 vs. 1/14 benign corticotrophs (P=1.7e-4). [PMID:38758238](../papers/38758238.md)
-- Benign PitNETs: USP8 gain-of-function mutations common; low LOH fraction; good response to surgery and radiation. [PMID:38758238](../papers/38758238.md)
+- Benign PitNETs: [USP8](../genes/USP8.md) gain-of-function mutations common; low LOH fraction; good response to surgery and radiation. [PMID:38758238](../papers/38758238.md)
 
 ## Therapeutic landscape
 
@@ -45,4 +45,4 @@ Pituitary adenoma (PTAD), now reclassified as pituitary neuroendocrine tumor (Pi
 
 - [PMID:38758238](../papers/38758238.md) — Genome-wide loss of heterozygosity predicts aggressive, treatment-refractory behavior in pituitary neuroendocrine tumors (Acta Neuropathologica, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

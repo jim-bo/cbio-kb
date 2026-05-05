@@ -6,14 +6,14 @@ canonical_source: corpus
 unverified: true
 tags: [multimodal, fusion, machine-learning, survival-analysis, computational-pathology, radiomics, genomics]
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-04
 ---
 
 # Multimodal Late Fusion
 
 ## Overview
 
-Multimodal late fusion is a machine-learning architecture in which separate unimodal submodels are first trained independently on each data modality (e.g., CT radiomics, histopathology, genomics, clinical variables), and then the outputs (risk scores or embeddings) of each trained submodel are combined by a final integrator model. This contrasts with early fusion (concatenating raw feature vectors before any modeling) and intermediate/joint fusion (coupling modalities within a shared latent space). Late fusion is particularly tolerant of missing-modality patients: unimodal submodels can be trained on all patients with data for that modality, while the integrator is fit only on patients with data for multiple modalities. The final integrator is typically a linear model (Cox proportional hazards, logistic regression) applied to the stacked unimodal risk scores.
+Multimodal late fusion is a machine-learning architecture in which separate unimodal submodels are first trained independently on each data modality (e.g., CT [radiomics](../methods/radiomics.md), histopathology, genomics, clinical variables), and then the outputs (risk scores or embeddings) of each trained submodel are combined by a final integrator model. This contrasts with early fusion (concatenating raw feature vectors before any modeling) and intermediate/joint fusion (coupling modalities within a shared latent space). Late fusion is particularly tolerant of missing-modality patients: unimodal submodels can be trained on all patients with data for that modality, while the integrator is fit only on patients with data for multiple modalities. The final integrator is typically a linear model (Cox proportional hazards, logistic regression) applied to the stacked unimodal risk scores.
 
 ## Used by
 
@@ -30,4 +30,4 @@ Multimodal late fusion is a machine-learning architecture in which separate unim
 
 - [PMID:35764743](../papers/35764743.md)
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

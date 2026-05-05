@@ -13,7 +13,7 @@ cancer_types:
   - BLCA
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # CTNNB1
@@ -31,14 +31,14 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: CTNNB1 mutations in 37% of advanced HCC by cfDNA (MSK-ACCESS); WNT pathway driver; high concordance with tissue sequencing [PMID:37769223](../papers/37769223.md).
+- **[HCC](../cancer_types/HCC.md)**: CTNNB1 mutations in 37% of advanced [HCC](../cancer_types/HCC.md) by cfDNA (MSK-ACCESS); WNT pathway driver; high concordance with tissue sequencing [PMID:37769223](../papers/37769223.md).
 - **UCEC/UCS**: CTNNB1 mutations enriched in endometrioid histology; less common in Black patients consistent with their lower proportion of endometrioid ECs [PMID:37651310](../papers/37651310.md).
-- **UCEC/OVT**: CTNNB1 mutations in 15% of dMMR gynecologic cancers; not a biomarker for nivolumab response [PMID:38653864](../papers/38653864.md).
+- **UCEC/OVT**: CTNNB1 mutations in 15% of dMMR gynecologic cancers; not a biomarker for [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
 - **Pan-cancer**: CTNNB1 mutations in ctDNA associated with markedly elevated VTE risk (adjusted HR 2.70); one of the strongest individual gene-level VTE associations across tumor types [PMID:39147831](../papers/39147831.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- In HCC, CTNNB1 mutations co-occur with TERT promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
+- In HCC, CTNNB1 mutations co-occur with [TERT](../genes/TERT.md) promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
 - In endometrial carcinoma, CTNNB1 mutations associate with endometrioid histology and the POLE/MSI-H molecular subtypes rather than the CN-H/TP53abn subtype [PMID:37651310](../papers/37651310.md).
 
 ## Therapeutic relevance
@@ -59,4 +59,4 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

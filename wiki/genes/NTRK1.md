@@ -4,7 +4,7 @@ aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # NTRK1
@@ -25,7 +25,7 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 ## Cancer types (linked)
 
 - Histiocytosis ([LCH](../cancer_types/LCH.md), [ECD](../cancer_types/ECD.md)) — actionable fusion detected via [RNA-seq](../methods/rna-seq.md) [PMID:36862133](../papers/36862133.md).
-- Pan-cancer — NTRK1 fusions are driver events that can be superseded by acquired BRAF fusions as a resistance mechanism at progression [PMID:38922339](../papers/38922339.md).
+- Pan-cancer — NTRK1 fusions are driver events that can be superseded by acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism at progression [PMID:38922339](../papers/38922339.md).
 - [NBL](../cancer_types/NBL.md) — NTRK1/TRKA marks low-risk noradrenergic tumor clusters; high expression correlates with favorable prognosis; mutually exclusive with [NTRK2](../genes/NTRK2.md)/TRKB-high high-risk identity [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -49,4 +49,4 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

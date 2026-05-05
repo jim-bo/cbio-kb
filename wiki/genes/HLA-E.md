@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, NK-cell, MHC-I, NKG2A, non-classical-MHC, ovarian-cancer]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # HLA-E
@@ -15,7 +15,7 @@ HLA-E encodes a non-classical MHC class I molecule that engages the inhibitory N
 
 ## Alterations observed in the corpus
 
-- HLA-E is progressively upregulated across HGSOC progression: p53 signature (median 4% HLA-E+ epithelial cells) to STIC.C (26%); upregulation is strongly associated with IFN and IRDS gene signatures [PMID:39386723](../papers/39386723.md).
+- HLA-E is progressively upregulated across [HGSOC](../cancer_types/HGSOC.md) progression: p53 signature (median 4% HLA-E+ epithelial cells) to STIC.C (26%); upregulation is strongly associated with IFN and IRDS gene signatures [PMID:39386723](../papers/39386723.md).
 - HLA-E-positive tumor regions are characterized by decreased NK cell infiltration (nearly undetectable NK cells in STIC.I, STIC.C, and cancer; median 0.02% vs 0.1% in normal/p53.I), consistent with NKG2A-mediated immune suppression [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
@@ -29,7 +29,7 @@ HLA-E encodes a non-classical MHC class I molecule that engages the inhibitory N
 
 ## Therapeutic relevance
 
-- Anti-NKG2A antibodies (e.g., monalizumab) represent a candidate early-interception strategy targeting the HLA-E/NKG2A immune evasion axis in HGSOC precursors, particularly for high-risk patients with incidental STICs [PMID:39386723](../papers/39386723.md).
+- Anti-NKG2A antibodies (e.g., [monalizumab](../drugs/monalizumab.md)) represent a candidate early-interception strategy targeting the HLA-E/NKG2A immune evasion axis in HGSOC precursors, particularly for high-risk patients with incidental STICs [PMID:39386723](../papers/39386723.md).
 
 ## Open questions
 
@@ -40,4 +40,4 @@ HLA-E encodes a non-classical MHC class I molecule that engages the inhibitory N
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

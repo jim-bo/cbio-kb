@@ -5,15 +5,15 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [radiomics, treatment-planning, open-source, python, msk, computational]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # pyCERR
 
 ## Overview
 
-pyCERR (Python Computational Environment for Radiological Research) is an open-source Python toolkit for radiomics feature extraction, treatment plan analysis, and AI-assisted auto-segmentation, developed at Memorial Sloan Kettering Cancer Center (MSK) under the Deasy laboratory. It provides a standardized computational environment for reproducible radiation therapy research including dose-volume analysis, image feature extraction, and integration with AI segmentation models.
+pyCERR (Python Computational Environment for Radiological Research) is an open-source Python toolkit for [radiomics](../methods/radiomics.md) feature extraction, treatment plan analysis, and AI-assisted auto-segmentation, developed at Memorial Sloan Kettering Cancer Center (MSK) under the Deasy laboratory. It provides a standardized computational environment for reproducible radiation therapy research including dose-volume analysis, image feature extraction, and integration with AI segmentation models.
 
 ## Used by
 
@@ -30,6 +30,6 @@ pyCERR (Python Computational Environment for Radiological Research) is an open-s
 
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

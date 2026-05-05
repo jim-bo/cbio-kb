@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [keratinocyte-marker, cell-identity, transcriptomic-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # KRT17
@@ -23,7 +23,7 @@ KRT17 (Keratin 17) is an intermediate filament protein expressed in the hair fol
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with KRT14 and KRT5 in keratinocytes; mutually exclusive with melanocyte markers ([PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), [MLANA](../genes/MLANA.md), [MITF](../genes/MITF.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [KRT14](../genes/KRT14.md) and [KRT5](../genes/KRT5.md) in keratinocytes; mutually exclusive with melanocyte markers ([PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), [MLANA](../genes/MLANA.md), [MITF](../genes/MITF.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ KRT17 (Keratin 17) is an intermediate filament protein expressed in the hair fol
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -43,7 +43,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 
 ## Open questions
 
-- Whether the mechanism of dMMR (germline vs. somatic PMS2 loss vs. MLH1 hypermethylation) differentially predicts immunotherapy response remains under investigation; no significant difference was observed by dMMR mechanism in the nivolumab gynecologic cancer trial [PMID:38653864](../papers/38653864.md).
+- Whether the mechanism of dMMR (germline vs. somatic PMS2 loss vs. [MLH1](../genes/MLH1.md) hypermethylation) differentially predicts immunotherapy response remains under investigation; no significant difference was observed by dMMR mechanism in the [nivolumab](../drugs/nivolumab.md) gynecologic cancer trial [PMID:38653864](../papers/38653864.md).
 
 ## Sources
 
@@ -53,4 +53,4 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

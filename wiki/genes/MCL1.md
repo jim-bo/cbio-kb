@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [BCL2-family, anti-apoptotic, IFN-signaling, IRDS, chemoresistance]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MCL1
@@ -15,7 +15,7 @@ MCL1 is an anti-apoptotic BCL-2 family protein that promotes cell survival by se
 
 ## Alterations observed in the corpus
 
-- Anti-apoptotic BCL-2 family member upregulated as part of the interferon-related DNA damage resistance signature (IRDS) in serous tubal intraepithelial carcinoma stage C (STIC.C) and cancer epithelial cells in high-grade serous ovarian carcinoma (HGSOC) precursors; upregulation appears at the STIC.C stage [PMID:39386723](../papers/39386723.md).
+- Anti-apoptotic BCL-2 family member upregulated as part of the interferon-related DNA damage resistance signature (IRDS) in serous tubal intraepithelial carcinoma stage C (STIC.C) and cancer epithelial cells in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) precursors; upregulation appears at the STIC.C stage [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -38,4 +38,4 @@ MCL1 is an anti-apoptotic BCL-2 family protein that promotes cell survival by se
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

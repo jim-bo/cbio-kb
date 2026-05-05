@@ -3,8 +3,8 @@ symbol: ETV1
 aliases: []
 cancer_types: [PRAD, ODG]
 tags: [transcription-factor, fusion, ETS-family, prostate, CIC-target, oligodendroglioma]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # ETV1
@@ -16,7 +16,7 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 ## Alterations observed in the corpus
 
 - ETV1 fusions (ETV1-FOXA1, ACSL3-ETV1) detected in prostate cancer PDX models (MDA PCa PDX series); these fusions did not correlate with ETV1 expression changes in this cohort, in contrast to TMPRSS2-ERG and TMPRSS2-ETV4 fusions [PMID:38488813](../papers/38488813.md).
-- ETV1 expression is upregulated in cells carrying a subclonal CIC loss-of-function mutation (~30% VAF) in the MGH53 oligodendroglioma, consistent with derepression of CIC targets; mutation spans all three developmental compartments (stem/progenitor, oligodendrocyte-like, astrocyte-like) [PMID:27806376](../papers/27806376.md).
+- ETV1 expression is upregulated in cells carrying a subclonal [CIC](../genes/CIC.md) loss-of-function mutation (~30% VAF) in the MGH53 oligodendroglioma, consistent with derepression of CIC targets; mutation spans all three developmental compartments (stem/progenitor, oligodendrocyte-like, astrocyte-like) [PMID:27806376](../papers/27806376.md).
 
 ## Cancer types (linked)
 
@@ -41,4 +41,4 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

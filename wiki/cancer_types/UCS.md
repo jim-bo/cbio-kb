@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Uterine Carcinosarcoma (UCS)
@@ -33,10 +33,10 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 ## Therapeutic landscape
 
 - [ERBB2](../genes/ERBB2.md) amplification in Black patients with UCS represents a therapeutic opportunity; [trastuzumab](../drugs/trastuzumab.md) deruxtecan has shown clinical activity even in low-HER2-expressing carcinosarcomas. [PMID:37651310](../papers/37651310.md)
-- CCNE1 amplification (enriched in Black patients with UCS) is a potential target for WEE1 inhibitors and [ATR](../genes/ATR.md) inhibitor combinations. [PMID:37651310](../papers/37651310.md)
+- [CCNE1](../genes/CCNE1.md) amplification (enriched in Black patients with UCS) is a potential target for WEE1 inhibitors and [ATR](../genes/ATR.md) inhibitor combinations. [PMID:37651310](../papers/37651310.md)
 
 ## Sources
 
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

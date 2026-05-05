@@ -7,7 +7,7 @@ tags:
   - braf-fusion
   - kinase
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # AGK
@@ -18,7 +18,7 @@ AGK (Acylglycerol Kinase) encodes a lipid kinase involved in mitochondrial funct
 
 ## Alterations observed in the corpus
 
-- AGK::BRAF fusion identified as the third most common 5' fusion partner in a tumor-agnostic analysis of 97,024 MSK-sequenced samples, accounting for 6% (N=12) of all BRAF fusion-positive tumors spanning 52 histologies [PMID:38922339](../papers/38922339.md).
+- AGK::[BRAF](../genes/BRAF.md) fusion identified as the third most common 5' fusion partner in a tumor-agnostic analysis of 97,024 MSK-sequenced samples, accounting for 6% (N=12) of all BRAF fusion-positive tumors spanning 52 histologies [PMID:38922339](../papers/38922339.md).
 
 ## Cancer types (linked)
 
@@ -40,4 +40,4 @@ AGK (Acylglycerol Kinase) encodes a lipid kinase involved in mitochondrial funct
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

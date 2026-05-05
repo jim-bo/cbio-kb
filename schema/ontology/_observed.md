@@ -185,3 +185,7 @@
 - method: clinicalbert — observed in PMID:39506116 — note: BERT-based NLP model for ten-binary multi-label tumor-site extraction from clinical/radiology notes in MSK-CHORD pipeline
 - method: mimsi — observed in PMID:39746944 — note: deep MIL classifier for MSI detection from targeted NGS reads; outperforms MSIsensor in low-purity samples
 - method: msisensor — observed in PMID:39746944 — note: reference MSI calling tool using paired tumor-normal NGS; threshold ≥10 for MSI-H; also used in PMID:39753968 MSK PDAC cohort
+- drug: nutlin-3a — observed in PMID:20601955 — note: MDM2 antagonist (p53-MDM2 interaction inhibitor); proposed therapeutic for DDLS with MDM2/YEATS4 co-amplification on 12q
+- method: affymetrix-250k-snp-array — observed in PMID:20601955 — note: ~250K SNP genotyping microarray for genome-wide SCNA and LOH profiling in 207 high-grade sarcomas
+- method: shrna-rnai-screen — observed in PMID:20601955 — note: pooled shRNA loss-of-function screen of 385 genes (2,007 shRNAs) in three DDLS cell lines to identify copy-number dependencies
+- method: sequenom-genotyping — observed in PMID:20601955 — note: MALDI-TOF mass spectrometry-based genotyping for validation of somatic mutations across 160 additional sarcoma tumors

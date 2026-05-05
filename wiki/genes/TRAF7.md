@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [e3-ubiquitin-ligase, oncogene, meningioma]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # TRAF7
@@ -23,7 +23,7 @@ TRAF7 is a RING domain E3 ubiquitin ligase that is a recurrent driver in the NF2
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with NF2 mutations; co-occurs with [AKT1](../genes/AKT1.md), [KLF4](../genes/KLF4.md), and [SMO](../genes/SMO.md) mutations in MG2 meningiomas [PMID:34433969](../papers/34433969.md).
+- Mutually exclusive with [NF2](../genes/NF2.md) mutations; co-occurs with [AKT1](../genes/AKT1.md), [KLF4](../genes/KLF4.md), and [SMO](../genes/SMO.md) mutations in MG2 meningiomas [PMID:34433969](../papers/34433969.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ TRAF7 is a RING domain E3 ubiquitin ligase that is a recurrent driver in the NF2
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

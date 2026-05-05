@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # ERBB3
@@ -30,7 +30,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 ## Therapeutic relevance
 
-- Neratinib (pan-HER kinase inhibitor targeting ERBB1, ERBB2, and ERBB4; reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
+- Neratinib (pan-HER kinase inhibitor targeting ERBB1, [ERBB2](../genes/ERBB2.md), and [ERBB4](../genes/ERBB4.md); reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
 
 ## Open questions
 
@@ -41,4 +41,4 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

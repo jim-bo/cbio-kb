@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [THAP]
 tags: [growth-factor, copy-number-loss, thyroid]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # FGF9
@@ -23,7 +23,7 @@ FGF9 (Fibroblast Growth Factor 9) is a secreted signaling protein that activates
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-deleted with FLT3 in ATC (chromosome 13 focal loss) [PMID:38412093](../papers/38412093.md).
+- Co-deleted with [FLT3](../genes/FLT3.md) in ATC (chromosome 13 focal loss) [PMID:38412093](../papers/38412093.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ FGF9 (Fibroblast Growth Factor 9) is a secreted signaling protein that activates
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

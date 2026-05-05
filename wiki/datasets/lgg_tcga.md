@@ -16,8 +16,8 @@ tags:
   - oligodendroglioma
   - astrocytoma
   - TCGA
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCGA Lower-Grade Glioma
@@ -30,7 +30,7 @@ The TCGA Lower-Grade Glioma (LGG) cohort is a large, multi-institutional dataset
 
 - ~516 samples spanning WHO grade II–III gliomas (oligodendroglioma, astrocytoma, oligoastrocytoma); the oligodendroglioma subset (IDH-mutant, 1p/19q co-deleted) numbers approximately 69 samples used in validation analyses.
 - Cancer types (OncoTree): [ODG](../cancer_types/ODG.md) and related lower-grade glioma subtypes.
-- Key molecular features captured: IDH1/IDH2 mutation status, 1p/19q co-deletion status, TERT promoter mutation, MGMT methylation, CpG island methylator phenotype (G-CIMP), copy-number alterations (GISTIC), somatic point mutations (WES), and bulk RNA expression (RNA-seq).
+- Key molecular features captured: IDH1/IDH2 mutation status, 1p/19q co-deletion status, [TERT](../genes/TERT.md) promoter mutation, [MGMT](../genes/MGMT.md) methylation, CpG island methylator phenotype (G-CIMP), copy-number alterations (GISTIC), somatic point mutations (WES), and bulk RNA expression (RNA-seq).
 - Reference genome: hg19.
 
 ## Assays / panels (linked)
@@ -53,4 +53,4 @@ The TCGA Lower-Grade Glioma (LGG) cohort is a large, multi-institutional dataset
 - cBioPortal study: `lgg_tcga` — https://www.cbioportal.org/study/summary?id=lgg_tcga
 - TCGA LGG marker paper: Brat et al. 2015, *NEJM* (PMID 26061751).
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

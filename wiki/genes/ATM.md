@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # ATM
@@ -29,7 +29,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [ANGS](../cancer_types/ANGS.md) — inactivating ATM mutations depleted in RT-AS (2%) relative to sporadic AS (10%) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
 - [THPA](../cancer_types/THPA.md) (anaplastic thyroid carcinoma) — ATM preferentially mutated in ATC and co-DTC at both SNV and CNA levels; recurrent DDR alteration rationalizing PARP inhibitor trials [PMID:38412093](../papers/38412093.md).
 - [PRAD](../cancer_types/PRAD.md) — ATM driver alterations predominantly in prostate adenocarcinoma PDXs; NEPC shows transcriptomic DDR upregulation without equivalent genomic alterations [PMID:38488813](../papers/38488813.md).
-- [PAAD](../cancer_types/PAAD.md) — Germline ATM enriched in MAPK-WT PDAC (18% vs 1.4% KRAS-mutant); mutually exclusive with somatic TP53; GNAS co-occurs in gATM carriers [PMID:39753968](../papers/39753968.md).
+- [PAAD](../cancer_types/PAAD.md) — Germline ATM enriched in MAPK-WT PDAC (18% vs 1.4% KRAS-mutant); mutually exclusive with somatic [TP53](../genes/TP53.md); [GNAS](../genes/GNAS.md) co-occurs in gATM carriers [PMID:39753968](../papers/39753968.md).
 - [BLCA](../cancer_types/BLCA.md) — ATM alterations in 5.5% of mUC cfDNA; part of underpowered DDR analysis in platinum-based chemotherapy cohort [PMID:40256659](../papers/40256659.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -54,4 +54,4 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

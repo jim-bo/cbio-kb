@@ -9,7 +9,7 @@ tags:
   - melanocyte-state
   - LowMut-marker
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # NTNG1
@@ -28,7 +28,7 @@ NTNG1 (Netrin-G1) encodes a GPI-anchored netrin family protein involved in axon 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with MYLK, MYL9, PALLD, and other LowMut markers; mutually exclusive with HighMut pigmentation markers at the single-cell level in normal melanocytes. [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [MYLK](../genes/MYLK.md), [MYL9](../genes/MYL9.md), [PALLD](../genes/PALLD.md), and other LowMut markers; mutually exclusive with HighMut pigmentation markers at the single-cell level in normal melanocytes. [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ NTNG1 (Netrin-G1) encodes a GPI-anchored netrin family protein involved in axon 
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -9,7 +9,7 @@ tags:
   - clonal-hematopoiesis
   - therapy-related
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # PPM1D
@@ -24,11 +24,11 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 
 ## Cancer types (linked)
 
-- **LUAD / BRCA / PRAD:** PPM1D CH variants appear in tumor-sequencing data from multiple cancer types within MSK-CHORD, reflecting the pan-cancer nature of therapy-related clonal hematopoiesis rather than a somatic tumor driver role. [PMID:39506116](../papers/39506116.md)
+- **[LUAD](../cancer_types/LUAD.md) / [BRCA](../cancer_types/BRCA.md) / [PRAD](../cancer_types/PRAD.md):** PPM1D CH variants appear in tumor-sequencing data from multiple cancer types within MSK-CHORD, reflecting the pan-cancer nature of therapy-related clonal hematopoiesis rather than a somatic tumor driver role. [PMID:39506116](../papers/39506116.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-flagged with CHEK2 as a clonal-hematopoiesis marker enriched in patients who have received prior systemic therapy. [PMID:39506116](../papers/39506116.md)
+- Co-flagged with [CHEK2](../genes/CHEK2.md) as a clonal-hematopoiesis marker enriched in patients who have received prior systemic therapy. [PMID:39506116](../papers/39506116.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

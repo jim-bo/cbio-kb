@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # ATM
@@ -22,6 +22,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM alterations were not independently associated with VTE risk in a 4,141-patient liquid biopsy VTE prediction study after multivariate adjustment [PMID:39147831](../papers/39147831.md).
 - Germline ATM pathogenic alterations in 1.8% of all PDAC; enriched at 18% prevalence in MAPK-WT PDAC vs 1.4% in KRAS-mutant (P = 2 × 10⁻⁶); germline ATM and somatic [TP53](../genes/TP53.md) alterations were mutually exclusive (P = 4 × 10⁻¹¹); [GNAS](../genes/GNAS.md) co-occurrence elevated in gATM carriers in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
 - ATM alterations detected in 11 cases (5.5%) of a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); part of underpowered DDR pooled analysis [PMID:40256659](../papers/40256659.md).
+- 14 mutations in 13 [LUAD](../cancer_types/LUAD.md) tumours (1 nonsense, 1 splice-site, 2 frameshift); first demonstration of significant ATM mutation frequency in LUAD; mutually exclusive with [TP53](../genes/TP53.md) mutations (P=9.5e-5), suggesting either suffices for loss of cell-cycle checkpoint control. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -54,4 +55,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

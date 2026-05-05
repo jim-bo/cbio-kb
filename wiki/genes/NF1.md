@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # NF1
@@ -28,6 +28,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 enriched after prior therapy in [BRCA](../cancer_types/BRCA.md), confirming the endocrine-resistance signature alongside [ESR1](../genes/ESR1.md) and [CCND1](../genes/CCND1.md), in the MSK-CHORD pan-cancer cohort (n=52,211 patients). [PMID:39506116](../papers/39506116.md)
 - Not specifically tabulated as a recurrent driver in the MSK 2,336-patient PDAC cohort, but MAPK-pathway context relevant as NF1 is a RAS-GTPase activating protein. [PMID:39753968](../papers/39753968.md)
 - NF1 was mutated (point mutations + genomic deletions) in 10.5% of myxofibrosarcomas ([MFS](../cancer_types/MFS.md)) and 8% of pleomorphic liposarcomas ([PLLS](../cancer_types/PLLS.md)) across 207 high-grade soft tissue sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)); biallelic inactivation was observed in some tumors; NF1 loss linked to mTOR pathway activation, providing rationale for mTOR inhibitor therapy in these subtypes; first report of somatic NF1 alterations outside MPNST/GIST in NF1 patients [PMID:20601955](../papers/20601955.md).
+- 16 mutations in 13 patients (4 nonsense, 5 splice-site, 1 frameshift) in [LUAD](../cancer_types/LUAD.md); homozygous deletion in one tumour; newly implicated as a LUAD driver gene; mutations suggest MEK inhibitor sensitivity. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -72,4 +73,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

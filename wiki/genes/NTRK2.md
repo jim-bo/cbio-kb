@@ -4,7 +4,7 @@ aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # NTRK2
@@ -20,6 +20,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - In a MYCN-amplified high-risk tumor (K10), RNAscope showed NTRK2+ cells surrounding [NTRK1](../genes/NTRK1.md)+/TH+/NTRK2− differentiating cells, illustrating intratumoral NTRK1/NTRK2 mutual exclusivity [PMID:34493726](../papers/34493726.md).
 - [NTRK1](../genes/NTRK1.md) and NTRK2 are confirmed as mutually exclusive outcome biomarkers at the single-cell level; NTRK2 high/NTRK1 low identifies the high-risk undifferentiated identity [PMID:34493726](../papers/34493726.md).
 - NTRK2 listed as an actionable fusion target within NTRK1/NTRK2/NTRK3 panel evaluated in the 194-specimen UCLA sarcoma PDTO platform; FISH-negativity for [ETV6](../genes/ETV6.md) in SARC0127 led to reclassification away from [IFS](../cancer_types/IFS.md) (which canonically carries [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion). [PMID:39305899](../papers/39305899.md)
+- Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; co-occurs with [FGFR4](../genes/FGFR4.md) and [PDGFRA](../genes/PDGFRA.md) mutations. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +29,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 ## Co-occurrence and mutual exclusivity
 
 - Co-expressed with [MYCN](../genes/MYCN.md), [BCL11A](../genes/BCL11A.md), [CLDN11](../genes/CLDN11.md), [DOCK7](../genes/DOCK7.md), [ERBB3](../genes/ERBB3.md) in hC1 progenitor and nC3 undifferentiated cluster [PMID:34493726](../papers/34493726.md).
-- Mutually exclusive with [NTRK1](../genes/NTRK1.md) expression at the single-cell level; NTRK1+/NTRK2− identifies low-risk noradrenergic identity [PMID:34493726](../papers/34493726.md).
+- Mutually exclusive with [NTRK1](../genes/NTRK1.md) expression at the single-cell level; [NTRK1](../genes/NTRK1.md)+/NTRK2− identifies low-risk noradrenergic identity [PMID:34493726](../papers/34493726.md).
 
 ## Therapeutic relevance
 
@@ -45,4 +46,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

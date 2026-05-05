@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # ERBB2
@@ -29,7 +29,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 was used as a treatment-decision biomarker in the NLP-extraction pipelines for [BRCA](../cancer_types/BRCA.md) and [NSCLC](../cancer_types/NSCLC.md) in the MSK-CHORD 24,950-patient real-world clinicogenomic dataset [PMID:39506116](../papers/39506116.md).
 - EGFR/ERBB2 pathway implicated by KEGG analysis in [chordoma](../cancer_types/CHDM.md) PDTOs in the UCLA sarcoma PDTO study (n=194 specimens); chordomas were preferentially sensitive to TAK-285 (EGFR/ERBB2 kinase inhibitor, p=0.034) [PMID:39305899](../papers/39305899.md).
 - ERBB2 was among genes listed in the other-MAPK-mutant subtype gene set within the 2,336-patient [PAAD](../cancer_types/PAAD.md) MSK-IMPACT cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)) [PMID:39753968](../papers/39753968.md).
-- ERBB2 alterations detected in 14% of pretreatment plasma cfDNA from 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel); multivariable [OS](../cancer_types/OS.md) HR 1.64 (95% CI 1.08–2.49; p=0.019) for shorter survival after cisplatin-based chemotherapy; authors highlight HER2-directed ADCs (trastuzumab deruxtecan, disitamab vedotin) as relevant targeted options [PMID:40256659](../papers/40256659.md).
+- ERBB2 alterations detected in 14% of pretreatment plasma cfDNA from 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel); multivariable [OS](../cancer_types/OS.md) HR 1.64 (95% CI 1.08–2.49; p=0.019) for shorter survival after cisplatin-based chemotherapy; authors highlight HER2-directed ADCs ([trastuzumab](../drugs/trastuzumab.md) deruxtecan, disitamab vedotin) as relevant targeted options [PMID:40256659](../papers/40256659.md).
+- 4 mutations plus amplification identified in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort, n=188). [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -80,4 +81,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

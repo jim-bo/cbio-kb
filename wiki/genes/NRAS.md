@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # NRAS
@@ -23,12 +23,13 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Recurrent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers and other [BRAF](../genes/BRAF.md) fusion contexts (via MAPK pathway co-activation) [PMID:38922339](../papers/38922339.md).
 - Mutated in cervical cancers (frequency not separately specified from [KRAS](../genes/KRAS.md)); enriched in certain cervical cancer histologic subtypes [PMID:37643132](../papers/37643132.md).
 - In the MSK 2,336-patient PDAC cohort, other-MAPK-mutant tumors carry NRAS (and other RAS/RAF pathway) oncogenic alterations nearly exclusive to KRAS-WT tumors (7% of KRAS-mutant tumors have other MAPK-pathway alterations vs 60% of KRAS-WT, P = 1.6×10⁻⁴⁷). [PMID:39753968](../papers/39753968.md)
+- Rare amplification observed in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); MAPK pathway member. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
 - Appendiceal adenocarcinoma ([APAD](../cancer_types/APAD.md)) — defines indolent RAS-mut predominant MAAP subtype [PMID:36493333](../papers/36493333.md).
 - Histiocytosis ([LCH](../cancer_types/LCH.md), [ECD](../cancer_types/ECD.md)) — rare activating mutation [PMID:36862133](../papers/36862133.md).
-- Anaplastic thyroid carcinoma (ATC) — recurrent, frequency equivalent in PTC and ATC; mutually exclusive with BRAF V600E [PMID:38412093](../papers/38412093.md).
+- Anaplastic thyroid carcinoma (ATC) — recurrent, frequency equivalent in PTC and ATC; mutually exclusive with [BRAF](../genes/BRAF.md) V600E [PMID:38412093](../papers/38412093.md).
 - Rhabdomyosarcoma (FN-RMS) — RAS pathway activating alterations in 5/17 patients [PMID:37730754](../papers/37730754.md).
 - Prostate cancer (NEPC) — rare NRAS Q61K mutation in patient-derived xenograft model [PMID:38488813](../papers/38488813.md).
 
@@ -58,4 +59,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

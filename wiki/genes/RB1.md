@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # RB1
@@ -24,6 +24,7 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the elastic-net Cox genomic risk model was defined in part by RB1 alterations [PMID:37477937](../papers/37477937.md).
 - RB1 truncating mutations/deletions in 14% of RT-[MFH](../cancer_types/MFH.md) (UPS) vs 19% sporadic UPS (n=14 RT-UPS, n=273 sporadic UPS); frequencies were similar between RT and sporadic settings [PMID:37350195](../papers/37350195.md).
 - RB1 mutation observed in pleomorphic liposarcoma ([PLLS](../cancer_types/PLLS.md)) in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)); the broader Rb pathway implication is consistent with [CDK4](../genes/CDK4.md) dependency in the same dataset [PMID:20601955](../papers/20601955.md).
+- 7 mutations identified in 188 [LUAD](../cancer_types/LUAD.md) tumours; 5 co-occur with [TP53](../genes/TP53.md), 2 co-occur with [ATM](../genes/ATM.md) mutations; implicated in p53/Rb pathway co-inactivation. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -56,4 +57,7 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

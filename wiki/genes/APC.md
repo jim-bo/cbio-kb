@@ -8,7 +8,7 @@ tags:
   - wnt-pathway
   - truncating
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # APC
@@ -20,10 +20,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 ## Alterations observed in the corpus
 
 - APC alterations detected in 8% of advanced [HCC](../cancer_types/HCC.md) patients by cfDNA profiling (MSK-ACCESS panel, 51 patients); classified as a WNT pathway alteration [PMID:37769223](../papers/37769223.md).
+- 13 mutations in 11 [LUAD](../cancer_types/LUAD.md) tumours; first report of recurrent APC mutations in lung adenocarcinoma (previously known only in colorectal, squamous-cell, and small-cell lung cancer); part of Wnt pathway alteration. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — APC mutations detected by liquid biopsy in 8% of advanced HCC; part of WNT pathway disruption landscape alongside [CTNNB1](../genes/CTNNB1.md) [PMID:37769223](../papers/37769223.md).
+- [HCC](../cancer_types/HCC.md) — APC mutations detected by liquid biopsy in 8% of advanced [HCC](../cancer_types/HCC.md); part of WNT pathway disruption landscape alongside [CTNNB1](../genes/CTNNB1.md) [PMID:37769223](../papers/37769223.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,4 +42,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 - [PMID:37769223](../papers/37769223.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

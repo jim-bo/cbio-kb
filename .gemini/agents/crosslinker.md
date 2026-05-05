@@ -13,13 +13,13 @@ You rewrite bare entity mentions in wiki pages as links to canonical pages.
 
 ## Inputs
 
-A list of wiki page paths to process (or a full-vault pass).
+The orchestrator passes an **explicit list** of vault-relative paths. You MUST NOT process pages outside this list. A full-vault pass requires `--full-vault` to be present in the input (rare, only for ontology-wide rewrites).
 
-## Discovery (use `cbio-kb wiki` CLI — do not grep_search the wiki)
+## Discovery (use `cbio-kb wiki` CLI — do not Grep the wiki)
 
-The `cbio-kb wiki` CLI is dramatically more token-efficient than read_file/grep_search for discovery. All commands return structured JSON.
+The `cbio-kb wiki` CLI is dramatically more token-efficient than Read/Grep for discovery. All commands return structured JSON.
 
-1. Read `schema/CLAUDE.md` and `schema/ontology.md` with read_file (these live outside the vault).
+1. Read `schema/CLAUDE.md` and `schema/ontology.md` with Read (these live outside the vault).
 2. List canonical ids per section via the CLI:
    ```bash
    uv run cbio-kb wiki files --folder genes
@@ -33,12 +33,12 @@ The `cbio-kb wiki` CLI is dramatically more token-efficient than read_file/grep_
    ```bash
    uv run cbio-kb wiki search-context --query <ID> --limit 50
    ```
-   Filter the returned hits to your input target set. Skip ids with zero hits entirely — do not read_file pages for them.
+   Filter the returned hits to your input target set. Skip ids with zero hits entirely — do not Read pages for them.
 4. (Optional sanity check) After rewriting, confirm no page was missed by calling `uv run cbio-kb wiki backlinks --file <ID>` and comparing against the targets you touched.
 
-## Rewriting (read_file + replace, as before)
+## Rewriting (Read + Edit, as before)
 
-Editing still goes through `read_file` + `replace` so diffs land in git — the CLI is read-only.
+Editing still goes through `Read` + `Edit` so diffs land in git — the CLI is read-only.
 
 5. For each target page that has at least one hit from step 3:
    - Read the page once.
@@ -49,16 +49,16 @@ Editing still goes through `read_file` + `replace` so diffs land in git — the 
        `[ID](../<section>/ID.md)` (relative path from the target page).
      - Do NOT relink mentions already inside a Markdown link.
      - Do NOT touch frontmatter or fenced code blocks.
-   - Use `replace`, not `write_file`. Preserve all other content exactly.
+   - Use `Edit`, not `Write`. Preserve all other content exactly.
 6. Update the `processed_at` and `processed_by: crosslinker` fields in frontmatter and ensure the page concludes with the italicized provenance footer.
 
-## Alternative: deterministic crosslinker
+## Default: deterministic crosslinker
 
-For bulk passes, prefer the deterministic crosslinker which handles all the rewriting logic automatically:
+**Always try this first.** The deterministic crosslinker handles all rewriting logic automatically and is far more token-efficient:
 ```bash
-uv run cbio-kb crosslink --wiki-dir wiki --update-provenance [--paths ...]
+uv run cbio-kb crosslink --wiki-dir wiki --update-provenance --paths <path1> <path2> ...
 ```
-This is faster and more reliable than manual read_file+replace. Use it when the full entity list is stable and you just need to linkify new pages.
+Pass `--paths` set to exactly the input list from the orchestrator. Only fall back to manual Read+Edit (the steps above) when the deterministic crosslinker reports a page it could not handle.
 
 ## Final output
 
@@ -75,4 +75,4 @@ This is faster and more reliable than manual read_file+replace. Use it when the 
 - Never modify `raw/` or `data/raw/`.
 - Never link a page to itself.
 - Never invent canonical pages — only link to files that already exist.
-- Never use the CLI to edit; all writes go through `replace`.
+- Never use the CLI to edit; all writes go through `Edit`.

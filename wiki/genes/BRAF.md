@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-05
 ---
 
 # BRAF
@@ -28,6 +28,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF oncogenic mutations enriched in early-stage vs late-stage [PAAD](../cancer_types/PAAD.md) (3.9% vs 0.7%, p=0.042) but not significant after multiple-comparison correction in a 397-patient sequenced resected PDAC cohort [PMID:39214094](../papers/39214094.md).
 - BRAF in-frame deletions between N486–P490 found in 7/26 oncogenic BRAF alterations in [PAAD](../cancer_types/PAAD.md) — a pattern essentially absent in melanoma (2/749) and thyroid cancer (0/473); one MAPK-WT PDAC tumor harbored a GIT2–BRAF activating fusion in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
 - BRAF alterations detected in cfDNA from metastatic urothelial carcinoma patients; numerically higher detection in cfDNA than matched tumor tissue in the CALGB 90601 liquid biopsy cohort (n=200) [PMID:40256659](../papers/40256659.md).
+- Identified among the significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); MAPK pathway member; fell below formal significance threshold in smaller-sample analysis. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -64,4 +65,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # CDK4
@@ -23,6 +23,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 cited in the introduction as a prevalent CDK aberration in liposarcoma ([LIPO](../cancer_types/LIPO.md)) literature; CDK4/6 inhibitor [palbociclib](../drugs/palbociclib.md) tested across sarcoma patient-derived tumor organoids (PDTOs) in a functional precision medicine study of 194 sarcoma specimens [PMID:39305899](../papers/39305899.md).
 - Altered (e.g. amplification) in 18% of [GBM](../cancer_types/GB.md) samples as part of the RB pathway [PMID:18772890](../papers/18772890.md).
 - Focal 12q amplification in ~90% of dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)); CDK4 was the most overexpressed amplified hit relative to normal fat in a 385-gene shRNA screen; sustained CDK4 knockdown (>10 days) inhibited proliferation in LPS141 and DDLS8817 cell lines; pharmacologic inhibition with [palbociclib](../drugs/palbociclib.md) (PD0332991) induced G1 arrest — first functional validation of CDK4 as a therapeutic dependency in [DDLS](../cancer_types/DDLS.md) ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
+- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member; co-altered with [CDK6](../genes/CDK6.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B in cell cycle pathway disruption. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -50,4 +51,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

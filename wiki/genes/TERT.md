@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [ODG, DIFG, IHCH, HCC, BLCA]
 tags: [promoter-mutation, telomerase, prognosis, ctdna-biomarker]
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-05
 ---
 
 # TERT
@@ -18,6 +18,7 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - TERT promoter mutations were observed in 100% of 1p19q codeleted oligodendrogliomas in the MSK-IMPACT subcohort (n=73) of an IDH-mutant low-grade glioma active-surveillance study [PMID:37910594](../papers/37910594.md).
 - TERT alterations characterized "HCC-class" intrahepatic cholangiocarcinoma in the MSK hidden-genome classifier (n=527 IHC), distinguishing it from KRAS/SMAD4/CDKN2A-driven biliary-class IHC [PMID:38864854](../papers/38864854.md).
 - TERT promoter alterations detected in cfDNA in 57% of 212 metastatic urothelial carcinoma (mUC) patients enrolled in CALGB 90601; multivariable overall survival HR 1.59 (95% CI 1.15–2.19; p = 0.005) after adjustment for visceral metastases, performance status, and ctDNA burden (³√VAF₇₅ₚc); highly collinear with ctDNA VAF, precluding independent modeling of TERT vs. overall ctDNA burden [PMID:40256659](../papers/40256659.md).
+- Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort, Ding et al. 2008). [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,7 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - [PMID:38864854](../papers/38864854.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

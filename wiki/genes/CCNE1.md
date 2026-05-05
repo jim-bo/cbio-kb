@@ -12,7 +12,7 @@ cancer_types:
   - HGSOC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-05
 ---
 
 # CCNE1
@@ -28,6 +28,7 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - Amplification noted as an early copy number alteration event in serous tubal intraepithelial carcinomas (STICs), linked to breakage-fusion-bridge cycles during high-grade serous ovarian carcinoma development [PMID:39386723](../papers/39386723.md).
 - CCNE1 amplification used to assign patients to the foldback-inversion-enriched genomic subtype in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; amplification status overrides concurrent HRD-DDR variant evidence per MSKCC subtype-assignment rules; copy number assessed via MSK-IMPACT pipeline (MSKCC cases) and cBioPortal download (TCGA-OV cases) [PMID:35764743](../papers/35764743.md).
 - CCNE1 amplification reported as one of the genes appearing in volcano-plot metastasis-association analyses in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
+- Identified as mutated/amplified in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member co-altered with [CDK4](../genes/CDK4.md), [CDK6](../genes/CDK6.md), [CCND1](../genes/CCND1.md), and CDKN2A/B. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -58,4 +59,7 @@ CCNE1 encodes Cyclin E1, which partners with CDK2 to drive the G1-to-S phase tra
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

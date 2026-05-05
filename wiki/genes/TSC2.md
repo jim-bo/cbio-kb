@@ -4,7 +4,7 @@ aliases: [tuberin]
 cancer_types: [HCC, PTAD]
 tags: [tumor-suppressor, mtor-pathway, actionable]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # TSC2
@@ -17,6 +17,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 
 - TSC2 alterations (splice site, frameshift) were detected in 14% of advanced hepatocellular carcinoma patients profiled by cfDNA (MSK-ACCESS); combined TSC1/TSC2 alterations in 18%; classified as actionable (OncoKB 3b) [PMID:37769223](../papers/37769223.md).
 - TSC2 mutations were found exclusively in treatment-refractory corticotroph and other pituitary neuroendocrine tumors (PitNETs); not present in benign PitNETs [PMID:38758238](../papers/38758238.md).
+- Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -30,15 +31,18 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 
 ## Therapeutic relevance
 
-- TSC2 alterations are OncoKB level 3b actionable in HCC; two patients received [everolimus](../drugs/everolimus.md) (mTOR inhibitor) with mixed outcomes [PMID:37769223](../papers/37769223.md).
+- TSC2 alterations are OncoKB level 3b actionable in [HCC](../cancer_types/HCC.md); two patients received [everolimus](../drugs/everolimus.md) (mTOR inhibitor) with mixed outcomes [PMID:37769223](../papers/37769223.md).
 
 ## Open questions
 
-- The 2.5-month vs 5.4-month discrepancy in everolimus response by TSC2 alteration subtype (frameshift vs splice site) may reflect differential residual protein function but is not resolved in the corpus [PMID:37769223](../papers/37769223.md).
+- The 2.5-month vs 5.4-month discrepancy in [everolimus](../drugs/everolimus.md) response by TSC2 alteration subtype (frameshift vs splice site) may reflect differential residual protein function but is not resolved in the corpus [PMID:37769223](../papers/37769223.md).
 
 ## Sources
 
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

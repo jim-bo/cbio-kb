@@ -13,7 +13,7 @@ cancer_types:
   - BLCA
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # CTNNB1
@@ -28,6 +28,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Mutations less common in Black endometrial carcinoma patients (9% vs. 17% in White patients); associated with endometrioid histology [PMID:37651310](../papers/37651310.md).
 - Mutated in 15% of dMMR/MSI-H gynecologic cancers (UCEC/OVT) in a [nivolumab](../drugs/nivolumab.md) phase 2 trial; not associated with response or resistance to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - Adjusted HR = 2.70 (95% CI: 1.74--4.18, n=65) for cancer-associated VTE by pan-cancer ctDNA liquid biopsy analysis; among the strongest gene-specific VTE associations [PMID:39147831](../papers/39147831.md).
+- Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); Wnt/beta-catenin pathway member; co-mutated with other Wnt pathway genes including [APC](../genes/APC.md) and [LRP1B](../genes/LRP1B.md). [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -38,12 +39,12 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 ## Co-occurrence and mutual exclusivity
 
-- In HCC, CTNNB1 mutations co-occur with [TERT](../genes/TERT.md) promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
+- In [HCC](../cancer_types/HCC.md), CTNNB1 mutations co-occur with [TERT](../genes/TERT.md) promoter mutations as the two most frequent alterations detected in cfDNA [PMID:37769223](../papers/37769223.md).
 - In endometrial carcinoma, CTNNB1 mutations associate with endometrioid histology and the POLE/MSI-H molecular subtypes rather than the CN-H/TP53abn subtype [PMID:37651310](../papers/37651310.md).
 
 ## Therapeutic relevance
 
-- CTNNB1 mutations were not associated with response to nivolumab in dMMR gynecologic cancers, limiting their utility as predictive biomarkers for checkpoint inhibitor therapy in this context [PMID:38653864](../papers/38653864.md).
+- CTNNB1 mutations were not associated with response to [nivolumab](../drugs/nivolumab.md) in dMMR gynecologic cancers, limiting their utility as predictive biomarkers for checkpoint inhibitor therapy in this context [PMID:38653864](../papers/38653864.md).
 - CTNNB1 mutations in ctDNA are among the strongest VTE risk signals; their presence may inform prophylactic anticoagulation decision-making [PMID:39147831](../papers/39147831.md).
 - No direct CTNNB1-targeted therapies are approved; beta-catenin nuclear accumulation has been targeted by porcupine inhibitors and other Wnt pathway inhibitors in clinical trials.
 
@@ -59,4 +60,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

@@ -87,6 +87,51 @@ The five entity-page-writer fan-outs run in parallel and finish in `max(t)` ≈ 
 4. **Runtime model-tier echo** (lever #5). Defensive — small effort, prevents silent regressions.
 5. **Outline-first paper-compiler for >100k char papers** (lever #4). Defer until we ingest more giant papers.
 
+## v2 — Post-optimization measured baseline
+
+**PMID:** 18948947 — *Somatic mutations affect key pathways in lung adenocarcinoma* (Ding et al., Nature 2008)
+**Raw `char_count`:** 46,825
+**Date:** 2026-05-05
+**Changes applied:** `wiki append-citation` CLI (fast-path for entity merges), scoped crosslinker (strict allow-list + deterministic `--paths`), paper-compiler narrow-read guidance.
+
+| # | Stage                          | Agent                | Tier | Tokens   | Tool uses | Wall (s) |
+|--:|--------------------------------|----------------------|------|---------:|----------:|---------:|
+| 1 | Compile paper                  | paper-compiler       | opus |   41,228 |        18 |    117.9 |
+| 2a | Genes (47)                     | entity-page-writer   | sonnet |   41,133 |        30 |  1,511.1 |
+| 2b | Cancer types (1)               | entity-page-writer   | sonnet |   12,166 |         3 |     14.8 |
+| 2c | Datasets (1)                   | entity-page-writer   | sonnet |   17,434 |         9 |     58.4 |
+| 2d | Drugs (3)                      | entity-page-writer   | sonnet |   21,774 |        19 |     67.1 |
+| 2e | Methods (2)                    | entity-page-writer   | sonnet |   19,521 |        14 |     54.5 |
+| 3 | Crosslink (55 pages, scoped)   | crosslinker          | haiku |   30,448 |        12 |     45.3 |
+| 4 | build-index + build-graph + lint | (deterministic CLI)| —    |        0 |         — |      2.5 |
+|   | **Total — sub-agent tokens**   |                      |      | **183,704** |   **105** |          |
+|   | Wall (effective, with stage-2 parallel fan-out) |     |      |          |           |  ≈1,677  |
+
+### v1 → v2 comparison
+
+| Stage                   | v1 (258k) | v2 (184k) | Delta | Notes |
+|-------------------------|-----------:|-----------:|------:|-------|
+| paper-compiler          |     53,832 |    41,228 | −23%  | Tighter reads; smaller paper overhead |
+| entity-page-writer (Σ)  |    172,932 |   112,028 | −35%  | 35 of 47 genes used CLI fast-path |
+| crosslinker             |     31,636 |    30,448 |  −4%  | Scoped to 55 pages (was 403) |
+| **Total**               |  **258,400** | **183,704** | **−29%** | |
+
+**Entity-page-writer efficiency:**
+- v1: 29 entities → 172,932 tokens (5,963/entity), 231 tool uses (8/entity)
+- v2: 54 entities → 112,028 tokens (2,075/entity), 75 tool uses (1.4/entity)
+- Per-entity cost dropped **65%** despite processing nearly 2× the entities.
+
+**Key driver:** 35 existing gene pages hit the `append-citation` CLI (1 Bash call each = ~200 tokens) instead of the full Read+Edit+verify cycle (~4,000 tokens each). The 12 new gene pages still needed the LLM path but benefited from template-first creation.
+
+### Prediction vs. actual
+
+| Stage                   | Predicted | Actual | |
+|-------------------------|-----------:|-----------:|---|
+| paper-compiler          |    ~54,000 |    41,228 | Better than predicted (paper-compiler also improved) |
+| entity-page-writer (Σ)  |   ~130,000 |   112,028 | Better — fast-path worked well even at 47 genes |
+| crosslinker             |    ~20,000 |    30,448 | Worse — 55 pages (v1 had 30) so raw crosslink cost higher |
+| **Total**               |  **~205,000** | **183,704** | **10% better than predicted** |
+
 ## Verification (pipeline-correctness checklist)
 
 - [x] `wiki/papers/20601955.md` written with frontmatter (paper-compiler verified `study_id: sarc_mskcc`).

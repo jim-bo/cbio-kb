@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [dna-seq, targeted]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-05
 ---
 
 # Targeted DNA sequencing
@@ -20,6 +20,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:25730765](../papers/25730765.md) — Andersson et al., applied targeted DNA sequencing in infant MLL-rearranged ALL as part of a multi-platform strategy combining WGS, WES, and RNA-seq.
 - [PMID:37730754](../papers/37730754.md) — a custom 36-gene [RMS](../cancer_types/RMS.md) targeted panel used for SNV/fusion detection from 62 plasma samples (10 patients) in the ctDNA arm of the rhabdomyosarcoma progression/relapse study; a separate Dragon targeted DNA panel also used at Institut Curie in 15 patients [PMID:37730754](../papers/37730754.md).
 - [PMID:38488813](../papers/38488813.md) — T200.1 targeted sequencing panel (263 genes, 400X) used alongside WGS (30X) and RNA-seq for integrative molecular characterization of 44 prostate cancer PDX models [PMID:38488813](../papers/38488813.md).
+- [PMID:18948947](../papers/18948947.md) — Sequenced all coding exons and splice sites of 623 candidate cancer genes (247 Mb) in 188 primary [LUAD](../cancer_types/LUAD.md) tumours with matched normals, identifying 1,013 non-synonymous somatic mutations and 26 significantly mutated genes [PMID:18948947](../papers/18948947.md).
 
 ## Notes
 
@@ -31,5 +32,6 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:25730765](../papers/25730765.md)
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:38488813](../papers/38488813.md)
+- [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*

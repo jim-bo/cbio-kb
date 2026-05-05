@@ -51,6 +51,12 @@ Never `Grep` or `Glob` inside `wiki/` — those are full-file reads in disguise.
 
 ## Steps
 
+0. **Try the deterministic merge first.** For each citing PMID, if the page already exists, attempt the fast path:
+   ```bash
+   uv run cbio-kb wiki append-citation --kind <kind> --id <id> --pmid <pmid> --bullet "<one-line claim ending with [PMID:NNN](../papers/NNN.md)>"
+   ```
+   If exit 0 with `action: appended` or `skipped`, you are done for that entity — emit the final-output JSON with `action: "updated"` and move on. Only fall through to the LLM steps below if (a) the page does not exist, (b) the CLI returned a non-zero exit (missing section), or (c) the merge requires *prose changes* to an existing paragraph (rare — e.g. updating an Overview or adding co-occurrence context).
+
 1. Determine the target path:
    - gene → `wiki/genes/{ID}.md`
    - cancer_type → `wiki/cancer_types/{ID}.md`

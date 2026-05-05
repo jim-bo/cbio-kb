@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: entity-page-writer
-processed_at: 2026-05-03
+processed_by: crosslinker
+processed_at: 2026-05-05
 ---
 
 # PIK3CA
@@ -35,6 +35,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. [PMID:39753968](../papers/39753968.md)
 - PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
 - PIK3CA was mutated in 18% (13/71) of myxoid/round-cell liposarcomas ([MRLS](../cancer_types/MRLS.md)) — first report of PIK3CA mutation in a mesenchymal cancer; mutations clustered in helical (E542K, E545K) and kinase (H1047L, H1047R) domains; mutated tumors had shorter disease-specific survival (log-rank p=0.036, n=65 with outcome data); only helical-domain mutants showed elevated phospho-AKT (Ser473/Thr308), suggesting domain-specific mechanism ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
+- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -87,4 +88,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:40256659](../papers/40256659.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-03**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

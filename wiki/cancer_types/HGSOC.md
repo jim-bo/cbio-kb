@@ -5,7 +5,7 @@ main_type: Ovarian Cancer
 parent: SOC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # High-Grade Serous Ovarian Cancer (HGSOC)
@@ -29,6 +29,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [BRCA1](../genes/BRCA1.md) / [BRCA2](../genes/BRCA2.md) — pathogenic germline/somatic variants are the primary driver of HRD-subtype assignment in the MSK MIND cohort; HRD status alone provided only modest [OS](../cancer_types/OS.md) stratification (test c = 0.52), consistent with HRD being a necessary but insufficient prognostic variable in late-stage HGSOC. Training HRD/HRP/ambiguous split: 119/218/67. [PMID:35764743](../papers/35764743.md)
 - [CDK12](../genes/CDK12.md) — SNVs used to assign patients to the tandem-duplicator-enriched subtype (per Wang et al.), overriding HRD-DDR variant evidence when present. [PMID:35764743](../papers/35764743.md)
 - [CCNE1](../genes/CCNE1.md) — amplification used to assign patients to the foldback-inversion-enriched subtype; copy number analyzed via MSK-IMPACT pipeline for MSKCC cases and downloaded from cBioPortal for TCGA-OV cases. [PMID:35764743](../papers/35764743.md)
+- High-grade serous ovarian cancer showed homologous recombination deficiency (HRD) in a significant proportion of cases with implications for PARP inhibitor sensitivity [PMID:36517593](../papers/36517593.md)
 
 ## Subtypes
 
@@ -43,8 +44,8 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 
 - [HLA-E](../genes/HLA-E.md) upregulation in precursor lesions suggests anti-NKG2A antibodies (e.g., [monalizumab](../drugs/monalizumab.md)) as a potential early interception strategy, particularly in high-risk patients with incidental STICs. [PMID:39386723](../papers/39386723.md)
 - IFN-related DNA damage resistance signature (IRDS; [STAT1](../genes/STAT1.md), [MX1](../genes/MX1.md), [MCL1](../genes/MCL1.md)) emerges in STIC.C and cancer, potentially contributing to chemoresistance in >80% of stage III/IV patients. [PMID:39386723](../papers/39386723.md)
-- Progressive CD8+ T cell exhaustion with upregulation of PD1, LAG3, TIM3, and [CTLA4](../genes/CTLA4.md) supports investigation of immune checkpoint inhibitors in the HGSOC precancer setting. [PMID:39386723](../papers/39386723.md)
-- Multimodal late-fusion risk model (GRH: genomic + radiomic + histopathological) stratified OS in the held-out test set (median 30 vs. 50 months, P=0.023; 36-month OS 34% vs. 68%) and PFS (P=0.040), outperforming HRD-status alone (c=0.52) and the clinical model (c=0.51). Intended uses: primary treatment selection (PDS vs. NACT-IDS), surveillance planning, maintenance-therapy decisions, and enrollment in investigative trials. [PMID:35764743](../papers/35764743.md)
+- Progressive CD8+ T cell exhaustion with upregulation of PD1, [LAG3](../genes/LAG3.md), TIM3, and [CTLA4](../genes/CTLA4.md) supports investigation of immune checkpoint inhibitors in the HGSOC precancer setting. [PMID:39386723](../papers/39386723.md)
+- Multimodal late-fusion risk model (GRH: genomic + radiomic + histopathological) stratified [OS](../cancer_types/OS.md) in the held-out test set (median 30 vs. 50 months, P=0.023; 36-month OS 34% vs. 68%) and PFS (P=0.040), outperforming HRD-status alone (c=0.52) and the clinical model (c=0.51). Intended uses: primary treatment selection (PDS vs. NACT-IDS), surveillance planning, maintenance-therapy decisions, and enrollment in investigative trials. [PMID:35764743](../papers/35764743.md)
 - Omental-implant radiomic model is a practical prognostic tool for advanced HGSOC: omental disease is ubiquitous (including primary peritoneal cases), omental implants are segmentable by less-experienced radiologists, and the single prognostic feature (GLCM autocorrelation on HLL Coif wavelet) is vendor-invariant. [PMID:35764743](../papers/35764743.md)
 
 ## Sources
@@ -52,4 +53,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [PMID:39386723](../papers/39386723.md) — Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma (bioRxiv, 2024)
 - [PMID:35764743](../papers/35764743.md) — Multimodal data integration using machine learning improves risk stratification of high-grade serous ovarian cancer; Boehm et al. 2022, Nature Cancer.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

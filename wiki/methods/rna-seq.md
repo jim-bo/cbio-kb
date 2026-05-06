@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [transcriptomics, sequencing]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # RNA sequencing
@@ -27,9 +27,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:38488813](../papers/38488813.md) — RNA-seq on 44 prostate cancer PDX models; paired with WGS (30X) and targeted sequencing for integrative multi-platform analysis; confirmed ETS fusion-driven expression changes [PMID:38488813](../papers/38488813.md).
 - [PMID:38895302](../papers/38895302.md) — RNA-seq paired with WES using G&T-seq protocol on single-cell clones from normal skin melanocytes; supported mutation calling via RNA evidence and phasing [PMID:38895302](../papers/38895302.md).
 - [PMID:30325352](../papers/30325352.md) — Illumina HiSeq 2500 RNA-seq (TruSeq Total Stranded RNA + Ribo-Zero) on 130 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects; reads aligned to hg19 with STAR v2.3, quantified with Cufflinks v2.0.2 in FPKM; RIN <2.5 excluded; part of the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) public radiogenomic resource [PMID:30325352](../papers/30325352.md).
-- [PMID:39214094](../papers/39214094.md) — bulk RNA-seq on 100 upfront resected [PAAD](../cancer_types/PAAD.md) tumors (63 [KRAS](../genes/KRAS.md)^G12D^, 37 [KRAS](../genes/KRAS.md)^G12R^) from the Canadian COMPASS trial (NCT02750657) plus consortium-resected patients; aligned to GRCh38 via STAR; revealed KRAS^G12D^ enrichment for EMT, mTORC1, and E2F/G2M Hallmarks versus KRAS^G12R^ enrichment for NF-κB/TNFα signaling [PMID:39214094](../papers/39214094.md).
+- [PMID:39214094](../papers/39214094.md) — bulk RNA-seq on 100 upfront resected [PAAD](../cancer_types/PAAD.md) tumors (63 [KRAS](../genes/KRAS.md)^G12D^, 37 [KRAS](../genes/KRAS.md)^G12R^) from the Canadian COMPASS trial (NCT02750657) plus consortium-resected patients; aligned to GRCh38 via STAR; revealed [KRAS](../genes/KRAS.md)^G12D^ enrichment for EMT, mTORC1, and E2F/G2M Hallmarks versus KRAS^G12R^ enrichment for NF-κB/TNFα signaling [PMID:39214094](../papers/39214094.md).
 - [PMID:39305899](../papers/39305899.md) — bulk RNA-seq (KAPA Hyper Prep, NovaSeq6000, STAR, GRCh38.108) on sarcoma specimens from the UCLA biobank (194 total, subset sequenced); deposited on Synapse (PDTOSarcoma); used alongside WGS and targeted DNA panel sequencing to characterize 24 bone and soft-tissue sarcoma subtypes [PMID:39305899](../papers/39305899.md).
 - [PMID:39753968](../papers/39753968.md) — bulk RNA-seq applied to 11 MAPK-WT [PAAD](../cancer_types/PAAD.md) tumors for fusion discovery (FusionCatcher v1.20 + Arriba v2.1.0); also used for the COMPASS trial transcriptomics arm referenced within the study; identified activating [BRAF](../genes/BRAF.md) and [NRG1](../genes/NRG1.md) fusions in 2/11 MAPK-WT tumors [PMID:39753968](../papers/39753968.md).
+- rRNA-depletion RNA-seq applied to breast cancer primaries and metastases (AURORA cohort); expression subtype switching detected in 13/39 (33%) of paired cases; basal-like was the most stable subtype (15/16 concordant) [PMID:36585450](../papers/36585450.md)
+- Performed on one sample per MEC patient for fusion validation; confirmed [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) fusion (Patient 2) and novel [ASCC2](../genes/ASCC2.md)::[GGNBP2](../genes/GGNBP2.md) fusion (Patient 1) [PMID:36577525](../papers/36577525.md)
 
 ## Notes
 
@@ -53,4 +55,10 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36577525](../papers/36577525.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

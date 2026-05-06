@@ -3,8 +3,8 @@ symbol: ESR1
 aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-05
 ---
 
 # ESR1
@@ -16,6 +16,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 ## Alterations observed in the corpus
 
 - ESR1 mutations were enriched after prior systemic therapy in the MSK-CHORD 24,950-patient pan-cancer real-world cohort, confirmed as post-treatment alterations in [BRCA](../cancer_types/BRCA.md) (breast cancer) patients annotated by NLP; ESR1 was grouped with [CCND1](../genes/CCND1.md) and [NF1](../genes/NF1.md) as an endocrine-resistance signature enriched after prior therapy [PMID:39506116](../papers/39506116.md).
+- Activating mutations in 4 metastatic breast cancer cases linked to endocrine therapy resistance; distal ESR1 binding site hypomethylation associated with suppression of cell-adhesion genes in metastases [PMID:36585450](../papers/36585450.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

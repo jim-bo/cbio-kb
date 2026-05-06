@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # MYC
@@ -28,6 +28,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - KrasG12R organoids show loss of Myc activation relative to KrasG12D organoids; MYC highlighted as a key downstream effector of [KRAS](../genes/KRAS.md) allele-specific signaling in PDAC progression. [PMID:39214094](../papers/39214094.md)
 - MYC among additional genes appearing in volcano plots of metastasis-association analyses in the MSK-CHORD pan-cancer real-world cohort (n=52,211). [PMID:39506116](../papers/39506116.md)
 - In the MSK 2,336-patient PDAC cohort, actionability landscape includes OncoKB-annotated MYC-pathway genes among emerging targets; MYC-driven transcriptional programs listed as key PDAC oncogenic mechanisms. [PMID:39753968](../papers/39753968.md)
+- Copy number amplifications enriched in breast cancer metastases compared to primary tumors [PMID:36585450](../papers/36585450.md)
+- Amplification associated with expected gene dosage effects in [HGSOC](../cancer_types/HGSOC.md) genomic analysis [PMID:36517593](../papers/36517593.md)
 
 ## Cancer types (linked)
 
@@ -65,4 +67,10 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

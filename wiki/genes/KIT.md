@@ -3,8 +3,8 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-05
 ---
 
 # KIT
@@ -19,6 +19,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT exon 11 mutation status was incorporated into the gastric [GIST](../cancer_types/GIST.md) elastic-net Cox genomic risk model (n=152 primary localized gastric GISTs); absence of KIT exon 11 mutation flagged intermediate risk for recurrence [PMID:37477937](../papers/37477937.md).
 - KIT amplification was detected exclusively in sporadic [ANGS](../cancer_types/ANGS.md) but absent in radiation-associated (RT) angiosarcoma (n=44 RT-AS, n=135 sporadic AS) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
 - Recurrent activating KIT mutations observed in [GIST](../cancer_types/GIST.md) samples and unexpectedly in one myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)); GIST/KIT biology cited as the [imatinib](../drugs/imatinib.md) precedent motivating subtype-specific sarcoma therapy [PMID:20601955](../papers/20601955.md).
+- Somatic activating mutations in 56% of GISTs; one germline P/LP variant (p.Lys509Ile) identified in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:20601955](../papers/20601955.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:36593350](../papers/36593350.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

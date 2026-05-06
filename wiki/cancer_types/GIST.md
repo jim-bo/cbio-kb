@@ -5,7 +5,7 @@ main_type: Gastrointestinal Stromal Tumor
 parent: SOFT_TISSUE
 tags: [sarcoma, gi]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # Gastrointestinal Stromal Tumor (GIST)
@@ -28,6 +28,7 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 - Small bowel GIST high-risk features: MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) alterations; intermediate-risk: chr1p deletion or chr5q amplification [PMID:37477937](../papers/37477937.md).
 - In 26 SDH-deficient GISTs, [TP53](../genes/TP53.md) mutations or chr1q amplification portended worse recurrence-free and disease-free survival [PMID:37477937](../papers/37477937.md).
 - Longitudinal sequencing detected most KIT-independent genomic alterations already at baseline [PMID:37477937](../papers/37477937.md).
+- GIST patients with [KIT](../genes/KIT.md) exon 9 mutations showed distinct response patterns to [imatinib](../drugs/imatinib.md) compared to those with exon 11 mutations in a large retrospective cohort [PMID:36593350](../papers/36593350.md)
 
 ## Subtypes
 
@@ -43,4 +44,7 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 - [PMID:37477937](../papers/37477937.md)
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36593350](../papers/36593350.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

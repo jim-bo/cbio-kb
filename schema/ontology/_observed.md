@@ -189,3 +189,4 @@
 - method: affymetrix-250k-snp-array — observed in PMID:20601955 — note: ~250K SNP genotyping microarray for genome-wide SCNA and LOH profiling in 207 high-grade sarcomas
 - method: shrna-rnai-screen — observed in PMID:20601955 — note: pooled shRNA loss-of-function screen of 385 genes (2,007 shRNAs) in three DDLS cell lines to identify copy-number dependencies
 - method: sequenom-genotyping — observed in PMID:20601955 — note: MALDI-TOF mass spectrometry-based genotyping for validation of somatic mutations across 160 additional sarcoma tumors
+- drug: sunitinib — observed in PMID:36593350 — note: multi-kinase TKI (KIT/PDGFR/VEGFR); referenced as second-line therapy option for GIST patients with SDH-deficient or NF1-related disease that respond poorly to imatinib

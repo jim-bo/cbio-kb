@@ -15,7 +15,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # BRCA1
@@ -37,6 +37,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Pathogenic germline/somatic BRCA1 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest [OS](../cancer_types/OS.md) discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
 - Germline pathogenic BRCA1 alterations in 1.8% of [PAAD](../cancer_types/PAAD.md) overall; strong selection for biallelic LOH in carriers; co-occurrence with somatic [TP53](../genes/TP53.md) mutations (P = 4 × 10⁻⁷) in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
 - BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
+- Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
+- Germline/somatic mutations define HRD-Dup subtype with tandem duplications in [HGSOC](../cancer_types/HGSOC.md); 36/116 patients with LOH in any HLA class I gene in validation cohort [PMID:36517593](../papers/36517593.md)
 
 ## Cancer types (linked)
 
@@ -77,4 +79,10 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36593350](../papers/36593350.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

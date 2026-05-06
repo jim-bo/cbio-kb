@@ -7,7 +7,7 @@ cancer_types:
   - HGSOC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-05
 ---
 
 # CDK12
@@ -21,6 +21,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - Biallelic loss via dual mutations or structural variation in 4 of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) series; associated with CDK12-loss-specific focal copy-number gains [PMID:38488813](../papers/38488813.md).
 - CDK12 SNVs used to assign patients to the tandem-duplicator-enriched genomic subtype in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; CDK12-subtype assignment took precedence over HRD-DDR variant evidence per the MSKCC subtype rules [PMID:35764743](../papers/35764743.md).
 - CDK12 alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
+- Mutations associated with tandem duplicator (TD) phenotype in [HGSOC](../cancer_types/HGSOC.md) [PMID:36517593](../papers/36517593.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

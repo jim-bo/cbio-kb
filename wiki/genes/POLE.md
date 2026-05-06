@@ -3,8 +3,8 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-05
 canonical_source: cbioportal
 unverified: false
 ---
@@ -21,6 +21,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - One POLE exonuclease domain hotspot mutation (p.F367S) identified in an MSS gynecologic cancer patient; this patient had the highest TMB in the cohort and was MSS, confirming POLE mutation as an independent route to hypermutation [PMID:38653864](../papers/38653864.md).
 - Three prostate cancer patients harbored oncogenic POLE mutations (P286R ×2, V411M ×1; TMBs of 183, 34, and 169 mut/Mb), all with microsatellite-stable tumors; none of the ICB-treated patients in this cohort had POLE mutations [PMID:38949888](../papers/38949888.md).
 - POLE exonuclease-domain mutations (e.g. V411L) explain discordant MiMSI MSI calls in pan-cancer NGS data: two MiMSI false-negatives had POLE-deficient mutational signatures plus high TMB; one false-positive (Sample_54409, colon adenocarcinoma) attributed 72% of mutations to POLE deficiency. MiMSI can flag MMR phenotype even when co-occurring with POLE-driven hypermutation. [PMID:39746944](../papers/39746944.md)
+- p.E830G missense mutation in a myoepithelial carcinoma patient (Patient 2) [PMID:36577525](../papers/36577525.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:39746944](../papers/39746944.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:36577525](../papers/36577525.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

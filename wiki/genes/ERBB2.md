@@ -31,6 +31,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 was among genes listed in the other-MAPK-mutant subtype gene set within the 2,336-patient [PAAD](../cancer_types/PAAD.md) MSK-IMPACT cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)) [PMID:39753968](../papers/39753968.md).
 - ERBB2 alterations detected in 14% of pretreatment plasma cfDNA from 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel); multivariable [OS](../cancer_types/OS.md) HR 1.64 (95% CI 1.08–2.49; p=0.019) for shorter survival after cisplatin-based chemotherapy; authors highlight HER2-directed ADCs ([trastuzumab](../drugs/trastuzumab.md) deruxtecan, disitamab vedotin) as relevant targeted options [PMID:40256659](../papers/40256659.md).
 - 4 mutations plus amplification identified in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort, n=188). [PMID:18948947](../papers/18948947.md)
+- Subtype switching observed via HER2 amplification gain (participant AFR3: E668Q activating mutation) or loss (participant AFE4: deletion of HER2 amplification under [trastuzumab](../drugs/trastuzumab.md) pressure) [PMID:36585450](../papers/36585450.md)
+- Mutations and amplifications more frequent in advanced bladder disease (q = 0.001); 38% discordance in matched primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +85,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36543146](../papers/36543146.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*

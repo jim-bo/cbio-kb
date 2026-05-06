@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-05
 ---
 
@@ -36,6 +36,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
 - PIK3CA was mutated in 18% (13/71) of myxoid/round-cell liposarcomas ([MRLS](../cancer_types/MRLS.md)) — first report of PIK3CA mutation in a mesenchymal cancer; mutations clustered in helical (E542K, E545K) and kinase (H1047L, H1047R) domains; mutated tumors had shorter disease-specific survival (log-rank p=0.036, n=65 with outcome data); only helical-domain mutants showed elevated phospho-AKT (Ser473/Thr308), suggesting domain-specific mechanism ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours. [PMID:18948947](../papers/18948947.md)
+- Mutated in 13% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
+- Activating mutations (e.g., E545K) more common in low-grade bladder tumors; 27% discordance rate in primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +94,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:36543146](../papers/36543146.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

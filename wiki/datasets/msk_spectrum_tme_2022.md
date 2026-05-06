@@ -19,7 +19,7 @@ tags:
   - genomics
   - public-dataset
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-05
 ---
 
 # MSK SPECTRUM Tumor Microenvironment Study (2022)
@@ -36,7 +36,7 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 ## Assays / panels (linked)
 
-- [MSK-IMPACT](../methods/msk-impact-panel.md) targeted hybrid-capture sequencing (HRD-DDR gene variants, CCNE1 CNA).
+- [MSK-IMPACT](../methods/msk-impact-panel.md) targeted hybrid-capture sequencing (HRD-DDR gene variants, [CCNE1](../genes/CCNE1.md) CNA).
 
 ## Papers using this cohort
 
@@ -46,10 +46,14 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 - HRD status inferred from MSK-IMPACT sequencing plus SigMA COSMIC SBS3 detection; 130 MSKCC cases had research consent for HRD calling (high-confidence SBS3 n=48, low-confidence n=30). [PMID:35764743](../papers/35764743.md)
 - The full MSK-SPECTRUM + MSKCC cohort contributed CT imaging (adnexal and omental), H&E WSIs, and genomic data; the multimodal late-fusion model leveraged partial-data cases to avoid restricting training to the 114 patients with complete four-modality data. [PMID:35764743](../papers/35764743.md)
+- Characterized the ovarian cancer tumor microenvironment using scRNA-seq and spatial transcriptomics across 36 [HGSOC](../cancer_types/HGSOC.md) samples, revealing immune cell composition and stromal cell interactions [PMID:36517593](../papers/36517593.md)
 
 ## Sources
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=msk_spectrum_tme_2022
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

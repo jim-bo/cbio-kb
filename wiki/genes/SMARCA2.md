@@ -3,8 +3,8 @@ symbol: SMARCA2
 aliases: [BRM]
 cancer_types: [RMS]
 tags: [swi-snf, chromatin-remodeling, relapse]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-05
 ---
 
 # SMARCA2
@@ -16,6 +16,7 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 ## Alterations observed in the corpus
 
 - SMARCA2 showed missense mutations and frameshift deletions in 24% of FN-RMS patients at relapse only (not at diagnosis); 4 different point mutations with no protein domain redundancy were identified, suggesting functional inactivation of SWI/SNF remodeling activity [PMID:37730754](../papers/37730754.md).
+- Heterogeneous nuclear expression in both myoepithelial carcinomas (MEC1 and MEC2) by IHC [PMID:36577525](../papers/36577525.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 - [PMID:37730754](../papers/37730754.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:36577525](../papers/36577525.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

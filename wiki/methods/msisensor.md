@@ -9,8 +9,8 @@ tags:
   - msi
   - msi-calling
   - targeted-sequencing
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # MSIsensor
@@ -23,6 +23,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 
 - Used as the reference comparator in the development and validation of [mimsi](../methods/mimsi.md), assessed across a held-out test set (n=317), a prospective validation cohort (n=5,037 with MMR IHC), and a global MSK-IMPACT comparison cohort (n=45,112 samples) [PMID:39746944](../papers/39746944.md).
 - Used in the MSK-IMPACT clinical pipeline for MSI inference in 2,336 PDAC patients; cut-off ≥10 for MSI-H classification [PMID:39753968](../papers/39753968.md).
+- Used alongside MiMSI and IDYLLA MSI to assess microsatellite instability in 244 [GBC](../cancer_types/GBC.md) samples; identified 6 tumors (3%) as MSI-High [PMID:36228155](../papers/36228155.md)
 
 ## Notes
 
@@ -38,4 +39,7 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. benchmarked MSIsensor against MiMSI across multiple cohorts; MSIsensor sensitivity 0.67 vs. MiMSI 0.895 on held-out test set (317 samples), with particular underperformance in low-purity cases (<30% purity: MSIsensor 72.8% vs MiMSI 85.1%, McNemar's P=8.244×10⁻⁷); indeterminate rate 3.8% across 45,112 MSK-IMPACT samples [PMID:39746944](../papers/39746944.md).
 - [PMID:39753968](../papers/39753968.md) — MSIsensor (cutoff ≥10) used for MSI inference in the 2,336-patient MSK PDAC cohort sequenced with MSK-IMPACT; MSI was one of the OncoKB level 1 biomarkers tracked in the actionability landscape analysis [PMID:39753968](../papers/39753968.md).
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

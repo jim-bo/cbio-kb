@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # trastuzumab
@@ -23,6 +23,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - In preclinical HER2+ xenograft models (OE19 esophageal, NCI-N87 gastric), trastuzumab alone had no significant radiosensitizing effect; it was used as antibody-only control showing that [ERBB2](../genes/ERBB2.md) binding without cytotoxic payload does not alter radiation response [PMID:27698471](../papers/27698471.md).
 - T-DM1 was more potent than trastuzumab, [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
 - In the AURORA US Metastasis Project (n=55 metastatic breast cancer), one participant (AFE4) exhibited loss of [ERBB2](../genes/ERBB2.md) amplification under trastuzumab selective pressure — the HER2 amplification present at primary diagnosis was absent in the metastatic biopsy, representing a genomic resistance event to HER2-targeted therapy [PMID:36585450](../papers/36585450.md)
+- 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); ERBB2 amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
 
 ## Resistance mechanisms
 
@@ -44,4 +45,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 
 - [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; HER2 amplification loss under trastuzumab pressure in metastatic breast cancer.
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

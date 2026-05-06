@@ -4,7 +4,7 @@ aliases: [XPD]
 cancer_types: [BLCA]
 tags: [DNA-damage-response, DDR, cisplatin, urothelial, prognostic-biomarker]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # ERCC2
@@ -17,6 +17,8 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 - Oncogenic ERCC2 alterations detected in 9/201 (4.5%) of metastatic urothelial carcinoma (mUC) patients in pretreatment plasma cfDNA (MSK-ACCESS 129-gene panel) nested within the phase 3 CALGB 90601 trial. No statistically significant association with response to gemcitabine/cisplatin (response rate 45% DDR-altered [including ERCC2] vs 41% DDR-negative, p = 0.4), [OS](../cancer_types/OS.md) (HR 0.93, 95% CI 0.50–1.72; p = 0.8), or PFS (HR 0.85, 95% CI 0.46–1.58; p = 0.6); analysis was severely underpowered given the 4.5% ERCC2 frequency versus the expected ~11% from TCGA muscle-invasive bladder data [PMID:40256659](../papers/40256659.md).
 - ERCC2 detection rate was numerically higher in cfDNA (6.5%) than in matched archival tumor sequencing (4.7%) in the 107-patient paired concordance subset, consistent with cfDNA capturing spatial heterogeneity or clonal evolution [PMID:40256659](../papers/40256659.md).
+- ERCC2 mutations enriched in chemotherapy responders in metastatic UC; validates this biomarker beyond the neoadjuvant setting (p = 0.0134) [PMID:36333289](../papers/36333289.md)
+- ERCC2 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +41,10 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

@@ -15,7 +15,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # BRCA1
@@ -39,10 +39,12 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 - Germline/somatic mutations define HRD-Dup subtype with tandem duplications in [HGSOC](../cancer_types/HGSOC.md); 36/116 patients with LOH in any HLA class I gene in validation cohort [PMID:36517593](../papers/36517593.md)
+- BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
+- BRCA1 oncogenic mutations in 3 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
-- [OVT](../cancer_types/OVT.md) — Germline BRCA1 mutations present in HGSOC precursor studies; HRD via BRCA1/2 is the primary therapeutic vulnerability for platinum and PARP inhibitors [PMID:39386723](../papers/39386723.md).
+- [OVT](../cancer_types/OVT.md) — Germline BRCA1 mutations present in [HGSOC](../cancer_types/HGSOC.md) precursor studies; HRD via BRCA1/2 is the primary therapeutic vulnerability for platinum and PARP inhibitors [PMID:39386723](../papers/39386723.md).
 - [UCEC](../cancer_types/UCEC.md) — Somatic BRCA1 mutations enriched in Black EC patients with CN-H/TP53abn subtype [PMID:37651310](../papers/37651310.md).
 - [CESC](../cancer_types/CESC.md) — Pathogenic somatic BRCA1 alterations in a subset of cervical cancers [PMID:37643132](../papers/37643132.md).
 - [THPA](../cancer_types/THPA.md) — Recurrent somatic BRCA1 SNVs and CNAs in anaplastic thyroid carcinoma [PMID:38412093](../papers/38412093.md).
@@ -79,10 +81,16 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36334560](../papers/36334560.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

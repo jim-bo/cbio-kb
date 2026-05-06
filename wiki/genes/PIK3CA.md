@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # PIK3CA
@@ -38,6 +38,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours. [PMID:18948947](../papers/18948947.md)
 - Mutated in 13% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Activating mutations (e.g., E545K) more common in low-grade bladder tumors; 27% discordance rate in primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
+- PIK3CA mutations (E545K/Q, H1047R, P104L, E542K) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
+- PIK3CA E545K hotspot variant observed in metastatic urothelial carcinoma (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- PIK3CA GOF mutations in 9% of [GBC](../cancer_types/GBC.md); actionable at OncoKB level 3B (e.g., p.E545K, p.H1047R) [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -90,13 +93,22 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:40256659](../papers/40256659.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

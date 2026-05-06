@@ -3,8 +3,8 @@ symbol: KMT2A
 aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # KMT2A
@@ -17,6 +17,7 @@ processed_at: 2026-04-08
 
 - **Rearrangements / Fusions:** 11q23 translocations involving [KMT2A](../genes/KMT2A.md) are the primary driver in infant MLL-rearranged ALL; these were present in 47 infants in the St. Jude cohort [PMID:25730765](../papers/25730765.md).
 - **Paucity of secondary mutations:** The [KMT2A](../genes/KMT2A.md) rearrangement itself is considered a potent driver, as infant cases harbor exceptionally few additional somatic mutations [PMID:25730765](../papers/25730765.md).
+- KMT2A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ processed_at: 2026-04-08
 - [PMID:25730765](../papers/25730765.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

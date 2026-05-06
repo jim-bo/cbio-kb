@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # ARID1A
@@ -28,6 +28,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Alteration frequency not independently associated with VTE risk after controlling for ctDNA detection in a 4,141-patient liquid biopsy VTE prediction study [PMID:39147831](../papers/39147831.md).
 - ARID1A mutations absent in cervical adenosquamous carcinoma; present in mesonephric carcinoma (2/3 cases) in a 177-patient cervical cancer genomic landscape study [PMID:37643132](../papers/37643132.md).
 - Truncating mutations (e.g., E1783*) enriched in metastatic bladder cancer (28%) vs low-grade non-invasive (14%); when discordant, always exclusive to metastasis [PMID:36543146](../papers/36543146.md)
+- ARID1A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- ARID1A LOF mutations in 18% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
+- ARID1A mutation not significantly associated with immunotherapy outcomes in advanced [NSCLC](../cancer_types/NSCLC.md) (P = 0.44) [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -65,7 +68,16 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

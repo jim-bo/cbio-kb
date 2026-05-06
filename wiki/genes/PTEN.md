@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # PTEN
@@ -28,6 +28,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous PTEN deletion observed in one myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) tumor with high phospho-AKT; a splice-site PTEN mutation observed in one pleomorphic liposarcoma ([PLLS](../cancer_types/PLLS.md)); variably elevated PTEN in kinase-domain [PIK3CA](../genes/PIK3CA.md) mutants may explain their attenuated AKT activation relative to helical-domain mutants in 207 high-grade sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)) [PMID:20601955](../papers/20601955.md).
 - Mutations correlated with copy number loss in [LUAD](../cancer_types/LUAD.md); associated with lower overall mutation rates; part of mTOR pathway alterations (>30% of tumours). [PMID:18948947](../papers/18948947.md)
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
+- PTEN R142W detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
+- PTEN assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -65,10 +67,16 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

@@ -9,7 +9,7 @@ tags:
   - fanconi-anemia
   - homologous-recombination
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # FANCA
@@ -20,7 +20,8 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Alterations observed in the corpus
 
-- FANCA was identified as part of a cluster of DNA repair gene alterations (alongside [RAD51B](../genes/RAD51B.md), RAD21, RAD51C, [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), and FANCC) detected **exclusively at relapse** in fusion-negative rhabdomyosarcoma (FN-RMS) patients with higher overall mutational counts, suggesting these alterations arise under selective pressure during disease progression. [PMID:37730754](../papers/37730754.md)
+- FANCA was identified as part of a cluster of DNA repair gene alterations (alongside [RAD51B](../genes/RAD51B.md), RAD21, RAD51C, [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), and [FANCC](../genes/FANCC.md)) detected **exclusively at relapse** in fusion-negative rhabdomyosarcoma (FN-RMS) patients with higher overall mutational counts, suggesting these alterations arise under selective pressure during disease progression. [PMID:37730754](../papers/37730754.md)
+- FANCA identified as a DNA damage repair gene with non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +29,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Co-occurrence and mutual exclusivity
 
-- FANCA alterations co-occurred with other FA/HR pathway genes (FANCC, RAD51B, RAD51C) and double-strand-break response genes ([ATR](../genes/ATR.md), [ATM](../genes/ATM.md), RAD21) in the same FN-RMS relapse samples, indicating a broad DNA repair deficiency phenotype at relapse. [PMID:37730754](../papers/37730754.md)
+- FANCA alterations co-occurred with other FA/HR pathway genes (FANCC, [RAD51B](../genes/RAD51B.md), RAD51C) and double-strand-break response genes ([ATR](../genes/ATR.md), [ATM](../genes/ATM.md), RAD21) in the same FN-RMS relapse samples, indicating a broad DNA repair deficiency phenotype at relapse. [PMID:37730754](../papers/37730754.md)
 
 ## Therapeutic relevance
 
@@ -41,6 +42,9 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Sources
 
-- [PMID:37730754](../papers/37730754.md) — Sequential genomic analysis of RMS progression and relapse; FANCA identified among DNA repair genes altered exclusively at relapse in FN-RMS.
+- [PMID:37730754](../papers/37730754.md) — Sequential genomic analysis of [RMS](../cancer_types/RMS.md) progression and relapse; FANCA identified among DNA repair genes altered exclusively at relapse in FN-RMS.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

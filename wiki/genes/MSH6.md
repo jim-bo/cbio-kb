@@ -3,8 +3,8 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: crosslinker
-processed_at: 2026-05-02
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # MSH6
@@ -22,6 +22,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Deleterious MSH6 alterations in 75% of MSI-H/dMMR prostate cancers; MSH6 altered in 9% of TMB-H/MSS tumors [PMID:38949888](../papers/38949888.md)
 - MSH6 protein loss detected in 60/842 (7%) MMR-D tumors in a prospective pan-cancer cohort; lowest indel/SNV ratio (median 0.09) and lowest MMR-signature contribution (median 0.42) among the four MMR proteins. TMB not significantly different from PMS2-loss (P=0.62) or MLH1-loss (P=0.96). [PMID:39746944](../papers/39746944.md)
 - MMR gene alterations ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), MSH6, [PMS2](../genes/PMS2.md)) identified as Lynch syndrome in 17/2,336 PDAC patients (0.7%); 6/17 were MSI-H. [PMID:39753968](../papers/39753968.md)
+- MSH6 alterations were identified among recurrent genomic changes in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **crosslinker** on **2026-05-02**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

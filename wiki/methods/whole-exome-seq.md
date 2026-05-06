@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wes]
 processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # Whole-exome sequencing (WES)
@@ -40,6 +40,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used on 55 metastatic breast cancer patients (51 primaries, 102 metastases) in the AURORA cohort; 88/153 specimens had all four assays (WES, WGS, RNA-seq, EPIC array) [PMID:36585450](../papers/36585450.md)
 - Applied to 12 myoepithelioma (MEC) tumor samples from 2 patients (mean coverage 98.5x); revealed chromoplexy-driven structural rearrangements and low TMB (mean 1.35 mutations/Mb) [PMID:36577525](../papers/36577525.md)
 - Applied to 22 primary-metastasis bladder cancer pairs (tumor purity >=25% by FACETS); mean mutational concordance only 42% (range 6%-84%), demonstrating early branched evolution [PMID:36543146](../papers/36543146.md)
+- Used to sequence 10 sporadic PanNETs (Illumina GAIIx with SureSelect capture, mean 101x coverage) in the Johns Hopkins discovery cohort; identified MEN1, DAXX, and ATRX as major driver genes [PMID:21252315](../papers/21252315.md)
+- Applied to 316 HGSOC tumors with matched normals (~180,000 exons, ~18,500 genes) in the TCGA ovarian carcinoma study; TP53 mutated in 96% of sequenced tumors [PMID:21720365](../papers/21720365.md)
+- Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC sequencing study; 113 additional cases sequenced via RNA-seq [PMID:21796119](../papers/21796119.md)
 
 ## Notes
 
@@ -78,3 +81,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:36543146](../papers/36543146.md)
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:21252315](../papers/21252315.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

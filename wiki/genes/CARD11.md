@@ -7,8 +7,8 @@ cancer_types:
 tags:
   - bcr-pathway
   - ibrutinib-resistance
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # CARD11
@@ -20,6 +20,7 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 ## Alterations observed in the corpus
 
 - Mutated in 6 patients (24%) of the sequenced [PCNSL](../cancer_types/PCNSL.md) subset in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial; mutations mapped to the coiled-coil domain [PMID:38995739](../papers/38995739.md).
+- Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 - [PMID:38995739](../papers/38995739.md)
 
 *This page was processed by **crosslinker** on **2026-04-10**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

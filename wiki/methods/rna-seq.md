@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -33,6 +33,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - rRNA-depletion RNA-seq applied to breast cancer primaries and metastases (AURORA cohort); expression subtype switching detected in 13/39 (33%) of paired cases; basal-like was the most stable subtype (15/16 concordant) [PMID:36585450](../papers/36585450.md)
 - Performed on one sample per MEC patient for fusion validation; confirmed [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) fusion (Patient 2) and novel [ASCC2](../genes/ASCC2.md)::[GGNBP2](../genes/GGNBP2.md) fusion (Patient 1) [PMID:36577525](../papers/36577525.md)
 - Total RNA-seq (Illumina TruSeq RiboZero Gold on HiSeq 4000) performed on 176 of 218 metastatic UC patients in UC-GENOME; enabled molecular subtyping and immune cell deconvolution (CIBERSORTx) [PMID:36333289](../papers/36333289.md)
+- Used to sequence transcriptomes of 113 additional NHL cases (DLBCL and FL) in the BCGSC study; provided mutation calls and expression data complementing WGS/WES in 14 matched pairs [PMID:21796119](../papers/21796119.md)
 
 ## Notes
 
@@ -66,3 +67,6 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:36333289](../papers/36333289.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

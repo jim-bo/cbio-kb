@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Whole-genome sequencing (WGS)
@@ -28,6 +28,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass WGS (5x) applied to 51 primary and 102 metastatic breast cancer specimens in AURORA cohort; 11 DNA segments more frequently amplified in metastases (q<0.05), including [MYC](../genes/MYC.md) and [MDM4](../genes/MDM4.md) regions [PMID:36585450](../papers/36585450.md)
 - Applied to primary tumors from 2 MEC patients (Patient 1: 29x tumor/25x normal; Patient 2: 22x tumor/15x normal; GRCh37/hg19); revealed >30-way biallelic chromoplexy event in MEC1 and double-minute [ELK4](../genes/ELK4.md) amplification in MEC2 [PMID:36577525](../papers/36577525.md)
 - Applied to 40 treatment-naive [HGSOC](../cancer_types/HGSOC.md) tumor-normal pairs; mutational signature inference classified tumours into HRD-Dup (n=16), HRD-Del (n=6), and FBI (n=14) subtypes [PMID:36517593](../papers/36517593.md)
+- Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC study; identified 109 recurrently mutated genes including KMT2D and MEF2B as major histone-modifier drivers [PMID:21796119](../papers/21796119.md)
 
 ## Notes
 
@@ -55,3 +56,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

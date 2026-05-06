@@ -11,7 +11,7 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -32,6 +32,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - High-level amplification associated with FBI (FHRD-BI) genomic signature in [HGSOC](../cancer_types/HGSOC.md); 29/118 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
 - CCNE1 amplification in 2% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - CCNE1 amplification in 9% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
+- Found focally amplified in ~20% of HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -75,3 +76,6 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

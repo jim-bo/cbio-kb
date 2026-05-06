@@ -3,8 +3,8 @@ symbol: FOXP1
 aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # FOXP1
@@ -16,6 +16,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 ## Alterations observed in the corpus
 
 - FOXP1 alterations are almost exclusive to the other-MAPK-mutant PDAC subtype; enriched compared to KRAS-mutant tumors (P = 5.3 × 10⁻⁵) and absent in MAPK-WT tumors in the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) cohort (n = 2,336) [PMID:39753968](../papers/39753968.md).
+- FOXP1 was recurrently altered in prostate cancer as identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

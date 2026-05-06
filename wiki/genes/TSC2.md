@@ -3,8 +3,8 @@ symbol: TSC2
 aliases: [tuberin]
 cancer_types: [HCC, PTAD]
 tags: [tumor-suppressor, mtor-pathway, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # TSC2
@@ -18,6 +18,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - TSC2 alterations (splice site, frameshift) were detected in 14% of advanced hepatocellular carcinoma patients profiled by cfDNA (MSK-ACCESS); combined TSC1/TSC2 alterations in 18%; classified as actionable (OncoKB 3b) [PMID:37769223](../papers/37769223.md).
 - TSC2 mutations were found exclusively in treatment-refractory corticotroph and other pituitary neuroendocrine tumors (PitNETs); not present in benign PitNETs [PMID:38758238](../papers/38758238.md).
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
+- Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:21252315](../papers/21252315.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

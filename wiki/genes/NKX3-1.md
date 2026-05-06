@@ -3,8 +3,8 @@ symbol: NKX3-1
 aliases: []
 cancer_types: [LUAD]
 tags: [brain-metastasis]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NKX3-1
@@ -17,6 +17,7 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 
 - Alterations enriched in local intracranial progressors after craniotomy + RT for [LUAD](../cancer_types/LUAD.md) brain metastases (16% vs 3% in non-progressors; p=0.044) [PMID:37591896](../papers/37591896.md).
 - Recurrent post-treatment alteration and association with Gleason/metastasis in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD pan-cancer real-world cohort (n=52,211); NKX3-1 listed alongside [AR](../genes/AR.md), [CDK12](../genes/CDK12.md), and [FOXA1](../genes/FOXA1.md) as recurrent post-treatment [PRAD](../cancer_types/PRAD.md) alterations. [PMID:39506116](../papers/39506116.md)
+- Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

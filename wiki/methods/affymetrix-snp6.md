@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Affymetrix SNP 6.0
@@ -18,6 +18,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 ## Used by
 
 - Used for DNA copy number profiling in a cohort of 206 glioblastoma cases [PMID:18772890](../papers/18772890.md).
+- Used for DNA copy number profiling in all 489 HGSOC samples in the TCGA ovarian carcinoma study; identified 113 significant focal copy number aberrations [PMID:21720365](../papers/21720365.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:18772890](../papers/18772890.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

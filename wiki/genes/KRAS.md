@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -40,6 +40,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRASG12C is the primary driver mutation in CRC; KRASG12C amplification (>20 copies) and secondary KRAS mutations (G12, H95, Y96, R68 positions) emerge as resistance mechanisms to combined KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - KRAS G12V mutation engineered in the A1309 CRC cell model used for [FBXO7](../genes/FBXO7.md) synthetic lethality screening [PMID:36334560](../papers/36334560.md)
 - KRAS GOF mutations in 7% and amplifications in 4% of gallbladder carcinoma ([GBC](../cancer_types/GBC.md)); KRAS p.G12C present in 2 patients (OncoKB level 3A) [PMID:36228155](../papers/36228155.md)
+- KRAS mutations were detected in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
+- KRAS mutations were identified in pancreatic neuroendocrine tumors (PANETs) by exome sequencing, though at lower frequency than in pancreatic ductal adenocarcinoma [PMID:21252315](../papers/21252315.md)
+- KRAS mutations were among somatic alterations identified in HGSOC by TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -112,3 +115,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21252315](../papers/21252315.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

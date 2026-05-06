@@ -3,8 +3,8 @@ symbol: MYD88
 aliases: []
 cancer_types: [CLLSLL, PCNSL, DLBCLNOS, DLBCL]
 tags: [nfkb, m-cll, temporal-ordering, bcr-pathway, LymphGen]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # MYD88
@@ -18,6 +18,7 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - Temporal ordering via [PhylogicNDT](../methods/phylogicndt.md) placed MYD88 mutation as an early event in M-CLL [PMID:35927489](../papers/35927489.md).
 - Mutated in 72% of PCNSLs profiled with [MSK-HemePACT](../methods/msk-hemepact.md) in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial [PMID:38995739](../papers/38995739.md).
 - MYD88 mutations are a key classifier for MCD DLBCL subtype in the LymphGen algorithm; classification validated using a 400-gene clinical NGS panel (MSK-IMPACT Heme) with high confidence "Core" group accuracy of 96% [PMID:38497151](../papers/38497151.md).
+- MYD88 was recurrently mutated in DLBCL, with the L265P hotspot mutation activating NF-kB signaling in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - [PMID:38497151](../papers/38497151.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -21,6 +21,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - CREBBP alterations were found almost exclusively in the other-MAPK-mutant subtype of PDAC (P = 1.3 × 10⁻⁵ vs KRAS-mutant; 0% in MAPK-WT) in the 2,336-patient [pdac_msk_2024](../datasets/pdac_msk_2024.md) cohort, associating CREBBP mutation with the non-KRAS-driven MAPK subtype [PMID:39753968](../papers/39753968.md).
 - Shared trunk mutation identified in phylogenetic analyses of bladder cancer primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 - CREBBP is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- Identified as somatically mutated in HGSOC in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +53,11 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21796119](../papers/21796119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

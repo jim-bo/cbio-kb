@@ -6,7 +6,7 @@ cancer_types:
   - PRNE
   - HGSOC
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -23,6 +23,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - CDK12 alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 - Mutations associated with tandem duplicator (TD) phenotype in [HGSOC](../cancer_types/HGSOC.md) [PMID:36517593](../papers/36517593.md)
 - CDK12 structural variants in 3 [GBC](../cancer_types/GBC.md) patients including fusions (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
+- Identified as somatically mutated in HGSOC in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

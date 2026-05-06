@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -29,6 +29,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - RB1 splice-site and missense mutations detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
 - RB1 frequently mutated in metastatic UC; mutations associated with improved ICI survival when combined with ATM/FANCC alterations [PMID:36333289](../papers/36333289.md)
 - RB1 LOF mutations in 3.5% of [GBC](../cancer_types/GBC.md); enriched in small cell neuroendocrine carcinoma (q<0.001) [PMID:36228155](../papers/36228155.md)
+- Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
+- Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -77,3 +79,9 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

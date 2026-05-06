@@ -3,7 +3,7 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -32,6 +32,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Amplification associated with expected gene dosage effects in [HGSOC](../cancer_types/HGSOC.md) genomic analysis [PMID:36517593](../papers/36517593.md)
 - MYC amplification detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC patient ctDNA [PMID:36355783](../papers/36355783.md)
 - MYC amplification in 7% of [GBC](../cancer_types/GBC.md) (oncogenic CNA) [PMID:36228155](../papers/36228155.md)
+- MYC was among recurrently amplified oncogenes in prostate cancer identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
+- MYC amplification at 8q24 was identified as a significant copy-number alteration in HGSOC by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +84,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

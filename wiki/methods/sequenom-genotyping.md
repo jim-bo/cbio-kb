@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [genotyping, mass-spectrometry, targeted-sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Sequenom Genotyping
@@ -18,6 +18,7 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 ## Used by
 
 - Used to extend somatic mutation genotyping from a 47-sample targeted resequencing discovery cohort to 160 additional sarcoma tumors across seven subtypes, validating mutations in [PIK3CA](../genes/PIK3CA.md), [NF1](../genes/NF1.md), [TP53](../genes/TP53.md), [KIT](../genes/KIT.md), and [PDGFRA](../genes/PDGFRA.md) [PMID:20601955](../papers/20601955.md).
+- iPLEX Sequenom MassARRAY used to genotype 22 oncogene hotspots in 156 prostate tumors from the MSKCC prad_mskcc cohort [PMID:20579941](../papers/20579941.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 - [PMID:20601955](../papers/20601955.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

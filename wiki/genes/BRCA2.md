@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -44,6 +44,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
 - BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
 - BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
+- Found mutated in HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -103,3 +104,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

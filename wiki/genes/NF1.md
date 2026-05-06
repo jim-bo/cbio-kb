@@ -3,7 +3,7 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -33,6 +33,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Biallelic loss via chromoplexy in a myoepithelial carcinoma (MEC1) [PMID:36577525](../papers/36577525.md)
 - NF1 mutations (T676P, R2637*) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
+- Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -93,3 +94,6 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:36355783](../papers/36355783.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

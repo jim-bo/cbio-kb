@@ -3,8 +3,8 @@ symbol: B2M
 aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # B2M
@@ -20,6 +20,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - B2M mutated in 6% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md) (n=35); no enrichment of antigen-presenting machinery alterations in non-responders to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - Focal deletions in 3 breast cancer metastasis tumors from 3 individuals; methylation rare (1 tumor) [PMID:36585450](../papers/36585450.md)
 - MHC class I component highly expressed in [HGSOC](../cancer_types/HGSOC.md) Cancer.cell.3 cluster; subject to LOH-mediated loss as immune escape mechanism [PMID:36517593](../papers/36517593.md)
+- Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

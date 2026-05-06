@@ -3,7 +3,7 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -30,6 +30,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - PTEN R142W detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
 - PTEN assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
+- Frequently deleted and mutated in prostate cancer; identified as a key altered gene in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
+- Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
+- Among the most frequently mutated genes in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +83,12 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21252315](../papers/21252315.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

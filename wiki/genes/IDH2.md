@@ -3,8 +3,8 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # IDH2
@@ -19,6 +19,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH1/IDH2 mutation required for inclusion in a 128-patient MSKCC WHO 2016 Grade 2 IDH-mutant low-grade glioma active-surveillance cohort; verified by IHC (93.8%) and/or NGS (57%) [PMID:37910594](../papers/37910594.md).
 - [IDH1](../genes/IDH1.md) or IDH2 mutation status defines the GCIMP phenotype with high DNA methylation in glioma; IDH-mutant gliomas undergo progressive epigenetic demethylation (674 CpG probes, >15% difference) at recurrence, especially after [temozolomide](../drugs/temozolomide.md) and/or radiotherapy, per the GLASS consortium (132 matched initial and recurrent gliomas) [PMID:38117484](../papers/38117484.md).
 - [IDH1](../genes/IDH1.md) or IDH2 mutation was confirmed in all 6 grade II oligodendrogliomas by Sanger sequencing and whole-exome sequencing; IDH mutations co-occur with 1p/19q codeletion confirmed by FISH in all six tumors [PMID:27806376](../papers/27806376.md).
+- IDH2 mutations were identified among recurrent genomic alterations in prostate cancer by integrative genomic profiling [PMID:20579941](../papers/20579941.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

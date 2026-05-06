@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -34,6 +34,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - [CD274](../genes/CD274.md) (PD-L1) CPS <20 vs. ≥20 (22C3 pharmDx IHC) did not predict PFS or OS benefit in the reirradiation + nivolumab context (68.8% vs. 59.2% 1-year PFS, P=.86), unlike in recurrent/metastatic HNSCC with single-agent PD-1 blockade. [PMID:38780927](../papers/38780927.md)
 - [EGFR](../genes/EGFR.md) surface expression (not mutation status) gates C-MMAE binding and radiosensitization in HNSC cell lines (CAL-27, SCC-61, SCC-35, SQ-9G). [PMID:27698471](../papers/27698471.md)
 - Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year OS prediction (winning MTLR model AUROC = 0.823 on internal test). [PMID:37397861](../papers/37397861.md)
+- HNSC genomic data made available through the cBioPortal for Cancer Genomics platform, enabling interactive exploration of somatic alterations [PMID:19176454](../papers/19176454.md)
 
 ## Subtypes
 
@@ -62,3 +63,6 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:37397861](../papers/37397861.md) — Multi-institutional prognostic ML challenge for HNSC: RADCURE cohort (n=2,552) + three external validation cohorts (n=873); Kim et al. 2023, Cancer Res Commun.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:19176454](../papers/19176454.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

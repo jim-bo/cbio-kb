@@ -4,8 +4,8 @@ oncotree_code: HGSOC
 main_type: Ovarian Cancer
 parent: SOC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # High-Grade Serous Ovarian Cancer (HGSOC)
@@ -30,6 +30,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [CDK12](../genes/CDK12.md) — SNVs used to assign patients to the tandem-duplicator-enriched subtype (per Wang et al.), overriding HRD-DDR variant evidence when present. [PMID:35764743](../papers/35764743.md)
 - [CCNE1](../genes/CCNE1.md) — amplification used to assign patients to the foldback-inversion-enriched subtype; copy number analyzed via MSK-IMPACT pipeline for MSKCC cases and downloaded from cBioPortal for TCGA-OV cases. [PMID:35764743](../papers/35764743.md)
 - High-grade serous ovarian cancer showed homologous recombination deficiency (HRD) in a significant proportion of cases with implications for PARP inhibitor sensitivity [PMID:36517593](../papers/36517593.md)
+- TCGA integrated genomic analysis of 489 HGSOC tumors found TP53 mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
 
 ## Subtypes
 
@@ -57,3 +58,6 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

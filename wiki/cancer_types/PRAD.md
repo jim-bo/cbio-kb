@@ -4,8 +4,8 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -33,6 +33,7 @@ OncoTree code for prostate adenocarcinoma.
 - [BRAF](../genes/BRAF.md) fusions in PRAD: [SND1](../genes/SND1.md) was the dominant 5' fusion partner in prostate adenocarcinoma [BRAF](../genes/BRAF.md) fusions (21% of PRAD BRAF fusions). [PMID:38922339](../papers/38922339.md)
 - No specific gene-level alterations identified for the oligometastatic hormone-sensitive state; genetic and transcriptomic profiling of hormone-sensitive localized and metastatic castration-resistant PRAD has been described but a hormone-sensitive oligometastatic data set was noted as "still unavailable." [PMID:28045614](../papers/28045614.md)
 - [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md) — deleterious MMR gene alterations in 75% of MSI-H/dMMR PRAD patients. [PMID:38949888](../papers/38949888.md)
+- Integrative genomic profiling of 218 PRAD tumors (MSKCC cohort) identified recurrent copy-number alterations and somatic mutations via SNP arrays and whole-exome sequencing [PMID:20579941](../papers/20579941.md)
 
 ## Subtypes
 
@@ -64,3 +65,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:28045614](../papers/28045614.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

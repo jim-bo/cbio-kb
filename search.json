@@ -38462,7 +38462,7 @@
     "href": "index.html#news",
     "title": "cbio-kb",
     "section": "News",
-    "text": "News\n\n2026-05-01 — Added 11 papers: the landmark 2008 TCGA glioblastoma interim analysis (PMID 18772890) plus 10 from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others."
+    "text": "News\n\n2026-05-06 — Added 12 papers spanning sarcoma genomics (PMID 20601955), lung adenocarcinoma somatic mutations (PMID 18948947), GIST germline variants (PMID 36593350), AURORA metastatic breast cancer multiomics (PMID 36585450), myoepithelial carcinoma WGS (PMID 36577525), bladder cancer primary-metastasis concordance (PMID 36543146), HGSOC TME atlas (PMID 36517593), KRASG12C-EGFR resistance in CRC (PMID 36355783), FBXO7-CHEK1 synthetic lethality (PMID 36334560), metastatic urothelial carcinoma molecular landscape (PMID 36333289), gallbladder cancer genomics (PMID 36228155), and NSCLC multimodal ICI prediction (PMID 36038778). Also shipped wiki append-citation CLI for 29% token-efficiency improvement.\n2026-05-01 — Added 11 papers: the landmark 2008 TCGA glioblastoma interim analysis (PMID 18772890) plus 10 from 2024–2025 covering MSK-CHORD multimodal NLP, MiMSI MSI classifier, PDAC MAPK-subtype atlas, HGSOC fallopian-tube precursor spatial atlas, normal-skin melanocyte cell-of-origin atlas, CALGB 90601 mUC cfDNA, and others."
   },
   {
     "objectID": "index.html#browse",

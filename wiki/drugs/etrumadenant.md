@@ -12,15 +12,15 @@ tags:
   - radioimmunotherapy
   - rectal-cancer
   - tumor-microenvironment
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # etrumadenant
 
 ## Overview
 
-Etrumadenant (AB928) is a small-molecule dual antagonist of the adenosine A2A receptor (ADORA2A) and A2B receptor (ADORA2B). Extracellular adenosine accumulates in the tumor microenvironment (TME) — particularly following radiation-induced cell death and ATP release — and suppresses anti-tumor immunity by activating A2A/A2B receptors on T cells, NK cells, and dendritic cells. By blocking adenosine signaling, etrumadenant aims to relieve immunosuppression in irradiated tumors and potentiate the adaptive immune response triggered by RT. Its combination with PD-1 blockade (zimberelimab) and chemotherapy (FOLFOX) in the context of short-course radiotherapy (SCRT) is being evaluated on the premise that RT-induced immunogenic cell death, adenosine-pathway blockade, and checkpoint inhibition may synergize to enhance pathological complete response (pCR) rates in rectal cancer.
+Etrumadenant (AB928) is a small-molecule dual antagonist of the adenosine A2A receptor (ADORA2A) and A2B receptor (ADORA2B). Extracellular adenosine accumulates in the tumor microenvironment (TME) — particularly following radiation-induced cell death and ATP release — and suppresses anti-tumor immunity by activating A2A/A2B receptors on T cells, NK cells, and dendritic cells. By blocking adenosine signaling, etrumadenant aims to relieve immunosuppression in irradiated tumors and potentiate the adaptive immune response triggered by RT. Its combination with PD-1 blockade ([zimberelimab](../drugs/zimberelimab.md)) and chemotherapy (FOLFOX) in the context of short-course radiotherapy (SCRT) is being evaluated on the premise that RT-induced immunogenic cell death, adenosine-pathway blockade, and checkpoint inhibition may synergize to enhance pathological complete response (pCR) rates in rectal cancer.
 
 ## Evidence in the corpus
 
@@ -39,6 +39,6 @@ No resistance mechanisms reported in the corpus at this time.
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; ImmunoRad MCT2 (NCT05024097) preliminary CR data with SCRT + etrumadenant + zimberelimab + FOLFOX in rectal cancer.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: [CD223]
 cancer_types: [HGSOC]
 tags: [immune-checkpoint, T-cell-exhaustion, ICI-target]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # LAG3
@@ -16,7 +16,7 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 ## Alterations observed in the corpus
 
 - LAG3 progressively upregulated on CD8+ T cells in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursor lesions across the progression axis (normal FT → p53 signature → STIC → invasive cancer); LAG3+ CD8+ T cells increase 3- to 7-fold; LAG3+ and PD1+LAG3+ double-positive CD8+ T cells increase from p53.I through STIC.C and cancer, defining exhaustion states. [PMID:39386723](../papers/39386723.md)
-- Approximately 14% of CD4+ T cells in HGSOC precursor specimens expressed LAG3, co-existing with other exhaustion/activation markers (HLA-DR, PD1). [PMID:39386723](../papers/39386723.md)
+- Approximately 14% of [CD4](../genes/CD4.md)+ T cells in [HGSOC](../cancer_types/HGSOC.md) precursor specimens expressed LAG3, co-existing with other exhaustion/activation markers (HLA-DR, PD1). [PMID:39386723](../papers/39386723.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +24,7 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with PDCD1 (PD-1), HAVCR2 (TIM-3), and [CTLA4](../genes/CTLA4.md) on CD8+ T cells across HGSOC precursor stages; PD1+LAG3+ double-positive cells represent the most exhausted T-cell compartment. [PMID:39386723](../papers/39386723.md)
+- Co-upregulated with [PDCD1](../genes/PDCD1.md) (PD-1), [HAVCR2](../genes/HAVCR2.md) (TIM-3), and [CTLA4](../genes/CTLA4.md) on CD8+ T cells across HGSOC precursor stages; PD1+LAG3+ double-positive cells represent the most exhausted T-cell compartment. [PMID:39386723](../papers/39386723.md)
 - LAG3 expression on CD4+ T cells co-exists with HLA-DR+ and PD1+ markers, indicating mixed activation/exhaustion states. [PMID:39386723](../papers/39386723.md)
 
 ## Therapeutic relevance
@@ -41,4 +41,4 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

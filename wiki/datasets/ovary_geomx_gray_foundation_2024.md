@@ -18,7 +18,7 @@ tags:
   - cycif
   - tumor-microenvironment
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Ovarian HGSOC Precursor Lesions — GeoMx Spatial Profiling (Gray Foundation 2024)
@@ -44,7 +44,7 @@ Multi-center spatial profiling dataset of 44 FFPE fallopian tube specimens from 
 
 ## Notable findings derived from this cohort
 
-- IFN-alpha and IFN-gamma pathway genes ([STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF9](../genes/IRF9.md), [IRF7](../genes/IRF7.md), [ISG15](../genes/ISG15.md), TAP1, [HLA-A](../genes/HLA-A.md)) significantly upregulated beginning at the p53 signature stage and persisting through STIC and invasive cancer. [PMID:39386723](../papers/39386723.md)
+- IFN-alpha and IFN-gamma pathway genes ([STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF9](../genes/IRF9.md), [IRF7](../genes/IRF7.md), [ISG15](../genes/ISG15.md), [TAP1](../genes/TAP1.md), [HLA-A](../genes/HLA-A.md)) significantly upregulated beginning at the p53 signature stage and persisting through STIC and invasive cancer. [PMID:39386723](../papers/39386723.md)
 - [HLA-E](../genes/HLA-E.md) progressively upregulated (p53.I median 4% to STIC.C 26% positive epithelial cells) as an immune evasion mechanism potentially inhibiting NK cell cytotoxicity via NKG2A engagement. [PMID:39386723](../papers/39386723.md)
 - cGAS-STING pathway activation via micronuclear rupture (BANF1-positive ruptured micronuclei with cGAS co-localization) observed as early as STIC.I lesions. [PMID:39386723](../papers/39386723.md)
 
@@ -52,4 +52,4 @@ Multi-center spatial profiling dataset of 44 FFPE fallopian tube specimens from 
 
 - cBioPortal study `ovary_geomx_gray_foundation_2024` [PMID:39386723](../papers/39386723.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

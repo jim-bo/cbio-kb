@@ -5,7 +5,7 @@ main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, upper-tract, fgfr3]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-05
 ---
 
 # Upper Tract Urothelial Carcinoma (UTUC)
@@ -23,6 +23,7 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - [FGFR3](../genes/FGFR3.md) — oncogenic alterations in 43% (81/187) of localized UTUC, the highest frequency across urothelial disease states in the cohort ([PMID:37682528](../papers/37682528.md)).
 - [FGFR3](../genes/FGFR3.md) R248C is enriched in upper-tract disease (22%, 18/81) versus bladder tumors (11%, 37/333; p=0.01) ([PMID:37682528](../papers/37682528.md)).
 - [PIK3CA](../genes/PIK3CA.md), [TSC1](../genes/TSC1.md), [CDKN2A](../genes/CDKN2A.md), [CDKN2B](../genes/CDKN2B.md), [KDM6A](../genes/KDM6A.md) — co-altered with [FGFR3](../genes/FGFR3.md) in urothelial carcinoma broadly, including upper-tract cases ([PMID:37682528](../papers/37682528.md)).
+- Upper tract urothelial carcinoma shared [FGFR3](../genes/FGFR3.md) alteration patterns with bladder urothelial carcinoma [PMID:36543146](../papers/36543146.md)
 
 ## Subtypes
 
@@ -31,10 +32,13 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 ## Therapeutic landscape
 
 - [erdafitinib](../drugs/erdafitinib.md) — UTUC patients were included in the 32-patient real-world metastatic urothelial carcinoma treatment cohort (ORR 40%, median PFS 2.8 months) ([PMID:37682528](../papers/37682528.md)).
-- Primary/metastatic FGFR3 discordance in 26% (7/27) of paired cases argues for metastatic-site or cfDNA profiling to guide [erdafitinib](../drugs/erdafitinib.md) selection in UTUC ([PMID:37682528](../papers/37682528.md)).
+- Primary/metastatic [FGFR3](../genes/FGFR3.md) discordance in 26% (7/27) of paired cases argues for metastatic-site or cfDNA profiling to guide [erdafitinib](../drugs/erdafitinib.md) selection in UTUC ([PMID:37682528](../papers/37682528.md)).
 
 ## Sources
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36543146](../papers/36543146.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

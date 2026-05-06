@@ -4,7 +4,7 @@ aliases: [MEKK1]
 cancer_types: []
 tags: [mapk, sarcoma, clonal-evolution, intra-tumoral-heterogeneity]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MAP3K1
@@ -23,7 +23,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-mutated with ARID2 and CRTC1 as clonal trunk events in SARC0075 across all four synchronous metastatic lesions; CNV landscape was substantially divergent despite SNV sharing, indicating ongoing subclonal diversification. [PMID:39305899](../papers/39305899.md)
+- Co-mutated with [ARID2](../genes/ARID2.md) and [CRTC1](../genes/CRTC1.md) as clonal trunk events in SARC0075 across all four synchronous metastatic lesions; CNV landscape was substantially divergent despite SNV sharing, indicating ongoing subclonal diversification. [PMID:39305899](../papers/39305899.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

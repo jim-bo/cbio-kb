@@ -16,15 +16,15 @@ tags:
   - ct
   - lung
   - validation-cohort
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCIA NSCLC-Radiomics Lung2 (Radboud)
 
 ## Overview
 
-The Lung2 collection is an independent NSCLC validation cohort assembled at Radboud University Medical Center (Nijmegen, Netherlands). It was used by Aerts et al. 2014 as the primary external validation set for the four-feature radiomic prognostic signature trained on Lung1. The dataset comprises 225 NSCLC patients with CT scans, manual delineations, and survival data. [PMID:24892406](../papers/24892406.md)
+The Lung2 collection is an independent [NSCLC](../cancer_types/NSCLC.md) validation cohort assembled at Radboud University Medical Center (Nijmegen, Netherlands). It was used by Aerts et al. 2014 as the primary external validation set for the four-feature radiomic prognostic signature trained on Lung1. The dataset comprises 225 NSCLC patients with CT scans, manual delineations, and survival data. [PMID:24892406](../papers/24892406.md)
 
 ## Composition
 
@@ -52,4 +52,4 @@ The Lung2 collection is an independent NSCLC validation cohort assembled at Radb
 - TCIA collection: NSCLC-Radiomics — https://www.cancerimagingarchive.net/collection/nsclc-radiomics/
 - [PMID:24892406](../papers/24892406.md) — Aerts et al. 2014, *Nature Communications*, DOI 10.1038/ncomms5006.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

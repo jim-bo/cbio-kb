@@ -6,7 +6,7 @@ canonical_source: msk
 unverified: false
 tags: [panel, ctdna, liquid-biopsy, msk]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-06
 genePanelId: ACCESS129
 ---
 
@@ -23,6 +23,7 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - [PMID:39289779](../papers/39289779.md) — MSK-ACCESS plasma ctDNA was compared with CSF ctDNA (MSK-IMPACT) in 31 patients with CNS tumors; 54% of alterations were shared between CSF and plasma, but CSF VAFs were markedly higher (median 36.4% vs. 2.3%, p < 0.01), demonstrating the superiority of CSF over plasma for CNS tumor monitoring [PMID:39289779](../papers/39289779.md).
 - [PMID:37769223](../papers/37769223.md) — MSK-ACCESS (129-gene panel, ~200,000x raw coverage with error suppression) used to profile cfDNA from 53 plasma samples of 51 advanced [HCC](../cancer_types/HCC.md) patients; detected genomic alterations in 90.6% of samples; complemented by matched tumor tissue profiled with MSK-IMPACT in 72.5% of patients [PMID:37769223](../papers/37769223.md).
 - [PMID:39147831](../papers/39147831.md) — MSK-ACCESS used to sequence plasma from 4,141 (discovery) and 1,426 (validation) patients across all cancer types; ctDNA detection was independently associated with VTE risk (HR 2.49); random survival forest model incorporating ACCESS ctDNA variables achieved c-index 0.74 for VTE prediction [PMID:39147831](../papers/39147831.md).
+- MSK-ACCESS liquid biopsy panel used for ctDNA profiling of patient 12 in a KRASG12C-mutant colorectal cancer cohort, detecting acquired [KRAS](../genes/KRAS.md) amplification (KRAS/Cen12 ratio 13.2 at progression vs 1.8 pretreatment) [PMID:36355783](../papers/36355783.md)
 
 ## Notes
 
@@ -37,4 +38,7 @@ Targeted (129 genes) sequencing of cfDNA via MSK-ACCESS on Illumina HiSeq sequen
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

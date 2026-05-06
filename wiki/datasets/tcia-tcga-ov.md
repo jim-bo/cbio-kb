@@ -16,8 +16,8 @@ tags:
   - tcga
   - ct
   - public-dataset
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCIA TCGA-OV CT Imaging Collection
@@ -38,11 +38,11 @@ The TCIA TCGA-OV imaging collection pairs pre-treatment contrast-enhanced CT sca
 
 ## Papers using this cohort
 
-- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: CT imaging from TCIA-TCGA-OV used as the radiology component for the 148 TCGA-OV patients in the multimodal HGSOC late-fusion prognostic study.
+- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: CT imaging from TCIA-TCGA-OV used as the radiology component for the 148 TCGA-OV patients in the multimodal [HGSOC](../cancer_types/HGSOC.md) late-fusion prognostic study.
 
 ## Notable findings derived from this cohort
 
-- Omental CT radiomics (Coif-wavelet GLCM autocorrelation, HLL wavelet) were prognostically informative (test c-index 0.53); adnexal radiomics were not significant after Benjamini–Hochberg correction. [PMID:35764743](../papers/35764743.md)
+- Omental CT [radiomics](../methods/radiomics.md) (Coif-wavelet GLCM autocorrelation, HLL wavelet) were prognostically informative (test c-index 0.53); adnexal radiomics were not significant after Benjamini–Hochberg correction. [PMID:35764743](../papers/35764743.md)
 - TCGA-OV CT scans acquired on varying scanner hardware relative to MSKCC scans (GE Medical Systems); the omental radiomic feature identified as prognostic was invariant to CT vendor and segmenting radiologist. [PMID:35764743](../papers/35764743.md)
 
 ## Sources
@@ -50,4 +50,4 @@ The TCIA TCGA-OV imaging collection pairs pre-treatment contrast-enhanced CT sca
 - TCIA collection: TCGA-OV — https://www.cancerimagingarchive.net/collection/tcga-ov/
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

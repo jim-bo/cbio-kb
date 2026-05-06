@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [immune-checkpoint, icr-signature, counter-regulation]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # CTLA4
@@ -21,7 +21,7 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 ## Cancer types (linked)
 
 - Colon adenocarcinoma — CTLA4 expression contributes to ICR-based stratification that outperforms CMS and MSI for prognosis [PMID:37202560](../papers/37202560.md).
-- [OV](../cancer_types/OV.md) (HGSOC) — CTLA4 upregulated on exhausted CD8+ T cells in STIC.I, STIC.C, and invasive cancer; marks progressive immune suppression preceding invasion [PMID:39386723](../papers/39386723.md).
+- [OV](../cancer_types/OV.md) ([HGSOC](../cancer_types/HGSOC.md)) — CTLA4 upregulated on exhausted CD8+ T cells in STIC.I, STIC.C, and invasive cancer; marks progressive immune suppression preceding invasion [PMID:39386723](../papers/39386723.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

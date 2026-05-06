@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody (IgG1)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # cetuximab
@@ -17,10 +17,11 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 
 ## Evidence in the corpus
 
-- In preclinical radiosensitization studies, C-MMAE (cetuximab conjugated to MMAE via MC-VC linker, DAR ~3.7) selectively radiosensitized EGFR+ tumor cells (CAL-27, CALU3, A549, SCC-61) but not EGFR-low LN229 cells, while the antibody-only control (cetuximab alone) showed no significant radiosensitization effect — distinguishing receptor-mediated payload delivery from EGFR signal inhibition [PMID:27698471](../papers/27698471.md).
-- C-MMAE accumulated in EGFR+ xenografts (CAL-27 HNSC; SCC-61, SCC-35, SQ-9G HNSC; A549 NSCLC; HCT-116 colon) by Cy5 fluorescence imaging after i.v. injection, persisting ≥72 h; LN229 (EGFR-low) did not accumulate C-MMAE [PMID:27698471](../papers/27698471.md).
+- In preclinical radiosensitization studies, C-MMAE (cetuximab conjugated to MMAE via MC-VC linker, DAR ~3.7) selectively radiosensitized [EGFR](../genes/EGFR.md)+ tumor cells (CAL-27, CALU3, A549, SCC-61) but not EGFR-low LN229 cells, while the antibody-only control (cetuximab alone) showed no significant radiosensitization effect — distinguishing receptor-mediated payload delivery from [EGFR](../genes/EGFR.md) signal inhibition [PMID:27698471](../papers/27698471.md).
+- C-MMAE accumulated in EGFR+ xenografts (CAL-27 [HNSC](../cancer_types/HNSC.md); SCC-61, SCC-35, SQ-9G [HNSC](../cancer_types/HNSC.md); A549 [NSCLC](../cancer_types/NSCLC.md); HCT-116 colon) by Cy5 fluorescence imaging after i.v. injection, persisting ≥72 h; LN229 (EGFR-low) did not accumulate C-MMAE [PMID:27698471](../papers/27698471.md).
 - In CAL-27 ([HNSC](../cancer_types/HNSC.md)) xenografts, C-MMAE + IR (3 Gy × 2 fractions) produced significantly greater tumour-growth delay than cetuximab + IR, free MMAE + IR, or co-administered free MMAE + cetuximab + IR (P<0.0001 by day 35); co-administration of free payload + antibody was inferior to the conjugate, demonstrating that covalent coupling is required for tumour-restricted radiosensitization [PMID:27698471](../papers/27698471.md).
-- The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in NSCLC or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery paradigm over signal inhibition alone [PMID:27698471](../papers/27698471.md).
+- The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in [NSCLC](../cancer_types/NSCLC.md) or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery paradigm over signal inhibition alone [PMID:27698471](../papers/27698471.md).
+- Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) to treat KRASG12C-mutant colorectal cancer; KRASG12C amplification identified as a recurrent acquired resistance mechanism, with mTOR inhibition (AZD8055) proposed as a senolytic strategy after drug withdrawal [PMID:36355783](../papers/36355783.md)
 
 ## Resistance mechanisms
 
@@ -35,4 +36,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

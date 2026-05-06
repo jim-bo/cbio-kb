@@ -10,7 +10,7 @@ assays: [targeted-panel]
 panels: []
 tags: [GIST, risk-stratification, adjuvant-therapy]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Gastrointestinal Stromal Tumor Genomic Risk Stratification, MSK, Clin Cancer Res 2023
@@ -36,7 +36,7 @@ MSKCC cohort of 501 [GIST](../cancer_types/GIST.md) patients (592 samples) diagn
 ## Notable findings derived from this cohort
 
 - Gastric [GIST](../cancer_types/GIST.md) high-risk markers: chr1p deletion or [SDHB](../genes/SDHB.md) loss; intermediate: chr14q deletion or absence of [KIT](../genes/KIT.md) exon 11 mutation [PMID:37477937](../papers/37477937.md).
-- Small bowel GIST high-risk markers: [MAX](../genes/MAX.md)/[MGA](../genes/MGA.md)/[MYC](../genes/MYC.md), [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) alterations; intermediate: chr1p deletion or chr5q amplification [PMID:37477937](../papers/37477937.md).
+- Small bowel [GIST](../cancer_types/GIST.md) high-risk markers: [MAX](../genes/MAX.md)/[MGA](../genes/MGA.md)/[MYC](../genes/MYC.md), [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) alterations; intermediate: chr1p deletion or chr5q amplification [PMID:37477937](../papers/37477937.md).
 - Genomic model both upgrades and downgrades patients vs Miettinen/NIH-Fletcher/Joensuu schemes, implying conventional models may mis-stratify adjuvant-era patients [PMID:37477937](../papers/37477937.md).
 - In 26 SDH-deficient GISTs, [TP53](../genes/TP53.md) mutations or chr1q amplification portend worse RFS/DSS [PMID:37477937](../papers/37477937.md).
 
@@ -44,4 +44,4 @@ MSKCC cohort of 501 [GIST](../cancer_types/GIST.md) patients (592 samples) diagn
 
 - cBioPortal study `gist_msk_2023` [PMID:37477937](../papers/37477937.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

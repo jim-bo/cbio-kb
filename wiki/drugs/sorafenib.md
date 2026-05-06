@@ -15,8 +15,8 @@ tags:
   - targeted-therapy
   - anti-angiogenic
   - braf-inhibitor
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-05
 ---
 
 # sorafenib
@@ -27,6 +27,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 
 ## Evidence in the corpus
 
+- [KDR](../genes/KDR.md) (VEGFR2) kinase domain mutations identified in [LUAD](../cancer_types/LUAD.md) (n=188, 4 kinase-domain variants, rare amplifications) suggest potential benefit from VEGFR inhibitors such as sorafenib in KDR-mutant tumours. [PMID:18948947](../papers/18948947.md)
 - In the UCLA PDTO sarcoma screen, sorafenib was one of the recurrent NCCN-listed top-five regimens identified for [osteosarcoma](../cancer_types/OS.md) samples, appearing as part of the actionable backbone for this histology alongside [regorafenib](../drugs/regorafenib.md), [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [doxorubicin](../drugs/doxorubicin.md), [cabozantinib](../drugs/cabozantinib.md), [gemcitabine](../drugs/gemcitabine.md), [docetaxel](../drugs/docetaxel.md), and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
 - PDTOs from patients with rapidly progressing tumors at follow-up showed increased sensitivity to sorafenib (p=0.042) compared to non-rapidly-progressing specimens. [PMID:39305899](../papers/39305899.md)
 
@@ -40,6 +41,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 
 ## Sources
 
+- [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 LUAD tumours; KDR kinase domain mutations implicate VEGFR inhibitors including sorafenib.
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; NCCN-listed osteosarcoma regimen; progressive-disease phenotype association.
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*

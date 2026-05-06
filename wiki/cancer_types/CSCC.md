@@ -5,14 +5,14 @@ main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Cutaneous Squamous Cell Carcinoma (CSCC)
 
 ## Overview
 
-Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of the skin, predominantly driven by UV-induced mutagenesis. It sits under the SKIN category in OncoTree. It typically evolves from normal skin through clonal field expansion, actinic keratosis (AK), and invasive carcinoma.
+Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of the skin, predominantly driven by UV-induced mutagenesis. It sits under the [SKIN](../cancer_types/SKIN.md) category in OncoTree. It typically evolves from normal skin through clonal field expansion, actinic keratosis (AK), and invasive carcinoma.
 
 ## Cohorts in the corpus
 
@@ -35,10 +35,10 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 ## Therapeutic landscape
 
 - High expression of immune checkpoint ligands (PVR, NECTIN2, CD274/PD-L1, CD80, CD86) and checkpoint receptors ([CTLA4](../genes/CTLA4.md), TIGIT, PD-1) at the invasive front of cSCC supports rationale for immune checkpoint inhibitor therapy. [PMID:39091884](../papers/39091884.md)
-- ARID2 loss-of-function mutations at the AK-to-cSCC transition may link SWI/SNF disruption to immune evasion, potentially informing immunotherapy strategies. [PMID:39091884](../papers/39091884.md)
+- [ARID2](../genes/ARID2.md) loss-of-function mutations at the AK-to-cSCC transition may link SWI/SNF disruption to immune evasion, potentially informing immunotherapy strategies. [PMID:39091884](../papers/39091884.md)
 
 ## Sources
 
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

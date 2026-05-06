@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ARMS, RMS, ULMS, UCEC]
 tags: [mediator-complex, hotspot, uterine]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MED12
@@ -24,7 +24,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 
 - [ARMS](../cancer_types/ARMS.md) — among the most common genomic events in the [ARMS](../cancer_types/ARMS.md) group of the MSKCC extremity [RMS](../cancer_types/RMS.md) cohort (n=61) [PMID:37315267](../papers/37315267.md).
 - Rhabdomyosarcoma (FP-RMS) — recurrent secondary alterations [PMID:37730754](../papers/37730754.md).
-- Uterine leiomyosarcoma (ULMS) — mutated in 15%; potential biomarker for ULMS molecular classification [PMID:38488807](../papers/38488807.md).
+- Uterine leiomyosarcoma ([ULMS](../cancer_types/ULMS.md)) — mutated in 15%; potential biomarker for ULMS molecular classification [PMID:38488807](../papers/38488807.md).
 - Serous endometrial carcinoma — hotspot mutations (p.G44A/D/S/R/V) enriched in Black patients (11% vs. 0%) [PMID:37651310](../papers/37651310.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -47,4 +47,4 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - [PMID:38488807](../papers/38488807.md)
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

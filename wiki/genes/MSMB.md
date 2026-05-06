@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [EGC]
 tags: [resistance, hypoxia, MAPK-pathway, scRNA-seq]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MSMB
@@ -15,7 +15,7 @@ MSMB (Microseminoprotein-beta) is a secreted protein with proposed tumor-suppres
 
 ## Alterations observed in the corpus
 
-- MSMB expression associated with trastuzumab + chemotherapy resistance in HER2+ esophagogastric cancer ([EGC](../cancer_types/EGC.md)) by single-cell RNA-seq analysis; linked to hypoxia-driven MAPK pathway activation; identified as a candidate future therapeutic target [PMID:37406106](../papers/37406106.md).
+- MSMB expression associated with [trastuzumab](../drugs/trastuzumab.md) + chemotherapy resistance in HER2+ esophagogastric cancer ([EGC](../cancer_types/EGC.md)) by single-cell RNA-seq analysis; linked to hypoxia-driven MAPK pathway activation; identified as a candidate future therapeutic target [PMID:37406106](../papers/37406106.md).
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ MSMB (Microseminoprotein-beta) is a secreted protein with proposed tumor-suppres
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [MT1H](../genes/MT1H.md), [MT1E](../genes/MT1E.md), and [MT2A](../genes/MT2A.md) (metallothioneins) as part of a resistance transcriptional program in HER2+ EGC escape lesions [PMID:37406106](../papers/37406106.md).
+- Co-expressed with [MT1H](../genes/MT1H.md), [MT1E](../genes/MT1E.md), and [MT2A](../genes/MT2A.md) (metallothioneins) as part of a resistance transcriptional program in HER2+ [EGC](../cancer_types/EGC.md) escape lesions [PMID:37406106](../papers/37406106.md).
 
 ## Therapeutic relevance
 
@@ -31,10 +31,10 @@ MSMB (Microseminoprotein-beta) is a secreted protein with proposed tumor-suppres
 
 ## Open questions
 
-- The scRNA-seq resistance program (MT1H, MT1E, MT2A, MSMB) was identified from a small sample; functional validation of the MAPK/hypoxia axis is needed.
+- The scRNA-seq resistance program ([MT1H](../genes/MT1H.md), [MT1E](../genes/MT1E.md), [MT2A](../genes/MT2A.md), MSMB) was identified from a small sample; functional validation of the MAPK/hypoxia axis is needed.
 
 ## Sources
 
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

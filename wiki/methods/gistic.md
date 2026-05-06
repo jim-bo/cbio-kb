@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # GISTIC
@@ -18,13 +18,16 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 ## Used by
 
 - Used to analyze DNA copy number data from 206 glioblastoma samples to identify significantly altered regions and core pathways [PMID:18772890](../papers/18772890.md).
+- Used alongside RAE to identify statistically significant somatic copy-number alterations in 207 high-grade soft tissue sarcoma samples across seven subtypes, including ~90% frequency of 12q amplification in [DDLS](../cancer_types/DDLS.md) [PMID:20601955](../papers/20601955.md).
 
 ## Notes
 
-- Helped identify frequent alterations in *[EGFR](../genes/EGFR.md)* (45%), *CDKN2A/B* (>50%), and other key drivers in GBM [PMID:18772890](../papers/18772890.md).
+- Helped identify frequent alterations in *[EGFR](../genes/EGFR.md)* (45%), *CDKN2A/B* (>50%), and other key drivers in [GBM](../cancer_types/GBM.md) [PMID:18772890](../papers/18772890.md).
+- Identified [CDK4](../genes/CDK4.md) and [MDM2](../genes/MDM2.md) as focal 12q amplification targets in DDLS; results informed functional shRNA validation and pharmacologic CDK4/CDK6 inhibition with [palbociclib](../drugs/palbociclib.md) [PMID:20601955](../papers/20601955.md).
 
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -19,7 +19,7 @@ tags:
   - genomics
   - public-dataset
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-05
 ---
 
 # MSK SPECTRUM Tumor Microenvironment Study (2022)
@@ -32,24 +32,28 @@ The MSK-SPECTRUM project (canonical cBioPortal studyId `msk_spectrum_tme_2022`) 
 
 - Cancer type: [HGSOC](../cancer_types/HGSOC.md), predominantly stage III/IV.
 - 36 prospective MSK-SPECTRUM patients contributed to the Boehm et al. 2022 multimodal cohort (as part of 296 total MSKCC cases). [PMID:35764743](../papers/35764743.md)
-- MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants (including [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) and CCNE1 CNA, plus COSMIC SBS3 detection via [SigMA](../methods/sigma-mutational-signatures.md). [PMID:35764743](../papers/35764743.md)
+- MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants (including [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) and [CCNE1](../genes/CCNE1.md) CNA, plus COSMIC SBS3 detection via [SigMA](../methods/sigma-mutational-signatures.md). [PMID:35764743](../papers/35764743.md)
 
 ## Assays / panels (linked)
 
-- [MSK-IMPACT](../methods/msk-impact-panel.md) targeted hybrid-capture sequencing (HRD-DDR gene variants, CCNE1 CNA).
+- [MSK-IMPACT](../methods/msk-impact-panel.md) targeted hybrid-capture sequencing (HRD-DDR gene variants, [CCNE1](../genes/CCNE1.md) CNA).
 
 ## Papers using this cohort
 
-- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 36 MSK-SPECTRUM patients (prospective arm) included as part of the 296-patient MSKCC cohort in the multimodal HGSOC late-fusion prognostic model.
+- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 36 MSK-SPECTRUM patients (prospective arm) included as part of the 296-patient MSKCC cohort in the multimodal [HGSOC](../cancer_types/HGSOC.md) late-fusion prognostic model.
 
 ## Notable findings derived from this cohort
 
 - HRD status inferred from MSK-IMPACT sequencing plus SigMA COSMIC SBS3 detection; 130 MSKCC cases had research consent for HRD calling (high-confidence SBS3 n=48, low-confidence n=30). [PMID:35764743](../papers/35764743.md)
 - The full MSK-SPECTRUM + MSKCC cohort contributed CT imaging (adnexal and omental), H&E WSIs, and genomic data; the multimodal late-fusion model leveraged partial-data cases to avoid restricting training to the 114 patients with complete four-modality data. [PMID:35764743](../papers/35764743.md)
+- Characterized the ovarian cancer tumor microenvironment using scRNA-seq and spatial transcriptomics across 36 [HGSOC](../cancer_types/HGSOC.md) samples, revealing immune cell composition and stromal cell interactions [PMID:36517593](../papers/36517593.md)
 
 ## Sources
 
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=msk_spectrum_tme_2022
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

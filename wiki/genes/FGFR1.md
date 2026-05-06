@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # FGFR1
@@ -26,7 +26,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [OS](../cancer_types/OS.md) — FGFR1 amplification enriched in RT-OS (17%) compared to sporadic [OS](../cancer_types/OS.md) (7%) [PMID:37350195](../papers/37350195.md).
 - [RMS](../cancer_types/RMS.md) — driver event in a subset of FN-RMS [PMID:37730754](../papers/37730754.md).
 - [PRAD](../cancer_types/PRAD.md) — elevated expression in bone metastases; epigenetically regulated via promoter methylation [PMID:38488813](../papers/38488813.md).
-- [RMS](../cancer_types/RMS.md) — FGFR1 gain on chr8 in SARC0133 associated with selective [infigratinib](../drugs/infigratinib.md) sensitivity (not dovitinib) in PDTO drug screening [PMID:39305899](../papers/39305899.md).
+- [RMS](../cancer_types/RMS.md) — FGFR1 gain on chr8 in SARC0133 associated with selective [infigratinib](../drugs/infigratinib.md) sensitivity (not [dovitinib](../drugs/dovitinib.md)) in PDTO drug screening [PMID:39305899](../papers/39305899.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -50,4 +50,4 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, mri, segmentation, glioma, brain-tumor, deep-learning]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 processed_by: crosslinker
 ---
 
@@ -18,7 +18,7 @@ GLISTRboost is a hybrid generative-discriminative brain tumor MRI segmentation a
 
 ## Used by
 
-- [PMID:28872634](../papers/28872634.md) — GLISTRboost used to generate initial tumor sub-region labels (ET, NET, ED) for 243 pre-operative mMRI scans (TCGA-GBM n=135, TCGA-LGG n=108); automated labels were then manually revised by a board-certified neuroradiologist; median DICE on BraTS'15 GBM training set was 0.92 (whole tumor), 0.88 (tumor core), 0.88 (enhancing tumor); median Jaccard agreement between automated and final manually-revised labels was 0.96 (whole tumor), 0.87 (tumor core), 0.86 (enhancing tumor) [PMID:28872634](../papers/28872634.md).
+- [PMID:28872634](../papers/28872634.md) — GLISTRboost used to generate initial tumor sub-region labels (ET, NET, ED) for 243 pre-operative mMRI scans (TCGA-GBM n=135, TCGA-LGG n=108); automated labels were then manually revised by a board-certified neuroradiologist; median DICE on BraTS'15 [GBM](../cancer_types/GBM.md) training set was 0.92 (whole tumor), 0.88 (tumor core), 0.88 (enhancing tumor); median Jaccard agreement between automated and final manually-revised labels was 0.96 (whole tumor), 0.87 (tumor core), 0.86 (enhancing tumor) [PMID:28872634](../papers/28872634.md).
 
 ## Notes
 
@@ -30,4 +30,4 @@ GLISTRboost is a hybrid generative-discriminative brain tumor MRI segmentation a
 
 - [PMID:28872634](../papers/28872634.md)
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

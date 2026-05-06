@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-06
 ---
 
 # AKT1
@@ -19,6 +19,9 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - One patient acquired an activating AKT1 mutation on [erdafitinib](../drugs/erdafitinib.md) (detected in serial cfDNA, 1/27) as a putative bypass resistance mechanism [PMID:37682528](../papers/37682528.md).
 - AKT1 point mutations exclusive to MG2 meningiomas (13%) in a 201-patient integrative molecular classification study; MG2 is the NF2-wildtype benign group enriched for TRAF7/AKT1/KLF4/SMO mutations [PMID:34433969](../papers/34433969.md).
 - AKT1 deletions acquired at relapse in fusion-positive rhabdomyosarcoma (FP-RMS) lacking other major secondary events, identified by ctDNA liquid biopsy (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
+- AKT1 was not somatically mutated in 207 high-grade soft tissue sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)); however, elevated phospho-AKT (Ser473/Thr308) served as a pathway readout in PIK3CA-mutant myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) tumors, particularly in helical-domain (E545K) mutants [PMID:20601955](../papers/20601955.md).
+- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours; fell below formal significance threshold given cohort size. [PMID:18948947](../papers/18948947.md)
+- AKT1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -43,5 +46,12 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:37730754](../papers/37730754.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

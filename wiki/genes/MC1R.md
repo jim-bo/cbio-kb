@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [melanocyte, pigmentation, UV-response, transcriptomic-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MC1R
@@ -23,7 +23,7 @@ MC1R (Melanocortin 1 Receptor) is a G-protein coupled receptor expressed on mela
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with other HighMut/differentiated melanocyte markers: HMOX1, ABCC2, [HERC2](../genes/HERC2.md), [LIPA](../genes/LIPA.md), [HLA-DPA1](../genes/HLA-DPA1.md). [PMID:39975212](../papers/39975212.md)
+- Co-expressed with other HighMut/differentiated melanocyte markers: [HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [HERC2](../genes/HERC2.md), [LIPA](../genes/LIPA.md), [HLA-DPA1](../genes/HLA-DPA1.md). [PMID:39975212](../papers/39975212.md)
 - Mutually exclusive with LowMut/neural-crest markers ([ITM2A](../genes/ITM2A.md), [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [PALLD](../genes/PALLD.md), [TAGLN](../genes/TAGLN.md), [MYL9](../genes/MYL9.md), etc.) at the transcriptome level. [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
@@ -39,4 +39,4 @@ MC1R (Melanocortin 1 Receptor) is a G-protein coupled receptor expressed on mela
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

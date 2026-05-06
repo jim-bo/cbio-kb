@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # SETD2
@@ -33,10 +33,10 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 ## Open questions
 
-- Mechanism linking SETD2 loss to improved immunotherapy response in LUAD remains unresolved [PMID:39506116](../papers/39506116.md).
+- Mechanism linking SETD2 loss to improved immunotherapy response in [LUAD](../cancer_types/LUAD.md) remains unresolved [PMID:39506116](../papers/39506116.md).
 
 ## Sources
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

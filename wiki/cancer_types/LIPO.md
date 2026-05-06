@@ -10,14 +10,14 @@ tags:
   - CDK4
   - MDM2
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # Liposarcoma (LIPO)
 
 ## Overview
 
-Liposarcoma is the most common soft-tissue sarcoma of adults, classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It encompasses several distinct subtypes including well-differentiated ([WDLS](../cancer_types/WDLS.md)), dedifferentiated (DDLS), myxoid/round-cell, and pleomorphic liposarcoma, with different molecular drivers and clinical behavior.
+Liposarcoma is the most common soft-tissue sarcoma of adults, classified under Soft Tissue Sarcoma in OncoTree (parent: SOFT_TISSUE). It encompasses several distinct subtypes including well-differentiated ([WDLS](../cancer_types/WDLS.md)), dedifferentiated ([DDLS](../cancer_types/DDLS.md)), myxoid/round-cell, and pleomorphic liposarcoma, with different molecular drivers and clinical behavior.
 
 ## Cohorts in the corpus
 
@@ -44,4 +44,4 @@ Liposarcoma is the most common soft-tissue sarcoma of adults, classified under S
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

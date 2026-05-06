@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # ERBB3
@@ -18,6 +18,9 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - ERBB3 identified among the recurrently altered genes in cervical cancer profiled by MSK-IMPACT (177 patients); specific frequency not reported in the primary narrative [PMID:37643132](../papers/37643132.md).
 - ERBB3 is part of the progenitor/migratory gene program shared between the postnatal human adrenal gland progenitor hC1 and the high-risk undifferentiated neuroblastoma nC3 cluster; identified as a significantly upregulated marker (FDR <0.01, Welch's t-test) [PMID:34493726](../papers/34493726.md).
 - Although the ErbB family paper names all four ErbB members in the context of tumour radioresistance, ERBB3 is not experimentally interrogated in the ADC radiosensitization experiments [PMID:27698471](../papers/27698471.md).
+- Identified as a significantly mutated gene in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); receptor tyrosine kinase in the ERBB family. [PMID:18948947](../papers/18948947.md)
+- ERBB3 V104M detected in CRC C106-resistant cells at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
+- ERBB3 amplification in 5% of [GBC](../cancer_types/GBC.md); mutations more frequent in T1/T2 primaries (16% vs 0%) [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +33,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 ## Therapeutic relevance
 
-- Neratinib (pan-HER kinase inhibitor targeting ERBB1, ERBB2, and ERBB4; reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
+- Neratinib (pan-HER kinase inhibitor targeting ERBB1, [ERBB2](../genes/ERBB2.md), and [ERBB4](../genes/ERBB4.md); reduces ERBB3 signaling) showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer [PMID:37643132](../papers/37643132.md).
 
 ## Open questions
 
@@ -41,4 +44,13 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

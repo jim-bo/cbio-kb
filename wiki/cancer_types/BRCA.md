@@ -4,8 +4,8 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-05
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -27,6 +27,7 @@ OncoTree code for invasive breast carcinoma.
 - [ERBB2](../genes/ERBB2.md) mutations and amplification detected in breast cancer CSF ctDNA [PMID:39289779](../papers/39289779.md).
 - [ERBB2](../genes/ERBB2.md) (HER2) surface expression in BT474 (HER2+) cells enables receptor-restricted T-MMAE/T-DM1 radiosensitization; [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) is FDA-approved for HER2+ metastatic breast cancer and was proposed for clinical evaluation with radiotherapy in HER2+ locally advanced disease. [PMID:27698471](../papers/27698471.md)
 - [TP53](../genes/TP53.md) was the most frequently altered gene across all tumor types in the CSF ctDNA cohort (49% of ctDNA-positive samples), including breast cancer [PMID:39289779](../papers/39289779.md).
+- Breast cancer patients with BRCA1/2 mutations demonstrated improved outcomes with PARP inhibitor therapy in a prospective study [PMID:36585450](../papers/36585450.md)
 
 ## Subtypes
 
@@ -48,3 +49,6 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:27698471](../papers/27698471.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

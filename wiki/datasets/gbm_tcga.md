@@ -18,14 +18,14 @@ tags:
   - wes
   - rna-seq
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-04
 ---
 
 # TCGA Glioblastoma Multiforme
 
 ## Overview
 
-The TCGA GBM study is the canonical genomic and transcriptomic dataset for glioblastoma multiforme, assembled by The Cancer Genome Atlas Research Network. It comprises multi-platform molecular profiling of glioblastoma tumours and is hosted on cBioPortal as `gbm_tcga`. The companion TCIA imaging collection ([tcia-tcga-gbm](../datasets/tcia-tcga-gbm.md)) provides matched multi-parametric MRI scans with expert-revised tumour segmentation labels and extracted radiomic features published by Bakas et al. 2017. [PMID:28872634](../papers/28872634.md)
+The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transcriptomic dataset for glioblastoma multiforme, assembled by The Cancer Genome Atlas Research Network. It comprises multi-platform molecular profiling of glioblastoma tumours and is hosted on cBioPortal as `gbm_tcga`. The companion TCIA imaging collection ([tcia-tcga-gbm](../datasets/tcia-tcga-gbm.md)) provides matched multi-parametric MRI scans with expert-revised tumour segmentation labels and extracted radiomic features published by Bakas et al. 2017. [PMID:28872634](../papers/28872634.md)
 
 ## Composition
 
@@ -46,7 +46,7 @@ The TCGA GBM study is the canonical genomic and transcriptomic dataset for gliob
 
 - Identified three core signaling pathways altered in nearly all GBMs: RTK/RAS/PI3K (88%), p53 (78%), and RB (88%). [PMID:18772890](../papers/18772890.md)
 - Characterized the spectrum of somatic mutations, identifying significantly mutated genes including *[TP53](../genes/TP53.md)*, *[PTEN](../genes/PTEN.md)*, *[NF1](../genes/NF1.md)*, *[EGFR](../genes/EGFR.md)*, *[ERBB2](../genes/ERBB2.md)*, *[RB1](../genes/RB1.md)*, *[PIK3R1](../genes/PIK3R1.md)*, and *[PIK3CA](../genes/PIK3CA.md)*. [PMID:18772890](../papers/18772890.md)
-- Discovered frequent activating mutations in *PIK3R1* (p85α regulatory subunit of PI3K) that disrupt interaction with p110α. [PMID:18772890](../papers/18772890.md)
+- Discovered frequent activating mutations in *[PIK3R1](../genes/PIK3R1.md)* (p85α regulatory subunit of PI3K) that disrupt interaction with p110α. [PMID:18772890](../papers/18772890.md)
 - Established that *[MGMT](../genes/MGMT.md)* promoter methylation, when combined with mismatch repair (MMR) gene mutations (e.g., *[MSH6](../genes/MSH6.md)*), is associated with a hypermutator phenotype in GBMs treated with alkylating agents. [PMID:18772890](../papers/18772890.md)
 - Bakas et al. 2017 released expert-revised segmentation labels for 135 GBM cases (from the originating set of 262), achieving median DICE of 0.92 for whole tumour, 0.88 for tumour core, and 0.88 for enhancing tumour versus GLISTRboost automated labels. These labels became the reference for BraTS'17. [PMID:28872634](../papers/28872634.md)
 - A panel of >700 radiomic features was extracted volumetrically from the manually revised labels, spanning intensity, volumetric, morphologic, texture (GLCM/GLRLM/GLSZM/NGTDM), wavelet, and glioma growth-model parameters — enabling downstream radiogenomic correlation with TCGA molecular profiles. [PMID:28872634](../papers/28872634.md)
@@ -57,4 +57,4 @@ The TCGA GBM study is the canonical genomic and transcriptomic dataset for gliob
 - TCGA GBM marker paper: Cancer Genome Atlas Research Network 2008, *Nature* (PMID 18772890).
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*, DOI 10.1038/sdata.2017.117.
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

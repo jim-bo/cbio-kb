@@ -5,8 +5,8 @@ cancer_types:
   - PTAD
   - ODG
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # CCND3
@@ -18,7 +18,7 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 ## Alterations observed in the corpus
 
 - Amplification acquired in a recurrent, treatment-refractory pituitary neuroendocrine tumor (patient TR-9), co-occurring with CDKN2A/CDKN2B loss and genome-wide loss of heterozygosity [PMID:38758238](../papers/38758238.md).
-- Expressed preferentially in differentiated (non-stem) tumor cells of grade II oligodendroglioma (IDH-mutant, 1p19q-codeleted); cyclin switching from CCND2 (stem/progenitor) to CCND1/CCND3 (differentiated) observed across 4,347 single cells from 6 tumors [PMID:27806376](../papers/27806376.md).
+- Expressed preferentially in differentiated (non-stem) tumor cells of grade II oligodendroglioma (IDH-mutant, 1p19q-codeleted); cyclin switching from [CCND2](../genes/CCND2.md) (stem/progenitor) to CCND1/CCND3 (differentiated) observed across 4,347 single cells from 6 tumors [PMID:27806376](../papers/27806376.md).
 
 ## Cancer types (linked)
 
@@ -42,4 +42,4 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

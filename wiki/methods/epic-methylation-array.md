@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [methylation, epigenetics, array]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-05
 ---
 
 # Illumina EPIC methylation array
@@ -18,6 +18,7 @@ The Illumina Infinium MethylationEPIC BeadChip (EPIC/850K array) measures DNA me
 ## Used by
 
 - [PMID:34433969](../papers/34433969.md) — Illumina EPIC methylation array used to profile 121 fresh-frozen meningiomas from the University Health Network Brain Tumor BioBank; six DNA methylation clusters were derived and integrated via COCA with CNA and mRNA clusters to define four stable molecular groups (MG1–MG4) for meningioma classification [PMID:34433969](../papers/34433969.md).
+- Illumina EPIC array applied to breast cancer specimens in AURORA cohort; identified [HLA-A](../genes/HLA-A.md) promoter DNA hypermethylation in 23 tumors (12 individuals), more frequent in metastases than primaries (P=0.035), correlating with reduced immune signatures [PMID:36585450](../papers/36585450.md)
 
 ## Notes
 
@@ -28,4 +29,7 @@ The Illumina Infinium MethylationEPIC BeadChip (EPIC/850K array) measures DNA me
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

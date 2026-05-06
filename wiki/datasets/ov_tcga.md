@@ -18,7 +18,7 @@ tags:
   - genomics
   - public-dataset
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-04
 ---
 
 # TCGA Ovarian Serous Cystadenocarcinoma (OV)
@@ -30,7 +30,7 @@ The TCGA ovarian serous cystadenocarcinoma study — canonical cBioPortal studyI
 ## Composition
 
 - Cancer type: [HGSOC](../cancer_types/HGSOC.md), predominantly stage III/IV.
-- 148 TCGA-OV patients contributed to the Boehm et al. 2022 multimodal HGSOC cohort (296 MSKCC + 148 TCGA-OV, total N=444). [PMID:35764743](../papers/35764743.md)
+- 148 TCGA-OV patients contributed to the Boehm et al. 2022 multimodal [HGSOC](../cancer_types/HGSOC.md) cohort (296 MSKCC + 148 TCGA-OV, total N=444). [PMID:35764743](../papers/35764743.md)
 - TCGA-OV cases used for CNA and SNV calls downloaded from cBioPortal, plus SBS3 frequencies from Synapse (syn11801889). HRD/HRP classification applied to TCGA cases using these calls. [PMID:35764743](../papers/35764743.md)
 
 ## Assays / panels (linked)
@@ -39,7 +39,7 @@ The TCGA ovarian serous cystadenocarcinoma study — canonical cBioPortal studyI
 
 ## Papers using this cohort
 
-- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 148 TCGA-OV patients (stage III/IV HGSOC) integrated with 296 MSKCC cases in a multimodal late-fusion prognostic model combining CT radiomics, H&E histopathology, and genomics.
+- [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*: 148 TCGA-OV patients (stage III/IV HGSOC) integrated with 296 MSKCC cases in a multimodal late-fusion prognostic model combining CT [radiomics](../methods/radiomics.md), H&E histopathology, and genomics.
 
 ## Notable findings derived from this cohort
 
@@ -51,4 +51,4 @@ The TCGA ovarian serous cystadenocarcinoma study — canonical cBioPortal studyI
 - cBioPortal study: https://www.cbioportal.org/study/summary?id=ov_tcga
 - [PMID:35764743](../papers/35764743.md) — Boehm et al. 2022, *Nature Cancer*.
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

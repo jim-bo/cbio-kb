@@ -5,14 +5,14 @@ cancer_types:
   - PTAD
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # DAXX
 
 ## Overview
 
-DAXX encodes a multifunctional protein involved in transcriptional regulation, apoptosis, and chromatin remodeling. Together with [ATRX](../genes/ATRX.md), DAXX forms a histone chaperone complex responsible for depositing the histone variant H3.3 at telomeres and pericentromeric heterochromatin. Loss-of-function mutations in DAXX (and ATRX) activate the alternative lengthening of telomeres (ALT) pathway, enabling telomere maintenance independent of telomerase. DAXX mutations are recurrent in pancreatic neuroendocrine tumors and have been identified in treatment-refractory corticotroph pituitary neuroendocrine tumors.
+DAXX encodes a multifunctional protein involved in transcriptional regulation, apoptosis, and chromatin remodeling. Together with [ATRX](../genes/ATRX.md), DAXX forms a histone chaperone complex responsible for depositing the histone variant H3.3 at telomeres and pericentromeric heterochromatin. Loss-of-function mutations in DAXX (and [ATRX](../genes/ATRX.md)) activate the alternative lengthening of telomeres (ALT) pathway, enabling telomere maintenance independent of telomerase. DAXX mutations are recurrent in pancreatic neuroendocrine tumors and have been identified in treatment-refractory corticotroph pituitary neuroendocrine tumors.
 
 ## Alterations observed in the corpus
 
@@ -24,7 +24,7 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 
 ## Co-occurrence and mutual exclusivity
 
-- DAXX mutations co-occur with ATRX mutations in treatment-refractory corticotroph PitNETs; also observed in the same tumors with TERT mutations (both found exclusively in refractory corticotroph tumors) [PMID:38758238](../papers/38758238.md).
+- DAXX mutations co-occur with ATRX mutations in treatment-refractory corticotroph PitNETs; also observed in the same tumors with [TERT](../genes/TERT.md) mutations (both found exclusively in refractory corticotroph tumors) [PMID:38758238](../papers/38758238.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +38,4 @@ DAXX encodes a multifunctional protein involved in transcriptional regulation, a
 
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

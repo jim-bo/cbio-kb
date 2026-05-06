@@ -18,8 +18,8 @@ tags:
   - segmentation
   - radiomics
   - tcga
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCIA TCGA-GBM MRI Collection
@@ -49,7 +49,7 @@ The TCIA TCGA-GBM collection provides pre-operative multi-parametric MRI scans f
 
 - Expert-revised labels vs. GLISTRboost automated labels: median DICE 0.92 (WT), 0.88 (TC), 0.88 (ET); median Jaccard 0.96 (WT), 0.87 (TC), 0.86 (ET) — manual revision most impacted core/enhancing sub-regions. [PMID:28872634](../papers/28872634.md)
 - 95th-percentile Hausdorff distances: 3.61 mm (WT), 4.06 mm (TC), 2.00 mm (ET). [PMID:28872634](../papers/28872634.md)
-- N=200 GBM cases overlap with BraTS'15 training set; N=23 with BraTS'15 testing set. The revised labels became the BraTS'17 reference standard. [PMID:28872634](../papers/28872634.md)
+- N=200 [GBM](../cancer_types/GBM.md) cases overlap with BraTS'15 training set; N=23 with BraTS'15 testing set. The revised labels became the BraTS'17 reference standard. [PMID:28872634](../papers/28872634.md)
 
 ## Sources
 
@@ -57,4 +57,4 @@ The TCIA TCGA-GBM collection provides pre-operative multi-parametric MRI scans f
 - cBioPortal genomic counterpart: [gbm_tcga](../datasets/gbm_tcga.md)
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*, DOI 10.1038/sdata.2017.117.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

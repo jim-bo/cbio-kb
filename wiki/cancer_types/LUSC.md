@@ -4,8 +4,8 @@ oncotree_code: LUSC
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # Lung Squamous Cell Carcinoma (LUSC)
@@ -24,6 +24,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 
 - [STK11](../genes/STK11.md) alterations differ in BM subtype: 22% in [LUAD](../cancer_types/LUAD.md) BM vs 0% in SCC BM (p=0.01) [PMID:37591896](../papers/37591896.md).
 - Analyzed within the broader [NSCLC](../cancer_types/NSCLC.md) ctDNA cohort where pathogenic [TP53](../genes/TP53.md), [EGFR](../genes/EGFR.md), or [KRAS](../genes/KRAS.md) alterations detected in ctDNA (vs tissue only) were associated with worse prognosis [PMID:36357680](../papers/36357680.md).
+- In a 247-patient advanced [NSCLC](../cancer_types/NSCLC.md) cohort (15% squamous/LUSC), multimodal DyAM model integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC, and genomics achieved AUC=0.80 for ICI response prediction; the model handles missing modalities and provides modality-specific risk scores enabling clinical interpretability [PMID:36038778](../papers/36038778.md)
 
 ## Subtypes
 
@@ -41,4 +42,6 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

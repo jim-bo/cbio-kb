@@ -11,7 +11,7 @@ tags:
   - targeted-therapy
   - hdac-inhibitor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # panobinostat
@@ -22,7 +22,7 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 
 ## Evidence in the corpus
 
-- In the UCLA PDTO sarcoma screen, bortezomib + panobinostat was among the top-ranked matched regimens tested in a patient-level clinical application (n=5 matched-therapy patients). Normalized organoid viability correlated with time-to-next-treatment across the n=5 matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
+- In the UCLA PDTO sarcoma screen, [bortezomib](../drugs/bortezomib.md) + panobinostat was among the top-ranked matched regimens tested in a patient-level clinical application (n=5 matched-therapy patients). Normalized organoid viability correlated with time-to-next-treatment across the n=5 matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
 - Chordoma PDTOs were significantly less sensitive to [bortezomib](../drugs/bortezomib.md) (p=1.8×10⁻⁵) than the pan-sarcoma average; panobinostat was not explicitly tested in a subtype-stratified analysis in the reported data. [PMID:39305899](../papers/39305899.md)
 
 ## Resistance mechanisms
@@ -37,4 +37,4 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; bortezomib + panobinostat matched-therapy case series.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

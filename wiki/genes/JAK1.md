@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD]
 tags: [kinase, JAK-STAT, MSI, immunotherapy-resistance, mismatch-repair]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # JAK1
@@ -15,7 +15,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 
 ## Alterations observed in the corpus
 
-- JAK1 is mutated in 24% of dMMR/MSI-H gynecologic cancers (endometrial, cervical, ovarian) in a phase 2 trial of [nivolumab](../drugs/nivolumab.md) (n=35); previously implicated in resistance to immunotherapy, but no significant association with nivolumab response or resistance was observed in this cohort [PMID:38653864](../papers/38653864.md).
+- JAK1 is mutated in 24% of dMMR/MSI-H gynecologic cancers (endometrial, cervical, ovarian) in a phase 2 trial of [nivolumab](../drugs/nivolumab.md) (n=35); previously implicated in resistance to immunotherapy, but no significant association with [nivolumab](../drugs/nivolumab.md) response or resistance was observed in this cohort [PMID:38653864](../papers/38653864.md).
 - JAK1 mutation rate is higher in MSI-H/dMMR prostate cancer (56%) vs TMB-H/MSS (15%) and TMB-L/MSS (32%, p<0.001) prostate cancer; enrichment in MSI-H/dMMR is likely due to a microsatellite tract within JAK1 making it a passenger mutation in this hypermutated context [PMID:38949888](../papers/38949888.md).
 
 ## Cancer types (linked)
@@ -40,4 +40,4 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

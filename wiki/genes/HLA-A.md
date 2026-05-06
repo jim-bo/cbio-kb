@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-05
 ---
 
 # HLA-A
@@ -15,8 +15,10 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 ## Alterations observed in the corpus
 
-- HLA-A is significantly upregulated beginning at the p53 signature stage in HGSOC fallopian tube precursors, as part of IFN-alpha and IFN-gamma pathway activation (including [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF9](../genes/IRF9.md), [IRF7](../genes/IRF7.md), [ISG15](../genes/ISG15.md), TAP1); upregulation persists through STIC and invasive cancer [PMID:39386723](../papers/39386723.md).
+- HLA-A is significantly upregulated beginning at the p53 signature stage in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursors, as part of IFN-alpha and IFN-gamma pathway activation (including [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF9](../genes/IRF9.md), [IRF7](../genes/IRF7.md), [ISG15](../genes/ISG15.md), [TAP1](../genes/TAP1.md)); upregulation persists through STIC and invasive cancer [PMID:39386723](../papers/39386723.md).
 - In STIC.C and invasive cancer epithelial cells, HLA-A is co-expressed with [MX1](../genes/MX1.md), defining a classical antigen-presentation program active in late-stage lesions [PMID:39386723](../papers/39386723.md).
+- Epigenetically silenced via promoter hypermethylation and focal deletions in breast cancer metastases; correlated with reduced HLA-A protein expression (Spearman rho=0.6, P=0.0001) and lower immune cell infiltrates [PMID:36585450](../papers/36585450.md)
+- MHC class I gene highly expressed in [HGSOC](../cancer_types/HGSOC.md) Cancer.cell.3 cluster; subject to LOH-mediated loss in 6p as immune escape mechanism [PMID:36517593](../papers/36517593.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +26,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [HLA-E](../genes/HLA-E.md), [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), and MX1 as part of the IFN pathway response in HGSOC precursors [PMID:39386723](../papers/39386723.md).
+- Co-upregulated with [HLA-E](../genes/HLA-E.md), [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), and [MX1](../genes/MX1.md) as part of the IFN pathway response in HGSOC precursors [PMID:39386723](../papers/39386723.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +40,10 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

@@ -4,7 +4,7 @@ aliases: [SHIP2]
 cancer_types: []
 tags: [phosphatase, PI3K-pathway, BRAF-fusion-co-alteration]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # INPPL1
@@ -15,7 +15,7 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 
 ## Alterations observed in the corpus
 
-- INPPL1 is mutated in 33% of BRAF fusion-positive colorectal cancers (co-occurring with [RNF43](../genes/RNF43.md) 64%, [TP53](../genes/TP53.md) 57%, [KMT2D](../genes/KMT2D.md) 43%, [MSH3](../genes/MSH3.md) 42%, [ARID1A](../genes/ARID1A.md) 36%) in a tumor-agnostic analysis of 212 patients with BRAF fusions across 52 histologies at MSK [PMID:38922339](../papers/38922339.md).
+- INPPL1 is mutated in 33% of [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers (co-occurring with [RNF43](../genes/RNF43.md) 64%, [TP53](../genes/TP53.md) 57%, [KMT2D](../genes/KMT2D.md) 43%, [MSH3](../genes/MSH3.md) 42%, [ARID1A](../genes/ARID1A.md) 36%) in a tumor-agnostic analysis of 212 patients with BRAF fusions across 52 histologies at MSK [PMID:38922339](../papers/38922339.md).
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-mutated with [RNF43](../genes/RNF43.md) (64%), TP53 (57%), [KMT2D](../genes/KMT2D.md) (43%), [MSH3](../genes/MSH3.md) (42%), and [ARID1A](../genes/ARID1A.md) (36%) in BRAF fusion-positive colorectal cancers; BRAF fusions are mutually exclusive with other MAPK pathway alterations in this context [PMID:38922339](../papers/38922339.md).
+- Co-mutated with [RNF43](../genes/RNF43.md) (64%), [TP53](../genes/TP53.md) (57%), [KMT2D](../genes/KMT2D.md) (43%), [MSH3](../genes/MSH3.md) (42%), and [ARID1A](../genes/ARID1A.md) (36%) in BRAF fusion-positive colorectal cancers; BRAF fusions are mutually exclusive with other MAPK pathway alterations in this context [PMID:38922339](../papers/38922339.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ INPPL1 (SHIP2) is a phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase that 
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

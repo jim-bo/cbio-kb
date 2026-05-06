@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Endometrial Carcinoma (UCEC)
@@ -28,7 +28,7 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [ERBB2](../genes/ERBB2.md) — amplification enriched in Black patients (12% vs. 3%, q<0.001); therapeutic target for [trastuzumab](../drugs/trastuzumab.md) and T-DXd. [PMID:37651310](../papers/37651310.md)
 - [ARID1A](../genes/ARID1A.md) — mutations less frequent in Black patients (19% vs. 47%); mutated in 82% of dMMR/MSI-H cohort. [PMID:37651310](../papers/37651310.md) [PMID:38653864](../papers/38653864.md)
 - [MLH1](../genes/MLH1.md) — promoter hypermethylation in 66% of dMMR/MSI-H cohort; somatic/germline mutations in 30%. [PMID:38653864](../papers/38653864.md)
-- [SETD1B](../genes/SETD1B.md) — mutations in 58% of nivolumab responders vs. 14% non-responders (P=0.015). [PMID:38653864](../papers/38653864.md)
+- [SETD1B](../genes/SETD1B.md) — mutations in 58% of [nivolumab](../drugs/nivolumab.md) responders vs. 14% non-responders (P=0.015). [PMID:38653864](../papers/38653864.md)
 - [MEGF8](../genes/MEGF8.md) — mutations in 32% of nivolumab responders vs. 0% non-responders (P=0.027). [PMID:38653864](../papers/38653864.md)
 - [POLE](../genes/POLE.md) — exonuclease domain mutations rare in Black patients (1.2% vs. 5.8%); favorable prognosis subtype. [PMID:37651310](../papers/37651310.md)
 - [KMT2B](../genes/KMT2B.md) — mutations enriched in CN-H/TP53abn ECs (16% vs. 8%) and carcinosarcomas (31% vs. 10%) from Black patients. [PMID:37651310](../papers/37651310.md)
@@ -45,7 +45,7 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 
 - Nivolumab in dMMR/MSI-H UCEC: ORR 58.8% (7 CRs, 13 PRs), PFS24 64.7%, median PFS 21.6 months; TMB and PD-L1 were not predictive within dMMR-selected population. [PMID:38653864](../papers/38653864.md)
 - T cell functional states (dysfunctional CD8+PD-1+, terminally dysfunctional CD8+PD-1+TOX+) and spatial proximity to PD-L1+ cells predict nivolumab benefit (AUC=0.897, P=0.0007). [PMID:38653864](../papers/38653864.md)
-- [ERBB2](../genes/ERBB2.md) amplification in Black patients represents a therapeutic opportunity with trastuzumab and T-DXd (including low-HER2-expressing carcinosarcomas). [PMID:37651310](../papers/37651310.md)
+- [ERBB2](../genes/ERBB2.md) amplification in Black patients represents a therapeutic opportunity with [trastuzumab](../drugs/trastuzumab.md) and T-DXd (including low-HER2-expressing carcinosarcomas). [PMID:37651310](../papers/37651310.md)
 - [CCNE1](../genes/CCNE1.md) amplification (enriched in Black patients) is a potential target for WEE1 inhibitors, [ATR](../genes/ATR.md) inhibitors, and PKMYT1 kinase inhibitors. [PMID:37651310](../papers/37651310.md)
 - Only 22.4% of Black patients had OncoKB Level 1/2/3A actionable alterations vs. 39.7% of White patients (P<0.001), underscoring need for more diverse clinical trials. [PMID:37651310](../papers/37651310.md)
 
@@ -54,4 +54,4 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 - [PMID:38653864](../papers/38653864.md) — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

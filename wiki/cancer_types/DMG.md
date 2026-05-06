@@ -4,8 +4,8 @@ oncotree_code: DMG
 main_type: Gliomas, Glioneuronal Tumors, and Neuronal Tumors
 parent: PDIFHG
 tags: [pediatric, glioma, radiation, intra-tumoral-heterogeneity]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Diffuse Midline Glioma, H3 K27-Altered (DMG)
@@ -17,7 +17,7 @@ Diffuse midline glioma, H3 K27-altered (DMG) is a high-grade pediatric brain tum
 ## Cohorts in the corpus
 
 - ROBIN KIDSROBIN PNOC023 cooperative study (Harvard University and University of California, San Francisco) — 33 patients accrued to arms A and B; biospecimen collection ongoing. [PMID:41941260](../papers/41941260.md)
-- KIDSROBIN radiomics cohort — 2,039 serial MRI scans from 253 DMG patients secured for radiomics and NLP studies; 8,057 clinical notes from 99 DMG patients for NLP. [PMID:41941260](../papers/41941260.md)
+- KIDSROBIN [radiomics](../methods/radiomics.md) cohort — 2,039 serial MRI scans from 253 DMG patients secured for radiomics and NLP studies; 8,057 clinical notes from 99 DMG patients for NLP. [PMID:41941260](../papers/41941260.md)
 
 ## Recurrent alterations
 
@@ -39,6 +39,6 @@ No molecular subtypes distinguished in the corpus beyond the H3 K27-altered defi
 
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

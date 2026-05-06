@@ -8,7 +8,7 @@ tags:
   - replication-stress
   - kinase
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # ATR
@@ -31,7 +31,7 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 
 ## Therapeutic relevance
 
-- Recurrent DDR gene alterations (ATR, ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) in ATC rationalize investigation of PARP inhibitors and ATR/ATM inhibitor combinations in this aggressive cancer type [PMID:38412093](../papers/38412093.md).
+- Recurrent DDR gene alterations (ATR, [ATM](../genes/ATM.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)) in ATC rationalize investigation of PARP inhibitors and ATR/ATM inhibitor combinations in this aggressive cancer type [PMID:38412093](../papers/38412093.md).
 
 ## Open questions
 
@@ -41,4 +41,4 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antiangiogenic]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # lenvatinib
@@ -17,7 +17,7 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 
 ## Evidence in the corpus
 
-- Lenvatinib in combination with [pembrolizumab](../drugs/pembrolizumab.md) is an FDA-approved regimen for MSS/pMMR endometrial carcinoma; Black EC patients are enriched for this pMMR/MSS subtype (69% of Black ECs were CN-H/TP53abn), potentially making lenvatinib+pembrolizumab the applicable regimen for a larger proportion of Black than White EC patients [PMID:37651310](../papers/37651310.md).
+- Lenvatinib in combination with [pembrolizumab](../drugs/pembrolizumab.md) is an FDA-approved regimen for MSS/pMMR endometrial carcinoma; Black EC patients are enriched for this pMMR/MSS subtype (69% of Black ECs were CN-H/TP53abn), potentially making lenvatinib+[pembrolizumab](../drugs/pembrolizumab.md) the applicable regimen for a larger proportion of Black than White EC patients [PMID:37651310](../papers/37651310.md).
 - [ERBB2](../genes/ERBB2.md) amplification, enriched in Black EC patients (12% vs 3%), represents an alternative target that may partly explain why fewer Black patients are eligible for standard dMMR-targeting agents like [dostarlimab](../drugs/dostarlimab.md), shifting the therapeutic landscape toward anti-HER2 and lenvatinib-based strategies [PMID:37651310](../papers/37651310.md).
 - In a PDTO functional screen of 92 sarcoma specimens, tumors with prior systemic therapy were more sensitive to lenvatinib than treatment-naïve specimens (p=0.011), suggesting that prior treatment may induce adaptive dependence on VEGFR/FGFR signaling [PMID:39305899](../papers/39305899.md).
 
@@ -35,4 +35,4 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

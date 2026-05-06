@@ -7,7 +7,7 @@ tags:
   - rb-pathway
   - cell-cycle
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-05
 ---
 
 # CDK6
@@ -19,6 +19,7 @@ processed_at: 2026-05-02
 ## Alterations observed in the corpus
 
 - **Amplification/Alteration**: Observed in 1% of glioblastoma samples as part of the core RB pathway alterations [PMID:18772890](../papers/18772890.md).
+- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member co-altered with [CDK4](../genes/CDK4.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B. [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -28,4 +29,7 @@ processed_at: 2026-05-02
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

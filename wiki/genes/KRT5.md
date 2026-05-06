@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [keratinocyte-marker, cell-identity, transcriptomic-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # KRT5
@@ -15,7 +15,7 @@ KRT5 (Keratin 5) is an intermediate filament protein and a hallmark marker of ba
 
 ## Alterations observed in the corpus
 
-- Used as a keratinocyte lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with KRT14 and [KRT17](../genes/KRT17.md) to confirm keratinocyte identity in cell-type deconvolution. No somatic alterations reported. [PMID:39975212](../papers/39975212.md)
+- Used as a keratinocyte lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with [KRT14](../genes/KRT14.md) and [KRT17](../genes/KRT17.md) to confirm keratinocyte identity in cell-type deconvolution. No somatic alterations reported. [PMID:39975212](../papers/39975212.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ KRT5 (Keratin 5) is an intermediate filament protein and a hallmark marker of ba
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with KRT14 and KRT17 in keratinocytes; mutually exclusive with melanocyte markers ([PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), [MLANA](../genes/MLANA.md), [MITF](../genes/MITF.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
+- Co-expressed with KRT14 and [KRT17](../genes/KRT17.md) in keratinocytes; mutually exclusive with melanocyte markers ([PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), [MLANA](../genes/MLANA.md), [MITF](../genes/MITF.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ KRT5 (Keratin 5) is an intermediate filament protein and a hallmark marker of ba
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

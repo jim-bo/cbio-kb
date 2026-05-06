@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # FAT1
@@ -17,7 +17,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 - Identified as a recurrently altered gene in subset analyses of nodal peripheral T-cell lymphoma profiled on MSK-IMPACT [PMID:37078708](../papers/37078708.md).
 - Recurrent SNVs identified by SeqSig analysis in anaplastic thyroid carcinoma (ATC); co-observed with [MET](../genes/MET.md), [NOTCH1](../genes/NOTCH1.md), [SPEN](../genes/SPEN.md), and [TET1](../genes/TET1.md) as recurrently mutated genes [PMID:38412093](../papers/38412093.md).
-- Hippo pathway-activating mutations observed in individual normal keratinocytes during evolution toward cutaneous squamous cell carcinoma (cSCC); less common than [TP53](../genes/TP53.md) and NOTCH1 in this context [PMID:39091884](../papers/39091884.md).
+- Hippo pathway-activating mutations observed in individual normal keratinocytes during evolution toward cutaneous squamous cell carcinoma (cSCC); less common than [TP53](../genes/TP53.md) and [NOTCH1](../genes/NOTCH1.md) in this context [PMID:39091884](../papers/39091884.md).
 
 ## Cancer types (linked)
 
@@ -43,4 +43,4 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

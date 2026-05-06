@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC]
 tags: [histone-methyltransferase, immunotherapy-response, chromatin-remodeling]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # SETD1B
@@ -19,7 +19,7 @@ SETD1B encodes a histone lysine methyltransferase. In the corpus, SETD1B mutatio
 
 ## Cancer types (linked)
 
-- [UCEC](../cancer_types/UCEC.md) — candidate genomic biomarker for response to nivolumab in dMMR/MSI-H gynecologic cancers [PMID:38653864](../papers/38653864.md).
+- [UCEC](../cancer_types/UCEC.md) — candidate genomic biomarker for response to [nivolumab](../drugs/nivolumab.md) in dMMR/MSI-H gynecologic cancers [PMID:38653864](../papers/38653864.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +37,4 @@ SETD1B encodes a histone lysine methyltransferase. In the corpus, SETD1B mutatio
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [spatial-transcriptomics, transcriptomics, digital-spatial-profiling]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # GeoMx Whole Transcriptome Atlas (WTA)
@@ -17,7 +17,7 @@ NanoString GeoMx Digital Spatial Profiler with Whole Transcriptome Atlas (WTA) i
 
 ## Used by
 
-- [PMID:39386723](../papers/39386723.md) — GeoMx WTA was applied to 35 fallopian tube specimens ([HGSOC](../cancer_types/HGSOC.md) precursors: normal FTE, SCOUT, STIC, invasive HGSOC) with >600 ROIs profiled; identified progressive transcriptomic changes from FTE through STIC to invasive HGSOC, including upregulation of immune checkpoint ligands (PVR, NECTIN2) and downregulation of NK cell activating ligands [PMID:39386723](../papers/39386723.md).
+- [PMID:39386723](../papers/39386723.md) — GeoMx WTA was applied to 35 fallopian tube specimens ([HGSOC](../cancer_types/HGSOC.md) precursors: normal FTE, SCOUT, STIC, invasive [HGSOC](../cancer_types/HGSOC.md)) with >600 ROIs profiled; identified progressive transcriptomic changes from FTE through STIC to invasive HGSOC, including upregulation of immune checkpoint ligands (PVR, NECTIN2) and downregulation of NK cell activating ligands [PMID:39386723](../papers/39386723.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ NanoString GeoMx Digital Spatial Profiler with Whole Transcriptome Atlas (WTA) i
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-06
 ---
 
 # CDKN2A
@@ -21,7 +21,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A/CDKN2B alterations were enriched in [NSCLC](../cancer_types/NSCLC.md) brain metastases compared with primary tumors (34% BM vs 13% PT; p=0.003, q=0.04), with cell-cycle pathway alterations 56% BM vs 32% PT (p=0.004, q=0.041) driven by CDKN2A/B; in the [LUAD](../cancer_types/LUAD.md) subset the enrichment persisted (31% BM vs 18% PT; p=0.004) [PMID:37591896](../papers/37591896.md).
 - Frequently co-altered with [FGFR3](../genes/FGFR3.md) in urothelial carcinoma (alongside [CDKN2B](../genes/CDKN2B.md) and [KDM6A](../genes/KDM6A.md)) in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - Homozygous CDKN2A/B deletion ("molecular grade-high") drove ~2x faster tumor-volume growth (19.17% per 6 months vs 9.54%) in IDH-mutant WHO Grade 2 low-grade glioma on active surveillance, supporting WHO 2021 Grade 4 upgrade [PMID:37910594](../papers/37910594.md).
-- High small bowel [GIST](../cancer_types/GIST.md) risk class in an elastic-net Cox genomic risk model was defined in part by CDKN2A alterations (along with [RB1](../genes/RB1.md) and MAX/MGA/MYC) [PMID:37477937](../papers/37477937.md).
+- High small bowel [GIST](../cancer_types/GIST.md) risk class in an [elastic-net](../methods/elastic-net.md) Cox genomic risk model was defined in part by CDKN2A alterations (along with [RB1](../genes/RB1.md) and MAX/MGA/MYC) [PMID:37477937](../papers/37477937.md).
 - Alterations (loss/mutation) enriched in average-onset esophagogastric cancer vs. early-onset (22% vs. 11%, P<0.001, Q=0.011); associated with worse survival (HR=1.55, P<0.001) [PMID:37406106](../papers/37406106.md) [PMID:37699004](../papers/37699004.md).
 - Loss-of-function mutations rare in normal skin keratinocytes but recurrent in actinic keratoses; 9p allelic imbalance affecting CDKN2A observed in cSCC evolutionary trajectories [PMID:39091884](../papers/39091884.md).
 - Homozygous deletion is a diagnostic molecular marker for CNS WHO grade 4 IDH-mutant astrocytoma; associated with radiotherapy-related acquisition at tumor recurrence [PMID:38117484](../papers/38117484.md).
@@ -40,10 +40,12 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - In 2,336 PDAC patients sequenced with MSK-IMPACT ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), CDKN2A/CDKN2B alteration rate climbed with stage from 44% (resectable) to 60% (metastatic), P = 6.9 × 10⁻⁵; this stage-dependent increase identifies CDKN2A/B loss as a marker of disease progression in PDAC [PMID:39753968](../papers/39753968.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions were nearly universal in RT-[MPNST](../cancer_types/MPNST.md) (92% vs 44% sporadic), present in 29% of RT-[MFH](../cancer_types/MFH.md) (UPS) and 33% of RT-[OS](../cancer_types/OS.md), but almost absent in RT-[ANGS](../cancer_types/ANGS.md) (2%) in a comparative genomic analysis of 82 radiation-associated sarcomas [PMID:37350195](../papers/37350195.md).
 - Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the p53 pathway (as *p14ARF*, 49% altered) and RB pathway (as *p16INK4A*) [PMID:18772890](../papers/18772890.md).
+- 9 mutations plus frequent focal deletions identified in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort). [PMID:18948947](../papers/18948947.md)
+- CDKN2A deletions in 14% and mutations in 9% of [GBC](../cancer_types/GBC.md); part of frequent oncogenic CNAs [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
-- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk OS marker [PMID:37078708](../papers/37078708.md).
+- Peripheral T-cell lymphoma (notably [MEITL](../cancer_types/MEITL.md)) — CDKN2A deletion is a rare but very high-risk [OS](../cancer_types/OS.md) marker [PMID:37078708](../papers/37078708.md).
 - [LUAD](../cancer_types/LUAD.md) — CDKN2A loss shortens time to metastasis and is enriched in CNS/liver mets [PMID:37084736](../papers/37084736.md).
 - [NSCLC](../cancer_types/NSCLC.md) brain metastasis — CDKN2A/B deletions are enriched vs primaries, marking cell-cycle dysregulation as near-obligate for BM development [PMID:37591896](../papers/37591896.md).
 - Extremity alveolar [RMS](../cancer_types/RMS.md) — CDKN2A deletion is recurrent and adverse [PMID:37315267](../papers/37315267.md).
@@ -53,7 +55,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [MFH](../cancer_types/MFH.md) (UPS) — CDKN2A/B deletions in 29% of RT-UPS [PMID:37350195](../papers/37350195.md).
 - [OS](../cancer_types/OS.md) — CDKN2A/B deletions in 33% of RT-OS [PMID:37350195](../papers/37350195.md).
 - [ANGS](../cancer_types/ANGS.md) — CDKN2A/B deletions rare (2%) in RT-AS, distinguishing it from other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
-- [EGC](../cancer_types/EGC.md) ([EGC](../cancer_types/EGC.md)/[STAD](../cancer_types/STAD.md)/[ESCA](../cancer_types/ESCA.md)) — enriched in average-onset disease (22% vs 11%); associated with inferior PFS and OS [PMID:37406106](../papers/37406106.md) [PMID:37699004](../papers/37699004.md).
+- [EGC](../cancer_types/EGC.md) ([EGC](../cancer_types/EGC.md)/[STAD](../cancer_types/STAD.md)/[ESCA](../cancer_types/ESCA.md)) — enriched in average-onset disease (22% vs 11%); associated with inferior PFS and [OS](../cancer_types/OS.md) [PMID:37406106](../papers/37406106.md) [PMID:37699004](../papers/37699004.md).
 - [CSCC](../cancer_types/CSCC.md) — recurrent in actinic keratoses and early cSCC; 9p allelic imbalance [PMID:39091884](../papers/39091884.md).
 - [DIFG](../cancer_types/DIFG.md)/[ASTR](../cancer_types/ASTR.md) — homozygous deletion is a WHO grade 4 diagnostic marker; associated with radiotherapy-driven epigenetic evolution [PMID:38117484](../papers/38117484.md).
 - [CESC](../cancer_types/CESC.md) — genomic driver in gastric-type cervical adenocarcinoma [PMID:37643132](../papers/37643132.md).
@@ -107,4 +109,10 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

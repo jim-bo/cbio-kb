@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-06
 ---
 
 # SMARCA4
@@ -20,6 +20,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Inactivation of SMARCA4 (together with [TP53](../genes/TP53.md) and [CDKN2A](../genes/CDKN2A.md)) correlated with site-specific shorter time to metastasis in [LUAD](../cancer_types/LUAD.md) [PMID:37084736](../papers/37084736.md).
 - SMARCA4 alterations were enriched in primary [LUAD](../cancer_types/LUAD.md) tumors from patients who later developed brain metastasis compared with non-metastatic primaries [PMID:37591896](../papers/37591896.md).
 - SMARCA4 was included in [LUAD](../cancer_types/LUAD.md) pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
+- SMARCA4 is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- SMARCA4 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -43,4 +45,10 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

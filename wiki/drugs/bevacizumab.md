@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [antiangiogenic]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # bevacizumab
@@ -19,7 +19,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 
 - Referenced as a component of ARST0431-era regimens in extremity rhabdomyosarcoma treated at MSKCC 2000–2021 [PMID:37315267](../papers/37315267.md).
 - Referenced as a prior systemic therapy agent in the cervical cancer MSK cohort (N=177); clinical outcomes were primarily analyzed for immune and HER2-targeted combinations [PMID:37643132](../papers/37643132.md).
-- Bevacizumab was the experimental arm added to gemcitabine/cisplatin in the phase 3 CALGB 90601 (Alliance) trial (NCT00942331) for first-line metastatic urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)). The trial showed no [OS](../cancer_types/OS.md) benefit for the bevacizumab arm (median OS 14 mo vs 16 mo, PFS 7.8 vs 7.6 mo). A 201-patient cfDNA biomarker substudy used this trial cohort to evaluate DDR alterations, ctDNA VAF, and TERT/PIK3CA/ERBB2 as prognostic features for cisplatin-based chemotherapy outcomes. [PMID:40256659](../papers/40256659.md)
+- Bevacizumab was the experimental arm added to gemcitabine/cisplatin in the phase 3 CALGB 90601 (Alliance) trial (NCT00942331) for first-line metastatic urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)). The trial showed no [OS](../cancer_types/OS.md) benefit for the bevacizumab arm (median [OS](../cancer_types/OS.md) 14 mo vs 16 mo, PFS 7.8 vs 7.6 mo). A 201-patient cfDNA biomarker substudy used this trial cohort to evaluate DDR alterations, ctDNA VAF, and TERT/PIK3CA/ERBB2 as prognostic features for cisplatin-based chemotherapy outcomes. [PMID:40256659](../papers/40256659.md)
 
 ## Resistance mechanisms
 
@@ -36,4 +36,4 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA biomarker study in mUC; bevacizumab as the experimental arm (null result) in first-line gemcitabine/cisplatin ± bevacizumab.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

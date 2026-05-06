@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD, HGSOC]
 tags: [immune-signature, icr, th1]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # STAT1
@@ -21,7 +21,7 @@ STAT1 is a Th1 signaling transcription factor included in the 20-gene Immunologi
 ## Cancer types (linked)
 
 - [COAD](../cancer_types/COAD.md) — ICR panel component; contributes to ICR-high vs ICR-low prognostic stratification (HR 0.54, P=0.0095) [PMID:37202560](../papers/37202560.md).
-- High-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) precursor lesions — STAT1 is a constituent of the interferon-response gene program activated in p53 signatures, STICs, and invasive HGSOC; upregulation begins in the earliest pre-malignant fallopian tube lesions (p53.I). [PMID:39386723](../papers/39386723.md)
+- High-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) precursor lesions — STAT1 is a constituent of the interferon-response gene program activated in p53 signatures, STICs, and invasive [HGSOC](../cancer_types/HGSOC.md); upregulation begins in the earliest pre-malignant fallopian tube lesions (p53.I). [PMID:39386723](../papers/39386723.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ STAT1 is a Th1 signaling transcription factor included in the 20-gene Immunologi
 - [PMID:37202560](../papers/37202560.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

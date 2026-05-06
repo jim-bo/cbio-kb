@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-06
 ---
 
 # PTEN
@@ -25,6 +25,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN deep deletions prevalent across prostate cancer PDXs; some models showed PTEN expression loss without deep deletion or mutation, implicating other regulatory mechanisms [PMID:38488813](../papers/38488813.md).
 - PTEN mutated in 76% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); not associated with clinical benefit or resistance to PD-1 blockade [PMID:38653864](../papers/38653864.md).
 - PTEN detected as ctDNA alteration in the pan-cancer liquid biopsy VTE risk study (N=4,141 discovery cohort); in multivariate analysis individual gene-level alterations were not independently associated with VTE after controlling for ctDNA detection status [PMID:39147831](../papers/39147831.md).
+- Homozygous PTEN deletion observed in one myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) tumor with high phospho-AKT; a splice-site PTEN mutation observed in one pleomorphic liposarcoma ([PLLS](../cancer_types/PLLS.md)); variably elevated PTEN in kinase-domain [PIK3CA](../genes/PIK3CA.md) mutants may explain their attenuated AKT activation relative to helical-domain mutants in 207 high-grade sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)) [PMID:20601955](../papers/20601955.md).
+- Mutations correlated with copy number loss in [LUAD](../cancer_types/LUAD.md); associated with lower overall mutation rates; part of mTOR pathway alterations (>30% of tumours). [PMID:18948947](../papers/18948947.md)
+- Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
+- PTEN R142W detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
+- PTEN assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -33,7 +38,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Meningioma ([MNG](../cancer_types/MNG.md)) — novel driver in MG3/MG4 molecular groups (3--5% frequency) [PMID:34433969](../papers/34433969.md).
 - Cervical cancer ([CESC](../cancer_types/CESC.md)) — mutations in 7%; enriched in adenosquamous carcinoma [PMID:37643132](../papers/37643132.md).
 - Endometrial carcinoma ([UCEC](../cancer_types/UCEC.md)) — less frequent in Black patients (26% vs. 55%); highest frequency biomarker of the endometrioid/PI3K subtype [PMID:37651310](../papers/37651310.md); mutated in 76% of dMMR gynecologic cancers, not predictive of [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
-- Leiomyosarcoma (STLMS / ULMS) — deletions/mutations in 12--18%; co-occurring with [RB1](../genes/RB1.md) deletions in ULMS [PMID:38488807](../papers/38488807.md).
+- Leiomyosarcoma (STLMS / [ULMS](../cancer_types/ULMS.md)) — deletions/mutations in 12--18%; co-occurring with [RB1](../genes/RB1.md) deletions in [ULMS](../cancer_types/ULMS.md) [PMID:38488807](../papers/38488807.md).
 - Prostate cancer ([PRAD](../cancer_types/PRAD.md)) — deep deletions prevalent in PDX models; expression loss also through non-genomic mechanisms [PMID:38488813](../papers/38488813.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -60,5 +65,18 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

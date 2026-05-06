@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, sarcoma, multi-kinase]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # cabozantinib
@@ -18,8 +18,8 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 ## Evidence in the corpus
 
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens), [osteosarcoma](../cancer_types/OS.md) PDTOs were significantly more sensitive than the pan-sarcoma average to cabozantinib (p=0.024). [PMID:39305899](../papers/39305899.md)
-- Cabozantinib was among NCCN-listed top-five regimens recurrently identified for [osteosarcoma](../cancer_types/OS.md) in the PDTO functional screen, alongside [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [sorafenib](../drugs/sorafenib.md), [regorafenib](../drugs/regorafenib.md), [doxorubicin](../drugs/doxorubicin.md), gemcitabine, [docetaxel](../drugs/docetaxel.md), and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
-- Sarcoma specimens with prior systemic therapy were more sensitive to cabozantinib than treatment-naïve specimens (p=0.036), alongside [lenvatinib](../drugs/lenvatinib.md), [cediranib](../drugs/cediranib.md), and everolimus — suggesting post-treatment selection for drug-sensitive clones or upregulation of target pathways. [PMID:39305899](../papers/39305899.md)
+- Cabozantinib was among NCCN-listed top-five regimens recurrently identified for [osteosarcoma](../cancer_types/OS.md) in the PDTO functional screen, alongside [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [sorafenib](../drugs/sorafenib.md), [regorafenib](../drugs/regorafenib.md), [doxorubicin](../drugs/doxorubicin.md), [gemcitabine](../drugs/gemcitabine.md), [docetaxel](../drugs/docetaxel.md), and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
+- Sarcoma specimens with prior systemic therapy were more sensitive to cabozantinib than treatment-naïve specimens (p=0.036), alongside [lenvatinib](../drugs/lenvatinib.md), [cediranib](../drugs/cediranib.md), and [everolimus](../drugs/everolimus.md) — suggesting post-treatment selection for drug-sensitive clones or upregulation of target pathways. [PMID:39305899](../papers/39305899.md)
 
 ## Resistance mechanisms
 
@@ -33,4 +33,4 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; osteosarcoma differential sensitivity to cabozantinib; prior-therapy enrichment of sensitivity.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [EGC, STAD, ESCA]
 tags: [pi3k-pathway, resistance, esophagogastric]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -29,7 +29,7 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 
 ## Therapeutic relevance
 
-- PIK3CD S367L-driven PI3K pathway activation represents a potential resistance mechanism to HER2-directed therapy; PI3K or AKT inhibitors may overcome this resistance in HER2-positive EGC [PMID:37406106](../papers/37406106.md).
+- PIK3CD S367L-driven PI3K pathway activation represents a potential resistance mechanism to HER2-directed therapy; PI3K or AKT inhibitors may overcome this resistance in HER2-positive [EGC](../cancer_types/EGC.md) [PMID:37406106](../papers/37406106.md).
 
 ## Open questions
 
@@ -39,4 +39,4 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-06
 ---
 
 # fluorouracil
@@ -18,8 +18,9 @@ processed_at: 2026-04-30
 ## Evidence in the corpus
 
 - Listed among colorectal-style first-line regimens (FOLFOX/FOLFIRI/FOLFIRINOX) applied to appendiceal adenocarcinoma; GNAS-mut predominant MAAP patients had only a 6% first-line response rate to such 5-FU-based therapy vs 50% for RAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
-- [KRAS](../genes/KRAS.md)^G12R^-mutant pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) patients showed enrichment among those receiving neoadjuvant chemotherapy (most frequently FOLFIRINOX: fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) followed by resection (32.7% vs 17.9% for KRAS^G12D^, p=0.094), suggesting potentially greater fluorouracil-based chemosensitivity in KRAS^G12R^ tumors [PMID:39214094](../papers/39214094.md).
-- FOLFIRINOX (fluorouracil + irinotecan + oxaliplatin + leucovorin) was administered to 38% of the 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in the 304 metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
+- [KRAS](../genes/KRAS.md)^G12R^-mutant pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) patients showed enrichment among those receiving neoadjuvant chemotherapy (most frequently FOLFIRINOX: fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) followed by resection (32.7% vs 17.9% for [KRAS](../genes/KRAS.md)^G12D^, p=0.094), suggesting potentially greater fluorouracil-based chemosensitivity in [KRAS](../genes/KRAS.md)^G12R^ tumors [PMID:39214094](../papers/39214094.md).
+- FOLFIRINOX (fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) was administered to 38% of the 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in the 304 metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
+- Synergizes with [prexasertib](../drugs/prexasertib.md) ([CHEK1](../genes/CHEK1.md) inhibitor) in FBXO7-deficient colorectal cancer cells within a defined concentration window (1.92--9.6 nM prexasertib + 28 micromolar 5-FU; Loewe Additivity model); antagonistic at lower 5-FU concentrations [PMID:36334560](../papers/36334560.md)
 
 ## Resistance mechanisms
 
@@ -36,4 +37,7 @@ processed_at: 2026-04-30
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36334560](../papers/36334560.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

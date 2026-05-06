@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - NBL
 tags: [chromatin-regulator, neuroblastoma, progenitor-program]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # ASXL3
@@ -20,7 +20,7 @@ ASXL3 (ASXL transcriptional regulator 3) is a chromatin-associated protein invol
 
 ## Cancer types (linked)
 
-- Neuroblastoma (NBL) — ASXL3 marks the high-risk undifferentiated nC3 cluster enriched for MYCN-amplified and/or 11q-deleted tumors; its shared expression with the postnatal hC1 progenitor supports the hypothesis that high-risk NBL may arise from a postnatal TRKB+ cholinergic progenitor [PMID:34493726](../papers/34493726.md).
+- Neuroblastoma ([NBL](../cancer_types/NBL.md)) — ASXL3 marks the high-risk undifferentiated nC3 cluster enriched for MYCN-amplified and/or 11q-deleted tumors; its shared expression with the postnatal hC1 progenitor supports the hypothesis that high-risk NBL may arise from a postnatal TRKB+ cholinergic progenitor [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ ASXL3 (ASXL transcriptional regulator 3) is a chromatin-associated protein invol
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

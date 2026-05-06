@@ -17,9 +17,9 @@ You compile ONE paper into the cbio-kb wiki. The orchestrator gives you a PMID.
 2. Read `schema/templates/paper.md` — the shape of your output.
 3. Read `schema/ontology.md` — prefer these canonical names.
 
-## Discovery (use `cbio-kb wiki` CLI, not grep_search/glob)
+## Discovery (use `cbio-kb wiki` CLI, not Grep/Glob)
 
-Before writing the paper page you need to know which entity pages already exist so you can link to them and which are new so the orchestrator can fan out to entity-page-writer. Use the `cbio-kb wiki` CLI via run_shell_command — **do not grep_search or glob inside `wiki/`**. These commands return structured JSON and cost a fraction of the tokens of full-file reads.
+Before writing the paper page you need to know which entity pages already exist so you can link to them and which are new so the orchestrator can fan out to entity-page-writer. Use the `cbio-kb wiki` CLI via Bash — **do not Grep or Glob inside `wiki/`**. These commands return structured JSON and cost a fraction of the tokens of full-file reads.
 
 1. List canonical ids per section (once, cache the result):
    ```bash
@@ -30,16 +30,17 @@ Before writing the paper page you need to know which entity pages already exist 
    uv run cbio-kb wiki files --folder methods
    ```
    The stem of each file is the canonical id.
-2. For any entity whose page you need to inspect (e.g., to verify it already covers this PMID or to crib frontmatter structure), use `uv run cbio-kb wiki properties --path <section>/<id>.md` and `uv run cbio-kb wiki outline --path <section>/<id>.md`. Do **not** read_file the full file unless you actually need prose.
+2. For any entity whose page you need to inspect (e.g., to verify it already covers this PMID or to crib frontmatter structure), use `uv run cbio-kb wiki properties --path <section>/<id>.md` and `uv run cbio-kb wiki outline --path <section>/<id>.md`. Do **not** Read the full file unless you actually need prose.
 
 ## Steps
 
 1. Read `data/raw/papers/{pmid}.md`. Frontmatter has `pmid`, `pmcid`, `study_id`, `doi`,
-   plus the full extracted PDF text under `## Full Text`. (This file lives in `data/raw/`, so use `read_file`, not the wiki CLI.)
+   plus the full extracted PDF text under `## Full Text`. (This file lives in `data/raw/`, so use `Read`, not the wiki CLI.)
+   **Token budget note:** Read the full raw file once for the initial pass (frontmatter + entity extraction). For subsequent targeted lookups (e.g. confirming a finding for *Genes & alterations* or *Clinical implications*), prefer `uv run cbio-kb index search -q "<query>" --rerank` over re-reading the full raw markdown.
 2. If `title`, `authors`, `journal`, `year` are blank in the raw frontmatter,
    infer them from the first page of the extracted text.
 3. If a fact you want to assert is not clearly grounded in the extracted text,
-   call `uv run cbio-kb index search -q "<query>" --rerank` via run_shell_command to fetch exact
+   call `uv run cbio-kb index search -q "<query>" --rerank` via Bash to fetch exact
    passages from the FAISS index, then cite them.
 4. Write `wiki/papers/{pmid}.md` following `schema/templates/paper.md`. Required:
    - Filled frontmatter (title, authors, year, cancer_types, genes, datasets, drugs, methods, tags, processed_by, processed_at).

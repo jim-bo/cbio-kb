@@ -13,15 +13,15 @@ tags:
   - hnscc
   - chemoradiation
   - tumor-microbiome
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # avelumab
 
 ## Overview
 
-Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 (CD274), blocking its interactions with both PD-1 (PDCD1) and B7-1 (CD80). Unlike IgG4-based anti-PD-1/PD-L1 antibodies, avelumab retains Fc-mediated antibody-dependent cellular cytotoxicity (ADCC), which may contribute additional tumor-cell killing. In the radiation-oncology context, avelumab has been evaluated as an addition to cisplatin-based chemoradiation (CRT) in head and neck squamous cell carcinoma (HNSCC), on the premise that RT-induced PD-L1 upregulation and immunogenic cell death create a favorable microenvironment for checkpoint blockade.
+Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](../genes/CD274.md)), blocking its interactions with both PD-1 ([PDCD1](../genes/PDCD1.md)) and B7-1 (CD80). Unlike IgG4-based anti-PD-1/PD-L1 antibodies, avelumab retains Fc-mediated antibody-dependent cellular cytotoxicity (ADCC), which may contribute additional tumor-cell killing. In the radiation-oncology context, avelumab has been evaluated as an addition to cisplatin-based chemoradiation (CRT) in head and neck squamous cell carcinoma (HNSCC), on the premise that RT-induced PD-L1 upregulation and immunogenic cell death create a favorable microenvironment for checkpoint blockade.
 
 ## Evidence in the corpus
 
@@ -30,7 +30,7 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 (CD274), b
 
 ## Resistance mechanisms
 
-- Intratumoral bacteria in HNSCC identified as a major source of resistance to CRT (cisplatin backbone) ± avelumab in the Javelin HN100 expansion cohort analysis (GenRad/ROBIN). [PMID:41941260](../papers/41941260.md)
+- Intratumoral bacteria in HNSCC identified as a major source of resistance to CRT ([cisplatin](../drugs/cisplatin.md) backbone) ± avelumab in the Javelin HN100 expansion cohort analysis (GenRad/ROBIN). [PMID:41941260](../papers/41941260.md)
 
 ## Cancer types (linked)
 
@@ -40,6 +40,6 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 (CD274), b
 
 - [PMID:41941260](../papers/41941260.md) — Gregucci et al. 2026, *Clin Cancer Res*. ROBIN white paper; GenRad analysis of Javelin HN100 CRT ± avelumab expansion cohort; intratumoral bacteria identified as resistance mechanism.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

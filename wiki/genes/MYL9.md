@@ -9,7 +9,7 @@ tags:
   - melanocyte-state
   - LowMut-marker
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MYL9
@@ -28,7 +28,7 @@ MYL9 (Myosin Light Chain 9) encodes a regulatory myosin light chain involved in 
 
 ## Co-occurrence and mutual exclusivity
 
-- MYL9 co-expressed with MYLK, PALLD, NTNG1, and other neural-crest lineage markers in the LowMut melanocyte subpopulation; mutually exclusive with HighMut markers ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) at the single-cell level. [PMID:39975212](../papers/39975212.md)
+- MYL9 co-expressed with [MYLK](../genes/MYLK.md), [PALLD](../genes/PALLD.md), [NTNG1](../genes/NTNG1.md), and other neural-crest lineage markers in the LowMut melanocyte subpopulation; mutually exclusive with HighMut markers ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) at the single-cell level. [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -42,4 +42,4 @@ MYL9 (Myosin Light Chain 9) encodes a regulatory myosin light chain involved in 
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

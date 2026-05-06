@@ -4,7 +4,7 @@ aliases: [CATB, GP75, TRP, TRP1, b-PROTEIN, gp75]
 cancer_types: [SKIN]
 tags: [pigmentation, melanocyte-lineage, cell-identity-marker]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # TYRP1
@@ -24,7 +24,7 @@ TYRP1 (Tyrosinase Related Protein 1) is a melanosomal enzyme involved in eumelan
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with PMEL, MLANA, and MITF as a shared melanocyte lineage marker across both HighMut and LowMut subpopulations [PMID:39975212](../papers/39975212.md).
+- Co-expressed with [PMEL](../genes/PMEL.md), [MLANA](../genes/MLANA.md), and [MITF](../genes/MITF.md) as a shared melanocyte lineage marker across both HighMut and LowMut subpopulations [PMID:39975212](../papers/39975212.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +38,4 @@ TYRP1 (Tyrosinase Related Protein 1) is a melanosomal enzyme involved in eumelan
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Adenocarcinoma of the Gastroesophageal Junction (GEJ)
@@ -21,14 +21,14 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 
 ## Recurrent alterations
 
-- [CCNE1](../genes/CCNE1.md) — amplification enriched in early-onset EGC (16% vs. 7%), driven by chromosomal instability in the esophageal/GEJ subgroup. [PMID:37699004](../papers/37699004.md)
+- [CCNE1](../genes/CCNE1.md) — amplification enriched in early-onset [EGC](../cancer_types/EGC.md) (16% vs. 7%), driven by chromosomal instability in the esophageal/GEJ subgroup. [PMID:37699004](../papers/37699004.md)
 - [ERBB2](../genes/ERBB2.md) — amplification; HER2 overexpression is a key therapeutic target. [PMID:37406106](../papers/37406106.md)
 - [CDKN2A](../genes/CDKN2A.md) — enriched in average-onset EGC; associated with worse survival (HR=1.55, P<0.001). [PMID:37699004](../papers/37699004.md)
 - See also [EGC](../cancer_types/EGC.md) for shared alterations across the esophagogastric spectrum.
 
 ## Subtypes
 
-- GEJ adenocarcinomas enriched in early-onset cohort compared to ESCA (higher GEJ proportion in early-onset setting). CIN subtype most common for GEJ. [PMID:37699004](../papers/37699004.md)
+- GEJ adenocarcinomas enriched in early-onset cohort compared to [ESCA](../cancer_types/ESCA.md) (higher GEJ proportion in early-onset setting). CIN subtype most common for GEJ. [PMID:37699004](../papers/37699004.md)
 
 ## Therapeutic landscape
 
@@ -40,4 +40,4 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [PMID:37406106](../papers/37406106.md) — Determinants of Survival with Combined HER2 and PD-1 Blockade in Metastatic Esophagogastric Cancer (Clinical Cancer Research, 2023)
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

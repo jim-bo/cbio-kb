@@ -16,14 +16,14 @@ tags:
   - validation-cohort
   - private-dataset
 processed_by: crosslinker
-processed_at: 2026-04-16
+processed_at: 2026-05-04
 ---
 
 # Greater Poland Cancer Centre HNSCC Cohort (Poznań)
 
 ## Overview
 
-A private institutional cohort of 298 head and neck squamous cell carcinoma ([HNSC](../cancer_types/HNSC.md)) patients treated with definitive radiotherapy or chemoradiotherapy at the Greater Poland Cancer Centre in Poznań, Poland. This dataset is not publicly available on TCIA or cBioPortal and was used as an in-house external validation cohort in the HNSC prognostic modeling challenge. [PMID:37397861](../papers/37397861.md)
+A private institutional cohort of 298 head and neck squamous cell carcinoma ([HNSC](../cancer_types/HNSC.md)) patients treated with definitive radiotherapy or chemoradiotherapy at the Greater Poland Cancer Centre in Poznań, Poland. This dataset is not publicly available on TCIA or cBioPortal and was used as an in-house external validation cohort in the [HNSC](../cancer_types/HNSC.md) prognostic modeling challenge. [PMID:37397861](../papers/37397861.md)
 
 ## Composition
 
@@ -48,4 +48,4 @@ A private institutional cohort of 298 head and neck squamous cell carcinoma ([HN
 
 - [PMID:37397861](../papers/37397861.md) — Kim et al. 2023, *Radiotherapy and Oncology*.
 
-*This page was processed by **crosslinker** on **2026-04-16**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-06
 ---
 
 # KMT2D
@@ -19,7 +19,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Truncating and missense KMT2D mutations in 11% of RT-[ANGS](../cancer_types/ANGS.md) (vs 1% sporadic AS) and 21% of RT-[MFH](../cancer_types/MFH.md) (UPS; vs 4% sporadic UPS), making it significantly enriched in both RT-sarcoma histotypes in the MSK 82-patient RT-sarcoma cohort [PMID:37350195](../papers/37350195.md).
 - KMT2D altered in 9% of cervical cancers (n=177 MSK patients); enriched in squamous (14%) vs gastric-type adenocarcinoma (0%) [PMID:37643132](../papers/37643132.md).
 - KMT2D mutation detected in one prostate cancer PDX model (PDX 316-1) in the MDA PCa PDX series (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
-- KMT2D is a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers alongside [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in a tumor-agnostic analysis of 212 patients with BRAF fusions [PMID:38922339](../papers/38922339.md).
+- KMT2D is a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers alongside [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in a tumor-agnostic analysis of 212 patients with [BRAF](../genes/BRAF.md) fusions [PMID:38922339](../papers/38922339.md).
+- KMT2D is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort), consistent with TCGA-BLCA [PMID:36333289](../papers/36333289.md)
 
 ## Cancer types (linked)
 
@@ -33,7 +34,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 - Pathway convergence with [KMT2C](../genes/KMT2C.md) loss in M-CLL [PMID:35927489](../papers/35927489.md).
 - Co-altered with [KMT2C](../genes/KMT2C.md) in cervical cancer squamous histology [PMID:37643132](../papers/37643132.md).
-- Co-occurs with [RNF43](../genes/RNF43.md), INPPL1, [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in BRAF fusion-positive colorectal cancers [PMID:38922339](../papers/38922339.md).
+- Co-occurs with [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers [PMID:38922339](../papers/38922339.md).
 
 ## Therapeutic relevance
 
@@ -51,4 +52,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

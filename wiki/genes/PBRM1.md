@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -29,7 +29,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 ## Therapeutic relevance
 
-- PBRM1 mutations are not predictive of nivolumab response in dMMR/MSI-H gynecologic cancers; they were present in both responders and non-responders at similar rates [PMID:38653864](../papers/38653864.md).
+- PBRM1 mutations are not predictive of [nivolumab](../drugs/nivolumab.md) response in dMMR/MSI-H gynecologic cancers; they were present in both responders and non-responders at similar rates [PMID:38653864](../papers/38653864.md).
 
 ## Open questions
 
@@ -39,4 +39,4 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

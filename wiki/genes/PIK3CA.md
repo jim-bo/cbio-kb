@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # PIK3CA
@@ -34,6 +34,13 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA hotspot mutation (H1047L — reported as "H1074L" in text) in SARC0117 (USS sarcoma) drove broad PI3K/mTOR pathway sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, vistusertib) in PDTO screen. SARC0134 ([MPNST](../cancer_types/MPNST.md)) carried the mutation in the primary but lost it in metastasis, predicting non-response. A biomarker-negative osteosarcoma (SARC0069_2) was a top [alpelisib](../drugs/alpelisib.md) responder. [PMID:39305899](../papers/39305899.md)
 - PIK3CA enriched in MAPK-WT PDAC tumors (10% vs 2% in KRAS-mutant, P=0.002) in the MSK 2,336-patient cohort; one of the defining features distinguishing the MAPK-WT subtype. [PMID:39753968](../papers/39753968.md)
 - PIK3CA oncogenic alteration present in 11% of cfDNA samples in a 201-patient metastatic urothelial carcinoma (mUC) cohort (CALGB 90601); associated with significantly shorter [OS](../cancer_types/OS.md) on multivariable analysis (HR 1.91, 95% CI 1.20–3.04; P=0.006) after adjustment for visceral metastases, performance status, and ctDNA VAF. [PMID:40256659](../papers/40256659.md)
+- PIK3CA was mutated in 18% (13/71) of myxoid/round-cell liposarcomas ([MRLS](../cancer_types/MRLS.md)) — first report of PIK3CA mutation in a mesenchymal cancer; mutations clustered in helical (E542K, E545K) and kinase (H1047L, H1047R) domains; mutated tumors had shorter disease-specific survival (log-rank p=0.036, n=65 with outcome data); only helical-domain mutants showed elevated phospho-AKT (Ser473/Thr308), suggesting domain-specific mechanism ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
+- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); part of mTOR pathway altered in >30% of tumours. [PMID:18948947](../papers/18948947.md)
+- Mutated in 13% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
+- Activating mutations (e.g., E545K) more common in low-grade bladder tumors; 27% discordance rate in primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
+- PIK3CA mutations (E545K/Q, H1047R, P104L, E542K) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
+- PIK3CA E545K hotspot variant observed in metastatic urothelial carcinoma (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- PIK3CA GOF mutations in 9% of [GBC](../cancer_types/GBC.md); actionable at OncoKB level 3B (e.g., p.E545K, p.H1047R) [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +91,24 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
+- [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36543146](../papers/36543146.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

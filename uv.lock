@@ -415,8 +415,11 @@ dependencies = [
 
 [package.optional-dependencies]
 chat = [
+    { name = "faiss-cpu" },
     { name = "fastapi" },
     { name = "jinja2" },
+    { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "numpy", version = "2.4.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "pydantic-ai" },
     { name = "python-dotenv" },
     { name = "python-multipart" },
@@ -456,12 +459,14 @@ eval = [
 
 [package.metadata]
 requires-dist = [
+    { name = "faiss-cpu", marker = "extra == 'chat'" },
     { name = "faiss-cpu", marker = "extra == 'server'" },
     { name = "fastapi", marker = "extra == 'chat'" },
     { name = "fastmcp", marker = "extra == 'server'" },
     { name = "google-cloud-firestore", marker = "extra == 'cloud'", specifier = ">=2.19" },
     { name = "google-genai", marker = "extra == 'server'", specifier = ">=1.0" },
     { name = "jinja2", marker = "extra == 'chat'" },
+    { name = "numpy", marker = "extra == 'chat'" },
     { name = "numpy", marker = "extra == 'server'" },
     { name = "pdf2image", marker = "extra == 'ocr'" },
     { name = "pdfplumber" },

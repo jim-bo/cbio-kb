@@ -74,8 +74,9 @@ jobs:
             --allow-unauthenticated \
             --min-instances=0 \
             --max-instances=3 \
-            --memory=512Mi \
+            --memory=1Gi \
             --cpu=1 \
+            --cpu-boost \
             --timeout=300 \
             --concurrency=20 \
             --port=8080 \

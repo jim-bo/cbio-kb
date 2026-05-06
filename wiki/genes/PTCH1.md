@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,7 +22,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 ## Cancer types (linked)
 
-- Endometrial cancer ([UCEC](../cancer_types/UCEC.md)) / ovarian cancer ([OVT](../cancer_types/OVT.md)) — PTCH1 mutations in 18% of dMMR gynecologic cancers; trend toward enrichment in nivolumab responders (26% vs. 7%) [PMID:38653864](../papers/38653864.md).
+- Endometrial cancer ([UCEC](../cancer_types/UCEC.md)) / ovarian cancer ([OVT](../cancer_types/OVT.md)) — PTCH1 mutations in 18% of dMMR gynecologic cancers; trend toward enrichment in [nivolumab](../drugs/nivolumab.md) responders (26% vs. 7%) [PMID:38653864](../papers/38653864.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -40,4 +40,4 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

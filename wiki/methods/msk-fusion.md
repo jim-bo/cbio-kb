@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [fusion-detection, rna, targeted-sequencing, msk]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # MSK-Fusion
@@ -22,7 +22,7 @@ MSK-Fusion is an RNA anchored multiplex PCR panel used at Memorial Sloan Ketteri
 
 ## Notes
 
-- Partner-agnostic RNA-based fusion detection is critical for identifying the extraordinary diversity of BRAF and other fusion partners [PMID:38922339](../papers/38922339.md).
+- Partner-agnostic RNA-based fusion detection is critical for identifying the extraordinary diversity of [BRAF](../genes/BRAF.md) and other fusion partners [PMID:38922339](../papers/38922339.md).
 - Corpus-grown slug; not present in `schema/ontology/gene_panels.json`.
 
 ## Sources
@@ -30,4 +30,4 @@ MSK-Fusion is an RNA anchored multiplex PCR panel used at Memorial Sloan Ketteri
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-05
 ---
 
 # PTPRD
@@ -16,6 +16,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 ## Alterations observed in the corpus
 
 - Mutations and deletions in 25% of RT-MPNST vs 5% of sporadic [MPNST](../cancer_types/MPNST.md), indicating significant enrichment in radiation-associated malignant peripheral nerve sheath tumors [PMID:37350195](../papers/37350195.md).
+- Frequently mutated and previously shown deleted in [LUAD](../cancer_types/LUAD.md); co-mutates with [PIK3C3](../genes/PIK3C3.md) in the TSP cohort (n=188). [PMID:18948947](../papers/18948947.md)
 
 ## Cancer types (linked)
 
@@ -31,10 +32,13 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 
 ## Open questions
 
-- The functional consequences of PTPRD loss in MPNST pathogenesis and whether it cooperates with other enriched RT-MPNST alterations (e.g., [NF1](../genes/NF1.md), [CDKN2A](../genes/CDKN2A.md)) remain to be determined [PMID:37350195](../papers/37350195.md).
+- The functional consequences of PTPRD loss in [MPNST](../cancer_types/MPNST.md) pathogenesis and whether it cooperates with other enriched RT-MPNST alterations (e.g., [NF1](../genes/NF1.md), [CDKN2A](../genes/CDKN2A.md)) remain to be determined [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

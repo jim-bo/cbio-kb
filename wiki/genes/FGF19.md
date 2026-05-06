@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC, LUAD]
 tags: [amplification, metastasis, FGFR, pan-cancer]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # FGF19
@@ -23,7 +23,7 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 
 ## Co-occurrence and mutual exclusivity
 
-- FGF19 co-amplification with CCND1, FGF3, FGF4 at the 11q13 locus is a known biological phenomenon, but co-occurrence patterns were not specifically reported in the MSK-CHORD dataset for FGF19 [PMID:39506116](../papers/39506116.md).
+- FGF19 co-amplification with [CCND1](../genes/CCND1.md), FGF3, FGF4 at the 11q13 locus is a known biological phenomenon, but co-occurrence patterns were not specifically reported in the MSK-CHORD dataset for FGF19 [PMID:39506116](../papers/39506116.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ODG
 tags: [proneural-transcription-factor, stem-progenitor, oligodendroglioma, neural-differentiation]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # ASCL1
@@ -20,7 +20,7 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — ASCL1 marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells (MKI67+) and most closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
+- [ODG](../cancer_types/ODG.md) — ASCL1 marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells ([MKI67](../genes/MKI67.md)+) and most closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

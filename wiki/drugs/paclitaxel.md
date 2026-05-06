@@ -5,8 +5,8 @@ drug_class: taxane microtubule stabilizer
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # paclitaxel
@@ -17,8 +17,8 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 
 ## Evidence in the corpus
 
-- In HER2+ OE19 esophageal cancer cells, T-DM1 was more potent than paclitaxel in head-to-head viability comparisons; paclitaxel was used as a clinical-drug comparator baseline alongside cisplatin, trastuzumab, lapatinib, and erlotinib [PMID:27698471](../papers/27698471.md).
-- The paper positions paclitaxel as a conventional taxane radiosensitizer that acts via non-receptor-targeted microtubule stabilization, contrasting it with ADC-delivered anti-tubulin payloads (MMAE, mertansine) that restrict cytotoxicity to receptor-expressing tumours [PMID:27698471](../papers/27698471.md).
+- In HER2+ OE19 esophageal cancer cells, T-DM1 was more potent than paclitaxel in head-to-head viability comparisons; paclitaxel was used as a clinical-drug comparator baseline alongside [cisplatin](../drugs/cisplatin.md), [trastuzumab](../drugs/trastuzumab.md), [lapatinib](../drugs/lapatinib.md), and [erlotinib](../drugs/erlotinib.md) [PMID:27698471](../papers/27698471.md).
+- The paper positions paclitaxel as a conventional taxane radiosensitizer that acts via non-receptor-targeted microtubule stabilization, contrasting it with ADC-delivered anti-tubulin payloads (MMAE, [mertansine](../drugs/mertansine.md)) that restrict cytotoxicity to receptor-expressing tumours [PMID:27698471](../papers/27698471.md).
 
 ## Resistance mechanisms
 
@@ -33,4 +33,4 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

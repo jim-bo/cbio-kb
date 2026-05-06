@@ -5,7 +5,7 @@ cancer_types:
   - HGSOC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # CGAS
@@ -16,7 +16,7 @@ CGAS (cyclic GMP-AMP synthase) encodes a DNA sensor that detects cytosolic doubl
 
 ## Alterations observed in the corpus
 
-- cGAS-STING pathway activated by ruptured micronuclei in HGSOC precursors; cGAS recruited to [BANF1](../genes/BANF1.md)+ micronuclei as early as the STIC.I (serous tubal intraepithelial carcinoma) stage; this activates interferon signaling and contributes to the interferon-related DNA damage resistance signature (IRDS) [PMID:39386723](../papers/39386723.md).
+- cGAS-STING pathway activated by ruptured micronuclei in [HGSOC](../cancer_types/HGSOC.md) precursors; cGAS recruited to [BANF1](../genes/BANF1.md)+ micronuclei as early as the STIC.I (serous tubal intraepithelial carcinoma) stage; this activates interferon signaling and contributes to the interferon-related DNA damage resistance signature (IRDS) [PMID:39386723](../papers/39386723.md).
 
 ## Cancer types (linked)
 
@@ -24,7 +24,7 @@ CGAS (cyclic GMP-AMP synthase) encodes a DNA sensor that detects cytosolic doubl
 
 ## Co-occurrence and mutual exclusivity
 
-- cGAS pathway activation co-occurs with STING1 signaling, CCNE1 amplification, and breakage-fusion-bridge cycles in HGSOC precursors; BANF1+ micronuclei serve as the cytosolic DNA substrate activating cGAS [PMID:39386723](../papers/39386723.md).
+- cGAS pathway activation co-occurs with [STING1](../genes/STING1.md) signaling, [CCNE1](../genes/CCNE1.md) amplification, and breakage-fusion-bridge cycles in HGSOC precursors; [BANF1](../genes/BANF1.md)+ micronuclei serve as the cytosolic DNA substrate activating cGAS [PMID:39386723](../papers/39386723.md).
 
 ## Therapeutic relevance
 
@@ -39,4 +39,4 @@ CGAS (cyclic GMP-AMP synthase) encodes a DNA sensor that detects cytosolic doubl
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

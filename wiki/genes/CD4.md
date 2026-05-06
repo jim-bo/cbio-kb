@@ -5,7 +5,7 @@ cancer_types:
   - HNSC
 tags: [t-cell, immune-biomarker, peripheral-blood, checkpoint-immunotherapy]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # CD4
@@ -21,11 +21,11 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 
 ## Cancer types (linked)
 
-- [HNSC](../cancer_types/HNSC.md) — CD4+PD-1+Ki-67+ T-cell surge in peripheral blood was a hypothesis-generating biomarker in recurrent/second-primary HNSCC treated with IMRT reirradiation + nivolumab; the paradoxical association with worse outcome warrants prospective validation [PMID:38780927](../papers/38780927.md).
+- [HNSC](../cancer_types/HNSC.md) — CD4+PD-1+Ki-67+ T-cell surge in peripheral blood was a hypothesis-generating biomarker in recurrent/second-primary HNSCC treated with IMRT reirradiation + [nivolumab](../drugs/nivolumab.md); the paradoxical association with worse outcome warrants prospective validation [PMID:38780927](../papers/38780927.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- The CD4+PD-1+Ki-67+ proliferative surge was evaluated alongside [FOXP3](../genes/FOXP3.md)+ Treg surge and [CD8A](../genes/CD8A.md)+ T-cell dynamics; only the CD4+PD-1+Ki-67+ and [FOXP3](../genes/FOXP3.md)+ surges trended with worse PFS (neither reached statistical significance: HR 1.42, P = .43 for FOXP3) [PMID:38780927](../papers/38780927.md).
+- The CD4+PD-1+Ki-67+ proliferative surge was evaluated alongside [FOXP3](../genes/FOXP3.md)+ Treg surge and [CD8A](../genes/CD8A.md)+ T-cell dynamics; only the CD4+PD-1+Ki-67+ and [FOXP3](../genes/FOXP3.md)+ surges trended with worse PFS (neither reached statistical significance: HR 1.42, P = .43 for [FOXP3](../genes/FOXP3.md)) [PMID:38780927](../papers/38780927.md).
 
 ## Therapeutic relevance
 
@@ -40,4 +40,4 @@ CD4 is a co-receptor expressed on helper T cells that facilitates MHC class II a
 - [PMID:38780927](../papers/38780927.md)
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

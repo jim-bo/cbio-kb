@@ -31,6 +31,7 @@ Before writing the paper page you need to know which entity pages already exist 
 
 1. Read `data/raw/papers/{pmid}.md`. Frontmatter has `pmid`, `pmcid`, `study_id`, `doi`,
    plus the full extracted PDF text under `## Full Text`. (This file lives in `data/raw/`, so use `Read`, not the wiki CLI.)
+   **Token budget note:** Read the full raw file once for the initial pass (frontmatter + entity extraction). For subsequent targeted lookups (e.g. confirming a finding for *Genes & alterations* or *Clinical implications*), prefer `uv run cbio-kb index search -q "<query>" --rerank` over re-reading the full raw markdown.
 2. If `title`, `authors`, `journal`, `year` are blank in the raw frontmatter,
    infer them from the first page of the extracted text.
 3. If a fact you want to assert is not clearly grounded in the extracted text,

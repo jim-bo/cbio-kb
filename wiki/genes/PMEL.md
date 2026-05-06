@@ -8,7 +8,7 @@ tags:
   - melanocyte-lineage
   - transcriptomic-marker
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # PMEL
@@ -27,7 +27,7 @@ PMEL (premelanosome protein, also known as gp100 or SILV) encodes a transmembran
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with TYRP1, MLANA, and MITF as part of the melanocytic lineage gene set in normal skin atlas data. [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [TYRP1](../genes/TYRP1.md), [MLANA](../genes/MLANA.md), and [MITF](../genes/MITF.md) as part of the melanocytic lineage gene set in normal skin atlas data. [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -41,4 +41,4 @@ PMEL (premelanosome protein, also known as gp100 or SILV) encodes a transmembran
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

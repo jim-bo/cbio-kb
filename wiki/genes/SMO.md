@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [hedgehog-pathway, oncogene, meningioma]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # SMO
@@ -23,7 +23,7 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with NF2 mutations in meningioma; co-occurs within the MG2 group alongside [TRAF7](../genes/TRAF7.md), [AKT1](../genes/AKT1.md), and [KLF4](../genes/KLF4.md) mutations [PMID:34433969](../papers/34433969.md).
+- Mutually exclusive with [NF2](../genes/NF2.md) mutations in meningioma; co-occurs within the MG2 group alongside [TRAF7](../genes/TRAF7.md), [AKT1](../genes/AKT1.md), and [KLF4](../genes/KLF4.md) mutations [PMID:34433969](../papers/34433969.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

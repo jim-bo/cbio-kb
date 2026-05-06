@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ODG
 tags: [chromatin-remodeler, stem-progenitor, oligodendroglioma, neural-development]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # CHD7
@@ -20,7 +20,7 @@ CHD7 (chromodomain helicase DNA-binding protein 7) is an ATP-dependent chromatin
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — CHD7 marks the proliferative stem/progenitor apex of grade II oligodendroglioma; this compartment is enriched for cycling cells (1.5–8% MKI67+) and closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
+- [ODG](../cancer_types/ODG.md) — CHD7 marks the proliferative stem/progenitor apex of grade II oligodendroglioma; this compartment is enriched for cycling cells (1.5–8% [MKI67](../genes/MKI67.md)+) and closely resembles a tri-potent neural progenitor rather than an OPC [PMID:27806376](../papers/27806376.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ CHD7 (chromodomain helicase DNA-binding protein 7) is an ATP-dependent chromatin
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

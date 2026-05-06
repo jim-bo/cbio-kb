@@ -10,7 +10,7 @@ assays: []
 panels: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 description: Targeted sequencing of ctDNA samples drawn from patients with metastatic NSCLC using the Resolution ctDx Lung platform.
 cancerTypeId: nsclc
 pmid: 36357680
@@ -42,11 +42,11 @@ Prospective international cohort study of advanced [NSCLC](../cancer_types/NSCLC
 - Among ctDNA-positive patients, 255 (23%) matched to targeted therapy by ctDNA sequencing had longer [OS](../cancer_types/OS.md) than ctDNA-positive patients not receiving targeted therapy (HR 0.63; 95% CI 0.52–0.76; P<0.001) [PMID:36357680](../papers/36357680.md).
 - 25% of patients had alterations detected only in ctDNA (not in time-matched tissue), disproportionately subclonal resistance drivers such as [RICTOR](../genes/RICTOR.md) and [PIK3CA](../genes/PIK3CA.md), and associated with short survival [PMID:36357680](../papers/36357680.md).
 - Operational metrics: only 2% of ctDx Lung / MSK-ACCESS samples failed vs 13% tissue sequencing failures; turnaround 11 days vs 33 days for MSK-IMPACT [PMID:36357680](../papers/36357680.md).
-- Used as an international generalizability cohort (n = 463 advanced NSCLC) for a ctDNA-based VTE prediction model; the LB+ random survival forest achieved a c-index of 0.67 in this cohort, outperforming Khorana score (0.54). [PMID:39147831](../papers/39147831.md)
+- Used as an international generalizability cohort (n = 463 advanced [NSCLC](../cancer_types/NSCLC.md)) for a ctDNA-based VTE prediction model; the LB+ random survival forest achieved a c-index of 0.67 in this cohort, outperforming Khorana score (0.54). [PMID:39147831](../papers/39147831.md)
 
 ## Sources
 
 - cBioPortal study `nsclc_ctdx_msk_2022` [PMID:36357680](../papers/36357680.md).
 - Used as generalizability cohort in VTE prediction study [PMID:39147831](../papers/39147831.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

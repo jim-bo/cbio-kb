@@ -5,7 +5,7 @@ main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [radiation-associated-sarcoma, vascular-tumor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: oncotree
 unverified: false
 ---
@@ -40,10 +40,10 @@ Angiosarcoma is a malignant vascular neoplasm classified under soft tissue sarco
 ## Therapeutic landscape
 
 - Both primary and RT-AS are treated with taxane-based chemotherapeutic regimens [PMID:37350195](../papers/37350195.md).
-- The stress-activated MAPK cascade ([CRKL](../genes/CRKL.md), [FLT4](../genes/FLT4.md), [HRAS](../genes/HRAS.md), [MYC](../genes/MYC.md)) and VEGF/VEGFR signaling (FLT4, HRAS, KDR) pathways represent potential histotype-dependent therapeutic targets in RT-AS [PMID:37350195](../papers/37350195.md).
+- The stress-activated MAPK cascade ([CRKL](../genes/CRKL.md), [FLT4](../genes/FLT4.md), [HRAS](../genes/HRAS.md), [MYC](../genes/MYC.md)) and VEGF/VEGFR signaling ([FLT4](../genes/FLT4.md), [HRAS](../genes/HRAS.md), [KDR](../genes/KDR.md)) pathways represent potential histotype-dependent therapeutic targets in RT-AS [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 44 RT-angiosarcomas.
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

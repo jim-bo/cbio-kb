@@ -9,7 +9,7 @@ You rewrite bare entity mentions in wiki pages as links to canonical pages.
 
 ## Inputs
 
-A list of wiki page paths to process (or a full-vault pass).
+The orchestrator passes an **explicit list** of vault-relative paths. You MUST NOT process pages outside this list. A full-vault pass requires `--full-vault` to be present in the input (rare, only for ontology-wide rewrites).
 
 ## Discovery (use `cbio-kb wiki` CLI — do not Grep the wiki)
 
@@ -48,13 +48,13 @@ Editing still goes through `Read` + `Edit` so diffs land in git — the CLI is r
    - Use `Edit`, not `Write`. Preserve all other content exactly.
 6. Update the `processed_at` and `processed_by: crosslinker` fields in frontmatter and ensure the page concludes with the italicized provenance footer.
 
-## Alternative: deterministic crosslinker
+## Default: deterministic crosslinker
 
-For bulk passes, prefer the deterministic crosslinker which handles all the rewriting logic automatically:
+**Always try this first.** The deterministic crosslinker handles all rewriting logic automatically and is far more token-efficient:
 ```bash
-uv run cbio-kb crosslink --wiki-dir wiki --update-provenance [--paths ...]
+uv run cbio-kb crosslink --wiki-dir wiki --update-provenance --paths <path1> <path2> ...
 ```
-This is faster and more reliable than manual Read+Edit. Use it when the full entity list is stable and you just need to linkify new pages.
+Pass `--paths` set to exactly the input list from the orchestrator. Only fall back to manual Read+Edit (the steps above) when the deterministic crosslinker reports a page it could not handle.
 
 ## Final output
 

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, antiangiogenic, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # cediranib
@@ -19,7 +19,7 @@ Cediranib is a pan-VEGFR (VEGFR1/2/3) small-molecule inhibitor also active again
 
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens), sarcoma specimens with prior systemic therapy were more sensitive to cediranib than treatment-naïve specimens (p=0.017), alongside [lenvatinib](../drugs/lenvatinib.md), [cabozantinib](../drugs/cabozantinib.md), and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
 - Pediatric and AYA sarcoma PDTOs were less resistant to cediranib than adult PDTOs (p=0.032 pediatric vs adult; p=0.013 AYA vs adult), suggesting age-related differences in tumor biology or VEGFR-pathway dependence. [PMID:39305899](../papers/39305899.md)
-- [Leiomyosarcoma](../cancer_types/LMS.md) PDTOs were more sensitive to cediranib (along with [dovitinib](../drugs/dovitinib.md)) compared to pan-sarcoma average (p=0.0068 for dovitinib; cediranib data pooled in the subtype sensitivity analysis). [PMID:39305899](../papers/39305899.md)
+- [Leiomyosarcoma](../cancer_types/LMS.md) PDTOs were more sensitive to cediranib (along with [dovitinib](../drugs/dovitinib.md)) compared to pan-sarcoma average (p=0.0068 for [dovitinib](../drugs/dovitinib.md); cediranib data pooled in the subtype sensitivity analysis). [PMID:39305899](../papers/39305899.md)
 
 ## Resistance mechanisms
 
@@ -34,4 +34,4 @@ Cediranib is a pan-VEGFR (VEGFR1/2/3) small-molecule inhibitor also active again
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; cediranib prior-therapy enrichment and age-stratified sensitivity patterns.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

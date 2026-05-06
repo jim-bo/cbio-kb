@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # MYCN
@@ -24,14 +24,14 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 ## Cancer types (linked)
 
 - [ASTR](../cancer_types/ASTR.md) / [DIFG](../cancer_types/DIFG.md) — focal amplification marks intermediate molecular grade in IDH-mutant astrocytoma [PMID:37910594](../papers/37910594.md).
-- Rhabdomyosarcoma (FP-RMS) — amplifications/missense mutations in 22%; correlated with worse OS (p=0.0012) and PFS [PMID:37730754](../papers/37730754.md).
+- Rhabdomyosarcoma (FP-RMS) — amplifications/missense mutations in 22%; correlated with worse [OS](../cancer_types/OS.md) (p=0.0012) and PFS [PMID:37730754](../papers/37730754.md).
 - Prostate cancer (NEPC) — overexpressed without amplification; MYCN-CDK5-RB1-E2F1 axis drives neuroendocrine differentiation [PMID:38488813](../papers/38488813.md).
 - [NBL](../cancer_types/NBL.md) — amplified in 5/11 tumors; over-expressed in undifferentiated nC3 high-risk cluster; co-expressed with [ALK](../genes/ALK.md), [NTRK2](../genes/NTRK2.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md) in nC3 cells; correlated with 11q deletion and 17q gain [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
 - In FP-RMS, MYCN frequently co-amplified with [CDK4](../genes/CDK4.md) at the 12q13-15 locus; combined MYCN + [CDKN2A](../genes/CDKN2A.md) alterations have additive prognostic impact (p=0.0017 for combined population) [PMID:37730754](../papers/37730754.md).
-- In NEPC, MYCN co-elevated with AURKA (without genomic amplification), suggesting transcriptional or post-translational regulation [PMID:38488813](../papers/38488813.md).
+- In NEPC, MYCN co-elevated with [AURKA](../genes/AURKA.md) (without genomic amplification), suggesting transcriptional or post-translational regulation [PMID:38488813](../papers/38488813.md).
 - In neuroblastoma, MYCN co-amplified/co-expressed with [ALK](../genes/ALK.md) and [NTRK2](../genes/NTRK2.md) in the undifferentiated nC3 cluster; this cluster also shows recurrent 17q gains and 1p/11q losses [PMID:34493726](../papers/34493726.md).
 
 ## Therapeutic relevance
@@ -51,4 +51,4 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

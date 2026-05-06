@@ -5,7 +5,7 @@ main_type: Thyroid Cancer
 parent: WDTC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Papillary Thyroid Cancer (THPA)
@@ -16,8 +16,8 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 ## Cohorts in the corpus
 
-- 115 PTC regions from the GATCI consortium (same 292-patient cohort as THAP), profiled by WES, SNP arrays, and RNA-seq. Dataset: [thyroid_gatci_2024](../datasets/thyroid_gatci_2024.md). [PMID:38412093](../papers/38412093.md)
-- THPA identified as an acquired BRAF fusion histology in 1/15 patients who acquired BRAF fusions after prior targeted therapy (prior driver: unknown). [PMID:38922339](../papers/38922339.md)
+- 115 PTC regions from the GATCI consortium (same 292-patient cohort as [THAP](../cancer_types/THAP.md)), profiled by WES, SNP arrays, and RNA-seq. Dataset: [thyroid_gatci_2024](../datasets/thyroid_gatci_2024.md). [PMID:38412093](../papers/38412093.md)
+- THPA identified as an acquired [BRAF](../genes/BRAF.md) fusion histology in 1/15 patients who acquired BRAF fusions after prior targeted therapy (prior driver: unknown). [PMID:38922339](../papers/38922339.md)
 
 ## Recurrent alterations
 
@@ -29,7 +29,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 ## Subtypes
 
-- PTC shares common clonal ancestor with co-occurring ATC regions, with the ATC diverging through acquisition of TP53, [PIK3CA](../genes/PIK3CA.md), and [CDKN2A](../genes/CDKN2A.md) alterations. [PMID:38412093](../papers/38412093.md)
+- PTC shares common clonal ancestor with co-occurring ATC regions, with the ATC diverging through acquisition of [TP53](../genes/TP53.md), [PIK3CA](../genes/PIK3CA.md), and [CDKN2A](../genes/CDKN2A.md) alterations. [PMID:38412093](../papers/38412093.md)
 - BRAF fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired BRAF fusions. [PMID:38922339](../papers/38922339.md)
 - BRAF fusions co-occur with [TERT](../genes/TERT.md) mutations in 73% of BRAF fusion thyroid cancers. [PMID:38922339](../papers/38922339.md)
 
@@ -43,4 +43,4 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [PMID:38412093](../papers/38412093.md) — The genomic and evolutionary landscapes of anaplastic thyroid carcinoma (Cell Reports, 2024)
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

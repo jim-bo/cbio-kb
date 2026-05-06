@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [genotyping, pcr, mutation-detection, single-base-extension]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # SNaPshot multiplex PCR
@@ -17,7 +17,7 @@ SNaPshot (Applied Biosystems) is a dideoxy single-base-extension assay run after
 
 ## Used by
 
-- [PMID:30325352](../papers/30325352.md) — SNaPshot multiplex PCR used to detect single-nucleotide mutations in [EGFR](../genes/EGFR.md) (exons 18, 19, 20, 21) and [KRAS](../genes/KRAS.md) (exon 2, codons 12 and 13) in 206 and 205 of 211 NSCLC subjects, respectively, in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) radiogenomic dataset; [ALK](../genes/ALK.md)/[EML4](../genes/EML4.md) fusion status was assessed separately by [FISH](../methods/fish.md) [PMID:30325352](../papers/30325352.md).
+- [PMID:30325352](../papers/30325352.md) — SNaPshot multiplex PCR used to detect single-nucleotide mutations in [EGFR](../genes/EGFR.md) (exons 18, 19, 20, 21) and [KRAS](../genes/KRAS.md) (exon 2, codons 12 and 13) in 206 and 205 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects, respectively, in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) radiogenomic dataset; [ALK](../genes/ALK.md)/[EML4](../genes/EML4.md) fusion status was assessed separately by [FISH](../methods/fish.md) [PMID:30325352](../papers/30325352.md).
 
 ## Notes
 
@@ -28,4 +28,4 @@ SNaPshot (Applied Biosystems) is a dideoxy single-base-extension assay run after
 
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

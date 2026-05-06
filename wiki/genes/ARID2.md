@@ -10,7 +10,7 @@ tags:
   - chromatin-remodeling
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-06
 ---
 
 # ARID2
@@ -25,12 +25,13 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 (along with [CRTC1](../genes/CRTC1.md) and [MAP3K1](../genes/MAP3K1.md)) among rare shared SNVs detected across four metastatic lesions of a single PDTO-profiled sarcoma patient (SARC0075); the CNV landscape across lesions was substantially discordant despite shared SNVs [PMID:39305899](../papers/39305899.md).
 - ARID2 loss-of-function mutations enriched specifically at the actinic keratosis (AK)-to-cutaneous squamous cell carcinoma (cSCC) transition in a clonal evolution study of 16 AK-cSCC pairs; ARID2 loss was associated with SWI/SNF disruption and potential immune evasion [PMID:39091884](../papers/39091884.md).
 - ARID2 (SWI/SNF complex member) mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md) with no significant difference in mutation rates between responders and non-responders (n=35) [PMID:38653864](../papers/38653864.md).
+- ARID2 LOF mutations in 6% of [GBC](../cancer_types/GBC.md); structural variants in 2 samples [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
 - [MEL](../cancer_types/MEL.md) — ARID2 mutations identified in premalignant melanocytes of tanning bed users [PMID:38895302](../papers/38895302.md).
 - [CSCC](../cancer_types/CSCC.md) — ARID2 loss-of-function is a late event marking the AK-to-cSCC transition, potentially linked to immune evasion via SWI/SNF disruption [PMID:39091884](../papers/39091884.md).
-- [UCEC](../cancer_types/UCEC.md) — ARID2 alterations present in dMMR/MSI-H endometrial and ovarian cancers; not associated with nivolumab response [PMID:38653864](../papers/38653864.md).
+- [UCEC](../cancer_types/UCEC.md) — ARID2 alterations present in dMMR/MSI-H endometrial and ovarian cancers; not associated with [nivolumab](../drugs/nivolumab.md) response [PMID:38653864](../papers/38653864.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -44,7 +45,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 ## Open questions
 
 - Whether SWI/SNF complex mutations (ARID2) directly drive immune evasion at the AK-to-cSCC transition, as suggested by emerging evidence from other tumor types, requires direct experimental validation [PMID:39091884](../papers/39091884.md).
-- Why ARID2 mutations do not predict nivolumab response in dMMR gynecologic cancers, despite SWI/SNF disruption being theoretically linked to immune recognition, is unresolved [PMID:38653864](../papers/38653864.md).
+- Why ARID2 mutations do not predict [nivolumab](../drugs/nivolumab.md) response in dMMR gynecologic cancers, despite SWI/SNF disruption being theoretically linked to immune recognition, is unresolved [PMID:38653864](../papers/38653864.md).
 
 ## Sources
 
@@ -53,4 +54,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

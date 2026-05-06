@@ -4,14 +4,14 @@ aliases: []
 cancer_types: []
 tags: [fusion-partner, braf-fusion]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # SND1
 
 ## Overview
 
-SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as a fusion partner in [BRAF](../genes/BRAF.md) fusions, identified in a tumor-agnostic genomic analysis of BRAF fusion-positive cancers.
+SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as a fusion partner in [BRAF](../genes/BRAF.md) fusions, identified in a tumor-agnostic genomic analysis of [BRAF](../genes/BRAF.md) fusion-positive cancers.
 
 ## Alterations observed in the corpus
 
@@ -37,4 +37,4 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

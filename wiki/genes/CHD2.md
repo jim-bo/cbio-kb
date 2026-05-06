@@ -5,7 +5,7 @@ cancer_types:
   - MNG
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # CHD2
@@ -24,7 +24,7 @@ CHD2 (Chromodomain Helicase DNA Binding Protein 2) encodes an ATP-dependent chro
 
 ## Co-occurrence and mutual exclusivity
 
-- CHD2 mutations co-occur with KDM6A mutations and PTEN alterations in MG3/MG4 meningiomas; [NF2](../genes/NF2.md) mutations are uncommon in this group, distinguishing it from the benign MG1 subtype [PMID:34433969](../papers/34433969.md).
+- CHD2 mutations co-occur with [KDM6A](../genes/KDM6A.md) mutations and [PTEN](../genes/PTEN.md) alterations in MG3/MG4 meningiomas; [NF2](../genes/NF2.md) mutations are uncommon in this group, distinguishing it from the benign MG1 subtype [PMID:34433969](../papers/34433969.md).
 
 ## Therapeutic relevance
 
@@ -38,4 +38,4 @@ CHD2 (Chromodomain Helicase DNA Binding Protein 2) encodes an ATP-dependent chro
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

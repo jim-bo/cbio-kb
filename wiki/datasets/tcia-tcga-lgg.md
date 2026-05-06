@@ -18,8 +18,8 @@ tags:
   - segmentation
   - radiomics
   - tcga
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # TCIA TCGA-LGG MRI Collection
@@ -48,7 +48,7 @@ The TCIA TCGA-LGG collection provides pre-operative multi-parametric MRI scans f
 ## Notable findings derived from this cohort
 
 - N=44 LGG cases overlap with BraTS'15 training set; N=15 with BraTS'15 testing set. The revised labels became the BraTS'17 reference standard. [PMID:28872634](../papers/28872634.md)
-- LGG cases without apparent enhancing tumour are annotated as NET-only or NET+oedema, creating a biologically grounded labelling scheme distinct from the GBM annotation protocol. [PMID:28872634](../papers/28872634.md)
+- LGG cases without apparent enhancing tumour are annotated as NET-only or NET+oedema, creating a biologically grounded labelling scheme distinct from the [GBM](../cancer_types/GBM.md) annotation protocol. [PMID:28872634](../papers/28872634.md)
 
 ## Sources
 
@@ -56,4 +56,4 @@ The TCIA TCGA-LGG collection provides pre-operative multi-parametric MRI scans f
 - cBioPortal genomic counterpart: [lgg_tcga](../datasets/lgg_tcga.md)
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*, DOI 10.1038/sdata.2017.117.
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

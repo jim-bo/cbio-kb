@@ -16,7 +16,7 @@ tags:
   - ctdna
   - phase-ii-trial
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # HER2-Positive Esophagogastric Cancer — TRAP Trial (MSK, Cancer Cell Reports 2023)
@@ -28,8 +28,8 @@ Integrated dataset from a Phase II clinical trial (NCT02954536) and a retrospect
 ## Composition
 
 - **Phase II trial cohort**: 37 patients with HER2-positive (IHC 3+ or IHC 2+/FISH+) metastatic esophagogastric, gastroesophageal junction, or gastric adenocarcinoma treated with [pembrolizumab](../drugs/pembrolizumab.md), [trastuzumab](../drugs/trastuzumab.md), [capecitabine](../drugs/capecitabine.md), and [oxaliplatin](../drugs/oxaliplatin.md). [PMID:37406106](../papers/37406106.md)
-- **MSK retrospective cohort**: 226 patients with HER2-positive EGC who received platinum-based chemotherapy with HER2-directed therapy from 2010 to 2022. [PMID:37406106](../papers/37406106.md)
-- **scRNA-seq cohort**: Paired pre- and on-treatment biopsies from 7 patients (3 with CAPOX + trastuzumab, 4 without). [PMID:37406106](../papers/37406106.md)
+- **MSK retrospective cohort**: 226 patients with HER2-positive [EGC](../cancer_types/EGC.md) who received platinum-based chemotherapy with HER2-directed therapy from 2010 to 2022. [PMID:37406106](../papers/37406106.md)
+- **scRNA-seq cohort**: Paired pre- and on-treatment biopsies from 7 patients (3 with CAPOX + [trastuzumab](../drugs/trastuzumab.md), 4 without). [PMID:37406106](../papers/37406106.md)
 - Cancer types: esophageal ([ESCA](../cancer_types/ESCA.md)), gastroesophageal junction ([GEJ](../cancer_types/GEJ.md)), and gastric ([STAD](../cancer_types/STAD.md)) adenocarcinoma. [PMID:37406106](../papers/37406106.md)
 
 ## Assays / panels (linked)
@@ -55,4 +55,4 @@ Integrated dataset from a Phase II clinical trial (NCT02954536) and a retrospect
 
 - cBioPortal study `egc_trap_ccr_msk_2023` [PMID:37406106](../papers/37406106.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -3,8 +3,8 @@ symbol: CDKN2B
 aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
-processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # CDKN2B
@@ -27,6 +27,8 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Deletions co-occurring with [BRAF](../genes/BRAF.md) fusions in 12% of [BRAF](../genes/BRAF.md) fusion-positive tumors across histologies [PMID:38922339](../papers/38922339.md).
 - In 2,336 PDAC patients ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), CDKN2A/CDKN2B alteration rate increased from 44% (resectable) to 60% (metastatic) (P = 6.9 × 10⁻⁵), establishing stage-dependent CDKN2B loss as a prognostic marker of PDAC progression [PMID:39753968](../papers/39753968.md).
 - Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the RB pathway (52% altered) [PMID:18772890](../papers/18772890.md).
+- Frequently deleted alongside [CDKN2A](../genes/CDKN2A.md) in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle tumour suppressor in CDK4/6-cyclin D pathway. [PMID:18948947](../papers/18948947.md)
+- CDKN2B deletions in 14% of [GBC](../cancer_types/GBC.md); frequently co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -67,4 +69,10 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

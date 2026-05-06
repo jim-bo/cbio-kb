@@ -5,7 +5,7 @@ main_type: CNS Cancer
 parent: MNGT
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Meningioma (MNG)
@@ -43,10 +43,10 @@ Meningioma (MNG) is the most common primary intracranial tumor, arising from the
 
 - Vorinostat (HDAC inhibitor) selectively reduced viability of MG4 (proliferative) patient-derived cell lines and attenuated tumor growth in MG4 intracranial xenografts, warranting further clinical investigation. [PMID:34433969](../papers/34433969.md)
 - MG2 tumors harboring TRAF7/AKT1/KLF4/SMO mutations may be amenable to targeted therapies (PI3K/AKT, Hedgehog pathway). [PMID:34433969](../papers/34433969.md)
-- Proteomic IHC markers (S100B, SCGN, ACADL, MCM2) could enable molecular group assignment in conventional neuropathology labs. [PMID:34433969](../papers/34433969.md)
+- Proteomic IHC markers ([S100B](../genes/S100B.md), [SCGN](../genes/SCGN.md), [ACADL](../genes/ACADL.md), [MCM2](../genes/MCM2.md)) could enable molecular group assignment in conventional neuropathology labs. [PMID:34433969](../papers/34433969.md)
 
 ## Sources
 
 - [PMID:34433969](../papers/34433969.md) — A Clinically Applicable Integrative Molecular Classification of Meningiomas (Nature, 2021)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

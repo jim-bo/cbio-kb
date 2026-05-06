@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, radiomics, quantitative-imaging, feature-extraction]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Radiomics
@@ -20,7 +20,7 @@ Radiomics is the high-throughput extraction of a large number of quantitative im
 ## Used by
 
 - [PMID:38362943](../papers/38362943.md) — RADCURE (3346-patient HNC RT planning CT dataset) is explicitly released to support radiomics and machine-learning research in head and neck radiation oncology; organ-at-risk and gross-tumor contours in [DICOM RT-STRUCT](../methods/dicom-rt-struct.md) format serve as the segmentation substrate for downstream radiomic feature extraction [PMID:38362943](../papers/38362943.md).
-- [PMID:37397861](../papers/37397861.md) — RADCURE prognostic challenge benchmarked 12 ML models for 2-year OS prediction in 2,552 HNSC patients; both hand-engineered (PyRadiomics 1,316-feature) and deep-learning CT radiomics models were evaluated, with the finding that radiomic features added no prognostic value over EMR+tumor-volume; deep CNN approaches outperformed hand-crafted radiomics but neither beat simple clinical models [PMID:37397861](../papers/37397861.md).
+- [PMID:37397861](../papers/37397861.md) — RADCURE prognostic challenge benchmarked 12 ML models for 2-year [OS](../cancer_types/OS.md) prediction in 2,552 [HNSC](../cancer_types/HNSC.md) patients; both hand-engineered (PyRadiomics 1,316-feature) and deep-learning CT radiomics models were evaluated, with the finding that radiomic features added no prognostic value over EMR+tumor-volume; deep CNN approaches outperformed hand-crafted radiomics but neither beat simple clinical models [PMID:37397861](../papers/37397861.md).
 
 ## Notes
 
@@ -32,4 +32,4 @@ Radiomics is the high-throughput extraction of a large number of quantitative im
 - [PMID:38362943](../papers/38362943.md)
 - [PMID:37397861](../papers/37397861.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [transcription-factor, meningioma, driver]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # KLF4
@@ -27,7 +27,7 @@ KLF4 (Kruppel-Like Factor 4) is a transcription factor involved in cell differen
 
 ## Therapeutic relevance
 
-- MG2 meningiomas harboring TRAF7/AKT1/KLF4/SMO mutations may be amenable to targeted therapies directed at these specific pathways, including AKT and SMO inhibitors [PMID:34433969](../papers/34433969.md).
+- MG2 meningiomas harboring TRAF7/AKT1/KLF4/SMO mutations may be amenable to targeted therapies directed at these specific pathways, including AKT and [SMO](../genes/SMO.md) inhibitors [PMID:34433969](../papers/34433969.md).
 
 ## Open questions
 
@@ -37,4 +37,4 @@ KLF4 (Kruppel-Like Factor 4) is a transcription factor involved in cell differen
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

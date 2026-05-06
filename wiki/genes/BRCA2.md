@@ -16,7 +16,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-06
 ---
 
 # BRCA2
@@ -36,21 +36,27 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 significantly over-expressed (FDR < 0.01, Welch's t-test) in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors in a single-nuclei transcriptomic study of 11 tumors; nC3 is enriched for MYCN-amplified and/or 11q-deleted genotypes [PMID:34493726](../papers/34493726.md).
 - Pathogenic germline/somatic BRCA2 variants — along with other HRD-DDR gene alterations — used as the primary basis for HRD subtype assignment in a 444-patient [HGSOC](../cancer_types/HGSOC.md) multimodal risk-stratification study; HRD status alone yielded only modest [OS](../cancer_types/OS.md) discrimination (concordance index 0.52) [PMID:35764743](../papers/35764743.md).
 - BRCA2 alterations dose-dependently associated with NLP-derived Gleason score in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
-- Germline pathogenic BRCA2 alterations in 3.7% of [PAAD](../cancer_types/PAAD.md); strong selection for biallelic LOH in carriers; BRCA2 alterations associated with longer first-line OS (HR_adj = 0.66, P = 0.038); all 10 long-PARPi-responder BRCA2 tumors had biallelic inactivation in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
-- BRCA2 alterations in 2 cases (1%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200); univariable signal of shorter OS (HR 6.06, 95% CI 1.45–25.3; p = 0.014) but n=2 limits inference; pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
+- Germline pathogenic BRCA2 alterations in 3.7% of [PAAD](../cancer_types/PAAD.md); strong selection for biallelic LOH in carriers; BRCA2 alterations associated with longer first-line [OS](../cancer_types/OS.md) (HR_adj = 0.66, P = 0.038); all 10 long-PARPi-responder BRCA2 tumors had biallelic inactivation in a 2,336-tumor PDAC genomic cohort [PMID:39753968](../papers/39753968.md).
+- BRCA2 alterations in 2 cases (1%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200); univariable signal of shorter [OS](../cancer_types/OS.md) (HR 6.06, 95% CI 1.45–25.3; p = 0.014) but n=2 limits inference; pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
+- Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs; 4/4 BRCA2 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
+- Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
+- Germline/somatic mutations define HRD-Del subtype with interstitial deletions in [HGSOC](../cancer_types/HGSOC.md); 16/81 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
+- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
+- BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
+- BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
-- [OVT](../cancer_types/OVT.md) — Germline BRCA2 mutations in HGSOC; HRD via BRCA1/2 is the primary PARP inhibitor vulnerability [PMID:39386723](../papers/39386723.md).
+- [OVT](../cancer_types/OVT.md) — Germline BRCA2 mutations in [HGSOC](../cancer_types/HGSOC.md); HRD via BRCA1/2 is the primary PARP inhibitor vulnerability [PMID:39386723](../papers/39386723.md).
 - [THPA](../cancer_types/THPA.md) — BRCA2 deletion in 33.6% of ATC; paradoxically associated with better ATC survival [PMID:38412093](../papers/38412093.md).
-- [HCC](../cancer_types/HCC.md) — BRCA2 detected by cfDNA in 4% of advanced HCC; actionable (OncoKB level) [PMID:37769223](../papers/37769223.md).
+- [HCC](../cancer_types/HCC.md) — BRCA2 detected by cfDNA in 4% of advanced [HCC](../cancer_types/HCC.md); actionable (OncoKB level) [PMID:37769223](../papers/37769223.md).
 - [CESC](../cancer_types/CESC.md) — Pathogenic somatic BRCA2 alterations in a subset of cervical cancers [PMID:37643132](../papers/37643132.md).
 - [PRAD](../cancer_types/PRAD.md) — DDR gene alterations including BRCA2 in prostate cancer adenocarcinoma PDXs; elevated rates in MSI-H/dMMR prostate cancer as likely passengers [PMID:38488813](../papers/38488813.md) [PMID:38949888](../papers/38949888.md).
 - Neuroblastoma ([NBL](../cancer_types/NBL.md)) — BRCA2 over-expression marks the high-risk undifferentiated nC3 cluster at single-nuclei resolution; significance confirmed at FDR < 0.01 [PMID:34493726](../papers/34493726.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- In HGSOC, germline BRCA2 mutations define a subset with HRD; somatic events and epigenetic silencing contribute to additional cases [PMID:39386723](../papers/39386723.md).
+- In [HGSOC](../cancer_types/HGSOC.md), germline BRCA2 mutations define a subset with HRD; somatic events and epigenetic silencing contribute to additional cases [PMID:39386723](../papers/39386723.md).
 - In MSI-H/dMMR prostate cancer, elevated BRCA2 mutation rates are attributed to the hypermutator context rather than functional HRD; PARP inhibitor responses were lower in this population [PMID:38949888](../papers/38949888.md).
 
 ## Therapeutic relevance
@@ -78,4 +84,22 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36593350](../papers/36593350.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36517593](../papers/36517593.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36334560](../papers/36334560.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

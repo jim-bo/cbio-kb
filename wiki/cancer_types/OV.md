@@ -6,8 +6,8 @@ parent: WOMB
 tags:
   - ovarian-cancer
   - gynecologic
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Ovarian Epithelial Tumor (OV)
@@ -18,7 +18,7 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 
 ## Cohorts in the corpus
 
-- [ovary_geomx_gray_foundation_2024](../datasets/ovary_geomx_gray_foundation_2024.md) — fallopian tube spatial-transcriptomics atlas across STIC.I → STIC.C → invasive HGSOC progression stages. [PMID:39386723](../papers/39386723.md)
+- [ovary_geomx_gray_foundation_2024](../datasets/ovary_geomx_gray_foundation_2024.md) — fallopian tube [spatial-transcriptomics](../methods/spatial-transcriptomics.md) atlas across STIC.I → STIC.C → invasive [HGSOC](../cancer_types/HGSOC.md) progression stages. [PMID:39386723](../papers/39386723.md)
 
 ## Recurrent alterations
 
@@ -40,3 +40,5 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 ---
 
 *Page last touched by entity-page-writer on 2026-05-01.*
+
+*This page was processed by **crosslinker** on **2026-05-04**.*

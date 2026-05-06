@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-05
 ---
 
 # Whole-exome sequencing (WES)
@@ -37,6 +37,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:35764743](../papers/35764743.md) — WES-based HRD classification methodology informed the SigMA/COSMIC SBS3 detection approach applied to MSK-IMPACT data for 444 [HGSOC](../cancer_types/HGSOC.md) patients; WES is the gold-standard comparator for SBS3 calling from targeted panels in this study [PMID:35764743](../papers/35764743.md).
 - [PMID:39746944](../papers/39746944.md) — WES validation set (n=582 NGS libraries) from the MiMSI test cohort re-captured with whole-exome sequencing probes and reanalyzed with the MiMSI classifier; 98.6% concordance with MSK-IMPACT classifications (5 discordant cases), demonstrating that MiMSI generalizes to WES without retraining [PMID:39746944](../papers/39746944.md).
 - [PMID:39975212](../papers/39975212.md) — WES (NimbleGen SeqCap EZ Exome+UTR or KAPA HyperExome V1) performed on 297 clonally expanded single melanocytes from 58 skin biopsies; aligned to hg19 with BWA-MEM v2.0.5 and GATK v4.1.2.0; identified bimodal UV-burden (HighMut SBS7, LowMut SBS1/SBS5) subpopulations coexisting in the same skin biopsy [PMID:39975212](../papers/39975212.md).
+- Used on 55 metastatic breast cancer patients (51 primaries, 102 metastases) in the AURORA cohort; 88/153 specimens had all four assays (WES, WGS, RNA-seq, EPIC array) [PMID:36585450](../papers/36585450.md)
+- Applied to 12 myoepithelioma (MEC) tumor samples from 2 patients (mean coverage 98.5x); revealed chromoplexy-driven structural rearrangements and low TMB (mean 1.35 mutations/Mb) [PMID:36577525](../papers/36577525.md)
+- Applied to 22 primary-metastasis bladder cancer pairs (tumor purity >=25% by FACETS); mean mutational concordance only 42% (range 6%-84%), demonstrating early branched evolution [PMID:36543146](../papers/36543146.md)
 
 ## Notes
 
@@ -66,3 +69,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:36585450](../papers/36585450.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:36577525](../papers/36577525.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:36543146](../papers/36543146.md)
+
+*This page was processed by **wiki-cli** on **2026-05-05**.*

@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # trastuzumab
@@ -21,22 +21,31 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Pembrolizumab + trastuzumab + [capecitabine](../drugs/capecitabine.md) + [oxaliplatin](../drugs/oxaliplatin.md) (PTC) in HER2-positive metastatic esophagogastric cancer (phase II, n=37): median PFS 13 months, median [OS](../cancer_types/OS.md) 27 months, ORR 89%; uniform HER2 IHC 3+ predicts longer PFS vs heterogeneous/2+ (15 vs 8.5 months, P=0.004) [PMID:37406106](../papers/37406106.md).
 - In endometrial carcinoma, [ERBB2](../genes/ERBB2.md) amplification enriched in Black patients (12% vs 3%) represents a therapeutic target for trastuzumab and trastuzumab deruxtecan [PMID:37651310](../papers/37651310.md).
 - In preclinical HER2+ xenograft models (OE19 esophageal, NCI-N87 gastric), trastuzumab alone had no significant radiosensitizing effect; it was used as antibody-only control showing that [ERBB2](../genes/ERBB2.md) binding without cytotoxic payload does not alter radiation response [PMID:27698471](../papers/27698471.md).
-- T-DM1 was more potent than trastuzumab, paclitaxel, cisplatin, lapatinib, or erlotinib in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
+- T-DM1 was more potent than trastuzumab, [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
+- In the AURORA US Metastasis Project (n=55 metastatic breast cancer), one participant (AFE4) exhibited loss of [ERBB2](../genes/ERBB2.md) amplification under trastuzumab selective pressure — the HER2 amplification present at primary diagnosis was absent in the metastatic biopsy, representing a genomic resistance event to HER2-targeted therapy [PMID:36585450](../papers/36585450.md)
+- 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); ERBB2 amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
 
 ## Resistance mechanisms
 
 - Lineage/context in ovarian germ cell tumor appears unfavorable for trastuzumab response in ERBB2-amplified disease [PMID:36862133](../papers/36862133.md).
 - Loss of HER2 expression was a major resistance mechanism in 48% of progressing [EGC](../cancer_types/EGC.md) patients on [pembrolizumab](../drugs/pembrolizumab.md)+trastuzumab regimen; acquired [KRAS](../genes/KRAS.md), [PIK3CA](../genes/PIK3CA.md), and [MET](../genes/MET.md) alterations also conferred resistance [PMID:37406106](../papers/37406106.md).
+- Loss of [ERBB2](../genes/ERBB2.md) amplification at the metastatic site observed in one AURORA US participant (AFE4), implicating clonal selection under trastuzumab pressure as a genomic resistance mechanism in metastatic breast cancer [PMID:36585450](../papers/36585450.md).
 
 ## Cancer types (linked)
 
 - [OGCT](../cancer_types/OGCT.md)
 - [ESCA](../cancer_types/ESCA.md)
 - [STAD](../cancer_types/STAD.md)
+- [BRCA](../cancer_types/BRCA.md) — metastatic breast cancer ([ERBB2](../genes/ERBB2.md) amplification loss under treatment)
 
 ## Sources
 
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; HER2 amplification loss under trastuzumab pressure in metastatic breast cancer.
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

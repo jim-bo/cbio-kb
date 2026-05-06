@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # pembrolizumab
@@ -28,6 +28,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In MSK-CHORD [NSCLC](../cancer_types/NSCLC.md), PDL1+ vs PDL1− patients on immunotherapy had [OS](../cancer_types/OS.md) HR=0.64 (95% CI 0.54–0.77, P<0.001) in 754 patients, validating at scale the same magnitude seen in the smaller MSK-BPC cohort (HR=0.58, n=29). The PDL1 biomarker practice for pembrolizumab selection in [NSCLC](../cancer_types/NSCLC.md) was supported at population scale. [PMID:39506116](../papers/39506116.md)
 - MSI-H / dMMR tumors are the primary FDA tumor-agnostic indication for pembrolizumab; MiMSI (deep-learning MSI classifier) recovers cases that MSISensor miscalls due to low tumor purity (sensitivity 91.6% vs 86.1%), directly expanding the pool of pembrolizumab-eligible patients identified through routine NGS. [PMID:39746944](../papers/39746944.md)
 - In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
+- In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and EZH2 inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
+- 9 of 12 metastatic gallbladder carcinoma patients receiving immune checkpoint inhibitors received pembrolizumab; 42% (5/12) showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
 
 ## Resistance mechanisms
 
@@ -54,8 +56,13 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:38630790](../papers/38630790.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
-- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in NSCLC immunotherapy.
+- [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; PDL1 biomarker validation at scale in [NSCLC](../cancer_types/NSCLC.md) immunotherapy.
 - [PMID:39746944](../papers/39746944.md) — Ziegler et al. 2024, MiMSI; MSI-H detection expanding pembrolizumab eligibility via improved NGS-based MSI calling.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. 2025, CALGB 90601 cfDNA; EV+pembrolizumab as first-line standard in mUC.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:36543146](../papers/36543146.md) — Sfakianos et al. 2023; [ARID1A](../genes/ARID1A.md) as metastasis-enriched alteration and potential ICI biomarker in bladder cancer.
+
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

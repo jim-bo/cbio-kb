@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 canonical_source: cbioportal
 unverified: false
 ---
@@ -27,11 +27,11 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Colorectal cancer ([COAD](../cancer_types/COAD.md)) — RNF43 mutations in 64% of [BRAF](../genes/BRAF.md) fusion-positive CRCs; enrichment in this molecular subtype with co-occurring Wnt pathway activation [PMID:38922339](../papers/38922339.md).
 - Prostate cancer ([PRAD](../cancer_types/PRAD.md)) — RNF43 mutation in PDX model heterogeneity pair 316; negative regulator of Wnt pathway in this context [PMID:38488813](../papers/38488813.md).
 - Cervical cancer ([CESC](../cancer_types/CESC.md)) — RNF43 alterations observed in the MSK cervical cancer cohort [PMID:37643132](../papers/37643132.md).
-- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — RNF43 alterations independently predict shorter first-line OS in metastatic chemotherapy-treated PDAC (HR_adj = 2.79, P_adj = 0.047), with a trend toward higher KRAS mutant-allele dosage. [PMID:39753968](../papers/39753968.md)
+- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — RNF43 alterations independently predict shorter first-line [OS](../cancer_types/OS.md) in metastatic chemotherapy-treated PDAC (HR_adj = 2.79, P_adj = 0.047), with a trend toward higher [KRAS](../genes/KRAS.md) mutant-allele dosage. [PMID:39753968](../papers/39753968.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Strong co-occurrence with BRAF fusions in colorectal cancer (64%); likely represents a distinct CRC molecular subtype with concurrent Wnt pathway loss and MAPK pathway activation [PMID:38922339](../papers/38922339.md).
+- Strong co-occurrence with [BRAF](../genes/BRAF.md) fusions in colorectal cancer (64%); likely represents a distinct CRC molecular subtype with concurrent Wnt pathway loss and MAPK pathway activation [PMID:38922339](../papers/38922339.md).
 - Co-occurs with [SPOP](../genes/SPOP.md) mutations in prostate cancer PDX heterogeneity model 316 [PMID:38488813](../papers/38488813.md).
 
 ## Therapeutic relevance
@@ -50,4 +50,4 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -239,6 +239,12 @@ def _cmd_wiki_build_graph(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_wiki_append_citation(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import append_citation
+
+    return append_citation.cli_main(args)
+
+
 def _cmd_wiki_reprocess_frontmatter(args: argparse.Namespace) -> int:
     from cbio_kb.wiki import reprocess
 
@@ -306,8 +312,10 @@ def build_parser() -> argparse.ArgumentParser:
     idx_bp.add_argument("--index-dir", default="data/paper_index")
     idx_bp.add_argument("--chunk-chars", type=int, default=900)
     idx_bp.add_argument("--overlap", type=int, default=120)
-    from cbio_kb.index.papers import _VERTEX_BATCH_SIZE
-    idx_bp.add_argument("--batch-size", type=int, default=_VERTEX_BATCH_SIZE)
+    # Default mirrors cbio_kb.index.papers._VERTEX_BATCH_SIZE; inlined to keep
+    # parser construction free of the numpy/faiss import chain (CI runs `lint`
+    # without the [server] extras installed).
+    idx_bp.add_argument("--batch-size", type=int, default=25)
     idx_bp.set_defaults(func=_cmd_index_build_papers)
 
     ont = sub.add_parser("ontology", help="Canonical ontology management")
@@ -429,6 +437,18 @@ def build_parser() -> argparse.ArgumentParser:
         help="Print rendered graph JSON to stdout instead of writing",
     )
     w_bgraph.set_defaults(func=_cmd_wiki_build_graph)
+
+    w_append = wiki_sub.add_parser("append-citation",
+                                    help="Append a finding bullet + Sources entry to an entity page")
+    w_append.add_argument("--kind", required=True,
+                          choices=["gene", "cancer_type", "dataset", "drug", "method"])
+    w_append.add_argument("--id", required=True, help="Canonical entity identifier")
+    w_append.add_argument("--pmid", required=True, help="Citing PMID")
+    w_append.add_argument("--bullet", required=True,
+                          help="One-line claim ending with [PMID:NNN](../papers/NNN.md)")
+    w_append.add_argument("--section", default=None,
+                          help="Target H2 section (default: per-kind default)")
+    w_append.set_defaults(func=_cmd_wiki_append_citation)
 
     w_repatch = wiki_sub.add_parser("reprocess-frontmatter",
                                      help="Tier 1: patch frontmatter to match templates (deterministic)")

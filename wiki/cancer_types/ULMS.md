@@ -5,7 +5,7 @@ main_type: Uterine Sarcoma
 parent: USMT
 tags: []
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Uterine Leiomyosarcoma (ULMS)
@@ -31,11 +31,11 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 ## Subtypes
 
 - Three-tier genomic risk model for disease-specific survival (primary, n=177): [PMID:38488807](../papers/38488807.md)
-  - High risk: TP53 mutation + [ATRX](../genes/ATRX.md) mutation or chr20q amplification (n=50, median DSS 52 months, 5-year DSS 41%).
-  - Intermediate: TP53 mutation, ATRX mutation, or amp20q (n=66, median DSS 92 months).
+  - High risk: [TP53](../genes/TP53.md) mutation + [ATRX](../genes/ATRX.md) mutation or chr20q amplification (n=50, median DSS 52 months, 5-year DSS 41%).
+  - Intermediate: TP53 mutation, [ATRX](../genes/ATRX.md) mutation, or amp20q (n=66, median DSS 92 months).
   - Low: none of above (n=61, median DSS 157 months; global log-rank P=0.00012).
 - Most molecular alterations are early clonal events persisting through disease progression. [PMID:38488807](../papers/38488807.md)
-- ULMS vs. STLMS distinction: ATRX mutations more common in ULMS (32% vs. 10%), [MED12](../genes/MED12.md) mutations unique to ULMS (15% vs. 1%), RB1 deletions more common in ULMS (39% vs. 24%). [PMID:38488807](../papers/38488807.md)
+- ULMS vs. STLMS distinction: ATRX mutations more common in ULMS (32% vs. 10%), [MED12](../genes/MED12.md) mutations unique to ULMS (15% vs. 1%), [RB1](../genes/RB1.md) deletions more common in ULMS (39% vs. 24%). [PMID:38488807](../papers/38488807.md)
 
 ## Therapeutic landscape
 
@@ -47,4 +47,4 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 
 - [PMID:38488807](../papers/38488807.md) — Developing Novel Genomic Risk Stratification Models in Soft Tissue and Uterine Leiomyosarcoma (Clinical Cancer Research, 2024)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

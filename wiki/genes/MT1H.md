@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [EGC]
 tags: [metallothionein, resistance, scRNA-seq]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # MT1H
@@ -23,7 +23,7 @@ MT1H is a metallothionein family isoform involved in metal homeostasis and cellu
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with MT1E, MT2A, and MSMB in trastuzumab-resistant HER2+ EGC escape lesions [PMID:37406106](../papers/37406106.md).
+- Co-expressed with [MT1E](../genes/MT1E.md), [MT2A](../genes/MT2A.md), and [MSMB](../genes/MSMB.md) in trastuzumab-resistant HER2+ [EGC](../cancer_types/EGC.md) escape lesions [PMID:37406106](../papers/37406106.md).
 
 ## Therapeutic relevance
 
@@ -31,10 +31,10 @@ MT1H is a metallothionein family isoform involved in metal homeostasis and cellu
 
 ## Open questions
 
-- The functional mechanism by which MT1H contributes to trastuzumab resistance is not experimentally established.
+- The functional mechanism by which MT1H contributes to [trastuzumab](../drugs/trastuzumab.md) resistance is not experimentally established.
 
 ## Sources
 
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -10,14 +10,14 @@ assays: [germline-seq, targeted-panel]
 panels: []
 tags: [esophagogastric-cancer, stad, esca, early-onset, msk-impact]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Esophagogastric Cancer (MSK, JCO Oncology Practice 2023)
 
 ## Overview
 
-Single-center retrospective cohort of 1,123 patients with esophagogastric cancer ([EGC](../cancer_types/EGC.md), [STAD](../cancer_types/STAD.md), [ESCA](../cancer_types/ESCA.md), [GEJ](../cancer_types/GEJ.md) adenocarcinoma) treated at Memorial Sloan Kettering Cancer Center between 2005 and 2018. Designed to compare clinical and molecular characteristics of early-onset (age ≤50) vs. average-onset (age >50) EGC, integrating somatic and germline sequencing data. [PMID:37699004](../papers/37699004.md)
+Single-center retrospective cohort of 1,123 patients with esophagogastric cancer ([EGC](../cancer_types/EGC.md), [STAD](../cancer_types/STAD.md), [ESCA](../cancer_types/ESCA.md), [GEJ](../cancer_types/GEJ.md) adenocarcinoma) treated at Memorial Sloan Kettering Cancer Center between 2005 and 2018. Designed to compare clinical and molecular characteristics of early-onset (age ≤50) vs. average-onset (age >50) [EGC](../cancer_types/EGC.md), integrating somatic and germline sequencing data. [PMID:37699004](../papers/37699004.md)
 
 ## Composition
 
@@ -46,4 +46,4 @@ Single-center retrospective cohort of 1,123 patients with esophagogastric cancer
 
 - cBioPortal study `egc_msk_2023` [PMID:37699004](../papers/37699004.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [transcription-factor, proliferation, oncogene]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # FOXM1
@@ -23,7 +23,7 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-enriched with MYC in the MG4 meningioma proliferative transcriptional program [PMID:34433969](../papers/34433969.md).
+- Co-enriched with [MYC](../genes/MYC.md) in the MG4 meningioma proliferative transcriptional program [PMID:34433969](../papers/34433969.md).
 
 ## Therapeutic relevance
 
@@ -37,4 +37,4 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

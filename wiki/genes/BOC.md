@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - ODG
 tags: [stem-progenitor, oligodendroglioma, hedgehog-signaling, cell-adhesion]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # BOC
@@ -20,7 +20,7 @@ BOC (brother of CDO) is a cell surface receptor and co-receptor for hedgehog sig
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — BOC marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells (MKI67+, 1.5–8% of all cells) and most closely resembles a tri-potent neural progenitor [PMID:27806376](../papers/27806376.md).
+- [ODG](../cancer_types/ODG.md) — BOC marks the proliferative stem/progenitor apex of oligodendroglioma; this compartment is enriched for cycling cells ([MKI67](../genes/MKI67.md)+, 1.5–8% of all cells) and most closely resembles a tri-potent neural progenitor [PMID:27806376](../papers/27806376.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,4 +38,4 @@ BOC (brother of CDO) is a cell surface receptor and co-receptor for hedgehog sig
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

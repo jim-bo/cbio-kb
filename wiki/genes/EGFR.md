@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-06
 ---
 
 # EGFR
@@ -31,6 +31,11 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR surface expression (not mutation status) gates radiosensitization by C-MMAE (cetuximab-MMAE conjugate); EGFR+ lines (CAL-27, A549, CALU3, SCC-61, SCC-35, SQ-9G, HCT-116) accumulate C-MMAE and show dose-dependent G2/M arrest; LN229 (EGFR-low) is refractory [PMID:27698471](../papers/27698471.md).
 - EGFR mutation status (SNaPshot PCR, exons 18–21) was annotated for 206/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 - EGFR/[ERBB2](../genes/ERBB2.md) pathway was implicated by KEGG analysis in [chordoma](../cancer_types/CHDM.md) PDTOs (UCLA sarcoma biobank, n=194 specimens); chordomas were preferentially sensitive to TAK-285 (EGFR/ERBB2 kinase inhibitor, p=0.034) in patient-derived tumor organoid drug screening [PMID:39305899](../papers/39305899.md).
+- Mutations enriched in never-smokers (P=0.0046); associated with lower overall mutation rate, copy number gain, and higher expression; mutually exclusive with [KRAS](../genes/KRAS.md) (P<1e-7) and negatively correlated with [STK11](../genes/STK11.md) (P=7e-6). [PMID:18948947](../papers/18948947.md)
+- EGFR targeted by cetuximab/panitumumab combination therapy in CRC; EGFR mutations detected at resistance to KRASG12C inhibition in some patients [PMID:36355783](../papers/36355783.md)
+- EGFR amplification in 3% of metastatic urothelial carcinoma samples in the UC-GENOME cohort [PMID:36333289](../papers/36333289.md)
+- EGFR assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
+- EGFR mutation (22/247, 8.9%) independently associated with worse PFS on immunotherapy in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.14, 95% CI 1.06-4.31, P = 0.03) [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -74,4 +79,19 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:18948947](../papers/18948947.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

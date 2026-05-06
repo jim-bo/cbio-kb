@@ -10,14 +10,14 @@ assays: [rna-fusion, targeted-panel]
 panels: []
 tags: [braf-fusions, tumor-agnostic, msk-fusion-panel]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # BRAF Fusions (MSK, Cancer Discovery 2024) — Archer/Fusion Panel
 
 ## Overview
 
-MSK cohort of patients with oncogenic [BRAF](../genes/BRAF.md) fusions detected by RNA-based fusion panel (MSK-Fusion/Archer) at Memorial Sloan Kettering Cancer Center between January 2014 and November 2022. This dataset captures fusion-panel confirmed BRAF fusions across 52 histologies and is deposited in cBioPortal as `braf_msk_archer_2024`. A companion tissue-sequenced cohort is available as [braf_msk_impact_2024](../datasets/braf_msk_impact_2024.md). [PMID:38922339](../papers/38922339.md)
+MSK cohort of patients with oncogenic [BRAF](../genes/BRAF.md) fusions detected by RNA-based fusion panel (MSK-Fusion/Archer) at Memorial Sloan Kettering Cancer Center between January 2014 and November 2022. This dataset captures fusion-panel confirmed [BRAF](../genes/BRAF.md) fusions across 52 histologies and is deposited in cBioPortal as `braf_msk_archer_2024`. A companion tissue-sequenced cohort is available as [braf_msk_impact_2024](../datasets/braf_msk_impact_2024.md). [PMID:38922339](../papers/38922339.md)
 
 ## Composition
 
@@ -47,4 +47,4 @@ MSK cohort of patients with oncogenic [BRAF](../genes/BRAF.md) fusions detected 
 
 - cBioPortal study `braf_msk_archer_2024` [PMID:38922339](../papers/38922339.md).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

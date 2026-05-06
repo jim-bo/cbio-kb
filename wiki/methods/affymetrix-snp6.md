@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: entity-page-writer
-processed_at: 2025-02-14
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Affymetrix SNP 6.0
@@ -21,10 +21,10 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 ## Notes
 
-- Data from this platform was used in conjunction with GISTIC to identify significantly altered genomic regions in GBM [PMID:18772890](../papers/18772890.md).
+- Data from this platform was used in conjunction with GISTIC to identify significantly altered genomic regions in [GBM](../cancer_types/GBM.md) [PMID:18772890](../papers/18772890.md).
 
 ## Sources
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -28,9 +28,9 @@ Read `schema/CLAUDE.md`, `schema/ontology.md`, and the matching template:
 - drug → `schema/templates/drug.md`
 - method → `schema/templates/method.md`
 
-## How to read wiki/ pages (do not read_file the whole file)
+## How to read wiki/ pages (do not Read the whole file)
 
-Merge-append is the default operation for this agent and it runs many times per paper, so the way you read existing pages dominates your token budget. **Do not `read_file` a full entity page unless you have no other choice.** Use the `cbio-kb wiki` CLI via run_shell_command to get structure cheaply, then `read_file` only the lines you need.
+Merge-append is the default operation for this agent and it runs many times per paper, so the way you read existing pages dominates your token budget. **Do not `Read` a full entity page unless you have no other choice.** Use the `cbio-kb wiki` CLI via Bash to get structure cheaply, then `Read` only the lines you need.
 
 Pattern for every existing entity page you touch:
 
@@ -44,17 +44,23 @@ Pattern for every existing entity page you touch:
    uv run cbio-kb wiki outline --path genes/KRAS.md
    ```
    Returns `[{level, heading, line}, …]`. Decide which H2 section(s) you will edit — for most merges this is `## Alterations observed in the corpus`, `## Cancer types (linked)`, and `## Sources`.
-3. **PMID de-dup check** (cheap, avoids wasted edits):
+3. **PMID de-dup check** (cheap, avoids wasted Edits):
    ```bash
    uv run cbio-kb wiki search-context --query PMID:<pmid> --path genes/KRAS.md
    ```
    If the PMID is already on the page, skip that merge target entirely — the writer is idempotent.
-4. **Narrow Read** — for each section you will edit, compute `offset = <section_line>` and `limit = <next_heading_line> - <section_line>` from the outline, and call `read_file` with those. For the trailing `## Sources` section use `offset = <sources_line>, limit = 30`. A narrow Read is ~1–2k tokens; a full-file Read on KRAS or TP53 is ~5–10k.
-5. **Replace** using an anchor string drawn from the narrow slice. If `replace` fails with "old_string not unique" (rare, because H2 headings and PMID-tagged bullets are normally unique), fall back to a full-file `read_file` and retry with a longer anchor.
+4. **Narrow Read** — for each section you will edit, compute `offset = <section_line>` and `limit = <next_heading_line> - <section_line>` from the outline, and call `Read` with those. For the trailing `## Sources` section use `offset = <sources_line>, limit = 30`. A narrow Read is ~1–2k tokens; a full-file Read on KRAS or TP53 is ~5–10k.
+5. **Edit** using an anchor string drawn from the narrow slice. If `Edit` fails with "old_string not unique" (rare, because H2 headings and PMID-tagged bullets are normally unique), fall back to a full-file `Read` and retry with a longer anchor.
 
-Never `grep_search` or `glob` inside `wiki/` — those are full-file reads in disguise.
+Never `Grep` or `Glob` inside `wiki/` — those are full-file reads in disguise.
 
 ## Steps
+
+0. **Try the deterministic merge first.** For each citing PMID, if the page already exists, attempt the fast path:
+   ```bash
+   uv run cbio-kb wiki append-citation --kind <kind> --id <id> --pmid <pmid> --bullet "<one-line claim ending with [PMID:NNN](../papers/NNN.md)>"
+   ```
+   If exit 0 with `action: appended` or `skipped`, you are done for that entity — emit the final-output JSON with `action: "updated"` and move on. Only fall through to the LLM steps below if (a) the page does not exist, (b) the CLI returned a non-zero exit (missing section), or (c) the merge requires *prose changes* to an existing paragraph (rare — e.g. updating an Overview or adding co-occurrence context).
 
 1. Determine the target path:
    - gene → `wiki/genes/{ID}.md`
@@ -62,10 +68,10 @@ Never `grep_search` or `glob` inside `wiki/` — those are full-file reads in di
    - dataset → `wiki/datasets/{ID}.md`
    - drug → `wiki/drugs/{ID}.md`
    - method → `wiki/methods/{ID}.md`
-2. If the page does not exist (per the `properties` existence check above), create it from the template with frontmatter filled in (including processed_by, processed_at), then `write_file` it.
+2. If the page does not exist (per the `properties` existence check above), create it from the template with frontmatter filled in (including processed_by, processed_at), then `Write` it.
 3. For each citing PMID, read `wiki/papers/{pmid}.md` and extract only the
-   sentences relevant to THIS entity. (You can get the paper's outline via the CLI and then narrow-read the relevant section — e.g., `## Genes & alterations` — rather than reading the whole paper page.) Add the extracted claims to the appropriate section of the entity page.
-4. If the page already exists, append/merge via the narrow-Read + replace pattern above — do not duplicate bullets already on the page (use step 3 of the read pattern to de-dup by PMID). Use replace, not write_file. Update the `processed_at` and `processed_by` fields in frontmatter and the footer.
+   sentences relevant to THIS entity. (You can get the paper's outline via the CLI and then narrow-Read the relevant section — e.g., `## Genes & alterations` — rather than Reading the whole paper page.) Add the extracted claims to the appropriate section of the entity page.
+4. If the page already exists, append/merge via the narrow-Read + Edit pattern above — do not duplicate bullets already on the page (use step 3 of the read pattern to de-dup by PMID). Use Edit, not Write. Update the `processed_at` and `processed_by` fields in frontmatter and the footer.
 5. Every assertion ends with `[PMID:NNN](../papers/NNN.md)`.
 6. **Do not update `wiki/index.md`** — the orchestrator runs `cbio-kb wiki build-index` after all agents finish.
 7. Ensure the page ends with a footer: `*This page was processed by **entity-page-writer** on **{YYYY-MM-DD}**.*`

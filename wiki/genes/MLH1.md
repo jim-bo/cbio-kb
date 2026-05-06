@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-05
 ---
 
 # MLH1
@@ -22,6 +22,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Deleterious MMR gene alterations (MLH1, [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) in 75% of MSI-H/dMMR prostate cancers; MLH1 altered in 3% of TMB-H/MSS prostate cancers [PMID:38949888](../papers/38949888.md)
 - MLH1 protein loss detected in 580/842 (69%) MMR-D tumors in a prospective pan-cancer cohort (MiMSI study); associated with the highest indel/SNV ratio (median 0.57) and highest MMR-signature contribution (median 0.67) among the four MMR proteins. [PMID:39746944](../papers/39746944.md)
 - MMR gene alterations (MLH1, [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) identified as Lynch syndrome in 17/2,336 PDAC patients (0.7%); 6/17 were MSI-H. [PMID:39753968](../papers/39753968.md)
+- Germline P/LP variant identified as incidental finding in [GIST](../cancer_types/GIST.md); tumor was microsatellite-stable suggesting germline variant was not a driver [PMID:36593350](../papers/36593350.md)
 
 ## Cancer types (linked)
 
@@ -55,4 +56,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:36593350](../papers/36593350.md)
+
+*This page was processed by **crosslinker** on **2026-05-05**.*

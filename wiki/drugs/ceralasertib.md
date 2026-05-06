@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, dna-damage-response, kinase-inhibitor, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-04
 ---
 
 # ceralasertib
@@ -17,7 +17,7 @@ Ceralasertib (AZD6738) is a selective ATP-competitive inhibitor of [ATR](../gene
 
 ## Evidence in the corpus
 
-- In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens from 126 patients across 24 subtypes), [osteosarcoma](../cancer_types/OS.md) PDTOs were significantly more sensitive than the pan-sarcoma average to ceralasertib (ATR inhibitor, p=0.00026) — the strongest statistical signal for any drug–subtype pair in the osteosarcoma sensitivity analysis, ahead of [topotecan](../drugs/topotecan.md) (p=0.028), [cabozantinib](../drugs/cabozantinib.md) (p=0.024), and [everolimus](../drugs/everolimus.md) (p=0.012). [PMID:39305899](../papers/39305899.md)
+- In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens from 126 patients across 24 subtypes), [osteosarcoma](../cancer_types/OS.md) PDTOs were significantly more sensitive than the pan-sarcoma average to ceralasertib ([ATR](../genes/ATR.md) inhibitor, p=0.00026) — the strongest statistical signal for any drug–subtype pair in the osteosarcoma sensitivity analysis, ahead of [topotecan](../drugs/topotecan.md) (p=0.028), [cabozantinib](../drugs/cabozantinib.md) (p=0.024), and [everolimus](../drugs/everolimus.md) (p=0.012). [PMID:39305899](../papers/39305899.md)
 
 ## Resistance mechanisms
 
@@ -31,4 +31,4 @@ Ceralasertib (AZD6738) is a selective ATP-competitive inhibitor of [ATR](../gene
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; ceralasertib identified as the top osteosarcoma-selective drug by p-value in the subtype sensitivity analysis.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -10,7 +10,7 @@ assays: [targeted-panel]
 panels: []
 tags: [endometrial, uterine, ancestry, racial-disparities, UCEC]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 ---
 
 # Endometrial Carcinoma Ancestry Study (MSK, 2023)
@@ -39,7 +39,7 @@ Single-center retrospective cohort of 1,882 endometrial carcinoma patients (259 
 ## Notable findings derived from this cohort
 
 - Black patients had more high-risk histologies: serous (29% vs. 13%), carcinosarcoma (20% vs. 11%), less low-grade endometrioid (21% vs. 47%; p < 0.01). [PMID:37651310](../papers/37651310.md)
-- 69% of ECs in Black patients were CN-H/[TP53](../genes/TP53.md)abn vs. 35% in White patients (p < 0.001). POLE subtype was rare in Black patients (1.2% vs. 5.8%). [PMID:37651310](../papers/37651310.md)
+- 69% of ECs in Black patients were CN-H/[TP53](../genes/TP53.md)abn vs. 35% in White patients (p < 0.001). [POLE](../genes/POLE.md) subtype was rare in Black patients (1.2% vs. 5.8%). [PMID:37651310](../papers/37651310.md)
 - [TP53](../genes/TP53.md) mutations enriched in Black patients (72% vs. 42%; q < 0.001); median TMB 4 vs. 7 Mut/Mb (p < 0.001). [PMID:37651310](../papers/37651310.md)
 - [CCNE1](../genes/CCNE1.md) amplification more prevalent in Black patients (15% vs. 4%; q < 0.001); [ERBB2](../genes/ERBB2.md) amplification enriched in Black patients (12% vs. 3%; q < 0.001). [PMID:37651310](../papers/37651310.md)
 - PI3K pathway alterations less common in Black patients: [PTEN](../genes/PTEN.md) 26% vs. 55%, [PIK3R1](../genes/PIK3R1.md) 13% vs. 28%, [KRAS](../genes/KRAS.md) 12% vs. 21%. [PMID:37651310](../papers/37651310.md)
@@ -50,4 +50,4 @@ Single-center retrospective cohort of 1,882 endometrial carcinoma patients (259 
 
 - cBioPortal study `ucec_ancestry_cds_msk_2023`. [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, mri, segmentation, glioma, brain-tumor, benchmark, challenge]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # BraTS Challenge (Brain Tumor Segmentation)
@@ -17,7 +17,7 @@ The Brain Tumor Segmentation (BraTS) Challenge is an annual international benchm
 
 ## Used by
 
-- [PMID:28872634](../papers/28872634.md) — 200 GBM and 44 LGG cases from TCGA-GBM/TCGA-LGG overlap with the BraTS'15 training set; 23 GBM and 15 LGG cases overlap with the BraTS'15 testing set; GLISTRboost was the BraTS'15 winning segmentation algorithm; the manually revised labels from Bakas et al. became the reference labels for BraTS'17; median DICE on BraTS'15 GBM training set was 0.92 (whole tumor), 0.88 (tumor core), 0.88 (enhancing tumor) [PMID:28872634](../papers/28872634.md).
+- [PMID:28872634](../papers/28872634.md) — 200 [GBM](../cancer_types/GBM.md) and 44 LGG cases from TCGA-GBM/TCGA-LGG overlap with the BraTS'15 training set; 23 GBM and 15 LGG cases overlap with the BraTS'15 testing set; GLISTRboost was the BraTS'15 winning segmentation algorithm; the manually revised labels from Bakas et al. became the reference labels for BraTS'17; median DICE on BraTS'15 GBM training set was 0.92 (whole tumor), 0.88 (tumor core), 0.88 (enhancing tumor) [PMID:28872634](../papers/28872634.md).
 
 ## Notes
 
@@ -29,4 +29,4 @@ The Brain Tumor Segmentation (BraTS) Challenge is an annual international benchm
 
 - [PMID:28872634](../papers/28872634.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

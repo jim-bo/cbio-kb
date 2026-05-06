@@ -4,8 +4,8 @@ oncotree_code: PAST
 main_type: Glioma
 parent: ENCG
 tags: [glioma, cns, pediatric, low-grade]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: crosslinker
+processed_at: 2026-05-04
 ---
 
 # Pilocytic Astrocytoma (PAST)
@@ -16,7 +16,7 @@ Pilocytic Astrocytoma is a low-grade CNS/Brain tumor classified under Encapsulat
 
 ## Cohorts in the corpus
 
-- MSK-IMPACT / MSK-ACCESS / MSK-Fusion cohort (97,024 samples, 69,337 patients, January 2014 – November 2022): 29 pilocytic astrocytoma cases harboring oncogenic [BRAF](../genes/BRAF.md) fusions detected (56% de novo BRAF fusion prevalence, highest of all 52 histologies profiled). Data deposited as [braf_msk_archer_2024](../datasets/braf_msk_archer_2024.md) and [braf_msk_impact_2024](../datasets/braf_msk_impact_2024.md). [PMID:38922339](../papers/38922339.md)
+- MSK-IMPACT / MSK-ACCESS / MSK-Fusion cohort (97,024 samples, 69,337 patients, January 2014 – November 2022): 29 pilocytic astrocytoma cases harboring oncogenic [BRAF](../genes/BRAF.md) fusions detected (56% de novo [BRAF](../genes/BRAF.md) fusion prevalence, highest of all 52 histologies profiled). Data deposited as [braf_msk_archer_2024](../datasets/braf_msk_archer_2024.md) and [braf_msk_impact_2024](../datasets/braf_msk_impact_2024.md). [PMID:38922339](../papers/38922339.md)
 
 ## Recurrent alterations
 
@@ -38,4 +38,4 @@ No molecular subtypes of pilocytic astrocytoma were distinguished in the corpus 
 
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (MSK, 2024).
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

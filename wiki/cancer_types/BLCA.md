@@ -4,8 +4,8 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: crosslinker
+processed_at: 2026-05-06
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -25,6 +25,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [TP53](../genes/TP53.md), [RB1](../genes/RB1.md) — inversely associated with [FGFR3](../genes/FGFR3.md) alterations in urothelial carcinoma ([PMID:37682528](../papers/37682528.md)).
 - [PIK3CA](../genes/PIK3CA.md), [TSC1](../genes/TSC1.md), [AKT1](../genes/AKT1.md) — PI3K pathway co-alterations in 37% of FGFR2/3-altered tumors ([PMID:37682528](../papers/37682528.md)).
 - [CDKN2A](../genes/CDKN2A.md), [CDKN2B](../genes/CDKN2B.md), [KDM6A](../genes/KDM6A.md) — frequently co-altered with [FGFR3](../genes/FGFR3.md) ([PMID:37682528](../papers/37682528.md)).
+- Bladder cancer patients harboring [FGFR3](../genes/FGFR3.md) alterations showed differential responses to [erdafitinib](../drugs/erdafitinib.md) in a clinical cohort analysis [PMID:36543146](../papers/36543146.md)
+- UC-GENOME study (n=218 metastatic urothelial carcinoma) found Stroma-rich molecular subtype enrichment in metastatic vs non-metastatic disease (Mantel-Haenszel p=1.86e-10), [TP53](../genes/TP53.md) E285K hotspot enrichment (10.8% vs 5.9% in TCGA-BLCA), APOBEC SBS13 low similarity predicting worse outcomes on both chemotherapy (HR 2.50, p=0.013) and ICI (HR 2.19, p=0.011), and a 25-predictor elastic net model achieving AUC=0.84 for ICI response prediction vs TMB alone (AUC=0.68, p=0.038) [PMID:36333289](../papers/36333289.md)
 
 ## Subtypes
 
@@ -47,6 +49,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:36543146](../papers/36543146.md)
+- [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*

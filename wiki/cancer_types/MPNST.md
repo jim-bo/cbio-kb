@@ -5,7 +5,7 @@ main_type: Nerve Sheath Tumor
 parent: NST
 tags: [radiation-associated-sarcoma, nerve-sheath-tumor]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-04
 canonical_source: oncotree
 unverified: false
 ---
@@ -22,6 +22,7 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 
 ## Recurrent alterations
 
+- [NF1](../genes/NF1.md) inactivation in MPNST (and [GIST](../cancer_types/GIST.md)) was established prior to 2010; Barretina et al. confirmed this as background when reporting novel somatic [NF1](../genes/NF1.md) alterations in [MFS](../cancer_types/MFS.md) and [PLLS](../cancer_types/PLLS.md) as "the first report outside MPNST/GIST." [PMID:20601955](../papers/20601955.md)
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions in 92% of RT-MPNST vs 44% of sporadic MPNST [PMID:37350195](../papers/37350195.md).
 - [NF1](../genes/NF1.md) inactivating mutations/deletions in 67% of RT-MPNST vs 36% sporadic [PMID:37350195](../papers/37350195.md).
 - [TEK](../genes/TEK.md) deletions in 42% of RT-MPNST vs 6% sporadic [PMID:37350195](../papers/37350195.md).
@@ -43,5 +44,6 @@ Malignant peripheral nerve sheath tumor (MPNST) is a malignant neoplasm of nerve
 ## Sources
 
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-MPNSTs.
+- [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas (NF1 in MPNST cited as prior established biology).
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-04**.*

@@ -52,8 +52,15 @@ app.add_middleware(
     allow_credentials=False,
 )
 
-# Session store — in-memory by default, Firestore when SESSION_STORE=firestore
-_session_store = get_store()
+# Session store — lazily initialized on first request to avoid blocking startup
+_session_store = None
+
+
+def _get_session_store():
+    global _session_store
+    if _session_store is None:
+        _session_store = get_store()
+    return _session_store
 
 # Hard cap on the number of tool calls the agent can make within a single turn.
 # Prevents a confused model from burning context and wall time on a runaway
@@ -93,7 +100,7 @@ async def chat(request: Request):
 
         return EventSourceResponse(rag_gen())
 
-    history = await _session_store.get(session_id) or []
+    history = await _get_session_store().get(session_id) or []
 
     # Count previous user turns to derive this turn's index. The frontend
     # uses this to decide which older cards to dim as pruned (anything
@@ -178,7 +185,7 @@ async def chat(request: Request):
                                         ))
                 # Save updated history and collect usage
                 if run.result is not None:
-                    await _session_store.put(
+                    await _get_session_store().put(
                         session_id, run.result.all_messages()
                     )
                     try:

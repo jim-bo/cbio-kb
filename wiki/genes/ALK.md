@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # ALK
@@ -20,6 +20,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [EML4](../genes/EML4.md)::ALK fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients); ALK resistance mutations p.G1202R and p.G1269A were detected upon targeted therapy progression [PMID:39289779](../papers/39289779.md).
 - ALK significantly over-expressed in the undifferentiated nC3 cluster of high-risk neuroblastoma tumors; co-expressed with [MYCN](../genes/MYCN.md) in discrete tumor regions (validated by RNAscope in sample K10); nC3 over-expression confirmed at FDR < 0.01 by Welch's t-test across 11 single-nuclei tumor specimens [PMID:34493726](../papers/34493726.md).
 - EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
+- ALK fusion in 6% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -49,4 +50,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

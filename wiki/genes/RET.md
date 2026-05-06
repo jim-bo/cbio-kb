@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion, kinase, actionable]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-05-06
 ---
 
 # RET
@@ -16,6 +16,9 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 ## Alterations observed in the corpus
 
 - RET rearrangements with diverse gene partners were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
+- CCDC6-RET fusion detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
+- RET structural variants including fusions in 2 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
+- RET fusion in 5% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +40,13 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

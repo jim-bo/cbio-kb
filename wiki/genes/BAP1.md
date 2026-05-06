@@ -9,7 +9,7 @@ tags:
   - chromatin-remodeling
   - deubiquitinase
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-06
 ---
 
 # BAP1
@@ -23,6 +23,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 is a classical DPM driver; in a study of genomic near-haploidization (GNH) in DPM, BAP1 was altered in non-GNH DPM but not enriched in the GNH subset (n=10 GNH, n=44 non-GNH) [PMID:38630790](../papers/38630790.md).
 - BAP1 deletions detected in 2/17 FN-RMS (fusion-negative rhabdomyosarcoma) patients exclusively at relapse, identified by ctDNA liquid biopsy in a multi-sample genomic analysis (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
 - One BRCA1/2 wild-type, MAPK-WT [PAAD](../cancer_types/PAAD.md) tumor harboring a BAP1 loss-of-function fusion received durable PARPi benefit in the MSK PDAC genomic cohort (n=2,336 tumors); BAP1 loss may confer HRD-like sensitivity to PARP inhibitors [PMID:39753968](../papers/39753968.md).
+- BAP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -48,4 +49,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

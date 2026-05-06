@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC]
 tags: [rtk, metastasis, resistance, amplification]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # MET
@@ -21,6 +21,9 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Co-amplification detected in ctDNA at progression in HER2+ esophagogastric cancer ([EGC](../cancer_types/EGC.md)) treated with [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md); MET IHC expression confirmed in escape lesions; identified as resistance mechanism [PMID:37406106](../papers/37406106.md).
 - MET amplification (post-treatment enrichment) confirmed as an acquired resistance mechanism to EGFR-targeted therapy in [NSCLC](../cancer_types/NSCLC.md) in the MSK-CHORD (n=24,950) real-world cohort; enrichment pattern consistent across NLP-annotated treatment lines. [PMID:39506116](../papers/39506116.md)
 - In 2,336 MSK PDAC patients ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), MET amplification was identified in the context of other-MAPK-mutant PDAC (KRAS-WT) fusions and activating alterations in the MAPK pathway; MET is not among the primary drivers highlighted in the KRAS-mutant 95% majority but its status in the KRAS-WT subtype is part of the alternative-driver landscape. [PMID:39753968](../papers/39753968.md)
+- MET amplification and fusion detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
+- MET amplification in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B actionable) [PMID:36228155](../papers/36228155.md)
+- MET mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.81 and P = 0.42) [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -51,4 +54,13 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # ERBB2
@@ -33,6 +33,10 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - 4 mutations plus amplification identified in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort, n=188). [PMID:18948947](../papers/18948947.md)
 - Subtype switching observed via HER2 amplification gain (participant AFR3: E668Q activating mutation) or loss (participant AFE4: deletion of HER2 amplification under [trastuzumab](../drugs/trastuzumab.md) pressure) [PMID:36585450](../papers/36585450.md)
 - Mutations and amplifications more frequent in advanced bladder disease (q = 0.001); 38% discordance in matched primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
+- ERBB2 E363V detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
+- ERBB2 amplification in 7% of metastatic urothelial carcinoma (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- ERBB2 GOF mutations (6%) and amplifications (10%) in [GBC](../cancer_types/GBC.md); amplification is OncoKB level 3B actionable; 10 patients received HER2-directed therapy [PMID:36228155](../papers/36228155.md)
+- ERBB2 mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.48 and P = 0.47) [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -55,7 +59,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 ## Therapeutic relevance
 
 - [trastuzumab](../drugs/trastuzumab.md) treatment of an ERBB2-amplified ovarian GCT did not produce a durable response [PMID:36862133](../papers/36862133.md).
-- Pembrolizumab + trastuzumab + chemotherapy produced durable benefit in HER2+ [EGC](../cancer_types/EGC.md); uniform HER2 IHC 3+ and plasma ERBB2 amplification predicted response [PMID:37406106](../papers/37406106.md).
+- Pembrolizumab + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy produced durable benefit in HER2+ [EGC](../cancer_types/EGC.md); uniform HER2 IHC 3+ and plasma ERBB2 amplification predicted response [PMID:37406106](../papers/37406106.md).
 - Neratinib showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; trastuzumab deruxtecan is under investigation [PMID:37643132](../papers/37643132.md).
 - Trastuzumab deruxtecan shows clinical activity in ERBB2-low carcinosarcomas, expanding the therapeutic window [PMID:37651310](../papers/37651310.md).
 - T-DM1 combined with ionizing radiation produced durable tumour control in HER2+ xenografts with a single 0.25 nmol dose + 3 IR fractions; the authors argue for speedy clinical evaluation given T-DM1's existing FDA approval for HER2+ metastatic breast cancer [PMID:27698471](../papers/27698471.md).
@@ -83,13 +87,25 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

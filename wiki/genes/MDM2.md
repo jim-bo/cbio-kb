@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # MDM2
@@ -23,7 +23,9 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 included as a biologically relevant gene in cfDNA profiling of 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS panel, 129 genes); MDM2 was negatively associated with [SETD2](../genes/SETD2.md) driver mutations in [LUAD](../cancer_types/LUAD.md) in the MSK-CHORD cohort. [PMID:40256659](../papers/40256659.md)
 - Altered (e.g. amplification) in 14% of [GBM](../cancer_types/GB.md) samples as part of the p53 pathway [PMID:18772890](../papers/18772890.md).
 - Focal 12q amplification in ~90% of [DDLS](../cancer_types/DDLS.md); sustained MDM2 shRNA knockdown (>1 week) impaired proliferation in [DDLS](../cancer_types/DDLS.md) cell lines; co-amplified with [YEATS4](../genes/YEATS4.md) on 12q, supporting cooperative repression of the p53 network; rationale for p53–MDM2 antagonists ([nutlin-3a](../drugs/nutlin-3a.md)) in [DDLS](../cancer_types/DDLS.md) ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
-- Amplification identified in p53 pathway context in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); part of the p53 pathway altered in a subset of LUAD. [PMID:18948947](../papers/18948947.md)
+- Amplification identified in p53 pathway context in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); part of the p53 pathway altered in a subset of [LUAD](../cancer_types/LUAD.md). [PMID:18948947](../papers/18948947.md)
+- MDM2 amplification in 9% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- MDM2 amplification in 11% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -56,7 +58,13 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

@@ -20,7 +20,7 @@
 - drug: trametinib — observed in PMID:36862133 — note: MEK inhibitor for MAP2K1-mutant histiocytosis
 - drug: cobimetinib — observed in PMID:36862133 — note: MEK inhibitor for MAP2K1-mutant histiocytosis
 - drug: alpelisib — observed in PMID:36862133 — note: PI3Kalpha inhibitor; durable response in PIK3CA-mutant histiocytosis
-- drug: pembrolizumab — observed in PMID:36862133 — note: anti-PD1 used in TMB-H ovarian GCT
+- drug: pembrolizumab — observed in PMID:36862133 — note: anti-PD1 ICI approved for dMMR/MSI-H recurrent EC
 - drug: trastuzumab — observed in PMID:36862133 — note: anti-HER2 used in ERBB2-amplified female GCT
 - drug: imatinib — observed in PMID:36862133 — note: KIT inhibitor referenced
 - drug: sirolimus — observed in PMID:36862133 — note: mTOR inhibitor referenced
@@ -190,3 +190,16 @@
 - method: shrna-rnai-screen — observed in PMID:20601955 — note: pooled shRNA loss-of-function screen of 385 genes (2,007 shRNAs) in three DDLS cell lines to identify copy-number dependencies
 - method: sequenom-genotyping — observed in PMID:20601955 — note: MALDI-TOF mass spectrometry-based genotyping for validation of somatic mutations across 160 additional sarcoma tumors
 - drug: sunitinib — observed in PMID:36593350 — note: multi-kinase TKI (KIT/PDGFR/VEGFR); referenced as second-line therapy option for GIST patients with SDH-deficient or NF1-related disease that respond poorly to imatinib
+- drug: prexasertib — observed in PMID:36334560 — note: selective CHEK1 inhibitor; synthetic lethal agent in FBXO7-deficient colonic epithelial cells (EC50 5.83 nM); synergizes with 5-FU
+- method: quantitative-imaging-microscopy — observed in PMID:36334560 — note: QuantIM automated nuclear counting and immunofluorescence signal quantification for cell number, gamma-H2AX foci, and cleaved caspase-3
+- method: elastic-net — observed in PMID:36333289 — note: elastic net logistic regression model integrating clinical and immunogenomic features to predict ICI response in metastatic urothelial carcinoma
+- method: cibersortx — observed in PMID:36333289 — note: CIBERSORTx digital cytometry for immune cell fraction estimation from bulk RNA-seq in metastatic UC
+- drug: sotorasib — observed in PMID:36355783 — note: KRASG12C covalent inhibitor; combined with cetuximab/panitumumab in CRC; 7-10% monotherapy RR, 27% with anti-EGFR
+- drug: adagrasib — observed in PMID:36355783 — note: KRASG12C covalent inhibitor; ~20% monotherapy RR, ~40% with cetuximab in CRC
+- drug: panitumumab — observed in PMID:36355783 — note: anti-EGFR antibody; combined with sotorasib for KRASG12C CRC (27% RR)
+- drug: navitoclax — observed in PMID:36355783 — note: BCL2 inhibitor; failed as senolytic in KRASG12C-amplified resistant CRC cells
+- drug: azd8055 — observed in PMID:36355783 — note: mTOR inhibitor; selective senolytic activity in KRASG12C-amplified drug-withdrawn resistant CRC cells
+- method: guardant360 — observed in PMID:36355783 — note: Guardant Health 74-83 gene cfDNA targeted NGS panel for ctDNA analysis in KRASG12C CRC patients
+- method: single-cell-dna-seq — observed in PMID:36355783 — note: Mission Bio Tapestri single-cell DNA sequencing on C106 resistant CRC cells (317 amplicons, 54 genes)
+- drug: entrectinib — observed in PMID:36228155 — note: FDA-approved TRK/ROS1/ALK inhibitor; NTRK1 fusions (LMNA::NTRK1) in GBC are OncoKB level 1 biomarker; not found in local ontology
+- drug: atezolizumab — observed in PMID:36228155 — note: anti-PD-L1 checkpoint inhibitor; 1 GBC patient in MSK cohort (n=233) received atezolizumab; not found in local ontology

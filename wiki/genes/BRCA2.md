@@ -16,7 +16,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # BRCA2
@@ -41,6 +41,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs; 4/4 BRCA2 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Germline/somatic mutations define HRD-Del subtype with interstitial deletions in [HGSOC](../cancer_types/HGSOC.md); 16/81 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
+- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
+- BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
+- BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 
 ## Cancer types (linked)
 
@@ -53,7 +56,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 ## Co-occurrence and mutual exclusivity
 
-- In HGSOC, germline BRCA2 mutations define a subset with HRD; somatic events and epigenetic silencing contribute to additional cases [PMID:39386723](../papers/39386723.md).
+- In [HGSOC](../cancer_types/HGSOC.md), germline BRCA2 mutations define a subset with HRD; somatic events and epigenetic silencing contribute to additional cases [PMID:39386723](../papers/39386723.md).
 - In MSI-H/dMMR prostate cancer, elevated BRCA2 mutation rates are attributed to the hypermutator context rather than functional HRD; PARP inhibitor responses were lower in this population [PMID:38949888](../papers/38949888.md).
 
 ## Therapeutic relevance
@@ -81,13 +84,22 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36334560](../papers/36334560.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

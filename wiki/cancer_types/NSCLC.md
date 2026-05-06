@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)
@@ -39,6 +39,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) mutations detected in CSF ctDNA from lung cancer patients [PMID:39289779](../papers/39289779.md).
 - [EGFR](../genes/EGFR.md) and [ERBB2](../genes/ERBB2.md) surface expression levels (not mutation status) gate ADC binding and receptor-restricted radiosensitization in NSCLC cell lines (A549, CALU3). Adding [cetuximab](../drugs/cetuximab.md) or [trastuzumab](../drugs/trastuzumab.md) to cytotoxic chemo-RT in NSCLC failed in prior trials; ADC delivery paradigm proposed as alternative. [PMID:27698471](../papers/27698471.md)
 - Oligometastatic NSCLC (≤3 metastases) may have a distinct biology attributable to 14q32-encoded microRNA-mediated attenuation of epithelial-mesenchymal transition; local consolidative therapy in this group prolonged PFS in the Gomez et al. RCT. [PMID:28045614](../papers/28045614.md)
+- DyAM multimodal ML framework (n=247 advanced NSCLC at MSK) integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC texture, and MSK-IMPACT genomics predicted PD-(L)1 blockade response with AUC=0.80 (95% CI 0.74-0.86), significantly outperforming TMB alone (AUC=0.61) and PD-L1 TPS alone (AUC=0.73); [EGFR](../genes/EGFR.md) mutation (8.9%, aHR=2.14, P=0.03) and [STK11](../genes/STK11.md) mutation (17.8%, aHR=2.53, P<0.005) were independent negative predictors of immunotherapy response [PMID:36038778](../papers/36038778.md)
 
 ## Subtypes
 
@@ -52,7 +53,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Lung carcinomas had the highest rate of level 1 OncoKB actionable alterations among all tumor types in the CSF ctDNA cohort; 50.7% of ctDNA-positive samples carried a level 1 actionable alteration [PMID:39289779](../papers/39289779.md).
 - Serial CSF ctDNA profiling identified clonal evolution and emergence of resistance mechanisms ([EGFR](../genes/EGFR.md) gatekeeper mutations, [ALK](../genes/ALK.md) resistance mutations, [MET](../genes/MET.md) resistance mutations), directly informing treatment changes [PMID:39289779](../papers/39289779.md).
 - ATLAS RNA-expression classifier achieved 91.4% site-of-origin accuracy; NSCLC distinguished from [SCLC](../cancer_types/SCLC.md) by lineage de-differentiation score (AUC=0.963); classifier can identify neuroendocrine transformation. [PMID:27634761](../papers/27634761.md)
-- EGFR-directed (C-MMAE) and HER2-directed (T-MMAE) ADCs selectively radiosensitize receptor-expressing NSCLC lines without off-target toxicity, in contrast to cetuximab or free MMAE. [PMID:27698471](../papers/27698471.md)
+- EGFR-directed (C-MMAE) and HER2-directed (T-MMAE) ADCs selectively radiosensitize receptor-expressing NSCLC lines without off-target toxicity, in contrast to [cetuximab](../drugs/cetuximab.md) or free MMAE. [PMID:27698471](../papers/27698471.md)
 - Local consolidative therapy (e.g., SABR) in oligometastatic NSCLC (≤5 lesions, primarily ≤3 by clinical definition) may alter natural history; self-seeding biology and microRNA-driven attenuation of EMT provide a mechanistic rationale for metastasis-directed ablation. [PMID:28045614](../papers/28045614.md)
 - ctDNA detection independently associated with higher VTE rates in advanced NSCLC (HR=2.49, 95% CI 1.99--3.11); NSCLC comprised 34% of the 4,141-patient discovery cohort. The international generalizability cohort (n=463) specifically comprised advanced NSCLC patients (ctDX Lung panel); c-index 0.67 for ctDNA-based VTE prediction. [PMID:39147831](../papers/39147831.md)
 
@@ -68,4 +69,6 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [PMID:24892406](../papers/24892406.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

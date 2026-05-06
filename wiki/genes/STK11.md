@@ -4,7 +4,7 @@ aliases: [LKB1]
 cancer_types: [LUAD, NSCLC]
 tags: [tumor-suppressor, metastasis, co-alteration]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # STK11
@@ -21,6 +21,8 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - STK11 was included in [LUAD](../cancer_types/LUAD.md) pathway/metastasis analyses in MSK-CHORD (n=24,950) [PMID:39506116](../papers/39506116.md).
 - STK11 mutations were detected in CSF ctDNA from lung cancer patients with CNS involvement in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
 - More than 30 mutations identified in 188 [LUAD](../cancer_types/LUAD.md) tumours; LOH in 17 tumours; correlates with smoker status (P=0.044); negatively correlated with [EGFR](../genes/EGFR.md) mutations (P=7e-6). [PMID:18948947](../papers/18948947.md)
+- STK11 LOF mutations in 6% of [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 3.94, 95% CI 1.62-9.55; multivariate HR 3.76, p=0.004) [PMID:36228155](../papers/36228155.md)
+- STK11 mutation (44/247, 17.8%) strongly associated with immunotherapy resistance in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.53, 95% CI 1.71-3.74, P < 0.005); independent predictor in multivariate analysis [PMID:36038778](../papers/36038778.md)
 
 ## Cancer types (linked)
 
@@ -46,7 +48,13 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

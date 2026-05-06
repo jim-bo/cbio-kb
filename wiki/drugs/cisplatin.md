@@ -11,7 +11,7 @@ tags:
   - hnscc
   - standard-of-care
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-06
 ---
 
 # cisplatin
@@ -31,6 +31,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In the MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md), n=1,480 with curated treatment data), FOLFIRINOX ([oxaliplatin](../drugs/oxaliplatin.md), not cisplatin) and gemcitabine/nab-paclitaxel were the dominant first-line regimens (38% and 37% respectively); cisplatin is mentioned as a historical reference in PDAC chemotherapy background. [PMID:39753968](../papers/39753968.md)
 - In preclinical HER2+ xenograft models, cisplatin was used as a comparator in cell viability assays; T-DM1 was more potent than cisplatin (and [paclitaxel](../drugs/paclitaxel.md), [trastuzumab](../drugs/trastuzumab.md), [lapatinib](../drugs/lapatinib.md), [erlotinib](../drugs/erlotinib.md)) in HER2+ OE19 esophageal cancer cells, with T-DM1 IC50 <1 nM vs >100 nM in HER2− lines [PMID:27698471](../papers/27698471.md).
 - Cohort-metadata context only: in the MD Anderson HNSCC imaging archive (n=215), 127 patients (59%) received concurrent chemotherapy, of whom 98% received platinum-based regimens (effectively cisplatin). No efficacy or biomarker claim is made; this citation records treatment-arm composition. [PMID:30179230](../papers/30179230.md)
+- Used as part of platinum-based chemotherapy for metastatic urothelial carcinoma in UC-GENOME (n=218 patients); [ERCC2](../genes/ERCC2.md) mutations significantly associated with chemotherapy response (p=0.0134), validating this biomarker in the metastatic setting [PMID:36333289](../papers/36333289.md)
+- 143 metastatic gallbladder carcinoma patients received gemcitabine/cisplatin as the predominant first-line chemotherapy regimen among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT at MSK (2014--2021) [PMID:36228155](../papers/36228155.md)
 
 ## Resistance mechanisms
 
@@ -53,4 +55,10 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. (2024). MSK PDAC cohort; cisplatin referenced in chemotherapy background context.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; cisplatin-based chemotherapy backbone; DDR predictive value null (underpowered); VAF and TERT/PIK3CA/ERBB2 as prognostic markers.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

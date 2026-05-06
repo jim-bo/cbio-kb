@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # MSK-IMPACT panel (generic)
@@ -44,7 +44,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:35764743](../papers/35764743.md) — MSK-IMPACT targeted clinical sequencing used to infer HRD status for 130 MSKCC [HGSOC](../cancer_types/HGSOC.md) patients with research consent; variant significance annotated via OncoKB and Hotspot; high-confidence COSMIC SBS3 detected in 48 and low-confidence in 30 patients; HRD status combined with histopathological and radiological features in the multimodal late-fusion prognostic model [PMID:35764743](../papers/35764743.md).
 - Used to sequence 103 [GIST](../cancer_types/GIST.md) patients (341, 410, or 505 gene panels) and 499 tumor-normal pairs at MSKCC; ESMO-recommended VAF thresholds (>30% SNVs, >20% indels) correctly distinguished germline from somatic P/LP variants [PMID:36593350](../papers/36593350.md)
 - Applied to 1,313 bladder urothelial carcinoma patients at MSK (2014-2021); mean TMB 11.7 in primary vs 11.2 in metastatic tumors (Wilcoxon p=0.1); 23% of actionable mutations ([FGFR3](../genes/FGFR3.md), [PIK3CA](../genes/PIK3CA.md), [TSC1](../genes/TSC1.md), [ERBB2](../genes/ERBB2.md)) discordant between primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
-- IMPACT468 (468-gene panel) applied to 42 treatment-naive [HGSOC](../cancer_types/HGSOC.md) patients; validation cohort of 1,298 HGSOC patients used to confirm clonal 6p HLA LOH frequency (31% in BRCA1-mutant cases) [PMID:36517593](../papers/36517593.md)
+- [IMPACT468](../methods/IMPACT468.md) (468-gene panel) applied to 42 treatment-naive [HGSOC](../cancer_types/HGSOC.md) patients; validation cohort of 1,298 [HGSOC](../cancer_types/HGSOC.md) patients used to confirm clonal 6p HLA LOH frequency (31% in BRCA1-mutant cases) [PMID:36517593](../papers/36517593.md)
+- Used alongside Guardant360 CDx and MSK-ACCESS for sequencing KRASG12C-mutant colorectal cancer cell lines, PDX, and tissue samples to characterize acquired resistance mechanisms to combined KRAS/EGFR inhibition [PMID:36355783](../papers/36355783.md)
+- Used to profile 244 [GBC](../cancer_types/GBC.md) samples (233 patients) at MSK with 341--505 gene panel versions (median coverage 634X), identifying actionable alterations in 35% of patients [PMID:36228155](../papers/36228155.md)
+- Used for genomic profiling in a 247-patient [NSCLC](../cancer_types/NSCLC.md) cohort treated with PD-(L)1 blockade; TMB from MSK-IMPACT achieved AUC = 0.61 alone vs AUC = 0.80 for the full multimodal DyAM model [PMID:36038778](../papers/36038778.md)
 
 ## Notes
 
@@ -79,13 +82,22 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36355783](../papers/36355783.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:36038778](../papers/36038778.md)
+
+*This page was processed by **crosslinker** on **2026-05-06**.*

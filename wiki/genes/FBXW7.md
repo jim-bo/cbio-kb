@@ -22,6 +22,9 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
+- Significantly mutated in COSMIC-restricted analysis of lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
+- Among 25 significantly mutated genes identified by InVEx/MutSig in 183 LUAD cases [PMID:22980975](../papers/22980975.md)
+- Significantly mutated in microsatellite-stable colorectal cancer (Genentech WES, 74 tumors) [PMID:22895193](../papers/22895193.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +60,14 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

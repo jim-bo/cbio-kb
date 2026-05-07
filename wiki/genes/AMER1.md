@@ -3,7 +3,7 @@ symbol: AMER1
 aliases: [FAM123B, WTX]
 cancer_types: [COAD]
 tags: [tumor-suppressor, WNT-pathway, X-linked]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 ## Alterations observed in the corpus
 
 - AMER1 is recurrently mutated in colorectal adenocarcinoma across 276 TCGA CRC tumors; virtually all mutations detected were loss-of-function (frameshift or nonsense), consistent with its role as an X-linked negative regulator of the WNT pathway [PMID:22810696](../papers/22810696.md)
+- Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ AMER1 (also known as FAM123B and WTX) is an X-linked negative regulator of the W
 - [PMID:22810696](../papers/22810696.md) — TCGA CRC comprehensive molecular characterization (276 tumors)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

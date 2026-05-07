@@ -28,6 +28,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used for copy-number analysis in 37 medulloblastoma tumors (PCGP cohort, mbl_pcgp) alongside WGS [PMID:22722829](../papers/22722829.md)
 - 257 of 276 TCGA colorectal carcinoma tumors profiled for somatic copy-number alterations using Affymetrix SNP 6.0 arrays [PMID:22810696](../papers/22810696.md)
 - Copy-number analysis of 121 melanoma samples (Broad) performed with Affymetrix SNP 6.0 arrays analyzed with GISTIC; identified focal amplifications and deletions [PMID:22817889](../papers/22817889.md)
+- Used in CLCGP SCLC study (29 tumors) for copy number profiling to complement WES/WGS somatic alteration discovery [PMID:22941188](../papers/22941188.md)
+- Used in TCGA LUSC study (178 tumors) for genome-wide copy number analysis informing GISTIC-derived focal amplification/deletion calls [PMID:22960745](../papers/22960745.md)
 
 ## Notes
 
@@ -66,5 +68,11 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

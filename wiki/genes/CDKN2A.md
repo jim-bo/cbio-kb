@@ -47,6 +47,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - CDKN2A deletion is among the most frequent somatic alterations in melanoma across 121 tumors (Broad WES cohort), consistent with homozygous loss driving RB and p53 pathway inactivation [PMID:22817889](../papers/22817889.md)
 - CDKN2A is recurrently deleted in 147 melanoma tumors (Yale WES cohort), with homozygous loss being one of the most common alterations across the landscape [PMID:22842228](../papers/22842228.md)
+- Deleted/mutated in SCLC WES/WGS study (JHU, 36 tumors) with SOX2 amplification [PMID:22941189](../papers/22941189.md)
+- Homozygously deleted and mutated at high frequency in TCGA lung squamous cell carcinoma cohort (178 tumors); identified as one of the most significantly altered genes [PMID:22960745](../papers/22960745.md)
+- Deleted/mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -134,5 +137,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

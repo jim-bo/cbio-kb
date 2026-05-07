@@ -37,6 +37,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 activating mutations are detected in colorectal adenocarcinoma among 276 TCGA CRC tumors, representing an alternative mechanism of Wnt pathway activation in APC-wild-type tumors [PMID:22810696](../papers/22810696.md)
 - CTNNB1 mutations are the hallmark alteration of the WNT subgroup of medulloblastoma, enriched in WES of 92 tumors (Broad cohort), defining a subgroup with favorable prognosis [PMID:22820256](../papers/22820256.md)
 - CTNNB1 mutations define the WNT subgroup of medulloblastoma in ICGC WGS/WES of 76 tumors, consistently accompanied by monosomy 6 and showing excellent clinical outcomes [PMID:22832583](../papers/22832583.md)
+- Mutated in colorectal cancer WES study (Genentech, 74 tumors) [PMID:22895193](../papers/22895193.md)
+- Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -94,5 +96,11 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

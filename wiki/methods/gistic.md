@@ -23,6 +23,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC applied to identify significant somatic copy-number alterations in prostate adenocarcinoma from the Broad WES cohort [PMID:22610119](../papers/22610119.md)
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 257 TCGA colorectal carcinoma tumors to identify significant focal amplifications and deletions [PMID:22810696](../papers/22810696.md)
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 121 melanoma samples (Broad) to identify significant focal amplifications and deletions including CDKN2A loss, BRAF amplification [PMID:22817889](../papers/22817889.md)
+- Applied to JHU SCLC cohort (36 tumors) to identify recurrent focal amplifications including SOX2 and MYCL and deletions of RB1 [PMID:22941189](../papers/22941189.md)
+- Applied to TCGA LUSC cohort (178 tumors) to identify focal amplifications (SOX2, FGFR1) and deletions (CDKN2A) from SNP6 array data [PMID:22960745](../papers/22960745.md)
 
 ## Notes
 
@@ -45,5 +47,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

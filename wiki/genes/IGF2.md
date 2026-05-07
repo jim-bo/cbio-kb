@@ -17,6 +17,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 
 - IGF2 is among the recurrent alterations identified in fusion-positive rhabdomyosarcoma (FP-RMS) in a study of 35 tumor pairs using sequential genomic analysis with a combined targeted DNA panel and shallow WGS [PMID:37730754](../papers/37730754.md).
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
+- Focal amplification and overexpression in 12% (8/68) of colorectal cancers (Genentech WES) [PMID:22895193](../papers/22895193.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

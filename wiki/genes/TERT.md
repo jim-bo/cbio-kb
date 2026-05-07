@@ -23,6 +23,7 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - TERT promoter GOF mutations in 6% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
 - Most frequent HBV integration hotspot in HCC (23.7% of cases); promoter and intronic insertions induce telomerase expression; HBV-TERT integrations cyclize into ecDNA for amplified expression [PMID:22634756](../papers/22634756.md)
 - Significantly mutated in melanoma WES cohort (121 tumors, Broad); TERT promoter mutations among the most frequent alterations, consistent with UV-signature mutagenesis in melanoma [PMID:22817889](../papers/22817889.md)
+- Frequent somatic copy number gains in 42% of LUAD tumors (Broad WES cohort, 183 tumors); most frequently amplified gene in this cohort [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

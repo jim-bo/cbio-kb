@@ -42,6 +42,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF is among the significantly mutated genes in colorectal adenocarcinoma across 276 TCGA CRC tumors, with V600E hotspot mutations enriched in the hypermutated microsatellite-unstable subgroup [PMID:22810696](../papers/22810696.md)
 - BRAF (including V600E) is a major driver in melanoma identified by WES of 121 tumors (Broad cohort), occurring in a large fraction of tumors and co-occurring with other driver events [PMID:22817889](../papers/22817889.md)
 - BRAF V600E is the most common driver mutation detected in 147 melanoma tumors (Yale WES cohort), defining the largest molecular subgroup [PMID:22842228](../papers/22842228.md)
+- Mutated in colorectal cancer WES study (Genentech, 74 tumors) [PMID:22895193](../papers/22895193.md)
+- Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
+- Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -119,5 +122,14 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

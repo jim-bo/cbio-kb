@@ -8,8 +8,8 @@ tags:
   - neural-stem-progenitor
   - glioma
   - cancer-stem-cell
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # SOX2
@@ -21,6 +21,9 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 ## Alterations observed in the corpus
 
 - SOX2 is among the top-ranking genes of the stem/progenitor program (PC2/PC3) across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2); co-expressed with [SOX4](../genes/SOX4.md) and [SOX11](../genes/SOX11.md). The program matches human NPCs (t-test P = 2×10⁻³⁵) and activated mouse NSCs (P = 3×10⁻⁶) more closely than OPCs, supporting a tri-potent NPC-like cell of origin. [PMID:27806376](../papers/27806376.md)
+- Broad 3q gains observed in SCLC (less focal than in squamous-cell lung cancer); lineage survival oncogene [PMID:22941188](../papers/22941188.md)
+- Amplification in ~27% of SCLC samples; lineage-survival oncogene driving proliferation; expression correlates with disease stage [PMID:22941189](../papers/22941189.md)
+- Amplification and overexpression at 3q26 amplicon in LUSC; part of 44% squamous differentiation pathway; selectively amplified in LUSC vs. LUAD [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +46,12 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

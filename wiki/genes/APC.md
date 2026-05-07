@@ -28,6 +28,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC mutations observed in medulloblastoma WGS of 37 tumors (PCGP), implicating Wnt signaling disruption [PMID:22722829](../papers/22722829.md)
 - APC alterations observed in prostate cancer WES of 112 tumors (Michigan cohort) [PMID:22722839](../papers/22722839.md)
 - APC is the most frequently mutated gene in colorectal adenocarcinoma, altered in the majority of 276 TCGA CRC tumors profiled by WES, consistent with its role as a gatekeeper tumor suppressor in the Wnt pathway [PMID:22810696](../papers/22810696.md)
+- Mutated in colorectal cancer WES study (Genentech, 74 tumors); identified alongside RSPO2/3 fusions in comprehensive genomic profiling [PMID:22895193](../papers/22895193.md)
+- Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +74,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -42,6 +42,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations (KDM6A, CHD7, ZMYM3) [PMID:22722829](../papers/22722829.md)
 - Transcriptional activator of the miR-17-92 cluster; expression correlated (r = 0.61) with miR-18a across NCI-60 cell lines in CellMiner pharmacogenomics platform analysis [PMID:22802077](../papers/22802077.md)
 - Amplification at 8q24 in colorectal cancer (276-tumor TCGA CRC cohort); transcriptional targets universally altered per PARADIGM pathway analysis [PMID:22810696](../papers/22810696.md)
+- MYC broad amplicon on chromosome 8q in 23% (17/74) of colorectal cancer tumors [PMID:22895193](../papers/22895193.md)
+- MYC focal amplification in SCLC (rare, 1 case); mutually exclusive with MYCL and MYCN amplification (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
+- MYC copy-number amplification identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- MYC amplification identified as a recurrent somatic copy-number alteration in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
+- MYC pathway alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +125,20 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

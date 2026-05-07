@@ -40,6 +40,10 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - RNA-seq applied alongside WGS in BCCRC breast tumor cohort to characterize transcriptomic landscape [PMID:22495314](../papers/22495314.md)
 - RNA-seq used in HCC studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:22634756](../papers/22634756.md)
 - Strand-specific high-coverage RNA sequencing performed on 28 pediatric medulloblastoma cases (ICGC); identified first medulloblastoma fusion transcripts (DNAJB6-SHH, LCLAT1-ERBB4); only 48% of non-synonymous DNA mutations detectable at RNA level [PMID:22832583](../papers/22832583.md)
+- Applied to Genentech colorectal cohort to detect RSPO2/RSPO3 fusion transcripts and characterise expression profiles [PMID:22895193](../papers/22895193.md)
+- Used in CLCGP SCLC study (29 tumors) to complement WES/WGS and characterise transcriptome of TP53/RB1-deficient tumors [PMID:22941188](../papers/22941188.md)
+- Applied in JHU SCLC study (36 tumors) to validate SOX2 and MYCL amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
+- Used in TCGA LUSC study (178 tumors) for expression profiling alongside WES to characterise the CDKN2A/TP53/KEAP1/NFE2L2 mutational landscape [PMID:22960745](../papers/22960745.md)
 
 ## Notes
 
@@ -92,5 +96,17 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

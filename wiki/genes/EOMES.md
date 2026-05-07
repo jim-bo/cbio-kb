@@ -16,7 +16,7 @@ EOMES (Eomesodermin) encodes a T-box transcription factor involved in brain deve
 
 ## Alterations observed in the corpus
 
-- Inversely expressed with TBR1 in Group 4 medulloblastoma; methylation-dependent differential expression across subgroups identified by WGS/WES (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
+- Inversely expressed with [TBR1](../genes/TBR1.md) in Group 4 medulloblastoma; methylation-dependent differential expression across subgroups identified by WGS/WES (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 

@@ -1,0 +1,40 @@
+---
+symbol: CUL3
+aliases: []
+cancer_types: [LUSC]
+tags: []
+processed_by: entity-page-writer
+processed_at: 2026-05-06
+---
+
+# CUL3
+
+## Overview
+
+CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligase complex that mediates ubiquitin-dependent proteasomal degradation of target substrates. In lung squamous cell carcinoma, CUL3 functions as part of the NFE2L2/KEAP1/CUL3 oxidative stress pathway: CUL3 forms an E3 ligase complex with [KEAP1](../genes/KEAP1.md) to ubiquitinate and degrade [NFE2L2](../genes/NFE2L2.md) (NRF2). Loss of CUL3 through deletion or mutation impairs NFE2L2 degradation, resulting in constitutive NRF2 pathway activation analogous to NFE2L2-activating or KEAP1-inactivating mutations.
+
+## Alterations observed in the corpus
+
+- Deletion and mutation of CUL3 observed in TCGA lung squamous cell carcinoma cohort (178 tumors); CUL3 alterations contribute to the NFE2L2/KEAP1/CUL3 pathway being altered in 34% of [LUSC](../cancer_types/LUSC.md) tumors [PMID:22960745](../papers/22960745.md)
+
+## Cancer types (linked)
+
+- **LUSC**: CUL3 deletion/mutation identified as a component of the oxidative stress pathway (NFE2L2/KEAP1/CUL3) altered in 34% of LUSC tumors in the TCGA cohort (178 tumors); mutations in NFE2L2 are concentrated in the KEAP1-interaction motifs (DLG/ETGE) [PMID:22960745](../papers/22960745.md)
+
+## Co-occurrence and mutual exclusivity
+
+- CUL3 alterations are part of the same pathway as NFE2L2 activating mutations and KEAP1 loss-of-function mutations; NFE2L2 and KEAP1 mutations are mutually exclusive with each other in LUSC [PMID:22960745](../papers/22960745.md)
+
+## Therapeutic relevance
+
+- NFE2L2 pathway activation via CUL3 loss may promote chemotherapy resistance and antioxidant defense; no direct therapeutic targeting of CUL3 reported in the corpus.
+
+## Open questions
+
+- The relative frequency of CUL3 deletion versus mutation in LUSC, and whether CUL3 loss is mutually exclusive with NFE2L2 or KEAP1 mutations at the individual tumor level, is not detailed in the TCGA study.
+
+## Sources
+
+- [PMID:22960745](../papers/22960745.md) — TCGA comprehensive genomic characterization of lung squamous cell carcinoma (178 tumors)
+
+*This page was processed by **entity-page-writer** on **2026-05-06**.*

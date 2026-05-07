@@ -3,8 +3,8 @@ symbol: NFIB
 aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, stem-cell-program, glioma, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NFIB
@@ -16,6 +16,8 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 ## Alterations observed in the corpus
 
 - NFIB is a component of the stem/progenitor gene program in grade II oligodendroglioma (IDH-mutant, 1p/19q codeleted), co-expressed with [SOX2](../genes/SOX2.md), [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [ASCL1](../genes/ASCL1.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [TCF4](../genes/TCF4.md), and [CCND2](../genes/CCND2.md) in the rare proliferating subpopulation (1.5–8% of all cells) [PMID:27806376](../papers/27806376.md).
+- NFIB amplification in mouse SCLC; copy number gain observed in 3 human SCLC samples (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
+- NFIB copy-number amplification confirmed as a recurrent alteration in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +40,9 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

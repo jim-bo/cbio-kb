@@ -24,11 +24,11 @@ GPS2 (G Protein Pathway Suppressor 2) encodes a component of the N-CoR (nuclear 
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutations cluster in the NCOR2 interaction domain, suggesting disruption of the same GPS2–NCOR2 protein interface as [LDB1](../genes/LDB1.md) and other N-CoR complex members altered in medulloblastoma [PMID:22820256](../papers/22820256.md)
+- Mutations cluster in the [NCOR2](../genes/NCOR2.md) interaction domain, suggesting disruption of the same GPS2–NCOR2 protein interface as [LDB1](../genes/LDB1.md) and other N-CoR complex members altered in medulloblastoma [PMID:22820256](../papers/22820256.md)
 
 ## Therapeutic relevance
 
-- N-CoR complex disruption across multiple components (GPS2, LDB1, NCOR2) in medulloblastoma may indicate sensitivity to epigenetic therapies targeting nuclear co-repressor pathways.
+- N-CoR complex disruption across multiple components (GPS2, [LDB1](../genes/LDB1.md), NCOR2) in medulloblastoma may indicate sensitivity to epigenetic therapies targeting nuclear co-repressor pathways.
 
 ## Open questions
 

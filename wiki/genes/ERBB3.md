@@ -23,6 +23,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - ERBB3 amplification in 5% of [GBC](../cancer_types/GBC.md); mutations more frequent in T1/T2 primaries (16% vs 0%) [PMID:36228155](../papers/36228155.md)
 - Somatic mutations in 2/65 TNBC cases in a WGS cohort (BCCRC) [PMID:22495314](../papers/22495314.md)
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
+- Mutated in 8% (6/72) of colorectal cancers with multiple hotspot mutations; identified as oncogenic [PMID:22895193](../papers/22895193.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

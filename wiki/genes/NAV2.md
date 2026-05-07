@@ -19,7 +19,7 @@ NAV2 (Neuron Navigator 2) encodes a microtubule-binding protein involved in neur
 
 ## Alterations observed in the corpus
 
-- Recurrent NAV2-TCF7L1 fusion detected in 3 colorectal cancer cases (276-tumor TCGA CRC cohort); fusion causes TCF7L1 to lose its beta-catenin binding domain [PMID:22810696](../papers/22810696.md)
+- Recurrent NAV2-TCF7L1 fusion detected in 3 colorectal cancer cases (276-tumor TCGA CRC cohort); fusion causes [TCF7L1](../genes/TCF7L1.md) to lose its beta-catenin binding domain [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 

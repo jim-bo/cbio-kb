@@ -23,6 +23,8 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - In preclinical HER2+ cancer cell line viability assays, erlotinib was used as [EGFR](../genes/EGFR.md) TKI comparator; T-DM1 was more potent than erlotinib in HER2+ OE19 esophageal cells, consistent with the ADC delivering cytotoxic payload independently of EGFR signaling [PMID:27698471](../papers/27698471.md).
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
 - NCI-60 CellMiner analysis linked EGFR pathway activity and ABCB1 expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
+- TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in LUSC population [PMID:22960745](../papers/22960745.md)
+- Broad LUAD WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring STK11 loss associated with resistance [PMID:22980975](../papers/22980975.md)
 
 ## Resistance mechanisms
 
@@ -44,5 +46,11 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

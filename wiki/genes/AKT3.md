@@ -3,7 +3,7 @@ symbol: AKT3
 aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 ## Alterations observed in the corpus
 
 - MAGI3-AKT3 gene fusion (intron 1 breakpoint) identified in breast cancer WES/WGS of 103 tumors (Broad Institute); fusion is enriched in triple-negative breast cancer and produces constitutive AKT phosphorylation [PMID:22722202](../papers/22722202.md)
+- Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - [PMID:22722202](../papers/22722202.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

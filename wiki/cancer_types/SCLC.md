@@ -22,6 +22,8 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 - This corpus study does not provide gene-level SCLC mutation frequencies from primary clinical cohorts. The ATLAS classifier uses ~632 RNA expression features for classification rather than genomic alteration profiles.
 - BET bromodomain inhibition showed synthetic lethality in ARID1A-mutant cancers including SCLC cell lines [PMID:22037554](../papers/22037554.md)
+- CLCGP WES/WGS of 29 SCLC tumors revealed universal biallelic inactivation of TP53 and RB1, with frequent amplification of SOX2 and MYCL [PMID:22941188](../papers/22941188.md)
+- JHU WES/WGS of 36 SCLC tumors confirmed biallelic TP53+RB1 loss and highlighted SOX2 amplification and MYCL amplification as recurrent oncogenic events [PMID:22941189](../papers/22941189.md)
 
 ## Subtypes
 
@@ -37,5 +39,11 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

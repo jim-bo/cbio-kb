@@ -20,6 +20,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - Epigenetically silenced via promoter hypermethylation and focal deletions in breast cancer metastases; correlated with reduced HLA-A protein expression (Spearman rho=0.6, P=0.0001) and lower immune cell infiltrates [PMID:36585450](../papers/36585450.md)
 - MHC class I gene highly expressed in [HGSOC](../cancer_types/HGSOC.md) Cancer.cell.3 cluster; subject to LOH-mediated loss in 6p as immune escape mechanism [PMID:36517593](../papers/36517593.md)
 - HLA-A is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
+- Nonsense/splice-site loss-of-function mutations in 7 of 8 mutated cases; novel finding in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); implicated in immune evasion; relevant to immunotherapy patient selection [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

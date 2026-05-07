@@ -46,6 +46,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Deletions/mutations in 4% of non-hypermutated colorectal tumors; mutually exclusive with PIK3CA and PIK3R1 alterations in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Mutation/focal deletion co-occurring with BRAF in 44% of melanomas and rarely with NRAS (4%, p=4.9e-5); identified as significantly mutated by InVEx in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
 - Copy loss at 10q23 frequent in BRAF/NRAS-mutant class of melanomas in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
+- PTEN deletion in 4% (3/74) of colorectal cancer tumors (Genentech WES) [PMID:22895193](../papers/22895193.md)
+- PTEN inactivating missense mutations in 3/29 (10%) of SCLC tumors (CLCGP); loss of phosphatase activity activating PI3K pathway [PMID:22941188](../papers/22941188.md)
+- PTEN inactivating mutations in 2-4% of SCLC tumors with hotspot mutations and copy-number loss (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- PTEN mutation and deletion in lung squamous cell carcinoma (TCGA, 178 tumors); part of 47% PI3K pathway alteration rate [PMID:22960745](../papers/22960745.md)
+- PTEN alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) as part of PI3K pathway dysregulation [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -142,5 +147,20 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -20,6 +20,7 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - SETD2 mutation was associated with a small but statistically significant increase in TMB (Mann-Whitney P = 2x10^-9) [PMID:39506116](../papers/39506116.md).
 - SETD2 loss-of-function mutations are enriched in ccRCC and associate with a distinct molecular subtype characterized by altered immune infiltration patterns [PMID:22138691](../papers/22138691.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent loss-of-function mutations [PMID:22722201](../papers/22722201.md)
+- Significant mutations identified in LUAD WES cohort (Broad, 183 tumors); classified as epigenetic regulator in the proposed 11th hallmark of epigenetic/RNA deregulation [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -55,6 +55,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Activating missense mutations (Q546K, H1047R, N345K) across WNT/SHH/subgroup-4 medulloblastoma (PCGP WGS, 37 tumors); accelerates but does not initiate tumourigenesis via AKT pathway [PMID:22722829](../papers/22722829.md)
 - Mutations in 18% of non-hypermutated colorectal tumors; mutually exclusive with PIK3R1 and PTEN loss in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Recurrently altered in melanoma (121-tumor Broad WES cohort); listed among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
+- PIK3CA significantly mutated in microsatellite-stable (MSS) colorectal cancer (Genentech WES, 74 tumors) [PMID:22895193](../papers/22895193.md)
+- PIK3CA — no mutations observed in SCLC (CLCGP, 29 tumors); notable negative finding [PMID:22941188](../papers/22941188.md)
+- PIK3CA rare activating hotspot mutations identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- PIK3CA mutation and amplification in lung squamous cell carcinoma (TCGA, 178 tumors); part of 47% PI3K pathway alteration rate [PMID:22960745](../papers/22960745.md)
+- PIK3CA activating mutations identified as significant in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -166,5 +171,20 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

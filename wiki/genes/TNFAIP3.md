@@ -17,6 +17,7 @@ TNFAIP3 (A20) is a negative regulator of NF-κB signaling and a recurrent driver
 
 - TNFAIP3 was mutated in 36% of classic Hodgkin lymphoma cases — the second most common driver after [SOCS1](../genes/SOCS1.md) — and is an NF-κB pathway driver [PMID:36723991](../papers/36723991.md).
 - Recurrently mutated in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma identified by whole-genome/exome sequencing [PMID:21796119](../papers/21796119.md)
+- Identified as significantly mutated in TCGA LUSC (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ TNFAIP3 (A20) is a negative regulator of NF-κB signaling and a recurrent driver
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

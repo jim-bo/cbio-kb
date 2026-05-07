@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - CSCC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # CBL
@@ -17,6 +17,7 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 ## Alterations observed in the corpus
 
 - Loss-of-function mutation observed in an example cSCC case; associated with increased phospho-MAPK signaling, consistent with the role of CBL in attenuating receptor tyrosine kinase signaling [PMID:39091884](../papers/39091884.md).
+- Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 - [PMID:39091884](../papers/39091884.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

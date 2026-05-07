@@ -9,7 +9,7 @@ tags:
   - wnt-pathway
   - transcription-factor
   - colorectal-cancer
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -22,6 +22,7 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 ## Alterations observed in the corpus
 
 - Deleted or mutated in 12% of non-hypermutated colorectal cancer cases (TCGA CRC cohort, 276 tumors); focal deletion at 10q25.2 identified; TCF7L2 alterations represent an alternative Wnt pathway activation mechanism [PMID:22810696](../papers/22810696.md)
+- New recurrent mutations identified in colorectal cancer; Wnt pathway transcription factor [PMID:22895193](../papers/22895193.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ TCF7L2 (Transcription Factor 7 Like 2, also known as [TCF4](../genes/TCF4.md)) e
 - [PMID:22810696](../papers/22810696.md) — TCGA colorectal cancer, 276 tumors
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

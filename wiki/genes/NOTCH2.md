@@ -17,6 +17,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 
 - Loss-of-function mutations observed in actinic keratosis (AK) lesions; secondary hits to the Notch pathway on phylogenetic branches during AK-to-cSCC evolution [PMID:39091884](../papers/39091884.md).
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- NOTCH2 mutations identified in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

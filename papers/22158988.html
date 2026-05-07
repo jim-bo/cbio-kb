@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole-exome sequencing of neoplastic cysts of the pancreas reveals recurrent mutations in components of ubiquitin-dependent pathways – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22158988.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22158988.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole-exome sequencing of neoplastic cysts of the pancreas reveals recurrent mutations in components of ubiquitin-dependent pathways</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Wu J </p>
+             <p>Jiao Y </p>
+             <p>Dal Molin M </p>
+             <p>Maitra A </p>
+             <p>de Wilde RF </p>
+             <p>Wood LD </p>
+             <p>Eshleman JR </p>
+             <p>Goggins MG </p>
+             <p>Wolfgang CL </p>
+             <p>Canto MI </p>
+             <p>Schulick RD </p>
+             <p>Edil BH </p>
+             <p>Choti MA </p>
+             <p>Adsay V </p>
+             <p>Klimstra DS </p>
+             <p>Offerhaus GJA </p>
+             <p>Klein AP </p>
+             <p>Kopelovich L </p>
+             <p>Carter H </p>
+             <p>Karchin R </p>
+             <p>Allen PJ </p>
+             <p>Schmidt CM </p>
+             <p>Naito Y </p>
+             <p>Diaz LA Jr </p>
+             <p>Kinzler KW </p>
+             <p>Papadopoulos N </p>
+             <p>Hruban RH </p>
+             <p>Vogelstein B </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1073/pnas.1118046108">10.1073/pnas.1118046108</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/22158988/">22158988</a> · <strong>DOI:</strong> <a href="https://doi.org/10.1073/pnas.1118046108">10.1073/pnas.1118046108</a> · <strong>Journal:</strong> Proceedings of the National Academy of Sciences (2011)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This study performed whole-exome sequencing on 32 surgically resected neoplastic cysts of the pancreas (8 each of SCA, <a href="../cancer_types/IPMN.html">IPMN</a>, <a href="../cancer_types/MCN.html">MCN</a>, and <a href="../cancer_types/SPN.html">SPN</a>) and matched normal tissues to define their genomic landscapes. The authors discovered that <a href="../genes/RNF43.html">RNF43</a>, an E3 ubiquitin ligase gene not previously implicated in human cancer, is recurrently inactivated in IPMNs (6/8) and MCNs (3/8), establishing it as a tumor suppressor. <a href="../genes/VHL.html">VHL</a> was mutated or had LOH in all 8 SCAs, <a href="../genes/CTNNB1.html">CTNNB1</a> was mutated in all 8 SPNs, and <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/GNAS.html">GNAS</a> were frequently mutated in IPMNs and MCNs. The convergence on ubiquitin-dependent pathway defects across all four cyst types suggests diagnostic and therapeutic implications.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>32 microdissected neoplastic pancreatic cysts (8 SCA, 8 IPMN, 8 MCN, 8 SPN) with matched normal tissue from the same patients.</li>
+<li>Dataset: <a href="../datasets/pact_jhu_2011.html">pact_jhu_2011</a>.</li>
+<li>Cancer types: <a href="../cancer_types/IPMN.html">IPMN</a>, <a href="../cancer_types/MCN.html">MCN</a>, <a href="../cancer_types/SPN.html">SPN</a>; SCAs (serous cystadenomas, no OncoTree code); progression target: <a href="../cancer_types/PAAD.html">PAAD</a>.</li>
+<li><a href="../methods/whole-exome-seq.html">Whole-exome sequencing</a> using Agilent 50-Mb SureSelect capture on Illumina GAIIx/HiSeq; average unique coverage 120-fold +/- 40 per base pair across 64 libraries.</li>
+<li>An additional 18 SCA cyst fluids were analyzed for VHL mutations using a customized VHL capture chip; 28 IPMN and 3 MCN cyst fluids were also screened.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>SCAs</strong> contained 10 +/- 4.6 nonsynonymous somatic mutations per tumor – significantly fewer than PDAs (48 +/- 23; P &lt; 0.001). 4/8 SCAs harbored inactivating <a href="../genes/VHL.html">VHL</a> mutations (N78S, W117L, C162W, S80R); all 8 had LOH of chromosome 3p in or adjacent to VHL. VHL mutations were confirmed by independent ligation-based assays. VHL mutations were also found in 9/18 (50%) SCA cyst fluids.</li>
+<li><strong>IPMNs</strong> contained 27 +/- 12 nonsynonymous mutations per tumor. <a href="../genes/RNF43.html">RNF43</a> was the most commonly mutated gene, altered in 6/8 IPMNs (5 nonsense mutations, 1 nonsense); the probability of RNF43 being a passenger was &lt; 10^-12 (binomial test). <a href="../genes/KRAS.html">KRAS</a> (codon 12) was mutated in 5/8 and <a href="../genes/GNAS.html">GNAS</a> (codon 201) in 5/8 IPMNs. LOH of chromosome 17q (containing RNF43) was observed in 4/8 IPMNs. Two <a href="../genes/APC.html">APC</a> mutations were found (one nonsense R450X, one missense R99W).</li>
+<li><strong>MCNs</strong> contained 16 +/- 7.6 nonsynonymous mutations per tumor. <a href="../genes/RNF43.html">RNF43</a> was mutated in 3/8 MCNs (two nonsense, one missense). <a href="../genes/KRAS.html">KRAS</a> was mutated in 6/8 MCNs (all at codon 12). <a href="../genes/TP53.html">TP53</a> was mutated in 2/8 MCNs.</li>
+<li><strong>SPNs</strong> contained remarkably few alterations: only 2.9 +/- 2.1 nonsynonymous mutations per tumor – fewer than any tumor type yet evaluated by genome-wide sequencing. All 8/8 SPNs harbored activating <a href="../genes/CTNNB1.html">CTNNB1</a> mutations at codons 32, 33, 34, or 37 (beta-catenin phosphodegron). Only 1/8 SPNs exhibited any LOH.</li>
+<li>All four cyst types converge on ubiquitin ligase pathway defects: VHL (ubiquitin ligase complex component) in SCAs, RNF43 (intrinsic E3 ubiquitin ligase) in IPMNs/MCNs, and CTNNB1 (resistant to ubiquitin-mediated degradation) in SPNs.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Gene</th>
+<th>Alteration</th>
+<th>Cyst type</th>
+<th>Frequency</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../genes/VHL.html">VHL</a></td>
+<td>Inactivating point mutations + chr3p LOH</td>
+<td>SCA</td>
+<td>4/8 mutated; 8/8 LOH</td>
+<td>All mutations previously seen in RCC; 9/18 SCA fluids also VHL-mutant</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/RNF43.html">RNF43</a></td>
+<td>Truncating/inactivating mutations + chr17q LOH</td>
+<td>IPMN</td>
+<td>6/8</td>
+<td>5 nonsense mutations; E3 ubiquitin ligase; established as tumor suppressor</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/RNF43.html">RNF43</a></td>
+<td>Truncating/inactivating mutations + chr17q LOH</td>
+<td>MCN</td>
+<td>3/8</td>
+<td>2 nonsense, 1 missense (R127P)</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/KRAS.html">KRAS</a></td>
+<td>Activating missense (codon 12)</td>
+<td>IPMN, MCN</td>
+<td>5/8 IPMN, 6/8 MCN</td>
+<td>G12D, G12R, G12V, G13D</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/GNAS.html">GNAS</a></td>
+<td>Activating missense (R201C/H)</td>
+<td>IPMN</td>
+<td>5/8</td>
+<td>Codon 201 hotspot</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/CTNNB1.html">CTNNB1</a></td>
+<td>Activating missense (codons 32-37)</td>
+<td>SPN</td>
+<td>8/8</td>
+<td>Inhibits phosphorylation and ubiquitin-mediated degradation of beta-catenin</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/TP53.html">TP53</a></td>
+<td>Inactivating mutations</td>
+<td>MCN</td>
+<td>2/8</td>
+<td>Associated with aggressive behavior</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/APC.html">APC</a></td>
+<td>Nonsense (R450X) + missense (R99W)</td>
+<td>IPMN</td>
+<td>2/8</td>
+<td>Known colorectal tumor suppressor</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Diagnostic biomarker panel</strong>: A five-gene panel (VHL, RNF43, CTNNB1, GNAS, KRAS) can distinguish among the four neoplastic cyst types in cyst fluid samples, potentially reducing unnecessary surgical resections. SCAs always showed VHL alterations without mutations in the other four genes; IPMNs showed RNF43/GNAS/KRAS without VHL or CTNNB1; MCNs showed KRAS/RNF43 without GNAS, CTNNB1, or VHL; SPNs showed CTNNB1 exclusively.</li>
+<li><strong>Reduction of unnecessary surgery</strong>: Accurate preoperative cyst classification using molecular markers could spare patients with benign SCAs from surgery (currently misdiagnosed as IPMNs in up to one-third of cases).</li>
+<li><strong>Progression risk stratification</strong>: The number and type of genetic alterations in GNAS, RNF43, and other genes in IPMNs and MCNs may help gauge the risk of progression to invasive <a href="../cancer_types/PAAD.html">PAAD</a>. <a href="../genes/TP53.html">TP53</a> mutations in MCNs may mark those most likely to progress.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Small sample size (n = 8 per cyst type) limits statistical power for detecting low-frequency driver events.</li>
+<li>Study used surgically resected specimens with high neoplastic cell content (&gt;33%); clinical cyst fluid samples are often acellular or paucicellular, and sensitivity in that context needs validation.</li>
+<li>The targets of RNF43 ubiquitin ligase activity in vivo remain unknown; functional studies are needed to confirm its tumor-suppressive mechanism.</li>
+<li>SPNs contained remarkably few mutations; whether epigenetic events or translocations contribute to their formation is unanswered.</li>
+<li>No prospective clinical validation of the five-gene cyst fluid diagnostic panel was performed.</li>
+<li>The 4 SCAs without detectable VHL point mutations may have inactivation by deletions, translocations, or epigenetic silencing not detectable by exome sequencing.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Four of the eight SCAs contained mutations of the von Hippel-Lindau gene (VHL), a key component of the VHL ubiquitin ligase complex that has previously been associated with renal cell carcinomas, SCAs, and other neoplasms.” <a href="../papers/22158988.html">PMID:22158988</a></li>
+<li>“Six of the eight IPMNs and three of the eight MCNs harbored mutations of RNF43, a gene coding for a protein with intrinsic E3 ubiquitin ligase activity that has not previously been found to be genetically altered in any human cancer.” <a href="../papers/22158988.html">PMID:22158988</a></li>
+<li>“The preponderance of inactivating mutations in RNF43 unequivocally establishes it as a suppressor of both IPMNs and MCNs.” <a href="../papers/22158988.html">PMID:22158988</a></li>
+<li>“SPNs contained remarkably few genetic alterations but always contained mutations of CTNNB1, previously demonstrated to inhibit degradation of the encoded protein (beta-catenin) by E3 ubiquitin ligases.” <a href="../papers/22158988.html">PMID:22158988</a></li>
+<li>“These results highlight the essential role of ubiquitin ligases in these neoplasms and have important implications for the diagnosis and treatment of patients with cystic tumors.” <a href="../papers/22158988.html">PMID:22158988</a></li>
+</ul>
+<p><em>This page was processed by <strong>paper-compiler</strong> on <strong>2026-05-06</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22158988.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22158988.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

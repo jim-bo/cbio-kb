@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Discovery and prioritization of somatic mutations in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22343534.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22343534.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Discovery and prioritization of somatic mutations in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Lohr JG </p>
+             <p>Stojanov P </p>
+             <p>Lawrence MS </p>
+             <p>Auclair D </p>
+             <p>Chapuy B </p>
+             <p>Sougnez C </p>
+             <p>Cruz-Gordillo P </p>
+             <p>Knoechel B </p>
+             <p>Asmann YW </p>
+             <p>Slager SL </p>
+             <p>Novak AJ </p>
+             <p>Dogan A </p>
+             <p>Ansell SM </p>
+             <p>Link BK </p>
+             <p>Zou L </p>
+             <p>Gould J </p>
+             <p>Saksena G </p>
+             <p>Stransky N </p>
+             <p>Rangel-Escareno C </p>
+             <p>Fernandez-Lopez JC </p>
+             <p>Hidalgo-Miranda A </p>
+             <p>Melendez-Zajgla J </p>
+             <p>Hernandez-Lemus E </p>
+             <p>Schwarz-Cruz y Celis A </p>
+             <p>Imaz-Rosshandler I </p>
+             <p>Ojesina AI </p>
+             <p>Jung J </p>
+             <p>Pedamallu CS </p>
+             <p>Lander ES </p>
+             <p>Habermann TM </p>
+             <p>Cerhan JR </p>
+             <p>Shipp MA </p>
+             <p>Getz G </p>
+             <p>Golub TR </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1073/pnas.1121343109">10.1073/pnas.1121343109</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/22343534/">22343534</a> · <strong>DOI:</strong> <a href="https://doi.org/10.1073/pnas.1121343109">10.1073/pnas.1121343109</a> · <strong>Journal:</strong> Proceedings of the National Academy of Sciences (2012)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Whole-exome sequencing of 55 primary DLBCL tumors with matched normal tissue identified 58 significantly mutated genes (FDR q &lt;= 0.1), confirming known drivers (<a href="../genes/MYD88.html">MYD88</a>, <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/CD79B.html">CD79B</a>, <a href="../genes/TP53.html">TP53</a>) and uncovering recurrent mutations in genes not previously implicated in DLBCL (<a href="../genes/MEF2B.html">MEF2B</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/BTG1.html">BTG1</a>, <a href="../genes/GNA13.html">GNA13</a>, <a href="../genes/ACTB.html">ACTB</a>, <a href="../genes/P2RY8.html">P2RY8</a>, PCLO, <a href="../genes/TNFRSF14.html">TNFRSF14</a>). The study demonstrated that <a href="../genes/BCL2.html">BCL2</a> point mutations in patients with BCL2/IgH translocations arise from activation-induced cytidine deaminase (AID)-mediated somatic hypermutation and are subject to purifying (negative) selection against loss-of-function changes. A complementary algorithm based on mutational clustering and evolutionary conservation identified <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, and <a href="../genes/SYK.html">SYK</a> as likely rare drivers.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>55 patients with primary DLBCL; 49 passed quality filters after excluding 6 samples with extensive stromal contamination.</li>
+<li>Paired tumor (lymph node) and germline (peripheral blood) DNA.</li>
+<li>Whole-exome sequencing at 150-fold mean coverage (97% of bases covered per patient on average; range 91–98%).</li>
+<li>Cancer type: <a href="../cancer_types/DLBCLNOS.html">DLBCLNOS</a>. Dataset: <a href="../datasets/dlbc_broad_2012.html">dlbc_broad_2012</a>.</li>
+<li>Study sites: Broad Institute, Dana-Farber Cancer Institute, Mayo Clinic, University of Iowa, Instituto Nacional de Medicina Genomica (Mexico).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Mean nonsynonymous mutation rate was 3.2 mutations per megabase (range 0.6–8.7), higher than CLL (&lt;1/Mb) and multiple myeloma (1.3/Mb).</li>
+<li>MutSig identified 58 significantly mutated genes at FDR q &lt;= 0.1; 97.9% validation rate by targeted resequencing (47 of 47 tested, 1 failed).</li>
+<li>Top significantly mutated genes by q-value: CD79B, GNA13, MEF2B, TNFRSF14, TP53, KMT2D (MLL2), H1-2 (HIST1H1C), BTG1, CARD11, <a href="../genes/PIM1.html">PIM1</a>, <a href="../genes/CD58.html">CD58</a>, MYD88.</li>
+<li>KMT2D mutations were predominantly truncating (nonsense, frameshift indels), consistent with a tumor-suppressor role.</li>
+<li>TNFRSF14 mutations showed strong loss-of-function bias (4 nonsense, 1 frameshift deletion out of 9 mutations; no synonymous mutations).</li>
+<li>BTG1 harbored 15 nonsynonymous and 2 synonymous mutations in 8 patients, with biallelic involvement in some patients suggesting loss of function.</li>
+<li>MEF2B mutations found in 18% of patients, predominantly in the MADS box or MEF2 domains.</li>
+<li>ACTB mutations in 5 patients with high predicted functional consequence; enriched toward the amino terminus.</li>
+<li>P2RY8 coding mutations in 6 patients (8 mutations); allelic fraction &gt;0.5 in 3 patients suggesting LOH or amplification of mutant allele.</li>
+<li>BCL2 had a paradoxical preponderance of synonymous over nonsynonymous mutations (28 synonymous vs.&nbsp;18 nonsynonymous; ratio 0.64 vs.&nbsp;expected ~2.8:1; P = 8.8 x 10^-6).</li>
+<li>77% (10/13) of patients with BCL2 hypermutation harbored BCL2/IgH translocations vs.&nbsp;8% (1/13) without BCL2 mutation (P = 0.0005, one-sided Fisher exact test).</li>
+<li>BCL2 nonsynonymous mutations preferentially fell outside BH domains (P = 0.041), consistent with purifying selection preserving BCL2 anti-apoptotic function.</li>
+<li>Mutations in BCL2 and PIM1 were enriched in AID target WRCY motifs, confirming aberrant somatic hypermutation.</li>
+<li>Histone H1 family proteins harbored 59 nonsynonymous and 35 synonymous mutations across 34 patients (69%).</li>
+<li>Rare driver analysis (clustering + conservation) identified KRAS (G13D in 2 patients), BRAF (2 mutations), NOTCH1 (4 mutations), SYK, and <a href="../genes/SGK1.html">SGK1</a> as likely drivers.</li>
+<li>20 of the 58 significantly mutated genes overlapped with those reported by Morin et al.&nbsp;(2011); 14 overlapped with Pasqualucci et al.&nbsp;(2011).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong>MYD88</strong>: 6 mutations in 6 patients (3 unique sites); known activating role in NF-kB signaling. Highly clustered mutations.</li>
+<li><strong>CARD11</strong>: 12 mutations in 10 patients (11 sites); known oncogene in B-cell receptor signaling. Highly clustered.</li>
+<li><strong>EZH2</strong>: 7 mutations in 7 patients (4 sites); gain-of-function histone methyltransferase mutations (Tyr641).</li>
+<li><strong>CREBBP</strong>: 9 mutations in 8 patients (9 sites); histone acetyltransferase.</li>
+<li><strong>CD79B</strong>: 8 mutations in 8 patients (5 sites); B-cell receptor signaling component. Highly clustered.</li>
+<li><strong>TP53</strong>: 13 mutations in 12 patients (12 sites); tumor suppressor.</li>
+<li><strong>KMT2D</strong> (MLL2): 17 mutations in 14 patients (17 sites); predominantly truncating, consistent with tumor-suppressor function. Histone H3K4 methyltransferase.</li>
+<li><strong>TNFRSF14</strong>: 11 mutations in 11 patients (11 sites); predominantly loss-of-function (nonsense/frameshift). TNF-receptor superfamily tumor suppressor.</li>
+<li><strong>BTG1</strong>: 15 nonsynonymous mutations in 8 patients; biallelic involvement in some patients. Cell-cycle regulator.</li>
+<li><strong>MEF2B</strong>: 9 mutations in 9 patients; MADS box/MEF2 domain hotspot. Calcium-regulated transcription factor.</li>
+<li><strong>GNA13</strong>: 17 mutations in 10 patients (16 sites); G-protein signaling.</li>
+<li><strong>BCL2</strong>: High mutation rate driven by AID-mediated somatic hypermutation at the translocated IgH locus; purifying selection against BH-domain nonsynonymous mutations.</li>
+<li><strong>PIM1</strong>: 22 mutations in 15 patients (19 sites); subject to aberrant somatic hypermutation (WRCY enrichment).</li>
+<li><strong>ACTB</strong>: 5 mutations in 5 patients (4 sites); cytoskeletal protein with high predicted functional consequence.</li>
+<li><strong>P2RY8</strong>: 8 mutations in 6 patients; G protein-coupled purinergic receptor.</li>
+<li><strong>KRAS</strong>: G13D mutation in 2 patients; known oncogene, rare driver in DLBCL.</li>
+<li><strong>BRAF</strong>: 2 mutations; known oncogene, rare driver in DLBCL.</li>
+<li><strong>NOTCH1</strong>: 4 mutations; known oncogene, rare driver in DLBCL.</li>
+<li><strong>SYK</strong>: Identified as likely driver by clustering/conservation analysis; tyrosine kinase with demonstrated clinical activity of inhibitors in NHL.</li>
+<li><strong>SGK1</strong>: 9 mutations in 5 patients; identified by clustering/conservation analysis as likely driver.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>R-CHOP (<a href="../drugs/rituximab.html">rituximab</a>, <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a>, <a href="../drugs/doxorubicin.html">doxorubicin</a>, <a href="../drugs/vincristine.html">vincristine</a>, <a href="../drugs/prednisone.html">prednisone</a>) is the standard of care, with ~60% 3-year event-free survival; the remaining 40% largely die of disease, underscoring the need for new therapeutic targets.</li>
+<li>The genomic landscape identifies multiple targetable pathways: B-cell receptor signaling (CD79B, CARD11), NF-kB pathway (MYD88, <a href="../genes/NFKBIA.html">NFKBIA</a>), epigenetic regulation (EZH2, CREBBP, KMT2D), and kinase signaling (KRAS, BRAF, SYK).</li>
+<li>SYK inhibitors (fostamatinib) had demonstrated significant clinical activity in NHL including DLBCL at the time of publication, validating SYK as a therapeutic target.</li>
+<li>BCL2/IgH translocation drives anti-apoptotic dependency, but the associated BCL2 point mutations are likely passengers arising from somatic hypermutation rather than additional drivers.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Modest cohort size (n = 49 after QC) limits power to detect rare drivers; the authors note that additional genes may harbor functionally important mutations below the significance threshold.</li>
+<li>Exome-only sequencing misses non-coding regulatory mutations, structural rearrangements (other than those inferred indirectly such as BCL2/IgH), and copy-number changes outside captured regions.</li>
+<li>The functional role of PCLO mutations remains unresolved: 23 nonsynonymous mutations in 17 patients (35%) but the nonsynonymous-to-synonymous ratio (23:3) is consistent with chance given the high transversion rate, suggesting they may be passengers due to locally elevated mutation rate.</li>
+<li>The functional consequences of histone H1 family mutations (69% of patients) are unknown.</li>
+<li>The paper does not subtype DLBCL cases by cell of origin (GCB vs.&nbsp;ABC), limiting interpretation of subtype-specific mutation patterns.</li>
+<li>Whether silent mutations at recurrent BCL2 codons (N11, K22) have functional consequences (e.g., affecting mRNA stability) remains undetermined.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We performed solution-phase hybrid capture and whole-exome sequencing on paired tumor and germline (i.e., normal) DNA samples from 55 patients with primary DLBCL. We achieved 150-fold mean sequence coverage of targeted exonic regions, with an average of 97% of bases covered per patient (range, 91-98%).”</li>
+<li>“the mean nonsynonymous mutation rate was 3.2 mutations per megabase, with mutation rates varying widely (0.6-8.7 mutations per megabase)”</li>
+<li>“This approach revealed 58 statistically significant genes with a false discovery rate cutoff of 0.1 (q &lt;= 0.1)”</li>
+<li>“We independently validated selected mutations by targeted resequencing in a subset of patients and obtained 97.9% validation rate”</li>
+<li>“we observed a striking opposite effect in the BCL2 gene… with 18 nonsynonymous mutations and 28 synonymous mutations, for a ratio of 0.64, far below that expected by chance (P = 8.8 x 10^-6)”</li>
+<li>“the vast majority of patients with BCL2 hypermutation (10 of 13, 77%) had BCL2/IgH translocation, whereas only one of 13 patients (8%) lacking BCL2 mutation had the translocation (P = 0.0005)”</li>
+<li>“we observed a striking accumulation of mutations in H1 family proteins, with 59 nonsynonymous and 35 synonymous mutations among 31 histone H1 proteins in 34 patients (69%)”</li>
+<li>“we also observed two mutations in KRAS (G13D), four mutations in NOTCH1, and two mutations in BRAF”</li>
+</ul>
+<p><em>This page was processed by <strong>paper-compiler</strong> on <strong>2026-05-06</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22343534.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22343534.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

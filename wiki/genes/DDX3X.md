@@ -1,0 +1,46 @@
+---
+symbol: DDX3X
+aliases: []
+cancer_types:
+  - HNSC
+tags:
+  - RNA-helicase
+  - apoptosis
+  - somatic-mutation
+  - whole-exome-sequencing
+processed_by: entity-page-writer
+processed_at: 2026-05-06
+---
+
+# DDX3X
+
+## Overview
+
+DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, translation, and stress granule assembly. DDX3X has roles in regulating apoptosis and innate immune signaling. Somatic mutations in DDX3X have been identified in head and neck squamous cell carcinoma (HNSCC) and classified among apoptosis-related mutations in that context.
+
+## Alterations observed in the corpus
+
+- DDX3X mutated in 4% of HNSCC tumors by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort, [hnsc_broad](../datasets/hnsc_broad.md)); classified alongside [CASP8](../genes/CASP8.md) as an apoptosis-related significantly mutated gene [PMID:21798893](../papers/21798893.md)
+
+## Cancer types (linked)
+
+- [HNSC](../cancer_types/HNSC.md): DDX3X somatic mutation rate of 4% in whole-exome sequencing cohort (n=74 tumor-normal pairs); identified by MutSig analysis as significantly mutated [PMID:21798893](../papers/21798893.md)
+
+## Co-occurrence and mutual exclusivity
+
+- DDX3X mutations co-occur in the broader HNSCC mutational landscape alongside [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [CASP8](../genes/CASP8.md), and [NOTCH1](../genes/NOTCH1.md) alterations [PMID:21798893](../papers/21798893.md)
+
+## Therapeutic relevance
+
+- No specific therapeutic strategies targeting DDX3X-mutant HNSCC identified in this study. DDX3X is under investigation as a drug target in other cancer types due to its role in translation regulation.
+
+## Open questions
+
+- Specific mutation types (missense, truncating, splice) in HNSCC were not detailed; whether mutations are loss-of-function or gain-of-function is unclear.
+- The mechanism by which DDX3X mutations contribute to HNSCC via apoptosis suppression remains to be functionally validated.
+
+## Sources
+
+- [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
+
+*This page was processed by **entity-page-writer** on **2026-05-06**.*

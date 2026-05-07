@@ -34,6 +34,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification in 7% of [GBC](../cancer_types/GBC.md) (oncogenic CNA) [PMID:36228155](../papers/36228155.md)
 - MYC was among recurrently amplified oncogenes in prostate cancer identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - MYC amplification at 8q24 was identified as a significant copy-number alteration in HGSOC by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:22037554](../papers/22037554.md)
 
 ## Cancer types (linked)
 
@@ -88,5 +90,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22037554](../papers/22037554.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

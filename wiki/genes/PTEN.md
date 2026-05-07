@@ -33,6 +33,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Frequently deleted and mutated in prostate cancer; identified as a key altered gene in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 - Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
 - Among the most frequently mutated genes in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- PTEN loss-of-function mutations detected in HNSCC whole-exome sequencing (74 tumor-normal pairs, Broad), activating the PI3K pathway [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -90,5 +91,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

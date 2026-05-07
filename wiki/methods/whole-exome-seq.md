@@ -43,6 +43,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used to sequence 10 sporadic PanNETs (Illumina GAIIx with SureSelect capture, mean 101x coverage) in the Johns Hopkins discovery cohort; identified MEN1, DAXX, and ATRX as major driver genes [PMID:21252315](../papers/21252315.md)
 - Applied to 316 HGSOC tumors with matched normals (~180,000 exons, ~18,500 genes) in the TCGA ovarian carcinoma study; TP53 mutated in 96% of sequenced tumors [PMID:21720365](../papers/21720365.md)
 - Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC sequencing study; 113 additional cases sequenced via RNA-seq [PMID:21796119](../papers/21796119.md)
+- Used to sequence 74 HNSCC tumors (150x mean coverage, 87% loci >20x) in the Broad Institute HNSCC study; identified 39 significantly mutated genes including NOTCH1 and TP53 [PMID:21798893](../papers/21798893.md)
+- Used to sequence 32 primary HNSCC tumors with matched normals at JHU (Illumina GAIIx/HiSeq 77x and SOLiD 44x); identified NOTCH1 as the second most frequently mutated gene (15%) with predominantly truncating mutations [PMID:21798897](../papers/21798897.md)
 
 ## Notes
 
@@ -88,5 +90,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

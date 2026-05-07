@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -36,6 +36,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR amplification in 3% of metastatic urothelial carcinoma samples in the UC-GENOME cohort [PMID:36333289](../papers/36333289.md)
 - EGFR assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - EGFR mutation (22/247, 8.9%) independently associated with worse PFS on immunotherapy in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.14, 95% CI 1.06-4.31, P = 0.03) [PMID:36038778](../papers/36038778.md)
+- Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 
 ## Cancer types (linked)
 
@@ -95,3 +97,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

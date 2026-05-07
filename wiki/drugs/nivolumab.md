@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -25,6 +25,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - PD-L1 combined positive score (22C3, CPS <20 vs ≥20) did not predict PFS or [OS](../cancer_types/OS.md) benefit in this reirradiation + nivolumab context, diverging from the recurrent/metastatic HNSCC setting [PMID:38780927](../papers/38780927.md).
 - The ROBIN consortium (ROBIN white paper) identifies nivolumab (PD-1 blockade) as one of the systemic agents being combined with radiation therapy, alongside adenosine-pathway inhibition and antibody-drug conjugates, as a priority direction for radiation-immunotherapy combination trials [PMID:41941260](../papers/41941260.md).
 - Received by 1 metastatic gallbladder carcinoma patient (and 1 patient received ipilimumab/nivolumab combination) among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); 42% (5/12) showed evidence of ICI response [PMID:36228155](../papers/36228155.md)
+- Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
 
 ## Resistance mechanisms
 
@@ -50,3 +51,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

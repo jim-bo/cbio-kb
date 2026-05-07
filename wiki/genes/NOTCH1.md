@@ -3,7 +3,7 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -21,6 +21,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Recurrent SNVs identified by SeqSig analysis in anaplastic thyroid carcinoma (ATC) [PMID:38412093](../papers/38412093.md).
 - Loss-of-function mutations frequent in normal keratinocyte clones; typically early/trunk events in cutaneous squamous cell carcinoma (cSCC) evolution; induce stem/progenitor cell state [PMID:39091884](../papers/39091884.md).
 - NOTCH1 pathway alterations higher in [GBC](../cancer_types/GBC.md) carcinomas with squamous differentiation (26% vs 8% in adenocarcinoma, q=0.07) [PMID:36228155](../papers/36228155.md)
+- Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing; tumor suppressor role proposed (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +52,9 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

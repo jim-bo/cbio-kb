@@ -27,6 +27,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRASG12D acquired clonally in CRC C106-resistant cells; NRASQ61K/R detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - NRAS alterations assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Recurrently mutated in myelodysplastic syndrome (MDS) identified in Tokyo cohort sequencing study alongside STAG2 [PMID:21909114](../papers/21909114.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +74,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21909114](../papers/21909114.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

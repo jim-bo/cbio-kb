@@ -3,8 +3,8 @@ symbol: SETD2
 aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # SETD2
@@ -18,6 +18,7 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - Of 5,957 [LUAD](../cancer_types/LUAD.md) patients in MSK-CHORD, 204 (3%) had SETD2 driver mutations, which predicted longer overall survival and lower rates of CNS metastasis [PMID:39506116](../papers/39506116.md).
 - SETD2 mutation was associated with longer time to next treatment or death following immune checkpoint blockade but not cytotoxic chemotherapy or molecularly targeted therapy; the immunotherapy association held among TMB-low (<10 mut/Mb) patients and replicated in two independent validation cohorts (DFCI and a commercial RWD cohort) [PMID:39506116](../papers/39506116.md).
 - SETD2 mutation was associated with a small but statistically significant increase in TMB (Mann-Whitney P = 2x10^-9) [PMID:39506116](../papers/39506116.md).
+- SETD2 loss-of-function mutations are enriched in ccRCC and associate with a distinct molecular subtype characterized by altered immune infiltration patterns [PMID:22138691](../papers/22138691.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

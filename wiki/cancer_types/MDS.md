@@ -1,0 +1,48 @@
+---
+name: Myelodysplastic Syndromes
+oncotree_code: MDS
+main_type: Myelodysplastic Syndromes
+parent: MNM
+tags:
+  - myeloid
+  - dysplasia
+  - bone-marrow
+  - cohesin
+processed_by: entity-page-writer
+processed_at: 2026-05-06
+---
+
+# Myelodysplastic Syndromes (MDS)
+
+## Overview
+
+Myelodysplastic syndromes (MDS) are a heterogeneous group of clonal hematopoietic stem cell disorders characterized by ineffective hematopoiesis, peripheral cytopenias, and bone marrow dysplasia. MDS sits at level 3 in OncoTree under the myeloid neoplasm with myelodysplastic features (MNM) branch. Diagnosis relies on integration of morphologic dysplasia with molecular profiling; recurrent mutations in spliceosomal, epigenetic, and cohesin complex genes define clinically distinct subtypes.
+
+## Cohorts in the corpus
+
+- Discovery cohort: 80 MDS bone marrows (Brigham and Women's Hospital, 2013–2014) sequenced with a 50-gene targeted panel. [PMID:21909114](../papers/21909114.md)
+- Enrichment cohort: 155 myeloid neoplasms with myelodysplastic features (2014–2018) sequenced with a 95-gene clinical panel, enriched for combinations of [STAG2](../genes/STAG2.md), [RUNX1](../genes/RUNX1.md), [SRSF2](../genes/SRSF2.md), [ASXL1](../genes/ASXL1.md), and [SETBP1](../genes/SETBP1.md) mutations. [PMID:21909114](../papers/21909114.md)
+
+## Recurrent alterations
+
+- [STAG2](../genes/STAG2.md) — somatic loss-of-function mutations; independently associated with separated megakaryocyte nuclei (OR 32.4 discovery, OR 5.54 enrichment; P<0.001), abnormal myeloid nuclear segmentation (OR 3.04; P=0.016), and myeloid cell hypogranulation (OR 6.48; P<0.001) in MDS bone marrows. [PMID:21909114](../papers/21909114.md)
+- [ASXL1](../genes/ASXL1.md) — somatic mutations independently associated with separated megakaryocyte nuclei (enrichment cohort multivariable OR 2.55; P=0.018). [PMID:21909114](../papers/21909114.md)
+- [SF3B1](../genes/SF3B1.md) — mutations associated with ring sideroblasts and erythroid dysplasia. [PMID:21909114](../papers/21909114.md)
+- [TP53](../genes/TP53.md) — mutations associated with erythroid dysplasia. [PMID:21909114](../papers/21909114.md)
+- [SRSF2](../genes/SRSF2.md) — association with megakaryocyte dysplasia confounded by co-mutation with STAG2. [PMID:21909114](../papers/21909114.md)
+- [RUNX1](../genes/RUNX1.md) — mutations associated with megakaryocytic dysplasia in univariate analysis. [PMID:21909114](../papers/21909114.md)
+- [SETBP1](../genes/SETBP1.md) — mutations independently associated with abnormal granulocytic nuclear segmentation (discovery cohort OR 12.2; P=0.042). [PMID:21909114](../papers/21909114.md)
+
+## Subtypes
+
+- Morphologic-molecular subtypes can be partially defined by gene-dysplasia correlations: STAG2/ASXL1 mutations associate with megakaryocytic dysplasia (separated nuclei); [SF3B1](../genes/SF3B1.md) mutations associate with ring sideroblasts; [TP53](../genes/TP53.md) mutations associate with erythroid dysplasia. [PMID:21909114](../papers/21909114.md)
+
+## Therapeutic landscape
+
+No direct therapeutic implications were demonstrated in the corpus studies for MDS to date.
+
+## Sources
+
+- [PMID:21909114](../papers/21909114.md) — STAG2 and ASXL1 mutations correlate with specific bone marrow dysplastic morphology in MDS (Tokyo/BWH cohorts, n=235 total).
+
+*This page was processed by **entity-page-writer** on **2026-05-06**.*

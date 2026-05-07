@@ -22,6 +22,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D is a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers alongside [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in a tumor-agnostic analysis of 212 patients with [BRAF](../genes/BRAF.md) fusions [PMID:38922339](../papers/38922339.md).
 - KMT2D is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort), consistent with TCGA-BLCA [PMID:36333289](../papers/36333289.md)
 - KMT2D was among the most frequently mutated genes in DLBCL and FL, establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
+- Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -3,8 +3,8 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NOTCH2
@@ -16,6 +16,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 ## Alterations observed in the corpus
 
 - Loss-of-function mutations observed in actinic keratosis (AK) lesions; secondary hits to the Notch pathway on phylogenetic branches during AK-to-cSCC evolution [PMID:39091884](../papers/39091884.md).
+- Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - [PMID:39091884](../papers/39091884.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

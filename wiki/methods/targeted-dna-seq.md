@@ -22,6 +22,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:38488813](../papers/38488813.md) — T200.1 targeted sequencing panel (263 genes, 400X) used alongside WGS (30X) and RNA-seq for integrative molecular characterization of 44 prostate cancer PDX models [PMID:38488813](../papers/38488813.md).
 - [PMID:18948947](../papers/18948947.md) — Sequenced all coding exons and splice sites of 623 candidate cancer genes (247 Mb) in 188 primary [LUAD](../cancer_types/LUAD.md) tumours with matched normals, identifying 1,013 non-synonymous somatic mutations and 26 significantly mutated genes [PMID:18948947](../papers/18948947.md).
 - Applied in UC-GENOME study: Agilent SureSelect XT targeting 591 genes on Illumina NextSeq sequenced 191 of 218 metastatic urothelial carcinoma patients; treatment options identified in 69.3% but only 5.0% received targeted therapy [PMID:36333289](../papers/36333289.md)
+- Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 MDS bone marrow samples, linking somatic mutations (STAG2, ASXL1) to morphologic dysplasia features [PMID:21909114](../papers/21909114.md)
 
 ## Notes
 
@@ -37,5 +38,8 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21909114](../papers/21909114.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

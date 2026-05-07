@@ -23,6 +23,7 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - Invoked as the paradigmatic example of genotype-directed sarcoma therapy: recurrent activating [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) mutations in [GIST](../cancer_types/GIST.md) established the [KIT](../genes/KIT.md) → imatinib precedent that motivates subtype-specific targeted therapy across all soft-tissue sarcoma subtypes [PMID:20601955](../papers/20601955.md).
 - SDH-deficient and NF1-related GISTs respond poorly to imatinib; in a cohort of 103 [GIST](../cancer_types/GIST.md) patients with matched tumor-germline sequencing (MSK-IMPACT), 69% of KIT/PDGFRA-wildtype patients harbored germline P/LP variants (SDHA/SDHB/SDHC, [NF1](../genes/NF1.md)) rather than the KIT/PDGFRA targets imatinib acts on, highlighting that germline driver subtype guides TKI selection [PMID:36593350](../papers/36593350.md)
 - KIT mutations identified in melanoma tumors suggest potential sensitivity to imatinib in KIT-mutant cutaneous melanoma [PMID:22622578](../papers/22622578.md)
+- Activating KIT aberrations (V559A mutation, focal amplification) identified in BRAF/NRAS-WT melanoma subset (Broad, n=121); imatinib cited as a tyrosine kinase inhibitor with potential activity in KIT-aberrant melanoma [PMID:22817889](../papers/22817889.md)
 
 ## Resistance mechanisms
 
@@ -41,5 +42,8 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

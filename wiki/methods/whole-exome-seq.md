@@ -53,6 +53,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used for WES of 100 breast cancer tumors in the Sanger cohort (brca_sanger), identifying ~40 driver genes [PMID:22722201](../papers/22722201.md)
 - Used for WES of 103 breast cancer tumors in the Broad cohort (brca_broad), identifying PIK3CA mutations and MAGI3-AKT3 fusions [PMID:22722202](../papers/22722202.md)
 - Used for WES of 112 prostate cancer tumors in the Michigan cohort (prad_mich), identifying ETS fusions and SPOP mutations [PMID:22722839](../papers/22722839.md)
+- 224 of 276 TCGA colorectal carcinoma tumor/normal pairs analyzed by whole-exome sequencing at median 103-fold coverage; identified 24 significantly mutated genes [PMID:22810696](../papers/22810696.md)
+- 121 melanoma tumor/normal pairs (Broad) analyzed by whole-exome sequencing with solution-phase hybrid capture at 103-fold mean target coverage; identified 6 novel melanoma driver genes [PMID:22817889](../papers/22817889.md)
+- 92 medulloblastoma tumor/normal pairs (Broad) sequenced by whole-exome hybrid capture covering 193,094 exons from 18,863 genes at median 106X coverage [PMID:22820256](../papers/22820256.md)
+- 21 pediatric medulloblastoma pairs (ICGC) analyzed by whole-exome sequencing at 68-fold on-target mean coverage; complemented by WGS (n=39) and custom-capture replication set (n=65) [PMID:22832583](../papers/22832583.md)
+- 147 melanoma tumor/normal pairs (Yale) analyzed by whole-exome sequencing (Roche/NimbleGen SeqCap EZ, 22.4 Mb capture, Illumina GAIIx/HiSeq 2000); discovery cohort for RAC1 P29S and PPP6C [PMID:22842228](../papers/22842228.md)
 
 ## Notes
 
@@ -128,5 +133,20 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722839](../papers/22722839.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

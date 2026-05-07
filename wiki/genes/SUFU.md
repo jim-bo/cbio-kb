@@ -3,7 +3,7 @@ symbol: SUFU
 aliases: []
 cancer_types: [MBL]
 tags: [SHH-pathway, tumor-suppressor, hedgehog, medulloblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,8 @@ SUFU (Suppressor of Fused) is a negative regulator of the Hedgehog (HH) signalin
 ## Alterations observed in the corpus
 
 - Biallelic inactivation of SUFU identified as an expected SHH-pathway driver in medulloblastoma WGS (PCGP cohort, 37 tumors); mutations cluster in the SHH molecular subgroup [PMID:22722829](../papers/22722829.md)
+- Recurrently mutated in medulloblastoma WES cohort (92 tumors, Broad); SUFU loss-of-function mutations identified as a driver in SHH-subgroup medulloblastoma [PMID:22820256](../papers/22820256.md)
+- Significantly mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); SUFU inactivation in the Hedgehog pathway implicated in SHH-subgroup medulloblastoma [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ SUFU (Suppressor of Fused) is a negative regulator of the Hedgehog (HH) signalin
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

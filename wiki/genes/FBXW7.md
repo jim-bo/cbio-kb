@@ -20,6 +20,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Co-occurs with [TP53](../genes/TP53.md) mutations in serous/carcinosarcoma endometrial carcinomas [PMID:37651310](../papers/37651310.md).
 - SNV detected in ctDNA at relapse in a fusion-negative rhabdomyosarcoma (FN-RMS) patient [PMID:37730754](../papers/37730754.md).
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
+- Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
+- Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +51,11 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

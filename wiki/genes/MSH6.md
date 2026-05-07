@@ -24,6 +24,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MMR gene alterations ([MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), MSH6, [PMS2](../genes/PMS2.md)) identified as Lynch syndrome in 17/2,336 PDAC patients (0.7%); 6/17 were MSI-H. [PMID:39753968](../papers/39753968.md)
 - MSH6 alterations were identified among recurrent genomic changes in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - MSH6 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating mismatch repair deficiency [PMID:22610119](../papers/22610119.md)
+- Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

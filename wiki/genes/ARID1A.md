@@ -33,6 +33,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A mutation not significantly associated with immunotherapy outcomes in advanced [NSCLC](../cancer_types/NSCLC.md) (P = 0.44) [PMID:36038778](../papers/36038778.md)
 - ARID1A loss-of-function mutations sensitize ovarian cancer cells to BET bromodomain inhibition (JQ1), establishing a synthetic lethal relationship exploitable therapeutically [PMID:22037554](../papers/22037554.md)
 - ARID1A truncating mutations identified in breast cancer WES of 100 tumors as a recurrent driver [PMID:22722201](../papers/22722201.md)
+- ARID1A is recurrently mutated in colorectal adenocarcinoma among 276 TCGA CRC tumors, implicating SWI/SNF chromatin remodeling complex disruption in CRC pathogenesis [PMID:22810696](../papers/22810696.md)
+- ARID1A is identified as a significantly mutated gene in melanoma WES of 121 tumors (Broad cohort), expanding its known role beyond gynecologic cancers to cutaneous melanoma [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +89,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

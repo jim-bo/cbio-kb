@@ -35,6 +35,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 mutations (T676P, R2637*) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Driver mutations identified in breast cancer WES (100 tumors, Sanger cohort); NF1 classified among known cancer gene drivers from other tumour types observed in breast cancer [PMID:22722201](../papers/22722201.md)
+- Loss-of-function mutations in 25% of BRAF/NRAS wild-type melanomas vs 2% of BRAF/NRAS-mutant (p=5.8e-3); identified by InVEx as significantly mutated gene in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
+- Inactivating mutations in 30% of BRAF/NRAS wild-type sun-exposed melanomas in 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 
 ## Cancer types (linked)
 
@@ -99,5 +101,11 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

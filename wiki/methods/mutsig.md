@@ -20,6 +20,9 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Applied to 55 DLBCL WES samples in the [dlbc_broad_2012](../datasets/dlbc_broad_2012.md) cohort; identified 58 significantly mutated genes at FDR q <= 0.1, with a 97.9% validation rate by targeted resequencing [PMID:22343534](../papers/22343534.md).
 - MutSig applied to identify statistically significant driver genes (SPOP, FOXA1, MED12) in 112 prostate adenocarcinoma WES samples [PMID:22610119](../papers/22610119.md)
 - Applied to 103 breast cancer tumor WES data (Broad cohort, brca_broad) to identify significantly mutated genes including PIK3CA, TP53, and AKT1 [PMID:22722202](../papers/22722202.md)
+- MutSig applied to somatic mutation data from 224 TCGA colorectal carcinoma exomes to identify 24 significantly mutated genes including novel candidates ARID1A, SOX9, AMER1 [PMID:22810696](../papers/22810696.md)
+- InVEx permutation framework (related to MutSig) applied to 121 melanoma exomes; leverages intronic mutation rates to control for high UV-induced mutation background; identified 11 significantly mutated genes [PMID:22817889](../papers/22817889.md)
+- MutSig applied to 92 medulloblastoma exomes (Broad) to identify 12 significantly mutated genes (q<0.1) including novel candidates DDX3X, GPS2, BCOR, LDB1 [PMID:22820256](../papers/22820256.md)
 
 ## Notes
 
@@ -37,5 +40,14 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

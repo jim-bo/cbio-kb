@@ -25,6 +25,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - In the AURORA US Metastasis Project (n=55 metastatic breast cancer), one participant (AFE4) exhibited loss of [ERBB2](../genes/ERBB2.md) amplification under trastuzumab selective pressure — the HER2 amplification present at primary diagnosis was absent in the metastatic biopsy, representing a genomic resistance event to HER2-targeted therapy [PMID:36585450](../papers/36585450.md)
 - 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); ERBB2 amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
 - METABRIC identified ERBB2-amplified IntClust5 subtype (~15% of tumors) as the primary trastuzumab-relevant subgroup in breast cancer [PMID:22522925](../papers/22522925.md)
+- ERBB2 amplification at 17q21.1 identified in 4% of colorectal carcinomas (TCGA, n=276); trastuzumab cited as a potential therapeutic based on precedent in ERBB2-amplified breast and gastric cancers [PMID:22810696](../papers/22810696.md)
 
 ## Resistance mechanisms
 
@@ -51,5 +52,8 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -23,6 +23,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE exonuclease-domain mutations (e.g. V411L) explain discordant MiMSI MSI calls in pan-cancer NGS data: two MiMSI false-negatives had POLE-deficient mutational signatures plus high TMB; one false-positive (Sample_54409, colon adenocarcinoma) attributed 72% of mutations to POLE deficiency. MiMSI can flag MMR phenotype even when co-occurring with POLE-driven hypermutation. [PMID:39746944](../papers/39746944.md)
 - p.E830G missense mutation in a myoepithelial carcinoma patient (Patient 2) [PMID:36577525](../papers/36577525.md)
 - POLE assessed in metastatic UC (UC-GENOME cohort) in the context of tumor mutational burden and DNA repair pathway analysis [PMID:36333289](../papers/36333289.md)
+- Somatic mutations in the ultramutated subset of colorectal tumors lacking MSI-H; defines a distinct hypermutation mechanism in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

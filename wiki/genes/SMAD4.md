@@ -24,6 +24,7 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - SMAD4 LOF mutations (19%) and deletions (5%) in [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 2.17, 95% CI 1.21-3.89; multivariate HR 2.11, p=0.012) [PMID:36228155](../papers/36228155.md)
 - Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors [PMID:22722201](../papers/22722201.md)
+- Significantly mutated in TCGA colorectal cancer cohort (276 tumors); SMAD4 inactivation observed as a key TGF-beta pathway alteration in colorectal adenocarcinoma [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

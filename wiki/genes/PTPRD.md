@@ -3,8 +3,8 @@ symbol: PTPRD
 aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # PTPRD
@@ -17,6 +17,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 
 - Mutations and deletions in 25% of RT-MPNST vs 5% of sporadic [MPNST](../cancer_types/MPNST.md), indicating significant enrichment in radiation-associated malignant peripheral nerve sheath tumors [PMID:37350195](../papers/37350195.md).
 - Frequently mutated and previously shown deleted in [LUAD](../cancer_types/LUAD.md); co-mutates with [PIK3C3](../genes/PIK3C3.md) in the TSP cohort (n=188). [PMID:18948947](../papers/18948947.md)
+- 27 mutations in 17 tumors across protein tyrosine phosphatase receptor domains in the 147-tumor Yale melanoma WES cohort [PMID:22842228](../papers/22842228.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

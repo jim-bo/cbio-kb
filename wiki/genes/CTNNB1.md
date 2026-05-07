@@ -33,6 +33,10 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt/beta-catenin pathway activation [PMID:22158988](../papers/22158988.md)
 - HBx destabilizes beta-catenin regulation through GSK3B degradation; Wnt/beta-catenin pathway activated by both HBx and MHBst proteins in HBV-related HCC [PMID:22634756](../papers/22634756.md)
 - Recurrently mutated in medulloblastoma WGS cohort (PCGP, 37 tumors), highlighting Wnt pathway activation as a driver in pediatric brain tumors [PMID:22722829](../papers/22722829.md)
+- CTNNB1 mutations are observed in the Broad melanoma WES cohort of 121 tumors, present in a subset of tumors with active Wnt/beta-catenin signaling [PMID:22817889](../papers/22817889.md)
+- CTNNB1 activating mutations are detected in colorectal adenocarcinoma among 276 TCGA CRC tumors, representing an alternative mechanism of Wnt pathway activation in APC-wild-type tumors [PMID:22810696](../papers/22810696.md)
+- CTNNB1 mutations are the hallmark alteration of the WNT subgroup of medulloblastoma, enriched in WES of 92 tumors (Broad cohort), defining a subgroup with favorable prognosis [PMID:22820256](../papers/22820256.md)
+- CTNNB1 mutations define the WNT subgroup of medulloblastoma in ICGC WGS/WES of 76 tumors, consistently accompanied by monosomy 6 and showing excellent clinical outcomes [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +82,17 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

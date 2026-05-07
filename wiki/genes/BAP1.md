@@ -26,6 +26,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - BAP1 loss-of-function mutations identified as a molecular subtype-defining event in clear cell renal cell carcinoma (ccRCC) with implications for immunotherapy response prediction [PMID:22138691](../papers/22138691.md)
 - BAP1 mutations identified in breast cancer WES of 100 tumors, implicating deubiquitinase-mediated chromatin regulation in breast cancer [PMID:22722201](../papers/22722201.md)
+- BAP1 is recurrently mutated in the Yale melanoma WES cohort of 147 tumors, suggesting a role for this ubiquitin carboxyl-terminal hydrolase and tumor suppressor in cutaneous melanoma [PMID:22842228](../papers/22842228.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

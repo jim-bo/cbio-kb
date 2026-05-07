@@ -41,6 +41,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Mutated in >10% of cases in breast cancer WES (100 tumors, Sanger cohort); identified as a high-frequency driver gene [PMID:22722201](../papers/22722201.md)
 - Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations (KDM6A, CHD7, ZMYM3) [PMID:22722829](../papers/22722829.md)
 - Transcriptional activator of the miR-17-92 cluster; expression correlated (r = 0.61) with miR-18a across NCI-60 cell lines in CellMiner pharmacogenomics platform analysis [PMID:22802077](../papers/22802077.md)
+- Amplification at 8q24 in colorectal cancer (276-tumor TCGA CRC cohort); transcriptional targets universally altered per PARADIGM pathway analysis [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -116,5 +117,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

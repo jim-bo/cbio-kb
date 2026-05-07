@@ -5,8 +5,8 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # dabrafenib
@@ -19,6 +19,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 
 - Used (with [vemurafenib](../drugs/vemurafenib.md)) in 8 histiocytosis patients with [BRAF](../genes/BRAF.md) V600E identified through the Make-an-IMPACT direct-to-patient profiling program; matched RAF/MEK therapy yielded clinical benefit in 17/18 histiocytosis patients (mean duration 21.7 months) [PMID:36862133](../papers/36862133.md).
 - Dabrafenib ([BRAF](../genes/BRAF.md) inhibitor) was among MAPK-pathway directed therapies evaluated in [BRAF](../genes/BRAF.md) fusion-positive tumors (N=241, 52 histologies at MSK); combination BRAF+MEK inhibition was less durable (median 1 month) than MEK inhibitor monotherapy (median 8 months) across all treated patients [PMID:38922339](../papers/38922339.md).
+- BRAF V600-mutant cutaneous melanomas (Yale, n=147); dabrafenib cited alongside vemurafenib as an established BRAF-targeted therapy with clinical benefit in BRAF-mutant melanoma [PMID:22842228](../papers/22842228.md)
 
 ## Resistance mechanisms
 
@@ -34,3 +35,6 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

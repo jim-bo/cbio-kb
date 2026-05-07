@@ -17,6 +17,7 @@ NCOR2 (Nuclear Receptor Corepressor 2, also known as SMRT) encodes a transcripti
 
 - Recurrent alterations in fusion-positive rhabdomyosarcoma (FP-RMS) identified in a sequential multi-platform genomic study of 35 tumor pairs from 27 patients [PMID:37730754](../papers/37730754.md).
 - Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
+- Nonsense mutation identified in SHH-subgroup medulloblastoma in WES of 92 tumors (Broad cohort); component of the nuclear co-repressor complex [PMID:22820256](../papers/22820256.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ NCOR2 (Nuclear Receptor Corepressor 2, also known as SMRT) encodes a transcripti
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

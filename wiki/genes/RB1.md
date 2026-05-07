@@ -36,6 +36,7 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated HCC [PMID:22634756](../papers/22634756.md)
 - Previously known breast cancer driver gene confirmed by WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
 - Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
+- Identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); RB1 loss-of-function mutations detected among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -103,5 +104,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722839](../papers/22722839.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

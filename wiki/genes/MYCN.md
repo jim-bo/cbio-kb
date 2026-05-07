@@ -22,6 +22,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - RNAscope ISH in a MYCN-amplified high-risk tumor (K10) showed MYCN co-expressed with [ALK](../genes/ALK.md) and [NTRK2](../genes/NTRK2.md) in discrete intratumoral regions, illustrating spatial heterogeneity at the single-cell level [PMID:34493726](../papers/34493726.md).
 - MYCN amplification was a central focus of neuroblastoma proteomics profiling by LC-MS/MS, revealing downstream protein-level consequences of MYCN-driven transcriptional programs [PMID:22367537](../papers/22367537.md)
 - Amplification (including via chromothripsis) in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); co-occurs with OTX2 amplification [PMID:22722829](../papers/22722829.md)
+- Amplified in 5 SHH-subgroup medulloblastoma cases in WGS/WES of 125 tumors (ICGC cohort) [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

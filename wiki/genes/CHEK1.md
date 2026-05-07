@@ -3,7 +3,7 @@ symbol: CHEK1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 ## Alterations observed in the corpus
 
 - Synthetic lethal interactor of FBXO7; CHEK1 inhibition via siRNA or [prexasertib](../drugs/prexasertib.md) preferentially kills FBXO7-deficient CRC cells; central to replication stress response and DDR checkpoint control [PMID:36334560](../papers/36334560.md)
+- CHEK1 identified in functional genomics screen as relevant to DNA damage response in ARID1A-mutant ovarian cancer cells treated with BET bromodomain inhibitors [PMID:22037554](../papers/22037554.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CHEK1 (Checkpoint Kinase 1) is a central regulator of the DNA damage response (D
 - [PMID:36334560](../papers/36334560.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

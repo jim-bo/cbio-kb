@@ -25,6 +25,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 alterations enriched after prior therapy in hormone-receptor-positive [BRCA](../cancer_types/BRCA.md) patients, confirming the endocrine-resistance signature, in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 - Identified as mutated/amplified in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member; part of CDK4/6-CCND1 axis disrupted alongside CDKN2A/B loss. [PMID:18948947](../papers/18948947.md)
 - CCND1 amplification in 10% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- CCND1 amplification detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
+- CCND1 amplification recurrently observed in HNSCC by whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +56,11 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -5,7 +5,7 @@ drug_class: PD-L1 inhibitor (immune checkpoint inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint_inhibitor, pd-l1]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -18,6 +18,7 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 ## Evidence in the corpus
 
 - 1 metastatic gallbladder carcinoma patient received atezolizumab among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); overall 42% (5/12) ICI-treated patients showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
+- Patients with ICI-high/TKI-low scores had significant PFS benefit from atezolizumab+bevacizumab vs. sunitinib in IMmotion151 (p=0.0003); the HiTME model classified 56% of ccRCC patients as ICI/ICI-combo-preferred [PMID:22138691](../papers/22138691.md)
 
 ## Resistance mechanisms
 
@@ -30,3 +31,6 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

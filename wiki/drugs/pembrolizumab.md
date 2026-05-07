@@ -30,6 +30,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
 - In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and EZH2 inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
 - 9 of 12 metastatic gallbladder carcinoma patients receiving immune checkpoint inhibitors received pembrolizumab; 42% (5/12) showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
+- Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
 
 ## Resistance mechanisms
 
@@ -64,5 +65,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36228155](../papers/36228155.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

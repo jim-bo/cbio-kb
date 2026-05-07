@@ -4,8 +4,8 @@ oncotree_code: SCLC
 main_type: Small Cell Lung Cancer
 parent: LNET
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Small Cell Lung Cancer (SCLC)
@@ -21,6 +21,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 ## Recurrent alterations
 
 - This corpus study does not provide gene-level SCLC mutation frequencies from primary clinical cohorts. The ATLAS classifier uses ~632 RNA expression features for classification rather than genomic alteration profiles.
+- BET bromodomain inhibition showed synthetic lethality in ARID1A-mutant cancers including SCLC cell lines [PMID:22037554](../papers/22037554.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

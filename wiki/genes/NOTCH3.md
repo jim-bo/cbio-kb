@@ -3,8 +3,8 @@ symbol: NOTCH3
 aliases: []
 cancer_types: [MFH]
 tags: [notch-signaling]
-processed_by: entity-page-writer
-processed_at: 2026-04-10
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NOTCH3
@@ -16,6 +16,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 ## Alterations observed in the corpus
 
 - Missense mutations in 14% of RT-UPS vs 4% of sporadic UPS, indicating enrichment in radiation-associated undifferentiated pleomorphic sarcoma [PMID:37350195](../papers/37350195.md).
+- Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - [PMID:37350195](../papers/37350195.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-10**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

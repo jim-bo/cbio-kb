@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 canonical_source: cbioportal
 unverified: false
 ---
@@ -18,6 +18,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 ## Alterations observed in the corpus
 
 - PBRM1 and [ARID2](../genes/ARID2.md) (SWI/SNF complex members) were mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); no significant difference in mutation rates was observed between responders and non-responders [PMID:38653864](../papers/38653864.md).
+- Loss-of-function mutations in PBRM1 define a molecular subtype of ccRCC associated with distinct immune infiltration and immunotherapy response patterns [PMID:22138691](../papers/22138691.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - [PMID:38653864](../papers/38653864.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

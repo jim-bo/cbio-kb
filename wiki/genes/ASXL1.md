@@ -3,8 +3,8 @@ symbol: ASXL1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # ASXL1
@@ -18,6 +18,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - Known lower-frequency CLL driver reconfirmed as prognostic in IGHV-unmutated CLL (U-CLL) in the integrated 1,148-patient CLL map [PMID:35927489](../papers/35927489.md).
 - ASXL1 is a prevalent clonal hematopoiesis driver in MSK patients with nonhematologic cancer, used as a reference CH genotype in a 42,714-patient analysis [PMID:38147626](../papers/38147626.md).
 - ASXL1 and [MSH3](../genes/MSH3.md) identified as shared putative oncogenic mutations in an exceptional responder case of MSI-H/dMMR prostate cancer, highlighting clonal relatedness of serial tumors across primary and metastatic specimens [PMID:38949888](../papers/38949888.md).
+- ASXL1 recurrently mutated in myelodysplastic syndrome (MDS) in a Tokyo cohort study identifying recurrent STAG2 and co-occurring epigenetic regulator mutations [PMID:21909114](../papers/21909114.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:38949888](../papers/38949888.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:21909114](../papers/21909114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -42,6 +42,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the p53 pathway (as *p14ARF*, 49% altered) and RB pathway (as *p16INK4A*) [PMID:18772890](../papers/18772890.md).
 - 9 mutations plus frequent focal deletions identified in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort). [PMID:18948947](../papers/18948947.md)
 - CDKN2A deletions in 14% and mutations in 9% of [GBC](../cancer_types/GBC.md); part of frequent oncogenic CNAs [PMID:36228155](../papers/36228155.md)
+- CDKN2A deletion/loss detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
+- CDKN2A deletion recurrently observed in HNSCC by whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 
 ## Cancer types (linked)
 
@@ -116,3 +118,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

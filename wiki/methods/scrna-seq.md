@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Single-cell RNA sequencing (scRNA-seq)
@@ -22,6 +22,7 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:27806376](../papers/27806376.md) — plate-based Smart-Seq2 scRNA-seq on 4,347 FACS-sorted live single cells from 6 untreated IDH-mutant, 1p/19q co-deleted oligodendrogliomas (MGH36/53/54/60/93/97); identified three transcriptional states (oligodendrocytic, astrocytic, stem/progenitor) constituting a developmental hierarchy conserved across genetic subclones [PMID:27806376](../papers/27806376.md).
 - [PMID:34493726](../papers/34493726.md) — Smart-Seq2 scRNA-seq and snRNA-seq (nuc-Seq) on 11 neuroblastoma tumors (4,224 nuclei) and 3 postnatal human adrenal glands (1,536 nuclei); identified an undifferentiated nC3 cluster in high-risk tumors transcriptionally resembling a novel postnatal human cholinergic progenitor (hC1), distinguishing high- from low-risk disease [PMID:34493726](../papers/34493726.md).
 - Applied to 156 multi-site [HGSOC](../cancer_types/HGSOC.md) biopsy samples (~930k cells total) from 42 treatment-naive patients; resolved site-specific T cell phenotypic states: adnexal sites enriched for dysfunctional CD8+ T cells, non-adnexal/metastatic sites enriched for naive/memory T cells [PMID:36517593](../papers/36517593.md)
+- Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study [PMID:22138691](../papers/22138691.md)
 
 ## Notes
 
@@ -41,3 +42,6 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -135,6 +135,9 @@
 - method: rnascope-ish — observed in PMID:34493726 — note: RNAscope multiplex fluorescent in situ hybridization for spatial validation of snRNA-seq findings in neuroblastoma and adrenal gland
 - method: imrt-reirradiation — observed in PMID:38780927 — note: intensity-modulated reirradiation therapy (IMRT) combined with nivolumab in NCT03521570 recurrent/second primary HNSCC trial
 - method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
+- drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); synthetic lethal with ARID1A loss in SCLC; r=0.368 correlation with ARID1A expression IC50
+- drug: brd-k98645985 — observed in PMID:22037554 — note: BAF complex inhibitor targeting ARID1A-containing SWI/SNF; Bliss synergy with JQ1 in SCLC xenografts
+- drug: axitinib — observed in PMID:22138691 — note: selective VEGFR1/2/3 TKI; used in JAVELIN Renal 101 avelumab+axitinib combination for ccRCC
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
@@ -203,3 +206,5 @@
 - method: single-cell-dna-seq — observed in PMID:36355783 — note: Mission Bio Tapestri single-cell DNA sequencing on C106 resistant CRC cells (317 amplicons, 54 genes)
 - drug: entrectinib — observed in PMID:36228155 — note: FDA-approved TRK/ROS1/ALK inhibitor; NTRK1 fusions (LMNA::NTRK1) in GBC are OncoKB level 1 biomarker; not found in local ontology
 - drug: atezolizumab — observed in PMID:36228155 — note: anti-PD-L1 checkpoint inhibitor; 1 GBC patient in MSK cohort (n=233) received atezolizumab; not found in local ontology
+- drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); targets BRD4; enhances cytotoxicity in ARID1A-deficient SCLC cells; synergizes with BRD-K98645985
+- drug: brd-k98645985 — observed in PMID:22037554 — note: 12-membered macrolactam compound selectively targeting the ARID1A-containing BAF complex; potent single-agent and JQ1-synergistic antitumor activity in SCLC

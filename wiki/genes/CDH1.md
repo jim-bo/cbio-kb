@@ -7,8 +7,8 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-03
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # CDH1
@@ -21,6 +21,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 - Mutations enriched in early-onset esophagogastric cancer (12% vs. 6% in average-onset, P=0.004, Q=0.03), consistent with the enrichment of signet ring cell/diffuse-type histology in younger patients [PMID:37699004](../papers/37699004.md).
 - One CDH1 mutation found upon resequencing in dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)) as part of a 722-gene targeted panel applied to 207 high-grade soft tissue sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)); functional impact was not established [PMID:20601955](../papers/20601955.md).
+- CDH1 somatic mutations identified in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:20601955](../papers/20601955.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-03**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

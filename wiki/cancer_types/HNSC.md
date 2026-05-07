@@ -35,6 +35,8 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - [EGFR](../genes/EGFR.md) surface expression (not mutation status) gates C-MMAE binding and radiosensitization in HNSC cell lines (CAL-27, SCC-61, SCC-35, SQ-9G). [PMID:27698471](../papers/27698471.md)
 - Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year OS prediction (winning MTLR model AUROC = 0.823 on internal test). [PMID:37397861](../papers/37397861.md)
 - HNSC genomic data made available through the cBioPortal for Cancer Genomics platform, enabling interactive exploration of somatic alterations [PMID:19176454](../papers/19176454.md)
+- Whole-exome sequencing of 74 HNSCC tumors identified NOTCH1, TP53, and CDKN2A as top drivers, with NOTCH1 mutated in ~15% of cases [PMID:21798893](../papers/21798893.md)
+- Whole-exome sequencing of 32 primary HNSCC tumors (JHU) identified recurrent NOTCH1 inactivating mutations as a major driver event [PMID:21798897](../papers/21798897.md)
 
 ## Subtypes
 
@@ -64,5 +66,11 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:19176454](../papers/19176454.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

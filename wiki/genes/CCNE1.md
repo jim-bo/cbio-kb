@@ -33,6 +33,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - CCNE1 amplification in 2% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - CCNE1 amplification in 9% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
 - Found focally amplified in ~20% of HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- CCNE1 amplification detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +78,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

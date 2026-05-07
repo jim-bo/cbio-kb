@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -31,6 +31,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - ARID1A LOF mutations in 18% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
 - ARID1A mutation not significantly associated with immunotherapy outcomes in advanced [NSCLC](../cancer_types/NSCLC.md) (P = 0.44) [PMID:36038778](../papers/36038778.md)
+- ARID1A loss-of-function mutations sensitize ovarian cancer cells to BET bromodomain inhibition (JQ1), establishing a synthetic lethal relationship exploitable therapeutically [PMID:22037554](../papers/22037554.md)
 
 ## Cancer types (linked)
 
@@ -81,3 +82,6 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -3,8 +3,8 @@ symbol: NF2
 aliases: []
 cancer_types: [MNG, PLMESO]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NF2
@@ -17,6 +17,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 
 - Point mutations plus chromosome 22q loss causing biallelic inactivation; near-universal in MG1 meningioma molecular group (88%); rare in MG2 (9%); some NF2-wildtype MG3/MG4 showed expression silencing without methylation changes in an integrative molecular study of 983 meningiomas [PMID:34433969](../papers/34433969.md).
 - Altered in 90% of genomic near-haploidization (GNH) diffuse pleural mesotheliomas (DPMs), but this association is confounded by biphasic histology enrichment in the GNH subset [PMID:38630790](../papers/38630790.md).
+- Recurrently mutated in clear cell renal cell carcinoma (ccRCC) identified by TCGA KIRC molecular subtyping study [PMID:22138691](../papers/22138691.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - [PMID:38630790](../papers/38630790.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

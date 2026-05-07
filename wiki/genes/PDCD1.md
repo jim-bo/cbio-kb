@@ -3,8 +3,8 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # PDCD1
@@ -19,6 +19,7 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - Target of [nivolumab](../drugs/nivolumab.md); surface expression measured on peripheral blood T cells by multiparameter flow cytometry (22C3 pharmDx assay) in a phase 2 IMRT reirradiation trial (NCT03521570, n=51) in recurrent/second primary [HNSC](../cancer_types/HNSC.md). Co-expression of PDCD1 (PD-1) with [MKI67](../genes/MKI67.md) (Ki-67) on [CD4](../genes/CD4.md)+ T cells was used as a pharmacodynamic biomarker; ≥1.5-fold increase from baseline at week 2 or 4 trended with worse PFS (HR 2.09, 95% CI 0.77–5.66, P = .14; median PFS 16.0 vs. 27.1 months). [PMID:38780927](../papers/38780927.md)
 - PDCD1 (PD1) progressively upregulated on CD8+ T cells from the STIC.I stage onward in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursors; activation markers (Ki67+ or PD1+) rise from 11% in p53.I to 25–43% in STIC.I/STIC.C/cancer; exhaustion markers ([LAG3](../genes/LAG3.md)+ or PD1+[LAG3](../genes/LAG3.md)+) increase 3- to 7-fold; PDCD1 listed alongside [LAG3](../genes/LAG3.md), [HAVCR2](../genes/HAVCR2.md) (TIM3), and [CTLA4](../genes/CTLA4.md) as exhaustion/checkpoint markers in this 44-specimen [HGSOC](../cancer_types/HGSOC.md) spatial atlas. [PMID:39386723](../papers/39386723.md)
 - PD-1; marks antigen-experienced T cells in [HGSOC](../cancer_types/HGSOC.md); higher co-expression with [CD274](../genes/CD274.md) in HRD subtypes [PMID:36517593](../papers/36517593.md)
+- PDCD1 (PD-1) expression on tumor-infiltrating lymphocytes is elevated in PBRM1-mutant ccRCC tumors with high immune cell infiltration, supporting use as an immunotherapy biomarker [PMID:22138691](../papers/22138691.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:36517593](../papers/36517593.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

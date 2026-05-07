@@ -8,7 +8,7 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -24,6 +24,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 deletions detected in 2/17 FN-RMS (fusion-negative rhabdomyosarcoma) patients exclusively at relapse, identified by ctDNA liquid biopsy in a multi-sample genomic analysis (n=35 tumor pairs) [PMID:37730754](../papers/37730754.md).
 - One BRCA1/2 wild-type, MAPK-WT [PAAD](../cancer_types/PAAD.md) tumor harboring a BAP1 loss-of-function fusion received durable PARPi benefit in the MSK PDAC genomic cohort (n=2,336 tumors); BAP1 loss may confer HRD-like sensitivity to PARP inhibitors [PMID:39753968](../papers/39753968.md).
 - BAP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
+- BAP1 loss-of-function mutations identified as a molecular subtype-defining event in clear cell renal cell carcinoma (ccRCC) with implications for immunotherapy response prediction [PMID:22138691](../papers/22138691.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

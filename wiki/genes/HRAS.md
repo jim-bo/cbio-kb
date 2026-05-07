@@ -3,8 +3,8 @@ symbol: HRAS
 aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # HRAS
@@ -18,6 +18,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Missense and in-frame insertion/deletion mutations in 14% of RT-[ANGS](../cancer_types/ANGS.md) vs 2% of sporadic AS; all hotspot mutations at the Ras GTPase domain (A59T, Q61R/L) [PMID:37350195](../papers/37350195.md).
 - Co-occurs with [MYC](../genes/MYC.md) amplification, [FLT4](../genes/FLT4.md), [CRKL](../genes/CRKL.md), and [KMT2D](../genes/KMT2D.md) alterations in breast/chest wall RT-AS [PMID:37350195](../papers/37350195.md).
 - RAS/PIK3CA pathway alterations (including HRAS, along with [PIK3CA](../genes/PIK3CA.md), [NRAS](../genes/NRAS.md), [KRAS](../genes/KRAS.md)) found in 5/17 fusion-negative rhabdomyosarcoma (FN-RMS) patients in a study of 35 tumor pairs [PMID:37730754](../papers/37730754.md).
+- Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +48,9 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:37730754](../papers/37730754.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

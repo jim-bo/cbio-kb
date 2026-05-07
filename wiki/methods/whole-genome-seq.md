@@ -29,6 +29,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to primary tumors from 2 MEC patients (Patient 1: 29x tumor/25x normal; Patient 2: 22x tumor/15x normal; GRCh37/hg19); revealed >30-way biallelic chromoplexy event in MEC1 and double-minute [ELK4](../genes/ELK4.md) amplification in MEC2 [PMID:36577525](../papers/36577525.md)
 - Applied to 40 treatment-naive [HGSOC](../cancer_types/HGSOC.md) tumor-normal pairs; mutational signature inference classified tumours into HRD-Dup (n=16), HRD-Del (n=6), and FBI (n=14) subtypes [PMID:36517593](../papers/36517593.md)
 - Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC study; identified 109 recurrently mutated genes including KMT2D and MEF2B as major histone-modifier drivers [PMID:21796119](../papers/21796119.md)
+- Two HNSCC tumors underwent whole-genome sequencing at 31x mean coverage in the Broad HNSCC study, complementing whole-exome sequencing of 74 tumors [PMID:21798893](../papers/21798893.md)
 
 ## Notes
 
@@ -57,5 +58,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

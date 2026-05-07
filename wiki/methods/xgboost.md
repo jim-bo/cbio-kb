@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [machine-learning, gradient-boosting, classification, computational]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # XGBoost
@@ -18,6 +18,7 @@ XGBoost (eXtreme Gradient Boosting) is a gradient-boosted decision tree machine 
 ## Used by
 
 - [PMID:27634761](../papers/27634761.md) — XGBoost was used as the core machine learning framework for the ATLAS (AI Tumor Lineage and Site) classifier; trained on 8,249 RNA-seq samples from TCGA and CCLE to classify 22 cancer sites of origin and 8 cancer lineages; achieved 91.4% site-of-origin accuracy and 97.1% lineage accuracy on a validation set of 10,376 samples; high-confidence predictions (score >= 0.99) achieved 98–99% accuracy [PMID:27634761](../papers/27634761.md).
+- Gradient boosting (XGBoost-class) model trained to predict ICI response (ROC-AUC=0.77 training, 0.78 JAVELIN validation) and TKI response (ROC-AUC=0.74 validation, n=822) in ccRCC, outperforming all published single-biomarker signatures [PMID:22138691](../papers/22138691.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ XGBoost (eXtreme Gradient Boosting) is a gradient-boosted decision tree machine 
 - [PMID:27634761](../papers/27634761.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

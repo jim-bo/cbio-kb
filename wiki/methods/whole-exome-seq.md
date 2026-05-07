@@ -48,6 +48,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 102 breast cancer samples to discover recurrent SF3B1 mutations and characterize the somatic mutational landscape [PMID:22158541](../papers/22158541.md)
 - Applied to 19 pancreatic cystic neoplasms to identify somatic mutations in VHL, RNF43, and GNAS across IPMN, MCN, and SPN subtypes [PMID:22158988](../papers/22158988.md)
 - Applied to 55 DLBCL tumors at the Broad Institute to identify recurrently mutated genes via MutSig analysis [PMID:22343534](../papers/22343534.md)
+- WES complemented WGS in characterizing somatic coding mutations in 65 BCCRC breast tumors [PMID:22495314](../papers/22495314.md)
+- WES of 112 prostate adenocarcinoma tumors (Broad) identified SPOP, FOXA1, and MED12 as recurrent drivers [PMID:22610119](../papers/22610119.md)
 
 ## Notes
 
@@ -108,5 +110,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

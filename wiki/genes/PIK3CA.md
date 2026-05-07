@@ -48,6 +48,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA mutations identified as recurrent driver events in HNSCC whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - PIK3CA mutations co-occur with ARID1A loss in ovarian cancer, and PIK3CA-mutant cells show sensitivity to PI3K pathway inhibition in the context of BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
 - PIK3CA mutation status was assessed in breast cancer samples undergoing whole-exome sequencing that identified SF3B1 mutations and widespread splicing dysregulation [PMID:22158541](../papers/22158541.md)
+- PIK3CA is one of the most frequently mutated genes in breast cancer; identified by WGS of 65 tumors (BCCRC cohort) [PMID:22495314](../papers/22495314.md)
+- PIK3CA mutations occur in prostate cancer; identified by WES of 112 primary tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
 
 ## Cancer types (linked)
 
@@ -138,5 +140,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22158541](../papers/22158541.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

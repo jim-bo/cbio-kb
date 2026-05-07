@@ -1,0 +1,40 @@
+---
+symbol: PAK1
+aliases: []
+cancer_types: [BRCA]
+tags: [amplification, kinase, breast-cancer, IntClust2]
+processed_by: entity-page-writer
+processed_at: 2026-05-06
+---
+
+# PAK1
+
+## Overview
+
+PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 and Cdc42 small GTPases, promoting cytoskeletal reorganization, cell migration, and survival. In breast cancer, PAK1 is located in the 11q13/14 amplicon that characterizes the IntClust 2 high-risk subtype, where it is co-amplified with [CCND1](../genes/CCND1.md), [EMSY](../genes/EMSY.md), and [RSF1](../genes/RSF1.md).
+
+## Alterations observed in the corpus
+
+- PAK1 (11q14.1) is amplified as part of the 11q13/14 cis-acting cassette in IntClust 2 of the METABRIC breast cancer cohort (~2,000 tumors); co-amplified with CCND1, EMSY, and RSF1 in ER-positive, high-risk tumors [PMID:22522925](../papers/22522925.md)
+
+## Cancer types (linked)
+
+- **[BRCA](../cancer_types/BRCA.md) (Breast cancer):** Amplification in IntClust 2 (11q13/14-amplified ER-positive); IntClust 2 carries hazard ratio 3.62 (95% CI 1.91-6.88) in discovery cohort [PMID:22522925](../papers/22522925.md)
+
+## Co-occurrence and mutual exclusivity
+
+- Co-amplified with CCND1, EMSY, and RSF1 at 11q13/14 in IntClust 2 ER-positive breast cancer [PMID:22522925](../papers/22522925.md)
+
+## Therapeutic relevance
+
+- PAK1 kinase activity has been proposed as a therapeutic target in breast cancer; its co-amplification in the high-risk IntClust 2 subtype supports interest in PAK inhibitors, though no clinical data are in the corpus.
+
+## Open questions
+
+- The relative contributions of PAK1 versus CCND1, EMSY, and RSF1 within the 11q13/14 amplicon to IntClust 2 tumor behavior are not resolved [PMID:22522925](../papers/22522925.md).
+
+## Sources
+
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-06**.*

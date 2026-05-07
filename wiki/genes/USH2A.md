@@ -3,8 +3,8 @@ symbol: USH2A
 aliases: []
 cancer_types: [THPA, NBL]
 tags: [cell-adhesion, recurrent-mutation, thyroid, progenitor-marker, neuroblastoma]
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # USH2A
@@ -17,6 +17,7 @@ USH2A (Usherin) encodes a large extracellular matrix protein involved in cell ad
 
 - USH2A was identified as a top-5 recurrently mutated gene by SeqSig FDR analysis in anaplastic thyroid carcinoma (ATC); previously described in ATC in independent studies [PMID:38412093](../papers/38412093.md).
 - USH2A is significantly over-expressed in the undifferentiated nC3 cluster enriched in high-risk neuroblastoma (FDR <0.01, Welch's t-test), along with progenitor markers [BCL11A](../genes/BCL11A.md), [NTRK2](../genes/NTRK2.md), and [SOX6](../genes/SOX6.md) in a single-nuclei RNA-seq study (11 tumors, Smart-Seq2). [PMID:34493726](../papers/34493726.md)
+- Mutations in 9.2% (6/65) of triple-negative breast cancers in WGS cohort; gene involved in actin cytoskeletal functions [PMID:22495314](../papers/22495314.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ USH2A (Usherin) encodes a large extracellular matrix protein involved in cell ad
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

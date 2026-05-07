@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -26,6 +26,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; not prioritized as primary SL target [PMID:36334560](../papers/36334560.md)
 - ATM mutations associated with improved ICI survival in metastatic UC when combined with FANCC/RB1 alterations [PMID:36333289](../papers/36333289.md)
 - ATM oncogenic mutations in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
+- Somatic mutations in 2 cases of TNBC; ranked 30th by driverNet network analysis in 65-tumor WGS breast cancer cohort [PMID:22495314](../papers/22495314.md)
+- Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +73,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

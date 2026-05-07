@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [transcriptomics, microarray, gene-expression]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Illumina gene-expression microarray
@@ -18,6 +18,7 @@ Hybridization-based gene-expression profiling using Illumina BeadChip arrays (e.
 ## Used by
 
 - [PMID:30325352](../papers/30325352.md) — Illumina HT-12 gene-expression microarrays applied to 26 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) radiogenomic dataset; 17 subjects have overlapping RNA-seq data; raw data deposited at GEO accession GSE28827 [PMID:30325352](../papers/30325352.md).
+- Illumina gene-expression microarray used alongside SNP arrays in METABRIC to derive integrative clustering of ~2,000 breast tumors into 10 subtypes [PMID:22522925](../papers/22522925.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Hybridization-based gene-expression profiling using Illumina BeadChip arrays (e.
 - [PMID:30325352](../papers/30325352.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

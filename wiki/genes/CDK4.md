@@ -3,7 +3,7 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -25,6 +25,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Focal 12q amplification in ~90% of dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)); CDK4 was the most overexpressed amplified hit relative to normal fat in a 385-gene shRNA screen; sustained CDK4 knockdown (>10 days) inhibited proliferation in LPS141 and DDLS8817 cell lines; pharmacologic inhibition with [palbociclib](../drugs/palbociclib.md) (PD0332991) induced G1 arrest — first functional validation of CDK4 as a therapeutic dependency in [DDLS](../cancer_types/DDLS.md) ([sarc_mskcc](../datasets/sarc_mskcc.md), n=207) [PMID:20601955](../papers/20601955.md).
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member; co-altered with [CDK6](../genes/CDK6.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B in cell cycle pathway disruption. [PMID:18948947](../papers/18948947.md)
 - CDK4 amplification in 5% of [GBC](../cancer_types/GBC.md) (oncogenic CNA) [PMID:36228155](../papers/36228155.md)
+- Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

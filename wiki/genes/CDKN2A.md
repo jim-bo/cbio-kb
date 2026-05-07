@@ -44,6 +44,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A deletions in 14% and mutations in 9% of [GBC](../cancer_types/GBC.md); part of frequent oncogenic CNAs [PMID:36228155](../papers/36228155.md)
 - CDKN2A deletion/loss detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 - CDKN2A deletion recurrently observed in HNSCC by whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
+- Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -122,5 +123,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

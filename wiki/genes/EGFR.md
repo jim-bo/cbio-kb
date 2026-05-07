@@ -39,6 +39,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - EGFR amplification and expression correlate with erlotinib sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
+- High-level amplifications in 5% of triple-negative breast cancer (TNBC) cases in a 65-tumor WGS cohort (BCCRC); classified as clinically actionable [PMID:22495314](../papers/22495314.md)
+- Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -105,5 +107,11 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

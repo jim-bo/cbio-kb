@@ -19,6 +19,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 mutations (with [PIK3CA](../genes/PIK3CA.md) and [TP53](../genes/TP53.md), plus broad CNV load) were used to define "molecular grade-intermediate" in 1p19q codeleted IDH-mutant oligodendrogliomas in a 128-patient MSKCC active-surveillance cohort [PMID:37910594](../papers/37910594.md).
 - PIK3R1 mutations less common in Black endometrial carcinoma patients compared to White patients (13% vs. 28%), consistent with the lower frequency of PI3K pathway endometrioid-type alterations in the Black EC population; lower PIK3R1 frequency may reduce eligibility for PI3K/AKT/mTOR pathway-targeted trials [PMID:37651310](../papers/37651310.md).
 - Recurrently mutated in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
+- PIK3R1 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating PI3K pathway dysregulation [PMID:22610119](../papers/22610119.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **entity-page-writer** on **2025-02-14**.*
 - [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

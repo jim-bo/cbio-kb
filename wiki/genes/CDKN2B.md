@@ -3,7 +3,7 @@ symbol: CDKN2B
 aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -29,6 +29,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Homozygous deletion of the *CDKN2A/CDKN2B* locus is extremely common (over 50%) in [GBM](../cancer_types/GB.md); part of the RB pathway (52% altered) [PMID:18772890](../papers/18772890.md).
 - Frequently deleted alongside [CDKN2A](../genes/CDKN2A.md) in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle tumour suppressor in CDK4/6-cyclin D pathway. [PMID:18948947](../papers/18948947.md)
 - CDKN2B deletions in 14% of [GBC](../cancer_types/GBC.md); frequently co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:36228155](../papers/36228155.md)
+- Homozygous deletions identified as rare but potentially significant events; frequently co-occurring with CDKN2A and MTAP loss in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -3,7 +3,7 @@ symbol: SMAD4
 aliases: []
 cancer_types: [IHCH, PAAD, CERVIX]
 tags: [tumor-suppressor, tgf-beta]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -22,6 +22,7 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - SMAD4 alterations enriched in [KRAS](../genes/KRAS.md) G12R vs G12D PDAC tumors (30% vs 21%, P = 0.001) in a 2,336-patient MSK-IMPACT PDAC cohort; frequency also higher in G12R relative to other alleles, suggesting allele-specific biology. [PMID:39753968](../papers/39753968.md)
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); TGF-beta pathway tumour suppressor. [PMID:18948947](../papers/18948947.md)
 - SMAD4 LOF mutations (19%) and deletions (5%) in [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 2.17, 95% CI 1.21-3.89; multivariate HR 2.11, p=0.012) [PMID:36228155](../papers/36228155.md)
+- Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

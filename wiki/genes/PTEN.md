@@ -35,6 +35,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Among the most frequently mutated genes in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - PTEN loss-of-function mutations detected in HNSCC whole-exome sequencing (74 tumor-normal pairs, Broad), activating the PI3K pathway [PMID:21798893](../papers/21798893.md)
 - PTEN mutation and deletion status were characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, with PTEN loss correlating with sensitivity to PI3K/AKT pathway inhibitors [PMID:22460905](../papers/22460905.md)
+- Somatic mutations and homozygous deletions in 7.7% (5/65) of TNBC; copy number losses in 3% of cases [PMID:22495314](../papers/22495314.md)
+- Homozygous deletions identified as rare but potentially significant events in breast cancer across METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- Recurrently mutated and deleted in prostate cancer; inversely associated with SPOP mutations in primary tumors (P = 0.044) [PMID:22610119](../papers/22610119.md)
+- Recurrently disrupted by structural rearrangements in 4/25 melanoma tumors; PREX2 is a known PTEN-interacting protein and negative regulator of PTEN activity [PMID:22622578](../papers/22622578.md)
 
 ## Cancer types (linked)
 
@@ -98,5 +102,17 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

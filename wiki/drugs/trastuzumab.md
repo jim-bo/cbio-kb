@@ -5,7 +5,7 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -24,6 +24,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - T-DM1 was more potent than trastuzumab, [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
 - In the AURORA US Metastasis Project (n=55 metastatic breast cancer), one participant (AFE4) exhibited loss of [ERBB2](../genes/ERBB2.md) amplification under trastuzumab selective pressure — the HER2 amplification present at primary diagnosis was absent in the metastatic biopsy, representing a genomic resistance event to HER2-targeted therapy [PMID:36585450](../papers/36585450.md)
 - 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); ERBB2 amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
+- METABRIC identified ERBB2-amplified IntClust5 subtype (~15% of tumors) as the primary trastuzumab-relevant subgroup in breast cancer [PMID:22522925](../papers/22522925.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

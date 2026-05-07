@@ -31,6 +31,7 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - [BRAF](../genes/BRAF.md) L597R and G466R pathogenic mutations identified in melanocytes from tanning cohort donors. [PMID:38895302](../papers/38895302.md)
 - COSMIC mutational signature 11 significantly enriched in tanning bed users' melanocytes (P=0.0405), distinct from standard UV SBS7a signature. [PMID:38895302](../papers/38895302.md)
 - CCLE pharmacogenomic profiling included melanoma cell lines among 947 lines tested across 24 drugs; elastic-net models predicted drug sensitivity from genomic features [PMID:22460905](../papers/22460905.md)
+- WGS of 25 melanoma tumors identified PREX2 as a recurrently mutated driver and characterized KIT and BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
 
 ## Subtypes
 
@@ -55,5 +56,8 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

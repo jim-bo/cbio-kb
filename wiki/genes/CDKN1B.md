@@ -3,7 +3,7 @@ symbol: CDKN1B
 aliases: [p27, KIP1]
 cancer_types: [PRAD]
 tags: [cell-cycle, tumor-suppressor, CDK-inhibitor, prostate-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 ## Alterations observed in the corpus
 
 - Identified as somatically altered in integrative genomic profiling of prostate cancer (MSKCC cohort) [PMID:20579941](../papers/20579941.md)
+- Somatic substitutions in 3/112 samples and deletions in 16; first report of somatic point mutations in this cell cycle regulator in prostate cancer; activated by FOXA1 [PMID:22610119](../papers/22610119.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - [PMID:20579941](../papers/20579941.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

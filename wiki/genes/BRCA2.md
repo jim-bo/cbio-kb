@@ -45,6 +45,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
 - BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 - Found mutated in HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
+- Somatic mutations in 3/65 TNBC cases in a WGS breast cancer cohort; BRCA2 pathway linked to sporadic breast cancer via EMSY amplification [PMID:22495314](../papers/22495314.md)
 
 ## Cancer types (linked)
 
@@ -105,5 +106,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

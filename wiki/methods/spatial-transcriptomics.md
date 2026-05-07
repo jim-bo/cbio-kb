@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [spatial, transcriptomics, single-cell, tme]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Spatial transcriptomics
@@ -21,6 +21,7 @@ Spatial transcriptomics technologies enable gene expression profiling while pres
 - [PMID:39386723](../papers/39386723.md) — NanoString GeoMx WTA spatial transcriptomics was applied to 35 fallopian tube specimens ([HGSOC](../cancer_types/HGSOC.md) precursors) with >600 ROIs; complemented CyCIF multiplexed immunofluorescence to characterize the immune microenvironment of [HGSOC](../cancer_types/HGSOC.md) precursor lesions [PMID:39386723](../papers/39386723.md).
 - [PMID:41941260](../papers/41941260.md) — Spatial transcriptomics (10x Visium HD) was applied to 140+ biopsies from the ImmunoRad MCT1 rectal-cancer trial (NCT05943210); identified RT-associated spatial reorganization of lymphocytes and altered macrophage wound-healing signals after short-course radiotherapy [PMID:41941260](../papers/41941260.md).
 - [PMID:39975212](../papers/39975212.md) — 10X Xenium single-cell spatial profiling on FFPE skin from a 63-year-old melanoma patient (two adjacent sections, ~96M transcripts, ~300K cells) using a custom 360-gene panel (predesigned 10X human skin panel + 100 custom probes); showed HighMut melanocytes are almost exclusively in the interfollicular epidermis while LowMut melanocytes are enriched in hair follicles, validating in-vitro morphology/mutation burden dimorphism in situ [PMID:39975212](../papers/39975212.md).
+- Spatial transcriptomics applied in HCC genomic characterization to map intratumoral heterogeneity and gene expression patterns [PMID:22634756](../papers/22634756.md)
 
 ## Notes
 
@@ -35,3 +36,6 @@ Spatial transcriptomics technologies enable gene expression profiling while pres
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:22634756](../papers/22634756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

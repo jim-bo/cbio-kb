@@ -31,6 +31,9 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - RB1 LOF mutations in 3.5% of [GBC](../cancer_types/GBC.md); enriched in small cell neuroendocrine carcinoma (q<0.001) [PMID:36228155](../papers/36228155.md)
 - Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 - Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Mutations in 7.7% (5/65) of TNBC; homozygous deletions in 5% of cases [PMID:22495314](../papers/22495314.md)
+- Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated HCC [PMID:22634756](../papers/22634756.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +86,14 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

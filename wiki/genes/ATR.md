@@ -7,8 +7,8 @@ tags:
   - dna-damage-response
   - replication-stress
   - kinase
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # ATR
@@ -20,6 +20,7 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 ## Alterations observed in the corpus
 
 - ATR is recurrently mutated in anaplastic thyroid carcinoma (ATC) in a multi-omic landscape study (WES/WGS of 87 specimens from 64 ATC and 28 paired differentiated thyroid cancer (DTC)) [PMID:38412093](../papers/38412093.md).
+- Somatic mutations in 6.2% (4/65) of TNBC cases in a whole-genome sequencing study of 65 breast tumors (BCCRC cohort) [PMID:22495314](../papers/22495314.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

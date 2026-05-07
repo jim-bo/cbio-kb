@@ -24,6 +24,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D was among the most frequently mutated genes in DLBCL and FL, establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - KMT2D is among the significantly mutated genes in DLBCL identified by whole-exome sequencing of 55 tumors (MutSig, Broad Institute) [PMID:22343534](../papers/22343534.md)
+- Second most frequent HBV integration target in HCC (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with >20-fold expression increase [PMID:22634756](../papers/22634756.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

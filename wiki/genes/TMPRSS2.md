@@ -18,6 +18,7 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG fusions were identified in 13 prostate cancer PDX models, and TMPRSS2-ETV4 fusions in 2 models, in the MDA PCa PDX series (n=37 models); [ERG](../genes/ERG.md) is overexpressed when fused with TMPRSS2 in AR-expressing models [PMID:38488813](../papers/38488813.md).
 - TMPRSS2-ERG fusions were depleted in MSI-H/dMMR prostate cancer (3%) vs. TMB-H/MSS (12%) and TMB-L/MSS controls (p=0.015), suggesting distinct oncogenic pathways in hypermutant prostate cancer [PMID:38949888](../papers/38949888.md).
 - Gene fusion partner (TMPRSS2-ERG) identified as the most common structural rearrangement in prostate cancer integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
+- TMPRSS2-ERG ETS rearrangements present in up to 50% of prostate cancers; mutually exclusive with SPOP mutations, suggesting distinct early oncogenic pathways [PMID:22610119](../papers/22610119.md)
 
 ## Cancer types (linked)
 
@@ -42,5 +43,8 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

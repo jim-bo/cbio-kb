@@ -17,6 +17,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 - Used as a melanocyte lineage-confirmation marker in a normal human skin atlas study profiling 297 single melanocytes from 31 donors with matched DNA/RNA sequencing and Xenium spatial validation; co-expressed with [PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), and [MLANA](../genes/MLANA.md) to confirm melanocyte identity in clonal expansion and Xenium spatial data. No somatic MITF alterations are reported as study endpoints. [PMID:39975212](../papers/39975212.md)
 - MITF amplification was identified as a genomic feature in cancer cell lines profiled in the CCLE pharmacogenomic study across 947 lines and 24 drugs [PMID:22460905](../papers/22460905.md)
+- MITF identified as a significantly mutated gene in melanoma WGS analysis of 25 tumors [PMID:22622578](../papers/22622578.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

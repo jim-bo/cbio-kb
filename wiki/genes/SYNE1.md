@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - nuclear-envelope
   - hnscc
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 canonical_source: cbioportal
 unverified: false
@@ -22,6 +22,7 @@ SYNE1 (Spectrin Repeat Containing Nuclear Envelope Protein 1) encodes a giant sc
 ## Alterations observed in the corpus
 
 - Somatic mutations in SYNE1 detected by whole-exome sequencing of 74 HNSCC tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- Mutations in 9.2% (6/65) of TNBC; previously implicated in squamous head and neck cancers [PMID:22495314](../papers/22495314.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ SYNE1 (Spectrin Repeat Containing Nuclear Envelope Protein 1) encodes a giant sc
 - [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

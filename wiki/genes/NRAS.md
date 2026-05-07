@@ -29,6 +29,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Recurrently mutated in myelodysplastic syndrome (MDS) identified in Tokyo cohort sequencing study alongside STAG2 [PMID:21909114](../papers/21909114.md)
 - NRAS mutation status was characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling drug sensitivity correlations [PMID:22460905](../papers/22460905.md)
+- NRAS harbors somatic mutations in melanoma; identified in WGS of 25 tumors alongside recurrent PREX2 mutations [PMID:22622578](../papers/22622578.md)
 
 ## Cancer types (linked)
 
@@ -81,5 +82,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -21,6 +21,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used for targeted validation of somatic mutations in 58 PanNET cases from the Johns Hopkins validation cohort; 91% of discovery-set mutations validated by Sanger [PMID:21252315](../papers/21252315.md)
 - Used to validate MEF2B mutations in 261 FL, 259 DLBCL, 17 cell lines, 35 other NHL, and 8 centroblast samples in the BCGSC NHL study [PMID:21796119](../papers/21796119.md)
 - Used for orthogonal validation of candidate somatic mutations in the JHU HNSCC WES study; confirmed 609/911 (67%) of candidate mutations [PMID:21798897](../papers/21798897.md)
+- Sanger sequencing used for validation of somatic mutations identified by WES in prostate adenocarcinoma tumors [PMID:22610119](../papers/22610119.md)
+- Sanger sequencing used to validate PREX2 and KIT mutations identified in melanoma WGS [PMID:22622578](../papers/22622578.md)
 
 ## Notes
 
@@ -38,5 +40,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

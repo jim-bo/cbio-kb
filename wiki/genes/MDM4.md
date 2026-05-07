@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - p53-pathway
 processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_at: 2026-05-06
 ---
 
 # MDM4
@@ -20,6 +20,7 @@ processed_at: 2026-05-05
 
 - **Amplification/Alteration**: Found in 7% of glioblastoma cases as a component of the p53 signaling pathway [PMID:18772890](../papers/18772890.md).
 - Copy number amplifications enriched in breast cancer metastases compared to primary tumors [PMID:36585450](../papers/36585450.md)
+- MDM4 amplification detected in breast cancer within the METABRIC cohort of ~2,000 tumors, contributing to p53 pathway dysregulation [PMID:22522925](../papers/22522925.md)
 
 ## Cancer types (linked)
 
@@ -33,3 +34,6 @@ processed_at: 2026-05-05
 - [PMID:36585450](../papers/36585450.md)
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

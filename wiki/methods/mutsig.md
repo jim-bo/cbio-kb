@@ -5,7 +5,7 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -18,6 +18,7 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 ## Used by
 
 - Applied to 55 DLBCL WES samples in the [dlbc_broad_2012](../datasets/dlbc_broad_2012.md) cohort; identified 58 significantly mutated genes at FDR q <= 0.1, with a 97.9% validation rate by targeted resequencing [PMID:22343534](../papers/22343534.md).
+- MutSig applied to identify statistically significant driver genes (SPOP, FOXA1, MED12) in 112 prostate adenocarcinoma WES samples [PMID:22610119](../papers/22610119.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - [PMID:22343534](../papers/22343534.md) — DLBCL WES study where MutSig identified 58 significantly mutated genes.
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

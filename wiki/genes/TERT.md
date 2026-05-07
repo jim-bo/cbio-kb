@@ -3,7 +3,7 @@ symbol: TERT
 aliases: []
 cancer_types: [ODG, DIFG, IHCH, HCC, BLCA]
 tags: [promoter-mutation, telomerase, prognosis, ctdna-biomarker]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -21,6 +21,7 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort, Ding et al. 2008). [PMID:18948947](../papers/18948947.md)
 - Promoter mutations shared between primary and metastatic bladder tumors in phylogenetic analyses [PMID:36543146](../papers/36543146.md)
 - TERT promoter GOF mutations in 6% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
+- Most frequent HBV integration hotspot in HCC (23.7% of cases); promoter and intronic insertions induce telomerase expression; HBV-TERT integrations cyclize into ecDNA for amplified expression [PMID:22634756](../papers/22634756.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22634756](../papers/22634756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

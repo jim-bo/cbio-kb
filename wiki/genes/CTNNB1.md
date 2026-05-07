@@ -31,6 +31,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); Wnt/beta-catenin pathway member; co-mutated with other Wnt pathway genes including [APC](../genes/APC.md) and [LRP1B](../genes/LRP1B.md). [PMID:18948947](../papers/18948947.md)
 - CTNNB1 GOF mutations in 6% of [GBC](../cancer_types/GBC.md); identified as potential driver by oncodrive clustering (p.S45F/P); higher frequency in primaries without cholelithiasis (22% vs 4.3%) [PMID:36228155](../papers/36228155.md)
 - CTNNB1 mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt/beta-catenin pathway activation [PMID:22158988](../papers/22158988.md)
+- HBx destabilizes beta-catenin regulation through GSK3B degradation; Wnt/beta-catenin pathway activated by both HBx and MHBst proteins in HBV-related HCC [PMID:22634756](../papers/22634756.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +71,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

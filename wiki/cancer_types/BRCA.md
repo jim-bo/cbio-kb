@@ -29,6 +29,8 @@ OncoTree code for invasive breast carcinoma.
 - [TP53](../genes/TP53.md) was the most frequently altered gene across all tumor types in the CSF ctDNA cohort (49% of ctDNA-positive samples), including breast cancer [PMID:39289779](../papers/39289779.md).
 - Breast cancer patients with BRCA1/2 mutations demonstrated improved outcomes with PARP inhibitor therapy in a prospective study [PMID:36585450](../papers/36585450.md)
 - Whole-exome sequencing of 102 breast cancer samples identified recurrent SF3B1 mutations and widespread splicing alterations, providing new insight into BRCA mutational landscape [PMID:22158541](../papers/22158541.md)
+- WGS of 65 breast tumors (BCCRC cohort) characterized structural rearrangements and somatic mutations in invasive breast carcinoma [PMID:22495314](../papers/22495314.md)
+- METABRIC study profiled ~2,000 breast tumors identifying 10 integrative clusters (IntClust1–10) with distinct copy-number and expression signatures in invasive breast carcinoma [PMID:22522925](../papers/22522925.md)
 
 ## Subtypes
 
@@ -54,5 +56,11 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:22158541](../papers/22158541.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

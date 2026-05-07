@@ -34,6 +34,7 @@ OncoTree code for prostate adenocarcinoma.
 - No specific gene-level alterations identified for the oligometastatic hormone-sensitive state; genetic and transcriptomic profiling of hormone-sensitive localized and metastatic castration-resistant PRAD has been described but a hormone-sensitive oligometastatic data set was noted as "still unavailable." [PMID:28045614](../papers/28045614.md)
 - [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md) — deleterious MMR gene alterations in 75% of MSI-H/dMMR PRAD patients. [PMID:38949888](../papers/38949888.md)
 - Integrative genomic profiling of 218 PRAD tumors (MSKCC cohort) identified recurrent copy-number alterations and somatic mutations via SNP arrays and whole-exome sequencing [PMID:20579941](../papers/20579941.md)
+- WES of 112 prostate adenocarcinoma tumors identified SPOP, FOXA1, and MED12 as recurrent driver genes [PMID:22610119](../papers/22610119.md)
 
 ## Subtypes
 
@@ -66,5 +67,8 @@ OncoTree code for prostate adenocarcinoma.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

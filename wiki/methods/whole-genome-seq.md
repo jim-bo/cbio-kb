@@ -30,6 +30,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 40 treatment-naive [HGSOC](../cancer_types/HGSOC.md) tumor-normal pairs; mutational signature inference classified tumours into HRD-Dup (n=16), HRD-Del (n=6), and FBI (n=14) subtypes [PMID:36517593](../papers/36517593.md)
 - Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC study; identified 109 recurrently mutated genes including KMT2D and MEF2B as major histone-modifier drivers [PMID:21796119](../papers/21796119.md)
 - Two HNSCC tumors underwent whole-genome sequencing at 31x mean coverage in the Broad HNSCC study, complementing whole-exome sequencing of 74 tumors [PMID:21798893](../papers/21798893.md)
+- WGS applied to 65 breast tumors (BCCRC) to characterize structural rearrangements and somatic mutation landscapes [PMID:22495314](../papers/22495314.md)
+- WGS of 25 melanoma tumors used to identify PREX2 recurrent mutations and characterize KIT/BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
+- WGS used in HCC genomic studies to identify TERT promoter mutations, CTNNB1, and TP53 alterations [PMID:22634756](../papers/22634756.md)
 
 ## Notes
 
@@ -61,5 +64,14 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

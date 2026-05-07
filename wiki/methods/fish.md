@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -24,6 +24,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:30325352](../papers/30325352.md) — FISH used to detect [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) translocation status in 196/211 [NSCLC](../cancer_types/NSCLC.md) subjects in the Stanford radiogenomics dataset; complement to SNaPshot PCR for EGFR/KRAS single-gene testing [PMID:30325352](../papers/30325352.md).
 - [PMID:39305899](../papers/39305899.md) — FISH performed by NeoGenomics to confirm [MDM2](../genes/MDM2.md) amplification in a well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) patient-derived tumor organoid (PDTO) and matched primary tumor (SARC0120); separately used to evaluate NTRK1/2/3 status in SARC0127, where ETV6-FISH negativity and [larotrectinib](../drugs/larotrectinib.md) resistance helped reclassify the tumor from infantile fibrosarcoma to high-grade sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)) [PMID:39305899](../papers/39305899.md).
 - Used to confirm [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) rearrangement in MEC Patient 2 alongside RNA-seq and RT-PCR/Sanger validation [PMID:36577525](../papers/36577525.md)
+- FISH used to validate copy-number alterations in prostate adenocarcinoma tumors from the Broad WES cohort [PMID:22610119](../papers/22610119.md)
+- FISH used to validate KIT and BRAF copy-number alterations in melanoma WGS study [PMID:22622578](../papers/22622578.md)
 
 ## Notes
 
@@ -43,3 +45,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:36577525](../papers/36577525.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

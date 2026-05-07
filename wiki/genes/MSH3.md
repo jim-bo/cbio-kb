@@ -3,8 +3,8 @@ symbol: MSH3
 aliases: []
 cancer_types: [CRC, PRAD]
 tags: [mismatch-repair, MMR, BRAF-fusion, microsatellite]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # MSH3
@@ -17,6 +17,7 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 
 - Frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers (along with [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md), and [ARID1A](../genes/ARID1A.md)); identified in a tumor-agnostic cohort of 833 patients across 52 histologies [PMID:38922339](../papers/38922339.md).
 - Identified as a shared putative oncogenic mutation in an exceptional responder case of MSI-H/dMMR prostate cancer; clonal relatedness confirmed across serial tumor samples [PMID:38949888](../papers/38949888.md).
+- Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - [PMID:38949888](../papers/38949888.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

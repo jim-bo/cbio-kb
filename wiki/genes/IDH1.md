@@ -22,6 +22,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 or [IDH2](../genes/IDH2.md) mutation was confirmed in all 6 grade II oligodendrogliomas studied by single-cell RNA-seq (Smart-seq2, 4,347 cells); IDH1 point mutations were directly detected in scRNA-seq reads by single-base Bowtie alignment, allowing genotype assignment at single-cell resolution [PMID:27806376](../papers/27806376.md).
 - IDH1 mutations referenced as a characteristic of cholangiocarcinoma (not [GBC](../cancer_types/GBC.md)) for comparison context in GBC genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
+- Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

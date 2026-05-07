@@ -26,6 +26,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used to confirm [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) rearrangement in MEC Patient 2 alongside RNA-seq and RT-PCR/Sanger validation [PMID:36577525](../papers/36577525.md)
 - FISH used to validate copy-number alterations in prostate adenocarcinoma tumors from the Broad WES cohort [PMID:22610119](../papers/22610119.md)
 - FISH used to validate KIT and BRAF copy-number alterations in melanoma WGS study [PMID:22622578](../papers/22622578.md)
+- FISH used to validate copy-number alterations and structural rearrangements in pediatric medulloblastoma cases (ICGC, n=125); confirmed chromosome gains and fusion gene events [PMID:22832583](../papers/22832583.md)
 
 ## Notes
 
@@ -49,5 +50,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -21,6 +21,7 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 - iPLEX Sequenom MassARRAY used to genotype 22 oncogene hotspots in 156 prostate tumors from the MSKCC prad_mskcc cohort [PMID:20579941](../papers/20579941.md)
 - Used for targeted mutation genotyping across 947 CCLE cancer cell lines to complement WES and expression data [PMID:22460905](../papers/22460905.md)
 - Sequenom genotyping used for targeted mutation validation in prostate adenocarcinoma WES study [PMID:22610119](../papers/22610119.md)
+- Sequenom mass spectrometric genotyping used to validate RAC1 P29S, PPP6C, and STK19 hotspot mutations in extension sets of n=59, n=63, and n=175 melanoma samples (Broad cohort) [PMID:22817889](../papers/22817889.md)
 
 ## Notes
 
@@ -38,5 +39,8 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

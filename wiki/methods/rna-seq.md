@@ -39,6 +39,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used alongside WES in breast cancer to detect splice-site consequences of SF3B1 mutations and quantify allele-specific expression [PMID:22158541](../papers/22158541.md)
 - RNA-seq applied alongside WGS in BCCRC breast tumor cohort to characterize transcriptomic landscape [PMID:22495314](../papers/22495314.md)
 - RNA-seq used in HCC studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:22634756](../papers/22634756.md)
+- Strand-specific high-coverage RNA sequencing performed on 28 pediatric medulloblastoma cases (ICGC); identified first medulloblastoma fusion transcripts (DNAJB6-SHH, LCLAT1-ERBB4); only 48% of non-synonymous DNA mutations detectable at RNA level [PMID:22832583](../papers/22832583.md)
 
 ## Notes
 
@@ -88,5 +89,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22634756](../papers/22634756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

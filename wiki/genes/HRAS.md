@@ -20,6 +20,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - RAS/PIK3CA pathway alterations (including HRAS, along with [PIK3CA](../genes/PIK3CA.md), [NRAS](../genes/NRAS.md), [KRAS](../genes/KRAS.md)) found in 5/17 fusion-negative rhabdomyosarcoma (FN-RMS) patients in a study of 35 tumor pairs [PMID:37730754](../papers/37730754.md).
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
+- Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

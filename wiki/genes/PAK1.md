@@ -3,7 +3,7 @@ symbol: PAK1
 aliases: []
 cancer_types: [BRCA]
 tags: [amplification, kinase, breast-cancer, IntClust2]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 ## Alterations observed in the corpus
 
 - PAK1 (11q14.1) is amplified as part of the 11q13/14 cis-acting cassette in IntClust 2 of the METABRIC breast cancer cohort (~2,000 tumors); co-amplified with CCND1, EMSY, and RSF1 in ER-positive, high-risk tumors [PMID:22522925](../papers/22522925.md)
+- Identified as a downstream effector of RAC1 P29S and a potential therapeutic target in melanoma (147-tumor Yale WES cohort) [PMID:22842228](../papers/22842228.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ PAK1 (P21-Activated Kinase 1) is a serine/threonine kinase downstream of Rac1 an
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

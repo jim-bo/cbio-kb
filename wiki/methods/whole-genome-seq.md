@@ -35,6 +35,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - WGS used in HCC genomic studies to identify TERT promoter mutations, CTNNB1, and TP53 alterations [PMID:22634756](../papers/22634756.md)
 - Used for WGS of 103 breast cancer tumors in the Broad cohort (brca_broad), enabling structural variant and fusion discovery including MAGI3-AKT3 [PMID:22722202](../papers/22722202.md)
 - Used for WGS of 37 medulloblastoma tumors in the PCGP cohort (mbl_pcgp), identifying KDM6A, DDX3X, and SMARCA4 as driver genes [PMID:22722829](../papers/22722829.md)
+- 97 of 276 TCGA colorectal carcinoma pairs analyzed by low-pass whole-genome sequencing (~3-4X coverage) for structural variant detection alongside WES [PMID:22810696](../papers/22810696.md)
+- 39 of 125 pediatric medulloblastoma pairs (ICGC) analyzed by deep whole-genome sequencing at 35-fold mean coverage; identified tetraploidy as frequent early event in Group 3 and 4 tumors and described first medulloblastoma fusion genes [PMID:22832583](../papers/22832583.md)
 
 ## Notes
 
@@ -81,5 +83,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

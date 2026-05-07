@@ -21,6 +21,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Recurrent activating KIT mutations observed in [GIST](../cancer_types/GIST.md) samples and unexpectedly in one myxoid/round-cell liposarcoma ([MRLS](../cancer_types/MRLS.md)) in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)); GIST/KIT biology cited as the [imatinib](../drugs/imatinib.md) precedent motivating subtype-specific sarcoma therapy [PMID:20601955](../papers/20601955.md).
 - Somatic activating mutations in 56% of GISTs; one germline P/LP variant (p.Lys509Ile) identified in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 - 21-bp in-frame deletion in exon 11 detected in acral melanoma ME032; KIT exon 11 mutations in acral melanoma may confer sensitivity to imatinib [PMID:22622578](../papers/22622578.md)
+- Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

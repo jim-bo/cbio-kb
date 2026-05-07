@@ -53,6 +53,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in >10% of cases in breast cancer WES (100 tumors, Sanger cohort); AKT pathway activation [PMID:22722201](../papers/22722201.md)
 - Missense mutations in helical domain (E542/E545, 40%) and kinase domain (H1047, 47%) in 27% of breast cancer samples (Broad WES, 103 tumors); activates PI3K pathway; mutually exclusive with AKT1 E17K [PMID:22722202](../papers/22722202.md)
 - Activating missense mutations (Q546K, H1047R, N345K) across WNT/SHH/subgroup-4 medulloblastoma (PCGP WGS, 37 tumors); accelerates but does not initiate tumourigenesis via AKT pathway [PMID:22722829](../papers/22722829.md)
+- Mutations in 18% of non-hypermutated colorectal tumors; mutually exclusive with PIK3R1 and PTEN loss in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Recurrently altered in melanoma (121-tumor Broad WES cohort); listed among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
 
 ## Cancer types (linked)
 
@@ -158,5 +160,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

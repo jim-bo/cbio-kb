@@ -26,6 +26,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Affymetrix SNP 6.0 used for somatic copy-number analysis in the Broad prostate cancer WES study of 112 tumors [PMID:22610119](../papers/22610119.md)
 - Used for copy-number analysis in 100 breast cancer tumors (Sanger cohort, brca_sanger) alongside WES [PMID:22722201](../papers/22722201.md)
 - Used for copy-number analysis in 37 medulloblastoma tumors (PCGP cohort, mbl_pcgp) alongside WGS [PMID:22722829](../papers/22722829.md)
+- 257 of 276 TCGA colorectal carcinoma tumors profiled for somatic copy-number alterations using Affymetrix SNP 6.0 arrays [PMID:22810696](../papers/22810696.md)
+- Copy-number analysis of 121 melanoma samples (Broad) performed with Affymetrix SNP 6.0 arrays analyzed with GISTIC; identified focal amplifications and deletions [PMID:22817889](../papers/22817889.md)
 
 ## Notes
 
@@ -58,5 +60,11 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # BCOR
@@ -20,6 +20,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 ## Alterations observed in the corpus
 
 - BCOR alterations present in 30% of FN-RMS patients (24% of individual samples) in a liquid biopsy multi-sample genomic study tracking [RMS](../cancer_types/RMS.md) progression and relapse (n=35 tumor pairs with ctDNA monitoring) [PMID:37730754](../papers/37730754.md).
+- BCOR is recurrently mutated in medulloblastoma WES of 92 tumors (Broad cohort), predominantly in the WNT and Group 3/4 subgroups [PMID:22820256](../papers/22820256.md)
+- BCOR is identified as a significantly mutated gene in medulloblastoma WGS/WES from the ICGC cohort of 76 tumors, with subgroup-specific enrichment [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +44,9 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:37730754](../papers/37730754.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

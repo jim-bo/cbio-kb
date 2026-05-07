@@ -43,6 +43,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Functional loss via MAGI3 disruption in breast cancer (Broad WES/WGS, 103 tumors); MAGI3 PDZ domain required for PTEN inhibition of PI3K; MAGI3-AKT3 fusion disrupts this interaction in triple-negative breast cancer [PMID:22722202](../papers/22722202.md)
 - Focal deletion and mutation in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); previously reported alteration confirmed in this cohort [PMID:22722829](../papers/22722829.md)
 - Loss and mutations identified as a significantly mutated gene in CRPC (Michigan WES, 112 tumors); interaction network identified [PMID:22722839](../papers/22722839.md)
+- Deletions/mutations in 4% of non-hypermutated colorectal tumors; mutually exclusive with PIK3CA and PIK3R1 alterations in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Mutation/focal deletion co-occurring with BRAF in 44% of melanomas and rarely with NRAS (4%, p=4.9e-5); identified as significantly mutated by InVEx in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
+- Copy loss at 10q23 frequent in BRAF/NRAS-mutant class of melanomas in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 
 ## Cancer types (linked)
 
@@ -130,5 +133,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722839](../papers/22722839.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

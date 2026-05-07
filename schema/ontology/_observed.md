@@ -217,3 +217,4 @@
 - drug: gsk-690693 — observed in PMID:22722202 — note: ATP-competitive Akt small-molecule inhibitor; inhibits MAGI3-AKT3 fusion phosphorylation in breast cancer
 - drug: mk-2206 — observed in PMID:22722202 — note: allosteric Akt inhibitor (PH-domain binding); does NOT inhibit MAGI3-AKT3 fusion due to disrupted PH domain
 - method: cellminer — observed in PMID:22802077 — note: NCI CellMiner web-based suite for NCI-60 genomic/pharmacologic data integration; z-score normalization, pattern comparison across 22,217 genes, 360 miRNAs, 18,549 compounds
+- gene: STK19 — observed in PMID:22817889 — note: predicted kinase with D89N hotspot in 4-5% of melanomas; novel significantly mutated gene in cutaneous melanoma

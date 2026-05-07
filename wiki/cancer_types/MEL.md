@@ -32,6 +32,8 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 - COSMIC mutational signature 11 significantly enriched in tanning bed users' melanocytes (P=0.0405), distinct from standard UV SBS7a signature. [PMID:38895302](../papers/38895302.md)
 - CCLE pharmacogenomic profiling included melanoma cell lines among 947 lines tested across 24 drugs; elastic-net models predicted drug sensitivity from genomic features [PMID:22460905](../papers/22460905.md)
 - WGS of 25 melanoma tumors identified PREX2 as a recurrently mutated driver and characterized KIT and BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
+- WES of 121 melanomas (Broad) identified MAP2K1, PPP6C, and RAC1 P29S as novel significantly mutated genes; median somatic mutation rate of 14.4/Mb with 82% UV-signature C>T transitions [PMID:22817889](../papers/22817889.md)
+- WES of 147 melanomas (Yale) confirmed RAC1 P29S in 9.2% of sun-exposed tumors (third most common driver after BRAF/NRAS) and PPP6C mutations in 12.4% of sun-exposed tumors; three molecular melanoma classes defined by mutation burden and copy-number profile [PMID:22842228](../papers/22842228.md)
 
 ## Subtypes
 
@@ -59,5 +61,11 @@ Melanoma (OncoTree code MEL, parent [SKIN](../cancer_types/SKIN.md)) is a malign
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

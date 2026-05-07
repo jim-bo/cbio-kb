@@ -48,6 +48,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 - Identified as a driver mutation gene in breast cancer WES of 100 tumors (Sanger cohort); KRAS mutations observed in tumour types beyond its canonical context [PMID:22722201](../papers/22722201.md)
+- Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 
 ## Cancer types (linked)
 
@@ -142,5 +143,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

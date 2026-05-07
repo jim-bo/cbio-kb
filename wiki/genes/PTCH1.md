@@ -20,6 +20,8 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - PTCH1 mutations observed in 18% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); enriched in responders (26%) vs. non-responders (7%), though the association did not reach statistical significance [PMID:38653864](../papers/38653864.md).
 - As a negative regulator of Hedgehog signaling, PTCH1 loss may promote an immunosuppressive tumor microenvironment (TME), a potential mechanism explaining the trend toward enrichment in responders (given the [MEGF8](../genes/MEGF8.md) negative-HH-regulator association with immunotherapy benefit) [PMID:38653864](../papers/38653864.md).
 - Biallelic inactivation and focal deletion in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); canonical SHH-pathway driver [PMID:22722829](../papers/22722829.md)
+- Inactivating mutations exclusive to SHH-subgroup medulloblastoma in WES of 92 tumors (Broad cohort); associated with 9q loss of heterozygosity [PMID:22820256](../papers/22820256.md)
+- Altered in 8/125 cases (6%), predominantly in SHH-subgroup medulloblastoma (ICGC WGS/WES cohort); frameshift indels in 6 cases, SNVs in 2 [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -43,5 +45,11 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

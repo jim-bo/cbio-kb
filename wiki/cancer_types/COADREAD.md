@@ -4,7 +4,7 @@ oncotree_code: COADREAD
 main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 mainType: Colorectal Cancer
 ---
@@ -27,6 +27,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - Included in pan-cancer MSK-IMPACT pathway and metastasis analyses; [RB1](../genes/RB1.md) oncogenic alterations enriched in brain and liver metastases in the pan-cancer cohort [PMID:39506116](../papers/39506116.md).
 - Heterogeneous acquired resistance to combined KRASG12C + [EGFR](../genes/EGFR.md) inhibition in KRASG12C-mutant colorectal cancer involves KRASG12C amplification (>20 copies) as a recurrent mechanism correlating with tumor markers and oncogene-induced senescence, with emergent alterations spanning RAS mutations (58.3%), RTK activation (75%), and MAPK pathway changes (58.3%) across 12 patients [PMID:36355783](../papers/36355783.md)
 - [FBXO7](../genes/FBXO7.md) shallow deletions (heterozygous copy number loss) occur in 32.5% (169/526) of colorectal cancers (TCGA Pan-Cancer Atlas, n=526), associate with increased chromosome instability (aneuploidy score, tumor break load; q<0.0001), and correlate with significantly worse overall, progression-free, and disease-specific survival; [CHEK1](../genes/CHEK1.md) inhibition via Prexasertib shows synthetic lethality in FBXO7-deficient colonic cells (EC50 5.83 nM vs 9.03 nM in controls) [PMID:36334560](../papers/36334560.md)
+- WES and WGS of 276 colorectal carcinomas (TCGA) identified 24 significantly mutated genes including APC (81%), TP53 (60%), KRAS (43%), PIK3CA (18%), ARID1A, SOX9, and AMER1; 16% of tumors were hypermutated; ERBB2 amplification (4%) identified as potentially targetable with trastuzumab [PMID:22810696](../papers/22810696.md)
 
 ## Therapeutic landscape
 
@@ -44,3 +45,6 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:36334560](../papers/36334560.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22810696](../papers/22810696.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

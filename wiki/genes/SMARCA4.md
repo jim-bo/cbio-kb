@@ -23,6 +23,9 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - SMARCA4 is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - SMARCA4 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Identified as recurrently mutated in medulloblastoma WGS (PCGP, 37 tumors), implicating chromatin remodeling complexes in medulloblastoma pathogenesis [PMID:22722829](../papers/22722829.md)
+- Significantly mutated in melanoma WES cohort (121 tumors, Broad); SMARCA4 identified among chromatin-remodeling genes recurrently altered in melanoma [PMID:22817889](../papers/22817889.md)
+- Recurrently mutated in medulloblastoma WES cohort (92 tumors, Broad); SMARCA4 SWI/SNF complex mutations enriched in specific molecular subgroups [PMID:22820256](../papers/22820256.md)
+- Identified as significantly mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); SMARCA4 alterations associated with SHH-subgroup medulloblastoma [PMID:22832583](../papers/22832583.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +57,14 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

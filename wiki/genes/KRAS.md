@@ -43,6 +43,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS mutations were detected in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - KRAS mutations were identified in pancreatic neuroendocrine tumors (PANETs) by exome sequencing, though at lower frequency than in pancreatic ductal adenocarcinoma [PMID:21252315](../papers/21252315.md)
 - KRAS mutations were among somatic alterations identified in HGSOC by TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- KRAS is recurrently mutated in pancreatic cystic neoplasms by whole-exome sequencing, co-occurring with GNAS and RNF43 mutations in IPMNs [PMID:22158988](../papers/22158988.md)
+- KRAS mutation status is among the top genomic predictors of MEK inhibitor sensitivity in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -122,5 +124,11 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

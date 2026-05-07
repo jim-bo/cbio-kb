@@ -3,7 +3,7 @@ symbol: TNFRSF14
 aliases: [HVEM]
 cancer_types: [DLBCL, FL]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ TNFRSF14 (TNF Receptor Superfamily Member 14), also known as HVEM (Herpesvirus E
 ## Alterations observed in the corpus
 
 - Recurrently mutated (nonsense) in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma ([FL](../cancer_types/FL.md)); acts as a tumor suppressor in GCB-restricted pattern identified by whole-genome/exome sequencing [PMID:21796119](../papers/21796119.md)
+- WES of 55 DLBCL tumors identified recurrent TNFRSF14 mutations, implicating disruption of B-cell immune checkpoint signaling in diffuse large B-cell lymphoma [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ TNFRSF14 (TNF Receptor Superfamily Member 14), also known as HVEM (Herpesvirus E
 - [PMID:21796119](../papers/21796119.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

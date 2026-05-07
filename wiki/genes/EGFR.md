@@ -38,6 +38,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR mutation (22/247, 8.9%) independently associated with worse PFS on immunotherapy in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.14, 95% CI 1.06-4.31, P = 0.03) [PMID:36038778](../papers/36038778.md)
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
+- EGFR amplification and expression correlate with erlotinib sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -101,5 +102,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

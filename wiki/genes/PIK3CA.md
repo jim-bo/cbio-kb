@@ -47,6 +47,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA is recurrently mutated in HNSCC (74 tumor-normal pairs, Broad), with hotspot mutations in the helical and kinase domains [PMID:21798893](../papers/21798893.md)
 - PIK3CA mutations identified as recurrent driver events in HNSCC whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - PIK3CA mutations co-occur with ARID1A loss in ovarian cancer, and PIK3CA-mutant cells show sensitivity to PI3K pathway inhibition in the context of BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
+- PIK3CA mutation status was assessed in breast cancer samples undergoing whole-exome sequencing that identified SF3B1 mutations and widespread splicing dysregulation [PMID:22158541](../papers/22158541.md)
 
 ## Cancer types (linked)
 
@@ -134,5 +135,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158541](../papers/22158541.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

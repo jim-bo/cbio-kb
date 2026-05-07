@@ -8,8 +8,8 @@ tags:
   - schwann-cell-precursor
   - neural-crest
   - neuroblastoma
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # SOX10
@@ -21,6 +21,7 @@ SOX10 (SRY-Box Transcription Factor 10) is a high-mobility-group transcription f
 ## Alterations observed in the corpus
 
 - SOX10 is a canonical Schwann cell precursor (SCP) marker absent from the novel hC1 progenitor cluster in postnatal human adrenal gland (FDR <0.01); RNAscope ISH confirmed SOX10+ cells in the adrenal gland are distinct from [NTRK2](../genes/NTRK2.md)+/CLDN11+ hC1 cells at all ages (0 y, 4 y, adult). The hC1 cluster lacks SOX10, [FOXD3](../genes/FOXD3.md), and [S100B](../genes/S100B.md) expression, distinguishing it from mouse and human embryonic SCPs. [PMID:34493726](../papers/34493726.md)
+- CCLE pharmacogenomic profiling (947 cell lines, 24 drugs) identified SOX10 expression as a marker in neural crest-derived cancer cell lines relevant to drug sensitivity predictions [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ SOX10 (SRY-Box Transcription Factor 10) is a high-mobility-group transcription f
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

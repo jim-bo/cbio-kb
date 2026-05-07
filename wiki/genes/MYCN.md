@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # MYCN
@@ -20,6 +20,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Elevated MYCN expression in neuroendocrine prostate cancer (NEPC) patient-derived xenografts without gene amplification; linked to DDR and neuroendocrine differentiation via MYCN-CDK5-RB1-E2F1 axis; [AURKA](../genes/AURKA.md) co-elevated [PMID:38488813](../papers/38488813.md).
 - MYCN amplification found in 5 of 11 neuroblastoma tumors studied by snRNA-seq; MYCN is highly expressed and significantly over-expressed in the undifferentiated high-risk nC3 cluster; MYCN amplification and/or 11q deletion define the high-risk cases in this cohort [PMID:34493726](../papers/34493726.md).
 - RNAscope ISH in a MYCN-amplified high-risk tumor (K10) showed MYCN co-expressed with [ALK](../genes/ALK.md) and [NTRK2](../genes/NTRK2.md) in discrete intratumoral regions, illustrating spatial heterogeneity at the single-cell level [PMID:34493726](../papers/34493726.md).
+- MYCN amplification was a central focus of neuroblastoma proteomics profiling by LC-MS/MS, revealing downstream protein-level consequences of MYCN-driven transcriptional programs [PMID:22367537](../papers/22367537.md)
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22367537](../papers/22367537.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

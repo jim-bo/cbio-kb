@@ -3,8 +3,8 @@ symbol: SOCS1
 aliases: []
 cancer_types: [CHL]
 tags: [jak-stat, aid-target, hodgkin-lymphoma]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # SOCS1
@@ -17,6 +17,7 @@ SOCS1 is a negative regulator of JAK/STAT signaling and the most commonly mutate
 
 - SOCS1 was mutated in 62% of classic Hodgkin lymphoma cases and is the most common cHL driver [PMID:36723991](../papers/36723991.md).
 - SOCS1 showed an elevated noncoding:coding mutation ratio consistent with AID off-target activity [PMID:36723991](../papers/36723991.md).
+- WES of 55 DLBCL tumors identified recurrent SOCS1 mutations, consistent with its role as a negative regulator of JAK-STAT signaling frequently disrupted in B-cell lymphomas [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ SOCS1 is a negative regulator of JAK/STAT signaling and the most commonly mutate
 - [PMID:36723991](../papers/36723991.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -24,6 +24,7 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - LymphGen molecular subclassification on a 400-gene targeted NGS panel (MSK-IMPACT Heme) achieves 92% overall accuracy (86% sensitivity, 98% specificity) in 396 DLBCL cases; 55% classified into 6 subtypes (MCD 10%, EZB 22%, BN2 10%, N1 3%, ST2 7%, A53 2%) [PMID:38497151](../papers/38497151.md).
 - [BCL2](../genes/BCL2.md) translocation enriched in EZB subtype (81%); [BCL6](../genes/BCL6.md) translocation enriched in BN2 subtype (77%); [TP53](../genes/TP53.md) mutations/CNA define A53 subtype [PMID:38497151](../papers/38497151.md).
 - Exome sequencing of DLBCL tumors identified frequent somatic mutations in histone-modifying genes MLL2, MEF2B, EZH2, and CREBBP, with MLL2 mutated in ~32% of cases [PMID:21796119](../papers/21796119.md)
+- WES of 55 diffuse large B-cell lymphoma tumors identified recurrent mutations; MutSig analysis revealed significantly mutated genes including those in BCR and TLR signaling [PMID:22343534](../papers/22343534.md)
 
 ## Subtypes
 
@@ -42,5 +43,8 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

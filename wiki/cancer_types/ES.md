@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone-cancer
   - pediatric
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Ewing Sarcoma (ES)
@@ -24,6 +24,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 ## Recurrent alterations
 
 - ES is characterized by recurrent EWSR1-rearrangements (canonical `EWSR1::FLI1` t(11;22)); secondary alterations involve [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2.
+- CCLE pharmacogenomic profiling included Ewing sarcoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 *Page last touched by entity-page-writer on 2026-05-01.*
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -35,6 +35,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF mutation not significantly associated with immunotherapy outcomes in advanced [NSCLC](../cancer_types/NSCLC.md) (P = 0.80) [PMID:36038778](../papers/36038778.md)
 - Identified as somatically altered in integrative genomic profiling of prostate cancer (MSKCC cohort) [PMID:20579941](../papers/20579941.md)
 - Identified as somatically mutated in TCGA integrated genomic analysis of high-grade serous ovarian carcinoma (HGSOC) [PMID:21720365](../papers/21720365.md)
+- BRAF identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
+- BRAF inhibitor (PLX4720) sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), with BRAF V600E as a key pharmacogenomic predictor [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -91,5 +93,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

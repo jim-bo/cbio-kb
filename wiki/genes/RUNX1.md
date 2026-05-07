@@ -17,6 +17,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 - RUNX1 was identified as a high-risk clonal hematopoiesis (CH) genotype conferring particularly high risk of subsequent hematologic malignancy in 42,714 MSK patients with nonhematologic cancer profiled by MSK-IMPACT matched-normal sequencing [PMID:38147626](../papers/38147626.md).
 - RUNX1 is recurrently mutated in MDS (myelodysplastic syndromes), co-occurring with STAG2 mutations in the Tokyo cohort [PMID:21909114](../papers/21909114.md)
+- Homozygous deletion in 2 cases of breast cancer (Broad WES, 103 tumors); partner of CBFB in transcription factor complex; CBFB/RUNX1 inactivation highlights role of differentiation transcription factors in breast cancer [PMID:22722202](../papers/22722202.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 *This page was processed by **entity-page-writer** on **2026-04-08**.*
 - [PMID:21909114](../papers/21909114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722202](../papers/22722202.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

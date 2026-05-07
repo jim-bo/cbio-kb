@@ -4,8 +4,8 @@ oncotree_code: MBL
 main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Medulloblastoma (MBL)
@@ -21,6 +21,7 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 ## Recurrent alterations
 
 - No Medulloblastoma-specific alterations are reported in the current corpus [PMID:35927489](../papers/35927489.md).
+- WGS of 37 pediatric medulloblastoma tumors (PCGP cohort, mbl_pcgp) identified KDM6A, DDX3X, and SMARCA4 as recurrently mutated driver genes using Affymetrix SNP 6.0 and Sanger validation [PMID:22722829](../papers/22722829.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - [PMID:35927489](../papers/35927489.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

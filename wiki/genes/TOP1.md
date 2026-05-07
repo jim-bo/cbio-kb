@@ -7,7 +7,7 @@ tags:
   - irinotecan-target
   - topotecan-target
   - dna-repair
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 canonical_source: cbioportal
 unverified: false
@@ -22,6 +22,7 @@ TOP1 (DNA Topoisomerase I) encodes the enzyme that relaxes supercoiled DNA by tr
 ## Alterations observed in the corpus
 
 - TOP1 is the target enzyme of [irinotecan](../drugs/irinotecan.md) and topotecan; its expression and activity underlie the mechanism of action of these agents profiled in the Cancer Cell Line Encyclopedia (947 cell lines, 24 drugs) [PMID:22460905](../papers/22460905.md)
+- TOP1 expression and copy number variation in NCI-60 cell lines correlated with topotecan sensitivity in CellMiner pharmacogenomics analysis [PMID:22802077](../papers/22802077.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ TOP1 (DNA Topoisomerase I) encodes the enzyme that relaxes supercoiled DNA by tr
 - [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

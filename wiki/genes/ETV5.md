@@ -3,8 +3,8 @@ symbol: ETV5
 aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, ETS-family, CIC-target, oligodendroglioma]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # ETV5
@@ -16,6 +16,7 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 ## Alterations observed in the corpus
 
 - ETV5 expression is upregulated in cells carrying a subclonal CIC loss-of-function mutation (~30% VAF) in the MGH53 oligodendroglioma; the increased ETV5 (and [ETV1](../genes/ETV1.md)) expression in CIC-mutant cells is consistent with derepression of known CIC target genes, and this mutation spans all three developmental compartments (stem/progenitor, oligodendrocyte-like, astrocyte-like) [PMID:27806376](../papers/27806376.md).
+- ETV5 identified as an ETS family fusion gene in prostate cancer WES cohort (Michigan, 112 tumors); rearrangements contribute to ETS-driven transcriptional dysregulation [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22722839](../papers/22722839.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

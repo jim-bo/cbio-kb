@@ -28,6 +28,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 amplification detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 - CCND1 amplification recurrently observed in HNSCC by whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - Amplification at 11q13.3 defines IntClust 2 (39/45 cases) as part of the 11q13/14 amplicon cassette in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- CCND1 amplifications detected in breast cancer WES of 100 tumors, contributing to cell cycle dysregulation [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

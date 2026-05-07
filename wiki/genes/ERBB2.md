@@ -41,6 +41,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 amplification is among the top genomic features predicting lapatinib and other drug sensitivities in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 - Somatic mutations in 2/65 TNBC cases; classified as clinically actionable in a WGS cohort (BCCRC) [PMID:22495314](../papers/22495314.md)
 - Amplification defines IntClust 5 in the METABRIC cohort (2,000 tumors); includes both HER2-enriched (ER-negative) and luminal (ER-positive) cases; patients pre-trastuzumab era had worst survival in this subgroup [PMID:22522925](../papers/22522925.md)
+- Identified as somatically mutated in breast cancer WES cohort (Sanger Institute, 100 tumors); ERBB2 mutations detected beyond HER2 amplification events [PMID:22722201](../papers/22722201.md)
+- Recurrently mutated in breast cancer WES/WGS cohort (Broad Institute, 103 tumors); ERBB2 somatic mutations identified in context of PIK3CA/AKT pathway co-alterations [PMID:22722202](../papers/22722202.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +125,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722202](../papers/22722202.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

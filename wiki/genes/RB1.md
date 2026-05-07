@@ -34,6 +34,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Mutations in 7.7% (5/65) of TNBC; homozygous deletions in 5% of cases [PMID:22495314](../papers/22495314.md)
 - Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated HCC [PMID:22634756](../papers/22634756.md)
+- Previously known breast cancer driver gene confirmed by WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
+- Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +97,11 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22634756](../papers/22634756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

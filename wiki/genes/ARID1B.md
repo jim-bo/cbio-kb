@@ -7,7 +7,7 @@ tags:
   - chromatin-remodeling
   - SWI-SNF
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -20,6 +20,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 ## Alterations observed in the corpus
 
 - ARID1B exhibits a low somatic mutation rate (3.0%) in SCLC, characterized alongside ARID1A as a SWI/SNF complex member in a study of chromatin remodeling and BET inhibitor sensitivity [PMID:22037554](../papers/22037554.md)
+- ARID1B mutations identified in breast cancer WES of 100 tumors, implicating SWI/SNF chromatin remodeling complex in breast cancer [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - [PMID:22037554](../papers/22037554.md) — ARID1A Governs Genomic Stability and Proliferation in SCLC via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

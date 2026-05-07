@@ -24,6 +24,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - Mutations associated with tandem duplicator (TD) phenotype in [HGSOC](../cancer_types/HGSOC.md) [PMID:36517593](../papers/36517593.md)
 - CDK12 structural variants in 3 [GBC](../cancer_types/GBC.md) patients including fusions (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - Identified as somatically mutated in HGSOC in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- CDK12 mutations identified in prostate cancer WES of 112 tumors (Michigan cohort), implicating DNA damage response and transcription regulation [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

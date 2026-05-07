@@ -22,6 +22,9 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - Mutations enriched in early-onset esophagogastric cancer (12% vs. 6% in average-onset, P=0.004, Q=0.03), consistent with the enrichment of signet ring cell/diffuse-type histology in younger patients [PMID:37699004](../papers/37699004.md).
 - One CDH1 mutation found upon resequencing in dedifferentiated liposarcoma ([DDLS](../cancer_types/DDLS.md)) as part of a 722-gene targeted panel applied to 207 high-grade soft tissue sarcomas ([sarc_mskcc](../datasets/sarc_mskcc.md)); functional impact was not established [PMID:20601955](../papers/20601955.md).
 - CDH1 somatic mutations identified in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
+- CDH1 truncating mutations identified in breast cancer WES of 100 tumors; enriched in lobular subtype [PMID:22722201](../papers/22722201.md)
+- CDH1 mutations observed in medulloblastoma WGS of 37 tumors (PCGP) [PMID:22722829](../papers/22722829.md)
+- CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner [PMID:22802077](../papers/22802077.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +49,14 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 *This page was processed by **entity-page-writer** on **2026-05-03**.*
 - [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

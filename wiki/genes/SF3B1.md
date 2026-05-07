@@ -19,6 +19,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - R625C hotspot mutation identified in 1 of 7 treatment-refractory lactotroph pituitary neuroendocrine tumors (PitNETs); previously reported in aggressive prolactinomas [PMID:38758238](../papers/38758238.md).
 - SF3B1 splicing-factor mutations are recurrent in MDS and co-occur with STAG2 mutations in the Tokyo cohort [PMID:21909114](../papers/21909114.md)
 - WES of 103 breast cancers identified SF3B1 as a recurrently mutated splicing-factor gene, with mutations associated with altered RNA splicing patterns [PMID:22158541](../papers/22158541.md)
+- Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent mutations in the RNA splicing factor SF3B1 [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22158541](../papers/22158541.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

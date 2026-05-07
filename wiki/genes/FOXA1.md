@@ -21,6 +21,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Identified as a recurrent post-treatment alteration and Gleason/metastasis-association gene in [PRAD](../cancer_types/PRAD.md) within the MSK-CHORD real-world cohort (n = 3,211 prostate cancer patients); co-listed with [AR](../genes/AR.md), [CDK12](../genes/CDK12.md), and [NKX3-1](../genes/NKX3-1.md) as markers of treatment-driven genomic evolution [PMID:39506116](../papers/39506116.md).
 - Binding sites at distal enhancers hypomethylated in breast cancer metastases; implicated in estrogen-mediated suppression of cell-adhesion genes [PMID:36585450](../papers/36585450.md)
 - Missense mutations restricted to the Forkhead domain near the DNA-binding surface in 4/111 prostate cancer exomes; FOXA1 modulates AR-driven transcription and activates CDKN1B expression [PMID:22610119](../papers/22610119.md)
+- FOXA1 identified as a recurrently mutated transcription factor in prostate cancer WES cohort (Michigan, 112 tumors); mutations cluster in the forkhead domain and may cooperate with ETS fusions [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

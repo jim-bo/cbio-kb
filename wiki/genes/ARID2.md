@@ -9,7 +9,7 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -26,6 +26,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 loss-of-function mutations enriched specifically at the actinic keratosis (AK)-to-cutaneous squamous cell carcinoma (cSCC) transition in a clonal evolution study of 16 AK-cSCC pairs; ARID2 loss was associated with SWI/SNF disruption and potential immune evasion [PMID:39091884](../papers/39091884.md).
 - ARID2 (SWI/SNF complex member) mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md) with no significant difference in mutation rates between responders and non-responders (n=35) [PMID:38653864](../papers/38653864.md).
 - ARID2 LOF mutations in 6% of [GBC](../cancer_types/GBC.md); structural variants in 2 samples [PMID:36228155](../papers/36228155.md)
+- ARID2 mutations identified in breast cancer WES of 100 tumors, further implicating SWI/SNF complex disruption in breast cancer [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

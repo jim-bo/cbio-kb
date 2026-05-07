@@ -39,6 +39,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous deletions identified as rare but potentially significant events in breast cancer across METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Recurrently mutated and deleted in prostate cancer; inversely associated with SPOP mutations in primary tumors (P = 0.044) [PMID:22610119](../papers/22610119.md)
 - Recurrently disrupted by structural rearrangements in 4/25 melanoma tumors; PREX2 is a known PTEN-interacting protein and negative regulator of PTEN activity [PMID:22622578](../papers/22622578.md)
+- Inactivating mutations leading to AKT activation identified in breast cancer WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
+- Functional loss via MAGI3 disruption in breast cancer (Broad WES/WGS, 103 tumors); MAGI3 PDZ domain required for PTEN inhibition of PI3K; MAGI3-AKT3 fusion disrupts this interaction in triple-negative breast cancer [PMID:22722202](../papers/22722202.md)
+- Focal deletion and mutation in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); previously reported alteration confirmed in this cohort [PMID:22722829](../papers/22722829.md)
+- Loss and mutations identified as a significantly mutated gene in CRPC (Michigan WES, 112 tumors); interaction network identified [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +118,17 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22622578](../papers/22622578.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

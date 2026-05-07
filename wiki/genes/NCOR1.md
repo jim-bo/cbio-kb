@@ -3,7 +3,7 @@ symbol: NCOR1
 aliases: [N-CoR, TRAC1]
 cancer_types: [BRCA]
 tags: [deletion, transcriptional-repressor, breast-cancer, novel-candidate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -17,6 +17,7 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 
 - NCOR1 homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (~2,000 tumors) by integrated CNA-expression analysis [PMID:22522925](../papers/22522925.md)
 - NCOR1 nominated as a novel candidate driver gene alongside [MDM4](../genes/MDM4.md) and [CDK4](../genes/CDK4.md) by expression outlier analysis [PMID:22522925](../papers/22522925.md)
+- Truncating mutations and homozygous deletions identified in breast cancer WES (100 tumors, Sanger cohort); participates in oestrogen receptor alpha transcriptional repression [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

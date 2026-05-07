@@ -5,8 +5,8 @@ drug_class: MEK1/2 inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # selumetinib
@@ -18,6 +18,7 @@ Selumetinib is a selective MEK1/2 inhibitor with FDA approval for neurofibromato
 ## Evidence in the corpus
 
 - Selumetinib (MEK inhibitor) was among MAPK-pathway directed therapies evaluated across [BRAF](../genes/BRAF.md) fusion-positive tumors (N=241, 52 histologies at MSK); MEK inhibitor monotherapy provided durable benefit particularly in pilocytic astrocytomas (all 6 patients >6 months on therapy, median 8 months across all MEK inhibitor-treated patients), while combination [BRAF](../genes/BRAF.md)+MEK inhibition was less durable (median 1 month) [PMID:38922339](../papers/38922339.md).
+- NCI-60 CellMiner pharmacogenomics analysis linked MAPK pathway genomic features to selumetinib sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 
 ## Resistance mechanisms
 
@@ -32,3 +33,6 @@ Selumetinib is a selective MEK1/2 inhibitor with FDA approval for neurofibromato
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

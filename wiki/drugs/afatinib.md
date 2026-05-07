@@ -5,8 +5,8 @@ drug_class: 2nd-generation EGFR TKI
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # afatinib
@@ -18,6 +18,7 @@ Afatinib is an irreversible, pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 ## Evidence in the corpus
 
 - [BRAF](../genes/BRAF.md) fusions are a recurrent (2--4%) mechanism of acquired resistance to EGFR TKIs including afatinib in EGFR-mutant [LUAD](../cancer_types/LUAD.md); median time from EGFR TKI start to acquired [BRAF](../genes/BRAF.md) fusion detection was 23 months (range 9--37 months) across 15 patients [PMID:38922339](../papers/38922339.md).
+- NCI-60 CellMiner pharmacogenomics analysis identified genomic determinants of afatinib (pan-EGFR TKI) sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 
 ## Resistance mechanisms
 
@@ -32,3 +33,6 @@ Afatinib is an irreversible, pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

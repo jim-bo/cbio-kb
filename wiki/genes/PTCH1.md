@@ -3,8 +3,8 @@ symbol: PTCH1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,6 +19,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 - PTCH1 mutations observed in 18% of dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); enriched in responders (26%) vs. non-responders (7%), though the association did not reach statistical significance [PMID:38653864](../papers/38653864.md).
 - As a negative regulator of Hedgehog signaling, PTCH1 loss may promote an immunosuppressive tumor microenvironment (TME), a potential mechanism explaining the trend toward enrichment in responders (given the [MEGF8](../genes/MEGF8.md) negative-HH-regulator association with immunotherapy benefit) [PMID:38653864](../papers/38653864.md).
+- Biallelic inactivation and focal deletion in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); canonical SHH-pathway driver [PMID:22722829](../papers/22722829.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:38653864](../papers/38653864.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

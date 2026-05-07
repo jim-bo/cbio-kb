@@ -4,8 +4,8 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -25,6 +25,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - No single driver gene is proposed as a biomarker; the paper's gene-level claims focus on the 20-gene Immunologic Constant of Rejection (ICR) module [PMID:37202560](../papers/37202560.md).
 - [ERBB2](../genes/ERBB2.md) (HER2): HCT-116 is HER2− (T-DM1 IC50 >100 nM), serving as the definitive HER2-negative colon cancer negative control demonstrating receptor-selectivity of ADC radiosensitization. [PMID:27698471](../papers/27698471.md)
 - The ICR signature includes [IFNG](../genes/IFNG.md), [TBX21](../genes/TBX21.md), [CD8A](../genes/CD8A.md), [CD8B](../genes/CD8B.md), [IL12B](../genes/IL12B.md), [STAT1](../genes/STAT1.md), [IRF1](../genes/IRF1.md), [CCL5](../genes/CCL5.md), [CXCL9](../genes/CXCL9.md), [CXCL10](../genes/CXCL10.md), [GNLY](../genes/GNLY.md), [PRF1](../genes/PRF1.md), [GZMA](../genes/GZMA.md), [GZMB](../genes/GZMB.md), [GZMH](../genes/GZMH.md), [CD274](../genes/CD274.md), [CTLA4](../genes/CTLA4.md), [FOXP3](../genes/FOXP3.md), [IDO1](../genes/IDO1.md), [PDCD1](../genes/PDCD1.md) [PMID:37202560](../papers/37202560.md).
+- NCI-60 CellMiner pharmacogenomics analysis identified ABCB1 expression and EGFR pathway activity as determinants of drug sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:27698471](../papers/27698471.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -22,6 +22,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - RNF43 is listed as an altered gene in the cervical cancer genomic landscape cohort (N=177), where Wnt pathway alterations are implicated in a subset of cases [PMID:37643132](../papers/37643132.md).
 - RNF43 alterations independently associated with shorter first-line [OS](../cancer_types/OS.md) in metastatic PDAC patients receiving chemotherapy (HR_adj = 2.79, P_adj = 0.047; median 6.6 vs 10.8 months); trend toward higher [KRAS](../genes/KRAS.md) mutant-allele gain frequency in RNF43-mutant tumors (67% vs 30%, P = 0.2), though the trend was not statistically significant. [PMID:39753968](../papers/39753968.md)
 - WES of pancreatic cystic neoplasms identified recurrent RNF43 mutations in intraductal papillary mucinous neoplasms (IPMNs), establishing it as a candidate tumor suppressor in pancreatic cystic lesions [PMID:22158988](../papers/22158988.md)
+- Ubiquitin ligase upregulated in colon cancer; colon-specific expression pattern in NCI-60 cell lines identified via CellMiner drug-pattern comparison analysis [PMID:22802077](../papers/22802077.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -19,6 +19,7 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - TMPRSS2-ERG fusions depleted in MSI-H/dMMR prostate cancer (3%) compared with TMB-H/MSS (12%) and TMB-L/MSS tumors (p=0.015), suggesting that the ERG fusion pathway and mismatch repair deficiency represent distinct oncogenic routes [PMID:38949888](../papers/38949888.md).
 - ERG was identified as a recurrently rearranged gene in prostate cancer through integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - TMPRSS2-ERG ETS rearrangements present in up to 50% of prostate cancers; mutually exclusive with SPOP mutations in a 112-tumor WES cohort (Broad) [PMID:22610119](../papers/22610119.md)
+- TMPRSS2-ERG fusion identified as the most prevalent ETS gene rearrangement in prostate cancer WES cohort (Michigan, 112 tumors); ERG fusions detected in approximately 50% of cases [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

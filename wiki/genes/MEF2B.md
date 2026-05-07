@@ -8,7 +8,7 @@ tags:
   - transcription-factor
   - epigenetic
   - GCB
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -21,6 +21,7 @@ MEF2B encodes Myocyte Enhancer Factor 2B, a MADS-box transcription factor that c
 ## Alterations observed in the corpus
 
 - MEF2B was recurrently mutated in DLBCL and [FL](../cancer_types/FL.md) with hotspot missense mutations at K4, Y69, N81, and D83; alterations restricted to GCB subtype and cooperate with CREBBP/EP300 mutations in disrupting histone acetylation at germinal center enhancers [PMID:21796119](../papers/21796119.md)
+- MEF2B harbors recurrent somatic mutations in diffuse large B-cell lymphoma (DLBCL), identified by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ MEF2B encodes Myocyte Enhancer Factor 2B, a MADS-box transcription factor that c
 - [PMID:21796119](../papers/21796119.md) — Whole-genome/exome sequencing of non-Hodgkin lymphomas (DLBCL/FL)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

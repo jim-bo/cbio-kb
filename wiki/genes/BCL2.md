@@ -18,6 +18,7 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - Recurrent immunoglobulin-locus translocation partner predominantly in IGHV-mutated CLL (5/88 WGS cases, 5.7%), arising via aberrant V(D)J recombination; additional cases identified by WES [PMID:35927489](../papers/35927489.md).
 - BCL2 translocation enriched in EZB DLBCL subtype (81% of EZB cases) in a real-world LymphGen classification validation study using MSK-IMPACT Heme (400-gene panel, 241 DLBCL patients); BCL2 translocation is a robust single-gene classifier for the EZB molecular subtype [PMID:38497151](../papers/38497151.md).
 - Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -43,5 +44,8 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

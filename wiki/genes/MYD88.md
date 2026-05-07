@@ -19,6 +19,7 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - Mutated in 72% of PCNSLs profiled with [MSK-HemePACT](../methods/msk-hemepact.md) in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial [PMID:38995739](../papers/38995739.md).
 - MYD88 mutations are a key classifier for MCD DLBCL subtype in the LymphGen algorithm; classification validated using a 400-gene clinical NGS panel (MSK-IMPACT Heme) with high confidence "Core" group accuracy of 96% [PMID:38497151](../papers/38497151.md).
 - MYD88 was recurrently mutated in DLBCL, with the L265P hotspot mutation activating NF-kB signaling in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
+- MYD88 L265P and other somatic mutations were identified as recurrent drivers in diffuse large B-cell lymphoma by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

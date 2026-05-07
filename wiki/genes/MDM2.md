@@ -3,7 +3,7 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -26,6 +26,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Amplification identified in p53 pathway context in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); part of the p53 pathway altered in a subset of [LUAD](../cancer_types/LUAD.md). [PMID:18948947](../papers/18948947.md)
 - MDM2 amplification in 9% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - MDM2 amplification in 11% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
+- MDM2 expression and copy number were profiled across 947 cancer cell lines in the CCLE pharmacogenomic study, providing a resource for correlating MDM2 status with drug sensitivity [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

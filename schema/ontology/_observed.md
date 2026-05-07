@@ -125,7 +125,7 @@
 - drug: cisplatin — observed in PMID:41941260 — note: SOC chemoradiation partner referenced for MIBC and HNSCC MCTs
 - drug: etrumadenant — observed in PMID:41941260 — note: dual A2AR/A2BR adenosine-receptor antagonist in rectal-cancer MCT2 (NCT05024097)
 - drug: zimberelimab — observed in PMID:41941260 — note: anti-PD-1 mAb in rectal-cancer MCT2 (NCT05024097) combined with SCRT + etrumadenant + FOLFOX
-- drug: avelumab — observed in PMID:41941260 — note: anti-PD-L1 mAb in Javelin HN100 chemoradiation ± avelumab expansion cohort analyzed by GenRad
+- drug: avelumab — observed in PMID:41941260 — note: anti-PD-L1 mAb in Javelin HN100 chemoradiation +/- avelumab expansion cohort analyzed by GenRad
 - drug: folfox — observed in PMID:41941260 — note: 5-FU/leucovorin/oxaliplatin regimen combined with SCRT and immunotherapy in rectal-cancer MCT2
 - method: visium-hd — observed in PMID:41941260 — note: 10x Genomics Visium HD high-definition spatial transcriptomics on 140+ rectal-cancer biopsies (ImmunoRad)
 - method: xenium — observed in PMID:41941260 — note: 10x Genomics Xenium single-cell spatial profiling on pediatric neuroblastoma pre/post 131I-MIBG (KIDSROBIN)
@@ -180,14 +180,14 @@
 - method: multimodal-late-fusion — observed in PMID:35764743 — note: Cox late-fusion framework integrating radiomic, histopathological, genomic and clinical submodels by summing log partial hazards; chosen over early fusion to enable learning from partial-information cases
 - method: ct-radiomics — observed in PMID:35764743 — note: PyRadiomics 3D Coif-wavelet GLCM/GLDM/GLRLM/GLSZM/NGTDM feature extraction from manually segmented omental and adnexal lesions on pre-treatment CE-CT
 - method: msk-impact-panel — observed in PMID:35764743 — note: MSK-IMPACT clinical sequencing used to infer HRD status via HRD-DDR gene variants and CCNE1 CNA in 296 MSKCC HGSOC patients
-- dataset: gpcchn-poznan — observed in PMID:37397861 — note: private 298-patient HNSCC cohort from Greater Poland Cancer Centre, Poznań; no TCIA URL or cBioPortal studyId; used as in-house external validation in Kim 2023 prognostic challenge
+- dataset: gpcchn-poznan — observed in PMID:37397861 — note: private 298-patient HNSCC cohort from Greater Poland Cancer Centre, Poznan; no TCIA URL or cBioPortal studyId; used as in-house external validation in Kim 2023 prognostic challenge
 - method: pyradiomics — observed in PMID:37397861 — note: open-source Python library for hand-engineered radiomic feature extraction; v2.2.0 used in RADCURE HNSC challenge, yielding ~1,316 features from CT GTV masks
 - method: pyradiomics — observed in PMID:35764743 — note: PyRadiomics used to extract 600 Coif-wavelet CT radiomic features per omental/adnexal lesion in HGSOC multimodal study
 - method: mtlr — observed in PMID:37397861 — note: Multi-Task Logistic Regression survival framework (Yu et al.); top-performing model in RADCURE HNSC prognostic challenge (AUROC 0.823); outputs full patient-level survival curves
 - method: clinical-longformer — observed in PMID:39506116 — note: Longformer-based NLP transformer fine-tuned on clinical notes for prior-treatment and HER2/HR-status extraction in MSK-CHORD pipeline
 - method: clinicalbert — observed in PMID:39506116 — note: BERT-based NLP model for ten-binary multi-label tumor-site extraction from clinical/radiology notes in MSK-CHORD pipeline
 - method: mimsi — observed in PMID:39746944 — note: deep MIL classifier for MSI detection from targeted NGS reads; outperforms MSIsensor in low-purity samples
-- method: msisensor — observed in PMID:39746944 — note: reference MSI calling tool using paired tumor-normal NGS; threshold ≥10 for MSI-H; also used in PMID:39753968 MSK PDAC cohort
+- method: msisensor — observed in PMID:39746944 — note: reference MSI calling tool using paired tumor-normal NGS; threshold >=10 for MSI-H; also used in PMID:39753968 MSK PDAC cohort
 - drug: nutlin-3a — observed in PMID:20601955 — note: MDM2 antagonist (p53-MDM2 interaction inhibitor); proposed therapeutic for DDLS with MDM2/YEATS4 co-amplification on 12q
 - method: affymetrix-250k-snp-array — observed in PMID:20601955 — note: ~250K SNP genotyping microarray for genome-wide SCNA and LOH profiling in 207 high-grade sarcomas
 - method: shrna-rnai-screen — observed in PMID:20601955 — note: pooled shRNA loss-of-function screen of 385 genes (2,007 shRNAs) in three DDLS cell lines to identify copy-number dependencies
@@ -208,3 +208,6 @@
 - drug: atezolizumab — observed in PMID:36228155 — note: anti-PD-L1 checkpoint inhibitor; 1 GBC patient in MSK cohort (n=233) received atezolizumab; not found in local ontology
 - drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); targets BRD4; enhances cytotoxicity in ARID1A-deficient SCLC cells; synergizes with BRD-K98645985
 - drug: brd-k98645985 — observed in PMID:22037554 — note: 12-membered macrolactam compound selectively targeting the ARID1A-containing BAF complex; potent single-agent and JQ1-synergistic antitumor activity in SCLC
+- cancer_type: SCA — observed in PMID:22158988 — note: serous cystadenoma of the pancreas; benign neoplastic cyst; no OncoTree code found; VHL-driven
+- drug: rituximab — observed in PMID:22343534 — note: anti-CD20 antibody in R-CHOP standard of care for DLBCL
+- method: mutsig — observed in PMID:22343534 — note: MutSig algorithm for identifying significantly mutated genes above background mutation rate

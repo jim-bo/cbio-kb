@@ -5,8 +5,8 @@ drug_class: dual EGFR/HER2 tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, tki, egfr, her2]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # lapatinib
@@ -19,6 +19,7 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 
 - In HER2+ OE19 (esophageal) and HER2+ NCI-N87 (gastric) cancer cell viability assays, lapatinib was used as a dual EGFR/HER2 TKI comparator; T-DM1 was more potent than lapatinib at sub-nanomolar concentrations in HER2+ cells, demonstrating that cytotoxic payload delivery via ADC surpasses receptor signal inhibition in this context [PMID:27698471](../papers/27698471.md).
 - Lapatinib represents the ErbB signal-inhibition strategy that the paper argues is suboptimal due to bypass-pathway resistance (downstream signaling via alternate ErbB members, PI3K/RAS pathways), which the ADC approach circumvents [PMID:27698471](../papers/27698471.md).
+- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
 
 ## Resistance mechanisms
 
@@ -34,3 +35,6 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - [PMID:27698471](../papers/27698471.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

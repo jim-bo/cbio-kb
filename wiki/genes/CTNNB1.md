@@ -12,7 +12,7 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -30,6 +30,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Adjusted HR = 2.70 (95% CI: 1.74--4.18, n=65) for cancer-associated VTE by pan-cancer ctDNA liquid biopsy analysis; among the strongest gene-specific VTE associations [PMID:39147831](../papers/39147831.md).
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); Wnt/beta-catenin pathway member; co-mutated with other Wnt pathway genes including [APC](../genes/APC.md) and [LRP1B](../genes/LRP1B.md). [PMID:18948947](../papers/18948947.md)
 - CTNNB1 GOF mutations in 6% of [GBC](../cancer_types/GBC.md); identified as potential driver by oncodrive clustering (p.S45F/P); higher frequency in primaries without cholelithiasis (22% vs 4.3%) [PMID:36228155](../papers/36228155.md)
+- CTNNB1 mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt/beta-catenin pathway activation [PMID:22158988](../papers/22158988.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

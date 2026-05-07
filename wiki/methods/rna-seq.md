@@ -36,6 +36,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used to sequence transcriptomes of 113 additional NHL cases (DLBCL and FL) in the BCGSC study; provided mutation calls and expression data complementing WGS/WES in 14 matched pairs [PMID:21796119](../papers/21796119.md)
 - Bulk RNA-seq used across SCLC and LUAD cell lines (CCLE/DepMap) to characterize ARID1A expression levels and correlate with JQ1 sensitivity; SCLC lines showed markedly higher ARID1A expression than LUAD lines (p < 0.0001) [PMID:22037554](../papers/22037554.md)
 - Bulk RNA-seq used across 14 ccRCC cohorts (n=3,621) to define HiTME molecular subtypes and train ICI/TKI response prediction models; WU-RCC independent validation cohort included 157 samples with bulk RNA-seq [PMID:22138691](../papers/22138691.md)
+- Used alongside WES in breast cancer to detect splice-site consequences of SF3B1 mutations and quantify allele-specific expression [PMID:22158541](../papers/22158541.md)
 
 ## Notes
 
@@ -76,5 +77,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158541](../papers/22158541.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -5,8 +5,8 @@ drug_class: topoisomerase I inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # irinotecan
@@ -22,6 +22,7 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [KRAS](../genes/KRAS.md)^G12R^-mutant [PAAD](../cancer_types/PAAD.md) patients were enriched among those receiving neoadjuvant FOLFIRINOX ([fluorouracil](../drugs/fluorouracil.md) + irinotecan + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) followed by resection (32.7% vs 17.9% for [KRAS](../genes/KRAS.md)^G12D^, p=0.094), suggesting possible KRAS-allele-specific chemosensitivity to irinotecan-containing regimens [PMID:39214094](../papers/39214094.md).
 - Irinotecan + [temozolomide](../drugs/temozolomide.md) was one of five PDTO-matched treatment regimens applied in sarcoma patients; normalized organoid viability correlated with time-to-next-treatment across the n=5 matched-treatment cohort (R²=0.921, p=0.009) [PMID:39305899](../papers/39305899.md).
 - FOLFIRINOX (incorporating irinotecan) was administered to 38% of the curated 1,480-patient MSK PDAC cohort as first-line therapy; backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic patients [PMID:39753968](../papers/39753968.md).
+- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
 
 ## Resistance mechanisms
 
@@ -41,3 +42,6 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

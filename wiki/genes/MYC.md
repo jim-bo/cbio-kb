@@ -36,6 +36,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification at 8q24 was identified as a significant copy-number alteration in HGSOC by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:22037554](../papers/22037554.md)
+- MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified SF3B1 mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +97,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22037554](../papers/22037554.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158541](../papers/22158541.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

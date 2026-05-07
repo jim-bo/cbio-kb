@@ -3,7 +3,7 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -24,6 +24,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET amplification and fusion detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
 - MET amplification in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B actionable) [PMID:36228155](../papers/36228155.md)
 - MET mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.81 and P = 0.42) [PMID:36038778](../papers/36038778.md)
+- MET amplification and expression were characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling correlation with sensitivity to targeted drugs [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

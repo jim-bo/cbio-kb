@@ -3,8 +3,8 @@ symbol: RNF43
 aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 canonical_source: cbioportal
 unverified: false
 ---
@@ -21,6 +21,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - RNF43 mutations observed in prostate cancer patient-derived xenografts (PDXs) in heterogeneity pair 316, functioning as a negative regulator of the Wnt pathway; identified as a driver alteration in this model [PMID:38488813](../papers/38488813.md).
 - RNF43 is listed as an altered gene in the cervical cancer genomic landscape cohort (N=177), where Wnt pathway alterations are implicated in a subset of cases [PMID:37643132](../papers/37643132.md).
 - RNF43 alterations independently associated with shorter first-line [OS](../cancer_types/OS.md) in metastatic PDAC patients receiving chemotherapy (HR_adj = 2.79, P_adj = 0.047; median 6.6 vs 10.8 months); trend toward higher [KRAS](../genes/KRAS.md) mutant-allele gain frequency in RNF43-mutant tumors (67% vs 30%, P = 0.2), though the trend was not statistically significant. [PMID:39753968](../papers/39753968.md)
+- WES of pancreatic cystic neoplasms identified recurrent RNF43 mutations in intraductal papillary mucinous neoplasms (IPMNs), establishing it as a candidate tumor suppressor in pancreatic cystic lesions [PMID:22158988](../papers/22158988.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -6,8 +6,8 @@ canonical_source: corpus
 unverified: true
 tags:
   - chemotherapy
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # topotecan
@@ -20,6 +20,7 @@ Topotecan is a topoisomerase I inhibitor used in relapsed ovarian cancer, small-
 
 - [Osteosarcoma](../cancer_types/OS.md) PDTOs from the UCLA functional screen were significantly more sensitive to topotecan than the pan-sarcoma average (p=0.028). [PMID:39305899](../papers/39305899.md)
 - [LMS](../cancer_types/LMS.md) PDTOs were significantly less sensitive to topotecan than the pan-sarcoma average (p=0.031), consistent with prior negative clinical trial data in leiomyosarcoma. [PMID:39305899](../papers/39305899.md)
+- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
 
 ## Resistance mechanisms
 
@@ -34,3 +35,6 @@ Topotecan is a topoisomerase I inhibitor used in relapsed ovarian cancer, small-
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; osteosarcoma sensitivity (p=0.028) and leiomyosarcoma resistance (p=0.031).
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

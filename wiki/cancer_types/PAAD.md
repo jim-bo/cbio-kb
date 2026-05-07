@@ -4,8 +4,8 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Pancreatic Adenocarcinoma (PAAD)
@@ -25,6 +25,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - Canonical driver frequencies in the resected MSK cohort (n=397 sequenced): [KRAS](../genes/KRAS.md) 90%, [TP53](../genes/TP53.md) 71%, [CDKN2A](../genes/CDKN2A.md) 24%, [SMAD4](../genes/SMAD4.md) 17%; no significant difference in these frequencies between early- and late-stage disease after multiple-testing correction [PMID:39214094](../papers/39214094.md).
 - [KRAS](../genes/KRAS.md) allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other [KRAS](../genes/KRAS.md) 8.1%, [KRAS](../genes/KRAS.md) wildtype 9.1% [PMID:39214094](../papers/39214094.md).
 - KRAS^G12R^ tumors carry a higher proportion of [CDKN2A](../genes/CDKN2A.md) mutations than KRAS^G12D^ (40% vs 22.1%, p=0.046) [PMID:39214094](../papers/39214094.md).
+- Whole-exome sequencing of 19 pancreatic cystic neoplasms (IPMNs, MCNs, SPNs) identified recurrent somatic mutations in VHL, RNF43, and GNAS, linking driver genes to specific PAAD subtypes [PMID:22158988](../papers/22158988.md)
 
 ## Subtypes
 
@@ -51,3 +52,6 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 *This page was processed by **crosslinker** on **2026-05-04**.*
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

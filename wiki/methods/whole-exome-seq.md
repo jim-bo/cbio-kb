@@ -45,6 +45,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC sequencing study; 113 additional cases sequenced via RNA-seq [PMID:21796119](../papers/21796119.md)
 - Used to sequence 74 HNSCC tumors (150x mean coverage, 87% loci >20x) in the Broad Institute HNSCC study; identified 39 significantly mutated genes including NOTCH1 and TP53 [PMID:21798893](../papers/21798893.md)
 - Used to sequence 32 primary HNSCC tumors with matched normals at JHU (Illumina GAIIx/HiSeq 77x and SOLiD 44x); identified NOTCH1 as the second most frequently mutated gene (15%) with predominantly truncating mutations [PMID:21798897](../papers/21798897.md)
+- Applied to 102 breast cancer samples to discover recurrent SF3B1 mutations and characterize the somatic mutational landscape [PMID:22158541](../papers/22158541.md)
+- Applied to 19 pancreatic cystic neoplasms to identify somatic mutations in VHL, RNF43, and GNAS across IPMN, MCN, and SPN subtypes [PMID:22158988](../papers/22158988.md)
+- Applied to 55 DLBCL tumors at the Broad Institute to identify recurrently mutated genes via MutSig analysis [PMID:22343534](../papers/22343534.md)
 
 ## Notes
 
@@ -96,5 +99,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:21798897](../papers/21798897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158541](../papers/22158541.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

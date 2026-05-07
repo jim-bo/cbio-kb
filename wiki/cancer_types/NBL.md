@@ -4,8 +4,8 @@ oncotree_code: NBL
 main_type: Peripheral Nervous System
 parent: PNS
 tags: [pediatric, neuroblastoma, radiation, intra-tumoral-heterogeneity, mibg]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # Neuroblastoma (NBL)
@@ -28,6 +28,8 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - High-risk tumors are characterized by undifferentiated nC3 cluster cells overexpressing [MYCN](../genes/MYCN.md), [ALK](../genes/ALK.md), [NTRK2](../genes/NTRK2.md) (TRKB), [BCL11A](../genes/BCL11A.md), [TP63](../genes/TP63.md), and mesenchymal markers [PRRX1](../genes/PRRX1.md)/[YAP1](../genes/YAP1.md)/[PDGFRA](../genes/PDGFRA.md); low-risk tumors are dominated by noradrenergic clusters expressing [NTRK1](../genes/NTRK1.md) (TRKA), [TH](../genes/TH.md), [DBH](../genes/DBH.md), [PHOX2A](../genes/PHOX2A.md)/[PHOX2B](../genes/PHOX2B.md). [PMID:34493726](../papers/34493726.md)
 - Chromosomal alterations in high-risk nC3 cells: recurrent 17q gain, 1p loss, 11q loss (confirmed by inferCNV and microarray in samples K87, K10, 23, K55, K3). [PMID:34493726](../papers/34493726.md)
 - nC3 undifferentiated signature correlates with age-at-diagnosis (FDR = 8.12×10⁻³¹) and poor survival in 498-sample SEQC cohort (Kaplan-Meier Bonferroni-corrected p <0.01); noradrenergic nC7/nC8 signatures associate with better outcome. [PMID:34493726](../papers/34493726.md)
+- LC-MS/MS proteomics of 15 neuroblastoma tumors stratified by MYCN status revealed distinct proteomic signatures distinguishing MYCN-amplified from non-amplified tumors [PMID:22367537](../papers/22367537.md)
+- CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 
 ## Subtypes
 
@@ -51,3 +53,9 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22367537](../papers/22367537.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -17,6 +17,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 - ETV6-NTRK3 fusion was expected (absent by FISH) in SARC0127, a suspected infantile fibrosarcoma ([IFS](../cancer_types/IFS.md)) case in the UCLA sarcoma patient-derived tumor organoid (PDTO) study (n=194 specimens, 126 patients). The PDTO was resistant to [larotrectinib](../drugs/larotrectinib.md), the TRK inhibitor indicated for NTRK-fusion-positive tumors; negative ETV6 FISH and [larotrectinib](../drugs/larotrectinib.md) resistance jointly led to reclassification as high-grade spindle cell/sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)), illustrating the diagnostic utility of functional PDTO screening as an orthogonal tool to pathology [PMID:39305899](../papers/39305899.md).
 - ETV6 was identified among recurrent genomic alterations in prostate cancer in an integrative genomic profiling study [PMID:20579941](../papers/20579941.md)
+- ETV6 is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -41,5 +42,8 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

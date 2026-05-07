@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -23,6 +23,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - 13 mutations in 11 [LUAD](../cancer_types/LUAD.md) tumours; first report of recurrent APC mutations in lung adenocarcinoma (previously known only in colorectal, squamous-cell, and small-cell lung cancer); part of Wnt pathway alteration. [PMID:18948947](../papers/18948947.md)
 - Subclonal APCQ879* detected in CRC C106-resistant cells; various APC alterations detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - APC truncated at aa 1309 in the A1309 CRC cell model; APC mutations implicated as potential biomarker of 5-FU resistance [PMID:36334560](../papers/36334560.md)
+- APC mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt pathway dysregulation [PMID:22158988](../papers/22158988.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:36334560](../papers/36334560.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

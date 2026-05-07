@@ -21,6 +21,7 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 
 - Mutated in 6 patients (24%) of the sequenced [PCNSL](../cancer_types/PCNSL.md) subset in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial; mutations mapped to the coiled-coil domain [PMID:38995739](../papers/38995739.md).
 - Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,8 @@ CARD11 is a scaffold protein in the CBM complex that couples BCR signaling to NF
 
 *This page was processed by **crosslinker** on **2026-04-10**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

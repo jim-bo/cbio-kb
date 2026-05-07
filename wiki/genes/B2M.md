@@ -21,6 +21,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Focal deletions in 3 breast cancer metastasis tumors from 3 individuals; methylation rare (1 tumor) [PMID:36585450](../papers/36585450.md)
 - MHC class I component highly expressed in [HGSOC](../cancer_types/HGSOC.md) Cancer.cell.3 cluster; subject to LOH-mediated loss as immune escape mechanism [PMID:36517593](../papers/36517593.md)
 - Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:21796119](../papers/21796119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

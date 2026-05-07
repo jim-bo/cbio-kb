@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [proteomics, mass-spectrometry, multi-omics]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # LC-MS/MS proteomics
@@ -18,6 +18,7 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 ## Used by
 
 - [PMID:34433969](../papers/34433969.md) — single-shot LC-MS/MS whole-cell proteomics was applied to 96 meningioma tumors from the University Health Network Brain Tumor BioBank, quantifying 6,568 proteins; integrated with WES, EPIC methylation, and mRNA-seq data to characterize four stable molecular groups (MG1–MG4) and identify MG4-specific proteomic markers [PMID:34433969](../papers/34433969.md).
+- Applied to 15 neuroblastoma tumor samples to quantify protein abundance and stratify tumors by MYCN amplification status [PMID:22367537](../papers/22367537.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 - [PMID:34433969](../papers/34433969.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:22367537](../papers/22367537.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

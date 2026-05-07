@@ -38,6 +38,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 GOF mutations (6%) and amplifications (10%) in [GBC](../cancer_types/GBC.md); amplification is OncoKB level 3B actionable; 10 patients received HER2-directed therapy [PMID:36228155](../papers/36228155.md)
 - ERBB2 mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.48 and P = 0.47) [PMID:36038778](../papers/36038778.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- ERBB2 amplification is among the top genomic features predicting lapatinib and other drug sensitivities in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 
 ## Cancer types (linked)
 
@@ -111,5 +112,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

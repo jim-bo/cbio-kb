@@ -22,6 +22,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 - EZH2 was recurrently mutated in DLBCL and FL, with gain-of-function mutations at Y641 (including Y641F, Y641N, Y641S, Y641H, Y641C), A682G, and A692V, leading to enhanced H3K27 trimethylation; mutations enriched in GCB subtype [PMID:21796119](../papers/21796119.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- EZH2 is among the significantly mutated genes in DLBCL identified by whole-exome sequencing of 55 tumors (MutSig, Broad Institute) [PMID:22343534](../papers/22343534.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:21798893](../papers/21798893.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Novel mutations target distinct subgroups of medulloblastoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22722829.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22722829.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Novel mutations target distinct subgroups of medulloblastoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Robinson G </p>
+             <p>Parker M </p>
+             <p>Kranenburg TA </p>
+             <p>Lu C </p>
+             <p>Chen X </p>
+             <p>Ding L </p>
+             <p>Phoenix TN </p>
+             <p>Hedlund E </p>
+             <p>Wei L </p>
+             <p>Zhu X </p>
+             <p>Chalhoub N </p>
+             <p>Baker SJ </p>
+             <p>Huether R </p>
+             <p>Kriwacki R </p>
+             <p>Curley N </p>
+             <p>Thiruvenkatam R </p>
+             <p>Wang J </p>
+             <p>Wu G </p>
+             <p>Rusch M </p>
+             <p>Hong X </p>
+             <p>Beckford J </p>
+             <p>Gupta P </p>
+             <p>Ma J </p>
+             <p>Easton J </p>
+             <p>Vadodaria B </p>
+             <p>Onar-Thomas A </p>
+             <p>Lin T </p>
+             <p>Li S </p>
+             <p>Pounds S </p>
+             <p>Paugh S </p>
+             <p>Zhao D </p>
+             <p>Kawauchi D </p>
+             <p>Roussel MF </p>
+             <p>Finkelstein D </p>
+             <p>Ellison DW </p>
+             <p>Lau CC </p>
+             <p>Bouffet E </p>
+             <p>Hassall T </p>
+             <p>Gururangan S </p>
+             <p>Cohn R </p>
+             <p>Fulton RS </p>
+             <p>Fulton LL </p>
+             <p>Dooling DJ </p>
+             <p>Ochoa K </p>
+             <p>Gajjar A </p>
+             <p>Mardis ER </p>
+             <p>Wilson RK </p>
+             <p>Downing JR </p>
+             <p>Zhang J </p>
+             <p>Gilbertson RJ </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature11213">10.1038/nature11213</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/22722829">22722829</a> · <strong>DOI:</strong> 10.1038/nature11213 · <strong>Journal:</strong> Nature (2012)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Whole-genome sequencing of 37 medulloblastomas (plus validation in 56 additional tumours; total n=93) identified 41 novel recurrently mutated genes that segregate by molecular subgroup. Subgroup-3 and 4 tumours harbour inactivating mutations in histone modification regulators (<a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/CHD7.html">CHD7</a>, <a href="../genes/ZMYM3.html">ZMYM3</a>) and gain/overexpress <a href="../genes/EZH2.html">EZH2</a>, maintaining a stem-like H3K27me3 epigenetic state. WNT-subgroup tumours carry mutations in CTNNB1-associated chromatin remodellers (<a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/CREBBP.html">CREBBP</a>) and the RNA helicase <a href="../genes/DDX3X.html">DDX3X</a>. Functional modelling in mouse lower rhombic lip progenitors (LRLPs) demonstrated that <a href="../genes/CDH1.html">CDH1</a> loss phenocopies mutant <a href="../genes/CTNNB1.html">CTNNB1</a>, DDX3X mutations expand the LRLP pool, and <a href="../genes/PIK3CA.html">PIK3CA</a> mutations accelerate but do not initiate WNT-subgroup medulloblastoma.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery cohort:</strong> 37 medulloblastomas with matched normal blood, whole-genome sequenced (WNT n=5, SHH n=5, subgroup-3 n=6, subgroup-4 n=19, unclassified n=2).</li>
+<li><strong>Validation cohort:</strong> 56 medulloblastomas subjected to targeted sequencing of 136 candidate genes (WNT n=6, SHH n=8, subgroup-3 n=11, subgroup-4 n=19, unclassified n=12).</li>
+<li><strong>Total analysed:</strong> 93 tumours across all four subgroups.</li>
+<li><strong>Cancer type:</strong> <a href="../cancer_types/MBL.html">MBL</a> (medulloblastoma).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/mbl_pcgp.html">mbl_pcgp</a> (St.&nbsp;Jude/Washington University Pediatric Cancer Genome Project).</li>
+<li><strong>Platforms:</strong> <a href="../methods/whole-genome-seq.html">Whole-genome sequencing</a>, Affymetrix U133v2 expression arrays, <a href="../methods/affymetrix-snp6.html">Affymetrix SNP 6.0</a>, custom capture arrays, <a href="../methods/sanger-sequencing.html">Sanger sequencing</a>.</li>
+<li><strong>Data deposition:</strong> dbGaP phs000409; SRA SRP008292.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>WGS detected 22,887 validated somatic sequence mutations (SNVs/indels), 536 SVs, and 5,802 CNVs across the discovery cohort.</li>
+<li>49 genes were recurrently mutated across all 93 tumours; 41 (84%) were novel for medulloblastoma.</li>
+<li>Mutation burden and amplification patterns varied significantly among subgroups (P values reported per gene in Figure 1).</li>
+<li>Fusion proteins were rare (&lt;2% of SVs encode potential in-frame fusions); inherited cancer-predisposition mutations were uncommon (1/37 confirmed biallelic hit).</li>
+<li><strong>Subgroup-3/4 epigenetics:</strong> KDM6A inactivating mutations in 8/93 tumours (predominantly subgroup-4 males); co-deletion of UTY on chrY in 57% of KDM6A-mutant males vs.&nbsp;6% of KDM6A-WT males (P&lt;0.005). CHD7 nonsense/frameshift in 4 subgroup-3/4 tumours. ZMYM3 mutations in 3 males with co-occurring KDM6A or KDM1A mutations. EZH2 gained/overexpressed via chr7q gain (P&lt;0.005).</li>
+<li><strong>WNT subgroup:</strong> CTNNB1 stabilising mutations in 8/11 WNT tumours (P&lt;0.0001). SMARCA4 helicase-domain missense mutations in 4 WNT tumours (P&lt;0.002). CREBBP nonsense in 2 WNT tumours (P&lt;0.02). DDX3X DEAD-box domain mutations enriched in WNT (P&lt;0.0001). CDH1 missense mutations in 2 WNT tumours lacking CTNNB1 mutations (P&lt;0.05).</li>
+<li><strong>PIK3CA:</strong> Activating mutations in 3 tumours (one each WNT, SHH, subgroup-4). Mouse modelling showed PIK3CA E545K accelerated but did not initiate WNT-medulloblastoma (100% penetrance by 3 months when combined with mutant Ctnnb1 vs.&nbsp;4% by 11 months without).</li>
+<li><strong>SHH subgroup:</strong> Biallelic PTCH1/SUFU inactivation in 4/13; GABRG1 T48M mutation in 2 SHH tumours.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Gene</th>
+<th>Alteration(s)</th>
+<th>Subgroup</th>
+<th>Finding</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../genes/KDM6A.html">KDM6A</a></td>
+<td>Inactivating (splice site, nonsense, frameshift)</td>
+<td>Subgroup-3/4</td>
+<td>Two-hit tumour suppressor model with UTY loss on chrY</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/EZH2.html">EZH2</a></td>
+<td>Copy-number gain (7q), overexpression</td>
+<td>Subgroup-3/4</td>
+<td>Maintains H3K27me3; anti-correlated with KDM6A/CHD7/ZMYM3 mutations</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/DDX3X.html">DDX3X</a></td>
+<td>Missense (DEAD-box domain)</td>
+<td>WNT</td>
+<td>Alters RNA binding; expands LRLP lineage rather than blocking migration</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/PIK3CA.html">PIK3CA</a></td>
+<td>Activating missense (Q546K, H1047R, N345K)</td>
+<td>WNT/SHH/subgroup-4</td>
+<td>Accelerates but does not initiate tumourigenesis via AKT pathway</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/CTNNB1.html">CTNNB1</a></td>
+<td>Stabilising missense (exon 3)</td>
+<td>WNT</td>
+<td>Present in &gt;70% of WNT tumours; canonical driver</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/SMARCA4.html">SMARCA4</a></td>
+<td>Missense (helicase domain)</td>
+<td>WNT</td>
+<td>Chromatin remodeller recruited to WNT-responsive genes by CTNNB1</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/CREBBP.html">CREBBP</a></td>
+<td>Nonsense</td>
+<td>WNT</td>
+<td>Histone acetyltransferase; co-mutated with SMARCA4 in one tumour</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/CHD7.html">CHD7</a></td>
+<td>Nonsense, frameshift</td>
+<td>Subgroup-3/4</td>
+<td>H3K4me3 chromatin remodeller</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/ZMYM3.html">ZMYM3</a></td>
+<td>Frameshift, nonsense, missense</td>
+<td>Subgroup-4 (males)</td>
+<td>Co-mutated with KDM6A/KDM1A; H3K4me3 regulation</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/CDH1.html">CDH1</a></td>
+<td>Missense (R63G, V329F)</td>
+<td>WNT</td>
+<td>Disrupts CTNNB1 sequestration; phenocopies mutant CTNNB1 in LRLPs</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/MYC.html">MYC</a></td>
+<td>Amplification</td>
+<td>Subgroup-3</td>
+<td>Mutually exclusive with epigenetic mutations</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/MYCN.html">MYCN</a></td>
+<td>Amplification (incl.&nbsp;chromothripsis)</td>
+<td>Subgroup-3/4</td>
+<td>Co-occurs with <a href="../genes/OTX2.html">OTX2</a> amplification</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/OTX2.html">OTX2</a></td>
+<td>Amplification</td>
+<td>Subgroup-3/4</td>
+<td>Cooperative with DDX31/TSC1 deletion at 9q34</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/TP53.html">TP53</a></td>
+<td>Mutations</td>
+<td>SHH</td>
+<td>Previously reported; co-occurs with chromothripsis</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/PTCH1.html">PTCH1</a></td>
+<td>Biallelic inactivation, focal deletion</td>
+<td>SHH</td>
+<td>Expected SHH-pathway driver</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/SUFU.html">SUFU</a></td>
+<td>Biallelic inactivation</td>
+<td>SHH</td>
+<td>Expected SHH-pathway driver</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/PTEN.html">PTEN</a></td>
+<td>Focal deletion, mutation</td>
+<td>SHH</td>
+<td>Previously reported</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/APC.html">APC</a></td>
+<td>Germline nonsense + somatic deletion</td>
+<td>WNT</td>
+<td>Turcot syndrome case</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/KMT2D.html">KMT2D</a></td>
+<td>Mutations</td>
+<td>SHH/other</td>
+<td>Previously reported (as MLL2)</td>
+</tr>
+<tr class="even">
+<td><a href="../genes/TRRAP.html">TRRAP</a></td>
+<td>Missense</td>
+<td>WNT</td>
+<td>CTNNB1-recruited histone acetyltransferase complex</td>
+</tr>
+<tr class="odd">
+<td><a href="../genes/MED13.html">MED13</a></td>
+<td>Missense</td>
+<td>WNT</td>
+<td>Mediator complex; coordinates RNA Pol II at WNT targets</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>EZH2 inhibitors</strong> may be therapeutic for subgroup-3 and 4 medulloblastoma, which rely on aberrant H3K27me3 maintenance and represent the most aggressive disease with limited treatment options.</li>
+<li><strong>PIK3CA/AKT pathway inhibitors</strong> could be considered for WNT-subgroup tumours harbouring PIK3CA activating mutations; however, these mutations progress rather than initiate tumours.</li>
+<li><strong>Subgroup-stratified clinical trials</strong> are essential: the study demonstrates that mutations are subgroup-specific, meaning drug trials must recruit the appropriate molecular subtype.</li>
+<li>DDX3X mutations represent a potential novel therapeutic target in WNT-subgroup disease.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The discovery cohort (n=37) is small; some subgroups (WNT, SHH) had only 5 cases each in the discovery set.</li>
+<li>Functional validation was performed only for WNT-subgroup genes (DDX3X, CDH1, PIK3CA) in mouse LRLPs; subgroup-3/4 epigenetic mutations lack equivalent in vivo modelling.</li>
+<li>The cell of origin for subgroup-3 medulloblastoma remains undefined, limiting interpretation of H3K27me3 progenitor data.</li>
+<li>Some mutated genes (DDX31, GABRG1) were detected at low frequency and await independent validation cohorts.</li>
+<li>The study population is pediatric; generalizability to adult medulloblastoma is unclear.</li>
+<li>Chromothripsis was rare (2/37) but its contribution to subgroup-3/4 pathogenesis warrants further study.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Recurrent mutations were detected in 41 genes not yet implicated in medulloblastoma: several target distinct components of the epigenetic machinery in different disease subgroups” (Summary).</li>
+<li>“Six subgroup-4, one subgroup-3, and one unclassified medulloblastoma contained novel inactivating mutations in KDM6A” (p.&nbsp;5).</li>
+<li>“57% (n=4/7) of KDM6A-mutant male medulloblastomas deleted chromosome Y, compared with only 6% (n=3/51) of male, KDM6A wild-type tumours (P&lt;0.005)” (p.&nbsp;5).</li>
+<li>“Four WNT-subgroup tumours contained heterozygous missense mutations in the helicase domain of SMARCA4 (P&lt;0.002)” (p.&nbsp;6).</li>
+<li>“100% (n=11/11) of Blbp-Cre; Ctnnb1+/lox(Ex3); Tp53+/flx; Pik3caE545K mice developed WNT-subgroup medulloblastomas by 3 months of age” (p.&nbsp;8).</li>
+<li>“Inhibitors of the epigenetic machinery, especially those that maintain H3K27me3 e.g., EZH2 methylases, may be useful treatments of subgroup-3 and 4 disease” (Discussion).</li>
+</ul>
+<p><em>This page was processed by <strong>paper-compiler</strong> on <strong>2026-05-06</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/22722829.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/22722829.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

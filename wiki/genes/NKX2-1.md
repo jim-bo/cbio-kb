@@ -3,8 +3,8 @@ symbol: NKX2-1
 aliases: [TTF1]
 cancer_types: [LUAD, NSCLC]
 tags: [lineage-factor, lung]
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # NKX2-1
@@ -18,6 +18,7 @@ NKX2-1 (TTF1) is a lineage-defining transcription factor in lung adenocarcinoma.
 - Among genes altered more often in [LUAD](../cancer_types/LUAD.md) metastases than matched primaries in the 2,532-specimen MSK metastatic organotropism cohort [PMID:37084736](../papers/37084736.md).
 - Enriched in both brain metastases and extracranial metastases of [LUAD](../cancer_types/LUAD.md) relative to non-metastatic primaries [PMID:37591896](../papers/37591896.md).
 - Appears in volcano plots of metastasis-association analyses in the MSK-CHORD pan-cancer real-world cohort (n=52,211) as an additional gene with [LUAD](../cancer_types/LUAD.md) metastatic associations. [PMID:39506116](../papers/39506116.md)
+- NKX2-1 (TTF-1) amplification identified as a lineage-specific oncogene in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ NKX2-1 (TTF1) is a lineage-defining transcription factor in lung adenocarcinoma.
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -37,6 +37,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used for WGS of 37 medulloblastoma tumors in the PCGP cohort (mbl_pcgp), identifying KDM6A, DDX3X, and SMARCA4 as driver genes [PMID:22722829](../papers/22722829.md)
 - 97 of 276 TCGA colorectal carcinoma pairs analyzed by low-pass whole-genome sequencing (~3-4X coverage) for structural variant detection alongside WES [PMID:22810696](../papers/22810696.md)
 - 39 of 125 pediatric medulloblastoma pairs (ICGC) analyzed by deep whole-genome sequencing at 35-fold mean coverage; identified tetraploidy as frequent early event in Group 3 and 4 tumors and described first medulloblastoma fusion genes [PMID:22832583](../papers/22832583.md)
+- Applied alongside WES in Genentech colorectal cohort to detect structural variants including RSPO2/RSPO3 fusions [PMID:22895193](../papers/22895193.md)
+- Applied to SCLC tumors in CLCGP study (29 cases) to detect structural rearrangements and copy number alterations in TP53/RB1-null tumors [PMID:22941188](../papers/22941188.md)
+- Used in JHU SCLC study (36 tumors) to complement WES and characterise copy number landscape including SOX2/MYCL amplifications [PMID:22941189](../papers/22941189.md)
+- Applied to subset of TCGA LUSC tumors (178-tumor cohort) to detect structural variants alongside WES-based somatic mutation calling [PMID:22960745](../papers/22960745.md)
+- Applied in Broad LUAD WES study (183 tumors) to characterise structural variation and somatic copy number alterations [PMID:22980975](../papers/22980975.md)
 
 ## Notes
 
@@ -89,5 +94,20 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -35,6 +35,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A truncating mutations identified in breast cancer WES of 100 tumors as a recurrent driver [PMID:22722201](../papers/22722201.md)
 - ARID1A is recurrently mutated in colorectal adenocarcinoma among 276 TCGA CRC tumors, implicating SWI/SNF chromatin remodeling complex disruption in CRC pathogenesis [PMID:22810696](../papers/22810696.md)
 - ARID1A is identified as a significantly mutated gene in melanoma WES of 121 tumors (Broad cohort), expanding its known role beyond gynecologic cancers to cutaneous melanoma [PMID:22817889](../papers/22817889.md)
+- Mutated in lung adenocarcinoma WES study (Broad, 183 tumors); identified in comprehensive genomic characterization of lung adenocarcinoma [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +96,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

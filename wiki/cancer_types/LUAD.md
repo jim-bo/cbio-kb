@@ -4,7 +4,7 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -46,6 +46,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Smoking mutational signatures identified in CSF ctDNA from lung adenocarcinoma samples (n=8 among 35 high-TMB samples) [PMID:39289779](../papers/39289779.md).
 - TSP sequencing of 188 primary LUAD tumours identified 26 significantly mutated genes, including novel tumour suppressors [NF1](../genes/NF1.md), [ATM](../genes/ATM.md), [RB1](../genes/RB1.md), [APC](../genes/APC.md) and tyrosine kinases [ERBB4](../genes/ERBB4.md), [EPHA3](../genes/EPHA3.md), [KDR](../genes/KDR.md) beyond the canonical five ([TP53](../genes/TP53.md), [KRAS](../genes/KRAS.md), [STK11](../genes/STK11.md), [EGFR](../genes/EGFR.md), [CDKN2A](../genes/CDKN2A.md)); 70% of tumours harboured MAPK pathway mutations [PMID:18948947](../papers/18948947.md)
 - In a 247-patient advanced [NSCLC](../cancer_types/NSCLC.md) cohort (79% LUAD), multimodal DyAM model integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC, and genomics achieved AUC=0.80 for ICI response prediction; [EGFR](../genes/EGFR.md) mutation (aHR=2.14) and [STK11](../genes/STK11.md) mutation (aHR=2.53) were confirmed as independent negative predictors of PD-(L)1 blockade [PMID:36038778](../papers/36038778.md)
+- Broad Institute WES of 183 lung adenocarcinomas identified EGFR, KRAS, and STK11 as major drivers; MutSig analysis nominated RBM10, U2AF1, and ARID1A as newly significant genes [PMID:22980975](../papers/22980975.md)
 
 ## Subtypes
 
@@ -84,3 +85,6 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

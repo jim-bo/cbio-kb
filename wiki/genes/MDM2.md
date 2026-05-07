@@ -29,6 +29,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 expression and copy number were profiled across 947 cancer cell lines in the CCLE pharmacogenomic study, providing a resource for correlating MDM2 status with drug sensitivity [PMID:22460905](../papers/22460905.md)
 - MDM2 amplification is a recurrent event in breast cancer; enriched in the IntClust 2 subtype within the METABRIC cohort of ~2,000 tumors [PMID:22522925](../papers/22522925.md)
 - Driver amplifications identified by copy number analysis in breast cancer WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
+- MDM2 amplification observed in lung squamous cell carcinoma (3% of 178 tumors in TCGA cohort) [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

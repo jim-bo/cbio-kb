@@ -20,7 +20,7 @@ LDB1 (LIM Domain Binding 1) encodes a nuclear co-regulator involved in transcrip
 
 ## Cancer types (linked)
 
-- **MB (medulloblastoma):** Mutations restricted to SHH subtype; hemizygous loss due to 10q deletion; implicated in N-CoR co-repressor complex disruption [PMID:22820256](../papers/22820256.md)
+- **MB (medulloblastoma):** Mutations restricted to [SHH](../genes/SHH.md) subtype; hemizygous loss due to 10q deletion; implicated in N-CoR co-repressor complex disruption [PMID:22820256](../papers/22820256.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -28,7 +28,7 @@ LDB1 (LIM Domain Binding 1) encodes a nuclear co-regulator involved in transcrip
 
 ## Therapeutic relevance
 
-- N-CoR complex disruption across GPS2, LDB1, and NCOR2 in medulloblastoma highlights potential sensitivity to epigenetic therapies targeting transcriptional co-repressor pathways.
+- N-CoR complex disruption across [GPS2](../genes/GPS2.md), LDB1, and [NCOR2](../genes/NCOR2.md) in medulloblastoma highlights potential sensitivity to epigenetic therapies targeting transcriptional co-repressor pathways.
 
 ## Open questions
 

@@ -28,6 +28,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM oncogenic mutations in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - Somatic mutations in 2 cases of TNBC; ranked 30th by driverNet network analysis in 65-tumor WGS breast cancer cohort [PMID:22495314](../papers/22495314.md)
 - Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- Mutated in colorectal cancer WES study (Genentech, 74 tumors) as part of comprehensive genomic profiling [PMID:22895193](../papers/22895193.md)
+- Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +79,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -37,6 +37,10 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Previously known breast cancer driver gene confirmed by WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
 - Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
 - Identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); RB1 loss-of-function mutations detected among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
+- Inactivating mutations in 100% of SCLC tumors (biallelic via mutation + deletion/LOH); classified as an early clonal event alongside TP53 [PMID:22941188](../papers/22941188.md)
+- Inactivating mutations and copy-number loss identified as significantly mutated in SCLC (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of LUSC tumors [PMID:22960745](../papers/22960745.md)
+- Mutation identified in LUAD WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
 
 ## Cancer types (linked)
 
@@ -107,5 +111,17 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

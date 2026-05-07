@@ -58,6 +58,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - 92 medulloblastoma tumor/normal pairs (Broad) sequenced by whole-exome hybrid capture covering 193,094 exons from 18,863 genes at median 106X coverage [PMID:22820256](../papers/22820256.md)
 - 21 pediatric medulloblastoma pairs (ICGC) analyzed by whole-exome sequencing at 68-fold on-target mean coverage; complemented by WGS (n=39) and custom-capture replication set (n=65) [PMID:22832583](../papers/22832583.md)
 - 147 melanoma tumor/normal pairs (Yale) analyzed by whole-exome sequencing (Roche/NimbleGen SeqCap EZ, 22.4 Mb capture, Illumina GAIIx/HiSeq 2000); discovery cohort for RAC1 P29S and PPP6C [PMID:22842228](../papers/22842228.md)
+- Applied to 74 colorectal tumors (Genentech cohort) to discover RSPO2/RSPO3 fusions and characterise the somatic mutation landscape [PMID:22895193](../papers/22895193.md)
+- Applied to 29 SCLC tumors (CLCGP) alongside WGS, revealing universal TP53+RB1 biallelic loss [PMID:22941188](../papers/22941188.md)
+- Applied to 36 SCLC tumors (JHU) to identify recurrent SOX2 and MYCL amplifications [PMID:22941189](../papers/22941189.md)
+- Applied to 178 LUSC tumors (TCGA) to define comprehensive somatic mutation landscape including CDKN2A, TP53, KEAP1, NFE2L2 [PMID:22960745](../papers/22960745.md)
+- Applied to 183 LUAD tumors (Broad) enabling MutSig-driven discovery of EGFR, KRAS, STK11, RBM10, U2AF1, ARID1A as significant drivers [PMID:22980975](../papers/22980975.md)
 
 ## Notes
 
@@ -148,5 +153,20 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

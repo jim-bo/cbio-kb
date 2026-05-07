@@ -29,6 +29,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D alterations identified in prostate cancer WES cohort (Michigan, 112 tumors); KMT2D loss co-occurs with ETS fusions and EZH2 alterations, suggesting convergent epigenetic dysregulation [PMID:22722839](../papers/22722839.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
+- Significantly mutated (FDR q < 0.1) in lung squamous cell carcinoma (178 tumors, TCGA); one of 10 top-tier significantly mutated genes [PMID:22960745](../papers/22960745.md)
 
 ## Cancer types (linked)
 
@@ -86,5 +87,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

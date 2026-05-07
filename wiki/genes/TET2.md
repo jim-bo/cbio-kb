@@ -3,8 +3,8 @@ symbol: TET2
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator, t-cell-lymphoma]
-processed_by: crosslinker
-processed_at: 2026-04-10
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # TET2
@@ -18,6 +18,7 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 - TET2 was the most frequently mutated gene in nodal [PTCL](../cancer_types/PTCL.md) at 52% (69/132), profiled on MSK-IMPACT [PMID:37078708](../papers/37078708.md).
 - No independent prognostic effect of TET2 mutation was reported in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
 - TET2 is a prevalent clonal hematopoiesis driver in MSK patients with nonhematologic cancer, used as a reference CH genotype in a 42,714-patient analysis [PMID:38147626](../papers/38147626.md).
+- Somatic mutations identified in colorectal cancer; among the first reports of TET family somatic mutations in CRC [PMID:22895193](../papers/22895193.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 - [PMID:38147626](../papers/38147626.md)
 
 *This page was processed by **crosslinker** on **2026-04-10**.*
+- [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

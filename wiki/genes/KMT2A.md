@@ -19,6 +19,7 @@ processed_at: 2026-05-06
 - **Paucity of secondary mutations:** The [KMT2A](../genes/KMT2A.md) rearrangement itself is considered a potent driver, as infant cases harbor exceptionally few additional somatic mutations [PMID:25730765](../papers/25730765.md).
 - KMT2A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - KMT2A (MLL) alteration detected in prostate cancer WES cohort (Michigan, 112 tumors); KMT2A rearrangements link histone H3K4 methylation dysregulation to prostate cancer progression [PMID:22722839](../papers/22722839.md)
+- Recurrent missense mutation (Ile960Met) identified in SCLC (29 tumors, CLCGP WES/WGS); histone methyltransferase [PMID:22941188](../papers/22941188.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ processed_at: 2026-05-06
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722839](../papers/22722839.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

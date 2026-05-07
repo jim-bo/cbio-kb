@@ -27,6 +27,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used to validate copy-number alterations in prostate adenocarcinoma tumors from the Broad WES cohort [PMID:22610119](../papers/22610119.md)
 - FISH used to validate KIT and BRAF copy-number alterations in melanoma WGS study [PMID:22622578](../papers/22622578.md)
 - FISH used to validate copy-number alterations and structural rearrangements in pediatric medulloblastoma cases (ICGC, n=125); confirmed chromosome gains and fusion gene events [PMID:22832583](../papers/22832583.md)
+- Used in CLCGP SCLC study (29 tumors) to validate focal amplifications of oncogenes including SOX2 and MYCL identified by WGS [PMID:22941188](../papers/22941188.md)
 
 ## Notes
 
@@ -53,5 +54,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941188](../papers/22941188.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

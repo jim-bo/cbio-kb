@@ -22,6 +22,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Somatic activating mutations in 56% of GISTs; one germline P/LP variant (p.Lys509Ile) identified in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 - 21-bp in-frame deletion in exon 11 detected in acral melanoma ME032; KIT exon 11 mutations in acral melanoma may confer sensitivity to imatinib [PMID:22622578](../papers/22622578.md)
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
+- Copy-number gain observed in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
+- Mutations including codon 761 (likely activating) and copy-number gain in SCLC (36 tumors, JHU WES/WGS) [PMID:22941189](../papers/22941189.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +57,11 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22941189](../papers/22941189.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -7,7 +7,7 @@ tags:
   - pi3k-pathway
   - oncogene
   - amplification
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -22,6 +22,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - AKT2 amplification was more common in Black endometrial carcinoma (EC) patients than in White patients (9% vs 3%, q<0.01) in a 1,025-patient molecular characterization study at MSK [PMID:37651310](../papers/37651310.md).
 - AKT2 amplifications associated with shorter overall survival in metastatic [PAAD](../cancer_types/PAAD.md) patients receiving first-line chemotherapy (HR_adj = 2.03, P_adj = 0.048) in the MSK PDAC genomic cohort (n=2,336 tumors) [PMID:39753968](../papers/39753968.md).
 - AKT2 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
+- AKT2 somatic mutations detected in breast cancer WES of 100 tumors, part of PI3K/AKT pathway driver landscape [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

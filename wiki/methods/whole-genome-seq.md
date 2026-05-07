@@ -33,6 +33,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - WGS applied to 65 breast tumors (BCCRC) to characterize structural rearrangements and somatic mutation landscapes [PMID:22495314](../papers/22495314.md)
 - WGS of 25 melanoma tumors used to identify PREX2 recurrent mutations and characterize KIT/BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
 - WGS used in HCC genomic studies to identify TERT promoter mutations, CTNNB1, and TP53 alterations [PMID:22634756](../papers/22634756.md)
+- Used for WGS of 103 breast cancer tumors in the Broad cohort (brca_broad), enabling structural variant and fusion discovery including MAGI3-AKT3 [PMID:22722202](../papers/22722202.md)
+- Used for WGS of 37 medulloblastoma tumors in the PCGP cohort (mbl_pcgp), identifying KDM6A, DDX3X, and SMARCA4 as driver genes [PMID:22722829](../papers/22722829.md)
 
 ## Notes
 
@@ -73,5 +75,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22634756](../papers/22634756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

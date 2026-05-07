@@ -22,6 +22,7 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - Erlotinib was identified as a prior targeted therapy in EGFR-mutant [LUAD](../cancer_types/LUAD.md) patients who subsequently acquired [BRAF](../genes/BRAF.md) fusions as a resistance mechanism (10/15 acquired-resistance cases in a 97,024-sample MSK cohort); one erlotinib + [trametinib](../drugs/trametinib.md) combination achieved 12 months on therapy at acquired [BRAF](../genes/BRAF.md) fusion resistance [PMID:38922339](../papers/38922339.md).
 - In preclinical HER2+ cancer cell line viability assays, erlotinib was used as [EGFR](../genes/EGFR.md) TKI comparator; T-DM1 was more potent than erlotinib in HER2+ OE19 esophageal cells, consistent with the ADC delivering cytotoxic payload independently of EGFR signaling [PMID:27698471](../papers/27698471.md).
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
+- NCI-60 CellMiner analysis linked EGFR pathway activity and ABCB1 expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 
 ## Resistance mechanisms
 
@@ -40,5 +41,8 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

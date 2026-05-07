@@ -3,7 +3,7 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [LUAD, NSCLC]
 tags: [tumor-suppressor, metastasis, co-alteration]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -23,6 +23,7 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - More than 30 mutations identified in 188 [LUAD](../cancer_types/LUAD.md) tumours; LOH in 17 tumours; correlates with smoker status (P=0.044); negatively correlated with [EGFR](../genes/EGFR.md) mutations (P=7e-6). [PMID:18948947](../papers/18948947.md)
 - STK11 LOF mutations in 6% of [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 3.94, 95% CI 1.62-9.55; multivariate HR 3.76, p=0.004) [PMID:36228155](../papers/36228155.md)
 - STK11 mutation (44/247, 17.8%) strongly associated with immunotherapy resistance in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.53, 95% CI 1.71-3.74, P < 0.005); independent predictor in multivariate analysis [PMID:36038778](../papers/36038778.md)
+- Identified as a significantly mutated gene in breast cancer WES of 100 tumors [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

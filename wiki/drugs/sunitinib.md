@@ -19,6 +19,7 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 
 - Cited as a therapeutic option relevant to GIST patients harboring germline P/LP variants in SDH-complex genes (SDHA/SDHB/SDHC) or [NF1](../genes/NF1.md), whose tumors are KIT/PDGFRA-wildtype and respond poorly to imatinib; sunitinib is referenced in the context of germline-guided therapy selection in 103 GIST patients with matched tumor-germline MSK-IMPACT sequencing [PMID:36593350](../papers/36593350.md)
 - Used as the comparator arm in IMmotion151 and JAVELIN Renal 101 trials; TKI-preferred ccRCC patients trended toward longer PFS with sunitinib (median 14 months) vs. bevacizumab+atezolizumab (median 10 months, p=0.06) in the HiTME decision-tree analysis [PMID:22138691](../papers/22138691.md)
+- NCI-60 CellMiner pharmacogenomics study examined genomic determinants of sunitinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 
 ## Resistance mechanisms
 
@@ -34,5 +35,8 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:22138691](../papers/22138691.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -24,6 +24,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - AR alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 - Identified as somatically altered in integrative genomic profiling of prostate cancer (MSKCC cohort) [PMID:20579941](../papers/20579941.md)
 - Gains of the AR gene are noted as a common prostate cancer alteration in a WES study of 112 prostate tumors [PMID:22610119](../papers/22610119.md)
+- AR amplifications and mutations detected in prostate cancer WES of 112 tumors (Michigan cohort), with AR activity linked to ETS fusion status [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

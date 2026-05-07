@@ -3,8 +3,8 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # FGFR1
@@ -20,6 +20,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - FGFR1 expression regulated by promoter methylation; elevated in bone metastases in prostate cancer PDX models; a novel downstream signature (NRP2, LRP4, TGFBI) was defined [PMID:38488813](../papers/38488813.md).
 - FGFR1 gain on chromosome 8 identified by whole-genome sequencing of SARC0133 ([RMS](../cancer_types/RMS.md)) in the UCLA sarcoma PDTO biobank (n=194 specimens); the FGFR1 gain correlated with selective PDTO sensitivity to [infigratinib](../drugs/infigratinib.md) (FGFR1/2/3 inhibitor) but not to [dovitinib](../drugs/dovitinib.md), demonstrating intra-class differentiation within FGFR inhibitors [PMID:39305899](../papers/39305899.md).
 - FGFR1 appeared in the MSK-CHORD volcano plots of metastasis and Gleason-association analyses across the 24,950-patient pan-cancer cohort; specific effect sizes for FGFR1 were not reported in the main text [PMID:39506116](../papers/39506116.md).
+- Identified as somatically mutated in breast cancer WES cohort (Sanger Institute, 100 tumors); FGFR1 mutations and amplifications highlight receptor tyrosine kinase pathway dysregulation in breast cancer [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

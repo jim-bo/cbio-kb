@@ -22,6 +22,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - KDM6A detected in 18% of pretreatment cfDNA samples from 201 metastatic urothelial carcinoma patients in the CALGB 90601 trial (MSK-ACCESS, 129-gene panel); no statistically significant survival association was reported for KDM6A alone but it is among the most common alterations in the mUC cfDNA landscape. [PMID:40256659](../papers/40256659.md)
 - Chromatin modifier commonly mutated in bladder cancer; shared trunk mutation in phylogenetic analyses of primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 - KDM6A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort), consistent with TCGA-BLCA [PMID:36333289](../papers/36333289.md)
+- KDM6A (UTX) identified as mutated in medulloblastoma WGS cohort (PCGP, 37 tumors); mutations implicate histone H3K27 demethylation pathway disruption in pediatric brain cancer [PMID:22722829](../papers/22722829.md)
+- KDM6A alterations detected in prostate cancer WES cohort (Michigan, 112 tumors); loss of KDM6A histone demethylase activity may synergize with EZH2 gain in prostate cancer progression [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +57,11 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
 - [PMID:36333289](../papers/36333289.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

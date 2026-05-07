@@ -34,6 +34,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Biallelic loss via chromoplexy in a myoepithelial carcinoma (MEC1) [PMID:36577525](../papers/36577525.md)
 - NF1 mutations (T676P, R2637*) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Driver mutations identified in breast cancer WES (100 tumors, Sanger cohort); NF1 classified among known cancer gene drivers from other tumour types observed in breast cancer [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +96,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

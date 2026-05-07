@@ -77,6 +77,9 @@
 - drug: fluorouracil — observed in PMID:39214094 — note: 5-FU backbone of FOLFIRINOX (neo)adjuvant chemotherapy in resected PDAC
 - drug: irinotecan — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
 - drug: oxaliplatin — observed in PMID:39214094 — note: FOLFIRINOX component in (neo)adjuvant PDAC chemotherapy
+- drug: gsk-690693 — observed in PMID:22722202 — note: ATP-competitive pan-AKT inhibitor; inhibits MAGI3-AKT3 fusion kinase in triple-negative breast cancer
+- drug: mk-2206 — observed in PMID:22722202 — note: allosteric PH-domain AKT inhibitor; ineffective against MAGI3-AKT3 fusion (no PH domain)
+- method: cellminer — observed in PMID:22802077 — note: NCI-60 web-based pharmacogenomics database; pattern comparison of gene expression and drug activity across 60 cell lines
 - drug: crizotinib — observed in PMID:39289779 — note: ALK/MET inhibitor; patient with MET exon 14 skipping transitioned from crizotinib to capmatinib upon CSF-detected resistance
 - drug: capmatinib — observed in PMID:39289779 — note: MET inhibitor; used after crizotinib resistance detected in CSF ctDNA
 - method: oncokb — observed in PMID:39289779 — note: OncoKB used to annotate clinical actionability of CSF ctDNA alterations (levels 1-4, R1-R2)
@@ -211,3 +214,6 @@
 - cancer_type: SCA — observed in PMID:22158988 — note: serous cystadenoma of the pancreas; benign neoplastic cyst; no OncoTree code found; VHL-driven
 - drug: rituximab — observed in PMID:22343534 — note: anti-CD20 antibody in R-CHOP standard of care for DLBCL
 - method: mutsig — observed in PMID:22343534 — note: MutSig algorithm for identifying significantly mutated genes above background mutation rate
+- drug: gsk-690693 — observed in PMID:22722202 — note: ATP-competitive Akt small-molecule inhibitor; inhibits MAGI3-AKT3 fusion phosphorylation in breast cancer
+- drug: mk-2206 — observed in PMID:22722202 — note: allosteric Akt inhibitor (PH-domain binding); does NOT inhibit MAGI3-AKT3 fusion due to disrupted PH domain
+- method: cellminer — observed in PMID:22802077 — note: NCI CellMiner web-based suite for NCI-60 genomic/pharmacologic data integration; z-score normalization, pattern comparison across 22,217 genes, 360 miRNAs, 18,549 compounds

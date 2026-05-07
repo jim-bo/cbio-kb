@@ -21,6 +21,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - In MSK-CHORD (24,950 patients), CHEK2 and [PPM1D](../genes/PPM1D.md) clonal-haematopoiesis variants were enriched in patients who had received prior systemic therapy, as annotated by NLP of clinical records; CHEK2 was identified as a post-treatment alteration across cancer types [PMID:39506116](../papers/39506116.md).
 - In 2,336 PDAC patients ([pdac_msk_2024](../datasets/pdac_msk_2024.md)), CHEK2 germline pathogenic variants were reported at higher prevalence in patients with Ashkenazi Jewish ancestry [PMID:39753968](../papers/39753968.md).
 - CHEK2 identified as a secondary synthetic lethal candidate in DDR screen in FBXO7-deficient CRC cells (checkpoint signaling pathway) [PMID:36334560](../papers/36334560.md)
+- Identified as pharmacogenomically relevant in NCI-60 cell line panel; CHEK2 alteration status correlates with drug sensitivity profiles in CellMiner analysis [PMID:22802077](../papers/22802077.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
 - [PMID:36334560](../papers/36334560.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -9,8 +9,8 @@ tags:
   - egfr-inhibitor
   - sarcoma
   - functional-precision-medicine
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # gefitinib
@@ -24,6 +24,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - Mutually exclusive [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) mutations in [LUAD](../cancer_types/LUAD.md) (n=188, P<1e-7) support independent treatment stratification: EGFR-mutant tumours (enriched in never-smokers, P=0.0046) are the primary target population for gefitinib and related EGFR TKIs. [PMID:18948947](../papers/18948947.md)
 - In a PDTO functional screen of 92 sarcoma specimens, PDTOs from patients with progressive disease at follow-up were more resistant to gefitinib (p=0.048) than those from patients with stable or responding disease, suggesting EGFR pathway dependence may be diminished in clinically aggressive sarcomas [PMID:39305899](../papers/39305899.md).
 - EGFR/ErbB signaling was implicated by pathway analysis (PubChem + WikiPathways/KEGG) in chordoma PDTOs (SARC0046_2/3, SARC0053_a, SARC0049) and an osteosarcoma subgroup; chordomas showed preferential sensitivity to TAK-285 (an EGFR/ERBB2 dual kinase inhibitor), consistent with broader EGFR pathway dependency in this histology [PMID:39305899](../papers/39305899.md).
+- NCI-60 CellMiner pharmacogenomics study identified EGFR-pathway genomic features associated with gefitinib sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 
 ## Resistance mechanisms
 
@@ -40,3 +41,6 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; gefitinib resistance associated with progressive disease at follow-up.
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

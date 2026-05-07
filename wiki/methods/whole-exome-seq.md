@@ -50,6 +50,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 55 DLBCL tumors at the Broad Institute to identify recurrently mutated genes via MutSig analysis [PMID:22343534](../papers/22343534.md)
 - WES complemented WGS in characterizing somatic coding mutations in 65 BCCRC breast tumors [PMID:22495314](../papers/22495314.md)
 - WES of 112 prostate adenocarcinoma tumors (Broad) identified SPOP, FOXA1, and MED12 as recurrent drivers [PMID:22610119](../papers/22610119.md)
+- Used for WES of 100 breast cancer tumors in the Sanger cohort (brca_sanger), identifying ~40 driver genes [PMID:22722201](../papers/22722201.md)
+- Used for WES of 103 breast cancer tumors in the Broad cohort (brca_broad), identifying PIK3CA mutations and MAGI3-AKT3 fusions [PMID:22722202](../papers/22722202.md)
+- Used for WES of 112 prostate cancer tumors in the Michigan cohort (prad_mich), identifying ETS fusions and SPOP mutations [PMID:22722839](../papers/22722839.md)
 
 ## Notes
 
@@ -116,5 +119,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

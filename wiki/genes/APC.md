@@ -24,6 +24,9 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Subclonal APCQ879* detected in CRC C106-resistant cells; various APC alterations detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - APC truncated at aa 1309 in the A1309 CRC cell model; APC mutations implicated as potential biomarker of 5-FU resistance [PMID:36334560](../papers/36334560.md)
 - APC mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt pathway dysregulation [PMID:22158988](../papers/22158988.md)
+- APC somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)
+- APC mutations observed in medulloblastoma WGS of 37 tumors (PCGP), implicating Wnt signaling disruption [PMID:22722829](../papers/22722829.md)
+- APC alterations observed in prostate cancer WES of 112 tumors (Michigan cohort) [PMID:22722839](../papers/22722839.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +59,14 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

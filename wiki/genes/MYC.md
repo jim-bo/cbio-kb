@@ -38,6 +38,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:22037554](../papers/22037554.md)
 - MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified SF3B1 mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
 - MYC amplification is a key driver in breast cancer, enriched in high-proliferation IntClust subtypes of the METABRIC cohort (~2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- Mutated in >10% of cases in breast cancer WES (100 tumors, Sanger cohort); identified as a high-frequency driver gene [PMID:22722201](../papers/22722201.md)
+- Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations (KDM6A, CHD7, ZMYM3) [PMID:22722829](../papers/22722829.md)
+- Transcriptional activator of the miR-17-92 cluster; expression correlated (r = 0.61) with miR-18a across NCI-60 cell lines in CellMiner pharmacogenomics platform analysis [PMID:22802077](../papers/22802077.md)
 
 ## Cancer types (linked)
 
@@ -104,5 +107,14 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22802077](../papers/22802077.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

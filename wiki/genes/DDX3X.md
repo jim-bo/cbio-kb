@@ -8,7 +8,7 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -21,6 +21,7 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 ## Alterations observed in the corpus
 
 - DDX3X mutated in 4% of HNSCC tumors by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort, [hnsc_broad](../datasets/hnsc_broad.md)); classified alongside [CASP8](../genes/CASP8.md) as an apoptosis-related significantly mutated gene [PMID:21798893](../papers/21798893.md)
+- Identified as a recurrently mutated gene in pediatric medulloblastoma WGS (PCGP, 37 tumors), with mutations clustered in the helicase domain [PMID:22722829](../papers/22722829.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22722829](../papers/22722829.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

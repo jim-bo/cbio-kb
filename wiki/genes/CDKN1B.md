@@ -17,6 +17,7 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 
 - Identified as somatically altered in integrative genomic profiling of prostate cancer (MSKCC cohort) [PMID:20579941](../papers/20579941.md)
 - Somatic substitutions in 3/112 samples and deletions in 16; first report of somatic point mutations in this cell cycle regulator in prostate cancer; activated by FOXA1 [PMID:22610119](../papers/22610119.md)
+- CDKN1B mutations identified in breast cancer WES of 100 tumors, implicating cell cycle checkpoint loss in breast tumorigenesis [PMID:22722201](../papers/22722201.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:22722201](../papers/22722201.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

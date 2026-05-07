@@ -63,6 +63,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 36 SCLC tumors (JHU) to identify recurrent SOX2 and MYCL amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to 178 LUSC tumors (TCGA) to define comprehensive somatic mutation landscape including CDKN2A, TP53, KEAP1, NFE2L2 [PMID:22960745](../papers/22960745.md)
 - Applied to 183 LUAD tumors (Broad) enabling MutSig-driven discovery of EGFR, KRAS, STK11, RBM10, U2AF1, ARID1A as significant drivers [PMID:22980975](../papers/22980975.md)
+- WES applied to 510 breast tumors as part of the TCGA comprehensive molecular portrait; identified PIK3CA, TP53, GATA3, MAP3K1 as top mutated genes [PMID:23000897](../papers/23000897.md)
+- WES of 142 ICGC pancreatic tumors; achieved mean 69x coverage; identified 2.4 somatic mutations per Mb [PMID:23103869](../papers/23103869.md)
+- WES of 240 neuroblastoma tumors from the Broad cohort; low overall somatic mutation burden (~0.6 per Mb) [PMID:23334666](../papers/23334666.md)
+- WES of 44 ETP-ALL tumors from St. Jude; revealed RAS/PI3K pathway mutations in majority of cases [PMID:23334668](../papers/23334668.md)
+- WES of 160 CLL tumors; identified SF3B1, NOTCH1, DDX3X, POT1 as significantly mutated genes [PMID:23415222](../papers/23415222.md)
 
 ## Notes
 
@@ -168,5 +173,20 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

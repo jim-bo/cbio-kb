@@ -45,6 +45,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Recurrently mutated in breast cancer WES/WGS cohort (Broad Institute, 103 tumors); ERBB2 somatic mutations identified in context of PIK3CA/AKT pathway co-alterations [PMID:22722202](../papers/22722202.md)
 - Somatic mutations including amplification detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Rare mutations (3 or fewer events) in 183 LUAD cases; copy-number gain observed; could not be statistically nominated due to low frequency [PMID:22980975](../papers/22980975.md)
+- Amplified in HER2-enriched breast cancer subtype (TCGA, 510 tumors); ERBB2 amplification defines the HER2-enriched intrinsic subtype [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -139,5 +140,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

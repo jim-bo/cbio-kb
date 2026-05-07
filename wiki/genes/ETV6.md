@@ -19,6 +19,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - ETV6 was identified among recurrent genomic alterations in prostate cancer in an integrative genomic profiling study [PMID:20579941](../papers/20579941.md)
 - ETV6 is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
+- Recurrently mutated in pediatric ALL (St. Jude WGS/WES, 44 tumors); ETV6-RUNX1 fusions detected in B-ALL cases [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22495314](../papers/22495314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -14,7 +14,7 @@ tags:
   - gi-cancers
   - early-stage
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-07
 ---
 
 # TGFBR2
@@ -27,6 +27,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 
 - Missense and truncating mutations in PDAC: TGFBR2 was mutated in 8.7% of early-stage (stage I) versus 2.4% of late-stage (stage II–III) PDAC in a consecutive resected cohort (n=397 sequenced); the enrichment in early-stage disease was nominally significant (p=0.008) but did not survive multiple-testing correction. [PMID:39214094](../papers/39214094.md)
 - Identified as significantly mutated in TCGA colorectal cancer cohort (276 tumors); TGFBR2 loss-of-function in TGF-beta signaling pathway altered in colorectal adenocarcinoma [PMID:22810696](../papers/22810696.md)
+- Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; TGFBR2 is a receptor in the TGF-beta signaling pathway [PMID:23103869](../papers/23103869.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 - [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

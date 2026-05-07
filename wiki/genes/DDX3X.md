@@ -24,6 +24,7 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - Identified as a recurrently mutated gene in pediatric medulloblastoma WGS (PCGP, 37 tumors), with mutations clustered in the helicase domain [PMID:22722829](../papers/22722829.md)
 - DDX3X mutations are recurrent in medulloblastoma across the ICGC WGS/WES cohort of 76 tumors, independently validating its role as a driver enriched in the WNT subgroup [PMID:22832583](../papers/22832583.md)
 - DDX3X is identified as a novel significantly mutated gene in medulloblastoma WES of 92 tumors (Broad cohort), with mutations concentrated in the WNT subgroup and showing male predominance [PMID:22820256](../papers/22820256.md)
+- Identified as significantly mutated in CLL (160 tumors, Broad cohort), with somatic mutations enriched in the RNA helicase domain [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +55,8 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

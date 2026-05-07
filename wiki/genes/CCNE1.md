@@ -37,6 +37,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Recurrent HBV integration target (5% of HCCs); HBV-CCNE1 fusions increase cyclin E1 expression and inhibit the RB pathway, disrupting G1/S cell cycle regulation [PMID:22634756](../papers/22634756.md)
 - Altered in SCLC WES/WGS study (CLCGP, 29 tumors) alongside universal TP53/RB1 loss [PMID:22941188](../papers/22941188.md)
+- Amplified in breast cancer (TCGA, 510 tumors); CCNE1 amplification observed predominantly in basal-like and HER2-enriched subtypes, linked to replication stress and genomic instability [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -93,5 +94,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

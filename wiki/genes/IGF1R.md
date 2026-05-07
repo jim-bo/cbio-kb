@@ -22,6 +22,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 - High IGF1R expression in multiple myeloma cell lines correlates with AEW541 (IGF-1R inhibitor) sensitivity in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
+- Mutated in breast cancer (TCGA, 510 tumors); somatic alterations identified across intrinsic subtypes [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22522925](../papers/22522925.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -7,8 +7,8 @@ tags:
   - transcription-factor
   - noradrenergic-marker
   - neuroblastoma
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # PHOX2B
@@ -20,6 +20,7 @@ PHOX2B (Paired-Like Homeobox 2B) is a homeodomain transcription factor critical 
 ## Alterations observed in the corpus
 
 - PHOX2B is significantly over-expressed in noradrenergic (NOR) tumor clusters (nC5/nC7/nC8/nC9) of neuroblastoma relative to undifferentiated nC3 cells (FDR <0.01, Welch's t-test) in a single-nuclei RNA-seq study of 11 tumors (Smart-Seq2). Co-expressed with [PHOX2A](../genes/PHOX2A.md), [TH](../genes/TH.md), [DBH](../genes/DBH.md), [PNMT](../genes/PNMT.md), and [ISL1](../genes/ISL1.md) as part of the noradrenergic/adrenergic transcription panel. [PMID:34493726](../papers/34493726.md)
+- Listed among germline candidate genes in high-risk neuroblastoma WES/WGS of 240 tumors (nbl_broad_2013); low overall somatic mutation burden (0.60/Mb) with germline predisposition variants enriched in ALK, CHEK2, PINK1, and BARD1 [PMID:23334666](../papers/23334666.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PHOX2B (Paired-Like Homeobox 2B) is a homeodomain transcription factor critical 
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

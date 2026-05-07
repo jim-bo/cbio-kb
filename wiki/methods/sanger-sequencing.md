@@ -25,6 +25,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate PREX2 and KIT mutations identified in melanoma WGS [PMID:22622578](../papers/22622578.md)
 - Used for validation sequencing of candidate mutations identified by WGS in 37 medulloblastoma tumors (PCGP cohort, mbl_pcgp) [PMID:22722829](../papers/22722829.md)
 - Sanger sequencing used to validate RAC1 P29S in an expanded melanoma cohort of 364 samples (Yale); mutation confirmed in 9.2% of sun-exposed melanomas [PMID:22842228](../papers/22842228.md)
+- Sanger sequencing used to validate somatic mutations discovered by WES/WGS in ETP-ALL tumors at St. Jude [PMID:23334668](../papers/23334668.md)
 
 ## Notes
 
@@ -54,5 +55,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

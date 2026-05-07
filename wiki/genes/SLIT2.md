@@ -3,8 +3,8 @@ symbol: SLIT2
 aliases: []
 cancer_types: [SCLC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-07
 ---
 
 # SLIT2
@@ -16,6 +16,7 @@ SLIT2 (Slit Guidance Ligand 2) encodes a secreted extracellular matrix glycoprot
 ## Alterations observed in the corpus
 
 - Truncating and missense mutations in 10% of [SCLC](../cancer_types/SCLC.md) tumors; candidate novel tumor suppressor in SCLC [PMID:22941188](../papers/22941188.md)
+- Identified as a significantly mutated axon guidance gene in pancreatic cancer WES of 142 ICGC tumors; SLIT2 encodes a secreted repulsive axon guidance ligand and is recurrently altered in pancreatic cancer [PMID:23103869](../papers/23103869.md)
 
 ## Cancer types (linked)
 
@@ -34,3 +35,6 @@ SLIT2 (Slit Guidance Ligand 2) encodes a secreted extracellular matrix glycoprot
 - [PMID:22941188](../papers/22941188.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

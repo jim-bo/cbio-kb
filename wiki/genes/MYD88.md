@@ -20,6 +20,7 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - MYD88 mutations are a key classifier for MCD DLBCL subtype in the LymphGen algorithm; classification validated using a 400-gene clinical NGS panel (MSK-IMPACT Heme) with high confidence "Core" group accuracy of 96% [PMID:38497151](../papers/38497151.md).
 - MYD88 was recurrently mutated in DLBCL, with the L265P hotspot mutation activating NF-kB signaling in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
 - MYD88 L265P and other somatic mutations were identified as recurrent drivers in diffuse large B-cell lymphoma by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
+- Predominantly clonal/early event in CLL; n=12 cases, clonal in 80-100% of harboring samples; mutations identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22343534](../papers/22343534.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -87,6 +87,9 @@
 - drug: nab-paclitaxel — observed in PMID:39214094 — note: gemcitabine/nab-paclitaxel (GnP) alternative first-line chemo regimen in COMPASS trial for advanced PDAC
 - method: rna-seq — observed in PMID:39214094 — note: bulk RNA-seq on 100 resected PDAC tumors from COMPASS trial cohort for allele-specific transcriptomic analysis
 - drug: vorinostat — observed in PMID:34433969 — note: HDAC inhibitor; selectively decreased viability of MG4 proliferative meningioma cell lines in vitro and in xenograft models
+- drug: pertuzumab — observed in PMID:23000897 — note: anti-HER2 dimerization-domain monoclonal antibody; two HER2+ breast cancer subtypes (HER2E vs. Luminal) may respond differently
+- drug: gdc-0941 — observed in PMID:23334668 — note: pan-PI3K inhibitor (pictilisib); ex vivo activity against both near haploid and low hypodiploid ALL subtypes
+- drug: bez235 — observed in PMID:23334668 — note: dual PI3K/mTOR inhibitor (dactolisib); ex vivo activity against hypodiploid ALL; MEK inhibitors were ineffective
 - method: epic-methylation-array — observed in PMID:34433969 — note: Illumina Infinium MethylationEPIC BeadChip for genome-wide DNA methylation profiling of 121 meningiomas
 - method: coca — observed in PMID:34433969 — note: Cluster of Cluster Algorithm for multi-platform integrative unsupervised clustering
 - method: snrna-seq — observed in PMID:34433969 — note: droplet-based single nuclear RNA sequencing on 8 meningiomas + 2 healthy meninges (54,393 nuclei)
@@ -218,3 +221,6 @@
 - drug: mk-2206 — observed in PMID:22722202 — note: allosteric Akt inhibitor (PH-domain binding); does NOT inhibit MAGI3-AKT3 fusion due to disrupted PH domain
 - method: cellminer — observed in PMID:22802077 — note: NCI CellMiner web-based suite for NCI-60 genomic/pharmacologic data integration; z-score normalization, pattern comparison across 22,217 genes, 360 miRNAs, 18,549 compounds
 - gene: STK19 — observed in PMID:22817889 — note: predicted kinase with D89N hotspot in 4-5% of melanomas; novel significantly mutated gene in cutaneous melanoma
+- drug: pertuzumab — observed in PMID:23000897 — note: anti-HER2 antibody targeting HER2-HER3 heterodimer; used in combination with trastuzumab for HER2+ breast cancer
+- drug: gdc-0941 — observed in PMID:23334668 — note: PI3K inhibitor (pictilisib); inhibited proliferation of near haploid and low hypodiploid ALL xenografts ex vivo
+- drug: bez235 — observed in PMID:23334668 — note: dual PI3K/mTOR inhibitor (dactolisib); inhibited proliferation of all hypodiploid ALL tumors tested ex vivo

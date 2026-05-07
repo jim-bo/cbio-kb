@@ -3,8 +3,8 @@ symbol: ITPKB
 aliases: []
 cancer_types: [CHL]
 tags: [hodgkin-lymphoma, aid-off-target]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # ITPKB
@@ -17,6 +17,7 @@ ITPKB encodes inositol-trisphosphate 3-kinase B. It is a recurrent driver in cla
 
 - Mutated in 28% of cHL cases; tended to carry more than one nonsynonymous mutation per case [PMID:36723991](../papers/36723991.md).
 - Elevated noncoding:coding mutation ratio consistent with AID off-target activity [PMID:36723991](../papers/36723991.md).
+- Novel CLL driver candidate involved in B cell receptor signaling; mutations identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ ITPKB encodes inositol-trisphosphate 3-kinase B. It is a recurrent driver in cla
 - [PMID:36723991](../papers/36723991.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

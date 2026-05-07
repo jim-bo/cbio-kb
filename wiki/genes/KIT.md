@@ -24,6 +24,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 - Copy-number gain observed in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Mutations including codon 761 (likely activating) and copy-number gain in SCLC (36 tumors, JHU WES/WGS) [PMID:22941189](../papers/22941189.md)
+- Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, IGF1R, MET, PDGFRA) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22941189](../papers/22941189.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

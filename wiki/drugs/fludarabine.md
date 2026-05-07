@@ -5,8 +5,8 @@ drug_class: purine analog
 canonical_source: 
 unverified: true
 tags: [chemotherapy, cll]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # fludarabine
@@ -19,6 +19,7 @@ Purine nucleoside analog; historical backbone of CLL chemoimmunotherapy. [RRM1](
 
 - In the 1,148-patient CLL map, [RRM1](../genes/RRM1.md) — the molecular target of fludarabine — was nominated as a novel U-CLL-specific driver [PMID:35927489](../papers/35927489.md).
 - In the contemporary era of ibrutinib/venetoclax (replacing fludarabine-based chemoimmunotherapy), isolated [TP53](../genes/TP53.md) mutation without 17p deletion was no longer associated with adverse outcome in U-CLL [PMID:35927489](../papers/35927489.md).
+- SF3B1 and other recurrently mutated genes identified in CLL tumors from patients treated with fludarabine-based regimens in the Broad/DFCI cohort [PMID:23415222](../papers/23415222.md)
 
 ## Resistance mechanisms
 
@@ -33,3 +34,6 @@ Purine nucleoside analog; historical backbone of CLL chemoimmunotherapy. [RRM1](
 - [PMID:35927489](../papers/35927489.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

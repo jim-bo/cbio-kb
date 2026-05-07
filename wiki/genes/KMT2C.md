@@ -21,6 +21,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - KMT2C is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - KMT2C LOF mutations in 6% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
+- Significantly mutated gene in pancreatic ductal adenocarcinoma (ICGC, 142 tumors); involved in chromatin modification and transcription regulation [PMID:23103869](../papers/23103869.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22820256](../papers/22820256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

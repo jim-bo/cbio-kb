@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-07
 ---
 
 # PDGFRA
@@ -23,6 +23,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); co-occurrence with [NTRK2](../genes/NTRK2.md) and [FGFR4](../genes/FGFR4.md) mutations noted; receptor tyrosine kinase. [PMID:18948947](../papers/18948947.md)
 - Somatic mutations in 10% of GISTs in a paired tumor-normal sequencing study [PMID:36593350](../papers/36593350.md)
 - PDGFRA amplification detected in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
+- Copy number amplification in Basal-like breast cancer; identified as a potential druggable target in TCGA 510-tumor cohort [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

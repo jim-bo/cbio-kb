@@ -18,6 +18,7 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 
 - Loss-of-function mutation observed in an example cSCC case; associated with increased phospho-MAPK signaling, consistent with the role of CBL in attenuating receptor tyrosine kinase signaling [PMID:39091884](../papers/39091884.md).
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Mutated in ALL (St. Jude WGS/WES, 44 tumors); CBL mutations identified as part of the RAS/PI3K signaling pathway alterations in pediatric acute lymphoblastic leukemia [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -41,5 +42,8 @@ CBL (Casitas B-lineage lymphoma) encodes a RING domain E3 ubiquitin ligase that 
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

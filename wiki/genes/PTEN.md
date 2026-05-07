@@ -51,6 +51,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN inactivating mutations in 2-4% of SCLC tumors with hotspot mutations and copy-number loss (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - PTEN mutation and deletion in lung squamous cell carcinoma (TCGA, 178 tumors); part of 47% PI3K pathway alteration rate [PMID:22960745](../papers/22960745.md)
 - PTEN alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) as part of PI3K pathway dysregulation [PMID:22980975](../papers/22980975.md)
+- Loss more common in Basal-like breast cancer; activates PI3K pathway; mutually exclusive with PIK3CA, PIK3R1, and AKT1 mutations (P=0.025) in 510 TCGA breast tumors (brca_tcga_pub) [PMID:23000897](../papers/23000897.md)
+- PI3K pathway dependence (involving PTEN loss) confirmed in hypodiploid ALL; PI3K inhibitors GDC-0941 and BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -162,5 +164,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

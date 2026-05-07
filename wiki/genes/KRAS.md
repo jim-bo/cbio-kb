@@ -52,6 +52,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS mutations common in lung adenocarcinoma are essentially absent in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Activating mutations in 27% of 183 LUAD cases; anti-correlated with EGFR mutations (P = 3.3e-4) [PMID:22980975](../papers/22980975.md)
 - Significantly mutated and amplified in 13% (10/74) of colorectal cancers (Genentech WES); co-occurs with RSPO fusions [PMID:22895193](../papers/22895193.md)
+- Copy-number amplification (32% of cases) in Basal-like breast cancer; not typically mutated in breast cancer, contrasting with other tumor types [PMID:23000897](../papers/23000897.md)
+- Activating mutations in 93% of pancreatic ductal adenocarcinoma cases (ICGC, 142 tumors); canonical GTPase/MAPK pathway driver [PMID:23103869](../papers/23103869.md)
+- Activating mutations in near haploid ALL as part of RTK/Ras signaling pathway (70.6% of near haploid cases affected by combined RTK/Ras alterations; St. Jude, 44 tumors) [PMID:23334668](../papers/23334668.md)
+- Novel CLL driver candidate; mutations at highly conserved sites identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -158,5 +162,17 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

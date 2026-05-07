@@ -22,6 +22,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR alterations present in 30% of FN-RMS patients (24% of individual samples) in a liquid biopsy multi-sample genomic study tracking [RMS](../cancer_types/RMS.md) progression and relapse (n=35 tumor pairs with ctDNA monitoring) [PMID:37730754](../papers/37730754.md).
 - BCOR is recurrently mutated in medulloblastoma WES of 92 tumors (Broad cohort), predominantly in the WNT and Group 3/4 subgroups [PMID:22820256](../papers/22820256.md)
 - BCOR is identified as a significantly mutated gene in medulloblastoma WGS/WES from the ICGC cohort of 76 tumors, with subgroup-specific enrichment [PMID:22832583](../papers/22832583.md)
+- Recurrently mutated in CLL (Broad WES, 160 tumors); BCOR mutations identified among significantly mutated genes in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

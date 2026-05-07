@@ -47,6 +47,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC copy-number amplification identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - MYC amplification identified as a recurrent somatic copy-number alteration in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - MYC pathway alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Copy-number amplification across breast cancer subtypes; hyperactivation characteristic of Basal-like breast cancer (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -140,5 +141,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

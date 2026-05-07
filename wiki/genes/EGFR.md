@@ -44,6 +44,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Alteration status profiled across NCI-60 cell lines in CellMiner pharmacogenomics study; EGFR mutations correlate with differential drug response patterns [PMID:22802077](../papers/22802077.md)
 - Amplification in 7% and L861Q activating mutation in 2 cases; canonical adenocarcinoma EGFR mutations (L858R, exon 19 del) essentially absent in LUSC; in COSMIC analysis, significantly mutated [PMID:22960745](../papers/22960745.md)
 - Activating mutations in 17% of 183 LUAD cases; novel in-frame C-terminal deletion (exons 25-26, vIVb variant) validated as oncogenic and erlotinib-sensitive; anti-correlated with KRAS (P = 3.3e-4) and associated with never/light smokers [PMID:22980975](../papers/22980975.md)
+- Amplified and mutated in breast cancer (TCGA, 510 tumors); enriched in the basal-like subtype [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -125,5 +126,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

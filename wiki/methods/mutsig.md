@@ -25,6 +25,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig applied to 92 medulloblastoma exomes (Broad) to identify 12 significantly mutated genes (q<0.1) including novel candidates DDX3X, GPS2, BCOR, LDB1 [PMID:22820256](../papers/22820256.md)
 - Applied to TCGA LUSC cohort (178 tumors) to identify significantly mutated genes including CDKN2A, TP53, KEAP1, NFE2L2, and MLL2 [PMID:22960745](../papers/22960745.md)
 - Applied to Broad LUAD cohort (183 tumors) to identify significantly mutated genes; nominated RBM10, U2AF1, and ARID1A as novel drivers alongside EGFR, KRAS, and STK11 [PMID:22980975](../papers/22980975.md)
+- MutSig applied to neuroblastoma WES data to identify significantly mutated genes; ALK, PTPN11, and ATRX passed significance thresholds [PMID:23334666](../papers/23334666.md)
+- MutSig analysis of 160 CLL exomes identified SF3B1, NOTCH1, DDX3X, and POT1 as significantly mutated genes beyond background rates [PMID:23415222](../papers/23415222.md)
 
 ## Notes
 
@@ -57,5 +59,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

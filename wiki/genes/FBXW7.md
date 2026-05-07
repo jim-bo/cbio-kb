@@ -25,6 +25,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Significantly mutated in COSMIC-restricted analysis of lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Among 25 significantly mutated genes identified by InVEx/MutSig in 183 LUAD cases [PMID:22980975](../papers/22980975.md)
 - Significantly mutated in microsatellite-stable colorectal cancer (Genentech WES, 74 tumors) [PMID:22895193](../papers/22895193.md)
+- Identified as significantly mutated in CLL (Broad cohort, 160 tumors); truncating and missense mutations in the WD40 substrate-recognition domain [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -69,5 +70,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22895193](../papers/22895193.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -26,6 +26,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [KRAS](../genes/KRAS.md) allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other [KRAS](../genes/KRAS.md) 8.1%, [KRAS](../genes/KRAS.md) wildtype 9.1% [PMID:39214094](../papers/39214094.md).
 - KRAS^G12R^ tumors carry a higher proportion of [CDKN2A](../genes/CDKN2A.md) mutations than KRAS^G12D^ (40% vs 22.1%, p=0.046) [PMID:39214094](../papers/39214094.md).
 - Whole-exome sequencing of 19 pancreatic cystic neoplasms (IPMNs, MCNs, SPNs) identified recurrent somatic mutations in VHL, RNF43, and GNAS, linking driver genes to specific PAAD subtypes [PMID:22158988](../papers/22158988.md)
+- Whole-exome sequencing of 142 ICGC pancreatic ductal adenocarcinoma tumors revealed KRAS, TP53, SMAD4, and CDKN2A as the most frequently mutated genes, plus novel axon-guidance pathway alterations [PMID:23103869](../papers/23103869.md)
 
 ## Subtypes
 
@@ -53,5 +54,8 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22158988](../papers/22158988.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

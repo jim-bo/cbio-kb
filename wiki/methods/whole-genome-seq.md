@@ -42,6 +42,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used in JHU SCLC study (36 tumors) to complement WES and characterise copy number landscape including SOX2/MYCL amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to subset of TCGA LUSC tumors (178-tumor cohort) to detect structural variants alongside WES-based somatic mutation calling [PMID:22960745](../papers/22960745.md)
 - Applied in Broad LUAD WES study (183 tumors) to characterise structural variation and somatic copy number alterations [PMID:22980975](../papers/22980975.md)
+- WGS of 87 neuroblastoma tumor/normal pairs from the Broad cohort; detected structural variants including MYCN amplifications and ALK rearrangements [PMID:23334666](../papers/23334666.md)
+- WGS of 7 ETP-ALL tumor/normal pairs at St. Jude; revealed complex structural rearrangements in FLT3, JAK1/2, and cytokine receptor genes [PMID:23334668](../papers/23334668.md)
 
 ## Notes
 
@@ -109,5 +111,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

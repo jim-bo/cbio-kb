@@ -26,6 +26,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 somatic mutations were recurrently detected in diffuse large B-cell lymphoma by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - NOTCH1 mutations identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - NOTCH1 truncating mutations (8/17 loss-of-function) in lung squamous cell carcinoma (TCGA, 178 tumors); part of 44% squamous differentiation pathway alteration rate [PMID:22960745](../papers/22960745.md)
+- Recurrently mutated CLL driver gene identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -68,5 +69,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

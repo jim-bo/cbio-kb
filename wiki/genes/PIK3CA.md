@@ -60,6 +60,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA rare activating hotspot mutations identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - PIK3CA mutation and amplification in lung squamous cell carcinoma (TCGA, 178 tumors); part of 47% PI3K pathway alteration rate [PMID:22960745](../papers/22960745.md)
 - PIK3CA activating mutations identified as significant in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- E545K hotspot mutation almost exclusively Luminal A (25/27 cases); amplification in 49% of Basal-like tumors; mutations in 45% Luminal A, 39% HER2E, 29% Luminal B, 9% Basal-like across 510 TCGA breast tumors (brca_tcga_pub); statistically significant mutual exclusivity with PIK3R1, PTEN, and AKT1 mutations (P=0.025) [PMID:23000897](../papers/23000897.md)
+- Mutually exclusive with PIK3R1, PTEN, and AKT1 alterations in PDAC (ICGC, 142 tumors); PI3K pathway implicated via GISTIC2.0 copy-number analysis [PMID:23103869](../papers/23103869.md)
+- PI3K pathway activation (elevated pERK, pmTOR, pS6) observed in both near haploid and low hypodiploid ALL; PI3K inhibitor GDC-0941 and dual PI3K/mTOR inhibitor BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -186,5 +189,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

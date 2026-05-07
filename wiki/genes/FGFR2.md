@@ -3,7 +3,7 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -19,6 +19,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 is an actionable driver in intrahepatic cholangiocarcinoma; the MSK hidden-genome classifier predicted overall survival in IHC independently of FGFR2 alteration status [PMID:38864854](../papers/38864854.md).
 - In the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) PDAC cohort (n = 2,336), FGFR2 was included among OncoKB-annotated actionable alterations tracked across MAPK-wild-type and other-MAPK-mutant subtypes; activating fusions involving MAPK-pathway genes (which include FGFR2) were nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P = 2 × 10⁻³⁵) [PMID:39753968](../papers/39753968.md).
 - FGFR2 mutations (I654V, D725V) detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC patient ctDNA [PMID:36355783](../papers/36355783.md)
+- Mutated and focally amplified in breast cancer (TCGA, 510 tumors); alterations enriched in luminal subtypes [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:36355783](../papers/36355783.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

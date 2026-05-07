@@ -3,8 +3,8 @@ symbol: ZMYM3
 aliases: []
 cancer_types: [MBL]
 tags: [chromatin-remodeling, H3K4me3, KDM6A-pathway, medulloblastoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-07
 ---
 
 # ZMYM3
@@ -16,6 +16,7 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 ## Alterations observed in the corpus
 
 - Frameshift, nonsense, and missense mutations in ZMYM3 identified in medulloblastoma WGS (PCGP cohort, 37 tumors); alterations cluster in subgroup-4 tumors from male patients; co-mutated with [KDM6A](../genes/KDM6A.md) and [KDM1A](../genes/KDM1A.md) in H3K4me3 regulatory complex [PMID:22722829](../papers/22722829.md)
+- Identified as a significantly mutated gene in CLL WES of 160 tumors; ZMYM3 encodes a zinc finger MYM-type protein involved in chromatin regulation [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

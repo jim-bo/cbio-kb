@@ -23,6 +23,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Identified as somatically mutated in breast cancer WES cohort (Sanger Institute, 100 tumors); FGFR1 mutations and amplifications highlight receptor tyrosine kinase pathway dysregulation in breast cancer [PMID:22722201](../papers/22722201.md)
 - Focal amplification in lung squamous cell carcinoma (TCGA, 178 tumors); identified as a candidate therapeutic target [PMID:22960745](../papers/22960745.md)
 - Focal amplification in 6% of SCLC (29 tumors, CLCGP WES/WGS); potential therapeutic target [PMID:22941188](../papers/22941188.md)
+- Amplified in luminal B and HER2-enriched breast cancer subtypes (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -61,5 +62,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

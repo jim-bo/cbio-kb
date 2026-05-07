@@ -24,6 +24,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Amplification (including via chromothripsis) in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); co-occurs with OTX2 amplification [PMID:22722829](../papers/22722829.md)
 - Amplified in 5 SHH-subgroup medulloblastoma cases in WGS/WES of 125 tumors (ICGC cohort) [PMID:22832583](../papers/22832583.md)
 - MYCN focal amplification in 6% of SCLC tumors (CLCGP, 29 tumors); mutually exclusive with MYCL and MYC amplification [PMID:22941188](../papers/22941188.md)
+- Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with ATRX loss [PMID:23334666](../papers/23334666.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

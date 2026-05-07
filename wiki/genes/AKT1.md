@@ -25,6 +25,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 mutation identified in ARID1A-mutant ovarian cancer functional genomics screen as a synthetic lethal vulnerability with BET bromodomain inhibition [PMID:22037554](../papers/22037554.md)
 - Somatic mutations identified in AKT1 in breast cancer WES of 100 tumors, contributing to PI3K/AKT pathway activation [PMID:22722201](../papers/22722201.md)
 - AKT1 alterations identified in breast cancer WES/WGS of 103 tumors (Broad Institute), implicating AKT pathway in breast tumorigenesis [PMID:22722202](../papers/22722202.md)
+- Mutated in breast cancer (TCGA, 510 tumors); AKT1 alterations identified as part of the PIK3CA/AKT signaling axis in luminal subtypes [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -65,5 +66,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

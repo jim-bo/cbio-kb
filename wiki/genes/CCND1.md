@@ -32,6 +32,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 copy-number amplification is observed in the Broad melanoma WES cohort of 121 tumors, implicating cell cycle dysregulation as a cooperating event with BRAF/NRAS mutations [PMID:22817889](../papers/22817889.md)
 - CCND1 amplification is detected in the Yale melanoma WES cohort of 147 tumors, consistent with its role in cell cycle entry and co-amplification with CDK4 [PMID:22842228](../papers/22842228.md)
 - Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
+- Amplified in breast cancer (TCGA, 510 tumors); CCND1 amplification enriched in luminal B and HER2-enriched subtypes, driving cell-cycle progression via CDK4/6 [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -82,5 +83,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

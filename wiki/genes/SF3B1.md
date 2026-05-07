@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, PTAD]
 tags: [splicing-factor, cll-driver]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-07
 ---
 
 # SF3B1
@@ -20,6 +20,9 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - SF3B1 splicing-factor mutations are recurrent in MDS and co-occur with STAG2 mutations in the Tokyo cohort [PMID:21909114](../papers/21909114.md)
 - WES of 103 breast cancers identified SF3B1 as a recurrently mutated splicing-factor gene, with mutations associated with altered RNA splicing patterns [PMID:22158541](../papers/22158541.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent mutations in the RNA splicing factor SF3B1 [PMID:22722201](../papers/22722201.md)
+- Identified as a significantly mutated splicing factor gene in TCGA breast cancer cohort (510 tumors) [PMID:23000897](../papers/23000897.md)
+- Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors [PMID:23103869](../papers/23103869.md)
+- Recurrently mutated in CLL WES of 160 tumors (Broad Institute cohort); SF3B1 mutations are a hallmark of CLL and associate with distinct clinical features [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +56,12 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:22722201](../papers/22722201.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

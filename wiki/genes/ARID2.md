@@ -29,6 +29,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 mutations identified in breast cancer WES of 100 tumors, further implicating SWI/SNF complex disruption in breast cancer [PMID:22722201](../papers/22722201.md)
 - ARID2 is recurrently mutated in melanoma among 121 tumors (Broad WES cohort), with mutations enriching in UV-signature contexts [PMID:22817889](../papers/22817889.md)
 - ARID2 is significantly mutated in a Yale melanoma WES cohort of 147 tumors, independently validating its role as a melanoma driver affecting the SWI/SNF complex [PMID:22842228](../papers/22842228.md)
+- Somatically mutated in pancreatic cancer (ICGC WES, 142 tumors); ARID2 loss-of-function mutations identified among significantly mutated genes in the SWI/SNF chromatin-remodeling complex [PMID:23103869](../papers/23103869.md)
 
 ## Cancer types (linked)
 
@@ -68,5 +69,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22842228](../papers/22842228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

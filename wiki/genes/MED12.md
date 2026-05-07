@@ -20,6 +20,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - Recurrent mutations in uterine leiomyosarcoma ([ULMS](../cancer_types/ULMS.md), 15% frequency); infrequent in soft-tissue leiomyosarcoma (STLMS, 1%); not included in genomic risk stratification model [PMID:38488807](../papers/38488807.md).
 - Hotspot mutations (p.G44A/D/S/R/V) more prevalent in serous endometrial carcinomas from Black patients (11% vs. 0% in White patients) [PMID:37651310](../papers/37651310.md).
 - MED12 harbors somatic mutations in prostate cancer; identified by WES of 112 primary tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
+- Novel CLL driver candidate identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -50,5 +51,8 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22610119](../papers/22610119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

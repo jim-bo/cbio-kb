@@ -45,6 +45,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Mutated in colorectal cancer WES study (Genentech, 74 tumors) [PMID:22895193](../papers/22895193.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Mutated in breast cancer (TCGA, 510 tumors); BRAF mutations identified in a subset of breast tumors, particularly in the HER2-enriched and luminal B subtypes [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -131,5 +132,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

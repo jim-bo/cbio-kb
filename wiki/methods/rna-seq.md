@@ -44,6 +44,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used in CLCGP SCLC study (29 tumors) to complement WES/WGS and characterise transcriptome of TP53/RB1-deficient tumors [PMID:22941188](../papers/22941188.md)
 - Applied in JHU SCLC study (36 tumors) to validate SOX2 and MYCL amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
 - Used in TCGA LUSC study (178 tumors) for expression profiling alongside WES to characterise the CDKN2A/TP53/KEAP1/NFE2L2 mutational landscape [PMID:22960745](../papers/22960745.md)
+- RNA-seq profiling of 510 breast tumors enabled mRNA subtype classification and identified outlier expression events in known cancer genes [PMID:23000897](../papers/23000897.md)
+- RNA-seq used in neuroblastoma study to detect gene fusions and outlier expression; confirmed ALK overexpression in cases lacking ALK point mutations [PMID:23334666](../papers/23334666.md)
 
 ## Notes
 
@@ -108,5 +110,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

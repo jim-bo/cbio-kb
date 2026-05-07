@@ -28,6 +28,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - CDK4 amplification is identified in the Yale melanoma WES cohort of 147 tumors, frequently co-occurring with CCND1 amplification as a mechanism of RB pathway bypass [PMID:22842228](../papers/22842228.md)
 - CDK4 amplification is recurrent in the Broad melanoma WES cohort of 121 tumors, providing an alternative mechanism of RB pathway inactivation alongside CDKN2A deletion [PMID:22817889](../papers/22817889.md)
+- Amplified in breast cancer (TCGA, 510 tumors); CDK4 amplification identified as a recurrent copy-number alteration in luminal B and HER2-enriched subtypes, collaborating with CCND1 to drive G1/S progression [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -69,5 +70,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22817889](../papers/22817889.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

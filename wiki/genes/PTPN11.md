@@ -3,8 +3,8 @@ symbol: PTPN11
 aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # PTPN11
@@ -16,6 +16,8 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 ## Alterations observed in the corpus
 
 - Mutated in one histiocytosis patient in the Make-an-IMPACT rare-cancer cohort; patient was treated with a MEK inhibitor [PMID:36862133](../papers/36862133.md).
+- Activating missense mutations in 2.9% (7/240) of high-risk neuroblastomas (nbl_broad_2013); all previously reported in COSMIC; one of only 5 statistically and biologically significant recurrently mutated genes in this low-mutation-burden pediatric tumor [PMID:23334666](../papers/23334666.md)
+- Activating mutations (e.g., p.Gly503Arg) found in near haploid ALL as part of RTK/Ras pathway alterations (71% of near haploid cases); one PTPN11 variant was inherited and Noonan syndrome-associated (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +40,9 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - [PMID:36862133](../papers/36862133.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

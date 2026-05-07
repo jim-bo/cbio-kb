@@ -25,6 +25,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 truncating mutations identified in breast cancer WES of 100 tumors; enriched in lobular subtype [PMID:22722201](../papers/22722201.md)
 - CDH1 mutations observed in medulloblastoma WGS of 37 tumors (PCGP) [PMID:22722829](../papers/22722829.md)
 - CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner [PMID:22802077](../papers/22802077.md)
+- Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22802077](../papers/22802077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -41,6 +41,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Inactivating mutations and copy-number loss identified as significantly mutated in SCLC (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of LUSC tumors [PMID:22960745](../papers/22960745.md)
 - Mutation identified in LUAD WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
+- Loss/mutation in 20% of Basal-like breast cancers; CCNE1 amplification is mutually exclusive with RB1 loss; identified in TCGA breast cancer comprehensive analysis (510 tumors, brca_tcga_pub) [PMID:23000897](../papers/23000897.md)
+- Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +125,11 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

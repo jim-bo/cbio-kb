@@ -30,6 +30,9 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Copy-number analysis of 121 melanoma samples (Broad) performed with Affymetrix SNP 6.0 arrays analyzed with GISTIC; identified focal amplifications and deletions [PMID:22817889](../papers/22817889.md)
 - Used in CLCGP SCLC study (29 tumors) for copy number profiling to complement WES/WGS somatic alteration discovery [PMID:22941188](../papers/22941188.md)
 - Used in TCGA LUSC study (178 tumors) for genome-wide copy number analysis informing GISTIC-derived focal amplification/deletion calls [PMID:22960745](../papers/22960745.md)
+- Affymetrix SNP 6.0 arrays used for somatic copy-number analysis across 510 breast tumors; identified ERBB2, MYC, CCND1 focal amplifications [PMID:23000897](../papers/23000897.md)
+- SNP 6.0 arrays used in ETP-ALL study to call copy-number alterations; identified deletions in ETV6, RB1, and other tumor suppressors [PMID:23334668](../papers/23334668.md)
+- SNP 6.0 array copy-number analysis of 160 CLL tumors; identified del(13q), del(11q), trisomy 12, and del(17p) as common chromosomal alterations [PMID:23415222](../papers/23415222.md)
 
 ## Notes
 
@@ -74,5 +77,14 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22960745](../papers/22960745.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

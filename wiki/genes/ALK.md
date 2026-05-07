@@ -22,6 +22,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
 - ALK fusion in 6% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - ALK inhibitor sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), linking ALK alterations to drug response [PMID:22460905](../papers/22460905.md)
+- Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ALK point mutations and amplifications found as key oncogenic drivers in neuroblastoma [PMID:23334666](../papers/23334666.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # FLT3
@@ -18,6 +18,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - Activating mutations found in 19% of infant MLL-R ALL cases; often sub-clonal and frequently lost at relapse [PMID:25730765](../papers/25730765.md).
 - Part of the kinase/PI3K/RAS signaling pathway mutations detected in 47% of infant MLL-R cases [PMID:25730765](../papers/25730765.md).
 - Focal copy-number loss on chromosome 13 in anaplastic thyroid carcinoma (ATC) [PMID:38412093](../papers/38412093.md).
+- Activating mutations (ITD and kinase domain) detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); FLT3 alterations enriched in hyperdiploid B-ALL [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

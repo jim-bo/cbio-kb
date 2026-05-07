@@ -5,7 +5,7 @@ drug_class: Anti-CD20 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [DLBCL, B-cell-lymphoma, immunotherapy, antibody]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -18,6 +18,7 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 ## Evidence in the corpus
 
 - R-CHOP (including rituximab) is the standard of care for DLBCL; WES of 55 DLBCL tumors identified 58 significantly mutated genes across BCR signaling ([CD79B](../genes/CD79B.md), [CARD11](../genes/CARD11.md)), NF-kB ([MYD88](../genes/MYD88.md)), and epigenetic ([EZH2](../genes/EZH2.md), [CREBBP](../genes/CREBBP.md), [KMT2D](../genes/KMT2D.md)) pathways that may inform combination or salvage strategies [PMID:22343534](../papers/22343534.md).
+- Rituximab-refractory CLL cases included in WES cohort; NOTCH1 mutations associated with inferior outcome under chemo-immunotherapy [PMID:23415222](../papers/23415222.md)
 
 ## Resistance mechanisms
 
@@ -32,3 +33,6 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 - [PMID:22343534](../papers/22343534.md) — DLBCL WES identifying genomic landscape in the R-CHOP treatment context.
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

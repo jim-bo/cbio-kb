@@ -30,6 +30,7 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - nC3 undifferentiated signature correlates with age-at-diagnosis (FDR = 8.12×10⁻³¹) and poor survival in 498-sample SEQC cohort (Kaplan-Meier Bonferroni-corrected p <0.01); noradrenergic nC7/nC8 signatures associate with better outcome. [PMID:34493726](../papers/34493726.md)
 - LC-MS/MS proteomics of 15 neuroblastoma tumors stratified by MYCN status revealed distinct proteomic signatures distinguishing MYCN-amplified from non-amplified tumors [PMID:22367537](../papers/22367537.md)
 - CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
+- WES/WGS of 240 neuroblastoma tumors identified ALK, PTPN11, and ATRX as key recurrently mutated genes; low overall somatic mutation rate with enrichment in RAS-MAPK pathway [PMID:23334666](../papers/23334666.md)
 
 ## Subtypes
 
@@ -57,5 +58,8 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -31,6 +31,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [CCNE1](../genes/CCNE1.md) — amplification used to assign patients to the foldback-inversion-enriched subtype; copy number analyzed via MSK-IMPACT pipeline for MSKCC cases and downloaded from cBioPortal for TCGA-OV cases. [PMID:35764743](../papers/35764743.md)
 - High-grade serous ovarian cancer showed homologous recombination deficiency (HRD) in a significant proportion of cases with implications for PARP inhibitor sensitivity [PMID:36517593](../papers/36517593.md)
 - TCGA integrated genomic analysis of 489 HGSOC tumors found TP53 mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
+- TCGA breast cancer study included HGSOC comparison; BRCA1/BRCA2 germline mutations identified as shared features between basal-like breast and HGSOC tumors [PMID:23000897](../papers/23000897.md)
 
 ## Subtypes
 
@@ -59,5 +60,8 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:21720365](../papers/21720365.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

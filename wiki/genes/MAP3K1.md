@@ -18,6 +18,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - MAP3K1 identified as one of three shared SNVs (alongside [ARID2](../genes/ARID2.md) and [CRTC1](../genes/CRTC1.md)) across four metastatic lesions resected synchronously from SARC0075 (epithelioid sarcoma with undifferentiated pleomorphic features) in the UCLA sarcoma PDTO biobank (n=194 specimens, 126 patients). The shared mutations confirm clonal relatedness despite extensive divergent CNV landscapes (including whole-genome duplications) among the four lesions. [PMID:39305899](../papers/39305899.md)
 - Truncating mutations in 6% of breast cancers (Sanger WES, 100 tumors), predominantly in ER+ tumors; inactivates JUN kinase signalling pathway; newly identified breast cancer driver gene [PMID:22722201](../papers/22722201.md)
 - Frameshift, nonsense, and missense mutations plus homozygous deletion in 3% of ER+ breast cancer (Broad WES, 103 tumors); pattern consistent with recessive inactivation [PMID:22722202](../papers/22722202.md)
+- Inactivating mutations in 14% of Luminal A breast cancer cases; acts in the p38/JNK1 pathway; mutually exclusive with MAP2K4 mutations [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

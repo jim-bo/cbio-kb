@@ -9,8 +9,8 @@ unverified: false
 assays: [whole-genome-seq]
 panels: []
 tags: [pancreatic-cancer, pdac, icgc, multi-national]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-06
 ---
 
 # ICGC Pancreatic Adenocarcinoma
@@ -42,6 +42,7 @@ The ICGC Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_icgc`) is
 - In the pooled external cohort, KRAS^G12D^ was associated with the worst median overall survival (15.6 months) compared to KRAS^G12R^ (20.8 months), KRAS^G12V^ (22.4 months), and KRAS^WT^ (27 months; log-rank p=0.006) [PMID:39214094](../papers/39214094.md).
 - Multivariate analysis in the pooled cohort confirmed KRAS^G12R^ (HR 0.77, 95% CI 0.60–0.99, p=0.038) and KRAS^G12V^ (HR 0.71, 95% CI 0.58–0.88, p=0.02) as independently predictive of better overall survival relative to KRAS^G12D^ [PMID:39214094](../papers/39214094.md).
 - Absence of tumor suppressor co-mutations ([TP53](../genes/TP53.md)/[SMAD4](../genes/SMAD4.md)/[CDKN2A](../genes/CDKN2A.md)) was independently associated with improved [OS](../cancer_types/OS.md) in the external multi-cohort validation (HR 0.72, 95% CI 0.56–0.92, p=0.009) [PMID:39214094](../papers/39214094.md).
+- Used for WES of 142 pancreatic ductal adenocarcinoma tumors; identified KRAS, TP53, SMAD4, CDKN2A mutations and novel axon-guidance pathway genes [PMID:23103869](../papers/23103869.md)
 
 ## Sources
 
@@ -49,3 +50,6 @@ The ICGC Pancreatic Adenocarcinoma dataset (cBioPortal study ID: `paad_icgc`) is
 - ICGC Data Portal: https://dcc.icgc.org/projects/PACA-AU and https://dcc.icgc.org/projects/PACA-CA
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

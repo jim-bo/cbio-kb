@@ -25,6 +25,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET amplification in 5 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B actionable) [PMID:36228155](../papers/36228155.md)
 - MET mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.81 and P = 0.42) [PMID:36038778](../papers/36038778.md)
 - MET amplification and expression were characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling correlation with sensitivity to targeted drugs [PMID:22460905](../papers/22460905.md)
+- Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, IGF1R, KIT, PDGFRA) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22460905](../papers/22460905.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - PI3K-pathway
   - phosphatase
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -20,6 +20,7 @@ INPP4B encodes inositol polyphosphate 4-phosphatase type II, a lipid phosphatase
 ## Alterations observed in the corpus
 
 - INPP4B was identified as a recurrently deleted tumor suppressor in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
+- Deleted (homozygous and heterozygous) in breast cancer (TCGA, 510 tumors); loss associated with PI3K pathway activation in luminal B subtype [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ INPP4B encodes inositol polyphosphate 4-phosphatase type II, a lipid phosphatase
 - [PMID:20579941](../papers/20579941.md) — Integrative genomic profiling of prostate cancer (MSKCC cohort)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

@@ -33,6 +33,7 @@ OncoTree code for invasive breast carcinoma.
 - METABRIC study profiled ~2,000 breast tumors identifying 10 integrative clusters (IntClust1–10) with distinct copy-number and expression signatures in invasive breast carcinoma [PMID:22522925](../papers/22522925.md)
 - Whole-exome sequencing of 100 breast cancer tumors (Sanger cohort, brca_sanger) identified ~40 driver genes including PIK3CA, TP53, and CDH1 with recurrent somatic mutations [PMID:22722201](../papers/22722201.md)
 - WES/WGS of 103 breast tumors (Broad cohort, brca_broad) identified PIK3CA as the most frequently mutated gene and discovered MAGI3-AKT3 fusion kinase as a novel driver [PMID:22722202](../papers/22722202.md)
+- Comprehensive genomic characterization of 510 breast tumors identified four molecular subtypes (Luminal A/B, HER2-enriched, Basal-like) with distinct mutation profiles [PMID:23000897](../papers/23000897.md)
 
 ## Subtypes
 
@@ -70,5 +71,8 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722202](../papers/22722202.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

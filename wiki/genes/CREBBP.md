@@ -27,6 +27,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Found mutated in medulloblastoma WGS cohort (PCGP, 37 tumors), supporting a role for chromatin remodeling gene disruption in pediatric medulloblastoma [PMID:22722829](../papers/22722829.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Mutated in SCLC WES/WGS study (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
+- Mutated in ALL (St. Jude WGS/WES, 44 tumors); CREBBP mutations identified as recurrent alterations, disrupting transcriptional coactivator function and histone acetylation in pediatric acute lymphoblastic leukemia [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +76,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22941188](../papers/22941188.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

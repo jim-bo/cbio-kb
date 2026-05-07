@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [IHCH, PAAD, CERVIX]
 tags: [tumor-suppressor, tgf-beta]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-07
 ---
 
 # SMAD4
@@ -28,6 +28,7 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - Significantly mutated in colorectal cancer; altered together with SMAD2 in 27% (20/74) of CRC tumors on chromosome 18q [PMID:22895193](../papers/22895193.md)
 - Identified as significantly mutated in TCGA LUSC (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
 - Inactivating mutations in 3% of LUAD cases (Broad WES cohort, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; SMAD4 loss is one of the most frequent events in pancreatic ductal adenocarcinoma [PMID:23103869](../papers/23103869.md)
 
 ## Cancer types (linked)
 
@@ -77,3 +78,6 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

@@ -30,6 +30,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Mutated in colorectal cancer WES study (Genentech, 74 tumors) as part of comprehensive genomic profiling [PMID:22895193](../papers/22895193.md)
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Recurrently mutated in pancreatic cancer (ICGC WES, 142 tumors); ATM loss-of-function mutations identified among significantly mutated genes, implicating DNA-damage repair deficiency [PMID:23103869](../papers/23103869.md)
+- Recurrently mutated in CLL (Broad WES, 160 tumors); ATM mutations observed as part of the significantly mutated gene landscape in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -85,5 +87,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

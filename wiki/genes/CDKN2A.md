@@ -50,6 +50,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Deleted/mutated in SCLC WES/WGS study (JHU, 36 tumors) with SOX2 amplification [PMID:22941189](../papers/22941189.md)
 - Homozygously deleted and mutated at high frequency in TCGA lung squamous cell carcinoma cohort (178 tumors); identified as one of the most significantly altered genes [PMID:22960745](../papers/22960745.md)
 - Deleted/mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Deleted/mutated in pancreatic cancer (ICGC WES, 142 tumors); CDKN2A homozygous deletion is among the most frequent alterations in pancreatic ductal adenocarcinoma, abrogating p16-mediated cell cycle control [PMID:23103869](../papers/23103869.md)
+- Deleted in ALL (St. Jude WGS/WES, 44 tumors); CDKN2A deletion identified as a recurrent alteration promoting cell-cycle dysregulation in pediatric acute lymphoblastic leukemia [PMID:23334668](../papers/23334668.md)
 
 ## Cancer types (linked)
 
@@ -146,5 +148,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22980975](../papers/22980975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23103869](../papers/23103869.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*

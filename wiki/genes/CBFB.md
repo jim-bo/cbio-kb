@@ -3,7 +3,7 @@ symbol: CBFB
 aliases: [PEBP2B, CBF-beta]
 cancer_types: [BRCA]
 tags: [transcription-factor, differentiation, ER-positive, tumor-suppressor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-06
 ---
 
@@ -16,6 +16,7 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 ## Alterations observed in the corpus
 
 - CBFB nonsense and frameshift truncating mutations identified in 4% of ER-positive breast cancer samples in WES/WGS of 103 tumors (Broad Institute); first report of significant recurrence in breast cancer [PMID:22722202](../papers/22722202.md)
+- Mutated in breast cancer (TCGA, 510 tumors); CBFB mutations identified as significantly mutated, particularly in luminal A subtype where it acts as a transcription factor complex partner [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - [PMID:22722202](../papers/22722202.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-06**.*

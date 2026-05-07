@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-07
 ---
 
 # NRAS
@@ -33,6 +33,9 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Codon 61 mutations in 9% of non-hypermutated colorectal tumors; mutually exclusive with KRAS and BRAF in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Q61L/R/K hotspot mutations in 22% of melanomas (121-tumor Broad WES cohort); mutually exclusive with BRAF (p=3e-14) [PMID:22817889](../papers/22817889.md)
 - Q61 and other activating mutations represent the second most frequent driver in melanoma (15-20%) in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
+- Activating mutations in near haploid ALL as part of RTK/Ras pathway (70.6% of cases); one inherited p.Gly12Ser germline variant identified; St. Jude WGS/WES cohort of 44 hypodiploid ALL tumors [PMID:23334668](../papers/23334668.md)
+- Activating missense mutations in 0.83% (2/240) of high-risk neuroblastoma; significant in COSMIC-restricted analysis; Broad WES/WGS cohort [PMID:23334666](../papers/23334666.md)
+- Novel CLL driver candidate; mutations at highly conserved Ras GTPase sites; identified in Broad WES cohort of 160 CLL tumors [PMID:23415222](../papers/23415222.md)
 
 ## Cancer types (linked)
 
@@ -99,3 +102,12 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:22842228](../papers/22842228.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23334668](../papers/23334668.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*
+- [PMID:23334666](../papers/23334666.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*
+- [PMID:23415222](../papers/23415222.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

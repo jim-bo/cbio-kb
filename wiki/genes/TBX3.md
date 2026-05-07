@@ -3,8 +3,8 @@ symbol: TBX3
 aliases: []
 cancer_types: [BRCA]
 tags: [transcription-factor, T-box, stem-cell, tumor-suppressor]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-07
 ---
 
 # TBX3
@@ -17,6 +17,7 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 
 - Mutations in 6 of 100 breast tumors in WES (Sanger cohort); recurrent in-frame deletions at Thr210 and Asn212 suggest a functionally important domain; TBX3 identified as a newly discovered cancer driver gene [PMID:22722201](../papers/22722201.md)
 - Common inherited variants at TBX3 locus confer small increased breast cancer risk, linking germline predisposition to somatic driver function [PMID:22722201](../papers/22722201.md)
+- Identified as a significantly mutated gene in TCGA breast cancer cohort (510 tumors); TBX3 encodes a T-box transcription factor recurrently mutated in breast cancer [PMID:23000897](../papers/23000897.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ TBX3 encodes a T-box transcription factor that regulates stem cell pluripotency 
 - [PMID:22722201](../papers/22722201.md) — Breast cancer WES, 100 tumors, Sanger Institute
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23000897](../papers/23000897.md)
+
+*This page was processed by **wiki-cli** on **2026-05-07**.*

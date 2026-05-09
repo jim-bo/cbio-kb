@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BRAF
@@ -34,7 +34,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF alterations assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - BRAF mutation not significantly associated with immunotherapy outcomes in advanced [NSCLC](../cancer_types/NSCLC.md) (P = 0.80) [PMID:36038778](../papers/36038778.md)
 - Identified as somatically altered in integrative genomic profiling of prostate cancer (MSKCC cohort) [PMID:20579941](../papers/20579941.md)
-- Identified as somatically mutated in TCGA integrated genomic analysis of high-grade serous ovarian carcinoma (HGSOC) [PMID:21720365](../papers/21720365.md)
+- Identified as somatically mutated in TCGA integrated genomic analysis of high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) [PMID:21720365](../papers/21720365.md)
 - BRAF identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - BRAF inhibitor (PLX4720) sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), with BRAF V600E as a key pharmacogenomic predictor [PMID:22460905](../papers/22460905.md)
 - V600E hotspot mutation detected in 2 cases of TNBC in a WGS study of 65 breast tumors; noted as clinically actionable [PMID:22495314](../papers/22495314.md)
@@ -46,6 +46,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Mutated in breast cancer (TCGA, 510 tumors); BRAF mutations identified in a subset of breast tumors, particularly in the HER2-enriched and luminal B subtypes [PMID:23000897](../papers/23000897.md)
+- MAPK-pathway mutations uncommon in EAC: BRAF mutations absent (0/145 tumors, [esca_broad](../datasets/esca_broad.md)), contrasting with CRC where BRAF mutations are frequent; [NF1](../genes/NF1.md) mutated in 2% [PMID:23525077](../papers/23525077.md)
+- Activating mutation present in OSCC as part of mitogenic signaling pathway; in CRC, BRAF (not RAS) correlates with [CASP8](../genes/CASP8.md) mutation, suggesting tissue-specific co-mutation patterns ([hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md)) [PMID:23619168](../papers/23619168.md)
+- NRF1-BRAF singleton sense-preserving fusion detected in prostate tumor PR-4240 by chromoplexy analysis; BRAF kinase domain left intact, hypothesized to drive overexpression of an oncogenic kinase [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -82,58 +85,67 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

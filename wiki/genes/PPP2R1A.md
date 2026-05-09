@@ -3,8 +3,8 @@ symbol: PPP2R1A
 aliases: []
 cancer_types: [UCEC]
 tags: [pi3k-pathway, phosphatase, tumor-suppressor, endometrial]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
 ---
@@ -18,6 +18,7 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 ## Alterations observed in the corpus
 
 - PPP2R1A mutations were less frequent in CN-H/TP53abn endometrial carcinomas from Black patients compared to White patients (15% vs. 28%), consistent with the overall shift away from endometrioid-associated PI3K pathway alterations in the Black EC population [PMID:37651310](../papers/37651310.md).
+- Mutated in 22% of copy-number-high serous-like endometrial tumors (Q=1.7×10⁻¹⁶); previously noted as a serous-specific driver [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - [PMID:37651310](../papers/37651310.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

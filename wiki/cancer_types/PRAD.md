@@ -4,8 +4,8 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -30,12 +30,13 @@ OncoTree code for prostate adenocarcinoma.
 - [TMPRSS2](../genes/TMPRSS2.md)-[ERG](../genes/ERG.md) fusion detected in 13/44 PDX models; correlated with [ERG](../genes/ERG.md) overexpression in AR-expressing models. [PMID:38488813](../papers/38488813.md)
 - [CDK12](../genes/CDK12.md) biallelic loss via dual mutations or structural variation in 4 PDX models; CDK12-loss-associated focal copy-number gains observed. [PMID:38488813](../papers/38488813.md)
 - 63 (2.8%) patients had MSI-H/dMMR tumors, 33 (1.5%) had TMB-H/MSS tumors among 2,257 PRAD patients. MSI-H/dMMR had significantly higher TMB than TMB-H/MSS (median 41 vs. 15 mut/Mb, P<0.01). [PMID:38949888](../papers/38949888.md)
-- [BRAF](../genes/BRAF.md) fusions in PRAD: [SND1](../genes/SND1.md) was the dominant 5' fusion partner in prostate adenocarcinoma [BRAF](../genes/BRAF.md) fusions (21% of PRAD BRAF fusions). [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusions in PRAD: [SND1](../genes/SND1.md) was the dominant 5' fusion partner in prostate adenocarcinoma [BRAF](../genes/BRAF.md) fusions (21% of PRAD [BRAF](../genes/BRAF.md) fusions). [PMID:38922339](../papers/38922339.md)
 - No specific gene-level alterations identified for the oligometastatic hormone-sensitive state; genetic and transcriptomic profiling of hormone-sensitive localized and metastatic castration-resistant PRAD has been described but a hormone-sensitive oligometastatic data set was noted as "still unavailable." [PMID:28045614](../papers/28045614.md)
 - [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md) — deleterious MMR gene alterations in 75% of MSI-H/dMMR PRAD patients. [PMID:38949888](../papers/38949888.md)
 - Integrative genomic profiling of 218 PRAD tumors (MSKCC cohort) identified recurrent copy-number alterations and somatic mutations via SNP arrays and whole-exome sequencing [PMID:20579941](../papers/20579941.md)
-- WES of 112 prostate adenocarcinoma tumors identified SPOP, FOXA1, and MED12 as recurrent driver genes [PMID:22610119](../papers/22610119.md)
-- WES of 112 prostate tumors (Michigan cohort, prad_mich) identified recurrent ETS family fusions and SPOP mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
+- WES of 112 prostate adenocarcinoma tumors identified [SPOP](../genes/SPOP.md), [FOXA1](../genes/FOXA1.md), and [MED12](../genes/MED12.md) as recurrent driver genes [PMID:22610119](../papers/22610119.md)
+- WES of 112 prostate tumors (Michigan cohort, [prad_mich](../datasets/prad_mich.md)) identified recurrent ETS family fusions and SPOP mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
+- WGS of 55 treatment-naïve primary PRAD identified chromoplexy (chains of ≥5 interdependent rearrangements) in 88% of tumors; TMPRSS2-ERG fusion arose within chromoplexy chains in 58% of [ERG](../genes/ERG.md)+ cases; recurrent SCNA burden tracks with Gleason grade (p=0.0059) [PMID:23622249](../papers/23622249.md)
 
 ## Subtypes
 
@@ -66,13 +67,9 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:28045614](../papers/28045614.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22722839](../papers/22722839.md)
+- [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

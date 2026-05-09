@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # SMARCA4
@@ -26,8 +26,9 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Significantly mutated in melanoma WES cohort (121 tumors, Broad); SMARCA4 identified among chromatin-remodeling genes recurrently altered in melanoma [PMID:22817889](../papers/22817889.md)
 - Recurrently mutated in medulloblastoma WES cohort (92 tumors, Broad); SMARCA4 SWI/SNF complex mutations enriched in specific molecular subgroups [PMID:22820256](../papers/22820256.md)
 - Identified as significantly mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); SMARCA4 alterations associated with SHH-subgroup medulloblastoma [PMID:22832583](../papers/22832583.md)
-- Identified as significantly mutated in TCGA LUSC (178 tumors) via COSMIC-restricted analysis; epigenetic regulator [PMID:22960745](../papers/22960745.md)
-- Inactivating mutations identified as significantly mutated in LUAD (Broad WES cohort, 183 tumors); epigenetic regulator that could not be mapped to any classic oncogenic hallmark [PMID:22980975](../papers/22980975.md)
+- Identified as significantly mutated in TCGA [LUSC](../cancer_types/LUSC.md) (178 tumors) via COSMIC-restricted analysis; epigenetic regulator [PMID:22960745](../papers/22960745.md)
+- Inactivating mutations identified as significantly mutated in [LUAD](../cancer_types/LUAD.md) (Broad WES cohort, 183 tumors); epigenetic regulator that could not be mapped to any classic oncogenic hallmark [PMID:22980975](../papers/22980975.md)
+- SMARCA4 is part of recurrent SWI/SNF chromatin-remodeling mutations in 24% of esophageal adenocarcinomas; also identified as a putative partner in a SMARCA4-DNM2 fusion [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -51,28 +52,31 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

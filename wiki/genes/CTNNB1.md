@@ -12,8 +12,8 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CTNNB1
@@ -31,7 +31,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); Wnt/beta-catenin pathway member; co-mutated with other Wnt pathway genes including [APC](../genes/APC.md) and [LRP1B](../genes/LRP1B.md). [PMID:18948947](../papers/18948947.md)
 - CTNNB1 GOF mutations in 6% of [GBC](../cancer_types/GBC.md); identified as potential driver by oncodrive clustering (p.S45F/P); higher frequency in primaries without cholelithiasis (22% vs 4.3%) [PMID:36228155](../papers/36228155.md)
 - CTNNB1 mutations detected in pancreatic cystic neoplasms by whole-exome sequencing, implicating Wnt/beta-catenin pathway activation [PMID:22158988](../papers/22158988.md)
-- HBx destabilizes beta-catenin regulation through GSK3B degradation; Wnt/beta-catenin pathway activated by both HBx and MHBst proteins in HBV-related HCC [PMID:22634756](../papers/22634756.md)
+- HBx destabilizes beta-catenin regulation through [GSK3B](../genes/GSK3B.md) degradation; Wnt/beta-catenin pathway activated by both HBx and MHBst proteins in HBV-related [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
 - Recurrently mutated in medulloblastoma WGS cohort (PCGP, 37 tumors), highlighting Wnt pathway activation as a driver in pediatric brain tumors [PMID:22722829](../papers/22722829.md)
 - CTNNB1 mutations are observed in the Broad melanoma WES cohort of 121 tumors, present in a subset of tumors with active Wnt/beta-catenin signaling [PMID:22817889](../papers/22817889.md)
 - CTNNB1 activating mutations are detected in colorectal adenocarcinoma among 276 TCGA CRC tumors, representing an alternative mechanism of Wnt pathway activation in APC-wild-type tumors [PMID:22810696](../papers/22810696.md)
@@ -39,6 +39,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 mutations define the WNT subgroup of medulloblastoma in ICGC WGS/WES of 76 tumors, consistently accompanied by monosomy 6 and showing excellent clinical outcomes [PMID:22832583](../papers/22832583.md)
 - Mutated in colorectal cancer WES study (Genentech, 74 tumors) [PMID:22895193](../papers/22895193.md)
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Mutated in EAC as part of the beta-catenin pathway, which is altered in only 9% of EACs; an AXIN1-GALNT7 fusion identified by WGS in one tumor [PMID:23525077](../papers/23525077.md)
+- Mutated in 52% of copy-number-low MSS endometrioid endometrial carcinoma; defines this molecular subgroup; mutually exclusive with [KRAS](../genes/KRAS.md) and [SOX17](../genes/SOX17.md) mutations [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -70,37 +72,43 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

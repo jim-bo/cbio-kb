@@ -3,8 +3,8 @@ symbol: ETV6
 aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # ETV6
@@ -20,10 +20,11 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - ETV6 is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Recurrently mutated in pediatric ALL (St. Jude WGS/WES, 44 tumors); ETV6-RUNX1 fusions detected in B-ALL cases [PMID:23334668](../papers/23334668.md)
+- Co-deleted with [ETV3](../genes/ETV3.md) and [CDKN1B](../genes/CDKN1B.md) in a 25-rearrangement chromoplexy chain in prostate cancer [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
-- [IFS](../cancer_types/IFS.md) — ETV6-NTRK3 fusion present in ~90% of cases; absence of fusion by FISH, combined with larotrectinib resistance in PDTO, prompted reclassification to [SCSRMS](../cancer_types/SCSRMS.md) [PMID:39305899](../papers/39305899.md).
+- [IFS](../cancer_types/IFS.md) — ETV6-NTRK3 fusion present in ~90% of cases; absence of fusion by FISH, combined with [larotrectinib](../drugs/larotrectinib.md) resistance in PDTO, prompted reclassification to [SCSRMS](../cancer_types/SCSRMS.md) [PMID:39305899](../papers/39305899.md).
 - [SCSRMS](../cancer_types/SCSRMS.md) — final diagnosis in SARC0127 after ETV6-NTRK3 was excluded [PMID:39305899](../papers/39305899.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -42,16 +43,19 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

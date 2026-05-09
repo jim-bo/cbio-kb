@@ -3,8 +3,8 @@ symbol: RAC1
 aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
 ---
@@ -20,6 +20,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - RAC1 P29L hotspot mutation found in a melanocyte from a tanning cohort donor in a study of molecular effects of indoor tanning; this variant is a known melanoma driver at the P29 hotspot [PMID:38895302](../papers/38895302.md).
 - Significantly mutated in melanoma WES cohort (121 tumors); RAC1 P29S was identified as a recurrent hotspot mutation driven by UV-signature mutagenesis [PMID:22817889](../papers/22817889.md)
 - Recurrent RAC1 P29S hotspot mutation identified in melanoma WES cohort (147 tumors, Yale); among significantly mutated genes in melanoma [PMID:22842228](../papers/22842228.md)
+- RAC1 activation is driven by recurrent mutations in upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), and [ECT2](../genes/ECT2.md) in esophageal adenocarcinoma (EAC), with downstream effector [PAK1](../genes/PAK1.md) recurrently amplified at 11q13; RAC1 itself is not directly mutated [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -41,10 +42,13 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 
 - [PMID:38895302](../papers/38895302.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

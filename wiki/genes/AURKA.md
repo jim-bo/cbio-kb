@@ -8,7 +8,7 @@ tags:
   - neuroendocrine
   - mycn-axis
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # AURKA
@@ -20,6 +20,8 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 ## Alterations observed in the corpus
 
 - AURKA expression elevated in NEPC prostate cancer PDXs without gene amplification, linked to neuroendocrine differentiation via the MYCN-CDK5-RB1-E2F1 signaling axis (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
+- Copy number alteration (gain) in OSCC; Aurora kinases AURKA and [AURKC](../genes/AURKC.md) collectively altered in 14% (5/35) of OSCC tumors ([hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md)); drugs in clinical trials noted at time of publication [PMID:23619168](../papers/23619168.md)
+- High RPPA protein expression in the POLE-ultramutated / cell-cycle-deregulated subgroup of endometrial carcinoma ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); co-elevated with [ASNS](../genes/ASNS.md) and [CCNB1](../genes/CCNB1.md) protein in this subtype [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -41,4 +43,10 @@ AURKA (Aurora Kinase A) is a serine/threonine kinase that regulates mitotic entr
 
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

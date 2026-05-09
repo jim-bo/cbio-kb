@@ -3,8 +3,8 @@ symbol: GSK3B
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # GSK3B
@@ -18,7 +18,8 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutation classes (missense / truncating / fusion / amplification / deletion) with
   links to the papers that report them.
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); Wnt pathway kinase that phosphorylates beta-catenin for degradation. [PMID:18948947](../papers/18948947.md)
-- Degraded by HBx-mediated ubiquitination in HBV-related HCC, leading to dysregulated CTNNB1 stability and activation of the Wnt/beta-catenin pathway [PMID:22634756](../papers/22634756.md)
+- Degraded by HBx-mediated ubiquitination in HBV-related [HCC](../cancer_types/HCC.md), leading to dysregulated [CTNNB1](../genes/CTNNB1.md) stability and activation of the Wnt/beta-catenin pathway [PMID:22634756](../papers/22634756.md)
+- Recurrent disruptive rearrangement by chromoplexy affecting a gene implicated in prostate cancer signaling [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -39,10 +40,13 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

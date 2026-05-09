@@ -3,8 +3,8 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # AKT1
@@ -26,6 +26,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Somatic mutations identified in AKT1 in breast cancer WES of 100 tumors, contributing to PI3K/AKT pathway activation [PMID:22722201](../papers/22722201.md)
 - AKT1 alterations identified in breast cancer WES/WGS of 103 tumors (Broad Institute), implicating AKT pathway in breast tumorigenesis [PMID:22722202](../papers/22722202.md)
 - Mutated in breast cancer (TCGA, 510 tumors); AKT1 alterations identified as part of the PIK3CA/AKT signaling axis in luminal subtypes [PMID:23000897](../papers/23000897.md)
+- Copy number gain in OSCC; part of the PI3K/AKT mitogenic signaling pathway, altered in 63% of OSCC tumors overall in the [hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md) cohort [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -52,22 +53,25 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -7,7 +7,7 @@ tags:
   - rb-pathway
   - cell-cycle
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # CDK6
@@ -21,6 +21,7 @@ processed_at: 2026-05-06
 - **Amplification/Alteration**: Observed in 1% of glioblastoma samples as part of the core RB pathway alterations [PMID:18772890](../papers/18772890.md).
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member co-altered with [CDK4](../genes/CDK4.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B. [PMID:18948947](../papers/18948947.md)
 - Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
+- Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -37,3 +38,6 @@ processed_at: 2026-05-06
 - [PMID:22960745](../papers/22960745.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

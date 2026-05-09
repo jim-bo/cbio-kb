@@ -11,8 +11,8 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CCNE1
@@ -32,17 +32,18 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - High-level amplification associated with FBI (FHRD-BI) genomic signature in [HGSOC](../cancer_types/HGSOC.md); 29/118 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
 - CCNE1 amplification in 2% of metastatic UC samples (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - CCNE1 amplification in 9% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
-- Found focally amplified in ~20% of HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- Found focally amplified in ~20% of [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - CCNE1 amplification detected in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Recurrent HBV integration target (5% of HCCs); HBV-CCNE1 fusions increase cyclin E1 expression and inhibit the RB pathway, disrupting G1/S cell cycle regulation [PMID:22634756](../papers/22634756.md)
-- Altered in SCLC WES/WGS study (CLCGP, 29 tumors) alongside universal TP53/RB1 loss [PMID:22941188](../papers/22941188.md)
+- Altered in [SCLC](../cancer_types/SCLC.md) WES/WGS study (CLCGP, 29 tumors) alongside universal TP53/RB1 loss [PMID:22941188](../papers/22941188.md)
 - Amplified in breast cancer (TCGA, 510 tumors); CCNE1 amplification observed predominantly in basal-like and HER2-enriched subtypes, linked to replication stress and genomic instability [PMID:23000897](../papers/23000897.md)
+- Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
 - **UCEC/UCS**: CCNE1 amplification enriched in Black patients, particularly carcinosarcomas; associated with CN-H/TP53abn molecular subtype; potential target for WEE1 inhibitors, [ATR](../genes/ATR.md) inhibitors, and PKMYT1 kinase inhibitors [PMID:37651310](../papers/37651310.md).
-- **EGC/STAD/ESCA/GEJ**: Enriched in early-onset disease; may represent a therapeutic opportunity with CDK2 inhibitors [PMID:37699004](../papers/37699004.md).
+- **EGC/STAD/ESCA/GEJ**: Enriched in early-onset disease; may represent a therapeutic opportunity with [CDK2](../genes/CDK2.md) inhibitors [PMID:37699004](../papers/37699004.md).
 - **[HGSOC](../cancer_types/HGSOC.md)**: Early CNA event in STICs preceding invasive cancer; implicated in chromosomal instability through breakage-fusion-bridge cycles [PMID:39386723](../papers/39386723.md). Amplification also defines the foldback-inversion-enriched genomic subtype in a 444-patient multimodal risk-stratification study and takes priority over HRD-DDR variant evidence in subtype assignment [PMID:35764743](../papers/35764743.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -68,34 +69,37 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

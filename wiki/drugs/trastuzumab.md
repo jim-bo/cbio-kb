@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # trastuzumab
@@ -23,10 +23,12 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - In preclinical HER2+ xenograft models (OE19 esophageal, NCI-N87 gastric), trastuzumab alone had no significant radiosensitizing effect; it was used as antibody-only control showing that [ERBB2](../genes/ERBB2.md) binding without cytotoxic payload does not alter radiation response [PMID:27698471](../papers/27698471.md).
 - T-DM1 was more potent than trastuzumab, [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in HER2+ OE19 cells at sub-nanomolar IC50 (<1 nM vs >100 nM in HER2− lines) [PMID:27698471](../papers/27698471.md).
 - In the AURORA US Metastasis Project (n=55 metastatic breast cancer), one participant (AFE4) exhibited loss of [ERBB2](../genes/ERBB2.md) amplification under trastuzumab selective pressure — the HER2 amplification present at primary diagnosis was absent in the metastatic biopsy, representing a genomic resistance event to HER2-targeted therapy [PMID:36585450](../papers/36585450.md)
-- 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); ERBB2 amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
+- 10 metastatic gallbladder carcinoma patients received trastuzumab-based regimens targeting [ERBB2](../genes/ERBB2.md) amplification/mutation (OncoKB level 3B); [ERBB2](../genes/ERBB2.md) amplification present in 10% and GOF mutations in 6% of 244 [GBC](../cancer_types/GBC.md) samples profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
 - METABRIC identified ERBB2-amplified IntClust5 subtype (~15% of tumors) as the primary trastuzumab-relevant subgroup in breast cancer [PMID:22522925](../papers/22522925.md)
 - ERBB2 amplification at 17q21.1 identified in 4% of colorectal carcinomas (TCGA, n=276); trastuzumab cited as a potential therapeutic based on precedent in ERBB2-amplified breast and gastric cancers [PMID:22810696](../papers/22810696.md)
 - ERBB2 amplification in HER2-enriched breast cancer subtype identified as therapeutic target for trastuzumab in TCGA comprehensive analysis [PMID:23000897](../papers/23000897.md)
+- Trastuzumab is the only approved targeted agent for EAC/GEJ adenocarcinoma at time of Dulak 2013 study; ERBB2 kinase-domain mutations (p.D769Y, p.G776V; 5/145 tumors) and co-occurring ERBB2 amplification+mutation in 3% of EAC samples justify exploring ERBB2 mutation as an additional biomarker for HER2-directed therapy [PMID:23525077](../papers/23525077.md)
+- ERBB2 focal amplification with protein overexpression in 25% of uterine serous/serous-like endometrial tumors supports prospective trials of HER2-targeted therapy; a prior small trastuzumab trial accrued few FISH-amplified serous cases and was underpowered [PMID:23636398](../papers/23636398.md)
 
 ## Resistance mechanisms
 
@@ -48,16 +50,22 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 
 - [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; HER2 amplification loss under trastuzumab pressure in metastatic breast cancer.
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

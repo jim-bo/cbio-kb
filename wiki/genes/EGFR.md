@@ -3,8 +3,8 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # EGFR
@@ -38,13 +38,15 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - EGFR mutation (22/247, 8.9%) independently associated with worse PFS on immunotherapy in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.14, 95% CI 1.06-4.31, P = 0.03) [PMID:36038778](../papers/36038778.md)
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
-- EGFR amplification and expression correlate with erlotinib sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
+- EGFR amplification and expression correlate with [erlotinib](../drugs/erlotinib.md) sensitivity across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
 - High-level amplifications in 5% of triple-negative breast cancer (TNBC) cases in a 65-tumor WGS cohort (BCCRC); classified as clinically actionable [PMID:22495314](../papers/22495314.md)
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 - Alteration status profiled across NCI-60 cell lines in CellMiner pharmacogenomics study; EGFR mutations correlate with differential drug response patterns [PMID:22802077](../papers/22802077.md)
-- Amplification in 7% and L861Q activating mutation in 2 cases; canonical adenocarcinoma EGFR mutations (L858R, exon 19 del) essentially absent in LUSC; in COSMIC analysis, significantly mutated [PMID:22960745](../papers/22960745.md)
-- Activating mutations in 17% of 183 LUAD cases; novel in-frame C-terminal deletion (exons 25-26, vIVb variant) validated as oncogenic and erlotinib-sensitive; anti-correlated with KRAS (P = 3.3e-4) and associated with never/light smokers [PMID:22980975](../papers/22980975.md)
+- Amplification in 7% and L861Q activating mutation in 2 cases; canonical adenocarcinoma EGFR mutations (L858R, exon 19 del) essentially absent in [LUSC](../cancer_types/LUSC.md); in COSMIC analysis, significantly mutated [PMID:22960745](../papers/22960745.md)
+- Activating mutations in 17% of 183 [LUAD](../cancer_types/LUAD.md) cases; novel in-frame C-terminal deletion (exons 25-26, vIVb variant) validated as oncogenic and erlotinib-sensitive; anti-correlated with [KRAS](../genes/KRAS.md) (P = 3.3e-4) and associated with never/light smokers [PMID:22980975](../papers/22980975.md)
 - Amplified and mutated in breast cancer (TCGA, 510 tumors); enriched in the basal-like subtype [PMID:23000897](../papers/23000897.md)
+- Mutated in 3 EAC tumors (p.S447Y, p.S1153I), predicted non-deleterious by Polyphen-2; upstream regulators of [RAC1](../genes/RAC1.md) GEF pathway also recurrently mutated in EAC [PMID:23525077](../papers/23525077.md)
+- Focal high-level amplification in 16% (6/38) of oral squamous cell carcinoma (OSCC); established drug target for [cetuximab](../drugs/cetuximab.md) in HNSCC [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -88,46 +90,52 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

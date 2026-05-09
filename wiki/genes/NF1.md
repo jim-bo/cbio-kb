@@ -3,8 +3,8 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NF1
@@ -33,14 +33,15 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Biallelic loss via chromoplexy in a myoepithelial carcinoma (MEC1) [PMID:36577525](../papers/36577525.md)
 - NF1 mutations (T676P, R2637*) detected in CRC patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
-- Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Driver mutations identified in breast cancer WES (100 tumors, Sanger cohort); NF1 classified among known cancer gene drivers from other tumour types observed in breast cancer [PMID:22722201](../papers/22722201.md)
 - Loss-of-function mutations in 25% of BRAF/NRAS wild-type melanomas vs 2% of BRAF/NRAS-mutant (p=5.8e-3); identified by InVEx as significantly mutated gene in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
 - Inactivating mutations in 30% of BRAF/NRAS wild-type sun-exposed melanomas in 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 - NF1 mutation, deletion, and rearrangement identified in lung squamous cell carcinoma (TCGA, 178 tumors); associated with basal subtype [PMID:22960745](../papers/22960745.md)
-- NF1 inactivating mutations in 11% of lung adenocarcinoma tumors (Broad WES, 183 tumors); co-occurred with U2AF1 mutations (P = 0.0011) [PMID:22980975](../papers/22980975.md)
+- NF1 inactivating mutations in 11% of lung adenocarcinoma tumors (Broad WES, 183 tumors); co-occurred with [U2AF1](../genes/U2AF1.md) mutations (P = 0.0011) [PMID:22980975](../papers/22980975.md)
 - Novel significantly mutated gene in breast cancer (TCGA, 510 tumors); identified among novel SMGs [PMID:23000897](../papers/23000897.md)
 - Focal intragenic deletions (exons 15-35) and sequence mutations in 44.1% of near haploid ALL; biallelic loss in 76.7% due to aneuploidy; novel intragenic deletion via aberrant RAG activity causes loss of GAP domain and NF1 protein expression (St. Jude, 44 tumors) [PMID:23334668](../papers/23334668.md)
+- Mutated in 2% (3/145) of esophageal adenocarcinomas; MAPK-pathway mutations are uncommon in EAC, contrasting with colorectal cancer where [BRAF](../genes/BRAF.md) mutations are frequent [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -85,43 +86,46 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

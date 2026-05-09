@@ -3,8 +3,8 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # IDH1
@@ -20,9 +20,10 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 p.R132H was detected in CSF ctDNA from IDH-mutant glioma patients in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) profiled by MSK-IMPACT [PMID:39289779](../papers/39289779.md).
 - IDH1 (or [IDH2](../genes/IDH2.md)) mutation status determines the epigenetic trajectory of glioma at recurrence: IDH-mutant gliomas (n=72 from the GLASS consortium) show genome-wide progressive DNA hypomethylation (674 CpG probes with >15% difference), while IDH-wildtype gliomas (n=60) have a stable epigenome; treatment with [temozolomide](../drugs/temozolomide.md) and/or radiotherapy accelerates GCIMP-high to GCIMP-low transition (34% vs 4% without treatment, Fisher P=0.005) [PMID:38117484](../papers/38117484.md).
 - IDH1 or [IDH2](../genes/IDH2.md) mutation was confirmed in all 6 grade II oligodendrogliomas studied by single-cell RNA-seq (Smart-seq2, 4,347 cells); IDH1 point mutations were directly detected in scRNA-seq reads by single-base Bowtie alignment, allowing genotype assignment at single-cell resolution [PMID:27806376](../papers/27806376.md).
-- IDH1 mutations referenced as a characteristic of cholangiocarcinoma (not [GBC](../cancer_types/GBC.md)) for comparison context in GBC genomic landscape study [PMID:36228155](../papers/36228155.md)
+- IDH1 mutations referenced as a characteristic of cholangiocarcinoma (not [GBC](../cancer_types/GBC.md)) for comparison context in [GBC](../cancer_types/GBC.md) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
+- Recurrently mutated in [AML](../cancer_types/AML.md); mutant IDH1 samples show distinctive CpG methylation gains versus normal CD34+CD38− cells; IDH1/IDH2 mutations add prognostic value for intermediate-risk patients beyond current classification schemes [PMID:23634996](../papers/23634996.md)
 
 ## Cancer types (linked)
 
@@ -53,13 +54,16 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # MLH1
@@ -25,6 +25,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Germline P/LP variant identified as incidental finding in [GIST](../cancer_types/GIST.md); tumor was microsatellite-stable suggesting germline variant was not a driver [PMID:36593350](../papers/36593350.md)
 - Epigenetically silenced via promoter methylation in 19 of 23 MSI-H hypermutated colorectal tumors (276-tumor TCGA CRC cohort) [PMID:22810696](../papers/22810696.md)
 - Nonsense mutation plus deletion in one neuroblastoma patient (Broad, 240 tumors); associated with hyper-mutated phenotype [PMID:23334666](../papers/23334666.md)
+- Promoter hypermethylation drives MSI/CIMP (MC1) phenotype in the MSI hypermutated subgroup (~28%) of 373 endometrial carcinomas; MLH1 mRNA expression decreased in MSI tumors [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

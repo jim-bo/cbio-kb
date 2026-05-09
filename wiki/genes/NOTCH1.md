@@ -3,8 +3,8 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NOTCH1
@@ -24,9 +24,10 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing; tumor suppressor role proposed (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - Recurrently mutated in HNSCC across 32 primary tumors by whole-exome sequencing (Johns Hopkins cohort) [PMID:21798897](../papers/21798897.md)
 - NOTCH1 somatic mutations were recurrently detected in diffuse large B-cell lymphoma by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
-- NOTCH1 mutations identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- NOTCH1 mutations identified in [SCLC](../cancer_types/SCLC.md) (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - NOTCH1 truncating mutations (8/17 loss-of-function) in lung squamous cell carcinoma (TCGA, 178 tumors); part of 44% squamous differentiation pathway alteration rate [PMID:22960745](../papers/22960745.md)
 - Recurrently mutated CLL driver gene identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
+- Mutated in 9% of OSCC primary tumors and in 16/44 HNSCC cell lines (frameshift, nonsense, missense); functions as tumor suppressor — activated NOTCH1 (ICN1) induced G1 arrest, p21 induction, senescence, and inhibited xenograft growth in 5 HNSCC cell lines (40-tumor MD Anderson cohort) [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -52,25 +53,28 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

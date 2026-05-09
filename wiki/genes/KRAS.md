@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # KRAS
@@ -42,20 +42,23 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS GOF mutations in 7% and amplifications in 4% of gallbladder carcinoma ([GBC](../cancer_types/GBC.md)); KRAS p.G12C present in 2 patients (OncoKB level 3A) [PMID:36228155](../papers/36228155.md)
 - KRAS mutations were detected in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - KRAS mutations were identified in pancreatic neuroendocrine tumors (PANETs) by exome sequencing, though at lower frequency than in pancreatic ductal adenocarcinoma [PMID:21252315](../papers/21252315.md)
-- KRAS mutations were among somatic alterations identified in HGSOC by TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
-- KRAS is recurrently mutated in pancreatic cystic neoplasms by whole-exome sequencing, co-occurring with GNAS and RNF43 mutations in IPMNs [PMID:22158988](../papers/22158988.md)
+- KRAS mutations were among somatic alterations identified in [HGSOC](../cancer_types/HGSOC.md) by TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- KRAS is recurrently mutated in pancreatic cystic neoplasms by whole-exome sequencing, co-occurring with [GNAS](../genes/GNAS.md) and [RNF43](../genes/RNF43.md) mutations in IPMNs [PMID:22158988](../papers/22158988.md)
 - KRAS mutation status is among the top genomic predictors of MEK inhibitor sensitivity in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 - Identified as a driver mutation gene in breast cancer WES of 100 tumors (Sanger cohort); KRAS mutations observed in tumour types beyond its canonical context [PMID:22722201](../papers/22722201.md)
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - KRAS mutations common in lung adenocarcinoma are essentially absent in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
-- Activating mutations in 27% of 183 LUAD cases; anti-correlated with EGFR mutations (P = 3.3e-4) [PMID:22980975](../papers/22980975.md)
+- Activating mutations in 27% of 183 [LUAD](../cancer_types/LUAD.md) cases; anti-correlated with [EGFR](../genes/EGFR.md) mutations (P = 3.3e-4) [PMID:22980975](../papers/22980975.md)
 - Significantly mutated and amplified in 13% (10/74) of colorectal cancers (Genentech WES); co-occurs with RSPO fusions [PMID:22895193](../papers/22895193.md)
 - Copy-number amplification (32% of cases) in Basal-like breast cancer; not typically mutated in breast cancer, contrasting with other tumor types [PMID:23000897](../papers/23000897.md)
 - Activating mutations in 93% of pancreatic ductal adenocarcinoma cases (ICGC, 142 tumors); canonical GTPase/MAPK pathway driver [PMID:23103869](../papers/23103869.md)
 - Activating mutations in near haploid ALL as part of RTK/Ras signaling pathway (70.6% of near haploid cases affected by combined RTK/Ras alterations; St. Jude, 44 tumors) [PMID:23334668](../papers/23334668.md)
 - Novel CLL driver candidate; mutations at highly conserved sites identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
+- Mutated in 5/145 (3%) of esophageal adenocarcinomas (EAC); 3 mutations at canonical p.G12 plus p.K117N (known transforming allele); KRAS/BRAF pathway mutations are uncommon in EAC contrasting with colorectal cancer [PMID:23525077](../papers/23525077.md)
+- Part of the non-FLT3 activated signaling gene subgroup in [AML](../cancer_types/AML.md) (with [KIT](../genes/KIT.md), [NRAS](../genes/NRAS.md), [PTPN11](../genes/PTPN11.md)); contributes to the 59% signaling-pathway prevalence; activating mutations also implicated in alternative WNT/β-catenin activation in endometrial cancer (53% in POLE-ultramutated subgroup; mutually exclusive with [CTNNB1](../genes/CTNNB1.md) and [SOX17](../genes/SOX17.md)) [PMID:23634996](../papers/23634996.md)
+- Mutated in 53% of POLE-ultramutated endometrial tumors; activating mutations implicated in WNT/β-catenin pathway activation; mutually exclusive with CTNNB1 and SOX17; molecular profiling of KRAS status contributed to reclassification of histologically ambiguous high-grade endometrial cases [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -69,7 +72,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [HCC](../cancer_types/HCC.md) — cfDNA-exclusive alteration (OncoKB level 4) in one of 37 paired samples [PMID:37769223](../papers/37769223.md).
 - [EGC](../cancer_types/EGC.md) (esophagogastric) — resistance mechanism and inferior PFS association in HER2-positive [EGC](../cancer_types/EGC.md) receiving [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy [PMID:37406106](../papers/37406106.md).
 - [UCEC](../cancer_types/UCEC.md) — 21% in White, 12% in Black EC patients; linked to endometrioid histology prevalence [PMID:37651310](../papers/37651310.md).
-- [PAAD](../cancer_types/PAAD.md) (MSK 2,336-patient cohort) — KRAS-mutant 95%; mutant-allele dosage gains prognostic across all stages; G12R independently better OS vs G12D; approximately 10% of patients have OncoKB level 1–2 biomarkers and an additional 78% level 3A (G12D/V/R/A/S) based on the RAS-inhibitor pipeline. [PMID:39753968](../papers/39753968.md)
+- [PAAD](../cancer_types/PAAD.md) (MSK 2,336-patient cohort) — KRAS-mutant 95%; mutant-allele dosage gains prognostic across all stages; G12R independently better [OS](../cancer_types/OS.md) vs G12D; approximately 10% of patients have OncoKB level 1–2 biomarkers and an additional 78% level 3A (G12D/V/R/A/S) based on the RAS-inhibitor pipeline. [PMID:39753968](../papers/39753968.md)
 - [BLCA](../cancer_types/BLCA.md) — KRAS detected in cfDNA from metastatic urothelial carcinoma; ctDNA frequency numerically higher than matched tumor. [PMID:40256659](../papers/40256659.md)
 
 ## Co-occurrence and mutual exclusivity
@@ -115,64 +118,73 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

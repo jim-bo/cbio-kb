@@ -3,8 +3,8 @@ symbol: CRKL
 aliases: []
 cancer_types: [ANGS]
 tags: [amplification, MAPK, sarcoma, radiation-associated]
-processed_by: entity-page-writer
-processed_at: 2026-04-10
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # CRKL
@@ -17,6 +17,7 @@ CRKL encodes an adaptor protein in the stress-activated MAPK cascade. In radiati
 
 - Amplification in 14% of RT-[ANGS](../cancer_types/ANGS.md) vs 9% of sporadic AS; part of the stress-activated MAPK cascade [PMID:37350195](../papers/37350195.md).
 - Co-occurs with [MYC](../genes/MYC.md) amplification, [FLT4](../genes/FLT4.md), [HRAS](../genes/HRAS.md), and [KMT2D](../genes/KMT2D.md) alterations in breast/chest wall RT-AS [PMID:37350195](../papers/37350195.md).
+- Involved in a singleton sense-preserving CRKL-MAPK1 fusion in prostate carcinoma (tumor P04-1084), with the ERK-2 kinase domain intact; hypothesized to constitutively activate MAPK signaling [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CRKL encodes an adaptor protein in the stress-activated MAPK cascade. In radiati
 - [PMID:37350195](../papers/37350195.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-10**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

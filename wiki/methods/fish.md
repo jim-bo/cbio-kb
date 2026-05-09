@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -25,9 +25,10 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:39305899](../papers/39305899.md) — FISH performed by NeoGenomics to confirm [MDM2](../genes/MDM2.md) amplification in a well-differentiated liposarcoma ([WDLS](../cancer_types/WDLS.md)) patient-derived tumor organoid (PDTO) and matched primary tumor (SARC0120); separately used to evaluate NTRK1/2/3 status in SARC0127, where ETV6-FISH negativity and [larotrectinib](../drugs/larotrectinib.md) resistance helped reclassify the tumor from infantile fibrosarcoma to high-grade sclerosing rhabdomyosarcoma ([SCSRMS](../cancer_types/SCSRMS.md)) [PMID:39305899](../papers/39305899.md).
 - Used to confirm [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) rearrangement in MEC Patient 2 alongside RNA-seq and RT-PCR/Sanger validation [PMID:36577525](../papers/36577525.md)
 - FISH used to validate copy-number alterations in prostate adenocarcinoma tumors from the Broad WES cohort [PMID:22610119](../papers/22610119.md)
-- FISH used to validate KIT and BRAF copy-number alterations in melanoma WGS study [PMID:22622578](../papers/22622578.md)
+- FISH used to validate [KIT](../genes/KIT.md) and [BRAF](../genes/BRAF.md) copy-number alterations in melanoma WGS study [PMID:22622578](../papers/22622578.md)
 - FISH used to validate copy-number alterations and structural rearrangements in pediatric medulloblastoma cases (ICGC, n=125); confirmed chromosome gains and fusion gene events [PMID:22832583](../papers/22832583.md)
-- Used in CLCGP SCLC study (29 tumors) to validate focal amplifications of oncogenes including SOX2 and MYCL identified by WGS [PMID:22941188](../papers/22941188.md)
+- Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) to validate focal amplifications of oncogenes including [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) identified by WGS [PMID:22941188](../papers/22941188.md)
+- Used fluorescence in situ hybridization (FISH) to validate ETS gene fusions ([ETV1](../genes/ETV1.md) and [ERG](../genes/ERG.md)) in prostate tumors alongside dRanger WGS rearrangement calling [PMID:23622249](../papers/23622249.md)
 
 ## Notes
 
@@ -43,19 +44,22 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

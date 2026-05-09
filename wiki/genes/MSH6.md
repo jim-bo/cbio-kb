@@ -3,8 +3,8 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MSH6
@@ -25,6 +25,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 alterations were identified among recurrent genomic changes in prostate cancer by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - MSH6 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating mismatch repair deficiency [PMID:22610119](../papers/22610119.md)
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Co-mutated with [MSH3](../genes/MSH3.md) in the most hypermutated MSI-positive esophageal adenocarcinoma case (mutation frequency 14.6–50.9/Mb) in the 149-tumor Broad WES cohort; this MSI-positive case was excluded from the main significance analysis [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -59,13 +60,16 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: RB1
 aliases: []
 cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # RB1
@@ -30,19 +30,20 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - RB1 frequently mutated in metastatic UC; mutations associated with improved ICI survival when combined with ATM/FANCC alterations [PMID:36333289](../papers/36333289.md)
 - RB1 LOF mutations in 3.5% of [GBC](../cancer_types/GBC.md); enriched in small cell neuroendocrine carcinoma (q<0.001) [PMID:36228155](../papers/36228155.md)
 - Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
-- Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Mutations in 7.7% (5/65) of TNBC; homozygous deletions in 5% of cases [PMID:22495314](../papers/22495314.md)
 - Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated HCC [PMID:22634756](../papers/22634756.md)
+- HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
 - Previously known breast cancer driver gene confirmed by WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
 - Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
 - Identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); RB1 loss-of-function mutations detected among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
-- Inactivating mutations in 100% of SCLC tumors (biallelic via mutation + deletion/LOH); classified as an early clonal event alongside TP53 [PMID:22941188](../papers/22941188.md)
+- Inactivating mutations in 100% of [SCLC](../cancer_types/SCLC.md) tumors (biallelic via mutation + deletion/LOH); classified as an early clonal event alongside [TP53](../genes/TP53.md) [PMID:22941188](../papers/22941188.md)
 - Inactivating mutations and copy-number loss identified as significantly mutated in SCLC (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
-- One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of LUSC tumors [PMID:22960745](../papers/22960745.md)
-- Mutation identified in LUAD WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
-- Loss/mutation in 20% of Basal-like breast cancers; CCNE1 amplification is mutually exclusive with RB1 loss; identified in TCGA breast cancer comprehensive analysis (510 tumors, brca_tcga_pub) [PMID:23000897](../papers/23000897.md)
-- Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
+- One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of [LUSC](../cancer_types/LUSC.md) tumors [PMID:22960745](../papers/22960745.md)
+- Mutation identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
+- Loss/mutation in 20% of Basal-like breast cancers; [CCNE1](../genes/CCNE1.md) amplification is mutually exclusive with RB1 loss; identified in TCGA breast cancer comprehensive analysis (510 tumors, [brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
+- Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
+- RB1 is disrupted by chromoplexy-mediated rearrangement in 2 prostate cancer cases, representing an intermediate-to-late clonal event in the chromoplectic progression path [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -75,61 +76,64 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

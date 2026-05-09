@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UCEC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # Uterine Serous Carcinoma (USC)
@@ -24,6 +24,7 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 - [MED12](../genes/MED12.md) — hotspot mutations (p.G44A/D/S/R/V) more prevalent in serous ECs from Black patients (11% vs. 0% White). [PMID:37651310](../papers/37651310.md)
 - [FBXW7](../genes/FBXW7.md) — co-occurs with [TP53](../genes/TP53.md) mutations in serous/carcinosarcoma ECs. [PMID:37651310](../papers/37651310.md)
 - [BRCA1](../genes/BRCA1.md) — somatic mutations more frequent in CN-H/TP53abn ECs from Black patients (3% vs. 0.3%). [PMID:37651310](../papers/37651310.md)
+- TCGA analysis of 53 uterine serous carcinomas revealed [ERBB2](../genes/ERBB2.md) focal amplification with overexpression in 25%, [TP53](../genes/TP53.md) mutation in ~91%, and molecular similarities to [HGSOC](../cancer_types/HGSOC.md) and basal-like breast carcinoma (shared SCNA patterns, MC3 methylation profile); [PIK3CA](../genes/PIK3CA.md), [FBXW7](../genes/FBXW7.md), [PPP2R1A](../genes/PPP2R1A.md), and [ARID1A](../genes/ARID1A.md) mutations were >30% more frequent in USC than in HGSOC [PMID:23636398](../papers/23636398.md)
 
 ## Subtypes
 
@@ -39,4 +40,6 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

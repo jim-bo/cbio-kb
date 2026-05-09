@@ -3,8 +3,8 @@ symbol: DNMT3A
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # DNMT3A
@@ -17,7 +17,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 - Mutated in 19% (25/132) of nodal peripheral T-cell lymphomas profiled on MSK-IMPACT, making it the third-most-frequently altered gene after [TET2](../genes/TET2.md) and [RHOA](../genes/RHOA.md) [PMID:37078708](../papers/37078708.md).
 - DNMT3A is the most prevalent clonal hematopoiesis driver in MSK patients with nonhematologic cancer; in 26 patients who developed a hematologic malignancy, DNMT3A CH VAFs largely decreased at disease onset (in contrast to JAK2/TP53 expansion) [PMID:38147626](../papers/38147626.md).
-- HBx relocates DNMT3A to tumor suppressor gene promoters (e.g., p16/INK4A), causing regional hypermethylation in HBV-related HCC [PMID:22634756](../papers/22634756.md)
+- HBx relocates DNMT3A to tumor suppressor gene promoters (e.g., p16/INK4A), causing regional hypermethylation in HBV-related [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
+- Among the most significantly mutated DNA-methylation genes in [AML](../cancer_types/AML.md); allelic expression bias observed; co-occurs with [NPM1](../genes/NPM1.md) and [FLT3](../genes/FLT3.md); mutually exclusive with transcription-factor fusions [PMID:23634996](../papers/23634996.md)
 
 ## Cancer types (linked)
 
@@ -40,7 +41,10 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - [PMID:37078708](../papers/37078708.md)
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MYC
@@ -33,21 +33,23 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC patient ctDNA [PMID:36355783](../papers/36355783.md)
 - MYC amplification in 7% of [GBC](../cancer_types/GBC.md) (oncogenic CNA) [PMID:36228155](../papers/36228155.md)
 - MYC was among recurrently amplified oncogenes in prostate cancer identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
-- MYC amplification at 8q24 was identified as a significant copy-number alteration in HGSOC by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- MYC amplification at 8q24 was identified as a significant copy-number alteration in [HGSOC](../cancer_types/HGSOC.md) by TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - BET bromodomain inhibition suppresses MYC transcription in ARID1A-mutant ovarian cancer models [PMID:22037554](../papers/22037554.md)
-- MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified SF3B1 mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
+- MYC copy number alterations were assessed in breast cancer samples as part of whole-exome sequencing that identified [SF3B1](../genes/SF3B1.md) mutations and splicing dysregulation [PMID:22158541](../papers/22158541.md)
 - MYC amplification is a key driver in breast cancer, enriched in high-proliferation IntClust subtypes of the METABRIC cohort (~2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Mutated in >10% of cases in breast cancer WES (100 tumors, Sanger cohort); identified as a high-frequency driver gene [PMID:22722201](../papers/22722201.md)
-- Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations (KDM6A, CHD7, ZMYM3) [PMID:22722829](../papers/22722829.md)
+- Amplification in subgroup-3 medulloblastoma (PCGP WGS, 37 tumors); mutually exclusive with epigenetic mutations ([KDM6A](../genes/KDM6A.md), [CHD7](../genes/CHD7.md), [ZMYM3](../genes/ZMYM3.md)) [PMID:22722829](../papers/22722829.md)
 - Transcriptional activator of the miR-17-92 cluster; expression correlated (r = 0.61) with miR-18a across NCI-60 cell lines in CellMiner pharmacogenomics platform analysis [PMID:22802077](../papers/22802077.md)
 - Amplification at 8q24 in colorectal cancer (276-tumor TCGA CRC cohort); transcriptional targets universally altered per PARADIGM pathway analysis [PMID:22810696](../papers/22810696.md)
 - MYC broad amplicon on chromosome 8q in 23% (17/74) of colorectal cancer tumors [PMID:22895193](../papers/22895193.md)
-- MYC focal amplification in SCLC (rare, 1 case); mutually exclusive with MYCL and MYCN amplification (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
+- MYC focal amplification in [SCLC](../cancer_types/SCLC.md) (rare, 1 case); mutually exclusive with [MYCL](../genes/MYCL.md) and [MYCN](../genes/MYCN.md) amplification (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
 - MYC copy-number amplification identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - MYC amplification identified as a recurrent somatic copy-number alteration in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - MYC pathway alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Copy-number amplification across breast cancer subtypes; hyperactivation characteristic of Basal-like breast cancer (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
+- Focal amplification observed in ≥5% of OSCC tumors (8q gain); part of the mitogenic signaling pathway altered in 63% of OSCC tumors (40-tumor MD Anderson cohort) [PMID:23619168](../papers/23619168.md)
+- Focal amplification at 8q24.12 in the copy-number-high (serous-like) cluster-4 endometrial carcinoma subgroup, which shares molecular features with high-grade serous ovarian carcinoma (TCGA 373-tumor cohort) [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -85,64 +87,70 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

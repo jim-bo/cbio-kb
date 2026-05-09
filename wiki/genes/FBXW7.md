@@ -3,8 +3,8 @@ symbol: FBXW7
 aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # FBXW7
@@ -23,9 +23,10 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 - Significantly mutated in COSMIC-restricted analysis of lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
-- Among 25 significantly mutated genes identified by InVEx/MutSig in 183 LUAD cases [PMID:22980975](../papers/22980975.md)
+- Among 25 significantly mutated genes identified by InVEx/MutSig in 183 [LUAD](../cancer_types/LUAD.md) cases [PMID:22980975](../papers/22980975.md)
 - Significantly mutated in microsatellite-stable colorectal cancer (Genentech WES, 74 tumors) [PMID:22895193](../papers/22895193.md)
 - Identified as significantly mutated in CLL (Broad cohort, 160 tumors); truncating and missense mutations in the WD40 substrate-recognition domain [PMID:23415222](../papers/23415222.md)
+- Mutated in 82% of POLE-ultramutated endometrial tumors and 22% of copy-number-high tumors; mutually exclusive with FGFR2/ERBB2 amplification in WNT module analysis [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -36,7 +37,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with TP53 mutations in serous endometrial carcinoma and carcinosarcoma [PMID:37651310](../papers/37651310.md).
+- Co-occurs with [TP53](../genes/TP53.md) mutations in serous endometrial carcinoma and carcinosarcoma [PMID:37651310](../papers/37651310.md).
 
 ## Therapeutic relevance
 
@@ -53,25 +54,28 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

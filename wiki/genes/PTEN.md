@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # PTEN
@@ -32,27 +32,30 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Frequently deleted and mutated in prostate cancer; identified as a key altered gene in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 - Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
-- Among the most frequently mutated genes in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Among the most frequently mutated genes in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
 - PTEN loss-of-function mutations detected in HNSCC whole-exome sequencing (74 tumor-normal pairs, Broad), activating the PI3K pathway [PMID:21798893](../papers/21798893.md)
 - PTEN mutation and deletion status were characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, with PTEN loss correlating with sensitivity to PI3K/AKT pathway inhibitors [PMID:22460905](../papers/22460905.md)
 - Somatic mutations and homozygous deletions in 7.7% (5/65) of TNBC; copy number losses in 3% of cases [PMID:22495314](../papers/22495314.md)
 - Homozygous deletions identified as rare but potentially significant events in breast cancer across METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- Recurrently mutated and deleted in prostate cancer; inversely associated with SPOP mutations in primary tumors (P = 0.044) [PMID:22610119](../papers/22610119.md)
-- Recurrently disrupted by structural rearrangements in 4/25 melanoma tumors; PREX2 is a known PTEN-interacting protein and negative regulator of PTEN activity [PMID:22622578](../papers/22622578.md)
+- Recurrently mutated and deleted in prostate cancer; inversely associated with [SPOP](../genes/SPOP.md) mutations in primary tumors (P = 0.044) [PMID:22610119](../papers/22610119.md)
+- Recurrently disrupted by structural rearrangements in 4/25 melanoma tumors; [PREX2](../genes/PREX2.md) is a known PTEN-interacting protein and negative regulator of PTEN activity [PMID:22622578](../papers/22622578.md)
 - Inactivating mutations leading to AKT activation identified in breast cancer WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
-- Functional loss via MAGI3 disruption in breast cancer (Broad WES/WGS, 103 tumors); MAGI3 PDZ domain required for PTEN inhibition of PI3K; MAGI3-AKT3 fusion disrupts this interaction in triple-negative breast cancer [PMID:22722202](../papers/22722202.md)
+- Functional loss via [MAGI3](../genes/MAGI3.md) disruption in breast cancer (Broad WES/WGS, 103 tumors); MAGI3 PDZ domain required for PTEN inhibition of PI3K; MAGI3-AKT3 fusion disrupts this interaction in triple-negative breast cancer [PMID:22722202](../papers/22722202.md)
 - Focal deletion and mutation in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); previously reported alteration confirmed in this cohort [PMID:22722829](../papers/22722829.md)
 - Loss and mutations identified as a significantly mutated gene in CRPC (Michigan WES, 112 tumors); interaction network identified [PMID:22722839](../papers/22722839.md)
-- Deletions/mutations in 4% of non-hypermutated colorectal tumors; mutually exclusive with PIK3CA and PIK3R1 alterations in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
-- Mutation/focal deletion co-occurring with BRAF in 44% of melanomas and rarely with NRAS (4%, p=4.9e-5); identified as significantly mutated by InVEx in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
+- Deletions/mutations in 4% of non-hypermutated colorectal tumors; mutually exclusive with [PIK3CA](../genes/PIK3CA.md) and [PIK3R1](../genes/PIK3R1.md) alterations in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Mutation/focal deletion co-occurring with [BRAF](../genes/BRAF.md) in 44% of melanomas and rarely with [NRAS](../genes/NRAS.md) (4%, p=4.9e-5); identified as significantly mutated by InVEx in 121-tumor Broad WES cohort [PMID:22817889](../papers/22817889.md)
 - Copy loss at 10q23 frequent in BRAF/NRAS-mutant class of melanomas in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 - PTEN deletion in 4% (3/74) of colorectal cancer tumors (Genentech WES) [PMID:22895193](../papers/22895193.md)
-- PTEN inactivating missense mutations in 3/29 (10%) of SCLC tumors (CLCGP); loss of phosphatase activity activating PI3K pathway [PMID:22941188](../papers/22941188.md)
+- PTEN inactivating missense mutations in 3/29 (10%) of [SCLC](../cancer_types/SCLC.md) tumors (CLCGP); loss of phosphatase activity activating PI3K pathway [PMID:22941188](../papers/22941188.md)
 - PTEN inactivating mutations in 2-4% of SCLC tumors with hotspot mutations and copy-number loss (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - PTEN mutation and deletion in lung squamous cell carcinoma (TCGA, 178 tumors); part of 47% PI3K pathway alteration rate [PMID:22960745](../papers/22960745.md)
 - PTEN alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) as part of PI3K pathway dysregulation [PMID:22980975](../papers/22980975.md)
-- Loss more common in Basal-like breast cancer; activates PI3K pathway; mutually exclusive with PIK3CA, PIK3R1, and AKT1 mutations (P=0.025) in 510 TCGA breast tumors (brca_tcga_pub) [PMID:23000897](../papers/23000897.md)
-- PI3K pathway dependence (involving PTEN loss) confirmed in hypodiploid ALL; PI3K inhibitors GDC-0941 and BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo (all_stjude_2013, 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
+- Loss more common in Basal-like breast cancer; activates PI3K pathway; mutually exclusive with PIK3CA, PIK3R1, and [AKT1](../genes/AKT1.md) mutations (P=0.025) in 510 TCGA breast tumors ([brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
+- PI3K pathway dependence (involving PTEN loss) confirmed in hypodiploid ALL; PI3K inhibitors GDC-0941 and BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
+- Mutated in 4/145 EAC tumors; part of PI3K-pathway alterations alongside PIK3CA and PIK3R1 [PMID:23525077](../papers/23525077.md)
+- Recurrently subclonal deletion in prostate cancer (p=10⁻⁵ vs [NKX3-1](../genes/NKX3-1.md) clonality); disrupted by chromoplexy in 9 cases; co-deleted with PIK3R1 in one chain, indicating PI3K-pathway convergence via structural rearrangement [PMID:23622249](../papers/23622249.md)
+- Mutated in 84% of MSS endometrioid and 94% of POLE-ultramutated endometrial tumors; only 11% in serous-like; co-occurs with [TP53](../genes/TP53.md) in endometrioid (50%) but rarely in serous (2.6%) [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -90,85 +93,94 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

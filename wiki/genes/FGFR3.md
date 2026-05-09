@@ -28,6 +28,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3::[TACC3](../genes/TACC3.md) in-frame fusion (GOF) in 1 [GBC](../cancer_types/GBC.md) patient [PMID:36228155](../papers/36228155.md)
 - Listed among mutated genes in 183 [LUAD](../cancer_types/LUAD.md) cases (WES, Broad cohort) [PMID:22980975](../papers/22980975.md)
 - Amplified at 4p16.3 in the copy-number-high (serous-like) cluster 4 of endometrial cancer; this amplification newly reported in endometrial cancer [PMID:23636398](../papers/23636398.md)
+- Noted as background context in pilocytic astrocytoma genomics: FGFR3:[TACC3](../genes/TACC3.md) fusions occur in adult glioblastoma, providing conceptual parallel for kinase-domain fusion biology [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +76,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

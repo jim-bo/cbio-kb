@@ -1,0 +1,29 @@
+---
+name: ANNOVAR
+slug: annovar
+kind: method
+canonical_source: corpus
+unverified: true
+tags: [variant-annotation, bioinformatics]
+processed_by: entity-page-writer
+processed_at: 2026-05-09
+---
+
+# ANNOVAR
+
+## Overview
+
+ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotating genetic variants identified by next-generation sequencing. It annotates SNVs and indels against multiple databases including gene function, conservation scores, disease associations, and population allele frequencies.
+
+## Used by
+
+- Applied in ICGC PedBrain pilocytic astrocytoma whole-genome sequencing study (96 cases) for functional annotation of somatic variants, used alongside [oncotator](../methods/oncotator.md); PCR + [sanger-sequencing](../methods/sanger-sequencing.md) achieved >98% SNV verification [PMID:23817572](../papers/23817572.md)
+
+## Notes
+
+- Corpus-grown slug; not found in cBioPortal canonical gene panel ontology.
+- Typically used downstream of alignment and variant calling (e.g., MuTect, Pindel), before biological interpretation.
+
+## Sources
+
+*This page was processed by **entity-page-writer** on **2026-05-09**.*

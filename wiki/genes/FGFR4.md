@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # FGFR4
@@ -19,6 +19,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
   links to the papers that report them.
 - 3 kinase domain mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours; co-occurrence with [NTRK2](../genes/NTRK2.md) and [PDGFRA](../genes/PDGFRA.md) mutations noted. [PMID:18948947](../papers/18948947.md)
 - Mutated in breast cancer (TCGA, 510 tumors); somatic mutations identified across subtypes [PMID:23000897](../papers/23000897.md)
+- Mutation identified in adenoid cystic carcinoma (ACC); receptor tyrosine kinase in the FGF signaling pathway [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

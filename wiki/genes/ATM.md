@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # ATM
@@ -32,6 +32,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Recurrently mutated in pancreatic cancer (ICGC WES, 142 tumors); ATM loss-of-function mutations identified among significantly mutated genes, implicating DNA-damage repair deficiency [PMID:23103869](../papers/23103869.md)
 - Recurrently mutated in CLL (Broad WES, 160 tumors); ATM mutations observed as part of the significantly mutated gene landscape in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
+- Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
+- Missense p.R337C in the kinase domain in ACC (same residue recurrently mutated R337S/H/C in colorectal cancer and B-CLL, supporting oncogenicity) [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -95,3 +97,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

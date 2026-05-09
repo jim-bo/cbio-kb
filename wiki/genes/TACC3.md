@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [fusion-partner]
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # TACC3
@@ -17,6 +17,7 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 
 - FGFR3-TACC3 fusions were observed among oncogenic [FGFR3](../genes/FGFR3.md) alterations in urothelial carcinoma; FGFR3-fusion tumors had lower TMB than FGFR3-mutant tumors (median 5 vs 9 mut/Mb, p=0.0006) [PMID:37682528](../papers/37682528.md).
 - TACC3 fusion partner with [FGFR3](../genes/FGFR3.md) (4% of evaluable metastatic UC samples in UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
+- Noted as a background-context fusion partner: [FGFR3](../genes/FGFR3.md):TACC3 fusions in adult glioblastoma are cited as the conceptual analog for the [FGFR1](../genes/FGFR1.md) kinase-domain activations and FGFR1:[TACC1](../genes/TACC1.md) fusions identified in pediatric pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

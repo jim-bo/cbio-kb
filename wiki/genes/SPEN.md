@@ -1,10 +1,10 @@
 ---
 symbol: SPEN
 aliases: [SHARP, MINT]
-cancer_types: [THPA, PRAD]
+cancer_types: [THPA, PRAD, ACYC]
 tags: [transcription-repressor, hormone-signaling, thyroid, prostate]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-09
 ---
 
 # SPEN
@@ -17,6 +17,7 @@ SPEN (SHARP/MINT) is a hormone-inducible transcription repressor. In the corpus 
 
 - SPEN was identified among recurrent SNVs by SeqSig analysis in anaplastic thyroid carcinoma (ATC) across the genomic and evolutionary landscape study of ATC [PMID:38412093](../papers/38412093.md).
 - SPEN mutations were detected in prostate cancer PDX heterogeneity pairs (cases 146 and 316); SPEN is implicated as a hormone-inducible transcription repressor in prostate cancer [PMID:38488813](../papers/38488813.md).
+- 8 total truncating mutations in adenoid cystic carcinoma (6 in discovery, 2 in extension cohort); all premature stops upstream of the SPOC domain; no consistent LOH; co-occurring with [NOTCH2](../genes/NOTCH2.md) truncations in one case (PD3189); enriched in solid-histology ACC (worse prognosis); implicates NOTCH-pathway abrogation. [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -40,4 +41,6 @@ SPEN (SHARP/MINT) is a hormone-inducible transcription repressor. In the corpus 
 - [PMID:38412093](../papers/38412093.md)
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

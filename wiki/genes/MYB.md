@@ -3,8 +3,8 @@ symbol: MYB
 aliases: []
 cancer_types: [BRAIN, DIFG, AST]
 tags: [transcription-factor, epigenetic, glioma, treatment-induced]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # MYB
@@ -16,6 +16,8 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 ## Alterations observed in the corpus
 
 - Upregulated after treatment-associated DNA hypomethylation in IDH-mutant gliomas; controls cell survival and proliferation; observed in the context of glioma progression under [temozolomide](../drugs/temozolomide.md) and/or radiotherapy [PMID:38117484](../papers/38117484.md).
+- Activation via t(6;9) MYB-NFIB fusion in 57% of ACC cases; exon 10 splice/coding mutations and 5 homozygous deletions in 8%; disrupts leucine-rich negative regulatory domain, likely conferring constitutive activation [PMID:23685749](../papers/23685749.md)
+- Activation via t(6;9) MYB-NFIB fusion in 19/24 ACC cases; copy-number breakpoints at MYB locus on SNP6 in many cases [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +40,9 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 - [PMID:38117484](../papers/38117484.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

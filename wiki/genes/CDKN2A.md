@@ -55,6 +55,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Focal deletion in OSCC; combined with [CCND1](../genes/CCND1.md) amplification yields cell-cycle pathway alteration in 94% (33/35) of tumors [PMID:23619168](../papers/23619168.md)
 - Second most significantly mutated gene in EAC; recurrent point mutations are the dominant lesion in the 14% of EACs with point-mutation-driven cell-cycle disruption [PMID:23525077](../papers/23525077.md)
 - Increased expression in copy-number-high endometrial carcinoma cluster; cited as a feature distinguishing serous from endometrioid carcinoma [PMID:23636398](../papers/23636398.md)
+- Truncating frameshift mutation in ACC; 3 additional cases with LOH encompassing CDKN2A without nearby [NFIB](../genes/NFIB.md) involvement, suggesting a CDKN2A role independent of the MYB-NFIB fusion event [PMID:23778141](../papers/23778141.md)
+- Focal 9p21 deletion in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446); enriched in mRNA subtype m3 (53% vs 26%, p<0.0001) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -166,5 +168,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

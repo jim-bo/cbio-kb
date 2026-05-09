@@ -26,7 +26,9 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - KDM6A alterations detected in prostate cancer WES cohort (Michigan, 112 tumors); loss of KDM6A histone demethylase activity may synergize with [EZH2](../genes/EZH2.md) gain in prostate cancer progression [PMID:22722839](../papers/22722839.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
-- Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); part of the epigenetic modifier category alongside EZH2, [KMT2A](../genes/KMT2A.md), and [KMT2C](../genes/KMT2C.md) in the TCGA AML cohort [PMID:23634996](../papers/23634996.md)
+- Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); part of the epigenetic modifier category alongside [EZH2](../genes/EZH2.md), [KMT2A](../genes/KMT2A.md), and [KMT2C](../genes/KMT2C.md) in the TCGA [AML](../cancer_types/AML.md) cohort [PMID:23634996](../papers/23634996.md)
+- Missense mutation in 7% of ACC samples; loss of H3K27me3 demethylase activity confirmed in vitro; identified as a CHASM driver in ACC [PMID:23685749](../papers/23685749.md)
+- Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +77,11 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MNG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # CHD2
@@ -17,6 +17,7 @@ CHD2 (Chromodomain Helicase DNA Binding Protein 2) encodes an ATP-dependent chro
 ## Alterations observed in the corpus
 
 - Novel recurrent driver mutations enriched in MG3/MG4 (high-risk) meningioma molecular groups in a comprehensive integrative molecular classification of 565 meningiomas; CHD2 alterations implicate chromatin remodeling dysregulation as a mechanism of aggressive meningioma behavior [PMID:34433969](../papers/34433969.md).
+- Truncating mutation in chromatin-remodeling gene cluster in ACC; part of cluster collectively mutated in 12/24 cases [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CHD2 (Chromodomain Helicase DNA Binding Protein 2) encodes an ATP-dependent chro
 - [PMID:34433969](../papers/34433969.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

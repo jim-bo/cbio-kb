@@ -5,7 +5,7 @@ main_type: Glioma
 parent: ADIFG
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # Glioblastoma, IDH-Wildtype (GB)
@@ -24,18 +24,19 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 ## Recurrent alterations
 
 - Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways: **RTK/RAS/PI3K** (88% of cases; [EGFR](../genes/EGFR.md), [NF1](../genes/NF1.md), [PTEN](../genes/PTEN.md), [PIK3R1](../genes/PIK3R1.md)), **p53** (78% of cases; [TP53](../genes/TP53.md), [MDM2](../genes/MDM2.md), [CDKN2A](../genes/CDKN2A.md)), and **RB** (88% of cases; [RB1](../genes/RB1.md), [CDKN2A/B](../genes/CDKN2A.md), [CDK4](../genes/CDK4.md)). [PMID:18772890](../papers/18772890.md)
-- [PIK3R1](../genes/PIK3R1.md) — frequent mutations (10%) identified in GBM, often in the iSH2 domain, which disrupt p110α interaction and activate the PI3K pathway. [PMID:18772890](../papers/18772890.md)
+- [PIK3R1](../genes/PIK3R1.md) — frequent mutations (10%) identified in [GBM](../cancer_types/GBM.md), often in the iSH2 domain, which disrupt p110α interaction and activate the PI3K pathway. [PMID:18772890](../papers/18772890.md)
 - [NF1](../genes/NF1.md) — somatic mutations and deletions occur in 18% of cases, identifying it as a major tumor suppressor in GBM. [PMID:18772890](../papers/18772890.md)
 - Extracellular domain mutations in [EGFR](../genes/EGFR.md) (novel missense) and [ERBB2](../genes/ERBB2.md) (8% of cases) contribute to RTK pathway activation. [PMID:18772890](../papers/18772890.md)
 - IDH-wildtype status defines GB: these tumors maintain stable epigenomes over time, with low global methylation at both initial diagnosis and recurrence (zero CpG probes showing differential methylation >15% between initial and recurrent tumors). [PMID:38117484](../papers/38117484.md)
 - [TERT](../genes/TERT.md) — mutations co-occur with [BRAF](../genes/BRAF.md) fusions in gliomas (11% co-occurrence); [TERT](../genes/TERT.md) mutations found in glioma subset. [PMID:38922339](../papers/38922339.md)
 - [EGFR](../genes/EGFR.md) — amplification is a hallmark of IDH-wildtype glioblastoma (not specifically quantified in these corpus studies).
 - [EGFR](../genes/EGFR.md) low/absent expression in LN229 GB cells prevents C-MMAE binding, accumulation, and radiosensitization — confirms that [EGFR](../genes/EGFR.md) expression level, not mere tumor histology, gates ADC activity. [PMID:27698471](../papers/27698471.md)
+- Re-analysis of 48 pediatric GB exomes identified 3/48 (6%) cases with the triple-mutation constellation [FGFR1](../genes/FGFR1.md) activation + [H3-3A](../genes/H3-3A.md) K27M + [NF1](../genes/NF1.md) alteration (all TP53-wildtype), extending FGFR-targeted therapy rationale to a subset of pediatric glioblastoma [PMID:23817572](../papers/23817572.md)
 
 ## Subtypes
 
 - IDH-wildtype glioblastoma has a stable epigenome compared to IDH-mutant gliomas, which undergo progressive demethylation at recurrence. [PMID:38117484](../papers/38117484.md)
-- [BRAF](../genes/BRAF.md) fusions occur at low frequency (<1%) across gliomas; pilocytic astrocytoma (a pediatric low-grade glioma, not GB) has 56% [BRAF](../genes/BRAF.md) fusion prevalence; adult IDH-wildtype GB is not specifically enriched for BRAF fusions. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusions occur at low frequency (<1%) across gliomas; pilocytic astrocytoma (a pediatric low-grade glioma, not GB) has 56% [BRAF](../genes/BRAF.md) fusion prevalence; adult IDH-wildtype GB is not specifically enriched for [BRAF](../genes/BRAF.md) fusions. [PMID:38922339](../papers/38922339.md)
 
 ## Therapeutic landscape
 
@@ -52,5 +53,6 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
 - [PMID:27698471](../papers/27698471.md)
 - [PMID:28872634](../papers/28872634.md)
+- [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

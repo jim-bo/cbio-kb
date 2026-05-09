@@ -16,6 +16,7 @@ PRKCI (Protein Kinase C Iota) encodes an atypical protein kinase C family member
 ## Alterations observed in the corpus
 
 - Located on 3q; identified as a candidate cancer driver gene within the 3q arm-level gain present in oral squamous cell carcinoma (OSCC) [PMID:23619168](../papers/23619168.md)
+- Focal amplification observed in ccRCC multi-platform TCGA analysis (450 cases) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ PRKCI (Protein Kinase C Iota) encodes an atypical protein kinase C family member
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with PIK3CA (also on 3q) copy gain in OSCC; the 3q amplicon contains [TERC](../genes/TERC.md), PRKCI, and PIK3CA as candidate drivers [PMID:23619168](../papers/23619168.md)
+- Co-occurs with [PIK3CA](../genes/PIK3CA.md) (also on 3q) copy gain in OSCC; the 3q amplicon contains [TERC](../genes/TERC.md), PRKCI, and PIK3CA as candidate drivers [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 
@@ -31,10 +32,13 @@ PRKCI (Protein Kinase C Iota) encodes an atypical protein kinase C family member
 
 ## Open questions
 
-- Whether PRKCI is a bona fide driver within the 3q amplicon in OSCC (versus a passenger co-amplified with PIK3CA or TERC) has not been functionally resolved in this cohort.
+- Whether PRKCI is a bona fide driver within the 3q amplicon in OSCC (versus a passenger co-amplified with PIK3CA or [TERC](../genes/TERC.md)) has not been functionally resolved in this cohort.
 
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -21,6 +21,9 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2 mutations (I654V, D725V) detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC patient ctDNA [PMID:36355783](../papers/36355783.md)
 - Mutated and focally amplified in breast cancer (TCGA, 510 tumors); alterations enriched in luminal subtypes [PMID:23000897](../papers/23000897.md)
 - Included in WNT/RTK MEMo module of mutual exclusivity with [FBXW7](../genes/FBXW7.md) and [ERBB2](../genes/ERBB2.md) in endometrial cancer subtype analysis [PMID:23636398](../papers/23636398.md)
+- Tandem duplication identified in one adenoid cystic carcinoma (ACC) tumor, similar to hematologic malignancy ITDs; no fusion transcript detected by RT-PCR [PMID:23685749](../papers/23685749.md)
+- Activating mutations p.Y376C, p.I389_V393>M (transmembrane in-frame deletion), and p.K642R (kinase domain) identified in adenoid cystic carcinoma; all paralogous to known activating germline craniosynostosis alleles or recurrent somatic activating alleles in endometrial/ovarian cancer; nominates FGFR inhibitors (e.g., [dovitinib](../drugs/dovitinib.md)) as a therapeutic strategy [PMID:23778141](../papers/23778141.md)
+- K659E mutation (homologous to [FGFR1](../genes/FGFR1.md) K656E) observed in a case reclassified from medulloblastoma to glioblastoma by expression profiling; co-occurring with [FGFR3](../genes/FGFR3.md), TACC1/TACC3 fusions noted as background context for kinase-domain hotspot biology [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +56,14 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

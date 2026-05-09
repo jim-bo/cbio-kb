@@ -39,14 +39,16 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - 39 of 125 pediatric medulloblastoma pairs (ICGC) analyzed by deep whole-genome sequencing at 35-fold mean coverage; identified tetraploidy as frequent early event in Group 3 and 4 tumors and described first medulloblastoma fusion genes [PMID:22832583](../papers/22832583.md)
 - Applied alongside WES in Genentech colorectal cohort to detect structural variants including RSPO2/RSPO3 fusions [PMID:22895193](../papers/22895193.md)
 - Applied to [SCLC](../cancer_types/SCLC.md) tumors in CLCGP study (29 cases) to detect structural rearrangements and copy number alterations in TP53/RB1-null tumors [PMID:22941188](../papers/22941188.md)
-- Used in JHU SCLC study (36 tumors) to complement WES and characterise copy number landscape including SOX2/MYCL amplifications [PMID:22941189](../papers/22941189.md)
+- Used in JHU [SCLC](../cancer_types/SCLC.md) study (36 tumors) to complement WES and characterise copy number landscape including SOX2/MYCL amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to subset of TCGA [LUSC](../cancer_types/LUSC.md) tumors (178-tumor cohort) to detect structural variants alongside WES-based somatic mutation calling [PMID:22960745](../papers/22960745.md)
 - Applied in Broad [LUAD](../cancer_types/LUAD.md) WES study (183 tumors) to characterise structural variation and somatic copy number alterations [PMID:22980975](../papers/22980975.md)
 - WGS of 87 neuroblastoma tumor/normal pairs from the Broad cohort; detected structural variants including [MYCN](../genes/MYCN.md) amplifications and [ALK](../genes/ALK.md) rearrangements [PMID:23334666](../papers/23334666.md)
 - WGS of 7 ETP-ALL tumor/normal pairs at St. Jude; revealed complex structural rearrangements in [FLT3](../genes/FLT3.md), JAK1/2, and cytokine receptor genes [PMID:23334668](../papers/23334668.md)
 - Whole-genome sequencing (~49× tumor / 30× germline; 101 bp paired reads) on 16 esophageal adenocarcinoma pairs; rearrangements called by dRanger yielded 2,952 candidate events; no recurrent fusions found [PMID:23525077](../papers/23525077.md)
 - Whole-genome sequencing (mean 61× tumor / 34× normal; Illumina GAIIx paired-end 101 bp) on 57 prostate tumor/normal pairs; identified 5,596 somatic rearrangements by dRanger and characterized chromoplexy chains in 88% of tumors [PMID:23622249](../papers/23622249.md)
-- Whole-genome sequencing (mean 30.54× coverage) on 50 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA AML study; VAF-based clonal architecture analysis showed >50% of tumors had ≥1 subclone [PMID:23634996](../papers/23634996.md)
+- Whole-genome sequencing (mean 30.54× coverage) on 50 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA [AML](../cancer_types/AML.md) study; VAF-based clonal architecture analysis showed >50% of tumors had ≥1 subclone [PMID:23634996](../papers/23634996.md)
+- Applied in 5 of 60 ACC tumor/normal pairs (Illumina HiSeq 2000, mean coverage 37x) for structural variant detection using CREST; complemented whole-exome sequencing for comprehensive somatic alteration characterization [PMID:23685749](../papers/23685749.md)
+- Applied to 96 pediatric pilocytic astrocytoma tumor/blood pairs (Illumina HiSeq2000, BWA + samtools + Picard, hg19); mean somatic mutation rate <0.1/Mb; PINDEL, CREST, and DELLY used for SV detection revealing [KIAA1549](../genes/KIAA1549.md):[BRAF](../genes/BRAF.md) fusions and novel BRAF/NTRK2 fusions [PMID:23817572](../papers/23817572.md)
 
 ## Notes
 
@@ -129,5 +131,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

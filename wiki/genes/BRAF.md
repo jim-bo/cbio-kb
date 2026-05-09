@@ -49,6 +49,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - MAPK-pathway mutations uncommon in EAC: BRAF mutations absent (0/145 tumors, [esca_broad](../datasets/esca_broad.md)), contrasting with CRC where BRAF mutations are frequent; [NF1](../genes/NF1.md) mutated in 2% [PMID:23525077](../papers/23525077.md)
 - Activating mutation present in OSCC as part of mitogenic signaling pathway; in CRC, BRAF (not RAS) correlates with [CASP8](../genes/CASP8.md) mutation, suggesting tissue-specific co-mutation patterns ([hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md)) [PMID:23619168](../papers/23619168.md)
 - NRF1-BRAF singleton sense-preserving fusion detected in prostate tumor PR-4240 by chromoplexy analysis; BRAF kinase domain left intact, hypothesized to drive overexpression of an oncogenic kinase [PMID:23622249](../papers/23622249.md)
+- Activating fusions in pilocytic astrocytoma: [KIAA1549](../genes/KIAA1549.md):BRAF in 70/96 cases; novel partners [RNF130](../genes/RNF130.md) (n=2), [CLCN6](../genes/CLCN6.md), [MKRN1](../genes/MKRN1.md), [GNAI1](../genes/GNAI1.md), [FAM131B](../genes/FAM131B.md):BRAF; point mutations V600E (n=4), p.ins599T, and novel p.R506_insVLR (interdomain-cleft insertion stabilizing dimerization, matching V600E for ERK phosphorylation) [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -147,5 +148,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

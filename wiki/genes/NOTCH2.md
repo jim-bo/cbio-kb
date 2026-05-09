@@ -3,8 +3,8 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NOTCH2
@@ -18,6 +18,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Loss-of-function mutations observed in actinic keratosis (AK) lesions; secondary hits to the Notch pathway on phylogenetic branches during AK-to-cSCC evolution [PMID:39091884](../papers/39091884.md).
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - NOTCH2 mutations identified in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
+- NOTCH2 compound heterozygous truncating mutations p.Q2308fs*5 and p.E2420* in ACC (PD3189), co-occurring with [SPEN](../genes/SPEN.md) truncations; reminiscent of activating mutations in Hajdu-Cheney syndrome [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -33,16 +34,19 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 
 ## Open questions
 
-- Whether NOTCH2 LoF contributes independently to the stem/progenitor phenotype induced by NOTCH1 loss in keratinocytes is not determined.
+- Whether NOTCH2 LoF contributes independently to the stem/progenitor phenotype induced by [NOTCH1](../genes/NOTCH1.md) loss in keratinocytes is not determined.
 
 ## Sources
 
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

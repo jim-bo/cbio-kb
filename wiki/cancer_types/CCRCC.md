@@ -10,15 +10,15 @@ tags:
   - immunotherapy
   - tki
   - tumor-microenvironment
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Renal Clear Cell Carcinoma (CCRCC)
 
 ## Overview
 
-Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of renal cell carcinoma, arising from renal tubular epithelium and characterized by VHL loss and alterations in chromatin remodeling genes ([BAP1](../genes/BAP1.md), [SETD2](../genes/SETD2.md), [PBRM1](../genes/PBRM1.md)). It sits at OncoTree level 3 under the renal cell carcinoma (RCC) branch. First-line treatment options include immune checkpoint inhibitors (ICI), tyrosine kinase inhibitors (TKI), and combination regimens; biomarker-driven therapy selection is an active area of investigation.
+Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of renal cell carcinoma, arising from renal tubular epithelium and characterized by [VHL](../genes/VHL.md) loss and alterations in chromatin remodeling genes ([BAP1](../genes/BAP1.md), [SETD2](../genes/SETD2.md), [PBRM1](../genes/PBRM1.md)). It sits at OncoTree level 3 under the renal cell carcinoma (RCC) branch. First-line treatment options include immune checkpoint inhibitors (ICI), tyrosine kinase inhibitors (TKI), and combination regimens; biomarker-driven therapy selection is an active area of investigation.
 
 ## Cohorts in the corpus
 
@@ -34,6 +34,8 @@ Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of
 - [MTOR](../genes/MTOR.md) — activating mutations strongly associated with ICI and ICI+TKI non-response; 15 of 16 patients with MTOR-activating mutations were resistant to ICI regimens. [PMID:22138691](../papers/22138691.md)
 - [KDM5C](../genes/KDM5C.md) — mutational frequency varied across ICI and TKI score groups. [PMID:22138691](../papers/22138691.md)
 - [NF2](../genes/NF2.md) — mutations more prevalent in the fibrotic F HiTME subtype. [PMID:22138691](../papers/22138691.md)
+- TCGA multi-platform characterization of 446 CCRCC primary nephrectomy specimens identified 19 significantly mutated genes (VHL, [PBRM1](../genes/PBRM1.md), [SETD2](../genes/SETD2.md), [KDM5C](../genes/KDM5C.md), [PTEN](../genes/PTEN.md), [BAP1](../genes/BAP1.md), [MTOR](../genes/MTOR.md), [TP53](../genes/TP53.md) most significant), chromosome 3p loss in 91%, PI3K/AKT/mTOR pathway alteration in ~28%, and a metabolic Warburg shift correlating with worse survival [PMID:23792563](../papers/23792563.md)
+- Mouse scRNA-seq (147,045 cells) with conditional Vhl inactivation resolved isoform-specific roles of [HIF1A](../genes/HIF1A.md) and HIF2A in CCRCC initiation: HIF1A drives early glycolysis and papillary cell loss; HIF2A drives cortical proximal tubule dedifferentiation and proliferation, supporting early [belzutifan](../drugs/belzutifan.md) use in VHL disease [PMID:23797736](../papers/23797736.md)
 
 ## Subtypes
 
@@ -48,7 +50,7 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 ## Therapeutic landscape
 
 - An integrated gradient-boosting decision-tree model classifies ccRCC patients as ICI/ICI-combo-preferred (56%), TKI-preferred (41%), or non-responsive (3%), validated across IMmotion151 and JAVELIN Renal 101 cohorts. [PMID:22138691](../papers/22138691.md)
-- ICI/ICI-combo-preferred patients had significantly longer PFS with [atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) (IMmotion151, p=0.00005) and with [avelumab](../drugs/avelumab.md)+[axitinib](../drugs/axitinib.md) vs. sunitinib (JAVELIN, p=0.000007). [PMID:22138691](../papers/22138691.md)
+- ICI/ICI-combo-preferred patients had significantly longer PFS with [atezolizumab](../drugs/atezolizumab.md)+[bevacizumab](../drugs/bevacizumab.md) vs. [sunitinib](../drugs/sunitinib.md) (IMmotion151, p=0.00005) and with [avelumab](../drugs/avelumab.md)+[axitinib](../drugs/axitinib.md) vs. [sunitinib](../drugs/sunitinib.md) (JAVELIN, p=0.000007). [PMID:22138691](../papers/22138691.md)
 - MTOR-activating mutations and antigen presentation gene mutations may serve as molecular exclusion criteria for ICI therapy. [PMID:22138691](../papers/22138691.md)
 - ICI response model achieved ROC-AUC=0.77 (training) and ROC-AUC=0.78 (JAVELIN validation), outperforming all published single-biomarker signatures. [PMID:22138691](../papers/22138691.md)
 - TKI response model achieved ROC-AUC=0.74 on validation (n=822), outperforming JAVELIN Angio, IMmotion150 Angio, proliferation, and macrophage signatures. [PMID:22138691](../papers/22138691.md)
@@ -56,5 +58,7 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 ## Sources
 
 - [PMID:22138691](../papers/22138691.md) — Five HiTME ccRCC TME subtypes and multi-omic ICI/TKI response prediction models (meta-cohort n=3,621; validation WU-RCC n=193).
+- [PMID:23792563](../papers/23792563.md)
+- [PMID:23797736](../papers/23797736.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

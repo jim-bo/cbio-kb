@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - tumor-suppressor
   - cadherin
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # FAT3
@@ -18,7 +18,8 @@ FAT3 encodes a member of the FAT cadherin family, large transmembrane proteins i
 
 ## Alterations observed in the corpus
 
-- FAT3 was among the 9 genes significantly mutated above background in HGSOC (489 samples) by TCGA integrated genomic analysis, identified by whole-exome sequencing of 316 tumors [PMID:21720365](../papers/21720365.md)
+- FAT3 was among the 9 genes significantly mutated above background in [HGSOC](../cancer_types/HGSOC.md) (489 samples) by TCGA integrated genomic analysis, identified by whole-exome sequencing of 316 tumors [PMID:21720365](../papers/21720365.md)
+- Truncating mutations identified in adenoid cystic carcinoma (ACC); protocadherin with functional growth-suppressor knockdown phenotype [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -34,10 +35,13 @@ FAT3 encodes a member of the FAT cadherin family, large transmembrane proteins i
 
 ## Open questions
 
-- Functional role of FAT3 mutations in HGSOC and whether they are true drivers or passengers relative to the dominant TP53 mutation background remains unclear.
+- Functional role of FAT3 mutations in HGSOC and whether they are true drivers or passengers relative to the dominant [TP53](../genes/TP53.md) mutation background remains unclear.
 
 ## Sources
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

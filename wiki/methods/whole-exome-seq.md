@@ -43,8 +43,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used to sequence 10 sporadic PanNETs (Illumina GAIIx with SureSelect capture, mean 101x coverage) in the Johns Hopkins discovery cohort; identified [MEN1](../genes/MEN1.md), [DAXX](../genes/DAXX.md), and [ATRX](../genes/ATRX.md) as major driver genes [PMID:21252315](../papers/21252315.md)
 - Applied to 316 [HGSOC](../cancer_types/HGSOC.md) tumors with matched normals (~180,000 exons, ~18,500 genes) in the TCGA ovarian carcinoma study; [TP53](../genes/TP53.md) mutated in 96% of sequenced tumors [PMID:21720365](../papers/21720365.md)
 - Applied to 14 NHL cases (DLBCL and [FL](../cancer_types/FL.md)) with matched tumor/normal pairs in the BCGSC sequencing study; 113 additional cases sequenced via RNA-seq [PMID:21796119](../papers/21796119.md)
-- Used to sequence 74 HNSCC tumors (150x mean coverage, 87% loci >20x) in the Broad Institute HNSCC study; identified 39 significantly mutated genes including [NOTCH1](../genes/NOTCH1.md) and TP53 [PMID:21798893](../papers/21798893.md)
-- Used to sequence 32 primary HNSCC tumors with matched normals at JHU (Illumina GAIIx/HiSeq 77x and SOLiD 44x); identified NOTCH1 as the second most frequently mutated gene (15%) with predominantly truncating mutations [PMID:21798897](../papers/21798897.md)
+- Used to sequence 74 HNSCC tumors (150x mean coverage, 87% loci >20x) in the Broad Institute HNSCC study; identified 39 significantly mutated genes including [NOTCH1](../genes/NOTCH1.md) and [TP53](../genes/TP53.md) [PMID:21798893](../papers/21798893.md)
+- Used to sequence 32 primary HNSCC tumors with matched normals at JHU (Illumina GAIIx/HiSeq 77x and SOLiD 44x); identified [NOTCH1](../genes/NOTCH1.md) as the second most frequently mutated gene (15%) with predominantly truncating mutations [PMID:21798897](../papers/21798897.md)
 - Applied to 102 breast cancer samples to discover recurrent [SF3B1](../genes/SF3B1.md) mutations and characterize the somatic mutational landscape [PMID:22158541](../papers/22158541.md)
 - Applied to 19 pancreatic cystic neoplasms to identify somatic mutations in [VHL](../genes/VHL.md), [RNF43](../genes/RNF43.md), and [GNAS](../genes/GNAS.md) across [IPMN](../cancer_types/IPMN.md), [MCN](../cancer_types/MCN.md), and [SPN](../cancer_types/SPN.md) subtypes [PMID:22158988](../papers/22158988.md)
 - Applied to 55 DLBCL tumors at the Broad Institute to identify recurrently mutated genes via MutSig analysis [PMID:22343534](../papers/22343534.md)
@@ -52,7 +52,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES of 112 prostate adenocarcinoma tumors (Broad) identified [SPOP](../genes/SPOP.md), [FOXA1](../genes/FOXA1.md), and [MED12](../genes/MED12.md) as recurrent drivers [PMID:22610119](../papers/22610119.md)
 - Used for WES of 100 breast cancer tumors in the Sanger cohort ([brca_sanger](../datasets/brca_sanger.md)), identifying ~40 driver genes [PMID:22722201](../papers/22722201.md)
 - Used for WES of 103 breast cancer tumors in the Broad cohort ([brca_broad](../datasets/brca_broad.md)), identifying [PIK3CA](../genes/PIK3CA.md) mutations and MAGI3-AKT3 fusions [PMID:22722202](../papers/22722202.md)
-- Used for WES of 112 prostate cancer tumors in the Michigan cohort ([prad_mich](../datasets/prad_mich.md)), identifying ETS fusions and SPOP mutations [PMID:22722839](../papers/22722839.md)
+- Used for WES of 112 prostate cancer tumors in the Michigan cohort ([prad_mich](../datasets/prad_mich.md)), identifying ETS fusions and [SPOP](../genes/SPOP.md) mutations [PMID:22722839](../papers/22722839.md)
 - 224 of 276 TCGA colorectal carcinoma tumor/normal pairs analyzed by whole-exome sequencing at median 103-fold coverage; identified 24 significantly mutated genes [PMID:22810696](../papers/22810696.md)
 - 121 melanoma tumor/normal pairs (Broad) analyzed by whole-exome sequencing with solution-phase hybrid capture at 103-fold mean target coverage; identified 6 novel melanoma driver genes [PMID:22817889](../papers/22817889.md)
 - 92 medulloblastoma tumor/normal pairs (Broad) sequenced by whole-exome hybrid capture covering 193,094 exons from 18,863 genes at median 106X coverage [PMID:22820256](../papers/22820256.md)
@@ -60,18 +60,21 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - 147 melanoma tumor/normal pairs (Yale) analyzed by whole-exome sequencing (Roche/NimbleGen SeqCap EZ, 22.4 Mb capture, Illumina GAIIx/HiSeq 2000); discovery cohort for [RAC1](../genes/RAC1.md) P29S and [PPP6C](../genes/PPP6C.md) [PMID:22842228](../papers/22842228.md)
 - Applied to 74 colorectal tumors (Genentech cohort) to discover RSPO2/RSPO3 fusions and characterise the somatic mutation landscape [PMID:22895193](../papers/22895193.md)
 - Applied to 29 [SCLC](../cancer_types/SCLC.md) tumors (CLCGP) alongside WGS, revealing universal TP53+[RB1](../genes/RB1.md) biallelic loss [PMID:22941188](../papers/22941188.md)
-- Applied to 36 SCLC tumors (JHU) to identify recurrent [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplifications [PMID:22941189](../papers/22941189.md)
+- Applied to 36 [SCLC](../cancer_types/SCLC.md) tumors (JHU) to identify recurrent [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to 178 [LUSC](../cancer_types/LUSC.md) tumors (TCGA) to define comprehensive somatic mutation landscape including [CDKN2A](../genes/CDKN2A.md), TP53, [KEAP1](../genes/KEAP1.md), [NFE2L2](../genes/NFE2L2.md) [PMID:22960745](../papers/22960745.md)
 - Applied to 183 [LUAD](../cancer_types/LUAD.md) tumors (Broad) enabling MutSig-driven discovery of [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [STK11](../genes/STK11.md), [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), [ARID1A](../genes/ARID1A.md) as significant drivers [PMID:22980975](../papers/22980975.md)
-- WES applied to 510 breast tumors as part of the TCGA comprehensive molecular portrait; identified PIK3CA, TP53, [GATA3](../genes/GATA3.md), [MAP3K1](../genes/MAP3K1.md) as top mutated genes [PMID:23000897](../papers/23000897.md)
+- WES applied to 510 breast tumors as part of the TCGA comprehensive molecular portrait; identified [PIK3CA](../genes/PIK3CA.md), TP53, [GATA3](../genes/GATA3.md), [MAP3K1](../genes/MAP3K1.md) as top mutated genes [PMID:23000897](../papers/23000897.md)
 - WES of 142 ICGC pancreatic tumors; achieved mean 69x coverage; identified 2.4 somatic mutations per Mb [PMID:23103869](../papers/23103869.md)
 - WES of 240 neuroblastoma tumors from the Broad cohort; low overall somatic mutation burden (~0.6 per Mb) [PMID:23334666](../papers/23334666.md)
 - WES of 44 ETP-ALL tumors from St. Jude; revealed RAS/PI3K pathway mutations in majority of cases [PMID:23334668](../papers/23334668.md)
-- WES of 160 CLL tumors; identified SF3B1, NOTCH1, [DDX3X](../genes/DDX3X.md), [POT1](../genes/POT1.md) as significantly mutated genes [PMID:23415222](../papers/23415222.md)
+- WES of 160 CLL tumors; identified [SF3B1](../genes/SF3B1.md), NOTCH1, [DDX3X](../genes/DDX3X.md), [POT1](../genes/POT1.md) as significantly mutated genes [PMID:23415222](../papers/23415222.md)
 - Whole-exome sequencing (SureSelect v2, Illumina HiSeq; mean 83.3× tumor / 85.9× normal) on 149 esophageal adenocarcinoma tumor/normal pairs; mutation calling via MuTect and Indelocator [PMID:23525077](../papers/23525077.md)
 - Whole-exome sequencing (Nimblegen capture, SOLiD or Illumina) of 40 OSCC tumor/normal pairs as part of integrated multi-platform characterization [PMID:23619168](../papers/23619168.md)
-- Whole-exome sequencing (mean 167.50× coverage) on 150 of 200 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA AML study; all candidates validated by hybridization-capture deep digital sequencing [PMID:23634996](../papers/23634996.md)
+- Whole-exome sequencing (mean 167.50× coverage) on 150 of 200 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA [AML](../cancer_types/AML.md) study; all candidates validated by hybridization-capture deep digital sequencing [PMID:23634996](../papers/23634996.md)
 - Whole-exome sequencing (≥20× depth) on 248 endometrial carcinoma tumor/normal pairs; identified significantly mutated genes including [POLE](../genes/POLE.md), TP53, [PTEN](../genes/PTEN.md), PIK3CA, [CTNNB1](../genes/CTNNB1.md), and [ARID5B](../genes/ARID5B.md) across the four molecular subtypes [PMID:23636398](../papers/23636398.md)
+- Used in 55 of 60 ACC tumor/normal pairs (Agilent SureSelect 51MB capture, Illumina HiSeq 2000); mean exome coverage 106x, 92.4% target at ≥10x; identified 710 validated nonsynonymous mutations and established a low mutation rate of 0.31 non-silent events/Mb [PMID:23685749](../papers/23685749.md)
+- Used in 24 ACC tumor/normal pairs with matched normal salivary-gland parenchyma for somatic mutation discovery; identified 312 somatic mutations (mean 13/exome), including novel [SPEN](../genes/SPEN.md), NOTCH1/2, and [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
+- Used in TCGA [CCRCC](../cancer_types/CCRCC.md) multi-platform characterization for somatic mutation discovery in 417 tumors; yielded 36,353 putative somatic mutations; 83% of WES mutation calls confirmed by whole-genome sequencing in 22-patient validation set [PMID:23792563](../papers/23792563.md)
 
 ## Notes
 
@@ -204,5 +207,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

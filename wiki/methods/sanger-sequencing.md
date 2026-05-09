@@ -27,6 +27,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate [RAC1](../genes/RAC1.md) P29S in an expanded melanoma cohort of 364 samples (Yale); mutation confirmed in 9.2% of sun-exposed melanomas [PMID:22842228](../papers/22842228.md)
 - Sanger sequencing used to validate somatic mutations discovered by WES/WGS in ETP-ALL tumors at St. Jude [PMID:23334668](../papers/23334668.md)
 - Sanger sequencing used to validate [NOTCH1](../genes/NOTCH1.md) and [CASP8](../genes/CASP8.md) mutations in a panel of 44 HNSCC cell lines, orthogonal to SOLiD/Illumina exome discovery [PMID:23619168](../papers/23619168.md)
+- Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional ACC cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional SPEN truncating mutations in solid-histology cases and 3 activating FGFR2 mutations [PMID:23778141](../papers/23778141.md)
+- Used for PCR validation of SNVs and InDels identified by WGS in 96 pediatric pilocytic astrocytoma cases; achieved >98% SNV verification rate and >70% InDel verification rate [PMID:23817572](../papers/23817572.md)
 
 ## Notes
 
@@ -62,5 +64,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

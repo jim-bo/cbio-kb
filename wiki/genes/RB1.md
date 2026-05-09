@@ -1,7 +1,7 @@
 ---
 symbol: RB1
 aliases: []
-cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD]
+cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD, CCRCC]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
 processed_by: crosslinker
 processed_at: 2026-05-09
@@ -38,12 +38,13 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
 - Identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); RB1 loss-of-function mutations detected among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
 - Inactivating mutations in 100% of [SCLC](../cancer_types/SCLC.md) tumors (biallelic via mutation + deletion/LOH); classified as an early clonal event alongside [TP53](../genes/TP53.md) [PMID:22941188](../papers/22941188.md)
-- Inactivating mutations and copy-number loss identified as significantly mutated in SCLC (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- Inactivating mutations and copy-number loss identified as significantly mutated in [SCLC](../cancer_types/SCLC.md) (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of [LUSC](../cancer_types/LUSC.md) tumors [PMID:22960745](../papers/22960745.md)
 - Mutation identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
 - Loss/mutation in 20% of Basal-like breast cancers; [CCNE1](../genes/CCNE1.md) amplification is mutually exclusive with RB1 loss; identified in TCGA breast cancer comprehensive analysis (510 tumors, [brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
 - Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 - RB1 is disrupted by chromoplexy-mediated rearrangement in 2 prostate cancer cases, representing an intermediate-to-late clonal event in the chromoplectic progression path [PMID:23622249](../papers/23622249.md)
+- Discussed as context gene: prior mouse models combining Vhl + Trp53 ± Rb1 inactivation showed dual HIFα dependence for ccRCC tumor formation, consistent with the current single-cell findings on proximal tubule proliferation; RB1 itself is not mutated in the study model. [PMID:23797736](../papers/23797736.md)
 
 ## Cancer types (linked)
 
@@ -135,5 +136,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23797736](../papers/23797736.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

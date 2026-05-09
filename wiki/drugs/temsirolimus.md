@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy]
 processed_by: crosslinker
-processed_at: 2026-04-09
+processed_at: 2026-05-09
 ---
 
 # temsirolimus
@@ -18,6 +18,7 @@ Rapamycin-ester mTOR inhibitor; used in pediatric sarcoma trial regimens (e.g., 
 ## Evidence in the corpus
 
 - Used in ARST0431-era chemotherapy regimens during the 2000–2021 MSKCC extremity rhabdomyosarcoma cohort window [PMID:37315267](../papers/37315267.md).
+- PI3K/AKT/mTOR pathway altered in ~28% of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) tumors; authors cite prior temsirolimus trials in advanced RCC as context for therapeutic targeting of this pathway [PMID:23792563](../papers/23792563.md).
 
 ## Resistance mechanisms
 
@@ -30,5 +31,6 @@ Rapamycin-ester mTOR inhibitor; used in pediatric sarcoma trial regimens (e.g., 
 ## Sources
 
 - [PMID:37315267](../papers/37315267.md)
+- [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, with temsirolimus trials in advanced RCC cited as therapeutic context.
 
-*This page was processed by **crosslinker** on **2026-04-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

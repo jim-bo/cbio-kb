@@ -8,8 +8,8 @@ tags:
   - aurora-kinase
   - melanoma
   - candidate-driver
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # TACC1
@@ -21,6 +21,7 @@ TACC1 (Transforming Acidic Coiled-Coil Containing Protein 1) encodes a centrosom
 ## Alterations observed in the corpus
 
 - Distributed missense mutations near the C-terminus and TACC domain identified in ~7% of melanoma WES cohort (121 tumors, Broad); TACC1 interacts with Aurora A kinase; functional validation was not performed in this study [PMID:22817889](../papers/22817889.md)
+- Mentioned as a background-context gene in the pilocytic astrocytoma WGS study: [FGFR1](../genes/FGFR1.md):TACC1 fusions (analogous to the more common [FGFR3](../genes/FGFR3.md):[TACC3](../genes/TACC3.md) fusions in adult glioblastoma) are noted as conceptual parallels for the FGFR1 kinase-domain activations discovered in pediatric low-grade glioma [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -42,4 +43,7 @@ TACC1 (Transforming Acidic Coiled-Coil Containing Protein 1) encodes a centrosom
 
 - [PMID:22817889](../papers/22817889.md) — Melanoma WES, Broad Institute, 121 tumors
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -27,6 +27,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Significantly mutated in microsatellite-stable colorectal cancer (Genentech WES, 74 tumors) [PMID:22895193](../papers/22895193.md)
 - Identified as significantly mutated in CLL (Broad cohort, 160 tumors); truncating and missense mutations in the WD40 substrate-recognition domain [PMID:23415222](../papers/23415222.md)
 - Mutated in 82% of POLE-ultramutated endometrial tumors and 22% of copy-number-high tumors; mutually exclusive with FGFR2/ERBB2 amplification in WNT module analysis [PMID:23636398](../papers/23636398.md)
+- R465H mutation identified in adenoid cystic carcinoma (ACC); tumor suppressor that targets [MYC](../genes/MYC.md) and [NOTCH1](../genes/NOTCH1.md) for degradation [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +78,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

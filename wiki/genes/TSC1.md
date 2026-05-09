@@ -3,8 +3,8 @@ symbol: TSC1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, mtor-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # TSC1
@@ -19,7 +19,8 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - TSC1 oncogenic alterations detected in 7% of cfDNA from 212 metastatic urothelial carcinoma (mUC) patients in the CALGB 90601 trial; numerically higher in cfDNA than matched tumor specimens [PMID:40256659](../papers/40256659.md).
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
 - 17% discordance between primary and metastatic bladder cancer sites [PMID:36543146](../papers/36543146.md)
-- Identified as significantly mutated in TCGA LUSC (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
+- Identified as significantly mutated in TCGA [LUSC](../cancer_types/LUSC.md) (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
+- Truncating mutation identified in adenoid cystic carcinoma (ACC) whole-genome sequencing discovery cohort, among a set of known cancer/tumor-suppressor gene alterations [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -42,13 +43,16 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

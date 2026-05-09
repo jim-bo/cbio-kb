@@ -9,8 +9,8 @@ tags:
   - hypoxia
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
 ---
@@ -25,6 +25,8 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 - WES of 32 pancreatic cystic neoplasms identified VHL inactivating point mutations in 4/8 serous cystadenomas (SCAs), with LOH at chr3p in 8/8 SCAs; all detected mutations were previously described in renal cell carcinoma, supporting VHL as the defining driver of SCAs [PMID:22158988](../papers/22158988.md)
 - 9/18 SCA cyst fluid samples were also VHL-mutant, demonstrating feasibility of non-invasive molecular diagnosis from cyst fluid [PMID:22158988](../papers/22158988.md)
+- Top significantly mutated gene in TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; mutations mutually exclusive with promoter methylation (~7% epigenetically silenced); central role in HIF stabilization [PMID:23792563](../papers/23792563.md)
+- Biallelic conditional inactivation (Vhl-null mouse model) is the central perturbation mimicking the truncal event in human ccRCC; VHL loss stabilizes both [HIF1A](../genes/HIF1A.md) and HIF2A, with HIF1A driving anti-survival effects in renal papilla and HIF2A driving dedifferentiation/proliferation in cortical proximal tubule cells [PMID:23797736](../papers/23797736.md)
 
 ## Cancer types (linked)
 
@@ -37,7 +39,7 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 ## Therapeutic relevance
 
-- VHL mutation status can distinguish benign SCAs from IPMNs and MCNs in cyst fluid, potentially reducing unnecessary surgical resections; a five-gene diagnostic panel (VHL, RNF43, CTNNB1, GNAS, [KRAS](../genes/KRAS.md)) is proposed for preoperative cyst classification [PMID:22158988](../papers/22158988.md)
+- VHL mutation status can distinguish benign SCAs from IPMNs and MCNs in cyst fluid, potentially reducing unnecessary surgical resections; a five-gene diagnostic panel (VHL, [RNF43](../genes/RNF43.md), [CTNNB1](../genes/CTNNB1.md), [GNAS](../genes/GNAS.md), [KRAS](../genes/KRAS.md)) is proposed for preoperative cyst classification [PMID:22158988](../papers/22158988.md)
 
 ## Open questions
 
@@ -47,4 +49,10 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23797736](../papers/23797736.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

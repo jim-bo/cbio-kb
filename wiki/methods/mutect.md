@@ -9,7 +9,7 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -23,6 +23,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 - Applied alongside Indelocator, dRanger, BreakPointer, CLONET, ChainFinder, ABSOLUTE, and GISTIC v2 in WGS analysis of 57 prostate tumors; detected 356,136 somatic base-pair mutations across the cohort (mean 33 non-silent exonic per primary tumor) [PMID:23622249](../papers/23622249.md)
 - Used for somatic SNV calling in 149 esophageal adenocarcinoma WES pairs (and 16 WGS pairs) alongside Indelocator; median 104 non-silent coding mutations per tumor at median genome-wide frequency 9.9/Mb [PMID:23525077](../papers/23525077.md)
+- Used alongside SomaticSniper for somatic SNV calling in 60 ACC tumor/normal pairs (55 exome + 5 WGS, Illumina HiSeq 2000); yielded 710 validated nonsynonymous mutations across 643 genes [PMID:23685749](../papers/23685749.md)
 
 ## Notes
 
@@ -33,3 +34,6 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

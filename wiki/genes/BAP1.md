@@ -8,8 +8,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BAP1
@@ -27,6 +27,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - BAP1 loss-of-function mutations identified as a molecular subtype-defining event in clear cell renal cell carcinoma (ccRCC) with implications for immunotherapy response prediction [PMID:22138691](../papers/22138691.md)
 - BAP1 mutations identified in breast cancer WES of 100 tumors, implicating deubiquitinase-mediated chromatin regulation in breast cancer [PMID:22722201](../papers/22722201.md)
 - BAP1 is recurrently mutated in the Yale melanoma WES cohort of 147 tumors, suggesting a role for this ubiquitin carboxyl-terminal hydrolase and tumor suppressor in cutaneous melanoma [PMID:22842228](../papers/22842228.md)
+- Significantly mutated gene in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446); only SMG independently correlated with worse overall survival; enriched in mRNA subtype m4 (17% vs 7%, p=0.002) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -52,16 +53,19 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

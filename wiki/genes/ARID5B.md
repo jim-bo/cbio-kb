@@ -20,6 +20,8 @@ ARID5B (AT-rich interaction domain 5B) is a member of the ARID family of chromat
 ## Alterations observed in the corpus
 
 - Newly identified as a recurrently mutated SWI/SNF/ARID-family gene in endometrial carcinoma ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); mutated in 23.1% of MSI tumors vs. 5.6% of MSS endometrioid vs. 0% of serous-like subtype. [PMID:23636398](../papers/23636398.md)
+- Mutation observed in ACC WES cohort (n=60); implicated in histone modification complex function [PMID:23685749](../papers/23685749.md)
+- Somatic mutation in chromatin-remodeling gene cluster; collectively mutated in 12/24 ACC cases in exome-sequencing discovery cohort [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -35,10 +37,16 @@ ARID5B (AT-rich interaction domain 5B) is a member of the ARID family of chromat
 
 ## Open questions
 
-- Functional impact of ARID5B mutations on chromatin remodeling and endometrial tumor biology has not been directly validated; significance relative to ARID1A loss in the same tumors is unclear. [PMID:23636398](../papers/23636398.md)
+- Functional impact of ARID5B mutations on chromatin remodeling and endometrial tumor biology has not been directly validated; significance relative to [ARID1A](../genes/ARID1A.md) loss in the same tumors is unclear. [PMID:23636398](../papers/23636398.md)
 
 ## Sources
 
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

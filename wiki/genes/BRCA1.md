@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BRCA1
@@ -41,9 +41,10 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Germline/somatic mutations define HRD-Dup subtype with tandem duplications in [HGSOC](../cancer_types/HGSOC.md); 36/116 patients with LOH in any HLA class I gene in validation cohort [PMID:36517593](../papers/36517593.md)
 - BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
 - BRCA1 oncogenic mutations in 3 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
-- Found mutated or epigenetically silenced in ~20% of HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- Found mutated or epigenetically silenced in ~20% of [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - BRCA1 somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA1 mutations enriched in basal-like subtype, associated with triple-negative phenotype and genomic instability [PMID:23000897](../papers/23000897.md)
+- Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -84,25 +85,28 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -26,6 +26,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating mismatch repair deficiency [PMID:22610119](../papers/22610119.md)
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Co-mutated with [MSH3](../genes/MSH3.md) in the most hypermutated MSI-positive esophageal adenocarcinoma case (mutation frequency 14.6–50.9/Mb) in the 149-tumor Broad WES cohort; this MSI-positive case was excluded from the main significance analysis [PMID:23525077](../papers/23525077.md)
+- Homozygous loss-of-function in PanNET patient PN4 (together with [MLH1](../genes/MLH1.md)); TMB ~11 mut/Mb but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -7,8 +7,8 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Cutaneous Melanoma (SKCM)
@@ -25,9 +25,10 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 - [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [NF1](../genes/NF1.md), [TP53](../genes/TP53.md), [PTEN](../genes/PTEN.md), [CDKN2A](../genes/CDKN2A.md), [TERT](../genes/TERT.md) promoter mutations are canonical SKCM drivers.
 - The [PMID:39975212](../papers/39975212.md) atlas characterizes precursor melanocyte transcriptomic states ([MITF](../genes/MITF.md), [MLANA](../genes/MLANA.md), [PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), [AXL](../genes/AXL.md)) that may seed SKCM cell-of-origin hypotheses.
-- WGS of 25 cutaneous melanoma tumors identified PREX2 as a recurrently mutated gene and confirmed KIT and BRAF alterations [PMID:22622578](../papers/22622578.md)
-- WES of 121 cutaneous melanomas (Broad) identified RAC1 P29S (3.9%), PPP6C (9%), and MAP2K1 as novel recurrently mutated genes; 83% of tumors harbored BRAF or NRAS hotspot mutations (mutually exclusive, p=3e-14) [PMID:22817889](../papers/22817889.md)
-- WES of 147 melanomas (Yale) found RAC1 P29S in 9.2% of sun-exposed cutaneous melanomas, PPP6C mutations in 12.4%, and NF1 inactivation in 30% of BRAF/NRAS-WT tumors; vemurafenib and dabrafenib cited as established BRAF-targeted therapies [PMID:22842228](../papers/22842228.md)
+- WGS of 25 cutaneous melanoma tumors identified [PREX2](../genes/PREX2.md) as a recurrently mutated gene and confirmed [KIT](../genes/KIT.md) and [BRAF](../genes/BRAF.md) alterations [PMID:22622578](../papers/22622578.md)
+- WES of 121 cutaneous melanomas (Broad) identified [RAC1](../genes/RAC1.md) P29S (3.9%), [PPP6C](../genes/PPP6C.md) (9%), and [MAP2K1](../genes/MAP2K1.md) as novel recurrently mutated genes; 83% of tumors harbored BRAF or [NRAS](../genes/NRAS.md) hotspot mutations (mutually exclusive, p=3e-14) [PMID:22817889](../papers/22817889.md)
+- WES of 147 melanomas (Yale) found RAC1 P29S in 9.2% of sun-exposed cutaneous melanomas, PPP6C mutations in 12.4%, and [NF1](../genes/NF1.md) inactivation in 30% of BRAF/NRAS-WT tumors; [vemurafenib](../drugs/vemurafenib.md) and [dabrafenib](../drugs/dabrafenib.md) cited as established BRAF-targeted therapies [PMID:22842228](../papers/22842228.md)
+- Whole-exome sequencing of 45 BRAF V600 metastatic cutaneous melanoma patients treated with vemurafenib or dabrafenib identified resistance alterations in 51% of cases; MAPK-pathway alterations (NRAS, BRAF amplification, MAP2K1, [MAP2K2](../genes/MAP2K2.md), [MITF](../genes/MITF.md), NF1) accounted for 44% of patients. Novel resistance genes MAP2K2 (MEK2; 4 mutations) and MITF amplification were discovered and experimentally validated. Pre-treatment RAC1 P29S was enriched in early-resistance patients (3/14 vs 0 responders; P=0.026). [PMID:24265153](../papers/24265153.md)
 
 ## Subtypes
 
@@ -47,13 +48,16 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *Page last touched by entity-page-writer on 2026-05-01.*
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

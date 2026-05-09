@@ -31,12 +31,14 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS mutation status was characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling drug sensitivity correlations [PMID:22460905](../papers/22460905.md)
 - NRAS harbors somatic mutations in melanoma; identified in WGS of 25 tumors alongside recurrent [PREX2](../genes/PREX2.md) mutations [PMID:22622578](../papers/22622578.md)
 - Codon 61 mutations in 9% of non-hypermutated colorectal tumors; mutually exclusive with [KRAS](../genes/KRAS.md) and [BRAF](../genes/BRAF.md) in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
-- Q61L/R/K hotspot mutations in 22% of melanomas (121-tumor Broad WES cohort); mutually exclusive with BRAF (p=3e-14) [PMID:22817889](../papers/22817889.md)
+- Q61L/R/K hotspot mutations in 22% of melanomas (121-tumor Broad WES cohort); mutually exclusive with [BRAF](../genes/BRAF.md) (p=3e-14) [PMID:22817889](../papers/22817889.md)
 - Q61 and other activating mutations represent the second most frequent driver in melanoma (15-20%) in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 - Activating mutations in near haploid ALL as part of RTK/Ras pathway (70.6% of cases); one inherited p.Gly12Ser germline variant identified; St. Jude WGS/WES cohort of 44 hypodiploid ALL tumors [PMID:23334668](../papers/23334668.md)
 - Activating missense mutations in 0.83% (2/240) of high-risk neuroblastoma; significant in COSMIC-restricted analysis; Broad WES/WGS cohort [PMID:23334666](../papers/23334666.md)
 - Novel CLL driver candidate; mutations at highly conserved Ras GTPase sites; identified in Broad WES cohort of 160 CLL tumors [PMID:23415222](../papers/23415222.md)
-- Non-FLT3 activated signaling gene; part of the 59% signaling-pathway prevalence in 200 adult de novo [AML](../cancer_types/AML.md) cases; mutually exclusive of [FLT3](../genes/FLT3.md) and other tyrosine kinases within the signaling mutual-exclusivity set (TCGA AML cohort) [PMID:23634996](../papers/23634996.md)
+- Non-FLT3 activated signaling gene; part of the 59% signaling-pathway prevalence in 200 adult de novo [AML](../cancer_types/AML.md) cases; mutually exclusive of [FLT3](../genes/FLT3.md) and other tyrosine kinases within the signaling mutual-exclusivity set (TCGA [AML](../cancer_types/AML.md) cohort) [PMID:23634996](../papers/23634996.md)
+- Single hotspot mutation detected in [IHCH](../cancer_types/IHCH.md) discovery screen; additional NRAS hits in the prevalence screen confirm RAS signaling involvement in intrahepatic cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
+- Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant BRAF V600-mutant melanoma tumors; acquisition restricted to patients with >12-week response duration (P = 0.04), suggesting a late resistance mechanism [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -113,5 +115,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

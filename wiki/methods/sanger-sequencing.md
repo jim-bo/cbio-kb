@@ -30,8 +30,10 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional ACC cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional [SPEN](../genes/SPEN.md) truncating mutations in solid-histology cases and 3 activating [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
 - Used for PCR validation of SNVs and InDels identified by WGS in 96 pediatric pilocytic astrocytoma cases; achieved >98% SNV verification rate and >70% InDel verification rate [PMID:23817572](../papers/23817572.md)
 - Used for Sanger sequencing of all coding exons of 15 selected oncogenes/tumor suppressors in 97 high-grade bladder ([BLCA](../cancer_types/BLCA.md)) tumors [PMID:23897969](../papers/23897969.md)
-- Sanger sequencing used to validate 11,240 candidate somatic mutations; confirmed 91% of predicted substitutions and 74% of indels in 99 BLCA tumors [PMID:24121792](../papers/24121792.md)
+- Sanger sequencing used to validate 11,240 candidate somatic mutations; confirmed 91% of predicted substitutions and 74% of indels in 99 [BLCA](../cancer_types/BLCA.md) tumors [PMID:24121792](../papers/24121792.md)
 - Used for targeted validation sequencing of 172 [MCL](../cancer_types/MCL.md) patients in an independent cohort to confirm WES-identified mutations [PMID:24145436](../papers/24145436.md)
+- Used to confirm 50 somatic mutations from the whole-exome discovery screen in intrahepatic cholangiocarcinoma/gallbladder carcinoma — all 50 mutations verified [PMID:24185509](../papers/24185509.md).
+- Used to sequence [CALR](../genes/CALR.md) exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of CALR frameshift indels in JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
 
 ## Notes
 
@@ -82,5 +84,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

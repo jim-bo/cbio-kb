@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,6 +23,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - Lynch syndrome (germline MMR gene mutation, including PMS2) identified in 17/2,637 (0.7%) PDAC patients; 6/17 were MSI-H; PMS2 is one of the four MMR genes contributing to this Lynch-PDAC subset. [PMID:39753968](../papers/39753968.md)
 - **Hypermutator Phenotype**: In glioblastoma, compromised mismatch repair (including *PMS2*) is identified as a prerequisite for the development of a hypermutator phenotype upon tumor recurrence after treatment with [temozolomide](../drugs/temozolomide.md) [PMID:18772890](../papers/18772890.md).
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Somatic mutation identified in pancreatic acinar cell carcinomas but not correlated with elevated mutation burden; distinct from the MSH2-biallelic MSI-H case (ACINAR01) in this cohort [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

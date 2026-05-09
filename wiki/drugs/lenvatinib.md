@@ -5,8 +5,8 @@ drug_class: multi-kinase inhibitor (VEGFR/FGFR)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antiangiogenic]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # lenvatinib
@@ -20,7 +20,8 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - Lenvatinib in combination with [pembrolizumab](../drugs/pembrolizumab.md) is an FDA-approved regimen for MSS/pMMR endometrial carcinoma; Black EC patients are enriched for this pMMR/MSS subtype (69% of Black ECs were CN-H/TP53abn), potentially making lenvatinib+[pembrolizumab](../drugs/pembrolizumab.md) the applicable regimen for a larger proportion of Black than White EC patients [PMID:37651310](../papers/37651310.md).
 - [ERBB2](../genes/ERBB2.md) amplification, enriched in Black EC patients (12% vs 3%), represents an alternative target that may partly explain why fewer Black patients are eligible for standard dMMR-targeting agents like [dostarlimab](../drugs/dostarlimab.md), shifting the therapeutic landscape toward anti-HER2 and lenvatinib-based strategies [PMID:37651310](../papers/37651310.md).
 - In a PDTO functional screen of 92 sarcoma specimens, tumors with prior systemic therapy were more sensitive to lenvatinib than treatment-naïve specimens (p=0.011), suggesting that prior treatment may induce adaptive dependence on VEGFR/FGFR signaling [PMID:39305899](../papers/39305899.md).
-- Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
+- Lenvatinib+[pembrolizumab](../drugs/pembrolizumab.md) combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
+- High [FGFR3](../genes/FGFR3.md) expression/gain guided lenvatinib consideration in metastatic NEN patients (PN1, PN14, PN17, PN25) in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
 
 ## Resistance mechanisms
 
@@ -36,7 +37,10 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

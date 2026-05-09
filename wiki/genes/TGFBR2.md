@@ -29,6 +29,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - Identified as significantly mutated in TCGA colorectal cancer cohort (276 tumors); TGFBR2 loss-of-function in TGF-beta signaling pathway altered in colorectal adenocarcinoma [PMID:22810696](../papers/22810696.md)
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; TGFBR2 is a receptor in the TGF-beta signaling pathway [PMID:23103869](../papers/23103869.md)
 - Highlighted as a downstream pathway feature in TieDIE/focal-deletion analyses of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
+- TGFBR2 included in prevalence-screen panel for intrahepatic cholangiocarcinoma and gallbladder cancer in a multi-institution exome-sequencing study [PMID:24185509](../papers/24185509.md)
 
 ## Cancer types (linked)
 
@@ -37,7 +38,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 ## Co-occurrence and mutual exclusivity
 
 - [SMAD4](../genes/SMAD4.md) — Both TGFBR2 and [SMAD4](../genes/SMAD4.md) are components of the canonical TGF-beta signaling axis. [SMAD4](../genes/SMAD4.md) is mutated in 17% of sequenced PDAC in the same cohort; the two alterations represent parallel modes of TGF-beta pathway inactivation. [PMID:39214094](../papers/39214094.md)
-- [TP53](../genes/TP53.md) — Co-mutation context in PDAC: [TP53](../genes/TP53.md) is mutated in 71% of sequenced tumors and was assessed as a tumor suppressor co-mutation together with SMAD4 and [CDKN2A](../genes/CDKN2A.md) for prognostic modeling; TGFBR2 was evaluated independently as an early-stage enriched alteration. [PMID:39214094](../papers/39214094.md)
+- [TP53](../genes/TP53.md) — Co-mutation context in PDAC: [TP53](../genes/TP53.md) is mutated in 71% of sequenced tumors and was assessed as a tumor suppressor co-mutation together with [SMAD4](../genes/SMAD4.md) and [CDKN2A](../genes/CDKN2A.md) for prognostic modeling; TGFBR2 was evaluated independently as an early-stage enriched alteration. [PMID:39214094](../papers/39214094.md)
 - [KRAS](../genes/KRAS.md) — TGFBR2 mutation frequency was not significantly different across [KRAS](../genes/KRAS.md) allele subgroups (G12D, G12V, G12R) in the MSK PDAC cohort. [PMID:39214094](../papers/39214094.md)
 
 ## Therapeutic relevance
@@ -61,5 +62,8 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

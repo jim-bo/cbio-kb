@@ -26,6 +26,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Missense mutation in ACC; histone methyltransferase (MLL3); part of the chromatin-remodeling gene cluster recurrently mutated in ACC [PMID:23685749](../papers/23685749.md)
 - Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
 - Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors in a 99-sample WES cohort [PMID:24121792](../papers/24121792.md)
+- Mutated in 2/8 (25%) gallbladder cancer ([GBC](../cancer_types/GBC.md)) discovery-screen tumors in a biliary tract cancer WES study; absent in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) in this cohort [PMID:24185509](../papers/24185509.md)
+- Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation (reported as MLL3) in a WES study of rare pancreatic tumor subtypes [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +78,11 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

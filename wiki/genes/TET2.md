@@ -20,6 +20,7 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 - TET2 is a prevalent clonal hematopoiesis driver in MSK patients with nonhematologic cancer, used as a reference CH genotype in a 42,714-patient analysis [PMID:38147626](../papers/38147626.md).
 - Somatic mutations identified in colorectal cancer; among the first reports of TET family somatic mutations in CRC [PMID:22895193](../papers/22895193.md)
 - Identified as a DNA-methylation-related driver in [AML](../cancer_types/AML.md) (200 cases; TCGA); categorized within a functional group of epigenetic regulators alongside IDH1/IDH2 [PMID:23634996](../papers/23634996.md).
+- TET2 somatic mutations in 22/151 [MPN](../cancer_types/MPN.md) patients (epigenetic regulator); identified as a co-mutation alongside [CALR](../genes/CALR.md), [JAK2](../genes/JAK2.md), and splicing-factor mutations in MPN exome sequencing [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

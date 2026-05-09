@@ -7,8 +7,8 @@ tags:
   - receptor-tyrosine-kinase
   - mesenchymal-marker
   - neuroblastoma
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # PDGFRB
@@ -20,6 +20,7 @@ PDGFRB (Platelet Derived Growth Factor Receptor Beta) encodes a receptor tyrosin
 ## Alterations observed in the corpus
 
 - Expression marker in neuroblastoma: PDGFRB is significantly higher in the mesenchymal stromal (MSC) nC1 cluster than in the undifferentiated nC3 cluster in a single-nuclei RNA-seq study of 11 neuroblastoma tumors (Smart-Seq2), distinguishing stroma from undifferentiated tumor cells. [PMID:34493726](../papers/34493726.md)
+- High PDGFRB expression cited as a rationale for [sunitinib](../drugs/sunitinib.md) therapy in metastatic NEN patients PN2 and PN10 in a WGTA precision-oncology study [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -41,4 +42,7 @@ PDGFRB (Platelet Derived Growth Factor Receptor Beta) encodes a receptor tyrosin
 
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

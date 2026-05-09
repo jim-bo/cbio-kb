@@ -25,7 +25,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Amplified in 5 SHH-subgroup medulloblastoma cases in WGS/WES of 125 tumors (ICGC cohort) [PMID:22832583](../papers/22832583.md)
 - MYCN focal amplification in 6% of [SCLC](../cancer_types/SCLC.md) tumors (CLCGP, 29 tumors); mutually exclusive with [MYCL](../genes/MYCL.md) and [MYC](../genes/MYC.md) amplification [PMID:22941188](../papers/22941188.md)
 - Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with [ATRX](../genes/ATRX.md) loss [PMID:23334666](../papers/23334666.md)
-- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA GBM 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
+- Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -74,5 +75,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

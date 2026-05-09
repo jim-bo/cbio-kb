@@ -3,7 +3,7 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -26,6 +26,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Epigenetically silenced via promoter methylation in 19 of 23 MSI-H hypermutated colorectal tumors (276-tumor TCGA CRC cohort) [PMID:22810696](../papers/22810696.md)
 - Nonsense mutation plus deletion in one neuroblastoma patient (Broad, 240 tumors); associated with hyper-mutated phenotype [PMID:23334666](../papers/23334666.md)
 - Promoter hypermethylation drives MSI/CIMP (MC1) phenotype in the MSI hypermutated subgroup (~28%) of 373 endometrial carcinomas; MLH1 mRNA expression decreased in MSI tumors [PMID:23636398](../papers/23636398.md)
+- Promoter methylation detected in 1/23 pancreatic acinar cell carcinomas by qMSP (ACINAR06) and equivocal in ACINAR18; did not correlate with MSI status [PMID:24293293](../papers/24293293.md)
+- Homozygous loss-of-function in PanNET patient PN4 (together with [MSH6](../genes/MSH6.md)); 18% microsatellite instability but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -59,16 +61,22 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

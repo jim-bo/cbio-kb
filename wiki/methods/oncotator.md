@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-annotation, bioinformatics, cancer-genomics]
-processed_by: entity-page-writer
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -18,6 +18,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 ## Used by
 
 - Applied alongside [annovar](../methods/annovar.md) for somatic variant annotation in ICGC PedBrain pilocytic astrocytoma WGS study (96 cases); annotated SNVs and indels discovered by genome-wide sequencing in the pediatric brain tumor cohort [PMID:23817572](../papers/23817572.md)
+- Used to annotate somatic variants from whole-exome sequencing of 45 [BRAF](../genes/BRAF.md) V600 metastatic melanoma tumors (DeCOG cohort) aligned to hg19 via the Broad Picard/Firehose pipeline [PMID:24265153](../papers/24265153.md).
 
 ## Notes
 
@@ -26,4 +27,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

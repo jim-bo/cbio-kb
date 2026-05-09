@@ -22,7 +22,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - Found recurrently mutated by exome sequencing of pancreatic neuroendocrine tumors (PanNET), with mutations in 17.6% of tumors [PMID:21252315](../papers/21252315.md)
 - Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ATRX mutations enriched in older patients and associated with alternative lengthening of telomeres (ALT) phenotype [PMID:23334666](../papers/23334666.md)
 - Single somatic mutation observed in ACC WES cohort (n=60); chromatin remodeler [PMID:23685749](../papers/23685749.md)
-- Mutations in 6% of [GBM](../cancer_types/GBM.md) (TCGA); enriched in G-CIMP+ and TERT-promoter-wild-type tumors; consistent with ALT (alternative lengthening of telomeres) pathway; part of the near-obligate TERT/ATRX binary telomere-maintenance axis in primary GBM [PMID:24120142](../papers/24120142.md)
+- Mutations in 6% of [GBM](../cancer_types/GBM.md) (TCGA); enriched in G-CIMP+ and TERT-promoter-wild-type tumors; consistent with ALT (alternative lengthening of telomeres) pathway; part of the near-obligate TERT/ATRX binary telomere-maintenance axis in primary [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
+- Recurrent loss-of-function in pancreatic neuroendocrine neoplasms (PanNENs); all DAXX/ATRX-mutant cases fell into transcriptome Cluster A in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -61,5 +62,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

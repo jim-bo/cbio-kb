@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -46,6 +46,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA1 mutations enriched in basal-like subtype, associated with triple-negative phenotype and genomic instability [PMID:23000897](../papers/23000897.md)
 - Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
+- Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -114,3 +115,6 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # trametinib
@@ -23,6 +23,7 @@ Allosteric MEK1/2 inhibitor.
 - One patient with acquired [BRAF](../genes/BRAF.md) fusion after [EGFR](../genes/EGFR.md) TKI resistance remained on [erlotinib](../drugs/erlotinib.md) + trametinib for 12 months [PMID:38922339](../papers/38922339.md).
 - [RMS](../cancer_types/RMS.md) PDTOs from the UCLA sarcoma screen were significantly more sensitive to trametinib than the pan-sarcoma average (p=0.013), providing functional evidence of MEK dependency in rhabdomyosarcoma independent of specific genomic driver identification. [PMID:39305899](../papers/39305899.md)
 - Referenced as a MAPK pathway inhibitor in the context of resistance to combined KRASG12C + [EGFR](../genes/EGFR.md) inhibition in colorectal cancer; MEK1 ([MAP2K1](../genes/MAP2K1.md)) mutations emerged as resistance alterations in patients treated with [sotorasib](../drugs/sotorasib.md) or [adagrasib](../drugs/adagrasib.md) plus anti-EGFR therapy [PMID:36355783](../papers/36355783.md)
+- [MAP2K2](../genes/MAP2K2.md) mutations (C125S, N126D, V35M, L46F) identified in [BRAF](../genes/BRAF.md) V600 melanoma patients on RAF inhibitors conferred 3–20-fold trametinib resistance in A375 cells; [MITF](../genes/MITF.md) overexpression also produced pan-RAF/MEK/ERK cross-resistance [PMID:24265153](../papers/24265153.md)
 
 ## Resistance mechanisms
 
@@ -38,7 +39,10 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma screen; [RMS](../cancer_types/RMS.md) MEK-inhibitor sensitivity (p=0.013).
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: MITF
 aliases: []
 cancer_types: [MEL]
 tags: [melanocyte-master-regulator, transcription-factor, cell-identity, melanoma-driver]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MITF
@@ -19,6 +19,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - MITF amplification was identified as a genomic feature in cancer cell lines profiled in the CCLE pharmacogenomic study across 947 lines and 24 drugs [PMID:22460905](../papers/22460905.md)
 - MITF identified as a significantly mutated gene in melanoma WGS analysis of 25 tumors [PMID:22622578](../papers/22622578.md)
 - Listed among recurrently altered genes in melanoma WES of 121 tumors (Broad cohort); associated with transcriptional regulation in melanocytes [PMID:22817889](../papers/22817889.md)
+- Relapse-associated focal amplification in resistant melanoma tumors; overexpression confers pan-MAPK-inhibitor cross-resistance (30–80-fold) in WM266.4/SKMEL19/UACC62 cell lines; represents a transcriptional-effector resistance mechanism [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -26,7 +27,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with PMEL, TYRP1, and MLANA as a melanocyte lineage-confirmation cluster; mutually exclusive with keratinocyte markers ([KRT14](../genes/KRT14.md), [KRT17](../genes/KRT17.md), [KRT5](../genes/KRT5.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
+- Co-expressed with [PMEL](../genes/PMEL.md), [TYRP1](../genes/TYRP1.md), and [MLANA](../genes/MLANA.md) as a melanocyte lineage-confirmation cluster; mutually exclusive with keratinocyte markers ([KRT14](../genes/KRT14.md), [KRT17](../genes/KRT17.md), [KRT5](../genes/KRT5.md)) and fibroblast markers ([LUM](../genes/LUM.md), [COL1A1](../genes/COL1A1.md), [S100A4](../genes/S100A4.md)). [PMID:39975212](../papers/39975212.md)
 
 ## Therapeutic relevance
 
@@ -40,13 +41,16 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

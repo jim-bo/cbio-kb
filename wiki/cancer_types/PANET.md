@@ -8,8 +8,8 @@ tags:
   - neuroendocrine
   - mtor
   - chromatin-remodeling
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Pancreatic Neuroendocrine Tumor (PANET)
@@ -26,11 +26,12 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 
 - [MEN1](../genes/MEN1.md): inactivating mutations (indels, nonsense, splice-site) in 44.1% (30/68) of PanNETs; biallelic inactivation documented; encodes menin, a component of MLL/SET1-like histone methyltransferase complexes. [PMID:21252315](../papers/21252315.md)
 - [DAXX](../genes/DAXX.md): inactivating mutations in 25% (17/68); loss of immunolabeling correlates with mutation status; H3.3-specific histone chaperone. [PMID:21252315](../papers/21252315.md)
-- [ATRX](../genes/ATRX.md): inactivating mutations in 17.6% (12/68); missense mutations cluster in the conserved helicase domain; partners with DAXX for H3.3 incorporation at telomeres. DAXX and ATRX mutations are mutually exclusive (combined pathway rate 42.6%). [PMID:21252315](../papers/21252315.md)
+- [ATRX](../genes/ATRX.md): inactivating mutations in 17.6% (12/68); missense mutations cluster in the conserved helicase domain; partners with [DAXX](../genes/DAXX.md) for H3.3 incorporation at telomeres. DAXX and [ATRX](../genes/ATRX.md) mutations are mutually exclusive (combined pathway rate 42.6%). [PMID:21252315](../papers/21252315.md)
 - [TSC2](../genes/TSC2.md): mutations in 8.8% (6/68); mTOR pathway negative regulator. [PMID:21252315](../papers/21252315.md)
 - [PTEN](../genes/PTEN.md): mutations in 7.3% (5/68); mTOR pathway tumor suppressor. [PMID:21252315](../papers/21252315.md)
 - [PIK3CA](../genes/PIK3CA.md): mutations in 1.4% (1/68); mTOR/PI3K pathway. [PMID:21252315](../papers/21252315.md)
 - Overall mTOR pathway alteration rate: 14%; mean somatic mutation burden 16 per tumor (range 8–23), ~60% fewer than PDAC. [PMID:21252315](../papers/21252315.md)
+- Whole-genome and transcriptome analysis (WGTA) of 10 metastatic pancreatic NENs (PanNENs) in the POG cohort confirmed recurrent [MEN1](../genes/MEN1.md), DAXX, ATRX, [RB1](../genes/RB1.md), and [TP53](../genes/TP53.md) alterations; MEN1-mutant PanNENs (but not PulNENs) showed large-scale LOH. Actionable alterations were identified in the majority of cases, with MTOR-inhibitor ([everolimus](../drugs/everolimus.md)), somatostatin analogs, and CDKN2A/CDK4/6-inhibitor recommendations supported by genomic findings. Median TMB was 2.19 mut/Mb across the full 28-patient NEN cohort. [PMID:24326773](../papers/24326773.md)
 
 ## Subtypes
 
@@ -45,4 +46,7 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 
 - [PMID:21252315](../papers/21252315.md) — Jiao et al. (2011), whole-exome sequencing of 68 sporadic PanNETs identifying recurrent MEN1, DAXX, and ATRX mutations.
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

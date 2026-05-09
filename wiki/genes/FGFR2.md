@@ -3,7 +3,7 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -25,6 +25,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - Activating mutations p.Y376C, p.I389_V393>M (transmembrane in-frame deletion), and p.K642R (kinase domain) identified in adenoid cystic carcinoma; all paralogous to known activating germline craniosynostosis alleles or recurrent somatic activating alleles in endometrial/ovarian cancer; nominates FGFR inhibitors (e.g., [dovitinib](../drugs/dovitinib.md)) as a therapeutic strategy [PMID:23778141](../papers/23778141.md)
 - K659E mutation (homologous to [FGFR1](../genes/FGFR1.md) K656E) observed in a case reclassified from medulloblastoma to glioblastoma by expression profiling; co-occurring with [FGFR3](../genes/FGFR3.md), TACC1/TACC3 fusions noted as background context for kinase-domain hotspot biology [PMID:23817572](../papers/23817572.md)
 - FGFR2/3 combined alteration frequency 3.2% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA), contributing to the RTK-alteration rate of 67.3% in that tumor type [PMID:24120142](../papers/24120142.md)
+- Mutated in 4/32 (13%) intrahepatic cholangiocarcinoma discovery-screen tumors at residues mutated in endometrial carcinoma; flagged as a potential therapeutic target via FGFR inhibitors then in clinical trials [PMID:24185509](../papers/24185509.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

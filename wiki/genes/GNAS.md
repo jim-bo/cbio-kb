@@ -3,8 +3,8 @@ symbol: GNAS
 aliases: []
 cancer_types: [APAD, PTAD, PAAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # GNAS
@@ -21,6 +21,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - GNAS R201 hotspot mutation found in 1 of 23 treatment-refractory somatotroph pituitary neuroendocrine tumors (PitNETs); absent in benign somatotrophs in the same cohort [PMID:38758238](../papers/38758238.md).
 - In the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) PDAC cohort (n = 2,336), GNAS was enriched in MAPK-WT tumors vs KRAS-mutant (16% vs 2%, P = 1.5 × 10⁻⁵) and in resectable IPMN-derived tumors (7.9%); co-occurred with germline [ATM](../genes/ATM.md) mutations [PMID:39753968](../papers/39753968.md).
 - GNAS is among the most frequently mutated genes in pancreatic cystic neoplasms detected by whole-exome sequencing, particularly intraductal papillary mucinous neoplasms (IPMNs) [PMID:22158988](../papers/22158988.md)
+- Somatic mutation in 2/23 (9%) pancreatic acinar cell carcinomas, both at the codon 201 oncogenic hotspot, in whole-exome sequencing of a rare pancreatic tumor subtype [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -31,7 +32,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 ## Co-occurrence and mutual exclusivity
 
 - Defines a subtype largely distinct from RAS-mut/TP53-wt indolent MAAP and from TP53-mut predominant aneuploid MAAP [PMID:36493333](../papers/36493333.md).
-- In PDAC, GNAS co-occurs with germline [ATM](../genes/ATM.md) mutations and is nearly exclusive to MAPK-WT tumors, a subtype also enriched for germline ATM (18% vs 1.4%, P = 2 × 10⁻⁶) [PMID:39753968](../papers/39753968.md).
+- In PDAC, GNAS co-occurs with germline [ATM](../genes/ATM.md) mutations and is nearly exclusive to MAPK-WT tumors, a subtype also enriched for germline [ATM](../genes/ATM.md) (18% vs 1.4%, P = 2 × 10⁻⁶) [PMID:39753968](../papers/39753968.md).
 
 ## Therapeutic relevance
 
@@ -47,7 +48,10 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

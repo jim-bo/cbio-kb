@@ -28,6 +28,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Mutated in breast cancer (TCGA, 510 tumors); AKT1 alterations identified as part of the PIK3CA/AKT signaling axis in luminal subtypes [PMID:23000897](../papers/23000897.md)
 - Copy number gain in OSCC; part of the PI3K/AKT mitogenic signaling pathway, altered in 63% of OSCC tumors overall in the [hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md) cohort [PMID:23619168](../papers/23619168.md)
 - Mutation in 2% of high-grade bladder cancers; AKT1-mutant tumors predicted to be sensitive to [MK-2206](../drugs/mk-2206.md) AKT inhibition (vs TSC1-loss which confers resistance at S6/4EBP1 level) [PMID:23897969](../papers/23897969.md)
+- Sporadic alteration identified in a biliary tract cancer prevalence-screen panel (intrahepatic cholangiocarcinoma/gallbladder carcinoma cohort); included as a candidate driver in the extended sequencing panel [PMID:24185509](../papers/24185509.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +78,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

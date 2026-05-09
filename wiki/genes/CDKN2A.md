@@ -61,6 +61,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous deletion in 57.8% of [GBM](../cancer_types/GBM.md) pathway-analysis cohort; mutually exclusive with [TP53](../genes/TP53.md) mutation (p=1.99e-7) [PMID:24120142](../papers/24120142.md)
 - Homozygous focal deletion at 9p21 in 50/99 (50%) of bladder TCC tumors [PMID:24121792](../papers/24121792.md)
 - Only gene with recurrent homozygous deletions in [MCL](../cancer_types/MCL.md) (mantle cell lymphoma); no somatic point mutations detected [PMID:24145436](../papers/24145436.md)
+- Sporadic alteration included in the intrahepatic cholangiocarcinoma/gallbladder carcinoma prevalence-screen panel [PMID:24185509](../papers/24185509.md)
+- Homozygous deletion in 4/23 (17%) pancreatic acinar carcinomas, including 2/3 mixed acinar-ductal carcinomas [PMID:24293293](../papers/24293293.md)
+- Homozygous deletion together with [CDKN2B](../genes/CDKN2B.md) in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -190,5 +193,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

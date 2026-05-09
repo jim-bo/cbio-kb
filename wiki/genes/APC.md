@@ -31,6 +31,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Mutated in colorectal cancer WES study (Genentech, 74 tumors); identified alongside RSPO2/3 fusions in comprehensive genomic profiling [PMID:22895193](../papers/22895193.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Beta-catenin-pathway mutation in EAC; APC + [CDH1](../genes/CDH1.md) or APC + [AXIN1](../genes/AXIN1.md) co-mutations observed in two individual tumors; Wnt/beta-catenin alterations present in only 9% of EACs ([esca_broad](../datasets/esca_broad.md)), contrasting with CRC [PMID:23525077](../papers/23525077.md)
+- Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation; consistent with prior reports of APC/beta-catenin pathway involvement in acinar cell carcinoma [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -42,7 +43,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of APC in [HCC](../cancer_types/HCC.md) is reported in the corpus. WNT pathway alterations (including APC) were detected in actionable-alteration assessments but are not FDA-approved targets in HCC [PMID:37769223](../papers/37769223.md).
+- No direct therapeutic targeting of APC in [HCC](../cancer_types/HCC.md) is reported in the corpus. WNT pathway alterations (including APC) were detected in actionable-alteration assessments but are not FDA-approved targets in [HCC](../cancer_types/HCC.md) [PMID:37769223](../papers/37769223.md).
 
 ## Open questions
 
@@ -84,5 +85,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

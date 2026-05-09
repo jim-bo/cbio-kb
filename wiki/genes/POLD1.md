@@ -19,6 +19,7 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 
 - POLD1 exonuclease domain hotspot mutations were assessed in endometrial carcinoma (EC) as part of the molecular characterization of the POLE/POLD1 ultramutator subtype; this subtype was rare in Black patients (1.2% [POLE](../genes/POLE.md) mutations reported specifically, POLD1 mentioned in the same molecular class) [PMID:37651310](../papers/37651310.md).
 - Germline susceptibility variant Ser478Asn checked but not found in the TCGA endometrial cancer cohort; POLD1 not a driver in this dataset [PMID:23636398](../papers/23636398.md)
+- No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLE](../genes/POLE.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -42,5 +43,8 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

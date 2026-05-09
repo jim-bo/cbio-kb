@@ -54,12 +54,15 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Loss more common in Basal-like breast cancer; activates PI3K pathway; mutually exclusive with [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), and [AKT1](../genes/AKT1.md) mutations (P=0.025) in 510 TCGA breast tumors ([brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
 - PI3K pathway dependence (involving PTEN loss) confirmed in hypodiploid ALL; PI3K inhibitors GDC-0941 and BEZ235 substantially inhibited proliferation of all hypodiploid ALL tumors ex vivo ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 - Mutated in 4/145 EAC tumors; part of PI3K-pathway alterations alongside [PIK3CA](../genes/PIK3CA.md) and [PIK3R1](../genes/PIK3R1.md) [PMID:23525077](../papers/23525077.md)
-- Recurrently subclonal deletion in prostate cancer (p=10⁻⁵ vs [NKX3-1](../genes/NKX3-1.md) clonality); disrupted by chromoplexy in 9 cases; co-deleted with PIK3R1 in one chain, indicating PI3K-pathway convergence via structural rearrangement [PMID:23622249](../papers/23622249.md)
+- Recurrently subclonal deletion in prostate cancer (p=10⁻⁵ vs [NKX3-1](../genes/NKX3-1.md) clonality); disrupted by chromoplexy in 9 cases; co-deleted with [PIK3R1](../genes/PIK3R1.md) in one chain, indicating PI3K-pathway convergence via structural rearrangement [PMID:23622249](../papers/23622249.md)
 - Mutated in 84% of MSS endometrioid and 94% of POLE-ultramutated endometrial tumors; only 11% in serous-like; co-occurs with [TP53](../genes/TP53.md) in endometrioid (50%) but rarely in serous (2.6%) [PMID:23636398](../papers/23636398.md)
 - PTEN R130fs and K144Q mutations (both in catalytic domain) co-occurring in one ACC tumor; part of the recurrently altered PI3K/AKT axis in adenoid cystic carcinoma [PMID:23685749](../papers/23685749.md)
 - Among the top eight SMGs in ccRCC (q<0.00001); PTEN mutation enriched in m3 mRNA subtype (11% vs 1%, p<0.0001) in TCGA 450-case analysis [PMID:23792563](../papers/23792563.md)
 - Deletion in 4% of high-grade bladder tumors; deleted samples showed reduced PTEN mRNA expression [PMID:23897969](../papers/23897969.md)
-- Mutation/deletion mutually exclusive with PI3K mutations (p=0.0047) in [GBM](../cancer_types/GBM.md); combined PTEN/PI3K pathway alterations in 59.4% of GBM [PMID:24120142](../papers/24120142.md)
+- Mutation/deletion mutually exclusive with PI3K mutations (p=0.0047) in [GBM](../cancer_types/GBM.md); combined PTEN/PI3K pathway alterations in 59.4% of [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
+- PI3K pathway alteration in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); part of the 22% aggregate PI3K pathway alteration rate in the discovery-screen cohort alongside [PIK3CA](../genes/PIK3CA.md), [PIK3C2A](../genes/PIK3C2A.md), and [PIK3C2G](../genes/PIK3C2G.md) [PMID:24185509](../papers/24185509.md)
+- Missense mutations (11 patients; 9 in phosphatase domain), nonsense R233*, frameshift Y86fs, and a copy-number deletion (Patient 36) in BRAF-inhibitor-resistant melanoma; combined RAF + PI3K inhibition was synergistic in PTEN-null A2058 cells [PMID:24265153](../papers/24265153.md)
+- Somatic mutation in 2/23 (9%) pancreatic acinar cell carcinomas [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -198,5 +201,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

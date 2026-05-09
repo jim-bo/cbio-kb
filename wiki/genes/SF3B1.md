@@ -3,7 +3,7 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: entity-page-writer
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -25,6 +25,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Recurrently mutated in CLL WES of 160 tumors (Broad Institute cohort); SF3B1 mutations are a hallmark of CLL and associate with distinct clinical features [PMID:23415222](../papers/23415222.md)
 - SF3B1 is a recurrent spliceosome-complex gene mutated in [AML](../cancer_types/AML.md) (14% prevalence alongside [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md)) [PMID:23634996](../papers/23634996.md)
 - Truncating mutation identified in the discovery cohort of adenoid cystic carcinoma (24 cases); classified among known cancer/tumor-suppressor genes with loss-of-function mutations in ACC. [PMID:23778141](../papers/23778141.md)
+- SF3B1 somatic splicing-factor mutation identified in 3 [MPN](../cancer_types/MPN.md) patients alongside other epigenetic/splicing co-mutations in a CALR-discovery exome-sequencing study [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -72,4 +73,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

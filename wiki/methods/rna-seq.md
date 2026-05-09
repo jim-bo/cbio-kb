@@ -42,7 +42,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Strand-specific high-coverage RNA sequencing performed on 28 pediatric medulloblastoma cases (ICGC); identified first medulloblastoma fusion transcripts (DNAJB6-SHH, LCLAT1-ERBB4); only 48% of non-synonymous DNA mutations detectable at RNA level [PMID:22832583](../papers/22832583.md)
 - Applied to Genentech colorectal cohort to detect RSPO2/RSPO3 fusion transcripts and characterise expression profiles [PMID:22895193](../papers/22895193.md)
 - Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) to complement WES/WGS and characterise transcriptome of TP53/RB1-deficient tumors [PMID:22941188](../papers/22941188.md)
-- Applied in JHU SCLC study (36 tumors) to validate [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
+- Applied in JHU [SCLC](../cancer_types/SCLC.md) study (36 tumors) to validate [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
 - Used in TCGA [LUSC](../cancer_types/LUSC.md) study (178 tumors) for expression profiling alongside WES to characterise the CDKN2A/TP53/KEAP1/NFE2L2 mutational landscape [PMID:22960745](../papers/22960745.md)
 - RNA-seq profiling of 510 breast tumors enabled mRNA subtype classification and identified outlier expression events in known cancer genes [PMID:23000897](../papers/23000897.md)
 - RNA-seq used in neuroblastoma study to detect gene fusions and outlier expression; confirmed [ALK](../genes/ALK.md) overexpression in cases lacking [ALK](../genes/ALK.md) point mutations [PMID:23334666](../papers/23334666.md)
@@ -50,9 +50,10 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - RNA-seq performed on 179 of 200 [AML](../cancer_types/AML.md) samples in TCGA [AML](../cancer_types/AML.md) analysis; used for de novo assembly identifying 118 fusions in 80 samples and NMF consensus clustering yielding 7 expression groups [PMID:23634996](../papers/23634996.md)
 - RNA-seq applied to 333 endometrial carcinoma tumors; combined with microRNA-seq, RPPA, and DNA-methylation for iCluster and consensus clustering defining four molecular subtypes [PMID:23636398](../papers/23636398.md)
 - Used in TCGA [CCRCC](../cancer_types/CCRCC.md) study for transcriptome profiling; multi-platform integration with WES, copy-number arrays, methylation, miRNA-seq, and RPPA identified four mRNA expression subtypes (m1-m4) with distinct genomic correlates and survival differences [PMID:23792563](../papers/23792563.md)
-- Applied in 73/96 pediatric pilocytic astrocytoma cases (ICGC cohort) for matched RNA sequencing alongside WGS; used for fusion discovery via TopHat-Fusion and deFuse, identifying novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):[NTRK2](../genes/NTRK2.md), [NACC2](../genes/NACC2.md):NTRK2) and novel [BRAF](../genes/BRAF.md) fusion partners [PMID:23817572](../papers/23817572.md)
+- Applied in 73/96 pediatric pilocytic astrocytoma cases (ICGC cohort) for matched RNA sequencing alongside WGS; used for fusion discovery via TopHat-Fusion and deFuse, identifying novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):[NTRK2](../genes/NTRK2.md), [NACC2](../genes/NACC2.md):[NTRK2](../genes/NTRK2.md)) and novel [BRAF](../genes/BRAF.md) fusion partners [PMID:23817572](../papers/23817572.md)
 - Applied to 164 [GBM](../cancer_types/GBM.md) transcriptomes; analyzed with PRADA to detect fusion transcripts (228 total in 106/164 samples) including recurrent EGFR-SEPT14, FGFR3-TACC3, and [PDGFRA](../genes/PDGFRA.md) intragenic splice variants [PMID:24120142](../papers/24120142.md)
 - Applied to 42 TCC bladder tumors with 16 matched normal bladder tissues; detected FGFR3-TACC3 in-frame fusion in 2/42 (5%) cases with outlier [TACC3](../genes/TACC3.md) expression [PMID:24121792](../papers/24121792.md)
+- Performed alongside whole-genome sequencing (STAR hg38 alignment + RSEM quantification) for 28 metastatic NENs in the BC Cancer POG program; expression data drove 6 of 10 clinical benefit outcomes through independent transcriptome-based therapy recommendations [PMID:24326773](../papers/24326773.md).
 
 ## Notes
 
@@ -144,5 +145,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

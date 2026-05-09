@@ -5,7 +5,7 @@ main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # Esophageal Adenocarcinoma (ESCA)
@@ -22,11 +22,12 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 
 ## Recurrent alterations
 
-- [CCNE1](../genes/CCNE1.md) — amplification enriched in early-onset EGC (16% vs. 7%), driven by chromosomal instability in the esophageal/GEJ subgroup. [PMID:37699004](../papers/37699004.md)
+- [CCNE1](../genes/CCNE1.md) — amplification enriched in early-onset [EGC](../cancer_types/EGC.md) (16% vs. 7%), driven by chromosomal instability in the esophageal/GEJ subgroup. [PMID:37699004](../papers/37699004.md)
 - [ERBB2](../genes/ERBB2.md) — amplification present; trend toward higher frequency in average-onset tumors. Associated with improved survival in multivariable analysis (HR=0.65, P=0.01). [PMID:37699004](../papers/37699004.md)
 - [CDKN2A](../genes/CDKN2A.md) — enriched in average-onset EGC (22% vs. 11%, P<0.001); associated with worse survival. [PMID:37699004](../papers/37699004.md)
 - See also [EGC](../cancer_types/EGC.md) for shared alterations across the esophagogastric spectrum.
 - [ERBB2](../genes/ERBB2.md) (HER2) amplification/overexpression: OE19 ESCA cells are HER2+ with T-DM1 IC50 <1 nM vs. >100 nM in HER2− controls; T-DM1 more potent than [paclitaxel](../drugs/paclitaxel.md), [cisplatin](../drugs/cisplatin.md), [trastuzumab](../drugs/trastuzumab.md), [lapatinib](../drugs/lapatinib.md), or [erlotinib](../drugs/erlotinib.md) in OE19. [PMID:27698471](../papers/27698471.md)
+- WES of 149 treatment-naïve EAC tumors (including esophageal adenocarcinomas) identified 26 significantly mutated genes ([TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md), [PIK3CA](../genes/PIK3CA.md), [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md)) and a distinctive A>C transversion signature at AA dinucleotides accounting for 29% of all mutations, with 48% of tumors harboring a targetable alteration [PMID:23525077](../papers/23525077.md)
 
 ## Subtypes
 
@@ -36,7 +37,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 ## Therapeutic landscape
 
 - HER2-directed therapy ([trastuzumab](../drugs/trastuzumab.md)) combined with PD-1 blockade ([pembrolizumab](../drugs/pembrolizumab.md)) and chemotherapy showed median PFS 13 months, [OS](../cancer_types/OS.md) 27 months, ORR 89% in HER2-positive metastatic esophagogastric cancer including ESCA. [PMID:37406106](../papers/37406106.md)
-- [CCNE1](../genes/CCNE1.md) amplification represents a potential therapeutic target (CDK2 inhibitors) in early-onset ESCA. [PMID:37699004](../papers/37699004.md)
+- [CCNE1](../genes/CCNE1.md) amplification represents a potential therapeutic target ([CDK2](../genes/CDK2.md) inhibitors) in early-onset ESCA. [PMID:37699004](../papers/37699004.md)
 - [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) combined with IR produced long-term tumor control in HER2+ OE19 (ESCA) xenografts; T-MMAE was equally efficacious at 1 nmol. Authors propose T-DM1 + chemoradiotherapy as a strategy warranting clinical evaluation in HER2+ locally advanced esophageal cancer. [PMID:27698471](../papers/27698471.md)
 
 ## Sources
@@ -45,4 +46,6 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23525077](../papers/23525077.md) — Dulak et al. Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity. *Nat Genet* 2013.
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

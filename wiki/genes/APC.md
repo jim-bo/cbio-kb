@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # APC
@@ -30,6 +30,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC is the most frequently mutated gene in colorectal adenocarcinoma, altered in the majority of 276 TCGA CRC tumors profiled by WES, consistent with its role as a gatekeeper tumor suppressor in the Wnt pathway [PMID:22810696](../papers/22810696.md)
 - Mutated in colorectal cancer WES study (Genentech, 74 tumors); identified alongside RSPO2/3 fusions in comprehensive genomic profiling [PMID:22895193](../papers/22895193.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
+- Beta-catenin-pathway mutation in EAC; APC + [CDH1](../genes/CDH1.md) or APC + [AXIN1](../genes/AXIN1.md) co-mutations observed in two individual tumors; Wnt/beta-catenin alterations present in only 9% of EACs ([esca_broad](../datasets/esca_broad.md)), contrasting with CRC [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -41,7 +42,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of APC in HCC is reported in the corpus. WNT pathway alterations (including APC) were detected in actionable-alteration assessments but are not FDA-approved targets in HCC [PMID:37769223](../papers/37769223.md).
+- No direct therapeutic targeting of APC in [HCC](../cancer_types/HCC.md) is reported in the corpus. WNT pathway alterations (including APC) were detected in actionable-alteration assessments but are not FDA-approved targets in HCC [PMID:37769223](../papers/37769223.md).
 
 ## Open questions
 
@@ -51,34 +52,37 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 - [PMID:37769223](../papers/37769223.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: NFIB
 aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, stem-cell-program, glioma, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NFIB
@@ -16,8 +16,9 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 ## Alterations observed in the corpus
 
 - NFIB is a component of the stem/progenitor gene program in grade II oligodendroglioma (IDH-mutant, 1p/19q codeleted), co-expressed with [SOX2](../genes/SOX2.md), [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [ASCL1](../genes/ASCL1.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [TCF4](../genes/TCF4.md), and [CCND2](../genes/CCND2.md) in the rare proliferating subpopulation (1.5–8% of all cells) [PMID:27806376](../papers/27806376.md).
-- NFIB amplification in mouse SCLC; copy number gain observed in 3 human SCLC samples (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
+- NFIB amplification in mouse [SCLC](../cancer_types/SCLC.md); copy number gain observed in 3 human SCLC samples (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
 - NFIB copy-number amplification confirmed as a recurrent alteration in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- Candidate oncogenic driver on 9p in OSCC; high-level amplification detected in 3/38 tumors despite background 9p loss in other tumors, suggesting positive selection for NFIB gain (40-tumor MD Anderson OSCC cohort) [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -39,10 +40,13 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

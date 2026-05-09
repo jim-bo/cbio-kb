@@ -3,8 +3,8 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # PIK3R1
@@ -20,8 +20,11 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 mutations less common in Black endometrial carcinoma patients compared to White patients (13% vs. 28%), consistent with the lower frequency of PI3K pathway endometrioid-type alterations in the Black EC population; lower PIK3R1 frequency may reduce eligibility for PI3K/AKT/mTOR pathway-targeted trials [PMID:37651310](../papers/37651310.md).
 - Recurrently mutated in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 - PIK3R1 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating PI3K pathway dysregulation [PMID:22610119](../papers/22610119.md)
-- Mutations in 2% of non-hypermutated colorectal tumors; mutually exclusive with PIK3CA and PTEN loss in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
-- Identified as a novel significantly mutated gene (SMG) in TCGA breast cancer (510 tumors, brca_tcga_pub); statistically significant mutual exclusivity with PIK3CA, PTEN, and AKT1 mutations (P=0.025) across all breast cancer subtypes [PMID:23000897](../papers/23000897.md)
+- Mutations in 2% of non-hypermutated colorectal tumors; mutually exclusive with [PIK3CA](../genes/PIK3CA.md) and [PTEN](../genes/PTEN.md) loss in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Identified as a novel significantly mutated gene (SMG) in TCGA breast cancer (510 tumors, [brca_tcga_pub](../datasets/brca_tcga_pub.md)); statistically significant mutual exclusivity with PIK3CA, PTEN, and [AKT1](../genes/AKT1.md) mutations (P=0.025) across all breast cancer subtypes [PMID:23000897](../papers/23000897.md)
+- Mutated in 5/145 EAC tumors as part of PI3K-pathway alterations alongside PIK3CA and PTEN [PMID:23525077](../papers/23525077.md)
+- Co-deleted with PTEN in one chromoplexy chain in prostate cancer; represents PI3K-pathway disruption via structural rearrangement rather than point mutation [PMID:23622249](../papers/23622249.md)
+- Mutated in 65% of POLE-ultramutated endometrial tumors; mutually exclusive with PIK3CA across all endometrial subgroups [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -47,16 +50,25 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37910594](../papers/37910594.md)
 
-*This page was processed by **entity-page-writer** on **2025-02-14**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

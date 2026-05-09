@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-09
 ---
 
 # LRP1B
@@ -18,6 +18,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutation classes (missense / truncating / fusion / amplification / deletion) with
   links to the papers that report them.
 - 17 mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours; positive correlation with solid histological subtype (P=2.29e-5) and higher tumour grade (P=0.013); part of Wnt pathway. [PMID:18948947](../papers/18948947.md)
+- Deleted in the copy-number-high (cluster-4, serous-like) endometrial carcinoma subgroup; recently associated with liposomal [doxorubicin](../drugs/doxorubicin.md) resistance in serous ovarian cancer [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

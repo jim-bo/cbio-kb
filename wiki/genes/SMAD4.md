@@ -3,8 +3,8 @@ symbol: SMAD4
 aliases: []
 cancer_types: [IHCH, PAAD, CERVIX]
 tags: [tumor-suppressor, tgf-beta]
-processed_by: wiki-cli
-processed_at: 2026-05-07
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # SMAD4
@@ -25,10 +25,12 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors [PMID:22722201](../papers/22722201.md)
 - Significantly mutated in TCGA colorectal cancer cohort (276 tumors); SMAD4 inactivation observed as a key TGF-beta pathway alteration in colorectal adenocarcinoma [PMID:22810696](../papers/22810696.md)
-- Significantly mutated in colorectal cancer; altered together with SMAD2 in 27% (20/74) of CRC tumors on chromosome 18q [PMID:22895193](../papers/22895193.md)
-- Identified as significantly mutated in TCGA LUSC (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
-- Inactivating mutations in 3% of LUAD cases (Broad WES cohort, 183 tumors) [PMID:22980975](../papers/22980975.md)
+- Significantly mutated in colorectal cancer; altered together with [SMAD2](../genes/SMAD2.md) in 27% (20/74) of CRC tumors on chromosome 18q [PMID:22895193](../papers/22895193.md)
+- Identified as significantly mutated in TCGA [LUSC](../cancer_types/LUSC.md) (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
+- Inactivating mutations in 3% of [LUAD](../cancer_types/LUAD.md) cases (Broad WES cohort, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; SMAD4 loss is one of the most frequent events in pancreatic ductal adenocarcinoma [PMID:23103869](../papers/23103869.md)
+- SMAD4 is mutated in 10/145 (7%) esophageal adenocarcinoma tumors as the most recurrently altered gene in the TGFβ/SMAD pathway (18% of EAC when including copy-number loss) [PMID:23525077](../papers/23525077.md)
+- SMAD4 is disrupted by chromoplexy in one prostate tumor (P05-3852) within the same rearrangement chain that produced the TMPRSS2-ERG fusion across 6 chromosomes [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -53,31 +55,37 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

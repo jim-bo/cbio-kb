@@ -3,8 +3,8 @@ symbol: ERBB2
 aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # ERBB2
@@ -38,14 +38,16 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 GOF mutations (6%) and amplifications (10%) in [GBC](../cancer_types/GBC.md); amplification is OncoKB level 3B actionable; 10 patients received HER2-directed therapy [PMID:36228155](../papers/36228155.md)
 - ERBB2 mutation and amplification assessed in advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; neither reached significance for PFS outcomes (P = 0.48 and P = 0.47) [PMID:36038778](../papers/36038778.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
-- ERBB2 amplification is among the top genomic features predicting lapatinib and other drug sensitivities in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
+- ERBB2 amplification is among the top genomic features predicting [lapatinib](../drugs/lapatinib.md) and other drug sensitivities in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 - Somatic mutations in 2/65 TNBC cases; classified as clinically actionable in a WGS cohort (BCCRC) [PMID:22495314](../papers/22495314.md)
 - Amplification defines IntClust 5 in the METABRIC cohort (2,000 tumors); includes both HER2-enriched (ER-negative) and luminal (ER-positive) cases; patients pre-trastuzumab era had worst survival in this subgroup [PMID:22522925](../papers/22522925.md)
 - Identified as somatically mutated in breast cancer WES cohort (Sanger Institute, 100 tumors); ERBB2 mutations detected beyond HER2 amplification events [PMID:22722201](../papers/22722201.md)
 - Recurrently mutated in breast cancer WES/WGS cohort (Broad Institute, 103 tumors); ERBB2 somatic mutations identified in context of PIK3CA/AKT pathway co-alterations [PMID:22722202](../papers/22722202.md)
 - Somatic mutations including amplification detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
-- Rare mutations (3 or fewer events) in 183 LUAD cases; copy-number gain observed; could not be statistically nominated due to low frequency [PMID:22980975](../papers/22980975.md)
+- Rare mutations (3 or fewer events) in 183 [LUAD](../cancer_types/LUAD.md) cases; copy-number gain observed; could not be statistically nominated due to low frequency [PMID:22980975](../papers/22980975.md)
 - Amplified in HER2-enriched breast cancer subtype (TCGA, 510 tumors); ERBB2 amplification defines the HER2-enriched intrinsic subtype [PMID:23000897](../papers/23000897.md)
+- Mutated in 5 EAC tumors (kinase-domain p.D769Y ×2 and p.G776V), variants previously reported in other cancers; EAC represents a novel disease context for these alterations [PMID:23525077](../papers/23525077.md)
+- Focally amplified with protein overexpression in 25% of serous/serous-like endometrial tumours; amplification reported in 27% of uterine serous carcinomas, forming basis for HER2-targeted therapy hypothesis; mutually exclusive with [FBXW7](../genes/FBXW7.md) in WNT module analysis [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -69,7 +71,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 - [trastuzumab](../drugs/trastuzumab.md) treatment of an ERBB2-amplified ovarian GCT did not produce a durable response [PMID:36862133](../papers/36862133.md).
 - Pembrolizumab + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy produced durable benefit in HER2+ [EGC](../cancer_types/EGC.md); uniform HER2 IHC 3+ and plasma ERBB2 amplification predicted response [PMID:37406106](../papers/37406106.md).
-- Neratinib showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; trastuzumab deruxtecan is under investigation [PMID:37643132](../papers/37643132.md).
+- Neratinib showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; [trastuzumab](../drugs/trastuzumab.md) deruxtecan is under investigation [PMID:37643132](../papers/37643132.md).
 - Trastuzumab deruxtecan shows clinical activity in ERBB2-low carcinosarcomas, expanding the therapeutic window [PMID:37651310](../papers/37651310.md).
 - T-DM1 combined with ionizing radiation produced durable tumour control in HER2+ xenografts with a single 0.25 nmol dose + 3 IR fractions; the authors argue for speedy clinical evaluation given T-DM1's existing FDA approval for HER2+ metastatic breast cancer [PMID:27698471](../papers/27698471.md).
 - In metastatic urothelial carcinoma, ERBB2 cfDNA alterations independently predict shorter [OS](../cancer_types/OS.md) on cisplatin-based chemotherapy (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019); HER2-directed ADCs (trastuzumab deruxtecan, disitamab vedotin — with mUC response rates 33–83%) are flagged as therapeutic options for ERBB2-altered mUC [PMID:40256659](../papers/40256659.md).
@@ -96,52 +98,58 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

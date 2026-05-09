@@ -8,8 +8,8 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,7 +22,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 ## Alterations observed in the corpus
 
-- Somatic loss-of-function STAG2 mutations are the strongest genetic predictor of separated megakaryocyte nuclei in MDS bone marrow biopsies: 69% of STAG2-mutant cases vs 22% of unmutated (P<0.0001), abnormal myeloid nuclear segmentation (58% vs 19%; P<0.0001), and hypogranulation (74% vs 21%; P<0.0001) [PMID:21909114](../papers/21909114.md)
+- Somatic loss-of-function STAG2 mutations are the strongest genetic predictor of separated megakaryocyte nuclei in [MDS](../cancer_types/MDS.md) bone marrow biopsies: 69% of STAG2-mutant cases vs 22% of unmutated (P<0.0001), abnormal myeloid nuclear segmentation (58% vs 19%; P<0.0001), and hypogranulation (74% vs 21%; P<0.0001) [PMID:21909114](../papers/21909114.md)
+- STAG2 is a cohesin-complex gene recurrently mutated in [AML](../cancer_types/AML.md) (13% combined cohesin prevalence with [SMC1A](../genes/SMC1A.md), [SMC3](../genes/SMC3.md), and [RAD21](../genes/RAD21.md)) [PMID:23634996](../papers/23634996.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

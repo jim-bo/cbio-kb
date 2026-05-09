@@ -3,8 +3,8 @@ symbol: TMPRSS2
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion-partner, erg-fusion, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # TMPRSS2
@@ -18,8 +18,9 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG fusions were identified in 13 prostate cancer PDX models, and TMPRSS2-ETV4 fusions in 2 models, in the MDA PCa PDX series (n=37 models); [ERG](../genes/ERG.md) is overexpressed when fused with TMPRSS2 in AR-expressing models [PMID:38488813](../papers/38488813.md).
 - TMPRSS2-ERG fusions were depleted in MSI-H/dMMR prostate cancer (3%) vs. TMB-H/MSS (12%) and TMB-L/MSS controls (p=0.015), suggesting distinct oncogenic pathways in hypermutant prostate cancer [PMID:38949888](../papers/38949888.md).
 - Gene fusion partner (TMPRSS2-ERG) identified as the most common structural rearrangement in prostate cancer integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
-- TMPRSS2-ERG ETS rearrangements present in up to 50% of prostate cancers; mutually exclusive with SPOP mutations, suggesting distinct early oncogenic pathways [PMID:22610119](../papers/22610119.md)
+- TMPRSS2-ERG ETS rearrangements present in up to 50% of prostate cancers; mutually exclusive with [SPOP](../genes/SPOP.md) mutations, suggesting distinct early oncogenic pathways [PMID:22610119](../papers/22610119.md)
 - Recurrent TMPRSS2-ERG gene fusion identified in prostate cancer WES of 112 tumors (Michigan cohort) [PMID:22722839](../papers/22722839.md)
+- TMPRSS2-ERG recurrent androgen-regulated fusion via 21q intronic deletion; arose within chromoplexy chains in 15/26 [ERG](../genes/ERG.md)+ prostate cancer cases; observed clonally early in tumor progression [PMID:23622249](../papers/23622249.md).
 
 ## Cancer types (linked)
 
@@ -42,13 +43,16 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

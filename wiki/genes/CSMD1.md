@@ -3,8 +3,8 @@ symbol: CSMD1
 aliases: []
 cancer_types: [MEL]
 tags: [tumor-suppressor, complement, melanoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # CSMD1
@@ -16,6 +16,7 @@ CSMD1 (CUB and Sushi Multiple Domains 1) encodes a large transmembrane protein i
 ## Alterations observed in the corpus
 
 - Recurrently altered in melanoma; identified in a WGS study of 25 melanoma tumors examining the mutational landscape beyond the known BRAF/NRAS drivers [PMID:22622578](../papers/22622578.md)
+- Focal deletion on 8p in OSCC; candidate tumor suppressor [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ CSMD1 (CUB and Sushi Multiple Domains 1) encodes a large transmembrane protein i
 - [PMID:22622578](../papers/22622578.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

@@ -5,7 +5,7 @@ main_type: Prostate Cancer
 parent: PROSTATE
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # Prostate Neuroendocrine Carcinoma (PRNE)
@@ -29,6 +29,7 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 - [NRAS](../genes/NRAS.md) — oncogenic Q61K mutation in NEPC PDX 144-4; rarely implicated in prostate cancer. [PMID:38488813](../papers/38488813.md)
 - [KDM6A](../genes/KDM6A.md) — deep deletion in NEPC pair 144. [PMID:38488813](../papers/38488813.md)
 - DNA damage response (DDR) pathway genes — transcriptomically upregulated in NEPC compared to adenocarcinoma PDXs; DDR gene expression clustering segregates models concordant with morphologic classification. [PMID:38488813](../papers/38488813.md)
+- Two PRNE metastases (post-castration) were included in a 57-tumor WGS cohort characterizing chromoplexy; the cohort was skewed to primary [PRAD](../cancer_types/PRAD.md), leaving chromoplexy dynamics in neuroendocrine prostate cancer undercharacterized [PMID:23622249](../papers/23622249.md)
 
 ## Subtypes
 
@@ -45,4 +46,6 @@ Prostate neuroendocrine carcinoma (PRNE) — also called neuroendocrine prostate
 - [PMID:38488813](../papers/38488813.md) — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft Series (Clinical Cancer Research, 2024)
 - [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

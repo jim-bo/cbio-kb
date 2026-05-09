@@ -3,8 +3,8 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: wiki-cli
-processed_at: 2026-05-07
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NRAS
@@ -26,16 +26,17 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Rare amplification observed in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); MAPK pathway member. [PMID:18948947](../papers/18948947.md)
 - NRASG12D acquired clonally in CRC C106-resistant cells; NRASQ61K/R detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - NRAS alterations assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
-- Mutated in high-grade serous ovarian carcinoma (HGSOC) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
-- Recurrently mutated in myelodysplastic syndrome (MDS) identified in Tokyo cohort sequencing study alongside STAG2 [PMID:21909114](../papers/21909114.md)
+- Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
+- Recurrently mutated in myelodysplastic syndrome ([MDS](../cancer_types/MDS.md)) identified in Tokyo cohort sequencing study alongside [STAG2](../genes/STAG2.md) [PMID:21909114](../papers/21909114.md)
 - NRAS mutation status was characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling drug sensitivity correlations [PMID:22460905](../papers/22460905.md)
-- NRAS harbors somatic mutations in melanoma; identified in WGS of 25 tumors alongside recurrent PREX2 mutations [PMID:22622578](../papers/22622578.md)
-- Codon 61 mutations in 9% of non-hypermutated colorectal tumors; mutually exclusive with KRAS and BRAF in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- NRAS harbors somatic mutations in melanoma; identified in WGS of 25 tumors alongside recurrent [PREX2](../genes/PREX2.md) mutations [PMID:22622578](../papers/22622578.md)
+- Codon 61 mutations in 9% of non-hypermutated colorectal tumors; mutually exclusive with [KRAS](../genes/KRAS.md) and [BRAF](../genes/BRAF.md) in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Q61L/R/K hotspot mutations in 22% of melanomas (121-tumor Broad WES cohort); mutually exclusive with BRAF (p=3e-14) [PMID:22817889](../papers/22817889.md)
 - Q61 and other activating mutations represent the second most frequent driver in melanoma (15-20%) in the 147-tumor Yale WES cohort [PMID:22842228](../papers/22842228.md)
 - Activating mutations in near haploid ALL as part of RTK/Ras pathway (70.6% of cases); one inherited p.Gly12Ser germline variant identified; St. Jude WGS/WES cohort of 44 hypodiploid ALL tumors [PMID:23334668](../papers/23334668.md)
 - Activating missense mutations in 0.83% (2/240) of high-risk neuroblastoma; significant in COSMIC-restricted analysis; Broad WES/WGS cohort [PMID:23334666](../papers/23334666.md)
 - Novel CLL driver candidate; mutations at highly conserved Ras GTPase sites; identified in Broad WES cohort of 160 CLL tumors [PMID:23415222](../papers/23415222.md)
+- Non-FLT3 activated signaling gene; part of the 59% signaling-pathway prevalence in 200 adult de novo [AML](../cancer_types/AML.md) cases; mutually exclusive of [FLT3](../genes/FLT3.md) and other tyrosine kinases within the signaling mutual-exclusivity set (TCGA AML cohort) [PMID:23634996](../papers/23634996.md)
 
 ## Cancer types (linked)
 
@@ -71,43 +72,46 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

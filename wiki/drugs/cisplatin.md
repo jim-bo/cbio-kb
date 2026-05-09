@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # cisplatin
@@ -33,8 +33,10 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cohort-metadata context only: in the MD Anderson HNSCC imaging archive (n=215), 127 patients (59%) received concurrent chemotherapy, of whom 98% received platinum-based regimens (effectively cisplatin). No efficacy or biomarker claim is made; this citation records treatment-arm composition. [PMID:30179230](../papers/30179230.md)
 - Used as part of platinum-based chemotherapy for metastatic urothelial carcinoma in UC-GENOME (n=218 patients); [ERCC2](../genes/ERCC2.md) mutations significantly associated with chemotherapy response (p=0.0134), validating this biomarker in the metastatic setting [PMID:36333289](../papers/36333289.md)
 - 143 metastatic gallbladder carcinoma patients received gemcitabine/cisplatin as the predominant first-line chemotherapy regimen among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT at MSK (2014--2021) [PMID:36228155](../papers/36228155.md)
-- Used as standard platinum-based chemotherapy in 100% of the 489 HGSOC patients in the TCGA ovarian carcinoma study; all patients received platinum-based therapy [PMID:21720365](../papers/21720365.md)
+- Used as standard platinum-based chemotherapy in 100% of the 489 [HGSOC](../cancer_types/HGSOC.md) patients in the TCGA ovarian carcinoma study; all patients received platinum-based therapy [PMID:21720365](../papers/21720365.md)
 - Referenced as part of standard chemoradiation regimens in HNSCC; the cBioPortal platform paper describes genomic data for patients treated with cisplatin-based protocols [PMID:19176454](../papers/19176454.md)
+- Cisplatin (with surgery and radiation) remains the standard-of-care backbone for OSCC at the time of the Pickering 2013 OSCC genomic analysis; no new biomarkers were validated for prospective treatment selection [PMID:23619168](../papers/23619168.md)
+- TCGA endometrial cancer analysis (2013) suggests ~25% of high-grade endometrioid tumors have a copy-number-high serous-like molecular phenotype and may benefit from chemotherapy regimens including cisplatin rather than adjuvant radiotherapy [PMID:23636398](../papers/23636398.md)
 
 ## Resistance mechanisms
 
@@ -57,16 +59,22 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. (2024). MSK PDAC cohort; cisplatin referenced in chemotherapy background context.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; cisplatin-based chemotherapy backbone; DDR predictive value null (underpowered); VAF and TERT/PIK3CA/ERBB2 as prognostic markers.
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:19176454](../papers/19176454.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

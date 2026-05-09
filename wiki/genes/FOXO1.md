@@ -3,8 +3,8 @@ symbol: FOXO1
 aliases: []
 cancer_types: [RMS, ARMS]
 tags: [fusion, pediatric]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # FOXO1
@@ -19,7 +19,8 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PAX3](../genes/PAX3.md)::FOXO1 present in 70% of [ARMS](../cancer_types/ARMS.md) and associated with worse prognosis and older age than [PAX7](../genes/PAX7.md)::FOXO1 (HR 3.45, P=.016) [PMID:37315267](../papers/37315267.md).
 - [PAX3](../genes/PAX3.md)::FOXO1 fusion is the pathognomonic driver in fusion-positive [RMS](../cancer_types/RMS.md) (FP-RMS); detected in ctDNA at diagnosis (100%) and relapse (86%) in a sequential genomic study (N=18 FP-RMS patients) [PMID:37730754](../papers/37730754.md).
 - [PAX7](../genes/PAX7.md)::FOXO1 fusion found in 2/18 FP-RMS patients and associated with FOXO1 amplification [PMID:37730754](../papers/37730754.md).
-- FOXO1 was identified as a recurrently mutated gene in DLBCL and FL through whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- FOXO1 was identified as a recurrently mutated gene in DLBCL and [FL](../cancer_types/FL.md) through whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- Recurrent disruptive rearrangement by chromoplexy affecting a gene implicated in prostate cancer signaling [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -42,7 +43,10 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

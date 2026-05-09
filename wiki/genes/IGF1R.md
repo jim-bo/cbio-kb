@@ -8,8 +8,8 @@ tags:
   - drug-sensitivity-predictor
   - receptor-tyrosine-kinase
   - targeted-therapy
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # IGF1R
@@ -23,6 +23,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - High IGF1R expression in multiple myeloma cell lines correlates with AEW541 (IGF-1R inhibitor) sensitivity in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 - Mutated in breast cancer (TCGA, 510 tumors); somatic alterations identified across intrinsic subtypes [PMID:23000897](../papers/23000897.md)
+- Located within a cluster-2 focal amplification at 15q26.2 in endometrial carcinoma; identified as a potential therapeutic target in the TCGA endometrial corpus analysis [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +31,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 ## Co-occurrence and mutual exclusivity
 
-- IGF1R and IGF1 are co-expressed at high levels in multiple myeloma cell lines and both function as predictive features for AEW541 sensitivity [PMID:22460905](../papers/22460905.md)
+- IGF1R and [IGF1](../genes/IGF1.md) are co-expressed at high levels in multiple myeloma cell lines and both function as predictive features for AEW541 sensitivity [PMID:22460905](../papers/22460905.md)
 
 ## Therapeutic relevance
 
@@ -44,10 +45,13 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: NKX3-1
 aliases: []
 cancer_types: [LUAD]
 tags: [brain-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NKX3-1
@@ -19,6 +19,7 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 - Recurrent post-treatment alteration and association with Gleason/metastasis in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD pan-cancer real-world cohort (n=52,211); NKX3-1 listed alongside [AR](../genes/AR.md), [CDK12](../genes/CDK12.md), and [FOXA1](../genes/FOXA1.md) as recurrent post-treatment [PRAD](../cancer_types/PRAD.md) alterations. [PMID:39506116](../papers/39506116.md)
 - Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
 - NKX3-1 somatic mutations detected in prostate cancer; identified in WES of 112 primary tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
+- Strictly clonal deletion in 8 of 26 prostate tumors via chromoplexy; identified as one of the earliest detectable lesions in prostate carcinogenesis based on clonality analysis (p=10⁻⁵ for NKX3-1 deletion being earlier than [PTEN](../genes/PTEN.md)) [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -41,10 +42,13 @@ NKX3-1 is a homeobox transcription factor. In the corpus it appears as a gene wh
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

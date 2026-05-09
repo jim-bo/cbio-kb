@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PRAD]
 tags: [ubiquitin-ligase, tumor-suppressor, prostate]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # SPOP
@@ -17,6 +17,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 
 - SPOP mutations were detected in the prostate cancer PDX heterogeneity pair 316 (MDA PCa PDX series, n=37 models); SPOP is a known prostate cancer tumor suppressor [PMID:38488813](../papers/38488813.md).
 - Recurrent missense mutations in the MATH domain substrate-binding cleft (Y87, W131, F133 and others; F133V most common); mutant SPOP increases cell invasion in vitro; mutated in 6-15% of prostate cancers across cohorts; defines a molecular subtype mutually exclusive with ETS rearrangements [PMID:22610119](../papers/22610119.md)
+- SPOP carries recurrent point mutations that are clonal/early events in the prostate cancer progression path, confirmed via chromoplexy analysis [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - [PMID:22610119](../papers/22610119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

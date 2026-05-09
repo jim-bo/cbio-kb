@@ -3,8 +3,8 @@ symbol: MAPK1
 aliases: [ERK2]
 cancer_types: [BRAF-fusion, CRC]
 tags: [MAPK-pathway, kinase, co-mutation]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MAPK1
@@ -15,8 +15,9 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 ## Alterations observed in the corpus
 
-- [MSH3](../genes/MSH3.md) (not MAPK1 directly) was identified as a frequent co-mutation in BRAF fusion-positive colorectal cancers, along with [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md), and [ARID1A](../genes/ARID1A.md); MAPK pathway activation is a central mechanistic theme of BRAF fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
+- [MSH3](../genes/MSH3.md) (not MAPK1 directly) was identified as a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers, along with [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md), and [ARID1A](../genes/ARID1A.md); MAPK pathway activation is a central mechanistic theme of BRAF fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
 - Alterations in near haploid ALL contributing to RTK/Ras pathway activation (70.6% of near haploid cases with combined RTK/Ras alterations; St. Jude, 44 tumors) [PMID:23334668](../papers/23334668.md)
+- [CRKL](../genes/CRKL.md)–MAPK1 singleton sense-preserving fusion detected in prostate tumor P04-1084 via chromoplexy; MAPK1 kinase domain intact in fusion product, hypothesized to drive aberrant ERK2 kinase activity [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +25,7 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 ## Co-occurrence and mutual exclusivity
 
-- Not specifically reported in the corpus for MAPK1 itself; co-mutations in MAPK pathway context include MSH3, [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md) in colorectal BRAF fusion-positive cases [PMID:38922339](../papers/38922339.md).
+- Not specifically reported in the corpus for MAPK1 itself; co-mutations in MAPK pathway context include [MSH3](../genes/MSH3.md), [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md) in colorectal BRAF fusion-positive cases [PMID:38922339](../papers/38922339.md).
 
 ## Therapeutic relevance
 
@@ -38,7 +39,10 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

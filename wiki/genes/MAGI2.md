@@ -3,19 +3,20 @@ symbol: MAGI2
 aliases: []
 cancer_types: [SKCM]
 tags: [structural-rearrangement, melanoma, PTEN-pathway]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MAGI2
 
 ## Overview
 
-MAGI2 (Membrane-Associated Guanylate Kinase Inverted 2) encodes a scaffolding protein that binds and stabilizes [PTEN](../genes/PTEN.md), thereby promoting PTEN-mediated suppression of PI3K/AKT signaling. Recurrent structural rearrangements in MAGI2 in melanoma effectively mimic PTEN loss, implicating it as an indirect tumor suppressor in PI3K pathway regulation.
+MAGI2 (Membrane-Associated Guanylate Kinase Inverted 2) encodes a scaffolding protein that binds and stabilizes [PTEN](../genes/PTEN.md), thereby promoting PTEN-mediated suppression of PI3K/AKT signaling. Recurrent structural rearrangements in MAGI2 in melanoma effectively mimic [PTEN](../genes/PTEN.md) loss, implicating it as an indirect tumor suppressor in PI3K pathway regulation.
 
 ## Alterations observed in the corpus
 
 - MAGI2 is recurrently rearranged in 3/25 metastatic melanomas (WGS discovery cohort); disruption of MAGI2 destabilizes PTEN and is functionally equivalent to PTEN loss [PMID:22622578](../papers/22622578.md)
+- Recurrent disruptive rearrangements identified in prostate adenocarcinoma via chromoplexy, alongside [GSK3B](../genes/GSK3B.md) and [FOXO1](../genes/FOXO1.md), implicating MAGI2 in prostate cancer signaling; functional consequences not experimentally validated [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ MAGI2 (Membrane-Associated Guanylate Kinase Inverted 2) encodes a scaffolding pr
 
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

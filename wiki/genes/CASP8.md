@@ -7,8 +7,8 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CASP8
@@ -21,6 +21,7 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 
 - CASP8 mutated in 8% of HNSCC tumors by whole-exome sequencing of 74 tumor-normal pairs; identified by MutSig analysis as a significantly mutated gene associated with apoptosis suppression (Broad Institute cohort, [hnsc_broad](../datasets/hnsc_broad.md)) [PMID:21798893](../papers/21798893.md)
 - CASP8 mutations identified in breast cancer WES of 100 tumors, implicating apoptotic pathway disruption in breast tumorigenesis [PMID:22722201](../papers/22722201.md)
+- Mutated in 10% (4/40) of oral squamous cell carcinoma (OSCC); nonsense/splice/frameshift mutations consistent with loss-of-function; defines a molecular subtype with fewer CNAs and co-occurring [HRAS](../genes/HRAS.md) mutations; CASP8 loss promotes aggressive xenograft phenotype [PMID:23619168](../papers/23619168.md)
 
 ## Cancer types (linked)
 
@@ -43,7 +44,10 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 
 - [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

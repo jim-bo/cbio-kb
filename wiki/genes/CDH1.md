@@ -7,8 +7,8 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CDH1
@@ -26,6 +26,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 mutations observed in medulloblastoma WGS of 37 tumors (PCGP) [PMID:22722829](../papers/22722829.md)
 - CDH1 expression and pharmacogenomic associations analyzed in NCI-60 cell line panel via CellMiner [PMID:22802077](../papers/22802077.md)
 - Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition [PMID:23000897](../papers/23000897.md)
+- Mutated in EAC; co-occurs with [APC](../genes/APC.md) mutations (two tumors with co-occurring APC + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs [PMID:23525077](../papers/23525077.md)
 
 ## Cancer types (linked)
 
@@ -48,19 +49,22 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:37699004](../papers/37699004.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-03**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

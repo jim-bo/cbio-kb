@@ -3,8 +3,8 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CDKN2A
@@ -47,11 +47,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous deletions identified as rare but potentially significant events in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - CDKN2A deletion is among the most frequent somatic alterations in melanoma across 121 tumors (Broad WES cohort), consistent with homozygous loss driving RB and p53 pathway inactivation [PMID:22817889](../papers/22817889.md)
 - CDKN2A is recurrently deleted in 147 melanoma tumors (Yale WES cohort), with homozygous loss being one of the most common alterations across the landscape [PMID:22842228](../papers/22842228.md)
-- Deleted/mutated in SCLC WES/WGS study (JHU, 36 tumors) with SOX2 amplification [PMID:22941189](../papers/22941189.md)
+- Deleted/mutated in [SCLC](../cancer_types/SCLC.md) WES/WGS study (JHU, 36 tumors) with [SOX2](../genes/SOX2.md) amplification [PMID:22941189](../papers/22941189.md)
 - Homozygously deleted and mutated at high frequency in TCGA lung squamous cell carcinoma cohort (178 tumors); identified as one of the most significantly altered genes [PMID:22960745](../papers/22960745.md)
 - Deleted/mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Deleted/mutated in pancreatic cancer (ICGC WES, 142 tumors); CDKN2A homozygous deletion is among the most frequent alterations in pancreatic ductal adenocarcinoma, abrogating p16-mediated cell cycle control [PMID:23103869](../papers/23103869.md)
 - Deleted in ALL (St. Jude WGS/WES, 44 tumors); CDKN2A deletion identified as a recurrent alteration promoting cell-cycle dysregulation in pediatric acute lymphoblastic leukemia [PMID:23334668](../papers/23334668.md)
+- Focal deletion in OSCC; combined with [CCND1](../genes/CCND1.md) amplification yields cell-cycle pathway alteration in 94% (33/35) of tumors [PMID:23619168](../papers/23619168.md)
+- Second most significantly mutated gene in EAC; recurrent point mutations are the dominant lesion in the 14% of EACs with point-mutation-driven cell-cycle disruption [PMID:23525077](../papers/23525077.md)
+- Increased expression in copy-number-high endometrial carcinoma cluster; cited as a feature distinguishing serous from endometrioid carcinoma [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -119,40 +122,49 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

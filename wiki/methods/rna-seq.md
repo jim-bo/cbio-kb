@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # RNA sequencing
@@ -33,19 +33,22 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - rRNA-depletion RNA-seq applied to breast cancer primaries and metastases (AURORA cohort); expression subtype switching detected in 13/39 (33%) of paired cases; basal-like was the most stable subtype (15/16 concordant) [PMID:36585450](../papers/36585450.md)
 - Performed on one sample per MEC patient for fusion validation; confirmed [EWSR1](../genes/EWSR1.md)::[KLF15](../genes/KLF15.md) fusion (Patient 2) and novel [ASCC2](../genes/ASCC2.md)::[GGNBP2](../genes/GGNBP2.md) fusion (Patient 1) [PMID:36577525](../papers/36577525.md)
 - Total RNA-seq (Illumina TruSeq RiboZero Gold on HiSeq 4000) performed on 176 of 218 metastatic UC patients in UC-GENOME; enabled molecular subtyping and immune cell deconvolution (CIBERSORTx) [PMID:36333289](../papers/36333289.md)
-- Used to sequence transcriptomes of 113 additional NHL cases (DLBCL and FL) in the BCGSC study; provided mutation calls and expression data complementing WGS/WES in 14 matched pairs [PMID:21796119](../papers/21796119.md)
-- Bulk RNA-seq used across SCLC and LUAD cell lines (CCLE/DepMap) to characterize ARID1A expression levels and correlate with JQ1 sensitivity; SCLC lines showed markedly higher ARID1A expression than LUAD lines (p < 0.0001) [PMID:22037554](../papers/22037554.md)
+- Used to sequence transcriptomes of 113 additional NHL cases (DLBCL and [FL](../cancer_types/FL.md)) in the BCGSC study; provided mutation calls and expression data complementing WGS/WES in 14 matched pairs [PMID:21796119](../papers/21796119.md)
+- Bulk RNA-seq used across [SCLC](../cancer_types/SCLC.md) and [LUAD](../cancer_types/LUAD.md) cell lines (CCLE/DepMap) to characterize [ARID1A](../genes/ARID1A.md) expression levels and correlate with JQ1 sensitivity; SCLC lines showed markedly higher ARID1A expression than LUAD lines (p < 0.0001) [PMID:22037554](../papers/22037554.md)
 - Bulk RNA-seq used across 14 ccRCC cohorts (n=3,621) to define HiTME molecular subtypes and train ICI/TKI response prediction models; WU-RCC independent validation cohort included 157 samples with bulk RNA-seq [PMID:22138691](../papers/22138691.md)
-- Used alongside WES in breast cancer to detect splice-site consequences of SF3B1 mutations and quantify allele-specific expression [PMID:22158541](../papers/22158541.md)
+- Used alongside WES in breast cancer to detect splice-site consequences of [SF3B1](../genes/SF3B1.md) mutations and quantify allele-specific expression [PMID:22158541](../papers/22158541.md)
 - RNA-seq applied alongside WGS in BCCRC breast tumor cohort to characterize transcriptomic landscape [PMID:22495314](../papers/22495314.md)
-- RNA-seq used in HCC studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:22634756](../papers/22634756.md)
+- RNA-seq used in [HCC](../cancer_types/HCC.md) studies to characterize hepatocellular carcinoma transcriptome alongside WGS [PMID:22634756](../papers/22634756.md)
 - Strand-specific high-coverage RNA sequencing performed on 28 pediatric medulloblastoma cases (ICGC); identified first medulloblastoma fusion transcripts (DNAJB6-SHH, LCLAT1-ERBB4); only 48% of non-synonymous DNA mutations detectable at RNA level [PMID:22832583](../papers/22832583.md)
 - Applied to Genentech colorectal cohort to detect RSPO2/RSPO3 fusion transcripts and characterise expression profiles [PMID:22895193](../papers/22895193.md)
 - Used in CLCGP SCLC study (29 tumors) to complement WES/WGS and characterise transcriptome of TP53/RB1-deficient tumors [PMID:22941188](../papers/22941188.md)
-- Applied in JHU SCLC study (36 tumors) to validate SOX2 and MYCL amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
-- Used in TCGA LUSC study (178 tumors) for expression profiling alongside WES to characterise the CDKN2A/TP53/KEAP1/NFE2L2 mutational landscape [PMID:22960745](../papers/22960745.md)
+- Applied in JHU SCLC study (36 tumors) to validate [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplification at the transcriptional level [PMID:22941189](../papers/22941189.md)
+- Used in TCGA [LUSC](../cancer_types/LUSC.md) study (178 tumors) for expression profiling alongside WES to characterise the CDKN2A/TP53/KEAP1/NFE2L2 mutational landscape [PMID:22960745](../papers/22960745.md)
 - RNA-seq profiling of 510 breast tumors enabled mRNA subtype classification and identified outlier expression events in known cancer genes [PMID:23000897](../papers/23000897.md)
-- RNA-seq used in neuroblastoma study to detect gene fusions and outlier expression; confirmed ALK overexpression in cases lacking ALK point mutations [PMID:23334666](../papers/23334666.md)
+- RNA-seq used in neuroblastoma study to detect gene fusions and outlier expression; confirmed [ALK](../genes/ALK.md) overexpression in cases lacking ALK point mutations [PMID:23334666](../papers/23334666.md)
+- RNA-seq performed on 20 prostate tumors with matched benign prostate tissue (16 matched cases) as part of the WGS chromoplexy characterization study [PMID:23622249](../papers/23622249.md)
+- RNA-seq performed on 179 of 200 [AML](../cancer_types/AML.md) samples in TCGA AML analysis; used for de novo assembly identifying 118 fusions in 80 samples and NMF consensus clustering yielding 7 expression groups [PMID:23634996](../papers/23634996.md)
+- RNA-seq applied to 333 endometrial carcinoma tumors; combined with microRNA-seq, RPPA, and DNA-methylation for iCluster and consensus clustering defining four molecular subtypes [PMID:23636398](../papers/23636398.md)
 
 ## Notes
 
@@ -69,52 +72,61 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

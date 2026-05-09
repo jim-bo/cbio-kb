@@ -3,8 +3,8 @@ symbol: FOXA1
 aliases: []
 cancer_types: [LUAD, PRAD, BRCA]
 tags: [lineage-factor, metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # FOXA1
@@ -20,9 +20,11 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Involved in ETV1-FOXA1 gene fusions in prostate cancer PDX models (MD Anderson MDA PCa PDX series) [PMID:38488813](../papers/38488813.md).
 - Identified as a recurrent post-treatment alteration and Gleason/metastasis-association gene in [PRAD](../cancer_types/PRAD.md) within the MSK-CHORD real-world cohort (n = 3,211 prostate cancer patients); co-listed with [AR](../genes/AR.md), [CDK12](../genes/CDK12.md), and [NKX3-1](../genes/NKX3-1.md) as markers of treatment-driven genomic evolution [PMID:39506116](../papers/39506116.md).
 - Binding sites at distal enhancers hypomethylated in breast cancer metastases; implicated in estrogen-mediated suppression of cell-adhesion genes [PMID:36585450](../papers/36585450.md)
-- Missense mutations restricted to the Forkhead domain near the DNA-binding surface in 4/111 prostate cancer exomes; FOXA1 modulates AR-driven transcription and activates CDKN1B expression [PMID:22610119](../papers/22610119.md)
+- Missense mutations restricted to the Forkhead domain near the DNA-binding surface in 4/111 prostate cancer exomes; FOXA1 modulates AR-driven transcription and activates [CDKN1B](../genes/CDKN1B.md) expression [PMID:22610119](../papers/22610119.md)
 - FOXA1 identified as a recurrently mutated transcription factor in prostate cancer WES cohort (Michigan, 112 tumors); mutations cluster in the forkhead domain and may cooperate with ETS fusions [PMID:22722839](../papers/22722839.md)
 - Recurrently mutated in luminal breast cancer (TCGA, 510 tumors); mutations cluster in the forkhead DNA-binding domain [PMID:23000897](../papers/23000897.md)
+- Recurrent clonal/early point mutations in prostate cancer, confirmed early in the progression path (cross-confirmed against PMID:22610119) [PMID:23622249](../papers/23622249.md)
+- Low oestrogen receptor/FOXA1 signalling characteristic of the PARADIGM cluster 3 (copy-number-high) endometrial cancer subtype [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -48,16 +50,22 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

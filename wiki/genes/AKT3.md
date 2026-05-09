@@ -3,8 +3,8 @@ symbol: AKT3
 aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # AKT3
@@ -17,6 +17,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 
 - MAGI3-AKT3 gene fusion (intron 1 breakpoint) identified in breast cancer WES/WGS of 103 tumors (Broad Institute); fusion is enriched in triple-negative breast cancer and produces constitutive AKT phosphorylation [PMID:22722202](../papers/22722202.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
+- Recurrently altered across endometrial carcinoma subtypes in the [ucec_tcga_pub](../datasets/ucec_tcga_pub.md) TCGA cohort; identified in mutation panel analyses (Fig. 2d/Fig. 5b) [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +25,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 
 ## Co-occurrence and mutual exclusivity
 
-- MAGI3-AKT3 fusion co-occurs with hemizygous [MAGI3](../genes/MAGI3.md) deletion, resulting in complete loss of the MAGI3 PTEN-binding PDZ domain [PMID:22722202](../papers/22722202.md)
+- MAGI3-AKT3 fusion co-occurs with hemizygous [MAGI3](../genes/MAGI3.md) deletion, resulting in complete loss of the [MAGI3](../genes/MAGI3.md) PTEN-binding PDZ domain [PMID:22722202](../papers/22722202.md)
 
 ## Therapeutic relevance
 
@@ -38,7 +39,10 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

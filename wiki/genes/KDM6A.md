@@ -3,8 +3,8 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # KDM6A
@@ -23,9 +23,10 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Chromatin modifier commonly mutated in bladder cancer; shared trunk mutation in phylogenetic analyses of primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 - KDM6A is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort), consistent with TCGA-BLCA [PMID:36333289](../papers/36333289.md)
 - KDM6A (UTX) identified as mutated in medulloblastoma WGS cohort (PCGP, 37 tumors); mutations implicate histone H3K27 demethylation pathway disruption in pediatric brain cancer [PMID:22722829](../papers/22722829.md)
-- KDM6A alterations detected in prostate cancer WES cohort (Michigan, 112 tumors); loss of KDM6A histone demethylase activity may synergize with EZH2 gain in prostate cancer progression [PMID:22722839](../papers/22722839.md)
+- KDM6A alterations detected in prostate cancer WES cohort (Michigan, 112 tumors); loss of KDM6A histone demethylase activity may synergize with [EZH2](../genes/EZH2.md) gain in prostate cancer progression [PMID:22722839](../papers/22722839.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
+- Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); part of the epigenetic modifier category alongside EZH2, [KMT2A](../genes/KMT2A.md), and [KMT2C](../genes/KMT2C.md) in the TCGA AML cohort [PMID:23634996](../papers/23634996.md)
 
 ## Cancer types (linked)
 
@@ -54,22 +55,25 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

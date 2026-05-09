@@ -7,8 +7,8 @@ tags:
   - transcription-factor
   - ETS-family
   - prostate-cancer
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # ETV3
@@ -20,6 +20,7 @@ ETV3 is an ETS family transcription factor that functions as a transcriptional r
 ## Alterations observed in the corpus
 
 - ETV3 harbors deleterious somatic mutations (P327fs frameshift and W38* nonsense) in 2 castration-resistant prostate cancers (CRPCs) from the Michigan WES cohort (112 tumors total) [PMID:22722839](../papers/22722839.md)
+- Co-deleted with [ETV6](../genes/ETV6.md) and [CDKN1B](../genes/CDKN1B.md) in a 25-rearrangement chromoplexy chain in prostate cancer [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -42,4 +43,7 @@ ETV3 is an ETS family transcription factor that functions as a transcriptional r
 
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

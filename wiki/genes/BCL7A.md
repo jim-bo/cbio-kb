@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CHL]
 tags: [early-event, aid-target]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-05-09
 ---
 
 # BCL7A
@@ -18,6 +18,7 @@ BCL7A is a SWI/SNF-associated gene recurrently mutated in B-cell lymphomas, wher
 - Mutated in 18% of classic Hodgkin lymphoma cases in the 61-patient WGS+WES cohort [PMID:36723991](../papers/36723991.md).
 - Showed an elevated noncoding-to-coding mutation ratio consistent with AID off-target activity, along with [SOCS1](../genes/SOCS1.md), [TMSB4X](../genes/TMSB4X.md), [IL4R](../genes/IL4R.md), and [ITPKB](../genes/ITPKB.md) [PMID:36723991](../papers/36723991.md).
 - Timed as an early event in cHL pathogenesis, preceding whole-genome duplication and large chromosomal gains [PMID:36723991](../papers/36723991.md).
+- Recurrent translocation involving BCL7A detected by low-pass WGS in 5/106 endometrial carcinoma tumors ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); predicted in-frame fusions with increased BCL-family expression [PMID:23636398](../papers/23636398.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ BCL7A is a SWI/SNF-associated gene recurrently mutated in B-cell lymphomas, wher
 
 - [PMID:36723991](../papers/36723991.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

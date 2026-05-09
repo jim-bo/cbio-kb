@@ -5,7 +5,7 @@ main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-09
 ---
 
 # Endometrial Carcinoma (UCEC)
@@ -29,9 +29,10 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [ARID1A](../genes/ARID1A.md) — mutations less frequent in Black patients (19% vs. 47%); mutated in 82% of dMMR/MSI-H cohort. [PMID:37651310](../papers/37651310.md) [PMID:38653864](../papers/38653864.md)
 - [MLH1](../genes/MLH1.md) — promoter hypermethylation in 66% of dMMR/MSI-H cohort; somatic/germline mutations in 30%. [PMID:38653864](../papers/38653864.md)
 - [SETD1B](../genes/SETD1B.md) — mutations in 58% of [nivolumab](../drugs/nivolumab.md) responders vs. 14% non-responders (P=0.015). [PMID:38653864](../papers/38653864.md)
-- [MEGF8](../genes/MEGF8.md) — mutations in 32% of nivolumab responders vs. 0% non-responders (P=0.027). [PMID:38653864](../papers/38653864.md)
+- [MEGF8](../genes/MEGF8.md) — mutations in 32% of [nivolumab](../drugs/nivolumab.md) responders vs. 0% non-responders (P=0.027). [PMID:38653864](../papers/38653864.md)
 - [POLE](../genes/POLE.md) — exonuclease domain mutations rare in Black patients (1.2% vs. 5.8%); favorable prognosis subtype. [PMID:37651310](../papers/37651310.md)
 - [KMT2B](../genes/KMT2B.md) — mutations enriched in CN-H/TP53abn ECs (16% vs. 8%) and carcinosarcomas (31% vs. 10%) from Black patients. [PMID:37651310](../papers/37651310.md)
+- TCGA integrated analysis of 373 endometrial carcinomas (307 endometrioid, 53 serous, 13 mixed) proposed four molecular subgroups: [POLE](../genes/POLE.md) ultramutated (~7%, improved PFS), MSI hypermutated (~28%), copy-number low (CTNNB1-high), and copy-number high/serous-like ([TP53](../genes/TP53.md) ~90%, worse PFS); 93% of endometrioid tumors had PI3K/AKT alterations [PMID:23636398](../papers/23636398.md)
 
 ## Subtypes
 
@@ -54,4 +55,6 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 - [PMID:38653864](../papers/38653864.md) — Nivolumab for mismatch-repair-deficient or hypermutated gynecologic cancers: a phase 2 trial with biomarker analyses (Nature Medicine, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -5,8 +5,8 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CHEK2
@@ -23,6 +23,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - CHEK2 identified as a secondary synthetic lethal candidate in DDR screen in FBXO7-deficient CRC cells (checkpoint signaling pathway) [PMID:36334560](../papers/36334560.md)
 - Identified as pharmacogenomically relevant in NCI-60 cell line panel; CHEK2 alteration status correlates with drug sensitivity profiles in CellMiner analysis [PMID:22802077](../papers/22802077.md)
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); CHEK2 mutations identified among recurrently mutated DNA-damage checkpoint genes, implicating checkpoint deficiency in neuroblastoma pathogenesis [PMID:23334666](../papers/23334666.md)
+- Co-deleted with [TP53](../genes/TP53.md) in one prostate carcinoma chromoplexy chain; disrupted by structural rearrangement [PMID:23622249](../papers/23622249.md)
 
 ## Cancer types (linked)
 
@@ -48,13 +49,16 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

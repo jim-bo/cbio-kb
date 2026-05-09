@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Whole-genome sequencing (WGS)
@@ -28,22 +28,25 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass WGS (5x) applied to 51 primary and 102 metastatic breast cancer specimens in AURORA cohort; 11 DNA segments more frequently amplified in metastases (q<0.05), including [MYC](../genes/MYC.md) and [MDM4](../genes/MDM4.md) regions [PMID:36585450](../papers/36585450.md)
 - Applied to primary tumors from 2 MEC patients (Patient 1: 29x tumor/25x normal; Patient 2: 22x tumor/15x normal; GRCh37/hg19); revealed >30-way biallelic chromoplexy event in MEC1 and double-minute [ELK4](../genes/ELK4.md) amplification in MEC2 [PMID:36577525](../papers/36577525.md)
 - Applied to 40 treatment-naive [HGSOC](../cancer_types/HGSOC.md) tumor-normal pairs; mutational signature inference classified tumours into HRD-Dup (n=16), HRD-Del (n=6), and FBI (n=14) subtypes [PMID:36517593](../papers/36517593.md)
-- Applied to 14 NHL cases (DLBCL and FL) with matched tumor/normal pairs in the BCGSC study; identified 109 recurrently mutated genes including KMT2D and MEF2B as major histone-modifier drivers [PMID:21796119](../papers/21796119.md)
+- Applied to 14 NHL cases (DLBCL and [FL](../cancer_types/FL.md)) with matched tumor/normal pairs in the BCGSC study; identified 109 recurrently mutated genes including [KMT2D](../genes/KMT2D.md) and [MEF2B](../genes/MEF2B.md) as major histone-modifier drivers [PMID:21796119](../papers/21796119.md)
 - Two HNSCC tumors underwent whole-genome sequencing at 31x mean coverage in the Broad HNSCC study, complementing whole-exome sequencing of 74 tumors [PMID:21798893](../papers/21798893.md)
 - WGS applied to 65 breast tumors (BCCRC) to characterize structural rearrangements and somatic mutation landscapes [PMID:22495314](../papers/22495314.md)
-- WGS of 25 melanoma tumors used to identify PREX2 recurrent mutations and characterize KIT/BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
-- WGS used in HCC genomic studies to identify TERT promoter mutations, CTNNB1, and TP53 alterations [PMID:22634756](../papers/22634756.md)
-- Used for WGS of 103 breast cancer tumors in the Broad cohort (brca_broad), enabling structural variant and fusion discovery including MAGI3-AKT3 [PMID:22722202](../papers/22722202.md)
-- Used for WGS of 37 medulloblastoma tumors in the PCGP cohort (mbl_pcgp), identifying KDM6A, DDX3X, and SMARCA4 as driver genes [PMID:22722829](../papers/22722829.md)
+- WGS of 25 melanoma tumors used to identify [PREX2](../genes/PREX2.md) recurrent mutations and characterize KIT/BRAF alteration patterns [PMID:22622578](../papers/22622578.md)
+- WGS used in [HCC](../cancer_types/HCC.md) genomic studies to identify [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:22634756](../papers/22634756.md)
+- Used for WGS of 103 breast cancer tumors in the Broad cohort ([brca_broad](../datasets/brca_broad.md)), enabling structural variant and fusion discovery including MAGI3-AKT3 [PMID:22722202](../papers/22722202.md)
+- Used for WGS of 37 medulloblastoma tumors in the PCGP cohort ([mbl_pcgp](../datasets/mbl_pcgp.md)), identifying [KDM6A](../genes/KDM6A.md), [DDX3X](../genes/DDX3X.md), and [SMARCA4](../genes/SMARCA4.md) as driver genes [PMID:22722829](../papers/22722829.md)
 - 97 of 276 TCGA colorectal carcinoma pairs analyzed by low-pass whole-genome sequencing (~3-4X coverage) for structural variant detection alongside WES [PMID:22810696](../papers/22810696.md)
 - 39 of 125 pediatric medulloblastoma pairs (ICGC) analyzed by deep whole-genome sequencing at 35-fold mean coverage; identified tetraploidy as frequent early event in Group 3 and 4 tumors and described first medulloblastoma fusion genes [PMID:22832583](../papers/22832583.md)
 - Applied alongside WES in Genentech colorectal cohort to detect structural variants including RSPO2/RSPO3 fusions [PMID:22895193](../papers/22895193.md)
-- Applied to SCLC tumors in CLCGP study (29 cases) to detect structural rearrangements and copy number alterations in TP53/RB1-null tumors [PMID:22941188](../papers/22941188.md)
+- Applied to [SCLC](../cancer_types/SCLC.md) tumors in CLCGP study (29 cases) to detect structural rearrangements and copy number alterations in TP53/RB1-null tumors [PMID:22941188](../papers/22941188.md)
 - Used in JHU SCLC study (36 tumors) to complement WES and characterise copy number landscape including SOX2/MYCL amplifications [PMID:22941189](../papers/22941189.md)
-- Applied to subset of TCGA LUSC tumors (178-tumor cohort) to detect structural variants alongside WES-based somatic mutation calling [PMID:22960745](../papers/22960745.md)
-- Applied in Broad LUAD WES study (183 tumors) to characterise structural variation and somatic copy number alterations [PMID:22980975](../papers/22980975.md)
-- WGS of 87 neuroblastoma tumor/normal pairs from the Broad cohort; detected structural variants including MYCN amplifications and ALK rearrangements [PMID:23334666](../papers/23334666.md)
-- WGS of 7 ETP-ALL tumor/normal pairs at St. Jude; revealed complex structural rearrangements in FLT3, JAK1/2, and cytokine receptor genes [PMID:23334668](../papers/23334668.md)
+- Applied to subset of TCGA [LUSC](../cancer_types/LUSC.md) tumors (178-tumor cohort) to detect structural variants alongside WES-based somatic mutation calling [PMID:22960745](../papers/22960745.md)
+- Applied in Broad [LUAD](../cancer_types/LUAD.md) WES study (183 tumors) to characterise structural variation and somatic copy number alterations [PMID:22980975](../papers/22980975.md)
+- WGS of 87 neuroblastoma tumor/normal pairs from the Broad cohort; detected structural variants including [MYCN](../genes/MYCN.md) amplifications and [ALK](../genes/ALK.md) rearrangements [PMID:23334666](../papers/23334666.md)
+- WGS of 7 ETP-ALL tumor/normal pairs at St. Jude; revealed complex structural rearrangements in [FLT3](../genes/FLT3.md), JAK1/2, and cytokine receptor genes [PMID:23334668](../papers/23334668.md)
+- Whole-genome sequencing (~49× tumor / 30× germline; 101 bp paired reads) on 16 esophageal adenocarcinoma pairs; rearrangements called by dRanger yielded 2,952 candidate events; no recurrent fusions found [PMID:23525077](../papers/23525077.md)
+- Whole-genome sequencing (mean 61× tumor / 34× normal; Illumina GAIIx paired-end 101 bp) on 57 prostate tumor/normal pairs; identified 5,596 somatic rearrangements by dRanger and characterized chromoplexy chains in 88% of tumors [PMID:23622249](../papers/23622249.md)
+- Whole-genome sequencing (mean 30.54× coverage) on 50 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA AML study; VAF-based clonal architecture analysis showed >50% of tumors had ≥1 subclone [PMID:23634996](../papers/23634996.md)
 
 ## Notes
 
@@ -61,61 +64,70 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

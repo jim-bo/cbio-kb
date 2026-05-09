@@ -23,6 +23,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Activating MTOR mutations strongly associated with ICI and ICI+TKI non-response in ccRCC (15/16 patients with MTOR mutations were resistant); enriched in the ICI-low score group by TCGA KIRC molecular subtyping [PMID:22138691](../papers/22138691.md)
 - MTOR pathway activation is a recurrent feature of hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) genomics; reviewed as a potential therapeutic target [PMID:22634756](../papers/22634756.md)
 - Among the top eight most significantly mutated genes (q<0.00001) in ccRCC; mutation enriched in m4 mRNA subtype (12% vs 4%, p=0.01); nominated as a therapeutic target, supporting use of [everolimus](../drugs/everolimus.md) and [temsirolimus](../drugs/temsirolimus.md) in advanced RCC [PMID:23792563](../papers/23792563.md)
+- Pathway downstream of PI3K/AKT in the PI3K/AKT/mTOR signaling map; combined PI3K/AKT/mTOR pathway altered in 30% of high-grade urothelial bladder tumors; TSC1-null tumors resistant to AKT inhibition (MK-2206) while maintaining S6/4EBP1 signaling [PMID:23897969](../papers/23897969.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 ## Open questions
 
-- Whether MTOR-mutant ccRCC patients benefit from mTOR-targeted agents (everolimus, temsirolimus) over ICI or TKI combinations is not resolved in the corpus.
+- Whether MTOR-mutant ccRCC patients benefit from mTOR-targeted agents ([everolimus](../drugs/everolimus.md), [temsirolimus](../drugs/temsirolimus.md)) over ICI or TKI combinations is not resolved in the corpus.
 - The specific MTOR mutation spectrum (hotspot vs. scattered) in the non-responsive group has not been detailed.
 
 ## Sources
@@ -50,5 +51,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

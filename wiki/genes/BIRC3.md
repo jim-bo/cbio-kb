@@ -21,7 +21,8 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 
 ## Alterations observed in the corpus
 
-- Located within or near the 11q13 CCND1 amplicon in OSCC; copy-number gain with strong CN-expression correlation; co-amplified alongside [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), and CCND1 in the 22% of OSCC tumors with 11q13 focal amplification. [PMID:23619168](../papers/23619168.md)
+- Located within or near the 11q13 [CCND1](../genes/CCND1.md) amplicon in OSCC; copy-number gain with strong CN-expression correlation; co-amplified alongside [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), and CCND1 in the 22% of OSCC tumors with 11q13 focal amplification. [PMID:23619168](../papers/23619168.md)
+- Exon-9 inactivating and splice-site mutations in 11/173 (6.4%) mantle cell lymphoma ([MCL](../cancer_types/MCL.md)); tightly co-occurs with 11q22.2 deletion (10/11 vs 25/87, P=1.1×10⁻⁴); can be acquired post-treatment, consistent with chemotherapy-driven clonal selection at relapse [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -29,7 +30,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with BIRC2, FADD, IKBKB, CCND1, and [LTO1](../genes/LTO1.md) at the 11q13 locus in OSCC. [PMID:23619168](../papers/23619168.md)
+- Co-amplified with [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), CCND1, and [LTO1](../genes/LTO1.md) at the 11q13 locus in OSCC. [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 
@@ -42,5 +43,8 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

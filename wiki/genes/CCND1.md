@@ -36,6 +36,10 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Focal high-level amplification in 22% (8/38) of OSCC; strongly correlated with gene expression (p=5.66e-9); combined with [CDKN2A](../genes/CDKN2A.md) deletion yields cell-cycle alteration in 94% of tumors [PMID:23619168](../papers/23619168.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 - HIF2A cooperates with [PAX8](../genes/PAX8.md) to upregulate CCND1 (cyclin D1) in ccRCC, as cited in the context of proximal tubule dedifferentiation and VHL-null proliferation [PMID:23797736](../papers/23797736.md)
+- Focal amplification at 11q13.2–13.3 in 14% of high-grade bladder tumors; mutually exclusive with [CCNE1](../genes/CCNE1.md) amplification and inversely correlated with [RB1](../genes/RB1.md) loss [PMID:23897969](../papers/23897969.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated alongside [CCND2](../genes/CCND2.md) and [CCNE2](../genes/CCNE2.md) [PMID:24120142](../papers/24120142.md)
+- Focal amplification observed in bladder TCC (transitional cell carcinoma); part of a set of recurrently amplified oncogenes [PMID:24121792](../papers/24121792.md)
+- Exon-1 mutations in 10/29 (35%) WES mantle cell lymphoma cases; enriched in SOX11-negative (86%) and IGHV-mutated (58%) [MCL](../cancer_types/MCL.md), consistent with acquisition in the germinal-center microenvironment [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -98,5 +102,17 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23797736](../papers/23797736.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

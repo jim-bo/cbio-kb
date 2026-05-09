@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - ion-channel
   - GABA-receptor
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # GABRA6
@@ -18,7 +18,8 @@ GABRA6 encodes the alpha-6 subunit of the GABA type A receptor, a ligand-gated c
 
 ## Alterations observed in the corpus
 
-- GABRA6 was among the 9 genes significantly mutated above background in HGSOC (489 samples) by TCGA integrated genomic analysis, identified by whole-exome sequencing of 316 tumors [PMID:21720365](../papers/21720365.md)
+- GABRA6 was among the 9 genes significantly mutated above background in [HGSOC](../cancer_types/HGSOC.md) (489 samples) by TCGA integrated genomic analysis, identified by whole-exome sequencing of 316 tumors [PMID:21720365](../papers/21720365.md)
+- Identified as an additional significantly mutated gene (SMG) in [GBM](../cancer_types/GBM.md) by MutSig analysis (q<0.1) in the TCGA 2013 cohort of 291 whole-exome-sequenced primary GBM cases; mutation frequency ~4% [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -40,4 +41,7 @@ GABRA6 encodes the alpha-6 subunit of the GABA type A receptor, a ligand-gated c
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

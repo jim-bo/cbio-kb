@@ -27,8 +27,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate [RAC1](../genes/RAC1.md) P29S in an expanded melanoma cohort of 364 samples (Yale); mutation confirmed in 9.2% of sun-exposed melanomas [PMID:22842228](../papers/22842228.md)
 - Sanger sequencing used to validate somatic mutations discovered by WES/WGS in ETP-ALL tumors at St. Jude [PMID:23334668](../papers/23334668.md)
 - Sanger sequencing used to validate [NOTCH1](../genes/NOTCH1.md) and [CASP8](../genes/CASP8.md) mutations in a panel of 44 HNSCC cell lines, orthogonal to SOLiD/Illumina exome discovery [PMID:23619168](../papers/23619168.md)
-- Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional ACC cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional SPEN truncating mutations in solid-histology cases and 3 activating FGFR2 mutations [PMID:23778141](../papers/23778141.md)
+- Used for targeted extension sequencing of [SPEN](../genes/SPEN.md) (42 additional ACC cases) and [FGFR2](../genes/FGFR2.md) (25 additional ACC cases), identifying 2 additional [SPEN](../genes/SPEN.md) truncating mutations in solid-histology cases and 3 activating [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
 - Used for PCR validation of SNVs and InDels identified by WGS in 96 pediatric pilocytic astrocytoma cases; achieved >98% SNV verification rate and >70% InDel verification rate [PMID:23817572](../papers/23817572.md)
+- Used for Sanger sequencing of all coding exons of 15 selected oncogenes/tumor suppressors in 97 high-grade bladder ([BLCA](../cancer_types/BLCA.md)) tumors [PMID:23897969](../papers/23897969.md)
+- Sanger sequencing used to validate 11,240 candidate somatic mutations; confirmed 91% of predicted substitutions and 74% of indels in 99 BLCA tumors [PMID:24121792](../papers/24121792.md)
+- Used for targeted validation sequencing of 172 [MCL](../cancer_types/MCL.md) patients in an independent cohort to confirm WES-identified mutations [PMID:24145436](../papers/24145436.md)
 
 ## Notes
 
@@ -70,5 +73,14 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

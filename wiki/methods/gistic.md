@@ -26,10 +26,12 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Applied to JHU [SCLC](../cancer_types/SCLC.md) cohort (36 tumors) to identify recurrent focal amplifications including [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) and deletions of [RB1](../genes/RB1.md) [PMID:22941189](../papers/22941189.md)
 - Applied to TCGA [LUSC](../cancer_types/LUSC.md) cohort (178 tumors) to identify focal amplifications ([SOX2](../genes/SOX2.md), [FGFR1](../genes/FGFR1.md)) and deletions ([CDKN2A](../genes/CDKN2A.md)) from SNP6 array data [PMID:22960745](../papers/22960745.md)
 - GISTIC analysis of SNP 6.0 copy-number data from 160 CLL tumors identified del(13q14), del(11q22-23), and del(17p13) as recurrent focal deletions [PMID:23415222](../papers/23415222.md)
-- GISTIC v2.0.12 applied to Affymetrix SNP 6.0 copy-number profiles of 38 OSCC tumors; identified recurrent focal amplifications ([CCND1](../genes/CCND1.md), [EGFR](../genes/EGFR.md)) and deletions (CDKN2A, [FHIT](../genes/FHIT.md)) [PMID:23619168](../papers/23619168.md)
+- GISTIC v2.0.12 applied to Affymetrix SNP 6.0 copy-number profiles of 38 OSCC tumors; identified recurrent focal amplifications ([CCND1](../genes/CCND1.md), [EGFR](../genes/EGFR.md)) and deletions ([CDKN2A](../genes/CDKN2A.md), [FHIT](../genes/FHIT.md)) [PMID:23619168](../papers/23619168.md)
 - GISTIC v2 applied to an extended cohort of 199 prostate adenocarcinomas to call recurrent SCNAs; [CHD1](../genes/CHD1.md) deletion associated with elevated recurrent SCNA burden (p=1.5×10⁻⁸) and Gleason grade tracked SCNA count (p=0.0059) [PMID:23622249](../papers/23622249.md)
 - GISTIC applied to Affymetrix SNP 6.0 data from 363 endometrial carcinomas; identified recurrent focal amplifications of [MYC](../genes/MYC.md), [ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) defining the copy-number-high serous-like subgroup [PMID:23636398](../papers/23636398.md)
 - Applied as GISTIC2.0 in 60-sample ACC study to identify significant recurrent copy-number alterations: high-level losses at 6q24, 12q13, and 14q; 14q loss associated with solid histology (Fisher p=2.0×10⁻⁴), 6q24 loss enriched for advanced stage (p=4.0×10⁻²) [PMID:23685749](../papers/23685749.md)
+- Used on 492 [GBM](../cancer_types/GBM.md) samples for SCNA peak calling; identified recurrent amplifications on chr7 (EGFR/MET/CDK6), chr12 (CDK4/MDM2), chr4 ([PDGFRA](../genes/PDGFRA.md)) and defined [QKI](../genes/QKI.md) as sole target of 6q26 minimal deletion [PMID:24120142](../papers/24120142.md)
+- Reimplemented GISTIC-style analysis on WGS-derived CNA data from 99 [BLCA](../cancer_types/BLCA.md) tumors; identified 84 focal amplification regions and 80 focal deletion regions including [DHFR](../genes/DHFR.md) amplification (14%) and CDKN2A/B deletion (50%) [PMID:24121792](../papers/24121792.md)
 
 ## Notes
 
@@ -73,5 +75,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

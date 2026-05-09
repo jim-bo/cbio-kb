@@ -39,6 +39,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used Affymetrix SNP 6.0 on 363 endometrial carcinoma samples for SCNA profiling; GISTIC identified recurrent focal amplifications including [MYC](../genes/MYC.md), [ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) [PMID:23636398](../papers/23636398.md)
 - Used in 24-exome adenoid cystic carcinoma (ACC) study for SNP-array copy-number profiling, analyzed with ASCAT v2.1, revealing recurrent losses at 1p36, 6q, 9p, and 12q [PMID:23778141](../papers/23778141.md)
 - Used in TCGA [CCRCC](../cancer_types/CCRCC.md) study for DNA copy-number profiling alongside whole-exome sequencing of 417 tumors, contributing to identification of chromosome 3p loss (91% of samples), 5q gain (67%), and 14q loss (45%) [PMID:23792563](../papers/23792563.md)
+- Used for copy-number/LOH profiling of [MCL](../cancer_types/MCL.md) samples; CNA burden from SNP 6.0 arrays correlated with [SOX11](../genes/SOX11.md) status and clinical aggressiveness (SOX11+ MCL had mean 13±9 CNAs vs 2±2 in SOX11- MCL) [PMID:24145436](../papers/24145436.md)
 
 ## Notes
 
@@ -110,5 +111,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

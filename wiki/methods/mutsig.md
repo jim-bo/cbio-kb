@@ -23,11 +23,12 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig applied to somatic mutation data from 224 TCGA colorectal carcinoma exomes to identify 24 significantly mutated genes including novel candidates [ARID1A](../genes/ARID1A.md), [SOX9](../genes/SOX9.md), [AMER1](../genes/AMER1.md) [PMID:22810696](../papers/22810696.md)
 - InVEx permutation framework (related to MutSig) applied to 121 melanoma exomes; leverages intronic mutation rates to control for high UV-induced mutation background; identified 11 significantly mutated genes [PMID:22817889](../papers/22817889.md)
 - MutSig applied to 92 medulloblastoma exomes (Broad) to identify 12 significantly mutated genes (q<0.1) including novel candidates [DDX3X](../genes/DDX3X.md), [GPS2](../genes/GPS2.md), [BCOR](../genes/BCOR.md), [LDB1](../genes/LDB1.md) [PMID:22820256](../papers/22820256.md)
-- Applied to TCGA [LUSC](../cancer_types/LUSC.md) cohort (178 tumors) to identify significantly mutated genes including [CDKN2A](../genes/CDKN2A.md), TP53, [KEAP1](../genes/KEAP1.md), [NFE2L2](../genes/NFE2L2.md), and MLL2 [PMID:22960745](../papers/22960745.md)
-- Applied to Broad [LUAD](../cancer_types/LUAD.md) cohort (183 tumors) to identify significantly mutated genes; nominated [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), and ARID1A as novel drivers alongside [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), and [STK11](../genes/STK11.md) [PMID:22980975](../papers/22980975.md)
+- Applied to TCGA [LUSC](../cancer_types/LUSC.md) cohort (178 tumors) to identify significantly mutated genes including [CDKN2A](../genes/CDKN2A.md), [TP53](../genes/TP53.md), [KEAP1](../genes/KEAP1.md), [NFE2L2](../genes/NFE2L2.md), and MLL2 [PMID:22960745](../papers/22960745.md)
+- Applied to Broad [LUAD](../cancer_types/LUAD.md) cohort (183 tumors) to identify significantly mutated genes; nominated [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), and [ARID1A](../genes/ARID1A.md) as novel drivers alongside [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), and [STK11](../genes/STK11.md) [PMID:22980975](../papers/22980975.md)
 - MutSig applied to neuroblastoma WES data to identify significantly mutated genes; [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) passed significance thresholds [PMID:23334666](../papers/23334666.md)
-- MutSig analysis of 160 CLL exomes identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), DDX3X, and [POT1](../genes/POT1.md) as significantly mutated genes beyond background rates [PMID:23415222](../papers/23415222.md)
-- MutSig significance algorithm identified 26 significantly mutated genes (FDR q<0.1) in 145 esophageal adenocarcinomas, including TP53, CDKN2A, [SMAD4](../genes/SMAD4.md), PIK3CA, and novel candidates [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), and [SPART](../genes/SPART.md) [PMID:23525077](../papers/23525077.md)
+- MutSig analysis of 160 CLL exomes identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), and [POT1](../genes/POT1.md) as significantly mutated genes beyond background rates [PMID:23415222](../papers/23415222.md)
+- MutSig significance algorithm identified 26 significantly mutated genes (FDR q<0.1) in 145 esophageal adenocarcinomas, including TP53, [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md), [PIK3CA](../genes/PIK3CA.md), and novel candidates [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), and [SPART](../genes/SPART.md) [PMID:23525077](../papers/23525077.md)
+- Used together with InVEx to identify 71 significantly mutated genes in 291 [GBM](../cancer_types/GBM.md) exomes, including known drivers ([PTEN](../genes/PTEN.md), TP53, [EGFR](../genes/EGFR.md), PIK3CA, [NF1](../genes/NF1.md)) and novel [LZTR1](../genes/LZTR1.md) [PMID:24120142](../papers/24120142.md)
 
 ## Notes
 
@@ -69,5 +70,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

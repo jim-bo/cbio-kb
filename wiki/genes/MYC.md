@@ -51,6 +51,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification observed in ≥5% of OSCC tumors (8q gain); part of the mitogenic signaling pathway altered in 63% of OSCC tumors (40-tumor MD Anderson cohort) [PMID:23619168](../papers/23619168.md)
 - Focal amplification at 8q24.12 in the copy-number-high (serous-like) cluster-4 endometrial carcinoma subgroup, which shares molecular features with high-grade serous ovarian carcinoma (TCGA 373-tumor cohort) [PMID:23636398](../papers/23636398.md)
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern noted across GBM transcriptomic subtypes [PMID:24120142](../papers/24120142.md)
+- Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -156,5 +158,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

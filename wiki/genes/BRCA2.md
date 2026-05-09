@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BRCA2
@@ -44,9 +44,10 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
 - BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
 - BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
-- Found mutated in HGSOC tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
-- Somatic mutations in 3/65 TNBC cases in a WGS breast cancer cohort; BRCA2 pathway linked to sporadic breast cancer via EMSY amplification [PMID:22495314](../papers/22495314.md)
+- Found mutated in [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
+- Somatic mutations in 3/65 TNBC cases in a WGS breast cancer cohort; BRCA2 pathway linked to sporadic breast cancer via [EMSY](../genes/EMSY.md) amplification [PMID:22495314](../papers/22495314.md)
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA2 mutations identified across molecular subtypes, associated with homologous recombination deficiency [PMID:23000897](../papers/23000897.md)
+- Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -87,31 +88,34 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

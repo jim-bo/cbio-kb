@@ -26,6 +26,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Amplified in luminal B and HER2-enriched breast cancer subtypes (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
 - Amplified in the copy-number-high (serous-like) cluster 4 of endometrial cancer [PMID:23636398](../papers/23636398.md)
 - Recurrent kinase-domain hotspot mutations at N546 and K656 (5/96 WGS + 9/45 screening cohort) in pilocytic astrocytoma; plus a ~4.5 kb kinase-domain internal tandem duplication; mutants drive ERK phosphorylation; all FGFR1-mutant tumors extra-cerebellar/midline; same mutations recurred in 3/48 pediatric glioblastomas [PMID:23817572](../papers/23817572.md)
+- Recurrent amplification detected in high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); arose in a predominantly mutually exclusive distribution with other RTK/RAS/RAF alterations [PMID:23897969](../papers/23897969.md)
+- FGFR1 alteration contributes to the RTK-alteration rate of 67.3% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA); FGFR2/3 combined were explicitly listed at 3.2%, and FGFR1 was identified as part of the RTK pathway alteration landscape [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +75,11 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

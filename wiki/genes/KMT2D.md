@@ -3,8 +3,8 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # KMT2D
@@ -21,15 +21,16 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D mutation detected in one prostate cancer PDX model (PDX 316-1) in the MDA PCa PDX series (44 PDXs from 38 patients) [PMID:38488813](../papers/38488813.md).
 - KMT2D is a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers alongside [RNF43](../genes/RNF43.md), [INPPL1](../genes/INPPL1.md), [MSH3](../genes/MSH3.md), and [ARID1A](../genes/ARID1A.md) in a tumor-agnostic analysis of 212 patients with [BRAF](../genes/BRAF.md) fusions [PMID:38922339](../papers/38922339.md).
 - KMT2D is a chromatin-modifying gene with high prevalence of non-silent variants in metastatic UC (UC-GENOME cohort), consistent with TCGA-BLCA [PMID:36333289](../papers/36333289.md)
-- KMT2D was among the most frequently mutated genes in DLBCL and FL, establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
+- KMT2D was among the most frequently mutated genes in DLBCL and [FL](../cancer_types/FL.md), establishing its role as a major epigenetic tumor suppressor in B-cell lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - KMT2D is among the significantly mutated genes in DLBCL identified by whole-exome sequencing of 55 tumors (MutSig, Broad Institute) [PMID:22343534](../papers/22343534.md)
-- Second most frequent HBV integration target in HCC (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with >20-fold expression increase [PMID:22634756](../papers/22634756.md)
+- Second most frequent HBV integration target in [HCC](../cancer_types/HCC.md) (11.8%); intronic and exonic insertions cause epigenomic modification and downregulate the p53 pathway with >20-fold expression increase [PMID:22634756](../papers/22634756.md)
 - KMT2D (MLL2/MLL4) found as one of the most frequently mutated genes in medulloblastoma WGS cohort (PCGP, 37 tumors), establishing H3K4 methyltransferase loss as a key event in pediatric brain tumors [PMID:22722829](../papers/22722829.md)
-- KMT2D alterations identified in prostate cancer WES cohort (Michigan, 112 tumors); KMT2D loss co-occurs with ETS fusions and EZH2 alterations, suggesting convergent epigenetic dysregulation [PMID:22722839](../papers/22722839.md)
+- KMT2D alterations identified in prostate cancer WES cohort (Michigan, 112 tumors); KMT2D loss co-occurs with ETS fusions and [EZH2](../genes/EZH2.md) alterations, suggesting convergent epigenetic dysregulation [PMID:22722839](../papers/22722839.md)
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
 - Significantly mutated (FDR q < 0.1) in lung squamous cell carcinoma (178 tumors, TCGA); one of 10 top-tier significantly mutated genes [PMID:22960745](../papers/22960745.md)
+- Truncating and FYRN/FYRC-domain missense mutations in 4/29 (14%) primary [MCL](../cancer_types/MCL.md) WES cases and 2/6 MCL cell lines; no biallelic loss detected; restricted to SOX11-positive/IGHV-unmutated MCL; classified as an early/clonal event by allelic-frequency analysis in paired subclone samples [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -61,34 +62,37 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

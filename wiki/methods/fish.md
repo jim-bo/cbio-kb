@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -31,6 +31,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used fluorescence in situ hybridization (FISH) to validate ETS gene fusions ([ETV1](../genes/ETV1.md) and [ERG](../genes/ERG.md)) in prostate tumors alongside dRanger WGS rearrangement calling [PMID:23622249](../papers/23622249.md)
 - Used in adenoid cystic carcinoma study (n=60 tumor/normal pairs) to detect MYB-NFIB translocations on tissue microarrays via 3-color BAC probes; confirmed fusion in 57% (34/60) of cases [PMID:23685749](../papers/23685749.md)
 - Used in ACC exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
+- Used to validate [DHFR](../genes/DHFR.md) amplification at 5q detected in 14/99 (14%) TCC bladder tumors by WGS-based CNA analysis [PMID:24121792](../papers/24121792.md)
 
 ## Notes
 
@@ -67,7 +68,10 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

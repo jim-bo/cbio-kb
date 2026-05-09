@@ -39,6 +39,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Altered in [SCLC](../cancer_types/SCLC.md) WES/WGS study (CLCGP, 29 tumors) alongside universal TP53/RB1 loss [PMID:22941188](../papers/22941188.md)
 - Amplified in breast cancer (TCGA, 510 tumors); CCNE1 amplification observed predominantly in basal-like and HER2-enriched subtypes, linked to replication stress and genomic instability [PMID:23000897](../papers/23000897.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
+- Focal amplification in 5% of high-grade bladder tumors; mutually exclusive with [CCND1](../genes/CCND1.md) amplification and inversely correlated with [RB1](../genes/RB1.md) loss [PMID:23897969](../papers/23897969.md)
+- Focal amplification in bladder TCC; part of a set of recurrently amplified oncogenes alongside CCND1 and [E2F3](../genes/E2F3.md) [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -54,7 +56,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 ## Therapeutic relevance
 
 - CCNE1 amplification is a candidate target for WEE1 inhibitors (e.g., adavosertib), [ATR](../genes/ATR.md) inhibitors, and PKMYT1 kinase inhibitors under clinical investigation in endometrial carcinoma [PMID:37651310](../papers/37651310.md).
-- Enrichment in early-onset [EGC](../cancer_types/EGC.md) may represent a therapeutic opportunity with CDK2 inhibitors [PMID:37699004](../papers/37699004.md).
+- Enrichment in early-onset [EGC](../cancer_types/EGC.md) may represent a therapeutic opportunity with [CDK2](../genes/CDK2.md) inhibitors [PMID:37699004](../papers/37699004.md).
 
 ## Open questions
 
@@ -101,5 +103,11 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

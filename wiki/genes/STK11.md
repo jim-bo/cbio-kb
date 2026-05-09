@@ -3,8 +3,8 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [LUAD, NSCLC]
 tags: [tumor-suppressor, metastasis, co-alteration]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # STK11
@@ -24,7 +24,8 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - STK11 LOF mutations in 6% of [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 3.94, 95% CI 1.62-9.55; multivariate HR 3.76, p=0.004) [PMID:36228155](../papers/36228155.md)
 - STK11 mutation (44/247, 17.8%) strongly associated with immunotherapy resistance in advanced [NSCLC](../cancer_types/NSCLC.md) (aHR = 2.53, 95% CI 1.71-3.74, P < 0.005); independent predictor in multivariate analysis [PMID:36038778](../papers/36038778.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors [PMID:22722201](../papers/22722201.md)
-- Inactivating mutations/deletions in 15% of LUAD cases (Broad WES cohort, 183 tumors); enriched in mutation spectrum cluster 2 (P = 0.0026) [PMID:22980975](../papers/22980975.md)
+- Inactivating mutations/deletions in 15% of [LUAD](../cancer_types/LUAD.md) cases (Broad WES cohort, 183 tumors); enriched in mutation spectrum cluster 2 (P = 0.0026) [PMID:22980975](../papers/22980975.md)
+- Loss of STK11/LKB1 identified as a genetic modifier of response to [selumetinib](../drugs/selumetinib.md) plus [docetaxel](../drugs/docetaxel.md) combination therapy in KRAS-driven LUAD mouse models; proposed as a predictive biomarker of treatment outcome [PMID:23999436](../papers/23999436.md)
 
 ## Cancer types (linked)
 
@@ -50,19 +51,22 @@ STK11 (LKB1) is a tumor suppressor kinase recurrently inactivated in lung adenoc
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23999436](../papers/23999436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

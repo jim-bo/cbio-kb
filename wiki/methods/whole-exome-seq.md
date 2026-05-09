@@ -59,7 +59,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - 21 pediatric medulloblastoma pairs (ICGC) analyzed by whole-exome sequencing at 68-fold on-target mean coverage; complemented by WGS (n=39) and custom-capture replication set (n=65) [PMID:22832583](../papers/22832583.md)
 - 147 melanoma tumor/normal pairs (Yale) analyzed by whole-exome sequencing (Roche/NimbleGen SeqCap EZ, 22.4 Mb capture, Illumina GAIIx/HiSeq 2000); discovery cohort for [RAC1](../genes/RAC1.md) P29S and [PPP6C](../genes/PPP6C.md) [PMID:22842228](../papers/22842228.md)
 - Applied to 74 colorectal tumors (Genentech cohort) to discover RSPO2/RSPO3 fusions and characterise the somatic mutation landscape [PMID:22895193](../papers/22895193.md)
-- Applied to 29 [SCLC](../cancer_types/SCLC.md) tumors (CLCGP) alongside WGS, revealing universal TP53+[RB1](../genes/RB1.md) biallelic loss [PMID:22941188](../papers/22941188.md)
+- Applied to 29 [SCLC](../cancer_types/SCLC.md) tumors (CLCGP) alongside WGS, revealing universal [TP53](../genes/TP53.md)+[RB1](../genes/RB1.md) biallelic loss [PMID:22941188](../papers/22941188.md)
 - Applied to 36 [SCLC](../cancer_types/SCLC.md) tumors (JHU) to identify recurrent [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to 178 [LUSC](../cancer_types/LUSC.md) tumors (TCGA) to define comprehensive somatic mutation landscape including [CDKN2A](../genes/CDKN2A.md), TP53, [KEAP1](../genes/KEAP1.md), [NFE2L2](../genes/NFE2L2.md) [PMID:22960745](../papers/22960745.md)
 - Applied to 183 [LUAD](../cancer_types/LUAD.md) tumors (Broad) enabling MutSig-driven discovery of [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [STK11](../genes/STK11.md), [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), [ARID1A](../genes/ARID1A.md) as significant drivers [PMID:22980975](../papers/22980975.md)
@@ -67,14 +67,17 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES of 142 ICGC pancreatic tumors; achieved mean 69x coverage; identified 2.4 somatic mutations per Mb [PMID:23103869](../papers/23103869.md)
 - WES of 240 neuroblastoma tumors from the Broad cohort; low overall somatic mutation burden (~0.6 per Mb) [PMID:23334666](../papers/23334666.md)
 - WES of 44 ETP-ALL tumors from St. Jude; revealed RAS/PI3K pathway mutations in majority of cases [PMID:23334668](../papers/23334668.md)
-- WES of 160 CLL tumors; identified [SF3B1](../genes/SF3B1.md), NOTCH1, [DDX3X](../genes/DDX3X.md), [POT1](../genes/POT1.md) as significantly mutated genes [PMID:23415222](../papers/23415222.md)
+- WES of 160 CLL tumors; identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), [POT1](../genes/POT1.md) as significantly mutated genes [PMID:23415222](../papers/23415222.md)
 - Whole-exome sequencing (SureSelect v2, Illumina HiSeq; mean 83.3× tumor / 85.9× normal) on 149 esophageal adenocarcinoma tumor/normal pairs; mutation calling via MuTect and Indelocator [PMID:23525077](../papers/23525077.md)
 - Whole-exome sequencing (Nimblegen capture, SOLiD or Illumina) of 40 OSCC tumor/normal pairs as part of integrated multi-platform characterization [PMID:23619168](../papers/23619168.md)
 - Whole-exome sequencing (mean 167.50× coverage) on 150 of 200 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA [AML](../cancer_types/AML.md) study; all candidates validated by hybridization-capture deep digital sequencing [PMID:23634996](../papers/23634996.md)
-- Whole-exome sequencing (≥20× depth) on 248 endometrial carcinoma tumor/normal pairs; identified significantly mutated genes including [POLE](../genes/POLE.md), TP53, [PTEN](../genes/PTEN.md), PIK3CA, [CTNNB1](../genes/CTNNB1.md), and [ARID5B](../genes/ARID5B.md) across the four molecular subtypes [PMID:23636398](../papers/23636398.md)
+- Whole-exome sequencing (≥20× depth) on 248 endometrial carcinoma tumor/normal pairs; identified significantly mutated genes including [POLE](../genes/POLE.md), TP53, [PTEN](../genes/PTEN.md), [PIK3CA](../genes/PIK3CA.md), [CTNNB1](../genes/CTNNB1.md), and [ARID5B](../genes/ARID5B.md) across the four molecular subtypes [PMID:23636398](../papers/23636398.md)
 - Used in 55 of 60 ACC tumor/normal pairs (Agilent SureSelect 51MB capture, Illumina HiSeq 2000); mean exome coverage 106x, 92.4% target at ≥10x; identified 710 validated nonsynonymous mutations and established a low mutation rate of 0.31 non-silent events/Mb [PMID:23685749](../papers/23685749.md)
 - Used in 24 ACC tumor/normal pairs with matched normal salivary-gland parenchyma for somatic mutation discovery; identified 312 somatic mutations (mean 13/exome), including novel [SPEN](../genes/SPEN.md), NOTCH1/2, and [FGFR2](../genes/FGFR2.md) mutations [PMID:23778141](../papers/23778141.md)
 - Used in TCGA [CCRCC](../cancer_types/CCRCC.md) multi-platform characterization for somatic mutation discovery in 417 tumors; yielded 36,353 putative somatic mutations; 83% of WES mutation calls confirmed by whole-genome sequencing in 22-patient validation set [PMID:23792563](../papers/23792563.md)
+- Applied to 291 primary [GBM](../cancer_types/GBM.md) tumor/normal pairs using Agilent SureSelect 50 Mb hybrid capture at 138x mean target coverage on Illumina GA2000/HiSeq; identified 71 significantly mutated genes [PMID:24120142](../papers/24120142.md)
+- Applied to 99 TCC bladder tumors with matched normals on Illumina HiSeq 2000 with Agilent SureSelect Human All Exon 50 Mb capture; identified 37 significantly mutated genes including [STAG2](../genes/STAG2.md) [PMID:24121792](../papers/24121792.md)
+- Applied to 29 [MCL](../cancer_types/MCL.md) tumor/normal pairs and 6 MCL cell lines; identified 25 significantly mutated genes including [NOTCH2](../genes/NOTCH2.md), [NSD2](../genes/NSD2.md), [BIRC3](../genes/BIRC3.md), and [ATM](../genes/ATM.md) [PMID:24145436](../papers/24145436.md)
 
 ## Notes
 
@@ -216,5 +219,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

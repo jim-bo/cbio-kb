@@ -8,8 +8,8 @@ tags:
   - neural-stem-progenitor
   - glioma
   - cancer-stem-cell
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # SOX11
@@ -21,6 +21,7 @@ SOX11 (SRY-Box Transcription Factor 11) is a neurodevelopmental transcription fa
 ## Alterations observed in the corpus
 
 - SOX11 is among the 20 highest-ranking genes defining the stem/progenitor program (PC2/PC3) in a single-cell RNA-seq study of 4,347 cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2). SOX11 co-defines this compartment alongside [SOX4](../genes/SOX4.md) and [SOX2](../genes/SOX2.md), and overlaps glioblastoma CSC signatures (hypergeometric P = 1.5×10⁻⁴). [PMID:27806376](../papers/27806376.md)
+- Not directly mutated but used as a key biological stratifier in mantle cell lymphoma; SOX11 expression strongly partitions the mutation landscape — ATM/NSD2/KMT2D/MEF2B mutations enriched in SOX11-positive tumors, while CCND1/TLR2 mutations are enriched in SOX11-negative tumors [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ SOX11 (SRY-Box Transcription Factor 11) is a neurodevelopmental transcription fa
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

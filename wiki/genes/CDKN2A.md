@@ -57,6 +57,10 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Increased expression in copy-number-high endometrial carcinoma cluster; cited as a feature distinguishing serous from endometrioid carcinoma [PMID:23636398](../papers/23636398.md)
 - Truncating frameshift mutation in ACC; 3 additional cases with LOH encompassing CDKN2A without nearby [NFIB](../genes/NFIB.md) involvement, suggesting a CDKN2A role independent of the MYB-NFIB fusion event [PMID:23778141](../papers/23778141.md)
 - Focal 9p21 deletion in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446); enriched in mRNA subtype m3 (53% vs 26%, p<0.0001) [PMID:23792563](../papers/23792563.md)
+- 9p21.3 homozygous deletion in ~24–25% of high-grade bladder tumors [PMID:23897969](../papers/23897969.md)
+- Homozygous deletion in 57.8% of [GBM](../cancer_types/GBM.md) pathway-analysis cohort; mutually exclusive with [TP53](../genes/TP53.md) mutation (p=1.99e-7) [PMID:24120142](../papers/24120142.md)
+- Homozygous focal deletion at 9p21 in 50/99 (50%) of bladder TCC tumors [PMID:24121792](../papers/24121792.md)
+- Only gene with recurrent homozygous deletions in [MCL](../cancer_types/MCL.md) (mantle cell lymphoma); no somatic point mutations detected [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -174,5 +178,17 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

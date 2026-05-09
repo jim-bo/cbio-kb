@@ -3,8 +3,8 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MYCN
@@ -21,10 +21,11 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - MYCN amplification found in 5 of 11 neuroblastoma tumors studied by snRNA-seq; MYCN is highly expressed and significantly over-expressed in the undifferentiated high-risk nC3 cluster; MYCN amplification and/or 11q deletion define the high-risk cases in this cohort [PMID:34493726](../papers/34493726.md).
 - RNAscope ISH in a MYCN-amplified high-risk tumor (K10) showed MYCN co-expressed with [ALK](../genes/ALK.md) and [NTRK2](../genes/NTRK2.md) in discrete intratumoral regions, illustrating spatial heterogeneity at the single-cell level [PMID:34493726](../papers/34493726.md).
 - MYCN amplification was a central focus of neuroblastoma proteomics profiling by LC-MS/MS, revealing downstream protein-level consequences of MYCN-driven transcriptional programs [PMID:22367537](../papers/22367537.md)
-- Amplification (including via chromothripsis) in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); co-occurs with OTX2 amplification [PMID:22722829](../papers/22722829.md)
+- Amplification (including via chromothripsis) in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); co-occurs with [OTX2](../genes/OTX2.md) amplification [PMID:22722829](../papers/22722829.md)
 - Amplified in 5 SHH-subgroup medulloblastoma cases in WGS/WES of 125 tumors (ICGC cohort) [PMID:22832583](../papers/22832583.md)
-- MYCN focal amplification in 6% of SCLC tumors (CLCGP, 29 tumors); mutually exclusive with MYCL and MYC amplification [PMID:22941188](../papers/22941188.md)
-- Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with ATRX loss [PMID:23334666](../papers/23334666.md)
+- MYCN focal amplification in 6% of [SCLC](../cancer_types/SCLC.md) tumors (CLCGP, 29 tumors); mutually exclusive with [MYCL](../genes/MYCL.md) and [MYC](../genes/MYC.md) amplification [PMID:22941188](../papers/22941188.md)
+- Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with [ATRX](../genes/ATRX.md) loss [PMID:23334666](../papers/23334666.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA GBM 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -56,19 +57,22 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22367537](../papers/22367537.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: wiki-cli
-processed_at: 2026-05-07
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # PDGFRA
@@ -24,6 +24,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Somatic mutations in 10% of GISTs in a paired tumor-normal sequencing study [PMID:36593350](../papers/36593350.md)
 - PDGFRA amplification detected in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - Copy number amplification in Basal-like breast cancer; identified as a potential druggable target in TCGA 510-tumor cohort [PMID:23000897](../papers/23000897.md)
+- Focal amplification in 13.1% of [GBM](../cancer_types/GBM.md); intragenic Δ8,9 splice variant and novel Δ2–7 identified; concurrent with [EGFR](../genes/EGFR.md) alteration in 42.4% of PDGFRA-altered cases [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -53,16 +54,19 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

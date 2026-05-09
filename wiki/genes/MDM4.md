@@ -6,7 +6,7 @@ cancer_types:
   - GB
 tags:
   - p53-pathway
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -22,6 +22,7 @@ processed_at: 2026-05-09
 - Copy number amplifications enriched in breast cancer metastases compared to primary tumors [PMID:36585450](../papers/36585450.md)
 - MDM4 amplification detected in breast cancer within the METABRIC cohort of ~2,000 tumors, contributing to p53 pathway dysregulation [PMID:22522925](../papers/22522925.md)
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute amplification of MDM2/CDK4 was identified as a striking structural finding; MDM4 amplification occurs alongside MDM2/CDK4 in the Rb/p53 pathway [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -31,13 +32,16 @@ processed_at: 2026-05-09
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

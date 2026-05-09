@@ -1,0 +1,40 @@
+---
+symbol: CHD6
+aliases: []
+cancer_types: [BLCA]
+tags: [mutation, chromatin-remodeling]
+processed_by: crosslinker
+processed_at: 2026-05-09
+---
+
+# CHD6
+
+## Overview
+
+CHD6 (Chromodomain Helicase DNA Binding Protein 6) is a member of the CHD family of ATP-dependent chromatin remodelers. It is among the large set of chromatin-remodeling genes found to be recurrently mutated in bladder transitional cell carcinoma (TCC), reflecting a broadly disrupted epigenetic landscape in that cancer type.
+
+## Alterations observed in the corpus
+
+- Mutation in bladder TCC as part of a chromatin-remodeling gene cluster altered in 58% of cases [PMID:24121792](../papers/24121792.md)
+
+## Cancer types (linked)
+
+- [BLCA](../cancer_types/BLCA.md): somatic mutation; part of a 58% chromatin-remodeling gene alteration burden in TCC [PMID:24121792](../papers/24121792.md)
+
+## Co-occurrence and mutual exclusivity
+
+- Co-occurs with mutations in [KDM6A](../genes/KDM6A.md), [ARID1A](../genes/ARID1A.md), KMT2A/C/E, [EP300](../genes/EP300.md), [EP400](../genes/EP400.md), [CREBBP](../genes/CREBBP.md), [NCOR1](../genes/NCOR1.md), [SMARCA4](../genes/SMARCA4.md), KDM5A/B as part of the chromatin-remodeling alteration set in TCC [PMID:24121792](../papers/24121792.md)
+
+## Therapeutic relevance
+
+- No direct drug targets reported in the current corpus; chromatin remodeling pathway disruption in TCC is a candidate for epigenetic therapy investigation.
+
+## Open questions
+
+- Precise mutation frequency and functional role of CHD6 in TCC pathogenesis are not yet characterized.
+
+## Sources
+
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

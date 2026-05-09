@@ -235,3 +235,13 @@
 - method: pindel — observed in PMID:23817572 — note: indel and SV detection tool; part of SV ensemble with CREST and DELLY in pilocytic astrocytoma WGS
 - method: tophat-fusion — observed in PMID:23817572 — note: RNA-seq fusion caller; used alongside deFuse in pilocytic astrocytoma cohort
 - method: affymetrix-u133-plus2 — observed in PMID:23817572 — note: Affymetrix U133 Plus 2.0 expression array; 118 pilocytic astrocytomas vs 158 astrocytic tumors
+- drug: saridegib — observed in PMID:23999436 — note: IPI-926, oral Smoothened/Hedgehog pathway inhibitor; combined with gemcitabine in pancreatic ductal adenocarcinoma phase II trial NCT01130142 (halted for inferior survival); not found in OncoKB/cBioPortal canonical drug list
+- method: array-cgh-agilent-1m — observed in PMID:23897969 — note: Agilent 1M human oligonucleotide aCGH for high-resolution SCNA profiling in 97 high-grade BLCA tumors
+- method: rppa — observed in PMID:24120142 — note: reverse-phase protein array (171 antibodies, 214 GBM samples) for pathway-level proteomics in TCGA GBM 2013
+- method: hm27-methylation-array — observed in PMID:24120142 — note: Illumina Infinium HumanMethylation27 BeadChip; 283 GBM samples; used for G-CIMP methylation subclass analysis
+- method: hm450-methylation-array — observed in PMID:24120142 — note: Illumina Infinium HumanMethylation450 BeadChip; 76 GBM samples (113 in re-analysis); higher-density methylation for six-class M1–M6 model
+- method: breakdancer — observed in PMID:24120142 — note: SV caller for WGS; 42 GBM tumor/normal pairs; identified 238 somatic rearrangements including chromothripsis
+- method: bambam — observed in PMID:24120142 — note: paired tumor-normal SV caller; 42 GBM WGS pairs; used in ensemble with BreakDancer
+- method: prada — observed in PMID:24120142 — note: RNA-seq fusion detection pipeline (MD Anderson); 164 GBM transcriptomes; detected EGFR-SEPT14, FGFR3-TACC3, and PDGFRA splice variants
+- method: memo — observed in PMID:24120142 — note: mutual exclusivity modules algorithm; applied to 291 GBM exomes; identified pathway-level mutual exclusivity (CMG p=0.0008, PI3K/PTEN p=0.0047)
+- method: invex — observed in PMID:24120142 — note: Integrated Variant Explorer; used alongside MutSig to identify 71 significantly mutated genes in GBM including novel LZTR1

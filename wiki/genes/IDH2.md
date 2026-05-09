@@ -20,7 +20,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [IDH1](../genes/IDH1.md) or IDH2 mutation status defines the GCIMP phenotype with high DNA methylation in glioma; IDH-mutant gliomas undergo progressive epigenetic demethylation (674 CpG probes, >15% difference) at recurrence, especially after [temozolomide](../drugs/temozolomide.md) and/or radiotherapy, per the GLASS consortium (132 matched initial and recurrent gliomas) [PMID:38117484](../papers/38117484.md).
 - [IDH1](../genes/IDH1.md) or IDH2 mutation was confirmed in all 6 grade II oligodendrogliomas by Sanger sequencing and whole-exome sequencing; IDH mutations co-occur with 1p/19q codeletion confirmed by FISH in all six tumors [PMID:27806376](../papers/27806376.md).
 - IDH2 mutations were identified among recurrent genomic alterations in prostate cancer by integrative genomic profiling [PMID:20579941](../papers/20579941.md)
-- Recurrently mutated in AML; IDH2 mutations co-occur with distinctive CpG methylation patterns; contribute to prognostic stratification of intermediate-risk patients alongside [IDH1](../genes/IDH1.md) and [TET2](../genes/TET2.md) [PMID:23634996](../papers/23634996.md)
+- Recurrently mutated in [AML](../cancer_types/AML.md); IDH2 mutations co-occur with distinctive CpG methylation patterns; contribute to prognostic stratification of intermediate-risk patients alongside [IDH1](../genes/IDH1.md) and [TET2](../genes/TET2.md) [PMID:23634996](../papers/23634996.md)
+- No IDH2 mutations detected in the TCGA 2013 primary [GBM](../cancer_types/GBM.md) cohort (n=291 WES/291 tumor-normal pairs); only [IDH1](../genes/IDH1.md) R132H/G/C mutations were observed (6% of cases), emphasizing IDH2 as non-driver in primary adult GBM [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

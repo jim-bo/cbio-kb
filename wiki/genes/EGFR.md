@@ -47,7 +47,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Amplified and mutated in breast cancer (TCGA, 510 tumors); enriched in the basal-like subtype [PMID:23000897](../papers/23000897.md)
 - Mutated in 3 EAC tumors (p.S447Y, p.S1153I), predicted non-deleterious by Polyphen-2; upstream regulators of [RAC1](../genes/RAC1.md) GEF pathway also recurrently mutated in EAC [PMID:23525077](../papers/23525077.md)
 - Focal high-level amplification in 16% (6/38) of oral squamous cell carcinoma (OSCC); established drug target for [cetuximab](../drugs/cetuximab.md) in HNSCC [PMID:23619168](../papers/23619168.md)
-- Over-expressed in the PI3K/AKT/mTOR alteration module with corresponding phospho-receptor increase in clear-cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)); over-expression and phosphorylation linked to prior [lapatinib](../drugs/lapatinib.md) response data in CCRCC [PMID:23792563](../papers/23792563.md)
+- Over-expressed in the PI3K/AKT/mTOR alteration module with corresponding phospho-receptor increase in clear-cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)); over-expression and phosphorylation linked to prior [lapatinib](../drugs/lapatinib.md) response data in [CCRCC](../cancer_types/CCRCC.md) [PMID:23792563](../papers/23792563.md)
+- Altered in 57% of [GBM](../cancer_types/GBM.md) overall; alterations include amplification, point mutations (extracellular and kinase domain), EGFRvIII (exon 2–7 deletion), C-terminal deletion variants, Δ12–13 (28.7%) and Δ14–15 splice variants, and focal fusions (EGFR-SEPT14, SEC61G-EGFR); diverse co-existing variants within the same tumor pose challenges for single targeted inhibitors [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -141,5 +142,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

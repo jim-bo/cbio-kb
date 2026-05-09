@@ -1,10 +1,10 @@
 ---
 symbol: SETD2
 aliases: []
-cancer_types: [LUAD, NSCLC]
+cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # SETD2
@@ -20,7 +20,8 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - SETD2 mutation was associated with a small but statistically significant increase in TMB (Mann-Whitney P = 2x10^-9) [PMID:39506116](../papers/39506116.md).
 - SETD2 loss-of-function mutations are enriched in ccRCC and associate with a distinct molecular subtype characterized by altered immune infiltration patterns [PMID:22138691](../papers/22138691.md)
 - Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent loss-of-function mutations [PMID:22722201](../papers/22722201.md)
-- Significant mutations identified in LUAD WES cohort (Broad, 183 tumors); classified as epigenetic regulator in the proposed 11th hallmark of epigenetic/RNA deregulation [PMID:22980975](../papers/22980975.md)
+- Significant mutations identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); classified as epigenetic regulator in the proposed 11th hallmark of epigenetic/RNA deregulation [PMID:22980975](../papers/22980975.md)
+- H3K36 methyltransferase; somatic mutation in ccRCC associated with regional DNA hypomethylation at non-promoter CpGs (n=2,557 differentially methylated loci); among top significantly mutated genes (q<0.00001) in clear cell renal cell carcinoma. [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -42,13 +43,16 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

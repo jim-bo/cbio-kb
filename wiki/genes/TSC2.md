@@ -3,8 +3,8 @@ symbol: TSC2
 aliases: [tuberin]
 cancer_types: [HCC, PTAD]
 tags: [tumor-suppressor, mtor-pathway, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # TSC2
@@ -19,6 +19,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - TSC2 mutations were found exclusively in treatment-refractory corticotroph and other pituitary neuroendocrine tumors (PitNETs); not present in benign PitNETs [PMID:38758238](../papers/38758238.md).
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
 - Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
+- Higher TSC2 expression correlated with better survival in TCGA [CCRCC](../cancer_types/CCRCC.md); TSC2 is a PI3K pathway inhibitor and its expression level was linked to pathway alteration status [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -43,10 +44,13 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -30,13 +30,15 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Copy-number analysis of 121 melanoma samples (Broad) performed with Affymetrix SNP 6.0 arrays analyzed with GISTIC; identified focal amplifications and deletions [PMID:22817889](../papers/22817889.md)
 - Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) for copy number profiling to complement WES/WGS somatic alteration discovery [PMID:22941188](../papers/22941188.md)
 - Used in TCGA [LUSC](../cancer_types/LUSC.md) study (178 tumors) for genome-wide copy number analysis informing GISTIC-derived focal amplification/deletion calls [PMID:22960745](../papers/22960745.md)
-- Affymetrix SNP 6.0 arrays used for somatic copy-number analysis across 510 breast tumors; identified [ERBB2](../genes/ERBB2.md), [MYC](../genes/MYC.md), CCND1 focal amplifications [PMID:23000897](../papers/23000897.md)
+- Affymetrix SNP 6.0 arrays used for somatic copy-number analysis across 510 breast tumors; identified [ERBB2](../genes/ERBB2.md), [MYC](../genes/MYC.md), [CCND1](../genes/CCND1.md) focal amplifications [PMID:23000897](../papers/23000897.md)
 - SNP 6.0 arrays used in ETP-ALL study to call copy-number alterations; identified deletions in [ETV6](../genes/ETV6.md), [RB1](../genes/RB1.md), and other tumor suppressors [PMID:23334668](../papers/23334668.md)
 - SNP 6.0 array copy-number analysis of 160 CLL tumors; identified del(13q), del(11q), trisomy 12, and del(17p) as common chromosomal alterations [PMID:23415222](../papers/23415222.md)
 - Used Affymetrix SNP 6.0 arrays on 38 OSCC tumors for somatic copy-number profiling; ASCAT used for allele-specific CN and GISTIC v2 for recurrence calling [PMID:23619168](../papers/23619168.md)
 - Applied Affymetrix SNP 6.0 arrays for somatic DNA copy-number profiling of 57 prostate tumors; SCNA recurrence analyzed across an extended cohort of 199 tumors using GISTIC [PMID:23622249](../papers/23622249.md)
 - Profiled all 200 [AML](../cancer_types/AML.md) tumor/normal pairs by Affymetrix SNP 6.0 for somatic copy-number variant detection [PMID:23634996](../papers/23634996.md)
-- Used Affymetrix SNP 6.0 on 363 endometrial carcinoma samples for SCNA profiling; GISTIC identified recurrent focal amplifications including MYC, ERBB2, [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) [PMID:23636398](../papers/23636398.md)
+- Used Affymetrix SNP 6.0 on 363 endometrial carcinoma samples for SCNA profiling; GISTIC identified recurrent focal amplifications including [MYC](../genes/MYC.md), [ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) [PMID:23636398](../papers/23636398.md)
+- Used in 24-exome adenoid cystic carcinoma (ACC) study for SNP-array copy-number profiling, analyzed with ASCAT v2.1, revealing recurrent losses at 1p36, 6q, 9p, and 12q [PMID:23778141](../papers/23778141.md)
+- Used in TCGA [CCRCC](../cancer_types/CCRCC.md) study for DNA copy-number profiling alongside whole-exome sequencing of 417 tumors, contributing to identification of chromosome 3p loss (91% of samples), 5q gain (67%), and 14q loss (45%) [PMID:23792563](../papers/23792563.md)
 
 ## Notes
 
@@ -102,5 +104,11 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

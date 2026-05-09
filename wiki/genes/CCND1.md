@@ -35,6 +35,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Amplified in breast cancer (TCGA, 510 tumors); CCND1 amplification enriched in luminal B and HER2-enriched subtypes, driving cell-cycle progression via CDK4/6 [PMID:23000897](../papers/23000897.md)
 - Focal high-level amplification in 22% (8/38) of OSCC; strongly correlated with gene expression (p=5.66e-9); combined with [CDKN2A](../genes/CDKN2A.md) deletion yields cell-cycle alteration in 94% of tumors [PMID:23619168](../papers/23619168.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
+- HIF2A cooperates with [PAX8](../genes/PAX8.md) to upregulate CCND1 (cyclin D1) in ccRCC, as cited in the context of proximal tubule dedifferentiation and VHL-null proliferation [PMID:23797736](../papers/23797736.md)
 
 ## Cancer types (linked)
 
@@ -94,5 +95,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23797736](../papers/23797736.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

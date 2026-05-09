@@ -40,6 +40,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ARID1A identified among recurrently mutated chromatin-remodeling genes [PMID:23334666](../papers/23334666.md)
 - SWI/SNF and broader chromatin-remodeling mutations (including ARID1A, [ARID2](../genes/ARID2.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) present in 24% of EACs ([esca_broad](../datasets/esca_broad.md) cohort, 145 tumors) [PMID:23525077](../papers/23525077.md)
 - High mutation rate in non-serous endometrial carcinoma subgroups ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); decreased protein expression by RPPA consistent with inactivating mutations; differential frequencies across POLE-ultramutated, MSI, and copy-number-low subtypes [PMID:23636398](../papers/23636398.md)
+- Single somatic mutation observed in adenoid cystic carcinoma (ACC) WES cohort (n=60); classified as SWI/SNF complex alteration [PMID:23685749](../papers/23685749.md)
+- Co-occurs in HotNet PBAF subnetwork with [PBRM1](../genes/PBRM1.md) and [SMARCA4](../genes/SMARCA4.md) in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -115,5 +117,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

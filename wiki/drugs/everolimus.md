@@ -5,8 +5,8 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # everolimus
@@ -21,7 +21,8 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Clinically actionable mTOR pathway mutations ([TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md): 18%, [PIK3CA](../genes/PIK3CA.md): 8%) were identified by cfDNA in 37% of advanced [HCC](../cancer_types/HCC.md) patients, supporting cfDNA-guided enrollment in everolimus trials [PMID:37769223](../papers/37769223.md).
 - In a PDTO functional screen of 92 sarcoma specimens, osteosarcoma ([OS](../cancer_types/OS.md)) PDTOs were significantly more sensitive than the pan-sarcoma average to everolimus (p=0.012). Chordoma ([CHDM](../cancer_types/CHDM.md)) PDTOs were significantly less sensitive to everolimus (p=0.022). Tumors with prior systemic therapy were more sensitive to everolimus than treatment-naïve specimens (p=0.018). Everolimus is among the NCCN-listed top-five regimens for osteosarcoma observed in the screen [PMID:39305899](../papers/39305899.md).
 - In the AURORA US Metastasis Project, metastatic breast cancer treatment context included multiple therapy lines; everolimus-targeted mTOR/PI3K pathway was implicated through [PIK3CA](../genes/PIK3CA.md) mutations (13%) detected across primary and metastatic paired specimens [PMID:36585450](../papers/36585450.md)
-- mTOR pathway mutations (PTEN, TSC2, PIK3CA) in 14% of PanNETs provide a genetic rationale for stratifying patients for everolimus (RAD-001) therapy; RADIANT-3 trial showed increased progression-free survival in advanced PanNET [PMID:21252315](../papers/21252315.md)
+- mTOR pathway mutations ([PTEN](../genes/PTEN.md), [TSC2](../genes/TSC2.md), [PIK3CA](../genes/PIK3CA.md)) in 14% of PanNETs provide a genetic rationale for stratifying patients for everolimus (RAD-001) therapy; RADIANT-3 trial showed increased progression-free survival in advanced PanNET [PMID:21252315](../papers/21252315.md)
+- PI3K/AKT/mTOR pathway altered in ~28% of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) tumors in the TCGA cohort; the authors nominate this pathway as a therapeutic target citing prior trials of everolimus in advanced RCC [PMID:23792563](../papers/23792563.md).
 
 ## Resistance mechanisms
 
@@ -37,10 +38,8 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:39305899](../papers/39305899.md)
-
 - [PMID:36585450](../papers/36585450.md) — Fougner et al. 2023, AURORA US; [PIK3CA](../genes/PIK3CA.md) mutations across primary/metastatic paired breast cancer specimens relevant to mTOR pathway targeting.
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:21252315](../papers/21252315.md)
+- [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, nominating everolimus as a therapeutic strategy in advanced RCC.
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -5,8 +5,8 @@ drug_class: dual EGFR/HER2 tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, tki, egfr, her2]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # lapatinib
@@ -19,8 +19,9 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 
 - In HER2+ OE19 (esophageal) and HER2+ NCI-N87 (gastric) cancer cell viability assays, lapatinib was used as a dual EGFR/HER2 TKI comparator; T-DM1 was more potent than lapatinib at sub-nanomolar concentrations in HER2+ cells, demonstrating that cytotoxic payload delivery via ADC surpasses receptor signal inhibition in this context [PMID:27698471](../papers/27698471.md).
 - Lapatinib represents the ErbB signal-inhibition strategy that the paper argues is suboptimal due to bypass-pathway resistance (downstream signaling via alternate ErbB members, PI3K/RAS pathways), which the ADC approach circumvents [PMID:27698471](../papers/27698471.md).
-- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
+- Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via [elastic-net](../methods/elastic-net.md) regression [PMID:22460905](../papers/22460905.md)
 - NCI-60 CellMiner pharmacogenomics analysis linked EGFR/ERBB2 pathway activity to lapatinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
+- [EGFR](../genes/EGFR.md) over-expression and phosphorylation in the PI3K/AKT/mTOR alteration module in clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) was linked to prior lapatinib response data (Ravaud et al. 2008 phase III trial) in this cancer type [PMID:23792563](../papers/23792563.md).
 
 ## Resistance mechanisms
 
@@ -34,11 +35,8 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 ## Sources
 
 - [PMID:27698471](../papers/27698471.md)
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22802077](../papers/22802077.md)
+- [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; EGFR over-expression in the PI3K/AKT/mTOR alteration module linked to prior lapatinib phase III trial data in this cancer type.
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*

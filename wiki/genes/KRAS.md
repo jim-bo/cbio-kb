@@ -58,7 +58,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Novel CLL driver candidate; mutations at highly conserved sites identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 - Mutated in 5/145 (3%) of esophageal adenocarcinomas (EAC); 3 mutations at canonical p.G12 plus p.K117N (known transforming allele); KRAS/BRAF pathway mutations are uncommon in EAC contrasting with colorectal cancer [PMID:23525077](../papers/23525077.md)
 - Part of the non-FLT3 activated signaling gene subgroup in [AML](../cancer_types/AML.md) (with [KIT](../genes/KIT.md), [NRAS](../genes/NRAS.md), [PTPN11](../genes/PTPN11.md)); contributes to the 59% signaling-pathway prevalence; activating mutations also implicated in alternative WNT/β-catenin activation in endometrial cancer (53% in POLE-ultramutated subgroup; mutually exclusive with [CTNNB1](../genes/CTNNB1.md) and [SOX17](../genes/SOX17.md)) [PMID:23634996](../papers/23634996.md)
-- Mutated in 53% of POLE-ultramutated endometrial tumors; activating mutations implicated in WNT/β-catenin pathway activation; mutually exclusive with CTNNB1 and SOX17; molecular profiling of KRAS status contributed to reclassification of histologically ambiguous high-grade endometrial cases [PMID:23636398](../papers/23636398.md)
+- Mutated in 53% of POLE-ultramutated endometrial tumors; activating mutations implicated in WNT/β-catenin pathway activation; mutually exclusive with [CTNNB1](../genes/CTNNB1.md) and [SOX17](../genes/SOX17.md); molecular profiling of KRAS status contributed to reclassification of histologically ambiguous high-grade endometrial cases [PMID:23636398](../papers/23636398.md)
+- Non-hotspot compound mutations on the same allele in 2 pilocytic astrocytoma cases (E63K/R73M; L19F/Q22K), distinct from classical codon 12/13/61 hotspots; functional significance remains to be characterized [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -82,7 +83,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 ## Therapeutic relevance
 
-- ctDNA-guided matching to targeted therapy in [NSCLC](../cancer_types/NSCLC.md) (including KRAS-directed regimens) yielded OS benefit vs untreated ctDNA-positive patients (HR 0.63, 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
+- ctDNA-guided matching to targeted therapy in [NSCLC](../cancer_types/NSCLC.md) (including KRAS-directed regimens) yielded [OS](../cancer_types/OS.md) benefit vs untreated ctDNA-positive patients (HR 0.63, 95% CI 0.52–0.76, P<0.001) [PMID:36357680](../papers/36357680.md).
 - RAS-mut predominant MAAP shows 50% first-line chemotherapy response vs 6% in GNAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
 
 ## Open questions
@@ -186,5 +187,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

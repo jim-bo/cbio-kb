@@ -3,8 +3,8 @@ symbol: MGA
 aliases: []
 cancer_types: [LUAD]
 tags: [myc-pathway, metastasis]
-processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MGA
@@ -16,7 +16,8 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 ## Alterations observed in the corpus
 
 - Altered more often in [LUAD](../cancer_types/LUAD.md) metastases than in matched primaries [PMID:37084736](../papers/37084736.md).
-- High-risk small bowel [GIST](../cancer_types/GIST.md) class in the elastic-net Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) [PMID:37477937](../papers/37477937.md).
+- High-risk small bowel [GIST](../cancer_types/GIST.md) class in the [elastic-net](../methods/elastic-net.md) Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) [PMID:37477937](../papers/37477937.md).
+- Mutation observed in ACC; MGA is a MYB-pathway gene [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - [PMID:37084736](../papers/37084736.md)
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

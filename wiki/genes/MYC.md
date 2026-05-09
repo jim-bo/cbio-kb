@@ -44,12 +44,13 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Amplification at 8q24 in colorectal cancer (276-tumor TCGA CRC cohort); transcriptional targets universally altered per PARADIGM pathway analysis [PMID:22810696](../papers/22810696.md)
 - MYC broad amplicon on chromosome 8q in 23% (17/74) of colorectal cancer tumors [PMID:22895193](../papers/22895193.md)
 - MYC focal amplification in [SCLC](../cancer_types/SCLC.md) (rare, 1 case); mutually exclusive with [MYCL](../genes/MYCL.md) and [MYCN](../genes/MYCN.md) amplification (CLCGP, 29 tumors) [PMID:22941188](../papers/22941188.md)
-- MYC copy-number amplification identified in SCLC (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- MYC copy-number amplification identified in [SCLC](../cancer_types/SCLC.md) (JHU WES/WGS, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - MYC amplification identified as a recurrent somatic copy-number alteration in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - MYC pathway alterations identified in lung adenocarcinoma (Broad WES, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Copy-number amplification across breast cancer subtypes; hyperactivation characteristic of Basal-like breast cancer (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
 - Focal amplification observed in ≥5% of OSCC tumors (8q gain); part of the mitogenic signaling pathway altered in 63% of OSCC tumors (40-tumor MD Anderson cohort) [PMID:23619168](../papers/23619168.md)
 - Focal amplification at 8q24.12 in the copy-number-high (serous-like) cluster-4 endometrial carcinoma subgroup, which shares molecular features with high-grade serous ovarian carcinoma (TCGA 373-tumor cohort) [PMID:23636398](../papers/23636398.md)
+- Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -152,5 +153,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,7 +3,7 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -24,6 +24,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 - Recurrently mutated in [AML](../cancer_types/AML.md); mutant IDH1 samples show distinctive CpG methylation gains versus normal CD34+CD38− cells; IDH1/IDH2 mutations add prognostic value for intermediate-risk patients beyond current classification schemes [PMID:23634996](../papers/23634996.md)
+- IDH1 R132H hotspot mutation observed in 1 ACC tumor (catalytic-domain hotspot) [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

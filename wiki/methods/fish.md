@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -29,6 +29,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used to validate copy-number alterations and structural rearrangements in pediatric medulloblastoma cases (ICGC, n=125); confirmed chromosome gains and fusion gene events [PMID:22832583](../papers/22832583.md)
 - Used in CLCGP [SCLC](../cancer_types/SCLC.md) study (29 tumors) to validate focal amplifications of oncogenes including [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) identified by WGS [PMID:22941188](../papers/22941188.md)
 - Used fluorescence in situ hybridization (FISH) to validate ETS gene fusions ([ETV1](../genes/ETV1.md) and [ERG](../genes/ERG.md)) in prostate tumors alongside dRanger WGS rearrangement calling [PMID:23622249](../papers/23622249.md)
+- Used in adenoid cystic carcinoma study (n=60 tumor/normal pairs) to detect MYB-NFIB translocations on tissue microarrays via 3-color BAC probes; confirmed fusion in 57% (34/60) of cases [PMID:23685749](../papers/23685749.md)
+- Used in ACC exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
 
 ## Notes
 
@@ -63,3 +65,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

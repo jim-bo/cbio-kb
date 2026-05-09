@@ -4,7 +4,7 @@ aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-09
 ---
 
 # NTRK2
@@ -21,6 +21,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [NTRK1](../genes/NTRK1.md) and NTRK2 are confirmed as mutually exclusive outcome biomarkers at the single-cell level; NTRK2 high/NTRK1 low identifies the high-risk undifferentiated identity [PMID:34493726](../papers/34493726.md).
 - NTRK2 listed as an actionable fusion target within NTRK1/NTRK2/NTRK3 panel evaluated in the 194-specimen UCLA sarcoma PDTO platform; FISH-negativity for [ETV6](../genes/ETV6.md) in SARC0127 led to reclassification away from [IFS](../cancer_types/IFS.md) (which canonically carries [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion). [PMID:39305899](../papers/39305899.md)
 - Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; co-occurs with [FGFR4](../genes/FGFR4.md) and [PDGFRA](../genes/PDGFRA.md) mutations. [PMID:18948947](../papers/18948947.md)
+- Two novel kinase-domain-retaining fusions identified in pilocytic astrocytoma: [QKI](../genes/QKI.md):NTRK2 and [NACC2](../genes/NACC2.md):NTRK2 (3 non-cerebellar samples); 5' partners contribute dimerization domains predicted to confer ligand-independent activation; NTRK2 identified as a rational therapeutic target alongside [FGFR1](../genes/FGFR1.md) inhibition [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -33,7 +34,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 
 ## Therapeutic relevance
 
-- NTRK2/TRKB is a candidate therapeutic target in high-risk neuroblastoma; NTRK2 vs NTRK1 expression ratio at the single-cell level provides a transcriptional basis for the established clinical dichotomy [PMID:34493726](../papers/34493726.md).
+- NTRK2/TRKB is a candidate therapeutic target in high-risk neuroblastoma; NTRK2 vs [NTRK1](../genes/NTRK1.md) expression ratio at the single-cell level provides a transcriptional basis for the established clinical dichotomy [PMID:34493726](../papers/34493726.md).
 - The authors speculate that postnatally arising TRKB+/CLDN11+ cholinergic progenitors could be the cell-of-origin for high-risk neuroblastoma in older children, reframing target discovery away from SCP-based models [PMID:34493726](../papers/34493726.md).
 
 ## Open questions
@@ -46,7 +47,10 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

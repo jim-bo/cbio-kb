@@ -3,8 +3,8 @@ symbol: HSPG2
 aliases: [perlecan]
 cancer_types: [THAP]
 tags: [cell-adhesion, extracellular-matrix, anaplastic-thyroid]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # HSPG2
@@ -16,6 +16,7 @@ HSPG2 (Perlecan) encodes a heparan sulfate proteoglycan component of the extrace
 ## Alterations observed in the corpus
 
 - HSPG2 is a cell-adhesion gene with frequent alterations in anaplastic thyroid carcinoma (ATC) in the GATCI study (n=141 WES/WGS); implicated in tumor cell migration and invasion alongside [HMCN1](../genes/HMCN1.md) [PMID:38412093](../papers/38412093.md).
+- Recurrent mutation in 7% of adenoid cystic carcinoma (ACC) samples; HSPG2 encodes perlecan, a basement-membrane proteoglycan that modulates FGF signaling [PMID:23685749](../papers/23685749.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ HSPG2 (Perlecan) encodes a heparan sulfate proteoglycan component of the extrace
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

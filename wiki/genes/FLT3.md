@@ -20,6 +20,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - Focal copy-number loss on chromosome 13 in anaplastic thyroid carcinoma (ATC) [PMID:38412093](../papers/38412093.md).
 - Activating mutations (ITD and kinase domain) detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); FLT3 alterations enriched in hyperdiploid B-ALL [PMID:23334668](../papers/23334668.md)
 - Mutated in 56/200 (28%) of [AML](../cancer_types/AML.md) cases; part of the activated-signaling category; mutually exclusive with other tyrosine kinases/RAS-family genes; co-occurs with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) [PMID:23634996](../papers/23634996.md)
+- FLT3 internal tandem duplications (ITDs) in [AML](../cancer_types/AML.md) serve as the conceptual parallel for the [FGFR1](../genes/FGFR1.md) kinase-domain ITD identified in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

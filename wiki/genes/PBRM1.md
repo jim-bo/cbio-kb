@@ -20,6 +20,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 and [ARID2](../genes/ARID2.md) (SWI/SNF complex members) were mutated in dMMR/MSI-H gynecologic cancers treated with [nivolumab](../drugs/nivolumab.md); no significant difference in mutation rates was observed between responders and non-responders [PMID:38653864](../papers/38653864.md).
 - Loss-of-function mutations in PBRM1 define a molecular subtype of ccRCC associated with distinct immune infiltration and immunotherapy response patterns [PMID:22138691](../papers/22138691.md)
 - Mutated as part of SWI/SNF and broader chromatin-remodeling alterations present in 24% of esophageal adenocarcinomas (EAC), alongside [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [SMARCA4](../genes/SMARCA4.md), and [JARID2](../genes/JARID2.md) [PMID:23525077](../papers/23525077.md)
+- Significantly mutated gene (SMG) in clear cell renal cell carcinoma (q<0.00001); SWI/SNF (PBAF) subunit enriched in m1 mRNA subtype (39% vs 27%); co-occurs in HotNet PBAF subnetwork with [ARID1A](../genes/ARID1A.md) and [SMARCA4](../genes/SMARCA4.md) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -41,6 +41,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Mutated in lung adenocarcinoma WES study (Broad, 183 tumors) [PMID:22980975](../papers/22980975.md)
 - Mutated in EAC as part of the beta-catenin pathway, which is altered in only 9% of EACs; an AXIN1-GALNT7 fusion identified by WGS in one tumor [PMID:23525077](../papers/23525077.md)
 - Mutated in 52% of copy-number-low MSS endometrioid endometrial carcinoma; defines this molecular subgroup; mutually exclusive with [KRAS](../genes/KRAS.md) and [SOX17](../genes/SOX17.md) mutations [PMID:23636398](../papers/23636398.md)
+- Highlighted in TieDIE/focal-deletion analyses as a downstream pathway and SCNA feature in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
 
 ## Cancer types (linked)
 
@@ -110,5 +111,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

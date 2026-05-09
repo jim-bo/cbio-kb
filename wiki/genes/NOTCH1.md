@@ -3,7 +3,7 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -28,6 +28,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 truncating mutations (8/17 loss-of-function) in lung squamous cell carcinoma (TCGA, 178 tumors); part of 44% squamous differentiation pathway alteration rate [PMID:22960745](../papers/22960745.md)
 - Recurrently mutated CLL driver gene identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 - Mutated in 9% of OSCC primary tumors and in 16/44 HNSCC cell lines (frameshift, nonsense, missense); functions as tumor suppressor — activated NOTCH1 (ICN1) induced G1 arrest, p21 induction, senescence, and inhibited xenograft growth in 5 HNSCC cell lines (40-tumor MD Anderson cohort) [PMID:23619168](../papers/23619168.md)
+- NOTCH1 missense (3) and nonsense (1) mutations detected in 5% of ACC cases; Notch-pathway activation supported by GSEA trend [PMID:23685749](../papers/23685749.md)
+- NOTCH1 missense p.F1702S and frameshift p.Y550fs*81 detected in ACC exome sequencing; functional direction (activating vs. loss-of-function per HNSCC) unresolved from mutation pattern alone [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +80,9 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

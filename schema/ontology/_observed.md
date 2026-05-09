@@ -147,6 +147,7 @@
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
+- drug: belzutifan — observed in PMID:23797736 — note: HIF2A (EPAS1) inhibitor; supports early use in VHL disease to prevent expansion of Vhl-null renal proximal tubular cancer precursors
 - drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM
 - drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1
 - drug: lapatinib — observed in PMID:27698471 — note: dual EGFR/HER2 TKI; comparator in HER2+ cell viability assays vs T-DM1
@@ -224,3 +225,13 @@
 - drug: pertuzumab — observed in PMID:23000897 — note: anti-HER2 antibody targeting HER2-HER3 heterodimer; used in combination with trastuzumab for HER2+ breast cancer
 - drug: gdc-0941 — observed in PMID:23334668 — note: PI3K inhibitor (pictilisib); inhibited proliferation of near haploid and low hypodiploid ALL xenografts ex vivo
 - drug: bez235 — observed in PMID:23334668 — note: dual PI3K/mTOR inhibitor (dactolisib); inhibited proliferation of all hypodiploid ALL tumors tested ex vivo
+- method: annovar — observed in PMID:23817572 — note: variant annotation tool used for pilocytic astrocytoma WGS cohort; not in cBioPortal gene panel ontology
+- method: crest — observed in PMID:23685749,23817572 — note: SV caller using soft-clipped reads; used in ACC and pilocytic astrocytoma WGS studies
+- method: defuse — observed in PMID:23817572 — note: RNA-seq fusion gene discovery tool; used in ICGC PedBrain pilocytic astrocytoma study
+- method: delly — observed in PMID:23817572 — note: SV detection tool (deletions, inversions, translocations); used in pilocytic astrocytoma WGS
+- method: genome-music — observed in PMID:23817572 — note: Genome MuSiC tool for significantly mutated genes; applied in pilocytic astrocytoma WGS study
+- method: mate-pair-seq — observed in PMID:23817572 — note: long-insert paired-end sequencing for SV detection; 68/96 pilocytic astrocytoma cases
+- method: oncotator — observed in PMID:23817572 — note: Broad Institute cancer variant annotation tool; applied in pilocytic astrocytoma WGS study
+- method: pindel — observed in PMID:23817572 — note: indel and SV detection tool; part of SV ensemble with CREST and DELLY in pilocytic astrocytoma WGS
+- method: tophat-fusion — observed in PMID:23817572 — note: RNA-seq fusion caller; used alongside deFuse in pilocytic astrocytoma cohort
+- method: affymetrix-u133-plus2 — observed in PMID:23817572 — note: Affymetrix U133 Plus 2.0 expression array; 118 pilocytic astrocytomas vs 158 astrocytic tumors

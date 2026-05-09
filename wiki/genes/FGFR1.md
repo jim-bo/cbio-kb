@@ -25,6 +25,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Focal amplification in 6% of [SCLC](../cancer_types/SCLC.md) (29 tumors, CLCGP WES/WGS); potential therapeutic target [PMID:22941188](../papers/22941188.md)
 - Amplified in luminal B and HER2-enriched breast cancer subtypes (TCGA, 510 tumors) [PMID:23000897](../papers/23000897.md)
 - Amplified in the copy-number-high (serous-like) cluster 4 of endometrial cancer [PMID:23636398](../papers/23636398.md)
+- Recurrent kinase-domain hotspot mutations at N546 and K656 (5/96 WGS + 9/45 screening cohort) in pilocytic astrocytoma; plus a ~4.5 kb kinase-domain internal tandem duplication; mutants drive ERK phosphorylation; all FGFR1-mutant tumors extra-cerebellar/midline; same mutations recurred in 3/48 pediatric glioblastomas [PMID:23817572](../papers/23817572.md)
 
 ## Cancer types (linked)
 
@@ -41,7 +42,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 - FGFR1 amplification in RT-OS may represent a targetable alteration, though no FGFR-directed therapy data are reported in this context [PMID:37350195](../papers/37350195.md).
 - The FGFR1 downstream signature (NRP2, LRP4, TGFBI) could stratify bone-metastatic CRPC patients for FGFR-targeted therapy (e.g., [dovitinib](../drugs/dovitinib.md)) [PMID:38488813](../papers/38488813.md).
-- FGFR1 gain in SARC0133 [RMS](../cancer_types/RMS.md) correlated with selective sensitivity to [infigratinib](../drugs/infigratinib.md) but not dovitinib in PDTO screening, illustrating that FGFR inhibitor class is not interchangeable [PMID:39305899](../papers/39305899.md).
+- FGFR1 gain in SARC0133 [RMS](../cancer_types/RMS.md) correlated with selective sensitivity to [infigratinib](../drugs/infigratinib.md) but not [dovitinib](../drugs/dovitinib.md) in PDTO screening, illustrating that FGFR inhibitor class is not interchangeable [PMID:39305899](../papers/39305899.md).
 
 ## Open questions
 
@@ -69,5 +70,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23817572](../papers/23817572.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

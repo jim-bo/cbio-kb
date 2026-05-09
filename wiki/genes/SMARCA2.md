@@ -1,10 +1,10 @@
 ---
 symbol: SMARCA2
 aliases: [BRM]
-cancer_types: [RMS]
+cancer_types: [RMS, ACYC]
 tags: [swi-snf, chromatin-remodeling, relapse]
-processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # SMARCA2
@@ -17,6 +17,8 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 
 - SMARCA2 showed missense mutations and frameshift deletions in 24% of FN-RMS patients at relapse only (not at diagnosis); 4 different point mutations with no protein domain redundancy were identified, suggesting functional inactivation of SWI/SNF remodeling activity [PMID:37730754](../papers/37730754.md).
 - Heterogeneous nuclear expression in both myoepithelial carcinomas (MEC1 and MEC2) by IHC [PMID:36577525](../papers/36577525.md)
+- Missense mutations in Helicase C domain (T1126I, G1132V, G1164W); frequency 5%; SWI/SNF catalytic subunit; identified as a CHASM driver in adenoid cystic carcinoma. [PMID:23685749](../papers/23685749.md)
+- 3 somatic missense mutations in adenoid cystic carcinoma discovery cohort (24 cases); part of the chromatin-remodeling gene cluster mutated in 12/24 cases in ACC; co-mutated with [ARID1A](../genes/ARID1A.md), [KDM6A](../genes/KDM6A.md), [CREBBP](../genes/CREBBP.md), and other SWI/SNF members. [PMID:23778141](../papers/23778141.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +40,13 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23778141](../papers/23778141.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -6,7 +6,7 @@ cancer_types:
 tags:
   - rb-pathway
   - cell-cycle
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -22,6 +22,7 @@ processed_at: 2026-05-09
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member co-altered with [CDK4](../genes/CDK4.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B. [PMID:18948947](../papers/18948947.md)
 - Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); contributes to Rb-pathway dysregulation (overall 78.9% of GBM) [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -31,13 +32,16 @@ processed_at: 2026-05-09
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # CDK4
@@ -26,9 +26,10 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member; co-altered with [CDK6](../genes/CDK6.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B in cell cycle pathway disruption. [PMID:18948947](../papers/18948947.md)
 - CDK4 amplification in 5% of [GBC](../cancer_types/GBC.md) (oncogenic CNA) [PMID:36228155](../papers/36228155.md)
 - Upregulated in basal-like IntClust 10 as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- CDK4 amplification is identified in the Yale melanoma WES cohort of 147 tumors, frequently co-occurring with CCND1 amplification as a mechanism of RB pathway bypass [PMID:22842228](../papers/22842228.md)
-- CDK4 amplification is recurrent in the Broad melanoma WES cohort of 121 tumors, providing an alternative mechanism of RB pathway inactivation alongside CDKN2A deletion [PMID:22817889](../papers/22817889.md)
+- CDK4 amplification is identified in the Yale melanoma WES cohort of 147 tumors, frequently co-occurring with [CCND1](../genes/CCND1.md) amplification as a mechanism of RB pathway bypass [PMID:22842228](../papers/22842228.md)
+- CDK4 amplification is recurrent in the Broad melanoma WES cohort of 121 tumors, providing an alternative mechanism of RB pathway inactivation alongside [CDKN2A](../genes/CDKN2A.md) deletion [PMID:22817889](../papers/22817889.md)
 - Amplified in breast cancer (TCGA, 510 tumors); CDK4 amplification identified as a recurrent copy-number alteration in luminal B and HER2-enriched subtypes, collaborating with CCND1 to drive G1/S progression [PMID:23000897](../papers/23000897.md)
+- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute co-amplification with [MDM2](../genes/MDM2.md) was a striking structural finding; CDK4/CDK6 amplifications contribute to Rb-pathway dysregulation (overall 78.9%) [PMID:24120142](../papers/24120142.md)
 
 ## Cancer types (linked)
 
@@ -56,22 +57,25 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

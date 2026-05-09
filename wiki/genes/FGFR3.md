@@ -29,6 +29,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Listed among mutated genes in 183 [LUAD](../cancer_types/LUAD.md) cases (WES, Broad cohort) [PMID:22980975](../papers/22980975.md)
 - Amplified at 4p16.3 in the copy-number-high (serous-like) cluster 4 of endometrial cancer; this amplification newly reported in endometrial cancer [PMID:23636398](../papers/23636398.md)
 - Noted as background context in pilocytic astrocytoma genomics: FGFR3:[TACC3](../genes/TACC3.md) fusions occur in adult glioblastoma, providing conceptual parallel for kinase-domain fusion biology [PMID:23817572](../papers/23817572.md)
+- Somatic hotspot mutation in 13% of high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)), among the three most prevalent mutations in the cohort ([TP53](../genes/TP53.md) 34%, [PIK3CA](../genes/PIK3CA.md) 18%, FGFR3 13%); part of the MAPK-pathway alteration set occurring in mutually exclusive distribution [PMID:23897969](../papers/23897969.md)
+- Recurrent FGFR3-TACC3 in-frame inversion fusion detected by RNA-seq in 2/164 (1.2%) [GBM](../cancer_types/GBM.md) samples; focal co-amplification of FGFR3/TACC3 in 2.6% of GBM CNA profiles; proposed as a candidate for FGFR inhibitor trials [PMID:24120142](../papers/24120142.md)
+- Recurrent activating point mutations (confirmed TCC driver) plus FGFR3-TACC3 in-frame fusion in 2/42 (5%) bladder tumors by RNA-seq; fusion confirmed by WGS junction-spanning reads; reinforces FGFR3 as a high-value therapeutic target in BLCA [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -79,5 +82,14 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

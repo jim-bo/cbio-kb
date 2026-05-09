@@ -45,6 +45,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA1 mutations enriched in basal-like subtype, associated with triple-negative phenotype and genomic instability [PMID:23000897](../papers/23000897.md)
 - Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
+- Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -58,7 +59,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 ## Co-occurrence and mutual exclusivity
 
-- In HGSOC, BRCA1/2 germline mutations define a subset with HRD; somatic loss via epigenetic silencing contributes to a similar proportion of HRD cases [PMID:39386723](../papers/39386723.md).
+- In [HGSOC](../cancer_types/HGSOC.md), BRCA1/2 germline mutations define a subset with HRD; somatic loss via epigenetic silencing contributes to a similar proportion of HRD cases [PMID:39386723](../papers/39386723.md).
 - In MSI-H/dMMR prostate cancer, elevated BRCA1/2 mutation rates may represent subclonal or passenger events rather than primary drivers [PMID:38949888](../papers/38949888.md).
 
 ## Therapeutic relevance
@@ -108,5 +109,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

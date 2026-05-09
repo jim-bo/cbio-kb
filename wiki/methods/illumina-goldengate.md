@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [methylation]
 processed_by: crosslinker
-processed_at: 2026-05-02
+processed_at: 2026-05-09
 ---
 
 # Illumina GoldenGate
@@ -18,6 +18,7 @@ An assay platform used for high-throughput analysis of DNA methylation or SNP ge
 ## Used by
 
 - Used for DNA methylation profiling across 1,505 CpG sites in 206 glioblastoma cases [PMID:18772890](../papers/18772890.md).
+- Applied to 238 [GBM](../cancer_types/GBM.md) samples for DNA methylation profiling as part of the TCGA GBM multi-platform analysis defining G-CIMP and methylation subclasses M1–M6 [PMID:24120142](../papers/24120142.md)
 
 ## Notes
 
@@ -27,4 +28,7 @@ An assay platform used for high-throughput analysis of DNA methylation or SNP ge
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

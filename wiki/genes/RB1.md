@@ -45,6 +45,9 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
 - RB1 is disrupted by chromoplexy-mediated rearrangement in 2 prostate cancer cases, representing an intermediate-to-late clonal event in the chromoplectic progression path [PMID:23622249](../papers/23622249.md)
 - Discussed as context gene: prior mouse models combining Vhl + Trp53 ± Rb1 inactivation showed dual HIFα dependence for ccRCC tumor formation, consistent with the current single-cell findings on proximal tubule proliferation; RB1 itself is not mutated in the study model. [PMID:23797736](../papers/23797736.md)
+- Mutation/deletion in 15% of high-grade bladder tumors; enriched in high-CNA-burden (P<0.003) and neuroendocrine subsets (50% vs 13%; P=0.01); inversely correlated with CCND1/CCNE1 amplification [PMID:23897969](../papers/23897969.md)
+- Direct mutation/deletion in 7.6% of [GBM](../cancer_types/GBM.md); Rb-pathway dysregulation overall in 78.9% [PMID:24120142](../papers/24120142.md)
+- Confirmed recurrent driver mutation in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -139,5 +142,14 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23797736](../papers/23797736.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

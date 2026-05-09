@@ -48,6 +48,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Amplified in HER2-enriched breast cancer subtype (TCGA, 510 tumors); ERBB2 amplification defines the HER2-enriched intrinsic subtype [PMID:23000897](../papers/23000897.md)
 - Mutated in 5 EAC tumors (kinase-domain p.D769Y ×2 and p.G776V), variants previously reported in other cancers; EAC represents a novel disease context for these alterations [PMID:23525077](../papers/23525077.md)
 - Focally amplified with protein overexpression in 25% of serous/serous-like endometrial tumours; amplification reported in 27% of uterine serous carcinomas, forming basis for HER2-targeted therapy hypothesis; mutually exclusive with [FBXW7](../genes/FBXW7.md) in WNT module analysis [PMID:23636398](../papers/23636398.md)
+- Focal high-level amplification in 6.2% (6/97) of high-grade bladder tumors with corresponding mRNA up-regulation and 3+ HER2 IHC; framed as a validated actionable target analogous to breast/gastroesophageal disease [PMID:23897969](../papers/23897969.md)
+- Focal amplification in bladder TCC [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -74,7 +76,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Neratinib showed 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; [trastuzumab](../drugs/trastuzumab.md) deruxtecan is under investigation [PMID:37643132](../papers/37643132.md).
 - Trastuzumab deruxtecan shows clinical activity in ERBB2-low carcinosarcomas, expanding the therapeutic window [PMID:37651310](../papers/37651310.md).
 - T-DM1 combined with ionizing radiation produced durable tumour control in HER2+ xenografts with a single 0.25 nmol dose + 3 IR fractions; the authors argue for speedy clinical evaluation given T-DM1's existing FDA approval for HER2+ metastatic breast cancer [PMID:27698471](../papers/27698471.md).
-- In metastatic urothelial carcinoma, ERBB2 cfDNA alterations independently predict shorter [OS](../cancer_types/OS.md) on cisplatin-based chemotherapy (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019); HER2-directed ADCs (trastuzumab deruxtecan, disitamab vedotin — with mUC response rates 33–83%) are flagged as therapeutic options for ERBB2-altered mUC [PMID:40256659](../papers/40256659.md).
+- In metastatic urothelial carcinoma, ERBB2 cfDNA alterations independently predict shorter [OS](../cancer_types/OS.md) on cisplatin-based chemotherapy (multivariable HR 1.64, 95% CI 1.08–2.49; p=0.019); HER2-directed ADCs ([trastuzumab](../drugs/trastuzumab.md) deruxtecan, disitamab vedotin — with mUC response rates 33–83%) are flagged as therapeutic options for ERBB2-altered mUC [PMID:40256659](../papers/40256659.md).
 
 ## Open questions
 
@@ -151,5 +153,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

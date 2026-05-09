@@ -15,7 +15,8 @@ SMC3 encodes structural maintenance of chromosomes protein 3, a core ATPase subu
 
 ## Alterations observed in the corpus
 
-- SMC3 is a recurrent cohesin-complex gene mutated in AML (13% combined cohesin prevalence alongside SMC1A, [RAD21](../genes/RAD21.md), and [STAG2](../genes/STAG2.md)) [PMID:23634996](../papers/23634996.md)
+- SMC3 is a recurrent cohesin-complex gene mutated in [AML](../cancer_types/AML.md) (13% combined cohesin prevalence alongside [SMC1A](../genes/SMC1A.md), [RAD21](../genes/RAD21.md), and [STAG2](../genes/STAG2.md)) [PMID:23634996](../papers/23634996.md)
+- Cohesin subunit altered in 2% of transitional cell carcinoma; part of the 32% SCCS-pathway alteration burden defining bladder cancer as the first solid tumor with predominant cohesin lesions [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ SMC3 encodes structural maintenance of chromosomes protein 3, a core ATPase subu
 
 ## Co-occurrence and mutual exclusivity
 
-- SMC3 co-mutated with other cohesin subunits (SMC1A, RAD21, STAG2) in AML; the cohesin group is mutually exclusive of ASXL1 in this cohort [PMID:23634996](../papers/23634996.md)
+- SMC3 co-mutated with other cohesin subunits (SMC1A, [RAD21](../genes/RAD21.md), [STAG2](../genes/STAG2.md)) in AML; the cohesin group is mutually exclusive of [ASXL1](../genes/ASXL1.md) in this cohort [PMID:23634996](../papers/23634996.md)
 
 ## Therapeutic relevance
 
@@ -36,5 +37,8 @@ SMC3 encodes structural maintenance of chromosomes protein 3, a core ATPase subu
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

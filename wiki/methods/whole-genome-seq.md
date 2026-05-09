@@ -49,6 +49,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Whole-genome sequencing (mean 30.54× coverage) on 50 [AML](../cancer_types/AML.md) tumor/normal-skin pairs in TCGA [AML](../cancer_types/AML.md) study; VAF-based clonal architecture analysis showed >50% of tumors had ≥1 subclone [PMID:23634996](../papers/23634996.md)
 - Applied in 5 of 60 ACC tumor/normal pairs (Illumina HiSeq 2000, mean coverage 37x) for structural variant detection using CREST; complemented whole-exome sequencing for comprehensive somatic alteration characterization [PMID:23685749](../papers/23685749.md)
 - Applied to 96 pediatric pilocytic astrocytoma tumor/blood pairs (Illumina HiSeq2000, BWA + samtools + Picard, hg19); mean somatic mutation rate <0.1/Mb; PINDEL, CREST, and DELLY used for SV detection revealing [KIAA1549](../genes/KIAA1549.md):[BRAF](../genes/BRAF.md) fusions and novel BRAF/NTRK2 fusions [PMID:23817572](../papers/23817572.md)
+- Applied to 42 deep-coverage [GBM](../cancer_types/GBM.md) tumor/normal pairs; detected 238 high-confidence somatic rearrangements including [EGFR](../genes/EGFR.md) intragenic events and one case of chromothripsis; identified [TERT](../genes/TERT.md) promoter mutations in 84% [PMID:24120142](../papers/24120142.md)
+- Applied at fourfold mean haploid coverage in 99 [BLCA](../cancer_types/BLCA.md) tumors; WGS mate-pair reads confirmed FGFR3-TACC3 fusion junctions detected by RNA-seq [PMID:24121792](../papers/24121792.md)
+- Applied to 4 [MCL](../cancer_types/MCL.md) tumor/normal pairs; detected ~3,700 somatic mutations per tumor (1.2/Mb) and identified kataegis foci in 3/4 cases around the t(11;14) breakpoint and Ig loci [PMID:24145436](../papers/24145436.md)
 
 ## Notes
 
@@ -137,5 +140,14 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

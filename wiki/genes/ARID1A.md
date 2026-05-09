@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -42,6 +42,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - High mutation rate in non-serous endometrial carcinoma subgroups ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); decreased protein expression by RPPA consistent with inactivating mutations; differential frequencies across POLE-ultramutated, MSI, and copy-number-low subtypes [PMID:23636398](../papers/23636398.md)
 - Single somatic mutation observed in adenoid cystic carcinoma (ACC) WES cohort (n=60); classified as SWI/SNF complex alteration [PMID:23685749](../papers/23685749.md)
 - Co-occurs in HotNet PBAF subnetwork with [PBRM1](../genes/PBRM1.md) and [SMARCA4](../genes/SMARCA4.md) in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
+- Chromatin-remodeling gene mutated in transitional cell carcinoma (TCC) of the bladder; mutations in ARID1A/ARID4A subgroup contribute to the 58% prevalence of chromatin-remodeling gene alterations in bladder cancer [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -125,3 +126,6 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

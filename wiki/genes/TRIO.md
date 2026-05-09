@@ -15,11 +15,12 @@ processed_at: 2026-05-09
 
 ## Overview
 
-TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that activates both [RAC1](../genes/RAC1.md) and [RHOA](../genes/RHOA.md), regulating cytoskeletal dynamics, cell migration, and invasion. In esophageal adenocarcinoma (EAC), TRIO is one of several upstream RAC1-regulatory genes recurrently mutated, consistent with convergent selection on the RAC1 signaling axis in this cancer type.
+TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that activates both [RAC1](../genes/RAC1.md) and [RHOA](../genes/RHOA.md), regulating cytoskeletal dynamics, cell migration, and invasion. In esophageal adenocarcinoma (EAC), TRIO is one of several upstream RAC1-regulatory genes recurrently mutated, consistent with convergent selection on the [RAC1](../genes/RAC1.md) signaling axis in this cancer type.
 
 ## Alterations observed in the corpus
 
 - Recurrently mutated in EAC (145-tumor WES cohort); identified as one of several upstream regulators of RAC1 alongside [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md), [DOCK2](../genes/DOCK2.md), and [ELMO1](../genes/ELMO1.md) [PMID:23525077](../papers/23525077.md).
+- TRIO recurrent focal amplification detected in TCC bladder cancer [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +28,7 @@ TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-altered with TIAM1, VAV2, ECT2, DOCK2, and ELMO1 as upstream regulators of RAC1; PAK1 amplification at 11q13 represents the downstream effector hit in the same pathway [PMID:23525077](../papers/23525077.md).
+- Co-altered with [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md), [DOCK2](../genes/DOCK2.md), and [ELMO1](../genes/ELMO1.md) as upstream regulators of RAC1; [PAK1](../genes/PAK1.md) amplification at 11q13 represents the downstream effector hit in the same pathway [PMID:23525077](../papers/23525077.md).
 
 ## Therapeutic relevance
 
@@ -40,5 +41,8 @@ TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that
 ## Sources
 
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -4,8 +4,8 @@ oncotree_code: GBM
 main_type: CNS/Brain Cancer
 parent: DIFG
 tags: []
-processed_by: entity-page-writer
-processed_at: 2025-05-15
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Glioblastoma Multiforme (GBM)
@@ -37,6 +37,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
     - **[CDKN2A/B](../genes/CDKN2A.md)** (p16INK4A/CDKN2B): Homozygous deletion of the locus is found in 52% of cases [PMID:18772890](../papers/18772890.md).
     - **[CDK4](../genes/CDK4.md)**: Amplified in 18% of cases [PMID:18772890](../papers/18772890.md).
     - **[RB1](../genes/RB1.md)**: Mutated or deleted in 11% of cases [PMID:18772890](../papers/18772890.md).
+- TCGA 2013 multi-platform analysis of 543 primary GBM identified 71 significantly mutated genes; [EGFR](../genes/EGFR.md) altered in 57% (rearrangements, EGFRvIII, novel splice variants); [TERT](../genes/TERT.md) promoter mutations in 84% of deep-coverage cases; [MGMT](../genes/MGMT.md) methylation predicted TMZ response only in classical subtype; proneural survival advantage attributable to G-CIMP epigenotype [PMID:24120142](../papers/24120142.md).
 
 ## Subtypes
 
@@ -52,4 +53,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:18772890](../papers/18772890.md) — Cancer Genome Atlas Research Network. Comprehensive genomic characterization defines human glioblastoma genes and core pathways. *Nature*. 2008.
 - [PMID:28872634](../papers/28872634.md) — Bakas S, et al. Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features. *Sci Data*. 2017.
 
-*This page was processed by **entity-page-writer** on **2025-05-15**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

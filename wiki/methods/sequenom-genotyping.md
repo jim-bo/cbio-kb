@@ -23,6 +23,7 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 - Sequenom genotyping used for targeted mutation validation in prostate adenocarcinoma WES study [PMID:22610119](../papers/22610119.md)
 - Sequenom mass spectrometric genotyping used to validate [RAC1](../genes/RAC1.md) P29S, [PPP6C](../genes/PPP6C.md), and STK19 hotspot mutations in extension sets of n=59, n=63, and n=175 melanoma samples (Broad cohort) [PMID:22817889](../papers/22817889.md)
 - Sequenom mass-spectrometry genotyping used to validate 25 randomly selected AA>C transversion mutation calls from WGS of esophageal adenocarcinomas; 100% concordance confirmed [PMID:23525077](../papers/23525077.md)
+- Used for [KRAS](../genes/KRAS.md) mutation genotyping in colorectal cancer patient samples [PMID:23897969](../papers/23897969.md)
 
 ## Notes
 
@@ -46,5 +47,8 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

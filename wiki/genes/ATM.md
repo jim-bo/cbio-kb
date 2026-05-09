@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -34,6 +34,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Recurrently mutated in CLL (Broad WES, 160 tumors); ATM mutations observed as part of the significantly mutated gene landscape in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
 - Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
 - Missense p.R337C in the kinase domain in ACC (same residue recurrently mutated R337S/H/C in colorectal cancer and B-CLL, supporting oncogenicity) [PMID:23778141](../papers/23778141.md)
+- Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
+- Truncating/functional-domain mutations in 12/29 (41%) WES mantle cell lymphoma ([MCL](../cancer_types/MCL.md)) cases; 55% in SOX11-positive vs 0% SOX11-negative (P=0.023); often biallelic via 11q deletion; early/clonal event marking the SOX11-positive/IGHV-unmutated aggressive MCL subset [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -66,40 +68,46 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -7,32 +7,32 @@
     {
       "id": "papers",
       "label": "Papers",
-      "count": 124
+      "count": 129
     },
     {
       "id": "genes",
       "label": "Genes",
-      "count": 653
+      "count": 679
     },
     {
       "id": "cancer_types",
       "label": "Cancer types",
-      "count": 114
+      "count": 116
     },
     {
       "id": "datasets",
       "label": "Datasets",
-      "count": 129
+      "count": 133
     },
     {
       "id": "drugs",
       "label": "Drugs",
-      "count": 113
+      "count": 114
     },
     {
       "id": "methods",
       "label": "Methods",
-      "count": 120
+      "count": 129
     },
     {
       "id": "themes",
@@ -358,6 +358,36 @@
       "section": "papers",
       "label": "23817572",
       "title": "Recurrent somatic alterations of FGFR1 and NTRK2 in pilocytic astrocytoma"
+    },
+    {
+      "id": "papers/23897969.md",
+      "section": "papers",
+      "label": "23897969",
+      "title": "Prevalence and Co-Occurrence of Actionable Genomic Alterations in High-Grade Bladder Cancer"
+    },
+    {
+      "id": "papers/23999436.md",
+      "section": "papers",
+      "label": "23999436",
+      "title": "New cast for a new era: preclinical cancer drug development revisited"
+    },
+    {
+      "id": "papers/24120142.md",
+      "section": "papers",
+      "label": "24120142",
+      "title": "The Somatic Genomic Landscape of Glioblastoma"
+    },
+    {
+      "id": "papers/24121792.md",
+      "section": "papers",
+      "label": "24121792",
+      "title": "Whole-genome and whole-exome sequencing of bladder cancer identifies frequent alterations in genes involved in sister chromatid cohesion and segregation"
+    },
+    {
+      "id": "papers/24145436.md",
+      "section": "papers",
+      "label": "24145436",
+      "title": "Landscape of somatic mutations and clonal evolution in mantle cell lymphoma"
     },
     {
       "id": "papers/24892406.md",
@@ -918,6 +948,12 @@
       "title": "ARID2"
     },
     {
+      "id": "genes/ARID4A.md",
+      "section": "genes",
+      "label": "ARID4A",
+      "title": "ARID4A"
+    },
+    {
       "id": "genes/ARID5B.md",
       "section": "genes",
       "label": "ARID5B",
@@ -1242,6 +1278,12 @@
       "title": "CCNE1"
     },
     {
+      "id": "genes/CCNE2.md",
+      "section": "genes",
+      "label": "CCNE2",
+      "title": "CCNE2"
+    },
+    {
       "id": "genes/CD24.md",
       "section": "genes",
       "label": "CD24",
@@ -1374,6 +1416,12 @@
       "title": "CHD2"
     },
     {
+      "id": "genes/CHD6.md",
+      "section": "genes",
+      "label": "CHD6",
+      "title": "CHD6"
+    },
+    {
       "id": "genes/CHD7.md",
       "section": "genes",
       "label": "CHD7",
@@ -1444,6 +1492,12 @@
       "section": "genes",
       "label": "COL6A3",
       "title": "COL6A3"
+    },
+    {
+      "id": "genes/CPM.md",
+      "section": "genes",
+      "label": "CPM",
+      "title": "CPM"
     },
     {
       "id": "genes/CREB1.md",
@@ -1590,6 +1644,12 @@
       "title": "DDX3X"
     },
     {
+      "id": "genes/DHFR.md",
+      "section": "genes",
+      "label": "DHFR",
+      "title": "DHFR"
+    },
+    {
       "id": "genes/DICER1.md",
       "section": "genes",
       "label": "DICER1",
@@ -1642,6 +1702,18 @@
       "section": "genes",
       "label": "DOCK7",
       "title": "DOCK7"
+    },
+    {
+      "id": "genes/E2F1.md",
+      "section": "genes",
+      "label": "E2F1",
+      "title": "E2F1"
+    },
+    {
+      "id": "genes/E2F3.md",
+      "section": "genes",
+      "label": "E2F3",
+      "title": "E2F3"
     },
     {
       "id": "genes/ECT2.md",
@@ -1716,6 +1788,12 @@
       "title": "EP300"
     },
     {
+      "id": "genes/EP400.md",
+      "section": "genes",
+      "label": "EP400",
+      "title": "EP400"
+    },
+    {
       "id": "genes/EPAS1.md",
       "section": "genes",
       "label": "EPAS1",
@@ -1774,6 +1852,12 @@
       "section": "genes",
       "label": "ERG",
       "title": "ERG"
+    },
+    {
+      "id": "genes/ESPL1.md",
+      "section": "genes",
+      "label": "ESPL1",
+      "title": "ESPL1"
     },
     {
       "id": "genes/ESR1.md",
@@ -2514,6 +2598,12 @@
       "title": "KDM5A"
     },
     {
+      "id": "genes/KDM5B.md",
+      "section": "genes",
+      "label": "KDM5B",
+      "title": "KDM5B"
+    },
+    {
       "id": "genes/KDM5C.md",
       "section": "genes",
       "label": "KDM5C",
@@ -2536,6 +2626,12 @@
       "section": "genes",
       "label": "KEAP1",
       "title": "KEAP1"
+    },
+    {
+      "id": "genes/KEL.md",
+      "section": "genes",
+      "label": "KEL",
+      "title": "KEL"
     },
     {
       "id": "genes/KIAA1549.md",
@@ -2598,6 +2694,12 @@
       "title": "KMT2D"
     },
     {
+      "id": "genes/KMT2E.md",
+      "section": "genes",
+      "label": "KMT2E",
+      "title": "KMT2E"
+    },
+    {
       "id": "genes/KRAS.md",
       "section": "genes",
       "label": "KRAS",
@@ -2626,6 +2728,12 @@
       "section": "genes",
       "label": "LAG3",
       "title": "LAG3"
+    },
+    {
+      "id": "genes/LANCL2.md",
+      "section": "genes",
+      "label": "LANCL2",
+      "title": "LANCL2"
     },
     {
       "id": "genes/LDB1.md",
@@ -2658,6 +2766,12 @@
       "title": "LRP1B"
     },
     {
+      "id": "genes/LSAMP.md",
+      "section": "genes",
+      "label": "LSAMP",
+      "title": "LSAMP"
+    },
+    {
       "id": "genes/LTO1.md",
       "section": "genes",
       "label": "LTO1",
@@ -2674,6 +2788,12 @@
       "section": "genes",
       "label": "LYN",
       "title": "LYN"
+    },
+    {
+      "id": "genes/LZTR1.md",
+      "section": "genes",
+      "label": "LZTR1",
+      "title": "LZTR1"
     },
     {
       "id": "genes/MACROD2.md",
@@ -2934,6 +3054,12 @@
       "title": "MTOR"
     },
     {
+      "id": "genes/MUC1.md",
+      "section": "genes",
+      "label": "MUC1",
+      "title": "MUC1"
+    },
+    {
       "id": "genes/MUC4.md",
       "section": "genes",
       "label": "MUC4",
@@ -3102,6 +3228,12 @@
       "title": "NFKBIE"
     },
     {
+      "id": "genes/NIPBL.md",
+      "section": "genes",
+      "label": "NIPBL",
+      "title": "NIPBL"
+    },
+    {
       "id": "genes/NKX2-1.md",
       "section": "genes",
       "label": "NKX2-1",
@@ -3130,6 +3262,12 @@
       "section": "genes",
       "label": "NOTCH3",
       "title": "NOTCH3"
+    },
+    {
+      "id": "genes/NPAS3.md",
+      "section": "genes",
+      "label": "NPAS3",
+      "title": "NPAS3"
     },
     {
       "id": "genes/NPM1.md",
@@ -3178,6 +3316,12 @@
       "section": "genes",
       "label": "NSD1",
       "title": "NSD1"
+    },
+    {
+      "id": "genes/NSD2.md",
+      "section": "genes",
+      "label": "NSD2",
+      "title": "NSD2"
     },
     {
       "id": "genes/NSD3.md",
@@ -3526,6 +3670,12 @@
       "section": "genes",
       "label": "PRF1",
       "title": "PRF1"
+    },
+    {
+      "id": "genes/PRIM2.md",
+      "section": "genes",
+      "label": "PRIM2",
+      "title": "PRIM2"
     },
     {
       "id": "genes/PRKCI.md",
@@ -3948,6 +4098,12 @@
       "title": "SDHC"
     },
     {
+      "id": "genes/SEC61G.md",
+      "section": "genes",
+      "label": "SEC61G",
+      "title": "SEC61G"
+    },
+    {
       "id": "genes/SEMA3A.md",
       "section": "genes",
       "label": "SEMA3A",
@@ -4122,6 +4278,12 @@
       "title": "SMO"
     },
     {
+      "id": "genes/SMYD3.md",
+      "section": "genes",
+      "label": "SMYD3",
+      "title": "SMYD3"
+    },
+    {
       "id": "genes/SND1.md",
       "section": "genes",
       "label": "SND1",
@@ -4216,6 +4378,12 @@
       "section": "genes",
       "label": "SPRY2",
       "title": "SPRY2"
+    },
+    {
+      "id": "genes/SPTA1.md",
+      "section": "genes",
+      "label": "SPTA1",
+      "title": "SPTA1"
     },
     {
       "id": "genes/SQSTM1.md",
@@ -4446,6 +4614,12 @@
       "title": "TIAM1"
     },
     {
+      "id": "genes/TLR2.md",
+      "section": "genes",
+      "label": "TLR2",
+      "title": "TLR2"
+    },
+    {
       "id": "genes/TLR4.md",
       "section": "genes",
       "label": "TLR4",
@@ -4602,6 +4776,12 @@
       "title": "USP8"
     },
     {
+      "id": "genes/UTY.md",
+      "section": "genes",
+      "label": "UTY",
+      "title": "UTY"
+    },
+    {
       "id": "genes/VAV2.md",
       "section": "genes",
       "label": "VAV2",
@@ -4624,6 +4804,12 @@
       "section": "genes",
       "label": "VHL",
       "title": "VHL"
+    },
+    {
+      "id": "genes/VOPP1.md",
+      "section": "genes",
+      "label": "VOPP1",
+      "title": "VOPP1"
     },
     {
       "id": "genes/WT1.md",
@@ -4750,6 +4936,12 @@
       "section": "cancer_types",
       "label": "APAD",
       "title": "Appendiceal Adenocarcinoma"
+    },
+    {
+      "id": "cancer_types/APLPMLRARA.md",
+      "section": "cancer_types",
+      "label": "APLPMLRARA",
+      "title": "APL with PML-RARA"
     },
     {
       "id": "cancer_types/ARMS.md",
@@ -5056,6 +5248,12 @@
       "section": "cancer_types",
       "label": "MBL",
       "title": "Medulloblastoma"
+    },
+    {
+      "id": "cancer_types/MCL.md",
+      "section": "cancer_types",
+      "label": "MCL",
+      "title": "Mantle Cell Lymphoma"
     },
     {
       "id": "cancer_types/MCN.md",
@@ -5430,10 +5628,22 @@
       "title": "UC-GENOME (BCAN/HCRN Metastatic Urothelial Carcinoma) 2022"
     },
     {
+      "id": "datasets/blca_bgi.md",
+      "section": "datasets",
+      "label": "blca_bgi",
+      "title": "BGI/UCGC Bladder Cancer 2013 (Guo)"
+    },
+    {
       "id": "datasets/blca_msk_2025.md",
       "section": "datasets",
       "label": "blca_msk_2025",
       "title": "MSK Metastatic Urothelial Carcinoma cfDNA (CALGB 90601, 2025)"
+    },
+    {
+      "id": "datasets/blca_mskcc_solit_2012.md",
+      "section": "datasets",
+      "label": "blca_mskcc_solit_2012",
+      "title": "MSKCC High-Grade Bladder Cancer 2012 (Solit)"
     },
     {
       "id": "datasets/bm_nsclc_mskcc_2023.md",
@@ -5622,6 +5832,12 @@
       "title": "TCGA Glioblastoma Multiforme"
     },
     {
+      "id": "datasets/gbm_tcga_pub2013.md",
+      "section": "datasets",
+      "label": "gbm_tcga_pub2013",
+      "title": "TCGA Glioblastoma 2013 (Publication Freeze)"
+    },
+    {
       "id": "datasets/gist_msk_2022.md",
       "section": "datasets",
       "label": "gist_msk_2022",
@@ -5776,6 +5992,12 @@
       "section": "datasets",
       "label": "mbn_msk_2024",
       "title": "Mature B-Cell Neoplasms (MSK, Blood Advances 2024)"
+    },
+    {
+      "id": "datasets/mcl_idibips_2013.md",
+      "section": "datasets",
+      "label": "mcl_idibips_2013",
+      "title": "IDIBAPS Mantle Cell Lymphoma 2013 (Be\u00e0)"
     },
     {
       "id": "datasets/mds_tokyo_2011.md",
@@ -6726,6 +6948,12 @@
       "title": "sacituzumab govitecan"
     },
     {
+      "id": "drugs/saridegib.md",
+      "section": "drugs",
+      "label": "saridegib",
+      "title": "saridegib"
+    },
+    {
       "id": "drugs/selumetinib.md",
       "section": "drugs",
       "label": "selumetinib",
@@ -6942,6 +7170,18 @@
       "title": "Archer FusionPlex"
     },
     {
+      "id": "methods/array-cgh-agilent-1m.md",
+      "section": "methods",
+      "label": "array-cgh-agilent-1m",
+      "title": "Agilent 1M Human Oligonucleotide aCGH"
+    },
+    {
+      "id": "methods/bambam.md",
+      "section": "methods",
+      "label": "bambam",
+      "title": "BamBam"
+    },
+    {
       "id": "methods/bayesian-nmf.md",
       "section": "methods",
       "label": "bayesian-nmf",
@@ -6958,6 +7198,12 @@
       "section": "methods",
       "label": "brats-challenge",
       "title": "BraTS Challenge (Brain Tumor Segmentation)"
+    },
+    {
+      "id": "methods/breakdancer.md",
+      "section": "methods",
+      "label": "breakdancer",
+      "title": "BreakDancer"
     },
     {
       "id": "methods/breakpointer.md",
@@ -7170,6 +7416,18 @@
       "title": "Guardant360 CDx"
     },
     {
+      "id": "methods/hm27-methylation-array.md",
+      "section": "methods",
+      "label": "hm27-methylation-array",
+      "title": "Illumina Infinium HumanMethylation27 BeadChip (HM27)"
+    },
+    {
+      "id": "methods/hm450-methylation-array.md",
+      "section": "methods",
+      "label": "hm450-methylation-array",
+      "title": "Illumina Infinium HumanMethylation450 BeadChip (HM450)"
+    },
+    {
       "id": "methods/icr-signature.md",
       "section": "methods",
       "label": "icr-signature",
@@ -7212,6 +7470,12 @@
       "title": "Indelocator"
     },
     {
+      "id": "methods/invex.md",
+      "section": "methods",
+      "label": "invex",
+      "title": "InVEx (Integrated Variant Explorer)"
+    },
+    {
       "id": "methods/joint-longitudinal-survival-model.md",
       "section": "methods",
       "label": "joint-longitudinal-survival-model",
@@ -7240,6 +7504,12 @@
       "section": "methods",
       "label": "mate-pair-seq",
       "title": "Mate-Pair Sequencing"
+    },
+    {
+      "id": "methods/memo.md",
+      "section": "methods",
+      "label": "memo",
+      "title": "MEMo (Mutual Exclusivity Modules in Cancer)"
     },
     {
       "id": "methods/mimsi.md",
@@ -7374,6 +7644,12 @@
       "title": "Pindel"
     },
     {
+      "id": "methods/prada.md",
+      "section": "methods",
+      "label": "prada",
+      "title": "PRADA (Pipeline for RNA-seq Data Analysis)"
+    },
+    {
       "id": "methods/pycerr.md",
       "section": "methods",
       "label": "pycerr",
@@ -7426,6 +7702,12 @@
       "section": "methods",
       "label": "rnascope-ish",
       "title": "RNAscope multiplex in situ hybridization (ISH)"
+    },
+    {
+      "id": "methods/rppa.md",
+      "section": "methods",
+      "label": "rppa",
+      "title": "Reverse-Phase Protein Array (RPPA)"
     },
     {
       "id": "methods/rrbs.md",
@@ -7788,6 +8070,26 @@
     {
       "from": "papers",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "papers",
+      "to": "papers/24145436.md"
     },
     {
       "from": "papers",
@@ -8167,6 +8469,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/ARID4A.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/ARID5B.md"
     },
     {
@@ -8383,6 +8689,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/CCNE2.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/CD24.md"
     },
     {
@@ -8471,6 +8781,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/CHD6.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/CHD7.md"
     },
     {
@@ -8516,6 +8830,10 @@
     {
       "from": "genes",
       "to": "genes/COL6A3.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/CPM.md"
     },
     {
       "from": "genes",
@@ -8615,6 +8933,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/DHFR.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/DICER1.md"
     },
     {
@@ -8648,6 +8970,14 @@
     {
       "from": "genes",
       "to": "genes/DOCK7.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/E2F1.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/E2F3.md"
     },
     {
       "from": "genes",
@@ -8699,6 +9029,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/EP400.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/EPAS1.md"
     },
     {
@@ -8736,6 +9070,10 @@
     {
       "from": "genes",
       "to": "genes/ERG.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/ESPL1.md"
     },
     {
       "from": "genes",
@@ -9231,6 +9569,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/KDM5B.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/KDM5C.md"
     },
     {
@@ -9244,6 +9586,10 @@
     {
       "from": "genes",
       "to": "genes/KEAP1.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/KEL.md"
     },
     {
       "from": "genes",
@@ -9287,6 +9633,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/KMT2E.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/KRAS.md"
     },
     {
@@ -9304,6 +9654,10 @@
     {
       "from": "genes",
       "to": "genes/LAG3.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/LANCL2.md"
     },
     {
       "from": "genes",
@@ -9327,6 +9681,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/LSAMP.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/LTO1.md"
     },
     {
@@ -9336,6 +9694,10 @@
     {
       "from": "genes",
       "to": "genes/LYN.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/LZTR1.md"
     },
     {
       "from": "genes",
@@ -9511,6 +9873,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/MUC1.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/MUC4.md"
     },
     {
@@ -9623,6 +9989,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/NIPBL.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/NKX2-1.md"
     },
     {
@@ -9640,6 +10010,10 @@
     {
       "from": "genes",
       "to": "genes/NOTCH3.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/NPAS3.md"
     },
     {
       "from": "genes",
@@ -9672,6 +10046,10 @@
     {
       "from": "genes",
       "to": "genes/NSD1.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/NSD2.md"
     },
     {
       "from": "genes",
@@ -9904,6 +10282,10 @@
     {
       "from": "genes",
       "to": "genes/PRF1.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/PRIM2.md"
     },
     {
       "from": "genes",
@@ -10187,6 +10569,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/SEC61G.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/SEMA3A.md"
     },
     {
@@ -10303,6 +10689,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/SMYD3.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/SND1.md"
     },
     {
@@ -10364,6 +10754,10 @@
     {
       "from": "genes",
       "to": "genes/SPRY2.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/SPTA1.md"
     },
     {
       "from": "genes",
@@ -10519,6 +10913,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/TLR2.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/TLR4.md"
     },
     {
@@ -10623,6 +11021,10 @@
     },
     {
       "from": "genes",
+      "to": "genes/UTY.md"
+    },
+    {
+      "from": "genes",
       "to": "genes/VAV2.md"
     },
     {
@@ -10636,6 +11038,10 @@
     {
       "from": "genes",
       "to": "genes/VHL.md"
+    },
+    {
+      "from": "genes",
+      "to": "genes/VOPP1.md"
     },
     {
       "from": "genes",
@@ -10724,6 +11130,10 @@
     {
       "from": "cancer_types",
       "to": "cancer_types/APAD.md"
+    },
+    {
+      "from": "cancer_types",
+      "to": "cancer_types/APLPMLRARA.md"
     },
     {
       "from": "cancer_types",
@@ -10928,6 +11338,10 @@
     {
       "from": "cancer_types",
       "to": "cancer_types/MBL.md"
+    },
+    {
+      "from": "cancer_types",
+      "to": "cancer_types/MCL.md"
     },
     {
       "from": "cancer_types",
@@ -11183,7 +11597,15 @@
     },
     {
       "from": "datasets",
+      "to": "datasets/blca_bgi.md"
+    },
+    {
+      "from": "datasets",
       "to": "datasets/blca_msk_2025.md"
+    },
+    {
+      "from": "datasets",
+      "to": "datasets/blca_mskcc_solit_2012.md"
     },
     {
       "from": "datasets",
@@ -11311,6 +11733,10 @@
     },
     {
       "from": "datasets",
+      "to": "datasets/gbm_tcga_pub2013.md"
+    },
+    {
+      "from": "datasets",
       "to": "datasets/gist_msk_2022.md"
     },
     {
@@ -11412,6 +11838,10 @@
     {
       "from": "datasets",
       "to": "datasets/mbn_msk_2024.md"
+    },
+    {
+      "from": "datasets",
+      "to": "datasets/mcl_idibips_2013.md"
     },
     {
       "from": "datasets",
@@ -12051,6 +12481,10 @@
     },
     {
       "from": "drugs",
+      "to": "drugs/saridegib.md"
+    },
+    {
+      "from": "drugs",
       "to": "drugs/selumetinib.md"
     },
     {
@@ -12199,6 +12633,14 @@
     },
     {
       "from": "methods",
+      "to": "methods/array-cgh-agilent-1m.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/bambam.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/bayesian-nmf.md"
     },
     {
@@ -12208,6 +12650,10 @@
     {
       "from": "methods",
       "to": "methods/brats-challenge.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/breakdancer.md"
     },
     {
       "from": "methods",
@@ -12351,6 +12797,14 @@
     },
     {
       "from": "methods",
+      "to": "methods/hm27-methylation-array.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/hm450-methylation-array.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/icr-signature.md"
     },
     {
@@ -12379,6 +12833,10 @@
     },
     {
       "from": "methods",
+      "to": "methods/invex.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/joint-longitudinal-survival-model.md"
     },
     {
@@ -12396,6 +12854,10 @@
     {
       "from": "methods",
       "to": "methods/mate-pair-seq.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/memo.md"
     },
     {
       "from": "methods",
@@ -12487,6 +12949,10 @@
     },
     {
       "from": "methods",
+      "to": "methods/prada.md"
+    },
+    {
+      "from": "methods",
       "to": "methods/pycerr.md"
     },
     {
@@ -12520,6 +12986,10 @@
     {
       "from": "methods",
       "to": "methods/rnascope-ish.md"
+    },
+    {
+      "from": "methods",
+      "to": "methods/rppa.md"
     },
     {
       "from": "methods",
@@ -12944,6 +13414,14 @@
       "to": "drugs/capecitabine.md"
     },
     {
+      "from": "cancer_types/APLPMLRARA.md",
+      "to": "cancer_types/AML.md"
+    },
+    {
+      "from": "cancer_types/APLPMLRARA.md",
+      "to": "papers/23999436.md"
+    },
+    {
       "from": "cancer_types/ARMS.md",
       "to": "cancer_types/RMS.md"
     },
@@ -13122,6 +13600,18 @@
     {
       "from": "cancer_types/BLCA.md",
       "to": "papers/36333289.md"
+    },
+    {
+      "from": "cancer_types/BLCA.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "cancer_types/BLCA.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "cancer_types/BLCA.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "cancer_types/BLCA.md",
@@ -14765,11 +15255,19 @@
     },
     {
       "from": "cancer_types/GBM.md",
-      "to": "drugs/temozolomide.md"
+      "to": "genes/TERT.md"
     },
     {
       "from": "cancer_types/GBM.md",
       "to": "genes/MGMT.md"
+    },
+    {
+      "from": "cancer_types/GBM.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "cancer_types/GBM.md",
+      "to": "drugs/temozolomide.md"
     },
     {
       "from": "cancer_types/GBM.md",
@@ -15593,7 +16091,27 @@
     },
     {
       "from": "cancer_types/LUAD.md",
+      "to": "genes/RBM10.md"
+    },
+    {
+      "from": "cancer_types/LUAD.md",
+      "to": "genes/U2AF1.md"
+    },
+    {
+      "from": "cancer_types/LUAD.md",
       "to": "papers/22980975.md"
+    },
+    {
+      "from": "cancer_types/LUAD.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "cancer_types/LUAD.md",
+      "to": "drugs/docetaxel.md"
+    },
+    {
+      "from": "cancer_types/LUAD.md",
+      "to": "papers/23999436.md"
     },
     {
       "from": "cancer_types/LUAD.md",
@@ -15722,6 +16240,62 @@
     {
       "from": "cancer_types/MBL.md",
       "to": "papers/22832583.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "datasets/mcl_idibips_2013.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/MEF2B.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/BIRC3.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/TLR2.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/NOTCH2.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/NOTCH1.md"
+    },
+    {
+      "from": "cancer_types/MCL.md",
+      "to": "genes/CDKN2A.md"
     },
     {
       "from": "cancer_types/MCN.md",
@@ -16373,6 +16947,10 @@
     },
     {
       "from": "cancer_types/NSCLC.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "cancer_types/NSCLC.md",
       "to": "genes/RB1.md"
     },
     {
@@ -16789,11 +17367,35 @@
     },
     {
       "from": "cancer_types/PAAD.md",
+      "to": "genes/VHL.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
+      "to": "genes/RNF43.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
+      "to": "genes/GNAS.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
       "to": "papers/22158988.md"
     },
     {
       "from": "cancer_types/PAAD.md",
       "to": "papers/23103869.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
+      "to": "drugs/gemcitabine.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
+      "to": "drugs/saridegib.md"
+    },
+    {
+      "from": "cancer_types/PAAD.md",
+      "to": "papers/23999436.md"
     },
     {
       "from": "cancer_types/PAAD.md",
@@ -18784,6 +19386,102 @@
       "to": "genes/ERCC2.md"
     },
     {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/ESPL1.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/FGFR3.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/TACC3.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/rna-seq.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/gistic.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "methods/fish.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/DHFR.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/NIPBL.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/SMC1A.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/SMC3.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/UTY.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/KMT2A.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/KMT2C.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/KMT2E.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/CDKN2A.md"
+    },
+    {
+      "from": "datasets/blca_bgi.md",
+      "to": "genes/CDKN2B.md"
+    },
+    {
       "from": "datasets/blca_msk_2025.md",
       "to": "drugs/bevacizumab.md"
     },
@@ -18858,6 +19556,54 @@
     {
       "from": "datasets/blca_msk_2025.md",
       "to": "genes/KRAS.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "methods/array-cgh-agilent-1m.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "methods/sequenom-genotyping.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "methods/illumina-microarray.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "genes/E2F3.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "genes/TSC1.md"
+    },
+    {
+      "from": "datasets/blca_mskcc_solit_2012.md",
+      "to": "drugs/mk-2206.md"
     },
     {
       "from": "datasets/bm_nsclc_mskcc_2023.md",
@@ -20416,6 +21162,126 @@
       "to": "genes/MSH6.md"
     },
     {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/IDH1.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/breakdancer.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/bambam.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/rna-seq.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/prada.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/rppa.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/hm27-methylation-array.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/hm450-methylation-array.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/illumina-goldengate.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/gistic.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/mutsig.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/invex.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "methods/memo.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/LZTR1.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/TERT.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/ATRX.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "genes/MGMT.md"
+    },
+    {
+      "from": "datasets/gbm_tcga_pub2013.md",
+      "to": "drugs/temozolomide.md"
+    },
+    {
       "from": "datasets/gist_msk_2022.md",
       "to": "cancer_types/GIST.md"
     },
@@ -21606,6 +22472,82 @@
     {
       "from": "datasets/mbn_msk_2024.md",
       "to": "methods/fish.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/NOTCH2.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/MEF2B.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/targeted-dna-seq.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/affymetrix-snp6.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "methods/affymetrix-u133-plus2.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/NOTCH1.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/BIRC3.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/SOX11.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "datasets/mcl_idibips_2013.md",
+      "to": "genes/TLR2.md"
     },
     {
       "from": "datasets/mds_tokyo_2011.md",
@@ -24717,7 +25659,19 @@
     },
     {
       "from": "drugs/bevacizumab.md",
+      "to": "drugs/sunitinib.md"
+    },
+    {
+      "from": "drugs/bevacizumab.md",
       "to": "papers/22138691.md"
+    },
+    {
+      "from": "drugs/bevacizumab.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "drugs/bevacizumab.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "drugs/bevacizumab.md",
@@ -25461,6 +26415,18 @@
     },
     {
       "from": "drugs/docetaxel.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "drugs/docetaxel.md",
+      "to": "cancer_types/LUAD.md"
+    },
+    {
+      "from": "drugs/docetaxel.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "drugs/docetaxel.md",
       "to": "cancer_types/RMS.md"
     },
     {
@@ -26137,7 +27103,15 @@
     },
     {
       "from": "drugs/gemcitabine.md",
+      "to": "drugs/saridegib.md"
+    },
+    {
+      "from": "drugs/gemcitabine.md",
       "to": "cancer_types/PAAD.md"
+    },
+    {
+      "from": "drugs/gemcitabine.md",
+      "to": "papers/23999436.md"
     },
     {
       "from": "drugs/gemcitabine.md",
@@ -26630,6 +27604,10 @@
     {
       "from": "drugs/mk-2206.md",
       "to": "papers/22722202.md"
+    },
+    {
+      "from": "drugs/mk-2206.md",
+      "to": "papers/23897969.md"
     },
     {
       "from": "drugs/mk-2206.md",
@@ -27448,6 +28426,22 @@
       "to": "cancer_types/HNSC.md"
     },
     {
+      "from": "drugs/saridegib.md",
+      "to": "genes/SMO.md"
+    },
+    {
+      "from": "drugs/saridegib.md",
+      "to": "cancer_types/PAAD.md"
+    },
+    {
+      "from": "drugs/saridegib.md",
+      "to": "drugs/gemcitabine.md"
+    },
+    {
+      "from": "drugs/saridegib.md",
+      "to": "papers/23999436.md"
+    },
+    {
       "from": "drugs/selumetinib.md",
       "to": "genes/NF1.md"
     },
@@ -27462,6 +28456,18 @@
     {
       "from": "drugs/selumetinib.md",
       "to": "papers/22802077.md"
+    },
+    {
+      "from": "drugs/selumetinib.md",
+      "to": "cancer_types/LUAD.md"
+    },
+    {
+      "from": "drugs/selumetinib.md",
+      "to": "drugs/docetaxel.md"
+    },
+    {
+      "from": "drugs/selumetinib.md",
+      "to": "papers/23999436.md"
     },
     {
       "from": "drugs/selumetinib.md",
@@ -27662,6 +28668,10 @@
     {
       "from": "drugs/temozolomide.md",
       "to": "papers/18772890.md"
+    },
+    {
+      "from": "drugs/temozolomide.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "drugs/temozolomide.md",
@@ -28018,6 +29028,18 @@
     {
       "from": "drugs/vemurafenib.md",
       "to": "papers/22842228.md"
+    },
+    {
+      "from": "drugs/vemurafenib.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "drugs/vemurafenib.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "drugs/vemurafenib.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "drugs/vemurafenib.md",
@@ -28414,6 +29436,14 @@
     {
       "from": "genes/AKT1.md",
       "to": "papers/23619168.md"
+    },
+    {
+      "from": "genes/AKT1.md",
+      "to": "drugs/mk-2206.md"
+    },
+    {
+      "from": "genes/AKT1.md",
+      "to": "papers/23897969.md"
     },
     {
       "from": "genes/AKT1.md",
@@ -28989,6 +30019,10 @@
     },
     {
       "from": "genes/ARID1A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ARID1A.md",
       "to": "cancer_types/UCEC.md"
     },
     {
@@ -29146,6 +30180,34 @@
     {
       "from": "genes/ARID2.md",
       "to": "genes/TERT.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "genes/KMT2A.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "genes/EP300.md"
+    },
+    {
+      "from": "genes/ARID4A.md",
+      "to": "genes/CREBBP.md"
     },
     {
       "from": "genes/ARID5B.md",
@@ -29525,6 +30587,18 @@
     },
     {
       "from": "genes/ATM.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ATM.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/ATM.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/ATM.md",
       "to": "cancer_types/THPA.md"
     },
     {
@@ -29550,6 +30624,10 @@
     {
       "from": "genes/ATR.md",
       "to": "papers/22495314.md"
+    },
+    {
+      "from": "genes/ATR.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/ATR.md",
@@ -29610,6 +30688,14 @@
     {
       "from": "genes/ATRX.md",
       "to": "papers/23685749.md"
+    },
+    {
+      "from": "genes/ATRX.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/ATRX.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/ATRX.md",
@@ -29797,11 +30883,23 @@
     },
     {
       "from": "genes/B2M.md",
+      "to": "cancer_types/FL.md"
+    },
+    {
+      "from": "genes/B2M.md",
       "to": "papers/21796119.md"
     },
     {
       "from": "genes/B2M.md",
       "to": "papers/22343534.md"
+    },
+    {
+      "from": "genes/B2M.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/B2M.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "genes/B2M.md",
@@ -30265,6 +31363,14 @@
     },
     {
       "from": "genes/BIRC3.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/BIRC3.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/BIRC3.md",
       "to": "cancer_types/OCSC.md"
     },
     {
@@ -30573,6 +31679,18 @@
     },
     {
       "from": "genes/BRAF.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/BRAF.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/BRAF.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/BRAF.md",
       "to": "cancer_types/MEL.md"
     },
     {
@@ -30733,6 +31851,10 @@
     },
     {
       "from": "genes/BRCA1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/BRCA1.md",
       "to": "cancer_types/OVT.md"
     },
     {
@@ -30877,11 +31999,19 @@
     },
     {
       "from": "genes/BRCA2.md",
+      "to": "genes/EMSY.md"
+    },
+    {
+      "from": "genes/BRCA2.md",
       "to": "papers/22495314.md"
     },
     {
       "from": "genes/BRCA2.md",
       "to": "papers/23000897.md"
+    },
+    {
+      "from": "genes/BRCA2.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/BRCA2.md",
@@ -30968,6 +32098,14 @@
       "to": "papers/36228155.md"
     },
     {
+      "from": "genes/BRIP1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/BRIP1.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/BTG1.md",
       "to": "cancer_types/FL.md"
     },
@@ -30998,6 +32136,10 @@
     {
       "from": "genes/BUB1.md",
       "to": "papers/22522925.md"
+    },
+    {
+      "from": "genes/BUB1.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/BUB1.md",
@@ -31329,6 +32471,38 @@
     },
     {
       "from": "genes/CCND1.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "genes/CCNE2.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/CCND1.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/CCND1.md",
       "to": "cancer_types/ODG.md"
     },
     {
@@ -31374,6 +32548,18 @@
     {
       "from": "genes/CCND2.md",
       "to": "genes/CCND3.md"
+    },
+    {
+      "from": "genes/CCND2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CCND2.md",
+      "to": "genes/CCNE2.md"
+    },
+    {
+      "from": "genes/CCND2.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/CCND2.md",
@@ -31505,6 +32691,22 @@
     },
     {
       "from": "genes/CCNE1.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "genes/CCNE1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/CCNE1.md",
+      "to": "genes/E2F3.md"
+    },
+    {
+      "from": "genes/CCNE1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/CCNE1.md",
       "to": "genes/ATR.md"
     },
     {
@@ -31514,6 +32716,30 @@
     {
       "from": "genes/CCNE1.md",
       "to": "cancer_types/EGC.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "genes/CDK2.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "genes/CCND2.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/CCNE2.md",
+      "to": "genes/CCNE1.md"
     },
     {
       "from": "genes/CD24.md",
@@ -32016,6 +33242,14 @@
       "to": "papers/23000897.md"
     },
     {
+      "from": "genes/CDK4.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CDK4.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/CDK6.md",
       "to": "papers/18772890.md"
     },
@@ -32046,6 +33280,14 @@
     {
       "from": "genes/CDK6.md",
       "to": "papers/23525077.md"
+    },
+    {
+      "from": "genes/CDK6.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CDK6.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/CDK6.md",
@@ -32425,6 +33667,34 @@
     },
     {
       "from": "genes/CDKN2A.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/CDKN2A.md",
       "to": "cancer_types/EGC.md"
     },
     {
@@ -32462,10 +33732,6 @@
     {
       "from": "genes/CDKN2A.md",
       "to": "cancer_types/THAP.md"
-    },
-    {
-      "from": "genes/CDKN2A.md",
-      "to": "genes/TP53.md"
     },
     {
       "from": "genes/CDKN2A.md",
@@ -32605,11 +33871,23 @@
     },
     {
       "from": "genes/CDKN2B.md",
+      "to": "genes/MTAP.md"
+    },
+    {
+      "from": "genes/CDKN2B.md",
       "to": "papers/22522925.md"
     },
     {
       "from": "genes/CDKN2B.md",
       "to": "papers/23334668.md"
+    },
+    {
+      "from": "genes/CDKN2B.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/CDKN2B.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/CDKN2B.md",
@@ -32658,6 +33936,10 @@
     {
       "from": "genes/CEBPA.md",
       "to": "papers/23634996.md"
+    },
+    {
+      "from": "genes/CEBPA.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/CEBPA.md",
@@ -32762,6 +34044,42 @@
     {
       "from": "genes/CHD2.md",
       "to": "drugs/vorinostat.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/EP300.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/EP400.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/CREBBP.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/NCOR1.md"
+    },
+    {
+      "from": "genes/CHD6.md",
+      "to": "genes/SMARCA4.md"
     },
     {
       "from": "genes/CHD7.md",
@@ -33216,6 +34534,14 @@
       "to": "papers/22495314.md"
     },
     {
+      "from": "genes/CPM.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/CPM.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/CREB1.md",
       "to": "genes/EWSR1.md"
     },
@@ -33294,6 +34620,10 @@
     {
       "from": "genes/CREBBP.md",
       "to": "papers/23778141.md"
+    },
+    {
+      "from": "genes/CREBBP.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/CREBBP.md",
@@ -33864,6 +35194,18 @@
       "to": "genes/NOTCH1.md"
     },
     {
+      "from": "genes/DHFR.md",
+      "to": "drugs/methotrexate.md"
+    },
+    {
+      "from": "genes/DHFR.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/DHFR.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
       "from": "genes/DICER1.md",
       "to": "methods/clumps.md"
     },
@@ -34098,6 +35440,70 @@
     {
       "from": "genes/DOCK7.md",
       "to": "genes/SOX6.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "genes/E2F3.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
+      "from": "genes/E2F1.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/MITF.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/E2F1.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
+      "from": "genes/E2F3.md",
+      "to": "genes/ERBB2.md"
     },
     {
       "from": "genes/ECT2.md",
@@ -34341,6 +35747,10 @@
     },
     {
       "from": "genes/EGFR.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/EGFR.md",
       "to": "cancer_types/MFS.md"
     },
     {
@@ -34549,6 +35959,10 @@
     },
     {
       "from": "genes/EP300.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/EP300.md",
       "to": "genes/KMT2D.md"
     },
     {
@@ -34569,6 +35983,42 @@
     },
     {
       "from": "genes/EP300.md",
+      "to": "genes/SMARCA4.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/EP300.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/CREBBP.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/NCOR1.md"
+    },
+    {
+      "from": "genes/EP400.md",
+      "to": "genes/CHD6.md"
+    },
+    {
+      "from": "genes/EP400.md",
       "to": "genes/SMARCA4.md"
     },
     {
@@ -34857,6 +36307,14 @@
     },
     {
       "from": "genes/ERBB2.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/ERBB2.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ERBB2.md",
       "to": "cancer_types/OGCT.md"
     },
     {
@@ -35045,6 +36503,10 @@
     },
     {
       "from": "genes/ERCC2.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ERCC2.md",
       "to": "cancer_types/BLCA.md"
     },
     {
@@ -35102,6 +36564,30 @@
     {
       "from": "genes/ERG.md",
       "to": "cancer_types/PRAD.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "genes/NIPBL.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "genes/SMC1A.md"
+    },
+    {
+      "from": "genes/ESPL1.md",
+      "to": "genes/SMC3.md"
     },
     {
       "from": "genes/ESR1.md",
@@ -35593,6 +37079,14 @@
     },
     {
       "from": "genes/FAT4.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/FAT4.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/FAT4.md",
       "to": "genes/FAT3.md"
     },
     {
@@ -35889,6 +37383,22 @@
     },
     {
       "from": "genes/FGFR1.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/FGFR1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/FGFR1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/FGFR1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/FGFR1.md",
       "to": "cancer_types/PRAD.md"
     },
     {
@@ -35962,6 +37472,14 @@
     {
       "from": "genes/FGFR2.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "genes/FGFR2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/FGFR2.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/FGFR2.md",
@@ -36061,15 +37579,35 @@
     },
     {
       "from": "genes/FGFR3.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/FGFR3.md",
       "to": "cancer_types/EGC.md"
     },
     {
       "from": "genes/FGFR3.md",
       "to": "genes/ERBB2.md"
-    },
-    {
-      "from": "genes/FGFR3.md",
-      "to": "genes/TP53.md"
     },
     {
       "from": "genes/FGFR3.md",
@@ -36086,10 +37624,6 @@
     {
       "from": "genes/FGFR3.md",
       "to": "genes/KDM6A.md"
-    },
-    {
-      "from": "genes/FGFR3.md",
-      "to": "genes/PIK3CA.md"
     },
     {
       "from": "genes/FGFR3.md",
@@ -36621,6 +38155,14 @@
     },
     {
       "from": "genes/GABRA6.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/GABRA6.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/GABRA6.md",
       "to": "genes/TP53.md"
     },
     {
@@ -37086,6 +38628,14 @@
     {
       "from": "genes/H3-3A.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "genes/H3-3A.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/H3-3A.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/H3-3A.md",
@@ -37621,6 +39171,18 @@
     },
     {
       "from": "genes/HRAS.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/HRAS.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/HRAS.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/HRAS.md",
       "to": "cancer_types/CESC.md"
     },
     {
@@ -37709,6 +39271,22 @@
     },
     {
       "from": "genes/IDH1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/IDH1.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "genes/IDH1.md",
+      "to": "genes/ATRX.md"
+    },
+    {
+      "from": "genes/IDH1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/IDH1.md",
       "to": "cancer_types/DIFG.md"
     },
     {
@@ -37729,10 +39307,6 @@
     },
     {
       "from": "genes/IDH1.md",
-      "to": "cancer_types/GBM.md"
-    },
-    {
-      "from": "genes/IDH1.md",
       "to": "genes/TERT.md"
     },
     {
@@ -37742,14 +39316,6 @@
     {
       "from": "genes/IDH1.md",
       "to": "genes/FUBP1.md"
-    },
-    {
-      "from": "genes/IDH1.md",
-      "to": "genes/TP53.md"
-    },
-    {
-      "from": "genes/IDH1.md",
-      "to": "genes/ATRX.md"
     },
     {
       "from": "genes/IDH2.md",
@@ -37790,6 +39356,14 @@
     {
       "from": "genes/IDH2.md",
       "to": "papers/23634996.md"
+    },
+    {
+      "from": "genes/IDH2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/IDH2.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/IDH2.md",
@@ -38704,6 +40278,26 @@
       "to": "papers/23778141.md"
     },
     {
+      "from": "genes/KDM5A.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KDM5A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KDM5B.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KDM5B.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KDM5B.md",
+      "to": "genes/KDM5A.md"
+    },
+    {
       "from": "genes/KDM5C.md",
       "to": "papers/22138691.md"
     },
@@ -38825,6 +40419,10 @@
     },
     {
       "from": "genes/KDM6A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KDM6A.md",
       "to": "cancer_types/UTUC.md"
     },
     {
@@ -38910,6 +40508,22 @@
     {
       "from": "genes/KEAP1.md",
       "to": "papers/39506116.md"
+    },
+    {
+      "from": "genes/KEL.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/KEL.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/KEL.md",
+      "to": "genes/SPTA1.md"
+    },
+    {
+      "from": "genes/KEL.md",
+      "to": "genes/GABRA6.md"
     },
     {
       "from": "genes/KIAA1549.md",
@@ -39161,6 +40775,14 @@
     },
     {
       "from": "genes/KMT2A.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KMT2A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KMT2A.md",
       "to": "cancer_types/BLLKMT2A.md"
     },
     {
@@ -39265,6 +40887,14 @@
     },
     {
       "from": "genes/KMT2C.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KMT2C.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KMT2C.md",
       "to": "cancer_types/CLLSLL.md"
     },
     {
@@ -39329,6 +40959,10 @@
     },
     {
       "from": "genes/KMT2D.md",
+      "to": "cancer_types/FL.md"
+    },
+    {
+      "from": "genes/KMT2D.md",
       "to": "papers/21796119.md"
     },
     {
@@ -39341,11 +40975,19 @@
     },
     {
       "from": "genes/KMT2D.md",
+      "to": "cancer_types/HCC.md"
+    },
+    {
+      "from": "genes/KMT2D.md",
       "to": "papers/22634756.md"
     },
     {
       "from": "genes/KMT2D.md",
       "to": "papers/22722829.md"
+    },
+    {
+      "from": "genes/KMT2D.md",
+      "to": "genes/EZH2.md"
     },
     {
       "from": "genes/KMT2D.md",
@@ -39365,6 +41007,14 @@
     },
     {
       "from": "genes/KMT2D.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/KMT2D.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/KMT2D.md",
       "to": "cancer_types/CLLSLL.md"
     },
     {
@@ -39378,6 +41028,22 @@
     {
       "from": "genes/KMT2D.md",
       "to": "cancer_types/PRAD.md"
+    },
+    {
+      "from": "genes/KMT2E.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KMT2E.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KMT2E.md",
+      "to": "genes/KMT2A.md"
+    },
+    {
+      "from": "genes/KMT2E.md",
+      "to": "genes/KMT2C.md"
     },
     {
       "from": "genes/KRAS.md",
@@ -39677,6 +41343,34 @@
     },
     {
       "from": "genes/KRAS.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "drugs/docetaxel.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "genes/STK11.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "genes/KRAS.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/KRAS.md",
       "to": "cancer_types/APAD.md"
     },
     {
@@ -39702,10 +41396,6 @@
     {
       "from": "genes/KRAS.md",
       "to": "cancer_types/UCEC.md"
-    },
-    {
-      "from": "genes/KRAS.md",
-      "to": "cancer_types/BLCA.md"
     },
     {
       "from": "genes/KRAS.md",
@@ -39856,6 +41546,14 @@
       "to": "genes/CTLA4.md"
     },
     {
+      "from": "genes/LANCL2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/LANCL2.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/LDB1.md",
       "to": "genes/SHH.md"
     },
@@ -39984,6 +41682,22 @@
       "to": "papers/23636398.md"
     },
     {
+      "from": "genes/LRP1B.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/LRP1B.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/LSAMP.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/LSAMP.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/LTO1.md",
       "to": "genes/CCND1.md"
     },
@@ -40082,6 +41796,14 @@
     {
       "from": "genes/LYN.md",
       "to": "drugs/dasatinib.md"
+    },
+    {
+      "from": "genes/LZTR1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/LZTR1.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/MACROD2.md",
@@ -40589,6 +42311,22 @@
     },
     {
       "from": "genes/MDM2.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/MDM2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/MDM2.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/MDM2.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/MDM2.md",
       "to": "cancer_types/BLCA.md"
     },
     {
@@ -40613,11 +42351,15 @@
     },
     {
       "from": "genes/MDM4.md",
-      "to": "cancer_types/GB.md"
+      "to": "cancer_types/GBM.md"
     },
     {
       "from": "genes/MDM4.md",
-      "to": "cancer_types/GBM.md"
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/MDM4.md",
+      "to": "cancer_types/GB.md"
     },
     {
       "from": "genes/MECOM.md",
@@ -40726,6 +42468,14 @@
     {
       "from": "genes/MEF2B.md",
       "to": "papers/22343534.md"
+    },
+    {
+      "from": "genes/MEF2B.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/MEF2B.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "genes/MEGF8.md",
@@ -40841,7 +42591,31 @@
     },
     {
       "from": "genes/MET.md",
+      "to": "genes/IGF1R.md"
+    },
+    {
+      "from": "genes/MET.md",
+      "to": "genes/KIT.md"
+    },
+    {
+      "from": "genes/MET.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "genes/MET.md",
       "to": "papers/23000897.md"
+    },
+    {
+      "from": "genes/MET.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/MET.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/MET.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/MET.md",
@@ -40893,7 +42667,19 @@
     },
     {
       "from": "genes/MGMT.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/MGMT.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/MGMT.md",
       "to": "cancer_types/GB.md"
+    },
+    {
+      "from": "genes/MGMT.md",
+      "to": "methods/absolute.md"
     },
     {
       "from": "genes/MGMT.md",
@@ -41557,6 +43343,10 @@
     },
     {
       "from": "genes/MTOR.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/MTOR.md",
       "to": "genes/KDM5C.md"
     },
     {
@@ -41574,6 +43364,14 @@
     {
       "from": "genes/MTOR.md",
       "to": "genes/PBRM1.md"
+    },
+    {
+      "from": "genes/MUC1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/MUC1.md",
+      "to": "cancer_types/BLCA.md"
     },
     {
       "from": "genes/MUC4.md",
@@ -41889,6 +43687,18 @@
     },
     {
       "from": "genes/MYC.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/MYC.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/MYC.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/MYC.md",
       "to": "cancer_types/CLLSLL.md"
     },
     {
@@ -41977,6 +43787,10 @@
     },
     {
       "from": "genes/MYCN.md",
+      "to": "genes/OTX2.md"
+    },
+    {
+      "from": "genes/MYCN.md",
       "to": "papers/22722829.md"
     },
     {
@@ -41985,11 +43799,35 @@
     },
     {
       "from": "genes/MYCN.md",
+      "to": "cancer_types/SCLC.md"
+    },
+    {
+      "from": "genes/MYCN.md",
+      "to": "genes/MYCL.md"
+    },
+    {
+      "from": "genes/MYCN.md",
+      "to": "genes/MYC.md"
+    },
+    {
+      "from": "genes/MYCN.md",
       "to": "papers/22941188.md"
     },
     {
       "from": "genes/MYCN.md",
+      "to": "genes/ATRX.md"
+    },
+    {
+      "from": "genes/MYCN.md",
       "to": "papers/23334666.md"
+    },
+    {
+      "from": "genes/MYCN.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/MYCN.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/MYCN.md",
@@ -42365,6 +44203,10 @@
     },
     {
       "from": "genes/NCOR1.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/NCOR1.md",
       "to": "cancer_types/BRCA.md"
     },
     {
@@ -42629,6 +44471,14 @@
     },
     {
       "from": "genes/NF1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/NF1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/NF1.md",
       "to": "cancer_types/HCC.md"
     },
     {
@@ -42820,6 +44670,26 @@
       "to": "genes/TNFAIP3.md"
     },
     {
+      "from": "genes/NIPBL.md",
+      "to": "genes/SMC1A.md"
+    },
+    {
+      "from": "genes/NIPBL.md",
+      "to": "genes/SMC3.md"
+    },
+    {
+      "from": "genes/NIPBL.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/NIPBL.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/NIPBL.md",
+      "to": "genes/STAG2.md"
+    },
+    {
       "from": "genes/NKX2-1.md",
       "to": "cancer_types/LUAD.md"
     },
@@ -42985,6 +44855,18 @@
     },
     {
       "from": "genes/NOTCH1.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/NOTCH1.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "genes/NOTCH1.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/NOTCH1.md",
       "to": "cancer_types/CLLSLL.md"
     },
     {
@@ -43009,7 +44891,19 @@
     },
     {
       "from": "genes/NOTCH2.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/NOTCH2.md",
       "to": "genes/NOTCH1.md"
+    },
+    {
+      "from": "genes/NOTCH2.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "genes/NOTCH2.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "genes/NOTCH3.md",
@@ -43022,6 +44916,14 @@
     {
       "from": "genes/NOTCH3.md",
       "to": "cancer_types/MFH.md"
+    },
+    {
+      "from": "genes/NPAS3.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/NPAS3.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/NPM1.md",
@@ -43330,6 +45232,30 @@
     {
       "from": "genes/NSD1.md",
       "to": "papers/23634996.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "cancer_types/PCM.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "genes/NSD2.md",
+      "to": "genes/SOX11.md"
     },
     {
       "from": "genes/NSD3.md",
@@ -44397,6 +46323,18 @@
     },
     {
       "from": "genes/PDGFRA.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/PDGFRA.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "genes/PDGFRA.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/PDGFRA.md",
       "to": "cancer_types/ASTR.md"
     },
     {
@@ -44937,6 +46875,18 @@
     },
     {
       "from": "genes/PIK3CA.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/PIK3CA.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/PIK3CA.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/PIK3CA.md",
       "to": "cancer_types/LCH.md"
     },
     {
@@ -45070,6 +47020,10 @@
     {
       "from": "genes/PIK3R1.md",
       "to": "papers/23636398.md"
+    },
+    {
+      "from": "genes/PIK3R1.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/PIK3R1.md",
@@ -45624,6 +47578,22 @@
       "to": "genes/GZMH.md"
     },
     {
+      "from": "genes/PRIM2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/PRIM2.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "genes/PRIM2.md",
+      "to": "genes/CPM.md"
+    },
+    {
+      "from": "genes/PRIM2.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "genes/PRKCI.md",
       "to": "papers/23619168.md"
     },
@@ -46041,6 +48011,14 @@
     },
     {
       "from": "genes/PTEN.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/PTEN.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/PTEN.md",
       "to": "cancer_types/NSCLC.md"
     },
     {
@@ -46317,6 +48295,14 @@
     },
     {
       "from": "genes/QKI.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/QKI.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/QKI.md",
       "to": "genes/KIAA1549.md"
     },
     {
@@ -46573,6 +48559,10 @@
     },
     {
       "from": "genes/RAF1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/RAF1.md",
       "to": "cancer_types/PAAD.md"
     },
     {
@@ -46810,6 +48800,22 @@
     {
       "from": "genes/RB1.md",
       "to": "papers/23797736.md"
+    },
+    {
+      "from": "genes/RB1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/RB1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/RB1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/RB1.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/RB1.md",
@@ -47676,6 +49682,26 @@
       "to": "papers/36593350.md"
     },
     {
+      "from": "genes/SEC61G.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/SEC61G.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "genes/SEC61G.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/SEC61G.md",
+      "to": "genes/LANCL2.md"
+    },
+    {
+      "from": "genes/SEC61G.md",
+      "to": "genes/COBL.md"
+    },
+    {
       "from": "genes/SEMA3A.md",
       "to": "genes/PLXNA1.md"
     },
@@ -48408,6 +50434,10 @@
       "to": "papers/23792563.md"
     },
     {
+      "from": "genes/SMARCA4.md",
+      "to": "papers/24121792.md"
+    },
+    {
       "from": "genes/SMARCB1.md",
       "to": "papers/34433969.md"
     },
@@ -48485,6 +50515,10 @@
     },
     {
       "from": "genes/SMC1A.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/SMC1A.md",
       "to": "genes/ASXL1.md"
     },
     {
@@ -48506,6 +50540,10 @@
     {
       "from": "genes/SMC3.md",
       "to": "papers/23634996.md"
+    },
+    {
+      "from": "genes/SMC3.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/SMC3.md",
@@ -48533,6 +50571,18 @@
     },
     {
       "from": "genes/SMO.md",
+      "to": "drugs/saridegib.md"
+    },
+    {
+      "from": "genes/SMO.md",
+      "to": "drugs/gemcitabine.md"
+    },
+    {
+      "from": "genes/SMO.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "genes/SMO.md",
       "to": "cancer_types/MNG.md"
     },
     {
@@ -48546,6 +50596,26 @@
     {
       "from": "genes/SMO.md",
       "to": "genes/KLF4.md"
+    },
+    {
+      "from": "genes/SMYD3.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/SMYD3.md",
+      "to": "genes/LRP1B.md"
+    },
+    {
+      "from": "genes/SMYD3.md",
+      "to": "genes/NPAS3.md"
+    },
+    {
+      "from": "genes/SMYD3.md",
+      "to": "genes/LSAMP.md"
+    },
+    {
+      "from": "genes/SMYD3.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/SND1.md",
@@ -48637,6 +50707,10 @@
     },
     {
       "from": "genes/SOX11.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/SOX11.md",
       "to": "cancer_types/ODG.md"
     },
     {
@@ -48721,6 +50795,10 @@
     },
     {
       "from": "genes/SOX2.md",
+      "to": "cancer_types/SCLC.md"
+    },
+    {
+      "from": "genes/SOX2.md",
       "to": "papers/22941188.md"
     },
     {
@@ -48729,7 +50807,23 @@
     },
     {
       "from": "genes/SOX2.md",
+      "to": "cancer_types/LUSC.md"
+    },
+    {
+      "from": "genes/SOX2.md",
+      "to": "cancer_types/LUAD.md"
+    },
+    {
+      "from": "genes/SOX2.md",
       "to": "papers/22960745.md"
+    },
+    {
+      "from": "genes/SOX2.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/SOX2.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/SOX2.md",
@@ -49052,6 +51146,22 @@
       "to": "genes/PTPN5.md"
     },
     {
+      "from": "genes/SPTA1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/SPTA1.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/SPTA1.md",
+      "to": "genes/GABRA6.md"
+    },
+    {
+      "from": "genes/SPTA1.md",
+      "to": "genes/KEL.md"
+    },
+    {
       "from": "genes/SQSTM1.md",
       "to": "papers/23792563.md"
     },
@@ -49158,6 +51268,10 @@
     {
       "from": "genes/STAG2.md",
       "to": "papers/23634996.md"
+    },
+    {
+      "from": "genes/STAG2.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/STAG2.md",
@@ -49361,6 +51475,18 @@
     },
     {
       "from": "genes/STK11.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "genes/STK11.md",
+      "to": "drugs/docetaxel.md"
+    },
+    {
+      "from": "genes/STK11.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "genes/STK11.md",
       "to": "cancer_types/LUSC.md"
     },
     {
@@ -49522,6 +51648,18 @@
     {
       "from": "genes/TACC3.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "genes/TACC3.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/TACC3.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/TACC3.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/TACC3.md",
@@ -50073,6 +52211,10 @@
     },
     {
       "from": "genes/TERT.md",
+      "to": "cancer_types/HCC.md"
+    },
+    {
+      "from": "genes/TERT.md",
       "to": "papers/22634756.md"
     },
     {
@@ -50085,6 +52227,18 @@
     },
     {
       "from": "genes/TERT.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/TERT.md",
+      "to": "genes/ATRX.md"
+    },
+    {
+      "from": "genes/TERT.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/TERT.md",
       "to": "cancer_types/ODG.md"
     },
     {
@@ -50094,10 +52248,6 @@
     {
       "from": "genes/TERT.md",
       "to": "cancer_types/IHCH.md"
-    },
-    {
-      "from": "genes/TERT.md",
-      "to": "cancer_types/HCC.md"
     },
     {
       "from": "genes/TERT.md",
@@ -50318,6 +52468,34 @@
     {
       "from": "genes/TIAM1.md",
       "to": "genes/PAK1.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "genes/TLR2.md",
+      "to": "genes/MEF2B.md"
     },
     {
       "from": "genes/TLR4.md",
@@ -50929,6 +53107,34 @@
     },
     {
       "from": "genes/TP53.md",
+      "to": "genes/MDM2.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "papers/23999436.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/TP53.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "genes/TP53.md",
       "to": "cancer_types/CLLSLL.md"
     },
     {
@@ -51113,6 +53319,10 @@
     },
     {
       "from": "genes/TRIO.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/TRIO.md",
       "to": "genes/PAK1.md"
     },
     {
@@ -51122,6 +53332,10 @@
     {
       "from": "genes/TRRAP.md",
       "to": "papers/22722829.md"
+    },
+    {
+      "from": "genes/TRRAP.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/TRRAP.md",
@@ -51170,6 +53384,14 @@
     {
       "from": "genes/TSC1.md",
       "to": "papers/23778141.md"
+    },
+    {
+      "from": "genes/TSC1.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "genes/TSC1.md",
+      "to": "papers/24121792.md"
     },
     {
       "from": "genes/TSC1.md",
@@ -51328,6 +53550,14 @@
       "to": "papers/22495314.md"
     },
     {
+      "from": "genes/UBR5.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "genes/UBR5.md",
+      "to": "papers/24145436.md"
+    },
+    {
       "from": "genes/UHRF1.md",
       "to": "papers/23685749.md"
     },
@@ -51434,6 +53664,42 @@
     {
       "from": "genes/USP8.md",
       "to": "cancer_types/CLLSLL.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/CREBBP.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/NCOR1.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/CHD6.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/SMARCA4.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "genes/UTY.md",
+      "to": "genes/EP300.md"
     },
     {
       "from": "genes/VAV2.md",
@@ -51610,6 +53876,26 @@
     {
       "from": "genes/VHL.md",
       "to": "genes/KRAS.md"
+    },
+    {
+      "from": "genes/VOPP1.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "genes/VOPP1.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "genes/VOPP1.md",
+      "to": "genes/SEC61G.md"
+    },
+    {
+      "from": "genes/VOPP1.md",
+      "to": "genes/LANCL2.md"
+    },
+    {
+      "from": "genes/VOPP1.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "genes/WT1.md",
@@ -52449,6 +54735,18 @@
     },
     {
       "from": "methods/affymetrix-snp6.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/affymetrix-snp6.md",
+      "to": "genes/SOX11.md"
+    },
+    {
+      "from": "methods/affymetrix-snp6.md",
+      "to": "papers/24145436.md"
+    },
+    {
+      "from": "methods/affymetrix-snp6.md",
       "to": "cancer_types/GBM.md"
     },
     {
@@ -52466,6 +54764,18 @@
     {
       "from": "methods/affymetrix-u133-plus2.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "methods/affymetrix-u133-plus2.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/affymetrix-u133-plus2.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "methods/affymetrix-u133-plus2.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "methods/agilent-244k.md",
@@ -52524,6 +54834,34 @@
       "to": "cancer_types/ARMS.md"
     },
     {
+      "from": "methods/array-cgh-agilent-1m.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "methods/array-cgh-agilent-1m.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "methods/array-cgh-agilent-1m.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "methods/array-cgh-agilent-1m.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "methods/bambam.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/bambam.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "methods/bambam.md",
+      "to": "papers/24120142.md"
+    },
+    {
       "from": "methods/bayesian-nmf.md",
       "to": "papers/35927489.md"
     },
@@ -52542,6 +54880,14 @@
     {
       "from": "methods/brats-challenge.md",
       "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/breakdancer.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/breakdancer.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/breakpointer.md",
@@ -53233,6 +55579,14 @@
     },
     {
       "from": "methods/fish.md",
+      "to": "genes/DHFR.md"
+    },
+    {
+      "from": "methods/fish.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "methods/fish.md",
       "to": "cancer_types/RMS.md"
     },
     {
@@ -53409,6 +55763,30 @@
     },
     {
       "from": "methods/gistic.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "methods/gistic.md",
+      "to": "genes/QKI.md"
+    },
+    {
+      "from": "methods/gistic.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/gistic.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "methods/gistic.md",
+      "to": "genes/DHFR.md"
+    },
+    {
+      "from": "methods/gistic.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "methods/gistic.md",
       "to": "genes/CDK4.md"
     },
     {
@@ -53458,6 +55836,22 @@
     {
       "from": "methods/guardant360.md",
       "to": "papers/36355783.md"
+    },
+    {
+      "from": "methods/hm27-methylation-array.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/hm27-methylation-array.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/hm450-methylation-array.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/hm450-methylation-array.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/icr-signature.md",
@@ -53561,6 +55955,14 @@
     },
     {
       "from": "methods/illumina-goldengate.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/illumina-goldengate.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/illumina-goldengate.md",
       "to": "genes/MGMT.md"
     },
     {
@@ -53578,6 +55980,10 @@
     {
       "from": "methods/illumina-microarray.md",
       "to": "papers/22522925.md"
+    },
+    {
+      "from": "methods/illumina-microarray.md",
+      "to": "papers/23897969.md"
     },
     {
       "from": "methods/immunoediting-quantification.md",
@@ -53598,6 +56004,54 @@
     {
       "from": "methods/indelocator.md",
       "to": "papers/23525077.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/PIK3R1.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/IDH1.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "genes/LZTR1.md"
+    },
+    {
+      "from": "methods/invex.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/joint-longitudinal-survival-model.md",
@@ -53634,6 +56088,22 @@
     {
       "from": "methods/mate-pair-seq.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "methods/memo.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/memo.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "methods/memo.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "methods/memo.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/mimsi.md",
@@ -54345,6 +56815,26 @@
     },
     {
       "from": "methods/mutsig.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/mutsig.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "methods/mutsig.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "methods/mutsig.md",
+      "to": "genes/LZTR1.md"
+    },
+    {
+      "from": "methods/mutsig.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/mutsig.md",
       "to": "genes/MYD88.md"
     },
     {
@@ -54646,6 +57136,22 @@
     {
       "from": "methods/pindel.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "methods/prada.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/prada.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "methods/prada.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "methods/prada.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/pycerr.md",
@@ -55032,6 +57538,26 @@
       "to": "papers/23817572.md"
     },
     {
+      "from": "methods/rna-seq.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/rna-seq.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "methods/rna-seq.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/rna-seq.md",
+      "to": "genes/TACC3.md"
+    },
+    {
+      "from": "methods/rna-seq.md",
+      "to": "papers/24121792.md"
+    },
+    {
       "from": "methods/rnascope-ish.md",
       "to": "papers/34493726.md"
     },
@@ -55050,6 +57576,14 @@
     {
       "from": "methods/rnascope-ish.md",
       "to": "papers/23797736.md"
+    },
+    {
+      "from": "methods/rppa.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/rppa.md",
+      "to": "papers/24120142.md"
     },
     {
       "from": "methods/rrbs.md",
@@ -55176,6 +57710,26 @@
       "to": "papers/23817572.md"
     },
     {
+      "from": "methods/sanger-sequencing.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "methods/sanger-sequencing.md",
+      "to": "papers/23897969.md"
+    },
+    {
+      "from": "methods/sanger-sequencing.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "methods/sanger-sequencing.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/sanger-sequencing.md",
+      "to": "papers/24145436.md"
+    },
+    {
       "from": "methods/scrna-seq.md",
       "to": "papers/37406106.md"
     },
@@ -55286,6 +57840,14 @@
     {
       "from": "methods/sequenom-genotyping.md",
       "to": "papers/23525077.md"
+    },
+    {
+      "from": "methods/sequenom-genotyping.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "methods/sequenom-genotyping.md",
+      "to": "papers/23897969.md"
     },
     {
       "from": "methods/shrna-rnai-screen.md",
@@ -55529,7 +58091,39 @@
     },
     {
       "from": "methods/targeted-dna-seq.md",
+      "to": "cancer_types/MDS.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "genes/ASXL1.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
       "to": "papers/21909114.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "genes/BIRC3.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "methods/targeted-dna-seq.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "methods/tcr-seq.md",
@@ -56048,6 +58642,46 @@
       "to": "papers/23792563.md"
     },
     {
+      "from": "methods/whole-exome-seq.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "genes/NOTCH2.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "genes/BIRC3.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "methods/whole-exome-seq.md",
+      "to": "papers/24145436.md"
+    },
+    {
       "from": "methods/whole-genome-seq.md",
       "to": "papers/35927489.md"
     },
@@ -56298,6 +58932,34 @@
     {
       "from": "methods/whole-genome-seq.md",
       "to": "papers/23817572.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "papers/24120142.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "papers/24121792.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "methods/whole-genome-seq.md",
+      "to": "papers/24145436.md"
     },
     {
       "from": "methods/xenium.md",
@@ -61954,6 +64616,750 @@
     {
       "from": "papers/23817572.md",
       "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "drugs/mk-2206.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/AKT1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/TSC1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "datasets/blca_mskcc_solit_2012.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "methods/array-cgh-agilent-1m.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "methods/sequenom-genotyping.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "methods/illumina-microarray.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/FGFR3.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/FGFR1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/MET.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/BRAF.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/MDM2.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/E2F3.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/CDKN2A.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/CDKN2B.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/MITF.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/HRAS.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/RAF1.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "genes/MTOR.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "drugs/trastuzumab.md"
+    },
+    {
+      "from": "papers/23897969.md",
+      "to": "drugs/lapatinib.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "drugs/selumetinib.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "drugs/docetaxel.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "drugs/gemcitabine.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "drugs/saridegib.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "cancer_types/LUAD.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "cancer_types/APLPMLRARA.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "cancer_types/NSCLC.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "genes/STK11.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "genes/SMO.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "papers/23999436.md",
+      "to": "cancer_types/PAAD.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "cancer_types/GBM.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/TERT.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/IDH1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "datasets/gbm_tcga_pub2013.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/rna-seq.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/prada.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/illumina-goldengate.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/hm27-methylation-array.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/hm450-methylation-array.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/rppa.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/gistic.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/mutsig.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/invex.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/memo.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/breakdancer.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "methods/bambam.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/PDGFRA.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/NF1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/BRAF.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/MGMT.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/LZTR1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/QKI.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/ATRX.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/PIK3R1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CDKN2A.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CDK4.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CDK6.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/MDM2.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/MDM4.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/FGFR3.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/TACC3.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/SOX2.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/MYC.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/MYCN.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CCND2.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/CCNE2.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/LRP1B.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/NPAS3.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/LSAMP.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/SMYD3.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/SPTA1.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/GABRA6.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "genes/KEL.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "drugs/temozolomide.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "drugs/vemurafenib.md"
+    },
+    {
+      "from": "papers/24120142.md",
+      "to": "drugs/bevacizumab.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/FGFR3.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/PIK3CA.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/HRAS.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/TSC1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/STAG2.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ESPL1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "cancer_types/BLCA.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "datasets/blca_bgi.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/rna-seq.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/gistic.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/DHFR.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "methods/fish.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KDM6A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/UTY.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ARID1A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ARID4A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KMT2A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KMT2C.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KMT2E.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/EP300.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/EP400.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/SMARCA4.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KDM5A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/KDM5B.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/TACC3.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/TRIO.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/MDM2.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/MYC.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/E2F3.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ERBB2.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CCNE1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CEBPA.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/E2F1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/MUC1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CDKN2A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CDKN2B.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CREBBP.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/NIPBL.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/SMC1A.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/SMC3.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ATR.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/BRCA1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/BRCA2.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/NCOR1.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/CHD6.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/ERCC2.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/TRRAP.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/FAT4.md"
+    },
+    {
+      "from": "papers/24121792.md",
+      "to": "genes/BUB1.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "cancer_types/MCL.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/ATM.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/CCND1.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/NSD2.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/MEF2B.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/BIRC3.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/TLR2.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/NOTCH2.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/NOTCH1.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/whole-genome-seq.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/whole-exome-seq.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/targeted-dna-seq.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/sanger-sequencing.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/affymetrix-snp6.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "methods/affymetrix-u133-plus2.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "datasets/mcl_idibips_2013.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/SOX11.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "cancer_types/OS.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "cancer_types/PCM.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/UBR5.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/B2M.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/CDKN2A.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "cancer_types/FL.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/MYD88.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/CARD11.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/EZH2.md"
+    },
+    {
+      "from": "papers/24145436.md",
+      "to": "genes/SF3B1.md"
     },
     {
       "from": "papers/24892406.md",

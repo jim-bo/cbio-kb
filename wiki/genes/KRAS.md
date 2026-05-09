@@ -60,6 +60,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Part of the non-FLT3 activated signaling gene subgroup in [AML](../cancer_types/AML.md) (with [KIT](../genes/KIT.md), [NRAS](../genes/NRAS.md), [PTPN11](../genes/PTPN11.md)); contributes to the 59% signaling-pathway prevalence; activating mutations also implicated in alternative WNT/β-catenin activation in endometrial cancer (53% in POLE-ultramutated subgroup; mutually exclusive with [CTNNB1](../genes/CTNNB1.md) and [SOX17](../genes/SOX17.md)) [PMID:23634996](../papers/23634996.md)
 - Mutated in 53% of POLE-ultramutated endometrial tumors; activating mutations implicated in WNT/β-catenin pathway activation; mutually exclusive with [CTNNB1](../genes/CTNNB1.md) and [SOX17](../genes/SOX17.md); molecular profiling of KRAS status contributed to reclassification of histologically ambiguous high-grade endometrial cases [PMID:23636398](../papers/23636398.md)
 - Non-hotspot compound mutations on the same allele in 2 pilocytic astrocytoma cases (E63K/R73M; L19F/Q22K), distinct from classical codon 12/13/61 hotspots; functional significance remains to be characterized [PMID:23817572](../papers/23817572.md)
+- Mutation in ~4% of high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); mutual exclusivity with other RTK/RAS/RAF alterations suggests overlapping phenotypic effects [PMID:23897969](../papers/23897969.md)
+- Centered as the key driver in a co-clinical trial in KRAS-mutant [LUAD](../cancer_types/LUAD.md) testing [selumetinib](../drugs/selumetinib.md) plus [docetaxel](../drugs/docetaxel.md); murine GEM arm delivered predictive response data and surfaced [STK11](../genes/STK11.md) loss as a genetic modifier of response, informing retrospective reanalysis of the parallel human phase II study [PMID:23999436](../papers/23999436.md)
+- Confirmed recurrent driver mutation in transitional cell carcinoma (BLCA) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the 37-significantly-mutated-gene analysis [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -190,5 +193,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23999436](../papers/23999436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

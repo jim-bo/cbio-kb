@@ -3,8 +3,8 @@ symbol: UBR5
 aliases: [EDD1]
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-06"
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # UBR5
@@ -16,6 +16,7 @@ UBR5 (Ubiquitin Protein Ligase E3 Component N-Recognin 5), also known as EDD1, e
 ## Alterations observed in the corpus
 
 - Mutations in 6.2% (4/65) of triple-negative breast cancers in a WGS cohort [PMID:22495314](../papers/22495314.md)
+- UBR5 (ubiquitin-ligase) mutations observed as recurrent alterations in [MCL](../cancer_types/MCL.md) (mantle cell lymphoma) per Meissner et al., 2013; confirmed in this WES cohort [PMID:24145436](../papers/24145436.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ UBR5 (Ubiquitin Protein Ligase E3 Component N-Recognin 5), also known as EDD1, e
 
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

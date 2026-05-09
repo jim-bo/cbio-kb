@@ -9,7 +9,7 @@ tags:
   - cytotoxic
   - pyrimidine-antimetabolite
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # gemcitabine
@@ -24,6 +24,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - **Sarcoma PDTO sensitivity**: tested in the UCLA pediatric/adult sarcoma patient-derived organoid pharmacotyping screen — distinct subtype-specific response patterns observed across [LMS](../cancer_types/LMS.md), [RMS](../cancer_types/RMS.md), [SYNS](../cancer_types/SYNS.md), and other sarcomas. [PMID:39305899](../papers/39305899.md)
 - **Urothelial cancer (mUC)**: gemcitabine + [cisplatin](../drugs/cisplatin.md) (GC) is the standard cytotoxic backbone in metastatic urothelial carcinoma; the CALGB 90601 cohort profiled cfDNA dynamics under GC ± [bevacizumab](../drugs/bevacizumab.md). [PMID:40256659](../papers/40256659.md)
 - 143 metastatic gallbladder carcinoma patients received gemcitabine/platinum (mostly [cisplatin](../drugs/cisplatin.md)) as first-line chemotherapy among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT at MSK (2014--2021) [PMID:36228155](../papers/36228155.md)
+- Combined with [saridegib](../drugs/saridegib.md) (IPI-926, Smoothened inhibitor) in a co-clinical [PAAD](../cancer_types/PAAD.md) trial (NCT01130142); despite positive preclinical signal in GEM mice, the human phase II arm was halted for inferior survival, illustrating risks of preclinical-to-clinical translation without chronic-dosing validation [PMID:23999436](../papers/23999436.md).
 
 ## Resistance mechanisms
 
@@ -44,7 +45,10 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 
 *Page last touched by entity-page-writer on 2026-05-01.*
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23999436](../papers/23999436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

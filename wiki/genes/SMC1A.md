@@ -15,7 +15,8 @@ SMC1A encodes structural maintenance of chromosomes protein 1A, a core ATPase su
 
 ## Alterations observed in the corpus
 
-- SMC1A is a recurrent cohesin-complex gene mutated in AML (13% combined cohesin prevalence alongside SMC3, RAD21, and STAG2) [PMID:23634996](../papers/23634996.md)
+- SMC1A is a recurrent cohesin-complex gene mutated in [AML](../cancer_types/AML.md) (13% combined cohesin prevalence alongside [SMC3](../genes/SMC3.md), [RAD21](../genes/RAD21.md), and [STAG2](../genes/STAG2.md)) [PMID:23634996](../papers/23634996.md)
+- Cohesin subunit altered in 3% of transitional cell carcinoma; part of the 32% SCCS-pathway alteration burden defining bladder cancer as the first solid tumor with predominant cohesin lesions [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ SMC1A encodes structural maintenance of chromosomes protein 1A, a core ATPase su
 
 ## Co-occurrence and mutual exclusivity
 
-- SMC1A co-mutated with other cohesin subunits (SMC3, RAD21, STAG2) in AML; cohesin gene mutations are part of a mutual-exclusivity group vs. ASXL1 [PMID:23634996](../papers/23634996.md)
+- SMC1A co-mutated with other cohesin subunits (SMC3, RAD21, STAG2) in AML; cohesin gene mutations are part of a mutual-exclusivity group vs. [ASXL1](../genes/ASXL1.md) [PMID:23634996](../papers/23634996.md)
 
 ## Therapeutic relevance
 
@@ -36,5 +37,8 @@ SMC1A encodes structural maintenance of chromosomes protein 1A, a core ATPase su
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

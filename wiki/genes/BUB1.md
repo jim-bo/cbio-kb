@@ -3,8 +3,8 @@ symbol: BUB1
 aliases: []
 cancer_types: [BRCA]
 tags: [mitosis, spindle-assembly-checkpoint, cell-cycle]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # BUB1
@@ -16,6 +16,7 @@ BUB1 (BUB1 Mitotic Checkpoint Serine/Threonine Kinase) encodes a kinase essentia
 ## Alterations observed in the corpus
 
 - Upregulated in the basal-like IntClust 10 subgroup as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- No genomic alterations observed in this bladder TCC cohort (99 tumors) despite BUB1 being reported altered in other cancer types; BUB3, MAD1L1, MAD2L1, and CENPE were similarly unaltered [PMID:24121792](../papers/24121792.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ BUB1 (BUB1 Mitotic Checkpoint Serine/Threonine Kinase) encodes a kinase essentia
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

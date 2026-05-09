@@ -17,10 +17,11 @@ RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effec
 
 ## Alterations observed in the corpus
 
-- RAF1 is listed as a MAPK pathway gene of interest in the context of a pan-cancer [BRAF](../genes/BRAF.md) fusion study spanning 97,024 MSK-sequenced samples; [BRAF](../genes/BRAF.md) fusions were mutually exclusive with other MAPK pathway driver alterations (including RAF1) across the 212-patient BRAF fusion-positive cohort [PMID:38922339](../papers/38922339.md).
+- RAF1 is listed as a MAPK pathway gene of interest in the context of a pan-cancer [BRAF](../genes/BRAF.md) fusion study spanning 97,024 MSK-sequenced samples; [BRAF](../genes/BRAF.md) fusions were mutually exclusive with other MAPK pathway driver alterations (including RAF1) across the 212-patient [BRAF](../genes/BRAF.md) fusion-positive cohort [PMID:38922339](../papers/38922339.md).
 - RAF1 is included as a MAPK-pathway gene in the genomic landscape of 2,336 PDAC patients sequenced with MSK-IMPACT; oncogenic MAPK-pathway alterations (including RAF1) are enriched in KRAS-WT tumors (60% of KRAS-WT vs 7% of KRAS-mutant, P = 1.6 × 10⁻⁴⁷), with activating fusions nearly exclusive to KRAS-WT PDAC. [PMID:39753968](../papers/39753968.md)
 - RAF1 S259F detected in CRC-resistant PDX (CLR113, CCF 10%) at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - RAF1 fusions in pilocytic astrocytoma cited as a known MAPK-activating mechanism analogous to [KIAA1549](../genes/KIAA1549.md):BRAF fusions; not directly identified in the 96-case WGS cohort but recognized as a recurrent alteration in this tumor type; MEK inhibition is the rational therapeutic approach for fusion-bearing tumors. [PMID:23817572](../papers/23817572.md)
+- Amplification in ~6% of high-grade urothelial carcinoma tumors as part of the MAPK-pathway alteration set [PMID:23897969](../papers/23897969.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effec
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23817572](../papers/23817572.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:23897969](../papers/23897969.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

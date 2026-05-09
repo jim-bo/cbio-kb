@@ -19,6 +19,7 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - DNMT3A is the most prevalent clonal hematopoiesis driver in MSK patients with nonhematologic cancer; in 26 patients who developed a hematologic malignancy, DNMT3A CH VAFs largely decreased at disease onset (in contrast to JAK2/TP53 expansion) [PMID:38147626](../papers/38147626.md).
 - HBx relocates DNMT3A to tumor suppressor gene promoters (e.g., p16/INK4A), causing regional hypermethylation in HBV-related [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
 - Among the most significantly mutated DNA-methylation genes in [AML](../cancer_types/AML.md); allelic expression bias observed; co-occurs with [NPM1](../genes/NPM1.md) and [FLT3](../genes/FLT3.md); mutually exclusive with transcription-factor fusions [PMID:23634996](../papers/23634996.md)
+- Somatic variants in 13 variants across 12 patients (epigenetic regulator) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

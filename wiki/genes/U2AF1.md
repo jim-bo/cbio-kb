@@ -18,6 +18,7 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - p.S34F hotspot mutation in 3% of [LUAD](../cancer_types/LUAD.md) cases (P = 2.0 x 10^-6); first report in an epithelial tumor; associated with reduced progression-free survival (P = 0.00011, log-rank) [PMID:22980975](../papers/22980975.md)
 - Co-occurred with [NF1](../genes/NF1.md) mutations (P = 0.0011) in the Broad [LUAD](../cancer_types/LUAD.md) cohort [PMID:22980975](../papers/22980975.md)
 - Identified as a spliceosome-complex gene recurrently mutated in [AML](../cancer_types/AML.md) (200 cases; TCGA); spliceosome category had 14% overall prevalence [PMID:23634996](../papers/23634996.md).
+- U2AF1 somatic splicing-factor mutations in 4 [MPN](../cancer_types/MPN.md) patients; co-mutated with [ASXL1](../genes/ASXL1.md) in myeloproliferative neoplasms alongside [CALR](../genes/CALR.md) discovery [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -25,7 +26,7 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurred with [NF1](../genes/NF1.md) mutations (P = 0.0011) in LUAD [PMID:22980975](../papers/22980975.md)
+- Co-occurred with [NF1](../genes/NF1.md) mutations (P = 0.0011) in [LUAD](../cancer_types/LUAD.md) [PMID:22980975](../papers/22980975.md)
 
 ## Therapeutic relevance
 
@@ -39,5 +40,8 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

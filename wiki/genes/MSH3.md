@@ -19,10 +19,12 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - Identified as a shared putative oncogenic mutation in an exceptional responder case of MSI-H/dMMR prostate cancer; clonal relatedness confirmed across serial tumor samples [PMID:38949888](../papers/38949888.md).
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Co-mutated with [MSH6](../genes/MSH6.md) in the most hypermutated MSI-positive esophageal adenocarcinoma (EAC) case in the 149-tumor Broad WES cohort; this MSI-positive case was excluded from significance analysis [PMID:23525077](../papers/23525077.md)
+- Somatic mutation in ACINAR01 (MSI-H) and other pancreatic acinar cell carcinomas; pathogenic significance unclear [PMID:24293293](../papers/24293293.md)
+- Heterozygous variant of uncertain significance (VUS) in PanNET patient PN1; MSI-stable prediction by MSIsensor [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
-- Colorectal cancer ([BRAF](../genes/BRAF.md) fusion-positive) — frequent co-mutation; may contribute to the MMR-deficient phenotype observed in some BRAF fusion-driven CRCs [PMID:38922339](../papers/38922339.md).
+- Colorectal cancer ([BRAF](../genes/BRAF.md) fusion-positive) — frequent co-mutation; may contribute to the MMR-deficient phenotype observed in some [BRAF](../genes/BRAF.md) fusion-driven CRCs [PMID:38922339](../papers/38922339.md).
 - Prostate cancer (MSI-H/dMMR) — clonal MSH3 mutation in an exceptional ICB responder [PMID:38949888](../papers/38949888.md).
 
 ## Co-occurrence and mutual exclusivity
@@ -49,5 +51,11 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23525077](../papers/23525077.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 canonical_source: cbioportal
 unverified: false
@@ -25,6 +25,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE assessed in metastatic UC (UC-GENOME cohort) in the context of tumor mutational burden and DNA repair pathway analysis [PMID:36333289](../papers/36333289.md)
 - Somatic mutations in the ultramutated subset of colorectal tumors lacking MSI-H; defines a distinct hypermutation mechanism in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Exonuclease-domain hotspots Pro286Arg and Val411Leu define the ultramutated endometrial cancer subgroup (Q=4.2×10⁻²³); associated with C→A transversion-rich mutational spectrum and improved progression-free survival [PMID:23636398](../papers/23636398.md)
+- No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLD1](../genes/POLD1.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -56,16 +57,19 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

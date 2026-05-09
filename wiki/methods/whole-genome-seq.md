@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -52,6 +52,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 42 deep-coverage [GBM](../cancer_types/GBM.md) tumor/normal pairs; detected 238 high-confidence somatic rearrangements including [EGFR](../genes/EGFR.md) intragenic events and one case of chromothripsis; identified [TERT](../genes/TERT.md) promoter mutations in 84% [PMID:24120142](../papers/24120142.md)
 - Applied at fourfold mean haploid coverage in 99 [BLCA](../cancer_types/BLCA.md) tumors; WGS mate-pair reads confirmed FGFR3-TACC3 fusion junctions detected by RNA-seq [PMID:24121792](../papers/24121792.md)
 - Applied to 4 [MCL](../cancer_types/MCL.md) tumor/normal pairs; detected ~3,700 somatic mutations per tumor (1.2/Mb) and identified kataegis foci in 3/4 cases around the t(11;14) breakpoint and Ig loci [PMID:24145436](../papers/24145436.md)
+- Paired tumor/normal whole-genome sequencing on Illumina (hg19, BWA alignment) for 28 metastatic neuroendocrine neoplasms in the BC Cancer POG program; combined with RNA-seq in an integrated WGTA approach that identified actionable alterations in 24/28 patients [PMID:24326773](../papers/24326773.md).
 
 ## Notes
 
@@ -151,3 +152,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

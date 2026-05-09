@@ -3,7 +3,7 @@ symbol: JAK2
 aliases: []
 cancer_types: []
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -18,6 +18,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - JAK2 was identified as a high-risk clonal hematopoiesis (CH) genotype conferring particularly high risk of subsequent hematologic malignancy in 42,714 MSK patients with nonhematologic cancer profiled by MSK-IMPACT matched-normal sequencing [PMID:38147626](../papers/38147626.md).
 - In 26 patients who developed a hematologic malignancy with paired post-diagnosis sequencing, JAK2 CH VAFs consistently expanded at disease onset (in contrast to [DNMT3A](../genes/DNMT3A.md) and silent CH VAFs which mostly decreased) [PMID:38147626](../papers/38147626.md).
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
+- V617F present in 48/48 (100%) [PV](../cancer_types/PV.md), 35/62 (56%) [ET](../cancer_types/ET.md), and 27/39 (69%) [MF](../cancer_types/MF.md) patients; strictly mutually exclusive with [CALR](../genes/CALR.md) and [MPL](../genes/MPL.md) mutations in whole-exome sequencing of myeloproliferative neoplasms [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,10 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

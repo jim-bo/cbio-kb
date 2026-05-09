@@ -32,6 +32,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used in adenoid cystic carcinoma study (n=60 tumor/normal pairs) to detect MYB-NFIB translocations on tissue microarrays via 3-color BAC probes; confirmed fusion in 57% (34/60) of cases [PMID:23685749](../papers/23685749.md)
 - Used in ACC exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
 - Used to validate [DHFR](../genes/DHFR.md) amplification at 5q detected in 14/99 (14%) TCC bladder tumors by WGS-based CNA analysis [PMID:24121792](../papers/24121792.md)
+- Applied to FFPE sections of 7 pancreatic neoplasms with acinar differentiation using proximal/distal labeled probes targeting chromosomes 11 ([ATM](../genes/ATM.md) locus), 15, and 22; revealed polysomy and dramatic intratumoral heterogeneity in 3 of 7 tumors and absence of chromosomal gains/losses in the MSI-H case [PMID:24293293](../papers/24293293.md).
 
 ## Notes
 
@@ -73,5 +74,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

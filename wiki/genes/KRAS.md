@@ -62,7 +62,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Non-hotspot compound mutations on the same allele in 2 pilocytic astrocytoma cases (E63K/R73M; L19F/Q22K), distinct from classical codon 12/13/61 hotspots; functional significance remains to be characterized [PMID:23817572](../papers/23817572.md)
 - Mutation in ~4% of high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); mutual exclusivity with other RTK/RAS/RAF alterations suggests overlapping phenotypic effects [PMID:23897969](../papers/23897969.md)
 - Centered as the key driver in a co-clinical trial in KRAS-mutant [LUAD](../cancer_types/LUAD.md) testing [selumetinib](../drugs/selumetinib.md) plus [docetaxel](../drugs/docetaxel.md); murine GEM arm delivered predictive response data and surfaced [STK11](../genes/STK11.md) loss as a genetic modifier of response, informing retrospective reanalysis of the parallel human phase II study [PMID:23999436](../papers/23999436.md)
-- Confirmed recurrent driver mutation in transitional cell carcinoma (BLCA) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the 37-significantly-mutated-gene analysis [PMID:24121792](../papers/24121792.md)
+- Confirmed recurrent driver mutation in transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the 37-significantly-mutated-gene analysis [PMID:24121792](../papers/24121792.md)
+- Single hotspot mutation detected in [IHCH](../cancer_types/IHCH.md) discovery screen; additional KRAS hits in prevalence screen confirm RAS signaling involvement in intrahepatic cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
+- Wild-type in all 23 pancreatic carcinomas with acinar differentiation (0/23), contrasting sharply with PDAC where KRAS mutation is near-universal [PMID:24293293](../papers/24293293.md)
+- Gain-of-function mutation identified in ovarian mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) PN19 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -202,5 +205,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -17,12 +17,13 @@ unverified: false
 
 ## Overview
 
-SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA splicing. Somatic mutations in SRSF2 are recurrent drivers in myeloid malignancies, particularly [MDS](../cancer_types/MDS.md) and chronic myelomonocytic leukemia (CMML). In [MDS](../cancer_types/MDS.md), SRSF2 mutations are associated with megakaryocyte dysplasia and frequently co-occur with other cohesin and splicing-factor mutations.
+SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA splicing. Somatic mutations in SRSF2 are recurrent drivers in myeloid malignancies, particularly [MDS](../cancer_types/MDS.md) and chronic myelomonocytic leukemia ([CMML](../cancer_types/CMML.md)). In [MDS](../cancer_types/MDS.md), SRSF2 mutations are associated with megakaryocyte dysplasia and frequently co-occur with other cohesin and splicing-factor mutations.
 
 ## Alterations observed in the corpus
 
-- SRSF2 mutations are associated with megakaryocyte dysplasia in the MDS discovery cohort (Tokyo), though the association is confounded by co-occurrence with [STAG2](../genes/STAG2.md) mutations in multivariable analysis [PMID:21909114](../papers/21909114.md)
+- SRSF2 mutations are associated with megakaryocyte dysplasia in the [MDS](../cancer_types/MDS.md) discovery cohort (Tokyo), though the association is confounded by co-occurrence with [STAG2](../genes/STAG2.md) mutations in multivariable analysis [PMID:21909114](../papers/21909114.md)
 - SRSF2 is a recurrent spliceosome-complex gene mutated in [AML](../cancer_types/AML.md) (14% combined prevalence with [U2AF1](../genes/U2AF1.md) and [SF3B1](../genes/SF3B1.md)) [PMID:23634996](../papers/23634996.md)
+- SRSF2 somatic splicing-factor mutation in 2 [MPN](../cancer_types/MPN.md) patients; co-mutated with [TET2](../genes/TET2.md), [IDH1](../genes/IDH1.md), and [ASXL1](../genes/ASXL1.md) — a co-mutation pattern echoing MDS [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -30,7 +31,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with STAG2, [RUNX1](../genes/RUNX1.md), [SETBP1](../genes/SETBP1.md), [SF3B1](../genes/SF3B1.md), and [TP53](../genes/TP53.md) mutations in the MDS Tokyo cohort; SRSF2-STAG2 co-mutation confounds individual morphologic associations [PMID:21909114](../papers/21909114.md)
+- Co-occurs with [STAG2](../genes/STAG2.md), [RUNX1](../genes/RUNX1.md), [SETBP1](../genes/SETBP1.md), [SF3B1](../genes/SF3B1.md), and [TP53](../genes/TP53.md) mutations in the MDS Tokyo cohort; SRSF2-STAG2 co-mutation confounds individual morphologic associations [PMID:21909114](../papers/21909114.md)
 
 ## Therapeutic relevance
 
@@ -46,5 +47,8 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

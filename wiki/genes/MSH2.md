@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # MSH2
@@ -22,6 +22,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MSH2 protein loss detected in 166/842 (20%) MMR-D tumors in a prospective pan-cancer cohort; significantly higher TMB than MLH1-loss tumors (median 46.5 vs 37.7 mut/Mb, P=0.0013). One discordant MSI-H false-positive case (Sample_54409, colon adenocarcinoma) carried an MSH2 E580* nonsense variant alongside a dominant [POLE](../genes/POLE.md) exonuclease-domain signature. [PMID:39746944](../papers/39746944.md)
 - MMR gene alterations ([MLH1](../genes/MLH1.md), MSH2, [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) identified as Lynch syndrome in 17/2,336 PDAC patients (0.7%); 6/17 were MSI-H. [PMID:39753968](../papers/39753968.md)
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
+- Biallelic somatic mutation in ACINAR01 (MSI-H pancreatic acinar cell carcinoma), with >90% of sequenced tags mutated; clear causal driver of microsatellite instability in this tumor [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

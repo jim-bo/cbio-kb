@@ -3,8 +3,8 @@ symbol: MAP2K1
 aliases: [MEK1]
 cancer_types: [LCH, ECD]
 tags: [mapk, histiocytosis, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # MAP2K1
@@ -20,6 +20,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - MEK1 (MAP2K1) mutations including R47_E62delinsQ detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
 - MAP2K1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - Identified as a significantly mutated gene (q<=0.2) by InVEx permutation framework in WES of 121 melanoma tumors [PMID:22817889](../papers/22817889.md)
+- Acquired resistance mutations (V60E, G128V, V154I, P124S, P124L) in 45 [BRAF](../genes/BRAF.md) V600-mutant melanoma patients receiving RAF/MEK inhibitors; all validated mutants conferred 10–80-fold [dabrafenib](../drugs/dabrafenib.md) and 3–20-fold [trametinib](../drugs/trametinib.md) resistance in A375 cells; pre-treatment G276W and F53Y variants associated with clinical benefit [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -44,13 +45,16 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

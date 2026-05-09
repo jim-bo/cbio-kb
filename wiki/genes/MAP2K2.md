@@ -4,7 +4,7 @@ aliases: [MEK2]
 cancer_types: [CLLSLL]
 tags: [mapk, novel-driver, cll]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-05-09
 ---
 
 # MAP2K2
@@ -16,6 +16,7 @@ MAP2K2 (MEK2) is a MAPK kinase paralog of [MAP2K1](../genes/MAP2K1.md). In CLL i
 ## Alterations observed in the corpus
 
 - Novel CLL driver identified via [CLUMPS](../methods/clumps.md) 3-D clustering; 3 mutations in the kinase domain, inferred to activate ERK signaling analogous to [MAP2K1](../genes/MAP2K1.md) [PMID:35927489](../papers/35927489.md).
+- Novel RAF-inhibitor resistance gene; acquired mutations V35M, L46F, C125S, N126D identified in [BRAF](../genes/BRAF.md) V600-mutant melanoma patients; C125S confers >100-fold cross-resistance to both RAF and MEK inhibition [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ MAP2K2 (MEK2) is a MAPK kinase paralog of [MAP2K1](../genes/MAP2K1.md). In CLL i
 
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -8,7 +8,7 @@ tags:
   - acinar-cell-carcinoma
   - rare
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-09
 ---
 
 # Acinar Cell Carcinoma of the Pancreas (PAAC)
@@ -24,6 +24,7 @@ Acinar cell carcinoma of the pancreas is a rare malignant pancreatic tumor accou
 ## Recurrent alterations
 
 - No PAAC-specific alterations separately reported in MSK-CHORD; the pancreatic cancer cohort (n=3,109) pools [PAAD](../cancer_types/PAAD.md) and PAAC. TP53-pathway alterations were associated with higher liver but lower CNS metastasis across pancreatic cancer. [PMID:39506116](../papers/39506116.md)
+- First whole-exome sequencing study of 17 acinar cell carcinomas (plus 3 mixed acinar-ductal and 2 pancreatoblastomas) found mean 119 somatic mutations per tumor, no [KRAS](../genes/KRAS.md) mutations, and recurrent alterations in [SMAD4](../genes/SMAD4.md) (26%), [JAK1](../genes/JAK1.md) (17%), [BRAF](../genes/BRAF.md) (13%), [RB1](../genes/RB1.md) (13%), and [TP53](../genes/TP53.md) (13%); >43% carried potentially targetable alterations in the Fanconi anemia pathway ([BRCA2](../genes/BRCA2.md), [PALB2](../genes/PALB2.md), [ATM](../genes/ATM.md), [BAP1](../genes/BAP1.md)) or BRAF/JAK1. [PMID:24293293](../papers/24293293.md)
 
 ## Subtypes
 
@@ -39,4 +40,7 @@ Acinar cell carcinoma of the pancreas is a rare malignant pancreatic tumor accou
 
 - [PMID:39506116](../papers/39506116.md) — Gao et al. *Nature Medicine* 2024. MSK-CHORD clinicogenomic real-world dataset.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

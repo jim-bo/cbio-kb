@@ -25,6 +25,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA amplification detected in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
 - Copy number amplification in Basal-like breast cancer; identified as a potential druggable target in TCGA 510-tumor cohort [PMID:23000897](../papers/23000897.md)
 - Focal amplification in 13.1% of [GBM](../cancer_types/GBM.md); intragenic Δ8,9 splice variant and novel Δ2–7 identified; concurrent with [EGFR](../genes/EGFR.md) alteration in 42.4% of PDGFRA-altered cases [PMID:24120142](../papers/24120142.md)
+- High PDGFRA expression cited as a rationale for [sunitinib](../drugs/sunitinib.md) therapy in metastatic NEN patients PN2 and PN10 in a WGTA precision-oncology study [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -68,5 +69,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

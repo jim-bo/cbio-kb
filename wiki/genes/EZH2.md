@@ -28,11 +28,12 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 - Somatic mutations detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); loss-of-function mutations implicated in epigenetic dysregulation [PMID:23334668](../papers/23334668.md)
 - Member of the chromatin-modifying gene category (with [KDM6A](../genes/KDM6A.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md)) recurrently mutated in [AML](../cancer_types/AML.md); contributes to the epigenetic regulation landscape of the disease [PMID:23634996](../papers/23634996.md)
+- Somatic variants identified in 4 patients in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
 - DLBCL (GCB subtype): Y641 hotspot mutations confer enhanced PRC2 activity, silencing target genes and driving GCB B-cell differentiation block [PMID:21796119](../papers/21796119.md)
-- FL: Y641 mutations also recurrent, supporting a shared epigenetic mechanism with DLBCL [PMID:21796119](../papers/21796119.md)
+- [FL](../cancer_types/FL.md): Y641 mutations also recurrent, supporting a shared epigenetic mechanism with DLBCL [PMID:21796119](../papers/21796119.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -70,5 +71,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -22,10 +22,11 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort), implicating PI3K pathway dysregulation [PMID:22610119](../papers/22610119.md)
 - Mutations in 2% of non-hypermutated colorectal tumors; mutually exclusive with [PIK3CA](../genes/PIK3CA.md) and [PTEN](../genes/PTEN.md) loss in 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Identified as a novel significantly mutated gene (SMG) in TCGA breast cancer (510 tumors, [brca_tcga_pub](../datasets/brca_tcga_pub.md)); statistically significant mutual exclusivity with [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), and [AKT1](../genes/AKT1.md) mutations (P=0.025) across all breast cancer subtypes [PMID:23000897](../papers/23000897.md)
-- Mutated in 5/145 EAC tumors as part of PI3K-pathway alterations alongside PIK3CA and PTEN [PMID:23525077](../papers/23525077.md)
+- Mutated in 5/145 EAC tumors as part of PI3K-pathway alterations alongside [PIK3CA](../genes/PIK3CA.md) and [PTEN](../genes/PTEN.md) [PMID:23525077](../papers/23525077.md)
 - Co-deleted with PTEN in one chromoplexy chain in prostate cancer; represents PI3K-pathway disruption via structural rearrangement rather than point mutation [PMID:23622249](../papers/23622249.md)
 - Mutated in 65% of POLE-ultramutated endometrial tumors; mutually exclusive with PIK3CA across all endometrial subgroups [PMID:23636398](../papers/23636398.md)
 - PI3K p85α regulatory subunit altered as part of the PI3K-family mutation cluster in 18.3% of [GBM](../cancer_types/GBM.md) (PIK3CA/PIK3R1 combined) [PMID:24120142](../papers/24120142.md)
+- Variants of uncertain significance identified in BRAF-inhibitor-resistant melanoma tumors; larger cohort validation and functional experiments needed to clarify contribution to resistance [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -74,5 +75,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

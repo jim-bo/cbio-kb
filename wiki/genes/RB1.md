@@ -48,6 +48,8 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Mutation/deletion in 15% of high-grade bladder tumors; enriched in high-CNA-burden (P<0.003) and neuroendocrine subsets (50% vs 13%; P=0.01); inversely correlated with CCND1/CCNE1 amplification [PMID:23897969](../papers/23897969.md)
 - Direct mutation/deletion in 7.6% of [GBM](../cancer_types/GBM.md); Rb-pathway dysregulation overall in 78.9% [PMID:24120142](../papers/24120142.md)
 - Confirmed recurrent driver mutation in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
+- RB1 inactivating mutations found in 3/23 (13%) pancreatic carcinomas with acinar differentiation [PMID:24293293](../papers/24293293.md)
+- RB1 recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms; RB1 loss noted in ovarian MiNEN PN19 alongside [TP53](../genes/TP53.md) loss [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -151,5 +153,11 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

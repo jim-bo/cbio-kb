@@ -21,7 +21,9 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [IDH1](../genes/IDH1.md) or IDH2 mutation was confirmed in all 6 grade II oligodendrogliomas by Sanger sequencing and whole-exome sequencing; IDH mutations co-occur with 1p/19q codeletion confirmed by FISH in all six tumors [PMID:27806376](../papers/27806376.md).
 - IDH2 mutations were identified among recurrent genomic alterations in prostate cancer by integrative genomic profiling [PMID:20579941](../papers/20579941.md)
 - Recurrently mutated in [AML](../cancer_types/AML.md); IDH2 mutations co-occur with distinctive CpG methylation patterns; contribute to prognostic stratification of intermediate-risk patients alongside [IDH1](../genes/IDH1.md) and [TET2](../genes/TET2.md) [PMID:23634996](../papers/23634996.md)
-- No IDH2 mutations detected in the TCGA 2013 primary [GBM](../cancer_types/GBM.md) cohort (n=291 WES/291 tumor-normal pairs); only [IDH1](../genes/IDH1.md) R132H/G/C mutations were observed (6% of cases), emphasizing IDH2 as non-driver in primary adult GBM [PMID:24120142](../papers/24120142.md)
+- No IDH2 mutations detected in the TCGA 2013 primary [GBM](../cancer_types/GBM.md) cohort (n=291 WES/291 tumor-normal pairs); only [IDH1](../genes/IDH1.md) R132H/G/C mutations were observed (6% of cases), emphasizing IDH2 as non-driver in primary adult [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
+- Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH1](../genes/IDH1.md)) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
+- Codon 172 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); absent in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) in this study; IDH mutation associated with worse 3-year survival (HR 7.37, P=0.037 adjusted) [PMID:24185509](../papers/24185509.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +57,11 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

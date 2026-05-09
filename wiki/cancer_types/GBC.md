@@ -5,7 +5,7 @@ main_type: Hepatobiliary Cancer
 parent: BILIARY_TRACT
 tags: [biliary, hepatobiliary]
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # Gallbladder Cancer (GBC)
@@ -21,7 +21,8 @@ Gallbladder carcinoma; in the corpus it is grouped with extrahepatic cholangioca
 ## Recurrent alterations
 
 - EHC/GBC class characterized by [KRAS](../genes/KRAS.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) loss [PMID:38864854](../papers/38864854.md).
-- Largest single-institution genomic characterization of gallbladder carcinoma (233 patients / 244 samples via MSK-IMPACT): most frequent oncogenic alterations are [TP53](../genes/TP53.md) (63%), [CDKN2A](../genes/CDKN2A.md) deletions (21%), [SMAD4](../genes/SMAD4.md) (19%), [ARID1A](../genes/ARID1A.md) (18%), and [ERBB2](../genes/ERBB2.md) (15%); SMAD4 and [STK11](../genes/STK11.md) mutations independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease; 35% of patients harbored actionable alterations (OncoKB levels 1/3A/3B) and 18% received biomarker-directed therapy [PMID:36228155](../papers/36228155.md)
+- Largest single-institution genomic characterization of gallbladder carcinoma (233 patients / 244 samples via MSK-IMPACT): most frequent oncogenic alterations are [TP53](../genes/TP53.md) (63%), [CDKN2A](../genes/CDKN2A.md) deletions (21%), [SMAD4](../genes/SMAD4.md) (19%), [ARID1A](../genes/ARID1A.md) (18%), and [ERBB2](../genes/ERBB2.md) (15%); [SMAD4](../genes/SMAD4.md) and [STK11](../genes/STK11.md) mutations independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease; 35% of patients harbored actionable alterations (OncoKB levels 1/3A/3B) and 18% received biomarker-directed therapy [PMID:36228155](../papers/36228155.md)
+- Whole-exome sequencing of 16 gallbladder carcinomas (8 discovery + 8 prevalence screen) showed [TP53](../genes/TP53.md) as the dominant driver (44% combined), with [PBRM1](../genes/PBRM1.md) in 25%. Absent IDH1/IDH2 and BAP1/ARID1A mutations contrast sharply with intrahepatic cholangiocarcinoma, supporting genetically distinct biology despite shared biliary origin. [PMID:24185509](../papers/24185509.md)
 
 ## Subtypes
 
@@ -35,4 +36,7 @@ Gallbladder carcinoma; in the corpus it is grouped with extrahepatic cholangioca
 
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

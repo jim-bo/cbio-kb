@@ -31,6 +31,9 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; SMAD4 loss is one of the most frequent events in pancreatic ductal adenocarcinoma [PMID:23103869](../papers/23103869.md)
 - SMAD4 is mutated in 10/145 (7%) esophageal adenocarcinoma tumors as the most recurrently altered gene in the TGFβ/SMAD pathway (18% of EAC when including copy-number loss) [PMID:23525077](../papers/23525077.md)
 - SMAD4 is disrupted by chromoplexy in one prostate tumor (P05-3852) within the same rearrangement chain that produced the TMPRSS2-ERG fusion across 6 chromosomes [PMID:23622249](../papers/23622249.md)
+- SMAD4 included in prevalence-screen panel for intrahepatic cholangiocarcinoma and gallbladder cancer; no SMAD4 mutations identified in [IHCH](../cancer_types/IHCH.md) in this study [PMID:24185509](../papers/24185509.md)
+- SMAD4 somatic mutation in 6/23 (26%) pancreatic carcinomas with acinar differentiation; LOH at 18q in 13/23 (57%); most frequent mutation target overall in this cohort [PMID:24293293](../papers/24293293.md)
+- SMAD4 loss-of-function identified in ovarian mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) PN19 in a WGTA-guided NEN precision oncology cohort [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +90,14 @@ SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function muta
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

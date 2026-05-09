@@ -27,7 +27,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET amplification and expression were characterized across 947 cancer cell lines in the CCLE pharmacogenomic profiling study, enabling correlation with sensitivity to targeted drugs [PMID:22460905](../papers/22460905.md)
 - Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, [IGF1R](../genes/IGF1R.md), [KIT](../genes/KIT.md), [PDGFRA](../genes/PDGFRA.md)) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
 - Alteration in ~2% of high-grade urothelial bladder tumors; part of the RTK–RAS–RAF pathway alteration landscape [PMID:23897969](../papers/23897969.md)
-- RTK intratumoral heterogeneity: co-existing EGFR/PDGFRA/MET alterations within individual [GBM](../cancer_types/GBM.md) tumors cannot be resolved by bulk profiling; MET noted as part of the RTK alteration landscape in GBM [PMID:24120142](../papers/24120142.md)
+- RTK intratumoral heterogeneity: co-existing EGFR/PDGFRA/MET alterations within individual [GBM](../cancer_types/GBM.md) tumors cannot be resolved by bulk profiling; MET noted as part of the RTK alteration landscape in [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
+- High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

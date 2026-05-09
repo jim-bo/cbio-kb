@@ -245,3 +245,18 @@
 - method: prada — observed in PMID:24120142 — note: RNA-seq fusion detection pipeline (MD Anderson); 164 GBM transcriptomes; detected EGFR-SEPT14, FGFR3-TACC3, and PDGFRA splice variants
 - method: memo — observed in PMID:24120142 — note: mutual exclusivity modules algorithm; applied to 291 GBM exomes; identified pathway-level mutual exclusivity (CMG p=0.0008, PI3K/PTEN p=0.0047)
 - method: invex — observed in PMID:24120142 — note: Integrated Variant Explorer; used alongside MutSig to identify 71 significantly mutated genes in GBM including novel LZTR1
+- drug: vandetanib — observed in PMID:24326773 — note: multi-kinase RET/VEGFR2/EGFR inhibitor; guided by activating RET mutations in metastatic MTC (POG NEN WGTA cohort)
+- drug: selpercatinib — observed in PMID:24326773 — note: selective RET inhibitor (LOXO-292); PN7 MTC patient achieved 1423 days stable disease; guided by activating RET mutations
+- drug: octreotide — observed in PMID:24326773 — note: somatostatin analog; SSTR2/SSTR5 expression-guided selection in metastatic NENs (PN5, PN7, PN10, PN23, PN28); PN23 duration 1972 days
+- drug: lanreotide — observed in PMID:24326773 — note: long-acting somatostatin analog; SSTR2 expression-guided selection in metastatic NENs alongside octreotide (POG NEN WGTA cohort)
+- method: msi-pcr-pentaplex — observed in PMID:24293293 — note: Promega 5-mononucleotide pentaplex (BAT-25, BAT-26, NR-21, NR-24, MONO-27) MSI testing in pancreatic acinar carcinomas
+- method: qmsp — observed in PMID:24293293 — note: quantitative methylation-specific PCR for BRCA1/MLH1 promoter methylation in pancreatic acinar carcinomas (EZ bisulfite conversion)
+- method: mutational-signatures — observed in PMID:24326773 — note: COSMIC v3 mutational signature decomposition in 28 metastatic NENs (POG WGTA); APOBEC, dMMR, platinum signatures identified
+- method: consensus-hierarchical-clustering — observed in PMID:24326773 — note: ConsensusClusterPlus (Spearman distance, k=3) defining three NEN transcriptome clusters in pog570_bcgsc_2020
+- method: tsne — observed in PMID:24326773 — note: t-SNE visualization of transcriptome relationships in 28 metastatic NENs; POG NENs cluster away from TCGA primaries
+- method: viper — observed in PMID:24326773 — note: VIPER master-regulator inference identifying MYC activation in Cluster B and MEN1/DAXX inhibition in Cluster A NENs
+- method: strelka — observed in PMID:24326773 — note: somatic SNV/indel calling from WGS (hg19 BWA) for 28 metastatic NENs in BC Cancer POG program
+- method: bwa — observed in PMID:24326773 — note: BWA alignment of WGS reads to hg19 for 28 metastatic NENs in BC Cancer POG WGTA pipeline
+- method: star — observed in PMID:24326773 — note: STAR alignment of RNA-seq reads to hg38 for 28 metastatic NENs in BC Cancer POG WGTA pipeline; paired with RSEM
+- method: rsem — observed in PMID:24326773 — note: RSEM transcript quantification from STAR-aligned RNA-seq in 28 metastatic NENs (pog570_bcgsc_2020)
+- method: edger — observed in PMID:24326773 — note: edgeR differential expression analysis across transcriptome clusters in 28 metastatic NENs (pog570_bcgsc_2020)

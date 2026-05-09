@@ -21,7 +21,8 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - ASXL1 recurrently mutated in myelodysplastic syndrome ([MDS](../cancer_types/MDS.md)) in a Tokyo cohort study identifying recurrent [STAG2](../genes/STAG2.md) and co-occurring epigenetic regulator mutations [PMID:21909114](../papers/21909114.md)
 - ASXL1 mutations observed in breast cancer WES of 100 tumors, linking Polycomb-associated chromatin regulation to breast cancer [PMID:22722201](../papers/22722201.md)
 - ASXL1 mutations detected in prostate cancer WES of 112 tumors (Michigan cohort), implicating chromatin deregulation in prostate cancer [PMID:22722839](../papers/22722839.md)
-- Anchor of the third mutual-exclusivity set in [AML](../cancer_types/AML.md) (vs. cohesin-complex and other epigenetic modifier mutations); part of the epigenetic-modifier gene category in the TCGA AML cohort ([laml_tcga_pub](../datasets/laml_tcga_pub.md), n=200) [PMID:23634996](../papers/23634996.md)
+- Anchor of the third mutual-exclusivity set in [AML](../cancer_types/AML.md) (vs. cohesin-complex and other epigenetic modifier mutations); part of the epigenetic-modifier gene category in the TCGA [AML](../cancer_types/AML.md) cohort ([laml_tcga_pub](../datasets/laml_tcga_pub.md), n=200) [PMID:23634996](../papers/23634996.md)
+- Somatic variants in 13/12 patients across [MPN](../cancer_types/MPN.md) subtypes (PV/ET/MF); co-mutated with splicing factors [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md) in a pattern echoing [MDS](../cancer_types/MDS.md) [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

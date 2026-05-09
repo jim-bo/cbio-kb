@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -48,6 +48,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Somatic mutations in 3/65 TNBC cases in a WGS breast cancer cohort; BRCA2 pathway linked to sporadic breast cancer via [EMSY](../genes/EMSY.md) amplification [PMID:22495314](../papers/22495314.md)
 - Mutated in breast cancer (TCGA, 510 tumors); BRCA2 mutations identified across molecular subtypes, associated with homologous recombination deficiency [PMID:23000897](../papers/23000897.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
+- Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; Fanconi-anemia-pathway member, candidate for DNA cross-linking agents and PARP inhibition [PMID:24293293](../papers/24293293.md)
 
 ## Cancer types (linked)
 
@@ -119,3 +120,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

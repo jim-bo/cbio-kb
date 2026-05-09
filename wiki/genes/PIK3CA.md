@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -71,6 +71,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutation in 18% of high-grade bladder tumors (urothelial carcinoma); PIK3CA/AKT1 mutations confer sensitivity to MK-2206 in cell lines [PMID:23897969](../papers/23897969.md)
 - PI3K-family mutations (PIK3CA/PIK3R1 in p110α/p85α subunits) account for 18.3% of [GBM](../cancer_types/GBM.md) alterations; combined PI3K pathway alterations in 25.1% [PMID:24120142](../papers/24120142.md)
 - Confirmed recurrent driver mutation in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
+- PI3K pathway alteration in intrahepatic cholangiocarcinoma (IHCH); part of the 22% PI3K pathway alteration rate in the discovery-screen cohort [PMID:24185509](../papers/24185509.md)
+- Acquired H1047R hotspot mutation detected in a BRAF-inhibitor-resistant melanoma (Patient 48); combined MAPK + PI3K inhibition was synergistic in PTEN-null A2058 cells [PMID:24265153](../papers/24265153.md)
 
 ## Cancer types (linked)
 
@@ -232,3 +234,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

@@ -24,6 +24,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Applied in UC-GENOME study: Agilent SureSelect XT targeting 591 genes on Illumina NextSeq sequenced 191 of 218 metastatic urothelial carcinoma patients; treatment options identified in 69.3% but only 5.0% received targeted therapy [PMID:36333289](../papers/36333289.md)
 - Used in a two-panel design (50-gene and 95-gene clinical panels) to profile 235 [MDS](../cancer_types/MDS.md) bone marrow samples, linking somatic mutations ([STAG2](../genes/STAG2.md), [ASXL1](../genes/ASXL1.md)) to morphologic dysplasia features [PMID:21909114](../papers/21909114.md)
 - Applied to 172 [MCL](../cancer_types/MCL.md) patients in an independent validation cohort to confirm WES-identified mutations including NOTCH1/2, [NSD2](../genes/NSD2.md), [BIRC3](../genes/BIRC3.md), and [ATM](../genes/ATM.md) [PMID:24145436](../papers/24145436.md)
+- Custom Ion AmpliSeq panel targeting 17 driver genes ([AKT1](../genes/AKT1.md), [ARID1A](../genes/ARID1A.md), [BAP1](../genes/BAP1.md), [CDKN2A](../genes/CDKN2A.md), [CTNNB1](../genes/CTNNB1.md), IDH1/2, [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [PBRM1](../genes/PBRM1.md), PIK3C2A/G, [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [SMAD4](../genes/SMAD4.md), [TGFBR2](../genes/TGFBR2.md), [TP53](../genes/TP53.md)) run on Ion Torrent PGM (318 chip) at mean 1,276× depth for a prevalence screen of 40 additional IHCH/GBC tumors [PMID:24185509](../papers/24185509.md).
 
 ## Notes
 
@@ -45,5 +46,8 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

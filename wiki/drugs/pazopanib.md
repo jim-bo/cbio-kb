@@ -14,7 +14,7 @@ tags:
   - targeted-therapy
   - anti-angiogenic
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-09
 ---
 
 # pazopanib
@@ -27,6 +27,7 @@ Pazopanib is an FDA-approved multi-target tyrosine kinase inhibitor targeting VE
 
 - [RMS](../cancer_types/RMS.md) PDTOs from the UCLA functional sarcoma screen were significantly more sensitive than the pan-sarcoma average to pazopanib (p=0.049). [PMID:39305899](../papers/39305899.md)
 - Specimens from patients who had received ≥3 prior therapy lines showed a trend toward enhanced sensitivity to pazopanib (p=0.0062), consistent with a late-line activity profile in heavily pre-treated sarcomas. [PMID:39305899](../papers/39305899.md)
+- High [PIK3R2](../genes/PIK3R2.md) and [FGFR3](../genes/FGFR3.md) expression guided pazopanib recommendation in metastatic NEN patients (PN1, PN14, PN17, PN25) in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
 
 ## Resistance mechanisms
 
@@ -40,4 +41,7 @@ Pazopanib is an FDA-approved multi-target tyrosine kinase inhibitor targeting VE
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; [RMS](../cancer_types/RMS.md) subtype sensitivity and pre-treatment history associations.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

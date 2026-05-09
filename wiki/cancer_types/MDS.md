@@ -8,8 +8,8 @@ tags:
   - dysplasia
   - bone-marrow
   - cohesin
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # Myelodysplastic Syndromes (MDS)
@@ -29,9 +29,10 @@ Myelodysplastic syndromes (MDS) are a heterogeneous group of clonal hematopoieti
 - [ASXL1](../genes/ASXL1.md) — somatic mutations independently associated with separated megakaryocyte nuclei (enrichment cohort multivariable OR 2.55; P=0.018). [PMID:21909114](../papers/21909114.md)
 - [SF3B1](../genes/SF3B1.md) — mutations associated with ring sideroblasts and erythroid dysplasia. [PMID:21909114](../papers/21909114.md)
 - [TP53](../genes/TP53.md) — mutations associated with erythroid dysplasia. [PMID:21909114](../papers/21909114.md)
-- [SRSF2](../genes/SRSF2.md) — association with megakaryocyte dysplasia confounded by co-mutation with STAG2. [PMID:21909114](../papers/21909114.md)
+- [SRSF2](../genes/SRSF2.md) — association with megakaryocyte dysplasia confounded by co-mutation with [STAG2](../genes/STAG2.md). [PMID:21909114](../papers/21909114.md)
 - [RUNX1](../genes/RUNX1.md) — mutations associated with megakaryocytic dysplasia in univariate analysis. [PMID:21909114](../papers/21909114.md)
 - [SETBP1](../genes/SETBP1.md) — mutations independently associated with abnormal granulocytic nuclear segmentation (discovery cohort OR 12.2; P=0.042). [PMID:21909114](../papers/21909114.md)
+- [CALR](../genes/CALR.md) exon 9 frameshift indels were detected in 10/120 (8%; 95% CI 4-15) MDS cases in a Sanger sequencing screen of 1,345 hematologic cancers, making MDS the non-MPN cancer type with the highest CALR mutation prevalence in this study. [PMID:24325359](../papers/24325359.md)
 
 ## Subtypes
 
@@ -43,6 +44,9 @@ No direct therapeutic implications were demonstrated in the corpus studies for M
 
 ## Sources
 
-- [PMID:21909114](../papers/21909114.md) — STAG2 and ASXL1 mutations correlate with specific bone marrow dysplastic morphology in MDS (Tokyo/BWH cohorts, n=235 total).
+- [PMID:21909114](../papers/21909114.md) — STAG2 and [ASXL1](../genes/ASXL1.md) mutations correlate with specific bone marrow dysplastic morphology in MDS (Tokyo/BWH cohorts, n=235 total).
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

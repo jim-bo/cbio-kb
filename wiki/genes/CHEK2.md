@@ -24,6 +24,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Identified as pharmacogenomically relevant in NCI-60 cell line panel; CHEK2 alteration status correlates with drug sensitivity profiles in CellMiner analysis [PMID:22802077](../papers/22802077.md)
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); CHEK2 mutations identified among recurrently mutated DNA-damage checkpoint genes, implicating checkpoint deficiency in neuroblastoma pathogenesis [PMID:23334666](../papers/23334666.md)
 - Co-deleted with [TP53](../genes/TP53.md) in one prostate carcinoma chromoplexy chain; disrupted by structural rearrangement [PMID:23622249](../papers/23622249.md)
+- Missense somatic mutations in 1 patient each with [PV](../cancer_types/PV.md), [ET](../cancer_types/ET.md), and [MF](../cancer_types/MF.md) (q=0.008 by MutSigCV); not previously reported in [MPN](../cancer_types/MPN.md) at time of publication [PMID:24325359](../papers/24325359.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

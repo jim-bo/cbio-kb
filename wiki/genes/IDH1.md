@@ -26,6 +26,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - Recurrently mutated in [AML](../cancer_types/AML.md); mutant IDH1 samples show distinctive CpG methylation gains versus normal CD34+CD38− cells; IDH1/IDH2 mutations add prognostic value for intermediate-risk patients beyond current classification schemes [PMID:23634996](../papers/23634996.md)
 - IDH1 R132H hotspot mutation observed in 1 ACC tumor (catalytic-domain hotspot) [PMID:23685749](../papers/23685749.md)
 - R132H/G/C mutations in 6% (28/423 with adequate coverage) of primary [GBM](../cancer_types/GBM.md) (TCGA 2013); concurrent with [TP53](../genes/TP53.md) in 12/13 cases and [ATRX](../genes/ATRX.md) in many; all IDH1-mutant cases were G-CIMP+; no [IDH2](../genes/IDH2.md) mutations detected in the cohort [PMID:24120142](../papers/24120142.md)
+- Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH2](../genes/IDH2.md)); IDH1 co-mutated with [SRSF2](../genes/SRSF2.md) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) [PMID:24325359](../papers/24325359.md)
+- Codon 132 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); part of the combined 20% IDH mutation rate; IDH mutation associated with significantly worse 3-year survival (33% vs 81%, HR 7.37, P=0.037 adjusted) in a Johns Hopkins/Verona cohort [PMID:24185509](../papers/24185509.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +75,11 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

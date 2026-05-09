@@ -4,14 +4,14 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion, kinase, actionable]
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # RET
 
 ## Overview
 
-RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6-RET, and others) are established actionable drivers in non-small cell lung cancer and thyroid cancers, targetable by selective RET inhibitors such as selpercatinib and pralsetinib.
+RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6-RET, and others) are established actionable drivers in non-small cell lung cancer and thyroid cancers, targetable by selective RET inhibitors such as [selpercatinib](../drugs/selpercatinib.md) and pralsetinib.
 
 ## Alterations observed in the corpus
 
@@ -19,6 +19,7 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 - CCDC6-RET fusion detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
 - RET structural variants including fusions in 2 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - RET fusion in 5% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model [PMID:36038778](../papers/36038778.md)
+- RET activating (gain-of-function) mutations found in all three medullary thyroid carcinomas in a metastatic NEN cohort; supported RET-directed therapy ([vandetanib](../drugs/vandetanib.md), selpercatinib/LOXO-292, [sorafenib](../drugs/sorafenib.md), [cabozantinib](../drugs/cabozantinib.md)) with durable disease control [PMID:24326773](../papers/24326773.md)
 
 ## Cancer types (linked)
 
@@ -40,13 +41,16 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 
 - [PMID:39289779](../papers/39289779.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

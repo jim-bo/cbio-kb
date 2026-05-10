@@ -54,6 +54,10 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - V600E in 5/291 (1.7%) of [GBM](../cancer_types/GBM.md) (TCGA); never co-occurring with [NF1](../genes/NF1.md) alteration; supports vemurafenib-class therapy in selected [GBM](../cancer_types/GBM.md) patients [PMID:24120142](../papers/24120142.md)
 - V600 missense in 44/45 pre-treatment melanoma tumors; acquired focal amplification in 8.9% of dabrafenib/trametinib-resistant tumors; resistance via MAPK pathway reactivation or bypass mechanisms [PMID:24265153](../papers/24265153.md)
 - Somatic mutation in 3/23 (13%) pancreatic acinar carcinomas, including the V600E oncogenic hotspot; 2/3 mixed acinar-ductal carcinomas carried BRAF mutations; flagged as candidate for BRAF-inhibitor therapy [PMID:24293293](../papers/24293293.md)
+- V600E subclonal in the initial tumor of patient 18 (low-grade glioma) and undetectable in the matched recurrence; the BRAF-mutant clone did not expand despite the typical proliferative advantage of this alteration, demonstrating subclone extinction under treatment [PMID:24336570](../papers/24336570.md)
+- V600E found in 2 atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions); these precursor mutations were distinct from mutations in the matched AdCC components [PMID:24418857](../papers/24418857.md)
+- Activating mutations (including non-V600 K601N in U266 cell line and V600E in a clinical case) in multiple myeloma (MM); often subclonal; defines actionable subgroup for BRAF +/- MEK inhibition. BRAF-K601N U266 cells sensitive to PLX4720 and [dabrafenib](../drugs/dabrafenib.md) in vitro; combined dabrafenib+[trametinib](../drugs/trametinib.md) selectively killed BRAF-mutant MM cells [PMID:24434212](../papers/24434212.md)
+- V600E identified in one PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) tumor (RMSS013); recurrent in the RAS/MAPK pathway that is mutationally activated in >=45% of PAX-fusion-negative RMS [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -167,5 +171,17 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

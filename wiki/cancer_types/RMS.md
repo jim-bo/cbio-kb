@@ -4,8 +4,8 @@ oncotree_code: RMS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-09
 ---
 
 # Rhabdomyosarcoma (RMS)
@@ -24,6 +24,7 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - 85% [FOXO1](../genes/FOXO1.md) fusion–positive [ARMS](../cancer_types/ARMS.md), 7 fusion-negative [ERMS](../cancer_types/ERMS.md), 2 [MYOD1](../genes/MYOD1.md)-mutant spindle cell/sclerosing RMS [PMID:37315267](../papers/37315267.md).
 - 70% of [ARMS](../cancer_types/ARMS.md) carried [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md); remainder [PAX7](../genes/PAX7.md)::[FOXO1](../genes/FOXO1.md) [PMID:37315267](../papers/37315267.md).
 - [MED12](../genes/MED12.md) alterations, [CDK4](../genes/CDK4.md) amplifications, [CDKN2A](../genes/CDKN2A.md) deletions each 8–17% in [ARMS](../cancer_types/ARMS.md); CDK4/CDKN2A events mutually exclusive, enriched in acral/high-risk lesions, correlated with poor [OS](../cancer_types/OS.md) (P=.02) [PMID:37315267](../papers/37315267.md).
+- WGS/WES/RNA-seq of 147 rhabdomyosarcoma tumor/normal pairs showed PAX-fusion status (PFP vs PFN) outperforms ARMS/ERMS histology for molecular classification; the RTK/RAS/PIK3CA axis is altered in 93% of WGS tumors, with [NRAS](../genes/NRAS.md), [KRAS](../genes/KRAS.md), [HRAS](../genes/HRAS.md), [FGFR4](../genes/FGFR4.md), [PIK3CA](../genes/PIK3CA.md), and novel drivers [FBXW7](../genes/FBXW7.md) (7.4% of PFN) and [BCOR](../genes/BCOR.md) (7%) as recurrent targets [PMID:24436047](../papers/24436047.md).
 
 ## Subtypes
 
@@ -44,4 +45,6 @@ Rhabdomyosarcoma is a Soft Tissue Sarcoma (parent SOFT_TISSUE). Subtypes include
 - [PMID:37315267](../papers/37315267.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-09**.*

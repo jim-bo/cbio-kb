@@ -11,11 +11,12 @@ processed_at: 2026-05-09
 
 ## Overview
 
-PHF6 (Plant Homeodomain Finger 6) encodes a PHD-domain chromatin-associated protein. Mutations in PHF6 have been identified in T-cell acute lymphoblastic leukemia (T-ALL) and [AML](../cancer_types/AML.md), where it is considered a recurrent driver. The gene shows allelic expression bias in AML, consistent with monoallelic inactivation patterns.
+PHF6 (Plant Homeodomain Finger 6) encodes a PHD-domain chromatin-associated protein. Mutations in PHF6 have been identified in T-cell acute lymphoblastic leukemia (T-ALL) and [AML](../cancer_types/AML.md), where it is considered a recurrent driver. The gene shows allelic expression bias in [AML](../cancer_types/AML.md), consistent with monoallelic inactivation patterns.
 
 ## Alterations observed in the corpus
 
 - Identified as a recurrent driver in AML with allelic expression bias; part of the nine functional mutation categories defined across 200 AML cases [PMID:23634996](../papers/23634996.md)
+- Single nonsense mutation p.Arg347Ter (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -36,5 +37,8 @@ PHF6 (Plant Homeodomain Finger 6) encodes a PHD-domain chromatin-associated prot
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

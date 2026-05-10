@@ -3,7 +3,7 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -28,6 +28,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - R132H/G/C mutations in 6% (28/423 with adequate coverage) of primary [GBM](../cancer_types/GBM.md) (TCGA 2013); concurrent with [TP53](../genes/TP53.md) in 12/13 cases and [ATRX](../genes/ATRX.md) in many; all IDH1-mutant cases were G-CIMP+; no [IDH2](../genes/IDH2.md) mutations detected in the cohort [PMID:24120142](../papers/24120142.md)
 - Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH2](../genes/IDH2.md)); IDH1 co-mutated with [SRSF2](../genes/SRSF2.md) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) [PMID:24325359](../papers/24325359.md)
 - Codon 132 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); part of the combined 20% IDH mutation rate; IDH mutation associated with significantly worse 3-year survival (33% vs 81%, HR 7.37, P=0.037 adjusted) in a Johns Hopkins/Verona cohort [PMID:24185509](../papers/24185509.md)
+- IDH1 R132H present in every initial tumor and every patient-matched recurrence in a cohort of 23 low-grade glioma patients; the only universally shared mutation across all tumors and recurrences, reinforcing IDH1 as the initiating event in low-grade gliomagenesis; supports mutant-IDH1-directed therapy as a recurrence-spanning strategy [PMID:24336570](../papers/24336570.md)
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

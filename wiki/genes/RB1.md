@@ -50,6 +50,10 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Confirmed recurrent driver mutation in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - RB1 inactivating mutations found in 3/23 (13%) pancreatic carcinomas with acinar differentiation [PMID:24293293](../papers/24293293.md)
 - RB1 recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms; RB1 loss noted in ovarian MiNEN PN19 alongside [TP53](../genes/TP53.md) loss [PMID:24326773](../papers/24326773.md)
+- TMZ-associated c.2520+1G>A splice-site mutation drove aberrant splicing and loss of the C-terminal growth-suppression domain in a recurrent low-grade glioma; GSEA confirmed RB1-mediated cell-cycle control deregulation at recurrence [PMID:24336570](../papers/24336570.md)
+- Single-case frameshift mutation detected in sinonasal adenoid cystic carcinoma (AdCC) sequencing cohort; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
+- Significantly mutated in multiple myeloma (MM) in a comprehensive genomic analysis [PMID:24434212](../papers/24434212.md)
+- Inactivating mutations in 13% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md)); associated with reduced mRNA expression; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) deletions [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -159,5 +163,17 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

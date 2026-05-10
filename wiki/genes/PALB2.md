@@ -26,6 +26,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - PALB2 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study as part of HRD gene panel [PMID:36228155](../papers/36228155.md)
 - Germline splice-site variant plus somatic missense mutation in 2 neuroblastoma patients; [BRCA](../cancer_types/BRCA.md) complex member; identified in Broad WES/WGS cohort of 240 high-risk neuroblastoma tumors [PMID:23334666](../papers/23334666.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; identified as a Fanconi-anemia-pathway member, flagging potential sensitivity to DNA cross-linking agents and PARP inhibitors [PMID:24293293](../papers/24293293.md)
+- Single frameshift mutation (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort; PALB2 is a known BRCA2-interacting genome stability gene [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -37,7 +38,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 ## Therapeutic relevance
 
-- Germline PALB2 pathogenic variants with somatic second-hit (biallelic inactivation) in PDAC support PARP inhibitor eligibility; at least one patient in the MSK PDAC cohort achieved durable PARPi benefit. Better predictive biomarkers beyond biallelic inactivation status are still needed (6/16 biallelic BRCA2 PDAC patients did not respond to PARPi, suggesting the full HRD phenotype picture is incomplete). [PMID:39753968](../papers/39753968.md)
+- Germline PALB2 pathogenic variants with somatic second-hit (biallelic inactivation) in PDAC support PARP inhibitor eligibility; at least one patient in the MSK PDAC cohort achieved durable PARPi benefit. Better predictive biomarkers beyond biallelic inactivation status are still needed (6/16 biallelic [BRCA2](../genes/BRCA2.md) PDAC patients did not respond to PARPi, suggesting the full HRD phenotype picture is incomplete). [PMID:39753968](../papers/39753968.md)
 
 ## Open questions
 
@@ -55,5 +56,8 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

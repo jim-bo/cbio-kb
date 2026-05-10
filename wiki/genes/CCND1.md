@@ -40,6 +40,10 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated alongside [CCND2](../genes/CCND2.md) and [CCNE2](../genes/CCNE2.md) [PMID:24120142](../papers/24120142.md)
 - Focal amplification observed in bladder TCC (transitional cell carcinoma); part of a set of recurrently amplified oncogenes [PMID:24121792](../papers/24121792.md)
 - Exon-1 mutations in 10/29 (35%) WES mantle cell lymphoma cases; enriched in SOX11-negative (86%) and IGHV-mutated (58%) [MCL](../cancer_types/MCL.md), consistent with acquisition in the germinal-center microenvironment [PMID:24145436](../papers/24145436.md)
+- Single nonsense mutation p.Cys285Ter (suspected germline) in sinonasal AdCC; flagged as possible germline variant based on allele fraction, not validated against matched normal tissue [PMID:24418857](../papers/24418857.md)
+- 39 coding and non-coding mutations in multiple myeloma (MM); co-occurs with t(11;14) translocation — likely a somatic-hypermutation hotspot driven by AID; part of the significantly mutated cell-cycle gene set [PMID:24434212](../papers/24434212.md)
+- Low-frequency (1%) mitotic-checkpoint/cell-cycle hit in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) pediatric genomic landscape study [PMID:24436047](../papers/24436047.md)
+- Focal amplification in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); identified by GISTIC 2.0 analysis of TCGA bladder urothelial carcinoma cohort [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +118,17 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

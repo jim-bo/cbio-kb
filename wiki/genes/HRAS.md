@@ -25,6 +25,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Activating mutations strongly co-occur with [CASP8](../genes/CASP8.md) mutations in oral squamous cell carcinoma (OSCC); part of the mitogenic signaling pathway altered in 63% of HNSCC tumors [PMID:23619168](../papers/23619168.md)
 - Mutation present in a subset of bladder cancer cell lines and primary tumors within the MAPK-pathway alteration set (35% combined) in high-grade urothelial carcinoma; HRAS-mutant cell lines showed reduced sensitivity to the AKT inhibitor MK-2206 [PMID:23897969](../papers/23897969.md)
 - Confirmed recurrent driver mutation in transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the cohort [PMID:24121792](../papers/24121792.md)
+- HRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (4.3% frequency); no RAS mutations observed in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
+- HRAS identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +74,11 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

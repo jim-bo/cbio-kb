@@ -54,6 +54,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern noted across [GBM](../cancer_types/GBM.md) transcriptomic subtypes [PMID:24120142](../papers/24120142.md)
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
 - Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:24326773](../papers/24326773.md)
+- Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
 
 ## Cancer types (linked)
 
@@ -168,5 +169,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

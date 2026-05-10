@@ -3,7 +3,7 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG]
 tags: [epigenetic-regulator, relapse]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -31,6 +31,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - KAT11 domain missense mutations (R1446C, I1453N, W1472S) in 7% of ACC WES cohort (n=60); histone acetyltransferase designated CHASM driver [PMID:23685749](../papers/23685749.md)
 - Missense p.R1446C in the KAT11 domain in ACC; part of chromatin-remodeling gene cluster collectively mutated in 12/24 cases [PMID:23778141](../papers/23778141.md)
 - Mutation in bladder TCC as part of a chromatin-remodeling gene cluster altered in 58% of cases [PMID:24121792](../papers/24121792.md)
+- Single frameshift mutation p.Pro830LeufsTer19 in sinonasal AdCC (1/21 sequenced cases); part of the long tail of singleton mutations [PMID:24418857](../papers/24418857.md)
+- Significantly mutated histone acetyltransferase in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)); focal deletions targeting CREBBP identified by GISTIC 2.0; part of the 76% of tumours with inactivating chromatin regulator mutations [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -92,4 +94,10 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

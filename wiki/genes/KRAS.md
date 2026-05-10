@@ -66,6 +66,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Single hotspot mutation detected in [IHCH](../cancer_types/IHCH.md) discovery screen; additional KRAS hits in prevalence screen confirm RAS signaling involvement in intrahepatic cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
 - Wild-type in all 23 pancreatic carcinomas with acinar differentiation (0/23), contrasting sharply with PDAC where KRAS mutation is near-universal [PMID:24293293](../papers/24293293.md)
 - Gain-of-function mutation identified in ovarian mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) PN19 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- KRAS codon 12/13 oncogenic hotspot mutations recurrently detected in multiple myeloma (MM), particularly enriched in previously treated patients; mutations frequently subclonal and co-mutation with [BRAF](../genes/BRAF.md) was rarely simultaneously clonal [PMID:24434212](../papers/24434212.md)
+- KRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (6.4% frequency); no RAS mutations in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -214,5 +216,11 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

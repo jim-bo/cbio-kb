@@ -24,6 +24,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - Rare amplification event (<1% of patients) identified through the CNA-expression landscape in METABRIC (2,000 tumors); potentially relevant for tyrosine kinase inhibitor targeting [PMID:22522925](../papers/22522925.md)
 - Mutated in breast cancer (TCGA, 510 tumors); somatic alterations identified across intrinsic subtypes [PMID:23000897](../papers/23000897.md)
 - Located within a cluster-2 focal amplification at 15q26.2 in endometrial carcinoma; identified as a potential therapeutic target in the TCGA endometrial corpus analysis [PMID:23636398](../papers/23636398.md)
+- IGF1R focally amplified in 2.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of the 93%-targetable kinase signaling axis with approved or late-stage inhibitors [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -35,7 +36,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 ## Therapeutic relevance
 
-- High IGF1R expression predicts sensitivity to AEW541 (IGF-1R inhibitor) across 947 cancer cell lines in the CCLE; multiple myeloma is specifically proposed as a priority indication for IGF-1R-targeted therapy based on lineage-enriched co-expression of IGF1 and IGF1R [PMID:22460905](../papers/22460905.md)
+- High IGF1R expression predicts sensitivity to AEW541 (IGF-1R inhibitor) across 947 cancer cell lines in the CCLE; multiple myeloma is specifically proposed as a priority indication for IGF-1R-targeted therapy based on lineage-enriched co-expression of [IGF1](../genes/IGF1.md) and IGF1R [PMID:22460905](../papers/22460905.md)
 
 ## Open questions
 
@@ -53,5 +54,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

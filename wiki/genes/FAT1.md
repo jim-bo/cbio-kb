@@ -19,6 +19,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Recurrent SNVs identified by SeqSig analysis in anaplastic thyroid carcinoma (ATC); co-observed with [MET](../genes/MET.md), [NOTCH1](../genes/NOTCH1.md), [SPEN](../genes/SPEN.md), and [TET1](../genes/TET1.md) as recurrently mutated genes [PMID:38412093](../papers/38412093.md).
 - Hippo pathway-activating mutations observed in individual normal keratinocytes during evolution toward cutaneous squamous cell carcinoma (cSCC); less common than [TP53](../genes/TP53.md) and [NOTCH1](../genes/NOTCH1.md) in this context [PMID:39091884](../papers/39091884.md).
 - Mutated in 30% (12/40) of OSCC tumors (two-thirds inactivating); combined inactivation rate 46% when including focal deletions; candidate tumor suppressor linked to aberrant Wnt activation [PMID:23619168](../papers/23619168.md)
+- FAT1 P1665L mutation observed in 1 case of atypical sinonasal gland arising in seromucinous hamartoma (ASGSH precursor lesion) in sinonasal adenoid cystic carcinoma cohort [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -46,5 +47,8 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*

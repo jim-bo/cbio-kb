@@ -3,7 +3,7 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -33,6 +33,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Recurrent FGFR3-TACC3 in-frame inversion fusion detected by RNA-seq in 2/164 (1.2%) [GBM](../cancer_types/GBM.md) samples; focal co-amplification of FGFR3/TACC3 in 2.6% of [GBM](../cancer_types/GBM.md) CNA profiles; proposed as a candidate for FGFR inhibitor trials [PMID:24120142](../papers/24120142.md)
 - Recurrent activating point mutations (confirmed TCC driver) plus FGFR3-TACC3 in-frame fusion in 2/42 (5%) bladder tumors by RNA-seq; fusion confirmed by WGS junction-spanning reads; reinforces FGFR3 as a high-value therapeutic target in [BLCA](../cancer_types/BLCA.md) [PMID:24121792](../papers/24121792.md)
 - High expression or copy-number gain supported FGFR3-inhibitor or [pazopanib](../drugs/pazopanib.md) recommendations in NEN patients PN1, PN14, PN17, and PN25 in a precision oncology cohort [PMID:24326773](../papers/24326773.md)
+- FGFR3 kinase-activating mutations in 12% of muscle-invasive bladder cancers at canonical hotspots; recurrent in-frame FGFR3-TACC3 fusions (n=3); copy-number gain; enriched in mRNA cluster I (papillary-like); tumors with FGFR3 mutations, gains, or fusions may respond to FGFR inhibitors [PMID:24476821](../papers/24476821.md)
+- FGFR3 K650E mutation detected in the OPM2 multiple myeloma cell line used as BRAF-WT control in MAPK inhibitor assays [PMID:24434212](../papers/24434212.md)
 
 ## Cancer types (linked)
 
@@ -97,3 +99,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

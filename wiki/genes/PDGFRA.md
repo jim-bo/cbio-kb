@@ -26,6 +26,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Copy number amplification in Basal-like breast cancer; identified as a potential druggable target in TCGA 510-tumor cohort [PMID:23000897](../papers/23000897.md)
 - Focal amplification in 13.1% of [GBM](../cancer_types/GBM.md); intragenic Δ8,9 splice variant and novel Δ2–7 identified; concurrent with [EGFR](../genes/EGFR.md) alteration in 42.4% of PDGFRA-altered cases [PMID:24120142](../papers/24120142.md)
 - High PDGFRA expression cited as a rationale for [sunitinib](../drugs/sunitinib.md) therapy in metastatic NEN patients PN2 and PN10 in a WGTA precision-oncology study [PMID:24326773](../papers/24326773.md)
+- Single nasal-cavity case with missense p.Thr674Ile (AF 8%); the patient received targeted therapy with [imatinib](../drugs/imatinib.md) and was NED at 19 months — the only AdCC patient in the cohort to receive targeted therapy [PMID:24418857](../papers/24418857.md)
+- Recurrently mutated in rhabdomyosarcoma at 1.4% frequency (PFN-enriched); classified as a receptor tyrosine kinase driver [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +74,11 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -3,8 +3,8 @@ symbol: NFE2L2
 aliases: [NRF2]
 cancer_types: [LUSC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # NFE2L2
@@ -16,7 +16,8 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 ## Alterations observed in the corpus
 
 - Activating mutations at DLG/ETGE motifs identified as part of the 34% oxidative stress pathway alteration rate in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
-- Mutations are mutually exclusive with KEAP1 loss-of-function mutations [PMID:22960745](../papers/22960745.md)
+- Mutations are mutually exclusive with [KEAP1](../genes/KEAP1.md) loss-of-function mutations [PMID:22960745](../papers/22960745.md)
+- Deleterious missense mutations in the Neh2 domain in 11 tumors (8%) of muscle-invasive bladder carcinoma; mutually exclusive with [TXNIP](../genes/TXNIP.md) mutations; mutant tumors upregulated genotoxic-metabolism and ROS-response genes [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 
 - [PMID:22960745](../papers/22960745.md) — TCGA lung squamous cell carcinoma, 178 tumors
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

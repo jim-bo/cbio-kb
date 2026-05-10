@@ -63,7 +63,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 36 [SCLC](../cancer_types/SCLC.md) tumors (JHU) to identify recurrent [SOX2](../genes/SOX2.md) and [MYCL](../genes/MYCL.md) amplifications [PMID:22941189](../papers/22941189.md)
 - Applied to 178 [LUSC](../cancer_types/LUSC.md) tumors (TCGA) to define comprehensive somatic mutation landscape including [CDKN2A](../genes/CDKN2A.md), [TP53](../genes/TP53.md), [KEAP1](../genes/KEAP1.md), [NFE2L2](../genes/NFE2L2.md) [PMID:22960745](../papers/22960745.md)
 - Applied to 183 [LUAD](../cancer_types/LUAD.md) tumors (Broad) enabling MutSig-driven discovery of [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [STK11](../genes/STK11.md), [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), [ARID1A](../genes/ARID1A.md) as significant drivers [PMID:22980975](../papers/22980975.md)
-- WES applied to 510 breast tumors as part of the TCGA comprehensive molecular portrait; identified [PIK3CA](../genes/PIK3CA.md), TP53, [GATA3](../genes/GATA3.md), [MAP3K1](../genes/MAP3K1.md) as top mutated genes [PMID:23000897](../papers/23000897.md)
+- WES applied to 510 breast tumors as part of the TCGA comprehensive molecular portrait; identified [PIK3CA](../genes/PIK3CA.md), [TP53](../genes/TP53.md), [GATA3](../genes/GATA3.md), [MAP3K1](../genes/MAP3K1.md) as top mutated genes [PMID:23000897](../papers/23000897.md)
 - WES of 142 ICGC pancreatic tumors; achieved mean 69x coverage; identified 2.4 somatic mutations per Mb [PMID:23103869](../papers/23103869.md)
 - WES of 240 neuroblastoma tumors from the Broad cohort; low overall somatic mutation burden (~0.6 per Mb) [PMID:23334666](../papers/23334666.md)
 - WES of 44 ETP-ALL tumors from St. Jude; revealed RAS/PI3K pathway mutations in majority of cases [PMID:23334668](../papers/23334668.md)
@@ -80,8 +80,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 29 [MCL](../cancer_types/MCL.md) tumor/normal pairs and 6 [MCL](../cancer_types/MCL.md) cell lines; identified 25 significantly mutated genes including [NOTCH2](../genes/NOTCH2.md), [NSD2](../genes/NSD2.md), [BIRC3](../genes/BIRC3.md), and [ATM](../genes/ATM.md) [PMID:24145436](../papers/24145436.md)
 - Used for whole-exome sequencing of 32 intrahepatic cholangiocarcinomas and 9 gallbladder carcinomas (discovery screen) on Agilent SureSelect v2.0 + Illumina HiSeq 2000, mean coverage 130×; paired with targeted DNA sequencing for a prevalence screen of 17 driver genes — identified frequent [BAP1](../genes/BAP1.md), [ARID1A](../genes/ARID1A.md), [PBRM1](../genes/PBRM1.md), and IDH1/IDH2 mutations in [IHCH](../cancer_types/IHCH.md) [PMID:24185509](../papers/24185509.md).
 - Used to sequence FFPE tumors from 45 [BRAF](../genes/BRAF.md) V600 metastatic melanoma patients (DeCOG cohort, [skcm_broad_brafresist_2012](../datasets/skcm_broad_brafresist_2012.md)) on Illumina HiSeq at mean 200× (tumor) / 92× (germline), aligned to hg19 — somatic SNVs called with MuTect, indels with Indelocator, annotations with Oncotator; identified resistance alterations in 23/45 (51%) patients [PMID:24265153](../papers/24265153.md).
-- Used to sequence 23 surgically resected pancreatic neoplasms with acinar differentiation against matched normals, using Agilent SureSelect v4.0 + Illumina HiSeq (mean 131×, hg18 via Eland/CASAVA); identified absence of [KRAS](../genes/KRAS.md) mutations and frequent alterations in [SMAD4](../genes/SMAD4.md), [JAK1](../genes/JAK1.md), BRAF, and Fanconi-pathway genes [PMID:24293293](../papers/24293293.md).
-- Used to sequence 151 [MPN](../cancer_types/MPN.md) patients (48 [PV](../cancer_types/PV.md), 62 [ET](../cancer_types/ET.md), 39 [MF](../cancer_types/MF.md); mean 141× coverage) with tumor DNA from granulocytes and constitutional DNA from T cells/buccal swabs — led to discovery of recurrent somatic [CALR](../genes/CALR.md) exon 9 frameshift indels in 70–84% of JAK2/MPL-negative MPN [PMID:24325359](../papers/24325359.md).
+- Used to sequence 23 surgically resected pancreatic neoplasms with acinar differentiation against matched normals, using Agilent SureSelect v4.0 + Illumina HiSeq (mean 131×, hg18 via Eland/CASAVA); identified absence of [KRAS](../genes/KRAS.md) mutations and frequent alterations in [SMAD4](../genes/SMAD4.md), [JAK1](../genes/JAK1.md), [BRAF](../genes/BRAF.md), and Fanconi-pathway genes [PMID:24293293](../papers/24293293.md).
+- Used to sequence 151 [MPN](../cancer_types/MPN.md) patients (48 [PV](../cancer_types/PV.md), 62 [ET](../cancer_types/ET.md), 39 [MF](../cancer_types/MF.md); mean 141× coverage) with tumor DNA from granulocytes and constitutional DNA from T cells/buccal swabs — led to discovery of recurrent somatic [CALR](../genes/CALR.md) exon 9 frameshift indels in 70–84% of JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
+- Applied in paired initial/recurrent grade II glioma cohort (n=23) at average 125× coverage, enabling detection of somatic mutations down to ~10% variant allele frequency and identification of clonal evolution patterns including TMZ-induced hypermutation [PMID:24336570](../papers/24336570.md)
+- Applied to 177 of 203 multiple myeloma tumor/normal pairs (avg 89× tumor/88× normal; Agilent SureSelect v2 + Illumina HiSeq 76 bp PE); identified 11 significantly mutated genes and showed pervasive subclonal heterogeneity; 90.4% validation rate across 140 re-genotyped mutations [PMID:24434212](../papers/24434212.md)
+- Applied to 103 rhabdomyosarcoma tumor/normal pairs (SOLiD 4 with Agilent SureSelect 37.8 Mb bait on 90 pairs; Illumina HiSeq with SureSelect v2 on 13 pairs) processed with MuTect/MutSig for the Illumina arm; identified recurrent mutations in [FBXW7](../genes/FBXW7.md), [BCOR](../genes/BCOR.md), and RAS/PI3K/RTK axis genes [PMID:24436047](../papers/24436047.md)
+- Applied to 130 muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) tumor/normal pairs (186,260 exons, 18,091 genes; mean 100× coverage, ≥82% target bases ≥30×); identified 32 significantly mutated genes including 9 novel cancer SMGs; mean 302 exonic mutations per sample [PMID:24476821](../papers/24476821.md)
 
 ## Notes
 
@@ -244,5 +248,17 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

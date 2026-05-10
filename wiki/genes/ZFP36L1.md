@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [structural-variant, u-cll, notch1-regulator]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-05-09
 ---
 
 # ZFP36L1
@@ -17,6 +17,7 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 
 - ZFP36L1 is disrupted (together with [DICER1](../genes/DICER1.md) and [TRAF3](../genes/TRAF3.md)) by a recurrent 37-Mb chr14 deletion in U-CLL (4/87 WGS, 4.6%) arising via class-switch recombination [PMID:35927489](../papers/35927489.md).
 - ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator, and its loss connects the structural-variant landscape of U-CLL to [NOTCH1](../genes/NOTCH1.md) pathway activation [PMID:35927489](../papers/35927489.md).
+- Significantly mutated gene (SMG) at frequency ≤8% in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) in the TCGA comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

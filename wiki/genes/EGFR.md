@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -49,6 +49,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Focal high-level amplification in 16% (6/38) of oral squamous cell carcinoma (OSCC); established drug target for [cetuximab](../drugs/cetuximab.md) in HNSCC [PMID:23619168](../papers/23619168.md)
 - Over-expressed in the PI3K/AKT/mTOR alteration module with corresponding phospho-receptor increase in clear-cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)); over-expression and phosphorylation linked to prior [lapatinib](../drugs/lapatinib.md) response data in [CCRCC](../cancer_types/CCRCC.md) [PMID:23792563](../papers/23792563.md)
 - Altered in 57% of [GBM](../cancer_types/GBM.md) overall; alterations include amplification, point mutations (extracellular and kinase domain), EGFRvIII (exon 2–7 deletion), C-terminal deletion variants, Δ12–13 (28.7%) and Δ14–15 splice variants, and focal fusions (EGFR-SEPT14, SEC61G-EGFR); diverse co-existing variants within the same tumor pose challenges for single targeted inhibitors [PMID:24120142](../papers/24120142.md)
+- Focal amplification of EGFR detected in 11% of muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -147,3 +148,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

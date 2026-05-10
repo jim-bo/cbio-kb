@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BCOR
@@ -23,6 +23,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR is recurrently mutated in medulloblastoma WES of 92 tumors (Broad cohort), predominantly in the WNT and Group 3/4 subgroups [PMID:22820256](../papers/22820256.md)
 - BCOR is identified as a significantly mutated gene in medulloblastoma WGS/WES from the ICGC cohort of 76 tumors, with subgroup-specific enrichment [PMID:22832583](../papers/22832583.md)
 - Recurrently mutated in CLL (Broad WES, 160 tumors); BCOR mutations identified among significantly mutated genes in chronic lymphocytic leukemia [PMID:23415222](../papers/23415222.md)
+- Most recurrent mutation in sinonasal AdCC (4/21 sequenced tumors, 19%); multiple frameshift/nonsense variants including c.4017_4018insT (p.Asp1340Ter), c.1056dup (p.Thr353HisfsTer28), c.1888_1895del; associated with poor outcome [PMID:24418857](../papers/24418857.md)
+- Novel recurrent driver in 7% of all rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases (Xp11.4): 7 PAX-fusion-negative missense mutations plus 2 focal homozygous deletions plus 1 PAX-fusion-positive indel; BCOR is a chromatin repressor interacting with class I/II HDACs, previously implicated in [AML](../cancer_types/AML.md), retinoblastoma, and medulloblastoma [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -44,13 +46,19 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

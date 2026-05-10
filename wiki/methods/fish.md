@@ -33,6 +33,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used in ACC exome study to determine MYB-NFIB fusion status alongside fusion-transcript sequencing, qRT-PCR, and 3' RACE; confirmed translocations in 19/24 cases [PMID:23778141](../papers/23778141.md)
 - Used to validate [DHFR](../genes/DHFR.md) amplification at 5q detected in 14/99 (14%) TCC bladder tumors by WGS-based CNA analysis [PMID:24121792](../papers/24121792.md)
 - Applied to FFPE sections of 7 pancreatic neoplasms with acinar differentiation using proximal/distal labeled probes targeting chromosomes 11 ([ATM](../genes/ATM.md) locus), 15, and 22; revealed polysomy and dramatic intratumoral heterogeneity in 3 of 7 tumors and absence of chromosomal gains/losses in the MSI-H case [PMID:24293293](../papers/24293293.md).
+- Break-apart and dual-fusion FISH probes for [MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [NFIB](../genes/NFIB.md), and [EWSR1](../genes/EWSR1.md) applied to 88 sinonasal adenoid cystic carcinoma cases; rescued 9 additional fusion-positive cases among TruSight Oncology 500-negative tumors, demonstrating complementarity with NGS panels for detection of MYB-family rearrangements [PMID:24418857](../papers/24418857.md)
+- Routine clinical FISH testing for t(4;14) and t(11;14) applied to 50 of 203 multiple myeloma patients in the MMRC cohort, complementing whole-exome and whole-genome sequencing for cytogenetic characterization [PMID:24434212](../papers/24434212.md)
 
 ## Notes
 
@@ -77,5 +79,11 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

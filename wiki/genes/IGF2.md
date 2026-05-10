@@ -3,8 +3,8 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # IGF2
@@ -18,6 +18,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - IGF2 is among the recurrent alterations identified in fusion-positive rhabdomyosarcoma (FP-RMS) in a study of 35 tumor pairs using sequential genomic analysis with a combined targeted DNA panel and shallow WGS [PMID:37730754](../papers/37730754.md).
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Focal amplification and overexpression in 12% (8/68) of colorectal cancers (Genentech WES) [PMID:22895193](../papers/22895193.md)
+- IGF2 is a paternally imprinted gene within the 11p15.5 LOH region (50% of [RMS](../cancer_types/RMS.md) tumors); one 3'UTR somatic indel observed; part of the 11p15.5 locus commonly lost in rhabdomyosarcoma [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -33,16 +34,19 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 
 ## Open questions
 
-- The functional role of IGF2 alterations in FP-RMS progression relative to the dominant [PAX3](../genes/PAX3.md)::FOXO1 fusion driver requires further study [PMID:37730754](../papers/37730754.md).
+- The functional role of IGF2 alterations in FP-RMS progression relative to the dominant [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) fusion driver requires further study [PMID:37730754](../papers/37730754.md).
 
 ## Sources
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

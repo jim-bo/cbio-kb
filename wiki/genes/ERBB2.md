@@ -50,6 +50,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Focally amplified with protein overexpression in 25% of serous/serous-like endometrial tumours; amplification reported in 27% of uterine serous carcinomas, forming basis for HER2-targeted therapy hypothesis; mutually exclusive with [FBXW7](../genes/FBXW7.md) in WNT module analysis [PMID:23636398](../papers/23636398.md)
 - Focal high-level amplification in 6.2% (6/97) of high-grade bladder tumors with corresponding mRNA up-regulation and 3+ HER2 IHC; framed as a validated actionable target analogous to breast/gastroesophageal disease [PMID:23897969](../papers/23897969.md)
 - Focal amplification in bladder TCC [PMID:24121792](../papers/24121792.md)
+- ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in RMS genomic characterization [PMID:24436047](../papers/24436047.md)
+- ERBB2 mutation or amplification in 9% of muscle-invasive bladder cancers (significant by COSMIC restriction); alteration frequency comparable to TCGA HER2-positive breast cancer but with fewer amplifications and more mutations; supports ongoing ERBB2-targeted therapy trials [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -159,5 +161,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

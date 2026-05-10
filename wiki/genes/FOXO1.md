@@ -21,6 +21,7 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PAX7](../genes/PAX7.md)::FOXO1 fusion found in 2/18 FP-RMS patients and associated with FOXO1 amplification [PMID:37730754](../papers/37730754.md).
 - FOXO1 was identified as a recurrently mutated gene in DLBCL and [FL](../cancer_types/FL.md) through whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 - Recurrent disruptive rearrangement by chromoplexy affecting a gene implicated in prostate cancer signaling [PMID:23622249](../papers/23622249.md)
+- FOXO1 is the translocation partner in defining PAX3-FOXO1 [t(2;13)] and PAX7-FOXO1 [t(1;13)] fusions in alveolar rhabdomyosarcoma ([ARMS](../cancer_types/ARMS.md)); PAX7-FOXO1 fusion gene amplified in 12/15 PAX7-FOXO1 tumors; singleton expressed FOXO1 mutation also observed [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

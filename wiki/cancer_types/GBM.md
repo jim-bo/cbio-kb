@@ -38,6 +38,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
     - **[CDK4](../genes/CDK4.md)**: Amplified in 18% of cases [PMID:18772890](../papers/18772890.md).
     - **[RB1](../genes/RB1.md)**: Mutated or deleted in 11% of cases [PMID:18772890](../papers/18772890.md).
 - TCGA 2013 multi-platform analysis of 543 primary GBM identified 71 significantly mutated genes; [EGFR](../genes/EGFR.md) altered in 57% (rearrangements, EGFRvIII, novel splice variants); [TERT](../genes/TERT.md) promoter mutations in 84% of deep-coverage cases; [MGMT](../genes/MGMT.md) methylation predicted TMZ response only in classical subtype; proneural survival advantage attributable to G-CIMP epigenotype [PMID:24120142](../papers/24120142.md).
+- All 6 hypermutated recurrent grade II astrocytomas (arising after [temozolomide](../drugs/temozolomide.md) therapy) progressed to GBM, acquiring TMZ-signature driver mutations in the RB and AKT–mTOR pathways ([RB1](../genes/RB1.md), [CDKN2A](../genes/CDKN2A.md), [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [MTOR](../genes/MTOR.md)), with validated in vivo mTORC1 hyperactivation [PMID:24336570](../papers/24336570.md).
 
 ## Subtypes
 
@@ -53,7 +54,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:18772890](../papers/18772890.md) — Cancer Genome Atlas Research Network. Comprehensive genomic characterization defines human glioblastoma genes and core pathways. *Nature*. 2008.
 - [PMID:28872634](../papers/28872634.md) — Bakas S, et al. Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features. *Sci Data*. 2017.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+- [PMID:24336570](../papers/24336570.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

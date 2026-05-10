@@ -16,10 +16,11 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 ## Alterations observed in the corpus
 
 - Novel significantly mutated gene (SMG) identified by MutSig/InVEx in [GBM](../cancer_types/GBM.md) (n=291 WES); putative transcriptional regulator at 22q; hemizygous deletion in 5/6 samples with CNA data [PMID:24120142](../papers/24120142.md)
+- Single-case missense p.Gly404Arg mutation detected in the sequenced AdCC cohort; observed among the recurrently mutated minor genes in sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
-- [GBM](../cancer_types/GBM.md) — novel SMG with hemizygous deletion at 22q11.21 in TCGA GBM 2013 cohort [PMID:24120142](../papers/24120142.md)
+- [GBM](../cancer_types/GBM.md) — novel SMG with hemizygous deletion at 22q11.21 in TCGA [GBM](../cancer_types/GBM.md) 2013 cohort [PMID:24120142](../papers/24120142.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,5 +38,8 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 ## Sources
 
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

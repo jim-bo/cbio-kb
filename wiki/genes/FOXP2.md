@@ -3,7 +3,7 @@ symbol: FOXP2
 aliases: []
 cancer_types: [ADOCA]
 tags: []
-processed_by: entity-page-writer
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -16,6 +16,7 @@ FOXP2 encodes a forkhead box transcription factor best known for its role in spe
 ## Alterations observed in the corpus
 
 - Mutation identified in ~3% of adenoid cystic carcinoma (ACC) cases; functional significance in ACC pathogenesis not yet established [PMID:23685749](../papers/23685749.md)
+- FOXP2 identified as a recurrently SV-affected gene (structural variant) in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), associated with tyrosine kinase signaling and muscle development pathways [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ FOXP2 encodes a forkhead box transcription factor best known for its role in spe
 
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

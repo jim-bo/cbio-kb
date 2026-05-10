@@ -63,6 +63,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PI3K pathway alteration in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); part of the 22% aggregate PI3K pathway alteration rate in the discovery-screen cohort alongside [PIK3CA](../genes/PIK3CA.md), [PIK3C2A](../genes/PIK3C2A.md), and [PIK3C2G](../genes/PIK3C2G.md) [PMID:24185509](../papers/24185509.md)
 - Missense mutations (11 patients; 9 in phosphatase domain), nonsense R233*, frameshift Y86fs, and a copy-number deletion (Patient 36) in BRAF-inhibitor-resistant melanoma; combined RAF + PI3K inhibition was synergistic in PTEN-null A2058 cells [PMID:24265153](../papers/24265153.md)
 - Somatic mutation in 2/23 (9%) pancreatic acinar cell carcinomas [PMID:24293293](../papers/24293293.md)
+- TMZ-associated missense mutations A121T and G165R acquired in patient 24's second low-grade glioma recurrence; both residues are critical to phosphatase activity and are recurrently mutated in [GBM](../cancer_types/GBM.md) [PMID:24336570](../papers/24336570.md)
+- Single frameshift mutation p.Arg11LysfsTer32 co-occurring with [EWSR1](../genes/EWSR1.md)::[MYB](../genes/MYB.md) fusion in a metatypical adenoid cystic carcinoma of the sphenoid sinus [PMID:24418857](../papers/24418857.md)
+- Homozygous deletion in RMS2117 rhabdomyosarcoma sample; loss of PTEN activates the PI3K/AKT axis, a recurrent oncogenic mechanism in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -210,5 +213,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

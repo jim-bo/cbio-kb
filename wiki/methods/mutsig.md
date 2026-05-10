@@ -27,8 +27,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Applied to Broad [LUAD](../cancer_types/LUAD.md) cohort (183 tumors) to identify significantly mutated genes; nominated [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), and [ARID1A](../genes/ARID1A.md) as novel drivers alongside [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), and [STK11](../genes/STK11.md) [PMID:22980975](../papers/22980975.md)
 - MutSig applied to neuroblastoma WES data to identify significantly mutated genes; [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) passed significance thresholds [PMID:23334666](../papers/23334666.md)
 - MutSig analysis of 160 CLL exomes identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), and [POT1](../genes/POT1.md) as significantly mutated genes beyond background rates [PMID:23415222](../papers/23415222.md)
-- MutSig significance algorithm identified 26 significantly mutated genes (FDR q<0.1) in 145 esophageal adenocarcinomas, including TP53, [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md), [PIK3CA](../genes/PIK3CA.md), and novel candidates [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), and [SPART](../genes/SPART.md) [PMID:23525077](../papers/23525077.md)
-- Used together with InVEx to identify 71 significantly mutated genes in 291 [GBM](../cancer_types/GBM.md) exomes, including known drivers ([PTEN](../genes/PTEN.md), TP53, [EGFR](../genes/EGFR.md), PIK3CA, [NF1](../genes/NF1.md)) and novel [LZTR1](../genes/LZTR1.md) [PMID:24120142](../papers/24120142.md)
+- MutSig significance algorithm identified 26 significantly mutated genes (FDR q<0.1) in 145 esophageal adenocarcinomas, including [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md), [PIK3CA](../genes/PIK3CA.md), and novel candidates [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), and [SPART](../genes/SPART.md) [PMID:23525077](../papers/23525077.md)
+- Used together with InVEx to identify 71 significantly mutated genes in 291 [GBM](../cancer_types/GBM.md) exomes, including known drivers ([PTEN](../genes/PTEN.md), TP53, [EGFR](../genes/EGFR.md), [PIK3CA](../genes/PIK3CA.md), [NF1](../genes/NF1.md)) and novel [LZTR1](../genes/LZTR1.md) [PMID:24120142](../papers/24120142.md)
+- MutSigCV applied to 177 WES + 26 WGS multiple myeloma samples; identified 11 significantly mutated genes at q<0.1 including [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [BRAF](../genes/BRAF.md), FAM46C/TENT5C, TP53, [DIS3](../genes/DIS3.md), [TRAF3](../genes/TRAF3.md), [CYLD](../genes/CYLD.md), [RB1](../genes/RB1.md), [PRDM1](../genes/PRDM1.md), and [IRF4](../genes/IRF4.md) [PMID:24434212](../papers/24434212.md)
+- Applied to the Illumina WES arm of 147 rhabdomyosarcoma tumor/normal pairs; identified significantly mutated genes including [HRAS](../genes/HRAS.md), KRAS, NRAS, [FGFR4](../genes/FGFR4.md), PIK3CA, [NF1](../genes/NF1.md), [FBXW7](../genes/FBXW7.md), and [BCOR](../genes/BCOR.md); combined with GATK UnifiedGenotyper for the SOLiD arm [PMID:24436047](../papers/24436047.md)
+- MutSig 1.5 applied to TCGA bladder carcinoma WES data (n=130); identified 32 significantly mutated genes at FDR<0.1, including 9 not previously reported as significantly mutated in any cancer ([CDKN1A](../genes/CDKN1A.md), [ERCC2](../genes/ERCC2.md), [RXRA](../genes/RXRA.md), [ELF3](../genes/ELF3.md), [KLF5](../genes/KLF5.md), [FOXQ1](../genes/FOXQ1.md), [RHOB](../genes/RHOB.md), [PAIP1](../genes/PAIP1.md), [BTG2](../genes/BTG2.md)) [PMID:24476821](../papers/24476821.md)
 
 ## Notes
 
@@ -73,5 +76,14 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24120142](../papers/24120142.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

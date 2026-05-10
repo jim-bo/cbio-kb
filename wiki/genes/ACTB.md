@@ -3,8 +3,8 @@ symbol: ACTB
 aliases: []
 cancer_types: [DLBCL]
 tags: [cytoskeleton, somatic-mutation]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # ACTB
@@ -16,6 +16,7 @@ ACTB encodes beta-actin, a ubiquitous cytoskeletal protein involved in cell moti
 ## Alterations observed in the corpus
 
 - 5 somatic mutations in 5 patients (4 unique sites) detected by whole-exome sequencing of 55 DLBCL tumors; mutations carry high predicted functional consequence scores [PMID:22343534](../papers/22343534.md)
+- Noncanonical [MYB](../genes/MYB.md) fusion partner in adenoid cystic carcinoma (AdCC): ACTBex3::MYBex3 in-frame fusion identified in 1 nasal cavity AdCC with high-grade features and comedo-like necrosis [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ ACTB encodes beta-actin, a ubiquitous cytoskeletal protein involved in cell moti
 
 - [PMID:22343534](../papers/22343534.md) — Whole-exome sequencing identifies recurrent mutations in DLBCL (Broad Institute, 55 tumors)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

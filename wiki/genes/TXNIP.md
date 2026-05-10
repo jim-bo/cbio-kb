@@ -10,7 +10,7 @@ tags:
   - arrestin-domain
   - redox
   - candidate-driver
-processed_by: entity-page-writer
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -23,6 +23,7 @@ TXNIP (Thioredoxin Interacting Protein, also known as VDUP1 or TBP-2) encodes an
 ## Alterations observed in the corpus
 
 - Frameshift mutation L129fs in the arrestin domain identified in adenoid cystic carcinoma (ACC) whole-genome sequencing discovery cohort; TXNIP is noted as frequently repressed in cancer, consistent with a tumor-suppressive role [PMID:23685749](../papers/23685749.md)
+- Mutated in 7% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md); 5 inactivating mutations); mutually exclusive with [NFE2L2](../genes/NFE2L2.md) mutations, consistent with both genes converging on the oxidative-stress response pathway [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -44,4 +45,7 @@ TXNIP (Thioredoxin Interacting Protein, also known as VDUP1 or TBP-2) encodes an
 
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

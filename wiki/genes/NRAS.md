@@ -38,7 +38,9 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Novel CLL driver candidate; mutations at highly conserved Ras GTPase sites; identified in Broad WES cohort of 160 CLL tumors [PMID:23415222](../papers/23415222.md)
 - Non-FLT3 activated signaling gene; part of the 59% signaling-pathway prevalence in 200 adult de novo [AML](../cancer_types/AML.md) cases; mutually exclusive of [FLT3](../genes/FLT3.md) and other tyrosine kinases within the signaling mutual-exclusivity set (TCGA [AML](../cancer_types/AML.md) cohort) [PMID:23634996](../papers/23634996.md)
 - Single hotspot mutation detected in [IHCH](../cancer_types/IHCH.md) discovery screen; additional NRAS hits in the prevalence screen confirm RAS signaling involvement in intrahepatic cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
-- Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant BRAF V600-mutant melanoma tumors; acquisition restricted to patients with >12-week response duration (P = 0.04), suggesting a late resistance mechanism [PMID:24265153](../papers/24265153.md)
+- Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant [BRAF](../genes/BRAF.md) V600-mutant melanoma tumors; acquisition restricted to patients with >12-week response duration (P = 0.04), suggesting a late resistance mechanism [PMID:24265153](../papers/24265153.md)
+- Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with BRAF (rarely simultaneously clonal) [PMID:24434212](../papers/24434212.md)
+- Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -121,5 +123,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

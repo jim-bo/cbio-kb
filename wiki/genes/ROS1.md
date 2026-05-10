@@ -3,8 +3,8 @@ symbol: ROS1
 aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-09
 ---
 
 # ROS1
@@ -19,6 +19,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 listed as a MAPK-pathway gene whose activating fusions are enriched in KRAS-WT / other-MAPK-mutant PDAC (activating MAPK fusions: 3.2% of KRAS-WT vs 0.04% of KRAS-mutant PDAC, P = 2 × 10⁻³⁵); ROS1 is one of the candidate fusion partners in this subtype. [PMID:39753968](../papers/39753968.md)
 - ROS1::PARK2 fusion (likely GOF) in 1 [GBC](../cancer_types/GBC.md) patient [PMID:36228155](../papers/36228155.md)
 - ROS1 fusion in 7% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
+- Frameshift mutation (suspected germline) identified as a single-case alteration in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:36038778](../papers/36038778.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-09
 ---
 
 # ELF3
@@ -15,7 +15,8 @@ ELF3 (E74-Like ETS Transcription Factor 3) is an ETS family transcription factor
 
 ## Alterations observed in the corpus
 
-- ELF3 LOF mutations in 9% of GBC [PMID:36228155](../papers/36228155.md)
+- ELF3 LOF mutations in 9% of [GBC](../cancer_types/GBC.md) [PMID:36228155](../papers/36228155.md)
+- ELF3 identified as a novel significantly mutated gene (SMG) in 8% of muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -31,4 +32,7 @@ ELF3 (E74-Like ETS Transcription Factor 3) is an ETS family transcription factor
 
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

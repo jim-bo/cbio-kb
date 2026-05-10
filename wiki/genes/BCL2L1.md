@@ -3,8 +3,8 @@ symbol: BCL2L1
 aliases: [BCL-XL, BCL2L]
 cancer_types: [LUSC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # BCL2L1
@@ -16,10 +16,11 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 ## Alterations observed in the corpus
 
 - Amplification/copy number alteration identified in TCGA lung squamous cell carcinoma cohort (178 tumors) as part of the landscape of somatic copy number alterations [PMID:22960745](../papers/22960745.md)
+- Focal amplification in 11% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); one HPV16-positive tumour had the virus integrated into BCL2L1, which was amplified (~6x) and overexpressed (~10x median) [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
-- **[LUSC](../cancer_types/LUSC.md)**: BCL2L1 amplification observed among recurrent somatic copy number alterations in the TCGA LUSC cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
+- **[LUSC](../cancer_types/LUSC.md)**: BCL2L1 amplification observed among recurrent somatic copy number alterations in the TCGA [LUSC](../cancer_types/LUSC.md) cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -37,4 +38,7 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 
 - [PMID:22960745](../papers/22960745.md) — TCGA comprehensive genomic characterization of lung squamous cell carcinoma (178 tumors)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

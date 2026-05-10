@@ -24,6 +24,8 @@ Allosteric MEK1/2 inhibitor.
 - [RMS](../cancer_types/RMS.md) PDTOs from the UCLA sarcoma screen were significantly more sensitive to trametinib than the pan-sarcoma average (p=0.013), providing functional evidence of MEK dependency in rhabdomyosarcoma independent of specific genomic driver identification. [PMID:39305899](../papers/39305899.md)
 - Referenced as a MAPK pathway inhibitor in the context of resistance to combined KRASG12C + [EGFR](../genes/EGFR.md) inhibition in colorectal cancer; MEK1 ([MAP2K1](../genes/MAP2K1.md)) mutations emerged as resistance alterations in patients treated with [sotorasib](../drugs/sotorasib.md) or [adagrasib](../drugs/adagrasib.md) plus anti-EGFR therapy [PMID:36355783](../papers/36355783.md)
 - [MAP2K2](../genes/MAP2K2.md) mutations (C125S, N126D, V35M, L46F) identified in [BRAF](../genes/BRAF.md) V600 melanoma patients on RAF inhibitors conferred 3–20-fold trametinib resistance in A375 cells; [MITF](../genes/MITF.md) overexpression also produced pan-RAF/MEK/ERK cross-resistance [PMID:24265153](../papers/24265153.md)
+- Combined [dabrafenib](../drugs/dabrafenib.md) + trametinib ([BRAF](../genes/BRAF.md) + MEK inhibition) selectively killed BRAF-mutant (K601N) MM cells in vitro without benefit in BRAF-WT, KRAS-G12A or NRAS-G12D cells, supporting the combination for clonally BRAF-mutant MM [PMID:24434212](../papers/24434212.md)
+- Authors of a 147-sample [RMS](../cancer_types/RMS.md) landscape study cite trametinib (MEK1/2 inhibitor) as a rational effector-pathway strategy for the RAS-axis-altered subset (~45% of PAX-fusion-negative RMS) given its established efficacy in NRAS-mutant melanoma and preclinical RMS evidence [PMID:24436047](../papers/24436047.md)
 
 ## Resistance mechanisms
 
@@ -44,5 +46,11 @@ Allosteric MEK1/2 inhibitor.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

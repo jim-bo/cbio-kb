@@ -3,8 +3,8 @@ symbol: ERBB4
 aliases: [HER4]
 cancer_types: [PLLS, MFS]
 tags: [receptor-tyrosine-kinase, oncogene, sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # ERBB4
@@ -19,6 +19,7 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - 9 mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours; 2 in kinase domain, 5 in receptor ligand binding domain; recurrently mutated receptor tyrosine kinase. [PMID:18948947](../papers/18948947.md)
 - ERBB4 K901N detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC patient ctDNA [PMID:36355783](../papers/36355783.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
+- ERBB4 recurrently affected by structural variants (SV) in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) genomic characterization; part of the 93%-targetable kinase signaling axis [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -41,13 +42,16 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

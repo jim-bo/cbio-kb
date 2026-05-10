@@ -17,7 +17,8 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 
 ## Used by
 
-- Applied to 214 [GBM](../cancer_types/GBM.md) samples (171 antibodies) as part of TCGA GBM 2013 multi-platform analysis; 127/171 antibodies correlated with transcriptomic subtype; revealed non-linear genotype-to-signaling relationships (e.g., RTK-amplified samples had lower downstream p-AKT/S6K/MAPK signaling than expected) [PMID:24120142](../papers/24120142.md)
+- Applied to 214 [GBM](../cancer_types/GBM.md) samples (171 antibodies) as part of TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis; 127/171 antibodies correlated with transcriptomic subtype; revealed non-linear genotype-to-signaling relationships (e.g., RTK-amplified samples had lower downstream p-AKT/S6K/MAPK signaling than expected) [PMID:24120142](../papers/24120142.md)
+- Reverse-phase protein array (RPPA) applied to TCGA bladder carcinoma samples for protein and phosphoprotein expression profiling; contributed to multi-platform pathway-level characterization identifying therapeutic targets in 69% of tumors [PMID:24476821](../papers/24476821.md)
 
 ## Notes
 
@@ -26,5 +27,8 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - Widely used in TCGA pan-cancer studies for pathway activation profiling.
 
 ## Sources
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

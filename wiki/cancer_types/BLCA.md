@@ -28,7 +28,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Bladder cancer patients harboring [FGFR3](../genes/FGFR3.md) alterations showed differential responses to [erdafitinib](../drugs/erdafitinib.md) in a clinical cohort analysis [PMID:36543146](../papers/36543146.md)
 - UC-GENOME study (n=218 metastatic urothelial carcinoma) found Stroma-rich molecular subtype enrichment in metastatic vs non-metastatic disease (Mantel-Haenszel p=1.86e-10), [TP53](../genes/TP53.md) E285K hotspot enrichment (10.8% vs 5.9% in TCGA-BLCA), APOBEC SBS13 low similarity predicting worse outcomes on both chemotherapy (HR 2.50, p=0.013) and ICI (HR 2.19, p=0.011), and a 25-predictor elastic net model achieving AUC=0.84 for ICI response prediction vs TMB alone (AUC=0.68, p=0.038) [PMID:36333289](../papers/36333289.md)
 - Integrated genomic analysis of 97 high-grade urothelial tumors found 61% carried a potentially actionable alteration; most prevalent somatic mutations were [TP53](../genes/TP53.md) (34%), [PIK3CA](../genes/PIK3CA.md) (18%), and [FGFR3](../genes/FGFR3.md) (13%); RTK-RAS-RAF and PI3K/AKT/mTOR pathway lesions were largely mutually exclusive; [ERBB2](../genes/ERBB2.md) focally amplified in 6.2% with HER2 overexpression [PMID:23897969](../papers/23897969.md).
-- Whole-exome/genome sequencing of 99 Chinese transitional cell carcinoma (TCC) cases identified 37 significantly mutated genes including novel driver [STAG2](../genes/STAG2.md) (16% combined mutation/deletion frequency); 32% of tumors harbored alterations in sister chromatid cohesion and segregation genes; STAG2 alterations associated with significantly worse survival and higher aneuploidy; recurrent FGFR3-TACC3 fusion detected in 5% by RNA-seq [PMID:24121792](../papers/24121792.md).
+- Whole-exome/genome sequencing of 99 Chinese transitional cell carcinoma (TCC) cases identified 37 significantly mutated genes including novel driver [STAG2](../genes/STAG2.md) (16% combined mutation/deletion frequency); 32% of tumors harbored alterations in sister chromatid cohesion and segregation genes; [STAG2](../genes/STAG2.md) alterations associated with significantly worse survival and higher aneuploidy; recurrent FGFR3-TACC3 fusion detected in 5% by RNA-seq [PMID:24121792](../papers/24121792.md).
+- TCGA multi-platform analysis of 131 muscle-invasive urothelial carcinomas identified 32 significantly mutated genes, chromatin-regulator mutations in 76% of tumors (highest frequency among TCGA epithelial cancers), [APOBEC3B](../genes/APOBEC3B.md) as a dominant mutagen (51% of mutations), and potential therapeutic targets in 69% of cases — including [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusions, [ERBB2](../genes/ERBB2.md) alterations (9%), and PI3K/mTOR pathway activation (42%) [PMID:24476821](../papers/24476821.md).
 
 ## Subtypes
 
@@ -53,11 +54,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 - [PMID:36543146](../papers/36543146.md)
 - [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

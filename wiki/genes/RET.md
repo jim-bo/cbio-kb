@@ -3,7 +3,7 @@ symbol: RET
 aliases: []
 cancer_types: [NSCLC]
 tags: [fusion, kinase, actionable]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -20,6 +20,7 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 - RET structural variants including fusions in 2 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - RET fusion in 5% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model [PMID:36038778](../papers/36038778.md)
 - RET activating (gain-of-function) mutations found in all three medullary thyroid carcinomas in a metastatic NEN cohort; supported RET-directed therapy ([vandetanib](../drugs/vandetanib.md), selpercatinib/LOXO-292, [sorafenib](../drugs/sorafenib.md), [cabozantinib](../drugs/cabozantinib.md)) with durable disease control [PMID:24326773](../papers/24326773.md)
+- R912W missense mutation observed in 2 cases of atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions) in a sinonasal adenoid cystic carcinoma cohort [PMID:24418857](../papers/24418857.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

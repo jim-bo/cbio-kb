@@ -92,6 +92,8 @@
 - drug: bez235 — observed in PMID:23334668 — note: dual PI3K/mTOR inhibitor (dactolisib); ex vivo activity against hypodiploid ALL; MEK inhibitors were ineffective
 - method: epic-methylation-array — observed in PMID:34433969 — note: Illumina Infinium MethylationEPIC BeadChip for genome-wide DNA methylation profiling of 121 meningiomas
 - method: coca — observed in PMID:34433969 — note: Cluster of Cluster Algorithm for multi-platform integrative unsupervised clustering
+- method: droplet-digital-pcr — observed in PMID:24336570 — note: ddPCR used to validate subclonal VAFs in grade II glioma paired tumor cohort; corpus-grown slug, not in cBioPortal gene panels
+- method: trusight-oncology-500 — observed in PMID:24418857 — note: Illumina TSO500 DNA+RNA panel on NovaSeq 6000 for sinonasal AdCC; tumor-only workflow; corpus-grown slug
 - method: snrna-seq — observed in PMID:34433969 — note: droplet-based single nuclear RNA sequencing on 8 meningiomas + 2 healthy meninges (54,393 nuclei)
 - method: lc-ms-ms-proteomics — observed in PMID:34433969 — note: single-shot LC-MS/MS whole-cell proteomics quantifying 6,568 proteins in 96 meningioma tumors
 - drug: neratinib — observed in PMID:37643132 — note: pan-HER tyrosine kinase inhibitor; 25% ORR in HER2-mutant cervical cancer
@@ -260,3 +262,5 @@
 - method: star — observed in PMID:24326773 — note: STAR alignment of RNA-seq reads to hg38 for 28 metastatic NENs in BC Cancer POG WGTA pipeline; paired with RSEM
 - method: rsem — observed in PMID:24326773 — note: RSEM transcript quantification from STAR-aligned RNA-seq in 28 metastatic NENs (pog570_bcgsc_2020)
 - method: edger — observed in PMID:24326773 — note: edgeR differential expression analysis across transcriptome clusters in 28 metastatic NENs (pog570_bcgsc_2020)
+- drug: plx4720 — observed in PMID:24434212 — note: tool-compound BRAF inhibitor used in vitro in BRAF-K601N U266 MM cell line vs BRAF-WT lines
+- drug: brontictuzumab — observed in PMID:24418857 — note: anti-NOTCH1 monoclonal antibody; cited as candidate therapy for NOTCH1-mutant adenoid cystic carcinoma (ACYC)

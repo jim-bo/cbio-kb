@@ -30,6 +30,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Missense mutation in 7% of ACC samples; loss of H3K27me3 demethylase activity confirmed in vitro; identified as a CHASM driver in ACC [PMID:23685749](../papers/23685749.md)
 - Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
 - Histone demethylase KDM6A/UTY mutated in 30% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors, the highest-frequency chromatin-remodeler alteration in the 99-tumor Chinese TCC cohort [PMID:24121792](../papers/24121792.md)
+- KDM6A mutated in 2/21 (9%) of sinonasal adenoid cystic carcinoma cases with frameshift and splice-site variants (c.2172_2173del + c.618-619+2del in one case; c.64del in a second case) [PMID:24418857](../papers/24418857.md)
+- KDM6A (H3K27 demethylase) mutated in 24% of muscle-invasive bladder cancers; mutually exclusive with [KMT2D](../genes/KMT2D.md); part of the chromatin regulator mutation landscape affecting 76% of bladder tumors [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +89,11 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

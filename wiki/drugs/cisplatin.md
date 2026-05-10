@@ -37,6 +37,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Referenced as part of standard chemoradiation regimens in HNSCC; the cBioPortal platform paper describes genomic data for patients treated with cisplatin-based protocols [PMID:19176454](../papers/19176454.md)
 - Cisplatin (with surgery and radiation) remains the standard-of-care backbone for OSCC at the time of the Pickering 2013 OSCC genomic analysis; no new biomarkers were validated for prospective treatment selection [PMID:23619168](../papers/23619168.md)
 - TCGA endometrial cancer analysis (2013) suggests ~25% of high-grade endometrioid tumors have a copy-number-high serous-like molecular phenotype and may benefit from chemotherapy regimens including cisplatin rather than adjuvant radiotherapy [PMID:23636398](../papers/23636398.md)
+- In muscle-invasive bladder carcinoma (n=131 [BLCA](../cancer_types/BLCA.md)), cisplatin-based chemotherapy was the reference standard of care at the time of the TCGA analysis with a median survival of 14–15 months for recurrent/metastatic disease; no molecularly targeted agent had been approved [PMID:24476821](../papers/24476821.md)
 
 ## Resistance mechanisms
 
@@ -76,5 +77,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

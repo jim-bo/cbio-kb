@@ -3,8 +3,8 @@ symbol: FOXM1
 aliases: []
 cancer_types: [MNG]
 tags: [transcription-factor, proliferation, oncogene]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-09
 ---
 
 # FOXM1
@@ -16,8 +16,9 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 ## Alterations observed in the corpus
 
 - FOXM1 is a key proliferation-associated transcription factor whose transcriptional network is enriched in MG4 (the most proliferative/aggressive integrative molecular group) meningiomas; co-enriched with [MYC](../genes/MYC.md) in this group [PMID:34433969](../papers/34433969.md).
-- FOXM1 was identified as a recurrently amplified and overexpressed gene in HGSOC, driving cell cycle progression in ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- FOXM1 was identified as a recurrently amplified and overexpressed gene in [HGSOC](../cancer_types/HGSOC.md), driving cell cycle progression in ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - Upregulated in the basal-like IntClust 10 subgroup (METABRIC, 2,000 tumors) as part of a chromosome 5q deletion-associated trans-acting mitotic network [PMID:22522925](../papers/22522925.md)
+- FOXM1 identified as a low-frequency (1-1.4%) mitotic-checkpoint and cell-cycle hit in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) comprehensive genomic characterization [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -39,10 +40,13 @@ FOXM1 (Forkhead Box M1) is a proliferation-associated transcription factor that 
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

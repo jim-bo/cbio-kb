@@ -18,6 +18,7 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - CDKN1A was among the genes recurrently altered in [FGFR3](../genes/FGFR3.md)-altered urothelial carcinoma in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
 - Shared trunk mutation in a representative phylogenetic example of bladder cancer primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 - p21 protein induced by activated [NOTCH1](../genes/NOTCH1.md) (ICN1), mediating G1 arrest and senescence in OSCC cells [PMID:23619168](../papers/23619168.md)
+- Mutated in 14% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); predominantly null/truncating mutations indicating loss of function; encodes p21CIP1 cyclin-dependent kinase inhibitor; one of 9 genes not previously reported as significantly mutated in any cancer before this TCGA study [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23619168](../papers/23619168.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

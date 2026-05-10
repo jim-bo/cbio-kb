@@ -39,7 +39,10 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used Affymetrix SNP 6.0 on 363 endometrial carcinoma samples for SCNA profiling; GISTIC identified recurrent focal amplifications including [MYC](../genes/MYC.md), [ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [FGFR3](../genes/FGFR3.md), and [SOX17](../genes/SOX17.md) [PMID:23636398](../papers/23636398.md)
 - Used in 24-exome adenoid cystic carcinoma (ACC) study for SNP-array copy-number profiling, analyzed with ASCAT v2.1, revealing recurrent losses at 1p36, 6q, 9p, and 12q [PMID:23778141](../papers/23778141.md)
 - Used in TCGA [CCRCC](../cancer_types/CCRCC.md) study for DNA copy-number profiling alongside whole-exome sequencing of 417 tumors, contributing to identification of chromosome 3p loss (91% of samples), 5q gain (67%), and 14q loss (45%) [PMID:23792563](../papers/23792563.md)
-- Used for copy-number/LOH profiling of [MCL](../cancer_types/MCL.md) samples; CNA burden from SNP 6.0 arrays correlated with [SOX11](../genes/SOX11.md) status and clinical aggressiveness (SOX11+ MCL had mean 13±9 CNAs vs 2±2 in SOX11- MCL) [PMID:24145436](../papers/24145436.md)
+- Used for copy-number/LOH profiling of [MCL](../cancer_types/MCL.md) samples; CNA burden from SNP 6.0 arrays correlated with [SOX11](../genes/SOX11.md) status and clinical aggressiveness ([SOX11](../genes/SOX11.md)+ [MCL](../cancer_types/MCL.md) had mean 13±9 CNAs vs 2±2 in SOX11- MCL) [PMID:24145436](../papers/24145436.md)
+- SNP 6.0 copy-number arrays applied to 153 of 203 multiple myeloma patients; GISTIC analysis identified 7 recurrent homozygous deletion regions covering 32 genes including [CDKN2C](../genes/CDKN2C.md), [TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md), and [PTPRD](../genes/PTPRD.md) [PMID:24434212](../papers/24434212.md)
+- Illumina Omni 2.5M and 5M SNP arrays (analogous workflow to Affymetrix SNP6) applied to all 147 rhabdomyosarcoma tumor/normal pairs for copy-number alteration profiling; identified 11p15.5 LOH (50% of tumors), [MYCN](../genes/MYCN.md) amplification (5%), CDK4/12q13-q14 amplification (9.7%), and [CDKN2A](../genes/CDKN2A.md) homozygous deletion (3%) [PMID:24436047](../papers/24436047.md)
+- Affymetrix SNP 6.0 arrays used for somatic copy-number alteration profiling of 131 TCGA bladder carcinoma samples; identified CDKN2A focal deletion (47%), [PPARG](../genes/PPARG.md) amplification (17%), E2F3/SOX4 amplification (20%), and [NECTIN4](../genes/NECTIN4.md) amplification (19%) as the most prevalent focal events [PMID:24476821](../papers/24476821.md)
 
 ## Notes
 
@@ -114,5 +117,14 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

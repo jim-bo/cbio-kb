@@ -46,6 +46,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Somatic mutation in ~2% of high-grade urothelial bladder tumors; part of the RTK–RAS–RAF pathway alteration set (35% combined) [PMID:23897969](../papers/23897969.md)
 - Deletion/mutation in 10% of [GBM](../cancer_types/GBM.md); enriched in mesenchymal subtype; never co-occurring with [BRAF](../genes/BRAF.md) V600E mutation; associated with elevated p-ERK/p-MEK by RPPA [PMID:24120142](../papers/24120142.md)
 - Included among MAPK-pathway resistance genes in [BRAF](../genes/BRAF.md) V600-mutant melanoma; contributes to the 44.4% aggregate MAPK-pathway resistance gene rate observed in treated patients [PMID:24265153](../papers/24265153.md)
+- Single frameshift mutation identified in the sinonasal adenoid cystic carcinoma cohort; observed as a minor single-case hit [PMID:24418857](../papers/24418857.md)
+- Mutated in 5.3% of fusion-negative rhabdomyosarcoma (PFN) plus 9% with 17q11.2 LOH; functions as a RAS-axis tumor suppressor in [RMS](../cancer_types/RMS.md) pathogenesis [PMID:24436047](../papers/24436047.md)
 
 ## Cancer types (linked)
 
@@ -143,5 +145,11 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24265153](../papers/24265153.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-09
 ---
 
@@ -18,6 +18,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 ## Used by
 
 - Used to align paired tumor/normal WGS reads to hg19 for 28 metastatic neuroendocrine neoplasms in the BC Cancer POG program; downstream SNV/indel calling performed by Strelka, SV calling by ABySS/Trans-ABySS [PMID:24326773](../papers/24326773.md).
+- Used for read alignment in paired tumor/normal whole-exome sequencing of grade II glioma initial/recurrent pairs (n=23) [PMID:24336570](../papers/24336570.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **wiki-cli** on **2026-05-09**.*

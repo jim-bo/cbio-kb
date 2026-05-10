@@ -5,7 +5,7 @@ main_type: Glioma
 parent: GLIOMA
 tags: [glioma, cns]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2026-05-09
 ---
 
 # Diffuse Glioma (DIFG)
@@ -29,6 +29,7 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [H3-3A](../genes/H3-3A.md) p.K28M histone mutation supporting diagnosis of diffuse midline glioma detected in CSF ctDNA [PMID:39289779](../papers/39289779.md).
 - [BRAF](../genes/BRAF.md)::[KIAA1549](../genes/KIAA1549.md) fusions detected in CSF ctDNA from gliomas [PMID:39289779](../papers/39289779.md).
 - Temozolomide mutational signatures identified in CSF ctDNA from glioma samples among high-TMB cases [PMID:39289779](../papers/39289779.md).
+- Exome sequencing of 23 paired initial/recurrent grade II diffuse gliomas showed pervasive early clonal branching; [IDH1](../genes/IDH1.md) R132H was the only mutation shared in every patient pair, confirming it as the initiating event in low-grade gliomagenesis [PMID:24336570](../papers/24336570.md).
 
 ## Subtypes
 
@@ -48,4 +49,6 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:28872634](../papers/28872634.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:24336570](../papers/24336570.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-09**.*

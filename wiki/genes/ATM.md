@@ -37,6 +37,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Truncating/functional-domain mutations in 12/29 (41%) WES mantle cell lymphoma ([MCL](../cancer_types/MCL.md)) cases; 55% in SOX11-positive vs 0% SOX11-negative (P=0.023); often biallelic via 11q deletion; early/clonal event marking the SOX11-positive/IGHV-unmutated aggressive [MCL](../cancer_types/MCL.md) subset [PMID:24145436](../papers/24145436.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; known familial pancreatic cancer susceptibility gene and candidate for PARP/DNA-PKcs inhibitor sensitivity [PMID:24293293](../papers/24293293.md)
+- Two expressed mutations (1 in PAX-fusion-positive, 1 in PAX-fusion-negative rhabdomyosarcoma) identified in a pediatric [RMS](../cancer_types/RMS.md) genomic landscape study [PMID:24436047](../papers/24436047.md)
+- Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; included in the 32 significantly mutated genes from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -113,5 +115,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -33,7 +33,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate 11,240 candidate somatic mutations; confirmed 91% of predicted substitutions and 74% of indels in 99 [BLCA](../cancer_types/BLCA.md) tumors [PMID:24121792](../papers/24121792.md)
 - Used for targeted validation sequencing of 172 [MCL](../cancer_types/MCL.md) patients in an independent cohort to confirm WES-identified mutations [PMID:24145436](../papers/24145436.md)
 - Used to confirm 50 somatic mutations from the whole-exome discovery screen in intrahepatic cholangiocarcinoma/gallbladder carcinoma — all 50 mutations verified [PMID:24185509](../papers/24185509.md).
-- Used to sequence [CALR](../genes/CALR.md) exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of CALR frameshift indels in JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
+- Used to sequence [CALR](../genes/CALR.md) exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of [CALR](../genes/CALR.md) frameshift indels in JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
+- PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification [PMID:24418857](../papers/24418857.md)
 
 ## Notes
 
@@ -90,5 +91,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24325359](../papers/24325359.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

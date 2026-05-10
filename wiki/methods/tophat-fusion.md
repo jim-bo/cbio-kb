@@ -17,7 +17,8 @@ TopHat-Fusion is an extension of the TopHat RNA-seq aligner that detects gene fu
 
 ## Used by
 
-- Applied in ICGC PedBrain pilocytic astrocytoma study (n=73 cases with matched RNA-seq) alongside [defuse](../methods/defuse.md) for fusion gene discovery; identified novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):NTRK2, [NACC2](../genes/NACC2.md):NTRK2) and novel [BRAF](../genes/BRAF.md) fusion partners ([RNF130](../genes/RNF130.md), [CLCN6](../genes/CLCN6.md), [MKRN1](../genes/MKRN1.md), [GNAI1](../genes/GNAI1.md)) [PMID:23817572](../papers/23817572.md)
+- Applied in ICGC PedBrain pilocytic astrocytoma study (n=73 cases with matched RNA-seq) alongside [defuse](../methods/defuse.md) for fusion gene discovery; identified novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):[NTRK2](../genes/NTRK2.md), [NACC2](../genes/NACC2.md):NTRK2) and novel [BRAF](../genes/BRAF.md) fusion partners ([RNF130](../genes/RNF130.md), [CLCN6](../genes/CLCN6.md), [MKRN1](../genes/MKRN1.md), [GNAI1](../genes/GNAI1.md)) [PMID:23817572](../papers/23817572.md)
+- Applied to 80 rhabdomyosarcoma RNA-seq samples (Illumina HiSeq2000 100 bp PE) for fusion transcript detection; identified PAX3-NCOA1, PAX3-INO80D, and other cryptic rearrangements in histologically fusion-negative [ARMS](../cancer_types/ARMS.md) tumors [PMID:24436047](../papers/24436047.md)
 
 ## Notes
 
@@ -25,5 +26,8 @@ TopHat-Fusion is an extension of the TopHat RNA-seq aligner that detects gene fu
 - Predecessor approach to STAR-Fusion and Arriba; used in TCGA-era fusion detection pipelines.
 
 ## Sources
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

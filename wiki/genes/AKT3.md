@@ -18,6 +18,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - MAGI3-AKT3 gene fusion (intron 1 breakpoint) identified in breast cancer WES/WGS of 103 tumors (Broad Institute); fusion is enriched in triple-negative breast cancer and produces constitutive AKT phosphorylation [PMID:22722202](../papers/22722202.md)
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
 - Recurrently altered across endometrial carcinoma subtypes in the [ucec_tcga_pub](../datasets/ucec_tcga_pub.md) TCGA cohort; identified in mutation panel analyses (Fig. 2d/Fig. 5b) [PMID:23636398](../papers/23636398.md)
+- Overexpression observed in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); part of the PI(3)K/AKT/mTOR pathway altered in 42% of tumours, representing a potential therapeutic target with AKT inhibitors [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23636398](../papers/23636398.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

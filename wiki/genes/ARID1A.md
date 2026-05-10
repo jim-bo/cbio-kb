@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -45,6 +45,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Chromatin-remodeling gene mutated in transitional cell carcinoma (TCC) of the bladder; mutations in ARID1A/ARID4A subgroup contribute to the 58% prevalence of chromatin-remodeling gene alterations in bladder cancer [PMID:24121792](../papers/24121792.md)
 - SWI/SNF complex subunit mutated in 9/64 (14%) intrahepatic cholangiocarcinoma; not previously reported in cholangiocarcinoma at time of publication [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation [PMID:24293293](../papers/24293293.md)
+- Single in-frame deletion p.Tyr560_Gln561delinsTer identified in sinonasal AdCC (1/21 sequenced cases); SWI/SNF complex component [PMID:24418857](../papers/24418857.md)
+- Singleton expressed mutation flagged as a candidate driver in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)); not previously reported in RMS [PMID:24436047](../papers/24436047.md)
+- Mutated in 25% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); truncating mutations enriched; identified as a significantly mutated gene by MutSig; encodes SWI/SNF chromatin-remodeling complex component [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -130,10 +133,19 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24418857](../papers/24418857.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

@@ -20,6 +20,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
 - Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
 - Higher TSC2 expression correlated with better survival in TCGA [CCRCC](../cancer_types/CCRCC.md); TSC2 is a PI3K pathway inhibitor and its expression level was linked to pathway alteration status [PMID:23792563](../papers/23792563.md)
+- Mutated in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the PI3K/AKT/mTOR pathway; TSC1/TSC2 loss identifies a subgroup of BLCA (42% PI3K/AKT/mTOR pathway-altered) with potential sensitivity to mTOR inhibition [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23792563](../papers/23792563.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [novel-driver, clumps]
 processed_by: crosslinker
-processed_at: 2026-04-08
+processed_at: 2026-05-09
 ---
 
 # DIS3
@@ -17,6 +17,7 @@ DIS3 encodes a catalytic exoribonuclease subunit of the RNA exosome. It is a kno
 
 - Novel CLL driver nominated via 3-D ([CLUMPS](../methods/clumps.md)) clustering; 2 of 4 sites fall at cancer hotspots D479/D488 in the catalytic domain [PMID:35927489](../papers/35927489.md).
 - Included among six additional drivers (with [MAP2K2](../genes/MAP2K2.md) and [DICER1](../genes/DICER1.md)) discovered by 3-D structural clustering that recurrent-gene tests alone missed [PMID:35927489](../papers/35927489.md).
+- Exonuclease recurrently mutated in 11% of multiple myeloma (MM) patients; point mutations plus LOH; enriched in non-hyperdiploid versus hyperdiploid MM (Fisher's exact p=0.00013); often co-clonal with [KRAS](../genes/KRAS.md) mutations, suggesting cooperative early-event biology; one of 11 significantly mutated genes (q<0.1) in MM [PMID:24434212](../papers/24434212.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ DIS3 encodes a catalytic exoribonuclease subunit of the RNA exosome. It is a kno
 
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24434212](../papers/24434212.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

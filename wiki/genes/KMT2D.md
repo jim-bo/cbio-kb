@@ -30,7 +30,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Somatic mutations detected in medulloblastoma WES cohort (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
 - Significantly mutated (FDR q < 0.1) in lung squamous cell carcinoma (178 tumors, TCGA); one of 10 top-tier significantly mutated genes [PMID:22960745](../papers/22960745.md)
-- Truncating and FYRN/FYRC-domain missense mutations in 4/29 (14%) primary [MCL](../cancer_types/MCL.md) WES cases and 2/6 MCL cell lines; no biallelic loss detected; restricted to SOX11-positive/IGHV-unmutated MCL; classified as an early/clonal event by allelic-frequency analysis in paired subclone samples [PMID:24145436](../papers/24145436.md)
+- Truncating and FYRN/FYRC-domain missense mutations in 4/29 (14%) primary [MCL](../cancer_types/MCL.md) WES cases and 2/6 [MCL](../cancer_types/MCL.md) cell lines; no biallelic loss detected; restricted to SOX11-positive/IGHV-unmutated MCL; classified as an early/clonal event by allelic-frequency analysis in paired subclone samples [PMID:24145436](../papers/24145436.md)
+- KMT2D (MLL2, H3K4 methyltransferase) mutated in 27% of muscle-invasive bladder cancers with truncating enrichment; identified as a novel significantly mutated gene (SMG) in bladder cancer; mutually exclusive with [KDM6A](../genes/KDM6A.md) [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -94,5 +95,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24145436](../papers/24145436.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

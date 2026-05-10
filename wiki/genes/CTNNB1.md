@@ -12,7 +12,7 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-09
 ---
 
@@ -44,6 +44,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Highlighted in TieDIE/focal-deletion analyses as a downstream pathway and SCNA feature in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
 - Sporadic alteration included in the intrahepatic cholangiocarcinoma/gallbladder carcinoma prevalence-screen panel [PMID:24185509](../papers/24185509.md)
 - Somatic mutations in both pancreatoblastomas (2/2) and in none of the acinar cell carcinomas; reinforces CTNNB1/Wnt-beta-catenin pathway activation as a defining molecular hallmark of pancreatoblastoma [PMID:24293293](../papers/24293293.md)
+- Oncogenic S33/T41 mutations in 3% of PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), including one fusion-negative [ARMS](../cancer_types/ARMS.md) case; part of a Wnt-pathway signal identified in pediatric RMS genomic landscape [PMID:24436047](../papers/24436047.md)
+- Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; one of 32 SMGs from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
 
 ## Cancer types (linked)
 
@@ -120,7 +122,13 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24436047](../papers/24436047.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24476821](../papers/24476821.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*

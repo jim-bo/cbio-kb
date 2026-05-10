@@ -24,7 +24,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Irinotecan + temozolomide was among the five matched-therapy regimens tested in the UCLA PDTO sarcoma clinical application cohort (n=5 patients); normalized organoid viability correlated with time-to-next-treatment across the matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
 - In glioblastoma ([GBM](../cancer_types/GBM.md)), [MGMT](../genes/MGMT.md) promoter methylation is a potential biomarker for response to temozolomide; however, it also serves as a prerequisite for the development of a mismatch repair-deficient hypermutator phenotype upon tumor recurrence if mismatch repair is compromised [PMID:18772890](../papers/18772890.md).
 - [MGMT](../genes/MGMT.md) promoter methylation predicts response to temozolomide + radiation specifically in the classical [GBM](../cancer_types/GBM.md) transcriptomic subtype (p=0.01) but not in proneural, mesenchymal, or neural subtypes; 40% of the 543-patient TCGA [GBM](../cancer_types/GBM.md) cohort received concurrent TMZ + adjuvant radiation [PMID:24120142](../papers/24120142.md).
-- Low [MGMT](../genes/MGMT.md) expression and/or MGMT VUS guided temozolomide selection in metastatic PanNEN patients PN26 and PN28 in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
+- Low [MGMT](../genes/MGMT.md) expression and/or [MGMT](../genes/MGMT.md) VUS guided temozolomide selection in metastatic PanNEN patients PN26 and PN28 in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
+- In grade II astrocytomas, 6/10 TMZ-treated patients developed hypermutated recurrent tumors (31.9–90.9 mutations/Mb) with TMZ-signature C>T/G>A transitions; all 6 hypermutated cases progressed to [GBM](../cancer_types/GBM.md) and acquired driver mutations in the RB and AKT–mTOR pathways [PMID:24336570](../papers/24336570.md)
 
 ## Resistance mechanisms
 
@@ -53,5 +54,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24326773](../papers/24326773.md)
+
+*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24336570](../papers/24336570.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

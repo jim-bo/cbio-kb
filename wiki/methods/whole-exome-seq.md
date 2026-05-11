@@ -89,6 +89,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 10 ccRCC primary tumors (79 samples, 8–12 regions each) via Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth) to characterize intratumor heterogeneity; 92.5% of candidate mutations validated by ultra-deep amplicon sequencing [PMID:24487277](../papers/24487277.md)
 - Used for Discovery Cohort of 20 paired ESCC germline/tumor samples (mean coverage 79×) to identify novel significantly mutated genes including FAT1, FAT2, ZNF750, and KMT2D [PMID:24686850](../papers/24686850.md)
 - Referenced in HCC genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers (TERT promoter, TP53, CTNNB1) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
+- Used for whole-exome sequencing of >1,200 HCC patients to characterise the mutational landscape of hepatocellular carcinoma, including TERT, CTNNB1, and TP53 alterations [PMID:24798001](../papers/24798001.md)
+- Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent GTF2I p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:24816255](../papers/24816255.md)
+- Applied to 28 TET tumor/normal pairs to identify recurrent GTF2I c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
 
 ## Notes
 
@@ -269,5 +272,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # BRIP1
@@ -18,6 +18,7 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - BRIP1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study as part of the HRD gene panel [PMID:36228155](../papers/36228155.md)
 - Listed among significantly mutated genes (SMGs) in the [GBM](../cancer_types/GBM.md) TCGA genomic landscape study (71 SMGs total by MutSig + InVEx) [PMID:24120142](../papers/24120142.md)
 - Loss-of-function mutation in PanNEN patient PN27 in a WGTA-guided therapy study; supported PARP-inhibitor therapy recommendation [PMID:24326773](../papers/24326773.md)
+- HBOC gene (BRIP1) included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

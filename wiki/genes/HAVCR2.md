@@ -3,8 +3,8 @@ symbol: HAVCR2
 aliases: [TIM3]
 cancer_types: [HGSOC]
 tags: [checkpoint, exhaustion, immune-evasion, cd8-t-cell, nk-cell]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # HAVCR2
@@ -17,6 +17,7 @@ HAVCR2 (hepatitis A virus cellular receptor 2, also known as TIM-3) is an immune
 
 - HAVCR2 (TIM3) is progressively upregulated on CD8+ T cells across [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursor stages (p53 signature → STIC.I → STIC.C → invasive cancer); also detected on a subset of HLA-DR+/CD40+ APCs in the 44-specimen CyCIF/GeoMx spatial atlas [PMID:39386723](../papers/39386723.md).
 - Co-upregulated with [PDCD1](../genes/PDCD1.md) (PD-1), [LAG3](../genes/LAG3.md), and [CTLA4](../genes/CTLA4.md) as exhaustion markers on CD8+ T cells during [HGSOC](../cancer_types/HGSOC.md) precursor evolution [PMID:39386723](../papers/39386723.md).
+- HAVCR2 (TIM-3) is a compensatory immune checkpoint in NPC; the anti-TIM-3 antibody TQB2618 combined with penpulimab showed 0% ORR in N=17 NPC patients. [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ HAVCR2 (hepatitis A virus cellular receptor 2, also known as TIM-3) is an immune
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

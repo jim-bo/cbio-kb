@@ -8,8 +8,8 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # gemcitabine
@@ -25,6 +25,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - **Urothelial cancer (mUC)**: gemcitabine + [cisplatin](../drugs/cisplatin.md) (GC) is the standard cytotoxic backbone in metastatic urothelial carcinoma; the CALGB 90601 cohort profiled cfDNA dynamics under GC ± [bevacizumab](../drugs/bevacizumab.md). [PMID:40256659](../papers/40256659.md)
 - 143 metastatic gallbladder carcinoma patients received gemcitabine/platinum (mostly [cisplatin](../drugs/cisplatin.md)) as first-line chemotherapy among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT at MSK (2014--2021) [PMID:36228155](../papers/36228155.md)
 - Combined with [saridegib](../drugs/saridegib.md) (IPI-926, Smoothened inhibitor) in a co-clinical [PAAD](../cancer_types/PAAD.md) trial (NCT01130142); despite positive preclinical signal in GEM mice, the human phase II arm was halted for inferior survival, illustrating risks of preclinical-to-clinical translation without chronic-dosing validation [PMID:23999436](../papers/23999436.md).
+- Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M NPC; multiple anti-PD-1 combination trials add ICIs to this doublet [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -52,3 +53,6 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:23999436](../papers/23999436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,7 +3,7 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -20,6 +20,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - Focal amplification and overexpression in 12% (8/68) of colorectal cancers (Genentech WES) [PMID:22895193](../papers/22895193.md)
 - IGF2 is a paternally imprinted gene within the 11p15.5 LOH region (50% of [RMS](../cancer_types/RMS.md) tumors); one 3'UTR somatic indel observed; part of the 11p15.5 locus commonly lost in rhabdomyosarcoma [PMID:24436047](../papers/24436047.md)
 - ~10% of HCC overexpress IGF2; part of the IGF axis (with IGF2R allelic loss ~25% and IGF1R activation ~21%) targeted therapeutically in HCC [PMID:24735922](../papers/24735922.md)
+- IGF2 is epigenetically upregulated and marks the S2 progenitor-cell proliferation subclass in HCC (co-expressed with EPCAM and AFP); proposed as an actionable target in the ~50% of HCCs in the proliferation class. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,19 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

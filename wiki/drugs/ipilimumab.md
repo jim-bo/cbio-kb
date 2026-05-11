@@ -5,8 +5,8 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ipilimumab
@@ -20,6 +20,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - In genomic near-haploidization (GNH) diffuse pleural mesothelioma (DPM), 3 GNH patients treated with ipilimumab/nivolumab or [pembrolizumab](../drugs/pembrolizumab.md) achieved 2 partial responses (67%), compared with only 1/44 (2%) non-GNH patients [PMID:38630790](../papers/38630790.md).
 - GNH status (allele-specific copy number analysis showing near-haploid genome) may identify a DPM subset with substantially higher probability of response to dual checkpoint blockade with ipilimumab+[nivolumab](../drugs/nivolumab.md) [PMID:38630790](../papers/38630790.md).
 - 1 metastatic gallbladder carcinoma patient received ipilimumab/nivolumab combination among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); 42% (5/12) showed evidence of ICI response including 3 MSI-High patients [PMID:36228155](../papers/36228155.md)
+- Anti-CTLA-4 antibody cited in combination regimens for HCC; CTLA4 is targeted by ipilimumab and tremelimumab in combination strategies for hepatocellular carcinoma [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -37,3 +38,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

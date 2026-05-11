@@ -8,8 +8,8 @@ tags:
   - apoptosis
   - bcl-family
   - gene-fusion
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # BCL2L11
@@ -21,6 +21,7 @@ BCL2L11 (BCL2-like 11, also known as BIM) encodes a pro-apoptotic BH3-only prote
 ## Alterations observed in the corpus
 
 - Recurrent translocation involving BCL2L11 detected by low-pass WGS in 5/106 endometrial carcinoma tumors ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); predicted in-frame fusions with increased BCL family expression. [PMID:23636398](../papers/23636398.md)
+- Pro-apoptotic BIM protein inhibited by EBV BART-cluster microRNAs in NPC, contributing to apoptosis resistance [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ BCL2L11 (BCL2-like 11, also known as BIM) encodes a pro-apoptotic BH3-only prote
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody (IgG1)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # cetuximab
@@ -23,6 +23,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - The authors note that clinical trials adding cetuximab to cytotoxic chemoradiotherapy in [NSCLC](../cancer_types/NSCLC.md) or HNSCC failed to improve outcomes (referenced as negative trials), motivating the ADC-delivery paradigm over signal inhibition alone [PMID:27698471](../papers/27698471.md).
 - Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) to treat KRASG12C-mutant colorectal cancer; KRASG12C amplification identified as a recurrent acquired resistance mechanism, with mTOR inhibition (AZD8055) proposed as a senolytic strategy after drug withdrawal [PMID:36355783](../papers/36355783.md)
 - EGFR amplification (16% of OSCC) was identified as the basis for cetuximab targeting in HNSCC, but downstream PI3K pathway alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may limit EGFR-inhibitor efficacy; no biomarker for cetuximab response was identified [PMID:23619168](../papers/23619168.md)
+- Cited as a monoclonal antibody targeting EGFR in NPC with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -44,3 +45,6 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

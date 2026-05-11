@@ -5,8 +5,8 @@ drug_class: multi-kinase inhibitor (VEGFR/FGFR)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antiangiogenic]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # lenvatinib
@@ -22,6 +22,7 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - In a PDTO functional screen of 92 sarcoma specimens, tumors with prior systemic therapy were more sensitive to lenvatinib than treatment-naïve specimens (p=0.011), suggesting that prior treatment may induce adaptive dependence on VEGFR/FGFR signaling [PMID:39305899](../papers/39305899.md).
 - Lenvatinib+[pembrolizumab](../drugs/pembrolizumab.md) combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
 - High [FGFR3](../genes/FGFR3.md) expression/gain guided lenvatinib consideration in metastatic NEN patients (PN1, PN14, PN17, PN25) in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
+- First-line HCC: REFLECT trial — lenvatinib non-inferior to sorafenib, median OS 13.6 vs 12.3 months (HR 0.92, 95% CI 0.79–1.06); mRECIST ORR 24.1% (investigator) / 40.6% (masked review); approved as alternative first-line for Child–Pugh A, BCLC-C patients (except main portal vein thrombosis or >50% liver involvement) [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -44,3 +45,6 @@ Lenvatinib is a multi-kinase inhibitor targeting VEGFR1-3, FGFR1-4, PDGFRa, [KIT
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

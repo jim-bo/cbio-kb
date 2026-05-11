@@ -18,6 +18,7 @@ AXIN1 is a scaffold protein in the WNT signaling pathway that facilitates beta-c
 - AXIN1 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study as part of WNT pathway analysis [PMID:36228155](../papers/36228155.md)
 - Beta-catenin/Wnt pathway mutation in EAC ([esca_broad](../datasets/esca_broad.md)); co-occurring with [APC](../genes/APC.md) in one tumor; an AXIN1-GALNT7 fusion identified by WGS in sample ESO-1060; Wnt pathway altered in only 9% of EACs vs. more commonly in CRC [PMID:23525077](../papers/23525077.md)
 - Wnt-pathway driver in HCC; previously known driver gene confirmed in 2014 NGS-era HCC genomic review [PMID:24735922](../papers/24735922.md)
+- Loss-of-function mutation in 7% (range 5–10%) of HCCs (WES, n=1,289); WNT–β-catenin pathway component; trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -38,5 +39,8 @@ AXIN1 is a scaffold protein in the WNT signaling pathway that facilitates beta-c
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

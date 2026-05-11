@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - Biallelic inactivation and focal deletion in SHH-subgroup medulloblastoma (PCGP WGS, 37 tumors); canonical SHH-pathway driver [PMID:22722829](../papers/22722829.md)
 - Inactivating mutations exclusive to SHH-subgroup medulloblastoma in WES of 92 tumors (Broad cohort); associated with 9q loss of heterozygosity [PMID:22820256](../papers/22820256.md)
 - Altered in 8/125 cases (6%), predominantly in SHH-subgroup medulloblastoma (ICGC WGS/WES cohort); frameshift indels in 6 cases, SNVs in 2 [PMID:22832583](../papers/22832583.md)
+- PTCH1-mutated NPC tumors targeted by SMO inhibitor taladegib (Hedgehog pathway; phase II trial in solid tumors) [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:22832583](../papers/22832583.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: MUTYH
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MUTYH
@@ -16,6 +16,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 ## Alterations observed in the corpus
 
 - Assessed in metastatic urothelial carcinoma (UC-GENOME cohort) in the context of tumor mutational burden and DNA repair pathway analysis [PMID:36333289](../papers/36333289.md)
+- Biallelic germline MUTYH mutations define MUTYH-associated polyposis (MAP) with elevated gastric cancer risk; must be ruled out before familial non-hereditary gastric cancer (FNHGC) labeling; included in standard multigene GC panel [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -31,4 +32,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

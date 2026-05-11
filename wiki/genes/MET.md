@@ -31,6 +31,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Altered in rhabdomyosarcoma as a known downstream target of the PAX3-FOXO1 fusion oncogene; pathway-level alteration implicated in PAX3-FOXO1-driven oncogenesis (P=1.54×10⁻³) [PMID:24436047](../papers/24436047.md)
 - MET is mutated in ~3% of HCC and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for tivantinib trials in HCC [PMID:24735922](../papers/24735922.md)
+- Overexpression associated with poor prognosis and sorafenib resistance in HCC; tivantinib failed in MET-high HCC (mechanism may be MET-independent); capmatinib and cabozantinib (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
+- Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in NPC; co-targeted by GEN1286 (EGFR×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -90,5 +92,11 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

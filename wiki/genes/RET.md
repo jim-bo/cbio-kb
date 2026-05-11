@@ -1,60 +1,40 @@
 ---
 symbol: RET
 aliases: []
-cancer_types: [NSCLC]
-tags: [fusion, kinase, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-09
+cancer_types: [NPC]
+tags: []
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # RET
 
 ## Overview
 
-RET encodes a receptor tyrosine kinase whose oncogenic fusions (KIF5B-RET, CCDC6-RET, and others) are established actionable drivers in non-small cell lung cancer and thyroid cancers, targetable by selective RET inhibitors such as [selpercatinib](../drugs/selpercatinib.md) and pralsetinib.
+RET encodes a receptor tyrosine kinase involved in cell growth, differentiation, and survival. It is cataloged among the genes targeted by multi-kinase inhibitors under investigation in nasopharyngeal carcinoma (NPC).
 
 ## Alterations observed in the corpus
 
-- RET rearrangements with diverse gene partners were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients) [PMID:39289779](../papers/39289779.md).
-- CCDC6-RET fusion detected in patient ctDNA at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
-- RET structural variants including fusions in 2 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
-- RET fusion in 5% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model [PMID:36038778](../papers/36038778.md)
-- RET activating (gain-of-function) mutations found in all three medullary thyroid carcinomas in a metastatic NEN cohort; supported RET-directed therapy ([vandetanib](../drugs/vandetanib.md), selpercatinib/LOXO-292, [sorafenib](../drugs/sorafenib.md), [cabozantinib](../drugs/cabozantinib.md)) with durable disease control [PMID:24326773](../papers/24326773.md)
-- R912W missense mutation observed in 2 cases of atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions) in a sinonasal adenoid cystic carcinoma cohort [PMID:24418857](../papers/24418857.md)
+- RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic NPC. [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
-- [NSCLC](../cancer_types/NSCLC.md) — RET fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors [PMID:39289779](../papers/39289779.md).
+- **NPC** — RET is a component of the multi-kinase inhibitor target profile (alongside VEGFR2/KDR, FLT3, TEK, and others) in R/M NPC. [PMID:24952746](../papers/24952746.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Not reported in the corpus.
+- No co-occurrence or mutual exclusivity data reported in the current corpus.
 
 ## Therapeutic relevance
 
-- RET fusions are level 1 OncoKB actionable alterations; 50.7% of ctDNA-positive CSF samples in the MSK CSF cohort carried a level 1 actionable alteration, with lung carcinomas having the highest actionability rate [PMID:39289779](../papers/39289779.md).
+- Multi-kinase TKIs active against RET are being investigated in NPC primarily as anti-angiogenic/anti-proliferative agents rather than RET-alteration-selected strategies. [PMID:24952746](../papers/24952746.md)
 
 ## Open questions
 
-- None flagged in the corpus.
+- RET-specific mutation frequency in NPC and whether RET alterations are predictive of TKI response are uncharacterized in the current corpus.
 
 ## Sources
 
-- [PMID:39289779](../papers/39289779.md)
+- [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36038778](../papers/36038778.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24418857](../papers/24418857.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

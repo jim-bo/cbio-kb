@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - rb-pathway
   - cell-cycle
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CDK6
@@ -23,6 +23,7 @@ processed_at: 2026-05-09
 - Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); contributes to Rb-pathway dysregulation (overall 78.9% of GBM) [PMID:24120142](../papers/24120142.md)
+- Co-targeted with CDK4 by dalpiciclib in NPC; combination + camrelizumab achieved ORR 32.4% in PD-1-refractory R/M NPC [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ processed_at: 2026-05-09
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

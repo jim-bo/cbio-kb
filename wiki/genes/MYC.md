@@ -57,6 +57,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
 - MYC focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
 - MYC gains at 8q are observed in HCC as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
+- Focal amplification in ~12% of HCCs; co-occurs with CCND1 amplification (7%) as recurrent copy-number gains driving proliferation in the HCC proliferation subclass [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -180,5 +181,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

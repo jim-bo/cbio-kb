@@ -5,8 +5,8 @@ drug_class: folinic acid / chemo modulator
 canonical_source: 
 unverified: true
 tags: [chemotherapy-modulator]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # leucovorin
@@ -19,6 +19,7 @@ Folinic acid; potentiates [fluorouracil](fluorouracil.md) thymidylate synthase i
 
 - Component of colorectal-style first-line regimens evaluated in appendiceal adenocarcinoma; GNAS-mut predominant MAAP had only 6% first-line response rate vs 50% for RAS-mut predominant MAAP on such leucovorin/5-FU-based therapy (P=.03) [PMID:36493333](../papers/36493333.md).
 - Leucovorin is a component of FOLFIRINOX ([fluorouracil](../drugs/fluorouracil.md) + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + leucovorin), used in 38% of the curated 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic patients [PMID:39753968](../papers/39753968.md).
+- Mentioned in HCC comprehensive molecular landscape review as part of chemotherapy context for hepatocellular carcinoma systemic treatment [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -35,3 +36,6 @@ Folinic acid; potentiates [fluorouracil](fluorouracil.md) thymidylate synthase i
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

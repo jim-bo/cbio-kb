@@ -29,6 +29,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - See also [EGC](../cancer_types/EGC.md) for shared EGC alterations.
 - [ERBB2](../genes/ERBB2.md) (HER2) surface overexpression in NCI-N87 STAD cells: T-DM1 IC50 <1 nM; >100-fold more sensitive than HER2− controls. [PMID:27698471](../papers/27698471.md)
 - SMARCA4 inactivating mutations occur in 5–8% of stomach adenocarcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
+- Narrative review of familial non-hereditary gastric cancer (FNHGC) in STAD: ~10% of GC shows familial clustering with only 1–3% explained by known high-penetrance syndromes; FIGC tumors enriched for MSI (~38%), somatic TP53, BRCA2, ATM, and FHIT alterations; H. pylori eradication reduced GC incidence by 55% in family-history carriers [PMID:24816255](../papers/24816255.md)
 
 ## Subtypes
 
@@ -51,5 +52,8 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

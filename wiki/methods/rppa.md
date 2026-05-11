@@ -5,8 +5,8 @@ kind: PROTEIN_LEVEL
 canonical_source: corpus
 unverified: true
 tags: [proteomics, protein-expression, rppa]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Reverse-Phase Protein Array (RPPA)
@@ -19,6 +19,7 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 
 - Applied to 214 [GBM](../cancer_types/GBM.md) samples (171 antibodies) as part of TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis; 127/171 antibodies correlated with transcriptomic subtype; revealed non-linear genotype-to-signaling relationships (e.g., RTK-amplified samples had lower downstream p-AKT/S6K/MAPK signaling than expected) [PMID:24120142](../papers/24120142.md)
 - Reverse-phase protein array (RPPA) applied to TCGA bladder carcinoma samples for protein and phosphoprotein expression profiling; contributed to multi-platform pathway-level characterization identifying therapeutic targets in 69% of tumors [PMID:24476821](../papers/24476821.md)
+- Applied as one of five molecular platforms in the TCGA HCC integrated characterisation of 196 patients alongside DNA copy number, methylation, mRNA, and miRNA [PMID:24798001](../papers/24798001.md)
 
 ## Notes
 
@@ -32,3 +33,6 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CDK4
@@ -32,6 +32,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute co-amplification with [MDM2](../genes/MDM2.md) was a striking structural finding; CDK4/CDK6 amplifications contribute to Rb-pathway dysregulation (overall 78.9%) [PMID:24120142](../papers/24120142.md)
 - Downstream effector of the RB pathway deregulated by TMZ-associated [CDKN2A](../genes/CDKN2A.md) P114L mutation; CDK4 inhibition was abrogated by CDKN2A mutation, contributing to malignant progression in TMZ-treated recurrent low-grade glioma [PMID:24336570](../papers/24336570.md)
 - Within 12q13-q14 amplicon in 9.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases, skewed toward PAX-fusion-positive tumors; 12q amplification containing CDK4 associated with worse overall survival in RMS independent of fusion status [PMID:24436047](../papers/24436047.md)
+- Dalpiciclib (CDK4/6 inhibitor) induces G1 arrest and upregulates MHC class I/IFN signaling; combined with camrelizumab achieved ORR 32.4% in PD-1-refractory R/M NPC [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -87,3 +88,6 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

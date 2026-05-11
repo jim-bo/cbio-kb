@@ -4,7 +4,7 @@ aliases: [MLL4]
 cancer_types: [UCEC]
 tags: [epigenetic-regulator, histone-methyltransferase, endometrial-cancer, racial-disparity]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-11
 ---
 
 # KMT2B
@@ -16,6 +16,7 @@ KMT2B (MLL4) is a histone H3K4 methyltransferase and transcriptional co-activato
 ## Alterations observed in the corpus
 
 - KMT2B mutations are enriched in CN-H/TP53abn endometrial carcinomas from Black patients (16% vs 8%) and carcinosarcomas from Black patients (31% vs 10%) in a study comparing molecular features of EC in 259 Black vs 1,276 White patients profiled by MSK-IMPACT [PMID:37651310](../papers/37651310.md).
+- KMT2B is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ KMT2B (MLL4) is a histone H3K4 methyltransferase and transcriptional co-activato
 
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

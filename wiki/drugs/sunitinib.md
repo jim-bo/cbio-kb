@@ -22,6 +22,7 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 - NCI-60 CellMiner pharmacogenomics study examined genomic determinants of sunitinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 - High PDGFRA/PDGFRB expression in metastatic PanNEN patients (PN2, PN10) guided sunitinib recommendation in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
 - One of 10 ccRCC tumors received 14–16 weeks of preoperative sunitinib; authors argue this cytostatic exposure did not collapse intratumor heterogeneity, though a treatment-naive baseline at this scale is unavailable [PMID:24487277](../papers/24487277.md)
+- Failed as frontline HCC therapy vs sorafenib (phase III): median OS 8.0–8.8 vs 9.9–10.0 months for sorafenib (HR 1.12–1.15); demonstrated inferior efficacy in first-line setting [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -46,5 +47,8 @@ Sunitinib is an oral multi-targeted receptor tyrosine kinase inhibitor (TKI) tha
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

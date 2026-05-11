@@ -3,8 +3,8 @@ symbol: FGFR4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # FGFR4
@@ -21,6 +21,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutated in breast cancer (TCGA, 510 tumors); somatic mutations identified across subtypes [PMID:23000897](../papers/23000897.md)
 - Mutation identified in adenoid cystic carcinoma (ACC); receptor tyrosine kinase in the FGF signaling pathway [PMID:23685749](../papers/23685749.md)
 - FGFR4 recurrently mutated in 9.6% of fusion-negative rhabdomyosarcoma (PFN) tumors and 0% of fusion-positive (PFP) tumors; shared leading-edge PAX-FOXO1 downstream target; RAS/FGFR4 pathway mutationally activated in ≥45% of PFN tumors; MEK inhibition proposed as a therapeutic strategy [PMID:24436047](../papers/24436047.md)
+- FGFR4 is the predominant hepatic FGFR; a therapeutic target in HCC via selective inhibitors BLU-554, H3B-6527, and FGF401, enriched by FGF19 IHC positivity (≥1%). [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,19 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

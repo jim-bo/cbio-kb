@@ -47,6 +47,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Oncogenic S33/T41 mutations in 3% of PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), including one fusion-negative [ARMS](../cancer_types/ARMS.md) case; part of a Wnt-pathway signal identified in pediatric RMS genomic landscape [PMID:24436047](../papers/24436047.md)
 - Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; one of 32 SMGs from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
 - β-catenin activating mutations in ~30% of HCC and a high-risk feature in HCA for malignant transformation; CTNNB1 mutation in hepatocellular adenoma is an indication for surgical resection per this review [PMID:24735922](../papers/24735922.md)
+- Activating mutation in 29% (range 23–36%) of HCCs (WES, n=1,289); defines canonical-WNT non-proliferation subclass and the immune-excluded class; β-catenin activation drives T-cell exclusion and checkpoint resistance [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -134,5 +135,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

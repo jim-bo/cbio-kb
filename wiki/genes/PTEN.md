@@ -68,6 +68,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous deletion in RMS2117 rhabdomyosarcoma sample; loss of PTEN activates the PI3K/AKT axis, a recurrent oncogenic mechanism in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 - PTEN parallel evolution previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
 - PTEN harbors inactivating mutations in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
+- PTEN loss contributes to PI3K/AKT pathway hyperactivation in HCC; part of the oncogenic signaling landscape analyzed in the HCC precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -230,5 +231,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

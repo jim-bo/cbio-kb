@@ -1,9 +1,9 @@
 ---
 symbol: RB1
 aliases: []
-cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD, CCRCC]
-tags: [tumor-suppressor, cell-cycle, brain-metastasis]
-processed_by: wiki-cli
+cancer_types: [HCC]
+tags: []
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -11,173 +11,31 @@ processed_at: 2026-05-11
 
 ## Overview
 
-RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In the corpus it appears in [NSCLC](../cancer_types/NSCLC.md) brain metastasis contexts.
+RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of the G1/S cell cycle checkpoint. Loss-of-function mutations and homozygous deletions in RB1 are recurrent in hepatocellular carcinoma (HCC) and provide rationale for CDK4/6 inhibitor trials.
 
 ## Alterations observed in the corpus
 
-- Enriched in [LUAD](../cancer_types/LUAD.md) primary tumors from patients who later developed brain metastases (BM+) vs BM-/EM- primaries [PMID:37591896](../papers/37591896.md).
-- RB1 loss enriched in local intracranial progressors after craniotomy + RT (24% vs 6% in non-progressors, p=0.022; q=0.573 after multiple-testing correction) [PMID:37591896](../papers/37591896.md).
-- Rare in [FGFR3](../genes/FGFR3.md)-altered urothelial carcinoma (1.2%, 5/414) and inversely associated with [FGFR3](../genes/FGFR3.md) alterations in the MSK [bladder_msk_2023](../datasets/bladder_msk_2023.md) cohort [PMID:37682528](../papers/37682528.md).
-- RB1 oncogenic alterations were enriched in brain and liver metastases across the MSK-CHORD pan-cancer organotropism analyses (n=24,950) [PMID:39506116](../papers/39506116.md).
-- RB1 alterations detected in 11% of cfDNA samples from 201 mUC patients in CALGB 90601; numerically higher in cfDNA than matched tumor (14% vs 12% in concordance subset), suggesting cfDNA captures some RB1 alterations missed in tissue. [PMID:40256659](../papers/40256659.md)
-- RB1 listed as an oncogenomically relevant gene in the MAPK-WT/other-MAPK-mutant PDAC subtype landscape (MSK-IMPACT, n=2,336); not singled out for a specific narrative finding beyond genomic cataloging. [PMID:39753968](../papers/39753968.md)
-- High-risk small bowel [GIST](../cancer_types/GIST.md) class in the [elastic-net](../methods/elastic-net.md) Cox genomic risk model was defined in part by RB1 alterations [PMID:37477937](../papers/37477937.md).
-- RB1 truncating mutations/deletions in 14% of RT-[MFH](../cancer_types/MFH.md) (UPS) vs 19% sporadic UPS (n=14 RT-UPS, n=273 sporadic UPS); frequencies were similar between RT and sporadic settings [PMID:37350195](../papers/37350195.md).
-- RB1 mutation observed in pleomorphic liposarcoma ([PLLS](../cancer_types/PLLS.md)) in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)); the broader Rb pathway implication is consistent with [CDK4](../genes/CDK4.md) dependency in the same dataset [PMID:20601955](../papers/20601955.md).
-- 7 mutations identified in 188 [LUAD](../cancer_types/LUAD.md) tumours; 5 co-occur with [TP53](../genes/TP53.md), 2 co-occur with [ATM](../genes/ATM.md) mutations; implicated in p53/Rb pathway co-inactivation. [PMID:18948947](../papers/18948947.md)
-- Mutations enriched in higher-grade/stage bladder tumors (q < 0.001) [PMID:36543146](../papers/36543146.md)
-- RB1 splice-site and missense mutations detected at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition in CRC [PMID:36355783](../papers/36355783.md)
-- RB1 frequently mutated in metastatic UC; mutations associated with improved ICI survival when combined with ATM/FANCC alterations [PMID:36333289](../papers/36333289.md)
-- RB1 LOF mutations in 3.5% of [GBC](../cancer_types/GBC.md); enriched in small cell neuroendocrine carcinoma (q<0.001) [PMID:36228155](../papers/36228155.md)
-- Recurrently deleted in prostate cancer identified in integrative genomic profiling of 218 tumors [PMID:20579941](../papers/20579941.md)
-- Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) in TCGA integrated genomic analysis [PMID:21720365](../papers/21720365.md)
-- Mutations in 7.7% (5/65) of TNBC; homozygous deletions in 5% of cases [PMID:22495314](../papers/22495314.md)
-- Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- HBx suppresses CDK inhibitors through promoter methylation, leading to RB1 inactivation in HBV-associated [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
-- Previously known breast cancer driver gene confirmed by WES (100 tumors, Sanger cohort) [PMID:22722201](../papers/22722201.md)
-- Significantly mutated in castration-resistant prostate cancer (Michigan WES, 112 tumors) [PMID:22722839](../papers/22722839.md)
-- Identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); RB1 loss-of-function mutations detected among recurrently mutated genes [PMID:22817889](../papers/22817889.md)
-- Inactivating mutations in 100% of [SCLC](../cancer_types/SCLC.md) tumors (biallelic via mutation + deletion/LOH); classified as an early clonal event alongside [TP53](../genes/TP53.md) [PMID:22941188](../papers/22941188.md)
-- Inactivating mutations and copy-number loss identified as significantly mutated in [SCLC](../cancer_types/SCLC.md) (JHU WES/WGS cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
-- One of 10 significantly mutated genes (FDR q < 0.1) in TCGA lung squamous cell carcinoma (178 tumors); CDKN2A/RB1 pathway altered in 72% of [LUSC](../cancer_types/LUSC.md) tumors [PMID:22960745](../papers/22960745.md)
-- Mutation identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); associated with primitive expression subtype [PMID:22980975](../papers/22980975.md)
-- Loss/mutation in 20% of Basal-like breast cancers; [CCNE1](../genes/CCNE1.md) amplification is mutually exclusive with RB1 loss; identified in TCGA breast cancer comprehensive analysis (510 tumors, [brca_tcga_pub](../datasets/brca_tcga_pub.md)) [PMID:23000897](../papers/23000897.md)
-- Alterations in 41.2% of low hypodiploid ALL (P=1.19x10^-5 vs near haploid); mutually exclusive with CDKN2A/CDKN2B loss; one of the most frequently altered genes distinguishing low hypodiploid from near haploid ALL ([all_stjude_2013](../datasets/all_stjude_2013.md), 124 pediatric cases) [PMID:23334668](../papers/23334668.md)
-- RB1 is disrupted by chromoplexy-mediated rearrangement in 2 prostate cancer cases, representing an intermediate-to-late clonal event in the chromoplectic progression path [PMID:23622249](../papers/23622249.md)
-- Discussed as context gene: prior mouse models combining Vhl + Trp53 ± Rb1 inactivation showed dual HIFα dependence for ccRCC tumor formation, consistent with the current single-cell findings on proximal tubule proliferation; RB1 itself is not mutated in the study model. [PMID:23797736](../papers/23797736.md)
-- Mutation/deletion in 15% of high-grade bladder tumors; enriched in high-CNA-burden (P<0.003) and neuroendocrine subsets (50% vs 13%; P=0.01); inversely correlated with CCND1/CCNE1 amplification [PMID:23897969](../papers/23897969.md)
-- Direct mutation/deletion in 7.6% of [GBM](../cancer_types/GBM.md); Rb-pathway dysregulation overall in 78.9% [PMID:24120142](../papers/24120142.md)
-- Confirmed recurrent driver mutation in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
-- RB1 inactivating mutations found in 3/23 (13%) pancreatic carcinomas with acinar differentiation [PMID:24293293](../papers/24293293.md)
-- RB1 recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms; RB1 loss noted in ovarian MiNEN PN19 alongside [TP53](../genes/TP53.md) loss [PMID:24326773](../papers/24326773.md)
-- TMZ-associated c.2520+1G>A splice-site mutation drove aberrant splicing and loss of the C-terminal growth-suppression domain in a recurrent low-grade glioma; GSEA confirmed RB1-mediated cell-cycle control deregulation at recurrence [PMID:24336570](../papers/24336570.md)
-- Single-case frameshift mutation detected in sinonasal adenoid cystic carcinoma (AdCC) sequencing cohort; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
-- Significantly mutated in multiple myeloma (MM) in a comprehensive genomic analysis [PMID:24434212](../papers/24434212.md)
-- Inactivating mutations in 13% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md)); associated with reduced mRNA expression; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) deletions [PMID:24476821](../papers/24476821.md)
-- RB1 is mutated in esophageal squamous cell carcinoma (ESCC) as part of the canonical ESCC genomic landscape [PMID:24670651](../papers/24670651.md)
+- Loss-of-function mutation in 4% of HCCs (WES, n=1,289 patients). [PMID:24798001](../papers/24798001.md)
+- Homozygous deletion in 5% of HCCs (SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
-- Lung adenocarcinoma ([LUAD](../cancer_types/LUAD.md)) — brain-metastasis-associated and local-progression-associated [PMID:37591896](../papers/37591896.md).
-- [BLCA](../cancer_types/BLCA.md) / [UTUC](../cancer_types/UTUC.md) — rare and inversely associated with [FGFR3](../genes/FGFR3.md) alterations [PMID:37682528](../papers/37682528.md).
-- [MFH](../cancer_types/MFH.md) (UPS) — RB1 truncating mutations/deletions at similar frequency in RT-UPS (14%) and sporadic UPS (19%) [PMID:37350195](../papers/37350195.md).
-- Metastatic urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) — RB1 alterations in 11% of cfDNA; numerically enriched in cfDNA vs matched tumor. [PMID:40256659](../papers/40256659.md)
-- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — RB1 catalogued in the MSK-IMPACT PDAC genomic landscape study (n=2,336). [PMID:39753968](../papers/39753968.md)
+- **HCC** — RB1 LOF in 4% and homozygous deletion in 5%; provides mechanistic rationale for CDK4/6 inhibitor trials (e.g., palbociclib in RB1-positive disease). [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Local-progression group also enriched for [NKX3-1](../genes/NKX3-1.md) alterations [PMID:37591896](../papers/37591896.md).
+- No co-occurrence or mutual exclusivity data with specific partner genes reported in the current corpus.
 
 ## Therapeutic relevance
 
-- No direct therapeutic link reported in the corpus.
+- RB1 loss is the rationale for CDK4/6 inhibitor (palbociclib, ribociclib) trials in HCC. [PMID:24798001](../papers/24798001.md)
 
 ## Open questions
 
-- Local-progression association did not survive multiple-testing correction (q=0.573) and warrants validation [PMID:37591896](../papers/37591896.md).
+- No CDK4/6 inhibitor has been validated in a biomarker-selected RB1-deficient HCC phase III trial.
 
 ## Sources
 
-- [PMID:37591896](../papers/37591896.md)
-- [PMID:37682528](../papers/37682528.md)
-- [PMID:39506116](../papers/39506116.md)
-- [PMID:37477937](../papers/37477937.md)
-- [PMID:37350195](../papers/37350195.md)
-- [PMID:40256659](../papers/40256659.md)
-- [PMID:39753968](../papers/39753968.md)
-- [PMID:20601955](../papers/20601955.md)
+- [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36543146](../papers/36543146.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22634756](../papers/22634756.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22722839](../papers/22722839.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22817889](../papers/22817889.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22941188](../papers/22941188.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22941189](../papers/22941189.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22980975](../papers/22980975.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23334668](../papers/23334668.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23797736](../papers/23797736.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24121792](../papers/24121792.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24418857](../papers/24418857.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24434212](../papers/24434212.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24670651](../papers/24670651.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

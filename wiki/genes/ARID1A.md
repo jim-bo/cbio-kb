@@ -51,6 +51,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - SWI/SNF subunit mutated in ccRCC (RMH004, p.Arg1020Lys) alongside PBRM1 and SMARCA4 hits; identified as a branch driver in multi-region sequencing of 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
 - Non-catalytic BAF subunit (BAF250A) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but noted as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
 - Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes [PMID:24735922](../papers/24735922.md)
+- Loss-of-function mutation in 8% (range 4–12%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -159,5 +160,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

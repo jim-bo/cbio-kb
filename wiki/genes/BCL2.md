@@ -3,8 +3,8 @@ symbol: BCL2
 aliases: []
 cancer_types: [CLLSLL, DLBCLNOS]
 tags: [translocation, apoptosis, m-cll]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # BCL2
@@ -21,6 +21,7 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - Recurrent translocation involving BCL2 detected by low-pass WGS in 5/106 endometrial carcinoma tumors ([ucec_tcga_pub](../datasets/ucec_tcga_pub.md)); predicted in-frame fusions with increased BCL-family expression [PMID:23636398](../papers/23636398.md)
 - Cited as a DLBCL driver gene in the context of somatic-hypermutation discussion in multiple myeloma (MM); BCL2 invoked by analogy alongside [MYD88](../genes/MYD88.md) and [CARD11](../genes/CARD11.md) as DLBCL drivers that appear as rare mutations in MM patients lacking the 11 canonical MM driver mutations [PMID:24434212](../papers/24434212.md)
+- Focal amplification (GISTIC peak) in thymic tumors with correlated increased mRNA expression by RNA-seq [PMID:24974848](../papers/24974848.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

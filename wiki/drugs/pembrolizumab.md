@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # pembrolizumab
@@ -31,6 +31,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and EZH2 inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
 - 9 of 12 metastatic gallbladder carcinoma patients receiving immune checkpoint inhibitors received pembrolizumab; 42% (5/12) showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
 - Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
+- KEYNOTE-224 in HCC: pembrolizumab ORR 16.3% in 104 patients, median OS 12.9 months (second-line, post-sorafenib); FDA approved (tumour-agnostic) for MSI-H/dMMR HCC (~3% of HCCs); PD-L1 IHC does not predict response in HCC [PMID:24798001](../papers/24798001.md)
+- Investigational anti-PD-1 ICI for recurrent/metastatic NPC; listed among PD-1/PD-L1 antibodies under evaluation alongside toripalimab, penpulimab, sintilimab, and nivolumab; monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -70,3 +72,9 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # fluorouracil
@@ -22,6 +22,7 @@ processed_at: 2026-05-06
 - FOLFIRINOX (fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) was administered to 38% of the 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in the 304 metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
 - Synergizes with [prexasertib](../drugs/prexasertib.md) ([CHEK1](../genes/CHEK1.md) inhibitor) in FBXO7-deficient colorectal cancer cells within a defined concentration window (1.92--9.6 nM prexasertib + 28 micromolar 5-FU; Loewe Additivity model); antagonistic at lower 5-FU concentrations [PMID:36334560](../papers/36334560.md)
 - Listed as a component of standard head and neck cancer systemic therapy regimens in the cBioPortal platform paper describing HNSCC genomic data [PMID:19176454](../papers/19176454.md)
+- Cited in HCC systemic therapy review as a reference chemotherapy agent in historical combination regimens [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ processed_at: 2026-05-06
 - [PMID:19176454](../papers/19176454.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

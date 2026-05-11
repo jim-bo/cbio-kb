@@ -3,8 +3,8 @@ symbol: KMT2A
 aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # KMT2A
@@ -22,6 +22,7 @@ processed_at: 2026-05-09
 - Recurrent missense mutation (Ile960Met) identified in [SCLC](../cancer_types/SCLC.md) (29 tumors, CLCGP WES/WGS); histone methyltransferase [PMID:22941188](../papers/22941188.md)
 - Chromatin-modifying gene recurrently altered in [AML](../cancer_types/AML.md); fusion partners observed include [MLLT3](../genes/MLLT3.md) (AF9) and [MLLT10](../genes/MLLT10.md) (AF10); MLL-fused [AML](../cancer_types/AML.md) samples carried the fewest cooperating mutations of any subgroup [PMID:23634996](../papers/23634996.md)
 - Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors in a 99-sample WES cohort [PMID:24121792](../papers/24121792.md)
+- KMT2A is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -44,19 +45,22 @@ processed_at: 2026-05-09
 
 - [PMID:25730765](../papers/25730765.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

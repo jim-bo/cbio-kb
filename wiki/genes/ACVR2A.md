@@ -3,8 +3,8 @@ symbol: ACVR2A
 aliases: []
 cancer_types: [COAD]
 tags: [tumor-suppressor, TGF-beta, hypermutated, mismatch-repair-deficient]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ACVR2A
@@ -16,6 +16,7 @@ ACVR2A encodes Activin A receptor type 2A, a serine/threonine kinase receptor in
 ## Alterations observed in the corpus
 
 - ACVR2A is the most frequently mutated gene in hypermutated (MSI-H) colorectal adenocarcinoma, altered in 63% of hypermutated tumors across 276 TCGA CRC cases; mutations are predominantly frameshift indels consistent with microsatellite instability-driven mutagenesis [PMID:22810696](../papers/22810696.md)
+- Mutated in HCC as part of the trunk-driver landscape (WES, n=1,289); listed as a non-actionable somatic alteration in the molecular landscape review [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ACVR2A encodes Activin A receptor type 2A, a serine/threonine kinase receptor in
 - [PMID:22810696](../papers/22810696.md) — TCGA CRC comprehensive molecular characterization (276 tumors)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

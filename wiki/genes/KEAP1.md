@@ -3,7 +3,7 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD]
 tags: [co-mutation, metastasis]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -22,6 +22,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - Loss-of-function mutation in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); mutually exclusive with NFE2L2 mutations; NFE2L2/KEAP1/CUL3 pathway altered in 34% of LUSC tumors [PMID:22960745](../papers/22960745.md)
 - Inactivating mutations in 12% of 183 LUAD cases; anti-correlated with never/light smoking status [PMID:22980975](../papers/22980975.md)
 - KEAP1 is identified as a driver linked to oxidative-stress signaling in HCC by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
+- KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with NFE2L2 at 4%) as part of the oxidative stress/NRF2 pathway alterations in the HCC mutational landscape. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -48,13 +49,16 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

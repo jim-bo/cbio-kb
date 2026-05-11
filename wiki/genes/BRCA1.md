@@ -15,7 +15,7 @@ tags:
   - germline
   - tumor-suppressor
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # BRCA1
@@ -47,6 +47,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Two missense mutations observed in ACC WES cohort (n=60); classified in the DNA-damage response pathway [PMID:23685749](../papers/23685749.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified [PMID:24293293](../papers/24293293.md)
+- HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -118,3 +119,6 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

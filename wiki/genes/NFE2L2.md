@@ -20,6 +20,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - Deleterious missense mutations in the Neh2 domain in 11 tumors (8%) of muscle-invasive bladder carcinoma; mutually exclusive with [TXNIP](../genes/TXNIP.md) mutations; mutant tumors upregulated genotoxic-metabolism and ROS-response genes [PMID:24476821](../papers/24476821.md)
 - NFE2L2 is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
 - NFE2L2 is identified as a driver linked to oxidative-stress signaling in HCC by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
+- Implicated in HCC genomic landscape analysis as part of the broader trunk-mutation set; RAS pathway (KRAS/NRAS) mutations are rare (~1% each) in HCC, with NFE2L2 noted among recurrently altered cancer-related genes [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

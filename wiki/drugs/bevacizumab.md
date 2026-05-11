@@ -5,8 +5,8 @@ drug_class: anti-VEGF monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [antiangiogenic]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # bevacizumab
@@ -22,6 +22,8 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - Bevacizumab was the experimental arm added to gemcitabine/cisplatin in the phase 3 CALGB 90601 (Alliance) trial (NCT00942331) for first-line metastatic urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)). The trial showed no [OS](../cancer_types/OS.md) benefit for the bevacizumab arm (median [OS](../cancer_types/OS.md) 14 mo vs 16 mo, PFS 7.8 vs 7.6 mo). A 201-patient cfDNA biomarker substudy used this trial cohort to evaluate DDR alterations, ctDNA VAF, and TERT/PIK3CA/ERBB2 as prognostic features for cisplatin-based chemotherapy outcomes. [PMID:40256659](../papers/40256659.md)
 - Atezolizumab+bevacizumab combination showed significant PFS benefit over [sunitinib](../drugs/sunitinib.md) for ICI/ICI-combo-preferred ccRCC patients (IMmotion151, p=0.00005; ICI responder HR=-0.52, p=0.003) in the HiTME molecular subtyping study [PMID:22138691](../papers/22138691.md)
 - Noted in the clinical-context discussion of [GBM](../cancer_types/GBM.md) treatment in the TCGA 2013 multi-platform study (n=543); bevacizumab is cited as part of the GBM therapeutic landscape but is not the focus of biomarker analysis in this dataset [PMID:24120142](../papers/24120142.md).
+- Reviewed in HCC: atezolizumab + bevacizumab achieved ORR 65% in 23 patients (FDA breakthrough designation); bevacizumab contributes VEGF blockade alongside anti-PD-L1 in combination strategies [PMID:24798001](../papers/24798001.md)
+- Bevacizumab + sintilimab achieved ORR 54.5% in platinum-refractory ICI-naïve R/M NPC [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +47,9 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

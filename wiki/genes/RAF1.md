@@ -1,61 +1,40 @@
 ---
 symbol: RAF1
-aliases: []
-cancer_types: [PAAD, PAST]
-tags: [mapk-pathway, kinase, braf-fusions]
-processed_by: wiki-cli
+aliases: [CRAF]
+cancer_types: [HCC]
+tags: []
+processed_by: entity-page-writer
 processed_at: 2026-05-11
-canonical_source: cbioportal
-unverified: false
 ---
 
 # RAF1
 
 ## Overview
 
-RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effector of RAS in the MAPK/ERK signaling pathway. RAF1 dimerizes with [BRAF](../genes/BRAF.md) to transduce RAS signals to MEK and ERK. In the context of [BRAF](../genes/BRAF.md) fusions, RAF1 is part of the broader MAPK pathway co-alteration landscape that is typically mutually exclusive with oncogenic [BRAF](../genes/BRAF.md) fusions.
+RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It is cataloged among somatic alterations in the mutational landscape of hepatocellular carcinoma (HCC) derived from large-scale whole-exome sequencing studies.
 
 ## Alterations observed in the corpus
 
-- RAF1 is listed as a MAPK pathway gene of interest in the context of a pan-cancer [BRAF](../genes/BRAF.md) fusion study spanning 97,024 MSK-sequenced samples; [BRAF](../genes/BRAF.md) fusions were mutually exclusive with other MAPK pathway driver alterations (including RAF1) across the 212-patient [BRAF](../genes/BRAF.md) fusion-positive cohort [PMID:38922339](../papers/38922339.md).
-- RAF1 is included as a MAPK-pathway gene in the genomic landscape of 2,336 PDAC patients sequenced with MSK-IMPACT; oncogenic MAPK-pathway alterations (including RAF1) are enriched in KRAS-WT tumors (60% of KRAS-WT vs 7% of KRAS-mutant, P = 1.6 × 10⁻⁴⁷), with activating fusions nearly exclusive to KRAS-WT PDAC. [PMID:39753968](../papers/39753968.md)
-- RAF1 S259F detected in CRC-resistant PDX (CLR113, CCF 10%) at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
-- RAF1 fusions in pilocytic astrocytoma cited as a known MAPK-activating mechanism analogous to [KIAA1549](../genes/KIAA1549.md):BRAF fusions; not directly identified in the 96-case WGS cohort but recognized as a recurrent alteration in this tumor type; MEK inhibition is the rational therapeutic approach for fusion-bearing tumors. [PMID:23817572](../papers/23817572.md)
-- Amplification in ~6% of high-grade urothelial carcinoma tumors as part of the MAPK-pathway alteration set [PMID:23897969](../papers/23897969.md)
-- BRAF and RAF1 are RAS/RAF/MAPK pathway components; mutations occur in <5% of HCC but the pathway is universally activated in advanced disease [PMID:24735922](../papers/24735922.md)
+- RAF1 is listed in the HCC mutational gene catalog from WES of 1,289 patients; individual mutation frequency is not separately enumerated in the review text. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
-- Pan-cancer context — RAF1 as a MAPK pathway member mutually exclusive with BRAF fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
-- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — RAF1 alterations part of the MAPK-pathway gene set enriched in KRAS-WT PDAC, which carries better [OS](../cancer_types/OS.md) than KRAS-mutant PDAC; activating fusions involving MAPK genes nearly exclusive to KRAS-WT tumors. [PMID:39753968](../papers/39753968.md)
+- **HCC** — identified in comprehensive WES-based mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- BRAF fusions (oncogenic, class II) are mutually exclusive with other MAPK pathway alterations including RAF1 across 52 histologies [PMID:38922339](../papers/38922339.md).
+- No co-occurrence or mutual exclusivity data reported in the current corpus.
 
 ## Therapeutic relevance
 
-- MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md)) that target downstream of RAF1/BRAF showed durable benefit in pilocytic astrocytoma BRAF fusion-positive patients; RAF1-specific co-alterations were not independently targeted [PMID:38922339](../papers/38922339.md).
+- No direct RAF1-targeted therapy data reported in the current corpus. RAF1/BRAF pathway is a component of sorafenib's multi-kinase inhibition profile. [PMID:24798001](../papers/24798001.md)
 
 ## Open questions
 
-- The frequency and clinical significance of RAF1 fusions or mutations as primary driver events in solid tumors (beyond their mutual exclusivity with BRAF fusions) warrants further characterization.
+- Individual mutation frequency and functional significance of RAF1 alterations in HCC require further characterization.
 
 ## Sources
 
-- [PMID:38922339](../papers/38922339.md)
-- [PMID:39753968](../papers/39753968.md)
+- [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36355783](../papers/36355783.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23817572](../papers/23817572.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24735922](../papers/24735922.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

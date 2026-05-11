@@ -4,7 +4,7 @@ aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # PDCD1
@@ -21,6 +21,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-1; marks antigen-experienced T cells in [HGSOC](../cancer_types/HGSOC.md); higher co-expression with [CD274](../genes/CD274.md) in HRD subtypes [PMID:36517593](../papers/36517593.md)
 - PDCD1 (PD-1) expression on tumor-infiltrating lymphocytes is elevated in PBRM1-mutant ccRCC tumors with high immune cell infiltration, supporting use as an immunotherapy biomarker [PMID:22138691](../papers/22138691.md)
 - High expression of PD-1 (PDCD1) flagged as an immune-checkpoint-inhibitor rationale in metastatic neuroendocrine neoplasms (NENs) PN5, PN18, and PN19 within the whole-genome/transcriptome analysis (WGTA) precision-oncology cohort [PMID:24326773](../papers/24326773.md)
+- PD-1 expression is a defining marker of the immune-active HCC class; expression not predictive of response to nivolumab or pembrolizumab in HCC trials; anti-PD-1 has FDA accelerated approval in HCC [PMID:24798001](../papers/24798001.md)
+- PD-1 upregulated on T cells in non-keratinizing NPC due to chronic EBV antigen exposure; multiple anti-PD-1 mAbs approved or investigational in NPC (toripalimab, tislelizumab, penpulimab, pembrolizumab, nivolumab, sintilimab, serplulimab, tagitanlimab) [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -61,3 +63,9 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

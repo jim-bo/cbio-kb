@@ -7,8 +7,8 @@ tags:
   - receptor-tyrosine-kinase
   - melanocyte-state
   - invasive-phenotype
-processed_by: entity-page-writer
-processed_at: 2026-05-01
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # AXL
@@ -20,6 +20,8 @@ AXL is a receptor tyrosine kinase of the TAM family (TYRO3, AXL, MERTK) implicat
 ## Alterations observed in the corpus
 
 - AXL expression used as a state marker aligning with the LowMut (neural-crest/invasive) melanocyte subpopulation in a multimodal single-cell atlas of 297 melanocytes from human skin; LowMut melanocytes cluster with the WIMMS "AXL/Neuronal/Invasive" and Belote et al. "MSC" states in cross-study alignment [PMID:39975212](../papers/39975212.md).
+- Inhibited by cabozantinib alongside MET and VEGFRs in HCC; overexpression associated with tumour progression [PMID:24798001](../papers/24798001.md)
+- Receptor tyrosine kinase associated with epithelial–mesenchymal transition and therapy resistance in NPC; targeted by multi-kinase TKI cabozantinib [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +44,9 @@ AXL is a receptor tyrosine kinase of the TAM family (TYRO3, AXL, MERTK) implicat
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-01**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

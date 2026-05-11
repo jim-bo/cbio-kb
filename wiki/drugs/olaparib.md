@@ -13,7 +13,7 @@ tags:
   - sarcoma
   - functional-precision-medicine
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # olaparib
@@ -29,6 +29,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - 1 metastatic gallbladder carcinoma patient received olaparib targeting BRCA/ATM alterations (OncoKB level 3B); BRCA1/BRCA2 oncogenic mutations identified in 3 and 6 patients respectively among 233 [GBC](../cancer_types/GBC.md) cases profiled with MSK-IMPACT [PMID:36228155](../papers/36228155.md)
 - Homologous recombination defects in ~50% of 489 HGSOC tumors (BRCA1/2 mutations, BRCA1 methylation, PTEN deletion, etc.) provide a rationale for PARP inhibitor therapy (olaparib) beyond germline BRCA carriers [PMID:21720365](../papers/21720365.md)
 - BRCA1/BRCA2 mutations in basal-like breast tumors identified as genomic basis for sensitivity to PARP inhibitor olaparib [PMID:23000897](../papers/23000897.md)
+- PARP inhibitor olaparib under investigation in combination with immune checkpoint inhibitors to exploit DNA repair deficiencies in recurrent/metastatic nasopharyngeal carcinoma (NPC) [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:23000897](../papers/23000897.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

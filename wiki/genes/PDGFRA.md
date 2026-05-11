@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # PDGFRA
@@ -28,6 +28,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - High PDGFRA expression cited as a rationale for [sunitinib](../drugs/sunitinib.md) therapy in metastatic NEN patients PN2 and PN10 in a WGTA precision-oncology study [PMID:24326773](../papers/24326773.md)
 - Single nasal-cavity case with missense p.Thr674Ile (AF 8%); the patient received targeted therapy with [imatinib](../drugs/imatinib.md) and was NED at 19 months — the only AdCC patient in the cohort to receive targeted therapy [PMID:24418857](../papers/24418857.md)
 - Recurrently mutated in rhabdomyosarcoma at 1.4% frequency (PFN-enriched); classified as a receptor tyrosine kinase driver [PMID:24436047](../papers/24436047.md)
+- Implicated in HCC pathogenesis as part of the receptor tyrosine kinase landscape; sorafenib inhibits PDGFR alongside VEGFR/RAF as part of its multi-kinase mechanism in advanced HCC [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +83,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

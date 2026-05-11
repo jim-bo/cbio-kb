@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # nivolumab
@@ -26,6 +26,8 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - The ROBIN consortium (ROBIN white paper) identifies nivolumab (PD-1 blockade) as one of the systemic agents being combined with radiation therapy, alongside adenosine-pathway inhibition and antibody-drug conjugates, as a priority direction for radiation-immunotherapy combination trials [PMID:41941260](../papers/41941260.md).
 - Received by 1 metastatic gallbladder carcinoma patient (and 1 patient received ipilimumab/nivolumab combination) among 12 ICI-treated patients in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233); 42% (5/12) showed evidence of ICI response [PMID:36228155](../papers/36228155.md)
 - Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
+- CheckMate 040 in HCC: nivolumab investigator-assessed ORR 20%, median duration of response 9.9 months (n=214 dose-expansion); OS 15.6 months in second-line; FDA accelerated approval based on 154 sorafenib-pretreated patients (ORR 14.3% RECIST 1.1, 18.2% mRECIST, DoR 16.6 months); PD-L1 IHC does not predict response in HCC [PMID:24798001](../papers/24798001.md)
+- Anti-PD-1 ICI listed among investigational agents for recurrent/metastatic NPC; PD-1/PD-L1 monotherapy ORR approximately 15–20% in NPC; relatlimab + nivolumab in randomized REMAIN trial for LAG-3 co-blockade [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +56,9 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

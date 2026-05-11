@@ -10,8 +10,8 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # PALB2
@@ -27,6 +27,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - Germline splice-site variant plus somatic missense mutation in 2 neuroblastoma patients; [BRCA](../cancer_types/BRCA.md) complex member; identified in Broad WES/WGS cohort of 240 high-risk neuroblastoma tumors [PMID:23334666](../papers/23334666.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; identified as a Fanconi-anemia-pathway member, flagging potential sensitivity to DNA cross-linking agents and PARP inhibitors [PMID:24293293](../papers/24293293.md)
 - Single frameshift mutation (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort; PALB2 is a known BRCA2-interacting genome stability gene [PMID:24418857](../papers/24418857.md)
+- Germline PALB2 mutations confer HBOC-spectrum risk including elevated gastric cancer susceptibility; must be ruled out before FNHGC labeling; included in standard multigene GC panel alongside BRCA1, BRCA2, ATM, and BRIP1 [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -61,3 +62,6 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

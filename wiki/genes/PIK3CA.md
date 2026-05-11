@@ -80,6 +80,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
 - PIK3CA harbors activating mutations and amplification in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
 - PIK3CA is a PI3K/AKT pathway driver in HCC identified by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
+- PI3K/AKT pathway activation implicated in HCC; PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of MET in the context of EGFR/MET resistance mechanisms [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -266,5 +267,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

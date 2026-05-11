@@ -1,45 +1,41 @@
 ---
 symbol: YAP1
 aliases: [YAP]
-cancer_types:
-  - NBL
-tags:
-  - hippo-pathway
-  - mesenchymal-marker
-  - transcriptional-coactivator
-  - neuroblastoma
+cancer_types: [STAD]
+tags: []
 processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_at: 2026-05-11
 ---
 
 # YAP1
 
 ## Overview
 
-YAP1 (Yes1 Associated Transcriptional Regulator) is the primary effector of the Hippo signaling pathway and functions as a transcriptional co-activator driving cell proliferation, survival, and organ size control. YAP1 is associated with mesenchymal cell states and EMT. In neuroblastoma, YAP1 marks the undifferentiated and mesenchymal stromal compartments of high-risk tumors.
+YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream effector of the Hippo signaling pathway. In gastric cancer, YAP1 signaling is perturbed by oncogenic RHOA mutations, linking Rho GTPase biology to Hippo pathway dysregulation in diffuse-type gastric adenocarcinoma.
 
 ## Alterations observed in the corpus
 
-- YAP1 is significantly expressed in both the undifferentiated nC3 cluster and the mesenchymal stromal (MSC) nC1 cluster of high-risk neuroblastoma tumors in a single-nuclei RNA-seq study of 11 tumors (Smart-Seq2, 3,212 nuclei); RNAscope in situ hybridization confirmed absence in a low-risk stage 4S tumor (K6). [PMID:34493726](../papers/34493726.md)
+- YAP1 signaling is perturbed by a germline RHOA p.R129W variant identified in a Korean HDGC-like family: the variant showed elevated GTP-binding and altered YAP1 signaling in functional assays. [PMID:24816255](../papers/24816255.md)
+- RHOA-activated diffuse gastric tumors may be susceptible to Rho/ROCK or YAP1-pathway inhibitors (preclinical hypothesis; no clinical trial data reported). [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
-- [NBL](../cancer_types/NBL.md) — YAP1 marks the mesenchymal/undifferentiated compartment (nC3 + MSC nC1) in high-risk neuroblastoma; absent in the low-risk 4S tumor by RNAscope validation. High-risk tumors have significantly higher proportions of nC3/MSC cells (FDR <0.01, chi-square). [PMID:34493726](../papers/34493726.md)
+- **STAD** -- YAP1 is a downstream effector of RHOA signaling in diffuse-type gastric adenocarcinoma; RHOA variants disrupt YAP1 signaling and are proposed as a therapeutic vulnerability. [PMID:24816255](../papers/24816255.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with mesenchymal markers [PRRX1](../genes/PRRX1.md) and [PDGFRA](../genes/PDGFRA.md) in undifferentiated nC3 and MSC nC1 clusters; [PDGFRB](../genes/PDGFRB.md) is more specifically elevated in MSC nC1. The YAP1/PRRX1/PDGFRA mesenchymal program is a shared feature of nC3 and nC1 high-risk neuroblastoma compartments. [PMID:34493726](../papers/34493726.md)
+- YAP1 pathway alteration is linked to RHOA gain-of-function in diffuse gastric carcinoma and HDGC-like familial gastric cancer. [PMID:24816255](../papers/24816255.md)
 
 ## Therapeutic relevance
 
-- No direct targeted therapy is reported in the corpus for YAP1 in neuroblastoma.
+- Rho/ROCK or YAP1-pathway inhibitors are proposed as candidate therapies for RHOA-activated diffuse gastric tumors; this remains a preclinical hypothesis with no clinical validation yet. [PMID:24816255](../papers/24816255.md)
 
 ## Open questions
 
-- Whether Hippo pathway activation (YAP1 inhibition) could promote differentiation or reduce mesenchymal identity in high-risk neuroblastoma is not addressed. [PMID:34493726](../papers/34493726.md)
+- Whether YAP1 pathway inhibition can be clinically translated into effective therapy for RHOA-mutant diffuse gastric cancer has not been tested prospectively.
 
 ## Sources
 
-- [PMID:34493726](../papers/34493726.md)
+- [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

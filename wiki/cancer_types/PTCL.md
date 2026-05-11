@@ -4,8 +4,8 @@ oncotree_code: PTCL
 main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Peripheral T-Cell Lymphoma, NOS (PTCL)
@@ -27,6 +27,7 @@ Peripheral T-Cell lymphoma, NOS is a Mature T and NK Neoplasm (parent MTNN).
 - Median PFS: 4.5 months for TP53-mutated PTCL (n=21) vs 10.5 months for TP53-wildtype (n=111) [PMID:37078708](../papers/37078708.md).
 - [CDKN2A](../genes/CDKN2A.md) deletion correlated with inferior [OS](../cancer_types/OS.md) (HR 12.1; 95% CI 2.8–52.0; P<.001); median [OS](../cancer_types/OS.md) 17.6 vs 56.7 months [PMID:37078708](../papers/37078708.md).
 - No [TP53](../genes/TP53.md) aberrancy correlated with inferior [OS](../cancer_types/OS.md) [PMID:37078708](../papers/37078708.md).
+- RHOA G17V (dominant-negative, loss-of-function) is recurrent across peripheral T-cell lymphomas including AITL (~67% of AITL cases) and other PTCL subtypes; functional yeast modelling separates RHOA GOF and LOF mutants into distinct morphological classes [PMID:24816253](../papers/24816253.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ Peripheral T-Cell lymphoma, NOS is a Mature T and NK Neoplasm (parent MTNN).
 - [PMID:37078708](../papers/37078708.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24816253](../papers/24816253.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

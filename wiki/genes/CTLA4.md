@@ -3,8 +3,8 @@ symbol: CTLA4
 aliases: []
 cancer_types: [COAD]
 tags: [immune-checkpoint, icr-signature, counter-regulation]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CTLA4
@@ -17,6 +17,8 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 
 - Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as an immunoregulatory counter-activation gene, alongside [CD274](../genes/CD274.md), [FOXP3](../genes/FOXP3.md), [IDO1](../genes/IDO1.md), and [PDCD1](../genes/PDCD1.md), applied to the 348-patient AC-ICAM colon cancer cohort [PMID:37202560](../papers/37202560.md).
 - CTLA4 RNA progressively upregulated on CD8+ T cells from STIC.I through STIC.C and invasive [HGSOC](../cancer_types/OV.md), alongside [LAG3](../genes/LAG3.md) and [HAVCR2](../genes/HAVCR2.md), reflecting stepwise T-cell exhaustion across the [HGSOC](../cancer_types/HGSOC.md) precursor-to-cancer progression axis [PMID:39386723](../papers/39386723.md).
+- Target of tremelimumab (phase II ORR 17.6% in 20 HCC patients) and ipilimumab in combination ICI regimens for HCC [PMID:24798001](../papers/24798001.md)
+- Compensatory checkpoint in NPC; targeted by IBI-310 (+ sintilimab) and bispecifics (cadonilimab PD-1×CTLA-4; QL1706; SI-B003; vudalimab) [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +43,9 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - [PMID:39386723](../papers/39386723.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

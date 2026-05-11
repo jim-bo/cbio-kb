@@ -3,8 +3,8 @@ symbol: CDKN1A
 aliases: [p21]
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, cell-cycle]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CDKN1A
@@ -19,6 +19,7 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - Shared trunk mutation in a representative phylogenetic example of bladder cancer primary-metastasis pairs [PMID:36543146](../papers/36543146.md)
 - p21 protein induced by activated [NOTCH1](../genes/NOTCH1.md) (ICN1), mediating G1 arrest and senescence in OSCC cells [PMID:23619168](../papers/23619168.md)
 - Mutated in 14% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); predominantly null/truncating mutations indicating loss of function; encodes p21CIP1 cyclin-dependent kinase inhibitor; one of 9 genes not previously reported as significantly mutated in any cancer before this TCGA study [PMID:24476821](../papers/24476821.md)
+- H. pylori upregulates histone demethylase KDM4B and drives H4 acetylation at the CDKN1A (p21) promoter, activating PTGS2 and contributing to gastric carcinogenesis [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

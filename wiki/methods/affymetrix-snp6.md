@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Affymetrix SNP 6.0
@@ -43,6 +43,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - SNP 6.0 copy-number arrays applied to 153 of 203 multiple myeloma patients; GISTIC analysis identified 7 recurrent homozygous deletion regions covering 32 genes including [CDKN2C](../genes/CDKN2C.md), [TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md), and [PTPRD](../genes/PTPRD.md) [PMID:24434212](../papers/24434212.md)
 - Illumina Omni 2.5M and 5M SNP arrays (analogous workflow to Affymetrix SNP6) applied to all 147 rhabdomyosarcoma tumor/normal pairs for copy-number alteration profiling; identified 11p15.5 LOH (50% of tumors), [MYCN](../genes/MYCN.md) amplification (5%), CDK4/12q13-q14 amplification (9.7%), and [CDKN2A](../genes/CDKN2A.md) homozygous deletion (3%) [PMID:24436047](../papers/24436047.md)
 - Affymetrix SNP 6.0 arrays used for somatic copy-number alteration profiling of 131 TCGA bladder carcinoma samples; identified CDKN2A focal deletion (47%), [PPARG](../genes/PPARG.md) amplification (17%), E2F3/SOX4 amplification (20%), and [NECTIN4](../genes/NECTIN4.md) amplification (19%) as the most prevalent focal events [PMID:24476821](../papers/24476821.md)
+- SNP-array copy-number calls from 704 HCC patients used to characterise focal amplifications (MYC 12%, CCND1 7%, FGF19 6%, VEGFA 5%, TERT 5%) and homozygous deletions (CDKN2A 5%, RB1 5%) [PMID:24798001](../papers/24798001.md)
 
 ## Notes
 
@@ -128,3 +129,6 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

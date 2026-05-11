@@ -3,8 +3,8 @@ symbol: ERBB3
 aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # ERBB3
@@ -25,6 +25,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Mutated in 8% (6/72) of colorectal cancers with multiple hotspot mutations; identified as oncogenic [PMID:22895193](../papers/22895193.md)
 - ERBB3 mutated in 11% of muscle-invasive bladder cancers (6% in pathway analysis), flagged as potentially sensitive to ERBB kinase inhibitors in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
+- ERBB3 (HER3) is co-targeted with EGFR by the bispecific ADC BL-B01D1 in NPC, achieving 38% ORR in the NPC sub-cohort in platinum-refractory disease. [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -48,25 +49,28 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

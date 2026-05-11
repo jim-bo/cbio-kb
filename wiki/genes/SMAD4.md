@@ -1,103 +1,40 @@
 ---
 symbol: SMAD4
-aliases: []
-cancer_types: [IHCH, PAAD, CERVIX]
-tags: [tumor-suppressor, tgf-beta]
-processed_by: crosslinker
-processed_at: 2026-05-09
+aliases: [DPC4]
+cancer_types: [STAD]
+tags: []
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # SMAD4
 
 ## Overview
 
-SMAD4 is a tumor suppressor central to TGF-beta signaling; loss-of-function mutations and deletions are recurrent in pancreatic, colorectal, and biliary tract cancers.
+SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor suppressor frequently mutated in gastrointestinal cancers. Germline SMAD4 mutations define juvenile polyposis syndrome (JPS), which confers elevated gastric cancer risk and must be excluded before diagnosing familial non-hereditary gastric cancer (FNHGC).
 
 ## Alterations observed in the corpus
 
-- SMAD4 alterations characterized "biliary-class" intrahepatic cholangiocarcinoma (along with [KRAS](../genes/KRAS.md) and [CDKN2A](../genes/CDKN2A.md) loss) in the MSK hidden-genome classifier (n=527 IHC), associated with markedly worse [OS](../cancer_types/OS.md) than HCC-class IHC [PMID:38864854](../papers/38864854.md).
-- In 397 sequenced resected [PAAD](../cancer_types/PAAD.md) patients (MSK `pancreas_msk_2024`), SMAD4 was mutated in 17% (68/397); no difference by [KRAS](../genes/KRAS.md) allele or by early- vs late-stage disease [PMID:39214094](../papers/39214094.md).
-- SMAD4 is a genomic driver in gastric-type cervical adenocarcinoma (alongside [KRAS](../genes/KRAS.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md)), resembling pancreatobiliary tumors; detected in the 249-patient MSK cervical cancer cohort (`cervix_msk_2023`) [PMID:37643132](../papers/37643132.md).
-- SMAD4 was detected in liquid biopsy (ctDNA) from cancer patients in the VTE risk-stratification cohort (`msk_ctdna_vte_2024`) [PMID:39147831](../papers/39147831.md).
-- SMAD4 alterations enriched in [KRAS](../genes/KRAS.md) G12R vs G12D PDAC tumors (30% vs 21%, P = 0.001) in a 2,336-patient MSK-IMPACT PDAC cohort; frequency also higher in G12R relative to other alleles, suggesting allele-specific biology. [PMID:39753968](../papers/39753968.md)
-- Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); TGF-beta pathway tumour suppressor. [PMID:18948947](../papers/18948947.md)
-- SMAD4 LOF mutations (19%) and deletions (5%) in [GBC](../cancer_types/GBC.md); independently associated with reduced [OS](../cancer_types/OS.md) in metastatic disease (HR 2.17, 95% CI 1.21-3.89; multivariate HR 2.11, p=0.012) [PMID:36228155](../papers/36228155.md)
-- Homozygous deletions identified as rare but potentially significant events in breast cancer in METABRIC cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
-- Identified as a significantly mutated gene in breast cancer WES of 100 tumors [PMID:22722201](../papers/22722201.md)
-- Significantly mutated in TCGA colorectal cancer cohort (276 tumors); SMAD4 inactivation observed as a key TGF-beta pathway alteration in colorectal adenocarcinoma [PMID:22810696](../papers/22810696.md)
-- Significantly mutated in colorectal cancer; altered together with [SMAD2](../genes/SMAD2.md) in 27% (20/74) of CRC tumors on chromosome 18q [PMID:22895193](../papers/22895193.md)
-- Identified as significantly mutated in TCGA [LUSC](../cancer_types/LUSC.md) (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
-- Inactivating mutations in 3% of [LUAD](../cancer_types/LUAD.md) cases (Broad WES cohort, 183 tumors) [PMID:22980975](../papers/22980975.md)
-- Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; SMAD4 loss is one of the most frequent events in pancreatic ductal adenocarcinoma [PMID:23103869](../papers/23103869.md)
-- SMAD4 is mutated in 10/145 (7%) esophageal adenocarcinoma tumors as the most recurrently altered gene in the TGFβ/SMAD pathway (18% of EAC when including copy-number loss) [PMID:23525077](../papers/23525077.md)
-- SMAD4 is disrupted by chromoplexy in one prostate tumor (P05-3852) within the same rearrangement chain that produced the TMPRSS2-ERG fusion across 6 chromosomes [PMID:23622249](../papers/23622249.md)
-- SMAD4 included in prevalence-screen panel for intrahepatic cholangiocarcinoma and gallbladder cancer; no SMAD4 mutations identified in [IHCH](../cancer_types/IHCH.md) in this study [PMID:24185509](../papers/24185509.md)
-- SMAD4 somatic mutation in 6/23 (26%) pancreatic carcinomas with acinar differentiation; LOH at 18q in 13/23 (57%); most frequent mutation target overall in this cohort [PMID:24293293](../papers/24293293.md)
-- SMAD4 loss-of-function identified in ovarian mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) PN19 in a WGTA-guided NEN precision oncology cohort [PMID:24326773](../papers/24326773.md)
+- Germline SMAD4 loss-of-function mutations define juvenile polyposis syndrome (JPS), included in the mandatory multigene panel for familial gastric cancer evaluation; must be ruled out before FNHGC labeling. [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
-- [IHCH](../cancer_types/IHCH.md) — SMAD4 is enriched in biliary-class IHC and discriminative of EHC/GBC-like genetics [PMID:38864854](../papers/38864854.md).
-- [PAAD](../cancer_types/PAAD.md) — mutated in 17% of MSK resected PDAC; a canonical PDAC driver gene [PMID:39214094](../papers/39214094.md). In the 2,336-patient MSK-IMPACT cohort, SMAD4 enrichment in G12R tumors (30% vs 21% for G12D, P = 0.001) highlights allele-specific co-mutation patterns. [PMID:39753968](../papers/39753968.md)
+- **STAD** -- germline SMAD4 mutations (JPS) must be excluded as part of hereditary syndrome workup for FNHGC; somatic SMAD4 role in FNHGC tumor biology not separately characterized in this review. [PMID:24816255](../papers/24816255.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [KRAS](../genes/KRAS.md) and [CDKN2A](../genes/CDKN2A.md) loss in biliary-class IHC [PMID:38864854](../papers/38864854.md).
+- SMAD4 is co-listed with BMPR1A (also a JPS gene) in the hereditary gastric cancer panel context. [PMID:24816255](../papers/24816255.md)
 
 ## Therapeutic relevance
 
-- Not directly therapeutically targeted in the corpus, but SMAD4-positive biliary-class IHC has substantially worse prognosis informing trial stratification [PMID:38864854](../papers/38864854.md).
+- No direct SMAD4-targeted therapy data reported in the current corpus.
 
 ## Open questions
 
-- None flagged.
+- Penetrance of gastric cancer specifically in JPS/SMAD4 carriers and optimal endoscopic surveillance protocols for this group are not well characterized relative to SMAD4-negative FNHGC families.
 
 ## Sources
 
-- [PMID:38864854](../papers/38864854.md)
-- [PMID:39214094](../papers/39214094.md)
-- [PMID:39753968](../papers/39753968.md)
+- [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22895193](../papers/22895193.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22980975](../papers/22980975.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23103869](../papers/23103869.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24185509](../papers/24185509.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

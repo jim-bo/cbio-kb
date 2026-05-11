@@ -26,6 +26,7 @@ Primary liver cancer of hepatocellular origin.
 - WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) alterations in 18% [PMID:37769223](../papers/37769223.md).
 - Genomic review identified TERT promoter mutations, CTNNB1, and TP53 as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:22634756](../papers/22634756.md)
 - Narrative review cataloguing HCC driver genes (TERT promoter ~59%, TP53 ~30%, CTNNB1 ~30%); TERT promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials (sorafenib, tivantinib, everolimus, refametinib) [PMID:24735922](../papers/24735922.md)
+- Comprehensive review (n=1,289 WES patients) identified TERT promoter mutation (54%), CTNNB1 (29%), and TP53 (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; sorafenib and lenvatinib are first-line standards with regorafenib, cabozantinib, and ramucirumab (AFP≥400 ng/ml) as approved second-line options [PMID:24798001](../papers/24798001.md)
 
 ## Subtypes
 
@@ -43,5 +44,8 @@ Primary liver cancer of hepatocellular origin.
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

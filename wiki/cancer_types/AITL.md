@@ -4,8 +4,8 @@ oncotree_code: AITL
 main_type: Mature T and NK Neoplasms
 parent: MTNN
 tags: [lymphoma, t-cell]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Angioimmunoblastic T-Cell Lymphoma (AITL)
@@ -23,6 +23,7 @@ Angioimmunoblastic T-Cell Lymphoma is a Mature T and NK Neoplasm (parent MTNN) a
 - [RHOA](../genes/RHOA.md): 88% of [RHOA](../genes/RHOA.md) mutations in AITL were the canonical G17V variant [PMID:37078708](../papers/37078708.md).
 - [TET2](../genes/TET2.md), [DNMT3A](../genes/DNMT3A.md), [IDH2](../genes/IDH2.md): frequently mutated across the [PTCL](../cancer_types/PTCL.md) cohort that is 47% AITL [PMID:37078708](../papers/37078708.md).
 - [TP53](../genes/TP53.md) mutations and 17p deletions were the only somatic aberrancies independently correlated with inferior PFS on CHOP-based therapy in the [PTCL](../cancer_types/PTCL.md) cohort [PMID:37078708](../papers/37078708.md).
+- RHOA G17V dominant-negative mutation is present in ~67% of AITL cases, abolishes GTP binding, and is functionally characterised as loss-of-function in a yeast complementation model [PMID:24816253](../papers/24816253.md)
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Angioimmunoblastic T-Cell Lymphoma is a Mature T and NK Neoplasm (parent MTNN) a
 - [PMID:37078708](../papers/37078708.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:24816253](../papers/24816253.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

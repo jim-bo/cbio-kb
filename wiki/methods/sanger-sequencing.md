@@ -37,6 +37,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification [PMID:24418857](../papers/24418857.md)
 - Validated all identified SMARCA4 mutations in 12 SCCOHT cases by Sanger sequencing of genomic DNA and cDNA (RT-PCR) [PMID:24658004](../papers/24658004.md)
 - Validated somatic mutations in ESCC cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations [PMID:24686850](../papers/24686850.md)
+- Sanger sequencing applied to HCC cohort molecular characterisation as part of the multi-platform TCGA integrated study [PMID:24798001](../papers/24798001.md)
+- Sanger sequencing of GTF2I performed on 199 TETs with >50% cancer cells to confirm the recurrent chr7:74146970 T>A hotspot mutation [PMID:24974848](../papers/24974848.md)
 
 ## Notes
 
@@ -102,5 +104,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

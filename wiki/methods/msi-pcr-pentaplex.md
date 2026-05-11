@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [msi, pcr, microsatellite-instability, genotyping]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MSI PCR Pentaplex (Promega)
@@ -18,6 +18,7 @@ PCR-based microsatellite instability (MSI) testing using the Promega MSI Analysi
 ## Used by
 
 - Applied to 23 pancreatic neoplasms with acinar differentiation ([paac_jhu_2014](../datasets/paac_jhu_2014.md)) to detect MSI outliers; identified two MSI-H tumors (ACINAR01: 701 non-synonymous mutations; ACINAR03: 404) and one borderline case (ACINAR28) reclassified as MSI-Low after supplementary markers were added [PMID:24293293](../papers/24293293.md).
+- MSI-PCR (pentaplex panel) recommended alongside MMR IHC and EBV ISH for confirming MSI / EBV status in familial gastric cancer before clinical decision-making [PMID:24816255](../papers/24816255.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ PCR-based microsatellite instability (MSI) testing using the Promega MSI Analysi
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

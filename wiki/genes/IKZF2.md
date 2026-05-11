@@ -6,7 +6,7 @@ cancer_types:
   - BLL
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # IKZF2
@@ -18,6 +18,7 @@ IKZF2 (IKAROS Family Zinc Finger 2, also known as Helios) is a zinc-finger trans
 ## Alterations observed in the corpus
 
 - Deletions in 52.9% of low hypodiploid ALL and 36.4% of adult low hypodiploid ALL (St. Jude WGS/WES, 44 pediatric ALL tumors); shRNA knockdown of IKZF2 increases pERK and pS6 levels, indicating a role as a Ras/PI3K pathway modulator [PMID:23334668](../papers/23334668.md)
+- IKZF2 (Helios) is a transcription factor stabilizing regulatory T cell (Treg) suppressive function in NPC; IKZF2 degraders PLX-4545 and DKY709 are under clinical investigation to reprogram Tregs and restore anti-tumor immunity. [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ IKZF2 (IKAROS Family Zinc Finger 2, also known as Helios) is a zinc-finger trans
 
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

@@ -33,6 +33,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - Chromatin-remodeling SWI/SNF complex member mutated in EAC ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
 - Mutated SWI/SNF complex member in ESCC; identified as significantly mutated in 139 paired ESCC tumor/germline samples [PMID:24686850](../papers/24686850.md)
 - Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes alongside ARID1A [PMID:24735922](../papers/24735922.md)
+- Loss-of-function mutation in 7% (range 3–10%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +85,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

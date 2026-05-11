@@ -1,40 +1,40 @@
 ---
 symbol: TEK
-aliases: [TIE2]
-cancer_types: [MPNST]
-tags: [receptor-tyrosine-kinase, vascular-signaling]
-processed_by: crosslinker
-processed_at: 2026-05-04
+aliases: [TIE2, TIE-2]
+cancer_types: [NPC]
+tags: []
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # TEK
 
 ## Overview
 
-TEK (also known as TIE2) encodes a receptor tyrosine kinase involved in angiogenesis and vascular development. TEK deletions have been identified as enriched in radiation-associated malignant peripheral nerve sheath tumors, suggesting a potential tumor-suppressive role in this context.
+TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothelial cells that regulates vascular development, angiogenesis, and vascular stability through angiopoietin ligands. It is included in the multi-kinase inhibitor target profile investigated in nasopharyngeal carcinoma (NPC).
 
 ## Alterations observed in the corpus
 
-- Deletions in 42% of RT-MPNST vs 6% of sporadic [MPNST](../cancer_types/MPNST.md), indicating marked enrichment in radiation-associated [MPNST](../cancer_types/MPNST.md) [PMID:37350195](../papers/37350195.md).
+- TEK is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic NPC. [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
-- [MPNST](../cancer_types/MPNST.md) -- TEK deletions enriched in RT-MPNST (42%) compared to sporadic [MPNST](../cancer_types/MPNST.md) (6%) [PMID:37350195](../papers/37350195.md).
+- **NPC** -- TEK is a component of the multi-kinase inhibitor target profile in R/M NPC alongside VEGFR2 (KDR), RET, FLT3, and others. [PMID:24952746](../papers/24952746.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- TEK deletions in RT-MPNST co-occur with high rates of [NF1](../genes/NF1.md) inactivation (67%), [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions (92%), and [SUZ12](../genes/SUZ12.md) inactivation (33%) [PMID:37350195](../papers/37350195.md).
+- No co-occurrence or mutual exclusivity data reported in the current corpus.
 
 ## Therapeutic relevance
 
-- No TEK-directed therapy is reported in this corpus for MPNST [PMID:37350195](../papers/37350195.md).
+- Multi-kinase TKIs inhibiting TEK (e.g., cabozantinib) are being investigated in NPC primarily as anti-angiogenic agents; TEK-alteration-selected strategies are not reported. [PMID:24952746](../papers/24952746.md)
 
 ## Open questions
 
-- The functional consequence of TEK deletions in RT-MPNST and whether TEK loss cooperates with NF1/PRC2 inactivation to drive pathogenesis remain to be determined [PMID:37350195](../papers/37350195.md).
+- TEK mutation frequency in NPC and whether TEK alterations predict TKI response are uncharacterized in the current corpus.
 
 ## Sources
 
-- [PMID:37350195](../papers/37350195.md)
+- [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

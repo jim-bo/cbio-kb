@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # APC
@@ -32,6 +32,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Beta-catenin-pathway mutation in EAC; APC + [CDH1](../genes/CDH1.md) or APC + [AXIN1](../genes/AXIN1.md) co-mutations observed in two individual tumors; Wnt/beta-catenin alterations present in only 9% of EACs ([esca_broad](../datasets/esca_broad.md)), contrasting with CRC [PMID:23525077](../papers/23525077.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation; consistent with prior reports of APC/beta-catenin pathway involvement in acinar cell carcinoma [PMID:24293293](../papers/24293293.md)
+- Somatic mutation reported in the HCC molecular landscape (WES, n=1,289); part of the non-actionable trunk-driver set [PMID:24798001](../papers/24798001.md)
+- GAPPS syndrome driven by APC promoter 1B variants is included in the differential diagnosis of familial/hereditary gastric cancer; standard multigene GC panel includes APC [PMID:24816255](../papers/24816255.md)
 
 ## Cancer types (linked)
 
@@ -90,3 +92,9 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

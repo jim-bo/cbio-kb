@@ -57,6 +57,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 44 rhabdomyosarcoma tumor/normal pairs on Complete Genomics platform at mean 105× depth with 97% genome coverage; identified 553 somatic SVs affecting 419 genes and established the PAX-fusion-positive vs PAX-fusion-negative [RMS](../cancer_types/RMS.md) classification [PMID:24436047](../papers/24436047.md)
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
 - Referenced in HCC genomic landscape review as part of next-generation sequencing approaches that identified novel HCC driver genes including TERT, ARID1A, ARID2, RPS6KA3, PIK3CA, IRF2, NFE2L2, and KEAP1 [PMID:24735922](../papers/24735922.md)
+- Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including DOT1L, INSR, FBXO24, and CTNND1 [PMID:24816255](../papers/24816255.md)
 
 ## Notes
 
@@ -169,5 +170,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # NRAS
@@ -41,6 +41,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant [BRAF](../genes/BRAF.md) V600-mutant melanoma tumors; acquisition restricted to patients with >12-week response duration (P = 0.04), suggesting a late resistance mechanism [PMID:24265153](../papers/24265153.md)
 - Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with BRAF (rarely simultaneously clonal) [PMID:24434212](../papers/24434212.md)
 - Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset [PMID:24436047](../papers/24436047.md)
+- RAS mutations are rare in HCC (~1% each for KRAS and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -131,3 +132,6 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

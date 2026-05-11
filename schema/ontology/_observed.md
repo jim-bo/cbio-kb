@@ -269,3 +269,67 @@
 - method: edger — observed in PMID:24326773 — note: edgeR differential expression analysis across transcriptome clusters in 28 metastatic NENs (pog570_bcgsc_2020)
 - drug: plx4720 — observed in PMID:24434212 — note: tool-compound BRAF inhibitor used in vitro in BRAF-K601N U266 MM cell line vs BRAF-WT lines
 - drug: brontictuzumab — observed in PMID:24418857 — note: anti-NOTCH1 monoclonal antibody; cited as candidate therapy for NOTCH1-mutant adenoid cystic carcinoma (ACYC)
+- drug: adg106 — observed in PMID:24952746 — note: anti-4-1BB (TNFRSF9) agonist mAb; phase I in NPC; no significant activity reported
+- drug: anlotinib — observed in PMID:24798001, 24952746 — note: multi-target VEGFR2/FGFR1/PDGFRA/KIT TKI; investigated in HCC and NPC
+- drug: apatinib — observed in PMID:24798001, 24952746 — note: VEGFR2 TKI; + camrelizumab ORR 65.5% in R/M NPC (NCT04586088)
+- drug: bat6026 — observed in PMID:24952746 — note: anti-OX40 (TNFRSF4) agonist mAb; phase I in NPC; no significant NPC activity reported
+- drug: becotatug-vedotin — observed in PMID:24952746 — note: anti-EGFR ADC (MRG003); ORR 30.2% in R/M NPC post platinum + anti-PD-1 (randomized)
+- drug: bgb-a445 — observed in PMID:24952746 — note: investigational checkpoint inhibitor cited in NPC landscape review; target not specified in review
+- drug: bintrafusp-alfa — observed in PMID:24952746 — note: PD-L1 x TGF-β bispecific fusion protein (M7824); ORR 23.7% in R/M NPC; hyper-progression in platinum-refractory patients
+- drug: bl-b01d1 — observed in PMID:24952746 — note: bispecific EGFR x HER3 ADC; ORR 38% in NPC sub-cohort (n=42, NCT05194982); grade ≥3 TRAE 71%
+- drug: blu-554 — observed in PMID:24798001 — note: selective covalent FGFR4 inhibitor; 16% ORR in FGF19 IHC+ HCC vs 0% in FGFR4-negative
+- drug: brivanib — observed in PMID:24798001 — note: dual VEGFR2/FGFR1 TKI; failed frontline HCC vs sorafenib; failed TACE combination phase III
+- drug: cadonilimab — observed in PMID:24952746 — note: bispecific PD-1 x CTLA-4 mAb (AK104); ORR 68% in PD-1-refractory R/M NPC + chemo (n=25)
+- drug: camrelizumab — observed in PMID:24952746 — note: anti-PD-1 mAb (SHR-1210); combined with apatinib (ORR 65.5%) and dalpiciclib (ORR 32.4%) in R/M NPC
+- drug: caspofungin — observed in PMID:24816253 — note: echinocandin antifungal; used as CWI pathway probe in yeast RHOA mutant study; no differential sensitivity across mutants
+- drug: dalpiciclib — observed in PMID:24952746 — note: CDK4/6 inhibitor (SHR6390); + camrelizumab ORR 32.4% in anti-PD-1-refractory R/M NPC (n=34)
+- drug: dky709 — observed in PMID:24952746 — note: IKZF2 (Helios) degrader; under investigation to reprogram Tregs in R/M NPC
+- drug: donafenib — observed in PMID:24798001 — note: deuterated sorafenib analog; multi-kinase TKI investigated as frontline HCC agent
+- drug: envafolimab — observed in PMID:24952746 — note: subcutaneous anti-PD-L1 nanobody (KN035); + CCRT phase II ORR 94.4% in locally advanced NPC
+- drug: fgf401 — observed in PMID:24798001 — note: selective non-covalent FGFR4 inhibitor; requires FGF19 IHC expression for HCC enrichment
+- drug: fuzuloparib — observed in PMID:24952746 — note: PARP1/2 inhibitor (SHR-3162); being tested + ICI in NPC to exploit DNA repair deficiency
+- drug: galunisertib — observed in PMID:24798001 — note: TGF-β receptor I (ALK5) inhibitor (LY2157299); + sorafenib under evaluation in HCC immune-exhausted subclass
+- drug: gen1160 — observed in PMID:24952746 — note: anti-CD70 ADC; under clinical investigation for immunosuppressive TME in R/M NPC
+- drug: gen1286 — observed in PMID:24952746 — note: bispecific EGFR x MET ADC; targets MET-driven EGFR-resistance escape in R/M NPC
+- drug: h3b-6527 — observed in PMID:24798001 — note: selective FGFR4 inhibitor; requires FGF19 IHC expression for HCC patient enrichment
+- drug: hlx10 — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: ibi-310 — observed in PMID:24952746 — note: anti-CTLA-4 mAb; evaluated + sintilimab in R/M NPC
+- drug: ilb-2109 — observed in PMID:24952746 — note: selective A2AR antagonist; + toripalimab phase Ib/IIa in R/M NPC
+- drug: inc-b099280 — observed in PMID:24952746 — note: anti-BTLA mAb; targets BTLA-mediated T-cell exhaustion in R/M NPC
+- drug: lbl-007 — observed in PMID:24952746 — note: anti-LAG-3 mAb; + toripalimab ORR 33.3% ICI-naïve / 11.8% ICI-refractory NPC (n=30)
+- drug: linifanib — observed in PMID:24798001 — note: VEGFR/PDGFR TKI; failed frontline HCC vs sorafenib phase III (HR 1.12–1.15)
+- drug: mva-eb-na1-lmp2 — observed in PMID:24952746 — note: MVA viral-vector EBV therapeutic vaccine (EBNA1/LMP2); investigational NPC immunotherapy
+- drug: myriocin — observed in PMID:24816253 — note: serine palmitoyltransferase inhibitor / TORC2 probe; all viable RHOA hotspot mutants confer resistance in yeast model
+- drug: nanatinostat — observed in PMID:24952746 — note: HDAC inhibitor; investigational for EBV-driven epigenetic dysregulation in R/M NPC
+- drug: nimotuzumab — observed in PMID:24952746 — note: humanized anti-EGFR mAb; under evaluation in EGFR-overexpressing R/M NPC
+- drug: niraparib — observed in PMID:24952746 — note: PARP1/2 inhibitor; + ICI in R/M NPC to exploit DNA repair deficiencies
+- drug: penpulimab — observed in PMID:24952746 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
+- drug: pimurutamab — observed in PMID:24952746 — note: anti-EGFR mAb; investigational in EGFR-overexpressing R/M NPC
+- drug: plx-4545 — observed in PMID:24952746 — note: IKZF2 (Helios) degrader; clinical-stage Treg reprogramming agent in NPC
+- drug: ql1706 — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational for R/M NPC dual checkpoint blockade
+- drug: ramucirumab — observed in PMID:24798001 — note: anti-VEGFR2 mAb; REACH-2 phase III positive in AFP≥400 HCC (OS HR 0.71); first biomarker-enriched HCC approval
+- drug: relatlimab — observed in PMID:24952746 — note: anti-LAG-3 mAb; + nivolumab REMAIN trial in NPC
+- drug: retlirafusp-alfa — observed in PMID:24952746 — note: bintrafusp alfa; PD-L1×TGF-β bispecific; ORR 23.7% but hyper-progression risk in platinum-refractory NPC (n=38)
+- drug: ribociclib — observed in PMID:24798001 — note: CDK4/6 inhibitor; HCC rationale via RB1 LOF (4%) and CDKN2A deletion (5%)
+- drug: serplulimab — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: shr-1701 — observed in PMID:24952746 — note: bispecific PD-L1×TGF-β antibody fusion; investigational in R/M NPC
+- drug: si-b003 — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
+- drug: sintilimab — observed in PMID:24952746 — note: anti-PD-1 mAb; phase III + CCRT locally advanced NPC EFS HR 0.59 (36-mo EFS 86% vs 76%, n=425)
+- drug: spartalizumab — observed in PMID:24798001 — note: anti-PD-1 mAb; investigational ICI in HCC immune therapy context
+- drug: surufatinib — observed in PMID:24952746 — note: VEGFR2/FGFR1/CSF1R TKI; anti-angiogenic agent evaluated in R/M NPC
+- drug: tabelecleucel — observed in PMID:24952746 — note: allogeneic EBV-CTL; SD 50%, 0 ORR in EBV+ NPC (n=12); development terminated
+- drug: tagitanlimab — observed in PMID:24952746 — note: anti-PD-L1 mAb; phase III + gem/cis R/M NPC PFS HR 0.47, ORR 81.7% (n=358)
+- drug: tak-500 — observed in PMID:24952746 — note: anti-4-1BB agonist; phase I T-cell co-stimulatory agent in NPC; no significant activity to date
+- drug: taladegib — observed in PMID:24952746 — note: SMO inhibitor (Hedgehog pathway); phase II in PTCH1-mutant solid tumors including NPC
+- drug: tifcemalimab — observed in PMID:24952746 — note: anti-BTLA mAb (JS004); targets BTLA T-cell exhaustion checkpoint in R/M NPC
+- drug: tislelizumab — observed in PMID:24952746 — note: anti-PD-1 mAb; investigational ICI for R/M NPC
+- drug: tolinapant — observed in PMID:24952746 — note: IAP inhibitor (SMAC mimetic) targeting XIAP/cIAP1/2; + radiotherapy in NPC
+- drug: toripalimab — observed in PMID:24952746 — note: anti-PD-1 mAb; NCCN first-line R/M NPC standard (+ platinum/gemcitabine)
+- drug: tqb2618 — observed in PMID:24952746 — note: anti-TIM-3 mAb; ± penpulimab ORR 0%, PFS 1.6 mo in R/M NPC (n=17)
+- drug: tqb2858 — observed in PMID:24952746 — note: bispecific PD-1×B7-H3 mAb; exploits CD276 overexpression in NPC
+- drug: tremelimumab — observed in PMID:24798001 — note: anti-CTLA-4 mAb; phase II HCC ORR 17.6% (n=20); + durvalumab NCT03298451
+- drug: valganciclovir — observed in PMID:24952746 — note: antiviral (ganciclovir prodrug); EBV lytic reactivation strategy in R/M NPC
+- drug: vk-2019 — observed in PMID:24952746 — note: EBNA1 small-molecule inhibitor; ORR 4.5% EBV+ R/M NPC (n=22); limited single-agent activity
+- drug: vudalimab — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
+- drug: wgc-043 — observed in PMID:24952746 — note: mRNA EBV therapeutic vaccine; ORR 16.7% EBV+ R/M NPC (n=12); no grade ≥3 TRAEs
+- drug: yl201 — observed in PMID:24952746 — note: anti-B7-H3 ADC; ORR 48.6% in NPC sub-cohort (n=70); grade ≥3 TRAE 54.5%

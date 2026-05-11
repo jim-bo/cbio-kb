@@ -19,6 +19,7 @@ IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor,
 ## Alterations observed in the corpus
 
 - ~25% allelic loss of IGF2R in HCC; part of the IGF axis (with ~10% IGF2 overexpression and ~21% IGF1R activation) implicated as a therapeutic target in HCC [PMID:24735922](../papers/24735922.md)
+- IGF2R is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), as part of the broader mutational characterization of the IGF signaling axis. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -37,5 +38,8 @@ IGF2R (Insulin-like Growth Factor 2 Receptor; also mannose-6-phosphate receptor,
 ## Sources
 
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

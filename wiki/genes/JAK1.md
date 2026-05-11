@@ -3,7 +3,7 @@ symbol: JAK1
 aliases: []
 cancer_types: [UCEC, PRAD]
 tags: [kinase, JAK-STAT, MSI, immunotherapy-resistance, mismatch-repair]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -19,6 +19,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - JAK1 mutation rate is higher in MSI-H/dMMR prostate cancer (56%) vs TMB-H/MSS (15%) and TMB-L/MSS (32%, p<0.001) prostate cancer; enrichment in MSI-H/dMMR is likely due to a microsatellite tract within JAK1 making it a passenger mutation in this hypermutated context [PMID:38949888](../papers/38949888.md).
 - Somatic mutation in 4/23 (17%) pancreatic acinar cell carcinomas; flagged as a potentially targetable alteration given clinical-stage JAK1 inhibitors available at time of publication [PMID:24293293](../papers/24293293.md)
 - Mutations activating JAK-STAT3 signaling identified in ESCC (139 paired tumor/germline samples) [PMID:24686850](../papers/24686850.md)
+- JAK1 is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), part of the JAK/STAT signaling axis implicated in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
@@ -42,10 +43,13 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

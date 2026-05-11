@@ -5,8 +5,8 @@ drug_class: anthracycline
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # doxorubicin
@@ -22,6 +22,7 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - Doxorubicin is listed among NCCN-recommended regimens for [osteosarcoma](../cancer_types/OS.md), [rhabdomyosarcoma](../cancer_types/RMS.md), and [Ewing sarcoma](../cancer_types/ES.md) identified in the functional PDTO screen. [PMID:39305899](../papers/39305899.md)
 - NCI-60 CellMiner pharmacogenomics study examined [ABCB1](../genes/ABCB1.md) (MDR1) expression as a determinant of doxorubicin sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - TCGA endometrial cancer analysis (2013) identifies ~25% of high-grade endometrioid tumors as copy-number-high serous-like and proposes chemotherapy (including doxorubicin) may be preferable to adjuvant radiotherapy for this molecular subgroup [PMID:23636398](../papers/23636398.md)
+- Cited in HCC systemic therapy review as historical reference chemotherapy; not a frontline standard given sorafenib/lenvatinib era [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ Anthracycline topoisomerase II inhibitor; backbone of CHOP-based lymphoma regime
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

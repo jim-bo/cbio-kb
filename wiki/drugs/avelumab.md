@@ -14,7 +14,7 @@ tags:
   - chemoradiation
   - tumor-microbiome
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # avelumab
@@ -28,6 +28,7 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - The ROBIN GenRad center analyzed an expansion cohort from the Javelin HN100 trial — a Phase III study of chemoradiation ± avelumab in locally advanced HNSCC. A notable finding from this analysis was that intratumoral bacteria represent a major source of resistance to therapy in HNSCC, suggesting the tumor microbiome may undermine CRT-immunotherapy combinations. These results were reported as preliminary within the ROBIN white paper; formal primary publication of the Javelin HN100 expansion analysis was not cited. [PMID:41941260](../papers/41941260.md)
 - In the GenRad HNSCC context, avelumab is discussed alongside PD-1-blocking re-irradiation approaches (NCT03521570) as part of a broader portfolio of radioimmunotherapy strategies in HNSCC. [PMID:41941260](../papers/41941260.md)
 - Avelumab+axitinib (JAVELIN Renal 101) demonstrated significant PFS benefit for ICI/ICI-combo-preferred ccRCC patients (p=0.000007) in the HiTME decision-tree analysis; the ICI responder model achieved ROC-AUC=0.78 on JAVELIN validation [PMID:22138691](../papers/22138691.md)
+- Cited as an investigational anti-PD-L1 agent in the NPC therapeutic landscape review [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -47,3 +48,6 @@ Avelumab is a fully human IgG1 monoclonal antibody that targets PD-L1 ([CD274](.
 - [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

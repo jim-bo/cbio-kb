@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # GISTIC
@@ -34,6 +34,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Reimplemented GISTIC-style analysis on WGS-derived CNA data from 99 [BLCA](../cancer_types/BLCA.md) tumors; identified 84 focal amplification regions and 80 focal deletion regions including [DHFR](../genes/DHFR.md) amplification (14%) and CDKN2A/B deletion (50%) [PMID:24121792](../papers/24121792.md)
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 153 multiple myeloma patients; identified 7 significant homozygous deletion peaks covering NF-kB regulators ([TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md)), [CDKN2C](../genes/CDKN2C.md), [PTPRD](../genes/PTPRD.md), and an 8p23.1 locus [PMID:24434212](../papers/24434212.md)
 - GISTIC 2.0 applied to Affymetrix SNP 6.0 data from 131 TCGA bladder carcinoma samples; identified most common focal deletion at 9p21.3 ([CDKN2A](../genes/CDKN2A.md), 47% of samples) and multiple focal amplifications including [PPARG](../genes/PPARG.md) (17%), [EGFR](../genes/EGFR.md) (11%), [MDM2](../genes/MDM2.md) (9%), and [ERBB2](../genes/ERBB2.md) (7%) [PMID:24476821](../papers/24476821.md)
+- GISTIC used for copy-number peak calling in 65 TET cases; identified focal BCL2 amplification correlated with increased BCL2 mRNA expression [PMID:24974848](../papers/24974848.md)
 
 ## Notes
 
@@ -91,3 +92,6 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

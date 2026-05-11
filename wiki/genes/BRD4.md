@@ -8,8 +8,8 @@ tags:
   - chromatin-remodeling
   - therapeutic-target
   - synthetic-lethality
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # BRD4
@@ -21,6 +21,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 ## Alterations observed in the corpus
 
 - BRD4-binding sites increase at chromatin loci in ARID1A-knockout [SCLC](../cancer_types/SCLC.md) cells, establishing BRD4 occupancy as an adaptive response to SWI/SNF complex loss and the mechanistic basis for enhanced JQ1 sensitivity [PMID:22037554](../papers/22037554.md)
+- BRD4–NUTM1 fusion present in the TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 - [PMID:22037554](../papers/22037554.md) — ARID1A Governs Genomic Stability and Proliferation in SCLC via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

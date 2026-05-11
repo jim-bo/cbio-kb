@@ -1,7 +1,7 @@
 ---
 symbol: RPS6KA3
 aliases: [RSK2]
-cancer_types: []
+cancer_types: [HCC]
 tags: []
 processed_by: entity-page-writer
 processed_at: 2026-05-11
@@ -11,24 +11,30 @@ processed_at: 2026-05-11
 
 ## Overview
 
-RPS6KA3 (Ribosomal Protein S6 Kinase A3), also known as RSK2, is a serine/threonine kinase in the MAPK signaling pathway. It has been identified as a novel hepatocellular carcinoma driver through integrated genomic analysis.
+RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase downstream of RAS-MAPK signaling. It is cataloged among somatic alterations in the HCC mutational landscape from large-scale genomic profiling.
 
 ## Alterations observed in the corpus
 
-- RPS6KA3 was identified as a novel HCC driver by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
+- RPS6KA3 is listed in the HCC mutational gene catalog from WES of 1,289 patients; individual mutation frequency not separately enumerated in the review text. [PMID:24798001](../papers/24798001.md)
 
 ## Cancer types (linked)
 
-- Hepatocellular carcinoma (HCC): identified as a novel driver gene [PMID:24735922](../papers/24735922.md)
+- **HCC** — identified in comprehensive WES-based HCC mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 
+- No co-occurrence or mutual exclusivity data reported in the current corpus.
+
 ## Therapeutic relevance
+
+- No direct RPS6KA3-targeted therapy data reported in the current corpus.
 
 ## Open questions
 
+- Individual mutation frequency and clinical significance in HCC require further characterization.
+
 ## Sources
 
-- [PMID:24735922](../papers/24735922.md)
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*

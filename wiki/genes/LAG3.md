@@ -3,8 +3,8 @@ symbol: LAG3
 aliases: [CD223]
 cancer_types: [HGSOC]
 tags: [immune-checkpoint, T-cell-exhaustion, ICI-target]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # LAG3
@@ -17,6 +17,7 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 
 - LAG3 progressively upregulated on CD8+ T cells in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursor lesions across the progression axis (normal FT → p53 signature → STIC → invasive cancer); LAG3+ CD8+ T cells increase 3- to 7-fold; LAG3+ and PD1+LAG3+ double-positive CD8+ T cells increase from p53.I through STIC.C and cancer, defining exhaustion states. [PMID:39386723](../papers/39386723.md)
 - Approximately 14% of [CD4](../genes/CD4.md)+ T cells in [HGSOC](../cancer_types/HGSOC.md) precursor specimens expressed LAG3, co-existing with other exhaustion/activation markers (HLA-DR, PD1). [PMID:39386723](../papers/39386723.md)
+- Inhibitory receptor on exhausted T cells; LBL-007 + toripalimab achieved ORR 33.3% in ICI-naïve NPC, and relatlimab + nivolumab is under evaluation in the randomized REMAIN trial [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ LAG3 (Lymphocyte Activation Gene 3, CD223) is an inhibitory immune checkpoint re
 - [PMID:39386723](../papers/39386723.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

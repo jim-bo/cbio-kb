@@ -32,6 +32,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - PDTOs from patients with rapidly progressing tumors at follow-up showed increased sensitivity to sorafenib (p=0.042) compared to non-rapidly-progressing specimens. [PMID:39305899](../papers/39305899.md)
 - Activating [RET](../genes/RET.md) mutations in metastatic MTCs (PN3, PN7, PN8) and high [PIK3R2](../genes/PIK3R2.md) expression (PN1) informed sorafenib recommendations in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
 - VEGFA focal gain at 6p21 is reported as a predictor of sorafenib benefit in HCC; no targeted therapy has exceeded sorafenib in phase III HCC trials as of early 2014, framed as the central translational gap [PMID:24735922](../papers/24735922.md)
+- First-line HCC standard of care (SHARP trial): sorafenib vs placebo median OS 10.7 vs 7.9 months (HR 0.69, 95% CI 0.55–0.87, P<0.001); standard for Child–Pugh A, BCLC-C/post-TACE-B from 2007 through 2017; no predictive biomarkers identified; STORM adjuvant trial was negative [PMID:24798001](../papers/24798001.md)
 
 ## Resistance mechanisms
 
@@ -51,5 +52,8 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

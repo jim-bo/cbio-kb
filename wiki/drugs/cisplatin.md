@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # cisplatin
@@ -38,6 +38,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin (with surgery and radiation) remains the standard-of-care backbone for OSCC at the time of the Pickering 2013 OSCC genomic analysis; no new biomarkers were validated for prospective treatment selection [PMID:23619168](../papers/23619168.md)
 - TCGA endometrial cancer analysis (2013) suggests ~25% of high-grade endometrioid tumors have a copy-number-high serous-like molecular phenotype and may benefit from chemotherapy regimens including cisplatin rather than adjuvant radiotherapy [PMID:23636398](../papers/23636398.md)
 - In muscle-invasive bladder carcinoma (n=131 [BLCA](../cancer_types/BLCA.md)), cisplatin-based chemotherapy was the reference standard of care at the time of the TCGA analysis with a median survival of 14–15 months for recurrent/metastatic disease; no molecularly targeted agent had been approved [PMID:24476821](../papers/24476821.md)
+- Cited in HCC trials (CELESTIAL, SHARP supporting context) as a reference comparator chemotherapy; sorafenib combinations not primary focus [PMID:24798001](../papers/24798001.md)
+- Platinum-based backbone (cisplatin + gemcitabine) is the standard chemotherapy platform for R/M NPC; sintilimab added to CCRT with cisplatin improved 36-mo EFS to 86% vs 76% (HR 0.59) [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -82,3 +84,9 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

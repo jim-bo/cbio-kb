@@ -58,6 +58,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - PolyA RNA-seq on Illumina HiSeq2000 (100 bp PE) applied to 80 rhabdomyosarcoma tumors; mapped with TopHat2; fusions called via [tophat-fusion](../methods/tophat-fusion.md) and deFuse; showed 58% of DNA-level somatic mutations had RNA expression evidence; identified cryptic PAX rearrangements including PAX3-INO80D [PMID:24436047](../papers/24436047.md)
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
 - Performed on 4 of the 20 Discovery Cohort ESCC tumors to support transcriptomic analysis of mutated genes (e.g., APOBEC3B expression, XPO1 mRNA levels) [PMID:24686850](../papers/24686850.md)
+- Applied to 196 HCC patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
+- Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified BCL2 focal amplification correlated with increased BCL2 mRNA; both GTF2I alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
 
 ## Notes
 
@@ -164,5 +166,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

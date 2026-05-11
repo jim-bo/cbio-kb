@@ -23,6 +23,8 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
 - Activating [RET](../genes/RET.md) mutation in metastatic MTC patient PN8 guided cabozantinib selection; PN8 achieved a partial response lasting 164 days in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
 - Listed among candidate targeted therapies for advanced HCC in a 2014 review of HCC genomics that maps driver alterations (MET, FGF axis, VEGFA, mTOR) to ongoing clinical trials [PMID:24735922](../papers/24735922.md)
+- Phase III CELESTIAL trial: cabozantinib vs placebo in HCC, median OS 10.2 vs 8.0 months (HR 0.76, 95% CI 0.63–0.92, P=0.0049); approved as second-line for HCC regardless of prior-line count (≤2) [PMID:24798001](../papers/24798001.md)
+- Cited as a multi-kinase TKI (VEGFR2, MET, AXL) under investigation in R/M NPC for anti-angiogenic and anti-metastatic activity [PMID:24952746](../papers/24952746.md)
 
 ## Resistance mechanisms
 
@@ -44,5 +46,11 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

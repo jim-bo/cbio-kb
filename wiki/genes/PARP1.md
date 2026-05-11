@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # PARP1
@@ -17,6 +17,7 @@ PARP1 (Poly ADP-Ribose Polymerase 1) is a key enzyme in the base excision repair
 
 - Screened as a DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; BRCA1/2:PARP1 synthetic lethal interaction used as a conceptual parallel for the FBXO7:[CHEK1](../genes/CHEK1.md) SL pair [PMID:36334560](../papers/36334560.md)
 - Identified as a synthetic lethal partner in ARID1A-mutant ovarian cancer cells, where PARP1 inhibition selectively impairs cell survival [PMID:22037554](../papers/22037554.md)
+- PARP inhibitors (niraparib, fuzuloparib, olaparib) tested in combination with ICI to exploit DNA repair deficiencies in NPC [PMID:24952746](../papers/24952746.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ PARP1 (Poly ADP-Ribose Polymerase 1) is a key enzyme in the base excision repair
 - [PMID:22037554](../papers/22037554.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

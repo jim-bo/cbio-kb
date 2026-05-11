@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -38,6 +38,8 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - Whole-exome sequencing of 74 HNSCC tumors identified [NOTCH1](../genes/NOTCH1.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md) as top drivers, with NOTCH1 mutated in ~15% of cases [PMID:21798893](../papers/21798893.md)
 - Whole-exome sequencing of 32 primary HNSCC tumors (JHU) identified recurrent NOTCH1 inactivating mutations as a major driver event [PMID:21798897](../papers/21798897.md)
 - Multi-platform genomic analysis of 40 OSCC (an HNSC subtype) identified four major driver pathways (mitogenic signaling 63%, Notch 66%, cell cycle 94%, TP53 60%), novel [FAT1](../genes/FAT1.md) inactivation in 46% and [CASP8](../genes/CASP8.md) mutations in 10% defining a CN-quiet subtype; 80% of tumors harbored at least one targetable alteration [PMID:23619168](../papers/23619168.md)
+- RHOA E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:24816253](../papers/24816253.md)
+- Narrative review of R/M NPC therapeutics notes EGFR overexpression in a substantial fraction of NPC (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:24952746](../papers/24952746.md)
 
 ## Subtypes
 
@@ -71,3 +73,9 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:23619168](../papers/23619168.md) — Pickering et al. Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers. *Cancer Discov* 2013.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24816253](../papers/24816253.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

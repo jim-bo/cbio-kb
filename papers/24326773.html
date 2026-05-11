@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic and transcriptomic landscapes of metastatic neuroendocrine neoplasms from distinct primary sites and their clinical implications – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24326773.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24326773.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic and transcriptomic landscapes of metastatic neuroendocrine neoplasms from distinct primary sites and their clinical implications</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kathleen Wee </p>
+             <p>Kevin C. Yang </p>
+             <p>David F. Schaeffer </p>
+             <p>Chen Zhou </p>
+             <p>Emily Leung </p>
+             <p>Xiaolan Feng </p>
+             <p>Janessa Laskin </p>
+             <p>Marco A. Marra </p>
+             <p>Jonathan M. Loree </p>
+             <p>Sharon M. Gorski </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41598-025-00549-7">10.1038/s41598-025-00549-7</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24326773 · <strong>DOI:</strong> 10.1038/s41598-025-00549-7 · <strong>Journal:</strong> Scientific Reports (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Wee, Yang and colleagues performed whole-genome and transcriptome analysis (WGTA) on 28 metastatic neuroendocrine neoplasms (NENs) enrolled in the BC Cancer Personalized OncoGenomics (POG) program, spanning eight primary anatomical sites (pancreas, lung, thyroid, small intestine, hepatobiliary, neck, ovary [MiNEN], and unknown). They confirm primary-NEN driver patterns in the metastatic setting — recurrent MEN1/DAXX/ATRX/RB1/TP53 alterations in PanNENs and PulNENs, activating <a href="../genes/RET.html">RET</a> in medullary thyroid carcinomas — and show that MEN1-mutant PanNENs (but not PulNENs) carry large-scale loss of heterozygosity. Median tumour mutation burden was 2.19 mut/Mb. Unsupervised transcriptome clustering produced three groups that partly tracked primary site/histology, with a high-grade/MYC-driven Cluster B (including an ovarian MiNEN that clustered with TCGA colorectal cancers). WGTA flagged actionable findings in 24/28 patients; 15 received POG-informed standard-of-care therapy and 10 had clinical benefit.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 28</strong> metastatic NEN patients enrolled in the <a href="../datasets/pog570_bcgsc_2020.html">pog570_bcgsc_2020</a> Personalized OncoGenomics program at BC Cancer (referral window 2014–April 2021).</li>
+<li>Inclusion criteria: available WGS + WTS data, sequencing-estimated tumour content ≥ 30%, NEN diagnosis or pathological indication of neuroendocrine components.</li>
+<li>Primary anatomical sites (PASs): pancreas (<a href="../cancer_types/PANET.html">PANET</a>/<a href="../cancer_types/PANEC.html">PANEC</a>, n=10), lung (<a href="../cancer_types/LNET.html">LNET</a>/<a href="../cancer_types/LUNE.html">LUNE</a>, n=7), thyroid (medullary, <a href="../cancer_types/MTNN.html">MTNN</a>, n=3), small intestine (<a href="../cancer_types/SBWDNET.html">SBWDNET</a>), hepatobiliary, neck, unknown primary (<a href="../cancer_types/NETNOS.html">NETNOS</a>), and one ovarian MiNEN (<a href="../cancer_types/MNET.html">MNET</a>/<a href="../cancer_types/HGONEC.html">HGONEC</a>).</li>
+<li>60% male; median age 53 (range 24–75); 26/28 specimens biopsied from metastases; liver was biopsy site in 71% (20/28).</li>
+<li>Six PanNEN cases were previously characterized by the group (refs 5, 6 in the paper).</li>
+<li>Assays: paired tumor/normal <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> and <a href="../methods/rna-seq.html">RNA-seq</a> on Illumina, with <a href="../methods/bwa.html">BWA</a> (hg19) alignment, <a href="../methods/strelka.html">Strelka</a> for SNVs/indels, CNAseq for somatic CNAs, APOLLOH for LOH, ABySS/Trans-ABySS for SVs, <a href="../methods/star.html">STAR</a> (hg38) + <a href="../methods/rsem.html">RSEM</a> for expression, <a href="../methods/msisensor.html">MSIsensor</a> for MSI, COSMIC v3 <a href="../methods/mutational-signatures.html">mutational signatures</a>, <a href="../methods/edger.html">edgeR</a> for differential expression, <a href="../methods/consensus-hierarchical-clustering.html">ConsensusClusterPlus</a> for transcriptome clustering, <a href="../methods/tsne.html">t-SNE</a> for visualization, and <a href="../methods/viper.html">VIPER</a> for master-regulator inference.</li>
+<li>Data deposited in EGA under study <strong>EGAS00001001159</strong>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Driver-mutation landscape recapitulates primary-NEN biology in the metastatic setting.</strong> Recurrent deleterious <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/DAXX.html">DAXX</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/TP53.html">TP53</a> mutations in PanNENs and PulNENs; activating RET mutations in medullary thyroid carcinomas (MTCs) [PMID:24326773].</li>
+<li><strong>MEN1-mutant LOH is site-specific.</strong> All 10 MEN1-mutant POG NENs were examined; large-scale LOH occurred in MEN1-mutant PanNENs but not in MEN1-mutant PulNENs (Fig. 1b) — consistent with prior literature on PanNETs.</li>
+<li><strong>Tumour mutation burden was modest overall.</strong> Median TMB = <strong>2.19 mut/Mb</strong> (range 0.89–16.40); two cases had TMB &gt; 10. This aligns with prior reports of 1.09–2.95 mut/Mb in metastatic NETs and ~5.45 in NECs.</li>
+<li><strong>Aneuploidy was common; high-level amplification was rare.</strong> Only PanNET PN28 showed large-scale amplification across multiple chromosomes; <a href="../genes/MYC.html">MYC</a> or <a href="../genes/MYCN.html">MYCN</a> amplification was seen in an ovarian (PN19) and a pancreatic NEN respectively.</li>
+<li><strong>Mutational signatures highlight APOBEC and DNA repair defects.</strong> AID/APOBEC and dMMR/replication-slippage signatures contributed across multiple cases (Fig. 1c). PN12 showed evidence of kataegis. PN2 (germline biallelic <a href="../genes/NTHL1.html">NTHL1</a> loss) had a strong dMMR signature; PN19 (11 months prior platinum) exhibited platinum-therapy signatures.</li>
+<li><strong>Mismatch-repair-deficient ≠ MSI-high in this cohort.</strong> Mismatch-repair gene mutations were found only in PN1 (heterozygous <a href="../genes/MSH3.html">MSH3</a> VUS, MSI-stable) and PN4 (homozygous <a href="../genes/MSH6.html">MSH6</a> and <a href="../genes/MLH1.html">MLH1</a> loss-of-function; 18% unstable microsatellites; MSI-low by MSIsensor despite TMB ~11 mut/Mb). No case predicted MSI-high.</li>
+<li><strong>Transcriptome clustering yielded three groups</strong> (consensus hierarchical clustering, Spearman distance, k=3):
+<ul>
+<li><strong>Cluster A</strong> — majority of small-intestinal NETs and PanNETs; contained most MEN1-mutant PanNENs and all DAXX/ATRX-mutant cases.</li>
+<li><strong>Cluster B</strong> — mixed PASs, generally high-grade (Ki-67 &gt; 20%) and/or poorly-differentiated/mixed histology; enriched for MYC targets; MYC family activation by master-regulator analysis.</li>
+<li><strong>Cluster C</strong> — primarily PulNETs and MTCs.</li>
+</ul></li>
+<li><strong>NECs and NET-G3s do not form a distinct cluster.</strong> 7 NECs/NET-G3s grouped in Clusters A or C with low-grade NETs (also supported by PCA; Supplementary Fig. 3a).</li>
+<li><strong>POG NENs are transcriptomically more similar to other NENs than to other cancer types.</strong> Using a 1,553-gene tumour-type discriminator panel (ref 7), 82% (23/28) clustered with NENs from external GEP and pancreatic NEN datasets and away from TCGA primary tumours (Fig. 2a).</li>
+<li><strong>Cluster B exceptions retain PAS- or histology-driven identity.</strong> Ovarian MiNEN PN19 (60% adenocarcinoma / 40% neuroendocrine; MYC-amplified) clustered with TCGA colorectal adenocarcinomas; Spearman correlation against TCGA references corroborated this.</li>
+<li><strong>WGTA-informed clinical actionability.</strong> Actionable alterations identified in 24/28 patients (SNVs, CNAs, SVs, expression outliers, and genomic signatures, Table 2). 15 patients received POG-informed standard-of-care treatments; <strong>10 experienced clinical benefit</strong> (treating physician assessment; stable disease or partial response) and had longer time-on-treatment. Six of these benefited from expression-data-driven recommendations.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/MEN1.html">MEN1</a></strong> — recurrent loss-of-function in PanNENs and PulNENs; PanNEN-specific large-scale LOH (Fig. 1b). MEN1 loss was used to support cell-cycle and MTOR-inhibitor recommendations (e.g., PN22, PN23, PN26).</li>
+<li><strong><a href="../genes/DAXX.html">DAXX</a></strong> / <strong><a href="../genes/ATRX.html">ATRX</a></strong> — recurrent loss in PanNENs; all DAXX/ATRX-mutant cases fell into transcriptome Cluster A. Master-regulator analysis showed relative inhibition of MEN1 and DAXX in Cluster A.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong>, <strong><a href="../genes/TP53.html">TP53</a></strong> — recurrent loss-of-function in PanNENs and PulNENs; TP53 and RB1 loss noted in ovarian MiNEN PN19.</li>
+<li><strong><a href="../genes/RET.html">RET</a></strong> — activating (gain-of-function) mutations in all three MTCs; supported RET-directed therapy (<a href="../drugs/vandetanib.html">vandetanib</a>, selpercatinib/LOXO-292, <a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/cabozantinib.html">cabozantinib</a>) in PN3, PN7, PN8.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a></strong> — amplified in ovarian MiNEN PN19; Cluster B showed enrichment of MYC-target gene sets and activation of MYC family by master-regulator analysis.</li>
+<li><strong><a href="../genes/MYCN.html">MYCN</a></strong> — amplified in a previously characterized pancreatic NEN; mentioned among Cluster B drivers.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — gain-of-function mutation in ovarian MiNEN PN19.</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a></strong> — loss-of-function in PN19.</li>
+<li><strong><a href="../genes/CDK8.html">CDK8</a></strong>, <strong><a href="../genes/FLT1.html">FLT1</a></strong> — amplifications in PN19.</li>
+<li><strong><a href="../genes/NTHL1.html">NTHL1</a></strong> — germline biallelic loss in PN2, driving a strong dMMR mutational signature (previously published by the group).</li>
+<li><strong><a href="../genes/MSH6.html">MSH6</a></strong>, <strong><a href="../genes/MLH1.html">MLH1</a></strong> — homozygous loss-of-function in PN4 (PanNET); 18% microsatellite instability but predicted MSI-low.</li>
+<li><strong><a href="../genes/MSH3.html">MSH3</a></strong> — heterozygous VUS in PN1; MSI-stable prediction.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a></strong> / <strong><a href="../genes/CDKN2B.html">CDKN2B</a></strong> — homozygous deletion in PN16, supporting CDK4/6-inhibitor recommendation.</li>
+<li><strong><a href="../genes/TSC1.html">TSC1</a></strong> — <a href="../genes/TSC1.html">TSC1</a>–<a href="../genes/TMEM71.html">TMEM71</a> fusion in PN21, supporting MTOR-inhibitor recommendation.</li>
+<li><strong><a href="../genes/TMEM71.html">TMEM71</a></strong> — partner in the PN21 TSC1–TMEM71 fusion.</li>
+<li><strong><a href="../genes/BRIP1.html">BRIP1</a></strong> — loss-of-function in PN27, supporting PARP-inhibitor recommendation.</li>
+<li><strong><a href="../genes/TOP2A.html">TOP2A</a></strong> — amplification + high expression in PN4, supporting <a href="../drugs/irinotecan.html">irinotecan</a>.</li>
+<li><strong><a href="../genes/MGMT.html">MGMT</a></strong> — low expression / VUS used to support <a href="../drugs/temozolomide.html">temozolomide</a> selection in PN26, PN28.</li>
+<li><strong><a href="../genes/CD274.html">CD274</a></strong> (PD-L1), <strong><a href="../genes/PDCD1.html">PDCD1</a></strong> (PD-1) — high expression flagged as immune-checkpoint-inhibitor rationale in PN5, PN18, PN19.</li>
+<li><strong><a href="../genes/DLL3.html">DLL3</a></strong> — high expression supported DLL3-inhibitor recommendations in PN11, PN19, PN22.</li>
+<li><strong><a href="../genes/SSTR2.html">SSTR2</a></strong> — high somatostatin receptor expression (often together with SSTR1/3/4/5) supported somatostatin-analog therapy in PN5, PN7, PN10, PN23, PN28.</li>
+<li><strong><a href="../genes/RICTOR.html">RICTOR</a></strong> — high expression supported MTOR-inhibitor in PN4, PN25.</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a></strong> — high expression / gain supported FGFR3-inhibitor or <a href="../drugs/pazopanib.html">pazopanib</a> in PN1, PN14, PN17, PN25.</li>
+<li><strong><a href="../genes/PIK3R2.html">PIK3R2</a></strong> — high expression supported TKI selection (sorafenib, pazopanib) in PN1.</li>
+<li><strong><a href="../genes/MET.html">MET</a></strong> — high expression supported MET-inhibitor in PN13, PN15.</li>
+<li><strong><a href="../genes/PDGFRA.html">PDGFRA</a></strong> / <strong><a href="../genes/PDGFRB.html">PDGFRB</a></strong> — high expression cited for <a href="../drugs/sunitinib.html">sunitinib</a> rationale in PN2, PN10.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>WGTA is feasible and actionable in rare metastatic NENs.</strong> Actionable findings in 24/28 patients; 10/15 treated patients had clinical benefit, demonstrating the value of integrated genome+transcriptome analysis for personalizing therapy in a tumour group with limited standard-of-care options.</li>
+<li><strong>Expression-driven recommendations matter.</strong> Six patients with clinical benefit received therapies informed by transcriptome data alone, consistent with prior POG work (Pleasance et al., 2022) showing expression-based findings are equally informative.</li>
+<li><strong>RET-directed therapy in MTC.</strong> Patients with activating RET (PN3, PN7, PN8) received vandetanib, <a href="../drugs/selpercatinib.html">selpercatinib</a> (LOXO-292), sorafenib, or cabozantinib with durable disease control (e.g., PN7 selpercatinib: 1423 days stable disease; PN8 cabozantinib partial response 164 days).</li>
+<li><strong><a href="../genes/MTOR.html">MTOR</a> / <a href="../drugs/everolimus.html">everolimus</a> utility supported by MEN1 loss + <a href="../genes/RICTOR.html">RICTOR</a> expression.</strong> Several PanNEN/PulNEN cases (PN6, PN17, PN21, PN23, PN26) received everolimus or other MTOR inhibitors guided by MEN1 LoF and/or RICTOR expression.</li>
+<li><strong>Somatostatin analogs (<a href="../drugs/octreotide.html">octreotide</a>, <a href="../drugs/lanreotide.html">lanreotide</a>) tracked by SSTR expression</strong> in PN5, PN7, PN10, PN23, PN28; PN23 had a 1972-day duration on octreotide/lanreotide.</li>
+<li><strong>dMMR ≠ MSI-high in non-colorectal NENs.</strong> PN4 had biallelic MSH6 and MLH1 loss and TMB ~11 mut/Mb yet was MSI-low — relevant for biomarker-driven selection of immune-checkpoint inhibitors (the authors invoke Jaffrelot et al.&nbsp;2022, where 15% of dMMR tumours have non-MSI-high phenotype).</li>
+<li><strong>MYC amplification and Cluster B identity flag aggressive disease.</strong> Ovarian MiNEN PN19 (MYC-amplified, treatment-refractory) clustered with TCGA colorectal cancers and died shortly after biopsy; the authors note MYC-driven NENs are highly aggressive and chemo-resistant.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small cohort (n = 28)</strong> with eight distinct primary sites limits subgroup statistical power; the authors flag this explicitly.</li>
+<li><strong>No pre-treatment comparison.</strong> POG eligibility emphasizes advanced/metastatic disease, so all POG NENs had ≥ 1 prior systemic therapy. The authors hypothesize prior therapy may have shaped transcriptomes — POG NENs clustered together and away from a GEP-NET reference cohort (Alvarez et al., 2018) drawn from surgical resections or biopsies with sparse clinical history.</li>
+<li><strong>MiNEN molecular characterization remains sparse.</strong> The ovarian MiNEN PN19 (60% adenocarcinoma / 40% neuroendocrine) is the only MiNEN here; its colorectal-like transcriptome may reflect histology composition, prior platinum exposure, or both — cannot be disentangled with one case.</li>
+<li><strong>MSI prediction depends on tool and threshold.</strong> MSIsensor classified PN4 (homozygous MSH6/MLH1 loss) as MSI-low; whether this reflects biology or an algorithmic limitation in non-colorectal NENs is an open question.</li>
+<li><strong>Clinical-benefit metric is physician-assessed</strong>, not RECIST-formalized, and patient-/physician-choice attrition (PN1, PN11, etc.) leaves some actionable findings untested.</li>
+<li><strong>Linking transcriptome cluster identity to outcome</strong> would require a larger, prospectively designed cohort.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“The cohort is comprised of 28 metastatic NEN patients … included samples with eight different PASs … a NEN of unknown primary and an ovarian MiNEN” (Results, p.&nbsp;2).</li>
+<li>“Recurrent deleterious MEN1, DAXX, RB1, and TP53 mutations were observed in pancreatic (PanNENs) and pulmonary (PulNENs) neuroendocrine neoplasms while activating RET mutations were found in medullary thyroid carcinomas (MTCs)” (Results, p.&nbsp;2).</li>
+<li>“The majority of the MEN1-mutant PanNENs were affected by large scale loss of heterozygosity (LOH) while MEN1-mutant PulNENs were not” (Results, p.&nbsp;2).</li>
+<li>“The median tumour mutation burden (TMB) in our metastatic cohort was 2.19 mutations per megabase (mut/mb), with two cases having a TMB greater than ten (range: 0.89 ~ 16.40)” (Results, p.&nbsp;2).</li>
+<li>“Homozygous loss of function mutations were observed in MSH6 and MLH1 in PN4 and 18% of microsatellites were unstable but were predicted to be MSI-low” (Results, p.&nbsp;2).</li>
+<li>“Unsupervised clustering of POG NEN transcriptome profiles robustly partitioned the cohort into three groups” (Results, p.&nbsp;2).</li>
+<li>“82% (23/28) of the POG NENs formed a distinct group in close proximity to NENs from external datasets … and were distinct from other types of primary tumours from The Cancer Genome Atlas (TCGA)” (Results, p.&nbsp;2).</li>
+<li>“WGTA resulted in the identification of alterations considered potentially clinically actionable in 24 patients … 15 patients went on to receive standard of care treatments that were supported by WGTA findings, 10 of whom experienced clinical benefit” (Results, p.&nbsp;2).</li>
+<li>“The main genomic findings of this case [PN19] included a <a href="../genes/KRAS.html">KRAS</a> gain of function mutation, loss of function mutations in TP53, RB1, <a href="../genes/SMAD4.html">SMAD4</a>, and amplification of several oncogenes, namely MYC, <a href="../genes/CDK8.html">CDK8</a>, and <a href="../genes/FLT1.html">FLT1</a>” (Discussion, p.&nbsp;5).</li>
+<li>“DNA and RNA sequencing data have been deposited in the European Genome-phenome Archive (EGA) as part of the study EGAS00001001159” (Data availability, p.&nbsp;7).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24326773.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24326773.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

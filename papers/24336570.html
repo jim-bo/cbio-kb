@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutational Analysis Reveals the Origin and Therapy-driven Evolution of Recurrent Glioma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24336570.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24336570.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutational Analysis Reveals the Origin and Therapy-driven Evolution of Recurrent Glioma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Brett E. Johnson </p>
+             <p>Tali Mazor </p>
+             <p>Chibo Hong </p>
+             <p>Michael Barnes </p>
+             <p>Koki Aihara </p>
+             <p>Cory Y. McLean </p>
+             <p>Shaun D. Fouse </p>
+             <p>Shogo Yamamoto </p>
+             <p>Hiroki Ueda </p>
+             <p>Kenji Tatsuno </p>
+             <p>Saurabh Asthana </p>
+             <p>Llewellyn E. Jalbert </p>
+             <p>Sarah J. Nelson </p>
+             <p>Andrew W. Bollen </p>
+             <p>W. Clay Gustafson </p>
+             <p>Elise Charron </p>
+             <p>William A. Weiss </p>
+             <p>Ivan V. Smirnov </p>
+             <p>Jun S. Song </p>
+             <p>Adam B. Olshen </p>
+             <p>Soonmee Cha </p>
+             <p>Yongjun Zhao </p>
+             <p>Richard A. Moore </p>
+             <p>Andrew J. Mungall </p>
+             <p>Steven J.M. Jones </p>
+             <p>Martin Hirst </p>
+             <p>Marco A. Marra </p>
+             <p>Nobuhito Saito </p>
+             <p>Hiroyuki Aburatani </p>
+             <p>Akitake Mukasa </p>
+             <p>Mitchel S. Berger </p>
+             <p>Susan M. Chang </p>
+             <p>Barry S. Taylor </p>
+             <p>Joseph F. Costello </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1126/science.1239947">10.1126/science.1239947</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24336570 · <strong>DOI:</strong> 10.1126/science.1239947 · <strong>Journal:</strong> Science (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Johnson, Mazor et al.&nbsp;performed exome sequencing on paired initial and recurrent gliomas from 23 patients with grade II astrocytomas to ask how the mutational landscape evolves at recurrence. They found that in 43% of cases at least half of the mutations in the initial tumor (including drivers in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ATRX.html">ATRX</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, and <a href="../genes/BRAF.html">BRAF</a>) were undetected at recurrence, implying that recurrent tumors are frequently seeded from cells that branched off early in tumor evolution. Strikingly, 6 of 10 patients treated with <a href="../drugs/temozolomide.html">temozolomide</a> (TMZ) developed hypermutated recurrent tumors that all progressed to glioblastoma (<a href="../cancer_types/GBM.html">GBM</a>), acquiring TMZ-signature driver mutations in the RB and AKT–mTOR pathways. <a href="../genes/IDH1.html">IDH1</a> R132H was the only mutation shared in every patient pair, reinforcing <a href="../genes/IDH1.html">IDH1</a> as the initiating event in low-grade gliomagenesis.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>23 patients with grade II astrocytic gliomas (predominantly astrocytic histology, <a href="../cancer_types/ASTR.html">ASTR</a> / <a href="../cancer_types/DIFG.html">DIFG</a>) with patient-matched initial and recurrent tumor pairs; recurrences resected up to 11 years after the initial tumor.</li>
+<li>Recurrences spanned histological grades II–IV (<a href="../cancer_types/GBM.html">GBM</a> at the high end).</li>
+<li>Dataset: <a href="../datasets/lgg_ucsf_2014.html">lgg_ucsf_2014</a>. Exome and transcriptome data deposited in the European Genome-phenome Archive (EGAS00001000579); data from patients 24–29 also in the Japanese Genotype-phenotype Archive (JGAS00000000004).</li>
+<li>Assay: tumor and matched-normal <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> at average 125× coverage, enabling sensitive detection of mutations down to ~10% variant allele frequency, plus small indels and DNA copy-number alterations. Transcriptome sequencing (<a href="../methods/rna-seq.html">RNA-seq</a>) was used to validate aberrant splicing. Subclonal/heterogeneity validation used <a href="../methods/droplet-digital-pcr.html">droplet digital PCR</a>.</li>
+<li>10 of 23 patients received adjuvant <a href="../drugs/temozolomide.html">temozolomide</a>; the remaining received surveillance, radiation alone, or radiation + TMZ.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>An average of 33 somatic coding mutations was identified per initial tumor, of which on average <strong>54% were also detected at recurrence</strong> (shared mutations); the remainder were private to the initial or recurrent tumor.</li>
+<li>In <strong>43% of cases</strong>, at least half of the mutations in the initial tumor were undetected at recurrence, including driver mutations in <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ATRX.html">ATRX</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, and <a href="../genes/BRAF.html">BRAF</a>.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> R132H was the <strong>only mutation shared in every patient pair</strong>, supporting IDH1 as an initiating event in low-grade gliomagenesis and reinforcing the rationale for mutant-IDH1 therapeutic targeting.</li>
+<li>Clonal evolution patterns spanned a continuum: 4 patients showed <strong>linear clonal evolution</strong> (recurrences shared ≥75% of initial-tumor mutations), 3 showed <strong>branched evolution</strong> (recurrences shared ≤25%), and patient 17 was an extreme example sharing only the <a href="../genes/IDH1.html">IDH1</a> R132H mutation between initial and recurrent tumor.</li>
+<li>In patient 17, the recurrent tumor independently acquired clonal driver mutations in <a href="../genes/TP53.html">TP53</a> and <a href="../genes/ATRX.html">ATRX</a> distinct from those in the initial tumor (with no evidence of the new mutations in the initial tumor at ~0.1% allele frequency), implying <strong>convergent phenotypic evolution</strong> under strong selection.</li>
+<li>The <a href="../genes/BRAF.html">BRAF</a> V600E mutation was subclonal in the initial tumor of patient 18 (present in 3 of 6 additional geographically distinct samples of the initial tumor) and undetectable in all 7 samples of the recurrence — contrasting with the typical proliferative advantage of <a href="../genes/BRAF.html">BRAF</a> V600E and with the subclonal-driver outgrowth seen in chronic lymphocytic leukemia.</li>
+<li>Multi-region exome sequencing of three cases confirmed that <strong>only ~7% of apparently private mutations were actually shared events</strong> misclassified by sampling — intratumoral heterogeneity does not explain the majority of genetic divergence.</li>
+<li>In patient 04 (initial + 3 sequential recurrences), the second recurrence branched off from the initial tumor at a slightly <strong>earlier</strong> evolutionary stage than the first recurrence, while the third recurrence was a direct outgrowth of the second — branched and linear patterns can occur in the same patient and are not intrinsic tumor properties.</li>
+<li><strong>6 of 10 TMZ-treated patients</strong> had hypermutated recurrences with <strong>31.9–90.9 mutations/Mb</strong> (vs 0.2–4.5 mutations/Mb in initial tumors and non-hypermutated recurrences).</li>
+<li><strong>97% of hypermutation mutations were C&gt;T/G&gt;A transitions</strong> predominantly at CpC and CpT dinucleotides — the canonical TMZ mutagenesis signature. &gt;98.7% of C&gt;T/G&gt;A transitions in tumor pairs were estimated to be TMZ-induced.</li>
+<li><strong>All 6 hypermutated recurrences underwent malignant progression to <a href="../cancer_types/GBM.html">GBM</a></strong>.</li>
+<li>Hypermutated tumors acquired somatic mutations in mismatch-repair genes (e.g., <a href="../genes/MSH6.html">MSH6</a>) not detected in initial tumors, plus aberrant DNA methylation of <a href="../genes/MGMT.html">MGMT</a>.</li>
+<li>In TMZ-treated hypermutated recurrences, TMZ-associated driver mutations clustered in the <strong>RB pathway and AKT–mTOR pathway</strong>:
+<ul>
+<li>Patient 01: TMZ-associated <a href="../genes/RB1.html">RB1</a> c.2520+1G&gt;A splice-site mutation (previously seen in germline hereditary retinoblastoma); transcriptome sequencing confirmed aberrant splicing, premature termination, and loss of the <a href="../genes/RB1.html">RB1</a> C-terminal growth-suppression domain.</li>
+<li>Patients 05 and 10: TMZ-associated <a href="../genes/CDKN2A.html">CDKN2A</a> P114L (disrupts inhibition of <a href="../genes/CDK4.html">CDK4</a> and cell-cycle arrest; previously seen in familial melanoma germline).</li>
+<li>Patient 18: TMZ-associated <a href="../genes/PIK3CA.html">PIK3CA</a> E542K (drives AKT hyperactivation and mTOR-dependent oncogenic transformation).</li>
+<li>Patient 24 (second recurrence): TMZ-associated <a href="../genes/PTEN.html">PTEN</a> A121T and G165R at residues critical to phosphatase activity.</li>
+<li>Patient 01: TMZ-associated <a href="../genes/MTOR.html">MTOR</a> S2215F validated as constitutively activating in vitro (analogous to <a href="../genes/MTOR.html">MTOR</a> S2215Y).</li>
+</ul></li>
+<li>In patient 01, microdissection of the first recurrence showed that MTOR S2215F and other TMZ-associated mutations were present only in the region with strong mTORC1 activation (phospho-RPS6, phospho-4E-BP1) and higher Ki-67; this hypermutated subclone seeded a distal second recurrence with homogeneous mTORC1 activation.</li>
+<li>Geographically distinct sampling of initial tumors from 4 of 6 hypermutated-recurrence patients found <strong>no evidence that RB / AKT–mTOR pathway mutations preceded TMZ treatment</strong>.</li>
+<li>Non-hypermutated grade II–III recurrences did <strong>not</strong> acquire mutations in the RB or AKT–mTOR pathways; non-hypermutated recurrences that did progress to <a href="../cancer_types/GBM.html">GBM</a> acquired RB / AKT–mTOR alterations through alternative mechanisms.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/IDH1.html">IDH1</a> — R132H present in every initial tumor and every patient-matched recurrence; the only universally shared mutation across the cohort; reinforces IDH1 as the initiating event in low-grade gliomagenesis.</li>
+<li><a href="../genes/TP53.html">TP53</a> — frequent driver in initial tumors; in some cases (e.g., patient 17) clonal <a href="../genes/TP53.html">TP53</a> mutations in the initial tumor were undetected in the recurrence, which independently acquired distinct clonal TP53 mutations.</li>
+<li><a href="../genes/ATRX.html">ATRX</a> — same convergent-evolution pattern as TP53 in patient 17; commonly shared early-driver mutation.</li>
+<li><a href="../genes/SMARCA4.html">SMARCA4</a> — mutations private to the initial or recurrent tumor in 6 of 7 affected patients; appear to confer selective advantage given preexisting early driver events rather than being founding events.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600E subclonal in initial tumor of patient 18 and undetectable in the recurrence; the BRAF-mutant clone did not expand despite the typical proliferative advantage of this alteration.</li>
+<li><a href="../genes/RB1.html">RB1</a> — TMZ-associated c.2520+1G&gt;A splice-site mutation (patient 01) drove aberrant splicing and loss of the C-terminal growth-suppression domain; GSEA confirmed RB1-mediated cell-cycle control deregulation at recurrence in patients 01 and 10.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — TMZ-associated P114L mutation in patients 05 and 10; abrogates <a href="../genes/CDK4.html">CDK4</a> inhibition and cell-cycle arrest.</li>
+<li><a href="../genes/CDK4.html">CDK4</a> — downstream effector deregulated by <a href="../genes/CDKN2A.html">CDKN2A</a> P114L; part of the RB pathway acquired-mutation program in TMZ-driven progression.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — TMZ-associated E542K in patient 18’s recurrence; activates AKT and induces mTOR-dependent transformation.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — TMZ-associated A121T and G165R in patient 24’s second recurrence at residues critical to phosphatase activity; both recurrently mutated in GBM.</li>
+<li><a href="../genes/MTOR.html">MTOR</a> — TMZ-associated S2215F validated as constitutively activating; subclonal expansion of MTOR-mutant cells drove distal recurrence in patient 01.</li>
+<li><a href="../genes/MSH6.html">MSH6</a> and other MMR genes — somatic mutations acquired in hypermutated recurrences, consistent with MMR pathway dysfunction enabling continued TMZ-induced hypermutation.</li>
+<li><a href="../genes/MGMT.html">MGMT</a> — aberrant DNA methylation observed in hypermutated tumors, consistent with reduced MGMT-mediated repair of TMZ-induced O6-methylguanine adducts.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Recurrent low-grade gliomas frequently arise from early-branching subclones</strong>, not from cells bearing the full set of initial-tumor mutations. This complicates the use of initial-tumor genomic profiling to design precision therapies targeting residual disease at recurrence.</li>
+<li><strong>Temozolomide is mutagenic in vivo</strong> in grade II glioma and is associated with a distinct evolutionary trajectory: hypermutation, MMR loss, and acquisition of driver mutations in the RB and AKT–mTOR pathways that all converged on progression to <a href="../cancer_types/GBM.html">GBM</a> in 6 of 6 hypermutated cases.</li>
+<li>Authors argue that future basic and clinical studies must weigh the initial antitumor effect of TMZ against the risk of <strong>inducing new driver mutations and malignant progression</strong> — particularly given the lack of established overall-survival benefit of TMZ in grade II astrocytoma at the time of publication.</li>
+<li>The recurrent acquisition of mTORC1-activating events (<a href="../genes/PIK3CA.html">PIK3CA</a> E542K, <a href="../genes/PTEN.html">PTEN</a> A121T/G165R, <a href="../genes/MTOR.html">MTOR</a> S2215F) and validated in vivo mTORC1 hyperactivation suggest <strong>AKT–mTOR pathway inhibition</strong> may be a rational strategy for TMZ-driven hypermutated recurrences.</li>
+<li>The universal presence of <a href="../genes/IDH1.html">IDH1</a> R132H across initial and recurrent tumors of every patient supports the rationale for <strong>mutant-IDH1-directed therapy</strong> as a recurrence-spanning strategy.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>N=23 patients is modest for inferring frequencies of evolutionary patterns; recurrence intervals varied widely (months to 11 years) and adjuvant treatment histories were heterogeneous.</li>
+<li>Authors selected tumors of predominantly astrocytic histology; oligodendroglial and mixed gliomas may follow different evolutionary trajectories.</li>
+<li>TMZ-associated mutations are inferred — single mutations cannot be definitively attributed to TMZ exposure; the &gt;98.7% attribution is a cohort-level estimate.</li>
+<li>Intratumoral heterogeneity in initial tumors is sampled via 3–6 additional regions per case, which may still undercount minor subclones (e.g., the BRAF V600E subclone in patient 18 was present in only 3 of 6 sampled regions).</li>
+<li>The connection between TMZ treatment, RB / AKT–mTOR driver mutations, and malignant progression is suggestive but not formally causal; non-hypermutated progressions to GBM acquire similar pathway alterations through alternative mechanisms.</li>
+<li>Open question: would alternative adjuvant strategies (e.g., mutant-IDH1 inhibitors, deferred TMZ) avoid hypermutation-driven progression without sacrificing antitumor effect? Authors call for prospective studies to weigh this trade-off.</li>
+<li>Open question: are the early-branching subclones that seed recurrences identifiable in the initial tumor at the time of first resection? (Sampling here was retrospective.)</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“In 43% of cases, at least half of the mutations in the initial tumor were undetected at recurrence, including driver mutations in TP53, <a href="../genes/ATRX.html">ATRX</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, and BRAF” — Abstract.</li>
+<li>“tumors from 6 of 10 patients treated with the chemotherapeutic drug <a href="../drugs/temozolomide.html">temozolomide</a> (TMZ) followed an alternative evolutionary path to high-grade glioma. At recurrence, these tumors were hypermutated and harbored driver mutations in the RB and AKT-mTOR pathways that bore the signature of TMZ-induced mutagenesis.” — Abstract.</li>
+<li>“We sequenced the exomes of 23 grade II gliomas at initial diagnosis and their recurrences resected from the same patients up to 11 years later.” — Results, p.2.</li>
+<li>“We identified an average of 33 somatic coding mutations in each initial tumor, of which an average of 54% were also detected at recurrence (shared mutations).” — Results, p.2.</li>
+<li>“IDH1 mutation was the only shared mutation in every patient, an observation that supports the current interest in IDH1 as a therapeutic target.” — Results, p.3.</li>
+<li>“six of the ten patients treated with TMZ had recurrent tumors that were hypermutated; that is, they harbored 31.9-90.9 mutations per Mb.” — Results, p.4.</li>
+<li>“97% of these were C&gt;T/G&gt;A transitions predominantly occurring at CpC and CpT dinucleotides, a signature of TMZ-induced mutagenesis” — Results, p.4.</li>
+<li>“all six recurrent tumors that showed evidence of TMZ-induced hypermutation underwent malignant progression to GBM” — Results, p.5.</li>
+<li>“TMZ-associated RB1 c.2520+1G&gt;A splice site mutation found previously in the germline of patients with hereditary retinoblastoma… loss of the RB1 C-terminal domain necessary for growth suppression” — Results, p.5.</li>
+<li>“Recurrent tumors from patient 05 and patient 10 each had a TMZ-associated CDKN2A P114L mutation that prevents it from inhibiting CDK4 or inducing cell cycle arrest” — Results, p.5.</li>
+<li>“TMZ-associated mutation <a href="../genes/PIK3CA.html">PIK3CA</a> E542K in the recurrent tumor of patient 18 that drives Akt hyperactivation and induces mTOR-dependent oncogenic transformation… TMZ-associated mutations in <a href="../genes/PTEN.html">PTEN</a> (A121T and G165R)… TMZ-associated MTOR S2215F mutation in the recurrent tumor of patient 01 was constitutively activating” — Results, p.5.</li>
+<li>“All exome and transcriptome sequencing data have been deposited in the European Genome-phenome Archive under accession number EGAS00001000579” — Acknowledgments, p.6.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24336570.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24336570.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

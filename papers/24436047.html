@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive genomic analysis of rhabdomyosarcoma reveals a landscape of alterations affecting a common genetic axis in fusion-positive and fusion-negative tumors – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24436047.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24436047.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive genomic analysis of rhabdomyosarcoma reveals a landscape of alterations affecting a common genetic axis in fusion-positive and fusion-negative tumors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jack F. Shern </p>
+             <p>Li Chen </p>
+             <p>Juliann Chmielecki </p>
+             <p>Jun S. Wei </p>
+             <p>Rajesh Patidar </p>
+             <p>Mara Rosenberg </p>
+             <p>Lauren Ambrogio </p>
+             <p>Daniel Auclair </p>
+             <p>Jianjun Wang </p>
+             <p>Young K. Song </p>
+             <p>Catherine Tolman </p>
+             <p>Laura Hurd </p>
+             <p>Hongling Liao </p>
+             <p>Shile Zhang </p>
+             <p>Dominik Bogen </p>
+             <p>Andrew S. Brohl </p>
+             <p>Sivasish Sindiri </p>
+             <p>Daniel Catchpoole </p>
+             <p>Thomas Badgett </p>
+             <p>Gad Getz </p>
+             <p>Jaume Mora </p>
+             <p>James R. Anderson </p>
+             <p>Stephen X. Skapek </p>
+             <p>Frederic G. Barr </p>
+             <p>Matthew Meyerson </p>
+             <p>Douglas S. Hawkins </p>
+             <p>Javed Khan </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/2159-8290.CD-13-0639">10.1158/2159-8290.CD-13-0639</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24436047 · <strong>DOI:</strong> 10.1158/2159-8290.CD-13-0639 · <strong>Journal:</strong> Cancer Discovery (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Shern et al.&nbsp;performed whole-genome (n=44), whole-exome (n=103), whole-transcriptome (n=80), and high-resolution SNP-array analyses on a total of 147 rhabdomyosarcoma (<a href="../cancer_types/RMS.html">RMS</a>) tumor/normal pairs in a collaboration between the NCI, Children’s Oncology Group, and the Broad Institute. They show that RMS partitions cleanly by PAX-fusion status rather than by classical ARMS/ERMS histology: PAX-fusion-positive (PFP) tumors carry few additional somatic mutations (mean 6.4 non-synonymous mutations/tumor) and rely on amplifications (<a href="../genes/MYCN.html">MYCN</a>, <a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/MIR17HG.html">MIR17HG</a>) or imprinted-locus loss, whereas PAX-fusion-negative (PFN) tumors accumulate ~17.8 non-synonymous mutations/tumor (P=2×10⁻⁴) and concentrate hits in an [[<a href="../genes/FGFR4.html">FGFR4</a>]]/[[RAS]]/[[<a href="../genes/PIK3CA.html">PIK3CA</a>]] axis. Beyond the previously known RMS drivers (<a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/HRAS.html">HRAS</a>, FGFR4, PIK3CA, <a href="../genes/CTNNB1.html">CTNNB1</a>, FGFR4), the authors nominate novel recurrent mutations in [[<a href="../genes/FBXW7.html">FBXW7</a>]] and [[<a href="../genes/BCOR.html">BCOR</a>]]. Receptor tyrosine kinase/RAS/PIK3CA-axis alterations affect 93% (41/44) of WGS tumors, framing this axis as the dominant therapeutic target in RMS.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>147 tumor/normal pairs</strong> total assembled from the <a href="../datasets/rms_nih_2014.html">Pediatric Oncology Branch (NCI)</a>, Children’s Oncology Group, The Tumour Bank at The Children’s Hospital at Westmead (NSW, Australia), and Hospital Sant Joan de Deu de Barcelona — see <a href="../papers/24436047.html">PMID:24436047</a>.</li>
+<li><strong>Cancer types</strong>: <a href="../cancer_types/RMS.html">Rhabdomyosarcoma (RMS)</a>, partitioned into <a href="../cancer_types/ARMS.html">Alveolar RMS (ARMS)</a> and <a href="../cancer_types/ERMS.html">Embryonal RMS (ERMS)</a>; analysis re-classifies tumors by PAX-fusion status (PFP vs PFN).</li>
+<li><strong>Dataset</strong>: <a href="../datasets/rms_nih_2014.html"><code>rms_nih_2014</code></a>. All sequence data uploaded to dbGaP.</li>
+<li><strong>Assays / methods</strong>:
+<ul>
+<li>44 tumors → <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> (Complete Genomics platform, mean 105× depth, 97% genome coverage).</li>
+<li>103 additional tumors → <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (SOLiD 4 with Agilent SureSelect 37.8 Mb bait on 90 paired; Illumina HiSeq with SureSelect v2 on 13 paired) processed with <a href="../methods/mutect.html">MuTect</a> / <a href="../methods/mutsig.html">MutSig</a> for the Illumina arm and GATK UnifiedGenotyper for the SOLiD arm.</li>
+<li>80 tumors → <a href="../methods/rna-seq.html">polyA RNA-seq</a> on Illumina HiSeq2000 (100 bp paired-end), mapped with TopHat2; fusions via <a href="../methods/tophat-fusion.html">tophat-fusion</a> and <a href="../methods/defuse.html">deFuse</a>.</li>
+<li>All tumors → Illumina Omni 2.5M or 5M SNP arrays (analogous to <a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a> workflow).</li>
+<li>Variant annotation via <a href="../methods/annovar.html">ANNOVAR</a> and <a href="../methods/oncotator.html">Oncotator</a>; reference build hg19.</li>
+</ul></li>
+<li>Verification: SOLiD exome on 30/44 WGS samples, custom AmpliSeq Cancer Panel on Ion Torrent PGM (sensitivity 84%, specificity 93%), and Sanger sequencing for figure/table calls.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Two RMS genotypes by PAX-fusion status.</strong> PFP tumors (n=50: 35 [[<a href="../genes/PAX3.html">PAX3</a>]]-[[<a href="../genes/FOXO1.html">FOXO1</a>]] + 15 [[<a href="../genes/PAX7.html">PAX7</a>]]-[[FOXO1]]) and PFN tumors define the dominant axis of molecular classification; the genotype outperforms histology (<a href="../cancer_types/ARMS.html">ARMS</a> vs <a href="../cancer_types/ERMS.html">ERMS</a>) for capturing biology — 7 fusion-negative ARMS clustered with ERMS by expression and mutation profile.</li>
+<li><strong>Cryptic PAX rearrangements.</strong> Three “fusion-negative” ARMS tumors harbored alternative PAX rearrangements: RMS235 and RMS2031 carried PAX3-NCOA1 fusions, and RMS2046 carried a novel PAX3-INO80D fusion (in-frame on RNA-seq) in a region of massive 2q rearrangement.</li>
+<li><strong>Mutation burden differs by genotype.</strong> Mean non-synonymous somatic mutations per tumor: PFN 17.8 vs PFP 6.4 (P=2×10⁻⁴). PFN tumors also showed greater aneuploidy (P=1×10⁻⁵). One PFP tumor (RMS224, 3-month-old) had no protein-coding somatic alterations besides the [[PAX3]]-[[FOXO1]] fusion and copy-neutral 11p LOH. Mutation count scales with age of diagnosis with a steeper slope in PFN tumors.</li>
+<li><strong>Structural variation.</strong> WGS identified 553 somatic SVs affecting 419 genes; 48 recurrently affected. Beyond PAX3/7 fusions, recurrently SV-affected genes included [[MIR17HG]], [[<a href="../genes/CNR1.html">CNR1</a>]], [[<a href="../genes/CDKN2A.html">CDKN2A</a>]], tyrosine kinase signaling genes ([[<a href="../genes/ERBB4.html">ERBB4</a>]], [[<a href="../genes/RPTOR.html">RPTOR</a>]], [[<a href="../genes/FRS2.html">FRS2</a>]], [[<a href="../genes/CACNA1A.html">CACNA1A</a>]]), and muscle-development genes ([[<a href="../genes/NRG1.html">NRG1</a>]], [[<a href="../genes/FOXP2.html">FOXP2</a>]]). Of 296 between-gene DNA junctions, 19% produced fusion transcripts; PAX fusions accounted for one-third of fusion transcripts and no additional recurrent fusions were detected.</li>
+<li><strong>Recurrent point mutations.</strong> 542 somatic mutations altered 495 genes in the WGS discovery set (40 recurrent). The significant gene list (Table 1) included previously known RMS drivers [[HRAS]], [[KRAS]], [[NRAS]], [[FGFR4]], [[PIK3CA]], [[<a href="../genes/NF1.html">NF1</a>]], plus novel recurrent hits in [[FBXW7]] and [[BCOR]].</li>
+<li><strong>RAS/PI3K/RTK axis activation in PFN tumors.</strong> PFN frequencies: [[NRAS]] 11.7%, [[KRAS]] 6.4%, [[HRAS]] 4.3% (all at codons 12/13/61, no RAS mutations in PFP). [[NF1]] PFN 5.3% mutated + 9% with 17q11.2 LOH. One [[<a href="../genes/BRAF.html">BRAF</a>]] V600E (RMSS013). [[PIK3CA]] PFN 7.4% at oncogenic codons Q546 (helical) or H1047 (kinase); two tumors (RMS2028, RMS217) had concurrent PIK3CA + RAS mutations. One PFP ARMS tumor (RMS244) also carried [[PIK3CA]]. [[<a href="../genes/PIK3CD.html">PIK3CD</a>]] damaging mutation in RMS2107; homozygous [[<a href="../genes/PTEN.html">PTEN</a>]] deletion in RMS2117. RTK mutations: [[FGFR4]] (PFP 0%, PFN 9.6%), [[<a href="../genes/PDGFRA.html">PDGFRA</a>]] 1.4%, [[<a href="../genes/ERBB2.html">ERBB2</a>]] 1.4%.</li>
+<li><strong>Cell-cycle / chromatin drivers.</strong> [[FBXW7]] mutated in 7.4% of PFN tumors, all at conserved WD40 arginine residues (R387P, R441G, R367P); no PFP mutations. [[CTNNB1]] altered in 3% of PFN at oncogenic S33 (n=1) and T41 (n=2). [[<a href="../genes/TP53.html">TP53</a>]] mutated exclusively in PFN (5.3%) with 12% of all tumors carrying 17p13.1 LOH; one germline pathogenic [[TP53]] R248 (patient RMS212). Low-frequency mitotic checkpoint hits: [[<a href="../genes/BUB1B.html">BUB1B</a>]] 1.4%, [[<a href="../genes/FOXM1.html">FOXM1</a>]] 1.4%, [[<a href="../genes/CCND1.html">CCND1</a>]] 1%, [[<a href="../genes/CCND2.html">CCND2</a>]] 1%. [[BCOR]] (Xp11.4) altered in 7% of all RMS (9 PFN: 7 mutations + 2 focal homozygous deletions; 1 PFP indel).</li>
+<li><strong>Expressed mutations enrich for drivers.</strong> RNA-seq of 80 tumors showed 58% of DNA-level somatic mutations had RNA evidence (vs ~36% reported in adult breast/lymphoma). Median expressed mutations per tumor: PFN 9 vs PFP 2.5. 33 genes recurrently harbored expressed mutations including [[<a href="../genes/PTPN11.html">PTPN11</a>]] (0 PFP vs 2 PFN), [[<a href="../genes/ATM.html">ATM</a>]] (1 PFP vs 1 PFN), [[<a href="../genes/ZNF350.html">ZNF350</a>]] (BRCA1-interacting; 1 PFP vs 1 PFN), [[<a href="../genes/TRPC4AP.html">TRPC4AP</a>]] (MYCN-interacting; 0 PFP vs 2 PFN). Singleton expressed mutations were discovered in [[FOXO1]] and [[<a href="../genes/ARID1A.html">ARID1A</a>]] — not previously reported in RMS.</li>
+<li><strong>Copy-number alterations.</strong>
+<ul>
+<li>11p15.5 LOH (encompassing imprinted [[<a href="../genes/IGF2.html">IGF2</a>]]) in 50% of tumors (16 PFP / 59 PFN).</li>
+<li>[[<a href="../genes/IGF1R.html">IGF1R</a>]] focal amplification in 2.7% (1 PFP / 3 PFN); one [[IGF2]] 3′UTR somatic indel (RMS2037).</li>
+<li>12q13-q14 amplification (containing [[CDK4]], 25 genes total) in 9.7%, predominantly PFP (12 PFP / 1 PFN).</li>
+<li>12q15 amplification (containing [[FRS2]] and [[<a href="../genes/MDM2.html">MDM2</a>]]) in 9%, predominantly PFN (9 PFN / 1 PFP).</li>
+<li>2p24 [[MYCN]] amplification in 5%, predominantly PFP (8 PFP / 1 PFN).</li>
+<li>[[PAX7]]-[[FOXO1]] fusion gene amplification in 12/15 PAX7-FOXO1 tumors.</li>
+<li>13q31-32 [[MIR17HG]] amplification exclusively in PFP (4.5%).</li>
+<li>Homozygous [[CDKN2A]] deletion in 3%; 9p21.3 LOH in 9% (1 PFP / 13 PFN) — lower than the historically reported 25%.</li>
+<li>Recurrent chromosome 8 gain in 46% of PFN; recurrent gains of chromosomes 2, 7, 11, 13; recurrent losses of 1p, 9, 16.</li>
+</ul></li>
+<li><strong>Pathway integration.</strong> Reactome over-representation on 2,119 somatically altered genes flagged FGFR signaling as the most significantly altered pathway (P=4.6×10⁻⁵, 29/112 candidate genes); 88% (22/25) of WGS PFN samples had pathway hits. No canonical pathway was significantly enriched when PFP-only altered genes (435) were analyzed separately.</li>
+<li><strong>Convergent genetic axis.</strong> GSEA showed that 444 genes &gt;4-fold differentially expressed in a PAX3-FOXO1-expressing fibroblast model (cell line 7250_PF) — and confirmed in published PAX3-FOXO1 ChIP-seq targets and a transgenic mouse forelimb/somite model — were enriched in the 2,119 somatically altered genes from this cohort (P=3×10⁻³), with stronger enrichment in PFN (P=7×10⁻³) than PFP (P=0.08) mutated gene sets. 116 leading-edge genes including [[FGFR4]] were shared across all three PAX-fusion model systems.</li>
+<li><strong>Combined axis frequency.</strong> Alteration of the receptor tyrosine kinase / RAS / PIK3CA axis was found in 93% (41/44) of WGS-surveyed tumors.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>[[PAX3]] / [[PAX7]] / [[FOXO1]] — defining t(2;13) and t(1;13) translocations produce PAX3-FOXO1 (n=35) and PAX7-FOXO1 (n=15) fusions; PAX7-FOXO1 fusion gene amplified in 12/15 PAX7-FOXO1 tumors.</li>
+<li>[[PAX3]]–[[<a href="../genes/NCOA1.html">NCOA1</a>]] — recurrent alternative fusion in RMS235 and RMS2031 (fusion-negative ARMS by RT-PCR; intra-chromosomal rearrangement).</li>
+<li>[[PAX3]]–[[<a href="../genes/INO80D.html">INO80D</a>]] — novel fusion in RMS2046, in-frame on RNA-seq; partner is a subunit of the ATP-dependent chromatin-remodeling complex.</li>
+<li>[[NRAS]], [[KRAS]], [[HRAS]] — codon 12/13/61 oncogenic hotspots; predominantly ERMS/PFN (PFN frequencies 11.7% / 6.4% / 4.3%); no RAS mutations in PFP.</li>
+<li>[[NF1]] — PFN 5.3% mutated + 9% 17q11.2 LOH; positions as RAS-axis tumor suppressor.</li>
+<li>[[BRAF]] V600E — one PFN tumor (RMSS013).</li>
+<li>[[PIK3CA]] — Q546 (helical) and H1047 (kinase) oncogenic codons; PFN 7.4%, plus one PFP ARMS (RMS244); two tumors had concurrent RAS + PIK3CA mutations.</li>
+<li>[[PIK3CD]] — predicted damaging mutation in RMS2107.</li>
+<li>[[PTEN]] — homozygous deletion in RMS2117.</li>
+<li>[[FGFR4]] — recurrently mutated (PFP 0%, PFN 9.6%); shared leading-edge PAX-FOXO1 downstream target; pathway flagged by Reactome.</li>
+<li>[[PDGFRA]] — recurrent mutation, 1.4%.</li>
+<li>[[ERBB2]] — recurrent mutation, 1.4%; [[ERBB4]] recurrently SV-affected.</li>
+<li>[[FBXW7]] — novel recurrent driver in 7.4% of PFN tumors, exclusively at WD40-domain arginines R387P / R441G / R367P.</li>
+<li>[[BCOR]] — novel recurrent driver in 7% of all RMS cases (Xp11.4): 7 PFN missense + 2 PFN focal homozygous deletions + 1 PFP indel.</li>
+<li>[[CTNNB1]] — oncogenic S33/T41 mutations in 3% of PFN, including one fusion-negative ARMS.</li>
+<li>[[TP53]] — PFN-exclusive somatic mutation (5.3%) + 12% LOH at 17p13.1; germline pathogenic R248 in RMS212.</li>
+<li>[[BUB1B]], [[FOXM1]], [[CCND1]], [[CCND2]] — low-frequency (1–1.4%) mitotic-checkpoint / cell-cycle hits.</li>
+<li>[[PTPN11]] — 2 expressed mutations, both PFN.</li>
+<li>[[ATM]] — 2 expressed mutations (1 PFP, 1 PFN).</li>
+<li>[[ZNF350]] (BRCA1-interacting), [[TRPC4AP]] (MYCN-interacting) — recurrently expressed mutations (2 each).</li>
+<li>[[ARID1A]], [[FOXO1]] — singleton expressed mutations, not previously reported in RMS.</li>
+<li>[[IGF1R]] — focal amplification in 2.7% of cases.</li>
+<li>[[IGF2]] — paternally imprinted gene within 11p15.5 LOH region (50% of tumors); one 3′UTR somatic indel.</li>
+<li>[[CDK4]] — within 12q13-q14 amplicon (9.7%, PFP-skewed).</li>
+<li>[[MDM2]], [[FRS2]] — within 12q15 amplicon (9%, PFN-skewed).</li>
+<li>[[MYCN]] — 2p24 amplification in 5%, PFP-skewed.</li>
+<li>[[CDKN2A]] — homozygous deletion 3%; 9p21.3 LOH in 9% (PFN-skewed).</li>
+<li>[[MIR17HG]] — 13q31-32 amplification exclusively in PFP (4.5%) and recurrently SV-affected.</li>
+<li>[[<a href="../genes/MYOD1.html">MYOD1</a>]], [[<a href="../genes/MET.html">MET</a>]], [[CNR1]] — altered PFN genes that are known downstream targets of [[PAX3]]–[[FOXO1]] (P=1.54×10⁻³).</li>
+<li>[[RPTOR]], [[CACNA1A]], [[NRG1]], [[FOXP2]] — additional recurrently SV-affected genes (tyrosine kinase signaling and muscle development).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Re-classification of RMS.</strong> Authors argue PAX-fusion status (PFP vs PFN) is a more accurate biological and prognostic stratification than ARMS/ERMS histology — consistent with prior clinical observations that fusion-negative ARMS behaves like ERMS. The discovery of cryptic PAX rearrangements in histologically fusion-negative ARMS (PAX3–NCOA1, PAX3–INO80D) has direct implications for therapeutic stratification: such patients may belong with PFP rather than PFN.</li>
+<li><strong>Targetable axis in 93% of tumors.</strong> [[FGFR4]], [[IGF1R]], [[PDGFRA]], [[ERBB2]]/[[ERBB4]], [[MET]], [[MDM2]], [[CDK4]], and [[PIK3CA]] all have approved or late-stage inhibitors and are altered in this cohort, providing a “framework for genomics-directed therapies” that could be tested in clinical trials.</li>
+<li><strong>MEK inhibition as a RAS-pathway strategy.</strong> Authors highlight that the RAS pathway (counting FGFR4, RAS, NF1, PIK3CA) is mutationally activated in ≥45% of PFN tumors and cite the success of [[<a href="../drugs/trametinib.html">trametinib</a>]] in NRAS-mutant melanoma plus preclinical RMS evidence as rationale for MEK1/2 inhibition in RMS.</li>
+<li><strong>Novel candidate targets.</strong> [[BCOR]] (chromatin repressor interacting with class I/II HDACs; previously implicated in <a href="../cancer_types/AML.html">AML</a>, retinoblastoma, medulloblastoma) and [[FBXW7]], [[ARID1A]], [[ZNF350]], [[TRPC4AP]] are flagged as targets requiring functional validation.</li>
+<li><strong>Prognostic CNAs.</strong> 12q13-q14 amplification (containing [[CDK4]]) is reaffirmed as a feature with worse overall survival in RMS independent of fusion status (citing prior literature).</li>
+<li><strong>Higher expressed-mutation rate in pediatric tumors.</strong> 58% of DNA-level somatic mutations were RNA-expressed (vs ~36% in adult breast/lymphoma cohorts), arguing that pediatric RMS may have a higher driver-to-passenger ratio and offer tractable therapeutic targets.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Low overall mutation rate</strong> is consistent with other pediatric solid tumors (~0.1 protein-coding changes/Mb in PFP) but makes statistical detection of recurrently altered genes underpowered for low-frequency drivers.</li>
+<li><strong>PFP biology is dominated by transcriptional reprogramming from the PAX fusion</strong>, but PAX3-FOXO1 alone is insufficient for transformation in model systems — the cooperating event in most PFP tumors appears to be CNA (MYCN, CDK4, MIR17HG amplification; CDKN2A deletion; 11p15.5 LOH) rather than a point-mutation driver. Identifying the rare additional somatic drivers in PFP remains an open question.</li>
+<li><strong>Mechanism behind the age-vs-mutation slope difference</strong> between PFP and PFN (steeper in PFN) is unresolved: cell of origin, proliferation/apoptotic rate, or DNA-repair deficit are all proposed.</li>
+<li><strong>Functional validation outstanding</strong> for the novel [[FBXW7]], [[BCOR]], [[ARID1A]], [[ZNF350]], [[TRPC4AP]] mutations as drivers and therapeutic targets.</li>
+<li><strong>No directly actionable RAS inhibitor</strong> — authors lean on MEK1/2 inhibition (e.g.&nbsp;[[trametinib]]) as an effector-pathway strategy pending direct RAS-targeted agents.</li>
+<li><strong>CDKN2A LOH frequency (9%)</strong> is lower than the previously reported 25% — methodological differences (SNP-array resolution, cohort composition) are not fully reconciled.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>Abstract &amp; landscape framing: “we performed whole-genome, whole-exome and transcriptome sequencing to characterize the landscape of somatic alterations in 147 tumor/normal pairs… alteration of the receptor tyrosine kinase/RAS/PIK3CA axis affects 93% of cases” (Abstract).</li>
+<li>Discovery cohort sizing &amp; coverage: “A set of 44 RMS tumors with matched normal leukocyte DNA was sequenced with whole-genome paired-end sequencing (WGS)… mean depth of 105X… 97% of the genome… 103 additional tumors and their matched germlines… Eighty of the tumors were analyzed by whole-transcriptome sequencing” (Results, p.3).</li>
+<li>Alternative PAX fusions: “Cases RMS235 and RMS2031 harbored a PAX3-NCOA1 fusion… a novel PAX fusion in a region of massive rearrangement of chromosome 2q in RMS2046… fusion of the N-terminus of PAX3 (first seven exons) and the C-terminus of INO80D” (Results, p.3).</li>
+<li>Mutation burden contrast: “PFN tumors had significantly more verified somatic non-synonymous mutations per tumor than PFP tumors (17.8 and 6.4 respectively) (P=2×10⁻⁴)… PFN samples had an overall increase in aneuploidy (P=1×10⁻⁵)” (Results, p.4).</li>
+<li>RAS/PI3K/RTK frequencies: “NRAS (PFN frequency, 11.7%), KRAS (PFN 6.4%), HRAS (PFN 4.3%)… No RAS mutations were found in PFP tumors… NF1 (PFN 5.3% mutated, 17q11.2 LOH 9%)… PIK3CA mutations (PFN 7.4%) occurred at the known oncogenic codons Q546 or H1047… FGFR4 (PFP 0%, PFN 9.6%), PDGFRA (1.4%), and ERBB2 (1.4%)” (Results, p.4–5).</li>
+<li>FBXW7 and BCOR: “FBXW7… mutated in 7.4% of PFN tumors. All mutations… at conserved arginine residues (R387P, R441G, R367P) within the WD40 repeat regions… BCOR, located on chromosome Xp11.4, in 7% of all RMS cases” (Results, p.5).</li>
+<li>CNA frequencies: “LOH of 11p15.5 was found in 50%… 12q13-q14… 9.7% of the tumors… The 12q13-q14 amplicon was found predominantly in PFP tumors (12 PFP vs.&nbsp;1 PFN)… Recurrent focal amplification of 12q15 (9%)… FRS2 and MDM2 occurred predominantly in PFN tumors (9 PFN vs.&nbsp;1 PFP)… Amplification of 2p24 involving MYCN (5%) occurred predominantly in PFP tumors” (Results, p.6).</li>
+<li>Pathway analysis: “Reactome over-representation analysis indicated that FGFR signaling was the most significantly altered pathway (P= 4.6×10⁻⁵) with 29/112 candidate genes represented… mutations in this pathway were found in 88% of PFN samples (22/25 tumors)” (Results, p.6).</li>
+<li>Convergent axis statement: “Evidence for alteration of this common genetic axis can be found in 93% (41/44) of the tumors surveyed by WGS” (Discussion, p.9).</li>
+<li>Trametinib rationale: “the recent success of the MEK1/2 inhibitor, Trametinib, in melanomas with mutated NRAS demonstrates the utility of inhibiting the effector pathways altered by the mutation… Early preclinical evidence has found efficacy of this method in RMS” (Discussion, p.8).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24436047.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24436047.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Exome sequencing identifies frequent inactivating mutations in BAP1, ARID1A and PBRM1 in intrahepatic cholangiocarcinomas – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24185509.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24185509.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Exome sequencing identifies frequent inactivating mutations in BAP1, ARID1A and PBRM1 in intrahepatic cholangiocarcinomas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yuchen Jiao </p>
+             <p>Timothy M Pawlik </p>
+             <p>Robert A Anders </p>
+             <p>Aldo Scarpa </p>
+             <p>Ralph H Hruban </p>
+             <p>Bert Vogelstein </p>
+             <p>Kenneth W Kinzler </p>
+             <p>Nickolas Papadopoulos </p>
+             <p>Laura D Wood </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.2813">10.1038/ng.2813</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24185509 · <strong>DOI:</strong> 10.1038/ng.2813 · <strong>Journal:</strong> Nature Genetics (2013)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Jiao et al.&nbsp;performed whole-exome sequencing of 32 <a href="../cancer_types/IHCH.html">intrahepatic cholangiocarcinomas</a> and 9 <a href="../cancer_types/GBC.html">gallbladder carcinomas</a> (discovery screen), followed by targeted resequencing of 17 candidate driver genes in 32 additional <a href="../cancer_types/IHCH.html">IHCH</a> and 8 additional <a href="../cancer_types/GBC.html">GBC</a> tumors (prevalence screen). They discovered frequent inactivating mutations in the chromatin-remodeling genes <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, and <a href="../genes/PBRM1.html">PBRM1</a> in IHCH — at least one of these was altered in 47% of the discovery cohort and 41% of the combined cohort. <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> hotspot mutations occurred in 20% of IHCH and were associated with significantly worse survival. By contrast, <a href="../genes/TP53.html">TP53</a> was the dominant alteration in GBC, supporting genetically distinct biology between IHCH and gallbladder carcinoma despite their shared anatomic origin.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery screen:</strong> 32 <a href="../cancer_types/IHCH.html">intrahepatic cholangiocarcinomas</a> and 9 <a href="../cancer_types/GBC.html">gallbladder carcinomas</a>, tumor + matched normal, <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on Agilent SureSelect Paired-End v2.0 Human Exome capture + Illumina HiSeq 2000. Mean coverage 130× over the targeted region; &gt;90% of targeted bases ≥10×. Aligned to hg18 via Eland/CASAVA 1.6. One GBC tumor with a hypermutator phenotype (~3,000 nonsynonymous mutations) was excluded, leaving 8 GBC for analysis. Samples macrodissected; tumor/normal collected under IRB protocols at Johns Hopkins, MSKCC, Mayo Clinic, Fundeni Clinical Institute, and University Hospital Trust of Verona.</li>
+<li><strong>Prevalence screen:</strong> 32 additional IHCH and 8 additional GBC from Verona University Hospital, <a href="../methods/targeted-dna-seq.html">targeted DNA sequencing</a> of 17 candidate driver genes (<a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/PIK3C2A.html">PIK3C2A</a>, <a href="../genes/PIK3C2G.html">PIK3C2G</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/TP53.html">TP53</a>) using a custom Ion AmpliSeq panel on Ion Torrent PGM (318 chip). Mean read depth 1,276×; 88.9% of target bases ≥100×. Aligned to hg19.</li>
+<li><strong>Validation:</strong> 50 mutations confirmed by <a href="../methods/sanger-sequencing.html">Sanger sequencing</a>; all 50 verified.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/chol_jhu_2013.html">chol_jhu_2013</a>.</li>
+<li><strong>Total mutation burden:</strong> 1,259 somatic mutations in 1,128 genes across the 32 IHCH (mean 39 per sample, range 13–300); 724 somatic mutations in 695 genes across the 8 evaluable GBC (mean 91 per sample, range 42–252).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Chromatin-remodeling genes are recurrently inactivated in IHCH.</strong> In the discovery screen, <a href="../genes/BAP1.html">BAP1</a> was mutated in 8/32 (25%), <a href="../genes/ARID1A.html">ARID1A</a> in 6/32 (19%), and <a href="../genes/PBRM1.html">PBRM1</a> in 5/32 (17%) IHCH; at least one was altered in 15/32 (47%) of tumors. Mutations were enriched for inactivating types (nonsense, frameshift, splice-site).</li>
+<li><strong>Significance after multiple-testing correction.</strong> Combining single-base substitution counts, indel counts, and nonsynonymous enrichment via Fisher’s combined test with Bonferroni correction, BAP1 P = 7.4 × 10⁻¹², ARID1A P = 4.3 × 10⁻³, PBRM1 P = 1.8 × 10⁻⁵, IDH1 P = 5.4 × 10⁻³, <a href="../genes/FGFR2.html">FGFR2</a> P = 4.8 × 10⁻² — all qualified as significantly mutated genes in IHCH.</li>
+<li><strong>Combined IHCH cohort (n=64) mutation frequencies:</strong> BAP1 13/64 (20%), ARID1A 9/64 (14%), PBRM1 8/64 (13%); 26/64 (41%) of IHCH carried a mutation in at least one of these chromatin-remodeling genes. In the prevalence screen alone, these three genes were mutually exclusive; in the discovery screen 3 tumors carried multiple chromatin-remodeling gene hits.</li>
+<li><strong>IDH1/IDH2 hotspots cluster as expected and are prognostic.</strong> <a href="../genes/IDH1.html">IDH1</a> was mutated in 4/32 IHCH (codon 132) and <a href="../genes/IDH2.html">IDH2</a> in 2/32 (codon 172) in the discovery screen (19% combined); 7/32 (22%) in the prevalence screen; 20% overall in the combined 64-tumor IHCH cohort. Subjects with IDH1/IDH2 mutations had 3-year survival of 33% vs 81% for IDH-wild-type (log-rank P = 0.0034); after Cox adjustment for stage, age and sex, HR = 7.37 (95% CI 1.13–48.29, P = 0.037).</li>
+<li><strong>FGFR2 mutations identified in 13% (4/32) of discovery-screen IHCH</strong> (<a href="../genes/FGFR2.html">FGFR2</a>), with two at residues previously reported in endometrial carcinoma. Authors note these complement previously reported FGFR2 gene fusions in cholangiocarcinoma.</li>
+<li><strong>PI3K pathway alterations totaled 22% of discovery-screen IHCH</strong> — 2 <a href="../genes/PIK3CA.html">PIK3CA</a>, 2 <a href="../genes/PTEN.html">PTEN</a>, 2 <a href="../genes/PIK3C2G.html">PIK3C2G</a>, 1 <a href="../genes/PIK3C2A.html">PIK3C2A</a>. <a href="../genes/TP53.html">TP53</a> was mutated in only 2/32 (6%); single inactivating <a href="../genes/CDKN2A.html">CDKN2A</a>, single oncogenic hotspot <a href="../genes/KRAS.html">KRAS</a>, and single <a href="../genes/NRAS.html">NRAS</a> mutations identified. No <a href="../genes/SMAD4.html">SMAD4</a> mutations in IHCH; one <a href="../genes/TGFBR2.html">TGFBR2</a> mutation.</li>
+<li><strong>Gallbladder carcinoma is genetically distinct from IHCH.</strong> In 8 GBC discovery samples, <a href="../genes/TP53.html">TP53</a> was the most frequently mutated gene (5/8, 63%; only TP53 met the Bonferroni-corrected significance threshold). <a href="../genes/PBRM1.html">PBRM1</a> was mutated in 2/8 (25%) and <a href="../genes/KMT2C.html">KMT2C</a> (MLL3) in 2/8 (25%). One <a href="../genes/PIK3CA.html">PIK3CA</a> and one <a href="../genes/SMAD4.html">SMAD4</a> mutation. No BAP1, ARID1A, IDH1, or IDH2 mutations in discovery-screen GBC.</li>
+<li><strong>Combined GBC cohort (n=16) mutation frequencies:</strong> TP53 44%, PBRM1 25%, BAP1 6%, ARID1A 6%. No IDH1/IDH2 mutations in the additional 8 GBC of the prevalence screen.</li>
+<li><strong>Genetic heterogeneity.</strong> No single gene was mutated in &gt;25% of IHCH tumors in the combined cohort, but pathway-level convergence (chromatin remodeling, IDH metabolism, PI3K/RAS signaling) was clear.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BAP1.html">BAP1</a> — inactivating mutations (nonsense, frameshift, splice-site predominate) in 13/64 (20%) IHCH combined. Encodes a nuclear deubiquitinase implicated in chromatin remodeling; previously reported in renal cell carcinoma, uveal melanoma, and mesothelioma, but this is the first report in a gastrointestinal cancer.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — SWI/SNF complex subunit; 9/64 (14%) IHCH; not previously reported in cholangiocarcinoma.</li>
+<li><a href="../genes/PBRM1.html">PBRM1</a> — SWI/SNF complex subunit; 8/64 (13%) IHCH and 4/16 (25%) GBC; previously known mainly from clear-cell renal cell carcinoma.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> — codon 132 hotspot missense in IHCH; component of the 20% combined IHCH IDH mutation rate; associated with significantly worse survival in this cohort (HR 7.37, P = 0.037 after adjustment).</li>
+<li><a href="../genes/IDH2.html">IDH2</a> — codon 172 hotspot missense in IHCH; absent in GBC in this study.</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> — 4/32 (13%) IHCH discovery-screen tumors; two mutations at residues mutated in endometrial carcinoma. Flagged as a potential therapeutic target via FGFR inhibitors then in trials.</li>
+<li><a href="../genes/TP53.html">TP53</a> — dominant driver in GBC (44% of combined 16 GBC); only 6% (2/32) in IHCH discovery screen.</li>
+<li><a href="../genes/KMT2C.html">KMT2C</a> (MLL3) — chromatin-remodeling gene mutated in 2/8 (25%) GBC discovery-screen tumors; absent in IHCH in this study.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/PIK3C2A.html">PIK3C2A</a>, <a href="../genes/PIK3C2G.html">PIK3C2G</a> — PI3K pathway alterations totaling 22% of IHCH discovery-screen tumors.</li>
+<li><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a> — single hotspot mutations each in IHCH discovery; additional KRAS and NRAS hits in the prevalence screen confirm RAS signaling involvement.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>, <a href="../genes/AKT1.html">AKT1</a> — sporadic alterations included in the prevalence-screen panel; no SMAD4 mutations identified in IHCH.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Biomarker — IDH1/IDH2 mutation as a prognostic marker in IHCH.</strong> In this Johns Hopkins/Verona cohort, IDH mutation was associated with substantially worse 3-year survival (33% vs 81%, log-rank P = 0.0034; adjusted HR 7.37, P = 0.037). The authors explicitly flag that this direction of effect is opposite to a prior report (ref. 16 in the paper), so the prognostic sign of IDH mutation in IHCH remains open.</li>
+<li><strong>Early detection — circulating IDH hotspots.</strong> Authors propose plasma-based detection of IDH1/IDH2 hotspot mutations as a screening strategy for high-risk populations.</li>
+<li><strong>Therapy — chromatin-remodeling vulnerability.</strong> Authors suggest that BAP1/ARID1A/PBRM1-mutant IHCH may be sensitive to drugs targeting chromatin remodeling, citing HDAC inhibitors then in clinical use or development. No drug was administered in this study.</li>
+<li><strong>Therapy — FGFR2 alterations as targetable lesions.</strong> Authors note multiple FGFR inhibitors in clinical trials at the time as a rationale for testing FGFR2-mutant IHCH.</li>
+<li><strong>Disease classification.</strong> GBC vs IHCH show distinct mutational landscapes (TP53-dominant vs chromatin-remodeling-dominant), supporting the position that they should not be lumped together molecularly despite shared biliary origin.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small GBC sample size.</strong> Only 8 evaluable GBC in the discovery screen and 8 in the prevalence screen; authors explicitly state the cohort is too small for definitive genetic-relationship conclusions between GBC and IHCH.</li>
+<li><strong>Conflicting IDH prognosis.</strong> This study’s finding that IDH1/IDH2 mutation is associated with worse survival in IHCH directly contradicts an earlier report showing improved survival; both used relatively small cohorts and the authors call for independent replication.</li>
+<li><strong>Hypermutator excluded.</strong> One GBC tumor with ~3,000 nonsynonymous mutations was removed from the cohort; its underlying mechanism (e.g.&nbsp;MMR deficiency, <a href="../genes/POLE.html">POLE</a>) was not investigated here.</li>
+<li><strong>Coding-region bias.</strong> Whole-exome sequencing misses non-coding drivers, structural variants, and gene fusions; FGFR2 fusions previously reported in cholangiocarcinoma are explicitly outside the assay’s reach.</li>
+<li><strong>No therapeutic validation.</strong> Sensitivity of chromatin-remodeling-mutant cholangiocarcinomas to HDAC inhibitors and of FGFR2-mutant tumors to FGFR inhibitors is hypothesized but not tested in this paper.</li>
+<li><strong>Macrodissection but no laser-capture.</strong> Tumor purity was enhanced by macrodissection and frozen-section review but not by laser capture; estimates of allele frequency and subclonal architecture should be interpreted accordingly.</li>
+<li><strong>Reference genome mix.</strong> Discovery screen aligned to hg18, prevalence screen to hg19, potentially complicating cross-cohort coordinate reconciliation by downstream users.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Through exomic sequencing of 32 intrahepatic cholangiocarcinomas, we discovered frequent inactivating mutations in multiple chromatin-remodeling genes (including BAP1, ARID1A and PBRM1), and mutation in one of these genes occurred in almost half of the carcinomas sequenced.” (Abstract)</li>
+<li>“Somatic mutations in BAP1 … occurred in 8 of 32 intrahepatic cholangiocarcinomas (25%). … somatic ARID1A mutations in 6 of 32 … (19%). Somatic PBRM1 mutations … in 5 of 32 … (17%).” (Results)</li>
+<li>“Combining the discovery and prevalence screens, BAP1 was mutated in 13 of 64 tumors (20%), ARID1A was mutated in 9 of 64 tumors (14%), and PBRM1 was mutated in 8 of 64 tumors (13%), adding up to 26 cholangiocarcinomas with mutations in chromatin-remodeling genes out of 64 total cholangiocarcinomas (41%).” (Results)</li>
+<li>“subjects with IDH1 or IDH2 mutations had 3-year survival of 33% compared with 3-year survival of 81% for subjects with wild-type IDH genes (P = 0.0034) … hazards ratio (HR) = 7.37, 95% confidence interval (CI) = 1.13–48.29, P = 0.037.” (Results)</li>
+<li>“TP53 was the most frequently mutated gene in gallbladder carcinoma, with somatic mutations in five of eight tumors without a mutator phenotype (63%).” (Results)</li>
+<li>“the overall mutation prevalence in gallbladder carcinoma for BAP1, ARID1A and PBRM1 was 6%, 6% and 25%, respectively.” (Results)</li>
+<li>“the P values for their observed mutations were 7.4 × 10⁻¹², 4.3 × 10⁻³ and 1.8 × 10⁻⁵, respectively, using the conservative Bonferroni correction” (BAP1, ARID1A, PBRM1; Results)</li>
+<li>“these mutations may identify additional therapies for cholangiocarcinomas, as the mutations may cause sensitivity to drugs targeting chromatin remodeling, such as histone deacetylase (HDAC) inhibitors” (Results)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24185509.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24185509.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

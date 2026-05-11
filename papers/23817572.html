@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Recurrent somatic alterations of FGFR1 and NTRK2 in pilocytic astrocytoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/23817572.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/23817572.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Recurrent somatic alterations of FGFR1 and NTRK2 in pilocytic astrocytoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jones DTW </p>
+             <p>Hutter B </p>
+             <p>Jäger N </p>
+             <p>Korshunov A </p>
+             <p>Kool M </p>
+             <p>Warnatz HJ </p>
+             <p>Zichner T </p>
+             <p>Lambert SR </p>
+             <p>Ryzhova M </p>
+             <p>Khuong Quang DA </p>
+             <p>Fontebasso AM </p>
+             <p>Stütz AM </p>
+             <p>Hutter S </p>
+             <p>Zuckermann M </p>
+             <p>Sturm D </p>
+             <p>Gronych J </p>
+             <p>Lasitschka B </p>
+             <p>Schmidt S </p>
+             <p>Şeker-Cin H </p>
+             <p>Witt H </p>
+             <p>Sultan M </p>
+             <p>Ralser M </p>
+             <p>Northcott PA </p>
+             <p>Hovestadt V </p>
+             <p>Bender S </p>
+             <p>Pfaff E </p>
+             <p>Stark S </p>
+             <p>Faury D </p>
+             <p>Schwartzentruber J </p>
+             <p>Majewski J </p>
+             <p>Weber UD </p>
+             <p>Zapatka M </p>
+             <p>Raeder B </p>
+             <p>Schlesner M </p>
+             <p>Worth CL </p>
+             <p>Bartholomae CC </p>
+             <p>von Kalle C </p>
+             <p>Imbusch CD </p>
+             <p>Radomski S </p>
+             <p>Lawerenz C </p>
+             <p>van Sluis P </p>
+             <p>Koster J </p>
+             <p>Volckmann R </p>
+             <p>Versteeg R </p>
+             <p>Lehrach H </p>
+             <p>Monoranu C </p>
+             <p>Winkler B </p>
+             <p>Unterberg A </p>
+             <p>Herold-Mende C </p>
+             <p>Milde T </p>
+             <p>Kulozik AE </p>
+             <p>Ebinger M </p>
+             <p>Schuhmann MU </p>
+             <p>Cho YJ </p>
+             <p>Pomeroy SL </p>
+             <p>von Deimling A </p>
+             <p>Witt O </p>
+             <p>Taylor MD </p>
+             <p>Wolf S </p>
+             <p>Karajannis MA </p>
+             <p>Eberhart CG </p>
+             <p>Scheurlen W </p>
+             <p>Hasselblatt M </p>
+             <p>Ligon KL </p>
+             <p>Kieran MW </p>
+             <p>Korbel JO </p>
+             <p>Yaspo ML </p>
+             <p>Brors B </p>
+             <p>Felsberg J </p>
+             <p>Reifenberger G </p>
+             <p>Collins VP </p>
+             <p>Jabado N </p>
+             <p>Eils R </p>
+             <p>Lichter P </p>
+             <p>Pfister SM </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.2682">10.1038/ng.2682</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/23817572">23817572</a> · <strong>DOI:</strong> <a href="https://doi.org/10.1038/ng.2682">10.1038/ng.2682</a> · <strong>Journal:</strong> Nature Genetics (2013)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The ICGC PedBrain Tumor Project performed whole-genome sequencing (with matched RNA-seq in 73 cases and long-insert mate-pair sequencing in 68 cases) of 96 pediatric pilocytic astrocytomas. They found an extremely low mutation rate (&lt;0.1/Mb) and confirmed that pilocytic astrocytoma is a single-pathway disease: 100% of tumors harbored a MAPK pathway alteration. Beyond known <a href="../genes/KIAA1549.html">KIAA1549</a>:<a href="../genes/BRAF.html">BRAF</a> fusions, they identified four novel <a href="../genes/BRAF.html">BRAF</a> fusion partners (<a href="../genes/RNF130.html">RNF130</a>, <a href="../genes/CLCN6.html">CLCN6</a>, <a href="../genes/MKRN1.html">MKRN1</a>, <a href="../genes/GNAI1.html">GNAI1</a>), a novel <a href="../genes/BRAF.html">BRAF</a> p.R506_insVLR insertion, two new <a href="../genes/NTRK2.html">NTRK2</a> fusions (<a href="../genes/QKI.html">QKI</a>:<a href="../genes/NTRK2.html">NTRK2</a> and <a href="../genes/NACC2.html">NACC2</a>:NTRK2) in non-cerebellar tumors, recurrent hotspot mutations in <a href="../genes/FGFR1.html">FGFR1</a> (N546 and K656; 5 tumors in the WGS cohort, 9 more in a screening cohort of 45 non-cerebellar tumors), and recurrent <a href="../genes/PTPN11.html">PTPN11</a> mutations (E69K, E76A) in <a href="../genes/FGFR1.html">FGFR1</a>-mutant tumors. The same <a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/H3-3A.html">H3-3A</a> K27M/<a href="../genes/NF1.html">NF1</a> triple-mutation constellation was identified in 3/48 pediatric glioblastomas, suggesting <a href="../genes/FGFR1.html">FGFR1</a> signaling is a therapeutic target in both diseases.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>96 pilocytic astrocytomas (<a href="../cancer_types/PAST.html">PAST</a>) with matched blood DNA subjected to whole-genome sequencing on Illumina HiSeq2000.</li>
+<li>Matched RNA sequencing (n=73) and long-insert mate-pair sequencing (n=68) on the same samples for structural variant detection.</li>
+<li>Tumor locations spanned the CNS (~half cerebellar, ~half non-cerebellar/extra-cerebellar/midline); cohort identifier: <a href="../datasets/past_dkfz_heidelberg_2013.html">past_dkfz_heidelberg_2013</a>.</li>
+<li>Additional independent screening cohort of 45 non-cerebellar pilocytic astrocytomas (negative for <a href="../genes/KIAA1549.html">KIAA1549</a>:<a href="../genes/BRAF.html">BRAF</a>) screened for <a href="../genes/FGFR1.html">FGFR1</a> exons 12 &amp; 14 and <a href="../genes/PTPN11.html">PTPN11</a> exon 3.</li>
+<li>Comparison cohort: re-examination of previous pediatric <a href="../cancer_types/GB.html">GB</a> exome sequencing data (48 samples).</li>
+<li>Gene expression array data from 118 pilocytic astrocytomas (Affymetrix U133 Plus2.0, including 66 from the present series) vs.&nbsp;158 other astrocytic tumors.</li>
+<li>Methods: <a href="../methods/whole-genome-seq.html">whole-genome-seq</a>, <a href="../methods/rna-seq.html">rna-seq</a>, mate-pair sequencing, BWA + samtools + Picard alignment to hg19, <a href="../methods/pindel.html">pindel</a>, CREST, DELLY for SV detection, TopHat-Fusion and deFuse for fusion calling, <a href="../methods/genome-music.html">genome-music</a> for significantly mutated genes, <a href="../methods/annovar.html">annovar</a> + <a href="../methods/oncotator.html">oncotator</a> for annotation, PCR + <a href="../methods/sanger-sequencing.html">sanger-sequencing</a> for verification (&gt;98% SNV verification, &gt;70% InDel verification).</li>
+<li>Accession: European Genome-phenome Archive EGAS00001000381.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>100% of 96 pilocytic astrocytomas harbored a MAPK pathway alteration; pilocytic astrocytoma is confirmed as a prototypic single-pathway disease.</li>
+<li>Mean somatic mutation rate &lt;0.1/Mb; mean 1.6 non-synonymous SNVs per tumor (range 0–9); &lt;1 coding InDel per case.</li>
+<li>Genome-wide mutation rate positively correlated with patient age (Pearson r = 0.42, P = 2.3 × 10⁻⁵), driven by C-to-T transitions at CpG sites.</li>
+<li>70/96 cases harbored a <a href="../genes/KIAA1549.html">KIAA1549</a>:<a href="../genes/BRAF.html">BRAF</a> fusion; one <a href="../genes/FAM131B.html">FAM131B</a>:<a href="../genes/BRAF.html">BRAF</a> fusion; four <a href="../genes/BRAF.html">BRAF</a> V600E mutations; one <a href="../genes/BRAF.html">BRAF</a> p.ins599T.</li>
+<li>Four novel <a href="../genes/BRAF.html">BRAF</a> fusions identified: <a href="../genes/RNF130.html">RNF130</a>:<a href="../genes/BRAF.html">BRAF</a> (n=2, from reciprocal t(5;7)(q35;q34)), <a href="../genes/CLCN6.html">CLCN6</a>:<a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/MKRN1.html">MKRN1</a>:<a href="../genes/BRAF.html">BRAF</a>, and <a href="../genes/GNAI1.html">GNAI1</a>:<a href="../genes/BRAF.html">BRAF</a> (each n=1); all variants delete the BRAF amino-terminal regulatory region.</li>
+<li>Novel <a href="../genes/BRAF.html">BRAF</a> p.R506_insVLR (3-aa insertion in the interdomain cleft) in ICGC_PA65 — stabilizes a dimeric form of BRAF, confirmed by co-immunoprecipitation, and increased ERK phosphorylation as effectively as BRAF V600E.</li>
+<li>Two cases (ICGC_PA117, ICGC_PA142) harbored compound <a href="../genes/KRAS.html">KRAS</a> mutations on the same allele (E63K/R73M and L19F/Q22K respectively) — non-hotspot residues, distinct from classical codon 12/13/61 hotspots.</li>
+<li>All but one cerebellar tumor in the series harbored a <a href="../genes/BRAF.html">BRAF</a> fusion (the exception had a <a href="../genes/KRAS.html">KRAS</a> alteration); 9/48 (19%) non-cerebellar tumors lacked any classical MAPK alteration on initial screening.</li>
+<li>Two novel <a href="../genes/NTRK2.html">NTRK2</a> fusions identified in 3 non-cerebellar samples: <a href="../genes/QKI.html">QKI</a>:<a href="../genes/NTRK2.html">NTRK2</a> and <a href="../genes/NACC2.html">NACC2</a>:<a href="../genes/NTRK2.html">NTRK2</a>; both 5’ partners contain dimerization domains, predicted to drive ligand-independent NTRK2 (TrkB) dimerization. Verified by PCR.</li>
+<li>Recurrent <a href="../genes/FGFR1.html">FGFR1</a> kinase-domain hotspot mutations (N546, K656) in 5/96 WGS tumors plus 9/45 in the screening cohort (14 total).</li>
+<li>One additional <a href="../genes/FGFR1.html">FGFR1</a> alteration (ICGC_PA89): a ~4.5 kb internal tandem duplication (ITD) of the portion encoding the kinase domain, reminiscent of <a href="../genes/FLT3.html">FLT3</a> ITDs in <a href="../cancer_types/AML.html">AML</a>.</li>
+<li>Strong, diffuse phospho-FGFR1 immunohistochemistry in 7/7 <a href="../genes/FGFR1.html">FGFR1</a>-mutant tumors vs.&nbsp;0/11 <a href="../genes/FGFR1.html">FGFR1</a>-WT tumors; all samples were strongly phospho-ERK positive.</li>
+<li>Recurrent <a href="../genes/PTPN11.html">PTPN11</a> (SHP-2) mutations E69K and E76A — both in <a href="../genes/FGFR1.html">FGFR1</a>-mutant tumors (ICGC_PA84 and ICGC_PA166); one additional E69K in the screening cohort, again in an <a href="../genes/FGFR1.html">FGFR1</a>-mutant case.</li>
+<li>In vitro: <a href="../genes/PTPN11.html">PTPN11</a> mutant alone did not elevate pERK; <a href="../genes/FGFR1.html">FGFR1</a> mutants alone or with mutant <a href="../genes/PTPN11.html">PTPN11</a> upregulated pERK — supporting <a href="../genes/PTPN11.html">PTPN11</a> as a modifier of <a href="../genes/FGFR1.html">FGFR1</a>-driven activation.</li>
+<li><a href="../genes/FGF2.html">FGF2</a> and <a href="../genes/PTPN11.html">PTPN11</a> (SHP-2) expression were significantly elevated in pilocytic astrocytoma vs.&nbsp;158 other astrocytomas or normal tissues — present in both <a href="../genes/FGFR1.html">FGFR1</a>-mutant and WT tumors, suggesting a broader ligand-mediated activation role.</li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/KRAS.html">KRAS</a>, and <a href="../genes/NF1.html">NF1</a> were the only genes significantly mutated by Genome MuSiC (max-FDR 0.05); except for <a href="../genes/FGFR1.html">FGFR1</a>+<a href="../genes/PTPN11.html">PTPN11</a> co-occurrence, alterations were mutually exclusive (permutation test P &lt; 0.0001).</li>
+<li>All <a href="../genes/FGFR1.html">FGFR1</a>-mutant pilocytic astrocytomas were extra-cerebellar, mostly midline — overlapping the anatomic distribution of <a href="../genes/H3-3A.html">H3-3A</a> K27M-mutant gliomas.</li>
+<li>Cross-disease finding: 3/48 (6%) pediatric <a href="../cancer_types/GB.html">GB</a> samples from a prior exome cohort harbored the same triple constellation of <a href="../genes/FGFR1.html">FGFR1</a> activation + <a href="../genes/H3-3A.html">H3-3A</a> K27M + somatic <a href="../genes/NF1.html">NF1</a> alteration; all three were <a href="../genes/TP53.html">TP53</a>-WT. One previously misclassified medulloblastoma case carried <a href="../genes/H3-3A.html">H3-3A</a> K27M + <a href="../genes/NF1.html">NF1</a> + <a href="../genes/FGFR2.html">FGFR2</a> K659E (homologous to <a href="../genes/FGFR1.html">FGFR1</a> K656E), totaling 5 triple-mutant cases.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a> — activating fusions (<a href="../genes/KIAA1549.html">KIAA1549</a>:BRAF in 70/96; novel partners <a href="../genes/RNF130.html">RNF130</a> n=2, <a href="../genes/CLCN6.html">CLCN6</a>, <a href="../genes/MKRN1.html">MKRN1</a>, <a href="../genes/GNAI1.html">GNAI1</a>; plus <a href="../genes/FAM131B.html">FAM131B</a>:BRAF), V600E in 4 tumors, p.ins599T in 1, and novel p.R506_insVLR (interdomain-cleft insertion that stabilizes dimerization and matches BRAF V600E for ERK phosphorylation).</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> — recurrent kinase-domain hotspot mutations at N546 and K656 (5/96 WGS + 9/45 screening cohort); plus a ~4.5 kb kinase-domain internal tandem duplication (ICGC_PA89). Mutants drive ERK phosphorylation in NIH3T3. Phospho-FGFR1 IHC positive in all FGFR1-mutant tumors examined. All FGFR1-mutant tumors were extra-cerebellar, mostly midline. Same <a href="../genes/FGFR1.html">FGFR1</a> mutations recurred in 3/48 pediatric glioblastomas in a published exome cohort.</li>
+<li><a href="../genes/NTRK2.html">NTRK2</a> — two novel kinase-domain-retaining fusions in 3 non-cerebellar samples: <a href="../genes/QKI.html">QKI</a>:NTRK2 and <a href="../genes/NACC2.html">NACC2</a>:NTRK2; 5’ partners contribute dimerization domains, predicted to confer ligand-independent activation.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — non-hotspot compound mutations on the same allele in 2 cases (E63K/R73M; L19F/Q22K) — distinct from classical codon 12/13/61 hotspots; one cerebellar tumor lacking a BRAF fusion harbored a <a href="../genes/KRAS.html">KRAS</a> alteration.</li>
+<li><a href="../genes/PTPN11.html">PTPN11</a> — E69K and E76A activating mutations (previously described in juvenile myelomonocytic leukemia), exclusively co-occurring with <a href="../genes/FGFR1.html">FGFR1</a> mutations; PTPN11/SHP-2 expression also globally elevated in pilocytic astrocytoma.</li>
+<li><a href="../genes/NF1.html">NF1</a> — germline + somatic second hit in 3 NF1-associated cases (classical tumor-suppressor model); somatic <a href="../genes/NF1.html">NF1</a> alterations in pediatric glioblastomas with FGFR1+<a href="../genes/H3-3A.html">H3-3A</a> K27M.</li>
+<li><a href="../genes/H3-3A.html">H3-3A</a> (formerly H3F3A) — K27M mutation co-occurring with <a href="../genes/FGFR1.html">FGFR1</a> activation and <a href="../genes/NF1.html">NF1</a> alteration in one ambiguous pilocytic astrocytoma/<a href="../cancer_types/GB.html">GB</a> case (ICGC_PA69) and in 3/48 pediatric <a href="../cancer_types/GB.html">GB</a> samples.</li>
+<li><a href="../genes/FGF2.html">FGF2</a> — significantly increased expression in pilocytic astrocytoma vs.&nbsp;other astrocytomas/normal tissues; not restricted to FGFR1 status, suggesting ligand-mediated MAPK activation across the entity.</li>
+<li><a href="../genes/KIAA1549.html">KIAA1549</a> — most frequent 5’ fusion partner for <a href="../genes/BRAF.html">BRAF</a> in pilocytic astrocytoma (70/96 cases).</li>
+<li><a href="../genes/FAM131B.html">FAM131B</a> — alternative 5’ fusion partner for <a href="../genes/BRAF.html">BRAF</a> (1 case).</li>
+<li><a href="../genes/RNF130.html">RNF130</a>, <a href="../genes/CLCN6.html">CLCN6</a>, <a href="../genes/MKRN1.html">MKRN1</a>, <a href="../genes/GNAI1.html">GNAI1</a> — newly identified 5’ fusion partners for <a href="../genes/BRAF.html">BRAF</a>.</li>
+<li><a href="../genes/QKI.html">QKI</a>, <a href="../genes/NACC2.html">NACC2</a> — newly identified 5’ fusion partners for <a href="../genes/NTRK2.html">NTRK2</a>; both contribute dimerization domains.</li>
+<li><a href="../genes/TP53.html">TP53</a> — wild-type in all triple-mutant <a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/H3-3A.html">H3-3A</a> K27M/<a href="../genes/NF1.html">NF1</a> pediatric <a href="../cancer_types/GB.html">GB</a> cases (distinct from most K27M-mutant GBM/DIPG, which typically carry <a href="../genes/TP53.html">TP53</a> mutations).</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> — K659E mutation (homologous to <a href="../genes/FGFR1.html">FGFR1</a> K656E) observed in a triple-mutant case originally classified as medulloblastoma but reclassified by expression as glioblastoma.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/TACC1.html">TACC1</a>, <a href="../genes/TACC3.html">TACC3</a>, <a href="../genes/RAF1.html">RAF1</a>, <a href="../genes/NTRK1.html">NTRK1</a>, <a href="../genes/NTRK3.html">NTRK3</a>, <a href="../genes/FLT3.html">FLT3</a> — discussed as background context (homologous <a href="../genes/FGFR3.html">FGFR3</a>:TACC3/FGFR1:<a href="../genes/TACC1.html">TACC1</a> fusions in adult <a href="../cancer_types/GB.html">GB</a>; analogous NTRK1/NTRK3 fusions in other cancers; <a href="../genes/RAF1.html">RAF1</a> fusions in pilocytic astrocytoma; <a href="../genes/FLT3.html">FLT3</a> ITDs in AML serve as the conceptual parallel for the FGFR1 kinase-domain ITD).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Identifies <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/NTRK2.html">NTRK2</a>, and MEK inhibition as rational targets for the ~5–20% of non-cerebellar pilocytic astrocytomas lacking <a href="../genes/KIAA1549.html">KIAA1549</a>:<a href="../genes/BRAF.html">BRAF</a>, where surgical resection is often impossible and tumors progress chronically.</li>
+<li>BRAF V600E-specific agents are a logical option for ~5% of pilocytic astrocytomas with V600E. The authors caution against non-V600E-selective BRAF inhibitors in <a href="../genes/KIAA1549.html">KIAA1549</a>:BRAF-fusion tumors (the majority) because of preclinical evidence of paradoxical MAPK activation in that context.</li>
+<li>Combination strategies (FGFR + NTRK2 + MEK inhibitors) may be warranted given that downstream NTRK2 signaling converges on the MAPK pathway.</li>
+<li>The discovery of the same <a href="../genes/FGFR1.html">FGFR1</a> hotspot mutations in 3/48 pediatric <a href="../cancer_types/GB.html">GB</a> with <a href="../genes/H3-3A.html">H3-3A</a> K27M and <a href="../genes/NF1.html">NF1</a> loss extends a potential FGFR-targeted therapeutic axis to a clinically devastating tumor subset.</li>
+<li>Diagnostic implication: phospho-FGFR1 IHC reliably stratifies FGFR1-mutant vs.&nbsp;wild-type tumors and may be deployable as a clinical assay.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The downstream signaling and transforming potential of the two non-hotspot compound <a href="../genes/KRAS.html">KRAS</a> mutations (E63K/R73M; L19F/Q22K) on the same allele remain to be functionally characterized.</li>
+<li>ICGC_PA69 carried the triple-mutation constellation (<a href="../genes/FGFR1.html">FGFR1</a> + <a href="../genes/H3-3A.html">H3-3A</a> K27M + <a href="../genes/NF1.html">NF1</a>) and was histologically read as pilocytic astrocytoma by three neuropathologists, but a <a href="../cancer_types/GB.html">GB</a> diagnosis could not be conclusively excluded due to limited material — the biological identity of triple-mutant tumors is unresolved.</li>
+<li>Why the <a href="../genes/FGFR1.html">FGFR1</a> + <a href="../genes/H3-3A.html">H3-3A</a> K27M + <a href="../genes/NF1.html">NF1</a> mutations occur in concert, and whether they together specify a fate of oncogene-induced senescence (pilocytic astrocytoma) vs.&nbsp;aggressive malignancy (<a href="../cancer_types/GB.html">GB</a>), is unknown.</li>
+<li>The NF1-associated cohort (3/96) is smaller than the prospective 5–10% rate, reflecting limited tissue availability from optic-pathway tumors.</li>
+<li>The authors do not report functional dissection of every novel <a href="../genes/BRAF.html">BRAF</a> fusion partner (<a href="../genes/CLCN6.html">CLCN6</a>, <a href="../genes/MKRN1.html">MKRN1</a>, <a href="../genes/GNAI1.html">GNAI1</a>).</li>
+<li>Mate-pair coverage limited to 68/96 cases, so some structural variants may still be undetected.</li>
+<li>The model that NF1 loss may mimic elevated <a href="../genes/PTPN11.html">PTPN11</a> activity (both blocking RasGAP recruitment) is proposed but not directly tested.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified recurrent activating mutations in FGFR1 and <a href="../genes/PTPN11.html">PTPN11</a> and novel NTRK2 fusion genes in non-cerebellar tumors. New BRAF activating changes were also observed. MAPK pathway alterations affected 100% of tumors analyzed, with no other significant mutations, indicating pilocytic astrocytoma as predominantly a single-pathway disease.” (Abstract)</li>
+<li>“The average somatic mutation rate was extremely low (&lt;0.1/Mb), with a mean of 1.6 non-synonymous single nucleotide variants (SNVs) per tumor (range 0–9).” (Results, p.2)</li>
+<li>“Most of the known MAPK pathway activating events were also found in this series, including KIAA1549:BRAF fusion variants (70 cases), a <a href="../genes/FAM131B.html">FAM131B</a>:BRAF fusion, four BRAFV600E mutations and one BRAFins599T.” (Results, p.2)</li>
+<li>“An <a href="../genes/RNF130.html">RNF130</a>:BRAF fusion derived from a reciprocal t(5;7)(q35;q34) translocation was seen in two cases, with single examples of <a href="../genes/CLCN6.html">CLCN6</a>:BRAF, <a href="../genes/MKRN1.html">MKRN1</a>:BRAF and <a href="../genes/GNAI1.html">GNAI1</a>:BRAF fusions.” (Results, p.2)</li>
+<li>“9/48 (19%) of the non-cerebellar tumors, however, lacked any of the above alterations. Further assessment of structural rearrangements revealed two novel gene fusions in a total of 3 samples, involving the kinase domain of NTRK2.” (Results, p.3)</li>
+<li>“A second new recurrent alteration, namely mutation of two hotspot residues (N546 &amp; K656) in the kinase domain of FGFR1, was seen in five tumors.” (Results, p.3)</li>
+<li>“Nine cases harbored FGFR1 mutations at N546 or K656, and one additionally carried a PTPN11/SHP-2 E69K change.” (Results, p.4 — screening cohort)</li>
+<li>“By examining previous exome sequencing data for pediatric <a href="../cancer_types/GBM.html">GBM</a>, we identified 3/48 samples (6%) with an FGFR1 mutation. Strikingly, all three harbored the same constellation of H3F3A K27M, somatic NF1 alteration, and FGFR1 activation.” (Results, p.4)</li>
+<li>“Single-drug or combination therapy with FGFR, NTRK2 and/or MEK inhibitors … may therefore represent rational treatment options. BRAFV600E-specific agents may also be a logical choice for ~5% of patients.” (Discussion, p.5)</li>
+<li>“Emerging preclinical data suggest that BRAF inhibitors may trigger paradoxical activation in tumors harboring KIAA1549:BRAF, i.e.&nbsp;the majority of pilocytic astrocytomas.” (Discussion, p.5)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/23817572.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/23817572.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

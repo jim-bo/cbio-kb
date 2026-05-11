@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Prevalence and Co-Occurrence of Actionable Genomic Alterations in High-Grade Bladder Cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/23897969.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/23897969.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prevalence and Co-Occurrence of Actionable Genomic Alterations in High-Grade Bladder Cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Iyer G </p>
+             <p>Al-Ahmadie H </p>
+             <p>Schultz N </p>
+             <p>Hanrahan AJ </p>
+             <p>Ostrovnaya I </p>
+             <p>Balar AV </p>
+             <p>Kim PH </p>
+             <p>Lin O </p>
+             <p>Weinhold N </p>
+             <p>Sander C </p>
+             <p>Zabor EC </p>
+             <p>Janakiraman M </p>
+             <p>Garcia-Grossman IR </p>
+             <p>Heguy A </p>
+             <p>Viale A </p>
+             <p>Bochner BH </p>
+             <p>Reuter VE </p>
+             <p>Bajorin DF </p>
+             <p>Milowsky MI </p>
+             <p>Taylor BS </p>
+             <p>Solit DB </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/JCO.2012.46.5740">10.1200/JCO.2012.46.5740</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/23897969">23897969</a> · <strong>DOI:</strong> <a href="https://doi.org/10.1200/JCO.2012.46.5740">10.1200/JCO.2012.46.5740</a> · <strong>Journal:</strong> Journal of Clinical Oncology (2013)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>An integrated genomic analysis of 97 high-grade urothelial bladder tumors profiled by array comparative genomic hybridization (Agilent 1M aCGH), mass-spectrometry–based Sequenom genotyping, Sanger sequencing of 15 selected oncogenes/tumor suppressors, and Illumina HT-12 expression arrays. 61% of tumors harbored a potentially actionable genomic alteration. Unsupervised clustering of CNAs split bladder tumors into a high-CNA-burden and low-CNA-burden class; <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> alterations were significantly enriched in the high-burden class (P&lt;.001 and P&lt;.003). Mutations in the RTK–RAS–RAF and PI3K/AKT/mTOR pathways and in regulators of G1-S cell-cycle progression occurred in a largely mutually exclusive distribution, and the AKT inhibitor <a href="../drugs/mk-2206.html">MK-2206</a> selectively inhibited bladder cancer cell lines as a function of their underlying pathway lesion (<a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/AKT1.html">AKT1</a> sensitive; <a href="../genes/TSC1.html">TSC1</a>-null resistant). The data underwrite the <a href="../datasets/blca_mskcc_solit_2012.html">blca_mskcc_solit_2012</a> cBioPortal study.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>97 high-grade urothelial carcinomas of the bladder (<a href="../cancer_types/BLCA.html">BLCA</a>); cystectomy 94, nephroureterectomy 1, TURBT 2; macrodissected to ≥60% tumor content; median age 73 (range 42–89); 72 male / 25 female.</li>
+<li>Stage distribution (95 tumors): pTa/pTis 4, I 11, II 15, III 33, IV 32; 34 (35%) received neoadjuvant chemotherapy.</li>
+<li>Histology: 57 (59%) transitional cell carcinoma NOS; 30 (31%) TCC with minor variant components; 10 (10%) predominantly neuroendocrine.</li>
+<li>Comparator cohort: 285 consecutively treated age-, sex-, stage-matched bladder cancer patients (cystectomy at MSKCC 2007–2010), with comparable median overall survival (38 vs 35.2 months; P=.19).</li>
+<li>Dataset: <a href="../datasets/blca_mskcc_solit_2012.html">blca_mskcc_solit_2012</a> — publicly available via cBioPortal.</li>
+<li>Reference genome: NCBI build 36.1 (hg18).</li>
+<li>Assays: <a href="../methods/array-cgh-agilent-1m.html">array-cgh-agilent-1m</a> (Agilent 1M human oligonucleotide aCGH, cohybridized with reference normal DNA; segmented by circular binary segmentation; analyzed with the RAE algorithm at FDR &lt;1%); <a href="../methods/sequenom-genotyping.html">sequenom-genotyping</a> (mass-spectrometry iPLEX hotspot panel); <a href="../methods/sanger-sequencing.html">sanger-sequencing</a> of all coding exons of 15 selected oncogenes/tumor suppressors; <a href="../methods/illumina-microarray.html">illumina-microarray</a> (Illumina HumanHT-12 expression BeadChip, quantile-normalized).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>61% (59/97) of high-grade bladder tumors carried at least one potentially actionable alteration (defined as a clinically validated drug target in another tumor type or a target with an inhibitor in clinical investigation).</li>
+<li>Unsupervised hierarchical clustering of aCGH data identified two distinct subsets — high-CNA-burden vs low-CNA-burden — whose CNA load differed but which were not clinically distinct (recurrence-free, <a href="../cancer_types/OS.html">OS</a>, cancer-specific survival P=.98, .75, .49). The high-burden bladder subset’s structural-aberration load was second only to serous ovarian among 14 reference tumor types (n=5,135).</li>
+<li><a href="../genes/TP53.html">TP53</a> mutations (34% overall) and <a href="../genes/RB1.html">RB1</a> alterations (15% overall) were significantly enriched in high-CNA-burden tumors (P&lt;.001 and P&lt;.003).</li>
+<li>65% (63/97) of tumors harbored at least one somatic mutation among the panel-tested genes; most prevalent: <a href="../genes/TP53.html">TP53</a> 34%, <a href="../genes/PIK3CA.html">PIK3CA</a> 18%, <a href="../genes/FGFR3.html">FGFR3</a> 13%.</li>
+<li>MAPK pathway: altered in 35% of samples; the most commonly altered RTK/RAS/RAF genes were <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, each in 2%–13% of cases, and arose in a predominantly mutually exclusive pattern. <a href="../genes/ERBB2.html">ERBB2</a> was focally amplified in 6 of 97 (6.2%) tumors with concordant mRNA up-regulation and 3+ HER2 IHC overexpression.</li>
+<li><a href="../genes/TP53.html">TP53</a> mutation and <a href="../genes/MDM2.html">MDM2</a> amplification (5%) occurred in a nonoverlapping distribution; combined alterations of these two genes affected 38% of samples.</li>
+<li>G1–S cell-cycle regulators were altered in 61% (59/97); focal amplifications of <a href="../genes/CCND1.html">CCND1</a> (14%) and <a href="../genes/CCNE1.html">CCNE1</a> (5%) were mutually exclusive and inversely correlated with <a href="../genes/RB1.html">RB1</a> mutations/deletions. <a href="../genes/E2F3.html">E2F3</a> amplifications occurred in 21% of bladder tumors versus 4.9% of 1,932 non-urothelial epithelial tumors and were associated with stage III–IV disease (28% vs 6.7% in stage I–II; P=.028).</li>
+<li>An E2F3-target expression signature (23-gene score) was highest in tumors with <a href="../genes/E2F3.html">E2F3</a> amplification or RB1 mutation/homozygous deletion; intermediate in <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CCNE1.html">CCNE1</a>-amplified tumors; lowest in <a href="../genes/CDKN2A.html">CDKN2A</a>-altered or all-pathway–wild-type tumors.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a> homozygous deletion at 9p21.3 was the most common deletion event (<a href="../genes/CDKN2A.html">CDKN2A</a> altered in 24–25% of samples).</li>
+<li>PI3K/AKT/mTOR pathway altered in 30% (29/97): <a href="../genes/PIK3CA.html">PIK3CA</a> mutation 18%, <a href="../genes/TSC1.html">TSC1</a> mutation 7%, <a href="../genes/PTEN.html">PTEN</a> deletion 4%, <a href="../genes/AKT1.html">AKT1</a> mutation 2%.</li>
+<li>Tumors with neuroendocrine differentiation were enriched for <a href="../genes/E2F3.html">E2F3</a> amplification (50% vs 17%; P=.03), <a href="../genes/RB1.html">RB1</a> deletion/mutation (50% vs 13%; P=.01), <a href="../genes/TP53.html">TP53</a> alteration, and higher overall CNA burden.</li>
+<li>Bladder cancer cell line panel showed only modest overlap with primary-tumor genomics — notably, no cell line had focal <a href="../genes/ERBB2.html">ERBB2</a> amplification.</li>
+<li><a href="../drugs/mk-2206.html">MK-2206</a> (allosteric AKT1/2/3 inhibitor) drug-sensitivity assay: PIK3CA- and AKT1-mutant lines were highly sensitive; FGFR3- and HRAS-mutant lines less so; TSC1-null lines were resistant. Pharmacodynamic immunoblot in MGH-U4 (<a href="../genes/PIK3CA.html">PIK3CA</a> H1047R) showed downregulation of pAKT, pPRAS40, pFOX-01/03, pS6, p-4EBP1; in HCV-29 (<a href="../genes/TSC1.html">TSC1</a> Q55*) AKT and proximal substrates were inhibited but S6 and 4EBP1 were not — analogous to KRAS-mutant resistance to EGFR-directed therapy.</li>
+<li>Most common arm-length changes: 20q gain (41.2%) and 11p loss (36.1%); recurrent amplifications include 11q13.2–13.3 (<a href="../genes/CCND1.html">CCND1</a>) and 17q12 (<a href="../genes/ERBB2.html">ERBB2</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — somatic mutation in 34% of tumors; strongly associated with high-CNA-burden cluster (P&lt;.001); mutually exclusive with <a href="../genes/MDM2.html">MDM2</a> amplification; enriched in neuroendocrine-differentiated tumors.</li>
+<li><a href="../genes/RB1.html">RB1</a> — mutation/deletion in 15%; enriched in high-CNA-burden (P&lt;.003) and neuroendocrine subsets (50% vs 13%; P=.01); inversely correlated with <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/CCNE1.html">CCNE1</a> amplification.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — somatic hotspot mutation in 13% of high-grade bladder tumors.</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> — recurrent amplification; member of the MAPK-pathway alteration set (35% combined).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutation in 18%; predicts sensitivity to <a href="../drugs/mk-2206.html">MK-2206</a> in cell lines.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — focal high-level amplification in 6.2% (6/97), with corresponding mRNA up-regulation and 3+ HER2 IHC; framed as a validated actionable target (analogous to breast/gastroesophageal disease).</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — amplification in 5%; nonoverlapping with TP53 mutation.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a> — 9p21.3 homozygous deletion; CDKN2A altered in 24–25% of samples.</li>
+<li><a href="../genes/CCND1.html">CCND1</a> — focal amplification at 11q13.2–13.3 in 14%; mutually exclusive with <a href="../genes/CCNE1.html">CCNE1</a> amplification and inversely correlated with <a href="../genes/RB1.html">RB1</a> loss.</li>
+<li><a href="../genes/CCNE1.html">CCNE1</a> — focal amplification in 5%.</li>
+<li><a href="../genes/E2F3.html">E2F3</a> — amplification in 21% of bladder tumors (vs 4.9% in 1,932 non-urothelial epithelial tumors); associated with advanced stage and high E2F3-target signature; enriched in neuroendocrine-differentiated tumors (50% vs 17%; P=.03); proposed as a bladder-lineage–specific driver, analogous to <a href="../genes/MITF.html">MITF</a> in melanoma.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — mutation in ~4% of bladder tumors as part of the MAPK alteration set.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — mutation in ~2% of bladder tumors; cited as a validated drug target in melanoma.</li>
+<li><a href="../genes/HRAS.html">HRAS</a> — mutation present in a subset of cell lines and primary tumors within the MAPK pathway set.</li>
+<li><a href="../genes/NF1.html">NF1</a> — somatic mutation in ~2% of tumors.</li>
+<li><a href="../genes/MET.html">MET</a> — alteration in ~2% of tumors.</li>
+<li><a href="../genes/RAF1.html">RAF1</a> — amplification in ~6% of tumors.</li>
+<li><a href="../genes/AKT1.html">AKT1</a> — mutation in 2%; predicts sensitivity to <a href="../drugs/mk-2206.html">MK-2206</a>.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — deletion in 4%; deleted samples showed reduced <a href="../genes/PTEN.html">PTEN</a> mRNA expression.</li>
+<li><a href="../genes/TSC1.html">TSC1</a> — mutation in 7%; tumors/cell lines with TSC1 inactivation were resistant to <a href="../drugs/mk-2206.html">MK-2206</a> at the level of S6/4EBP1 despite AKT inhibition.</li>
+<li><a href="../genes/MTOR.html">MTOR</a> — pathway downstream of PI3K/AKT in the analyzed PI3K/AKT/mTOR signaling map; pathway altered in 30% of tumors overall.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>61% of high-grade bladder cancers harbor a potentially actionable genomic alteration, providing a substrate for precision-oncology trial design.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> focal amplification with HER2 overexpression in 6.2% of high-grade bladder tumors supports investigation of HER2-directed therapy (<a href="../drugs/trastuzumab.html">trastuzumab</a>, <a href="../drugs/lapatinib.html">lapatinib</a> analogs) in molecularly selected bladder patients.</li>
+<li>Mutual exclusivity of MAPK-pathway lesions (<a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/FGFR3.html">FGFR3</a>/<a href="../genes/ERBB2.html">ERBB2</a>/<a href="../genes/MET.html">MET</a>/<a href="../genes/NF1.html">NF1</a>/<a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/BRAF.html">BRAF</a>) suggests they confer overlapping phenotypic effects and may each represent independent therapeutic entry points.</li>
+<li>PI3K/AKT/mTOR alterations (30%) are actionable but response to selective inhibitors such as <a href="../drugs/mk-2206.html">MK-2206</a> is modulated by the underlying genetic determinant: <a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/AKT1.html">AKT1</a> mutations confer sensitivity, while downstream <a href="../genes/TSC1.html">TSC1</a> loss confers resistance at the level of S6/4EBP1 — a KRAS-EGFR–analogous resistance pattern.</li>
+<li>The authors argue that prior failures of target-directed agents in unselected bladder cohorts may reflect genomic heterogeneity, and call for prospective genomic characterization to enrich future trials for patients whose tumors carry the relevant lesion.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Mutation profiling was limited to Sequenom hotspot panels plus Sanger sequencing of 15 preselected oncogenes/tumor suppressors — not whole-exome — so novel driver mutations outside these genes were not detectable.</li>
+<li>Neuroendocrine-differentiated tumors (10% of the cohort) were absent from the comparator cohort and may have inflated the prevalence of <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, and <a href="../genes/E2F3.html">E2F3</a> alterations.</li>
+<li>aCGH was performed on bulk tumors; intratumoral heterogeneity (~33% of tumors had minor variant histology components such as squamous or sarcomatoid differentiation) may not be captured.</li>
+<li>Cell line panel only modestly recapitulated primary-tumor genomics (e.g., no <a href="../genes/ERBB2.html">ERBB2</a> amplification in any line), constraining preclinical drug screening.</li>
+<li>Matched primary/metastatic sample analysis is needed to determine whether actionable-alteration prevalence differs between primary and metastatic disease.</li>
+<li>The two CNA-burden classes did not segregate clinically (recurrence-free, OS, or cancer-specific survival), so their prognostic utility is unclear in this cohort.</li>
+<li>Coordinates were aligned to hg18, predating contemporary builds.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Sixty-one percent of tumors harbored potentially actionable genomic alterations.” (Abstract / Results)</li>
+<li>“Mutations in TP53 and RB1 were significantly more common in tumors with a high CNA burden (P&lt;.001 and P&lt;.003, respectively).” (Abstract / Fig 1A)</li>
+<li>“The most common arm-length gains and losses were 20q (41.2%) and 11p (36.1%).” (Results)</li>
+<li>“Sixty-three samples (65%) harbored mutations in at least one gene, the most prevalent of which were TP53 (34%), <a href="../genes/FGFR3.html">FGFR3</a> (13%), and PIK3CA (18%).” (Results)</li>
+<li>“Mutually exclusive focal amplifications of <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/CCNE1.html">CCNE1</a> were present in 14% and 5% of samples, respectively, and were inversely correlated with the presence of RB1 mutations or deletions.” (Results)</li>
+<li>“Amplification of this region [E2F3] rarely occurs in other epithelial tumor types (21% v 4.9% of 1,932 nonurothelial epithelial tumors) and was associated with more advanced stage (28% stage III to IV v 6.7% stage I to II; P=.028).” (Results)</li>
+<li>“Both E2F3 amplification and RB1 deletion/mutation were more prevalent in the subset of tumors exhibiting neuroendocrine differentiation compared with those with predominantly urothelial morphology (E2F3, 50% v 17%; P=.03; RB1, 50% v 13%; P=.01).” (Results)</li>
+<li>“Cell lines harboring PIK3CA and <a href="../genes/AKT1.html">AKT1</a> mutations were highly sensitive to MK2206, those with alterations in upstream pathway components including FGFR-3 and <a href="../genes/HRAS.html">HRAS</a> less so, whereas cell lines with downstream TSC-1 alterations were resistant to AKT inhibition.” (Results)</li>
+<li>“Approximately one third of the tumors in this study exhibited minor histologic components such as squamous or sarcomatoid differentiation.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/23897969.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/23897969.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

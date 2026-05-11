@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Landscape of somatic mutations and clonal evolution in mantle cell lymphoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24145436.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24145436.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Landscape of somatic mutations and clonal evolution in mantle cell lymphoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Beà S </p>
+             <p>Valdés-Mas R </p>
+             <p>Navarro A </p>
+             <p>Salaverria I </p>
+             <p>Martín-García D </p>
+             <p>Jares P </p>
+             <p>Giné E </p>
+             <p>Pinyol M </p>
+             <p>Royo C </p>
+             <p>Nadeu F </p>
+             <p>Conde L </p>
+             <p>Juan M </p>
+             <p>Clot G </p>
+             <p>Vizán P </p>
+             <p>Di Croce L </p>
+             <p>Puente DA </p>
+             <p>López-Guerra M </p>
+             <p>Moros A </p>
+             <p>Roue G </p>
+             <p>Aymerich M </p>
+             <p>Villamor N </p>
+             <p>Colomo L </p>
+             <p>Martínez A </p>
+             <p>Valera A </p>
+             <p>Martín-Subero JI </p>
+             <p>Amador V </p>
+             <p>Hernández L </p>
+             <p>Rozman M </p>
+             <p>Enjuanes A </p>
+             <p>Forcada P </p>
+             <p>Muntañola A </p>
+             <p>Hartmann EM </p>
+             <p>Calasanz MJ </p>
+             <p>Rosenwald A </p>
+             <p>Ott G </p>
+             <p>Hernández-Rivas JM </p>
+             <p>Klapper W </p>
+             <p>Siebert R </p>
+             <p>Wiestner A </p>
+             <p>Wilson WH </p>
+             <p>Colomer D </p>
+             <p>López-Guillermo A </p>
+             <p>López-Otín C </p>
+             <p>Puente XS </p>
+             <p>Campo E </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1073/pnas.1314608110">10.1073/pnas.1314608110</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24145436 · <strong>DOI:</strong> 10.1073/pnas.1314608110 · <strong>Journal:</strong> PNAS (2013)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Beà and colleagues performed whole-genome sequencing (n=4) and whole-exome sequencing (n=29) of mantle cell lymphoma (<a href="../cancer_types/MCL.html">MCL</a>) tumors plus six MCL cell lines, and validated recurrent driver genes by targeted sequencing in an independent cohort of 172 MCL patients (<a href="../papers/24145436.html">PMID:24145436</a>). They identified 25 significantly mutated genes — including the known MCL drivers <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CCND1.html">CCND1</a>, and <a href="../genes/TP53.html">TP53</a> — plus novel recurrent mutations in chromatin modifiers (<a href="../genes/NSD2.html">NSD2</a>/WHSC1, <a href="../genes/KMT2D.html">KMT2D</a>/MLL2, <a href="../genes/MEF2B.html">MEF2B</a>), the anti-apoptotic regulator <a href="../genes/BIRC3.html">BIRC3</a>, the innate-immune receptor <a href="../genes/TLR2.html">TLR2</a>, and <a href="../genes/NOTCH2.html">NOTCH2</a> as a mutually exclusive alternative to <a href="../genes/NOTCH1.html">NOTCH1</a>. Paired/sequential sample analysis revealed subclonal heterogeneity already present at diagnosis and dynamic clonal evolution at progression or relapse.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>Whole-genome sequencing of 4 <a href="../cancer_types/MCL.html">MCL</a> tumor/normal pairs and whole-exome sequencing of 29 MCL tumor/normal pairs (<a href="../methods/whole-genome-seq.html">whole-genome-seq</a>, <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>).</li>
+<li>Whole-exome sequencing of 6 MCL cell lines.</li>
+<li>Targeted validation by Sanger/targeted sequencing in an independent cohort of 172 MCL patients (<a href="../methods/targeted-dna-seq.html">targeted-dna-seq</a>, <a href="../methods/sanger-sequencing.html">sanger-sequencing</a>).</li>
+<li>Copy-number / LOH profiling by Affymetrix SNP 6.0 arrays (<a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a>); gene-expression profiling by Affymetrix HU133+ 2.0 (<a href="../methods/affymetrix-u133-plus2.html">affymetrix-u133-plus2</a>).</li>
+<li>Dataset deposited as EGA EGAS00001000510 (sequencing) and GEO GSE46969 (SNP6.0) / GSE36000 (HU133+2.0); cBioPortal study <a href="../datasets/mcl_idibips_2013.html">mcl_idibips_2013</a>.</li>
+<li>WES coverage yielded a median of 20 protein-coding mutations per case (range 8–47); WGS detected ~3,700 somatic mutations per tumor (1.2/Mb) (<a href="../papers/24145436.html">PMID:24145436</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Twenty-five significantly mutated genes</strong> were identified by WES; all 29 primary tumors harbored at least one mutation in this set, and 5/6 MCL cell lines did as well (<a href="../papers/24145436.html">PMID:24145436</a>).</li>
+<li><strong>Mutational burden tracks clinical course.</strong> Five patients with indolent disease (no treatment, median follow-up 55 mo, range 4–147) had significantly fewer protein-coding mutations (mean 11±4 vs 25±11, P=3.4×10⁻⁵) and fewer CNAs (mean 2±3 vs 12±9, P=0.001) than the 24 patients requiring treatment.</li>
+<li><strong>CNA burden tracks <a href="../genes/SOX11.html">SOX11</a>.</strong> <a href="../genes/SOX11.html">SOX11</a>-positive tumors carried more CNAs than SOX11-negative MCL (mean 13±9 vs 2±2, P=2.1×10⁻⁵) despite a similar somatic mutation count (24±12 vs 17±9, P=0.141).</li>
+<li><strong>Kataegis foci</strong> (regional hypermutation) were observed in 3/4 WGS cases — more often in the two IGHV-mutated tumors — clustering around the t(11;14) 11q13 breakpoint, Ig loci (2p11, 14q32.33, 22q11.22), and the 9p21.3 deletion, and remained stable in a sequential sample of case M003, suggesting kataegis is an early stable event in MCL.</li>
+<li><strong>A&gt;C/T&gt;G substitutions in TpA context</strong> were enriched in IGHV-mutated MCL, matching the germinal-center / Polη error-prone hypermutation signature previously seen in CLL.</li>
+<li><strong><a href="../genes/NOTCH2.html">NOTCH2</a> mutations are mutually exclusive with <a href="../genes/NOTCH1.html">NOTCH1</a>.</strong> PEST-truncating <a href="../genes/NOTCH2.html">NOTCH2</a> mutations were found in 9/172 (5.2%) MCL, and <a href="../genes/NOTCH1.html">NOTCH1</a> PEST-truncating mutations in 8/172 (4.6%); only 1/16 mutated patients carried both. Combined, NOTCH1/2 mutations occurred in 9.5% of MCL.</li>
+<li><strong>NOTCH2 mutations confer dismal prognosis.</strong> 3-year <a href="../cancer_types/OS.html">OS</a> 0% vs 62% (P=2.5×10⁻⁴); blastoid/pleomorphic morphology 66% vs 18% (P=0.001). In bivariate analysis, NOTCH2 mutation was an independent OS risk factor (HR 3.5; 95% CI 1.3–9.5; P=0.017) along with <a href="../genes/TP53.html">TP53</a> mutation (HR 2.4; 95% CI 1.4–4.2; P=0.003).</li>
+<li><strong><a href="../genes/NOTCH1.html">NOTCH1</a> mutations</strong> were also enriched in blastoid/pleomorphic MCL (67% vs 19%, P=0.03) with shorter survival (3-y OS 33% vs 60%, P=0.026). Combined NOTCH1/2 mutations marked an aggressive subset (3-y OS 24% vs 63%, P=3.4×10⁻⁴).</li>
+<li><strong>Chromatin-modifier mutations are common.</strong> <a href="../genes/NSD2.html">NSD2</a> (WHSC1/MMSET) was mutated in 13/130 (10%) MCL — recurrent missense p.E1099K and p.T1150A in conserved SET-domain–proximal exons 18/19. <a href="../genes/KMT2D.html">KMT2D</a> (MLL2) was mutated in 4/29 primary tumors and 2/6 cell lines (mostly truncating, with FYRN/FYRC missense). <a href="../genes/MEF2B.html">MEF2B</a> carried the p.K23R hotspot in 6/187 (3.2%) cases. Together, chromatin-modifier mutations occurred in 10/29 (14%) WES cases and were essentially restricted to SOX11-positive / IGHV-unmutated MCL.</li>
+<li><strong>NSD2-mutated MCL phenocopies t(4;14) plasma-cell myeloma transcriptionally.</strong> GSEA showed NSD2-mutated MCL overexpressed gene signatures upregulated by wild-type or gain-of-function exon-19 <a href="../genes/NSD2.html">NSD2</a> in KMS11 <a href="../cancer_types/PCM.html">PCM</a> cells, as well as proliferation/cell-cycle signatures.</li>
+<li><strong><a href="../genes/BIRC3.html">BIRC3</a> inactivating mutations</strong> were found in 11/173 (6.4%) of MCL and co-occurred with 11q deletions in 10/11 mutated cases (vs 25/87 of BIRC3-unmutated; P=1.1×10⁻⁴).</li>
+<li><strong><a href="../genes/TLR2.html">TLR2</a> mutations</strong> (p.D327V and p.Y298S) were found in 2/171 MCL, both in SOX11-negative/IGHV-mutated tumors; mutated cells showed elevated basal and stimulated IL-6 and IL-1RA secretion, suggesting altered microenvironment signaling.</li>
+<li><strong><a href="../genes/UBR5.html">UBR5</a></strong> ubiquitin-ligase mutations and an inactivating <a href="../genes/B2M.html">B2M</a> p.L13fs*10 mutation (in a case with 15q12–q21.1 deletion encompassing <a href="../genes/B2M.html">B2M</a>) were also observed.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a></strong> was the only gene targeted by recurrent homozygous deletions but carried no somatic point mutations in this series.</li>
+<li><strong>Allelic-loss/mutation co-occurrence.</strong> Only <a href="../genes/TP53.html">TP53</a> (17p), <a href="../genes/ATM.html">ATM</a> (11q), and <a href="../genes/BIRC3.html">BIRC3</a> (11q) recurrent mutations were significantly associated with allelic loss of the second copy.</li>
+<li><strong>Subclonal heterogeneity at diagnosis.</strong> In 2/6 patients with simultaneous PB + lymph-node samples (M023, M026), shared mutations indicated a common founder clone but distinct subclones predominated at each site; the other 4 had a single major clone in both.</li>
+<li><strong>Clonal evolution at progression.</strong> Case M003 (indolent then rapid progression) gained 20 CNAs, chromothripsis on chr4/12, and a 16% increase in WGS mutation count (3,928 → 4,665) at progression. Case M002 (chemotherapy-treated, relapsed at 3 y) lost 11 initial mutations and gained new ones at relapse — consistent with chemotherapy-driven subclone replacement.</li>
+<li><strong>Early vs late events.</strong> <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/KMT2D.html">KMT2D</a> (MLL2), KCNC2, KIAA1671, PCSK2, TNRC6B, TRPM6 mutations were present at similar allelic frequency in paired subclones (likely early); ABCA3, <a href="../genes/TLR2.html">TLR2</a>, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/NSD2.html">NSD2</a> (WHSC1) mutations were seen in only one of two paired subclones (likely late). <a href="../genes/BIRC3.html">BIRC3</a> mutations were specifically acquired post-treatment in 2 cases, accompanied by 11q deletion in one.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/ATM.html">ATM</a></strong> — truncating / functional-domain mutations in 12/29 (41%) WES cases; 12/22 (55%) of SOX11-positive vs 0/7 SOX11-negative (P=0.023). Often biallelic via 11q deletion. Early/clonal event.</li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a></strong> — exon-1 mutations in 10/29 (35%), enriched in SOX11-negative (6/7, 86%, vs 4/22, 18%, P=0.03) and IGHV-mutated (7/12, 58% vs 3/16, 19%, P=0.05) cases — consistent with acquisition in the germinal-center microenvironment.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — mutations in 8/29 (28%) WES and 42/192 (22%) total cohort; associated with 17p loss in 6/8 mutated cases; independent OS risk factor (HR 2.4; 95% CI 1.4–4.2; P=0.003).</li>
+<li><strong><a href="../genes/NSD2.html">NSD2</a></strong> (WHSC1/MMSET) — recurrent missense p.E1099K and p.T1150A in 13/130 (10%) MCL; nearly all in SOX11-positive tumors; first description of WHSC1 mutation in lymphoma; phenocopies t(4;14) PCM expression program.</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a></strong> (MLL2) — truncating + FYRN/FYRC missense in 4/29 (14%) WES primaries and 2/6 cell lines; no biallelic loss; restricted to SOX11-positive / IGHV-unmutated MCL.</li>
+<li><strong><a href="../genes/BIRC3.html">BIRC3</a></strong> — exon-9 inactivating + splice-site mutations in 11/173 (6.4%) MCL; tightly co-occurs with 11q22.2 deletion (10/11 vs 25/87, P=1.1×10⁻⁴); can be acquired post-treatment.</li>
+<li><strong><a href="../genes/MEF2B.html">MEF2B</a></strong> — recurrent exon-2 p.K23R missense in 6/187 (3.2%) MCL; one p.N49S in REC-1 cell line; SOX11-positive tumors only.</li>
+<li><strong><a href="../genes/TLR2.html">TLR2</a></strong> — p.D327V (also reported in IGHV-mutated CLL) and p.Y298S in 2/171 SOX11-negative/IGHV-mutated MCL; functional gain producing elevated IL-1RA and IL-6 secretion.</li>
+<li><strong><a href="../genes/NOTCH1.html">NOTCH1</a></strong> — PEST-truncating mutations in 8/172 (4.6%) MCL plus MINO and REC-1 cell lines; blastoid morphology enriched; shorter 3-y OS (33% vs 60%).</li>
+<li><strong><a href="../genes/NOTCH2.html">NOTCH2</a></strong> — PEST-truncating mutations in 9/172 (5.2%) MCL; mutually exclusive with NOTCH1 (only 1/16 carried both); dismal 3-y OS (0% vs 62%, P=2.5×10⁻⁴); independent OS risk factor (HR 3.5; 95% CI 1.3–9.5).</li>
+<li><strong><a href="../genes/SOX11.html">SOX11</a></strong> — not directly mutated here but used as a key biological stratifier; SOX11 expression strongly partitions the mutation landscape (ATM/NSD2/KMT2D/MEF2B in SOX11+; CCND1/TLR2 in SOX11−).</li>
+<li><strong><a href="../genes/UBR5.html">UBR5</a></strong> — ubiquitin-ligase mutations observed (recurrent in MCL per Meissner et al., 2013).</li>
+<li><strong><a href="../genes/B2M.html">B2M</a></strong> — inactivating p.L13fs*10 in one MCL with 15q12–q21.1 deletion encompassing the locus; not observed in 97 additional patients including 3 with similar 15q monoallelic deletions.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a></strong> — only gene with recurrent homozygous deletions in MCL; no somatic point mutations detected.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>NOTCH2 mutations as a prognostic biomarker</strong> — independent predictor of poor OS in MCL (HR 3.5; 95% CI 1.3–9.5; P=0.017) and an enrichment marker for blastoid/pleomorphic morphology; the authors propose NOTCH1/2 mutations identify a uniformly high-risk subset (3-y OS 24% vs 63%, P=3.4×10⁻⁴).</li>
+<li><strong>NOTCH pathway as therapeutic target</strong> — the activating PEST-truncating pattern in both NOTCH1 and NOTCH2 supports γ-secretase or NOTCH-pathway inhibition strategies in this aggressive MCL subset.</li>
+<li><strong>Indolent vs aggressive MCL substratification</strong> — low mutation/CNA burden, IGHV-mutated, SOX11-negative, with <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/TLR2.html">TLR2</a> mutations defines a distinct, more indolent biology; <a href="../genes/NSD2.html">NSD2</a>/<a href="../genes/KMT2D.html">KMT2D</a>/<a href="../genes/MEF2B.html">MEF2B</a> chromatin-modifier mutations and <a href="../genes/ATM.html">ATM</a> mutations mark the SOX11-positive / IGHV-unmutated aggressive subset.</li>
+<li><strong>Chemotherapy-driven clonal selection</strong> — emergence of new dominant subclones (including post-treatment <a href="../genes/BIRC3.html">BIRC3</a> mutation acquisition with 11q deletion) at relapse highlights the need for relapse-time profiling to guide targeted therapy.</li>
+<li><strong>TLR2/microenvironment axis</strong> — gain-of-function <a href="../genes/TLR2.html">TLR2</a> alleles increased IL-6 / IL-1RA secretion, supporting microenvironment cytokine signaling (e.g., IL-6) as a candidate therapeutic axis in SOX11-negative MCL.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>WGS was limited to 4 cases; most variant calling relied on WES, which under-samples non-coding events and structural variation beyond the t(11;14).</li>
+<li>Paired/sequential sampling for clonal-evolution analysis was small (n=8 WGS/WES + 19 targeted), limiting power to enumerate later “driver” events.</li>
+<li>Functional consequences of <a href="../genes/KMT2D.html">KMT2D</a> and <a href="../genes/MEF2B.html">MEF2B</a> mutations remain unresolved — the authors note these are similar to mutations in DLBCL and <a href="../cancer_types/FL.html">FL</a> but their effect on MCL biology is not yet established.</li>
+<li>Mechanism by which <a href="../genes/TLR2.html">TLR2</a> p.D327V/p.Y298S alleles alter cytokine secretion requires deeper signaling characterization; sample size (n=2 mutated MCL + 1 CLL) is small.</li>
+<li>The series lacks mutations in genes recurrently mutated in other lymphoid neoplasms (<a href="../genes/MYD88.html">MYD88</a>, <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/SF3B1.html">SF3B1</a>) — whether this reflects true MCL specificity or sampling depth is open.</li>
+<li>Whether <a href="../genes/NOTCH2.html">NOTCH2</a> mutation is targetable in MCL — and whether γ-secretase inhibition can overcome the dismal-prognosis subgroup — was not tested.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified 25 significantly mutated genes, including known drivers such as ataxia-telangectasia mutated (<a href="../genes/ATM.html">ATM</a>), cyclin D1 (<a href="../genes/CCND1.html">CCND1</a>), and the tumor suppressor <a href="../genes/TP53.html">TP53</a>; mutated genes encoding the anti-apoptotic protein <a href="../genes/BIRC3.html">BIRC3</a> and Toll-like receptor 2 (TLR2); and the chromatin modifiers WHSC1, MLL2, and <a href="../genes/MEF2B.html">MEF2B</a>” (Abstract / Results).</li>
+<li>“We also found NOTCH2 mutations as an alternative phenomenon to NOTCH1 mutations in aggressive tumors with a dismal prognosis” (Abstract).</li>
+<li>“five patients who did not need treatment (median 55 mo, range 4–147) had significantly fewer somatic protein-coding mutations (mean 11 ± 4 versus 25 ± 11, P = 3.4 × 10⁻⁵) and CNAs (mean 2 ± 3 versus 12 ± 9; P = 0.001) than patients who required treatment at diagnosis” (Results, Landscape of Mutations in MCL).</li>
+<li>“ATM mutations were found in 12 of the 22 (55%) tumors expressing SOX11, but in none of the SOX11-negative MCL (P=0.023)” (Recurrent Somatic Mutations in MCL).</li>
+<li>“We further analyzed these exons in 101 additional tumors and confirmed the presence of the same mutations in nine more cases [total 13/130 (10%)]” — re NSD2/WHSC1 (Results).</li>
+<li>“BIRC3 … we found mutations in 11/173 (6.4%) cases, and these cases had more frequent 11q deletions than BIRC3-unmutated MCL [10/11 (91%) versus 25/87 (29%), respectively; P=1.1×10⁻⁴]” (Results).</li>
+<li>“NOTCH2 mutations occurred more frequently in blastoid/pleomorphic MCL (66 versus 18%, P = 0.001) and conferred a dismal prognosis [3-y overall survival (OS): 0 versus 62%, P = 2.5 × 10⁻⁴]” (Results, NOTCH2 and NOTCH1 Mutations in MCL).</li>
+<li>“In a bivariate analysis, both NOTCH2 mutations (hazard ratio: 3.5; 95% confidence interval: 1.3–9.5; P=0.017) and TP53 mutations (hazard ratio: 2.4; 95% confidence interval: 1.4–4.2; P=0.003) were identified as independent risk factors for OS” (Results).</li>
+<li>“Only 1 of the 16 patients with mutations in these genes had mutations in both. Taken together, NOTCH1/2 mutations were present in 9.5% of MCL” (Results).</li>
+<li>“Eight of the 25 recurrently mutated genes in MCL (ATM, CCND1, MLL2, KCNC2, KIAA1671, PCSK2, TNRC6B, and TRPM6) were present at similar allelic frequency in the two subclones … In contrast, four recurrently mutated genes (ABCA3, TLR2, TP53, and WHSC1) were seen in only one of the two simultaneous or emerging subclones at progression” (Results, Clonal Heterogeneity).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24145436.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24145436.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24434212.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24434212.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jens G. Lohr </p>
+             <p>Petar Stojanov </p>
+             <p>Scott L. Carter </p>
+             <p>Peter Cruz-Gordillo </p>
+             <p>Michael S. Lawrence </p>
+             <p>Daniel Auclair </p>
+             <p>Carrie Sougnez </p>
+             <p>Birgit Knoechel </p>
+             <p>Joshua Gould </p>
+             <p>Gordon Saksena </p>
+             <p>Kristian Cibulskis </p>
+             <p>Aaron McKenna </p>
+             <p>Michael A. Chapman </p>
+             <p>Ravid Straussman </p>
+             <p>Joan Levy </p>
+             <p>Louise M. Perkins </p>
+             <p>Jonathan J. Keats </p>
+             <p>Steven E. Schumacher </p>
+             <p>Mara Rosenberg </p>
+             <p>Gad Getz </p>
+             <p>Todd R. Golub </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.ccr.2013.12.015">10.1016/j.ccr.2013.12.015</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24434212 · <strong>DOI:</strong> 10.1016/j.ccr.2013.12.015 · <strong>Journal:</strong> Cancer Cell (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Lohr et al.&nbsp;performed paired tumor/normal massively parallel sequencing of 203 multiple myeloma (MM) patients (177 whole-exome, 26 whole-genome) from the Multiple Myeloma Research Consortium tissue bank, combined with Affymetrix SNP 6.0 copy-number profiling on 153 patients. Integrating point-mutation calls (MutSigCV), copy-number analysis (GISTIC), and cancer-cell-fraction estimates from ABSOLUTE, they identified 11 significantly mutated genes (including <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, FAM46C/TENT5C, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/DIS3.html">DIS3</a>, <a href="../genes/TRAF3.html">TRAF3</a>, <a href="../genes/CYLD.html">CYLD</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/PRDM1.html">PRDM1</a>) and recurrent homozygous deletions (<a href="../genes/CDKN2C.html">CDKN2C</a>, TRAF3, BIRC2/BIRC3, CYLD, <a href="../genes/PTPRD.html">PTPRD</a>). The headline finding is that MM tumors are pervasively subclonal — nearly all patients with purity &gt;0.7 had detectable clonal heterogeneity, most harbored ≥3 subclones, and significantly mutated driver genes (including BRAF) were frequently subclonal. In vitro modeling in BRAF-K601N–mutant U266 cells showed that BRAF inhibitors (PLX4720, <a href="../drugs/dabrafenib.html">dabrafenib</a>) suppress MAPK signaling in BRAF-mutant cells but paradoxically activate MAPK and promote growth in BRAF-WT, KRAS/NRAS-mutant cells — predicting only partial efficacy when BRAF mutations are subclonal.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>203 MM tumor–normal pairs</strong> from the <a href="../datasets/mm_broad.html">Multiple Myeloma Research Consortium</a> tissue bank; bone marrow aspirates plus matched peripheral blood germline.</li>
+<li>Cancer type: plasma cell myeloma (<a href="../cancer_types/PCM.html">PCM</a>).</li>
+<li>Assays: <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on 177 patients (avg 89× tumor, 88× normal; Agilent SureSelect v2 + Illumina HiSeq 76 bp PE); <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> on 26 patients (avg ~30×); <a href="../methods/affymetrix-snp6.html">Affymetrix SNP 6.0</a> copy-number arrays on 153 patients. 16 of the WES and 23 of the WGS samples were previously reported in Chapman et al.&nbsp;2011 (PMID:21430775, not in this corpus). Data deposited in dbGaP under accession phs000348.</li>
+<li>50 patients had routine clinical <a href="../methods/fish.html">FISH</a> testing for t(4;14) and t(11;14).</li>
+<li>Analytical stack: <a href="../methods/mutsig.html">MutSigCV</a> for mutation significance, <a href="../methods/gistic.html">GISTIC</a> for focal copy-number peaks, <a href="../methods/absolute.html">ABSOLUTE</a> for tumor purity, integer copy number, LOH, and cancer-cell-fraction (CCF) estimation, with Bayesian clustering of CCFs (Landau et al.&nbsp;2013) to infer subclonal architecture.</li>
+<li>Mutation-validation rate: <strong>90.4%</strong> across 140 mutations re-genotyped (Table S2).</li>
+<li>Of 203 patients, 116 were classified hyperdiploid and 86 non-hyperdiploid using a WES/WGS-based classifier developed in this study.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>11 significantly mutated genes</strong> at q &lt; 0.1: <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/TENT5C.html">FAM46C/TENT5C</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/DIS3.html">DIS3</a>, <a href="../genes/TRAF3.html">TRAF3</a>, <a href="../genes/CYLD.html">CYLD</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/PRDM1.html">PRDM1</a>, and (the 11th) along with a recurrent hotspot in <a href="../genes/IRF4.html">IRF4</a> K123R (3/4 IRF4-mutant patients).</li>
+<li><strong>Recurrent homozygous deletions</strong> (significant GISTIC peaks across 153 patients): 7 regions covering 32 genes, including <a href="../genes/CDKN2C.html">CDKN2C</a>; NF-κB–pathway regulators <a href="../genes/TRAF3.html">TRAF3</a>, <a href="../genes/BIRC2.html">BIRC2</a>, <a href="../genes/BIRC3.html">BIRC3</a>, and <a href="../genes/CYLD.html">CYLD</a>; <a href="../genes/PTPRD.html">PTPRD</a> (tyrosine phosphatase that dephosphorylates <a href="../genes/STAT3.html">STAT3</a> downstream of IL6); and a peak at 8p23.1 (18 genes including <a href="../genes/BLK.html">BLK</a>, <a href="../genes/MSRA.html">MSRA</a>, <a href="../genes/PINX1.html">PINX1</a>, <a href="../genes/SOX7.html">SOX7</a>).</li>
+<li><a href="../genes/DIS3.html">DIS3</a> point mutations + LOH implicate it as a tumor suppressor in <strong>11% of MM patients</strong>; DIS3 aberration is enriched in non-hyperdiploid (vs hyperdiploid) MM (Fisher’s exact p = 0.00013).</li>
+<li><a href="../genes/PRDM1.html">PRDM1</a> (Blimp1): recurrent missense S552C in 2 patients, clustered S605R/S606I in 2 more, and 5 truncating/splice-site mutations — supporting PRDM1 as an MM tumor suppressor (previously known in activated B-cell DLBCL, not MM).</li>
+<li><a href="../genes/SP140.html">SP140</a>: missense, frameshift, and splice-site alterations in 8 patients (LOH in 2), consistent with a candidate plasma-cell tumor suppressor.</li>
+<li><a href="../genes/EGR1.html">EGR1</a>: 7 mutations clustered at the 5′ end and significantly enriched in WRCY motifs (q &lt; 0.1) — signature of AID-mediated <strong>somatic hypermutation</strong>.</li>
+<li><a href="../genes/CCND1.html">CCND1</a>: 39 coding + non-coding mutations; in ≥4 of these patients t(11;14) was also detected, suggesting IGH-translocation–driven somatic hypermutation of <a href="../genes/CCND1.html">CCND1</a>.</li>
+<li>Pathway-level significance: NF-κB, histone modifiers, and coagulation cascade gene sets all retained significance at p &lt; 0.05 in the expanded cohort. A 612 MSigDB gene-set scan flagged cell-cycle (including <a href="../genes/CDKN1B.html">CDKN1B</a>, <a href="../genes/CCND1.html">CCND1</a>) as significantly mutated; <a href="../genes/MAX.html">MAX</a> carried 3 coding mutations with LOH (<a href="../genes/MAX.html">MAX</a> is the <a href="../genes/MYC.html">MYC</a> heterodimerization partner).</li>
+<li><strong>Mutation/copy-number coverage</strong>: 131/203 (65%) had a mutation in ≥1 of the 11 significantly mutated genes; 119/203 (59%) had a mutation in a significantly mutated gene set; total 154/203 (76%) covered by mutation-based events. Of the 153 with copy-number data, 119 had at least one focal CN gain/loss in a significant peak; 21/139 with ABSOLUTE-grade copy data had homozygous deletions in significant peaks. Of the 26 WGS patients, <strong>all 26</strong> harbored structural variants.</li>
+<li><strong>Pervasive clonal heterogeneity</strong>: in 153 high-purity (&gt;0.7) samples, almost all had detectable subclonal structure. Most patients had ≥3 detectable subclones beyond the major clone (max 7). MM had a significantly lower proportion of patients with ≤1 subclone (8%) than ovarian cancer (19%) at matched depth (Fisher’s exact p = 0.0024).</li>
+<li><strong>Driver mutations can be subclonal</strong>: of 44 patients with coding KRAS mutations analyzed for clonality, 32 (73%) clonal and 12 (27%) <strong>subclonal</strong> (detectable in as few as 13% of cells). Most of the 11 significantly mutated genes had mixed clonal/subclonal status across the cohort.</li>
+<li><strong>MAPK pathway redundancy</strong>: patients with two of KRAS/NRAS/BRAF were almost never simultaneously clonal (1 sample); in 9 samples both mutations were either subclonal or in a nested clone-subclone relationship — consistent with redundant MAPK activation and parallel subclonal evolution.</li>
+<li><a href="../genes/DIS3.html">DIS3</a> and <a href="../genes/KRAS.html">KRAS</a> mutations were often <strong>simultaneously clonal</strong>, suggesting cooperative early-event biology.</li>
+<li><strong>Treatment fixes subclones</strong>: significantly mutated genes were more often clonal in previously treated than untreated patients (Wilcoxon rank-sum p = 0.007), consistent with prior therapy eliminating less-fit clones and fixing surviving ones.</li>
+<li><strong>BRAF inhibitor pharmacology</strong> (Figure 4): the BRAF-K601N U266 cell line was more sensitive to <a href="../drugs/plx4720.html">PLX4720</a> than 3 BRAF-WT MM cell lines (OPM2 [FGFR3-K650E], MM1S [KRAS-G12A], SKMM1 [NRAS-G12D]). BRAF inhibition downregulated MAPK in BRAF-mutant U266 but <strong>paradoxically upregulated</strong> MAPK in BRAF-WT, KRAS- or NRAS-mutant cells, and <a href="../drugs/dabrafenib.html">dabrafenib</a> actually <strong>promoted growth</strong> of KRAS/NRAS-mutant BRAF-WT MM lines. Combined BRAF + MEK inhibition with <a href="../drugs/dabrafenib.html">dabrafenib</a> + <a href="../drugs/trametinib.html">trametinib</a> selectively killed BRAF-mutant MM cells without benefit in BRAF-WT cells.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>: recurrent MAPK-activating point mutations; KRAS particularly enriched in previously treated patients. Mutations frequently subclonal; co-mutation with BRAF was rarely simultaneously clonal.</li>
+<li><a href="../genes/BRAF.html">BRAF</a>: activating mutations including non-V600 K601N (U266 line) and V600E (clinical case referenced from Andrulis et al.&nbsp;2013). Often subclonal in MM tumors. Defines an actionable subgroup for BRAF ± MEK inhibition.</li>
+<li><a href="../genes/TENT5C.html">FAM46C/TENT5C</a>: RNA-binding protein; recurrent mutations in MM (collectively with DIS3, ~21% of patients). Authors note these mutations are rare in non-MM cancers.</li>
+<li><a href="../genes/TP53.html">TP53</a>: recurrent inactivating mutations.</li>
+<li><a href="../genes/DIS3.html">DIS3</a>: exonuclease; recurrent point mutations + LOH in 11% of patients, enriched in non-hyperdiploid MM (p = 0.00013). Often co-clonal with KRAS.</li>
+<li><a href="../genes/TRAF3.html">TRAF3</a>: NF-κB regulator; recurrently mutated and homozygously deleted.</li>
+<li><a href="../genes/CYLD.html">CYLD</a>: NF-κB regulator; recurrent point mutations (5 patients) plus inclusion in a significant homozygous-deletion peak.</li>
+<li><a href="../genes/BIRC2.html">BIRC2</a>, <a href="../genes/BIRC3.html">BIRC3</a>: NF-κB regulators within recurrent homozygous-deletion peaks.</li>
+<li><a href="../genes/RB1.html">RB1</a>: significantly mutated.</li>
+<li><a href="../genes/PRDM1.html">PRDM1</a>: recurrent missense S552C and clustered S605R/S606I, plus truncating/splice mutations; supports PRDM1 as a plasma-cell tumor suppressor.</li>
+<li><a href="../genes/IRF4.html">IRF4</a>: recurrent K123R hotspot (3 of 4 IRF4-mutant patients). <a href="../genes/IRF4.html">IRF4</a> is a known MM survival factor.</li>
+<li><a href="../genes/SP140.html">SP140</a>: missense/frameshift/splice alterations in 8 patients, 2 with LOH; candidate tumor suppressor (lymphoid-restricted SP100 homolog).</li>
+<li><a href="../genes/EGR1.html">EGR1</a>: 7 mutations clustered 5′ and enriched in WRCY motifs (q &lt; 0.1) — AID/somatic-hypermutation pattern. Borderline significance.</li>
+<li><a href="../genes/CDKN2C.html">CDKN2C</a>: recurrent homozygous deletion (known MM tumor suppressor at 1p32.3).</li>
+<li><a href="../genes/PTPRD.html">PTPRD</a>: recurrent homozygous deletion; proposed to feed into IL6/STAT3 signaling.</li>
+<li><a href="../genes/BLK.html">BLK</a>, <a href="../genes/MSRA.html">MSRA</a>, <a href="../genes/PINX1.html">PINX1</a>, <a href="../genes/SOX7.html">SOX7</a>: co-deleted within the 8p23.1 homozygous-deletion peak (18 genes); MM relevance not previously established.</li>
+<li><a href="../genes/MAX.html">MAX</a>: 3 coding mutations with LOH; MAX is the <a href="../genes/MYC.html">MYC</a> heterodimerization partner, dysregulated in MM.</li>
+<li><a href="../genes/CCND1.html">CCND1</a>: 39 coding + non-coding mutations; co-occurs with t(11;14) — possibly a somatic-hypermutation hotspot.</li>
+<li><a href="../genes/CDKN1B.html">CDKN1B</a>: mutated as part of significantly mutated cell-cycle gene set.</li>
+<li><a href="../genes/MYC.html">MYC</a>: dysregulation context (target of MAX heterodimer disruption); not itself in the significantly mutated list.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a>: K650E in the OPM2 cell line used as a BRAF-WT control in MAPK inhibitor assays.</li>
+<li><a href="../genes/MYD88.html">MYD88</a>, <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/BCL2.html">BCL2</a>: cited as DLBCL drivers; <a href="../genes/MYD88.html">MYD88</a> and <a href="../genes/CARD11.html">CARD11</a> appear as rare mutations in MM patients otherwise lacking the 11 driver mutations; <a href="../genes/BCL2.html">BCL2</a> is invoked by analogy in the somatic-hypermutation discussion.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>BRAF-mutant MM is a real but small therapeutic niche.</strong> A previously reported single durable response to a BRAF inhibitor in BRAF-V600E MM (Andrulis et al.&nbsp;2013) is supported here by in vitro sensitivity of BRAF-K601N U266 cells to <a href="../drugs/plx4720.html">PLX4720</a> and <a href="../drugs/dabrafenib.html">dabrafenib</a>.</li>
+<li><strong>Subclonal BRAF mutations may yield at best partial responses, and at worst tumor growth.</strong> BRAF-WT MM cell lines with <a href="../genes/KRAS.html">KRAS</a>-G12A (MM1S) or <a href="../genes/NRAS.html">NRAS</a>-G12D (SKMM1) exhibited <strong>paradoxical MAPK activation and dabrafenib-driven growth stimulation</strong>. Authors recommend reserving single-agent BRAF inhibition for cases where the BRAF mutation is <strong>fully clonal</strong>.</li>
+<li><strong>Combined BRAF + MEK inhibition</strong> (<a href="../drugs/dabrafenib.html">dabrafenib</a> + <a href="../drugs/trametinib.html">trametinib</a>) selectively killed BRAF-mutant MM cell lines without conferring benefit in BRAF-WT cell lines — supporting clinical exploration of the combination in clonally BRAF-mutant MM.</li>
+<li><strong>MAPK as a class target</strong>: MAPK-pathway alteration (KRAS, NRAS, BRAF) is common in MM, motivating ongoing clinical evaluation of MEK inhibitors. The authors caution that pathway-redundant subclonal co-mutations (KRAS + NRAS + BRAF in the same tumor) may compromise single-agent strategies.</li>
+<li><strong>Diagnostic implication</strong>: the authors argue that documenting presence/absence of a mutation is insufficient — clonal vs subclonal status (cancer cell fraction) should be reported when selecting patients for targeted therapy. This anticipates clonality-aware biomarker reporting.</li>
+<li><strong>Treatment-induced clonal selection</strong> (clonal fixation in previously treated patients, p = 0.007) suggests that biopsy after first-line therapy may reveal different actionable alterations than biopsy at diagnosis.</li>
+<li>Clonal evolution and treatment effects on subclones in MM here echo findings in CLL (see <a href="../papers/23415222.html">PMID:23415222</a>, Landau et al.&nbsp;2013, used as the methodological reference for CCF Bayesian clustering).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Detection sensitivity for subclones is ~10% of tumor cells; the ~5-subclone average is a lower bound.</li>
+<li>Single-biopsy design — spatially or temporally distinct MM sites in the same patient are not sampled, so true clonal diversity may be larger.</li>
+<li>Subclonal architecture inferred from bulk sequencing + ABSOLUTE/Bayesian clustering — not single-cell — so co-occurrence of two mutations within the same cell vs different subclones is inferred probabilistically.</li>
+<li>The cohort was statistically underpowered to detect associations between specific mutations and clinical features, tumor ploidy, or treatment history beyond hypothesis-generating trends (Table S5).</li>
+<li><strong>Mechanistic gaps</strong>: how loss-of-function DIS3 and FAM46C mutations drive MM, and why these RNA-processing/RNA-binding mutations are MM-specific, remain unknown. Whether IL6/STAT3 is the mechanistic target of PTPRD deletion is unproven.</li>
+<li><strong>AID/somatic hypermutation</strong> in <a href="../genes/EGR1.html">EGR1</a>, CCND1: whether these mutations are drivers vs passengers is not established.</li>
+<li>24% of tumors lacked an obvious driver mutation in the 11 SMGs or significantly mutated gene sets — many such patients have focal CN alterations or SVs, but causality is unproven.</li>
+<li>The in vitro BRAF-inhibitor paradoxical-activation experiments use a small panel of 4 MM cell lines; <em>in vivo</em> validation of combined BRAF + MEK in BRAF-mutant MM is called out as needed.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We performed massively parallel sequencing of paired tumor/normal samples from 203 multiple myeloma (MM) patients and identified significantly mutated genes and copy number alterations…” (Abstract).</li>
+<li>“A total of 203 tumor-normal pairs were analyzed; 177 by whole exome sequencing and 26 by whole genome sequencing (16 and 23, respectively, have been previously reported (Chapman et al., 2011)). The average depth of coverage for the whole exomes and whole genomes was 89X and 30X, respectively.” (Results).</li>
+<li>“Analysis of the 203 tumor-normal pairs showed that 11 genes were recurrently mutated using a standard significance threshold of q &lt; 0.1… Mutation validation studies were performed on 140 mutations, with a rate of 90.4%.” (Results).</li>
+<li>“DIS3 aberration was more commonly seen among the 86 non-hyperdiploid MM cases compared to the 116 hyperdiploid cases (Fisher’s Exact test, p = 0.00013).” (Results).</li>
+<li>“Of 153 patient samples with a purity greater than 0.7, nearly all had evidence of clonal heterogeneity… a lower proportion of MM patients (8%) had one or no subclones compared to ovarian cancer (19%) (Fisher’s exact test, p = 0.0024).” (Results).</li>
+<li>“Of the 44 patients with coding KRAS mutations that were analyzed for clonality, 32 (73%) had clonal KRAS mutations, whereas for 12 patients (27%), the KRAS mutations were subclonal, detectable in as few as 13% of cells.” (Results).</li>
+<li>“Significantly recurrent mutations were more often clonal in previously treated compared to untreated patients (p = 0.007, Wilcoxon Rank Sum Test).” (Results).</li>
+<li>“The BRAF WT MM cell lines OPM2 (NRAS and KRAS WT, <a href="../genes/FGFR3.html">FGFR3</a> K650E), MM1S (KRAS G12A), SKMM1 (NRAS G12D) and the BRAF-mutant MM cell line U266 (BRAF K601N) were treated with the BRAF-inhibitor PLX4720… BRAF inhibition downregulated MAP kinase pathway activity only in BRAF-mutant MM cells, whereas in BRAF-wildtype cells, the pathway was paradoxically upregulated… combination treatment resulted in increased killing of BRAF-mutant cells, whereas a combination benefit was not observed in BRAF-wildtype cell lines.” (Results, Figure 4).</li>
+<li>“Sequencing data are available in the dbGaP database (www.ncbi.nlm.nih.gov/gap) under accession number phs000348.” (Experimental Procedures).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24434212.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24434212.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

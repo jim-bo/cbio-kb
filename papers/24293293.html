@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole exome sequencing of pancreatic neoplasms with acinar differentiation – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24293293.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24293293.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole exome sequencing of pancreatic neoplasms with acinar differentiation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yuchen Jiao </p>
+             <p>Raluca Yonescu </p>
+             <p>G Johan A Offerhaus </p>
+             <p>David S Klimstra </p>
+             <p>Anirban Maitra </p>
+             <p>James R Eshleman </p>
+             <p>James G Herman </p>
+             <p>Weijie Poh </p>
+             <p>Lorraine Pelosof </p>
+             <p>Christopher L Wolfgang </p>
+             <p>Bert Vogelstein </p>
+             <p>Kenneth W Kinzler </p>
+             <p>Ralph H Hruban </p>
+             <p>Nickolas Papadopoulos </p>
+             <p>Laura D Wood </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1002/path.4310">10.1002/path.4310</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24293293 · <strong>DOI:</strong> 10.1002/path.4310 · <strong>Journal:</strong> J Pathol (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Jiao et al.&nbsp;performed the first whole exome sequencing study of pancreatic carcinomas with acinar differentiation, profiling 23 surgically resected tumors (17 pure acinar cell carcinomas, three mixed acinar–ductal carcinomas, one mixed acinar–neuroendocrine carcinoma, and two pancreatoblastomas) with matched normals. Tumors carried a relatively large mutational burden (mean 119 non-synonymous somatic mutations per tumor; 64 after excluding three outliers, range 12–189) and substantial chromosomal instability (mean fractional allelic loss 0.27, range 0–0.89). No single gene was mutated in &gt;30% of cases. <a href="../genes/SMAD4.html">SMAD4</a> (26%), <a href="../genes/JAK1.html">JAK1</a> (17%), <a href="../genes/BRAF.html">BRAF</a> (13%), <a href="../genes/RB1.html">RB1</a> (13%), and <a href="../genes/TP53.html">TP53</a> (13%) were the most frequently mutated genes, and <a href="../genes/KRAS.html">KRAS</a> was completely absent — confirming that these tumors are genomically distinct from pancreatic ductal adenocarcinoma. More than one third of carcinomas harbored potentially targetable alterations in the Fanconi anemia / DNA-damage-response pathway (<a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/BAP1.html">BAP1</a>) or in BRAF/JAK1.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>23 fresh-frozen, surgically resected pancreatic neoplasms with significant acinar differentiation, matched to normal DNA: 17 pure acinar cell carcinomas, three mixed acinar–ductal carcinomas, one mixed acinar–neuroendocrine carcinoma, and two pancreatoblastomas (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li>16 men (70%) and 7 women (30%); average age at resection 61 years; majority stage 1–2 (one stage 3) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li>Cancer types: <a href="../cancer_types/PAAC.html">Acinar Cell Carcinoma of the Pancreas (PAAC)</a> and <a href="../cancer_types/PB.html">Pancreatoblastoma (PB)</a>.</li>
+<li>Dataset / cohort: <a href="../datasets/paac_jhu_2014.html">paac_jhu_2014</a> (reference genome hg19).</li>
+<li>Sample preparation: each fresh-frozen sample was macrodissected to &gt;70% neoplastic cellularity. Approval from IRBs at Johns Hopkins University, Memorial Sloan Kettering Cancer Center, and University Medical Center Utrecht (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li>Assays:
+<ul>
+<li><a href="../methods/whole-exome-seq.html">Whole exome sequencing</a> of ~21,000 protein-coding genes (&gt;37 Mb coding sequence) using Agilent SureSelect paired-end v4.0 capture and Illumina HiSeq; reads aligned to hg18 with the Eland algorithm in CASAVA 1.6. Mean depth 131-fold; 91% of targeted bases covered ≥10×. Calling thresholds: ≥5 distinct read pairs, ≥15% variant frequency, ≤0.2% in matched normal (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../methods/msi-pcr-pentaplex.html">MSI testing</a> by the Promega MSI Analysis System (5-mononucleotide pentaplex: BAT-25, BAT-26, NR-21, NR-24, MONO-27) plus, for one outlier (ACINAR28), additional markers BAT-40, NR-22, NR-27 and CAT-25 (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../methods/fish.html">FISH</a> on FFPE sections with proximal/distal labeled probes against chromosomes 11 (11q14.1, 11q22.3 ATM), 15 (15q21.2, 15q24.3-25.1), and 22 (22q11.2 <a href="../genes/BCR.html">BCR</a>, 22q13.1) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../methods/qmsp.html">Quantitative methylation-specific PCR (qMSP)</a> after EZ bisulfite conversion, with U/M primer pairs targeting <a href="../genes/BRCA1.html">BRCA1</a> and <a href="../genes/MLH1.html">MLH1</a> promoters (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+</ul></li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation burden.</strong> 2,745 somatic mutations were identified in 2,340 genes across the 23 carcinomas; mean 119 non-synonymous somatic mutations per tumor, or 64 after excluding three outliers (range 12–189). This exceeds the mutation burden of pancreatic ductal adenocarcinoma and other primary pancreatic neoplasms but is comparable to colorectal and breast cancers (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>MSI outliers.</strong> Two carcinomas were microsatellite unstable by the Promega pentaplex (ACINAR01: 701 non-synonymous mutations; ACINAR03: 404). A third hypermutated sample (ACINAR28, 362 non-synonymous mutations) was MSS on the pentaplex but reclassified as MSI-Low after additional markers showed a shift at BAT-40 (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mutation spectrum.</strong> C:G→T:A transitions were enriched across all carcinomas (35% of mutations in the 20 non-outlier samples), and even more in the two MSI-H tumors (63% and 54%); single-base deletions accounted for 14% and 18% of mutations in ACINAR01 and ACINAR03 versus 4% in the remaining 20 (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Chromosomal instability.</strong> Fractional allelic loss (FAL) ranged 0–0.89 (mean 0.27), higher than the previously reported mean FAL of 0.15 (range 0.015–0.32, n=82) for pancreatic ductal adenocarcinoma. Loss of heterozygosity of 11p was present in 12/23 (52%) tumors, including both pancreatoblastomas; LOH of 17p (TP53) in 9/23 (39%); LOH of 18q (SMAD4) in 13/23 (57%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Intratumoral heterogeneity by FISH.</strong> Three of seven FISH-assayed tumors (ACINAR06, ACINAR07, ACINAR15) showed polysomy in 5 of 6 regions assayed and dramatic intratumoral heterogeneity; the MSI-H ACINAR03 case showed no gains or losses by FISH, suggesting MSI and large-scale chromosomal instability are at least partially mutually exclusive in this disease (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mutated-gene frequencies (Table 1).</strong> SMAD4 6/23 (26%); JAK1 4/23 (17%); BRAF 3/23 (13%); RB1 3/23 (13%); TP53 3/23 (13%); <a href="../genes/APC.html">APC</a> 2/23 (9%); <a href="../genes/ARID1A.html">ARID1A</a> 2/23 (9%); <a href="../genes/GNAS.html">GNAS</a> 2/23 (9%, both at codon 201 hotspot); MLL3 (canonical <a href="../genes/KMT2C.html">KMT2C</a>) 2/23 (9%); <a href="../genes/PTEN.html">PTEN</a> 2/23 (9%); ATM, BAP1, BRCA2, PALB2, <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/RNF43.html">RNF43</a> each 1/23 (4%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>No KRAS mutations.</strong> None of the 23 carcinomas with acinar differentiation harbored a KRAS mutation — a striking contrast to ductal adenocarcinoma, where KRAS mutation is near-universal (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a> homozygous deletions.</strong> CDKN2A was homozygously deleted in 4/23 tumors, including 2 of the 3 mixed acinar–ductal carcinomas (versus 2/18 pure acinar cell carcinomas) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mechanism of MSI.</strong> ACINAR01 carried a biallelic somatic <a href="../genes/MSH2.html">MSH2</a> mutation (&gt;90% of sequenced tags mutated). Additional somatic mutations were identified in <a href="../genes/MSH3.html">MSH3</a> (also in ACINAR01), <a href="../genes/MLH3.html">MLH3</a>, and <a href="../genes/PMS2.html">PMS2</a>, but their roles were unclear given lower mutation burdens. No mutations were found in <a href="../genes/POLE.html">POLE</a> or <a href="../genes/POLD1.html">POLD1</a>, nor in spindle-checkpoint / DSB-repair genes (MAD1/2/3, BUB1/3, MPSI, CDC20, MRE11, <a href="../genes/RAD50.html">RAD50</a>, NBS1, ROD, ZW10, ZWILCH, <a href="../genes/FBXW7.html">FBXW7</a>) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Methylation.</strong> 0/23 tumors were methylated at BRCA1; 1/23 (ACINAR06) at MLH1 (both qMSP assays positive); 1/23 (ACINAR18) equivocal. MLH1 methylation did not correlate with MSI or mutation burden, so promoter methylation at these loci does not explain the MSI phenotype here (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Pancreatoblastoma subset.</strong> The two pancreatoblastoma samples (ACINAR17, ACINAR19) carried 18 and 17 somatic mutations — far fewer than the average of 131 for acinar cell carcinomas — and both contained <a href="../genes/CTNNB1.html">CTNNB1</a> mutations (absent from all other tumors) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mixed acinar–ductal carcinomas.</strong> Two of three mixed acinar–ductal carcinomas harbored CDKN2A homozygous deletion and two of three carried a BRAF mutation; none harbored SMAD4, TP53, RNF43, or GNAS mutations (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Targetable alterations.</strong> More than one third of carcinomas (43% when counting all Fanconi-anemia-pathway and other actionable alterations together) harbored potentially targetable mutations: BRCA2 (4%), PALB2 (4%), BAP1 (4%), ATM (4%), BRAF (13%, including codon-600 hotspot), and JAK1 (17%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — somatic mutation in 6/23 (26%); LOH at 18q in 13/23 (57%); most frequent target overall in this cohort (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/JAK1.html">JAK1</a> — somatic mutation in 4/23 (17%); flagged as a potentially targetable alteration given clinical-stage JAK1 inhibitors (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — somatic mutation in 3/23 (13%), including the codon-600 (V600E) oncogenic hotspot; 2/3 mixed acinar–ductal carcinomas carried BRAF mutations (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/RB1.html">RB1</a> — inactivating mutations in 3/23 (13%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/TP53.html">TP53</a> — somatic mutation in 3/23 (13%); LOH at 17p in 9/23 (39%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/APC.html">APC</a> — somatic mutation in 2/23 (9%); consistent with prior reports of APC/β-catenin pathway involvement in acinar cell carcinoma (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — somatic mutation in 2/23 (9%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/GNAS.html">GNAS</a> — somatic mutation in 2/23 (9%), both at the codon 201 oncogenic hotspot (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/KMT2C.html">KMT2C</a> (reported as MLL3) — somatic mutation in 2/23 (9%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — somatic mutation in 2/23 (9%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/ATM.html">ATM</a> — somatic mutation in 1/23 (4%); a known familial pancreatic cancer susceptibility gene and a candidate for PARP / DNA-PKcs inhibitor sensitivity (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/BAP1.html">BAP1</a> — somatic mutation in 1/23 (4%) (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a> — somatic mutation in 1/23 (4%); Fanconi-anemia-pathway member, candidate for DNA-cross-linking agents and PARP inhibition (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/PALB2.html">PALB2</a> — somatic mutation in 1/23 (4%); Fanconi-anemia-pathway member (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/MEN1.html">MEN1</a> — somatic mutation in 1/23 (4%); occurred in a mixed acinar–ductal carcinoma without neuroendocrine features (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/RNF43.html">RNF43</a> — somatic mutation in 1/23 (4%); previously associated with <a href="../cancer_types/IPMN.html">IPMN</a> and mucinous cystic neoplasms (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — homozygous deletion in 4/23 (17%), including 2/3 mixed acinar–ductal carcinomas (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — somatic mutations in both pancreatoblastomas (2/2) and in none of the acinar cell carcinomas (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — <strong>wild-type in 0/23</strong> (no mutations); contrasts sharply with PDAC (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/MSH2.html">MSH2</a> — biallelic somatic mutation in ACINAR01 (MSI-H), with &gt;90% of sequenced tags mutated (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/MSH3.html">MSH3</a> — somatic mutation in ACINAR01 (and other tumors); pathogenic significance unclear (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/MLH3.html">MLH3</a>, <a href="../genes/PMS2.html">PMS2</a> — somatic mutations identified but not correlated with elevated mutation burden (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/MLH1.html">MLH1</a> — promoter methylation in 1/23 by qMSP (ACINAR06) and equivocal in ACINAR18; did not correlate with MSI status (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> — 0/23 tumors methylated at the BRCA1 locus by qMSP (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><a href="../genes/POLE.html">POLE</a>, <a href="../genes/POLD1.html">POLD1</a> — no somatic mutations identified (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Personalized therapy candidates.</strong> The authors estimate that “more than a third” (and up to 43% when Fanconi-anemia-pathway members are counted) of pancreatic carcinomas with acinar differentiation carry potentially actionable alterations, suggesting these patients are candidates for genotype-directed therapy (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Fanconi anemia / <a href="../cancer_types/BRCA.html">BRCA</a> pathway → DNA-cross-linkers and PARP inhibitors.</strong> Citing prior work on PDAC with BRCA2 / PALB2 inactivation, the authors propose that acinar tumors with BRCA2, PALB2, BAP1, or ATM mutations may be sensitive to DNA cross-linking agents and PARP inhibitors. ATM-mutant tumors may additionally be sensitive to DNA-PKcs inhibitors (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>BRAF V600 → BRAF inhibitors.</strong> With one tumor carrying a codon-600 BRAF mutation (and a BRAF inhibitor newly FDA-approved for V600E-mutant melanoma at the time of writing), the authors highlight BRAF inhibition as a candidate strategy for BRAF-mutant acinar carcinomas (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>JAK1 → JAK inhibitors.</strong> Given clinical-stage JAK inhibitors (e.g.&nbsp;<a href="../drugs/ruxolitinib.html">ruxolitinib</a> in myelofibrosis), JAK1-mutant acinar carcinomas — 17% of this cohort — are flagged as candidates for JAK inhibition (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Diagnostic relevance.</strong> Because each major pancreatic tumor type has a distinct mutational signature (PDAC → KRAS/TP53/SMAD4/CDKN2A; PanNET → MEN1/DAXX/ATRX/mTOR; IPMN → GNAS/RNF43/TP53/SMAD4/CDKN2A; <a href="../cancer_types/MCN.html">MCN</a> → RNF43/TP53/SMAD4/CDKN2A; <a href="../cancer_types/SPN.html">SPN</a> → CTNNB1; serous cystadenoma → <a href="../genes/VHL.html">VHL</a>), sequencing can help classify diagnostically ambiguous pancreatic neoplasms (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Pancreatoblastoma molecular hallmark.</strong> Both pancreatoblastomas in this series carried CTNNB1 mutations and had markedly lower mutation burdens than acinar cell carcinomas, reinforcing CTNNB1 / Wnt-β-catenin pathway activation as a defining feature of pancreatoblastoma (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small sample size.</strong> Only 23 tumors total, including just 3 mixed acinar–ductal carcinomas and 2 pancreatoblastomas, limiting power to detect lower-frequency drivers or subtype-specific patterns (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Exome-only.</strong> The sequencing approach would not detect large deletions, complex rearrangements, or structural variants in spindle-checkpoint and DSB-repair genes; absence of mutations in those genes does not rule out structural inactivation (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mechanism of chromosomal instability remains unknown.</strong> Despite searching candidate genes (MAD1/2/3, BUB1/3, MPSI, CDC20, MRE11, RAD50, NBS1, FBXW7, etc.), the authors found no clear genetic explanation for the elevated FAL and intratumoral chromosomal heterogeneity. They acknowledge “instability is a rate rather than a state and cannot be measured through evaluation of tumors at a single point in time” (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Mechanism of MSI partially unexplained.</strong> ACINAR01 has a clear biallelic MSH2 hit, but the other MSI tumors (ACINAR03, ACINAR28) had no obvious MMR-gene cause and no MLH1 / BRCA1 promoter methylation; the source of their hypermutator phenotype is unresolved (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Driver vs passenger ambiguity.</strong> Many genes were mutated at 10–20% frequency in this cohort; without functional follow-up, the authors note they “cannot determine whether these genes are drivers or passengers based on mutational data alone” (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Clinical sensitivity untested.</strong> The authors flag candidate therapies (PARP inhibitors, BRAF inhibitors, JAK inhibitors, DNA cross-linkers) but explicitly note that “the sensitivity of acinar cell carcinomas with potentially targetable mutations has to first be established in the clinic” (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+<li><strong>Reference genome.</strong> Reads were aligned to hg18; modern reanalysis would typically use GRCh38 (<a href="../papers/24293293.html">PMID:24293293</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“There was an average of 119 somatic mutations per carcinoma. When three outliers were excluded, there was an average of 64 somatic mutations per tumor (range 12–189). The mean fractional allelic loss (FAL) was 0.27 (range 0–0.89)” (Abstract).</li>
+<li>“SMAD4 was mutated in six tumors (26%), TP53 in three (13%), GNAS in two (9%), RNF43 in one (4%) and MEN1 in one tumor (4%)” (Abstract / Table 1).</li>
+<li>“JAK1 in four tumors (17%) BRAF in three (13%), RB1 in three (13%), APC in two (9%), PTEN in two (9%), ARID1A in two (9%), MLL3 in two (9%), and BAP1 in one (4%)” (Abstract / Table 1).</li>
+<li>“more than a third of these carcinomas have potentially targetable genetic alterations including mutations in BRCA2, PALB2, ATM, BAP1, BRAF and JAK1” (Abstract).</li>
+<li>“none of the acinar cell carcinomas in this series had a KRAS mutation” (Discussion).</li>
+<li>“Through whole exome sequencing we also identified potentially therapeutically targetable mutations, such as those in genes coding for members of the Fanconi anemia pathway, in 43% of the carcinomas” (Discussion).</li>
+<li>“Two of the carcinomas (ACINAR01 and ACINAR03) were microsatellite unstable… these two carcinomas contained 701 and 404 non-synonymous somatic mutations, respectively.” (Results, Base-pair instability).</li>
+<li>“the two pancreatoblastoma samples (ACINAR17 and ACINAR19) had fewer mutations than almost all acinar cell carcinomas – these two tumors contained 18 and 17 somatic mutations… both pancreatoblastomas contained somatic mutations in CTNNB1” (Results, Comparison of different types of acinar neoplasms).</li>
+<li>“CDKN2A, which encodes the p16 cell cycle regulator… was homozygously deleted in four of the 23 carcinomas, including two of the three that had a mixed acinar-ductal morphology.” (Results, Mutated genes).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24293293.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24293293.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

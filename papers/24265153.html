@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24265153.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24265153.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The genetic landscape of clinical resistance to RAF inhibition in metastatic melanoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eliezer M. Van Allen </p>
+             <p>Nikhil Wagle </p>
+             <p>Antje Sucker </p>
+             <p>Daniel Treacy </p>
+             <p>Cory Johannessen </p>
+             <p>Eva M. Goetz </p>
+             <p>Chelsea S. Place </p>
+             <p>Amaro Taylor-Weiner </p>
+             <p>Steven Whittaker </p>
+             <p>Gregory Kryukov </p>
+             <p>Eran Hodis </p>
+             <p>Mara Rosenberg </p>
+             <p>Aaron McKenna </p>
+             <p>Kristian Cibulskis </p>
+             <p>Deborah Farlow </p>
+             <p>Lisa Zimmer </p>
+             <p>Uwe Hillen </p>
+             <p>Ralf Gutzmer </p>
+             <p>Simone M. Goldinger </p>
+             <p>Selma Ugurel </p>
+             <p>Helen J. Gogas </p>
+             <p>Friederike Egberts </p>
+             <p>Carola Berking </p>
+             <p>Uwe Trefzer </p>
+             <p>Carmen Loquai </p>
+             <p>Benjamin Weide </p>
+             <p>Jessica C. Hassel </p>
+             <p>Stacey B. Gabriel </p>
+             <p>Scott L. Carter </p>
+             <p>Gad Getz </p>
+             <p>Levi A. Garraway </p>
+             <p>Dirk Schadendorf </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/2159-8290.CD-13-0617">10.1158/2159-8290.CD-13-0617</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24265153 · <strong>DOI:</strong> <a href="https://doi.org/10.1158/2159-8290.CD-13-0617">10.1158/2159-8290.CD-13-0617</a> · <strong>Journal:</strong> Cancer Discovery (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Van Allen, Wagle, and colleagues performed whole-exome sequencing on FFPE tumors from 45 patients with <a href="../genes/BRAF.html">BRAF</a> V600 metastatic <a href="../cancer_types/SKCM.html">cutaneous melanoma</a> treated with single-agent <a href="../drugs/vemurafenib.html">vemurafenib</a> or <a href="../drugs/dabrafenib.html">dabrafenib</a> (the DeCOG cohort, <a href="../datasets/skcm_broad_brafresist_2012.html">skcm_broad_brafresist_2012</a>). Genetic alterations in known or putative RAF inhibitor resistance genes were observed in 23 of 45 patients (51%). Beyond previously characterized <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/MAP2K1.html">MAP2K1</a>, <a href="../genes/BRAF.html">BRAF</a> amplification, and <a href="../genes/NF1.html">NF1</a> events, they discovered a “long tail” of new MAPK-pathway alterations — most notably <a href="../genes/MAP2K2.html">MAP2K2</a> (MEK2) mutations and <a href="../genes/MITF.html">MITF</a> amplification — that experimentally confer resistance to RAF/MEK inhibition. Three tumors carried multiple co-occurring resistance mechanisms within the same biopsy.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>45 patients</strong> with <a href="../genes/BRAF.html">BRAF</a> V600 metastatic <a href="../cancer_types/SKCM.html">cutaneous melanoma</a> treated with single-agent <a href="../drugs/vemurafenib.html">vemurafenib</a> or <a href="../drugs/dabrafenib.html">dabrafenib</a> from the Dermatologic Cooperative Oncology Group of Germany (DeCOG); cBioPortal dataset <a href="../datasets/skcm_broad_brafresist_2012.html">skcm_broad_brafresist_2012</a>.</li>
+<li>14/45 (31%) had early resistance (progression in &lt;12 weeks); 31/45 (68.9%) developed acquired resistance.</li>
+<li>FFPE-derived tumor DNA underwent <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on Illumina HiSeq, with mean target coverage of 200X (tumor) and 92X (germline).</li>
+<li>Somatic SNVs called with <a href="../methods/mutect.html">MuTect</a>, indels with <a href="../methods/indelocator.html">Indelocator</a>, annotation with <a href="../methods/oncotator.html">Oncotator</a>; alignments against hg19 via the Broad Picard/Firehose pipeline.</li>
+<li>For 32 patients matched pre-treatment and post-resistance tumors were available; the rest contributed either pre-treatment (rapid progressors) or resistant biopsies (clinical responders).</li>
+<li>Functional validation used A375, SKMEL19, UACC62, A2058, and WM266.4 <a href="../genes/BRAF.html">BRAF</a> V600E melanoma cell lines treated with <a href="../drugs/dabrafenib.html">dabrafenib</a>, <a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>, PLX4720 (RAF tool compound), <a href="../drugs/gdc-0941.html">GDC-0941</a> (PI3K inhibitor), and VRT11E (ERK tool compound).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a> V600 mutations were detected in 100% of pre-treatment biopsies; 44/45 missense at codon V600, plus one in-frame deletion (Val600_Lys601delinsGlu in Patient 11) predicted to phenocopy V600E.</li>
+<li>Resistance alterations were enriched in MAPK-pathway genes (<a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/BRAF.html">BRAF</a> amplification, <a href="../genes/MAP2K1.html">MAP2K1</a>, <a href="../genes/MAP2K2.html">MAP2K2</a>, <a href="../genes/MITF.html">MITF</a>, <a href="../genes/NF1.html">NF1</a>), accounting for 44.4% (20/45) of the cohort.</li>
+<li>Recurrent classes by frequency:
+<ul>
+<li><a href="../genes/NRAS.html">NRAS</a> somatic mutations: 17.8% (seven Q61, one T58); acquired <a href="../genes/NRAS.html">NRAS</a> mutations occurred exclusively in patients on therapy &gt;12 weeks (P = 0.04).</li>
+<li><a href="../genes/MAP2K1.html">MAP2K1</a> mutations: 15.6%; not all preclude clinical benefit.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> amplification: 8.9%.</li>
+</ul></li>
+<li><strong>MEK2 (<a href="../genes/MAP2K2.html">MAP2K2</a>) is a new resistance gene.</strong> Four <a href="../genes/MAP2K2.html">MAP2K2</a> mutations (V35M, L46F, C125S, N126D) identified in resistant tumors. When introduced into A375 cells, all four conferred resistance to both <a href="../drugs/dabrafenib.html">dabrafenib</a> (RAF) and <a href="../drugs/trametinib.html">trametinib</a> (MEK), with MEK2 C125S — homolog of the previously known MEK1 C121S — yielding &gt;100-fold change in GI50; all four mutants remained sensitive to ERK inhibition (VRT11E) and sustained MEK/ERK phosphorylation under RAF-inhibitor treatment.</li>
+<li><strong><a href="../genes/MAP2K1.html">MAP2K1</a> mutations span pre-treatment and resistant tumors.</strong> Five MEK1 mutations identified in resistant or rapidly-progressing samples (V60E, G128V, V154I, P124S, P124L) and two (G276W, F53Y) in pre-treatment tumors of patients with clinical benefit. All tested MEK1 mutants, when doxycycline-induced in A375, produced 10–80-fold resistance to <a href="../drugs/dabrafenib.html">dabrafenib</a> and 3–20-fold resistance to <a href="../drugs/trametinib.html">trametinib</a> versus wild-type MEK1, but no effect on ERK-inhibitor (VRT11E) sensitivity.</li>
+<li><strong><a href="../genes/MITF.html">MITF</a> amplification is a transcriptional resistance mechanism.</strong> Focal relapse-specific <a href="../genes/MITF.html">MITF</a> amplification was identified in one patient lacking other known resistance lesions. Overexpression of wild-type <a href="../genes/MITF.html">MITF</a> (but not the DNA-binding-impaired R217Δ mutant) in WM266.4, SKMEL19, and UACC62 cells produced 30–80-fold increases in PLX4720 GI50 and cross-resistance to RAF, MEK, and ERK inhibitors.</li>
+<li><strong>Intra-tumor heterogeneity of resistance mechanisms.</strong> Three patients had multiple resistance alterations within the same post-progression biopsy:
+<ul>
+<li>Patient 41: <a href="../genes/NRAS.html">NRAS</a> Q61R + <a href="../genes/NRAS.html">NRAS</a> T58I (on mutually exclusive reads) plus a <a href="../genes/MAP2K1.html">MAP2K1</a> mutation.</li>
+<li>Patient 08: acquired <a href="../genes/NRAS.html">NRAS</a> Q61K + focal <a href="../genes/BRAF.html">BRAF</a> amplification.</li>
+<li>Patient 02: <a href="../genes/MAP2K2.html">MAP2K2</a> mutation + <a href="../genes/BRAF.html">BRAF</a> amplification.</li>
+</ul></li>
+<li><strong>PI3K-pathway alterations are common but contextual.</strong> <a href="../genes/PTEN.html">PTEN</a> missense mutations (9/11 in the phosphatase domain), a <a href="../genes/PTEN.html">PTEN</a> deletion (Patient 36), a <a href="../genes/PIK3CA.html">PIK3CA</a> H1047R acquired in a resistant tumor (Patient 48), and <a href="../genes/PIK3R1.html">PIK3R1</a> variants were observed. PI3K alterations did not always preclude initial response (Patient 1: pre-treatment <a href="../genes/PTEN.html">PTEN</a> H93D, 66-week partial response). In vitro, combined PLX4720 + <a href="../drugs/gdc-0941.html">GDC-0941</a> markedly suppressed proliferation and induced apoptosis only in <a href="../genes/BRAF.html">BRAF</a> V600E / <a href="../genes/PTEN.html">PTEN</a>-null A2058 cells, not in A375 (<a href="../genes/BRAF.html">BRAF</a> V600E / <a href="../genes/PTEN.html">PTEN</a> WT).</li>
+<li><strong><a href="../genes/RAC1.html">RAC1</a> P29S marks early resistance.</strong> Pre-treatment <a href="../genes/RAC1.html">RAC1</a> P29S in 3/14 early-resistance patients (Patients 26, 34, 46) and 0 patients with sustained response (P = 0.026).</li>
+<li><strong><a href="../genes/HOXD8.html">HOXD8</a> nonsense mutation</strong> in one early-resistance tumor, consistent with prior RNAi-screen evidence that <a href="../genes/HOXD8.html">HOXD8</a> suppression promotes RAF-inhibitor resistance.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600 missense (44/45 pre-treatment), one Val600_Lys601delinsGlu (Patient 11); focal amplification in 8.9% of resistant tumors (e.g., Patients 02, 08).</li>
+<li><a href="../genes/NRAS.html">NRAS</a> — Q61R/K/H, T58I, Q60H mutations in 17.8% of resistant tumors; acquired <a href="../genes/NRAS.html">NRAS</a> restricted to &gt;12-week responders (P = 0.04).</li>
+<li><a href="../genes/MAP2K1.html">MAP2K1</a> (MEK1) — V60E, G128V, V154I, P124S, P124L (resistance/early-progression) plus G276W, F53Y (pre-treatment with clinical benefit). All experimentally validated mutants conferred 10–80-fold <a href="../drugs/dabrafenib.html">dabrafenib</a> and 3–20-fold <a href="../drugs/trametinib.html">trametinib</a> resistance in A375.</li>
+<li><a href="../genes/MAP2K2.html">MAP2K2</a> (MEK2) — V35M, L46F, C125S, N126D; novel RAF-inhibitor resistance gene reported by this paper. C125S confers &gt;100-fold cross-resistance to RAF and MEK inhibition.</li>
+<li><a href="../genes/MITF.html">MITF</a> — relapse-associated focal amplification (Patient 58 background); overexpression confers pan-MAPK-inhibitor cross-resistance (30–80-fold) in WM266.4/SKMEL19/UACC62.</li>
+<li><a href="../genes/NF1.html">NF1</a> — included among MAPK-pathway resistance gene set (44.4% aggregate).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — missense mutations (11 patients; 9 in phosphatase domain), nonsense R233*, frameshift Y86fs, and a copy-number deletion (Patient 36); combination of RAF + PI3K inhibition synergistic in <a href="../genes/PTEN.html">PTEN</a>-null A2058 cells.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — acquired H1047R in Patient 48’s resistant tumor (oncogenic catalytic-subunit hotspot).</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a> — variants of uncertain significance in resistant tumors.</li>
+<li><a href="../genes/RAC1.html">RAC1</a> — recurrent P29S in 3/14 pre-treatment tumors of early-resistance patients (P = 0.026); known gain-of-function melanoma oncogene.</li>
+<li><a href="../genes/HOXD8.html">HOXD8</a> — nonsense mutation in one early-resistance tumor; candidate transcriptional-effector resistance gene.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Cross-resistance between RAF and MEK inhibitors (e.g., <a href="../genes/MAP2K1.html">MAP2K1</a>, <a href="../genes/MAP2K2.html">MAP2K2</a>, <a href="../genes/MITF.html">MITF</a> lesions) implies combined RAF/MEK regimens may have limited durability in this subset; ERK inhibitors remain experimentally effective against MEK1/MEK2-mutant cells in vitro, motivating clinical evaluation of ERK-pathway inhibitors.</li>
+<li>Patients with acquired <a href="../genes/NRAS.html">NRAS</a> mutations or <a href="../genes/BRAF.html">BRAF</a> amplification may respond to subsequent MEK-inhibitor regimens, though existing data suggest reduced benefit after RAF-inhibitor progression.</li>
+<li><a href="../genes/MITF.html">MITF</a>-driven and other transcriptional-effector resistance mechanisms (potentially <a href="../genes/HOXD8.html">HOXD8</a>) may confer pan-MAPK-pathway resistance and require non-MAPK therapeutic approaches.</li>
+<li>Combined MAPK + PI3K inhibition merits clinical evaluation in <a href="../genes/BRAF.html">BRAF</a>-mutant melanomas with concurrent PI3K-pathway lesions, particularly <a href="../genes/PTEN.html">PTEN</a> loss; in <a href="../genes/PTEN.html">PTEN</a>-WT contexts the combination’s value is unclear.</li>
+<li>Pre-treatment <a href="../genes/RAC1.html">RAC1</a> P29S genotyping may identify patients at higher risk of early progression on single-agent RAF inhibitors.</li>
+<li>Demonstrates feasibility of FFPE-based whole-exome sequencing for systematic resistance profiling on multicenter clinical cohorts.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Whole-exome sequencing cannot detect non-genetic resistance mechanisms (<a href="../genes/BRAF.html">BRAF</a> alternative splicing, COT/MAP3K8 upregulation, RTK/ligand overexpression, <a href="../genes/HGF.html">HGF</a> secretion), so true intra-tumor resistance heterogeneity and overall resistance prevalence are underestimated.</li>
+<li>13 patients lacked complete pre-treatment/post-resistance/germline trios; absent pre-treatment samples (e.g., Patients 02, 08, 36) preclude formal assignment of some alterations as acquired vs.&nbsp;pre-existing.</li>
+<li>Single-focus biopsies cannot resolve heterogeneity from pre-existing tumor variability.</li>
+<li>Several candidate resistance alterations (<a href="../genes/RAC1.html">RAC1</a>, <a href="../genes/HOXD8.html">HOXD8</a>, many <a href="../genes/PTEN.html">PTEN</a> and <a href="../genes/PIK3R1.html">PIK3R1</a> variants) require larger cohort validation and additional functional experiments.</li>
+<li>The cellular contexts in which PI3K-pathway activation drives proliferative versus survival-only resistance remain unresolved; combination MAPK+PI3K therapy may benefit only a subset.</li>
+<li>Cohort size (45 patients) is too small to reach statistical significance for individual rare-tail resistance genes.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Genetic alterations in known or putative RAF inhibitor resistance genes were observed in 23 of 45 patients (51%).” (Abstract)</li>
+<li>“Resistance alterations predominantly involved the MAPK pathway or downstream effectors (<a href="../genes/NRAS.html">NRAS</a>, BRAF, <a href="../genes/MAP2K1.html">MAP2K1</a>, <a href="../genes/MAP2K2.html">MAP2K2</a>, <a href="../genes/MITF.html">MITF</a>, <a href="../genes/NF1.html">NF1</a>), representing 44.4% (20/45) of the patient cohort.” (Results)</li>
+<li>“One of these mutations (MEK2C125S) is homologous to a previously described MEK1C121S mutation that confers cross-resistance to RAF and MEK inhibitors in vitro.” (MEK2 section)</li>
+<li>“MEK2C125S conferred profound resistance to both RAF and MEK inhibition, with fold change in GI50 greater than 100.” (Results)</li>
+<li>“In both cell lines, MITF overexpression conferred a 30–80 fold increase in the PLX4720 GI50 values relative to control (LacZ) gene expression.” (MITF section)</li>
+<li>“Among the 14 patients exhibiting early disease progression in the setting of RAF inhibition (disease progression within 12 weeks of initial RAF inhibitor therapy), three pre-treatment tumor biopsies harbored RAC1P29S mutations… (P = 0.026).” (Early-resistance section)</li>
+<li>“As expected, acquired NRAS mutations occurred exclusively in patients on therapy for more than 12 weeks (P = 0.04).” (Results)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24265153.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24265153.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

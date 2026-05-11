@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [copy-number, snp-array, genomics]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Affymetrix 250K SNP Array
@@ -19,6 +19,7 @@ The Affymetrix 250K SNP Array is a high-density oligonucleotide microarray platf
 
 - Used to profile somatic copy-number alterations (n=207 samples) and LOH (n=200 samples) across seven high-grade soft tissue sarcoma subtypes; data analyzed with GISTIC and RAE to identify significantly altered regions [PMID:20601955](../papers/20601955.md).
 - Applied to 383 primary [LUAD](../cancer_types/LUAD.md) tumours (Affymetrix 250K StyI chip) for genome-wide somatic copy-number alteration profiling, supporting discovery of copy-number changes associated with [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), and [TP53](../genes/TP53.md) mutations [PMID:18948947](../papers/18948947.md).
+- Used on 22 ESCC tumors (18 from Discovery Cohort) for somatic copy-number variation (SCNV) analysis; combined with array-CGH and three public SNP-array datasets for a total of 184 analyzable primary ESCC samples [PMID:24686850](../papers/24686850.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ The Affymetrix 250K SNP Array is a high-density oligonucleotide microarray platf
 - [PMID:18948947](../papers/18948947.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

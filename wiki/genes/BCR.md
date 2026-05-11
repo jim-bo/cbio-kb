@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - gene-fusion
   - tyrosine-kinase
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # BCR
@@ -19,6 +19,7 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 ## Alterations observed in the corpus
 
 - BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in 200 adult de novo AML cases (TCGA [laml_tcga_pub](../datasets/laml_tcga_pub.md)); listed among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
+- Referenced in HCC targeted therapy resistance analogy context (BCR-ABL/imatinib model informs combination regimen design for HCC) [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

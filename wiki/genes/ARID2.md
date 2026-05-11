@@ -9,8 +9,8 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ARID2
@@ -31,6 +31,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 is significantly mutated in a Yale melanoma WES cohort of 147 tumors, independently validating its role as a melanoma driver affecting the SWI/SNF complex [PMID:22842228](../papers/22842228.md)
 - Somatically mutated in pancreatic cancer (ICGC WES, 142 tumors); ARID2 loss-of-function mutations identified among significantly mutated genes in the SWI/SNF chromatin-remodeling complex [PMID:23103869](../papers/23103869.md)
 - Chromatin-remodeling SWI/SNF complex member mutated in EAC ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
+- Mutated SWI/SNF complex member in ESCC; identified as significantly mutated in 139 paired ESCC tumor/germline samples [PMID:24686850](../papers/24686850.md)
+- Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes alongside ARID1A [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +80,9 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:23525077](../papers/23525077.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

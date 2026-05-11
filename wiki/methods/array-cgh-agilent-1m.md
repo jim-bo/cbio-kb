@@ -5,8 +5,8 @@ kind: COPY_NUMBER_ALTERATION
 canonical_source: corpus
 unverified: true
 tags: [copy-number, array-cgh, agilent]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Agilent 1M Human Oligonucleotide aCGH
@@ -18,6 +18,7 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 ## Used by
 
 - Applied to 97 high-grade urothelial carcinomas of the bladder ([BLCA](../cancer_types/BLCA.md)) cohybridized with reference normal DNA; segmented by circular binary segmentation and analyzed with the RAE algorithm at FDR <1%; identified two distinct CNA-burden subsets and recurrent focal amplifications including [ERBB2](../genes/ERBB2.md) (17q12) and [CCND1](../genes/CCND1.md) (11q13.2–13.3) [PMID:23897969](../papers/23897969.md)
+- 44K Agilent array-CGH performed on 59 ESCC samples as part of a 184-sample SCNV analysis identifying 14 recurrent focal copy-number events including CCND1 amplification and CDKN2A deletion [PMID:24686850](../papers/24686850.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

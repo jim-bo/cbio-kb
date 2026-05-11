@@ -10,7 +10,7 @@ assays: [MUTATION_EXTENDED, COPY_NUMBER_ALTERATION, MRNA_EXPRESSION, PROTEOMICS]
 panels: []
 tags: [cell-line, pharmacogenomics, multi-omic, pan-cancer]
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # Cancer Cell Line Encyclopedia (Broad/Novartis)
@@ -35,6 +35,7 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 ## Papers using this cohort
 
 - [PMID:22460905](../papers/22460905.md) — Primary CCLE publication describing the resource and pharmacogenomic findings.
+- [PMID:24686850](../papers/24686850.md) — Lin et al. (2014): CCLE cell-line expression data used to cross-reference ZNF750 mRNA expression in the context of ESCC genomic characterization.
 
 ## Notable findings derived from this cohort
 
@@ -44,9 +45,11 @@ The Cancer Cell Line Encyclopedia (CCLE) is a large-scale genomic and pharmacolo
 - 12 of 14 multiple myeloma ([PCM](../cancer_types/PCM.md)) cell lines showed enhanced sensitivity to the IGF-1R inhibitor AEW541, with high [IGF1](../genes/IGF1.md) and [IGF1R](../genes/IGF1R.md) expression [PMID:22460905](../papers/22460905.md).
 - Hematologic lineages showed preferential sensitivity to [panobinostat](../drugs/panobinostat.md) (HDAC inhibitor) [PMID:22460905](../papers/22460905.md).
 - [Elastic net](../methods/elastic-net.md) regression across >50,000 genomic features was used to build predictive models of drug sensitivity [PMID:22460905](../papers/22460905.md).
+- [ZNF750](../genes/ZNF750.md) mRNA expression referenced from CCLE cell-line data as part of ESCC tumor-versus-normal expression comparisons [PMID:24686850](../papers/24686850.md).
 
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
+- [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

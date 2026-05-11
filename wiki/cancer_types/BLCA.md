@@ -4,8 +4,8 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -30,6 +30,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Integrated genomic analysis of 97 high-grade urothelial tumors found 61% carried a potentially actionable alteration; most prevalent somatic mutations were [TP53](../genes/TP53.md) (34%), [PIK3CA](../genes/PIK3CA.md) (18%), and [FGFR3](../genes/FGFR3.md) (13%); RTK-RAS-RAF and PI3K/AKT/mTOR pathway lesions were largely mutually exclusive; [ERBB2](../genes/ERBB2.md) focally amplified in 6.2% with HER2 overexpression [PMID:23897969](../papers/23897969.md).
 - Whole-exome/genome sequencing of 99 Chinese transitional cell carcinoma (TCC) cases identified 37 significantly mutated genes including novel driver [STAG2](../genes/STAG2.md) (16% combined mutation/deletion frequency); 32% of tumors harbored alterations in sister chromatid cohesion and segregation genes; [STAG2](../genes/STAG2.md) alterations associated with significantly worse survival and higher aneuploidy; recurrent FGFR3-TACC3 fusion detected in 5% by RNA-seq [PMID:24121792](../papers/24121792.md).
 - TCGA multi-platform analysis of 131 muscle-invasive urothelial carcinomas identified 32 significantly mutated genes, chromatin-regulator mutations in 76% of tumors (highest frequency among TCGA epithelial cancers), [APOBEC3B](../genes/APOBEC3B.md) as a dominant mutagen (51% of mutations), and potential therapeutic targets in 69% of cases — including [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusions, [ERBB2](../genes/ERBB2.md) alterations (9%), and PI3K/mTOR pathway activation (42%) [PMID:24476821](../papers/24476821.md).
+- SMARCA4 inactivating mutations occur in 5–8% of bladder carcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
 
 ## Subtypes
 
@@ -59,3 +60,6 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

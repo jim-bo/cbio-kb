@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Sanger Sequencing
@@ -35,6 +35,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used to confirm 50 somatic mutations from the whole-exome discovery screen in intrahepatic cholangiocarcinoma/gallbladder carcinoma — all 50 mutations verified [PMID:24185509](../papers/24185509.md).
 - Used to sequence [CALR](../genes/CALR.md) exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of [CALR](../genes/CALR.md) frameshift indels in JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
 - PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification [PMID:24418857](../papers/24418857.md)
+- Validated all identified SMARCA4 mutations in 12 SCCOHT cases by Sanger sequencing of genomic DNA and cDNA (RT-PCR) [PMID:24658004](../papers/24658004.md)
+- Validated somatic mutations in ESCC cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations [PMID:24686850](../papers/24686850.md)
 
 ## Notes
 
@@ -96,3 +98,9 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

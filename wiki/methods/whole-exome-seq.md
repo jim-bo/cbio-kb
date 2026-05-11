@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Whole-exome sequencing (WES)
@@ -86,6 +86,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 177 of 203 multiple myeloma tumor/normal pairs (avg 89× tumor/88× normal; Agilent SureSelect v2 + Illumina HiSeq 76 bp PE); identified 11 significantly mutated genes and showed pervasive subclonal heterogeneity; 90.4% validation rate across 140 re-genotyped mutations [PMID:24434212](../papers/24434212.md)
 - Applied to 103 rhabdomyosarcoma tumor/normal pairs (SOLiD 4 with Agilent SureSelect 37.8 Mb bait on 90 pairs; Illumina HiSeq with SureSelect v2 on 13 pairs) processed with MuTect/MutSig for the Illumina arm; identified recurrent mutations in [FBXW7](../genes/FBXW7.md), [BCOR](../genes/BCOR.md), and RAS/PI3K/RTK axis genes [PMID:24436047](../papers/24436047.md)
 - Applied to 130 muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) tumor/normal pairs (186,260 exons, 18,091 genes; mean 100× coverage, ≥82% target bases ≥30×); identified 32 significantly mutated genes including 9 novel cancer SMGs; mean 302 exonic mutations per sample [PMID:24476821](../papers/24476821.md)
+- Applied to 10 ccRCC primary tumors (79 samples, 8–12 regions each) via Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth) to characterize intratumor heterogeneity; 92.5% of candidate mutations validated by ultra-deep amplicon sequencing [PMID:24487277](../papers/24487277.md)
+- Used for Discovery Cohort of 20 paired ESCC germline/tumor samples (mean coverage 79×) to identify novel significantly mutated genes including FAT1, FAT2, ZNF750, and KMT2D [PMID:24686850](../papers/24686850.md)
+- Referenced in HCC genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers (TERT promoter, TP53, CTNNB1) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
 
 ## Notes
 
@@ -262,3 +265,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

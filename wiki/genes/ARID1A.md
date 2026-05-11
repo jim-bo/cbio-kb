@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ARID1A
@@ -48,6 +48,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Single in-frame deletion p.Tyr560_Gln561delinsTer identified in sinonasal AdCC (1/21 sequenced cases); SWI/SNF complex component [PMID:24418857](../papers/24418857.md)
 - Singleton expressed mutation flagged as a candidate driver in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)); not previously reported in RMS [PMID:24436047](../papers/24436047.md)
 - Mutated in 25% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); truncating mutations enriched; identified as a significantly mutated gene by MutSig; encodes SWI/SNF chromatin-remodeling complex component [PMID:24476821](../papers/24476821.md)
+- SWI/SNF subunit mutated in ccRCC (RMH004, p.Arg1020Lys) alongside PBRM1 and SMARCA4 hits; identified as a branch driver in multi-region sequencing of 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
+- Non-catalytic BAF subunit (BAF250A) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but noted as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
+- Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -149,3 +152,12 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

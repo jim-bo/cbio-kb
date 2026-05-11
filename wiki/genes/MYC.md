@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MYC
@@ -55,6 +55,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
 - Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:24326773](../papers/24326773.md)
 - Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
+- MYC focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
+- MYC gains at 8q are observed in HCC as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -174,3 +176,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

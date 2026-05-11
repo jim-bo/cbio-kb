@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # trastuzumab
@@ -29,6 +29,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - ERBB2 amplification in HER2-enriched breast cancer subtype identified as therapeutic target for trastuzumab in TCGA comprehensive analysis [PMID:23000897](../papers/23000897.md)
 - Trastuzumab is the only approved targeted agent for EAC/GEJ adenocarcinoma at time of Dulak 2013 study; ERBB2 kinase-domain mutations (p.D769Y, p.G776V; 5/145 tumors) and co-occurring ERBB2 amplification+mutation in 3% of EAC samples justify exploring ERBB2 mutation as an additional biomarker for HER2-directed therapy [PMID:23525077](../papers/23525077.md)
 - ERBB2 focal amplification with protein overexpression in 25% of uterine serous/serous-like endometrial tumors supports prospective trials of HER2-targeted therapy; a prior small trastuzumab trial accrued few FISH-amplified serous cases and was underpowered [PMID:23636398](../papers/23636398.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in HCC; ERBB family members represent candidate therapeutic targets identified in the HCC genomic landscape [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -69,3 +70,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -15,8 +15,8 @@ tags:
   - targeted-therapy
   - anti-angiogenic
   - braf-inhibitor
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # sorafenib
@@ -31,6 +31,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - In the UCLA PDTO sarcoma screen, sorafenib was one of the recurrent NCCN-listed top-five regimens identified for [osteosarcoma](../cancer_types/OS.md) samples, appearing as part of the actionable backbone for this histology alongside [regorafenib](../drugs/regorafenib.md), [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [doxorubicin](../drugs/doxorubicin.md), [cabozantinib](../drugs/cabozantinib.md), [gemcitabine](../drugs/gemcitabine.md), [docetaxel](../drugs/docetaxel.md), and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
 - PDTOs from patients with rapidly progressing tumors at follow-up showed increased sensitivity to sorafenib (p=0.042) compared to non-rapidly-progressing specimens. [PMID:39305899](../papers/39305899.md)
 - Activating [RET](../genes/RET.md) mutations in metastatic MTCs (PN3, PN7, PN8) and high [PIK3R2](../genes/PIK3R2.md) expression (PN1) informed sorafenib recommendations in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
+- VEGFA focal gain at 6p21 is reported as a predictor of sorafenib benefit in HCC; no targeted therapy has exceeded sorafenib in phase III HCC trials as of early 2014, framed as the central translational gap [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

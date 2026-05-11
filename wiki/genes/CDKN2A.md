@@ -3,8 +3,8 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CDKN2A
@@ -67,6 +67,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - TMZ-associated P114L mutation acquired in patients 05 and 10 during low-grade glioma treatment; abrogates [CDK4](../genes/CDK4.md) inhibition and cell-cycle arrest, contributing to malignant progression to [GBM](../cancer_types/GBM.md) in TMZ-driven hypermutated recurrences [PMID:24336570](../papers/24336570.md)
 - Homozygous deletion in 3% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; 9p21.3 LOH in 9% (PAX-fusion-negative-skewed); part of 12q15 amplicon context with MDM2/FRS2 alterations [PMID:24436047](../papers/24436047.md)
 - Focal homozygous deletion in 47% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); most common focal deletion at 9p21.3; correlated with reduced mRNA expression; mutually exclusive with [RB1](../genes/RB1.md) loss [PMID:24476821](../papers/24476821.md)
+- Mutated in ESCC; cited as part of the canonical ESCC genomic landscape alongside TP53, RB1, PIK3CA, NOTCH1, and NFE2L2 in a microbiome-focused ESCC review [PMID:24670651](../papers/24670651.md)
+- Focal deletion and mutation in ESCC; contributes to cell-cycle dysregulation; identified by SCNV and targeted deep-sequencing analysis of 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
+- Inactivated in the G3 proliferative HCC subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early HCC; G3 subgroup (TP53 mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -216,3 +219,12 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24670651](../papers/24670651.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

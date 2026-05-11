@@ -5,8 +5,8 @@ drug_class: tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 papers: [36862133, 37477937, 20601955]
 ---
 
@@ -25,6 +25,7 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - [KIT](../genes/KIT.md) mutations identified in melanoma tumors suggest potential sensitivity to imatinib in KIT-mutant cutaneous melanoma [PMID:22622578](../papers/22622578.md)
 - Activating KIT aberrations (V559A mutation, focal amplification) identified in BRAF/NRAS-WT melanoma subset (Broad, n=121); imatinib cited as a tyrosine kinase inhibitor with potential activity in KIT-aberrant melanoma [PMID:22817889](../papers/22817889.md)
 - One [PDGFRA](../genes/PDGFRA.md) p.Thr674Ile-mutant sinonasal adenoid cystic carcinoma patient received imatinib as targeted therapy and was NED at 19 months — the only targeted-therapy case in an 88-case [ACYC](../cancer_types/ACYC.md) cohort [PMID:24418857](../papers/24418857.md)
+- Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in HCC targeted therapy development [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -51,3 +52,6 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

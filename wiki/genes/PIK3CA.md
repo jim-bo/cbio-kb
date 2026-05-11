@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # PIK3CA
@@ -76,6 +76,10 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - TMZ-associated E542K activating mutation acquired in low-grade glioma recurrence (patient 18); activates AKT and induces mTOR-dependent transformation as part of convergent evolution under treatment pressure [PMID:24336570](../papers/24336570.md)
 - Oncogenic Q546 (helical domain) and H1047 (kinase domain) hotspot mutations in rhabdomyosarcoma; frequency 7.4% in PFN tumors; two tumors had concurrent RAS + PIK3CA mutations indicating dual pathway activation [PMID:24436047](../papers/24436047.md)
 - Mutations in 20% of muscle-invasive bladder carcinomas, predominantly in the helical domain near E545; one of the most frequently mutated oncogenes in bladder cancer [PMID:24476821](../papers/24476821.md)
+- PIK3CA activating hotspot mutations (p.Glu545Lys, p.His1047Arg) found in spatially separated regions of ccRCC (EV005), demonstrating parallel evolution; PI3K-mTOR pathway mutation prevalence reaches 60% per case vs much lower per-biopsy estimates [PMID:24487277](../papers/24487277.md)
+- PIK3CA is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
+- PIK3CA harbors activating mutations and amplification in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
+- PIK3CA is a PI3K/AKT pathway driver in HCC identified by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -252,3 +256,15 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24670651](../papers/24670651.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

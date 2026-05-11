@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MutSig
@@ -32,6 +32,7 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSigCV applied to 177 WES + 26 WGS multiple myeloma samples; identified 11 significantly mutated genes at q<0.1 including [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [BRAF](../genes/BRAF.md), FAM46C/TENT5C, TP53, [DIS3](../genes/DIS3.md), [TRAF3](../genes/TRAF3.md), [CYLD](../genes/CYLD.md), [RB1](../genes/RB1.md), [PRDM1](../genes/PRDM1.md), and [IRF4](../genes/IRF4.md) [PMID:24434212](../papers/24434212.md)
 - Applied to the Illumina WES arm of 147 rhabdomyosarcoma tumor/normal pairs; identified significantly mutated genes including [HRAS](../genes/HRAS.md), KRAS, NRAS, [FGFR4](../genes/FGFR4.md), PIK3CA, [NF1](../genes/NF1.md), [FBXW7](../genes/FBXW7.md), and [BCOR](../genes/BCOR.md); combined with GATK UnifiedGenotyper for the SOLiD arm [PMID:24436047](../papers/24436047.md)
 - MutSig 1.5 applied to TCGA bladder carcinoma WES data (n=130); identified 32 significantly mutated genes at FDR<0.1, including 9 not previously reported as significantly mutated in any cancer ([CDKN1A](../genes/CDKN1A.md), [ERCC2](../genes/ERCC2.md), [RXRA](../genes/RXRA.md), [ELF3](../genes/ELF3.md), [KLF5](../genes/KLF5.md), [FOXQ1](../genes/FOXQ1.md), [RHOB](../genes/RHOB.md), [PAIP1](../genes/PAIP1.md), [BTG2](../genes/BTG2.md)) [PMID:24476821](../papers/24476821.md)
+- MutSigCV applied to ESCC cohort (139 paired tumor/normal samples) to identify 13 significantly mutated genes at FDR q < 0.2, including novel drivers FAT1, FAT2, ZNF750, and KMT2D [PMID:24686850](../papers/24686850.md)
 
 ## Notes
 
@@ -87,3 +88,6 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

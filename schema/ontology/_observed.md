@@ -1,5 +1,10 @@
 # Observed (corpus-grown) terms
 
+- drug: selinexor — observed in PMID:24686850 — note: XPO1 inhibitor (SINE/KPT-330); preclinical activity in ESCC cell lines
+- drug: refametinib — observed in PMID:24735922 — note: MEK inhibitor; RAS-mutation-enriched HCC trial NCT01915602
+- drug: tivantinib — observed in PMID:24735922 — note: MET inhibitor; c-MET-high HCC biomarker-selected trials
+- drug: interferon-alpha — observed in PMID:24735922 — note: adjuvant IFN-α in HBV-related HCC; mir26 as predictive biomarker candidate
+
 - drug: ibrutinib — observed in PMID:35927489 — note: BTK inhibitor referenced re TP53/17p prognosis
 - drug: venetoclax — observed in PMID:35927489 — note: BCL2 inhibitor referenced re TP53/17p prognosis
 - drug: fludarabine — observed in PMID:35927489 — note: chemotherapy; RRM1 is target

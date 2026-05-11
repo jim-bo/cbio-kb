@@ -4,8 +4,8 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -28,6 +28,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [KRAS](../genes/KRAS.md) — oncogenic alterations; identified as a resistance mechanism to HER2-directed therapy. [PMID:37406106](../papers/37406106.md)
 - See also [EGC](../cancer_types/EGC.md) for shared EGC alterations.
 - [ERBB2](../genes/ERBB2.md) (HER2) surface overexpression in NCI-N87 STAD cells: T-DM1 IC50 <1 nM; >100-fold more sensitive than HER2− controls. [PMID:27698471](../papers/27698471.md)
+- SMARCA4 inactivating mutations occur in 5–8% of stomach adenocarcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
 
 ## Subtypes
 
@@ -49,3 +50,6 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:27698471](../papers/27698471.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

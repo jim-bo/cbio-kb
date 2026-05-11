@@ -4,8 +4,8 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -48,6 +48,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - In a 247-patient advanced [NSCLC](../cancer_types/NSCLC.md) cohort (79% LUAD), multimodal DyAM model integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC, and genomics achieved AUC=0.80 for ICI response prediction; [EGFR](../genes/EGFR.md) mutation (aHR=2.14) and [STK11](../genes/STK11.md) mutation (aHR=2.53) were confirmed as independent negative predictors of PD-(L)1 blockade [PMID:36038778](../papers/36038778.md)
 - Broad Institute WES of 183 lung adenocarcinomas identified [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), and [STK11](../genes/STK11.md) as major drivers; MutSig analysis nominated [RBM10](../genes/RBM10.md), [U2AF1](../genes/U2AF1.md), and [ARID1A](../genes/ARID1A.md) as newly significant genes [PMID:22980975](../papers/22980975.md)
 - A co-clinical trial in KRAS-mutant LUAD using GEM models running in parallel with a human phase II trial demonstrated that the murine arm delivered predictive response data for [selumetinib](../drugs/selumetinib.md) + [docetaxel](../drugs/docetaxel.md) in nine months and surfaced STK11 loss as a genetic modifier of resistance, prompting retrospective reanalysis of the human trial [PMID:23999436](../papers/23999436.md).
+- SMARCA4 inactivating mutations occur in 5–8% of LUAD (TCGA data) and are associated with poor outcome; SMARCA4 loss creates a synthetic-lethal vulnerability to SMARCA2 inhibition [PMID:24658004](../papers/24658004.md)
 
 ## Subtypes
 
@@ -92,3 +93,6 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:23999436](../papers/23999436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [ODG, DIFG, IHCH, HCC, BLCA]
 tags: [promoter-mutation, telomerase, prognosis, ctdna-biomarker]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # TERT
@@ -25,6 +25,7 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - Significantly mutated in melanoma WES cohort (121 tumors, Broad); TERT promoter mutations among the most frequent alterations, consistent with UV-signature mutagenesis in melanoma [PMID:22817889](../papers/22817889.md)
 - Frequent somatic copy number gains in 42% of [LUAD](../cancer_types/LUAD.md) tumors (Broad WES cohort, 183 tumors); most frequently amplified gene in this cohort [PMID:22980975](../papers/22980975.md)
 - TERT promoter hotspots C228T (15/25) and C250T (6/25) in [GBM](../cancer_types/GBM.md) correlate with elevated TERT mRNA; TERT promoter mutation and [ATRX](../genes/ATRX.md) loss form a mutually exclusive binary telomere-maintenance axis in primary GBM [PMID:24120142](../papers/24120142.md)
+- TERT promoter activating mutations occur in ~59% of HCC and ~25% of cirrhotic preneoplastic nodules; present in 17% of borderline HCA lesions and 56% of overtly transformed HCA, establishing TERT as a late-event biomarker for HCA-to-HCC transformation [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ TERT encodes the catalytic subunit of telomerase; promoter hotspot mutations (C2
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

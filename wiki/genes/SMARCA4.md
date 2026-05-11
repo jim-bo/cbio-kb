@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # SMARCA4
@@ -33,6 +33,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Recurrently mutated chromatin-remodeling gene in TCC; part of the 58% of bladder cancer cases with chromatin-remodeling gene mutations [PMID:24121792](../papers/24121792.md)
 - Mutations private to the initial or recurrent tumor in 6 of 7 affected low-grade glioma patients; appear to confer selective advantage given preexisting early driver events ([IDH1](../genes/IDH1.md) R132H) rather than being founding events [PMID:24336570](../papers/24336570.md)
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); missense p.Gly1194Trp and p.Glu882Lys; SWI/SNF chromatin-remodeling complex component [PMID:24418857](../papers/24418857.md)
+- SMARCA4 was mutated in RMH004 ccRCC tumor (p.Thr910Met) alongside PBRM1 and ARID1A hits, implicating SWI/SNF complex disruption in this tumor [PMID:24487277](../papers/24487277.md)
+- SMARCA4 (BRG1) harbors biallelic inactivating mutations in 12/12 SCCOHT tumors (nonsense, frameshift, splice-site, intragenic exonic deletions) affecting helicase catalytic domains; established as the defining tumor suppressor of SCCOHT. Truncating mutations correlate with reduced SMARCA4 expression in TCGA, consistent with nonsense-mediated decay [PMID:24658004](../papers/24658004.md)
 
 ## Cancer types (linked)
 
@@ -96,3 +98,9 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

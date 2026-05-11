@@ -5,7 +5,7 @@ main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: [liver, hepatobiliary]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # Hepatocellular Carcinoma (HCC)
@@ -25,6 +25,7 @@ Primary liver cancer of hepatocellular origin.
 - Plasma-tissue concordance 92.5% in matched samples; 27% of paired samples harbored cfDNA-exclusive alterations, of which 40% were OncoKB actionable [PMID:37769223](../papers/37769223.md).
 - WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) alterations in 18% [PMID:37769223](../papers/37769223.md).
 - Genomic review identified TERT promoter mutations, CTNNB1, and TP53 as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:22634756](../papers/22634756.md)
+- Narrative review cataloguing HCC driver genes (TERT promoter ~59%, TP53 ~30%, CTNNB1 ~30%); TERT promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials (sorafenib, tivantinib, everolimus, refametinib) [PMID:24735922](../papers/24735922.md)
 
 ## Subtypes
 
@@ -41,3 +42,6 @@ Primary liver cancer of hepatocellular origin.
 - [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

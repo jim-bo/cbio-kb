@@ -8,8 +8,8 @@ tags:
   - neural-stem-progenitor
   - glioma
   - cancer-stem-cell
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # SOX2
@@ -25,6 +25,7 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 - Amplification in ~27% of SCLC samples; lineage-survival oncogene driving proliferation; expression correlates with disease stage [PMID:22941189](../papers/22941189.md)
 - Amplification and overexpression at 3q26 amplicon in [LUSC](../cancer_types/LUSC.md); part of 44% squamous differentiation pathway; selectively amplified in LUSC vs. [LUAD](../cancer_types/LUAD.md) [PMID:22960745](../papers/22960745.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated [PMID:24120142](../papers/24120142.md)
+- SOX2 is amplified as a lineage-survival oncogene in ESCC, cooperating with STAT3 activation [PMID:24686850](../papers/24686850.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

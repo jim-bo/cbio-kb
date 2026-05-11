@@ -5,8 +5,8 @@ drug_class: ALK/ROS1/MET tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, cns-resistance]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # crizotinib
@@ -19,6 +19,7 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 - In a patient with [MET](../genes/MET.md) exon 14 skipping mutation-positive lung cancer and CNS metastases, serial CSF ctDNA profiling detected emergence of the [MET](../genes/MET.md) p.Y1230N resistance mutation while on crizotinib, prompting a treatment switch to [capmatinib](../drugs/capmatinib.md) [PMID:39289779](../papers/39289779.md).
 - CSF ctDNA sequencing via MSK-IMPACT identified resistance mutations arising during crizotinib therapy, demonstrating the utility of CSF liquid biopsy for monitoring on-target resistance in the CNS compartment [PMID:39289779](../papers/39289779.md).
+- Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for HCC [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -35,3 +36,6 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - [PMID:39289779](../papers/39289779.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

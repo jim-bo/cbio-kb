@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # PTEN
@@ -66,6 +66,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - TMZ-associated missense mutations A121T and G165R acquired in patient 24's second low-grade glioma recurrence; both residues are critical to phosphatase activity and are recurrently mutated in [GBM](../cancer_types/GBM.md) [PMID:24336570](../papers/24336570.md)
 - Single frameshift mutation p.Arg11LysfsTer32 co-occurring with [EWSR1](../genes/EWSR1.md)::[MYB](../genes/MYB.md) fusion in a metatypical adenoid cystic carcinoma of the sphenoid sinus [PMID:24418857](../papers/24418857.md)
 - Homozygous deletion in RMS2117 rhabdomyosarcoma sample; loss of PTEN activates the PI3K/AKT axis, a recurrent oncogenic mechanism in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
+- PTEN parallel evolution previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
+- PTEN harbors inactivating mutations in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
 
 ## Cancer types (linked)
 
@@ -224,3 +226,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

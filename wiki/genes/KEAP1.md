@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD]
 tags: [co-mutation, metastasis]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # KEAP1
@@ -21,6 +21,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 mutations detected in plasma ctDNA are associated with the strongest gene-specific VTE risk (adjusted HR = 2.50, 95% CI: 1.62-3.85; n=76 patients with KEAP1 alteration) in a multi-cancer liquid biopsy analysis of 5,765 MSK patients [PMID:39147831](../papers/39147831.md).
 - Loss-of-function mutation in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); mutually exclusive with NFE2L2 mutations; NFE2L2/KEAP1/CUL3 pathway altered in 34% of LUSC tumors [PMID:22960745](../papers/22960745.md)
 - Inactivating mutations in 12% of 183 LUAD cases; anti-correlated with never/light smoking status [PMID:22980975](../papers/22980975.md)
+- KEAP1 is identified as a driver linked to oxidative-stress signaling in HCC by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

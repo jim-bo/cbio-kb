@@ -10,8 +10,8 @@ tags:
   - immunotherapy
   - tki
   - tumor-microenvironment
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Renal Clear Cell Carcinoma (CCRCC)
@@ -36,6 +36,7 @@ Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of
 - [NF2](../genes/NF2.md) — mutations more prevalent in the fibrotic F HiTME subtype. [PMID:22138691](../papers/22138691.md)
 - TCGA multi-platform characterization of 446 CCRCC primary nephrectomy specimens identified 19 significantly mutated genes (VHL, [PBRM1](../genes/PBRM1.md), [SETD2](../genes/SETD2.md), [KDM5C](../genes/KDM5C.md), [PTEN](../genes/PTEN.md), [BAP1](../genes/BAP1.md), [MTOR](../genes/MTOR.md), [TP53](../genes/TP53.md) most significant), chromosome 3p loss in 91%, PI3K/AKT/mTOR pathway alteration in ~28%, and a metabolic Warburg shift correlating with worse survival [PMID:23792563](../papers/23792563.md)
 - Mouse scRNA-seq (147,045 cells) with conditional Vhl inactivation resolved isoform-specific roles of [HIF1A](../genes/HIF1A.md) and HIF2A in CCRCC initiation: HIF1A drives early glycolysis and papillary cell loss; HIF2A drives cortical proximal tubule dedifferentiation and proliferation, supporting early [belzutifan](../drugs/belzutifan.md) use in VHL disease [PMID:23797736](../papers/23797736.md)
+- Multiregion exome sequencing (M-seq) of 10 ccRCCs found 73–75% of driver alterations were subclonal; only chromosome 3p loss and VHL inactivation were truncal across all tumors — single-biopsy approaches systematically underestimate driver-mutation prevalence [PMID:24487277](../papers/24487277.md)
 
 ## Subtypes
 
@@ -62,3 +63,6 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 - [PMID:23797736](../papers/23797736.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: RB1
 aliases: []
 cancer_types: [LUAD, NSCLC, BLCA, UTUC, MFH, PAAD, CCRCC]
 tags: [tumor-suppressor, cell-cycle, brain-metastasis]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # RB1
@@ -54,6 +54,7 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - Single-case frameshift mutation detected in sinonasal adenoid cystic carcinoma (AdCC) sequencing cohort; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
 - Significantly mutated in multiple myeloma (MM) in a comprehensive genomic analysis [PMID:24434212](../papers/24434212.md)
 - Inactivating mutations in 13% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md)); associated with reduced mRNA expression; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) deletions [PMID:24476821](../papers/24476821.md)
+- RB1 is mutated in esophageal squamous cell carcinoma (ESCC) as part of the canonical ESCC genomic landscape [PMID:24670651](../papers/24670651.md)
 
 ## Cancer types (linked)
 
@@ -177,3 +178,6 @@ RB1 is the retinoblastoma tumor suppressor and a master cell-cycle regulator. In
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24670651](../papers/24670651.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

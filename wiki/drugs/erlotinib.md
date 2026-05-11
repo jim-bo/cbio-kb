@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, egfr-tki]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # erlotinib
@@ -25,6 +25,7 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - NCI-60 CellMiner analysis linked EGFR pathway activity and ABCB1 expression to erlotinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 - TCGA lung squamous study (178 tumors) examined EGFR pathway alterations relevant to erlotinib sensitivity; EGFR mutations rare in LUSC population [PMID:22960745](../papers/22960745.md)
 - Broad LUAD WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring STK11 loss associated with resistance [PMID:22980975](../papers/22980975.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in HCC; ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - [PMID:22980975](../papers/22980975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

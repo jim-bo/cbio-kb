@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,6 +23,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - Significantly mutated gene (SMG) in clear cell renal cell carcinoma (q<0.00001); SWI/SNF (PBAF) subunit enriched in m1 mRNA subtype (39% vs 27%); co-occurs in HotNet PBAF subnetwork with [ARID1A](../genes/ARID1A.md) and [SMARCA4](../genes/SMARCA4.md) [PMID:23792563](../papers/23792563.md)
 - SWI/SNF complex subunit mutated in 8/64 (13%) intrahepatic cholangiocarcinomas ([IHCH](../cancer_types/IHCH.md)) and 4/16 (25%) gallbladder carcinomas ([GBC](../cancer_types/GBC.md)); previously known mainly from clear-cell renal cell carcinoma; mutation may confer sensitivity to chromatin-remodeling-targeted therapies such as HDAC inhibitors [PMID:24185509](../papers/24185509.md)
 - Flagged as a SWI/SNF chromatin-remodeling complex partner (alongside [ARID1B](../genes/ARID1B.md)) in the genomic landscape of sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
+- PBRM1 is mutated in 6/10 ccRCC tumors; truncal in 3 of those 6. Two distinct PBRM1 frameshifts (p.Lys1282fs and p.Leu207fs) coexisted in RMH004 (parallel evolution), illustrating intratumor heterogeneity of this SWI/SNF subunit [PMID:24487277](../papers/24487277.md)
+- PBRM1 (BAF180), a PBAF-specific SWI/SNF subunit, is referenced in the context of complex composition in small cell carcinoma of the ovary, hypercalcemic type (SCCOHT); not mutated in this cohort but relevant to SWI/SNF biology [PMID:24658004](../papers/24658004.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +62,9 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

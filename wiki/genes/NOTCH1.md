@@ -3,8 +3,8 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # NOTCH1
@@ -32,6 +32,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 missense p.F1702S and frameshift p.Y550fs*81 detected in ACC exome sequencing; functional direction (activating vs. loss-of-function per HNSCC) unresolved from mutation pattern alone [PMID:23778141](../papers/23778141.md)
 - PEST-truncating mutations in 8/172 (4.6%) [MCL](../cancer_types/MCL.md) plus MINO and REC-1 cell lines; enriched in blastoid/pleomorphic morphology; shorter 3-year [OS](../cancer_types/OS.md) (33% vs 60%, P=0.026); combined NOTCH1/2 mutations in 9.5% mark aggressive [MCL](../cancer_types/MCL.md) (3-y [OS](../cancer_types/OS.md) 24% vs 63%, P=3.4×10⁻⁴) [PMID:24145436](../papers/24145436.md)
 - Mutated in 3/21 (14%) sequenced sinonasal adenoid cystic carcinomas — truncating variants including p.Ser2467Ter and p.Ala1908SerfsTer72; co-occurring with canonical [MYB](../genes/MYB.md)::[NFIB](../genes/NFIB.md) fusion in all 3 cases; associated with solid/basaloid and metatypical morphology and poor outcome (2/3 dead of disease) [PMID:24418857](../papers/24418857.md)
+- NOTCH1 is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
+- NOTCH1 is recurrently mutated in ESCC, confirming prior reports of Notch pathway dysregulation in this cancer type [PMID:24686850](../papers/24686850.md)
 
 ## Cancer types (linked)
 
@@ -94,3 +96,9 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24670651](../papers/24670651.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: IGF2
 aliases: []
 cancer_types: [RMS]
 tags: [growth-factor, fusion-associated, rhabdomyosarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # IGF2
@@ -19,6 +19,7 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - Somatic mutations detected in TCGA colorectal adenocarcinoma cohort (276 tumors) [PMID:22810696](../papers/22810696.md)
 - Focal amplification and overexpression in 12% (8/68) of colorectal cancers (Genentech WES) [PMID:22895193](../papers/22895193.md)
 - IGF2 is a paternally imprinted gene within the 11p15.5 LOH region (50% of [RMS](../cancer_types/RMS.md) tumors); one 3'UTR somatic indel observed; part of the 11p15.5 locus commonly lost in rhabdomyosarcoma [PMID:24436047](../papers/24436047.md)
+- ~10% of HCC overexpress IGF2; part of the IGF axis (with IGF2R allelic loss ~25% and IGF1R activation ~21%) targeted therapeutically in HCC [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ IGF2 (Insulin-like Growth Factor 2) is an imprinted growth factor with roles in 
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

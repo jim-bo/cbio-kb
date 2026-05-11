@@ -5,8 +5,8 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # vemurafenib
@@ -24,6 +24,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - BRAF V600E mutations confirmed as most frequent driver (~50%) in cutaneous melanomas (Yale, n=147); vemurafenib cited alongside [dabrafenib](../drugs/dabrafenib.md) as BRAF-targeted therapies with known clinical benefit [PMID:22842228](../papers/22842228.md)
 - BRAF V600E occurs in 1.7% (5/291) of primary [GBM](../cancer_types/GBM.md) and is never co-occurring with [NF1](../genes/NF1.md) alteration; the TCGA [GBM](../cancer_types/GBM.md) 2013 analysis cites BRAF V600E as a rationale for vemurafenib-class therapy in a small molecularly selected GBM subset [PMID:24120142](../papers/24120142.md).
 - WES of 45 BRAF V600 melanoma patients treated with vemurafenib or [dabrafenib](../drugs/dabrafenib.md) (DeCOG cohort) identified resistance alterations in 23/45 patients (51%), including MAP2K1/MAP2K2 mutations and [MITF](../genes/MITF.md) amplification conferring cross-resistance to RAF/MEK inhibition [PMID:24265153](../papers/24265153.md)
+- Referenced as an acquired-resistance paradigm (BRAF-mutant melanoma + vemurafenib) to motivate combination regimens and second-generation inhibitors for HCC targeted therapy [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

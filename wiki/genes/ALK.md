@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # ALK
@@ -23,6 +23,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK fusion in 6% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - ALK inhibitor sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), linking ALK alterations to drug response [PMID:22460905](../papers/22460905.md)
 - Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ALK point mutations and amplifications found as key oncogenic drivers in neuroblastoma [PMID:23334666](../papers/23334666.md)
+- ALK-fusion lung cancer treated with crizotinib is cited as a resistance analogy in HCC targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:23334666](../papers/23334666.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

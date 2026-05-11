@@ -3,8 +3,8 @@ symbol: ERBB2
 aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ERBB2
@@ -52,6 +52,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Focal amplification in bladder TCC [PMID:24121792](../papers/24121792.md)
 - ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in RMS genomic characterization [PMID:24436047](../papers/24436047.md)
 - ERBB2 mutation or amplification in 9% of muscle-invasive bladder cancers (significant by COSMIC restriction); alteration frequency comparable to TCGA HER2-positive breast cancer but with fewer amplifications and more mutations; supports ongoing ERBB2-targeted therapy trials [PMID:24476821](../papers/24476821.md)
+- Mentioned in the context of RTK signaling and targeted therapy landscape in HCC (2014 genomics review) [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -169,3 +170,6 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -5,8 +5,8 @@ drug_class: multi-kinase inhibitor (MET/VEGFR2/AXL/RET)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, sarcoma, multi-kinase]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # cabozantinib
@@ -22,6 +22,7 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - Sarcoma specimens with prior systemic therapy were more sensitive to cabozantinib than treatment-naïve specimens (p=0.036), alongside [lenvatinib](../drugs/lenvatinib.md), [cediranib](../drugs/cediranib.md), and [everolimus](../drugs/everolimus.md) — suggesting post-treatment selection for drug-sensitive clones or upregulation of target pathways. [PMID:39305899](../papers/39305899.md)
 - Nivolumab+cabozantinib data were not available in the HiTME training cohorts; this was cited as an open limitation in the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
 - Activating [RET](../genes/RET.md) mutation in metastatic MTC patient PN8 guided cabozantinib selection; PN8 achieved a partial response lasting 164 days in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
+- Listed among candidate targeted therapies for advanced HCC in a 2014 review of HCC genomics that maps driver alterations (MET, FGF axis, VEGFA, mTOR) to ongoing clinical trials [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Cabozantinib is a small-molecule multi-kinase inhibitor targeting [MET](../genes
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

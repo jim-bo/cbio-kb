@@ -5,8 +5,8 @@ drug_class: HDAC inhibitor (pan-HDAC)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, epigenetic-therapy, hdac-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # vorinostat
@@ -19,6 +19,7 @@ Vorinostat (SAHA) is a pan-HDAC inhibitor with FDA approval for cutaneous T cell
 
 - Vorinostat showed selective efficacy against MG4 (proliferative) meningiomas in vitro and in vivo (patient-derived cell lines and xenografts), while having no effect on MG1--3 cell lines; this selectivity supports development of an MG4-targeted HDAC inhibitor trial for a cancer type with no effective medical therapies [PMID:34433969](../papers/34433969.md).
 - MG4 meningiomas are characterized by high proliferation, aggressive recurrence, and distinct multi-omic features (proteomics, methylation, mRNA) that underpin their vorinostat sensitivity; molecular classification is prerequisite for trial enrollment [PMID:34433969](../papers/34433969.md).
+- HDAC inhibition with vorinostat (NCT01075113) cited as a candidate targeted therapy for HCC in the context of 31 actionable alterations identified by ESCC/HCC genomic profiling [PMID:24735922](../papers/24735922.md)
 
 ## Resistance mechanisms
 
@@ -33,3 +34,6 @@ Vorinostat (SAHA) is a pan-HDAC inhibitor with FDA approval for cutaneous T cell
 - [PMID:34433969](../papers/34433969.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

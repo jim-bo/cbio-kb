@@ -3,8 +3,8 @@ symbol: FGF19
 aliases: []
 cancer_types: [NSCLC, LUAD]
 tags: [amplification, metastasis, FGFR, pan-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # FGF19
@@ -16,6 +16,7 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 ## Alterations observed in the corpus
 
 - FGF19 appeared in MSK-CHORD volcano plots of metastasis and Gleason-association analyses across the 24,950-patient pan-cancer real-world cohort ([msk_chord_2024](../datasets/msk_chord_2024.md)), indicating an association with metastatic tropism or disease aggressiveness; specific effect sizes and p-values for FGF19 individually were not reported in the main text [PMID:39506116](../papers/39506116.md).
+- 11q13 focal amplification in HCC; provides therapeutic rationale for FGFR-targeted trials in a subset of HCC patients [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

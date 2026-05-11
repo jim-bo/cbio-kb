@@ -3,8 +3,8 @@ symbol: RAF1
 aliases: []
 cancer_types: [PAAD, PAST]
 tags: [mapk-pathway, kinase, braf-fusions]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effec
 - RAF1 S259F detected in CRC-resistant PDX (CLR113, CCF 10%) at resistance to KRASG12C + [EGFR](../genes/EGFR.md) inhibition [PMID:36355783](../papers/36355783.md)
 - RAF1 fusions in pilocytic astrocytoma cited as a known MAPK-activating mechanism analogous to [KIAA1549](../genes/KIAA1549.md):BRAF fusions; not directly identified in the 96-case WGS cohort but recognized as a recurrent alteration in this tumor type; MEK inhibition is the rational therapeutic approach for fusion-bearing tumors. [PMID:23817572](../papers/23817572.md)
 - Amplification in ~6% of high-grade urothelial carcinoma tumors as part of the MAPK-pathway alteration set [PMID:23897969](../papers/23897969.md)
+- BRAF and RAF1 are RAS/RAF/MAPK pathway components; mutations occur in <5% of HCC but the pathway is universally activated in advanced disease [PMID:24735922](../papers/24735922.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ RAF1 (also known as CRAF) encodes a serine/threonine kinase and downstream effec
 - [PMID:23897969](../papers/23897969.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

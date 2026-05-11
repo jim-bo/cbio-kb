@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # FBXW7
@@ -30,6 +30,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - R465H mutation identified in adenoid cystic carcinoma (ACC); tumor suppressor that targets [MYC](../genes/MYC.md) and [NOTCH1](../genes/NOTCH1.md) for degradation [PMID:23685749](../papers/23685749.md)
 - FBXW7 identified as a novel recurrent driver in 7.4% of fusion-negative rhabdomyosarcoma (PFN) tumors, exclusively at WD40-domain arginine residues R387P, R441G, and R367P [PMID:24436047](../papers/24436047.md)
 - FBXW7 mutated in 10% of muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
+- Frequent inactivating mutations leading to protein loss (33% in validation cohort) in ESCC; confirmed by IHC on TMA [PMID:24686850](../papers/24686850.md)
 
 ## Cancer types (linked)
 
@@ -91,3 +92,6 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

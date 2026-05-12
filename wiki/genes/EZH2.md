@@ -9,7 +9,7 @@ tags:
   - histone-methyltransferase
   - GCB
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # EZH2
@@ -30,6 +30,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Member of the chromatin-modifying gene category (with [KDM6A](../genes/KDM6A.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md)) recurrently mutated in [AML](../cancer_types/AML.md); contributes to the epigenetic regulation landscape of the disease [PMID:23634996](../papers/23634996.md)
 - Somatic variants identified in 4 patients in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Identified as an established EWS::FLI1 transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:25186949](../papers/25186949.md)
+- Recurrent SET-domain missense mutations Y646F, Y646H, A682G (3/112 cases) in Ewing sarcoma; known gain-of-function alleles in B-cell lymphoma; one of three significantly mutated genes by MuSiC SMG test [PMID:25223734](../papers/25223734.md)
+- Not altered in any MPNST discovery or validation cohort; explicit negative finding — PRC2 loss in MPNST occurs exclusively via EED or SUZ12 inactivation, not EZH2 [PMID:25240281](../papers/25240281.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +82,9 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - [PMID:25186949](../papers/25186949.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25240281](../papers/25240281.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

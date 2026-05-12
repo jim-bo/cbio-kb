@@ -3,8 +3,8 @@ symbol: SDHC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # SDHC
@@ -16,6 +16,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Alterations observed in the corpus
 
 - Germline LOF in 2/35 KIT/PDGFRA-wildtype [GIST](../cancer_types/GIST.md) patients; SDHC promoter methylation tested and ruled out in driver-negative tumors [PMID:36593350](../papers/36593350.md)
+- SDHC referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:36593350](../papers/36593350.md)
 
 *This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

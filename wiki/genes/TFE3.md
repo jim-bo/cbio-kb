@@ -8,8 +8,8 @@ tags:
   - fusion-gene
   - mTORC1
   - translocation
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # TFE3
@@ -21,6 +21,7 @@ TFE3 (Transcription Factor Binding to IGHM Enhancer 3) is an MiT/TFE family tran
 ## Alterations observed in the corpus
 
 - [SFPQ](../genes/SFPQ.md)–TFE3 recurrent in-frame fusion detected in 5 of 417 [CCRCC](../cancer_types/CCRCC.md) samples in the TCGA comprehensive molecular characterization; all fusion-bearing tumors were [VHL](../genes/VHL.md) wild-type and many carried Xp11 translocation by FISH — defining a molecularly distinct subset of clear cell renal cell carcinoma [PMID:23792563](../papers/23792563.md)
+- ASPSCR1-TFE3 and PRCC-TFE3 fusions recovered as expected in translocation renal cell carcinomas (tRCC); TFE3 is part of the MiTF-high subtype including fusion, amplification, or overexpression [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ TFE3 (Transcription Factor Binding to IGHM Enhancer 3) is an MiT/TFE family tran
 - [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

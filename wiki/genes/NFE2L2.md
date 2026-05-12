@@ -4,7 +4,7 @@ aliases: [NRF2]
 cancer_types: [LUSC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # NFE2L2
@@ -21,6 +21,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - NFE2L2 is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
 - NFE2L2 is identified as a driver linked to oxidative-stress signaling in HCC by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
 - Implicated in HCC genomic landscape analysis as part of the broader trunk-mutation set; RAS pathway (KRAS/NRAS) mutations are rare (~1% each) in HCC, with NFE2L2 noted among recurrently altered cancer-related genes [PMID:24798001](../papers/24798001.md)
+- Absent in 39-case aggressive cutaneous squamous cell carcinoma (cSCC) cohort — explicit negative finding suggesting NFE2L2 mutations are not a driver in aggressive cSCC [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

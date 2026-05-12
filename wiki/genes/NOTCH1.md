@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ATC, CSCC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # NOTCH1
@@ -34,6 +34,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Mutated in 3/21 (14%) sequenced sinonasal adenoid cystic carcinomas — truncating variants including p.Ser2467Ter and p.Ala1908SerfsTer72; co-occurring with canonical [MYB](../genes/MYB.md)::[NFIB](../genes/NFIB.md) fusion in all 3 cases; associated with solid/basaloid and metatypical morphology and poor outcome (2/3 dead of disease) [PMID:24418857](../papers/24418857.md)
 - NOTCH1 is mutated in ESCC as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
 - NOTCH1 is recurrently mutated in ESCC, confirming prior reports of Notch pathway dysregulation in this cancer type [PMID:24686850](../papers/24686850.md)
+- Mutated in 59.0% of 39 aggressive cSCC cases; inactivating pattern (missense in EGF-like repeats, truncating throughout); significant by all four driver-detection methods [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -102,3 +103,6 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

@@ -8,7 +8,7 @@ tags:
   - SWI-SNF
   - tumor-suppressor
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # ARID1B
@@ -27,6 +27,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - Flagged as SWI/SNF chromatin-remodeling complex partner of ARID1A in sinonasal AdCC literature context; no coding mutations reported in the sequenced cohort [PMID:24418857](../papers/24418857.md)
 - Non-catalytic BAF subunit (BAF250B) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but discussed as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
 - Loss-of-function mutation in 1% (range 1–3%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
+- Frameshift/nonsense mutations in 3/22 (14%) carcinosarcoma cases; co-occurs with ARID1A mutations in 3 cases, suggesting combined SWI/SNF complex disruption [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

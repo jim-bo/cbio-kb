@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # FAT1
@@ -21,6 +21,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Mutated in 30% (12/40) of OSCC tumors (two-thirds inactivating); combined inactivation rate 46% when including focal deletions; candidate tumor suppressor linked to aberrant Wnt activation [PMID:23619168](../papers/23619168.md)
 - FAT1 P1665L mutation observed in 1 case of atypical sinonasal gland arising in seromucinous hamartoma (ASGSH precursor lesion) in sinonasal adenoid cystic carcinoma cohort [PMID:24418857](../papers/24418857.md)
 - Recurrent truncating mutations, LOH, and 3.4% homozygous deletion in ESCC; functional tumor suppressor validated by shRNA knockdown (n=139 tumors) [PMID:24686850](../papers/24686850.md)
+- Mutated in 43.6% of 39 aggressive cSCC tumors; identified as a differentiation-related tumor suppressor by inactivation-bias methods [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:24686850](../papers/24686850.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

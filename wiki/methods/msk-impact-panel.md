@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -51,6 +51,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Targeted hybrid-capture sequencing of 279 cancer-associated genes (Illumina HiSeq 2000, mean depth 442×, ≥100× at 97% of targeted exons) used on 12 paired SCCOHT tumor/normal samples, identifying biallelic SMARCA4 inactivating mutations in 100% of cases [PMID:24658004](../papers/24658004.md)
 - Capture-based MSK-IMPACT sequencing of 109 high-grade urothelial bladder carcinomas (blca_mskcc_solit_2014) at mean 579x coverage across targeted exons; detected mutations in 240 genes with 23 mutated in ≥5% of cases; PIK3CA mutation associated with improved post-cystectomy recurrence-free survival [PMID:25092538](../papers/25092538.md)
 - Custom 230-gene targeted capture panel (mean coverage 692×) applied to 69 matched CRC primary/metastasis trios; demonstrated 100% concordance of KRAS/NRAS/BRAF and 93% overall concordance for recurrent driver mutations. [PMID:25164765](../papers/25164765.md)
+- Used in MPNST validation cohort (37 FFPE MPNSTs and 7 neurofibromas from 32 NF1 patients); targeted hybrid-capture panel including NF1, SUZ12, EED, CDKN2A, TP53 confirmed PRC2 alterations in 70–90% of MPNSTs [PMID:25240281](../papers/25240281.md)
 
 ## Notes
 
@@ -85,31 +86,34 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25240281](../papers/25240281.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

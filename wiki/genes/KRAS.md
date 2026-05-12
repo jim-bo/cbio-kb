@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # KRAS
@@ -73,6 +73,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Mutated in 6% of gastric adenocarcinoma (STAD) overall (TCGA); KRAS/NRAS alterations combined reach 17% across CIN and MSI subtypes [PMID:25079317](../papers/25079317.md)
 - Activating mutations in 33% of LUAD (TCGA, n=230, 74 cancer-associated); mutually exclusive with EGFR; enriched in the transversion-high (TH)/smoker cohort and the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; established trunk event; mutation status guides cetuximab/panitumumab eligibility and is reliably detected from either tumor site [PMID:25164765](../papers/25164765.md)
+- Hotspot mutations in 5/22 gynaecologic carcinosarcomas (27%); flagged as actionable candidates for MEK/BRAF inhibition [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -244,3 +245,6 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

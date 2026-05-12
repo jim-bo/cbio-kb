@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # CDKN2A
@@ -77,6 +77,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Alterations independently associated with worse recurrence-free survival (HR=5.76) and cancer-specific survival (HR=2.94) in muscle-invasive urothelial carcinoma after radical cystectomy; authors propose rationale for CDK4 inhibitor trials [PMID:25092538](../papers/25092538.md)
 - Epigenetically silenced in 4/66 chromophobe RCC cases [PMID:25155756](../papers/25155756.md)
 - Biallelic loss in MSK-PCa3 and MSK-PCa6 prostate cancer cell lines as an alternative RB-pathway hit [PMID:25201530](../papers/25201530.md)
+- Focal 9p21 deletions in 12% of Ewing sarcoma tumors; mutually exclusive with STAG2 mutation; STAG2 may regulate CDKN2A epigenetically via CTCF-cohesin insulation [PMID:25223734](../papers/25223734.md)
+- Homozygous deletion (most common) or heterozygous loss in 81% of MPNSTs; co-occurs with NF1 and PRC2 (EED/SUZ12) loss [PMID:25240281](../papers/25240281.md)
+- Mutated/deleted in 43.6% of cSCC; significant by all four driver-detection methods [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -256,3 +259,12 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25240281](../papers/25240281.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

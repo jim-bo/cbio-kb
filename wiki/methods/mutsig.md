@@ -5,7 +5,7 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -37,6 +37,7 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig2CV applied to 412 lung adenocarcinomas (luad_tcga_pub, 230 TCGA + 182 published) identified 18 significantly mutated genes; newly identified RIT1 activating mutations and MGA loss-of-function (mutually exclusive with MYC amplification) [PMID:25079552](../papers/25079552.md)
 - MutSigCV applied to 50 muscle-invasive urothelial carcinoma tumors; identified ERCC2, TP53, RB1, KDM6A, and ARID1A as significantly mutated genes. [PMID:25096233](../papers/25096233.md)
 - Used in the TCGA ChRCC study to identify significantly mutated genes in 66 tumors; nominated TP53 (32%) and PTEN (9%) as the only statistically significant drivers. [PMID:25155756](../papers/25155756.md)
+- MutSig CV v1.4 applied to aggressive cSCC WES (39 tumors) despite extreme UV-driven mutation burden (median 61.2 mutations/Mb); identified 11 significant driver genes at q<0.1, including TP53, CDKN2A, NOTCH1, NOTCH2, AJUBA, HRAS, CASP8 [PMID:25303977](../papers/25303977.md)
 
 ## Notes
 
@@ -49,61 +50,64 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 - [PMID:22343534](../papers/22343534.md) — DLBCL WES study where MutSig identified 58 significantly mutated genes.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

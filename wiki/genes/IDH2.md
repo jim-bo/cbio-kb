@@ -3,8 +3,8 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # IDH2
@@ -24,6 +24,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - No IDH2 mutations detected in the TCGA 2013 primary [GBM](../cancer_types/GBM.md) cohort (n=291 WES/291 tumor-normal pairs); only [IDH1](../genes/IDH1.md) R132H/G/C mutations were observed (6% of cases), emphasizing IDH2 as non-driver in primary adult [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
 - Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH1](../genes/IDH1.md)) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Codon 172 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); absent in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) in this study; IDH mutation associated with worse 3-year survival (HR 7.37, P=0.037 adjusted) [PMID:24185509](../papers/24185509.md)
+- Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -65,3 +66,6 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

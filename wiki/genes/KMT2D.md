@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # KMT2D
@@ -35,6 +35,9 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D (histone methyltransferase) is significantly mutated in ESCC, contributing to epigenetic dysregulation [PMID:24686850](../papers/24686850.md)
 - Included as one of four chromatin-modifier genes (CMGs) validated by orthogonal sequencing in muscle-invasive bladder cancer (MSKCC cohort); concordance rate 99.3% between discovery and validation platforms [PMID:25092538](../papers/25092538.md)
 - Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings [PMID:25201530](../papers/25201530.md)
+- Novel somatic mutation in chromatin/methyltransferase regulators in Ewing sarcoma WGS cohort (MLL2) [PMID:25223734](../papers/25223734.md)
+- Splice-site alteration in 1/22 gynaecologic carcinosarcomas (MLL2), co-occurring with a KMT2C mutation in the same tumor [PMID:25233892](../papers/25233892.md)
+- Mutated in 69.2% of 39 aggressive cSCC tumors; another histone-methylation regulator significant by inactivation-bias methods; shared with HNSC mutation landscape [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -112,3 +115,12 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

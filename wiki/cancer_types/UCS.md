@@ -4,8 +4,8 @@ oncotree_code: UCS
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # Uterine Carcinosarcoma (UCS)
@@ -24,6 +24,7 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - [CCNE1](../genes/CCNE1.md) — amplification enriched in carcinosarcomas from Black patients (29% vs. 10% White, q<0.1). [PMID:37651310](../papers/37651310.md)
 - [KMT2B](../genes/KMT2B.md) — mutations enriched in carcinosarcomas from Black patients (31% vs. 10% White, q<0.1). [PMID:37651310](../papers/37651310.md)
 - [NF1](../genes/NF1.md) — mutations more frequent in carcinosarcomas from Black patients (12% vs. 1% White, q<0.1). [PMID:37651310](../papers/37651310.md)
+- Whole-exome sequencing of 17 uterine carcinosarcomas (plus 5 ovarian) found TP53 (67%), PIK3CA (41%), PTEN (41%), KRAS (27%), and chromatin-remodelling genes in ~64% of cases (ARID1A 32%, KMT2C 27%, BAZ1A 18%); >75% of cases harboured potentially actionable alterations [PMID:25233892](../papers/25233892.md)
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ Uterine carcinosarcoma (UCS), also known as malignant mixed Mullerian tumor (MMM
 - [PMID:37651310](../papers/37651310.md) — Molecular characterization of endometrial carcinomas in Black and White patients reveals disparate drivers with therapeutic implications (Cancer Discovery, 2023)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

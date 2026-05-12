@@ -5,7 +5,7 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -28,6 +28,9 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Frequency Cohort of 119 additional matched ESCC germline/tumor pairs plus 10 ESCC cell lines sequenced by targeted deep sequencing (mean coverage 111×) covering all coding exons of discovery-cohort mutated genes plus 277 cancer-relevant genes [PMID:24686850](../papers/24686850.md)
 - Targeted DNA-seq via MSK-IMPACT capture panel applied to 109 bladder carcinomas (blca_mskcc_solit_2014); orthogonal sequencing of all coding exons of STAG2, KDM6A, ARID1A, and KMT2D confirmed 99.3% of mutation calls; mean coverage 579x [PMID:25092538](../papers/25092538.md)
 - MSK-IMPACT 230-gene targeted sequencing used to profile 69 matched CRC primary/metastasis trios, supporting clinical use of either primary or metastatic tissue for mutation profiling. [PMID:25164765](../papers/25164765.md)
+- Used in Ewing sarcoma follow-up cohort (199 patients) for targeted capture sequencing of STAG2 and TP53 to validate discovery WGS findings [PMID:25223734](../papers/25223734.md)
+- MSK-IMPACT targeted hybrid-capture sequencing used in MPNST validation cohort (37 tumors, 7 neurofibromas) to confirm PRC2 alteration frequency [PMID:25240281](../papers/25240281.md)
+- NuGEN Ovation Cancer Panel (344-gene SPET capture) used for targeted sequencing of 19 pRCCs as orthogonal validation of WES findings [PMID:25401301](../papers/25401301.md)
 
 ## Notes
 
@@ -41,25 +44,34 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25240281](../papers/25240281.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # BRAF
@@ -62,6 +62,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Listed among somatic alterations in the HCC molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
 - Mutations in 10% of LUAD (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; trunk event established early in carcinogenesis; concordance supports use of either site for clinical testing to guide cetuximab/panitumumab eligibility [PMID:25164765](../papers/25164765.md)
+- V600 mutation absent in this cSCC cohort (39 patients); referenced as a marker evaluated and not found in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -201,3 +202,6 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

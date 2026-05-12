@@ -9,7 +9,7 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -30,6 +30,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied for somatic point-mutation calling on 130 TCGA bladder carcinoma WES tumor/normal pairs; identified mean 302 exonic mutations per sample and APOBEC TpC signature representing 51% of all mutations [PMID:24476821](../papers/24476821.md)
 - Used to call SNVs in pre-treatment urothelial carcinoma tumors (n=50), identifying ERCC2 mutations enriched in cisplatin responders. [PMID:25096233](../papers/25096233.md)
 - Used to call somatic SNVs in matched primary/metastasis CRC trios (n=69) as part of the MSK-IMPACT analysis pipeline. [PMID:25164765](../papers/25164765.md)
+- Used for somatic variant calling in MPNST WES discovery cohort (15 tumors) alongside other callers [PMID:25240281](../papers/25240281.md)
 
 ## Notes
 
@@ -39,25 +40,28 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25240281](../papers/25240281.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

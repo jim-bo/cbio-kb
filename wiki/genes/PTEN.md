@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
 tags: [tumor-suppressor, pi3k-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # PTEN
@@ -75,6 +75,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Nonsilent somatic mutation in 6/66 (9%) plus 2 homozygous deletions in ChRCC; MutSig q<0.1; germline PTEN mutations underlie Cowden syndrome predisposing to ChRCC [PMID:25155756](../papers/25155756.md)
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; PI3K-pathway heterogeneity clinically relevant given active PI3K inhibitor development and evidence PIK3CA mutations may predict aspirin benefit [PMID:25164765](../papers/25164765.md)
 - Homozygous deletion of gene or promoter in 6/7 patient-derived CRPC organoid lines; biallelic loss in all CRPC lines; near-universal loss supports prioritizing PTEN/PI3K-pathway-directed therapy in CRPC [PMID:25201530](../papers/25201530.md)
+- Missense/nonsense/frameshift mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; co-occurs with PIK3CA; PI3K pathway hits support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
+- Significantly mutated in chromophobe renal cell carcinoma (chRCC) in a non-clear-cell RCC (nccRCC) multisubtype WES study [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -260,3 +262,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

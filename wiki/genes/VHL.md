@@ -10,7 +10,7 @@ tags:
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 canonical_source: cbioportal
 unverified: false
 ---
@@ -28,6 +28,7 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Top significantly mutated gene in TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; mutations mutually exclusive with promoter methylation (~7% epigenetically silenced); central role in HIF stabilization [PMID:23792563](../papers/23792563.md)
 - Biallelic conditional inactivation (Vhl-null mouse model) is the central perturbation mimicking the truncal event in human ccRCC; VHL loss stabilizes both [HIF1A](../genes/HIF1A.md) and HIF2A, with HIF1A driving anti-survival effects in renal papilla and HIF2A driving dedifferentiation/proliferation in cortical proximal tubule cells [PMID:23797736](../papers/23797736.md)
 - VHL somatic mutation was present in 9/10 ccRCC tumors; the remaining case was silenced by promoter methylation. VHL loss is truncal in all 10 tumors and confirmed as the founding driver event together with chromosome 3p loss [PMID:24487277](../papers/24487277.md)
+- VHL referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - [PMID:24487277](../papers/24487277.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

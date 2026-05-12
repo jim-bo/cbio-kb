@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # PIK3CA
@@ -85,6 +85,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA mutations in 7% of LUAD (TCGA, n=230); enriched in transversion-low tumors; drives mTOR pathway activation via p-AKT in subset [PMID:25079552](../papers/25079552.md)
 - PIK3CA recurrent activating helical-domain missense mutations in 21% of muscle-invasive bladder cancer (BLCA, n=47 TURBT); associated with favorable recurrence-free and cancer-specific survival after radical cystectomy [PMID:25092538](../papers/25092538.md)
 - Convergent evolution with independent E542K and E545K hotspot mutations in primary vs metastasis; three additional private events including primary-specific E545K (x2) and metastasis-specific N107 in-frame deletion; subclonal PI3K heterogeneity is clinically relevant given active PI3K inhibitor development [PMID:25164765](../papers/25164765.md)
+- Hotspot activating mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; mutually exclusive with PIK3R1; co-occurs with PTEN; PI3K pathway hits in >50% of cases support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
+- Mutated in 10% (4/39) of aggressive cSCC cases with 5 total mutations; no canonical E545/H1047 hotspot; 2 inactivating; not reaching significance as a driver in this cohort [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -288,3 +290,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

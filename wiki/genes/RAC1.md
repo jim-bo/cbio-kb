@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-12
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - Recurrent RAC1 P29S hotspot mutation identified in melanoma WES cohort (147 tumors, Yale); among significantly mutated genes in melanoma [PMID:22842228](../papers/22842228.md)
 - RAC1 activation is driven by recurrent mutations in upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), and [ECT2](../genes/ECT2.md) in esophageal adenocarcinoma (EAC), with downstream effector [PAK1](../genes/PAK1.md) recurrently amplified at 11q13; RAC1 itself is not directly mutated [PMID:23525077](../papers/23525077.md)
 - RAC1 P29S recurrent gain-of-function mutation found in 3/14 pre-treatment melanoma tumors of early-resistance patients (P=0.026); associated with early resistance to RAF inhibitors [PMID:24265153](../papers/24265153.md)
+- RAC1 P29S hotspot mutation identified in cutaneous squamous cell carcinoma (cSCC), at the same residue as reported in melanoma [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -26,6 +26,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC staining of 86 GBC patient tissues used to quantify stromal SEMA7A expression; high stromal SEMA7A associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival [PMID:24997986](../papers/24997986.md)
 - Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::FLI1), PRKCB, BRCA1, Ki67, cyclin A, BCL11B, and ITM2A. [PMID:25186949](../papers/25186949.md)
 - Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed AR, SYP, CHGA, CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. [PMID:25201530](../papers/25201530.md)
+- Used to assess STAG2 protein expression in Ewing sarcoma primary and relapse tissue; IHC revealed clonal expansion of STAG2-null cells at relapse in 3/21 paired samples [PMID:25223734](../papers/25223734.md)
 
 ## Notes
 
@@ -37,19 +38,22 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

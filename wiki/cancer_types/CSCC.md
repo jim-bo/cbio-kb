@@ -4,8 +4,8 @@ oncotree_code: CSCC
 main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # Cutaneous Squamous Cell Carcinoma (CSCC)
@@ -26,6 +26,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [TERT](../genes/TERT.md) — promoter gain-of-function mutations emerging in AK (trunk events), upregulating telomerase. [PMID:39091884](../papers/39091884.md)
 - [ARID2](../genes/ARID2.md) — loss-of-function mutations enriched specifically at the AK-to-cSCC transition; SWI/SNF chromatin remodeling complex disruption. [PMID:39091884](../papers/39091884.md)
 - [NOTCH2](../genes/NOTCH2.md) — loss-of-function in AK; secondary hits to Notch pathway on phylogenetic branches. [PMID:39091884](../papers/39091884.md)
+- WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including TP53 (95%), NOTCH1 (59%), NOTCH2 (51%), FAT1 (44%), CDKN2A (44%), KMT2C (39%); KMT2C mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

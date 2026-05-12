@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # PIK3R1
@@ -30,6 +30,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 PI3K pathway loss observed in gastric cancer (EGC); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
 - Expressed mutation seen in CRPC; MSK-PCa2 PIK3R1 mutation co-occurs with PTEN loss and is associated with PI3K-inhibitor sensitivity in patient-derived prostate cancer organoids [PMID:25201530](../papers/25201530.md)
+- In-frame indels and frameshift mutations in 3/22 (14%) uterine/ovarian carcinosarcoma cases; mutually exclusive with PIK3CA; first implication of PIK3R1 in carcinosarcoma [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +93,6 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

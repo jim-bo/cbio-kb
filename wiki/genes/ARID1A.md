@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # ARID1A
@@ -56,6 +56,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutated in 7% of LUAD (chromatin modifier); part of the chromatin remodeling alteration landscape of lung adenocarcinoma [PMID:25079552](../papers/25079552.md)
 - Truncating alterations in 28% of muscle-invasive urothelial carcinoma (UCB); mutually exclusive with SMARCA4 mutations; not associated with post-cystectomy outcomes [PMID:25092538](../papers/25092538.md)
 - Significantly mutated (MutSigCV) across muscle-invasive urothelial carcinoma cohort [PMID:25096233](../papers/25096233.md)
+- Truncating mutations in 7/22 (32%) uterine/ovarian carcinosarcoma cases; enriched in MSS ovarian cases (4/5 ovarian vs 0/uterine MSS) [PMID:25233892](../papers/25233892.md)
+- Recurrently mutated in chRCC but not reaching q-score significance in the non-clear-cell RCC cohort [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -181,3 +183,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

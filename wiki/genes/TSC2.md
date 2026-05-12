@@ -4,7 +4,7 @@ aliases: [tuberin]
 cancer_types: [HCC, PTAD]
 tags: [tumor-suppressor, mtor-pathway, actionable]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # TSC2
@@ -23,6 +23,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - Mutated in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the PI3K/AKT/mTOR pathway; TSC1/TSC2 loss identifies a subgroup of BLCA (42% PI3K/AKT/mTOR pathway-altered) with potential sensitivity to mTOR inhibition [PMID:24476821](../papers/24476821.md)
 - Somatic mutation in chromophobe RCC (combined TSC1/TSC2 rate 4/66); germline TSC2 mutations (tuberous sclerosis complex) predispose to ChRCC [PMID:25155756](../papers/25155756.md)
 - Tumor-suppressor mutation identified in MSK prostate cancer cell lines in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
+- TSC2 recurrently mutated in chromophobe renal cell carcinoma (chRCC), suggesting mTORC1 addiction and possible responsiveness to mTORC1 inhibitors (rapalogs) [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

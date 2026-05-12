@@ -9,8 +9,8 @@ tags:
   - chromophobe
   - mitochondria
   - tert
-processed_by: entity-page-writer
-processed_at: "2026-05-11"
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # Chromophobe Renal Cell Carcinoma (CHRCC)
@@ -32,6 +32,7 @@ Chromophobe renal cell carcinoma is a distinct subtype of renal cell carcinoma a
 - [CDKN2A](../genes/CDKN2A.md) — epigenetically silenced in 4/66 cases. [PMID:25155756](../papers/25155756.md)
 - Whole-chromosome losses of chr 1, 2, 6, 10, 13, 17 in 86% (57/66) of ChRCC; pattern is universal in classic subtype (47/47) but present in only 10/19 eosinophilic cases. [PMID:25155756](../papers/25155756.md)
 - Mitochondrial DNA mutations — 35 somatic mtDNA events at >50% heteroplasmy across 27 cases; MT-ND5 (Complex I) most frequently mutated (6/61, predominantly eosinophilic subtype); elevated [PPARGC1A](../genes/PPARGC1A.md) and ~4× mtDNA copy number indicate increased mitochondrial biogenesis. [PMID:25155756](../papers/25155756.md)
+- Integrated exome/RNA-seq/CNV profiling of 49 chromophobe RCCs identified TP53, PTEN, PDHB, PRKAG2, and FAAH2 as significantly mutated genes; TP53 mutations significantly enriched in the classic chRCC subtype (P=2.3×10⁻⁵); combined PRKAG2+PDHB mutations define a metabolic subtype; TSC1/TSC2/MTOR mutations nominate mTORC1 inhibitors [PMID:25401301](../papers/25401301.md)
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Chromophobe renal cell carcinoma is a distinct subtype of renal cell carcinoma a
 - [PMID:25155756](../papers/25155756.md) — TCGA comprehensive molecular characterization of chromophobe renal cell carcinoma (Cancer Cell 2015).
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

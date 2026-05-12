@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # JAK2
@@ -20,6 +20,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - V617F present in 48/48 (100%) [PV](../cancer_types/PV.md), 35/62 (56%) [ET](../cancer_types/ET.md), and 27/39 (69%) [MF](../cancer_types/MF.md) patients; strictly mutually exclusive with [CALR](../genes/CALR.md) and [MPL](../genes/MPL.md) mutations in whole-exome sequencing of myeloproliferative neoplasms [PMID:24325359](../papers/24325359.md)
 - Co-amplified with CD274 (PD-L1) and PDCD1LG2 (PD-L2) at 9p24.1 in 15% of EBV-positive gastric adenocarcinoma (STAD) tumours (TCGA); elevated mRNA expression; supports rationale for JAK2 inhibitors and immune-checkpoint blockade in EBV-positive STAD [PMID:25079317](../papers/25079317.md)
+- Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

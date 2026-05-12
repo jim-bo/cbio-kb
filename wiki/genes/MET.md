@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC]
 tags: [rtk, metastasis, resistance, amplification]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # MET
@@ -35,6 +35,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in NPC; co-targeted by GEN1286 (EGFR×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
 - MET recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing in gastric cancer (EGC); RTK amplification in CIN subtype; potential therapeutic relevance [PMID:25079317](../papers/25079317.md)
 - MET DNA mutations in 7% of LUAD; exon 14 skipping (alternative splicing) in 4% (10/230) with identifiable cis-acting splice-site mutations in 9/10 cases; focal amplification enriched in oncogene-negative tumours; nominated as driver and therapeutic target [PMID:25079552](../papers/25079552.md)
+- Recurrent activating kinase-domain mutations (p.Val1088Ala, p.Ile1095Thr, p.Phe1218Ile) and extracellular p.Asp153Tyr identified in 15% of pRCC; chr7 amplification of the MET locus in ~70% of pRCCs; induced as downstream target of ACTG1-MITF fusion; major therapeutic rationale for MET inhibitors in pRCC [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -108,3 +109,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

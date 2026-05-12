@@ -9,7 +9,7 @@ cancer_types:
   - ODG
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # CCND1
@@ -48,6 +48,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - High-level focal amplification in 7% of HCCs (SNP-array, n=704); part of the proliferation class molecular signature [PMID:24798001](../papers/24798001.md)
 - Recurrent focal amplification in CIN gastric adenocarcinoma; suggests CDK4/6 inhibitor evaluation in this subtype [PMID:25079317](../papers/25079317.md)
 - Recurrent focal amplification in LUAD; identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
+- Focal 11q amplification observed in cSCC cohort [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -148,3 +149,6 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

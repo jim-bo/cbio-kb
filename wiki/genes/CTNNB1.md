@@ -13,7 +13,7 @@ cancer_types:
   - BLCA
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # CTNNB1
@@ -51,6 +51,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Beta-catenin pathway alteration among non-hypermutated gastric tumours; alternative splicing strongly associated with U2AF1 S34F mutations [PMID:25079317](../papers/25079317.md)
 - Alternative splicing event strongly associated with U2AF1 S34F mutations in LUAD; U2AF1 S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
 - Recurrently mutated in non-hypermutated CRC (concordant between primary and metastasis per Figure 1B) [PMID:25164765](../papers/25164765.md)
+- Hotspot mutations in 2 MSS carcinosarcoma cases (uterine); indicates Wnt pathway activation in a subset of MSS tumors [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -152,3 +153,6 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

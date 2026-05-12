@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # MLH1
@@ -30,6 +30,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Homozygous loss-of-function in PanNET patient PN4 (together with [MSH6](../genes/MSH6.md)); 18% microsatellite instability but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; somatic MLH1 promoter hypermethylation underlies many MSI-high familial intestinal gastric tumors; included in standard multigene GC panel [PMID:24816255](../papers/24816255.md)
 - MLH1 promoter hypermethylation drives the MSI subtype (gastric-CIMP) in gastric cancer (EGC) [PMID:25079317](../papers/25079317.md)
+- Frameshift mutation (MM20T) driving hypermutator phenotype in uterine/ovarian carcinosarcoma; MMR-deficient cases flagged as candidates for anti-PD-1 immunotherapy [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -88,3 +89,6 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

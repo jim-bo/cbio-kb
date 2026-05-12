@@ -3,8 +3,8 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # NOTCH2
@@ -21,6 +21,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - NOTCH2 compound heterozygous truncating mutations p.Q2308fs*5 and p.E2420* in ACC (PD3189), co-occurring with [SPEN](../genes/SPEN.md) truncations; reminiscent of activating mutations in Hajdu-Cheney syndrome [PMID:23778141](../papers/23778141.md)
 - PEST-truncating mutations in 9/172 (5.2%) [MCL](../cancer_types/MCL.md); mutually exclusive with [NOTCH1](../genes/NOTCH1.md) (only 1/16 carried both); dismal 3-year [OS](../cancer_types/OS.md) (0% vs 62%, P=2.5×10⁻⁴); independent [OS](../cancer_types/OS.md) risk factor (HR 3.5; 95% CI 1.3–9.5; P=0.017); enriched in blastoid/pleomorphic morphology (66% vs 18%, P=0.001) [PMID:24145436](../papers/24145436.md)
 - Referenced as a Notch-pathway co-actor in AdCC based on literature; no specific mutations reported in this cohort but implicated in Notch pathway oncogenesis in adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
+- Mutated in 51.3% of 39 aggressive cSCC cases; inactivating pattern paralleling NOTCH1; novel candidate tumor suppressor; mutation associated with perineural invasion (70% mutant vs 33% WT, p=0.04) and scalp/periorbital primary site (p=0.04) [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

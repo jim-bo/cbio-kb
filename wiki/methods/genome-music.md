@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [significantly-mutated-genes, statistical-analysis, bioinformatics]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # Genome MuSiC
@@ -18,6 +18,7 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 ## Used by
 
 - Applied in ICGC PedBrain pilocytic astrocytoma WGS study (96 cases) for significantly mutated gene analysis (max-FDR 0.05); identified only [BRAF](../genes/BRAF.md), [FGFR1](../genes/FGFR1.md), [KRAS](../genes/KRAS.md), and [NF1](../genes/NF1.md) as significantly mutated genes, confirming pilocytic astrocytoma as a single-pathway (MAPK) disease [PMID:23817572](../papers/23817572.md)
+- Applied to Ewing sarcoma WGS data; genome-MuSiC SMG test identified STAG2, TP53, and EZH2 as the only significantly mutated genes among 112 tumors [PMID:25223734](../papers/25223734.md)
 
 ## Notes
 
@@ -26,4 +27,7 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

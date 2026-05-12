@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # MSH6
@@ -29,6 +29,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Homozygous loss-of-function in PanNET patient PN4 (together with [MLH1](../genes/MLH1.md)); TMB ~11 mut/Mb but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Somatic MMR gene mutations (including MSH6) acquired in hypermutated low-grade glioma recurrences post-temozolomide; loss of MSH6 and other MMR components enables continued TMZ-induced hypermutation via microsatellite instability [PMID:24336570](../papers/24336570.md)
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; standard multigene panel for familial gastric cancer includes MSH6 alongside MLH1, MSH2, PMS2, and EPCAM [PMID:24816255](../papers/24816255.md)
+- Nonsense/frameshift mutations in 3 of 22 uterine/ovarian carcinosarcoma cases (MM04T, MM12T biallelic, MM18T); driver of mutator phenotype; MMR-deficient tumors nominated as candidates for anti-PD-1 immunotherapy (pembrolizumab) [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -85,3 +86,6 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

@@ -9,7 +9,7 @@ tags:
   - chromatin-remodeling
   - deubiquitinase
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # BAP1
@@ -33,6 +33,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Subclonal/branch driver in ccRCC; RMH008 harbored three independent BAP1 hits (p.Gln277*, p.Asn411fs, p.Pro519fs); BAP1 mutation is a marker of poor prognosis and was heterogeneous in all cases detected across 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
 - Somatic mutation reported in the HCC molecular landscape (WES, n=1,289) as a non-actionable driver [PMID:24798001](../papers/24798001.md)
 - Recurrent somatic mutations in thymic carcinomas (cohort-level observation) [PMID:24974848](../papers/24974848.md)
+- Referenced as a known germline kidney-cancer predisposition gene; somatic profiles of nccRCC are contrasted against its germline role [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -89,3 +90,6 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

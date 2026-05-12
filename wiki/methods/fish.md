@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -37,6 +37,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Routine clinical FISH testing for t(4;14) and t(11;14) applied to 50 of 203 multiple myeloma patients in the MMRC cohort, complementing whole-exome and whole-genome sequencing for cytogenetic characterization [PMID:24434212](../papers/24434212.md)
 - Validated FGFR1 amplification in an additional 53 ESCC tumors; FISH confirmed amplification in 11/53 cases (20.8%) [PMID:24686850](../papers/24686850.md)
 - Used to confirm high-level focal EGFR amplification in a metastasis sample (chr 7p) from a RAS/RAF wild-type CRC patient in whom the primary showed only 7p polysomy. [PMID:25164765](../papers/25164765.md)
+- Used in nccRCC study to validate ASPSCR1-TFE3 and PRCC-TFE3 fusions in translocation RCCs, and to confirm TFEB focal amplification and CLTC-TFEB fusion [PMID:25401301](../papers/25401301.md)
 
 ## Notes
 
@@ -52,46 +53,49 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:30325352](../papers/30325352.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

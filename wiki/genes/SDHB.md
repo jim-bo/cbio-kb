@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [GIST]
 tags: [tumor-suppressor, sdh-deficient, gist]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # SDHB
@@ -19,6 +19,7 @@ SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial com
 - KIT/PDGFRA wild-type [GIST](../cancer_types/GIST.md) cases with SDHB IHC loss were classified as SDH-deficient (n=26 in the SDH-deficient subanalysis) [PMID:37477937](../papers/37477937.md).
 - Germline LOF in 7/35 (20%) KIT/PDGFRA-wildtype [GIST](../cancer_types/GIST.md) patients; 10/11 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
 - Among 43 mitochondrial-GO genes significantly elevated in chromophobe renal cell carcinoma cases harboring MT-ND5 somatic mutations (>70% heteroplasmy), implicating SDHB in mitochondrial dysfunction associated with ChRCC [PMID:25155756](../papers/25155756.md)
+- SDHB referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial com
 - [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

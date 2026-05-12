@@ -10,7 +10,7 @@ tags:
   - sarcoma
   - functional-precision-medicine
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # gefitinib
@@ -27,6 +27,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - NCI-60 CellMiner pharmacogenomics study identified EGFR-pathway genomic features associated with gefitinib sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - TCGA lung squamous study (178 tumors) assessed EGFR pathway context; gefitinib efficacy limited by rarity of EGFR-activating mutations in squamous histology [PMID:22960745](../papers/22960745.md)
 - Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in HCC [PMID:24735922](../papers/24735922.md)
+- Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via EGFR inhibition; gefitinib trials in cSCC noted alongside cetuximab in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
 
 ## Resistance mechanisms
 
@@ -52,3 +53,6 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - [PMID:24735922](../papers/24735922.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

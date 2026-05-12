@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -63,6 +63,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass WGS on 93 of 230 lung adenocarcinomas (luad_tcga_pub) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); ALK, ROS1, RET fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
 - Used to sequence 50 ChRCC tumors (60× tumor / 30× normal) in the TCGA ChRCC project, enabling detection of structural rearrangements at the TERT promoter and kataegis events via Meerkat. [PMID:25155756](../papers/25155756.md)
 - Applied to four CRC primary/metastasis trios (median 87× tumor, 50× normal) at the New York Genome Center to validate MSK-IMPACT findings; confirmed all panel-level calls and revealed genome-wide discordance in heterogeneous cases. [PMID:25164765](../papers/25164765.md)
+- Used in Ewing sarcoma WGS of 112 tumors with matched germline on Illumina HiSeq2000 (median 35× tumor depth); BWA alignment to GRCh37-lite; identified STAG2 (17%), TP53 (7%), and EZH2 as significantly mutated genes [PMID:25223734](../papers/25223734.md)
 
 ## Notes
 
@@ -80,118 +81,121 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

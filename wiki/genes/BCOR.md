@@ -8,7 +8,7 @@ tags:
   - chromatin-remodeling
   - rhabdomyosarcoma
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # BCOR
@@ -26,6 +26,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - Most recurrent mutation in sinonasal AdCC (4/21 sequenced tumors, 19%); multiple frameshift/nonsense variants including c.4017_4018insT (p.Asp1340Ter), c.1056dup (p.Thr353HisfsTer28), c.1888_1895del; associated with poor outcome [PMID:24418857](../papers/24418857.md)
 - Novel recurrent driver in 7% of all rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases (Xp11.4): 7 PAX-fusion-negative missense mutations plus 2 focal homozygous deletions plus 1 PAX-fusion-positive indel; BCOR is a chromatin repressor interacting with class I/II HDACs, previously implicated in [AML](../cancer_types/AML.md), retinoblastoma, and medulloblastoma [PMID:24436047](../papers/24436047.md)
 - Mutated in 4% of gastric adenocarcinoma overall; especially common in EBV-positive subtype (23%); chromatin-modifier loss in EBV-associated gastric cancer [PMID:25079317](../papers/25079317.md)
+- Mutated in 3/112 Ewing sarcoma cases: S1083I missense, M1259fs frameshift, and a 116-kb intragenic deletion [PMID:25223734](../papers/25223734.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

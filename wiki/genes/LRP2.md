@@ -3,8 +3,8 @@ symbol: LRP2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-12
 ---
 
 # LRP2
@@ -16,6 +16,7 @@ LRP2 (Low Density Lipoprotein Receptor-Related Protein 2, also known as Megalin)
 ## Alterations observed in the corpus
 
 - LRP2 is the 3' partner in the ABCB11–LRP2 gene fusion, reported as the first recurrent gene fusion in HCC [PMID:24735922](../papers/24735922.md)
+- Newly nominated significantly mutated gene in papillary renal cell carcinoma (pRCC) in a multisubtype nccRCC WES study [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -30,3 +31,6 @@ LRP2 (Low Density Lipoprotein Receptor-Related Protein 2, also known as Megalin)
 - [PMID:24735922](../papers/24735922.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

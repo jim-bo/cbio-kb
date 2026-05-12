@@ -4,7 +4,7 @@ aliases: [HER3]
 cancer_types: [CESC, NBL]
 tags: [receptor-tyrosine-kinase, targeted-therapy, neuroblastoma, progenitor]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # ERBB3
@@ -28,6 +28,7 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - ERBB3 (HER3) is co-targeted with EGFR by the bispecific ADC BL-B01D1 in NPC, achieving 38% ORR in the NPC sub-cohort in platinum-refractory disease. [PMID:24952746](../papers/24952746.md)
 - ERBB-pathway member cited in context of prior GBC whole-exome data showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
 - Altered in 15% of gastric adenocarcinoma (STAD) cases (TCGA); mutations enriched in MSI tumours, with 13/16 at COSMIC/recurrent sites [PMID:25079317](../papers/25079317.md)
+- V104M extracellular-domain hotspot mutation in 1/22 gynaecologic carcinosarcoma cases; flagged as actionable for ERBB-family inhibitor antibodies in Phase II development [PMID:25233892](../papers/25233892.md)
 
 ## Cancer types (linked)
 
@@ -82,3 +83,6 @@ ERBB3 (Erb-B2 Receptor Tyrosine Kinase 3), also known as HER3, is a member of th
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25233892](../papers/25233892.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

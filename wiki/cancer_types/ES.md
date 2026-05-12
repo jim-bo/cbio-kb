@@ -8,7 +8,7 @@ tags:
   - bone-cancer
   - pediatric
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # Ewing Sarcoma (ES)
@@ -26,6 +26,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - ES is characterized by recurrent EWSR1-rearrangements (canonical `EWSR1::FLI1` t(11;22)); secondary alterations involve [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), and STAG2.
 - CCLE pharmacogenomic profiling included Ewing sarcoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - EWS::FLI1 expression in human embryonic mesenchymal stem cells (heMSCs) alone is sufficient to impose an ES-like transcriptome, directly upregulate [[BRCA1]] while impairing ATM/ATR-mediated DNA damage response, and generate metastatic Ewing-like tumors in NOD/SCID mice (40% penetrance), supporting heMSCs as the cell of origin. [PMID:25186949](../papers/25186949.md)
+- WGS of 112 Ewing sarcoma tumors (extended to 299 patients) identified STAG2 (17%), CDKN2A deletion (12%), TP53 (7%), and epigenetic regulators EZH2/BCOR/ZMYM3 (2.7% each) as recurrently mutated; STAG2+TP53 co-mutation defined a high-risk subtype with markedly inferior survival [PMID:25223734](../papers/25223734.md)
 
 ## Subtypes
 
@@ -50,3 +51,6 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - [PMID:25186949](../papers/25186949.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

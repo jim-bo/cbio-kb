@@ -7,8 +7,8 @@ tags:
   - histone-methyltransferase
   - recombination
   - hnscc
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-12
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ PRDM9 encodes a histone H3 lysine 4 trimethyltransferase that specifies meiotic 
 ## Alterations observed in the corpus
 
 - Somatic mutations in PRDM9 detected by whole-exome sequencing of 74 HNSCC tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
+- Novel somatic mutation in chromatin/methyltransferase regulators identified in Ewing sarcoma WGS discovery cohort [PMID:25223734](../papers/25223734.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ PRDM9 encodes a histone H3 lysine 4 trimethyltransferase that specifies meiotic 
 - [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25223734](../papers/25223734.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

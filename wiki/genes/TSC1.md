@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [tumor-suppressor, mtor-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # TSC1
@@ -27,6 +27,7 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - Truncating mutations in 8% of bladder urothelial carcinomas ([BLCA](../cancer_types/BLCA.md)), with six homozygous deletions; TSC1 loss activates mTOR signaling and identifies a subgroup potentially sensitive to mTOR inhibitors [PMID:24476821](../papers/24476821.md)
 - Mutated in 6% of high-grade urothelial carcinoma (MSK-IMPACT, n=109); part of the PI3K/AKT pathway alteration group (35% overall), which was associated with improved recurrence-free and cancer-specific survival. [PMID:25092538](../papers/25092538.md)
 - Somatic mutation in chromophobe RCC (combined TSC1/TSC2 rate 4/66); germline TSC1 mutations (tuberous sclerosis complex) predispose to ChRCC [PMID:25155756](../papers/25155756.md)
+- TSC1 recurrently mutated in chromophobe renal cell carcinoma (chRCC), suggesting mTORC1 addiction and possible responsiveness to mTORC1 inhibitors (rapalogs) [PMID:25401301](../papers/25401301.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +81,6 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25401301](../papers/25401301.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

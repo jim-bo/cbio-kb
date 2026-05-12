@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # NRAS
@@ -45,6 +45,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 - One activating somatic mutation in 66 chromophobe RCC cases; contributes to mTOR-pathway alteration rate of 23% combined with PTEN/MTOR/TSC1/TSC2 [PMID:25155756](../papers/25155756.md)
 - Driver mutations in KRAS/NRAS/BRAF are 100% concordant between primary and metastasis in CRC; trunk events established early in carcinogenesis; status guides cetuximab and panitumumab eligibility [PMID:25164765](../papers/25164765.md)
+- Hotspot mutations absent in 39-case aggressive cSCC cohort — explicit negative finding distinguishing cSCC from other squamous and melanocytic malignancies [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -147,3 +148,6 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

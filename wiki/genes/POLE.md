@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 canonical_source: cbioportal
 unverified: false
 ---
@@ -27,6 +27,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Exonuclease-domain hotspots Pro286Arg and Val411Leu define the ultramutated endometrial cancer subgroup (Q=4.2×10⁻²³); associated with C→A transversion-rich mutational spectrum and improved progression-free survival [PMID:23636398](../papers/23636398.md)
 - No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLD1](../genes/POLD1.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 - POLE inactivating mutation in one hypermutator gastric cancer case consistent with prior TCGA findings in CRC/endometrial [PMID:25079317](../papers/25079317.md)
+- Absent in 39-case aggressive cSCC cohort — explicit negative finding [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -77,3 +78,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

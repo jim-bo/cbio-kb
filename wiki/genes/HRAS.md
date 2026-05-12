@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-12
 ---
 
 # HRAS
@@ -28,6 +28,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - HRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (4.3% frequency); no RAS mutations observed in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 - HRAS identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 - RTK/RAS/RAF pathway mutation identified in 1 case of LUAD (TCGA, n=230); part of the broader RTK/RAS/RAF pathway altered in the majority of LUAD cases [PMID:25079552](../papers/25079552.md)
+- Mutated in 20.5% of 39 aggressive cSCC tumors; the most obvious oncogene identified but currently undruggable; positively correlated with AJUBA co-mutation (kappa 0.423, p=0.008) and inversely correlated with TP53 (kappa -0.107, p=0.004) [PMID:25303977](../papers/25303977.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25303977](../papers/25303977.md)
+
+*This page was processed by **wiki-cli** on **2026-05-12**.*

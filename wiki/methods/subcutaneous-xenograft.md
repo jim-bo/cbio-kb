@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -18,6 +18,7 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 ## Used by
 
 - Subcutaneous xenografts in 4-week-old male BALB/c nude mice (n=6 per group) were established by co-injection of 5×10⁵ GBC-SD cells with gallbladder fibroblasts (1:1 ratio, sh-NT or sh-SEMA7A); co-injection tumors were larger and showed elevated Ki-67, α-SMA, VIM, CD44, EPCAM and reduced CDH1 vs GBC-SD alone; SEMA7A knockdown in fibroblasts partially reversed these effects [PMID:24997986](../papers/24997986.md)
+- CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test enzalutamide and everolimus in vivo. [PMID:25201530](../papers/25201530.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

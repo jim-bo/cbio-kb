@@ -61,6 +61,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass WGS (1-3x coverage) from 100-250 ng input DNA (KAPA LTP / Illumina HiSeq 2000) applied to four FFPE prostate needle biopsies; CNA profiles concordant with high-resolution aCGH, enabling pre-treatment CNA burden assessment [PMID:25024180](../papers/25024180.md)
 - Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort (stad_tcga_pub) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
 - Low-pass WGS on 93 of 230 lung adenocarcinomas (luad_tcga_pub) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); ALK, ROS1, RET fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
+- Used to sequence 50 ChRCC tumors (60× tumor / 30× normal) in the TCGA ChRCC project, enabling detection of structural rearrangements at the TERT promoter and kataegis events via Meerkat. [PMID:25155756](../papers/25155756.md)
+- Applied to four CRC primary/metastasis trios (median 87× tumor, 50× normal) at the New York Genome Center to validate MSK-IMPACT findings; confirmed all panel-level calls and revealed genome-wide discordance in heterogeneous cases. [PMID:25164765](../papers/25164765.md)
 
 ## Notes
 
@@ -185,5 +187,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

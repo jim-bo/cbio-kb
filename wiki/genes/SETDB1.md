@@ -3,8 +3,8 @@ symbol: SETDB1
 aliases: []
 cancer_types: [PLMESO]
 tags: [histone-methyltransferase, tumor-suppressor, mesothelioma, genomic-near-haploidization]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # SETDB1
@@ -17,6 +17,7 @@ SETDB1 encodes a histone H3K9 methyltransferase involved in transcriptional repr
 
 - Somatic loss-of-function mutations in SETDB1 were identified in 8 of 10 GNH DPM cases; absent in non-GNH DPMs. SETDB1 inactivation in the context of genome-wide loss of heterozygosity may rescue expression of monoallelically expressed genes [PMID:38630790](../papers/38630790.md).
 - SETDB1 mutations are highly specific for the GNH DPM subset and may serve as a molecular marker when detected on panels covering this gene (e.g., [IMPACT505](../methods/IMPACT505.md)) [PMID:38630790](../papers/38630790.md).
+- Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings of frequent epigenetic gene alterations in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ SETDB1 encodes a histone H3K9 methyltransferase involved in transcriptional repr
 - [PMID:38630790](../papers/38630790.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

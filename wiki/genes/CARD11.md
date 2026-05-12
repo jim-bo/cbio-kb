@@ -7,8 +7,8 @@ cancer_types:
 tags:
   - bcr-pathway
   - ibrutinib-resistance
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CARD11
@@ -23,6 +23,7 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - Identified as recurrently mutated in DLBCL and [FL](../cancer_types/FL.md) by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - Cited as a DLBCL driver gene appearing as rare mutation in multiple myeloma (MM) patients lacking the 11 canonical MM driver mutations; relevant to the somatic-hypermutation signature context in MM [PMID:24434212](../papers/24434212.md)
+- Co-amplified with EGFR on chr 7p as a metastasis-private high-level amplification in one CRC patient (confirmed by FISH) [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -55,3 +56,6 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

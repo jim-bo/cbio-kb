@@ -41,6 +41,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; included in the 32 significantly mutated genes from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
 - Somatic mutation reported in the HCC molecular landscape (WES, n=1,289) as part of the non-actionable driver set [PMID:24798001](../papers/24798001.md)
 - Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, BRCA1, BRCA2, BRIP1, PALB2 must be ruled out before FNHGC labeling) [PMID:24816255](../papers/24816255.md)
+- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after etoposide; authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +130,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25186949](../papers/25186949.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

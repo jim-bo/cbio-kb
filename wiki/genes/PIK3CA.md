@@ -84,6 +84,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA mutations in 80% of EBV-positive gastric tumors (mostly non-exon-20, dispersed) and 12% across the whole gastric cancer cohort; targetable via PI3-kinase inhibition [PMID:25079317](../papers/25079317.md)
 - PIK3CA mutations in 7% of LUAD (TCGA, n=230); enriched in transversion-low tumors; drives mTOR pathway activation via p-AKT in subset [PMID:25079552](../papers/25079552.md)
 - PIK3CA recurrent activating helical-domain missense mutations in 21% of muscle-invasive bladder cancer (BLCA, n=47 TURBT); associated with favorable recurrence-free and cancer-specific survival after radical cystectomy [PMID:25092538](../papers/25092538.md)
+- Convergent evolution with independent E542K and E545K hotspot mutations in primary vs metastasis; three additional private events including primary-specific E545K (x2) and metastasis-specific N107 in-frame deletion; subclonal PI3K heterogeneity is clinically relevant given active PI3K inhibitor development [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -282,5 +283,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

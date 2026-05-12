@@ -20,6 +20,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - Copy-number alteration observed in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Early clonal deletion in the consensus prostate cancer progression path; one of the earliest detectable lesions identified by chromoplexy analysis [PMID:23622249](../papers/23622249.md)
 - Co-deleted in a 3p13 focal deletion identified by both aCGH and low-pass WGS in a prostate cancer FFPE biopsy proof-of-principle cohort; co-deleted with RYBP and SHQ1 [PMID:25024180](../papers/25024180.md)
+- Located in 3p21 focal heterozygous deletion region in MSK-PCa1 and MSK-PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

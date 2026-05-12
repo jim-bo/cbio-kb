@@ -17,6 +17,7 @@ RYBP (RING1 and YY1 Binding Protein) encodes a component of the Polycomb repress
 
 - Deletion at 3p14 identified as a candidate tumor suppressor in integrative genomic profiling of 218 prostate cancer tumors [PMID:20579941](../papers/20579941.md)
 - Co-deleted with FOXP1 and SHQ1 in a focal 3p13 deletion identified by aCGH and low-pass WGS of FFPE prostatectomy needle biopsies (prad_mskcc_2014 proof-of-principle). [PMID:25024180](../papers/25024180.md)
+- Part of 3p21 focal heterozygous deletion (co-deleted with SHQ1 and FOXP1) in MSK-PCa1 and MSK-PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ RYBP (RING1 and YY1 Binding Protein) encodes a component of the Polycomb repress
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

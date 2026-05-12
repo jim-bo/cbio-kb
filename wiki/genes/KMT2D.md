@@ -34,6 +34,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D (MLL2, H3K4 methyltransferase) mutated in 27% of muscle-invasive bladder cancers with truncating enrichment; identified as a novel significantly mutated gene (SMG) in bladder cancer; mutually exclusive with [KDM6A](../genes/KDM6A.md) [PMID:24476821](../papers/24476821.md)
 - KMT2D (histone methyltransferase) is significantly mutated in ESCC, contributing to epigenetic dysregulation [PMID:24686850](../papers/24686850.md)
 - Included as one of four chromatin-modifier genes (CMGs) validated by orthogonal sequencing in muscle-invasive bladder cancer (MSKCC cohort); concordance rate 99.3% between discovery and validation platforms [PMID:25092538](../papers/25092538.md)
+- Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -106,5 +107,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

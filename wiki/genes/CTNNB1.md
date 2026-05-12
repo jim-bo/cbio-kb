@@ -50,6 +50,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Activating mutation in 29% (range 23–36%) of HCCs (WES, n=1,289); defines canonical-WNT non-proliferation subclass and the immune-excluded class; β-catenin activation drives T-cell exclusion and checkpoint resistance [PMID:24798001](../papers/24798001.md)
 - Beta-catenin pathway alteration among non-hypermutated gastric tumours; alternative splicing strongly associated with U2AF1 S34F mutations [PMID:25079317](../papers/25079317.md)
 - Alternative splicing event strongly associated with U2AF1 S34F mutations in LUAD; U2AF1 S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
+- Recurrently mutated in non-hypermutated CRC (concordant between primary and metastasis per Figure 1B) [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -146,5 +147,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -7,8 +7,8 @@ tags:
   - pharmacogenomics
   - drug-sensitivity-predictor
   - growth-factor
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # IGF1
@@ -20,6 +20,7 @@ IGF1 (insulin-like growth factor 1) encodes a growth factor that signals through
 ## Alterations observed in the corpus
 
 - High IGF1 expression in multiple myeloma cell lines correlates with IGF-1R inhibitor (AEW541) sensitivity in the CCLE pharmacogenomic profiling of 947 cancer cell lines [PMID:22460905](../papers/22460905.md)
+- Established EWS::FLI1 transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma gene expression program [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ IGF1 (insulin-like growth factor 1) encodes a growth factor that signals through
 - [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

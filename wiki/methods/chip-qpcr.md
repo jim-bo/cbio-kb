@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [chromatin, epigenomics, transcription-factor, histone-modification]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -18,6 +18,7 @@ Chromatin immunoprecipitation followed by quantitative PCR (ChIP-qPCR) measures 
 ## Used by
 
 - ChIP-qPCR used to confirm TEAD1 binding at the SEMA7A promoter in gallbladder fibroblasts, with enrichment under stiff (16 kPa) vs soft (0.5 kPa) matrix conditions; separately, rh-SEMA7A increased p300 (EP300) occupancy and H3K27ac at the SNAI1 and ZEB1 promoters in GBC cells, and the p300 S1834A phosphodead mutant abolished H3K27ac enrichment [PMID:24997986](../papers/24997986.md)
+- Used to confirm EWS::FLI1 ChIP-seq binding peaks in BRCA1 exons 11 and 15 in EWS::FLI1-transduced heMSCs; siRNA abolition of binding validated specificity. [PMID:25186949](../papers/25186949.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Chromatin immunoprecipitation followed by quantitative PCR (ChIP-qPCR) measures 
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

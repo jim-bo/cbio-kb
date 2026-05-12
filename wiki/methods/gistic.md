@@ -37,6 +37,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC used for copy-number peak calling in 65 TET cases; identified focal BCL2 amplification correlated with increased BCL2 mRNA expression [PMID:24974848](../papers/24974848.md)
 - GISTIC applied to gastric adenocarcinoma copy-number data (stad_tcga_pub) identified focal amplifications of JAK2/CD274/PDCD1LG2 at 9p24.1 (enriched in EBV-positive tumors, 15%) and recurrent oncogene amplifications (ERBB2, CCNE1, KRAS, MYC, EGFR, VEGFA) in the CIN subtype [PMID:25079317](../papers/25079317.md)
 - GISTIC applied to lung adenocarcinoma copy-number data (luad_tcga_pub) identified significant focal amplifications (NKX2-1, TERT, MDM2, KRAS, EGFR, MET, CCNE1, CCND1, CCND3, TERC, MECOM, 8q24/MYC) and the most significant deletion peak at CDKN2A; focal MET and ERBB2 amplifications were enriched in oncogene-negative tumors [PMID:25079552](../papers/25079552.md)
+- Applied to Affymetrix SNP6 copy-number data from 66 ChRCC tumors; found no focal amplifications or deletions, only recurrent whole-chromosome losses. [PMID:25155756](../papers/25155756.md)
 
 ## Notes
 
@@ -101,5 +102,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

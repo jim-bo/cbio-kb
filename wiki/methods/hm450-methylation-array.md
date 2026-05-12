@@ -22,6 +22,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Used as one of five molecular platforms in the TCGA HCC integrated characterisation (196 patients) for DNA methylation profiling alongside WES, RNA-seq, miRNA-seq, and RPPA [PMID:24798001](../papers/24798001.md)
 - DNA methylation profiling of 295 gastric adenocarcinomas (stad_tcga_pub) by HM450 array identified EBV-specific extreme CIMP, MLH1 promoter hypermethylation driving MSI, and CDKN2A silencing in EBV-positive tumors [PMID:25079317](../papers/25079317.md)
 - HM450 methylation profiling of 230 lung adenocarcinomas (luad_tcga_pub) defined CIMP-H and CIMP-L clusters; CIMP-H tumors showed hypermethylation of WNT pathway genes, CDKN2A, and HOXA9/HOXD13, and were associated with MYC overexpression [PMID:25079552](../papers/25079552.md)
+- Used to profile DNA methylation at ~450,000 loci in 66 ChRCC tumors; identified >64,000 differentially methylated loci vs ccRCC and CDKN2A epigenetic silencing in 4 cases. [PMID:25155756](../papers/25155756.md)
 
 ## Notes
 
@@ -42,5 +43,8 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

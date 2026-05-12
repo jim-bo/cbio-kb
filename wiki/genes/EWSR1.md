@@ -3,8 +3,8 @@ symbol: EWSR1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # EWSR1
@@ -17,6 +17,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 - EWSR1(exon 8)::[KLF15](../genes/KLF15.md)(exon 2) fusion in a myoepithelial carcinoma (MEC2); confirmed by RNA-seq and FISH [PMID:36577525](../papers/36577525.md)
 - EWSR1 serves as a noncanonical [MYB](../genes/MYB.md) fusion partner (EWSR1ex6::MYBex2 in-frame) in 1 metatypical sinonasal adenoid cystic carcinoma of the sphenoid sinus; FISH break-apart detected EWSR1 rearrangement in 1 additional fusion-negative case [PMID:24418857](../papers/24418857.md)
+- EWSR1::FLI1 fusion expressed at low levels in human embryonic mesenchymal stem cells (heMSCs) is the sole genetic event required to induce an Ewing sarcoma–like transcriptome, DDR defect, and metastatic tumor formation; binds intronic CA microsatellites in the cell-of-origin context [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

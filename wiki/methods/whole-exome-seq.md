@@ -94,6 +94,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 28 TET tumor/normal pairs to identify recurrent GTF2I c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
 - Whole-exome sequencing of 295 gastric adenocarcinomas (stad_tcga_pub) identified 25 significantly mutated genes in non-hypermutated tumors; exome-based mutation rates supported MSI classification and subtype-specific mutation enrichments [PMID:25079317](../papers/25079317.md)
 - WES of 230 lung adenocarcinomas (luad_tcga_pub) at mean 97.6x tumor / 95.8x germline coverage identified 18 significantly mutated genes including novel RIT1 activating mutations and MGA loss-of-function; mean somatic mutation rate 8.87 mutations/Mb [PMID:25079552](../papers/25079552.md)
+- Used to sequence pre-treatment tumors from 50 muscle-invasive urothelial carcinoma patients (mean coverage 121× tumor/130× germline, SureSelect v2 Exome bait, Illumina HiSeq, aligned to hg19) to identify ERCC2 mutations associated with cisplatin response. [PMID:25096233](../papers/25096233.md)
+- Used to sequence 66 primary chromophobe renal cell carcinoma (ChRCC) tumors (NimbleGen VCRome 2.1 42MB bait, Illumina HiSeq, 90% target coverage ≥20×) as part of the TCGA ChRCC project. [PMID:25155756](../papers/25155756.md)
+- Used to characterize seven patient-derived prostate cancer organoid lines (MSK-PCa1–7) from metastatic biopsies (Agilent SureSelectXT2, ~250× nominal, mean ~142×), identifying PTEN, TP53, SPOP, CHD1, and other driver alterations. [PMID:25201530](../papers/25201530.md)
 
 ## Notes
 
@@ -289,5 +292,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # PRKDC
@@ -20,6 +20,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Mutations associate with hypermutation phenotype in [LUAD](../cancer_types/LUAD.md): tumours with PRKDC mutations average 24.3 mutations vs 4.7 without (P=3.52e-59); proposed as a marker of hypermutation potentially relevant to immunotherapy response. [PMID:18948947](../papers/18948947.md)
 - PRKDC identified as a DNA damage repair gene with non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - Frameshift (I1137fs) and nonsense (E640*) mutations identified in an aggressive localized prostate cancer case (Michigan WES, 112 tumors); DNA damage response gene [PMID:22722839](../papers/22722839.md)
+- DNA-PKcs (PRKDC) activation is preserved in EWS::FLI1-expressing heMSCs despite basal hyperphosphorylation of ATM/ATR and failure of etoposide-induced DDR signaling [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

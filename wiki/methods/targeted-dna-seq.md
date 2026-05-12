@@ -27,6 +27,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Custom Ion AmpliSeq panel targeting 17 driver genes ([AKT1](../genes/AKT1.md), [ARID1A](../genes/ARID1A.md), [BAP1](../genes/BAP1.md), [CDKN2A](../genes/CDKN2A.md), [CTNNB1](../genes/CTNNB1.md), IDH1/2, [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [PBRM1](../genes/PBRM1.md), PIK3C2A/G, [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [SMAD4](../genes/SMAD4.md), [TGFBR2](../genes/TGFBR2.md), [TP53](../genes/TP53.md)) run on Ion Torrent PGM (318 chip) at mean 1,276× depth for a prevalence screen of 40 additional IHCH/GBC tumors [PMID:24185509](../papers/24185509.md).
 - Frequency Cohort of 119 additional matched ESCC germline/tumor pairs plus 10 ESCC cell lines sequenced by targeted deep sequencing (mean coverage 111×) covering all coding exons of discovery-cohort mutated genes plus 277 cancer-relevant genes [PMID:24686850](../papers/24686850.md)
 - Targeted DNA-seq via MSK-IMPACT capture panel applied to 109 bladder carcinomas (blca_mskcc_solit_2014); orthogonal sequencing of all coding exons of STAG2, KDM6A, ARID1A, and KMT2D confirmed 99.3% of mutation calls; mean coverage 579x [PMID:25092538](../papers/25092538.md)
+- MSK-IMPACT 230-gene targeted sequencing used to profile 69 matched CRC primary/metastasis trios, supporting clinical use of either primary or metastatic tissue for mutation profiling. [PMID:25164765](../papers/25164765.md)
 
 ## Notes
 
@@ -57,5 +58,8 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

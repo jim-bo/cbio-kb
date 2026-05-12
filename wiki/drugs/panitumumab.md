@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [targeted_therapy, monoclonal_antibody, anti-egfr]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # panitumumab
@@ -18,6 +18,7 @@ Panitumumab is a fully human IgG2 monoclonal antibody that binds the extracellul
 ## Evidence in the corpus
 
 - Used in combination with [sotorasib](../drugs/sotorasib.md) (KRASG12C inhibitor) for KRASG12C-mutant colorectal cancer (n=4 patients); response rate approximately 27% for the sotorasib + panitumumab combination. Acquired resistance developed through heterogeneous, subclonal mechanisms primarily reactivating ERK signaling [PMID:36355783](../papers/36355783.md)
+- KRAS, NRAS, and BRAF driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, supporting use of either tissue source for panitumumab eligibility determination; metastasis-private EGFR amplification and MAP2K1 mutations in RAS/RAF-WT tumors represent exceptions warranting metastasis sequencing [PMID:25164765](../papers/25164765.md)
 
 ## Resistance mechanisms
 
@@ -32,3 +33,6 @@ Panitumumab is a fully human IgG2 monoclonal antibody that binds the extracellul
 - [PMID:36355783](../papers/36355783.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

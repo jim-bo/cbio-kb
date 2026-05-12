@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [spatial, transcriptomics, single-cell, tme]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # Spatial transcriptomics
@@ -22,6 +22,7 @@ Spatial transcriptomics technologies enable gene expression profiling while pres
 - [PMID:41941260](../papers/41941260.md) — Spatial transcriptomics (10x Visium HD) was applied to 140+ biopsies from the ImmunoRad MCT1 rectal-cancer trial (NCT05943210); identified RT-associated spatial reorganization of lymphocytes and altered macrophage wound-healing signals after short-course radiotherapy [PMID:41941260](../papers/41941260.md).
 - [PMID:39975212](../papers/39975212.md) — 10X Xenium single-cell spatial profiling on FFPE skin from a 63-year-old melanoma patient (two adjacent sections, ~96M transcripts, ~300K cells) using a custom 360-gene panel (predesigned 10X human skin panel + 100 custom probes); showed HighMut melanocytes are almost exclusively in the interfollicular epidermis while LowMut melanocytes are enriched in hair follicles, validating in-vitro morphology/mutation burden dimorphism in situ [PMID:39975212](../papers/39975212.md).
 - Spatial transcriptomics applied in HCC genomic characterization to map intratumoral heterogeneity and gene expression patterns [PMID:22634756](../papers/22634756.md)
+- 10x Genomics Visium CytAssist spatial transcriptomics applied to FFPE experimental Ewing sarcoma tumors (GEO GSE272958); confirmed ~70% transcriptome sharing between primary and metastatic sites and identified BCL11B and ITM2A as Ewing-specific markers. [PMID:25186949](../papers/25186949.md)
 
 ## Notes
 
@@ -39,3 +40,6 @@ Spatial transcriptomics technologies enable gene expression profiling while pres
 - [PMID:22634756](../papers/22634756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

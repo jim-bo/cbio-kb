@@ -34,6 +34,7 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - KDM6A (H3K27 demethylase) mutated in 24% of muscle-invasive bladder cancers; mutually exclusive with [KMT2D](../genes/KMT2D.md); part of the chromatin regulator mutation landscape affecting 76% of bladder tumors [PMID:24476821](../papers/24476821.md)
 - KDM6A (histone demethylase) is recurrently mutated in ESCC, contributing to epigenetic dysregulation as part of the chromatin-remodeling alteration pathway [PMID:24686850](../papers/24686850.md)
 - Truncating mutations in 41% of muscle-invasive bladder cancer tumours (MSKCC cohort, n=109); not independently associated with recurrence-free or cancer-specific survival in this cohort [PMID:25092538](../papers/25092538.md)
+- Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between cisplatin responders and non-responders [PMID:25096233](../papers/25096233.md)
 
 ## Cancer types (linked)
 
@@ -103,5 +104,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

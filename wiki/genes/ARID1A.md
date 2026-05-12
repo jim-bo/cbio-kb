@@ -55,6 +55,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutated in 14% overall in gastric adenocarcinoma; especially common in EBV-positive (55%) and GS subtypes; chromatin remodeler loss implicated in EBV-driven tumorigenesis [PMID:25079317](../papers/25079317.md)
 - Mutated in 7% of LUAD (chromatin modifier); part of the chromatin remodeling alteration landscape of lung adenocarcinoma [PMID:25079552](../papers/25079552.md)
 - Truncating alterations in 28% of muscle-invasive urothelial carcinoma (UCB); mutually exclusive with SMARCA4 mutations; not associated with post-cystectomy outcomes [PMID:25092538](../papers/25092538.md)
+- Significantly mutated (MutSigCV) across muscle-invasive urothelial carcinoma cohort [PMID:25096233](../papers/25096233.md)
 
 ## Cancer types (linked)
 
@@ -175,5 +176,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25092538](../papers/25092538.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

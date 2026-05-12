@@ -27,6 +27,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Six of 10 ccRCC tumors in the TRACERx multi-region sequencing study received short-course preoperative everolimus (or sunitinib); authors argue these cytostatic exposures did not collapse subclonal diversity, though a treatment-naive baseline is absent [PMID:24487277](../papers/24487277.md)
 - mTOR signaling is disrupted in 40–50% of HCCs; everolimus failed in unselected second-line HCC trials but the review proposes mTOR-pathway dysregulation as a biomarker to enrich future trials [PMID:24735922](../papers/24735922.md)
 - Phase III second-line trial in HCC (post-sorafenib) failed to demonstrate OS benefit; cited as a negative result for mTOR inhibition in HCC [PMID:24798001](../papers/24798001.md)
+- AR-amplified MSK-PCa2 CRPC organoid (PTEN loss + PIK3R1 mutation) was sensitive to everolimus in vitro and in CB17 SCID xenografts (tumor growth slowed without shrinkage); combination everolimus + enzalutamide significantly enhanced response over enzalutamide alone in MSK-PCa2 xenografts [PMID:25201530](../papers/25201530.md)
 
 ## Resistance mechanisms
 
@@ -57,5 +58,8 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

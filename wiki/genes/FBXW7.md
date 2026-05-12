@@ -31,6 +31,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - FBXW7 identified as a novel recurrent driver in 7.4% of fusion-negative rhabdomyosarcoma (PFN) tumors, exclusively at WD40-domain arginine residues R387P, R441G, and R367P [PMID:24436047](../papers/24436047.md)
 - FBXW7 mutated in 10% of muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 - Frequent inactivating mutations leading to protein loss (33% in validation cohort) in ESCC; confirmed by IHC on TMA [PMID:24686850](../papers/24686850.md)
+- Recurrently mutated in non-hypermutated CRC; mutation status concordant between primary tumor and metastasis per matched-pair sequencing [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -93,5 +94,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

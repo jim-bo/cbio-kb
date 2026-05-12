@@ -61,6 +61,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - RAS/RAF/MAPK pathway component; BRAF mutations <5% in HCC but the pathway is universally activated in advanced HCC; cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:24735922](../papers/24735922.md)
 - Listed among somatic alterations in the HCC molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
 - Mutations in 10% of LUAD (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
+- Driver mutation 100% concordant between primary and metastasis in CRC; trunk event established early in carcinogenesis; concordance supports use of either site for clinical testing to guide cetuximab/panitumumab eligibility [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -195,5 +196,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -21,6 +21,7 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - Somatic mutations identified in medulloblastoma WGS/WES cohort (ICGC, 76 tumors) [PMID:22832583](../papers/22832583.md)
 - ERBB4 recurrently affected by structural variants (SV) in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) genomic characterization; part of the 93%-targetable kinase signaling axis [PMID:24436047](../papers/24436047.md)
 - Activating mutations in RTK signaling identified in ESCC (139 paired tumor/germline samples by whole-exome/targeted sequencing) [PMID:24686850](../papers/24686850.md)
+- ERBB-pathway member cited in context of prior GBC whole-exome data showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

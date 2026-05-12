@@ -35,6 +35,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 153 multiple myeloma patients; identified 7 significant homozygous deletion peaks covering NF-kB regulators ([TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md)), [CDKN2C](../genes/CDKN2C.md), [PTPRD](../genes/PTPRD.md), and an 8p23.1 locus [PMID:24434212](../papers/24434212.md)
 - GISTIC 2.0 applied to Affymetrix SNP 6.0 data from 131 TCGA bladder carcinoma samples; identified most common focal deletion at 9p21.3 ([CDKN2A](../genes/CDKN2A.md), 47% of samples) and multiple focal amplifications including [PPARG](../genes/PPARG.md) (17%), [EGFR](../genes/EGFR.md) (11%), [MDM2](../genes/MDM2.md) (9%), and [ERBB2](../genes/ERBB2.md) (7%) [PMID:24476821](../papers/24476821.md)
 - GISTIC used for copy-number peak calling in 65 TET cases; identified focal BCL2 amplification correlated with increased BCL2 mRNA expression [PMID:24974848](../papers/24974848.md)
+- GISTIC applied to gastric adenocarcinoma copy-number data (stad_tcga_pub) identified focal amplifications of JAK2/CD274/PDCD1LG2 at 9p24.1 (enriched in EBV-positive tumors, 15%) and recurrent oncogene amplifications (ERBB2, CCNE1, KRAS, MYC, EGFR, VEGFA) in the CIN subtype [PMID:25079317](../papers/25079317.md)
+- GISTIC applied to lung adenocarcinoma copy-number data (luad_tcga_pub) identified significant focal amplifications (NKX2-1, TERT, MDM2, KRAS, EGFR, MET, CCNE1, CCND1, CCND3, TERC, MECOM, 8q24/MYC) and the most significant deletion peak at CDKN2A; focal MET and ERBB2 amplifications were enriched in oncogene-negative tumors [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -93,5 +95,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

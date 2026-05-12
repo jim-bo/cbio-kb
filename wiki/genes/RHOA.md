@@ -3,7 +3,7 @@ symbol: RHOA
 aliases: []
 cancer_types: [DSTAD, AITL, ATLL, PTCL, STAD, BL]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -22,6 +22,7 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - **C16R** -- GOF (accelerates GTP/GDP cycling); predominantly in ATLL; complements RHO1 in yeast. [PMID:24816253](../papers/24816253.md)
 - **A161P** -- GOF; predominantly in ATLL; uniquely shows reproducible Slt2 (MAPK) phosphorylation elevation in yeast and the greatest number of altered CalMorph features (164 significantly altered parameters, FDR<0.05). [PMID:24816253](../papers/24816253.md)
 - **E40Q** -- fails to complement RHO1 in yeast (no viable colonies on 5-FOA); recurs in solid tumors including breast cancer and HNSC. [PMID:24816253](../papers/24816253.md)
+- Mutated in 15% of genomically stable (GS) gastric tumours; novel hotspots in the effector-binding region (Y42, D59 etc.) distinct from RAS-family oncogenic sites; mutually exclusive with CLDN18-ARHGAP fusions. [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -53,3 +54,6 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

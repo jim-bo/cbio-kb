@@ -3,8 +3,8 @@ symbol: SHQ1
 aliases: []
 cancer_types: [PRAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # SHQ1
@@ -16,6 +16,7 @@ SHQ1 encodes an H/ACA ribonucleoprotein assembly factor involved in pseudouridyl
 ## Alterations observed in the corpus
 
 - Deletion at 3p14 and somatic P22S mutation identified as a candidate tumor suppressor in integrative genomic profiling of 218 prostate cancer tumors [PMID:20579941](../papers/20579941.md)
+- Co-deleted with FOXP1 and RYBP in a focal 3p13 deletion identified by aCGH and low-pass WGS of FFPE prostatectomy needle biopsies (prad_mskcc_2014 proof-of-principle). [PMID:25024180](../papers/25024180.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SHQ1 encodes an H/ACA ribonucleoprotein assembly factor involved in pseudouridyl
 - [PMID:20579941](../papers/20579941.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

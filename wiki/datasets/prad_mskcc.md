@@ -16,8 +16,8 @@ tags:
   - copy-number
   - integrative-genomics
   - prad
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MSKCC Prostate Cancer Integrative Genomic Profiling
@@ -50,6 +50,7 @@ Integrative genomic profiling of 218 prostate cancers (181 primary tumors and 37
 - PI3K pathway altered in 42% of primary tumors and 100% of metastases; AR pathway altered in 56% of primaries and 100% of metastases [PMID:20579941](../papers/20579941.md)
 - Unsupervised CNA-based hierarchical clustering identified 6 prognostic subgroups independent of Gleason score [PMID:20579941](../papers/20579941.md)
 - Low somatic mutation rate (~0.31 mutations/Mb); [TP53](../genes/TP53.md) and [PTEN](../genes/PTEN.md) primarily lost through copy-number deletion rather than point mutation [PMID:20579941](../papers/20579941.md)
+- Used as a validation cohort for somatic copy-number alteration and mutation profiling in metastatic castration-resistant prostate cancer [PMID:25024180](../papers/25024180.md)
 
 ## Sources
 
@@ -58,3 +59,6 @@ Integrative genomic profiling of 218 prostate cancers (181 primary tumors and 37
 - cBioPortal: https://www.cbioportal.org/study/summary?id=prad_mskcc
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

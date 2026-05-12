@@ -7,8 +7,8 @@ tags:
   - telomerase-RNA
   - chromosomal-gain
   - head-and-neck
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # TERC
@@ -20,6 +20,7 @@ TERC encodes the RNA component of telomerase, the enzyme that maintains telomere
 ## Alterations observed in the corpus
 
 - Candidate cancer driver on 3q; copy gain identified in OSCC as part of the 3q arm-level gain that also includes [PIK3CA](../genes/PIK3CA.md) and [PRKCI](../genes/PRKCI.md) [PMID:23619168](../papers/23619168.md).
+- Focal amplification identified as a recurrent significant peak in LUAD copy-number analysis (TCGA, n=230). [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ TERC encodes the RNA component of telomerase, the enzyme that maintains telomere
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: AURKB
 aliases: []
 cancer_types: [BRCA]
 tags: [mitosis, kinase, cell-cycle]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # AURKB
@@ -16,6 +16,7 @@ AURKB (Aurora Kinase B) encodes a serine/threonine kinase that is a key regulato
 ## Alterations observed in the corpus
 
 - Upregulated in the basal-like IntClust 10 subgroup as part of a chromosome 5q deletion-associated trans-acting mitotic network in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
+- Elevated mitotic-pathway expression implicates AURKB in GS and CIN gastric tumours; nominated as a candidate therapeutic target based on expression profiling [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ AURKB (Aurora Kinase B) encodes a serine/threonine kinase that is a key regulato
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -13,8 +13,8 @@ tags:
   - tumor-suppressor
   - gi-cancers
   - early-stage
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # TGFBR2
@@ -30,6 +30,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; TGFBR2 is a receptor in the TGF-beta signaling pathway [PMID:23103869](../papers/23103869.md)
 - Highlighted as a downstream pathway feature in TieDIE/focal-deletion analyses of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - TGFBR2 included in prevalence-screen panel for intrahepatic cholangiocarcinoma and gallbladder cancer in a multi-institution exome-sequencing study [PMID:24185509](../papers/24185509.md)
+- Expression positively correlated with stromal SEMA7A in GBC (GSE139682); co-expressed in the desmoplastic stroma alongside TGFBR1, fibrillar collagens, and ACTA2. [PMID:24997986](../papers/24997986.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

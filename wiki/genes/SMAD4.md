@@ -3,7 +3,7 @@ symbol: SMAD4
 aliases: [DPC4]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -16,6 +16,7 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 ## Alterations observed in the corpus
 
 - Germline SMAD4 loss-of-function mutations define juvenile polyposis syndrome (JPS), included in the mandatory multigene panel for familial gastric cancer evaluation; must be ruled out before FNHGC labeling. [PMID:24816255](../papers/24816255.md)
+- Recurrent TGF-β pathway mutations in gastric cancer (TCGA); co-altered with SMAD2 in this pathway. [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

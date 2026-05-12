@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - ras-family
   - gtpase
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # RIT1
@@ -19,6 +19,7 @@ RIT1 encodes a member of the Ras superfamily of small GTPases. It is recurrently
 ## Alterations observed in the corpus
 
 - Single-case p.Met107Val missense mutation detected in a sinonasal adenoid cystic carcinoma (AdCC) sequencing cohort; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
+- Activating mutations clustered around Q79 (homologous to RAS Q61) in 2% of LUAD (TCGA); exclusively in the oncogene-negative subset; transforms NIH3T3 cells and activates MAPK and PI(3)K signaling. [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ RIT1 encodes a member of the Ras superfamily of small GTPases. It is recurrently
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -23,6 +23,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - FGF19 IHC used to stratify FGFR4 inhibitor (BLU-554) eligibility in HCC; PD-L1 IHC shown not to predict response to nivolumab or pembrolizumab in HCC [PMID:24798001](../papers/24798001.md)
 - MSI / EBV status recommended to be confirmed by MMR IHC (alongside MSI-PCR or NGS-based MSI, EBV ISH) before clinical decisions in familial non-hereditary gastric cancer [PMID:24816255](../papers/24816255.md)
 - PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in NPC, though not yet validated for treatment selection [PMID:24952746](../papers/24952746.md)
+- IHC staining of 86 GBC patient tissues used to quantify stromal SEMA7A expression; high stromal SEMA7A associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival [PMID:24997986](../papers/24997986.md)
 
 ## Notes
 
@@ -39,5 +40,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

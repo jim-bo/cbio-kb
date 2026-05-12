@@ -92,6 +92,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used for whole-exome sequencing of >1,200 HCC patients to characterise the mutational landscape of hepatocellular carcinoma, including TERT, CTNNB1, and TP53 alterations [PMID:24798001](../papers/24798001.md)
 - Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent GTF2I p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:24816255](../papers/24816255.md)
 - Applied to 28 TET tumor/normal pairs to identify recurrent GTF2I c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
+- Whole-exome sequencing of 295 gastric adenocarcinomas (stad_tcga_pub) identified 25 significantly mutated genes in non-hypermutated tumors; exome-based mutation rates supported MSI classification and subtype-specific mutation enrichments [PMID:25079317](../papers/25079317.md)
+- WES of 230 lung adenocarcinomas (luad_tcga_pub) at mean 97.6x tumor / 95.8x germline coverage identified 18 significantly mutated genes including novel RIT1 activating mutations and MGA loss-of-function; mean somatic mutation rate 8.87 mutations/Mb [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -281,5 +283,11 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

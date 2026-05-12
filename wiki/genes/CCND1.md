@@ -46,6 +46,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Focal amplification in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); identified by GISTIC 2.0 analysis of TCGA bladder urothelial carcinoma cohort [PMID:24476821](../papers/24476821.md)
 - Most frequent focal amplification peak (11q13.2) in ESCC; drives cell-cycle dysregulation; identified by SCNV analysis across 184 ESCC samples [PMID:24686850](../papers/24686850.md)
 - High-level focal amplification in 7% of HCCs (SNP-array, n=704); part of the proliferation class molecular signature [PMID:24798001](../papers/24798001.md)
+- Recurrent focal amplification in CIN gastric adenocarcinoma; suggests CDK4/6 inhibitor evaluation in this subtype [PMID:25079317](../papers/25079317.md)
+- Recurrent focal amplification in LUAD; identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -138,5 +140,11 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

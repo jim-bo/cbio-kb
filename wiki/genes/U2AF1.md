@@ -3,8 +3,8 @@ symbol: U2AF1
 aliases: []
 cancer_types: [LUAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # U2AF1
@@ -19,6 +19,7 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - Co-occurred with [NF1](../genes/NF1.md) mutations (P = 0.0011) in the Broad [LUAD](../cancer_types/LUAD.md) cohort [PMID:22980975](../papers/22980975.md)
 - Identified as a spliceosome-complex gene recurrently mutated in [AML](../cancer_types/AML.md) (200 cases; TCGA); spliceosome category had 14% overall prevalence [PMID:23634996](../papers/23634996.md).
 - U2AF1 somatic splicing-factor mutations in 4 [MPN](../cancer_types/MPN.md) patients; co-mutated with [ASXL1](../genes/ASXL1.md) in myeloproliferative neoplasms alongside [CALR](../genes/CALR.md) discovery [PMID:24325359](../papers/24325359.md)
+- S34F mutations in 3% (8/230) of LUAD (TCGA); associated with 129 alternative splicing events including cassette exons and alternative 3' splice sites; drives alternative splicing of CTNNB1. [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ U2AF1 (U2 Small Nuclear RNA Auxiliary Factor 1) is a splicing factor required fo
 - [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

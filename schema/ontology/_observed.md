@@ -333,3 +333,6 @@
 - drug: vudalimab — observed in PMID:24952746 — note: bispecific PD-1×CTLA-4 mAb; investigational dual checkpoint blockade in R/M NPC
 - drug: wgc-043 — observed in PMID:24952746 — note: mRNA EBV therapeutic vaccine; ORR 16.7% EBV+ R/M NPC (n=12); no grade ≥3 TRAEs
 - drug: yl201 — observed in PMID:24952746 — note: anti-B7-H3 ADC; ORR 48.6% in NPC sub-cohort (n=70); grade ≥3 TRAE 54.5%
+- drug: verteporfin — observed in PMID:24997986 — note: YAP-TEAD inhibitor (benzoporphyrin photosensitizer); blocks stiffness-induced CAF activation and SEMA7A secretion in GBC stroma; no oncology approval
+- drug: ly294002 — observed in PMID:24997986 — note: pan-PI3K inhibitor (chromone research tool); blocks AKT-dependent p300 S1834 phosphorylation in SEMA7A/ITGB1 signalling in GBC
+- drug: c646 — observed in PMID:24997986 — note: p300/CBP HAT inhibitor (research tool); abrogates SEMA7A-induced EMT and H3K27ac at SNAI1/ZEB1 promoters in GBC

@@ -4,7 +4,7 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-11
 ---
 
@@ -30,6 +30,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [ERBB2](../genes/ERBB2.md) (HER2) surface overexpression in NCI-N87 STAD cells: T-DM1 IC50 <1 nM; >100-fold more sensitive than HER2− controls. [PMID:27698471](../papers/27698471.md)
 - SMARCA4 inactivating mutations occur in 5–8% of stomach adenocarcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
 - Narrative review of familial non-hereditary gastric cancer (FNHGC) in STAD: ~10% of GC shows familial clustering with only 1–3% explained by known high-penetrance syndromes; FIGC tumors enriched for MSI (~38%), somatic TP53, BRCA2, ATM, and FHIT alterations; H. pylori eradication reduced GC incidence by 55% in family-history carriers [PMID:24816255](../papers/24816255.md)
+- TCGA multi-platform profiling of 295 primary gastric adenocarcinomas defines four molecular subtypes: EBV-positive (9%, PIK3CA mutations 80%, 9p24.1 JAK2/CD274/PDCD1LG2 amplification), MSI (22%, MLH1 hypermethylation), GS (20%, RHOA mutations 15%, CLDN18-ARHGAP fusions, CDH1 mutations 37%), and CIN (50%, TP53 71%, RTK amplifications); 76% of CIN tumors bear actionable focal amplifications of ERBB2, EGFR, KRAS, MET, or VEGFA [PMID:25079317](../papers/25079317.md)
 
 ## Subtypes
 
@@ -53,7 +54,10 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 *This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

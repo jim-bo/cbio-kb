@@ -1,0 +1,48 @@
+---
+symbol: PDCD1LG2
+aliases:
+  - PD-L2
+  - CD273
+cancer_types:
+  - EGC
+tags:
+  - immune-checkpoint
+  - pd-l2
+  - immunotherapy
+  - amplification
+processed_by: entity-page-writer
+processed_at: 2026-05-11
+---
+
+# PDCD1LG2
+
+## Overview
+
+PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an immune checkpoint ligand that binds PD-1 (PDCD1) on T cells to inhibit anti-tumor immune responses. In cancer, PDCD1LG2 is co-amplified with JAK2 and CD274 (PD-L1) at chromosome 9p24.1, providing a genomic rationale for immune checkpoint blockade in tumors harboring this amplification.
+
+## Alterations observed in the corpus
+
+- PDCD1LG2 co-amplified with JAK2 and CD274 at 9p24.1 in 15% of EBV-positive gastric tumors (EGC); associated with elevated mRNA expression; provides rationale for PD-L1/L2 immune checkpoint blockade and JAK2 inhibition in this subtype [PMID:25079317](../papers/25079317.md)
+
+## Cancer types (linked)
+
+- [EGC](../cancer_types/EGC.md): 9p24.1 amplification (JAK2/CD274/PDCD1LG2) in 15% of EBV-positive subtype; elevated expression in amplified tumors; supports immune checkpoint therapy [PMID:25079317](../papers/25079317.md)
+
+## Co-occurrence and mutual exclusivity
+
+- Co-amplified with JAK2 and CD274 (PD-L1) at 9p24.1 in EBV-positive gastric cancer; this co-amplification is enriched in the EBV subtype relative to other gastric cancer subtypes [PMID:25079317](../papers/25079317.md)
+
+## Therapeutic relevance
+
+- 9p24.1 amplification provides mechanistic rationale for PD-L1/PD-L2 checkpoint blockade (anti-PD-1/PD-L1 antibodies) in EBV-positive gastric cancer; concurrent JAK2 amplification may further support JAK2 inhibitor evaluation in this genomic context [PMID:25079317](../papers/25079317.md)
+
+## Open questions
+
+- Whether PDCD1LG2 vs CD274 (PD-L1) expression levels differ in predicting response to PD-1/PD-L1 blockade within 9p24.1-amplified gastric tumors is not addressed.
+- Translational validation of anti-PD-L1/L2 efficacy in EBV-positive gastric cancer patients with 9p24.1 amplification remains for subsequent trials.
+
+## Sources
+
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.*

@@ -3,7 +3,7 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD]
 tags: [co-mutation, metastasis]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -23,6 +23,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - Inactivating mutations in 12% of 183 LUAD cases; anti-correlated with never/light smoking status [PMID:22980975](../papers/22980975.md)
 - KEAP1 is identified as a driver linked to oxidative-stress signaling in HCC by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
 - KEAP1 loss-of-function mutations occur in ~3% of HCCs (co-listed with NFE2L2 at 4%) as part of the oxidative stress/NRF2 pathway alterations in the HCC mutational landscape. [PMID:24798001](../papers/24798001.md)
+- Loss-of-function mutations in 17% of LUAD (TCGA, n=230); enriched in oncogene-negative tumours (P < 0.01); co-occurs with STK11 as a defining feature of the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

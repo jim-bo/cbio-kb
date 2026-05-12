@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -54,6 +54,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Mentioned as RTK signaling component relevant to HCC targeted therapy landscape in a 2014 HCC genomics review [PMID:24735922](../papers/24735922.md)
 - Activating mutations in EGFR occur in ~1% of HCCs across WES cohorts (n=1,289); not a major driver but noted as part of the mutational landscape of hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 - EGFR is overexpressed in a substantial fraction of NPC tumors, driving proliferation, metastasis, and resistance via PI3K/AKT and MAPK; targeted with cetuximab, nimotuzumab, pimurutamab, EGFR ADCs (becotatug vedotin/MRG003), and bispecific ADCs (BL-B01D1 targeting EGFR×ERBB3; GEN1286 targeting EGFR×MET). [PMID:24952746](../papers/24952746.md)
+- ERBB-pathway member (with ERBB2, ERBB3, ERBB4) cited in the context of prior GBC whole-exome data showing recurrent ERBB-pathway mutations that activate AKT [PMID:24997986](../papers/24997986.md)
+- Altered in 11% of gastric adenocarcinoma (STAD) cases in the TCGA cohort; alterations include amplification in CIN tumours and elevated pY1068 phosphorylation [PMID:25079317](../papers/25079317.md)
+- Activating mutations in 14% of LUAD (TCGA, n=230); cancer-associated mutations enriched in females, terminal lobe (TL), and TRU transcriptional subtype; in-frame insertions specifically enriched in TL; mutually exclusive with KRAS [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -167,3 +170,12 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

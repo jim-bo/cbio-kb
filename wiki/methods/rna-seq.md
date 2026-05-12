@@ -60,6 +60,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on 4 of the 20 Discovery Cohort ESCC tumors to support transcriptomic analysis of mutated genes (e.g., APOBEC3B expression, XPO1 mRNA levels) [PMID:24686850](../papers/24686850.md)
 - Applied to 196 HCC patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
 - Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified BCL2 focal amplification correlated with increased BCL2 mRNA; both GTF2I alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
+- Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying SEMA7A as the most strongly upregulated semaphorin under stiff matrix conditions in GBC stroma [PMID:24997986](../papers/24997986.md)
+- Six-platform TCGA profiling of 295 gastric adenocarcinomas (stad_tcga_pub) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
+- Multi-platform TCGA profiling of 230 lung adenocarcinomas (luad_tcga_pub) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and MET exon 14 skipping events [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -172,5 +175,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

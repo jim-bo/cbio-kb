@@ -4,8 +4,8 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-11
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -37,6 +37,7 @@ OncoTree code for prostate adenocarcinoma.
 - WES of 112 prostate adenocarcinoma tumors identified [SPOP](../genes/SPOP.md), [FOXA1](../genes/FOXA1.md), and [MED12](../genes/MED12.md) as recurrent driver genes [PMID:22610119](../papers/22610119.md)
 - WES of 112 prostate tumors (Michigan cohort, [prad_mich](../datasets/prad_mich.md)) identified recurrent ETS family fusions and SPOP mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
 - WGS of 55 treatment-naïve primary PRAD identified chromoplexy (chains of ≥5 interdependent rearrangements) in 88% of tumors; TMPRSS2-ERG fusion arose within chromoplexy chains in 58% of [ERG](../genes/ERG.md)+ cases; recurrent SCNA burden tracks with Gleason grade (p=0.0059) [PMID:23622249](../papers/23622249.md)
+- CNA burden (fraction of autosomal genome with copy-number alterations) predicts biochemical recurrence (HR 1.09 per 1%, P<0.001) and metastasis in two independent prostatectomy cohorts (n=168 and n=104); prognostic independent of PSA, Gleason score, and the Stephenson nomogram, and measurable from FFPE needle biopsies by low-pass WGS [PMID:25024180](../papers/25024180.md)
 
 ## Subtypes
 
@@ -73,3 +74,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-11**.**

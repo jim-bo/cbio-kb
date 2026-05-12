@@ -3,7 +3,7 @@ symbol: RET
 aliases: []
 cancer_types: [NPC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -16,6 +16,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 ## Alterations observed in the corpus
 
 - RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic NPC. [PMID:24952746](../papers/24952746.md)
+- Fusions in 2/230 (0.9%) LUAD cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴ for fusion enrichment in TL). [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

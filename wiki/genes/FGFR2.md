@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # FGFR2
@@ -26,6 +26,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - K659E mutation (homologous to [FGFR1](../genes/FGFR1.md) K656E) observed in a case reclassified from medulloblastoma to glioblastoma by expression profiling; co-occurring with [FGFR3](../genes/FGFR3.md), TACC1/TACC3 fusions noted as background context for kinase-domain hotspot biology [PMID:23817572](../papers/23817572.md)
 - FGFR2/3 combined alteration frequency 3.2% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA), contributing to the RTK-alteration rate of 67.3% in that tumor type [PMID:24120142](../papers/24120142.md)
 - Mutated in 4/32 (13%) intrahepatic cholangiocarcinoma discovery-screen tumors at residues mutated in endometrial carcinoma; flagged as a potential therapeutic target via FGFR inhibitors then in clinical trials [PMID:24185509](../papers/24185509.md)
+- Altered in 9% of gastric adenocarcinoma (STAD) cases (TCGA); alteration type is RTK amplification enriched in the CIN subtype [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -75,3 +76,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

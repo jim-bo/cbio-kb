@@ -11,8 +11,8 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CCNE1
@@ -42,6 +42,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Focal amplification in 5% of high-grade bladder tumors; mutually exclusive with [CCND1](../genes/CCND1.md) amplification and inversely correlated with [RB1](../genes/RB1.md) loss [PMID:23897969](../papers/23897969.md)
 - Focal amplification in bladder TCC; part of a set of recurrently amplified oncogenes alongside [CCND1](../genes/CCND1.md) and [E2F3](../genes/E2F3.md) [PMID:24121792](../papers/24121792.md)
 - Focal amplification in 12% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); part of mRNA cluster C ('TP53/cell-cycle-mutant') which shows near-universal [TP53](../genes/TP53.md) mutation, [RB1](../genes/RB1.md) mutation, and E2F3/CCNE1 amplification; GISTIC 2.0 analysis of TCGA bladder cohort [PMID:24476821](../papers/24476821.md)
+- Recurrent focal amplification in CIN gastric adenocarcinoma; suggests CDK4/6 inhibitor evaluation in this subtype [PMID:25079317](../papers/25079317.md)
+- Recurrent focal amplification in LUAD; identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -115,3 +117,9 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

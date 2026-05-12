@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -17,6 +17,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 - Loss-of-function mutation in 4% of HCCs (WES, n=1,289 patients). [PMID:24798001](../papers/24798001.md)
 - Homozygous deletion in 5% of HCCs (SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
+- Focal copy number loss on 13q identified as a recurrently altered CNA in prostate cancer prostatectomy cohorts (prad_mskcc, prad_mskcc_2014). [PMID:25024180](../papers/25024180.md)
+- Mutated in 4% of LUAD (TCGA, n=230); frameshift indels enriched in transversion-low (TL) adenocarcinomas vs SCLC (P < 0.05). [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

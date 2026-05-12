@@ -3,8 +3,8 @@ symbol: B2M
 aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # B2M
@@ -23,6 +23,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Identified as recurrently mutated in DLBCL and [FL](../cancer_types/FL.md) by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - Inactivating frameshift p.L13fs*10 found in one [MCL](../cancer_types/MCL.md) case with concurrent 15q12–q21.1 deletion encompassing the locus; not observed in 97 additional patients including 3 with similar 15q monoallelic deletions [PMID:24145436](../papers/24145436.md)
+- MHC class I alteration enriched in the MSI subtype of gastric adenocarcinoma; B2M and HLA-B mutations consistent with antigen-presentation escape in microsatellite-unstable tumours [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -61,3 +62,6 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

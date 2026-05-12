@@ -49,6 +49,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Used to profile 244 [GBC](../cancer_types/GBC.md) samples (233 patients) at MSK with 341--505 gene panel versions (median coverage 634X), identifying actionable alterations in 35% of patients [PMID:36228155](../papers/36228155.md)
 - Used for genomic profiling in a 247-patient [NSCLC](../cancer_types/NSCLC.md) cohort treated with PD-(L)1 blockade; TMB from MSK-IMPACT achieved AUC = 0.61 alone vs AUC = 0.80 for the full multimodal DyAM model [PMID:36038778](../papers/36038778.md)
 - Targeted hybrid-capture sequencing of 279 cancer-associated genes (Illumina HiSeq 2000, mean depth 442×, ≥100× at 97% of targeted exons) used on 12 paired SCCOHT tumor/normal samples, identifying biallelic SMARCA4 inactivating mutations in 100% of cases [PMID:24658004](../papers/24658004.md)
+- Capture-based MSK-IMPACT sequencing of 109 high-grade urothelial bladder carcinomas (blca_mskcc_solit_2014) at mean 579x coverage across targeted exons; detected mutations in 240 genes with 23 mutated in ≥5% of cases; PIK3CA mutation associated with improved post-cystectomy recurrence-free survival [PMID:25092538](../papers/25092538.md)
 
 ## Notes
 
@@ -103,5 +104,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25092538](../papers/25092538.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

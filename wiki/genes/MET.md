@@ -33,6 +33,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET is mutated in ~3% of HCC and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for tivantinib trials in HCC [PMID:24735922](../papers/24735922.md)
 - Overexpression associated with poor prognosis and sorafenib resistance in HCC; tivantinib failed in MET-high HCC (mechanism may be MET-independent); capmatinib and cabozantinib (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
 - Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in NPC; co-targeted by GEN1286 (EGFR×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
+- MET recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing in gastric cancer (EGC); RTK amplification in CIN subtype; potential therapeutic relevance [PMID:25079317](../papers/25079317.md)
+- MET DNA mutations in 7% of LUAD; exon 14 skipping (alternative splicing) in 4% (10/230) with identifiable cis-acting splice-site mutations in 9/10 cases; focal amplification enriched in oncogene-negative tumours; nominated as driver and therapeutic target [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -98,5 +100,11 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

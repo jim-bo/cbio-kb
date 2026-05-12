@@ -58,6 +58,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
 - Referenced in HCC genomic landscape review as part of next-generation sequencing approaches that identified novel HCC driver genes including TERT, ARID1A, ARID2, RPS6KA3, PIK3CA, IRF2, NFE2L2, and KEAP1 [PMID:24735922](../papers/24735922.md)
 - Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including DOT1L, INSR, FBXO24, and CTNND1 [PMID:24816255](../papers/24816255.md)
+- Low-pass WGS (1-3x coverage) from 100-250 ng input DNA (KAPA LTP / Illumina HiSeq 2000) applied to four FFPE prostate needle biopsies; CNA profiles concordant with high-resolution aCGH, enabling pre-treatment CNA burden assessment [PMID:25024180](../papers/25024180.md)
+- Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort (stad_tcga_pub) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
+- Low-pass WGS on 93 of 230 lung adenocarcinomas (luad_tcga_pub) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); ALK, ROS1, RET fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -173,5 +176,14 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

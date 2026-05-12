@@ -3,7 +3,7 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -17,6 +17,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 
 - YAP1 signaling is perturbed by a germline RHOA p.R129W variant identified in a Korean HDGC-like family: the variant showed elevated GTP-binding and altered YAP1 signaling in functional assays. [PMID:24816255](../papers/24816255.md)
 - RHOA-activated diffuse gastric tumors may be susceptible to Rho/ROCK or YAP1-pathway inhibitors (preclinical hypothesis; no clinical trial data reported). [PMID:24816255](../papers/24816255.md)
+- Mechanotransducer in gallbladder cancer-associated fibroblasts; nuclear translocation driven by stiff matrix (16 kPa); required for stiffness-induced SEMA7A transcription; YAP1 shRNA or verteporfin abolishes GF activation and SEMA7A secretion. [PMID:24997986](../papers/24997986.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

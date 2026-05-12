@@ -35,6 +35,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); missense p.Gly1194Trp and p.Glu882Lys; SWI/SNF chromatin-remodeling complex component [PMID:24418857](../papers/24418857.md)
 - SMARCA4 was mutated in RMH004 ccRCC tumor (p.Thr910Met) alongside PBRM1 and ARID1A hits, implicating SWI/SNF complex disruption in this tumor [PMID:24487277](../papers/24487277.md)
 - SMARCA4 (BRG1) harbors biallelic inactivating mutations in 12/12 SCCOHT tumors (nonsense, frameshift, splice-site, intragenic exonic deletions) affecting helicase catalytic domains; established as the defining tumor suppressor of SCCOHT. Truncating mutations correlate with reduced SMARCA4 expression in TCGA, consistent with nonsense-mediated decay [PMID:24658004](../papers/24658004.md)
+- Mutated in 6% of LUAD (TCGA, n=230); chromatin modifier (SWI/SNF complex); mutually exclusive with ARID1A in bladder cancer. [PMID:25079552](../papers/25079552.md)
+- Alterations mutually exclusive with ARID1A truncating mutations (28%) in high-grade urothelial carcinoma of the bladder (MSK-IMPACT, n=109). [PMID:25092538](../papers/25092538.md)
 
 ## Cancer types (linked)
 
@@ -102,5 +104,11 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24658004](../papers/24658004.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25092538](../papers/25092538.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

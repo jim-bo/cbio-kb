@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -70,6 +70,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (6.4% frequency); no RAS mutations in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 - KRAS focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
 - KRAS activating mutations are rare in HCC (~1%; 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months. [PMID:24798001](../papers/24798001.md)
+- Mutated in 6% of gastric adenocarcinoma (STAD) overall (TCGA); KRAS/NRAS alterations combined reach 17% across CIN and MSI subtypes [PMID:25079317](../papers/25079317.md)
+- Activating mutations in 33% of LUAD (TCGA, n=230, 74 cancer-associated); mutually exclusive with EGFR; enriched in the transversion-high (TH)/smoker cohort and the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -232,3 +234,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

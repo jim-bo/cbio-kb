@@ -3,8 +3,8 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # PIK3R1
@@ -27,6 +27,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Mutated in 65% of POLE-ultramutated endometrial tumors; mutually exclusive with PIK3CA across all endometrial subgroups [PMID:23636398](../papers/23636398.md)
 - PI3K p85α regulatory subunit altered as part of the PI3K-family mutation cluster in 18.3% of [GBM](../cancer_types/GBM.md) (PIK3CA/PIK3R1 combined) [PMID:24120142](../papers/24120142.md)
 - Variants of uncertain significance identified in BRAF-inhibitor-resistant melanoma tumors; larger cohort validation and functional experiments needed to clarify contribution to resistance [PMID:24265153](../papers/24265153.md)
+- PIK3R1 PI3K pathway loss observed in gastric cancer (EGC); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +81,6 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:24265153](../papers/24265153.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

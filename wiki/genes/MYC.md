@@ -58,6 +58,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
 - MYC gains at 8q are observed in HCC as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
 - Focal amplification in ~12% of HCCs; co-occurs with CCND1 amplification (7%) as recurrent copy-number gains driving proliferation in the HCC proliferation subclass [PMID:24798001](../papers/24798001.md)
+- MYC focal copy number gain in prostate cancer; not significantly associated with biochemical recurrence in this CNA-burden study [PMID:25024180](../papers/25024180.md)
+- MYC focal amplification in CIN subtype of gastric cancer (EGC); co-amplified with GATA4, GATA6, ZNF217, CD44 [PMID:25079317](../papers/25079317.md)
+- MYC 8q24 amplification peak in LUAD (TCGA, n=230); overexpression associated with CIMP-H methylation phenotype (P=0.003); mutually exclusive with MGA loss-of-function mutations (P=0.04) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -184,5 +187,14 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

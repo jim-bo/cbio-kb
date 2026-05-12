@@ -69,6 +69,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN parallel evolution previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
 - PTEN harbors inactivating mutations in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
 - PTEN loss contributes to PI3K/AKT pathway hyperactivation in HCC; part of the oncogenic signaling landscape analyzed in the HCC precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
+- PTEN focal copy number loss in prostate cancer; independently associated with biochemical recurrence (HR=3.04, P=0.001) but CNA burden remains prognostic after adjusting for it [PMID:25024180](../papers/25024180.md)
+- PTEN PI3K pathway loss in gastric cancer (EGC); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
+- PTEN recurrent mutations in 6% of muscle-invasive bladder cancer (BLCA); part of PI3K/AKT pathway alterations [PMID:25092538](../papers/25092538.md)
 
 ## Cancer types (linked)
 
@@ -234,5 +237,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25092538](../papers/25092538.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

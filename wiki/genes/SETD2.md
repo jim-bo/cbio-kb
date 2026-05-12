@@ -23,6 +23,7 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - Significant mutations identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); classified as epigenetic regulator in the proposed 11th hallmark of epigenetic/RNA deregulation [PMID:22980975](../papers/22980975.md)
 - H3K36 methyltransferase; somatic mutation in ccRCC associated with regional DNA hypomethylation at non-promoter CpGs (n=2,557 differentially methylated loci); among top significantly mutated genes (q<0.00001) in clear cell renal cell carcinoma. [PMID:23792563](../papers/23792563.md)
 - SETD2 showed parallel inactivating mutations in 3 of 10 ccRCC tumors (e.g., p.Tyr545* and p.Thr1652Ile in EV007); absent in the remaining 7, illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
+- Mutated in 9% of LUAD (TCGA, n=230); chromatin modifier; associated with CDKN2A methylation in iCluster 4 (TRU-associated, low ploidy, low mutation rate). [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24487277](../papers/24487277.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

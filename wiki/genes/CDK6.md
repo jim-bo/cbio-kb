@@ -24,6 +24,7 @@ processed_at: 2026-05-11
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); contributes to Rb-pathway dysregulation (overall 78.9% of GBM) [PMID:24120142](../papers/24120142.md)
 - Co-targeted with CDK4 by dalpiciclib in NPC; combination + camrelizumab achieved ORR 32.4% in PD-1-refractory R/M NPC [PMID:24952746](../papers/24952746.md)
+- Recurrent focal amplification in CIN gastric adenocarcinoma; co-amplified with CCNE1 and CCND1; suggests CDK4/6 inhibitor evaluation in CIN-subtype tumours [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ processed_at: 2026-05-11
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

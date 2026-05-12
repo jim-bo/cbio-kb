@@ -33,6 +33,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Applied to the Illumina WES arm of 147 rhabdomyosarcoma tumor/normal pairs; identified significantly mutated genes including [HRAS](../genes/HRAS.md), KRAS, NRAS, [FGFR4](../genes/FGFR4.md), PIK3CA, [NF1](../genes/NF1.md), [FBXW7](../genes/FBXW7.md), and [BCOR](../genes/BCOR.md); combined with GATK UnifiedGenotyper for the SOLiD arm [PMID:24436047](../papers/24436047.md)
 - MutSig 1.5 applied to TCGA bladder carcinoma WES data (n=130); identified 32 significantly mutated genes at FDR<0.1, including 9 not previously reported as significantly mutated in any cancer ([CDKN1A](../genes/CDKN1A.md), [ERCC2](../genes/ERCC2.md), [RXRA](../genes/RXRA.md), [ELF3](../genes/ELF3.md), [KLF5](../genes/KLF5.md), [FOXQ1](../genes/FOXQ1.md), [RHOB](../genes/RHOB.md), [PAIP1](../genes/PAIP1.md), [BTG2](../genes/BTG2.md)) [PMID:24476821](../papers/24476821.md)
 - MutSigCV applied to ESCC cohort (139 paired tumor/normal samples) to identify 13 significantly mutated genes at FDR q < 0.2, including novel drivers FAT1, FAT2, ZNF750, and KMT2D [PMID:24686850](../papers/24686850.md)
+- MutSigCV applied to 215 non-hypermutated gastric adenocarcinomas (stad_tcga_pub) identified 25 significantly mutated genes including TP53, ARID1A, KRAS, PIK3CA, RNF43, APC, CTNNB1, SMAD4; expanded analysis including indels added RNF43, B2M, NF1 [PMID:25079317](../papers/25079317.md)
+- MutSig2CV applied to 412 lung adenocarcinomas (luad_tcga_pub, 230 TCGA + 182 published) identified 18 significantly mutated genes; newly identified RIT1 activating mutations and MGA loss-of-function (mutually exclusive with MYC amplification) [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -89,5 +91,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

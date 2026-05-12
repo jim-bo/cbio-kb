@@ -29,6 +29,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Single nasal-cavity case with missense p.Thr674Ile (AF 8%); the patient received targeted therapy with [imatinib](../drugs/imatinib.md) and was NED at 19 months — the only AdCC patient in the cohort to receive targeted therapy [PMID:24418857](../papers/24418857.md)
 - Recurrently mutated in rhabdomyosarcoma at 1.4% frequency (PFN-enriched); classified as a receptor tyrosine kinase driver [PMID:24436047](../papers/24436047.md)
 - Implicated in HCC pathogenesis as part of the receptor tyrosine kinase landscape; sorafenib inhibits PDGFR alongside VEGFR/RAF as part of its multi-kinase mechanism in advanced HCC [PMID:24798001](../papers/24798001.md)
+- PDGFRA expression positively correlates with stromal SEMA7A in GBC (scRNA-seq, GEO datasets), co-marking cancer-associated fibroblast (CAF) subpopulations alongside ACTA2, MFAP5, TGFBR1, and TGFBR2; high stromal SEMA7A associates with lymph node metastasis and poor OS in a GBC cohort (n=86) [PMID:24997986](../papers/24997986.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +85,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

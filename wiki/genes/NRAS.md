@@ -42,6 +42,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with BRAF (rarely simultaneously clonal) [PMID:24434212](../papers/24434212.md)
 - Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset [PMID:24436047](../papers/24436047.md)
 - RAS mutations are rare in HCC (~1% each for KRAS and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months [PMID:24798001](../papers/24798001.md)
+- NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -133,5 +134,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

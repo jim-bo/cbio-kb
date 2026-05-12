@@ -3,8 +3,8 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # MDM2
@@ -36,6 +36,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
 - Amplification at the 12q15 amplicon (9%, PFN-skewed) in rhabdomyosarcoma; co-amplified with [FRS2](../genes/FRS2.md); MDM2 amplification is mutually exclusive with TP53 mutation in this context [PMID:24436047](../papers/24436047.md)
 - Focal amplification in 9% of muscle-invasive bladder carcinoma tumors; amplification is an alternative mechanism of TP53 inactivation, with MDM2 amp and TP53 mutation being mutually exclusive events [PMID:24476821](../papers/24476821.md)
+- MDM2 recurrent focal amplification identified as a significant GISTIC peak in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -108,3 +109,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

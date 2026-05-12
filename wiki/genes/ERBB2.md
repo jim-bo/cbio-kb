@@ -53,6 +53,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in RMS genomic characterization [PMID:24436047](../papers/24436047.md)
 - ERBB2 mutation or amplification in 9% of muscle-invasive bladder cancers (significant by COSMIC restriction); alteration frequency comparable to TCGA HER2-positive breast cancer but with fewer amplifications and more mutations; supports ongoing ERBB2-targeted therapy trials [PMID:24476821](../papers/24476821.md)
 - Mentioned in the context of RTK signaling and targeted therapy landscape in HCC (2014 genomics review) [PMID:24735922](../papers/24735922.md)
+- ERBB-pathway member cited in context of prior GBC whole-exome data (Li et al. Nat Genet 2014) showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
+- Altered in 17% of CIN gastric adenocarcinoma (STAD) cases; alterations include focal amplification and recurrent S310F-class hotspot mutations (3% mutation overall); established drug target in CIN subtype [PMID:25079317](../papers/25079317.md)
+- Activating in-frame insertion and point mutations (n=5) and focal amplification in the oncogene-negative subset of LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 
 ## Cancer types (linked)
 
@@ -171,5 +174,14 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24735922](../papers/24735922.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

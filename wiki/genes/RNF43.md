@@ -3,8 +3,8 @@ symbol: RNF43
 aliases: []
 cancer_types: [COAD, PRAD, CESC, PAAD]
 tags: [wnt-pathway, ubiquitin-ligase, tumor-suppressor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -24,6 +24,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - WES of pancreatic cystic neoplasms identified recurrent RNF43 mutations in intraductal papillary mucinous neoplasms (IPMNs), establishing it as a candidate tumor suppressor in pancreatic cystic lesions [PMID:22158988](../papers/22158988.md)
 - Ubiquitin ligase upregulated in colon cancer; colon-specific expression pattern in NCI-60 cell lines identified via CellMiner drug-pattern comparison analysis [PMID:22802077](../papers/22802077.md)
 - RNF43 somatic mutation in 1/23 (4%) pancreatic carcinomas with acinar differentiation; previously associated with [IPMN](../cancer_types/IPMN.md) and mucinous cystic neoplasms [PMID:24293293](../papers/24293293.md)
+- Identified as a significantly mutated gene in gastric cancer (TCGA); functions as a WNT pathway negative regulator (RING-domain E3 ubiquitin ligase that promotes Frizzled receptor degradation). [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -63,3 +64,6 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

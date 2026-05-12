@@ -72,6 +72,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Inactivated in the G3 proliferative HCC subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early HCC; G3 subgroup (TP53 mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 2% and homozygous deletion in 5% of HCCs (WES/SNP-array); epigenetic silencing also reported [PMID:24798001](../papers/24798001.md)
 - Recurrent mutations in thymic carcinomas [PMID:24974848](../papers/24974848.md)
+- Promoter hypermethylation in all EBV-positive gastric tumours; focal deletion in CIN subtype; hypermethylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079317](../papers/25079317.md)
+- Mutated in 4% of LUAD; most significant deletion peak in copy-number data; hypermethylated in CIMP-H tumours; methylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079552](../papers/25079552.md)
+- Alterations independently associated with worse recurrence-free survival (HR=5.76) and cancer-specific survival (HR=2.94) in muscle-invasive urothelial carcinoma after radical cystectomy; authors propose rationale for CDK4 inhibitor trials [PMID:25092538](../papers/25092538.md)
 
 ## Cancer types (linked)
 
@@ -234,5 +237,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25092538](../papers/25092538.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

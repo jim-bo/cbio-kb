@@ -28,6 +28,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - Mutated in breast cancer (TCGA, 510 tumors); CDH1 truncating mutations highly enriched in lobular breast carcinoma (luminal A subtype), causing loss of E-cadherin expression and epithelial-mesenchymal transition [PMID:23000897](../papers/23000897.md)
 - Mutated in EAC; co-occurs with [APC](../genes/APC.md) mutations (two tumors with co-occurring APC + CDH1) in the beta-catenin pathway, which is altered in only 9% of EACs [PMID:23525077](../papers/23525077.md)
 - Germline loss-of-function defines Hereditary Diffuse Gastric Cancer (HDGC); in mutation-negative HDGC-like families ~17% of tumors show somatic CDH1 promoter hypermethylation and ~9% LOH; standard multigene GC panel includes CDH1 [PMID:24816255](../papers/24816255.md)
+- Downregulated (E-cadherin loss) in GBC cells as an EMT readout downstream of paracrine SEMA7A signaling from stiff-matrix-activated CAFs; E-cadherin restored by SEMA7A knockdown in GFs in co-injection xenografts [PMID:24997986](../papers/24997986.md)
+- Somatic mutations in 11% of gastric adenocarcinoma overall and 26-37% of GS tumours; no germline-pathogenic CDH1 variants identified in this sporadic cohort [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +72,11 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:24997986](../papers/24997986.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

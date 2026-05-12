@@ -44,6 +44,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Illumina Omni 2.5M and 5M SNP arrays (analogous workflow to Affymetrix SNP6) applied to all 147 rhabdomyosarcoma tumor/normal pairs for copy-number alteration profiling; identified 11p15.5 LOH (50% of tumors), [MYCN](../genes/MYCN.md) amplification (5%), CDK4/12q13-q14 amplification (9.7%), and [CDKN2A](../genes/CDKN2A.md) homozygous deletion (3%) [PMID:24436047](../papers/24436047.md)
 - Affymetrix SNP 6.0 arrays used for somatic copy-number alteration profiling of 131 TCGA bladder carcinoma samples; identified CDKN2A focal deletion (47%), [PPARG](../genes/PPARG.md) amplification (17%), E2F3/SOX4 amplification (20%), and [NECTIN4](../genes/NECTIN4.md) amplification (19%) as the most prevalent focal events [PMID:24476821](../papers/24476821.md)
 - SNP-array copy-number calls from 704 HCC patients used to characterise focal amplifications (MYC 12%, CCND1 7%, FGF19 6%, VEGFA 5%, TERT 5%) and homozygous deletions (CDKN2A 5%, RB1 5%) [PMID:24798001](../papers/24798001.md)
+- Used for array-based somatic copy-number profiling in the TCGA gastric adenocarcinoma study (stad_tcga_pub, N=295) to classify CIN vs GS subtypes and detect focal amplifications/deletions including RTK loci and 9p24.1 [PMID:25079317](../papers/25079317.md)
+- Used for copy-number profiling of 230 lung adenocarcinomas (luad_tcga_pub); GISTIC identified significant focal amplifications (NKX2-1, TERT, MDM2, KRAS, EGFR, MET, CCNE1) and the most significant deletion peak at CDKN2A [PMID:25079552](../papers/25079552.md)
 
 ## Notes
 
@@ -130,5 +132,11 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24798001](../papers/24798001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

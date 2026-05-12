@@ -3,7 +3,7 @@ symbol: VEGFA
 aliases: []
 cancer_types: [HCC, NPC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -17,6 +17,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 - High-level focal amplification in 5% of HCCs (range 1-8%; SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
 - Anti-VEGF antibody bevacizumab + sintilimab achieved ORR 54.5% in platinum-refractory ICI-naive recurrent/metastatic NPC. [PMID:24952746](../papers/24952746.md)
+- Recurrent focal amplification in 7% of gastric cancers (TCGA, CIN subtype); rationale for VEGFR-pathway inhibition (e.g., ramucirumab). [PMID:25079317](../papers/25079317.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -35,6 +35,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Somatic mutation reported in the HCC molecular landscape (WES, n=1,289); part of the non-actionable trunk-driver set [PMID:24798001](../papers/24798001.md)
 - GAPPS syndrome driven by APC promoter 1B variants is included in the differential diagnosis of familial/hereditary gastric cancer; standard multigene GC panel includes APC [PMID:24816255](../papers/24816255.md)
 - Beta-catenin pathway alteration in non-hypermutated gastric tumours; APC and CTNNB1 mutations co-occur in the Wnt pathway dysregulation landscape of gastric adenocarcinoma [PMID:25079317](../papers/25079317.md)
+- Higher prevalence than TCGA in metastatic CRC; private mutations in 7 patients (mostly secondary to a shared clonal hit); in one patient, primary-private nonsense was rendered phenotypically equivalent in the metastasis by chromosomal deletion of the APC locus [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079317](../papers/25079317.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

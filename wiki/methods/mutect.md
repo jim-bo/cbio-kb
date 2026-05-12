@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # MuTect
@@ -28,6 +28,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied for somatic point-mutation calling in paired tumor/normal whole-exome sequencing of grade II glioma initial/recurrent pairs (n=23); mutation validation rate informed by independent re-genotyping [PMID:24336570](../papers/24336570.md)
 - Applied for somatic point-mutation calling on the Illumina HiSeq whole-exome arm (13 paired samples) of the rhabdomyosarcoma cohort (147 total tumor/normal pairs); combined with MutSig for significantly mutated gene identification [PMID:24436047](../papers/24436047.md)
 - Applied for somatic point-mutation calling on 130 TCGA bladder carcinoma WES tumor/normal pairs; identified mean 302 exonic mutations per sample and APOBEC TpC signature representing 51% of all mutations [PMID:24476821](../papers/24476821.md)
+- Used to call SNVs in pre-treatment urothelial carcinoma tumors (n=50), identifying ERCC2 mutations enriched in cisplatin responders. [PMID:25096233](../papers/25096233.md)
+- Used to call somatic SNVs in matched primary/metastasis CRC trios (n=69) as part of the MSK-IMPACT analysis pipeline. [PMID:25164765](../papers/25164765.md)
 
 ## Notes
 
@@ -53,3 +55,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

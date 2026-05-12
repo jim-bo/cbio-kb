@@ -3,8 +3,8 @@ symbol: SPINK1
 aliases: []
 cancer_types: [PRAD]
 tags: [outlier-expression, ETS-negative, prostate-cancer]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # SPINK1
@@ -16,6 +16,7 @@ SPINK1 (Serine Peptidase Inhibitor, Kazal Type 1) encodes a serine protease inhi
 ## Alterations observed in the corpus
 
 - SPINK1 outlier expression identified as a molecular subtype marker in prostate cancer WES of 112 tumors (Michigan cohort, 50 lethal CRPCs + 11 localized); SPINK1-positive status stratified alongside ETS gene fusions in the copy number and mutation heatmap analysis [PMID:22722839](../papers/22722839.md)
+- Overexpressed in MSK-PCa5 and MSK-PCa7 prostate cancer cell lines as an ETS-fusion-exclusive subtype marker in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ SPINK1 (Serine Peptidase Inhibitor, Kazal Type 1) encodes a serine protease inhi
 - [PMID:22722839](../papers/22722839.md) — Prostate cancer WES, 112 tumors, Michigan cohort
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

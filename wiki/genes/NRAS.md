@@ -43,6 +43,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset [PMID:24436047](../papers/24436047.md)
 - RAS mutations are rare in HCC (~1% each for KRAS and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months [PMID:24798001](../papers/24798001.md)
 - NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- One activating somatic mutation in 66 chromophobe RCC cases; contributes to mTOR-pathway alteration rate of 23% combined with PTEN/MTOR/TSC1/TSC2 [PMID:25155756](../papers/25155756.md)
+- Driver mutations in KRAS/NRAS/BRAF are 100% concordant between primary and metastasis in CRC; trunk events established early in carcinogenesis; status guides cetuximab and panitumumab eligibility [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +139,11 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

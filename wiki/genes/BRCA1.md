@@ -48,6 +48,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified [PMID:24293293](../papers/24293293.md)
 - HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
+- Truncating somatic mutation in one ERCC2-WT cisplatin responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
+- Direct EWS::FLI1 transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +122,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25186949](../papers/25186949.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

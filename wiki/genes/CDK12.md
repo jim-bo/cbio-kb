@@ -7,7 +7,7 @@ cancer_types:
   - HGSOC
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # CDK12
@@ -25,6 +25,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - CDK12 structural variants in 3 [GBC](../cancer_types/GBC.md) patients including fusions (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
 - Identified as somatically mutated in HGSOC in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - CDK12 mutations identified in prostate cancer WES of 112 tumors (Michigan cohort), implicating DNA damage response and transcription regulation [PMID:22722839](../papers/22722839.md)
+- Tumor-suppressor mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - [PMID:22722839](../papers/22722839.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

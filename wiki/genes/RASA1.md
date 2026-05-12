@@ -3,7 +3,7 @@ symbol: RASA1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -16,6 +16,7 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 ## Alterations observed in the corpus
 
 - Recurrently mutated (loss-of-function) in gastric cancer as a negative regulator of RAS; identified as a significantly mutated gene in the TCGA gastric cancer cohort. [PMID:25079317](../papers/25079317.md)
+- Two nonsense mutations (C372*, R679*) identified as shared trunk events between primary and matched liver metastasis in patient 14, mutually exclusive with RAS mutations in colorectal carcinoma; not on original MSK-IMPACT panel design but added in subsequent version [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - BLL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # IKZF1
@@ -18,6 +18,7 @@ IKZF1 (IKAROS Family Zinc Finger 1, also known as Ikaros) encodes a zinc-finger 
 ## Alterations observed in the corpus
 
 - Infrequent in hypodiploid ALL (both near haploid and low hypodiploid subtypes), in contrast to its established role as a key driver in non-hypodiploid high-risk B-ALL; this pattern was noted in a WGS/WES study of 44 pediatric ALL tumors (St. Jude cohort) [PMID:23334668](../papers/23334668.md)
+- Co-amplified with EGFR and ETV1 at chr 7p in a metastasis-private high-level amplification event in metastatic CRC [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ IKZF1 (IKAROS Family Zinc Finger 1, also known as Ikaros) encodes a zinc-finger 
 - [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

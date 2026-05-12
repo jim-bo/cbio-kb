@@ -3,8 +3,8 @@ symbol: ITM2A
 aliases: []
 cancer_types: []
 tags: [melanocyte, neural-crest, transcriptomic-marker]
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ITM2A
@@ -16,6 +16,7 @@ ITM2A (Integral Membrane Protein 2A) is expressed in neural-crest-derived and st
 ## Alterations observed in the corpus
 
 - Upregulated as a connective-tissue/neural-crest lineage marker in LowMut melanocytes (low UV-mutation burden, stem-like transcriptome) relative to HighMut (differentiated/pigmentation) melanocytes in normal human skin; no somatic mutations reported in this study. [PMID:39975212](../papers/39975212.md)
+- Newly nominated Ewing-specific marker from spatial transcriptomics of experimental heMSC-derived tumors; previously linked to neural/endothelial features of Ewing sarcoma; proposed as a discriminating biomarker [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ ITM2A (Integral Membrane Protein 2A) is expressed in neural-crest-derived and st
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

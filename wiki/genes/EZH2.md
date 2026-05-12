@@ -8,8 +8,8 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # EZH2
@@ -29,6 +29,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Somatic mutations detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); loss-of-function mutations implicated in epigenetic dysregulation [PMID:23334668](../papers/23334668.md)
 - Member of the chromatin-modifying gene category (with [KDM6A](../genes/KDM6A.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md)) recurrently mutated in [AML](../cancer_types/AML.md); contributes to the epigenetic regulation landscape of the disease [PMID:23634996](../papers/23634996.md)
 - Somatic variants identified in 4 patients in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
+- Identified as an established EWS::FLI1 transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:25186949](../papers/25186949.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

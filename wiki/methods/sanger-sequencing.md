@@ -39,6 +39,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Validated somatic mutations in ESCC cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations [PMID:24686850](../papers/24686850.md)
 - Sanger sequencing applied to HCC cohort molecular characterisation as part of the multi-platform TCGA integrated study [PMID:24798001](../papers/24798001.md)
 - Sanger sequencing of GTF2I performed on 199 TETs with >50% cancer cells to confirm the recurrent chr7:74146970 T>A hotspot mutation [PMID:24974848](../papers/24974848.md)
+- Used for plasmid verification in functional studies of MSK-IMPACT-detected mutations (e.g., MAP2K1 Q56P) in the CRC concordance study. [PMID:25164765](../papers/25164765.md)
 
 ## Notes
 
@@ -110,5 +111,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

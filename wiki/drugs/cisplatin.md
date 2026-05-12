@@ -40,6 +40,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In muscle-invasive bladder carcinoma (n=131 [BLCA](../cancer_types/BLCA.md)), cisplatin-based chemotherapy was the reference standard of care at the time of the TCGA analysis with a median survival of 14–15 months for recurrent/metastatic disease; no molecularly targeted agent had been approved [PMID:24476821](../papers/24476821.md)
 - Cited in HCC trials (CELESTIAL, SHARP supporting context) as a reference comparator chemotherapy; sorafenib combinations not primary focus [PMID:24798001](../papers/24798001.md)
 - Platinum-based backbone (cisplatin + gemcitabine) is the standard chemotherapy platform for R/M NPC; sintilimab added to CCRT with cisplatin improved 36-mo EFS to 86% vs 76% (HR 0.59) [PMID:24952746](../papers/24952746.md)
+- Somatic [[ERCC2]] mutations were found exclusively in cisplatin responders (9/25, 36%) in muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy; ERCC2 mutation is proposed as a predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
 
 ## Resistance mechanisms
 
@@ -88,5 +89,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

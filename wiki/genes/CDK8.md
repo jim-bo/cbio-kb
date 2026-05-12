@@ -3,8 +3,8 @@ symbol: CDK8
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CDK8
@@ -16,6 +16,7 @@ CDK8 (cyclin-dependent kinase 8) is a transcriptional regulator and component of
 ## Alterations observed in the corpus
 
 - Focal amplification in ovarian MiNEN patient PN19 alongside [MYC](../genes/MYC.md) amplification and [KRAS](../genes/KRAS.md) mutation in a WGTA-guided therapy study of metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- Focal amplification in a CRC patient lacking β-catenin/RAS-pathway mutations; known WNT/β-catenin regulator; co-amplified with RASA1 nonsense context in patient 14 [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CDK8 (cyclin-dependent kinase 8) is a transcriptional regulator and component of
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

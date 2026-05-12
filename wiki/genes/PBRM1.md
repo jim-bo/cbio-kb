@@ -26,6 +26,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 is mutated in 6/10 ccRCC tumors; truncal in 3 of those 6. Two distinct PBRM1 frameshifts (p.Lys1282fs and p.Leu207fs) coexisted in RMH004 (parallel evolution), illustrating intratumor heterogeneity of this SWI/SNF subunit [PMID:24487277](../papers/24487277.md)
 - PBRM1 (BAF180), a PBAF-specific SWI/SNF subunit, is referenced in the context of complex composition in small cell carcinoma of the ovary, hypercalcemic type (SCCOHT); not mutated in this cohort but relevant to SWI/SNF biology [PMID:24658004](../papers/24658004.md)
 - Recurrent loss-of-function mutations in thymic carcinomas, part of a molecular profile that distinguishes aggressive thymic carcinomas from indolent thymomas [PMID:24974848](../papers/24974848.md)
+- Invoked as precedent for discovering frequent kidney-cancer driver mutations from modest sample sizes (originally identified in ccRCC from 25 tumors); not somatically recurrent in the ChRCC cohort (n=66) [PMID:25155756](../papers/25155756.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +71,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:24974848](../papers/24974848.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

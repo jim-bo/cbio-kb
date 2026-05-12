@@ -57,6 +57,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - ERBB-pathway member (with ERBB2, ERBB3, ERBB4) cited in the context of prior GBC whole-exome data showing recurrent ERBB-pathway mutations that activate AKT [PMID:24997986](../papers/24997986.md)
 - Altered in 11% of gastric adenocarcinoma (STAD) cases in the TCGA cohort; alterations include amplification in CIN tumours and elevated pY1068 phosphorylation [PMID:25079317](../papers/25079317.md)
 - Activating mutations in 14% of LUAD (TCGA, n=230); cancer-associated mutations enriched in females, terminal lobe (TL), and TRU transcriptional subtype; in-frame insertions specifically enriched in TL; mutually exclusive with KRAS [PMID:25079552](../papers/25079552.md)
+- Metastasis-private high-level amplification (chr 7p) detected in metastatic CRC; co-amplified with CARD11, ETV1, and IKZF1; may represent an actionable event in RAS/RAF wild-type patients missed by primary-only sequencing [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -177,5 +178,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

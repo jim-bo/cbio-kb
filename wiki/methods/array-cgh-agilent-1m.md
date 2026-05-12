@@ -21,6 +21,7 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 - 44K Agilent array-CGH performed on 59 ESCC samples as part of a 184-sample SCNV analysis identifying 14 recurrent focal copy-number events including CCND1 amplification and CDKN2A deletion [PMID:24686850](../papers/24686850.md)
 - Array CGH (Agilent) performed on 65 TET cases; data deposited in GEO (GSE55852); identified frequent arm-level gains (1q 55%) and losses (6q 29%, 6p 26%, 3p 22%, 13q 18%), with focal BCL2 amplification in aggressive histotypes [PMID:24974848](../papers/24974848.md)
 - Profiling of 104 prostatectomy cases (prad_mskcc_2014 contemporary cohort) by Agilent 1M-feature array-CGH on snap-frozen samples with >70% tumor content; used to compute CNA burden as a fraction of the autosomal genome, which was independently associated with BCR (HR 1.05, P=0.008) [PMID:25024180](../papers/25024180.md)
+- Agilent SurePrint G3 1M array-CGH used to profile copy-number alterations in seven prostate cancer organoid lines; identified PTEN homozygous deletions, CHD1 loss, AR amplification, and RB1/CDKN2A alterations (note: missed a complete RB1 deletion detected by RNA-seq). [PMID:25201530](../papers/25201530.md)
 
 ## Notes
 
@@ -38,5 +39,8 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25024180](../papers/25024180.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -46,6 +46,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - SNP-array copy-number calls from 704 HCC patients used to characterise focal amplifications (MYC 12%, CCND1 7%, FGF19 6%, VEGFA 5%, TERT 5%) and homozygous deletions (CDKN2A 5%, RB1 5%) [PMID:24798001](../papers/24798001.md)
 - Used for array-based somatic copy-number profiling in the TCGA gastric adenocarcinoma study (stad_tcga_pub, N=295) to classify CIN vs GS subtypes and detect focal amplifications/deletions including RTK loci and 9p24.1 [PMID:25079317](../papers/25079317.md)
 - Used for copy-number profiling of 230 lung adenocarcinomas (luad_tcga_pub); GISTIC identified significant focal amplifications (NKX2-1, TERT, MDM2, KRAS, EGFR, MET, CCNE1) and the most significant deletion peak at CDKN2A [PMID:25079552](../papers/25079552.md)
+- Used to profile somatic copy-number alterations in 66 ChRCC tumors in the TCGA ChRCC study; no focal events detected by GISTIC, only recurrent whole-chromosome losses. [PMID:25155756](../papers/25155756.md)
 
 ## Notes
 
@@ -138,5 +139,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

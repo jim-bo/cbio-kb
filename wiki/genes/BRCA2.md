@@ -50,6 +50,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; Fanconi-anemia-pathway member, candidate for DNA cross-linking agents and PARP inhibition [PMID:24293293](../papers/24293293.md)
 - HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
+- Truncating somatic mutation in one ERCC2-WT cisplatin responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
 
 ## Cancer types (linked)
 
@@ -125,5 +126,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24816255](../papers/24816255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

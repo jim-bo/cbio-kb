@@ -63,6 +63,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying SEMA7A as the most strongly upregulated semaphorin under stiff matrix conditions in GBC stroma [PMID:24997986](../papers/24997986.md)
 - Six-platform TCGA profiling of 295 gastric adenocarcinomas (stad_tcga_pub) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
 - Multi-platform TCGA profiling of 230 lung adenocarcinomas (luad_tcga_pub) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and MET exon 14 skipping events [PMID:25079552](../papers/25079552.md)
+- Used in TCGA ChRCC project (66 tumors) to profile gene expression, identify distal-nephron cell-of-origin signatures, characterize mtDNA-mutant transcriptomes, and assess TERT expression levels. [PMID:25155756](../papers/25155756.md)
+- Used on Illumina HiSeq 2500 (GEO GSE272957) to profile transcriptomes of EWS::FLI1-transduced heMSCs vs controls, identifying 3,836 DEGs and Ewing sarcoma gene-expression signatures. [PMID:25186949](../papers/25186949.md)
+- Used on Illumina HiSeq to profile seven prostate cancer organoid lines; identified TMPRSS2-ERG fusion status, SPINK1 overexpression, and confirmed gene-expression concordance between organoids and parental tumor tissue. [PMID:25201530](../papers/25201530.md)
 
 ## Notes
 
@@ -184,5 +187,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

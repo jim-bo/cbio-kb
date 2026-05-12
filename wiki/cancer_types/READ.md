@@ -4,8 +4,8 @@ oncotree_code: READ
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [rectal, colorectal, immunotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # Rectal Adenocarcinoma (READ)
@@ -22,6 +22,7 @@ Rectal adenocarcinoma (READ) is a malignant epithelial tumor arising in the rect
 ## Recurrent alterations
 
 No gene-level variant claims are made in the corpus for READ specifically; studies are at the translational/MCT-design stage.
+- In 69 matched MSS colorectal cancer trios (16% rectal primary), rectal tumors showed the same high primary-metastasis concordance for driver mutations ([[KRAS]], [[NRAS]], [[BRAF]]) as colon tumors; metastasis-private RTK-RAS events ([[MAP2K1]] Q56P, [[EGFR]] amplification) were identified in RAS/RAF wild-type cases. [PMID:25164765](../papers/25164765.md)
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ No molecular subtyping data from the corpus specific to READ yet.
 *This page was processed by **crosslinker** on **2026-05-04**.*
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

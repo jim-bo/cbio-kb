@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-11
 ---
 
@@ -38,6 +38,7 @@ OncoTree code for prostate adenocarcinoma.
 - WES of 112 prostate tumors (Michigan cohort, [prad_mich](../datasets/prad_mich.md)) identified recurrent ETS family fusions and SPOP mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
 - WGS of 55 treatment-naïve primary PRAD identified chromoplexy (chains of ≥5 interdependent rearrangements) in 88% of tumors; TMPRSS2-ERG fusion arose within chromoplexy chains in 58% of [ERG](../genes/ERG.md)+ cases; recurrent SCNA burden tracks with Gleason grade (p=0.0059) [PMID:23622249](../papers/23622249.md)
 - CNA burden (fraction of autosomal genome with copy-number alterations) predicts biochemical recurrence (HR 1.09 per 1%, P<0.001) and metastasis in two independent prostatectomy cohorts (n=168 and n=104); prognostic independent of PSA, Gleason score, and the Stephenson nomogram, and measurable from FFPE needle biopsies by low-pass WGS [PMID:25024180](../papers/25024180.md)
+- Seven patient-derived 3D organoid lines from metastatic CRPC recapitulated the molecular landscape of advanced prostate cancer, including PTEN biallelic loss (6/7 lines), TP53 inactivation (4/7), CHD1 deletion (3/7), SPOP F133L hotspot (1/7, first in vitro model), and diverse AR status; AR-amplified MSK-PCa2 was sensitive to enzalutamide and everolimus in vitro and in xenografts. [PMID:25201530](../papers/25201530.md)
 
 ## Subtypes
 
@@ -77,3 +78,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:25024180](../papers/25024180.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.**
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

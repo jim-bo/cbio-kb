@@ -5,7 +5,7 @@ main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-11
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -27,6 +27,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - The ICR signature includes [IFNG](../genes/IFNG.md), [TBX21](../genes/TBX21.md), [CD8A](../genes/CD8A.md), [CD8B](../genes/CD8B.md), [IL12B](../genes/IL12B.md), [STAT1](../genes/STAT1.md), [IRF1](../genes/IRF1.md), [CCL5](../genes/CCL5.md), [CXCL9](../genes/CXCL9.md), [CXCL10](../genes/CXCL10.md), [GNLY](../genes/GNLY.md), [PRF1](../genes/PRF1.md), [GZMA](../genes/GZMA.md), [GZMB](../genes/GZMB.md), [GZMH](../genes/GZMH.md), [CD274](../genes/CD274.md), [CTLA4](../genes/CTLA4.md), [FOXP3](../genes/FOXP3.md), [IDO1](../genes/IDO1.md), [PDCD1](../genes/PDCD1.md) [PMID:37202560](../papers/37202560.md).
 - NCI-60 CellMiner pharmacogenomics analysis identified ABCB1 expression and EGFR pathway activity as determinants of drug sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - 74-tumor WES cohort of colorectal adenocarcinoma (Genentech) identified RSPO2/RSPO3 fusions mutually exclusive with APC mutations, implicating Wnt pathway activation as a universal driver [PMID:22895193](../papers/22895193.md)
+- In 69 matched MSS colorectal cancer primary/metastasis trios (40% right colon, 44% left colon), [[KRAS]]/[[NRAS]]/[[BRAF]] status was 100% concordant, supporting use of either primary or metastatic biopsy for clinical RAS/RAF testing. [PMID:25164765](../papers/25164765.md)
 
 ## Subtypes
 
@@ -55,3 +56,6 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:22895193](../papers/22895193.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

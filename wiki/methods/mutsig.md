@@ -35,6 +35,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSigCV applied to ESCC cohort (139 paired tumor/normal samples) to identify 13 significantly mutated genes at FDR q < 0.2, including novel drivers FAT1, FAT2, ZNF750, and KMT2D [PMID:24686850](../papers/24686850.md)
 - MutSigCV applied to 215 non-hypermutated gastric adenocarcinomas (stad_tcga_pub) identified 25 significantly mutated genes including TP53, ARID1A, KRAS, PIK3CA, RNF43, APC, CTNNB1, SMAD4; expanded analysis including indels added RNF43, B2M, NF1 [PMID:25079317](../papers/25079317.md)
 - MutSig2CV applied to 412 lung adenocarcinomas (luad_tcga_pub, 230 TCGA + 182 published) identified 18 significantly mutated genes; newly identified RIT1 activating mutations and MGA loss-of-function (mutually exclusive with MYC amplification) [PMID:25079552](../papers/25079552.md)
+- MutSigCV applied to 50 muscle-invasive urothelial carcinoma tumors; identified ERCC2, TP53, RB1, KDM6A, and ARID1A as significantly mutated genes. [PMID:25096233](../papers/25096233.md)
+- Used in the TCGA ChRCC study to identify significantly mutated genes in 66 tumors; nominated TP53 (32%) and PTEN (9%) as the only statistically significant drivers. [PMID:25155756](../papers/25155756.md)
 
 ## Notes
 
@@ -97,5 +99,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

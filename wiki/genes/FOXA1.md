@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, PRAD, BRCA]
 tags: [lineage-factor, metastasis]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-11
 ---
 
 # FOXA1
@@ -26,6 +26,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Recurrent clonal/early point mutations in prostate cancer, confirmed early in the progression path (cross-confirmed against PMID:22610119) [PMID:23622249](../papers/23622249.md)
 - Low oestrogen receptor/FOXA1 signalling characteristic of the PARADIGM cluster 3 (copy-number-high) endometrial cancer subtype [PMID:23636398](../papers/23636398.md)
 - FOXA1 identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
+- Expressed mutation observed in CRPC cell line MSK-PCa2; consistent with recurrence of FOXA1 mutations in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -73,3 +74,6 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

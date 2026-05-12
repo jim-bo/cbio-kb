@@ -19,6 +19,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Homozygous deletion in 5% of HCCs (SNP-array, n=704 patients). [PMID:24798001](../papers/24798001.md)
 - Focal copy number loss on 13q identified as a recurrently altered CNA in prostate cancer prostatectomy cohorts (prad_mskcc, prad_mskcc_2014). [PMID:25024180](../papers/25024180.md)
 - Mutated in 4% of LUAD (TCGA, n=230); frameshift indels enriched in transversion-low (TL) adenocarcinomas vs SCLC (P < 0.05). [PMID:25079552](../papers/25079552.md)
+- Significantly mutated across a 25-sample muscle-invasive urothelial carcinoma cohort (MutSigCV), consistent with a major tumor-suppressor role in bladder cancer [PMID:25096233](../papers/25096233.md)
+- p53-p21-RB1 pathway remains intact in EWS::FLI1-expressing human embryonic mesenchymal stem cells (heMSCs); RB1 induction limits long-term in vitro culture of transduced cells in the Ewing sarcoma cell-of-origin model [PMID:25186949](../papers/25186949.md)
+- Heterozygous loss with no detectable protein in 3/7 MSK prostate cancer cell lines; complete deletion in MSK-PCa5 detected only by RNA-seq; represents an RB-pathway tumor-suppressor hit in castration-resistant prostate cancer models [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +48,14 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25186949](../papers/25186949.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25201530](../papers/25201530.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

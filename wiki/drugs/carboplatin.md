@@ -21,6 +21,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Used as part of platinum-based chemotherapy for metastatic urothelial carcinoma in the UC-GENOME study (n=218); [ERCC2](../genes/ERCC2.md) mutations associated with significantly higher chemotherapy response rate (p=0.0134) [PMID:36333289](../papers/36333289.md)
 - Prior platinum (carboplatin) exposure in ovarian MiNEN patient PN19 (11 months prior) generated platinum-therapy mutational signatures detected by WGTA in the POG NEN cohort [PMID:24326773](../papers/24326773.md)
 - Used as part of platinum-based chemoimmunotherapy backbone in R/M NPC trials cited in this review [PMID:24952746](../papers/24952746.md)
+- In muscle-invasive bladder cancer patients ineligible for cisplatin, carboplatin-based regimens are proposed as candidates for study in ERCC2-mutant tumors, given the mechanistic link between ERCC2 loss-of-function and platinum sensitivity [PMID:25096233](../papers/25096233.md)
 
 ## Resistance mechanisms
 
@@ -42,5 +43,8 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24952746](../papers/24952746.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

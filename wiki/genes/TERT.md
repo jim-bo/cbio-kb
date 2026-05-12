@@ -18,6 +18,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - Promoter activating mutation in 54% of HCCs (range 44-59%; WES, n=1,289) — the most frequent somatic alteration in HCC. [PMID:24798001](../papers/24798001.md)
 - High-level focal amplification in 5% of HCCs (SNP-array, n=704). [PMID:24798001](../papers/24798001.md)
 - Focal amplification identified as a recurrent significant peak in LUAD copy-number analysis (TCGA, n=230). [PMID:25079552](../papers/25079552.md)
+- Recurrent genomic rearrangement breakpoints within ~10 kb upstream of TSS in 6/50 chromophobe RCC; associated with >500-unit TERT expression — a novel up-regulation mechanism distinct from C228T/C250T promoter point mutations (also seen in 3 cases at low expression) and from amplification [PMID:25155756](../papers/25155756.md)
 
 ## Cancer types (linked)
 
@@ -41,5 +42,8 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25155756](../papers/25155756.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

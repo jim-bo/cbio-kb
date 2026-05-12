@@ -336,3 +336,6 @@
 - drug: verteporfin — observed in PMID:24997986 — note: YAP-TEAD inhibitor (benzoporphyrin photosensitizer); blocks stiffness-induced CAF activation and SEMA7A secretion in GBC stroma; no oncology approval
 - drug: ly294002 — observed in PMID:24997986 — note: pan-PI3K inhibitor (chromone research tool); blocks AKT-dependent p300 S1834 phosphorylation in SEMA7A/ITGB1 signalling in GBC
 - drug: c646 — observed in PMID:24997986 — note: p300/CBP HAT inhibitor (research tool); abrogates SEMA7A-induced EMT and H3K27ac at SNAI1/ZEB1 promoters in GBC
+- drug: aspirin — observed in PMID:25164765 — note: COX-1/COX-2 inhibitor / chemopreventive agent; PIK3CA-mutant CRC may derive differential benefit (Domingo et al. JCO 2013 cited)
+- drug: enzalutamide — observed in PMID:25201530 — note: second-generation AR antagonist; AR-amplified CRPC organoid MSK-PCa2 exquisitely sensitive (IC50 ~50 nM); resistance in non-AR-amplified lines
+- drug: buparlisib — observed in PMID:25201530 — note: BKM-120; pan-class I PI3K inhibitor; sensitivity in PTEN-loss/PIK3R1-mutant CRPC organoid (MSK-PCa2)

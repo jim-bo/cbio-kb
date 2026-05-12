@@ -36,6 +36,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Break-apart and dual-fusion FISH probes for [MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [NFIB](../genes/NFIB.md), and [EWSR1](../genes/EWSR1.md) applied to 88 sinonasal adenoid cystic carcinoma cases; rescued 9 additional fusion-positive cases among TruSight Oncology 500-negative tumors, demonstrating complementarity with NGS panels for detection of MYB-family rearrangements [PMID:24418857](../papers/24418857.md)
 - Routine clinical FISH testing for t(4;14) and t(11;14) applied to 50 of 203 multiple myeloma patients in the MMRC cohort, complementing whole-exome and whole-genome sequencing for cytogenetic characterization [PMID:24434212](../papers/24434212.md)
 - Validated FGFR1 amplification in an additional 53 ESCC tumors; FISH confirmed amplification in 11/53 cases (20.8%) [PMID:24686850](../papers/24686850.md)
+- Used to confirm high-level focal EGFR amplification in a metastasis sample (chr 7p) from a RAS/RAF wild-type CRC patient in whom the primary showed only 7p polysomy. [PMID:25164765](../papers/25164765.md)
 
 ## Notes
 
@@ -89,5 +90,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24686850](../papers/24686850.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*

@@ -3,8 +3,8 @@ symbol: ETV1
 aliases: []
 cancer_types: [PRAD, ODG]
 tags: [transcription-factor, fusion, ETS-family, prostate, CIC-target, oligodendroglioma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # ETV1
@@ -20,6 +20,7 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - Complex rearrangements (6 validated, including 4 interchromosomal translocations) and high-level amplification detected in acral melanoma ME032; known melanoma oncogene associated with [MITF](../genes/MITF.md) upregulation [PMID:22622578](../papers/22622578.md)
 - ETV1 identified as an ETS family fusion partner in prostate cancer WES cohort (Michigan, 112 tumors); ETV1 rearrangements represent a distinct subset of ETS-driven prostate cancers [PMID:22722839](../papers/22722839.md)
 - Alternative ETS fusion partner in prostate cancer detected by sequencing and validated by FISH in chromoplexy study of 57 prostate tumors [PMID:23622249](../papers/23622249.md)
+- Co-amplified with EGFR and IKZF1 at chr 7p in a metastasis-private high-level amplification event in metastatic CRC [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

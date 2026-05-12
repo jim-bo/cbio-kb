@@ -3,8 +3,8 @@ symbol: PIK3CD
 aliases: []
 cancer_types: [EGC, STAD, ESCA]
 tags: [pi3k-pathway, resistance, esophagogastric]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,6 +19,7 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 
 - PIK3CD S367L variant was identified in an escape lesion from a patient with HER2-positive metastatic esophagogastric cancer ([EGC](../cancer_types/EGC.md)) progressing on [pembrolizumab](../drugs/pembrolizumab.md) + [trastuzumab](../drugs/trastuzumab.md) + chemotherapy; this variant demonstrated increased AKT phosphorylation in functional assays, suggesting it is an activating resistance mutation [PMID:37406106](../papers/37406106.md).
 - Predicted damaging mutation identified in RMS2107 rhabdomyosarcoma sample; member of the PI3K signaling pathway [PMID:24436047](../papers/24436047.md)
+- Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25164765](../papers/25164765.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

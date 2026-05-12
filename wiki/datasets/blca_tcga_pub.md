@@ -21,8 +21,8 @@ tags:
   - chromatin-remodeling
   - apobec-mutagenesis
   - multi-platform
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # TCGA Bladder Urothelial Carcinoma (2014)
@@ -64,6 +64,7 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - **APOBEC mutagenesis**: 51% of all mutations were TpC → (T/G), attributed to [APOBEC3B](../genes/APOBEC3B.md) activity; [APOBEC3B](../genes/APOBEC3B.md) was highly expressed across all tumors. [PMID:24476821](../papers/24476821.md)
 - Potential therapeutic targets identified in **69% of tumors**: 42% in PI(3)K/AKT/mTOR pathway (including [PIK3CA](../genes/PIK3CA.md) 17%, [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) 9%); 45% in RTK/MAPK pathway (including [FGFR3](../genes/FGFR3.md) 17%, [ERBB2](../genes/ERBB2.md) 9%). [PMID:24476821](../papers/24476821.md)
 - [CDKN2A](../genes/CDKN2A.md) focal deletion in 47% of samples (most common focal deletion); [RXRA](../genes/RXRA.md) S427 hotspot mutations in 7 of 12 RXRA-mutant tumors (5 S427F, 2 S427Y) associated with elevated adipogenesis/lipid-metabolism gene expression. [PMID:24476821](../papers/24476821.md)
+- Comprehensive molecular characterization of 131 muscle-invasive urothelial carcinomas revealed APOBEC mutagenesis, chromatin remodeling alterations, and immune pathway enrichment [PMID:25096233](../papers/25096233.md)
 
 ## Sources
 
@@ -71,3 +72,6 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - cBioPortal study ID: blca_tcga_pub
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25096233](../papers/25096233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

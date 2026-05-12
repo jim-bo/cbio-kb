@@ -3,8 +3,8 @@ symbol: CHD1
 aliases: []
 cancer_types: [PRAD]
 tags: [chromatin-remodeling, tumor-suppressor, prostate-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-11
 ---
 
 # CHD1
@@ -18,6 +18,7 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - Located at the 5q21 locus enriched for deletions in SPOP-mutant prostate tumors; encodes a chromatin-modifying enzyme; identified in a WES study of 112 prostate tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
 - CHD1 deletions and mutations identified in prostate cancer WES of 112 tumors (Michigan cohort); CHD1 loss associated with ETS-negative tumors [PMID:22722839](../papers/22722839.md)
 - Focal deletion or disruptive rearrangement defines an ETS-negative prostate carcinoma subset with chromothripsis-like intra-chromosomal chains in late-replicating, GC-poor DNA; CHD1 loss correlates with elevated recurrent SCNAs (p=1.5×10⁻⁸) in an extended 199-tumor cohort [PMID:23622249](../papers/23622249.md)
+- Focal homozygous deletion with complete protein loss in MSK-PCa2, MSK-PCa4, and MSK-PCa7 prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - [PMID:23622249](../papers/23622249.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25201530](../papers/25201530.md)
+
+*This page was processed by **wiki-cli** on **2026-05-11**.*

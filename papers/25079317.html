@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive molecular characterization of gastric adenocarcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25079317.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25079317.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive molecular characterization of gastric adenocarcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>The Cancer Genome Atlas Research Network </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature13480">10.1038/nature13480</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25079317 · <strong>DOI:</strong> 10.1038/nature13480 · <strong>Journal:</strong> Nature (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The Cancer Genome Atlas Research Network profiled 295 primary, treatment-naive [[../cancer_types/STAD.md|gastric adenocarcinoma]] tumours using six molecular platforms (SNP array, whole-exome sequencing, DNA methylation, mRNA-seq, miRNA-seq, and RPPA), with low-pass whole-genome sequencing on 107 tumour/germline pairs. The integrated analysis defines four molecular subtypes: (1) [[../genes/CD274.md|EBV]]-positive (9%), with recurrent [[../genes/PIK3CA.md|<a href="../genes/PIK3CA.html">PIK3CA</a>]] mutations, extreme DNA hypermethylation, and 9p24.1 amplification of [[../genes/JAK2.md|<a href="../genes/JAK2.html">JAK2</a>]]/[[../genes/CD274.md|<a href="../genes/CD274.html">CD274</a>]]/[[../genes/PDCD1LG2.md|<a href="../genes/PDCD1LG2.html">PDCD1LG2</a>]]; (2) microsatellite instability (MSI; 22%), with elevated mutation rates and hypermethylation at the [[../genes/MLH1.md|<a href="../genes/MLH1.html">MLH1</a>]] promoter; (3) genomically stable (GS; 20%), enriched for diffuse histology and [[../genes/RHOA.md|<a href="../genes/RHOA.html">RHOA</a>]] mutations or [[../genes/CLDN18.md|<a href="../genes/CLDN18.html">CLDN18</a>]]–ARHGAP fusions; and (4) chromosomal instability (CIN; 50%), enriched for intestinal histology, [[../genes/TP53.md|<a href="../genes/TP53.html">TP53</a>]] mutation, and focal amplification of receptor tyrosine kinases. The taxonomy provides a roadmap for biomarker-stratified clinical trials of targeted therapies in gastric cancer.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 295</strong> primary gastric adenocarcinoma patients (treatment-naive at surgery), profiled as the TCGA gastric cancer cohort ([[../datasets/stad_tcga_pub.md|<a href="../datasets/stad_tcga_pub.html">stad_tcga_pub</a>]]).</li>
+<li><strong>Six molecular platforms</strong>: array-based somatic copy-number ([[../methods/affymetrix-snp6.md|Affymetrix SNP6]]), [[../methods/whole-exome-seq.md|whole-exome sequencing]], DNA methylation ([[../methods/hm450-methylation-array.md|HM450]]), mRNA-seq ([[../methods/rna-seq.md|RNA-seq]]), miRNA-seq, and reverse-phase protein arrays ([[../methods/rppa.md|RPPA]]); 77% of tumours profiled on all six.</li>
+<li><strong>Low-pass [[../methods/whole-genome-seq.md|whole-genome sequencing]]</strong> (&lt;6× coverage) on 107 tumour/germline pairs.</li>
+<li><strong>MSI testing</strong> on all tumour DNA. <strong>Non-malignant gastric tissue</strong> controls collected for methylation (n=27) and expression (n=29) analyses.</li>
+<li>Subtype assignment used a decision tree: EBV-positivity first, then MSI-high status, then CIN vs GS by aneuploidy.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Four-subtype molecular classification</strong>: EBV (9%), MSI (22%), GS (20%), CIN (50%).</li>
+<li><strong>EBV-positive tumours</strong> showed extreme CIMP distinct from MSI-associated CIMP; all assayed EBV-positive tumours had [[../genes/CDKN2A.md|<a href="../genes/CDKN2A.html">CDKN2A</a>]] (p16INK4A) promoter hypermethylation but lacked [[../genes/MLH1.md|MLH1]] hypermethylation. [[../genes/PIK3CA.md|PIK3CA]] mutations occurred in 80% of EBV-positive tumours (P = 9×10⁻¹²) vs 3–42% of other subtypes; PIK3CA mutations were dispersed in EBV-positive cancers but localized to the kinase domain (exon 20) in EBV-negative cancers. EBV-positive tumours also had frequent [[../genes/ARID1A.md|<a href="../genes/ARID1A.html">ARID1A</a>]] (55%) and [[../genes/BCOR.md|<a href="../genes/BCOR.html">BCOR</a>]] (23%) mutations and only rare [[../genes/TP53.md|TP53]] mutations.</li>
+<li><strong>9p24.1 amplification</strong> of the locus containing [[../genes/JAK2.md|JAK2]], [[../genes/CD274.md|CD274]] (PD-L1) and [[../genes/PDCD1LG2.md|PDCD1LG2]] (PD-L2) was enriched in EBV-positive tumours (15%), with elevated mRNA expression in amplified cases. PD-L1/2 expression was elevated more broadly in EBV-positive tumours.</li>
+<li><strong>MSI subtype</strong>: significantly mutated genes via MutSigCV ([[../methods/mutsig.md|MutSig]]) included [[../genes/TP53.md|TP53]], [[../genes/KRAS.md|<a href="../genes/KRAS.html">KRAS</a>]], [[../genes/ARID1A.md|ARID1A]], [[../genes/PIK3CA.md|PIK3CA]], [[../genes/ERBB3.md|<a href="../genes/ERBB3.html">ERBB3</a>]], [[../genes/PTEN.md|<a href="../genes/PTEN.html">PTEN</a>]] and [[../genes/HLA-B.md|<a href="../genes/HLA-B.html">HLA-B</a>]]. [[../genes/ERBB3.md|ERBB3]] mutations were found in 16/63 tumours (13 at recurrent or COSMIC sites). Expanded analysis (indels included) yielded 37 significantly mutated genes, adding [[../genes/RNF43.md|<a href="../genes/RNF43.html">RNF43</a>]], [[../genes/B2M.md|<a href="../genes/B2M.html">B2M</a>]] and [[../genes/NF1.md|<a href="../genes/NF1.html">NF1</a>]]. <a href="../genes/BRAF.html">BRAF</a> V600E mutations were notably absent (unlike MSI colorectal cancer). One hypermutator harboured an inactivating [[../genes/POLE.md|<a href="../genes/POLE.html">POLE</a>]] mutation.</li>
+<li><strong>GS subtype</strong>: enriched for diffuse Lauren histology (40/55 = 73%, P = 7.5×10⁻¹⁷). [[../genes/RHOA.md|RHOA]] mutations in 16 cases (15% of GS, P = 0.0039), clustered in two amino-terminal regions predicted to interface with ROCK1/effectors; not at sites analogous to oncogenic RAS-family mutations. The Y42C mutation attenuates Protein Kinase N activation. [[../genes/CLDN18.md|CLDN18]]–[[../genes/ARHGAP26.md|<a href="../genes/ARHGAP26.html">ARHGAP26</a>]] (GRAF) interchromosomal fusions identified in 11 cases plus 2 [[../genes/CLDN18.md|CLDN18]]–[[../genes/ARHGAP6.md|<a href="../genes/ARHGAP6.html">ARHGAP6</a>]] fusions (13 total); fusions use a cryptic splice site in CLDN18 exon 5 to produce in-frame chimaeras retaining the GAP domain. RHOA mutations and CLDN18–ARHGAP fusions were mutually exclusive and together altered 30% of GS cases. [[../genes/CDH1.md|<a href="../genes/CDH1.html">CDH1</a>]] somatic mutations were enriched in GS (37%).</li>
+<li><strong>CIN subtype</strong>: [[../genes/TP53.md|TP53]] mutation in 71%; recurrent focal amplifications of oncogenes including [[../genes/ERBB2.md|<a href="../genes/ERBB2.html">ERBB2</a>]], [[../genes/CCNE1.md|<a href="../genes/CCNE1.html">CCNE1</a>]], [[../genes/KRAS.md|KRAS]], [[../genes/MYC.md|<a href="../genes/MYC.html">MYC</a>]], [[../genes/EGFR.md|<a href="../genes/EGFR.html">EGFR</a>]], [[../genes/CDK6.md|<a href="../genes/CDK6.html">CDK6</a>]], [[../genes/GATA4.md|<a href="../genes/GATA4.html">GATA4</a>]], [[../genes/GATA6.md|<a href="../genes/GATA6.html">GATA6</a>]], [[../genes/ZNF217.md|<a href="../genes/ZNF217.html">ZNF217</a>]] and [[../genes/VEGFA.md|<a href="../genes/VEGFA.html">VEGFA</a>]]; amplification of the gastric stem cell marker [[../genes/CD44.md|<a href="../genes/CD44.html">CD44</a>]]; elevated EGFR pY1068 phosphorylation by RPPA.</li>
+<li><strong>MutSigCV on the 215 non-hypermutated tumours</strong> identified 25 significantly mutated genes, including TP53, [[../genes/ARID1A.md|ARID1A]], KRAS, PIK3CA, [[../genes/RNF43.md|RNF43]], [[../genes/APC.md|<a href="../genes/APC.html">APC</a>]], [[../genes/CTNNB1.md|<a href="../genes/CTNNB1.html">CTNNB1</a>]], [[../genes/SMAD4.md|<a href="../genes/SMAD4.html">SMAD4</a>]], [[../genes/SMAD2.md|<a href="../genes/SMAD2.html">SMAD2</a>]], [[../genes/RASA1.md|<a href="../genes/RASA1.html">RASA1</a>]] and [[../genes/ERBB2.md|ERBB2]] (10/15 ERBB2 mutations at known hotspots; four S310F cases).</li>
+<li><strong>Splicing</strong>: [[../genes/MET.md|<a href="../genes/MET.html">MET</a>]] exon 2 skipping observed in 82/272 (30%) cases, associated with increased MET expression (P = 10⁻⁴); novel MET exon 18/19 skipping in 47/272 (17%).</li>
+<li><strong>Pathway analysis</strong> ([[../methods/gistic.md|GISTIC]] + integrated mutation/SCNA): elevated mitotic-network signalling ([[../genes/AURKA.md|<a href="../genes/AURKA.html">AURKA</a>]]/[[../genes/AURKB.md|<a href="../genes/AURKB.html">AURKB</a>]], <a href="../genes/FOXM1.html">FOXM1</a>, PLK1) across subtypes; GS subtype distinguished by elevated cell-adhesion and angiogenesis pathways; IL-12 signalling elevated in EBV-positive tumours alongside PD-L1/2 over-expression.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>[[../genes/PIK3CA.md|PIK3CA]] — recurrent mutations in 80% of EBV-positive tumours (mostly non-exon-20, dispersed); 12% across the whole cohort; targetable via PI(3)-kinase inhibition.</li>
+<li>[[../genes/JAK2.md|JAK2]], [[../genes/CD274.md|CD274]], [[../genes/PDCD1LG2.md|PDCD1LG2]] — co-amplified at 9p24.1 in 15% of EBV-positive tumours; elevated mRNA expression; rationale for JAK2 inhibitors and PD-L1/L2 immune-checkpoint blockade.</li>
+<li>[[../genes/ARID1A.md|ARID1A]] — 14% overall; especially common in EBV-positive (55%) and GS tumours.</li>
+<li>[[../genes/BCOR.md|BCOR]] — 4% overall; 23% in EBV-positive tumours.</li>
+<li>[[../genes/TP53.md|TP53]] — 50% overall; 71% in CIN tumours; rare in EBV-positive.</li>
+<li>[[../genes/RHOA.md|RHOA]] — mutated in 15% of GS tumours; novel hotspots in the effector-binding region (Y42, D59 etc.) distinct from RAS-family oncogenic sites and from T-cell-neoplasm G17V mutations.</li>
+<li>[[../genes/CLDN18.md|CLDN18]]–[[../genes/ARHGAP26.md|ARHGAP26]]/[[../genes/ARHGAP6.md|ARHGAP6]] fusions — in-frame chimaeric proteins from t(3;5) and related rearrangements; in 15% of GS tumours; mutually exclusive with RHOA mutation.</li>
+<li>[[../genes/CDH1.md|CDH1]] — somatic mutations in 11% overall and 26–37% of GS tumours; germline analysis revealed only two non-pathogenic polymorphisms in this cohort.</li>
+<li>[[../genes/ERBB2.md|ERBB2]] — 17% alteration in CIN (focal amplification + recurrent S310F-class hotspots); 3% mutation overall; established drug target.</li>
+<li>[[../genes/ERBB3.md|ERBB3]] — 15% alteration (mutations enriched in MSI; 13/16 at COSMIC/recurrent sites).</li>
+<li>[[../genes/EGFR.md|EGFR]] — 11% alteration (amplification in CIN; elevated pY1068 phosphorylation).</li>
+<li>[[../genes/FGFR2.md|<a href="../genes/FGFR2.html">FGFR2</a>]] — 9% alteration (RTK amplification in CIN).</li>
+<li>[[../genes/MET.md|MET]] — recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing; potential therapeutic relevance.</li>
+<li>[[../genes/KRAS.md|KRAS]] — 6% mutation overall; KRAS/NRAS alterations 17% across CIN/MSI.</li>
+<li>[[../genes/CCNE1.md|CCNE1]], [[../genes/CCND1.md|<a href="../genes/CCND1.html">CCND1</a>]], [[../genes/CDK6.md|CDK6]] — recurrent CIN amplifications; suggest CDK4/6 inhibitor evaluation.</li>
+<li>[[../genes/VEGFA.md|VEGFA]] — recurrent amplification (7%); rationale for VEGFR-pathway inhibition (e.g.&nbsp;[[../drugs/ramucirumab.md|<a href="../drugs/ramucirumab.html">ramucirumab</a>]]).</li>
+<li>[[../genes/MLH1.md|MLH1]] — promoter hypermethylation drives the MSI subtype (gastric-CIMP).</li>
+<li>[[../genes/CDKN2A.md|CDKN2A]] — promoter hypermethylation in all EBV-positive tumours; focal deletion in CIN.</li>
+<li>[[../genes/RNF43.md|RNF43]] — significantly mutated (Wnt pathway negative regulator).</li>
+<li>[[../genes/APC.md|APC]], [[../genes/CTNNB1.md|CTNNB1]] — β-catenin pathway alterations among non-hypermutated tumours.</li>
+<li>[[../genes/SMAD4.md|SMAD4]], [[../genes/SMAD2.md|SMAD2]] — recurrent TGF-β pathway mutations.</li>
+<li>[[../genes/RASA1.md|RASA1]] — negative regulator of RAS, recurrently mutated.</li>
+<li>[[../genes/B2M.md|B2M]], [[../genes/HLA-B.md|HLA-B]] — MHC class I alterations enriched in MSI tumours; consistent with antigen-presentation escape.</li>
+<li>[[../genes/NF1.md|NF1]] — added to the significant-gene list in MSI tumours after indel inclusion.</li>
+<li>[[../genes/PTEN.md|PTEN]], [[../genes/PIK3R1.md|<a href="../genes/PIK3R1.html">PIK3R1</a>]] — PI3K pathway losses (PTEN focally deleted in CIN).</li>
+<li>[[../genes/POLE.md|POLE]] — one hypermutator case with inactivating POLE mutation, consistent with prior TCGA findings in CRC/endometrial.</li>
+<li>[[../genes/MYC.md|MYC]], [[../genes/GATA4.md|GATA4]], [[../genes/GATA6.md|GATA6]], [[../genes/ZNF217.md|ZNF217]], [[../genes/CD44.md|CD44]] — focal amplifications in CIN.</li>
+<li>[[../genes/AURKA.md|AURKA]], [[../genes/AURKB.md|AURKB]] — implicated by elevated mitotic-pathway expression; suggested as candidate therapeutic targets.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>EBV subtype</strong>: PI3K inhibition warrants evaluation (80% PIK3CA mutation); PD-L1/L2 antagonists (immune-checkpoint inhibition) and JAK2 inhibitors are mechanistically supported by the 9p24.1 amplification and IL-12 signature.</li>
+<li><strong>MSI subtype</strong>: targetable mutations in [[../genes/PIK3CA.md|PIK3CA]], [[../genes/ERBB3.md|ERBB3]], [[../genes/ERBB2.md|ERBB2]] and [[../genes/EGFR.md|EGFR]] at known hotspots. BRAF V600E is notably absent, unlike MSI colorectal cancer.</li>
+<li><strong>GS subtype</strong>: few clear actionable amplifications; [[../genes/RHOA.md|RHOA]] and [[../genes/CLDN18.md|CLDN18]]–ARHGAP alterations point to RHO-signalling and cell-adhesion biology as candidate targets.</li>
+<li><strong>CIN subtype</strong>: recurrent amplifications of RTKs ([[../genes/ERBB2.md|ERBB2]], [[../genes/EGFR.md|EGFR]], [[../genes/MET.md|MET]], [[../genes/FGFR2.md|FGFR2]]) and cyclins/CDKs ([[../genes/CCNE1.md|CCNE1]], [[../genes/CCND1.md|CCND1]], [[../genes/CDK6.md|CDK6]]) amenable to existing or in-development blockade; [[../genes/VEGFA.md|VEGFA]] amplification supports activity of the VEGFR2 antibody [[../drugs/ramucirumab.md|ramucirumab]].</li>
+<li>The authors propose that <strong>existing MSI and EBV testing combined with focused mutation/amplification panels</strong> can operationalize the classification for trial enrolment.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Initial outcome data showed <strong>no survival differences</strong> between the four subgroups; longer follow-up needed.</li>
+<li><strong>H. pylori</strong> was only sporadically detected — likely reflects declining bacterial counts in advanced disease and technical loss during processing rather than a true absence of association.</li>
+<li>The CLDN18–ARHGAP fusions occur downstream of the CLDN18 exon 5 stop codon; the in-frame translation depends on cryptic splice activation — functional consequences for ARHGAP/RHO regulation and CLDN18 adhesion are inferred but not biochemically confirmed in this study.</li>
+<li><strong>No germline-pathogenic CDH1 carriers</strong> were identified in this sporadic cohort, leaving hereditary diffuse gastric cancer biology outside its scope.</li>
+<li>The decision-tree assignment depends on tumour purity for SCNA detection (CIN vs GS); the authors note no systematic confounding but acknowledge low-purity edge cases.</li>
+<li>Translational validation of the proposed targets (PI3K inhibitors in EBV, anti-PD-L1 in EBV, CDK4/6 in CIN, RHO-pathway modulators in GS) remains for subsequent trials.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We propose a molecular classification dividing gastric cancer into four subtypes: tumours positive for Epstein–Barr virus … microsatellite unstable tumours … genomically stable tumours … and tumours with chromosomal instability” (Abstract).</li>
+<li>“We observed strong predilection for PIK3CA mutation in EBV-positive gastric cancer … non-silent PIK3CA mutations found in 80% of this subgroup (P = 9×10⁻¹²)” (EBV-associated DNA hypermethylation section).</li>
+<li>“We identified RHOA mutation in 16 cases, and these were enriched in the genomically stable subtype (15% of genomically stable cases, P = 0.0039)” (Somatic genomic alterations).</li>
+<li>“CLDN18–ARHGAP fusions were mutually exclusive with RHOA mutations and were enriched in genomically stable tumours (62%, P = 10⁻²³)” (RHOA/ARHGAP section).</li>
+<li>“Focal amplifications targeted oncogenes such as ERBB2, CCNE1, KRAS, MYC, EGFR, CDK6, GATA4, GATA6 and ZNF217” (SCNA section).</li>
+<li>“Recurrent amplification of the gene encoding ligand VEGFA was notable given the gastric cancer activity of the VEGFR2 targeting antibody ramucirumab” (Integrated pathway analysis).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25079317.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25079317.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

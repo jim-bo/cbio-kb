@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic architecture and evolution of clear cell renal cell carcinomas defined by multiregion sequencing – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24487277.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24487277.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic architecture and evolution of clear cell renal cell carcinomas defined by multiregion sequencing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Marco Gerlinger </p>
+             <p>Stuart Horswell </p>
+             <p>James Larkin </p>
+             <p>Andrew J Rowan </p>
+             <p>Max P Salm </p>
+             <p>Ignacio Varela </p>
+             <p>Rosalie Fisher </p>
+             <p>Nicholas McGranahan </p>
+             <p>Nicholas Matthews </p>
+             <p>Claudio R Santos </p>
+             <p>Pierre Martinez </p>
+             <p>Benjamin Phillimore </p>
+             <p>Sharmin Begum </p>
+             <p>Adam Rabinowitz </p>
+             <p>Bradley Spencer-Dene </p>
+             <p>Sakshi Gulati </p>
+             <p>Paul A Bates </p>
+             <p>Gordon Stamp </p>
+             <p>Lisa Pickering </p>
+             <p>Martin Gore </p>
+             <p>David L Nicol </p>
+             <p>Steven Hazell </p>
+             <p>P Andrew Futreal </p>
+             <p>Aengus Stewart </p>
+             <p>Charles Swanton </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.2891">10.1038/ng.2891</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24487277 · <strong>DOI:</strong> 10.1038/ng.2891 · <strong>Journal:</strong> Nature Genetics (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Gerlinger et al.&nbsp;applied multiregion exome sequencing (M-seq) to ten stage T2–T4 clear cell renal cell carcinomas (ccRCCs), generating 79 tumor samples total and validating mutations by ultra-deep amplicon sequencing (&gt;400×). Intratumor heterogeneity (ITH) was present in every case, and 73–75% of driver aberrations (36/49 driver mutations, 57/76 driver somatic copy number aberrations) were subclonal. Chromosome 3p loss and <a href="../genes/VHL.html">VHL</a> inactivation were the only ubiquitous, truncal driver events across all ten tumors. The proportion of C&gt;T transitions at CpG sites increased significantly on branch (post-transformation) versus trunk mutations (q = 0.007), suggesting mutational processes change during ccRCC evolution. Single-biopsy approaches systematically underestimate driver-mutation prevalence on a per-case basis (e.g., <a href="../genes/TP53.html">TP53</a> mutations in 6% of biopsies vs 40% of cases).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>10 ccRCC primary tumors, <a href="../cancer_types/CCRCC.html">CCRCC</a>, stages T2 (n=2), T3 (n=7), T4 (n=1); enrolled via the London Renal Cancer Consortium tissue protocol or the E-PREDICT translational trial (EUDRACT 2009-013381-54).</li>
+<li>Treatment context: 6 cases (EV001–EV003, EV005–EV007) received 6 weeks of preoperative <a href="../drugs/everolimus.html">everolimus</a> (mTOR inhibitor); 1 case (RMH002) received <a href="../drugs/sunitinib.html">sunitinib</a> for 14–16 weeks before nephrectomy; 3 cases (RMH004, RMH008, RK26) were treatment-naive.</li>
+<li>79 tumor samples sequenced (8–20 macrodissected regions per nephrectomy, 8–12 regions retained for sequencing per case); additional metastatic samples for EV001 (perinephric M1, chest-wall M2a/M2b), EV002 (progression metastasis M), EV006 (lymph-node LN1a/LN1b), and RMH004 (renal-vein tumor thrombus VT).</li>
+<li>Assays: Agilent SureSelect Human All Exon V4 <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on Illumina HiSeq (median ≥70× depth) using a <a href="../methods/multiregion-exome-seq.html">multiregion exome sequencing (M-seq)</a> design; 602/651 candidate nonsynonymous mutations (92.5%) validated by AmpliSeq ultra-deep amplicon sequencing (&gt;400×) on Ion Torrent PGM. Variant calling with CAVEMAN; indels via Pindel.</li>
+<li><a href="../methods/phylogenetic-tree-reconstruction.html">Phylogenetic-tree reconstruction</a> by maximum parsimony from regional mutation presence/absence calls.</li>
+<li>cBioPortal study: <a href="../datasets/ccrcc_irc_2014.html">ccrcc_irc_2014</a>. Raw exome data deposited at EGA (EGAS00001000667); gene-expression microarray at GEO (GSE53000).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>ITH of nonsynonymous somatic mutations was identified in 10/10 ccRCCs. On average, 67% (range 28–92%) of nonsynonymous mutations were heterogeneous between regions of the same tumor.</li>
+<li>73% (36/49) of high/probable category driver mutations across 14 genes were subclonal; only 13/49 (27%) — restricted to 2 genes (VHL, <a href="../genes/PBRM1.html">PBRM1</a>) — were truncal.</li>
+<li>75% (57/76) of driver somatic copy-number aberrations (SCNAs) were heterogeneous and spatially separated. Chromosome 3p loss was the only driver SCNA found in every region of every tumor.</li>
+<li>VHL inactivation (mutation in 9/10 tumors; promoter methylation in EV003) was truncal in all 10 cases. PBRM1 mutations were truncal in 3 of 6 mutated tumors (a “facultative” trunk driver).</li>
+<li>6/62 tumor regions contained clearly resolvable intraregional subclones (EV005 R6, EV007 R3 and R9, RMH008 R4 and R6, RK26 R5). 71% (40/56) of branch driver mutations appeared clonally dominant within at least one region despite being heterogeneous between regions — an “illusion of clonal dominance”.</li>
+<li>Parallel evolution: independent convergent driver hits in <a href="../genes/PIK3CA.html">PIK3CA</a> (EV005: p.Glu545Lys and p.His1047Arg), <a href="../genes/SETD2.html">SETD2</a> (EV007: p.Tyr545* and p.Thr1652Ile; three of ten tumors total carry parallel SETD2 hits), <a href="../genes/BAP1.html">BAP1</a> (RMH008: p.Gln277*, p.Asn411fs, p.Pro519fs), and the SWI/SNF complex in RMH004 (PBRM1 p.Lys1282fs and p.Leu207fs, <a href="../genes/ARID1A.html">ARID1A</a> p.Arg1020Lys, <a href="../genes/SMARCA4.html">SMARCA4</a> p.Thr910Met).</li>
+<li>Per-biopsy driver-mutation prevalence in this cohort (79 samples) closely matched single-biopsy prevalence in 102 VHL-deficient TCGA ccRCCs, but per-case prevalence was substantially higher (e.g., TP53: 6% per biopsy vs 40% per case; PI3K–mTOR pathway mutations: 28% per biopsy vs 60% per case).</li>
+<li>Mutational spectrum shift between trunk and branch mutations: C&gt;T transitions at CpG sites significantly increased on branches (q = 0.007; 8/10 cases); A&gt;G transitions significantly decreased on branches (q = 0.007). Increase in C&gt;T held across all XpCpG contexts.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/VHL.html">VHL</a> — somatic mutation in 9/10 tumors; promoter methylation (EV003) inactivates the remaining case. Truncal in all 10 tumors. Confirmed as the founding driver event together with chromosome 3p loss.</li>
+<li><a href="../genes/PBRM1.html">PBRM1</a> — mutated in 6/10 tumors; truncal in 3 of those 6. Two distinct PBRM1 frameshifts (p.Lys1282fs and p.Leu207fs) coexisted in RMH004 (parallel evolution).</li>
+<li><a href="../genes/BAP1.html">BAP1</a> — subclonal/branch driver in multiple cases. RMH008 harbored three independent BAP1 hits (p.Gln277*, p.Asn411fs, p.Pro519fs). In EV007, a BAP1 mutation detected ubiquitously was subclonal within R4 and R9 (not truncal). Authors note BAP1 mutation is a marker of poor prognosis in ccRCC and was heterogeneous in all cases where detected.</li>
+<li><a href="../genes/SETD2.html">SETD2</a> — parallel inactivating mutations in 3 of 10 tumors (e.g., EV007 p.Tyr545* and p.Thr1652Ile); none in the remaining 7.</li>
+<li><a href="../genes/KDM5C.html">KDM5C</a> — parallel evolution previously demonstrated in EV001/EV002 (Gerlinger et al.&nbsp;2012).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — parallel evolution previously demonstrated in EV001/EV002.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — EV005 carried two spatially separated activating hotspot mutations (p.Glu545Lys, p.His1047Arg). Part of the PI3K–mTOR pathway whose per-case mutation prevalence reached 60%.</li>
+<li><a href="../genes/MTOR.html">MTOR</a> — listed among manually reviewed ccRCC driver genes; contributes to the PI3K–mTOR pathway prevalence figure.</li>
+<li><a href="../genes/TP53.html">TP53</a> — subclonal/branch driver across the cohort. Per-biopsy prevalence 6% vs 40% per case, the most striking example of single-biopsy underestimation. BAP1 or TP53 mutations associated with a trend toward higher tumor grade (P = 0.056).</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — SWI/SNF subunit mutated in RMH004 (p.Arg1020Lys) alongside PBRM1 and SMARCA4 hits.</li>
+<li><a href="../genes/SMARCA4.html">SMARCA4</a> — SWI/SNF subunit mutated in RMH004 (p.Thr910Met).</li>
+<li><a href="../genes/ELOC.html">ELOC</a> (TCEB1 in the original paper) — cited as a recurrently mutated driver gene in VHL-wild-type ccRCCs whose truncal-versus-branch status was not addressed by this 10-tumor cohort.</li>
+</ul>
+<p>Copy-number drivers: chromosome 3p loss (ubiquitous and truncal in all 10 tumors; evolved to copy-neutral LOH in some subclones). Chromosome 4q, 8p, 14q losses and 5q gains were ubiquitous in some tumors but heterogeneous in others. Chromosome 9p loss (a known poor-prognosis marker) was heterogeneous in all cases where present.</p>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>Single-biopsy sampling — including the design of TCGA’s per-tumor single-region exome — systematically underestimates the prevalence of ccRCC driver mutations on a per-case basis (most strikingly for TP53 and the PI3K–mTOR pathway). Predictive and prognostic biomarker development in ccRCC should account for spatial heterogeneity.</li>
+<li>Because most ccRCC drivers are subclonal, therapeutic strategies that target truncal events (VHL inactivation, chromosome 3p loss) are proposed as more durable than those targeting subclonal drivers. Both truncal events inactivate tumor suppressors and are not directly druggable, but may be exploitable via synthetic-lethal approaches.</li>
+<li>The “illusion of clonal dominance” — 71% of branch driver mutations appeared clonally dominant in at least one tumor region — undermines treatment stratification based on single-biopsy VAF analysis.</li>
+<li>BAP1 and chromosome 9p loss, both prognostically informative in ccRCC, are heterogeneous, so reliable detection from single biopsies is unreliable.</li>
+<li>Authors suggest re-biopsying residual disease after partial response and re-targeting drivers of surviving clones, rather than committing to up-front targeting from a single biopsy.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Only 10 tumors, all VHL-deficient and stage T2–T4; insufficient power to test whether VHL-wild-type ccRCC drivers (e.g., <a href="../genes/ELOC.html">ELOC</a> / TCEB1) are also truncal.</li>
+<li>Metastatic tissue available for only 3 cases (EV001, EV002, EV006), limiting analysis of metastasis-versus-primary heterogeneity.</li>
+<li>7/10 tumors showed no saturation of mutation detection with additional biopsies, so even M-seq with up to 12 regions underestimates true ITH.</li>
+<li>Six tumors had 6 weeks of preoperative <a href="../drugs/everolimus.html">everolimus</a> and one had 14–16 weeks of <a href="../drugs/sunitinib.html">sunitinib</a>; the authors argue these short cytostatic exposures are unlikely to have collapsed subclonal diversity, but a treatment-naive baseline at this scale is not available.</li>
+<li>SCNA reconstruction from exome data lacks integer copy-number resolution; some “parallel” SCNA events (e.g., chromosome 8p loss in EV006) might reflect independent acquisition that could not be distinguished without higher-resolution breakpoint mapping.</li>
+<li>Open biological questions raised: do VHL or 3p alterations causally drive the observed CpG-context C&gt;T enrichment on branches; are parallel-evolution trajectories (SETD2 vs others) predictable from microenvironment or epistasis; can future evolutionary branches be anticipated and pre-emptively targeted.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“73–75% of identified ccRCC driver aberrations were subclonal” — Abstract, p.&nbsp;2.</li>
+<li>“Chromosome 3p loss and VHL aberrations were the only ubiquitous events” — Abstract, p.&nbsp;2.</li>
+<li>“EV005 harbored two distinct and spatially separated activating mutations in PIK3CA (encoding p.Glu545Lys and p.His1047Arg), EV007 carried two spatially separated mutations in the SETD2 histone methyltransferase… and RMH008 harbored three spatially separated mutations in the histone deubiquitinase BAP1” — p.&nbsp;5 (Parallel evolution of subclones).</li>
+<li>“TP53 mutations, which were only found in 6% of individual biopsies, were detected in 40% of cases when all tumor regions were considered” — p.&nbsp;7 (Driver mutation prevalence).</li>
+<li>“Mutations in the phosphoinositide 3-kinase (PI3K)–mTOR pathway were detected in 28% of individual biopsies; however, 60% of cases in our study harbored at least one mutation in this pathway” — p.&nbsp;7.</li>
+<li>“The proportion of C&gt;T transitions at CpG sites increased significantly in branches (q = 0.007)” — p.&nbsp;7 (Mutation spectra of truncal and branch mutations).</li>
+<li>“71% of driver mutations that were heterogeneous between tumor regions appeared clonally dominant within individual regions” — p.&nbsp;8 (Discussion).</li>
+<li>Exome data EGA accession EGAS00001000667; expression GEO GSE53000 — Accession codes, p.&nbsp;1.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24487277.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24487277.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25240281.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25240281.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PRC2 is recurrently inactivated through EED or SUZ12 loss in malignant peripheral nerve sheath tumors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>William Lee </p>
+             <p>Sewit Teckie </p>
+             <p>Thomas Wiesner </p>
+             <p>Leili Ran </p>
+             <p>Carlos N. Prieto Granada </p>
+             <p>Mingyan Lin </p>
+             <p>Sinan Zhu </p>
+             <p>Zhen Cao </p>
+             <p>Yupu Liang </p>
+             <p>Andrea Sboner </p>
+             <p>William D. Tap </p>
+             <p>Jonathan A. Fletcher </p>
+             <p>Kety H. Huberman </p>
+             <p>Li-Xuan Qin </p>
+             <p>Agnes Viale </p>
+             <p>Samuel Singer </p>
+             <p>Deyou Zheng </p>
+             <p>Michael F. Berger </p>
+             <p>Yu Chen </p>
+             <p>Cristina R. Antonescu </p>
+             <p>Ping Chi </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.3095">10.1038/ng.3095</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25240281 · <strong>DOI:</strong> 10.1038/ng.3095 · <strong>Journal:</strong> Nature Genetics (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Lee et al.&nbsp;characterized the genomic landscape of malignant peripheral nerve sheath tumors (MPNSTs), an aggressive soft-tissue sarcoma, using whole-exome sequencing, SNP6.0 copy number, RNA-seq, and targeted IMPACT sequencing on a discovery cohort of 15 MPNSTs (12 patients) plus a validation cohort of 37 MPNSTs and 7 neurofibromas from 32 patients. They discovered that the Polycomb repressive complex 2 (PRC2) core components [[<a href="../genes/EED.html">EED</a>]] or [[<a href="../genes/SUZ12.html">SUZ12</a>]] are inactivated by loss-of-function alterations in 92% of sporadic, 70% of NF1-associated, and 90% of radiotherapy-associated MPNSTs, and that PRC2 loss co-occurs significantly with [[<a href="../genes/NF1.html">NF1</a>]] and [[<a href="../genes/CDKN2A.html">CDKN2A</a>]] alterations. PRC2-deficient tumors lose H3K27me3 and aberrantly re-express developmentally suppressed homeobox master regulators; restoring SUZ12 in a PRC2-null cell line rescued H3K27me3 and suppressed proliferation, implicating PRC2 as a tumor suppressor critical to <a href="../cancer_types/MPNST.html">MPNST</a> pathogenesis <a href="../papers/25240281.html">PMID:25240281</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery cohort:</strong> 15 fresh-frozen tumor/normal-paired MPNSTs from 12 patients (6 NF1-associated, 4 sporadic, 4 radiotherapy-associated, 1 epithelioid) profiled by [[<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>]], [[<a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a>]] SNP6.0 arrays, and [[<a href="../methods/rna-seq.html">rna-seq</a>]] (51 bp paired-end, Illumina HiSeq-2500, hg19, STAR v2.3).</li>
+<li><strong>Validation cohort:</strong> 37 FFPE MPNSTs and 7 neurofibromas from 32 NF1 patients profiled by [[<a href="../methods/msk-impact-panel.html">msk-impact-panel</a>]] targeted hybrid-capture sequencing (panel includes NF1, SUZ12, EED, CDKN2A, <a href="../genes/TP53.html">TP53</a>).</li>
+<li><strong>Functional validation:</strong> Two human MPNST cell lines, ST88-14 (NF1-associated, SUZ12-deficient) and MPNST724 (PRC2-wt), with Flag-HA-tagged SUZ12 or EED reintroduction.</li>
+<li><strong>Cancer type:</strong> [[MPNST]] (malignant peripheral nerve sheath tumor).</li>
+<li><strong>Dataset:</strong> [[<a href="../datasets/mpnst_mskcc.html">mpnst_mskcc</a>]] — MSKCC MPNST cohort, hg19.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>PRC2 inactivation is highly recurrent in MPNST.</strong> Loss-of-function alterations in [[EED]] or [[SUZ12]] occur in 80% (12/15) of discovery-cohort MPNSTs and, combining discovery + validation, in 92% (12/13) of sporadic, 70% (19/27) of NF1-associated, and 90% (8/9) of radiotherapy-associated MPNSTs <a href="../papers/25240281.html">PMID:25240281</a>.</li>
+<li><strong>EED and SUZ12 alterations are mutually exclusive.</strong> Discovery cohort: 5 EED mutations (4 frame-shift, 1 splice-site) all with LOH (3 by heterozygous deletion, 2 by copy-neutral LOH); 2 SUZ12 homozygous deletions and 5 heterozygous deletions, three of which had local genomic rearrangements producing structural transcript variants at exons 4, 6, or 10 (only detectable by RNA-seq, not by standard WES).</li>
+<li><strong>No alterations in other PRC2 core members.</strong> [[<a href="../genes/EZH1.html">EZH1</a>]] and [[<a href="../genes/EZH2.html">EZH2</a>]] were not altered in any MPNST in this cohort.</li>
+<li><strong>NF1 and CDKN2A co-altered with PRC2.</strong> [[NF1]] nonsense mutations or homozygous deletion in 87.5% (7/8) of sporadic/radiotherapy-associated discovery samples and 82% (18/22) overall in sporadic/radiotherapy-associated MPNSTs. [[CDKN2A]] homozygous deletion in 73% (11/15) and heterozygous loss in 13% (2/15) of discovery samples; 81% (42/52) overall across cohorts. [[TP53]] non-synonymous mutations in 13% (2/15) and heterozygous loss in 20% (3/15) of discovery samples; 42% (22/52) overall.</li>
+<li><strong>Three-way significant co-occurrence.</strong> NF1, CDKN2A, and PRC2 (EED or SUZ12) alterations significantly co-occur by Fleiss’ kappa (κ=0.21, p=0.001).</li>
+<li><strong>PRC2 loss produces a distinct transcriptome.</strong> PCA of 16 MPNSTs separated PRC2-loss from PRC2-wt samples on PC1. Of 479 differentially expressed genes (FDR&lt;0.05, fold-change &gt;8), 455/479 (95%) were upregulated in PRC2-loss tumors. GO analysis identified homeobox transcription factors and developmental/morphogenesis genes as enriched; GSEA showed strong enrichment of the “PRC2 module” and H3K27me3 target gene sets from neural precursor cells and brain tissue.</li>
+<li><strong>H3K27me3 IHC tracks PRC2 functional status.</strong> PRC2-wt MPNSTs show robust nuclear H3K27me3; PRC2-loss MPNSTs show complete tumor-cell H3K27me3 loss with preserved stromal staining. IHC concordance was high for homozygous PRC2 loss but heterozygous loss alone was not predictive — RNA-seq–detected structural variants resolved the discrepancy.</li>
+<li><strong>H3K27me3 loss marks malignant progression from neurofibroma.</strong> All 7 neurofibromas (PRC2-wt except one SUZ12 het loss) retained H3K27me3. At MPNST/neurofibroma interfaces, H3K27me3 transitions from robust (neurofibroma) to absent (MPNST). 56% (19/34) of NF1-associated MPNSTs lost H3K27me3, vs.&nbsp;&gt;90% of sporadic and radiotherapy-associated MPNSTs.</li>
+<li><strong>NF1 mutation precedes EED loss in a sporadic MPNST.</strong> In sample 16T, subclonal analysis showed the NF1 D1237_splice mutation in 84% of cells and the EED E249fs in 57%, suggesting NF1 loss preceded PRC2 loss in this tumor.</li>
+<li><strong>SUZ12 re-expression rescues H3K27me3 and suppresses growth.</strong> Introducing FH-SUZ12 (but not FH-EED) into SUZ12-deficient ST88-14 cells restored H3K27me3 and significantly decreased proliferation; in PRC2-wt MPNST724, neither construct affected growth. SUZ12 re-expression localized to promoters of [[<a href="../genes/FOXN4.html">FOXN4</a>]], [[<a href="../genes/IGF2.html">IGF2</a>]], [[<a href="../genes/PAX2.html">PAX2</a>]], [[<a href="../genes/TLX1.html">TLX1</a>]], with reciprocal gain of H3K27me3/EZH2 and loss of H3K4me3/H3K27ac activating marks at these promoters and reduced transcript levels.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>[[EED]] — frame-shift and splice-site mutations with LOH (heterozygous deletion or copy-neutral LOH); confirmed loss-of-function tumor-suppressor role in MPNST.</li>
+<li>[[SUZ12]] — homozygous and heterozygous deletions plus local genomic rearrangements producing aberrant transcripts; mutually exclusive with EED loss; SUZ12 re-expression rescues H3K27me3 and inhibits growth.</li>
+<li>[[NF1]] — nonsense mutations and homozygous deletion in 82% of sporadic/radiotherapy-associated MPNSTs; significantly co-occurs with PRC2 and CDKN2A loss.</li>
+<li>[[CDKN2A]] — homozygous deletion (most common) and heterozygous loss in 81% of MPNSTs overall.</li>
+<li>[[TP53]] — non-synonymous mutation and heterozygous loss in 42% of MPNSTs overall.</li>
+<li>[[EZH1]] / [[EZH2]] — no alterations detected; explicit negative finding for these PRC2 catalytic subunits.</li>
+<li>[[IGF2]], [[FOXN4]], [[PAX2]], [[TLX1]] — PRC2-repressed developmental master regulators and imprinted genes aberrantly upregulated in PRC2-loss MPNSTs; promoter H3K27me3 restored after SUZ12 reintroduction.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Diagnostic biomarker.</strong> Given that &gt;90% of sporadic and radiotherapy-associated MPNSTs and ~56% of NF1-associated MPNSTs lose H3K27me3, the authors propose H3K27me3 IHC (and PRC2 mutational status) as a biomarker to aid the diagnostically challenging distinction of MPNST.</li>
+<li><strong>Distinguishes MPNST from neurofibroma.</strong> H3K27me3 IHC is retained in benign neurofibromas and lost upon malignant progression, providing a candidate marker for malignant transformation.</li>
+<li><strong>Epithelioid MPNST is distinct.</strong> None of the three epithelioid MPNSTs harbored PRC2, NF1, or CDKN2A alterations, suggesting epithelioid MPNST is a molecularly separate entity that should not be grouped with conventional MPNST for therapeutic decisions.</li>
+<li><strong>Therapeutic implication (mechanistic).</strong> Because PRC2 acts as a tumor suppressor in MPNST (in contrast to EZH2’s oncogenic gain-of-function role in lymphoma), broad PRC2 inhibitors are unlikely to benefit MPNST; conversely, downstream PRC2-repressed pathways may be targetable.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Standard WES alone misses local genomic rearrangements at the SUZ12 locus that produce aberrant transcripts — RNA-seq was required to detect three of five Het-loss SUZ12 cases. DNA sequencing alone (exome or IMPACT) cannot predict PRC2 functional status in heterozygous-loss cases; H3K27me3 IHC is more accurate.</li>
+<li>The temporal order of NF1, CDKN2A, and PRC2 inactivation is inferred from one sporadic case (NF1 before EED) and remains largely correlative; the authors call for sequential inactivation studies in cell-line and mouse models.</li>
+<li>Why &gt;90% of sporadic and radiotherapy-associated MPNSTs lose H3K27me3 but only ~56% of NF1-associated MPNSTs do remains unexplained.</li>
+<li>Discovery cohort is small (n=15 tumors from 12 patients); the validation IMPACT cohort (37 MPNSTs) extends but does not replace WES.</li>
+<li>Functional rescue was demonstrated in a single SUZ12-deficient cell line (ST88-14); whether EED-deficient MPNSTs behave equivalently and whether re-expressing PRC2 in vivo would suppress tumor growth remains untested.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we identified loss-of-function (LOF) somatic alterations of the Polycomb repressive complex 2 (PRC2) core components, EED or SUZ12, in 92% of sporadic, 70% of NF1-associated and 90% of radiotherapy-associated MPNSTs” (Abstract).</li>
+<li>“EED and SUZ12 genetic alterations are mutually exclusive and are collectively found in 80% (12/15) of all MPNSTs” (Results).</li>
+<li>“There is a significant co-occurrence of NF1, CDKN2A and PRC2 genetic alterations (Fleiss’ Kappa statistics, Kappa=0.21, p=0.001)” (Results).</li>
+<li>“We observed Hom deletion and Het loss of the CDKN2A locus in 73% (11/15) and 13% (2/15) of MPNSTs, respectively. We also observed non-synonymous mutations and Het loss in TP53 in 13% (2/15) and 20% (3/15) of MPNSTs” (Results).</li>
+<li>“Genetic alterations in CDKN2A and TP53 were found in 81% (42/52) and 42% (22/52) of all MPNSTs respectively” (Results).</li>
+<li>“Only the FH-SUZ12, but not FH-EED, restored the H3K27me3 level in ST88-14 cells and significantly decreased cell growth” (Results).</li>
+<li>“The data was further analyzed and visualized using the cBio Portal” (Methods, DNA sequencing and analysis).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-12</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25240281.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25240281.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

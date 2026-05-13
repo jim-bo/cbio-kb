@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutational landscape of aggressive cutaneous squamous cell carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25303977.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25303977.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutational landscape of aggressive cutaneous squamous cell carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Curtis R. Pickering </p>
+             <p>Jane H. Zhou </p>
+             <p>J. Jack Lee </p>
+             <p>Jennifer A. Drummond </p>
+             <p>S. Andrew Peng </p>
+             <p>Rami E. Saade </p>
+             <p>Kenneth Y. Tsai </p>
+             <p>Jonathan L. Curry </p>
+             <p>Michael T. Tetzlaff </p>
+             <p>Stephen Y. Lai </p>
+             <p>Jun Yu </p>
+             <p>Donna M. Muzny </p>
+             <p>Harshavardhan Doddapaneni </p>
+             <p>Eve Shinbrot </p>
+             <p>Kyle R. Covington </p>
+             <p>Jianhua Zhang </p>
+             <p>Sahil Seth </p>
+             <p>Carlos Caulin </p>
+             <p>Gary L. Clayman </p>
+             <p>Adel K. El-Naggar </p>
+             <p>Richard A. Gibbs </p>
+             <p>Randal S. Weber </p>
+             <p>Jeffrey N. Myers </p>
+             <p>David A. Wheeler </p>
+             <p>Mitchell J. Frederick </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1078-0432.CCR-14-1768">10.1158/1078-0432.CCR-14-1768</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25303977 · <strong>DOI:</strong> 10.1158/1078-0432.CCR-14-1768 · <strong>Journal:</strong> Clinical Cancer Research (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Pickering et al.&nbsp;performed whole-exome sequencing of 39 aggressive cutaneous squamous cell carcinomas ([[<a href="../cancer_types/CSCC.html">CSCC</a>]]) of the head and neck region, paired with matched normal lymphocytes, to define the driver landscape of this clinically aggressive, UV-driven disease. Despite an extreme UV-induced background mutation rate (median 61.2 mutations/Mb — one of the highest reported), [[MutSig|<a href="../methods/mutsig.html">mutsig</a>]] CV plus two newly developed inactivation-bias algorithms identified 23 candidate driver genes including the well-known tumor suppressors [[<a href="../genes/TP53.html">TP53</a>]], [[<a href="../genes/CDKN2A.html">CDKN2A</a>]], [[<a href="../genes/NOTCH1.html">NOTCH1</a>]], [[<a href="../genes/NOTCH2.html">NOTCH2</a>]], [[<a href="../genes/AJUBA.html">AJUBA</a>]], [[<a href="../genes/HRAS.html">HRAS</a>]], [[<a href="../genes/CASP8.html">CASP8</a>]], [[<a href="../genes/FAT1.html">FAT1</a>]], and [[<a href="../genes/KMT2C.html">KMT2C</a>]] (MLL3), and the novel candidate tumor suppressors [[NOTCH2]], [[<a href="../genes/PARD3.html">PARD3</a>]], and [[<a href="../genes/RASA1.html">RASA1</a>]]. [[KMT2C]] mutations were associated with bone invasion (p=0.008) and shorter recurrence-free survival (HR 5.16; p=0.003).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>39 patients with aggressive [[CSCC]] of the head and neck (snap-frozen tumor + matched normal blood), MD Anderson Cancer Center.</li>
+<li>Aggression defined by regional/distant metastasis or features previously linked to mortality (Clayman et al.&nbsp;2005): 38.5% recurrent, 25.6% persistent, 35.9% previously untreated; 7 metastatic-site samples; 71.8% invaded beyond subcutaneous space; 48.7% with perineural invasion (PNI); 43.6% poorly differentiated; 100% of evaluable cases with Clark level ≥4.</li>
+<li>Assay: [[<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>]] on Illumina HiSeq 2000 using the HGSC VCRome 2.1 42 Mb capture, mean 115× coverage.</li>
+<li>Variant calling via the HGSC Mercury pipeline; copy number estimated with [[ABSOLUTE|<a href="../methods/absolute.html">absolute</a>]] adjusting for purity and ploidy.</li>
+<li>Driver discovery: [[MutSig|mutsig]] CV v1.4, IntOGen v2.3.0, plus two custom chi-square and multinomial inactivation-bias algorithms.</li>
+<li>cBioPortal dataset: [[<a href="../datasets/cscc_hgsc_bcm_2014.html">cscc_hgsc_bcm_2014</a>]].</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Extreme UV-driven mutation burden.</strong> Median 61.2 mutations/Mb across the cohort, &gt;4× the melanoma rate and higher than other squamous tumor types; 75% of substitutions were C&gt;T transitions (87% at a C following a pyrimidine) and 5.6% were dinucleotide polymorphisms — both UV signatures.</li>
+<li><strong>Four “nasal” outlier tumors lacked the UV signature</strong> (average 39% C&gt;T, average 294 mutations), more closely resembling HPV-negative head and neck squamous cell carcinoma (<a href="../cancer_types/HNSC.html">HNSC</a>, ~40% C&gt;T). Authors hypothesize these arose from nasal mucosa rather than skin.</li>
+<li><strong>23 candidate driver genes identified.</strong> [[TP53]], [[CDKN2A]], [[NOTCH2]], [[NOTCH1]], and [[AJUBA]] were significant by all four methods (MutSig, IntOGen, chi-square, multinomial); [[<a href="../genes/SNX25.html">SNX25</a>]], [[<a href="../genes/EIF2D.html">EIF2D</a>]], and [[PARD3]] were significant by the three alternative methods but not by MutSig; [[FAT1]], [[KMT2C]], and [[RASA1]] were significant by the two inactivation-bias methods. MutSig alone identified 11 genes at q&lt;0.1 (two of which — [[<a href="../genes/RBM46.html">RBM46</a>]] and [[<a href="../genes/DCLK1.html">DCLK1</a>]] — had low allelic fractions suggesting they may not be true drivers).</li>
+<li><strong>Mutation frequencies in cSCC (this cohort, n=39):</strong> [[TP53]] 94.9%, [[CDKN2A]] 43.6%, [[NOTCH1]] 59.0%, [[NOTCH2]] 51.3%, [[AJUBA]] 23.1%, [[HRAS]] 20.5%, [[CASP8]] 23.1%, [[FAT1]] 43.6%, [[KMT2C]] 38.5%, [[<a href="../genes/KMT2D.html">KMT2D</a>]] 69.2%, [[PARD3]] 30.8%, [[RASA1]] 12.8%, [[<a href="../genes/RIPK4.html">RIPK4</a>]] 28% of UV-positive tumors.</li>
+<li><strong>NOTCH mutations are inactivating in cSCC.</strong> In both [[NOTCH1]] and [[NOTCH2]], missense mutations cluster in the N-terminal EGF-like ligand-binding repeats and truncating mutations are scattered throughout — opposite of activating T-ALL mutations which concentrate in the heterodimerization and PEST domains.</li>
+<li><strong>cSCC mutational spectrum is most similar to HNSC.</strong> Eight top genes ([[TP53]], [[CDKN2A]], [[NOTCH1]], [[HRAS]], [[CASP8]], [[AJUBA]], [[RASA1]], [[FAT1]], [[KMT2D]]) are shared with [[HNSC]]; only four are significant in [[<a href="../cancer_types/LUSC.html">LUSC</a>]] and two in [[<a href="../cancer_types/SKCM.html">SKCM</a>]].</li>
+<li><strong>Mutations absent or atypical in cSCC compared with related squamous tumors.</strong> No [[<a href="../genes/NFE2L2.html">NFE2L2</a>]] mutations (vs 7% in HNSC and 15% in LUSC); [[<a href="../genes/PIK3CA.html">PIK3CA</a>]] mutated in only 4 patients (10%) with no E545/H1047 hotspots and 2 inactivating mutations — not statistically significant.</li>
+<li><strong>No melanoma-type [[<a href="../genes/BRAF.html">BRAF</a>]] V600 or [[<a href="../genes/NRAS.html">NRAS</a>]] hotspot mutations</strong> were observed, but one [[<a href="../genes/RAC1.html">RAC1</a>]] P29S and five mutations clustered around D89 in STK19 (3 D89N, 1 E88K, 1 P90S) — both reported in melanoma.</li>
+<li><strong>[[<a href="../genes/POLE.html">POLE</a>]] mutations absent.</strong> None of the hypermutated tumors carried functionally relevant [[POLE]] mutations; UV exposure rather than polymerase failure drives the burden.</li>
+<li><strong>Copy number landscape parallels HNSC.</strong> Gains &gt;25% of samples on chromosomes 7, 8q, 9q, 14, and 20; losses on 3p, 4, 5q, 8p, 9p, 11, 17p, 18, 19, 21; focal amplification of the [[<a href="../genes/CCND1.html">CCND1</a>]] region on 11q13.</li>
+<li><strong>[[HRAS]] mutations are positively correlated with [[AJUBA]]</strong> (kappa 0.423, p=0.008) and inversely correlated with [[TP53]] (kappa −0.107, p=0.004) — the same inverse [[TP53]]/[[HRAS]] relationship observed in [[HNSC]].</li>
+<li><strong>RIPK4 emerges as a novel candidate driver.</strong> Excluding the four non-UV nasal tumors, [[RIPK4]] became the 10th most significant gene by MutSig (q=0.053). Mutations were mutated in 28% of UV-positive tumors and clustered in exon 2 (kinase domain) and exon 8 (ankyrin repeats); 35% were truncating, consistent with tumor-suppressor inactivation.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>[[TP53]] — mutated in 94.9% of patients (37/39); top driver by all four methods (MutSig q-value below detection limit).</li>
+<li>[[CDKN2A]] — 43.6%; significant by all four methods.</li>
+<li>[[NOTCH1]] — 59.0%; inactivating pattern (missense in EGF-like repeats, truncating throughout); significant by all four methods.</li>
+<li>[[NOTCH2]] — 51.3%; inactivating pattern paralleling [[NOTCH1]]; significant by all four methods. <strong>Novel candidate tumor suppressor.</strong> [[NOTCH2]] mutation positively associated with perineural invasion (p=0.04; PNI in 70% of mutant vs 33% of wild-type) and with scalp/periorbital primary site (p=0.04).</li>
+<li>[[AJUBA]] — 23.1%; significant by all four methods. [[AJUBA]] mutation correlated with greater depth of invasion (16.0 ± 6.4 mm vs 8.4 ± 5.6 mm, p=0.02) and with [[HRAS]] co-mutation.</li>
+<li>[[HRAS]] — 20.5%; the most obvious oncogene identified, but currently undruggable. Inversely correlated with [[TP53]] mutation.</li>
+<li>[[CASP8]] — 23.1%; differentiation-related.</li>
+<li>[[FAT1]] — 43.6%; differentiation-related tumor suppressor.</li>
+<li>[[KMT2C]] — 38.5%; <strong>strongest clinical association.</strong> Bone invasion in 53% of mutant vs 10% of wild-type (p=0.008); median recurrence-free survival 21.6 vs 167.5 months (p=0.003); HR 5.16 (95% CI 1.55–17.18) for recurrence or death.</li>
+<li>[[KMT2D]] — 69.2%; another histone-methylation regulator, significant by inactivation-bias methods.</li>
+<li>[[PARD3]] — 30.8%; <strong>novel candidate tumor suppressor</strong>, 33% of mutations predicted to truncate/eliminate the protein.</li>
+<li>[[RASA1]] — 12.8%; <strong>novel candidate tumor suppressor</strong> (RAS GTPase activating protein family); 66% of mutations truncating.</li>
+<li>[[RIPK4]] — 28% in UV-signature tumors; mutations clustered in kinase and ankyrin repeat domains; 35% truncating. Novel candidate driver; known to control keratinocyte differentiation.</li>
+<li>STK19 — five mutations clustered around D89 (3 D89N, 1 E88K, 1 P90S); same hotspot region as in melanoma; potentially activating an as-yet uncharacterized kinase. (STK19 not in canonical HUGO list and therefore not included as a wiki gene entity.)</li>
+<li>[[RAC1]] — one P29S hotspot mutation (same as melanoma).</li>
+<li>[[PIK3CA]] — 10% (4 patients, 5 mutations), no canonical E545/H1047 hotspot, 2 inactivating; not significant.</li>
+<li>[[CCND1]] — focal 11q amplification.</li>
+<li>[[NFE2L2]], [[BRAF]] V600, [[NRAS]] hotspot, [[POLE]] — <strong>absent</strong> in this cohort.</li>
+<li>[[<a href="../genes/PTCH1.html">PTCH1</a>]] — 17%, only 2 inactivating; not a driver in cSCC (contrast with 75% inactivating in basal cell carcinoma).</li>
+<li>[[SNX25]], [[EIF2D]], [[RBM46]], [[DCLK1]] — additional MutSig/inactivation-bias hits; [[RBM46]] and [[DCLK1]] had low allelic fractions suggesting they may be passengers.</li>
+<li>[[<a href="../genes/EGFR.html">EGFR</a>]] — discussed as an existing but largely unsuccessful therapeutic target in cSCC (referenced for [[<a href="../drugs/gefitinib.html">gefitinib</a>]] and [[<a href="../drugs/cetuximab.html">cetuximab</a>]] trials); not significantly mutated in this cohort.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>[[KMT2C]] as a candidate prognostic biomarker for aggressive cSCC.</strong> Mutation predicts shorter recurrence-free survival (HR 5.16) and bone invasion. Authors propose [[KMT2C]] mutations may also flag an epigenetically targetable subset.</li>
+<li><strong>No directly targetable oncogenic drivers identified.</strong> The landscape is dominated by tumor suppressors. [[HRAS]] is the most obvious oncogene but remains difficult to target. STK19 hotspot mutations are speculatively activating but no current inhibitor exists.</li>
+<li><strong>UV signature as a diagnostic aid.</strong> Four tumors from the nose lacked the UV signature and resembled HPV-negative [[HNSC]]; the authors suggest the UV signature could help adjudicate ambiguous cutaneous-vs-mucosal origin in head-and-neck squamous tumors.</li>
+<li><strong>Biological similarity to [[HNSC]]</strong> suggests therapeutic strategies effective in HNSC may translate to aggressive cSCC.</li>
+<li><strong>[[NOTCH2]] mutation may flag perineural-invasion-prone tumors</strong> (70% mutant PNI vs 33% wild-type), though this was an exploratory uncorrected analysis.</li>
+<li><strong>[[AJUBA]] mutation correlates with deeper invasion</strong>, another exploratory association.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Single-institution cohort of 39 patients; exploratory clinicopathological correlations were uncorrected for multiple testing.</li>
+<li>No non-aggressive cSCC control cohort: it remains unknown whether the identified drivers are enriched in aggressive vs indolent cSCC.</li>
+<li>Functional roles of [[NOTCH2]], [[PARD3]], [[RASA1]], and [[RIPK4]] in cSCC require validation; mouse NOTCH2 knockouts are not predisposed to tumors, complicating interpretation.</li>
+<li>STK19 hotspot mutations are intriguing but the kinase function and druggability are unknown.</li>
+<li>Four “nasal” tumors lacked a UV signature and may represent misclassified mucosal HNSC; the cell of origin in such cases is genuinely ambiguous.</li>
+<li>The HRAS oncogene, the most obvious therapeutic target, remains pharmacologically intractable at the time of writing (predating clinical <a href="../genes/KRAS.html">KRAS</a> G12C inhibitor approvals).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Whole exome sequencing was performed on 39 cases of aggressive cSCC to identify driver genes and novel therapeutic targets.” (Abstract, p.&nbsp;1)</li>
+<li>“23 candidate drivers were identified including the well-known cancer-associated genes TP53, CDKN2A, NOTCH1, AJUBA, HRAS, CASP8, FAT1, and KMT2C (MLL3). Three novel candidate tumor suppressors with putative links to cancer or differentiation, NOTCH2, PARD3 and RASA1, were also identified as possible drivers in cSCC.” (Abstract, p.&nbsp;1)</li>
+<li>“KMT2C mutations were associated with poor outcome and increased bone invasion.” (Abstract, p.&nbsp;1)</li>
+<li>“A median of 61.2 mutations/Mb were detected in this cohort… more than 4 times as high as the rate in melanoma.” (Results, p.&nbsp;5)</li>
+<li>“75% of events were C&gt;T transitions… 87% of those were at a C following a pyrimidine base. Additionally, 5.6% of events were dinucleotide polymorphisms (DNPs).” (Results, p.&nbsp;5)</li>
+<li>“Only 10% of patients with wild type KMT2C had bone invasion, compared to 53% of patients with KMT2C mutation (p=0.008)… The hazard ratio for recurrence or death for patients with KMT2C mutation was 5.16 (1.55 to 17.18, 95% CI).” (Clinical Significance, p.&nbsp;8)</li>
+<li>“Approximately 70% of patients with NOTCH2 mutations had PNI present compared to just 33% of patients with no NOTCH2 mutation (p=0.04).” (Clinical Significance, p.&nbsp;8)</li>
+<li>“HRAS was highly correlated with AJUBA (0.423, p=0.008) and inversely associated with TP53 (−0.107, p=0.004).” (Results, p.&nbsp;7)</li>
+<li>“RIPK4 was mutated in 28% of the tumors with a UV signature, with all mutations clustering in either exon 2 or exon 8 which encode the kinase and ankyrin repeat domains.” (Results, p.&nbsp;7)</li>
+<li>“TCGA data were collected from cBioPortal.” (Table 1 footnote)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-12</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25303977.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25303977.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

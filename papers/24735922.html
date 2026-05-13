@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular Profiling of Liver Tumors: Classification and Clinical Translation for Decision Making – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24735922.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24735922.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular Profiling of Liver Tumors: Classification and Clinical Translation for Decision Making</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roser Pinyol </p>
+             <p>Jean-Charles Nault </p>
+             <p>Iris M. Quetglas </p>
+             <p>Jessica Zucman-Rossi </p>
+             <p>Josep M. Llovet </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1055/s-0034-1394137">10.1055/s-0034-1394137</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 24735922 · <strong>DOI:</strong> 10.1055/s-0034-1394137 · <strong>Journal:</strong> Seminars in Liver Disease (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This narrative review by Pinyol, Nault, Quetglas, Zucman-Rossi, and Llovet surveys the state of molecular profiling in hepatocellular carcinoma (<a href="../cancer_types/HCC.html">HCC</a>) circa 2014, arguing that genomic and transcriptomic data should be integrated into clinical decision-making across the disease continuum: risk stratification of cirrhotic patients, diagnosis of small nodules, prognostication after curative resection, and selection of targeted therapies for advanced disease. It compiles recurrently mutated HCC driver genes (<a href="../genes/TERT.html">TERT</a> promoter, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/AXIN1.html">AXIN1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/ARID2.html">ARID2</a>, <a href="../genes/RPS6KA3.html">RPS6KA3</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/IRF2.html">IRF2</a>, <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>) identified by next-generation sequencing, catalogs gene-expression signatures of prognosis and stem-cell phenotype, and maps these alterations to ongoing or candidate targeted therapy trials (<a href="../drugs/sorafenib.html">sorafenib</a>, <a href="../drugs/refametinib.html">refametinib</a>, <a href="../drugs/everolimus.html">everolimus</a>, c-MET inhibitors, FGF-axis inhibitors, HDAC inhibitors).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>This is a review article — no primary cohort. It synthesizes published HCC genomic, transcriptomic, miRNA, GWAS, and clinical-trial data through early 2014.</li>
+<li>Cancer types discussed: <a href="../cancer_types/HCC.html">HCC</a> (hepatocellular carcinoma) and <a href="../cancer_types/LIAD.html">LIAD</a> (hepatocellular adenoma, HCA).</li>
+<li>Reported population context: in Western countries, ~90% of HCC arises on a cirrhotic background; HCC accounts for ~80% of all primary liver cancers worldwide <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>TERT promoter mutations</strong> are the most prevalent somatic alteration in HCC (~59–60% of tumors) and are the first recurrent somatic genetic alteration identified in cirrhotic preneoplastic lesions (~25% of preneoplastic nodules), positioning them as an early driver of malignant transformation <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Among HCC drivers, the review cites prevalence figures of ~30% for CTNNB1 (β-catenin activation) and ~30% for TP53; activating RAS/RAF/MAPK pathway mutations are uncommon (&lt;5%) but the pathway is universally activated in advanced HCC <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Newly identified HCC driver genes (next-generation sequencing) include TERT, ARID1A, ARID2, RPS6KA3, PIK3CA, IRF2, NFE2L2, and KEAP1, in addition to the previously known TP53, CTNNB1, and AXIN1 <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>HCAs carrying CTNNB1 mutations have a high risk of malignant transformation into HCC and should be surgically resected; TERT promoter mutations are observed in 17% of borderline HCA/HCC lesions and 56% of HCA with overt HCC transformation, but absent in classical HCA — supporting TERT promoter as a biomarker of malignant transformation <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>A 186-gene “poor survival signature” from tumor-adjacent cirrhotic tissue predicts overall survival and late recurrence after resection; it is present in ~20% of universal cirrhotic populations and is predictive of future HCC development in newly diagnosed hepatitis-C cirrhosis <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>A 5-gene tumor score based on <a href="../genes/TAF9.html">TAF9</a>, <a href="../genes/RAN.html">RAN</a>, <a href="../genes/RAMP3.html">RAMP3</a>, <a href="../genes/KRT19.html">KRT19</a>, and <a href="../genes/JPT1.html">JPT1</a> (formerly HN1) expression predicts early recurrence and survival after resection, externally validated in 748 HCC samples worldwide <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>The G3 transcriptomic subgroup (Boyault classification) — characterized by TP53 mutation, <a href="../genes/CDKN2A.html">CDKN2A</a> inactivation, and cell-cycle gene overexpression — was the most accurate single signature for predicting post-resection recurrence in a comparison of 18 signatures <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>A 13-gene RT-PCR panel (TERT, <a href="../genes/IGF2.html">IGF2</a>, GJB2, <a href="../genes/TEK.html">TEK</a>, <a href="../genes/TIAM1.html">TIAM1</a>, CXCL12, <a href="../genes/TOP2A.html">TOP2A</a>, A2M, PLG, CDKN2A, <a href="../genes/PDGFRA.html">PDGFRA</a>, <a href="../genes/MKI67.html">MKI67</a>, THBS1) distinguishes dysplastic cirrhotic nodules from early HCC; a more restricted 3-gene panel (<a href="../genes/GPC3.html">GPC3</a>, LYVE1, survivin/BIRC5) achieves 95% sensitivity and 94% specificity for discriminating HGDN from tumors &lt;2 cm <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>The IHC triplet glypican-3 + HSP70 + glutamine synthetase (GS) discriminates early HCC from high-grade dysplastic nodules with 46–72% sensitivity and 100% specificity and is endorsed by EASL guidelines <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>mTOR signaling is disrupted in 40–50% of HCCs (candidate population for <a href="../drugs/everolimus.html">everolimus</a>, which failed in unselected second-line trials) <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>c-MET is mutated in ~3% of HCC but activated in ~50% of advanced HCC; high c-MET expression has been used to enrich for response in a <a href="../drugs/tivantinib.html">tivantinib</a> phase II trial (rationale for phase III) <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Focal amplifications recurrently identified in HCC: 7q31 (<a href="../genes/MET.html">MET</a>), 11q13 (<a href="../genes/FGF19.html">FGF19</a>), 6p21 (<a href="../genes/VEGFA.html">VEGFA</a>), and 8q (<a href="../genes/MYC.html">MYC</a>) — VEGFA gains have been associated with benefit from <a href="../drugs/sorafenib.html">sorafenib</a> <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>First recurrent gene fusion reported in HCC: <a href="../genes/ABCB11.html">ABCB11</a>–<a href="../genes/LRP2.html">LRP2</a> <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TERT.html">TERT</a> — promoter activating mutations in ~59% of HCC and ~25% of cirrhotic preneoplastic nodules; late-event biomarker for HCA-to-HCC transformation (17% of borderline lesions; 56% of overtly transformed HCA).</li>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in ~30% of HCC; co-feature of the G3 proliferative/poor-prognosis subgroup.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — β-catenin activating mutations in ~30% of HCC and a high-risk feature in HCA for malignant transformation.</li>
+<li><a href="../genes/AXIN1.html">AXIN1</a> — Wnt-pathway driver, previously known HCC driver.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/ARID2.html">ARID2</a> — chromatin remodeling drivers identified by NGS in HCC.</li>
+<li>RPS6KA3 — novel HCC driver identified by integrated genomic analysis (no canonical wiki page yet).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — PI3K/AKT pathway driver in HCC.</li>
+<li>IRF2, <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a> — drivers linked to oxidative-stress signaling in HCC.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — inactivated in the G3 proliferative subgroup.</li>
+<li><a href="../genes/MET.html">MET</a> — mutated in ~3% of HCC; located at 7q31 focal amplification; high expression used as enrichment biomarker for <a href="../drugs/tivantinib.html">tivantinib</a>.</li>
+<li><a href="../genes/FGF19.html">FGF19</a> — 11q13 focal amplification; therapeutic rationale for FGFR-targeted trials.</li>
+<li>VEGFA — 6p21 focal gain; reported predictor of sorafenib benefit (no canonical wiki page yet).</li>
+<li><a href="../genes/MYC.html">MYC</a> — 8q chromosomal gain in HCC.</li>
+<li><a href="../genes/IGF2.html">IGF2</a>, <a href="../genes/IGF2R.html">IGF2R</a>, <a href="../genes/IGF1R.html">IGF1R</a> — IGF axis: ~10% of HCC overexpress IGF2; ~25% have IGF2R allelic loss; <a href="../genes/IGF1R.html">IGF1R</a> activated in 21% of HCC.</li>
+<li><a href="../genes/EGF.html">EGF</a> (rs4444903 SNP) — candidate-gene variant associated with elevated HCC risk in cirrhotic Caucasians.</li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/RAF1.html">RAF1</a> — RAS/RAF/MAPK pathway components; mutations &lt;5% in HCC but pathway universally activated in advanced disease.</li>
+<li><a href="../genes/EPCAM.html">EPCAM</a>, KRT19, GPC3 — stem-cell/progenitor-cell signature markers; prognostic in subsets of HCC.</li>
+<li><a href="../genes/HSPA1A.html">HSPA1A</a> (HSP70), <a href="../genes/GLUL.html">GLUL</a> (glutamine synthetase) — components of the EASL-endorsed diagnostic IHC triplet for early HCC.</li>
+<li><a href="../genes/MICA.html">MICA</a>, <a href="../genes/DEPDC5.html">DEPDC5</a>, <a href="../genes/KIF1B.html">KIF1B</a>, <a href="../genes/UBE4B.html">UBE4B</a>, <a href="../genes/PGD.html">PGD</a>, <a href="../genes/DLC1.html">DLC1</a>, <a href="../genes/STAT4.html">STAT4</a> — GWAS susceptibility loci/SNPs associated with HBV- or HCV-related HCC.</li>
+<li>ABCB11–LRP2 — first recurrent gene fusion reported in HCC.</li>
+<li>TAF9, RAN, RAMP3, KRT19, JPT1 (formerly HN1) — 5-gene tumor score predicting HCC recurrence and survival after resection.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Chemoprevention stratification:</strong> The 186-gene poor-survival cirrhotic-tissue signature (present in ~20% of cirrhotics) is proposed as a tool to enrich chemopreventive trials for patients at highest risk of developing HCC <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li><strong>Diagnosis of small nodules:</strong> The IHC panel (GPC3 + HSP70 + GS) and the qRT-PCR 3-gene set (GPC3, LYVE1, survivin) are clinically usable to discriminate high-grade dysplastic nodules from early HCC where imaging is ambiguous; the IHC panel is endorsed by EASL guidelines <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li><strong>HCA management:</strong> CTNNB1 mutation status in hepatocellular adenoma identifies lesions at high risk of malignant transformation and is an indication for surgical resection; TERT promoter mutation can serve as a biomarker of overt HCA→HCC transformation <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li><strong>Adjuvant trial enrichment:</strong> Combined cirrhotic poor-survival signature plus the 5-gene tumor score (or G3-subgroup classification) can identify post-resection patients at highest recurrence risk who would benefit from adjuvant systemic therapy trials <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li><strong>Targeted therapy enrichment for advanced HCC:</strong> The review explicitly proposes biomarker-defined enrollment strategies — high c-MET expression for <a href="../drugs/tivantinib.html">tivantinib</a>; RAS mutations for the MEK inhibitor refametinib (NCT01915602); FGF pathway alterations for FGFR inhibitor trials (NCT01948297, NCT01004224); VEGFA amplification for <a href="../drugs/sorafenib.html">sorafenib</a> benefit; mTOR-pathway dysregulation (40–50% of HCC) for <a href="../drugs/everolimus.html">everolimus</a>; HDAC inhibition with <a href="../drugs/vorinostat.html">vorinostat</a> (NCT01075113) <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li><strong>Resistance biology:</strong> Authors note that acquired resistance — analogous to ALK-fusion lung cancer treated with <a href="../drugs/crizotinib.html">crizotinib</a> or BRAF-mutant melanoma treated with <a href="../drugs/vemurafenib.html">vemurafenib</a> — is expected for HCC targeted therapies and motivates combination regimens (driver-targeted plus broad-spectrum agents like sorafenib) and second-generation inhibitors <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>This is a narrative review, not a systematic one; signature comparisons and prevalence figures are aggregated across heterogeneous cohorts and platforms.</li>
+<li>Authors call out that most SNP-association studies in HCC suffer from poor control selection (other liver disease patients), retrospective single-center designs, underpowering, and lack of cross-ancestry validation <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Molecular signatures have been derived across heterogeneous microarray and qRT-PCR platforms; cross-platform robustness, frozen→FFPE portability, and external validation remain incomplete for most published signatures <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Stem-cell signatures (EPCAM, CK19) have been challenged in early-stage non-HBV HCC cohorts — the authors flag that their prognostic value may be restricted to specific etiologies or advanced stages <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>mir26 prognostic/predictive value (response to adjuvant IFN-α) is derived from HBV-related cohorts and not yet validated in Western HCC where IFN-α is not adjuvant standard <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>Open question: whether different tumors within the same patient share driver alterations or differ — has direct implications for biopsy-based molecular classification and for liquid-biopsy strategies anticipated by the authors <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+<li>No targeted therapy has yet exceeded sorafenib in HCC phase III trials in first- or second-line; the review explicitly frames this as the central translational gap <a href="../papers/24735922.html">PMID:24735922</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Recently, somatic mutations in the promoter of TERT that increase the expression of telomerase were identified in 59% of HCCs. Strikingly, 25% of cirrhotic preneoplastic lesions also harbored somatic TERT promoter mutations. This TERT promoter mutation is the first recurrent somatic genetic alteration identified in cirrhotic preneoplastic lesions.” (p.&nbsp;5)</li>
+<li>“Hepatocellular adenomas harboring CTNNB1 mutations activating β-catenin have a high risk of malignant transformation in HCC and consequently should be treated by liver resection.” (p.&nbsp;5)</li>
+<li>“We showed that borderline lesions between HCA and HCC harbored TERT promoter mutations in 17% of the cases and HCA with overt transformation in HCC in 56% of the cases. In contrast, classical adenomas did not harbor TERT promoter mutations.” (p.&nbsp;5)</li>
+<li>“Genomic studies in multiple HCCs have confirmed previously identified mutated genes (TP53, CTNNB1 and AXIN1) and have also unraveled several novel HCC driver genes among which are TERT, ARID1A, ARID2, RPS6KA3, PIK3CA, IRF2, NFE2L2, and KEAP.” (p.&nbsp;9)</li>
+<li>“Therapeutic interventions based on TERT, CTNNB1 (b-catenin), or TP53— the most prevalent molecular alterations described to date in HCC (60%, 30%, and 30%, respectively)—have not yet been approved.” (p.&nbsp;10)</li>
+<li>“Despite the fact that mutations of the RAF/MAPK axis are uncommon in HCC (&lt; 5%), universal activation of RAf/MAPK signaling has been described in advanced HCC… An exploratory pilot clinical trial is currently ongoing targeting patients with RAS mutations by the MEK inhibitor refametinib (NCT01915602).” (p.&nbsp;10)</li>
+<li>“About 40 to 50% of the HCCs present disrupted mTOR signaling and would be candidates for treatments based on mTOR inhibition such as everolimus.” (p.&nbsp;10)</li>
+<li>“Cabozantinib, a c-MET inhibitor, was proved to suppress tumor growth and metastasis in clinical studies. A phase III second-line clinical trial is currently being performed in patients with high c-MET expression treated with tivantinib.” (p.&nbsp;11)</li>
+<li>“Focal amplifications such as 7q31 (with c-MET), 11q13 (with FGF19), or 6p21 (with VEGF) support the development of directed strategies… Following the discovery of focal amplifications of VEGFA, a recent study described the beneficial effect of sorafenib treatment in patients with HCC bearing VEGFA gains.” (p.&nbsp;11)</li>
+<li>“Very recently, the first recurrent fusion has been reported in HCC. The membrane receptor ABCB11 was found fused to multiligand receptor LRP2.” (p.&nbsp;11)</li>
+<li>“We reported a five-gene score, based on the expression of TAF9, RAN, RAMP3, KRT19, and HN1 genes, that could predict early tumor recurrence and survival after liver resection. This five-gene score was externally validated in independent cohorts including 748 HCC samples treated by resection worldwide.” (p.&nbsp;8)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-11</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/24735922.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/24735922.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

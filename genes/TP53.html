@@ -170,236 +170,86 @@ ul.task-list li input[type="checkbox"] {
 <h1>TP53</h1>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>TP53 is the canonical tumor suppressor and the most broadly cited gene in the cbio-kb corpus, recurrently altered across CLL, appendiceal adenocarcinoma, Hodgkin lymphoma, peripheral T-cell lymphoma, and lung adenocarcinoma with disease-specific prognostic implications.</p>
+<p>TP53 encodes the p53 tumor suppressor protein, a master transcription factor governing DNA damage response, apoptosis, and cell cycle arrest. TP53 loss-of-function is one of the most common somatic alterations across human cancers, with roles established in hepatocellular carcinoma (HCC), gastric adenocarcinoma (STAD), nasopharyngeal carcinoma (NPC), and thymic carcinoma.</p>
 </section>
 <section id="alterations-observed-in-the-corpus" class="level2">
 <h2 class="anchored" data-anchor-id="alterations-observed-in-the-corpus">Alterations observed in the corpus</h2>
 <ul>
-<li>Frequent target of mutation and deletion (35%) in <a href="../cancer_types/GBM.html">GBM</a> samples; central component of the p53 pathway, which is altered in 78% of cases <a href="../papers/18772890.html">PMID:18772890</a>.</li>
-<li>TP53 was mutated in 9.1% of CLL patients and co-occurs with 17p deletion; TP53 mutation <em>without</em> 17p deletion was not associated with adverse outcome in U-CLL in the ibrutinib/venetoclax era <a href="../papers/35927489.html">PMID:35927489</a>.</li>
-<li>Oncogenic TP53 mutations were observed in a minority of female germ cell tumors profiled via Make-an-IMPACT, mostly clonal by WES <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li>Detection of pathogenic TP53 alterations in ctDNA (vs tissue only) was associated with worse prognosis in advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> <a href="../papers/36357680.html">PMID:36357680</a>.</li>
-<li>TP53 was mutated in 8% of classic Hodgkin lymphoma cases <a href="../papers/36723991.html">PMID:36723991</a>.</li>
-<li>TP53 mutations were observed in 16% (21/132) of nodal <a href="../cancer_types/PTCL.html">PTCL</a>; 15/21 (71%) lacked concurrent TP53/17p deletion while 6/21 (29%) were co-deleted <a href="../papers/37078708.html">PMID:37078708</a>.</li>
-<li>TP53-mut predominant mucinous appendiceal adenocarcinoma tumors were highly aneuploid, invasive, and carried the worst prognosis; aneuploidy was an independent predictor of poor <a href="../cancer_types/OS.html">OS</a> (P=0.001) <a href="../papers/36493333.html">PMID:36493333</a>.</li>
-<li>Inactivation of TP53 (together with <a href="../genes/SMARCA4.html">SMARCA4</a> and <a href="../genes/CDKN2A.html">CDKN2A</a>) correlated with site-specific shorter time to metastasis in <a href="../cancer_types/LUAD.html">LUAD</a> <a href="../papers/37084736.html">PMID:37084736</a>.</li>
-<li>TP53 alterations were enriched in <a href="../cancer_types/LUAD.html">LUAD</a> primary tumors from patients who later developed brain metastasis vs non-metastatic primaries; TP53 was commonly shared between BM and PT/EM and often truncal <a href="../papers/37591896.html">PMID:37591896</a>.</li>
-<li>TP53 mutations were observed in 94% of 1p19q intact IDH-mutant astrocytomas in an MSKCC active-surveillance low-grade glioma cohort (MSK-IMPACT subcohort n=73) <a href="../papers/37910594.html">PMID:37910594</a>.</li>
-<li>TP53 was included in <a href="../cancer_types/LUAD.html">LUAD</a> pathway/metastasis analyses in the MSK-CHORD clinicogenomic dataset (n=24,950) <a href="../papers/39506116.html">PMID:39506116</a>.</li>
-<li>In SDH-deficient GISTs (n=26), TP53 mutations portended worse recurrence-free and disease-free survival <a href="../papers/37477937.html">PMID:37477937</a>.</li>
-<li>TP53 clonal hematopoiesis VAFs consistently expanded at onset of subsequent hematologic malignancy in 26 MSK patients with paired post-diagnosis sequencing, consistent with preleukemic selection under therapy <a href="../papers/38147626.html">PMID:38147626</a>.</li>
-<li>In FGFR3-altered urothelial carcinoma, TP53 is inversely associated with <a href="../genes/FGFR3.html">FGFR3</a> alterations; baseline TP53 co-mutation linked to lower <a href="../drugs/erdafitinib.html">erdafitinib</a> ORR (22% vs 40%) and enrichment among primary progressors (3/5); acquired TP53 mutations identified in 5/27 serial cfDNA cases as putative <a href="../drugs/erdafitinib.html">erdafitinib</a> resistance drivers <a href="../papers/37682528.html">PMID:37682528</a>.</li>
-<li>In 397 sequenced resected <a href="../cancer_types/PAAD.html">PAAD</a> patients (MSK <code>pancreas_msk_2024</code>), TP53 was mutated in 71% (284/397); frequency did not differ by <a href="../genes/KRAS.html">KRAS</a> allele (G12D / G12V / G12R) <a href="../papers/39214094.html">PMID:39214094</a>.</li>
-<li>TP53 was the most frequently altered gene across all tumor types in CSF ctDNA (n=242, 49% of 489 ctDNA-positive samples) in the <a href="../datasets/csf_msk_2024.html">csf_msk_2024</a> cohort (1,007 CSF samples, 711 patients) profiled by MSK-IMPACT <a href="../papers/39289779.html">PMID:39289779</a>.</li>
-<li>TP53 LOF mutations/deletions were present in 25-50% of RT-<a href="../cancer_types/MPNST.html">MPNST</a>, RT-<a href="../cancer_types/MFH.html">MFH</a> (UPS), and RT-<a href="../cancer_types/OS.html">OS</a>, but only 9% of RT-<a href="../cancer_types/ANGS.html">ANGS</a> (vs 23% sporadic AS); TP53 alterations were depleted in RT-AS relative to sporadic AS in the MSK 82-patient RT-sarcoma cohort <a href="../papers/37350195.html">PMID:37350195</a>.</li>
-<li>TP53 is the defining mutation of <a href="../cancer_types/HGSOC.html">HGSOC</a> precursors (p53 signatures, STICs); mutant p53 protein is elevated by CyCIF in p53.I, STIC.I, STIC.C, and cancer vs normal fallopian tube epithelium; clonal TP53 mutations are shared between STICs and concurrent <a href="../cancer_types/HGSOC.html">HGSOC</a> in a 44-specimen fallopian tube cohort <a href="../papers/39386723.html">PMID:39386723</a>.</li>
-<li>In a 2,336-patient MSK PDAC cohort (<a href="../datasets/pdac_msk_2024.html">pdac_msk_2024</a>), TP53 was altered in 78% of KRAS-mutant tumors, 38% of other-MAPK-mutant (P = 1.4×10⁻⁹), and 45% of MAPK-WT tumors (P = 1.7×10⁻⁵); germline <a href="../genes/ATM.html">ATM</a> loss-of-function mutations and somatic TP53 mutations were mutually exclusive (P = 4×10⁻¹¹); TP53 co-occurrence with germline <a href="../genes/BRCA1.html">BRCA1</a> was enriched (P = 4×10⁻⁷) <a href="../papers/39753968.html">PMID:39753968</a>.</li>
-<li>TP53 was mutated in 17% of pleomorphic liposarcoma (<a href="../cancer_types/PLLS.html">PLLS</a>) — the only soft tissue sarcoma subtype in which TP53 mutations were detected across 207 high-grade sarcomas spanning seven histologic subtypes (<a href="../datasets/sarc_mskcc.html">sarc_mskcc</a>) <a href="../papers/20601955.html">PMID:20601955</a>.</li>
-<li>Mutated in 66 of 188 <a href="../cancer_types/LUAD.html">LUAD</a> tumours (35%); mutation frequency increases with tumour grade (13%, 24%, 52% for grades 1, 2, 3; P=7.8e-6); copy number loss and reduced expression in mutant tumours. <a href="../papers/18948947.html">PMID:18948947</a></li>
-<li>Germline P/LP variant identified as incidental finding in a <a href="../cancer_types/GIST.html">GIST</a> paired tumor-normal sequencing study <a href="../papers/36593350.html">PMID:36593350</a></li>
-<li>Most frequently mutated gene (43% of cohort); enriched in metastases (66% vs 33% in primary tumors) in a longitudinal African breast cancer study <a href="../papers/36585450.html">PMID:36585450</a></li>
-<li>Mutations (e.g., V157F) more frequent in high-grade invasive and metastatic bladder tumors (q &lt; 0.001) <a href="../papers/36543146.html">PMID:36543146</a></li>
-<li>Nearly ubiquitous mutation in <a href="../cancer_types/HGSOC.html">HGSOC</a> (background alteration across all genomic subtypes) <a href="../papers/36517593.html">PMID:36517593</a></li>
-<li>Truncal TP53 mutations (R273C, R248W, R248Q) tracked as baseline alterations in CRC patients treated with KRASG12C + <a href="../genes/EGFR.html">EGFR</a> inhibition <a href="../papers/36355783.html">PMID:36355783</a></li>
-<li>TP53 expression reduced by shRNA in the A1309 CRC cell model for <a href="../genes/FBXO7.html">FBXO7</a> synthetic lethality screening <a href="../papers/36334560.html">PMID:36334560</a></li>
-<li>TP53 most frequently mutated gene in metastatic UC; E285K hotspot enriched in metastatic cohorts (10.8% in UC-GENOME vs 5.9% in TCGA-BLCA); APOBEC-attributable hotspot mutation <a href="../papers/36333289.html">PMID:36333289</a></li>
-<li>TP53 LOF mutations in 63% of <a href="../cancer_types/GBC.html">GBC</a> (most frequently altered gene); TP53 pathway altered in 74% of samples <a href="../papers/36228155.html">PMID:36228155</a></li>
-<li>Mutated in prostate cancer identified in integrative genomic profiling of 218 tumors <a href="../papers/20579941.html">PMID:20579941</a></li>
-<li>Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing <a href="../papers/21252315.html">PMID:21252315</a></li>
-<li>Most frequently mutated gene in high-grade serous ovarian carcinoma (<a href="../cancer_types/HGSOC.html">HGSOC</a>), altered in ~96% of tumors in TCGA integrated genomic analysis <a href="../papers/21720365.html">PMID:21720365</a></li>
-<li>Mutated in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma identified by whole-genome/exome sequencing <a href="../papers/21796119.html">PMID:21796119</a></li>
-<li>TP53 is the most frequently mutated gene in HNSCC (74 tumor-normal pairs, Broad), with truncating and missense mutations across the DNA-binding domain <a href="../papers/21798893.html">PMID:21798893</a></li>
-<li>TP53 mutations are the most prevalent driver alterations in HNSCC whole-exome sequencing of 32 primary tumors (Johns Hopkins cohort) <a href="../papers/21798897.html">PMID:21798897</a></li>
-<li>TP53 mutations are recurrent in <a href="../cancer_types/MDS.html">MDS</a> and co-occur with <a href="../genes/STAG2.html">STAG2</a> and splicing-factor mutations in the Tokyo cohort <a href="../papers/21909114.html">PMID:21909114</a></li>
-<li>WES of 103 breast cancers identified TP53 as the most frequently mutated gene (~38% of cases), with mutations concentrated in ER-negative and triple-negative subtypes <a href="../papers/22158541.html">PMID:22158541</a></li>
-<li>WES of pancreatic cystic neoplasms identified TP53 mutations in mucinous cystic neoplasms (MCNs) and IPMNs with high-grade dysplasia, consistent with a late-stage role in malignant progression <a href="../papers/22158988.html">PMID:22158988</a></li>
-<li>WES of 55 DLBCL tumors identified TP53 mutations in ~8% of cases, associated with chemotherapy resistance and poor clinical outcomes <a href="../papers/22343534.html">PMID:22343534</a></li>
-<li>CCLE pharmacogenomic profiling (947 cell lines, 24 drugs) used TP53 mutation status as a key genomic feature in predictive models of drug sensitivity across cancer types <a href="../papers/22460905.html">PMID:22460905</a></li>
-<li>Somatic mutations in 62% of basal and 43% of non-basal TNBC; clonally dominant in most tumors <a href="../papers/22495314.html">PMID:22495314</a></li>
-<li>Mutational profiling performed across METABRIC subtypes (2,000 tumors); somatic mutations characterised across integrative clusters <a href="../papers/22522925.html">PMID:22522925</a></li>
-<li>Recurrently mutated and deleted in prostate cancer; generally absent in SPOP-mutant tumors (mutually exclusive) <a href="../papers/22610119.html">PMID:22610119</a></li>
-<li>Referenced in melanoma WGS context; key tumor suppressor altered across melanoma cohort <a href="../papers/22622578.html">PMID:22622578</a></li>
-<li>HBx binds p53 directly, inhibiting nucleotide excision repair and transcription-coupled repair; HBx also reduces p53 expression via ASPP1/ASPP2 downregulation and Pin1 interaction in HBV-associated <a href="../cancer_types/HCC.html">HCC</a> <a href="../papers/22634756.html">PMID:22634756</a></li>
-<li>TP53 was among the most frequently mutated genes in breast cancer WES of 100 tumors (Sanger cohort), confirming its role as a major driver <a href="../papers/22722201.html">PMID:22722201</a></li>
-<li>TP53 ranked as the most significantly mutated gene in breast cancer WES/WGS of 103 tumors (Broad cohort) <a href="../papers/22722202.html">PMID:22722202</a></li>
-<li>TP53 mutations identified in medulloblastoma WGS (PCGP, 37 tumors), particularly in the <a href="../genes/SHH.html">SHH</a> subgroup <a href="../papers/22722829.html">PMID:22722829</a></li>
-<li>TP53 mutations identified in prostate cancer WES of 112 tumors (Michigan cohort), associated with metastatic disease <a href="../papers/22722839.html">PMID:22722839</a></li>
-<li>TP53 mutation status in NCI-60 cell lines analyzed as part of CellMiner pharmacogenomics study correlating genomic features with drug sensitivity <a href="../papers/22802077.html">PMID:22802077</a></li>
-<li>Significantly mutated in TCGA colorectal cancer cohort (276 tumors); TP53 mutations prevalent in chromosomally unstable (CIN) colorectal tumors <a href="../papers/22810696.html">PMID:22810696</a></li>
-<li>Significantly mutated in melanoma WES cohort (121 tumors, Broad); TP53 loss-of-function mutations identified among major driver events <a href="../papers/22817889.html">PMID:22817889</a></li>
-<li>Recurrently mutated in medulloblastoma WES cohort (92 tumors, Broad); TP53 mutations enriched in specific medulloblastoma subgroups <a href="../papers/22820256.html">PMID:22820256</a></li>
-<li>Significantly mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); TP53 alterations identified across medulloblastoma molecular subgroups <a href="../papers/22832583.html">PMID:22832583</a></li>
-<li>Significantly mutated in melanoma WES cohort (147 tumors, Yale); TP53 mutations among recurrent driver alterations in cutaneous melanoma <a href="../papers/22842228.html">PMID:22842228</a></li>
-<li>Significantly mutated in both MSS and MSI colorectal cancer samples (Genentech WES cohort, 74 tumors) <a href="../papers/22895193.html">PMID:22895193</a></li>
-<li>Inactivating mutations in 100% of <a href="../cancer_types/SCLC.html">SCLC</a> tumors (biallelic via mutation + LOH/CNLOH); classified as an early clonal event alongside <a href="../genes/RB1.html">RB1</a> (CLCGP WES/WGS cohort, 29 tumors) <a href="../papers/22941188.html">PMID:22941188</a></li>
-<li>Inactivating mutations in 75-90% of <a href="../cancer_types/SCLC.html">SCLC</a>; significantly mutated in JHU WES/WGS cohort (36 tumors) <a href="../papers/22941189.html">PMID:22941189</a></li>
-<li>Mutations in 81% (automated) to 90% (manual review) of <a href="../cancer_types/LUSC.html">LUSC</a> tumors; one of 10 significantly mutated genes (FDR q &lt; 0.1) in TCGA <a href="../cancer_types/LUSC.html">LUSC</a> (178 tumors) <a href="../papers/22960745.html">PMID:22960745</a></li>
-<li>Inactivating mutations in 50% of <a href="../cancer_types/LUAD.html">LUAD</a> cases (Broad WES cohort, 183 tumors); TP53 mutations associated with reduced progression-free survival (P = 0.0014) <a href="../papers/22980975.html">PMID:22980975</a></li>
-<li>Most frequently mutated gene in TCGA breast cancer cohort (510 tumors); TP53 mutations enriched in basal-like subtype <a href="../papers/23000897.html">PMID:23000897</a></li>
-<li>Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors <a href="../papers/23103869.html">PMID:23103869</a></li>
-<li>Identified as a significantly mutated gene in neuroblastoma WES/WGS of 240 tumors <a href="../papers/23334666.html">PMID:23334666</a></li>
-<li>Among significantly mutated genes in pediatric ALL WGS/WES of 44 St.&nbsp;Jude tumors <a href="../papers/23334668.html">PMID:23334668</a></li>
-<li>Recurrently mutated in CLL WES of 160 tumors; TP53 mutations associate with aggressive disease and poor prognosis in CLL <a href="../papers/23415222.html">PMID:23415222</a></li>
-<li>Identified as the most significantly mutated tumor suppressor in esophageal adenocarcinoma (EAC), showing a loss-of-function mutation pattern in 145 tumors <a href="../papers/23525077.html">PMID:23525077</a>.</li>
-<li>Mutated in 60% (24/40) of OSCC tumors; 13% splice-site mutations (vs.&nbsp;2% baseline in IARC), associated with higher CNA burden (p=0.0051) <a href="../papers/23619168.html">PMID:23619168</a>.</li>
-<li>Intermediate-clonality deletion in prostate cancer; disrupted in 4 cases via chromoplexy; co-deleted with <a href="../genes/CHEK2.html">CHEK2</a> in one chain <a href="../papers/23622249.html">PMID:23622249</a>.</li>
-<li>Strongly associated with unfavorable/complex cytogenetics in <a href="../cancer_types/AML.html">AML</a> (200 cases); mutually exclusive of <a href="../genes/FLT3.html">FLT3</a> and <a href="../genes/NPM1.html">NPM1</a>; allelic expression bias observed <a href="../papers/23634996.html">PMID:23634996</a>.</li>
-<li>Mutated in ~90% of copy-number-high (serous-like) endometrial tumors; only 11.4% of endometrioid; PARADIGM analysis implicates truncations (not missense) as the predominant loss-of-function class <a href="../papers/23636398.html">PMID:23636398</a>.</li>
-<li>Mutated in 5% of adenoid cystic carcinoma (ACC): missense P151S and nonsense R342<em>/R213</em> in the DNA-binding/tetramer domains, functionally validated by p53-pathway expression loss <a href="../papers/23685749.html">PMID:23685749</a></li>
-<li>Among the top eight most significantly mutated genes (q&lt;0.00001) in the TCGA clear cell renal cell carcinoma (<a href="../cancer_types/CCRCC.html">CCRCC</a>) comprehensive molecular study <a href="../papers/23792563.html">PMID:23792563</a></li>
-<li>Not perturbed in this mouse model of VHL-null proximal tubule cell transformation, but noted that prior <a href="../genes/VHL.html">VHL</a>+TP53±<a href="../genes/RB1.html">RB1</a> inactivation models showed dual HIFα dependence for ccRCC tumor formation, supporting TP53 as a cooperating driver <a href="../papers/23797736.html">PMID:23797736</a></li>
-<li>Wild-type in all triple-mutant FGFR1/H3-3A K27M/NF1 pediatric glioblastoma cases — a notable distinction from most K27M-mutant GBM/DIPG, which typically carry TP53 mutations <a href="../papers/23817572.html">PMID:23817572</a></li>
-<li>TP53 somatic mutation in 34% of high-grade bladder tumors; strongly associated with high-CNA-burden cluster (P&lt;.001); mutually exclusive with <a href="../genes/MDM2.html">MDM2</a> amplification; enriched in neuroendocrine-differentiated tumors <a href="../papers/23897969.html">PMID:23897969</a></li>
-<li>TP53 (mouse Trp53) referenced as a component of GEM cancer models; mutant p53 Li-Fraumeni models and Trp53R172H + KrasG12D pancreatic GEM used to demonstrate chromosomal instability and widespread metastasis phenocopying human genomic instability <a href="../papers/23999436.html">PMID:23999436</a></li>
-<li>TP53 mutation/deletion in 27.9% of <a href="../cancer_types/GBM.html">GBM</a>; mutually exclusive with <a href="../genes/MDM2.html">MDM2</a> amplification (P=0.0003) and <a href="../genes/CDKN2A.html">CDKN2A</a> deletion (P=1.99e-7) <a href="../papers/24120142.html">PMID:24120142</a></li>
-<li>TP53 confirmed recurrent driver mutation in TCC (transitional cell carcinoma) bladder cancer <a href="../papers/24121792.html">PMID:24121792</a></li>
-<li>TP53 mutations in 8/29 (28%) WES <a href="../cancer_types/MCL.html">MCL</a> cases and 42/192 (22%) of the total <a href="../cancer_types/MCL.html">MCL</a> cohort; associated with 17p loss in 6/8 mutated cases; independent <a href="../cancer_types/OS.html">OS</a> risk factor (HR 2.4; 95% CI 1.4-4.2; P=0.003) <a href="../papers/24145436.html">PMID:24145436</a></li>
-<li>TP53 dominant driver in gallbladder cancer (44% of <a href="../cancer_types/GBC.html">GBC</a>) versus only 6% (2/32) in intrahepatic cholangiocarcinoma discovery screen; supports distinct mutational landscapes of <a href="../cancer_types/GBC.html">GBC</a> and <a href="../cancer_types/IHCH.html">IHCH</a> <a href="../papers/24185509.html">PMID:24185509</a></li>
-<li>TP53 somatic mutation in 3/23 (13%) pancreatic carcinomas with acinar differentiation; LOH at 17p in 9/23 (39%) <a href="../papers/24293293.html">PMID:24293293</a></li>
-<li>TP53 mutation not identified as a primary driver in <a href="../cancer_types/MPN.html">MPN</a> exome sequencing; study context was <a href="../genes/CALR.html">CALR</a> discovery in myeloproliferative neoplasms <a href="../papers/24325359.html">PMID:24325359</a></li>
-<li>TP53 recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms; TP53 and <a href="../genes/RB1.html">RB1</a> co-loss noted in ovarian MiNEN PN19 within a WGTA-guided NEN precision oncology cohort <a href="../papers/24326773.html">PMID:24326773</a></li>
-<li>Frequent driver in initial low-grade glioma tumors; in some cases (e.g., patient 17) clonal TP53 mutations in the initial tumor were undetected in the recurrence, which independently acquired distinct clonal TP53 mutations — convergent evolution of TP53 inactivation <a href="../papers/24336570.html">PMID:24336570</a></li>
-<li>Recurrent inactivating mutations in multiple myeloma (MM) in a comprehensive genomic analysis <a href="../papers/24434212.html">PMID:24434212</a></li>
-<li>PFN-exclusive somatic mutation in 5.3% of fusion-negative rhabdomyosarcomas plus 12% LOH at 17p13.1; germline pathogenic R248 variant identified in one tumor (RMS212) <a href="../papers/24436047.html">PMID:24436047</a></li>
-<li>Mutation in 49% of bladder urothelial carcinomas (<a href="../cancer_types/BLCA.html">BLCA</a>); TP53 inactivation (mutation plus <a href="../genes/MDM2.html">MDM2</a> amplification/overexpression) in 76%; mutually exclusive with MDM2 amplification <a href="../papers/24476821.html">PMID:24476821</a></li>
+<li>Loss-of-function mutation in 28% of HCCs (range 23-31%; WES, n=1,289); defines the TCGA iClust3 subtype associated with chromosomal instability and poor prognosis; enriched in the proliferation class. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>TP53 somatic mutations recur in FIGC tumors (familial intestinal gastric cancer), uncommon in matched sporadic intestinal GC; common risk-associated TP53 polymorphisms enriched in 26/50 FIGC probands vs.&nbsp;4/38 (11%) sporadic comparators. <a href="../papers/24816255.html">PMID:24816255</a></li>
+<li>TP53 germline mutations define Li-Fraumeni syndrome, which must be excluded in familial gastric cancer workup; included in the mandatory multigene panel. <a href="../papers/24816255.html">PMID:24816255</a></li>
+<li>TP53 mutations and reduced immune infiltration reported at higher rates in EBV-negative NPC compared to EBV-positive NPC; EBV-negative tumors have distinct genomic profiles including higher TP53 mutation rates. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>Recurrent somatic TP53 mutations in thymic carcinomas (aggressive histotype); one of the canonical cancer-gene mutations enriched in thymic carcinoma relative to indolent thymomas (which instead carry the GTF2I L404H hotspot). <a href="../papers/24974848.html">PMID:24974848</a></li>
+<li>Focal copy number loss (16p) in prostate cancer; not significantly associated with biochemical recurrence in isolation (prad_mskcc, prad_mskcc_2014 cohorts). <a href="../papers/25024180.html">PMID:25024180</a></li>
+<li>Mutated in 50% of gastric cancers overall; highest in CIN subtype (71%); rare in EBV-positive tumours (TCGA gastric). <a href="../papers/25079317.html">PMID:25079317</a></li>
+<li>Mutated in 46% of LUAD (TCGA, n=230); enriched in cluster 1–3; co-mutated with NF1 in the PI (proximal-inflammatory) transcriptional subtype. <a href="../papers/25079552.html">PMID:25079552</a></li>
+<li>Mutated in 57% of high-grade urothelial carcinoma (MSK-IMPACT, n=109); enriched in extravesical vs.&nbsp;organ-confined disease (69% vs.&nbsp;32%, P=0.005) and node-positive disease (77% vs.&nbsp;56%, P=0.025); worse univariate outcomes not significant after adjustment for pT/pN stage. <a href="../papers/25092538.html">PMID:25092538</a></li>
+<li>Significantly mutated across a 25-sample muscle-invasive urothelial carcinoma cohort (MutSigCV); not differentially enriched between cisplatin responders and non-responders <a href="../papers/25096233.html">PMID:25096233</a></li>
+<li>Somatic mutation in 21/66 (32%) chromophobe RCC; MutSig q&lt;0.1; mutations correlated with decreased expression of p53 transcriptional targets <a href="../papers/25155756.html">PMID:25155756</a></li>
+<li>Higher prevalence in this metastatic CRC cohort than in TCGA (attributed to metastatic-stage enrichment); parallel evolution case with independent R248Q and Y163* mutations in primary vs metastasis <a href="../papers/25164765.html">PMID:25164765</a></li>
+<li>p53-p21-RB1 pathway intact in EWS::FLI1-expressing heMSCs; p53 induction limits long-term in vitro culture, consistent with p53 acting as a barrier to oncogenic transformation in the Ewing sarcoma cell-of-origin model <a href="../papers/25186949.html">PMID:25186949</a></li>
+<li>Mutation with complete loss of wild-type allele in 4/7 MSK prostate cancer cell lines; represents a frequent hit in castration-resistant prostate cancer models <a href="../papers/25201530.html">PMID:25201530</a></li>
+<li>TP53 missense mutations in 7% of Ewing sarcoma WGS cohort and 5.2% of extended 299-patient cohort; cooperates with STAG2 mutation to define worst-prognosis subtype <a href="../papers/25223734.html">PMID:25223734</a></li>
+<li>TP53 mutated in 16/22 (67%) uterine/ovarian carcinosarcomas; seven cases clonal homozygous (&gt;80% VAF) <a href="../papers/25233892.html">PMID:25233892</a></li>
+<li>TP53 non-synonymous mutation and heterozygous loss in 42% of malignant peripheral nerve sheath tumors (MPNST) <a href="../papers/25240281.html">PMID:25240281</a></li>
+<li>TP53 mutated in 94.9% of aggressive cSCC (37/39 patients); top driver by all four significance methods (MutSig q-value below detection limit) <a href="../papers/25303977.html">PMID:25303977</a></li>
+<li>TP53 significantly enriched mutations specifically in chromophobe renal cell carcinoma (chRCC) classic subtype (P = 2.3 x 10^-5) in the UTSW nccRCC study <a href="../papers/25401301.html">PMID:25401301</a></li>
 </ul>
 </section>
 <section id="cancer-types-linked" class="level2">
 <h2 class="anchored" data-anchor-id="cancer-types-linked">Cancer types (linked)</h2>
 <ul>
-<li><a href="../cancer_types/GBM.html">GBM</a> — frequent target of mutation and deletion (35%); central to the p53 pathway altered in 78% of samples <a href="../papers/18772890.html">PMID:18772890</a>.</li>
-<li><a href="../cancer_types/CLLSLL.html">CLLSLL</a> — 9.1% mutated; 17p co-deletion modifies prognostic impact <a href="../papers/35927489.html">PMID:35927489</a>.</li>
-<li><a href="../cancer_types/APAD.html">APAD</a> — defines the aneuploid, worst-prognosis MAAP molecular subtype <a href="../papers/36493333.html">PMID:36493333</a>.</li>
-<li><a href="../cancer_types/CHL.html">CHL</a> — 8% mutated <a href="../papers/36723991.html">PMID:36723991</a>.</li>
-<li><a href="../cancer_types/PTCL.html">PTCL</a> — 16% mutated; inferior PFS (HR 3.1, P=0.005); median PFS 4.5 vs 10.5 months <a href="../papers/37078708.html">PMID:37078708</a>.</li>
-<li><a href="../cancer_types/LUAD.html">LUAD</a> / <a href="../cancer_types/NSCLC.html">NSCLC</a> — metastasis-associated driver, ctDNA-detected pathogenic alterations are independently prognostic <a href="../papers/37084736.html">PMID:37084736</a> <a href="../papers/36357680.html">PMID:36357680</a> <a href="../papers/37591896.html">PMID:37591896</a>.</li>
-<li><a href="../cancer_types/LCH.html">LCH</a> / germ cell tumors — recurrently observed in rare-cancer profiling <a href="../papers/36862133.html">PMID:36862133</a>.</li>
-<li><a href="../cancer_types/BLCA.html">BLCA</a> / <a href="../cancer_types/UTUC.html">UTUC</a> — inversely associated with <a href="../genes/FGFR3.html">FGFR3</a> alterations; co-mutation marks poor <a href="../drugs/erdafitinib.html">erdafitinib</a> response <a href="../papers/37682528.html">PMID:37682528</a>.</li>
-<li><a href="../cancer_types/PAAD.html">PAAD</a> — mutated in 71% of MSK resected PDAC sequenced cohort; not allele-specific across <a href="../genes/KRAS.html">KRAS</a> mutants <a href="../papers/39214094.html">PMID:39214094</a>; altered in 78% of KRAS-mutant PDAC in a larger 2,336-patient MSK cohort, with lower rates in other-MAPK-mutant (38%) and MAPK-WT (45%) subtypes <a href="../papers/39753968.html">PMID:39753968</a>.</li>
-<li><a href="../cancer_types/HGSOC.html">HGSOC</a> — defining mutation of precursor lesions; mutant p53 detectable by CyCIF from p53 signature stage through STIC and invasive cancer; clonal TP53 mutations shared between STICs and concurrent invasive <a href="../cancer_types/HGSOC.html">HGSOC</a> <a href="../papers/39386723.html">PMID:39386723</a>.</li>
-<li><a href="../cancer_types/MPNST.html">MPNST</a> / <a href="../cancer_types/MFH.html">MFH</a> / <a href="../cancer_types/OS.html">OS</a> — TP53 LOF in 25-50% of RT-sarcomas across these histotypes; infrequent in RT-AS (9%) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
-<li><a href="../cancer_types/ANGS.html">ANGS</a> — TP53 mutations depleted in RT-AS (9%) vs sporadic AS (23%) <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li><strong>HCC</strong> – TP53 LOF in 28%; trunk driver, not currently druggable; defines the proliferation molecular class with poor outcomes; co-occurs with chromosomal instability. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li><strong>STAD</strong> – Somatic TP53 mutations in FIGC; germline TP53 (Li-Fraumeni) must be excluded in familial GC; risk-associated TP53 polymorphisms enriched in familial intestinal GC probands. <a href="../papers/24816255.html">PMID:24816255</a></li>
+<li><strong>NPC</strong> – TP53 mutations enriched in EBV-negative (non-endemic) NPC; lower immune infiltration in TP53-mutant EBV-negative tumors has implications for ICI trial stratification. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><strong>THYC (thymic carcinoma)</strong> – recurrent somatic TP53 mutations; part of the aggressive molecular profile (alongside CYLD, CDKN2A, BAP1, PBRM1) distinguishing thymic carcinomas from indolent thymomas. <a href="../papers/24974848.html">PMID:24974848</a></li>
 </ul>
 </section>
 <section id="co-occurrence-and-mutual-exclusivity" class="level2">
 <h2 class="anchored" data-anchor-id="co-occurrence-and-mutual-exclusivity">Co-occurrence and mutual exclusivity</h2>
 <ul>
-<li>Significantly co-occurs with 17p deletion in CLL <a href="../papers/35927489.html">PMID:35927489</a>.</li>
-<li>Co-altered with EGFR/KEAP1/STK11 in ever-metastatic <a href="../cancer_types/LUAD.html">LUAD</a> primaries (q&lt;0.001) <a href="../papers/37084736.html">PMID:37084736</a>.</li>
-<li>Mutually exclusive with GNAS-mut and RAS-mut predominant molecular lineages of mucinous appendiceal adenocarcinoma <a href="../papers/36493333.html">PMID:36493333</a>.</li>
-<li>Mutually exclusive with germline <a href="../genes/ATM.html">ATM</a> loss-of-function mutations in PDAC (P = 4×10⁻¹¹); significantly co-occurs with germline <a href="../genes/BRCA1.html">BRCA1</a> mutations (P = 4×10⁻⁷) <a href="../papers/39753968.html">PMID:39753968</a>.</li>
-<li>In <a href="../cancer_types/HGSOC.html">HGSOC</a>, TP53 mutations are clonally shared between p53 signatures/STICs and concurrent invasive cancer, consistent with a field-effect or clonal expansion origin <a href="../papers/39386723.html">PMID:39386723</a>.</li>
+<li>In HCC, TP53 inactivation is enriched in the proliferation class alongside FGF19/CCND1 amplifications and HBV aetiology; mutually enriched in iClust3 with chromosomal instability. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>In thymic carcinomas, TP53 co-occurs with CYLD, CDKN2A, BAP1, and PBRM1 mutations, defining a high mutation-burden aggressive subtype distinct from GTF2I-mutant indolent thymomas. <a href="../papers/24974848.html">PMID:24974848</a></li>
 </ul>
 </section>
 <section id="therapeutic-relevance" class="level2">
 <h2 class="anchored" data-anchor-id="therapeutic-relevance">Therapeutic relevance</h2>
 <ul>
-<li>In the ibrutinib/venetoclax era, isolated TP53 mutation (without 17p loss) does not confer adverse prognosis in U-CLL <a href="../papers/35927489.html">PMID:35927489</a>.</li>
-<li>Chemoradiotherapy (CRT) upregulates the p53/MDM2 axis in human cervix tumor cells, as observed in ROBIN METEOR Project 1 preliminary data; this upregulation was not accompanied by significant induction of the PDL-1/PD-1 axes <a href="../papers/41941260.html">PMID:41941260</a>.</li>
-<li>TP53 mutation status in <a href="../cancer_types/PTCL.html">PTCL</a> identifies patients with markedly inferior PFS on CHOP-based induction and may warrant alternative induction/consolidation strategies <a href="../papers/37078708.html">PMID:37078708</a>.</li>
+<li>TP53 is not directly druggable with currently approved agents in HCC; listed among trunk HCC mutations for which no actionable targeted therapy exists. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>TP53 mutation status in NPC (enriched in EBV-negative tumors) has implications for ICI trial stratification, as EBV-negative NPC has lower immune infiltration. <a href="../papers/24952746.html">PMID:24952746</a></li>
 </ul>
 </section>
 <section id="open-questions" class="level2">
 <h2 class="anchored" data-anchor-id="open-questions">Open questions</h2>
 <ul>
-<li>Discordance between PFS and <a href="../cancer_types/OS.html">OS</a> effect of TP53 in <a href="../cancer_types/PTCL.html">PTCL</a> is unexplained (possible salvage-therapy confounding) <a href="../papers/37078708.html">PMID:37078708</a>.</li>
-<li>Mechanistic basis of TP53-mut-associated aneuploidy in appendiceal tumors remains to be determined <a href="../papers/36493333.html">PMID:36493333</a>.</li>
-<li>Allele-specific TP53 inactivation status was not addressed in the RT-sarcoma cohort, leaving bi-allelic vs mono-allelic TP53 impact unclear <a href="../papers/37350195.html">PMID:37350195</a>.</li>
+<li>In HCC, blocking TP53-driven chromosomal instability is an unmet need; no TP53 reactivation strategy has been validated clinically. <a href="../papers/24798001.html">PMID:24798001</a></li>
+<li>In NPC, whether TP53 mutation status should stratify patients for ICI vs.&nbsp;other treatment modalities requires prospective validation. <a href="../papers/24952746.html">PMID:24952746</a></li>
+<li>In thymic carcinomas, the prognostic and predictive significance of TP53 mutations relative to other co-occurring alterations (CYLD, BAP1, PBRM1) requires further characterization. <a href="../papers/24974848.html">PMID:24974848</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li><a href="../papers/18772890.html">PMID:18772890</a></li>
-<li><a href="../papers/35927489.html">PMID:35927489</a></li>
-<li><a href="../papers/36357680.html">PMID:36357680</a></li>
-<li><a href="../papers/36493333.html">PMID:36493333</a></li>
-<li><a href="../papers/36723991.html">PMID:36723991</a></li>
-<li><a href="../papers/36862133.html">PMID:36862133</a></li>
-<li><a href="../papers/37078708.html">PMID:37078708</a></li>
-<li><a href="../papers/37084736.html">PMID:37084736</a></li>
-<li><a href="../papers/37591896.html">PMID:37591896</a></li>
-<li><a href="../papers/37682528.html">PMID:37682528</a></li>
-<li><a href="../papers/37910594.html">PMID:37910594</a></li>
-<li><a href="../papers/39506116.html">PMID:39506116</a></li>
-<li><a href="../papers/37477937.html">PMID:37477937</a></li>
-<li><a href="../papers/38147626.html">PMID:38147626</a></li>
-<li><a href="../papers/39214094.html">PMID:39214094</a></li>
-<li><a href="../papers/39289779.html">PMID:39289779</a></li>
-<li><a href="../papers/37350195.html">PMID:37350195</a></li>
-<li><a href="../papers/41941260.html">PMID:41941260</a></li>
-<li><a href="../papers/39386723.html">PMID:39386723</a></li>
-<li><a href="../papers/39753968.html">PMID:39753968</a></li>
-<li><a href="../papers/20601955.html">PMID:20601955</a></li>
+<li><a href="../papers/24798001.html">PMID:24798001</a></li>
+<li><a href="../papers/24816255.html">PMID:24816255</a></li>
+<li><a href="../papers/24952746.html">PMID:24952746</a></li>
+<li><a href="../papers/24974848.html">PMID:24974848</a></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/18948947.html">PMID:18948947</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36593350.html">PMID:36593350</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36585450.html">PMID:36585450</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36543146.html">PMID:36543146</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36517593.html">PMID:36517593</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36355783.html">PMID:36355783</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36334560.html">PMID:36334560</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36333289.html">PMID:36333289</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/36228155.html">PMID:36228155</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/20579941.html">PMID:20579941</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21252315.html">PMID:21252315</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21720365.html">PMID:21720365</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21796119.html">PMID:21796119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21798893.html">PMID:21798893</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21798897.html">PMID:21798897</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/21909114.html">PMID:21909114</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22158541.html">PMID:22158541</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22158988.html">PMID:22158988</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22343534.html">PMID:22343534</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22460905.html">PMID:22460905</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22495314.html">PMID:22495314</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22522925.html">PMID:22522925</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22610119.html">PMID:22610119</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22622578.html">PMID:22622578</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22634756.html">PMID:22634756</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22722201.html">PMID:22722201</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22722202.html">PMID:22722202</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22722829.html">PMID:22722829</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22722839.html">PMID:22722839</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22802077.html">PMID:22802077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22810696.html">PMID:22810696</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22817889.html">PMID:22817889</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22820256.html">PMID:22820256</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22832583.html">PMID:22832583</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22842228.html">PMID:22842228</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22895193.html">PMID:22895193</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22941188.html">PMID:22941188</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22941189.html">PMID:22941189</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22960745.html">PMID:22960745</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/22980975.html">PMID:22980975</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23000897.html">PMID:23000897</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23103869.html">PMID:23103869</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23334666.html">PMID:23334666</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23334668.html">PMID:23334668</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23415222.html">PMID:23415222</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23525077.html">PMID:23525077</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23619168.html">PMID:23619168</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23622249.html">PMID:23622249</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23634996.html">PMID:23634996</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23636398.html">PMID:23636398</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23685749.html">PMID:23685749</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23792563.html">PMID:23792563</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23797736.html">PMID:23797736</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23817572.html">PMID:23817572</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23897969.html">PMID:23897969</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/23999436.html">PMID:23999436</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24120142.html">PMID:24120142</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24121792.html">PMID:24121792</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24145436.html">PMID:24145436</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24185509.html">PMID:24185509</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24293293.html">PMID:24293293</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24325359.html">PMID:24325359</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24326773.html">PMID:24326773</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24336570.html">PMID:24336570</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24434212.html">PMID:24434212</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24436047.html">PMID:24436047</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em> - <a href="../papers/24476821.html">PMID:24476821</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-09</strong>.</em></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25024180.html">PMID:25024180</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25079317.html">PMID:25079317</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25079552.html">PMID:25079552</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25092538.html">PMID:25092538</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25096233.html">PMID:25096233</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25155756.html">PMID:25155756</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25164765.html">PMID:25164765</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25186949.html">PMID:25186949</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25201530.html">PMID:25201530</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-11</strong>.</em> - <a href="../papers/25223734.html">PMID:25223734</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em> - <a href="../papers/25233892.html">PMID:25233892</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em> - <a href="../papers/25240281.html">PMID:25240281</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em> - <a href="../papers/25303977.html">PMID:25303977</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em> - <a href="../papers/25401301.html">PMID:25401301</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-12</strong>.</em></p>
 
 
 </section>

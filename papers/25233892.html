@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic analyses of gynaecologic carcinosarcomas reveal frequent mutations in chromatin remodelling genes – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25233892.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25233892.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic analyses of gynaecologic carcinosarcomas reveal frequent mutations in chromatin remodelling genes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Siân Jones </p>
+             <p>Nicolas Stransky </p>
+             <p>Christine L. McCord </p>
+             <p>Ethan Cerami </p>
+             <p>James Lagowski </p>
+             <p>Devon Kelly </p>
+             <p>Samuel V. Angiuoli </p>
+             <p>Mark Sausen </p>
+             <p>Lisa Kann </p>
+             <p>Manish Shukla </p>
+             <p>Rosemary Makar </p>
+             <p>Laura D. Wood </p>
+             <p>Luis A. Diaz Jr </p>
+             <p>Christoph Lengauer </p>
+             <p>Victor E. Velculescu </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ncomms6006">10.1038/ncomms6006</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25233892 · <strong>DOI:</strong> 10.1038/ncomms6006 · <strong>Journal:</strong> Nature Communications (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Jones et al.&nbsp;performed whole-exome sequencing on 22 gynaecologic carcinosarcomas (malignant mixed Müllerian tumours: 17 uterine, 5 ovarian) matched to normal tissue. Microsatellite-stable tumours carried an average of 43 non-synonymous mutations each; four mismatch-repair–deficient tumours harboured 904–5,913 somatic alterations. Beyond expected hits in <a href="../genes/TP53.html">TP53</a> (67%), <a href="../genes/KRAS.html">KRAS</a> (27%), <a href="../genes/PIK3CA.html">PIK3CA</a> (41%), and <a href="../genes/PTEN.html">PTEN</a> (41%), they discovered that nearly two-thirds of cases harbour mutations in chromatin-remodelling genes — most prominently <a href="../genes/ARID1A.html">ARID1A</a> (32%), <a href="../genes/ARID1B.html">ARID1B</a> (14%), <a href="../genes/KMT2C.html">KMT2C</a>/MLL3 (27%), <a href="../genes/SPOP.html">SPOP</a> (14%), and <a href="../genes/BAZ1A.html">BAZ1A</a> (18%) — and that more than three quarters of cases carry alterations in genes with potential clinical actionability (PI3K pathway, homologous recombination, mismatch repair).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>22 carcinosarcoma patients (17 uterine, 5 ovarian) with matched tumour/normal exomes; one tumour (MM02) was a recurrence at the primary site, others were primary. Samples from OHSU Knight BioLibrary; 11 patients received adjuvant chemotherapy or radiation after surgery.</li>
+<li>Cancer types: <a href="../cancer_types/UCS.html">UCS</a> (uterine carcinosarcoma, primary) and <a href="../cancer_types/MXOV.html">MXOV</a> (mixed ovarian carcinoma; five ovarian cases).</li>
+<li>Dataset: <a href="../datasets/ucs_jhu_2014.html">ucs_jhu_2014</a> — exome data deposited at the European Genome-phenome Archive under accession EGAS00001000941.</li>
+<li>Assay: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> using Agilent SureSelect 51 Mb (v4) capture + Illumina HiSeq 2000 paired-end 100 bp, average 191× coverage with ≥90% of bases covered ≥10×; aligned to hg19 with Eland/CASAVA 1.7.</li>
+<li>10 fresh-frozen tumours; 12 formalin-fixed paraffin-embedded tumours; ~85% mean neoplastic cellularity after macrodissection.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>Total burden: 777 somatic mutations in 702 genes across 18 microsatellite-stable tumours; 18,371 alterations across 4 mismatch-repair–deficient tumours (range 904–5,913 in the hypermutators).</li>
+<li>Mismatch-repair deficiency: biallelic truncating mutations in <a href="../genes/MSH6.html">MSH6</a> (MM12T) plus single nonsense/frameshift hits in <a href="../genes/MSH6.html">MSH6</a> (MM04T, MM18T) and <a href="../genes/MLH1.html">MLH1</a> (MM20T) — driving the mutator phenotype. The <a href="../genes/MLH1.html">MLH1</a>-mutant case showed ~50% small indels (vs ~10% in MSS); <a href="../genes/MSH6.html">MSH6</a>-mutant cases showed elevated C:G→A:T transversions (30%) suggestive of unrepaired oxidative damage.</li>
+<li>MSS substitution spectrum was dominated by C:G→T:A transitions at CpG sites (deamination of 5-methylcytosine).</li>
+<li><a href="../genes/TP53.html">TP53</a> mutated in 67% (16/22) — a higher fraction than previously appreciated for carcinosarcoma. Seven cases had <a href="../genes/TP53.html">TP53</a> mutation allele frequencies &gt;80% (clonal, homozygous after normal-tissue adjustment).</li>
+<li>PI3K pathway activated in &gt;50% of cases: <a href="../genes/PIK3CA.html">PIK3CA</a> 41% (9/22), <a href="../genes/PTEN.html">PTEN</a> 41% (9/22), <a href="../genes/PIK3R1.html">PIK3R1</a> 14% (3/22). <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/PIK3R1.html">PIK3R1</a> mutations were mutually exclusive; <a href="../genes/PTEN.html">PTEN</a> loss co-occurred with other pathway hits. Unlike prior reports, PI3K pathway mutations were not confined to uterine cases — they also occurred in ovarian cases.</li>
+<li>Chromatin-remodelling genes are the most prominently mutated class: <a href="../genes/ARID1A.html">ARID1A</a> 32% (7/22), <a href="../genes/ARID1B.html">ARID1B</a> 14%, <a href="../genes/KMT2C.html">KMT2C</a>/MLL3 27% (6/22) plus one <a href="../genes/KMT2D.html">KMT2D</a>/MLL2 splice-site, <a href="../genes/SPOP.html">SPOP</a> 14% (3/22), <a href="../genes/BAZ1A.html">BAZ1A</a> 18% (4/22). Three of the <a href="../genes/ARID1A.html">ARID1A</a>-mutated tumours also carried <a href="../genes/ARID1B.html">ARID1B</a> frameshift/nonsense alterations. Approximately two-thirds of cases harbour mutations in genes involved in chromatin remodelling or modification.</li>
+<li>Site-specific signature: among MSS tumours, <a href="../genes/ARID1A.html">ARID1A</a> mutations were unique to ovarian-origin carcinosarcomas — 4 of 5 ovarian tumours, none of the MSS uterine tumours.</li>
+<li>Other recurrently mutated genes: <a href="../genes/KRAS.html">KRAS</a> hotspots in 27% (5/22; 5 cases for actionability counting); <a href="../genes/CTNNB1.html">CTNNB1</a> hotspot mutations in two MSS cases; <a href="../genes/FBXW7.html">FBXW7</a> in 23% (5/22, including the canonical R505C hotspot in MM19, three WD-repeat missense, one frameshift); <a href="../genes/PPP2R1A.html">PPP2R1A</a> hotspot mutation M180R in one uterine carcinosarcoma; <a href="../genes/ERBB3.html">ERBB3</a> extracellular-domain hotspot V104M in one tumour.</li>
+<li>Clonality: TP53/known cancer-gene mutations cluster at ~50% (heterozygous) or ~100% (homozygous) allele frequencies after purity adjustment — consistent with monoclonal origin of carcinosarcomas (supporting the conversion theory of histogenesis).</li>
+<li>DNA-repair: somatic frameshift in <a href="../genes/BRCA1.html">BRCA1</a> (1 case), nonsense mutations in <a href="../genes/BRCA2.html">BRCA2</a> (3 cases), splice-site in <a href="../genes/FANCM.html">FANCM</a> (2 cases). One germline <a href="../genes/BRCA2.html">BRCA2</a> nonsense (K3326X) identified in patient MM08 with family history of cervical and lung cancer.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — 16/22 (67%); seven cases clonal homozygous (&gt;80% VAF).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 5/22 hotspot mutations (27%); flagged as actionable via MEK/BRAF inhibitors.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — 9/22 (41%), hotspot activating; mutually exclusive with <a href="../genes/PIK3R1.html">PIK3R1</a>.</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a> — 3/22 (14%) in-frame indels and frameshift; first implication in carcinosarcoma.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — 9/22 (41%) missense/nonsense/frameshift; co-occurs with other PI3K hits.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — 7/22 (32%) truncating; ovarian-restricted among MSS cases (4/5 ovarian, 0/uterine MSS).</li>
+<li><a href="../genes/ARID1B.html">ARID1B</a> — 3/22 (14%) frameshift/nonsense; co-occurs with <a href="../genes/ARID1A.html">ARID1A</a> in 3 cases.</li>
+<li><a href="../genes/KMT2C.html">KMT2C</a> (MLL3) — 6/22 (27%) mostly missense, with truncations.</li>
+<li><a href="../genes/KMT2D.html">KMT2D</a> (MLL2) — 1 splice-site alteration (co-occurring with an MLL3 mutation in the same tumour).</li>
+<li><a href="../genes/SPOP.html">SPOP</a> — 3/22 (14%) missense in/near the MATH domain (E46K, E78K, M117V).</li>
+<li><a href="../genes/BAZ1A.html">BAZ1A</a> — 4/22 (18%); first carcinosarcoma report.</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — 2 MSS cases with hotspot mutations.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — 5/22 (23%) including R505C WD-repeat hotspot in MM19.</li>
+<li><a href="../genes/PPP2R1A.html">PPP2R1A</a> — 1 uterine case, M180R HEAT-domain hotspot.</li>
+<li><a href="../genes/ERBB3.html">ERBB3</a> — 1 case, V104M extracellular-domain hotspot.</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> — 1 frameshift.</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a> — 3 nonsense (somatic) + 1 germline (K3326X in patient MM08).</li>
+<li><a href="../genes/FANCM.html">FANCM</a> — 2 splice-site/frameshift.</li>
+<li><a href="../genes/MLH1.html">MLH1</a> — 1 frameshift (MM20T, hypermutator).</li>
+<li><a href="../genes/MSH6.html">MSH6</a> — 3 cases (MM04T, MM12T biallelic, MM18T) nonsense/frameshift — drivers of the mutator phenotype.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>More than three quarters of cases carry an alteration in a gene with potential clinical actionability — a striking yield given that no targeted therapies are currently approved for carcinosarcoma and prognosis remains poor.</li>
+<li>PI3K pathway hits (<a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>) in &gt;50% of cases support trials of PI3K/mTOR/AKT/MEK inhibitors — already in Phase I/II testing in endometrial cancer.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> hotspot mutations (5 cases) flag candidates for MEK/BRAF inhibition.</li>
+<li><a href="../genes/ERBB3.html">ERBB3</a> V104M (1 case) is targetable with ERBB-family inhibitor antibodies in Phase II development.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> loss-of-function (5 cases) may sensitize tumours to HDAC inhibitors (preclinical evidence).</li>
+<li>Homologous-recombination repair defects — somatic <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> (4 cases) and germline <a href="../genes/BRCA2.html">BRCA2</a> (1 case) — suggest sensitivity to platinum agents and PARP inhibitors; <a href="../genes/FANCM.html">FANCM</a> defects flag mitomycin sensitivity.</li>
+<li>The four mismatch-repair–deficient hypermutators (<a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH6.html">MSH6</a>) are candidates for anti–PD-1 immunotherapy (MK-3475/pembrolizumab being evaluated in MSI-unstable tumours at time of publication).</li>
+<li>Mutational profiling has potential diagnostic utility: detection of carcinosarcoma-defining mutations in cell-free DNA or liquid Pap smear specimens could enable early detection.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Modest cohort (n=22) with an imbalance between uterine (17) and ovarian (5) primaries, limiting power to fully resolve site-specific differences.</li>
+<li>No transcriptomic, methylation, or copy-number data presented — only exomes; functional consequence of many chromatin-remodelling missense alterations is inferred, not measured.</li>
+<li>The site-specific finding that <a href="../genes/ARID1A.html">ARID1A</a> mutations are restricted to ovarian-origin MSS carcinosarcomas is provocative but rests on 4/5 ovarian vs 0/MSS-uterine — open to replication in larger series.</li>
+<li>Clinical actionability claims are inferred from mutation status; the paper does not test response to any of the suggested targeted agents in this cohort.</li>
+<li>Whether the observed chromatin-remodelling dysregulation drives the biphasic carcinoma+sarcoma histology (the “conversion” hypothesis) or merely co-occurs with it remains untested mechanistically.</li>
+<li>The germline <a href="../genes/BRCA2.html">BRCA2</a> K3326X carrier was identified opportunistically; the paper does not pursue a systematic germline analysis.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“On average, we identify 43 mutations per tumour, excluding four cases with a mutator phenotype that harboured inactivating mutations in mismatch repair genes.” (Abstract)</li>
+<li>“In addition to mutations in TP53 and <a href="../genes/KRAS.html">KRAS</a>, we identify genetic alterations in chromatin remodelling genes, <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/ARID1B.html">ARID1B</a>, in histone methyltransferase MLL3, in histone deacetylase modifier <a href="../genes/SPOP.html">SPOP</a> and in chromatin assembly factor <a href="../genes/BAZ1A.html">BAZ1A</a>, in nearly two thirds of cases.” (Abstract)</li>
+<li>“Alterations in genes with potential clinical utility are observed in more than three quarters of the cases and included members of the PI3-kinase and homologous DNA repair pathways.” (Abstract)</li>
+<li>“Mutations in TP53 were observed in 67% (16/22) of cases, a significantly higher fraction than previously appreciated.” (Results)</li>
+<li>“The phosphoinositide 3-kinase (PI3-kinase) pathway was affected by activating mutations in <a href="../genes/PIK3CA.html">PIK3CA</a> (9/22 cases) and <a href="../genes/PTEN.html">PTEN</a> (9/22 cases). We identified mutations in <a href="../genes/PIK3R1.html">PIK3R1</a>, a member of the PI3-kinase pathway that had not been previously implicated in carcinosarcomas, in 3 of 22 cases.” (Results)</li>
+<li>“Truncating mutations in ARID1A were detected in 32% (7/22) of tumours… Four of the five ovarian tumours had ARID1A mutations and these were not observed in the microsatellite-stable tumours of the uterus.” (Results)</li>
+<li>“Alterations of the histone methyltransferase MLL3 were identified in 27% (6/22) of carcinosarcomas. One of these tumours also harboured a splice site alteration in the related gene, MLL2.” (Results)</li>
+<li>“SPOP… was found to be altered in 3 cases (14%)… BAZ1A… was mutated in 4 of the 22 carcinosarcomas.” (Results)</li>
+<li>“Mutations in the tumour suppressor gene, <a href="../genes/FBXW7.html">FBXW7</a>, were identified in 23% (5/22) of cases… Tumour MM19 carried the previously described hotspot mutation, 505R&gt;C.” (Results)</li>
+<li>“A known hotspot missense mutation, 104V&gt;M, in the extracellular domain of the kinase <a href="../genes/ERBB3.html">ERBB3</a> was observed in a single tumour… KRAS hotspot mutations were identified in five cases and tumours of these patients may respond to MEK/BRAF inhibitors.” (Results)</li>
+<li>“Two somatic nonsense mutations in <a href="../genes/BRCA2.html">BRCA2</a>, a frameshift in <a href="../genes/BRCA1.html">BRCA1</a> and a splice site alteration of <a href="../genes/FANCM.html">FANCM</a> were also identified providing further evidence for the role of homologous recombination repair defects in carcinosarcomas.” (Results)</li>
+<li>“Carcinosarcoma exome sequence data has been deposited at the European Genome-phenome Archive… under the accession code EGAS00001000941.” (Additional information)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-12</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25233892.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25233892.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

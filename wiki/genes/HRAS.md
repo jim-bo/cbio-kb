@@ -33,7 +33,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - G13D activating mutation identified as an oncogenic event in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
 - Activating mutations (4%) at GTPase residues 11-13 in HNSCC; defines an M-class oral-cavity subset with [CASP8](../genes/CASP8.md) co-mutation and wild-type [TP53](../genes/TP53.md) [PMID:25631445](../papers/25631445.md)
 - Rare hot-spot mutations (G13D/G13S/Q61K×2) identified in cutaneous melanoma; mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant subtype of melanoma [PMID:26091043](../papers/26091043.md)
-- Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of UTUC carcinogenesis [PMID:26278805](../papers/26278805.md)
+- Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of [UTUC](../cancer_types/UTUC.md) carcinogenesis [PMID:26278805](../papers/26278805.md)
+- Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:26437033](../papers/26437033.md)
 
 ## Cancer types (linked)
 
@@ -108,5 +109,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

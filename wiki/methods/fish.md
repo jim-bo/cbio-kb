@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -43,6 +43,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used to validate copy-number alterations identified in adrenocortical carcinoma genomic profiling [PMID:26095796](../papers/26095796.md)
 - FISH used to assess gene amplification status in breast cancer samples [PMID:26168399](../papers/26168399.md)
 - FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- Applied with BAC probes CTD-2191M2 and CTD-2511M20 flanking the TERT/CLPTM1L locus to detect [TERT](../genes/TERT.md) 5p15.33 rearrangements in the 161-sample neuroblastoma validation cohort; required alongside targeted sequencing to call a rearrangement [PMID:26466568](../papers/26466568.md)
 
 ## Notes
 
@@ -112,10 +113,13 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

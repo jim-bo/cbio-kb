@@ -36,7 +36,7 @@ CD5 is a cell surface glycoprotein expressed on T cells and a subset of B cells.
 
 ## Open questions
 
-- Whether CD5 expression level correlates specifically with SF3B1 mutation status in human CLL patients is not directly tested in this study [PMID:26200345](../papers/26200345.md)
+- Whether CD5 expression level correlates specifically with [SF3B1](../genes/SF3B1.md) mutation status in human CLL patients is not directly tested in this study [PMID:26200345](../papers/26200345.md)
 
 ## Sources
 

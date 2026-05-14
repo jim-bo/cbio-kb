@@ -32,7 +32,7 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 
 ## Open questions
 
-- TEK mutation frequency in NPC and whether TEK alterations predict TKI response are uncharacterized in the current corpus.
+- TEK mutation frequency in [NPC](../cancer_types/NPC.md) and whether TEK alterations predict TKI response are uncharacterized in the current corpus.
 
 ## Sources
 

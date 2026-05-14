@@ -41,7 +41,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs; 4/4 BRCA2 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
 - Mutated in 10% of a longitudinal African breast cancer cohort [PMID:36585450](../papers/36585450.md)
 - Germline/somatic mutations define HRD-Del subtype with interstitial deletions in [HGSOC](../cancer_types/HGSOC.md); 16/81 patients with HLA LOH in validation cohort [PMID:36517593](../papers/36517593.md)
-- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
+- BRCA2 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:36334560](../papers/36334560.md)
 - BRCA2 identified as a DNA damage repair gene with high prevalence of non-silent variants in metastatic UC [PMID:36333289](../papers/36333289.md)
 - BRCA2 oncogenic mutations in 6 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 - Found mutated in [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma, contributing to homologous recombination deficiency [PMID:21720365](../papers/21720365.md)
@@ -55,6 +55,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Mutated in 17/294 (5.8%) Tianjin gastric cancer cases and 28/289 TCGA [STAD](../cancer_types/STAD.md) cases; independent predictor of longer survival in pooled cohort (HR 0.37, P=0.05); predominantly missense unlike breast/ovarian; one case carried BRCA2 p.E3002D/p.G602fs across separate tumor clones [PMID:25583476](../papers/25583476.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) totaling 19.3% of mCRPC cases with BRCA1/ATM; multiple patients with germline BRCA2 + somatic second hit; some exhibited clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
+- High Cyclin E1, FoxM1, [PCNA](../genes/PCNA.md), pChk1-S345, Rad50, Rad51, [XRCC1](../genes/XRCC1.md), and BRCA2 protein characterize the proliferative [ILC](../cancer_types/ILC.md) transcriptional subtype, which is associated with worse disease-specific and overall survival in METABRIC [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -145,5 +146,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

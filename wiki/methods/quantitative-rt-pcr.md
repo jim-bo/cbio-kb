@@ -17,16 +17,16 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 
 ## Used by
 
-- A 13-gene qRT-PCR panel ([TERT](../genes/TERT.md), [IGF2](../genes/IGF2.md), GJB2, [TEK](../genes/TEK.md), [TIAM1](../genes/TIAM1.md), CXCL12, [TOP2A](../genes/TOP2A.md), A2M, PLG, [CDKN2A](../genes/CDKN2A.md), [PDGFRA](../genes/PDGFRA.md), [MKI67](../genes/MKI67.md), THBS1) used in [HCC](../cancer_types/HCC.md) to distinguish dysplastic cirrhotic nodules from early HCC; a 3-gene panel ([GPC3](../genes/GPC3.md), LYVE1, survivin/BIRC5) achieves 95% sensitivity and 94% specificity for discriminating high-grade dysplastic nodules from tumors <2 cm [PMID:24735922](../papers/24735922.md).
+- A 13-gene qRT-PCR panel ([TERT](../genes/TERT.md), [IGF2](../genes/IGF2.md), GJB2, [TEK](../genes/TEK.md), [TIAM1](../genes/TIAM1.md), CXCL12, [TOP2A](../genes/TOP2A.md), A2M, PLG, [CDKN2A](../genes/CDKN2A.md), [PDGFRA](../genes/PDGFRA.md), [MKI67](../genes/MKI67.md), THBS1) used in [HCC](../cancer_types/HCC.md) to distinguish dysplastic cirrhotic nodules from early [HCC](../cancer_types/HCC.md); a 3-gene panel ([GPC3](../genes/GPC3.md), LYVE1, survivin/BIRC5) achieves 95% sensitivity and 94% specificity for discriminating high-grade dysplastic nodules from tumors <2 cm [PMID:24735922](../papers/24735922.md).
 - Used to validate EWS::[FLI1](../genes/FLI1.md) target gene expression ([EZH2](../genes/EZH2.md), [IGF1](../genes/IGF1.md), [NGFR](../genes/NGFR.md), [PADI2](../genes/PADI2.md), [DKK2](../genes/DKK2.md), [NR0B1](../genes/NR0B1.md), [PRKCB](../genes/PRKCB.md)) in transduced heMSCs and siRNA knockdown experiments. [PMID:25186949](../papers/25186949.md)
-- Used to assess CDKN2A status and detect EWSR1-ETS fusion transcripts in Ewing sarcoma samples [PMID:25223734](../papers/25223734.md)
+- Used to assess [CDKN2A](../genes/CDKN2A.md) status and detect EWSR1-ETS fusion transcripts in Ewing sarcoma samples [PMID:25223734](../papers/25223734.md)
 - Quantitative RT-PCR used to validate gene expression findings in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Quantitative RT-PCR used to validate RNA expression results in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 
 ## Notes
 
 - Appropriate for clinical deployment given low cost and FFPE compatibility; panels must be validated across platforms for cross-center use.
-- The 3-gene HCC panel (GPC3, LYVE1, survivin) provides a practical complement to IHC for small-nodule diagnosis [PMID:24735922](../papers/24735922.md).
+- The 3-gene HCC panel ([GPC3](../genes/GPC3.md), LYVE1, survivin) provides a practical complement to IHC for small-nodule diagnosis [PMID:24735922](../papers/24735922.md).
 
 ## Sources
 

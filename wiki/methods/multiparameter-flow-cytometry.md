@@ -20,10 +20,11 @@ Multiparameter flow cytometry simultaneously measures multiple fluorescence-labe
 - [PMID:38780927](../papers/38780927.md) — serial multiparameter flow cytometry of PBMCs from 51 patients on NCT03521570 at baseline, before each [nivolumab](../drugs/nivolumab.md) infusion during radiation, and at weeks 18, 30, 52, and 104; panel included [CD4](../genes/CD4.md)+, CD8+, [FOXP3](../genes/FOXP3.md)+, PD-1+ ([PDCD1](../genes/PDCD1.md)), and Ki-67+ ([MKI67](../genes/MKI67.md)) T-cell subsets. A ≥1.5-fold increase in PD-1+Ki-67+[CD4](../genes/CD4.md)+ T cells at week 2 or 4 trended toward worse PFS (HR 2.09, 95% CI 0.77–5.66, P = .14), contrary to analogous findings in lung cancer and melanoma [PMID:38780927](../papers/38780927.md).
 - [PMID:41941260](../papers/41941260.md) — plasma immune profiling by flow cytometry is listed among the biospecimen assays in the ROBIN consortium Molecular Characterization Trials (MCTs), specifically in the OligoMET and ImmunoRad centers, for longitudinal immune monitoring of patients undergoing radiation therapy; used alongside scRNA-seq of PBMCs and T-cell receptor repertoire sequencing to characterize systemic immune responses pre- and post-RT [PMID:41941260](../papers/41941260.md).
 - Multiparameter flow cytometry used for immune cell phenotyping in proteogenomic study of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- Used to characterize immune cell populations in AAV-CRISPR-edited rat mammary tumors; quantified adaptive and innate immune infiltration across six genotype groups, complementing scRNA-seq UMAP analysis showing genotype-driven macrophage vs neutrophil dichotomy [PMID:26437033](../papers/26437033.md)
 
 ## Notes
 
-- The paradoxical association of early CD4+PD-1+Ki-67+ T-cell proliferative surge with worse PFS in the reirradiation context warrants prospective validation; the mechanism (regulatory skew, exhaustion, lymphatic effects of prior radiation) is unresolved [PMID:38780927](../papers/38780927.md).
+- The paradoxical association of early [CD4](../genes/CD4.md)+PD-1+Ki-67+ T-cell proliferative surge with worse PFS in the reirradiation context warrants prospective validation; the mechanism (regulatory skew, exhaustion, lymphatic effects of prior radiation) is unresolved [PMID:38780927](../papers/38780927.md).
 - No correlation between CD8+ T-cell surge and PFS was observed; [FOXP3](../genes/FOXP3.md)+ T-cell surge trended toward worse PFS (HR 1.42, P = .43) without reaching significance [PMID:38780927](../papers/38780927.md).
 - Corpus-grown slug; not present in canonical ontology.
 
@@ -34,5 +35,8 @@ Multiparameter flow cytometry simultaneously measures multiple fluorescence-labe
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

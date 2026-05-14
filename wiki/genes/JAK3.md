@@ -31,7 +31,7 @@ JAK3 (Janus Kinase 3) is a tyrosine kinase that mediates cytokine signalling thr
 
 ## Open questions
 
-- Whether JAK3 amplification drives [STAT3](../genes/STAT3.md) activation and represents an oncogenic dependency in HCC requires functional characterisation. [PMID:25822088](../papers/25822088.md)
+- Whether JAK3 amplification drives [STAT3](../genes/STAT3.md) activation and represents an oncogenic dependency in [HCC](../cancer_types/HCC.md) requires functional characterisation. [PMID:25822088](../papers/25822088.md)
 
 ## Sources
 

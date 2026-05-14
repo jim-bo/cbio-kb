@@ -29,9 +29,10 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - In [PAAD](../cancer_types/PAAD.md), RB1 loss occurs in 3% of cases as part of the RB pathway (dominated by CDKN2A/B deletion, 36% each); co-occurs with [CDK4](../genes/CDK4.md) amplification (9%) and [CCND1](../genes/CCND1.md) amplification (6%). Also identified in KRAS-wildtype PDA cases. [PMID:25855536](../papers/25855536.md)
 - In mCRPC, RB1 loss occurs in 21% of cases; part of the cell-cycle pathway aberrations potentially actionable via [CDK4](../genes/CDK4.md) inhibition. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RB1 is mutated in 12 cases, all in UV-signature samples, enriched in the [NF1](../genes/NF1.md) subtype; part of the RB1/CDKN2A cell-cycle pathway altered in 69% of 318 cases. [PMID:26091043](../papers/26091043.md)
-- Bi-allelic loss in 93% of non-chromothriptic [SCLC](../cancer_types/SCLC.md) tumours; many alterations at exon–intron junctions cause protein-damaging splice events; frequent complex translocations; universal TP53/RB1 loss argued to be obligatory in SCLC pathogenesis. [PMID:26168399](../papers/26168399.md)
+- Bi-allelic loss in 93% of non-chromothriptic [SCLC](../cancer_types/SCLC.md) tumours; many alterations at exon–intron junctions cause protein-damaging splice events; frequent complex translocations; universal TP53/RB1 loss argued to be obligatory in [SCLC](../cancer_types/SCLC.md) pathogenesis. [PMID:26168399](../papers/26168399.md)
 - Absent (0/59) in high-grade upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) vs 18.6% in high-grade urothelial carcinoma of the bladder (UCB) (p<0.001); striking depletion relative to UCB. [PMID:26278805](../papers/26278805.md)
 - Loss-of-function mutations in desmoplastic melanoma; IHC-confirmed protein loss. [PMID:26343386](../papers/26343386.md)
+- Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype in a TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

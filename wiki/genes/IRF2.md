@@ -31,7 +31,7 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 ## Open questions
 
-- Whether IRF2 mutations are mutually exclusive or co-occurring with NFE2L2/KEAP1 at the per-sample level in HCC requires larger cohort analysis.
+- Whether IRF2 mutations are mutually exclusive or co-occurring with NFE2L2/KEAP1 at the per-sample level in [HCC](../cancer_types/HCC.md) requires larger cohort analysis.
 
 ## Sources
 

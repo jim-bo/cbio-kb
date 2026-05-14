@@ -30,7 +30,7 @@ CDH2 (cadherin 2, also known as N-cadherin) encodes a calcium-dependent cell adh
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with other LOF-burden TS candidates (FSIP1, IL36A, PAK3) in desmoplastic melanoma; co-occurs in context of absent [BRAF](../genes/BRAF.md) V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md)
+- Co-occurs with other LOF-burden TS candidates ([FSIP1](../genes/FSIP1.md), [IL36A](../genes/IL36A.md), [PAK3](../genes/PAK3.md)) in desmoplastic melanoma; co-occurs in context of absent [BRAF](../genes/BRAF.md) V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md)
 
 ## Therapeutic relevance
 

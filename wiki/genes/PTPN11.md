@@ -3,7 +3,7 @@ symbol: PTPN11
 aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -23,6 +23,7 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - 2 expressed mutations detected in rhabdomyosarcoma, both restricted to fusion-negative (PFN) tumors; PTPN11 (SHP2) encodes an RAS-activating phosphatase [PMID:24436047](../papers/24436047.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); rarely mutated in basal-like breast cancers. [PMID:26095796](../papers/26095796.md)
 - E76A/K hotspot in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
+- Recurrent missense mutations in CLL (n=7, 1.3%); identified as a novel CLL driver modulating [MYC](../genes/MYC.md) activity in a 538-patient WES study [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -44,25 +45,28 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 
 - [PMID:36862133](../papers/36862133.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

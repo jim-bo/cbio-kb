@@ -1,0 +1,36 @@
+---
+name: fulvestrant
+targets: [ESR1]
+drug_class: selective estrogen receptor degrader (SERD)
+canonical_source: corpus
+unverified: true
+tags: [endocrine-therapy, breast-cancer, serd]
+processed_by: crosslinker
+processed_at: 2026-05-14
+---
+
+# fulvestrant
+
+## Overview
+
+Fulvestrant is a selective estrogen receptor degrader (SERD) that binds [ESR1](../genes/ESR1.md) and promotes its degradation, used in the treatment of hormone receptor-positive breast cancer. It lacks the partial agonist activity of tamoxifen and is employed in both first-line and endocrine-refractory settings.
+
+## Evidence in the corpus
+
+- In a rat AAV-CRISPR somatic editing model of ER+ breast cancer, Nf1Indel tumors ([DCIS](../cancer_types/DCIS.md) histology, 12/13 cases) regressed completely with 5-week fulvestrant treatment (4/4 rats), and 3/4 treated animals remained in remission for 8 months after cessation, demonstrating strong endocrine sensitivity driven by [NF1](../genes/NF1.md) loss alone [PMID:26437033](../papers/26437033.md).
+- Combined Nf1Indel/Tp53Indel rat tumors showed only modest, transient shrinkage by week 3 (p<0.05) and resumed growth by weeks 4–5 under fulvestrant, modeling endocrine-refractory disease driven by [TP53](../genes/TP53.md) co-loss [PMID:26437033](../papers/26437033.md).
+- GSEA of 486 fulvestrant-responsive rat differentially expressed genes showed significant enrichment of genes induced by neoadjuvant fulvestrant in human patients (GSE71791); 58 overlapping genes included [PGR](../genes/PGR.md), AREG, SGK3, STC2, and WNT5A [PMID:26437033](../papers/26437033.md).
+
+## Resistance mechanisms
+
+- Co-disruption of [TP53](../genes/TP53.md) with [NF1](../genes/NF1.md) converts fulvestrant-sensitive to fulvestrant-refractory ER+ breast cancer in rat models; consistent with clinical reports that [TP53](../genes/TP53.md) mutation associates with endocrine resistance [PMID:26437033](../papers/26437033.md).
+
+## Cancer types (linked)
+
+- [BRCA](../cancer_types/BRCA.md), [IDC](../cancer_types/IDC.md), [DCIS](../cancer_types/DCIS.md)
+
+## Sources
+
+- [PMID:26437033](../papers/26437033.md) — Bu et al. (bioRxiv 2025). Rat somatic genome editing models of ER+ breast cancer; fulvestrant sensitivity/resistance dichotomy driven by [NF1](../genes/NF1.md) and TP53 status.
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

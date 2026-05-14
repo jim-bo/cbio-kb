@@ -15,7 +15,7 @@ MIR15A (MicroRNA 15a) is a tumor-suppressor microRNA located at chromosome 13q14
 
 ## Alterations observed in the corpus
 
-- Component of the minimal deleted region (Mdr) of 13q14 (together with DLEU1 and DLEU2); Mdr loss alone gives low-penetrance CLL in mouse models but cooperates with [SF3B1](../genes/SF3B1.md) mutation for full disease acceleration and poor outcome [PMID:26200345](../papers/26200345.md)
+- Component of the minimal deleted region (Mdr) of 13q14 (together with [DLEU1](../genes/DLEU1.md) and [DLEU2](../genes/DLEU2.md)); Mdr loss alone gives low-penetrance CLL in mouse models but cooperates with [SF3B1](../genes/SF3B1.md) mutation for full disease acceleration and poor outcome [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ MIR15A (MicroRNA 15a) is a tumor-suppressor microRNA located at chromosome 13q14
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with SF3B1 mutation (K700E) in the aggressive double-mutant (DM) CLL subtype; SF3B1-mut / del(13q) co-occurrence associated with shorter time to first therapy independent of del(13q) alone, and inferior [OS](../cancer_types/OS.md) [PMID:26200345](../papers/26200345.md)
+- Co-occurs with [SF3B1](../genes/SF3B1.md) mutation (K700E) in the aggressive double-mutant (DM) CLL subtype; SF3B1-mut / del(13q) co-occurrence associated with shorter time to first therapy independent of del(13q) alone, and inferior [OS](../cancer_types/OS.md) [PMID:26200345](../papers/26200345.md)
 
 ## Therapeutic relevance
 

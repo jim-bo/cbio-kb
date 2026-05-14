@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # RUNX1
@@ -21,6 +21,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - Identified as a significantly mutated gene in TCGA breast cancer cohort (510 tumors); RUNX1 encodes a transcription factor recurrently mutated across multiple cancer types [PMID:23000897](../papers/23000897.md)
 - RUNX1 is a recurrent driver in [AML](../cancer_types/AML.md), mutually exclusive of [FLT3](../genes/FLT3.md) and [NPM1](../genes/NPM1.md), with allelic expression bias observed; associated with transcription-factor-fusion and favorable-risk [AML](../cancer_types/AML.md) grouping (RUNX1-RUNX1T1 fusion) [PMID:23634996](../papers/23634996.md)
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); frameshift duplications/deletions detected; chromatin-regulatory context alongside [EP300](../genes/EP300.md), [KDM6A](../genes/KDM6A.md), and [BCOR](../genes/BCOR.md) mutations [PMID:24418857](../papers/24418857.md)
+- ILC-enriched mutations (10% [ILC](../cancer_types/ILC.md) vs 3% [IDC](../cancer_types/IDC.md), all-comers) in TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +43,22 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 
 - [PMID:38147626](../papers/38147626.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

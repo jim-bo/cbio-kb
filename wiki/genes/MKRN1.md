@@ -15,7 +15,7 @@ MKRN1 (Makorin Ring Finger Protein 1) is an E3 ubiquitin ligase with roles in RN
 
 ## Alterations observed in the corpus
 
-- Identified as a novel 5' fusion partner for [BRAF](../genes/BRAF.md) in pilocytic astrocytoma; MKRN1:[BRAF](../genes/BRAF.md) represents one of several alternative fusion events (alongside [RNF130](../genes/RNF130.md):[BRAF](../genes/BRAF.md), [CLCN6](../genes/CLCN6.md):[BRAF](../genes/BRAF.md), [GNAI1](../genes/GNAI1.md):BRAF) in tumors lacking the canonical [KIAA1549](../genes/KIAA1549.md):BRAF fusion [PMID:23817572](../papers/23817572.md)
+- Identified as a novel 5' fusion partner for [BRAF](../genes/BRAF.md) in pilocytic astrocytoma; MKRN1:[BRAF](../genes/BRAF.md) represents one of several alternative fusion events (alongside [RNF130](../genes/RNF130.md):[BRAF](../genes/BRAF.md), [CLCN6](../genes/CLCN6.md):[BRAF](../genes/BRAF.md), [GNAI1](../genes/GNAI1.md):[BRAF](../genes/BRAF.md)) in tumors lacking the canonical [KIAA1549](../genes/KIAA1549.md):BRAF fusion [PMID:23817572](../papers/23817572.md)
 - MKRN1/BRAF fusion detected in 1 of 13 BRAF-fusion cases (2.7% of tumors, n=484); MKRN1 acts as a novel BRAF fusion partner in PTC generating a kinase-domain-preserving structural variant [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)

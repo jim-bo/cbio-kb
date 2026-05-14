@@ -26,7 +26,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole genomes from 152 fresh-frozen clinical specimens collected under IRB approval; 42 were excluded for insufficient DNA quality/quantity. At the time of publication, this was the first comprehensive somatic whole-genome analysis of SCLC and remains the largest whole-genome SCLC cohort. Most cases were treatment-naive; only 5 were obtained at relapse. Complementary assays included RNA-seq (n=81), Affymetrix SNP 6.0 arrays (n=142), and an independent validation cohort of 112 samples (28 exomes + 84 targeted).
+One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole genomes from 152 fresh-frozen clinical specimens collected under IRB approval; 42 were excluded for insufficient DNA quality/quantity. At the time of publication, this was the first comprehensive somatic whole-genome analysis of [SCLC](../cancer_types/SCLC.md) and remains the largest whole-genome SCLC cohort. Most cases were treatment-naive; only 5 were obtained at relapse. Complementary assays included RNA-seq (n=81), Affymetrix SNP 6.0 arrays (n=142), and an independent validation cohort of 112 samples (28 exomes + 84 targeted).
 
 ## Composition
 
@@ -56,8 +56,8 @@ One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole g
 
 - Bi-allelic inactivation of [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) is obligatory in SCLC: found in 100% and 93% of non-chromothriptic tumors respectively, often through complex genomic rearrangements; mutation burden averages 8.62 nonsynonymous mutations/Mb with a heavy-smoking C>A transversion signature [PMID:26168399](../papers/26168399.md).
 - NOTCH-family genes ([NOTCH1](../genes/NOTCH1.md)–4) are recurrently inactivated in 25% of human SCLC; mouse TKO models confirm Notch activation suppresses SCLC initiation and neuroendocrine differentiation and extends survival [PMID:26168399](../papers/26168399.md).
-- Recurrent oncogenic [TP73](../genes/TP73.md) rearrangements (introns 1–3 breakpoints) produce dominant-negative N-terminally truncated isoforms (p73Δex2/3) in 7% of cases; total TP73 somatic alteration rate 13% [PMID:26168399](../papers/26168399.md).
-- Two chromothriptic tumors with wild-type RB1 showed [CCND1](../genes/CCND1.md) overexpression as an alternative Rb-pathway inactivation mechanism; SCLC subclonal diversity threefold lower than lung adenocarcinoma (p=0.00023) [PMID:26168399](../papers/26168399.md).
+- Recurrent oncogenic [TP73](../genes/TP73.md) rearrangements (introns 1–3 breakpoints) produce dominant-negative N-terminally truncated isoforms (p73Δex2/3) in 7% of cases; total [TP73](../genes/TP73.md) somatic alteration rate 13% [PMID:26168399](../papers/26168399.md).
+- Two chromothriptic tumors with wild-type [RB1](../genes/RB1.md) showed [CCND1](../genes/CCND1.md) overexpression as an alternative Rb-pathway inactivation mechanism; SCLC subclonal diversity threefold lower than lung adenocarcinoma (p=0.00023) [PMID:26168399](../papers/26168399.md).
 
 ## Sources
 

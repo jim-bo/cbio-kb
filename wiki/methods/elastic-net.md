@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [machine-learning, statistical-model, regression, feature-selection, immunotherapy-prediction]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Elastic net regularization
@@ -19,6 +19,7 @@ Elastic net is a penalized regression method that combines L1 (LASSO) and L2 (Ri
 
 - A 25-predictor elastic net logistic regression model trained on IMvigor210 (atezolizumab-treated metastatic UC) was applied to predict ICI response in UC-GENOME (218 patients with metastatic urothelial carcinoma); achieved AUC = 0.84 (IMvigor210 validation), 0.82 (UNC-108), and 0.65 (UC-GENOME), significantly outperforming TMB alone (AUC 0.68, p = 0.038); the model integrated TMB, ECOG status, molecular subtype, and immune gene signatures [PMID:36333289](../papers/36333289.md)
 - Used to build pharmacogenomic predictive models from CCLE genomic features (mutations, copy-number, expression) across 947 cell lines and 24 drugs [PMID:22460905](../papers/22460905.md)
+- Used as one of three orthogonal classifiers (alongside ISOpure and OncoSign) to assign 88 mixed IDC/ILC breast tumors to ILC-like or IDC-like molecular classes; [CDH1](../genes/CDH1.md) mutation status was the dominant feature driving the classification [PMID:26451490](../papers/26451490.md)
 
 ## Notes
 
@@ -31,7 +32,10 @@ Elastic net is a penalized regression method that combines L1 (LASSO) and L2 (Ri
 
 - [PMID:36333289](../papers/36333289.md) — UC-GENOME metastatic urothelial carcinoma study; elastic net model predicting ICI response from multivariate clinical and immunogenomic features.
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

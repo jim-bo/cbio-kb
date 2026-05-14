@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -65,6 +65,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Focal amplification in 15% of HPV(-) vs 6% of HPV(+) HNSCC; rare EGFRvIII isoform in 1/279 tumors; part of RTK/RAS/PI(3)K alteration in 62% of HPV(-) and 61% of HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 - Low-frequency but FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (MAP kinase / RTK pathway) [PMID:25822088](../papers/25822088.md)
 - Focal amplifications in 3 desmoplastic melanoma tumors with IHC-confirmed overexpression; authors identify as potentially targetable RTK alteration [PMID:26343386](../papers/26343386.md)
+- Overexpressed in invasive lobular breast cancer ([ILC](../cancer_types/ILC.md)) at total and phospho levels (Y1068, Y1173); highest in the reactive-like ILC mRNA subtype [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -177,4 +178,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

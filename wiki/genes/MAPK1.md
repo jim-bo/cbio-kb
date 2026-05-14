@@ -34,7 +34,7 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 ## Open questions
 
-- Whether direct MAPK1 alterations contribute to BRAF fusion-driven tumors beyond the general pathway activation is not characterized in the corpus.
+- Whether direct MAPK1 alterations contribute to [BRAF](../genes/BRAF.md) fusion-driven tumors beyond the general pathway activation is not characterized in the corpus.
 
 ## Sources
 

@@ -36,6 +36,8 @@ OncoTree code for invasive breast carcinoma.
 - Comprehensive genomic characterization of 510 breast tumors identified four molecular subtypes (Luminal A/B, HER2-enriched, Basal-like) with distinct mutation profiles [PMID:23000897](../papers/23000897.md)
 - Generation of 30 breast cancer PDX lines from 55 BRCA patients showed universal clonal selection at engraftment in all 15 WGS-characterized series, with minor (<5%) clones frequently expanding to dominance; replicate transplants produced highly concordant clonal dynamics (median Pearson r 0.91-0.94), establishing deterministic clonal fitness as a key property of BRCA PDX models [PMID:25470049](../papers/25470049.md).
 - Adenoid cystic breast carcinoma ([ACBC](../cancer_types/ACBC.md)) is a rare subtype of invasive breast carcinoma; study characterized its genomic landscape including MYB-NFIB fusions and copy number alterations [PMID:26095796](../papers/26095796.md)
+- Large-scale multi-platform analysis of invasive breast carcinoma identified distinct molecular subtypes including luminal A, luminal B, HER2-enriched, and basal-like, with comprehensive genomic characterization across 825 samples [PMID:26437033](../papers/26437033.md)
+- Comparative genomic profiling of invasive breast carcinoma subtypes identified recurrent alterations in [PIK3CA](../genes/PIK3CA.md), [TP53](../genes/TP53.md), and [CDH1](../genes/CDH1.md) with subtype-specific patterns across [IDC](../cancer_types/IDC.md) and [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
 
 ## Subtypes
 
@@ -82,5 +84,11 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -20,6 +20,7 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 - Target of [tremelimumab](../drugs/tremelimumab.md) (phase II ORR 17.6% in 20 [HCC](../cancer_types/HCC.md) patients) and [ipilimumab](../drugs/ipilimumab.md) in combination ICI regimens for [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - Compensatory checkpoint in [NPC](../cancer_types/NPC.md); targeted by IBI-310 (+ [sintilimab](../drugs/sintilimab.md)) and bispecifics ([cadonilimab](../drugs/cadonilimab.md) PD-1×CTLA-4; QL1706; SI-B003; [vudalimab](../drugs/vudalimab.md)) [PMID:24952746](../papers/24952746.md)
 - Target of [ipilimumab](../drugs/ipilimumab.md) and [tremelimumab](../drugs/tremelimumab.md); CTLA-4 blockade activates effector and helper T cells and depletes regulatory T cells, enabling antitumor immunity; neoantigen mutational load in tumors predicts survival benefit from anti-CTLA-4 therapy in melanoma [PMID:25409260](../papers/25409260.md)
+- Tumor RNA expression of CTLA4 significantly higher in metastatic melanoma patients with clinical benefit from [ipilimumab](../drugs/ipilimumab.md) vs. no benefit (P = 0.033, Mann-Whitney), indicating that CTLA4 expression in the tumor microenvironment is associated with immune checkpoint therapy response [PMID:26359337](../papers/26359337.md)
 
 ## Cancer types (linked)
 
@@ -51,5 +52,8 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25409260](../papers/25409260.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

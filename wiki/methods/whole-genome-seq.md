@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -70,6 +70,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Deep WGS on 38 melanoma samples plus low-pass WGS on 119 samples enabled identification of structural rearrangements and complex chromothripsis events (ShatterSeek) enriched in Triple-WT subtype. [PMID:26091043](../papers/26091043.md)
 - Whole-genome sequencing used to characterize structural variants and mutational signatures in breast cancer [PMID:26168399](../papers/26168399.md)
 - Whole-genome sequencing used to identify somatic mutations and structural rearrangements in colorectal cancer [PMID:26343386](../papers/26343386.md)
+- Performed on 56 neuroblastomas (39 high-risk, 17 low-risk) with matched normal controls (Illumina HiSeq 2000, 2x100 nt PE, aligned to hg19 with BWA); identified recurrent 5p15.33 breakpoint cluster upstream of [TERT](../genes/TERT.md) in 12/39 (31%) high-risk tumors; average 13.3 non-synonymous mutations per genome [PMID:26466568](../papers/26466568.md)
 
 ## Notes
 
@@ -216,10 +217,13 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

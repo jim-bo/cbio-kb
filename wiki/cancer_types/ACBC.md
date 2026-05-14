@@ -36,7 +36,7 @@ Adenoid cystic breast cancer (ACBC) is a rare special-histologic subtype of inva
 ## Subtypes
 
 - Pure tubular-cribriform (67%), cribriform (17%), solid-cribriform (8%), and solid-trabecular (8%) growth patterns observed in the MSK/Curie cohort; pure and mixed subtypes found to be genetically similar [PMID:26095796](../papers/26095796.md).
-- MYB-NFIB fusion-negative cases (2/12) may achieve MYB activation through alternative mechanisms [PMID:26095796](../papers/26095796.md).
+- MYB-NFIB fusion-negative cases (2/12) may achieve [MYB](../genes/MYB.md) activation through alternative mechanisms [PMID:26095796](../papers/26095796.md).
 
 ## Therapeutic landscape
 

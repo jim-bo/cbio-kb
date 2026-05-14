@@ -19,7 +19,7 @@ CDKAL1 (CDK5 regulatory subunit associated protein 1-like 1) encodes a tRNA meth
 
 ## Alterations observed in the corpus
 
-- Clustered chromosomal breakpoints on chromosome 6 in SCLC (110-tumor WGS cohort); identified alongside [TTC28](../genes/TTC28.md) (chromosome 22) as genes with recurrent structural variation in SCLC [PMID:26168399](../papers/26168399.md)
+- Clustered chromosomal breakpoints on chromosome 6 in [SCLC](../cancer_types/SCLC.md) (110-tumor WGS cohort); identified alongside [TTC28](../genes/TTC28.md) (chromosome 22) as genes with recurrent structural variation in SCLC [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +27,7 @@ CDKAL1 (CDK5 regulatory subunit associated protein 1-like 1) encodes a tRNA meth
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with TTC28 (chromosome 22 breakpoints) as recurrently rearranged chromosomal loci in SCLC [PMID:26168399](../papers/26168399.md)
+- Co-occurs with [TTC28](../genes/TTC28.md) (chromosome 22 breakpoints) as recurrently rearranged chromosomal loci in SCLC [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

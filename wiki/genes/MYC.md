@@ -71,6 +71,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) [PMID:26168399](../papers/26168399.md)
 - Upregulated at mRNA and protein level in SF3B1-mutant/del(13q) CLL cells; mTORC1 activation drives MYC upregulation; pathway enrichment confirmed by GSEA in murine and human CLL [PMID:26200345](../papers/26200345.md)
 - Focal amplification in 1-3 desmoplastic melanoma tumors [PMID:26343386](../papers/26343386.md)
+- Focal amplification of MYC is IDC-enriched relative to [ILC](../cancer_types/ILC.md) in TCGA breast cancer molecular profiling; MYC amplification rate is higher in invasive ductal carcinoma than in invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -236,5 +237,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

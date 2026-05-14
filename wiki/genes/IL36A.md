@@ -23,7 +23,7 @@ IL36A (Interleukin 36 Alpha) is a member of the IL-1 cytokine family involved in
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with other LOF-burden tumor suppressor candidates (FSIP1, CDH2, PAK3) in desmoplastic melanoma; occurs in a tumor context dominated by [TERT](../genes/TERT.md) promoter mutations (90%), [CDKN2A](../genes/CDKN2A.md) deletions (11 cases), and diverse MAPK pathway alterations [PMID:26343386](../papers/26343386.md)
+- Co-occurs with other LOF-burden tumor suppressor candidates ([FSIP1](../genes/FSIP1.md), [CDH2](../genes/CDH2.md), [PAK3](../genes/PAK3.md)) in desmoplastic melanoma; occurs in a tumor context dominated by [TERT](../genes/TERT.md) promoter mutations (90%), [CDKN2A](../genes/CDKN2A.md) deletions (11 cases), and diverse MAPK pathway alterations [PMID:26343386](../papers/26343386.md)
 
 ## Therapeutic relevance
 

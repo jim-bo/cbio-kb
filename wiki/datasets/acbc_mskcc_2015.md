@@ -37,7 +37,7 @@ Twelve adenoid cystic carcinomas (AdCCs) of the breast — all triple-negative (
 ## Assays / panels (linked)
 
 - [whole-exome-seq](../methods/whole-exome-seq.md) — primary somatic variant and CNA discovery.
-- [fish](../methods/fish.md) — [MYB](../genes/MYB.md) rearrangement assessment (ZytoLight SPEC MYB Dual Color Break Apart Probe).
+- [fish](../methods/fish.md) — [MYB](../genes/MYB.md) rearrangement assessment (ZytoLight SPEC [MYB](../genes/MYB.md) Dual Color Break Apart Probe).
 - [quantitative-rt-pcr](../methods/quantitative-rt-pcr.md) — MYB-NFIB fusion transcript confirmation.
 
 ## Papers using this cohort

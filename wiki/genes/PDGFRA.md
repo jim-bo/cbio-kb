@@ -19,7 +19,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA is a co-primary [GIST](../cancer_types/GIST.md) driver; KIT/PDGFRA wild-type cases with [SDHB](../genes/SDHB.md) IHC loss were classified as SDH-deficient in the MSK [GIST](../cancer_types/GIST.md) genomic risk model cohort [PMID:37477937](../papers/37477937.md).
 - PDGFRA amplification was detected exclusively in sporadic [ANGS](../cancer_types/ANGS.md) but absent in radiation-associated (RT) angiosarcoma (n=44 RT-AS, n=135 sporadic AS) in the MSK RT-sarcoma comparative genomic study [PMID:37350195](../papers/37350195.md).
 - Expression marker in neuroblastoma: PDGFRA is significantly expressed in both the undifferentiated nC3 cluster and the mesenchymal stromal (MSC) nC1 cluster of high-risk neuroblastoma tumors in a single-nuclei RNA-seq study of 11 tumors; RNAscope validated absence in low-risk stage 4S tumors. [PMID:34493726](../papers/34493726.md)
-- PDGFRA cited as a known [GIST](../cancer_types/GIST.md) driver alongside [KIT](../genes/KIT.md); the KIT/PDGFRA → [imatinib](../drugs/imatinib.md) paradigm was explicitly invoked as the model for genotype-directed sarcoma therapy in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)) [PMID:20601955](../papers/20601955.md).
+- PDGFRA cited as a known [GIST](../cancer_types/GIST.md) driver alongside [KIT](../genes/KIT.md); the KIT/PDGFRA → [imatinib](../drugs/imatinib.md) [paradigm](../methods/paradigm.md) was explicitly invoked as the model for genotype-directed sarcoma therapy in a 207-patient multi-subtype sarcoma sequencing study ([sarc_mskcc](../datasets/sarc_mskcc.md)) [PMID:20601955](../papers/20601955.md).
 - Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); co-occurrence with [NTRK2](../genes/NTRK2.md) and [FGFR4](../genes/FGFR4.md) mutations noted; receptor tyrosine kinase. [PMID:18948947](../papers/18948947.md)
 - Somatic mutations in 10% of GISTs in a paired tumor-normal sequencing study [PMID:36593350](../papers/36593350.md)
 - PDGFRA amplification detected in lung squamous cell carcinoma (TCGA, 178 tumors) [PMID:22960745](../papers/22960745.md)
@@ -31,6 +31,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Implicated in [HCC](../cancer_types/HCC.md) pathogenesis as part of the receptor tyrosine kinase landscape; [sorafenib](../drugs/sorafenib.md) inhibits PDGFR alongside VEGFR/RAF as part of its multi-kinase mechanism in advanced [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - PDGFRA expression positively correlates with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md) (scRNA-seq, GEO datasets), co-marking cancer-associated fibroblast (CAF) subpopulations alongside [ACTA2](../genes/ACTA2.md), [MFAP5](../genes/MFAP5.md), [TGFBR1](../genes/TGFBR1.md), and [TGFBR2](../genes/TGFBR2.md); high stromal [SEMA7A](../genes/SEMA7A.md) associates with lymph node metastasis and poor [OS](../cancer_types/OS.md) in a [GBC](../cancer_types/GBC.md) cohort (n=86) [PMID:24997986](../papers/24997986.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDGFRA is co-amplified with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md) at 4q12 in the Triple-WT subtype (no hot-spot BRAF/RAS/NF1); focal amplification enriched in Triple-WT. [imatinib](../drugs/imatinib.md), [sorafenib](../drugs/sorafenib.md), and [crenolanib](../drugs/crenolanib.md) are nominated therapeutic candidates. [PMID:26091043](../papers/26091043.md)
+- Identified as a marker of one of the three [ILC](../cancer_types/ILC.md) mRNA subtypes in a comprehensive molecular analysis of invasive lobular carcinoma; associated with subtype-specific expression patterns [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -92,5 +93,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

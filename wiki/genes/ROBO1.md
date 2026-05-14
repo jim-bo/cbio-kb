@@ -28,7 +28,7 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 
 ## Therapeutic relevance
 
-- Loss of SLIT/ROBO signaling may influence efficacy of MET inhibitors in PDAC patients with ROBO1 loss; therapeutics targeting axon guidance molecules represent unexplored candidates [PMID:23103869](../papers/23103869.md)
+- Loss of SLIT/ROBO signaling may influence efficacy of [MET](../genes/MET.md) inhibitors in PDAC patients with ROBO1 loss; therapeutics targeting axon guidance molecules represent unexplored candidates [PMID:23103869](../papers/23103869.md)
 
 ## Open questions
 

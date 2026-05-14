@@ -40,7 +40,7 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 
 - [PMID:36862133](../papers/36862133.md)
 - [PMID:37477937](../papers/37477937.md)
-- [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; subtype-specific sarcoma genomics; imatinib cited as the KIT/PDGFRA → [GIST](../cancer_types/GIST.md) paradigm.
+- [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; subtype-specific sarcoma genomics; imatinib cited as the KIT/PDGFRA → [GIST](../cancer_types/GIST.md) [paradigm](../methods/paradigm.md).
 - [PMID:36593350](../papers/36593350.md) — Mandelker et al. 2023, npj Precision Oncology; germline testing in [GIST](../cancer_types/GIST.md); SDH-deficient/NF1-related GISTs respond poorly to imatinib.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

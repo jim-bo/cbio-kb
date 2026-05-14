@@ -20,7 +20,7 @@ BRD9 encodes a bromodomain-containing subunit of the non-canonical BAF (ncBAF) c
 
 ## Alterations observed in the corpus
 
-- Discussed as a cross-disease comparison target of SF3B1-driven mis-splicing in uveal melanoma; in CLL, SF3B1-K700E instead targets [NFATC1](../genes/NFATC1.md) splicing to activate mTORC1/MYC rather than BRD9 — illustrating disease-context dependence of SF3B1 splicing targets [PMID:26200345](../papers/26200345.md)
+- Discussed as a cross-disease comparison target of SF3B1-driven mis-splicing in uveal melanoma; in CLL, SF3B1-K700E instead targets [NFATC1](../genes/NFATC1.md) splicing to activate mTORC1/MYC rather than BRD9 — illustrating disease-context dependence of [SF3B1](../genes/SF3B1.md) splicing targets [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +28,7 @@ BRD9 encodes a bromodomain-containing subunit of the non-canonical BAF (ncBAF) c
 
 ## Co-occurrence and mutual exclusivity
 
-- Disease-context dependence noted: SF3B1-K700E targets BRD9 (uveal melanoma), [PPP2R5A](../genes/PPP2R5A.md) (PDAC), MAP3K7/IRAK4 ([MDS](../cancer_types/MDS.md)), and NFATC1 (CLL) — distinct targets in different cancers [PMID:26200345](../papers/26200345.md)
+- Disease-context dependence noted: SF3B1-K700E targets BRD9 (uveal melanoma), [PPP2R5A](../genes/PPP2R5A.md) (PDAC), MAP3K7/IRAK4 ([MDS](../cancer_types/MDS.md)), and [NFATC1](../genes/NFATC1.md) (CLL) — distinct targets in different cancers [PMID:26200345](../papers/26200345.md)
 
 ## Therapeutic relevance
 

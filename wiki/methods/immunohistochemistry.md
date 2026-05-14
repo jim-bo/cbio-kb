@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -30,6 +30,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC used for [ARID1A](../genes/ARID1A.md) (sc-32761), p53, pERK (Cell Signaling 4370), and p63 (Biolegend 619002) scoring in PDA; [ARID1A](../genes/ARID1A.md) IHC validated in an independent 296-case cohort, with protein loss associated with poor overall survival (P=0.0202). [PMID:25855536](../papers/25855536.md)
 - IHC used to assess protein expression in breast cancer samples [PMID:26168399](../papers/26168399.md)
 - IHC used to assess protein expression levels as part of proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- Used for ER, PR, and Ki67 staining in AAV-CRISPR-edited rat mammary tumors; demonstrated robust ER+/PR+ ductal histology in all six rat genotype groups, in contrast to ER-/PR- metaplastic phenotype produced by identical edits in mice [PMID:26437033](../papers/26437033.md)
 
 ## Notes
 
@@ -69,3 +70,6 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:26200345](../papers/26200345.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

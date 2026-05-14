@@ -3,7 +3,7 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -29,6 +29,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - R625H hot-spot mutation co-occurring with GNAQ/GNA11 in the Triple-WT cutaneous melanoma subtype. [PMID:26091043](../papers/26091043.md)
 - Non-passenger somatic mutation in breast AdCC (adenoid cystic carcinoma of the breast); shared with salivary gland AdCCs; one of several cancer genes mutated in WES of 12 breast AdCC tumours (0.27 non-silent mutations/Mb, no [TP53](../genes/TP53.md) or [PIK3CA](../genes/PIK3CA.md) mutations) [PMID:26095796](../papers/26095796.md)
 - Recurrent K700E hotspot (>50% of all SF3B1 mutations) in CLL; mutated in 184/1,009 (18.2%) CLLmap patients; 51% of SF3B1 mutations co-occur with del(13q); SF3B1-mut/del(13q) double-mutant subtype has shorter time to first therapy and inferior [OS](../cancer_types/OS.md) (P=0.0002); Sf3b1-K700E drives alternative splicing of [NFATC1](../genes/NFATC1.md) and 375 other genes, activating mTORC1/MYC pathways [PMID:26200345](../papers/26200345.md)
+- Associated with shorter PFS in CLL patients on frontline fludarabine-based chemoimmunotherapy (CLL8 trial); CCF as likely to rise as fall on therapy; 9 instances of multiple distinct alleles per CLL indicating convergent evolution [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -89,3 +90,6 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:26200345](../papers/26200345.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

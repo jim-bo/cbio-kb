@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [cytotoxic, icr, immune-signature]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-05-14
 ---
 
 # GZMA
@@ -16,6 +16,7 @@ GZMA encodes granzyme A, a serine protease released by cytotoxic lymphocytes.
 ## Alterations observed in the corpus
 
 - Effector cytotoxic component of the 20-gene ICR signature used in the AC-ICAM colon cancer atlas [PMID:37202560](../papers/37202560.md).
+- Component of the cytolytic-activity signature (geometric mean of GZMA + [PRF1](../genes/PRF1.md)); elevated expression in tumor RNA of metastatic melanoma patients with clinical benefit from [ipilimumab](../drugs/ipilimumab.md) CTLA-4 blockade (P = 0.042) [PMID:26359337](../papers/26359337.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ GZMA encodes granzyme A, a serine protease released by cytotoxic lymphocytes.
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

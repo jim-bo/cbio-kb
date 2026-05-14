@@ -10,19 +10,20 @@ tags:
   - pd-l2
   - immunotherapy
   - amplification
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PDCD1LG2
 
 ## Overview
 
-PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an immune checkpoint ligand that binds PD-1 (PDCD1) on T cells to inhibit anti-tumor immune responses. In cancer, PDCD1LG2 is co-amplified with JAK2 and CD274 (PD-L1) at chromosome 9p24.1, providing a genomic rationale for immune checkpoint blockade in tumors harboring this amplification.
+PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an immune checkpoint ligand that binds PD-1 ([PDCD1](../genes/PDCD1.md)) on T cells to inhibit anti-tumor immune responses. In cancer, PDCD1LG2 is co-amplified with [JAK2](../genes/JAK2.md) and [CD274](../genes/CD274.md) (PD-L1) at chromosome 9p24.1, providing a genomic rationale for immune checkpoint blockade in tumors harboring this amplification.
 
 ## Alterations observed in the corpus
 
-- PDCD1LG2 co-amplified with JAK2 and CD274 at 9p24.1 in 15% of EBV-positive gastric tumors (EGC); associated with elevated mRNA expression; provides rationale for PD-L1/L2 immune checkpoint blockade and JAK2 inhibition in this subtype [PMID:25079317](../papers/25079317.md)
+- PDCD1LG2 co-amplified with JAK2 and CD274 at 9p24.1 in 15% of EBV-positive gastric tumors ([EGC](../cancer_types/EGC.md)); associated with elevated mRNA expression; provides rationale for PD-L1/L2 immune checkpoint blockade and JAK2 inhibition in this subtype [PMID:25079317](../papers/25079317.md)
+- Tumor RNA expression of PDCD1LG2 (PD-L2) is significantly higher in clinical-benefit patients (P=0.041, Mann-Whitney) in a 110-patient metastatic melanoma cohort treated with [ipilimumab](../drugs/ipilimumab.md); PD-L2 expression adds complementary information to DNA-level mutational burden [PMID:26359337](../papers/26359337.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,7 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

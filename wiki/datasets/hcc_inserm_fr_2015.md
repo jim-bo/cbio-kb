@@ -43,7 +43,7 @@ Multi-institutional European whole-exome sequencing cohort of 243 surgically res
 
 ## Papers using this cohort
 
-- [PMID:25822088](../papers/25822088.md) — Schulze et al., *Nature Genetics* 2015: whole-exome sequencing of 243 HCC; primary discovery study for this cohort.
+- [PMID:25822088](../papers/25822088.md) — Schulze et al., *Nature Genetics* 2015: whole-exome sequencing of 243 [HCC](../cancer_types/HCC.md); primary discovery study for this cohort.
 
 ## Notable findings derived from this cohort
 

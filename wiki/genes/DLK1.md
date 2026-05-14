@@ -15,7 +15,7 @@ DLK1 (Delta Like Non-Canonical Notch Ligand 1) is a neuroendocrine expression ma
 
 ## Alterations observed in the corpus
 
-- Neuroendocrine and Notch-axis expression marker defining one of two SCLC transcriptional subtypes in a 110-tumour WGS cohort; expressed alongside [ASCL1](../genes/ASCL1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), [SYP](../genes/SYP.md), and [NCAM1](../genes/NCAM1.md) [PMID:26168399](../papers/26168399.md)
+- Neuroendocrine and Notch-axis expression marker defining one of two [SCLC](../cancer_types/SCLC.md) transcriptional subtypes in a 110-tumour WGS cohort; expressed alongside [ASCL1](../genes/ASCL1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), [SYP](../genes/SYP.md), and [NCAM1](../genes/NCAM1.md) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ DLK1 (Delta Like Non-Canonical Notch Ligand 1) is a neuroendocrine expression ma
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with ASCL1, CHGA, GRP, SYP, NCAM1 in the neuroendocrine SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
+- Co-expressed with [ASCL1](../genes/ASCL1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), [SYP](../genes/SYP.md), [NCAM1](../genes/NCAM1.md) in the neuroendocrine SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

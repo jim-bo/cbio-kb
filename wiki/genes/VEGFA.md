@@ -32,7 +32,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Therapeutic relevance
 
-- **HCC:** Sorafenib, [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md) (multi-kinase VEGFR inhibitors); [ramucirumab](../drugs/ramucirumab.md) (anti-VEGFR2); [bevacizumab](../drugs/bevacizumab.md) + [atezolizumab](../drugs/atezolizumab.md) (FDA breakthrough designation). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md):** Sorafenib, [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md) (multi-kinase VEGFR inhibitors); [ramucirumab](../drugs/ramucirumab.md) (anti-VEGFR2); [bevacizumab](../drugs/bevacizumab.md) + [atezolizumab](../drugs/atezolizumab.md) (FDA breakthrough designation). [PMID:24798001](../papers/24798001.md)
 - **[NPC](../cancer_types/NPC.md):** Bevacizumab + [sintilimab](../drugs/sintilimab.md) (ORR 54.5%); [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%). [PMID:24952746](../papers/24952746.md)
 
 ## Open questions

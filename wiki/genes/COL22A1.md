@@ -16,7 +16,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-COL22A1 (collagen type XXII alpha 1 chain) encodes an extracellular matrix protein expressed at tissue junctions. In cancer genomics, COL22A1 was identified as a significantly mutated gene in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) by whole-genome sequencing, though its functional role in SCLC pathogenesis is unclear and requires experimental follow-up.
+COL22A1 (collagen type XXII alpha 1 chain) encodes an extracellular matrix protein expressed at tissue junctions. In cancer genomics, COL22A1 was identified as a significantly mutated gene in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) by whole-genome sequencing, though its functional role in [SCLC](../cancer_types/SCLC.md) pathogenesis is unclear and requires experimental follow-up.
 
 ## Alterations observed in the corpus
 
@@ -28,7 +28,7 @@ COL22A1 (collagen type XXII alpha 1 chain) encodes an extracellular matrix prote
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-identified with RGS7, FPR1, and [CRACDL](../genes/CRACDL.md) as novel significantly mutated genes with unclear function in SCLC [PMID:26168399](../papers/26168399.md)
+- Co-identified with [RGS7](../genes/RGS7.md), [FPR1](../genes/FPR1.md), and [CRACDL](../genes/CRACDL.md) as novel significantly mutated genes with unclear function in SCLC [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

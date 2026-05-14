@@ -20,7 +20,7 @@ RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based HCC mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — identified in comprehensive WES-based [HCC](../cancer_types/HCC.md) mutational profiling (n=1,289). [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 

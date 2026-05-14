@@ -20,7 +20,7 @@ ALB encodes serum albumin, the major plasma protein produced by the liver. Somat
 
 ## Cancer types (linked)
 
-- **HCC**: Recurrent somatic mutation; not currently considered actionable [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)**: Recurrent somatic mutation; not currently considered actionable [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 

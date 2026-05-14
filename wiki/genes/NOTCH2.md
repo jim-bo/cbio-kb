@@ -24,7 +24,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Mutated in 51.3% of 39 aggressive cSCC cases; inactivating pattern paralleling [NOTCH1](../genes/NOTCH1.md); novel candidate tumor suppressor; mutation associated with perineural invasion (70% mutant vs 33% WT, p=0.04) and scalp/periorbital primary site (p=0.04) [PMID:25303977](../papers/25303977.md)
 - NOTCH2 inactivated in metastatic cSCC (n=29); part of the NOTCH1/2/4 inactivation pattern (24% with truncating/COSMIC mutations, up to 69% with missense included). [PMID:25589618](../papers/25589618.md)
 - In [PAAD](../cancer_types/PAAD.md), NOTCH2 alterations were present in 6% of cases as part of a broadly altered NOTCH pathway (31% total), nominating γ-secretase inhibitors. [PMID:25855536](../papers/25855536.md)
-- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses SCLC initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
+- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

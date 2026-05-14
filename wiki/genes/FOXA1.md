@@ -28,6 +28,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - FOXA1 identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 - Expressed mutation observed in CRPC cell line MSK-PCa2; consistent with recurrence of FOXA1 mutations in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 - [AR](../genes/AR.md) pathway regulator in mCRPC; FOXA1 mutations cluster near the end of the Forkhead DNA-binding domain [PMID:26000489](../papers/26000489.md)
+- Recurrent fork-head W2-region mutations (I176, D226 spatial hotspot) in [ILC](../cancer_types/ILC.md) (7%); mutations associated with increased FOXA1 mRNA expression, suggesting activating rather than loss-of-function mechanism; mutually exclusive with [GATA3](../genes/GATA3.md) mutations [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +71,8 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [PMID:25201530](../papers/25201530.md)
 
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

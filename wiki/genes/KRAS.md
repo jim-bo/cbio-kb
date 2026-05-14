@@ -84,7 +84,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS low-frequency alteration in [HCC](../cancer_types/HCC.md); part of MAP kinase pathway with low-frequency but FDA-druggable alterations in the 243-case European [HCC](../cancer_types/HCC.md) cohort [PMID:25822088](../papers/25822088.md)
 - KRAS mutated in 92% of pancreatic ductal adenocarcinomas (109-case WES cohort); codon-12 alleles (G12D/G12V/G12C/G12R/G12S) dominate; codon-61 alleles (Q61H/Q61K/Q61R) associated with favourable survival (P=0.01999) and lower pERK staining; mutually exclusive with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md) lesions [PMID:25855536](../papers/25855536.md)
 - KRAS rare hot-spot mutations (G12D/G12R/Q61R) in cutaneous melanoma (TCGA 333-sample cohort); mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant melanoma subtype [PMID:26091043](../papers/26091043.md)
-- Significant association with T stage in [UTUC](../cancer_types/UTUC.md); part of the subset of UTUC tumors with FGFR3/HRAS/KRAS mutations associated with lower CNA burden and a 'low-grade-tumor-progression' carcinogenesis model [PMID:26278805](../papers/26278805.md)
+- Significant association with T stage in [UTUC](../cancer_types/UTUC.md); part of the subset of [UTUC](../cancer_types/UTUC.md) tumors with FGFR3/HRAS/KRAS mutations associated with lower CNA burden and a 'low-grade-tumor-progression' carcinogenesis model [PMID:26278805](../papers/26278805.md)
+- KrasG12D knock-in by AAV-CRISPR HDR in rats yielded ER+/PR+ ductal carcinoma with papillary features at ~70-day median latency; the same edit in mice produced ER-/PR- metaplastic tumors with squamous differentiation, illustrating species-specific lineage plasticity — KRAS is not commonly mutated in human breast cancer [PMID:26437033](../papers/26437033.md)
+- Mutated in n=14 cases as part of the 4.1% RAS-mutant CLL fraction in a 538-sample WES cohort; therapeutic exploration of MAPK-ERK inhibitors is suggested for the RAS/BRAF/MAP2K1-mutant subset [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -290,5 +292,11 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

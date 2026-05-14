@@ -15,7 +15,7 @@ FPR1 (Formyl Peptide Receptor 1) is a G protein-coupled receptor involved in inn
 
 ## Alterations observed in the corpus
 
-- Significantly mutated gene in SCLC (110-tumour WGS cohort); classified alongside [CRACDL](../genes/CRACDL.md) and [COL22A1](../genes/COL22A1.md) as hits of unclear function [PMID:26168399](../papers/26168399.md)
+- Significantly mutated gene in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); classified alongside [CRACDL](../genes/CRACDL.md) and [COL22A1](../genes/COL22A1.md) as hits of unclear function [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

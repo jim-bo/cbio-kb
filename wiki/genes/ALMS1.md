@@ -15,7 +15,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-ALMS1 encodes a centrosome-associated protein whose germline loss causes Alström syndrome, a rare ciliopathy. In cancer genomics, ALMS1 appears in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) as part of a cluster of recurrently mutated centrosome-related genes, suggesting a role in chromosome segregation fidelity during SCLC pathogenesis.
+ALMS1 encodes a centrosome-associated protein whose germline loss causes Alström syndrome, a rare ciliopathy. In cancer genomics, ALMS1 appears in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) as part of a cluster of recurrently mutated centrosome-related genes, suggesting a role in chromosome segregation fidelity during [SCLC](../cancer_types/SCLC.md) pathogenesis.
 
 ## Alterations observed in the corpus
 
@@ -27,7 +27,7 @@ ALMS1 encodes a centrosome-associated protein whose germline loss causes Alströ
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-clustered with [ASPM](../genes/ASPM.md) and PDE4DIP in SCLC as centrosome-associated significantly mutated genes [PMID:26168399](../papers/26168399.md)
+- Co-clustered with [ASPM](../genes/ASPM.md) and [PDE4DIP](../genes/PDE4DIP.md) in SCLC as centrosome-associated significantly mutated genes [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

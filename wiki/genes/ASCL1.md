@@ -5,7 +5,7 @@ cancer_types:
   - ODG
 tags: [proneural-transcription-factor, stem-progenitor, oligodendroglioma, neural-differentiation]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-14
 ---
 
 # ASCL1
@@ -17,6 +17,7 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 ## Alterations observed in the corpus
 
 - ASCL1 is part of the stem/progenitor transcriptional program in grade II IDH-mutant 1p/19q-codeleted oligodendroglioma, co-expressed with [SOX2](../genes/SOX2.md), [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [NFIB](../genes/NFIB.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [TCF4](../genes/TCF4.md), and [CCND2](../genes/CCND2.md); identified from scRNA-seq of 4,347 cells across 6 tumors [PMID:27806376](../papers/27806376.md).
+- Neuroendocrine transcription factor and expression marker defining the ASCL1-high [SCLC](../cancer_types/SCLC.md) transcriptional subtype; downregulated upon NOTCH activation in mouse models, reflecting inverse relationship between neuroendocrine differentiation and Notch signaling [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ ASCL1 (achaete-scute family bHLH transcription factor 1; also known as MASH1) is
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

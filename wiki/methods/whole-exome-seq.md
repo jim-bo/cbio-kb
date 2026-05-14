@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -112,6 +112,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 10 [PCNSL](../cancer_types/PCNSL.md) cases (SureSelect 50 Mb, HiSeq2000, mean 65.6M mapped reads, median 80% exome at ≥30×) for somatic SNV and indel calling to identify NF-κB pathway drivers including [MYD88](../genes/MYD88.md) L265P. [PMID:25991819](../papers/25991819.md)
 - SureSelect Exome v4 sequencing at mean 160×/100× (tumor/normal) in 150 mCRPC cases enabled comprehensive somatic profiling revealing 89% actionable alterations. [PMID:26000489](../papers/26000489.md)
 - Applied to 320 cutaneous melanoma samples (Agilent SureSelect Human All Exon v2.0 44 Mb, HiSeq 2×76 bp, ~87× mean coverage) enabling identification of 13 significantly mutated genes including novel [DDX3X](../genes/DDX3X.md) and four genomic subtypes. [PMID:26091043](../papers/26091043.md)
+- Whole-exome sequencing applied to 91 adrenocortical carcinoma samples to identify somatic mutations and copy-number alterations [PMID:26095796](../papers/26095796.md)
+- Whole-exome sequencing used to characterize somatic mutations in breast cancer genomic study [PMID:26168399](../papers/26168399.md)
+- Whole-exome sequencing used to profile somatic mutations in colorectal cancer [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -363,3 +366,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -23,7 +23,7 @@ MACF1 (Microtubule Actin Crosslinking Factor 1) is a spectraplakin that links th
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-identified with other WNT-pathway regulators [ZNRF3](../genes/ZNRF3.md) and [USP34](../genes/USP34.md) as recurrently mutated β-catenin inhibitors in HCC. [PMID:25822088](../papers/25822088.md)
+- Co-identified with other WNT-pathway regulators [ZNRF3](../genes/ZNRF3.md) and [USP34](../genes/USP34.md) as recurrently mutated β-catenin inhibitors in [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 
 ## Therapeutic relevance
 

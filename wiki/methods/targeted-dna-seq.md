@@ -5,7 +5,7 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -35,6 +35,9 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Ion Torrent PGM targeted sequencing of 103 recurrently mutated Wnt/ERBB/HR pathway genes in a 216-case gastric adenocarcinoma validation cohort; 86/103 (83%) recurrent genes were re-identified [PMID:25583476](../papers/25583476.md)
 - Used for validation sequencing of 74 AA CRC samples against 78 candidate genes (custom Agilent SureSelectXT bait library); confirmed 20 significantly mutated genes in African American colorectal cancer, including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific drivers [PMID:25583493](../papers/25583493.md)
 - Ion Torrent PGM targeted sequencing of [MYD88](../genes/MYD88.md) coding regions (~2,005× average depth) used to characterize the near-ubiquitous L265P hotspot in [PCNSL](../cancer_types/PCNSL.md); combined with WES to achieve 14/19-case mutation coverage. [PMID:25991819](../papers/25991819.md)
+- Targeted DNA sequencing used to profile somatic mutations in breast cancer samples [PMID:26168399](../papers/26168399.md)
+- Targeted DNA sequencing via MSK-IMPACT panel applied to pancreatic ductal adenocarcinoma [PMID:26278805](../papers/26278805.md)
+- Targeted DNA sequencing used alongside WES and WGS in colorectal cancer genomic profiling [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -91,3 +94,12 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

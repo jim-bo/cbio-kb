@@ -3,7 +3,7 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -19,6 +19,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - RHOA-activated diffuse gastric tumors may be susceptible to Rho/ROCK or YAP1-pathway inhibitors (preclinical hypothesis; no clinical trial data reported). [PMID:24816255](../papers/24816255.md)
 - Mechanotransducer in gallbladder cancer-associated fibroblasts; nuclear translocation driven by stiff matrix (16 kPa); required for stiffness-induced [SEMA7A](../genes/SEMA7A.md) transcription; YAP1 shRNA or [verteporfin](../drugs/verteporfin.md) abolishes GF activation and [SEMA7A](../genes/SEMA7A.md) secretion. [PMID:24997986](../papers/24997986.md)
 - Co-amplified with [BIRC2](../genes/BIRC2.md) at 11q22 in HPV(-) HNSCC (TCGA, n=279); majority of 11q13-amplified tumours carried large telomeric 11q22 deletions including [ATM](../genes/ATM.md) and CASP1-5-12; inferred selection via BIRC2-FADD-caspase cascade inhibiting cell death [PMID:25631445](../papers/25631445.md)
+- Focal amplification in 1–3 desmoplastic melanoma tumours; IHC confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

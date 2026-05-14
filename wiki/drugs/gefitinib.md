@@ -28,7 +28,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - TCGA lung squamous study (178 tumors) assessed [EGFR](../genes/EGFR.md) pathway context; gefitinib efficacy limited by rarity of EGFR-activating mutations in squamous histology [PMID:22960745](../papers/22960745.md)
 - Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via [EGFR](../genes/EGFR.md) inhibition; gefitinib trials in cSCC noted alongside [cetuximab](../drugs/cetuximab.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
-- Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue EGFR pathway biomarker refinement (EGFR S720F, amplification) is needed before uniform EGFR targeting in this disease [PMID:25589618](../papers/25589618.md)
+- Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue [EGFR](../genes/EGFR.md) pathway biomarker refinement (EGFR S720F, amplification) is needed before uniform EGFR targeting in this disease [PMID:25589618](../papers/25589618.md)
 
 ## Resistance mechanisms
 

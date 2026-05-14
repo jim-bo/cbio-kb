@@ -28,7 +28,7 @@ EPHA4 (Ephrin type-A receptor 4) is a receptor tyrosine kinase involved in cell 
 
 ## Therapeutic relevance
 
-- Potentially actionable in HCC given the availability of FDA-approved agents targeting this pathway [PMID:25822088](../papers/25822088.md)
+- Potentially actionable in [HCC](../cancer_types/HCC.md) given the availability of FDA-approved agents targeting this pathway [PMID:25822088](../papers/25822088.md)
 
 ## Open questions
 

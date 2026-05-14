@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -47,6 +47,9 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Validated 248 non-silent mutations across 132 genes in 84 PDA cases, confirming 92% of MuTect/VarScan calls (95% CI 87.6–94.6%). [PMID:25855536](../papers/25855536.md)
 - Used for validation of CARD11/CD79B/PRKCD/TNFAIP3 variants in [PCNSL](../cancer_types/PCNSL.md) cases, complementing WES and targeted Ion Torrent sequencing. [PMID:25991819](../papers/25991819.md)
 - Sanger sequencing of [TERT](../genes/TERT.md) promoter C228T/C250T in 115 cutaneous melanoma samples confirmed mutually exclusive distribution and differential association with [TERT](../genes/TERT.md) mRNA elevation. [PMID:26091043](../papers/26091043.md)
+- Sanger sequencing used to validate somatic mutations identified by next-generation sequencing in breast cancer [PMID:26168399](../papers/26168399.md)
+- Sanger sequencing used to confirm somatic mutations detected by MSK-IMPACT panel in pancreatic cancer [PMID:26278805](../papers/26278805.md)
+- Sanger sequencing used to validate somatic mutations in colorectal cancer whole-exome and whole-genome sequencing [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -144,3 +147,12 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

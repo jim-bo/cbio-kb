@@ -20,7 +20,7 @@ JAG1 (Jagged canonical Notch ligand 1) encodes a Notch pathway ligand. In oral s
 
 ## Cancer types (linked)
 
-- **OSCC (Oral Squamous Cell Carcinoma):** copy number gain; co-occurs with [JAG2](../genes/JAG2.md) gains; mechanistic interpretation (cis-inhibition vs. activation of NOTCH1) is uncertain [PMID:23619168](../papers/23619168.md)
+- **OSCC (Oral Squamous Cell Carcinoma):** copy number gain; co-occurs with [JAG2](../genes/JAG2.md) gains; mechanistic interpretation (cis-inhibition vs. activation of [NOTCH1](../genes/NOTCH1.md)) is uncertain [PMID:23619168](../papers/23619168.md)
 
 ## Co-occurrence and mutual exclusivity
 

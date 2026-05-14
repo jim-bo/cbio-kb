@@ -16,7 +16,7 @@ ALB encodes serum albumin, the major plasma protein produced by the liver. Somat
 ## Alterations observed in the corpus
 
 - Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289 patients); classified as a non-actionable alteration in the comprehensive review of [HCC](../cancer_types/HCC.md) molecular therapies [PMID:24798001](../papers/24798001.md)
-- Recurrently mutated hepatocyte-secreted protein gene in [HCC](../cancer_types/HCC.md); part of a newly highlighted hepatic-differentiation pathway altered in 34% of 243 HCC tumors [PMID:25822088](../papers/25822088.md)
+- Recurrently mutated hepatocyte-secreted protein gene in [HCC](../cancer_types/HCC.md); part of a newly highlighted hepatic-differentiation pathway altered in 34% of 243 [HCC](../cancer_types/HCC.md) tumors [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 

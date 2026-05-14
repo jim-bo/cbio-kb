@@ -3,7 +3,7 @@ symbol: PPP6C
 aliases: []
 cancer_types: [MEL]
 tags: [phosphatase, melanoma, uv-signature]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -21,6 +21,7 @@ PPP6C encodes a serine/threonine phosphatase (Protein Phosphatase 6 Catalytic Su
 - R264C and S270L hotspot mutations in 9% of melanomas (121-tumor Broad WES cohort); clustered near the catalytic-regulatory interface, suggesting gain-of-function alteration of phosphatase activity [PMID:22817889](../papers/22817889.md)
 - H92Y and R301C loss-of-function mutations in 12.4% of sun-exposed melanomas (147-tumor Yale WES cohort); found exclusively with [BRAF](../genes/BRAF.md) or [NRAS](../genes/NRAS.md) mutations [PMID:22842228](../papers/22842228.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PPP6C is a hot-spot significantly mutated gene (SMG) frequently co-occurring with RAS mutations; proposed as a target for Aurora kinase inhibitor combinations in RAS-mutant melanoma. [PMID:26091043](../papers/26091043.md)
+- R264C hotspot mutation in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ PPP6C encodes a serine/threonine phosphatase (Protein Phosphatase 6 Catalytic Su
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

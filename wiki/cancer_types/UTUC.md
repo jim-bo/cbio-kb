@@ -5,7 +5,7 @@ main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, upper-tract, fgfr3]
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-14
 ---
 
 # Upper Tract Urothelial Carcinoma (UTUC)
@@ -24,6 +24,7 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - [FGFR3](../genes/FGFR3.md) R248C is enriched in upper-tract disease (22%, 18/81) versus bladder tumors (11%, 37/333; p=0.01) ([PMID:37682528](../papers/37682528.md)).
 - [PIK3CA](../genes/PIK3CA.md), [TSC1](../genes/TSC1.md), [CDKN2A](../genes/CDKN2A.md), [CDKN2B](../genes/CDKN2B.md), [KDM6A](../genes/KDM6A.md) — co-altered with [FGFR3](../genes/FGFR3.md) in urothelial carcinoma broadly, including upper-tract cases ([PMID:37682528](../papers/37682528.md)).
 - Upper tract urothelial carcinoma shared [FGFR3](../genes/FGFR3.md) alteration patterns with bladder urothelial carcinoma [PMID:36543146](../papers/36543146.md)
+- Targeted sequencing of upper-tract urothelial carcinoma identified recurrent [FGFR3](../genes/FGFR3.md) mutations, copy number alterations, and shared genomic features with bladder urothelial carcinoma [PMID:26278805](../papers/26278805.md)
 
 ## Subtypes
 
@@ -38,7 +39,10 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 
 - [PMID:37682528](../papers/37682528.md) — Guercio et al., Clinical Cancer Research 2023.
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MEL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FHIT
@@ -19,6 +19,7 @@ FHIT (Fragile Histidine Triad, 3p14.2) encodes a diadenosine triphosphate hydrol
 - Recurrent structural rearrangements in 6/25 melanomas in a WGS discovery cohort (25 tumors, Broad/Sanger); one of the most frequently rearranged genes alongside [PTEN](../genes/PTEN.md), [MAGI2](../genes/MAGI2.md), [MACROD2](../genes/MACROD2.md), [CSMD1](../genes/CSMD1.md), and [RBFOX1](../genes/RBFOX1.md) [PMID:22622578](../papers/22622578.md)
 - Focal deletion on 3p in OSCC; candidate tumor suppressor in HNSCC [PMID:23619168](../papers/23619168.md)
 - FHIT (fragile histidine triad) shows germline and somatic variants observed uniquely in familial intestinal gastric cancer (FIGC) vs. sporadic intestinal GC, suggesting a role in familial gastric cancer predisposition. [PMID:24816255](../papers/24816255.md)
+- Recurrent focal deletion on 3p in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -40,10 +41,13 @@ FHIT (Fragile Histidine Triad, 3p14.2) encodes a diadenosine triphosphate hydrol
 
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -32,7 +32,7 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 
 ## Open questions
 
-- The relative frequency of CUL3 deletion versus mutation in [LUSC](../cancer_types/LUSC.md), and whether CUL3 loss is mutually exclusive with NFE2L2 or [KEAP1](../genes/KEAP1.md) mutations at the individual tumor level, is not detailed in the TCGA study.
+- The relative frequency of CUL3 deletion versus mutation in [LUSC](../cancer_types/LUSC.md), and whether CUL3 loss is mutually exclusive with [NFE2L2](../genes/NFE2L2.md) or [KEAP1](../genes/KEAP1.md) mutations at the individual tumor level, is not detailed in the TCGA study.
 
 ## Sources
 

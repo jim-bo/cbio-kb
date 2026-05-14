@@ -31,7 +31,7 @@ USP34 (Ubiquitin Specific Peptidase 34) is a deubiquitinase involved in WNT/β-c
 
 ## Open questions
 
-- Individual mutation frequency and functional consequences of USP34 loss in HCC β-catenin regulation require further characterisation.
+- Individual mutation frequency and functional consequences of USP34 loss in [HCC](../cancer_types/HCC.md) β-catenin regulation require further characterisation.
 
 ## Sources
 

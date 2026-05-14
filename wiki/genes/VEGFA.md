@@ -23,7 +23,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all HCC subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all [HCC](../cancer_types/HCC.md) subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:24798001](../papers/24798001.md)
 - **[NPC](../cancer_types/NPC.md)** — VEGFA pathway targeted via [bevacizumab](../drugs/bevacizumab.md) (ORR 54.5% combined with [sintilimab](../drugs/sintilimab.md)) and VEGFR2 TKI [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%) in R/M disease. [PMID:24952746](../papers/24952746.md)
 
 ## Co-occurrence and mutual exclusivity

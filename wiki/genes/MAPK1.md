@@ -30,7 +30,7 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 ## Therapeutic relevance
 
-- MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md)) and BRAF/MEK combination strategies target the MAPK pathway downstream of BRAF fusions [PMID:38922339](../papers/38922339.md).
+- MEK inhibitors ([trametinib](../drugs/trametinib.md), [selumetinib](../drugs/selumetinib.md)) and BRAF/MEK combination strategies target the MAPK pathway downstream of [BRAF](../genes/BRAF.md) fusions [PMID:38922339](../papers/38922339.md).
 
 ## Open questions
 

@@ -3,7 +3,7 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Truncating mutation identified in the discovery cohort of adenoid cystic carcinoma (24 cases); classified among known cancer/tumor-suppressor genes with loss-of-function mutations in ACC. [PMID:23778141](../papers/23778141.md)
 - SF3B1 somatic splicing-factor mutation identified in 3 [MPN](../cancer_types/MPN.md) patients alongside other epigenetic/splicing co-mutations in a CALR-discovery exome-sequencing study [PMID:24325359](../papers/24325359.md)
 - R625H hot-spot mutation co-occurring with GNAQ/GNA11 in the Triple-WT cutaneous melanoma subtype. [PMID:26091043](../papers/26091043.md)
+- Non-passenger somatic mutation in breast AdCC (adenoid cystic carcinoma of the breast); shared with salivary gland AdCCs; one of several cancer genes mutated in WES of 12 breast AdCC tumours (0.27 non-silent mutations/Mb, no [TP53](../genes/TP53.md) or [PIK3CA](../genes/PIK3CA.md) mutations) [PMID:26095796](../papers/26095796.md)
+- Recurrent K700E hotspot (>50% of all SF3B1 mutations) in CLL; mutated in 184/1,009 (18.2%) CLLmap patients; 51% of SF3B1 mutations co-occur with del(13q); SF3B1-mut/del(13q) double-mutant subtype has shorter time to first therapy and inferior [OS](../cancer_types/OS.md) (P=0.0002); Sf3b1-K700E drives alternative splicing of [NFATC1](../genes/NFATC1.md) and 375 other genes, activating mTORC1/MYC pathways [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -50,34 +52,40 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

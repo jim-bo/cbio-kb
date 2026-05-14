@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # MYCN
@@ -27,6 +27,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with [ATRX](../genes/ATRX.md) loss [PMID:23334666](../papers/23334666.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
 - Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); member of the [MYC](../genes/MYC.md) family amplified in SCLC alongside MYC and [MYCL](../genes/MYCL.md) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -58,25 +59,28 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22367537](../papers/22367537.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

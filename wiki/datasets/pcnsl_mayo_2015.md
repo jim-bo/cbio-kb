@@ -48,7 +48,7 @@ Comprehensive genomic characterization of 19 immunocompetent primary central ner
 ## Notable findings derived from this cohort
 
 - BCR/TLR/NF-κB pathway altered in >90% of [PCNSL](../cancer_types/PCNSL.md) when integrating mutation and CNA data. [PMID:25991819](../papers/25991819.md)
-- [MYD88](../genes/MYD88.md) activating mutations in 79% of cases (predominantly L265P) — ~2× the prevalence in nodal ABC-DLBCL — making MYD88-dependent signaling a particularly attractive PCNSL target. [PMID:25991819](../papers/25991819.md)
+- [MYD88](../genes/MYD88.md) activating mutations in 79% of cases (predominantly L265P) — ~2× the prevalence in nodal ABC-DLBCL — making MYD88-dependent signaling a particularly attractive [PCNSL](../cancer_types/PCNSL.md) target. [PMID:25991819](../papers/25991819.md)
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) 9p21.3 deletion in 83% of cases (homozygous in 55%), making it the most common CNA in the cohort. [PMID:25991819](../papers/25991819.md)
 - PCNSL-specific biallelic inactivation of [PRKCD](../genes/PRKCD.md) (splice-donor mutations + missense) and homozygous deletion of [TOX](../genes/TOX.md) (8q12) — neither event reported recurrently in systemic DLBCL. [PMID:25991819](../papers/25991819.md)
 - [PRDM1](../genes/PRDM1.md) 6q21 deletion (55% of cases) associated with shorter overall survival (log-rank P=0.001) in univariate analysis. [PMID:25991819](../papers/25991819.md)

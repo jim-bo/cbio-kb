@@ -3,8 +3,8 @@ symbol: MYB
 aliases: []
 cancer_types: [BRAIN, DIFG, AST]
 tags: [transcription-factor, epigenetic, glioma, treatment-induced]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MYB
@@ -19,6 +19,7 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 - Activation via t(6;9) MYB-NFIB fusion in 57% of ACC cases; exon 10 splice/coding mutations and 5 homozygous deletions in 8%; disrupts leucine-rich negative regulatory domain, likely conferring constitutive activation [PMID:23685749](../papers/23685749.md)
 - Activation via t(6;9) MYB-NFIB fusion in 19/24 ACC cases; copy-number breakpoints at MYB locus on SNP6 in many cases [PMID:23778141](../papers/23778141.md)
 - Canonical MYB::[NFIB](../genes/NFIB.md) fusion in 49/88 (57%) of sinonasal adenoid cystic carcinomas; noncanonical fusion partners include [ACTB](../genes/ACTB.md), [ACTN4](../genes/ACTN4.md), [ESRRG](../genes/ESRRG.md), and [EWSR1](../genes/EWSR1.md) fusing MYB exons 2–3 in-frame; MYB FISH detected additional fusion-negative rearrangements [PMID:24418857](../papers/24418857.md)
+- Partner of t(6;9) MYB-NFIB fusion in 10/12 (83%) breast adenoid cystic carcinomas (AdCC); recurrently mutated by missense in 2/12 (17%) cases; one mutation in exon 13 splice site of MYB-NFIB fusion allele [PMID:26095796](../papers/26095796.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

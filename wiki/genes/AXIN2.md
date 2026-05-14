@@ -31,7 +31,7 @@ AXIN2 (Axis Inhibition Protein 2; also Conductin) is a scaffold protein in the b
 
 ## Open questions
 
-- Frequency of AXIN2 mutations in PDA and their specific functional consequences vs. AXIN1 require further study.
+- Frequency of AXIN2 mutations in PDA and their specific functional consequences vs. [AXIN1](../genes/AXIN1.md) require further study.
 
 ## Sources
 

@@ -28,7 +28,7 @@ TEK (TIE2) encodes a receptor tyrosine kinase expressed predominantly on endothe
 
 ## Therapeutic relevance
 
-- Multi-kinase TKIs inhibiting TEK (e.g., [cabozantinib](../drugs/cabozantinib.md)) are being investigated in NPC primarily as anti-angiogenic agents; TEK-alteration-selected strategies are not reported. [PMID:24952746](../papers/24952746.md)
+- Multi-kinase TKIs inhibiting TEK (e.g., [cabozantinib](../drugs/cabozantinib.md)) are being investigated in [NPC](../cancer_types/NPC.md) primarily as anti-angiogenic agents; TEK-alteration-selected strategies are not reported. [PMID:24952746](../papers/24952746.md)
 
 ## Open questions
 

@@ -20,7 +20,7 @@ FGA (Fibrinogen Alpha Chain) encodes a component of fibrinogen, a hepatocyte-sec
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: Recurrently mutated alongside [ALB](../genes/ALB.md) and [APOB](../genes/APOB.md) as hepatocyte-secreted protein genes defining the hepatic-differentiation pathway in a comprehensive HCC genomic study [PMID:25822088](../papers/25822088.md)
+- **[HCC](../cancer_types/HCC.md)**: Recurrently mutated alongside [ALB](../genes/ALB.md) and [APOB](../genes/APOB.md) as hepatocyte-secreted protein genes defining the hepatic-differentiation pathway in a comprehensive [HCC](../cancer_types/HCC.md) genomic study [PMID:25822088](../papers/25822088.md)
 
 ## Co-occurrence and mutual exclusivity
 

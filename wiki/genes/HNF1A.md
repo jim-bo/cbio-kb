@@ -19,7 +19,7 @@ HNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a transcription factor critical for
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)**: HNF1A mutations found predominantly in hepatocellular adenomas within the non-fibrotic liver subset rather than in classic HCC; used as molecular evidence against HCA-to-HCC transformation as a major pathway. [PMID:25822088](../papers/25822088.md)
+- **[HCC](../cancer_types/HCC.md)**: HNF1A mutations found predominantly in hepatocellular adenomas within the non-fibrotic liver subset rather than in classic [HCC](../cancer_types/HCC.md); used as molecular evidence against HCA-to-HCC transformation as a major pathway. [PMID:25822088](../papers/25822088.md)
 
 ## Co-occurrence and mutual exclusivity
 

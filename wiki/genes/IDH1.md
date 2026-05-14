@@ -3,7 +3,7 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 hotspot mutations in 13–29% intrahepatic CCA (iCCA), rare in extrahepatic CCA; IDH1-mutant iCCA benefits from [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: mPFS 6.9 vs. 2.7 months, mOS 10.3 vs. 7.5 months) [PMID:25526346](../papers/25526346.md)
 - IDH1 gain-of-function mutations (R132 hotspot) are frequent in iCCA; 2-HG accumulation epigenetically suppresses bile acid biosynthesis genes including [CYP7A1](../genes/CYP7A1.md), and [ivosidenib](../drugs/ivosidenib.md) was approved for IDH1-mutant CCA based on the ClarIDHy phase III PFS benefit. [PMID:25608663](../papers/25608663.md)
 - IDH1 R132 UV hot-spot mutation in ~6% of cutaneous melanomas; enriched in the CIMP epigenetic cluster (OR = 4.05, p = 0.005) in the TCGA 333-sample cohort [PMID:26091043](../papers/26091043.md)
+- R132C hotspot in 1 desmoplastic melanoma tumor; authors identify IDH1 as potentially targetable [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -99,3 +100,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

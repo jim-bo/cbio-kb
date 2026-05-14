@@ -21,7 +21,7 @@ FLI1 (Friend leukemia integration 1 transcription factor) is an ETS-family trans
 
 ## Cancer types (linked)
 
-- Ewing sarcoma: defined by [EWSR1](../genes/EWSR1.md)::FLI1 (or variant EWSR1::ETS fusions) in ~85% of cases.
+- Ewing sarcoma: defined by [EWSR1](../genes/EWSR1.md)::FLI1 (or variant [EWSR1](../genes/EWSR1.md)::ETS fusions) in ~85% of cases.
 
 ## Co-occurrence and mutual exclusivity
 

@@ -33,7 +33,7 @@ FADD (Fas-Associated Death Domain) encodes an adaptor protein central to extrins
 
 ## Open questions
 
-- Whether FADD amplification independently contributes to OSCC oncogenesis beyond co-amplification with CCND1 has not been established.
+- Whether FADD amplification independently contributes to OSCC oncogenesis beyond co-amplification with [CCND1](../genes/CCND1.md) has not been established.
 
 ## Sources
 

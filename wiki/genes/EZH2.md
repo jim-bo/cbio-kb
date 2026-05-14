@@ -8,7 +8,7 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -34,6 +34,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Not altered in any [MPNST](../cancer_types/MPNST.md) discovery or validation cohort; explicit negative finding — PRC2 loss in [MPNST](../cancer_types/MPNST.md) occurs exclusively via [EED](../genes/EED.md) or [SUZ12](../genes/SUZ12.md) inactivation, not EZH2 [PMID:25240281](../papers/25240281.md)
 - Y641S gain-of-function lymphoma allele found in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
 - Y641 hotspot mutation in Triple-WT cutaneous melanoma subtype (n=1) [PMID:26091043](../papers/26091043.md)
+- Y641S hotspot in 1 desmoplastic melanoma tumor [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

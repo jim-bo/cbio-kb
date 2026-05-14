@@ -20,7 +20,7 @@ SMAD3 is a transcriptional mediator of TGF-beta signaling. Upon TGF-beta recepto
 
 ## Cancer types (linked)
 
-- Colorectal carcinoma: metastasis-specific SMAD3 missense mutation observed; co-mutation with SMAD4 loss at the metastatic site [PMID:25164765](../papers/25164765.md)
+- Colorectal carcinoma: metastasis-specific SMAD3 missense mutation observed; co-mutation with [SMAD4](../genes/SMAD4.md) loss at the metastatic site [PMID:25164765](../papers/25164765.md)
 
 ## Co-occurrence and mutual exclusivity
 

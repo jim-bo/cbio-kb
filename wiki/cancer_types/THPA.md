@@ -31,7 +31,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 ## Subtypes
 
 - PTC shares common clonal ancestor with co-occurring ATC regions, with the ATC diverging through acquisition of [TP53](../genes/TP53.md), [PIK3CA](../genes/PIK3CA.md), and [CDKN2A](../genes/CDKN2A.md) alterations. [PMID:38412093](../papers/38412093.md)
-- [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired BRAF fusions. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired [BRAF](../genes/BRAF.md) fusions. [PMID:38922339](../papers/38922339.md)
 - BRAF fusions co-occur with [TERT](../genes/TERT.md) mutations in 73% of BRAF fusion thyroid cancers. [PMID:38922339](../papers/38922339.md)
 
 ## Therapeutic landscape

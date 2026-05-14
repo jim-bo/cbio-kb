@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [fusion-partner]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # TACC3
@@ -21,6 +21,7 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 - FGFR3-TACC3 in-frame inversion fusion detected in 2 [GBM](../cancer_types/GBM.md) cases with focal co-amplification; FGFR3/TACC3 focal amplification present in 2.6% of CNA profiles in the TCGA [GBM](../cancer_types/GBM.md) cohort [PMID:24120142](../papers/24120142.md)
 - TACC3 is a partner in the FGFR3-TACC3 in-frame fusion (2/42 = 5% by RNA-seq) in TCC bladder cancer; encodes a microtubule-associated SCCS protein with outlier high expression driven by the [FGFR3](../genes/FGFR3.md) promoter rather than amplification [PMID:24121792](../papers/24121792.md)
 - Recurrent in-frame FGFR3-TACC3 fusions (n=3) in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)); TACC3 acts as the 3' partner in this kinase fusion associated with FGFR3-driven oncogenesis [PMID:24476821](../papers/24476821.md)
+- Partner gene in recurrent FGFR3-TACC3 intrachromosomal fusions in 5 high-grade [UTUC](../cancer_types/UTUC.md) tumours (confirmed by Sanger sequencing); breakpoints in TACC3 intron 10 or exon 7; fusions predicted to produce constitutively active FGFR3-TACC3 chimeric protein [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +43,22 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 
 - [PMID:37682528](../papers/37682528.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

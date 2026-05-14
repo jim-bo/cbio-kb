@@ -4,7 +4,7 @@ aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # PTPN11
@@ -21,6 +21,8 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - Part of the activated-signaling gene category in [AML](../cancer_types/AML.md) (alongside [KIT](../genes/KIT.md), [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [FLT3](../genes/FLT3.md)); contributes to the 59% signaling-pathway prevalence across 200 [AML](../cancer_types/AML.md) cases [PMID:23634996](../papers/23634996.md)
 - E69K and E76A activating mutations (previously described in juvenile myelomonocytic leukemia) exclusively co-occurring with [FGFR1](../genes/FGFR1.md) mutations in pilocytic astrocytoma; PTPN11/SHP-2 expression globally elevated in this tumor type [PMID:23817572](../papers/23817572.md)
 - 2 expressed mutations detected in rhabdomyosarcoma, both restricted to fusion-negative (PFN) tumors; PTPN11 (SHP2) encodes an RAS-activating phosphatase [PMID:24436047](../papers/24436047.md)
+- Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); rarely mutated in basal-like breast cancers. [PMID:26095796](../papers/26095796.md)
+- E76A/K hotspot in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +60,9 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

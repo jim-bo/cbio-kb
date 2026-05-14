@@ -36,6 +36,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for somatic SNV and indel calling (with OxoG artifact filtering) on 29 lymph-node metastases from cSCC patients sequenced with [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) (mean tumor coverage 82×); identified high UV mutation burden (~33 mut/Mb) and recurrent oncogenic alterations [PMID:25589618](../papers/25589618.md)
 - MuTect used for SNV calling in 109 microdissected PDA WES samples (≥14 tumor reads, ≥8 normal reads); 92% of 248 non-silent mutations validated by Sanger sequencing. [PMID:25855536](../papers/25855536.md)
 - MuTect used for somatic mutation calling in 150 mCRPC whole-exome samples (mean 160×/100× tumor/normal coverage). [PMID:26000489](../papers/26000489.md)
+- MuTect used for somatic SNV calling in whole-exome sequencing of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
+- MuTect used for somatic SNV calling in MSK-IMPACT panel sequencing of pancreatic cancer [PMID:26278805](../papers/26278805.md)
+- MuTect used for somatic SNV calling in whole-exome and whole-genome sequencing of colorectal cancer [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -83,5 +86,14 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

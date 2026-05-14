@@ -26,6 +26,9 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Used for read alignment in WES pipeline processing 29 AA CRC tumor/normal discovery exomes in the MSS African American CRC landscape study [PMID:25583493](../papers/25583493.md)
 - BWA used to align reads to UCSC hg19 in 109 microdissected PDA WES samples prior to MuTect/VarScan variant calling. [PMID:25855536](../papers/25855536.md)
 - BWA used together with Picard and Firehose at the Broad Institute to align reads from 320 melanoma WES and WGS samples to the reference genome. [PMID:26091043](../papers/26091043.md)
+- BWA used for read alignment in whole-exome sequencing of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
+- BWA used for read alignment in targeted panel sequencing (MSK-IMPACT) of pancreatic cancer [PMID:26278805](../papers/26278805.md)
+- BWA used for read alignment in whole-exome and whole-genome sequencing of colorectal cancer [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -58,5 +61,14 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

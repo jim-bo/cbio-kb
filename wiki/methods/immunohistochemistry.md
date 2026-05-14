@@ -25,9 +25,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in [NPC](../cancer_types/NPC.md), though not yet validated for treatment selection [PMID:24952746](../papers/24952746.md)
 - IHC staining of 86 [GBC](../cancer_types/GBC.md) patient tissues used to quantify stromal [SEMA7A](../genes/SEMA7A.md) expression; high stromal [SEMA7A](../genes/SEMA7A.md) associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival [PMID:24997986](../papers/24997986.md)
 - Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::[FLI1](../genes/FLI1.md)), [PRKCB](../genes/PRKCB.md), [BRCA1](../genes/BRCA1.md), Ki67, cyclin A, [BCL11B](../genes/BCL11B.md), and [ITM2A](../genes/ITM2A.md). [PMID:25186949](../papers/25186949.md)
-- Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed [AR](../genes/AR.md), SYP, [CHGA](../genes/CHGA.md), CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. [PMID:25201530](../papers/25201530.md)
+- Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed [AR](../genes/AR.md), [SYP](../genes/SYP.md), [CHGA](../genes/CHGA.md), CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. [PMID:25201530](../papers/25201530.md)
 - Used to assess [STAG2](../genes/STAG2.md) protein expression in Ewing sarcoma primary and relapse tissue; IHC revealed clonal expansion of STAG2-null cells at relapse in 3/21 paired samples [PMID:25223734](../papers/25223734.md)
 - IHC used for [ARID1A](../genes/ARID1A.md) (sc-32761), p53, pERK (Cell Signaling 4370), and p63 (Biolegend 619002) scoring in PDA; [ARID1A](../genes/ARID1A.md) IHC validated in an independent 296-case cohort, with protein loss associated with poor overall survival (P=0.0202). [PMID:25855536](../papers/25855536.md)
+- IHC used to assess protein expression in breast cancer samples [PMID:26168399](../papers/26168399.md)
+- IHC used to assess protein expression levels as part of proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 
 ## Notes
 
@@ -59,5 +61,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

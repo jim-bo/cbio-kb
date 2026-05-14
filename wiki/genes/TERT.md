@@ -24,6 +24,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - Promoter mutation and focal amplification together produce telomerase activation in 60% of [HCC](../cancer_types/HCC.md); TERT promoter mutation identified as the earliest event in cirrhotic progression. [PMID:25822088](../papers/25822088.md)
 - Recurrently amplified at 5p15.33 by GISTIC analysis in pancreatic ductal adenocarcinoma (109-case WES cohort). [PMID:25855536](../papers/25855536.md)
 - Promoter C228T (23.5%) and C250T (40.9%) mutations mutually exclusive in cutaneous melanoma; only C228T raises TERT mRNA; depleted in Triple-WT subtype (6.7%, P=8e-5), where TERT is activated via amplification or rearrangement instead. [PMID:26091043](../papers/26091043.md)
+- Promoter mutations in 85% (17/20) of evaluable desmoplastic melanoma samples; overall TERT activation (promoter mutation + amplification) in 90% of tumours; the most common genomic alteration in desmoplastic melanoma [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -35,7 +36,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 ## Therapeutic relevance
 
-- TERT is not directly druggable with currently approved agents; listed as a priority for future precision-medicine development in HCC. [PMID:24798001](../papers/24798001.md)
+- TERT is not directly druggable with currently approved agents; listed as a priority for future precision-medicine development in [HCC](../cancer_types/HCC.md). [PMID:24798001](../papers/24798001.md)
 
 ## Open questions
 
@@ -65,5 +66,8 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

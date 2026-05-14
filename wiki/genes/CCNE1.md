@@ -11,7 +11,7 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -45,6 +45,7 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Recurrent focal amplification in CIN gastric adenocarcinoma; suggests CDK4/6 inhibitor evaluation in this subtype [PMID:25079317](../papers/25079317.md)
 - Recurrent focal amplification in [LUAD](../cancer_types/LUAD.md); identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
 - Cell-cycle/RB axis alteration in [HCC](../cancer_types/HCC.md); [CDKN2A](../genes/CDKN2A.md) loss enriched in alcohol-related [HCC](../cancer_types/HCC.md) and independently associated with poor survival [PMID:25822088](../papers/25822088.md)
+- Present among tumor-suppressor candidates in desmoplastic melanoma exome sequencing cohort (n=60 discovery + 42 validation); listed as a gene with LOF-burden alteration [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -127,3 +128,6 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

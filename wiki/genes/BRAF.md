@@ -73,6 +73,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Mutations in 10% of [PCNSL](../cancer_types/PCNSL.md) cases (n=18); identified in genome-wide analysis of primary central nervous system lymphoma [PMID:25991819](../papers/25991819.md)
 - Potentially actionable fusions (BRAF/RAF1) in ~3% of mCRPC patients; identified in integrative genomic analysis of 150 mCRPC biopsies [PMID:26000489](../papers/26000489.md)
 - Mutated in 52% of cutaneous melanoma (V600E n=124, V600K n=18, V600R n=3, K601 n=5); focal amplifications in BRAF subtype; anti-correlated with [NRAS](../genes/NRAS.md) hot-spot and [NF1](../genes/NF1.md) mutations; defines the BRAF-mutant genomic subtype [PMID:26091043](../papers/26091043.md)
+- Mutation in 1/12 (8%) breast adenoid cystic carcinomas; previously reported in 12% (3/25) of an independent breast AdCC cohort; subclonal in at least one case [PMID:26095796](../papers/26095796.md)
+- Rare oncogenic mutation in [SCLC](../cancer_types/SCLC.md) (4 tumours total across BRAF/KIT/PIK3CA); kinase-impairing mutations not V600E — suggests targeted therapy potential for rare SCLC subsets [PMID:26168399](../papers/26168399.md)
+- BRAF V600E absent in desmoplastic melanoma; three tumors carry kinase-impaired G466E, G469E, D594N substitutions that paradoxically activate MAPK via CRAF — means standard BRAF V600-directed inhibitors are not applicable [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -243,5 +246,14 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

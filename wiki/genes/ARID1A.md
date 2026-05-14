@@ -63,6 +63,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 - Chromatin-remodeling gene recurrently mutated in [HCC](../cancer_types/HCC.md); part of SWI/SNF pathway altered in 28% of 243 [HCC](../cancer_types/HCC.md) tumors [PMID:25822088](../papers/25822088.md)
 - Mutated in 6% of PDA by sequencing; protein loss by IHC in independent 296-case cohort significantly associated with poor outcome (P=0.0202); ARID1A-deficient PDA cell lines are synthetically lethal with [ARID1B](../genes/ARID1B.md) depletion [PMID:25855536](../papers/25855536.md)
+- Chromatin-modifier gene mutated in 13.6% of [UTUC](../cancer_types/UTUC.md) vs 27.5% of UCB (p=0.050); mutations are early/clonal events concordant across spatial tumor components in UTUC [PMID:26278805](../papers/26278805.md)
+- Inactivating mutations in the SWI/SNF complex in desmoplastic melanoma; protein loss confirmed by IHC; co-occurs with [ARID2](../genes/ARID2.md) inactivation [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -207,5 +209,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

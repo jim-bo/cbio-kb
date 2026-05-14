@@ -31,7 +31,7 @@ TOX (Thymocyte Selection-Associated High Mobility Group Box) is a transcription 
 
 ## Open questions
 
-- Functional role of TOX loss in [PCNSL](../cancer_types/PCNSL.md) pathogenesis is not validated; no functional experiments in PCNSL models are reported. Prognostic association requires confirmation in larger cohorts. [PMID:25991819](../papers/25991819.md)
+- Functional role of TOX loss in [PCNSL](../cancer_types/PCNSL.md) pathogenesis is not validated; no functional experiments in [PCNSL](../cancer_types/PCNSL.md) models are reported. Prognostic association requires confirmation in larger cohorts. [PMID:25991819](../papers/25991819.md)
 
 ## Sources
 

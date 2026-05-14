@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, stem-cell-program, glioma, progenitor]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # NFIB
@@ -22,6 +22,7 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 - MYB-NFIB fusion (t(6;9)) identified as the dominant structural lesion in adenoid cystic carcinoma (ACC); NFIB also bears independent truncating CTF/NFI mutations (Y249*, P390fs) and 4 homozygous deletions in 57 ACC cases [PMID:23685749](../papers/23685749.md)
 - NFIB is the translocation partner of [MYB](../genes/MYB.md) in 19/24 ACC cases (t(6;9)); SNP6 copy-number breakpoints at the NFIB locus confirmed in MYB-activated cases [PMID:23778141](../papers/23778141.md)
 - Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:24418857](../papers/24418857.md)
+- Identified as 3′ fusion partner in MYB-NFIB chimeric transcripts (NFIB exon 8c or 9 fused to [MYB](../genes/MYB.md) exon 14) in 83% (10/12) of breast adenoid cystic carcinomas (AdCC). [PMID:26095796](../papers/26095796.md)
 
 ## Cancer types (linked)
 
@@ -43,22 +44,25 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

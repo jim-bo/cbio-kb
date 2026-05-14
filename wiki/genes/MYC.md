@@ -68,6 +68,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - In [HCC](../cancer_types/HCC.md), MYC is recurrently amplified. [PMID:25822088](../papers/25822088.md)
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MYC focal amplification at 8q24.13 is uniquely associated with poor overall survival (P=0.0013) and adenosquamous histology ([PAASC](../cancer_types/PAASC.md)); detectable in PanIN precursor lesions; confirmed by break-apart FISH. [PMID:25855536](../papers/25855536.md)
 - In mCRPC, MYC is among recurrent CNAs (8q gain) identified in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
+- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) [PMID:26168399](../papers/26168399.md)
+- Upregulated at mRNA and protein level in SF3B1-mutant/del(13q) CLL cells; mTORC1 activation drives MYC upregulation; pathway enrichment confirmed by GSEA in murine and human CLL [PMID:26200345](../papers/26200345.md)
+- Focal amplification in 1-3 desmoplastic melanoma tumors [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -224,5 +227,14 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

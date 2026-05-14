@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -34,6 +34,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - Activating p.E17K mutation in metastatic castration-resistant prostate cancer (mCRPC); part of PI3K/AKT pathway alterations in 71.3% of cases [PMID:26000489](../papers/26000489.md)
 - Recurrent E17K mutation nominated as a biomarker for combination MEK + PI3K/AKT/mTOR therapy in cutaneous melanoma [PMID:26091043](../papers/26091043.md)
+- Cross-disease context: SF3B1-driven alternative splicing targets AKT1 in other cancers (e.g. breast cancer); used as comparison context in a CLL study where SF3B1-K700E activates mTORC1/MYC via [NFATC1](../genes/NFATC1.md) mis-splicing rather than AKT1 [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -99,7 +100,10 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -42,6 +42,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D (MLL2) nonsense mutations observed in 5/29 (17%) metastatic cSCC cases as part of a 48% chromatin-remodeling inactivation rate; chromatin-remodeling mutations independently associated with shorter PFS and worst outcome in combination with RAS/RTK/PI3K activation. [PMID:25589618](../papers/25589618.md)
 - KMT2D (MLL2) significantly mutated in 18% of 279 [HNSC](../cancer_types/HNSC.md) (MutSigCV q<0.1); contributes to defective immunosurveillance. [PMID:25631445](../papers/25631445.md)
 - KMT2D selectively mutated in mCRPC vs. primary prostate cancer (q<0.1, Benjamini-Hochberg) in the SU2C–PCF 150-case prospective WES cohort [PMID:26000489](../papers/26000489.md)
+- Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
+- Subclonal chromatin remodeling mutation in breast adenoid cystic carcinoma (AdCC); may contribute to intra-tumor heterogeneity and therapeutic escape [PMID:26095796](../papers/26095796.md)
 
 ## Cancer types (linked)
 
@@ -139,4 +141,10 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

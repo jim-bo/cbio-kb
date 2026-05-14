@@ -55,6 +55,9 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Amplification in 6% of PDA (RB-pathway alteration); co-occurs with [CDK4](../genes/CDK4.md) amplification (9%) and CDKN2A/B deletion; part of RB-pathway lesion cluster [PMID:25855536](../papers/25855536.md)
 - Cell-cycle pathway aberration in mCRPC; potentially actionable via [CDK4](../genes/CDK4.md) inhibition; part of RB1/CDKN2A/B/CDK4/CCND1/CDKN1B cluster [PMID:26000489](../papers/26000489.md)
 - Focal amplifications enriched in Triple-WT melanoma subtype; part of CDK4/CCND1 co-amplification pattern [PMID:26091043](../papers/26091043.md)
+- Retained and overexpressed in 2 [SCLC](../cancer_types/SCLC.md) tumors with wild-type [RB1](../genes/RB1.md) due to chromothripsis; proposed as an alternative mechanism of Rb-pathway inactivation when RB1 is intact [PMID:26168399](../papers/26168399.md)
+- Significant association with T stage in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) in a 300-gene panel sequencing study (MSK-IMPACT cohort, n=83 UTUC vs 102 UCB) [PMID:26278805](../papers/26278805.md)
+- Focal amplification (IHC-confirmed) in desmoplastic melanoma; found in 1–3 cases alongside [CDK4](../genes/CDK4.md), [MDM2](../genes/MDM2.md), [YAP1](../genes/YAP1.md), and [MYC](../genes/MYC.md) amplifications [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -174,5 +177,14 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

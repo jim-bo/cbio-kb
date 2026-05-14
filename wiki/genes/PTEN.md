@@ -84,6 +84,7 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - In [HCC](../cancer_types/HCC.md), PTEN is a component of the PI3K/AKT/mTOR pathway altered in 51% of cases. [PMID:25822088](../papers/25822088.md)
 - In mCRPC, PTEN biallelic loss occurs in 40.7% of cases; it is the most common PI3K pathway alteration and co-occurs with [PIK3CB](../genes/PIK3CB.md) activating mutations. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PTEN mutations and deletions are enriched in BRAF-mutant tumors. [PMID:26091043](../papers/26091043.md)
+- Confirmed accessory tumour suppressor in [SCLC](../cancer_types/SCLC.md); validated in mouse models (previously known role in murine SCLC). [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -294,5 +295,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

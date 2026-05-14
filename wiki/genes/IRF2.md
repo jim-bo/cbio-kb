@@ -25,7 +25,7 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutations co-occur with [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) alterations in the oxidative-stress signaling axis in HCC [PMID:24735922](../papers/24735922.md)
+- Mutations co-occur with [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) alterations in the oxidative-stress signaling axis in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 

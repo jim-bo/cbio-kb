@@ -34,6 +34,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Mutated in 6/22 gynaecologic carcinosarcomas (27%, MLL3), mostly missense with truncations; part of the most prominently mutated chromatin-remodelling gene class [PMID:25233892](../papers/25233892.md)
 - Mutated in 38.5% of 39 aggressive cSCC tumors; strongest clinical association — bone invasion 53% vs 10% wild-type (p=0.008); HR 5.16 (95% CI 1.55-17.18) for recurrence or death (p=0.003) [PMID:25303977](../papers/25303977.md)
 - KMT2C among candidate chromatin-remodeling dark-matter drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors included KMT2C [PMID:25417114](../papers/25417114.md)
+- Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -108,5 +109,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

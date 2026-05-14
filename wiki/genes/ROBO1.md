@@ -3,8 +3,8 @@ symbol: ROBO1
 aliases: []
 cancer_types: [PAAD]
 tags: [pancreatic-cancer, axon-guidance, SLIT-ROBO, tumor-suppressor]
-processed_by: entity-page-writer
-processed_at: 2026-05-07
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ROBO1
@@ -15,7 +15,8 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 
 ## Alterations observed in the corpus
 
-- Focal copy-number losses and point mutations identified in pancreatic cancer WES of 142 ICGC tumors; additional mutations found in targeted sequencing; loss of ROBO1 may deregulate MET and WNT pathways [PMID:23103869](../papers/23103869.md)
+- Focal copy-number losses and point mutations identified in pancreatic cancer WES of 142 ICGC tumors; additional mutations found in targeted sequencing; loss of ROBO1 may deregulate [MET](../genes/MET.md) and WNT pathways [PMID:23103869](../papers/23103869.md)
+- Recurrent focal deletion on chromosome 3p12.3-3p12.2 in [SCLC](../cancer_types/SCLC.md) WGS of 110 tumours; co-deleted with [FHIT](../genes/FHIT.md) at 3p14.3-3p14.2 as part of the 3p loss landscape [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 
 - [PMID:23103869](../papers/23103869.md) — Pancreatic cancer WES, 142 ICGC tumors
 
-*This page was processed by **entity-page-writer** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -45,6 +45,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Candidate dark-matter driver in papillary thyroid carcinoma; among additional driver alterations helping reduce unexplained 'dark matter' cases to 3.5% in the TCGA PTC cohort of 402 tumors [PMID:25417114](../papers/25417114.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; patients with biallelic ATM showed clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
+- Referenced as the previously published SF3B1-Atm co-mutant CLL murine model; used as comparison context for the SF3B1/del(13q) double-mutant model demonstrating accelerated CLL development via mTOR pathway activation [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -147,3 +148,6 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

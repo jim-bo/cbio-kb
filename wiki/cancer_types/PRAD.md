@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -41,6 +41,7 @@ OncoTree code for prostate adenocarcinoma.
 - Seven patient-derived 3D organoid lines from metastatic CRPC recapitulated the molecular landscape of advanced prostate cancer, including [PTEN](../genes/PTEN.md) biallelic loss (6/7 lines), [TP53](../genes/TP53.md) inactivation (4/7), [CHD1](../genes/CHD1.md) deletion (3/7), [SPOP](../genes/SPOP.md) F133L hotspot (1/7, first in vitro model), and diverse [AR](../genes/AR.md) status; AR-amplified MSK-PCa2 was sensitive to [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vitro and in xenografts. [PMID:25201530](../papers/25201530.md)
 - Prospective WES + transcriptome sequencing of 150 mCRPC bone/soft-tissue biopsies (SU2C-PCF Dream Team; dataset: [prad_su2c_2015](../datasets/prad_su2c_2015.md)): [AR](../genes/AR.md) altered in 62.7%, ETS fusions 56.7%, [TP53](../genes/TP53.md) 53.3%, [PTEN](../genes/PTEN.md) 40.7%; DNA-repair pathway (BRCA2/BRCA1/ATM) aberrations in 19.3% — substantially higher than primary PRAD; 89% of patients harbored a clinically actionable alteration; 8% had pathogenic germline variants; novel recurrent focal homozygous deletion of [ZBTB16](../genes/ZBTB16.md) at chr11q23 in 5% of cases [PMID:26000489](../papers/26000489.md)
 - Prostate adenocarcinoma (PRAD) multi-omic profiling identified subtypes defined by ETS fusions, SPOP/FOXA1/IDH1 mutations, and distinct epigenetic signatures [PMID:26544944](../papers/26544944.md)
+- Beltran et al. profiled 114 metastatic biopsies from 81 castration-resistant prostate cancer patients (51 CRPC-Adeno, 30 CRPC-NE); concurrent RB1+TP53 loss hallmarks neuroendocrine transdifferentiation (53.3% CRPC-NE vs 13.7% CRPC-Adeno); CYLD deleted in 51% CRPC-NE; 70-gene NEPC classifier (precision/recall >0.99) detects CRPC-NE in up to 8% of metastatic cases across external cohorts [PMID:26855148](../papers/26855148.md)
 
 ## Subtypes
 
@@ -70,22 +71,14 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:41941260](../papers/41941260.md)
 - [PMID:28045614](../papers/28045614.md)
-
 - [PMID:20579941](../papers/20579941.md)
 - [PMID:22610119](../papers/22610119.md)
 - [PMID:22722839](../papers/22722839.md)
 - [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+- [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

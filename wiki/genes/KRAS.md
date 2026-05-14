@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -87,6 +87,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Significant association with T stage in [UTUC](../cancer_types/UTUC.md); part of the subset of [UTUC](../cancer_types/UTUC.md) tumors with FGFR3/HRAS/KRAS mutations associated with lower CNA burden and a 'low-grade-tumor-progression' carcinogenesis model [PMID:26278805](../papers/26278805.md)
 - KrasG12D knock-in by AAV-CRISPR HDR in rats yielded ER+/PR+ ductal carcinoma with papillary features at ~70-day median latency; the same edit in mice produced ER-/PR- metaplastic tumors with squamous differentiation, illustrating species-specific lineage plasticity — KRAS is not commonly mutated in human breast cancer [PMID:26437033](../papers/26437033.md)
 - Mutated in n=14 cases as part of the 4.1% RAS-mutant CLL fraction in a 538-sample WES cohort; therapeutic exploration of MAPK-ERK inhibitors is suggested for the RAS/BRAF/MAP2K1-mutant subset [PMID:26466571](../papers/26466571.md)
+- Major activated RAS-pathway oncogene in periampullary adenocarcinoma; RTK/RAS/PI3K pathway activated in 84–94% of cases across three anatomical subtypes (AMPAC, DUOAC, CAC; n=160); KRAS is one of four MutSig-CV-significant genes restricted to the CAC subset [PMID:26804919](../papers/26804919.md)
+- n=25 KRAS mutations in pan-glioma TCGA cohort (n=1122); confirmed as a recurrently mutated Ras-pathway oncogene in human glioma, previously known mainly from engineered mouse models; co-occurs with NRAS (n=5) [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -300,3 +302,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: ELK4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-05
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # ELK4
@@ -16,6 +16,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Alterations observed in the corpus
 
 - High-level amplification (>10 copies) via double minute chromosome in a myoepithelial carcinoma (MEC2); ETS family transcription factor previously associated with oncogenic cis-splicing in prostate cancer [PMID:36577525](../papers/36577525.md)
+- Mentioned in study [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:36577525](../papers/36577525.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-05**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

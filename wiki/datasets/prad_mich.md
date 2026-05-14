@@ -17,8 +17,8 @@ tags:
   - wes
   - crpc
   - metastatic
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Prostate Cancer — Michigan WES (prad_mich)
@@ -45,6 +45,7 @@ A cohort assembled by the University of Michigan comprising 50 lethal metastatic
 ## Papers using this cohort
 
 - [PMID:22722839](../papers/22722839.md) — Integrative clinical genomics of advanced prostate cancer (Grasso et al., 2012).
+- [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: used as external validation cohort for NEPC classifier; up to 8% of metastatic cases across prad_mich/prad_tcga/prad_su2c_2015 scored NEPC-high.
 
 ## Notable findings derived from this cohort
 
@@ -53,9 +54,11 @@ A cohort assembled by the University of Michigan comprising 50 lethal metastatic
 - [FOXA1](../genes/FOXA1.md) mutations (3.4% of cases) cluster in the C-terminal transactivation domain, repressing the AR transcriptional program and increasing xenograft tumor growth [PMID:22722839](../papers/22722839.md).
 - [TMPRSS2](../genes/TMPRSS2.md):[ERG](../genes/ERG.md) fusion present in the majority of ETS+ cases; [ETS2](../genes/ETS2.md) deleted in ~1/3 of CRPCs [PMID:22722839](../papers/22722839.md).
 - Overall mutation rate in CRPC is low (2.00/Mb), confirming monoclonal origin; genomic complexity arises primarily from copy-number alterations and rearrangements [PMID:22722839](../papers/22722839.md).
+- Used as an external validation cohort (Grasso et al. Michigan CRPC cases) for the NEPC classifier; up to 8% of metastatic samples across prad_mich, prad_tcga, and prad_su2c_2015 scored NEPC-high on pathology re-review [PMID:26855148](../papers/26855148.md)
 
 ## Sources
 
 - [PMID:22722839](../papers/22722839.md)
+- [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

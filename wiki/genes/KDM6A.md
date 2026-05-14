@@ -3,7 +3,7 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -37,6 +37,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between [cisplatin](../drugs/cisplatin.md) responders and non-responders [PMID:25096233](../papers/25096233.md)
 - Chromatin-modifying gene mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); mutations common in both low- and high-grade [UTUC](../cancer_types/UTUC.md) and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - Truncating chromatin-modifier mutations in primary prostate cancer; enriched in the 26% unclassified genomic subset with high SCNA burden [PMID:26544944](../papers/26544944.md)
+- Added to the significantly-mutated gene list in periampullary tumors by an inactivation-bias statistical test (alongside PBRM1 and RECQL4); recurrently inactivated across ampullary, duodenal, and distal bile-duct adenocarcinoma cohort (n=160) [PMID:26804919](../papers/26804919.md)
+- Recurrent chromatin-regulator mutation in adenoid cystic carcinoma (ACC; n=25 WGS); co-occurs with KMT2C, KMT2D, and SMARCA2/SMARCC1 mutations, consistent with a broader chromatin-remodeling axis in ACC pathogenesis [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -115,5 +117,11 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

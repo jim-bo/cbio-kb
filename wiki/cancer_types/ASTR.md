@@ -4,8 +4,8 @@ oncotree_code: ASTR
 main_type: Glioma
 parent: ADIFG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # Astrocytoma, IDH-Mutant (ASTR)
@@ -29,6 +29,7 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 - [TP53](../genes/TP53.md) mutations in 94% and [ATRX](../genes/ATRX.md) mutations in 77% of 1p19q intact IDH-mt astrocytomas in the MSK-IMPACT subcohort [PMID:37910594](../papers/37910594.md).
 - [PIK3R1](../genes/PIK3R1.md) and [PIK3CA](../genes/PIK3CA.md) mutations (with [TP53](../genes/TP53.md) and broad CNV load) used to define "molecular grade-intermediate" in 1p19q intact tumors [PMID:37910594](../papers/37910594.md).
 - Cohort of 23 paired initial/recurrent grade II astrocytomas revealed that in 43% of cases at least half of initial-tumor driver mutations (including [IDH1](../genes/IDH1.md) R132H — universal) were absent at recurrence, and 6 of 10 temozolomide-treated patients developed hypermutated recurrences that all progressed to [GBM](../cancer_types/GBM.md) [PMID:24336570](../papers/24336570.md).
+- TCGA pan-glioma study included 169 astrocytoma cases (16% of 1,122-patient cohort); astrocytoma enriched for IDH-mutant G-CIMP-high and G-CIMP-low methylation subtypes; G-CIMP-low (IDH-mutant non-codel) subset identified as poor-prognosis entity with cell-cycle gene activation (CDK4, CDKN2A) [PMID:26824661](../papers/26824661.md)
 
 ## Subtypes
 
@@ -45,7 +46,7 @@ IDH-mutant astrocytoma (ASTR) is a diffuse glioma subtype defined by IDH1/IDH2 m
 
 - [PMID:38117484](../papers/38117484.md) — The Epigenetic Evolution of Glioma Is Determined by the [IDH1](../genes/IDH1.md) Mutation Status and Treatment Regimen (Cancer Research, 2024)
 - [PMID:37910594](../papers/37910594.md) — Tumor Volume Growth Rates and Doubling Times during Active Surveillance of IDH-mutant Low-Grade Glioma (Clinical Cancer Research, 2024)
-
 - [PMID:24336570](../papers/24336570.md)
+- [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, integrative-genomics, multi-platform, signaling]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -18,6 +18,7 @@ PARADIGM (PAthway Recognition Algorithm using Data Integration on Genomic Models
 ## Used by
 
 - Used in the TCGA breast cancer ILC/IDC multi-platform integrative analysis (n=817) to infer pathway-level activity differences between invasive lobular and invasive ductal carcinoma; contributed to the characterization of AKT/mTOR pathway hyperactivation in [ILC](../cancer_types/ILC.md) (highest pAKT of any breast subtype) and identification of convergent upstream RTK/PTEN/PIK3CA alterations in 40-45% of [ILC](../cancer_types/ILC.md) samples. [PMID:26451490](../papers/26451490.md)
+- PARADIGM used for integrative pathway inference combining genomic, transcriptomic, and copy-number data across 1,122 TCGA diffuse gliomas to model signaling pathway activity [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ PARADIGM (PAthway Recognition Algorithm using Data Integration on Genomic Models
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

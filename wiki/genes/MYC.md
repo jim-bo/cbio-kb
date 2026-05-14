@@ -74,6 +74,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification of MYC is IDC-enriched relative to [ILC](../cancer_types/ILC.md) in TCGA breast cancer molecular profiling; MYC amplification rate is higher in invasive ductal carcinoma than in invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Recurrent focal amplification in 8% of prostate adenocarcinoma tumors in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MYC locus chromothripsis acquired only at recurrence in medulloblastoma case MB-REC-09 (P=3.97x10-7), illustrating de novo oncogene activation as a recurrence mechanism in Shh-subgroup medulloblastoma [PMID:26760213](../papers/26760213.md)
+- Putative MYB target gene in ACC; among downstream targets identified in super-enhancer-driven MYB regulatory program [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -248,5 +249,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

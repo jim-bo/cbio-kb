@@ -56,6 +56,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Affymetrix SNP 6.0 array used for copy-number profiling in breast cancer genomic study [PMID:26168399](../papers/26168399.md)
 - Used for copy-number profiling in the TCGA breast cancer ILC/IDC analysis (n=817), generating somatic copy-number calls for comparison of genomic alterations between invasive lobular and ductal carcinoma subtypes [PMID:26451490](../papers/26451490.md)
 - Applied for copy-number alteration profiling in 333 primary prostate adenocarcinomas in the TCGA molecular taxonomy study; focal SCNAs identified with GISTIC 2.0 [PMID:26544944](../papers/26544944.md).
+- Used for DNA copy-number profiling in the TCGA pan-glioma study (n=1,084 samples); copy-number data from SNP6 arrays combined with exome and RNA-seq data for integrated pathway alteration analysis [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -178,5 +179,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: NCOR1
 aliases: [N-CoR, TRAC1]
 cancer_types: [BRCA]
 tags: [deletion, transcriptional-repressor, breast-cancer, novel-candidate]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -20,6 +20,7 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - Truncating mutations and homozygous deletions identified in breast cancer WES (100 tumors, Sanger cohort); participates in oestrogen receptor alpha transcriptional repression [PMID:22722201](../papers/22722201.md)
 - Chromatin-remodeling gene mutated as part of the cohesin/chromatin-modifier landscape in TCC bladder cancer; mutations totaling 58% of 99 UCGC cases across chromatin-remodeling genes [PMID:24121792](../papers/24121792.md)
 - In mCRPC, NCOR1 was identified as an [AR](../genes/AR.md) pathway regulator recurrently altered in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
+- AR co-activator alteration enriched in CRPC-Adeno (21 cases) vs. CRPC-NE [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

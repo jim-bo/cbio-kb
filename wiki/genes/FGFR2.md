@@ -3,7 +3,7 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - Recurrent fusions/rearrangements in intrahepatic CCA; [futibatinib](../drugs/futibatinib.md) cited as an FGFR2 inhibitor synergizing with [cisplatin](../drugs/cisplatin.md) in CCA [PMID:25608663](../papers/25608663.md)
 - Candidate RTK alteration in HNSCC across HPV groups (Fig. 3) [PMID:25631445](../papers/25631445.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); shared with salivary gland AdCCs; part of FGF-pathway enrichment [PMID:26095796](../papers/26095796.md)
+- MAPK-pathway alteration (with FGFR1, BRAF, NF1, NTRK1/2) enriched in PA-like LGG (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); alterations associated with pilocytic-astrocytoma-like IDH-wildtype LGG subtype [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

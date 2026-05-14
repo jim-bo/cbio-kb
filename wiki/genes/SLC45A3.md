@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - PRAD
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-14"
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # SLC45A3
@@ -18,6 +18,7 @@ SLC45A3 (also known as PROSTEIN) encodes a prostate-specific androgen-regulated 
 ## Alterations observed in the corpus
 
 - Alternative androgen-regulated 5' fusion partner in ETS-family gene fusions in primary prostate cancer; alternative to the dominant TMPRSS2 partner [PMID:26544944](../papers/26544944.md)
+- SLC45A3–ELK4 non-recurrent in-frame fusion detected in a periampullary tumor; previously characterized as a prostate-cancer prognostic marker [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ SLC45A3 (also known as PROSTEIN) encodes a prostate-specific androgen-regulated 
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

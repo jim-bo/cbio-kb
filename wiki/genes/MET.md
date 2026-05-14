@@ -3,7 +3,7 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC, HNSC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -42,6 +42,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET amplified in 1% of [HCC](../cancer_types/HCC.md) (243-case European WES cohort); co-alteration with [HGF](../genes/HGF.md) (3% frequency) in the MET/HGF RTK axis; listed as FDA-targetable in the druggable landscape [PMID:25822088](../papers/25822088.md)
 - Focal amplifications in 2 desmoplastic melanoma tumors, IHC-confirmed; identified as a targetable RTK alteration with potential therapeutic implications [PMID:26343386](../papers/26343386.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (characterized by high [EGFR](../genes/EGFR.md) overexpression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- LINE-element insertion fusion involving MET detected in a single periampullary (DUOAC) tumor lacking KRAS/TP53 mutations, with high MET expression [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -136,3 +137,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

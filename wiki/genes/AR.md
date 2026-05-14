@@ -28,6 +28,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Amplification in MSK-PCa2 (mirrors ~50% of CRPC); silenced in MSK-PCa1; high-level expression with AR target-gene programs in MSK-PCa2/PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
 - Amplification and hotspot mutations (T878A, W742C, L702H, and novel mutations) in ~62.7% of mCRPC cases; AR pathway aggregate 71.3%; AR-V7 splice variant detectable in most pre-abiraterone/enzalutamide cases [PMID:26000489](../papers/26000489.md)
 - Mutation/amplification essentially absent in primary prostate cancer but frequent in mCRPC; AR-V7 and other splice variants detectable at low levels in primary tumors (TCGA prostate cohort) [PMID:26544944](../papers/26544944.md)
+- Focal amplification, activating point mutations, and ARv7 splice variant common in CRPC-Adeno but largely absent/low-level in CRPC-NE; AR signaling attenuated in CRPC-NE as part of lineage plasticity toward neuroendocrine differentiation [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -69,5 +70,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

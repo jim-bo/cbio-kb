@@ -3,7 +3,7 @@ symbol: SMARCC1
 aliases: [BAF155, SRG3]
 cancer_types: [PAAD]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -16,6 +16,7 @@ SMARCC1 (SWI/SNF Related Matrix Associated Actin Dependent Regulator of Chromati
 ## Alterations observed in the corpus
 
 - Part of SWI/SNF chromatin-remodelling lesions present in >42% of pancreatic ductal adenocarcinoma cases (along with [SMARCA2](../genes/SMARCA2.md), [SMARCA4](../genes/SMARCA4.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [PBRM1](../genes/PBRM1.md)); specific individual frequency not reported separately. [PMID:25855536](../papers/25855536.md)
+- SMARCC1 recurrently mutated in adenoid cystic carcinoma (ACC) of the salivary gland as a chromatin-regulator mutation alongside SMARCA2 and KDM6A [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SMARCC1 (SWI/SNF Related Matrix Associated Actin Dependent Regulator of Chromati
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

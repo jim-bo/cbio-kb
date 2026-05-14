@@ -21,6 +21,7 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vivo. [PMID:25201530](../papers/25201530.md)
 - 30 serially transplanted breast cancer PDX lines established in NSG and NRG mice via subcutaneous, subrenal capsule, and mammary fat pad implantation over up to 16 generations; clonal selection on engraftment was universal across all 15 WGS-characterized series [PMID:25470049](../papers/25470049.md)
 - Subcutaneous xenograft models used to assess in vivo drug sensitivity in ovarian cancer cell line experiments [PMID:26200345](../papers/26200345.md)
+- ACC patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
 
 ## Notes
 
@@ -39,5 +40,8 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

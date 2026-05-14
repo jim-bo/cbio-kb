@@ -27,6 +27,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - Promoter mutations in 85% (17/20) of evaluable desmoplastic melanoma samples; overall TERT activation (promoter mutation + amplification) in 90% of tumours; the most common genomic alteration in desmoplastic melanoma [PMID:26343386](../papers/26343386.md)
 - Recurrent 5p15.33 structural rearrangements ~50 kb upstream of the TSS in 31% (12/39) of high-risk WGS cases and 13% (28/217) of extended neuroblastoma cohort; rearrangements hijack enhancer/super-enhancer elements causing transcriptional upregulation, mono-allelic expression, and telomerase activation; mutually exclusive with [MYCN](../genes/MYCN.md) amplification and [ATRX](../genes/ATRX.md) mutations [PMID:26466568](../papers/26466568.md)
 - Amplification present at diagnosis but lost at recurrence in medulloblastoma case MB-REC-14, illustrating that targets identified in therapy-naive tumours may be absent in the dominant relapse clone [PMID:26760213](../papers/26760213.md)
+- TERT promoter mutations in 48% of diffuse gliomas drive TERT mRNA upregulation and co-occur with chr7 gain / chr10 loss in IDH-wildtype glioma; TERTp mutation did not independently predict survival after adjusting for age and grade in this cohort [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +78,8 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

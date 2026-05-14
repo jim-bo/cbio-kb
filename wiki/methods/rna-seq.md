@@ -80,6 +80,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on neuroblastoma tumors (Illumina HiSeq 2000) alongside custom 4x44K Agilent oligonucleotide microarrays; quantified [TERT](../genes/TERT.md) expression showing 92-fold higher levels in TERT-rearranged vs low-risk tumors and higher than MYCN-amplified tumors (P=0.028) [PMID:26466568](../papers/26466568.md)
 - Used in 156 of 538 CLL whole-exome samples for orthogonal validation; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with >90% detection power; MGA-mutant CLLs showed downregulation of MYC-suppressed B-cell gene sets [PMID:26466571](../papers/26466571.md)
 - Profiled mRNA expression in 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform characterization; 19 matched non-malignant adjacent samples profiled for methylation and RNA/miRNA expression [PMID:26544944](../papers/26544944.md).
+- TruSeq Stranded Total RNA, 100 bp paired-end, ≥50 M reads applied to 30 periampullary tumors (28 AMPAC + 2 DUOAC) to characterize WNT-pathway transcriptional dysregulation [PMID:26804919](../papers/26804919.md)
+- Applied to 1,045 diffuse gliomas in the TCGA pan-glioma study; TERT mRNA quantified as a 91% sensitive / 95% specific surrogate for TERTp mutation status; also used for LGr1–4 expression cluster derivation [PMID:26824661](../papers/26824661.md)
+- Used alongside WGS and ChIP-seq in adenoid cystic carcinoma (ACC) primagrafts and primary tumors to characterize MYB-driven transcriptional programs and the BRD4 super-enhancer landscape [PMID:26829750](../papers/26829750.md)
+- TruSeq, HiSeq 2500, 2×75 bp paired-end applied to 49 metastatic CRPC specimens (Adeno + NE) to identify the 70-gene NEPC classifier and characterize EZH2/PRC2 target dysregulation [PMID:26855148](../papers/26855148.md)
+- Illumina HiSeq 2000, ≥50M paired 100×100 bp reads applied to 17 adenoid cystic carcinoma (ACC) tumors; NFIB overexpression confirmed independent of fusion status (p=0.002 vs normal tissue); quantification by RSEM [PMID:26862087](../papers/26862087.md)
 
 ## Notes
 
@@ -252,5 +257,20 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

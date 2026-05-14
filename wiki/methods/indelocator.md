@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # Indelocator
@@ -25,6 +25,7 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - Used for indel calling in 149 esophageal adenocarcinoma WGS/WES pairs alongside MuTect; median 104 non-silent coding mutations per tumor [PMID:23525077](../papers/23525077.md)
 - Used to call somatic indels from whole-exome data of 45 [BRAF](../genes/BRAF.md) V600 metastatic melanoma FFPE tumors (DeCOG cohort) as part of the Broad Picard/Firehose pipeline alongside MuTect for SNVs [PMID:24265153](../papers/24265153.md).
 - Used to call somatic indels in 50 muscle-invasive urothelial carcinoma tumors as part of the cisplatin-response WES study. [PMID:25096233](../papers/25096233.md)
+- One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic indel detection in 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -41,3 +42,6 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - [PMID:25096233](../papers/25096233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

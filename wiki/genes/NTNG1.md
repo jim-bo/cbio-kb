@@ -8,8 +8,8 @@ tags:
   - neural-crest
   - melanocyte-state
   - LowMut-marker
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # NTNG1
@@ -21,6 +21,7 @@ NTNG1 (Netrin-G1) encodes a GPI-anchored netrin family protein involved in axon 
 ## Alterations observed in the corpus
 
 - NTNG1 is a transcriptomic LowMut marker in normal human skin melanocytes; expressed in the low-UV-mutation-burden neural-crest-lineage subpopulation. Co-expressed with [MYL9](../genes/MYL9.md), [MYLK](../genes/MYLK.md), [PALLD](../genes/PALLD.md), [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [ITM2A](../genes/ITM2A.md), [TAGLN](../genes/TAGLN.md), [SGCE](../genes/SGCE.md), [HACD1](../genes/HACD1.md), [SEMA3C](../genes/SEMA3C.md), [TCF4](../genes/TCF4.md), [DAAM2](../genes/DAAM2.md), and [RGMB](../genes/RGMB.md). [PMID:39975212](../papers/39975212.md)
+- Axon-guidance pathway gene with a single-tumor somatic mutation in ACC [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ NTNG1 (Netrin-G1) encodes a GPI-anchored netrin family protein involved in axon 
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

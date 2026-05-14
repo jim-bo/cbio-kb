@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -35,6 +35,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype in a TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Heterozygous loss often co-incident with [BRCA2](../genes/BRCA2.md) loss at 13q in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 - 13q14.2 deletion in 4/25 (16%) Sézary syndrome [PMID:26551667](../papers/26551667.md)
+- Deletion in 70% of CRPC-NE vs. 32% of CRPC-Adeno (P = 0.003); concurrent RB1+TP53 loss in 53.3% of CRPC-NE (P < 0.0004) [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -111,3 +112,6 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

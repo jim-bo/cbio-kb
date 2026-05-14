@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -75,6 +75,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used via Complete Genomics cPAL platform (NCBI Build 37) on 21 salivary adenoid cystic carcinoma test-set tumors; enabled discovery of novel MYBL1-NFIB fusions from t(8;9) translocations and diverse [MYBL1](../genes/MYBL1.md) rearrangements [PMID:26631609](../papers/26631609.md).
 - Applied to 14 primary uveal melanoma samples with matched germline; BWA alignment to GRCh37, SAMtools/bcftools variant calling, Janda SV calling, and binocular CNV segmentation; enabled discovery of [PLCB4](../genes/PLCB4.md) p.D630Y hotspot and BRCA-like mutational signature in 79% of samples [PMID:26683228](../papers/26683228.md).
 - Used for alignment to GRCh37-lite in 15 matched primary/recurrent medulloblastoma pairs with germline controls plus 18 pairs without germline (46 total samples); demonstrated <12% shared somatic SNVs/indels between primary and recurrent tumors [PMID:26760213](../papers/26760213.md).
+- WGS used for telomere-length analysis and TERT-promoter mutation detection in a subset of diffuse gliomas from the TCGA pan-glioma cohort; ATRX-mutant gliomas showed significantly longer telomeres than TERTp-mutant samples (ALT mechanism) [PMID:26824661](../papers/26824661.md)
+- WGS on Illumina HiSeq 2500 (100 bp paired-end) of 20 ACC tumors and primagrafts with reads aligned to hg19 by BWA; rearrangements called with dRanger and BreakPointer; identified MYB super-enhancer hijacking mechanism [PMID:26829750](../papers/26829750.md)
+- WGS of 25 ACC tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel NFIB fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
 
 ## Notes
 
@@ -243,3 +246,12 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

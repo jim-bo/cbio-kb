@@ -52,8 +52,8 @@ Desmoplastic melanoma (DESM) is a rare, deeply invasive cutaneous melanoma varia
 
 ## Therapeutic landscape
 
-- BRAF V600-directed inhibitors ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) are **not** appropriate for desmoplastic melanoma due to absence of BRAF V600E and NRAS Q61K/R [PMID:26343386](../papers/26343386.md).
-- Targetable RTK/MAPK alterations identified in 73% of tumors; small-molecule inhibitors against [MET](../genes/MET.md), EGFR, ERBB2, [IDH1](../genes/IDH1.md), MAP2K1, [PIK3CA](../genes/PIK3CA.md), and [CDK4](../genes/CDK4.md) products represent potential therapeutic avenues [PMID:26343386](../papers/26343386.md).
+- [BRAF](../genes/BRAF.md) V600-directed inhibitors ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) are **not** appropriate for desmoplastic melanoma due to absence of BRAF V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md).
+- Targetable RTK/MAPK alterations identified in 73% of tumors; small-molecule inhibitors against [MET](../genes/MET.md), [EGFR](../genes/EGFR.md), [ERBB2](../genes/ERBB2.md), [IDH1](../genes/IDH1.md), [MAP2K1](../genes/MAP2K1.md), [PIK3CA](../genes/PIK3CA.md), and [CDK4](../genes/CDK4.md) products represent potential therapeutic avenues [PMID:26343386](../papers/26343386.md).
 - Exceptionally high TMB (median 62 mutations/Mb) positions DESM as a strong candidate for immune checkpoint inhibitor therapy [PMID:26343386](../papers/26343386.md).
 
 ## Sources

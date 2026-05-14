@@ -15,7 +15,7 @@ DLEU2 (Deleted in Lymphocytic Leukemia 2) is a long non-coding RNA gene at chrom
 
 ## Alterations observed in the corpus
 
-- Comprises the minimal deleted region (Mdr) of 13q14 along with DLEU1 and MIR15A; Mdr loss alone gives low-penetrance CLL but cooperates with SF3B1 K700E mutation for full disease acceleration in murine models [PMID:26200345](../papers/26200345.md)
+- Comprises the minimal deleted region (Mdr) of 13q14 along with [DLEU1](../genes/DLEU1.md) and [MIR15A](../genes/MIR15A.md); Mdr loss alone gives low-penetrance CLL but cooperates with [SF3B1](../genes/SF3B1.md) K700E mutation for full disease acceleration in murine models [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ DLEU2 (Deleted in Lymphocytic Leukemia 2) is a long non-coding RNA gene at chrom
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-deleted with DLEU1 and MIR15A at 13q14; double-mutant SF3B1-K700E + del(13q) CLL shows shorter time to first therapy and inferior OS compared to single-lesion CLL [PMID:26200345](../papers/26200345.md)
+- Co-deleted with DLEU1 and MIR15A at 13q14; double-mutant SF3B1-K700E + del(13q) CLL shows shorter time to first therapy and inferior [OS](../cancer_types/OS.md) compared to single-lesion CLL [PMID:26200345](../papers/26200345.md)
 
 ## Therapeutic relevance
 

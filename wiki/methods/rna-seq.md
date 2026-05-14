@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -74,6 +74,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - mRNA sequencing (Illumina TruSeq, HiSeq 2000) on 331 melanoma samples enabled identification of three transcriptomic subclasses (Immune, Keratin, MITF-low) and 224 candidate fusion drivers. [PMID:26091043](../papers/26091043.md)
 - RNA-seq used for transcriptome profiling in breast cancer genomic analysis [PMID:26168399](../papers/26168399.md)
 - RNA-seq used for transcriptome profiling as part of multi-omic characterization of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- Used in 40-42 of 110 metastatic melanoma pretreatment tumors ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)) to measure cytolytic activity ([GZMA](../genes/GZMA.md)+[PRF1](../genes/PRF1.md) geometric mean) and immune checkpoint expression ([CTLA4](../genes/CTLA4.md), [PDCD1LG2](../genes/PDCD1LG2.md)); each independently associated with [ipilimumab](../drugs/ipilimumab.md) clinical benefit [PMID:26359337](../papers/26359337.md)
+- Performed on 35 AAV-CRISPR-edited rat mammary tumors across six genotype groups; ANOVA (FDR<1%) identified 1,579 differentially expressed genes; intrinsic subtype assignment classified most tumors as Luminal A or B; GSEA of fulvestrant-responsive DEGs showed significant concordance with human patient neoadjuvant endocrine therapy datasets [PMID:26437033](../papers/26437033.md)
+- Used in the TCGA breast ILC/IDC multi-platform study (n=817) for mRNA expression profiling; enabled definition of three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) and orthogonal validation of mutation calls (78.1% of CLL gene mutations detected at sites with >90% detection power) [PMID:26451490](../papers/26451490.md)
+- Performed on neuroblastoma tumors (Illumina HiSeq 2000) alongside custom 4x44K Agilent oligonucleotide microarrays; quantified [TERT](../genes/TERT.md) expression showing 92-fold higher levels in TERT-rearranged vs low-risk tumors and higher than MYCN-amplified tumors (P=0.028) [PMID:26466568](../papers/26466568.md)
+- Used in 156 of 538 CLL whole-exome samples for orthogonal validation; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with >90% detection power; MGA-mutant CLLs showed downregulation of MYC-suppressed B-cell gene sets [PMID:26466571](../papers/26466571.md)
 
 ## Notes
 
@@ -220,13 +225,28 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

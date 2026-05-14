@@ -8,7 +8,7 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -26,6 +26,7 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - DDX3X is identified as a novel significantly mutated gene in medulloblastoma WES of 92 tumors (Broad cohort), with mutations concentrated in the WNT subgroup and showing male predominance [PMID:22820256](../papers/22820256.md)
 - Identified as significantly mutated in CLL (160 tumors, Broad cohort), with somatic mutations enriched in the RNA helicase domain [PMID:23415222](../papers/23415222.md)
 - Novel candidate SMG (RNA helicase) in cutaneous melanoma; previously unreported in melanoma [PMID:26091043](../papers/26091043.md)
+- Enriched in CLL samples receiving prior therapy; identified as a driver in CLL whole-exome sequencing study of 538 patients (n=278 CLL8 trial) [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

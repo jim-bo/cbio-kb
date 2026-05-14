@@ -32,7 +32,7 @@ SPTA1 encodes alpha-spectrin 1, a cytoskeletal protein critical for red blood ce
 
 ## Open questions
 
-- Whether SPTA1 mutations in GBM represent true driver events or are passenger mutations facilitated by high mutation rate is unresolved; the cytoskeletal biology of SPTA1 does not have an obvious mechanistic connection to gliomagenesis.
+- Whether SPTA1 mutations in [GBM](../cancer_types/GBM.md) represent true driver events or are passenger mutations facilitated by high mutation rate is unresolved; the cytoskeletal biology of SPTA1 does not have an obvious mechanistic connection to gliomagenesis.
 
 ## Sources
 

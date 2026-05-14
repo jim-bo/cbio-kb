@@ -38,7 +38,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 inactivated in 24% of metastatic cSCC (truncating/COSMIC mutations); up to 69% if all nonsynonymous SNVs included; truncating NOTCH1 and [EP300](../genes/EP300.md) events are mutually exclusive. [PMID:25589618](../papers/25589618.md)
 - NOTCH1 inactivating mutations in 19% of [HNSC](../cancer_types/HNSC.md) (MutSigCV q<0.1, TCGA n=279); [NOTCH2](../genes/NOTCH2.md) 9% and [NOTCH3](../genes/NOTCH3.md) 5% non-significant; convergent with [FAT1](../genes/FAT1.md) and [AJUBA](../genes/AJUBA.md) on β-catenin signalling; basal mRNA subtype enriched for NOTCH1 inactivation. [PMID:25631445](../papers/25631445.md)
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), NOTCH1 alterations were present in 10% of cases, contributing to the NOTCH pathway total of ~31% alteration frequency (amplification/mutation); γ-secretase inhibitor (MK0752) is nominated as a therapeutic candidate. [PMID:25855536](../papers/25855536.md)
-- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses SCLC initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
+- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

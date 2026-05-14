@@ -28,7 +28,7 @@ FGF3 (Fibroblast Growth Factor 3) is a member of the FGF family involved in cell
 
 ## Therapeutic relevance
 
-- FGF3/4/19 co-amplification nominates FGFR inhibitors as therapeutic candidates in HCC [PMID:25822088](../papers/25822088.md)
+- FGF3/4/19 co-amplification nominates FGFR inhibitors as therapeutic candidates in [HCC](../cancer_types/HCC.md) [PMID:25822088](../papers/25822088.md)
 
 ## Open questions
 

@@ -31,7 +31,7 @@ MACF1 (Microtubule Actin Crosslinking Factor 1) is a spectraplakin that links th
 
 ## Open questions
 
-- Functional validation of MACF1 as a tumour suppressor in the WNT pathway in HCC is needed. [PMID:25822088](../papers/25822088.md)
+- Functional validation of MACF1 as a tumour suppressor in the WNT pathway in [HCC](../cancer_types/HCC.md) is needed. [PMID:25822088](../papers/25822088.md)
 
 ## Sources
 

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # ASXL1
@@ -23,6 +23,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - ASXL1 mutations detected in prostate cancer WES of 112 tumors (Michigan cohort), implicating chromatin deregulation in prostate cancer [PMID:22722839](../papers/22722839.md)
 - Anchor of the third mutual-exclusivity set in [AML](../cancer_types/AML.md) (vs. cohesin-complex and other epigenetic modifier mutations); part of the epigenetic-modifier gene category in the TCGA [AML](../cancer_types/AML.md) cohort ([laml_tcga_pub](../datasets/laml_tcga_pub.md), n=200) [PMID:23634996](../papers/23634996.md)
 - Somatic variants in 13/12 patients across [MPN](../cancer_types/MPN.md) subtypes (PV/ET/MF); co-mutated with splicing factors [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md) in a pattern echoing [MDS](../cancer_types/MDS.md) [PMID:24325359](../papers/24325359.md)
+- ASXL1 identified as a chromatin modification driver in CLL in a 538-sample WES study; classified in the chromatin modification pathway alongside [BAZ2B](../genes/BAZ2B.md) and [IKZF3](../genes/IKZF3.md) [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -46,19 +47,22 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:38147626](../papers/38147626.md)
 - [PMID:38949888](../papers/38949888.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -98,9 +98,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - In mCRPC, PIK3CA harbors hotspot mutations, focal amplifications, and novel activating fusions; part of the PI3K pathway altered in 49% (73/150) of cases in the SU2C–PCF cohort; activating fusions result in PIK3CA overexpression. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PIK3CA mutations (E545K, H1047L) were identified as recurrent events and nominated as biomarkers for combination MEK + PI3K/AKT/mTOR therapy. [PMID:26091043](../papers/26091043.md)
 - Absent in 12 breast adenoid cystic carcinomas (AdCC); sharp contrast to ~10% mutation rate in common-type basal-like/TNBC, highlighting distinct mutational landscape of breast AdCC. [PMID:26095796](../papers/26095796.md)
-- Rare oncogenic kinase mutation (along with [BRAF](../genes/BRAF.md) and [KIT](../genes/KIT.md)) in [SCLC](../cancer_types/SCLC.md); found in only 4 tumors total, suggesting genotyping SCLC patients may identify rare candidates for targeted therapy. [PMID:26168399](../papers/26168399.md)
+- Rare oncogenic kinase mutation (along with [BRAF](../genes/BRAF.md) and [KIT](../genes/KIT.md)) in [SCLC](../cancer_types/SCLC.md); found in only 4 tumors total, suggesting genotyping [SCLC](../cancer_types/SCLC.md) patients may identify rare candidates for targeted therapy. [PMID:26168399](../papers/26168399.md)
 - Mutated in 10.2% of upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) vs 21.6% of urothelial carcinoma of the bladder (UCB) (p=0.084 trend); E542K hotspot in 1 tumor. [PMID:26278805](../papers/26278805.md)
 - E542K hotspot mutation in 1 desmoplastic melanoma tumor. [PMID:26343386](../papers/26343386.md)
+- Mutated in 48% of [ILC](../cancer_types/ILC.md) vs 33% of [IDC](../cancer_types/IDC.md); not associated with pAKT levels in this dataset despite driving PI3K pathway activation — [CDH1](../genes/CDH1.md) loss and upstream RTK alterations ([ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md)) proposed as context-permissive factors [PMID:26451490](../papers/26451490.md)
+- HDR-based introduction of H1047R into rat Pik3ca yielded predominantly benign fibroadenomas (8/10); combined Pik3caH1047R + Tp53Indel produced moderately differentiated invasive ductal carcinoma at 42-day median latency in a CRISPR rat mammary tumor platform [PMID:26437033](../papers/26437033.md)
 
 ## Cancer types (linked)
 
@@ -350,5 +352,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

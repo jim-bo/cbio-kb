@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, chromatin, epigenomics]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ChIP-seq
@@ -17,7 +17,8 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 
 ## Used by
 
-- Used with a Flag antibody in EWS::FLI1-transduced heMSCs (GEO GSE272959) to map genome-wide EWS::FLI1 binding sites; identified 3,086 peaks predominantly in intronic (1,065) and intergenic (1,186) regions at tandem CA dinucleotide microsatellites — a binding pattern qualitatively distinct from GGAA promoter-enhancer occupancy in transformed A673 Ewing cells. [PMID:25186949](../papers/25186949.md)
+- Used with a Flag antibody in EWS::FLI1-transduced heMSCs (GEO GSE272959) to map genome-wide EWS::[FLI1](../genes/FLI1.md) binding sites; identified 3,086 peaks predominantly in intronic (1,065) and intergenic (1,186) regions at tandem CA dinucleotide microsatellites — a binding pattern qualitatively distinct from GGAA promoter-enhancer occupancy in transformed A673 Ewing cells. [PMID:25186949](../papers/25186949.md)
+- Performed for H3K27ac, H3K4me1, H3K4me3, H3K36me3, H3K9me3, and H3K27me3 in three TERT-rearranged neuroblastoma tumours and cell lines, demonstrating enhancer-hijacking mechanism: rearrangements juxtapose [TERT](../genes/TERT.md) to super-enhancer clusters, spreading active chromatin marks and displacing H3K27me3 repression [PMID:26466568](../papers/26466568.md)
 
 ## Notes
 
@@ -26,4 +27,7 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

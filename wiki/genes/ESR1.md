@@ -3,8 +3,8 @@ symbol: ESR1
 aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
-processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ESR1
@@ -17,6 +17,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 - ESR1 mutations were enriched after prior systemic therapy in the MSK-CHORD 24,950-patient pan-cancer real-world cohort, confirmed as post-treatment alterations in [BRCA](../cancer_types/BRCA.md) (breast cancer) patients annotated by NLP; ESR1 was grouped with [CCND1](../genes/CCND1.md) and [NF1](../genes/NF1.md) as an endocrine-resistance signature enriched after prior therapy [PMID:39506116](../papers/39506116.md).
 - Activating mutations in 4 metastatic breast cancer cases linked to endocrine therapy resistance; distal ESR1 binding site hypomethylation associated with suppression of cell-adhesion genes in metastases [PMID:36585450](../papers/36585450.md)
+- [ILC](../cancer_types/ILC.md) and [IDC](../cancer_types/IDC.md) differentially modulate ER activity via [FOXA1](../genes/FOXA1.md) vs [GATA3](../genes/GATA3.md); LumA ILC has lower total and phospho-ER than LumA IDC [PMID:26451490](../papers/26451490.md)
+- Rat tumors broadly express ER protein; Esr1 mRNA correlates with Pgr expression in CRISPR-engineered ER+ breast cancer rat models; ESR1 ligand-binding-domain mutations flagged as a future expansion of the somatic editing platform [PMID:26437033](../papers/26437033.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +30,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 ## Therapeutic relevance
 
-- ESR1 mutation status informs second-line endocrine therapy selection (e.g., elacestrant, fulvestrant) in HR+ breast cancer; enrichment after prior systemic therapy in MSK-CHORD is consistent with clinical practice guidelines [PMID:39506116](../papers/39506116.md).
+- ESR1 mutation status informs second-line endocrine therapy selection (e.g., elacestrant, [fulvestrant](../drugs/fulvestrant.md)) in HR+ breast cancer; enrichment after prior systemic therapy in MSK-CHORD is consistent with clinical practice guidelines [PMID:39506116](../papers/39506116.md).
 
 ## Open questions
 
@@ -38,7 +40,13 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

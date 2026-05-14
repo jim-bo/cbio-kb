@@ -24,7 +24,7 @@ FGA (Fibrinogen Alpha Chain) encodes a component of fibrinogen, a hepatocyte-sec
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-mutated with [ALB](../genes/ALB.md) and [APOB](../genes/APOB.md) as part of the hepatic-differentiation pathway (34% alteration) in HCC [PMID:25822088](../papers/25822088.md)
+- Co-mutated with [ALB](../genes/ALB.md) and [APOB](../genes/APOB.md) as part of the hepatic-differentiation pathway (34% alteration) in [HCC](../cancer_types/HCC.md) [PMID:25822088](../papers/25822088.md)
 
 ## Therapeutic relevance
 

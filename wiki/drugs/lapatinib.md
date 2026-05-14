@@ -13,7 +13,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR](../genes/EGFR.md) and [ERBB2](../genes/ERBB2.md) (HER2) tyrosine kinase domains. It is FDA-approved for HER2-positive metastatic breast cancer in combination with [capecitabine](../drugs/capecitabine.md) and for HER2+ metastatic/locally advanced breast cancer in combination with letrozole. It blocks downstream MAPK and PI3K/AKT signaling from both receptors.
+Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR](../genes/EGFR.md) and [ERBB2](../genes/ERBB2.md) (HER2) tyrosine kinase domains. It is FDA-approved for HER2-positive metastatic breast cancer in combination with [capecitabine](../drugs/capecitabine.md) and for HER2+ metastatic/locally advanced breast cancer in combination with [letrozole](../drugs/letrozole.md). It blocks downstream MAPK and PI3K/AKT signaling from both receptors.
 
 ## Evidence in the corpus
 

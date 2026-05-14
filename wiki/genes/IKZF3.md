@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - BLL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # IKZF3
@@ -18,6 +18,7 @@ IKZF3 (IKAROS Family Zinc Finger 3, also known as Aiolos) is a zinc-finger trans
 ## Alterations observed in the corpus
 
 - Deletions and frameshift mutations in 13.2% of near haploid ALL (St. Jude WGS/WES, 44 pediatric ALL tumors); shRNA knockdown increases pERK and pS6, functionally linking IKZF3 loss to Ras/PI3K pathway activation [PMID:23334668](../papers/23334668.md)
+- Recurrent L162R substitution in CLL (n=11, 2.0%; conservation 93/100); novel CLL driver with CCF rising in 3 of 4 relapse cases; key B-cell transcription factor; classified in chromatin modification driver group [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ IKZF3 (IKAROS Family Zinc Finger 3, also known as Aiolos) is a zinc-finger trans
 - [PMID:23334668](../papers/23334668.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

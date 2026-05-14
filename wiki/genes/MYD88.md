@@ -3,7 +3,7 @@ symbol: MYD88
 aliases: []
 cancer_types: [CLLSLL, PCNSL, DLBCLNOS, DLBCL]
 tags: [nfkb, m-cll, temporal-ordering, bcr-pathway, LymphGen]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -23,6 +23,7 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - Predominantly clonal/early event in CLL; n=12 cases, clonal in 80-100% of harboring samples; mutations identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 - Rare mutation observed in a subset of MM patients lacking the canonical 11 driver mutations; also cited as a DLBCL driver distinguishing it from the MM mutation landscape [PMID:24434212](../papers/24434212.md)
 - In primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)), MYD88 activating mutations occur in 79% (11/14) of immunocompetent cases, predominantly L265P plus rare V217F and M232T; ~2× the prevalence seen in nodal ABC-DLBCL. [PMID:25991819](../papers/25991819.md)
+- Enriched in IGHV-mutated CLL subtype in a 538-sample WES cohort (CLL8 trial) [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -65,3 +66,6 @@ MYD88 is a TLR/IL-1R adaptor and a recurrent driver in lymphoid malignancies inc
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

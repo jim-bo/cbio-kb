@@ -25,6 +25,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - Recurrently amplified at 5p15.33 by GISTIC analysis in pancreatic ductal adenocarcinoma (109-case WES cohort). [PMID:25855536](../papers/25855536.md)
 - Promoter C228T (23.5%) and C250T (40.9%) mutations mutually exclusive in cutaneous melanoma; only C228T raises TERT mRNA; depleted in Triple-WT subtype (6.7%, P=8e-5), where TERT is activated via amplification or rearrangement instead. [PMID:26091043](../papers/26091043.md)
 - Promoter mutations in 85% (17/20) of evaluable desmoplastic melanoma samples; overall TERT activation (promoter mutation + amplification) in 90% of tumours; the most common genomic alteration in desmoplastic melanoma [PMID:26343386](../papers/26343386.md)
+- Recurrent 5p15.33 structural rearrangements ~50 kb upstream of the TSS in 31% (12/39) of high-risk WGS cases and 13% (28/217) of extended neuroblastoma cohort; rearrangements hijack enhancer/super-enhancer elements causing transcriptional upregulation, mono-allelic expression, and telomerase activation; mutually exclusive with [MYCN](../genes/MYCN.md) amplification and [ATRX](../genes/ATRX.md) mutations [PMID:26466568](../papers/26466568.md)
 
 ## Cancer types (linked)
 
@@ -40,7 +41,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 ## Open questions
 
-- Telomerase inhibitors are not validated in HCC. TERT's role as the most frequent trunk driver across all molecular classes makes it a high-priority but challenging therapeutic target.
+- Telomerase inhibitors are not validated in [HCC](../cancer_types/HCC.md). TERT's role as the most frequent trunk driver across all molecular classes makes it a high-priority but challenging therapeutic target.
 
 ## Sources
 
@@ -69,5 +70,8 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

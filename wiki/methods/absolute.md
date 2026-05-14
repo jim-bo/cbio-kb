@@ -27,6 +27,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used to estimate cancer cell fractions (CCFs) for [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), and [EIF1AX](../genes/EIF1AX.md) driver mutations in 402 PTCs; all driver mutations were confirmed as largely clonal, with one exception showing subclonal [EIF1AX](../genes/EIF1AX.md) on a background of clonal [KRAS](../genes/KRAS.md) and [BRAF](../genes/BRAF.md) mutations [PMID:25417114](../papers/25417114.md)
 - ABSOLUTE used to estimate copy-number purity and ploidy from Affymetrix SNP 6.0 data in 333 cutaneous melanoma samples as part of the TCGA [SKCM](../cancer_types/SKCM.md) integrative analysis. [PMID:26091043](../papers/26091043.md)
 - Used as copy-number absolute quantification method in whole-exome sequencing analysis of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
+- Applied in the TCGA breast cancer ILC/IDC multi-platform study (n=817) to estimate tumor purity and ploidy, supporting clonality-corrected genomic comparisons between invasive lobular and ductal carcinoma [PMID:26451490](../papers/26451490.md)
+- Used in whole-exome sequencing of 538 CLL samples (CLL8 trial cohort) to estimate tumor purity and clonal fractions, enabling CCF-based temporal ordering of driver acquisition and tracking of clonal shifts at relapse [PMID:26466571](../papers/26466571.md)
 
 ## Notes
 
@@ -50,5 +52,11 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - CLL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # EGR2
@@ -17,6 +17,7 @@ EGR2 (Early Growth Response 2) is a zinc-finger transcription factor that plays 
 ## Alterations observed in the corpus
 
 - Identified as a novel CLL driver candidate in a WES study of 160 CLL tumors (Broad cohort); EGR2 mutations are predicted to impair apoptosis induction; validation in independent cohorts noted as needed [PMID:23415222](../papers/23415222.md)
+- Previously reported as a candidate CLL driver but not confirmed as a PFS hit in the CLL8 chemoimmunotherapy trial cohort (n=538 patients) [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ EGR2 (Early Growth Response 2) is a zinc-finger transcription factor that plays 
 - [PMID:23415222](../papers/23415222.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

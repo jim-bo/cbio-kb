@@ -3,8 +3,8 @@ symbol: ATRX
 aliases: []
 cancer_types: [AST, DIFG, ANGS, LMS]
 tags: [chromatin-remodeler, alt, astrocytoma]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ATRX
@@ -26,6 +26,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - Recurrent loss-of-function in pancreatic neuroendocrine neoplasms (PanNENs); all DAXX/ATRX-mutant cases fell into transcriptome Cluster A in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
 - Shared early-driver mutation in low-grade glioma showing convergent-evolution pattern similar to [TP53](../genes/TP53.md); same ATRX mutation acquired independently in initial and recurrent tumors of patient 17, demonstrating branched clonal evolution under [temozolomide](../drugs/temozolomide.md) treatment [PMID:24336570](../papers/24336570.md)
 - Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
+- ATRX inactivating mutations identified in 7/56 WGS neuroblastoma cases, exclusively in tumors lacking [MYCN](../genes/MYCN.md) amplification and [TERT](../genes/TERT.md) rearrangement; ATRX-mutant tumors show alternative lengthening of telomeres (ALT) as the third axis of telomere maintenance in high-risk neuroblastoma [PMID:26466568](../papers/26466568.md)
 
 ## Cancer types (linked)
 
@@ -53,25 +54,28 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - [PMID:38488807](../papers/38488807.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

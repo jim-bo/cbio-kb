@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [COAD]
 tags: [th1, icr, immune-signature]
 processed_by: crosslinker
-processed_at: 2026-04-10
+processed_at: 2026-05-14
 ---
 
 # IFNG
@@ -16,6 +16,7 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 ## Alterations observed in the corpus
 
 - Th1-signaling component of the 20-gene ICR signature used to stratify colon cancer immune subtypes in the AC-ICAM cohort [PMID:37202560](../papers/37202560.md).
+- Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 ILC TCGA + n=106 LumA ILC) [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ IFNG encodes interferon gamma, the defining Th1 cytokine that drives anti-tumor 
 
 - [PMID:37202560](../papers/37202560.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

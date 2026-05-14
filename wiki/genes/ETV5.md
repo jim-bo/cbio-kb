@@ -29,7 +29,7 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 
 ## Therapeutic relevance
 
-- Not directly targeted in the corpus; ETV5 upregulation is a functional biomarker of CIC inactivation [PMID:27806376](../papers/27806376.md).
+- Not directly targeted in the corpus; ETV5 upregulation is a functional biomarker of [CIC](../genes/CIC.md) inactivation [PMID:27806376](../papers/27806376.md).
 
 ## Open questions
 

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -26,6 +26,7 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed [HIF1A](../genes/HIF1A.md) drives glycolysis while HIF2A drives dedifferentiation [PMID:23797736](../papers/23797736.md)
 - Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 [GBC](../cancer_types/GBC.md) patients) to identify 16 cell types including [ACTA2](../genes/ACTA2.md)+ and [MFAP5](../genes/MFAP5.md)+ CAF subpopulations with co-expression of [YAP1](../genes/YAP1.md) and [SEMA7A](../genes/SEMA7A.md) [PMID:24997986](../papers/24997986.md)
 - Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter [OS](../cancer_types/OS.md) and immunotherapy resistance with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers [PMID:25608663](../papers/25608663.md)
+- 10x Chromium Single Cell Gene Expression 3'v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors [PMID:26437033](../papers/26437033.md)
 
 ## Notes
 
@@ -57,3 +58,6 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

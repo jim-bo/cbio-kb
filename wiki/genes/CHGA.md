@@ -17,7 +17,7 @@ CHGA (chromogranin A) is a neuroendocrine secretory protein widely used as a mar
 ## Alterations observed in the corpus
 
 - CHGA is part of the noradrenergic/adrenergic panel alongside [PHOX2B](../genes/PHOX2B.md), [PHOX2A](../genes/PHOX2A.md), [TH](../genes/TH.md), [DBH](../genes/DBH.md), [CHGB](../genes/CHGB.md), [PNMT](../genes/PNMT.md), and [ISL1](../genes/ISL1.md); these genes mark the NOR (noradrenergic) tumor clusters and postnatal chromaffin cells in normal adrenal gland identified by single-nuclei RNA-seq of 11 neuroblastoma tumors [PMID:34493726](../papers/34493726.md).
-- Neuroendocrine expression marker defining [SCLC](../cancer_types/SCLC.md) transcriptional subtypes; distinguishes ASCL1-high neuroendocrine subtype from NOTCH-activated non-neuroendocrine SCLC [PMID:26168399](../papers/26168399.md)
+- Neuroendocrine expression marker defining [SCLC](../cancer_types/SCLC.md) transcriptional subtypes; distinguishes ASCL1-high neuroendocrine subtype from NOTCH-activated non-neuroendocrine [SCLC](../cancer_types/SCLC.md) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

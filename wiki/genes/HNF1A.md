@@ -23,7 +23,7 @@ HNF1A (Hepatocyte Nuclear Factor 1 Alpha) is a transcription factor critical for
 
 ## Co-occurrence and mutual exclusivity
 
-- HNF1A and [IL6ST](../genes/IL6ST.md) mutation distributions were jointly used to support the conclusion that non-fibrotic-liver HCC does not commonly arise via hepatocellular adenoma transformation. [PMID:25822088](../papers/25822088.md)
+- HNF1A and [IL6ST](../genes/IL6ST.md) mutation distributions were jointly used to support the conclusion that non-fibrotic-liver [HCC](../cancer_types/HCC.md) does not commonly arise via hepatocellular adenoma transformation. [PMID:25822088](../papers/25822088.md)
 
 ## Therapeutic relevance
 

@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -115,6 +115,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Whole-exome sequencing applied to 91 adrenocortical carcinoma samples to identify somatic mutations and copy-number alterations [PMID:26095796](../papers/26095796.md)
 - Whole-exome sequencing used to characterize somatic mutations in breast cancer genomic study [PMID:26168399](../papers/26168399.md)
 - Whole-exome sequencing used to profile somatic mutations in colorectal cancer [PMID:26343386](../papers/26343386.md)
+- Performed on pretreatment tumor and matched germline DNA from 110 metastatic melanoma patients ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)) at mean coverage 183.7x (tumor) / 157.2x (germline); nonsynonymous mutational load (median 197/sample) and predicted neoantigen load were each significantly associated with [ipilimumab](../drugs/ipilimumab.md) clinical benefit [PMID:26359337](../papers/26359337.md)
+- Applied to 817 breast tumors (TCGA ILC/IDC study) for somatic mutation calling; identified [CDH1](../genes/CDH1.md) (63% [ILC](../cancer_types/ILC.md) vs 2% [IDC](../cancer_types/IDC.md)), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), [PIK3CA](../genes/PIK3CA.md), [FOXA1](../genes/FOXA1.md) as ILC-enriched drivers and [TP53](../genes/TP53.md) as IDC-enriched; no CDH1 promoter hypermethylation observed [PMID:26451490](../papers/26451490.md)
+- Applied to 538 CLL samples with matched germline DNA (mean depth 95x); identified 44 recurrently mutated driver genes and 11 recurrent sCNVs; longitudinal WES of 59 matched pre-treatment/relapse pairs showed clonal evolution in 97% (57/59) of cases [PMID:26466571](../papers/26466571.md)
 
 ## Notes
 
@@ -368,10 +371,19 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

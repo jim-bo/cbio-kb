@@ -40,12 +40,14 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig CV v1.4 applied to aggressive cSCC WES (39 tumors) despite extreme UV-driven mutation burden (median 61.2 mutations/Mb); identified 11 significant driver genes at q<0.1, including [TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [NOTCH1](../genes/NOTCH1.md), [NOTCH2](../genes/NOTCH2.md), [AJUBA](../genes/AJUBA.md), [HRAS](../genes/HRAS.md), [CASP8](../genes/CASP8.md) [PMID:25303977](../papers/25303977.md)
 - Identified 7 significantly mutated genes (q<0.1) in 402 papillary thyroid carcinomas: [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [HRAS](../genes/HRAS.md), [KRAS](../genes/KRAS.md), [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md); [EIF1AX](../genes/EIF1AX.md) was a novel PTC driver (q=5.3×10⁻⁸) [PMID:25417114](../papers/25417114.md)
 - MutSigCV identified 16 significantly mutated genes (q<0.2) in 78 gastric adenocarcinomas, including [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [CDH1](../genes/CDH1.md), [APC](../genes/APC.md), [RHOA](../genes/RHOA.md), [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [MYC](../genes/MYC.md), and [KRAS](../genes/KRAS.md); 13 were mutated in ≥5% of tumors [PMID:25583476](../papers/25583476.md)
-- Applied (versions 1.5, 2.0, and CV; most significant of three taken) to identify recurrently mutated genes in 29 metastatic cSCC tumors from [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) sequencing; identified TP53 (79%), [CDKN2A](../genes/CDKN2A.md) (48%), NOTCH1/2/4, and chromatin-remodeling genes as significantly mutated [PMID:25589618](../papers/25589618.md)
+- Applied (versions 1.5, 2.0, and CV; most significant of three taken) to identify recurrently mutated genes in 29 metastatic cSCC tumors from [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) sequencing; identified [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), NOTCH1/2/4, and chromatin-remodeling genes as significantly mutated [PMID:25589618](../papers/25589618.md)
 - MutSigCV applied to TCGA [HNSC](../cancer_types/HNSC.md) WES data (n=279); identified 11 significantly mutated genes at q<0.1 including TP53, [CDKN2A](../genes/CDKN2A.md), [FAT1](../genes/FAT1.md), [PIK3CA](../genes/PIK3CA.md), [NOTCH1](../genes/NOTCH1.md), [KMT2D](../genes/KMT2D.md), [NSD1](../genes/NSD1.md), [CASP8](../genes/CASP8.md), [AJUBA](../genes/AJUBA.md), [NFE2L2](../genes/NFE2L2.md), and [HLA-A](../genes/HLA-A.md); additional trend-significant genes at q<1 [PMID:25631445](../papers/25631445.md)
 - MutSigCV used to identify 14 significantly mutated genes (q < 0.05) in 243 [HCC](../cancer_types/HCC.md) exomes including TP53, [CTNNB1](../genes/CTNNB1.md), [AXIN1](../genes/AXIN1.md), and TERT-pathway genes. [PMID:25822088](../papers/25822088.md)
 - MutSigCV applied to 109 microdissected PDA exomes identifying 24 significantly mutated genes at ≥3.5% frequency; meta-analysis with 99-case ICGC cohort (208-case total) added [ATM](../genes/ATM.md), [ARID2](../genes/ARID2.md), [TGFBR2](../genes/TGFBR2.md), [ACVR1B](../genes/ACVR1B.md). [PMID:25855536](../papers/25855536.md)
 - MutSig used to assess recurrence of somatic mutations in 150 mCRPC cases, identifying TP53 as most selectively enriched versus primary prostate cancer (q<0.001). [PMID:26000489](../papers/26000489.md)
 - MutSig (Q < 0.1) and InVEx (Bonferroni p < 0.05) together called 42 and 13 significantly mutated genes respectively in 318 melanoma WES cases, including novel SMGs [RAC1](../genes/RAC1.md), [DDX3X](../genes/DDX3X.md), [MRPS31](../genes/MRPS31.md), and [RPS27](../genes/RPS27.md). [PMID:26091043](../papers/26091043.md)
+- Applied to the TCGA breast ILC/IDC cohort (n=817) for significantly mutated gene discovery; identified ILC-enriched drivers [CDH1](../genes/CDH1.md), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), [PIK3CA](../genes/PIK3CA.md), and [FOXA1](../genes/FOXA1.md), plus IDC-enriched TP53 and [MYC](../genes/MYC.md) amplification [PMID:26451490](../papers/26451490.md)
+- Used to identify 44 recurrently mutated genes across 538 CLL whole-exomes (CLL8 trial), achieving 94%/61% power at 3%/2% mutation frequency; discovered novel drivers [RPS15](../genes/RPS15.md), [IKZF3](../genes/IKZF3.md), [MGA](../genes/MGA.md), [BRAF](../genes/BRAF.md) (non-V600E), and [MAP2K1](../genes/MAP2K1.md) [PMID:26466571](../papers/26466571.md)
 
 ## Notes
 
@@ -141,5 +143,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

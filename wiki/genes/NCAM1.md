@@ -15,7 +15,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Alterations observed in the corpus
 
-- Neuroendocrine expression marker defining SCLC transcriptional subtypes; expressed alongside [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high subtype; expression is suppressed upon Notch pathway activation which drives transition to the non-neuroendocrine subtype [PMID:26168399](../papers/26168399.md)
+- Neuroendocrine expression marker defining [SCLC](../cancer_types/SCLC.md) transcriptional subtypes; expressed alongside [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high subtype; expression is suppressed upon Notch pathway activation which drives transition to the non-neuroendocrine subtype [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with ASCL1, DLK1, CHGA, GRP, and SYP in the neuroendocrine-high SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
+- Co-expressed with [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

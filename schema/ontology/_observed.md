@@ -165,6 +165,8 @@
 - method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition
 - method: radiomics — observed in PMID:38362943 — note: quantitative imaging feature extraction; downstream use case for RADCURE
 - method: dicom-rt-struct — observed in PMID:38362943 — note: DICOM RT-STRUCT format for organ-at-risk and target contours
+- drug: fulvestrant — observed in PMID:26437033 — note: SERD; endocrine-sensitive Nf1Indel rat tumors regress completely; Nf1+Tp53 co-editing confers resistance
+- drug: letrozole — observed in PMID:26437033 — note: aromatase inhibitor; GSE5462 benchmark dataset for neoadjuvant endocrine-therapy transcriptomic concordance in rat ER+ breast cancer models
 - drug: obeticholic-acid — observed in PMID:25608663 — note: FXR agonist (OCA/INT-747); suppresses CCA proliferation via NR1H4-SHP-STAT3 axis; heterogeneous FXR expression limits single-agent activity
 - drug: vancomycin — observed in PMID:25608663 — note: oral glycopeptide antibiotic; immunomodulatory in PSC (improved GGT/ALP); multiple completed/active trials; antibiotic-immunotherapy caution noted
 - drug: neomycin — observed in PMID:25608663 — note: oral aminoglycoside; blocks CXCL1-PMN-MDSC axis in CCA preclinical models
@@ -204,6 +206,15 @@
 - method: dicom-rt-planning — observed in PMID:30179230 — note: RTPLAN + RTDOSE re-exported from Pinnacle v9.6 for 215 HNSCC RT patients; mean dose 68.66 Gy in 28-40 fractions
 - method: body-composition-ct — observed in PMID:30179230 — note: L3-level CT skeletal muscle index (SMI) and adipose index (ADI) in 215 HNSCC RT patients; first public HNSCC RT dataset with body-composition data
 - dataset: tcia-tcga-ov — observed in PMID:35764743 — note: TCIA CT imaging for TCGA-OV ovarian cases used in this multimodal HGSOC study (n=148 TCGA patients)
+- method: aav-crispr-somatic-editing — observed in PMID:26437033 — note: AAV-delivered CRISPR-Cas9 somatic genome editing platform for in vivo tumor modeling in rats; intraductal delivery in mammary gland
+- method: amplicon-sequencing — observed in PMID:26437033 — note: amplicon deep sequencing of AAV-CRISPR-edited loci to quantify Indel rates and HDR efficiency in rat mammary tumors
+- method: clanc — observed in PMID:26451490 — note: Comparative Latent Neoantigen Classification; centroid-based classifier used to assign TCGA breast tumors to ILC-like or IDC-like classes in mixed IDC/ILC analysis
+- method: gsea — observed in PMID:26437033 — note: Gene Set Enrichment Analysis; used to show concordance of fulvestrant-responsive rat tumor DEGs with human neoadjuvant endocrine therapy datasets (GSE5462, GSE71791)
+- method: intraductal-aav-delivery — observed in PMID:26437033 — note: surgical technique for delivering AAV vectors directly into rat mammary ductal tree; enables luminal epithelial cell-specific genome editing
+- method: isopure — observed in PMID:26451490 — note: ISOpure computational tumor purity deconvolution; one of three orthogonal classifiers for assigning mixed IDC/ILC breast tumors to molecular classes
+- method: oncosign — observed in PMID:26451490 — note: OncoSign adapted classifier; one of three orthogonal methods (alongside ISOpure and ElasticNet) used to classify 88 mixed IDC/ILC breast tumors as ILC-like or IDC-like
+- method: paradigm — observed in PMID:26451490 — note: PAthway Recognition Algorithm using Data Integration on Genomic Models; used for pathway-level activity inference in TCGA breast ILC/IDC integrative analysis
+- method: whole-genome-bisulfite-seq — observed in PMID:26451490 — note: WGBS run on 5 TCGA breast tumor samples to validate Illumina 450K methylation array calls; confirmed absence of CDH1 promoter hypermethylation in ILC
 - method: sigma-mutational-signatures — observed in PMID:35764743 — note: SigMA algorithm called COSMIC SBS3 (HRD signature) in 130 MSKCC HGSOC samples; high-confidence n=48, low-confidence n=30
 - method: stardist-nuclei — observed in PMID:35764743 — note: StarDist-QuPath pipeline for nuclear segmentation on H&E WSIs with detection-probability threshold 0.5
 - method: multimodal-late-fusion — observed in PMID:35764743 — note: Cox late-fusion framework integrating radiomic, histopathological, genomic and clinical submodels by summing log partial hazards; chosen over early fusion to enable learning from partial-information cases

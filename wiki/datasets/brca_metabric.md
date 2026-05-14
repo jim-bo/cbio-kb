@@ -15,8 +15,8 @@ tags:
   - integrative clustering
   - copy number
   - expression
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # METABRIC Breast Cancer (brca_metabric)
@@ -48,9 +48,17 @@ METABRIC (Molecular Taxonomy of Breast Cancer International Consortium) is a lar
 - IntClust 2 (11q13/14 cis-acting, ER-positive, n = 45) was a high-risk subgroup driven by [CCND1](../genes/CCND1.md), [EMSY](../genes/EMSY.md), [PAK1](../genes/PAK1.md), and [RSF1](../genes/RSF1.md) amplifications (discovery HR 3.620, 95% CI 1.905-6.878) [PMID:22522925](../papers/22522925.md)
 - IntClust 4 (CNA-devoid, n = 167) had favourable prognosis and was enriched for lymphocytic infiltration and adaptive immune response signatures [PMID:22522925](../papers/22522925.md)
 - Germline variants and somatic CNAs influenced expression of >39% (11,198/28,609) of expression probes genome-wide [PMID:22522925](../papers/22522925.md)
+- Used as an external reference cohort for cross-species transcriptome comparison; 10.5% TP53/PIK3CA co-mutation rate cited to contextualize rat CRISPR model findings [PMID:26437033](../papers/26437033.md)
+- Served as the validation cohort for the three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative); reactive-like ILC had better DSS (HR=0.47, p=0.038) and [OS](../cancer_types/OS.md) (HR=0.50, p=0.023) than proliferative ILC [PMID:26451490](../papers/26451490.md)
 
 ## Sources
 
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

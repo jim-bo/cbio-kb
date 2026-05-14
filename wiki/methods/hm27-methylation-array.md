@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [methylation, dna-methylation, illumina, infinium]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # Illumina Infinium HumanMethylation27 BeadChip (HM27)
@@ -17,7 +17,8 @@ The Illumina Infinium HumanMethylation27 BeadChip (HM27) is a genome-wide DNA me
 
 ## Used by
 
-- Applied to 283 [GBM](../cancer_types/GBM.md) samples (plus 91 reanalyzed) as part of TCGA GBM 2013 multi-platform methylation analysis; contributed to the identification of G-CIMP methylation subclasses and the six-class methylation model (M1–M6) [PMID:24120142](../papers/24120142.md)
+- Applied to 283 [GBM](../cancer_types/GBM.md) samples (plus 91 reanalyzed) as part of TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform methylation analysis; contributed to the identification of G-CIMP methylation subclasses and the six-class methylation model (M1–M6) [PMID:24120142](../papers/24120142.md)
+- Included as one of the methylation platforms in the TCGA ILC/IDC multi-platform profiling (n=817 tumors); methylation data contributed to epigenetic characterization showing no [CDH1](../genes/CDH1.md) promoter hypermethylation in [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
 
 ## Notes
 
@@ -27,4 +28,7 @@ The Illumina Infinium HumanMethylation27 BeadChip (HM27) is a genome-wide DNA me
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

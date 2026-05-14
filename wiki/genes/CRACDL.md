@@ -15,7 +15,7 @@ CRACDL (also referred to in the literature by its previous designation KIAA1211)
 
 ## Alterations observed in the corpus
 
-- Significantly mutated gene in SCLC (110-tumour WGS cohort); biological function described as "much less clear" by authors; functional experiments required to establish role [PMID:26168399](../papers/26168399.md)
+- Significantly mutated gene in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); biological function described as "much less clear" by authors; functional experiments required to establish role [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

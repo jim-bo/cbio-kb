@@ -15,7 +15,7 @@ INPP4A (Inositol Polyphosphate-4-Phosphatase Type I A) is a phosphatase involved
 
 ## Alterations observed in the corpus
 
-- Among the top 14 frequently altered genes in upper tract urothelial carcinoma (UTUC); included in the orthogonal MiSeq confirmation panel used to validate MSK-IMPACT findings [PMID:26278805](../papers/26278805.md)
+- Among the top 14 frequently altered genes in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); included in the orthogonal MiSeq confirmation panel used to validate MSK-IMPACT findings [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 

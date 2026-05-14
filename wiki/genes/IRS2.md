@@ -17,7 +17,7 @@ IRS2 (Insulin Receptor Substrate 2) encodes a cytoplasmic signaling adapter that
 ## Alterations observed in the corpus
 
 - Overexpression on chromosome 13 identified in TCGA colorectal adenocarcinoma cohort (276 tumors); mutually exclusive with [IGF2](../genes/IGF2.md) overexpression and PI3K pathway mutations [PMID:22810696](../papers/22810696.md)
-- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); identified among genes with recurrent copy number gains in the SCLC genomic landscape [PMID:26168399](../papers/26168399.md)
+- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); identified among genes with recurrent copy number gains in the [SCLC](../cancer_types/SCLC.md) genomic landscape [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -25,7 +25,7 @@ IRS2 (Insulin Receptor Substrate 2) encodes a cytoplasmic signaling adapter that
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with IGF2 overexpression and PIK3CA/PIK3R1/PTEN alterations in colorectal adenocarcinoma, supporting a shared downstream PI3K/IGF signaling node [PMID:22810696](../papers/22810696.md)
+- Mutually exclusive with [IGF2](../genes/IGF2.md) overexpression and PIK3CA/PIK3R1/PTEN alterations in colorectal adenocarcinoma, supporting a shared downstream PI3K/IGF signaling node [PMID:22810696](../papers/22810696.md)
 
 ## Therapeutic relevance
 

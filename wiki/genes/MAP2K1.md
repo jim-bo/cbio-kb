@@ -25,6 +25,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - Metastasis-private Q56P mutation confirmed by transfection to hyperactivate ERK signaling at levels comparable to known-activating K57N; A106T verified inactive by Western blot in a paired primary/metastasis CRC cohort [PMID:25164765](../papers/25164765.md)
 - MAP2K1 (MEK1) recurrent significantly mutated gene (SMG) in MAPK pathway in cutaneous melanoma (TCGA 333-sample cohort); nominated as part of the MAPK pathway landscape including [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [NF1](../genes/NF1.md), and [RAC1](../genes/RAC1.md) [PMID:26091043](../papers/26091043.md)
 - P124S/L hotspot mutations in 2 desmoplastic melanoma tumors; identified as a targetable MAPK pathway alteration — small-molecule MEK inhibitors noted as potential therapeutic avenue [PMID:26343386](../papers/26343386.md)
+- Recurrent somatic mutations in n=12 (2.0%) of 538 CLL cases; novel MAPK-pathway CLL driver; enriched in prior-treatment samples; contributes to the 8.7% of CLL with NRAS/KRAS/BRAF/MAP2K1 mutations for which MEK inhibition is proposed [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

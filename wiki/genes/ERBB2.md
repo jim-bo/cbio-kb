@@ -62,6 +62,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Low-frequency but FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (MAP kinase / RTK pathway) [PMID:25822088](../papers/25822088.md)
 - Significant association with T stage in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
 - Recurrent S310F hotspot missense mutation in 4 desmoplastic melanoma tumors; identified as potentially targetable RTK alteration [PMID:26343386](../papers/26343386.md)
+- Amplification and mutations identified among upstream drivers of AKT activation in [ILC](../cancer_types/ILC.md); previously reported in relapsed ILC (Ross et al., 2013) [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
@@ -177,5 +178,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -24,7 +24,7 @@ SMAD3 is a transcriptional mediator of TGF-beta signaling. Upon TGF-beta recepto
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-mutated with SMAD4 in the metastatic lesion of patient 3 in a matched CRC primary-metastasis study [PMID:25164765](../papers/25164765.md)
+- Co-mutated with [SMAD4](../genes/SMAD4.md) in the metastatic lesion of patient 3 in a matched CRC primary-metastasis study [PMID:25164765](../papers/25164765.md)
 
 ## Therapeutic relevance
 

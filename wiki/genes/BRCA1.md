@@ -39,7 +39,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 alterations detected in 6 cases (3%) in a cfDNA study of metastatic urothelial carcinoma (mUC, n=200 patients, CALGB 90601); pooled into underpowered DDR analysis [PMID:40256659](../papers/40256659.md).
 - Germline P/LP variants identified as incidental findings in KIT/PDGFRA-mutant GISTs in paired tumor-normal sequencing [PMID:36593350](../papers/36593350.md)
 - Germline/somatic mutations define HRD-Dup subtype with tandem duplications in [HGSOC](../cancer_types/HGSOC.md); 36/116 patients with LOH in any HLA class I gene in validation cohort [PMID:36517593](../papers/36517593.md)
-- BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL paradigm [PMID:36334560](../papers/36334560.md)
+- BRCA1 screened as DDR candidate in [FBXO7](../genes/FBXO7.md) synthetic lethality study; referenced for PARP inhibitor SL [paradigm](../methods/paradigm.md) [PMID:36334560](../papers/36334560.md)
 - BRCA1 oncogenic mutations in 3 [GBC](../cancer_types/GBC.md) patients (OncoKB level 3B); associated with HRD and PARP inhibitor eligibility [PMID:36228155](../papers/36228155.md)
 - Found mutated or epigenetically silenced in ~20% of [HGSOC](../cancer_types/HGSOC.md) tumors in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - BRCA1 somatic mutations identified in breast cancer WES of 100 tumors as part of the driver gene landscape [PMID:22722201](../papers/22722201.md)

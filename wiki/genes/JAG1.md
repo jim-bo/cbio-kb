@@ -24,7 +24,7 @@ JAG1 (Jagged canonical Notch ligand 1) encodes a Notch pathway ligand. In oral s
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-gained with [JAG2](../genes/JAG2.md) in OSCC; both are Notch pathway ligands; NOTCH1 is mutated in 9% of OSCC and functions as a tumor suppressor [PMID:23619168](../papers/23619168.md)
+- Co-gained with [JAG2](../genes/JAG2.md) in OSCC; both are Notch pathway ligands; [NOTCH1](../genes/NOTCH1.md) is mutated in 9% of OSCC and functions as a tumor suppressor [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 

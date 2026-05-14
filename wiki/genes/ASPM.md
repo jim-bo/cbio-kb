@@ -19,7 +19,7 @@ ASPM (abnormal spindle microtubule assembly) encodes a centrosomal protein criti
 
 ## Alterations observed in the corpus
 
-- Clustered mutations in centrosome-associated genes in SCLC (110-tumor WGS cohort); ASPM co-clustered with [ALMS1](../genes/ALMS1.md) and [PDE4DIP](../genes/PDE4DIP.md); biological role in SCLC explicitly noted as unclear by authors [PMID:26168399](../papers/26168399.md)
+- Clustered mutations in centrosome-associated genes in [SCLC](../cancer_types/SCLC.md) (110-tumor WGS cohort); ASPM co-clustered with [ALMS1](../genes/ALMS1.md) and [PDE4DIP](../genes/PDE4DIP.md); biological role in SCLC explicitly noted as unclear by authors [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +27,7 @@ ASPM (abnormal spindle microtubule assembly) encodes a centrosomal protein criti
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-clustered with [ALMS1](../genes/ALMS1.md) and PDE4DIP in SCLC; all three are centrosome-associated genes forming a recurrently mutated group [PMID:26168399](../papers/26168399.md)
+- Co-clustered with [ALMS1](../genes/ALMS1.md) and [PDE4DIP](../genes/PDE4DIP.md) in SCLC; all three are centrosome-associated genes forming a recurrently mutated group [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

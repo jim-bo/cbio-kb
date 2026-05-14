@@ -3,7 +3,7 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -50,6 +50,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS mutation status used as a baseline driver-mutation stratifier in melanoma patients receiving CTLA-4 blockade (ipilimumab/tremelimumab); no significant enrichment by clinical benefit category was observed [PMID:25409260](../papers/25409260.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), NRAS is mutated in 28% of cases; dominant hot-spots are Q61R (35), Q61K (28), Q61L (11), Q61H (4); defines the RAS genomic subtype. Mutations are mutually exclusive with [BRAF](../genes/BRAF.md) V600/K601 hot-spots; NRAS amplifications co-occur with NRAS mutations. Highest phospho-ERK1/2 by RPPA in RAS subtype. [PMID:26091043](../papers/26091043.md)
 - Canonical Q61K/R mutations absent in desmoplastic melanoma; one tumor harbored atypical Q61H substitution. [PMID:26343386](../papers/26343386.md)
+- Mutated in n=9 cases as part of the 4.1% RAS-mutant CLL fraction in a 538-sample WES cohort; contributes to the 8.7% of CLLs with MAPK-pathway mutations for which MEK inhibition is proposed [PMID:26466571](../papers/26466571.md)
+- No enrichment of nonsynonymous NRAS mutations by clinical-benefit vs. no-benefit subgroups in a 110-patient metastatic melanoma cohort treated with [ipilimumab](../drugs/ipilimumab.md) (CTLA-4 blockade), despite prior reports linking NRAS status to immunotherapy response [PMID:26359337](../papers/26359337.md)
 
 ## Cancer types (linked)
 
@@ -166,4 +168,10 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26359337](../papers/26359337.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

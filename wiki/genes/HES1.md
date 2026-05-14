@@ -11,7 +11,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-HES1 (Hes Family BHLH Transcription Factor 1) is a canonical downstream target of NOTCH signaling. In small cell lung cancer ([SCLC](../cancer_types/SCLC.md)), HES1 upregulation upon Notch activation suppresses neuroendocrine differentiation, consistent with the tumor-suppressive role of Notch signaling in SCLC.
+HES1 (Hes Family BHLH Transcription Factor 1) is a canonical downstream target of NOTCH signaling. In small cell lung cancer ([SCLC](../cancer_types/SCLC.md)), HES1 upregulation upon Notch activation suppresses neuroendocrine differentiation, consistent with the tumor-suppressive role of Notch signaling in [SCLC](../cancer_types/SCLC.md).
 
 ## Alterations observed in the corpus
 

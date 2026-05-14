@@ -15,7 +15,7 @@ NFATC1 (Nuclear Factor of Activated T-Cells 1) is a transcription factor regulat
 
 ## Alterations observed in the corpus
 
-- Alternative splicing of exons 8/9 driven by SF3B1-K700E mutation produces a short isoform 5 (exon 9-skipped) preferentially in SF3B1-mutant/del(13q) CLL cells; isoform 5 activates mTORC1 (p-4E-BP1) and upregulates MYC; isoform 2 (full-length) instead activates AKT/S6; validated in HG3, MEC1 isogenic SF3B1-K700E cell lines and Ba/F3-MYC system [PMID:26200345](../papers/26200345.md)
+- Alternative splicing of exons 8/9 driven by SF3B1-K700E mutation produces a short isoform 5 (exon 9-skipped) preferentially in SF3B1-mutant/del(13q) CLL cells; isoform 5 activates mTORC1 (p-4E-BP1) and upregulates [MYC](../genes/MYC.md); isoform 2 (full-length) instead activates AKT/S6; validated in HG3, MEC1 isogenic SF3B1-K700E cell lines and Ba/F3-MYC system [PMID:26200345](../papers/26200345.md)
 
 ## Cancer types (linked)
 

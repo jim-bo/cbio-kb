@@ -32,7 +32,7 @@ JAG2 (Jagged canonical Notch ligand 2) encodes a Notch pathway ligand. In oral s
 
 ## Open questions
 
-- Whether JAG2 copy gain drives cis-inhibition of NOTCH1 (reinforcing tumor suppression) or activates Notch signaling (oncogenic) is unresolved [PMID:23619168](../papers/23619168.md)
+- Whether JAG2 copy gain drives cis-inhibition of [NOTCH1](../genes/NOTCH1.md) (reinforcing tumor suppression) or activates Notch signaling (oncogenic) is unresolved [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 

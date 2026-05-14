@@ -3,8 +3,8 @@ symbol: NFKBIE
 aliases: []
 cancer_types: [CLLSLL, CHL]
 tags: [nfkb-pathway]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # NFKBIE
@@ -17,6 +17,7 @@ NFKBIE encodes IkB-epsilon, an inhibitor of NF-kB signaling. In the corpus it ap
 
 - Known lower-frequency CLL driver, reconfirmed as prognostic in U-CLL in the 1,148-patient CLL map [PMID:35927489](../papers/35927489.md).
 - Mutated in 15% of classic Hodgkin lymphoma cases profiled by WGS/WES (n=61); NF-kB pathway driver [PMID:36723991](../papers/36723991.md).
+- Novel recurrent promoter hotspot mutations in 14.5% of desmoplastic melanoma samples (9 at primary site, 2 at nearby secondary site); plus focal amplification in 2 tumors; biallelic selection demonstrated; loss of NFκB nuclear translocation in mutant cell lines, suggesting gain-of-function event suppressing NFκB signaling. [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ NFKBIE encodes IkB-epsilon, an inhibitor of NF-kB signaling. In the corpus it ap
 - [PMID:36723991](../papers/36723991.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

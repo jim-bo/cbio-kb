@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -40,6 +40,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used in nccRCC study to validate ASPSCR1-TFE3 and PRCC-TFE3 fusions in translocation RCCs, and to confirm [TFEB](../genes/TFEB.md) focal amplification and CLTC-TFEB fusion [PMID:25401301](../papers/25401301.md)
 - Vysis LSI [MYC](../genes/MYC.md) dual-colour break-apart FISH probe used to confirm 8q24.13 [MYC](../genes/MYC.md) amplification (without translocation) in PDA; [MYC](../genes/MYC.md) amplification uniquely associated with poor [OS](../cancer_types/OS.md) (P=0.0013) and adenosquamous histology. [PMID:25855536](../papers/25855536.md)
 - Interphase FISH applied to assess IGH-BCL6, [PRKCD](../genes/PRKCD.md), and [TOX](../genes/TOX.md) rearrangements in 11 [PCNSL](../cancer_types/PCNSL.md) cases; IGH-BCL6 translocations detected in 2/11 cases. [PMID:25991819](../papers/25991819.md)
+- FISH used to validate copy-number alterations identified in adrenocortical carcinoma genomic profiling [PMID:26095796](../papers/26095796.md)
+- FISH used to assess gene amplification status in breast cancer samples [PMID:26168399](../papers/26168399.md)
+- FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 
 ## Notes
 
@@ -107,3 +110,12 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

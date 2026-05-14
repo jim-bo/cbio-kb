@@ -28,11 +28,11 @@ TGFBR1 encodes TGF-β receptor type I (ALK5), a serine/threonine kinase receptor
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting reported in the citing study; co-expression with SEMA7A in CAF stroma may reflect paracrine TGF-β signaling contributing to fibroblast activation.
+- No direct therapeutic targeting reported in the citing study; co-expression with [SEMA7A](../genes/SEMA7A.md) in CAF stroma may reflect paracrine TGF-β signaling contributing to fibroblast activation.
 
 ## Open questions
 
-- Whether TGFBR1 is a driver or passenger of the desmoplastic CAF state in GBC, and its relationship to clinical outcomes, is not addressed in the citing study.
+- Whether TGFBR1 is a driver or passenger of the desmoplastic CAF state in [GBC](../cancer_types/GBC.md), and its relationship to clinical outcomes, is not addressed in the citing study.
 
 ## Sources
 

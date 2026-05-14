@@ -17,6 +17,7 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 
 - NOTCH4 inactivated as part of the NOTCH1/2/4 inactivation pattern in metastatic cSCC: 24% of samples (7/29) with truncating or COSMIC-annotated mutations, rising to 69% if all nonsynonymous SNVs of unknown significance are included. Truncating NOTCH and [EP300](../genes/EP300.md) events are mutually exclusive across samples. [PMID:25589618](../papers/25589618.md)
 - In [PAAD](../cancer_types/PAAD.md), NOTCH4 was altered in 9% of cases within the TGF-β/NOTCH pathway analysis of the 109-case microdissected exome cohort. [PMID:25855536](../papers/25855536.md)
+- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses SCLC initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily c
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

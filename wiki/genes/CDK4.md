@@ -37,6 +37,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Amplification in 9% of PDA (RB-pathway alteration); co-occurs with CDKN2A/B deletion (36% each) and [CCND1](../genes/CCND1.md) amplification (6%); nominates CDK4/6 inhibitors [PMID:25855536](../papers/25855536.md)
 - Cell-cycle pathway aberration in mCRPC; potentially actionable via CDK4 inhibition; part of RB1/CDKN2A/B/CDK4/CCND1/CDKN1B cluster [PMID:26000489](../papers/26000489.md)
 - Focal amplifications enriched in Triple-WT melanoma subtype; co-amplified with [CCND1](../genes/CCND1.md) [PMID:26091043](../papers/26091043.md)
+- Focal amplification (IHC-confirmed) in desmoplastic melanoma; CDK4 is explicitly named as a small-molecule inhibitor target in this tumor type given the absence of [BRAF](../genes/BRAF.md) V600E [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -105,5 +106,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

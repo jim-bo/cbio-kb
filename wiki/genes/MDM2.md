@@ -38,6 +38,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Focal amplification in 9% of muscle-invasive bladder carcinoma tumors; amplification is an alternative mechanism of [TP53](../genes/TP53.md) inactivation, with MDM2 amp and [TP53](../genes/TP53.md) mutation being mutually exclusive events [PMID:24476821](../papers/24476821.md)
 - MDM2 recurrent focal amplification identified as a significant GISTIC peak in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 - MDM2 focal amplifications enriched in Triple-WT cutaneous melanoma subtype (TCGA 333-sample cohort); rationale for MDM2 inhibitors ([nutlin-3](../drugs/nutlin-3.md), AMG-232) in this subtype [PMID:26091043](../papers/26091043.md)
+- Combined TP53/MDM2 alterations depleted in [UTUC](../cancer_types/UTUC.md) vs UCB (35.6% vs 62.7%, p=0.001); MDM2-altered tumors carried high CNA burden [PMID:26278805](../papers/26278805.md)
+- Focal amplification in 1-3 desmoplastic melanoma tumors; IHC-confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +116,11 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

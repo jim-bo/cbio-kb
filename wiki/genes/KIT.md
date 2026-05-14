@@ -32,6 +32,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT E562D (exon 11, canonical [GIST](../cancer_types/GIST.md) hotspot region) was identified as an activating oncogene mutation in metastatic cutaneous squamous cell carcinoma (n=29 lymph-node metastases); activating events across 12 oncogenes were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
 - KIT alteration in 1% of [HCC](../cancer_types/HCC.md) (243-case European WES cohort); listed as FDA-targetable alteration in the [HCC](../cancer_types/HCC.md) druggable landscape [PMID:25822088](../papers/25822088.md)
 - KIT mutations and 4q12 focal amplifications enriched in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); highest KIT protein abundance in Triple-WT by RPPA; rationale for [imatinib](../drugs/imatinib.md) and [dasatinib](../drugs/dasatinib.md); co-amplified with [PDGFRA](../genes/PDGFRA.md) and [KDR](../genes/KDR.md) at 4q12 [PMID:26091043](../papers/26091043.md)
+- Rare oncogenic kinase mutation (with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md)) found in [SCLC](../cancer_types/SCLC.md) (4 tumors total); considered a potential targeted-therapy candidate [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +96,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

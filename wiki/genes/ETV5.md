@@ -21,7 +21,7 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — ETV5 derepression in CIC-mutant oligodendroglioma cells; subclonal mutation present across all tumor compartments, suggesting CIC mutation is an early event [PMID:27806376](../papers/27806376.md).
+- [ODG](../cancer_types/ODG.md) — ETV5 derepression in CIC-mutant oligodendroglioma cells; subclonal mutation present across all tumor compartments, suggesting [CIC](../genes/CIC.md) mutation is an early event [PMID:27806376](../papers/27806376.md).
 
 ## Co-occurrence and mutual exclusivity
 

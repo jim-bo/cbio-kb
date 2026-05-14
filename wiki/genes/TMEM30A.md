@@ -31,7 +31,7 @@ TMEM30A (Transmembrane Protein 30A), also known as CDC50A, is a beta-subunit of 
 
 ## Open questions
 
-- Functional consequences of TMEM30A loss in PCNSL lymphomagenesis are not established. [PMID:25991819](../papers/25991819.md)
+- Functional consequences of TMEM30A loss in [PCNSL](../cancer_types/PCNSL.md) lymphomagenesis are not established. [PMID:25991819](../papers/25991819.md)
 
 ## Sources
 

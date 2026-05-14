@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - COADREAD
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # IRS2
@@ -17,10 +17,11 @@ IRS2 (Insulin Receptor Substrate 2) encodes a cytoplasmic signaling adapter that
 ## Alterations observed in the corpus
 
 - Overexpression on chromosome 13 identified in TCGA colorectal adenocarcinoma cohort (276 tumors); mutually exclusive with [IGF2](../genes/IGF2.md) overexpression and PI3K pathway mutations [PMID:22810696](../papers/22810696.md)
+- Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); identified among genes with recurrent copy number gains in the SCLC genomic landscape [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
-- **[COADREAD](../cancer_types/COADREAD.md) (colorectal adenocarcinoma):** Copy-number-driven overexpression on chr13; mutually exclusive with IGF2 amplification and PI3K pathway events, indicating convergent pathway activation [PMID:22810696](../papers/22810696.md)
+- **[COADREAD](../cancer_types/COADREAD.md) (colorectal adenocarcinoma):** Copy-number-driven overexpression on chr13; mutually exclusive with [IGF2](../genes/IGF2.md) amplification and PI3K pathway events, indicating convergent pathway activation [PMID:22810696](../papers/22810696.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -39,4 +40,7 @@ IRS2 (Insulin Receptor Substrate 2) encodes a cytoplasmic signaling adapter that
 
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

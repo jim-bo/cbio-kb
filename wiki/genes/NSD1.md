@@ -24,11 +24,11 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 
 ## Co-occurrence and mutual exclusivity
 
-- [NUP98](../genes/NUP98.md)–NSD1 co-occurrence with other AML drivers not specifically detailed in this study [PMID:23634996](../papers/23634996.md)
+- [NUP98](../genes/NUP98.md)–NSD1 co-occurrence with other [AML](../cancer_types/AML.md) drivers not specifically detailed in this study [PMID:23634996](../papers/23634996.md)
 
 ## Therapeutic relevance
 
-- NUP98–NSD1 fusion-driven AML has adverse prognosis and may require intensified therapy; NSD1 H3K36 methyltransferase activity is a potential therapeutic target [PMID:23634996](../papers/23634996.md)
+- [NUP98](../genes/NUP98.md)–NSD1 fusion-driven AML has adverse prognosis and may require intensified therapy; NSD1 H3K36 methyltransferase activity is a potential therapeutic target [PMID:23634996](../papers/23634996.md)
 
 ## Open questions
 

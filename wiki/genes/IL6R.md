@@ -23,7 +23,7 @@ IL6R (Interleukin 6 Receptor) is the cell-surface receptor for IL-6, activating 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [IL6ST](../genes/IL6ST.md) in the IL6/JAK/STAT pathway in HCC; [IL6ST](../genes/IL6ST.md) mutations are restricted to HCC of unknown etiology while IL6R was not noted to have a specific etiologic enrichment. [PMID:25822088](../papers/25822088.md)
+- Co-occurs with [IL6ST](../genes/IL6ST.md) in the IL6/JAK/STAT pathway in [HCC](../cancer_types/HCC.md); [IL6ST](../genes/IL6ST.md) mutations are restricted to HCC of unknown etiology while IL6R was not noted to have a specific etiologic enrichment. [PMID:25822088](../papers/25822088.md)
 
 ## Therapeutic relevance
 

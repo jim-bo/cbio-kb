@@ -18,7 +18,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-Tanespimycin (17-AAG) is a geldanamycin-derived HSP90 inhibitor. [NQO1](../genes/NQO1.md) bioactivates 17-AAG to the more potent form 17-DMAG ([alvespimycin](../drugs/alvespimycin.md)). GI50 for tanespimycin is inversely correlated with [NQO1](../genes/NQO1.md) expression in hepatocellular carcinoma cell lines. Tumors with [KEAP1](../genes/KEAP1.md) or [NFE2L2](../genes/NFE2L2.md) mutations have elevated [NQO1](../genes/NQO1.md) and may be selectively sensitive, except in carriers of the [NQO1](../genes/NQO1.md) P187S (NQO1*2) loss-of-function polymorphism.
+Tanespimycin (17-AAG) is a geldanamycin-derived HSP90 inhibitor. [NQO1](../genes/NQO1.md) bioactivates 17-AAG to the more potent form 17-DMAG ([alvespimycin](../drugs/alvespimycin.md)). GI50 for tanespimycin is inversely correlated with [NQO1](../genes/NQO1.md) expression in hepatocellular carcinoma cell lines. Tumors with [KEAP1](../genes/KEAP1.md) or [NFE2L2](../genes/NFE2L2.md) mutations have elevated [NQO1](../genes/NQO1.md) and may be selectively sensitive, except in carriers of the [NQO1](../genes/NQO1.md) P187S ([NQO1](../genes/NQO1.md)*2) loss-of-function polymorphism.
 
 ## Evidence in the corpus
 

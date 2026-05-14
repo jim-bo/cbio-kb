@@ -24,7 +24,7 @@ FGF4 (Fibroblast Growth Factor 4) is a mitogenic growth factor involved in cell 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with [FGF3](../genes/FGF3.md), [FGF19](../genes/FGF19.md), and [CCND1](../genes/CCND1.md) at the 11q13.3 locus in HCC [PMID:25822088](../papers/25822088.md)
+- Co-amplified with [FGF3](../genes/FGF3.md), [FGF19](../genes/FGF19.md), and [CCND1](../genes/CCND1.md) at the 11q13.3 locus in [HCC](../cancer_types/HCC.md) [PMID:25822088](../papers/25822088.md)
 
 ## Therapeutic relevance
 

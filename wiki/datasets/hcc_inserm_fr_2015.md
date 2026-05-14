@@ -31,7 +31,7 @@ Multi-institutional European whole-exome sequencing cohort of 243 surgically res
 - **Cancer type:** [HCC](../cancer_types/HCC.md).
 - **Fibrosis:** F4 cirrhosis n=118; F2–F3 n=46; F0–F1 non-fibrotic n=79.
 - **Risk factors:** alcohol 41%, HCV 26%, NASH/metabolic syndrome 18%, HBV 14%, hemochromatosis 7%, unknown etiology 11%.
-- **Tumor progression stages:** 7 dysplastic macronodules, 7 early [HCC](../cancer_types/HCC.md), 17 small-progressed [HCC](../cancer_types/HCC.md), 58 classic [HCC](../cancer_types/HCC.md), 29 poor-prognosis HCC.
+- **Tumor progression stages:** 7 dysplastic macronodules, 7 early [HCC](../cancer_types/HCC.md), 17 small-progressed [HCC](../cancer_types/HCC.md), 58 classic [HCC](../cancer_types/HCC.md), 29 poor-prognosis [HCC](../cancer_types/HCC.md).
 
 ## Assays / panels (linked)
 

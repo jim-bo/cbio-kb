@@ -19,6 +19,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - Identified as a significantly mutated gene in HNSCC whole-exome sequencing of 74 tumor-normal pairs (Broad cohort) [PMID:21798893](../papers/21798893.md)
 - One metatypical sinonasal adenoid cystic carcinoma case harbored a NOTCH3 mutation; referenced alongside [NOTCH2](../genes/NOTCH2.md) as a Notch-pathway co-actor in AdCC pathogenesis [PMID:24418857](../papers/24418857.md)
 - In [PAAD](../cancer_types/PAAD.md), NOTCH3 alterations occurred at low frequency as part of the 31% NOTCH-pathway alteration in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
+- Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses SCLC initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

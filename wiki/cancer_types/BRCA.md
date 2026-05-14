@@ -35,6 +35,7 @@ OncoTree code for invasive breast carcinoma.
 - WES/WGS of 103 breast tumors (Broad cohort, [brca_broad](../datasets/brca_broad.md)) identified [PIK3CA](../genes/PIK3CA.md) as the most frequently mutated gene and discovered MAGI3-AKT3 fusion kinase as a novel driver [PMID:22722202](../papers/22722202.md)
 - Comprehensive genomic characterization of 510 breast tumors identified four molecular subtypes (Luminal A/B, HER2-enriched, Basal-like) with distinct mutation profiles [PMID:23000897](../papers/23000897.md)
 - Generation of 30 breast cancer PDX lines from 55 BRCA patients showed universal clonal selection at engraftment in all 15 WGS-characterized series, with minor (<5%) clones frequently expanding to dominance; replicate transplants produced highly concordant clonal dynamics (median Pearson r 0.91-0.94), establishing deterministic clonal fitness as a key property of BRCA PDX models [PMID:25470049](../papers/25470049.md).
+- Adenoid cystic breast carcinoma ([ACBC](../cancer_types/ACBC.md)) is a rare subtype of invasive breast carcinoma; study characterized its genomic landscape including MYB-NFIB fusions and copy number alterations [PMID:26095796](../papers/26095796.md)
 
 ## Subtypes
 
@@ -78,5 +79,8 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25470049](../papers/25470049.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

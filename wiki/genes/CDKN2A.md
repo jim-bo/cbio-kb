@@ -88,6 +88,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - 9p21.3 deletion in 83% of [PCNSL](../cancer_types/PCNSL.md) (homozygous in 55%), the dominant copy-number event in primary CNS lymphoma [PMID:25991819](../papers/25991819.md)
 - Cell-cycle pathway aberration in mCRPC; potential [CDK4](../genes/CDK4.md) inhibitor candidate [PMID:26000489](../papers/26000489.md)
 - Alterations evenly distributed across BRAF/RAS/NF1 melanoma subtypes [PMID:26091043](../papers/26091043.md)
+- Recurrent focal homozygous deletion in [SCLC](../cancer_types/SCLC.md) (110 tumors, WGS); co-occurs with TP53/RB1 bi-allelic loss as an accessory alteration [PMID:26168399](../papers/26168399.md)
+- Recurrently altered in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) alongside other p15/p16 pathway events; identified in 300-gene MSK-IMPACT panel sequencing (n=83 UTUC) [PMID:26278805](../papers/26278805.md)
+- Focal deletions in 11 desmoplastic melanoma cases; also LOF mutations and one germline mutation in a sun-shielded tumor; p16 loss confirmed by IHC [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -250,5 +253,14 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:26000489](../papers/26000489.md)
 
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

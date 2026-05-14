@@ -27,7 +27,7 @@ JAK3 (Janus Kinase 3) is a tyrosine kinase that mediates cytokine signalling thr
 
 ## Therapeutic relevance
 
-- JAK3 amplification at 3% frequency is FDA-targetable in [HCC](../cancer_types/HCC.md); JAK inhibitors such as [ruxolitinib](../drugs/ruxolitinib.md) are clinical candidates for JAK-amplified HCC. [PMID:25822088](../papers/25822088.md)
+- JAK3 amplification at 3% frequency is FDA-targetable in [HCC](../cancer_types/HCC.md); JAK inhibitors such as [ruxolitinib](../drugs/ruxolitinib.md) are clinical candidates for JAK-amplified [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 
 ## Open questions
 

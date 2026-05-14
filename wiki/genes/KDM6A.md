@@ -3,8 +3,8 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # KDM6A
@@ -32,9 +32,10 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Histone demethylase KDM6A/UTY mutated in 30% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors, the highest-frequency chromatin-remodeler alteration in the 99-tumor Chinese TCC cohort [PMID:24121792](../papers/24121792.md)
 - KDM6A mutated in 2/21 (9%) of sinonasal adenoid cystic carcinoma cases with frameshift and splice-site variants (c.2172_2173del + c.618-619+2del in one case; c.64del in a second case) [PMID:24418857](../papers/24418857.md)
 - KDM6A (H3K27 demethylase) mutated in 24% of muscle-invasive bladder cancers; mutually exclusive with [KMT2D](../genes/KMT2D.md); part of the chromatin regulator mutation landscape affecting 76% of bladder tumors [PMID:24476821](../papers/24476821.md)
-- KDM6A (histone demethylase) is recurrently mutated in ESCC, contributing to epigenetic dysregulation as part of the chromatin-remodeling alteration pathway [PMID:24686850](../papers/24686850.md)
+- KDM6A (histone demethylase) is recurrently mutated in [ESCC](../cancer_types/ESCC.md), contributing to epigenetic dysregulation as part of the chromatin-remodeling alteration pathway [PMID:24686850](../papers/24686850.md)
 - Truncating mutations in 41% of muscle-invasive bladder cancer tumours (MSKCC cohort, n=109); not independently associated with recurrence-free or cancer-specific survival in this cohort [PMID:25092538](../papers/25092538.md)
-- Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between cisplatin responders and non-responders [PMID:25096233](../papers/25096233.md)
+- Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between [cisplatin](../drugs/cisplatin.md) responders and non-responders [PMID:25096233](../papers/25096233.md)
+- Chromatin-modifying gene mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); mutations common in both low- and high-grade UTUC and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -63,49 +64,52 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -369,3 +369,4 @@
 - drug: amg-232 — observed in PMID:26091043 — note: MDM2 antagonist; nominated for MDM2-amplified BCL2-high Triple-WT melanoma subtype
 - drug: crenolanib — observed in PMID:26091043 — note: PDGFRA/FLT3 inhibitor; nominated for Triple-WT melanoma with 4q12 PDGFRA/KDR co-amplification
 - drug: aldesleukin — observed in PMID:26091043 — note: recombinant IL-2 cytokine immunotherapy; prior melanoma response data contextualize TCGA Immune-subclass survival findings
+- drug: h3b-8800 — observed in PMID:26200345 — note: SF3b complex splicing modulator (SF3B1-targeting); synergistic with temsirolimus in SF3B1-mutant/del(13q) CLL; prior phase I (NCT02841540) showed dose-limiting toxicity as monotherapy

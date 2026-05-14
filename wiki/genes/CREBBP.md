@@ -35,6 +35,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Significantly mutated histone acetyltransferase in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)); focal deletions targeting CREBBP identified by GISTIC 2.0; part of the 76% of tumours with inactivating chromatin regulator mutations [PMID:24476821](../papers/24476821.md)
 - Truncating mutations in 13% of muscle-invasive urothelial carcinoma; mutually exclusive with [EP300](../genes/EP300.md) truncating mutations (15%); both are chromatin modifier genes with HAT activity [PMID:25092538](../papers/25092538.md)
 - Chromatin remodeler truncated in cutaneous squamous cell carcinoma; truncating CREBBP and [EP300](../genes/EP300.md) events are mutually exclusive with NOTCH truncations in 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
+- Clustered mutations and recurrent inactivating translocations in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); not significantly associated with overall survival [PMID:26168399](../papers/26168399.md)
+- Chromatin-modifier mutations (CREBBP) found in both low- and high-grade [UTUC](../cancer_types/UTUC.md); concordant across spatial tumor components suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -107,5 +109,11 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

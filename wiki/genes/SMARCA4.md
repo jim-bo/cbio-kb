@@ -39,6 +39,7 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Alterations mutually exclusive with [ARID1A](../genes/ARID1A.md) truncating mutations (28%) in high-grade urothelial carcinoma of the bladder (MSK-IMPACT, n=109). [PMID:25092538](../papers/25092538.md)
 - Chromatin remodeler truncated or hit at COSMIC sites in metastatic cSCC; chromatin-remodeling inactivation (including SMARCA4/SMARCB1/KMT2D/CREBBP/EP300/ARID family) present in 48% of cohort [PMID:25589618](../papers/25589618.md)
 - Part of SWI/SNF chromatin-remodelling lesions in >42% of pancreatic ductal adenocarcinoma cases (along with [SMARCA2](../genes/SMARCA2.md), [SMARCC1](../genes/SMARCC1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [PBRM1](../genes/PBRM1.md)). [PMID:25855536](../papers/25855536.md)
+- Somatic mutation detected in both low-grade and high-grade [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma); listed among chromatin-modifying genes (alongside [KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md)) that are frequently altered and concordant across spatial tumour components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -118,5 +119,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

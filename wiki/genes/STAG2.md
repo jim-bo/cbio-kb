@@ -8,8 +8,8 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -27,7 +27,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Predominantly truncating somatic mutations (frameshift indels, nonsense, splice-site) in 11/99 (11%) TCC tumors; additional 5/99 with genomic deletions; promoter hypermethylation in 23% (7/30); alterations associated with worse overall survival and increased aneuploidy; newly identified high-frequency bladder cancer driver [PMID:24121792](../papers/24121792.md)
 - Predominantly inactivating mutations in 11% of bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) tumors; X-linked cohesin complex component identified as a significantly mutated gene in TCGA bladder cancer cohort [PMID:24476821](../papers/24476821.md)
 - Mutations present in high-grade urothelial carcinoma (MSK-IMPACT, n=109) but not associated with recurrence-free or cancer-specific survival outcomes in this cohort. [PMID:25092538](../papers/25092538.md)
-- STAG2 loss-of-function mutations (nonsense, frameshift, splice-site, exon-22 duplication) in 17% of Ewing sarcoma WGS cohort and 13.2% of 299-patient combined cohort; mutually exclusive with CDKN2A deletion; co-occurs with TP53 mutation; can be subclonal at diagnosis and expand at relapse [PMID:25223734](../papers/25223734.md)
+- STAG2 loss-of-function mutations (nonsense, frameshift, splice-site, exon-22 duplication) in 17% of Ewing sarcoma WGS cohort and 13.2% of 299-patient combined cohort; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) deletion; co-occurs with [TP53](../genes/TP53.md) mutation; can be subclonal at diagnosis and expand at relapse [PMID:25223734](../papers/25223734.md)
+- Significant association with T stage in [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma) cohort (n=83); detected by 300-gene MSK-IMPACT targeted panel [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 ## Therapeutic relevance
 
-- No direct therapeutic implications established in this study; morphologic surrogates for STAG2 mutations may inform MDS subtyping and patient stratification [PMID:21909114](../papers/21909114.md)
+- No direct therapeutic implications established in this study; morphologic surrogates for STAG2 mutations may inform [MDS](../cancer_types/MDS.md) subtyping and patient stratification [PMID:21909114](../papers/21909114.md)
 
 ## Open questions
 
@@ -50,19 +51,22 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

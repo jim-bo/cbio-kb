@@ -5,7 +5,7 @@ kind: somatic_variant_calling
 canonical_source: corpus
 unverified: true
 tags: [variant-calling, indel, somatic, GATK]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -19,6 +19,8 @@ GATK Somatic Indel Detector is a variant-calling tool from the Genome Analysis T
 
 - [coad_caseccc_2015](../datasets/coad_caseccc_2015.md) — used alongside [mutect](../methods/mutect.md) and [varscan](../methods/varscan.md) for somatic indel calling in 29 AA CRC discovery exomes (paired tumor/normal); contributed to identification of 20 significantly mutated genes in African American MSS colorectal cancer including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific drivers [PMID:25583493](../papers/25583493.md)
 - GATK Somatic Indel Detector used for indel calling in 10 [PCNSL](../cancer_types/PCNSL.md) WES cases alongside SomaticSniper SNV calls; variants annotated with snpEFF/PolyPhen-2 via the TREAT workflow. [PMID:25991819](../papers/25991819.md)
+- GATK Somatic Indel Detector used for indel calling in MSK-IMPACT targeted panel sequencing of pancreatic cancer [PMID:26278805](../papers/26278805.md)
+- GATK Somatic Indel Detector used for indel calling in whole-exome and whole-genome sequencing of colorectal cancer [PMID:26343386](../papers/26343386.md)
 
 ## Notes
 
@@ -34,3 +36,9 @@ GATK Somatic Indel Detector is a variant-calling tool from the Genome Analysis T
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -60,6 +60,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Amplification and mutation confirmed in gastric cancer (GC) cohort (294 Tianjin cases); standard [trastuzumab](../drugs/trastuzumab.md) target. [PMID:25583476](../papers/25583476.md)
 - Focal amplification in HPV(-) HNSCC (3%); part of the RTK alteration landscape in HPV-negative head and neck squamous cell carcinoma [PMID:25631445](../papers/25631445.md)
 - Low-frequency but FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (MAP kinase / RTK pathway) [PMID:25822088](../papers/25822088.md)
+- Significant association with T stage in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
+- Recurrent S310F hotspot missense mutation in 4 desmoplastic melanoma tumors; identified as potentially targetable RTK alteration [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -169,5 +171,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:25631445](../papers/25631445.md)
 
 - [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

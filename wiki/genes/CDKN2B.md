@@ -40,6 +40,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - 9p21.3 deletion in 83% of [PCNSL](../cancer_types/PCNSL.md) (homozygous in 55%), co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:25991819](../papers/25991819.md)
 - Cell-cycle pathway aberration in mCRPC; potential [CDK4](../genes/CDK4.md) inhibitor candidate [PMID:26000489](../papers/26000489.md)
 - Alterations evenly distributed across BRAF/RAS/NF1 melanoma subtypes [PMID:26091043](../papers/26091043.md)
+- Homozygous deletions enriched in high-grade [UTUC](../cancer_types/UTUC.md) vs high-grade UCB (15.3% vs 3.9%, p=0.016); one of the most significantly differentially altered genes between UTUC and bladder cancer [PMID:26278805](../papers/26278805.md)
 
 ## Cancer types (linked)
 
@@ -105,5 +106,8 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:26000489](../papers/26000489.md)
 
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

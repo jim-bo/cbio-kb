@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -53,6 +53,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used for CNA/LOH profiling across all 30 breast cancer PDX lines; CNA clonal dynamics from SNP6 arrays were concordant with SNV-based PyClone cluster dynamics, confirming clonal selection at engraftment [PMID:25470049](../papers/25470049.md)
 - Used for copy-number analysis in TCGA [HNSC](../cancer_types/HNSC.md) (n=279); identified mean 141 CNAs per tumor, 39 recurrent deletion and 23 amplification regions (q<0.1), including 3q26/28 gains (SOX2/TP63/PIK3CA) and 11q13/22 co-amplifications in HPV(−) tumors [PMID:25631445](../papers/25631445.md)
 - Affymetrix SNP 6.0 array used for DNA copy-number profiling on 333 cutaneous melanoma samples; copy-number purity/ploidy estimated via ABSOLUTE. [PMID:26091043](../papers/26091043.md)
+- Affymetrix SNP 6.0 array used for copy-number profiling in breast cancer genomic study [PMID:26168399](../papers/26168399.md)
 
 ## Notes
 
@@ -168,3 +169,6 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

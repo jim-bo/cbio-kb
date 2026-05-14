@@ -31,7 +31,7 @@ TNFRSF10A ([TNF](../genes/TNF.md) Receptor Superfamily Member 10A), also known a
 
 ## Open questions
 
-- Low recurrence (1-2 cases) limits conclusions about TNFRSF10A as a driver in PCNSL; functional validation required. [PMID:25991819](../papers/25991819.md)
+- Low recurrence (1-2 cases) limits conclusions about TNFRSF10A as a driver in [PCNSL](../cancer_types/PCNSL.md); functional validation required. [PMID:25991819](../papers/25991819.md)
 
 ## Sources
 

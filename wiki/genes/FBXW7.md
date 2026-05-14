@@ -36,6 +36,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Enriched among large-duct-type iCCA; co-occurs with [TGFBR2](../genes/TGFBR2.md) and [MYC](../genes/MYC.md) alterations in this molecular subtype. [PMID:25526346](../papers/25526346.md)
 - Classic CRC driver; FBXW7 mutation frequency individually higher in AA than Caucasian CRCs, consistent with prior reports [PMID:25583493](../papers/25583493.md)
 - Recurrent Arg505Gly/Leu substitutions (n=14) in HNSCC; falls in 4q31.3 significant deletion peak; targets cyclin E and NOTCH for degradation [PMID:25631445](../papers/25631445.md)
+- Non-passenger mutations in breast adenoid cystic carcinoma (AdCC); also recurrent in salivary gland AdCCs; some mutations were subclonal [PMID:26095796](../papers/26095796.md)
+- Truncating and WD-domain damaging mutations in 11% of desmoplastic melanoma tumors; loss-of-function burden candidate [PMID:26343386](../papers/26343386.md)
 
 ## Cancer types (linked)
 
@@ -113,5 +115,11 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

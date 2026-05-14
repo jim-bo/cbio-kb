@@ -4,8 +4,8 @@ oncotree_code: CLLSLL
 main_type: Mature B-Cell Neoplasms
 parent: MBN
 tags: [cll, b-cell, leukemia]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLLSLL)
@@ -26,7 +26,8 @@ CLL/SLL is a Mature B-Cell Neoplasm (parent MBN). IGHV-mutated (M-CLL) and IGHV-
 - Novel drivers via 3D [CLUMPS](../methods/clumps.md) clustering include [MAP2K2](../genes/MAP2K2.md), [DIS3](../genes/DIS3.md), [DICER1](../genes/DICER1.md), [INO80](../genes/INO80.md) [PMID:35927489](../papers/35927489.md).
 - Recurrent SVs: [BCL2](../genes/BCL2.md) translocations predominantly in M-CLL (5.7% of WGS cases) via aberrant V(D)J; recurrent 37-Mb chr14 deletion disrupting [ZFP36L1](../genes/ZFP36L1.md), [DICER1](../genes/DICER1.md), [TRAF3](../genes/TRAF3.md) in U-CLL (4.6%) via class-switch recombination [PMID:35927489](../papers/35927489.md).
 - Mutational signatures: canonical AID (SBS84) enriched in U-CLL; non-canonical AID (SBS85) enriched in M-CLL (p=1.6×10^-9) [PMID:35927489](../papers/35927489.md).
-- WES of 160 CLL tumors identified SF3B1, NOTCH1, DDX3X, and POT1 as significantly mutated genes; SF3B1 mutations associated with poor prognosis [PMID:23415222](../papers/23415222.md)
+- WES of 160 CLL tumors identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), and [POT1](../genes/POT1.md) as significantly mutated genes; SF3B1 mutations associated with poor prognosis [PMID:23415222](../papers/23415222.md)
+- Genomic profiling of CLL/SLL identified recurrent alterations in SF3B1, NOTCH1, [ATM](../genes/ATM.md), and [TP53](../genes/TP53.md); mutational landscape informs prognosis and therapeutic targeting [PMID:26200345](../papers/26200345.md)
 
 ## Subtypes
 
@@ -43,7 +44,10 @@ CLL/SLL is a Mature B-Cell Neoplasm (parent MBN). IGHV-mutated (M-CLL) and IGHV-
 
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-04-08**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

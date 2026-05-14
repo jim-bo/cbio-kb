@@ -28,7 +28,7 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 
 ## Therapeutic relevance
 
-- BRAF fusions are emerging actionable targets; MEK inhibitors and BRAF dimer blockers are under investigation for BRAF fusion-positive cancers [PMID:38922339](../papers/38922339.md).
+- [BRAF](../genes/BRAF.md) fusions are emerging actionable targets; MEK inhibitors and BRAF dimer blockers are under investigation for BRAF fusion-positive cancers [PMID:38922339](../papers/38922339.md).
 
 ## Open questions
 

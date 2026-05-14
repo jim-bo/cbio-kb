@@ -20,7 +20,7 @@ IL6ST encodes gp130 (glycoprotein 130), the shared signal transducer subunit of 
 
 ## Cancer types (linked)
 
-- **HCC (hepatocellular carcinoma):** Recurrently mutated in HCC cohorts; functional implications for IL-6/JAK/STAT3 signaling in liver cancer. [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md) (hepatocellular carcinoma):** Recurrently mutated in HCC cohorts; functional implications for IL-6/JAK/STAT3 signaling in liver cancer. [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 

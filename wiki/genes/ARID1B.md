@@ -45,7 +45,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 
 ## Open questions
 
-- Functional consequences of ARID1B mutation in [SCLC](../cancer_types/SCLC.md) are not explicitly characterized; only mutation frequency reported alongside ARID1A.
+- Functional consequences of ARID1B mutation in [SCLC](../cancer_types/SCLC.md) are not explicitly characterized; only mutation frequency reported alongside [ARID1A](../genes/ARID1A.md).
 - Whether ARID1B loss recapitulates the synthetic lethal relationship with BET inhibitors seen for ARID1A loss remains to be determined.
 
 ## Sources

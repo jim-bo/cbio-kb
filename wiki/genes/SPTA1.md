@@ -24,7 +24,7 @@ SPTA1 encodes alpha-spectrin 1, a cytoskeletal protein critical for red blood ce
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-identified as a MutSig SMG in GBM alongside [GABRA6](../genes/GABRA6.md) and [KEL](../genes/KEL.md) [PMID:24120142](../papers/24120142.md)
+- Co-identified as a MutSig SMG in [GBM](../cancer_types/GBM.md) alongside [GABRA6](../genes/GABRA6.md) and [KEL](../genes/KEL.md) [PMID:24120142](../papers/24120142.md)
 
 ## Therapeutic relevance
 

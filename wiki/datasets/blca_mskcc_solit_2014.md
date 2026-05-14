@@ -50,7 +50,7 @@ Capture-based massively parallel sequencing (MSK-IMPACT panel) of 109 high-grade
 - [CDKN2A](../genes/CDKN2A.md) alterations independently associated with worse outcomes: RFS HR 5.76 (P<0.001), CSS HR 2.94 (P=0.029) [PMID:25092538](../papers/25092538.md)
 - [KDM6A](../genes/KDM6A.md) truncating mutations in 41%; chromatin-modifying gene mutations highly prevalent (83%) but not prognostic [PMID:25092538](../papers/25092538.md)
 - [STAG2](../genes/STAG2.md) mutations present but not associated with outcomes (in contrast to some prior reports) [PMID:25092538](../papers/25092538.md)
-- Used as comparator cohort (n=102 high-grade UCB tumors sequenced with MSK-IMPACT 300-gene panel) benchmarked against the [[[utuc_mskcc_2015](../datasets/utuc_mskcc_2015.md)]] upper tract urothelial carcinoma cohort; [FGFR3](../genes/FGFR3.md) enriched in [UTUC](../cancer_types/UTUC.md) (35.6% vs 21.6%), TP53/RB1 enriched in UCB, establishing distinct molecular profiles between the two urothelial cancer compartments [PMID:26278805](../papers/26278805.md)
+- Used as comparator cohort (n=102 high-grade UCB tumors sequenced with MSK-IMPACT 300-gene panel) benchmarked against the [utuc_mskcc_2015](../datasets/utuc_mskcc_2015.md) upper tract urothelial carcinoma cohort; [FGFR3](../genes/FGFR3.md) enriched in [UTUC](../cancer_types/UTUC.md) (35.6% vs 21.6%), TP53/RB1 enriched in UCB, establishing distinct molecular profiles between the two urothelial cancer compartments [PMID:26278805](../papers/26278805.md)
 
 ## Sources
 

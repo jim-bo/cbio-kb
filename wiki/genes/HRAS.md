@@ -35,6 +35,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Rare hot-spot mutations (G13D/G13S/Q61K×2) identified in cutaneous melanoma; mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant subtype of melanoma [PMID:26091043](../papers/26091043.md)
 - Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of [UTUC](../cancer_types/UTUC.md) carcinogenesis [PMID:26278805](../papers/26278805.md)
 - Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:26437033](../papers/26437033.md)
+- Q61R hotspot in 3/4 HRAS-mutant primary prostate cancers; paralogous to the canonical RAS Q61 oncogenic position; co-occurs with other non-canonical RAS-family activations ([RAC1](../genes/RAC1.md) Q61R, [RRAS2](../genes/RRAS2.md) Q72L) [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -112,5 +113,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26437033](../papers/26437033.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

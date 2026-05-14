@@ -3,7 +3,7 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -40,6 +40,7 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Chromatin remodeler truncated or hit at COSMIC sites in metastatic cSCC; chromatin-remodeling inactivation (including SMARCA4/SMARCB1/KMT2D/CREBBP/EP300/ARID family) present in 48% of cohort [PMID:25589618](../papers/25589618.md)
 - Part of SWI/SNF chromatin-remodelling lesions in >42% of pancreatic ductal adenocarcinoma cases (along with [SMARCA2](../genes/SMARCA2.md), [SMARCC1](../genes/SMARCC1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [PBRM1](../genes/PBRM1.md)). [PMID:25855536](../papers/25855536.md)
 - Somatic mutation detected in both low-grade and high-grade [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma); listed among chromatin-modifying genes (alongside [KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md)) that are frequently altered and concordant across spatial tumour components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
+- p.Ser1238Tyr (PolyPhen2 = 0.99) in Sézary syndrome; p.Arg251Lys in mycosis fungoides; SWI/SNF chromatin remodeling component [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -124,3 +125,6 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -28,7 +28,7 @@ RPS15 encodes the 40S ribosomal subunit protein S15. Recurrent missense mutation
 
 ## Therapeutic relevance
 
-- RPS15 mutation is an independent prognostic biomarker in chemoimmunotherapy (fludarabine/cyclophosphamide ± rituximab); no targeted therapy reported [PMID:26466571](../papers/26466571.md)
+- RPS15 mutation is an independent prognostic biomarker in chemoimmunotherapy (fludarabine/cyclophosphamide ± [rituximab](../drugs/rituximab.md)); no targeted therapy reported [PMID:26466571](../papers/26466571.md)
 
 ## Open questions
 

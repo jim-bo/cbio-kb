@@ -22,11 +22,12 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - Used to assess [CDKN2A](../genes/CDKN2A.md) status and detect EWSR1-ETS fusion transcripts in Ewing sarcoma samples [PMID:25223734](../papers/25223734.md)
 - Quantitative RT-PCR used to validate gene expression findings in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Quantitative RT-PCR used to validate RNA expression results in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
+- RT-PCR used to validate MYBL1-NFIB and other [MYBL1](../genes/MYBL1.md) fusion transcripts, and to quantify [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) mRNA expression in all 102 salivary adenoid cystic carcinomas demonstrating mutually exclusive high expression [PMID:26631609](../papers/26631609.md).
 
 ## Notes
 
 - Appropriate for clinical deployment given low cost and FFPE compatibility; panels must be validated across platforms for cross-center use.
-- The 3-gene HCC panel ([GPC3](../genes/GPC3.md), LYVE1, survivin) provides a practical complement to IHC for small-nodule diagnosis [PMID:24735922](../papers/24735922.md).
+- The 3-gene [HCC](../cancer_types/HCC.md) panel ([GPC3](../genes/GPC3.md), LYVE1, survivin) provides a practical complement to IHC for small-nodule diagnosis [PMID:24735922](../papers/24735922.md).
 
 ## Sources
 
@@ -41,5 +42,8 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

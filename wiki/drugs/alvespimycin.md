@@ -26,7 +26,7 @@ Alvespimycin (17-DMAG) is a water-soluble geldanamycin analogue that inhibits HS
 
 ## Resistance mechanisms
 
-- NQO1 P187S (rs1800566) polymorphism destabilizes NQO1 protein and confers resistance to alvespimycin/tanespimycin in KEAP1-mutated [HCC](../cancer_types/HCC.md) cell line MHCC97H [PMID:25822088](../papers/25822088.md)
+- [NQO1](../genes/NQO1.md) P187S (rs1800566) polymorphism destabilizes [NQO1](../genes/NQO1.md) protein and confers resistance to alvespimycin/tanespimycin in KEAP1-mutated [HCC](../cancer_types/HCC.md) cell line MHCC97H [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 

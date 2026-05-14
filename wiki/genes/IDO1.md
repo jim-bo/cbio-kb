@@ -16,7 +16,7 @@ IDO1 encodes indoleamine 2,3-dioxygenase 1, a tryptophan-catabolizing enzyme inv
 ## Alterations observed in the corpus
 
 - Immunoregulatory counter-activation component of the 20-gene ICR signature in colon cancer [PMID:37202560](../papers/37202560.md).
-- Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 ILC TCGA + n=106 LumA ILC) [PMID:26451490](../papers/26451490.md)
+- Marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype identified in a comprehensive molecular portrait of invasive lobular breast cancer (n=127 [ILC](../cancer_types/ILC.md) TCGA + n=106 LumA [ILC](../cancer_types/ILC.md)) [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 

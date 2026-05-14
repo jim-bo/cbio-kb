@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clonal-inference, bayesian, mutation-clustering]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -18,6 +18,7 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 ## Used by
 
 - Applied in a breast cancer patient-derived xenograft (PDX) clonal-dynamics study to cluster somatic SNVs into clonal populations; single-cell DNA sequencing of 210 nuclei from SA494 and SA501 PDX lines validated that PyClone clusters correspond to real clonal genotypes, and replicate transplants produced concordant clonal expansion patterns (median Pearson r 0.91–0.94) [PMID:25470049](../papers/25470049.md)
+- Used alongside EXPANDS for clonal-prevalence inference in medulloblastoma WGS data; supported detection that on average only 11.8% of somatic SNVs/indels were shared between matched diagnostic and recurrent tumors [PMID:26760213](../papers/26760213.md).
 
 ## Notes
 
@@ -28,3 +29,6 @@ PyClone is a Bayesian statistical method for inferring the clonal population str
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

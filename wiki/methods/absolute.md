@@ -29,6 +29,7 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used as copy-number absolute quantification method in whole-exome sequencing analysis of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Applied in the TCGA breast cancer ILC/IDC multi-platform study (n=817) to estimate tumor purity and ploidy, supporting clonality-corrected genomic comparisons between invasive lobular and ductal carcinoma [PMID:26451490](../papers/26451490.md)
 - Used in whole-exome sequencing of 538 CLL samples (CLL8 trial cohort) to estimate tumor purity and clonal fractions, enabling CCF-based temporal ordering of driver acquisition and tracking of clonal shifts at relapse [PMID:26466571](../papers/26466571.md)
+- Used in the TCGA prostate cancer study to estimate tumor purity in 333 primary prostate adenocarcinomas, alongside other DNA/RNA-based methods, as part of integrated multi-platform molecular characterization [PMID:26544944](../papers/26544944.md).
 
 ## Notes
 
@@ -58,5 +59,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

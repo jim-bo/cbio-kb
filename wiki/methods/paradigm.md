@@ -17,7 +17,7 @@ PARADIGM (PAthway Recognition Algorithm using Data Integration on Genomic Models
 
 ## Used by
 
-- Used in the TCGA breast cancer ILC/IDC multi-platform integrative analysis (n=817) to infer pathway-level activity differences between invasive lobular and invasive ductal carcinoma; contributed to the characterization of AKT/mTOR pathway hyperactivation in [ILC](../cancer_types/ILC.md) (highest pAKT of any breast subtype) and identification of convergent upstream RTK/PTEN/PIK3CA alterations in 40-45% of ILC samples. [PMID:26451490](../papers/26451490.md)
+- Used in the TCGA breast cancer ILC/IDC multi-platform integrative analysis (n=817) to infer pathway-level activity differences between invasive lobular and invasive ductal carcinoma; contributed to the characterization of AKT/mTOR pathway hyperactivation in [ILC](../cancer_types/ILC.md) (highest pAKT of any breast subtype) and identification of convergent upstream RTK/PTEN/PIK3CA alterations in 40-45% of [ILC](../cancer_types/ILC.md) samples. [PMID:26451490](../papers/26451490.md)
 
 ## Notes
 

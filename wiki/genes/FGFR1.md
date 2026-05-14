@@ -32,6 +32,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Alterations observed in the low-grade dysplasia stage of PSC-associated CCA progression, suggesting an early role in biliary tract tumorigenesis. [PMID:25526346](../papers/25526346.md)
 - Focal amplification in 10% of HPV(-) vs 0% HPV(+) HNSCC [PMID:25631445](../papers/25631445.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort) [PMID:26168399](../papers/26168399.md)
+- Co-amplified with [WHSC1L1](../genes/WHSC1L1.md) at 8p11.23 in 8% of primary prostate cancers [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

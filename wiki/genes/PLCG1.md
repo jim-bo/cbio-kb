@@ -3,8 +3,8 @@ symbol: PLCG1
 aliases: []
 cancer_types: [ANGS]
 tags: [vascular-signaling]
-processed_by: entity-page-writer
-processed_at: 2026-04-10
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # PLCG1
@@ -16,6 +16,7 @@ PLCG1 (phospholipase C gamma 1) encodes a signaling enzyme involved in receptor 
 ## Alterations observed in the corpus
 
 - PLCG1 mutations were identified in RT-AS in a whole-genome sequencing study of radiation-associated secondary malignancies; PLCG1 mutations were found alongside [PTPRB](../genes/PTPRB.md) mutations in RT-AS driver landscapes [PMID:37350195](../papers/37350195.md).
+- Three point mutations in Sézary syndrome: novel p.Gly722Val and previously reported gain-of-function alleles p.Arg48Trp and p.Glu1163Lys [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ PLCG1 (phospholipase C gamma 1) encodes a signaling enzyme involved in receptor 
 - [PMID:37350195](../papers/37350195.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-10**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

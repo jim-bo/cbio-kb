@@ -23,6 +23,7 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 - NFIB is the translocation partner of [MYB](../genes/MYB.md) in 19/24 ACC cases (t(6;9)); SNP6 copy-number breakpoints at the NFIB locus confirmed in MYB-activated cases [PMID:23778141](../papers/23778141.md)
 - Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:24418857](../papers/24418857.md)
 - Identified as 3′ fusion partner in MYB-NFIB chimeric transcripts (NFIB exon 8c or 9 fused to [MYB](../genes/MYB.md) exon 14) in 83% (10/12) of breast adenoid cystic carcinomas (AdCC). [PMID:26095796](../papers/26095796.md)
+- 5' end (exons 1-2) fuses with diverse partners ([MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [XRCC4](../genes/XRCC4.md), [PTPRD](../genes/PTPRD.md), [NKAIN2](../genes/NKAIN2.md), [AIG1](../genes/AIG1.md)) in adenoid cystic carcinoma; breakpoints in MYBL1-NFIB cluster in intron 10; present as fusion partner in ~53% (MYB-NFIB) and ~14% (MYBL1-NFIB) of 102-tumor ACC cohort [PMID:26631609](../papers/26631609.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

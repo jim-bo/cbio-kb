@@ -30,7 +30,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive multi-platform molecular characterization of 817 primary breast tumors published by Ciriello et al. in Cell (2015). It expands on the original 2012 TCGA breast study ([brca_tcga_pub](../datasets/brca_tcga_pub.md)) by including a histology-enriched design: 127 invasive lobular carcinoma ([ILC](../cancer_types/ILC.md)), 490 invasive ductal carcinoma ([IDC](../cancer_types/IDC.md)), 88 mixed IDC/ILC, and 112 other histologies. The primary aim was to characterize the molecular landscape of ILC relative to IDC across DNA, RNA, protein, and epigenomic dimensions. Validation of ILC transcriptional subtypes was performed in the [brca_metabric](brca_metabric.md) cohort.
+The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive multi-platform molecular characterization of 817 primary breast tumors published by Ciriello et al. in Cell (2015). It [expands](../methods/expands.md) on the original 2012 TCGA breast study ([brca_tcga_pub](../datasets/brca_tcga_pub.md)) by including a histology-enriched design: 127 invasive lobular carcinoma ([ILC](../cancer_types/ILC.md)), 490 invasive ductal carcinoma ([IDC](../cancer_types/IDC.md)), 88 mixed IDC/ILC, and 112 other histologies. The primary aim was to characterize the molecular landscape of [ILC](../cancer_types/ILC.md) relative to [IDC](../cancer_types/IDC.md) across DNA, RNA, protein, and epigenomic dimensions. Validation of [ILC](../cancer_types/ILC.md) transcriptional subtypes was performed in the [brca_metabric](brca_metabric.md) cohort.
 
 ## Composition
 
@@ -55,11 +55,11 @@ The 2015 TCGA breast cancer dataset (brca_tcga_pub2015) is the comprehensive mul
 
 ## Notable findings derived from this cohort
 
-- ILC-enriched mutations vs IDC: [CDH1](../genes/CDH1.md) 63% vs 2% (q=3.94E-53); [TBX3](../genes/TBX3.md) 9% vs 2%; [PIK3CA](../genes/PIK3CA.md) 48% vs 33%; [FOXA1](../genes/FOXA1.md) 7% vs 2%; [TP53](../genes/TP53.md) depleted in ILC (8% vs 44%) [PMID:26451490](../papers/26451490.md).
-- [CDH1](../genes/CDH1.md) alterations detected in 120/127 (95%) ILC cases; CDH1 promoter DNA hypermethylation was not observed, contradicting older MSP-based reports [PMID:26451490](../papers/26451490.md).
+- ILC-enriched mutations vs [IDC](../cancer_types/IDC.md): [CDH1](../genes/CDH1.md) 63% vs 2% (q=3.94E-53); [TBX3](../genes/TBX3.md) 9% vs 2%; [PIK3CA](../genes/PIK3CA.md) 48% vs 33%; [FOXA1](../genes/FOXA1.md) 7% vs 2%; [TP53](../genes/TP53.md) depleted in ILC (8% vs 44%) [PMID:26451490](../papers/26451490.md).
+- [CDH1](../genes/CDH1.md) alterations detected in 120/127 (95%) ILC cases; [CDH1](../genes/CDH1.md) promoter DNA hypermethylation was not observed, contradicting older MSP-based reports [PMID:26451490](../papers/26451490.md).
 - ILC has the highest pAKT activity of any breast cancer subtype — comparable to HER2+ and Basal-like — driven by upstream RTK alterations and [PTEN](../genes/PTEN.md) loss rather than [PIK3CA](../genes/PIK3CA.md) mutation per se [PMID:26451490](../papers/26451490.md).
 - Three ILC transcriptional subtypes identified (reactive-like, immune-related, proliferative); validated in [brca_metabric](brca_metabric.md); proliferative ILC had worse DSS and [OS](../cancer_types/OS.md) [PMID:26451490](../papers/26451490.md).
-- Mixed IDC/ILC tumors resolve molecularly into ILC-like or IDC-like classes (not a third hybrid entity); CDH1 status is the dominant classifier [PMID:26451490](../papers/26451490.md).
+- Mixed IDC/ILC tumors resolve molecularly into ILC-like or IDC-like classes (not a third hybrid entity); [CDH1](../genes/CDH1.md) status is the dominant classifier [PMID:26451490](../papers/26451490.md).
 
 ## Sources
 

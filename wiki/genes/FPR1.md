@@ -19,7 +19,7 @@ FPR1 (Formyl Peptide Receptor 1) is a G protein-coupled receptor involved in inn
 
 ## Cancer types (linked)
 
-- **SCLC**: Significantly mutated in a 110-tumour WGS cohort [PMID:26168399](../papers/26168399.md)
+- **[SCLC](../cancer_types/SCLC.md)**: Significantly mutated in a 110-tumour WGS cohort [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -27,7 +27,7 @@ FPR1 (Formyl Peptide Receptor 1) is a G protein-coupled receptor involved in inn
 
 ## Open questions
 
-- Biological role in SCLC pathogenesis is unclear; functional experiments required [PMID:26168399](../papers/26168399.md)
+- Biological role in [SCLC](../cancer_types/SCLC.md) pathogenesis is unclear; functional experiments required [PMID:26168399](../papers/26168399.md)
 
 ## Sources
 

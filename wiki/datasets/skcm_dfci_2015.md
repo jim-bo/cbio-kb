@@ -30,9 +30,9 @@ The skcm_dfci_2015 dataset is from Van Allen et al. (Science, 2015) and comprise
 
 ## Composition
 
-- 110 metastatic melanoma patients treated with ipilimumab monotherapy.
+- 110 metastatic melanoma patients treated with [ipilimumab](../drugs/ipilimumab.md) monotherapy.
 - Histology: 92 cutaneous [SKCM](../cancer_types/SKCM.md), 4 mucosal, 14 occult melanomas.
-- Clinical stratification: clinical benefit (CR/PR or SD with [OS](../cancer_types/OS.md) >1 yr, n=27); no clinical benefit (PD or SD with OS <1 yr, n=73); long-term-survival/early-progression (PFS <6 mo but OS >2 yr, n=10).
+- Clinical stratification: clinical benefit (CR/PR or SD with [OS](../cancer_types/OS.md) >1 yr, n=27); no clinical benefit (PD or SD with [OS](../cancer_types/OS.md) <1 yr, n=73); long-term-survival/early-progression (PFS <6 mo but [OS](../cancer_types/OS.md) >2 yr, n=10).
 - Average exome coverage: 183.7× (tumor), 157.2× (germline).
 - RNA-seq for 42 patients (40 with matched WES).
 - Reference genome: hg19.

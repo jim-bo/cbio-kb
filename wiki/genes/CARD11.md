@@ -7,7 +7,7 @@ cancer_types:
 tags:
   - bcr-pathway
   - ibrutinib-resistance
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,7 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - CARD-domain mutations E24K and D199N disrupt autoinhibition in cutaneous squamous cell carcinoma (29-tumor NGS cohort); CARD11 activation correlated paradoxically with longer PFS [PMID:25589618](../papers/25589618.md)
 - Mutations in 30% of [PCNSL](../cancer_types/PCNSL.md) cases; one case with high-level amplification at 7p22; identified in genome-wide analysis of 18 [PCNSL](../cancer_types/PCNSL.md) samples [PMID:25991819](../papers/25991819.md)
 - CARD11 classified as a B-cell activity driver in CLL in a 538-sample WES study, alongside [TRAF2](../genes/TRAF2.md) and [TRAF3](../genes/TRAF3.md) [PMID:26466571](../papers/26466571.md)
+- Linker-domain mutations p.Ser615Phe and p.Glu626Lys in two Sézary syndrome cases; functionally NFκB- and JNK-activating after TCR stimulation; distinct location from the coiled-coil mutations classical to DLBCL [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

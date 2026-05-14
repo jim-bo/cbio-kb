@@ -3,8 +3,8 @@ symbol: PREX2
 aliases: [P-REX2, DEPDC2]
 cancer_types: [SKCM]
 tags: [mutation, structural-rearrangement, amplification, melanoma, PTEN-pathway, oncogene]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PREX2
@@ -18,6 +18,7 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 - PREX2 significantly mutated in melanoma: 11/25 (44%) discovery tumors carry at least one non-synonymous mutation, including 4 nonsense truncations; 14% non-synonymous mutation frequency confirmed in 107-sample extension cohort [PMID:22622578](../papers/22622578.md)
 - Complex structural rearrangements and high-level amplification of PREX2 detected in acral melanoma ME032 [PMID:22622578](../papers/22622578.md)
 - Ectopic expression of 3 truncated PREX2 variants and the G844D point mutant significantly accelerated in vivo tumor formation in PMEL-NRAS* melanocytes compared to wild-type PREX2 or GFP controls [PMID:22622578](../papers/22622578.md)
+- p.Arg297Cys and p.Glu1295Lys mutations (alleles previously reported in melanoma, cutaneous SCC, and head and neck cancer); encodes a Rac exchange factor that inhibits [PTEN](../genes/PTEN.md); functionally connected to recurrent [PTEN](../genes/PTEN.md) 10q23.3 deletions in Sézary syndrome [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -25,7 +26,7 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 
 ## Co-occurrence and mutual exclusivity
 
-- PREX2 mutations co-occur with BRAF V600E (which was present in 16/25 melanomas) and NRAS mutations (9/25), as mutations are not reported as mutually exclusive with either [PMID:22622578](../papers/22622578.md)
+- PREX2 mutations co-occur with [BRAF](../genes/BRAF.md) V600E (which was present in 16/25 melanomas) and [NRAS](../genes/NRAS.md) mutations (9/25), as mutations are not reported as mutually exclusive with either [PMID:22622578](../papers/22622578.md)
 - PREX2 is a known PTEN-interacting protein and negative regulator; PTEN was recurrently disrupted by structural rearrangements in 4/25 tumors in the same cohort [PMID:22622578](../papers/22622578.md)
 
 ## Therapeutic relevance
@@ -42,4 +43,7 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

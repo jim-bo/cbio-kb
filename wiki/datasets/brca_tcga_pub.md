@@ -53,7 +53,7 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 - Four molecular subtypes (Luminal A, Luminal B, HER2-Enriched, Basal-like) confirmed with distinct mutational spectra and copy number landscapes [PMID:23000897](../papers/23000897.md).
 - Basal-like breast cancers share striking molecular features with [HGSOC](../cancer_types/HGSOC.md) including [TP53](../genes/TP53.md) mutations, RB1/BRCA1 loss, and [MYC](../genes/MYC.md) amplification [PMID:23000897](../papers/23000897.md).
 - ~20% of Basal-like tumors carry germline and/or somatic BRCA1/BRCA2 variants, identifying a population potentially amenable to [olaparib](../drugs/olaparib.md) and platinum therapy [PMID:23000897](../papers/23000897.md).
-- Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA [PIK3CA](../genes/PIK3CA.md)+TP53 vs PIK3CA-only/WT-TP53 breast cancers (Fisher's p<1×10^-14) [PMID:26437033](../papers/26437033.md)
+- Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA [PIK3CA](../genes/PIK3CA.md)+[TP53](../genes/TP53.md) vs PIK3CA-only/WT-TP53 breast cancers (Fisher's p<1×10^-14) [PMID:26437033](../papers/26437033.md)
 
 ## Sources
 

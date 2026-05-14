@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - PAAD
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ FANCD2 is a central effector of the Fanconi anemia (FA) DNA repair pathway, acti
 ## Alterations observed in the corpus
 
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
+- Truncating mutation (1 tumor), homozygous deletion (2), and focal heterozygous loss in 6% of primary prostate cancers; contributes to the ~19% DNA-repair-deficient subset with potential PARP-inhibitor sensitivity [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ FANCD2 is a central effector of the Fanconi anemia (FA) DNA repair pathway, acti
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -32,6 +32,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - PARP inhibitor olaparib under investigation in combination with immune checkpoint inhibitors to exploit DNA repair deficiencies in recurrent/metastatic nasopharyngeal carcinoma ([NPC](../cancer_types/NPC.md)) [PMID:24952746](../papers/24952746.md)
 - Biallelic inactivation of [BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), or [ATM](../genes/ATM.md) in 19.3% of 150 mCRPC patients identifies a subset that may benefit from olaparib; multiple patients on a parallel PARP-inhibitor trial who achieved clinical benefit harbored biallelic [BRCA2](../genes/BRCA2.md) loss [PMID:26000489](../papers/26000489.md)
 - DNA repair deficiency (14% Fanconi-anaemia-pathway alterations, 3% BRCA1/2 alterations) in 109 resected pancreatic ductal adenocarcinomas nominates olaparib (PARP inhibitor) as a therapeutic candidate; high-CNV clusters enriched for DSB-repair lesions could serve as stratification biomarkers [PMID:25855536](../papers/25855536.md)
+- 19% of 333 primary [PRAD](../cancer_types/PRAD.md) tumors carry DNA-repair gene defects ([BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [CDK12](../genes/CDK12.md), [FANCD2](../genes/FANCD2.md), [RAD51C](../genes/RAD51C.md)); authors link this to TOPARP-A trial results in mCRPC and propose PARP-inhibitor strategies (e.g., olaparib) could be considered at earlier prostate cancer disease stages [PMID:26544944](../papers/26544944.md)
 
 ## Resistance mechanisms
 
@@ -64,5 +65,8 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

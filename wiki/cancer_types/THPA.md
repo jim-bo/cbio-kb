@@ -32,11 +32,11 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 - PTC shares common clonal ancestor with co-occurring ATC regions, with the ATC diverging through acquisition of [TP53](../genes/TP53.md), [PIK3CA](../genes/PIK3CA.md), and [CDKN2A](../genes/CDKN2A.md) alterations. [PMID:38412093](../papers/38412093.md)
 - [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired [BRAF](../genes/BRAF.md) fusions. [PMID:38922339](../papers/38922339.md)
-- [BRAF](../genes/BRAF.md) fusions co-occur with [TERT](../genes/TERT.md) mutations in 73% of BRAF fusion thyroid cancers. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusions co-occur with [TERT](../genes/TERT.md) mutations in 73% of [BRAF](../genes/BRAF.md) fusion thyroid cancers. [PMID:38922339](../papers/38922339.md)
 
 ## Therapeutic landscape
 
-- BRAF V600E-targeted therapy ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) is effective in BRAF V600E-mutant differentiated thyroid cancer. [PMID:38412093](../papers/38412093.md)
+- [BRAF](../genes/BRAF.md) V600E-targeted therapy ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) is effective in BRAF V600E-mutant differentiated thyroid cancer. [PMID:38412093](../papers/38412093.md)
 - BRAF fusions acquired as a resistance mechanism to prior targeted therapy were identified in THPA, underscoring the importance of post-progression genotyping. [PMID:38922339](../papers/38922339.md)
 
 ## Sources

@@ -27,7 +27,7 @@ IL6R (Interleukin 6 Receptor) is the cell-surface receptor for IL-6, activating 
 
 ## Therapeutic relevance
 
-- IL6R alteration (~1% of HCC) is designated FDA-targetable in the 243-case HCC cohort; tocilizumab (anti-IL6R) and related agents are candidates. [PMID:25822088](../papers/25822088.md)
+- IL6R alteration (~1% of [HCC](../cancer_types/HCC.md)) is designated FDA-targetable in the 243-case [HCC](../cancer_types/HCC.md) cohort; tocilizumab (anti-IL6R) and related agents are candidates. [PMID:25822088](../papers/25822088.md)
 
 ## Open questions
 

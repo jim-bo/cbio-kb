@@ -34,7 +34,7 @@ IRS2 (Insulin Receptor Substrate 2) encodes a cytoplasmic signaling adapter that
 ## Open questions
 
 - Whether IRS2 overexpression is driven by focal amplification at 13q or a broader chromosomal gain has not been fully resolved.
-- Clinical significance of IRS2 overexpression vs. IGF2 amplification for therapeutic response to IGF1R-targeted agents requires prospective evaluation.
+- Clinical significance of IRS2 overexpression vs. [IGF2](../genes/IGF2.md) amplification for therapeutic response to IGF1R-targeted agents requires prospective evaluation.
 
 ## Sources
 

@@ -15,11 +15,11 @@ FMN2 (Formin 2) is an actin-nucleation factor involved in cytoskeletal organizat
 
 ## Alterations observed in the corpus
 
-- Clustered/damaging mutations in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); also mutated in murine SCLC model (along with [PTGFRN](../genes/PTGFRN.md)) [PMID:26168399](../papers/26168399.md)
+- Clustered/damaging mutations in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); also mutated in murine [SCLC](../cancer_types/SCLC.md) model (along with [PTGFRN](../genes/PTGFRN.md)) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
-- **SCLC**: Recurrently mutated in a 110-tumour WGS cohort [PMID:26168399](../papers/26168399.md)
+- **[SCLC](../cancer_types/SCLC.md)**: Recurrently mutated in a 110-tumour WGS cohort [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 

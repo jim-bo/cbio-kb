@@ -15,7 +15,7 @@ HES1 (Hes Family BHLH Transcription Factor 1) is a canonical downstream target o
 
 ## Alterations observed in the corpus
 
-- Upregulated upon Notch activation in SCLC mouse models; consistent with canonical Notch target activation suppressing neuroendocrine differentiation; defines the non-neuroendocrine SCLC transcriptional subtype [PMID:26168399](../papers/26168399.md)
+- Upregulated upon Notch activation in [SCLC](../cancer_types/SCLC.md) mouse models; consistent with canonical Notch target activation suppressing neuroendocrine differentiation; defines the non-neuroendocrine [SCLC](../cancer_types/SCLC.md) transcriptional subtype [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 

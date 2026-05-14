@@ -3,7 +3,7 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -103,6 +103,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - E542K hotspot mutation in 1 desmoplastic melanoma tumor. [PMID:26343386](../papers/26343386.md)
 - Mutated in 48% of [ILC](../cancer_types/ILC.md) vs 33% of [IDC](../cancer_types/IDC.md); not associated with pAKT levels in this dataset despite driving PI3K pathway activation — [CDH1](../genes/CDH1.md) loss and upstream RTK alterations ([ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md)) proposed as context-permissive factors [PMID:26451490](../papers/26451490.md)
 - HDR-based introduction of H1047R into rat Pik3ca yielded predominantly benign fibroadenomas (8/10); combined Pik3caH1047R + Tp53Indel produced moderately differentiated invasive ductal carcinoma at 42-day median latency in a CRISPR rat mammary tumor platform [PMID:26437033](../papers/26437033.md)
+- Hotspot mutations (E545K, Q546K, N345I, C420R, E542A) in 6 prostate adenocarcinoma tumors; focal amplification with overexpression in ~1% in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -360,3 +361,6 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

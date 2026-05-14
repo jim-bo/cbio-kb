@@ -26,7 +26,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole genomes from 152 fresh-frozen clinical specimens collected under IRB approval; 42 were excluded for insufficient DNA quality/quantity. At the time of publication, this was the first comprehensive somatic whole-genome analysis of [SCLC](../cancer_types/SCLC.md) and remains the largest whole-genome SCLC cohort. Most cases were treatment-naive; only 5 were obtained at relapse. Complementary assays included RNA-seq (n=81), Affymetrix SNP 6.0 arrays (n=142), and an independent validation cohort of 112 samples (28 exomes + 84 targeted).
+One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole genomes from 152 fresh-frozen clinical specimens collected under IRB approval; 42 were excluded for insufficient DNA quality/quantity. At the time of publication, this was the first comprehensive somatic whole-genome analysis of [SCLC](../cancer_types/SCLC.md) and remains the largest whole-genome [SCLC](../cancer_types/SCLC.md) cohort. Most cases were treatment-naive; only 5 were obtained at relapse. Complementary assays included RNA-seq (n=81), Affymetrix SNP 6.0 arrays (n=142), and an independent validation cohort of 112 samples (28 exomes + 84 targeted).
 
 ## Composition
 
@@ -36,7 +36,7 @@ One hundred ten small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) whole g
 - **WGS:** Illumina HiSeq 2000 (TruSeq DNA PCR-free libraries, paired-end 2×100 bp, ≥30× tumor and normal); reference genome NCBI37/hg19; BWA v0.6.1-r104 alignment.
 - **Transcriptome:** RNA-seq on 81 specimens (71 overlapping WGS + 10 additional).
 - **Copy number:** Affymetrix SNP 6.0 arrays on 142 specimens (103 of WGS + 39 additional).
-- **Validation cohort:** 28 fresh-frozen exomes + 9 SCLC cell lines (prior published data) + 75 fresh-frozen/FFPE samples sequenced with a 22-gene custom Agilent SureDesign targeted panel (≥200× coverage).
+- **Validation cohort:** 28 fresh-frozen exomes + 9 [SCLC](../cancer_types/SCLC.md) cell lines (prior published data) + 75 fresh-frozen/FFPE samples sequenced with a 22-gene custom Agilent SureDesign targeted panel (≥200× coverage).
 - **Mouse models:** 8 SCLC tumors from Trp53;Rb1 double-knockout and Trp53;Rb1;Rbl2 triple-knockout mice analyzed by WES (n=6) or WGS (n=2).
 
 ## Assays / panels (linked)

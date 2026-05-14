@@ -23,6 +23,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - Located in 3p21 focal heterozygous deletion region in MSK-PCa1 and MSK-PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
 - Recurrent 3p14 gain with breakpoints suggesting translocation in [PCNSL](../cancer_types/PCNSL.md) [PMID:25991819](../papers/25991819.md)
 - Recurrent fusion partner in melanoma: MITF-FOXP1 fusion identified in BRAF-subtype cutaneous melanoma [PMID:26091043](../papers/26091043.md)
+- Part of a complex 3p13 deletion locus (with [RYBP](../genes/RYBP.md) and [SHQ1](../genes/SHQ1.md)) in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +58,8 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - [PMID:25991819](../papers/25991819.md)
 
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

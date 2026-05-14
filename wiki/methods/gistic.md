@@ -44,6 +44,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC 2.0 (join_segment_size=4, conf=0.95) used to identify significant focal copy-number peaks in 109 PDA exomes, including [MYC](../genes/MYC.md) amplification at 8q24.13 uniquely associated with poor survival. [PMID:25855536](../papers/25855536.md)
 - GISTIC used to identify significantly amplified and deleted genomic regions in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for somatic copy-number calling from Affymetrix SNP6 data, identifying focal amplifications ([MYC](../genes/MYC.md), [CCNE1](../genes/CCNE1.md)) enriched in [IDC](../cancer_types/IDC.md) and deletions enriched in [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
+- Applied as GISTIC 2.0 to identify focal somatic copy-number alterations in 333 primary prostate adenocarcinomas; detected 20 amplifications and 35 deletions (q < 0.25), including homozygous [PTEN](../genes/PTEN.md) deletion in 15% — among the highest rates in any TCGA tumor type [PMID:26544944](../papers/26544944.md).
 
 ## Notes
 
@@ -129,5 +130,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

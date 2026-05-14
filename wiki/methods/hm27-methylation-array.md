@@ -23,7 +23,7 @@ The Illumina Infinium HumanMethylation27 BeadChip (HM27) is a genome-wide DNA me
 ## Notes
 
 - The HM27 covers ~27,000 CpG sites, primarily in promoter regions; it is less comprehensive than the HM450 array (~450,000 CpG sites).
-- G-CIMP classification derived in part from HM27 data defined IDH1-mutant GBM epigenotype with favorable prognosis.
+- G-CIMP classification derived in part from HM27 data defined IDH1-mutant [GBM](../cancer_types/GBM.md) epigenotype with favorable prognosis.
 - Being superseded by HM450 and EPIC arrays in newer studies.
 
 ## Sources

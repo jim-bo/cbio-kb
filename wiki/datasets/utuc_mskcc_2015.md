@@ -31,8 +31,8 @@ Eighty-three upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) 
 
 - **Cancer types:** [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma); all primary urothelial histology, no predominant variants.
 - **Sample count:** 83 tumors (60 high-grade, 23 low-grade); all obtained at radical nephroureterectomy.
-- **Clinical fields:** tumor grade, T stage, smoking history, age, sex, history of UTUC.
-- **Sequencing:** MSK-IMPACT 300-gene custom hybrid-capture panel, Illumina HiSeq 2500; mean coverage 650× (UTUC cohort); reference genome hg19.
+- **Clinical fields:** tumor grade, T stage, smoking history, age, sex, history of [UTUC](../cancer_types/UTUC.md).
+- **Sequencing:** MSK-IMPACT 300-gene custom hybrid-capture panel, Illumina HiSeq 2500; mean coverage 650× ([UTUC](../cancer_types/UTUC.md) cohort); reference genome hg19.
 - **Variant calling:** BWA v0.6.2, MuTect v1.0.27783 (SNVs), SomaticIndelDetector (indels), DELLY (structural rearrangements). Orthogonal validation with MiSeq and Sanger sequencing (100% concordance for 10-gene re-test).
 - **Patient demographics:** median age 70 yr (IQR 63–76); matched to the UCB comparator cohort on age, sex, smoking, and stage distributions.
 

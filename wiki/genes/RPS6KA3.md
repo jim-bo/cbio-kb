@@ -32,7 +32,7 @@ RPS6KA3 (RSK2) encodes ribosomal protein S6 kinase A3, a serine/threonine kinase
 
 ## Open questions
 
-- Individual mutation frequency and clinical significance in HCC require further characterization.
+- Individual mutation frequency and clinical significance in [HCC](../cancer_types/HCC.md) require further characterization.
 
 ## Sources
 

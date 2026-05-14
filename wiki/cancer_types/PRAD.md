@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -40,6 +40,7 @@ OncoTree code for prostate adenocarcinoma.
 - CNA burden (fraction of autosomal genome with copy-number alterations) predicts biochemical recurrence (HR 1.09 per 1%, P<0.001) and metastasis in two independent prostatectomy cohorts (n=168 and n=104); prognostic independent of PSA, Gleason score, and the Stephenson nomogram, and measurable from FFPE needle biopsies by low-pass WGS [PMID:25024180](../papers/25024180.md)
 - Seven patient-derived 3D organoid lines from metastatic CRPC recapitulated the molecular landscape of advanced prostate cancer, including [PTEN](../genes/PTEN.md) biallelic loss (6/7 lines), [TP53](../genes/TP53.md) inactivation (4/7), [CHD1](../genes/CHD1.md) deletion (3/7), [SPOP](../genes/SPOP.md) F133L hotspot (1/7, first in vitro model), and diverse [AR](../genes/AR.md) status; AR-amplified MSK-PCa2 was sensitive to [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vitro and in xenografts. [PMID:25201530](../papers/25201530.md)
 - Prospective WES + transcriptome sequencing of 150 mCRPC bone/soft-tissue biopsies (SU2C-PCF Dream Team; dataset: [prad_su2c_2015](../datasets/prad_su2c_2015.md)): [AR](../genes/AR.md) altered in 62.7%, ETS fusions 56.7%, [TP53](../genes/TP53.md) 53.3%, [PTEN](../genes/PTEN.md) 40.7%; DNA-repair pathway (BRCA2/BRCA1/ATM) aberrations in 19.3% — substantially higher than primary PRAD; 89% of patients harbored a clinically actionable alteration; 8% had pathogenic germline variants; novel recurrent focal homozygous deletion of [ZBTB16](../genes/ZBTB16.md) at chr11q23 in 5% of cases [PMID:26000489](../papers/26000489.md)
+- Prostate adenocarcinoma (PRAD) multi-omic profiling identified subtypes defined by ETS fusions, SPOP/FOXA1/IDH1 mutations, and distinct epigenetic signatures [PMID:26544944](../papers/26544944.md)
 
 ## Subtypes
 
@@ -85,3 +86,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

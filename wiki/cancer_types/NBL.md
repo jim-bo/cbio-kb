@@ -31,7 +31,7 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - LC-MS/MS proteomics of 15 neuroblastoma tumors stratified by [MYCN](../genes/MYCN.md) status revealed distinct proteomic signatures distinguishing MYCN-amplified from non-amplified tumors [PMID:22367537](../papers/22367537.md)
 - CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - WES/WGS of 240 neuroblastoma tumors identified [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) as key recurrently mutated genes; low overall somatic mutation rate with enrichment in RAS-MAPK pathway [PMID:23334666](../papers/23334666.md)
-- Comprehensive genomic analysis of neuroblastoma identified recurrent driver alterations including MYCN amplification and ALK mutations with implications for targeted therapy [PMID:26466568](../papers/26466568.md)
+- Comprehensive genomic analysis of neuroblastoma identified recurrent driver alterations including [MYCN](../genes/MYCN.md) amplification and [ALK](../genes/ALK.md) mutations with implications for targeted therapy [PMID:26466568](../papers/26466568.md)
 
 ## Subtypes
 

@@ -1,0 +1,34 @@
+---
+name: Targeted Deep Amplicon Sequencing
+slug: targeted-deep-amplicon-seq
+kind: method
+canonical_source: corpus
+unverified: true
+tags:
+  - sequencing
+  - subclonal-detection
+  - ultra-deep
+  - validation
+processed_by: entity-page-writer
+processed_at: 2026-05-14
+---
+
+# Targeted Deep Amplicon Sequencing
+
+## Overview
+
+Targeted deep amplicon sequencing applies PCR amplification followed by massively parallel sequencing to quantify variant allele frequencies at a predefined set of loci with very high depth (typically hundreds to tens of thousands of reads per site). This approach is used for sensitive detection and tracking of subclonal mutations across tumor samples, including longitudinal studies comparing primary and recurrent tumors, and enables quantification of rare tumor subpopulations that would be missed by standard WGS or WES.
+
+## Used by
+
+- Ultra-deep targeted resequencing of 192 patient-specific SNVs across 20 medulloblastoma patients at diagnosis and recurrence; confirmed expansion of clones initially present at <5% in 16/20 patients, with sensitivity demonstrated down to 2/10,000 reads [PMID:26760213](../papers/26760213.md).
+
+## Notes
+
+- Sensitivity can reach 0.01–0.001% variant allele frequency depending on depth and error-correction methods.
+- Requires prior knowledge of target loci (e.g., from WGS/WES discovery), making it suitable for validation and longitudinal monitoring rather than de novo discovery.
+- Patient-specific SNV panels (as in [PMID:26760213](../papers/26760213.md)) provide individualized coverage of subclonal architecture.
+
+## Sources
+
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

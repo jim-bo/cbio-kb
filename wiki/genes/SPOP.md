@@ -22,6 +22,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - SPOP mutated in 3/22 (14%) uterine/ovarian carcinosarcomas; missense mutations at E46K, E78K, M117V in/near the MATH domain [PMID:25233892](../papers/25233892.md)
 - SPOP is listed among candidate dark-matter driver genes in PTC; chromatin-remodeling/epigenetic regulator alterations spanning 93 mutations in 57 genes across 80/402 (20.0%) PTCs include SPOP as a putative driver requiring independent validation. [PMID:25417114](../papers/25417114.md)
 - [AR](../genes/AR.md) pathway regulator mutated in metastatic castration-resistant prostate cancer (150-case WGS/WES cohort); part of the AR-pathway regulatory network alongside [FOXA1](../genes/FOXA1.md), [NCOR1](../genes/NCOR1.md), [NCOR2](../genes/NCOR2.md). [PMID:26000489](../papers/26000489.md)
+- Hotspot mutations in 11% of primary prostate cancer ([PRAD](../cancer_types/PRAD.md)); mutually exclusive with ETS fusions; defines a subtype with [CHD1](../genes/CHD1.md) deletion, elevated methylation, [SPINK1](../genes/SPINK1.md) overexpression, and highest [AR](../genes/AR.md) transcriptional output [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +61,8 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

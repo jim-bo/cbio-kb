@@ -30,6 +30,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - Frameshift/nonsense mutations in 3/22 (14%) carcinosarcoma cases; co-occurs with [ARID1A](../genes/ARID1A.md) mutations in 3 cases, suggesting combined SWI/SNF complex disruption [PMID:25233892](../papers/25233892.md)
 - Candidate dark-matter driver and chromatin-remodeling gene; among 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - Synthetic lethal partner with [ARID1A](../genes/ARID1A.md) in PDA; ARID1A-deficient PDA cell lines are vulnerable to ARID1B depletion; also part of SWI/SNF chromatin-remodeling lesions in >42% of PDA cases [PMID:25855536](../papers/25855536.md)
+- Mouse-model gCIS shared between local and metastatic medulloblastoma recurrences but absent from diagnostic samples; identified as a recurrence-specific driver in the Shh subgroup [PMID:26760213](../papers/26760213.md)
 
 ## Cancer types (linked)
 
@@ -50,7 +51,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 
 ## Sources
 
-- [PMID:22037554](../papers/22037554.md) — ARID1A Governs Genomic Stability and Proliferation in [SCLC](../cancer_types/SCLC.md) via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
+- [PMID:22037554](../papers/22037554.md) — [ARID1A](../genes/ARID1A.md) Governs Genomic Stability and Proliferation in [SCLC](../cancer_types/SCLC.md) via c-MYC/PARP1 Suppression Driving Vulnerability to BET Inhibitors
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
@@ -81,5 +82,8 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

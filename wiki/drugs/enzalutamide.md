@@ -20,6 +20,7 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - AR-amplified MSK-PCa2 CRPC patient-derived organoid was exquisitely sensitive to enzalutamide (IC50 ~50 nM) in vitro and in CB17 SCID xenografts; organoid lines without [AR](../genes/AR.md) amplification were resistant, supporting [AR](../genes/AR.md) amplification as a predictive biomarker for enzalutamide response [PMID:25201530](../papers/25201530.md)
 - Combination enzalutamide + [everolimus](../drugs/everolimus.md) significantly enhanced tumor growth inhibition over enzalutamide alone in MSK-PCa2 (AR-amplified, PTEN-loss, PIK3R1-mutant) xenografts, providing preclinical rationale for combined [AR](../genes/AR.md) + PI3K/mTOR pathway blockade in CRPC [PMID:25201530](../papers/25201530.md)
 - Enzalutamide pre-treatment context: AR-V7 splice variant was detectable at low ratios in most pre-enzalutamide mCRPC cases; recurrent [AR](../genes/AR.md) hotspot W742C confers bicalutamide agonism; 89% of mCRPC patients harbored at least one actionable alteration relevant to AR-directed therapy [PMID:26000489](../papers/26000489.md)
+- Variable [AR](../genes/AR.md) transcriptional output across [PRAD](../cancer_types/PRAD.md) subtypes implies subtype-stratified responses to AR-directed therapies; enzalutamide named alongside [abiraterone](../drugs/abiraterone.md) as relevant for SPOP/FOXA1-mutant primary prostate tumors with highest [AR](../genes/AR.md) output [PMID:26544944](../papers/26544944.md)
 
 ## Resistance mechanisms
 
@@ -35,5 +36,8 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

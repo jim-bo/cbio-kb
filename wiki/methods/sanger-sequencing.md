@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -50,6 +50,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Sanger sequencing used to validate somatic mutations identified by next-generation sequencing in breast cancer [PMID:26168399](../papers/26168399.md)
 - Sanger sequencing used to confirm somatic mutations detected by MSK-IMPACT panel in pancreatic cancer [PMID:26278805](../papers/26278805.md)
 - Sanger sequencing used to validate somatic mutations in colorectal cancer whole-exome and whole-genome sequencing [PMID:26343386](../papers/26343386.md)
+- Used to validate [MYBL1](../genes/MYBL1.md) fusion breakpoints and to characterize [MYBL1](../genes/MYBL1.md) truncations identified by whole-genome sequencing in salivary adenoid cystic carcinomas, including 3'-RACE for truncation characterization [PMID:26631609](../papers/26631609.md).
+- Used to validate the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot mutation identified by WGS/WES in uveal melanoma samples; confirmed mutation in 2/28 discovery samples and 1/56 previously published [UM](../cancer_types/UM.md) tumors [PMID:26683228](../papers/26683228.md).
 
 ## Notes
 
@@ -149,10 +151,16 @@ A first-generation DNA sequencing method based on the selective incorporation of
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26631609](../papers/26631609.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -20,6 +20,7 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 - Frameshift, nonsense, and missense mutations plus homozygous deletion in 3% of ER+ breast cancer (Broad WES, 103 tumors); pattern consistent with recessive inactivation [PMID:22722202](../papers/22722202.md)
 - Inactivating mutations in 14% of Luminal A breast cancer cases; acts in the p38/JNK1 pathway; mutually exclusive with [MAP2K4](../genes/MAP2K4.md) mutations [PMID:23000897](../papers/23000897.md)
 - Focal amplifications in 3 desmoplastic melanoma tumors; novel in melanoma; supported by analogy to a Sleeping Beauty mouse screen; functional validation in human desmoplastic melanoma not yet provided [PMID:26343386](../papers/26343386.md)
+- Recurrent focal deletion in prostate adenocarcinoma in the TCGA cohort (n=333); co-deletion of [MAP3K7](../genes/MAP3K7.md) with [CHD1](../genes/CHD1.md) marks aggressive ETS-negative disease [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ MAP3K1 (Mitogen-Activated Protein Kinase Kinase Kinase 1, also MEKK1) is an upst
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

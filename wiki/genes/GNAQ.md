@@ -17,6 +17,7 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 ## Alterations observed in the corpus
 
 - Rare Q209 hotspot in Triple-WT cutaneous melanoma (typically a uveal-melanoma driver); co-occurs with [SF3B1](../genes/SF3B1.md) R625H but not [BAP1](../genes/BAP1.md) mutations in this cutaneous cohort [PMID:26091043](../papers/26091043.md)
+- Mutated in 8/28 uveal melanoma samples (7 p.Q209P, 1 p.G48L); mutually exclusive with [GNA11](../genes/GNA11.md); together GNAQ/GNA11 account for ~83% of [UM](../cancer_types/UM.md) drivers [PMID:26683228](../papers/26683228.md)
 
 ## Cancer types (linked)
 
@@ -37,5 +38,8 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 ## Sources
 
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

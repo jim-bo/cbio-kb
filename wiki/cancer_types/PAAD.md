@@ -32,7 +32,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 
 ## Subtypes
 
-- [KRAS](../genes/KRAS.md)^G12R^-mutant PDAC is a distinct clinical subset: enriched in stage I disease (23% vs 11% in stage II–III, p=0.022), more often node-negative (47% vs 26% for KRAS^G12D^, p=0.019), with improved [OS](../cancer_types/OS.md) and decreased distant recurrence compared to KRAS^G12D^; also associated with family history of pancreatic cancer (16.4% vs 4.2%, p=0.003) [PMID:39214094](../papers/39214094.md).
+- [KRAS](../genes/KRAS.md)^G12R^-mutant PDAC is a distinct clinical subset: enriched in stage I disease (23% vs 11% in stage II–III, p=0.022), more often node-negative (47% vs 26% for [KRAS](../genes/KRAS.md)^G12D^, p=0.019), with improved [OS](../cancer_types/OS.md) and decreased distant recurrence compared to [KRAS](../genes/KRAS.md)^G12D^; also associated with family history of pancreatic cancer (16.4% vs 4.2%, p=0.003) [PMID:39214094](../papers/39214094.md).
 - Transcriptional programs diverge by KRAS allele: KRAS^G12D^ tumors show enhanced KRAS signaling and EMT; KRAS^G12R^ tumors show increased TNF/NF-κB signaling by both bulk RNA-seq and [CosMx SMI](../methods/cosmx-smi.md) spatial profiling [PMID:39214094](../papers/39214094.md).
 
 ## Therapeutic landscape

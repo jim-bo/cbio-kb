@@ -19,7 +19,7 @@ ALMS1 encodes a centrosome-associated protein whose germline loss causes Alströ
 
 ## Alterations observed in the corpus
 
-- Clustered mutations in centrosome-associated genes in SCLC (110-tumor WGS cohort); ALMS1 co-clustered with [ASPM](../genes/ASPM.md) and [PDE4DIP](../genes/PDE4DIP.md); functional role in cancer remains unclear and requires experimental validation [PMID:26168399](../papers/26168399.md)
+- Clustered mutations in centrosome-associated genes in [SCLC](../cancer_types/SCLC.md) (110-tumor WGS cohort); ALMS1 co-clustered with [ASPM](../genes/ASPM.md) and [PDE4DIP](../genes/PDE4DIP.md); functional role in cancer remains unclear and requires experimental validation [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +27,7 @@ ALMS1 encodes a centrosome-associated protein whose germline loss causes Alströ
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-clustered with [ASPM](../genes/ASPM.md) and [PDE4DIP](../genes/PDE4DIP.md) in SCLC as centrosome-associated significantly mutated genes [PMID:26168399](../papers/26168399.md)
+- Co-clustered with [ASPM](../genes/ASPM.md) and [PDE4DIP](../genes/PDE4DIP.md) in [SCLC](../cancer_types/SCLC.md) as centrosome-associated significantly mutated genes [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

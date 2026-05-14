@@ -19,7 +19,7 @@ CRACDL (also referred to in the literature by its previous designation KIAA1211)
 
 ## Cancer types (linked)
 
-- **SCLC**: Identified as significantly mutated in a 110-tumour whole-genome sequencing cohort [PMID:26168399](../papers/26168399.md)
+- **[SCLC](../cancer_types/SCLC.md)**: Identified as significantly mutated in a 110-tumour whole-genome sequencing cohort [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -27,7 +27,7 @@ CRACDL (also referred to in the literature by its previous designation KIAA1211)
 
 ## Open questions
 
-- Functional role in SCLC and cancer biology is unknown; authors explicitly note that experiments will be required to clarify its significance [PMID:26168399](../papers/26168399.md)
+- Functional role in [SCLC](../cancer_types/SCLC.md) and cancer biology is unknown; authors explicitly note that experiments will be required to clarify its significance [PMID:26168399](../papers/26168399.md)
 
 ## Sources
 

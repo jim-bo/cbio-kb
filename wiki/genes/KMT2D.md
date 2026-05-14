@@ -44,6 +44,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D selectively mutated in mCRPC vs. primary prostate cancer (q<0.1, Benjamini-Hochberg) in the SU2C–PCF 150-case prospective WES cohort [PMID:26000489](../papers/26000489.md)
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - Subclonal chromatin remodeling mutation in breast adenoid cystic carcinoma (AdCC); may contribute to intra-tumor heterogeneity and therapeutic escape [PMID:26095796](../papers/26095796.md)
+- Truncating chromatin-modifier mutations in KMT2D enriched in the 26% 'unclassified' prostate cancer subset with high SCNA burden in the TCGA prostate cohort [PMID:26544944](../papers/26544944.md)
+- Truncating mutation p.Gln2418* in mycosis fungoides (CTCL); KMT2D chromatin-modifier mutations identified alongside [KMT2C](../genes/KMT2C.md) in the CTCL/Sézary syndrome exome cohort [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -146,5 +148,11 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -33,6 +33,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Absent (0/59) in high-grade upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) vs 18.6% in high-grade urothelial carcinoma of the bladder (UCB) (p<0.001); striking depletion relative to UCB. [PMID:26278805](../papers/26278805.md)
 - Loss-of-function mutations in desmoplastic melanoma; IHC-confirmed protein loss. [PMID:26343386](../papers/26343386.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype in a TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- Heterozygous loss often co-incident with [BRCA2](../genes/BRCA2.md) loss at 13q in primary prostate cancer [PMID:26544944](../papers/26544944.md)
+- 13q14.2 deletion in 4/25 (16%) Sézary syndrome [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -101,5 +103,11 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -15,7 +15,7 @@ BRCC3 (BRCA1/BRCA2-Containing Complex, Subunit 3), also known as KIAA0157 or BRE
 
 ## Alterations observed in the corpus
 
-- BRCC3 identified as a DNA damage pathway driver in CLL in a 538-sample whole-exome sequencing study; classified alongside CHEK2, ELF4, and DYRK1A as part of the DNA damage response driver category in CLL [PMID:26466571](../papers/26466571.md).
+- BRCC3 identified as a DNA damage pathway driver in CLL in a 538-sample whole-exome sequencing study; classified alongside [CHEK2](../genes/CHEK2.md), [ELF4](../genes/ELF4.md), and [DYRK1A](../genes/DYRK1A.md) as part of the DNA damage response driver category in CLL [PMID:26466571](../papers/26466571.md).
 
 ## Cancer types (linked)
 

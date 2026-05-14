@@ -27,7 +27,7 @@ CLL/SLL is a Mature B-Cell Neoplasm (parent MBN). IGHV-mutated (M-CLL) and IGHV-
 - Recurrent SVs: [BCL2](../genes/BCL2.md) translocations predominantly in M-CLL (5.7% of WGS cases) via aberrant V(D)J; recurrent 37-Mb chr14 deletion disrupting [ZFP36L1](../genes/ZFP36L1.md), [DICER1](../genes/DICER1.md), [TRAF3](../genes/TRAF3.md) in U-CLL (4.6%) via class-switch recombination [PMID:35927489](../papers/35927489.md).
 - Mutational signatures: canonical AID (SBS84) enriched in U-CLL; non-canonical AID (SBS85) enriched in M-CLL (p=1.6×10^-9) [PMID:35927489](../papers/35927489.md).
 - WES of 160 CLL tumors identified [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [DDX3X](../genes/DDX3X.md), and [POT1](../genes/POT1.md) as significantly mutated genes; [SF3B1](../genes/SF3B1.md) mutations associated with poor prognosis [PMID:23415222](../papers/23415222.md)
-- Genomic profiling of CLL/SLL identified recurrent alterations in SF3B1, [NOTCH1](../genes/NOTCH1.md), [ATM](../genes/ATM.md), and [TP53](../genes/TP53.md); mutational landscape informs prognosis and therapeutic targeting [PMID:26200345](../papers/26200345.md)
+- Genomic profiling of CLL/SLL identified recurrent alterations in [SF3B1](../genes/SF3B1.md), [NOTCH1](../genes/NOTCH1.md), [ATM](../genes/ATM.md), and [TP53](../genes/TP53.md); mutational landscape informs prognosis and therapeutic targeting [PMID:26200345](../papers/26200345.md)
 - Genomic analysis of CLL/SLL identified recurrent driver mutations and copy number alterations informing disease prognosis and targeted therapy strategies [PMID:26466571](../papers/26466571.md)
 
 ## Subtypes

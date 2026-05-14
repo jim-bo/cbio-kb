@@ -9,7 +9,7 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -33,6 +33,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), MTOR mutations occur in 2% of cases and are FDA-targetable; MTOR is a component of the PI3K/AKT/mTOR pathway altered in 51% of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 - Non-passenger mutation in PI3K/mTOR pathway in breast adenoid cystic carcinoma (AdCC); subclonal in at least one case [PMID:26095796](../papers/26095796.md)
 - mTORC1 pathway (p-mTOR, p-4E-BP1 T37/46, p-S6 S235/236) activated in SF3B1-mutant/del(13q) CLL cells; targetable with [temsirolimus](../drugs/temsirolimus.md); mTORC1 activation driven by SF3B1-K700E-induced [NFATC1](../genes/NFATC1.md) isoform 5 [PMID:26200345](../papers/26200345.md)
+- Rare activating mutations contributing to PI3K-pathway aberration in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -89,3 +90,6 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:26200345](../papers/26200345.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

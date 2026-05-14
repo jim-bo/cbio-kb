@@ -3,8 +3,8 @@ symbol: ZMYM3
 aliases: []
 cancer_types: [MBL]
 tags: [chromatin-remodeling, H3K4me3, KDM6A-pathway, medulloblastoma]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ZMYM3
@@ -18,6 +18,7 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 - Frameshift, nonsense, and missense mutations in ZMYM3 identified in medulloblastoma WGS (PCGP cohort, 37 tumors); alterations cluster in subgroup-4 tumors from male patients; co-mutated with [KDM6A](../genes/KDM6A.md) and [KDM1A](../genes/KDM1A.md) in H3K4me3 regulatory complex [PMID:22722829](../papers/22722829.md)
 - Identified as a significantly mutated gene in CLL WES of 160 tumors; ZMYM3 encodes a zinc finger MYM-type protein involved in chromatin regulation [PMID:23415222](../papers/23415222.md)
 - ZMYM3 mutated in 3/112 Ewing sarcoma cases (two L82fs frameshift indels and one 17-kb intragenic deletion) [PMID:25223734](../papers/25223734.md)
+- Significantly mutated in 2% of primary prostate cancer ([PRAD](../cancer_types/PRAD.md)); novel in prostate cancer context [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -34,17 +35,20 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 
 ## Open questions
 
-- Whether ZMYM3 mutations cooperate with KDM6A loss to fully inactivate the H3K4me3 regulatory complex, or whether they target distinct aspects of chromatin regulation, is not resolved in the corpus.
+- Whether ZMYM3 mutations cooperate with [KDM6A](../genes/KDM6A.md) loss to fully inactivate the H3K4me3 regulatory complex, or whether they target distinct aspects of chromatin regulation, is not resolved in the corpus.
 - The male predominance of ZMYM3 mutations (consistent with X-linked escape) warrants further investigation of sex-specific medulloblastoma biology.
 
 ## Sources
 
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-07**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

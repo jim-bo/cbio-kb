@@ -15,10 +15,10 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 ## Alterations observed in the corpus
 
-- Focal amplification in 8% of [SCLC](../cancer_types/SCLC.md) tumors; mutually exclusive with MYC and [MYCN](../genes/MYCN.md) amplification [PMID:22941188](../papers/22941188.md)
-- Recurrent RLF-MYCL gene fusion identified as a functional oncogene in SCLC [PMID:22941189](../papers/22941189.md)
-- Copy-number amplification confirmed as a recurrent alteration in SCLC (JHU cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
-- Recurrent focal amplification in SCLC (L-MYC); member of the MYC family amplified in SCLC alongside MYC and [MYCN](../genes/MYCN.md) [PMID:26168399](../papers/26168399.md)
+- Focal amplification in 8% of [SCLC](../cancer_types/SCLC.md) tumors; mutually exclusive with [MYC](../genes/MYC.md) and [MYCN](../genes/MYCN.md) amplification [PMID:22941188](../papers/22941188.md)
+- Recurrent RLF-MYCL gene fusion identified as a functional oncogene in [SCLC](../cancer_types/SCLC.md) [PMID:22941189](../papers/22941189.md)
+- Copy-number amplification confirmed as a recurrent alteration in [SCLC](../cancer_types/SCLC.md) (JHU cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
+- Recurrent focal amplification in SCLC (L-MYC); member of the [MYC](../genes/MYC.md) family amplified in SCLC alongside MYC and [MYCN](../genes/MYCN.md) [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -26,7 +26,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with MYC amplification and MYCN amplification in SCLC [PMID:22941188](../papers/22941188.md)
+- Mutually exclusive with MYC amplification and [MYCN](../genes/MYCN.md) amplification in SCLC [PMID:22941188](../papers/22941188.md)
 
 ## Therapeutic relevance
 

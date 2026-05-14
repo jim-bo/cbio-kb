@@ -25,7 +25,8 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Used to profile DNA methylation at ~450,000 loci in 66 ChRCC tumors; identified >64,000 differentially methylated loci vs ccRCC and [CDKN2A](../genes/CDKN2A.md) epigenetic silencing in 4 cases. [PMID:25155756](../papers/25155756.md)
 - Applied to TCGA [HNSC](../cancer_types/HNSC.md) (n=279); revealed DNA hypomethylation associated with [NSD1](../genes/NSD1.md) loss-of-function mutations, defining the atypical/classical mRNA subtype enrichment and connecting histone methylation to DNA methylation states [PMID:25631445](../papers/25631445.md)
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for genome-wide DNA methylation profiling; data confirmed absence of [CDH1](../genes/CDH1.md) promoter hypermethylation in [ILC](../cancer_types/ILC.md), contradicting older MSP-based reports [PMID:26451490](../papers/26451490.md)
-- Profiled 39 primary neuroblastomas to characterize chromatin state at the [TERT](../genes/TERT.md) locus; CpG methylation increased in rearranged and MYCN-amplified tumors, particularly at a CpG near the TERT core promoter linked to disabled repression [PMID:26466568](../papers/26466568.md)
+- Profiled 39 primary neuroblastomas to characterize chromatin state at the [TERT](../genes/TERT.md) locus; CpG methylation increased in rearranged and MYCN-amplified tumors, particularly at a CpG near the [TERT](../genes/TERT.md) core promoter linked to disabled repression [PMID:26466568](../papers/26466568.md)
+- Profiled DNA methylation in 333 primary prostate adenocarcinomas (TCGA); identified four epigenetic clusters and a CIMP-like [IDH1](../genes/IDH1.md) R132-mutant subgroup with greater genome-wide hypermethylation than IDH1-mutant [GBM](../cancer_types/GBM.md) or [AML](../cancer_types/AML.md) [PMID:26544944](../papers/26544944.md).
 
 ## Notes
 
@@ -58,5 +59,8 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

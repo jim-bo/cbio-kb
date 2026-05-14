@@ -20,7 +20,7 @@ COL22A1 (collagen type XXII alpha 1 chain) encodes an extracellular matrix prote
 
 ## Alterations observed in the corpus
 
-- Significantly mutated gene in SCLC (110-tumor WGS cohort); included in the group of novel SMGs with unclear biological function (alongside [RGS7](../genes/RGS7.md), [FPR1](../genes/FPR1.md), CRACDL/KIAA1211); authors explicitly note functional role "is much less clear" [PMID:26168399](../papers/26168399.md)
+- Significantly mutated gene in [SCLC](../cancer_types/SCLC.md) (110-tumor WGS cohort); included in the group of novel SMGs with unclear biological function (alongside [RGS7](../genes/RGS7.md), [FPR1](../genes/FPR1.md), CRACDL/KIAA1211); authors explicitly note functional role "is much less clear" [PMID:26168399](../papers/26168399.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +28,7 @@ COL22A1 (collagen type XXII alpha 1 chain) encodes an extracellular matrix prote
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-identified with [RGS7](../genes/RGS7.md), [FPR1](../genes/FPR1.md), and [CRACDL](../genes/CRACDL.md) as novel significantly mutated genes with unclear function in SCLC [PMID:26168399](../papers/26168399.md)
+- Co-identified with [RGS7](../genes/RGS7.md), [FPR1](../genes/FPR1.md), and [CRACDL](../genes/CRACDL.md) as novel significantly mutated genes with unclear function in [SCLC](../cancer_types/SCLC.md) [PMID:26168399](../papers/26168399.md)
 
 ## Therapeutic relevance
 

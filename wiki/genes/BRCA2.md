@@ -56,6 +56,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Biallelic loss (somatic + germline) totaling 19.3% of mCRPC cases with BRCA1/ATM; multiple patients with germline BRCA2 + somatic second hit; some exhibited clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
 - High Cyclin E1, FoxM1, [PCNA](../genes/PCNA.md), pChk1-S345, Rad50, Rad51, [XRCC1](../genes/XRCC1.md), and BRCA2 protein characterize the proliferative [ILC](../cancer_types/ILC.md) transcriptional subtype, which is associated with worse disease-specific and overall survival in METABRIC [PMID:26451490](../papers/26451490.md)
+- Inactivation in 3% of primary prostate cancer (germline + somatic); all 6 germline mutations were K3326* (C-terminal truncation, debated pathogenicity); 2 tumors had focal homozygous deletions with low transcript; [RB1](../genes/RB1.md) heterozygous loss often co-incident with BRCA2 loss at 13q [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -149,5 +150,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

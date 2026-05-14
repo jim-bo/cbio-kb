@@ -116,8 +116,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Whole-exome sequencing used to characterize somatic mutations in breast cancer genomic study [PMID:26168399](../papers/26168399.md)
 - Whole-exome sequencing used to profile somatic mutations in colorectal cancer [PMID:26343386](../papers/26343386.md)
 - Performed on pretreatment tumor and matched germline DNA from 110 metastatic melanoma patients ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)) at mean coverage 183.7x (tumor) / 157.2x (germline); nonsynonymous mutational load (median 197/sample) and predicted neoantigen load were each significantly associated with [ipilimumab](../drugs/ipilimumab.md) clinical benefit [PMID:26359337](../papers/26359337.md)
-- Applied to 817 breast tumors (TCGA ILC/IDC study) for somatic mutation calling; identified [CDH1](../genes/CDH1.md) (63% [ILC](../cancer_types/ILC.md) vs 2% [IDC](../cancer_types/IDC.md)), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), [PIK3CA](../genes/PIK3CA.md), [FOXA1](../genes/FOXA1.md) as ILC-enriched drivers and [TP53](../genes/TP53.md) as IDC-enriched; no CDH1 promoter hypermethylation observed [PMID:26451490](../papers/26451490.md)
+- Applied to 817 breast tumors (TCGA ILC/IDC study) for somatic mutation calling; identified [CDH1](../genes/CDH1.md) (63% [ILC](../cancer_types/ILC.md) vs 2% [IDC](../cancer_types/IDC.md)), [TBX3](../genes/TBX3.md), [RUNX1](../genes/RUNX1.md), [PIK3CA](../genes/PIK3CA.md), [FOXA1](../genes/FOXA1.md) as ILC-enriched drivers and [TP53](../genes/TP53.md) as IDC-enriched; no [CDH1](../genes/CDH1.md) promoter hypermethylation observed [PMID:26451490](../papers/26451490.md)
 - Applied to 538 CLL samples with matched germline DNA (mean depth 95x); identified 44 recurrently mutated driver genes and 11 recurrent sCNVs; longitudinal WES of 59 matched pre-treatment/relapse pairs showed clonal evolution in 97% (57/59) of cases [PMID:26466571](../papers/26466571.md)
+- Applied to 333 tumor/normal pairs from primary prostate adenocarcinomas (TCGA); identified 13 significantly mutated genes (MutSigCV) and 0.94 mutations/Mb median mutation burden [PMID:26544944](../papers/26544944.md).
+- Used to sequence tumor-normal pairs from 42 CTCL patients (25 Sézary syndrome, 17 other CTCL) with Agilent SureSelect 50 Mb All Exon kit, mean depth 143.5×; identified recurrent deletions of [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PTEN](../genes/PTEN.md), [DNMT3A](../genes/DNMT3A.md) and [CDKN1B](../genes/CDKN1B.md), and mutations in TCR-signaling and epigenetic genes [PMID:26551667](../papers/26551667.md).
+- Applied to 9 primary uveal melanoma tumors and 5 primary tumor-derived cell lines as part of a 28-sample cohort; recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot and canonical [UM](../cancer_types/UM.md) drivers ([GNA11](../genes/GNA11.md), [GNAQ](../genes/GNAQ.md), [BAP1](../genes/BAP1.md), [SF3B1](../genes/SF3B1.md), [EIF1AX](../genes/EIF1AX.md)) characterized [PMID:26683228](../papers/26683228.md).
+- Used for 3 FFPE matched primary/recurrent medulloblastoma pairs (Nextera Rapid Capture) as part of a 46-sample WGS/WES study demonstrating divergent clonal selection at recurrence [PMID:26760213](../papers/26760213.md).
 
 ## Notes
 
@@ -385,5 +389,17 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

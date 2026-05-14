@@ -41,6 +41,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Classic CRC driver gene studied as comparison baseline in African American vs. Caucasian CRC cohort (103 AA, 129 Caucasian); mutation rates reported across both ethnic groups [PMID:25583493](../papers/25583493.md)
 - Recurrently mutated WNT-pathway component in PDA; co-mutated with [AXIN1](../genes/AXIN1.md) and [AXIN2](../genes/AXIN2.md), nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
 - Recurrently altered in mCRPC for the first time; part of WNT pathway alterations also including [CTNNB1](../genes/CTNNB1.md), [RNF43](../genes/RNF43.md), [ZNRF3](../genes/ZNRF3.md), and [RSPO2](../genes/RSPO2.md) fusions [PMID:26000489](../papers/26000489.md)
+- Truncating mutations observed in primary prostate cancer as part of beta-catenin pathway alterations; co-occurs with [CTNNB1](../genes/CTNNB1.md) mutations [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -124,5 +125,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -36,6 +36,7 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Truncating mutations in 41% of muscle-invasive bladder cancer tumours (MSKCC cohort, n=109); not independently associated with recurrence-free or cancer-specific survival in this cohort [PMID:25092538](../papers/25092538.md)
 - Significantly mutated across muscle-invasive urothelial carcinoma cohort by MutSigCV; not differentially enriched between [cisplatin](../drugs/cisplatin.md) responders and non-responders [PMID:25096233](../papers/25096233.md)
 - Chromatin-modifying gene mutated in upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)); mutations common in both low- and high-grade [UTUC](../cancer_types/UTUC.md) and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
+- Truncating chromatin-modifier mutations in primary prostate cancer; enriched in the 26% unclassified genomic subset with high SCNA burden [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -113,3 +114,6 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

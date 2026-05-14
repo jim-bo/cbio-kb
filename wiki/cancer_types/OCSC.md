@@ -12,11 +12,11 @@ processed_at: 2026-05-14
 
 ## Overview
 
-Oral Cavity Squamous Cell Carcinoma (OCSC) is a subtype of Head and Neck Squamous Cell Carcinoma ([[[HNSC](../cancer_types/HNSC.md)]]) arising from the oral cavity epithelium. It is classified under the Head and Neck Cancer main type in OncoTree (parent node [HNSC](../cancer_types/HNSC.md)). OCSC is characterized by high genomic instability (74% of tumors with ≥20 copy-number alterations), four major driver pathways (mitogenic signaling, Notch, cell cycle, [TP53](../genes/TP53.md)), and a high proportion of targetable alterations.
+Oral Cavity Squamous Cell Carcinoma (OCSC) is a subtype of Head and Neck Squamous Cell Carcinoma ([HNSC](../cancer_types/HNSC.md)) arising from the oral cavity epithelium. It is classified under the Head and Neck Cancer main type in OncoTree (parent node [HNSC](../cancer_types/HNSC.md)). OCSC is characterized by high genomic instability (74% of tumors with ≥20 copy-number alterations), four major driver pathways (mitogenic signaling, Notch, cell cycle, [TP53](../genes/TP53.md)), and a high proportion of targetable alterations.
 
 ## Cohorts in the corpus
 
-- [[[hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md)]] — 40 OSCC patients from MD Anderson Cancer Center; multi-platform analysis including Affymetrix SNP6 copy-number arrays (38 tumors), whole-exome sequencing, Illumina 450k methylation arrays, Affymetrix exon expression arrays, and Agilent miRNA arrays. [PMID:23619168](../papers/23619168.md)
+- [hnsc_mdanderson_2013](../datasets/hnsc_mdanderson_2013.md) — 40 OSCC patients from MD Anderson Cancer Center; multi-platform analysis including Affymetrix SNP6 copy-number arrays (38 tumors), whole-exome sequencing, Illumina 450k methylation arrays, Affymetrix exon expression arrays, and Agilent miRNA arrays. [PMID:23619168](../papers/23619168.md)
 
 ## Recurrent alterations
 
@@ -38,8 +38,8 @@ Oral Cavity Squamous Cell Carcinoma (OCSC) is a subtype of Head and Neck Squamou
 ## Therapeutic landscape
 
 - 80% (28/35) of OSCC tumors harbored ≥1 targetable alteration; 54% (19/35) had ≥2; notable targets include PI3K signaling (PIK3CA/AKT1-3, 34%), SRC-family kinases (SRC/LYN/YES1, 29%), [TNK2](../genes/TNK2.md) (17%), PTK2/FAK (14%), Aurora kinases (AURKA/C, 14%). [PMID:23619168](../papers/23619168.md)
-- [[[cetuximab](../drugs/cetuximab.md)]] (anti-EGFR) is an established HNSCC therapy; [EGFR](../genes/EGFR.md) amplified in 16% of OSCC, but downstream PI3K alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may explain limited EGFR-inhibitor benefit. [PMID:23619168](../papers/23619168.md)
-- [[[cisplatin](../drugs/cisplatin.md)]] remains backbone therapy alongside surgery and radiation. [PMID:23619168](../papers/23619168.md)
+- [cetuximab](../drugs/cetuximab.md) (anti-EGFR) is an established HNSCC therapy; [EGFR](../genes/EGFR.md) amplified in 16% of OSCC, but downstream PI3K alterations ([HRAS](../genes/HRAS.md), [PIK3CA](../genes/PIK3CA.md), [BRAF](../genes/BRAF.md), [AKT1](../genes/AKT1.md)) may explain limited EGFR-inhibitor benefit. [PMID:23619168](../papers/23619168.md)
+- [cisplatin](../drugs/cisplatin.md) remains backbone therapy alongside surgery and radiation. [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 

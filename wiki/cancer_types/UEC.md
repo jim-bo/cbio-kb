@@ -16,7 +16,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 ## Cohorts in the corpus
 
-- [[[ucec_tcga_pub](../datasets/ucec_tcga_pub.md)]] — 307 endometrioid cases (among 373 total endometrial carcinomas) profiled by TCGA with WES (248 tumor/normal pairs), RNA-seq (333 tumors), RPPA (293), methylation 450k arrays (373), and low-pass WGS (106–107 tumors); 21% recurred, 11% died at time of analysis. [PMID:23636398](../papers/23636398.md)
+- [ucec_tcga_pub](../datasets/ucec_tcga_pub.md) — 307 endometrioid cases (among 373 total endometrial carcinomas) profiled by TCGA with WES (248 tumor/normal pairs), RNA-seq (333 tumors), RPPA (293), methylation 450k arrays (373), and low-pass WGS (106–107 tumors); 21% recurred, 11% died at time of analysis. [PMID:23636398](../papers/23636398.md)
 
 ## Recurrent alterations
 
@@ -36,7 +36,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 ## Therapeutic landscape
 
-- Authors argue ~25% of high-grade endometrioid tumors have a serous-like molecular phenotype and may benefit from chemotherapy ([[[doxorubicin](../drugs/doxorubicin.md)]], [[[cisplatin](../drugs/cisplatin.md)]], [[[paclitaxel](../drugs/paclitaxel.md)]]) rather than adjuvant radiotherapy. [PMID:23636398](../papers/23636398.md)
+- Authors argue ~25% of high-grade endometrioid tumors have a serous-like molecular phenotype and may benefit from chemotherapy ([doxorubicin](../drugs/doxorubicin.md), [cisplatin](../drugs/cisplatin.md), [paclitaxel](../drugs/paclitaxel.md)) rather than adjuvant radiotherapy. [PMID:23636398](../papers/23636398.md)
 - PI3K/AKT pathway alteration in 93% of endometrioid tumors makes this the dominant targetable axis. [PMID:23636398](../papers/23636398.md)
 - Increased PGR expression in the copy-number-low cluster suggests hormonal-therapy responsiveness in this subgroup. [PMID:23636398](../papers/23636398.md)
 - POLE-mutant tumors' improved PFS raises the possibility of de-escalation of adjuvant therapy. [PMID:23636398](../papers/23636398.md)

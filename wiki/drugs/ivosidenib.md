@@ -22,11 +22,11 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 
 ## Resistance mechanisms
 
-- IDH inhibitor resistance in CCA is poorly characterized; secondary IDH mutations and isoform switching (IDH1 to [IDH2](../genes/IDH2.md)) have been reported as resistance mechanisms extrapolated from [AML](../cancer_types/AML.md) data [PMID:25526346](../papers/25526346.md)
+- IDH inhibitor resistance in CCA is poorly characterized; secondary IDH mutations and isoform switching ([IDH1](../genes/IDH1.md) to [IDH2](../genes/IDH2.md)) have been reported as resistance mechanisms extrapolated from [AML](../cancer_types/AML.md) data [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
-- [IHCH](../cancer_types/IHCH.md) — IDH1 mutations in 13–29% of iCCA; primary indication [PMID:25526346](../papers/25526346.md)
+- [IHCH](../cancer_types/IHCH.md) — [IDH1](../genes/IDH1.md) mutations in 13–29% of iCCA; primary indication [PMID:25526346](../papers/25526346.md)
 - [CHOL](../cancer_types/CHOL.md) [PMID:25526346](../papers/25526346.md)
 
 ## Sources

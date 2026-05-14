@@ -23,11 +23,11 @@ AKAP9 (A-Kinase Anchoring Protein 9) encodes a scaffolding protein that organize
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with SETBP1 p.S944N and [CDK6](../genes/CDK6.md) amplification in a gastric cancer patient (Pt2) with multi-region sampling [PMID:25583476](../papers/25583476.md)
+- Co-occurs with [SETBP1](../genes/SETBP1.md) p.S944N and [CDK6](../genes/CDK6.md) amplification in a gastric cancer patient (Pt2) with multi-region sampling [PMID:25583476](../papers/25583476.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting reported in the corpus; the CDK6 co-alteration in the same patient prompted authors to propose combined [AURKC](../genes/AURKC.md) and CDK6 inhibitor therapy [PMID:25583476](../papers/25583476.md)
+- No direct therapeutic targeting reported in the corpus; the [CDK6](../genes/CDK6.md) co-alteration in the same patient prompted authors to propose combined [AURKC](../genes/AURKC.md) and [CDK6](../genes/CDK6.md) inhibitor therapy [PMID:25583476](../papers/25583476.md)
 
 ## Open questions
 

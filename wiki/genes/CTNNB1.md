@@ -49,10 +49,14 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - β-catenin activating mutations in ~30% of [HCC](../cancer_types/HCC.md) and a high-risk feature in HCA for malignant transformation; CTNNB1 mutation in hepatocellular adenoma is an indication for surgical resection per this review [PMID:24735922](../papers/24735922.md)
 - Activating mutation in 29% (range 23–36%) of HCCs (WES, n=1,289); defines canonical-WNT non-proliferation subclass and the immune-excluded class; β-catenin activation drives T-cell exclusion and checkpoint resistance [PMID:24798001](../papers/24798001.md)
 - Beta-catenin pathway alteration among non-hypermutated gastric tumours; alternative splicing strongly associated with [U2AF1](../genes/U2AF1.md) S34F mutations [PMID:25079317](../papers/25079317.md)
-- Alternative splicing event strongly associated with U2AF1 S34F mutations in [LUAD](../cancer_types/LUAD.md); U2AF1 S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
+- Alternative splicing event strongly associated with [U2AF1](../genes/U2AF1.md) S34F mutations in [LUAD](../cancer_types/LUAD.md); [U2AF1](../genes/U2AF1.md) S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
 - Recurrently mutated in non-hypermutated CRC (concordant between primary and metastasis per Figure 1B) [PMID:25164765](../papers/25164765.md)
 - Hotspot mutations in 2 MSS carcinosarcoma cases (uterine); indicates Wnt pathway activation in a subset of MSS tumors [PMID:25233892](../papers/25233892.md)
 - Terminal node of Wnt convergence implicated via FAT1/AJUBA/NOTCH1 inactivation in HNSCC (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
+- Significantly mutated in [HCC](../cancer_types/HCC.md); central node of WNT/β-catenin pathway (54% pathway alteration); enriched in alcohol/tobacco MSig3 cluster (74% CTNNB1-mutated); mutation frequency rises during tumor progression [PMID:25822088](../papers/25822088.md)
+- Recurrently mutated WNT-pathway component in PDAC; nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- WNT pathway hotspot activating mutations observed in mCRPC for the first time (alongside [APC](../genes/APC.md), [RNF43](../genes/RNF43.md), [ZNRF3](../genes/ZNRF3.md), [RSPO2](../genes/RSPO2.md)) [PMID:26000489](../papers/26000489.md)
+- Recurrent COSMIC mutations (n=3) in Triple-WT cutaneous melanoma subtype [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -84,79 +88,62 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+- [PMID:25822088](../papers/25822088.md)
+
+- [PMID:25855536](../papers/25855536.md)
+
+- [PMID:26000489](../papers/26000489.md)
+
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

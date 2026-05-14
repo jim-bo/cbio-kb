@@ -6,8 +6,8 @@ cancer_types:
   - PRNE
   - HGSOC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CDK12
@@ -23,9 +23,10 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - CDK12 alterations identified as recurrent post-treatment changes and associated with Gleason score and metastasis patterns in [PRAD](../cancer_types/PRAD.md) in the MSK-CHORD real-world cohort (n=42,655 patients) [PMID:39506116](../papers/39506116.md).
 - Mutations associated with tandem duplicator (TD) phenotype in [HGSOC](../cancer_types/HGSOC.md) [PMID:36517593](../papers/36517593.md)
 - CDK12 structural variants in 3 [GBC](../cancer_types/GBC.md) patients including fusions (OncoKB level 3B) [PMID:36228155](../papers/36228155.md)
-- Identified as somatically mutated in HGSOC in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
+- Identified as somatically mutated in [HGSOC](../cancer_types/HGSOC.md) in TCGA integrated genomic analysis of ovarian carcinoma [PMID:21720365](../papers/21720365.md)
 - CDK12 mutations identified in prostate cancer WES of 112 tumors (Michigan cohort), implicating DNA damage response and transcription regulation [PMID:22722839](../papers/22722839.md)
 - Tumor-suppressor mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
+- DNA-repair pathway alteration in mCRPC; part of 22.7% broader DNA-repair alteration aggregate including [BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), [RAD51B](../genes/RAD51B.md), [RAD51C](../genes/RAD51C.md), and [BRIP1](../genes/BRIP1.md) [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -50,19 +51,22 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - [PMID:35764743](../papers/35764743.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

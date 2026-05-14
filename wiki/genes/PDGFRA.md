@@ -3,8 +3,8 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PDGFRA
@@ -28,8 +28,9 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - High PDGFRA expression cited as a rationale for [sunitinib](../drugs/sunitinib.md) therapy in metastatic NEN patients PN2 and PN10 in a WGTA precision-oncology study [PMID:24326773](../papers/24326773.md)
 - Single nasal-cavity case with missense p.Thr674Ile (AF 8%); the patient received targeted therapy with [imatinib](../drugs/imatinib.md) and was NED at 19 months — the only AdCC patient in the cohort to receive targeted therapy [PMID:24418857](../papers/24418857.md)
 - Recurrently mutated in rhabdomyosarcoma at 1.4% frequency (PFN-enriched); classified as a receptor tyrosine kinase driver [PMID:24436047](../papers/24436047.md)
-- Implicated in HCC pathogenesis as part of the receptor tyrosine kinase landscape; sorafenib inhibits PDGFR alongside VEGFR/RAF as part of its multi-kinase mechanism in advanced HCC [PMID:24798001](../papers/24798001.md)
-- PDGFRA expression positively correlates with stromal SEMA7A in GBC (scRNA-seq, GEO datasets), co-marking cancer-associated fibroblast (CAF) subpopulations alongside ACTA2, MFAP5, TGFBR1, and TGFBR2; high stromal SEMA7A associates with lymph node metastasis and poor OS in a GBC cohort (n=86) [PMID:24997986](../papers/24997986.md)
+- Implicated in [HCC](../cancer_types/HCC.md) pathogenesis as part of the receptor tyrosine kinase landscape; [sorafenib](../drugs/sorafenib.md) inhibits PDGFR alongside VEGFR/RAF as part of its multi-kinase mechanism in advanced [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
+- PDGFRA expression positively correlates with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md) (scRNA-seq, GEO datasets), co-marking cancer-associated fibroblast (CAF) subpopulations alongside [ACTA2](../genes/ACTA2.md), [MFAP5](../genes/MFAP5.md), [TGFBR1](../genes/TGFBR1.md), and [TGFBR2](../genes/TGFBR2.md); high stromal [SEMA7A](../genes/SEMA7A.md) associates with lymph node metastasis and poor [OS](../cancer_types/OS.md) in a [GBC](../cancer_types/GBC.md) cohort (n=86) [PMID:24997986](../papers/24997986.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDGFRA is co-amplified with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md) at 4q12 in the Triple-WT subtype (no hot-spot BRAF/RAS/NF1); focal amplification enriched in Triple-WT. [imatinib](../drugs/imatinib.md), [sorafenib](../drugs/sorafenib.md), and [crenolanib](../drugs/crenolanib.md) are nominated therapeutic candidates. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -59,34 +60,37 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

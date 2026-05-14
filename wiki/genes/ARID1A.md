@@ -61,6 +61,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Loss-of-function mutations in 18–23% of intrahepatic CCA and 14% of extrahepatic CCA; mechanistically represses [ALDH1A1](../genes/ALDH1A1.md) via HDAC1/H3K27ac axis; loss enhances cancer stemness and correlates with poor prognosis; co-occurring with activating [KRAS](../genes/KRAS.md) mutations synergistically accelerates CCA development; ARID1A-mutant tumors trend toward high MSI/TMB and ICI sensitivity [PMID:25526346](../papers/25526346.md)
 - Significantly enriched in the Low-clonality (LoC) subtype of gastric cancer; associated with younger onset and longer survival in a 294-patient Tianjin WES cohort [PMID:25583476](../papers/25583476.md)
 - Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
+- Chromatin-remodeling gene recurrently mutated in [HCC](../cancer_types/HCC.md); part of SWI/SNF pathway altered in 28% of 243 [HCC](../cancer_types/HCC.md) tumors [PMID:25822088](../papers/25822088.md)
+- Mutated in 6% of PDA by sequencing; protein loss by IHC in independent 296-case cohort significantly associated with poor outcome (P=0.0202); ARID1A-deficient PDA cell lines are synthetically lethal with [ARID1B](../genes/ARID1B.md) depletion [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -199,5 +201,11 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

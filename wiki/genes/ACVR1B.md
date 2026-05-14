@@ -3,8 +3,8 @@ symbol: ACVR1B
 aliases: [ALK4]
 cancer_types: [ADCC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ACVR1B
@@ -16,6 +16,7 @@ ACVR1B (Activin A Receptor Type 1B, also known as ALK4) encodes a type I serine/
 ## Alterations observed in the corpus
 
 - Single frameshift mutation identified in sinonasal AdCC (1/21 sequenced cases); part of the long tail of singleton mutations in the coding panel; somatic status not confirmed by matched normal sequencing [PMID:24418857](../papers/24418857.md)
+- TGF-β-axis alteration in pancreatic ductal adenocarcinoma (PDA), co-occurring with [SMAD4](../genes/SMAD4.md) loss and augmenting TGF-β pathway disruption [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ ACVR1B (Activin A Receptor Type 1B, also known as ALK4) encodes a type I serine/
 
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

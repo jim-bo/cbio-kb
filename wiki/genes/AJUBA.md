@@ -23,15 +23,15 @@ AJUBA encodes a LIM domain protein involved in cell adhesion and signaling. It h
 
 ## Cancer types (linked)
 
-- **[CSCC](../cancer_types/CSCC.md)**: 23.1% mutation frequency; associated with deeper invasion and HRAS co-mutation in aggressive cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
+- **[CSCC](../cancer_types/CSCC.md)**: 23.1% mutation frequency; associated with deeper invasion and [HRAS](../genes/HRAS.md) co-mutation in aggressive cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- AJUBA mutation positively correlated with HRAS co-mutation in cSCC [PMID:25303977](../papers/25303977.md)
+- AJUBA mutation positively correlated with [HRAS](../genes/HRAS.md) co-mutation in cSCC [PMID:25303977](../papers/25303977.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting reported; HRAS co-mutation context may be relevant for RAS-pathway inhibitor strategies [PMID:25303977](../papers/25303977.md)
+- No direct therapeutic targeting reported; [HRAS](../genes/HRAS.md) co-mutation context may be relevant for RAS-pathway inhibitor strategies [PMID:25303977](../papers/25303977.md)
 
 ## Open questions
 

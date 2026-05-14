@@ -22,12 +22,12 @@ Oropharynx squamous cell carcinoma arises from the squamous epithelium of the or
 
 - HPV+ oropharyngeal tumors are enriched for helical-domain [PIK3CA](../genes/PIK3CA.md) mutations (E542K/E545K; 56% HPV+ vs 34% HPV−), recurrent [TRAF3](../genes/TRAF3.md) deletions (14%) and truncating mutations (8%), and focal [E2F1](../genes/E2F1.md) amplification; intact 9p21.3 ([CDKN2A](../genes/CDKN2A.md)) distinguishes HPV+ from HPV− oropharyngeal tumors. [PMID:25631445](../papers/25631445.md)
 - [FGFR3](../genes/FGFR3.md) alterations enriched in HPV+ vs HPV− oropharyngeal tumors (11% vs 2%), including [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusions in 2 HPV+ cases. [PMID:25631445](../papers/25631445.md)
-- [TP53](../genes/TP53.md) mutation rate reduced in oropharyngeal tumors relative to oral cavity and larynx (P<0.001), reflecting HPV E6-mediated TP53 degradation in the HPV+ majority. [PMID:25631445](../papers/25631445.md)
+- [TP53](../genes/TP53.md) mutation rate reduced in oropharyngeal tumors relative to oral cavity and larynx (P<0.001), reflecting HPV E6-mediated [TP53](../genes/TP53.md) degradation in the HPV+ majority. [PMID:25631445](../papers/25631445.md)
 - [NSD1](../genes/NSD1.md) and [CASP8](../genes/CASP8.md) mutations also had reduced rates in oropharyngeal tumors compared with other HNSCC subsites. [PMID:25631445](../papers/25631445.md)
 
 ## Subtypes
 
-- HPV+ oropharyngeal tumors cluster in the "atypical" mRNA expression subtype: enriched for [PIK3CA](../genes/PIK3CA.md) helical-domain mutations, NSD1 LOF, DNA hypomethylation, wild-type [NOTCH1](../genes/NOTCH1.md), and APOBEC-like TpC mutational signature. [PMID:25631445](../papers/25631445.md)
+- HPV+ oropharyngeal tumors cluster in the "atypical" mRNA expression subtype: enriched for [PIK3CA](../genes/PIK3CA.md) helical-domain mutations, [NSD1](../genes/NSD1.md) LOF, DNA hypomethylation, wild-type [NOTCH1](../genes/NOTCH1.md), and APOBEC-like TpC mutational signature. [PMID:25631445](../papers/25631445.md)
 - HPV+ tumors show favorable overall survival compared with HPV−/TP53-mutant and 11q13/CCND1-amplified tumors. [PMID:25631445](../papers/25631445.md)
 
 ## Therapeutic landscape
@@ -36,6 +36,6 @@ Oropharynx squamous cell carcinoma arises from the squamous epithelium of the or
 
 ## Sources
 
-- TCGA multi-platform profiling of 279 HNSCCs; oropharynx site (n=33, 12% of cohort) was the most HPV-enriched subsite (64% HPV+); HPV+ biology defined by [TRAF3](../genes/TRAF3.md) loss, PIK3CA helical-domain mutations, and [E2F1](../genes/E2F1.md) amplification, with favorable survival outcomes. [PMID:25631445](../papers/25631445.md)
+- TCGA multi-platform profiling of 279 HNSCCs; oropharynx site (n=33, 12% of cohort) was the most HPV-enriched subsite (64% HPV+); HPV+ biology defined by [TRAF3](../genes/TRAF3.md) loss, [PIK3CA](../genes/PIK3CA.md) helical-domain mutations, and [E2F1](../genes/E2F1.md) amplification, with favorable survival outcomes. [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

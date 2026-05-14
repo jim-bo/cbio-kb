@@ -27,10 +27,10 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Mutated in 65% of POLE-ultramutated endometrial tumors; mutually exclusive with [PIK3CA](../genes/PIK3CA.md) across all endometrial subgroups [PMID:23636398](../papers/23636398.md)
 - PI3K p85α regulatory subunit altered as part of the PI3K-family mutation cluster in 18.3% of [GBM](../cancer_types/GBM.md) (PIK3CA/PIK3R1 combined) [PMID:24120142](../papers/24120142.md)
 - Variants of uncertain significance identified in BRAF-inhibitor-resistant melanoma tumors; larger cohort validation and functional experiments needed to clarify contribution to resistance [PMID:24265153](../papers/24265153.md)
-- PIK3R1 PI3K pathway loss observed in gastric cancer ([EGC](../cancer_types/EGC.md)); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
+- PIK3R1 PI3K pathway loss observed in gastric cancer ([EGC](../cancer_types/EGC.md)); [PTEN](../genes/PTEN.md) focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
-- Expressed mutation seen in CRPC; MSK-PCa2 PIK3R1 mutation co-occurs with PTEN loss and is associated with PI3K-inhibitor sensitivity in patient-derived prostate cancer organoids [PMID:25201530](../papers/25201530.md)
-- In-frame indels and frameshift mutations in 3/22 (14%) uterine/ovarian carcinosarcoma cases; mutually exclusive with PIK3CA; first implication of PIK3R1 in carcinosarcoma [PMID:25233892](../papers/25233892.md)
+- Expressed mutation seen in CRPC; MSK-PCa2 PIK3R1 mutation co-occurs with [PTEN](../genes/PTEN.md) loss and is associated with PI3K-inhibitor sensitivity in patient-derived prostate cancer organoids [PMID:25201530](../papers/25201530.md)
+- In-frame indels and frameshift mutations in 3/22 (14%) uterine/ovarian carcinosarcoma cases; mutually exclusive with [PIK3CA](../genes/PIK3CA.md); first implication of PIK3R1 in carcinosarcoma [PMID:25233892](../papers/25233892.md)
 - Mutated in 1% of HNSCC; one of multiple genes with at least one identical COSMIC-reported mutation; component of PI(3)K pathway altered in 61–62% of tumours [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)

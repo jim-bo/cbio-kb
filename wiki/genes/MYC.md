@@ -65,6 +65,9 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC recurrently mutated driver in gastric adenocarcinoma; participates in Wnt, PI3K-ERBB, and [TP53](../genes/TP53.md) pathways in this Chinese cohort (n=294) [PMID:25583476](../papers/25583476.md)
 - MYC amplified in 10/29 (34%) metastatic cSCC samples (one high-level); part of recurrent copy-number gains alongside [TP63](../genes/TP63.md), [CCND1](../genes/CCND1.md), [LAMA5](../genes/LAMA5.md). [PMID:25589618](../papers/25589618.md)
 - MYC amplified in 14% HPV(−) and 3% HPV(+) [HNSC](../cancer_types/HNSC.md) (TCGA, n=279); MYC was not the target of HPV integration in this cohort (contradicting prior cell-line reports). [PMID:25631445](../papers/25631445.md)
+- In [HCC](../cancer_types/HCC.md), MYC is recurrently amplified. [PMID:25822088](../papers/25822088.md)
+- In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MYC focal amplification at 8q24.13 is uniquely associated with poor overall survival (P=0.0013) and adenosquamous histology ([PAASC](../cancer_types/PAASC.md)); detectable in PanIN precursor lesions; confirmed by break-apart FISH. [PMID:25855536](../papers/25855536.md)
+- In mCRPC, MYC is among recurrent CNAs (8q gain) identified in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -212,5 +215,14 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

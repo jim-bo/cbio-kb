@@ -25,6 +25,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Biallelic somatic mutation in ACINAR01 (MSI-H pancreatic acinar cell carcinoma), with >90% of sequenced tags mutated; clear causal driver of microsatellite instability in this tumor [PMID:24293293](../papers/24293293.md)
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; standard multigene panel for familial gastric cancer includes MSH2 alongside [MLH1](../genes/MLH1.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), and [EPCAM](../genes/EPCAM.md) [PMID:24816255](../papers/24816255.md)
 - MSH2 deleterious mutation identified in one of the three [NSCLC](../cancer_types/NSCLC.md) patients with the highest mutation burden who achieved durable clinical benefit on [pembrolizumab](../drugs/pembrolizumab.md), consistent with mismatch-repair-driven hypermutation; MSH2 loss identified as a DNA repair mechanism elevating TMB and PD-1 response. [PMID:25765070](../papers/25765070.md)
+- In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MSH2 loss was identified among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed T→C-at-CTG signatures consistent with MMR deficiency. [PMID:25855536](../papers/25855536.md)
+- In metastatic castration-resistant prostate cancer (mCRPC), MSH2 alterations were among MMR gene changes in 3 of 4 hypermutated (~50 mutations/Mb) cases. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -67,5 +69,11 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MLH1
@@ -29,8 +29,10 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - Promoter methylation detected in 1/23 pancreatic acinar cell carcinomas by qMSP (ACINAR06) and equivocal in ACINAR18; did not correlate with MSI status [PMID:24293293](../papers/24293293.md)
 - Homozygous loss-of-function in PanNET patient PN4 (together with [MSH6](../genes/MSH6.md)); 18% microsatellite instability but predicted MSI-low, illustrating that dMMR does not equal MSI-high in non-colorectal neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; somatic MLH1 promoter hypermethylation underlies many MSI-high familial intestinal gastric tumors; included in standard multigene GC panel [PMID:24816255](../papers/24816255.md)
-- MLH1 promoter hypermethylation drives the MSI subtype (gastric-CIMP) in gastric cancer (EGC) [PMID:25079317](../papers/25079317.md)
+- MLH1 promoter hypermethylation drives the MSI subtype (gastric-CIMP) in gastric cancer ([EGC](../cancer_types/EGC.md)) [PMID:25079317](../papers/25079317.md)
 - Frameshift mutation (MM20T) driving hypermutator phenotype in uterine/ovarian carcinosarcoma; MMR-deficient cases flagged as candidates for anti-PD-1 immunotherapy [PMID:25233892](../papers/25233892.md)
+- MLH1 not specifically highlighted but MLH1/MLH3 are part of MMR/mismatch-repair pathway alterations in PDA (109-case WES cohort) [PMID:25855536](../papers/25855536.md)
+- MLH1 MMR alteration in 3 of 4 hypermutated mCRPC cases (~50 mutations/Mb) in the SU2C–PCF 150-case prospective WES cohort; MMR deficiency in ~2% of cases [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -64,31 +66,37 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

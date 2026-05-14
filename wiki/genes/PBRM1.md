@@ -3,8 +3,8 @@ symbol: PBRM1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [chromatin-remodeling, swi-snf, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -27,6 +27,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - PBRM1 (BAF180), a PBAF-specific SWI/SNF subunit, is referenced in the context of complex composition in small cell carcinoma of the ovary, hypercalcemic type (SCCOHT); not mutated in this cohort but relevant to SWI/SNF biology [PMID:24658004](../papers/24658004.md)
 - Recurrent loss-of-function mutations in thymic carcinomas, part of a molecular profile that distinguishes aggressive thymic carcinomas from indolent thymomas [PMID:24974848](../papers/24974848.md)
 - Invoked as precedent for discovering frequent kidney-cancer driver mutations from modest sample sizes (originally identified in ccRCC from 25 tumors); not somatically recurrent in the ChRCC cohort (n=66) [PMID:25155756](../papers/25155756.md)
+- In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), PBRM1 was altered in 5% of cases as part of the SWI/SNF chromatin-remodelling complex lesions affecting >42% of cases in the 109-case microdissected exome cohort. [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -48,31 +49,34 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

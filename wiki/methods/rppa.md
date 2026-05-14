@@ -24,6 +24,7 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - RPPA on 181 of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified three mTOR activation patterns (basal; STK11-low/AMPK-low; high p-AKT/PIK3CA mutation), demonstrating that pathway-state biomarkers complement DNA-based stratification [PMID:25079552](../papers/25079552.md)
 - Applied in TCGA PTC study to resolve proteomic differences between BVL (BRAFV600E-driven, high MEK/ERK activation) and RL (RAS-driven, elevated p90RSK phosphorylation, [TSC2](../genes/TSC2.md) inhibition, [BCL2](../genes/BCL2.md) over-expression) subtypes [PMID:25417114](../papers/25417114.md)
 - Applied in TCGA [HNSC](../cancer_types/HNSC.md) multi-platform profiling (n=279) for protein-level characterization, integrated with genomic subtypes to characterize therapeutic targets across the atypical/mesenchymal/basal/classical expression subtypes [PMID:25631445](../papers/25631445.md)
+- Reverse-phase protein array (RPPA, 181 cancer-related proteins/phosphoproteins) on 202 melanoma samples revealed pathway-specific signaling differences: phospho-MEK/ERK elevated in BRAF/RAS subtypes, highest [KIT](../genes/KIT.md) protein in Triple-WT, highest CRAF in [NF1](../genes/NF1.md) subtype. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -50,5 +51,8 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

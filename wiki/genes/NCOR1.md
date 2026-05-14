@@ -3,8 +3,8 @@ symbol: NCOR1
 aliases: [N-CoR, TRAC1]
 cancer_types: [BRCA]
 tags: [deletion, transcriptional-repressor, breast-cancer, novel-candidate]
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # NCOR1
@@ -19,6 +19,7 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - NCOR1 nominated as a novel candidate driver gene alongside [MDM4](../genes/MDM4.md) and [CDK4](../genes/CDK4.md) by expression outlier analysis [PMID:22522925](../papers/22522925.md)
 - Truncating mutations and homozygous deletions identified in breast cancer WES (100 tumors, Sanger cohort); participates in oestrogen receptor alpha transcriptional repression [PMID:22722201](../papers/22722201.md)
 - Chromatin-remodeling gene mutated as part of the cohesin/chromatin-modifier landscape in TCC bladder cancer; mutations totaling 58% of 99 UCGC cases across chromatin-remodeling genes [PMID:24121792](../papers/24121792.md)
+- In mCRPC, NCOR1 was identified as an [AR](../genes/AR.md) pathway regulator recurrently altered in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -40,10 +41,13 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

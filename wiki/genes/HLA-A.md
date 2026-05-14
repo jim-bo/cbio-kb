@@ -33,11 +33,11 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 ## Therapeutic relevance
 
-- IFN pathway activation including HLA-A upregulation in precursor lesions could serve as early detection biomarker for high-risk HGSOC patients; no direct therapeutic target reported [PMID:39386723](../papers/39386723.md).
+- IFN pathway activation including HLA-A upregulation in precursor lesions could serve as early detection biomarker for high-risk [HGSOC](../cancer_types/HGSOC.md) patients; no direct therapeutic target reported [PMID:39386723](../papers/39386723.md).
 
 ## Open questions
 
-- Whether classical MHC-I upregulation (HLA-A) and non-classical MHC-I upregulation ([HLA-E](../genes/HLA-E.md)) have additive vs. competing roles in immune shaping of HGSOC precursors is unresolved [PMID:39386723](../papers/39386723.md).
+- Whether classical MHC-I upregulation (HLA-A) and non-classical MHC-I upregulation ([HLA-E](../genes/HLA-E.md)) have additive vs. competing roles in immune shaping of [HGSOC](../cancer_types/HGSOC.md) precursors is unresolved [PMID:39386723](../papers/39386723.md).
 
 ## Sources
 

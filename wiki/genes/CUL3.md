@@ -20,19 +20,19 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 
 ## Cancer types (linked)
 
-- **[LUSC](../cancer_types/LUSC.md)**: CUL3 deletion/mutation identified as a component of the oxidative stress pathway (NFE2L2/KEAP1/CUL3) altered in 34% of LUSC tumors in the TCGA cohort (178 tumors); mutations in NFE2L2 are concentrated in the KEAP1-interaction motifs (DLG/ETGE) [PMID:22960745](../papers/22960745.md)
+- **[LUSC](../cancer_types/LUSC.md)**: CUL3 deletion/mutation identified as a component of the oxidative stress pathway (NFE2L2/KEAP1/CUL3) altered in 34% of [LUSC](../cancer_types/LUSC.md) tumors in the TCGA cohort (178 tumors); mutations in [NFE2L2](../genes/NFE2L2.md) are concentrated in the KEAP1-interaction motifs (DLG/ETGE) [PMID:22960745](../papers/22960745.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- CUL3 alterations are part of the same pathway as NFE2L2 activating mutations and [KEAP1](../genes/KEAP1.md) loss-of-function mutations; NFE2L2 and KEAP1 mutations are mutually exclusive with each other in LUSC [PMID:22960745](../papers/22960745.md)
+- CUL3 alterations are part of the same pathway as [NFE2L2](../genes/NFE2L2.md) activating mutations and [KEAP1](../genes/KEAP1.md) loss-of-function mutations; [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) mutations are mutually exclusive with each other in [LUSC](../cancer_types/LUSC.md) [PMID:22960745](../papers/22960745.md)
 
 ## Therapeutic relevance
 
-- NFE2L2 pathway activation via CUL3 loss may promote chemotherapy resistance and antioxidant defense; no direct therapeutic targeting of CUL3 reported in the corpus.
+- [NFE2L2](../genes/NFE2L2.md) pathway activation via CUL3 loss may promote chemotherapy resistance and antioxidant defense; no direct therapeutic targeting of CUL3 reported in the corpus.
 
 ## Open questions
 
-- The relative frequency of CUL3 deletion versus mutation in LUSC, and whether CUL3 loss is mutually exclusive with NFE2L2 or KEAP1 mutations at the individual tumor level, is not detailed in the TCGA study.
+- The relative frequency of CUL3 deletion versus mutation in [LUSC](../cancer_types/LUSC.md), and whether CUL3 loss is mutually exclusive with NFE2L2 or [KEAP1](../genes/KEAP1.md) mutations at the individual tumor level, is not detailed in the TCGA study.
 
 ## Sources
 

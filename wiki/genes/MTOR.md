@@ -30,6 +30,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Somatic mutation in 2/66 chromophobe RCC cases; combined mTOR-pathway alteration rate ([PTEN](../genes/PTEN.md), MTOR, TSC1/2, [NRAS](../genes/NRAS.md)) of 23% in ChRCC suggests candidates for mTOR-directed therapy [PMID:25155756](../papers/25155756.md)
 - Recurrent mutations in chRCC alongside TSC1/TSC2, suggesting mTORC1 addiction; identified among 60 genes with COSMIC hotspot mutations as potential drug targets in nccRCC; mTORC1 inhibitors (rapalogs) nominated as candidate therapy [PMID:25401301](../papers/25401301.md)
 - MTOR S2215F (validated activating allele) identified in metastatic cSCC (n=29); RAS/RTK/PI3K pathway activation including MTOR events correlated with shorter PFS (mean 12 vs 50 months), motivating mTOR inhibitor evaluation. [PMID:25589618](../papers/25589618.md)
+- In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), MTOR mutations occur in 2% of cases and are FDA-targetable; MTOR is a component of the PI3K/AKT/mTOR pathway altered in 51% of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +76,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

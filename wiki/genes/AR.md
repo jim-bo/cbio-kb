@@ -7,8 +7,8 @@ tags:
   - hormone-receptor
   - oncogene
   - neuroendocrine
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # AR
@@ -26,10 +26,11 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Gains of the AR gene are noted as a common prostate cancer alteration in a WES study of 112 prostate tumors [PMID:22610119](../papers/22610119.md)
 - AR amplifications and mutations detected in prostate cancer WES of 112 tumors (Michigan cohort), with AR activity linked to ETS fusion status [PMID:22722839](../papers/22722839.md)
 - Amplification in MSK-PCa2 (mirrors ~50% of CRPC); silenced in MSK-PCa1; high-level expression with AR target-gene programs in MSK-PCa2/PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
+- Amplification and hotspot mutations (T878A, W742C, L702H, and novel mutations) in ~62.7% of mCRPC cases; AR pathway aggregate 71.3%; AR-V7 splice variant detectable in most pre-abiraterone/enzalutamide cases [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
-- [PRAD](../cancer_types/PRAD.md) — AR mutations, amplification, and splice variants are pervasive in prostate adenocarcinoma; ARv7 specifically drives resistance to enzalutamide and [abiraterone](../drugs/abiraterone.md) [PMID:38488813](../papers/38488813.md).
+- [PRAD](../cancer_types/PRAD.md) — AR mutations, amplification, and splice variants are pervasive in prostate adenocarcinoma; ARv7 specifically drives resistance to [enzalutamide](../drugs/enzalutamide.md) and [abiraterone](../drugs/abiraterone.md) [PMID:38488813](../papers/38488813.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -38,8 +39,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 ## Therapeutic relevance
 
-- PDX organoid assays demonstrated activity of bicalutamide and enzalutamide in AR-expressing models; PDXs were used to test [cisplatin](../drugs/cisplatin.md), [paclitaxel](../drugs/paclitaxel.md), cabazitaxel, and niraparib sensitivity across lineage states [PMID:38488813](../papers/38488813.md).
-- ARv7 expression independently drives resistance to enzalutamide; its relationship to de novo AR activity vs. treatment selection remains under investigation [PMID:38488813](../papers/38488813.md).
+- PDX organoid assays demonstrated activity of bicalutamide and [enzalutamide](../drugs/enzalutamide.md) in AR-expressing models; PDXs were used to test [cisplatin](../drugs/cisplatin.md), [paclitaxel](../drugs/paclitaxel.md), cabazitaxel, and [niraparib](../drugs/niraparib.md) sensitivity across lineage states [PMID:38488813](../papers/38488813.md).
+- ARv7 expression independently drives resistance to [enzalutamide](../drugs/enzalutamide.md); its relationship to de novo AR activity vs. treatment selection remains under investigation [PMID:38488813](../papers/38488813.md).
 
 ## Open questions
 
@@ -50,16 +51,19 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

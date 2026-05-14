@@ -5,7 +5,7 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -28,6 +28,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 - Significantly mutated gene (SMG) in papillary thyroid carcinoma (q<0.1); DNA-repair-related SMG co-occurring with MAPK pathway drivers; CHEK2 mutations associated with 22q loss (p=0.0035) in the SCNA-22q-del subtype [PMID:25417114](../papers/25417114.md)
 - Harbors at least one identical previously COSMIC-reported mutation in HNSCC (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
+- DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -53,28 +54,22 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

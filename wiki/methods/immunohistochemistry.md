@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Immunohistochemistry (IHC)
@@ -17,43 +17,47 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 ## Used by
 
-- Anti-SMARCA4 (BRG1) IHC performed on 9 of 12 SCCOHT cases; confirmed loss of SMARCA4 nuclear staining in all evaluable cases with nonsense/splice-site mutations; the paper proposes SMARCA4 IHC loss as a diagnostic adjunct for SCCOHT [PMID:24658004](../papers/24658004.md).
-- IHC triplet (GPC3 + HSP70 + glutamine synthetase) endorsed by EASL guidelines for discriminating early HCC from high-grade dysplastic nodules: 46–72% sensitivity, 100% specificity; FGFR1 IHC showed protein up-regulation in 17.3% of 50 primary ESCCs; FBXW7 protein loss detected in 33% of 40 ESCC tumors [PMID:24735922](../papers/24735922.md).
-- Validation IHC performed on tumor microarrays (TMAs) containing 50 primary ESCCs for FGFR1 and additional 40-case cohort for FBXW7 [PMID:24686850](../papers/24686850.md).
-- FGF19 IHC used to stratify FGFR4 inhibitor (BLU-554) eligibility in HCC; PD-L1 IHC shown not to predict response to nivolumab or pembrolizumab in HCC [PMID:24798001](../papers/24798001.md)
+- Anti-SMARCA4 (BRG1) IHC performed on 9 of 12 SCCOHT cases; confirmed loss of [SMARCA4](../genes/SMARCA4.md) nuclear staining in all evaluable cases with nonsense/splice-site mutations; the paper proposes [SMARCA4](../genes/SMARCA4.md) IHC loss as a diagnostic adjunct for SCCOHT [PMID:24658004](../papers/24658004.md).
+- IHC triplet ([GPC3](../genes/GPC3.md) + HSP70 + glutamine synthetase) endorsed by EASL guidelines for discriminating early [HCC](../cancer_types/HCC.md) from high-grade dysplastic nodules: 46–72% sensitivity, 100% specificity; [FGFR1](../genes/FGFR1.md) IHC showed protein up-regulation in 17.3% of 50 primary ESCCs; [FBXW7](../genes/FBXW7.md) protein loss detected in 33% of 40 [ESCC](../cancer_types/ESCC.md) tumors [PMID:24735922](../papers/24735922.md).
+- Validation IHC performed on tumor microarrays (TMAs) containing 50 primary ESCCs for [FGFR1](../genes/FGFR1.md) and additional 40-case cohort for [FBXW7](../genes/FBXW7.md) [PMID:24686850](../papers/24686850.md).
+- [FGF19](../genes/FGF19.md) IHC used to stratify [FGFR4](../genes/FGFR4.md) inhibitor (BLU-554) eligibility in [HCC](../cancer_types/HCC.md); PD-L1 IHC shown not to predict response to [nivolumab](../drugs/nivolumab.md) or [pembrolizumab](../drugs/pembrolizumab.md) in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - MSI / EBV status recommended to be confirmed by MMR IHC (alongside MSI-PCR or NGS-based MSI, EBV ISH) before clinical decisions in familial non-hereditary gastric cancer [PMID:24816255](../papers/24816255.md)
-- PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in NPC, though not yet validated for treatment selection [PMID:24952746](../papers/24952746.md)
-- IHC staining of 86 GBC patient tissues used to quantify stromal SEMA7A expression; high stromal SEMA7A associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival [PMID:24997986](../papers/24997986.md)
-- Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::FLI1), PRKCB, BRCA1, Ki67, cyclin A, BCL11B, and ITM2A. [PMID:25186949](../papers/25186949.md)
-- Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed AR, SYP, CHGA, CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. [PMID:25201530](../papers/25201530.md)
-- Used to assess STAG2 protein expression in Ewing sarcoma primary and relapse tissue; IHC revealed clonal expansion of STAG2-null cells at relapse in 3/21 paired samples [PMID:25223734](../papers/25223734.md)
+- PD-L1 expression assessed by IHC as a candidate predictive biomarker for ICI response in [NPC](../cancer_types/NPC.md), though not yet validated for treatment selection [PMID:24952746](../papers/24952746.md)
+- IHC staining of 86 [GBC](../cancer_types/GBC.md) patient tissues used to quantify stromal [SEMA7A](../genes/SEMA7A.md) expression; high stromal [SEMA7A](../genes/SEMA7A.md) associated with larger tumor size (P=0.006), lymph node metastasis (P=0.001), and shorter overall survival [PMID:24997986](../papers/24997986.md)
+- Used to characterize experimental Ewing sarcoma tumors grown in NOD/SCID mice: staining for human HLA, Ku80, Flag (EWS::[FLI1](../genes/FLI1.md)), [PRKCB](../genes/PRKCB.md), [BRCA1](../genes/BRCA1.md), Ki67, cyclin A, [BCL11B](../genes/BCL11B.md), and [ITM2A](../genes/ITM2A.md). [PMID:25186949](../papers/25186949.md)
+- Used to characterize seven prostate cancer organoid lines and CB17 SCID xenografts; assessed [AR](../genes/AR.md), SYP, [CHGA](../genes/CHGA.md), CD56, cytokeratin, and other markers to define adenocarcinoma vs neuroendocrine phenotypes. [PMID:25201530](../papers/25201530.md)
+- Used to assess [STAG2](../genes/STAG2.md) protein expression in Ewing sarcoma primary and relapse tissue; IHC revealed clonal expansion of STAG2-null cells at relapse in 3/21 paired samples [PMID:25223734](../papers/25223734.md)
+- IHC used for [ARID1A](../genes/ARID1A.md) (sc-32761), p53, pERK (Cell Signaling 4370), and p63 (Biolegend 619002) scoring in PDA; [ARID1A](../genes/ARID1A.md) IHC validated in an independent 296-case cohort, with protein loss associated with poor overall survival (P=0.0202). [PMID:25855536](../papers/25855536.md)
 
 ## Notes
 
-- IHC alone can miss functionally inactivating alterations (e.g., in-frame SMARCA4 exonic deletions that retain protein expression); sequencing required for complete ascertainment [PMID:24658004](../papers/24658004.md).
-- The GPC3 + HSP70 + GS triplet is an EASL-endorsed clinical standard for early HCC diagnosis from biopsy [PMID:24735922](../papers/24735922.md).
+- IHC alone can miss functionally inactivating alterations (e.g., in-frame [SMARCA4](../genes/SMARCA4.md) exonic deletions that retain protein expression); sequencing required for complete ascertainment [PMID:24658004](../papers/24658004.md).
+- The [GPC3](../genes/GPC3.md) + HSP70 + GS triplet is an EASL-endorsed clinical standard for early [HCC](../cancer_types/HCC.md) diagnosis from biopsy [PMID:24735922](../papers/24735922.md).
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

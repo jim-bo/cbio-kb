@@ -3,8 +3,8 @@ symbol: MITF
 aliases: []
 cancer_types: [MEL]
 tags: [melanocyte-master-regulator, transcription-factor, cell-identity, melanoma-driver]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MITF
@@ -20,7 +20,8 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - MITF identified as a significantly mutated gene in melanoma WGS analysis of 25 tumors [PMID:22622578](../papers/22622578.md)
 - Listed among recurrently altered genes in melanoma WES of 121 tumors (Broad cohort); associated with transcriptional regulation in melanocytes [PMID:22817889](../papers/22817889.md)
 - Relapse-associated focal amplification in resistant melanoma tumors; overexpression confers pan-MAPK-inhibitor cross-resistance (30–80-fold) in WM266.4/SKMEL19/UACC62 cell lines; represents a transcriptional-effector resistance mechanism [PMID:24265153](../papers/24265153.md)
-- ACTG1-MITF fusion identified in pRCC (sample 159T); activates HIF1A, MET, and APEX1; greater protein stability and transforming activity than wild-type MITF; defines 'MiTF-high' subtype alongside TFE3/TFEB fusions and amplifications [PMID:25401301](../papers/25401301.md)
+- ACTG1-MITF fusion identified in pRCC (sample 159T); activates [HIF1A](../genes/HIF1A.md), [MET](../genes/MET.md), and [APEX1](../genes/APEX1.md); greater protein stability and transforming activity than wild-type MITF; defines 'MiTF-high' subtype alongside TFE3/TFEB fusions and amplifications [PMID:25401301](../papers/25401301.md)
+- MITF focal amplifications in BRAF-mutant cutaneous melanoma subtype (TCGA 333-sample cohort); recurrent fusions identified (MITF-FOXP1, CADM2-MITF, FRMD4B-MITF); defines a low-expression transcriptomic subclass [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +43,22 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

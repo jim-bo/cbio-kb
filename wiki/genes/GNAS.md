@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, PTAD, PAAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # GNAS
@@ -22,6 +22,8 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - In the MSK [pdac_msk_2024](../datasets/pdac_msk_2024.md) PDAC cohort (n = 2,336), GNAS was enriched in MAPK-WT tumors vs KRAS-mutant (16% vs 2%, P = 1.5 × 10⁻⁵) and in resectable IPMN-derived tumors (7.9%); co-occurred with germline [ATM](../genes/ATM.md) mutations [PMID:39753968](../papers/39753968.md).
 - GNAS is among the most frequently mutated genes in pancreatic cystic neoplasms detected by whole-exome sequencing, particularly intraductal papillary mucinous neoplasms (IPMNs) [PMID:22158988](../papers/22158988.md)
 - Somatic mutation in 2/23 (9%) pancreatic acinar cell carcinomas, both at the codon 201 oncogenic hotspot, in whole-exome sequencing of a rare pancreatic tumor subtype [PMID:24293293](../papers/24293293.md)
+- Mutated in 6% of PDAC at hotspot codon 201 (R201C/R201H); all invasive cases derived from [IPMN](../cancer_types/IPMN.md) precursors; frequent co-mutation with [KRAS](../genes/KRAS.md) [PMID:25855536](../papers/25855536.md)
+- Selectively mutated in mCRPC vs. primary prostate cancer (q<0.1); mutation observed exclusively in mCRPC [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -48,10 +50,12 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25855536](../papers/25855536.md)
+
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

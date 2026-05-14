@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -67,6 +67,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - WGS at median 45.1× depth on 47 tumor/xenograft/normal DNA samples from 15 breast cancer PDX series; used to identify somatic SNVs (4.3–27.7×10³ per genome) and SVs driving clonal selection at engraftment [PMID:25470049](../papers/25470049.md)
 - Applied to 3 primary-tumor regions plus 2 matched lymph-node metastases each from 2 gastric adenocarcinoma patients (Pt1: 4,082 nonsilent mutations; Pt2: 287); phylogenetic analysis revealed divergence among primary regions with metastases sharing a common clonal ancestor [PMID:25583476](../papers/25583476.md)
 - High-coverage WGS performed on 29 [HNSC](../cancer_types/HNSC.md) tumors as part of TCGA profiling; identified 62 structural aberrations per tumor on average, no recurrent ALK/ROS/RET fusions, and FGFR3-TACC3 fusions in 2 HPV(+) tumors [PMID:25631445](../papers/25631445.md)
+- Deep WGS on 38 melanoma samples plus low-pass WGS on 119 samples enabled identification of structural rearrangements and complex chromothripsis events (ShatterSeek) enriched in Triple-WT subtype. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -211,3 +212,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

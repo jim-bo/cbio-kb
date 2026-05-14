@@ -81,6 +81,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN identified as a driver gene in HBV-associated intrahepatic cholangiocarcinoma (iCCA) cohort; loss contributes to PI3K/AKT pathway dysregulation in CCA. [PMID:25526346](../papers/25526346.md)
 - PI3K/RAS negative regulator with inactivating events in 1–3 of 29 metastatic cSCC samples; component of the mTOR-dependent alteration axis associated with shorter PFS [PMID:25589618](../papers/25589618.md)
 - Mutated/altered in 2% of HNSCC; component of RTK/RAS/PI(3)K pathway altered in 62% of HPV(−) and 61% of HPV(+) tumours [PMID:25631445](../papers/25631445.md)
+- In [HCC](../cancer_types/HCC.md), PTEN is a component of the PI3K/AKT/mTOR pathway altered in 51% of cases. [PMID:25822088](../papers/25822088.md)
+- In mCRPC, PTEN biallelic loss occurs in 40.7% of cases; it is the most common PI3K pathway alteration and co-occurs with [PIK3CB](../genes/PIK3CB.md) activating mutations. [PMID:26000489](../papers/26000489.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PTEN mutations and deletions are enriched in BRAF-mutant tumors. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -282,5 +285,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

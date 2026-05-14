@@ -4,8 +4,8 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -35,10 +35,11 @@ OncoTree code for prostate adenocarcinoma.
 - [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), [MLH1](../genes/MLH1.md), [PMS2](../genes/PMS2.md) — deleterious MMR gene alterations in 75% of MSI-H/dMMR PRAD patients. [PMID:38949888](../papers/38949888.md)
 - Integrative genomic profiling of 218 PRAD tumors (MSKCC cohort) identified recurrent copy-number alterations and somatic mutations via SNP arrays and whole-exome sequencing [PMID:20579941](../papers/20579941.md)
 - WES of 112 prostate adenocarcinoma tumors identified [SPOP](../genes/SPOP.md), [FOXA1](../genes/FOXA1.md), and [MED12](../genes/MED12.md) as recurrent driver genes [PMID:22610119](../papers/22610119.md)
-- WES of 112 prostate tumors (Michigan cohort, [prad_mich](../datasets/prad_mich.md)) identified recurrent ETS family fusions and SPOP mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
+- WES of 112 prostate tumors (Michigan cohort, [prad_mich](../datasets/prad_mich.md)) identified recurrent ETS family fusions and [SPOP](../genes/SPOP.md) mutations as key drivers of prostate adenocarcinoma [PMID:22722839](../papers/22722839.md)
 - WGS of 55 treatment-naïve primary PRAD identified chromoplexy (chains of ≥5 interdependent rearrangements) in 88% of tumors; TMPRSS2-ERG fusion arose within chromoplexy chains in 58% of [ERG](../genes/ERG.md)+ cases; recurrent SCNA burden tracks with Gleason grade (p=0.0059) [PMID:23622249](../papers/23622249.md)
 - CNA burden (fraction of autosomal genome with copy-number alterations) predicts biochemical recurrence (HR 1.09 per 1%, P<0.001) and metastasis in two independent prostatectomy cohorts (n=168 and n=104); prognostic independent of PSA, Gleason score, and the Stephenson nomogram, and measurable from FFPE needle biopsies by low-pass WGS [PMID:25024180](../papers/25024180.md)
-- Seven patient-derived 3D organoid lines from metastatic CRPC recapitulated the molecular landscape of advanced prostate cancer, including PTEN biallelic loss (6/7 lines), TP53 inactivation (4/7), CHD1 deletion (3/7), SPOP F133L hotspot (1/7, first in vitro model), and diverse AR status; AR-amplified MSK-PCa2 was sensitive to enzalutamide and everolimus in vitro and in xenografts. [PMID:25201530](../papers/25201530.md)
+- Seven patient-derived 3D organoid lines from metastatic CRPC recapitulated the molecular landscape of advanced prostate cancer, including [PTEN](../genes/PTEN.md) biallelic loss (6/7 lines), [TP53](../genes/TP53.md) inactivation (4/7), [CHD1](../genes/CHD1.md) deletion (3/7), [SPOP](../genes/SPOP.md) F133L hotspot (1/7, first in vitro model), and diverse [AR](../genes/AR.md) status; AR-amplified MSK-PCa2 was sensitive to [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vitro and in xenografts. [PMID:25201530](../papers/25201530.md)
+- Prospective WES + transcriptome sequencing of 150 mCRPC bone/soft-tissue biopsies (SU2C-PCF Dream Team; dataset: [prad_su2c_2015](../datasets/prad_su2c_2015.md)): [AR](../genes/AR.md) altered in 62.7%, ETS fusions 56.7%, [TP53](../genes/TP53.md) 53.3%, [PTEN](../genes/PTEN.md) 40.7%; DNA-repair pathway (BRCA2/BRCA1/ATM) aberrations in 19.3% — substantially higher than primary PRAD; 89% of patients harbored a clinically actionable alteration; 8% had pathogenic germline variants; novel recurrent focal homozygous deletion of [ZBTB16](../genes/ZBTB16.md) at chr11q23 in 5% of cases [PMID:26000489](../papers/26000489.md)
 
 ## Subtypes
 
@@ -74,10 +75,13 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:22722839](../papers/22722839.md)
 - [PMID:23622249](../papers/23622249.md) — Baca et al. Punctuated evolution of prostate cancer genomes. *Cell* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.**
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

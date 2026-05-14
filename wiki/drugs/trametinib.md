@@ -5,7 +5,7 @@ drug_class: MEK1/2 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,7 @@ Allosteric MEK1/2 inhibitor.
 - Combined [dabrafenib](../drugs/dabrafenib.md) + trametinib ([BRAF](../genes/BRAF.md) + MEK inhibition) selectively killed BRAF-mutant (K601N) MM cells in vitro without benefit in BRAF-WT, KRAS-G12A or NRAS-G12D cells, supporting the combination for clonally BRAF-mutant MM [PMID:24434212](../papers/24434212.md)
 - Authors of a 147-sample [RMS](../cancer_types/RMS.md) landscape study cite trametinib (MEK1/2 inhibitor) as a rational effector-pathway strategy for the RAS-axis-altered subset (~45% of PAX-fusion-negative [RMS](../cancer_types/RMS.md)) given its established efficacy in NRAS-mutant melanoma and preclinical [RMS](../cancer_types/RMS.md) evidence [PMID:24436047](../papers/24436047.md)
 - [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [dabrafenib](../drugs/dabrafenib.md) [PMID:25526346](../papers/25526346.md)
+- One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant melanoma subtype (52% of 318 TCGA cases); also nominated for NF1-mutant subtype (14% of cases) to extend MEK inhibition to BRAF-wildtype patients in TCGA melanoma analysis [PMID:26091043](../papers/26091043.md)
 
 ## Resistance mechanisms
 
@@ -58,3 +59,6 @@ Allosteric MEK1/2 inhibitor.
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

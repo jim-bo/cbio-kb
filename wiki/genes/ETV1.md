@@ -3,8 +3,8 @@ symbol: ETV1
 aliases: []
 cancer_types: [PRAD, ODG]
 tags: [transcription-factor, fusion, ETS-family, prostate, CIC-target, oligodendroglioma]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ETV1
@@ -20,8 +20,9 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - Complex rearrangements (6 validated, including 4 interchromosomal translocations) and high-level amplification detected in acral melanoma ME032; known melanoma oncogene associated with [MITF](../genes/MITF.md) upregulation [PMID:22622578](../papers/22622578.md)
 - ETV1 identified as an ETS family fusion partner in prostate cancer WES cohort (Michigan, 112 tumors); ETV1 rearrangements represent a distinct subset of ETS-driven prostate cancers [PMID:22722839](../papers/22722839.md)
 - Alternative ETS fusion partner in prostate cancer detected by sequencing and validated by FISH in chromoplexy study of 57 prostate tumors [PMID:23622249](../papers/23622249.md)
-- Co-amplified with EGFR and IKZF1 at chr 7p in a metastasis-private high-level amplification event in metastatic CRC [PMID:25164765](../papers/25164765.md)
-- EWSR1-ETV1 fusion in 1/112 Ewing sarcoma WGS discovery-cohort tumors; rare ETS-family fusion partner of EWSR1 [PMID:25223734](../papers/25223734.md)
+- Co-amplified with [EGFR](../genes/EGFR.md) and [IKZF1](../genes/IKZF1.md) at chr 7p in a metastasis-private high-level amplification event in metastatic CRC [PMID:25164765](../papers/25164765.md)
+- EWSR1-ETV1 fusion in 1/112 Ewing sarcoma WGS discovery-cohort tumors; rare ETS-family fusion partner of [EWSR1](../genes/EWSR1.md) [PMID:25223734](../papers/25223734.md)
+- Recurrent ETS fusion in mCRPC (part of 56% ETS-fusion prevalence) [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -46,19 +47,16 @@ ETV1 (ETS Variant Transcription Factor 1) is an ETS-family transcription factor 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -23,16 +23,16 @@ SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations ar
 
 ## Alterations observed in the corpus
 
-- SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in [MDS](../cancer_types/MDS.md) patients (Tokyo cohort), identified in a cohort study linking somatic mutations to MDS morphologic features [PMID:21909114](../papers/21909114.md)
+- SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in [MDS](../cancer_types/MDS.md) patients (Tokyo cohort), identified in a cohort study linking somatic mutations to [MDS](../cancer_types/MDS.md) morphologic features [PMID:21909114](../papers/21909114.md)
 - SETBP1 p.S944N mutation detected in a gastric cancer (GC) patient (Pt2) in the Tianjin Chinese GC cohort; the mutation matches the recurrent myeloid-malignancy hotspot site. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
-- **MDS**: SETBP1 mutations associate with granulocytic dysplasia, specifically abnormal nuclear segmentation in myeloid cells [PMID:21909114](../papers/21909114.md)
+- **[MDS](../cancer_types/MDS.md)**: SETBP1 mutations associate with granulocytic dysplasia, specifically abnormal nuclear segmentation in myeloid cells [PMID:21909114](../papers/21909114.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [STAG2](../genes/STAG2.md), [SRSF2](../genes/SRSF2.md), [RUNX1](../genes/RUNX1.md), and [SF3B1](../genes/SF3B1.md) mutations in the MDS Tokyo cohort [PMID:21909114](../papers/21909114.md)
+- Co-occurs with [STAG2](../genes/STAG2.md), [SRSF2](../genes/SRSF2.md), [RUNX1](../genes/RUNX1.md), and [SF3B1](../genes/SF3B1.md) mutations in the [MDS](../cancer_types/MDS.md) Tokyo cohort [PMID:21909114](../papers/21909114.md)
 
 ## Therapeutic relevance
 
@@ -40,7 +40,7 @@ SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations ar
 
 ## Open questions
 
-- The mechanistic link between SETBP1 mutations and granulocytic nuclear segmentation defects in MDS is not yet established.
+- The mechanistic link between SETBP1 mutations and granulocytic nuclear segmentation defects in [MDS](../cancer_types/MDS.md) is not yet established.
 
 ## Sources
 

@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Phosphorylated at S473 in [GBC](../cancer_types/GBC.md) cells in response to paracrine rh-SEMA7A; PI3K inhibition by LY294002 blocked downstream p-EP300 S1834, placing AKT1 upstream of [EP300](../genes/EP300.md) in the SEMA7A/ITGB1 signaling cascade [PMID:24997986](../papers/24997986.md)
 - Recurrent mutation in 2% of muscle-invasive urothelial carcinoma (UCB) in the PI3K/AKT pathway; co-occurring with [PIK3CA](../genes/PIK3CA.md) and [TSC1](../genes/TSC1.md) alterations (6% each) [PMID:25092538](../papers/25092538.md)
 - PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
+- Activating p.E17K mutation in metastatic castration-resistant prostate cancer (mCRPC); part of PI3K/AKT pathway alterations in 71.3% of cases [PMID:26000489](../papers/26000489.md)
+- Recurrent E17K mutation nominated as a biomarker for combination MEK + PI3K/AKT/mTOR therapy in cutaneous melanoma [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -95,3 +97,9 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

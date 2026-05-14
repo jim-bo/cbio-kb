@@ -5,8 +5,8 @@ drug_class: tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 papers: [36862133, 37477937, 20601955]
 ---
 
@@ -23,9 +23,10 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - Invoked as the paradigmatic example of genotype-directed sarcoma therapy: recurrent activating [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) mutations in [GIST](../cancer_types/GIST.md) established the [KIT](../genes/KIT.md) → imatinib precedent that motivates subtype-specific targeted therapy across all soft-tissue sarcoma subtypes [PMID:20601955](../papers/20601955.md).
 - SDH-deficient and NF1-related GISTs respond poorly to imatinib; in a cohort of 103 [GIST](../cancer_types/GIST.md) patients with matched tumor-germline sequencing (MSK-IMPACT), 69% of KIT/PDGFRA-wildtype patients harbored germline P/LP variants (SDHA/SDHB/SDHC, [NF1](../genes/NF1.md)) rather than the KIT/PDGFRA targets imatinib acts on, highlighting that germline driver subtype guides TKI selection [PMID:36593350](../papers/36593350.md)
 - [KIT](../genes/KIT.md) mutations identified in melanoma tumors suggest potential sensitivity to imatinib in KIT-mutant cutaneous melanoma [PMID:22622578](../papers/22622578.md)
-- Activating KIT aberrations (V559A mutation, focal amplification) identified in BRAF/NRAS-WT melanoma subset (Broad, n=121); imatinib cited as a tyrosine kinase inhibitor with potential activity in KIT-aberrant melanoma [PMID:22817889](../papers/22817889.md)
+- Activating [KIT](../genes/KIT.md) aberrations (V559A mutation, focal amplification) identified in BRAF/NRAS-WT melanoma subset (Broad, n=121); imatinib cited as a tyrosine kinase inhibitor with potential activity in KIT-aberrant melanoma [PMID:22817889](../papers/22817889.md)
 - One [PDGFRA](../genes/PDGFRA.md) p.Thr674Ile-mutant sinonasal adenoid cystic carcinoma patient received imatinib as targeted therapy and was NED at 19 months — the only targeted-therapy case in an 88-case [ACYC](../cancer_types/ACYC.md) cohort [PMID:24418857](../papers/24418857.md)
-- Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in HCC targeted therapy development [PMID:24735922](../papers/24735922.md)
+- Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in [HCC](../cancer_types/HCC.md) targeted therapy development [PMID:24735922](../papers/24735922.md)
+- Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1); [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications enriched in Triple-WT; imatinib/dasatinib proposed as targeted therapy based on prior Carvajal and Hodi reports [PMID:26091043](../papers/26091043.md)
 
 ## Resistance mechanisms
 
@@ -42,16 +43,19 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; subtype-specific sarcoma genomics; imatinib cited as the KIT/PDGFRA → [GIST](../cancer_types/GIST.md) paradigm.
 - [PMID:36593350](../papers/36593350.md) — Mandelker et al. 2023, npj Precision Oncology; germline testing in [GIST](../cancer_types/GIST.md); SDH-deficient/NF1-related GISTs respond poorly to imatinib.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

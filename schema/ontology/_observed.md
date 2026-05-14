@@ -188,6 +188,9 @@
 - dataset: tcia-rider-lung — observed in PMID:24892406 — note: 31-patient NSCLC CT test-retest reproducibility dataset (RIDER consortium); TCIA RIDER Lung CT; not a cBioPortal studyId.
 - dataset: tcia-multiple-delineation — observed in PMID:24892406 — note: 21-patient NSCLC CT inter-observer delineation dataset (5 oncologists each); TCIA; not a cBioPortal studyId.
 - dataset: nsclc-radiogenomics-stanford — observed in PMID:30325352 — note: 211-patient NSCLC multi-modal radiogenomics dataset (Stanford + AMC); paired CT/PET-CT, RNA-seq, mutation testing; TCIA DOI 10.7937/K9/TCIA.2017.7hs46erv; not a cBioPortal studyId.
+- method: icluster — observed in PMID:26091043 — note: iCluster multi-platform integrative clustering; applied to 333 melanoma samples across 6 platforms in TCGA SKCM
+- method: shatterseek — observed in PMID:26091043 — note: chromothripsis detection algorithm from WGS; complex rearrangements enriched in Triple-WT melanoma subtype
+- method: dna-methylation-array — observed in PMID:26091043 — note: generic slug for Illumina 450K / EPIC methylation array platforms; corpus-grown to capture the method category beyond specific platform slugs
 - dataset: tcia-hnscc — observed in PMID:30179230 — note: 215-patient HNSCC PET-CT + RT planning DICOM archive (MD Anderson); includes body composition at L3; TCIA DOI 10.7937/K9/TCIA.2017.umz8dv6s; not a cBioPortal studyId.
 - method: illumina-microarray — observed in PMID:30325352 — note: Illumina HT-12 gene-expression BeadChip on 26 NSCLC subjects in NSCLC radiogenomics dataset; GEO accession GSE28827
 - method: snapshot-pcr — observed in PMID:30325352 — note: SNaPshot multiplex PCR + dideoxy single-base extension for EGFR (exons 18-21) and KRAS (exon 2 codons 12-13) hotspot genotyping in NSCLC
@@ -359,3 +362,10 @@
 - method: bile-acid-metabolomics — observed in PMID:25608663 — note: targeted HPLC/MS + UPLC-MS/MS quantification of 15-30 BA species; diagnostic panels outperform CA19-9 in CCA
 - method: mendelian-randomization — observed in PMID:25608663 — note: two-sample MR using MiBioGen + IEU GWAS to identify causal gut microbiota in biliary tract cancer
 - method: random-forest-classifier — observed in PMID:25608663 — note: eight-genus bacterial RF classifier AUC 0.92-0.99 for CCA vs HCC discrimination
+- drug: tanespimycin — observed in PMID:25822088 — note: HSP90 inhibitor (17-AAG); sensitivity inversely correlated with NQO1 expression in HCC cell lines; NQO1 P187S variant confers resistance
+- drug: alvespimycin — observed in PMID:25822088 — note: HSP90 inhibitor (17-DMAG); bioactive metabolite of tanespimycin; same NQO1/KEAP1 sensitivity pattern as 17-AAG
+- drug: mitomycin-c — observed in PMID:25855536 — note: DNA cross-linking agent; nominated for PDA with Fanconi-anaemia/DSB-repair deficiency (14% of cases)
+- drug: nutlin-3 — observed in PMID:26091043 — note: MDM2 antagonist (cis-imidazoline); nominated for MDM2-amplified Triple-WT melanoma; related to corpus-existing nutlin-3a page
+- drug: amg-232 — observed in PMID:26091043 — note: MDM2 antagonist; nominated for MDM2-amplified BCL2-high Triple-WT melanoma subtype
+- drug: crenolanib — observed in PMID:26091043 — note: PDGFRA/FLT3 inhibitor; nominated for Triple-WT melanoma with 4q12 PDGFRA/KDR co-amplification
+- drug: aldesleukin — observed in PMID:26091043 — note: recombinant IL-2 cytokine immunotherapy; prior melanoma response data contextualize TCGA Immune-subclass survival findings

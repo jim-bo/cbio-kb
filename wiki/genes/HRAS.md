@@ -32,6 +32,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling [PMID:25417114](../papers/25417114.md)
 - G13D activating mutation identified as an oncogenic event in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
 - Activating mutations (4%) at GTPase residues 11-13 in HNSCC; defines an M-class oral-cavity subset with [CASP8](../genes/CASP8.md) co-mutation and wild-type [TP53](../genes/TP53.md) [PMID:25631445](../papers/25631445.md)
+- Rare hot-spot mutations (G13D/G13S/Q61K×2) identified in cutaneous melanoma; mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant subtype of melanoma [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

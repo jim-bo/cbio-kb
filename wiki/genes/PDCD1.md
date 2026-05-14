@@ -21,9 +21,10 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-1; marks antigen-experienced T cells in [HGSOC](../cancer_types/HGSOC.md); higher co-expression with [CD274](../genes/CD274.md) in HRD subtypes [PMID:36517593](../papers/36517593.md)
 - PDCD1 (PD-1) expression on tumor-infiltrating lymphocytes is elevated in PBRM1-mutant ccRCC tumors with high immune cell infiltration, supporting use as an immunotherapy biomarker [PMID:22138691](../papers/22138691.md)
 - High expression of PD-1 (PDCD1) flagged as an immune-checkpoint-inhibitor rationale in metastatic neuroendocrine neoplasms (NENs) PN5, PN18, and PN19 within the whole-genome/transcriptome analysis (WGTA) precision-oncology cohort [PMID:24326773](../papers/24326773.md)
-- PD-1 expression is a defining marker of the immune-active [HCC](../cancer_types/HCC.md) class; expression not predictive of response to [nivolumab](../drugs/nivolumab.md) or [pembrolizumab](../drugs/pembrolizumab.md) in HCC trials; anti-PD-1 has FDA accelerated approval in HCC [PMID:24798001](../papers/24798001.md)
-- PD-1 upregulated on T cells in non-keratinizing [NPC](../cancer_types/NPC.md) due to chronic EBV antigen exposure; multiple anti-PD-1 mAbs approved or investigational in NPC ([toripalimab](../drugs/toripalimab.md), [tislelizumab](../drugs/tislelizumab.md), [penpulimab](../drugs/penpulimab.md), pembrolizumab, nivolumab, [sintilimab](../drugs/sintilimab.md), [serplulimab](../drugs/serplulimab.md), [tagitanlimab](../drugs/tagitanlimab.md)) [PMID:24952746](../papers/24952746.md)
-- PD-1 immune checkpoint whose blockade efficacy in biliary tract cancer is modulated by gut microbiota composition; Bacteroidetes enrichment improves anti-PD-1 outcomes while Proteobacteria dominance reduces sintilimab+[anlotinib](../drugs/anlotinib.md) efficacy [PMID:25608663](../papers/25608663.md)
+- PD-1 expression is a defining marker of the immune-active [HCC](../cancer_types/HCC.md) class; expression not predictive of response to [nivolumab](../drugs/nivolumab.md) or [pembrolizumab](../drugs/pembrolizumab.md) in [HCC](../cancer_types/HCC.md) trials; anti-PD-1 has FDA accelerated approval in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
+- PD-1 upregulated on T cells in non-keratinizing [NPC](../cancer_types/NPC.md) due to chronic EBV antigen exposure; multiple anti-PD-1 mAbs approved or investigational in [NPC](../cancer_types/NPC.md) ([toripalimab](../drugs/toripalimab.md), [tislelizumab](../drugs/tislelizumab.md), [penpulimab](../drugs/penpulimab.md), [pembrolizumab](../drugs/pembrolizumab.md), [nivolumab](../drugs/nivolumab.md), [sintilimab](../drugs/sintilimab.md), [serplulimab](../drugs/serplulimab.md), [tagitanlimab](../drugs/tagitanlimab.md)) [PMID:24952746](../papers/24952746.md)
+- PD-1 immune checkpoint whose blockade efficacy in biliary tract cancer is modulated by gut microbiota composition; Bacteroidetes enrichment improves anti-PD-1 outcomes while Proteobacteria dominance reduces [sintilimab](../drugs/sintilimab.md)+[anlotinib](../drugs/anlotinib.md) efficacy [PMID:25608663](../papers/25608663.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDCD1 (PD-1) expression is elevated in the Immune transcriptomic subclass, which is associated with improved post-accession survival in regional-metastasis cases and high lymphocyte infiltration on pathology. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

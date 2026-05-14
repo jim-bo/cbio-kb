@@ -78,7 +78,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutations in 20% of muscle-invasive bladder carcinomas, predominantly in the helical domain near E545; one of the most frequently mutated oncogenes in bladder cancer [PMID:24476821](../papers/24476821.md)
 - PIK3CA activating hotspot mutations (p.Glu545Lys, p.His1047Arg) found in spatially separated regions of ccRCC (EV005), demonstrating parallel evolution; PI3K-mTOR pathway mutation prevalence reaches 60% per case vs much lower per-biopsy estimates [PMID:24487277](../papers/24487277.md)
 - PIK3CA is mutated in [ESCC](../cancer_types/ESCC.md) as part of the canonical genomic landscape cited in a review of oral microbiome associations with [ESCC](../cancer_types/ESCC.md) [PMID:24670651](../papers/24670651.md)
-- PIK3CA harbors activating mutations and amplification in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
+- PIK3CA harbors activating mutations and amplification in [ESCC](../cancer_types/ESCC.md), contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
 - PIK3CA is a PI3K/AKT pathway driver in [HCC](../cancer_types/HCC.md) identified by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
 - PI3K/AKT pathway activation implicated in [HCC](../cancer_types/HCC.md); PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of [MET](../genes/MET.md) in the context of EGFR/MET resistance mechanisms [PMID:24798001](../papers/24798001.md)
 - PIK3CA mutations in 80% of EBV-positive gastric tumors (mostly non-exon-20, dispersed) and 12% across the whole gastric cancer cohort; targetable via PI3-kinase inhibition [PMID:25079317](../papers/25079317.md)
@@ -93,6 +93,10 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Classic CRC driver included in comparison analysis in an African American vs. Caucasian CRC cohort; mutation frequency not highlighted as AA-specific [PMID:25583493](../papers/25583493.md)
 - P471L activating mutation observed in cutaneous SCC (cSCC); recurrence between this cohort and a prior 11-tumor cSCC NGS cohort suggests a functional role; high-level amplification absent in cSCC (unlike lung SCC) [PMID:25589618](../papers/25589618.md)
 - Mutated in 21% of HNSCC (56% in HPV(+), 34% in HPV(−)); 73% of mutations at hotspots E542K/E545K/H1047R/L; helical-domain enriched in HPV(+); often co-amplified; component of RTK/RAS/PI(3)K pathway altered in 61–62% of tumours [PMID:25631445](../papers/25631445.md)
+- In [HCC](../cancer_types/HCC.md), PIK3CA is a component of the PI3K/AKT/mTOR pathway altered in 51% of cases. [PMID:25822088](../papers/25822088.md)
+- In [PAAD](../cancer_types/PAAD.md), PIK3CA activating mutations occur in 4% of cases, mutually exclusive with [KRAS](../genes/KRAS.md); found in KRAS-wildtype cases alongside [BRAF](../genes/BRAF.md) V600E; nominate PI3K inhibitors ([buparlisib](../drugs/buparlisib.md), GDC-0941). [PMID:25855536](../papers/25855536.md)
+- In mCRPC, PIK3CA harbors hotspot mutations, focal amplifications, and novel activating fusions; part of the PI3K pathway altered in 49% (73/150) of cases in the SU2C–PCF cohort; activating fusions result in PIK3CA overexpression. [PMID:26000489](../papers/26000489.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PIK3CA mutations (E545K, H1047L) were identified as recurrent events and nominated as biomarkers for combination MEK + PI3K/AKT/mTOR therapy. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -318,5 +322,17 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

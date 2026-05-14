@@ -3,8 +3,8 @@ symbol: RSPO2
 aliases: []
 cancer_types: [COAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # RSPO2
@@ -15,7 +15,8 @@ RSPO2 (R-Spondin 2) is a secreted Wnt pathway activator. Recurrent EIF3E-RSPO2 g
 
 ## Alterations observed in the corpus
 
-- EIF3E(e1)-RSPO2(e2) gene fusion found in 3% of colorectal tumors; drives Wnt signalling activation; mutually exclusive with APC mutations [PMID:22895193](../papers/22895193.md)
+- EIF3E(e1)-RSPO2(e2) gene fusion found in 3% of colorectal tumors; drives Wnt signalling activation; mutually exclusive with [APC](../genes/APC.md) mutations [PMID:22895193](../papers/22895193.md)
+- Recurrent RSPO2 fusions with overexpression observed in metastatic castration-resistant prostate cancer (150-case WGS/WES cohort); part of the WNT-pathway alterations ([APC](../genes/APC.md), [CTNNB1](../genes/CTNNB1.md), RNF43/ZNRF3) with predicted sensitivity to porcupine inhibitors and R-spondin antibodies. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ RSPO2 (R-Spondin 2) is a secreted Wnt pathway activator. Recurrent EIF3E-RSPO2 g
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with APC mutations; co-occurs with [KRAS](../genes/KRAS.md) mutations in some samples [PMID:22895193](../papers/22895193.md)
+- Mutually exclusive with [APC](../genes/APC.md) mutations; co-occurs with [KRAS](../genes/KRAS.md) mutations in some samples [PMID:22895193](../papers/22895193.md)
 
 ## Therapeutic relevance
 
@@ -35,4 +36,7 @@ RSPO2 (R-Spondin 2) is a secreted Wnt pathway activator. Recurrent EIF3E-RSPO2 g
 
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

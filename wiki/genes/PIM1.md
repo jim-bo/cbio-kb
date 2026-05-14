@@ -3,8 +3,8 @@ symbol: PIM1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PIM1
@@ -16,6 +16,7 @@ PIM1 encodes a serine/threonine kinase with roles in cell survival, proliferatio
 ## Alterations observed in the corpus
 
 - PIM1 harbored 22 somatic mutations in 15 of 55 DLBCL patients (whole-exome sequencing, Broad cohort); mutations were enriched in WRCY AID target motifs, confirming aberrant somatic hypermutation as the mutational mechanism [PMID:22343534](../papers/22343534.md)
+- In primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)), PIM1 mutations occur in 40% of cases, among the most frequently mutated genes alongside [CD79B](../genes/CD79B.md) and [MYD88](../genes/MYD88.md), all within the BCR/TLR/NF-κB pathway altered in >90% of [PCNSL](../cancer_types/PCNSL.md). [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ PIM1 encodes a serine/threonine kinase with roles in cell survival, proliferatio
 
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

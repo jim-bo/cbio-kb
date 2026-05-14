@@ -3,8 +3,8 @@ symbol: ETV4
 aliases: []
 cancer_types: [PRAD]
 tags: [transcription-factor, fusion, ETS-family, prostate]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # ETV4
@@ -16,6 +16,7 @@ ETV4 (ETS Variant Transcription Factor 4) is an ETS-family transcription factor 
 ## Alterations observed in the corpus
 
 - TMPRSS2-ETV4 fusion identified in 2 prostate cancer PDX models (MDA PCa PDX series); both fusions correlated with increased ETV4 expression, confirming their functional activity [PMID:38488813](../papers/38488813.md).
+- Recurrent ETS fusion in mCRPC (part of 56% ETS-fusion prevalence) [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ ETV4 (ETS Variant Transcription Factor 4) is an ETS-family transcription factor 
 
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

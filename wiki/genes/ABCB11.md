@@ -15,12 +15,12 @@ ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes
 
 ## Alterations observed in the corpus
 
-- Recurrent gene fusion ABCB11–LRP2 reported as the first recurrent fusion in HCC, identified by next-generation sequencing; represents a novel structural alteration class in HCC beyond point mutations [PMID:24735922](../papers/24735922.md)
+- Recurrent gene fusion ABCB11–[LRP2](../genes/LRP2.md) reported as the first recurrent fusion in [HCC](../cancer_types/HCC.md), identified by next-generation sequencing; represents a novel structural alteration class in [HCC](../cancer_types/HCC.md) beyond point mutations [PMID:24735922](../papers/24735922.md)
 - Identified as a prognostic marker of the bile-acid-active CCA subtype (bile-salt export pump); implicated in bile acid homeostasis maintenance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md): involved as fusion partner (ABCB11–LRP2) in HCC; clinical significance of the fusion beyond its novelty as a structural event is not yet established [PMID:24735922](../papers/24735922.md)
+- [HCC](../cancer_types/HCC.md): involved as fusion partner (ABCB11–[LRP2](../genes/LRP2.md)) in [HCC](../cancer_types/HCC.md); clinical significance of the fusion beyond its novelty as a structural event is not yet established [PMID:24735922](../papers/24735922.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -32,7 +32,7 @@ ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes
 
 ## Open questions
 
-- Functional consequence and prevalence of the ABCB11–LRP2 fusion across broader HCC cohorts is not yet established [PMID:24735922](../papers/24735922.md).
+- Functional consequence and prevalence of the ABCB11–[LRP2](../genes/LRP2.md) fusion across broader [HCC](../cancer_types/HCC.md) cohorts is not yet established [PMID:24735922](../papers/24735922.md).
 
 ## Sources
 

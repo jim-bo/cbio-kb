@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -70,6 +70,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions [PMID:25401301](../papers/25401301.md)
 - Used in TCGA papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) multiplatform study to derive BRAFV600E-RAS Score (BRS) from a 71-gene expression signature and Thyroid Differentiation Score (TDS) from 16 metabolism genes, enabling molecular reclassification of 496 PTCs [PMID:25417114](../papers/25417114.md)
 - Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors for HPV status determination (E6/E7 read mapping; threshold >1,000 reads) and expression subtype classification (atypical/mesenchymal/basal/classical), as well as structural variant detection including [MET](../genes/MET.md) exon-14 skipping [PMID:25631445](../papers/25631445.md)
+- Paired-end RNA-seq (Illumina HiSeq 2500, 2×100 nt, ~50M paired reads) performed on 150 mCRPC biopsies alongside WES, enabling fusion detection via Tophat-Fusion and FPKM quantification by Cufflinks. [PMID:26000489](../papers/26000489.md)
+- mRNA sequencing (Illumina TruSeq, HiSeq 2000) on 331 melanoma samples enabled identification of three transcriptomic subclasses (Immune, Keratin, MITF-low) and 224 candidate fusion drivers. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -214,3 +216,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

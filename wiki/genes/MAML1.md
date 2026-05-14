@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HNSC]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # MAML1
@@ -16,6 +16,7 @@ MAML1 (Mastermind Like Transcriptional Coactivator 1) is a transcriptional coact
 ## Alterations observed in the corpus
 
 - Copy loss of MAML1 detected by SNP array in OSCC; categorized as a Notch pathway modulator contributing to the 66% prevalence of Notch pathway alterations in oral squamous cell carcinoma. [PMID:23619168](../papers/23619168.md)
+- MAML1 part of NOTCH-pathway alterations ([NOTCH1](../genes/NOTCH1.md)–4, JAG1/JAG2, MAML1–3) totalling 31% of cases in a 109-case PDA WES cohort; amplification/mutation patterns nominate γ-secretase inhibitor MK0752 as a candidate therapy [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -31,10 +32,13 @@ MAML1 (Mastermind Like Transcriptional Coactivator 1) is a transcriptional coact
 
 ## Open questions
 
-- The specific contribution of MAML1 copy loss versus other Notch pathway alterations (NOTCH1 mutation, [TP63](../genes/TP63.md) overexpression, JAG ligand gains) to OSCC pathogenesis has not been independently dissected. [PMID:23619168](../papers/23619168.md)
+- The specific contribution of MAML1 copy loss versus other Notch pathway alterations ([NOTCH1](../genes/NOTCH1.md) mutation, [TP63](../genes/TP63.md) overexpression, JAG ligand gains) to OSCC pathogenesis has not been independently dissected. [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

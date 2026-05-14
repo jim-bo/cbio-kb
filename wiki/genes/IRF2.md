@@ -4,19 +4,20 @@ aliases: []
 cancer_types:
   - HCC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # IRF2
 
 ## Overview
 
-IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates interferon signaling and oxidative stress responses. In hepatocellular carcinoma (HCC), somatic mutations in IRF2 have been identified by next-generation sequencing as drivers linked to deregulated oxidative-stress signaling, alongside NFE2L2 and KEAP1.
+IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates interferon signaling and oxidative stress responses. In hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), somatic mutations in IRF2 have been identified by next-generation sequencing as drivers linked to deregulated oxidative-stress signaling, alongside [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md).
 
 ## Alterations observed in the corpus
 
-- Somatic mutations in HCC linked to oxidative-stress signaling dysregulation; identified as a driver gene by NGS in a 2014 HCC genomics review alongside NFE2L2 and KEAP1 [PMID:24735922](../papers/24735922.md)
+- Somatic mutations in [HCC](../cancer_types/HCC.md) linked to oxidative-stress signaling dysregulation; identified as a driver gene by NGS in a 2014 [HCC](../cancer_types/HCC.md) genomics review alongside [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
+- IRF2 recurrently homozygously deleted in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); one of three genes with recurrent homozygous deletions highlighted (alongside [CFH](../genes/CFH.md), [PTPN3](../genes/PTPN3.md)) [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
@@ -24,7 +25,7 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutations co-occur with NFE2L2 and KEAP1 alterations in the oxidative-stress signaling axis in HCC [PMID:24735922](../papers/24735922.md)
+- Mutations co-occur with [NFE2L2](../genes/NFE2L2.md) and [KEAP1](../genes/KEAP1.md) alterations in the oxidative-stress signaling axis in HCC [PMID:24735922](../papers/24735922.md)
 
 ## Therapeutic relevance
 
@@ -36,4 +37,7 @@ IRF2 (Interferon Regulatory Factor 2) is a transcription factor that modulates i
 
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

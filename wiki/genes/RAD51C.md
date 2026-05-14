@@ -3,19 +3,20 @@ symbol: RAD51C
 aliases: []
 cancer_types: [OV]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # RAD51C
 
 ## Overview
 
-RAD51C encodes a member of the RAD51 family of proteins involved in homologous recombination (HR) DNA repair. Germline mutations in RAD51C are associated with increased risk of ovarian and breast cancer. In high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)), RAD51C mutations contribute to the HR deficiency that characterizes this tumor type.
+RAD51C encodes a member of the [RAD51](../genes/RAD51.md) family of proteins involved in homologous recombination (HR) DNA repair. Germline mutations in RAD51C are associated with increased risk of ovarian and breast cancer. In high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)), RAD51C mutations contribute to the HR deficiency that characterizes this tumor type.
 
 ## Alterations observed in the corpus
 
-- Mutated in high-grade serous ovarian carcinoma (HGSOC) identified in TCGA integrated genomic analysis of 489 tumors [PMID:21720365](../papers/21720365.md)
+- Mutated in high-grade serous ovarian carcinoma ([HGSOC](../cancer_types/HGSOC.md)) identified in TCGA integrated genomic analysis of 489 tumors [PMID:21720365](../papers/21720365.md)
+- In mCRPC, RAD51C was among the broader DNA-repair/recombination pathway alterations contributing to the 22.7% aggregate in the SU2C–PCF 150-case cohort. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +24,7 @@ RAD51C encodes a member of the RAD51 family of proteins involved in homologous r
 
 ## Co-occurrence and mutual exclusivity
 
-- Part of the broader homologous recombination deficiency landscape in HGSOC alongside [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and other HR pathway genes [PMID:21720365](../papers/21720365.md)
+- Part of the broader homologous recombination deficiency landscape in [HGSOC](../cancer_types/HGSOC.md) alongside [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), and other HR pathway genes [PMID:21720365](../papers/21720365.md)
 
 ## Therapeutic relevance
 
@@ -31,10 +32,13 @@ RAD51C encodes a member of the RAD51 family of proteins involved in homologous r
 
 ## Open questions
 
-- Relative frequency and clinical significance of RAD51C mutations in HGSOC compared to BRCA1/BRCA2 mutations remains to be fully characterized.
+- Relative frequency and clinical significance of RAD51C mutations in [HGSOC](../cancer_types/HGSOC.md) compared to BRCA1/BRCA2 mutations remains to be fully characterized.
 
 ## Sources
 
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -31,8 +31,8 @@ Two independent cohorts of advanced non-small cell lung cancer ([NSCLC](../cance
 
 ## Composition
 
-- **Discovery cohort:** n=16 advanced NSCLC patients treated with [pembrolizumab](../drugs/pembrolizumab.md).
-- **Validation cohort:** n=18 advanced NSCLC patients treated with [pembrolizumab](../drugs/pembrolizumab.md).
+- **Discovery cohort:** n=16 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md).
+- **Validation cohort:** n=18 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md).
 - 34 paired tumor/normal exomes total.
 - PD-L1 expression measured on 30/34 patients; cohort was enriched for PD-L1 expression (24/30 with detectable expression).
 - Cancer type: [NSCLC](../cancer_types/NSCLC.md).
@@ -45,7 +45,7 @@ Two independent cohorts of advanced non-small cell lung cancer ([NSCLC](../cance
 
 ## Papers using this cohort
 
-- [PMID:25765070](../papers/25765070.md) — Rizvi et al. (2015). Whole-exome sequencing of 34 pembrolizumab-treated NSCLC tumors; established nonsynonymous mutation burden as a predictive biomarker for durable clinical benefit and demonstrated neoantigen-specific T cell expansion paralleling tumor regression.
+- [PMID:25765070](../papers/25765070.md) — Rizvi et al. (2015). Whole-exome sequencing of 34 pembrolizumab-treated [NSCLC](../cancer_types/NSCLC.md) tumors; established nonsynonymous mutation burden as a predictive biomarker for durable clinical benefit and demonstrated neoantigen-specific T cell expansion paralleling tumor regression.
 
 ## Notable findings derived from this cohort
 

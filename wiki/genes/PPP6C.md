@@ -3,8 +3,8 @@ symbol: PPP6C
 aliases: []
 cancer_types: [MEL]
 tags: [phosphatase, melanoma, uv-signature]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -19,7 +19,8 @@ PPP6C encodes a serine/threonine phosphatase (Protein Phosphatase 6 Catalytic Su
 
 - PPP6C R264C mutation observed in a melanocyte from the control cohort (non-tanning individuals) in a study of molecular effects of indoor tanning; identified as one of multiple known melanoma driver gene mutations present in at-risk melanocytes [PMID:38895302](../papers/38895302.md).
 - R264C and S270L hotspot mutations in 9% of melanomas (121-tumor Broad WES cohort); clustered near the catalytic-regulatory interface, suggesting gain-of-function alteration of phosphatase activity [PMID:22817889](../papers/22817889.md)
-- H92Y and R301C loss-of-function mutations in 12.4% of sun-exposed melanomas (147-tumor Yale WES cohort); found exclusively with BRAF or NRAS mutations [PMID:22842228](../papers/22842228.md)
+- H92Y and R301C loss-of-function mutations in 12.4% of sun-exposed melanomas (147-tumor Yale WES cohort); found exclusively with [BRAF](../genes/BRAF.md) or [NRAS](../genes/NRAS.md) mutations [PMID:22842228](../papers/22842228.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PPP6C is a hot-spot significantly mutated gene (SMG) frequently co-occurring with RAS mutations; proposed as a target for Aurora kinase inhibitor combinations in RAS-mutant melanoma. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -41,10 +42,13 @@ PPP6C encodes a serine/threonine phosphatase (Protein Phosphatase 6 Catalytic Su
 
 - [PMID:38895302](../papers/38895302.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

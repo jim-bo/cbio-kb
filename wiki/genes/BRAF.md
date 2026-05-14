@@ -59,7 +59,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Activating mutations (including non-V600 K601N in U266 cell line and V600E in a clinical case) in multiple myeloma (MM); often subclonal; defines actionable subgroup for BRAF +/- MEK inhibition. BRAF-K601N U266 cells sensitive to PLX4720 and [dabrafenib](../drugs/dabrafenib.md) in vitro; combined [dabrafenib](../drugs/dabrafenib.md)+[trametinib](../drugs/trametinib.md) selectively killed BRAF-mutant MM cells [PMID:24434212](../papers/24434212.md)
 - V600E identified in one PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) tumor (RMSS013); recurrent in the RAS/MAPK pathway that is mutationally activated in >=45% of PAX-fusion-negative [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 - RAS/RAF/MAPK pathway component; BRAF mutations <5% in [HCC](../cancer_types/HCC.md) but the pathway is universally activated in advanced [HCC](../cancer_types/HCC.md); cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:24735922](../papers/24735922.md)
-- Listed among somatic alterations in the HCC molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
+- Listed among somatic alterations in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
 - Mutations in 10% of [LUAD](../cancer_types/LUAD.md) (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; trunk event established early in carcinogenesis; concordance supports use of either site for clinical testing to guide cetuximab/panitumumab eligibility [PMID:25164765](../papers/25164765.md)
 - V600 mutation absent in this cSCC cohort (39 patients); referenced as a marker evaluated and not found in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
@@ -68,6 +68,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - V600E in 3–7% of intrahepatic CCA and near 0% in extrahepatic CCA; actionable with [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR phase II ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md)
 - Classic CRC driver gene studied as comparison baseline in African American vs. Caucasian CRC cohort; no AA-specific enrichment reported in this study [PMID:25583493](../papers/25583493.md)
 - Non-V600 activating alleles G464R and G469R identified in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort); G469R reported in ~1% of BRAF-mutant melanoma [PMID:25589618](../papers/25589618.md)
+- Low-frequency but FDA-druggable alteration in MAP kinase pathway in [HCC](../cancer_types/HCC.md); part of 243-tumor exome analysis [PMID:25822088](../papers/25822088.md)
+- V600E mutations in 3% of PDA; mutually exclusive with [KRAS](../genes/KRAS.md); patient-derived PDA_014 cell line confirmed vemurafenib-sensitive [PMID:25855536](../papers/25855536.md)
+- Mutations in 10% of [PCNSL](../cancer_types/PCNSL.md) cases (n=18); identified in genome-wide analysis of primary central nervous system lymphoma [PMID:25991819](../papers/25991819.md)
+- Potentially actionable fusions (BRAF/RAF1) in ~3% of mCRPC patients; identified in integrative genomic analysis of 150 mCRPC biopsies [PMID:26000489](../papers/26000489.md)
+- Mutated in 52% of cutaneous melanoma (V600E n=124, V600K n=18, V600R n=3, K601 n=5); focal amplifications in BRAF subtype; anti-correlated with [NRAS](../genes/NRAS.md) hot-spot and [NF1](../genes/NF1.md) mutations; defines the BRAF-mutant genomic subtype [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -223,5 +228,20 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

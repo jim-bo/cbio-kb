@@ -4,7 +4,7 @@ oncotree_code: NSCLC
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -26,7 +26,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 
 ## Recurrent alterations
 
-- TMB was higher in BM vs EM (median 8.8 vs 5.8; p=0.00766); FGA was higher in BM vs EM (p=2.77e-06) and vs PT (p=2.27e-07) [PMID:37591896](../papers/37591896.md).
+- TMB was higher in BM vs EM (median 8.8 vs 5.8; p=0.00766); [FGA](../genes/FGA.md) was higher in BM vs EM (p=2.77e-06) and vs PT (p=2.27e-07) [PMID:37591896](../papers/37591896.md).
 - [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) alterations more frequent in BM (34%) vs PT (13%, p=0.003, q=0.04); cell-cycle pathway alterations 56% BM vs 32% PT (p=0.004, q=0.041) [PMID:37591896](../papers/37591896.md).
 - Paired BM–BM samples showed high genomic concordance vs lower concordance in synchronous BM/PT pairs [PMID:37591896](../papers/37591896.md).
 - [NF1](../genes/NF1.md) alterations were more frequent in LMD patients (15%) [PMID:37591896](../papers/37591896.md).
@@ -73,10 +73,10 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*

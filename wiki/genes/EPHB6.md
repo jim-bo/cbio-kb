@@ -23,7 +23,7 @@ EPHB6 (Ephrin Type-B Receptor 6) is a member of the EPH receptor tyrosine kinase
 
 ## Co-occurrence and mutual exclusivity
 
-- [EPHA6](../genes/EPHA6.md) is selected in African American CRCs whereas EPHA3 and EPHB6 are selected in Caucasian CRCs, suggesting ethnicity-associated selection of different EPH family members [PMID:25583493](../papers/25583493.md)
+- [EPHA6](../genes/EPHA6.md) is selected in African American CRCs whereas [EPHA3](../genes/EPHA3.md) and EPHB6 are selected in Caucasian CRCs, suggesting ethnicity-associated selection of different EPH family members [PMID:25583493](../papers/25583493.md)
 
 ## Therapeutic relevance
 

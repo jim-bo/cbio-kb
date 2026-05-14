@@ -20,17 +20,17 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - **R5Q** -- attenuated-output LOF; recurrent in [DSTAD](../cancer_types/DSTAD.md) and Burkitt lymphoma ([BL](../cancer_types/BL.md)); complements RHO1 in yeast and clusters morphologically near wild-type. [PMID:24816253](../papers/24816253.md)
 - **G17V** -- dominant-negative LOF; abolishes GTP binding; present in ~67% of [AITL](../cancer_types/AITL.md) cases and other [PTCL](../cancer_types/PTCL.md); complements RHO1 in yeast but clusters morphologically with GOF mutants. [PMID:24816253](../papers/24816253.md)
 - **C16R** -- GOF (accelerates GTP/GDP cycling); predominantly in [ATLL](../cancer_types/ATLL.md); complements RHO1 in yeast. [PMID:24816253](../papers/24816253.md)
-- **A161P** -- GOF; predominantly in ATLL; uniquely shows reproducible Slt2 (MAPK) phosphorylation elevation in yeast and the greatest number of altered CalMorph features (164 significantly altered parameters, FDR<0.05). [PMID:24816253](../papers/24816253.md)
+- **A161P** -- GOF; predominantly in [ATLL](../cancer_types/ATLL.md); uniquely shows reproducible Slt2 (MAPK) phosphorylation elevation in yeast and the greatest number of altered CalMorph features (164 significantly altered parameters, FDR<0.05). [PMID:24816253](../papers/24816253.md)
 - **E40Q** -- fails to complement RHO1 in yeast (no viable colonies on 5-FOA); recurs in solid tumors including breast cancer and [HNSC](../cancer_types/HNSC.md). [PMID:24816253](../papers/24816253.md)
 - Mutated in 15% of genomically stable (GS) gastric tumours; novel hotspots in the effector-binding region (Y42, D59 etc.) distinct from RAS-family oncogenic sites; mutually exclusive with CLDN18-ARHGAP fusions. [PMID:25079317](../papers/25079317.md)
 - RHOA enriched in diffuse-type gastric cancer (GC), consistent with prior reports; not associated with shorter survival in the Tianjin Chinese GC cohort (n=294), distinguishing its clinical impact from CDH1-driven diffuse GC. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
-- **DSTAD** -- somatic RHOA hotspot mutations in ~25% of diffuse-type GC; R5Q is one recurrent variant. [PMID:24816255](../papers/24816255.md) [PMID:24816253](../papers/24816253.md)
-- **AITL** -- G17V in ~67% of cases. [PMID:24816253](../papers/24816253.md)
-- **ATLL** -- C16R and A161P predominantly observed. [PMID:24816253](../papers/24816253.md)
-- **PTCL** -- G17V and other hotspots recurrent. [PMID:24816253](../papers/24816253.md)
+- **[DSTAD](../cancer_types/DSTAD.md)** -- somatic RHOA hotspot mutations in ~25% of diffuse-type GC; R5Q is one recurrent variant. [PMID:24816255](../papers/24816255.md) [PMID:24816253](../papers/24816253.md)
+- **[AITL](../cancer_types/AITL.md)** -- G17V in ~67% of cases. [PMID:24816253](../papers/24816253.md)
+- **[ATLL](../cancer_types/ATLL.md)** -- C16R and A161P predominantly observed. [PMID:24816253](../papers/24816253.md)
+- **[PTCL](../cancer_types/PTCL.md)** -- G17V and other hotspots recurrent. [PMID:24816253](../papers/24816253.md)
 - **[STAD](../cancer_types/STAD.md) (familial)** -- somatic and rare germline RHOA variants in familial non-hereditary GC (FNHGC). [PMID:24816255](../papers/24816255.md)
 - **[BL](../cancer_types/BL.md)** -- R5Q observed. [PMID:24816253](../papers/24816253.md)
 

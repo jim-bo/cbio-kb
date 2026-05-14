@@ -32,7 +32,7 @@ BIRC2 (baculoviral IAP repeat-containing 2, also known as cIAP1) is an inhibitor
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with [BIRC3](../genes/BIRC3.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), CCND1, and [LTO1](../genes/LTO1.md) at the 11q13 locus; the relative contribution of BIRC2 versus CCND1 at this amplicon is not resolved. [PMID:23619168](../papers/23619168.md)
+- Co-amplified with [BIRC3](../genes/BIRC3.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), [CCND1](../genes/CCND1.md), and [LTO1](../genes/LTO1.md) at the 11q13 locus; the relative contribution of BIRC2 versus [CCND1](../genes/CCND1.md) at this amplicon is not resolved. [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 
@@ -40,7 +40,7 @@ BIRC2 (baculoviral IAP repeat-containing 2, also known as cIAP1) is an inhibitor
 
 ## Open questions
 
-- The functional contribution of BIRC2 copy gain to OSCC pathogenesis versus passenger co-amplification with CCND1 at 11q13 is not resolved. [PMID:23619168](../papers/23619168.md)
+- The functional contribution of BIRC2 copy gain to OSCC pathogenesis versus passenger co-amplification with [CCND1](../genes/CCND1.md) at 11q13 is not resolved. [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 

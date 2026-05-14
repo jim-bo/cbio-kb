@@ -23,6 +23,8 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - Used to annotate somatic variants in 50 urothelial carcinoma tumors in the cisplatin-response WES study. [PMID:25096233](../papers/25096233.md)
 - Used to annotate somatic variants in 69 matched CRC trios with COSMIC v65 annotations as part of the MSK-IMPACT concordance study. [PMID:25164765](../papers/25164765.md)
 - Used to annotate somatic variants against dbSNP 134 and 1000 Genomes in the [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) pipeline for 29 metastatic cSCC samples; identified high UV-signature mutation rate (~33 mut/Mb) and recurrent RAS/RTK/PI3K pathway activating mutations [PMID:25589618](../papers/25589618.md)
+- Oncotator used for variant annotation alongside Alamut in 243 [HCC](../cancer_types/HCC.md) exomes to classify somatic mutations for driver discovery. [PMID:25822088](../papers/25822088.md)
+- Broad Institute Oncotator used to annotate somatic mutations identified by MuTect and VarScan in 109 microdissected PDA exomes. [PMID:25855536](../papers/25855536.md)
 
 ## Notes
 
@@ -45,5 +47,11 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

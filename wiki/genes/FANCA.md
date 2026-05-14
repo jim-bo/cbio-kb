@@ -23,6 +23,8 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - FANCA was identified as part of a cluster of DNA repair gene alterations (alongside [RAD51B](../genes/RAD51B.md), [RAD21](../genes/RAD21.md), [RAD51C](../genes/RAD51C.md), [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), and [FANCC](../genes/FANCC.md)) detected **exclusively at relapse** in fusion-negative rhabdomyosarcoma (FN-RMS) patients with higher overall mutational counts, suggesting these alterations arise under selective pressure during disease progression. [PMID:37730754](../papers/37730754.md)
 - FANCA identified as a DNA damage repair gene with non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - Listed as a gene observed in the TCGA papillary thyroid carcinoma (PTC) cohort ([thca_tcga_pub](../datasets/thca_tcga_pub.md)); specific alteration details not described in the narrative sections of this paper. [PMID:25417114](../papers/25417114.md)
+- DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
+- Broader DNA-repair pathway alteration contributing to 22.7% aggregate HRR deficiency in mCRPC [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -39,16 +41,18 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 ## Open questions
 
 - Whether FANCA alterations in relapsed FN-RMS are clonally selected by prior alkylating-agent chemotherapy or arise stochastically remains unresolved. [PMID:37730754](../papers/37730754.md)
-- Functional validation (e.g., FANCD2 monoubiquitination assay, [RAD51](../genes/RAD51.md) foci) has not been reported for these relapse-acquired somatic FANCA variants in the corpus.
+- Functional validation (e.g., [FANCD2](../genes/FANCD2.md) monoubiquitination assay, [RAD51](../genes/RAD51.md) foci) has not been reported for these relapse-acquired somatic FANCA variants in the corpus.
 
 ## Sources
 
 - [PMID:37730754](../papers/37730754.md) — Sequential genomic analysis of [RMS](../cancer_types/RMS.md) progression and relapse; FANCA identified among DNA repair genes altered exclusively at relapse in FN-RMS.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+- [PMID:25855536](../papers/25855536.md)
+
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

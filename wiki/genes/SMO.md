@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [hedgehog-pathway, oncogene, meningioma]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # SMO
@@ -17,7 +17,8 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 
 - SMO point mutations were identified in a copy-number-neutral subset of MG2 meningiomas (NF2-wildtype, benign); SMO mutations are exclusive to MG2 and mutually exclusive with [NF2](../genes/NF2.md) mutations [PMID:34433969](../papers/34433969.md).
 - Recurrently mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); SMO activating mutations identified predominantly in the SHH-subgroup of medulloblastoma [PMID:22832583](../papers/22832583.md)
-- Target of [saridegib](../drugs/saridegib.md) (IPI-926); preclinical mouse data showed [gemcitabine](../drugs/gemcitabine.md) + saridegib extended survival in pancreatic cancer, but the parallel human phase II trial was halted after interim analysis showed inferior survival; long-term continuous Smoothened targeting was found to induce a more aggressive phenotype in early-stage disease [PMID:23999436](../papers/23999436.md)
+- Target of [saridegib](../drugs/saridegib.md) (IPI-926); preclinical mouse data showed [gemcitabine](../drugs/gemcitabine.md) + [saridegib](../drugs/saridegib.md) extended survival in pancreatic cancer, but the parallel human phase II trial was halted after interim analysis showed inferior survival; long-term continuous Smoothened targeting was found to induce a more aggressive phenotype in early-stage disease [PMID:23999436](../papers/23999436.md)
+- Hedgehog-pathway alteration observed in pancreatic ductal adenocarcinoma (along with [GLI2](../genes/GLI2.md), [GLI3](../genes/GLI3.md), [PTCH1](../genes/PTCH1.md), [LRP2](../genes/LRP2.md)). [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -39,10 +40,13 @@ SMO (Smoothened) is a transmembrane protein in the Hedgehog signaling pathway. I
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

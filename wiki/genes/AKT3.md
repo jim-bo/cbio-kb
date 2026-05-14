@@ -4,7 +4,7 @@ aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # AKT3
@@ -19,6 +19,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - Mutated in TCGA lung squamous cell carcinoma cohort (178 tumors), identified as part of broad genomic characterization [PMID:22960745](../papers/22960745.md)
 - Recurrently altered across endometrial carcinoma subtypes in the [ucec_tcga_pub](../datasets/ucec_tcga_pub.md) TCGA cohort; identified in mutation panel analyses (Fig. 2d/Fig. 5b) [PMID:23636398](../papers/23636398.md)
 - Overexpression observed in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); part of the PI(3)K/AKT/mTOR pathway altered in 42% of tumours, representing a potential therapeutic target with AKT inhibitors [PMID:24476821](../papers/24476821.md)
+- Amplification, overexpression, and recurrent fusions (CEP170-AKT3, AKT3-PLD5, ZEB2-AKT3, ARHGAP30-AKT3) enriched in RAS/NF1/Triple-WT melanoma subtypes vs [BRAF](../genes/BRAF.md) (p < 0.05); E17K mutation nominated as biomarker for MEK + PI3K/AKT/mTOR combination therapy [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -40,13 +41,16 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

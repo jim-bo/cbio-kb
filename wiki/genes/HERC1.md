@@ -15,11 +15,11 @@ HERC1 (HECT And RLD Domain Containing E3 Ubiquitin Protein Ligase 1) is a large 
 
 ## Alterations observed in the corpus
 
-- P3278S missense mutation generated the validated HLA-A-restricted neoantigen ASNASSAAK that drove a measurable, treatment-induced CD8+ T cell response in an exceptional responder to pembrolizumab in NSCLC [PMID:25765070](../papers/25765070.md)
+- P3278S missense mutation generated the validated HLA-A-restricted neoantigen ASNASSAAK that drove a measurable, treatment-induced CD8+ T cell response in an exceptional responder to [pembrolizumab](../drugs/pembrolizumab.md) in [NSCLC](../cancer_types/NSCLC.md) [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
-- **NSCLC**: HERC1 P3278S generated a validated immunogenic neoantigen in an exceptional responder to pembrolizumab [PMID:25765070](../papers/25765070.md)
+- **[NSCLC](../cancer_types/NSCLC.md)**: HERC1 P3278S generated a validated immunogenic neoantigen in an exceptional responder to [pembrolizumab](../drugs/pembrolizumab.md) [PMID:25765070](../papers/25765070.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -27,7 +27,7 @@ HERC1 (HECT And RLD Domain Containing E3 Ubiquitin Protein Ligase 1) is a large 
 
 ## Therapeutic relevance
 
-- HERC1 P3278S-derived neoantigen ASNASSAAK was validated as HLA-A-restricted and drove CD8+ T cell response in a patient achieving durable clinical benefit on pembrolizumab [PMID:25765070](../papers/25765070.md)
+- HERC1 P3278S-derived neoantigen ASNASSAAK was validated as HLA-A-restricted and drove CD8+ T cell response in a patient achieving durable clinical benefit on [pembrolizumab](../drugs/pembrolizumab.md) [PMID:25765070](../papers/25765070.md)
 
 ## Open questions
 

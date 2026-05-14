@@ -21,11 +21,11 @@ FAT2 is a member of the FAT cadherin family of tumor suppressor genes. In esopha
 
 ## Cancer types (linked)
 
-- [ESCC](../cancer_types/ESCC.md) — novel significantly mutated tumor suppressor in ESCC [PMID:24686850](../papers/24686850.md)
+- [ESCC](../cancer_types/ESCC.md) — novel significantly mutated tumor suppressor in [ESCC](../cancer_types/ESCC.md) [PMID:24686850](../papers/24686850.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Mutually exclusive with FAT1 and FAT3 mutations in ESCC, suggesting convergent cadherin pathway inactivation [PMID:24686850](../papers/24686850.md)
+- Mutually exclusive with [FAT1](../genes/FAT1.md) and [FAT3](../genes/FAT3.md) mutations in [ESCC](../cancer_types/ESCC.md), suggesting convergent cadherin pathway inactivation [PMID:24686850](../papers/24686850.md)
 
 ## Therapeutic relevance
 

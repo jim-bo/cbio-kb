@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-14
 ---
 
 # dasatinib
@@ -18,6 +18,7 @@ Dasatinib is a second-generation BCR-ABL1/Src-family tyrosine kinase inhibitor t
 ## Evidence in the corpus
 
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens), PDTOs from patients with progressive disease at follow-up were more resistant to dasatinib (p=0.039) than those from patients without disease progression — linking dasatinib ex vivo resistance to an aggressive clinical trajectory in sarcoma. [PMID:39305899](../papers/39305899.md)
+- Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1) alongside [imatinib](../drugs/imatinib.md); [KIT](../genes/KIT.md) and co-amplified PDGFRA/KDR at 4q12 provide rationale for [KIT](../genes/KIT.md) inhibitor strategies in this subgroup [PMID:26091043](../papers/26091043.md)
 
 ## Resistance mechanisms
 
@@ -31,4 +32,7 @@ Dasatinib is a second-generation BCR-ABL1/Src-family tyrosine kinase inhibitor t
 
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; dasatinib ex vivo resistance associated with progressive disease at clinical follow-up.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

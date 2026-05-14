@@ -5,7 +5,7 @@ main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # Pancreatic Adenocarcinoma (PAAD)
@@ -24,10 +24,11 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - Included in pan-cancer MSK-IMPACT pathway and metastasis analyses [PMID:39506116](../papers/39506116.md).
 - Canonical driver frequencies in the resected MSK cohort (n=397 sequenced): [KRAS](../genes/KRAS.md) 90%, [TP53](../genes/TP53.md) 71%, [CDKN2A](../genes/CDKN2A.md) 24%, [SMAD4](../genes/SMAD4.md) 17%; no significant difference in these frequencies between early- and late-stage disease after multiple-testing correction [PMID:39214094](../papers/39214094.md).
 - [KRAS](../genes/KRAS.md) allele distribution: G12D 36.5%, G12V 32.5%, G12R 13.9%, other [KRAS](../genes/KRAS.md) 8.1%, [KRAS](../genes/KRAS.md) wildtype 9.1% [PMID:39214094](../papers/39214094.md).
-- [KRAS](../genes/KRAS.md)^G12R^ tumors carry a higher proportion of [CDKN2A](../genes/CDKN2A.md) mutations than KRAS^G12D^ (40% vs 22.1%, p=0.046) [PMID:39214094](../papers/39214094.md).
+- [KRAS](../genes/KRAS.md)^G12R^ tumors carry a higher proportion of [CDKN2A](../genes/CDKN2A.md) mutations than [KRAS](../genes/KRAS.md)^G12D^ (40% vs 22.1%, p=0.046) [PMID:39214094](../papers/39214094.md).
 - Whole-exome sequencing of 19 pancreatic cystic neoplasms (IPMNs, MCNs, SPNs) identified recurrent somatic mutations in [VHL](../genes/VHL.md), [RNF43](../genes/RNF43.md), and [GNAS](../genes/GNAS.md), linking driver genes to specific PAAD subtypes [PMID:22158988](../papers/22158988.md)
-- Whole-exome sequencing of 142 ICGC pancreatic ductal adenocarcinoma tumors revealed KRAS, [TP53](../genes/TP53.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) as the most frequently mutated genes, plus novel axon-guidance pathway alterations [PMID:23103869](../papers/23103869.md)
+- Whole-exome sequencing of 142 ICGC pancreatic ductal adenocarcinoma tumors revealed [KRAS](../genes/KRAS.md), [TP53](../genes/TP53.md), [SMAD4](../genes/SMAD4.md), and [CDKN2A](../genes/CDKN2A.md) as the most frequently mutated genes, plus novel axon-guidance pathway alterations [PMID:23103869](../papers/23103869.md)
 - The [gemcitabine](../drugs/gemcitabine.md) + [saridegib](../drugs/saridegib.md) (Smoothened inhibitor) co-clinical trial in PAAD was halted after interim analysis showed inferior survival in the experimental arm despite positive preclinical signal in Kras-driven GEM models; post-clinical mouse experiments suggested chronic Smoothened targeting induces a more aggressive phenotype, illustrating the risk of short preclinical dosing windows [PMID:23999436](../papers/23999436.md).
+- Whole-exome sequencing of 109 microdissected PAAD (plus 11 [PAASC](../cancer_types/PAASC.md), 4 [PAAC](../cancer_types/PAAC.md)) identified 24 SMGs; [KRAS](../genes/KRAS.md) 92%, [TP53](../genes/TP53.md) 50%, [SMAD4](../genes/SMAD4.md) 19%, CDKN2A/B 36%; [MYC](../genes/MYC.md) amplification at 8q24.13 uniquely associates with poor overall survival (P=0.0013) and adenosquamous ([PAASC](../cancer_types/PAASC.md)) subtype; [BRAF](../genes/BRAF.md) V600E (3%) is mutually exclusive with [KRAS](../genes/KRAS.md) and vemurafenib-sensitive in a patient-derived cell line; codon-61 KRAS alleles confer favourable prognosis vs codon-12 (P=0.01999) [PMID:25855536](../papers/25855536.md)
 
 ## Subtypes
 
@@ -51,15 +52,18 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

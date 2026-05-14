@@ -9,8 +9,8 @@ unverified: true
 tags:
   - targeted-therapy
   - cdk-inhibitor
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # palbociclib
@@ -22,8 +22,9 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 ## Evidence in the corpus
 
 - Palbociclib was included in the UCLA PDTO sarcoma drug-screening panel (>400 compounds); [CDK4](../genes/CDK4.md) amplification — prevalent in liposarcoma ([WDLS](../cancer_types/WDLS.md)/[DDCHS](../cancer_types/DDCHS.md)) — was cited as the genomic rationale for testing CDK4/6 inhibitors across sarcoma PDTOs (e.g., SARC0086_3 [PEComa](../cancer_types/PECOMA.md)). Response rates were not reported at the subtype level in the published data. [PMID:39305899](../papers/39305899.md)
-- Pharmacologic CDK4/CDK6 inhibition with PD0332991 (palbociclib) induced G1 arrest in [DDLS](../cancer_types/DDLS.md) cell lines LPS141 and DDLS8817 following an shRNA screen of 385 genes on chromosome 12q that identified [CDK4](../genes/CDK4.md) as the top amplified dependency; CDK4 was the most overexpressed of 27 amplified anti-proliferative hits relative to normal fat. This constitutes one of the earliest functional genomic rationales for CDK4/6 inhibition in dedifferentiated liposarcoma [PMID:20601955](../papers/20601955.md).
-- CDK4/6 inhibitor palbociclib under evaluation in RB1-intact HCC as a rationale-driven trial target; RB1 LOF occurs in 4% and homozygous deletion in 5% of HCCs [PMID:24798001](../papers/24798001.md)
+- Pharmacologic CDK4/CDK6 inhibition with PD0332991 (palbociclib) induced G1 arrest in [DDLS](../cancer_types/DDLS.md) cell lines LPS141 and DDLS8817 following an shRNA screen of 385 genes on chromosome 12q that identified [CDK4](../genes/CDK4.md) as the top amplified dependency; [CDK4](../genes/CDK4.md) was the most overexpressed of 27 amplified anti-proliferative hits relative to normal fat. This constitutes one of the earliest functional genomic rationales for CDK4/6 inhibition in dedifferentiated liposarcoma [PMID:20601955](../papers/20601955.md).
+- CDK4/6 inhibitor palbociclib under evaluation in RB1-intact [HCC](../cancer_types/HCC.md) as a rationale-driven trial target; [RB1](../genes/RB1.md) LOF occurs in 4% and homozygous deletion in 5% of HCCs [PMID:24798001](../papers/24798001.md)
+- [CDKN2A](../genes/CDKN2A.md) loss (>36%), [CDK4](../genes/CDK4.md) amplification, and [CCND1](../genes/CCND1.md) amplification in pancreatic ductal adenocarcinoma (109 resected cases, WES) make PDA a high-prior candidate for CDK4/6 inhibition with palbociclib (PD-0332991); synergy with pathway-selective agents shown in PDA models [PMID:25855536](../papers/25855536.md)
 
 ## Resistance mechanisms
 
@@ -36,9 +37,12 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; CDK4/6 inhibitor testing context.
-- [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; functional validation of CDK4 dependency in [DDLS](../cancer_types/DDLS.md); G1 arrest by palbociclib (PD0332991).
+- [PMID:20601955](../papers/20601955.md) — Barretina et al. 2010, Nature Genetics; functional validation of [CDK4](../genes/CDK4.md) dependency in [DDLS](../cancer_types/DDLS.md); G1 arrest by palbociclib (PD0332991).
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

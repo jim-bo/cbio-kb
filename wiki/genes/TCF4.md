@@ -11,7 +11,7 @@ tags:
   - cancer-stem-cell
   - melanocyte-neural-crest
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-14
 ---
 
 # TCF4
@@ -24,6 +24,7 @@ TCF4 (Transcription Factor 4), also known as ITF2 or E2-2, is a basic helix-loop
 
 - TCF4 is one of the 63-gene stem/progenitor program (PC2/PC3) markers across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2); co-expressed with neurodevelopmental TFs [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [SOX2](../genes/SOX2.md), [NFIB](../genes/NFIB.md), [ASCL1](../genes/ASCL1.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), and [CCND2](../genes/CCND2.md). The program overlaps glioblastoma CSC signatures (hypergeometric P = 1.5×10⁻⁴). [PMID:27806376](../papers/27806376.md)
 - TCF4 is transcriptionally upregulated in LowMut melanocytes (bottom UV-burden quartile) compared to HighMut melanocytes in a single-melanocyte multi-omics study (297 clonally-expanded cells, 31 donors; G&T-Seq + SMART-Seq2 + 10X Xenium); expression is part of the neuronal/neural-crest gene signature of LowMut cells, consistent with TCF4's role as an E-protein transcription factor controlling neural progenitor identity [PMID:39975212](../papers/39975212.md).
+- Implicated in one or two cases as part of focal amplification or homozygous deletion events in primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)). [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -48,4 +49,7 @@ TCF4 (Transcription Factor 4), also known as ITF2 or E2-2, is a basic helix-loop
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:39975212](../papers/39975212.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

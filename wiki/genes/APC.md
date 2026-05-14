@@ -39,6 +39,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Candidate dark-matter driver in papillary thyroid carcinoma; among chromatin-remodeling and additional driver alterations across 97/402 (24.1%) PTC tumors in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - Recurrently mutated driver in gastric cancer (GC); participates in Wnt signaling pathway; observed alongside [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [MYC](../genes/MYC.md), and [KRAS](../genes/KRAS.md) mutations in a 294-patient Tianjin WES cohort [PMID:25583476](../papers/25583476.md)
 - Classic CRC driver gene studied as comparison baseline in African American vs. Caucasian CRC cohort (103 AA, 129 Caucasian); mutation rates reported across both ethnic groups [PMID:25583493](../papers/25583493.md)
+- Recurrently mutated WNT-pathway component in PDA; co-mutated with [AXIN1](../genes/AXIN1.md) and [AXIN2](../genes/AXIN2.md), nominating tankyrase inhibitors (XAV939) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- Recurrently altered in mCRPC for the first time; part of WNT pathway alterations also including [CTNNB1](../genes/CTNNB1.md), [RNF43](../genes/RNF43.md), [ZNRF3](../genes/ZNRF3.md), and [RSPO2](../genes/RSPO2.md) fusions [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -116,5 +118,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

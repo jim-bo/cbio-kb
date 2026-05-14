@@ -15,7 +15,7 @@ CXCL1 (C-X-C Motif Chemokine Ligand 1) is a pro-inflammatory chemokine secreted 
 
 ## Alterations observed in the corpus
 
-- TLR4-driven hepatocyte chemokine that recruits PMN-MDSCs to accelerate cholangiocarcinoma progression; neomycin blocks the CXCL1-PMN-MDSC axis in preclinical models [PMID:25608663](../papers/25608663.md)
+- TLR4-driven hepatocyte chemokine that recruits PMN-MDSCs to accelerate cholangiocarcinoma progression; [neomycin](../drugs/neomycin.md) blocks the CXCL1-PMN-MDSC axis in preclinical models [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 

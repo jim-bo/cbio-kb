@@ -23,6 +23,7 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - Classic CRC driver included in comparison analysis in an African American vs. Caucasian CRC cohort; mutation frequency not highlighted as AA-specific [PMID:25583493](../papers/25583493.md)
 - COSMIC mutations in 2/29 (7%) metastatic cSCC samples; one sample with SMAD4 nonsense was the lone TP53/NOTCH/oncogene-wild-type case [PMID:25589618](../papers/25589618.md)
 - Focal deletions in the HPV(−) tumor-suppressor gene set in HNSCC (n=279 TCGA cohort) [PMID:25631445](../papers/25631445.md)
+- Mutated/deleted in 19–43% of pancreatic ductal adenocarcinoma cases across analyses; backbone of TGF-β pathway lesions in PDA. [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

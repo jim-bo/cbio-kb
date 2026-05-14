@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCS, MXOV]
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # FANCM
@@ -16,6 +16,7 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 ## Alterations observed in the corpus
 
 - Splice-site/frameshift mutations in 2/22 gynaecologic carcinosarcoma cases; identified by whole-exome sequencing [PMID:25233892](../papers/25233892.md).
+- Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

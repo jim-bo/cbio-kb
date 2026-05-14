@@ -23,7 +23,7 @@ SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations ar
 
 ## Alterations observed in the corpus
 
-- SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in MDS patients (Tokyo cohort), identified in a cohort study linking somatic mutations to MDS morphologic features [PMID:21909114](../papers/21909114.md)
+- SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in [MDS](../cancer_types/MDS.md) patients (Tokyo cohort), identified in a cohort study linking somatic mutations to MDS morphologic features [PMID:21909114](../papers/21909114.md)
 - SETBP1 p.S944N mutation detected in a gastric cancer (GC) patient (Pt2) in the Tianjin Chinese GC cohort; the mutation matches the recurrent myeloid-malignancy hotspot site. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)

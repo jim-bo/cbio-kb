@@ -88,10 +88,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 130 muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) tumor/normal pairs (186,260 exons, 18,091 genes; mean 100× coverage, ≥82% target bases ≥30×); identified 32 significantly mutated genes including 9 novel cancer SMGs; mean 302 exonic mutations per sample [PMID:24476821](../papers/24476821.md)
 - Applied to 10 ccRCC primary tumors (79 samples, 8–12 regions each) via Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth) to characterize intratumor heterogeneity; 92.5% of candidate mutations validated by ultra-deep amplicon sequencing [PMID:24487277](../papers/24487277.md)
 - Used for Discovery Cohort of 20 paired [ESCC](../cancer_types/ESCC.md) germline/tumor samples (mean coverage 79×) to identify novel significantly mutated genes including [FAT1](../genes/FAT1.md), [FAT2](../genes/FAT2.md), [ZNF750](../genes/ZNF750.md), and [KMT2D](../genes/KMT2D.md) [PMID:24686850](../papers/24686850.md)
-- Referenced in [HCC](../cancer_types/HCC.md) genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers ([TERT](../genes/TERT.md) promoter, TP53, [CTNNB1](../genes/CTNNB1.md)) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
-- Used for whole-exome sequencing of >1,200 HCC patients to characterise the mutational landscape of hepatocellular carcinoma, including TERT, CTNNB1, and TP53 alterations [PMID:24798001](../papers/24798001.md)
+- Referenced in [HCC](../cancer_types/HCC.md) genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers ([TERT](../genes/TERT.md) promoter, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
+- Used for whole-exome sequencing of >1,200 [HCC](../cancer_types/HCC.md) patients to characterise the mutational landscape of hepatocellular carcinoma, including [TERT](../genes/TERT.md), [CTNNB1](../genes/CTNNB1.md), and TP53 alterations [PMID:24798001](../papers/24798001.md)
 - Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent [GTF2I](../genes/GTF2I.md) p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:24816255](../papers/24816255.md)
-- Applied to 28 [TET](../cancer_types/TET.md) tumor/normal pairs to identify recurrent GTF2I c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
+- Applied to 28 [TET](../cancer_types/TET.md) tumor/normal pairs to identify recurrent [GTF2I](../genes/GTF2I.md) c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
 - Whole-exome sequencing of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) identified 25 significantly mutated genes in non-hypermutated tumors; exome-based mutation rates supported MSI classification and subtype-specific mutation enrichments [PMID:25079317](../papers/25079317.md)
 - WES of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) at mean 97.6x tumor / 95.8x germline coverage identified 18 significantly mutated genes including novel [RIT1](../genes/RIT1.md) activating mutations and [MGA](../genes/MGA.md) loss-of-function; mean somatic mutation rate 8.87 mutations/Mb [PMID:25079552](../papers/25079552.md)
 - Used to sequence pre-treatment tumors from 50 muscle-invasive urothelial carcinoma patients (mean coverage 121× tumor/130× germline, SureSelect v2 Exome bait, Illumina HiSeq, aligned to hg19) to identify [ERCC2](../genes/ERCC2.md) mutations associated with [cisplatin](../drugs/cisplatin.md) response. [PMID:25096233](../papers/25096233.md)
@@ -104,6 +104,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 128 tumor/blood exomes (SureSelect 50-Mb, HiSeq 2000, mean 103× coverage) in metastatic melanoma patients treated with anti-CTLA-4; high mutational load correlated with long-term clinical benefit (P=0.01 discovery; P=0.009 validation) [PMID:25409260](../papers/25409260.md)
 - 402 of 496 papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) tumor/normal pairs sequenced at mean 97×/94.9× depth as part of the TCGA multiplatform characterization; yielded 0.41 non-synonymous mutations/Mb, a low density relative to most carcinomas [PMID:25417114](../papers/25417114.md)
 - Applied to 78 primary gastric adenocarcinomas (mean 167× tumor / 170× normal, Agilent SureSelect, HiSeq 2000) to discover 16 significantly mutated genes and identify a high-clonality (HiC) subtype with significantly shorter survival (adjusted HR 4.69, P=0.0043) [PMID:25583476](../papers/25583476.md)
+- Used for discovery sequencing of 29 AA MSS CRC tumor/normal pairs (custom Agilent SureSelectXT bait library); 2,696 protein-altering mutations detected across 2,156 genes, identifying 20 significantly mutated genes including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific CRC drivers [PMID:25583493](../papers/25583493.md)
+- Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors (mean coverage 95×; 82% of target bases ≥30×) as part of TCGA multi-platform profiling; identified 11 significantly mutated genes by MutSigCV including TP53 (72%), [FAT1](../genes/FAT1.md) (23%), [PIK3CA](../genes/PIK3CA.md) (21%), and [NOTCH1](../genes/NOTCH1.md) (19%) [PMID:25631445](../papers/25631445.md)
+- Used on 34 paired tumor/normal samples from [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md) (mean target coverage 164×; 94.5% of target ≥10×); higher nonsynonymous mutation burden (cutoff ≥178 mutations) significantly associated with durable clinical benefit and prolonged PFS [PMID:25765070](../papers/25765070.md)
 
 ## Notes
 
@@ -329,5 +332,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -23,7 +23,7 @@ ALKBH5 (AlkB Homolog 5, RNA Demethylase) encodes an RNA N6-methyladenosine (m6A)
 
 ## Co-occurrence and mutual exclusivity
 
-- HBV integration events near ALKBH5 co-occur with insertions near TERT (promoter hyperactivation), MET, and FAT2 in HBV-associated iCCA [PMID:25526346](../papers/25526346.md)
+- HBV integration events near ALKBH5 co-occur with insertions near [TERT](../genes/TERT.md) (promoter hyperactivation), [MET](../genes/MET.md), and [FAT2](../genes/FAT2.md) in HBV-associated iCCA [PMID:25526346](../papers/25526346.md)
 
 ## Therapeutic relevance
 

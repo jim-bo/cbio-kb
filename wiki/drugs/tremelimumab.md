@@ -18,7 +18,7 @@ Tremelimumab is a human anti-CTLA-4 monoclonal antibody targeting [CTLA4](../gen
 ## Evidence in the corpus
 
 - Phase II tremelimumab monotherapy in [HCC](../cancer_types/HCC.md): ORR 17.6% in 20 patients [PMID:24798001](../papers/24798001.md).
-- Durvalumab + tremelimumab combination (anti-PD-L1 + anti-CTLA-4) under evaluation in HCC (NCT03298451) as part of dual checkpoint blockade strategies [PMID:24798001](../papers/24798001.md).
+- Durvalumab + tremelimumab combination (anti-PD-L1 + anti-CTLA-4) under evaluation in [HCC](../cancer_types/HCC.md) (NCT03298451) as part of dual checkpoint blockade strategies [PMID:24798001](../papers/24798001.md).
 - Studied in 5 metastatic melanoma ([SKCM](../cancer_types/SKCM.md)) patients as anti-CTLA-4 agent alongside [ipilimumab](../drugs/ipilimumab.md); high tumor mutational load and a shared tetrapeptide neoantigen signature in responders were significantly associated with long-term clinical benefit [PMID:25409260](../papers/25409260.md)
 
 ## Resistance mechanisms

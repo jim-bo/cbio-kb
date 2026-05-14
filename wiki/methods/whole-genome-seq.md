@@ -56,16 +56,17 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 26 of 203 multiple myeloma tumor/normal pairs at ~30× average depth; all 26 samples harbored structural variants; enabled identification of SVs and complemented WES-based mutation calling [PMID:24434212](../papers/24434212.md)
 - Applied to 44 rhabdomyosarcoma tumor/normal pairs on Complete Genomics platform at mean 105× depth with 97% genome coverage; identified 553 somatic SVs affecting 419 genes and established the PAX-fusion-positive vs PAX-fusion-negative [RMS](../cancer_types/RMS.md) classification [PMID:24436047](../papers/24436047.md)
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
-- Referenced in [HCC](../cancer_types/HCC.md) genomic landscape review as part of next-generation sequencing approaches that identified novel HCC driver genes including [TERT](../genes/TERT.md), [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [RPS6KA3](../genes/RPS6KA3.md), [PIK3CA](../genes/PIK3CA.md), [IRF2](../genes/IRF2.md), [NFE2L2](../genes/NFE2L2.md), and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
+- Referenced in [HCC](../cancer_types/HCC.md) genomic landscape review as part of next-generation sequencing approaches that identified novel [HCC](../cancer_types/HCC.md) driver genes including [TERT](../genes/TERT.md), [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [RPS6KA3](../genes/RPS6KA3.md), [PIK3CA](../genes/PIK3CA.md), [IRF2](../genes/IRF2.md), [NFE2L2](../genes/NFE2L2.md), and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
 - Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including [DOT1L](../genes/DOT1L.md), [INSR](../genes/INSR.md), [FBXO24](../genes/FBXO24.md), and [CTNND1](../genes/CTNND1.md) [PMID:24816255](../papers/24816255.md)
 - Low-pass WGS (1-3x coverage) from 100-250 ng input DNA (KAPA LTP / Illumina HiSeq 2000) applied to four FFPE prostate needle biopsies; CNA profiles concordant with high-resolution aCGH, enabling pre-treatment CNA burden assessment [PMID:25024180](../papers/25024180.md)
 - Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
 - Low-pass WGS on 93 of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [RET](../genes/RET.md) fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
-- Used to sequence 50 ChRCC tumors (60× tumor / 30× normal) in the TCGA ChRCC project, enabling detection of structural rearrangements at the TERT promoter and kataegis events via Meerkat. [PMID:25155756](../papers/25155756.md)
+- Used to sequence 50 ChRCC tumors (60× tumor / 30× normal) in the TCGA ChRCC project, enabling detection of structural rearrangements at the [TERT](../genes/TERT.md) promoter and kataegis events via Meerkat. [PMID:25155756](../papers/25155756.md)
 - Applied to four CRC primary/metastasis trios (median 87× tumor, 50× normal) at the New York Genome Center to validate MSK-IMPACT findings; confirmed all panel-level calls and revealed genome-wide discordance in heterogeneous cases. [PMID:25164765](../papers/25164765.md)
 - Used in Ewing sarcoma WGS of 112 tumors with matched germline on Illumina HiSeq2000 (median 35× tumor depth); BWA alignment to GRCh37-lite; identified [STAG2](../genes/STAG2.md) (17%), [TP53](../genes/TP53.md) (7%), and [EZH2](../genes/EZH2.md) as significantly mutated genes [PMID:25223734](../papers/25223734.md)
 - WGS at median 45.1× depth on 47 tumor/xenograft/normal DNA samples from 15 breast cancer PDX series; used to identify somatic SNVs (4.3–27.7×10³ per genome) and SVs driving clonal selection at engraftment [PMID:25470049](../papers/25470049.md)
 - Applied to 3 primary-tumor regions plus 2 matched lymph-node metastases each from 2 gastric adenocarcinoma patients (Pt1: 4,082 nonsilent mutations; Pt2: 287); phylogenetic analysis revealed divergence among primary regions with metastases sharing a common clonal ancestor [PMID:25583476](../papers/25583476.md)
+- High-coverage WGS performed on 29 [HNSC](../cancer_types/HNSC.md) tumors as part of TCGA profiling; identified 62 structural aberrations per tumor on average, no recurrent ALK/ROS/RET fusions, and FGFR3-TACC3 fusions in 2 HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 
 ## Notes
 
@@ -205,5 +206,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

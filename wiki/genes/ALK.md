@@ -24,7 +24,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK inhibitor sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), linking ALK alterations to drug response [PMID:22460905](../papers/22460905.md)
 - Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ALK point mutations and amplifications found as key oncogenic drivers in neuroblastoma [PMID:23334666](../papers/23334666.md)
 - ALK-fusion lung cancer treated with [crizotinib](../drugs/crizotinib.md) is cited as a resistance analogy in [HCC](../cancer_types/HCC.md) targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:24735922](../papers/24735922.md)
-- Fusions detected in 3/230 (1.3%) [LUAD](../cancer_types/LUAD.md) cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined LUAD [PMID:25079552](../papers/25079552.md)
+- Fusions detected in 3/230 (1.3%) [LUAD](../cancer_types/LUAD.md) cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined [LUAD](../cancer_types/LUAD.md) [PMID:25079552](../papers/25079552.md)
 - Fusions in 0.8% (4/484) of papillary thyroid carcinomas, including EML4/ALK; fusion-positive tumors characterized by younger age and are a potential targetable alteration [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)

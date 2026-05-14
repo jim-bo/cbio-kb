@@ -1,10 +1,10 @@
 ---
 symbol: KIT
 aliases: []
-cancer_types: [OGCT, GIST, ANGS]
+cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # KIT
@@ -25,10 +25,11 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Copy-number gain observed in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Mutations including codon 761 (likely activating) and copy-number gain in [SCLC](../cancer_types/SCLC.md) (36 tumors, JHU WES/WGS) [PMID:22941189](../papers/22941189.md)
 - Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, [IGF1R](../genes/IGF1R.md), [MET](../genes/MET.md), [PDGFRA](../genes/PDGFRA.md)) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
-- Non-FLT3 activated signaling gene contributing to the 59% signaling-pathway prevalence in [AML](../cancer_types/AML.md); part of the KIT/KRAS/NRAS/PTPN11 non-FLT3 signaling subgroup; already incorporated in current AML classification alongside [FLT3](../genes/FLT3.md), [NPM1](../genes/NPM1.md), and [CEBPA](../genes/CEBPA.md) [PMID:23634996](../papers/23634996.md)
-- KIT-high (by IHC) status showed a non-significant trend toward greater sorafenib benefit in the SHARP biomarker substudy in HCC (combined with low plasma HGF), but no predictive biomarker for sorafenib has been validated. [PMID:24798001](../papers/24798001.md)
+- Non-FLT3 activated signaling gene contributing to the 59% signaling-pathway prevalence in [AML](../cancer_types/AML.md); part of the KIT/KRAS/NRAS/PTPN11 non-FLT3 signaling subgroup; already incorporated in current [AML](../cancer_types/AML.md) classification alongside [FLT3](../genes/FLT3.md), [NPM1](../genes/NPM1.md), and [CEBPA](../genes/CEBPA.md) [PMID:23634996](../papers/23634996.md)
+- KIT-high (by IHC) status showed a non-significant trend toward greater [sorafenib](../drugs/sorafenib.md) benefit in the SHARP biomarker substudy in [HCC](../cancer_types/HCC.md) (combined with low plasma [HGF](../genes/HGF.md)), but no predictive biomarker for sorafenib has been validated. [PMID:24798001](../papers/24798001.md)
 - KIT mutations occur in ~10% of thymic carcinomas (literature context); three GTF2I-mutant thymic carcinomas in the study cohort were all KIT-positive by IHC, including two squamous cell and one undifferentiated carcinoma. [PMID:24952746](../papers/24952746.md)
 - KIT mutations occur in ~10% of thymic carcinomas (literature); all three GTF2I-mutant thymic carcinomas in this NCI cohort were KIT-positive by IHC; cited as a potential targetable lesion but not directly evaluated for targeted therapy response in this study. [PMID:24974848](../papers/24974848.md)
+- KIT E562D (exon 11, canonical [GIST](../cancer_types/GIST.md) hotspot region) was identified as an activating oncogene mutation in metastatic cutaneous squamous cell carcinoma (n=29 lymph-node metastases); activating events across 12 oncogenes were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -54,34 +55,37 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:37350195](../papers/37350195.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

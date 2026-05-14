@@ -25,9 +25,10 @@ Primary liver cancer of hepatocellular origin.
 - Plasma-tissue concordance 92.5% in matched samples; 27% of paired samples harbored cfDNA-exclusive alterations, of which 40% were OncoKB actionable [PMID:37769223](../papers/37769223.md).
 - WNT-beta-catenin pathway altered in 45% and PI3K-AKT-mTOR pathway in 25% of HCC cfDNA cases; actionable [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) alterations in 18% [PMID:37769223](../papers/37769223.md).
 - Genomic review identified [TERT](../genes/TERT.md) promoter mutations, [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) as top recurrent alterations in HCC with Wnt and mTOR as key therapeutic pathways [PMID:22634756](../papers/22634756.md)
-- Narrative review cataloguing HCC driver genes (TERT promoter ~59%, TP53 ~30%, CTNNB1 ~30%); TERT promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials ([sorafenib](../drugs/sorafenib.md), [tivantinib](../drugs/tivantinib.md), [everolimus](../drugs/everolimus.md), [refametinib](../drugs/refametinib.md)) [PMID:24735922](../papers/24735922.md)
-- Comprehensive review (n=1,289 WES patients) identified TERT promoter mutation (54%), CTNNB1 (29%), and TP53 (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; sorafenib and [lenvatinib](../drugs/lenvatinib.md) are first-line standards with [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), and [ramucirumab](../drugs/ramucirumab.md) (AFP≥400 ng/ml) as approved second-line options [PMID:24798001](../papers/24798001.md)
+- Narrative review cataloguing HCC driver genes ([TERT](../genes/TERT.md) promoter ~59%, [TP53](../genes/TP53.md) ~30%, [CTNNB1](../genes/CTNNB1.md) ~30%); TERT promoter mutations are the earliest recurrent somatic alteration, present in ~25% of cirrhotic preneoplastic nodules; mTOR pathway disrupted in 40–50% of HCC; mapped alterations to targeted therapy trials ([sorafenib](../drugs/sorafenib.md), [tivantinib](../drugs/tivantinib.md), [everolimus](../drugs/everolimus.md), [refametinib](../drugs/refametinib.md)) [PMID:24735922](../papers/24735922.md)
+- Comprehensive review (n=1,289 WES patients) identified TERT promoter mutation (54%), CTNNB1 (29%), and TP53 (28%) as the most frequent somatic drivers; ~25% of HCCs harbour potentially targetable alterations; [sorafenib](../drugs/sorafenib.md) and [lenvatinib](../drugs/lenvatinib.md) are first-line standards with [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), and [ramucirumab](../drugs/ramucirumab.md) (AFP≥400 ng/ml) as approved second-line options [PMID:24798001](../papers/24798001.md)
 - Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near TERT, [MET](../genes/MET.md), [ALKBH5](../genes/ALKBH5.md), and [FAT2](../genes/FAT2.md) is a shared oncogenic mechanism across HBV-associated HCC and iCCA [PMID:25526346](../papers/25526346.md).
+- Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. [PMID:25608663](../papers/25608663.md)
 
 ## Subtypes
 
@@ -51,5 +52,8 @@ Primary liver cancer of hepatocellular origin.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

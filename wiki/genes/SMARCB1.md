@@ -4,7 +4,7 @@ aliases: [INI1, SNF5]
 cancer_types: [MNG, PAAD]
 tags: [swi-snf, tumor-suppressor, meningioma]
 processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_at: 2026-05-14
 ---
 
 # SMARCB1
@@ -18,6 +18,7 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 - SMARCB1 was assessed as a known meningioma driver gene in the mutational analysis of the four-group integrative molecular classification of meningiomas (n=121 discovery cohort) [PMID:34433969](../papers/34433969.md).
 - SMARCB1 alterations enriched in MAPK-WT PDAC (8% vs <1% in KRAS-mutant, P = 2.4 × 10⁻⁶) in a 2,336-patient MSK-IMPACT cohort; 3/4 SMARCB1-altered MAPK-WT tumors showed aggressive histology (poorly differentiated or high grade), though none met criteria for monomorphic anaplastic carcinoma. [PMID:39753968](../papers/39753968.md)
 - Homozygous deletion with complete loss of protein expression (IHC) in a myoepithelial carcinoma (MEC1); part of a chromoplexy event on Chr 22 [PMID:36577525](../papers/36577525.md)
+- Chromatin remodeler truncated or hit at COSMIC sites in metastatic cSCC; chromatin-remodeling inactivation present in 48% of cohort and associated with longer PFS in prognostic stratification [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 - [PMID:36577525](../papers/36577525.md)
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

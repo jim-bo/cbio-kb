@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # pembrolizumab
@@ -28,11 +28,13 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In MSK-CHORD [NSCLC](../cancer_types/NSCLC.md), PDL1+ vs PDL1− patients on immunotherapy had [OS](../cancer_types/OS.md) HR=0.64 (95% CI 0.54–0.77, P<0.001) in 754 patients, validating at scale the same magnitude seen in the smaller MSK-BPC cohort (HR=0.58, n=29). The PDL1 biomarker practice for pembrolizumab selection in [NSCLC](../cancer_types/NSCLC.md) was supported at population scale. [PMID:39506116](../papers/39506116.md)
 - MSI-H / dMMR tumors are the primary FDA tumor-agnostic indication for pembrolizumab; MiMSI (deep-learning MSI classifier) recovers cases that MSISensor miscalls due to low tumor purity (sensitivity 91.6% vs 86.1%), directly expanding the pool of pembrolizumab-eligible patients identified through routine NGS. [PMID:39746944](../papers/39746944.md)
 - In metastatic urothelial carcinoma (mUC), despite supplantation of platinum chemotherapy by [enfortumab-vedotin](../drugs/enfortumab-vedotin.md) + pembrolizumab as the first-line standard, gemcitabine/cisplatin remains relevant as second-line therapy after EV+pembrolizumab. Pretreatment cfDNA features ([PIK3CA](../genes/PIK3CA.md), [ERBB2](../genes/ERBB2.md), [TERT](../genes/TERT.md), ctDNA VAF) are positioned as prognostic biomarkers for patients receiving pembrolizumab-containing or chemotherapy regimens. [PMID:40256659](../papers/40256659.md)
-- In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and EZH2 inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
+- In a paired primary-metastasis WES/cfDNA study of bladder cancer (n=60), [ARID1A](../genes/ARID1A.md) mutations were identified as late-arising, metastasis-enriched alterations (28% metastatic vs 14% low-grade non-invasive) that may serve as biomarkers for immune checkpoint inhibitor (including pembrolizumab) sensitivity and [EZH2](../genes/EZH2.md) inhibitor sensitivity; direct pembrolizumab outcomes were not reported [PMID:36543146](../papers/36543146.md)
 - 9 of 12 metastatic gallbladder carcinoma patients receiving immune checkpoint inhibitors received pembrolizumab; 42% (5/12) showed evidence of response including 3 MSI-High, 1 MSS/TMB-high, and 1 MSS/TMB-low tumor [PMID:36228155](../papers/36228155.md)
 - Lenvatinib+pembrolizumab combination data were not available in the HiTME training cohorts; cited as a limitation for the ccRCC IO/TKI decision-tree model [PMID:22138691](../papers/22138691.md)
-- KEYNOTE-224 in HCC: pembrolizumab ORR 16.3% in 104 patients, median OS 12.9 months (second-line, post-sorafenib); FDA approved (tumour-agnostic) for MSI-H/dMMR HCC (~3% of HCCs); PD-L1 IHC does not predict response in HCC [PMID:24798001](../papers/24798001.md)
-- Investigational anti-PD-1 ICI for recurrent/metastatic NPC; listed among PD-1/PD-L1 antibodies under evaluation alongside toripalimab, penpulimab, sintilimab, and nivolumab; monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md)
+- KEYNOTE-224 in [HCC](../cancer_types/HCC.md): pembrolizumab ORR 16.3% in 104 patients, median [OS](../cancer_types/OS.md) 12.9 months (second-line, post-sorafenib); FDA approved (tumour-agnostic) for MSI-H/dMMR HCC (~3% of HCCs); PD-L1 IHC does not predict response in HCC [PMID:24798001](../papers/24798001.md)
+- Investigational anti-PD-1 ICI for recurrent/metastatic [NPC](../cancer_types/NPC.md); listed among PD-1/PD-L1 antibodies under evaluation alongside [toripalimab](../drugs/toripalimab.md), [penpulimab](../drugs/penpulimab.md), [sintilimab](../drugs/sintilimab.md), and [nivolumab](../drugs/nivolumab.md); monotherapy ORR approximately 15–20% in NPC [PMID:24952746](../papers/24952746.md)
+- Anti-PD-1 efficacy in biliary tract cancer (BTC) is noted to be modulated by gut microbiota composition; Bacteroidetes enrichment correlates with improved outcomes while Proteobacteria dominance reduces efficacy [PMID:25608663](../papers/25608663.md)
+- Nonsynonymous tumor mutation burden (TMB) predicted durable clinical benefit (DCB) on pembrolizumab in [NSCLC](../cancer_types/NSCLC.md) (median 302 vs 148 mutations in DCB vs NDB, Mann-Whitney P=0.02); a candidate cutoff of ≥178 nonsynonymous mutations distinguished responders with 73% DCB vs 13% in the discovery cohort [PMID:25765070](../papers/25765070.md)
 
 ## Resistance mechanisms
 
@@ -65,16 +67,22 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 - [PMID:36543146](../papers/36543146.md) — Sfakianos et al. 2023; [ARID1A](../genes/ARID1A.md) as metastasis-enriched alteration and potential ICI biomarker in bladder cancer.
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

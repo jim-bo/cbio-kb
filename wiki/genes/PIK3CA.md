@@ -77,19 +77,22 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Oncogenic Q546 (helical domain) and H1047 (kinase domain) hotspot mutations in rhabdomyosarcoma; frequency 7.4% in PFN tumors; two tumors had concurrent RAS + PIK3CA mutations indicating dual pathway activation [PMID:24436047](../papers/24436047.md)
 - Mutations in 20% of muscle-invasive bladder carcinomas, predominantly in the helical domain near E545; one of the most frequently mutated oncogenes in bladder cancer [PMID:24476821](../papers/24476821.md)
 - PIK3CA activating hotspot mutations (p.Glu545Lys, p.His1047Arg) found in spatially separated regions of ccRCC (EV005), demonstrating parallel evolution; PI3K-mTOR pathway mutation prevalence reaches 60% per case vs much lower per-biopsy estimates [PMID:24487277](../papers/24487277.md)
-- PIK3CA is mutated in [ESCC](../cancer_types/ESCC.md) as part of the canonical genomic landscape cited in a review of oral microbiome associations with ESCC [PMID:24670651](../papers/24670651.md)
+- PIK3CA is mutated in [ESCC](../cancer_types/ESCC.md) as part of the canonical genomic landscape cited in a review of oral microbiome associations with [ESCC](../cancer_types/ESCC.md) [PMID:24670651](../papers/24670651.md)
 - PIK3CA harbors activating mutations and amplification in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
 - PIK3CA is a PI3K/AKT pathway driver in [HCC](../cancer_types/HCC.md) identified by integrated genomic analysis [PMID:24735922](../papers/24735922.md)
-- PI3K/AKT pathway activation implicated in HCC; PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of [MET](../genes/MET.md) in the context of EGFR/MET resistance mechanisms [PMID:24798001](../papers/24798001.md)
+- PI3K/AKT pathway activation implicated in [HCC](../cancer_types/HCC.md); PIK3CA mutations contribute to the oncogenic signaling landscape, and the pathway is reactivated downstream of [MET](../genes/MET.md) in the context of EGFR/MET resistance mechanisms [PMID:24798001](../papers/24798001.md)
 - PIK3CA mutations in 80% of EBV-positive gastric tumors (mostly non-exon-20, dispersed) and 12% across the whole gastric cancer cohort; targetable via PI3-kinase inhibition [PMID:25079317](../papers/25079317.md)
 - PIK3CA mutations in 7% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); enriched in transversion-low tumors; drives mTOR pathway activation via p-AKT in subset [PMID:25079552](../papers/25079552.md)
 - PIK3CA recurrent activating helical-domain missense mutations in 21% of muscle-invasive bladder cancer ([BLCA](../cancer_types/BLCA.md), n=47 TURBT); associated with favorable recurrence-free and cancer-specific survival after radical cystectomy [PMID:25092538](../papers/25092538.md)
 - Convergent evolution with independent E542K and E545K hotspot mutations in primary vs metastasis; three additional private events including primary-specific E545K (x2) and metastasis-specific N107 in-frame deletion; subclonal PI3K heterogeneity is clinically relevant given active PI3K inhibitor development [PMID:25164765](../papers/25164765.md)
-- Hotspot activating mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; mutually exclusive with PIK3R1; co-occurs with [PTEN](../genes/PTEN.md); PI3K pathway hits in >50% of cases support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
+- Hotspot activating mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; mutually exclusive with [PIK3R1](../genes/PIK3R1.md); co-occurs with [PTEN](../genes/PTEN.md); PI3K pathway hits in >50% of cases support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
 - Mutated in 10% (4/39) of aggressive cSCC cases with 5 total mutations; no canonical E545/H1047 hotspot; 2 inactivating; not reaching significance as a driver in this cohort [PMID:25303977](../papers/25303977.md)
 - PIK3CA mutations overlap with BRAFV600E in the HotNet2 MAPK subnetwork in papillary thyroid carcinoma (PTC); PI3K/PPARγ pathway alterations (including PIK3CA) found in ~4.5% of PTCs. [PMID:25417114](../papers/25417114.md)
 - PIK3CA mutations in ~6% of intrahepatic cholangiocarcinoma (iCCA) and 3–7% of extrahepatic CCA (eCCA); approximately 6.8% in advanced cfDNA cohorts. [PMID:25526346](../papers/25526346.md)
 - PIK3CA p.E542K mutation detected in a multi-clonal gastric cancer (GC) case alongside [KRAS](../genes/KRAS.md) p.G13D and [BRCA2](../genes/BRCA2.md) mutations in separate clones, illustrating intratumor heterogeneity of PI3K-ERBB pathway alterations. [PMID:25583476](../papers/25583476.md)
+- Classic CRC driver included in comparison analysis in an African American vs. Caucasian CRC cohort; mutation frequency not highlighted as AA-specific [PMID:25583493](../papers/25583493.md)
+- P471L activating mutation observed in cutaneous SCC (cSCC); recurrence between this cohort and a prior 11-tumor cSCC NGS cohort suggests a functional role; high-level amplification absent in cSCC (unlike lung SCC) [PMID:25589618](../papers/25589618.md)
+- Mutated in 21% of HNSCC (56% in HPV(+), 34% in HPV(−)); 73% of mutations at hotspots E542K/E545K/H1047R/L; helical-domain enriched in HPV(+); often co-amplified; component of RTK/RAS/PI(3)K pathway altered in 61–62% of tumours [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -306,5 +309,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

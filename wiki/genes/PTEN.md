@@ -68,17 +68,19 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous deletion in RMS2117 rhabdomyosarcoma sample; loss of PTEN activates the PI3K/AKT axis, a recurrent oncogenic mechanism in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 - PTEN parallel evolution previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
 - PTEN harbors inactivating mutations in [ESCC](../cancer_types/ESCC.md), contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
-- PTEN loss contributes to PI3K/AKT pathway hyperactivation in [HCC](../cancer_types/HCC.md); part of the oncogenic signaling landscape analyzed in the HCC precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
+- PTEN loss contributes to PI3K/AKT pathway hyperactivation in [HCC](../cancer_types/HCC.md); part of the oncogenic signaling landscape analyzed in the [HCC](../cancer_types/HCC.md) precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
 - PTEN focal copy number loss in prostate cancer; independently associated with biochemical recurrence (HR=3.04, P=0.001) but CNA burden remains prognostic after adjusting for it [PMID:25024180](../papers/25024180.md)
 - PTEN PI3K pathway loss in gastric cancer ([EGC](../cancer_types/EGC.md)); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
 - PTEN recurrent mutations in 6% of muscle-invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)); part of PI3K/AKT pathway alterations [PMID:25092538](../papers/25092538.md)
 - Nonsilent somatic mutation in 6/66 (9%) plus 2 homozygous deletions in ChRCC; MutSig q<0.1; germline PTEN mutations underlie Cowden syndrome predisposing to ChRCC [PMID:25155756](../papers/25155756.md)
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; PI3K-pathway heterogeneity clinically relevant given active PI3K inhibitor development and evidence [PIK3CA](../genes/PIK3CA.md) mutations may predict [aspirin](../drugs/aspirin.md) benefit [PMID:25164765](../papers/25164765.md)
 - Homozygous deletion of gene or promoter in 6/7 patient-derived CRPC organoid lines; biallelic loss in all CRPC lines; near-universal loss supports prioritizing PTEN/PI3K-pathway-directed therapy in CRPC [PMID:25201530](../papers/25201530.md)
-- Missense/nonsense/frameshift mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; co-occurs with PIK3CA; PI3K pathway hits support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
+- Missense/nonsense/frameshift mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; co-occurs with [PIK3CA](../genes/PIK3CA.md); PI3K pathway hits support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
 - Significantly mutated in chromophobe renal cell carcinoma (chRCC) in a non-clear-cell RCC (nccRCC) multisubtype WES study [PMID:25401301](../papers/25401301.md)
 - PTEN focal deletions in 2 PTC tumors; 5 tumors showed PTEN loss through 10q23.31 deletions; PI3K/PPARγ pathway alterations including PTEN, AKT1/2, and PAX8/PPARG fusions found in 4.5% (18/402) of PTCs. [PMID:25417114](../papers/25417114.md)
 - PTEN identified as a driver gene in HBV-associated intrahepatic cholangiocarcinoma (iCCA) cohort; loss contributes to PI3K/AKT pathway dysregulation in CCA. [PMID:25526346](../papers/25526346.md)
+- PI3K/RAS negative regulator with inactivating events in 1–3 of 29 metastatic cSCC samples; component of the mTOR-dependent alteration axis associated with shorter PFS [PMID:25589618](../papers/25589618.md)
+- Mutated/altered in 2% of HNSCC; component of RTK/RAS/PI(3)K pathway altered in 62% of HPV(−) and 61% of HPV(+) tumours [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -274,5 +276,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: SMAD4
 aliases: [DPC4]
 cancer_types: [STAD, IHCH, EHCH]
 tags: [tgf-beta-signaling, tumor-suppressor, gi-cancers, cholangiocarcinoma]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -20,6 +20,9 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - Metastasis-specific event in patient 3 of a primary-metastasis matched CRC cohort; loss of SMAD4 in the metastasis alongside a [SMAD3](../genes/SMAD3.md) missense mutation suggests branch evolution selecting for TGF-beta pathway disruption at the metastatic site [PMID:25164765](../papers/25164765.md)
 - SMAD4 mutations in ~4% of intrahepatic CCA (iCCA) vs. ~25% of extrahepatic CCA (eCCA); SMAD4 loss is associated with poor prognosis after resection of eCCA. [PMID:25526346](../papers/25526346.md)
 - SMAD4 is a recurrently mutated driver in gastric cancer (GC), participating in TGF-β and Wnt pathways; SMAD4-mutant subclones were identified as potential therapeutic targets (DGIdb) in multi-clonal GC cases in the Tianjin Chinese cohort. [PMID:25583476](../papers/25583476.md)
+- Classic CRC driver included in comparison analysis in an African American vs. Caucasian CRC cohort; mutation frequency not highlighted as AA-specific [PMID:25583493](../papers/25583493.md)
+- COSMIC mutations in 2/29 (7%) metastatic cSCC samples; one sample with SMAD4 nonsense was the lone TP53/NOTCH/oncogene-wild-type case [PMID:25589618](../papers/25589618.md)
+- Focal deletions in the HPV(−) tumor-suppressor gene set in HNSCC (n=279 TCGA cohort) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +57,12 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

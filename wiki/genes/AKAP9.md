@@ -15,7 +15,7 @@ AKAP9 (A-Kinase Anchoring Protein 9) encodes a scaffolding protein that organize
 
 ## Alterations observed in the corpus
 
-- Mutation/amplification identified in Pt2 of a multi-region WGS gastric cancer case study; associated with [SETBP1](../genes/SETBP1.md) p.S944N mutation and [CDK6](../genes/CDK6.md) amplification in the same tumor; SETBP1 mutation matches the recurrent myeloid-malignancy site [PMID:25583476](../papers/25583476.md)
+- Mutation/amplification identified in Pt2 of a multi-region WGS gastric cancer case study; associated with [SETBP1](../genes/SETBP1.md) p.S944N mutation and [CDK6](../genes/CDK6.md) amplification in the same tumor; [SETBP1](../genes/SETBP1.md) mutation matches the recurrent myeloid-malignancy site [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ AKAP9 (A-Kinase Anchoring Protein 9) encodes a scaffolding protein that organize
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with SETBP1 p.S944N and CDK6 amplification in a gastric cancer patient (Pt2) with multi-region sampling [PMID:25583476](../papers/25583476.md)
+- Co-occurs with SETBP1 p.S944N and [CDK6](../genes/CDK6.md) amplification in a gastric cancer patient (Pt2) with multi-region sampling [PMID:25583476](../papers/25583476.md)
 
 ## Therapeutic relevance
 

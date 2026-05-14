@@ -32,7 +32,7 @@ RBPMS (RNA Binding Protein, mRNA Processing Factor) is an RNA-binding protein in
 
 ## Therapeutic relevance
 
-- NTRK3 fusions (including RBPMS/NTRK3) are potentially targetable with NTRK inhibitors ([entrectinib](../drugs/entrectinib.md), [larotrectinib](../drugs/larotrectinib.md)), which have demonstrated activity against TRK fusion-positive cancers including thyroid carcinomas. Specific RBPMS/NTRK3 data in thyroid cancer are limited to identification in this study. [PMID:25417114](../papers/25417114.md)
+- [NTRK3](../genes/NTRK3.md) fusions (including RBPMS/NTRK3) are potentially targetable with NTRK inhibitors ([entrectinib](../drugs/entrectinib.md), [larotrectinib](../drugs/larotrectinib.md)), which have demonstrated activity against TRK fusion-positive cancers including thyroid carcinomas. Specific RBPMS/NTRK3 data in thyroid cancer are limited to identification in this study. [PMID:25417114](../papers/25417114.md)
 
 ## Open questions
 

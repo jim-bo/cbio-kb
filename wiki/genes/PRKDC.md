@@ -3,8 +3,8 @@ symbol: PRKDC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PRKDC
@@ -21,6 +21,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - PRKDC identified as a DNA damage repair gene with non-silent variants in metastatic UC (UC-GENOME cohort) [PMID:36333289](../papers/36333289.md)
 - Frameshift (I1137fs) and nonsense (E640*) mutations identified in an aggressive localized prostate cancer case (Michigan WES, 112 tumors); DNA damage response gene [PMID:22722839](../papers/22722839.md)
 - DNA-PKcs (PRKDC) activation is preserved in EWS::FLI1-expressing heMSCs despite basal hyperphosphorylation of ATM/ATR and failure of etoposide-induced DDR signaling [PMID:25186949](../papers/25186949.md)
+- Nonsense mutations observed in [NSCLC](../cancer_types/NSCLC.md) tumors from pembrolizumab-treated patients; required for DNA-dependent protein kinase (DNA-PK) activity and genomic integrity [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,19 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG]
 tags: [rna-polymerase, transcription, meningioma]
 processed_by: crosslinker
-processed_at: 2026-04-11
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -18,6 +18,7 @@ POLR2A encodes the largest subunit of RNA polymerase II, the enzyme responsible 
 ## Alterations observed in the corpus
 
 - POLR2A point mutations are exclusive to the MG2 (benign NF2-wildtype) molecular group of meningiomas, occurring in 6% of MG2 tumors; they are not observed in NF2-mutant meningioma groups [PMID:34433969](../papers/34433969.md).
+- Harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a [pembrolizumab](../drugs/pembrolizumab.md) [NSCLC](../cancer_types/NSCLC.md) cohort; association not corrected for overall mutation burden and requires independent validation [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ POLR2A encodes the largest subunit of RNA polymerase II, the enzyme responsible 
 
 - [PMID:34433969](../papers/34433969.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

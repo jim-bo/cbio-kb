@@ -3,7 +3,7 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -36,6 +36,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 kinase-activating mutations in 12% of muscle-invasive bladder cancers at canonical hotspots; recurrent in-frame FGFR3-TACC3 fusions (n=3); copy-number gain; enriched in mRNA cluster I (papillary-like); tumors with FGFR3 mutations, gains, or fusions may respond to FGFR inhibitors [PMID:24476821](../papers/24476821.md)
 - FGFR3 K650E mutation detected in the OPM2 multiple myeloma cell line used as BRAF-WT control in MAPK inhibitor assays [PMID:24434212](../papers/24434212.md)
 - Listed as a gene observed in the TCGA papillary thyroid carcinoma (PTC) cohort ([thca_tcga_pub](../datasets/thca_tcga_pub.md)); specific alteration details not described in the narrative sections of this paper. [PMID:25417114](../papers/25417114.md)
+- G380R transmembrane-domain mutation (constitutively active, the achondroplasia allele) identified as an oncogenic activating event in cSCC [PMID:25589618](../papers/25589618.md)
+- Amplification in 2% HPV(-) vs 11% HPV(+) HNSCC; FGFR3-TACC3 fusions in 2 HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -109,3 +111,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -6,20 +6,21 @@ tags:
   - pharmacogenomics
   - met-pathway
   - drug-sensitivity-predictor
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # HGF
 
 ## Overview
 
-HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) receptor tyrosine kinase and a key regulator of cell growth, motility, and morphogenesis. In cancer pharmacogenomics, HGF expression level is a predictor of sensitivity to MET/ALK inhibitors, establishing it as a biomarker alongside MET amplification.
+HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) receptor tyrosine kinase and a key regulator of cell growth, motility, and morphogenesis. In cancer pharmacogenomics, HGF expression level is a predictor of sensitivity to MET/ALK inhibitors, establishing it as a biomarker alongside [MET](../genes/MET.md) amplification.
 
 ## Alterations observed in the corpus
 
 - HGF expression predicts sensitivity to PF-2341066 (crizotinib/MET-ALK inhibitor) across 947 cancer cell lines in the CCLE pharmacogenomic profiling study [PMID:22460905](../papers/22460905.md)
-- HGF overexpression is associated with poor prognosis and sorafenib resistance in HCC; tivantinib failed in MET-high HCC (mechanism may be MET-independent); low plasma HGF showed a non-significant trend toward greater sorafenib benefit in the SHARP biomarker substudy. [PMID:24798001](../papers/24798001.md)
+- HGF overexpression is associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high HCC (mechanism may be MET-independent); low plasma HGF showed a non-significant trend toward greater sorafenib benefit in the SHARP biomarker substudy. [PMID:24798001](../papers/24798001.md)
+- E199K activating mutation recurred between the cSCC NGS cohort and a prior 11-tumor cSCC study, suggesting a functional role [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -35,13 +36,16 @@ HGF (hepatocyte growth factor) is the ligand for the [MET](../genes/MET.md) rece
 
 ## Open questions
 
-- Whether HGF autocrine/paracrine signalling independently predicts crizotinib sensitivity in the absence of MET amplification in specific tumor lineages requires further characterisation.
+- Whether HGF autocrine/paracrine signalling independently predicts [crizotinib](../drugs/crizotinib.md) sensitivity in the absence of MET amplification in specific tumor lineages requires further characterisation.
 
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

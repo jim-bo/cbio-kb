@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -22,7 +22,7 @@ Head and neck squamous cell carcinoma (HNSC) encompasses squamous cell carcinoma
 - CAL-27 and SCC-25 ([EGFR](../genes/EGFR.md)+, HNSC cell lines); SCC-35, SCC-61, SQ-9G (HNSC, [EGFR](../genes/EGFR.md)+): preclinical ADC radiosensitization study. [PMID:27698471](../papers/27698471.md)
 - Aerts 2014 foundational CT [radiomics](../methods/radiomics.md) study included two HN cohorts: HN1 (n=136, MAASTRO Clinic, oropharyngeal/oral cavity) and HN2 (n=95, VUmc Amsterdam, HNSCC), with the 4-feature radiomic signature validated for overall survival prediction in these cohorts [PMID:24892406](../papers/24892406.md).
 - Grossberg 2018 published the MD Anderson Head and Neck Quantitative Imaging Working Group archive (n=697 HNSCC patients) pairing pre-treatment CT/PET imaging with clinical outcomes, enabling [radiomics](../methods/radiomics.md) and dose-response analyses [PMID:30179230](../papers/30179230.md).
-- Welch 2024 published RADCURE, a large multi-institutional HNSCC imaging dataset (n=3,346 patients from Princess Margaret Cancer Centre) with CT scans and clinical outcome data for radiomics model development and benchmarking [PMID:38362943](../papers/38362943.md).
+- Welch 2024 published RADCURE, a large multi-institutional HNSCC imaging dataset (n=3,346 patients from Princess Margaret Cancer Centre) with CT scans and clinical outcome data for [radiomics](../methods/radiomics.md) model development and benchmarking [PMID:38362943](../papers/38362943.md).
 - [RADCURE](../datasets/radcure.md) internal-challenge cohort (Princess Margaret Cancer Centre, 2005–2017): 2,552 HNSC patients treated with definitive radiotherapy/chemoradiotherapy; training set n=1,802, held-out test n=750. Three external validation cohorts totaling 873 patients: HN1 (n=137, MAASTRO), MDACC / [tcia-hnscc](../datasets/tcia-hnscc.md) (n=627, MD Anderson), GPCCHN / [gpcchn-poznan](../datasets/gpcchn-poznan.md) (n=298, Greater Poland Cancer Centre). Primary task: 2-year [OS](../cancer_types/OS.md) from pretreatment CT + EMR. [PMID:37397861](../papers/37397861.md)
 
 ## Recurrent alterations
@@ -33,13 +33,14 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - PD1+Ki67+[CD4](../genes/CD4.md)+ T-cell expansion of ≥1.5-fold from baseline to week 2–4 of treatment was associated with shorter progression-free survival under intensity-modulated re-irradiation + PD-1 blockade. [PMID:41941260](../papers/41941260.md)
 - [CD274](../genes/CD274.md) (PD-L1) CPS <20 vs. ≥20 (22C3 pharmDx IHC) did not predict PFS or [OS](../cancer_types/OS.md) benefit in the reirradiation + [nivolumab](../drugs/nivolumab.md) context (68.8% vs. 59.2% 1-year PFS, P=.86), unlike in recurrent/metastatic HNSCC with single-agent PD-1 blockade. [PMID:38780927](../papers/38780927.md)
 - [EGFR](../genes/EGFR.md) surface expression (not mutation status) gates C-MMAE binding and radiosensitization in HNSC cell lines (CAL-27, SCC-61, SCC-35, SQ-9G). [PMID:27698471](../papers/27698471.md)
-- Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year OS prediction (winning MTLR model AUROC = 0.823 on internal test). [PMID:37397861](../papers/37397861.md)
+- Prognostic modeling study (RADCURE challenge): no gene-level alteration frequencies reported; HPV status used as a categorical EMR feature (positive / negative / not tested) rather than a molecular endpoint. EMR features including HPV status outperformed all CT-radiomics models for 2-year [OS](../cancer_types/OS.md) prediction (winning MTLR model AUROC = 0.823 on internal test). [PMID:37397861](../papers/37397861.md)
 - HNSC genomic data made available through the cBioPortal for Cancer Genomics platform, enabling interactive exploration of somatic alterations [PMID:19176454](../papers/19176454.md)
-- Whole-exome sequencing of 74 HNSCC tumors identified [NOTCH1](../genes/NOTCH1.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md) as top drivers, with NOTCH1 mutated in ~15% of cases [PMID:21798893](../papers/21798893.md)
+- Whole-exome sequencing of 74 HNSCC tumors identified [NOTCH1](../genes/NOTCH1.md), [TP53](../genes/TP53.md), and [CDKN2A](../genes/CDKN2A.md) as top drivers, with [NOTCH1](../genes/NOTCH1.md) mutated in ~15% of cases [PMID:21798893](../papers/21798893.md)
 - Whole-exome sequencing of 32 primary HNSCC tumors (JHU) identified recurrent NOTCH1 inactivating mutations as a major driver event [PMID:21798897](../papers/21798897.md)
-- Multi-platform genomic analysis of 40 OSCC (an HNSC subtype) identified four major driver pathways (mitogenic signaling 63%, Notch 66%, cell cycle 94%, TP53 60%), novel [FAT1](../genes/FAT1.md) inactivation in 46% and [CASP8](../genes/CASP8.md) mutations in 10% defining a CN-quiet subtype; 80% of tumors harbored at least one targetable alteration [PMID:23619168](../papers/23619168.md)
-- RHOA E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:24816253](../papers/24816253.md)
-- Narrative review of R/M NPC therapeutics notes EGFR overexpression in a substantial fraction of NPC (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:24952746](../papers/24952746.md)
+- Multi-platform genomic analysis of 40 OSCC (an HNSC subtype) identified four major driver pathways (mitogenic signaling 63%, Notch 66%, cell cycle 94%, [TP53](../genes/TP53.md) 60%), novel [FAT1](../genes/FAT1.md) inactivation in 46% and [CASP8](../genes/CASP8.md) mutations in 10% defining a CN-quiet subtype; 80% of tumors harbored at least one targetable alteration [PMID:23619168](../papers/23619168.md)
+- [RHOA](../genes/RHOA.md) E40Q fails to complement yeast RHO1 (no viable colonies on 5-FOA) and recurs in solid tumours including head-and-neck squamous cell carcinoma [PMID:24816253](../papers/24816253.md)
+- Narrative review of R/M [NPC](../cancer_types/NPC.md) therapeutics notes [EGFR](../genes/EGFR.md) overexpression in a substantial fraction of NPC (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:24952746](../papers/24952746.md)
+- TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with [TRAF3](../genes/TRAF3.md) loss (14%), [PIK3CA](../genes/PIK3CA.md) helical-domain mutations (56%), and [E2F1](../genes/E2F1.md) amplification; HPV(−) tumours with [TP53](../genes/TP53.md) mutation (86%), [CDKN2A](../genes/CDKN2A.md) loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q<0.1); candidate therapeutic alterations present in most tumours. [PMID:25631445](../papers/25631445.md)
 
 ## Subtypes
 
@@ -52,7 +53,7 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 
 - ROBIN GenRad center (U54 CA274513; Cleveland Clinic and Emory University) tested intensity-modulated re-irradiation + PD-1 inhibition in recurrent or second-primary HNSC (NCT03521570): the combination was tolerable and effective in a subset of patients; shorter PFS was associated with a ≥1.5-fold increase in PD1+Ki67+[CD4](../genes/CD4.md)+ T cells at week 2–4, identifying a candidate resistance biomarker. [PMID:41941260](../papers/41941260.md)
 - Javelin HN100 expansion cohort analysis (chemoradiation ± [avelumab](../drugs/avelumab.md)) identified intratumoral bacteria as a major resistance mechanism to chemoradiation-immunotherapy in HNSC — flagged as a potentially druggable axis. [PMID:41941260](../papers/41941260.md)
-- GenRad is leveraging longitudinal genomics and proteomic data from HNSCC MCT patients to characterize transcriptional dynamics and temporal reprogramming during RT + cisplatin vs. RT + ICI treatment to identify biomarkers of sensitivity and resistance. [PMID:41941260](../papers/41941260.md)
+- GenRad is leveraging longitudinal genomics and proteomic data from HNSCC MCT patients to characterize transcriptional dynamics and temporal reprogramming during RT + [cisplatin](../drugs/cisplatin.md) vs. RT + ICI treatment to identify biomarkers of sensitivity and resistance. [PMID:41941260](../papers/41941260.md)
 - IMRT-based reirradiation + concurrent/maintenance [nivolumab](../drugs/nivolumab.md) in recurrent/second-primary HNSC (NCT03521570): 1-year PFS 61.7% (95% CI 49.2%–77.4%, 1-arm log-rank P=.002 vs. historical null of 43.8%), median PFS 20.7 months, median OS 21 months (2-year OS 48.4%). Grade ≥3 treatment-related adverse events in 11.8%; no grade 5 events. FACT-G/FACT-H&N quality-of-life scores stable through 104 weeks. [PMID:38780927](../papers/38780927.md)
 - In HNSC xenograft (CAL-27, EGFR+), C-MMAE ([cetuximab](../drugs/cetuximab.md)–MMAE ADC) + IR produced significantly greater tumor-growth delay than free MMAE or [cetuximab](../drugs/cetuximab.md) alone (P<0.0001 by day 35), establishing EGFR-directed ADC radiosensitization as a selective strategy. [PMID:27698471](../papers/27698471.md)
 - RADCURE crowdsourced ML challenge (Princess Margaret): multitask logistic regression ([MTLR](../methods/mtlr.md)) on EMR features + primary tumor volume was the top prognostic model for 2-year OS (AUROC 0.823, C-index 0.801, HR 8.64 for high- vs. low-risk groups). Deep-learning CT radiomics did not improve over EMR-only models when combined; standalone CT radiomics did not outperform any EMR model. External generalizability was limited (performance drop in 2 of 3 external cohorts), with distribution shift in HPV status and disease site as primary drivers. [PMID:37397861](../papers/37397861.md)
@@ -72,10 +73,13 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:21798897](../papers/21798897.md)
 - [PMID:23619168](../papers/23619168.md) — Pickering et al. Integrative genomic characterization of oral squamous cell carcinoma identifies frequent somatic drivers. *Cancer Discov* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816253](../papers/24816253.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

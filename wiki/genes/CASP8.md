@@ -7,8 +7,8 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CASP8
@@ -23,6 +23,7 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 - CASP8 mutations identified in breast cancer WES of 100 tumors, implicating apoptotic pathway disruption in breast tumorigenesis [PMID:22722201](../papers/22722201.md)
 - Mutated in 10% (4/40) of oral squamous cell carcinoma (OSCC); nonsense/splice/frameshift mutations consistent with loss-of-function; defines a molecular subtype with fewer CNAs and co-occurring [HRAS](../genes/HRAS.md) mutations; CASP8 loss promotes aggressive xenograft phenotype [PMID:23619168](../papers/23619168.md)
 - Mutated in 23.1% of cSCC (differentiation-related); significant driver in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
+- Clustered missense and inactivating mutations in 9% of HNSCC (279-tumor TCGA cohort; 92% of mutations in oral cavity); anti-correlated with 11q13 amplification; co-mutated with [HRAS](../genes/HRAS.md) in M-class oral-cavity subset [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -45,13 +46,16 @@ CASP8 (Caspase-8) is a key initiator caspase in the extrinsic apoptosis pathway,
 
 - [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

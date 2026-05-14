@@ -4,8 +4,8 @@ oncotree_code: CSCC
 main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Cutaneous Squamous Cell Carcinoma (CSCC)
@@ -26,7 +26,8 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [TERT](../genes/TERT.md) — promoter gain-of-function mutations emerging in AK (trunk events), upregulating telomerase. [PMID:39091884](../papers/39091884.md)
 - [ARID2](../genes/ARID2.md) — loss-of-function mutations enriched specifically at the AK-to-cSCC transition; SWI/SNF chromatin remodeling complex disruption. [PMID:39091884](../papers/39091884.md)
 - [NOTCH2](../genes/NOTCH2.md) — loss-of-function in AK; secondary hits to Notch pathway on phylogenetic branches. [PMID:39091884](../papers/39091884.md)
-- WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including TP53 (95%), NOTCH1 (59%), NOTCH2 (51%), FAT1 (44%), CDKN2A (44%), KMT2C (39%); KMT2C mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
+- WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including [TP53](../genes/TP53.md) (95%), [NOTCH1](../genes/NOTCH1.md) (59%), [NOTCH2](../genes/NOTCH2.md) (51%), [FAT1](../genes/FAT1.md) (44%), [CDKN2A](../genes/CDKN2A.md) (44%), [KMT2C](../genes/KMT2C.md) (39%); KMT2C mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
+- Targeted sequencing of 504 cancer-associated genes on 29 lymph-node metastases from HPV-negative CSCC identified high UV mutational burden (~33 mut/Mb), recurrent [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), [NOTCH1](../genes/NOTCH1.md)/2/4 inactivation, and activating RAS/RTK/PI3K events (38%); RAS/RTK/PI3K + chromatin-remodeling co-mutation was the strongest predictor of shorter PFS. [PMID:25589618](../papers/25589618.md)
 
 ## Subtypes
 
@@ -42,7 +43,10 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

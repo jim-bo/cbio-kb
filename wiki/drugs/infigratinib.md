@@ -19,7 +19,7 @@ Selective FGFR1/2/3 tyrosine kinase inhibitor referenced as a comparator FGFR-ta
 
 - Referenced in the MSK FGFR3-altered urothelial carcinoma study as the context for a prior cfDNA-based resistance study in urothelial carcinoma treated with FGFR inhibitors; motivates the serial cfDNA profiling approach applied here to [erdafitinib](./erdafitinib.md) ([PMID:37682528](../papers/37682528.md)).
 - In a PDTO functional screen of 92 sarcoma specimens, SARC0133 ([RMS](../cancer_types/RMS.md)) was the top responder to infigratinib; WGS revealed an [FGFR1](../genes/FGFR1.md) gain on chromosome 8, but PDTOs were not sensitive to [dovitinib](../drugs/dovitinib.md), demonstrating intra-class drug differentiation among FGFR inhibitors [PMID:39305899](../papers/39305899.md).
-- [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA: phase III trial was negative vs. [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) but showed consistent 37.9% ORR; secondary on-target FGFR2 kinase-domain resistance mutations (N550, V565) emerge in ~60% of patients on reversible inhibitors [PMID:25526346](../papers/25526346.md)
+- [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA: phase III trial was negative vs. [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) but showed consistent 37.9% ORR; secondary on-target [FGFR2](../genes/FGFR2.md) kinase-domain resistance mutations (N550, V565) emerge in ~60% of patients on reversible inhibitors [PMID:25526346](../papers/25526346.md)
 
 ## Resistance mechanisms
 

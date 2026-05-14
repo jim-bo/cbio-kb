@@ -1,10 +1,10 @@
 ---
 symbol: MSH2
 aliases: []
-cancer_types: [UCEC, PRAD, PITU, GYNEC, GB]
+cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MSH2
@@ -23,7 +23,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MMR gene alterations ([MLH1](../genes/MLH1.md), MSH2, [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md)) identified as Lynch syndrome in 17/2,336 PDAC patients (0.7%); 6/17 were MSI-H. [PMID:39753968](../papers/39753968.md)
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Biallelic somatic mutation in ACINAR01 (MSI-H pancreatic acinar cell carcinoma), with >90% of sequenced tags mutated; clear causal driver of microsatellite instability in this tumor [PMID:24293293](../papers/24293293.md)
-- Germline loss-of-function confers Lynch syndrome gastric cancer risk; standard multigene panel for familial gastric cancer includes MSH2 alongside MLH1, MSH6, PMS2, and EPCAM [PMID:24816255](../papers/24816255.md)
+- Germline loss-of-function confers Lynch syndrome gastric cancer risk; standard multigene panel for familial gastric cancer includes MSH2 alongside [MLH1](../genes/MLH1.md), [MSH6](../genes/MSH6.md), [PMS2](../genes/PMS2.md), and [EPCAM](../genes/EPCAM.md) [PMID:24816255](../papers/24816255.md)
+- MSH2 deleterious mutation identified in one of the three [NSCLC](../cancer_types/NSCLC.md) patients with the highest mutation burden who achieved durable clinical benefit on [pembrolizumab](../drugs/pembrolizumab.md), consistent with mismatch-repair-driven hypermutation; MSH2 loss identified as a DNA repair mechanism elevating TMB and PD-1 response. [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
@@ -55,13 +56,16 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-02**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

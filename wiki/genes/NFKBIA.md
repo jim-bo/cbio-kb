@@ -1,10 +1,10 @@
 ---
 symbol: NFKBIA
 aliases: [IkBα]
-cancer_types: []
+cancer_types: [CSCC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # NFKBIA
@@ -16,6 +16,7 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 ## Alterations observed in the corpus
 
 - NFKBIA somatic mutations were identified in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors (Broad cohort), implicating NF-kB pathway dysregulation as a recurrent oncogenic mechanism [PMID:22343534](../papers/22343534.md)
+- NFKBIA copy-number gain (amplification) identified in recurrent GISTIC peaks in metastatic cSCC (n=29). [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +28,7 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 
 ## Therapeutic relevance
 
-- NF-kB pathway (including NFKBIA loss and MYD88 gain-of-function) was highlighted as a targetable pathway in DLBCL [PMID:22343534](../papers/22343534.md)
+- NF-kB pathway (including NFKBIA loss and [MYD88](../genes/MYD88.md) gain-of-function) was highlighted as a targetable pathway in DLBCL [PMID:22343534](../papers/22343534.md)
 
 ## Open questions
 
@@ -37,4 +38,7 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

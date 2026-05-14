@@ -24,7 +24,7 @@ PAX8 (Paired Box 8) encodes a transcription factor critical for renal and thyroi
 
 ## Co-occurrence and mutual exclusivity
 
-- PAX8 activity cooperates with HIF2A ([EPAS1](../genes/EPAS1.md)) downstream of [VHL](../genes/VHL.md) loss to upregulate CCND1 in ccRCC [PMID:23797736](../papers/23797736.md)
+- PAX8 activity cooperates with HIF2A ([EPAS1](../genes/EPAS1.md)) downstream of [VHL](../genes/VHL.md) loss to upregulate [CCND1](../genes/CCND1.md) in ccRCC [PMID:23797736](../papers/23797736.md)
 
 ## Therapeutic relevance
 

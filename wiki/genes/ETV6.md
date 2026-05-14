@@ -38,7 +38,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 ## Open questions
 
-- Whether other [NTRK3](../genes/NTRK3.md) fusion partners (not ETV6) might explain rare PDTO larotrectinib resistance in IFS-like tumors was not investigated in this case.
+- Whether other [NTRK3](../genes/NTRK3.md) fusion partners (not ETV6) might explain rare PDTO [larotrectinib](../drugs/larotrectinib.md) resistance in IFS-like tumors was not investigated in this case.
 
 ## Sources
 

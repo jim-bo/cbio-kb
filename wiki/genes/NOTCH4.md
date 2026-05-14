@@ -1,0 +1,40 @@
+---
+symbol: NOTCH4
+aliases: []
+cancer_types: [CSCC]
+tags: []
+processed_by: crosslinker
+processed_at: 2026-05-14
+---
+
+# NOTCH4
+
+## Overview
+
+NOTCH4 is one of four mammalian NOTCH receptors, members of the evolutionarily conserved NOTCH signaling pathway governing cell fate, differentiation, and proliferation. In squamous epithelium, NOTCH signaling promotes differentiation; loss-of-function NOTCH mutations are therefore associated with squamous cell carcinomas across multiple anatomical sites.
+
+## Alterations observed in the corpus
+
+- NOTCH4 inactivated as part of the NOTCH1/2/4 inactivation pattern in metastatic cSCC: 24% of samples (7/29) with truncating or COSMIC-annotated mutations, rising to 69% if all nonsynonymous SNVs of unknown significance are included. Truncating NOTCH and [EP300](../genes/EP300.md) events are mutually exclusive across samples. [PMID:25589618](../papers/25589618.md)
+
+## Cancer types (linked)
+
+- **[CSCC](../cancer_types/CSCC.md)**: NOTCH4 inactivation is part of the broad NOTCH pathway loss of function in cutaneous SCC; squamous differentiation alterations ([TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [TP63](../genes/TP63.md), NOTCH1/2) did not correlate independently with prognosis in metastatic cSCC (n=29). [PMID:25589618](../papers/25589618.md)
+
+## Co-occurrence and mutual exclusivity
+
+- Mutually exclusive with EP300 truncating mutations across metastatic cSCC samples; co-occurs with [NOTCH1](../genes/NOTCH1.md) and [NOTCH2](../genes/NOTCH2.md) inactivation as convergent loss of NOTCH pathway function. [PMID:25589618](../papers/25589618.md)
+
+## Therapeutic relevance
+
+- No therapeutic associations reported; NOTCH pathway alterations in cSCC do not independently predict prognosis in this cohort. [PMID:25589618](../papers/25589618.md)
+
+## Open questions
+
+- Whether NOTCH4 loss contributes independently to metastatic cSCC phenotype or is functionally redundant with NOTCH1/2 inactivation is unresolved. [PMID:25589618](../papers/25589618.md)
+
+## Sources
+
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -15,7 +15,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 
 ## Alterations observed in the corpus
 
-- RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic NPC. [PMID:24952746](../papers/24952746.md)
+- RET is listed among genes targeted by multi-kinase inhibitors under investigation in recurrent/metastatic [NPC](../cancer_types/NPC.md). [PMID:24952746](../papers/24952746.md)
 - Fusions in 2/230 (0.9%) [LUAD](../cancer_types/LUAD.md) cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴ for fusion enrichment in TL). [PMID:25079552](../papers/25079552.md)
 - RET fusions in 6.8% (33/484) of PTCs; most fusions weakly BVL (BRAFV600E-like expression score); 4 novel kinase-domain-preserving RET fusion partners discovered; mutually exclusive with BRAF/RAS/EIF1AX point mutations (Fisher's exact p=4.9×10⁻⁴³). [PMID:25417114](../papers/25417114.md)
 

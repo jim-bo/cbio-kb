@@ -165,6 +165,16 @@
 - method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition
 - method: radiomics — observed in PMID:38362943 — note: quantitative imaging feature extraction; downstream use case for RADCURE
 - method: dicom-rt-struct — observed in PMID:38362943 — note: DICOM RT-STRUCT format for organ-at-risk and target contours
+- drug: obeticholic-acid — observed in PMID:25608663 — note: FXR agonist (OCA/INT-747); suppresses CCA proliferation via NR1H4-SHP-STAT3 axis; heterogeneous FXR expression limits single-agent activity
+- drug: vancomycin — observed in PMID:25608663 — note: oral glycopeptide antibiotic; immunomodulatory in PSC (improved GGT/ALP); multiple completed/active trials; antibiotic-immunotherapy caution noted
+- drug: neomycin — observed in PMID:25608663 — note: oral aminoglycoside; blocks CXCL1-PMN-MDSC axis in CCA preclinical models
+- drug: metronidazole — observed in PMID:25608663 — note: nitroimidazole antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
+- drug: amoxicillin — observed in PMID:25608663 — note: aminopenicillin antibiotic; cited among microbiota-modulation strategies for CCA adjuvant therapy
+- drug: gw4064 — observed in PMID:25608663 — note: synthetic non-steroidal FXR agonist (tool compound); suppresses CCA proliferation via NR1H4-SHP-STAT3/BCL2L1 axis
+- drug: cdca — observed in PMID:25608663 — note: chenodeoxycholic acid; endogenous FXR agonist and diagnostic biomarker (CDCA+TCDCA AUC 0.95 vs CA19-9 for CCA); IDH1/2-mutant iCCA suppresses CYP7A1/CDCA homeostasis
+- drug: jte-013 — observed in PMID:25608663 — note: S1PR2 antagonist; suppresses taurocholic-acid-activated ERK/AKT/NF-kB/COX-2 axis and tumor invasiveness in CCA preclinical models
+- drug: sbi-115 — observed in PMID:25608663 — note: TGR5/GPBAR1 antagonist; reduces pro-fibrotic and metastatic signaling in CCA; TGR5 hepatoprotective vs pro-tumorigenic duality complicates use
+- drug: int-777 — observed in PMID:25608663 — note: TGR5/GPBAR1 agonist (bile acid derivative); cited as pharmacological probe in CCA bile acid receptor axis; pro-tumorigenic in advanced CCA via Src/EGFR transactivation
 - datasets: tcia-tcga-gbm — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-GBM (cBioPortal gbm_tcga); not a cBioPortal studyId.
 - datasets: tcia-tcga-lgg — observed in PMID:28872634 — note: TCIA imaging collection paired with TCGA-LGG (cBioPortal lgg_tcga); not a cBioPortal studyId.
 - methods: glistrboost — observed in PMID:28872634 — note: hybrid generative-discriminative brain tumor MRI segmentation method, BraTS'15 winner.
@@ -342,3 +352,10 @@
 - drug: enzalutamide — observed in PMID:25201530 — note: second-generation AR antagonist; AR-amplified CRPC organoid MSK-PCa2 exquisitely sensitive (IC50 ~50 nM); resistance in non-AR-amplified lines
 - drug: buparlisib — observed in PMID:25201530 — note: BKM-120; pan-class I PI3K inhibitor; sensitivity in PTEN-loss/PIK3R1-mutant CRPC organoid (MSK-PCa2)
 - varscan: corpus
+- method: gatk-somatic-indel-detector — observed in PMID:25583493 — note: GATK Somatic Indel Detector; somatic indel calling in paired tumor/normal WES pipeline for AA CRC
+- method: somatic-signatures — observed in PMID:25583493 — note: mutational signature analysis characterizing C>T transitions in MSS AA CRC discovery exomes
+- method: integrative-genomics-viewer — observed in PMID:25583493 — note: IGV used for manual variant review and validation in AA CRC WES study
+- method: its2-rdna-seq — observed in PMID:25608663 — note: ITS2 rDNA mycobiome amplicon sequencing; Candida albicans overgrowth correlating with CCA TNM stage
+- method: bile-acid-metabolomics — observed in PMID:25608663 — note: targeted HPLC/MS + UPLC-MS/MS quantification of 15-30 BA species; diagnostic panels outperform CA19-9 in CCA
+- method: mendelian-randomization — observed in PMID:25608663 — note: two-sample MR using MiBioGen + IEU GWAS to identify causal gut microbiota in biliary tract cancer
+- method: random-forest-classifier — observed in PMID:25608663 — note: eight-genus bacterial RF classifier AUC 0.92-0.99 for CCA vs HCC discrimination

@@ -5,20 +5,21 @@ drug_class: multi-target receptor tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [anti-angiogenic, TKI, investigational]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # anlotinib
 
 ## Overview
 
-Anlotinib is an oral multi-target tyrosine kinase inhibitor (TKI) targeting VEGFR2 ([KDR](../genes/KDR.md)), FGFR1, PDGFRA, and KIT, among others. It has anti-angiogenic activity and has been investigated in multiple solid tumor types including hepatocellular carcinoma (HCC) and nasopharyngeal carcinoma (NPC).
+Anlotinib is an oral multi-target tyrosine kinase inhibitor (TKI) targeting VEGFR2 ([KDR](../genes/KDR.md)), [FGFR1](../genes/FGFR1.md), [PDGFRA](../genes/PDGFRA.md), and [KIT](../genes/KIT.md), among others. It has anti-angiogenic activity and has been investigated in multiple solid tumor types including hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)) and nasopharyngeal carcinoma ([NPC](../cancer_types/NPC.md)).
 
 ## Evidence in the corpus
 
 - Cited among VEGFR-targeting anti-angiogenic agents under investigation in HCC [PMID:24798001](../papers/24798001.md).
 - Cited as a multi-target anti-angiogenic TKI among agents under clinical investigation for R/M NPC [PMID:24952746](../papers/24952746.md).
+- Cited in the context of [sintilimab](../drugs/sintilimab.md)+anlotinib combination therapy for biliary tract cancer (BTC), whose efficacy is modulated by gut microbiota composition (Proteobacteria dominance reduces outcomes) [PMID:25608663](../papers/25608663.md)
 
 ## Resistance mechanisms
 
@@ -29,4 +30,7 @@ Anlotinib is an oral multi-target tyrosine kinase inhibitor (TKI) targeting VEGF
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

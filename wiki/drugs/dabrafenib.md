@@ -22,7 +22,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [BRAF](../genes/BRAF.md) V600-mutant cutaneous melanomas (Yale, n=147); dabrafenib cited alongside [vemurafenib](../drugs/vemurafenib.md) as an established BRAF-targeted therapy with clinical benefit in BRAF-mutant melanoma [PMID:22842228](../papers/22842228.md)
 - WES of 45 [BRAF](../genes/BRAF.md) V600 melanoma patients treated with [vemurafenib](../drugs/vemurafenib.md) or dabrafenib identified [MAP2K2](../genes/MAP2K2.md) mutations (V35M, L46F, C125S, N126D) conferring >100-fold cross-resistance to dabrafenib and [trametinib](../drugs/trametinib.md); [MAP2K1](../genes/MAP2K1.md) mutants conferred 10–80-fold dabrafenib resistance in A375 cells [PMID:24265153](../papers/24265153.md)
 - In multiple myeloma, dabrafenib paradoxically activated MAPK and promoted growth in BRAF-WT, KRAS/NRAS-mutant cell lines; conversely, dabrafenib + [trametinib](../drugs/trametinib.md) combined selectively killed BRAF-mutant (K601N) U266 MM cells without benefit in BRAF-WT lines [PMID:24434212](../papers/24434212.md)
-- BRAF V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:25526346](../papers/25526346.md)
+- [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:25526346](../papers/25526346.md)
 
 ## Resistance mechanisms
 

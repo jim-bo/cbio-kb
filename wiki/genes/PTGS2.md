@@ -3,19 +3,20 @@ symbol: PTGS2
 aliases: [COX-2, cyclooxygenase-2, COX2]
 cancer_types: [STAD]
 tags: [H-pylori, inflammation, gastric-carcinogenesis, epigenetic-regulation, KDM4B]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PTGS2
 
 ## Overview
 
-PTGS2 encodes prostaglandin-endoperoxide synthase 2 (COX-2), the inducible cyclooxygenase that produces prostaglandins mediating inflammation. In gastric carcinogenesis, PTGS2 is activated by H. pylori infection through epigenetic remodeling: the histone demethylase KDM4B (JMJD2B) is upregulated and drives H4 acetylation at the CDKN1A (p21) promoter, contributing to PTGS2 activation and sustaining the pro-inflammatory microenvironment that promotes gastric cancer development.
+PTGS2 encodes prostaglandin-endoperoxide synthase 2 (COX-2), the inducible cyclooxygenase that produces prostaglandins mediating inflammation. In gastric carcinogenesis, PTGS2 is activated by H. pylori infection through epigenetic remodeling: the histone demethylase [KDM4B](../genes/KDM4B.md) (JMJD2B) is upregulated and drives H4 acetylation at the [CDKN1A](../genes/CDKN1A.md) (p21) promoter, contributing to PTGS2 activation and sustaining the pro-inflammatory microenvironment that promotes gastric cancer development.
 
 ## Alterations observed in the corpus
 
 - Activated as part of the KDM4B/PTGS2/CDKN1A axis driven by H. pylori infection; H. pylori upregulates KDM4B histone demethylase and drives H4 acetylation at the CDKN1A promoter, activating PTGS2 (COX-2) and contributing to gastric carcinogenesis [PMID:24816255](../papers/24816255.md)
+- COX-2; induced downstream of [S1PR2](../genes/S1PR2.md) (taurocholic-acid–activated) via ERK/AKT/NF-kB signaling in cholangiocarcinoma; contributes to suppression of CD8+ T-cell activity and regulatory T cell recruitment [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ PTGS2 encodes prostaglandin-endoperoxide synthase 2 (COX-2), the inducible cyclo
 
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

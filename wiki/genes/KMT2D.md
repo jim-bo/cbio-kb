@@ -1,7 +1,7 @@
 ---
 symbol: KMT2D
 aliases: []
-cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD]
+cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
 processed_by: crosslinker
 processed_at: 2026-05-14
@@ -39,6 +39,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Splice-site alteration in 1/22 gynaecologic carcinosarcomas (MLL2), co-occurring with a [KMT2C](../genes/KMT2C.md) mutation in the same tumor [PMID:25233892](../papers/25233892.md)
 - Mutated in 69.2% of 39 aggressive cSCC tumors; another histone-methylation regulator significant by inactivation-bias methods; shared with [HNSC](../cancer_types/HNSC.md) mutation landscape [PMID:25303977](../papers/25303977.md)
 - KMT2D chromatin-remodeling defect detected in hypermutated gastric adenocarcinoma (Pt1); co-occurs with [MSH6](../genes/MSH6.md), [KDM5A](../genes/KDM5A.md), and [TGFBR2](../genes/TGFBR2.md) in the hypermutated subclone [PMID:25583476](../papers/25583476.md)
+- KMT2D (MLL2) nonsense mutations observed in 5/29 (17%) metastatic cSCC cases as part of a 48% chromatin-remodeling inactivation rate; chromatin-remodeling mutations independently associated with shorter PFS and worst outcome in combination with RAS/RTK/PI3K activation. [PMID:25589618](../papers/25589618.md)
+- KMT2D (MLL2) significantly mutated in 18% of 279 [HNSC](../cancer_types/HNSC.md) (MutSigCV q<0.1); contributes to defective immunosurveillance. [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -126,5 +128,11 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

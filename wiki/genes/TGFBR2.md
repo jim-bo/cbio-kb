@@ -18,7 +18,7 @@ tags:
   - cholangiocarcinoma
   - gastric-cancer
   - mismatch-repair
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -38,6 +38,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - Expression positively correlated with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md) (GSE139682); co-expressed in the desmoplastic stroma alongside [TGFBR1](../genes/TGFBR1.md), fibrillar collagens, and [ACTA2](../genes/ACTA2.md). [PMID:24997986](../papers/24997986.md)
 - TGFBR2 enriched in large-duct-type intrahepatic cholangiocarcinoma (iCCA), together with [FBXW7](../genes/FBXW7.md) and [MYC](../genes/MYC.md); large-duct iCCA is biologically distinct from small-duct iCCA. [PMID:25526346](../papers/25526346.md)
 - TGFBR2 frameshift/MMR-deficiency mutations detected in the hypermutated gastric cancer patient Pt1 (Tianjin Chinese cohort), alongside [MSH6](../genes/MSH6.md), [KDM5A](../genes/KDM5A.md), and [KMT2D](../genes/KMT2D.md), reflecting mismatch-repair deficiency at this TGF-β receptor gene. [PMID:25583476](../papers/25583476.md)
+- Sporadic inactivating mutations and deletions reported in HNSCC, primarily oral-cavity tumours, in a TCGA comprehensive genomic characterisation of 279 HPV(+) and HPV(−) cases [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -84,3 +85,6 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

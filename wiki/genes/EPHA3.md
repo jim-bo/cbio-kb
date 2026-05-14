@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-05
+processed_at: 2026-05-14
 ---
 
 # EPHA3
@@ -17,7 +17,8 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 
 - Mutation classes (missense / truncating / fusion / amplification / deletion) with
   links to the papers that report them.
-- 11 mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours; first statistically significant demonstration in LUAD; K761N mutation in kinase domain at conserved 'molecular brake' position. [PMID:18948947](../papers/18948947.md)
+- 11 mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours; first statistically significant demonstration in [LUAD](../cancer_types/LUAD.md); K761N mutation in kinase domain at conserved 'molecular brake' position. [PMID:18948947](../papers/18948947.md)
+- Identified as a significantly mutated gene in a prior nearly all-Caucasian MSS CRC cohort; cited as evidence that different EPH family members are selected in different ethnic backgrounds [PMID:25583493](../papers/25583493.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 ## Sources
 
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

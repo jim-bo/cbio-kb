@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [microbiome, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # 16S rRNA gene sequencing
@@ -20,6 +20,7 @@ Amplicon sequencing of the bacterial 16S rRNA gene used to characterize microbia
 - [PMID:41941260](../papers/41941260.md) — 16S/ITS microbiome sequencing performed in ImmunoRad MCT1 rectal-cancer patients; post-RT sequencing showed increases in Clostridiales and Trichocomaceae relative to baseline [PMID:41941260](../papers/41941260.md).
 - [PMID:37202560](../papers/37202560.md) — applied to 348 AC-ICAM treatment-naive primary colon cancer tumor/normal pairs, plus an additional 42 tumor-only samples (ICAM42), to derive a *Ruminococcus bromii*-driven microbiome signature combined with the ICR signature into the mICRoScore [PMID:37202560](../papers/37202560.md).
 - Used in all 18 case–control studies meta-analyzed (predominantly V3–V4 region; platforms including Illumina MiSeq/HiSeq/NovaSeq and Ion Torrent) to characterize the oral microbiome in esophageal cancer cases vs. controls; significant beta-diversity differences reported in 12/17 studies [PMID:24670651](../papers/24670651.md)
+- Multiple 16S rRNA sequencing studies (Zhang Q, Ito Z, Deng T, Zhang T, Jia X) synthesized in this CCA review, profiling gut microbiota dysbiosis in cholangiocarcinoma; documented depletion of Faecalibacterium/Roseburia/Bacteroides and enrichment of Escherichia-Shigella/Enterobacteriaceae in iCCA patients vs healthy controls [PMID:25608663](../papers/25608663.md)
 
 ## Notes
 
@@ -37,3 +38,6 @@ Amplicon sequencing of the bacterial 16S rRNA gene used to characterize microbia
 - [PMID:24670651](../papers/24670651.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

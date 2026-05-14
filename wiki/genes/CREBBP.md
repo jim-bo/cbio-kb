@@ -3,8 +3,8 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG]
 tags: [epigenetic-regulator, relapse]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CREBBP
@@ -33,7 +33,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Mutation in bladder TCC as part of a chromatin-remodeling gene cluster altered in 58% of cases [PMID:24121792](../papers/24121792.md)
 - Single frameshift mutation p.Pro830LeufsTer19 in sinonasal AdCC (1/21 sequenced cases); part of the long tail of singleton mutations [PMID:24418857](../papers/24418857.md)
 - Significantly mutated histone acetyltransferase in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)); focal deletions targeting CREBBP identified by GISTIC 2.0; part of the 76% of tumours with inactivating chromatin regulator mutations [PMID:24476821](../papers/24476821.md)
-- Truncating mutations in 13% of muscle-invasive urothelial carcinoma; mutually exclusive with EP300 truncating mutations (15%); both are chromatin modifier genes with HAT activity [PMID:25092538](../papers/25092538.md)
+- Truncating mutations in 13% of muscle-invasive urothelial carcinoma; mutually exclusive with [EP300](../genes/EP300.md) truncating mutations (15%); both are chromatin modifier genes with HAT activity [PMID:25092538](../papers/25092538.md)
+- Chromatin remodeler truncated in cutaneous squamous cell carcinoma; truncating CREBBP and EP300 events are mutually exclusive with NOTCH truncations in 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -59,49 +60,52 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-annotation, bioinformatics, cancer-genomics]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Oncotator
@@ -22,6 +22,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - Used for somatic variant annotation in the rhabdomyosarcoma genomic landscape study (147 tumor/normal pairs); applied alongside ANNOVAR to annotate mutation consequences, known cancer hotspots, and pathway membership; reference build hg19 [PMID:24436047](../papers/24436047.md)
 - Used to annotate somatic variants in 50 urothelial carcinoma tumors in the cisplatin-response WES study. [PMID:25096233](../papers/25096233.md)
 - Used to annotate somatic variants in 69 matched CRC trios with COSMIC v65 annotations as part of the MSK-IMPACT concordance study. [PMID:25164765](../papers/25164765.md)
+- Used to annotate somatic variants against dbSNP 134 and 1000 Genomes in the [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) pipeline for 29 metastatic cSCC samples; identified high UV-signature mutation rate (~33 mut/Mb) and recurrent RAS/RTK/PI3K pathway activating mutations [PMID:25589618](../papers/25589618.md)
 
 ## Notes
 
@@ -30,16 +31,19 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

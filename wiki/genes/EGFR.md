@@ -60,6 +60,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Metastasis-private high-level amplification (chr 7p) detected in metastatic CRC; co-amplified with [CARD11](../genes/CARD11.md), [ETV1](../genes/ETV1.md), and [IKZF1](../genes/IKZF1.md); may represent an actionable event in RAS/RAF wild-type patients missed by primary-only sequencing [PMID:25164765](../papers/25164765.md)
 - Not significantly mutated in 39 aggressive cSCC tumors; discussed as a largely unsuccessful therapeutic target ([gefitinib](../drugs/gefitinib.md), [cetuximab](../drugs/cetuximab.md) trials) in cSCC [PMID:25303977](../papers/25303977.md)
 - Activating alterations in 13.6–20% of cholangiocarcinoma (CCA); overexpression is an independent poor-prognostic factor in iCCA and eCCA; bypass signaling via wild-type EGFR contributes to FGFR-inhibitor resistance. [PMID:25526346](../papers/25526346.md)
+- S720F rare activating allele (also seen in [NSCLC](../cancer_types/NSCLC.md)) plus high-level amplification (significant GISTIC peak) in cSCC; patients with EGFR alterations are candidates for trials of agents already used in lung/head-and-neck SCC [PMID:25589618](../papers/25589618.md)
+- Transactivated by TGR5 ([GPBAR1](../genes/GPBAR1.md))/Src signaling to amplify ERK1/2 proliferative signaling in cholangiocytes in the context of cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
+- Focal amplification in 15% of HPV(-) vs 6% of HPV(+) HNSCC; rare EGFRvIII isoform in 1/279 tumors; part of RTK/RAS/PI(3)K alteration in 62% of HPV(-) and 61% of HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -189,5 +192,14 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

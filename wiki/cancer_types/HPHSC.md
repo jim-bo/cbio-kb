@@ -8,8 +8,8 @@ tags:
   - squamous
   - hypopharynx
   - organ-preservation
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Hypopharynx Squamous Cell Carcinoma (HPHSC)
@@ -25,6 +25,7 @@ Hypopharynx squamous cell carcinoma (HPHSC) is a subtype of head and neck squamo
 ## Recurrent alterations
 
 - No gene-specific molecular profiling was performed in the primary clinical trial cohort; EGFR-targeted therapy ([cetuximab](../drugs/cetuximab.md)) was discussed as a future direction based on external data. [PMID:19176454](../papers/19176454.md)
+- Hypopharynx squamous cell carcinoma (HPHSC) cases were included in the TCGA [HNSC](../cancer_types/HNSC.md) 279-sample cohort alongside oral cavity, oropharynx, and larynx sites; site-specific mutation frequencies reported for [TP53](../genes/TP53.md), [CASP8](../genes/CASP8.md), [NSD1](../genes/NSD1.md), and [CDKN2A](../genes/CDKN2A.md) across anatomic subsites. [PMID:25631445](../papers/25631445.md)
 
 ## Subtypes
 
@@ -38,4 +39,7 @@ Hypopharynx squamous cell carcinoma (HPHSC) is a subtype of head and neck squamo
 
 - [PMID:19176454](../papers/19176454.md) — Lefebvre et al. (2009), randomized trial of sequential vs alternating chemoradiotherapy for organ preservation in advanced [LXSC](../cancer_types/LXSC.md) and HPHSC.
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

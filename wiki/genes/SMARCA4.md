@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # SMARCA4
@@ -33,10 +33,11 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Recurrently mutated chromatin-remodeling gene in TCC; part of the 58% of bladder cancer cases with chromatin-remodeling gene mutations [PMID:24121792](../papers/24121792.md)
 - Mutations private to the initial or recurrent tumor in 6 of 7 affected low-grade glioma patients; appear to confer selective advantage given preexisting early driver events ([IDH1](../genes/IDH1.md) R132H) rather than being founding events [PMID:24336570](../papers/24336570.md)
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); missense p.Gly1194Trp and p.Glu882Lys; SWI/SNF chromatin-remodeling complex component [PMID:24418857](../papers/24418857.md)
-- SMARCA4 was mutated in RMH004 ccRCC tumor (p.Thr910Met) alongside PBRM1 and ARID1A hits, implicating SWI/SNF complex disruption in this tumor [PMID:24487277](../papers/24487277.md)
+- SMARCA4 was mutated in RMH004 ccRCC tumor (p.Thr910Met) alongside [PBRM1](../genes/PBRM1.md) and [ARID1A](../genes/ARID1A.md) hits, implicating SWI/SNF complex disruption in this tumor [PMID:24487277](../papers/24487277.md)
 - SMARCA4 (BRG1) harbors biallelic inactivating mutations in 12/12 SCCOHT tumors (nonsense, frameshift, splice-site, intragenic exonic deletions) affecting helicase catalytic domains; established as the defining tumor suppressor of SCCOHT. Truncating mutations correlate with reduced SMARCA4 expression in TCGA, consistent with nonsense-mediated decay [PMID:24658004](../papers/24658004.md)
-- Mutated in 6% of LUAD (TCGA, n=230); chromatin modifier (SWI/SNF complex); mutually exclusive with ARID1A in bladder cancer. [PMID:25079552](../papers/25079552.md)
+- Mutated in 6% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); chromatin modifier (SWI/SNF complex); mutually exclusive with ARID1A in bladder cancer. [PMID:25079552](../papers/25079552.md)
 - Alterations mutually exclusive with ARID1A truncating mutations (28%) in high-grade urothelial carcinoma of the bladder (MSK-IMPACT, n=109). [PMID:25092538](../papers/25092538.md)
+- Chromatin remodeler truncated or hit at COSMIC sites in metastatic cSCC; chromatin-remodeling inactivation (including SMARCA4/SMARCB1/KMT2D/CREBBP/EP300/ARID family) present in 48% of cohort [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -60,55 +61,58 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -5,7 +5,7 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Missense somatic mutations in 1 patient each with [PV](../cancer_types/PV.md), [ET](../cancer_types/ET.md), and [MF](../cancer_types/MF.md) (q=0.008 by MutSigCV); not previously reported in [MPN](../cancer_types/MPN.md) at time of publication [PMID:24325359](../papers/24325359.md)
 - Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 - Significantly mutated gene (SMG) in papillary thyroid carcinoma (q<0.1); DNA-repair-related SMG co-occurring with MAPK pathway drivers; CHEK2 mutations associated with 22q loss (p=0.0035) in the SCNA-22q-del subtype [PMID:25417114](../papers/25417114.md)
+- Harbors at least one identical previously COSMIC-reported mutation in HNSCC (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

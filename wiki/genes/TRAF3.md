@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [nfkb, structural-variant, u-cll]
 processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # TRAF3
@@ -17,6 +17,7 @@ TRAF3 is a negative regulator of NF-κB signaling disrupted in U-CLL via a recur
 
 - TRAF3 is disrupted (together with [ZFP36L1](../genes/ZFP36L1.md) and [DICER1](../genes/DICER1.md)) by a recurrent 37-Mb chr14 deletion in U-CLL (4/87 WGS, 4.6%) arising via class-switch recombination [PMID:35927489](../papers/35927489.md).
 - NF-kB regulator; recurrently mutated and homozygously deleted in multiple myeloma (MM); contributes to aberrant NF-kB pathway activation in a subset of MM tumors [PMID:24434212](../papers/24434212.md)
+- Recurrent deletions (14%) and truncating mutations (8%) in HPV(+) HNSCC; first reported link between TRAF3 loss and HPV-associated cancer; loss promotes aberrant NF-kB signalling [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ TRAF3 is a negative regulator of NF-κB signaling disrupted in U-CLL via a recur
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

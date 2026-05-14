@@ -18,6 +18,7 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 ## Evidence in the corpus
 
 - IDH1-mutant iCCA: ClarIDHy phase III ORR 2%, mPFS 6.9 vs. 2.7 months (placebo), mOS 10.3 vs. 7.5 months (adjusted-crossover [OS](../cancer_types/OS.md) benefit 5.1 months); [IDH1](../genes/IDH1.md) mutations occur in 13–29% of iCCA and are rare in eCCA; retrospective data show 14.5% prevalence in advanced iCCA with longer PFS for IDH1-mutant tumors under standard chemotherapy [PMID:25526346](../papers/25526346.md)
+- Endorsed as a precision option for IDH1-mutant iCCA based on the ClarIDHy phase III trial (PFS benefit); highlighted as the first targeted therapy approved for IDH1-mutant cholangiocarcinoma, with [IDH1](../genes/IDH1.md) mutations also epigenetically suppressing bile acid synthesis genes via 2-hydroxyglutarate accumulation [PMID:25608663](../papers/25608663.md)
 
 ## Resistance mechanisms
 
@@ -31,5 +32,8 @@ Ivosidenib is a selective inhibitor of mutant [IDH1](../genes/IDH1.md), targetin
 ## Sources
 
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

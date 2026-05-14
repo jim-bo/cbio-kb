@@ -41,8 +41,16 @@ Editing still goes through `Read` + `Edit` so diffs land in git — the CLI is r
    - For each canonical id with hits in this page:
      - Find bare mentions (whole-word match, case-sensitive for gene symbols and
        OncoTree codes; case-insensitive for slugs).
-     - Replace the FIRST occurrence per section with
-       `[ID](../<section>/ID.md)` (relative path from the target page).
+     - Replace the FIRST occurrence per section with the **single-bracket
+       Markdown link** `[ID](../<section>/ID.md)` (relative path from the target
+       page). The replacement string must contain exactly one `[`, one `]`, one
+       `(`, and one `)`.
+     - **NEVER use Obsidian wiki-link syntax** — no `[[ID]]`, no `[[ID|alias]]`,
+       no `[[ID](url)]`, no `[[ID](url)]]`, no `[[[ID](url)]]`, no
+       `[[target|[ID](url)]]`. Quarto/pandoc treats these as broken markdown;
+       the unbalanced variants caused a multi-hour publish-workflow hang in
+       2026-05 (catastrophic backtracking in pandoc's link parser). If muscle
+       memory pulls you toward `[[`, stop and emit a single `[` instead.
      - Do NOT relink mentions already inside a Markdown link.
      - Do NOT touch frontmatter or fenced code blocks.
    - Use `Edit`, not `Write`. Preserve all other content exactly.
@@ -72,3 +80,7 @@ Pass `--paths` set to exactly the input list from the orchestrator. Only fall ba
 - Never link a page to itself.
 - Never invent canonical pages — only link to files that already exist.
 - Never use the CLI to edit; all writes go through `Edit`.
+- Use only single-bracket Markdown links: `[name](url)`. Never emit
+  `[[name](url)]`, `[[name](url)]]`, `[[[name](url)]]`, `[[target|alias]]`, or
+  bare `[[name]]`. If you find these patterns in a page you're editing, leave
+  them alone — fixing them is out of scope for crosslinking.

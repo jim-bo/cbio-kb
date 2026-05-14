@@ -24,7 +24,7 @@ Entrectinib (RXDX-101) is an orally available, CNS-penetrant inhibitor of TRKA/B
 
 ## Cancer types (linked)
 
-- [GBC](../cancer_types/GBC.md) — tumor-agnostic indication applies; NTRK1 fusions identified in gallbladder carcinoma
+- [GBC](../cancer_types/GBC.md) — tumor-agnostic indication applies; [NTRK1](../genes/NTRK1.md) fusions identified in gallbladder carcinoma
 
 ## Sources
 

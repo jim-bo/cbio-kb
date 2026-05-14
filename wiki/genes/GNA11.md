@@ -4,19 +4,20 @@ aliases: []
 cancer_types:
   - MEL
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # GNA11
 
 ## Overview
 
-GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G-protein-coupled receptors to downstream signaling pathways. In melanoma, activating mutations in GNA11 (and the closely related GNAQ) are key oncogenic drivers, particularly in uveal melanoma. It was reported as a recurrently mutated gene in the Broad melanoma WES cohort.
+GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G-protein-coupled receptors to downstream signaling pathways. In melanoma, activating mutations in GNA11 (and the closely related [GNAQ](../genes/GNAQ.md)) are key oncogenic drivers, particularly in uveal melanoma. It was reported as a recurrently mutated gene in the Broad melanoma WES cohort.
 
 ## Alterations observed in the corpus
 
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
+- Rare Q209 hotspot in Triple-WT cutaneous melanoma (typically uveal-melanoma driver); co-occurs with [SF3B1](../genes/SF3B1.md) R625H but not [BAP1](../genes/BAP1.md) mutations [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,6 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

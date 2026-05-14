@@ -43,6 +43,10 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used for orthogonal confirmation of [CDKN2A](../genes/CDKN2A.md) deletions in Ewing sarcoma WGS discovery cohort [PMID:25223734](../papers/25223734.md)
 - Used for orthogonal indel validation in nccRCC WES study; Sanger sequencing confirmed 96% (127/132) of selected indels [PMID:25401301](../papers/25401301.md)
 - Used for confirmation sequencing of candidate somatic mutations identified by whole-exome and targeted sequencing in 103 African American MSS colorectal cancers [PMID:25583493](../papers/25583493.md)
+- Benchmarked exome mutation calling in 155 [HCC](../cancer_types/HCC.md) tumors across 11 genes; sensitivity 88% (95% CI 82–92%), specificity 99%; systematic blind spots in GC-rich [ARID1A](../genes/ARID1A.md) exon 1 and large [CTNNB1](../genes/CTNNB1.md) exon 3 deletions. [PMID:25822088](../papers/25822088.md)
+- Validated 248 non-silent mutations across 132 genes in 84 PDA cases, confirming 92% of MuTect/VarScan calls (95% CI 87.6–94.6%). [PMID:25855536](../papers/25855536.md)
+- Used for validation of CARD11/CD79B/PRKCD/TNFAIP3 variants in [PCNSL](../cancer_types/PCNSL.md) cases, complementing WES and targeted Ion Torrent sequencing. [PMID:25991819](../papers/25991819.md)
+- Sanger sequencing of [TERT](../genes/TERT.md) promoter C228T/C250T in 115 cutaneous melanoma samples confirmed mutually exclusive distribution and differential association with [TERT](../genes/TERT.md) mRNA elevation. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -126,5 +130,17 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

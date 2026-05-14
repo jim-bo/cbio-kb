@@ -43,6 +43,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [BRIP1](../genes/BRIP1.md), [PALB2](../genes/PALB2.md) must be ruled out before FNHGC labeling) [PMID:24816255](../papers/24816255.md)
 - Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
 - Candidate dark-matter driver in papillary thyroid carcinoma; among additional driver alterations helping reduce unexplained 'dark matter' cases to 3.5% in the TCGA PTC cohort of 402 tumors [PMID:25417114](../papers/25417114.md)
+- DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; patients with biallelic ATM showed clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +139,11 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,19 +3,20 @@ symbol: ALB
 aliases: []
 cancer_types: [HCC]
 tags: [liver, somatic-mutation, non-actionable]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ALB
 
 ## Overview
 
-ALB encodes serum albumin, the major plasma protein produced by the liver. Somatic mutations in ALB are recurrently observed in hepatocellular carcinoma (HCC), likely reflecting clonal hepatocyte evolution in the context of chronic liver disease rather than a direct oncogenic driver role.
+ALB encodes serum albumin, the major plasma protein produced by the liver. Somatic mutations in ALB are recurrently observed in hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), likely reflecting clonal hepatocyte evolution in the context of chronic liver disease rather than a direct oncogenic driver role.
 
 ## Alterations observed in the corpus
 
-- Somatic mutation reported in the HCC molecular landscape (WES, n=1,289 patients); classified as a non-actionable alteration in the comprehensive review of HCC molecular therapies [PMID:24798001](../papers/24798001.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289 patients); classified as a non-actionable alteration in the comprehensive review of [HCC](../cancer_types/HCC.md) molecular therapies [PMID:24798001](../papers/24798001.md)
+- Recurrently mutated hepatocyte-secreted protein gene in [HCC](../cancer_types/HCC.md); part of a newly highlighted hepatic-differentiation pathway altered in 34% of 243 HCC tumors [PMID:25822088](../papers/25822088.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ _No conflicts in current corpus._
 
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

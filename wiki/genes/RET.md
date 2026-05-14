@@ -21,7 +21,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 
 ## Cancer types (linked)
 
-- **NPC** — RET is a component of the multi-kinase inhibitor target profile (alongside VEGFR2/KDR, [FLT3](../genes/FLT3.md), [TEK](../genes/TEK.md), and others) in R/M NPC. [PMID:24952746](../papers/24952746.md)
+- **[NPC](../cancer_types/NPC.md)** — RET is a component of the multi-kinase inhibitor target profile (alongside VEGFR2/KDR, [FLT3](../genes/FLT3.md), [TEK](../genes/TEK.md), and others) in R/M [NPC](../cancer_types/NPC.md). [PMID:24952746](../papers/24952746.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -29,11 +29,11 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 
 ## Therapeutic relevance
 
-- Multi-kinase TKIs active against RET are being investigated in NPC primarily as anti-angiogenic/anti-proliferative agents rather than RET-alteration-selected strategies. [PMID:24952746](../papers/24952746.md)
+- Multi-kinase TKIs active against RET are being investigated in [NPC](../cancer_types/NPC.md) primarily as anti-angiogenic/anti-proliferative agents rather than RET-alteration-selected strategies. [PMID:24952746](../papers/24952746.md)
 
 ## Open questions
 
-- RET-specific mutation frequency in NPC and whether RET alterations are predictive of TKI response are uncharacterized in the current corpus.
+- RET-specific mutation frequency in [NPC](../cancer_types/NPC.md) and whether RET alterations are predictive of TKI response are uncharacterized in the current corpus.
 
 ## Sources
 

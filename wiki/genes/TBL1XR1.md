@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - wd40-domain
   - btk-inhibitor-biomarker
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # TBL1XR1
@@ -20,6 +20,7 @@ TBL1XR1 encodes a WD40-repeat protein that is part of the NCoR/SMRT corepressor 
 
 - Missense mutations mapping to the WD40 domains, interpreted as likely loss-of-function; present in 9/25 (36%) of sequenced PCNSLs in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II cohort [PMID:38995739](../papers/38995739.md).
 - WES of 55 DLBCL tumors identified recurrent TBL1XR1 mutations, suggesting disruption of the NCoR/SMRT transcriptional repressor complex in diffuse large B-cell lymphoma [PMID:22343534](../papers/22343534.md)
+- Recurrent 3q26.32 deletion in primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)); identified as a focal CNA in the genomic landscape of [PCNSL](../cancer_types/PCNSL.md). [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -42,7 +43,10 @@ TBL1XR1 encodes a WD40-repeat protein that is part of the NCoR/SMRT corepressor 
 
 - [PMID:38995739](../papers/38995739.md)
 
-*This page was processed by **crosslinker** on **2026-04-10**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

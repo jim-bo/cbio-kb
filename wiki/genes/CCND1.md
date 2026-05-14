@@ -44,13 +44,17 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - 39 coding and non-coding mutations in multiple myeloma (MM); co-occurs with t(11;14) translocation — likely a somatic-hypermutation hotspot driven by AID; part of the significantly mutated cell-cycle gene set [PMID:24434212](../papers/24434212.md)
 - Low-frequency (1%) mitotic-checkpoint/cell-cycle hit in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) pediatric genomic landscape study [PMID:24436047](../papers/24436047.md)
 - Focal amplification in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); identified by GISTIC 2.0 analysis of TCGA bladder urothelial carcinoma cohort [PMID:24476821](../papers/24476821.md)
-- Most frequent focal amplification peak (11q13.2) in [ESCC](../cancer_types/ESCC.md); drives cell-cycle dysregulation; identified by SCNV analysis across 184 ESCC samples [PMID:24686850](../papers/24686850.md)
+- Most frequent focal amplification peak (11q13.2) in [ESCC](../cancer_types/ESCC.md); drives cell-cycle dysregulation; identified by SCNV analysis across 184 [ESCC](../cancer_types/ESCC.md) samples [PMID:24686850](../papers/24686850.md)
 - High-level focal amplification in 7% of HCCs (SNP-array, n=704); part of the proliferation class molecular signature [PMID:24798001](../papers/24798001.md)
 - Recurrent focal amplification in CIN gastric adenocarcinoma; suggests CDK4/6 inhibitor evaluation in this subtype [PMID:25079317](../papers/25079317.md)
 - Recurrent focal amplification in [LUAD](../cancer_types/LUAD.md); identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
 - Focal 11q amplification observed in cSCC cohort [PMID:25303977](../papers/25303977.md)
 - Recurrent copy-number gain in 4 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
 - 11q13 co-amplification cassette with [FADD](../genes/FADD.md) and [CTTN](../genes/CTTN.md) in 31% of HPV(-) HNSCC vs. 3% of HPV(+) tumors (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
+- Co-amplified at 11q13.3 locus with FGF3/FGF4/FGF19 (~4% FDA-targetable) in [HCC](../cancer_types/HCC.md); focal amplification appears at advanced stages and is independently associated with poor survival [PMID:25822088](../papers/25822088.md)
+- Amplification in 6% of PDA (RB-pathway alteration); co-occurs with [CDK4](../genes/CDK4.md) amplification (9%) and CDKN2A/B deletion; part of RB-pathway lesion cluster [PMID:25855536](../papers/25855536.md)
+- Cell-cycle pathway aberration in mCRPC; potentially actionable via [CDK4](../genes/CDK4.md) inhibition; part of RB1/CDKN2A/B/CDK4/CCND1/CDKN1B cluster [PMID:26000489](../papers/26000489.md)
+- Focal amplifications enriched in Triple-WT melanoma subtype; part of CDK4/CCND1 co-amplification pattern [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -158,5 +162,17 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

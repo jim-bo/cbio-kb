@@ -3,8 +3,8 @@ symbol: CHD1
 aliases: []
 cancer_types: [PRAD]
 tags: [chromatin-remodeling, tumor-suppressor, prostate-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CHD1
@@ -19,6 +19,7 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - CHD1 deletions and mutations identified in prostate cancer WES of 112 tumors (Michigan cohort); CHD1 loss associated with ETS-negative tumors [PMID:22722839](../papers/22722839.md)
 - Focal deletion or disruptive rearrangement defines an ETS-negative prostate carcinoma subset with chromothripsis-like intra-chromosomal chains in late-replicating, GC-poor DNA; CHD1 loss correlates with elevated recurrent SCNAs (p=1.5×10⁻⁸) in an extended 199-tumor cohort [PMID:23622249](../papers/23622249.md)
 - Focal homozygous deletion with complete protein loss in MSK-PCa2, MSK-PCa4, and MSK-PCa7 prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
+- Recurrent deletion (8q copy-number loss) in metastatic castration-resistant prostate cancer (mCRPC) [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -35,19 +36,18 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 ## Open questions
 
 - Whether CHD1 deletion is a driver or a passenger event co-selected with [SPOP](../genes/SPOP.md) mutations at 5q21 requires further investigation.
-- The functional interaction between CHD1 loss and SPOP mutation in prostate carcinogenesis remains to be mechanistically defined.
+- The functional interaction between CHD1 loss and [SPOP](../genes/SPOP.md) mutation in prostate carcinogenesis remains to be mechanistically defined.
 
 ## Sources
 
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

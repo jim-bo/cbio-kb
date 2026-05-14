@@ -36,7 +36,7 @@ RBPMS (RNA Binding Protein, mRNA Processing Factor) is an RNA-binding protein in
 
 ## Open questions
 
-- The specific contribution of RBPMS versus [ETV6](../genes/ETV6.md) as NTRK3 fusion partners to clinical outcome or inhibitor sensitivity in PTC is not characterized.
+- The specific contribution of RBPMS versus [ETV6](../genes/ETV6.md) as [NTRK3](../genes/NTRK3.md) fusion partners to clinical outcome or inhibitor sensitivity in PTC is not characterized.
 - Whether RBPMS/NTRK3 occurs in other thyroid cancer subtypes requires further study.
 
 ## Sources

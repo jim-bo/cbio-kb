@@ -3,8 +3,8 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MDM2
@@ -34,9 +34,10 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Amplification in 5% of high-grade urothelial bladder tumors; nonoverlapping with [TP53](../genes/TP53.md) mutation [PMID:23897969](../papers/23897969.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute amplification of MDM2/CDK4 was identified as a striking structural finding; MDM2 amplification is mutually exclusive with [TP53](../genes/TP53.md) mutation (p=0.0003) [PMID:24120142](../papers/24120142.md)
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
-- Amplification at the 12q15 amplicon (9%, PFN-skewed) in rhabdomyosarcoma; co-amplified with [FRS2](../genes/FRS2.md); MDM2 amplification is mutually exclusive with TP53 mutation in this context [PMID:24436047](../papers/24436047.md)
-- Focal amplification in 9% of muscle-invasive bladder carcinoma tumors; amplification is an alternative mechanism of TP53 inactivation, with MDM2 amp and TP53 mutation being mutually exclusive events [PMID:24476821](../papers/24476821.md)
-- MDM2 recurrent focal amplification identified as a significant GISTIC peak in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- Amplification at the 12q15 amplicon (9%, PFN-skewed) in rhabdomyosarcoma; co-amplified with [FRS2](../genes/FRS2.md); MDM2 amplification is mutually exclusive with [TP53](../genes/TP53.md) mutation in this context [PMID:24436047](../papers/24436047.md)
+- Focal amplification in 9% of muscle-invasive bladder carcinoma tumors; amplification is an alternative mechanism of [TP53](../genes/TP53.md) inactivation, with MDM2 amp and [TP53](../genes/TP53.md) mutation being mutually exclusive events [PMID:24476821](../papers/24476821.md)
+- MDM2 recurrent focal amplification identified as a significant GISTIC peak in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- MDM2 focal amplifications enriched in Triple-WT cutaneous melanoma subtype (TCGA 333-sample cohort); rationale for MDM2 inhibitors ([nutlin-3](../drugs/nutlin-3.md), AMG-232) in this subtype [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -69,46 +70,49 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

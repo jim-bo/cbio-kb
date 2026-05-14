@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, hormone-therapy, prostate-cancer]
 processed_by: crosslinker
-processed_at: 2026-04-30
+processed_at: 2026-05-14
 ---
 
 # abiraterone
@@ -18,6 +18,7 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 ## Evidence in the corpus
 
 - Abiraterone is listed as a tracked systemic therapy drug in the MSK-CHORD ([msk_chord_2024](../datasets/msk_chord_2024.md)) dataset covering 3,211 [PRAD](../cancer_types/PRAD.md) patients. NLP-based annotation of prior treatment history (using transformer models) was used to identify patients who had received abiraterone, enabling post-treatment alteration enrichment analyses including [AR](../genes/AR.md) and [TP53](../genes/TP53.md) enrichment after prior systemic therapy in prostate cancer. [PMID:39506116](../papers/39506116.md)
+- Abiraterone pre-treatment context: AR-V7 splice variant was detectable at low ratios in most pre-abiraterone/enzalutamide mCRPC cases; recurrent [AR](../genes/AR.md) hotspots (T878A, W742C, L702H) that confer agonism predict differential responses to ADT including abiraterone [PMID:26000489](../papers/26000489.md)
 
 ## Resistance mechanisms
 
@@ -31,4 +32,7 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 
 - [PMID:39506116](../papers/39506116.md) — Al Shihabi et al. (Nature 2024). MSK-CHORD clinicogenomic dataset; abiraterone recorded as a systemic therapy agent for prostate cancer patients; NLP-extracted prior-treatment annotations enabled post-treatment genomic enrichment analysis.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

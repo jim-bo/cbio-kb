@@ -25,6 +25,7 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Inactivating frameshift p.L13fs*10 found in one [MCL](../cancer_types/MCL.md) case with concurrent 15q12–q21.1 deletion encompassing the locus; not observed in 97 additional patients including 3 with similar 15q monoallelic deletions [PMID:24145436](../papers/24145436.md)
 - MHC class I alteration enriched in the MSI subtype of gastric adenocarcinoma; B2M and [HLA-B](../genes/HLA-B.md) mutations consistent with antigen-presentation escape in microsatellite-unstable tumours [PMID:25079317](../papers/25079317.md)
 - Implicated in HLA-A/B antigen presentation pathway alterations in HNSCC; altered in 7% of HPV(-) and 11% of HPV(+) tumors (279-tumor TCGA HNSCC cohort) [PMID:25631445](../papers/25631445.md)
+- Homozygous deletion in individual [PCNSL](../cancer_types/PCNSL.md) cases; contributes to immune-evasion through MHC-I loss in primary central nervous system lymphoma [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -67,5 +68,8 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

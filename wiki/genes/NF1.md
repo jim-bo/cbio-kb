@@ -54,6 +54,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors; candidate dark-matter driver in papillary thyroid carcinoma [PMID:25417114](../papers/25417114.md)
 - NF1 inactivating events in 1–3 metastatic cSCC samples as a negative regulator of the RAS/RTK/PI3K pathway. [PMID:25589618](../papers/25589618.md)
 - NF1 alteration in 3% of HPV(−) [HNSC](../cancer_types/HNSC.md) (TCGA, n=279). [PMID:25631445](../papers/25631445.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), NF1 is mutated in 14% of cases (>50% loss-of-function: 27 nonsense, 9 splice, 4 frameshift); defines the NF1 genomic subtype with highest mutation prevalence (~39 mut/Mb); ~70% of non-hot-spot BRAF/NRAS UV-signature tumors carry NF1 mutations. Anti-correlated with hot-spot [BRAF](../genes/BRAF.md) (p=1.93e–9). [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -175,5 +176,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

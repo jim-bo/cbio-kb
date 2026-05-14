@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - transcription_factor
   - squamous_differentiation
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # IRF6
@@ -19,6 +19,7 @@ IRF6 (Interferon Regulatory Factor 6) is a transcription factor involved in squa
 ## Alterations observed in the corpus
 
 - Recurrently mutated in HNSCC across 74 tumor-normal pairs by whole-exome sequencing; associated with squamous differentiation (q < 0.25, Broad cohort) [PMID:21798893](../papers/21798893.md)
+- IRF6 identified as a MutSigCV-significant gene in pancreatic ductal adenocarcinoma (109-case WES cohort); functional role in PDA biology not established — oncogenic vs. passenger status awaits validation [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ IRF6 (Interferon Regulatory Factor 6) is a transcription factor involved in squa
 - [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

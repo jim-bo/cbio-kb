@@ -53,6 +53,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Truncating somatic mutation in one ERCC2-WT [cisplatin](../drugs/cisplatin.md) responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
 - Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:25526346](../papers/25526346.md)
 - Mutated in 17/294 (5.8%) Tianjin gastric cancer cases and 28/289 TCGA [STAD](../cancer_types/STAD.md) cases; independent predictor of longer survival in pooled cohort (HR 0.37, P=0.05); predominantly missense unlike breast/ovarian; one case carried BRCA2 p.E3002D/p.G602fs across separate tumor clones [PMID:25583476](../papers/25583476.md)
+- DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- Biallelic loss (somatic + germline) totaling 19.3% of mCRPC cases with BRCA1/ATM; multiple patients with germline BRCA2 + somatic second hit; some exhibited clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +139,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

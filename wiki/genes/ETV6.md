@@ -22,6 +22,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - Recurrently mutated in pediatric ALL (St. Jude WGS/WES, 44 tumors); ETV6-RUNX1 fusions detected in B-ALL cases [PMID:23334668](../papers/23334668.md)
 - Co-deleted with [ETV3](../genes/ETV3.md) and [CDKN1B](../genes/CDKN1B.md) in a 25-rearrangement chromoplexy chain in prostate cancer [PMID:23622249](../papers/23622249.md)
 - ETV6/NTRK3 fusion detected in papillary thyroid carcinoma (PTC); part of 6/484 (1.2%) NTRK1/3 fusions combined; fusion is BRS-neutral (neither BVL nor RL phenotype). [PMID:25417114](../papers/25417114.md)
+- Implicated in [PCNSL](../cancer_types/PCNSL.md) via focal amplification or homozygous deletion event [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -44,22 +45,18 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+- [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

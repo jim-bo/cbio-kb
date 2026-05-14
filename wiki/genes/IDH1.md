@@ -31,6 +31,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 R132H present in every initial tumor and every patient-matched recurrence in a cohort of 23 low-grade glioma patients; the only universally shared mutation across all tumors and recurrences, reinforcing IDH1 as the initiating event in low-grade gliomagenesis; supports mutant-IDH1-directed therapy as a recurrence-spanning strategy [PMID:24336570](../papers/24336570.md)
 - IDH1 hotspot mutations in 13–29% intrahepatic CCA (iCCA), rare in extrahepatic CCA; IDH1-mutant iCCA benefits from [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: mPFS 6.9 vs. 2.7 months, mOS 10.3 vs. 7.5 months) [PMID:25526346](../papers/25526346.md)
 - IDH1 gain-of-function mutations (R132 hotspot) are frequent in iCCA; 2-HG accumulation epigenetically suppresses bile acid biosynthesis genes including [CYP7A1](../genes/CYP7A1.md), and [ivosidenib](../drugs/ivosidenib.md) was approved for IDH1-mutant CCA based on the ClarIDHy phase III PFS benefit. [PMID:25608663](../papers/25608663.md)
+- IDH1 R132 UV hot-spot mutation in ~6% of cutaneous melanomas; enriched in the CIMP epigenetic cluster (OR = 4.05, p = 0.005) in the TCGA 333-sample cohort [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -47,7 +48,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 ## Therapeutic relevance
 
-- IDH-targeted therapies (e.g., ivosidenib) motivate the search for surrogate endpoints such as tumor volume growth rate during active surveillance of IDH-mutant LGG [PMID:37910594](../papers/37910594.md).
+- IDH-targeted therapies (e.g., [ivosidenib](../drugs/ivosidenib.md)) motivate the search for surrogate endpoints such as tumor volume growth rate during active surveillance of IDH-mutant LGG [PMID:37910594](../papers/37910594.md).
 
 ## Open questions
 
@@ -93,5 +94,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

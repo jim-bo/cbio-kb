@@ -37,7 +37,7 @@ TSHR (Thyroid Stimulating Hormone Receptor) is a G protein-coupled receptor that
 ## Open questions
 
 - Specific somatic mutation frequency of TSHR in PTC and functional consequences of TSHR mutations (activating vs. inactivating) in the TCGA cohort are not detailed in the extracted data.
-- Whether TSHR expression level provides independent prognostic value beyond BRAFV600E and TERT promoter status in PTC requires prospective validation.
+- Whether TSHR expression level provides independent prognostic value beyond BRAFV600E and [TERT](../genes/TERT.md) promoter status in PTC requires prospective validation.
 
 ## Sources
 

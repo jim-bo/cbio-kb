@@ -28,11 +28,11 @@ SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial com
 
 ## Co-occurrence and mutual exclusivity
 
-- SDHB loss occurs in KIT/PDGFRA wild-type GIST [PMID:37477937](../papers/37477937.md).
+- SDHB loss occurs in KIT/PDGFRA wild-type [GIST](../cancer_types/GIST.md) [PMID:37477937](../papers/37477937.md).
 
 ## Therapeutic relevance
 
-- SDH-deficient GIST patients warrant closer surveillance, especially with concurrent [TP53](../genes/TP53.md) mutation or chr1q amplification [PMID:37477937](../papers/37477937.md).
+- SDH-deficient [GIST](../cancer_types/GIST.md) patients warrant closer surveillance, especially with concurrent [TP53](../genes/TP53.md) mutation or chr1q amplification [PMID:37477937](../papers/37477937.md).
 
 ## Open questions
 

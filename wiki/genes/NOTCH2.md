@@ -23,6 +23,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Referenced as a Notch-pathway co-actor in AdCC based on literature; no specific mutations reported in this cohort but implicated in Notch pathway oncogenesis in adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
 - Mutated in 51.3% of 39 aggressive cSCC cases; inactivating pattern paralleling [NOTCH1](../genes/NOTCH1.md); novel candidate tumor suppressor; mutation associated with perineural invasion (70% mutant vs 33% WT, p=0.04) and scalp/periorbital primary site (p=0.04) [PMID:25303977](../papers/25303977.md)
 - NOTCH2 inactivated in metastatic cSCC (n=29); part of the NOTCH1/2/4 inactivation pattern (24% with truncating/COSMIC mutations, up to 69% with missense included). [PMID:25589618](../papers/25589618.md)
+- In [PAAD](../cancer_types/PAAD.md), NOTCH2 alterations were present in 6% of cases as part of a broadly altered NOTCH pathway (31% total), nominating γ-secretase inhibitors. [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

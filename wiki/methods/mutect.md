@@ -9,7 +9,7 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -34,6 +34,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used alongside VarScan 2.2.5 for somatic variant calling in 78 gastric adenocarcinoma WES samples; identified 13,866 total somatic mutations including 8,558 missense and 576 nonsense variants [PMID:25583476](../papers/25583476.md)
 - Used for somatic SNV and indel calling in the AA CRC WES pipeline (29 discovery tumor/normal pairs), contributing to identification of 20 significantly mutated genes in African American MSS CRC [PMID:25583493](../papers/25583493.md)
 - Used for somatic SNV and indel calling (with OxoG artifact filtering) on 29 lymph-node metastases from cSCC patients sequenced with [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) (mean tumor coverage 82×); identified high UV mutation burden (~33 mut/Mb) and recurrent oncogenic alterations [PMID:25589618](../papers/25589618.md)
+- MuTect used for SNV calling in 109 microdissected PDA WES samples (≥14 tumor reads, ≥8 normal reads); 92% of 248 non-silent mutations validated by Sanger sequencing. [PMID:25855536](../papers/25855536.md)
+- MuTect used for somatic mutation calling in 150 mCRPC whole-exome samples (mean 160×/100× tumor/normal coverage). [PMID:26000489](../papers/26000489.md)
 
 ## Notes
 
@@ -77,3 +79,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

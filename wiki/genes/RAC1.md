@@ -3,8 +3,8 @@ symbol: RAC1
 aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -23,6 +23,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - RAC1 activation is driven by recurrent mutations in upstream regulators [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md), [TRIO](../genes/TRIO.md), [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), and [ECT2](../genes/ECT2.md) in esophageal adenocarcinoma (EAC), with downstream effector [PAK1](../genes/PAK1.md) recurrently amplified at 11q13; RAC1 itself is not directly mutated [PMID:23525077](../papers/23525077.md)
 - RAC1 P29S recurrent gain-of-function mutation found in 3/14 pre-treatment melanoma tumors of early-resistance patients (P=0.026); associated with early resistance to RAF inhibitors [PMID:24265153](../papers/24265153.md)
 - RAC1 P29S hotspot mutation identified in cutaneous squamous cell carcinoma (cSCC), at the same residue as reported in melanoma [PMID:25303977](../papers/25303977.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RAC1 is a UV-signature hot-spot significantly mutated gene occurring in 6.9% of cases; previously linked to BRAF-inhibitor resistance (Van Allen et al., 2014; Watson et al., 2014). [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -44,19 +45,22 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 
 - [PMID:38895302](../papers/38895302.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

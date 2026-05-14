@@ -25,6 +25,7 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 - Cited as a DLBCL driver gene appearing as rare mutation in multiple myeloma (MM) patients lacking the 11 canonical MM driver mutations; relevant to the somatic-hypermutation signature context in MM [PMID:24434212](../papers/24434212.md)
 - Co-amplified with [EGFR](../genes/EGFR.md) on chr 7p as a metastasis-private high-level amplification in one CRC patient (confirmed by FISH) [PMID:25164765](../papers/25164765.md)
 - CARD-domain mutations E24K and D199N disrupt autoinhibition in cutaneous squamous cell carcinoma (29-tumor NGS cohort); CARD11 activation correlated paradoxically with longer PFS [PMID:25589618](../papers/25589618.md)
+- Mutations in 30% of [PCNSL](../cancer_types/PCNSL.md) cases; one case with high-level amplification at 7p22; identified in genome-wide analysis of 18 [PCNSL](../cancer_types/PCNSL.md) samples [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -61,5 +62,8 @@ CARD11 is a scaffold protein in the CBM complex that couples [BCR](../genes/BCR.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

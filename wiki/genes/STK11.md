@@ -3,7 +3,7 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -18,6 +18,7 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Germline STK11 loss-of-function mutations define Peutz-Jeghers syndrome (PJS), included in the mandatory multigene panel for familial non-hereditary gastric cancer (FNHGC) workup; must be ruled out before FNHGC labeling. [PMID:24816255](../papers/24816255.md)
 - Inactivating mutations in 17% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); drives mTOR activation via LKB1/AMPK loss; defining co-feature of the PP (proximal-proliferative) transcriptional subtype with [KRAS](../genes/KRAS.md) co-mutation. [PMID:25079552](../papers/25079552.md)
 - PI3K/RAS negative regulator with inactivating events in 1–3 of 29 metastatic cSCC samples [PMID:25589618](../papers/25589618.md)
+- Additional cancer-gene lesion identified in KRAS-wildtype pancreatic ductal adenocarcinoma cases (109-case WES cohort). [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

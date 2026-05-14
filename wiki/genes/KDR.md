@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # KDR
@@ -16,8 +16,10 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 ## Alterations observed in the corpus
 
 - Amplification and gain-of-function (GOF) point mutations in 11% of RT-[ANGS](../cancer_types/ANGS.md) vs 24% of sporadic AS; depleted in RT-AS relative to sporadic AS [PMID:37350195](../papers/37350195.md).
-- Significantly mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); 4 kinase domain mutations; rare amplifications suggesting proto-oncogene role; mutations suggest potential benefit from VEGFR inhibitors such as [sorafenib](../drugs/sorafenib.md) or sunitinib. [PMID:18948947](../papers/18948947.md)
-- KDR (VEGFR2) is an anti-angiogenic target in NPC; inhibited by apatinib (VEGFR2 TKI, + camrelizumab ORR 43.3% in ICI-refractory R/M NPC), surufatinib, axitinib, anlotinib, and cabozantinib. [PMID:24952746](../papers/24952746.md)
+- Significantly mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); 4 kinase domain mutations; rare amplifications suggesting proto-oncogene role; mutations suggest potential benefit from VEGFR inhibitors such as [sorafenib](../drugs/sorafenib.md) or [sunitinib](../drugs/sunitinib.md). [PMID:18948947](../papers/18948947.md)
+- KDR (VEGFR2) is an anti-angiogenic target in [NPC](../cancer_types/NPC.md); inhibited by [apatinib](../drugs/apatinib.md) (VEGFR2 TKI, + [camrelizumab](../drugs/camrelizumab.md) ORR 43.3% in ICI-refractory R/M [NPC](../cancer_types/NPC.md)), [surufatinib](../drugs/surufatinib.md), [axitinib](../drugs/axitinib.md), [anlotinib](../drugs/anlotinib.md), and [cabozantinib](../drugs/cabozantinib.md). [PMID:24952746](../papers/24952746.md)
+- KDR (VEGFR2) identified as a low-frequency FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (<1% frequency); co-amplified with [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) at 4q12 in the Triple-WT melanoma subtype [PMID:25822088](../papers/25822088.md)
+- KDR co-amplified with [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) at 4q12 in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); part of rationale for [sorafenib](../drugs/sorafenib.md), [crenolanib](../drugs/crenolanib.md), [regorafenib](../drugs/regorafenib.md), and [pazopanib](../drugs/pazopanib.md) in this subtype [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -39,10 +41,16 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 
 - [PMID:37350195](../papers/37350195.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

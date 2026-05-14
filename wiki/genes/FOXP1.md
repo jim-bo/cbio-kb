@@ -3,8 +3,8 @@ symbol: FOXP1
 aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FOXP1
@@ -19,8 +19,10 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - FOXP1 was recurrently altered in prostate cancer as identified by integrative genomic profiling of the MSKCC cohort [PMID:20579941](../papers/20579941.md)
 - Copy-number alteration observed in lung squamous cell carcinoma (178 tumors, TCGA) [PMID:22960745](../papers/22960745.md)
 - Early clonal deletion in the consensus prostate cancer progression path; one of the earliest detectable lesions identified by chromoplexy analysis [PMID:23622249](../papers/23622249.md)
-- Co-deleted in a 3p13 focal deletion identified by both aCGH and low-pass WGS in a prostate cancer FFPE biopsy proof-of-principle cohort; co-deleted with RYBP and SHQ1 [PMID:25024180](../papers/25024180.md)
+- Co-deleted in a 3p13 focal deletion identified by both aCGH and low-pass WGS in a prostate cancer FFPE biopsy proof-of-principle cohort; co-deleted with [RYBP](../genes/RYBP.md) and [SHQ1](../genes/SHQ1.md) [PMID:25024180](../papers/25024180.md)
 - Located in 3p21 focal heterozygous deletion region in MSK-PCa1 and MSK-PCa7 prostate cancer cell lines [PMID:25201530](../papers/25201530.md)
+- Recurrent 3p14 gain with breakpoints suggesting translocation in [PCNSL](../cancer_types/PCNSL.md) [PMID:25991819](../papers/25991819.md)
+- Recurrent fusion partner in melanoma: MITF-FOXP1 fusion identified in BRAF-subtype cutaneous melanoma [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +44,18 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:25991819](../papers/25991819.md)
+
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

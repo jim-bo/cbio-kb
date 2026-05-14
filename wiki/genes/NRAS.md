@@ -48,6 +48,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Hotspot mutations absent in 39-case aggressive cSCC cohort — explicit negative finding distinguishing cSCC from other squamous and melanocytic malignancies [PMID:25303977](../papers/25303977.md)
 - NRAS codon 12/61 SSNVs in 52/402 (12.9%) PTC tumors along with HRAS/KRAS; characterize the follicular variant and drive the RL phenotype; mutually exclusive with BRAFV600E [PMID:25417114](../papers/25417114.md)
 - NRAS mutation status used as a baseline driver-mutation stratifier in melanoma patients receiving CTLA-4 blockade (ipilimumab/tremelimumab); no significant enrichment by clinical benefit category was observed [PMID:25409260](../papers/25409260.md)
+- In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), NRAS is mutated in 28% of cases; dominant hot-spots are Q61R (35), Q61K (28), Q61L (11), Q61H (4); defines the RAS genomic subtype. Mutations are mutually exclusive with [BRAF](../genes/BRAF.md) V600/K601 hot-spots; NRAS amplifications co-occur with NRAS mutations. Highest phospho-ERK1/2 by RPPA in RAS subtype. [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -157,5 +158,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25409260](../papers/25409260.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

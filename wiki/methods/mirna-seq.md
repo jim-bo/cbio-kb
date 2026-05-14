@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, non-coding-rna, expression]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -20,6 +20,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Applied to 66 ChRCC tumors in the TCGA ChRCC project alongside RNA-seq, HM450 methylation, and Affymetrix SNP6 profiling; miRNA expression correlates of patient survival were assessed. [PMID:25155756](../papers/25155756.md)
 - Applied in TCGA PTC study to identify oncomiRs (miR-21, miR-146b) and tumor-suppressor miR-204 differentially expressed between BRAFV600E-like and RAS-like thyroid carcinoma subtypes [PMID:25417114](../papers/25417114.md)
 - Applied in TCGA [HNSC](../cancer_types/HNSC.md) profiling (n=279); identified decreased let-7c-5p and miR-100-5p in tumors vs normal, with their deletion associated with increased expression of target oncogenes [CDK6](../genes/CDK6.md), [E2F1](../genes/E2F1.md), [PLK1](../genes/PLK1.md), and [HMGA2](../genes/HMGA2.md) [PMID:25631445](../papers/25631445.md)
+- microRNA sequencing on 323 melanoma samples contributed to iCluster integrative analysis identifying a CIMP + keratin + miRNA-cluster-3 group and a hypomethylation + MITF-expression cluster. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -34,3 +35,6 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

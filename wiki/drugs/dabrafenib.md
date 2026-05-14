@@ -23,6 +23,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - WES of 45 [BRAF](../genes/BRAF.md) V600 melanoma patients treated with [vemurafenib](../drugs/vemurafenib.md) or dabrafenib identified [MAP2K2](../genes/MAP2K2.md) mutations (V35M, L46F, C125S, N126D) conferring >100-fold cross-resistance to dabrafenib and [trametinib](../drugs/trametinib.md); [MAP2K1](../genes/MAP2K1.md) mutants conferred 10–80-fold dabrafenib resistance in A375 cells [PMID:24265153](../papers/24265153.md)
 - In multiple myeloma, dabrafenib paradoxically activated MAPK and promoted growth in BRAF-WT, KRAS/NRAS-mutant cell lines; conversely, dabrafenib + [trametinib](../drugs/trametinib.md) combined selectively killed BRAF-mutant (K601N) U266 MM cells without benefit in BRAF-WT lines [PMID:24434212](../papers/24434212.md)
 - [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:25526346](../papers/25526346.md)
+- One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant subtype of cutaneous melanoma (52% of 318 TCGA cases; V600E n=124, V600K n=18, V600R n=3, K601 n=5); nominated alongside [vemurafenib](../drugs/vemurafenib.md) and [trametinib](../drugs/trametinib.md) in TCGA melanoma integrative analysis [PMID:26091043](../papers/26091043.md)
 
 ## Resistance mechanisms
 
@@ -48,5 +49,8 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

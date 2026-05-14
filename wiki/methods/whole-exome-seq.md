@@ -89,14 +89,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 10 ccRCC primary tumors (79 samples, 8–12 regions each) via Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth) to characterize intratumor heterogeneity; 92.5% of candidate mutations validated by ultra-deep amplicon sequencing [PMID:24487277](../papers/24487277.md)
 - Used for Discovery Cohort of 20 paired [ESCC](../cancer_types/ESCC.md) germline/tumor samples (mean coverage 79×) to identify novel significantly mutated genes including [FAT1](../genes/FAT1.md), [FAT2](../genes/FAT2.md), [ZNF750](../genes/ZNF750.md), and [KMT2D](../genes/KMT2D.md) [PMID:24686850](../papers/24686850.md)
 - Referenced in [HCC](../cancer_types/HCC.md) genomics review (Llovet et al.) summarizing WES/WGS-based identification of recurrent drivers ([TERT](../genes/TERT.md) promoter, [TP53](../genes/TP53.md), [CTNNB1](../genes/CTNNB1.md)) across hepatocellular carcinoma cohorts [PMID:24735922](../papers/24735922.md)
-- Used for whole-exome sequencing of >1,200 [HCC](../cancer_types/HCC.md) patients to characterise the mutational landscape of hepatocellular carcinoma, including [TERT](../genes/TERT.md), [CTNNB1](../genes/CTNNB1.md), and TP53 alterations [PMID:24798001](../papers/24798001.md)
+- Used for whole-exome sequencing of >1,200 [HCC](../cancer_types/HCC.md) patients to characterise the mutational landscape of hepatocellular carcinoma, including [TERT](../genes/TERT.md), [CTNNB1](../genes/CTNNB1.md), and [TP53](../genes/TP53.md) alterations [PMID:24798001](../papers/24798001.md)
 - Used for exome sequencing of 28 thymic epithelial tumors (tumor/normal pairs) to discover the recurrent [GTF2I](../genes/GTF2I.md) p.Leu404His hotspot mutation enriched in type A/AB thymomas [PMID:24816255](../papers/24816255.md)
 - Applied to 28 [TET](../cancer_types/TET.md) tumor/normal pairs to identify recurrent [GTF2I](../genes/GTF2I.md) c.74146970T>A missense mutation; pipeline used Novoalign + GATK + VarScan2 + SnpEff + Annovar [PMID:24974848](../papers/24974848.md)
 - Whole-exome sequencing of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) identified 25 significantly mutated genes in non-hypermutated tumors; exome-based mutation rates supported MSI classification and subtype-specific mutation enrichments [PMID:25079317](../papers/25079317.md)
 - WES of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) at mean 97.6x tumor / 95.8x germline coverage identified 18 significantly mutated genes including novel [RIT1](../genes/RIT1.md) activating mutations and [MGA](../genes/MGA.md) loss-of-function; mean somatic mutation rate 8.87 mutations/Mb [PMID:25079552](../papers/25079552.md)
 - Used to sequence pre-treatment tumors from 50 muscle-invasive urothelial carcinoma patients (mean coverage 121× tumor/130× germline, SureSelect v2 Exome bait, Illumina HiSeq, aligned to hg19) to identify [ERCC2](../genes/ERCC2.md) mutations associated with [cisplatin](../drugs/cisplatin.md) response. [PMID:25096233](../papers/25096233.md)
 - Used to sequence 66 primary chromophobe renal cell carcinoma (ChRCC) tumors (NimbleGen VCRome 2.1 42MB bait, Illumina HiSeq, 90% target coverage ≥20×) as part of the TCGA ChRCC project. [PMID:25155756](../papers/25155756.md)
-- Used to characterize seven patient-derived prostate cancer organoid lines (MSK-PCa1–7) from metastatic biopsies (Agilent SureSelectXT2, ~250× nominal, mean ~142×), identifying [PTEN](../genes/PTEN.md), TP53, [SPOP](../genes/SPOP.md), [CHD1](../genes/CHD1.md), and other driver alterations. [PMID:25201530](../papers/25201530.md)
+- Used to characterize seven patient-derived prostate cancer organoid lines (MSK-PCa1–7) from metastatic biopsies (Agilent SureSelectXT2, ~250× nominal, mean ~142×), identifying [PTEN](../genes/PTEN.md), [TP53](../genes/TP53.md), [SPOP](../genes/SPOP.md), [CHD1](../genes/CHD1.md), and other driver alterations. [PMID:25201530](../papers/25201530.md)
 - Used to sequence 22 gynaecologic carcinosarcomas (17 uterine, 5 ovarian) paired with matched normal; Agilent SureSelect 51 Mb capture, Illumina HiSeq 2000, mean 191× coverage; identified chromatin-remodelling gene mutations in ~two-thirds of cases [PMID:25233892](../papers/25233892.md)
 - Used in discovery cohort of 15 MPNSTs (12 patients) profiled with SNP6.0 and RNA-seq; WES identified EED/SUZ12 loss-of-function alterations in 80% of MPNSTs [PMID:25240281](../papers/25240281.md)
 - Used for 39 aggressive head-and-neck cSCC tumors paired with matched normal lymphocytes; HGSC VCRome 2.1 42 Mb capture, Illumina HiSeq 2000, mean 115× coverage; revealed extreme UV mutation burden (median 61.2 mutations/Mb) and 23 candidate driver genes [PMID:25303977](../papers/25303977.md)
@@ -105,8 +105,13 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - 402 of 496 papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) tumor/normal pairs sequenced at mean 97×/94.9× depth as part of the TCGA multiplatform characterization; yielded 0.41 non-synonymous mutations/Mb, a low density relative to most carcinomas [PMID:25417114](../papers/25417114.md)
 - Applied to 78 primary gastric adenocarcinomas (mean 167× tumor / 170× normal, Agilent SureSelect, HiSeq 2000) to discover 16 significantly mutated genes and identify a high-clonality (HiC) subtype with significantly shorter survival (adjusted HR 4.69, P=0.0043) [PMID:25583476](../papers/25583476.md)
 - Used for discovery sequencing of 29 AA MSS CRC tumor/normal pairs (custom Agilent SureSelectXT bait library); 2,696 protein-altering mutations detected across 2,156 genes, identifying 20 significantly mutated genes including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific CRC drivers [PMID:25583493](../papers/25583493.md)
-- Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors (mean coverage 95×; 82% of target bases ≥30×) as part of TCGA multi-platform profiling; identified 11 significantly mutated genes by MutSigCV including TP53 (72%), [FAT1](../genes/FAT1.md) (23%), [PIK3CA](../genes/PIK3CA.md) (21%), and [NOTCH1](../genes/NOTCH1.md) (19%) [PMID:25631445](../papers/25631445.md)
+- Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors (mean coverage 95×; 82% of target bases ≥30×) as part of TCGA multi-platform profiling; identified 11 significantly mutated genes by MutSigCV including [TP53](../genes/TP53.md) (72%), [FAT1](../genes/FAT1.md) (23%), [PIK3CA](../genes/PIK3CA.md) (21%), and [NOTCH1](../genes/NOTCH1.md) (19%) [PMID:25631445](../papers/25631445.md)
 - Used on 34 paired tumor/normal samples from [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md) (mean target coverage 164×; 94.5% of target ≥10×); higher nonsynonymous mutation burden (cutoff ≥178 mutations) significantly associated with durable clinical benefit and prolonged PFS [PMID:25765070](../papers/25765070.md)
+- Applied Agilent SureSelect whole-exome capture (v2/v3/v4/v5+UTRs) on Illumina HiSeq 2000 to profile 243 [HCC](../cancer_types/HCC.md) tumors at mean 72× depth for somatic mutation and mutational-signature analysis. [PMID:25822088](../papers/25822088.md)
+- Used for somatic SNV/indel discovery in 109 microdissected pancreatic ductal adenocarcinoma cases (TruSeq/Nextera capture, Illumina HiSeq 2500, mean 51× depth); microdissection substantially increased mutation yield versus bulk tissue. [PMID:25855536](../papers/25855536.md)
+- Applied to 10 [PCNSL](../cancer_types/PCNSL.md) cases (SureSelect 50 Mb, HiSeq2000, mean 65.6M mapped reads, median 80% exome at ≥30×) for somatic SNV and indel calling to identify NF-κB pathway drivers including [MYD88](../genes/MYD88.md) L265P. [PMID:25991819](../papers/25991819.md)
+- SureSelect Exome v4 sequencing at mean 160×/100× (tumor/normal) in 150 mCRPC cases enabled comprehensive somatic profiling revealing 89% actionable alterations. [PMID:26000489](../papers/26000489.md)
+- Applied to 320 cutaneous melanoma samples (Agilent SureSelect Human All Exon v2.0 44 Mb, HiSeq 2×76 bp, ~87× mean coverage) enabling identification of 13 significantly mutated genes including novel [DDX3X](../genes/DDX3X.md) and four genomic subtypes. [PMID:26091043](../papers/26091043.md)
 
 ## Notes
 
@@ -341,5 +346,20 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

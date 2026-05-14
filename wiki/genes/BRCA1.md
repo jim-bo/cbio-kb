@@ -52,6 +52,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Direct EWS::[FLI1](../genes/FLI1.md) transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:25186949](../papers/25186949.md)
 - Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:25526346](../papers/25526346.md)
 - No mutations observed in the 78-case discovery cohort of gastric cancer; contrast with [BRCA2](../genes/BRCA2.md) which was mutated in 5.8% of cases [PMID:25583476](../papers/25583476.md)
+- DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDA clusters; nominates [olaparib](../drugs/olaparib.md) (PARP inhibitor) and cross-linking agents (mitomycin-C) as therapeutic candidates [PMID:25855536](../papers/25855536.md)
+- Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; part of 22.7% broader DNA-repair alteration rate [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -136,5 +138,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

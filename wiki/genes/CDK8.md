@@ -25,11 +25,11 @@ CDK8 (cyclin-dependent kinase 8) is a transcriptional regulator and component of
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with MYC and co-occurring with [KRAS](../genes/KRAS.md) gain-of-function in ovarian MiNEN PN19 [PMID:24326773](../papers/24326773.md)
+- Co-amplified with [MYC](../genes/MYC.md) and co-occurring with [KRAS](../genes/KRAS.md) gain-of-function in ovarian MiNEN PN19 [PMID:24326773](../papers/24326773.md)
 
 ## Therapeutic relevance
 
-- No direct CDK8-inhibitor recommendation made in source paper; co-occurrence with MYC amplification flagged as marker of aggressive, chemo-resistant disease [PMID:24326773](../papers/24326773.md)
+- No direct CDK8-inhibitor recommendation made in source paper; co-occurrence with [MYC](../genes/MYC.md) amplification flagged as marker of aggressive, chemo-resistant disease [PMID:24326773](../papers/24326773.md)
 
 ## Open questions
 

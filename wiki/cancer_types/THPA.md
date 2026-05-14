@@ -24,14 +24,14 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [BRAF](../genes/BRAF.md) — V600E is the dominant driver in PTC (50.9% of PTCs vs. 21.3% of ATCs); mutually exclusive with RAS; half of [BRAF](../genes/BRAF.md) V600E variants in co-occurring cases were found only in the DTC component. [PMID:38412093](../papers/38412093.md)
 - [NRAS](../genes/NRAS.md) — recurrently mutated in PTC/ATC; no frequency difference between PTC and ATC. [PMID:38412093](../papers/38412093.md)
 - [TP53](../genes/TP53.md) — rare in PTC (0.9% vs. 36.8% in ATC); stepwise enrichment defines dedifferentiation to ATC. [PMID:38412093](../papers/38412093.md)
-- [TERT](../genes/TERT.md) — promoter mutations; co-occurs with [TP53](../genes/TP53.md) mutations in BRAF fusion-positive thyroid cancers (73% of BRAF fusion thyroid cancers). [PMID:38922339](../papers/38922339.md)
+- [TERT](../genes/TERT.md) — promoter mutations; co-occurs with [TP53](../genes/TP53.md) mutations in [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (73% of [BRAF](../genes/BRAF.md) fusion thyroid cancers). [PMID:38922339](../papers/38922339.md)
 - [CDKN2A](../genes/CDKN2A.md) — rare in PTC (~5%) vs. 42% in ATC; marks dedifferentiation. [PMID:38412093](../papers/38412093.md)
-- TCGA multiplatform genomic characterization of 496 PTCs identified 7 significantly mutated genes (BRAF V600E in 61.7%, RAS in 12.9%, [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md)), reduced 'dark matter' from ~25% to 3.5%, and defined BRAFV600E-like vs. RAS-like molecular subtypes with distinct signaling, differentiation, and clinical outcomes [PMID:25417114](../papers/25417114.md).
+- TCGA multiplatform genomic characterization of 496 PTCs identified 7 significantly mutated genes ([BRAF](../genes/BRAF.md) V600E in 61.7%, RAS in 12.9%, [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md)), reduced 'dark matter' from ~25% to 3.5%, and defined BRAFV600E-like vs. RAS-like molecular subtypes with distinct signaling, differentiation, and clinical outcomes [PMID:25417114](../papers/25417114.md).
 
 ## Subtypes
 
 - PTC shares common clonal ancestor with co-occurring ATC regions, with the ATC diverging through acquisition of [TP53](../genes/TP53.md), [PIK3CA](../genes/PIK3CA.md), and [CDKN2A](../genes/CDKN2A.md) alterations. [PMID:38412093](../papers/38412093.md)
-- BRAF fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired BRAF fusions. [PMID:38922339](../papers/38922339.md)
+- [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (THPA subset) identified as an acquired resistance mechanism to prior targeted therapy in 1/15 patients with acquired BRAF fusions. [PMID:38922339](../papers/38922339.md)
 - BRAF fusions co-occur with [TERT](../genes/TERT.md) mutations in 73% of BRAF fusion thyroid cancers. [PMID:38922339](../papers/38922339.md)
 
 ## Therapeutic landscape

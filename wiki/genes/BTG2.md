@@ -4,7 +4,7 @@ aliases: [TIS21, PC3]
 cancer_types: [BLCA]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # BTG2
@@ -16,25 +16,29 @@ BTG2 (BTG Anti-Proliferation Factor 2) encodes an anti-proliferative protein tha
 ## Alterations observed in the corpus
 
 - Identified as one of 9 novel significantly mutated genes (SMGs) not previously reported as significantly mutated in any cancer; significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md), n=131) by MutSig 1.5 (FDR<0.1) in the TCGA bladder urothelial carcinoma study [PMID:24476821](../papers/24476821.md)
+- Mutations in 30% of [PCNSL](../cancer_types/PCNSL.md) cases (n=18); identified in genome-wide analysis of primary central nervous system lymphoma [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
-- Bladder urothelial carcinoma (BLCA): novel SMG identified by TCGA; exact mutation frequency not reported separately from the broader SMG list; part of the 32 SMGs in 131 chemotherapy-naive muscle-invasive tumors [PMID:24476821](../papers/24476821.md)
+- Bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)): novel SMG identified by TCGA; exact mutation frequency not reported separately from the broader SMG list; part of the 32 SMGs in 131 chemotherapy-naive muscle-invasive tumors [PMID:24476821](../papers/24476821.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- No specific co-occurrence patterns reported; identified in the context of the dominant chromatin-regulator mutation landscape of BLCA (76% of tumours with inactivating chromatin regulator mutations) [PMID:24476821](../papers/24476821.md)
+- No specific co-occurrence patterns reported; identified in the context of the dominant chromatin-regulator mutation landscape of [BLCA](../cancer_types/BLCA.md) (76% of tumours with inactivating chromatin regulator mutations) [PMID:24476821](../papers/24476821.md)
 
 ## Therapeutic relevance
 
-- No targeted therapy data. As an anti-proliferative tumor suppressor, BTG2 loss could contribute to cell cycle deregulation in BLCA; no specific therapeutic strategy reported [PMID:24476821](../papers/24476821.md)
+- No targeted therapy data. As an anti-proliferative tumor suppressor, BTG2 loss could contribute to cell cycle deregulation in [BLCA](../cancer_types/BLCA.md); no specific therapeutic strategy reported [PMID:24476821](../papers/24476821.md)
 
 ## Open questions
 
-- Mutation frequency and specific variant spectrum of BTG2 in BLCA not detailed in the primary publication; functional role of BTG2 loss in bladder carcinogenesis requires validation [PMID:24476821](../papers/24476821.md)
+- Mutation frequency and specific variant spectrum of BTG2 in [BLCA](../cancer_types/BLCA.md) not detailed in the primary publication; functional role of BTG2 loss in bladder carcinogenesis requires validation [PMID:24476821](../papers/24476821.md)
 
 ## Sources
 
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

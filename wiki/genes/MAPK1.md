@@ -4,7 +4,7 @@ aliases: [ERK2]
 cancer_types: [BRAF-fusion, CRC]
 tags: [MAPK-pathway, kinase, co-mutation]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # MAPK1
@@ -15,17 +15,18 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 ## Alterations observed in the corpus
 
-- [MSH3](../genes/MSH3.md) (not MAPK1 directly) was identified as a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers, along with [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md), and [ARID1A](../genes/ARID1A.md); MAPK pathway activation is a central mechanistic theme of BRAF fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
+- [MSH3](../genes/MSH3.md) (not MAPK1 directly) was identified as a frequent co-mutation in [BRAF](../genes/BRAF.md) fusion-positive colorectal cancers, along with [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md), and [ARID1A](../genes/ARID1A.md); MAPK pathway activation is a central mechanistic theme of [BRAF](../genes/BRAF.md) fusions across 52 histologies [PMID:38922339](../papers/38922339.md).
 - Alterations in near haploid ALL contributing to RTK/Ras pathway activation (70.6% of near haploid cases with combined RTK/Ras alterations; St. Jude, 44 tumors) [PMID:23334668](../papers/23334668.md)
 - [CRKL](../genes/CRKL.md)–MAPK1 singleton sense-preserving fusion detected in prostate tumor P04-1084 via chromoplexy; MAPK1 kinase domain intact in fusion product, hypothesized to drive aberrant ERK2 kinase activity [PMID:23622249](../papers/23622249.md)
+- Phospho-ERK1/2 (T202/Y204, MAPK1/MAPK3) highest in RAS-mutant melanoma subtype by RPPA in the TCGA 333-sample cutaneous melanoma cohort; reflects hyperactivation of MAPK signalling in NRAS/HRAS/KRAS-mutant tumours [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
-- BRAF fusion-positive cancers (multiple histologies) — MAPK pathway activation via constitutive BRAF dimerization is the unifying oncogenic mechanism [PMID:38922339](../papers/38922339.md).
+- [BRAF](../genes/BRAF.md) fusion-positive cancers (multiple histologies) — MAPK pathway activation via constitutive [BRAF](../genes/BRAF.md) dimerization is the unifying oncogenic mechanism [PMID:38922339](../papers/38922339.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Not specifically reported in the corpus for MAPK1 itself; co-mutations in MAPK pathway context include [MSH3](../genes/MSH3.md), [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md) in colorectal BRAF fusion-positive cases [PMID:38922339](../papers/38922339.md).
+- Not specifically reported in the corpus for MAPK1 itself; co-mutations in MAPK pathway context include [MSH3](../genes/MSH3.md), [RNF43](../genes/RNF43.md), [KMT2D](../genes/KMT2D.md) in colorectal [BRAF](../genes/BRAF.md) fusion-positive cases [PMID:38922339](../papers/38922339.md).
 
 ## Therapeutic relevance
 
@@ -39,10 +40,13 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

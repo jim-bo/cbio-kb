@@ -32,7 +32,7 @@ NFKBIA (IkBα) encodes the primary inhibitor of the NF-kB transcription factor f
 
 ## Open questions
 
-- The relative contributions of NFKBIA loss versus MYD88 gain-of-function to NF-kB activation in individual DLBCL tumors remain to be fully characterized [PMID:22343534](../papers/22343534.md)
+- The relative contributions of NFKBIA loss versus [MYD88](../genes/MYD88.md) gain-of-function to NF-kB activation in individual DLBCL tumors remain to be fully characterized [PMID:22343534](../papers/22343534.md)
 
 ## Sources
 

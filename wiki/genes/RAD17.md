@@ -19,13 +19,13 @@ RAD17 (RAD17 checkpoint clamp loader component) is a key component of the DNA da
 
 ## Cancer types (linked)
 
-- **NSCLC**: Nonsense mutations in pembrolizumab-treated cohort; observed in DCB patients [PMID:25765070](../papers/25765070.md)
+- **[NSCLC](../cancer_types/NSCLC.md)**: Nonsense mutations in pembrolizumab-treated cohort; observed in DCB patients [PMID:25765070](../papers/25765070.md)
 
 ## Co-occurrence and mutual exclusivity
 
 ## Therapeutic relevance
 
-- Defective DNA damage response via RAD17 loss may contribute to elevated tumor mutation burden, which predicts durable clinical benefit from [pembrolizumab](../drugs/pembrolizumab.md) in NSCLC [PMID:25765070](../papers/25765070.md)
+- Defective DNA damage response via RAD17 loss may contribute to elevated tumor mutation burden, which predicts durable clinical benefit from [pembrolizumab](../drugs/pembrolizumab.md) in [NSCLC](../cancer_types/NSCLC.md) [PMID:25765070](../papers/25765070.md)
 
 ## Open questions
 

@@ -25,6 +25,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - PTCH1-mutated [NPC](../cancer_types/NPC.md) tumors targeted by [SMO](../genes/SMO.md) inhibitor [taladegib](../drugs/taladegib.md) (Hedgehog pathway; phase II trial in solid tumors) [PMID:24952746](../papers/24952746.md)
 - Mutated in 17% of aggressive cSCC cases; only 2 of 6 mutations were inactivating — contrasts with 75% inactivating rate in basal cell carcinoma; not identified as a driver in cSCC [PMID:25303977](../papers/25303977.md)
 - Gene with at least one identical previously COSMIC-reported mutation in the HNSCC TCGA cohort (n=279) [PMID:25631445](../papers/25631445.md)
+- In [PAAD](../cancer_types/PAAD.md), PTCH1 alterations occur in 2% of cases as part of the Hedgehog-pathway alterations ([GLI3](../genes/GLI3.md) 8%, [SMO](../genes/SMO.md) 8%, [LRP2](../genes/LRP2.md) 6%, [GLI2](../genes/GLI2.md) 3%, PTCH1 2%) in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -40,7 +41,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 ## Open questions
 
-- The non-significant association between PTCH1 mutation and nivolumab response (26% vs. 7%) requires validation in larger cohorts; the small sample size (n=35) limits statistical power [PMID:38653864](../papers/38653864.md).
+- The non-significant association between PTCH1 mutation and [nivolumab](../drugs/nivolumab.md) response (26% vs. 7%) requires validation in larger cohorts; the small sample size (n=35) limits statistical power [PMID:38653864](../papers/38653864.md).
 
 ## Sources
 
@@ -63,5 +64,8 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: CDKN1B
 aliases: [p27, KIP1]
 cancer_types: [PRAD]
 tags: [cell-cycle, tumor-suppressor, CDK-inhibitor, prostate-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CDKN1B
@@ -20,6 +20,7 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - CDKN1B mutations identified in breast cancer WES of 100 tumors, implicating cell cycle checkpoint loss in breast tumorigenesis [PMID:22722201](../papers/22722201.md)
 - Intermediate-clonality deletion in prostate carcinoma; recurrently disrupted in 3 cases via chromoplexy; co-deleted with ETV6/ETV3 in one 25-rearrangement chromoplexy chain [PMID:23622249](../papers/23622249.md)
 - Mutated as part of the significantly mutated cell-cycle gene set in multiple myeloma (MM, n=203); part of a 612-gene MSigDB scan that flagged cell-cycle genes as significantly mutated in this cohort [PMID:24434212](../papers/24434212.md)
+- Cell-cycle pathway aberration (RB1/CDKN2A/CDKN2B/CDK4 co-context) in mCRPC; potential [CDK4](../genes/CDK4.md) inhibitor candidate [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,14 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

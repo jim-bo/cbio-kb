@@ -15,7 +15,7 @@ S1PR2 (Sphingosine-1-Phosphate Receptor 2) is a G protein-coupled receptor that 
 
 ## Alterations observed in the corpus
 
-- Taurocholic-acid–activated S1PR2 triggers ERK/AKT/NF-kB signaling and PTGS2 (COX-2) induction in cholangiocarcinoma, suppressing CD8+ T-cell activity and recruiting regulatory T cells; JTE-013 antagonist suppresses tumor invasiveness in preclinical models [PMID:25608663](../papers/25608663.md)
+- Taurocholic-acid–activated S1PR2 triggers ERK/AKT/NF-kB signaling and [PTGS2](../genes/PTGS2.md) (COX-2) induction in cholangiocarcinoma, suppressing CD8+ T-cell activity and recruiting regulatory T cells; JTE-013 antagonist suppresses tumor invasiveness in preclinical models [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -23,7 +23,7 @@ S1PR2 (Sphingosine-1-Phosphate Receptor 2) is a G protein-coupled receptor that 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-acts with PTGS2 (COX-2) downstream in cholangiocarcinoma to suppress anti-tumor immunity [PMID:25608663](../papers/25608663.md)
+- Co-acts with [PTGS2](../genes/PTGS2.md) (COX-2) downstream in cholangiocarcinoma to suppress anti-tumor immunity [PMID:25608663](../papers/25608663.md)
 
 ## Therapeutic relevance
 

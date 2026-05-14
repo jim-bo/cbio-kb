@@ -4,7 +4,7 @@ aliases: [BLIMP1]
 cancer_types: [PRAD]
 tags: [mutation, transcription-factor, prostate-cancer]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # PRDM1
@@ -17,6 +17,7 @@ PRDM1 (PR Domain Zinc Finger Protein 1), also known as BLIMP1, is a transcriptio
 
 - PRDM1 somatic mutations identified in prostate cancer by WES of 112 primary tumors (Broad Institute cohort) [PMID:22610119](../papers/22610119.md)
 - Recurrent missense S552C and clustered S605R/S606I hotspot mutations plus truncating/splice mutations in multiple myeloma; supports PRDM1 (BLIMP1) as a plasma-cell tumor suppressor [PMID:24434212](../papers/24434212.md)
+- In [PCNSL](../cancer_types/PCNSL.md), PRDM1 (6q21) deletion occurs in 55% of cases (homozygous in 2/18); deletion is associated with shorter overall survival in univariate analysis (log-rank P=0.001). Also recurrently mutated (somatic mutations in a subset), consistent with its role in systemic DLBCL. [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ PRDM1 (PR Domain Zinc Finger Protein 1), also known as BLIMP1, is a transcriptio
 
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

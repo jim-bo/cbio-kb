@@ -81,6 +81,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS G12C identified as an activating mutation in metastatic cSCC (n=29); activating oncogene mutations in 11/29 (38%) samples were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
 - KRAS cited in the context of murine KRAS/p53 knockout cholangiocarcinoma models that inadequately recapitulate human cholestatic CCA pathophysiology; humanized or organoid systems proposed as alternatives. [PMID:25608663](../papers/25608663.md)
 - KRAS mutated in 7/14 DCB vs 1/17 NDB [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md); authors attribute the imbalance to the established smoking–KRAS association rather than a direct causal effect on PD-1 response. [PMID:25765070](../papers/25765070.md)
+- KRAS low-frequency alteration in [HCC](../cancer_types/HCC.md); part of MAP kinase pathway with low-frequency but FDA-druggable alterations in the 243-case European [HCC](../cancer_types/HCC.md) cohort [PMID:25822088](../papers/25822088.md)
+- KRAS mutated in 92% of pancreatic ductal adenocarcinomas (109-case WES cohort); codon-12 alleles (G12D/G12V/G12C/G12R/G12S) dominate; codon-61 alleles (Q61H/Q61K/Q61R) associated with favourable survival (P=0.01999) and lower pERK staining; mutually exclusive with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md) lesions [PMID:25855536](../papers/25855536.md)
+- KRAS rare hot-spot mutations (G12D/G12R/Q61R) in cutaneous melanoma (TCGA 333-sample cohort); mutually exclusive with [NRAS](../genes/NRAS.md) and [BRAF](../genes/BRAF.md) V600/K601 hot-spots; part of the RAS-mutant melanoma subtype [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -274,5 +277,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25822088](../papers/25822088.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

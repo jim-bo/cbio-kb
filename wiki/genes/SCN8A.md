@@ -15,11 +15,11 @@ SCN8A (Sodium Voltage-Gated Channel Alpha Subunit 8) encodes a voltage-gated sod
 
 ## Alterations observed in the corpus
 
-- Harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a [pembrolizumab](../drugs/pembrolizumab.md) NSCLC cohort; association not corrected for overall mutation burden and requires independent validation [PMID:25765070](../papers/25765070.md)
+- Harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a [pembrolizumab](../drugs/pembrolizumab.md) [NSCLC](../cancer_types/NSCLC.md) cohort; association not corrected for overall mutation burden and requires independent validation [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
-- **NSCLC**: Preferentially mutated in durable-clinical-benefit tumors on pembrolizumab [PMID:25765070](../papers/25765070.md)
+- **[NSCLC](../cancer_types/NSCLC.md)**: Preferentially mutated in durable-clinical-benefit tumors on [pembrolizumab](../drugs/pembrolizumab.md) [PMID:25765070](../papers/25765070.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -27,7 +27,7 @@ SCN8A (Sodium Voltage-Gated Channel Alpha Subunit 8) encodes a voltage-gated sod
 
 ## Open questions
 
-- Association with pembrolizumab response is confounded by overall mutation burden elevation in DCB tumors and has not been independently validated [PMID:25765070](../papers/25765070.md)
+- Association with [pembrolizumab](../drugs/pembrolizumab.md) response is confounded by overall mutation burden elevation in DCB tumors and has not been independently validated [PMID:25765070](../papers/25765070.md)
 
 ## Sources
 

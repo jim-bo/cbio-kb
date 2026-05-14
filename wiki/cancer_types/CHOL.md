@@ -28,13 +28,13 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 
 ## Subtypes
 
-- **Intrahepatic CCA (iCCA / [IHCH](IHCH.md)):** Enriched for IDH1/IDH2 mutations, FGFR2 fusions, [BAP1](../genes/BAP1.md) loss, [ARID1A](../genes/ARID1A.md) mutations; small-duct iCCA arises on chronic liver disease background; large-duct iCCA enriched for KRAS/TP53/TGF-β pathway.
-- **Extrahepatic CCA (eCCA / [EHCH](EHCH.md)):** Includes perihilar (Klatskin) and distal subtypes; enriched for KRAS, TP53, [SMAD4](../genes/SMAD4.md); higher [ERBB2](../genes/ERBB2.md) alteration frequency than iCCA.
+- **Intrahepatic CCA (iCCA / [IHCH](IHCH.md)):** Enriched for IDH1/IDH2 mutations, [FGFR2](../genes/FGFR2.md) fusions, [BAP1](../genes/BAP1.md) loss, [ARID1A](../genes/ARID1A.md) mutations; small-duct iCCA arises on chronic liver disease background; large-duct iCCA enriched for KRAS/TP53/TGF-β pathway.
+- **Extrahepatic CCA (eCCA / [EHCH](EHCH.md)):** Includes perihilar (Klatskin) and distal subtypes; enriched for [KRAS](../genes/KRAS.md), [TP53](../genes/TP53.md), [SMAD4](../genes/SMAD4.md); higher [ERBB2](../genes/ERBB2.md) alteration frequency than iCCA.
 - **Combined HCC-CCA:** Shares HBV-integration oncogenic mechanism ([TERT](../genes/TERT.md), [MET](../genes/MET.md)) with both [HCC](../cancer_types/HCC.md) and iCCA.
 
 ## Therapeutic landscape
 
-- **FGFR2 fusion/rearrangement (iCCA):** [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); [infigratinib](../drugs/infigratinib.md); [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) [PMID:25526346](../papers/25526346.md).
+- **[FGFR2](../genes/FGFR2.md) fusion/rearrangement (iCCA):** [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); [infigratinib](../drugs/infigratinib.md); [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) [PMID:25526346](../papers/25526346.md).
 - **[IDH1](../genes/IDH1.md) mutation (iCCA):** [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: significant PFS/OS benefit vs. placebo) [PMID:25526346](../papers/25526346.md).
 - **[ERBB2](../genes/ERBB2.md) alteration:** [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway: ORR 23%); [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (basket: ORR 22.0% in CCA) [PMID:25526346](../papers/25526346.md).
 - **[BRAF](../genes/BRAF.md) V600E (iCCA):** [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR: ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md).

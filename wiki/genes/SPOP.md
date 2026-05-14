@@ -3,7 +3,7 @@ symbol: SPOP
 aliases: []
 cancer_types: [PRAD, THPA]
 tags: [ubiquitin-ligase, tumor-suppressor, prostate, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -21,6 +21,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Heterozygous F133L hotspot mutation in MSK-PCa7; first in vitro prostate cancer model carrying this SPOP hotspot, enabling functional studies of this recurrent CRPC alteration [PMID:25201530](../papers/25201530.md)
 - SPOP mutated in 3/22 (14%) uterine/ovarian carcinosarcomas; missense mutations at E46K, E78K, M117V in/near the MATH domain [PMID:25233892](../papers/25233892.md)
 - SPOP is listed among candidate dark-matter driver genes in PTC; chromatin-remodeling/epigenetic regulator alterations spanning 93 mutations in 57 genes across 80/402 (20.0%) PTCs include SPOP as a putative driver requiring independent validation. [PMID:25417114](../papers/25417114.md)
+- [AR](../genes/AR.md) pathway regulator mutated in metastatic castration-resistant prostate cancer (150-case WGS/WES cohort); part of the AR-pathway regulatory network alongside [FOXA1](../genes/FOXA1.md), [NCOR1](../genes/NCOR1.md), [NCOR2](../genes/NCOR2.md). [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -42,19 +43,22 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 
 - [PMID:38488813](../papers/38488813.md)
 
-*This page was processed by **crosslinker** on **2026-04-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

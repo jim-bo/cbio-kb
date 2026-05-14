@@ -16,15 +16,15 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 ## Alterations observed in the corpus
 
 - SND1 was identified as a 5' fusion partner for [BRAF](../genes/BRAF.md) among 82 unique partners observed across 52 histologies in a tumor-agnostic [BRAF](../genes/BRAF.md) fusion cohort (n=nationwide retrospective analysis, MSK-IMPACT/MSK-Fusion) [PMID:38922339](../papers/38922339.md).
-- SND1 acts as a 5' fusion partner in SND1/BRAF fusions detected in 3/484 (0.6%) papillary thyroid carcinomas (PTCs); these BRAF fusions are BVL (BRAFV600E-like expression) and mutually exclusive with RAS/EIF1AX point mutations, suggesting targetability with BRAF inhibitors. [PMID:25417114](../papers/25417114.md)
+- SND1 acts as a 5' fusion partner in SND1/BRAF fusions detected in 3/484 (0.6%) papillary thyroid carcinomas (PTCs); these [BRAF](../genes/BRAF.md) fusions are BVL (BRAFV600E-like expression) and mutually exclusive with RAS/EIF1AX point mutations, suggesting targetability with [BRAF](../genes/BRAF.md) inhibitors. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
-- Not specifically linked to a single cancer type in the corpus; BRAF fusions involving SND1 were observed across diverse histologies [PMID:38922339](../papers/38922339.md).
+- Not specifically linked to a single cancer type in the corpus; [BRAF](../genes/BRAF.md) fusions involving SND1 were observed across diverse histologies [PMID:38922339](../papers/38922339.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- SND1-BRAF fusions co-occur with [TP53](../genes/TP53.md) mutations (22% across all histologies) and other frequent co-alterations in BRAF fusion-positive tumors [PMID:38922339](../papers/38922339.md).
+- SND1-BRAF fusions co-occur with [TP53](../genes/TP53.md) mutations (22% across all histologies) and other frequent co-alterations in [BRAF](../genes/BRAF.md) fusion-positive tumors [PMID:38922339](../papers/38922339.md).
 
 ## Therapeutic relevance
 

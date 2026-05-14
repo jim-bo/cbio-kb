@@ -22,7 +22,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 ## Cancer types (linked)
 
-- [NSCLC](../cancer_types/NSCLC.md) — EML4::ALK fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors [PMID:39289779](../papers/39289779.md).
+- [NSCLC](../cancer_types/NSCLC.md) — EML4::[ALK](../genes/ALK.md) fusions detected in CSF ctDNA from lung carcinoma patients with CNS tumors [PMID:39289779](../papers/39289779.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -30,7 +30,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 ## Therapeutic relevance
 
-- EML4::ALK fusions are level 1 OncoKB actionable alterations in [NSCLC](../cancer_types/NSCLC.md), targetable by ALK inhibitors; serial CSF ctDNA profiling identified emergence of ALK resistance mutations in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
+- EML4::[ALK](../genes/ALK.md) fusions are level 1 OncoKB actionable alterations in [NSCLC](../cancer_types/NSCLC.md), targetable by [ALK](../genes/ALK.md) inhibitors; serial CSF ctDNA profiling identified emergence of [ALK](../genes/ALK.md) resistance mutations in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
 
 ## Open questions
 

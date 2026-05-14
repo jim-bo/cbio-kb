@@ -8,8 +8,8 @@ tags:
   - apoptosis
   - somatic-mutation
   - whole-exome-sequencing
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # DDX3X
@@ -25,6 +25,7 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 - DDX3X mutations are recurrent in medulloblastoma across the ICGC WGS/WES cohort of 76 tumors, independently validating its role as a driver enriched in the WNT subgroup [PMID:22832583](../papers/22832583.md)
 - DDX3X is identified as a novel significantly mutated gene in medulloblastoma WES of 92 tumors (Broad cohort), with mutations concentrated in the WNT subgroup and showing male predominance [PMID:22820256](../papers/22820256.md)
 - Identified as significantly mutated in CLL (160 tumors, Broad cohort), with somatic mutations enriched in the RNA helicase domain [PMID:23415222](../papers/23415222.md)
+- Novel candidate SMG (RNA helicase) in cutaneous melanoma; previously unreported in melanoma [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -47,16 +48,14 @@ DDX3X encodes an X-linked DEAD-box RNA helicase involved in RNA metabolism, tran
 
 - [PMID:21798893](../papers/21798893.md) — The Mutational Landscape of Head and Neck Squamous Cell Carcinoma (Stransky et al., Science 2011)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [structural-variant, sequencing, genomics]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # Mate-Pair Sequencing
@@ -17,7 +17,8 @@ Mate-pair sequencing (long-insert paired-end sequencing) involves creating large
 
 ## Used by
 
-- Applied in ICGC PedBrain pilocytic astrocytoma study: long-insert mate-pair sequencing performed on 68/96 cases alongside WGS and RNA-seq for complementary structural variant detection; aided discovery of novel [BRAF](../genes/BRAF.md) fusion partners and confirmed [KIAA1549](../genes/KIAA1549.md):BRAF rearrangements [PMID:23817572](../papers/23817572.md)
+- Applied in ICGC PedBrain pilocytic astrocytoma study: long-insert mate-pair sequencing performed on 68/96 cases alongside WGS and RNA-seq for complementary structural variant detection; aided discovery of novel [BRAF](../genes/BRAF.md) fusion partners and confirmed [KIAA1549](../genes/KIAA1549.md):[BRAF](../genes/BRAF.md) rearrangements [PMID:23817572](../papers/23817572.md)
+- Mate-pair sequencing applied as part of multi-platform genomic workup of [PCNSL](../cancer_types/PCNSL.md) to detect structural rearrangements alongside aCGH, WES, targeted sequencing, Sanger, and FISH. [PMID:25991819](../papers/25991819.md)
 
 ## Notes
 
@@ -26,4 +27,7 @@ Mate-pair sequencing (long-insert paired-end sequencing) involves creating large
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

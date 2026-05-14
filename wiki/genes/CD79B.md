@@ -6,22 +6,23 @@ cancer_types:
   - DLBCLNOS
 tags:
   - bcr-pathway
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CD79B
 
 ## Overview
 
-CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutations (notably Y196) drive chronic active BCR signaling and are recurrent in activated B-cell DLBCL and primary CNS lymphoma.
+CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutations (notably Y196) drive chronic active [BCR](../genes/BCR.md) signaling and are recurrent in activated B-cell DLBCL and primary CNS lymphoma.
 
 ## Alterations observed in the corpus
 
 - Mutated in 48% of PCNSLs profiled with [MSK-HemePACT](../methods/msk-hemepact.md) in the MSK [ibrutinib](../drugs/ibrutinib.md) phase II trial [PMID:38995739](../papers/38995739.md).
 - Mutations serve as a key classifier for the MCD subtype in the LymphGen molecular classification algorithm, alongside [MYD88](../genes/MYD88.md) mutations; detectable by targeted 400-gene clinical NGS panels (e.g., MSK-IMPACT Heme) with high fidelity [PMID:38497151](../papers/38497151.md).
-- Identified as recurrently mutated in DLBCL and FL by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
+- Identified as recurrently mutated in DLBCL and [FL](../cancer_types/FL.md) by whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
+- Activating mutations in 40% of [PCNSL](../cancer_types/PCNSL.md) cases; frequently co-occur with [MYD88](../genes/MYD88.md) L265P mutations (3 of 4 CD79B-mutant cases); higher prevalence than nodal DLBCL [PMID:25991819](../papers/25991819.md)
 
 ## Cancer types (linked)
 
@@ -45,10 +46,13 @@ CD79B encodes the Ig-beta component of the B-cell receptor. ITAM-domain mutation
 - [PMID:38995739](../papers/38995739.md)
 - [PMID:38497151](../papers/38497151.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25991819](../papers/25991819.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

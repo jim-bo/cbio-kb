@@ -33,9 +33,13 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Deleted in ALL (St. Jude WGS/WES, 44 tumors); CDKN2B deletion co-occurs with [CDKN2A](../genes/CDKN2A.md) deletion in pediatric acute lymphoblastic leukemia, compounding loss of cell-cycle inhibition [PMID:23334668](../papers/23334668.md)
 - 9p21.3 homozygous deletion co-occurring with [CDKN2A](../genes/CDKN2A.md) deletion in high-grade bladder tumors [PMID:23897969](../papers/23897969.md)
 - Homozygous focal deletion at 9p21 in 50/99 (50%) of bladder TCC tumors, co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:24121792](../papers/24121792.md)
-- Homozygous deletion together with CDKN2A in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
-- Deletion/mutation in 15–27% of intrahepatic CCA and 19% of extrahepatic CCA (co-deleted with CDKN2A); deletion emergence as an acquired-resistance mechanism in [FGFR2](../genes/FGFR2.md) fusion-positive iCCA after FGFR inhibitor therapy [PMID:25526346](../papers/25526346.md)
-- 9p21 deletion peak co-affected with CDKN2A in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
+- Homozygous deletion together with [CDKN2A](../genes/CDKN2A.md) in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
+- Deletion/mutation in 15–27% of intrahepatic CCA and 19% of extrahepatic CCA (co-deleted with [CDKN2A](../genes/CDKN2A.md)); deletion emergence as an acquired-resistance mechanism in [FGFR2](../genes/FGFR2.md) fusion-positive iCCA after FGFR inhibitor therapy [PMID:25526346](../papers/25526346.md)
+- 9p21 deletion peak co-affected with [CDKN2A](../genes/CDKN2A.md) in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
+- Frequently deleted in PDAC (36% in pathway analysis); dominant RB-pathway lesion co-occurring with CDK4/CCND1 amplification [PMID:25855536](../papers/25855536.md)
+- 9p21.3 deletion in 83% of [PCNSL](../cancer_types/PCNSL.md) (homozygous in 55%), co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:25991819](../papers/25991819.md)
+- Cell-cycle pathway aberration in mCRPC; potential [CDK4](../genes/CDK4.md) inhibitor candidate [PMID:26000489](../papers/26000489.md)
+- Alterations evenly distributed across BRAF/RAS/NF1 melanoma subtypes [PMID:26091043](../papers/26091043.md)
 
 ## Cancer types (linked)
 
@@ -76,31 +80,30 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+- [PMID:25855536](../papers/25855536.md)
+
+- [PMID:25991819](../papers/25991819.md)
+
+- [PMID:26000489](../papers/26000489.md)
+
+- [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

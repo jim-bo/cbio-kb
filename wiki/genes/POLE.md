@@ -29,6 +29,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE inactivating mutation in one hypermutator gastric cancer case consistent with prior TCGA findings in CRC/endometrial [PMID:25079317](../papers/25079317.md)
 - Absent in 39-case aggressive cSCC cohort — explicit negative finding [PMID:25303977](../papers/25303977.md)
 - Deleterious mutation identified in one of three [NSCLC](../cancer_types/NSCLC.md) DCB responders with the highest mutation burden on [pembrolizumab](../drugs/pembrolizumab.md); supports a DNA-repair–driven hypermutator mechanism for anti-PD-1 benefit in never-smokers [PMID:25765070](../papers/25765070.md)
+- In [PAAD](../cancer_types/PAAD.md), POLE was among the mismatch-repair/DNA-repair gene alterations in the top mutation-burden quartile of the 109-case microdissected exome cohort, contributing to the hypermutator phenotype. [PMID:25855536](../papers/25855536.md)
 
 ## Cancer types (linked)
 
@@ -83,5 +84,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

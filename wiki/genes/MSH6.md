@@ -31,6 +31,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; standard multigene panel for familial gastric cancer includes MSH6 alongside [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [PMS2](../genes/PMS2.md), and [EPCAM](../genes/EPCAM.md) [PMID:24816255](../papers/24816255.md)
 - Nonsense/frameshift mutations in 3 of 22 uterine/ovarian carcinosarcoma cases (MM04T, MM12T biallelic, MM18T); driver of mutator phenotype; MMR-deficient tumors nominated as candidates for anti-PD-1 immunotherapy ([pembrolizumab](../drugs/pembrolizumab.md)) [PMID:25233892](../papers/25233892.md)
 - MSH6 mismatch-repair defect detected in hypermutated gastric adenocarcinoma (Pt1); co-occurs with [TGFBR2](../genes/TGFBR2.md), [KDM5A](../genes/KDM5A.md), and [KMT2D](../genes/KMT2D.md) in the hypermutated subclone [PMID:25583476](../papers/25583476.md)
+- In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MSH6 loss was identified among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed MMR deficiency signatures. [PMID:25855536](../papers/25855536.md)
+- In mCRPC, MSH6 was among MMR gene alterations in hypermutated cases; MMR deficiency contributing to ~50 mutations/Mb. [PMID:26000489](../papers/26000489.md)
 
 ## Cancer types (linked)
 
@@ -91,5 +93,11 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25855536](../papers/25855536.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

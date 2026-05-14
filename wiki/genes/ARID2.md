@@ -9,8 +9,8 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ARID2
@@ -31,9 +31,10 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - ARID2 is significantly mutated in a Yale melanoma WES cohort of 147 tumors, independently validating its role as a melanoma driver affecting the SWI/SNF complex [PMID:22842228](../papers/22842228.md)
 - Somatically mutated in pancreatic cancer (ICGC WES, 142 tumors); ARID2 loss-of-function mutations identified among significantly mutated genes in the SWI/SNF chromatin-remodeling complex [PMID:23103869](../papers/23103869.md)
 - Chromatin-remodeling SWI/SNF complex member mutated in EAC ([esca_broad](../datasets/esca_broad.md)); part of the 24% of EACs with SWI/SNF alterations (including [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md), [PBRM1](../genes/PBRM1.md), [JARID2](../genes/JARID2.md)) [PMID:23525077](../papers/23525077.md)
-- Mutated SWI/SNF complex member in ESCC; identified as significantly mutated in 139 paired ESCC tumor/germline samples [PMID:24686850](../papers/24686850.md)
-- Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes alongside ARID1A [PMID:24735922](../papers/24735922.md)
+- Mutated SWI/SNF complex member in [ESCC](../cancer_types/ESCC.md); identified as significantly mutated in 139 paired ESCC tumor/germline samples [PMID:24686850](../papers/24686850.md)
+- Chromatin remodeling driver identified by NGS in [HCC](../cancer_types/HCC.md); listed among the newly identified HCC driver genes alongside [ARID1A](../genes/ARID1A.md) [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 7% (range 3–10%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
+- Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -62,31 +63,34 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:38653864](../papers/38653864.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

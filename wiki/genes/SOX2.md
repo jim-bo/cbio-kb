@@ -8,8 +8,8 @@ tags:
   - neural-stem-progenitor
   - glioma
   - cancer-stem-cell
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # SOX2
@@ -22,10 +22,12 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 
 - SOX2 is among the top-ranking genes of the stem/progenitor program (PC2/PC3) across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2); co-expressed with [SOX4](../genes/SOX4.md) and [SOX11](../genes/SOX11.md). The program matches human NPCs (t-test P = 2×10⁻³⁵) and activated mouse NSCs (P = 3×10⁻⁶) more closely than OPCs, supporting a tri-potent NPC-like cell of origin. [PMID:27806376](../papers/27806376.md)
 - Broad 3q gains observed in [SCLC](../cancer_types/SCLC.md) (less focal than in squamous-cell lung cancer); lineage survival oncogene [PMID:22941188](../papers/22941188.md)
-- Amplification in ~27% of SCLC samples; lineage-survival oncogene driving proliferation; expression correlates with disease stage [PMID:22941189](../papers/22941189.md)
-- Amplification and overexpression at 3q26 amplicon in [LUSC](../cancer_types/LUSC.md); part of 44% squamous differentiation pathway; selectively amplified in LUSC vs. [LUAD](../cancer_types/LUAD.md) [PMID:22960745](../papers/22960745.md)
+- Amplification in ~27% of [SCLC](../cancer_types/SCLC.md) samples; lineage-survival oncogene driving proliferation; expression correlates with disease stage [PMID:22941189](../papers/22941189.md)
+- Amplification and overexpression at 3q26 amplicon in [LUSC](../cancer_types/LUSC.md); part of 44% squamous differentiation pathway; selectively amplified in [LUSC](../cancer_types/LUSC.md) vs. [LUAD](../cancer_types/LUAD.md) [PMID:22960745](../papers/22960745.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated [PMID:24120142](../papers/24120142.md)
-- SOX2 is amplified as a lineage-survival oncogene in ESCC, cooperating with STAT3 activation [PMID:24686850](../papers/24686850.md)
+- SOX2 is amplified as a lineage-survival oncogene in [ESCC](../cancer_types/ESCC.md), cooperating with [STAT3](../genes/STAT3.md) activation [PMID:24686850](../papers/24686850.md)
+- High-level SOX2 amplification — common in lung SCC — was absent in the metastatic cSCC cohort (n=29), suggesting a distinguishing feature from pulmonary SCC [PMID:25589618](../papers/25589618.md)
+- 3q26 co-amplified squamous-lineage transcription factor (with [TP63](../genes/TP63.md)) in HNSCC (n=279 TCGA cohort); amplified in both HPV(+) and HPV(−) subsets [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -47,19 +49,25 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

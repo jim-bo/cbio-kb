@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [clustering, unsupervised, transcriptomics, bioinformatics]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # Consensus Hierarchical Clustering (ConsensusClusterPlus)
@@ -18,6 +18,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 ## Used by
 
 - Applied to RNA-seq data (Spearman distance, k=3) for 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)); defined three transcriptome clusters: Cluster A (small-intestinal NETs/PanNETs with MEN1/DAXX/ATRX alterations), Cluster B (high-grade/MYC-driven mixed primary sites), and Cluster C (PulNETs/MTCs); NECs and NET-G3s did not form a distinct cluster [PMID:24326773](../papers/24326773.md).
+- Applied in single-cell RNA-seq analysis (Deng M, cited) to classify cholangiocarcinoma into BA-active and BA-inactive metabolic subtypes; BA-active subtype associated with shorter [OS](../cancer_types/OS.md) and immunotherapy resistance [PMID:25608663](../papers/25608663.md)
 
 ## Notes
 
@@ -27,4 +28,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 
 ## Sources
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

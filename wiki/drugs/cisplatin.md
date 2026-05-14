@@ -40,9 +40,10 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In muscle-invasive bladder carcinoma (n=131 [BLCA](../cancer_types/BLCA.md)), cisplatin-based chemotherapy was the reference standard of care at the time of the TCGA analysis with a median survival of 14–15 months for recurrent/metastatic disease; no molecularly targeted agent had been approved [PMID:24476821](../papers/24476821.md)
 - Cited in [HCC](../cancer_types/HCC.md) trials (CELESTIAL, SHARP supporting context) as a reference comparator chemotherapy; [sorafenib](../drugs/sorafenib.md) combinations not primary focus [PMID:24798001](../papers/24798001.md)
 - Platinum-based backbone (cisplatin + [gemcitabine](../drugs/gemcitabine.md)) is the standard chemotherapy platform for R/M [NPC](../cancer_types/NPC.md); [sintilimab](../drugs/sintilimab.md) added to CCRT with cisplatin improved 36-mo EFS to 86% vs 76% (HR 0.59) [PMID:24952746](../papers/24952746.md)
-- Somatic [[[ERCC2](../genes/ERCC2.md)]] mutations were found exclusively in cisplatin responders (9/25, 36%) in muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy; ERCC2 mutation is proposed as a predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
-- Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with gemcitabine, with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; BRCA1/2 mutations (~3–5% of CCA) predict platinum sensitivity [PMID:25526346](../papers/25526346.md)
+- Somatic [[[ERCC2](../genes/ERCC2.md)]] mutations were found exclusively in cisplatin responders (9/25, 36%) in muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy; [ERCC2](../genes/ERCC2.md) mutation is proposed as a predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
+- Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [gemcitabine](../drugs/gemcitabine.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; BRCA1/2 mutations (~3–5% of CCA) predict platinum sensitivity [PMID:25526346](../papers/25526346.md)
 - Standard front-line platinum-based chemotherapy for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); [BRCA2](../genes/BRCA2.md) mutation (17/294 cases, 5.8%) independently predicts longer survival (pooled HR 0.37, P=0.05) and may predict platinum and PARP-inhibitor sensitivity, paralleling ovarian cancer [PMID:25583476](../papers/25583476.md)
+- Referenced as a chemotherapy backbone for iCCA; [futibatinib](../drugs/futibatinib.md) is cited as synergizing with cisplatin in FGFR2-rearranged iCCA [PMID:25608663](../papers/25608663.md)
 
 ## Resistance mechanisms
 
@@ -100,5 +101,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

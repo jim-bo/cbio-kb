@@ -8,8 +8,8 @@ tags:
   - squamous
   - larynx
   - organ-preservation
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Larynx Squamous Cell Carcinoma (LXSC)
@@ -25,6 +25,7 @@ Larynx squamous cell carcinoma (LXSC) is a subtype of head and neck squamous cel
 ## Recurrent alterations
 
 - No gene-specific molecular profiling was performed in the primary clinical trial cohort; EGFR-targeted therapy ([cetuximab](../drugs/cetuximab.md)) was discussed as a future direction based on external data. [PMID:19176454](../papers/19176454.md)
+- Larynx squamous cell carcinoma (LXSC) comprised 72/279 (26%) of the TCGA [HNSC](../cancer_types/HNSC.md) cohort and was enriched for the classical mRNA expression subtype, featuring [TP53](../genes/TP53.md) mutation, [CDKN2A](../genes/CDKN2A.md) loss, chromosome 3q amplification, heavy smoking history, and activating alterations in [NFE2L2](../genes/NFE2L2.md)/[KEAP1](../genes/KEAP1.md)/[CUL3](../genes/CUL3.md) oxidative-stress axis — paralleling lung squamous cell carcinoma. [PMID:25631445](../papers/25631445.md)
 
 ## Subtypes
 
@@ -38,4 +39,7 @@ Larynx squamous cell carcinoma (LXSC) is a subtype of head and neck squamous cel
 
 - [PMID:19176454](../papers/19176454.md) — Lefebvre et al. (2009), randomized trial of sequential vs alternating chemoradiotherapy for organ preservation in advanced LXSC and [HPHSC](../cancer_types/HPHSC.md).
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

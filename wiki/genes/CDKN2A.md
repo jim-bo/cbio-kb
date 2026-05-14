@@ -67,20 +67,22 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - TMZ-associated P114L mutation acquired in patients 05 and 10 during low-grade glioma treatment; abrogates [CDK4](../genes/CDK4.md) inhibition and cell-cycle arrest, contributing to malignant progression to [GBM](../cancer_types/GBM.md) in TMZ-driven hypermutated recurrences [PMID:24336570](../papers/24336570.md)
 - Homozygous deletion in 3% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; 9p21.3 LOH in 9% (PAX-fusion-negative-skewed); part of 12q15 amplicon context with MDM2/FRS2 alterations [PMID:24436047](../papers/24436047.md)
 - Focal homozygous deletion in 47% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); most common focal deletion at 9p21.3; correlated with reduced mRNA expression; mutually exclusive with [RB1](../genes/RB1.md) loss [PMID:24476821](../papers/24476821.md)
-- Mutated in [ESCC](../cancer_types/ESCC.md); cited as part of the canonical ESCC genomic landscape alongside [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PIK3CA](../genes/PIK3CA.md), [NOTCH1](../genes/NOTCH1.md), and [NFE2L2](../genes/NFE2L2.md) in a microbiome-focused ESCC review [PMID:24670651](../papers/24670651.md)
+- Mutated in [ESCC](../cancer_types/ESCC.md); cited as part of the canonical [ESCC](../cancer_types/ESCC.md) genomic landscape alongside [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PIK3CA](../genes/PIK3CA.md), [NOTCH1](../genes/NOTCH1.md), and [NFE2L2](../genes/NFE2L2.md) in a microbiome-focused ESCC review [PMID:24670651](../papers/24670651.md)
 - Focal deletion and mutation in ESCC; contributes to cell-cycle dysregulation; identified by SCNV and targeted deep-sequencing analysis of 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
-- Inactivated in the G3 proliferative [HCC](../cancer_types/HCC.md) subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early HCC; G3 subgroup (TP53 mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
+- Inactivated in the G3 proliferative [HCC](../cancer_types/HCC.md) subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early [HCC](../cancer_types/HCC.md); G3 subgroup ([TP53](../genes/TP53.md) mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 2% and homozygous deletion in 5% of HCCs (WES/SNP-array); epigenetic silencing also reported [PMID:24798001](../papers/24798001.md)
 - Recurrent mutations in thymic carcinomas [PMID:24974848](../papers/24974848.md)
 - Promoter hypermethylation in all EBV-positive gastric tumours; focal deletion in CIN subtype; hypermethylation associated with low ploidy, low mutation rate, and [SETD2](../genes/SETD2.md) mutation [PMID:25079317](../papers/25079317.md)
-- Mutated in 4% of [LUAD](../cancer_types/LUAD.md); most significant deletion peak in copy-number data; hypermethylated in CIMP-H tumours; methylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079552](../papers/25079552.md)
+- Mutated in 4% of [LUAD](../cancer_types/LUAD.md); most significant deletion peak in copy-number data; hypermethylated in CIMP-H tumours; methylation associated with low ploidy, low mutation rate, and [SETD2](../genes/SETD2.md) mutation [PMID:25079552](../papers/25079552.md)
 - Alterations independently associated with worse recurrence-free survival (HR=5.76) and cancer-specific survival (HR=2.94) in muscle-invasive urothelial carcinoma after radical cystectomy; authors propose rationale for [CDK4](../genes/CDK4.md) inhibitor trials [PMID:25092538](../papers/25092538.md)
 - Epigenetically silenced in 4/66 chromophobe RCC cases [PMID:25155756](../papers/25155756.md)
 - Biallelic loss in MSK-PCa3 and MSK-PCa6 prostate cancer cell lines as an alternative RB-pathway hit [PMID:25201530](../papers/25201530.md)
-- Focal 9p21 deletions in 12% of Ewing sarcoma tumors; mutually exclusive with [STAG2](../genes/STAG2.md) mutation; STAG2 may regulate CDKN2A epigenetically via CTCF-cohesin insulation [PMID:25223734](../papers/25223734.md)
+- Focal 9p21 deletions in 12% of Ewing sarcoma tumors; mutually exclusive with [STAG2](../genes/STAG2.md) mutation; [STAG2](../genes/STAG2.md) may regulate CDKN2A epigenetically via CTCF-cohesin insulation [PMID:25223734](../papers/25223734.md)
 - Homozygous deletion (most common) or heterozygous loss in 81% of MPNSTs; co-occurs with [NF1](../genes/NF1.md) and PRC2 (EED/SUZ12) loss [PMID:25240281](../papers/25240281.md)
 - Mutated/deleted in 43.6% of cSCC; significant by all four driver-detection methods [PMID:25303977](../papers/25303977.md)
 - Deletion/mutation in 15–27% of intrahepatic CCA and 19% of extrahepatic CCA; mediates acquired resistance to FGFR inhibitors in [FGFR2](../genes/FGFR2.md) fusion-positive iCCA, associated with shorter time to progression and poorer overall survival [PMID:25526346](../papers/25526346.md)
+- 9p21 top GISTIC deletion peak in cutaneous squamous cell carcinoma; CDKN2A altered by mutation plus homozygous loss in 14/29 (48%) of cSCC tumors [PMID:25589618](../papers/25589618.md)
+- Inactivation in 22% of HNSCC overall (58% in HPV(-), 0% in HPV(+) on pathway analysis); co-occurs with TP53 loss in smoking-related tumors; falls in significant deletion peak at 9p21 (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -270,5 +272,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

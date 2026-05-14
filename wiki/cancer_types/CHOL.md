@@ -23,19 +23,20 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 
 ## Recurrent alterations
 
-- Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for [IDH1](../genes/IDH1.md) (13-29%), [FGFR2](../genes/FGFR2.md) fusions (8-16%), [ARID1A](../genes/ARID1A.md) (18-23%), [KRAS](../genes/KRAS.md) (24-27%), [TP53](../genes/TP53.md) (20-27%); eCCA enriched for KRAS (37-46%), TP53 (35-68%), [SMAD4](../genes/SMAD4.md) (~25%); HBV integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md); HCV association with FGFR2 fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance [PMID:25526346](../papers/25526346.md).
+- Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for [IDH1](../genes/IDH1.md) (13-29%), [FGFR2](../genes/FGFR2.md) fusions (8-16%), [ARID1A](../genes/ARID1A.md) (18-23%), [KRAS](../genes/KRAS.md) (24-27%), [TP53](../genes/TP53.md) (20-27%); eCCA enriched for [KRAS](../genes/KRAS.md) (37-46%), [TP53](../genes/TP53.md) (35-68%), [SMAD4](../genes/SMAD4.md) (~25%); HBV integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md); HCV association with [FGFR2](../genes/FGFR2.md) fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance [PMID:25526346](../papers/25526346.md).
+- Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; [ivosidenib](../drugs/ivosidenib.md) (IDH1-mutant iCCA) and [futibatinib](../drugs/futibatinib.md) (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. [PMID:25608663](../papers/25608663.md)
 
 ## Subtypes
 
-- **Intrahepatic CCA (iCCA / [IHCH](IHCH.md)):** Enriched for IDH1/IDH2 mutations, FGFR2 fusions, [BAP1](../genes/BAP1.md) loss, ARID1A mutations; small-duct iCCA arises on chronic liver disease background; large-duct iCCA enriched for KRAS/TP53/TGF-β pathway.
-- **Extrahepatic CCA (eCCA / [EHCH](EHCH.md)):** Includes perihilar (Klatskin) and distal subtypes; enriched for KRAS, TP53, SMAD4; higher [ERBB2](../genes/ERBB2.md) alteration frequency than iCCA.
-- **Combined HCC-CCA:** Shares HBV-integration oncogenic mechanism (TERT, MET) with both [HCC](../cancer_types/HCC.md) and iCCA.
+- **Intrahepatic CCA (iCCA / [IHCH](IHCH.md)):** Enriched for IDH1/IDH2 mutations, FGFR2 fusions, [BAP1](../genes/BAP1.md) loss, [ARID1A](../genes/ARID1A.md) mutations; small-duct iCCA arises on chronic liver disease background; large-duct iCCA enriched for KRAS/TP53/TGF-β pathway.
+- **Extrahepatic CCA (eCCA / [EHCH](EHCH.md)):** Includes perihilar (Klatskin) and distal subtypes; enriched for KRAS, TP53, [SMAD4](../genes/SMAD4.md); higher [ERBB2](../genes/ERBB2.md) alteration frequency than iCCA.
+- **Combined HCC-CCA:** Shares HBV-integration oncogenic mechanism ([TERT](../genes/TERT.md), [MET](../genes/MET.md)) with both [HCC](../cancer_types/HCC.md) and iCCA.
 
 ## Therapeutic landscape
 
 - **FGFR2 fusion/rearrangement (iCCA):** [pemigatinib](../drugs/pemigatinib.md) (FIGHT-202: ORR 35.5%, mPFS 6.9 mo, mOS 21.1 mo); [infigratinib](../drugs/infigratinib.md); [futibatinib](../drugs/futibatinib.md) (FOENIX-CCA2: ORR 42.0%, mPFS 9.0 mo, mOS 21.7 mo; covalent) [PMID:25526346](../papers/25526346.md).
-- **IDH1 mutation (iCCA):** [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: significant PFS/OS benefit vs. placebo) [PMID:25526346](../papers/25526346.md).
-- **ERBB2 alteration:** [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway: ORR 23%); [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (basket: ORR 22.0% in CCA) [PMID:25526346](../papers/25526346.md).
+- **[IDH1](../genes/IDH1.md) mutation (iCCA):** [ivosidenib](../drugs/ivosidenib.md) (ClarIDHy phase III: significant PFS/OS benefit vs. placebo) [PMID:25526346](../papers/25526346.md).
+- **[ERBB2](../genes/ERBB2.md) alteration:** [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway: ORR 23%); [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (basket: ORR 22.0% in CCA) [PMID:25526346](../papers/25526346.md).
 - **[BRAF](../genes/BRAF.md) V600E (iCCA):** [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md) (ROAR: ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md).
 - **NTRK fusion:** [entrectinib](../drugs/entrectinib.md); [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md).
 - **First-line:** [gemcitabine](../drugs/gemcitabine.md) + [cisplatin](../drugs/cisplatin.md) ± [durvalumab](../drugs/durvalumab.md) [PMID:25526346](../papers/25526346.md).
@@ -43,5 +44,8 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 ## Sources
 
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

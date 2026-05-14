@@ -4,7 +4,7 @@ aliases: [BCL-XL, BCL2L]
 cancer_types: [LUSC]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # BCL2L1
@@ -17,6 +17,7 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 
 - Amplification/copy number alteration identified in TCGA lung squamous cell carcinoma cohort (178 tumors) as part of the landscape of somatic copy number alterations [PMID:22960745](../papers/22960745.md)
 - Focal amplification in 11% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); one HPV16-positive tumour had the virus integrated into BCL2L1, which was amplified (~6x) and overexpressed (~10x median) [PMID:24476821](../papers/24476821.md)
+- Bcl-xL-mediated survival downstream of [STAT3](../genes/STAT3.md) phosphorylation; loss of FXR/NR1H4 activity unleashes STAT3 signaling and BCL2L1-mediated apoptosis resistance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +29,7 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 
 ## Therapeutic relevance
 
-- BCL2L1/BCL-XL is a known anti-apoptotic target; [navitoclax](../drugs/navitoclax.md) (ABT-263) targets BCL-XL, though no specific therapeutic data in LUSC is reported in the corpus.
+- BCL2L1/BCL-XL is a known anti-apoptotic target; [navitoclax](../drugs/navitoclax.md) (ABT-263) targets BCL-XL, though no specific therapeutic data in [LUSC](../cancer_types/LUSC.md) is reported in the corpus.
 
 ## Open questions
 
@@ -38,7 +39,10 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 
 - [PMID:22960745](../papers/22960745.md) — TCGA comprehensive genomic characterization of lung squamous cell carcinoma (178 tumors)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

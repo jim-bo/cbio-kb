@@ -23,10 +23,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - p53-p21-RB1 pathway remains intact in EWS::FLI1-expressing human embryonic mesenchymal stem cells (heMSCs); RB1 induction limits long-term in vitro culture of transduced cells in the Ewing sarcoma cell-of-origin model [PMID:25186949](../papers/25186949.md)
 - Heterozygous loss with no detectable protein in 3/7 MSK prostate cancer cell lines; complete deletion in MSK-PCa5 detected only by RNA-seq; represents an RB-pathway tumor-suppressor hit in castration-resistant prostate cancer models [PMID:25201530](../papers/25201530.md)
 - RB1 tumor suppressor mutations identified in 15/402 (3.7%) PTCs alongside [TP53](../genes/TP53.md), [NF1](../genes/NF1.md), [NF2](../genes/NF2.md), and [MEN1](../genes/MEN1.md); part of the tumor suppressor gene alteration cluster in PTC. [PMID:25417114](../papers/25417114.md)
+- Tumor suppressor with mutations in a metastatic cSCC cohort (n=29); component of cell-cycle regulatory defects in cSCC [PMID:25589618](../papers/25589618.md)
+- Mutated in 3% of HNSCC (n=279); structural alterations more often inactivating than coding fusions [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
-- **HCC** — RB1 LOF in 4% and homozygous deletion in 5%; provides mechanistic rationale for CDK4/6 inhibitor trials (e.g., [palbociclib](../drugs/palbociclib.md) in RB1-positive disease). [PMID:24798001](../papers/24798001.md)
+- **[HCC](../cancer_types/HCC.md)** — RB1 LOF in 4% and homozygous deletion in 5%; provides mechanistic rationale for CDK4/6 inhibitor trials (e.g., [palbociclib](../drugs/palbociclib.md) in RB1-positive disease). [PMID:24798001](../papers/24798001.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -34,7 +36,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 ## Therapeutic relevance
 
-- RB1 loss is the rationale for CDK4/6 inhibitor (palbociclib, [ribociclib](../drugs/ribociclib.md)) trials in HCC. [PMID:24798001](../papers/24798001.md)
+- RB1 loss is the rationale for CDK4/6 inhibitor ([palbociclib](../drugs/palbociclib.md), [ribociclib](../drugs/ribociclib.md)) trials in HCC. [PMID:24798001](../papers/24798001.md)
 
 ## Open questions
 
@@ -61,5 +63,11 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

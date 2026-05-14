@@ -3,8 +3,8 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -28,6 +28,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLD1](../genes/POLD1.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 - POLE inactivating mutation in one hypermutator gastric cancer case consistent with prior TCGA findings in CRC/endometrial [PMID:25079317](../papers/25079317.md)
 - Absent in 39-case aggressive cSCC cohort — explicit negative finding [PMID:25303977](../papers/25303977.md)
+- Deleterious mutation identified in one of three [NSCLC](../cancer_types/NSCLC.md) DCB responders with the highest mutation burden on [pembrolizumab](../drugs/pembrolizumab.md); supports a DNA-repair–driven hypermutator mechanism for anti-PD-1 benefit in never-smokers [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
@@ -59,25 +60,28 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

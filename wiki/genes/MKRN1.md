@@ -11,7 +11,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-MKRN1 (Makorin Ring Finger Protein 1) is an E3 ubiquitin ligase with roles in RNA metabolism and protein stability. In pilocytic astrocytoma (PA), MKRN1 has been identified as a novel 5' fusion partner for [BRAF](../genes/BRAF.md), representing one of the alternative [BRAF](../genes/BRAF.md) fusion events observed in tumors lacking the canonical [KIAA1549](../genes/KIAA1549.md):BRAF fusion. These BRAF fusions are the dominant oncogenic drivers in pilocytic astrocytoma.
+MKRN1 (Makorin Ring Finger Protein 1) is an E3 ubiquitin ligase with roles in RNA metabolism and protein stability. In pilocytic astrocytoma (PA), MKRN1 has been identified as a novel 5' fusion partner for [BRAF](../genes/BRAF.md), representing one of the alternative [BRAF](../genes/BRAF.md) fusion events observed in tumors lacking the canonical [KIAA1549](../genes/KIAA1549.md):[BRAF](../genes/BRAF.md) fusion. These BRAF fusions are the dominant oncogenic drivers in pilocytic astrocytoma.
 
 ## Alterations observed in the corpus
 
@@ -20,7 +20,7 @@ MKRN1 (Makorin Ring Finger Protein 1) is an E3 ubiquitin ligase with roles in RN
 
 ## Cancer types (linked)
 
-- PA (pilocytic astrocytoma): BRAF fusion partner; functional dissection of the MKRN1:BRAF fusion (e.g., whether it activates MAPK signaling as potently as KIAA1549:BRAF) was not reported.
+- PA (pilocytic astrocytoma): BRAF fusion partner; functional dissection of the MKRN1:BRAF fusion (e.g., whether it activates MAPK signaling as potently as [KIAA1549](../genes/KIAA1549.md):BRAF) was not reported.
 
 ## Co-occurrence and mutual exclusivity
 

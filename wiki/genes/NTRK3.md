@@ -43,7 +43,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 ## Therapeutic relevance
 
-- [Larotrectinib](../drugs/larotrectinib.md) is FDA-approved for NTRK fusion-positive solid tumors; the PDTO platform demonstrated that functional [larotrectinib](../drugs/larotrectinib.md) resistance in SARC0127 — alongside FISH-negative ETV6 — guided reclassification and avoided a likely ineffective targeted therapy. [PMID:39305899](../papers/39305899.md)
+- [Larotrectinib](../drugs/larotrectinib.md) is FDA-approved for NTRK fusion-positive solid tumors; the PDTO platform demonstrated that functional [larotrectinib](../drugs/larotrectinib.md) resistance in SARC0127 — alongside FISH-negative [ETV6](../genes/ETV6.md) — guided reclassification and avoided a likely ineffective targeted therapy. [PMID:39305899](../papers/39305899.md)
 - NTRK3 fusions in PDAC are rare (included in the ~10% with level 1/2 actionable alterations); treatment decisions should integrate NTRK inhibitor eligibility for confirmed fusion carriers. [PMID:39753968](../papers/39753968.md)
 
 ## Open questions

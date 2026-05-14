@@ -3,8 +3,8 @@ symbol: HLA-A
 aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # HLA-A
@@ -21,6 +21,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - MHC class I gene highly expressed in [HGSOC](../cancer_types/HGSOC.md) Cancer.cell.3 cluster; subject to LOH-mediated loss in 6p as immune escape mechanism [PMID:36517593](../papers/36517593.md)
 - HLA-A is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Nonsense/splice-site loss-of-function mutations in 7 of 8 mutated cases; novel finding in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); implicated in immune evasion; relevant to immunotherapy patient selection [PMID:22960745](../papers/22960745.md)
+- Significantly mutated in 3% of HNSCC; immune-evasion role; implicated alongside [B2M](../genes/B2M.md) in antigen presentation pathway alterations (7% HPV(-), 11% HPV(+)) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -28,7 +29,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-upregulated with [HLA-E](../genes/HLA-E.md), [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), and [MX1](../genes/MX1.md) as part of the IFN pathway response in HGSOC precursors [PMID:39386723](../papers/39386723.md).
+- Co-upregulated with [HLA-E](../genes/HLA-E.md), [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [ISG15](../genes/ISG15.md), and [MX1](../genes/MX1.md) as part of the IFN pathway response in [HGSOC](../cancer_types/HGSOC.md) precursors [PMID:39386723](../papers/39386723.md).
 
 ## Therapeutic relevance
 
@@ -42,16 +43,19 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 - [PMID:39386723](../papers/39386723.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

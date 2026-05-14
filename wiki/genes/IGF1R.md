@@ -3,13 +3,14 @@ symbol: IGF1R
 aliases: []
 cancer_types:
   - MM
+  - HNSC
 tags:
   - pharmacogenomics
   - drug-sensitivity-predictor
   - receptor-tyrosine-kinase
   - targeted-therapy
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # IGF1R
@@ -25,7 +26,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - Mutated in breast cancer (TCGA, 510 tumors); somatic alterations identified across intrinsic subtypes [PMID:23000897](../papers/23000897.md)
 - Located within a cluster-2 focal amplification at 15q26.2 in endometrial carcinoma; identified as a potential therapeutic target in the TCGA endometrial corpus analysis [PMID:23636398](../papers/23636398.md)
 - IGF1R focally amplified in 2.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of the 93%-targetable kinase signaling axis with approved or late-stage inhibitors [PMID:24436047](../papers/24436047.md)
-- Activated in ~21% of HCC; part of the IGF axis (alongside IGF2 overexpression and IGF2R allelic loss) implicated as a therapeutic target in HCC [PMID:24735922](../papers/24735922.md)
+- Activated in ~21% of [HCC](../cancer_types/HCC.md); part of the IGF axis (alongside [IGF2](../genes/IGF2.md) overexpression and [IGF2R](../genes/IGF2R.md) allelic loss) implicated as a therapeutic target in HCC [PMID:24735922](../papers/24735922.md)
+- IGF1R is listed as a candidate RTK alteration in [HNSC](../cancer_types/HNSC.md) (n=279 TCGA) with somatic events across HPV(+) and HPV(−) groups in the multi-platform genomic analysis. [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -47,19 +49,22 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -13,7 +13,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-Pemigatinib is a selective, reversible inhibitor of FGFR1/2/3, developed for [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive intrahepatic cholangiocarcinoma (iCCA). It targets the [FGFR2](../genes/FGFR2.md) kinase and received FDA accelerated approval for previously treated FGFR2 fusion/rearrangement-positive iCCA based on the FIGHT-202 phase II trial.
+Pemigatinib is a selective, reversible inhibitor of FGFR1/2/3, developed for [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive intrahepatic cholangiocarcinoma (iCCA). It targets the [FGFR2](../genes/FGFR2.md) kinase and received FDA accelerated approval for previously treated [FGFR2](../genes/FGFR2.md) fusion/rearrangement-positive iCCA based on the FIGHT-202 phase II trial.
 
 ## Evidence in the corpus
 

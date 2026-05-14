@@ -27,7 +27,7 @@ Pertuzumab is a recombinant humanized monoclonal antibody that binds to the HER2
 
 ## Resistance mechanisms
 
-- Two-class heterogeneity within clinically HER2+ breast cancer (HER2E vs. Luminal mRNA subtype) may influence response to pertuzumab; the ERBB2 TK domain mutations in lobular cancers may represent distinct resistance mechanisms [PMID:23000897](../papers/23000897.md).
+- Two-class heterogeneity within clinically HER2+ breast cancer (HER2E vs. Luminal mRNA subtype) may influence response to pertuzumab; the [ERBB2](../genes/ERBB2.md) TK domain mutations in lobular cancers may represent distinct resistance mechanisms [PMID:23000897](../papers/23000897.md).
 
 ## Cancer types (linked)
 

@@ -24,7 +24,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - ARID1B is identified as a significantly mutated gene in melanoma WES of 121 tumors (Broad cohort), highlighting SWI/SNF complex subunit alterations in cutaneous melanoma [PMID:22817889](../papers/22817889.md)
 - Mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ARID1B identified among recurrently mutated chromatin-remodeling genes [PMID:23334666](../papers/23334666.md)
 - Somatic mutation in chromatin-remodeling gene cluster; collectively mutated in 12/24 ACC cases in exome-sequencing discovery cohort [PMID:23778141](../papers/23778141.md)
-- Flagged as SWI/SNF chromatin-remodeling complex partner of ARID1A in sinonasal AdCC literature context; no coding mutations reported in the sequenced cohort [PMID:24418857](../papers/24418857.md)
+- Flagged as SWI/SNF chromatin-remodeling complex partner of [ARID1A](../genes/ARID1A.md) in sinonasal AdCC literature context; no coding mutations reported in the sequenced cohort [PMID:24418857](../papers/24418857.md)
 - Non-catalytic BAF subunit (BAF250B) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but discussed as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
 - Loss-of-function mutation in 1% (range 1–3%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
 - Frameshift/nonsense mutations in 3/22 (14%) carcinosarcoma cases; co-occurs with ARID1A mutations in 3 cases, suggesting combined SWI/SNF complex disruption [PMID:25233892](../papers/25233892.md)
@@ -40,7 +40,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 
 ## Therapeutic relevance
 
-- BET bromodomain inhibitors (e.g., JQ1) show enhanced activity in ARID1A-deficient SCLC; whether ARID1B loss confers a similar dependency is not yet established [PMID:22037554](../papers/22037554.md)
+- BET bromodomain inhibitors (e.g., JQ1) show enhanced activity in ARID1A-deficient [SCLC](../cancer_types/SCLC.md); whether ARID1B loss confers a similar dependency is not yet established [PMID:22037554](../papers/22037554.md)
 
 ## Open questions
 

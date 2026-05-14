@@ -23,9 +23,11 @@ processed_at: 2026-05-14
 - Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
 - Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); contributes to Rb-pathway dysregulation (overall 78.9% of [GBM](../cancer_types/GBM.md)) [PMID:24120142](../papers/24120142.md)
-- Co-targeted with [CDK4](../genes/CDK4.md) by [dalpiciclib](../drugs/dalpiciclib.md) in [NPC](../cancer_types/NPC.md); combination + [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M NPC [PMID:24952746](../papers/24952746.md)
+- Co-targeted with [CDK4](../genes/CDK4.md) by [dalpiciclib](../drugs/dalpiciclib.md) in [NPC](../cancer_types/NPC.md); combination + [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
 - Recurrent focal amplification in CIN gastric adenocarcinoma; co-amplified with [CCNE1](../genes/CCNE1.md) and [CCND1](../genes/CCND1.md); suggests CDK4/6 inhibitor evaluation in CIN-subtype tumours [PMID:25079317](../papers/25079317.md)
 - Amplification identified in Pt2 of a multi-region WGS gastric cancer case study; combined [AURKC](../genes/AURKC.md) and CDK6 inhibitors proposed as therapeutic strategy for this patient [PMID:25583476](../papers/25583476.md)
+- High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
+- Recurrently amplified in HNSCC in the 279-tumor TCGA HNSCC cohort (11q13.5 region); co-amplified with CCND1/FADD/CTTN cassette in HPV(-) subset [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -55,5 +57,11 @@ processed_at: 2026-05-14
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

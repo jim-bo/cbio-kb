@@ -1,7 +1,7 @@
 ---
 symbol: KRAS
 aliases: []
-cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
+cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
 processed_by: crosslinker
 processed_at: 2026-05-14
@@ -77,6 +77,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling; mutually exclusive with BRAFV600E [PMID:25417114](../papers/25417114.md)
 - KRAS activating mutations (G12D, G12V, Q61H) in 24–27% intrahepatic and 37–46% extrahepatic CCA; G12/G13 alterations predict poor prognosis; synergizes with [ARID1A](../genes/ARID1A.md) loss to drive cholangiocarcinogenesis [PMID:25526346](../papers/25526346.md)
 - KRAS p.G13D mutation present in a distinct subclone in a multi-region WGS case (Pt1) of gastric adenocarcinoma, co-occurring with [PIK3CA](../genes/PIK3CA.md) p.E542K and [BRCA2](../genes/BRCA2.md) frameshift across separate clones [PMID:25583476](../papers/25583476.md)
+- KRAS showed significantly higher mutation frequency in African American than Caucasian MSS colorectal cancers (103 AA vs 129 Caucasian), while overall classic CRC driver gene rates ([APC](../genes/APC.md), [TP53](../genes/TP53.md), KRAS, [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [BRAF](../genes/BRAF.md), [FBXW7](../genes/FBXW7.md)) did not differ as a group. [PMID:25583493](../papers/25583493.md)
+- KRAS G12C identified as an activating mutation in metastatic cSCC (n=29); activating oncogene mutations in 11/29 (38%) samples were nearly mutually exclusive. [PMID:25589618](../papers/25589618.md)
+- KRAS cited in the context of murine KRAS/p53 knockout cholangiocarcinoma models that inadequately recapitulate human cholestatic CCA pathophysiology; humanized or organoid systems proposed as alternatives. [PMID:25608663](../papers/25608663.md)
+- KRAS mutated in 7/14 DCB vs 1/17 NDB [NSCLC](../cancer_types/NSCLC.md) patients treated with [pembrolizumab](../drugs/pembrolizumab.md); authors attribute the imbalance to the established smoking–KRAS association rather than a direct causal effect on PD-1 response. [PMID:25765070](../papers/25765070.md)
 
 ## Cancer types (linked)
 
@@ -258,5 +262,17 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25765070](../papers/25765070.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -32,6 +32,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used to call somatic SNVs in matched primary/metastasis CRC trios (n=69) as part of the MSK-IMPACT analysis pipeline. [PMID:25164765](../papers/25164765.md)
 - Used for somatic variant calling in [MPNST](../cancer_types/MPNST.md) WES discovery cohort (15 tumors) alongside other callers [PMID:25240281](../papers/25240281.md)
 - Used alongside VarScan 2.2.5 for somatic variant calling in 78 gastric adenocarcinoma WES samples; identified 13,866 total somatic mutations including 8,558 missense and 576 nonsense variants [PMID:25583476](../papers/25583476.md)
+- Used for somatic SNV and indel calling in the AA CRC WES pipeline (29 discovery tumor/normal pairs), contributing to identification of 20 significantly mutated genes in African American MSS CRC [PMID:25583493](../papers/25583493.md)
+- Used for somatic SNV and indel calling (with OxoG artifact filtering) on 29 lymph-node metastases from cSCC patients sequenced with [DFCI-ONCOPANEL-1](../methods/DFCI-ONCOPANEL-1.md) (mean tumor coverage 82×); identified high UV mutation burden (~33 mut/Mb) and recurrent oncogenic alterations [PMID:25589618](../papers/25589618.md)
 
 ## Notes
 
@@ -67,5 +69,11 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

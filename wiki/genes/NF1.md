@@ -1,7 +1,7 @@
 ---
 symbol: NF1
 aliases: []
-cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
+cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
 processed_by: crosslinker
 processed_at: 2026-05-14
@@ -52,6 +52,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 loss-of-function mutations in 11% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); enriched in oncogene-negative subset; co-mutated with [TP53](../genes/TP53.md) in PI subtype; nominated as driver by MutSig2CV [PMID:25079552](../papers/25079552.md)
 - Nonsense mutations and homozygous deletion in 82% of sporadic/radiotherapy-associated MPNSTs; significantly co-occurs with PRC2 loss (EED/SUZ12) and [CDKN2A](../genes/CDKN2A.md) loss [PMID:25240281](../papers/25240281.md)
 - NF1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors; candidate dark-matter driver in papillary thyroid carcinoma [PMID:25417114](../papers/25417114.md)
+- NF1 inactivating events in 1–3 metastatic cSCC samples as a negative regulator of the RAS/RTK/PI3K pathway. [PMID:25589618](../papers/25589618.md)
+- NF1 alteration in 3% of HPV(−) [HNSC](../cancer_types/HNSC.md) (TCGA, n=279). [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -167,5 +169,11 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: FLCN
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FLCN
@@ -17,10 +17,11 @@ FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt
 
 - Germline mutations cause Birt-Hogg-Dubé syndrome; 34% of BHD-associated kidney tumors are chromophobe RCC; FLCN is not somatically recurrent in sporadic ChRCC but is invoked as a pathway-convergence point [PMID:25155756](../papers/25155756.md)
 - Referenced as a known germline kidney cancer predisposition gene in the context of non-clear cell RCC somatic profiling; not significantly mutated somatically in this cohort [PMID:25401301](../papers/25401301.md)
+- 3 somatic mutations in AA CRCs (two frameshift, one nonsense), all consistent with inactivation; 0 in Caucasian CRCs (P=0.086); germline FLCN mutations cause Birt-Hogg-Dubé syndrome; proposed as an AA-specific CRC driver [PMID:25583493](../papers/25583493.md)
 
 ## Cancer types (linked)
 
-- Chromophobe renal cell carcinoma (CHRCC): pathway-level relevance via BHD syndrome germline context.
+- Chromophobe renal cell carcinoma ([CHRCC](../cancer_types/CHRCC.md)): pathway-level relevance via BHD syndrome germline context.
 
 ## Co-occurrence and mutual exclusivity
 
@@ -32,7 +33,10 @@ FLCN (folliculin) is a tumor suppressor gene whose germline mutations cause Birt
 
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

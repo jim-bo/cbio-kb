@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CDK4
@@ -30,9 +30,10 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 amplification is recurrent in the Broad melanoma WES cohort of 121 tumors, providing an alternative mechanism of RB pathway inactivation alongside [CDKN2A](../genes/CDKN2A.md) deletion [PMID:22817889](../papers/22817889.md)
 - Amplified in breast cancer (TCGA, 510 tumors); CDK4 amplification identified as a recurrent copy-number alteration in luminal B and HER2-enriched subtypes, collaborating with [CCND1](../genes/CCND1.md) to drive G1/S progression [PMID:23000897](../papers/23000897.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); chr12 double-minute co-amplification with [MDM2](../genes/MDM2.md) was a striking structural finding; CDK4/CDK6 amplifications contribute to Rb-pathway dysregulation (overall 78.9%) [PMID:24120142](../papers/24120142.md)
-- Downstream effector of the RB pathway deregulated by TMZ-associated [CDKN2A](../genes/CDKN2A.md) P114L mutation; CDK4 inhibition was abrogated by CDKN2A mutation, contributing to malignant progression in TMZ-treated recurrent low-grade glioma [PMID:24336570](../papers/24336570.md)
-- Within 12q13-q14 amplicon in 9.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases, skewed toward PAX-fusion-positive tumors; 12q amplification containing CDK4 associated with worse overall survival in RMS independent of fusion status [PMID:24436047](../papers/24436047.md)
-- Dalpiciclib (CDK4/6 inhibitor) induces G1 arrest and upregulates MHC class I/IFN signaling; combined with camrelizumab achieved ORR 32.4% in PD-1-refractory R/M NPC [PMID:24952746](../papers/24952746.md)
+- Downstream effector of the RB pathway deregulated by TMZ-associated [CDKN2A](../genes/CDKN2A.md) P114L mutation; CDK4 inhibition was abrogated by [CDKN2A](../genes/CDKN2A.md) mutation, contributing to malignant progression in TMZ-treated recurrent low-grade glioma [PMID:24336570](../papers/24336570.md)
+- Within 12q13-q14 amplicon in 9.7% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases, skewed toward PAX-fusion-positive tumors; 12q amplification containing CDK4 associated with worse overall survival in [RMS](../cancer_types/RMS.md) independent of fusion status [PMID:24436047](../papers/24436047.md)
+- Dalpiciclib (CDK4/6 inhibitor) induces G1 arrest and upregulates MHC class I/IFN signaling; combined with [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
+- High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -60,34 +61,37 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:18772890](../papers/18772890.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

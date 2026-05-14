@@ -9,8 +9,8 @@ tags:
   - egfr-inhibitor
   - sarcoma
   - functional-precision-medicine
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # gefitinib
@@ -21,13 +21,14 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 
 ## Evidence in the corpus
 
-- Mutually exclusive [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) mutations in [LUAD](../cancer_types/LUAD.md) (n=188, P<1e-7) support independent treatment stratification: EGFR-mutant tumours (enriched in never-smokers, P=0.0046) are the primary target population for gefitinib and related EGFR TKIs. [PMID:18948947](../papers/18948947.md)
+- Mutually exclusive [EGFR](../genes/EGFR.md) and [KRAS](../genes/KRAS.md) mutations in [LUAD](../cancer_types/LUAD.md) (n=188, P<1e-7) support independent treatment stratification: EGFR-mutant tumours (enriched in never-smokers, P=0.0046) are the primary target population for gefitinib and related [EGFR](../genes/EGFR.md) TKIs. [PMID:18948947](../papers/18948947.md)
 - In a PDTO functional screen of 92 sarcoma specimens, PDTOs from patients with progressive disease at follow-up were more resistant to gefitinib (p=0.048) than those from patients with stable or responding disease, suggesting EGFR pathway dependence may be diminished in clinically aggressive sarcomas [PMID:39305899](../papers/39305899.md).
 - EGFR/ErbB signaling was implicated by pathway analysis (PubChem + WikiPathways/KEGG) in chordoma PDTOs (SARC0046_2/3, SARC0053_a, SARC0049) and an osteosarcoma subgroup; chordomas showed preferential sensitivity to TAK-285 (an EGFR/ERBB2 dual kinase inhibitor), consistent with broader EGFR pathway dependency in this histology [PMID:39305899](../papers/39305899.md).
 - NCI-60 CellMiner pharmacogenomics study identified EGFR-pathway genomic features associated with gefitinib sensitivity in colon cancer cell lines [PMID:22802077](../papers/22802077.md)
 - TCGA lung squamous study (178 tumors) assessed EGFR pathway context; gefitinib efficacy limited by rarity of EGFR-activating mutations in squamous histology [PMID:22960745](../papers/22960745.md)
-- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in HCC [PMID:24735922](../papers/24735922.md)
-- Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via EGFR inhibition; gefitinib trials in cSCC noted alongside cetuximab in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
+- Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations identified by HCC/ESCC genomic profiling; ERBB family alterations (mutations and amplification) identified as candidate drug targets in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
+- Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via EGFR inhibition; gefitinib trials in cSCC noted alongside [cetuximab](../drugs/cetuximab.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
+- Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue EGFR pathway biomarker refinement (EGFR S720F, amplification) is needed before uniform EGFR targeting in this disease [PMID:25589618](../papers/25589618.md)
 
 ## Resistance mechanisms
 
@@ -40,19 +41,22 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 
 ## Sources
 
-- [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 LUAD tumours; mutual exclusivity of EGFR and KRAS mutations supports TKI stratification.
+- [PMID:18948947](../papers/18948947.md) — Ding et al. 2008, *Nature*. Exome-scale somatic mutation landscape of 188 [LUAD](../cancer_types/LUAD.md) tumours; mutual exclusivity of EGFR and [KRAS](../genes/KRAS.md) mutations supports TKI stratification.
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; gefitinib resistance associated with progressive disease at follow-up.
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

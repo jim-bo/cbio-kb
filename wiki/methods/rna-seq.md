@@ -59,7 +59,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
 - Performed on 4 of the 20 Discovery Cohort [ESCC](../cancer_types/ESCC.md) tumors to support transcriptomic analysis of mutated genes (e.g., [APOBEC3B](../genes/APOBEC3B.md) expression, [XPO1](../genes/XPO1.md) mRNA levels) [PMID:24686850](../papers/24686850.md)
 - Applied to 196 [HCC](../cancer_types/HCC.md) patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
-- Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified [BCL2](../genes/BCL2.md) focal amplification correlated with increased BCL2 mRNA; both [GTF2I](../genes/GTF2I.md) alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
+- Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified [BCL2](../genes/BCL2.md) focal amplification correlated with increased [BCL2](../genes/BCL2.md) mRNA; both [GTF2I](../genes/GTF2I.md) alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
 - Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying [SEMA7A](../genes/SEMA7A.md) as the most strongly upregulated semaphorin under stiff matrix conditions in [GBC](../cancer_types/GBC.md) stroma [PMID:24997986](../papers/24997986.md)
 - Six-platform TCGA profiling of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
 - Multi-platform TCGA profiling of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and [MET](../genes/MET.md) exon 14 skipping events [PMID:25079552](../papers/25079552.md)
@@ -69,6 +69,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used in [MPNST](../cancer_types/MPNST.md) discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, STAR v2.3); RNA-seq was essential to detect [SUZ12](../genes/SUZ12.md) structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
 - Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions [PMID:25401301](../papers/25401301.md)
 - Used in TCGA papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) multiplatform study to derive BRAFV600E-RAS Score (BRS) from a 71-gene expression signature and Thyroid Differentiation Score (TDS) from 16 metabolism genes, enabling molecular reclassification of 496 PTCs [PMID:25417114](../papers/25417114.md)
+- Applied to 279 [HNSC](../cancer_types/HNSC.md) tumors for HPV status determination (E6/E7 read mapping; threshold >1,000 reads) and expression subtype classification (atypical/mesenchymal/basal/classical), as well as structural variant detection including [MET](../genes/MET.md) exon-14 skipping [PMID:25631445](../papers/25631445.md)
 
 ## Notes
 
@@ -208,5 +209,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

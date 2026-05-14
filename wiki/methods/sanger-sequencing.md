@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Sanger Sequencing
@@ -35,13 +35,14 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used to confirm 50 somatic mutations from the whole-exome discovery screen in intrahepatic cholangiocarcinoma/gallbladder carcinoma — all 50 mutations verified [PMID:24185509](../papers/24185509.md).
 - Used to sequence [CALR](../genes/CALR.md) exon 9 in an additional 1,345 hematologic cancers, 52 controls, and 5-patient clonal colony analyses (~300 colonies) for validation of the whole-exome discovery of [CALR](../genes/CALR.md) frameshift indels in JAK2/MPL-negative [MPN](../cancer_types/MPN.md) [PMID:24325359](../papers/24325359.md).
 - PCR/Sanger HPV genotyping covering types 16/18/31/33/35/45 plus L1/E1 consensus primers used to exclude HPV-associated multiphenotypic sinonasal carcinoma from the sinonasal adenoid cystic carcinoma cohort (n=88); identified 11/100 HPV-positive cases for reclassification [PMID:24418857](../papers/24418857.md)
-- Validated all identified SMARCA4 mutations in 12 SCCOHT cases by Sanger sequencing of genomic DNA and cDNA (RT-PCR) [PMID:24658004](../papers/24658004.md)
-- Validated somatic mutations in ESCC cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations [PMID:24686850](../papers/24686850.md)
-- Sanger sequencing applied to HCC cohort molecular characterisation as part of the multi-platform TCGA integrated study [PMID:24798001](../papers/24798001.md)
-- Sanger sequencing of GTF2I performed on 199 TETs with >50% cancer cells to confirm the recurrent chr7:74146970 T>A hotspot mutation [PMID:24974848](../papers/24974848.md)
-- Used for plasmid verification in functional studies of MSK-IMPACT-detected mutations (e.g., MAP2K1 Q56P) in the CRC concordance study. [PMID:25164765](../papers/25164765.md)
-- Used for orthogonal confirmation of CDKN2A deletions in Ewing sarcoma WGS discovery cohort [PMID:25223734](../papers/25223734.md)
+- Validated all identified [SMARCA4](../genes/SMARCA4.md) mutations in 12 SCCOHT cases by Sanger sequencing of genomic DNA and cDNA (RT-PCR) [PMID:24658004](../papers/24658004.md)
+- Validated somatic mutations in [ESCC](../cancer_types/ESCC.md) cohort with a 96.2% true-positive rate across 1,847 non-silent somatic mutations [PMID:24686850](../papers/24686850.md)
+- Sanger sequencing applied to [HCC](../cancer_types/HCC.md) cohort molecular characterisation as part of the multi-platform TCGA integrated study [PMID:24798001](../papers/24798001.md)
+- Sanger sequencing of [GTF2I](../genes/GTF2I.md) performed on 199 TETs with >50% cancer cells to confirm the recurrent chr7:74146970 T>A hotspot mutation [PMID:24974848](../papers/24974848.md)
+- Used for plasmid verification in functional studies of MSK-IMPACT-detected mutations (e.g., [MAP2K1](../genes/MAP2K1.md) Q56P) in the CRC concordance study. [PMID:25164765](../papers/25164765.md)
+- Used for orthogonal confirmation of [CDKN2A](../genes/CDKN2A.md) deletions in Ewing sarcoma WGS discovery cohort [PMID:25223734](../papers/25223734.md)
 - Used for orthogonal indel validation in nccRCC WES study; Sanger sequencing confirmed 96% (127/132) of selected indels [PMID:25401301](../papers/25401301.md)
+- Used for confirmation sequencing of candidate somatic mutations identified by whole-exome and targeted sequencing in 103 African American MSS colorectal cancers [PMID:25583493](../papers/25583493.md)
 
 ## Notes
 
@@ -51,76 +52,79 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583493](../papers/25583493.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

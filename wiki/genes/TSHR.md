@@ -28,7 +28,7 @@ TSHR (Thyroid Stimulating Hormone Receptor) is a G protein-coupled receptor that
 
 ## Co-occurrence and mutual exclusivity
 
-- Low TSHR/TDS is associated with BRAFV600E tumors (BVL phenotype) and TERT promoter mutations in PTC, reflecting a dedifferentiated, high-risk subset. [PMID:25417114](../papers/25417114.md)
+- Low TSHR/TDS is associated with BRAFV600E tumors (BVL phenotype) and [TERT](../genes/TERT.md) promoter mutations in PTC, reflecting a dedifferentiated, high-risk subset. [PMID:25417114](../papers/25417114.md)
 
 ## Therapeutic relevance
 

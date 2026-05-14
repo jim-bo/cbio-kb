@@ -25,7 +25,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH1](../genes/IDH1.md)) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Codon 172 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); absent in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) in this study; IDH mutation associated with worse 3-year survival (HR 7.37, P=0.037 adjusted) [PMID:24185509](../papers/24185509.md)
 - Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
-- IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from IDH1 to IDH2 [PMID:25526346](../papers/25526346.md)
+- IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from [IDH1](../genes/IDH1.md) to IDH2 [PMID:25526346](../papers/25526346.md)
+- IDH1/IDH2 mutations in iCCA drive 2-HG accumulation, epigenetically suppressing bile acid biosynthesis genes (e.g., [CYP7A1](../genes/CYP7A1.md)) via DNA hypermethylation; [ivosidenib](../drugs/ivosidenib.md) (IDH1-specific) is the approved therapy highlighted as first targeted option for IDH1-mutant CCA. [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

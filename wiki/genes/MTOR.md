@@ -4,12 +4,13 @@ aliases:
   - FRAP1
 cancer_types:
   - KIRC
+  - CSCC
 tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MTOR
@@ -26,8 +27,9 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Pathway downstream of PI3K/AKT in the PI3K/AKT/mTOR signaling map; combined PI3K/AKT/mTOR pathway altered in 30% of high-grade urothelial bladder tumors; TSC1-null tumors resistant to AKT inhibition (MK-2206) while maintaining S6/4EBP1 signaling [PMID:23897969](../papers/23897969.md)
 - TMZ-associated activating mutation S2215F validated as constitutively activating in low-grade glioma; subclonal expansion of MTOR-mutant cells drove distal recurrence in patient 01 of the longitudinal cohort [PMID:24336570](../papers/24336570.md)
 - MTOR is listed among manually reviewed ccRCC driver genes; the PI3K–mTOR pathway shows mutation prevalence reaching 60% per case across multi-region sequencing, with single-biopsy designs substantially underestimating this prevalence [PMID:24487277](../papers/24487277.md)
-- Somatic mutation in 2/66 chromophobe RCC cases; combined mTOR-pathway alteration rate (PTEN, MTOR, TSC1/2, NRAS) of 23% in ChRCC suggests candidates for mTOR-directed therapy [PMID:25155756](../papers/25155756.md)
+- Somatic mutation in 2/66 chromophobe RCC cases; combined mTOR-pathway alteration rate ([PTEN](../genes/PTEN.md), MTOR, TSC1/2, [NRAS](../genes/NRAS.md)) of 23% in ChRCC suggests candidates for mTOR-directed therapy [PMID:25155756](../papers/25155756.md)
 - Recurrent mutations in chRCC alongside TSC1/TSC2, suggesting mTORC1 addiction; identified among 60 genes with COSMIC hotspot mutations as potential drug targets in nccRCC; mTORC1 inhibitors (rapalogs) nominated as candidate therapy [PMID:25401301](../papers/25401301.md)
+- MTOR S2215F (validated activating allele) identified in metastatic cSCC (n=29); RAS/RTK/PI3K pathway activation including MTOR events correlated with shorter PFS (mean 12 vs 50 months), motivating mTOR inhibitor evaluation. [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -50,25 +52,28 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

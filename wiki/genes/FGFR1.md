@@ -28,8 +28,9 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Recurrent kinase-domain hotspot mutations at N546 and K656 (5/96 WGS + 9/45 screening cohort) in pilocytic astrocytoma; plus a ~4.5 kb kinase-domain internal tandem duplication; mutants drive ERK phosphorylation; all FGFR1-mutant tumors extra-cerebellar/midline; same mutations recurred in 3/48 pediatric glioblastomas [PMID:23817572](../papers/23817572.md)
 - Recurrent amplification detected in high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); arose in a predominantly mutually exclusive distribution with other RTK/RAS/RAF alterations [PMID:23897969](../papers/23897969.md)
 - FGFR1 alteration contributes to the RTK-alteration rate of 67.3% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA); FGFR2/3 combined were explicitly listed at 3.2%, and FGFR1 was identified as part of the RTK pathway alteration landscape [PMID:24120142](../papers/24120142.md)
-- Focal amplification in 11/53 [ESCC](../cancer_types/ESCC.md) validated by FISH; protein over-expression in 17.3% of tumors; proposed druggable target in ESCC [PMID:24686850](../papers/24686850.md)
+- Focal amplification in 11/53 [ESCC](../cancer_types/ESCC.md) validated by FISH; protein over-expression in 17.3% of tumors; proposed druggable target in [ESCC](../cancer_types/ESCC.md) [PMID:24686850](../papers/24686850.md)
 - Alterations observed in the low-grade dysplasia stage of PSC-associated CCA progression, suggesting an early role in biliary tract tumorigenesis. [PMID:25526346](../papers/25526346.md)
+- Focal amplification in 10% of HPV(-) vs 0% HPV(+) HNSCC [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -89,5 +90,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

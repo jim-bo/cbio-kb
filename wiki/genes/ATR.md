@@ -7,8 +7,8 @@ tags:
   - dna-damage-response
   - replication-stress
   - kinase
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ATR
@@ -22,7 +22,8 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - ATR is recurrently mutated in anaplastic thyroid carcinoma (ATC) in a multi-omic landscape study (WES/WGS of 87 specimens from 64 ATC and 28 paired differentiated thyroid cancer (DTC)) [PMID:38412093](../papers/38412093.md).
 - Somatic mutations in 6.2% (4/65) of TNBC cases in a whole-genome sequencing study of 65 breast tumors (BCCRC cohort) [PMID:22495314](../papers/22495314.md)
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
-- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after etoposide; authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Cell-cycle/DNA-damage tumor suppressor with inactivating hits in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -44,13 +45,16 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 
 - [PMID:38412093](../papers/38412093.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,19 +3,20 @@ symbol: ABCB11
 aliases: []
 cancer_types: [HCC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ABCB11
 
 ## Overview
 
-ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes the bile salt export pump expressed in hepatocytes. In cancer genomics, ABCB11 is notable as a fusion partner in HCC: the ABCB11–LRP2 fusion is the first recurrent gene fusion reported in hepatocellular carcinoma, identified by integrated genomic analysis circa 2014.
+ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes the bile salt export pump expressed in hepatocytes. In cancer genomics, ABCB11 is notable as a fusion partner in [HCC](../cancer_types/HCC.md): the ABCB11–[LRP2](../genes/LRP2.md) fusion is the first recurrent gene fusion reported in hepatocellular carcinoma, identified by integrated genomic analysis circa 2014.
 
 ## Alterations observed in the corpus
 
 - Recurrent gene fusion ABCB11–LRP2 reported as the first recurrent fusion in HCC, identified by next-generation sequencing; represents a novel structural alteration class in HCC beyond point mutations [PMID:24735922](../papers/24735922.md)
+- Identified as a prognostic marker of the bile-acid-active CCA subtype (bile-salt export pump); implicated in bile acid homeostasis maintenance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ ABCB11 (ATP-binding cassette sub-family B member 11, also known as BSEP) encodes
 
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -17,9 +17,9 @@ CTLA4 is an immune checkpoint receptor on T cells whose engagement dampens T-cel
 
 - Included in the 20-gene Immunologic Constant of Rejection (ICR) signature as an immunoregulatory counter-activation gene, alongside [CD274](../genes/CD274.md), [FOXP3](../genes/FOXP3.md), [IDO1](../genes/IDO1.md), and [PDCD1](../genes/PDCD1.md), applied to the 348-patient AC-ICAM colon cancer cohort [PMID:37202560](../papers/37202560.md).
 - CTLA4 RNA progressively upregulated on CD8+ T cells from STIC.I through STIC.C and invasive [HGSOC](../cancer_types/OV.md), alongside [LAG3](../genes/LAG3.md) and [HAVCR2](../genes/HAVCR2.md), reflecting stepwise T-cell exhaustion across the [HGSOC](../cancer_types/HGSOC.md) precursor-to-cancer progression axis [PMID:39386723](../papers/39386723.md).
-- Target of [tremelimumab](../drugs/tremelimumab.md) (phase II ORR 17.6% in 20 [HCC](../cancer_types/HCC.md) patients) and [ipilimumab](../drugs/ipilimumab.md) in combination ICI regimens for HCC [PMID:24798001](../papers/24798001.md)
+- Target of [tremelimumab](../drugs/tremelimumab.md) (phase II ORR 17.6% in 20 [HCC](../cancer_types/HCC.md) patients) and [ipilimumab](../drugs/ipilimumab.md) in combination ICI regimens for [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - Compensatory checkpoint in [NPC](../cancer_types/NPC.md); targeted by IBI-310 (+ [sintilimab](../drugs/sintilimab.md)) and bispecifics ([cadonilimab](../drugs/cadonilimab.md) PD-1×CTLA-4; QL1706; SI-B003; [vudalimab](../drugs/vudalimab.md)) [PMID:24952746](../papers/24952746.md)
-- Target of ipilimumab and tremelimumab; CTLA-4 blockade activates effector and helper T cells and depletes regulatory T cells, enabling antitumor immunity; neoantigen mutational load in tumors predicts survival benefit from anti-CTLA-4 therapy in melanoma [PMID:25409260](../papers/25409260.md)
+- Target of [ipilimumab](../drugs/ipilimumab.md) and [tremelimumab](../drugs/tremelimumab.md); CTLA-4 blockade activates effector and helper T cells and depletes regulatory T cells, enabling antitumor immunity; neoantigen mutational load in tumors predicts survival benefit from anti-CTLA-4 therapy in melanoma [PMID:25409260](../papers/25409260.md)
 
 ## Cancer types (linked)
 

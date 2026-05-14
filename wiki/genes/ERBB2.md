@@ -53,11 +53,12 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in [RMS](../cancer_types/RMS.md) genomic characterization [PMID:24436047](../papers/24436047.md)
 - ERBB2 mutation or amplification in 9% of muscle-invasive bladder cancers (significant by COSMIC restriction); alteration frequency comparable to TCGA HER2-positive breast cancer but with fewer amplifications and more mutations; supports ongoing ERBB2-targeted therapy trials [PMID:24476821](../papers/24476821.md)
 - Mentioned in the context of RTK signaling and targeted therapy landscape in [HCC](../cancer_types/HCC.md) (2014 genomics review) [PMID:24735922](../papers/24735922.md)
-- ERBB-pathway member cited in context of prior [GBC](../cancer_types/GBC.md) whole-exome data (Li et al. Nat Genet 2014) showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
+- ERBB-pathway member cited in context of prior [GBC](../cancer_types/GBC.md) whole-exome data (Li et al. Nat Genet 2014) showing recurrent ERBB-pathway mutations activating AKT in [GBC](../cancer_types/GBC.md) [PMID:24997986](../papers/24997986.md)
 - Altered in 17% of CIN gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) cases; alterations include focal amplification and recurrent S310F-class hotspot mutations (3% mutation overall); established drug target in CIN subtype [PMID:25079317](../papers/25079317.md)
 - Activating in-frame insertion and point mutations (n=5) and focal amplification in the oncogene-negative subset of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 - Amplification/overexpression in 4–6% iCCA and 3–20% eCCA; targetable with [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway ORR 23%) and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (ORR 22.0%, mPFS 4.6 mo, mOS 7.0 mo in CCA). [PMID:25526346](../papers/25526346.md)
-- Amplification and mutation confirmed in gastric cancer (GC) cohort (294 Tianjin cases); standard trastuzumab target. [PMID:25583476](../papers/25583476.md)
+- Amplification and mutation confirmed in gastric cancer (GC) cohort (294 Tianjin cases); standard [trastuzumab](../drugs/trastuzumab.md) target. [PMID:25583476](../papers/25583476.md)
+- Focal amplification in HPV(-) HNSCC (3%); part of the RTK alteration landscape in HPV-negative head and neck squamous cell carcinoma [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -191,5 +192,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

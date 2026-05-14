@@ -27,9 +27,11 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Confirmed recurrent driver mutation in transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the cohort [PMID:24121792](../papers/24121792.md)
 - HRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (4.3% frequency); no RAS mutations observed in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 - HRAS identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
-- RTK/RAS/RAF pathway mutation identified in 1 case of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); part of the broader RTK/RAS/RAF pathway altered in the majority of LUAD cases [PMID:25079552](../papers/25079552.md)
+- RTK/RAS/RAF pathway mutation identified in 1 case of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); part of the broader RTK/RAS/RAF pathway altered in the majority of [LUAD](../cancer_types/LUAD.md) cases [PMID:25079552](../papers/25079552.md)
 - Mutated in 20.5% of 39 aggressive cSCC tumors; the most obvious oncogene identified but currently undruggable; positively correlated with [AJUBA](../genes/AJUBA.md) co-mutation (kappa 0.423, p=0.008) and inversely correlated with [TP53](../genes/TP53.md) (kappa -0.107, p=0.004) [PMID:25303977](../papers/25303977.md)
 - RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling [PMID:25417114](../papers/25417114.md)
+- G13D activating mutation identified as an oncogenic event in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
+- Activating mutations (4%) at GTPase residues 11-13 in HNSCC; defines an M-class oral-cavity subset with [CASP8](../genes/CASP8.md) co-mutation and wild-type [TP53](../genes/TP53.md) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -92,5 +94,11 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

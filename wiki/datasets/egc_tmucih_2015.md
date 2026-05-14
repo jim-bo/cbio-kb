@@ -38,7 +38,7 @@ Multi-tier sequencing cohort of gastric adenocarcinoma (GC) from the Tianjin Med
 - **Stage:** I 6 (2.05%), II 85 (28.91%), III 97 (32.99%), IV 106 (36.05%)
 - **Follow-up:** Median 13.84 months overall; 25.08 months for WES series
 - **Treatment:** Treatment-naive; no prior chemotherapy or radiotherapy
-- **Population:** Northern Chinese; differences vs. Russian TCGA STAD cohort observed for anatomic-location mutation enrichments
+- **Population:** Northern Chinese; differences vs. Russian TCGA [STAD](../cancer_types/STAD.md) cohort observed for anatomic-location mutation enrichments
 - **Reference genome:** hg19
 
 ## Assays / panels (linked)
@@ -56,9 +56,9 @@ Multi-tier sequencing cohort of gastric adenocarcinoma (GC) from the Tianjin Med
 ## Notable findings derived from this cohort
 
 - SciClone clonality analysis identified a high-clonality (HiC, >4 clones, n=9) subtype with significantly shorter survival vs. low-clonality (LoC, ≤4 clones, n=68); HiC–survival association was an independent prognostic factor after multivariate adjustment (adjusted HR 4.69, 95% CI 1.62–13.6, P=0.0043) [PMID:25583476](../papers/25583476.md).
-- [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations were detected in 34/294 (11.6%) of cases, with EGF-like domain clustering in NRG1 (p.A221T, p.A225P, p.E223G, p.R224Q, p.S226P) and kinase/receptor-domain mutations in ERBB4; ERBB/NRG family mutations were mutually exclusive (permutation P=0.02), defining a candidate lapatinib-targetable subset [PMID:25583476](../papers/25583476.md).
-- [BRCA2](../genes/BRCA2.md) mutations in 17/294 Tianjin cases (5.8%); pooling with TCGA STAD (28/289 cases) yielded log-rank P=0.03 survival benefit for BRCA2-mutant GC patients; adjusted HR 0.37 (95% CI 0.13–0.96, P=0.05), establishing BRCA2 as an independent prognostic marker [PMID:25583476](../papers/25583476.md).
-- MutSigCV identified 16 significantly mutated genes (q<0.2) including [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [CDH1](../genes/CDH1.md), [APC](../genes/APC.md), [RHOA](../genes/RHOA.md), [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [MYC](../genes/MYC.md), and [KRAS](../genes/KRAS.md); TP53 was enriched in HiC and present only as minor subclones (<15% VAF), implying single-agent therapy could select for TP53-wild-type populations [PMID:25583476](../papers/25583476.md).
+- [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations were detected in 34/294 (11.6%) of cases, with EGF-like domain clustering in [NRG1](../genes/NRG1.md) (p.A221T, p.A225P, p.E223G, p.R224Q, p.S226P) and kinase/receptor-domain mutations in [ERBB4](../genes/ERBB4.md); ERBB/NRG family mutations were mutually exclusive (permutation P=0.02), defining a candidate lapatinib-targetable subset [PMID:25583476](../papers/25583476.md).
+- [BRCA2](../genes/BRCA2.md) mutations in 17/294 Tianjin cases (5.8%); pooling with TCGA STAD (28/289 cases) yielded log-rank P=0.03 survival benefit for BRCA2-mutant GC patients; adjusted HR 0.37 (95% CI 0.13–0.96, P=0.05), establishing [BRCA2](../genes/BRCA2.md) as an independent prognostic marker [PMID:25583476](../papers/25583476.md).
+- MutSigCV identified 16 significantly mutated genes (q<0.2) including [TP53](../genes/TP53.md), [ARID1A](../genes/ARID1A.md), [CDH1](../genes/CDH1.md), [APC](../genes/APC.md), [RHOA](../genes/RHOA.md), [PIK3CA](../genes/PIK3CA.md), [SMAD4](../genes/SMAD4.md), [MYC](../genes/MYC.md), and [KRAS](../genes/KRAS.md); [TP53](../genes/TP53.md) was enriched in HiC and present only as minor subclones (<15% VAF), implying single-agent therapy could select for TP53-wild-type populations [PMID:25583476](../papers/25583476.md).
 - Anatomic-location-specific mutation enrichments (antrum, body, cardia) were observed in this northern Chinese cohort but did not replicate in the Russian TCGA STAD cohort, suggesting population-specific or environmental contributions to mutational distribution [PMID:25583476](../papers/25583476.md).
 
 ## Sources

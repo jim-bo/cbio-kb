@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - LUSC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # DDR2
@@ -17,6 +17,7 @@ DDR2 (Discoidin Domain Receptor Tyrosine Kinase 2) is a receptor tyrosine kinase
 ## Alterations observed in the corpus
 
 - Mutation identified in lung squamous cell carcinoma (178 tumors, TCGA); previously nominated as a therapeutic target [PMID:22960745](../papers/22960745.md)
+- Candidate RTK alteration across HPV groups in HNSCC (Fig. 3); part of the comprehensive set of RTK alterations identified in the TCGA HNSCC study [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -30,10 +31,13 @@ DDR2 (Discoidin Domain Receptor Tyrosine Kinase 2) is a receptor tyrosine kinase
 
 ## Open questions
 
-- Functional validation of DDR2 mutations as drivers in LUSC not performed in the TCGA study [PMID:22960745](../papers/22960745.md)
+- Functional validation of DDR2 mutations as drivers in [LUSC](../cancer_types/LUSC.md) not performed in the TCGA study [PMID:22960745](../papers/22960745.md)
 
 ## Sources
 
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

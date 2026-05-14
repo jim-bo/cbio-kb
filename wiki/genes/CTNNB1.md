@@ -12,8 +12,8 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CTNNB1
@@ -44,14 +44,15 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Highlighted in TieDIE/focal-deletion analyses as a downstream pathway and SCNA feature in [CCRCC](../cancer_types/CCRCC.md) (TCGA, n=446) [PMID:23792563](../papers/23792563.md)
 - Sporadic alteration included in the intrahepatic cholangiocarcinoma/gallbladder carcinoma prevalence-screen panel [PMID:24185509](../papers/24185509.md)
 - Somatic mutations in both pancreatoblastomas (2/2) and in none of the acinar cell carcinomas; reinforces CTNNB1/Wnt-beta-catenin pathway activation as a defining molecular hallmark of pancreatoblastoma [PMID:24293293](../papers/24293293.md)
-- Oncogenic S33/T41 mutations in 3% of PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), including one fusion-negative [ARMS](../cancer_types/ARMS.md) case; part of a Wnt-pathway signal identified in pediatric RMS genomic landscape [PMID:24436047](../papers/24436047.md)
+- Oncogenic S33/T41 mutations in 3% of PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), including one fusion-negative [ARMS](../cancer_types/ARMS.md) case; part of a Wnt-pathway signal identified in pediatric [RMS](../cancer_types/RMS.md) genomic landscape [PMID:24436047](../papers/24436047.md)
 - Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; one of 32 SMGs from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
-- β-catenin activating mutations in ~30% of HCC and a high-risk feature in HCA for malignant transformation; CTNNB1 mutation in hepatocellular adenoma is an indication for surgical resection per this review [PMID:24735922](../papers/24735922.md)
+- β-catenin activating mutations in ~30% of [HCC](../cancer_types/HCC.md) and a high-risk feature in HCA for malignant transformation; CTNNB1 mutation in hepatocellular adenoma is an indication for surgical resection per this review [PMID:24735922](../papers/24735922.md)
 - Activating mutation in 29% (range 23–36%) of HCCs (WES, n=1,289); defines canonical-WNT non-proliferation subclass and the immune-excluded class; β-catenin activation drives T-cell exclusion and checkpoint resistance [PMID:24798001](../papers/24798001.md)
-- Beta-catenin pathway alteration among non-hypermutated gastric tumours; alternative splicing strongly associated with U2AF1 S34F mutations [PMID:25079317](../papers/25079317.md)
-- Alternative splicing event strongly associated with U2AF1 S34F mutations in LUAD; U2AF1 S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
+- Beta-catenin pathway alteration among non-hypermutated gastric tumours; alternative splicing strongly associated with [U2AF1](../genes/U2AF1.md) S34F mutations [PMID:25079317](../papers/25079317.md)
+- Alternative splicing event strongly associated with U2AF1 S34F mutations in [LUAD](../cancer_types/LUAD.md); U2AF1 S34F drives 129 alternative splicing events including CTNNB1 exon inclusion/exclusion [PMID:25079552](../papers/25079552.md)
 - Recurrently mutated in non-hypermutated CRC (concordant between primary and metastasis per Figure 1B) [PMID:25164765](../papers/25164765.md)
 - Hotspot mutations in 2 MSS carcinosarcoma cases (uterine); indicates Wnt pathway activation in a subset of MSS tumors [PMID:25233892](../papers/25233892.md)
+- Terminal node of Wnt convergence implicated via FAT1/AJUBA/NOTCH1 inactivation in HNSCC (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
 
 ## Cancer types (linked)
 
@@ -83,76 +84,79 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:38653864](../papers/38653864.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

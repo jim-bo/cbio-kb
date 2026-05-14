@@ -30,7 +30,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 
 ## Co-occurrence and mutual exclusivity
 
-- FANCA alterations co-occurred with other FA/HR pathway genes ([FANCC](../genes/FANCC.md), [RAD51B](../genes/RAD51B.md), RAD51C) and double-strand-break response genes ([ATR](../genes/ATR.md), [ATM](../genes/ATM.md), RAD21) in the same FN-RMS relapse samples, indicating a broad DNA repair deficiency phenotype at relapse. [PMID:37730754](../papers/37730754.md)
+- FANCA alterations co-occurred with other FA/HR pathway genes ([FANCC](../genes/FANCC.md), [RAD51B](../genes/RAD51B.md), [RAD51C](../genes/RAD51C.md)) and double-strand-break response genes ([ATR](../genes/ATR.md), [ATM](../genes/ATM.md), [RAD21](../genes/RAD21.md)) in the same FN-RMS relapse samples, indicating a broad DNA repair deficiency phenotype at relapse. [PMID:37730754](../papers/37730754.md)
 
 ## Therapeutic relevance
 

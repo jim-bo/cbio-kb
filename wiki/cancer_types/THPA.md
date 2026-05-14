@@ -21,7 +21,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 
 ## Recurrent alterations
 
-- [BRAF](../genes/BRAF.md) — V600E is the dominant driver in PTC (50.9% of PTCs vs. 21.3% of ATCs); mutually exclusive with RAS; half of BRAF V600E variants in co-occurring cases were found only in the DTC component. [PMID:38412093](../papers/38412093.md)
+- [BRAF](../genes/BRAF.md) — V600E is the dominant driver in PTC (50.9% of PTCs vs. 21.3% of ATCs); mutually exclusive with RAS; half of [BRAF](../genes/BRAF.md) V600E variants in co-occurring cases were found only in the DTC component. [PMID:38412093](../papers/38412093.md)
 - [NRAS](../genes/NRAS.md) — recurrently mutated in PTC/ATC; no frequency difference between PTC and ATC. [PMID:38412093](../papers/38412093.md)
 - [TP53](../genes/TP53.md) — rare in PTC (0.9% vs. 36.8% in ATC); stepwise enrichment defines dedifferentiation to ATC. [PMID:38412093](../papers/38412093.md)
 - [TERT](../genes/TERT.md) — promoter mutations; co-occurs with [TP53](../genes/TP53.md) mutations in BRAF fusion-positive thyroid cancers (73% of BRAF fusion thyroid cancers). [PMID:38922339](../papers/38922339.md)

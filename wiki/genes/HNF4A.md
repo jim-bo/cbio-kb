@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CCRCC]
 tags: [transcription-factor, renal-development, HIF2A-target]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # HNF4A
@@ -16,6 +16,7 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 ## Alterations observed in the corpus
 
 - Identified by LISA and ChEA3 (top 50 in both) as a transcription factor whose binding sites are enriched at HIF2A-specific VHL-dependent gene loci in a mouse VHL-knockout model of ccRCC initiation; proposed to mediate HIF2A's dedifferentiation-linked transcriptional output in proximal tubule cells [PMID:23797736](../papers/23797736.md)
+- Hepatobiliary master regulator implicated in bile salt export pump (BSEP/ABCB11) and bile acid homeostasis maintenance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
 
 ## Cancer types (linked)
 
@@ -27,7 +28,7 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 
 ## Therapeutic relevance
 
-- Not directly targeted in the corpus; relationship to HIF2A-driven programs may inform interpretation of HIF2A inhibitor ([belzutifan](../drugs/belzutifan.md)) response in VHL disease.
+- Not directly targeted in the corpus; relationship to HIF2A-driven programs may inform interpretation of HIF2A inhibitor ([belzutifan](../drugs/belzutifan.md)) response in [VHL](../genes/VHL.md) disease.
 
 ## Open questions
 
@@ -37,4 +38,7 @@ HNF4A (Hepatocyte Nuclear Factor 4 Alpha) is a nuclear receptor transcription fa
 
 - [PMID:23797736](../papers/23797736.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

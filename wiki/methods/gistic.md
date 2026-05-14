@@ -34,11 +34,13 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Reimplemented GISTIC-style analysis on WGS-derived CNA data from 99 [BLCA](../cancer_types/BLCA.md) tumors; identified 84 focal amplification regions and 80 focal deletion regions including [DHFR](../genes/DHFR.md) amplification (14%) and CDKN2A/B deletion (50%) [PMID:24121792](../papers/24121792.md)
 - GISTIC applied to Affymetrix SNP 6.0 copy-number data from 153 multiple myeloma patients; identified 7 significant homozygous deletion peaks covering NF-kB regulators ([TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md)), [CDKN2C](../genes/CDKN2C.md), [PTPRD](../genes/PTPRD.md), and an 8p23.1 locus [PMID:24434212](../papers/24434212.md)
 - GISTIC 2.0 applied to Affymetrix SNP 6.0 data from 131 TCGA bladder carcinoma samples; identified most common focal deletion at 9p21.3 ([CDKN2A](../genes/CDKN2A.md), 47% of samples) and multiple focal amplifications including [PPARG](../genes/PPARG.md) (17%), [EGFR](../genes/EGFR.md) (11%), [MDM2](../genes/MDM2.md) (9%), and [ERBB2](../genes/ERBB2.md) (7%) [PMID:24476821](../papers/24476821.md)
-- GISTIC used for copy-number peak calling in 65 [TET](../cancer_types/TET.md) cases; identified focal [BCL2](../genes/BCL2.md) amplification correlated with increased BCL2 mRNA expression [PMID:24974848](../papers/24974848.md)
+- GISTIC used for copy-number peak calling in 65 [TET](../cancer_types/TET.md) cases; identified focal [BCL2](../genes/BCL2.md) amplification correlated with increased [BCL2](../genes/BCL2.md) mRNA expression [PMID:24974848](../papers/24974848.md)
 - GISTIC applied to gastric adenocarcinoma copy-number data ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) identified focal amplifications of JAK2/CD274/PDCD1LG2 at 9p24.1 (enriched in EBV-positive tumors, 15%) and recurrent oncogene amplifications ([ERBB2](../genes/ERBB2.md), [CCNE1](../genes/CCNE1.md), [KRAS](../genes/KRAS.md), [MYC](../genes/MYC.md), [EGFR](../genes/EGFR.md), [VEGFA](../genes/VEGFA.md)) in the CIN subtype [PMID:25079317](../papers/25079317.md)
-- GISTIC applied to lung adenocarcinoma copy-number data ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified significant focal amplifications ([NKX2-1](../genes/NKX2-1.md), [TERT](../genes/TERT.md), [MDM2](../genes/MDM2.md), KRAS, EGFR, [MET](../genes/MET.md), CCNE1, [CCND1](../genes/CCND1.md), [CCND3](../genes/CCND3.md), [TERC](../genes/TERC.md), [MECOM](../genes/MECOM.md), 8q24/MYC) and the most significant deletion peak at [CDKN2A](../genes/CDKN2A.md); focal MET and ERBB2 amplifications were enriched in oncogene-negative tumors [PMID:25079552](../papers/25079552.md)
+- GISTIC applied to lung adenocarcinoma copy-number data ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified significant focal amplifications ([NKX2-1](../genes/NKX2-1.md), [TERT](../genes/TERT.md), [MDM2](../genes/MDM2.md), [KRAS](../genes/KRAS.md), [EGFR](../genes/EGFR.md), [MET](../genes/MET.md), [CCNE1](../genes/CCNE1.md), [CCND1](../genes/CCND1.md), [CCND3](../genes/CCND3.md), [TERC](../genes/TERC.md), [MECOM](../genes/MECOM.md), 8q24/MYC) and the most significant deletion peak at [CDKN2A](../genes/CDKN2A.md); focal [MET](../genes/MET.md) and [ERBB2](../genes/ERBB2.md) amplifications were enriched in oncogene-negative tumors [PMID:25079552](../papers/25079552.md)
 - Applied to Affymetrix SNP6 copy-number data from 66 ChRCC tumors; found no focal amplifications or deletions, only recurrent whole-chromosome losses. [PMID:25155756](../papers/25155756.md)
 - GISTIC2 applied to TCGA PTC SNP6 data; identified focal SCNAs in 27.2% of 495 tumors, including focal [PTEN](../genes/PTEN.md) deletions; enriched in driver-mutation-negative cases (Fisher's exact P=4.4×10⁻⁴) [PMID:25417114](../papers/25417114.md)
+- Applied (version 2.0 with arm-level peel correction; minimum segment size raised from 4 to 6) to identify recurrent copy-number alterations in 29 metastatic cSCC; identified 25 amplified and 11 deleted gene peaks including [TP63](../genes/TP63.md) (24%), [MYC](../genes/MYC.md) (34%), and CDKN2A/CDKN2B as top deletion [PMID:25589618](../papers/25589618.md)
+- Applied to SNP6.0 array data from 279 [HNSC](../cancer_types/HNSC.md) tumors; identified 39 recurrent deletion and 23 amplification peaks (q<0.1); key alterations include 9p21.3 ([CDKN2A](../genes/CDKN2A.md)) deletion absent in HPV(+), and 3q26/28 amplification of SOX2/TP63/PIK3CA spanning both HPV groups [PMID:25631445](../papers/25631445.md)
 
 ## Notes
 
@@ -109,5 +111,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

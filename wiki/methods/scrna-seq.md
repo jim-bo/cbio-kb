@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Single-cell RNA sequencing (scRNA-seq)
@@ -24,7 +24,8 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - Applied to 156 multi-site [HGSOC](../cancer_types/HGSOC.md) biopsy samples (~930k cells total) from 42 treatment-naive patients; resolved site-specific T cell phenotypic states: adnexal sites enriched for dysfunctional CD8+ T cells, non-adnexal/metastatic sites enriched for naive/memory T cells [PMID:36517593](../papers/36517593.md)
 - Single-cell RNA-seq performed on 259,441 cells from three public ccRCC cohorts to validate FGES signatures; a subset of 22,456 cells used for spatial validation in the HiTME ccRCC subtyping study [PMID:22138691](../papers/22138691.md)
 - Applied to 147,045 FAC-sorted tdTomato+ cells from Vhl/HIF conditional knockout mice (4 genotypes, 12 mice) to resolve HIFα-isoform–specific transcriptional programs in proximal tubular cells; revealed [HIF1A](../genes/HIF1A.md) drives glycolysis while HIF2A drives dedifferentiation [PMID:23797736](../papers/23797736.md)
-- Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 GBC patients) to identify 16 cell types including ACTA2+ and MFAP5+ CAF subpopulations with co-expression of YAP1 and SEMA7A [PMID:24997986](../papers/24997986.md)
+- Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 [GBC](../cancer_types/GBC.md) patients) to identify 16 cell types including [ACTA2](../genes/ACTA2.md)+ and [MFAP5](../genes/MFAP5.md)+ CAF subpopulations with co-expression of [YAP1](../genes/YAP1.md) and [SEMA7A](../genes/SEMA7A.md) [PMID:24997986](../papers/24997986.md)
+- Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter [OS](../cancer_types/OS.md) and immunotherapy resistance with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers [PMID:25608663](../papers/25608663.md)
 
 ## Notes
 
@@ -38,18 +39,21 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:34493726](../papers/34493726.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23797736](../papers/23797736.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

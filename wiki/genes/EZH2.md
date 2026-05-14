@@ -8,8 +8,8 @@ tags:
   - epigenetic
   - histone-methyltransferase
   - GCB
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # EZH2
@@ -29,9 +29,10 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Somatic mutations detected in pediatric ALL (St. Jude WGS/WES, 44 tumors); loss-of-function mutations implicated in epigenetic dysregulation [PMID:23334668](../papers/23334668.md)
 - Member of the chromatin-modifying gene category (with [KDM6A](../genes/KDM6A.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md)) recurrently mutated in [AML](../cancer_types/AML.md); contributes to the epigenetic regulation landscape of the disease [PMID:23634996](../papers/23634996.md)
 - Somatic variants identified in 4 patients in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
-- Identified as an established EWS::FLI1 transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:25186949](../papers/25186949.md)
+- Identified as an established EWS::[FLI1](../genes/FLI1.md) transcriptional target induced upon oncogene expression in heMSCs; validated by RT-qPCR as part of the Ewing sarcoma transcriptional program [PMID:25186949](../papers/25186949.md)
 - Recurrent SET-domain missense mutations Y646F, Y646H, A682G (3/112 cases) in Ewing sarcoma; known gain-of-function alleles in B-cell lymphoma; one of three significantly mutated genes by MuSiC SMG test [PMID:25223734](../papers/25223734.md)
-- Not altered in any MPNST discovery or validation cohort; explicit negative finding — PRC2 loss in MPNST occurs exclusively via EED or SUZ12 inactivation, not EZH2 [PMID:25240281](../papers/25240281.md)
+- Not altered in any [MPNST](../cancer_types/MPNST.md) discovery or validation cohort; explicit negative finding — PRC2 loss in MPNST occurs exclusively via [EED](../genes/EED.md) or [SUZ12](../genes/SUZ12.md) inactivation, not EZH2 [PMID:25240281](../papers/25240281.md)
+- Y641S gain-of-function lymphoma allele found in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
 
 ## Cancer types (linked)
 
@@ -44,7 +45,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 ## Therapeutic relevance
 
-- EZH2 inhibitors (e.g., tazemetostat) have been developed targeting Y641 gain-of-function mutations; clinical relevance supported by the high recurrence frequency in GCB DLBCL and FL.
+- EZH2 inhibitors (e.g., tazemetostat) have been developed targeting Y641 gain-of-function mutations; clinical relevance supported by the high recurrence frequency in GCB DLBCL and [FL](../cancer_types/FL.md).
 
 ## Open questions
 
@@ -54,37 +55,40 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 - [PMID:21796119](../papers/21796119.md) — Whole-genome/exome sequencing of non-Hodgkin lymphomas (DLBCL/FL)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

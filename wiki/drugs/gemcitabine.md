@@ -27,6 +27,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Combined with [saridegib](../drugs/saridegib.md) (IPI-926, Smoothened inhibitor) in a co-clinical [PAAD](../cancer_types/PAAD.md) trial (NCT01130142); despite positive preclinical signal in GEM mice, the human phase II arm was halted for inferior survival, illustrating risks of preclinical-to-clinical translation without chronic-dosing validation [PMID:23999436](../papers/23999436.md).
 - Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M [NPC](../cancer_types/NPC.md); multiple anti-PD-1 combination trials add ICIs to this doublet [PMID:24952746](../papers/24952746.md)
 - Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [cisplatin](../drugs/cisplatin.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing [PMID:25526346](../papers/25526346.md)
+- Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as [futibatinib](../drugs/futibatinib.md) [PMID:25608663](../papers/25608663.md)
 
 ## Resistance mechanisms
 
@@ -58,5 +59,8 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

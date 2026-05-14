@@ -33,7 +33,7 @@ Whole-exome sequencing cohort of 64 patients with metastatic cutaneous melanoma 
 - **Cancer type:** Cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), metastatic
 - **Sample count:** 64 patients; 128 exomes (tumor + matched blood/normal)
 - **Cohort structure:** Discovery set (25 patients: 11 long-term benefit, 14 minimal/no benefit); validation set (39 patients: 25 long-term benefit, 14 minimal/no benefit)
-- **Treatment:** 59 patients received ipilimumab; 5 received tremelimumab
+- **Treatment:** 59 patients received [ipilimumab](../drugs/ipilimumab.md); 5 received [tremelimumab](../drugs/tremelimumab.md)
 - **Clinical outcome definition:** Long-term benefit = radiographic freedom from disease or stable/decreased disease >6 months; minimal/no benefit = ≤6 months or progression on every CT
 - **Reference genome:** hg19
 

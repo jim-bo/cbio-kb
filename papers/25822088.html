@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Exome sequencing of hepatocellular carcinomas identifies new mutational signatures and potential therapeutic targets – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25822088.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25822088.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Exome sequencing of hepatocellular carcinomas identifies new mutational signatures and potential therapeutic targets</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kornelius Schulze </p>
+             <p>Sandrine Imbeaud </p>
+             <p>Eric Letouzé </p>
+             <p>Ludmil B Alexandrov </p>
+             <p>Julien Calderaro </p>
+             <p>Sandra Rebouissou </p>
+             <p>Gabrielle Couchy </p>
+             <p>Clément Meiller </p>
+             <p>Jayendra Shinde </p>
+             <p>Frederic Soysouvanh </p>
+             <p>Anna-Line Calatayud </p>
+             <p>Roser Pinyol </p>
+             <p>Laura Pelletier </p>
+             <p>Charles Balabaud </p>
+             <p>Alexis Laurent </p>
+             <p>Jean-Frederic Blanc </p>
+             <p>Vincenzo Mazzaferro </p>
+             <p>Fabien Calvo </p>
+             <p>Augusto Villanueva </p>
+             <p>Jean-Charles Nault </p>
+             <p>Paulette Bioulac-Sage </p>
+             <p>Michael R Stratton </p>
+             <p>Josep M Llovet </p>
+             <p>Jessica Zucman-Rossi </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.3252">10.1038/ng.3252</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25822088 · <strong>DOI:</strong> 10.1038/ng.3252 · <strong>Journal:</strong> Nature Genetics (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Schulze et al.&nbsp;performed whole-exome sequencing on 243 European hepatocellular carcinomas (<a href="../cancer_types/HCC.html">HCC</a>) and matched normal liver, defining the most comprehensive mutational landscape of <a href="../cancer_types/HCC.html">HCC</a> at that time. They identified 161 putative driver genes spanning 11 recurrently altered pathways, discovered two novel mutational signatures (signatures 23 and 24, the latter linked to aflatoxin B1 / HBV exposure), and showed that 28% of tumors harbor an alteration potentially targetable by an FDA-approved drug. Mutation associations clustered around three hubs (<a href="../genes/CTNNB1.html">CTNNB1</a> with alcohol exposure, <a href="../genes/TP53.html">TP53</a> with HBV, and <a href="../genes/AXIN1.html">AXIN1</a>), and <a href="../genes/TERT.html">TERT</a> promoter mutations emerged as the earliest event during cirrhosis-to-HCC progression while <a href="../genes/CDKN2A.html">CDKN2A</a> loss and FGF3/FGF4/FGF19/CCND1 amplification appeared late and predicted poor outcome.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>243 surgically resected liver tumors with matched non-tumor liver from France (n=193, Créteil and Bordeaux), Italy (n=41, Milan) and Spain (n=9, Barcelona); cohort registered as cBioPortal study <a href="../datasets/hcc_inserm_fr_2015.html"><code>hcc_inserm_fr_2015</code></a>.</li>
+<li>Cancer type: <a href="../cancer_types/HCC.html">HCC</a>.</li>
+<li>Fibrosis distribution: F4 cirrhosis n=118; F2–F3 n=46; F0–F1 non-fibrotic n=79.</li>
+<li>Risk factors: alcohol 41%, HCV 26%, NASH/metabolic syndrome 18%, HBV 14%, hemochromatosis 7%, no known etiology 11%.</li>
+<li>Cirrhosis progression substages represented: 7 dysplastic macronodules, 7 early <a href="../cancer_types/HCC.html">HCC</a>, 17 small-and-progressed <a href="../cancer_types/HCC.html">HCC</a>, 58 classic HCC, 29 poor-prognosis HCC.</li>
+<li>Assay: Agilent SureSelect <a href="../methods/whole-exome-seq.html">whole-exome capture (v2/v3/v4/v5+UTRs)</a> sequenced on Illumina HiSeq 2000 (paired-end 75 bp) to a mean depth of 72× (~92.6% targeted bases at ≥10×).</li>
+<li>Mutation calling benchmarked by <a href="../methods/sanger-sequencing.html">Sanger sequencing</a> of 11 genes in 155 tumors: sensitivity 88% (95% CI 82–92%; 95% excluding GC-rich <code>ARID1A</code> exon 1 and large <code>CTNNB1</code> exon 3 deletions), specificity 99%.</li>
+<li>Variants annotated with Alamut and <a href="../methods/oncotator.html">Oncotator</a>; driver discovery via <a href="../methods/mutsig.html">MutSigCV</a> plus a focal-CNA integration pipeline; mutagenic processes deciphered with the Wellcome Trust Sanger Institute <a href="../methods/mutational-signatures.html">mutational-signatures</a> NMF framework.</li>
+<li>Sequence data deposited in EGA (EGAS00001000217, EGAS00001000679, EGAS00001001002) and ICGC data portal (release 18, 10 December 2014).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>28,478 somatic mutations were called; excluding one hypermutated tumor (CHC892T, 6,184 mutations), the median was 21 silent and 64 non-silent mutations per tumor (range 1–706), giving a mean coding mutation rate of 1.3/Mb.</li>
+<li>Eight mutational signatures were detected across the 243 exomes (signatures 1A, 1B, 4, 5, 6, 16, 23, 24); signatures 23 and 24 are novel. Signature 24 has a high C&gt;A rate, was found in 5 tumors from sub-Saharan African migrants infected with HBV, and 3 of 5 carried the canonical AFB1-associated <code>TP53</code> R249S mutation — strongly implicating aflatoxin B1 exposure as the mutagen behind signature 24.</li>
+<li>Hierarchical clustering on signature contributions defined 6 MSig groups plus 4 singletons. MSig3 (n=19) was enriched for alcohol + tobacco co-exposure (67%, P = 6×10⁻⁵), <code>CTNNB1</code> mutation (74%, P = 8×10⁻⁴) and non-cirrhotic livers (79%, P = 0.02), suggesting a genotoxic alcohol-tobacco synergy underlying ~8% of HCC.</li>
+<li>Validation in 452 ICGC-Japan and 198 TCGA exomes recapitulated AFB1-related signature 24 in 6 TCGA tumors (all African or Asian, P = 0.002; 3 of 6 R249S-positive, P = 8×10⁻⁴).</li>
+<li>MutSigCV identified 14 significantly mutated genes (q &lt; 0.05): <a href="../genes/TP53.html"><code>TP53</code></a>, <a href="../genes/CTNNB1.html"><code>CTNNB1</code></a>, <a href="../genes/AXIN1.html"><code>AXIN1</code></a>, <a href="../genes/ALB.html"><code>ALB</code></a>, <a href="../genes/ARID1A.html"><code>ARID1A</code></a>, <a href="../genes/ARID2.html"><code>ARID2</code></a>, <a href="../genes/ACVR2A.html"><code>ACVR2A</code></a>, <a href="../genes/NFE2L2.html"><code>NFE2L2</code></a>, <a href="../genes/RPS6KA3.html"><code>RPS6KA3</code></a>, <a href="../genes/KEAP1.html"><code>KEAP1</code></a>, <a href="../genes/RPL22.html"><code>RPL22</code></a>, <a href="../genes/CDKN2A.html"><code>CDKN2A</code></a>, <a href="../genes/CDKN1A.html"><code>CDKN1A</code></a>, and <a href="../genes/RB1.html"><code>RB1</code></a>.</li>
+<li>Recurrent homozygous deletions: <code>CFH</code> locus, <code>IRF2</code>, <code>CDKN2A</code>, <code>PTPN3</code>, <code>PTEN</code>, <code>AXIN1</code>, <code>RPS6KA3</code>. Recurrent focal amplifications: <code>TERT</code>, <code>VEGFA</code>, <code>MET</code>, <code>MYC</code>, the <code>FGF3</code>/<code>FGF4</code>/<code>FGF19</code>/<code>CCND1</code> locus, <code>JAK3</code>, <code>CCNE1</code>.</li>
+<li>Integrating mutations and focal CNAs yielded 161 putative driver genes mapping to 11 pathways altered in ≥5% of HCC: TERT-promoter/telomerase activation (60%), WNT/β-catenin (54%), PI3K/AKT/mTOR (51%), TP53/cell cycle (49%), MAP kinase (43%), hepatic differentiation (34%), epigenetic regulation (32%), chromatin remodeling (28%), oxidative stress (12%), IL6/JAK/STAT (9%), TGFβ (5%).</li>
+<li>Newly implicated HCC drivers include the β-catenin inhibitors <code>ZNRF3</code>, <code>USP34</code>, and <code>MACF1</code>; the hepatocyte-secreted proteins <code>APOB</code> and <code>FGA</code>; and the TGFβ receptor <code>ACVR2A</code>.</li>
+<li>Mutation co-occurrence/exclusivity analysis defined three association clusters centered on <code>CTNNB1</code>, <code>AXIN1</code>, and <code>TP53</code> (Fig. 4).</li>
+<li>Etiology-specific enrichments (P &lt; 0.05): alcohol-related HCC enriched for <code>CTNNB1</code>, <code>TERT</code>, <code>CDKN2A</code>, <code>SMARCA2</code>, and <code>HGF</code> alterations; HBV-related HCC enriched for <code>TP53</code> mutation; <code>IL6ST</code> mutations exclusive to HCC of unknown etiology. HCV, metabolic syndrome, and hemochromatosis showed no significant gene associations.</li>
+<li>Progression analysis: mutation counts and chromosome-aberration counts both rose monotonically from dysplastic macronodule → poor-prognosis HCC (P = 1.2×10⁻³ and P = 1.3×10⁻⁵, Jonckheere-Terpstra). <code>TERT</code> promoter mutations were already frequent in dysplastic and early lesions; <code>CTNNB1</code> and <code>TP53</code> mutation frequencies rose with progression; <code>CCND1/FGF</code> focal amplifications were largely confined to poor-prognosis HCC (P &lt; 0.01, chi-square trend). In non-fibrotic livers, <code>TERT</code> promoter mutations appeared later. <code>HNF1A</code> and <code>IL6ST</code> mutations were mostly restricted to hepatocellular adenomas, arguing that most HCC in non-fibrotic liver does <em>not</em> derive from adenoma transformation.</li>
+<li>Multivariate Cox analysis (n=216 R0-resected patients): <code>CDKN2A</code> inactivation and <code>FGF3/FGF4/FGF19/CCND1</code> amplification were independently associated with poor overall survival at 60 months beyond classical clinicopathologic features.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html"><code>TP53</code></a> — significantly mutated (MutSigCV q &lt; 0.05); a TP53/cell-cycle pathway is altered in 49% of HCC. HBV-related HCC are significantly enriched for <code>TP53</code> mutation. The R249S hotspot is the AFB1 signature and tracks with the novel signature 24.</li>
+<li><a href="../genes/CTNNB1.html"><code>CTNNB1</code></a> — significantly mutated; central node of the WNT/β-catenin pathway (54% altered) and of the alcohol/tobacco-driven MSig3 cluster (74% CTNNB1-mutated). Mutation frequency rises during progression.</li>
+<li><a href="../genes/AXIN1.html"><code>AXIN1</code></a> — significantly mutated and recurrently homozygously deleted; defines its own mutation-association cluster.</li>
+<li><a href="../genes/ALB.html"><code>ALB</code></a>, <a href="../genes/APOB.html"><code>APOB</code></a>, <a href="../genes/FGA.html"><code>FGA</code></a> — hepatocyte-secreted protein genes recurrently mutated; newly highlighted in the hepatic-differentiation pathway (34% pathway alteration).</li>
+<li><a href="../genes/ARID1A.html"><code>ARID1A</code></a>, <a href="../genes/ARID2.html"><code>ARID2</code></a>, <a href="../genes/SMARCA2.html"><code>SMARCA2</code></a> — chromatin remodelers (pathway altered in 28%); <code>SMARCA2</code> alteration is enriched in alcohol-related HCC.</li>
+<li><a href="../genes/ACVR2A.html"><code>ACVR2A</code></a> — TGFβ receptor, newly implicated as recurrently mutated HCC driver (previously seen in chondrosarcoma).</li>
+<li><a href="../genes/NFE2L2.html"><code>NFE2L2</code></a> and <a href="../genes/KEAP1.html"><code>KEAP1</code></a> — oxidative-stress pathway (altered in 12%); both significantly mutated by MutSigCV.</li>
+<li><a href="../genes/RPS6KA3.html"><code>RPS6KA3</code></a> — significantly mutated (7% of tumors); inactivating mutations shown <em>in vitro</em> to activate RAS/MAPK signaling with elevated phospho-ERK1/2, nominating RPS6KA3-mutated HCC for ERK/MEK inhibition.</li>
+<li><a href="../genes/RPL22.html"><code>RPL22</code></a> — newly identified as significantly mutated in HCC.</li>
+<li><a href="../genes/CDKN2A.html"><code>CDKN2A</code></a>, <a href="../genes/CDKN1A.html"><code>CDKN1A</code></a>, <a href="../genes/RB1.html"><code>RB1</code></a>, <a href="../genes/CCND1.html"><code>CCND1</code></a>, <a href="../genes/CCNE1.html"><code>CCNE1</code></a> — cell-cycle/RB axis; <code>CDKN2A</code> loss is enriched in alcohol-related HCC and independently associated with poor survival.</li>
+<li><a href="../genes/TERT.html"><code>TERT</code></a> — promoter mutation and focal amplification together produce telomerase activation in 60% of HCC; <a href="../genes/TERT.html">TERT</a> promoter mutation is the earliest event in cirrhotic progression.</li>
+<li><a href="../genes/FGF19.html"><code>FGF19</code></a>, <a href="../genes/FGF3.html"><code>FGF3</code></a>, <a href="../genes/FGF4.html"><code>FGF4</code></a>, <a href="../genes/CCND1.html"><code>CCND1</code></a> — co-amplified 11q13.3 locus; focal amplification (~4% FDA-targetable, 6% of HCC for <code>FGF3/4/19</code>) appears at advanced stages and is independently associated with poor survival. Aligns with <a href="../papers/24798001.html">PMID:24798001</a>, which previously linked RB1/FGF19 to patient stratification.</li>
+<li><a href="../genes/VEGFA.html"><code>VEGFA</code></a> — focal amplification in 1% (FDA-targetable).</li>
+<li><a href="../genes/MET.html"><code>MET</code></a>, <a href="../genes/HGF.html"><code>HGF</code></a> — <a href="../genes/MET.html">MET</a> amplified in 1%; <code>HGF</code> alteration in 3% and enriched in alcohol-related HCC.</li>
+<li><a href="../genes/MYC.html"><code>MYC</code></a>, <a href="../genes/JAK3.html"><code>JAK3</code></a> — recurrently amplified.</li>
+<li><a href="../genes/PTEN.html"><code>PTEN</code></a>, <a href="../genes/MTOR.html"><code>MTOR</code></a>, <a href="../genes/PIK3CA.html"><code>PIK3CA</code></a> — components of PI3K/AKT/mTOR (altered in 51%); <a href="../genes/MTOR.html">MTOR</a> mutations 2%, FDA-targetable.</li>
+<li><a href="../genes/BRAF.html"><code>BRAF</code></a>, <a href="../genes/KRAS.html"><code>KRAS</code></a>, <a href="../genes/ERBB2.html"><code>ERBB2</code></a>, <a href="../genes/EGFR.html"><code>EGFR</code></a>, <a href="../genes/KIT.html"><code>KIT</code></a>, <a href="../genes/KDR.html"><code>KDR</code></a>, <a href="../genes/TEK.html"><code>TEK</code></a>, <a href="../genes/EPHA4.html"><code>EPHA4</code></a>, <a href="../genes/JAK1.html"><code>JAK1</code></a> — low-frequency but FDA-druggable alterations in the MAP kinase, RTK, and JAK/STAT pathways.</li>
+<li><a href="../genes/IL6ST.html"><code>IL6ST</code></a>, <a href="../genes/IL6R.html"><code>IL6R</code></a> — IL6/JAK/STAT pathway (altered in 9%); <code>IL6ST</code> mutations exclusively found in HCC of unknown etiology and mostly restricted to hepatocellular adenomas in non-fibrotic settings.</li>
+<li><a href="../genes/HNF1A.html"><code>HNF1A</code></a> — mutated mostly in hepatocellular adenomas (HCA), not classic HCC; supports the conclusion that most HCC arising in non-fibrotic liver does <em>not</em> originate from HCA transformation.</li>
+<li><a href="../genes/ZNRF3.html"><code>ZNRF3</code></a>, <a href="../genes/USP34.html"><code>USP34</code></a>, <a href="../genes/MACF1.html"><code>MACF1</code></a> — newly highlighted β-catenin–pathway inhibitors recurrently mutated in HCC.</li>
+<li><a href="../genes/CFH.html"><code>CFH</code></a>, <a href="../genes/IRF2.html"><code>IRF2</code></a>, <a href="../genes/PTPN3.html"><code>PTPN3</code></a> — recurrent homozygous deletions.</li>
+<li><a href="../genes/NQO1.html"><code>NQO1</code></a> — not a driver, but a <em>modifier</em> of HSP90-inhibitor sensitivity. In 29 liver cancer cell lines, GI50 for 17-AAG / 17-DMAG was inversely correlated with <a href="../genes/NQO1.html">NQO1</a> expression (Pearson r = −0.56, P = 0.0015). Two of three <code>KEAP1</code>-mutant lines were highly sensitive; the third (MHCC97H) was resistant because it is homozygous for the <a href="../genes/NQO1.html">NQO1</a> P187S (<a href="../genes/NQO1.html">NQO1</a>*2, rs1800566) variant that destabilises the <a href="../genes/NQO1.html">NQO1</a> protein.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Druggable landscape</strong>: 28% of HCC harbored at least one damaging alteration potentially targetable by an FDA-approved drug; 86% by a drug in phase I–III trials. FDA-targetable hits: FLT* family (6%), <code>FGF3/4/19</code> (4%), PDGFR family (3%), <code>EPHA4</code> (3%), <code>JAK3</code> (3%), <code>HGF</code> (3%), <code>MTOR</code> (2%), <code>VEGFA</code> (1%), <code>EGFR</code> (1%), FGFR family (1%), <code>IL6R</code> (1%), <code>KIT</code> (1%), <code>MET</code> (1%), <code>TEK</code> (1%), <code>BRAF</code> (&lt;1%), <code>ERBB2</code> (&lt;1%), <code>JAK1</code> (&lt;1%), <code>KDR</code> (&lt;1%). Advanced-stage tumors were enriched for targetable alterations, especially <code>FGF/CCND1</code> amplifications.</li>
+<li><strong>RPS6KA3-mutant HCC as candidates for MEK/ERK inhibition</strong>: siRNA knockdown of <code>RPS6KA3</code> in liver cancer cells increased phospho-ERK1/2, suggesting RAS/MAPK pathway activation is a vulnerability in the ~7% of HCC with <code>RPS6KA3</code> loss-of-function.</li>
+<li><strong>HSP90 inhibitors (<a href="../drugs/tanespimycin.html">tanespimycin</a> / <a href="../drugs/alvespimycin.html">alvespimycin</a>) as a candidate strategy for KEAP1/NFE2L2-mutated (oxidative-stress) HCC, modulated by NQO1</strong>: NQO1 reduces 17-AAG to a more potent inhibitor; tumors with <code>KEAP1</code> or <code>NFE2L2</code> mutations have elevated NQO1 and may be more 17-AAG sensitive, <em>except</em> in patients homozygous for the NQO1 P187S (<code>rs1800566</code>) variant. This nominates NQO1 expression + NQO1*2 genotype as a combined predictive biomarker.</li>
+<li><strong>Prognostic biomarkers</strong>: <code>CDKN2A</code> inactivation and <code>FGF3</code>/<code>FGF4</code>/<code>FGF19</code>/<code>CCND1</code> amplification are independent predictors of poor overall survival at 60 months in R0-resected HCC, controlling for classical clinical and histological features.</li>
+<li><strong>Etiology-driven trial design</strong>: alcohol-related HCC (<code>CTNNB1</code>/<code>TERT</code>/<code>CDKN2A</code>/<code>SMARCA2</code>/<code>HGF</code>-enriched), HBV/AFB1-related HCC (<code>TP53</code> R249S, signature 24), and idiopathic HCC (<code>IL6ST</code>) represent distinct molecular subgroups that should be stratified separately in targeted-therapy trials.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Exome-only mutational catalogues may underestimate the number of operative signatures (the authors note that 8 signatures were detected by whole-genome analysis of 88 prior HCC vs.&nbsp;4 <em>de novo</em> signatures here, requiring re-introduction of consensus signatures to recover the full set).</li>
+<li>MSig5 (n=46) had low mutation rates and early histological stage but <em>also</em> lower tumor cell content — the authors flag possible confounding by normal-cell contamination.</li>
+<li>The hypermutated tumor CHC892T (signature 23) is a single case in a 71-year-old female with non-fibrotic liver and anthracotic pigment deposition; the underlying mutagen remains unknown.</li>
+<li>The Sanger-validation benchmark exposes systematic blind spots in exome calling: GC-rich <code>ARID1A</code> exon 1 (10 missed variants) and large <code>CTNNB1</code> exon 3 deletions (n=3) — relevant when comparing this cohort to others.</li>
+<li>Drug-sensitivity inferences for HSP90 inhibitors rest on 29 cell lines (3 <code>KEAP1</code>-mutant) and have not been validated <em>in vivo</em> or clinically. The NQO1 P187S genotype-by-drug interaction is a single-cell-line observation (MHCC97H).</li>
+<li>Druggability calls were made by literature/database review (ClinicalTrials.gov, NCI Drug Dictionary) rather than direct functional screens; many “FDA-targetable” alterations are at &lt;5% frequency and the actionability of single-hit amplifications in HCC remains to be demonstrated in trials.</li>
+<li>The cohort is exclusively European-resected HCC; etiologic distribution (41% alcohol, 14% HBV, 7% hemochromatosis) differs substantially from Asian and African HCC, limiting direct transfer of frequency estimates and the AFB1/signature-24 effect was validated in only 6 TCGA tumors.</li>
+<li>The conclusion that most non-fibrotic-liver HCC does <em>not</em> arise via hepatocellular-adenoma transformation rests on the <code>HNF1A</code>/<code>IL6ST</code> distribution and would benefit from orthogonal molecular timing data.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Exome sequencing analysis of 243 liver tumors revealed mutational signatures associated with specific risk factors, mainly combined alcohol/tobacco consumption, and aflatoxin B1.” (Abstract)</li>
+<li>“We identified 161 putative driver genes associated with 11 recurrent pathways.” (Abstract)</li>
+<li>“In 28% of the tumors we identified genetic alterations potentially targetable by FDA-approved drugs.” (Abstract)</li>
+<li>“Fourteen genes were significantly enriched for damaging mutations (q &lt; 0.05, Fig. 2a): <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/AXIN1.html">AXIN1</a>, <a href="../genes/ALB.html">ALB</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/ARID2.html">ARID2</a>, <a href="../genes/ACVR2A.html">ACVR2A</a>, <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/RPS6KA3.html">RPS6KA3</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/RPL22.html">RPL22</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/CDKN1A.html">CDKN1A</a> and <a href="../genes/RB1.html">RB1</a>.” (Results)</li>
+<li>“11 pathways altered in ≥5% of HCC … <a href="../genes/TERT.html">TERT</a> promoter mutations activating telomerase expression (60%), WNT/ß-Catenin (54%), PI3K/AKT/mTOR (51%), TP53/cell cycle (49%), MAP kinase (43%), hepatic differentiation (34%), epigenetic regulation (32%) chromatin remodeling (28%), oxidative stress (12%), Il6/JAK/STAT (9%), and TGFß (5%).” (Results)</li>
+<li>“Alcohol-related HCC were significantly enriched in <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/TERT.html">TERT</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/SMARCA2.html">SMARCA2</a>, and <a href="../genes/HGF.html">HGF</a> alterations (P &lt; 0.05) … HBV-related HCC were frequently mutated for <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/IL6ST.html">IL6ST</a> mutations were exclusively identified in HCC with no known etiology.” (Results)</li>
+<li>“The growth inhibition of 50% (GI50) was significantly inversely correlated with the expression of NQO1 (Pearson’s r = −0.56, P = 0.0015).” (Results, Fig. 5b)</li>
+<li>“We identified that <a href="../genes/CDKN2A.html">CDKN2A</a> inactivation and FGF/CCND1 amplification were associated with poor prognosis in our cohort of resected HCC, independently of classical prognostic clinical and histological features.” (Results, Fig. 6c)</li>
+<li>“Although TERT promoter mutations were already frequent at early stages, <a href="../genes/CTNNB1.html">CTNNB1</a> and <a href="../genes/TP53.html">TP53</a> mutation frequencies increased significantly with progression, and focal amplifications at the CCND1/FGF locus were mostly encountered in poor prognosis HCC.” (Results)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25822088.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25822088.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrative clinical genomics of advanced prostate cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26000489.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26000489.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrative clinical genomics of advanced prostate cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dan Robinson </p>
+             <p>Eliezer M. Van Allen </p>
+             <p>Yi-Mi Wu </p>
+             <p>Nikolaus Schultz </p>
+             <p>Robert J. Lonigro </p>
+             <p>Juan-Miguel Mosquera </p>
+             <p>Bruce Montgomery </p>
+             <p>Mary-Ellen Taplin </p>
+             <p>Colin C. Pritchard </p>
+             <p>Gerhardt Attard </p>
+             <p>Himisha Beltran </p>
+             <p>Wassim M. Abida </p>
+             <p>Charles L. Sawyers </p>
+             <p>Arul M. Chinnaiyan </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2015.05.001">10.1016/j.cell.2015.05.001</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26000489 · <strong>DOI:</strong> 10.1016/j.cell.2015.05.001 · <strong>Journal:</strong> Cell (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The SU2C–PCF Dream Team performed prospective whole-exome and transcriptome sequencing on bone or soft-tissue biopsies from 150 men with metastatic castration-resistant prostate cancer (mCRPC), establishing the first large prospective integrative-genomics cohort for this disease state. Aberrations of <a href="../genes/AR.html">AR</a>, ETS genes, <a href="../genes/TP53.html">TP53</a>, and <a href="../genes/PTEN.html">PTEN</a> were each present in 40–60% of cases, with <a href="../genes/TP53.html">TP53</a> and <a href="../genes/AR.html">AR</a> enriched in mCRPC vs.&nbsp;primary prostate cancer. Novel recurrent alterations were identified in PIK3CA/B, R-spondin, BRAF/RAF1, <a href="../genes/APC.html">APC</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, and ZBTB16/PLZF. DNA-repair pathway aberrations (<a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/ATM.html">ATM</a>) occurred in 19.3% of cases—substantially higher than in primary disease—and 8% of patients harbored clinically actionable pathogenic germline alterations. Overall, 89% of patients harbored at least one clinically actionable aberration, demonstrating that prospective clinical sequencing is feasible in mCRPC and could materially affect treatment decisions.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N=150</strong> men with <a href="../cancer_types/PRAD.html">mCRPC</a> with complete integrative clinical sequencing (whole exome, matched germline, transcriptome) from a starting enrollment of 189 individuals; 175 cases were sequenced after pathology review, of which 150 had &gt;20% tumor content as defined by computational analysis.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/prad_su2c_2015.html">prad_su2c_2015</a> (SU2C–PCF International Dream Team).</li>
+<li><strong>Biopsy sites:</strong> lymph node (42%), bone (28.7%), liver (12.7%), other soft tissues (16.7%).</li>
+<li><strong>Histology:</strong> 96.4% typical high-grade prostate adenocarcinoma; 2.9% with neuroendocrine differentiation; 1 case (0.7%) small-cell neuroendocrine features.</li>
+<li><strong>Sequencing:</strong> SureSelect Exome v4 (<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>) at mean target coverage of 160× (tumor) / 100× (normal); paired-end <a href="../methods/rna-seq.html">rna-seq</a> on Illumina HiSeq 2500 (2×100 nt, ~50M paired reads). Reference genome: hg19/GRCh37.</li>
+<li><strong>Analytics:</strong> somatic mutation calling via <a href="../methods/mutect.html">mutect</a> (Cibulskis 2013, not in corpus); recurrence analysis via <a href="../methods/mutsig.html">mutsig</a> (Lawrence 2013, not in corpus); fusion detection via Tophat2 with <code>--fusion-search</code> plus Tophat-Post-Fusion (<a href="../methods/tophat-fusion.html">tophat-fusion</a>); copy-number segmentation via circular binary segmentation; FPKM via Cufflinks. Eight clinical sites contributed; two sequencing/analysis centers were used (Broad Institute, University of Michigan).</li>
+<li><strong>Clinical context:</strong> patients being considered for <a href="../drugs/abiraterone.html">abiraterone</a> acetate or <a href="../drugs/enzalutamide.html">enzalutamide</a> as standard of care or as part of clinical trials, including trials of PARP inhibitors and aurora-kinase inhibitors.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation burden.</strong> Mean somatic mutation rate was 4.4 mutations/Mb; four cases were hypermutated at ~50/Mb, three of which were attributable to alterations in MMR genes <a href="../genes/MLH1.html">MLH1</a> or <a href="../genes/MSH2.html">MSH2</a>.</li>
+<li><strong>Recurrent CNAs.</strong> Amplification peaks at <a href="../genes/AR.html">AR</a> and 8q; deletion peaks at <a href="../genes/CHD1.html">CHD1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/TP53.html">TP53</a>. Additional focal amplifications at <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/PIK3CB.html">PIK3CB</a>. <strong>Novel</strong> recurrent focal homozygous deletion at chr11q23 narrowed to <a href="../genes/ZBTB16.html">ZBTB16</a> (8 cases, 5%).</li>
+<li><strong>Fusion landscape.</strong> 4,122 chimeras across 2,247 unique gene pairs (mean 15 fusions/tumor). Recurrent ETS fusions in 84/150 (56%), majority <a href="../genes/ERG.html">ERG</a>; novel partners included <a href="../genes/FLI1.html">FLI1</a>, <a href="../genes/ETV4.html">ETV4</a>, and <a href="../genes/ETV5.html">ETV5</a>. Potentially actionable fusions involving <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/RAF1.html">RAF1</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/PIK3CB.html">PIK3CB</a>, or <a href="../genes/RSPO2.html">RSPO2</a> seen in 8 cases.</li>
+<li><strong>Top recurrently aberrant genes in mCRPC:</strong> <a href="../genes/AR.html">AR</a> 62.7%, ETS family 56.7%, <a href="../genes/TP53.html">TP53</a> 53.3%, <a href="../genes/PTEN.html">PTEN</a> 40.7%.</li>
+<li><strong>Selective enrichment vs.&nbsp;primary prostate cancer (n=440 exomes; Barbieri 2012 + TCGA provisional 2015; cancer-gene-only set of 550 genes).</strong> <a href="../genes/TP53.html">TP53</a> most selectively mutated in mCRPC (q&lt;0.001, Benjamini-Hochberg), followed by <a href="../genes/AR.html">AR</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/GNAS.html">GNAS</a> (q&lt;0.1). AR and <a href="../genes/GNAS.html">GNAS</a> were mutated exclusively in mCRPC; <strong>no genes were selectively mutated in primary prostate cancer</strong>.</li>
+<li><strong>Driver coverage.</strong> 99% of mCRPC cases harbored a potential driver SNV/indel; 60% harbored a driver gene fusion, 50% a driver homozygous deletion, 54% a driver amplification. Mean of 7.8 biologically relevant alterations per case.</li>
+<li><strong>AR pathway (71.3% overall; 107/150).</strong> AR aberrations were dominated by amplification and mutation. Recurrent hotspot AR mutations included T878A (flutamide agonism), W742C (bicalutamide agonism), and L702H (glucocorticoid agonism). One case (Case 89) carried two AR mutations (T878A and Q903H), suggesting intra-tumor heterogeneity. AR-V7 splice variant was detectable in most pre-abiraterone/enzalutamide cases but at very low ratios relative to full-length AR (treatment-response implications unknown). <a href="../genes/FOXA1.html">FOXA1</a> mutations clustered near the end of the Forkhead DNA-binding domain.</li>
+<li><strong>PI3K pathway (49%; 73/150).</strong> Biallelic <a href="../genes/PTEN.html">PTEN</a> loss, hotspot <a href="../genes/PIK3CA.html">PIK3CA</a> mutations, and <a href="../genes/PIK3CA.html">PIK3CA</a> amplifications. <strong>Novel:</strong> activating <a href="../genes/PIK3CB.html">PIK3CB</a> mutations at positions equivalent to canonical <a href="../genes/PIK3CA.html">PIK3CA</a> hotspots, occurring in the context of <a href="../genes/PTEN.html">PTEN</a> deficiency. Activating <a href="../genes/AKT1.html">AKT1</a> p.E17K observed. Two patients harbored PIK3CA/B fusions resulting in gene over-expression.</li>
+<li><strong>WNT pathway (18%; 27/150).</strong> Hotspot <a href="../genes/CTNNB1.html">CTNNB1</a> activating mutations; <strong>novel</strong> recurrent <a href="../genes/APC.html">APC</a> alterations in mCRPC. Alterations in <a href="../genes/RNF43.html">RNF43</a> and <a href="../genes/ZNRF3.html">ZNRF3</a> were mutually exclusive with <a href="../genes/APC.html">APC</a> alterations. R-spondin fusions involving <a href="../genes/RSPO2.html">RSPO2</a> (associated with <a href="../genes/RSPO2.html">RSPO2</a> over-expression) overall affected 6% of patients (RNF43/ZNRF3/RSPO2 combined).</li>
+<li><strong>Cell cycle.</strong> <a href="../genes/RB1.html">RB1</a> loss in 21%; focal <a href="../genes/CCND1.html">CCND1</a> amplification in 9%; less common (&lt;5%) events in <a href="../genes/CDKN2A.html">CDKN2A</a>/<a href="../genes/CDKN2B.html">CDKN2B</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>, and <a href="../genes/CDK4.html">CDK4</a>.</li>
+<li><strong>DNA repair pathway.</strong> <a href="../genes/BRCA2.html">BRCA2</a> loss in 19/150 (12.7%), with ~90% biallelic; 8 patients (5.3%) had pathogenic germline <a href="../genes/BRCA2.html">BRCA2</a> plus a subsequent somatic event causing biallelic loss. Broader DNA repair/recombination alterations in 34/150 (22.7%), including biallelic <a href="../genes/ATM.html">ATM</a> loss (some germline), plus events in <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/CDK12.html">CDK12</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/RAD51B.html">RAD51B</a>, and <a href="../genes/RAD51C.html">RAD51C</a>. Combined BRCA2/BRCA1/ATM aberration prevalence: <strong>29/150 (19.3%)</strong>.</li>
+<li><strong>Actionability.</strong> 89% of patients harbored a clinically actionable aberration: 62.7% AR alterations, 65% non-AR cancer-gene alterations, 8% actionable pathogenic germline. Non-AR actionable categories: PI3K pathway 49%, DNA repair 19%, RAF kinases 3%, CDK inhibitors 7%, WNT pathway 5%.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/AR.html">AR</a></strong> — Amplification and hotspot mutation (T878A, W742C, L702H, plus novel mutations of unclear function); ~62.7% of cases; AR pathway aggregate 71.3%. AR-V7 splice variant detectable in most pre-abiraterone/enzalutamide cases at low ratios.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Most selectively mutated gene in mCRPC vs.&nbsp;primary (q&lt;0.001); ~53.3% of cases.</li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a></strong> — Biallelic loss; 40.7% of cases.</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3CB.html">PIK3CB</a></strong> — Hotspot mutations, focal amplifications, and (novel) activating fusions; <a href="../genes/PIK3CB.html">PIK3CB</a> mutations at positions equivalent to canonical PIK3CA hotspots co-occur with PTEN loss.</li>
+<li><strong><a href="../genes/AKT1.html">AKT1</a></strong> — Activating p.E17K mutation.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/RAF1.html">RAF1</a></strong> — Potentially actionable fusions in ~3% of patients.</li>
+<li><strong><a href="../genes/APC.html">APC</a>, <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/ZNRF3.html">ZNRF3</a>, <a href="../genes/RSPO2.html">RSPO2</a></strong> — WNT pathway: <a href="../genes/APC.html">APC</a> alterations recurrently observed in mCRPC for the first time; <a href="../genes/CTNNB1.html">CTNNB1</a> hotspot activating mutations; RNF43/ZNRF3 mutually exclusive with APC; <a href="../genes/RSPO2.html">RSPO2</a> fusions with overexpression.</li>
+<li><strong><a href="../genes/ZBTB16.html">ZBTB16</a></strong> — Novel recurrent focal homozygous deletion at chr11q23 in 8 (5%) cases. <a href="../genes/ZBTB16.html">ZBTB16</a> (PLZF) is androgen-regulated; preclinical models link loss to androgen resistance and MAPK upregulation.</li>
+<li><strong><a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/ATM.html">ATM</a></strong> — Biallelic loss (somatic + germline) totaling 19.3% of cases; multiple patients with germline <a href="../genes/BRCA2.html">BRCA2</a> + somatic second hit. Some patients with biallelic BRCA2 or <a href="../genes/ATM.html">ATM</a> exhibited clinical responses to PARP inhibition in a parallel trial.</li>
+<li><strong><a href="../genes/CDK12.html">CDK12</a>, <a href="../genes/FANCA.html">FANCA</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/RAD51C.html">RAD51C</a>, <a href="../genes/BRIP1.html">BRIP1</a></strong> — Broader DNA-repair pathway alterations contributing to the 22.7% aggregate.</li>
+<li><strong><a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a></strong> — MMR alterations in 3 of 4 hypermutated cases (~50/Mb).</li>
+<li><strong><a href="../genes/ERG.html">ERG</a>, <a href="../genes/FLI1.html">FLI1</a>, <a href="../genes/ETV4.html">ETV4</a>, <a href="../genes/ETV5.html">ETV5</a></strong> — Recurrent ETS fusions in 56% of cases; majority involve <a href="../genes/ERG.html">ERG</a>.</li>
+<li><strong><a href="../genes/SPOP.html">SPOP</a>, <a href="../genes/FOXA1.html">FOXA1</a>, <a href="../genes/NCOR1.html">NCOR1</a>, <a href="../genes/NCOR2.html">NCOR2</a></strong> — AR pathway regulators; <a href="../genes/FOXA1.html">FOXA1</a> mutations cluster near the end of the Forkhead DNA-binding domain.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/CDKN2B.html">CDKN2B</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>, <a href="../genes/CDK4.html">CDK4</a></strong> — Cell-cycle pathway aberrations potentially actionable via <a href="../genes/CDK4.html">CDK4</a> inhibition.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a>, <a href="../genes/CHD1.html">CHD1</a></strong> — Recurrent CNAs (8q gain; <a href="../genes/CHD1.html">CHD1</a> deletion).</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/GNAS.html">GNAS</a></strong> — Selectively mutated in mCRPC vs.&nbsp;primary (q&lt;0.1); <a href="../genes/GNAS.html">GNAS</a> mutated exclusively in mCRPC.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>PARP-inhibitor candidates.</strong> Biallelic inactivation of <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/BRCA1.html">BRCA1</a>, or <a href="../genes/ATM.html">ATM</a> in 19.3% of patients identifies a substantial mCRPC subset that may benefit from <a href="../drugs/olaparib.html">olaparib</a> or other PARP inhibitors, or from platinum-based chemotherapy. Multiple patients on a parallel PARP-inhibitor trial who achieved clinical benefit harbored biallelic BRCA2 loss (Mateo et al., 2014).</li>
+<li><strong>Germline testing.</strong> 5.3% pathogenic germline BRCA2 with somatic second hit, plus additional germline <a href="../genes/ATM.html">ATM</a> events, support clinical consideration of germline genetic testing in mCRPC patients. 8% of patients harbored actionable pathogenic germline alterations overall.</li>
+<li><strong>PI3K-pathway therapeutics.</strong> PIK3CB-specific inhibitors may have utility in patients with <a href="../genes/PIK3CB.html">PIK3CB</a> mutation, amplification, or fusion; the authors cite durable (&gt;1 year) responses to PIK3CB-specific inhibition in carriers of activating PIK3CB mutation/amplification (de Bono 2015).</li>
+<li><strong>RAF/MEK inhibition.</strong> RAF-kinase fusions in 3% of mCRPC support pan-RAF or MEK inhibitor strategies.</li>
+<li><strong>WNT-pathway therapeutics.</strong> RNF43/ZNRF3 mutation or <a href="../genes/RSPO2.html">RSPO2</a> fusion (6% combined) are predicted to confer sensitivity to porcupine inhibitors; R-spondin antibodies may also warrant investigation.</li>
+<li><strong>CDK4/6 inhibition.</strong> <a href="../genes/CCND1.html">CCND1</a> amplification or CDKN2A/B loss could sensitize to <a href="../genes/CDK4.html">CDK4</a> inhibition, by analogy to other tumor types (Finn 2015) and preclinical mCRPC models.</li>
+<li><strong>AR-directed therapy resistance.</strong> Recurrent AR hotspots (T878A, W742C, L702H) that confer agonism to bicalutamide, flutamide, or glucocorticoids predict differential responses to second-generation ADT. AR-V7 was detectable at low ratios relative to full-length AR; clinical-response implications were not assessable from this cross-sectional dataset.</li>
+<li><strong>Actionability headline.</strong> 89% of mCRPC patients harbored at least one clinically actionable somatic or germline alteration; even excluding AR, 65% had a non-AR actionable aberration.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Cross-sectional snapshot.</strong> Only baseline biopsies are reported; longitudinal treatment-response data are deferred to future reports, so the genomic-to-clinical link (e.g., whether AR T878A predicts flutamide failure in this cohort) is not yet established.</li>
+<li><strong>Tumor content threshold.</strong> Cases with ≤20% tumor content (39 of 189 enrolled) were excluded from integrative analysis, potentially biasing toward higher-purity, more accessible metastases.</li>
+<li><strong>Biopsy-site sampling.</strong> Bone metastases—the most common mCRPC site—account for only 28.7% of biopsies because of technical recovery challenges; lymph node (42%) is over-represented.</li>
+<li><strong>AR-V7 functional interpretation.</strong> AR-V7 was present in most pre-abiraterone/enzalutamide cases but at low ratios versus full-length AR; the clinical-response implications are explicitly stated as unknown.</li>
+<li><strong>Heterogeneity not directly resolved.</strong> Some cases carried multiple AR mutations in the same biopsy, hinting at clonal heterogeneity, but multi-region or longitudinal sampling was not part of this initial report.</li>
+<li><strong>Functional validation pending.</strong> Several rare or novel AR mutations were identified but their functional significance is of unclear; the impact of PIK3CB activating mutations and <a href="../genes/ZBTB16.html">ZBTB16</a> deletion on mCRPC biology warrants exploration in organoid and preclinical systems.</li>
+<li><strong>Epigenetic profiling not performed.</strong> The authors explicitly flag epigenetic profiling as an immediate next step for mCRPC.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we established a multi-institutional clinical sequencing infrastructure to conduct prospective whole exome and transcriptome sequencing of bone or soft tissue tumor biopsies from a cohort of 150 mCRPC affected individuals” (Summary).</li>
+<li>“Aberrations of BRCA2, <a href="../genes/BRCA1.html">BRCA1</a> and <a href="../genes/ATM.html">ATM</a> were observed at substantially higher frequencies (19.3% overall) than seen in primary prostate cancers” (Summary).</li>
+<li>“89% of affected individuals harbored a clinically actionable aberration including 62.7% with aberrations in AR, 65% in other cancer-related genes, and 8% with actionable pathogenic germline alterations” (Summary).</li>
+<li>“A novel recurrent focal homozygous deletion event was observed in chr11q23, encompassing the transcriptional repressor <a href="../genes/ZBTB16.html">ZBTB16</a>” (Results — Landscape of mCRPC alterations).</li>
+<li>“recurrent ETS fusions … were observed in 84 cases (56%), with a majority of these fusions to <a href="../genes/ERG.html">ERG</a> and also novel fusions to <a href="../genes/FLI1.html">FLI1</a>, <a href="../genes/ETV4.html">ETV4</a>, and <a href="../genes/ETV5.html">ETV5</a>” (Results).</li>
+<li>“somatic TP53 mutations were the most selectively mutated (q &lt; 0.001; Benjamini-Hochberg), followed by AR, <a href="../genes/KMT2D.html">KMT2D</a>, APC, BRCA2, and <a href="../genes/GNAS.html">GNAS</a> (q &lt; 0.1; Benjamini-Hochberg). Both AR and <a href="../genes/GNAS.html">GNAS</a> were mutated exclusively in mCRPC” (Results).</li>
+<li>“Recurrent hotspot mutations in AR were observed at residues previously reported to confer agonism to AR antagonists such as flutamide (T878A) and bicalutamide (W742C), as well as to glucocorticoids (L702H)” (AR signaling pathway).</li>
+<li>“mutations in another member of the PI3K catalytic subunit, PIK3CB, were observed in this cohort for the first time, at equivalent positions to canonical activating mutations in PIK3CA” (New PI3K pathway discoveries).</li>
+<li>“Affected individuals with aberrations in <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/ZNRF3.html">ZNRF3</a>, or RSPO2 (overall 6% of affected individuals) are predicted to respond to porcupine inhibitors” (New Wnt pathway discoveries).</li>
+<li>“If aberrations of BRCA2, <a href="../genes/BRCA1.html">BRCA1</a> and ATM all confer enhanced sensitivity to PARP inhibitors, 29/150 (19.3%) of mCRPC affected individuals would be predicted to benefit from this therapy” (DNA Repair pathway).</li>
+<li>“3 out of 4 mCRPC tumors exhibited hypermutation and harbored alterations in the mismatch repair pathway genes <a href="../genes/MLH1.html">MLH1</a> or <a href="../genes/MSH2.html">MSH2</a>” (DNA Repair pathway).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26000489.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26000489.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

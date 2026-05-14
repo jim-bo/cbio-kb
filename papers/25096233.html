@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -229,24 +229,24 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 25096233 · <strong>DOI:</strong> 10.1158/2159-8290.CD-14-0623 · <strong>Journal:</strong> Cancer Discovery (2014)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>Whole-exome sequencing of pre-treatment tumors from 50 patients with muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy followed by cystectomy (25 pT0/pTis “responders” vs.&nbsp;25 pT2+ “non-responders”) identified somatic [[<a href="../genes/ERCC2.html">ERCC2</a>]] mutations as the only significantly enriched alteration in responders (9/25 responders vs.&nbsp;0/25 non-responders; q = 0.007). All identified ERCC2 mutations clustered within helicase domains, failed to rescue <a href="../drugs/cisplatin.html">cisplatin</a> or UV sensitivity in an ERCC2-deficient cell line, and were associated with elevated background mutation rate, supporting a loss-of-function effect on nucleotide excision repair that confers cisplatin sensitivity.</p>
+<p>Whole-exome sequencing of pre-treatment tumors from 50 patients with muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy followed by cystectomy (25 pT0/pTis “responders” vs.&nbsp;25 pT2+ “non-responders”) identified somatic <a href="../genes/ERCC2.html">ERCC2</a> mutations as the only significantly enriched alteration in responders (9/25 responders vs.&nbsp;0/25 non-responders; q = 0.007). All identified ERCC2 mutations clustered within helicase domains, failed to rescue <a href="../drugs/cisplatin.html">cisplatin</a> or UV sensitivity in an ERCC2-deficient cell line, and were associated with elevated background mutation rate, supporting a loss-of-function effect on nucleotide excision repair that confers cisplatin sensitivity.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
 <ul>
-<li>50 patients with muscle-invasive urothelial carcinoma ([[<a href="../cancer_types/BLCA.html">BLCA</a>]]) treated with neoadjuvant cisplatin-based chemotherapy followed by cystectomy ([[<a href="../datasets/blca_dfarber_mskcc_2014.html">blca_dfarber_mskcc_2014</a>]]).</li>
+<li>50 patients with muscle-invasive urothelial carcinoma (<a href="../cancer_types/BLCA.html">BLCA</a>) treated with neoadjuvant cisplatin-based chemotherapy followed by cystectomy (<a href="../datasets/blca_dfarber_mskcc_2014.html">blca_dfarber_mskcc_2014</a>).</li>
 <li>25 “responders” (no residual invasive disease, pT0/pTis) and 25 “non-responders” (residual ≥pT2 disease), accrued under Dana-Farber protocols 02-021 / 11-334 and MSKCC protocols 89-076 / 09-025.</li>
-<li>Pre-treatment tumor and paired germline DNA sequenced by [[<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>]] (SureSelect v2 Exome bait, Illumina HiSeq), mean target coverage 121× tumor / 130× germline; aligned to hg19 via Picard/Firehose pipeline.</li>
-<li>Variants called with [[<a href="../methods/mutect.html">mutect</a>]] (SNVs) and [[<a href="../methods/indelocator.html">indelocator</a>]] (indels), annotated with [[<a href="../methods/oncotator.html">oncotator</a>]]; cohort-level significance from [[<a href="../methods/mutsig.html">mutsig</a>]] (MutSigCV).</li>
+<li>Pre-treatment tumor and paired germline DNA sequenced by <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (SureSelect v2 Exome bait, Illumina HiSeq), mean target coverage 121× tumor / 130× germline; aligned to hg19 via Picard/Firehose pipeline.</li>
+<li>Variants called with <a href="../methods/mutect.html">mutect</a> (SNVs) and <a href="../methods/indelocator.html">indelocator</a> (indels), annotated with <a href="../methods/oncotator.html">oncotator</a>; cohort-level significance from <a href="../methods/mutsig.html">mutsig</a> (MutSigCV).</li>
 <li>Orthogonal validation of candidate variants via Fluidigm Access Array amplicon resequencing on MiSeq (35/50 cases).</li>
-<li>Comparison cohorts: unselected TCGA bladder cancer (n=130) ([[<a href="../datasets/blca_tcga_pub.html">blca_tcga_pub</a>]]) and a Chinese cohort (Guo et al., n=99).</li>
+<li>Comparison cohorts: unselected TCGA bladder cancer (n=130) (<a href="../datasets/blca_tcga_pub.html">blca_tcga_pub</a>) and a Chinese cohort (Guo et al., n=99).</li>
 </ul>
 </section>
 <section id="key-findings" class="level2">
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
 <ul>
 <li>Median mutation rate was significantly higher in responders than non-responders: 9.7 vs 4.4 mutations/Mb (P = 0.0003; Mann-Whitney).</li>
-<li>MutSigCV nominated four significantly altered genes across the full cohort consistent with prior bladder cancer studies: [[<a href="../genes/TP53.html">TP53</a>]], [[<a href="../genes/RB1.html">RB1</a>]], [[<a href="../genes/KDM6A.html">KDM6A</a>]], and [[<a href="../genes/ARID1A.html">ARID1A</a>]].</li>
+<li>MutSigCV nominated four significantly altered genes across the full cohort consistent with prior bladder cancer studies: <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/KDM6A.html">KDM6A</a>, and <a href="../genes/ARID1A.html">ARID1A</a>.</li>
 <li>Nine non-synonymous somatic [[ERCC2]] mutations were observed, <em>all</em> in cisplatin responders (9/25, 36%) and <em>none</em> in non-responders (P &lt; 0.001; Fisher’s exact). After multiple-hypothesis correction, ERCC2 was the only gene significantly enriched in responders (q = 0.007; Benjamini-Hochberg).</li>
 <li>The ERCC2 enrichment remained significant after adjusting for the higher overall mutation rate in responders (P = 0.04; binomial test).</li>
 <li>ERCC2-mutant tumors had a significantly elevated median background mutation rate (15.5 vs 5.1 mutations/Mb in ERCC2-WT tumors; P = 0.01; Mann-Whitney), consistent with a DNA-repair defect.</li>
@@ -256,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Following cisplatin exposure, ERCC2-WT-complemented cells showed significantly fewer chromosomal aberrations than the ERCC2-deficient parent (P = 0.03; ANOVA), whereas the ERCC2-mutant cell lines showed no rescue of chromosomal stability (P &gt; 0.5).</li>
 <li>ERCC2 mutation status was <em>not</em> prognostic for overall survival in the TCGA bladder cohort (P = 0.77; log-rank), arguing against a confound from indolent disease.</li>
 <li>In 7/9 ERCC2-mutant cases the variant allelic fraction was &lt; 0.5, suggesting heterozygous mutation with retained WT allele — a haploinsufficient or dominant-negative model rather than classical biallelic loss.</li>
-<li>In two responder tumors lacking ERCC2 mutations, truncating somatic mutations were observed in [[<a href="../genes/BRCA1.html">BRCA1</a>]] and [[<a href="../genes/BRCA2.html">BRCA2</a>]] (vs zero non-synonymous BRCA1/2 mutations in non-responders), consistent with the known platinum sensitivity of homologous-recombination-deficient tumors.</li>
+<li>In two responder tumors lacking ERCC2 mutations, truncating somatic mutations were observed in <a href="../genes/BRCA1.html">BRCA1</a> and <a href="../genes/BRCA2.html">BRCA2</a> (vs zero non-synonymous BRCA1/2 mutations in non-responders), consistent with the known platinum sensitivity of homologous-recombination-deficient tumors.</li>
 <li>Survey of TCGA across 19 tumor types (n = 4,429) showed somatic ERCC2 mutations at low frequencies (&lt; 4%) in 11 additional tumor types.</li>
 </ul>
 </section>
@@ -277,7 +277,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Somatic [[ERCC2]] mutation status is proposed as a candidate predictive biomarker to select muscle-invasive urothelial carcinoma patients most likely to benefit from neoadjuvant [[cisplatin]]-based chemotherapy, given that 100% of ERCC2-mutant tumors in this cohort responded.</li>
 <li>The authors explicitly state that the data “should not yet be used to justify avoiding cisplatin-based treatment in ERCC2 WT patients” — prospective validation is required.</li>
-<li>Because ~50% of bladder cancer patients are not cisplatin-eligible due to comorbidity, the authors suggest [[<a href="../drugs/carboplatin.html">carboplatin</a>]]-based regimens may warrant study in ERCC2-mutant tumors that are cisplatin-ineligible.</li>
+<li>Because ~50% of bladder cancer patients are not cisplatin-eligible due to comorbidity, the authors suggest <a href="../drugs/carboplatin.html">carboplatin</a>-based regimens may warrant study in ERCC2-mutant tumors that are cisplatin-ineligible.</li>
 <li>ERCC2 mutation does not appear prognostic in the absence of cisplatin therapy (no <a href="../cancer_types/OS.html">OS</a> difference in TCGA cohort), so the signal is genuinely predictive rather than reflecting indolent biology.</li>
 </ul>
 </section>

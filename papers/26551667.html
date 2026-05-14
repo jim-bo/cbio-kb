@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The mutational landscape of cutaneous T-cell lymphoma and Sézary syndrome – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26551667.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26551667.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The mutational landscape of cutaneous T-cell lymphoma and Sézary syndrome</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ana Carolina da Silva Almeida </p>
+             <p>Francesco Abate </p>
+             <p>Hossein Khiabanian </p>
+             <p>Estela Martinez-Escala </p>
+             <p>Joan Guitart </p>
+             <p>Cornelis P. Tensen </p>
+             <p>Maarten H. Vermeer </p>
+             <p>Raul Rabadan </p>
+             <p>Adolfo Ferrando </p>
+             <p>Teresa Palomero </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.3442">10.1038/ng.3442</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26551667 · <strong>DOI:</strong> 10.1038/ng.3442 · <strong>Journal:</strong> Nature Genetics (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>da Silva Almeida et al.&nbsp;performed whole-exome sequencing of tumor-normal pairs from 42 cutaneous T-cell lymphoma (CTCL) patients — 25 <a href="../cancer_types/SS.html">Sézary syndrome</a>, 8 <a href="../cancer_types/MYCF.html">mycosis fungoides</a>, and 9 other CTCLs — to define the genetic landscape of these aggressive skin-homing <a href="../genes/CD4.html">CD4</a>+ T-cell malignancies. Sézary syndrome was dominated by recurrent chromosomal deletions of the tumor suppressors <a href="../genes/TP53.html">TP53</a> (52%), <a href="../genes/RB1.html">RB1</a> (16%), <a href="../genes/PTEN.html">PTEN</a> (20%), <a href="../genes/DNMT3A.html">DNMT3A</a> (20%) and <a href="../genes/CDKN1B.html">CDKN1B</a> (20%), together with somatic mutations in epigenetic regulators (<a href="../genes/TET2.html">TET2</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/BRD9.html">BRD9</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/CHD3.html">CHD3</a>) and TCR-signaling effectors (<a href="../genes/MAPK1.html">MAPK1</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/PRKG1.html">PRKG1</a>) that converge on increased MAPK, NFκB and NFAT activity upon T-cell receptor stimulation. Functional studies validated <a href="../genes/CARD11.html">CARD11</a> linker-domain mutants (p.Ser615Phe, p.Glu626Lys) as NFκB-activating alleles and <a href="../genes/PRKG1.html">PRKG1</a> N-terminal mutants (p.Glu17Lys, p.Arg21Gln) as loss-of-function alleles that enhance NFAT signaling. CTCL cell lines were broadly sensitive to NFκB inhibition (Mi-2, <a href="../drugs/bortezomib.html">bortezomib</a>) and a JAK3-mutant line responded to JAK inhibitors (<a href="../drugs/tofacitinib.html">tofacitinib</a>, <a href="../drugs/ruxolitinib.html">ruxolitinib</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>42 CTCL patients</strong> with matched tumor-normal whole-exome sequencing: 25 <a href="../cancer_types/SS.html">Sézary syndrome</a> (peripheral-blood <a href="../genes/CD4.html">CD4</a>+ T cells as tumor; granulocytes or buccal swab as normal) and 17 other CTCL including 8 <a href="../cancer_types/MYCF.html">mycosis fungoides</a> (skin biopsies as tumor; buccal swab as normal). Samples from Northwestern University (Chicago) and Leiden University Medical Center.</li>
+<li><strong>Dataset</strong>: <a href="../datasets/ctcl_columbia_2015.html">ctcl_columbia_2015</a> — cBioPortal study id; raw data deposited in dbGaP under accession <code>phs000994.v1.p1</code>. Reference genome <code>hg19</code>.</li>
+<li><strong>Assays</strong>: <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> with Agilent SureSelect 50 Mb All Exon kit, paired-end 2×100 bp on Illumina HiSeq2000; 84.5–137.94 million PE reads per sample (avg 115M); mean depth 143.5×, with 95.3% of targeted regions covered &gt;30×. Reads aligned with <a href="../methods/bwa.html">BWA v0.5.9</a> to <code>hg19</code>.</li>
+<li><strong>Variant calling</strong>: SAVI (Statistical Algorithm for Variant Identification) Bayesian framework; somatic variants retained at ≥15% VAF in tumor, absent in normal, posterior probability ≥1–10⁻⁵, with low-coverage (&lt;10×) and ultra-high-coverage (&gt;300×) regions excluded.</li>
+<li><strong>Copy-number analysis</strong>: EXCAVATOR (pooled or somatic mode depending on normal source). For granulocyte-paired Sézary cases, additional Bayesian per-exon CNV significance was computed with ≥95% confidence threshold.</li>
+<li><strong>Mutational signature analysis</strong>: Wellcome Trust Sanger Institute non-negative matrix factorization framework (Alexandrov 2013); three signatures identified by stability and Frobenius reconstruction error analysis (<a href="../methods/mutational-signatures.html">mutational-signatures</a>).</li>
+<li><strong>Functional follow-up</strong>: lentiviral overexpression of mutant and wild-type <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/MAPK1.html">MAPK1</a>, and <a href="../genes/PRKG1.html">PRKG1</a> in HEK293T and JURKAT-NF-κB-GFP reporter cells; NFκB and NFAT luciferase reporter assays; urea-dissociation co-IP to assess cGKIβ dimer stability; Western blots for P-STAT3, P-ERK, P-JNK and nuclear <a href="../genes/NFKB1.html">NFKB1</a> across HH, HUT78, HUT102 and SeAX CTCL cell lines; viability assays in those lines with <a href="../drugs/tofacitinib.html">tofacitinib</a>, <a href="../drugs/ruxolitinib.html">ruxolitinib</a>, Mi-2, <a href="../drugs/bortezomib.html">bortezomib</a>, U0126 (MEK1/2) and FK506 (NFAT).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutational burden</strong>: median 39 non-synonymous somatic mutations per <a href="../cancer_types/SS.html">Sézary syndrome</a> sample (range 1–182) and 62 per <a href="../cancer_types/MYCF.html">mycosis fungoides</a> sample (range 2–419). 1,261 high-confidence somatic mutations in Sézary syndrome (1,123 unique genes); 958 mutations in mycosis fungoides (866 unique genes).</li>
+<li><strong>Mutational signatures</strong>: three signatures identified in Sézary syndrome — C&gt;T at NpCpG trinucleotides (CpG deamination/aging), C&gt;A at CpCpN, and C&gt;T at CpCpN/TpCpN.</li>
+<li><strong>Sézary syndrome copy-number landscape</strong> (n=25): median 21 copy-number alterations per sample (range 0–56). Recurrent gains in chromosome 7 (5/25; 20%), 8q (13/25; 52%) and 17q (2/25; 8%). Recurrent deletions: 17p13.1 <a href="../genes/TP53.html">TP53</a> (13/25; 52%), 13q14.2 <a href="../genes/RB1.html">RB1</a> (4/25; 16%), 10q23.3 <a href="../genes/PTEN.html">PTEN</a> (5/25; 20%), 12p13.1 <a href="../genes/CDKN1B.html">CDKN1B</a> (5/25; 20%), and focal 2p23.3 <a href="../genes/DNMT3A.html">DNMT3A</a> deletions in 5/25 (20%) including two homozygous deletions. Mycosis fungoides showed markedly fewer CNAs (median 1, range 0–2).</li>
+<li><strong>Expression validation of deletions</strong>: <a href="../genes/DNMT3A.html">DNMT3A</a> and <a href="../genes/TP53.html">TP53</a> expression was reduced or absent in Sézary samples harboring 2p23.3 and 17p13.1 deletions, respectively (Supplementary Fig. 1).</li>
+<li><strong>Epigenetic regulator mutations (Sézary syndrome)</strong>: [[TP53]] LoF (p.Arg213<em>, p.Arg342</em>, p.Pro177_Cys182del, p.Leu344Gln); <a href="../genes/TET2.html">TET2</a> (p.Gln1654<em>, p.Cys1932Phe in DHSBH catalytic domain, p.Gln649</em>); <a href="../genes/CREBBP.html">CREBBP</a> (p.Gln839*, p.Ser1207fs); <a href="../genes/KMT2C.html">KMT2C</a> (MLL3 p.Thr3941fs); <a href="../genes/BRD9.html">BRD9</a> (p.Gln479His PolyPhen2=0.99, p.His467_Leu468del); <a href="../genes/SMARCA4.html">SMARCA4</a> (p.Ser1238Tyr PolyPhen2=0.99); <a href="../genes/CHD3.html">CHD3</a> (p.Gln660His in chromodomain 2 PolyPhen2=0.99, p.Ser230Leu in first PHD domain).</li>
+<li><strong>Epigenetic regulator mutations (mycosis fungoides)</strong>: <a href="../genes/SMARCA4.html">SMARCA4</a> p.Arg251Lys; <a href="../genes/KMT2D.html">KMT2D</a> p.Gln2418* and <a href="../genes/KMT2C.html">KMT2C</a> p.Gly1246* truncations.</li>
+<li><strong>TCR / MAPK signaling mutations</strong>: <a href="../genes/BRAF.html">BRAF</a> p.Lys601Glu (activating allele) in a CD30− CTCL; three <a href="../genes/MAPK1.html">MAPK1</a> mutations at position E322 (p.Glu322Ala and recurrent p.Glu322Lys) in 2 mycosis fungoides; MAPK1 E322K and E322A confirmed to drive elevated ERK1/2 activation in transfected cells (Supplementary Fig. 3).</li>
+<li><strong>JAK-STAT mutations</strong>: a <a href="../genes/JAK3.html">JAK3</a> p.Val678Leu allele (previously reported in prolymphocytic leukemia) co-occurring with a <a href="../genes/SH2B3.html">SH2B3</a> p.Tyr273* LoF (a negative JAK regulator), plus an activating <a href="../genes/STAT3.html">STAT3</a> p.Tyr640Phe in two mycosis fungoides cases.</li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a> regulators</strong>: two <a href="../genes/PREX2.html">PREX2</a> mutations — p.Arg297Cys (recurrent in melanoma) and p.Glu1295Lys (reported in melanoma, cutaneous SCC, head and neck cancer).</li>
+<li><strong><a href="../genes/PLCG1.html">PLCG1</a></strong>: three point mutations in Sézary syndrome including novel p.Gly722Val and previously reported p.Arg48Trp and p.Glu1163Lys gain-of-function alleles.</li>
+<li><strong>NFκB pathway</strong>: two <a href="../genes/TNFRSF1B.html">TNFRSF1B</a> (TNFR2) mutations (p.Gly256Cys, p.Thr377Ile) in the Sézary cohort consistent with prior reports. Two [[CARD11]] linker-domain mutations (p.Ser615Phe, p.Glu626Lys) in two Sézary cases — notably located in the linker domain rather than the coiled-coil domain typical of DLBCL CARD11 mutations.</li>
+<li><strong>CARD11 functional validation</strong>: in HEK293T NFκB luciferase reporter assays and JURKAT-NF-κB-GFP cells, [[CARD11]] S615F and E626K drove higher NFκB activity than wild type both basally and after PMA + ionomycin stimulation, with earlier, stronger and more sustained JNK phosphorylation. Activation strength was intermediate between weak DLBCL coiled-coil mutant M183L and strong D230N basally, but reached the level of strong DLBCL CC mutants (D230N, L251P) after TCR-mimetic stimulation.</li>
+<li><strong>PRKG1 (cGKIβ) functional validation</strong>: two N-terminal leucine/isoleucine zipper mutations (p.Glu17Lys, p.Arg21Gln) in two Sézary cases destabilized cGKIβ homodimers (urea-dissociation co-IP), impaired 8-CPT-cGMP–induced ERK1/2 activation and abolished <a href="../genes/RHOA.html">RHOA</a> S188 phosphorylation, and increased NFAT-driven luciferase after PMA + ionomycin — consistent with loss of function and removal of cGKIβ-mediated antagonism of TCR signaling.</li>
+<li><strong>Signaling state of CTCL cell lines</strong>: Western blot of HH, HUT78, HUT102 and SeAX showed elevated P-STAT3, P-ERK, P-JNK and nuclear p50 <a href="../genes/NFKB1.html">NFKB1</a> in most lines (Supplementary Fig. 5).</li>
+<li><strong>Drug sensitivity (4 CTCL cell lines)</strong>: <a href="../drugs/tofacitinib.html">tofacitinib</a> and <a href="../drugs/ruxolitinib.html">ruxolitinib</a> (JAK inhibitors) were active in HUT78 (which harbors a <a href="../genes/JAK3.html">JAK3</a> p.Ala573Val mutation); the NFκB inhibitor Mi-2 and the proteasome inhibitor <a href="../drugs/bortezomib.html">bortezomib</a> were broadly and highly active across all four lines (HH, HUT78, HUT102, SeAX); MEK1/2 inhibition (U0126) and NFAT inhibition (FK506) showed only modest effects (Supplementary Fig. 6).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong>[[TP53]]</strong> — 17p13.1 heterozygous deletion in 13/25 (52%) of Sézary syndrome with concordant loss of expression; recurrent LoF point mutations (p.Arg213<em>, p.Arg342</em>, p.Pro177_Cys182del, p.Leu344Gln).</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong> — 13q14.2 deletion in 4/25 (16%) Sézary syndrome.</li>
+<li><strong>[[PTEN]]</strong> — 10q23.3 deletion in 5/25 (20%) Sézary syndrome; functionally connected to recurrent <a href="../genes/PREX2.html">PREX2</a> mutations that inhibit PTEN.</li>
+<li><strong>[[DNMT3A]]</strong> — focal 2p23.3 deletion in 5/25 (20%) Sézary syndrome (2 homozygous) with concordant loss of expression — implicating DNMT3A as an epigenetic tumor suppressor in CTCL.</li>
+<li><strong><a href="../genes/CDKN1B.html">CDKN1B</a></strong> — 12p13.1 deletion in 5/25 (20%) Sézary syndrome.</li>
+<li><strong><a href="../genes/TET2.html">TET2</a></strong> — truncating (p.Gln1654<em>, p.Gln649</em>) and DHSBH-domain missense (p.Cys1932Phe) mutations; the catalytic-region missense mirrors recurrent disruptions seen in myeloid tumors and peripheral T-cell lymphoma.</li>
+<li><strong><a href="../genes/CREBBP.html">CREBBP</a></strong> — LoF mutations (p.Gln839* nonsense, p.Ser1207fs frameshift) in the histone acetyl transferase.</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a> (MLL2)</strong> — truncating p.Gln2418* in mycosis fungoides.</li>
+<li><strong>[[KMT2C]] (MLL3)</strong> — frameshift p.Thr3941fs (Sézary syndrome) and truncating p.Gly1246* (mycosis fungoides).</li>
+<li><strong><a href="../genes/BRD9.html">BRD9</a></strong> — p.Gln479His (PolyPhen2 = 0.99) and p.His467_Leu468del — SWI/SNF complex component.</li>
+<li><strong>[[SMARCA4]]</strong> — p.Ser1238Tyr (PolyPhen2 = 0.99) in Sézary syndrome; p.Arg251Lys in mycosis fungoides.</li>
+<li><strong><a href="../genes/CHD3.html">CHD3</a></strong> — p.Gln660His in the second chromodomain (PolyPhen2 = 0.99) and p.Ser230Leu in the first PHD repressive-mark reader — NuRD chromatin remodeling complex component.</li>
+<li><strong>[[MAPK1]]</strong> — recurrent E322 mutations (p.Glu322Ala, p.Glu322Lys); E322K is a previously reported activating allele, validated here to drive ERK1/2 hyperactivation.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a></strong> — p.Lys601Glu activating mutation in a CD30− CTCL sample.</li>
+<li><strong>[[CARD11]]</strong> — linker-domain mutations p.Ser615Phe and p.Glu626Lys in two Sézary cases; functionally NFκB- and JNK-activating, comparable to strong DLBCL coiled-coil mutants after TCR stimulation. Distinct location from the coiled-coil mutations classical to DLBCL.</li>
+<li><strong>[[PRKG1]] (cGKIβ)</strong> — leucine-zipper dimerization-domain mutations p.Glu17Lys and p.Arg21Gln in two Sézary cases; functionally loss-of-function alleles that destabilize cGKIβ homodimers, abolish 8-CPT-cGMP–driven <a href="../genes/RHOA.html">RHOA</a> S188 phosphorylation, and enhance NFAT activation — a novel oncogenic mechanism via loss of TCR-signal antagonism.</li>
+<li><strong><a href="../genes/JAK3.html">JAK3</a></strong> — p.Val678Leu point mutation in a Sézary sample (previously reported in prolymphocytic leukemia); HUT78 cell line carries activating p.Ala573Val and responds to JAK inhibition.</li>
+<li><strong><a href="../genes/SH2B3.html">SH2B3</a></strong> — p.Tyr273* LoF in a JAK3-mutated case (negative regulator of JAK signaling).</li>
+<li><strong><a href="../genes/STAT3.html">STAT3</a></strong> — activating p.Tyr640Phe in two mycosis fungoides cases.</li>
+<li><strong><a href="../genes/PREX2.html">PREX2</a></strong> — p.Arg297Cys and p.Glu1295Lys, alleles previously reported in melanoma, cutaneous SCC, and head and neck cancer; encodes a Rac exchange factor that inhibits PTEN.</li>
+<li><strong><a href="../genes/PLCG1.html">PLCG1</a></strong> — three point mutations in Sézary syndrome: novel p.Gly722Val and previously reported gain-of-function alleles p.Arg48Trp and p.Glu1163Lys.</li>
+<li><strong><a href="../genes/TNFRSF1B.html">TNFRSF1B</a> (TNFR2)</strong> — p.Gly256Cys and p.Thr377Ile mutations in the Sézary cohort consistent with prior reports of NFκB-activating TNFR2 alterations in mycosis fungoides and Sézary syndrome.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>NFκB blockade as a broad CTCL strategy</strong>: [[bortezomib]] and the NFκB inhibitor Mi-2 were highly active across all four CTCL cell lines (HH, HUT78, HUT102, SeAX) regardless of specific genotype, consistent with the convergence of multiple mutations ([[CARD11]] linker, <a href="../genes/TNFRSF1B.html">TNFRSF1B</a>, [[PRKG1]] LoF) on constitutive NFκB activation downstream of TCR signaling.</li>
+<li><strong>JAK inhibition for JAK3-mutant CTCL</strong>: [[tofacitinib]] and [[ruxolitinib]] were active against HUT78 (JAK3 p.Ala573Val) — supports stratification of CTCL patients by [[JAK3]] / <a href="../genes/STAT3.html">STAT3</a> / <a href="../genes/SH2B3.html">SH2B3</a> genotype for JAK-pathway inhibitor trials.</li>
+<li><strong>Limited single-agent value of MEK or NFAT inhibition</strong>: MEK1/2 inhibition (U0126) and NFAT inhibition (FK506) had only modest antitumor effects in the four CTCL lines despite recurrent [[MAPK1]] and [[BRAF]] activating alleles and [[PRKG1]]-driven NFAT hyperactivation — suggesting combination strategies or alternative pathway nodes may be needed.</li>
+<li><strong>Genetic stratification of Sézary syndrome</strong>: the paper proposes that the recurrent inactivation of multiple tumor suppressors ([[TP53]], [[RB1]], [[PTEN]], [[DNMT3A]], [[CDKN1B]]) and signaling/epigenetic drivers identified here defines targetable axes for “personalized therapies targeting key oncogenically activated signaling pathways” in Sézary syndrome and CTCL.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small cohort with heterogeneous composition</strong>: 25 Sézary syndrome and 17 mixed-CTCL exomes; statistical power to nominate significantly mutated genes beyond well-known suppressors is modest, and the authors call for extended clinically annotated series.</li>
+<li><strong>No WGS or transcriptomic data</strong> in this study — non-coding driver events, structural rearrangements outside the exome target, and expression-defined subtypes remain uncharacterized; authors call out whole-genome and transcriptomic follow-up.</li>
+<li><strong>Functional validation limited to two genes</strong>: only [[CARD11]] and [[PRKG1]] mutants were functionally interrogated; the consequences of recurrent [[CHD3]], [[BRD9]], [[SMARCA4]], [[KMT2C]] / [[KMT2D]] and [[TET2]] mutations on chromatin and gene expression in CTCL are not directly tested.</li>
+<li><strong>Drug screening was performed only in four immortalized cell lines</strong> (HH, HUT78, HUT102, SeAX); primary patient samples and PDX models were not used, and drug-genotype matching beyond the JAK3-HUT78 example was not systematic.</li>
+<li><strong>Control-DNA contamination</strong> in CD4-depleted Sézary controls (SS_L1–23) required a custom ≥2-fold tumor/normal VAF rule; some low-VAF subclonal mutations may have been missed.</li>
+<li><strong>Skin-derived versus blood-derived tumor DNA</strong> likely contributes to differences between mycosis fungoides and Sézary cohorts (e.g., apparent higher mutation count in mycosis fungoides could partly reflect skin UV-related substitutions).</li>
+<li>The relationship between the broad NFκB / MAPK / NFAT signaling activation and standard cytogenetic risk markers in CTCL is not assessed.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Here we performed whole-exome sequencing of tumor-normal sample pairs from 25 Sézary syndrome and 17 other CTCL patients.” (Abstract)</li>
+<li>“These analyses revealed a distinctive pattern of somatic copy number alterations in Sézary syndrome including highly prevalent chromosomal deletions involving the TP53, RB1, PTEN, DNMT3A and CDKN1B tumor suppressors.” (Abstract)</li>
+<li>“Mutation analysis identified a broad spectrum of somatic mutations in key genes involved in epigenetic regulation (TET2, CREBBP, MLL2, MLL3, BRD9, SMARCA4 and CHD3) and signaling, including MAPK1, BRAF, CARD11 and PRKG1 mutations driving increased MAPK, NFκB and NFAT activity upon T-cell receptor stimulation.” (Abstract)</li>
+<li>“copy number analysis from exome data identified a median of 21 copy number alterations per sample (range 0–56) in Sézary syndrome with characteristic recurrent gains in chromosome 7 (5/25; 20%), 8q (13/25; 52%) and 17q (2/25; 8%), as well as recurrent deletions involving tumor suppressor genes in 17p13.1 (TP53; 13/25; 52%), 13q14.2 (RB1; 4/25; 16%), 10q23.3 (PTEN; 5/25; 20%) and 12p13.1 (CDKN1B; 5/25; 20%).” (Results)</li>
+<li>“Focal chromosome 2p23.3 deletions encompassing the DNMT3A locus were observed in five Sézary patients (5/25; 20%), including two cases with focal homozygous deletion of this epigenetic tumor suppressor gene.” (Results)</li>
+<li>“Both CARD11 mutations identified in our analysis are located in the so called linker domain region of the protein. This is in contrast with diffuse large B cell lymphoma where CARD11 mutations are typically located in the coiled-coil domain.” (Results)</li>
+<li>“JURKAT cells expressing cGKIβ E17K and cGKIβ R21Q showed increased NFAT activity after PMA plus ionomycin stimulation compared with wild type controls, supporting a positive role for cGKIβ mutations in enhancing the TCR signaling response.” (Results, Fig. 4)</li>
+<li>“inhibition of JAK signaling with tofacitinib and ruxolitinib was active HUT78 cells harboring a JAK3-p.Ala573Val mutation. Inhibition of NFκB signaling with Mi-2 and bortezomib was broadly and highly active across all 4 cell lines (HH, HUT78, HUT102 and SeAX). In contrast MEK1/2 inhibition with U0126 and inhibition of NFAT with FK506 showed only modest antitumor effects.” (Results)</li>
+<li>“Data has been deposited in dbGaP under accession number phs000994.v1.p1.” (Methods / accession)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26551667.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26551667.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

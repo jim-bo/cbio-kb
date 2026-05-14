@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Divergent clonal selection dominates medulloblastoma at recurrence – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26760213.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26760213.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Divergent clonal selection dominates medulloblastoma at recurrence</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>A. Sorana Morrissy </p>
+             <p>Livia Garzia </p>
+             <p>David J. H. Shih </p>
+             <p>Scott Zuyderduyn </p>
+             <p>Xi Huang </p>
+             <p>Patryk Skowron </p>
+             <p>Marc Remke </p>
+             <p>Florence M. G. Cavalli </p>
+             <p>Vijay Ramaswamy </p>
+             <p>Patricia E. Lindsay </p>
+             <p>Salomeh Jelveh </p>
+             <p>Michael D. Taylor </p>
+             <p>Marco A. Marra </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature16478">10.1038/nature16478</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26760213 · <strong>DOI:</strong> 10.1038/nature16478 · <strong>Journal:</strong> Nature (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Morrissy et al.&nbsp;combined a Sleeping Beauty transposon-driven, surgery-plus-craniospinal-irradiation mouse model of Shh medulloblastoma with whole-genome and whole-exome sequencing of 33 patient-matched diagnostic/recurrence pairs (46 total human samples) to ask whether targets identified at diagnosis are still present at relapse. In both species, the dominant clone at recurrence shares &lt;12% of clonal genetic events with the diagnostic sample, instead arising via clonal selection of pre-existing minor subclones plus therapy-induced de novo mutations. Recurrent Shh medulloblastoma converges on TP53-pathway loss and DYNC1H1 / chr14q deficits in 79% of cases, while drug-actionable targets at recurrence differ from those at diagnosis in the majority of patients — arguing that targeted-therapy trials at relapse must re-biopsy to confirm target presence.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patient cohort:</strong> 33 patient-matched primary + recurrent <a href="../cancer_types/MBL.html">MBL</a> pairs — 15 pairs with germline controls profiled by WGS, 18 pairs without germline by WGS, 10 additional recurrence-only samples with germline by WGS, plus 3 FFPE pairs by WES (46 total samples). Patient samples are catalogued under cBioPortal study <a href="../datasets/mbl_sickkids_2016.html">mbl_sickkids_2016</a>. Raw sequencing was deposited at EGA (EGAD00001000946).</li>
+<li><strong>Subgroup coverage:</strong> all four molecular subgroups of medulloblastoma (Shh, Wnt, Group 3, Group 4) represented; Shh and Group 4 are the most analysed.</li>
+<li><strong>Mouse model:</strong> 38 <em>Ptch+/−/Math1-SB11/T2Onc(2)</em> mice underwent subtotal tumour resection and 18 × 2 Gy fractions of CT-guided craniospinal irradiation over 4 weeks; 11/18 treated mice (61%) developed local/metastatic relapse. Median medulloblastoma-free survival was 118 days for treated vs 5 days for untreated control mice.</li>
+<li><strong>Assays / methods:</strong> <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> (BWA / GRCh37-lite alignment), <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (Nextera Rapid Capture for FFPE), targeted deep amplicon sequencing of 192 patient-specific SNVs across 20 patients, transposon-insertion sequencing in mice analysed via gCIS, <a href="../methods/strelka.html">strelka</a> and MutationSeq for SNV calling, <a href="../methods/varscan.html">varscan</a> for indels, EMu for mutation spectra, <a href="../methods/titan-cna.html">titan-cna</a> for allele-specific CN, <a href="../methods/pyclone.html">pyclone</a> and EXPANDS for clonal-prevalence inference. RNA-seq supported subgroup-stability and pathway-enrichment analyses (<a href="../papers/26760213.html">PMID:26760213</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Massive genetic divergence at recurrence.</strong> Across 14 patients with germline data, on average only 11.8% of somatic SNVs/indels were shared between matched diagnostic and recurrent tumours; in the Sleeping Beauty mouse model the overlap of clonal driver gCISs was &lt;5% (<a href="../papers/26760213.html">PMID:26760213</a>).</li>
+<li><strong>Mutational burden rises ~5-fold post-therapy.</strong> In 13/15 patient pairs the somatic mutational burden increased by an average of 5× at recurrence (P = 2.7 × 10⁻⁴). Structural-variant burden also rose.</li>
+<li><strong>Clonal restructuring.</strong> Clonal mutations grew 1.9-fold as a proportion of all mutations post-therapy (P = 8.7 × 10⁻³). 60.5% of damaging clonal primary mutations decreased in abundance post-therapy — 25.9% became subclonal and 34.6% disappeared. Only 25% of patients retained the full clonal SNV set. Damaging clonal mutations <em>post</em>-relapse outnumbered retained clonal events 5:1.</li>
+<li><strong>Recurrence arises from pre-existing minor clones.</strong> Ultra-deep targeted resequencing across 20 patients confirmed expansion of clones initially present at &lt;5% in the therapy-naive tumour in 16/20 patients; assay sensitivity was demonstrated down to 2/10 000 (subclonal frequency).</li>
+<li><strong>Trunk-driver switching.</strong> Patient MB-REC-12 had a homozygous <a href="../genes/PTCH1.html">PTCH1</a> driver clonally dominant in the primary tumour that was completely eradicated by therapy; the recurrence was driven by a sister clone with <a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a> homozygous loss on wild-type chr9q, while still retaining Shh transcriptional identity.</li>
+<li><strong>Structural-variant turnover.</strong> MB-REC-14 lost a diagnostic <a href="../genes/TERT.html">TERT</a> amplification at recurrence; MB-REC-09 acquired <a href="../genes/MYC.html">MYC</a>-locus chromothripsis only at recurrence (P = 3.97 × 10⁻⁷).</li>
+<li><strong>Therapeutic-target instability.</strong> Of 9/15 patients with at least one drug-actionable alteration, only 4/9 (44.4%) retained the diagnostic target set at recurrence; 2/9 had a complete actionable-target switch, and 3/9 gained new actionable targets post-therapy. One case showed convergent evolution with distinct <a href="../genes/SMO.html">SMO</a> mutations at the two time points.</li>
+<li><strong>TP53-pathway convergence at recurrence (Shh).</strong> TP53-pathway alterations (KEGG04115) appeared in 12/23 (52.2%) human recurrences and TP53-gene mutations in 6/23 (26.1%), predominantly in Shh tumours. In the mouse model, <em>Trp53</em> insertions were subclonal at diagnosis but clonal at recurrence, with reduced p21 expression confirming loss-of-function. Drosophila brain tumours expressing dominant-negative p53 (p53^R159N) lost the radiation-induced apoptotic response.</li>
+<li><strong>DYNC1H1 / chr14q loss.</strong> Damaging <a href="../genes/DYNC1H1.md">DYNC1H1</a> mutations occurred in 16% of post-therapy Shh tumours and were mutually exclusive with <a href="../genes/TP53.html">TP53</a> mutations. Among therapy-naive Shh tumours, chr14q loss was prognostic (worse outcome; recurrence rate 50%, 7/14 with loss vs 30%, 7/23 balanced). Cumulatively, 6/15 (40%) Shh recurrences functionally lost one DYNC1H1 allele. <a href="../genes/TP53.html">TP53</a>, DYNC1H1 or chr14q deficits affected <strong>79% of recurrent Shh medulloblastoma</strong>.</li>
+<li><strong>Mutational signatures shift.</strong> Four SNV signatures were detected; recurrences had significantly elevated transversion rates, consistent with therapy-induced DNA damage.</li>
+<li><strong>Branched clonal evolution.</strong> EXPANDS modelling of 14 germline-matched cases showed branched evolution in all 14; in 8/14 all recurrent clones derived from a single primary lineage, while 6/14 retained higher phylogenetic similarity to the primary. 71.4% of patients had increased clonal-population counts post-therapy; Group 4 tumours were significantly more heterogeneous (Shannon Index, P = 0.029).</li>
+<li><strong>Transcriptional convergence.</strong> Relapsed Shh tumours showed enriched P53-signalling and apoptosis gene sets; relapsed Group 4 tumours enriched for extracellular-matrix and cell-surface receptor signalling.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — somatic mutations enriched at recurrence (26.1% of human recurrences); TP53-pathway alterations in 52.2%. Mouse model: clonal <em>Trp53</em> transposon insertions emerge at recurrence and predict worse prognosis. Drosophila dominant-negative p53 abrogates radiation-induced apoptosis (<a href="../papers/26760213.html">PMID:26760213</a>).</li>
+<li><a href="../genes/PTCH1.html">PTCH1</a> — homozygous driver in primary MB-REC-12 (heterozygous mutation + chr9q LOH) was eradicated at recurrence; the relapse derived from an ancestral chr9q-wild-type sister clone.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> / <a href="../genes/CDKN2B.html">CDKN2B</a> — homozygous loss drove the recurrent clone in MB-REC-12 after PTCH1-driven primary clone was wiped out.</li>
+<li><a href="../genes/DYNC1H1.md">DYNC1H1</a> — damaging mutations in 16% of post-therapy Shh tumours; mutually exclusive with <a href="../genes/TP53.html">TP53</a> mutations; chr14q loss (containing the gene) is prognostic in Shh medulloblastoma only.</li>
+<li><a href="../genes/SMO.html">SMO</a> — different mutations seen pre- and post-therapy in one patient, evidence of convergent evolution.</li>
+<li><a href="../genes/MYC.html">MYC</a> — locus chromothripsis acquired only at recurrence in MB-REC-09 (P = 3.97 × 10⁻⁷).</li>
+<li><a href="../genes/TERT.html">TERT</a> — amplification present at diagnosis but lost at recurrence in MB-REC-14, illustrating loss of a potential target.</li>
+<li><a href="../genes/CREBBP.html">CREBBP</a> (CBP) — only mouse-model gCIS observed across all compartments (primary + local + metastatic recurrence).</li>
+<li><a href="../genes/ARID1B.html">ARID1B</a>, <a href="../genes/TCF4.html">TCF4</a> — additional mouse driver gCISs shared between local and metastatic recurrences but not diagnostic samples.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Re-biopsy at recurrence should be mandatory</strong> for any targeted-therapy trial in medulloblastoma — putative drug targets identified in therapy-naive tumours are unreliable predictors of targets present in the dominant relapse clone (<a href="../papers/26760213.html">PMID:26760213</a>).</li>
+<li><strong>Subclonal targetable events</strong> in primary tumours may anticipate the targets that will dominate at relapse; combination therapies that pre-empt the resistant subclone (e.g.&nbsp;add a TP53-pathway-aware agent up front) are a logical extension.</li>
+<li><strong>Molecular subgroup affiliation is stable</strong> even when trunk drivers switch — subgroup-level therapeutic strategies (e.g.&nbsp;targeting Shh-subgroup biology broadly) remain rational at recurrence, while gene-level targeted strategies are not.</li>
+<li><strong>TP53-pathway intactness predicts radiation response.</strong> Mouse and Drosophila data link p53 dysfunction to radiation-resistance and recurrence in Shh tumours, consistent with known fatal prognosis of TP53-mutant Shh medulloblastoma in humans.</li>
+<li><strong>chr14q loss / DYNC1H1 deficit</strong> is a prognostic marker specific to therapy-naive Shh medulloblastoma (50% recurrence with loss vs 30% balanced).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Cohort size is modest (15 germline-matched WGS pairs) — recurrent-driver identification is statistically underpowered for individual genes; convergence is best seen at the pathway level.</li>
+<li>Sample-quality heterogeneity: 18 pairs lack germline DNA (somatic calls enriched indirectly), and 3 pairs are FFPE WES; cross-cohort statistical comparisons are limited.</li>
+<li>The Sleeping Beauty mouse model captures only Shh-subgroup medulloblastoma and the <em>Ptch+/−</em> lineage; clonal-selection dynamics in Group 3/Group 4 tumours rely on the smaller human transcriptomic comparison (n = 3 Group 4).</li>
+<li>Whether ‘anticipatory therapy’ (treating the predicted resistance pathway up front) actually reduces recurrence in patients is untested.</li>
+<li>The mechanistic basis of DYNC1H1 / chr14q loss in Shh medulloblastoma is not resolved.</li>
+<li>Whether the same diagnosis-to-recurrence divergence holds for chemotherapy-only regimens (no radiation) is not addressed; cohort received radiation ± chemotherapy.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Genetic events in recurrent murine medulloblastoma exhibit a very poor overlap with those in matched murine diagnostic samples (&lt;5%). Whole-genome sequencing of 33 pairs of human diagnostic and post-therapy medulloblastomas demonstrated substantial genetic divergence of the dominant clone after therapy (&lt;12% diagnostic events were retained at recurrence).” (Abstract)</li>
+<li>“in 13/15 patients the somatic mutational burden increased by an average of fivefold at recurrence (P value = 2.7 × 10⁻⁴).” (Genetic divergence in recurrent human medulloblastoma)</li>
+<li>“Two-thirds of patients have deleterious events in at least one gene for which an anti-neoplastic drug interaction has been defined (n = 9 of 15) … The current assumption that all putative drug targets present at diagnosis are retained post-therapy is only valid in 4 of these patients (44.4%).” (Genetic divergence in recurrent human medulloblastoma)</li>
+<li>“we observed TP53 gene and pathway mutations, DYNC1H1 mutations, or chr14q losses in 79% of recurrent Shh medulloblastoma.” (Convergent biological pathways at relapse)</li>
+<li>“Patient MB-REC-12 harbours a clinically compelling example of a homozygous <a href="../genes/PTCH1.html">PTCH1</a> driver mutation that is clonally dominant in the primary tumour and completely eradicated by therapy … a sub-lineage of these cells driven by <a href="../genes/CDKN2A.html">CDKN2A</a> and <a href="../genes/CDKN2B.html">CDKN2B</a>−/− loss successfully reconstituted the tumour post-therapy.” (Clonal selection drives recurrence)</li>
+<li>“we find evidence for significant expansion of clones initially present at &lt;5% in the therapy-naive tumour in 16/20 patients” (Clonal selection drives recurrence)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26760213.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26760213.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

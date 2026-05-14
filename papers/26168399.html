@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive genomic profiles of small cell lung cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26168399.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26168399.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive genomic profiles of small cell lung cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Julie George </p>
+             <p>Jing Shan Lim </p>
+             <p>Se Jin Jang </p>
+             <p>Yupeng Cui </p>
+             <p>Janine Altmüller </p>
+             <p>Christian Becker </p>
+             <p>Martin Peifer </p>
+             <p>Jens Sage </p>
+             <p>Roman K. Thomas </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature14664">10.1038/nature14664</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26168399 · <strong>DOI:</strong> 10.1038/nature14664 · <strong>Journal:</strong> Nature (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>George et al.&nbsp;performed whole-genome sequencing on 110 small cell lung cancer (<a href="../cancer_types/SCLC.html">SCLC</a>) tumours — at the time, the first comprehensive somatic genome analysis of this disease — and showed that bi-allelic inactivation of <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> is obligatory in SCLC (often through complex genomic rearrangements). They discovered recurrent somatic rearrangements of <a href="../genes/TP73.html">TP73</a> producing N-terminally truncated, dominant-negative oncogenic isoforms (TP73Δex2/3), identified inactivating mutations in NOTCH-family genes in 25% of cases, and validated NOTCH as a tumour suppressor and master regulator of neuroendocrine differentiation in a Trp53;Rb1;Rbl2 triple-knockout mouse model. They also found rare but potentially actionable kinase mutations (<a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KIT.html">KIT</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>152 fresh-frozen SCLC clinical specimens collected under IRB approval; 110 (primary lung n=148, metastatic n=4) passed QC for whole-genome sequencing of tumour + matched normal (median tumour content 84%). Most cases were treatment-naive; only 5 were obtained at relapse.</li>
+<li>Cancer type: <a href="../cancer_types/SCLC.html">SCLC</a> (Small Cell Lung Cancer; OncoTree code).</li>
+<li>Dataset: <a href="../datasets/sclc_ucologne_2015.html">sclc_ucologne_2015</a> — cBioPortal study ID for this cohort.</li>
+<li>Transcriptome sequencing (<a href="../methods/rna-seq.html">rna-seq</a>) on 81 specimens (71 of the 110 WGS cases + 10 additional).</li>
+<li>Affymetrix SNP 6.0 arrays (<a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a>) on 142 specimens (103 of the WGS cases + 39 additional).</li>
+<li>Independent validation cohort (n=112): exome sequencing of 28 fresh-frozen tumours + 9 SCLC cell lines re-analysed from prior work, plus custom-panel <a href="../methods/targeted-dna-seq.html">targeted-dna-seq</a> on 8 fresh-frozen + 67 FFPE samples (22-gene custom Agilent SureDesign panel, ≥200× coverage).</li>
+<li>Mouse models: 8 SCLC tumours from Trp53;Rb1 double-knockout and Trp53;Rb1;Rbl2 triple-knockout (TKO) mice analysed by <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (n=6) or <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> (n=2).</li>
+<li>Assays: WGS via Illumina HiSeq 2000 (TruSeq DNA PCR-free libraries, paired-end 2×100 bp, ≥30× tumour and normal). Pathology review by ≥2 independent expert pathologists with <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> for chromogranin A, synaptophysin, CD56, Ki67. Reference genome NCBI37/hg19 (mouse: NCBI37/mm9), BWA v0.6.1-r104 alignment.</li>
+<li>Median follow-up 69 months; 31% of patients alive at last follow-up; smoking status known for 88% (median 45 pack-years among smokers).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation burden:</strong> SCLC genomes show 8.62 nonsynonymous mutations per Mb, with 28% C:G&gt;A:T transversions on average — a heavy-smoking signature. Mouse SCLC tumours showed far lower burden (~28.5 protein-altering mutations per sample).</li>
+<li><strong>Universal TP53/RB1 loss:</strong> In the 108 tumours without chromothripsis, <a href="../genes/TP53.html">TP53</a> had bi-allelic loss in 100% and <a href="../genes/RB1.html">RB1</a> in 93% of cases. Inactivating events spanned mutations, translocations, homozygous deletions, hemizygous losses, copy-neutral LOH, and LOH at higher ploidy. Many <a href="../genes/RB1.html">RB1</a> mutations occurred at exon–intron junctions and caused protein-damaging splice events (confirmed by RNA-seq). Authors conclude <a href="../genes/TP53.html">TP53</a> and RB1 follow the classical “two-hit” Knudson tumour-suppressor pattern in SCLC.</li>
+<li><strong>Chromothripsis as alternative RB1-loss mechanism:</strong> 2 tumours had wild-type RB1 but exhibited massive rearrangements between chromosomes 3 and 11 that retained <a href="../genes/CCND1.html">CCND1</a>, producing significant cyclin D1 overexpression (confirmed by IHC). These cases had fewer Ki67-positive cells. Authors propose that since cyclin D1 negatively regulates Rb family proteins, chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a> overexpression can substitute for genomic RB1 loss.</li>
+<li><strong>Significantly mutated genes (q &lt; 0.05):</strong> <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, KIAA1211 (canonical: <a href="../genes/CRACDL.html">CRACDL</a>), <a href="../genes/COL22A1.html">COL22A1</a>, <a href="../genes/RGS7.html">RGS7</a>, and <a href="../genes/FPR1.html">FPR1</a>. <a href="../genes/RGS7.html">RGS7</a> and <a href="../genes/FPR1.html">FPR1</a> are both involved in G-protein-coupled receptor signalling.</li>
+<li><strong>Mutation clustering (P &lt; 0.05):</strong> Hotspot/clustering analysis flagged the histone acetyltransferases <a href="../genes/CREBBP.html">CREBBP</a> and <a href="../genes/EP300.html">EP300</a> (with recurrent inactivating translocations), centrosome genes <a href="../genes/ASPM.html">ASPM</a>, <a href="../genes/ALMS1.html">ALMS1</a>, <a href="../genes/PDE4DIP.html">PDE4DIP</a>, the RNA-regulating gene <a href="../genes/XRN1.html">XRN1</a>, the tetraspanin gene <a href="../genes/PTGFRN.html">PTGFRN</a>, and <a href="../genes/TP73.html">TP73</a>.</li>
+<li><strong>Damaging mutations (P &lt; 0.01):</strong> TP53, RB1, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/COL22A1.html">COL22A1</a>, plus <a href="../genes/FMN2.html">FMN2</a> and <a href="../genes/NOTCH1.html">NOTCH1</a>. NOTCH-family genes (<a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/NOTCH2.html">NOTCH2</a>, <a href="../genes/NOTCH3.html">NOTCH3</a>, <a href="../genes/NOTCH4.html">NOTCH4</a>) were recurrently inactivated in 25% of human SCLC; Notch3 was also mutated in a Trp53−/−,Rb1−/−,Rbl2−/− mouse tumour.</li>
+<li><strong>Mouse-validated accessory tumour suppressors:</strong> <a href="../genes/PTEN.html">PTEN</a> (previously known), and <a href="../genes/RBL1.html">RBL1</a> and <a href="../genes/RBL2.html">RBL2</a> — both showed inactivating translocations and mutations in human tumours; Trp53/Rb1/Rbl2 triple-knockout mice develop SCLC with shorter latency than Trp53/Rb1 double-knockouts, confirming <a href="../genes/RBL2.html">RBL2</a> as an accessory tumour suppressor.</li>
+<li><strong>Mutual exclusivity:</strong> Mutations in <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/EP300.html">EP300</a>, <a href="../genes/TP73.html">TP73</a>, <a href="../genes/RBL1.html">RBL1</a>, <a href="../genes/RBL2.html">RBL2</a>, and NOTCH-family genes were largely mutually exclusive, suggesting overlapping pro-tumorigenic functions.</li>
+<li><strong>Rare potentially actionable kinase mutations:</strong> Four tumours carried oncogenic driver mutations from other cancers: <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KIT.html">KIT</a>, and <a href="../genes/PIK3CA.html">PIK3CA</a> — see Extended Data Fig. 3e.</li>
+<li><strong>Copy-number landscape:</strong> Focal 3p losses at 3p14.3–3p14.2 (<a href="../genes/FHIT.html">FHIT</a>) and 3p12.3–3p12.2 (<a href="../genes/ROBO1.html">ROBO1</a>); <a href="../genes/FHIT.html">FHIT</a> expression was reduced in cases with focal deletions. Homozygous <a href="../genes/CDKN2A.html">CDKN2A</a> losses. Recurrent amplifications of MYC-family genes (<a href="../genes/MYC.html">MYC</a>, <a href="../genes/MYCN.html">MYCN</a>, <a href="../genes/MYCL.html">MYCL</a> — paper uses MYCL1 nomenclature), <a href="../genes/FGFR1.html">FGFR1</a>, and <a href="../genes/IRS2.html">IRS2</a>. Focal <a href="../genes/IRS2.html">IRS2</a> amplifications occurred in 2% of cases.</li>
+<li><strong><a href="../genes/TP73.html">TP73</a> oncogenic rearrangements:</strong> Genomic breakpoints clustered precisely in the TP73 locus in 7% of cases (n=8), with recurrent breaks in introns 1, 2, and 3 producing intragenic fusions that exclude exon 2 (p73Δex2) or exons 2+3 (p73Δex2/3). One tumour had genomic exclusion of exon 10. p73Δex2/3 was found only in cases with genomic rearrangements, confirmed not to be a natural splice variant. Overall TP73 was somatically altered (mutation or rearrangement) in 13% of cases. These N-terminally truncated isoforms have dominant-negative activity on wild-type p73 and p53 and are confirmed oncogenes in vivo.</li>
+<li><strong>Subclonality:</strong> SCLC showed threefold lower subclonal diversity than lung adenocarcinoma (P = 0.00023), and heterogeneity did not correlate with clinical stage (in contrast to adenocarcinomas).</li>
+<li><strong>Transcriptional subtypes &amp; NOTCH:</strong> Unsupervised clustering of RNA-seq (n=69) revealed two major groups. The majority (77%, n=53/69) had high neuroendocrine markers <a href="../genes/CHGA.html">CHGA</a> (chromogranin A) and <a href="../genes/GRP.html">GRP</a> (gastrin-releasing peptide), high <a href="../genes/DLK1.html">DLK1</a> (a non-canonical Notch inhibitor), and high <a href="../genes/ASCL1.html">ASCL1</a> (a neuroendocrine lineage oncogene whose expression is repressed by active Notch). The remaining 23% (n=16/69) expressed <a href="../genes/SYP.html">SYP</a> and <a href="../genes/NCAM1.html">NCAM1</a>. Major SCLC driver mutations (TP53, RB1, CREBBP) did not differ between transcriptional subtypes.</li>
+<li><strong>NOTCH activation suppresses SCLC in vivo:</strong> Crossing Rosa26-LSL-N2ICD or Rosa26-LSL-N1ICD into Trp53;Rb1;Rbl2 TKO mice significantly reduced tumour number (P &lt; 0.001) after Ad-Cre induction and extended survival. The recombination efficiency of an innocuous reporter (Rosa26mT/mG) was much higher than that of the N2ICD allele, indicating strong negative selection against active Notch during SCLC development. Ectopic N1ICD also inhibited growth and cell-cycle progression in mouse and human SCLC cell lines, and upregulated <a href="../genes/HES1.html">HES1</a>, Hey1, Hey2 while abrogating neuroendocrine marker expression.</li>
+<li><strong>Other recurrent rearrangements:</strong> Clustered breakpoints affected <a href="../genes/TTC28.html">TTC28</a> on chromosome 22 (inactivating translocations), and <a href="../genes/CDKAL1.html">CDKAL1</a> on chromosome 6. Breakpoints also clustered downstream of the L1HS retrotransposon, supporting a role for this element in cancer.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — bi-allelic inactivation in 100% of non-chromothriptic tumours; missense mutations cluster in the DNA-binding domain.</li>
+<li><a href="../genes/RB1.html">RB1</a> — bi-allelic loss in 93% of non-chromothriptic tumours; many alterations at exon–intron junctions cause protein-damaging splice events; frequent complex translocations.</li>
+<li><a href="../genes/CCND1.html">CCND1</a> — retained and overexpressed in 2 chromothriptic tumours with wild-type RB1; proposed alternative mechanism of Rb-pathway inactivation.</li>
+<li><a href="../genes/TP73.html">TP73</a> — recurrent intragenic genomic rearrangements (breakpoints in introns 1–3) producing dominant-negative N-terminally truncated isoforms p73Δex2 and p73Δex2/3 in 7% of cases; total TP73 alteration rate 13%.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/NOTCH2.html">NOTCH2</a>, <a href="../genes/NOTCH3.html">NOTCH3</a>, <a href="../genes/NOTCH4.html">NOTCH4</a> — inactivating mutations (often in the extracellular domain) in 25% of human SCLC; mouse models confirm Notch activation suppresses SCLC initiation and prolongs survival.</li>
+<li><a href="../genes/CREBBP.html">CREBBP</a> and <a href="../genes/EP300.html">EP300</a> — clustered mutations and recurrent inactivating translocations.</li>
+<li><a href="../genes/RBL1.html">RBL1</a>, <a href="../genes/RBL2.html">RBL2</a> — inactivating translocations and mutations; RBL2 validated as accessory tumour suppressor in TKO mice (shorter SCLC latency).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — confirmed accessory tumour suppressor (previously known role in murine SCLC).</li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KIT.html">KIT</a>, <a href="../genes/PIK3CA.html">PIK3CA</a> — rare oncogenic kinase mutations with potential targeted-therapy implications (4 tumours total).</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/MYC.html">MYC</a>, <a href="../genes/MYCN.html">MYCN</a>, <a href="../genes/MYCL.html">MYCL</a>, <a href="../genes/IRS2.html">IRS2</a> — recurrent focal amplifications.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/FHIT.html">FHIT</a>, <a href="../genes/ROBO1.html">ROBO1</a> — recurrent focal deletions on 3p (FHIT, <a href="../genes/ROBO1.html">ROBO1</a>) and <a href="../genes/CDKN2A.html">CDKN2A</a> homozygous loss.</li>
+<li><a href="../genes/ASCL1.html">ASCL1</a>, <a href="../genes/DLK1.html">DLK1</a>, <a href="../genes/CHGA.html">CHGA</a>, <a href="../genes/GRP.html">GRP</a>, <a href="../genes/SYP.html">SYP</a>, <a href="../genes/NCAM1.html">NCAM1</a> — neuroendocrine and Notch-axis expression markers defining the two SCLC transcriptional subtypes.</li>
+<li><a href="../genes/COL22A1.html">COL22A1</a>, <a href="../genes/RGS7.html">RGS7</a>, <a href="../genes/FPR1.html">FPR1</a>, <a href="../genes/CRACDL.html">CRACDL</a> (paper nomenclature: KIAA1211) — significantly mutated genes of unclear function.</li>
+<li><a href="../genes/ASPM.html">ASPM</a>, <a href="../genes/ALMS1.html">ALMS1</a>, <a href="../genes/PDE4DIP.html">PDE4DIP</a> — clustered mutations in centrosome-associated genes.</li>
+<li><a href="../genes/XRN1.html">XRN1</a>, <a href="../genes/PTGFRN.html">PTGFRN</a>, <a href="../genes/FMN2.html">FMN2</a> — clustered/damaging mutations; <a href="../genes/PTGFRN.html">PTGFRN</a> also mutated in murine SCLC.</li>
+<li><a href="../genes/TTC28.html">TTC28</a>, <a href="../genes/CDKAL1.html">CDKAL1</a> — clustered chromosomal breakpoints (chromosomes 22 and 6 respectively).</li>
+<li><a href="../genes/HES1.html">HES1</a> — upregulated upon Notch activation in mouse models, consistent with canonical Notch target activation suppressing neuroendocrine differentiation.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Universal TP53/RB1 loss as defining feature:</strong> Authors argue complete genomic loss of both <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> function is obligatory in SCLC pathogenesis. Tumours with wild-type RB1 should be examined for chromothripsis-driven <a href="../genes/CCND1.html">CCND1</a> overexpression as an alternative Rb-pathway inactivation mechanism.</li>
+<li><strong>Rare actionable kinase mutations:</strong> Mutations in <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KIT.html">KIT</a>, and <a href="../genes/PIK3CA.html">PIK3CA</a> — found in only 4 tumours total — suggest that genotyping SCLC patients may identify rare individuals who could benefit from targeted kinase inhibitor therapy.</li>
+<li><strong>TP73Δex2/3 as a potential therapeutic target:</strong> Given the frequent occurrence of oncogenic <a href="../genes/TP73.html">TP73</a> rearrangements (13% of cases), and prior reports that therapeutic options exist to restrict p73-dependent tumour growth in vivo (including in Trp53-deficient tumours), these approaches may be promising in SCLC.</li>
+<li><strong>NOTCH pathway as a candidate therapeutic axis:</strong> Since NOTCH activation suppresses SCLC initiation and extends survival in TKO mice, and abrogates neuroendocrine marker expression, Notch-pathway agonism (or de-repression) is suggested as a therapeutic strategy — though the paper does not name specific clinical agents.</li>
+<li><strong>Prognostic null result:</strong> Mutations in CREBBP, <a href="../genes/EP300.html">EP300</a>, TP73, <a href="../genes/RBL1.html">RBL1</a>, RBL2, and NOTCH-family genes were NOT significantly associated with total mutation number, overall survival, or other clinical parameters (Extended Data Fig. 4). Global mutational signatures also did not correlate with these mutations.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Functional uncertainty for novel hits:</strong> The authors explicitly note that the biological role of most newly discovered genes (KIAA1211/<a href="../genes/CRACDL.html">CRACDL</a>, <a href="../genes/COL22A1.html">COL22A1</a>, <a href="../genes/ASPM.html">ASPM</a>, <a href="../genes/PDE4DIP.html">PDE4DIP</a>, <a href="../genes/PTGFRN.html">PTGFRN</a>) “is much less clear” and that functional experiments will be required.</li>
+<li><strong>Stage enrichment:</strong> The 110-tumour cohort was enriched for earlier-stage SCLC (most obtained by surgical resection), since SCLC is rarely surgically managed. This may limit generalizability to the typical advanced-stage clinical SCLC population.</li>
+<li><strong>Few relapsed cases:</strong> Only 5/110 tumours were obtained at relapse, so the genomic landscape of chemo-resistant/recurrent SCLC is not addressed here.</li>
+<li><strong>Sample exclusions:</strong> 42/152 cases were excluded for insufficient DNA quality/quantity, potentially introducing selection bias.</li>
+<li><strong>No survival association for most novel drivers:</strong> Although TP73 and NOTCH alterations are mechanistically validated, the lack of overall-survival association leaves their prognostic and predictive value open.</li>
+<li><strong>Chromothripsis sample size:</strong> Only 2 tumours with wild-type RB1 and chromothripsis-driven CCND1 retention were identified — a striking but very rare alternative mechanism that needs validation in larger cohorts.</li>
+<li><strong>Notch therapeutic translation:</strong> While mouse models clearly support Notch as a tumour suppressor in SCLC, clinically tractable Notch-activating agents and patient-selection biomarkers remain to be defined.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We have sequenced the genomes of 110 small cell lung cancers (SCLC) … In nearly all the tumours analysed we found bi-allelic inactivation of TP53 and RB1, sometimes by complex genomic rearrangements.” (Abstract)</li>
+<li>“Two tumours with wild-type RB1 had evidence of chromothripsis leading to overexpression of cyclin D1 (encoded by the CCND1 gene), revealing an alternative mechanism of Rb1 deregulation.” (Abstract)</li>
+<li>“We discovered somatic genomic rearrangements of TP73 that create an oncogenic version of this gene, TP73Δex2/3.” (Abstract)</li>
+<li>“Finally, we observed inactivating mutations in NOTCH family genes in 25% of human SCLC. Accordingly, activation of Notch signalling in a pre-clinical SCLC mouse model strikingly reduced the number of tumours and extended the survival of the mutant mice.” (Abstract)</li>
+<li>“SCLC genomes exhibited extremely high mutation rates of 8.62 nonsynonomous mutations per million base pairs (Mb). C:G&gt;A:T transversions were found in 28% of all mutations on average, a pattern indicative of heavy smoking.” (Results, Recurrent somatic alterations)</li>
+<li>“Among the significantly mutated genes … were TP53 and RB1, KIAA1211 and COL22A1, as well as RGS7 and FPR1, both of which are involved in G-protein-coupled receptor signalling.” (Results, p.&nbsp;3)</li>
+<li>“In the 108 tumours without chromothripsis, TP53 and RB1 had bi-allelic losses in 100% and 93% of the cases, respectively.” (Results, Universal inactivation of TP53 and RB1)</li>
+<li>“By contrast, genomic breakpoints affecting chromosome 1 clustered precisely in the TP73 locus in 7% of the cases (n = 8). … the majority of breaks caused intragenic fusions and, thus, exclusion of either exon 2, or exons 2 and 3.” (Results, Oncogenic genomic events affecting TP73)</li>
+<li>“Altogether, TP73 was somatically altered by mutations and genomic rearrangements in 13% of the cases.” (Results, p.&nbsp;6)</li>
+<li>“Overall, the NOTCH family was affected by genomic alterations in 25% of human SCLC.” (Results, Tumour suppressive roles of Notch in SCLC)</li>
+<li>“We crossed Rosa26Lox-stop-Lox-Notch2ICD (LSL-N2ICD) mice that conditionally express an activated form of Notch2 … to TKO mice and found a significant reduction in the number of tumours that arose in the presence of N2ICD (P &lt; 0.001).” (Results, p.&nbsp;6)</li>
+<li>“A comparison to lung adenocarcinoma indicated a threefold lower subclonal diversity in SCLC (P = 0.00023).” (Results, p.&nbsp;2–3)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26168399.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26168399.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

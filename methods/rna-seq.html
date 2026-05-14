@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -225,6 +225,16 @@ ul.task-list li input[type="checkbox"] {
 <li>Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions <a href="../papers/25401301.html">PMID:25401301</a></li>
 <li>Used in TCGA papillary thyroid carcinoma (<a href="../cancer_types/THPA.html">THPA</a>) multiplatform study to derive BRAFV600E-RAS Score (BRS) from a 71-gene expression signature and Thyroid Differentiation Score (TDS) from 16 metabolism genes, enabling molecular reclassification of 496 PTCs <a href="../papers/25417114.html">PMID:25417114</a></li>
 <li>Applied to 279 <a href="../cancer_types/HNSC.html">HNSC</a> tumors for HPV status determination (E6/E7 read mapping; threshold &gt;1,000 reads) and expression subtype classification (atypical/mesenchymal/basal/classical), as well as structural variant detection including <a href="../genes/MET.html">MET</a> exon-14 skipping <a href="../papers/25631445.html">PMID:25631445</a></li>
+<li>Paired-end RNA-seq (Illumina HiSeq 2500, 2×100 nt, ~50M paired reads) performed on 150 mCRPC biopsies alongside WES, enabling fusion detection via Tophat-Fusion and FPKM quantification by Cufflinks. <a href="../papers/26000489.html">PMID:26000489</a></li>
+<li>mRNA sequencing (Illumina TruSeq, HiSeq 2000) on 331 melanoma samples enabled identification of three transcriptomic subclasses (Immune, Keratin, MITF-low) and 224 candidate fusion drivers. <a href="../papers/26091043.html">PMID:26091043</a></li>
+<li>RNA-seq used for transcriptome profiling in breast cancer genomic analysis <a href="../papers/26168399.html">PMID:26168399</a></li>
+<li>RNA-seq used for transcriptome profiling as part of multi-omic characterization of ovarian cancer <a href="../papers/26200345.html">PMID:26200345</a></li>
+<li>Used in 40-42 of 110 metastatic melanoma pretreatment tumors (<a href="../datasets/skcm_dfci_2015.html">skcm_dfci_2015</a>) to measure cytolytic activity (<a href="../genes/GZMA.html">GZMA</a>+<a href="../genes/PRF1.html">PRF1</a> geometric mean) and immune checkpoint expression (<a href="../genes/CTLA4.html">CTLA4</a>, <a href="../genes/PDCD1LG2.html">PDCD1LG2</a>); each independently associated with <a href="../drugs/ipilimumab.html">ipilimumab</a> clinical benefit <a href="../papers/26359337.html">PMID:26359337</a></li>
+<li>Performed on 35 AAV-CRISPR-edited rat mammary tumors across six genotype groups; ANOVA (FDR&lt;1%) identified 1,579 differentially expressed genes; intrinsic subtype assignment classified most tumors as Luminal A or B; GSEA of fulvestrant-responsive DEGs showed significant concordance with human patient neoadjuvant endocrine therapy datasets <a href="../papers/26437033.html">PMID:26437033</a></li>
+<li>Used in the TCGA breast ILC/IDC multi-platform study (n=817) for mRNA expression profiling; enabled definition of three <a href="../cancer_types/ILC.html">ILC</a> transcriptional subtypes (reactive-like, immune-related, proliferative) and orthogonal validation of mutation calls (78.1% of CLL gene mutations detected at sites with &gt;90% detection power) <a href="../papers/26451490.html">PMID:26451490</a></li>
+<li>Performed on neuroblastoma tumors (Illumina HiSeq 2000) alongside custom 4x44K Agilent oligonucleotide microarrays; quantified <a href="../genes/TERT.html">TERT</a> expression showing 92-fold higher levels in TERT-rearranged vs low-risk tumors and higher than MYCN-amplified tumors (P=0.028) <a href="../papers/26466568.html">PMID:26466568</a></li>
+<li>Used in 156 of 538 CLL whole-exome samples for orthogonal validation; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with &gt;90% detection power; MGA-mutant CLLs showed downregulation of MYC-suppressed B-cell gene sets <a href="../papers/26466571.html">PMID:26466571</a></li>
+<li>Profiled mRNA expression in 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform characterization; 19 matched non-malignant adjacent samples profiled for methylation and RNA/miRNA expression <a href="../papers/26544944.html">PMID:26544944</a>.</li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -292,7 +302,17 @@ ul.task-list li input[type="checkbox"] {
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25401301.html">PMID:25401301</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25417114.html">PMID:25417114</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/25631445.html">PMID:25631445</a></p>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26000489.html">PMID:26000489</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26091043.html">PMID:26091043</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26168399.html">PMID:26168399</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26200345.html">PMID:26200345</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26359337.html">PMID:26359337</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26437033.html">PMID:26437033</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26451490.html">PMID:26451490</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26466568.html">PMID:26466568</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26466571.html">PMID:26466571</a></p>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26544944.html">PMID:26544944</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em></p>
 
 
 </section>

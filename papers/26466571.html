@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutations driving CLL and their evolution in progression and relapse – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26466571.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26466571.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutations driving CLL and their evolution in progression and relapse</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Landau DA </p>
+             <p>Tausch E </p>
+             <p>Taylor-Weiner AN </p>
+             <p>Stewart C </p>
+             <p>Reiter JG </p>
+             <p>Bahlo J </p>
+             <p>Kluth S </p>
+             <p>Bozic I </p>
+             <p>Lawrence M </p>
+             <p>Böttcher S </p>
+             <p>Carter SL </p>
+             <p>Cibulskis K </p>
+             <p>Mertens D </p>
+             <p>Sougnez C </p>
+             <p>Rosenberg M </p>
+             <p>Hess JM </p>
+             <p>Edelmann J </p>
+             <p>Kless S </p>
+             <p>Kneba M </p>
+             <p>Ritgen M </p>
+             <p>Fink A </p>
+             <p>Fischer K </p>
+             <p>Gabriel S </p>
+             <p>Lander E </p>
+             <p>Nowak MA </p>
+             <p>Döhner H </p>
+             <p>Hallek M </p>
+             <p>Neuberg D </p>
+             <p>Getz G </p>
+             <p>Stilgenbauer S </p>
+             <p>Wu CJ </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature15395">10.1038/nature15395</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26466571 · <strong>DOI:</strong> 10.1038/nature15395 · <strong>Journal:</strong> Nature (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Whole-exome sequencing of 538 chronic lymphocytic leukemia (CLL) samples — 278 of them collected prospectively on the phase III CLL8 trial of fludarabine/cyclophosphamide ± <a href="../drugs/rituximab.html">rituximab</a> — identifies 44 recurrently mutated genes and 11 recurrent somatic copy number variants (sCNVs). The cohort reveals previously unrecognized CLL drivers (notably <a href="../genes/RPS15.html">RPS15</a> and <a href="../genes/IKZF3.html">IKZF3</a>), highlights RNA processing/export, <a href="../genes/MYC.html">MYC</a> activity, and MAPK-ERK signaling as central CLL pathways, and uses clonality analysis to reconstruct the temporal order of driver acquisition. Matched pre-treatment and relapse exomes from 59 patients show that clonal evolution after fludarabine-based therapy is the rule rather than the exception.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Total cohort:</strong> 538 CLL whole-exomes (<a href="../cancer_types/CLLSLL.html">CLLSLL</a>) with matched germline DNA, combining the CLL8 cohort (n=278) with two prior non-overlapping CLL WES cohorts (n=260). Dataset: <a href="../datasets/cll_broad_2015.html">cll_broad_2015</a>. Mean read depth 95.0 (tumor) / 95.7 (normal).</li>
+<li><strong>Prospective sub-cohort:</strong> 278 pre-treatment samples from subjects enrolled on the phase III CLL8 trial (median &gt;6 years follow-up), randomized between <a href="../drugs/fludarabine.html">fludarabine</a> + <a href="../drugs/cyclophosphamide.html">cyclophosphamide</a> (FC) and fludarabine + cyclophosphamide + rituximab (FCR). CLL8 WES is deposited in dbGaP (phs000922.v1.p1).</li>
+<li><strong>Longitudinal sub-cohort:</strong> matched relapse WES from 59 of 278 CLL8 subjects.</li>
+<li><strong>Assay:</strong> <a href="../methods/whole-exome-seq.html">whole-exome-seq</a>; driver gene inference by <a href="../methods/mutsig.html">MutSig2CV</a>; clonality by <a href="../methods/absolute.html">ABSOLUTE</a>; matched <a href="../methods/rna-seq.html">RNA-seq</a> in 156 cases for orthogonal validation.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>44 putative CLL driver genes</strong> identified across 538 samples: 18 previously reported plus <strong>26 additional</strong> drivers; 33.5% of CLLs carry a mutation in at least one of the 26 new genes.</li>
+<li><strong>Power for driver discovery:</strong> the 538-sample cohort saturates discovery for genes mutated in ≥5% of patients and achieves 94% / 61% power at 3% / 2% mutation frequency, respectively.</li>
+<li><strong>Driver coverage:</strong> counting all 55 driver events (44 genes + 11 recurrent sCNVs), 91.1% of CLLs harbor ≥1 driver, 65.4% ≥2 drivers, 44.4% ≥3 drivers (vs.&nbsp;55.9% / 31.8% without the 26 new genes).</li>
+<li><strong>MAPK-ERK pathway</strong> mutated in 8.7% of CLLs across <a href="../genes/NRAS.html">NRAS</a> (n=9), <a href="../genes/KRAS.html">KRAS</a> (n=14) — RAS genes totaling 4.1% — <a href="../genes/BRAF.html">BRAF</a> (n=21, 3.7%), and the novel driver <a href="../genes/MAP2K1.html">MAP2K1</a> (n=12, 2.0%).</li>
+<li><strong>Non-canonical BRAF mutations</strong> in CLL cluster around the kinase activation segment rather than the V600E hotspot seen in melanoma/HCL/thyroid, implying a distinct mechanism and reduced sensitivity to canonical V600E BRAF inhibitors.</li>
+<li><strong>MYC-related drivers</strong> include <a href="../genes/MGA.html">MGA</a> (n=17, 3.2%) — recurrently inactivated by truncating insertions and nonsense mutations — plus <a href="../genes/PTPN11.html">PTPN11</a> (n=7, 1.3%) and <a href="../genes/FUBP1.html">FUBP1</a> (n=9, 1.7%); matched RNA-seq shows down-regulation of MYC-suppressed gene sets in MGA-mutant CLL.</li>
+<li><strong>Orthogonal validation:</strong> 65 of 71 mutations (91.55%) validated by targeted re-sequencing at mean 7,472× depth; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with &gt;90% detection power.</li>
+<li><strong>Driver-IGHV associations:</strong> most drivers are enriched in IGHV-unmutated CLL; only del(13q), <a href="../genes/MYD88.html">MYD88</a> and <a href="../genes/CHD2.html">CHD2</a> are enriched in IGHV-mutated CLL.</li>
+<li><strong>Prior-therapy enrichment:</strong> among 33 previously treated subjects (none on CLL8), <a href="../genes/TP53.html">TP53</a>, <a href="../genes/BIRC3.html">BIRC3</a>, del(17p), del(11q), <a href="../genes/DDX3X.html">DDX3X</a> and MAP2K1 mutations were enriched — implicating therapeutic selection.</li>
+<li><strong>Co-occurrence:</strong> of 465 pairs among 31 drivers with &gt;10 cases, 11 pairs show significant high/low co-occurrence — including TP53↔︎del(17p), <a href="../genes/ATM.html">ATM</a>↔︎del(11q), ATM/del(11q)↔︎amp(2p), tri(12)↔︎BIRC3, tri(12)↔︎<a href="../genes/BCOR.html">BCOR</a>; del(13q) and tri(12) are mutually exclusive.</li>
+<li><strong>Temporal map (Fig. 3B):</strong> sCNVs are the earliest events, with two distinct entry points (del(13q) and tri(12)) converging on del(11q); copy loss precedes sSNV/sINDEL hits in biallelic inactivation of ATM and BIRC3.</li>
+<li><strong>Mutational spectrum:</strong> 58.1% of mutations are subclonal; both clonal and subclonal sSNVs are dominated by C&gt;T transitions at CpG sites (aging signature).</li>
+<li><strong>Clinical outcome (CLL8, n=278):</strong> shorter progression-free survival (PFS) significantly associated with mutated <strong>TP53</strong>, <strong><a href="../genes/SF3B1.html">SF3B1</a></strong>, and the novel driver <strong>RPS15</strong> (Bonferroni P = 0.024). Prior reports for ATM, <a href="../genes/XPO1.html">XPO1</a>, <a href="../genes/EGR2.html">EGR2</a>, <a href="../genes/POT1.html">POT1</a> and BIRC3 did not replicate as PFS hits in this cohort.</li>
+<li><strong>Subclonal drivers and PFS:</strong> presence of any pre-treatment subclonal driver predicts shorter PFS (HR 1.6, 95% CI 1.2–2.2, P = 0.004); significant in both FC and FCR arms; trend toward non-significance after adjusting for IGHV status and treatment (HR 1.3, 95% CI 0.9–1.9, P = 0.102).</li>
+<li><strong>Clonal evolution at relapse:</strong> large clonal shifts observed in 57 of 59 (97%) paired pre-treatment/relapse pairs. The eventual relapse clone was already detectable in pre-treatment WES in 18 of 59 (30%) cases, and in 7 of 11 additional cases by targeted deep sequencing of pre-treatment samples.</li>
+<li><strong>Three relapse patterns:</strong> (1) tri(12), del(13q), del(11q) remain stably clonal; (2) TP53 mutations / del(17p) rise concordantly under therapy; (3) SF3B1 and ATM are equally likely to rise or fall, with 9 instances each of multiple distinct alleles per CLL — evidence of convergent late evolution.</li>
+<li><strong>IKZF3 mutations</strong> rose in CCF in 3 of 4 relapse cases (clonal in the fourth), supporting a fitness advantage on therapy.</li>
+<li><strong>Biallelic inactivation:</strong> TP53 + del(17p) co-occurrence odds ratio 97.22 vs.&nbsp;ATM + del(11q) odds ratio 10.99 — suggesting TP53 (unlike ATM) requires bona fide biallelic loss rather than haploinsufficiency.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/RPS15.html">RPS15</a> — recurrent missense in the C-terminal region (n=23, 4.3%; conservation 94/100); novel CLL driver, not previously reported in human cancer; associated with shorter PFS (Bonferroni P = 0.024). Component of the 40S ribosomal subunit.</li>
+<li><a href="../genes/IKZF3.html">IKZF3</a> — recurrent L162R substitution (n=11, 2.0%; conservation 93/100); novel CLL driver; CCF rises in 3 of 4 relapse cases. Key B-cell transcription factor.</li>
+<li><a href="../genes/MGA.html">MGA</a> — recurrent truncating insertions and nonsense mutations (n=17, 3.2%); MYC suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in mutants.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — n=21 (3.7%); mutations cluster in the activation segment of the kinase domain, <strong>not</strong> at V600E; implies non-canonical activation mechanism and reduced sensitivity to V600E inhibitors.</li>
+<li><a href="../genes/MAP2K1.html">MAP2K1</a> — n=12 (2.0%); novel MAPK-pathway CLL driver; enriched in prior-treatment samples.</li>
+<li><a href="../genes/NRAS.html">NRAS</a> — n=9; part of the 4.1% RAS-mutant CLL fraction.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — n=14; part of the 4.1% RAS-mutant CLL fraction.</li>
+<li><a href="../genes/TP53.html">TP53</a> — shorter PFS in mutants; CCF rises concordantly with del(17p) at relapse in all 12 dual-positive cases; high co-occurrence with del(17p) (OR 97.22) suggests bona fide biallelic inactivation requirement.</li>
+<li><a href="../genes/SF3B1.html">SF3B1</a> — shorter PFS in mutants; intermediate/late driver; CCF as likely to rise as fall on therapy; 9 instances of multiple distinct alleles per CLL (convergent evolution).</li>
+<li><a href="../genes/ATM.html">ATM</a> — high co-occurrence with del(11q) (OR 10.99); del(11q) typically precedes ATM sSNV/sINDEL second hits; 9 instances of multiple distinct alleles per CLL.</li>
+<li><a href="../genes/BIRC3.html">BIRC3</a> — enriched in prior-treatment samples; co-occurs with tri(12); copy loss precedes sSNV/sINDEL in biallelic inactivation.</li>
+<li><a href="../genes/MYD88.html">MYD88</a> — enriched in IGHV-mutated CLL subtype.</li>
+<li><a href="../genes/CHD2.html">CHD2</a> — enriched in IGHV-mutated CLL subtype.</li>
+<li><a href="../genes/DDX3X.html">DDX3X</a> — enriched in samples receiving prior therapy.</li>
+<li><a href="../genes/BCOR.html">BCOR</a> — significantly co-occurs with tri(12).</li>
+<li><a href="../genes/PTPN11.html">PTPN11</a> — n=7 (1.3%); novel CLL driver modulating MYC activity.</li>
+<li><a href="../genes/FUBP1.html">FUBP1</a> — n=9 (1.7%); novel CLL driver; RNA processing/MYC modulator.</li>
+<li>RNA processing &amp; export drivers: <a href="../genes/XPO4.html">XPO4</a>, <a href="../genes/EWSR1.html">EWSR1</a>, <a href="../genes/NXF1.html">NXF1</a> (note: paper text has typo “ESWR1” — corrected to <a href="../genes/EWSR1.html">EWSR1</a>).</li>
+<li>DNA damage drivers: <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/BRCC3.html">BRCC3</a>, <a href="../genes/ELF4.html">ELF4</a>, <a href="../genes/DYRK1A.html">DYRK1A</a>.</li>
+<li>Chromatin modification drivers: <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/H1-5.html">H1-5</a> (HUGO update of HIST1H1B), <a href="../genes/BAZ2B.html">BAZ2B</a>, <a href="../genes/IKZF3.html">IKZF3</a>.</li>
+<li>B-cell activity drivers: <a href="../genes/TRAF2.html">TRAF2</a>, <a href="../genes/TRAF3.html">TRAF3</a>, <a href="../genes/CARD11.html">CARD11</a>.</li>
+<li>Previously reported driver candidates <strong>not</strong> confirmed as PFS hits in CLL8: <a href="../genes/POT1.html">POT1</a>, <a href="../genes/EGR2.html">EGR2</a>, <a href="../genes/XPO1.html">XPO1</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/BIRC3.html">BIRC3</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarkers in chemoimmunotherapy:</strong> in patients receiving frontline <a href="../drugs/fludarabine.html">fludarabine</a>/<a href="../drugs/cyclophosphamide.html">cyclophosphamide</a> ± <a href="../drugs/rituximab.html">rituximab</a> (CLL8 trial), mutated TP53, SF3B1 and the novel driver RPS15 each independently predict shorter PFS. Presence of any subclonal driver predicts shorter PFS in both FC and FCR arms (HR 1.6).</li>
+<li><strong>Therapeutic exploration of MAPK-ERK inhibitors</strong> is suggested for the 8.7% of CLLs with NRAS/KRAS/BRAF/MAP2K1 mutations. However, the non-canonical (non-V600E) BRAF mutations seen in CLL are predicted to be less responsive to V600E-selective inhibitors (e.g., vemurafenib-class) and may instead require pan-RAF or downstream MEK inhibition.</li>
+<li><strong>Biallelic vs.&nbsp;haploinsufficient tumor suppressors:</strong> the &gt;9-fold higher odds ratio of TP53+del(17p) co-occurrence vs.&nbsp;ATM+del(11q) implies TP53 (unlike ATM) requires complete biallelic inactivation — relevant for inferring loss-of-function from copy-loss-only or mutation-only assays.</li>
+<li><strong>Pre-treatment WES can anticipate relapse:</strong> in 30% of CLL8 cases the eventual relapse clone was already detectable in the pre-treatment exome; targeted deep sequencing of pre-treatment material raised this further. This argues for higher-sensitivity pre-treatment baseline profiling in clinical trials.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>All clinical-outcome inferences are tied to a single trial (CLL8) using <strong>frontline fludarabine-based chemoimmunotherapy</strong>; the authors explicitly note that prognostic associations will need to be re-examined in the era of targeted agents (BTK/PI3K/BCL2 inhibitors).</li>
+<li>26 newly nominated drivers are statistical (MutSig2CV) discoveries; only a subset have functional validation in this paper — most novel calls rely on orthogonal sequencing and matched RNA-seq evidence, not perturbation experiments.</li>
+<li>The 33 previously treated samples enriched for TP53/BIRC3/DDX3X/MAP2K1/del(17p)/del(11q) were drawn from heterogeneous prior therapies, so therapy-specific selection effects cannot be cleanly attributed.</li>
+<li>Longitudinal CCF analysis is restricted to <strong>59 of 278</strong> CLL8 relapses, biased toward sample availability; convergent evolution of ATM and SF3B1 (9 instances each) is intriguing but the <a href="../methods/absolute.html">absolute</a> denominator is small.</li>
+<li>Whether non-canonical BRAF activation-segment mutations in CLL are functionally activating (and whether they cooperate with co-mutant RAS, as suggested by kinase-dead BRAF studies) is left as an open hypothesis.</li>
+<li>Multivariable PFS analysis attenuates the subclonal-driver signal once IGHV is added (P=0.102), so the independent prognostic value of subclonal-driver presence beyond IGHV is not firmly established in this cohort.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identify 44 recurrently mutated genes and 11 recurrent somatic copy number variations through whole-exome sequencing of 538 chronic lymphocytic leukemia (CLL) and matched germline DNA samples, 278 of which were collected in a prospective clinical trial.” (Summary)</li>
+<li>“These include previously unrecognized cancer drivers (RPS15, IKZF3) and collectively identify RNA processing and export, MYC activity and MAPK signaling as central pathways involved in CLL.” (Summary)</li>
+<li>“Of the newly identified recurrent lesions evaluated (MGA, BRAF and RPS15), we observed a shorter PFS with mutated RPS15 (Bonferroni P = 0.024).” (Results — Impact on clinical outcome)</li>
+<li>“In the CLL8 cohort, we again found that the presence of a pre-treatment subclonal driver was associated with a significantly shorter PFS (hazard ratio (HR) 1.6 [95%CI 1.2-2.2, P = 0.004).” (Results — Impact on clinical outcome)</li>
+<li>“We observed large clonal shifts between pre-treatment and relapse samples in the majority of cases (57 of 59), thus demonstrating that CLL evolution after therapy is the rule rather than the exception.” (Results — Clonal evolution at disease relapse)</li>
+<li>“The relapse clone was already detectable in pre-treatment WES in 18 of 59 (30%) cases.” (Results — Clonal evolution at disease relapse)</li>
+<li>“BRAF mutations in CLL did not involve the canonical hotspot (V600E) seen in other malignancies, but rather clustered heavily around the activation segment of the kinase domain… BRAF inhibitors are thought to be less effective for non-canonical BRAF mutations.” (Results — Unbiased candidate CLL genes discovery)</li>
+<li>“Across the 538 CLL samples, the odds ratio for co-occurrence of del(17p) and TP53 mutation was far greater than the odds ratio for co-occurrence of del(11q) and ATM mutation (97.22 vs.&nbsp;10.99, respectively).” (Results — Clonal evolution at disease relapse)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26466571.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26466571.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -203,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>496 primary PTCs plus 8 metastatic tumors from non-irradiated patients, accrued through TCGA. Histology breakdown: 324 (69.4%) classical-type (CT), 99 (21.2%) follicular-variant (FV), 35 (7.5%) tall cell variant (TCV), 9 (2.0%) uncommon variants, 29 without histological annotation.</li>
 <li>Aggressive thyroid cancers (poorly differentiated and undifferentiated/anaplastic) were excluded; cohort focuses on [[../cancer_types/THPA.md|papillary thyroid carcinoma (<a href="../cancer_types/THPA.html">THPA</a>)]].</li>
-<li>Dataset: [[../datasets/thca_tcga_pub.md|<a href="../datasets/thca_tcga_pub.html">thca_tcga_pub</a>]].</li>
+<li>Dataset: <a href="../datasets/thca_tcga_pub.html">thca_tcga_pub</a>.</li>
 <li>402 of 496 tumor/normal pairs had [[../methods/whole-exome-seq.md|whole-exome sequencing]] (mean tumor depth 97.0×, normal 94.9×); 390 tumors were profiled on all major platforms.</li>
 <li>Platforms (Table S1B): exome and whole genome DNA-seq, [[../methods/rna-seq.md|RNA-seq]], [[../methods/mirna-seq.md|miRNA-seq]], [[../methods/affymetrix-snp6.md|SNP6 arrays]], [[../methods/450k-methylation-array.md|Illumina 450k methylation arrays]], and [[../methods/rppa.md|reverse phase protein arrays (RPPA)]].</li>
 <li>Analytical methods include [[../methods/mutsig.md|MutSig]] for SMG calling, [[../methods/gistic.md|GISTIC2]] for focal SCNA, [[../methods/memo.md|MEMo]] for mutual exclusivity, and [[../methods/absolute.md|ABSOLUTE]] for cancer cell fraction estimation; HotNet2 and NBS for network analyses; PathSeq and BioBloom Tools for viral detection.</li>
@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Low somatic mutation density.</strong> Mean 0.41 non-synonymous mutations per Mb (Figures 1A, S1A; Table S3), low relative to most other carcinomas. Mutation density correlated with age (Pearson p=5.2×10⁻¹⁸), risk of recurrence (Kruskal-Wallis p=3.4×10⁻⁴), and MACIS score (Pearson p=4×10⁻¹⁵). After age correction, the association with risk of recurrence persisted (p=9.7×10⁻³); the MACIS association did not (p=0.19).</li>
 <li><strong>APOBEC enrichment in hypermutators.</strong> The 10 tumors with highest mutation densities (&gt;1/Mb) were enriched for APOBEC-associated mutations (Mann-Whitney p=4×10⁻⁵), similar to bladder cancer.</li>
-<li><strong>Seven significantly mutated genes (q&lt;0.1).</strong> [[../genes/BRAF.md|<a href="../genes/BRAF.html">BRAF</a>]], [[../genes/NRAS.md|<a href="../genes/NRAS.html">NRAS</a>]], [[../genes/HRAS.md|<a href="../genes/HRAS.html">HRAS</a>]], [[../genes/KRAS.md|<a href="../genes/KRAS.html">KRAS</a>]], [[../genes/EIF1AX.md|<a href="../genes/EIF1AX.html">EIF1AX</a>]], [[../genes/PPM1D.md|<a href="../genes/PPM1D.html">PPM1D</a>]], [[../genes/CHEK2.md|<a href="../genes/CHEK2.html">CHEK2</a>]] (Figure 1C, Table S2).</li>
+<li><strong>Seven significantly mutated genes (q&lt;0.1).</strong> <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/EIF1AX.html">EIF1AX</a>, <a href="../genes/PPM1D.html">PPM1D</a>, <a href="../genes/CHEK2.html">CHEK2</a> (Figure 1C, Table S2).</li>
 <li><strong>MAPK driver mutual exclusivity.</strong> BRAF + <a href="../genes/NRAS.html">NRAS</a> + <a href="../genes/HRAS.html">HRAS</a> + <a href="../genes/KRAS.html">KRAS</a> mutations were mutually exclusive in 300/402 (74.6%) patients (Fisher’s exact p=1.1×10⁻⁵; MEMo-corrected p&lt;0.01).</li>
 <li><strong>BRAF mutations.</strong> 248/402 (61.7%) BRAF mutations, mostly V600E; BRAFV600E characterized CT and TCV histologies.</li>
 <li><strong>RAS mutations.</strong> 52/402 (12.9%) SSNVs at codons 12/61 of RAS genes; RAS mutations characterized the follicular variant.</li>
@@ -224,13 +224,13 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Driver clonality.</strong> Using [[../methods/absolute.md|ABSOLUTE]], cancer cell fractions (CCF) for BRAF, NRAS, HRAS, KRAS, and EIF1AX driver mutations were uniformly high — all driver mutations are largely clonal (Figure 2D). Targeted validation confirmed 264/265 (99.6%) driver-gene mutations and 49/54 (91%) random mutations (overall validation rate 96%).</li>
 <li><strong>Gene fusions identified in 74/484 (15.3%) cases</strong>, mutually exclusive with BRAF/RAS/EIF1AX mutations (Fisher’s exact p=4.9×10⁻⁴³). Fusion-positive tumors associated with younger age (Wilcoxon rank-sum p=0.005) but not with recurrence risk (p=0.55):
 <ul>
-<li>[[../genes/RET.md|<a href="../genes/RET.html">RET</a>]] fusions: 33/484 (6.8%); 4 novel <a href="../genes/RET.html">RET</a> fusions identified that preserved the kinase domain.</li>
-<li>[[../genes/BRAF.md|BRAF]] fusions: 13/484 (2.7%) with diverse partners including [[../genes/SND1.md|<a href="../genes/SND1.html">SND1</a>]]/BRAF (3 tumors) and [[../genes/MKRN1.md|<a href="../genes/MKRN1.html">MKRN1</a>]]/BRAF.</li>
-<li>[[../genes/PAX8.md|<a href="../genes/PAX8.html">PAX8</a>]]/[[../genes/PPARG.md|<a href="../genes/PPARG.html">PPARG</a>]] fusions: 4/484 (0.8%).</li>
-<li>[[../genes/ETV6.md|<a href="../genes/ETV6.html">ETV6</a>]]/[[../genes/NTRK3.md|<a href="../genes/NTRK3.html">NTRK3</a>]] and [[../genes/RBPMS.md|<a href="../genes/RBPMS.html">RBPMS</a>]]/[[../genes/NTRK3.md|<a href="../genes/NTRK3.html">NTRK3</a>]] fusions: 6/484 (1.2%) combined.</li>
-<li>[[../genes/THADA.md|<a href="../genes/THADA.html">THADA</a>]] fusions: 6/484 (1.2%).</li>
-<li>[[../genes/ALK.md|<a href="../genes/ALK.html">ALK</a>]] fusions (incl.&nbsp;[[../genes/EML4.md|<a href="../genes/EML4.html">EML4</a>]]/ALK): 4/484 (0.8%).</li>
-<li>[[../genes/FGFR2.md|<a href="../genes/FGFR2.html">FGFR2</a>]] fusions: 2 cases; non-recurrent [[../genes/MET.md|<a href="../genes/MET.html">MET</a>]] and [[../genes/LTK.md|<a href="../genes/LTK.html">LTK</a>]] fusions: 2 cases.</li>
+<li><a href="../genes/RET.html">RET</a> fusions: 33/484 (6.8%); 4 novel <a href="../genes/RET.html">RET</a> fusions identified that preserved the kinase domain.</li>
+<li>[[../genes/BRAF.md|BRAF]] fusions: 13/484 (2.7%) with diverse partners including <a href="../genes/SND1.html">SND1</a>/BRAF (3 tumors) and <a href="../genes/MKRN1.html">MKRN1</a>/BRAF.</li>
+<li><a href="../genes/PAX8.html">PAX8</a>/<a href="../genes/PPARG.html">PPARG</a> fusions: 4/484 (0.8%).</li>
+<li><a href="../genes/ETV6.html">ETV6</a>/<a href="../genes/NTRK3.html">NTRK3</a> and <a href="../genes/RBPMS.html">RBPMS</a>/<a href="../genes/NTRK3.html">NTRK3</a> fusions: 6/484 (1.2%) combined.</li>
+<li><a href="../genes/THADA.html">THADA</a> fusions: 6/484 (1.2%).</li>
+<li><a href="../genes/ALK.html">ALK</a> fusions (incl.&nbsp;<a href="../genes/EML4.html">EML4</a>/ALK): 4/484 (0.8%).</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a> fusions: 2 cases; non-recurrent <a href="../genes/MET.html">MET</a> and <a href="../genes/LTK.html">LTK</a> fusions: 2 cases.</li>
 </ul></li>
 <li><strong>Somatic copy number alterations.</strong> SCNAs identified in 135/495 (27.2%) informative tumors and enriched in driver-mutation-negative cases (Fisher’s exact p=4.4×10⁻⁴). Unsupervised clustering of arm-level events defined 4 classes: SCNA-quiet (72.9%), SCNA-22q-del (9.9%, <a href="../genes/NF2.html">NF2</a> and CHEK2 lost — 70 tumors with 22q loss, 5 with CHEK2 mutation, 4 cases overlapping, p=0.0035), SCNA-low-1q-amp (14.8%, enriched for TCV p&lt;0.0001 and BRAF p&lt;0.05, with higher MACIS p&lt;0.0001), and SCNA-high (2.4%).</li>
 <li><strong>‘Dark matter’ reduction.</strong> Starting from 402 exome-sequenced cases: SSNVs explained 299 (73.6%); fusions raised this to 358 (89.0%); focal deletions (2 <a href="../genes/PTEN.html">PTEN</a>, 1 BRAF) to 361 (89.8%); arm-level SCNAs in 27 mostly-FV cases brought it to ~96.5%. Only 14 (3.5%) cases remained as ‘dark matter’, down from a historical ~25%. Including additional candidates (<a href="../genes/APC.html">APC</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/SPOP.html">SPOP</a>, chromatin remodeling genes, potential fusions), putative drivers were identified in 397/402 (98.8%) PTCs.</li>
@@ -249,17 +249,17 @@ ul.task-list li input[type="checkbox"] {
 <li>[[../genes/NRAS.md|NRAS]] / [[../genes/HRAS.md|HRAS]] / [[../genes/KRAS.md|KRAS]] — codon 12/61 SSNVs in 52/402 (12.9%) tumors; characterize the follicular variant; drive the RL phenotype with concurrent MAPK/PI3K signaling.</li>
 <li>[[../genes/EIF1AX.md|EIF1AX]] — novel PTC driver, 6/402 (1.5%), q=5.3×10⁻⁸; near-mutually exclusive with MAPK drivers.</li>
 <li>[[../genes/PPM1D.md|PPM1D]] / [[../genes/CHEK2.md|CHEK2]] — DNA-repair-related SMGs, co-occurring with MAPK drivers; CHEK2 mutations associated with 22q loss (p=0.0035).</li>
-<li>[[../genes/TERT.md|<a href="../genes/TERT.html">TERT</a>]] — promoter mutations (C228T, C228A, C250T) in 9.4% (36/384) of informative tumors; associated with high-risk, less differentiated, BRAFV600E-positive aggressive PTCs (Kruskal-Wallis p=4.2×10⁻⁵ for TDS).</li>
+<li><a href="../genes/TERT.html">TERT</a> — promoter mutations (C228T, C228A, C250T) in 9.4% (36/384) of informative tumors; associated with high-risk, less differentiated, BRAFV600E-positive aggressive PTCs (Kruskal-Wallis p=4.2×10⁻⁵ for TDS).</li>
 <li>[[../genes/RET.md|RET]] — fusions in 6.8% (33/484), most weakly BVL. Four novel kinase-domain-preserving RET fusion partners discovered.</li>
-<li>[[../genes/NTRK1.md|<a href="../genes/NTRK1.html">NTRK1</a>]] / [[../genes/NTRK3.md|NTRK3]] — fusions detected; ETV6/NTRK3 and RBPMS/NTRK3 in 1.2% (6/484); fusions were BRS-neutral.</li>
+<li><a href="../genes/NTRK1.html">NTRK1</a> / [[../genes/NTRK3.md|NTRK3]] — fusions detected; ETV6/NTRK3 and RBPMS/NTRK3 in 1.2% (6/484); fusions were BRS-neutral.</li>
 <li>[[../genes/ALK.md|ALK]] — fusions in 0.8% (4/484), including EML4/ALK, potential targetable alteration.</li>
-<li>[[../genes/PAX8.md|<a href="../genes/PAX8.html">PAX8</a>]]/[[../genes/PPARG.md|<a href="../genes/PPARG.html">PPARG</a>]] — fusions in 0.8% (4/484); RL phenotype.</li>
-<li>[[../genes/PTEN.md|<a href="../genes/PTEN.html">PTEN</a>]] — 2 focal deletions; lost in 5 tumors with 10q23.31 deletions. PI3K/PPARγ pathway mutations (PTEN, AKT1/2, PAX8/PPARG) in 4.5% (18/402).</li>
-<li>[[../genes/PIK3CA.md|<a href="../genes/PIK3CA.html">PIK3CA</a>]] — mutations overlap with BRAFV600E in HotNet2 MAPK subnetwork.</li>
-<li>[[../genes/NF2.md|<a href="../genes/NF2.html">NF2</a>]] — within 22q loss region characteristic of SCNA-22q-del FV-enriched subtype.</li>
-<li>[[../genes/TP53.md|<a href="../genes/TP53.html">TP53</a>]] / [[../genes/RB1.md|<a href="../genes/RB1.html">RB1</a>]] / [[../genes/NF1.md|<a href="../genes/NF1.html">NF1</a>]] / [[../genes/NF2.md|NF2]] / [[../genes/MEN1.md|<a href="../genes/MEN1.html">MEN1</a>]] — tumor suppressor mutations in 15/402 (3.7%).</li>
-<li>[[../genes/APC.md|<a href="../genes/APC.html">APC</a>]] / [[../genes/ATM.md|<a href="../genes/ATM.html">ATM</a>]] / [[../genes/SPOP.md|<a href="../genes/SPOP.html">SPOP</a>]] / [[../genes/KMT2A.md|<a href="../genes/KMT2A.html">KMT2A</a>]] / [[../genes/ARID1B.md|<a href="../genes/ARID1B.html">ARID1B</a>]] / [[../genes/KMT2C.md|<a href="../genes/KMT2C.html">KMT2C</a>]] — additional candidate dark-matter drivers and chromatin-remodeling alterations; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors.</li>
-<li>[[../genes/ZFHX3.md|<a href="../genes/ZFHX3.html">ZFHX3</a>]] (7/402, 1.7%, q=0.79) and BDP1 (5/402, 1.2%, q=0.58) — near-significant putative tumor suppressors.</li>
+<li><a href="../genes/PAX8.html">PAX8</a>/<a href="../genes/PPARG.html">PPARG</a> — fusions in 0.8% (4/484); RL phenotype.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — 2 focal deletions; lost in 5 tumors with 10q23.31 deletions. PI3K/PPARγ pathway mutations (PTEN, AKT1/2, PAX8/PPARG) in 4.5% (18/402).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutations overlap with BRAFV600E in HotNet2 MAPK subnetwork.</li>
+<li><a href="../genes/NF2.html">NF2</a> — within 22q loss region characteristic of SCNA-22q-del FV-enriched subtype.</li>
+<li><a href="../genes/TP53.html">TP53</a> / <a href="../genes/RB1.html">RB1</a> / <a href="../genes/NF1.html">NF1</a> / [[../genes/NF2.md|NF2]] / <a href="../genes/MEN1.html">MEN1</a> — tumor suppressor mutations in 15/402 (3.7%).</li>
+<li><a href="../genes/APC.html">APC</a> / <a href="../genes/ATM.html">ATM</a> / <a href="../genes/SPOP.html">SPOP</a> / <a href="../genes/KMT2A.html">KMT2A</a> / <a href="../genes/ARID1B.html">ARID1B</a> / <a href="../genes/KMT2C.html">KMT2C</a> — additional candidate dark-matter drivers and chromatin-remodeling alterations; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors.</li>
+<li><a href="../genes/ZFHX3.html">ZFHX3</a> (7/402, 1.7%, q=0.79) and BDP1 (5/402, 1.2%, q=0.58) — near-significant putative tumor suppressors.</li>
 </ul>
 </section>
 <section id="clinical-implications" class="level2">

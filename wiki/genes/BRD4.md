@@ -9,7 +9,7 @@ tags:
   - therapeutic-target
   - synthetic-lethality
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # BRD4
@@ -22,6 +22,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 
 - BRD4-binding sites increase at chromatin loci in ARID1A-knockout [SCLC](../cancer_types/SCLC.md) cells, establishing BRD4 occupancy as an adaptive response to SWI/SNF complex loss and the mechanistic basis for enhanced JQ1 sensitivity [PMID:22037554](../papers/22037554.md)
 - BRD4–NUTM1 fusion present in the TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md)
+- BET bromodomain protein occupying super-enhancers at MYB locus and other MYB target genes in adenoid cystic carcinoma (ACC); grade-2 ACC shows functional dependency on BRD4/BET activity, and BET inhibitor JQ1 suppresses tumour growth in ACC primagraft models [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 - [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

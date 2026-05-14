@@ -3,7 +3,7 @@ symbol: CDH13
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -16,6 +16,7 @@ CDH13 (Cadherin 13; also T-cadherin) encodes an atypical cadherin lacking a cyto
 ## Alterations observed in the corpus
 
 - MutSigCV-significant mutation in pancreatic ductal adenocarcinoma (PDA); listed among additional significantly mutated genes not previously highlighted in PDA; functional roles in PDA biology remain to be validated [PMID:25855536](../papers/25855536.md)
+- Mentioned in study [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CDH13 (Cadherin 13; also T-cadherin) encodes an atypical cadherin lacking a cyto
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

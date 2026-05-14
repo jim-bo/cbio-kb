@@ -3,7 +3,7 @@ symbol: JAG1
 aliases: [CD339, AGS, AHD, JAGGED1]
 cancer_types: [OSCC]
 tags: [Notch-pathway, Notch-ligand, HNSCC, copy-gain]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ JAG1 (Jagged canonical Notch ligand 1) encodes a Notch pathway ligand. In oral s
 
 - Copy gain observed in OSCC; Notch ligand gains may inhibit [NOTCH1](../genes/NOTCH1.md) via cis-inhibition or activate it, consistent with the tumor-suppressive role inferred for [NOTCH1](../genes/NOTCH1.md) in OSCC [PMID:23619168](../papers/23619168.md)
 - JAG1 part of NOTCH-pathway alterations ([NOTCH1](../genes/NOTCH1.md)–4, JAG1/JAG2, [MAML1](../genes/MAML1.md)–3) totalling 31% of cases in a 109-case PDA WES cohort; amplification/mutation patterns nominate γ-secretase inhibitor MK0752 as a candidate therapy [PMID:25855536](../papers/25855536.md)
+- JAG1 and JAG2 identified as Notch ligands among top MYB-target transcription regulators in adenoid cystic carcinoma (ACC); MYB drives Notch signaling through direct transcriptional activation of Notch ligands in low-grade ACC (n=20 WGS tumors) [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ JAG1 (Jagged canonical Notch ligand 1) encodes a Notch pathway ligand. In oral s
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -12,7 +12,7 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -58,6 +58,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - WNT pathway hotspot activating mutations observed in mCRPC for the first time (alongside [APC](../genes/APC.md), [RNF43](../genes/RNF43.md), [ZNRF3](../genes/ZNRF3.md), [RSPO2](../genes/RSPO2.md)) [PMID:26000489](../papers/26000489.md)
 - Recurrent COSMIC mutations (n=3) in Triple-WT cutaneous melanoma subtype [PMID:26091043](../papers/26091043.md)
 - Beta-catenin pathway mutations in primary prostate cancer (TCGA prostate cohort); co-occurs with [APC](../genes/APC.md) truncating mutations [PMID:26544944](../papers/26544944.md)
+- Mentioned in study [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -151,3 +152,6 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

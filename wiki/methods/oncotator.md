@@ -26,6 +26,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - Oncotator used for variant annotation alongside Alamut in 243 [HCC](../cancer_types/HCC.md) exomes to classify somatic mutations for driver discovery. [PMID:25822088](../papers/25822088.md)
 - Broad Institute Oncotator used to annotate somatic mutations identified by MuTect and VarScan in 109 microdissected PDA exomes. [PMID:25855536](../papers/25855536.md)
 - Oncotator used for somatic mutation annotation in colorectal cancer genomic analysis [PMID:26343386](../papers/26343386.md)
+- Oncotator used for functional annotation of somatic variants in 114 metastatic CRPC biopsies (whole-exome sequencing pipeline); variants annotated to identify non-silent SNVs and driver gene alterations [PMID:26855148](../papers/26855148.md)
 
 ## Notes
 
@@ -57,5 +58,8 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC used to assess protein expression levels as part of proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 - Used for ER, PR, and Ki67 staining in AAV-CRISPR-edited rat mammary tumors; demonstrated robust ER+/PR+ ductal histology in all six rat genotype groups, in contrast to ER-/PR- metaplastic phenotype produced by identical edits in mice [PMID:26437033](../papers/26437033.md)
 - Anti-MYBL1 IHC (HPA008791 antibody) and Western blotting performed on salivary adenoid cystic carcinomas to confirm [MYBL1](../genes/MYBL1.md) protein overexpression in MYBL1-rearranged tumors; antibody recognizes only C-terminally intact [MYBL1](../genes/MYBL1.md) (exon 10) [PMID:26631609](../papers/26631609.md).
+- IHC for MYB, TP63, ICN1 (active NOTCH1), KIT, and Ki-67 performed across 19 grade-2 and 8 grade-3 ACCs; TP63 and ICN1 staining were mutually exclusive, segregating tumor grades [PMID:26829750](../papers/26829750.md)
+- IHC for AR, synaptophysin, chromogranin A, CD56, EZH2, and MMR proteins used to classify 114 metastatic CRPC biopsies as adenocarcinoma or neuroendocrine histology [PMID:26855148](../papers/26855148.md)
 
 ## Notes
 
@@ -77,3 +79,9 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -37,6 +37,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - Frameshift p.Thr3941fs (Sézary syndrome) and truncating p.Gly1246* (mycosis fungoides) loss-of-function mutations in CTCL [PMID:26551667](../papers/26551667.md)
 - Truncating chromatin-modifier mutations in primary prostate cancer; enriched in the 26% unclassified genomic subset with high SCNA burden [PMID:26544944](../papers/26544944.md)
+- Recurrently mutated (2 mutations in 2 tumors; MLL3) in adenoid cystic carcinoma (ACC; n=25 WGS); part of a chromatin-regulator mutation cluster including KMT2D, KDM6A, SMARCA2, and SMARCC1 [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +121,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

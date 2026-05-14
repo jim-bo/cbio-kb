@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # CYLD
@@ -18,6 +18,7 @@ CYLD (CYLD Lysine 63 Deubiquitinase) is a tumor suppressor gene encoding a deubi
 - Truncating mutation in ACC exome-sequencing cohort (n=24); classified as known cancer/tumor-suppressor gene [PMID:23778141](../papers/23778141.md)
 - NF-kB pathway regulator recurrently mutated in multiple myeloma (MM): 5 patients with point mutations plus inclusion in a significant homozygous-deletion peak by GISTIC (n=153 patients); one of the 11 significantly mutated genes (q<0.1) in MM [PMID:24434212](../papers/24434212.md)
 - Recurrent mutations in ~19% of thymic carcinomas [PMID:24974848](../papers/24974848.md)
+- Mentioned in study [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ CYLD (CYLD Lysine 63 Deubiquitinase) is a tumor suppressor gene encoding a deubi
 - [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

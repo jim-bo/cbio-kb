@@ -17,8 +17,8 @@ tags:
   - TCGA
   - wes
   - rna-seq
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # TCGA Glioblastoma Multiforme
@@ -41,6 +41,7 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 ## Papers using this cohort
 
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*: Expert-revised MRI segmentation labels and >700 radiomic features released for 135 TCGA-GBM cases, complementing the genomic data in gbm_tcga to enable radiogenomic studies.
+- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*: TCGA pan-glioma integrated analysis using 606 GBM samples from this cohort combined with 516 LGG samples into lgggbm_tcga_pub.
 
 ## Notable findings derived from this cohort
 
@@ -50,11 +51,13 @@ The TCGA [GBM](../cancer_types/GBM.md) study is the canonical genomic and transc
 - Established that *[MGMT](../genes/MGMT.md)* promoter methylation, when combined with mismatch repair (MMR) gene mutations (e.g., *[MSH6](../genes/MSH6.md)*), is associated with a hypermutator phenotype in GBMs treated with alkylating agents. [PMID:18772890](../papers/18772890.md)
 - Bakas et al. 2017 released expert-revised segmentation labels for 135 GBM cases (from the originating set of 262), achieving median DICE of 0.92 for whole tumour, 0.88 for tumour core, and 0.88 for enhancing tumour versus GLISTRboost automated labels. These labels became the reference for BraTS'17. [PMID:28872634](../papers/28872634.md)
 - A panel of >700 radiomic features was extracted volumetrically from the manually revised labels, spanning intensity, volumetric, morphologic, texture (GLCM/GLRLM/GLSZM/NGTDM), wavelet, and glioma growth-model parameters — enabling downstream radiogenomic correlation with TCGA molecular profiles. [PMID:28872634](../papers/28872634.md)
+- Used as a component cohort (606 GBM samples, grade IV, n=592 per cBioPortal) in the TCGA pan-glioma integrated analysis identifying 75 SMGs, six DNA-methylation subtypes (LGm1–6), and PA-like IDH-wildtype glioma as a distinct favorable-prognosis entity [PMID:26824661](../papers/26824661.md)
 
 ## Sources
 
 - cBioPortal study: `gbm_tcga` — https://www.cbioportal.org/study/summary?id=gbm_tcga
 - TCGA GBM marker paper: Cancer Genome Atlas Research Network 2008, *Nature* (PMID 18772890).
 - [PMID:28872634](../papers/28872634.md) — Bakas et al. 2017, *Scientific Data*, DOI 10.1038/sdata.2017.117.
+- [PMID:26824661](../papers/26824661.md) — Ceccarelli et al. 2016, *Cell*, DOI 10.1016/j.cell.2015.12.028.
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

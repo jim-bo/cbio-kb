@@ -8,7 +8,7 @@ tags:
   - mds-driver
   - megakaryocyte-dysplasia
   - morphologic-biomarker
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -29,6 +29,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Mutations present in high-grade urothelial carcinoma (MSK-IMPACT, n=109) but not associated with recurrence-free or cancer-specific survival outcomes in this cohort. [PMID:25092538](../papers/25092538.md)
 - STAG2 loss-of-function mutations (nonsense, frameshift, splice-site, exon-22 duplication) in 17% of Ewing sarcoma WGS cohort and 13.2% of 299-patient combined cohort; mutually exclusive with [CDKN2A](../genes/CDKN2A.md) deletion; co-occurs with [TP53](../genes/TP53.md) mutation; can be subclonal at diagnosis and expand at relapse [PMID:25223734](../papers/25223734.md)
 - Significant association with T stage in [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma) cohort (n=83); detected by 300-gene MSK-IMPACT targeted panel [PMID:26278805](../papers/26278805.md)
+- STAG2 and NIPBL (cohesin complex genes) mutated/altered in ~16% of LGG/GBM; nominated as a therapeutic vulnerability for PARP inhibitors and DNA-damage agents [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

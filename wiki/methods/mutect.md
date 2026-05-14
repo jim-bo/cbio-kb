@@ -40,6 +40,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - MuTect used for somatic SNV calling in MSK-IMPACT panel sequencing of pancreatic cancer [PMID:26278805](../papers/26278805.md)
 - MuTect used for somatic SNV calling in whole-exome and whole-genome sequencing of colorectal cancer [PMID:26343386](../papers/26343386.md)
 - Used for SNV calling alongside MutationSeq in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples; contributed to identification of ~5-fold increased mutational burden at recurrence [PMID:26760213](../papers/26760213.md).
+- One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic mutation detection across 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
+- MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed TP53 and RB1 as top altered genes distinguishing CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
 
 ## Notes
 
@@ -99,5 +101,11 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

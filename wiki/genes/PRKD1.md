@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BRCA
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-14"
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # PRKD1
@@ -17,6 +17,7 @@ PRKD1 (protein kinase D1) encodes a serine/threonine kinase involved in signal t
 ## Alterations observed in the corpus
 
 - Non-passenger somatic mutation in breast adenoid cystic carcinoma (AdCC); also recurrent in salivary gland AdCCs, suggesting a shared driver alteration across anatomical sites. [PMID:26095796](../papers/26095796.md)
+- Recurrent somatic mutation in 2/25 ACC tumors; part of the axon-guidance pathway alteration cluster in this cohort [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -33,3 +34,6 @@ PRKD1 (protein kinase D1) encodes a serine/threonine kinase involved in signal t
 - [PMID:26095796](../papers/26095796.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

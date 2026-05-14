@@ -18,7 +18,7 @@ tags:
   - cholangiocarcinoma
   - gastric-cancer
   - mismatch-repair
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -40,6 +40,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - TGFBR2 frameshift/MMR-deficiency mutations detected in the hypermutated gastric cancer patient Pt1 (Tianjin Chinese cohort), alongside [MSH6](../genes/MSH6.md), [KDM5A](../genes/KDM5A.md), and [KMT2D](../genes/KMT2D.md), reflecting mismatch-repair deficiency at this TGF-β receptor gene. [PMID:25583476](../papers/25583476.md)
 - Sporadic inactivating mutations and deletions reported in HNSCC, primarily oral-cavity tumours, in a TCGA comprehensive genomic characterisation of 279 HPV(+) and HPV(−) cases [PMID:25631445](../papers/25631445.md)
 - TGF-β-axis alteration in pancreatic ductal adenocarcinoma, part of broader TGF-β pathway disruption (alongside [TGFBR1](../genes/TGFBR1.md), [TGFB1](../genes/TGFB1.md), [ACVR1B](../genes/ACVR1B.md), [ACVR1C](../genes/ACVR1C.md), [SMAD3](../genes/SMAD3.md), [SMAD6](../genes/SMAD6.md)) augmenting [SMAD4](../genes/SMAD4.md) loss. [PMID:25855536](../papers/25855536.md)
+- TGFBR2 more frequently mutated in duodenal adenocarcinoma (DUOAC); 5/12 TGFBR2 mutations targeted an A8 homopolymer MSI hotspot; ELF3 transactivates TGFBR2, suggesting ELF3 loss may suppress TGF-β tumor-suppressor signaling [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +93,6 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

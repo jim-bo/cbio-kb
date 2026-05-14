@@ -3,7 +3,7 @@ symbol: NFIB
 aliases: []
 cancer_types: [ODG]
 tags: [transcription-factor, stem-cell-program, glioma, progenitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -24,6 +24,8 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 - Recipient fusion partner in canonical [MYB](../genes/MYB.md)::NFIB (49/88, 57%) and [MYBL1](../genes/MYBL1.md)::NFIB (9/88, 10%) fusions in sinonasal adenoid cystic carcinoma; FISH detected an additional NFIB rearrangement in one fusion-negative case [PMID:24418857](../papers/24418857.md)
 - Identified as 3′ fusion partner in MYB-NFIB chimeric transcripts (NFIB exon 8c or 9 fused to [MYB](../genes/MYB.md) exon 14) in 83% (10/12) of breast adenoid cystic carcinomas (AdCC). [PMID:26095796](../papers/26095796.md)
 - 5' end (exons 1-2) fuses with diverse partners ([MYB](../genes/MYB.md), [MYBL1](../genes/MYBL1.md), [XRCC4](../genes/XRCC4.md), [PTPRD](../genes/PTPRD.md), [NKAIN2](../genes/NKAIN2.md), [AIG1](../genes/AIG1.md)) in adenoid cystic carcinoma; breakpoints in MYBL1-NFIB cluster in intron 10; present as fusion partner in ~53% (MYB-NFIB) and ~14% (MYBL1-NFIB) of 102-tumor ACC cohort [PMID:26631609](../papers/26631609.md)
+- Partner locus in NFIB–MYB rearrangements (12/20 ACC tumors: 6 with 3′UTR loss, 6 with retained 3′UTR); hosts super-enhancers that translocate to MYB driving overexpression [PMID:26829750](../papers/26829750.md)
+- Translocation target in 15/25 ACC tumors (60%) with five distinct fusion partners (MYB, MAP3K5, MYBL1, RIMS1, MYO6, RPS6KA2); overexpressed vs. normal (p=0.002) independent of fusion status (p=0.91), implicating a fusion-independent oncogenic role [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +72,9 @@ NFIB (nuclear factor I/B) is a transcription factor involved in neural progenito
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

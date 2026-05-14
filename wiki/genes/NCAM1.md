@@ -3,7 +3,7 @@ symbol: NCAM1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -16,6 +16,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 ## Alterations observed in the corpus
 
 - Neuroendocrine expression marker defining [SCLC](../cancer_types/SCLC.md) transcriptional subtypes; expressed alongside [ASCL1](../genes/ASCL1.md), [DLK1](../genes/DLK1.md), [CHGA](../genes/CHGA.md), [GRP](../genes/GRP.md), and [SYP](../genes/SYP.md) in the neuroendocrine-high subtype; expression is suppressed upon Notch pathway activation which drives transition to the non-neuroendocrine subtype [PMID:26168399](../papers/26168399.md)
+- CRPC-NE-associated transcript (CD56); down-regulated by EZH2 inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 - [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -9,7 +9,7 @@ tags:
   - glioma
   - differentiation-marker
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-14
 ---
 
 # SOX9
@@ -22,6 +22,7 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 
 - SOX9 is a defining marker of the astrocytic (astro-like) program in oligodendroglioma (one of 128 astro-high signature genes), co-expressed with [APOE](../genes/APOE.md), [ALDOC](../genes/ALDOC.md), and [GFAP](../genes/GFAP.md), across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2). [PMID:27806376](../papers/27806376.md)
 - Identified as significantly mutated in TCGA colorectal cancer cohort (276 tumors); SOX9 mutations observed among Wnt pathway-related alterations [PMID:22810696](../papers/22810696.md)
+- SOX9 alteration drives elevated WNT-pathway mutation frequency in duodenal adenocarcinoma (DUOAC) alongside APC in the pan-periampullary WGS study [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 - [PMID:22810696](../papers/22810696.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

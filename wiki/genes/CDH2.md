@@ -10,7 +10,7 @@ tags:
   - tumor-suppressor-candidate
   - desmoplastic-melanoma
   - lof-burden
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -23,6 +23,7 @@ CDH2 (cadherin 2, also known as N-cadherin) encodes a calcium-dependent cell adh
 ## Alterations observed in the corpus
 
 - Identified as a LOF-burden tumor-suppressor candidate in desmoplastic melanoma exome sequencing (n=60 discovery + 42 validation samples); listed alongside [FSIP1](../genes/FSIP1.md), [IL36A](../genes/IL36A.md), and [PAK3](../genes/PAK3.md) as additional LOF-burden TS candidates [PMID:26343386](../papers/26343386.md)
+- Mentioned in study [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ CDH2 (cadherin 2, also known as N-cadherin) encodes a calcium-dependent cell adh
 - [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

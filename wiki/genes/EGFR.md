@@ -3,7 +3,7 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -66,6 +66,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Low-frequency but FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (MAP kinase / RTK pathway) [PMID:25822088](../papers/25822088.md)
 - Focal amplifications in 3 desmoplastic melanoma tumors with IHC-confirmed overexpression; authors identify as potentially targetable RTK alteration [PMID:26343386](../papers/26343386.md)
 - Overexpressed in invasive lobular breast cancer ([ILC](../cancer_types/ILC.md)) at total and phospho levels (Y1068, Y1173); highest in the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype [PMID:26451490](../papers/26451490.md)
+- Mentioned in study [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -182,3 +183,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

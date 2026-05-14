@@ -3,7 +3,7 @@ symbol: PMS2
 aliases: []
 cancer_types: [UCEC, OVT, PRAD, PAAD, GB]
 tags: [mismatch-repair, mmr, lynch-syndrome, immunotherapy-biomarker, hypermutator-phenotype]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -26,6 +26,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - Somatic mutation identified in pancreatic acinar cell carcinomas but not correlated with elevated mutation burden; distinct from the MSH2-biallelic MSI-H case (ACINAR01) in this cohort [PMID:24293293](../papers/24293293.md)
 - Germline loss-of-function confers Lynch syndrome gastric cancer risk; included in standard multigene GC panel alongside [MLH1](../genes/MLH1.md), [MSH2](../genes/MSH2.md), [MSH6](../genes/MSH6.md), and [EPCAM](../genes/EPCAM.md) [PMID:24816255](../papers/24816255.md)
 - In [PAAD](../cancer_types/PAAD.md), PMS2 was among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed T→C-at-CTG signatures consistent with MMR deficiency. [PMID:25855536](../papers/25855536.md)
+- Germline Lynch-syndrome gene mutated in half of MSI periampullary tumor patients — a marked enrichment vs. <5% population frequency [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

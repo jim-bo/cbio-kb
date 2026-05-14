@@ -6,7 +6,7 @@ cancer_types:
 tags:
   - rb-pathway
   - cell-cycle
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -28,6 +28,7 @@ processed_at: 2026-05-14
 - Amplification identified in Pt2 of a multi-region WGS gastric cancer case study; combined [AURKC](../genes/AURKC.md) and CDK6 inhibitors proposed as therapeutic strategy for this patient [PMID:25583476](../papers/25583476.md)
 - High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
 - Recurrently amplified in HNSCC in the 279-tumor TCGA HNSCC cohort (11q13.5 region); co-amplified with CCND1/FADD/CTTN cassette in HPV(-) subset [PMID:25631445](../papers/25631445.md)
+- Mentioned in study [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -65,3 +66,6 @@ processed_at: 2026-05-14
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

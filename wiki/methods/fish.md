@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -45,6 +45,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used for gene copy-number assessment in proteogenomic analysis of ovarian cancer [PMID:26200345](../papers/26200345.md)
 - Applied with BAC probes CTD-2191M2 and CTD-2511M20 flanking the TERT/CLPTM1L locus to detect [TERT](../genes/TERT.md) 5p15.33 rearrangements in the 161-sample neuroblastoma validation cohort; required alongside targeted sequencing to call a rearrangement [PMID:26466568](../papers/26466568.md)
 - Used with [MYBL1](../genes/MYBL1.md) (RP11-271O1) and [NFIB](../genes/NFIB.md) (RP11-54D21, RP11-79B9) BAC probes to detect t(8;9) translocations in 81 salivary adenoid cystic carcinoma validation samples; identified t(8;9) in 27.8% of t(6;9)-negative ACCs [PMID:26631609](../papers/26631609.md).
+- FISH used to validate MYB rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
+- FISH used to verify CYLD focal deletion in CRPC-NE samples; confirmed deletion in 51% of CRPC-NE metastatic biopsies with concordant mRNA downregulation [PMID:26855148](../papers/26855148.md)
 
 ## Notes
 
@@ -127,3 +129,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

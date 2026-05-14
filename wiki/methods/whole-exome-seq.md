@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -122,6 +122,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used to sequence tumor-normal pairs from 42 CTCL patients (25 Sézary syndrome, 17 other CTCL) with Agilent SureSelect 50 Mb All Exon kit, mean depth 143.5×; identified recurrent deletions of [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PTEN](../genes/PTEN.md), [DNMT3A](../genes/DNMT3A.md) and [CDKN1B](../genes/CDKN1B.md), and mutations in TCR-signaling and epigenetic genes [PMID:26551667](../papers/26551667.md).
 - Applied to 9 primary uveal melanoma tumors and 5 primary tumor-derived cell lines as part of a 28-sample cohort; recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot and canonical [UM](../cancer_types/UM.md) drivers ([GNA11](../genes/GNA11.md), [GNAQ](../genes/GNAQ.md), [BAP1](../genes/BAP1.md), [SF3B1](../genes/SF3B1.md), [EIF1AX](../genes/EIF1AX.md)) characterized [PMID:26683228](../papers/26683228.md).
 - Used for 3 FFPE matched primary/recurrent medulloblastoma pairs (Nextera Rapid Capture) as part of a 46-sample WGS/WES study demonstrating divergent clonal selection at recurrence [PMID:26760213](../papers/26760213.md).
+- Used for whole-exome sequencing of 160 periampullary tumors (AMPAC, CAC, DUOAC) at ~120× coverage on HiSeq 2000, followed by HGSC Mercury pipeline variant calling, as part of the Australian Pancreatic Cancer Genome Initiative molecular taxonomy study [PMID:26804919](../papers/26804919.md)
+- Applied to 820 diffuse glioma samples from TCGA pan-glioma study (513 LGG + 307 GBM) to identify 75 significantly mutated genes including 45 novel glioma associations [PMID:26824661](../papers/26824661.md)
+- Used for whole-exome sequencing of 114 metastatic biopsies from 81 men with castration-resistant prostate cancer (CRPC-Adeno and CRPC-NE) using SureSelect v2/v4 or HaloPlex Exome at ~100× mean target coverage [PMID:26855148](../papers/26855148.md)
 
 ## Notes
 
@@ -403,3 +406,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

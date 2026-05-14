@@ -3,7 +3,7 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -34,6 +34,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT mutations and 4q12 focal amplifications enriched in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); highest KIT protein abundance in Triple-WT by RPPA; rationale for [imatinib](../drugs/imatinib.md) and [dasatinib](../drugs/dasatinib.md); co-amplified with [PDGFRA](../genes/PDGFRA.md) and [KDR](../genes/KDR.md) at 4q12 [PMID:26091043](../papers/26091043.md)
 - Rare oncogenic kinase mutation (with [BRAF](../genes/BRAF.md) and [PIK3CA](../genes/PIK3CA.md)) found in [SCLC](../cancer_types/SCLC.md) (4 tumors total); considered a potential targeted-therapy candidate [PMID:26168399](../papers/26168399.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (with high [EGFR](../genes/EGFR.md) expression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- KIT serves as a luminal epithelial cell marker by immunohistochemistry in adenoid cystic carcinoma (ACC); used to identify luminal vs. myoepithelial cell compartments in low-grade ACC (n=20 WGS tumors) [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -105,3 +106,6 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

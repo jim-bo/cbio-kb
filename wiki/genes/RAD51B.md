@@ -7,7 +7,7 @@ tags:
   - homologous-recombination
   - DNA-repair
   - HRD
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -22,6 +22,7 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - Somatic alteration in fusion-negative rhabdomyosarcoma (FN-RMS): RAD51B was identified as part of a cluster of DNA repair gene alterations (alongside [RAD21](../genes/RAD21.md), [RAD51C](../genes/RAD51C.md), [ATR](../genes/ATR.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), [FANCC](../genes/FANCC.md)) found exclusively at relapse in FN-RMS patients with higher mutational counts, indicating acquisition during progression rather than at diagnosis. [PMID:37730754](../papers/37730754.md)
 - In mCRPC, RAD51B was among the broader DNA-repair/recombination pathway alterations contributing to the 22.7% aggregate in the SU2C–PCF 150-case cohort. [PMID:26000489](../papers/26000489.md)
 - Intron-5 partner in a [MYBL1](../genes/MYBL1.md) truncation event (AC78) in adenoid cystic carcinoma [PMID:26631609](../papers/26631609.md)
+- Novel partner locus in 1/20 ACC tumors; downstream region contains smaller enhancers that are translocated to MYB, driving MYB overexpression [PMID:26829750](../papers/26829750.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

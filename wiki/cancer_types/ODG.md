@@ -5,7 +5,7 @@ main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
 processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_at: 2026-05-14
 ---
 
 # Oligodendroglioma (ODG)
@@ -29,6 +29,7 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - Single-cell profiling of 4,347 cells from 6 grade II ODG tumors reveals a three-compartment developmental hierarchy: oligodendrocyte-like ([OLIG1](../genes/OLIG1.md)/[OLIG2](../genes/OLIG2.md)/[OMG](../genes/OMG.md) high), astrocyte-like ([APOE](../genes/APOE.md)/[ALDOC](../genes/ALDOC.md)/[SOX9](../genes/SOX9.md) high), and a rare stem/progenitor compartment ([SOX2](../genes/SOX2.md)/[SOX4](../genes/SOX4.md)/[SOX11](../genes/SOX11.md) high) that accounts for nearly all proliferating cells (1.5–8% per tumour). [PMID:27806376](../papers/27806376.md)
 - [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) mutations and 1p/19q co-deletion confirmed in all 6 tumors; subclonal [CIC](../genes/CIC.md) mutation (~30% VAF) in MGH53 upregulates [ETV1](../genes/ETV1.md)/[ETV5](../genes/ETV5.md). CNV subclones and point mutations span all three developmental compartments, arguing that ODG architecture is primarily driven by non-genetic, developmental programs. [PMID:27806376](../papers/27806376.md)
 - [CCND2](../genes/CCND2.md) is preferentially expressed in the stem/progenitor compartment; differentiated cells express [CCND1](../genes/CCND1.md)/[CCND3](../genes/CCND3.md) — mirroring normal neural development. [PMID:27806376](../papers/27806376.md)
+- TCGA pan-glioma study included 174 oligodendroglioma cases (17% of 1,122-patient cohort); oligodendroglioma corresponds to the Codel (1p/19q co-deleted, IDH-mutant) subgroup with methylation cluster LGm1–3 and best-prognosis outcome [PMID:26824661](../papers/26824661.md)
 
 ## Subtypes
 
@@ -45,5 +46,6 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [PMID:37910594](../papers/37910594.md)
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:27806376](../papers/27806376.md)
+- [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -92,6 +92,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Recurrently altered in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) alongside other p15/p16 pathway events; identified in 300-gene MSK-IMPACT panel sequencing (n=83 [UTUC](../cancer_types/UTUC.md)) [PMID:26278805](../papers/26278805.md)
 - Focal deletions in 11 desmoplastic melanoma cases; also LOF mutations and one germline mutation in a sun-shielded tumor; p16 loss confirmed by IHC [PMID:26343386](../papers/26343386.md)
 - Homozygous loss drove the recurrent clone in medulloblastoma patient MB-REC-12 after the PTCH1-driven primary clone was eliminated by therapy; acquired alongside [CDKN2B](../genes/CDKN2B.md) loss [PMID:26760213](../papers/26760213.md)
+- Mentioned in study [PMID:26804919](../papers/26804919.md)
+- Mentioned in study [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -268,3 +270,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

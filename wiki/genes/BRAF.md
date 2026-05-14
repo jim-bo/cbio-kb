@@ -80,6 +80,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - No enrichment of BRAF nonsynonymous mutations was observed between clinical-benefit and no-benefit subgroups in metastatic melanoma patients receiving [ipilimumab](../drugs/ipilimumab.md) (CTLA-4 blockade), despite prior reports linking BRAF status to immune-therapy response [PMID:26359337](../papers/26359337.md)
 - 2.4% mutation rate in primary prostate cancer (higher than previously reported); 8 mutations, none V600E; includes K601E, G469A, L597R (MEK-inhibitor sensitive), K601 in-frame deletion, F468C; MAPK-pathway actionable [PMID:26544944](../papers/26544944.md)
 - p.Lys601Glu activating mutation in a CD30-negative CTCL (Sézary syndrome) sample; MEK-pathway convergence across CTCL subtypes [PMID:26551667](../papers/26551667.md)
+- MAPK-pathway alteration enriched in PA-like IDH-wildtype LGG (52%) and LGm6-GBM (32%) in a 1,122-tumour TCGA pan-glioma cohort; BRAF alterations nominate candidate targeted therapies for this favourable-prognosis IDH-wildtype LGG subset [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -271,5 +272,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

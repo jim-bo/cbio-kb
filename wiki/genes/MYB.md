@@ -21,6 +21,8 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 - Canonical MYB::[NFIB](../genes/NFIB.md) fusion in 49/88 (57%) of sinonasal adenoid cystic carcinomas; noncanonical fusion partners include [ACTB](../genes/ACTB.md), [ACTN4](../genes/ACTN4.md), [ESRRG](../genes/ESRRG.md), and [EWSR1](../genes/EWSR1.md) fusing MYB exons 2–3 in-frame; MYB FISH detected additional fusion-negative rearrangements [PMID:24418857](../papers/24418857.md)
 - Partner of t(6;9) MYB-NFIB fusion in 10/12 (83%) breast adenoid cystic carcinomas (AdCC); recurrently mutated by missense in 2/12 (17%) cases; one mutation in exon 13 splice site of MYB-NFIB fusion allele [PMID:26095796](../papers/26095796.md)
 - t(6;9) MYB-NFIB fusions present in ~53% of 102-tumor ACC cohort; MYB alterations correlate with worse outcome (recurrence/metastasis P=0.042, shorter survival vs MYBL1-altered P=0.010) [PMID:26631609](../papers/26631609.md)
+- Recurrent rearrangement target in ACC (15/20 cases); enhancer hijacking by translocated super-enhancers drives MYB overexpression via a positive feedback loop; MYB binding (13,278 peaks) cooperates with TP63 and NOTCH1 programs [PMID:26829750](../papers/26829750.md)
+- t(6;9) MYB–NFIB fusion in 11/25 ACC tumors; MYB overexpressed vs. normal (p<0.001) and significantly higher in fusion-positive tumors (p<0.001) [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +58,11 @@ MYB (v-myb avian myeloblastosis viral oncogene homolog) is a transcription facto
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26631609](../papers/26631609.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

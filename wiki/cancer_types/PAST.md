@@ -4,8 +4,8 @@ oncotree_code: PAST
 main_type: Glioma
 parent: ENCG
 tags: [glioma, cns, pediatric, low-grade]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # Pilocytic Astrocytoma (PAST)
@@ -24,6 +24,7 @@ Pilocytic Astrocytoma is a low-grade CNS/Brain tumor classified under Encapsulat
 - [BRAF](../genes/BRAF.md) fusions (all partners): de novo prevalence 56% in pilocytic astrocytoma, the highest prevalence across 52 histologies in a tumor-agnostic MSK cohort. [BRAF](../genes/BRAF.md) fusions activate the MAPK pathway via constitutive kinase dimerization (class II mechanism). [PMID:38922339](../papers/38922339.md)
 - [BRAF](../genes/BRAF.md) fusions are mutually exclusive with other MAPK pathway alterations in this cohort. [PMID:38922339](../papers/38922339.md)
 - WGS of 96 pilocytic astrocytomas (ICGC PedBrain) confirmed 100% MAPK pathway alteration (lowest mutation rate of any solid tumor, <0.1/Mb); identified [FGFR1](../genes/FGFR1.md) kinase-domain hotspot mutations (N546, K656) in non-cerebellar tumors, novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):NTRK2, [NACC2](../genes/NACC2.md):NTRK2), and four new [BRAF](../genes/BRAF.md) fusion partners [PMID:23817572](../papers/23817572.md)
+- Used as a molecular comparator in the TCGA pan-glioma study; 61 grade-I PAs all clustered with the PA-like methylation subtype (LGm6), which constitutes a favorable-prognosis IDH-wildtype subset with MAPK-pathway alterations in 52% of cases and largely euploid copy-number profiles [PMID:26824661](../papers/26824661.md)
 
 ## Subtypes
 
@@ -39,5 +40,6 @@ No molecular subtypes of pilocytic astrocytoma were distinguished in the corpus 
 
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (MSK, 2024).
 - [PMID:23817572](../papers/23817572.md)
+- [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

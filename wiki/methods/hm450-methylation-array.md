@@ -5,7 +5,7 @@ kind: METHYLATION
 canonical_source: corpus
 unverified: true
 tags: [methylation, dna-methylation, illumina, infinium]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for genome-wide DNA methylation profiling; data confirmed absence of [CDH1](../genes/CDH1.md) promoter hypermethylation in [ILC](../cancer_types/ILC.md), contradicting older MSP-based reports [PMID:26451490](../papers/26451490.md)
 - Profiled 39 primary neuroblastomas to characterize chromatin state at the [TERT](../genes/TERT.md) locus; CpG methylation increased in rearranged and MYCN-amplified tumors, particularly at a CpG near the [TERT](../genes/TERT.md) core promoter linked to disabled repression [PMID:26466568](../papers/26466568.md)
 - Profiled DNA methylation in 333 primary prostate adenocarcinomas (TCGA); identified four epigenetic clusters and a CIMP-like [IDH1](../genes/IDH1.md) R132-mutant subgroup with greater genome-wide hypermethylation than IDH1-mutant [GBM](../cancer_types/GBM.md) or [AML](../cancer_types/AML.md) [PMID:26544944](../papers/26544944.md).
+- Used for DNA methylation profiling of 516 LGG and 129 GBM samples in the TCGA pan-glioma study; merged with HM27 data to define six pan-glioma methylation clusters (LGm1–6); methylation subtype was an independent prognostic predictor (C-index 0.836 with age + grade) [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -64,3 +65,6 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

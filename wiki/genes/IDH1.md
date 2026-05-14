@@ -3,7 +3,7 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -34,6 +34,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 R132 UV hot-spot mutation in ~6% of cutaneous melanomas; enriched in the CIMP epigenetic cluster (OR = 4.05, p = 0.005) in the TCGA 333-sample cohort [PMID:26091043](../papers/26091043.md)
 - R132C hotspot in 1 desmoplastic melanoma tumor; authors identify IDH1 as potentially targetable [PMID:26343386](../papers/26343386.md)
 - R132 hotspot mutations in ~1% of primary prostate cancers define a CIMP-like, ETS-negative, SPOP-wt, SCNA-quiet subtype with genome-wide hypermethylation exceeding that of IDH1-mutant [GBM](../cancer_types/GBM.md) and [AML](../cancer_types/AML.md); associated with younger age at diagnosis [PMID:26544944](../papers/26544944.md)
+- Essentially absent (single hotspot only) in this extrahepatic cholangiocarcinoma / periampullary cohort (n=160 AMPAC/DUOAC/CAC), in contrast to intrahepatic CAC where IDH1 mutations are common; underscores molecular distinction between intra- and extrahepatic biliary tumors [PMID:26804919](../papers/26804919.md)
+- Defining hotspot mutation in IDH-mutant glioma macro-cluster (LGm1–3 / LGr1–3 subtypes); 457 IDH1 mutations recovered in pan-glioma TCGA cohort (n=1122), comprising 99% of the IDH-mutant cluster; primary axis of methylome and transcriptome separation between glioma subtypes [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -107,3 +109,9 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

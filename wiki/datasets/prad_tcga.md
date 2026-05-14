@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
 tags: [prostate-cancer, prad, tcga, multi-platform]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Prostate Adenocarcinoma (TCGA, 2015)
@@ -31,13 +31,16 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 ## Papers using this cohort
 
 - [PMID:38488813](../papers/38488813.md) — Integrative Molecular Analyses of the MD Anderson Prostate Cancer Patient-derived Xenograft (MDA PCa PDX) Series.
+- [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: queried for NEPC classifier validation (n=460 treatment-naïve adenocarcinomas scored NEPC-high at 0%).
 
 ## Notable findings derived from this cohort
 
 - [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with [FGFR1](../genes/FGFR1.md) expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. [PMID:38488813](../papers/38488813.md)
+- Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier's specificity for castration-resistant neuroendocrine disease [PMID:26855148](../papers/26855148.md)
 
 ## Sources
 
 - cBioPortal study `prad_tcga` [PMID:38488813](../papers/38488813.md).
+- [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-14
 ---
 
@@ -33,6 +33,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Focal amplification in 10% of HPV(-) vs 0% HPV(+) HNSCC [PMID:25631445](../papers/25631445.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort) [PMID:26168399](../papers/26168399.md)
 - Co-amplified with [WHSC1L1](../genes/WHSC1L1.md) at 8p11.23 in 8% of primary prostate cancers [PMID:26544944](../papers/26544944.md)
+- MAPK-pathway alteration (with FGFR2, BRAF, NF1, NTRK1/2) enriched in PA-like LGG (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); FGFR1 alterations associated with pilocytic-astrocytoma-like IDH-wildtype LGG subtype with favorable prognosis [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -103,3 +104,6 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -9,7 +9,7 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -38,6 +38,8 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - Chromatin-remodeling gene recurrently mutated in [HCC](../cancer_types/HCC.md); SWI/SNF pathway altered in 28% of 243 [HCC](../cancer_types/HCC.md) tumors; [SMARCA2](../genes/SMARCA2.md) alteration enriched in alcohol-related [HCC](../cancer_types/HCC.md) [PMID:25822088](../papers/25822088.md)
 - SMG strongly enriched in melanoma CIMP cluster (OR=3.5, p=0.0003); frequently co-occurs with [NF1](../genes/NF1.md) — proposed synthetic-lethal vulnerability for chromatin-modifier targeting [PMID:26091043](../papers/26091043.md)
 - Inactivating mutations in the SWI/SNF complex in desmoplastic melanoma; co-occurs with [ARID1A](../genes/ARID1A.md) inactivation; both confirmed as tumor-suppressor gene alterations [PMID:26343386](../papers/26343386.md)
+- One of the most frequent SWI/SNF chromatin-remodelling alterations in periampullary adenocarcinomas (AMPAC, DUOAC, CAC); equally distributed across the three tumour types [PMID:26804919](../papers/26804919.md)
+- Newly nominated glioma driver (n=20 mutations) in a pan-glioma WGS/WES cohort of 1,122 diffuse gliomas; classified as a chromatin-modification gene [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -106,3 +108,9 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: RECQL4
 aliases: []
 cancer_types: [THAP]
 tags: [dna-repair, helicase, cancer-predisposition, thyroid]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -18,6 +18,7 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 ## Alterations observed in the corpus
 
 - RECQL4 germline variants detected in 5% of anaplastic thyroid carcinoma (ATC) patients in the Global Anaplastic Thyroid Cancer Initiative (GATCI) cohort (n=213 ATC regions from 292 patients); identified as the most frequently observed germline cancer predisposition gene variant in this cohort [PMID:38412093](../papers/38412093.md).
+- Added to significant gene list by inactivation-bias test in a periampullary cancer WGS study (DUOAC/AMPAC/CAC) [PMID:26804919](../papers/26804919.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ RECQL4 encodes a RecQ-family DNA helicase involved in DNA replication initiation
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

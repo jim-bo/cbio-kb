@@ -35,6 +35,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Y641S gain-of-function lymphoma allele found in cSCC (cutaneous squamous cell carcinoma) [PMID:25589618](../papers/25589618.md)
 - Y641 hotspot mutation in Triple-WT cutaneous melanoma subtype (n=1) [PMID:26091043](../papers/26091043.md)
 - Y641S hotspot in 1 desmoplastic melanoma tumor [PMID:26343386](../papers/26343386.md)
+- Mentioned in study [PMID:26855148](../papers/26855148.md)
 
 ## Cancer types (linked)
 
@@ -85,5 +86,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

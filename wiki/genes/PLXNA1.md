@@ -3,8 +3,8 @@ symbol: PLXNA1
 aliases: []
 cancer_types: [PAAD]
 tags: [pancreatic-cancer, axon-guidance, semaphorin-receptor, prognosis]
-processed_by: entity-page-writer
-processed_at: 2026-05-07
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # PLXNA1
@@ -16,6 +16,7 @@ PLXNA1 encodes plexin-A1, a receptor for class-3 semaphorins (including [SEMA3A]
 ## Alterations observed in the corpus
 
 - Amplification and/or overexpression in pancreatic cancer WES of 142 ICGC tumors; PLXNA1 is an independent poor prognostic factor in resected PDAC [PMID:23103869](../papers/23103869.md)
+- Single-tumor somatic mutation in axon-guidance pathway in adenoid cystic carcinoma (ACC) WGS cohort (n=25) [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ PLXNA1 encodes plexin-A1, a receptor for class-3 semaphorins (including [SEMA3A]
 - [PMID:23103869](../papers/23103869.md) — Pancreatic cancer WES, 142 ICGC tumors
 
 *This page was processed by **entity-page-writer** on **2026-05-07**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

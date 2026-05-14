@@ -3,7 +3,7 @@ symbol: NTRK2
 aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -23,6 +23,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; co-occurs with [FGFR4](../genes/FGFR4.md) and [PDGFRA](../genes/PDGFRA.md) mutations. [PMID:18948947](../papers/18948947.md)
 - Two novel kinase-domain-retaining fusions identified in pilocytic astrocytoma: [QKI](../genes/QKI.md):NTRK2 and [NACC2](../genes/NACC2.md):NTRK2 (3 non-cerebellar samples); 5' partners contribute dimerization domains predicted to confer ligand-independent activation; NTRK2 identified as a rational therapeutic target alongside [FGFR1](../genes/FGFR1.md) inhibition [PMID:23817572](../papers/23817572.md)
 - NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
+- MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

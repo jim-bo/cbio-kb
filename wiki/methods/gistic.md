@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -45,6 +45,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC used to identify significantly amplified and deleted genomic regions in adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Used in the TCGA breast cancer ILC/IDC study (n=817) for somatic copy-number calling from Affymetrix SNP6 data, identifying focal amplifications ([MYC](../genes/MYC.md), [CCNE1](../genes/CCNE1.md)) enriched in [IDC](../cancer_types/IDC.md) and deletions enriched in [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
 - Applied as GISTIC 2.0 to identify focal somatic copy-number alterations in 333 primary prostate adenocarcinomas; detected 20 amplifications and 35 deletions (q < 0.25), including homozygous [PTEN](../genes/PTEN.md) deletion in 15% — among the highest rates in any TCGA tumor type [PMID:26544944](../papers/26544944.md).
+- GISTIC analysis of Illumina HumanOmni2.5-8 SNP-array data from periampullary tumors identified focal 9p23.1 CDKN2A deletion and a chromosome-9 deletion removing the promoter/5′ end of KDM4C as statistically significant in AMPAC [PMID:26804919](../papers/26804919.md)
+- GISTIC2 applied to copy-number data from 1,084 diffuse gliomas in the TCGA pan-glioma study to map focal amplifications and deletions across the cohort [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -135,3 +137,9 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

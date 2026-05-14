@@ -4,8 +4,8 @@ oncotree_code: GBM
 main_type: CNS/Brain Cancer
 parent: DIFG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # Glioblastoma Multiforme (GBM)
@@ -39,6 +39,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
     - **[RB1](../genes/RB1.md)**: Mutated or deleted in 11% of cases [PMID:18772890](../papers/18772890.md).
 - TCGA 2013 multi-platform analysis of 543 primary GBM identified 71 significantly mutated genes; [EGFR](../genes/EGFR.md) altered in 57% (rearrangements, EGFRvIII, novel splice variants); [TERT](../genes/TERT.md) promoter mutations in 84% of deep-coverage cases; [MGMT](../genes/MGMT.md) methylation predicted TMZ response only in classical subtype; proneural survival advantage attributable to G-CIMP epigenotype [PMID:24120142](../papers/24120142.md).
 - All 6 hypermutated recurrent grade II astrocytomas (arising after [temozolomide](../drugs/temozolomide.md) therapy) progressed to GBM, acquiring TMZ-signature driver mutations in the RB and AKT–mTOR pathways ([RB1](../genes/RB1.md), [CDKN2A](../genes/CDKN2A.md), [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [MTOR](../genes/MTOR.md)), with validated in vivo mTORC1 hyperactivation [PMID:24336570](../papers/24336570.md).
+- TCGA pan-glioma study included 590 GBM cases (56% of 1,122-patient cohort); GBM enriched for TERTp mutations, chr7 gain/chr10 loss, and IDH-wildtype methylation subtypes (Classic-like, Mesenchymal-like, LGm6-GBM); LGm6-GBM cluster had MAPK-pathway alterations in 32% of cases [PMID:26824661](../papers/26824661.md)
 
 ## Subtypes
 
@@ -53,8 +54,8 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 
 - [PMID:18772890](../papers/18772890.md) — Cancer Genome Atlas Research Network. Comprehensive genomic characterization defines human glioblastoma genes and core pathways. *Nature*. 2008.
 - [PMID:28872634](../papers/28872634.md) — Bakas S, et al. Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features. *Sci Data*. 2017.
-
 - [PMID:24120142](../papers/24120142.md)
 - [PMID:24336570](../papers/24336570.md)
+- [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-14**.*

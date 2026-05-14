@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [expression, microarray]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # Agilent 244K
@@ -20,6 +20,7 @@ A microarray platform (Agilent 244,000-feature) used for high-resolution analysi
 - Utilized for gene expression profiling in 206 glioblastoma samples to characterize core pathway alterations and molecular subtypes [PMID:18772890](../papers/18772890.md).
 - Used for aCGH (array comparative genomic hybridization) in the MSKCC prostate cancer integrative genomic profiling study of 218 tumors (181 primaries + 37 metastases) [PMID:20579941](../papers/20579941.md)
 - Four FFPE prostate needle biopsies profiled by Agilent 244K array-CGH as proof-of-principle for pre-treatment CNA burden assessment; results concordant with 1M-feature aCGH including focal 3p13 deletions (FOXP1, RYBP, SHQ1) [PMID:25024180](../papers/25024180.md)
+- Used for copy-number profiling in TCGA glioma samples as part of the pan-glioma multi-platform data integration [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -36,3 +37,6 @@ A microarray platform (Agilent 244,000-feature) used for high-resolution analysi
 - [PMID:25024180](../papers/25024180.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

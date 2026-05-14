@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clustering, unsupervised, transcriptomics, bioinformatics]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -21,6 +21,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Applied in single-cell RNA-seq analysis (Deng M, cited) to classify cholangiocarcinoma into BA-active and BA-inactive metabolic subtypes; BA-active subtype associated with shorter [OS](../cancer_types/OS.md) and immunotherapy resistance [PMID:25608663](../papers/25608663.md)
 - Consensus hierarchical clustering applied to top-1,500 variant genes in 329 melanoma RNA-seq samples, defining three transcriptomic subclasses (Immune 51%, Keratin 31%, MITF-low 18%) with distinct survival and mutational profiles. [PMID:26091043](../papers/26091043.md)
 - Used to define three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) from 1,277 SAM-differentiating genes (q=0) in n=106 LumA [ILC](../cancer_types/ILC.md), with survival differences validated in METABRIC [PMID:26451490](../papers/26451490.md)
+- Consensus hierarchical clustering applied to 1,300 tumor-specific CpG probes from merged HM27 + HM450 methylation data to define six pan-glioma methylation subtypes (LGm1–6) in 932 TCGA glioma samples [PMID:26824661](../papers/26824661.md)
 
 ## Notes
 
@@ -40,3 +41,6 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

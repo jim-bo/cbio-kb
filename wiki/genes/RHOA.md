@@ -3,7 +3,7 @@ symbol: RHOA
 aliases: []
 cancer_types: [DSTAD, AITL, ATLL, PTCL, STAD, BL]
 tags: [rho-gtpase, diffuse-gastric-cancer]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -24,6 +24,7 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - **E40Q** -- fails to complement RHO1 in yeast (no viable colonies on 5-FOA); recurs in solid tumors including breast cancer and [HNSC](../cancer_types/HNSC.md). [PMID:24816253](../papers/24816253.md)
 - Mutated in 15% of genomically stable (GS) gastric tumours; novel hotspots in the effector-binding region (Y42, D59 etc.) distinct from RAS-family oncogenic sites; mutually exclusive with CLDN18-ARHGAP fusions. [PMID:25079317](../papers/25079317.md)
 - RHOA enriched in diffuse-type gastric cancer (GC), consistent with prior reports; not associated with shorter survival in the Tianjin Chinese GC cohort (n=294), distinguishing its clinical impact from CDH1-driven diffuse GC. [PMID:25583476](../papers/25583476.md)
+- Two distinct somatic mutations in 2/25 ACC tumors; first reported occurrence in ACC (RHOA hotspot mutations were previously known in angioimmunoblastic T-cell lymphoma) [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -61,3 +62,6 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

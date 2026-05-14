@@ -3,7 +3,7 @@ symbol: SMARCA2
 aliases: [BRM]
 cancer_types: [RMS, ACYC]
 tags: [swi-snf, chromatin-remodeling, relapse]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -22,6 +22,7 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 - SMARCA2 (BRM) is discussed as a synthetic-lethal vulnerability in SMARCA4-deficient SCCOHT; prior evidence (Oike et al. 2013) shows SMARCA2 silencing suppresses growth of SMARCA4-null cells [PMID:24658004](../papers/24658004.md)
 - Chromatin-remodelling gene (SWI/SNF complex) significantly mutated in [HCC](../cancer_types/HCC.md); SMARCA2 alteration enriched in alcohol-related [HCC](../cancer_types/HCC.md); part of the chromatin-remodeller pathway altered in 28% of cases. [PMID:25822088](../papers/25822088.md)
 - Part of SWI/SNF chromatin-remodelling lesions in >42% of pancreatic ductal adenocarcinoma cases (along with [SMARCA4](../genes/SMARCA4.md), [SMARCC1](../genes/SMARCC1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [PBRM1](../genes/PBRM1.md)). [PMID:25855536](../papers/25855536.md)
+- SMARCA2 recurrently mutated in adenoid cystic carcinoma (ACC) of the salivary gland as a chromatin-regulator mutation alongside SMARCC1 and KDM6A [PMID:26862087](../papers/26862087.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ SMARCA2 (BRM) is a catalytic subunit of the SWI/SNF chromatin remodeling complex
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

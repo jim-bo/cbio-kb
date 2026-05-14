@@ -77,6 +77,12 @@
 - method: nlp-prissmm — observed in PMID:39506116 — note: transformer NLP trained on GENIE BPC PRISSMM curation to annotate 705,241 radiology reports for MSK-CHORD
 - method: msk-hemepact — observed in PMID:38995739 — note: MSK-HemePACT ~585-gene heme-focused targeted hybrid-capture panel applied to tumor and CSF ctDNA in r/r CNS lymphoma
 - method: msk-impact-panel — observed in PMID:38995739 — note: MSK-IMPACT referenced alongside MSK-HemePACT in r/r CNS lymphoma ibrutinib trial; used on independent 177-patient PCNSL SOC cohort
+- method: radia — observed in PMID:26824661 — note: RNA and DNA Integrated Analysis somatic variant caller; used in TCGA pan-glioma ≥2-caller consensus pipeline
+- method: mutcomfocal — observed in PMID:26824661 — note: integrates focal CNA + somatic mutation frequency to prioritize candidate drivers in TCGA glioma cohort
+- method: tumor-map — observed in PMID:26824661 — note: UCSC 2D sample-embedding visualization tool for multi-platform pan-cancer cohort co-clustering
+- method: estimate — observed in PMID:26824661 — note: stromal/immune cell deconvolution from bulk expression; used for tumor purity estimation in TCGA glioma
+- method: ingenuity-pathway-analysis — observed in PMID:26862087 — note: commercial IPA platform; identified Rho-GTPase (p=3.9×10⁻⁶) and axon-guidance (p=8.3×10⁻⁵) enrichment in ACC WGS
+- method: variantdx — observed in PMID:26862087 — note: custom matched tumor/normal somatic variant caller used for ACC WGS at Johns Hopkins (hg19)
 - method: cosmx-smi — observed in PMID:39214094 — note: NanoString CosMx Spatial Molecular Imager high-plex in situ RNA profiling on TMA of 20 PDAC samples (14 tumors, 6 normal)
 - method: msk-impact-panel — observed in PMID:39214094 — note: MSK-IMPACT targeted sequencing on 397/1360 resected PDAC patients for KRAS-allele cohort
 - drug: fluorouracil — observed in PMID:39214094 — note: 5-FU backbone of FOLFIRINOX (neo)adjuvant chemotherapy in resected PDAC

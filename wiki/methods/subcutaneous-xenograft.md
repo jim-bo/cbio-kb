@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Subcutaneous Xenograft
@@ -17,8 +17,9 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 
 ## Used by
 
-- Subcutaneous xenografts in 4-week-old male BALB/c nude mice (n=6 per group) were established by co-injection of 5×10⁵ GBC-SD cells with gallbladder fibroblasts (1:1 ratio, sh-NT or sh-SEMA7A); co-injection tumors were larger and showed elevated Ki-67, α-SMA, VIM, CD44, EPCAM and reduced CDH1 vs GBC-SD alone; SEMA7A knockdown in fibroblasts partially reversed these effects [PMID:24997986](../papers/24997986.md)
-- CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test enzalutamide and everolimus in vivo. [PMID:25201530](../papers/25201530.md)
+- Subcutaneous xenografts in 4-week-old male BALB/c nude mice (n=6 per group) were established by co-injection of 5×10⁵ GBC-SD cells with gallbladder fibroblasts (1:1 ratio, sh-NT or sh-SEMA7A); co-injection tumors were larger and showed elevated Ki-67, α-SMA, [VIM](../genes/VIM.md), [CD44](../genes/CD44.md), [EPCAM](../genes/EPCAM.md) and reduced [CDH1](../genes/CDH1.md) vs GBC-SD alone; [SEMA7A](../genes/SEMA7A.md) knockdown in fibroblasts partially reversed these effects [PMID:24997986](../papers/24997986.md)
+- CB17 SCID mouse subcutaneous xenografts established from prostate cancer organoid lines MSK-PCa1 and MSK-PCa2; used to test [enzalutamide](../drugs/enzalutamide.md) and [everolimus](../drugs/everolimus.md) in vivo. [PMID:25201530](../papers/25201530.md)
+- 30 serially transplanted breast cancer PDX lines established in NSG and NRG mice via subcutaneous, subrenal capsule, and mammary fat pad implantation over up to 16 generations; clonal selection on engraftment was universal across all 15 WGS-characterized series [PMID:25470049](../papers/25470049.md)
 
 ## Notes
 
@@ -29,7 +30,10 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25470049](../papers/25470049.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

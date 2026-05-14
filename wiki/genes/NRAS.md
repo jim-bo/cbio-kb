@@ -3,8 +3,8 @@ symbol: NRAS
 aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # NRAS
@@ -39,13 +39,15 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Non-FLT3 activated signaling gene; part of the 59% signaling-pathway prevalence in 200 adult de novo [AML](../cancer_types/AML.md) cases; mutually exclusive of [FLT3](../genes/FLT3.md) and other tyrosine kinases within the signaling mutual-exclusivity set (TCGA [AML](../cancer_types/AML.md) cohort) [PMID:23634996](../papers/23634996.md)
 - Single hotspot mutation detected in [IHCH](../cancer_types/IHCH.md) discovery screen; additional NRAS hits in the prevalence screen confirm RAS signaling involvement in intrahepatic cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
 - Acquired resistance mutations (Q61R/K/H, T58I, Q60H) in 17.8% of resistant [BRAF](../genes/BRAF.md) V600-mutant melanoma tumors; acquisition restricted to patients with >12-week response duration (P = 0.04), suggesting a late resistance mechanism [PMID:24265153](../papers/24265153.md)
-- Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with BRAF (rarely simultaneously clonal) [PMID:24434212](../papers/24434212.md)
+- Recurrent MAPK-activating point mutations in multiple myeloma; frequently subclonal and occasionally co-mutated with [BRAF](../genes/BRAF.md) (rarely simultaneously clonal) [PMID:24434212](../papers/24434212.md)
 - Codon 12/13/61 oncogenic hotspot mutations in rhabdomyosarcoma; predominantly in fusion-negative (PFN) tumors (frequency 6.4%); no RAS mutations observed in the fusion-positive PAX-FOXO1 (PFP) subset [PMID:24436047](../papers/24436047.md)
-- RAS mutations are rare in HCC (~1% each for KRAS and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months [PMID:24798001](../papers/24798001.md)
-- NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- RAS mutations are rare in [HCC](../cancer_types/HCC.md) (~1% each for [KRAS](../genes/KRAS.md) and NRAS; only 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of [refametinib](../drugs/refametinib.md) + [sorafenib](../drugs/sorafenib.md) in 16 RAS-mutant patients reported median [OS](../cancer_types/OS.md) 12.7 months [PMID:24798001](../papers/24798001.md)
+- NRAS mutation (n=1) observed as an additional RTK/RAS/RAF pathway alteration in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
 - One activating somatic mutation in 66 chromophobe RCC cases; contributes to mTOR-pathway alteration rate of 23% combined with PTEN/MTOR/TSC1/TSC2 [PMID:25155756](../papers/25155756.md)
-- Driver mutations in KRAS/NRAS/BRAF are 100% concordant between primary and metastasis in CRC; trunk events established early in carcinogenesis; status guides cetuximab and panitumumab eligibility [PMID:25164765](../papers/25164765.md)
+- Driver mutations in KRAS/NRAS/BRAF are 100% concordant between primary and metastasis in CRC; trunk events established early in carcinogenesis; status guides [cetuximab](../drugs/cetuximab.md) and [panitumumab](../drugs/panitumumab.md) eligibility [PMID:25164765](../papers/25164765.md)
 - Hotspot mutations absent in 39-case aggressive cSCC cohort — explicit negative finding distinguishing cSCC from other squamous and melanocytic malignancies [PMID:25303977](../papers/25303977.md)
+- NRAS codon 12/61 SSNVs in 52/402 (12.9%) PTC tumors along with HRAS/KRAS; characterize the follicular variant and drive the RL phenotype; mutually exclusive with BRAFV600E [PMID:25417114](../papers/25417114.md)
+- NRAS mutation status used as a baseline driver-mutation stratifier in melanoma patients receiving CTLA-4 blockade (ipilimumab/tremelimumab); no significant enrichment by clinical benefit category was observed [PMID:25409260](../papers/25409260.md)
 
 ## Cancer types (linked)
 
@@ -81,73 +83,79 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25409260](../papers/25409260.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

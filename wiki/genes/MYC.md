@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MYC
@@ -55,12 +55,14 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
 - Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:24326773](../papers/24326773.md)
 - Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
-- MYC focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
-- MYC gains at 8q are observed in HCC as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
-- Focal amplification in ~12% of HCCs; co-occurs with CCND1 amplification (7%) as recurrent copy-number gains driving proliferation in the HCC proliferation subclass [PMID:24798001](../papers/24798001.md)
+- MYC focal amplification observed in [ESCC](../cancer_types/ESCC.md) tumors [PMID:24686850](../papers/24686850.md)
+- MYC gains at 8q are observed in [HCC](../cancer_types/HCC.md) as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
+- Focal amplification in ~12% of HCCs; co-occurs with [CCND1](../genes/CCND1.md) amplification (7%) as recurrent copy-number gains driving proliferation in the HCC proliferation subclass [PMID:24798001](../papers/24798001.md)
 - MYC focal copy number gain in prostate cancer; not significantly associated with biochemical recurrence in this CNA-burden study [PMID:25024180](../papers/25024180.md)
-- MYC focal amplification in CIN subtype of gastric cancer (EGC); co-amplified with GATA4, GATA6, ZNF217, CD44 [PMID:25079317](../papers/25079317.md)
-- MYC 8q24 amplification peak in LUAD (TCGA, n=230); overexpression associated with CIMP-H methylation phenotype (P=0.003); mutually exclusive with MGA loss-of-function mutations (P=0.04) [PMID:25079552](../papers/25079552.md)
+- MYC focal amplification in CIN subtype of gastric cancer ([EGC](../cancer_types/EGC.md)); co-amplified with [GATA4](../genes/GATA4.md), [GATA6](../genes/GATA6.md), [ZNF217](../genes/ZNF217.md), [CD44](../genes/CD44.md) [PMID:25079317](../papers/25079317.md)
+- MYC 8q24 amplification peak in [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); overexpression associated with CIMP-H methylation phenotype (P=0.003); mutually exclusive with [MGA](../genes/MGA.md) loss-of-function mutations (P=0.04) [PMID:25079552](../papers/25079552.md)
+- MYC enriched among large-duct-type intrahepatic CCA, defining a molecular subtype with distinct biology [PMID:25526346](../papers/25526346.md)
+- MYC recurrently mutated driver in gastric adenocarcinoma; participates in Wnt, PI3K-ERBB, and [TP53](../genes/TP53.md) pathways in this Chinese cohort (n=294) [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -98,103 +100,109 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

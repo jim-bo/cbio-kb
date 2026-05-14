@@ -3,8 +3,8 @@ symbol: EIF1AX
 aliases: []
 cancer_types: [THAP]
 tags: [tumor-suppressor, thyroid]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # EIF1AX
@@ -16,6 +16,7 @@ EIF1AX (Eukaryotic Translation Initiation Factor 1A, X-Linked) encodes a compone
 ## Alterations observed in the corpus
 
 - Mutations identified in 5 anaplastic thyroid carcinoma (ATC) tumors, including a p.A113X splice-site mutation; EIF1AX mutations tend to co-occur with RAS mutations in this context [PMID:38412093](../papers/38412093.md).
+- Novel papillary thyroid carcinoma (PTC) driver; mutated in 6/402 (1.5%) TCGA PTC cases (q=5.3×10⁻⁸); near-mutually exclusive with MAPK drivers (RAS/BRAF); 4/6 mutations are RAS-like (RL) by BRS expression signature. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ EIF1AX (Eukaryotic Translation Initiation Factor 1A, X-Linked) encodes a compone
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

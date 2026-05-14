@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [methylation, epigenetics, array]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Illumina 450k methylation array
@@ -24,6 +24,7 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - Applied Illumina Infinium HumanMethylation450 BeadChip to 192 of 200 [AML](../cancer_types/AML.md) samples in TCGA [AML](../cancer_types/AML.md) integrated analysis; IDH1/IDH2-mutant samples showed extensive methylation gains and triple [NPM1](../genes/NPM1.md)+[DNMT3A](../genes/DNMT3A.md)+[FLT3](../genes/FLT3.md) samples showed extensive methylation loss [PMID:23634996](../papers/23634996.md)
 - Applied Illumina Infinium 450K to all 373 endometrial carcinoma samples; identified MSI hypermutated tumours via [MLH1](../genes/MLH1.md) promoter hypermethylation and defined the POLE-ultramutated, MSI, copy-number-low, and copy-number-high subtypes [PMID:23636398](../papers/23636398.md)
 - Used in TCGA clear cell renal cell carcinoma study (n=224 samples) to profile DNA methylation, revealing [SETD2](../genes/SETD2.md) mutation-associated regional hypomethylation at non-promoter CpGs and [VHL](../genes/VHL.md) promoter silencing in ~7% of tumors [PMID:23792563](../papers/23792563.md)
+- Used in TCGA PTC multiplatform profiling; methylation clusters aligned with BVL/RL meta-cluster split, and a CpG-island RL-PTC sub-cluster was associated with higher tumor purity and reduced lymphocyte infiltration [PMID:25417114](../papers/25417114.md)
 
 ## Notes
 
@@ -50,3 +51,6 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - [PMID:23792563](../papers/23792563.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

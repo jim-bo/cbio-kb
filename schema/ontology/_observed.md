@@ -147,6 +147,8 @@
 - method: smart-seq2 — observed in PMID:27806376 — note: plate-based full-length single-cell/single-nucleus RNA-seq protocol used for oligodendroglioma and neuroblastoma transcriptomics
 - method: rnascope-ish — observed in PMID:34493726 — note: RNAscope multiplex fluorescent in situ hybridization for spatial validation of snRNA-seq findings in neuroblastoma and adrenal gland
 - method: imrt-reirradiation — observed in PMID:38780927 — note: intensity-modulated reirradiation therapy (IMRT) combined with nivolumab in NCT03521570 recurrent/second primary HNSCC trial
+- method: pyclone — observed in PMID:25470049 — note: Bayesian Dirichlet-process SNV clustering for clonal inference in breast cancer PDX longitudinal study
+- method: titan-cna — observed in PMID:25470049 — note: CNA/LOH subclonal inference from WGS; used alongside PyClone for multi-modal clonal validation in breast cancer PDX
 - method: pd-l1-ihc-22c3 — observed in PMID:38780927 — note: PD-L1 IHC 22C3 pharmDx (Agilent) CPS assay; did not stratify PFS/OS benefit in IMRT reirradiation + nivolumab HNSCC trial
 - drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); synthetic lethal with ARID1A loss in SCLC; r=0.368 correlation with ARID1A expression IC50
 - drug: brd-k98645985 — observed in PMID:22037554 — note: BAF complex inhibitor targeting ARID1A-containing SWI/SNF; Bliss synergy with JQ1 in SCLC xenografts

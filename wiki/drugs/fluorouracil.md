@@ -5,8 +5,8 @@ drug_class: fluoropyrimidine antimetabolite
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # fluorouracil
@@ -20,9 +20,10 @@ processed_at: 2026-05-11
 - Listed among colorectal-style first-line regimens (FOLFOX/FOLFIRI/FOLFIRINOX) applied to appendiceal adenocarcinoma; GNAS-mut predominant MAAP patients had only a 6% first-line response rate to such 5-FU-based therapy vs 50% for RAS-mut predominant MAAP (P=.03) [PMID:36493333](../papers/36493333.md).
 - [KRAS](../genes/KRAS.md)^G12R^-mutant pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) patients showed enrichment among those receiving neoadjuvant chemotherapy (most frequently FOLFIRINOX: fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) followed by resection (32.7% vs 17.9% for [KRAS](../genes/KRAS.md)^G12D^, p=0.094), suggesting potentially greater fluorouracil-based chemosensitivity in [KRAS](../genes/KRAS.md)^G12R^ tumors [PMID:39214094](../papers/39214094.md).
 - FOLFIRINOX (fluorouracil + [irinotecan](../drugs/irinotecan.md) + [oxaliplatin](../drugs/oxaliplatin.md) + [leucovorin](../drugs/leucovorin.md)) was administered to 38% of the 1,480-patient MSK PDAC cohort as first-line systemic therapy; chemotherapy backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in the 304 metastatic chemotherapy-treated patients [PMID:39753968](../papers/39753968.md).
-- Synergizes with [prexasertib](../drugs/prexasertib.md) ([CHEK1](../genes/CHEK1.md) inhibitor) in FBXO7-deficient colorectal cancer cells within a defined concentration window (1.92--9.6 nM prexasertib + 28 micromolar 5-FU; Loewe Additivity model); antagonistic at lower 5-FU concentrations [PMID:36334560](../papers/36334560.md)
+- Synergizes with [prexasertib](../drugs/prexasertib.md) ([CHEK1](../genes/CHEK1.md) inhibitor) in FBXO7-deficient colorectal cancer cells within a defined concentration window (1.92--9.6 nM [prexasertib](../drugs/prexasertib.md) + 28 micromolar 5-FU; Loewe Additivity model); antagonistic at lower 5-FU concentrations [PMID:36334560](../papers/36334560.md)
 - Listed as a component of standard head and neck cancer systemic therapy regimens in the cBioPortal platform paper describing HNSCC genomic data [PMID:19176454](../papers/19176454.md)
-- Cited in HCC systemic therapy review as a reference chemotherapy agent in historical combination regimens [PMID:24798001](../papers/24798001.md)
+- Cited in [HCC](../cancer_types/HCC.md) systemic therapy review as a reference chemotherapy agent in historical combination regimens [PMID:24798001](../papers/24798001.md)
+- Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); high-clonality (HiC) GC subtype (adjusted HR 4.69, P=0.0043 for shorter survival) and subclonal [TP53](../genes/TP53.md) suggest single-agent regimens may select for resistant clones [PMID:25583476](../papers/25583476.md)
 
 ## Resistance mechanisms
 
@@ -39,13 +40,16 @@ processed_at: 2026-05-11
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:19176454](../papers/19176454.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

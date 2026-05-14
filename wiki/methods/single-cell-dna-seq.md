@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [single-cell, dna-sequencing, clonal-evolution, tumor-heterogeneity]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Single-cell DNA sequencing
@@ -18,6 +18,7 @@ Single-cell DNA sequencing (scDNA-seq) resolves somatic mutation co-occurrence a
 ## Used by
 
 - Applied on C106 resistant KRASG12C-mutant colorectal cancer cells using the Mission Bio Tapestri platform (317 amplicons, 54 genes) to resolve co-occurrence of acquired resistance mutations (NRASG12D clonal, APCQ879* subclonal) at single-cell resolution [PMID:36355783](../papers/36355783.md)
+- Used to sequence 210 microfluidically isolated nuclei (SA494: 62 tumor + 58 xenograft; SA501: 90 from passages X1/X2/X4) across 40–45 SNV amplicons; validated that bulk PyClone mutation clusters correspond to real clonal genotypes and resolved 5 clonal genotypes in SA501 [PMID:25470049](../papers/25470049.md)
 
 ## Notes
 
@@ -30,3 +31,6 @@ Single-cell DNA sequencing (scDNA-seq) resolves somatic mutation co-occurrence a
 - [PMID:36355783](../papers/36355783.md) — KRASG12C-mutant CRC resistance study; Tapestri scDNA-seq on C106 resistant cells to characterize clonal architecture of acquired resistance.
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:25470049](../papers/25470049.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

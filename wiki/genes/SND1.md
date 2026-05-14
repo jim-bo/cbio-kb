@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [fusion-partner, braf-fusion]
 processed_by: crosslinker
-processed_at: 2026-05-04
+processed_at: 2026-05-14
 ---
 
 # SND1
@@ -15,7 +15,8 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 
 ## Alterations observed in the corpus
 
-- SND1 was identified as a 5' fusion partner for BRAF among 82 unique partners observed across 52 histologies in a tumor-agnostic BRAF fusion cohort (n=nationwide retrospective analysis, MSK-IMPACT/MSK-Fusion) [PMID:38922339](../papers/38922339.md).
+- SND1 was identified as a 5' fusion partner for [BRAF](../genes/BRAF.md) among 82 unique partners observed across 52 histologies in a tumor-agnostic BRAF fusion cohort (n=nationwide retrospective analysis, MSK-IMPACT/MSK-Fusion) [PMID:38922339](../papers/38922339.md).
+- SND1 acts as a 5' fusion partner in SND1/BRAF fusions detected in 3/484 (0.6%) papillary thyroid carcinomas (PTCs); these BRAF fusions are BVL (BRAFV600E-like expression) and mutually exclusive with RAS/EIF1AX point mutations, suggesting targetability with BRAF inhibitors. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ SND1 (Staphylococcal nuclease domain-containing 1) is observed in the corpus as 
 
 - [PMID:38922339](../papers/38922339.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

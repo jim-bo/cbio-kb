@@ -1,10 +1,10 @@
 ---
 symbol: SPOP
 aliases: []
-cancer_types: [PRAD]
-tags: [ubiquitin-ligase, tumor-suppressor, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+cancer_types: [PRAD, THPA]
+tags: [ubiquitin-ligase, tumor-suppressor, prostate, thyroid-cancer]
+processed_by: entity-page-writer
+processed_at: 2026-05-14
 ---
 
 # SPOP
@@ -20,6 +20,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - SPOP carries recurrent point mutations that are clonal/early events in the prostate cancer progression path, confirmed via chromoplexy analysis [PMID:23622249](../papers/23622249.md)
 - Heterozygous F133L hotspot mutation in MSK-PCa7; first in vitro prostate cancer model carrying this SPOP hotspot, enabling functional studies of this recurrent CRPC alteration [PMID:25201530](../papers/25201530.md)
 - SPOP mutated in 3/22 (14%) uterine/ovarian carcinosarcomas; missense mutations at E46K, E78K, M117V in/near the MATH domain [PMID:25233892](../papers/25233892.md)
+- SPOP is listed among candidate dark-matter driver genes in PTC; chromatin-remodeling/epigenetic regulator alterations spanning 93 mutations in 57 genes across 80/402 (20.0%) PTCs include SPOP as a putative driver requiring independent validation. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - [PMID:25233892](../papers/25233892.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

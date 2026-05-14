@@ -8,8 +8,8 @@ tags:
   - ERBB3
   - MAPK-WT
   - actionable
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # NRG1
@@ -22,6 +22,7 @@ NRG1 (Neuregulin 1) encodes a growth factor ligand that activates ERBB3/ERBB4 re
 
 - Activating ATP1B1–NRG1 fusion identified by RNA-seq in one MAPK-WT PDAC tumor in a 2,336-patient MSK cohort; NRG1 fusions are nearly exclusive to KRAS-WT tumors and represent a defining molecular feature of the MAPK-WT subtype (2% of all PDAC). [PMID:39753968](../papers/39753968.md)
 - Recurrently SV-affected in rhabdomyosarcoma; implicated in tyrosine kinase signaling and muscle development pathways [PMID:24436047](../papers/24436047.md)
+- NRG1 somatic mutations reported for the first time in gastric cancer; 21/294 cases (~7.1%); EGF-like domain hotspot mutations (p.A221T, p.A225P, p.E223G, p.R224Q, p.S226P); likely activates [ERBB4](../genes/ERBB4.md) signaling; defines candidate lapatinib-targetable subset with ERBB4 [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -43,7 +44,10 @@ NRG1 (Neuregulin 1) encodes a growth factor ligand that activates ERBB3/ERBB4 re
 
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

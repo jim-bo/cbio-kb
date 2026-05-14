@@ -3,8 +3,8 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CDKN2A
@@ -67,19 +67,20 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - TMZ-associated P114L mutation acquired in patients 05 and 10 during low-grade glioma treatment; abrogates [CDK4](../genes/CDK4.md) inhibition and cell-cycle arrest, contributing to malignant progression to [GBM](../cancer_types/GBM.md) in TMZ-driven hypermutated recurrences [PMID:24336570](../papers/24336570.md)
 - Homozygous deletion in 3% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; 9p21.3 LOH in 9% (PAX-fusion-negative-skewed); part of 12q15 amplicon context with MDM2/FRS2 alterations [PMID:24436047](../papers/24436047.md)
 - Focal homozygous deletion in 47% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); most common focal deletion at 9p21.3; correlated with reduced mRNA expression; mutually exclusive with [RB1](../genes/RB1.md) loss [PMID:24476821](../papers/24476821.md)
-- Mutated in ESCC; cited as part of the canonical ESCC genomic landscape alongside TP53, RB1, PIK3CA, NOTCH1, and NFE2L2 in a microbiome-focused ESCC review [PMID:24670651](../papers/24670651.md)
+- Mutated in [ESCC](../cancer_types/ESCC.md); cited as part of the canonical ESCC genomic landscape alongside [TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [PIK3CA](../genes/PIK3CA.md), [NOTCH1](../genes/NOTCH1.md), and [NFE2L2](../genes/NFE2L2.md) in a microbiome-focused ESCC review [PMID:24670651](../papers/24670651.md)
 - Focal deletion and mutation in ESCC; contributes to cell-cycle dysregulation; identified by SCNV and targeted deep-sequencing analysis of 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
-- Inactivated in the G3 proliferative HCC subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early HCC; G3 subgroup (TP53 mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
+- Inactivated in the G3 proliferative [HCC](../cancer_types/HCC.md) subgroup (Boyault classification); part of the 13-gene RT-PCR panel distinguishing dysplastic nodules from early HCC; G3 subgroup (TP53 mutation + CDKN2A inactivation) was most accurate single signature for predicting post-resection recurrence [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 2% and homozygous deletion in 5% of HCCs (WES/SNP-array); epigenetic silencing also reported [PMID:24798001](../papers/24798001.md)
 - Recurrent mutations in thymic carcinomas [PMID:24974848](../papers/24974848.md)
-- Promoter hypermethylation in all EBV-positive gastric tumours; focal deletion in CIN subtype; hypermethylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079317](../papers/25079317.md)
-- Mutated in 4% of LUAD; most significant deletion peak in copy-number data; hypermethylated in CIMP-H tumours; methylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079552](../papers/25079552.md)
-- Alterations independently associated with worse recurrence-free survival (HR=5.76) and cancer-specific survival (HR=2.94) in muscle-invasive urothelial carcinoma after radical cystectomy; authors propose rationale for CDK4 inhibitor trials [PMID:25092538](../papers/25092538.md)
+- Promoter hypermethylation in all EBV-positive gastric tumours; focal deletion in CIN subtype; hypermethylation associated with low ploidy, low mutation rate, and [SETD2](../genes/SETD2.md) mutation [PMID:25079317](../papers/25079317.md)
+- Mutated in 4% of [LUAD](../cancer_types/LUAD.md); most significant deletion peak in copy-number data; hypermethylated in CIMP-H tumours; methylation associated with low ploidy, low mutation rate, and SETD2 mutation [PMID:25079552](../papers/25079552.md)
+- Alterations independently associated with worse recurrence-free survival (HR=5.76) and cancer-specific survival (HR=2.94) in muscle-invasive urothelial carcinoma after radical cystectomy; authors propose rationale for [CDK4](../genes/CDK4.md) inhibitor trials [PMID:25092538](../papers/25092538.md)
 - Epigenetically silenced in 4/66 chromophobe RCC cases [PMID:25155756](../papers/25155756.md)
 - Biallelic loss in MSK-PCa3 and MSK-PCa6 prostate cancer cell lines as an alternative RB-pathway hit [PMID:25201530](../papers/25201530.md)
-- Focal 9p21 deletions in 12% of Ewing sarcoma tumors; mutually exclusive with STAG2 mutation; STAG2 may regulate CDKN2A epigenetically via CTCF-cohesin insulation [PMID:25223734](../papers/25223734.md)
-- Homozygous deletion (most common) or heterozygous loss in 81% of MPNSTs; co-occurs with NF1 and PRC2 (EED/SUZ12) loss [PMID:25240281](../papers/25240281.md)
+- Focal 9p21 deletions in 12% of Ewing sarcoma tumors; mutually exclusive with [STAG2](../genes/STAG2.md) mutation; STAG2 may regulate CDKN2A epigenetically via CTCF-cohesin insulation [PMID:25223734](../papers/25223734.md)
+- Homozygous deletion (most common) or heterozygous loss in 81% of MPNSTs; co-occurs with [NF1](../genes/NF1.md) and PRC2 (EED/SUZ12) loss [PMID:25240281](../papers/25240281.md)
 - Mutated/deleted in 43.6% of cSCC; significant by all four driver-detection methods [PMID:25303977](../papers/25303977.md)
+- Deletion/mutation in 15–27% of intrahepatic CCA and 19% of extrahepatic CCA; mediates acquired resistance to FGFR inhibitors in [FGFR2](../genes/FGFR2.md) fusion-positive iCCA, associated with shorter time to progression and poorer overall survival [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -147,124 +148,127 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24670651](../papers/24670651.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

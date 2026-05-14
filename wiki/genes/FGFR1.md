@@ -3,8 +3,8 @@ symbol: FGFR1
 aliases: []
 cancer_types: [OS, RMS, PRAD]
 tags: [amplification, sarcoma, radiation-associated]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FGFR1
@@ -28,7 +28,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Recurrent kinase-domain hotspot mutations at N546 and K656 (5/96 WGS + 9/45 screening cohort) in pilocytic astrocytoma; plus a ~4.5 kb kinase-domain internal tandem duplication; mutants drive ERK phosphorylation; all FGFR1-mutant tumors extra-cerebellar/midline; same mutations recurred in 3/48 pediatric glioblastomas [PMID:23817572](../papers/23817572.md)
 - Recurrent amplification detected in high-grade urothelial bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the MAPK-pathway alteration set (35% combined); arose in a predominantly mutually exclusive distribution with other RTK/RAS/RAF alterations [PMID:23897969](../papers/23897969.md)
 - FGFR1 alteration contributes to the RTK-alteration rate of 67.3% in [GBM](../cancer_types/GBM.md) (TCGA 2013 cohort, n=251 with WES+CNA); FGFR2/3 combined were explicitly listed at 3.2%, and FGFR1 was identified as part of the RTK pathway alteration landscape [PMID:24120142](../papers/24120142.md)
-- Focal amplification in 11/53 ESCC validated by FISH; protein over-expression in 17.3% of tumors; proposed druggable target in ESCC [PMID:24686850](../papers/24686850.md)
+- Focal amplification in 11/53 [ESCC](../cancer_types/ESCC.md) validated by FISH; protein over-expression in 17.3% of tumors; proposed druggable target in ESCC [PMID:24686850](../papers/24686850.md)
+- Alterations observed in the low-grade dysplasia stage of PSC-associated CCA progression, suggesting an early role in biliary tract tumorigenesis. [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -49,7 +50,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 ## Open questions
 
-- Whether FGFR1-amplified RT-OS responds to FGFR inhibitors (e.g., [erdafitinib](../drugs/erdafitinib.md), futibatinib) is not addressed in the corpus [PMID:37350195](../papers/37350195.md).
+- Whether FGFR1-amplified RT-OS responds to FGFR inhibitors (e.g., [erdafitinib](../drugs/erdafitinib.md), [futibatinib](../drugs/futibatinib.md)) is not addressed in the corpus [PMID:37350195](../papers/37350195.md).
 
 ## Sources
 
@@ -59,31 +60,34 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

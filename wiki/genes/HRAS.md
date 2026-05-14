@@ -3,8 +3,8 @@ symbol: HRAS
 aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # HRAS
@@ -27,8 +27,9 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Confirmed recurrent driver mutation in transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) by whole-exome sequencing of 99 Chinese TCC tumors; one of 7 previously known bladder cancer driver genes validated in the cohort [PMID:24121792](../papers/24121792.md)
 - HRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (4.3% frequency); no RAS mutations observed in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
 - HRAS identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
-- RTK/RAS/RAF pathway mutation identified in 1 case of LUAD (TCGA, n=230); part of the broader RTK/RAS/RAF pathway altered in the majority of LUAD cases [PMID:25079552](../papers/25079552.md)
-- Mutated in 20.5% of 39 aggressive cSCC tumors; the most obvious oncogene identified but currently undruggable; positively correlated with AJUBA co-mutation (kappa 0.423, p=0.008) and inversely correlated with TP53 (kappa -0.107, p=0.004) [PMID:25303977](../papers/25303977.md)
+- RTK/RAS/RAF pathway mutation identified in 1 case of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); part of the broader RTK/RAS/RAF pathway altered in the majority of LUAD cases [PMID:25079552](../papers/25079552.md)
+- Mutated in 20.5% of 39 aggressive cSCC tumors; the most obvious oncogene identified but currently undruggable; positively correlated with [AJUBA](../genes/AJUBA.md) co-mutation (kappa 0.423, p=0.008) and inversely correlated with [TP53](../genes/TP53.md) (kappa -0.107, p=0.004) [PMID:25303977](../papers/25303977.md)
+- RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -56,37 +57,40 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:37643132](../papers/37643132.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

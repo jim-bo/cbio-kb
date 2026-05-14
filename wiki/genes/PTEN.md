@@ -1,10 +1,10 @@
 ---
 symbol: PTEN
 aliases: []
-cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD]
-tags: [tumor-suppressor, pi3k-pathway]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
+tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # PTEN
@@ -67,16 +67,18 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Single frameshift mutation p.Arg11LysfsTer32 co-occurring with [EWSR1](../genes/EWSR1.md)::[MYB](../genes/MYB.md) fusion in a metatypical adenoid cystic carcinoma of the sphenoid sinus [PMID:24418857](../papers/24418857.md)
 - Homozygous deletion in RMS2117 rhabdomyosarcoma sample; loss of PTEN activates the PI3K/AKT axis, a recurrent oncogenic mechanism in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 - PTEN parallel evolution previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
-- PTEN harbors inactivating mutations in ESCC, contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
-- PTEN loss contributes to PI3K/AKT pathway hyperactivation in HCC; part of the oncogenic signaling landscape analyzed in the HCC precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
+- PTEN harbors inactivating mutations in [ESCC](../cancer_types/ESCC.md), contributing to PI3K pathway activation [PMID:24686850](../papers/24686850.md)
+- PTEN loss contributes to PI3K/AKT pathway hyperactivation in [HCC](../cancer_types/HCC.md); part of the oncogenic signaling landscape analyzed in the HCC precision-medicine genomic framework [PMID:24798001](../papers/24798001.md)
 - PTEN focal copy number loss in prostate cancer; independently associated with biochemical recurrence (HR=3.04, P=0.001) but CNA burden remains prognostic after adjusting for it [PMID:25024180](../papers/25024180.md)
-- PTEN PI3K pathway loss in gastric cancer (EGC); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
-- PTEN recurrent mutations in 6% of muscle-invasive bladder cancer (BLCA); part of PI3K/AKT pathway alterations [PMID:25092538](../papers/25092538.md)
+- PTEN PI3K pathway loss in gastric cancer ([EGC](../cancer_types/EGC.md)); PTEN focally deleted in CIN subtype [PMID:25079317](../papers/25079317.md)
+- PTEN recurrent mutations in 6% of muscle-invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)); part of PI3K/AKT pathway alterations [PMID:25092538](../papers/25092538.md)
 - Nonsilent somatic mutation in 6/66 (9%) plus 2 homozygous deletions in ChRCC; MutSig q<0.1; germline PTEN mutations underlie Cowden syndrome predisposing to ChRCC [PMID:25155756](../papers/25155756.md)
-- Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; PI3K-pathway heterogeneity clinically relevant given active PI3K inhibitor development and evidence PIK3CA mutations may predict aspirin benefit [PMID:25164765](../papers/25164765.md)
+- Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; PI3K-pathway heterogeneity clinically relevant given active PI3K inhibitor development and evidence [PIK3CA](../genes/PIK3CA.md) mutations may predict [aspirin](../drugs/aspirin.md) benefit [PMID:25164765](../papers/25164765.md)
 - Homozygous deletion of gene or promoter in 6/7 patient-derived CRPC organoid lines; biallelic loss in all CRPC lines; near-universal loss supports prioritizing PTEN/PI3K-pathway-directed therapy in CRPC [PMID:25201530](../papers/25201530.md)
 - Missense/nonsense/frameshift mutations in 9/22 (41%) uterine/ovarian carcinosarcoma cases; co-occurs with PIK3CA; PI3K pathway hits support trials of PI3K/mTOR/AKT inhibitors [PMID:25233892](../papers/25233892.md)
 - Significantly mutated in chromophobe renal cell carcinoma (chRCC) in a non-clear-cell RCC (nccRCC) multisubtype WES study [PMID:25401301](../papers/25401301.md)
+- PTEN focal deletions in 2 PTC tumors; 5 tumors showed PTEN loss through 10q23.31 deletions; PI3K/PPARγ pathway alterations including PTEN, AKT1/2, and PAX8/PPARG fusions found in 4.5% (18/402) of PTCs. [PMID:25417114](../papers/25417114.md)
+- PTEN identified as a driver gene in HBV-associated intrahepatic cholangiocarcinoma (iCCA) cohort; loss contributes to PI3K/AKT pathway dysregulation in CCA. [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -114,157 +116,163 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

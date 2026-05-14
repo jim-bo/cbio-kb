@@ -4,8 +4,8 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -26,11 +26,12 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [ERBB2](../genes/ERBB2.md) — amplification; HER2 overexpression is the primary therapeutic target; associated with improved survival (HR=0.65, P=0.01). [PMID:37699004](../papers/37699004.md) [PMID:37406106](../papers/37406106.md)
 - [CDKN2A](../genes/CDKN2A.md) — enriched in average-onset [EGC](../cancer_types/EGC.md) (22% vs. 11%, P<0.001, Q=0.011); associated with worse survival (HR=1.55, P<0.001). [PMID:37699004](../papers/37699004.md)
 - [KRAS](../genes/KRAS.md) — oncogenic alterations; identified as a resistance mechanism to HER2-directed therapy. [PMID:37406106](../papers/37406106.md)
-- See also [EGC](../cancer_types/EGC.md) for shared EGC alterations.
+- See also [EGC](../cancer_types/EGC.md) for shared [EGC](../cancer_types/EGC.md) alterations.
 - [ERBB2](../genes/ERBB2.md) (HER2) surface overexpression in NCI-N87 STAD cells: T-DM1 IC50 <1 nM; >100-fold more sensitive than HER2− controls. [PMID:27698471](../papers/27698471.md)
-- SMARCA4 inactivating mutations occur in 5–8% of stomach adenocarcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
-- Narrative review of familial non-hereditary gastric cancer (FNHGC) in STAD: ~10% of GC shows familial clustering with only 1–3% explained by known high-penetrance syndromes; FIGC tumors enriched for MSI (~38%), somatic TP53, BRCA2, ATM, and FHIT alterations; H. pylori eradication reduced GC incidence by 55% in family-history carriers [PMID:24816255](../papers/24816255.md)
-- TCGA multi-platform profiling of 295 primary gastric adenocarcinomas defines four molecular subtypes: EBV-positive (9%, PIK3CA mutations 80%, 9p24.1 JAK2/CD274/PDCD1LG2 amplification), MSI (22%, MLH1 hypermethylation), GS (20%, RHOA mutations 15%, CLDN18-ARHGAP fusions, CDH1 mutations 37%), and CIN (50%, TP53 71%, RTK amplifications); 76% of CIN tumors bear actionable focal amplifications of ERBB2, EGFR, KRAS, MET, or VEGFA [PMID:25079317](../papers/25079317.md)
+- [SMARCA4](../genes/SMARCA4.md) inactivating mutations occur in 5–8% of stomach adenocarcinoma (TCGA data) [PMID:24658004](../papers/24658004.md)
+- Narrative review of familial non-hereditary gastric cancer (FNHGC) in STAD: ~10% of GC shows familial clustering with only 1–3% explained by known high-penetrance syndromes; FIGC tumors enriched for MSI (~38%), somatic [TP53](../genes/TP53.md), [BRCA2](../genes/BRCA2.md), [ATM](../genes/ATM.md), and [FHIT](../genes/FHIT.md) alterations; H. pylori eradication reduced GC incidence by 55% in family-history carriers [PMID:24816255](../papers/24816255.md)
+- TCGA multi-platform profiling of 295 primary gastric adenocarcinomas defines four molecular subtypes: EBV-positive (9%, [PIK3CA](../genes/PIK3CA.md) mutations 80%, 9p24.1 JAK2/CD274/PDCD1LG2 amplification), MSI (22%, [MLH1](../genes/MLH1.md) hypermethylation), GS (20%, [RHOA](../genes/RHOA.md) mutations 15%, CLDN18-ARHGAP fusions, [CDH1](../genes/CDH1.md) mutations 37%), and CIN (50%, TP53 71%, RTK amplifications); 76% of CIN tumors bear actionable focal amplifications of [ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [MET](../genes/MET.md), or [VEGFA](../genes/VEGFA.md) [PMID:25079317](../papers/25079317.md)
+- WES of 78 primary gastric adenocarcinomas (294-patient pooled cohort) identified HiC (high-clonality) and LoC (low-clonality) subtypes; HiC tumors enriched for subclonal TP53, older onset, and significantly shorter survival (adjusted HR 4.69, P=0.0043); [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations in 11.6% and BRCA2 mutations in 5.8% of cases [PMID:25583476](../papers/25583476.md).
 
 ## Subtypes
 
@@ -51,13 +52,16 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # KMT2C
@@ -28,11 +28,12 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Somatic mutation as part of the histone lysine methyltransferase KMT2A/KMT2C/KMT2E group, collectively altered in 16% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors in a 99-sample WES cohort [PMID:24121792](../papers/24121792.md)
 - Mutated in 2/8 (25%) gallbladder cancer ([GBC](../cancer_types/GBC.md)) discovery-screen tumors in a biliary tract cancer WES study; absent in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) in this cohort [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation (reported as MLL3) in a WES study of rare pancreatic tumor subtypes [PMID:24293293](../papers/24293293.md)
-- KMT2C (histone methyltransferase) is recurrently mutated in ESCC, contributing to epigenetic dysregulation [PMID:24686850](../papers/24686850.md)
-- KMT2C is listed among recurrently mutated genes in the HCC WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
+- KMT2C (histone methyltransferase) is recurrently mutated in [ESCC](../cancer_types/ESCC.md), contributing to epigenetic dysregulation [PMID:24686850](../papers/24686850.md)
+- KMT2C is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 - Novel somatic mutation in chromatin/methyltransferase regulators in Ewing sarcoma WGS cohort [PMID:25223734](../papers/25223734.md)
 - Mutated in 6/22 gynaecologic carcinosarcomas (27%, MLL3), mostly missense with truncations; part of the most prominently mutated chromatin-remodelling gene class [PMID:25233892](../papers/25233892.md)
 - Mutated in 38.5% of 39 aggressive cSCC tumors; strongest clinical association — bone invasion 53% vs 10% wild-type (p=0.008); HR 5.16 (95% CI 1.55-17.18) for recurrence or death (p=0.003) [PMID:25303977](../papers/25303977.md)
+- KMT2C among candidate chromatin-remodeling dark-matter drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors included KMT2C [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -57,52 +58,55 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:37643132](../papers/37643132.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22820256](../papers/22820256.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

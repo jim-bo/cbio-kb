@@ -3,8 +3,8 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # NF1
@@ -49,8 +49,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Single frameshift mutation identified in the sinonasal adenoid cystic carcinoma cohort; observed as a minor single-case hit [PMID:24418857](../papers/24418857.md)
 - Mutated in 5.3% of fusion-negative rhabdomyosarcoma (PFN) plus 9% with 17q11.2 LOH; functions as a RAS-axis tumor suppressor in [RMS](../cancer_types/RMS.md) pathogenesis [PMID:24436047](../papers/24436047.md)
 - NF1 added to the significantly mutated gene list in MSI gastric tumors after inclusion of indels [PMID:25079317](../papers/25079317.md)
-- NF1 loss-of-function mutations in 11% of LUAD (TCGA, n=230); enriched in oncogene-negative subset; co-mutated with TP53 in PI subtype; nominated as driver by MutSig2CV [PMID:25079552](../papers/25079552.md)
-- Nonsense mutations and homozygous deletion in 82% of sporadic/radiotherapy-associated MPNSTs; significantly co-occurs with PRC2 loss (EED/SUZ12) and CDKN2A loss [PMID:25240281](../papers/25240281.md)
+- NF1 loss-of-function mutations in 11% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); enriched in oncogene-negative subset; co-mutated with [TP53](../genes/TP53.md) in PI subtype; nominated as driver by MutSig2CV [PMID:25079552](../papers/25079552.md)
+- Nonsense mutations and homozygous deletion in 82% of sporadic/radiotherapy-associated MPNSTs; significantly co-occurs with PRC2 loss (EED/SUZ12) and [CDKN2A](../genes/CDKN2A.md) loss [PMID:25240281](../papers/25240281.md)
+- NF1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors; candidate dark-matter driver in papillary thyroid carcinoma [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -95,73 +96,76 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

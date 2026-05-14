@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # BRCA1
@@ -48,8 +48,10 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Zero of 23 pancreatic acinar carcinomas showed BRCA1 locus methylation by qMSP; no somatic mutations identified [PMID:24293293](../papers/24293293.md)
 - HBOC gene included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
-- Truncating somatic mutation in one ERCC2-WT cisplatin responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
-- Direct EWS::FLI1 transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:25186949](../papers/25186949.md)
+- Truncating somatic mutation in one ERCC2-WT [cisplatin](../drugs/cisplatin.md) responder in muscle-invasive urothelial carcinoma; absent in non-responders [PMID:25096233](../papers/25096233.md)
+- Direct EWS::[FLI1](../genes/FLI1.md) transcriptional target (binding to exons 11 and 15) in Ewing sarcoma; upregulated in EF-heMSCs and primary Ewing tumors but functionally compromised (reduced phospho-BRCA1, dispersed foci, defective DDR by comet assay) — supports BRCA1-loss-of-function-despite-elevated-expression model of Ewing chemosensitivity [PMID:25186949](../papers/25186949.md)
+- Mutations in ~3–5% of CCA; provides rationale for PARP inhibitors and platinum agents [PMID:25526346](../papers/25526346.md)
+- No mutations observed in the 78-case discovery cohort of gastric cancer; contrast with [BRCA2](../genes/BRCA2.md) which was mutated in 5.8% of cases [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -68,7 +70,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 ## Therapeutic relevance
 
-- BRCA1 alterations are actionable (OncoKB level) across multiple cancer types; PARP inhibitors ([olaparib](../drugs/olaparib.md), niraparib) and platinum-based regimens are established HRD-targeting strategies [PMID:37769223](../papers/37769223.md).
+- BRCA1 alterations are actionable (OncoKB level) across multiple cancer types; PARP inhibitors ([olaparib](../drugs/olaparib.md), [niraparib](../drugs/niraparib.md)) and platinum-based regimens are established HRD-targeting strategies [PMID:37769223](../papers/37769223.md).
 - In ATC, recurrent DDR gene alterations (BRCA1, [BRCA2](../genes/BRCA2.md), [ATM](../genes/ATM.md)) rationalize investigation of PARP inhibitors in this aggressive, largely therapy-refractory cancer type [PMID:38412093](../papers/38412093.md).
 
 ## Open questions
@@ -90,43 +92,49 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

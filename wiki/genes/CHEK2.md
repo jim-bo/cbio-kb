@@ -5,8 +5,8 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CHEK2
@@ -26,6 +26,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - Co-deleted with [TP53](../genes/TP53.md) in one prostate carcinoma chromoplexy chain; disrupted by structural rearrangement [PMID:23622249](../papers/23622249.md)
 - Missense somatic mutations in 1 patient each with [PV](../cancer_types/PV.md), [ET](../cancer_types/ET.md), and [MF](../cancer_types/MF.md) (q=0.008 by MutSigCV); not previously reported in [MPN](../cancer_types/MPN.md) at time of publication [PMID:24325359](../papers/24325359.md)
 - Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
+- Significantly mutated gene (SMG) in papillary thyroid carcinoma (q<0.1); DNA-repair-related SMG co-occurring with MAPK pathway drivers; CHEK2 mutations associated with 22q loss (p=0.0035) in the SCNA-22q-del subtype [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 ## Therapeutic relevance
 
-- DDR gene alterations including CHEK2 in prostate adenocarcinoma provide a rationale for PARP inhibitor therapy (e.g., [olaparib](../drugs/olaparib.md), [rucaparib](../drugs/rucaparib.md), niraparib), consistent with FDA-approved indications for BRCA1/2-mutant and HRD-positive CRPC [PMID:38488813](../papers/38488813.md).
+- DDR gene alterations including CHEK2 in prostate adenocarcinoma provide a rationale for PARP inhibitor therapy (e.g., [olaparib](../drugs/olaparib.md), [rucaparib](../drugs/rucaparib.md), [niraparib](../drugs/niraparib.md)), consistent with FDA-approved indications for BRCA1/2-mutant and HRD-positive CRPC [PMID:38488813](../papers/38488813.md).
 
 ## Open questions
 
@@ -51,22 +52,25 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22802077](../papers/22802077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

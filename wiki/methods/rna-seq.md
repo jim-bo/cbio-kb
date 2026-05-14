@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # RNA sequencing
@@ -57,17 +57,18 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used to validate aberrant splicing in grade II glioma, including confirmation of [RB1](../genes/RB1.md) c.2520+1G>A splice-site mutation-driven premature termination and loss of growth-suppression domain in a TMZ-treated hypermutated recurrence [PMID:24336570](../papers/24336570.md)
 - PolyA RNA-seq on Illumina HiSeq2000 (100 bp PE) applied to 80 rhabdomyosarcoma tumors; mapped with TopHat2; fusions called via [tophat-fusion](../methods/tophat-fusion.md) and deFuse; showed 58% of DNA-level somatic mutations had RNA expression evidence; identified cryptic PAX rearrangements including PAX3-INO80D [PMID:24436047](../papers/24436047.md)
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
-- Performed on 4 of the 20 Discovery Cohort ESCC tumors to support transcriptomic analysis of mutated genes (e.g., APOBEC3B expression, XPO1 mRNA levels) [PMID:24686850](../papers/24686850.md)
-- Applied to 196 HCC patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
-- Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified BCL2 focal amplification correlated with increased BCL2 mRNA; both GTF2I alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
-- Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying SEMA7A as the most strongly upregulated semaphorin under stiff matrix conditions in GBC stroma [PMID:24997986](../papers/24997986.md)
-- Six-platform TCGA profiling of 295 gastric adenocarcinomas (stad_tcga_pub) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
-- Multi-platform TCGA profiling of 230 lung adenocarcinomas (luad_tcga_pub) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and MET exon 14 skipping events [PMID:25079552](../papers/25079552.md)
-- Used in TCGA ChRCC project (66 tumors) to profile gene expression, identify distal-nephron cell-of-origin signatures, characterize mtDNA-mutant transcriptomes, and assess TERT expression levels. [PMID:25155756](../papers/25155756.md)
+- Performed on 4 of the 20 Discovery Cohort [ESCC](../cancer_types/ESCC.md) tumors to support transcriptomic analysis of mutated genes (e.g., [APOBEC3B](../genes/APOBEC3B.md) expression, [XPO1](../genes/XPO1.md) mRNA levels) [PMID:24686850](../papers/24686850.md)
+- Applied to 196 [HCC](../cancer_types/HCC.md) patients as part of the TCGA integrated molecular characterisation (DNA copy number, methylation, mRNA, miRNA, RPPA) [PMID:24798001](../papers/24798001.md)
+- Transcriptome RNA-seq performed on 25 thymic epithelial tumors (Illumina Genome Analyzer II / HiSeq2000) using TopHat + Cufflinks; identified [BCL2](../genes/BCL2.md) focal amplification correlated with increased BCL2 mRNA; both [GTF2I](../genes/GTF2I.md) alleles expressed (mean mutant allele fraction 47%) [PMID:24974848](../papers/24974848.md)
+- Used for bulk RNA-seq of primary human gallbladder fibroblasts (GFs) cultured on 0.5 vs 16 kPa silicon hydrogels (NCBI SRA PRJNA1182410), identifying [SEMA7A](../genes/SEMA7A.md) as the most strongly upregulated semaphorin under stiff matrix conditions in [GBC](../cancer_types/GBC.md) stroma [PMID:24997986](../papers/24997986.md)
+- Six-platform TCGA profiling of 295 gastric adenocarcinomas ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) included mRNA-seq (RNA-seq) to define transcriptional subtypes and pathway activity across EBV, MSI, GS, and CIN molecular subgroups [PMID:25079317](../papers/25079317.md)
+- Multi-platform TCGA profiling of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) included mRNA sequencing to identify transcriptional subtypes (TRU, PI, PP) and [MET](../genes/MET.md) exon 14 skipping events [PMID:25079552](../papers/25079552.md)
+- Used in TCGA ChRCC project (66 tumors) to profile gene expression, identify distal-nephron cell-of-origin signatures, characterize mtDNA-mutant transcriptomes, and assess [TERT](../genes/TERT.md) expression levels. [PMID:25155756](../papers/25155756.md)
 - Used on Illumina HiSeq 2500 (GEO GSE272957) to profile transcriptomes of EWS::FLI1-transduced heMSCs vs controls, identifying 3,836 DEGs and Ewing sarcoma gene-expression signatures. [PMID:25186949](../papers/25186949.md)
-- Used on Illumina HiSeq to profile seven prostate cancer organoid lines; identified TMPRSS2-ERG fusion status, SPINK1 overexpression, and confirmed gene-expression concordance between organoids and parental tumor tissue. [PMID:25201530](../papers/25201530.md)
-- Used in MPNST discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, STAR v2.3); RNA-seq was essential to detect SUZ12 structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
+- Used on Illumina HiSeq to profile seven prostate cancer organoid lines; identified TMPRSS2-ERG fusion status, [SPINK1](../genes/SPINK1.md) overexpression, and confirmed gene-expression concordance between organoids and parental tumor tissue. [PMID:25201530](../papers/25201530.md)
+- Used in [MPNST](../cancer_types/MPNST.md) discovery cohort (15 tumors, 51 bp PE, Illumina HiSeq-2500, hg19, STAR v2.3); RNA-seq was essential to detect [SUZ12](../genes/SUZ12.md) structural rearrangements missed by WES, and revealed 455/479 differentially expressed genes upregulated in PRC2-loss tumors [PMID:25240281](../papers/25240281.md)
 - Applied to 159 nccRCC tumors (TruSeq, HiSeq 2000, ~68M PE reads/sample); enabled a 5-gene classifier (ASB1, GLYAT, PDZK1IP1, PLCG2, SDCBP2) achieving 95.3% subtype accuracy and detection of novel ACTG1-MITF and CLTC-TFEB fusions [PMID:25401301](../papers/25401301.md)
+- Used in TCGA papillary thyroid carcinoma ([THPA](../cancer_types/THPA.md)) multiplatform study to derive BRAFV600E-RAS Score (BRS) from a 71-gene expression signature and Thyroid Differentiation Score (TDS) from 16 metabolism genes, enabling molecular reclassification of 496 PTCs [PMID:25417114](../papers/25417114.md)
 
 ## Notes
 
@@ -91,118 +92,121 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

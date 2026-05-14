@@ -3,8 +3,8 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ATM
@@ -39,9 +39,10 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; known familial pancreatic cancer susceptibility gene and candidate for PARP/DNA-PKcs inhibitor sensitivity [PMID:24293293](../papers/24293293.md)
 - Two expressed mutations (1 in PAX-fusion-positive, 1 in PAX-fusion-negative rhabdomyosarcoma) identified in a pediatric [RMS](../cancer_types/RMS.md) genomic landscape study [PMID:24436047](../papers/24436047.md)
 - Significantly mutated in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md)) identified by COSMIC restriction analysis; included in the 32 significantly mutated genes from TCGA bladder urothelial carcinoma cohort (n=131) [PMID:24476821](../papers/24476821.md)
-- Somatic mutation reported in the HCC molecular landscape (WES, n=1,289) as part of the non-actionable driver set [PMID:24798001](../papers/24798001.md)
-- Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, BRCA1, BRCA2, BRIP1, PALB2 must be ruled out before FNHGC labeling) [PMID:24816255](../papers/24816255.md)
-- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after etoposide; authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as part of the non-actionable driver set [PMID:24798001](../papers/24798001.md)
+- Included in the standard multigene panel for hereditary gastric cancer risk (HBOC genes ATM, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [BRIP1](../genes/BRIP1.md), [PALB2](../genes/PALB2.md) must be ruled out before FNHGC labeling) [PMID:24816255](../papers/24816255.md)
+- Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
+- Candidate dark-matter driver in papillary thyroid carcinoma; among additional driver alterations helping reduce unexplained 'dark matter' cases to 3.5% in the TCGA PTC cohort of 402 tumors [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -74,64 +75,67 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25186949](../papers/25186949.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

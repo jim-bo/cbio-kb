@@ -3,12 +3,14 @@ symbol: SETBP1
 aliases: []
 cancer_types:
   - MDS
+  - STAD
 tags:
   - mds-driver
   - granulocytic-dysplasia
   - hematologic-malignancy
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+  - gastric-cancer
+processed_by: crosslinker
+processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
 ---
@@ -17,11 +19,12 @@ unverified: false
 
 ## Overview
 
-SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations are recurrently observed in myeloid malignancies, particularly myelodysplastic syndromes ([MDS](../cancer_types/MDS.md)) and atypical chronic myeloid leukemia. In MDS, SETBP1 mutations associate with abnormal granulocytic morphology.
+SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations are recurrently observed in myeloid malignancies, particularly myelodysplastic syndromes ([MDS](../cancer_types/MDS.md)) and atypical chronic myeloid leukemia. In [MDS](../cancer_types/MDS.md), SETBP1 mutations associate with abnormal granulocytic morphology.
 
 ## Alterations observed in the corpus
 
 - SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in MDS patients (Tokyo cohort), identified in a cohort study linking somatic mutations to MDS morphologic features [PMID:21909114](../papers/21909114.md)
+- SETBP1 p.S944N mutation detected in a gastric cancer (GC) patient (Pt2) in the Tianjin Chinese GC cohort; the mutation matches the recurrent myeloid-malignancy hotspot site. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -43,4 +46,7 @@ SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations ar
 
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

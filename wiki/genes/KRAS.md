@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # KRAS
@@ -68,12 +68,15 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Gain-of-function mutation identified in ovarian mixed neuroendocrine-non-neuroendocrine neoplasm (MiNEN) PN19 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - KRAS codon 12/13 oncogenic hotspot mutations recurrently detected in multiple myeloma (MM), particularly enriched in previously treated patients; mutations frequently subclonal and co-mutation with [BRAF](../genes/BRAF.md) was rarely simultaneously clonal [PMID:24434212](../papers/24434212.md)
 - KRAS codon 12/13/61 oncogenic hotspot mutations detected in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)), predominantly in fusion-negative (PFN) tumors (6.4% frequency); no RAS mutations in fusion-positive PAX (PFP) tumors [PMID:24436047](../papers/24436047.md)
-- KRAS focal amplification observed in ESCC tumors [PMID:24686850](../papers/24686850.md)
-- KRAS activating mutations are rare in HCC (~1%; 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of refametinib + sorafenib in 16 RAS-mutant patients reported median OS 12.7 months. [PMID:24798001](../papers/24798001.md)
-- Mutated in 6% of gastric adenocarcinoma (STAD) overall (TCGA); KRAS/NRAS alterations combined reach 17% across CIN and MSI subtypes [PMID:25079317](../papers/25079317.md)
-- Activating mutations in 33% of LUAD (TCGA, n=230, 74 cancer-associated); mutually exclusive with EGFR; enriched in the transversion-high (TH)/smoker cohort and the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
+- KRAS focal amplification observed in [ESCC](../cancer_types/ESCC.md) tumors [PMID:24686850](../papers/24686850.md)
+- KRAS activating mutations are rare in [HCC](../cancer_types/HCC.md) (~1%; 4.4% of 1,318 ctDNA samples in BEAMing screening); a biomarker-enriched phase II of [refametinib](../drugs/refametinib.md) + [sorafenib](../drugs/sorafenib.md) in 16 RAS-mutant patients reported median [OS](../cancer_types/OS.md) 12.7 months. [PMID:24798001](../papers/24798001.md)
+- Mutated in 6% of gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) overall (TCGA); KRAS/NRAS alterations combined reach 17% across CIN and MSI subtypes [PMID:25079317](../papers/25079317.md)
+- Activating mutations in 33% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230, 74 cancer-associated); mutually exclusive with [EGFR](../genes/EGFR.md); enriched in the transversion-high ([TH](../genes/TH.md))/smoker cohort and the PP transcriptional subtype [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; established trunk event; mutation status guides cetuximab/panitumumab eligibility and is reliably detected from either tumor site [PMID:25164765](../papers/25164765.md)
 - Hotspot mutations in 5/22 gynaecologic carcinosarcomas (27%); flagged as actionable candidates for MEK/BRAF inhibition [PMID:25233892](../papers/25233892.md)
+- RAS codon 12/61 SSNVs (NRAS/HRAS/KRAS) found in 52/402 (12.9%) papillary thyroid tumors; characterize the follicular variant and drive the RL (RAS-like) phenotype with concurrent MAPK/PI3K signaling; mutually exclusive with BRAFV600E [PMID:25417114](../papers/25417114.md)
+- KRAS activating mutations (G12D, G12V, Q61H) in 24–27% intrahepatic and 37–46% extrahepatic CCA; G12/G13 alterations predict poor prognosis; synergizes with [ARID1A](../genes/ARID1A.md) loss to drive cholangiocarcinogenesis [PMID:25526346](../papers/25526346.md)
+- KRAS p.G13D mutation present in a distinct subclone in a multi-region WGS case (Pt1) of gastric adenocarcinoma, co-occurring with [PIK3CA](../genes/PIK3CA.md) p.E542K and [BRCA2](../genes/BRCA2.md) frameshift across separate clones [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -133,118 +136,127 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

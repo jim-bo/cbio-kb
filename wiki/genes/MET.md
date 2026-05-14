@@ -3,8 +3,8 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # MET
@@ -30,12 +30,14 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - RTK intratumoral heterogeneity: co-existing EGFR/PDGFRA/MET alterations within individual [GBM](../cancer_types/GBM.md) tumors cannot be resolved by bulk profiling; MET noted as part of the RTK alteration landscape in [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
 - High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Altered in rhabdomyosarcoma as a known downstream target of the PAX3-FOXO1 fusion oncogene; pathway-level alteration implicated in PAX3-FOXO1-driven oncogenesis (P=1.54×10⁻³) [PMID:24436047](../papers/24436047.md)
-- MET is mutated in ~3% of HCC and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for tivantinib trials in HCC [PMID:24735922](../papers/24735922.md)
-- Overexpression associated with poor prognosis and sorafenib resistance in HCC; tivantinib failed in MET-high HCC (mechanism may be MET-independent); capmatinib and cabozantinib (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
-- Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in NPC; co-targeted by GEN1286 (EGFR×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
-- MET recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing in gastric cancer (EGC); RTK amplification in CIN subtype; potential therapeutic relevance [PMID:25079317](../papers/25079317.md)
-- MET DNA mutations in 7% of LUAD; exon 14 skipping (alternative splicing) in 4% (10/230) with identifiable cis-acting splice-site mutations in 9/10 cases; focal amplification enriched in oncogene-negative tumours; nominated as driver and therapeutic target [PMID:25079552](../papers/25079552.md)
+- MET is mutated in ~3% of [HCC](../cancer_types/HCC.md) and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for [tivantinib](../drugs/tivantinib.md) trials in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
+- Overexpression associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in HCC; [tivantinib](../drugs/tivantinib.md) failed in MET-high HCC (mechanism may be MET-independent); [capmatinib](../drugs/capmatinib.md) and [cabozantinib](../drugs/cabozantinib.md) (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
+- Compensatory activation implicated in EGFR-inhibitor resistance via reactivation of PI3K/AKT and MAPK and promotion of EMT in [NPC](../cancer_types/NPC.md); co-targeted by GEN1286 ([EGFR](../genes/EGFR.md)×MET bispecific ADC) [PMID:24952746](../papers/24952746.md)
+- MET recurrent exon 2 (30%) and exon 18/19 (17%) alternative splicing in gastric cancer ([EGC](../cancer_types/EGC.md)); RTK amplification in CIN subtype; potential therapeutic relevance [PMID:25079317](../papers/25079317.md)
+- MET DNA mutations in 7% of [LUAD](../cancer_types/LUAD.md); exon 14 skipping (alternative splicing) in 4% (10/230) with identifiable cis-acting splice-site mutations in 9/10 cases; focal amplification enriched in oncogene-negative tumours; nominated as driver and therapeutic target [PMID:25079552](../papers/25079552.md)
 - Recurrent activating kinase-domain mutations (p.Val1088Ala, p.Ile1095Thr, p.Phe1218Ile) and extracellular p.Asp153Tyr identified in 15% of pRCC; chr7 amplification of the MET locus in ~70% of pRCCs; induced as downstream target of ACTG1-MITF fusion; major therapeutic rationale for MET inhibitors in pRCC [PMID:25401301](../papers/25401301.md)
+- MET not a primary driver in PTC per this TCGA integrated analysis; the dominant drivers are [BRAF](../genes/BRAF.md), RAS, RET/NTRK fusions, and [EIF1AX](../genes/EIF1AX.md) [PMID:25417114](../papers/25417114.md)
+- MET identified as a recurrent HBV integration site in intrahepatic CCA, suggesting viral-mediated MET oncogene activation in HBV-associated iCCA [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -66,49 +68,55 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

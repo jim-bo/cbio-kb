@@ -4,7 +4,7 @@ aliases: [TEL]
 cancer_types: [IFS, SCSRMS]
 tags: [fusion, NTRK3, diagnostic-marker, sarcoma]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # ETV6
@@ -21,6 +21,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - Fusion events observed in TNBC WGS cohort (BCCRC, 65 tumors) [PMID:22495314](../papers/22495314.md)
 - Recurrently mutated in pediatric ALL (St. Jude WGS/WES, 44 tumors); ETV6-RUNX1 fusions detected in B-ALL cases [PMID:23334668](../papers/23334668.md)
 - Co-deleted with [ETV3](../genes/ETV3.md) and [CDKN1B](../genes/CDKN1B.md) in a 25-rearrangement chromoplexy chain in prostate cancer [PMID:23622249](../papers/23622249.md)
+- ETV6/NTRK3 fusion detected in papillary thyroid carcinoma (PTC); part of 6/484 (1.2%) NTRK1/3 fusions combined; fusion is BRS-neutral (neither BVL nor RL phenotype). [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -33,7 +34,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 ## Therapeutic relevance
 
-- NTRK inhibitor ([larotrectinib](../drugs/larotrectinib.md)) response depends on the presence of [NTRK3](../genes/NTRK3.md) fusion; PDTO resistance to larotrectinib in the absence of ETV6-NTRK3 fusion correctly predicted non-response and prompted timely diagnostic reclassification (within one week vs 18 days for pathology) [PMID:39305899](../papers/39305899.md).
+- NTRK inhibitor ([larotrectinib](../drugs/larotrectinib.md)) response depends on the presence of [NTRK3](../genes/NTRK3.md) fusion; PDTO resistance to [larotrectinib](../drugs/larotrectinib.md) in the absence of ETV6-NTRK3 fusion correctly predicted non-response and prompted timely diagnostic reclassification (within one week vs 18 days for pathology) [PMID:39305899](../papers/39305899.md).
 
 ## Open questions
 
@@ -43,19 +44,22 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -7,15 +7,15 @@ tags:
   - pi3k-pathway
   - oncogene
   - amplification
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # AKT2
 
 ## Overview
 
-AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is a paralog of [AKT1](../genes/AKT1.md) and AKT3 and is frequently amplified or overexpressed in diverse cancers. In endometrial carcinoma, AKT2 amplification has been identified as differentially enriched in Black patients relative to White patients, with potential therapeutic implications for pathway-directed therapy.
+AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is a paralog of [AKT1](../genes/AKT1.md) and [AKT3](../genes/AKT3.md) and is frequently amplified or overexpressed in diverse cancers. In endometrial carcinoma, AKT2 amplification has been identified as differentially enriched in Black patients relative to White patients, with potential therapeutic implications for pathway-directed therapy.
 
 ## Alterations observed in the corpus
 
@@ -23,6 +23,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - AKT2 amplifications associated with shorter overall survival in metastatic [PAAD](../cancer_types/PAAD.md) patients receiving first-line chemotherapy (HR_adj = 2.03, P_adj = 0.048) in the MSK PDAC genomic cohort (n=2,336 tumors) [PMID:39753968](../papers/39753968.md).
 - AKT2 assessed in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) genomic landscape study [PMID:36228155](../papers/36228155.md)
 - AKT2 somatic mutations detected in breast cancer WES of 100 tumors, part of PI3K/AKT pathway driver landscape [PMID:22722201](../papers/22722201.md)
+- PI3K/AKT pathway mutations ([PTEN](../genes/PTEN.md), AKT1/2, PAX8/PPARG) account for 4.5% (18/402) of papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -46,10 +47,13 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

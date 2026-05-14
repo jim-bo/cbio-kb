@@ -3,8 +3,8 @@ symbol: FBXW7
 aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FBXW7
@@ -30,9 +30,10 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - R465H mutation identified in adenoid cystic carcinoma (ACC); tumor suppressor that targets [MYC](../genes/MYC.md) and [NOTCH1](../genes/NOTCH1.md) for degradation [PMID:23685749](../papers/23685749.md)
 - FBXW7 identified as a novel recurrent driver in 7.4% of fusion-negative rhabdomyosarcoma (PFN) tumors, exclusively at WD40-domain arginine residues R387P, R441G, and R367P [PMID:24436047](../papers/24436047.md)
 - FBXW7 mutated in 10% of muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
-- Frequent inactivating mutations leading to protein loss (33% in validation cohort) in ESCC; confirmed by IHC on TMA [PMID:24686850](../papers/24686850.md)
+- Frequent inactivating mutations leading to protein loss (33% in validation cohort) in [ESCC](../cancer_types/ESCC.md); confirmed by IHC on TMA [PMID:24686850](../papers/24686850.md)
 - Recurrently mutated in non-hypermutated CRC; mutation status concordant between primary tumor and metastasis per matched-pair sequencing [PMID:25164765](../papers/25164765.md)
 - Mutated in 5/22 gynaecologic carcinosarcomas (23%), including the canonical R505C WD-repeat hotspot; loss-of-function may sensitize tumors to HDAC inhibitors (preclinical) [PMID:25233892](../papers/25233892.md)
+- Enriched among large-duct-type iCCA; co-occurs with [TGFBR2](../genes/TGFBR2.md) and [MYC](../genes/MYC.md) alterations in this molecular subtype. [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -60,46 +61,49 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37730754](../papers/37730754.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798897](../papers/21798897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24686850](../papers/24686850.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

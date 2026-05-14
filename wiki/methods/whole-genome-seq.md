@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Whole-genome sequencing (WGS)
@@ -56,14 +56,16 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 26 of 203 multiple myeloma tumor/normal pairs at ~30× average depth; all 26 samples harbored structural variants; enabled identification of SVs and complemented WES-based mutation calling [PMID:24434212](../papers/24434212.md)
 - Applied to 44 rhabdomyosarcoma tumor/normal pairs on Complete Genomics platform at mean 105× depth with 97% genome coverage; identified 553 somatic SVs affecting 419 genes and established the PAX-fusion-positive vs PAX-fusion-negative [RMS](../cancer_types/RMS.md) classification [PMID:24436047](../papers/24436047.md)
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
-- Referenced in HCC genomic landscape review as part of next-generation sequencing approaches that identified novel HCC driver genes including TERT, ARID1A, ARID2, RPS6KA3, PIK3CA, IRF2, NFE2L2, and KEAP1 [PMID:24735922](../papers/24735922.md)
-- Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including DOT1L, INSR, FBXO24, and CTNND1 [PMID:24816255](../papers/24816255.md)
+- Referenced in [HCC](../cancer_types/HCC.md) genomic landscape review as part of next-generation sequencing approaches that identified novel HCC driver genes including [TERT](../genes/TERT.md), [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), [RPS6KA3](../genes/RPS6KA3.md), [PIK3CA](../genes/PIK3CA.md), [IRF2](../genes/IRF2.md), [NFE2L2](../genes/NFE2L2.md), and [KEAP1](../genes/KEAP1.md) [PMID:24735922](../papers/24735922.md)
+- Germline WGS cited as the sequencing approach used for identifying candidate FNHGC predisposition variants in CDH1-negative families, including [DOT1L](../genes/DOT1L.md), [INSR](../genes/INSR.md), [FBXO24](../genes/FBXO24.md), and [CTNND1](../genes/CTNND1.md) [PMID:24816255](../papers/24816255.md)
 - Low-pass WGS (1-3x coverage) from 100-250 ng input DNA (KAPA LTP / Illumina HiSeq 2000) applied to four FFPE prostate needle biopsies; CNA profiles concordant with high-resolution aCGH, enabling pre-treatment CNA burden assessment [PMID:25024180](../papers/25024180.md)
-- Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort (stad_tcga_pub) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
-- Low-pass WGS on 93 of 230 lung adenocarcinomas (luad_tcga_pub) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); ALK, ROS1, RET fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
+- Low-pass WGS (<6x coverage) on 107 tumor/germline pairs from the TCGA gastric adenocarcinoma cohort ([stad_tcga_pub](../datasets/stad_tcga_pub.md)) to detect structural rearrangements, including CLDN18-ARHGAP26 and CLDN18-ARHGAP6 interchromosomal fusions [PMID:25079317](../papers/25079317.md)
+- Low-pass WGS on 93 of 230 lung adenocarcinomas ([luad_tcga_pub](../datasets/luad_tcga_pub.md)) identified an average of 36 gene-gene/gene-inter-gene rearrangements per tumor; chromothripsis detected in 6/93 (6%); [ALK](../genes/ALK.md), [ROS1](../genes/ROS1.md), [RET](../genes/RET.md) fusions detected exclusively in transversion-low tumors [PMID:25079552](../papers/25079552.md)
 - Used to sequence 50 ChRCC tumors (60× tumor / 30× normal) in the TCGA ChRCC project, enabling detection of structural rearrangements at the TERT promoter and kataegis events via Meerkat. [PMID:25155756](../papers/25155756.md)
 - Applied to four CRC primary/metastasis trios (median 87× tumor, 50× normal) at the New York Genome Center to validate MSK-IMPACT findings; confirmed all panel-level calls and revealed genome-wide discordance in heterogeneous cases. [PMID:25164765](../papers/25164765.md)
-- Used in Ewing sarcoma WGS of 112 tumors with matched germline on Illumina HiSeq2000 (median 35× tumor depth); BWA alignment to GRCh37-lite; identified STAG2 (17%), TP53 (7%), and EZH2 as significantly mutated genes [PMID:25223734](../papers/25223734.md)
+- Used in Ewing sarcoma WGS of 112 tumors with matched germline on Illumina HiSeq2000 (median 35× tumor depth); BWA alignment to GRCh37-lite; identified [STAG2](../genes/STAG2.md) (17%), [TP53](../genes/TP53.md) (7%), and [EZH2](../genes/EZH2.md) as significantly mutated genes [PMID:25223734](../papers/25223734.md)
+- WGS at median 45.1× depth on 47 tumor/xenograft/normal DNA samples from 15 breast cancer PDX series; used to identify somatic SNVs (4.3–27.7×10³ per genome) and SVs driving clonal selection at engraftment [PMID:25470049](../papers/25470049.md)
+- Applied to 3 primary-tumor regions plus 2 matched lymph-node metastases each from 2 gastric adenocarcinoma patients (Pt1: 4,082 nonsilent mutations; Pt2: 287); phylogenetic analysis revealed divergence among primary regions with metastases sharing a common clonal ancestor [PMID:25583476](../papers/25583476.md)
 
 ## Notes
 
@@ -81,121 +83,127 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36517593](../papers/36517593.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21796119](../papers/21796119.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22634756](../papers/22634756.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722829](../papers/22722829.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22832583](../papers/22832583.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941188](../papers/22941188.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22941189](../papers/22941189.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25470049](../papers/25470049.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

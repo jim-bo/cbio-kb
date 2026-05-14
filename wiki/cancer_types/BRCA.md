@@ -4,8 +4,8 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -28,12 +28,13 @@ OncoTree code for invasive breast carcinoma.
 - [ERBB2](../genes/ERBB2.md) (HER2) surface expression in BT474 (HER2+) cells enables receptor-restricted T-MMAE/T-DM1 radiosensitization; [ado-trastuzumab emtansine](../drugs/ado-trastuzumab-emtansine.md) (T-DM1) is FDA-approved for HER2+ metastatic breast cancer and was proposed for clinical evaluation with radiotherapy in HER2+ locally advanced disease. [PMID:27698471](../papers/27698471.md)
 - [TP53](../genes/TP53.md) was the most frequently altered gene across all tumor types in the CSF ctDNA cohort (49% of ctDNA-positive samples), including breast cancer [PMID:39289779](../papers/39289779.md).
 - Breast cancer patients with BRCA1/2 mutations demonstrated improved outcomes with PARP inhibitor therapy in a prospective study [PMID:36585450](../papers/36585450.md)
-- Whole-exome sequencing of 102 breast cancer samples identified recurrent SF3B1 mutations and widespread splicing alterations, providing new insight into BRCA mutational landscape [PMID:22158541](../papers/22158541.md)
+- Whole-exome sequencing of 102 breast cancer samples identified recurrent [SF3B1](../genes/SF3B1.md) mutations and widespread splicing alterations, providing new insight into BRCA mutational landscape [PMID:22158541](../papers/22158541.md)
 - WGS of 65 breast tumors (BCCRC cohort) characterized structural rearrangements and somatic mutations in invasive breast carcinoma [PMID:22495314](../papers/22495314.md)
 - METABRIC study profiled ~2,000 breast tumors identifying 10 integrative clusters (IntClust1–10) with distinct copy-number and expression signatures in invasive breast carcinoma [PMID:22522925](../papers/22522925.md)
-- Whole-exome sequencing of 100 breast cancer tumors (Sanger cohort, brca_sanger) identified ~40 driver genes including PIK3CA, TP53, and CDH1 with recurrent somatic mutations [PMID:22722201](../papers/22722201.md)
-- WES/WGS of 103 breast tumors (Broad cohort, brca_broad) identified PIK3CA as the most frequently mutated gene and discovered MAGI3-AKT3 fusion kinase as a novel driver [PMID:22722202](../papers/22722202.md)
+- Whole-exome sequencing of 100 breast cancer tumors (Sanger cohort, [brca_sanger](../datasets/brca_sanger.md)) identified ~40 driver genes including [PIK3CA](../genes/PIK3CA.md), [TP53](../genes/TP53.md), and [CDH1](../genes/CDH1.md) with recurrent somatic mutations [PMID:22722201](../papers/22722201.md)
+- WES/WGS of 103 breast tumors (Broad cohort, [brca_broad](../datasets/brca_broad.md)) identified PIK3CA as the most frequently mutated gene and discovered MAGI3-AKT3 fusion kinase as a novel driver [PMID:22722202](../papers/22722202.md)
 - Comprehensive genomic characterization of 510 breast tumors identified four molecular subtypes (Luminal A/B, HER2-enriched, Basal-like) with distinct mutation profiles [PMID:23000897](../papers/23000897.md)
+- Generation of 30 breast cancer PDX lines from 55 BRCA patients showed universal clonal selection at engraftment in all 15 WGS-characterized series, with minor (<5%) clones frequently expanding to dominance; replicate transplants produced highly concordant clonal dynamics (median Pearson r 0.91-0.94), establishing deterministic clonal fitness as a key property of BRCA PDX models [PMID:25470049](../papers/25470049.md).
 
 ## Subtypes
 
@@ -54,25 +55,28 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-15**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25470049](../papers/25470049.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted_therapy, trk_inhibitor, tumor_agnostic]
 processed_by: crosslinker
-processed_at: 2026-05-06
+processed_at: 2026-05-14
 ---
 
 # entrectinib
@@ -17,7 +17,8 @@ Entrectinib (RXDX-101) is an orally available, CNS-penetrant inhibitor of TRKA/B
 
 ## Evidence in the corpus
 
-- FDA-recognized level 1 (OncoKB) biomarker: [NTRK1](../genes/NTRK1.md) fusions (e.g., LMNA::NTRK1) predict response to entrectinib across solid tumor types including gallbladder carcinoma; 1 patient in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233) harbored an actionable NTRK1 fusion [PMID:36228155](../papers/36228155.md)
+- FDA-recognized level 1 (OncoKB) biomarker: [NTRK1](../genes/NTRK1.md) fusions (e.g., LMNA::[NTRK1](../genes/NTRK1.md)) predict response to entrectinib across solid tumor types including gallbladder carcinoma; 1 patient in the MSK [GBC](../cancer_types/GBC.md) cohort (n=233) harbored an actionable NTRK1 fusion [PMID:36228155](../papers/36228155.md)
+- NTRK fusion-positive CCA (~0.2% overall, up to 3.6% iCCA): pooled analysis of 121 NTRK-positive patients ORR 61.2%, mPFS 13.8 mo, mOS 33.8 mo across tumor types; NTRKs reported in ~0.2% of CCA [PMID:25526346](../papers/25526346.md)
 
 ## Resistance mechanisms
 
@@ -29,4 +30,7 @@ Entrectinib (RXDX-101) is an orally available, CNS-penetrant inhibitor of TRKA/B
 
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

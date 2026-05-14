@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # paclitaxel
@@ -21,6 +21,7 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - The paper positions paclitaxel as a conventional taxane radiosensitizer that acts via non-receptor-targeted microtubule stabilization, contrasting it with ADC-delivered anti-tubulin payloads (MMAE, [mertansine](../drugs/mertansine.md)) that restrict cytotoxicity to receptor-expressing tumours [PMID:27698471](../papers/27698471.md).
 - 94% of the 489 [HGSOC](../cancer_types/HGSOC.md) patients in the TCGA ovarian carcinoma cohort received a taxane (paclitaxel-class) alongside platinum-based chemotherapy [PMID:21720365](../papers/21720365.md)
 - TCGA endometrial cancer analysis (2013) identifies copy-number-high serous-like endometrial tumors (TP53-mutant, ~25% of high-grade endometrioid) as candidates for chemotherapy including paclitaxel, rather than standard adjuvant radiotherapy for endometrioid carcinoma [PMID:23636398](../papers/23636398.md)
+- Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); clonal heterogeneity analysis (HiC subtype, adjusted HR 4.69, P=0.0043) suggests combination targeting strategies are needed to address subclonal drivers [PMID:25583476](../papers/25583476.md)
 
 ## Resistance mechanisms
 
@@ -35,10 +36,13 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 
 - [PMID:27698471](../papers/27698471.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

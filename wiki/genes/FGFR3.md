@@ -3,8 +3,8 @@ symbol: FGFR3
 aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
-processed_by: wiki-cli
-processed_at: 2026-05-09
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # FGFR3
@@ -35,6 +35,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - High expression or copy-number gain supported FGFR3-inhibitor or [pazopanib](../drugs/pazopanib.md) recommendations in NEN patients PN1, PN14, PN17, and PN25 in a precision oncology cohort [PMID:24326773](../papers/24326773.md)
 - FGFR3 kinase-activating mutations in 12% of muscle-invasive bladder cancers at canonical hotspots; recurrent in-frame FGFR3-TACC3 fusions (n=3); copy-number gain; enriched in mRNA cluster I (papillary-like); tumors with FGFR3 mutations, gains, or fusions may respond to FGFR inhibitors [PMID:24476821](../papers/24476821.md)
 - FGFR3 K650E mutation detected in the OPM2 multiple myeloma cell line used as BRAF-WT control in MAPK inhibitor assays [PMID:24434212](../papers/24434212.md)
+- Listed as a gene observed in the TCGA papillary thyroid carcinoma (PTC) cohort ([thca_tcga_pub](../datasets/thca_tcga_pub.md)); specific alteration details not described in the narrative sections of this paper. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -68,40 +69,43 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

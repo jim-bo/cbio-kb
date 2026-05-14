@@ -3,8 +3,8 @@ symbol: EML4
 aliases: []
 cancer_types: [NSCLC]
 tags: [fusion-partner]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # EML4
@@ -15,9 +15,10 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 ## Alterations observed in the corpus
 
-- EML4::[ALK](../genes/ALK.md) fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients). ALK resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
+- EML4::[ALK](../genes/ALK.md) fusions were detected in CSF ctDNA from lung carcinoma patients with CNS involvement, profiled by MSK-IMPACT in the [csf_msk_2024](../datasets/csf_msk_2024.md) cohort (1,007 CSF samples, 711 patients). [ALK](../genes/ALK.md) resistance mutations (p.G1202R, p.G1269A) were detected upon targeted therapy progression in EML4::ALK-positive patients [PMID:39289779](../papers/39289779.md).
 - EML4-ALK translocation status (FISH) was annotated for 196/211 resected early-stage [NSCLC](../cancer_types/NSCLC.md) patients in the Stanford NSCLC-Radiogenomics cohort as part of a paired radiogenomic dataset; per-subject status is provided as a data record rather than aggregate frequencies [PMID:30325352](../papers/30325352.md).
-- Mentioned in the context of RTK-targeted therapy landscape in HCC (2014 genomics review) [PMID:24735922](../papers/24735922.md)
+- Mentioned in the context of RTK-targeted therapy landscape in [HCC](../cancer_types/HCC.md) (2014 genomics review) [PMID:24735922](../papers/24735922.md)
+- EML4/ALK fusion detected in papillary thyroid carcinoma (PTC); part of 4/484 (0.8%) ALK fusions in the TCGA PTC cohort; represents a potentially targetable alteration. [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -40,7 +41,10 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

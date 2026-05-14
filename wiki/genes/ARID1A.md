@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ARID1A
@@ -46,18 +46,20 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - SWI/SNF complex subunit mutated in 9/64 (14%) intrahepatic cholangiocarcinoma; not previously reported in cholangiocarcinoma at time of publication [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 2/23 (9%) pancreatic carcinomas with acinar differentiation [PMID:24293293](../papers/24293293.md)
 - Single in-frame deletion p.Tyr560_Gln561delinsTer identified in sinonasal AdCC (1/21 sequenced cases); SWI/SNF complex component [PMID:24418857](../papers/24418857.md)
-- Singleton expressed mutation flagged as a candidate driver in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)); not previously reported in RMS [PMID:24436047](../papers/24436047.md)
+- Singleton expressed mutation flagged as a candidate driver in rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)); not previously reported in [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
 - Mutated in 25% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); truncating mutations enriched; identified as a significantly mutated gene by MutSig; encodes SWI/SNF chromatin-remodeling complex component [PMID:24476821](../papers/24476821.md)
-- SWI/SNF subunit mutated in ccRCC (RMH004, p.Arg1020Lys) alongside PBRM1 and SMARCA4 hits; identified as a branch driver in multi-region sequencing of 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
+- SWI/SNF subunit mutated in ccRCC (RMH004, p.Arg1020Lys) alongside [PBRM1](../genes/PBRM1.md) and [SMARCA4](../genes/SMARCA4.md) hits; identified as a branch driver in multi-region sequencing of 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
 - Non-catalytic BAF subunit (BAF250A) invoked in the context of SWI/SNF biology in SCCOHT; not mutated in this cohort but noted as relevant to ovarian tumorigenesis [PMID:24658004](../papers/24658004.md)
-- Chromatin remodeling driver identified by NGS in HCC; listed among the newly identified HCC driver genes [PMID:24735922](../papers/24735922.md)
+- Chromatin remodeling driver identified by NGS in [HCC](../cancer_types/HCC.md); listed among the newly identified HCC driver genes [PMID:24735922](../papers/24735922.md)
 - Loss-of-function mutation in 8% (range 4–12%) of HCCs (WES, n=1,289); chromatin-modifier trunk driver classified as non-actionable [PMID:24798001](../papers/24798001.md)
 - Mutated in 14% overall in gastric adenocarcinoma; especially common in EBV-positive (55%) and GS subtypes; chromatin remodeler loss implicated in EBV-driven tumorigenesis [PMID:25079317](../papers/25079317.md)
-- Mutated in 7% of LUAD (chromatin modifier); part of the chromatin remodeling alteration landscape of lung adenocarcinoma [PMID:25079552](../papers/25079552.md)
+- Mutated in 7% of [LUAD](../cancer_types/LUAD.md) (chromatin modifier); part of the chromatin remodeling alteration landscape of lung adenocarcinoma [PMID:25079552](../papers/25079552.md)
 - Truncating alterations in 28% of muscle-invasive urothelial carcinoma (UCB); mutually exclusive with SMARCA4 mutations; not associated with post-cystectomy outcomes [PMID:25092538](../papers/25092538.md)
 - Significantly mutated (MutSigCV) across muscle-invasive urothelial carcinoma cohort [PMID:25096233](../papers/25096233.md)
 - Truncating mutations in 7/22 (32%) uterine/ovarian carcinosarcoma cases; enriched in MSS ovarian cases (4/5 ovarian vs 0/uterine MSS) [PMID:25233892](../papers/25233892.md)
 - Recurrently mutated in chRCC but not reaching q-score significance in the non-clear-cell RCC cohort [PMID:25401301](../papers/25401301.md)
+- Loss-of-function mutations in 18–23% of intrahepatic CCA and 14% of extrahepatic CCA; mechanistically represses [ALDH1A1](../genes/ALDH1A1.md) via HDAC1/H3K27ac axis; loss enhances cancer stemness and correlates with poor prognosis; co-occurring with activating [KRAS](../genes/KRAS.md) mutations synergistically accelerates CCA development; ARID1A-mutant tumors trend toward high MSI/TMB and ICI sensitivity [PMID:25526346](../papers/25526346.md)
+- Significantly enriched in the Low-clonality (LoC) subtype of gastric cancer; associated with younger onset and longer survival in a 294-patient Tianjin WES cohort [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -95,97 +97,103 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:39147831](../papers/39147831.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22037554](../papers/22037554.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23685749](../papers/23685749.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # BRAF
@@ -56,13 +56,16 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Somatic mutation in 3/23 (13%) pancreatic acinar carcinomas, including the V600E oncogenic hotspot; 2/3 mixed acinar-ductal carcinomas carried BRAF mutations; flagged as candidate for BRAF-inhibitor therapy [PMID:24293293](../papers/24293293.md)
 - V600E subclonal in the initial tumor of patient 18 (low-grade glioma) and undetectable in the matched recurrence; the BRAF-mutant clone did not expand despite the typical proliferative advantage of this alteration, demonstrating subclone extinction under treatment [PMID:24336570](../papers/24336570.md)
 - V600E found in 2 atypical sinonasal glands arising in seromucinous hamartoma (ASGSH precursor lesions); these precursor mutations were distinct from mutations in the matched AdCC components [PMID:24418857](../papers/24418857.md)
-- Activating mutations (including non-V600 K601N in U266 cell line and V600E in a clinical case) in multiple myeloma (MM); often subclonal; defines actionable subgroup for BRAF +/- MEK inhibition. BRAF-K601N U266 cells sensitive to PLX4720 and [dabrafenib](../drugs/dabrafenib.md) in vitro; combined dabrafenib+[trametinib](../drugs/trametinib.md) selectively killed BRAF-mutant MM cells [PMID:24434212](../papers/24434212.md)
-- V600E identified in one PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) tumor (RMSS013); recurrent in the RAS/MAPK pathway that is mutationally activated in >=45% of PAX-fusion-negative RMS [PMID:24436047](../papers/24436047.md)
-- RAS/RAF/MAPK pathway component; BRAF mutations <5% in HCC but the pathway is universally activated in advanced HCC; cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:24735922](../papers/24735922.md)
+- Activating mutations (including non-V600 K601N in U266 cell line and V600E in a clinical case) in multiple myeloma (MM); often subclonal; defines actionable subgroup for BRAF +/- MEK inhibition. BRAF-K601N U266 cells sensitive to PLX4720 and [dabrafenib](../drugs/dabrafenib.md) in vitro; combined [dabrafenib](../drugs/dabrafenib.md)+[trametinib](../drugs/trametinib.md) selectively killed BRAF-mutant MM cells [PMID:24434212](../papers/24434212.md)
+- V600E identified in one PAX-fusion-negative rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) tumor (RMSS013); recurrent in the RAS/MAPK pathway that is mutationally activated in >=45% of PAX-fusion-negative [RMS](../cancer_types/RMS.md) [PMID:24436047](../papers/24436047.md)
+- RAS/RAF/MAPK pathway component; BRAF mutations <5% in [HCC](../cancer_types/HCC.md) but the pathway is universally activated in advanced HCC; cited as resistance analogy (BRAF-mutant melanoma/vemurafenib) motivating combination regimens [PMID:24735922](../papers/24735922.md)
 - Listed among somatic alterations in the HCC molecular landscape (WES, n=1,289); part of the RAF kinase pathway surveyed in the review [PMID:24798001](../papers/24798001.md)
-- Mutations in 10% of LUAD (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
+- Mutations in 10% of [LUAD](../cancer_types/LUAD.md) (n=16 cancer-associated activating); represents an oncogenic driver in lung adenocarcinoma across multiple transcriptional subtypes [PMID:25079552](../papers/25079552.md)
 - Driver mutation 100% concordant between primary and metastasis in CRC; trunk event established early in carcinogenesis; concordance supports use of either site for clinical testing to guide cetuximab/panitumumab eligibility [PMID:25164765](../papers/25164765.md)
 - V600 mutation absent in this cSCC cohort (39 patients); referenced as a marker evaluated and not found in cutaneous squamous cell carcinoma [PMID:25303977](../papers/25303977.md)
+- Used as a baseline driver-mutation stratifier in a 128-exome melanoma study of CTLA-4 checkpoint blockade response; BRAF or [NRAS](../genes/NRAS.md) mutation status was assessed by cohort arm with no significant enrichment by benefit category claimed [PMID:25409260](../papers/25409260.md)
+- Most common driver in papillary thyroid carcinoma: V600E in 61.7% (248/402) of tumors; BRAF fusions in 13/484 (2.7%) including SND1/BRAF and MKRN1/BRAF; BRAFV600E mutually exclusive with RAS/EIF1AX/fusion-driven cases (p=1.1×10⁻⁵); defines the BVL signaling/differentiation class; associated with older age, higher MACIS scores, and higher risk of recurrence [PMID:25417114](../papers/25417114.md)
+- V600E in 3–7% of intrahepatic CCA and near 0% in extrahepatic CCA; actionable with dabrafenib + [trametinib](../drugs/trametinib.md) (ROAR phase II ORR ~47% in 43 CCA patients) [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -99,109 +102,118 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22343534](../papers/22343534.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25409260](../papers/25409260.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

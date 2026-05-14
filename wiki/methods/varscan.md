@@ -8,8 +8,8 @@ tags:
   - variant-calling
   - somatic
   - bioinformatics
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # VarScan
@@ -20,7 +20,8 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 
 ## Used by
 
-- Used for somatic variant calling in MPNST WES discovery cohort (15 tumors) [PMID:25240281](../papers/25240281.md)
+- Used for somatic variant calling in [MPNST](../cancer_types/MPNST.md) WES discovery cohort (15 tumors) [PMID:25240281](../papers/25240281.md)
+- Used alongside MuTect for somatic variant calling in 78 gastric adenocarcinoma WES samples; joint calling identified a high-clonality (HiC) subtype with distinct C>G mutational enrichment (25% vs. 9% in low-clonality; P=0.002) [PMID:25583476](../papers/25583476.md)
 
 ## Notes
 
@@ -29,4 +30,7 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

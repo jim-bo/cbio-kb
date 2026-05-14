@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # CDKN2B
@@ -31,9 +31,10 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - CDKN2B deletions in 14% of [GBC](../cancer_types/GBC.md); frequently co-deleted with [CDKN2A](../genes/CDKN2A.md) [PMID:36228155](../papers/36228155.md)
 - Homozygous deletions identified as rare but potentially significant events; frequently co-occurring with [CDKN2A](../genes/CDKN2A.md) and [MTAP](../genes/MTAP.md) loss in the METABRIC breast cancer cohort (2,000 tumors) [PMID:22522925](../papers/22522925.md)
 - Deleted in ALL (St. Jude WGS/WES, 44 tumors); CDKN2B deletion co-occurs with [CDKN2A](../genes/CDKN2A.md) deletion in pediatric acute lymphoblastic leukemia, compounding loss of cell-cycle inhibition [PMID:23334668](../papers/23334668.md)
-- 9p21.3 homozygous deletion co-occurring with CDKN2A deletion in high-grade bladder tumors [PMID:23897969](../papers/23897969.md)
+- 9p21.3 homozygous deletion co-occurring with [CDKN2A](../genes/CDKN2A.md) deletion in high-grade bladder tumors [PMID:23897969](../papers/23897969.md)
 - Homozygous focal deletion at 9p21 in 50/99 (50%) of bladder TCC tumors, co-deleted with CDKN2A [PMID:24121792](../papers/24121792.md)
 - Homozygous deletion together with CDKN2A in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
+- Deletion/mutation in 15–27% of intrahepatic CCA and 19% of extrahepatic CCA (co-deleted with CDKN2A); deletion emergence as an acquired-resistance mechanism in [FGFR2](../genes/FGFR2.md) fusion-positive iCCA after FGFR inhibitor therapy [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -74,25 +75,28 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:18772890](../papers/18772890.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: ERBB2
 aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ERBB2
@@ -50,12 +50,14 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Focally amplified with protein overexpression in 25% of serous/serous-like endometrial tumours; amplification reported in 27% of uterine serous carcinomas, forming basis for HER2-targeted therapy hypothesis; mutually exclusive with [FBXW7](../genes/FBXW7.md) in WNT module analysis [PMID:23636398](../papers/23636398.md)
 - Focal high-level amplification in 6.2% (6/97) of high-grade bladder tumors with corresponding mRNA up-regulation and 3+ HER2 IHC; framed as a validated actionable target analogous to breast/gastroesophageal disease [PMID:23897969](../papers/23897969.md)
 - Focal amplification in bladder TCC [PMID:24121792](../papers/24121792.md)
-- ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in RMS genomic characterization [PMID:24436047](../papers/24436047.md)
+- ERBB2 recurrently mutated in 1.4% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; identified as part of a 93%-targetable kinase axis alongside [FGFR4](../genes/FGFR4.md), [IGF1R](../genes/IGF1R.md), [PDGFRA](../genes/PDGFRA.md), and [MET](../genes/MET.md) in [RMS](../cancer_types/RMS.md) genomic characterization [PMID:24436047](../papers/24436047.md)
 - ERBB2 mutation or amplification in 9% of muscle-invasive bladder cancers (significant by COSMIC restriction); alteration frequency comparable to TCGA HER2-positive breast cancer but with fewer amplifications and more mutations; supports ongoing ERBB2-targeted therapy trials [PMID:24476821](../papers/24476821.md)
-- Mentioned in the context of RTK signaling and targeted therapy landscape in HCC (2014 genomics review) [PMID:24735922](../papers/24735922.md)
-- ERBB-pathway member cited in context of prior GBC whole-exome data (Li et al. Nat Genet 2014) showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
-- Altered in 17% of CIN gastric adenocarcinoma (STAD) cases; alterations include focal amplification and recurrent S310F-class hotspot mutations (3% mutation overall); established drug target in CIN subtype [PMID:25079317](../papers/25079317.md)
-- Activating in-frame insertion and point mutations (n=5) and focal amplification in the oncogene-negative subset of LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- Mentioned in the context of RTK signaling and targeted therapy landscape in [HCC](../cancer_types/HCC.md) (2014 genomics review) [PMID:24735922](../papers/24735922.md)
+- ERBB-pathway member cited in context of prior [GBC](../cancer_types/GBC.md) whole-exome data (Li et al. Nat Genet 2014) showing recurrent ERBB-pathway mutations activating AKT in GBC [PMID:24997986](../papers/24997986.md)
+- Altered in 17% of CIN gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) cases; alterations include focal amplification and recurrent S310F-class hotspot mutations (3% mutation overall); established drug target in CIN subtype [PMID:25079317](../papers/25079317.md)
+- Activating in-frame insertion and point mutations (n=5) and focal amplification in the oncogene-negative subset of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- Amplification/overexpression in 4–6% iCCA and 3–20% eCCA; targetable with [pertuzumab](../drugs/pertuzumab.md) + [trastuzumab](../drugs/trastuzumab.md) (MyPathway ORR 23%) and [trastuzumab-deruxtecan](../drugs/trastuzumab-deruxtecan.md) (ORR 22.0%, mPFS 4.6 mo, mOS 7.0 mo in CCA). [PMID:25526346](../papers/25526346.md)
+- Amplification and mutation confirmed in gastric cancer (GC) cohort (294 Tianjin cases); standard trastuzumab target. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -106,82 +108,88 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

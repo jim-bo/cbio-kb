@@ -3,8 +3,8 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # IDH2
@@ -25,6 +25,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - Somatic variants in 3 [MPN](../cancer_types/MPN.md) patients combined (with [IDH1](../genes/IDH1.md)) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Codon 172 hotspot missense mutations in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)); absent in gallbladder carcinoma ([GBC](../cancer_types/GBC.md)) in this study; IDH mutation associated with worse 3-year survival (HR 7.37, P=0.037 adjusted) [PMID:24185509](../papers/24185509.md)
 - Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
+- IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from IDH1 to IDH2 [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -50,22 +51,25 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:38117484](../papers/38117484.md)
 - [PMID:27806376](../papers/27806376.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

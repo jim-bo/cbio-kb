@@ -3,8 +3,8 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # ALK
@@ -23,8 +23,9 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK fusion in 6% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - ALK inhibitor sensitivity profiled across cancer cell lines in the Cancer Cell Line Encyclopedia (CCLE), linking ALK alterations to drug response [PMID:22460905](../papers/22460905.md)
 - Recurrently mutated in neuroblastoma (Broad WES/WGS, 240 tumors); ALK point mutations and amplifications found as key oncogenic drivers in neuroblastoma [PMID:23334666](../papers/23334666.md)
-- ALK-fusion lung cancer treated with crizotinib is cited as a resistance analogy in HCC targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:24735922](../papers/24735922.md)
-- Fusions detected in 3/230 (1.3%) LUAD cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined LUAD [PMID:25079552](../papers/25079552.md)
+- ALK-fusion lung cancer treated with [crizotinib](../drugs/crizotinib.md) is cited as a resistance analogy in [HCC](../cancer_types/HCC.md) targeted therapy — acquired resistance is expected and motivates combination regimens [PMID:24735922](../papers/24735922.md)
+- Fusions detected in 3/230 (1.3%) [LUAD](../cancer_types/LUAD.md) cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined LUAD [PMID:25079552](../papers/25079552.md)
+- Fusions in 0.8% (4/484) of papillary thyroid carcinomas, including EML4/ALK; fusion-positive tumors characterized by younger age and are a potential targetable alteration [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -54,19 +55,22 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:30325352](../papers/30325352.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22460905](../papers/22460905.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24735922](../papers/24735922.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

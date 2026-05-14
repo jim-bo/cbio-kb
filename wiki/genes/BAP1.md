@@ -8,8 +8,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # BAP1
@@ -31,9 +31,10 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Inactivating mutations (nonsense, frameshift, splice-site) in 13/64 (20%) intrahepatic cholangiocarcinoma; first report in a gastrointestinal cancer; encodes a nuclear deubiquitinase implicated in chromatin remodeling [PMID:24185509](../papers/24185509.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar carcinomas; flagged as candidate for DNA cross-linking agents and PARP inhibition [PMID:24293293](../papers/24293293.md)
 - Subclonal/branch driver in ccRCC; RMH008 harbored three independent BAP1 hits (p.Gln277*, p.Asn411fs, p.Pro519fs); BAP1 mutation is a marker of poor prognosis and was heterogeneous in all cases detected across 10 ccRCC tumors [PMID:24487277](../papers/24487277.md)
-- Somatic mutation reported in the HCC molecular landscape (WES, n=1,289) as a non-actionable driver [PMID:24798001](../papers/24798001.md)
+- Somatic mutation reported in the [HCC](../cancer_types/HCC.md) molecular landscape (WES, n=1,289) as a non-actionable driver [PMID:24798001](../papers/24798001.md)
 - Recurrent somatic mutations in thymic carcinomas (cohort-level observation) [PMID:24974848](../papers/24974848.md)
 - Referenced as a known germline kidney-cancer predisposition gene; somatic profiles of nccRCC are contrasted against its germline role [PMID:25401301](../papers/25401301.md)
+- Loss enriched in non-fluke-related cholangiocarcinoma and small-duct intrahepatic CCA; small-duct iCCA arising on chronic liver disease backgrounds enriched for BAP1 and IDH1/IDH2 hotspot mutations and [FGFR2](../genes/FGFR2.md) fusions [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -59,37 +60,40 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:37730754](../papers/37730754.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - histone-methyltransferase
   - chromatin-remodeling
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MEN1
@@ -22,6 +22,7 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - MEN1 was the most frequently mutated gene in PanNETs, with inactivating mutations (indels, nonsense, splice-site) in 44% of 68 tumors by exome sequencing; biallelic inactivation documented, consistent with classic two-hit tumor suppressor model [PMID:21252315](../papers/21252315.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; occurred in a mixed acinar-ductal carcinoma without neuroendocrine features [PMID:24293293](../papers/24293293.md)
 - Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (PanNENs/PulNENs); PanNEN-specific large-scale LOH observed; MEN1 loss used to support cell-cycle and MTOR-inhibitor ([everolimus](../drugs/everolimus.md)) therapy recommendations in multiple patients [PMID:24326773](../papers/24326773.md)
+- MEN1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors in the TCGA thyroid cohort [PMID:25417114](../papers/25417114.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

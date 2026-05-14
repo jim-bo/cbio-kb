@@ -8,13 +8,18 @@ aliases:
   - RNHF
 cancer_types:
   - PAAD
+  - IHCH
+  - STAD
 tags:
   - tgf-beta-signaling
   - tumor-suppressor
   - gi-cancers
   - early-stage
-processed_by: wiki-cli
-processed_at: 2026-05-11
+  - cholangiocarcinoma
+  - gastric-cancer
+  - mismatch-repair
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # TGFBR2
@@ -30,7 +35,9 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - Among significantly mutated genes in pancreatic cancer WES of 142 ICGC tumors; TGFBR2 is a receptor in the TGF-beta signaling pathway [PMID:23103869](../papers/23103869.md)
 - Highlighted as a downstream pathway feature in TieDIE/focal-deletion analyses of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - TGFBR2 included in prevalence-screen panel for intrahepatic cholangiocarcinoma and gallbladder cancer in a multi-institution exome-sequencing study [PMID:24185509](../papers/24185509.md)
-- Expression positively correlated with stromal SEMA7A in GBC (GSE139682); co-expressed in the desmoplastic stroma alongside TGFBR1, fibrillar collagens, and ACTA2. [PMID:24997986](../papers/24997986.md)
+- Expression positively correlated with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md) (GSE139682); co-expressed in the desmoplastic stroma alongside [TGFBR1](../genes/TGFBR1.md), fibrillar collagens, and [ACTA2](../genes/ACTA2.md). [PMID:24997986](../papers/24997986.md)
+- TGFBR2 enriched in large-duct-type intrahepatic cholangiocarcinoma (iCCA), together with [FBXW7](../genes/FBXW7.md) and [MYC](../genes/MYC.md); large-duct iCCA is biologically distinct from small-duct iCCA. [PMID:25526346](../papers/25526346.md)
+- TGFBR2 frameshift/MMR-deficiency mutations detected in the hypermutated gastric cancer patient Pt1 (Tianjin Chinese cohort), alongside [MSH6](../genes/MSH6.md), [KDM5A](../genes/KDM5A.md), and [KMT2D](../genes/KMT2D.md), reflecting mismatch-repair deficiency at this TGF-β receptor gene. [PMID:25583476](../papers/25583476.md)
 
 ## Cancer types (linked)
 
@@ -55,19 +62,25 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 
 - [PMID:39214094](../papers/39214094.md) — McIntyre et al. (2024). "Distinct clinical outcomes and biological features of specific [KRAS](../genes/KRAS.md) mutants in human pancreatic cancer." *Cancer Cell*. MSK PDAC resected cohort (n=1,360 patients; n=397 sequenced with MSK-IMPACT).
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

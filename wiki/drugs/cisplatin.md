@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # cisplatin
@@ -38,9 +38,11 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin (with surgery and radiation) remains the standard-of-care backbone for OSCC at the time of the Pickering 2013 OSCC genomic analysis; no new biomarkers were validated for prospective treatment selection [PMID:23619168](../papers/23619168.md)
 - TCGA endometrial cancer analysis (2013) suggests ~25% of high-grade endometrioid tumors have a copy-number-high serous-like molecular phenotype and may benefit from chemotherapy regimens including cisplatin rather than adjuvant radiotherapy [PMID:23636398](../papers/23636398.md)
 - In muscle-invasive bladder carcinoma (n=131 [BLCA](../cancer_types/BLCA.md)), cisplatin-based chemotherapy was the reference standard of care at the time of the TCGA analysis with a median survival of 14–15 months for recurrent/metastatic disease; no molecularly targeted agent had been approved [PMID:24476821](../papers/24476821.md)
-- Cited in HCC trials (CELESTIAL, SHARP supporting context) as a reference comparator chemotherapy; sorafenib combinations not primary focus [PMID:24798001](../papers/24798001.md)
-- Platinum-based backbone (cisplatin + gemcitabine) is the standard chemotherapy platform for R/M NPC; sintilimab added to CCRT with cisplatin improved 36-mo EFS to 86% vs 76% (HR 0.59) [PMID:24952746](../papers/24952746.md)
-- Somatic [[ERCC2]] mutations were found exclusively in cisplatin responders (9/25, 36%) in muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy; ERCC2 mutation is proposed as a predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
+- Cited in [HCC](../cancer_types/HCC.md) trials (CELESTIAL, SHARP supporting context) as a reference comparator chemotherapy; [sorafenib](../drugs/sorafenib.md) combinations not primary focus [PMID:24798001](../papers/24798001.md)
+- Platinum-based backbone (cisplatin + [gemcitabine](../drugs/gemcitabine.md)) is the standard chemotherapy platform for R/M [NPC](../cancer_types/NPC.md); [sintilimab](../drugs/sintilimab.md) added to CCRT with cisplatin improved 36-mo EFS to 86% vs 76% (HR 0.59) [PMID:24952746](../papers/24952746.md)
+- Somatic [[[ERCC2](../genes/ERCC2.md)]] mutations were found exclusively in cisplatin responders (9/25, 36%) in muscle-invasive urothelial carcinoma treated with neoadjuvant cisplatin-based chemotherapy; ERCC2 mutation is proposed as a predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
+- Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with gemcitabine, with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; BRCA1/2 mutations (~3–5% of CCA) predict platinum sensitivity [PMID:25526346](../papers/25526346.md)
+- Standard front-line platinum-based chemotherapy for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); [BRCA2](../genes/BRCA2.md) mutation (17/294 cases, 5.8%) independently predicts longer survival (pooled HR 0.37, P=0.05) and may predict platinum and PARP-inhibitor sensitivity, paralleling ovarian cancer [PMID:25583476](../papers/25583476.md)
 
 ## Resistance mechanisms
 
@@ -63,34 +65,40 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:39753968](../papers/39753968.md) — Varghese, Perry et al. (2024). MSK PDAC cohort; cisplatin referenced in chemotherapy background context.
 - [PMID:40256659](../papers/40256659.md) — Guercio et al. (2025). CALGB 90601 cfDNA study; cisplatin-based chemotherapy backbone; DDR predictive value null (underpowered); VAF and TERT/PIK3CA/ERBB2 as prognostic markers.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:19176454](../papers/19176454.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23619168](../papers/23619168.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25583476](../papers/25583476.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

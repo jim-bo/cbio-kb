@@ -4,7 +4,7 @@ aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # NTRK1
@@ -24,6 +24,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - Part of NTRK family (NTRK1/2/3) with 20 total mutations in 188 [LUAD](../cancer_types/LUAD.md) tumours, 7 in kinase domains; recurrent somatic mutations establish NTRK1 as a [LUAD](../cancer_types/LUAD.md) candidate driver. [PMID:18948947](../papers/18948947.md)
 - NTRK1 LMNA::NTRK1 fusion in 1 [GBC](../cancer_types/GBC.md) patient (OncoKB level 1; FDA-recognized biomarker predictive of response to entrectinib/larotrectinib) [PMID:36228155](../papers/36228155.md)
 - Discussed as analogous context: NTRK1 fusions in other cancers provide precedent for the [NTRK2](../genes/NTRK2.md) kinase-domain-retaining fusions newly described in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
+- NTRK1 fusions detected in PTC; ETV6/NTRK3 and RBPMS/NTRK3 fusions among 1.2% (6/484) NTRK events; fusions were BRS-neutral in the BVL/RL classification [PMID:25417114](../papers/25417114.md)
+- NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
 
 ## Cancer types (linked)
 
@@ -52,13 +54,19 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25417114](../papers/25417114.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:25526346](../papers/25526346.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

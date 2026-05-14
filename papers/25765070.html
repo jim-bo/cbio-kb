@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutational landscape determines sensitivity to PD-1 blockade in non–small cell lung cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25765070.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25765070.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutational landscape determines sensitivity to PD-1 blockade in non–small cell lung cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Naiyer A. Rizvi </p>
+             <p>Matthew D. Hellmann </p>
+             <p>Alexandra Snyder </p>
+             <p>Pia Kvistborg </p>
+             <p>Vladimir Makarov </p>
+             <p>Jonathan J. Havel </p>
+             <p>William Lee </p>
+             <p>Jianda Yuan </p>
+             <p>Phillip Wong </p>
+             <p>Teresa S. Ho </p>
+             <p>Martin L. Miller </p>
+             <p>Natasha Rekhtman </p>
+             <p>Andre L. Moreira </p>
+             <p>Fawzia Ibrahim </p>
+             <p>Cameron Bruggeman </p>
+             <p>Billel Gasmi </p>
+             <p>Roberta Zappasodi </p>
+             <p>Yuka Maeda </p>
+             <p>Chris Sander </p>
+             <p>Edward B. Garon </p>
+             <p>Taha Merghoub </p>
+             <p>Jedd D. Wolchok </p>
+             <p>Ton N. Schumacher </p>
+             <p>Timothy A. Chan </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1126/science.aaa1348">10.1126/science.aaa1348</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25765070 · <strong>DOI:</strong> 10.1126/science.aaa1348 · <strong>Journal:</strong> Science (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Rizvi et al.&nbsp;performed whole-exome sequencing on tumors from two independent cohorts of <a href="../cancer_types/NSCLC.html">NSCLC</a> patients (discovery n=16, validation n=18) treated with the anti–PD-1 antibody <a href="../drugs/pembrolizumab.html">pembrolizumab</a>. Higher nonsynonymous somatic mutation burden was significantly associated with objective response, durable clinical benefit (DCB), and progression-free survival (PFS). A molecular smoking signature, neoantigen burden, and deleterious mutations in DNA repair/replication genes (notably <a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/POLE.html">POLE</a>, <a href="../genes/MSH2.html">MSH2</a>) also correlated with efficacy. In one exceptional responder, anti–PD-1 therapy expanded a CD8+ T cell response specific for a mutant <a href="../genes/HERC1.html">HERC1</a> P3278S neoantigen that paralleled radiographic tumor regression <a href="../papers/25765070.html">PMID:25765070</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>Two independent cohorts of advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> patients treated with <a href="../drugs/pembrolizumab.html">pembrolizumab</a>: discovery cohort n=16 and validation cohort n=18 (34 paired tumor/normal exomes total), cBioPortal study <a href="../datasets/nsclc_mskcc_2015.html">nsclc_mskcc_2015</a> <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Assay: tumor/normal <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> with mean target coverage 164× (94.5% of target covered ≥10×); orthogonal Ampliseq resequencing of 376 variants confirmed 357 (95%) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Cancer type: <a href="../cancer_types/NSCLC.html">NSCLC</a> (advanced, anti–PD-1–treated) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>PD-L1 expression measured by <a href="../methods/pd-l1-ihc-22c3.html">PD-L1 IHC 22C3</a> (clone 22C3, Merck) on 30/34 patients <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>HLA class I–restricted neoantigen prediction (mutant nonamers with ≤500 nM binding affinity) and MHC multimer screening on serially collected peripheral blood lymphocytes <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Data deposited at cBioPortal (study “Rizvi lung cancer”) and dbGaP accession phs000980.v1.p1 <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Discovery cohort (n=16):</strong> median nonsynonymous mutations 302 in DCB vs 148 in NDB (Mann-Whitney P=0.02); 73% of high-burden patients (above median 209) achieved DCB vs 13% of low-burden patients (Fisher P=0.04). ORR 63% vs 0% (Fisher P=0.03); median PFS 14.5 vs 3.7 months (HR 0.19, 95% CI 0.05–0.70, log-rank P=0.01) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Validation cohort (n=18):</strong> median nonsynonymous mutations 244 in DCB vs 125 in NDB (Mann-Whitney P=0.04). DCB 83% vs 22% above median 200 (Fisher P=0.04); median PFS not reached vs 3.4 months (HR 0.15, 95% CI 0.04–0.59, log-rank P=0.006) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Cutoff ≥178 nonsynonymous mutations</strong> (chosen for maximal sensitivity/specificity in discovery): discovery sensitivity 100%, specificity 67%; validation sensitivity 86%, specificity 75%; only one patient with &lt;178 mutations achieved an objective response (transient, 8 months) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Pooled (n=34):</strong> median nonsynonymous mutations 299 (DCB) vs 127 (NDB), Mann-Whitney P=0.0008; PFS HR 0.19 (95% CI 0.08–0.47, log-rank P=0.0004) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Mutation spectrum:</strong> C→A transversions enriched and C→T transitions depleted in DCB vs NDB (both Mann-Whitney P=0.01); transversion/transition ratio 0.74 overall <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Molecular smoking signature (<a href="../genes/TH.html">TH</a> vs TL classifier):</strong> ORR 56% TH vs 17% TL (Fisher P=0.03); DCB 77% vs 22% (Fisher P=0.004); PFS not reached vs 3.5 months (HR 0.15, 95% CI 0.06–0.39, log-rank P=0.0001). Self-reported smoking history did <strong>not</strong> significantly stratify DCB or PFS (Fisher P=0.66, log-rank P=0.29) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Neoantigen burden:</strong> median 112 candidate neoantigens per tumor (range 8–610); strongly correlated with mutation burden (Spearman ρ=0.91, P&lt;0.0001). DCB tumors had median 203 vs 83 in NDB (Mann-Whitney P=0.001); PFS 14.5 vs 3.5 months by neoantigen burden (log-rank P=0.002). Specific HLA alleles did not correlate with efficacy <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Exceptional responder (Study ID 9):</strong> anti–PD-1 induced a CD8+ T cell response against a <a href="../genes/HERC1.html">HERC1</a> P3278S neoantigen (ASNASSAAK, <a href="../genes/HLA-A.html">HLA-A</a>–restricted). Baseline frequency &lt;0.005%, rising to 0.040% of CD8+ cells by day 21 and maintained at day 44, paralleling tumor regression. Reactive T cells were CD45RA−CCR7−HLA-DR+LAG-3+, consistent with activated effector phenotype. Polyfunctional response (IFNγ, TNFα, CD107a, CCL4) to mutant but not wild-type peptide confirmed specificity <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>PD-L1 + mutation burden:</strong> among PD-L1–expressing tumors (weak or strong), DCB was 91% (10/11) with high mutation burden (&gt;200) vs 10% (1/10) with low burden; in weak PD-L1 specifically, high burden gave 75% DCB vs 11% for low <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/POLD1.html">POLD1</a> — exonuclease-domain mutations E374K (in a never-smoker DCB patient with the highest never-smoker burden, 507 nonsynonymous mutations) and C284Y (in the highest-burden tumor in the series). Both lie in the proofreading domain and likely produce a hypermutator phenotype with C→T predominance distinct from the smoking signature <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/POLE.html">POLE</a> — deleterious mutation identified in one of three responders with the highest mutation burden <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/MSH2.html">MSH2</a> — deleterious mutation identified in one of three top-burden responders, consistent with mismatch-repair–driven hypermutation <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/PRKDC.html">PRKDC</a> — nonsense mutations observed; required for DNA-dependent protein kinase (DNA-PK) activity and genomic integrity <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/RAD17.html">RAD17</a> — nonsense mutations observed; required for proper DNA damage response <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/POLR2A.html">POLR2A</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/PAPPA2.html">PAPPA2</a>, <a href="../genes/PXDNL.html">PXDNL</a>, <a href="../genes/RYR1.html">RYR1</a>, <a href="../genes/SCN8A.html">SCN8A</a>, <a href="../genes/SLIT3.html">SLIT3</a> — each harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients (associations not corrected for mutation burden) <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — mutated in 7/14 DCB tumors vs 1/17 NDB tumors; authors attribute the imbalance to the established association between smoking and <a href="../genes/KRAS.html">KRAS</a> mutations in NSCLC rather than a direct causal effect on PD-1 response <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/CD274.html">CD274</a> (PD-L1) — no mutations or copy-number alterations in <a href="../genes/CD274.html">CD274</a> or in antigen-presentation pathway genes were associated with response or resistance <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><a href="../genes/HERC1.html">HERC1</a> — P3278S missense mutation generated the validated HLA-A–restricted neoantigen ASNASSAAK that drove a measurable, treatment-induced CD8+ T cell response in an exceptional responder <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Biomarker:</strong> Nonsynonymous tumor mutation burden (with a candidate cutoff of ≥178 mutations in this exome-derived series) is a candidate predictive biomarker for durable clinical benefit and prolonged PFS on <a href="../drugs/pembrolizumab.html">pembrolizumab</a> in <a href="../cancer_types/NSCLC.html">NSCLC</a> <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Mechanism:</strong> The data support a neoantigen-mediated mechanism for anti–PD-1 efficacy — total nonsynonymous burden correlated more tightly with benefit than total exonic burden, and a single neoantigen-specific T cell expansion paralleled tumor regression in vivo <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Combinatorial biomarker:</strong> Mutation burden stratified outcomes even within PD-L1–positive tumors, suggesting mutation burden and PD-L1 IHC (<a href="../methods/pd-l1-ihc-22c3.html">pd-l1-ihc-22c3</a>) capture complementary information <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>DNA repair as a precision-immuno-oncology axis:</strong> Deleterious mutations in <a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/POLE.html">POLE</a>, and <a href="../genes/MSH2.html">MSH2</a> identify a never-smoker subset of NSCLC that can still reach the high-burden state and benefit from PD-1 blockade <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li><strong>Monitoring:</strong> Detection of neoantigen-specific CD8+ T cell expansions in peripheral blood raises the possibility of blood-based pharmacodynamic assays for anti–PD-1 therapy <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Small cohorts (n=16 discovery, n=18 validation) limit precision of cutoff selection and subgroup analyses <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>The trial enrolled patients enriched for PD-L1 expression (24/30 with detectable expression), limiting independent assessment of mutation burden in PD-L1–negative tumors <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Gene-level associations (e.g.&nbsp;<a href="../genes/POLR2A.html">POLR2A</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/PAPPA2.html">PAPPA2</a>, <a href="../genes/PXDNL.html">PXDNL</a>, <a href="../genes/RYR1.html">RYR1</a>, <a href="../genes/SCN8A.html">SCN8A</a>, <a href="../genes/SLIT3.html">SLIT3</a>) were not corrected for the elevated overall mutation burden in DCB tumors and require independent validation <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>The 178-mutation cutoff was derived from whole-exome data and does not directly transfer to targeted panels without recalibration <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Five of 18 high-burden tumors (≥178 mutations) had no durable benefit, indicating mutation burden is necessary but not sufficient for response — additional immune resistance mechanisms remain to be characterized <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>Neoantigen-specific T cell tracking was demonstrated in only one exceptional responder; the generalizability of peripheral neoantigen reactivity as a response biomarker is unestablished <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+<li>The cohort and mutation spectrum are consistent with prior NSCLC genomic series including the TCGA <a href="../cancer_types/LUAD.html">LUAD</a> landscape <a href="../papers/25079552.html">PMID:25079552</a>; the conceptual framework extends Snyder et al.’s prior neoantigen findings in melanoma–<a href="../drugs/ipilimumab.html">ipilimumab</a> <a href="../papers/25409260.html">PMID:25409260</a> into the anti–PD-1 NSCLC setting <a href="../papers/25765070.html">PMID:25765070</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“In the discovery cohort (n = 16), the median number of nonsynonymous mutations was 302 in patients with durable clinical benefit (DCB)…versus 148 with no durable benefit (NDB) (Mann-Whitney P = 0.02)” (p.&nbsp;2).</li>
+<li>“Seventy-three percent of patients with high nonsynonymous burden…experienced DCB, compared with 13% of those with low mutation burden (below median) (Fisher’s exact P = 0.04)” (p.&nbsp;2).</li>
+<li>“median PFS 14.5 versus 3.7 months, log-rank P = 0.01; hazard ratio (HR) 0.19, 95% confidence interval (CI) 0.05 to 0.70” (p.&nbsp;3, discovery cohort).</li>
+<li>“HR 0.15, 95% CI 0.04 to 0.59” (p.&nbsp;3, validation cohort PFS).</li>
+<li>“Patients with nonsynonymous mutation burden ≥178, the cut point that combined maximal sensitivity with best specificity, had a likelihood ratio for DCB of 3.0” (p.&nbsp;3).</li>
+<li>“The ORR in TH tumors was 56% versus 17% in TL tumors (Fisher’s exact P = 0.03); the rate of DCB was 77% versus 22% (Fisher’s exact P = 0.004)” (p.&nbsp;3).</li>
+<li>“in three responders with the highest mutation burden, we identified deleterious mutations in <a href="../genes/POLD1.html">POLD1</a>, <a href="../genes/POLE.html">POLE</a>, and <a href="../genes/MSH2.html">MSH2</a>” (p.&nbsp;4).</li>
+<li>“a POLD1 E374K mutation was identified in a never-smoker with DCB whose tumor harbored the greatest nonsynonymous mutation burden (n = 507) of all never-smokers in our series” (p.&nbsp;4).</li>
+<li>“Mutations in KRAS were found in 7 of 14 tumors from patients with DCB compared to 1 of 17 in the NDB group” (p.&nbsp;4).</li>
+<li>“There were no mutations or copy-number alterations in antigen-presentation pathway–associated genes or CD274 [encoding programmed cell death ligand-1 (PD-L1)] that were associated with response or resistance” (p.&nbsp;4).</li>
+<li>“This analysis revealed a CD8+ T cell response against a neoantigen resulting from a HERC1 P3278S mutation (ASNASSAAK)” (p.&nbsp;5).</li>
+<li>“Among those with high nonsynonymous mutation burden (&gt;200, above median of overall cohort) and some degree of PD-L1 expression (weak/strong), the rate of DCB was 91% (10 of 11…)” (p.&nbsp;6).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25765070.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25765070.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

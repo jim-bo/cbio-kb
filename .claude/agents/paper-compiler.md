@@ -73,3 +73,11 @@ Return a single JSON object (and nothing else) so the orchestrator can parse it:
 - Never invent facts. Blank > guess.
 - Cite by PMID with a relative link to `../papers/{pmid}.md`.
 - Use HUGO symbols and OncoTree codes.
+- **Use only single-bracket Markdown links: `[name](url)`.** Never emit
+  `[[name]]`, `[[section/name]]`, `[[name](url)]`, `[[name](url)]]`,
+  `[[[name](url)]]`, `[[[name](url)|alias]]`, or `[[target|[name](url)]]`.
+  Quarto/pandoc treats these as broken markdown — the unbalanced variants
+  caused a multi-hour publish-workflow hang in 2026-05 (catastrophic
+  backtracking in pandoc's link parser). If muscle memory pulls you toward
+  Obsidian wiki-link syntax (`[[`), stop and emit a single `[` instead.
+  Inline aliasing is plain markdown: `[display](../section/id.md)`.

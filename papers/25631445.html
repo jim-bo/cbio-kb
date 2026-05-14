@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Comprehensive genomic characterization of head and neck squamous cell carcinomas – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25631445.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25631445.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Comprehensive genomic characterization of head and neck squamous cell carcinomas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>The Cancer Genome Atlas Network </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature14129">10.1038/nature14129</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25631445 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/nature14129">10.1038/nature14129</a> · <strong>Journal:</strong> Nature (2015)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The Cancer Genome Atlas Network profiled 279 head and neck squamous cell carcinomas (<a href="../cancer_types/HNSC.html">HNSC</a>) with whole-exome sequencing, low-pass whole-genome sequencing, RNA-seq, miRNA-seq, DNA methylation, RPPA, and SNP6.0 arrays. The study defined two largely non-overlapping disease biologies: human-papillomavirus-positive (HPV+, n=36) tumours dominated by helical-domain <a href="../genes/PIK3CA.html">PIK3CA</a> mutations, loss of <a href="../genes/TRAF3.html">TRAF3</a>, and amplification of <a href="../genes/E2F1.html">E2F1</a>; and smoking-related HPV-negative tumours with near-universal <a href="../genes/TP53.html">TP53</a> loss-of-function, <a href="../genes/CDKN2A.html">CDKN2A</a> inactivation, and recurrent amplifications at 3q26/28 and 11q13/22. A favourable-outcome subgroup of mostly oral-cavity tumours combined infrequent CNAs with activating <a href="../genes/HRAS.html">HRAS</a> or <a href="../genes/PIK3CA.html">PIK3CA</a> mutations and inactivating <a href="../genes/CASP8.html">CASP8</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, and <a href="../genes/TP53.html">TP53</a> mutations. Additional subgroups featured loss-of-function alterations of the chromatin modifier <a href="../genes/NSD1.html">NSD1</a>, WNT-pathway genes <a href="../genes/AJUBA.html">AJUBA</a> and <a href="../genes/FAT1.html">FAT1</a>, and activation of oxidative-stress factor <a href="../genes/NFE2L2.html">NFE2L2</a> (mainly in laryngeal tumours). Candidate therapeutic alterations were identified in most HNSCCs.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n=279</strong> head and neck squamous cell carcinomas with complete multi-platform data, drawn from a larger TCGA target of 500 tumours.</li>
+<li>Anatomic sites: oral cavity 172/279 (62%) — <a href="../cancer_types/OCSC.html">OCSC</a>; oropharynx 33/279 (12%) — <a href="../cancer_types/OPHSC.html">OPHSC</a>; larynx 72/279 (26%) — <a href="../cancer_types/LXSC.html">LXSC</a>; plus rarer <a href="../cancer_types/HPHSC.html">HPHSC</a> (hypopharynx) cases.</li>
+<li>Patients predominantly male (203/279, 73%) and heavy smokers (mean pack-years = 51).</li>
+<li>HPV status by RNA-seq read mapping to viral genes E6/E7 (threshold &gt;1,000 mapped reads): 36 HPV(+), 243 HPV(−). 64% of oropharyngeal tumours were HPV(+) vs 6% of non-oropharyngeal tumours.</li>
+<li>Cancer type: <a href="../cancer_types/HNSC.html">HNSC</a>.</li>
+<li>Dataset / cohort: <a href="../datasets/hnsc_tcga_pub.html">hnsc_tcga_pub</a> (TCGA <a href="../cancer_types/HNSC.html">HNSC</a> 2015 publication).</li>
+<li>Assays: <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> (mean coverage 95×; 82% of target bases ≥30×); high-coverage <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> on n=29; <a href="../methods/rna-seq.html">rna-seq</a>; <a href="../methods/mirna-seq.html">mirna-seq</a>; <a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a> (CNAs); <a href="../methods/hm450-methylation-array.html">hm450-methylation-array</a>; <a href="../methods/rppa.html">rppa</a>.</li>
+<li>Analytic tools: <a href="../methods/mutsig.html">mutsig</a> (MutSigCV) for significantly mutated genes; <a href="../methods/gistic.html">gistic</a> for focal CNAs; targeted re-sequencing of 394 unique regions validated 99% of mutations.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Genomic instability.</strong> Mean 141 CNAs (amplifications or deletions) per tumour from microarray data and 62 structural aberrations per tumour by WGS (n=29). 39 regions of recurrent copy-number loss and 23 of recurrent copy-number gain (q &lt; 0.1).</li>
+<li><strong>Squamous-cancer chromosomal pattern.</strong> Recurrent losses of 3p and 8p, gains of 3q, 5p, and 8q — resembling lung squamous cell carcinoma (<a href="../cancer_types/LUSC.html">LUSC</a>). Focal 3q26/28 amplifications (in both HPV(+) and HPV(−) tumours) span the squamous lineage transcription factors <a href="../genes/TP63.html">TP63</a> and <a href="../genes/SOX2.html">SOX2</a> and the oncogene <a href="../genes/PIK3CA.html">PIK3CA</a>.</li>
+<li><strong>HPV(+)-specific alterations.</strong> Novel recurrent deletions (5/36, 14%) and truncating mutations (3/36, 8%) of <a href="../genes/TRAF3.html">TRAF3</a> — the first evidence linking <a href="../genes/TRAF3.html">TRAF3</a> inactivation to HPV-associated carcinomas. Focal amplification of <a href="../genes/E2F1.html">E2F1</a>. Intact 9p21.3 (<a href="../genes/CDKN2A.html">CDKN2A</a> region) that is commonly deleted in HPV(−) tumours. HPV(+) tumours showed clear evidence of host-genome integration (usually a single locus per sample, almost always with amplification of the host genome); however, integration target genes were non-recurrent (no <a href="../genes/MYC.html">MYC</a> integrations as previously reported in HPV(+) cell lines).</li>
+<li><strong>HPV(−)-specific alterations.</strong> Co-amplifications of 11q13 (<a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FADD.html">FADD</a>, <a href="../genes/CTTN.html">CTTN</a>) and 11q22 (<a href="../genes/BIRC2.html">BIRC2</a>, <a href="../genes/YAP1.html">YAP1</a>) — implicating cell-death/NF-κB and Hippo pathways. Novel focal deletions in <a href="../genes/NSD1.html">NSD1</a> and tumour-suppressors (<a href="../genes/FAT1.html">FAT1</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>). Recurrent focal RTK amplifications (<a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/FGFR1.html">FGFR1</a>).</li>
+<li><strong>Mutation rates.</strong> 12,159 synonymous and 37,061 non-synonymous somatic variants across 279 samples. Mutation rates did not differ by HPV status, but transversions at CpG sites were more frequent in HPV(−) tumours and a TpC-mutation predominance (APOBEC-like signature) was noted in HPV(+) cases.</li>
+<li><strong>Significantly mutated genes (MutSigCV, q &lt; 0.1).</strong> Eleven genes statistically significant: <a href="../genes/TP53.html">TP53</a> 72%, <a href="../genes/CDKN2A.html">CDKN2A</a> 22%, <a href="../genes/FAT1.html">FAT1</a> 23%, <a href="../genes/PIK3CA.html">PIK3CA</a> 21%, <a href="../genes/NOTCH1.html">NOTCH1</a> 19%, <a href="../genes/KMT2D.html">KMT2D</a> (MLL2) 18%, <a href="../genes/NSD1.html">NSD1</a> 10%, <a href="../genes/CASP8.html">CASP8</a> 9%, <a href="../genes/AJUBA.html">AJUBA</a> 6%, <a href="../genes/NFE2L2.html">NFE2L2</a> 6%, <a href="../genes/HLA-A.html">HLA-A</a> 3%. Trend-significant (q &lt; 1): <a href="../genes/HRAS.html">HRAS</a> 4%, <a href="../genes/FBXW7.html">FBXW7</a> 5%, <a href="../genes/RB1.html">RB1</a> 3%, <a href="../genes/PIK3R1.html">PIK3R1</a> 1%, <a href="../genes/TRAF3.html">TRAF3</a> 1%, <a href="../genes/CUL3.html">CUL3</a> 4%, <a href="../genes/PTEN.html">PTEN</a> 2%, <a href="../genes/TGFBR2.html">TGFBR2</a> 4%.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> by HPV status.</strong> TP53 mutated in 86% of HPV(−) samples (higher than previously reported); only 1/36 HPV(+) cases had a non-synonymous TP53 mutation.</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a> hotspots.</strong> 73% of PIK3CA mutations localised to E542K, E545K, and H1047R/L hotspots. ~25% of mutated PIK3CA cases had concurrent amplification; an additional 20% of tumours had focal amplification without mutation. PIK3CA mutation frequency was 56% in HPV(+) vs 34% in HPV(−) tumours, and HPV(+) PIK3CA mutations were enriched in the helical domain (exon 9).</li>
+<li><strong><a href="../genes/HRAS.html">HRAS</a> hotspots.</strong> Recurrent activating mutations at GTPase-domain residues 11–13 (q ≈ 0.2).</li>
+<li><strong>CNA cluster (“M class”) subgroup.</strong> Unsupervised clustering of CNAs identified a mutually exclusive subset of predominantly oral-cavity tumours with reduced CNAs (mutation-driven, “M class”). This subset contained a novel three-gene pattern of activating <a href="../genes/HRAS.html">HRAS</a> mutations co-occurring with inactivating <a href="../genes/CASP8.html">CASP8</a> mutations on a wild-type <a href="../genes/TP53.html">TP53</a> background — confirming a previously reported favourable clinical outcome in HNSCCs with few CNAs.</li>
+<li><strong>Structural variants.</strong> Known fusion oncogenes involving ALK/ROS/RET were not observed. Previously reported <a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a> fusions detected in 2 HPV(+) tumours. EGFRvIII (type III isoform) in only 1/279 patients. Alternative <a href="../genes/MET.html">MET</a> exon-14 skipping transcript in 2 HPV(−) tumours. Structural alterations (homozygous deletions, intra-/inter-chromosomal fusions) more commonly drove loss of function in tumour-suppressors (<a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/FAT1.html">FAT1</a>) than protein-coding fusions.</li>
+<li><strong><a href="../genes/NSD1.html">NSD1</a> inactivation in 33 HNSCCs.</strong> Inactivating mutations (n=29) and focal homozygous deletions (n=4). NSD1 is a histone H3K36 methyltransferase, similar to <a href="../genes/SETD2.html">SETD2</a> (mutated in ccRCC); germline NSD1 inactivation causes Sotos syndrome with predisposition to squamous carcinoma. NSD1 loss associated with DNA hypomethylation.</li>
+<li><strong>Four mRNA expression subtypes confirmed</strong> (atypical 24%, mesenchymal 27%, basal 31%, classical 18%) — replicating prior HNSCC classifications. Co-occurring features per subtype:
+<ul>
+<li><strong>Classical</strong> — <a href="../genes/TP53.html">TP53</a> mutation, <a href="../genes/CDKN2A.html">CDKN2A</a> loss-of-function, chromosome 3q amplification, oxidative-stress gene alterations (<a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/CUL3.html">CUL3</a>), heavy smoking, larynx sub-site — resembling <a href="../cancer_types/LUSC.html">LUSC</a>.</li>
+<li><strong>Basal</strong> — <a href="../genes/NOTCH1.html">NOTCH1</a> inactivation with intact oxidative-stress signalling and few 3q alterations; marked relative decrease of <a href="../genes/SOX2.html">SOX2</a> expression; enriched for <a href="../genes/HRAS.html">HRAS</a>–<a href="../genes/CASP8.html">CASP8</a> co-mutation and co-amplified 11q13/q22 tumours.</li>
+<li><strong>Atypical</strong> — lack of chromosome 7 amplifications; enriched in HPV(+) tumours with <a href="../genes/PIK3CA.html">PIK3CA</a> helical-domain mutations; hypomethylation and LOF mutations of <a href="../genes/NSD1.html">NSD1</a> (with wild-type <a href="../genes/NOTCH1.html">NOTCH1</a>, shared with classical subtype).</li>
+<li><strong>Mesenchymal</strong> — high levels of innate-immunity gene alteration; high NK-cell marker CD56; low frequency of HLA class I mutations.</li>
+</ul></li>
+<li><strong>Anatomic-site differential mutations.</strong> <a href="../genes/TP53.html">TP53</a> (P&lt;0.001), <a href="../genes/CASP8.html">CASP8</a> (P=0.01), <a href="../genes/NSD1.html">NSD1</a> (P=0.01), and <a href="../genes/CDKN2A.html">CDKN2A</a> (P=0.06) were most differentially mutated across sites. 22/24 <a href="../genes/CASP8.html">CASP8</a> mutations (92%) occurred in oral-cavity tumours; TP53, NSD1, and <a href="../genes/CDKN2A.html">CDKN2A</a> had reduced mutation rates in oropharyngeal tumours.</li>
+<li><strong><a href="../genes/NFE2L2.html">NFE2L2</a> oxidative-stress axis as a tobacco signature.</strong> Alterations of <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>, and <a href="../genes/CUL3.html">CUL3</a>, with heavy smoking history and larynx sub-site, co-occurred mainly in classical-subtype tumours — paralleling <a href="../cancer_types/LUSC.html">LUSC</a>.</li>
+<li><strong>miRNA / copy-number networks.</strong> let-7c-5p and miR-100-5p were decreased in tumours vs normal; their deletion strongly associated with increased expression of target oncogenes <a href="../genes/CDK6.html">CDK6</a>, <a href="../genes/E2F1.html">E2F1</a>, <a href="../genes/PLK1.html">PLK1</a>, and <a href="../genes/HMGA2.html">HMGA2</a>.</li>
+<li><strong>Survival stratification.</strong> HPV(+) tumours and HPV(−), TP53 wild-type tumours both demonstrated favourable outcomes compared with TP53-mutant and 11q13/<a href="../genes/CCND1.html">CCND1</a>-amplified tumours.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in 72% overall (86% in HPV(−), 1/36 in HPV(+)); predominantly loss-of-function. Distinguishes HPV(−) from HPV(+) biology; central to classical subtype.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — inactivation in 22% (58% in HPV(−), 0% in HPV(+) on pathway analysis); co-occurs with TP53 loss in smoking-related tumours; falls in significant deletion peak at 9p21.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutated in 21% (56% in HPV(+), 34% in HPV(−)); 73% of mutations at hotspots E542K/E545K/H1047R/L; helical-domain enriched in HPV(+); often co-amplified.</li>
+<li><a href="../genes/TRAF3.html">TRAF3</a> — recurrent deletions (14%) and truncating mutations (8%) in HPV(+); first link to HPV-associated cancer; loss promotes aberrant NF-κB signalling.</li>
+<li><a href="../genes/E2F1.html">E2F1</a> — focal amplification predominantly in HPV(+); also increased expression via let-7c-5p/miR-100-5p loss.</li>
+<li><a href="../genes/HRAS.html">HRAS</a> — activating mutations (4%) at GTPase residues 11–13; defines an M-class oral-cavity subset with <a href="../genes/CASP8.html">CASP8</a> co-mutation and wild-type TP53.</li>
+<li><a href="../genes/CASP8.html">CASP8</a> — clustered missense and inactivating mutations (9% overall; 92% of mutations in oral cavity); anti-correlated with 11q13 amplification.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a> — inactivating mutations in 19%; <a href="../genes/NOTCH2.html">NOTCH2</a> (9%) and <a href="../genes/NOTCH3.html">NOTCH3</a> (5%) non-significant; convergent with FAT1/AJUBA on β-catenin signalling.</li>
+<li><a href="../genes/AJUBA.html">AJUBA</a> — previously unreported somatic mutations and deletions (6%); primarily 5′-inactivating events plus clustered missense in the LIM domain; regulates Hippo/Wnt/β-catenin.</li>
+<li><a href="../genes/FAT1.html">FAT1</a> — mutated in 23%; novel SMG in HNSCC; aberrant Wnt activation.</li>
+<li><a href="../genes/NSD1.html">NSD1</a> — inactivating mutations (n=29) and focal homozygous deletions (n=4) in 33 tumours (10%); H3K36 methyltransferase; loss associated with DNA hypomethylation; defines atypical/classical mRNA-subtype enrichment.</li>
+<li><a href="../genes/NFE2L2.html">NFE2L2</a> — significantly mutated in 6%; activating; tobacco-associated; co-occurs with <a href="../genes/KEAP1.html">KEAP1</a> and <a href="../genes/CUL3.html">CUL3</a> alterations in classical subtype.</li>
+<li><a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a> — oxidative-stress complex partners of NFE2L2; tobacco signature.</li>
+<li><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/FADD.html">FADD</a>, <a href="../genes/CTTN.html">CTTN</a> — 11q13 co-amplification cassette (31% in HPV(−); 3% in HPV(+)).</li>
+<li><a href="../genes/BIRC2.html">BIRC2</a>, <a href="../genes/YAP1.html">YAP1</a> — 11q22 co-amplification (rarely amplified without 11q13); selection inferred from <a href="../genes/BIRC2.html">BIRC2</a>–<a href="../genes/FADD.html">FADD</a>–caspase cascade interaction inhibiting cell death; majority of 11q13-amplified tumours had large telomeric 11q22 deletions including <a href="../genes/ATM.html">ATM</a>, <a href="../genes/CASP1.html">CASP1</a>, CASP4, CASP5, CASP12.</li>
+<li><a href="../genes/KMT2D.html">KMT2D</a> (MLL2) — significantly mutated (18%); contributes to defective immunosurveillance.</li>
+<li><a href="../genes/HLA-A.html">HLA-A</a> — significantly mutated (3%); immune-evasion role.</li>
+<li><a href="../genes/TGFBR2.html">TGFBR2</a> — sporadic inactivating mutations and deletions; primarily oral-cavity tumours.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — recurrent Arg505Gly/Leu substitutions (n=14); falls in 4q31.3 significant deletion peak; targets cyclin E and NOTCH.</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a> — mutated in 1%; one of multiple genes with at least one identical COSMIC mutation.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — mutated/altered in 2% overall; component of RTK/RAS/PI(3)K alteration in 62% of HPV(−) and 61% of HPV(+) tumours.</li>
+<li><a href="../genes/RB1.html">RB1</a> — mutations in 3%; structural alterations more often inactivating than coding fusions.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — focal amplification in 15% of HPV(−) vs 6% of HPV(+); rare EGFRvIII isoform (1/279).</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — focal amplification in HPV(−) (3%).</li>
+<li><a href="../genes/FGFR1.html">FGFR1</a> — focal amplification in HPV(−) (10%) vs 0% HPV(+).</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — amplification in 2% HPV(−) vs 11% HPV(+); <a href="../genes/FGFR3.html">FGFR3</a>–TACC3 fusions in 2 HPV(+) tumours.</li>
+<li><a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/IGF1R.html">IGF1R</a>, <a href="../genes/DDR2.html">DDR2</a>, <a href="../genes/EPHA2.html">EPHA2</a>, <a href="../genes/MET.html">MET</a> — additional candidate RTK alterations across HPV groups (Fig. 3).</li>
+<li><a href="../genes/MYC.html">MYC</a> — amplification in 14% HPV(−) and 3% HPV(+); not the target of HPV integration in this cohort.</li>
+<li><a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/TP63.html">TP63</a> — 3q26/28 co-amplified squamous-lineage transcription factors; <a href="../genes/TP63.html">TP63</a> RNA splice variants identified.</li>
+<li><a href="../genes/ZNF750.html">ZNF750</a> — TP63 target; mutation in 4% within significant 17q25.3 deletion peak.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — focal deletions in HPV(−) tumour-suppressor set.</li>
+<li><a href="../genes/NF1.html">NF1</a> — alteration in 3% HPV(−).</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — terminal node of Wnt convergence implicated via FAT1/AJUBA/NOTCH inactivation.</li>
+<li><a href="../genes/B2M.html">B2M</a> — implicated in HLA-A/B antigen presentation pathway alterations (7% HPV(−), 11% HPV(+)).</li>
+<li><a href="../genes/PTCH1.html">PTCH1</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/SCN9A.html">SCN9A</a> — genes with at least one identical previously COSMIC-reported mutation.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Therapeutic candidate alterations identified in most HNSCCs</strong> (Fig. 3 and pathway analyses).</li>
+<li><strong>HPV(+) oropharyngeal cancers</strong> — aberrant NF-κB activation via <a href="../genes/TRAF3.html">TRAF3</a> loss, <a href="../genes/PIK3CA.html">PIK3CA</a> activating mutations, and <a href="../genes/E2F1.html">E2F1</a> amplification suggest opportunities for PI(3)K-pathway and cell-cycle-targeted therapy.</li>
+<li><strong>HPV(−) oncogenic axes</strong> — mutually exclusive subsets defined by 11q13/<a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/FADD.html">FADD</a>/<a href="../genes/BIRC2.html">BIRC2</a>/<a href="../genes/YAP1.html">YAP1</a> co-amplification or by <a href="../genes/CASP8.html">CASP8</a>–<a href="../genes/HRAS.html">HRAS</a> co-mutation; both target cell cycle, cell death, NF-κB, and Hippo pathways and motivate BIRC-, PI(3)K-, Wnt/β-catenin-, and NOTCH-targeted strategies (under investigation).</li>
+<li><strong>Favourable outcomes</strong> in HPV(+) and HPV(−)/TP53 wild-type tumours vs poorer outcomes in TP53-mutant and 11q13/CCND1-amplified tumours — supporting <a href="../genes/TP53.html">TP53</a> status and 11q13 amplification as candidate prognostic biomarkers beyond HPV.</li>
+<li><strong>Oral-cavity M-class subset</strong> (<a href="../genes/HRAS.html">HRAS</a> + <a href="../genes/CASP8.html">CASP8</a> + wild-type <a href="../genes/TP53.html">TP53</a>, few CNAs) — favourable outcome subgroup that may warrant de-escalated therapy.</li>
+<li><strong>Wnt/β-catenin axis</strong> — combined inactivation of <a href="../genes/AJUBA.html">AJUBA</a>, <a href="../genes/FAT1.html">FAT1</a>, and <a href="../genes/NOTCH1.html">NOTCH1</a> predicted to converge on unchecked β-catenin signalling (potential therapeutic target).</li>
+<li><strong>Tobacco-associated oxidative-stress axis</strong> (<a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a>) — highlights this complex as a therapeutic target in laryngeal/classical-subtype HNSCC, paralleling <a href="../cancer_types/LUSC.html">LUSC</a>.</li>
+<li><strong>RTK targeting</strong> — <a href="../genes/EGFR.html">EGFR</a>/<a href="../genes/ERBB2.html">ERBB2</a> or <a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/FGFR3.html">FGFR3</a> alterations are the most frequent among RTKs; HPV(−) tumours enriched for <a href="../genes/EGFR.html">EGFR</a> and <a href="../genes/FGFR1.html">FGFR1</a> amplification; HPV(+) tumours enriched for <a href="../genes/FGFR3.html">FGFR3</a> alterations (including FGFR3–TACC3 fusions).</li>
+<li><strong>Immune escape</strong> — significantly mutated <a href="../genes/HLA-A.html">HLA-A</a> and <a href="../genes/KMT2D.html">KMT2D</a> plus <a href="../genes/B2M.html">B2M</a>/HLA-B pathway alterations may contribute to defective immunosurveillance, with implications for immune-checkpoint strategies.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Cohort reflects an early TCGA freeze (279 of an a-priori 500-tumour target); statistical power for rare alterations remains limited.</li>
+<li>HPV(+) subset is modest (n=36), limiting power for HPV(+)-specific significantly mutated genes and structural variants.</li>
+<li>High-coverage whole-genome sequencing was performed in only 29 tumours; structural-variant detection sensitivity in the remainder relies on RNA-seq and SNP-array signals.</li>
+<li>HPV-integration target genes were non-recurrent, suggesting no single driver mechanism related to HPV integration — biological consequences of host-locus amplification at integration sites remain to be defined.</li>
+<li>Mechanistic significance of co-amplification of <a href="../genes/BIRC2.html">BIRC2</a>/<a href="../genes/YAP1.html">YAP1</a> at 11q22 with 11q13 in the context of telomeric 11q22 deletions (which remove ATM, CASP1, CASP4, CASP5, CASP12) needs functional dissection.</li>
+<li>Whether candidate therapeutic alterations identified across most tumours translate to clinical benefit requires prospective trials targeting the specific HPV+/HPV− and CNA-class subsets defined here.</li>
+<li>Biological roles of agents targeting BIRCs, PI(3)K, Wnt/β-catenin, and NOTCH in HNSCC are described as “under investigation” by the authors.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“The Cancer Genome Atlas profiled 279 head and neck squamous cell carcinomas (HNSCCs) to provide a comprehensive landscape of somatic genomic alterations.” (Abstract)</li>
+<li>“Human-papillomavirus-associated tumours are dominated by helical domain mutations of the oncogene PIK3CA, novel alterations involving loss of TRAF3, and amplification of the cell cycle gene <a href="../genes/E2F1.html">E2F1</a>.” (Abstract)</li>
+<li>“Smoking-related HNSCCs demonstrate near universal loss-of-function TP53 mutations and CDKN2A inactivation with frequent copy number alterations including amplification of 3q26/28 and 11q13/22.” (Abstract)</li>
+<li>“A subgroup of oral cavity tumours with favourable clinical outcomes displayed infrequent copy number alterations in conjunction with activating mutations of HRAS or PIK3CA, coupled with inactivating mutations of CASP8, <a href="../genes/NOTCH1.html">NOTCH1</a> and TP53.” (Abstract)</li>
+<li>“HPV(+) tumours were distinguished by novel recurrent deletions (n=5 out of 36, 14%) and truncating mutations (n=3 out of 36, 8%) of <a href="../genes/TNF.html">TNF</a> receptor-associated factor 3 (TRAF3).” (p.&nbsp;576)</li>
+<li>“We observed TP53 mutation among HPV(−) samples at higher rates (86%) than have been previously reported, while only 1 out of 36 HPV(+) cases had a non-synonymous TP53 mutation.” (p.&nbsp;578)</li>
+<li>“Seventy-three percent of PIK3CA mutations localized to Glu542Lys, Glu545Lys and His1047Arg/Leu hotspots… Approximately one-quarter of the mutated PIK3CA cases displayed concurrent amplification, with an additional 20% of tumours containing focal amplification without evidence of mutation.” (p.&nbsp;578)</li>
+<li>“A frequently mutated novel gene, the nuclear receptor binding SET domain protein 1 (NSD1), was identified in 33 HNSCCs. Alterations included inactivating mutations (n=29) and focal homozygous deletions (n=4).” (p.&nbsp;578)</li>
+<li>“TP53 mutation, CDKN2A loss of function, chromosome 3q amplification, alteration of oxidative stress genes (<a href="../genes/KEAP1.html">KEAP1</a>, NFE2L2 or <a href="../genes/CUL3.html">CUL3</a>), heavy smoking history and larynx sub-site co-occurred in most classical subtype tumours… similar to <a href="../cancer_types/LUSC.html">LUSC</a>.” (p.&nbsp;579)</li>
+<li>“Co-amplification of FADD ± BIRC2, or CASP8 ± HRAS mutations define exclusive HPV(−) subsets, whereas TRAF3 loss characterizes an HPV(+) subset.” (p.&nbsp;580)</li>
+<li>“Loss of TRAF3, activating mutations of PIK3CA, and amplification of E2F1 in HPV(+) oropharyngeal cancers point to aberrant activation of NF-κB, other oncogenic pathways, and cell cycle, as critical in the pathogenesis and development of new targeted therapies for these tumours.” (p.&nbsp;581)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25631445.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25631445.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

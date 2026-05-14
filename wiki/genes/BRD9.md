@@ -21,10 +21,11 @@ BRD9 encodes a bromodomain-containing subunit of the non-canonical BAF (ncBAF) c
 ## Alterations observed in the corpus
 
 - Discussed as a cross-disease comparison target of SF3B1-driven mis-splicing in uveal melanoma; in CLL, SF3B1-K700E instead targets [NFATC1](../genes/NFATC1.md) splicing to activate mTORC1/MYC rather than BRD9 — illustrating disease-context dependence of [SF3B1](../genes/SF3B1.md) splicing targets [PMID:26200345](../papers/26200345.md)
+- p.Gln479His (PolyPhen2=0.99) and p.His467_Leu468del mutations in Sézary syndrome/CTCL; encodes a SWI/SNF complex component [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
-- [CLLSLL](../cancer_types/CLLSLL.md): cross-disease comparison context; BRD9 not directly altered in CLL but cited to illustrate pan-tumor SF3B1 splicing heterogeneity [PMID:26200345](../papers/26200345.md)
+- [CLLSLL](../cancer_types/CLLSLL.md): cross-disease comparison context; BRD9 not directly altered in CLL but cited to illustrate pan-tumor [SF3B1](../genes/SF3B1.md) splicing heterogeneity [PMID:26200345](../papers/26200345.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -36,10 +37,13 @@ BRD9 encodes a bromodomain-containing subunit of the non-canonical BAF (ncBAF) c
 
 ## Open questions
 
-- Whether SF3B1 splicing modulator strategies (e.g., H3B-8800) should be tailored based on disease-specific splicing targets (BRD9 in UVM vs NFATC1 in CLL) is an open question [PMID:26200345](../papers/26200345.md)
+- Whether [SF3B1](../genes/SF3B1.md) splicing modulator strategies (e.g., H3B-8800) should be tailored based on disease-specific splicing targets (BRD9 in UVM vs [NFATC1](../genes/NFATC1.md) in CLL) is an open question [PMID:26200345](../papers/26200345.md)
 
 ## Sources
 
 - [PMID:26200345](../papers/26200345.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

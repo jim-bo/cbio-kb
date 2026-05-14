@@ -47,6 +47,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Biallelic loss (somatic + germline) in mCRPC contributing to 19.3% DNA-repair pathway aggregate; patients with biallelic ATM showed clinical responses to PARP inhibition [PMID:26000489](../papers/26000489.md)
 - Referenced as the previously published SF3B1-Atm co-mutant CLL murine model; used as comparison context for the SF3B1/del(13q) double-mutant model demonstrating accelerated CLL development via mTOR pathway activation [PMID:26200345](../papers/26200345.md)
 - ATM shows high co-occurrence with del(11q) (OR 10.99) in 538 CLL WES cases; del(11q) typically precedes ATM sSNV/sINDEL second hits in biallelic inactivation; 9 instances of multiple distinct alleles per CLL indicate convergent evolution; ATM did not replicate as an independent PFS predictor in the CLL8 trial [PMID:26466571](../papers/26466571.md)
+- Nonsense mutation in 1 case and kinase-dead N2875 hotspot in 2 cases in primary prostate cancer; ATM loss-of-function contributes to the 19% DNA-repair-gene-defect prevalence that supports PARP-inhibitor candidacy [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -153,5 +154,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

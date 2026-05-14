@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -36,6 +36,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Recurrent E17K mutation nominated as a biomarker for combination MEK + PI3K/AKT/mTOR therapy in cutaneous melanoma [PMID:26091043](../papers/26091043.md)
 - Cross-disease context: SF3B1-driven alternative splicing targets AKT1 in other cancers (e.g. breast cancer); used as comparison context in a CLL study where SF3B1-K700E activates mTORC1/MYC via [NFATC1](../genes/NFATC1.md) mis-splicing rather than AKT1 [PMID:26200345](../papers/26200345.md)
 - Highest average pAKT-S473 and pAKT-T308 levels of any breast cancer subtype detected by RPPA in [ILC](../cancer_types/ILC.md) — comparable to HER2+ and Basal-like [IDC](../cancer_types/IDC.md) — nominating PI3K/AKT pathway inhibition as a particularly attractive therapeutic strategy for this Luminal A disease [PMID:26451490](../papers/26451490.md)
+- E17K hotspot activating mutation in 2 prostate cancer tumors; D323Y in 1 tumor (likely activating, structurally adjacent to E17K in 3D); part of ~25% PI3K/MAPK pathway actionable alterations in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -111,3 +112,6 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

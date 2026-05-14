@@ -17,7 +17,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 - ESR1 mutations were enriched after prior systemic therapy in the MSK-CHORD 24,950-patient pan-cancer real-world cohort, confirmed as post-treatment alterations in [BRCA](../cancer_types/BRCA.md) (breast cancer) patients annotated by NLP; ESR1 was grouped with [CCND1](../genes/CCND1.md) and [NF1](../genes/NF1.md) as an endocrine-resistance signature enriched after prior therapy [PMID:39506116](../papers/39506116.md).
 - Activating mutations in 4 metastatic breast cancer cases linked to endocrine therapy resistance; distal ESR1 binding site hypomethylation associated with suppression of cell-adhesion genes in metastases [PMID:36585450](../papers/36585450.md)
-- [ILC](../cancer_types/ILC.md) and [IDC](../cancer_types/IDC.md) differentially modulate ER activity via [FOXA1](../genes/FOXA1.md) vs [GATA3](../genes/GATA3.md); LumA ILC has lower total and phospho-ER than LumA IDC [PMID:26451490](../papers/26451490.md)
+- [ILC](../cancer_types/ILC.md) and [IDC](../cancer_types/IDC.md) differentially modulate ER activity via [FOXA1](../genes/FOXA1.md) vs [GATA3](../genes/GATA3.md); LumA [ILC](../cancer_types/ILC.md) has lower total and phospho-ER than LumA [IDC](../cancer_types/IDC.md) [PMID:26451490](../papers/26451490.md)
 - Rat tumors broadly express ER protein; Esr1 mRNA correlates with Pgr expression in CRISPR-engineered ER+ breast cancer rat models; ESR1 ligand-binding-domain mutations flagged as a future expansion of the somatic editing platform [PMID:26437033](../papers/26437033.md)
 
 ## Cancer types (linked)

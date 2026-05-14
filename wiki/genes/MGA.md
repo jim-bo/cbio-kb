@@ -20,7 +20,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - Mutation observed in ACC; MGA is a MYB-pathway gene [PMID:23685749](../papers/23685749.md)
 - Single frameshift mutation identified in the sequenced sinonasal adenoid cystic carcinoma cohort; categorized among single-case minor gene hits [PMID:24418857](../papers/24418857.md)
 - MGA loss-of-function (frameshift/nonsense) mutations in 8% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); mutually exclusive with focal [MYC](../genes/MYC.md) amplification (Fisher's exact P=0.04); encodes a Max-interacting protein; nominated as significantly mutated gene by MutSig2CV [PMID:25079552](../papers/25079552.md)
-- Recurrent truncating insertions and nonsense mutations in n=17 (3.2%) of 538 CLL cases; MYC suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in MGA-mutant CLL [PMID:26466571](../papers/26466571.md)
+- Recurrent truncating insertions and nonsense mutations in n=17 (3.2%) of 538 CLL cases; [MYC](../genes/MYC.md) suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in MGA-mutant CLL [PMID:26466571](../papers/26466571.md)
 
 ## Cancer types (linked)
 

@@ -20,6 +20,7 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - Focal deletion or disruptive rearrangement defines an ETS-negative prostate carcinoma subset with chromothripsis-like intra-chromosomal chains in late-replicating, GC-poor DNA; CHD1 loss correlates with elevated recurrent SCNAs (p=1.5×10⁻⁸) in an extended 199-tumor cohort [PMID:23622249](../papers/23622249.md)
 - Focal homozygous deletion with complete protein loss in MSK-PCa2, MSK-PCa4, and MSK-PCa7 prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 - Recurrent deletion (8q copy-number loss) in metastatic castration-resistant prostate cancer (mCRPC) [PMID:26000489](../papers/26000489.md)
+- Co-deleted with SPOP-mutant subtype at 5q15-q21 in primary prostate cancer; [MAP3K7](../genes/MAP3K7.md) and CHD1 co-deletion at 6q12-22 associated with aggressive ETS-negative disease [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ CHD1 (Chromodomain Helicase DNA Binding Protein 1) encodes an ATP-dependent chro
 - [PMID:25201530](../papers/25201530.md)
 
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

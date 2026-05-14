@@ -33,7 +33,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-amplified with [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), CCND1, and [LTO1](../genes/LTO1.md) at the 11q13 locus in OSCC. [PMID:23619168](../papers/23619168.md)
+- Co-amplified with [BIRC2](../genes/BIRC2.md), [FADD](../genes/FADD.md), [IKBKB](../genes/IKBKB.md), [CCND1](../genes/CCND1.md), and [LTO1](../genes/LTO1.md) at the 11q13 locus in OSCC. [PMID:23619168](../papers/23619168.md)
 
 ## Therapeutic relevance
 
@@ -41,7 +41,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 
 ## Open questions
 
-- Functional driver status of BIRC3 copy gain in OSCC versus co-amplification with CCND1 as a passenger remains unresolved. [PMID:23619168](../papers/23619168.md)
+- Functional driver status of BIRC3 copy gain in OSCC versus co-amplification with [CCND1](../genes/CCND1.md) as a passenger remains unresolved. [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 

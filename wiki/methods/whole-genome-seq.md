@@ -71,6 +71,10 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Whole-genome sequencing used to characterize structural variants and mutational signatures in breast cancer [PMID:26168399](../papers/26168399.md)
 - Whole-genome sequencing used to identify somatic mutations and structural rearrangements in colorectal cancer [PMID:26343386](../papers/26343386.md)
 - Performed on 56 neuroblastomas (39 high-risk, 17 low-risk) with matched normal controls (Illumina HiSeq 2000, 2x100 nt PE, aligned to hg19 with BWA); identified recurrent 5p15.33 breakpoint cluster upstream of [TERT](../genes/TERT.md) in 12/39 (31%) high-risk tumors; average 13.3 non-synonymous mutations per genome [PMID:26466568](../papers/26466568.md)
+- Low-pass WGS on 100 pairs and high-pass on 19 primary prostate adenocarcinomas (TCGA); used to characterize structural variants and mutational burden (median 0.94 mutations/Mb) complementing the primary WES platform [PMID:26544944](../papers/26544944.md).
+- Used via Complete Genomics cPAL platform (NCBI Build 37) on 21 salivary adenoid cystic carcinoma test-set tumors; enabled discovery of novel MYBL1-NFIB fusions from t(8;9) translocations and diverse [MYBL1](../genes/MYBL1.md) rearrangements [PMID:26631609](../papers/26631609.md).
+- Applied to 14 primary uveal melanoma samples with matched germline; BWA alignment to GRCh37, SAMtools/bcftools variant calling, Janda SV calling, and binocular CNV segmentation; enabled discovery of [PLCB4](../genes/PLCB4.md) p.D630Y hotspot and BRCA-like mutational signature in 79% of samples [PMID:26683228](../papers/26683228.md).
+- Used for alignment to GRCh37-lite in 15 matched primary/recurrent medulloblastoma pairs with germline controls plus 18 pairs without germline (46 total samples); demonstrated <12% shared somatic SNVs/indels between primary and recurrent tumors [PMID:26760213](../papers/26760213.md).
 
 ## Notes
 
@@ -225,5 +229,17 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466568](../papers/26466568.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26631609](../papers/26631609.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

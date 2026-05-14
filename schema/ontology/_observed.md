@@ -205,11 +205,15 @@
 - method: pet-ct-imaging — observed in PMID:30179230 — note: whole-body PET-CT in 212/215 HNSCC patients at baseline and 213/215 post-treatment; GE Discovery scanners
 - method: dicom-rt-planning — observed in PMID:30179230 — note: RTPLAN + RTDOSE re-exported from Pinnacle v9.6 for 215 HNSCC RT patients; mean dose 68.66 Gy in 28-40 fractions
 - method: body-composition-ct — observed in PMID:30179230 — note: L3-level CT skeletal muscle index (SMI) and adipose index (ADI) in 215 HNSCC RT patients; first public HNSCC RT dataset with body-composition data
+- drug: tofacitinib — observed in PMID:26551667 — note: JAK1/3 inhibitor; active against JAK3-mutant (p.Ala573Val) HUT78 CTCL cell line; proposed for genotype-stratified JAK inhibitor trials in Sézary syndrome
 - dataset: tcia-tcga-ov — observed in PMID:35764743 — note: TCIA CT imaging for TCGA-OV ovarian cases used in this multimodal HGSOC study (n=148 TCGA patients)
 - method: aav-crispr-somatic-editing — observed in PMID:26437033 — note: AAV-delivered CRISPR-Cas9 somatic genome editing platform for in vivo tumor modeling in rats; intraductal delivery in mammary gland
 - method: amplicon-sequencing — observed in PMID:26437033 — note: amplicon deep sequencing of AAV-CRISPR-edited loci to quantify Indel rates and HDR efficiency in rat mammary tumors
 - method: clanc — observed in PMID:26451490 — note: Comparative Latent Neoantigen Classification; centroid-based classifier used to assign TCGA breast tumors to ILC-like or IDC-like classes in mixed IDC/ILC analysis
 - method: gsea — observed in PMID:26437033 — note: Gene Set Enrichment Analysis; used to show concordance of fulvestrant-responsive rat tumor DEGs with human neoadjuvant endocrine therapy datasets (GSE5462, GSE71791)
+- method: expands — observed in PMID:26760213 — note: EXPANDS clonal-population-structure inference tool; used alongside PyClone for subclonal reconstruction in medulloblastoma WGS; branched evolution confirmed in 14/14 germline-matched pairs
+- method: sleeping-beauty-transposon-screen — observed in PMID:26760213 — note: SB11/T2Onc(2) transposon insertional mutagenesis in Ptch+/− mice; gCIS analysis of therapy-driven recurrence in Shh medulloblastoma mouse model
+- method: targeted-deep-amplicon-seq — observed in PMID:26760213 — note: ultra-deep amplicon sequencing of 192 patient-specific SNVs across 20 matched primary/recurrent medulloblastoma pairs; sensitivity to 2/10,000 reads
 - method: intraductal-aav-delivery — observed in PMID:26437033 — note: surgical technique for delivering AAV vectors directly into rat mammary ductal tree; enables luminal epithelial cell-specific genome editing
 - method: isopure — observed in PMID:26451490 — note: ISOpure computational tumor purity deconvolution; one of three orthogonal classifiers for assigning mixed IDC/ILC breast tumors to molecular classes
 - method: oncosign — observed in PMID:26451490 — note: OncoSign adapted classifier; one of three orthogonal methods (alongside ISOpure and ElasticNet) used to classify 88 mixed IDC/ILC breast tumors as ILC-like or IDC-like

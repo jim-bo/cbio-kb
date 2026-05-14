@@ -7,8 +7,8 @@ tags:
   - chromatin-remodeling
   - kidney-cancer
   - significantly-mutated-gene
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: crosslinker
+processed_at: 2026-05-14
 ---
 
 # CHD3
@@ -20,14 +20,15 @@ CHD3 (chromodomain helicase DNA binding protein 3) is a component of the NuRD ch
 ## Alterations observed in the corpus
 
 - Newly nominated significantly mutated gene in pRCC by multi-method driver analysis in the non-clear-cell RCC genomic cohort [PMID:25401301](../papers/25401301.md)
+- p.Gln660His in the second chromodomain (PolyPhen2=0.99) and p.Ser230Leu in the first PHD repressive-mark reader in CTCL; encodes a NuRD chromatin remodeling complex component [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
-- **PRCC**: CHD3 identified as a recurrently mutated chromatin remodeling gene in papillary renal cell carcinoma [PMID:25401301](../papers/25401301.md)
+- **[PRCC](../cancer_types/PRCC.md)**: CHD3 identified as a recurrently mutated chromatin remodeling gene in papillary renal cell carcinoma [PMID:25401301](../papers/25401301.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Nominated alongside NF2, SLC5A3, PNKD, CPQ, LRP2, NHERF1, SETD2, and CRTC1 as new significantly mutated genes in pRCC [PMID:25401301](../papers/25401301.md)
+- Nominated alongside [NF2](../genes/NF2.md), [SLC5A3](../genes/SLC5A3.md), [PNKD](../genes/PNKD.md), [CPQ](../genes/CPQ.md), [LRP2](../genes/LRP2.md), [NHERF1](../genes/NHERF1.md), [SETD2](../genes/SETD2.md), and [CRTC1](../genes/CRTC1.md) as new significantly mutated genes in pRCC [PMID:25401301](../papers/25401301.md)
 
 ## Therapeutic relevance
 
@@ -41,4 +42,7 @@ CHD3 (chromodomain helicase DNA binding protein 3) is a component of the NuRD ch
 
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

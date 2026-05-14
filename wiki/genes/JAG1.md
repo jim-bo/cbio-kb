@@ -32,7 +32,7 @@ JAG1 (Jagged canonical Notch ligand 1) encodes a Notch pathway ligand. In oral s
 
 ## Open questions
 
-- Mechanistic role of JAG1 copy gain in OSCC is ambiguous: whether it promotes cis-inhibition of NOTCH1 (tumor-suppressive) or activates Notch signaling (oncogenic) is unresolved [PMID:23619168](../papers/23619168.md)
+- Mechanistic role of JAG1 copy gain in OSCC is ambiguous: whether it promotes cis-inhibition of [NOTCH1](../genes/NOTCH1.md) (tumor-suppressive) or activates Notch signaling (oncogenic) is unresolved [PMID:23619168](../papers/23619168.md)
 
 ## Sources
 

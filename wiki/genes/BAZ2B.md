@@ -23,7 +23,7 @@ BAZ2B (Bromodomain And AT-Rich Interaction Domain 2B) encodes a chromatin-remode
 
 ## Co-occurrence and mutual exclusivity
 
-- BAZ2B mutations co-occur with other chromatin modification pathway drivers in CLL, including ASXL1 and IKZF3; the study reports 91.1% of CLLs harbor at least one driver across all 55 driver events [PMID:26466571](../papers/26466571.md).
+- BAZ2B mutations co-occur with other chromatin modification pathway drivers in CLL, including [ASXL1](../genes/ASXL1.md) and [IKZF3](../genes/IKZF3.md); the study reports 91.1% of CLLs harbor at least one driver across all 55 driver events [PMID:26466571](../papers/26466571.md).
 
 ## Therapeutic relevance
 

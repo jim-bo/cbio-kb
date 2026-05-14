@@ -19,7 +19,7 @@ DLK1 (Delta Like Non-Canonical Notch Ligand 1) is a neuroendocrine expression ma
 
 ## Cancer types (linked)
 
-- **SCLC**: Expression marker distinguishing neuroendocrine SCLC subtype; part of the neuroendocrine gene signature in a 110-tumour cohort [PMID:26168399](../papers/26168399.md)
+- **[SCLC](../cancer_types/SCLC.md)**: Expression marker distinguishing neuroendocrine [SCLC](../cancer_types/SCLC.md) subtype; part of the neuroendocrine gene signature in a 110-tumour cohort [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 

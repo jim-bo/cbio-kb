@@ -8,7 +8,7 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -36,6 +36,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Referenced as a known germline kidney-cancer predisposition gene; somatic profiles of nccRCC are contrasted against its germline role [PMID:25401301](../papers/25401301.md)
 - Loss enriched in non-fluke-related cholangiocarcinoma and small-duct intrahepatic CCA; small-duct iCCA arising on chronic liver disease backgrounds enriched for BAP1 and IDH1/IDH2 hotspot mutations and [FGFR2](../genes/FGFR2.md) fusions [PMID:25526346](../papers/25526346.md)
 - Co-occurs with [SF3B1](../genes/SF3B1.md) R625H and GNAQ/GNA11 hot-spots in Triple-WT cutaneous melanoma (typically uveal-melanoma drivers); BAP1 and [SF3B1](../genes/SF3B1.md) mutations are mutually exclusive [PMID:26091043](../papers/26091043.md)
+- 11 truncating/splice/missense mutations in uveal melanoma (28/28 samples); all 6 BAP1-mutant WGS samples were chromosome-3 hemizygous, consistent with two-hit tumor-suppressor inactivation; one intronic 154 bp deletion identified via SV calling [PMID:26683228](../papers/26683228.md)
 
 ## Cancer types (linked)
 
@@ -101,3 +102,6 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -79,6 +79,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used in the TCGA breast ILC/IDC multi-platform study (n=817) for mRNA expression profiling; enabled definition of three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) and orthogonal validation of mutation calls (78.1% of CLL gene mutations detected at sites with >90% detection power) [PMID:26451490](../papers/26451490.md)
 - Performed on neuroblastoma tumors (Illumina HiSeq 2000) alongside custom 4x44K Agilent oligonucleotide microarrays; quantified [TERT](../genes/TERT.md) expression showing 92-fold higher levels in TERT-rearranged vs low-risk tumors and higher than MYCN-amplified tumors (P=0.028) [PMID:26466568](../papers/26466568.md)
 - Used in 156 of 538 CLL whole-exome samples for orthogonal validation; 78.1% of CLL gene mutations detected in matched RNA-seq at sites with >90% detection power; MGA-mutant CLLs showed downregulation of MYC-suppressed B-cell gene sets [PMID:26466571](../papers/26466571.md)
+- Profiled mRNA expression in 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform characterization; 19 matched non-malignant adjacent samples profiled for methylation and RNA/miRNA expression [PMID:26544944](../papers/26544944.md).
 
 ## Notes
 
@@ -250,3 +251,6 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

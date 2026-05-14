@@ -19,11 +19,11 @@ INPP4A (Inositol Polyphosphate-4-Phosphatase Type I A) is a phosphatase involved
 
 ## Cancer types (linked)
 
-- **Upper tract urothelial carcinoma (UTUC)**: frequently altered; specific alteration type and exact frequency not reported separately but confirmed by orthogonal sequencing [PMID:26278805](../papers/26278805.md)
+- **Upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md))**: frequently altered; specific alteration type and exact frequency not reported separately but confirmed by orthogonal sequencing [PMID:26278805](../papers/26278805.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Identified alongside chromatin-modifying genes ([KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md)), [FGFR3](../genes/FGFR3.md), [HRAS](../genes/HRAS.md), [TP53](../genes/TP53.md), and others in UTUC [PMID:26278805](../papers/26278805.md)
+- Identified alongside chromatin-modifying genes ([KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md), [SMARCA4](../genes/SMARCA4.md)), [FGFR3](../genes/FGFR3.md), [HRAS](../genes/HRAS.md), [TP53](../genes/TP53.md), and others in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
 
 ## Therapeutic relevance
 

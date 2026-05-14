@@ -32,7 +32,7 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 
 ## Open questions
 
-- The frequency of [NUP98](../genes/NUP98.md)–NSD1 in this adult AML cohort and associated cooperating mutations are not individually enumerated beyond its identification as a recurrent in-frame event [PMID:23634996](../papers/23634996.md)
+- The frequency of [NUP98](../genes/NUP98.md)–NSD1 in this adult [AML](../cancer_types/AML.md) cohort and associated cooperating mutations are not individually enumerated beyond its identification as a recurrent in-frame event [PMID:23634996](../papers/23634996.md)
 
 ## Sources
 

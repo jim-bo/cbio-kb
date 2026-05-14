@@ -18,6 +18,7 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 
 - Somatic mutations detected in melanoma WES cohort (Broad, 121 tumors) [PMID:22817889](../papers/22817889.md)
 - Rare Q209 hotspot in Triple-WT cutaneous melanoma (typically uveal-melanoma driver); co-occurs with [SF3B1](../genes/SF3B1.md) R625H but not [BAP1](../genes/BAP1.md) mutations [PMID:26091043](../papers/26091043.md)
+- Most frequent driver in the uveal melanoma cohort (26683228): 14 samples with p.Q209P; mutually exclusive with [GNAQ](../genes/GNAQ.md) mutations; activates Gαq downstream signaling [PMID:26683228](../papers/26683228.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ GNA11 encodes the alpha-11 subunit of heterotrimeric G-proteins, which couples G
 - [PMID:22817889](../papers/22817889.md)
 
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

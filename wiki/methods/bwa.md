@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 ---
 
@@ -29,6 +29,9 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - BWA used for read alignment in whole-exome sequencing of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - BWA used for read alignment in targeted panel sequencing (MSK-IMPACT) of pancreatic cancer [PMID:26278805](../papers/26278805.md)
 - BWA used for read alignment in whole-exome and whole-genome sequencing of colorectal cancer [PMID:26343386](../papers/26343386.md)
+- Used to align paired-end whole-exome sequencing reads (BWA v0.5.9) to hg19 in a 42-patient CTCL study defining the mutational landscape of Sézary syndrome and mycosis fungoides [PMID:26551667](../papers/26551667.md).
+- Used for alignment in whole-genome sequencing of 28 uveal melanoma samples with GRCh37 reference, followed by GATK indel realignment and base quality recalibration; enabled discovery of the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot [PMID:26683228](../papers/26683228.md).
+- Used for alignment of whole-genome sequencing reads to GRCh37-lite in 46 matched diagnostic/recurrence medulloblastoma samples; enabled characterization of massive genetic divergence between primary and recurrent tumours [PMID:26760213](../papers/26760213.md).
 
 ## Notes
 
@@ -38,37 +41,46 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 
 ## Sources
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25024180](../papers/25024180.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26683228](../papers/26683228.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

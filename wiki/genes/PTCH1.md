@@ -3,7 +3,7 @@ symbol: PTCH1
 aliases: []
 cancer_types: [UCEC, OVT]
 tags: [hedgehog-pathway, tumor-suppressor, immunotherapy-biomarker]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -26,6 +26,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - Mutated in 17% of aggressive cSCC cases; only 2 of 6 mutations were inactivating — contrasts with 75% inactivating rate in basal cell carcinoma; not identified as a driver in cSCC [PMID:25303977](../papers/25303977.md)
 - Gene with at least one identical previously COSMIC-reported mutation in the HNSCC TCGA cohort (n=279) [PMID:25631445](../papers/25631445.md)
 - In [PAAD](../cancer_types/PAAD.md), PTCH1 alterations occur in 2% of cases as part of the Hedgehog-pathway alterations ([GLI3](../genes/GLI3.md) 8%, [SMO](../genes/SMO.md) 8%, [LRP2](../genes/LRP2.md) 6%, [GLI2](../genes/GLI2.md) 3%, PTCH1 2%) in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
+- Homozygous driver in primary medulloblastoma MB-REC-12 (heterozygous mutation + chr9q LOH); the PTCH1-driven primary clone was eradicated at recurrence, replaced by an ancestral chr9q-wild-type sister clone [PMID:26760213](../papers/26760213.md)
 
 ## Cancer types (linked)
 
@@ -69,3 +70,6 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

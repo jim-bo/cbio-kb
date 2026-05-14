@@ -19,7 +19,7 @@ GRP (Gastrin-Releasing Peptide) is a neuroendocrine peptide and expression marke
 
 ## Cancer types (linked)
 
-- **SCLC**: Expression marker distinguishing the neuroendocrine SCLC subtype in a 110-tumour cohort [PMID:26168399](../papers/26168399.md)
+- **[SCLC](../cancer_types/SCLC.md)**: Expression marker distinguishing the neuroendocrine [SCLC](../cancer_types/SCLC.md) subtype in a 110-tumour cohort [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 

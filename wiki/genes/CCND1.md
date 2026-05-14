@@ -8,7 +8,7 @@ cancer_types:
   - GEJ
   - ODG
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -58,6 +58,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Retained and overexpressed in 2 [SCLC](../cancer_types/SCLC.md) tumors with wild-type [RB1](../genes/RB1.md) due to chromothripsis; proposed as an alternative mechanism of Rb-pathway inactivation when [RB1](../genes/RB1.md) is intact [PMID:26168399](../papers/26168399.md)
 - Significant association with T stage in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) in a 300-gene panel sequencing study (MSK-IMPACT cohort, n=83 [UTUC](../cancer_types/UTUC.md) vs 102 UCB) [PMID:26278805](../papers/26278805.md)
 - Focal amplification (IHC-confirmed) in desmoplastic melanoma; found in 1–3 cases alongside [CDK4](../genes/CDK4.md), [MDM2](../genes/MDM2.md), [YAP1](../genes/YAP1.md), and [MYC](../genes/MYC.md) amplifications [PMID:26343386](../papers/26343386.md)
+- Recurrent focal amplification in 2% of primary prostate cancer tumors (TCGA prostate cohort) [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -188,3 +189,6 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

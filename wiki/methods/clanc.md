@@ -22,7 +22,7 @@ CLANC (Comparative Latent Neoantigen Classification, or alternatively a centroid
 ## Notes
 
 - Three-classifier concordance (CLANC/ISOpure/ElasticNet) required for a confident call in the TCGA ILC/IDC mixed-tumor analysis.
-- CDH1 mutation status was the dominant feature driving classification; all CDH1-mutated mixed cases were classified ILC-like regardless of classifier.
+- [CDH1](../genes/CDH1.md) mutation status was the dominant feature driving classification; all CDH1-mutated mixed cases were classified ILC-like regardless of classifier.
 
 ## Sources
 

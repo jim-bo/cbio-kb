@@ -3,7 +3,7 @@ symbol: RAC1
 aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
-processed_by: wiki-cli
+processed_by: crosslinker
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -25,6 +25,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - RAC1 P29S hotspot mutation identified in cutaneous squamous cell carcinoma (cSCC), at the same residue as reported in melanoma [PMID:25303977](../papers/25303977.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RAC1 is a UV-signature hot-spot significantly mutated gene occurring in 6.9% of cases; previously linked to BRAF-inhibitor resistance (Van Allen et al., 2014; Watson et al., 2014). [PMID:26091043](../papers/26091043.md)
 - P29S hotspot in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
+- RAC1 Q61R mutation in one prostate tumor; paralogous to RAS Q61 hotspot [PMID:26544944](../papers/26544944.md)
 
 ## Cancer types (linked)
 
@@ -40,7 +41,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 
 ## Open questions
 
-- Whether indoor tanning preferentially expands RAC1 P29-mutant clones relative to BRAF-mutant clones, and the relative risk contributions of each driver mutation type to melanoma development in tanning-exposed individuals [PMID:38895302](../papers/38895302.md).
+- Whether indoor tanning preferentially [expands](../methods/expands.md) RAC1 P29-mutant clones relative to BRAF-mutant clones, and the relative risk contributions of each driver mutation type to melanoma development in tanning-exposed individuals [PMID:38895302](../papers/38895302.md).
 
 ## Sources
 
@@ -67,4 +68,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

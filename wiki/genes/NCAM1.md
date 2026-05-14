@@ -19,7 +19,7 @@ NCAM1 (Neural Cell Adhesion Molecule 1) is a cell surface glycoprotein involved 
 
 ## Cancer types (linked)
 
-- **Small cell lung cancer (SCLC)**: NCAM1 is part of the neuroendocrine expression signature used to classify SCLC into transcriptional subtypes; Notch activation abrogates neuroendocrine marker expression including NCAM1 [PMID:26168399](../papers/26168399.md)
+- **Small cell lung cancer ([SCLC](../cancer_types/SCLC.md))**: NCAM1 is part of the neuroendocrine expression signature used to classify [SCLC](../cancer_types/SCLC.md) into transcriptional subtypes; Notch activation abrogates neuroendocrine marker expression including NCAM1 [PMID:26168399](../papers/26168399.md)
 
 ## Co-occurrence and mutual exclusivity
 

@@ -37,7 +37,7 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 ## Open questions
 
-- No predictive biomarkers for VEGFA-targeting therapies have been validated in HCC; VEGFA amplification has not been prospectively validated as a predictive biomarker for anti-angiogenic agents.
+- No predictive biomarkers for VEGFA-targeting therapies have been validated in [HCC](../cancer_types/HCC.md); VEGFA amplification has not been prospectively validated as a predictive biomarker for anti-angiogenic agents.
 
 ## Sources
 

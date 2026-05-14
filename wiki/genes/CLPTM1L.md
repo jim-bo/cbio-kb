@@ -11,7 +11,7 @@ processed_at: 2026-05-14
 
 ## Overview
 
-CLPTM1L (Cleft Lip and Palate Transmembrane Protein 1-Like) is a transmembrane protein located at chromosomal locus 5p15.33, immediately proximal to the [TERT](../genes/TERT.md) gene. It resides within a genomic region that is subject to structural rearrangements in high-risk neuroblastoma that bring distal enhancer elements into proximity with TERT. Although CLPTM1L itself is not a driver gene in neuroblastoma, its genomic position makes it a useful cytogenetic landmark for detecting TERT locus rearrangements.
+CLPTM1L (Cleft Lip and Palate Transmembrane Protein 1-Like) is a transmembrane protein located at chromosomal locus 5p15.33, immediately proximal to the [TERT](../genes/TERT.md) gene. It resides within a genomic region that is subject to structural rearrangements in high-risk neuroblastoma that bring distal enhancer elements into proximity with [TERT](../genes/TERT.md). Although CLPTM1L itself is not a driver gene in neuroblastoma, its genomic position makes it a useful cytogenetic landmark for detecting [TERT](../genes/TERT.md) locus rearrangements.
 
 ## Alterations observed in the corpus
 

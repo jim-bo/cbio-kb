@@ -33,7 +33,7 @@ ETV5 is an ETS family transcription factor and a known transcriptional target of
 
 ## Open questions
 
-- Whether ETV5 derepression contributes to the developmental plasticity of oligodendroglioma or is merely a passenger consequence of CIC loss is unresolved [PMID:27806376](../papers/27806376.md).
+- Whether ETV5 derepression contributes to the developmental plasticity of oligodendroglioma or is merely a passenger consequence of [CIC](../genes/CIC.md) loss is unresolved [PMID:27806376](../papers/27806376.md).
 
 ## Sources
 

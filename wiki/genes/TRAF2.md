@@ -24,7 +24,7 @@ TRAF2 ([TNF](../genes/TNF.md) Receptor Associated Factor 2) is an adapter protei
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-reported with TRAF3 and CARD11 as a group of B-cell activity drivers in CLL [PMID:26466571](../papers/26466571.md)
+- Co-reported with [TRAF3](../genes/TRAF3.md) and [CARD11](../genes/CARD11.md) as a group of B-cell activity drivers in CLL [PMID:26466571](../papers/26466571.md)
 
 ## Therapeutic relevance
 

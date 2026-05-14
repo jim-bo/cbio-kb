@@ -54,7 +54,7 @@ Sixty-two desmoplastic melanomas assembled from three institutions: 20 fresh-fro
 ## Notable findings derived from this cohort
 
 - Desmoplastic melanoma carries an exceptionally high mutation burden (median 62 mutations/Mb) with a dominant UV-radiation C>T signature; canonical melanoma drivers [BRAF](../genes/BRAF.md) V600E and [NRAS](../genes/NRAS.md) Q61K/R are completely absent [PMID:26343386](../papers/26343386.md).
-- Novel recurrent [NFKBIE](../genes/NFKBIE.md) promoter hotspot mutations in 14.5% of samples (not found in COSMIC or TCGA across any cancer type); 5/15 mutant tumors showed biallelic selection; NFKBIE mutations suppress NFκB nuclear translocation in melanoma cell lines [PMID:26343386](../papers/26343386.md).
+- Novel recurrent [NFKBIE](../genes/NFKBIE.md) promoter hotspot mutations in 14.5% of samples (not found in COSMIC or TCGA across any cancer type); 5/15 mutant tumors showed biallelic selection; [NFKBIE](../genes/NFKBIE.md) mutations suppress NFκB nuclear translocation in melanoma cell lines [PMID:26343386](../papers/26343386.md).
 - RTK/RAS/MAPK or PI3K pathway activation achieved through a diverse non-mutually-exclusive set of alterations ([NF1](../genes/NF1.md), [CBL](../genes/CBL.md), [ERBB2](../genes/ERBB2.md), [MAP2K1](../genes/MAP2K1.md), [MAP3K1](../genes/MAP3K1.md), BRAF-non-V600, [EGFR](../genes/EGFR.md), [PTPN11](../genes/PTPN11.md), [MET](../genes/MET.md), [RAC1](../genes/RAC1.md), [SOS2](../genes/SOS2.md), [PIK3CA](../genes/PIK3CA.md)) in 73% of tumors; [TERT](../genes/TERT.md) promoter mutations in 90% [PMID:26343386](../papers/26343386.md).
 
 ## Sources

@@ -28,7 +28,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
 - Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); member of the [MYC](../genes/MYC.md) family amplified in [SCLC](../cancer_types/SCLC.md) alongside [MYC](../genes/MYC.md) and [MYCL](../genes/MYCL.md) [PMID:26168399](../papers/26168399.md)
-- Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates TERT (TERT is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with TERT rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
+- Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with TERT rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
 
 ## Cancer types (linked)
 

@@ -52,12 +52,12 @@ Desmoplastic melanoma (DESM) is a rare, deeply invasive cutaneous melanoma varia
 
 ## Therapeutic landscape
 
-- [BRAF](../genes/BRAF.md) V600-directed inhibitors ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) are **not** appropriate for desmoplastic melanoma due to absence of BRAF V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md).
+- [BRAF](../genes/BRAF.md) V600-directed inhibitors ([vemurafenib](../drugs/vemurafenib.md), [dabrafenib](../drugs/dabrafenib.md) + [trametinib](../drugs/trametinib.md)) are **not** appropriate for desmoplastic melanoma due to absence of [BRAF](../genes/BRAF.md) V600E and [NRAS](../genes/NRAS.md) Q61K/R [PMID:26343386](../papers/26343386.md).
 - Targetable RTK/MAPK alterations identified in 73% of tumors; small-molecule inhibitors against [MET](../genes/MET.md), [EGFR](../genes/EGFR.md), [ERBB2](../genes/ERBB2.md), [IDH1](../genes/IDH1.md), [MAP2K1](../genes/MAP2K1.md), [PIK3CA](../genes/PIK3CA.md), and [CDK4](../genes/CDK4.md) products represent potential therapeutic avenues [PMID:26343386](../papers/26343386.md).
 - Exceptionally high TMB (median 62 mutations/Mb) positions DESM as a strong candidate for immune checkpoint inhibitor therapy [PMID:26343386](../papers/26343386.md).
 
 ## Sources
 
-- [PMID:26343386](../papers/26343386.md) — Shain et al. (2015). Whole-genome, exome, and targeted sequencing of 62 desmoplastic melanomas; identified extreme mutation burden, UV signature, absence of BRAF V600E/NRAS canonical drivers, novel [NFKBIE](../genes/NFKBIE.md) promoter hotspot, and diverse MAPK/PI3K activating alterations.
+- [PMID:26343386](../papers/26343386.md) — Shain et al. (2015). Whole-genome, exome, and targeted sequencing of 62 desmoplastic melanomas; identified extreme mutation burden, UV signature, absence of [BRAF](../genes/BRAF.md) V600E/NRAS canonical drivers, novel [NFKBIE](../genes/NFKBIE.md) promoter hotspot, and diverse MAPK/PI3K activating alterations.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

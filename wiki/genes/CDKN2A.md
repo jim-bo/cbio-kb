@@ -91,6 +91,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Recurrent focal homozygous deletion in [SCLC](../cancer_types/SCLC.md) (110 tumors, WGS); co-occurs with TP53/RB1 bi-allelic loss as an accessory alteration [PMID:26168399](../papers/26168399.md)
 - Recurrently altered in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) alongside other p15/p16 pathway events; identified in 300-gene MSK-IMPACT panel sequencing (n=83 [UTUC](../cancer_types/UTUC.md)) [PMID:26278805](../papers/26278805.md)
 - Focal deletions in 11 desmoplastic melanoma cases; also LOF mutations and one germline mutation in a sun-shielded tumor; p16 loss confirmed by IHC [PMID:26343386](../papers/26343386.md)
+- Homozygous loss drove the recurrent clone in medulloblastoma patient MB-REC-12 after the PTCH1-driven primary clone was eliminated by therapy; acquired alongside [CDKN2B](../genes/CDKN2B.md) loss [PMID:26760213](../papers/26760213.md)
 
 ## Cancer types (linked)
 
@@ -262,5 +263,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

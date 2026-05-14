@@ -24,16 +24,16 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 ## Recurrent alterations
 
 - Mixed IDC/ILC tumors molecularly resolve into ILC-like (24/88) or IDC-like (64/88) classes by majority vote of three orthogonal classifiers (ISOpure, OncoSign-adapted, ElasticNet); [CDH1](../genes/CDH1.md) mutation status is the dominant discriminating feature — all CDH1-mutated mixed tumors classified as ILC-like [PMID:26451490](../papers/26451490.md).
-- CDH1 alteration rate in mixed tumors is intermediate between ILC (63%) and IDC (2%), consistent with the histologic mixture [PMID:26451490](../papers/26451490.md).
+- [CDH1](../genes/CDH1.md) alteration rate in mixed tumors is intermediate between [ILC](../cancer_types/ILC.md) (63%) and [IDC](../cancer_types/IDC.md) (2%), consistent with the histologic mixture [PMID:26451490](../papers/26451490.md).
 
 ## Subtypes
 
-- Mixed IDC/ILC tumors are not a third molecular entity; they are best characterized as ILC-like or IDC-like based on CDH1 status and multi-platform molecular profiles [PMID:26451490](../papers/26451490.md).
-- The clinical designation "mixed ductal/lobular" aggregates tumors with "IDC with lobular features" — a non-standardized pathology criterion that contributes to molecular heterogeneity in this category [PMID:26451490](../papers/26451490.md).
+- Mixed IDC/ILC tumors are not a third molecular entity; they are best characterized as ILC-like or IDC-like based on [CDH1](../genes/CDH1.md) status and multi-platform molecular profiles [PMID:26451490](../papers/26451490.md).
+- The clinical designation "mixed ductal/lobular" aggregates tumors with "[IDC](../cancer_types/IDC.md) with lobular features" — a non-standardized pathology criterion that contributes to molecular heterogeneity in this category [PMID:26451490](../papers/26451490.md).
 
 ## Therapeutic landscape
 
-- Treatment implications for mixed IDC/ILC depend on the molecular ILC-like vs IDC-like classification: ILC-like mixed tumors inherit the high pAKT/AKT pathway activation typical of ILC, suggesting potential benefit from PI3K/AKT/mTOR inhibition; IDC-like mixed tumors follow IDC biology [PMID:26451490](../papers/26451490.md).
+- Treatment implications for mixed IDC/ILC depend on the molecular ILC-like vs IDC-like classification: ILC-like mixed tumors inherit the high pAKT/AKT pathway activation typical of [ILC](../cancer_types/ILC.md), suggesting potential benefit from PI3K/AKT/mTOR inhibition; IDC-like mixed tumors follow IDC biology [PMID:26451490](../papers/26451490.md).
 - Metastatic surveillance for ILC-like mixed tumors should include anatomical (CT) rather than PET scanning, given low metabolic activity characteristic of ILC [PMID:26451490](../papers/26451490.md).
 
 ## Sources

@@ -12,11 +12,11 @@ processed_at: 2026-05-14
 
 ## Overview
 
-SLC6A18 encodes a neutral amino acid transporter (solute carrier family 6 member 18) located at chromosomal position 5p15.33, in the immediate vicinity of [TERT](../genes/TERT.md). In neuroblastoma, SLC6A18 was identified as a bystander gene markedly upregulated specifically in TERT-rearranged tumors, reflecting directional spread of the hijacked enhancer chromatin landscape caused by structural rearrangements upstream of TERT.
+SLC6A18 encodes a neutral amino acid transporter (solute carrier family 6 member 18) located at chromosomal position 5p15.33, in the immediate vicinity of [TERT](../genes/TERT.md). In neuroblastoma, SLC6A18 was identified as a bystander gene markedly upregulated specifically in TERT-rearranged tumors, reflecting directional spread of the hijacked enhancer chromatin landscape caused by structural rearrangements upstream of [TERT](../genes/TERT.md).
 
 ## Alterations observed in the corpus
 
-- Distal neighbour of TERT at 5p15.33 that becomes markedly upregulated only in TERT-rearranged neuroblastoma tumors, reflecting directional spread of the hijacked enhancer chromatin landscape; not upregulated in MYCN-amplified or ATRX-mutant tumors [PMID:26466568](../papers/26466568.md)
+- Distal neighbour of [TERT](../genes/TERT.md) at 5p15.33 that becomes markedly upregulated only in TERT-rearranged neuroblastoma tumors, reflecting directional spread of the hijacked enhancer chromatin landscape; not upregulated in MYCN-amplified or ATRX-mutant tumors [PMID:26466568](../papers/26466568.md)
 
 ## Cancer types (linked)
 

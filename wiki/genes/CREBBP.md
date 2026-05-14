@@ -3,7 +3,7 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG]
 tags: [epigenetic-regulator, relapse]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -37,6 +37,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Chromatin remodeler truncated in cutaneous squamous cell carcinoma; truncating CREBBP and [EP300](../genes/EP300.md) events are mutually exclusive with NOTCH truncations in 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 - Clustered mutations and recurrent inactivating translocations in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort); not significantly associated with overall survival [PMID:26168399](../papers/26168399.md)
 - Chromatin-modifier mutations (CREBBP) found in both low- and high-grade [UTUC](../cancer_types/UTUC.md); concordant across spatial tumor components suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
+- Loss-of-function mutations (p.Gln839* nonsense, p.Ser1207fs frameshift) in the histone acetyltransferase domain in CTCL (Sézary syndrome) [PMID:26551667](../papers/26551667.md)
+- Only mouse-model gCIS (genome-wide common insertion site) observed across all compartments (primary + local + metastatic recurrence) in Shh medulloblastoma [PMID:26760213](../papers/26760213.md)
 
 ## Cancer types (linked)
 
@@ -117,3 +119,9 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

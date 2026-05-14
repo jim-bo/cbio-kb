@@ -85,7 +85,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - In mCRPC, PTEN biallelic loss occurs in 40.7% of cases; it is the most common PI3K pathway alteration and co-occurs with [PIK3CB](../genes/PIK3CB.md) activating mutations. [PMID:26000489](../papers/26000489.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PTEN mutations and deletions are enriched in BRAF-mutant tumors. [PMID:26091043](../papers/26091043.md)
 - Confirmed accessory tumour suppressor in [SCLC](../cancer_types/SCLC.md); validated in mouse models (previously known role in murine [SCLC](../cancer_types/SCLC.md)). [PMID:26168399](../papers/26168399.md)
-- Homozygous deletion (6%) and somatic mutation (7%) in invasive lobular carcinoma ([ILC](../cancer_types/ILC.md)), mutually exclusive with [PIK3CA](../genes/PIK3CA.md); combined PTEN inactivation rate 14% in LumA ILC vs 3% LumA [IDC](../cancer_types/IDC.md) (p=9E-4) [PMID:26451490](../papers/26451490.md)
+- Homozygous deletion (6%) and somatic mutation (7%) in invasive lobular carcinoma ([ILC](../cancer_types/ILC.md)), mutually exclusive with [PIK3CA](../genes/PIK3CA.md); combined PTEN inactivation rate 14% in LumA [ILC](../cancer_types/ILC.md) vs 3% LumA [IDC](../cancer_types/IDC.md) (p=9E-4) [PMID:26451490](../papers/26451490.md)
+- Homozygous deletion in 15% of primary prostate tumors (highest rates among TCGA tumor types); total alteration rate 17%; preferentially co-occurs with [ERG](../genes/ERG.md) fusion [PMID:26544944](../papers/26544944.md)
+- 10q23.3 deletion in 5/25 (20%) Sézary syndrome; functionally connected to recurrent [PREX2](../genes/PREX2.md) mutations that inhibit PTEN [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -302,5 +304,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

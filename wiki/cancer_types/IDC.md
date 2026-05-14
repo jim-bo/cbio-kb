@@ -25,22 +25,22 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 
 ## Recurrent alterations
 
-- [TP53](../genes/TP53.md) mutation: 44% of IDC vs 8% of ILC (q=1.9E-14); IDC-enriched, reflecting high Basal-like and HER2-enriched representation [PMID:26451490](../papers/26451490.md).
-- [PIK3CA](../genes/PIK3CA.md) mutation: 33% of IDC vs 48% of ILC; less frequent in IDC than ILC but present across all subtypes [PMID:26451490](../papers/26451490.md).
+- [TP53](../genes/TP53.md) mutation: 44% of IDC vs 8% of [ILC](../cancer_types/ILC.md) (q=1.9E-14); IDC-enriched, reflecting high Basal-like and HER2-enriched representation [PMID:26451490](../papers/26451490.md).
+- [PIK3CA](../genes/PIK3CA.md) mutation: 33% of IDC vs 48% of [ILC](../cancer_types/ILC.md); less frequent in IDC than ILC but present across all subtypes [PMID:26451490](../papers/26451490.md).
 - [GATA3](../genes/GATA3.md) mutation: IDC-enriched in Luminal A comparison (20% LumA IDC vs 5% LumA ILC, q=0.003) [PMID:26451490](../papers/26451490.md).
 - [MYC](../genes/MYC.md) focal amplification: IDC-enriched (27% IDC vs 6% ILC, q=7.42E-7) [PMID:26451490](../papers/26451490.md).
 - [CCNE1](../genes/CCNE1.md) focal amplification: IDC-enriched (7% IDC vs 0% ILC, q=0.01) [PMID:26451490](../papers/26451490.md).
 - [CDH1](../genes/CDH1.md) mutation: 2% of IDC vs 63% of ILC (q=3.94E-53); E-cadherin loss is the defining molecular feature distinguishing ILC from IDC [PMID:26451490](../papers/26451490.md).
-- Invasive ductal carcinoma histology was produced in rat models by combined [NF1](../genes/NF1.md)+TP53 Indel editing (uniformly invasive, moderately differentiated) and PIK3CA-H1047R+TP53 Indel editing (invasive with papillary features) [PMID:26437033](../papers/26437033.md).
+- Invasive ductal carcinoma histology was produced in rat models by combined [NF1](../genes/NF1.md)+[TP53](../genes/TP53.md) Indel editing (uniformly invasive, moderately differentiated) and PIK3CA-H1047R+[TP53](../genes/TP53.md) Indel editing (invasive with papillary features) [PMID:26437033](../papers/26437033.md).
 
 ## Subtypes
 
 - Intrinsic subtypes (PAM50) in IDC: Luminal A 41%, with higher proportions of Luminal B, HER2-enriched, and Basal-like compared with ILC; IDC spans the full molecular spectrum [PMID:26451490](../papers/26451490.md).
-- Mixed IDC/ILC cases (n=88) molecularly resolve into IDC-like (64/88) or ILC-like (24/88) by majority vote of three classifiers; CDH1 status is the dominant discriminating feature [PMID:26451490](../papers/26451490.md).
+- Mixed IDC/ILC cases (n=88) molecularly resolve into IDC-like (64/88) or ILC-like (24/88) by majority vote of three classifiers; [CDH1](../genes/CDH1.md) status is the dominant discriminating feature [PMID:26451490](../papers/26451490.md).
 
 ## Therapeutic landscape
 
-- PIK3CA+TP53 co-mutated IDC tumors show transcriptional concordance with rat Pik3caH1047R/Tp53Indel models (Fisher's exact p<1×10^-14 for overlapping up-regulated genes), supporting cross-species translational relevance for endocrine and combination therapy studies [PMID:26437033](../papers/26437033.md).
+- [PIK3CA](../genes/PIK3CA.md)+TP53 co-mutated IDC tumors show transcriptional concordance with rat Pik3caH1047R/Tp53Indel models (Fisher's exact p<1×10^-14 for overlapping up-regulated genes), supporting cross-species translational relevance for endocrine and combination therapy studies [PMID:26437033](../papers/26437033.md).
 - AKT pathway activity in IDC is subtype-dependent; LumA IDC has substantially lower pAKT than ILC, HER2-enriched, or Basal-like IDC [PMID:26451490](../papers/26451490.md).
 
 ## Sources

@@ -24,11 +24,11 @@ IL6ST encodes gp130 (glycoprotein 130), the shared signal transducer subunit of 
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-listed with [JAK1](../genes/JAK1.md) and other signaling pathway genes in the HCC mutational landscape. [PMID:24798001](../papers/24798001.md)
+- Co-listed with [JAK1](../genes/JAK1.md) and other signaling pathway genes in the [HCC](../cancer_types/HCC.md) mutational landscape. [PMID:24798001](../papers/24798001.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic targeting of IL6ST reported in this corpus for HCC; JAK inhibitors targeting downstream signaling are under general investigation.
+- No direct therapeutic targeting of IL6ST reported in this corpus for [HCC](../cancer_types/HCC.md); JAK inhibitors targeting downstream signaling are under general investigation.
 
 ## Open questions
 

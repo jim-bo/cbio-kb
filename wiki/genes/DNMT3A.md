@@ -3,8 +3,8 @@ symbol: DNMT3A
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # DNMT3A
@@ -20,6 +20,7 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - HBx relocates DNMT3A to tumor suppressor gene promoters (e.g., p16/INK4A), causing regional hypermethylation in HBV-related [HCC](../cancer_types/HCC.md) [PMID:22634756](../papers/22634756.md)
 - Among the most significantly mutated DNA-methylation genes in [AML](../cancer_types/AML.md); allelic expression bias observed; co-occurs with [NPM1](../genes/NPM1.md) and [FLT3](../genes/FLT3.md); mutually exclusive with transcription-factor fusions [PMID:23634996](../papers/23634996.md)
 - Somatic variants in 13 variants across 12 patients (epigenetic regulator) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
+- Focal 2p23.3 deletion in 5/25 (20%) Sézary syndrome (2 homozygous) with concordant loss of expression, implicating DNMT3A as an epigenetic tumor suppressor in CTCL [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

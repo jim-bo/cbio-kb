@@ -19,6 +19,7 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 
 - Abiraterone is listed as a tracked systemic therapy drug in the MSK-CHORD ([msk_chord_2024](../datasets/msk_chord_2024.md)) dataset covering 3,211 [PRAD](../cancer_types/PRAD.md) patients. NLP-based annotation of prior treatment history (using transformer models) was used to identify patients who had received abiraterone, enabling post-treatment alteration enrichment analyses including [AR](../genes/AR.md) and [TP53](../genes/TP53.md) enrichment after prior systemic therapy in prostate cancer. [PMID:39506116](../papers/39506116.md)
 - Abiraterone pre-treatment context: AR-V7 splice variant was detectable at low ratios in most pre-abiraterone/enzalutamide mCRPC cases; recurrent [AR](../genes/AR.md) hotspots (T878A, W742C, L702H) that confer agonism predict differential responses to ADT including abiraterone [PMID:26000489](../papers/26000489.md)
+- Variable [AR](../genes/AR.md) transcriptional output across [PRAD](../cancer_types/PRAD.md) subtypes implies subtype-stratified responses to AR-directed therapies; abiraterone named alongside [enzalutamide](../drugs/enzalutamide.md) as relevant for SPOP/FOXA1-mutant primary tumors with highest [AR](../genes/AR.md) output [PMID:26544944](../papers/26544944.md)
 
 ## Resistance mechanisms
 
@@ -34,5 +35,8 @@ Abiraterone acetate is a selective, irreversible inhibitor of CYP17A1 (17α-hydr
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

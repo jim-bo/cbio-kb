@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -78,6 +78,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E absent in desmoplastic melanoma; three tumors carry kinase-impaired G466E, G469E, D594N substitutions that paradoxically activate MAPK via CRAF — means standard BRAF V600-directed inhibitors are not applicable [PMID:26343386](../papers/26343386.md)
 - BRAF mutated in 21/538 CLL cases (3.7%) with mutations clustering in the kinase activation segment rather than at V600E, implying a non-canonical activation mechanism and predicted reduced sensitivity to V600E-selective inhibitors (e.g., [vemurafenib](../drugs/vemurafenib.md)); BRAF together with [NRAS](../genes/NRAS.md), [KRAS](../genes/KRAS.md), and [MAP2K1](../genes/MAP2K1.md) account for 8.7% of CLLs with MAPK-ERK pathway mutations [PMID:26466571](../papers/26466571.md)
 - No enrichment of BRAF nonsynonymous mutations was observed between clinical-benefit and no-benefit subgroups in metastatic melanoma patients receiving [ipilimumab](../drugs/ipilimumab.md) (CTLA-4 blockade), despite prior reports linking BRAF status to immune-therapy response [PMID:26359337](../papers/26359337.md)
+- 2.4% mutation rate in primary prostate cancer (higher than previously reported); 8 mutations, none V600E; includes K601E, G469A, L597R (MEK-inhibitor sensitive), K601 in-frame deletion, F468C; MAPK-pathway actionable [PMID:26544944](../papers/26544944.md)
+- p.Lys601Glu activating mutation in a CD30-negative CTCL (Sézary syndrome) sample; MEK-pathway convergence across CTCL subtypes [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -265,3 +267,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:26359337](../papers/26359337.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

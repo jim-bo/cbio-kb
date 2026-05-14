@@ -20,11 +20,11 @@ XPO4 (Exportin 4) is a nuclear export receptor involved in RNA processing and ex
 
 ## Cancer types (linked)
 
-- **[CLLSLL](../cancer_types/CLLSLL.md)** — Novel RNA processing/export driver; identified alongside EWSR1 and NXF1 as a functional cluster disrupting RNA handling in CLL [PMID:26466571](../papers/26466571.md)
+- **[CLLSLL](../cancer_types/CLLSLL.md)** — Novel RNA processing/export driver; identified alongside [EWSR1](../genes/EWSR1.md) and [NXF1](../genes/NXF1.md) as a functional cluster disrupting RNA handling in CLL [PMID:26466571](../papers/26466571.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-reported with EWSR1 and NXF1 as a group of RNA processing and export drivers in CLL [PMID:26466571](../papers/26466571.md)
+- Co-reported with [EWSR1](../genes/EWSR1.md) and [NXF1](../genes/NXF1.md) as a group of RNA processing and export drivers in CLL [PMID:26466571](../papers/26466571.md)
 
 ## Therapeutic relevance
 

@@ -16,15 +16,15 @@ TYK2 (Tyrosine Kinase 2) is a member of the JAK family of non-receptor tyrosine 
 
 ## Alterations observed in the corpus
 
-- Identified as a marker of the immune-related ILC mRNA subtype in a TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- Identified as a marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype in a TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 
 ## Cancer types (linked)
 
-- **[BRCA](../cancer_types/BRCA.md) (ILC subtype)** — Expression marker of the immune-related mRNA subtype among ILC; co-expressed with [JAK2](../genes/JAK2.md), [IDO1](../genes/IDO1.md), and [IFNG](../genes/IFNG.md) in the immune-related ILC cluster [PMID:26451490](../papers/26451490.md)
+- **[BRCA](../cancer_types/BRCA.md) ([ILC](../cancer_types/ILC.md) subtype)** — Expression marker of the immune-related mRNA subtype among ILC; co-expressed with [JAK2](../genes/JAK2.md), [IDO1](../genes/IDO1.md), and [IFNG](../genes/IFNG.md) in the immune-related ILC cluster [PMID:26451490](../papers/26451490.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with JAK2, IDO1, and IFNG as markers of the immune-related ILC mRNA subtype [PMID:26451490](../papers/26451490.md)
+- Co-expressed with [JAK2](../genes/JAK2.md), [IDO1](../genes/IDO1.md), and [IFNG](../genes/IFNG.md) as markers of the immune-related ILC mRNA subtype [PMID:26451490](../papers/26451490.md)
 
 ## Therapeutic relevance
 

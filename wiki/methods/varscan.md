@@ -25,6 +25,7 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 - Used for somatic variant calling in the AA CRC WES pipeline alongside MuTect, contributing to the mutational landscape analysis of 103 African American MSS colorectal cancers [PMID:25583493](../papers/25583493.md)
 - VarScan used for INDEL calling in 109 microdissected PDA WES samples (≥8 reference reads, ≥3 variant reads); indels manually inspected in IGV before inclusion. [PMID:25855536](../papers/25855536.md)
 - VarScan used for somatic variant calling in whole-exome sequencing of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
+- Used for indel calling in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples alongside Strelka and MutationSeq; supported characterization of massively increased mutational burden (~5-fold) at recurrence [PMID:26760213](../papers/26760213.md).
 
 ## Notes
 
@@ -44,5 +45,8 @@ VarScan is a platform-independent variant detection tool for next-generation seq
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

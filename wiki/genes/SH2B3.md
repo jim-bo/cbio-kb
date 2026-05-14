@@ -4,18 +4,19 @@ aliases: ["LNK"]
 cancer_types: ["MPN"]
 tags: []
 processed_by: crosslinker
-processed_at: 2026-05-09
+processed_at: 2026-05-14
 ---
 
 # SH2B3
 
 ## Overview
 
-SH2B3 (also known as LNK) encodes an adapter protein that negatively regulates [JAK2](../genes/JAK2.md) signaling by binding to and inhibiting JAK2 kinase activity. Loss-of-function mutations in SH2B3 are recurrently observed in myeloproliferative neoplasms ([MPN](../cancer_types/MPN.md)) and can collaborate with other driver mutations such as JAK2 V617F. SH2B3 acts as a tumor suppressor in the hematopoietic context, and its inactivation leads to enhanced cytokine-receptor signaling.
+SH2B3 (also known as LNK) encodes an adapter protein that negatively regulates [JAK2](../genes/JAK2.md) signaling by binding to and inhibiting [JAK2](../genes/JAK2.md) kinase activity. Loss-of-function mutations in SH2B3 are recurrently observed in myeloproliferative neoplasms ([MPN](../cancer_types/MPN.md)) and can collaborate with other driver mutations such as [JAK2](../genes/JAK2.md) V617F. SH2B3 acts as a tumor suppressor in the hematopoietic context, and its inactivation leads to enhanced cytokine-receptor signaling.
 
 ## Alterations observed in the corpus
 
-- SH2B3 (LNK) somatic mutation identified in 1 MPN patient in an exome-sequencing cohort that discovered [CALR](../genes/CALR.md) as a recurrent MPN driver; found alongside other co-mutations in the myeloproliferative neoplasm context [PMID:24325359](../papers/24325359.md)
+- SH2B3 (LNK) somatic mutation identified in 1 [MPN](../cancer_types/MPN.md) patient in an exome-sequencing cohort that discovered [CALR](../genes/CALR.md) as a recurrent [MPN](../cancer_types/MPN.md) driver; found alongside other co-mutations in the myeloproliferative neoplasm context [PMID:24325359](../papers/24325359.md)
+- p.Tyr273* loss-of-function mutation in a JAK3-mutated Sézary syndrome case; acts as a negative regulator of JAK signaling [PMID:26551667](../papers/26551667.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ SH2B3 (also known as LNK) encodes an adapter protein that negatively regulates [
 
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **crosslinker** on **2026-05-14**.*

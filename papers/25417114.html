@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrated Genomic Characterization of Papillary Thyroid Carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25417114.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25417114.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrated Genomic Characterization of Papillary Thyroid Carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>The Cancer Genome Atlas Research Network </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2014.09.050">10.1016/j.cell.2014.09.050</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 25417114 · <strong>DOI:</strong> 10.1016/j.cell.2014.09.050 · <strong>Journal:</strong> Cell (2014)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The TCGA Research Network performed multiplatform genomic characterization of 496 papillary thyroid carcinomas (PTCs), the largest such cohort to date. They confirmed the dominance and mutual exclusivity of MAPK-pathway drivers (<a href="../genes/BRAF.html">BRAF</a> V600E, RAS mutations, RET/NTRK/BRAF/ALK fusions), discovered new PTC drivers (<a href="../genes/EIF1AX.html">EIF1AX</a>, <a href="../genes/PPM1D.html">PPM1D</a>, <a href="../genes/CHEK2.html">CHEK2</a> and diverse novel gene fusions), and reduced the fraction of PTC cases without an identified oncogenic driver from ~25% to 3.5%. Combined SNV/CNV/methylation/mRNA/miRNA/RPPA analyses revealed that BRAFV600E-like (BVL) and RAS-like (RL) tumors are fundamentally different in genomic, epigenomic and proteomic profiles, with distinct signaling outputs and differentiation states, supporting a proposed molecular reclassification of thyroid cancer.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>496 primary PTCs plus 8 metastatic tumors from non-irradiated patients, accrued through TCGA. Histology breakdown: 324 (69.4%) classical-type (CT), 99 (21.2%) follicular-variant (FV), 35 (7.5%) tall cell variant (TCV), 9 (2.0%) uncommon variants, 29 without histological annotation.</li>
+<li>Aggressive thyroid cancers (poorly differentiated and undifferentiated/anaplastic) were excluded; cohort focuses on [[../cancer_types/THPA.md|papillary thyroid carcinoma (<a href="../cancer_types/THPA.html">THPA</a>)]].</li>
+<li>Dataset: [[../datasets/thca_tcga_pub.md|<a href="../datasets/thca_tcga_pub.html">thca_tcga_pub</a>]].</li>
+<li>402 of 496 tumor/normal pairs had [[../methods/whole-exome-seq.md|whole-exome sequencing]] (mean tumor depth 97.0×, normal 94.9×); 390 tumors were profiled on all major platforms.</li>
+<li>Platforms (Table S1B): exome and whole genome DNA-seq, [[../methods/rna-seq.md|RNA-seq]], [[../methods/mirna-seq.md|miRNA-seq]], [[../methods/affymetrix-snp6.md|SNP6 arrays]], [[../methods/450k-methylation-array.md|Illumina 450k methylation arrays]], and [[../methods/rppa.md|reverse phase protein arrays (RPPA)]].</li>
+<li>Analytical methods include [[../methods/mutsig.md|MutSig]] for SMG calling, [[../methods/gistic.md|GISTIC2]] for focal SCNA, [[../methods/memo.md|MEMo]] for mutual exclusivity, and [[../methods/absolute.md|ABSOLUTE]] for cancer cell fraction estimation; HotNet2 and NBS for network analyses; PathSeq and BioBloom Tools for viral detection.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Low somatic mutation density.</strong> Mean 0.41 non-synonymous mutations per Mb (Figures 1A, S1A; Table S3), low relative to most other carcinomas. Mutation density correlated with age (Pearson p=5.2×10⁻¹⁸), risk of recurrence (Kruskal-Wallis p=3.4×10⁻⁴), and MACIS score (Pearson p=4×10⁻¹⁵). After age correction, the association with risk of recurrence persisted (p=9.7×10⁻³); the MACIS association did not (p=0.19).</li>
+<li><strong>APOBEC enrichment in hypermutators.</strong> The 10 tumors with highest mutation densities (&gt;1/Mb) were enriched for APOBEC-associated mutations (Mann-Whitney p=4×10⁻⁵), similar to bladder cancer.</li>
+<li><strong>Seven significantly mutated genes (q&lt;0.1).</strong> [[../genes/BRAF.md|<a href="../genes/BRAF.html">BRAF</a>]], [[../genes/NRAS.md|<a href="../genes/NRAS.html">NRAS</a>]], [[../genes/HRAS.md|<a href="../genes/HRAS.html">HRAS</a>]], [[../genes/KRAS.md|<a href="../genes/KRAS.html">KRAS</a>]], [[../genes/EIF1AX.md|<a href="../genes/EIF1AX.html">EIF1AX</a>]], [[../genes/PPM1D.md|<a href="../genes/PPM1D.html">PPM1D</a>]], [[../genes/CHEK2.md|<a href="../genes/CHEK2.html">CHEK2</a>]] (Figure 1C, Table S2).</li>
+<li><strong>MAPK driver mutual exclusivity.</strong> BRAF + <a href="../genes/NRAS.html">NRAS</a> + <a href="../genes/HRAS.html">HRAS</a> + <a href="../genes/KRAS.html">KRAS</a> mutations were mutually exclusive in 300/402 (74.6%) patients (Fisher’s exact p=1.1×10⁻⁵; MEMo-corrected p&lt;0.01).</li>
+<li><strong>BRAF mutations.</strong> 248/402 (61.7%) BRAF mutations, mostly V600E; BRAFV600E characterized CT and TCV histologies.</li>
+<li><strong>RAS mutations.</strong> 52/402 (12.9%) SSNVs at codons 12/61 of RAS genes; RAS mutations characterized the follicular variant.</li>
+<li><strong>EIF1AX is a novel PTC driver.</strong> 6/402 (1.5%) tumors carried EIF1AX mutations (q=5.3×10⁻⁸), near-mutually exclusive with MAPK drivers (Fisher’s exact p=0.013 vs.&nbsp;RAS/BRAF). The single overlapping case carried a clonal KRAS mutation (CCF 100%) with subclonal EIF1AX (CCF 76%) and BRAF (CCF 53%) mutations.</li>
+<li><strong>DNA-repair SMGs.</strong> PPM1D and CHEK2 mutations co-occurred with MAPK-pathway drivers. An additional 8 DNA-repair-related mutations across 26 (6.5%) tumors were mutually exclusive (MEMo p=0.24), associated with higher mutation density (Mann-Whitney p=0.022, attenuated after age adjustment) and enriched among high-risk patients (Fisher’s exact p=0.018).</li>
+<li><strong><a href="../genes/TERT.html">TERT</a> promoter mutations.</strong> 36/384 (9.4%) informative tumors — 27 (7.0%) C228T, 1 (0.3%) C228A, 8 (2.1%) C250T — present across all histological types. Associated with older age, higher MACIS scores (Kruskal-Wallis p=2.6×10⁻⁹ for age, p=1.3×10⁻¹¹ for MACIS), higher risk of recurrence (Fisher’s exact p=7×10⁻⁸), and lower thyroid differentiation score (TDS) (Kruskal-Wallis p=4.2×10⁻⁵). Associations persisted within BRAFV600E tumors.</li>
+<li><strong>Driver clonality.</strong> Using [[../methods/absolute.md|ABSOLUTE]], cancer cell fractions (CCF) for BRAF, NRAS, HRAS, KRAS, and EIF1AX driver mutations were uniformly high — all driver mutations are largely clonal (Figure 2D). Targeted validation confirmed 264/265 (99.6%) driver-gene mutations and 49/54 (91%) random mutations (overall validation rate 96%).</li>
+<li><strong>Gene fusions identified in 74/484 (15.3%) cases</strong>, mutually exclusive with BRAF/RAS/EIF1AX mutations (Fisher’s exact p=4.9×10⁻⁴³). Fusion-positive tumors associated with younger age (Wilcoxon rank-sum p=0.005) but not with recurrence risk (p=0.55):
+<ul>
+<li>[[../genes/RET.md|<a href="../genes/RET.html">RET</a>]] fusions: 33/484 (6.8%); 4 novel <a href="../genes/RET.html">RET</a> fusions identified that preserved the kinase domain.</li>
+<li>[[../genes/BRAF.md|BRAF]] fusions: 13/484 (2.7%) with diverse partners including [[../genes/SND1.md|<a href="../genes/SND1.html">SND1</a>]]/BRAF (3 tumors) and [[../genes/MKRN1.md|<a href="../genes/MKRN1.html">MKRN1</a>]]/BRAF.</li>
+<li>[[../genes/PAX8.md|<a href="../genes/PAX8.html">PAX8</a>]]/[[../genes/PPARG.md|<a href="../genes/PPARG.html">PPARG</a>]] fusions: 4/484 (0.8%).</li>
+<li>[[../genes/ETV6.md|<a href="../genes/ETV6.html">ETV6</a>]]/[[../genes/NTRK3.md|<a href="../genes/NTRK3.html">NTRK3</a>]] and [[../genes/RBPMS.md|<a href="../genes/RBPMS.html">RBPMS</a>]]/[[../genes/NTRK3.md|<a href="../genes/NTRK3.html">NTRK3</a>]] fusions: 6/484 (1.2%) combined.</li>
+<li>[[../genes/THADA.md|<a href="../genes/THADA.html">THADA</a>]] fusions: 6/484 (1.2%).</li>
+<li>[[../genes/ALK.md|<a href="../genes/ALK.html">ALK</a>]] fusions (incl.&nbsp;[[../genes/EML4.md|<a href="../genes/EML4.html">EML4</a>]]/ALK): 4/484 (0.8%).</li>
+<li>[[../genes/FGFR2.md|<a href="../genes/FGFR2.html">FGFR2</a>]] fusions: 2 cases; non-recurrent [[../genes/MET.md|<a href="../genes/MET.html">MET</a>]] and [[../genes/LTK.md|<a href="../genes/LTK.html">LTK</a>]] fusions: 2 cases.</li>
+</ul></li>
+<li><strong>Somatic copy number alterations.</strong> SCNAs identified in 135/495 (27.2%) informative tumors and enriched in driver-mutation-negative cases (Fisher’s exact p=4.4×10⁻⁴). Unsupervised clustering of arm-level events defined 4 classes: SCNA-quiet (72.9%), SCNA-22q-del (9.9%, <a href="../genes/NF2.html">NF2</a> and CHEK2 lost — 70 tumors with 22q loss, 5 with CHEK2 mutation, 4 cases overlapping, p=0.0035), SCNA-low-1q-amp (14.8%, enriched for TCV p&lt;0.0001 and BRAF p&lt;0.05, with higher MACIS p&lt;0.0001), and SCNA-high (2.4%).</li>
+<li><strong>‘Dark matter’ reduction.</strong> Starting from 402 exome-sequenced cases: SSNVs explained 299 (73.6%); fusions raised this to 358 (89.0%); focal deletions (2 <a href="../genes/PTEN.html">PTEN</a>, 1 BRAF) to 361 (89.8%); arm-level SCNAs in 27 mostly-FV cases brought it to ~96.5%. Only 14 (3.5%) cases remained as ‘dark matter’, down from a historical ~25%. Including additional candidates (<a href="../genes/APC.html">APC</a>, <a href="../genes/ATM.html">ATM</a>, <a href="../genes/NF1.html">NF1</a>, <a href="../genes/SPOP.html">SPOP</a>, chromatin remodeling genes, potential fusions), putative drivers were identified in 397/402 (98.8%) PTCs.</li>
+<li><strong>BRAFV600E-RAS Score (BRS).</strong> A 71-gene expression signature derived from BRAF- vs.&nbsp;RAS-mutant tumors yielded a continuous score (−1 BVL to +1 RL). Used to characterize less-common alterations: all non-V600E BRAF mutations (K601E, splice-site, indels) were RL; all BRAF fusions were BVL; 4/6 EIF1AX mutations were RL; PAX8/PPARG fusions were RL; nearly all RET fusions were weakly BVL; NTRK1/3 and <a href="../genes/ALK.html">ALK</a> fusions were largely neutral.</li>
+<li><strong>Thyroid Differentiation Score (TDS).</strong> 16-gene metric of thyroid metabolism/function genes. Strongly correlated with BRS (Spearman 0.78, p=3.1×10⁻⁸⁰). Within the BRAFV600E cohort, TDS varied widely and correlated with histological grade (Kruskal-Wallis p=4×10⁻⁶), risk (p=2×10⁻⁵), and MACIS (Spearman p=1.3×10⁻⁶), but only weakly with tumor purity (p=1.5×10⁻³).</li>
+<li><strong>Differential signaling.</strong> BVL-PTCs (BRAFV600E-driven) had high MAPK / ERK activation (52-gene MEK-inhibition signature correlated with BRS) and increased DUSP gene expression. RL-PTCs had concurrent PI3K/AKT and MAPK activation (latter through c-RAF phosphorylation), and significantly higher phosphorylation of p90RSK, robust <a href="../genes/TSC2.html">TSC2</a> inhibition (likely mTOR-inducing), BAD phosphorylation, and <a href="../genes/BCL2.html">BCL2</a> over-expression (anti-apoptotic). TieDIE highlighted RHEB as a contributing factor.</li>
+<li><strong>Molecular classification.</strong> Unsupervised clustering of mRNA, miRNA, methylation and protein data produced 5/6/4/4 subtypes respectively, all consistent with a BVL-vs-RL meta-cluster split. A ‘tall cell-like’ mRNA-cluster 5 (largely embedded in miR-cluster 6, Fisher’s exact p=1.3×10⁻³⁶) contained 74% of TCVs, had the highest BRAFV600E mutation frequency (78%), lowest BRS and TDS values, and was associated with more advanced stage and higher risk.</li>
+<li><strong>OncomiRs and tumor suppressor miRs.</strong> miR-21 was the most negatively TDS-correlated miR (in both the whole cohort and the BRAFV600E subcohort). miR-146b expression was similarly associated with low BRS/TDS and DNA-methylation variation; miR-204 was lost in low-BRS, low-TDS BVL-PTC sub-clusters. miR-21 and miR-146b are oncomiRs; miR-204 acts as a tumor suppressor.</li>
+<li><strong>Viral pathogens are unlikely contributors.</strong> PathSeq and BioBloom Tools identified only 2 HBV-positive and 1 HPV45-positive tumors above the per-million reads thresholds.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li>[[../genes/BRAF.md|BRAF]] — V600E in 61.7% of tumors (n=248/402); 13/484 (2.7%) BRAF fusions including SND1/BRAF and MKRN1/BRAF. Mutually exclusive with RAS/EIF1AX/fusion-driven cases. BRAFV600E defines the BVL signaling/differentiation class; BRAF fusions also BVL but with diverse activation mechanisms.</li>
+<li>[[../genes/NRAS.md|NRAS]] / [[../genes/HRAS.md|HRAS]] / [[../genes/KRAS.md|KRAS]] — codon 12/61 SSNVs in 52/402 (12.9%) tumors; characterize the follicular variant; drive the RL phenotype with concurrent MAPK/PI3K signaling.</li>
+<li>[[../genes/EIF1AX.md|EIF1AX]] — novel PTC driver, 6/402 (1.5%), q=5.3×10⁻⁸; near-mutually exclusive with MAPK drivers.</li>
+<li>[[../genes/PPM1D.md|PPM1D]] / [[../genes/CHEK2.md|CHEK2]] — DNA-repair-related SMGs, co-occurring with MAPK drivers; CHEK2 mutations associated with 22q loss (p=0.0035).</li>
+<li>[[../genes/TERT.md|<a href="../genes/TERT.html">TERT</a>]] — promoter mutations (C228T, C228A, C250T) in 9.4% (36/384) of informative tumors; associated with high-risk, less differentiated, BRAFV600E-positive aggressive PTCs (Kruskal-Wallis p=4.2×10⁻⁵ for TDS).</li>
+<li>[[../genes/RET.md|RET]] — fusions in 6.8% (33/484), most weakly BVL. Four novel kinase-domain-preserving RET fusion partners discovered.</li>
+<li>[[../genes/NTRK1.md|<a href="../genes/NTRK1.html">NTRK1</a>]] / [[../genes/NTRK3.md|NTRK3]] — fusions detected; ETV6/NTRK3 and RBPMS/NTRK3 in 1.2% (6/484); fusions were BRS-neutral.</li>
+<li>[[../genes/ALK.md|ALK]] — fusions in 0.8% (4/484), including EML4/ALK, potential targetable alteration.</li>
+<li>[[../genes/PAX8.md|<a href="../genes/PAX8.html">PAX8</a>]]/[[../genes/PPARG.md|<a href="../genes/PPARG.html">PPARG</a>]] — fusions in 0.8% (4/484); RL phenotype.</li>
+<li>[[../genes/PTEN.md|<a href="../genes/PTEN.html">PTEN</a>]] — 2 focal deletions; lost in 5 tumors with 10q23.31 deletions. PI3K/PPARγ pathway mutations (PTEN, AKT1/2, PAX8/PPARG) in 4.5% (18/402).</li>
+<li>[[../genes/PIK3CA.md|<a href="../genes/PIK3CA.html">PIK3CA</a>]] — mutations overlap with BRAFV600E in HotNet2 MAPK subnetwork.</li>
+<li>[[../genes/NF2.md|<a href="../genes/NF2.html">NF2</a>]] — within 22q loss region characteristic of SCNA-22q-del FV-enriched subtype.</li>
+<li>[[../genes/TP53.md|<a href="../genes/TP53.html">TP53</a>]] / [[../genes/RB1.md|<a href="../genes/RB1.html">RB1</a>]] / [[../genes/NF1.md|<a href="../genes/NF1.html">NF1</a>]] / [[../genes/NF2.md|NF2]] / [[../genes/MEN1.md|<a href="../genes/MEN1.html">MEN1</a>]] — tumor suppressor mutations in 15/402 (3.7%).</li>
+<li>[[../genes/APC.md|<a href="../genes/APC.html">APC</a>]] / [[../genes/ATM.md|<a href="../genes/ATM.html">ATM</a>]] / [[../genes/SPOP.md|<a href="../genes/SPOP.html">SPOP</a>]] / [[../genes/KMT2A.md|<a href="../genes/KMT2A.html">KMT2A</a>]] / [[../genes/ARID1B.md|<a href="../genes/ARID1B.html">ARID1B</a>]] / [[../genes/KMT2C.md|<a href="../genes/KMT2C.html">KMT2C</a>]] — additional candidate dark-matter drivers and chromatin-remodeling alterations; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors.</li>
+<li>[[../genes/ZFHX3.md|<a href="../genes/ZFHX3.html">ZFHX3</a>]] (7/402, 1.7%, q=0.79) and BDP1 (5/402, 1.2%, q=0.58) — near-significant putative tumor suppressors.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>TERT promoter genotyping</strong> is supported as a molecular biomarker for identifying high-risk patients within the BRAFV600E cohort, given its strong association with recurrence risk, MACIS score, age, and reduced thyroid differentiation.</li>
+<li><strong>BRAFV600E PTC is heterogeneous.</strong> The authors argue that BRAFV600E PTC should not be treated as a homogeneous group in clinical studies; it comprises at least four molecular subtypes with varying differentiation. This may explain mixed reports on the prognostic and predictive value of BRAFV600E alone.</li>
+<li><strong>Targeted therapy opportunities expanded.</strong> Confirmation that BRAF and other driver mutations are clonal supports BRAF-inhibitor use in PTC. Novel RET, BRAF (e.g.&nbsp;SND1/BRAF, MKRN1/BRAF) and ALK (including EML4/ALK) fusion partners suggest additional opportunities for kinase-inhibitor therapy.</li>
+<li><strong>Differential signaling has therapeutic implications.</strong> BVL-PTCs signal preferentially through MAPK and may respond differently to MEK inhibitors than RL-PTCs, which co-activate MAPK and PI3K/AKT/mTOR. This is consistent with reports of genotype-dependent MEK-inhibitor response (Ho et al., 2013).</li>
+<li><strong>Diagnostic implications.</strong> Reducing ‘dark matter’ from 25% to 3.5% expands the panel of driver alterations interrogated by FNA-based molecular testing, supporting more precise patient selection for thyroid surgery and informing the extent of initial surgery (lobectomy vs.&nbsp;total thyroidectomy).</li>
+<li><strong>Proposed reclassification.</strong> Authors propose unifying follicular-variant PTC (the RL-PTC group) with follicular carcinomas under a molecular reclassification that better reflects underlying biology, potentially guiding precision-medicine approaches.</li>
+<li><strong>Age as a continuous variable.</strong> Strong correlation of mutation density with age supports treating age as a continuous risk variable rather than dichotomizing at 45 years in staging systems.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>The cohort excluded poorly differentiated and undifferentiated/anaplastic thyroid carcinomas, limiting inference about progression to aggressive disease — the authors explicitly note this trade-off.</li>
+<li>Cases of less-common PTC variants (n=9) and 29 without histological annotation reduce statistical power for variant-specific analyses.</li>
+<li>BRAF fusion PCR validation was inconclusive for 3/9 attempted fusions; some novel fusions remain validated only at the sequencing/RNA-seq level.</li>
+<li>The biological significance of the Meth-CpG-Island RL-PTC sub-cluster (associated with higher tumor purity / less lymphocyte infiltration) remains unclear.</li>
+<li>The 27 mostly-FV cases with arm-level SCNAs as putative drivers cannot be assigned a specific driving gene.</li>
+<li>Although the study reduces unexplained PTC cases to 3.5%, the contribution of the candidate dark-matter genes (APC, ATM, NF1, SPOP) requires independent validation.</li>
+<li>The role of PI3K pathway alterations co-occurring with BRAFV600E (e.g.&nbsp;<a href="../genes/PIK3CA.html">PIK3CA</a>) requires functional validation.</li>
+<li>The framework as outlined applies to PTC as currently defined; whether the BVL/RL meta-cluster framework extends to aggressive thyroid cancers requires separate analysis.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Here, we describe the genomic landscape of 496 PTCs… extended the set of known PTC driver alterations to include EIF1AX, PPM1D and CHEK2 and diverse gene fusions. These discoveries reduced the fraction of PTC cases with unknown oncogenic driver from 25% to 3.5%.” (Summary)</li>
+<li>“Whole exome DNA sequencing of 402 (of 496) tumor/normal pairs (average depth-of-coverage; 97.0× for tumors, 94.9× for normals) showed a low somatic mutation density (0.41 non-synonymous mutations per Mb, on average)” (p.&nbsp;4)</li>
+<li>“The 248 (61.7%) BRAF mutations were mostly V600E substitution… Somatic single nucleotide variants (SSNVs) were identified in 52 patients (12.9%) within codons 12 and 61 of RAS genes” (p.&nbsp;4)</li>
+<li>“We identified TERT promoter mutations in 36 (9.4%) of 384 informative tumors, with 27 (7.0%) C228T, 1 (0.3%) C228A and 8 (2.1%) C250T substitutions… (Kruskal-Wallis test p=2.6×10⁻⁹, and p=1.3×10⁻¹¹, Figure 2B, respectively), and high risk of recurrence (Fisher’s exact test p=7×10⁻⁸, Figure 2A)” (pp.&nbsp;5-6)</li>
+<li>“We identified both known and novel fusions, including new partners of previously described fusions, in 74 (15.3%) of 484 informative cases… Fusions were mutually exclusive with each other and with BRAF, RAS and EIF1AX mutations (Fisher’s exact test p=4.9×10⁻⁴³)” (p.&nbsp;6)</li>
+<li>“Including these events and considering arm-level SCNAs as drivers, we have identified putative cancer drivers in 397/402 PTCs (98.8%).” (p.&nbsp;9)</li>
+<li>“We developed a BRAFV600E-RAS score (BRS) to quantify the extent to which the gene expression profile of a given tumor resembles either the BRAFV600E- or RAS-mutant profiles. Using 391 samples with both exome and RNA sequencing data, we compared BRAFV600E-mutated and RAS-mutated tumors to derive a 71-gene signature.” (p.&nbsp;9)</li>
+<li>“The TDS and BRS measures were highly correlated across all tumors (Spearman = 0.78, P=3.1×10⁻⁸⁰)” (p.&nbsp;10)</li>
+<li>“BRAFV600E PTC represents a diverse group of tumors, consisting of at least four molecular subtypes, with variable degrees of thyroid differentiation.” (Discussion, p.&nbsp;14)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/25417114.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/25417114.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

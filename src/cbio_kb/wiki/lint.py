@@ -20,6 +20,20 @@ REQUIRED_FRONTMATTER = {
     "themes": {"title"},
 }
 
+# Obsidian-style link patterns that pandoc cannot render. The unbalanced /
+# triple-bracket variants caused a multi-hour publish-workflow hang in 2026-05.
+# Run `uv run cbio-kb wiki normalize-brackets` to repair.
+_BRACKET_ERROR_PATTERNS = [
+    ("[[../path|[name](url)]]",  re.compile(r"\[\[\.\.\/[^|\]]+\|\[[^\]]+\]\([^)]+\)\]\]")),
+    ("[[[name](url)|alias]]",    re.compile(r"\[\[\[[^\]]+\]\([^)]+\)\|[^\]]+\]\]")),
+    ("[[[name](url)]]",          re.compile(r"\[\[\[[^\]]+\]\([^)]+\)\]\]")),
+    ("[[name](url)]",            re.compile(r"\[\[[^\]]+\]\([^)]+\)\]")),
+    ("[[name](url) (unbalanced)", re.compile(r"\[\[[A-Za-z][^\]]*\]\([^)]+\)(?!\])")),
+]
+_BRACKET_BARE_PATTERN = re.compile(
+    r"\[\[(?:[A-Za-z][A-Za-z0-9_-]*|(?:genes|cancer_types|datasets|drugs|methods)/[A-Za-z0-9._-]+)\]\]"
+)
+
 
 def _parse_list_field(text: str, field: str) -> list[str]:
     """Pull a YAML-ish list out of frontmatter. Handles inline `[a, b]` and
@@ -88,6 +102,20 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
                     stubs_needed.add(target_rel)
                 else:
                     errors.append(f"{rel}: broken link -> {href}")
+
+        for label, pat in _BRACKET_ERROR_PATTERNS:
+            n = len(pat.findall(text))
+            if n:
+                errors.append(
+                    f"{rel}: {n} malformed Obsidian-style link(s) matching `{label}` "
+                    f"— run `uv run cbio-kb wiki normalize-brackets`"
+                )
+        n_bare = len(_BRACKET_BARE_PATTERN.findall(text))
+        if n_bare:
+            warnings.append(
+                f"{rel}: {n_bare} bare Obsidian wiki-link(s) [[name]] — "
+                f"render as literal text; `normalize-brackets` will repair"
+            )
 
     index = wiki_dir / "index.md"
     if index.exists():

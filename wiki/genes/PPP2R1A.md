@@ -21,6 +21,7 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 - Mutated in 22% of copy-number-high serous-like endometrial tumors (Q=1.7×10⁻¹⁶); previously noted as a serous-specific driver [PMID:23636398](../papers/23636398.md)
 - M180R HEAT-domain hotspot mutation in 1 uterine carcinosarcoma case [PMID:25233892](../papers/25233892.md)
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); part of the canonical UCEC driver gene landscape co-occurring with PIK3CA, PIK3R1, PTEN, ERBB2, and FBXW7 mutations [PMID:28445112](../papers/28445112.md)
+- Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); co-enriched with TP53 in serous-like profiles, suggesting a role in high-grade CCEC [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -42,13 +43,12 @@ PPP2R1A encodes the scaffold A subunit of Protein Phosphatase 2A (PP2A), a serin
 
 - [PMID:37651310](../papers/37651310.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

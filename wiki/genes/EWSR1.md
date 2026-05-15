@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # EWSR1
@@ -23,6 +23,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - EWSR1-FLI1 fusion identified in an odontogenic case, reclassifying it as Ewing sarcoma (ES) with epithelial differentiation; EWSR1-ATF1 fusion identified in a clear cell odontogenic carcinoma (CCOC), a novel finding in odontogenic tumors [PMID:27442865](../papers/27442865.md)
 - EWSR1–FLI1 fusion diagnostic of Ewing sarcoma ([ES](../cancer_types/ES.md)) in two pediatric patients in the PIPseq cohort; one ES patient additionally showed a poor-prognosis transcriptomic signature (low PAX8/FHIT/CASP10/CHD2, high CHD11/FUS/MTA1); EWSR1–WT1 fusion diagnostic of desmoplastic small round cell tumor ([DSRCT](../cancer_types/DSRCT.md)) in a separate patient [PMID:28007021](../papers/28007021.md).
 - EWSR1 fusions (including EWSR1-FLI1 and EWSR1-FUS rearrangements) were characterized as hallmark oncogenic drivers in Ewing sarcoma [PMID:28199314](../papers/28199314.md)
+- EWSR1-FLI1 fusion detected in n=25 Ewing sarcoma (ES) cases within the MSK-IMPACT pan-cancer cohort of 10,336 patients [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

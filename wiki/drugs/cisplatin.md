@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # cisplatin
@@ -49,6 +49,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - First-line platinum backbone in BEP (bleomycin+etoposide+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced GCT patients; TP53 alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); nutlin-3 showed antiproliferative synergy with cisplatin in TP53 wild-type cisplatin-resistant GCT cell lines [PMID:27646943](../papers/27646943.md)
 - Cisplatin + [gemcitabine](../drugs/gemcitabine.md) (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); post-chemotherapy tumors showed clonal enrichment of [L1CAM](../genes/L1CAM.md) and integrin-signaling missense mutations, an APOBEC3A-dominant mutational signature, and selective elimination of [ATM](../genes/ATM.md)/[RB1](../genes/RB1.md)/[FANCC](../genes/FANCC.md)-altered clones (73.3% pre- vs 37.9% post-chemotherapy, p=0.05); cisplatin specifically drove a C>A mutational signature consistent with its known adduct-forming mechanism [PMID:27749842](../papers/27749842.md)
 - Used in combination with etoposide (cisplatin/etoposide) as first-line chemotherapy in SCLC PDX models; 10/10 PDXs were sensitive to 6–8 cycles with 65–95% tumor growth inhibition; concurrent EZH2 inhibitor (EPZ011989) enhanced disease control and prevented SLFN11 suppression in SLFN11-high models [PMID:28196596](../papers/28196596.md).
+- Adjuvant cisplatin/[carboplatin](../drugs/carboplatin.md) plus [vinorelbine](../drugs/vinorelbine.md) was the standard adjuvant chemotherapy backbone in the TRACERx NSCLC ctDNA study (NCT01888601, n=24 longitudinal patients). ctDNA clearance after adjuvant therapy correlated with sustained remission (CRUK0013, 688 days relapse-free), while rising ctDNA SNV burden during adjuvant therapy identified resistance in real time in patients who all recurred within 1 year. [PMID:28445469](../papers/28445469.md)
 
 ## Resistance mechanisms
 
@@ -61,6 +62,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [ESCA](../cancer_types/ESCA.md), [STAD](../cancer_types/STAD.md) — HER2+ esophageal/gastric cancer; preclinical comparator context.
 - [BLCA](../cancer_types/BLCA.md) — metastatic urothelial carcinoma; CALGB 90601 backbone cisplatin-based chemotherapy; DDR alteration predictive value not confirmed (underpowered). WashU WES cohort (n=32): cisplatin + [gemcitabine](../drugs/gemcitabine.md) reshapes clonal architecture and drives APOBEC mutagenesis.
 - [OS](../cancer_types/OS.md) — osteosarcoma; MAP regimen component; organoid viability correlated with post-resection necrosis.
+- [NSCLC](../cancer_types/NSCLC.md) — adjuvant cisplatin/carboplatin + vinorelbine backbone in TRACERx; ctDNA monitoring detected resistance and clearance in real time.
 
 ## Sources
 
@@ -119,6 +121,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WES of 72 UC tumors (32 patients); cisplatin + gemcitabine clonal evolution study; APOBEC3A enrichment and L1CAM/integrin clonal enrichment post-chemotherapy.
+
+- [PMID:28445469](../papers/28445469.md) — Abbosh et al. 2017, *Nature*. TRACERx NSCLC ctDNA study; cisplatin/carboplatin + vinorelbine adjuvant chemotherapy; ctDNA clearance vs. resistance detected in real time.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28196596](../papers/28196596.md)

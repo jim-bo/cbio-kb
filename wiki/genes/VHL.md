@@ -9,7 +9,7 @@ tags:
   - hypoxia
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
@@ -32,6 +32,7 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Only 1/62 uRCC cases (T08) carried a VHL mutation; the near-absence of VHL alteration despite frequent 3p loss distinguishes unclassified high-grade RCC from clear-cell RCC (where VHL is altered in ~75%). [PMID:27713405](../papers/27713405.md)
 - V166G germline mutation diagnostic of Von Hippel-Lindau syndrome in a pediatric renal cell carcinoma patient; I180T germline mutation in an ependymoma patient flagged as Von Hippel-Lindau syndrome (ACMG secondary finding) [PMID:28007021](../papers/28007021.md)
 - Germline (4%) and somatic mutations specific to the pseudohypoxia subtype of PCC/PGL; germline VHL co-occurs with 3p chromosomal deletion; FDA-approved targeted therapies are available for VHL-mutant tumors [PMID:28162975](../papers/28162975.md)
+- Identified as a lineage-restricted driver gene in renal clear-cell carcinoma in a pan-cancer MSK-IMPACT analysis of 10,336 patients across 62 tumor types [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

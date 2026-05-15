@@ -100,6 +100,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - 218 patients with KRAS mutations in prospective LUAD cohort (860 patients, MSK-IMPACT); codon 12 dominant; codon 61 in 12/235 (5%) of KRAS-mutated tumors; only 0.9% (2/218) received matched therapy; mutually exclusive with EGFR (p<0.0001) [PMID:28336552](../papers/28336552.md)
 - Single-patient missense event in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
 - 6/23 (26%) endometrial polyps harbored low-VAF KRAS hotspot mutations including G12V and G13V; one sample bore both on independent reads; may indicate precursor lesion biology [PMID:28445112](../papers/28445112.md)
+- Driver SNVs targeted in LUAD ctDNA panels; KRAS amplification (>15 copies) identified as an ancestral subclonal event driving lymph-node residual disease in patient CRUK0013 that responded to adjuvant chemoradiotherapy; SNV status not associated with pre-operative ctDNA detection rate within LUADs [PMID:28445469](../papers/28445469.md)
+- Q61H missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
+- Second most altered gene in a 62-tumor-type pan-cancer cohort (15% overall); G12 codon dominates (80% of KRAS mutations); 90% mutation rate in PAAD, 44% in COAD; limited clinical actionability noted with then-available drugs [PMID:28481359](../papers/28481359.md)
+- Assessed in the 7-gene cross-histology panel for clear-cell endometrial carcinoma; mutations enriched in endometrioid-like (UEC) molecular profile subgroup [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -352,3 +356,15 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

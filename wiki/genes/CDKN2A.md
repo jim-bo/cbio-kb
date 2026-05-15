@@ -103,6 +103,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A inactivated in 76% of EAC and 76% of ESCC (by mutation, deletion, or epigenetic silencing); significantly mutated in EAC; combined CDKN2A loss and CCND1/CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
 - CDKN2A — deletions identified in advanced LUAD; no patient with CDKN2A deletion as the highest actionable alteration received matched therapy in this precision oncology cohort [PMID:28336552](../papers/28336552.md)
 - CDKN2A — recurrent deletion on Chr 9 in acral lentiginous melanoma (ALM), retained significance in both primary and metastatic tumor subsets [PMID:28373299](../papers/28373299.md)
+- CDKN2A W110 mutation in 1/19 sequenced anaplastic oligodendroglioma tumors; deletion also observed alongside [PTEN](../genes/PTEN.md) loss and [CDKN2B](../genes/CDKN2B.md) deletion in a false-positive 1p/19q FISH case with glioblastoma-like signature ([ODG](../cancer_types/ODG.md) cohort, [odg_msk_2017](../datasets/odg_msk_2017.md)) [PMID:28472509](../papers/28472509.md)
+- Cell-cycle gene alterations including CDKN2A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 [BLCA](../cancer_types/BLCA.md) NMIBC tumors profiled by [MSK-IMPACT](../methods/msk-impact-panel.md); grouped with [RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), [CDKN1A](../genes/CDKN1A.md) as a cell-cycle pathway unit [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -312,5 +314,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

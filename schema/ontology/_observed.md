@@ -464,3 +464,8 @@
 - method: trusight-pan-cancer-rna-panel — observed in PMID:28199314 — note: Illumina TruSight Pan-Cancer RNA panel; detected EWSR1::BEND2 fusion in bladder small round cell sarcoma; retrospective research use
 - method: sarcoma-methylation-classifier — observed in PMID:28199314 — note: Koelsche et al. v13 sarcoma DNA-methylation classifier; no class match for EWSR1::BEND2 bladder sarcoma on EPIC array
 - method: brain-tumor-methylation-classifier — observed in PMID:28199314 — note: Capper et al. CNS tumor methylation classifier; low-confidence score 0.364 for MN1-rearranged astroblastoma in EWSR1::BEND2 bladder sarcoma
+- method: fish-1p19q — observed in PMID:28472509 — note: FISH-based 1p/19q codeletion assay; used in anaplastic oligodendroglioma trial (odg_msk_2017); NGS detected a false-positive FISH call; corpus-grown slug
+- method: oncokb-annotation — observed in PMID:28472509 — note: OncoKB database classification of actionable variants (accessed Jan 2017) in 19 oligodendroglioma tumors; corpus-grown slug distinct from the oncokb pipeline tool
+- drug: thiotepa — observed in PMID:28472509 — note: aziridine-based alkylating agent; 250 mg/m²/day × 3 as HDC conditioning in anaplastic oligodendroglioma ASCT trial; not confirmed in OncoKB drug list
+- drug: procarbazine — observed in PMID:28472509 — note: hydrazine-derived alkylating agent; P in PCV regimen for 1p/19q-codeleted oligodendroglioma; not confirmed in OncoKB drug list
+- drug: lomustine — observed in PMID:28472509 — note: nitrosourea alkylating agent (CCNU); L in PCV regimen for 1p/19q-codeleted oligodendroglioma; not confirmed in OncoKB drug list

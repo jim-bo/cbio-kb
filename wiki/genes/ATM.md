@@ -54,6 +54,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM canonical driver mutations heterogeneously shared between primary and post-chemotherapy UC tumors; combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy tumors vs 37.9% post-chemotherapy (p=0.05), suggesting selective elimination of these clones by cisplatin/gemcitabine [PMID:27749842](../papers/27749842.md)
 - ATM R189K + K2756* (missense + nonsense) germline variants in medulloblastoma (MBL) — returned as cancer-predisposition finding associated with increased risk for other cancers [PMID:28007021](../papers/28007021.md)
 - ATM kinase phosphorylates TRMT10A at Ser28 after ionizing radiation, enabling BRCA1 recruitment to DSBs; ATM knockdown reduces phospho-TRMT10A and HR but does not sensitize PCa lines to PARPi alone — consistent with clinical heterogeneity of ATM-loss PARPi response [PMID:28068672](../papers/28068672.md)
+- Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction; elevated mutational burden in DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -180,5 +181,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

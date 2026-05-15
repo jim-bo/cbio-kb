@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # MSK-IMPACT panel (generic)
@@ -59,6 +59,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective GCT patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
 - Used for targeted DNA sequencing (230-gene panel, avg 348x tumour / 280x normal coverage) to characterize 62 high-grade unclassified renal cell carcinoma (uRCC) tumours at MSKCC; variant calling via MuTect and GATK Somatic Indel Detector on hg19-aligned reads. [PMID:27713405](../papers/27713405.md)
 - MSK-IMPACT panel sequencing (341 and 410-gene versions) applied to 10,945 tumors across 62 cancer types for clinical actionability [PMID:28336552](../papers/28336552.md)
+- MSK-IMPACT hybridization-capture Illumina HiSeq 2500 platform with full exon coverage of 410 cancer-related genes used to characterize 19 anaplastic oligodendroglioma tumors in the odg_msk_2017 cohort [PMID:28472509](../papers/28472509.md)
+- Prospective CLIA-certified hybrid-capture sequencing of 10,945 advanced/metastatic tumors from 10,336 patients across 62 tumor types; catalogued 78,066 non-synonymous mutations, 22,989 CNAs, and 1,875 rearrangements [PMID:28481359](../papers/28481359.md)
+- Sequenced 105 NMIBC tumors and 40 MIBC comparators with matched germline DNA; ARID1A mutation was the only gene significantly associated with BCG recurrence (HR=3.14, p=0.002) [PMID:28583311](../papers/28583311.md)
 
 ## Notes
 
@@ -145,3 +148,12 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

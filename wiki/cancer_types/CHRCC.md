@@ -34,6 +34,7 @@ Chromophobe renal cell carcinoma is a distinct subtype of renal cell carcinoma a
 - Mitochondrial DNA mutations — 35 somatic mtDNA events at >50% heteroplasmy across 27 cases; MT-ND5 (Complex I) most frequently mutated (6/61, predominantly eosinophilic subtype); elevated [PPARGC1A](../genes/PPARGC1A.md) and ~4× mtDNA copy number indicate increased mitochondrial biogenesis. [PMID:25155756](../papers/25155756.md)
 - Integrated exome/RNA-seq/CNV profiling of 49 chromophobe RCCs identified TP53, PTEN, PDHB, PRKAG2, and FAAH2 as significantly mutated genes; TP53 mutations significantly enriched in the classic chRCC subtype (P=2.3×10⁻⁵); combined PRKAG2+PDHB mutations define a metabolic subtype; TSC1/TSC2/MTOR mutations nominate mTORC1 inhibitors [PMID:25401301](../papers/25401301.md)
 - URCC (n=62, MSKCC) shows mTOR-pathway mutations (MTOR/TSC1/TSC2/PTEN) in 21% of cases, analogous to the 23% mTOR-pathway alteration rate in [CHRCC](../cancer_types/CHRCC.md); NF2-loss uRCC is distinct from CHRCC by absence of canonical whole-chromosome losses [PMID:27713405](../papers/27713405.md).
+- In the MSK-IMPACT pan-cancer cohort, TP53 was significantly enriched in kidney chromophobe (CHRCC) vs TCGA primary tumors — a finding consistent with the metastatic enrichment in this primarily indolent histology when it does metastasize. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -54,4 +55,6 @@ Chromophobe renal cell carcinoma is a distinct subtype of renal cell carcinoma a
 *This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

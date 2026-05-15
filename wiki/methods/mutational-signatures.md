@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -28,6 +28,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational signature decomposition applied to 151 advanced head and neck tumors; identified APOBEC, tobacco, and UV-light signatures — UV signature present in 86% of CSCC cases and associated with markedly higher mutation counts (37.9 vs 4.3, P=.008) [PMID:27442865](../papers/27442865.md)
 - COSMIC mutational signature decomposition applied to urothelial carcinoma WES data identified four signatures (APOBEC sigs 2/13, age, smoking, ERCC2-associated); post-chemotherapy tumours were enriched for APOBEC3A YTCA-context mutations (P=1×10⁻⁵). [PMID:27749842](../papers/27749842.md)
 - WTSI/Sanger deconstructSigs framework applied over 13 COSMIC breast-cancer signatures to metastatic breast cancer exomes; APOBEC signatures 2+13 contributed 58.8% of mutations in HR+/HER2− mBC vs 31.9% in primary TCGA samples (p<2e-16) [PMID:28027327](../papers/28027327.md).
+- Mutation signatures decomposed against the Alexandrov 30-signature catalog (KL-divergence) in 994 high-TMB cases from MSK-IMPACT, tracking aging, APOBEC, smoking, BRCA1/2, MMR, UV, POLE, and TMZ signatures [PMID:28481359](../papers/28481359.md)
 
 ## Notes
 
@@ -69,3 +70,6 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

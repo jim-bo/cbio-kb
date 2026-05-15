@@ -3,7 +3,7 @@ symbol: ERG
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion, oncogene, prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -28,6 +28,7 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - Mentioned in study [PMID:26855148](../papers/26855148.md)
 - TMPRSS2-ERG fusion status was 100% concordant across metastases within individual mCRPC patients by FISH (53 tumors, 13 men) and 94% concordant (32/34 men) by array CGH in a rapid-autopsy cohort [PMID:26928463](../papers/26928463.md)
 - Focal RAG-mediated 21q22.3 deletions in 55.6% of DUX4/ERG B-ALL cases (most commonly exons 3-7 or 3-9 of NM_182918.3); expression of a novel dominant-negative isoform ERGalt from non-canonical exon 6 alt (driven by DUX4 binding); NRAS-G12D cooperated with ERGalt to sustain lymphoid colony replating in Arf-/- mouse cells [PMID:27776115](../papers/27776115.md)
+- TMPRSS2-ERG fusion is the most common rearrangement in the MSK-IMPACT cohort (n=151) in PRAD; cryptic TMPRSS2 rearrangements detected in 23 additional PRAD cases consistent with chromoplexy [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

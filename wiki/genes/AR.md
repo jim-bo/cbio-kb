@@ -7,7 +7,7 @@ tags:
   - hormone-receptor
   - oncogene
   - neuroendocrine
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -31,6 +31,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Focal amplification, activating point mutations, and ARv7 splice variant common in CRPC-Adeno but largely absent/low-level in CRPC-NE; AR signaling attenuated in CRPC-NE as part of lineage plasticity toward neuroendocrine differentiation [PMID:26855148](../papers/26855148.md)
 - AR amplification or mutation in 63% of men with mCRPC (n=56 men with WES); 88% of patients had tumors with robust AR transcriptional activity despite extensive prior androgen-suppressive therapy; AR activity was inversely correlated with cell cycle progression (CCP) score (r = -0.33, P < 0.001) [PMID:26928463](../papers/26928463.md)
 - AR: actionable alteration identified in salivary duct carcinoma (SDCA) by NGS-guided clinical sequencing in recurrent/metastatic head and neck cancer [PMID:27442865](../papers/27442865.md)
+- Mutated in 18% of [PRAD](../cancer_types/PRAD.md) patients (vs 1% in TCGA); recurrent acquired-resistance hotspots L702H and H875Y (10 patients each), detected via MSK-IMPACT pan-cancer profiling (n=10,945) [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

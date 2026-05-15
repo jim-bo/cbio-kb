@@ -55,6 +55,7 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - [PMID:24476821](../papers/24476821.md) — TCGA Research Network, *Nature* (2014): Comprehensive molecular characterization of urothelial bladder carcinoma.
 - [PMID:26901067](../papers/26901067.md) — Al-Ahmadie et al., *Nat Genet* 2016: CDH1 mutations absent in 127 NOS tumors from this cohort; used as comparator for plasmacytoid-variant bladder cancer.
 - [PMID:27749842](../papers/27749842.md) — Faltas et al., *Nat Genet* 2016: Used as mutation-frequency benchmark for the Weill Cornell chemotherapy-evolution cohort; clonal enrichment of L1CAM and integrin signaling mutations in post-chemotherapy tumors was compared against this TCGA baseline.
+- [PMID:28583311](../papers/28583311.md) — Pietzak et al., *JCO* 2017: 98 TCGA MIBC specimens with no prior history of NMIBC used as a muscle-invasive comparator cohort to contextualize gene-alteration frequencies (e.g., FGFR3, STAG2, TP53/MDM2) and mutational burden in the MSK NMIBC cohort. [PMID:28583311](../papers/28583311.md)
 
 ## Notable findings derived from this cohort
 
@@ -69,6 +70,7 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - Comprehensive molecular characterization of 131 muscle-invasive urothelial carcinomas revealed APOBEC mutagenesis, chromatin remodeling alterations, and immune pathway enrichment [PMID:25096233](../papers/25096233.md)
 - Used as comparator for plasmacytoid-variant bladder cancer: CDH1 truncating mutations were absent in 127 urothelial carcinoma NOS tumors from this cohort, establishing CDH1 mutation as specific to the plasmacytoid variant [PMID:26901067](../papers/26901067.md)
 - Used as mutation-frequency benchmark for matched pre/post-chemotherapy WES of 72 UC tumors from 32 patients at Weill Cornell; copy-number landscape stability and APOBEC mutagenesis prevalence in this cohort provided the reference distribution for evolution analyses in the Cornell dataset [PMID:27749842](../papers/27749842.md)
+- Used as MIBC comparator in the MSK NMIBC NGS study: [FGFR3](../genes/FGFR3.md) alteration rates in this TCGA MIBC cohort (16%) vs LGTa NMIBC (83%) supported the interpretation that FGFR3 alterations decrease progressively with stage; [STAG2](../genes/STAG2.md) truncating mutation rate (15% in TCGA MIBC) confirmed enrichment of STAG2 truncations in low-grade NMIBC (39%) vs advanced disease [PMID:28583311](../papers/28583311.md)
 
 ## Sources
 

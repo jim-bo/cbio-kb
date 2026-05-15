@@ -4,8 +4,8 @@ oncotree_code: ESCA
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Esophageal Adenocarcinoma (ESCA)
@@ -30,6 +30,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - WES of 149 treatment-naïve EAC tumors (including esophageal adenocarcinomas) identified 26 significantly mutated genes ([TP53](../genes/TP53.md), [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md), [PIK3CA](../genes/PIK3CA.md), [ELMO1](../genes/ELMO1.md), [DOCK2](../genes/DOCK2.md)) and a distinctive A>C transversion signature at AA dinucleotides accounting for 29% of all mutations, with 48% of tumors harboring a targetable alteration [PMID:23525077](../papers/23525077.md)
 - Systematic review of 18 studies (1,191 ESCC/EAC cases) found EAC-specific oral microbial enrichment of Actinomyces species across the Barrett's-to-adenocarcinoma sequence; pooled OR of 9.50 (95% CI 5.89–15.29) derived from ESCC meta-analysis should not be extrapolated to EAC [PMID:24670651](../papers/24670651.md)
 - TCGA multi-platform profiling of 72 oesophageal adenocarcinomas (EACs) plus 90 ESCCs: EAC is molecularly indistinguishable from chromosomally unstable (CIN) gastric cancer; significantly mutated genes in EAC are TP53, CDKN2A, ARID1A, SMAD4, ERBB2; recurrent amplifications include VEGFA, ERBB2, GATA6, CCNE1; EAC-specific ERBB2-JUP fusion transcript identified in 6 ERBB2-amplified cases; CDKN2A inactivated in 76% by mutation/deletion/epigenetic silencing [PMID:28052061](../papers/28052061.md)
+- Esophageal adenocarcinoma (included in ESCA in the MSK-IMPACT pan-cancer cohort) had one of the highest TP53 mutation rates at 89% — second only to HGSOC (98%) across the 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -56,4 +57,6 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

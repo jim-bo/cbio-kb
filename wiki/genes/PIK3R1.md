@@ -37,6 +37,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 mutation identified in 1 ACYC patient enrolled on a PI3K-inhibitor trial based on MSK-IMPACT sequencing [PMID:27442865](../papers/27442865.md).
 - PI3K-pathway alteration enriched in ESCC2 subtype; part of a 24% PI3K-activating-alteration frequency in ESCCs (alongside PIK3CA and PTEN) in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with PIK3CA, PTEN, ERBB2, PPP2R1A, and FBXW7 mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
+- G376R hotspot mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
+- Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -62,61 +64,46 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:37651310](../papers/37651310.md)
 - [PMID:37910594](../papers/37910594.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28445112](../papers/28445112.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -45,6 +45,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - KMT2C (MLL3) E704X nonsense mutation identified in pediatric AML as a BET-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
 - KMT2C (MLL3) histone-modifier alterations frequent in esophageal squamous cell carcinoma (ESCC), co-altered with KMT2D and KDM6A; 3/4 ESCC3 tumors harbored KMT2D mutations [PMID:28052061](../papers/28052061.md).
 - Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- Mutated in 7.9% of clear-cell endometrial carcinoma (CCEC); 3 N-terminal frameshifts plus 3 missense mutations affecting the SET methyltransferase domain; first report of KMT2C somatic mutation in CCEC [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -154,3 +155,6 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

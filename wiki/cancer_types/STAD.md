@@ -4,8 +4,8 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Stomach Adenocarcinoma (STAD)
@@ -33,6 +33,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - TCGA multi-platform profiling of 295 primary gastric adenocarcinomas defines four molecular subtypes: EBV-positive (9%, [PIK3CA](../genes/PIK3CA.md) mutations 80%, 9p24.1 JAK2/CD274/PDCD1LG2 amplification), MSI (22%, [MLH1](../genes/MLH1.md) hypermethylation), GS (20%, [RHOA](../genes/RHOA.md) mutations 15%, CLDN18-ARHGAP fusions, [CDH1](../genes/CDH1.md) mutations 37%), and CIN (50%, [TP53](../genes/TP53.md) 71%, RTK amplifications); 76% of CIN tumors bear actionable focal amplifications of [ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md), [KRAS](../genes/KRAS.md), [MET](../genes/MET.md), or [VEGFA](../genes/VEGFA.md) [PMID:25079317](../papers/25079317.md)
 - WES of 78 primary gastric adenocarcinomas (294-patient pooled cohort) identified HiC (high-clonality) and LoC (low-clonality) subtypes; HiC tumors enriched for subclonal [TP53](../genes/TP53.md), older onset, and significantly shorter survival (adjusted HR 4.69, P=0.0043); [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations in 11.6% and [BRCA2](../genes/BRCA2.md) mutations in 5.8% of cases [PMID:25583476](../papers/25583476.md).
 - TCGA integrated profiling added 77 new gastric adenocarcinomas (total 388) for comparison with esophageal carcinoma: chromosomally-unstable (CIN) gastric adenocarcinoma is molecularly indistinguishable from oesophageal adenocarcinoma; methylation gradient along the gastroesophageal axis shows proximal-to-distal hypermethylated-to-hypomethylated transition; MGMT/CHFR silencing enriched in proximal hypermethylated cluster [PMID:28052061](../papers/28052061.md)
+- In the MSK-IMPACT pan-cancer cohort, TP53 was significantly enriched in gastric cancer vs TCGA; MSI gastric tumors showed responses to immune checkpoint blockade; STAD was included among 62 principal tumor types profiled in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -68,4 +69,6 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

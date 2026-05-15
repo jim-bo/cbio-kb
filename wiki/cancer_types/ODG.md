@@ -5,7 +5,7 @@ main_type: Glioma
 parent: DIFG
 tags: [glioma, cns, IDH-mutant, 1p19q-codeleted]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Oligodendroglioma (ODG)
@@ -30,6 +30,7 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) mutations and 1p/19q co-deletion confirmed in all 6 tumors; subclonal [CIC](../genes/CIC.md) mutation (~30% VAF) in MGH53 upregulates [ETV1](../genes/ETV1.md)/[ETV5](../genes/ETV5.md). CNV subclones and point mutations span all three developmental compartments, arguing that ODG architecture is primarily driven by non-genetic, developmental programs. [PMID:27806376](../papers/27806376.md)
 - [CCND2](../genes/CCND2.md) is preferentially expressed in the stem/progenitor compartment; differentiated cells express [CCND1](../genes/CCND1.md)/[CCND3](../genes/CCND3.md) — mirroring normal neural development. [PMID:27806376](../papers/27806376.md)
 - TCGA pan-glioma study included 174 oligodendroglioma cases (17% of 1,122-patient cohort); oligodendroglioma corresponds to the Codel (1p/19q co-deleted, IDH-mutant) subgroup with methylation cluster LGm1–3 and best-prognosis outcome [PMID:26824661](../papers/26824661.md)
+- 1p/19q codeletion was a significant predictor of PFS (P=0.03) and OS (P<0.001) in the odg_msk_2017 phase II trial (n=33 codeleted patients: 5-year PFS 50.3%, 5-year OS 93.4%); 1p/19q-intact tumors displayed glioblastoma-like NGS signatures (EGFR amplification, NF1, MDM2; IDH1/2 wild-type) and progressed early, arguing against chemotherapy-only strategies without codeletion. [PMID:28472509](../papers/28472509.md)
 
 ## Subtypes
 
@@ -48,4 +49,6 @@ Oligodendroglioma, a 1p19q-codeleted IDH-mutant diffuse glioma subtype (parent [
 - [PMID:27806376](../papers/27806376.md)
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

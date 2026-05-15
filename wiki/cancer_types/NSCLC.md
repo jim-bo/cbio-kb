@@ -44,6 +44,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Whole-exome sequencing of 34 advanced NSCLC patients treated with [pembrolizumab](../drugs/pembrolizumab.md) showed higher nonsynonymous somatic mutation burden significantly associated with objective response, durable clinical benefit, and PFS (pooled Mann-Whitney P=0.0008; PFS HR 0.19, P=0.0004); a candidate cutoff of ≥178 nonsynonymous mutations, molecular smoking signature, neoantigen burden, and deleterious mutations in [POLD1](../genes/POLD1.md)/[POLE](../genes/POLE.md)/[MSH2](../genes/MSH2.md) also correlated with efficacy. [PMID:25765070](../papers/25765070.md)
 - Largest NSCLC WES study to date (660 LUAD + 484 LUSC, n=1,144 total; nsclc_tcga_broad_2016): identified 6 genes SMG in both histologies (TP53, RB1, ARID1A, CDKN2A, PIK3CA, NF1), 14 pan-lung SMGs in joint analysis including KLF5 and EP300/CREBBP; ≥5 predicted neoepitopes in 47% of LUAD and 53% of LUSC, supporting broad immunotherapy applicability [PMID:27158780](../papers/27158780.md)
 - Narrative review of young-onset NSCLC (YLC, generally defined as age <40–50 years) synthesizing ≥40 studies: targetable alterations present in 57–70% of YLC vs ~52% in older patients (Sacher et al., p<0.001); ALK rearrangements, ROS1 fusions, and EGFR mutations are over-represented while KRAS, BRAF, and MET alterations are under-represented; Indian patients present approximately a decade earlier than the global median [PMID:27346245](../papers/27346245.md).
+- Pre-operative ctDNA was detected in 48% (46/96) of early-stage NSCLCs in the TRACERx cohort, with a stark histology difference: 97% of LUSC vs 19% of LUAD; post-operative ctDNA detected relapse in 13/14 (93%) confirmed-relapse cases with a median 70-day lead-time over imaging. [PMID:28445469](../papers/28445469.md)
 
 ## Subtypes
 
@@ -87,6 +88,6 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset NSCLC molecular landscape, epidemiology, and therapy.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28445469](../papers/28445469.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

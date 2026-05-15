@@ -30,6 +30,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - Defining hotspot mutation (alongside IDH1) across LGm1–3 / LGr1–3 IDH-mutant glioma subtypes in pan-glioma TCGA analysis (n=1122); IDH1/2 status forms the primary axis of methylome and transcriptome separation across diffuse glioma subtypes [PMID:26824661](../papers/26824661.md)
 - IDH2 R140 co-occurs strongly with NPM1 (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with NPM1 (OR 0.06, P=4e-5) and forms a provisional AML subgroup (1%, n=18) in a cohort of 1540 adults; DNMT3A × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
 - Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS decitabine trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response. [PMID:27959731](../papers/27959731.md)
+- R172K mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; wild-type in 1p/19q-intact glioblastoma-like cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +88,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

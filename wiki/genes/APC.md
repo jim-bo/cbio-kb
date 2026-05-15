@@ -47,6 +47,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Wnt-pathway alteration observed in cisplatin-resistant germ cell tumors alongside AXIN1 and FAT1 [PMID:27646943](../papers/27646943.md)
 - APC R1114* germline variant in hepatoblastoma diagnostic of familial adenomatous polyposis (FAP); APC E1554fs in poorly differentiated carcinoma diagnostic of newly recognized Gardner syndrome; APC V1822D returned as a variant of uncertain significance in Ewing sarcoma [PMID:28007021](../papers/28007021.md)
 - APC mutation rate lower in esophageal adenocarcinoma (EAC) vs CIN gastric — pan-esophageal/gastroesophageal cancer genomic landscape study [PMID:28052061](../papers/28052061.md)
+- Cited as a lineage-restricted driver in colorectal cancer, contrasted with pan-cancer drivers TP53/PIK3CA, in the MSK-IMPACT prospective profiling cohort (n=10,945) [PMID:28481359](../papers/28481359.md)
+- V2194Ffs*5 frameshift mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental alteration alongside canonical IDH1/TERT/CIC/FUBP1 drivers [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -148,5 +150,11 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

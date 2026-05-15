@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # MuTect
@@ -52,6 +52,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used (MuTect v1.1.7) as the primary substitution caller in analysis of 216 metastatic breast cancer whole-exome sequencing datasets, downstream of BWA-MEM alignment and GATK base recalibration [PMID:28027327](../papers/28027327.md).
 - Used MuTect for somatic SNV calling from paired tumor-normal sequencing data [PMID:28373299](../papers/28373299.md)
 - Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:28445112](../papers/28445112.md)
+- Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV [PMID:28481359](../papers/28481359.md)
 
 ## Notes
 
@@ -149,3 +150,6 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

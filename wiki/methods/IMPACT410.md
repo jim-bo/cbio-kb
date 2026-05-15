@@ -6,7 +6,7 @@ canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 genePanelId: IMPACT410
 ---
 
@@ -26,6 +26,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - IMPACT410 (MSK-IMPACT 410-gene panel) used with matched normal DNA at median 600x coverage (CLIA-approved) to profile 151 advanced head and neck tumors; enabled actionable finding detection in 21% of cases and guided therapy in 14% of patients [PMID:27442865](../papers/27442865.md)
 - IMPACT410 used as the targeted sequencing assay in a prospective 161-patient GCT validation cohort; confirmed TP53 alteration exclusivity to cisplatin-resistant tumors and identified RAC1 hotspot mutations at 5% incidence [PMID:27646943](../papers/27646943.md)
 - Deployed MSK-IMPACT410 panel for expanded targeted sequencing in the clinical sequencing program [PMID:28336552](../papers/28336552.md)
+- Used to sequence 19 anaplastic oligodendroglioma tumors from the MSK HDC-ASCT trial (odg_msk_2017), confirming canonical IDH1/TERT/CIC/FUBP1 signatures in 1p/19q-codeleted cases [PMID:28472509](../papers/28472509.md)
+- 410-gene panel used in 74% (8,136/10,945) of the MSK-IMPACT prospective cohort; hybrid-capture, mean depth 718x, with patient-matched normal blood DNA for 98% of cases [PMID:28481359](../papers/28481359.md)
+- Used alongside IMPACT341 to sequence 105 NMIBC tumors from the blca_nmibc_2017 cohort; identified ARID1A mutations as the only gene significantly associated with BCG recurrence [PMID:28583311](../papers/28583311.md)
 
 ## Notes
 
@@ -50,3 +53,12 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, wes, intratumor-heterogeneity]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Multiregion exome sequencing (M-seq)
@@ -18,6 +18,7 @@ A whole-exome sequencing design in which multiple spatially distinct regions are
 ## Used by
 
 - Applied to 10 ccRCC primary tumors (79 total tumor samples, 8–12 macrodissected regions per case) using Agilent SureSelect Human All Exon V4 on Illumina HiSeq (median ≥70× depth); 92.5% of candidate mutations validated by ultra-deep amplicon sequencing (>400×) on Ion Torrent PGM [PMID:24487277](../papers/24487277.md).
+- Used in the TRACERx NSCLC study to profile 327 spatially separated primary tumor regions and 4 metastatic biopsies for ctDNA panel design and phylogenetic tracking of disease evolution [PMID:28445469](../papers/28445469.md)
 
 ## Notes
 
@@ -27,3 +28,6 @@ A whole-exome sequencing design in which multiple spatially distinct regions are
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

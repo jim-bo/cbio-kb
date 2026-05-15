@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BRAF
@@ -95,6 +95,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Somatic BRAF p.G469A point mutation and recurrent RUNDC1-BRAF fusion (5.2-fold BRAF overexpression) identified in pheochromocytoma/paraganglioma (PCC/PGL); FDA-approved targeted therapies noted as available for BRAF-mutant tumors [PMID:28162975](../papers/28162975.md)
 - V600E (level 2A) in [LUAD](../cancer_types/LUAD.md): 55.6% matched-therapy uptake, 75% clinical benefit; non-V600E alleles (K601E, D594G, T599dup, SND1-BRAF fusion) had 4/13 matched patients and no clinical benefit; SND1-BRAF fusion treated with BRAF+MEK combo without benefit [PMID:28336552](../papers/28336552.md)
 - V600E (4 patients), V600K+R462K (1), G466E (1) in acral lentiginous melanoma (ALM, n=34); 18% frequency; mutually exclusive of NRAS mutations [PMID:28373299](../papers/28373299.md)
+- V600 mutations detected in >20 tumor types; non-V600 alterations include 33 fusions across 11 tumor types (18 partners; 10 novel) and 7 intragenic multi-exon deletions phenocopying acquired-resistance splice isoforms; CDK5RAP2-BRAF fusion novel in melanoma; 71% radiographic clinical-benefit rate to BRAF-directed therapy in non-melanoma BRAF V600 patients [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -334,3 +335,6 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

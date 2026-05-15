@@ -3,8 +3,8 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
 ---
@@ -33,6 +33,9 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - V411L exonuclease-domain hotspot in a single ultramutator upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) with 422 somatic mutations and no focal CNAs. [PMID:26278805](../papers/26278805.md)
 - POLE observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 - Exonuclease-domain hotspot mutations (p.Pro286Arg, p.Val411Leu, p.Ser459Phe) found in 4 MSS colorectal carcinoma samples (619-case WES cohort from NHS/HPFS); carriers had elevated neoantigen load and were excluded from MSS-restricted TIL analyses. POLE-mutated CRCs were too few for survival statistics but proposed as candidates for checkpoint blockade based on neoantigen burden. [PMID:27149842](../papers/27149842.md)
+- Loss-of-function somatic mutations underlie POLE-signature hypermutation, predominantly in colorectal and endometrial cancer, across 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
+- No exonuclease-domain hotspot mutations detected in clear-cell endometrial carcinoma (CCEC; n=63); one non-hotspot frameshift (H1901Lfs*15) without ultramutated phenotype, contrasting with POLE-driven hypermutation in endometrioid endometrial cancer [PMID:28485815](../papers/28485815.md)
+- One LGTa NMIBC harbored a truncating H1901Lfs*15 mutation deemed likely non-functional (3' end, no hypermutation phenotype); no POLE-exonuclease hotspot mutations found in this NMIBC cohort (n=105) [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -64,40 +67,34 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+- [PMID:28485815](../papers/28485815.md)
+
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

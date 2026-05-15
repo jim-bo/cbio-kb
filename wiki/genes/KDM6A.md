@@ -43,6 +43,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Mut-driver in breast cancer; well-known driver in other cancer types suggesting cross-cancer drug repurposing potential [PMID:27161491](../papers/27161491.md)
 - KDM6A M997fs frameshift identified in pediatric medulloblastoma (MBL) as a prognostic marker for risk-stratification into group 4 [PMID:28007021](../papers/28007021.md).
 - KDM6A (UTX) histone-modifier alterations frequent in esophageal squamous cell carcinoma (ESCC), especially in the ESCC2 molecular subtype; co-altered with KMT2D and KMT2C [PMID:28052061](../papers/28052061.md).
+- Q1037 missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
+- Most commonly altered chromatin-modifying gene in non-muscle-invasive bladder cancer (NMIBC), mutated in 38% of cases [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -139,5 +141,11 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

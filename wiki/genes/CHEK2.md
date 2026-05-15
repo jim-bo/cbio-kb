@@ -33,6 +33,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - CHEK2 pathogenic germline mutations found in 2.22% of the METABRIC 2,433-tumor breast cancer cohort; confirmed as a DNA damage & apoptosis Mut-driver TSG in ER+ breast cancer via homozygous deletion + inactivating mutation evidence [PMID:27161491](../papers/27161491.md).
 - CHEK2: recurrent germline pathogenic/likely pathogenic variant in Indian familial NSCLC cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
 - Recurrently mutated in 3% of unclassified renal cell carcinoma (uRCC) cases in a 62-case MSKCC MSK-IMPACT cohort; listed among additional recurrent mutations beyond the dominant NF2/SETD2/FH/mTORC1 subsets [PMID:27713405](../papers/27713405.md)
+- Less-frequent DNA damage repair (DDR) gene alteration contributing to the 30% DDR-altered fraction in high-grade [BLCA](../cancer_types/BLCA.md) NMIBC tumors (n=82); DDR alterations associated with significantly higher mutational burden vs DDR-intact (median 26 vs 8 mut/Mb, p < 0.001) [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -87,5 +88,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

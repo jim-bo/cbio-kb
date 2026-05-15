@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [structural-variant, sv-caller, bioinformatics]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # DELLY
@@ -20,6 +20,7 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - Used in ICGC PedBrain pilocytic astrocytoma WGS study (96 cases, hg19) alongside [pindel](../methods/pindel.md) and [crest](../methods/crest.md) for somatic SV detection; helped identify the full spectrum of MAPK-pathway rearrangements including novel [BRAF](../genes/BRAF.md) fusions [PMID:23817572](../papers/23817572.md)
 - DELLY used for structural variant detection in targeted sequencing of pancreatic cancer [PMID:26278805](../papers/26278805.md)
 - Used DELLY to detect structural variants including deletions, duplications, and inversions from sequencing data [PMID:28445112](../papers/28445112.md)
+- Delly v0.6.1 used for structural variant detection in the MSK-IMPACT bioinformatics pipeline across 10,945 tumors, identifying 1,875 rearrangements including 268 kinase fusions [PMID:28481359](../papers/28481359.md)
 
 ## Notes
 
@@ -35,3 +36,6 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

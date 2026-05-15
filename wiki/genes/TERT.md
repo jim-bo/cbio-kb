@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [ESCC]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: entity-page-writer
-processed_at: "2026-05-15"
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TERT
@@ -17,6 +17,9 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 - Recurrent focal amplification of TERT identified in ESCC ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=90 ESCC); listed among the recurrent focal amplifications in ESCC alongside [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md). [PMID:28052061](../papers/28052061.md)
 - TERT aberrations (translocations, copy gains, missense and promoter mutations, or germline events) in 41% (14/34) of acral lentiginous melanoma ([ACRM](../cancer_types/ACRM.md)) patients; Telomerase Inhibitor IX produced ≥75% loss of viability in two primary ALM cell lines with TERT CNV gain or promoter mutation [PMID:28373299](../papers/28373299.md).
+- Promoter mutation in 18/19 sequenced oligodendroglioma tumors (95%), the most frequent abnormality observed; characteristic of 1p/19q-codeleted oligodendroglioma and absent in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
+- Promoter mutations at canonical -124/-146 hotspots (96.3% of TERT promoter events) plus 10 novel recurrent positions including -138 (n=21); highest frequency in bladder ([BLCA](../cancer_types/BLCA.md)), glioma, thyroid, and melanoma in pan-cancer MSK-IMPACT analysis (n=10,336); trend toward shorter overall survival [PMID:28481359](../papers/28481359.md)
+- Promoter mutations in 73% of NMIBC (n=105); uniformly high across grade and stage; supports use as a noninvasive urinary screening/surveillance biomarker [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +45,12 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

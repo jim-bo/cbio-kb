@@ -3,7 +3,7 @@ symbol: FANCC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -19,6 +19,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - Passenger amplification detected in cSCC (cutaneous squamous cell carcinoma) by GISTIC copy-number analysis [PMID:25589618](../papers/25589618.md)
 - FANCC is a member of the FA pathway gene set; homozygous deleterious FANCC events classify mCRPC patients into the DNA-repair-defect group associated with significantly longer carboplatin response (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Combined ATM/RB/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), supporting selective elimination of this signature by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
+- Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction of high-grade disease [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

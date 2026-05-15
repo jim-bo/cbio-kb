@@ -40,6 +40,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response in this study. [PMID:27959731](../papers/27959731.md)
 - IDH1 R132C identified in pediatric AML as an IDH-inhibitor target; the same variant was separately diagnostic of Maffucci syndrome [PMID:28007021](../papers/28007021.md).
 - IDH1 R132C identified in a single pheochromocytoma/paraganglioma tumor in a comprehensive multi-platform genomic characterization study [PMID:28162975](../papers/28162975.md).
+- R132H mutation observed in 13/19 sequenced tumors (68%) in 1p/19q-codeleted oligodendroglioma; absent in 1p/19q-intact glioblastoma-like tumors; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
+- IDH1 identified as a lineage-restricted driver in glioma; contrasted with pan-cancer drivers TP53 and PIK3CA across a 62-tumor-type pan-cancer sequencing cohort [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -129,5 +131,11 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

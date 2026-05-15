@@ -65,6 +65,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Germline (3%) and somatic NF1 mutations in pheochromocytoma/paraganglioma; 17q11.2 focal deletion present in 95% of NF1-mutated tumors; an NF1–RAB11FIP4 underexpressed fusion was also identified [PMID:28162975](../papers/28162975.md)
 - Truncating mutations and deletions in 16 LUAD patients (level 4); enriched in TCGA LUAD cohort vs MSK clinical cohort (8.3% vs 2%, p<0.001) [PMID:28336552](../papers/28336552.md)
 - Homozygous loss in 9% (3/34) of acral melanoma patients; additionally LOH plus nonsense mutation E2578* in one further patient; NF1-subtype tumors were BRAF/NRAS wild-type with co-occurring PAK1 copy gains [PMID:28373299](../papers/28373299.md)
+- Mutated in 4/19 (21%; F1247Ifs*18, F1455Lfs*9, F2386, K2595Sfs*5) in 1p/19q-codeleted anaplastic oligodendroglioma; also found in 1p/19q-intact glioblastoma-like tumors; none of the individual mutations were predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -109,115 +110,80 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39753968](../papers/39753968.md)
 - [PMID:20601955](../papers/20601955.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36585450](../papers/36585450.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36355783](../papers/36355783.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:21720365](../papers/21720365.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23334668](../papers/23334668.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23525077](../papers/23525077.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24436047](../papers/24436047.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25240281](../papers/25240281.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26437033](../papers/26437033.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

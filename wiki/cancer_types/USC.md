@@ -4,8 +4,8 @@ oncotree_code: USC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Uterine Serous Carcinoma (USC)
@@ -25,6 +25,7 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 - [FBXW7](../genes/FBXW7.md) — co-occurs with [TP53](../genes/TP53.md) mutations in serous/carcinosarcoma ECs. [PMID:37651310](../papers/37651310.md)
 - [BRCA1](../genes/BRCA1.md) — somatic mutations more frequent in CN-H/TP53abn ECs from Black patients (3% vs. 0.3%). [PMID:37651310](../papers/37651310.md)
 - TCGA analysis of 53 uterine serous carcinomas revealed [ERBB2](../genes/ERBB2.md) focal amplification with overexpression in 25%, [TP53](../genes/TP53.md) mutation in ~91%, and molecular similarities to [HGSOC](../cancer_types/HGSOC.md) and basal-like breast carcinoma (shared SCNA patterns, MC3 methylation profile); [PIK3CA](../genes/PIK3CA.md), [FBXW7](../genes/FBXW7.md), [PPP2R1A](../genes/PPP2R1A.md), and [ARID1A](../genes/ARID1A.md) mutations were >30% more frequent in USC than in HGSOC [PMID:23636398](../papers/23636398.md)
+- Cross-histology analysis of 63 uterine clear cell carcinomas (CCECs) against 45 uterine serous carcinomas (USC) and 40 endometrioid carcinomas (UEC) showed: 75.5% of USC had serous-like or mixed molecular profiles (TP53/PPP2R1A enrichment); TAF1 was previously nominated as a candidate driver in USC before its identification in CCEC in this study. [PMID:28485815](../papers/28485815.md)
 
 ## Subtypes
 
@@ -42,4 +43,6 @@ Uterine serous carcinoma (USC), also known as uterine papillary serous carcinoma
 
 - [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

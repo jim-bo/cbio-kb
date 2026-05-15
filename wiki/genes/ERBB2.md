@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ERBB2
@@ -73,6 +73,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Altered (amplification or mutation) in 32% of EACs vs 3% of ESCCs; 4 EACs had ERBB2 mutations without amplification; 6 amplified EACs expressed an ERBB2 exon-12–JUP 3′-UTR fusion transcript lacking transmembrane and tyrosine-kinase domains; trastuzumab-directed therapy is active in ERBB2-positive EAC [PMID:28052061](../papers/28052061.md).
 - ERBB2 (HER2) amplification and activating mutations were identified across multiple cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 - ERBB2 alterations co-occurred with FBXW7 mutations and were evaluated in the context of targeted therapy response [PMID:28445112](../papers/28445112.md)
+- Focal amplification (>15 copies on triploid background) identified on a relapse-dominant subclone in patient CRUK0004 plasma; flagged as a potentially targetable relapse driver in NSCLC [PMID:28445469](../papers/28445469.md)
+- Hotspot S310F missense and amplification in high-grade NMIBC, almost exclusively in HGTis (6/12 specimens); mutually exclusive with FGFR3; together with FGFR3 covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -223,3 +225,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

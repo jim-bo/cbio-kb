@@ -3,8 +3,8 @@ symbol: GLI1
 aliases: []
 cancer_types: [RMS]
 tags: [transcription-factor, amplification, hedgehog-pathway, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # GLI1
@@ -16,6 +16,7 @@ GLI1 (GLI Family Zinc Finger 1) is a transcriptional effector of the Hedgehog si
 ## Alterations observed in the corpus
 
 - GLI1 co-amplified with [CDK4](../genes/CDK4.md) in 2 fusion-positive rhabdomyosarcoma (FP-RMS) tumors at the 12q13-15 locus; co-amplification with [MDM2](../genes/MDM2.md) also observed at this locus in 1 additional tumor [PMID:37730754](../papers/37730754.md).
+- Amplification in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ GLI1 (GLI Family Zinc Finger 1) is a transcriptional effector of the Hedgehog si
 - [PMID:37730754](../papers/37730754.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

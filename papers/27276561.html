@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic Classification and Prognosis in Acute Myeloid Leukemia – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27276561.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27276561.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic Classification and Prognosis in Acute Myeloid Leukemia</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Elli Papaemmanuil </p>
+             <p>Moritz Gerstung </p>
+             <p>Lars Bullinger </p>
+             <p>Verena I. Gaidzik </p>
+             <p>Peter Paschka </p>
+             <p>Nicola D. Roberts </p>
+             <p>Nicola E. Potter </p>
+             <p>Michael Heuser </p>
+             <p>Felicitas Thol </p>
+             <p>Niccolo Bolli </p>
+             <p>Gunes Gundem </p>
+             <p>Peter Van Loo </p>
+             <p>Inigo Martincorena </p>
+             <p>Peter Ganly </p>
+             <p>Laura Mudie </p>
+             <p>Stuart McLaren </p>
+             <p>Sarah O’Meara </p>
+             <p>Keiran Raine </p>
+             <p>David R. Jones </p>
+             <p>Jon W. Teague </p>
+             <p>Adam P. Butler </p>
+             <p>Mel F. Greaves </p>
+             <p>Arnold Ganser </p>
+             <p>Konstanze Döhner </p>
+             <p>Richard F. Schlenk </p>
+             <p>Hartmut Döhner </p>
+             <p>Peter J. Campbell </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1056/NEJMoa1516192">10.1056/NEJMoa1516192</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 27276561 · <strong>DOI:</strong> 10.1056/NEJMoa1516192 · <strong>Journal:</strong> New England Journal of Medicine (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Papaemmanuil and colleagues sequenced 111 cancer genes plus cytogenetics in 1540 adults with acute myeloid leukemia (<a href="../cancer_types/AML.html">AML</a>) enrolled in three German–Austrian AMLSG intensive-therapy trials, identifying 5234 driver mutations across 76 genes/regions and partitioning the cohort into 11 mutually exclusive genomic subgroups. Beyond established WHO categories, three new categories emerged — chromatin–spliceosome <a href="../cancer_types/AML.html">AML</a> (18%), <a href="../genes/TP53.html">TP53</a>–aneuploidy AML (13%), and provisionally <a href="../genes/IDH2.html">IDH2</a> R172 AML (1%) — with the chromatin–spliceosome and <a href="../genes/TP53.html">TP53</a>–aneuploidy groups carrying poor prognoses. Co-occurring driver mutations and gene–gene interactions (notably the three-way <a href="../genes/NPM1.html">NPM1</a>–<a href="../genes/DNMT3A.html">DNMT3A</a>–<a href="../genes/FLT3.html">FLT3</a> ITD interaction) substantially modified outcome, and the classification replicated in the independent TCGA AML cohort (<a href="../datasets/laml_tcga_pub.html">laml_tcga_pub</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 1540</strong> adults with AML enrolled in three prospective AMLSG intensive-therapy trials: AML-HD98A (ages 18–65, ICE induction), AMLSG-07-04 (ages 18–61, ICE ± all-trans retinoic acid), and AML-HD98B (ages 58–84, ICE ± ATRA). Median follow-up 5.9 years. ClinicalTrials.gov NCT00146120.</li>
+<li><strong>Cancer type:</strong> <a href="../cancer_types/AML.html">AML</a> (de novo and secondary).</li>
+<li><strong>Genomic data:</strong> sequencing of 111 leukemia genes plus cytogenetics (<a href="../methods/targeted-dna-seq.html">targeted-dna-seq</a>); driver criteria per Lawrence et al.&nbsp;2013. Sequencing data deposited at EGA accession EGAS00001000275.</li>
+<li><strong>Validation cohort:</strong> TCGA AML (<a href="../datasets/laml_tcga_pub.html">laml_tcga_pub</a>) — independent cohort with many older patients used to replicate subgroup structure and prognostic findings.</li>
+<li><strong>Treatments studied:</strong> <a href="../drugs/cytarabine.html">cytarabine</a>, <a href="../drugs/idarubicin.html">idarubicin</a>, and <a href="../drugs/etoposide.html">etoposide</a> (ICE induction); <a href="../drugs/tretinoin.html">tretinoin</a> (ATRA) added in two trial arms; allogeneic stem-cell transplant for high-risk patients.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>5234 driver mutations across 76 genes or genomic regions</strong> in 1540 patients; ≥1 driver in 1478/1540 (96%) and ≥2 drivers in 86% of patients. Point mutations accounted for 73% (3824/5234) of drivers (<a href="../papers/27276561.html">PMID:27276561</a>).</li>
+<li><strong>Eleven mutually exclusive genomic subgroups</strong> were defined by Bayesian Dirichlet-process modeling. 1236/1540 (80%) patients fell unambiguously into one subgroup, 56 (4%) met criteria for ≥2 categories, and 166 (11%) with driver mutations remained unclassified (<a href="../papers/27276561.html">PMID:27276561</a>).</li>
+<li><strong><a href="../genes/NPM1.html">NPM1</a>-mutated AML was the largest subgroup</strong> (27% of cohort, 418 patients); 73% of <a href="../genes/NPM1.html">NPM1</a>-mutated cases (319/436) carried co-mutations in DNA methylation/hydroxymethylation genes (<a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a> R140, or <a href="../genes/TET2.html">TET2</a>).</li>
+<li><strong>Chromatin–spliceosome subgroup (18%, n=275)</strong> — newly defined; mutations in RNA-splicing (<a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/U2AF1.html">U2AF1</a>, <a href="../genes/ZRSR2.html">ZRSR2</a>), chromatin (<a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/STAG2.html">STAG2</a>, <a href="../genes/BCOR.html">BCOR</a>, <a href="../genes/KMT2A.html">KMT2A</a> PTD, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/PHF6.html">PHF6</a>), or transcription (<a href="../genes/RUNX1.html">RUNX1</a>). Patients were older with lower WBC/blast counts, lower induction response, higher relapse, and poor long-term outcomes; 84% (232/275) would be classified intermediate-risk under ELN guidelines despite outcomes resembling adverse-risk groups.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a>–aneuploidy subgroup (13%, n=199)</strong> — newly defined; characterized by <a href="../genes/TP53.html">TP53</a> mutations, complex karyotype, or chromosomal aneuploidies (−5/5q, −7/7q, −17/17p, +8/8q, etc.). <a href="../genes/TP53.html">TP53</a> mutation and complex karyotype contributed independently and additively to poor survival.</li>
+<li><strong>Provisional <a href="../genes/IDH2.html">IDH2</a> R172 subgroup (1%, n=18)</strong> — mutually exclusive with <a href="../genes/NPM1.html">NPM1</a> (OR 0.06, P=4×10⁻⁵), unlike <a href="../genes/IDH2.html">IDH2</a> R140 which co-occurs strongly with <a href="../genes/NPM1.html">NPM1</a> (OR 3.6, P=5×10⁻¹⁰). Long-term outcomes broadly similar to <a href="../genes/NPM1.html">NPM1</a>-mutated AML.</li>
+<li><strong>Three-way <a href="../genes/NPM1.html">NPM1</a>–<a href="../genes/DNMT3A.html">DNMT3A</a>–<a href="../genes/FLT3.html">FLT3</a> ITD interaction</strong>: the deleterious effect of <a href="../genes/FLT3.html">FLT3</a> ITD on survival was strongest only when <a href="../genes/NPM1.html">NPM1</a> and <a href="../genes/DNMT3A.html">DNMT3A</a> were also mutated (n=93, 6% of cohort; HR 1.5 [1.2–1.9], q=0.004 for three-way interaction). Independent of <a href="../genes/FLT3.html">FLT3</a> mutant-allele ratio.</li>
+<li><strong><a href="../genes/NPM1.html">NPM1</a>–<a href="../genes/DNMT3A.html">DNMT3A</a>–<a href="../genes/NRAS.html">NRAS</a> G12/13</strong> carried an unexpectedly favorable prognosis (n=45, P=0.0007 three-way), refining prior reports that “NPM1–<a href="../genes/NRAS.html">NRAS</a>” is favorable.</li>
+<li><strong><a href="../genes/KMT2A.html">KMT2A</a> PTD × <a href="../genes/FLT3.html">FLT3</a> TKD</strong> co-occurrence (n=10) was strongly adverse (q=0.008); <strong><a href="../genes/DNMT3A.html">DNMT3A</a> × <a href="../genes/IDH2.html">IDH2</a> R140</strong> co-occurrence (n=19) was also adverse (q=0.05).</li>
+<li><strong>Survival concordance ~71%</strong> with the full multivariate model vs.&nbsp;~64% using only ELN variables. Genomic features explained ~two-thirds of explained variation; gene–gene interactions accounted for 11% of explained variance.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a> mutations</strong> were independently associated with worse prognosis (P=0.009, q=0.06); the authors suggest <a href="../genes/BRAF.html">BRAF</a> inhibitors as a candidate therapy in this small subgroup.</li>
+<li><strong>Clonal-evolution patterns</strong>: epigenetic-modifier mutations (<a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/TET2.html">TET2</a>) were typically founding/early events; RTK–RAS pathway mutations were typically late and frequently subclonal/recurrent within a patient. <a href="../genes/NPM1.html">NPM1</a> was a late driver, often secondary to <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/IDH1.html">IDH1</a>, or <a href="../genes/NRAS.html">NRAS</a>.</li>
+<li><strong>WHO 2008 fusion-defined classes</strong> (<a href="../genes/PML.html">PML</a>–<a href="../genes/RARA.html">RARA</a>, <a href="../genes/CBFB.html">CBFB</a>–<a href="../genes/MYH11.html">MYH11</a>, <a href="../genes/RUNX1.html">RUNX1</a>–<a href="../genes/RUNX1T1.html">RUNX1T1</a>, <a href="../genes/DEK.html">DEK</a>–<a href="../genes/NUP214.html">NUP214</a>, inv(3)/<a href="../genes/MECOM.html">MECOM</a>, <a href="../genes/KMT2A.html">KMT2A</a> fusions including <a href="../genes/MLLT3.html">MLLT3</a>–<a href="../genes/KMT2A.html">KMT2A</a>) were each ≤5% of the cohort and confirmed; <a href="../genes/CEBPA.html">CEBPA</a> biallelic was a distinct subgroup (4%, n=66).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/NPM1.html">NPM1</a></strong> — mutations in 28% (n=436); class-defining for largest subgroup; favorable as monotherapy but outcome strongly modified by co-occurring <a href="../genes/FLT3.html">FLT3</a>, <a href="../genes/DNMT3A.html">DNMT3A</a>, <a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/PTPN11.html">PTPN11</a>, and chromatin–spliceosome mutations.</li>
+<li><strong><a href="../genes/FLT3.html">FLT3</a></strong> — ITD in 22% (n=341); deleterious effect strongest in NPM1+/DNMT3A+ context. FLT3 TKD distinct from FLT3 ITD in co-mutation patterns and interactions (e.g.&nbsp;with <a href="../genes/KMT2A.html">KMT2A</a> PTD).</li>
+<li><strong><a href="../genes/DNMT3A.html">DNMT3A</a></strong> — frequent founding-clone driver; modifies effect of FLT3 ITD, NRAS G12/13, <a href="../genes/IDH2.html">IDH2</a> R140, and <a href="../genes/RAD21.html">RAD21</a> mutations.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — 6% (n=98); core of TP53–aneuploidy subgroup; HR 1.7 (1.4–2.2), P=7×10⁻⁶, q=0.0002. Independent and additive with complex karyotype.</li>
+<li><strong><a href="../genes/IDH2.html">IDH2</a></strong> — R140 (co-occurs with <a href="../genes/NPM1.html">NPM1</a>, OR 3.6) vs.&nbsp;R172 (mutually exclusive with <a href="../genes/NPM1.html">NPM1</a>, OR 0.06) define functionally distinct hotspots; R172 forms a provisional subgroup with metabolic/methylation profile distinct from other IDH mutants.</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a></strong> — early/founding driver in epigenetic axis; co-mutes with <a href="../genes/NPM1.html">NPM1</a>.</li>
+<li><strong><a href="../genes/TET2.html">TET2</a></strong>, <strong><a href="../genes/ASXL1.html">ASXL1</a></strong> — early epigenetic drivers; <a href="../genes/ASXL1.html">ASXL1</a> part of chromatin–spliceosome group with independent adverse effect.</li>
+<li><strong><a href="../genes/SRSF2.html">SRSF2</a></strong> — splicing factor in chromatin–spliceosome group; HR 1.4 (1.1–1.7), P=0.003, q=0.03. Additive adverse effect with ASXL1.</li>
+<li><strong><a href="../genes/SF3B1.html">SF3B1</a></strong>, <strong><a href="../genes/U2AF1.html">U2AF1</a></strong>, <strong><a href="../genes/ZRSR2.html">ZRSR2</a></strong> — additional splicing factors defining chromatin–spliceosome subgroup.</li>
+<li><strong><a href="../genes/STAG2.html">STAG2</a></strong>, <strong><a href="../genes/BCOR.html">BCOR</a></strong>, <strong><a href="../genes/KMT2A.html">KMT2A</a> PTD</strong>, <strong><a href="../genes/EZH2.html">EZH2</a></strong>, <strong><a href="../genes/PHF6.html">PHF6</a></strong> — chromatin regulators in chromatin–spliceosome subgroup.</li>
+<li><strong><a href="../genes/RUNX1.html">RUNX1</a></strong> — transcription regulator in chromatin–spliceosome subgroup.</li>
+<li><strong><a href="../genes/CEBPA.html">CEBPA</a></strong> — biallelic mutations define favorable subgroup (4%, n=66); HR 0.6 (0.4–0.7), P=4×10⁻⁵.</li>
+<li><strong><a href="../genes/NRAS.html">NRAS</a></strong> — late driver in RTK–RAS pathway; G12/13 vs.&nbsp;Q61 hotspots have distinct co-mutation patterns; G12/13 in NPM1/DNMT3A context paradoxically favorable.</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a></strong> — 1% (n=9); independently adverse (P=0.009, q=0.06); proposed candidate for <a href="../genes/BRAF.html">BRAF</a> inhibitor therapy.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a></strong> — novel hotspot mutations described in the cohort (Supplementary Results S1).</li>
+<li><strong><a href="../genes/PML.html">PML</a>–<a href="../genes/RARA.html">RARA</a></strong> t(15;17) — 4% (n=60); class-defining; HR 0.3 (0.2–0.4).</li>
+<li><strong><a href="../genes/CBFB.html">CBFB</a>–<a href="../genes/MYH11.html">MYH11</a></strong> inv(16)/t(16;16) — 5% (n=81); HR 0.3 (0.2–0.4).</li>
+<li><strong><a href="../genes/RUNX1.html">RUNX1</a>–<a href="../genes/RUNX1T1.html">RUNX1T1</a></strong> t(8;21) — 4% (n=60).</li>
+<li><strong><a href="../genes/DEK.html">DEK</a>–<a href="../genes/NUP214.html">NUP214</a></strong> t(6;9) — 1% (n=15).</li>
+<li><strong>inv(3)/<a href="../genes/MECOM.html">MECOM</a></strong> — 1% (n=20); among the strongest adverse main effects (HR 2.9 [1.8–4.7], P=9×10⁻⁶, q=0.0003).</li>
+<li><strong><a href="../genes/KMT2A.html">KMT2A</a> fusions</strong> — 3% (n=44); multiple partners; <a href="../genes/MLLT3.html">MLLT3</a>–<a href="../genes/KMT2A.html">KMT2A</a> (t(9;11)) appears favorable relative to other KMT2A fusions.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Disease classification reform</strong>: the authors argue genomic subgroups should supplement WHO morphology-based classification. Three new genomic categories (chromatin–spliceosome, TP53–aneuploidy, provisional IDH2 R172) capture 32% of the cohort that was previously unclassified by WHO 2008 lesions.</li>
+<li><strong>Prognostic stratification beyond ELN</strong>: the full genomic+clinical model achieves ~71% concordance for overall survival vs.&nbsp;~64% with ELN variables alone. The authors recommend incorporating <a href="../genes/TP53.html">TP53</a>, <a href="../genes/SRSF2.html">SRSF2</a>, <a href="../genes/ASXL1.html">ASXL1</a>, <a href="../genes/DNMT3A.html">DNMT3A</a>, and <a href="../genes/IDH2.html">IDH2</a> into prognostic guidelines, and adding <a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/ASXL1.html">ASXL1</a>, and <a href="../genes/KMT2A.html">KMT2A</a> PTD evaluation at diagnosis to identify chromatin–spliceosome patients.</li>
+<li><strong>Risk reclassification</strong>: 84% of chromatin–spliceosome patients (232/275) currently classified as ELN intermediate-risk would be more appropriately treated as adverse-risk based on observed outcomes.</li>
+<li><strong>Context-dependent prognosis for <a href="../genes/NPM1.html">NPM1</a>-mutated AML</strong>: outcome depends on co-mutation context — favorable with NPM1+DNMT3A+NRAS G12/13, adverse with NPM1+DNMT3A+FLT3 ITD. Implies allogeneic transplant decisions in <a href="../genes/NPM1.html">NPM1</a> AML should integrate co-mutation profiles.</li>
+<li><strong>Therapeutic candidates</strong>: <a href="../genes/BRAF.html">BRAF</a> inhibitors proposed for <a href="../genes/BRAF.html">BRAF</a>-mutant AML (small subgroup but independently adverse); <a href="../genes/FLT3.html">FLT3</a> and RAS-pathway inhibitors expected to alter outcome predictions for those subgroups.</li>
+<li><strong>Boundary with chronic myeloid disorders</strong>: chromatin–spliceosome AML overlaps mutationally with high-risk myeloproliferative neoplasms and <a href="../cancer_types/MDS.html">MDS</a>, suggesting shared evolutionary trajectories and a possible reorganization of acute/chronic myeloid disease boundaries.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Cohort skewed to younger, intensively treated patients</strong>: trials enrolled adults selected for intensive induction. Older AML patients ineligible for intensive therapy are underrepresented; the TCGA replication cohort partially addresses this.</li>
+<li><strong>Prospective validation needed</strong>: the authors explicitly state predictions from co-mutation contexts (especially within <a href="../genes/NPM1.html">NPM1</a> AML) require validation in prospective clinical trials.</li>
+<li><strong>166 unclassified patients (11%) with driver mutations</strong> — may harbor mutations in genes not on the 111-gene panel, or unrecognized class-defining lesions.</li>
+<li><strong>Provisional <a href="../genes/IDH2.html">IDH2</a> R172 subgroup is small (n=18)</strong> and the case for it as an independent class rests on co-mutation structure and prior metabolic/methylation evidence; larger cohorts are needed.</li>
+<li><strong>Treatment-specific outcomes not modeled</strong>: the prognostic model averages over induction regimen and post-remission therapy choices, limiting ability to define class-specific optimal therapy.</li>
+<li><strong>Open question for cross-paper synthesis</strong>: how does the chromatin–spliceosome AML class relate genetically and clinically to <a href="../cancer_types/MDS.html">MDS</a> and high-risk <a href="../cancer_types/MPN.html">MPN</a> with the same mutated genes? See <a href="../cancer_types/MDS.html">MDS</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified 5234 driver mutations across 76 genes or genomic regions, with 2 or more drivers identified in 86% of the patients” (Abstract).</li>
+<li>“Patterns of co-mutation compartmentalized the cohort into 11 classes, each with distinct diagnostic features and clinical outcomes” (Abstract).</li>
+<li>“AML with mutations in genes encoding chromatin, RNA-splicing regulators, or both (in 18% of patients); AML with TP53 mutations, chromosomal aneuploidies, or both (in 13%); and, provisionally, AML with IDH2R172 mutations (in 1%)” (Abstract).</li>
+<li>“the deleterious effect of FLT3ITD was most clinically relevant in patients with concomitant NPM1 and DNMT3A mutations (P=0.009 for three-way interaction in the univariate analysis, q=0.004 in the multivariate analysis)” (Results, Influence of Complex Gene Interactions).</li>
+<li>“Using the full model, we could correctly rank approximately 71% of patients for overall survival (vs.&nbsp;64% with models using only variables in the European LeukemiaNet criteria)” (Results, Influence of Co-occurring Mutations).</li>
+<li>“<a href="../genes/BRAF.html">BRAF</a> mutations are independently associated with a worse prognosis (P=0.009, q=0.06), and BRAF inhibitors might be a useful therapeutic option for patients in this subgroup” (Results).</li>
+<li>“84% of patients in this subgroup (232 of 275) would be classified as being at intermediate risk, whereas their outcomes are in fact similar to those for patients in subgroups of AML with adverse outcomes” (Results, Clinical Implications).</li>
+<li>“IDH2R140 mutations, which show strong co-mutation with NPM1 (odds ratio for co-mutation, 3.6; P= 5×10−10), IDH2R172 mutations are mutually exclusive with NPM1 (odds ratio for co-mutation, 0.06; P= 4×10−5)” (Results).</li>
+</ul>
+<hr>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27276561.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27276561.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

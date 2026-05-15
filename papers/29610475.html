@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The long tail of oncogenic drivers in prostate cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29610475.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29610475.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The long tail of oncogenic drivers in prostate cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Joshua Armenia </p>
+             <p>Stephanie A.M. Wankowicz </p>
+             <p>David Liu </p>
+             <p>Jianjiong Gao </p>
+             <p>Ritika Kundra </p>
+             <p>Ed Reznik </p>
+             <p>Walid K. Chatila </p>
+             <p>Debyani Chakravarty </p>
+             <p>Barry S. Taylor </p>
+             <p>Howard I. Scher </p>
+             <p>Peter S. Nelson </p>
+             <p>Johann S. de Bono </p>
+             <p>Mark A. Rubin </p>
+             <p>Charles L. Sawyers </p>
+             <p>Arul M. Chinnaiyan </p>
+             <p>Nikolaus Schultz </p>
+             <p>Eliezer M. Van Allen </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41588-018-0078-z">10.1038/s41588-018-0078-z</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29610475 · <strong>DOI:</strong> 10.1038/s41588-018-0078-z · <strong>Journal:</strong> Nature Genetics (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Armenia and colleagues aggregated and uniformly re-analyzed whole-exome sequencing of 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) from prior cohorts to define the “long tail” of prostate cancer drivers. Mutational significance analysis (MutSig2CV plus biological filters) yielded 97 significantly mutated genes (SMGs), 70 of them not previously implicated in prostate cancer. The work defines a new class of ETS-fusion-negative tumors driven by mutations in epigenetic regulators / chromatin remodelers (20% of samples), nominates the spliceosome (<a href="../genes/SF3B1.html">SF3B1</a>, <a href="../genes/U2AF1.html">U2AF1</a>) and ubiquitin-pathway gene <a href="../genes/CUL3.html">CUL3</a> as novel prostate-cancer pathways, identifies <a href="../genes/SPEN.html">SPEN</a> as a metastasis-enriched AR-pathway driver, and shows that PI3K, DNA-repair, cell-cycle, WNT/CTNNB1 and epigenetic-regulator alterations are all enriched in metastatic vs primary disease.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N = 1,013</strong> tumor/germline pairs aggregated from prior WES studies — 680 primary (treatment-naive) and 333 metastatic (castration-resistant) <a href="../cancer_types/PRAD.html">PRAD</a> tumors. Cohort deposited in cBioPortal as <a href="../datasets/prad_p1000.html">prad_p1000</a>.</li>
+<li>Validation cohorts: 706 advanced prostate cancers from <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> (<a href="../datasets/msk_impact_2017.html">msk_impact_2017</a>) and 204 prostate cancers from Foundation Medicine (phs001179).</li>
+<li>Uniform re-alignment via PICARD; SNVs called with <a href="../methods/mutect.html">MuTect</a> v1.1.6, indels with <a href="../methods/strelka.html">Strelka</a> v1.0.11; copy-number from ReCapSeg + <a href="../methods/gistic.html">GISTIC 2.0</a>; allele-specific copy-number, purity and ploidy from <a href="../methods/facets.html">FACETS</a> v0.5.10; clonality (cancer-cell fraction) via FACETS / <a href="../methods/absolute.html">ABSOLUTE</a>-style framework.</li>
+<li>Significance analysis: <a href="../methods/mutsig.html">MutSig2CV</a> (integrating MutSigCV, MutSigFN, MutSigCL) with additional biological filters (≥10 altered samples, allelic-fraction floors, length / expression / oncogenic-variant filters) plus <a href="../methods/oncokb-annotation.html">OncoKB</a> rescue of genes with ≥5 oncogenic variants.</li>
+<li>Tumor mean target coverage 104.7×; normals 103.8×; ContEst &lt; 5% (mean 0.6%).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>97 SMGs identified</strong>, including 70 not previously implicated in prostate cancer and 9 not previously reported as recurrently altered in any cancer type <a href="../papers/29610475.html">PMID:29610475</a>. Most novel SMGs are mutated in &lt;5% of tumors and required &gt;900 samples to detect.</li>
+<li><strong>Mutational and copy-number burden are higher in metastatic disease.</strong> Mean non-synonymous mutation rate 1.36 mut/Mb (primary) vs 2.93 mut/Mb (metastatic); after adjustment for tumor purity and sequencing depth, metastatic tumors carry an estimated 1.43 mut/Mb excess (p&lt;0.001). Copy-number burden also higher in metastatic (p&lt;0.001). In primary tumors, increased age and higher Gleason score associate with higher mutation burden (p=0.02, p&lt;0.001) and copy-number burden (p&lt;0.001, p&lt;0.001).</li>
+<li><strong>Epigenetic/chromatin-remodeler mutations define a class of ETS-fusion-negative tumors.</strong> 20% of samples carry alterations (often truncating) in epigenetic modifiers or chromatin-remodeling genes; SWI/SNF members <a href="../genes/ARID1A.html">ARID1A</a> (1.6%), <a href="../genes/ARID4A.html">ARID4A</a> (1%), <a href="../genes/ARID2.html">ARID2</a> (1.3%) and <a href="../genes/SMARCA1.html">SMARCA1</a> (1.1%) are the most frequent. In primary tumors these alterations associate with higher Gleason score (10% Gleason 3+4 vs 22% Gleason 8–10, p=0.001 Fisher’s exact). Within the ETS-status-known subset (n=765), epigenetic-regulator mutations are enriched in ETS-fusion-negative tumors (p=1×10^-4) and in tumors lacking any previously known driver (ETS fusion, IDH1/SPOP/CUL3, <a href="../genes/FOXA1.html">FOXA1</a>) (p=0.007).</li>
+<li><strong>CUL3 is a new SPOP-like prostate-cancer driver.</strong> <a href="../genes/CUL3.html">CUL3</a> is mutated in 1.3% of cases, primarily at the recurrent p.Met299Arg hotspot (5 tumors), exclusively missense, and mutually exclusive with <a href="../genes/SPOP.html">SPOP</a> mutations (cohort underpowered to reach statistical significance). CUL3-mutant tumors show SPOP-like copy-number profiles (5q, 6q, 13 losses). The MSK-IMPACT validation cohort confirmed 9 additional somatic CUL3 mutations (1.3%), including three p.Met299Arg events. Including <a href="../genes/USP28.html">USP28</a> (1.4%) and <a href="../genes/USP7.html">USP7</a> (1.2%), 12% of tumors harbor ubiquitin-pathway alterations.</li>
+<li><strong>Spliceosome pathway altered in 4% of tumors.</strong> Hotspot mutations in <a href="../genes/SF3B1.html">SF3B1</a> (1.1%, clustered in C-terminal HEAT repeats) and <a href="../genes/U2AF1.html">U2AF1</a> (0.5%) — the first nomination of splicing-factor mutations as a recurrent prostate-cancer pathway.</li>
+<li><strong>SPEN is a new metastasis-enriched AR-pathway driver.</strong> <a href="../genes/SPEN.html">SPEN</a> is mutated in 2.4% of the cohort, mostly truncating, significantly enriched in metastatic samples (q=0.008, Fisher’s exact), and clonal — consistent with a driver role in advanced disease.</li>
+<li><strong>Novel PI3K subunit driver.</strong> PI3K pathway altered in 25% (<a href="../genes/PTEN.html">PTEN</a> homozygous loss / truncation 16%); <a href="../genes/PIK3R2.html">PIK3R2</a> is mutated in 1% and is paralogous to <a href="../genes/PIK3R1.html">PIK3R1</a>. The <a href="../genes/PIK3R2.html">PIK3R2</a> p.Asp557Tyr mutation is paralogous to the known oncogenic <a href="../genes/PIK3R1.html">PIK3R1</a> p.Asp560Tyr and was reproduced in the validation cohort.</li>
+<li><strong>WNT/CTNNB1 pathway altered in 10%.</strong> <a href="../genes/CTNNB1.html">CTNNB1</a> mutations cluster in the N-terminal domain plus a novel p.Lys335Ile hotspot near the AXIN-binding interface; <a href="../genes/APC.html">APC</a> carries loss-of-function alterations.</li>
+<li><strong>DNA-repair SMGs include MRE11A and <a href="../genes/PALB2.html">PALB2</a>.</strong> DNA-repair pathway altered in 16% overall. Novel prostate-cancer-specific SMGs include <a href="../genes/MRE11.html">MRE11</a> and <a href="../genes/PALB2.html">PALB2</a>; <a href="../genes/CDK12.html">CDK12</a> mutations are predominantly truncating (p&lt;0.001 binomial), and 15/31 CDK12-mutant primary tumors (and 27/56 in validation) carry two CDK12 mutations, suggestive of frequent biallelic inactivation. CDK12 missense variants cluster in the kinase domain (p&lt;0.001 binomial).</li>
+<li><strong>RAS/RAF/MAPK pathway altered in 5%</strong>, including SMGs in <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/BRAF.html">BRAF</a> at established hotspots that had not previously reached significance in prostate cancer.</li>
+<li><strong>Primary-vs-metastatic comparison defines a high-risk genomic signature.</strong> Genes enriched in metastatic disease: <a href="../genes/TP53.html">TP53</a>, <a href="../genes/AR.html">AR</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/FOXA1.html">FOXA1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/BRCA2.html">BRCA2</a>, plus epigenetic regulators <a href="../genes/KMT2C.html">KMT2C</a> and <a href="../genes/KMT2D.html">KMT2D</a>. <a href="../genes/SPOP.html">SPOP</a> is enriched in primary tumors; after mutation-rate correction, <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/ZMYM3.html">ZMYM3</a> are also enriched in primary (p=0.01, weighted permutation test). At pathway level, PI3K, DNA-repair, cell-cycle, WNT/CTNNB1 and epigenetic regulators are all enriched in metastatic vs primary (p&lt;0.0001 Fisher’s exact).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/CUL3.html">CUL3</a></strong> — recurrent missense hotspot p.Met299Arg in 1.3% of primary cohort and 1.3% of MSK-IMPACT validation; mutually exclusive with <a href="../genes/SPOP.html">SPOP</a> mutations and shows SPOP-like copy-number profile (losses on 5q, 6q, 13). Encodes part of the BTB-CUL3-RBX1 E3 ubiquitin ligase complex with SPOP.</li>
+<li><strong><a href="../genes/SPEN.html">SPEN</a></strong> — 2.4% mutation rate, predominantly truncating, clonal, significantly enriched in metastatic samples (q=0.008). Encodes a hormone-inducible transcriptional repressor; nominated as a driver in advanced/metastatic prostate cancer.</li>
+<li><strong><a href="../genes/SF3B1.html">SF3B1</a></strong> (1.1%) and <strong><a href="../genes/U2AF1.html">U2AF1</a></strong> (0.5%) — first significant nomination of splicing-factor mutations as a recurrent prostate-cancer alteration; SF3B1 mutations cluster in C-terminal HEAT repeats.</li>
+<li><strong><a href="../genes/PIK3R2.html">PIK3R2</a></strong> (1%) — novel PI3K-pathway SMG; p.Asp557Tyr is paralogous to oncogenic <a href="../genes/PIK3R1.html">PIK3R1</a> p.Asp560Tyr and reproduced in validation cohort.</li>
+<li><strong><a href="../genes/CTNNB1.html">CTNNB1</a></strong> — N-terminal hotspot mutations plus novel p.Lys335Ile hotspot near the AXIN-binding domain.</li>
+<li><strong><a href="../genes/CDK12.html">CDK12</a></strong> — truncating-biased mutation pattern (p&lt;0.001) with frequent biallelic inactivation (15/31 in discovery, 27/56 in validation); missense variants cluster in the kinase domain.</li>
+<li><strong><a href="../genes/MRE11.html">MRE11</a></strong> and <strong><a href="../genes/PALB2.html">PALB2</a></strong> — novel prostate-specific DNA-repair SMGs.</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a></strong> — epigenetic-regulator SMGs significantly enriched in metastatic tumors.</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/ARID2.html">ARID2</a>, <a href="../genes/ARID4A.html">ARID4A</a>, <a href="../genes/SMARCA1.html">SMARCA1</a></strong> — SWI/SNF members altered in ~5% of cohort, enriched in ETS-fusion-negative tumors.</li>
+<li><strong><a href="../genes/USP28.html">USP28</a>, <a href="../genes/USP7.html">USP7</a></strong> — additional ubiquitin-pathway SMGs.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a></strong> — established hotspots, newly significant in prostate cancer.</li>
+<li>Established drivers (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/AR.html">AR</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/FOXA1.html">FOXA1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/SPOP.html">SPOP</a>, <a href="../genes/IDH1.html">IDH1</a>, <a href="../genes/ZMYM3.html">ZMYM3</a>, <a href="../genes/ERG.html">ERG</a>/<a href="../genes/TMPRSS2.html">TMPRSS2</a> fusions) confirmed; metastasis-vs-primary enrichment quantified.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The metastasis-enrichment signature (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/AR.html">AR</a>, PTEN, <a href="../genes/RB1.html">RB1</a>, FOXA1, <a href="../genes/APC.html">APC</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/KMT2D.html">KMT2D</a> and aggregated PI3K / DNA-repair / cell-cycle / WNT / epigenetic alterations) defines a candidate genomic marker set the authors propose for prospective risk stratification in localized prostate cancer.</li>
+<li>CUL3 hotspot p.Met299Arg defines a small but recurrent SPOP-like tumor subset and may merit annotation in clinical prostate-cancer panels.</li>
+<li>Splicing-factor mutations (SF3B1, U2AF1) introduce a new class of potentially actionable alterations in prostate cancer, given splicing-modulator drug development in other diseases.</li>
+<li>PIK3R2 p.Asp557Tyr is paralogous to a known oncogenic PIK3R1 mutation, suggesting it should be evaluated as a candidate PI3K-pathway biomarker.</li>
+<li>Frequent biallelic CDK12 inactivation in metastatic prostate cancer is consistent with CDK12 loss as a therapeutically relevant DNA-repair phenotype.</li>
+<li>All mutation calls and clinical annotation are publicly available in cBioPortal as study <code>prad_p1000</code> (http://www.cbioportal.org/study?id=<a href="../datasets/prad_p1000.html">prad_p1000</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Cohort assembled from heterogeneous prior WES projects — uniform re-alignment and joint QC mitigate but cannot fully eliminate batch effects (bait-set differences, sequencing-depth variation, FFPE artifacts addressed by orientation-bias filtering).</li>
+<li>Many novel SMGs are mutated in &lt;3% of cases; cohort still underpowered to establish statistical significance for rare phenomena (e.g., CUL3-vs-SPOP mutual exclusivity is biologically clear but not statistically resolved).</li>
+<li>Functional consequences of the long-tail SMGs are largely unknown; the authors call out the need for functional follow-up to discriminate prostate-cancer-relevant drivers from passengers among the statistically nominated genes.</li>
+<li>Even larger uniformly analyzed cohorts will be needed to refine SMG calls and to address stochastic differences in variant detection across source projects.</li>
+<li>Saturation analyses suggest expanded primary-prostate cohorts may be near saturation for gene discovery; metastatic-cohort expansion remains the higher-yield direction for future driver discovery.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Here we aggregate and uniformly analyze exome sequencing data from 1013 prostate cancers” (Abstract) — defines <a href="../datasets/prad_p1000.html">prad_p1000</a>.</li>
+<li>“We identify a total of 97 SMGs, including 70 not previously implicated in prostate cancer, such as the ubiquitin ligase CUL3 and the transcription factor SPEN” (Abstract) — headline result.</li>
+<li>“20% of prostate cancer samples with mutations, frequently truncating, in epigenetic modifiers or chromatin remodeling genes” (p.3) — epigenetic-regulator class.</li>
+<li>“alterations in epigenetic regulators and chromatin remodelers were significantly more common in tumors that lack an ETS fusion (p=1e-04, Fisher’s exact test)” (p.3) — ETS-negative subclass definition.</li>
+<li>“CUL3 mutations were primarily in a hotspot, p.Met299Arg, and were mutually exclusive with SPOP mutations” (p.4) — CUL3 finding.</li>
+<li>“we identified nine additional somatic CUL3 mutations in an independent cohort of advanced prostate cancers (1.3% in the MSK-IMPACT data)” (p.4) — MSK-IMPACT validation.</li>
+<li>“the splicing pathway was altered in 4% of prostate tumors … hotspot mutations in SF3B1 (1.1%) and U2AF1 (0.5%)” (p.4) — spliceosome pathway.</li>
+<li>“SPEN mutations were significantly enriched in metastatic samples (q=0.008, Fisher’s exact test) and clonal” (p.4) — SPEN driver claim.</li>
+<li>“PIK3R2 (1%), which, like PIK3R1, encodes a PI3K regulatory subunit … p.Asp557Tyr, is paralogous to the known oncogenic p.Asp560Tyr mutation in PIK3R1” (p.4) — novel PI3K driver.</li>
+<li>“Genes with enrichment in metastatic samples include TP53, AR, PTEN, RB1, FOXA1, APC, and BRCA2 … KMT2C and KMT2D are also significantly enriched in metastatic tumors” (p.5) — metastasis signature.</li>
+<li>“After correction for differences in mutational load, <a href="../genes/IDH1.html">IDH1</a> and <a href="../genes/ZMYM3.html">ZMYM3</a> mutations were also enriched in primary tumors (p=0.01, mutation rate-adjusted permutation test)” (p.5) — primary-enrichment.</li>
+<li>“PI3K, DNA repair, Cell cycle, WNT/CTNNB1, and epigenetic regulators were significantly more frequently altered in metastatic compared to primary tumors (p&lt;0.0001 Fisher’s exact test)” (p.5) — pathway-level metastasis enrichment.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29610475.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29610475.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

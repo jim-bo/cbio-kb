@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Next-generation Sequencing of Nonmuscle Invasive Bladder Cancer Reveals Potential Biomarkers and Rational Therapeutic Targets – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28583311.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28583311.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Next-generation Sequencing of Nonmuscle Invasive Bladder Cancer Reveals Potential Biomarkers and Rational Therapeutic Targets</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eugene J. Pietzak </p>
+             <p>Aditya Bagrodia </p>
+             <p>Eugene K. Cha </p>
+             <p>Esther N. Drill </p>
+             <p>Gopa Iyer </p>
+             <p>Sumit Isharwal </p>
+             <p>Irina Ostrovnaya </p>
+             <p>Priscilla Baez </p>
+             <p>Qiang Li </p>
+             <p>Michael F. Berger </p>
+             <p>Ahmet Zehir </p>
+             <p>Nikolaus Schultz </p>
+             <p>Jonathan E. Rosenberg </p>
+             <p>Dean F. Bajorin </p>
+             <p>Guido Dalbagni </p>
+             <p>Hikmat Al-Ahmadie </p>
+             <p>David B. Solit </p>
+             <p>Bernard H. Bochner </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.eururo.2017.05.032">10.1016/j.eururo.2017.05.032</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28583311 · <strong>DOI:</strong> 10.1016/j.eururo.2017.05.032 · <strong>Journal:</strong> European Urology (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Pietzak et al.&nbsp;performed targeted exon capture sequencing (MSK-IMPACT 341- or 410-gene panels) on pretreatment index tumors and matched germline DNA from 105 patients with nonmuscle invasive bladder cancer (NMIBC) at Memorial Sloan Kettering — the largest NGS effort focused on NMIBC to date. They found <a href="../genes/TERT.html">TERT</a> promoter mutations (73%) and chromatin-modifying gene alterations (69%) at high prevalence across all stages and grades, suggesting these are early events in urothelial carcinogenesis. <a href="../genes/ERBB2.html">ERBB2</a> and <a href="../genes/FGFR3.html">FGFR3</a> alterations occurred mutually exclusively in 57% of high-grade tumors. DNA damage repair (DDR) gene alterations were found in 30% of high-grade NMIBC — a rate similar to muscle-invasive disease — and were associated with significantly higher mutational burden (p &lt; 0.001). Most importantly, <a href="../genes/ARID1A.html">ARID1A</a> mutations were associated with a 3.14-fold increased risk of recurrence after intravesical bacillus Calmette-Guérin (BCG) therapy (95% CI 1.51–6.51, p = 0.002) <a href="../papers/28583311.html">PMID:28583311</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Primary cohort:</strong> 105 patients with NMIBC, all treatment-naive index tumors with matched germline DNA, profiled on the <a href="../methods/msk-impact-panel.html">MSK-IMPACT panel</a> using the <a href="../methods/IMPACT341.html">341-gene</a> or updated <a href="../methods/IMPACT410.html">410-gene</a> version under an IRB-approved protocol at Memorial Sloan Kettering Cancer Center <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Cohort composition:</strong> Low-grade Ta (LGTa, n = 23), high-grade Tis (HGTis, n = 12), high-grade Ta (HGTa, n = 32), and high-grade T1 (HGT1, n = 38). All HGT1 tumors had restaging TUR with confirmation of uninvolved detrusor muscle <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>BCG sub-cohort:</strong> 62 of the 82 high-grade NMIBC patients received a 6-week induction course of BCG without maintenance therapy and were used for genomic correlates of recurrence <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Comparator MIBC cohorts:</strong> 40 pretreatment index muscle-invasive bladder cancer (MIBC) tumors from MSK (“MSK-MIBC”) sequenced on the same MSK-IMPACT protocol, plus 98 MIBC specimens from the <a href="../datasets/blca_tcga_pub.html">TCGA bladder cohort</a> with no prior history of NMIBC <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Cancer type:</strong> Nonmuscle invasive bladder urothelial carcinoma — <a href="../cancer_types/BLCA.html">BLCA</a> (note: OncoTree does not have a separate code distinguishing NMIBC from MIBC).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/blca_nmibc_2017.html">blca_nmibc_2017</a> — data made publicly available through the cBioPortal for Cancer Genomics <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Median follow-up:</strong> 24.4 months for the 100 patients managed by TUR ± adjuvant intravesical therapy; recurrences occurred in 46 of 100 <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong><a href="../genes/TERT.html">TERT</a> promoter dominates the mutational landscape.</strong> <a href="../genes/TERT.html">TERT</a> promoter mutations were the single most frequent alteration at 73% of NMIBC tumors, present at similar frequency across stage (p = 0.2) and grade (p = 0.15): 61% (14/23) of LGTa, 88% (28/32) of HGTa, 79% (30/38) of HGT1, and 85% (34/40) of MSK-MIBC. The TCGA whole-exome data did not interrogate the TERT promoter region <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Chromatin-modifying gene alterations are nearly universal.</strong> Alterations in chromatin-modifying genes occurred in 69% (72/105) of NMIBC tumors. <a href="../genes/KDM6A.html">KDM6A</a> was altered in 38% overall (52% LGTa, 38% HGTa, 32% HGT1) and <a href="../genes/ARID1A.html">ARID1A</a> in 21% overall. Neither showed a statistically significant association with grade or stage <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Mutually exclusive ERBB2/FGFR3 alteration pattern.</strong> 57% (47/82) of high-grade NMIBC tumors harbored alterations in either <a href="../genes/ERBB2.html">ERBB2</a> or <a href="../genes/FGFR3.html">FGFR3</a>, and the alterations were mutually exclusive (Supplementary Table 7). <a href="../genes/FGFR3.html">FGFR3</a> alterations decreased with grade/stage (LGTa 83%; HGTa 59%; HGT1 34%; MSK-MIBC 8%; TCGA-MIBC 16%); <a href="../genes/ERBB2.html">ERBB2</a> alterations were almost exclusively in high-grade tumors, with hotspot S310F mutations and amplification observed especially in HGTis (6/12 Tis tumors had <a href="../genes/ERBB2.html">ERBB2</a> alterations) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a> fusions identified in NMIBC.</strong> Four <a href="../genes/FGFR3.html">FGFR3</a> fusions were identified, including a <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TNIP2.html">TNIP2</a> fusion (predicted activating; in-frame FGFR3 kinase domain) and an <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a> fusion in an LGTa tumor <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong><a href="../genes/STAG2.html">STAG2</a> mutations enriched in low-grade Ta disease.</strong> <a href="../genes/STAG2.html">STAG2</a> alterations occurred in 23% of NMIBC overall, but truncating STAG2 mutations were significantly enriched in LGTa tumors (39% [9/23] LGTa vs 16% HGTa, 24% HGT1, 5% MSK-MIBC, 15% TCGA-MIBC; p = 0.046) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>TP53/cell-cycle pathway alterations rise with stage.</strong> <a href="../genes/TP53.html">TP53</a>/<a href="../genes/MDM2.html">MDM2</a> alteration rates increased stepwise with stage (p &lt; 0.001) and grade (p &lt; 0.001) — 9% LGTa, 19% HGTa, 45% HGT1, 75% MSK-MIBC. Cell-cycle gene alterations (<a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CDKN1A.html">CDKN1A</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>) similarly increased with stage (p = 0.028) and grade (p = 0.009) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>High DDR alteration burden in high-grade NMIBC.</strong> Deleterious DDR gene alterations were identified in 30% (25/82) of high-grade NMIBC versus only 4% (1/23) of low-grade tumors (p = 0.012). The high-grade NMIBC rate was similar to the MSK-MIBC cohort (33%, 13/40). <a href="../genes/ERCC2.html">ERCC2</a> missense mutations were the most common DDR alteration (17%, 14/82 high-grade NMIBC; 20% of MSK-MIBC), clustering around the conserved helicase domain. Other affected DDR genes: <a href="../genes/ATM.html">ATM</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/ERCC4.html">ERCC4</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/FANCC.html">FANCC</a>, <a href="../genes/MSH6.html">MSH6</a> <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>DDR alterations correlate with elevated mutational burden.</strong> Tumors with deleterious DDR gene alterations had significantly higher mutational burden than DDR-intact tumors (median 26, IQR 15–36 vs median 8, IQR 5–12 mutations/Mb; p &lt; 0.001). <a href="../genes/ERCC2.html">ERCC2</a>-mutated tumors specifically had median 29 (IQR 23–37) vs 8 (IQR 6–14) for <a href="../genes/ERCC2.html">ERCC2</a> wild-type (p &lt; 0.001). High-grade NMIBC had a mutational burden similar to MIBC (median 9, IQR 6–21 vs 10, IQR 7–19; p = 0.84) and significantly higher than low-grade NMIBC (7, IQR 5–10; p = 0.032) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a> is the only gene significantly associated with BCG recurrence.</strong> Among all genes altered in ≥5 tumors of the 62-patient BCG cohort, only <a href="../genes/ARID1A.html">ARID1A</a> mutations were significantly associated with recurrence after BCG (HR = 3.14, 95% CI 1.51–6.51, p = 0.002), surviving multiple-comparison correction (p = 0.04). The association persisted when ARID1A missense VUS were included (HR = 3.08, 95% CI 1.49–6.35, p = 0.002) and in the larger 100-patient TUR cohort (HR = 2.07, 95% CI 1.10–3.88, p = 0.024). 32 of 62 patients (52%) recurred at median 24 mo follow-up <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> status, ERBB2/FGFR3 status, and mutational count did NOT predict BCG recurrence.</strong> <a href="../genes/TP53.html">TP53</a> alterations alone or in combination with <a href="../genes/MDM2.html">MDM2</a> showed no association with recurrence (p = 0.94 and p = 0.36). Tumors with <a href="../genes/ERBB2.html">ERBB2</a> and <a href="../genes/FGFR3.html">FGFR3</a> alterations had similar recurrence rates as wild-type (p = 0.3). Mutational count on <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> was not associated with BCG recurrence (HR = 0.96, 95% CI 0.83–1.1, p = 0.3) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TERT.html">TERT</a> — Promoter mutations in 73% of NMIBC; uniformly high across grade and stage; supports use as a noninvasive urinary screening/surveillance biomarker.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — Hotspot mutations in 49% overall, more frequent in lower grade/stage. Four fusions identified, including a novel <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TNIP2.html">TNIP2</a> and an <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a> fusion in a LGTa tumor. Mutually exclusive with ERBB2.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — Hotspot S310F missense and amplification, almost exclusively in high-grade NMIBC, including 6/12 Tis specimens. Together with FGFR3 covers 57% of high-grade NMIBC.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — Mutations in 21% of NMIBC overall; the only single gene significantly associated with recurrence after BCG (HR = 3.14, p = 0.002).</li>
+<li><a href="../genes/KDM6A.html">KDM6A</a> — Most commonly altered chromatin-modifying gene (38% of NMIBC).</li>
+<li><a href="../genes/STAG2.html">STAG2</a> — 23% overall; truncating mutations enriched in LGTa (p = 0.046), supporting the lower-grade/stage interpretation in the conflicting literature.</li>
+<li><a href="../genes/TP53.html">TP53</a> / <a href="../genes/MDM2.html">MDM2</a> — Alterations rise stepwise with stage/grade (p &lt; 0.001).</li>
+<li><a href="../genes/RB1.html">RB1</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/CDKN1A.html">CDKN1A</a>, <a href="../genes/CDKN2A.html">CDKN2A</a> — Cell-cycle alterations more common at higher stage/grade.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — Altered in 26% of NMIBC; part of the broadly altered RTK/PI3K pathway (79% of tumors).</li>
+<li><a href="../genes/ERCC2.html">ERCC2</a> — Most common DDR gene alteration (17% of high-grade NMIBC), missense mutations clustering in conserved helicase domains; associated with markedly elevated mutational burden.</li>
+<li><a href="../genes/ATM.html">ATM</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/ERCC4.html">ERCC4</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/FANCC.html">FANCC</a>, <a href="../genes/MSH6.html">MSH6</a> — Less frequent DDR alterations contributing to the 30% high-grade NMIBC DDR-altered fraction.</li>
+<li><a href="../genes/POLE.html">POLE</a> — One LGTa harbored a truncating H1901Lfs*15 mutation deemed likely non-functional (3’ end, no hypermutation phenotype).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Targeted therapy opportunity:</strong> 57% of high-grade NMIBC harbor alterations in <a href="../genes/ERBB2.html">ERBB2</a> or <a href="../genes/FGFR3.html">FGFR3</a> — a strong rationale for trials of targeted kinase inhibitors as alternatives or adjuncts to BCG, particularly with the development of less toxic, highly selective <a href="../genes/FGFR3.html">FGFR3</a> inhibitors and intravesical delivery <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>ARID1A as a candidate predictive biomarker for BCG response.</strong> <a href="../genes/ARID1A.html">ARID1A</a> mutations associate with significantly worse recurrence-free survival after induction BCG (HR = 3.14, p = 0.002). If confirmed in independent cohorts, ARID1A status could stratify patients for BCG and motivate testing of <a href="../genes/EZH2.html">EZH2</a> methyltransferase inhibitors, which exhibit synthetic lethality in ARID1A-mutated cancers <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>High mutational burden + DDR alterations support checkpoint immunotherapy trials.</strong> High-grade NMIBC has a mutational burden comparable to MIBC, and DDR-altered tumors carry markedly elevated burden. Given the established mutational-load → checkpoint-inhibitor response association in metastatic urothelial carcinoma (e.g.&nbsp;<a href="../drugs/atezolizumab.html">atezolizumab</a>), this profile supports ongoing trials of systemic PD-1/PD-L1 inhibitors in NMIBC patients <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Noninvasive urinary biomarkers feasible.</strong> The high prevalence and grade/stage independence of <a href="../genes/TERT.html">TERT</a> promoter mutations and chromatin-modifying gene alterations supports development of urinary screening/surveillance assays that could replace cystoscopy <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Mutational count alone does not predict BCG response.</strong> On the <a href="../methods/msk-impact-panel.html">MSK-IMPACT panel</a>, no association was observed between mutational count and BCG recurrence (p = 0.3) — discouraging panel-based TMB as a standalone BCG biomarker without further investigation <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Comparator therapeutic context:</strong> Treatment of the cohort included intravesical <a href="../drugs/mitomycin-c.html">mitomycin-c</a> (39% of LGTa) and intravesical BCG (13% LGTa, 81% HGT) — patients who received perioperative mitomycin or other adjuvant perioperative therapies were excluded from index sequencing <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Sample size by subgroup is small.</strong> While 105 NMIBC tumors is the largest such NGS cohort, subgroup analyses by stage/grade (e.g., 12 HGTis, 23 LGTa) are limited. Longer follow-up will be needed for robust survival inference <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Predictive vs prognostic ambiguity for ARID1A.</strong> Whether <a href="../genes/ARID1A.html">ARID1A</a> mutations are a true predictive biomarker of BCG response or simply prognostic for poor outcome in NMIBC overall is not resolved by this single-arm BCG cohort and warrants validation in an independent cohort with a non-BCG comparator arm <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Tumor heterogeneity caveat.</strong> Both intertumor and intratumor heterogeneity may confound results from the single-region targeted-panel approach used <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Carcinoma-in-situ (Tis) sequencing is technically difficult.</strong> Nearly two-thirds of attempted Tis specimens had inadequate tumor purity for analysis, biasing the Tis subset and motivating alternative inputs (cytology, urinary cell-free DNA, urinary exosomes, single-cell sequencing) <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>TMB inferred from a 341/410-gene panel.</strong> Use of <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> mutational count as a TMB surrogate may lack the resolution of whole-exome sequencing for the BCG-response question; the authors call out the need for a larger cohort and WES <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+<li><strong>Pathway conflict around STAG2.</strong> This study finds <a href="../genes/STAG2.html">STAG2</a> truncating mutations enriched in LGTa, which is consistent with some prior reports but not others; a unified interpretation across NMIBC and MIBC remains open <a href="../papers/28583311.html">PMID:28583311</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“TERT promoter mutations (73%) and chromatin-modifying gene alterations (69%) were highly prevalent across grade and stage, suggesting these events occur early in tumorigenesis.” (Abstract / Results, p.&nbsp;4–5)</li>
+<li>“ERBB2 or FGFR3 alterations were present in 57% of high-grade NMIBC tumors in a mutually exclusive pattern.” (Abstract / Results, p.&nbsp;5)</li>
+<li>“DNA damage repair (DDR) gene alterations were seen in 30% (25/82) of high-grade NMIBC tumors, a rate similar to MIBC, and were associated with a higher mutational burden compared with tumors with intact DDR genes (p &lt; 0.001).” (Abstract / Results, p.&nbsp;6)</li>
+<li>“ARID1A mutations were associated with an increased risk of recurrence after BCG (hazard ratio = 3.14, 95% confidence interval: 1.51–6.51, p = 0.002).” (Abstract / Results, p.&nbsp;6, Table 2)</li>
+<li>“Targeted NGS with a 341 or updated 410 cancer-associated gene panel was performed on formalin-fixed paraffin embedded sections of treatment-naive index tumors along with matched germline DNA for 105 patients with NMIBC…” (Methods, p.&nbsp;3)</li>
+<li>“We were unable to identify an association between mutational count on MSK-IMPACT and tumor recurrence after BCG (HR = 0.96, 95% CI: 0.83–1.1, p = 0.3).” (Results, p.&nbsp;6)</li>
+<li>“…we have made all genomic and clinical data from this study publically available through the cBioPortal for Cancer Genomics.” (Discussion, p.&nbsp;8)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28583311.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28583311.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

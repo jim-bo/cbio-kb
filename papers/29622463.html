@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic and Functional Approaches to Understanding Cancer Aneuploidy – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29622463.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29622463.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic and Functional Approaches to Understanding Cancer Aneuploidy</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Alison M. Taylor </p>
+             <p>Juliann Shih </p>
+             <p>Gavin Ha </p>
+             <p>Galen F. Gao </p>
+             <p>Xiaoyang Zhang </p>
+             <p>Ashton C. Berger </p>
+             <p>Steven E. Schumacher </p>
+             <p>Chen Wang </p>
+             <p>Hai Hu </p>
+             <p>Jianfang Liu </p>
+             <p>Alexander J. Lazar </p>
+             <p>The Cancer Genome Atlas Research Network </p>
+             <p>Andrew D. Cherniack </p>
+             <p>Rameen Beroukhim </p>
+             <p>Matthew Meyerson </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.ccell.2018.03.007">10.1016/j.ccell.2018.03.007</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29622463 · <strong>DOI:</strong> 10.1016/j.ccell.2018.03.007 · <strong>Journal:</strong> Cancer Cell (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Taylor et al.&nbsp;defined an arm-level aneuploidy score for 10,522 TCGA tumors across 33 cancer types using ABSOLUTE-derived <a href="../methods/absolute.html">absolute</a> copy number, then correlated the score with somatic mutation, gene expression, and immune-infiltrate features. Across the pan-cancer cohort, aneuploidy was strongly enriched in <a href="../genes/TP53.html">TP53</a>-mutant samples (linear-model coefficient 0.13, the only positive outlier), positively correlated with somatic mutation rate after excluding hypermutators (microsatellite-instability and <a href="../genes/POLE.html">POLE</a>-mutant tumors), positively correlated with proliferation hallmarks (E2F targets, G2M checkpoint, mitotic spindle), and negatively correlated with leukocyte-fraction-driven immune signatures within tumor types. Squamous tumors of multiple tissues clustered together by arm-level pattern, defined by chr_3p loss and chr_3q gain — a pattern strongest in <a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/ESCC.html">ESCC</a>, and HPV-negative <a href="../cancer_types/HNSC.html">HNSC</a>. The authors then engineered a CRISPR-Cas9 + artificial-telomere strategy to delete chr_3p in human immortalized lung epithelial AALE cells, observed an initial proliferation defect rescued by duplication of the remaining chromosome 3, and reproduced the in-cis down-regulation of 3p genes (<a href="../genes/STAC.html">STAC</a>, <a href="../genes/ROBO1.html">ROBO1</a>) and up-regulation of interferon/immune signatures predicted by the pan-cancer model.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Pan-cancer cohort:</strong> 10,522 TCGA tumors spanning 33 cancer types (TCGA PanCancer Atlas), with arm-level somatic copy number called for &gt;400,000 chromosome arms and &gt;175,000 non-acrocentric whole chromosomes <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Copy-number platform:</strong> <a href="../methods/affymetrix-snp6.html">Affymetrix SNP 6.0</a> arrays processed with the <a href="../methods/absolute.html">ABSOLUTE</a> algorithm (Carter et al., 2012) to produce segmented absolute total copy number, sample purity, ploidy, and whole-genome-doubling calls; SCNAs called as deviations from each sample’s euploid level <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Expression data:</strong> Illumina mRNA-seq RSEM expression for 9,670 of the 10,522 samples used for aneuploidy/expression linear modeling and <a href="../methods/gsea.html">GSEA</a> against MSigDB Hallmark gene sets <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Mutation data:</strong> Whole-exome mutation calls for 9,756 of the 10,522 samples from the TCGA MC3 pipeline <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Recurrence statistics:</strong> Recurrent SCNA scores derived from <a href="../methods/gistic.html">GISTIC2.0</a>; recurrent mutation scores from MC3 <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Immune deconvolution:</strong> Leukocyte fraction estimated from methylation signatures (TCGA PanCancer immune subgroup) and from RNA expression (Aran et al., 2017); the two estimates correlate at Spearman ρ = 0.706 <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Datasets used:</strong> TCGA PanCancer Atlas pan-cancer cohort. Per-tumor-type analyses include the squamous cluster contributors (<a href="../cancer_types/LUSC.html">LUSC</a>, <a href="../cancer_types/ESCC.html">ESCC</a>, HPV+ and HPV− <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/CESC.html">CESC</a>), <a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/LGG.html">LGG</a>, <a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/HCC.html">HCC</a>, gastrointestinal cluster (<a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/PAAD.html">PAAD</a>), gynecological cluster (<a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/UCS.html">UCS</a>), <a href="../cancer_types/TGCT.html">TGCT</a>, <a href="../cancer_types/AML.html">AML</a>, <a href="../cancer_types/THYM.html">THYM</a>, and <a href="../cancer_types/UVM.html">UVM</a>. Canonical PanCancer-Atlas study slugs include <a href="../datasets/gbm_tcga_pan_can_atlas_2018.html">gbm_tcga_pan_can_atlas_2018</a>, <a href="../datasets/cesc_tcga_pan_can_atlas_2018.html">cesc_tcga_pan_can_atlas_2018</a>, and <a href="../datasets/coadread_tcga_pan_can_atlas_2018.html">coadread_tcga_pan_can_atlas_2018</a>.</li>
+<li><strong>Functional model:</strong> Human immortalized lung epithelial AALE cells (SV40 large-T antigen, p53/RB inhibited; Lundberg et al., 2002), maintained in Lonza SAGM. Chr_3p arm deletion engineered via CRISPR-Cas9 double-strand breaks centromeric to all 3p genes plus a co-transfected artificial-telomere/puromycin plasmid carrying ~1 kb of homology to the centromeric chr_3p break (Uno et al., 2017). Recombination confirmed by <a href="../methods/sanger-sequencing.html">Sanger sequencing</a>, 3p hemizygosity by qPCR, <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a>, and <a href="../methods/karyotyping.html">karyotyping</a> <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>In vitro readouts:</strong> Cell proliferation (CellTiter-Glo over 6 days), cell-cycle and apoptosis (propidium iodide flow cytometry), <a href="../methods/rna-seq.html">RNA-seq</a> (HiSeq 2500 PE100 → <a href="../genes/STAR.html">STAR</a> + RSEM + edgeR), low-coverage WGS (MiSeq) processed with HMMCopy and IchorCNA for subclonal copy number <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Aneuploidy score construction.</strong> A per-sample arm-level aneuploidy score (range 0–39, summing altered p and q arms across non-acrocentric chromosomes plus q arms of 13–15, 21, 22) was generated by clustering arm-level SCNAs with a Gaussian mixture model and BIC selection (2–9 clusters); arms with mean SCNA length ≥80% of the arm were called positive, ≤20% negative, intermediates left uncalled. The score correlates almost perfectly with fraction of genome altered by aneuploidy (Spearman ρ = 0.975) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Aneuploidy frequency varies dramatically by tumor type.</strong> 88% of pan-cancer samples had at least some detectable aneuploidy (mean score 10.0; s.d. between tumor-type means = 4.8). Lowest: thyroid carcinoma (26% any arm event, mean score 0.87), <a href="../cancer_types/AML.html">AML</a> (mean 1.6), <a href="../cancer_types/THYM.html">THYM</a> (mean 3.8). Highest: <a href="../cancer_types/GBM.html">GBM</a> (99% any event, mean 8.2), <a href="../cancer_types/UCS.html">UCS</a> (96%, mean 17.2), <a href="../cancer_types/TGCT.html">TGCT</a> (99%, mean 18.7) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Whole-genome doubling drives aneuploidy.</strong> WGD samples (per ABSOLUTE) have higher aneuploidy (Spearman ρ = 0.55 between WGD status and score). Within a fixed genome-doubling status, increased aneuploidy associates with decreasing ploidy — i.e.&nbsp;the arm-level events that contribute to aneuploidy are predominantly losses, not gains <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> is the only positive mutation outlier.</strong> In a multivariable linear model controlling for cancer type and per-sample mutation count, <a href="../genes/TP53.html">TP53</a> was the single mutation enriched among aneuploid samples (coefficient = +0.13, the highest in magnitude and significance). Thirty-four other genes reached significance but all had negative coefficients with magnitudes ≤0.027 (i.e., enriched in low-aneuploidy samples) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Mutation rate and aneuploidy: positive once hypermutators are excluded.</strong> Pan-cancer the relationship is anti-correlated, but the anti-correlation is driven by MSI-high and <a href="../genes/POLE.html">POLE</a>-mutant cancers (mostly <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/UCEC.html">UCEC</a>). Excluding hypermutators yields Spearman ρ = 0.38 between aneuploidy and mutation frequency, and ρ = 0.34 between recurrent SCNAs and recurrent mutations. The exceptions to this positive correlation per tumor type are <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, <a href="../cancer_types/UCS.html">UCS</a>, <a href="../cancer_types/STAD.html">STAD</a>, and <a href="../cancer_types/UVM.html">UVM</a> — all but <a href="../cancer_types/UVM.html">UVM</a> contain MSI/POLE cases <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Aneuploidy positively correlates with sample impurity but negatively with leukocyte fraction.</strong> Cancer impurity (1 − ABSOLUTE purity) rises with aneuploidy across the cohort, but leukocyte fraction (methylation-based) negatively correlates with aneuploidy — strongest in <a href="../cancer_types/PAAD.html">PAAD</a> (ρ = −0.428) and <a href="../cancer_types/HNSC.html">HNSC</a> (ρ = −0.312). The pan-cancer-level slight positive correlation between leukocyte fraction and aneuploidy (ρ = 0.0568) is a Simpson reversal driven by between-tumor-type differences; within-tumor-type correlations are negative. The implication: high-aneuploidy tumors have a non-leukocyte stromal fraction that inflates impurity <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Immune signatures track leukocyte fraction, not aneuploidy directly.</strong> Univariate GSEA against the aneuploidy regression coefficient enriched both proliferation hallmarks (E2F targets, G2M checkpoint, mitotic spindle) and immune hallmarks (IFNγ response, allograft rejection, immune response) at FWER p &lt; 0.01. Adding tumor type as a covariate flipped the immune signal to negative; adding leukocyte fraction abolished it entirely. Proliferation enrichment remained significantly positive in every model — i.e.&nbsp;it is intrinsic to aneuploidy, while the immune signal is leukocyte-fraction-mediated <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Arm-level alteration frequencies are asymmetric.</strong> Most frequently deleted: 8p (33%) and 17p (35%). Most frequently gained: 8q (33%). Least altered: 2p (18% total) and 2q (16%). Arms 6p, 12q, 17q, 19q are gained and lost at near-equal rates (Δ &lt; 0.03); 1q, 7p, 8q, 20q are predominantly gained; 3p and 17p are predominantly lost <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Tumor types cluster by arm-level pattern.</strong> Hierarchical clustering of mean arm-level calls produces a squamous cluster (<a href="../cancer_types/CESC.html">CESC</a>, HPV+ and HPV− <a href="../cancer_types/HNSC.html">HNSC</a>, <a href="../cancer_types/ESCC.html">ESCC</a>, <a href="../cancer_types/LUSC.html">LUSC</a>) defined by chr_3p loss + chr_3q gain; a gastrointestinal cluster (<a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/READ.html">READ</a>, non-squamous esophageal, <a href="../cancer_types/STAD.html">STAD</a>, <a href="../cancer_types/PAAD.html">PAAD</a>) co-gaining 8q, 13q, and chromosome 20; a gynecological cluster (ovarian, copy-number-high <a href="../cancer_types/UCEC.html">UCEC</a>/<a href="../cancer_types/UCS.html">UCS</a>); an epithelial cluster (<a href="../cancer_types/LUAD.html">LUAD</a>, <a href="../cancer_types/BRCA.html">BRCA</a>, <a href="../cancer_types/HCC.html">HCC</a>) defined by 1q gain; and a neural-lineage cluster (<a href="../cancer_types/GBM.html">GBM</a>, <a href="../cancer_types/LGG.html">LGG</a>, melanoma) with chromosome 7 gain. Molecular subtypes generally cluster within their tumor type, with copy-number-high serous-like endometrial as a notable exception <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Squamous chr_3 signature is dominant in lung.</strong> In TCGA <a href="../cancer_types/LUSC.html">LUSC</a>, chr_3p was deleted in ~80% of tumors and chr_3q was gained in &gt;60%. Co-occurrence of 3p loss + 3q gain was significantly above chance (chi-square p = 0.0386); the reverse pattern (3p gain + 3q loss) was not observed. In <a href="../cancer_types/LUAD.html">LUAD</a> by contrast, &lt;50% of tumors had 3p loss, only 13% had 3q gain, and the two events did not significantly co-occur (p = 0.0626) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Chr_3p loss has tumor-type-independent transcriptional consequences.</strong> Linear modeling of expression vs arm status (controlling for total aneuploidy and tumor type) showed that chr_3p loss reduces 3p gene expression in cis and is anti-correlated with cell-cycle hallmarks (E2F targets, G2M checkpoint), epithelial-mesenchymal transition, IFNγ response, and TNFα signaling (FWER p &lt; 0.01 for each). The polarity flips when 3p is gained <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>CRISPR-Cas9 deletion of chr_3p in AALE cells works.</strong> Co-transfection of (i) a CRISPR plasmid generating double-strand breaks centromeric to all 3p genes and (ii) a plasmid bearing ~1 kb of homology to the centromeric break plus an artificial telomere and puromycin selection cassette, followed by puromycin selection and single-cell cloning, produced clones with verified recombination (Sanger), hemizygous 3p loss (qPCR, WGS, karyotype) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Initial 3p-deleted clones proliferate slowly, then evolve.</strong> Ten passages post-cloning, chr_3p-deleted AALE clones proliferated more slowly than non-deleted siblings (p &lt; 0.05) with G1 cell-cycle accumulation (p &lt; 0.001) and no apoptosis change. After ~10 additional population doublings and one freeze-thaw, the proliferation defect resolved. In two of three deleted clones, subclones with duplication of the remaining wild-type chromosome 3 emerged — converting “3p loss” to “3q gain” and recapitulating the squamous-cancer 3q-gain signature, which contains oncogenes <a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/TERC.html">TERC</a> <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Engineered model mirrors TCGA expression program.</strong> Pan-cancer prediction (3p loss → IFN/immune up-regulation) was reproduced experimentally: 3p-deleted AALE clones up-regulated interferon/immune-response pathways by GSEA (FWER &lt; 0.01) at early passage. The 3p-encoded ubiquitin enzyme <a href="../genes/UBA7.html">UBA7</a>, which targets the interferon gene <a href="../genes/ISG15.html">ISG15</a>, was paradoxically up-regulated more than two-fold (along with <a href="../genes/LMCD1.html">LMCD1</a>) at early passage but lost its up-regulation at late passage; meanwhile <a href="../genes/STAC.html">STAC</a> and <a href="../genes/ROBO1.html">ROBO1</a> were the most strongly down-regulated 3p genes (&gt;15-fold at early passage; &gt;13-fold at late passage). Sixty-four percent of 3p genes were significantly down-regulated at early passage (FDR &lt; 0.05); 53% remained down at late passage <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — somatic missense/truncating mutation. Only mutation positively associated with high aneuploidy in the pan-cancer linear model (coefficient +0.13). Authors note even with p53 inhibited via SV40 large-T in AALE cells, chr_3p deletion still slowed proliferation initially, suggesting non-p53 mechanisms also restrain aneuploidy <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/POLE.html">POLE</a> — hypermutator phenotype. Together with MSI, POLE-mutant tumors drive the apparent pan-cancer anti-correlation between mutation rate and aneuploidy; excluding them flips the correlation positive (Spearman ρ = 0.38) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/IDH1.html">IDH1</a> — defines the <a href="../cancer_types/LGG.html">LGG</a> subgroup that clusters separately from <a href="../cancer_types/GBM.html">GBM</a> by aneuploidy pattern, characterized by 1p loss and 19q gain. IDH-wildtype <a href="../cancer_types/GBM.html">GBM</a> is characterized by chromosome 7 gain and chromosome 10 loss <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/TERC.html">TERC</a> — chr_3q oncogenes whose gain authors invoke to explain the squamous chr_3q-gain signature and the rescue of proliferation observed when AALE 3p-deleted subclones acquire chromosome-3 duplication <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/STAC.html">STAC</a>, <a href="../genes/ROBO1.html">ROBO1</a> — 3p genes most strongly down-regulated in cis after engineered chr_3p deletion (&gt;15-fold early passage; &gt;13-fold late passage) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/UBA7.html">UBA7</a> — 3p-encoded E1 ubiquitin enzyme that targets <a href="../genes/ISG15.html">ISG15</a>. Up-regulated &gt;2-fold in early-passage 3p-deleted clones but no longer up at later passage; consistent with the IFN-pathway up-regulation observed by GSEA <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/LMCD1.html">LMCD1</a> — 3p gene also up-regulated &gt;2-fold in early-passage 3p-deleted clones <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><a href="../genes/TERT.html">TERT</a> — invoked in the discussion as a potentially insufficient activation context (alongside p53/RB inhibition) for selection of broad aneuploidies in vitro <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>No direct therapeutic claim.</strong> The paper is a descriptive pan-cancer/functional study and does not test or propose a therapy. Authors note that 1p/19q co-deletion in <a href="../cancer_types/LGG.html">LGG</a> (Cairncross et al., 2013) is a precedent for arm-level alterations being therapeutically relevant, and frame future work as identifying aneuploidy-specific dependencies via in vitro CRISPR/shRNA screens <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Mechanistic implication for immunotherapy.</strong> Within tumor types, high aneuploidy tracks with reduced leukocyte infiltrate, consistent with prior Davoli et al.&nbsp;observations that aneuploidy could blunt immune response. The arm-resolved analysis refines this: deletions of 3p, 8p, 13q, and 17p actually correlate positively with immune signatures, while deletions of 4q, 5q, and 14q correlate negatively — implying arm-specific genetic content (not bulk aneuploidy) shapes the immune microenvironment <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Aneuploidy score as a covariate.</strong> The ABSOLUTE-derived per-sample arm-level aneuploidy score (Table S1/S2) is a quantitative pan-cancer feature suitable for downstream biomarker analyses <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Aneuploidy definition is intentionally narrow.</strong> The authors restrict aneuploidy to broad arm-level and whole-chromosome SCNAs and exclude focal SCNAs, departing from definitions used in Davoli et al.&nbsp;(2017) and Buccitelli et al.&nbsp;(2017). This choice harmonizes with arm-generation mechanisms but means findings are not directly comparable to prior focal+broad analyses <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Confounder reconciliation depends on covariate choice.</strong> The pan-cancer immune-signature direction reverses when tumor type or leukocyte fraction is added to the linear model; the authors interpret the within-tumor-type negative correlation as the truth, but acknowledge tumor-type confounding as a major source of literature discrepancies <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Functional model uses a single immortalized line.</strong> All in vitro chr_3p deletion experiments are in AALE cells (SV40 large-T, p53/RB inhibited); generalizability to other lung lineages or other arm-level deletions is untested. The authors flag CRISPR in lung organoids and modeling stromal interactions as next steps <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Three independent 3p-deleted clones; karyotype rescue in two of three.</strong> The duplication-of-3 rescue is observed in 2/3 clones; the third’s mechanism of accommodation is not characterized <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Anchorage-independent growth not gained.</strong> AALE parental cells do not form colonies in soft agar (Lundberg et al., 2002), and 3p-deleted cells likewise scored negative — i.e.&nbsp;3p loss in this context is not sufficient for transformation <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>The big open question.</strong> Whether aneuploidy is positively selected in cancer remains unresolved. Authors favor positive selection on epidemiological grounds (universality, tissue-specificity of patterns) but their experimental data show only neutral or negative effects on proliferation, paralleling oncogene-induced senescence and prior single-chromosome aneuploidy models (Sheltzer et al., 2017; Stingele et al., 2012) <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+<li><strong>Tetraploid baseline.</strong> 18 samples identified by ABSOLUTE as purely tetraploid were treated as having zero arm-level SCNAs; rare and conservative but worth flagging when re-using the score <a href="../papers/29622463.html">PMID:29622463</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“In 10,522 cancer genomes from The Cancer Genome Atlas (TCGA), aneuploidy was correlated with TP53 mutation, somatic mutation rate, and expression of proliferation genes.” (Summary)</li>
+<li>“Aneuploidy was anti-correlated with expression of immune signaling genes, due to decreased leukocyte infiltrates in high-aneuploidy samples.” (Summary)</li>
+<li>“TP53 was an outlier, with the highest coefficient in the linear model … coefficient for TP53 was positive 0.13.” (Results, Figure 2A / Table S3)</li>
+<li>“When these hypermutated tumors are excluded, we observed a positive correlation between mutation frequency and aneuploidy score (Spearman’s rank correlation coefficient = 0.38).” (Results)</li>
+<li>“In our lung squamous cell carcinoma dataset, chromosome 3p was deleted in almost 80% of tumors and chromosome arm 3q was gained in over 60% of tumors … chi-square p = 0.0386.” (Results, Figure 4B)</li>
+<li>“<a href="../genes/STAC.html">STAC</a> and <a href="../genes/ROBO1.html">ROBO1</a> were the most down-regulated 3p genes, decreased by more than 15-fold, and chr_3p genes <a href="../genes/UBA7.html">UBA7</a> and <a href="../genes/LMCD1.html">LMCD1</a> were up-regulated more than two-fold.” (Results)</li>
+<li>“We also observed subclones with duplication of the remaining full copy of chromosome 3 in two of the three deleted clones … 3q is gained and 3p is no longer lost.” (Results, Figure 6E)</li>
+<li>“Deletions of some arms, including 3p, 8p, 13q, or 17p, are positively correlated with immune signatures, whereas deletions of other arms, including 4q, 5q, and 14q, are anti-correlated with immune signatures.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29622463.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29622463.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

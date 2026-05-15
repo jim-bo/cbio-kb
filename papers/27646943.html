@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genetic Determinants of Cisplatin Resistance in Patients With Advanced Germ Cell Tumors – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27646943.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27646943.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genetic Determinants of Cisplatin Resistance in Patients With Advanced Germ Cell Tumors</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Aditya Bagrodia </p>
+             <p>Byron H. Lee </p>
+             <p>William Lee </p>
+             <p>Eugene K. Cha </p>
+             <p>John P. Sfakianos </p>
+             <p>Gopa Iyer </p>
+             <p>Eugene J. Pietzak </p>
+             <p>Sizhi Paul Gao </p>
+             <p>Emily C. Zabor </p>
+             <p>Irina Ostrovnaya </p>
+             <p>Samuel D. Kaffenberger </p>
+             <p>Aijazuddin Syed </p>
+             <p>Maria E. Arcila </p>
+             <p>Raju S. Chaganti </p>
+             <p>Ritika Kundra </p>
+             <p>Jana Eng </p>
+             <p>Joseph Hreiki </p>
+             <p>Vladimir Vacic </p>
+             <p>Kanika Arora </p>
+             <p>Dayna M. Oschwald </p>
+             <p>Michael F. Berger </p>
+             <p>Dean F. Bajorin </p>
+             <p>Manjit S. Bains </p>
+             <p>Nikolaus Schultz </p>
+             <p>Victor E. Reuter </p>
+             <p>Joel Sheinfeld </p>
+             <p>George J. Bosl </p>
+             <p>Hikmat A. Al-Ahmadie </p>
+             <p>David B. Solit </p>
+             <p>Darren R. Feldman </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/JCO.2016.68.7798">10.1200/JCO.2016.68.7798</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 27646943 · <strong>DOI:</strong> <a href="https://doi.org/10.1200/JCO.2016.68.7798">10.1200/JCO.2016.68.7798</a> · <strong>Journal:</strong> Journal of Clinical Oncology (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Bagrodia et al.&nbsp;performed whole-exome sequencing on a discovery cohort of 19 advanced germ cell tumors (GCTs) and validated findings with MSK-IMPACT targeted sequencing on a prospective cohort of 161 additional patients (combined N=180), enriched for the cisplatin-resistant phenotype. <em><a href="../genes/TP53.html">TP53</a></em> alterations were found <strong>exclusively</strong> in cisplatin-resistant tumors (17 of 104 [16.3%] vs 0 of 76; P&lt;.001), and combined <em>TP53</em>/<em><a href="../genes/MDM2.html">MDM2</a></em> pathway alterations were significantly more frequent in resistant disease (24.0% vs 2.6%; P&lt;.001). <em>TP53</em>/<em>MDM2</em> alterations independently predicted shorter progression-free survival (hazard ratio 1.83; 95% CI, 1.12 to 2.98; P=.016) after adjusting for the IGCCCG risk model. Strikingly, 72% of primary mediastinal nonseminomas harbored <em>TP53</em> alterations, providing the first genetic basis for the dismal prognosis of this subgroup. Actionable alterations were detected in 55% of cisplatin-resistant GCTs, including novel functionally validated <em><a href="../genes/RAC1.html">RAC1</a></em> hotspot mutations.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>N=180 men</strong> with advanced germ cell tumor receiving first-line cisplatin-based chemotherapy at Memorial Sloan Kettering Cancer Center.</li>
+<li><strong>Discovery cohort:</strong> 19 tumors profiled by whole-exome sequencing (10 <a href="../drugs/cisplatin.html">cisplatin</a> resistant, 9 cisplatin sensitive); mean coverage 116× (range 93–134×); 90% of target bases covered at &gt;30×.</li>
+<li><strong>Validation cohort:</strong> 161 prospective patients profiled by <a href="../methods/whole-exome-seq.html">whole-exome-seq</a> and the <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> (<a href="../methods/IMPACT410.html">IMPACT410</a>)-based targeted exon-capture assay (&gt;300 cancer-related genes; 500–1,000× depth).</li>
+<li><strong>Cancer types:</strong> <a href="../cancer_types/GCT.html">GCT</a> — 70% <a href="../cancer_types/NSGCT.html">NSGCT</a> (n=126), 30% <a href="../cancer_types/SEM.html">SEM</a> (n=54). Primary site: 87.2% testis (<a href="../cancer_types/TT.html">TT</a>), 12.2% mediastinum, 0.6% retroperitoneum. 49 resistant samples were <a href="../cancer_types/MGCT.html">MGCT</a> containing teratoma.</li>
+<li><strong>Cisplatin sensitivity:</strong> 76 sensitive vs 104 resistant. Resistance defined by incomplete response to first-line therapy, nonteratomatous progression, or viable nonteratomatous <a href="../cancer_types/GCT.html">GCT</a> at postchemotherapy surgery.</li>
+<li><strong>IGCCCG risk distribution (combined cohort):</strong> good 51.1%, intermediate 15.6%, poor 32.8%. Poor-risk patients were heavily enriched among resistant cases (49% vs 10.5%).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/gct_msk_2016.html">gct_msk_2016</a> — all mutational and clinical data publicly available on cBioPortal.</li>
+<li><strong>First-line regimens:</strong> BEP (<a href="../drugs/bleomycin.html">bleomycin</a>+<a href="../drugs/etoposide.html">etoposide</a>+<a href="../drugs/cisplatin.html">cisplatin</a>) 37.2%, EP 42.2%, TIP/VIP 20%, PVB 0.6%.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation burden differs by sensitivity:</strong> Median total mutations 46 vs 21 (P=.05) and nonsynonymous mutations 36 vs 14 (P=.04) in resistant vs sensitive discovery tumors. The mean MSK-IMPACT mutation rate of 0.9/Mb is very low compared with other adult solid tumors.</li>
+<li><strong>12p gain</strong> was present in 74% of discovery tumors, consistent with the well-characterized GCT cytogenetic signature.</li>
+<li><strong>TP53 alterations exclusive to resistance:</strong> 17 of 104 (16.3%) cisplatin-resistant tumors harbored <em>TP53</em> mutations or deletions vs 0 of 76 sensitive tumors (P&lt;.001). Mutations included previously reported recurrent missense (e.g.&nbsp;V173M, R248Q/W) and truncating events, plus one homozygous deletion.</li>
+<li><strong>MDM2 amplifications:</strong> 8 of 104 (7.6%) resistant vs 2 of 76 (2.6%) sensitive (P=.195); mutually exclusive with <em>TP53</em> alteration. 5 of 7 (71.4%) MDM2-amplified tumors were cisplatin resistant.</li>
+<li><strong>Combined TP53/MDM2:</strong> 25 of 104 (24.0%) resistant vs 2 of 76 (2.6%) sensitive (P&lt;.001).</li>
+<li><strong>Mediastinal primary enrichment:</strong> <em>TP53</em> alterations were 13 of 22 (59.1%) in mediastinal vs 4 of 158 (2.5%) in testicular primaries (P&lt;.001). Among primary mediastinal nonseminomas, the rate was 13 of 18 (72.2%); none of the 4 primary mediastinal seminomas harbored <em>TP53</em> mutations.</li>
+<li><strong>Independent prognostic value:</strong> In multivariable Cox regression including IGCCCG risk, <em>TP53</em>/<em>MDM2</em> alteration independently predicted shorter PFS (HR 1.83; 95% CI 1.12–2.98; P=.016).</li>
+<li><strong><a href="../genes/MYCN.html">MYCN</a> amplifications</strong> in 5 patients, all cisplatin resistant; 4 of 5 had wild-type <em>TP53</em>/<em>MDM2</em>.</li>
+<li><strong>RAC1 mutations</strong> in 9 patients (5% incidence — the highest reported across cancer types per TCGA at the time): G12V (n=3), G12R (n=2), P34R, Q61R, Q61K (n=2). The mutants were functionally validated in HEK293 cells, showing increased phospho-PAK1 and phospho-MEK1/2 — the first demonstration that these <em>RAC1</em> alleles activate downstream Rho-family signaling in GCT.</li>
+<li><strong><a href="../genes/KIT.html">KIT</a> mutations</strong> in 19 of 180 patients (mostly exon 17 hotspots associated with <a href="../drugs/imatinib.html">imatinib</a> resistance), enriched in <a href="../cancer_types/SEM.html">SEM</a> (29.6% vs 4% in nonseminoma; P&lt;.001).</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a> mutations</strong> in 22 of 180 patients (15 at G12); enriched in seminomas overall (20% vs 8.7%; P=.045) but in nonseminomas 8 of 11 KRAS mutations occurred in cisplatin-resistant tumors.</li>
+<li><strong>PI3K pathway</strong> alterations in 24 of 180 (13.3%) — including 4 <em><a href="../genes/PIK3CA.html">PIK3CA</a></em> E542K mutations, 5 loss-of-function <em><a href="../genes/PTEN.html">PTEN</a></em> mutations, <em><a href="../genes/AKT1.html">AKT1</a></em> amplification, <em><a href="../genes/MTOR.html">MTOR</a></em>, <em><a href="../genes/TSC1.html">TSC1</a></em>, and <em><a href="../genes/TSC2.html">TSC2</a></em> alterations.</li>
+<li><strong>Other notable mutations:</strong> <em><a href="../genes/APC.html">APC</a></em> (n=3), <em><a href="../genes/FAT1.html">FAT1</a></em> (n=4), <em><a href="../genes/AXIN1.html">AXIN1</a></em> (n=2), <em>EP300/SETD2/PTPRD</em> (n=3 each), <em><a href="../genes/BRCA2.html">BRCA2</a></em> deletions, three <em><a href="../genes/BRAF.html">BRAF</a></em> mutations (D594N, D594G, G466E), one <em><a href="../genes/GNAQ.html">GNAQ</a></em> Q209P, four <em><a href="../genes/KDR.html">KDR</a></em> amplifications, one <em><a href="../genes/MET.html">MET</a></em> amplification.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — recurrent missense (V173M, R248Q/W) and truncating mutations; exclusive to cisplatin-resistant tumors. Strongest single-gene biomarker of resistance in this study.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — focal amplifications, mutually exclusive with <em>TP53</em> alteration; 71% of MDM2-amplified tumors are cisplatin resistant. Therapeutic target via Nutlin-3 / <a href="../drugs/nutlin-3.html">nutlin-3</a> and other MDM2 inhibitors.</li>
+<li><a href="../genes/MYCN.html">MYCN</a> — amplification in 5 patients (all cisplatin resistant); transcriptionally targets both <em>TP53</em> and <em>MDM2</em>; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma.</li>
+<li><a href="../genes/RAC1.html">RAC1</a> — novel hotspot mutations at codons 12, 34, 61 (G12V/R, P34R, Q61R/K); functionally validated to activate <a href="../genes/PAK1.html">PAK1</a> and MEK1/2 phosphorylation; 5% incidence — the highest reported across cancer types in TCGA at publication.</li>
+<li><a href="../genes/KIT.html">KIT</a> — 20 hotspot mutations in 19 patients, mostly exon 17; enriched in <a href="../cancer_types/SEM.html">SEM</a>; imatinib-resistance pattern distinct from <a href="../cancer_types/GIST.html">GIST</a>.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 23 hotspot mutations in 22 patients; G12 dominant; enriched in seminomas overall but in nonseminomas associated with cisplatin resistance.</li>
+<li><a href="../genes/NRAS.html">NRAS</a> — 4 mutations; 3 in cisplatin-resistant tumors.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — 3 hotspot mutations (D594N, D594G, G466E); rate within cohort 1.7%.</li>
+<li><a href="../genes/CBL.html">CBL</a> — 7 alterations including hotspot W408R (RING finger), three X410 splice sites, one homozygous deletion.</li>
+<li><a href="../genes/GNAQ.html">GNAQ</a> — Q209P (uveal-melanoma hotspot) in one patient.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — four E542K mutations.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — five loss-of-function plus four missense VUS.</li>
+<li><a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/MTOR.html">MTOR</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/TSC2.html">TSC2</a> — additional PI3K/mTOR pathway events.</li>
+<li><a href="../genes/APC.html">APC</a>, <a href="../genes/AXIN1.html">AXIN1</a>, <a href="../genes/FAT1.html">FAT1</a> — Wnt-pathway alterations.</li>
+<li><a href="../genes/EP300.html">EP300</a>, <a href="../genes/SETD2.html">SETD2</a>, <a href="../genes/PTPRD.html">PTPRD</a>, <a href="../genes/BRCA2.html">BRCA2</a> — additional tumor-suppressor / chromatin / DNA-repair events flagged as actionable.</li>
+<li><a href="../genes/MAX.html">MAX</a>, <a href="../genes/MCL1.html">MCL1</a>, <a href="../genes/CCND3.html">CCND3</a>, <a href="../genes/KDR.html">KDR</a>, <a href="../genes/MET.html">MET</a> — additional alterations contributing to the actionable list.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Genomic profiling for risk stratification:</strong> <em>TP53</em>/<em>MDM2</em> alteration status improves prognostication beyond the IGCCCG model and the authors recommend prospective genomic profiling of advanced GCT, particularly intermediate- and poor-risk patients, to facilitate clinical trials of novel strategies.</li>
+<li><strong>MDM2 inhibitor rationale:</strong> MDM2 amplification (and MYCN amplification in TP53 wild-type tumors) is the most common actionable alteration. The authors highlight 7 MDM2 inhibitors in clinical trials; in vitro, <a href="../drugs/nutlin-3.html">nutlin-3</a> showed antiproliferative and apoptotic synergy with <a href="../drugs/cisplatin.html">cisplatin</a> in TP53 wild-type, cisplatin-resistant GCT cell lines.</li>
+<li><strong>Targeted therapy candidates</strong> (Appendix Table A2 of the paper) for cisplatin-resistant patients include: <a href="../drugs/imatinib.html">imatinib</a>/<a href="../drugs/sunitinib.html">sunitinib</a> for <em>KIT</em> mutations; MEK inhibitors (<a href="../drugs/trametinib.html">trametinib</a>, <a href="../drugs/selumetinib.html">selumetinib</a>, <a href="../drugs/binimetinib.html">binimetinib</a>) for <em>KRAS</em>/<em><a href="../genes/NRAS.html">NRAS</a></em>/<em>GNAQ</em> alterations; <a href="../drugs/sorafenib.html">sorafenib</a> for <em>BRAF</em> D594; PI3K and mTOR inhibitors for PI3K-pathway alterations; PARP inhibitors for <em>BRCA2</em> deletion; CDK4/6 inhibitors for <em><a href="../genes/CCND3.html">CCND3</a></em> amplification; and RAC1 inhibitors (NSC23766) for novel <em>RAC1</em> mutations.</li>
+<li><strong>Mediastinal nonseminoma biology:</strong> The 72% TP53-alteration rate in primary mediastinal nonseminoma provides the first molecular explanation for its uniquely poor prognosis within IGCCCG and supports prioritizing this subgroup for genomic profiling and trial enrollment.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>A large subset of cisplatin-resistant patients have no identified genetic basis for resistance by exome/targeted DNA sequencing; the authors propose follow-up whole-genome, transcriptome, and epigenome studies.</li>
+<li>24 (23.1%) cisplatin-resistant patients died of disease — lower than expected, attributed to short follow-up after first-line progression and high response to salvage high-dose chemotherapy with stem-cell transplantation; recurrent mutations were too sparse to associate with specific salvage regimens.</li>
+<li>49 resistant samples were mixed GCTs containing teratoma; microdissection was not performed, so a small amount of teratoma DNA may have been sequenced. <em>TP53</em>/<em>MDM2</em> alterations in teratoma-free tumors argue against a meaningful confounding effect.</li>
+<li>Each individual actionable alteration is rare, posing challenges for clinical trial enrollment and targeted drug development in this disease.</li>
+<li>Pure teratoma and pure malignant transformation tumors were excluded by design, so findings do not extend to those histologies.</li>
+<li>Functional validation was limited to <em>RAC1</em>; the causal role of other recurrent alterations in driving cisplatin resistance remains to be established.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“TP53 alterations were present exclusively in cisplatin-resistant tumors and were particularly prevalent among primary mediastinal nonseminomas (72%).” (Abstract)</li>
+<li>“Despite this association, TP53 and MDM2 alterations predicted adverse prognosis independent of the IGCCCG model.” (Abstract; multivariable HR 1.83; 95% CI 1.12–2.98; P=.016)</li>
+<li>“Actionable alterations, including novel RAC1 mutations, were detected in 55% of cisplatin-resistant GCTs.” (Abstract)</li>
+<li>“Nine mutations were identified in RAC1 (G12V, n=3; G12R, n=2; P34R, Q61R, and Q61K, n=2)… Expression of the RAC1 mutations identified in GCT results in increased phosphorylation of PAK1 and ERK.” (Fig 3 / Results)</li>
+<li>“5% incidence of RAC1 mutations in this cohort makes GCT the cancer type with the highest prevalence of RAC1 mutations reported to date.” (Discussion)</li>
+<li>“All mutational and clinical data are available on the cBio Cancer Genomics Portal.” (Results — corresponds to study <code>gct_msk_2016</code>)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27646943.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27646943.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

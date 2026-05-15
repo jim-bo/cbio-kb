@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -210,6 +210,19 @@ ul.task-list li input[type="checkbox"] {
 <li>MSK-IMPACT targeted sequencing panel applied to &gt;650 pancreatic ductal adenocarcinoma samples to profile somatic mutations and copy-number alterations <a href="../papers/26278805.html">PMID:26278805</a></li>
 <li>Used as the 341-gene IMPACT341 targeted-capture NGS panel (mean depth 584x tumor / 236x normal; 739x for ATCs) to sequence 117 advanced thyroid tumors (84 PDTC, 33 ATC) at MSKCC; detected TP53, TERT, SWI/SNF, and HMT mutations at 2-3x higher frequency than WES due to deep coverage. <a href="../papers/26878173.html">PMID:26878173</a></li>
 <li>Used as the CLIA-certified MSK-IMPACT 341-gene panel to profile 6 plasmacytoid-variant bladder tumors in a prospective clinical cohort at MSKCC; identified CDH1 truncating mutations in all 6 plasmacytoid cases and 0/56 urothelial NOS cases. <a href="../papers/26901067.html">PMID:26901067</a></li>
+<li>MSK-IMPACT 410-gene panel (IMPACT410) applied to 151 advanced head and neck tumors at MSK; CLIA-approved, median coverage 600x; guided therapy in 21/151 (14%) patients and 13/53 (25%) HNSC cases <a href="../papers/27442865.html">PMID:27442865</a></li>
+<li>MSK-IMPACT 410-gene targeted exon-capture assay (&gt;300 cancer genes, 500–1000x depth) used to validate in 161 prospective GCT patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort <a href="../papers/27646943.html">PMID:27646943</a></li>
+<li>Used for targeted DNA sequencing (230-gene panel, avg 348x tumour / 280x normal coverage) to characterize 62 high-grade unclassified renal cell carcinoma (uRCC) tumours at MSKCC; variant calling via MuTect and GATK Somatic Indel Detector on hg19-aligned reads. <a href="../papers/27713405.html">PMID:27713405</a></li>
+<li>MSK-IMPACT panel sequencing (341 and 410-gene versions) applied to 10,945 tumors across 62 cancer types for clinical actionability <a href="../papers/28336552.html">PMID:28336552</a></li>
+<li>MSK-IMPACT hybridization-capture Illumina HiSeq 2500 platform with full exon coverage of 410 cancer-related genes used to characterize 19 anaplastic oligodendroglioma tumors in the odg_msk_2017 cohort <a href="../papers/28472509.html">PMID:28472509</a></li>
+<li>Prospective CLIA-certified hybrid-capture sequencing of 10,945 advanced/metastatic tumors from 10,336 patients across 62 tumor types; catalogued 78,066 non-synonymous mutations, 22,989 CNAs, and 1,875 rearrangements <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>Sequenced 105 NMIBC tumors and 40 MIBC comparators with matched germline DNA; ARID1A mutation was the only gene significantly associated with BCG recurrence (HR=3.14, p=0.002) <a href="../papers/28583311.html">PMID:28583311</a></li>
+<li>Hybridization-capture targeted DNA panel covering &gt;300 cancer-related genes (SNVs, indels, somatic CNAs, structural rearrangements) applied to 504 tumors from 451 prostate cancer patients spanning locoregional to mCRPC; matched normal blood used for germline filtering; 68% sequencing success rate <a href="../papers/28825054.html">PMID:28825054</a></li>
+<li>CLIA-certified hybrid-capture targeted NGS assay applied to 295 metastatic esophagogastric adenocarcinoma (EGC) patients at MSKCC; mean coverage 744X; detected mutations, copy-number alterations, and select rearrangements <a href="../papers/29122777.html">PMID:29122777</a></li>
+<li>MSK-IMPACT prospectively sequenced 1,134 <a href="../cancer_types/COADREAD.html">COADREAD</a> tumors (panels <a href="../methods/IMPACT341.html">IMPACT341</a>, <a href="../methods/IMPACT410.html">IMPACT410</a>, <a href="../methods/IMPACT468.html">IMPACT468</a>) with 98.6% MMR-IHC/MSIsensor concordance; characterized recurrently mutated genes, APC intronic variants, and CTNNB1 exon-3 deletions in MSS and MSI-H CRC <a href="../papers/29316426.html">PMID:29316426</a></li>
+<li>Central sequencing of 91 archival FFPE tumors and 15 plasma cfDNA samples from the SUMMIT neratinib basket trial using <a href="../methods/IMPACT341.html">IMPACT341</a> (n=18) or <a href="../methods/IMPACT410.html">IMPACT410</a> (n=88) at mean 738× coverage; concordance with local testing 95% <a href="../papers/29420467.html">PMID:29420467</a></li>
+<li>MC3 capture-kit mask excluded 170 CDS-altering calls in MSK-IMPACT’s 410-gene panel that fall outside the Broad capture BED, including TERT promoter hits, CIC truncations, and CRLF2 splice alterations <a href="../papers/29596782.html">PMID:29596782</a></li>
+<li>706 advanced prostate cancers from MSK-IMPACT (msk_impact_2017) used as validation cohort for the prad_p1000 WES SMG analysis <a href="../papers/29610475.html">PMID:29610475</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -261,7 +274,20 @@ ul.task-list li input[type="checkbox"] {
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26278805.html">PMID:26278805</a></p>
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26878173.html">PMID:26878173</a></p>
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
-<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27442865.html">PMID:27442865</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27646943.html">PMID:27646943</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28336552.html">PMID:28336552</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28472509.html">PMID:28472509</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28583311.html">PMID:28583311</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28825054.html">PMID:28825054</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29122777.html">PMID:29122777</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29316426.html">PMID:29316426</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29420467.html">PMID:29420467</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
 
 
 </section>

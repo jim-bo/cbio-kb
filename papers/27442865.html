@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The Molecular Landscape of Recurrent and Metastatic Head and Neck Cancers: Insights From a Precision Oncology Sequencing Platform – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27442865.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27442865.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Molecular Landscape of Recurrent and Metastatic Head and Neck Cancers: Insights From a Precision Oncology Sequencing Platform</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luc G. T. Morris </p>
+             <p>Raghu Chandramohan </p>
+             <p>Lyndsay West </p>
+             <p>Ahmet Zehir </p>
+             <p>Debyani Chakravarty </p>
+             <p>David G. Pfister </p>
+             <p>Richard J. Wong </p>
+             <p>Nancy Y. Lee </p>
+             <p>Eric J. Sherman </p>
+             <p>Shrujal S. Baxi </p>
+             <p>Ian Ganly </p>
+             <p>Bhuvanesh Singh </p>
+             <p>Jatin P. Shah </p>
+             <p>Ashok R. Shaha </p>
+             <p>Jay O. Boyle </p>
+             <p>Snehal G. Patel </p>
+             <p>Benjamin R. Roman </p>
+             <p>Christopher A. Barker </p>
+             <p>Sean M. McBride </p>
+             <p>Timothy A. Chan </p>
+             <p>Snjezana Dogan </p>
+             <p>David M. Hyman </p>
+             <p>Michael F. Berger </p>
+             <p>David B. Solit </p>
+             <p>Nadeem Riaz </p>
+             <p>Alan L. Ho </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1001/jamaoncol.2016.1790">10.1001/jamaoncol.2016.1790</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 27442865 · <strong>DOI:</strong> 10.1001/jamaoncol.2016.1790 · <strong>Journal:</strong> JAMA Oncology (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Morris et al.&nbsp;report the first large clinical-grade molecular landscape of recurrent and metastatic head and neck cancers, sequencing 151 advanced tumors at Memorial Sloan Kettering Cancer Center between January 2014 and July 2015 with the <a href="../methods/IMPACT410.html">MSK-IMPACT 410-gene panel</a>. Next-generation sequencing guided therapy in 21 of 151 patients (14%; 25% of <a href="../cancer_types/HNSC.html">HNSC</a> cases), refined diagnoses in several rare cancer types (notably reclassifying acinic cell carcinomas to <a href="../cancer_types/MASC.html">MASC</a> via <a href="../genes/ETV6.html">ETV6</a>-<a href="../genes/NTRK3.html">NTRK3</a> fusions), and revealed that recurrent/metastatic <a href="../themes/hpv-positive.md">HPV-positive</a> <a href="../cancer_types/HNSC.html">HNSC</a> frequently acquires an HPV-negative-like genotype enriched for <a href="../genes/TP53.html">TP53</a> mutation, whole-genome duplication and 3p deletion. Activating <a href="../genes/NOTCH1.html">NOTCH1</a> mutations were enriched in metastatic adenoid cystic carcinoma (<a href="../cancer_types/ACYC.html">ACYC</a>), and <a href="../genes/TERT.html">TERT</a> promoter mutations were strikingly common in advanced HPV-negative HNSC, <a href="../cancer_types/CSCC.html">CSCC</a>, and <a href="../cancer_types/BCC.html">BCC</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>151 patients</strong> (95 men, 56 women; mean age 61.8, range 17–100) with advanced, treatment-resistant head and neck tumors profiled at MSK between January 2014 and July 2015 (IRB protocol NCT01775072; 224 enrolled, 151 with ≥6-month follow-up).</li>
+<li><strong>Disease distribution:</strong> 53 <a href="../cancer_types/HNSC.html">HNSC</a>, 56 salivary carcinomas (36 <a href="../cancer_types/ACYC.html">ACYC</a> plus 20 other salivary), 27 cutaneous carcinomas (21 <a href="../cancer_types/CSCC.html">CSCC</a>, 4 <a href="../cancer_types/BCC.html">BCC</a>, 2 skin adnexal), 8 <a href="../cancer_types/NPC.html">NPC</a>, 3 <a href="../cancer_types/HNNE.html">HNNE</a>, 2 odontogenic carcinomas (<a href="../cancer_types/AMBL.html">AMBL</a>/<a href="../cancer_types/CCOC.html">CCOC</a>), and 2 olfactory neuroblastomas (<a href="../cancer_types/ONBL.html">ONBL</a>).</li>
+<li><strong>Site distribution:</strong> 66 patients with locoregional recurrence, 106 with distant metastases, 6 with locally advanced surgically unresectable tumors.</li>
+<li><strong>Assay:</strong> <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted NGS of 410 cancer-relevant genes (<a href="../methods/IMPACT410.html">IMPACT410</a>) plus genome-wide copy number, with matched normal DNA; median coverage 600× (range 82×–1165×); CLIA-approved.</li>
+<li><strong>Dataset:</strong> publicly released as <a href="../datasets/hnc_mskcc_2016.html">hnc_mskcc_2016</a> (cBioPortal study).</li>
+<li><strong>Analyses:</strong> <a href="../methods/facets.html">FACETS</a> for allele-specific copy number and clonality; an SVM classifier trained on TCGA HNSC for HPV-status genotyping; <a href="../methods/mutational-signatures.html">mutational signature</a> decomposition (APOBEC, tobacco, UV light); enrichment comparison versus the <a href="../datasets/hnsc_tcga_pub.html">TCGA HNSC primary cohort</a> and primary <a href="../cancer_types/ACYC.html">ACYC</a> sequencing from Ho et al.&nbsp;2013.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Therapy guidance.</strong> NGS guided therapy in <strong>21/151 patients (14%)</strong> overall and <strong>13/53 (25%)</strong> with <a href="../cancer_types/HNSC.html">HNSC</a> (<a href="../papers/27442865.html">PMID:27442865</a>).</li>
+<li><strong>Actionable alterations.</strong> <strong>28/135 patients (21%)</strong> harbored alterations with potential investigational implications: 7 (5%) with an FDA-approved biomarker–drug pair in another indication, 21 (16%) with clinical evidence linking the alteration to drug response.</li>
+<li><strong>HNSC landscape.</strong> Whole-genome duplication in <strong>12/48 cases (25%)</strong> with informative copy number; mismatch-repair gene mutations in 4 tumors (<a href="../genes/MLH1.html">MLH1</a> truncating, <a href="../genes/MSH2.html">MSH2</a>/<a href="../genes/MSH6.html">MSH6</a>/<a href="../genes/POLD1.html">POLD1</a> missense) carried significantly elevated mutation counts (17.3 vs 4.5; P &lt; .001).</li>
+<li><strong><a href="../genes/TERT.html">TERT</a> promoter enrichment in advanced HPV-negative HNSC.</strong> Mutations in <strong>16/30 (53%)</strong> HPV-negative tumors versus 12/70 (17%) primary HPV-negative tumors (OR 5.5; P &lt; .001); strikingly <strong>10/11 (91%)</strong> HPV-negative tongue SCCs harbored <a href="../genes/TERT.html">TERT</a> promoter mutations. <strong>Zero</strong> TERT promoter mutations in HPV-positive HNSC, consistent with E6-driven telomerase activation as a parallel mechanism.</li>
+<li><strong>HPV+ versus HPV− differences attenuated in advanced disease.</strong> No difference in mutation counts (4.4 vs 5.9; P = .42) or fraction of genome copy-number-altered (0.19 vs 0.18; P = .78) between HPV-positive (n = 21) and HPV-negative (n = 30) recurrent/metastatic HNSC, in contrast to primary tumors.</li>
+<li><strong>Genes enriched in HPV-negative recurrent/metastatic HNSC versus HPV-positive:</strong> <a href="../genes/TP53.html">TP53</a> (72% vs 15%; P &lt; .001), <a href="../genes/TERT.html">TERT</a> promoter (55% vs 0%; P = 9 × 10⁻⁵), <a href="../genes/CDKN2A.html">CDKN2A</a> mutation/deletion (37% vs 5%; P = .016).</li>
+<li><strong>“HPV-negative-like” HPV-positive recurrent/metastatic HNSC.</strong> An SVM classifier trained on TCGA correctly categorized 29/31 (91%) HPV-negative MSK-IMPACT cases but only 12/21 (57%) HPV-positive cases (P = .007); 43% of advanced HPV-positive tumors had genotypes resembling primary HPV-negative tumors and trended toward worse survival (HR 2.3; P = .19).</li>
+<li><strong>Alterations enriched in recurrent/metastatic HPV-positive HNSC</strong> versus TCGA primary HPV-positive: whole-genome duplication 6.7-fold (P = .024), 3p deletion 9.1-fold (P = .002), 3p deletion + <a href="../genes/TP53.html">TP53</a> co-occurrence 7.6-fold (P = .03); higher <a href="../genes/TP53.html">TP53</a> mutation rate (15% vs 3%; enrichment 4.6, P = .11) and lower <a href="../genes/PIK3CA.html">PIK3CA</a> mutation (10% vs 36%; enrichment 0.21, P = .06).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a> in HPV-positive tumors is often subclonal:</strong> 3 of 4 (75%) HPV-positive TP53 mutations were subclonal versus 4 of 27 (15%) HPV-negative (P = .03); all TP53 mutations in HPV-positive tumors were truncating.</li>
+<li><strong>Confirmation in cervical cancer.</strong> TP53 mutation frequency markedly higher in MSK-IMPACT recurrent/metastatic <a href="../cancer_types/CESC.html">CESC</a> (4/16, 25%) than primary TCGA cervix (5/170, 3%; OR 8.3; P = .008).</li>
+<li><strong>Chromosomal instability:</strong> <a href="../genes/TP53.html">TP53</a>/<a href="../genes/RB1.html">RB1</a>-mutated HPV-positive tumors had significantly more copy-number-altered genome than wildtype tumors (P = .009).</li>
+<li><strong><a href="../genes/NOTCH1.html">NOTCH1</a> enrichment in metastatic <a href="../cancer_types/ACYC.html">ACYC</a>.</strong> <a href="../genes/NOTCH1.html">NOTCH1</a> altered in 12/33 (33%) of recurrent/metastatic <a href="../cancer_types/ACYC.html">ACYC</a>; activating mutations or amplifications in 8/36 (22.2%) versus 2/60 (3.3%) in primary ACYC (OR 8.3; P = .005); three samples had recurrent truncating alterations at serine 2467, mirroring leukemia activating mutations.</li>
+<li><strong>TERT promoter mutations identified in 5 <a href="../cancer_types/ACYC.html">ACYC</a> (14%)</strong> — the first report of TERT promoter mutations in salivary cancers.</li>
+<li><strong>Salivary duct carcinoma (<a href="../cancer_types/SDCA.html">SDCA</a>) actionable findings:</strong> <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/ERBB2.html">ERBB2</a>, and <a href="../genes/AR.html">AR</a> alterations plus structural variants in <a href="../genes/NF1.html">NF1</a> and <a href="../genes/ROS1.html">ROS1</a>.</li>
+<li><strong>MASC reclassification by <a href="../genes/ETV6.html">ETV6</a>-<a href="../genes/NTRK3.html">NTRK3</a> fusion</strong> changed the diagnosis of 2 cases originally called acinic cell carcinoma; both subsequently enrolled on a TRK inhibitor basket study with major / near-complete responses.</li>
+<li><strong>Cutaneous carcinomas.</strong> UV-light mutational signature in 18/21 (86%) <a href="../cancer_types/CSCC.html">CSCC</a>, associated with higher mutation counts (37.9 vs 4.3; P = .008); 3p deletion + <a href="../genes/TP53.html">TP53</a> co-occurrence in 6/19 <a href="../cancer_types/CSCC.html">CSCC</a> (32%) — the first report in cutaneous SCC. Three of 4 <a href="../cancer_types/BCC.html">BCC</a> had UV signature; all 3 hedgehog-pathway-inhibitor-responsive BCCs carried <a href="../genes/PTCH1.html">PTCH1</a> mutations.</li>
+<li><strong>Odontogenic carcinomas.</strong> Both profiled cases had <a href="../genes/EWSR1.html">EWSR1</a> gene fusions: an <a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/FLI1.html">FLI1</a> fusion in an “ameloblastic carcinoma” reclassified as Ewing sarcoma with epithelial differentiation, and an <a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/ATF1.html">ATF1</a> fusion in a clear cell odontogenic carcinoma (<a href="../cancer_types/CCOC.html">CCOC</a>) — not previously reported in odontogenic tumors.</li>
+<li><strong>Germline finding.</strong> One HNSC patient harbored a germline heterozygous <a href="../genes/FANCA.html">FANCA</a> deletion plus a somatic <a href="../genes/FANCA.html">FANCA</a> stopgain — a “double hit” with potential <a href="../drugs/cisplatin.html">cisplatin</a> sensitivity.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — mutated in 21/29 (72%) HPV-negative versus 3/20 (15%) HPV-positive recurrent/metastatic HNSC; all HPV-positive TP53 mutations truncating and predominantly subclonal; co-occurrence with 3p deletion enriched 7.6-fold in advanced HPV-positive HNSC; 25% of recurrent/metastatic <a href="../cancer_types/CESC.html">CESC</a> (versus 3% TCGA primary).</li>
+<li><a href="../genes/TERT.html">TERT</a> — promoter mutations in 53% of HPV-negative HNSC (91% of HPV-negative tongue SCC), 52% of <a href="../cancer_types/CSCC.html">CSCC</a>, 75% of <a href="../cancer_types/BCC.html">BCC</a>, and 14% of <a href="../cancer_types/ACYC.html">ACYC</a> (first report in salivary cancers); zero in HPV-positive HNSC.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a> — altered in 33% of <a href="../cancer_types/ACYC.html">ACYC</a> with activating mutations/amplifications in 22.2% (8.3-fold enriched versus primary ACYC); recurrent S2467 truncating events; nominates γ-secretase inhibitors.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — mutated in 10% of recurrent/metastatic HPV-positive HNSC (down from 36% in primary HPV+); 4 HNSC and 1 <a href="../cancer_types/NPC.html">NPC</a> and 1 <a href="../cancer_types/ACYC.html">ACYC</a> patient enrolled on PI3K-inhibitor trials; also altered in <a href="../cancer_types/SDCA.html">SDCA</a>.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — alteration prompted PI3K-inhibitor trial enrollment.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — mutation/deletion in 37% of HPV-negative versus 5% of HPV-positive recurrent/metastatic HNSC.</li>
+<li><a href="../genes/HRAS.html">HRAS</a> — mutated in 1 HNSC (treated on farnesyl-transferase-inhibitor trial); G13V in a mucoepidermoid carcinoma (<a href="../cancer_types/MUCC.html">MUCC</a>) treated similarly; recurrent in <a href="../cancer_types/SDCA.html">SDCA</a>.</li>
+<li><a href="../genes/RB1.html">RB1</a> — alterations in 3/20 (15%) recurrent/metastatic HPV-positive HNSC; co-mutation with <a href="../genes/TP53.html">TP53</a> associated with elevated chromosomal instability.</li>
+<li><a href="../genes/MAPK1.html">MAPK1</a> — mutation guided treatment with an ERK inhibitor on single-patient IND.</li>
+<li><a href="../genes/SMARCB1.html">SMARCB1</a> — deletion led to enrollment on an <a href="../genes/EZH2.html">EZH2</a> inhibitor trial.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — mutation in 1 <a href="../cancer_types/ACYC.html">ACYC</a> patient treated with an FGFR inhibitor.</li>
+<li><a href="../genes/PIK3R1.html">PIK3R1</a> — mutation in 1 <a href="../cancer_types/ACYC.html">ACYC</a> patient treated with PI3K inhibitor.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — amplification in 1 <a href="../cancer_types/ACYC.html">ACYC</a> patient treated with <a href="../genes/MDM2.html">MDM2</a> inhibitor.</li>
+<li><a href="../genes/PDGFRA.html">PDGFRA</a>, <a href="../genes/KDR.html">KDR</a>, <a href="../genes/KIT.html">KIT</a> — co-amplification in 4 <a href="../cancer_types/ACYC.html">ACYC</a> patients treated with <a href="../drugs/regorafenib.html">regorafenib</a>.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/AR.html">AR</a> — actionable alterations in <a href="../cancer_types/SDCA.html">SDCA</a>.</li>
+<li><a href="../genes/NF1.html">NF1</a>, <a href="../genes/ROS1.html">ROS1</a> — interesting structural variants in <a href="../cancer_types/SDCA.html">SDCA</a>.</li>
+<li><a href="../genes/PTCH1.html">PTCH1</a> — mutations in 3 of 4 <a href="../cancer_types/BCC.html">BCC</a>, all responsive to hedgehog-pathway inhibitors before NGS.</li>
+<li><a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/POLD1.html">POLD1</a> — mismatch repair / proofreading defects in 4 hypermutated HNSC tumors.</li>
+<li><a href="../genes/ETV6.html">ETV6</a>-<a href="../genes/NTRK3.html">NTRK3</a> — fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as MASC; both responded to TRK inhibitor on basket trial.</li>
+<li><a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/FLI1.html">FLI1</a> — fusion in an odontogenic case reclassified as <a href="../cancer_types/ES.html">ES</a> with epithelial differentiation.</li>
+<li><a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/ATF1.html">ATF1</a> — fusion in a clear cell odontogenic carcinoma (<a href="../cancer_types/CCOC.html">CCOC</a>); novel in odontogenic tumors.</li>
+<li><a href="../genes/FANCA.html">FANCA</a> — germline heterozygous deletion + somatic stopgain in one HNSC patient (potential cisplatin-sensitivity biomarker).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Sequencing recurrent/metastatic disease matters:</strong> the genetic profile of advanced head and neck tumors is distinct from primary disease (notably for <a href="../genes/TERT.html">TERT</a> promoter, <a href="../genes/TP53.html">TP53</a> and <a href="../genes/NOTCH1.html">NOTCH1</a> enrichment, and HPV-positive tumors drifting toward an HPV-negative-like genotype).</li>
+<li><strong>Basket studies are the principal vehicle</strong> for therapeutic gain in this rare-cancer-rich population — basket trials accounted for half of clinical-trial enrollments in this cohort. Notable responses include MASC patients on TRK inhibitors and ACYC patients matched to PI3K, FGFR, MDM2, and γ-secretase inhibitors based on actionable alterations.</li>
+<li><strong>Diagnosis refinement:</strong> NGS reclassified 2 acinic cell carcinomas as MASC (via <a href="../genes/ETV6.html">ETV6</a>-<a href="../genes/NTRK3.html">NTRK3</a>) and 1 ameloblastic carcinoma as <a href="../cancer_types/ES.html">ES</a> (via <a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/FLI1.html">FLI1</a>), enabling appropriate targeted/cytotoxic therapy choice.</li>
+<li><strong>Negative biomarker → immunotherapy:</strong> in 6/53 (12%) HNSC patients, the lack of actionable alterations on MSK-IMPACT prompted enrollment on immunotherapy trials; one hypermutated <a href="../cancer_types/BCC.html">BCC</a> (122 mutations) was directed to immunotherapy on the basis of mutation load.</li>
+<li><strong>Prognostic signal:</strong> “HPV-negative-like” HPV-positive HNSC trended toward worse survival (HR 2.3; P = .19) — relevant to ongoing chemoradiotherapy de-escalation strategies in HPV-positive disease.</li>
+<li><strong>Hypothesis-generating predictive biomarkers</strong> for immune checkpoint inhibitors enumerated by the authors: intratumor heterogeneity (low ITH), high mutational load, and tobacco/UV-light mutational signatures.</li>
+<li><strong>HNSC therapeutic landscape context:</strong> the authors note that no new targeted therapies have been approved for HNSC since <a href="../drugs/cetuximab.html">cetuximab</a> in 2006 and there are no validated predictive biomarkers — this work motivates routine NGS to expand options.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Single-institution cohort with modest sample sizes</strong> for individual rare-cancer subtypes (e.g., 4 BCCs, 2 odontogenic carcinomas, 2 olfactory neuroblastomas), limiting broad conclusions; the authors call for multi-institutional pooling.</li>
+<li><strong>Targeted 410-gene panel</strong> does not capture exome-wide mutational load with the resolution of WES; deep sequencing may artifactually inflate sensitivity for low-allele-fraction variants like <a href="../genes/TERT.html">TERT</a> promoter mutations.</li>
+<li><strong>Cross-cohort comparisons (MSK-IMPACT versus TCGA)</strong> are confounded by differences in sequencing platform, depth, analytic pipeline, and patient selection — enrichment estimates require independent confirmation.</li>
+<li><strong>The “HPV-negative-like” subset of advanced HPV-positive HNSC (43%)</strong> has only a trend toward poorer survival (P = .19); larger cohorts are needed to confirm prognostic significance and to test whether de-intensified therapy is appropriate.</li>
+<li><strong>TP53 mutations in HPV-positive tumors are often subclonal</strong>, raising the question of whether they are late events driven by tobacco exposure or selected under treatment pressure — biology and timing are unresolved.</li>
+<li><strong>No standard-of-care biomarkers</strong> exist for head and neck cancer; only 21% of cases harbored potentially actionable alterations, leaving the majority of patients without molecularly matched options.</li>
+<li><strong>HPV status was not available for all 53 HNSC cases</strong> (51 with known HPV status); some downstream comparisons are limited by sample dropout.</li>
+<li><strong>Biological role of TERT promoter mutations in <a href="../cancer_types/ACYC.html">ACYC</a></strong> is undefined — first description in salivary cancer; clinical consequences unknown.</li>
+<li><strong>Generalizability of activating <a href="../genes/NOTCH1.html">NOTCH1</a> mutations in <a href="../cancer_types/ACYC.html">ACYC</a></strong> as a predictive biomarker for γ-secretase inhibitors awaits prospective testing.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Next-generation sequencing ultimately guided therapy in 21 of 151 patients (14%) (13 of 53 [25%] of patients with HNSCC) by refining diagnoses and matching patients to specific therapies, in some cases with dramatic responses on basket studies. Molecular alterations were potentially actionable in 28 of 135 patients (21%).” — Abstract, <a href="../papers/27442865.html">PMID:27442865</a>.</li>
+<li>“There were high rates of TERT promoter mutation in recurrent and metastatic HPV-negative HNSCC (13 of 30 tumors [43%]), cutaneous SCC (11 of 21 tumors [52%]), basal cell carcinoma (3 of 4 tumors [75%]), and ACC (5 of 36 tumors [14%]). Activating NOTCH1 mutations were enriched in metastatic ACCs (8 of 36 tumors [22%]).” — Abstract, <a href="../papers/27442865.html">PMID:27442865</a>.</li>
+<li>“The promoter region of TERT harbored mutations in 16 of 30 HPV-negative tumors (53%) … In this recurrent and metastatic population, mutations in the TERT promoter were significantly more frequent than rates reported in primary HPV-negative HNSCCs (12 of 70 [17%]) (odds ratio (OR), 5.5; P &lt; .001) … Remarkably, 10 of 11 (91%) HPV-negative tongue SCCs had TERT mutations.” — Results, p.&nbsp;4.</li>
+<li>“We used a support vector machine algorithm to categorize tumors as more similar to HPV-positive or HPV-negative profiles … The classifier correctly categorized 29 of 31 (91%) HPV-negative MSK-IMPACT cases, but only 12 of 21 (57%) HPV-positive cases (P = .007) … 43% of advanced HPV-positive HNSCC tumors had genotypes that resembled primary HPV-negative tumors.” — Results, pp.&nbsp;5–6.</li>
+<li>“In the recurrent and metastatic HPV-positive tumors, there was significant enrichment for whole-genome duplication (6.7-fold; P = .024), 3p deletion (9.1-fold; P = .002), and 3p deletion-TP53 mutation (7.6-fold; P = .03).” — Results, p.&nbsp;6.</li>
+<li>“We identified significant enrichment of NOTCH1 activating alterations (8 of 36 tumors [22.2%] vs 2 of 60 tumors [3.3%]; OR, 8.3; P = .005) … Activating NOTCH1 mutations confer sensitivity to γ-secretase inhibitors, nominating these drugs as potentially active in NOTCH1-mutated ACCs.” — Results, p.&nbsp;7.</li>
+<li>“Sequencing identified an ETV6-NTRK3 fusion … changing the diagnosis to MASC. The patient was then enrolled on a TRK inhibitor basket study, with a clinical near-complete response.” — Results, p.&nbsp;8.</li>
+<li>“Complete genomic and clinical data from this study are available in searchable form at http://www.cbioportal.org/study?id=<a href="../datasets/hnc_mskcc_2016.html">hnc_mskcc_2016</a>.” — Results, p.&nbsp;9.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27442865.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27442865.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

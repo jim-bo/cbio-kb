@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrated genomic characterization of oesophageal carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28052061.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28052061.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrated genomic characterization of oesophageal carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>The Cancer Genome Atlas Research Network </p>
+             <p>Adam J. Bass </p>
+             <p>Vésteinn Thorsson </p>
+             <p>Ilya Shmulevich </p>
+             <p>Peter W. Laird </p>
+             <p>Francisco Sánchez-Vega </p>
+             <p>Toshinori Hinoue </p>
+             <p>Andrew D. Cherniack </p>
+             <p>Juliann Shih </p>
+             <p>Reanne Bowlby </p>
+             <p>Andrew J. Mungall </p>
+             <p>Christina Curtis </p>
+             <p>Jose Antonio Seoane </p>
+             <p>Ronglai Shen </p>
+             <p>Hsin-Ta Wu </p>
+             <p>Benjamin J. Raphael </p>
+             <p>Nikolaus Schultz </p>
+             <p>Barbara G. Schneider </p>
+             <p>Jaffer A. Ajani </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature20805">10.1038/nature20805</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28052061 · <strong>DOI:</strong> 10.1038/nature20805 · <strong>Journal:</strong> Nature (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The TCGA Research Network performed integrated multi-platform molecular profiling (whole-exome and low-pass whole-genome sequencing, SNP6 copy number, HM450 methylation, mRNA-seq, miRNA-seq, RPPA) on 164 oesophageal carcinomas and compared them to 359 gastric adenocarcinomas and 36 additional gastroesophageal-junction (<a href="../cancer_types/GEJ.html">GEJ</a>) adenocarcinomas. Oesophageal squamous cell carcinoma (<a href="../cancer_types/ESCC.html">ESCC</a>) and oesophageal adenocarcinoma (<a href="../cancer_types/ESCA.html">ESCA</a>, abbreviated EAC in the paper) are molecularly distinct: <a href="../cancer_types/ESCC.html">ESCC</a> resembles squamous tumours of the head/neck and lung, whereas EAC is essentially indistinguishable from chromosomally-unstable (CIN) gastric adenocarcinoma (<a href="../cancer_types/STAD.html">STAD</a>). The authors define three ESCC molecular subtypes (ESCC1, ESCC2, ESCC3), find no evidence for an aetiologic role of HPV in ESCC, and argue that EAC and CIN gastric cancer should be considered a single disease entity — strongly cautioning against pooling EAC and ESCC in clinical trials <a href="../papers/28052061.html">PMID:28052061</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Total profiled:</strong> 164 oesophageal carcinomas — 90 <a href="../cancer_types/ESCC.html">ESCC</a>, 72 EAC (<a href="../cancer_types/ESCA.html">ESCA</a>; 61 definite + 11 probable oesophageal), and 2 undifferentiated carcinomas — accompanied by 359 gastric adenocarcinomas and 36 <a href="../cancer_types/GEJ.html">GEJ</a> adenocarcinomas of indeterminate origin (15 definite gastric + 48 probable gastric for the gastric-GEJ slice; 140 fundus/body, 143 antral/pyloric, 13 unlocalized for the bulk gastric set) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Sample qualification:</strong> 322 oesophageal cases submitted to the <a href="../genes/BCR.html">BCR</a>; 185 qualified by pathology and molecular QC; 171 entered genomic analysis after expert pathology re-review. 388 similarly characterized gastric adenocarcinomas were used as the comparator (incorporating an additional 77 STADs not in the original <a href="../datasets/stad_tcga_pub.html">TCGA STAD analysis</a>) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Geographic distribution of ESCC:</strong> Vietnamese patients (n=41, only Asian population studied), Eastern European, South American, and US/Canadian patients <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Assays:</strong> <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (Agilent SureSelect Human All Exon V5 at the Broad Institute for STAD-labelled samples; Nimblegen SeqCap EZ Human Exome Library v3.0 + custom IDT viral probes at Washington University for ESCA-labelled samples); low-pass (6–8×) <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> on 51 oesophageal cancers; SNP-array copy-number profiling on <a href="../methods/affymetrix-snp6.html">Affymetrix SNP 6.0</a>; DNA methylation on Illumina <a href="../methods/hm450-methylation-array.html">HumanMethylation450 (HM450)</a>; <a href="../methods/rna-seq.html">mRNA-seq</a> and <a href="../methods/mirna-seq.html">miRNA-seq</a>; and <a href="../methods/rppa.html">reverse-phase protein array</a> (RPPA) on 113 tumours <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Analysis tools:</strong> <a href="../methods/icluster.html">iCluster</a> integrative clustering across SCNA + methylation + mRNA + miRNA; mutation calling pooled from four centres (Broad, Wash U, UCSC, BCCA) and annotated with <a href="../methods/oncotator.html">Oncotator</a>; significantly mutated genes by <a href="../methods/mutsig.html">MutSigCV2.0</a>; recurrent SCNAs by <a href="../methods/gistic.html">GISTIC 2.0</a>; allelic copy number / purity / ploidy by <a href="../methods/absolute.html">ABSOLUTE</a>; structural-variant detection by <a href="../methods/breakdancer.html">BreakDancer</a> and <a href="../methods/meerkat.html">Meerkat</a>; mRNA quantification with MapSplice/<a href="../methods/rsem.html">RSEM</a>; mutation-signature discovery by <a href="../methods/bayesian-nmf.html">Bayesian NMF</a>; read alignment with <a href="../methods/bwa.html">BWA</a>; inter-cohort cluster integration with <a href="../methods/coca.html">COCA</a>; patient-identity QC by custom <a href="../methods/sequenom-genotyping.html">Sequenom SNP genotyping</a> panel and AmpFISTR Identifiler <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Dataset / cBioPortal:</strong> <a href="../datasets/stes_tcga_pub.html">stes_tcga_pub</a> (esophageal/stomach TCGA publication cohort); historical comparator <a href="../datasets/stad_tcga_pub.html">stad_tcga_pub</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>EAC and ESCC are molecularly distinct.</strong> Independent and integrated clustering across SCNA, methylation, mRNA and miRNA platforms cleanly separates squamous from adenocarcinoma cases. Pathway analysis showed EACs upregulated <a href="../genes/CDH1.html">CDH1</a> (E-cadherin) signalling and ARF6/FOXA pathways, while ESCCs upregulated Wnt, syndecan and p63 pathways <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Three ESCC molecular subtypes.</strong> Integrative clustering yielded ESCC1 (n=50), ESCC2 (n=36), and ESCC3 (n=4 — defined by <a href="../genes/SMARCA4.html">SMARCA4</a> mutations, increased DNA methylation and relatively unaltered SCNA profiles). All four ESCC3 tumours came from US/Canadian patients (P=0.001, Fisher’s exact test) and had no analogue in the TCGA HNSCC dataset <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>ESCC1 = NRF2-pathway / classical squamous.</strong> Characterised by alterations in <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a> and <a href="../genes/ATG7.md">ATG7</a>, higher <a href="../genes/SOX2.html">SOX2</a>/<a href="../genes/TP63.html">TP63</a> amplification frequency, <a href="../genes/YAP1.html">YAP1</a> (11q22.1) amplification and <a href="../genes/VGLL4.html">VGLL4</a>/<a href="../genes/ATG7.md">ATG7</a> deletion (suggesting Hippo activation). ESCC1 gene expression resembled the classical subtype of TCGA lung squamous and head and neck squamous carcinomas <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>ESCC2 = NOTCH/PI3K with immune infiltration.</strong> Higher rates of <a href="../genes/NOTCH1.html">NOTCH1</a> and <a href="../genes/ZNF750.html">ZNF750</a> mutation, more frequent inactivating alterations of <a href="../genes/KDM6A.html">KDM6A</a> and <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/CDK6.html">CDK6</a> amplification, and inactivation of <a href="../genes/PTEN.html">PTEN</a> or <a href="../genes/PIK3R1.html">PIK3R1</a>. ESCC2 had greater leukocyte infiltration, higher cleaved Caspase-7, and lower DNA methylation / higher expression of <a href="../genes/BST2.html">BST2</a> (P=3×10⁻⁴, Fisher) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>ESCC3 = PI3K-activated, SMARCA4/KMT2D mutant.</strong> Four samples; no genetic cell-cycle deregulation; <a href="../genes/TP53.html">TP53</a> mutated in only 1/4; all had PI3K-pathway activating alterations and 3/4 had <a href="../genes/KMT2D.html">KMT2D</a> alterations on top of <a href="../genes/SMARCA4.html">SMARCA4</a>. Unique to ESCC — no analogue in TCGA HNSCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Significantly mutated genes — ESCC:</strong> <a href="../genes/TP53.html">TP53</a>, <a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KMT2D.html">KMT2D</a> (MLL2), <a href="../genes/ZNF750.html">ZNF750</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/TGFBR2.html">TGFBR2</a>. <strong>Significantly mutated genes — EAC:</strong> <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/ERBB2.html">ERBB2</a> <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Recurrent SCNAs — EAC:</strong> amplifications of <a href="../genes/VEGFA.html">VEGFA</a> (6p21.1), <a href="../genes/ERBB2.html">ERBB2</a> (17p12), <a href="../genes/GATA6.html">GATA6</a> (18q11.2) and <a href="../genes/CCNE1.html">CCNE1</a> (19q12), and deletion of <a href="../genes/SMAD4.html">SMAD4</a> (18q21.2). <strong>Recurrent SCNAs — ESCC:</strong> amplifications of <a href="../genes/SOX2.html">SOX2</a> (3q26.33), <a href="../genes/TERT.html">TERT</a> (5p15.33), <a href="../genes/FGFR1.html">FGFR1</a> (8p11.23), <a href="../genes/MDM2.html">MDM2</a> (12q14.3), <a href="../genes/NKX2-1.html">NKX2-1</a> (14q13.2), and deletion of <a href="../genes/RB1.html">RB1</a> (13q14.2). Novel focal deletions at 3p25.2 in ESCC encompass <a href="../genes/VGLL4.html">VGLL4</a> (Hippo negative regulator) and <a href="../genes/ATG7.md">ATG7</a> (autophagy) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Cell-cycle dysregulation differs between subtypes.</strong> <a href="../genes/CDKN2A.html">CDKN2A</a> inactivation in 76% of ESCC (and 76% of EAC, by mutation/deletion/epigenetic silencing); <a href="../genes/CCND1.html">CCND1</a> amplified in 57% of ESCC vs only 15% of EAC; EAC instead amplifies <a href="../genes/CCNE1.html">CCNE1</a>. Additional ESCC tumours had <a href="../genes/CDK6.html">CDK6</a> amplification or <a href="../genes/RB1.html">RB1</a> loss <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>RTK / signalling alterations.</strong> EAC shows <a href="../genes/ERBB2.html">ERBB2</a> alteration in 32% (vs 3% of ESCC), and additional EACs amplify <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/IGF1R.html">IGF1R</a> or <a href="../genes/VEGFA.html">VEGFA</a>. ESCC shows amplification or mutation of <a href="../genes/EGFR.html">EGFR</a> in 19%, and PI3K-activating alterations of <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a> or <a href="../genes/PIK3R1.html">PIK3R1</a> in 24%. Four EACs had <a href="../genes/ERBB2.html">ERBB2</a> mutations <em>without</em> amplification, and six <a href="../genes/ERBB2.html">ERBB2</a>-amplified cases expressed an <a href="../genes/ERBB2.html">ERBB2</a> exon-12–<a href="../genes/JUP.html">JUP</a> 3′-UTR fusion transcript that omits the transmembrane and tyrosine-kinase domains <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Hedgehog / β-catenin / chromatin modifiers.</strong> 6% of ESCCs (no EACs) carried inactivating alterations in <a href="../genes/PTCH1.html">PTCH1</a>, suggesting active hedgehog signalling. EACs more frequently activated <a href="../genes/CTNNB1.html">CTNNB1</a> (β-catenin) and dysregulated TGF-β. SWI/SNF-encoding <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/SMARCA4.html">SMARCA4</a> and <a href="../genes/PBRM1.html">PBRM1</a> alterations were more common in adenocarcinomas, while ESCCs more frequently altered histone modifiers <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/KMT2D.html">KMT2D</a> and <a href="../genes/KMT2C.html">KMT2C</a> <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>GATA4/6 amplification distinguishes EAC.</strong> EACs frequently amplified <a href="../genes/GATA4.html">GATA4</a> and <a href="../genes/GATA6.html">GATA6</a> developmental factors, paralleling gastric adenocarcinoma biology <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>No aetiological role for HPV in ESCC.</strong> ESCC HPV-transcript levels by mRNA-seq resembled HPV-negative HNSCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Mutation signatures:</strong> ESCCs were enriched (vs EAC) in C&gt;A substitutions (associated with smoking/tobacco chewing; P=7×10⁻⁷, Wilcoxon) and APOBEC signatures (P=5×10⁻⁵). Within ESCC the APOBEC signature was overrepresented in the ESCC2 subtype (P=0.03, Kruskal–Wallis) and in patients from Ukraine and Russia (P=0.01, Wilcoxon). Restricting to lifelong nonsmokers, the C&gt;A signature was significantly higher in Vietnamese patients (P=0.013, Wilcoxon), consistent with tobacco chewing. EAC showed a predilection for A&gt;C transversions at AA dinucleotides absent from ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Vietnamese ESCC patients are enriched in <a href="../genes/NFE2L2.html">NFE2L2</a> mutations</strong> (24% [10/41] vs 6% [3/49] in other patients; P=0.017, Fisher’s exact test), suggesting common oxidative-stressor exposure or genetic predisposition. All Vietnamese patients carried East-Asian alcohol-metabolism variants in ALDH2/ADH1B <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>EAC = CIN gastric cancer.</strong> 71/72 EACs were classified as chromosomal-instability (CIN) per the prior TCGA gastric subtyping (EBV / MSI / CIN / GS); none were MSI- or EBV-positive. Among 288 CIN gastroesophageal adenocarcinomas (GEA-CIN), integrative clustering showed <em>no</em> consistent separation between EAC and CIN gastric tumours, even after excluding equivocal GEJ cases. The CIN proportion increases proximally — analogous to the distal-to-rectal CIN gradient in colorectal cancer <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Methylation gradient along the gastroesophageal axis.</strong> DNA methylation clustering of GEA-CIN tumours revealed a proximal-to-distal gradient: hypermethylated cluster 1 was enriched in oesophagus/proximal stomach/GEJ, while hypomethylated cluster 4 was enriched in distal stomach. Hypermethylation was significantly more common in EACs than in gastric CIN cancers (70% vs 30%; P=1.0×10⁻⁸, Fisher’s exact test). No GEA-CIN tumour showed <a href="../genes/MGMT.html">MGMT</a>/MLH1 silencing of the kind seen in gastric CIMP, but <a href="../genes/CDKN2A.html">CDKN2A</a> epigenetic silencing was more common; <a href="../genes/MGMT.html">MGMT</a> and <a href="../genes/CHFR.html">CHFR</a> silencing were also enriched in cluster 1 <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Differentiating EAC from CIN gastric cancer.</strong> Within GEA-CIN, EACs had higher rates of <a href="../genes/SMARCA4.html">SMARCA4</a> mutation, <a href="../genes/RUNX1.html">RUNX1</a> deletion, <a href="../genes/VEGFA.html">VEGFA</a> and <a href="../genes/MYC.html">MYC</a> amplification; lower <a href="../genes/APC.html">APC</a> mutation rates (suggesting less Wnt/β-catenin involvement); and higher rates of <a href="../genes/FHIT.html">FHIT</a>/<a href="../genes/WWOX.html">WWOX</a> fragile-site deletions <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Significantly mutated in both EAC and ESCC. Notably mutated in only 1/4 ESCC3 tumours <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/NFE2L2.html">NFE2L2</a></strong> — Significantly mutated in ESCC (more so in ESCC1); 24% in Vietnamese cohort vs 6% in others (P=0.017). Activates NRF2 pathway, associated with chemoradiotherapy resistance <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/CUL3.html">CUL3</a>, <a href="../genes/ATG7.md">ATG7</a></strong> — NRF2-degradation and autophagy components altered in ESCC1 alongside <a href="../genes/NFE2L2.html">NFE2L2</a> <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a> (MLL2), <a href="../genes/KMT2C.html">KMT2C</a> (MLL3), <a href="../genes/KDM6A.html">KDM6A</a> (UTX)</strong> — Histone-modifier alterations frequent in ESCC (especially ESCC2 for KMT2D/KDM6A); <a href="../genes/KMT2D.html">KMT2D</a> mutated in 3/4 ESCC3 <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/ZNF750.html">ZNF750</a>, <a href="../genes/NOTCH1.html">NOTCH1</a></strong> — Significantly mutated in ESCC (enriched in ESCC2); modulators of squamous cell maturation <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/TGFBR2.html">TGFBR2</a></strong> — Significantly mutated in ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a></strong> — Inactivated in 76% of EAC (mutation, deletion or epigenetic silencing) and 76% of ESCC; significantly mutated in EAC; epigenetic silencing more common in proximal GEA-CIN cluster 1 <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/PBRM1.html">PBRM1</a></strong> — SWI/SNF complex; more frequently altered in EAC. <a href="../genes/SMARCA4.html">SMARCA4</a> mutation defines ESCC3 and is enriched in EAC vs CIN gastric <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a></strong> — Significantly mutated in EAC; deleted at 18q21.2 in EAC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a></strong> — Altered in 32% of EACs vs 3% of ESCCs (amplification or mutation). Four EACs had ERBB2 mutations without amplification. Six amplified EACs expressed an ERBB2 exon-12–<a href="../genes/JUP.html">JUP</a> 3′-UTR fusion transcript that lacks the transmembrane and tyrosine-kinase domains <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a></strong> — Amplified in 57% of ESCC, 15% of EAC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CCNE1.html">CCNE1</a></strong> — Amplified at 19q12 more often in EAC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CDK6.html">CDK6</a></strong> — Amplified in additional ESCCs (especially ESCC2) lacking <a href="../genes/CCND1.html">CCND1</a> amplification <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong> — Recurrently deleted (13q14.2) in ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/SOX2.html">SOX2</a>, <a href="../genes/TP63.html">TP63</a></strong> — Amplified at 3q in 48% of ESCCs (combined); higher in ESCC1 <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/TERT.html">TERT</a>, <a href="../genes/FGFR1.html">FGFR1</a>, <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/NKX2-1.html">NKX2-1</a></strong> — Recurrent focal amplifications in ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/VGLL4.html">VGLL4</a></strong> — Novel 3p25.2 deletion in ESCC, removing this Hippo-pathway negative regulator (and adjacent <a href="../genes/ATG7.md">ATG7</a>); associated with ESCC1 <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/YAP1.html">YAP1</a></strong> — Amplified at 11q22.1 in ESCC1, suggesting Hippo activation <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/GATA6.html">GATA6</a>, <a href="../genes/GATA4.html">GATA4</a></strong> — Amplified in EAC; <a href="../genes/GATA6.html">GATA6</a> experimentally validated as an EAC driver in prior work cited by the authors. <a href="../genes/VEGFA.html">VEGFA</a> and <a href="../genes/MYC.html">MYC</a> amplifications more common in EAC than CIN gastric <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a></strong> — Amplified or mutated in 19% of ESCCs; also amplified in some EACs <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/PIK3R1.html">PIK3R1</a></strong> — PI3K-pathway activating alterations in 24% of ESCCs (PTEN/PIK3R1 enriched in ESCC2); all 4 ESCC3 tumours had PI3K-activating alterations <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/IGF1R.html">IGF1R</a></strong> — Amplified in subsets of EACs alongside ERBB2/EGFR/VEGFA <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/PTCH1.html">PTCH1</a></strong> — Inactivating alterations in 6% of ESCCs (no EACs), suggesting active hedgehog signalling <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CDH1.html">CDH1</a></strong> — Upregulated E-cadherin signalling pathway in EAC vs ESCC (gene-expression analysis) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/CTNNB1.html">CTNNB1</a></strong> — β-catenin activation more common in EAC than ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/BST2.html">BST2</a></strong> — Lower DNA methylation and higher expression in ESCC2 (P=3×10⁻⁴, Fisher); flagged as potential immunomodulatory target <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/FHIT.html">FHIT</a>, <a href="../genes/WWOX.html">WWOX</a></strong> — <a href="../genes/RUNX1.html">RUNX1</a> deletion higher in EAC vs CIN gastric; <a href="../genes/APC.html">APC</a> mutation lower in EAC; fragile-site deletions at FHIT/WWOX higher in EAC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong><a href="../genes/MGMT.html">MGMT</a>, <a href="../genes/CHFR.html">CHFR</a></strong> — Epigenetic silencing enriched in proximal hypermethylated GEA-CIN cluster 1 (relevant to alkylating-agent and microtubule-inhibitor response in prior literature) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Do not pool EAC and ESCC in clinical trials.</strong> Molecular characteristics differ across all platforms tested; the authors explicitly caution against combining histologic subtypes for neoadjuvant, adjuvant or systemic-therapy trials <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>EAC may be treated as CIN gastric cancer.</strong> The molecular indistinguishability of EAC from CIN gastric adenocarcinoma supports unifying these as a single disease entity for therapeutic and trial purposes (analogous to colorectal adenocarcinoma along the colon) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>ERBB2-directed therapy may extend beyond approved indication.</strong> <a href="../drugs/trastuzumab.html">Trastuzumab</a> is FDA-approved for gastric / GEJ adenocarcinomas; the authors note ERBB2-positive EACs are routinely treated off-label with <a href="../drugs/trastuzumab.html">trastuzumab</a> and that ERBB2-mutant (non-amplified) EAC patients may also benefit. The functional consequence of the EAC-specific <a href="../genes/ERBB2.html">ERBB2</a>–<a href="../genes/JUP.html">JUP</a> fusion transcript (which lacks transmembrane / kinase domains) is unclear <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Cell-cycle inhibitors are rationally indicated, especially in ESCC.</strong> Combined <a href="../genes/CDKN2A.html">CDKN2A</a> loss and <a href="../genes/CCND1.html">CCND1</a> / <a href="../genes/CDK6.html">CDK6</a> amplification in ESCC supports CDK4/6 inhibitor evaluation <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Subtype-directed strategies for ESCC:</strong>
+<ul>
+<li>ESCC1 (NRF2-pathway / classical squamous, <a href="../genes/SOX2.html">SOX2</a>/<a href="../genes/TP63.html">TP63</a>-amplified, Hippo-activated): consider Hippo / YAP1-targeted approaches.</li>
+<li>ESCC2 (NOTCH/PI3K/immune-infiltrated): higher cleaved Caspase-7 implies XIAP-directed agents could enhance apoptosis; lower <a href="../genes/BST2.html">BST2</a> methylation suggests BST2-inhibition potential.</li>
+<li>ESCC3 (PI3K-activated, SMARCA4/KMT2D mutant): all PI3K-pathway-activated, supporting PI3K-pathway inhibition <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+</ul></li>
+<li><strong>Methylation-driven biomarker hypotheses for proximal GEA-CIN.</strong> Enrichment of <a href="../genes/MGMT.html">MGMT</a> and <a href="../genes/CHFR.html">CHFR</a> silencing in cluster 1 (oesophagus/proximal-stomach) raises the prospect of differential alkylating-agent and microtubule-inhibitor responses (citing prior literature) <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>HPV status is not a useful biomarker in ESCC.</strong> Unlike cervical SCC and HNSCC, HPV does not appear to play an aetiologic role in ESCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Geographic / population stratification matters.</strong> <a href="../genes/NFE2L2.html">NFE2L2</a>-enriched ESCC1 in Vietnamese patients, APOBEC-enriched ESCC2 in Eastern European patients, and ESCC3 confined to US/Canada highlight the need for geographically diverse trial recruitment <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small ESCC3 sample (n=4).</strong> All four ESCC3 tumours derive from US/Canadian patients; the authors note that additional samples are needed to confirm the subtype is genuinely confined to ESCC and to refine its molecular definition <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>EAC vs CIN gastric distinction is gradual, not categorical.</strong> Although the integrated data support a single GEA-CIN entity, additional samples are required to refine the progressive proximal-to-distal gradient of features and to determine whether subtle EAC-enriched features (<a href="../genes/SMARCA4.html">SMARCA4</a>, <a href="../genes/RUNX1.html">RUNX1</a> deletion, <a href="../genes/VEGFA.html">VEGFA</a>/<a href="../genes/MYC.html">MYC</a> amplification, <a href="../genes/FHIT.html">FHIT</a>/<a href="../genes/WWOX.html">WWOX</a> fragile-site loss) define a clinically meaningful subgroup of CIN GEA <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>GEJ misannotation could inflate EAC–gastric similarity.</strong> The authors repeated their analysis after excluding equivocal GEJ cases and saw no separation, but residual misclassification cannot be ruled out <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Functional consequence of the <a href="../genes/ERBB2.html">ERBB2</a>–<a href="../genes/JUP.html">JUP</a> fusion transcript is unknown.</strong> Six ERBB2-amplified EACs expressed a fusion that omits transmembrane and tyrosine-kinase domains; its biology and impact on trastuzumab response are unresolved <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>Tobacco chewing as the source of the ESCC C&gt;A signature in Vietnamese nonsmokers is inferential</strong>; direct exposure data are unavailable. The relationship between East-Asian alcohol-metabolism variants (<a href="../genes/ALDH2.md">ALDH2</a> / <a href="../genes/ADH1B.md">ADH1B</a> — entire Vietnamese cohort carrier) and <a href="../genes/NFE2L2.html">NFE2L2</a> mutation could not be statistically tested <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li><strong>No prospective biomarker validation.</strong> Subtype-directed therapeutic suggestions (<a href="../genes/XIAP.html">XIAP</a>, <a href="../genes/BST2.html">BST2</a>, Hippo/YAP, PI3K) are hypothesis-generating, not tested in this study.</li>
+<li><strong>No statistical power calculation.</strong> The authors note that sample sizes were not predetermined and investigators were not blinded — standard for TCGA but limits prespecified inference.</li>
+<li><strong>ESCC3 has no HNSCC analogue</strong> — unclear whether this reflects a true ESCC-restricted biology or undersampling in TCGA HNSCC <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we performed a comprehensive molecular analysis of 164 carcinomas of the oesophagus derived from Western and Eastern populations” (Abstract).</li>
+<li>“Oesophageal squamous cell carcinomas resembled squamous carcinomas of other organs more than they did oesophageal adenocarcinomas” (Abstract).</li>
+<li>“Squamous cell carcinomas showed frequent genomic amplifications of CCND1 and <a href="../genes/SOX2.html">SOX2</a> and/or <a href="../genes/TP63.html">TP63</a>, whereas ERBB2, VEGFA and <a href="../genes/GATA4.html">GATA4</a> and GATA6 were more commonly amplified in adenocarcinomas” (Abstract).</li>
+<li>“Oesophageal adenocarcinomas strongly resembled the chromosomally unstable variant of gastric adenocarcinoma, suggesting that these cancers could be considered a single disease entity” (Abstract).</li>
+<li>“we identified 90 ESCCs, 72 EACs (61 definite oesophageal and 11 probable oesophageal), 36 GEJ carcinomas of indeterminate origin” (p.&nbsp;2).</li>
+<li>“In ESCC, we identified significantly mutated genes, <a href="../genes/TP53.html">TP53</a>, NFE2L2, MLL2, <a href="../genes/ZNF750.html">ZNF750</a>, <a href="../genes/NOTCH1.html">NOTCH1</a> and <a href="../genes/TGFBR2.html">TGFBR2</a>” (p.&nbsp;3).</li>
+<li>“In EAC, we identified significant mutations in TP53, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/SMAD4.html">SMAD4</a> and ERBB2” (p.&nbsp;3).</li>
+<li>“Inactivation of CDKN2A and amplification of CCND1 were present in 76% and 57% of squamous tumours, respectively” (p.&nbsp;3).</li>
+<li>“EACs had a wider range of potentially oncogenic amplifications, most commonly of ERBB2, which was altered in 32% of EACs, but in only 3% of ESCCs” (pp.&nbsp;3–4).</li>
+<li>“Transcriptome data identified six cases with ERBB2 amplification that expressed a fusion transcript in which exon 12 of ERBB2 was fused to the 3′ untranslated region of neighbouring gene <a href="../genes/JUP.html">JUP</a>” (p.&nbsp;4).</li>
+<li>“Integrative clustering of ESCC data using iCluster revealed two classes … We designated the distinct set of tumours with these features as subtype ESCC3, thus dividing ESCCs into three molecular subtypes: ESCC1 (n = 50), ESCC2 (n = 36) and ESCC3 (n = 4)” (p.&nbsp;4).</li>
+<li>“All four ESCC3 tumours were derived from patients from the USA and Canada (P = 0.001, Fisher’s exact test)” (p.&nbsp;5).</li>
+<li>“24% in the Vietnamese cohort (10 out of 41) versus 6% in other patients (3 out of 49; P = 0.017, Fisher’s exact test)” (p.&nbsp;5).</li>
+<li>“ESCC HPV transcript levels resembled HPV-negative HNSCC tumours … These data do not support an aetiologic role for HPV in ESCC” (p.&nbsp;6).</li>
+<li>“71 of 72 EACs classified as CIN … No EACs were positive for MSI or EBV” (p.&nbsp;6).</li>
+<li>“The proportion of cancers showing more frequent DNA hypermethylation (that is, clusters 1 or 2) was significantly higher among EACs than among gastric CIN cancers (70% versus 30%, respectively; P = 1.0 × 10−8, Fisher’s exact test)” (pp.&nbsp;6–7).</li>
+<li>“Our analyses therefore argue against approaches that combine EAC and ESCC for clinical trials of neoadjuvant, adjuvant or systemic therapies” (p.&nbsp;7).</li>
+<li>“we may view GEA as a singular entity, analogously to colorectal adenocarcinoma” (p.&nbsp;7).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28052061.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28052061.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

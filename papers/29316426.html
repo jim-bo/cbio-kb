@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Clinical sequencing defines the genomic landscape of metastatic colorectal cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29316426.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29316426.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Clinical sequencing defines the genomic landscape of metastatic colorectal cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rona Yaeger </p>
+             <p>Walid K. Chatila </p>
+             <p>Marla D. Lipsyc </p>
+             <p>Jaclyn F. Hechtman </p>
+             <p>Andrea Cercek </p>
+             <p>Francisco Sanchez-Vega </p>
+             <p>Gowtham Jayakumaran </p>
+             <p>Sumit Middha </p>
+             <p>Ahmet Zehir </p>
+             <p>Mark T.A. Donoghue </p>
+             <p>Daoqi You </p>
+             <p>Agnes Viale </p>
+             <p>Nancy Kemeny </p>
+             <p>Neil H. Segal </p>
+             <p>Zsofia K. Stadler </p>
+             <p>Anna M. Varghese </p>
+             <p>Ritika Kundra </p>
+             <p>Jianjiong Gao </p>
+             <p>Aijazuddin Syed </p>
+             <p>David M. Hyman </p>
+             <p>Efsevia Vakiani </p>
+             <p>Neal Rosen </p>
+             <p>Barry S. Taylor </p>
+             <p>Marc Ladanyi </p>
+             <p>Michael F. Berger </p>
+             <p>David B. Solit </p>
+             <p>Jinru Shia </p>
+             <p>Leonard Saltz </p>
+             <p>Nikolaus Schultz </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.ccell.2017.12.004">10.1016/j.ccell.2017.12.004</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29316426 · <strong>DOI:</strong> 10.1016/j.ccell.2017.12.004 · <strong>Journal:</strong> Cancer Cell (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Yaeger and colleagues prospectively sequenced 1,134 colorectal adenocarcinomas (1,011 tumors from 979 metastatic CRC patients plus 123 early-stage tumors) at MSKCC using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> targeted capture panel. The study refines the genomic landscape of metastatic CRC: it discovers a recurrent intronic splice-acceptor variant near <a href="../genes/APC.html">APC</a> exon 9 and large in-frame <a href="../genes/CTNNB1.html">CTNNB1</a> exon 3 deletions that together push WNT pathway alteration frequency to 96% of CRCs. Right-sided microsatellite-stable mCRC has shorter survival, higher mutation burden, and enrichment of oncogenic <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/RNF43.html">RNF43</a>, and <a href="../genes/SMAD4.html">SMAD4</a> alterations versus left-sided primaries; left-sided tumors more often lack mitogenic-pathway mutations but show higher RTK ligand expression. The full dataset is the cBioPortal <a href="../datasets/crc_msk_2017.html">crc_msk_2017</a> study.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>1,134 colorectal adenocarcinomas</strong> total: 1,011 tumors (478 primaries, 533 metastases) from 979 patients with metastatic CRC, plus 123 tumors from 120 patients with early-stage CRC (<a href="../papers/29316426.html">PMID:29316426</a>).</li>
+<li>Cancer types: colorectal adenocarcinoma — <a href="../cancer_types/COADREAD.html">COADREAD</a> (with subsites <a href="../cancer_types/COAD.html">COAD</a> and <a href="../cancer_types/READ.html">READ</a>).</li>
+<li>Dataset: <a href="../datasets/crc_msk_2017.html">crc_msk_2017</a> — public on cBioPortal at <code>cbioportal.org/study?id=crc_msk_2017</code>; raw data deposited at European Variation Archive accession PRJEB23844.</li>
+<li>Assay: <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> hybridization capture NGS — panel size expanded during study from 341 to 410 to 468 genes (<a href="../methods/IMPACT341.html">IMPACT341</a> used in 214 cases, <a href="../methods/IMPACT410.html">IMPACT410</a> in 911, <a href="../methods/IMPACT468.html">IMPACT468</a> in 9). Mean coverage 747×; matched tumor/normal calling in a CLIA-certified lab.</li>
+<li>MSI status assigned by <a href="../methods/msisensor.html">MSIsensor</a> score ≥10 (98.6% concordance with MMR <a href="../methods/immunohistochemistry.html">IHC</a>).</li>
+<li>Cohort breakdown: <strong>1,027 MSS (90.6%), 99 MSI-H/hypermutated (8.7%), 8 POLE-mutant (0.7%)</strong>. 4% of mCRC cases were MSI-H. 70% resection / 30% needle biopsy; 52% pre-treatment.</li>
+<li>Median follow-up: 23.7 months for MSS early-stage, 28.6 months for MSS mCRC.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>47 significantly recurrently mutated genes in MSS CRC</strong> identified via <a href="../methods/mutsig.html">MutSig</a> and <a href="../methods/genome-music.html">MuSiC</a>. Top frequencies: <a href="../genes/APC.html">APC</a> 79%, <a href="../genes/TP53.html">TP53</a> 78%, <a href="../genes/KRAS.html">KRAS</a> 44%, <a href="../genes/PIK3CA.html">PIK3CA</a> 18%, <a href="../genes/SMAD4.html">SMAD4</a> 16%.</li>
+<li><strong>Novel recurrently mutated genes</strong> in MSS CRC (1–4% each): <a href="../genes/PTPRS.html">PTPRS</a>, <a href="../genes/PIK3CG.html">PIK3CG</a>, <a href="../genes/FLT4.html">FLT4</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/IKZF1.html">IKZF1</a>, <a href="../genes/JUN.html">JUN</a>, <a href="../genes/TBX3.html">TBX3</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/INHBA.html">INHBA</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>.</li>
+<li><strong>Only <a href="../genes/TP53.html">TP53</a> alterations were significantly enriched in mCRC vs early-stage</strong>; <a href="../genes/FBXW7.html">FBXW7</a> was enriched in early-stage tumors, suggesting a possible protective effect.</li>
+<li><strong>WNT pathway alterations rise to 96% of CRCs</strong> when intronic <a href="../genes/APC.html">APC</a> variants and large <a href="../genes/CTNNB1.html">CTNNB1</a> exon-3 in-frame deletions are included (vs 85% MSS / 93% MSI-H using only conventional callers).</li>
+<li><strong>Recurrent <a href="../genes/APC.html">APC</a> intronic splice-acceptor mutation</strong>: chr5:112151184 A&gt;G (NM_000038), 8 nt upstream of exon 9, found in 35 MSS cases. Specific to MSS CRC (absent in 9,939 other MSK-IMPACT tumors). Confirmed to produce a frameshifted splice product by <a href="../methods/droplet-digital-pcr.html">droplet-digital-pcr</a> in 5/5 tested tumors, with nuclear β-catenin staining on <a href="../methods/immunohistochemistry.html">IHC</a> consistent with WNT activation.</li>
+<li><strong>Large <a href="../genes/CTNNB1.html">CTNNB1</a> exon-3 in-frame deletions</strong> in 29 MSS cases — exclusive to MSS, mutually exclusive with <a href="../genes/APC.html">APC</a> and other WNT pathway alterations (p&lt;0.001). 26 deleted the entire exon. Re-analysis of TCGA CRC found 3 additional cases (&lt;1%). Short deletions seen at lower frequencies in hepatobiliary cancer (2%) and melanoma (1%); not in endometrial cancer.</li>
+<li><strong>Right-sided MSS mCRC has shorter overall survival</strong> than left-sided: 5-year <a href="../cancer_types/OS.html">OS</a> 45% vs 67% (p&lt;0.001).</li>
+<li><strong>Right-sided MSS mCRC has higher mutation burden</strong> (median 7.15 vs 5.92 mut/MB, p&lt;0.001) and higher oncogenic-mutation burden (4.11 vs 3.44, p&lt;0.001), but fewer copy-number alterations (<a href="../genes/FGA.html">FGA</a> 0.18 vs 0.21, p=0.001).</li>
+<li><strong>Enrichment of oncogenic alterations by side</strong> (right vs left): <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/RNF43.html">RNF43</a>, <a href="../genes/SMAD2.html">SMAD2</a>, <a href="../genes/SMAD4.html">SMAD4</a> enriched right-sided; <a href="../genes/APC.html">APC</a> and <a href="../genes/TP53.html">TP53</a> enriched left-sided.</li>
+<li><strong>37% of left-sided MSS mCRC have no detectable mitogenic-signaling alteration</strong>; these tumors show higher expression of amphiregulin, epiregulin, neuregulin, and <a href="../genes/HGF.html">HGF</a> (TCGA RNA-seq), suggesting ligand-driven RTK activation.</li>
+<li><strong>Multivariate survival model</strong> (correcting for primary site): oncogenic alterations in <a href="../genes/APC.html">APC</a> (HR=0.57, p&lt;0.01), <a href="../genes/BRAF.html">BRAF</a> (HR=2.02, p&lt;0.001), <a href="../genes/KRAS.html">KRAS</a> (HR=1.40, p&lt;0.01), and <a href="../genes/NRAS.html">NRAS</a> (HR=2.59, p&lt;0.01) were independent predictors; primary site was not (HR=1.29, p=0.14).</li>
+<li><strong>Five genomic mitogenic-pathway subgroups</strong> defined: (1) RTK-only, (2) RAS-MAPK, (3) PI3K, (4) RAS-MAPK + PI3K concurrent, (5) no alteration. &gt;75% of right-sided tumors fall in subgroup 4; ~50% of left-sided tumors fall in subgroups 1 or 5. Subgroups significantly differ in survival and metastatic patterns.</li>
+<li><strong>High primary–metastasis genomic concordance</strong> in 18 patients with multiple sequenced specimens.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/APC.html">APC</a> — 79% of MSS tumors; recurrent intronic chr5:112151184 A&gt;G splice-acceptor mutation <a href="../methods/expands.html">expands</a> oncogenic spectrum into introns; oncogenic alterations were a positive prognostic factor in mCRC (HR=0.57).</li>
+<li><a href="../genes/TP53.html">TP53</a> — 78%; only gene significantly enriched in mCRC vs early-stage primaries.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 44% MSS; hotspot mutations are OncoKB Level 1 resistance markers for anti-EGFR antibodies; enriched in right-sided primaries; HR=1.40 for OS.</li>
+<li><a href="../genes/NRAS.html">NRAS</a> — Level 1 anti-EGFR resistance marker; HR=2.59 for OS.</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600E in 22% MSI-H vs 5% MSS mCRC; right-sided enrichment; HR=2.02. Class 1 (V600), class 2 (RAS-independent dimers), and class 3 (RAS-dependent, EGFR-amplifying) mutants all observed; classes co-mutate differently with RAS-pathway genes; class 3 mutants predicted EGFR-antibody-sensitive. Two MSS mCRC cases harbored activating <a href="../genes/BRAF.html">BRAF</a> fusions (<a href="../genes/AGAP3.html">AGAP3</a>-BRAF, <a href="../genes/CUL1.html">CUL1</a>-BRAF).</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — 18% overall; 41% MSI-H vs 16% MSS (p&lt;0.01); right-sided enrichment.</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — 35% MSI-H vs 5% MSS (p&lt;0.01).</li>
+<li><a href="../genes/CTNNB1.html">CTNNB1</a> — 8% total (24% MSI-H, 6% MSS). Hotspot N-terminal exon 3 mutations (T41A, S45F, S45P) and APC/Axin binding-domain mutations (K335I, W383R) mostly in MSI-H. Large in-frame exon-3 deletions (26 whole-exon, 3 partial) exclusive to MSS — eliminate β-catenin priming and GSK3β phosphorylation sites, escape β-TRCP-mediated degradation, drive nuclear β-catenin.</li>
+<li><a href="../genes/RNF43.html">RNF43</a> — 9%; right-sided enrichment in MSS mCRC.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a> — 16%; right-sided enrichment.</li>
+<li><a href="../genes/SMAD2.html">SMAD2</a> — right-sided enrichment.</li>
+<li><a href="../genes/AKT1.html">AKT1</a> — right-sided enrichment.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — amplifications in 4% of MSS mCRC; the most common RTK alteration; one case co-occurred with <a href="../genes/EGFR.html">EGFR</a> S492R as a likely cetuximab-resistance mechanism.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — hotspot mutations in 4 tumors (two L861Q, one L858R, one R776H) potentially TKI-sensitizing; one S492R cetuximab-resistance allele observed after 1.5 years of <a href="../drugs/cetuximab.html">cetuximab</a>.</li>
+<li><a href="../genes/POLE.html">POLE</a> — exonuclease-domain hotspots P286R, S459F, V411L defined the ultra-mutated subgroup (n=8, 0.7%); typically early-stage and male.</li>
+<li><a href="../genes/MSH6.html">MSH6</a>, <a href="../genes/MLH1.html">MLH1</a>, <a href="../genes/MSH2.html">MSH2</a>, <a href="../genes/PMS2.html">PMS2</a> — assayed by <a href="../methods/immunohistochemistry.html">IHC</a> for MMR status; concordance with MSIsensor 98.6%.</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> / <a href="../genes/BRCA2.html">BRCA2</a> — alterations in 22% MSI-H vs 1% MSS.</li>
+<li><a href="../genes/NTRK1.html">NTRK1</a> / <a href="../genes/NTRK3.html">NTRK3</a> fusions — 8% MSI-H vs 1% MSS. Specific fusions: <a href="../genes/LMNA.md">LMNA</a>-NTRK1 (3 cases total: 1 MSS, 2 MSI-H), <a href="../genes/TPM3.html">TPM3</a>-NTRK1, <a href="../genes/ETV6.html">ETV6</a>-NTRK3.</li>
+<li><a href="../genes/RET.html">RET</a> — one <a href="../genes/NCOA4.html">NCOA4</a>-RET fusion in MSS mCRC.</li>
+<li><a href="../genes/FBXW7.html">FBXW7</a> — enriched in early-stage vs mCRC (suggested protective effect).</li>
+<li>Novel recurrently mutated: <a href="../genes/PTPRS.html">PTPRS</a>, <a href="../genes/PIK3CG.html">PIK3CG</a>, <a href="../genes/FLT4.html">FLT4</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/IKZF1.html">IKZF1</a>, <a href="../genes/JUN.html">JUN</a>, <a href="../genes/TBX3.html">TBX3</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/INHBA.html">INHBA</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>.</li>
+<li>Univariate survival hits in MSS mCRC also included <a href="../genes/DNMT3B.html">DNMT3B</a> and <a href="../genes/SRC.html">SRC</a>, but only APC, BRAF, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a> held in multivariate analysis.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Pembrolizumab eligibility (Level 1)</strong>: all 99 MSI-H/hypermutated cases are now actionable per OncoKB after FDA approval of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> for MSI-H solid tumors.</li>
+<li><strong>Anti-EGFR antibody resistance (Level 1)</strong>: hotspot <a href="../genes/KRAS.html">KRAS</a> and <a href="../genes/NRAS.html">NRAS</a> mutations are Level 1 resistance markers for <a href="../drugs/cetuximab.html">cetuximab</a> and <a href="../drugs/panitumumab.html">panitumumab</a>. One acquired-resistance case carried <a href="../genes/EGFR.html">EGFR</a> S492R after 1.5 years of cetuximab plus concurrent <a href="../genes/ERBB2.html">ERBB2</a> amplification.</li>
+<li><strong>Actionability rates by subtype</strong> (<a href="../methods/oncokb-annotation.html">oncokb-annotation</a>): 86% of MSI-H/hypermutated vs 37% of MSS mCRC carried potentially actionable alterations (p&lt;0.001). 46% of right-sided vs 30% of left-sided MSS mCRC harbored targetable oncogenic alterations.</li>
+<li><strong>Class-specific BRAF therapy implications</strong>: class 1 and class 2 BRAF mutants signal independently of <a href="../genes/EGFR.html">EGFR</a> and are predicted insensitive to EGFR inhibition, while class 3 (kinase-dead) mutants amplify EGFR signaling and are predicted EGFR-antibody-sensitive.</li>
+<li><strong>Prognostic stratification</strong>: APC alterations are favorable; BRAF, KRAS, NRAS alterations are unfavorable in MSS mCRC. The five genomic mitogenic-pathway subgroups (RTK-only, RAS-MAPK, PI3K, concurrent, none) stratify outcomes and metastatic tropism, and largely explain the right-vs-left survival gap (primary site itself was not significant after adjusting for genomics).</li>
+<li><strong>Sidedness biology</strong>: ligand-driven RTK signaling in left-sided tumors implies selective inhibitors of other RTKs (e.g.&nbsp;ERBB2-directed therapy) may have higher efficacy in left-sided MSS mCRC; right-sided tumors more often have intrinsic mitogenic-pathway mutations.</li>
+<li><strong>Rare actionable fusions</strong>: NTRK fusions in 8% of MSI-H mCRC are TRK-inhibitor candidates; activating BRAF fusions in 2 MSS cases.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Targeted capture (341–468 genes) misses non-coding events outside designed regions; the discovered intronic APC variant was identified only because IMPACT covers select introns. Other splice-altering events may remain hidden.</li>
+<li>Selection bias: cohort enriched for KRAS/NRAS/BRAF genotyping requests (anti-EGFR decision-making), so MSI-H frequency in mCRC (4%) may slightly under-represent the true population, and MSI-H early-stage cases are over-represented.</li>
+<li>Survival analysis from “date of metastatic diagnosis” — left-truncation and informative censoring not deeply addressed.</li>
+<li>APC alterations were treated as a single oncogenic group; the authors note prior data (Schell et al., 2016) suggest the <em>number</em> of APC hits affects survival and could refine prognostic modeling.</li>
+<li>Ligand-expression analysis was performed on TCGA RNA-seq, not on the MSK cohort itself (RNA was not collected on IMPACT samples).</li>
+<li>Only 18 patients had multiple sequenced specimens for primary–metastasis concordance assessment; a small N for that conclusion.</li>
+<li>Mechanistic explanation for why long CTNNB1 exon-3 deletions are CRC-specific while short deletions occur in hepatobiliary and melanoma is left open.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We performed prospective targeted sequencing of 1134 CRCs… increasing oncogenic WNT pathway alterations to 96% of CRCs” (Summary).</li>
+<li>“1027 MSS tumors (90.6%), 99 MSI-H/hypermutated tumors (8.7%), and 8 <a href="../genes/POLE.html">POLE</a> mutant tumors (0.7%)” (Subtype classification).</li>
+<li>“Forty-seven recurrently mutated genes were identified, the most frequently mutated being APC (79%), <a href="../genes/TP53.html">TP53</a> (78%), KRAS (44%), <a href="../genes/PIK3CA.html">PIK3CA</a> (18%), and <a href="../genes/SMAD4.html">SMAD4</a> (16%)” (Significantly recurrently mutated genes in MSS CRC).</li>
+<li>“TP53 alterations were the only genomic event significantly enriched in mCRC… <a href="../genes/FBXW7.html">FBXW7</a> alterations were enriched in early stage tumors” (Significantly recurrently mutated genes in MSS CRC).</li>
+<li>“35 MSS cases harboring a recurrent intronic single-nucleotide variant eight nucleotides upstream of APC exon 9 (chr5:112151184 A&gt;G)” (WNT Pathway alterations).</li>
+<li>“CTNNB1 in-frame deletions were largely mutually exclusive with APC alterations and other WNT pathway alterations (p&lt;0.001)” (WNT Pathway alterations).</li>
+<li>“5-year median OS for patients with right-sided tumors was 45% compared to 67% for patients with left-sided tumors (p&lt;0.001)” (Genomic analysis by primary tumor site).</li>
+<li>“median mutation burden in patients &lt; 50 years at diagnosis was 5.1 versus 4.2 for right- versus left-sided primary site (p&lt;0.001)” (Genomic analysis by primary tumor site).</li>
+<li>“oncogenic alterations in APC (HR=0.57, p&lt;0.01), BRAF (HR=2.02, p&lt;0.001), KRAS (HR=1.40, p&lt;0.01), and NRAS (HR 2.59, p&lt;0.01) were predictive of survival, whereas primary site was not (HR=1.29, p=0.14)” (Genomic analysis by primary tumor site).</li>
+<li>“potentially actionable alterations were enriched in MSI-H/hypermutated tumors compared with MSS tumors (86% versus 37%, p&lt;0.001)” (Clinical actionability of genomic alterations).</li>
+<li>“One tumor harbored EGFR S492R, a known resistance alteration to cetuximab… this tumor also harbored <a href="../genes/ERBB2.html">ERBB2</a> amplification, another potential mechanism of cetuximab resistance” (Clinical actionability of genomic alterations).</li>
+<li>“Our full dataset is publicly available through the cBioPortal for Cancer Genomics (http://www.cbioportal.org/study?id=<a href="../datasets/crc_msk_2017.html">crc_msk_2017</a>)” (Data and Software Availability).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29316426.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29316426.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -110,6 +110,7 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Most frequently mutated gene in the METABRIC 2,433-tumor breast cancer cohort (40.1% coding-mutation frequency); ER+ ONC=94%, ER- ONC=81%. Helical-domain (codons 542/545) and codon 345 hotspots enriched in ER+; kinase-domain codon 1047 enriched in ER-. Mutually exclusive with AKT1, PIK3R1, and FOXO3. Prognostic in ER- disease (HR=1.4); prognostic in ER+ only within IntClusts 1, 2, and 9 (defined by 17q23, 11q13-14, and 8q24 amplifications). 45.2% of all tumors had a mutation in at least one Akt-pathway member. [PMID:27161491](../papers/27161491.md)
 - PIK3CA E542K mutations (n=4) identified in cisplatin-resistant germ cell tumor patients; classified as actionable PI3K-pathway alteration in a targeted sequencing cohort [PMID:27646943](../papers/27646943.md).
 - PIK3CA mutated in 10% of recurrent/metastatic HPV-positive HNSCC (down from 36% in primary HPV+ tumors); 4 HNSCC and 1 NPC and 1 ACYC patients enrolled on PI3K-inhibitor trials based on this alteration [PMID:27442865](../papers/27442865.md).
+- Canonical UC driver with heterogeneous clonal sharing between primary and post-chemotherapy urothelial carcinoma samples in a 32-patient WES cohort; present in both truncal and sub-clonal compartments [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -386,5 +387,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

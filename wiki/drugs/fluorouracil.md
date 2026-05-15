@@ -5,8 +5,8 @@ drug_class: fluoropyrimidine antimetabolite
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # fluorouracil
@@ -24,6 +24,7 @@ processed_at: 2026-05-14
 - Listed as a component of standard head and neck cancer systemic therapy regimens in the cBioPortal platform paper describing HNSCC genomic data [PMID:19176454](../papers/19176454.md)
 - Cited in [HCC](../cancer_types/HCC.md) systemic therapy review as a reference chemotherapy agent in historical combination regimens [PMID:24798001](../papers/24798001.md)
 - Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); high-clonality (HiC) GC subtype (adjusted HR 4.69, P=0.0043 for shorter survival) and subclonal [TP53](../genes/TP53.md) suggest single-agent regimens may select for resistant clones [PMID:25583476](../papers/25583476.md)
+- Listed among concurrent systemic therapies used in SBRT trials for locally advanced [PAAD](../cancer_types/PAAD.md), alongside [gemcitabine](../drugs/gemcitabine.md) and [capecitabine](../drugs/capecitabine.md); the Koong et al Phase II (n=16, 45 Gy IMRT + 25 Gy SBRT boost + 5-FU) achieved 94% 1-year freedom from local recurrence with 13% grade 3+ acute toxicity [PMID:27826200](../papers/27826200.md)
 
 ## Resistance mechanisms
 
@@ -39,11 +40,10 @@ processed_at: 2026-05-14
 - [PMID:36493333](../papers/36493333.md)
 - [PMID:39214094](../papers/39214094.md)
 - [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:36334560](../papers/36334560.md)
+- [PMID:27826200](../papers/27826200.md) — Tchelebi et al. 2016, *Semin Radiat Oncol*. SBRT in pancreatic cancer review; 5-FU as concurrent systemic agent in reviewed SBRT trials.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:19176454](../papers/19176454.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*

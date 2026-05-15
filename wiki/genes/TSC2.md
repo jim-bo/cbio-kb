@@ -26,6 +26,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - TSC2 recurrently mutated in chromophobe renal cell carcinoma (chRCC), suggesting mTORC1 addiction and possible responsiveness to mTORC1 inhibitors (rapalogs) [PMID:25401301](../papers/25401301.md)
 - PI3K/AKT/mTOR pathway member; the pathway is disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
 - PI3K/mTOR pathway event in cisplatin-resistant germ cell tumors; co-occurs with TSC1, AKT1, MTOR, PIK3CA, and PTEN alterations as part of actionable PI3K/mTOR pathway events identified by targeted sequencing in 180 GCT patients [PMID:27646943](../papers/27646943.md)
+- Mutated in 3/62 uRCC (4.8%); part of the mTORC1-hyperactive subset alongside MTOR, TSC1, and PTEN mutations; all TSC2-mutated tumours show maximal p-4EBP1 IHC (H-score=300), and the subset is mutually exclusive with NF2 loss. [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -50,31 +51,34 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - [PMID:37769223](../papers/37769223.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:21252315](../papers/21252315.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

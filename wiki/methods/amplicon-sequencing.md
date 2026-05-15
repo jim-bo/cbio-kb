@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, deep-sequencing, editing-quantification]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Amplicon Sequencing
@@ -18,6 +18,7 @@ Amplicon (deep) sequencing is a targeted PCR-amplicon-based next-generation sequ
 ## Used by
 
 - Amplicon deep sequencing of AAV-CRISPR-edited genomic loci (Tp53, Nf1, Pik3ca) was used to quantify Indel rates and HDR efficiency in rat mammary tumor models; confirmed ~4.2% whole-gland allelic editing and ~80% allelic editing in Nf1Indel tumors. [PMID:26437033](../papers/26437033.md)
+- Ion AmpliSeq 8-gene amplicon panel (TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1) applied to 45 AML/MDS patients on decitabine to track serial mutation clearance. [PMID:27959731](../papers/27959731.md)
 
 ## Notes
 
@@ -30,3 +31,6 @@ Amplicon (deep) sequencing is a targeted PCR-amplicon-based next-generation sequ
 - [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

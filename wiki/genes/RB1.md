@@ -43,6 +43,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - One of six genes significantly mutated in both lung ADC and lung SqCC histologies in the 1,144-tumor NSCLC landscape study (alongside TP53, ARID1A, CDKN2A, PIK3CA, NF1); sex-specific enrichment: RB1 mutations enriched in females in lung SqCC (FDR q < 0.1). [PMID:27158780](../papers/27158780.md)
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (cell-cycle TSG); co-mutation of TP53+RB1 (OR=5.3) is characteristic of triple-negative breast cancers. [PMID:27161491](../papers/27161491.md)
 - RB1 alterations found in 3/20 (15%) recurrent/metastatic HPV-positive HNSCC; co-mutation with TP53 associated with elevated chromosomal instability [PMID:27442865](../papers/27442865.md).
+- Combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), suggesting selective elimination of RB1-altered clones by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -141,5 +142,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

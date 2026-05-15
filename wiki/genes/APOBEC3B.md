@@ -3,8 +3,8 @@ symbol: APOBEC3B
 aliases: []
 cancer_types: [BLCA]
 tags: [mutational-signature, cytidine-deaminase]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # APOBEC3B
@@ -18,6 +18,7 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 - Highly expressed across all muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); the dominant source of the TpC mutational signature representing 51% of all mutations in the TCGA bladder cohort; APOBEC3B expression correlates with mutational burden in urothelial carcinoma [PMID:24476821](../papers/24476821.md)
 - Up-regulated in ESCC tumors; implicated as the cytidine deaminase responsible for the trinucleotide mutational signature observed across 139 paired ESCC samples [PMID:24686850](../papers/24686850.md)
 - Elevated mRNA in chromophobe RCC vs normal kidney; APOBEC mutational signature enriched in kataegis-bearing ChRCC cases [PMID:25155756](../papers/25155756.md)
+- APOBEC3B RTCA mutagenesis significantly enriched (P=0.0395) in post-chemotherapy urothelial carcinoma tumors, implicated in chemotherapy-driven mutational editing via increased ssDNA availability during repair [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -45,4 +46,6 @@ APOBEC3B (Apolipoprotein B mRNA Editing Enzyme Catalytic Subunit 3B) encodes a c
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

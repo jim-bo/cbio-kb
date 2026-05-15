@@ -3,8 +3,8 @@ symbol: RYR2
 aliases: []
 cancer_types: ["ACYC"]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RYR2
@@ -16,6 +16,7 @@ RYR2 encodes Ryanodine Receptor 2, a major intracellular calcium release channel
 ## Alterations observed in the corpus
 
 - Recurrent somatic mutation; frequency 2%; intracellular calcium channel linked to PKA pathway in adenoid cystic carcinoma. [PMID:23685749](../papers/23685749.md)
+- Sub-clonal mutation in the WCM117 urothelial carcinoma primary that became enriched in chemotherapy-treated metastatic lesions, representing an early founder signal that survived platinum-based chemotherapy selection [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RYR2 encodes Ryanodine Receptor 2, a major intracellular calcium release channel
 - [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

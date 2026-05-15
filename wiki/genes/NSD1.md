@@ -3,8 +3,8 @@ symbol: NSD1
 aliases: []
 cancer_types: [AML, HNSC]
 tags: [fusion, NUP98-partner, histone-methyltransferase, leukemia, pediatric-AML]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NSD1
@@ -17,6 +17,7 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 
 - [NUP98](../genes/NUP98.md)–NSD1 recurrent in-frame fusion detected by RNA-seq in adult de novo [AML](../cancer_types/AML.md) cases (TCGA [AML](../cancer_types/AML.md) cohort, 200 cases); identified as one of the additional recurrent in-frame fusions beyond the major known fusions [PMID:23634996](../papers/23634996.md)
 - NSD1 significantly mutated in 10% of [HNSC](../cancer_types/HNSC.md) (29 inactivating mutations + 4 focal homozygous deletions, MutSigCV q<0.1, TCGA n=279); H3K36 methyltransferase; loss associated with DNA hypomethylation; germline NSD1 inactivation causes Sotos syndrome with squamous-carcinoma predisposition; defines atypical and classical mRNA subtype enrichment. [PMID:25631445](../papers/25631445.md)
+- DUX4 binding at the NSD1 locus induces transcription from a non-canonical first exon in the DUX4/ERG ALL subtype, expanding the transcriptional landscape driven by the IGH–DUX4 rearrangement [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ NSD1 (Nuclear Receptor Binding SET Domain Protein 1) is a histone H3K36 methyltr
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

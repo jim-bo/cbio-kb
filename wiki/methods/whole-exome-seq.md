@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -131,6 +131,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 660 lung ADC and 484 lung SqCC tumor/normal pairs (Agilent SureSelect 50MB, Illumina paired-end) for comprehensive NSCLC driver and neoepitope landscape analysis [PMID:27158780](../papers/27158780.md)
 - Whole-exome sequencing applied in germline susceptibility studies of young-onset NSCLC, including identification of pathogenic variants in BRCA1, BRCA2, and Fanconi-anemia-pathway genes in YLC cohorts [PMID:27346245](../papers/27346245.md)
 - WES applied to a discovery cohort of 19 advanced germ cell tumors (10 cisplatin-resistant, 9 cisplatin-sensitive) at mean 116x coverage; identified TP53 mutations exclusive to resistant tumors and novel RAC1 hotspot mutations validated in the prospective MSK-IMPACT cohort [PMID:27646943](../papers/27646943.md)
+- CLIA-grade EXaCT-1 whole-exome sequencing (Agilent HaloPlex, 21,522 genes, mean 85x coverage) applied to 72 urothelial carcinoma tumours from 32 patients to map clonal evolution pre- and post-chemotherapy. [PMID:27749842](../papers/27749842.md)
+- WES on N=44 B-ALL cases from the DUX4/ERG subtype study (1,913 total cases) to detect sequence mutations; mean 17.5 non-silent mutations per case with a paucity of structural alterations. [PMID:27776115](../papers/27776115.md)
+- Enhanced exome sequencing (NimbleGen v3 capture + 264 AML gene probes, Illumina HiSeq 2000/2500) on 39 AML/MDS patients with 157 serial exomes to track clonal dynamics during decitabine therapy. [PMID:27959731](../papers/27959731.md)
 
 ## Notes
 
@@ -426,16 +429,25 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

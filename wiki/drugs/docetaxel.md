@@ -21,6 +21,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - Docetaxel was listed among NCCN-listed top-five regimens recurrently identified for [osteosarcoma](../cancer_types/OS.md) in the PDTO functional screen, alongside [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [sorafenib](../drugs/sorafenib.md), [regorafenib](../drugs/regorafenib.md), [doxorubicin](../drugs/doxorubicin.md), [cabozantinib](../drugs/cabozantinib.md), gemcitabine, and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
 - Used in combination with [selumetinib](../drugs/selumetinib.md) in a co-clinical GEM/human trial for KRAS-mutant [LUAD](../cancer_types/LUAD.md); STK11/LKB1 loss was found to significantly influence resistance to the selumetinib + docetaxel combination in mouse lung adenocarcinoma models [PMID:23999436](../papers/23999436.md).
 - Most of 63 mCRPC men in the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort received at least one systemic chemotherapy, most commonly docetaxel, as part of their prior treatment history; docetaxel use is described as a background treatment rather than a study intervention. [PMID:26928463](../papers/26928463.md)
+- Listed as a later-line regimen in the WashU urothelial carcinoma WES cohort (n=32 patients); specifically, docetaxel + [ramucirumab](../drugs/ramucirumab.md) was administered at disease progression in the WCM117 case after cisplatin + gemcitabine, illustrating the multi-line treatment context of post-chemotherapy clonal evolution [PMID:27749842](../papers/27749842.md)
 
 ## Resistance mechanisms
 
@@ -36,5 +37,6 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:23999436](../papers/23999436.md)
 - [PMID:26928463](../papers/26928463.md)
+- [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; docetaxel + ramucirumab as later-line regimen in WCM117 post-cisplatin/gemcitabine.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

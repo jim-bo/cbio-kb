@@ -35,6 +35,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Whole-exome sequencing of 50 muscle-invasive urothelial carcinoma patients (25 [cisplatin](../drugs/cisplatin.md) responders vs 25 non-responders) identified somatic [ERCC2](../genes/ERCC2.md) mutations exclusively in responders (9/25, 36%; q=0.007), proposing [ERCC2](../genes/ERCC2.md) as a predictive biomarker for neoadjuvant cisplatin-based chemotherapy response. [PMID:25096233](../papers/25096233.md)
 - [UTUC](../cancer_types/UTUC.md) and BLCA share recurrent [FGFR3](../genes/FGFR3.md) alterations; targeted sequencing of upper-tract urothelial carcinoma cohort identified [FGFR3](../genes/FGFR3.md) mutations in a subset with bladder cancer comparisons [PMID:26278805](../papers/26278805.md)
 - Plasmacytoid-variant bladder cancer (SRCBC) arises within the context of urothelial carcinoma; [CDH1](../genes/CDH1.md) truncating mutations are pathognomonic for the plasmacytoid subtype (84% frequency, vs 0% in 127 TCGA urothelial NOS tumors), and E-cadherin loss is universal; co-mutation profile otherwise overlaps with conventional urothelial carcinoma ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [ERBB2](../genes/ERBB2.md), [PIK3CA](../genes/PIK3CA.md)) [PMID:26901067](../papers/26901067.md)
+- WES of 72 urothelial tumors from 32 patients (16 matched pre/post-chemotherapy sets + 2 rapid autopsies) at Weill Cornell showed only 28.4% of mutations shared between matched pre- and post-chemotherapy samples; post-chemotherapy tumors showed clonal enrichment of L1CAM/integrin-signaling pathway mutations and dominant APOBEC3A mutagenesis, supporting repeat biopsy and L1CAM/FAK inhibition as candidate strategies in chemotherapy-resistant BLCA [PMID:27749842](../papers/27749842.md).
 
 ## Subtypes
 
@@ -70,3 +71,6 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:26901067](../papers/26901067.md) — Al-Ahmadie et al., plasmacytoid-variant bladder cancer WES; CDH1 truncating mutations pathognomonic for the SRCBC subtype
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

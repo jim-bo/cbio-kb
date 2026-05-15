@@ -25,6 +25,7 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 - SRSF2 is a recurrent spliceosome-complex gene mutated in [AML](../cancer_types/AML.md) (14% combined prevalence with [U2AF1](../genes/U2AF1.md) and [SF3B1](../genes/SF3B1.md)) [PMID:23634996](../papers/23634996.md)
 - SRSF2 somatic splicing-factor mutation in 2 [MPN](../cancer_types/MPN.md) patients; co-mutated with [TET2](../genes/TET2.md), [IDH1](../genes/IDH1.md), and [ASXL1](../genes/ASXL1.md) — a co-mutation pattern echoing MDS [PMID:24325359](../papers/24325359.md)
 - Splicing factor in AML chromatin-spliceosome subgroup; HR 1.4 (95% CI 1.1–1.7), P=0.003, q=0.03; additive adverse effect with ASXL1; associated with ELN intermediate-risk reclassification to adverse risk [PMID:27276561](../papers/27276561.md)
+- Covered by the 8-gene AmpliSeq amplicon panel (TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1) and observed in AML/MDS patients on the 10-day decitabine trial; not reported as independently predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
 
 ## Cancer types (linked)
 
@@ -46,13 +47,16 @@ SRSF2 encodes a serine/arginine-rich splicing factor that regulates pre-mRNA spl
 
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

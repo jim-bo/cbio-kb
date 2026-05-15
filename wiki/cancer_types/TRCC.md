@@ -5,7 +5,7 @@ main_type: Renal Cell Carcinoma
 parent: NCCRCC
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Translocation-Associated Renal Cell Carcinoma (TRCC)
@@ -22,6 +22,7 @@ Translocation-Associated Renal Cell Carcinoma (TRCC) is defined by chromosomal t
 
 - In 6 tRCCs, known ASPSCR1-TFE3 and PRCC-TFE3 fusions were confirmed by FISH; a novel CLTC-TFEB in-frame fusion was identified in one unclassified case reclassified as tRCC; a novel MIDN-SBNO2 fusion (chr19p13.3 inversion) was found in a TFE3-fusion-negative case, driving elevated SBNO2 expression [PMID:25401301](../papers/25401301.md).
 - Two tRCC cases showed elevated TFE3 expression without detectable TFE3 fusion or amplification, indicating additional mechanisms of TFE3 activation beyond canonical translocation [PMID:25401301](../papers/25401301.md).
+- MiTF-family translocation tumors (TFE3/TFEB IHC/FISH positive) were prospectively excluded from the URCC cohort (n=62, MSKCC), confirming [TRCC](../cancer_types/TRCC.md) as a distinct entity; URCC T12 carries a TPM3-ALK fusion representing a separate non-TFE3/TFEB translocation-driven entity [PMID:27713405](../papers/27713405.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Translocation-Associated Renal Cell Carcinoma (TRCC) is defined by chromosomal t
 - [PMID:25401301](../papers/25401301.md) — Durinck et al., integrated genomic profiling of 167 non-clear cell RCCs including 6 tRCCs.
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

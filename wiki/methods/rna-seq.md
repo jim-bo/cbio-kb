@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [transcriptomics, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # RNA sequencing
@@ -88,6 +88,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied to 40 MRT cases plus 3 hESC lines (with 4 fetal cerebellum normals); NMF on top-25% most-variable protein-coding genes identified 2 mRNA sub-groups recapitulating the AT/RT vs RTK distinction, with organ site associated with sub-group 1 (all 6 extra-renal cases; Fisher p=0.04). [PMID:26977886](../papers/26977886.md)
 - Performed on 28-tumor subset of anti-PD-1-treated metastatic melanomas to identify the IPRES transcriptional resistance program via GSVA/GSEA enrichment analysis [PMID:26997480](../papers/26997480.md)
 - Performed on 495 lung ADC and 476 lung SqCC samples; used for fusion calling via PRADA and for mutational-signature transcriptional cross-validation in the NSCLC landscape study [PMID:27158780](../papers/27158780.md)
+- Applied on 7 uRCC tumours (4 NF2-loss, 3 NF2-WT) using Illumina HiSeq 2500, with STAR alignment, to evaluate YAP/TAZ transcriptional signatures via GSEA. [PMID:27713405](../papers/27713405.md)
+- Transcriptome sequencing (RNA-seq) on N=54 cases used to characterize the DUX4/ERG B-ALL subtype; identified ERGalt from a novel non-canonical first exon and distinguished this subtype from other B-ALL classes. [PMID:27776115](../papers/27776115.md)
 
 ## Notes
 
@@ -282,7 +284,13 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

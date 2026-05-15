@@ -3,8 +3,8 @@ symbol: CDKN2B
 aliases: []
 cancer_types: [NSCLC, LUAD, BLCA, UTUC, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, RMS, ARMS, PLMESO, PTAD, THAP]
 tags: [cell-cycle, tumor-suppressor, deletion, brain-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CDKN2B
@@ -43,6 +43,7 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - Homozygous deletions enriched in high-grade [UTUC](../cancer_types/UTUC.md) vs high-grade UCB (15.3% vs 3.9%, p=0.016); one of the most significantly differentially altered genes between [UTUC](../cancer_types/UTUC.md) and bladder cancer [PMID:26278805](../papers/26278805.md)
 - Homozygous loss co-occurred with [CDKN2A](../genes/CDKN2A.md) loss in the recurrent medulloblastoma clone of patient MB-REC-12 after therapy-mediated elimination of the PTCH1-driven primary clone [PMID:26760213](../papers/26760213.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
+- 9p21 codeletion (with [CDKN2A](../genes/CDKN2A.md) and [MTAP](../genes/MTAP.md)) defines CN Cluster A in urothelial carcinoma; co-deleted with CDKN2A as tumor progressed from heterozygous to homozygous deletion in post-chemotherapy metastases [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -119,3 +120,6 @@ CDKN2B encodes p15^INK4b, a cyclin-dependent kinase inhibitor co-located with [C
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

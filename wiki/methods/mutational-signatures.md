@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -26,6 +26,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - COSMIC mutational signatures SBS7a, SBS7b, SBS7c, SBS7d (UVR-associated) and DBS1 (CC>TT) were attributed in NanoSeq data from paired pre/post NB-UVB skin biopsies; post-treatment SBS7 increase in buttock skin was significant (P<0.001, Mann-Whitney U) and correlated tightly with DBS1 increase (Pearson r=0.897). [PMID:26950094](../papers/26950094.md)
 - Six mutational signatures extracted by NMF from 1,144 NSCLC exomes; smoking signature SI4 separated never- vs ever-smokers well in ADC (AUC=0.87) but poorly in SqCC (AUC=0.62) [PMID:27158780](../papers/27158780.md)
 - Mutational signature decomposition applied to 151 advanced head and neck tumors; identified APOBEC, tobacco, and UV-light signatures — UV signature present in 86% of CSCC cases and associated with markedly higher mutation counts (37.9 vs 4.3, P=.008) [PMID:27442865](../papers/27442865.md)
+- COSMIC mutational signature decomposition applied to urothelial carcinoma WES data identified four signatures (APOBEC sigs 2/13, age, smoking, ERCC2-associated); post-chemotherapy tumours were enriched for APOBEC3A YTCA-context mutations (P=1×10⁻⁵). [PMID:27749842](../papers/27749842.md)
 
 ## Notes
 
@@ -57,7 +58,10 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

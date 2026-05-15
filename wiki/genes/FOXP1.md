@@ -3,8 +3,8 @@ symbol: FOXP1
 aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # FOXP1
@@ -25,6 +25,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - Recurrent fusion partner in melanoma: MITF-FOXP1 fusion identified in BRAF-subtype cutaneous melanoma [PMID:26091043](../papers/26091043.md)
 - Part of a complex 3p13 deletion locus (with [RYBP](../genes/RYBP.md) and [SHQ1](../genes/SHQ1.md)) in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 - HD-defined TSG newly nominated as a breast-cancer Mut-driver; well-known driver in other cancer types suggesting potential for cross-cancer drug repurposing [PMID:27161491](../papers/27161491.md)
+- Mutation present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases (private to the eradicated clone); implicated in cellular cisplatin response alongside [POLD2](../genes/POLD2.md) [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

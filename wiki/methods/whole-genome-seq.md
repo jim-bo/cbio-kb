@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -82,6 +82,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 40 MRT tumor/normal pairs (median tumor content 88.0%); identified near-universal SMARCB1 biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
 - Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in AML; the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
 - Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset NSCLC [PMID:27346245](../papers/27346245.md)
+- WGS on N=32 B-ALL cases to identify IGH-DUX4 rearrangements and characterize the genomic landscape of the DUX4/ERG B-ALL subtype. [PMID:27776115](../papers/27776115.md)
 
 ## Notes
 
@@ -267,7 +268,10 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

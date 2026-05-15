@@ -32,6 +32,8 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - PI3K/AKT/mTOR pathway member; the pathway is disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³) in thyroid cancer [PMID:26878173](../papers/26878173.md)
 - Listed among clinically actionable alterations recurrent in plasmacytoid-variant bladder cancer; recurrence implies potential benefit from mTOR-pathway agents [PMID:26901067](../papers/26901067.md)
 - PI3K/mTOR pathway event in cisplatin-resistant germ cell tumors; mutually expands the actionable alteration landscape alongside TSC2, AKT1, MTOR, PIK3CA, and PTEN in the same cohort of 180 GCT patients [PMID:27646943](../papers/27646943.md)
+- Mutated in 4/62 uRCC (6.5%); together with MTOR, TSC2, and PTEN mutations, defines the mTORC1-hyperactive uRCC subset (21% of cases); all TSC1/TSC2-mutated tumours show maximal p-4EBP1 H-score=300, and mutations are mutually exclusive with NF2 loss. [PMID:27713405](../papers/27713405.md)
+- TSC1 acquired a non-truncal driver mutation at a clonal divergence node in the WCM117 rapid-autopsy phylogeny of urothelial carcinoma, representing an early branching event during tumour evolution prior to chemotherapy. [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -54,43 +56,43 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - [PMID:37682528](../papers/37682528.md)
 - [PMID:40256659](../papers/40256659.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36543146](../papers/36543146.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23897969](../papers/23897969.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24121792](../papers/24121792.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25092538](../papers/25092538.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25155756](../papers/25155756.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
@@ -98,5 +100,11 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

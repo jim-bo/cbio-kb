@@ -4,7 +4,7 @@ aliases: [TAZ]
 cancer_types: []
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # WWTR1
@@ -16,6 +16,7 @@ WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together w
 ## Alterations observed in the corpus
 
 - WWTR1 (TAZ) siRNA abolished stiffness-induced gallbladder fibroblast activation and SEMA7A secretion in primary human GF cultures on 16 kPa hydrogels; acts in concert with YAP1 as a mechanotransducer upstream of TEAD1/SEMA7A. [PMID:24997986](../papers/24997986.md)
+- WWTR1 (TAZ) is not mutated in uRCC but its nuclear accumulation (with YAP1) marks the NF2-loss subset and is driven by loss of NF2-mediated Hippo pathway suppression; shYAP1 knockdown reverses proliferation and colony-formation phenotypes in NF2-loss nccRCC lines. [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,7 @@ WWTR1 (also known as TAZ) encodes a transcriptional coactivator that, together w
 
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

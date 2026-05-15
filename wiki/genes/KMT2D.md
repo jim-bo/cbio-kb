@@ -48,6 +48,9 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Truncating mutation p.Gln2418* in mycosis fungoides (CTCL); KMT2D chromatin-modifier mutations identified alongside [KMT2C](../genes/KMT2C.md) in the CTCL/Sézary syndrome exome cohort [PMID:26551667](../papers/26551667.md)
 - 3 mutations in 2 tumors (MLL2) in adenoid cystic carcinoma (ACC; n=25 WGS); significant enrichment of truncating mutations (p=0.008); part of a chromatin-regulator cluster with KMT2C, KDM6A, SMARCA2, and SMARCC1 [PMID:26862087](../papers/26862087.md)
 - KMT2D, together with KMT2A, KMT2C, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02) in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
+- Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); among the most frequent chromatin-modulator alterations alongside KMT2C and KMT2A (combined KMT2 family 16%); clusters in the chromatin/DNA-damage regulator subgroup with intermediate clinical outcome. [PMID:27713405](../papers/27713405.md)
+- Among canonical urothelial carcinoma (UC) drivers (alongside PIK3CA and ATM) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
+- Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, SETD2, ARID2 and NCOR1 as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -160,7 +163,16 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

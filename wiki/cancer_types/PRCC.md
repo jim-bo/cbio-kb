@@ -5,7 +5,7 @@ main_type: Renal Cell Carcinoma
 parent: NCCRCC
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Papillary Renal Cell Carcinoma (PRCC)
@@ -22,6 +22,7 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 
 - Integrated exome/RNA-seq/CNV profiling of 67 pRCCs identified ten significantly mutated genes: MET (15%, including novel activating kinase-domain mutations), NF2, SLC5A3, PNKD, CPQ, LRP2, CHD3, NHERF1, SETD2, and CRTC1; ~70% of pRCCs harbour chr7 amplification encompassing MET; mutational burden in pRCC exceeded ccRCC (mean 61 vs 45 protein-coding alterations, P=3.6×10⁻⁷) [PMID:25401301](../papers/25401301.md).
 - A novel transforming ACTG1-MITF gene fusion was identified in one pRCC sample, activating HIF1A, MET, and APEX1 targets [PMID:25401301](../papers/25401301.md).
+- URCC (n=62, MSKCC) harbors MET H1094Y (T62) and BAP1/SETD2 chromatin alterations overlapping [PRCC](../cancer_types/PRCC.md) biology; NF2/SETD2-mutant cases are noted to be histologically near the type 2 pRCC boundary [PMID:27713405](../papers/27713405.md).
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Papillary Renal Cell Carcinoma (PRCC) is a subtype of non-clear cell renal cell 
 - [PMID:25401301](../papers/25401301.md) — Durinck et al., integrated genomic profiling of 167 non-clear cell RCCs including 67 pRCCs.
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

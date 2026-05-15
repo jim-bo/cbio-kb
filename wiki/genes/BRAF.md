@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -88,6 +88,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF: lower frequency in young lung cancer compared to older patients; MET exon 14 skipping also age-skewed [PMID:27346245](../papers/27346245.md)
 - BRAF: mutated in 1% (n=9) of AML cases; independently adverse (P=0.009, q=0.06); proposed candidate for BRAF inhibitor therapy [PMID:27276561](../papers/27276561.md)
 - BRAF: 3 hotspot mutations (D594N, D594G, G466E) in germ cell tumor cohort (1.7% rate); sorafenib nominated as therapeutic option [PMID:27646943](../papers/27646943.md)
+- BRAF Y472C pathogenic mutation found in a single uRCC case (T69), suggesting overlap with papillary RCC and providing a candidate therapeutic target [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -304,4 +305,6 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

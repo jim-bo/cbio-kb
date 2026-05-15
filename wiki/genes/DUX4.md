@@ -3,8 +3,8 @@ symbol: DUX4
 aliases: [DUX4L]
 cancer_types: [ACYC]
 tags: [homozygous-deletion, copy-number, salivary-gland, adenoid-cystic-carcinoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # DUX4
@@ -16,6 +16,7 @@ DUX4 (Double Homeobox 4) encodes a transcription factor expressed during early e
 ## Alterations observed in the corpus
 
 - Homozygous deletion at chromosomal region 10q26.3 spanning DUX4/DUX4L homeobox genes detected in 3/25 (12%) salivary-gland adenoid cystic carcinomas by whole-genome sequencing; deletion calls flagged as potentially artifactual due to the tandem-repeat genomic context and require orthogonal validation. [PMID:26862087](../papers/26862087.md)
+- IGH-DUX4 rearrangement is universal (100%) in the DUX4/ERG B-ALL subtype; C-terminal truncation alleles (e.g. E415*, Q334*) insert adjacent to the IGH enhancer; DUX4 directly binds the ERG exon 6 alt promoter region (two binding motifs in a 372 nt region) [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ DUX4 (Double Homeobox 4) encodes a transcription factor expressed during early e
 - [PMID:26862087](../papers/26862087.md) — Rettig et al. (2016), whole-genome sequencing of 25 ACC tumors with matched normals (acyc_jhu_2016), somatic copy-number landscape of salivary-gland ACC.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

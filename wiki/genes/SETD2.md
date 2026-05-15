@@ -31,6 +31,8 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - HMT (histone methyltransferase) family member mutated in 24% of ATC vs 7% of PDTC (P = 0.02) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
 - Significantly mutated methyltransferase in lung ADC (LUAD), identified alongside [KMT2C](../genes/KMT2C.md) in a 1,144-NSCLC exome-sequencing cohort (q < 0.1 by MutSig2CV) [PMID:27158780](../papers/27158780.md).
 - Tumor-suppressor/chromatin alteration flagged as actionable in cisplatin-resistant germ cell tumors (GCT); part of a panel of epigenetic and DNA-repair events alongside EP300, PTPRD, and BRCA2 identified by targeted sequencing of 180 GCT patients [PMID:27646943](../papers/27646943.md)
+- Mutated in 18% of unclassified high-grade RCC (uRCC) overall and in 44% of the NF2-loss subset (Fisher P=0.004); all 7 NF2-loss/SETD2-mutated tumours show complete loss of H3K36me3 IHC mark; suggests synthetic-lethal opportunity with WEE1 inhibition in this context. [PMID:27713405](../papers/27713405.md)
+- One of the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (56.3% of cases have epigenetic-modifier mutations overall); SETD2 mutations specifically enriched in this subtype alongside KMT2D, ARID2, and NCOR1, in a cohort of 1,913 B-progenitor ALL patients. [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -52,34 +54,34 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22138691](../papers/22138691.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25201530](../papers/25201530.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25223734](../papers/25223734.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
@@ -90,5 +92,11 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

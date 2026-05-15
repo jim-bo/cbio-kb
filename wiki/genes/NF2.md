@@ -23,6 +23,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - NF2 inactivating events observed in metastatic cSCC (n=29) as a chromatin/tumor suppressor hit. [PMID:25589618](../papers/25589618.md)
 - NF2 infrequent truncating mutations observed in PDTC and ATC as part of a set of low-frequency tumor-suppressor alterations [PMID:26878173](../papers/26878173.md)
 - NF2 is focally deleted by the only chromosome-22 deletions that spare SMARCB1 in extra-cranial malignant rhabdoid tumor (MRT), along with LIF; observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
+- Recurrent truncating and missense mutations in 18% of unclassified RCC (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

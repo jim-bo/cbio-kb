@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -57,6 +57,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Used as the CLIA-certified MSK-IMPACT 341-gene panel to profile 6 plasmacytoid-variant bladder tumors in a prospective clinical cohort at MSKCC; identified CDH1 truncating mutations in all 6 plasmacytoid cases and 0/56 urothelial NOS cases. [PMID:26901067](../papers/26901067.md)
 - MSK-IMPACT 410-gene panel (IMPACT410) applied to 151 advanced head and neck tumors at MSK; CLIA-approved, median coverage 600x; guided therapy in 21/151 (14%) patients and 13/53 (25%) HNSC cases [PMID:27442865](../papers/27442865.md)
 - MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective GCT patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
+- Used for targeted DNA sequencing (230-gene panel, avg 348x tumour / 280x normal coverage) to characterize 62 high-grade unclassified renal cell carcinoma (uRCC) tumours at MSKCC; variant calling via MuTect and GATK Somatic Indel Detector on hg19-aligned reads. [PMID:27713405](../papers/27713405.md)
 
 ## Notes
 
@@ -133,7 +134,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

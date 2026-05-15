@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # BWA (Burrows-Wheeler Aligner)
@@ -36,6 +36,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - bwa v0.7.1 used for alignment of WES reads from 141 tumors of 56 men with metastatic CRPC (prad_fhcrc), followed by GATK indel realignment and MuTect somatic mutation calling. [PMID:26928463](../papers/26928463.md)
 - BWA-MEM used for read realignment in 619 CRC FFPE tumor/normal WES pairs prior to SNV/indel calling with MuTect and Indelocator/Strelka [PMID:27149842](../papers/27149842.md)
 - Used for read alignment in the NSCLC pan-lung WES study covering 1,144 tumor/normal pairs (660 ADC + 484 SqCC) [PMID:27158780](../papers/27158780.md)
+- BWA-MEM used to align tumour and matched-normal reads to hg19 for MSK-IMPACT sequencing in 62 uRCC tumours; average coverage 348x tumour / 280x normal. [PMID:27713405](../papers/27713405.md)
 
 ## Notes
 
@@ -96,7 +97,10 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

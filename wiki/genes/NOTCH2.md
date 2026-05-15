@@ -28,6 +28,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - Non-synonymous substitution in one ACC tumor [PMID:26862087](../papers/26862087.md)
 - NOTCH2 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - NOTCH2 mutation found uniquely in the plasmacytoid component of a mixed plasmacytoid/urothelial NOS bladder tumor (multi-region sequencing); functional consequence not dissected [PMID:26901067](../papers/26901067.md)
+- Recurrent mutation in 5% of unclassified RCC (uRCC) in the MSK-IMPACT 230-gene panel cohort (n=62) [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - [PMID:26901067](../papers/26901067.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

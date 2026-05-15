@@ -410,6 +410,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pdfplumber" },
+    { name = "pyyaml" },
     { name = "requests" },
 ]
 
@@ -475,6 +476,7 @@ requires-dist = [
     { name = "pytesseract", marker = "extra == 'ocr'" },
     { name = "python-dotenv", marker = "extra == 'chat'" },
     { name = "python-multipart", marker = "extra == 'chat'" },
+    { name = "pyyaml" },
     { name = "requests" },
     { name = "spacy", marker = "extra == 'server'" },
     { name = "sse-starlette", marker = "extra == 'chat'" },

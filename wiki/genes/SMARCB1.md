@@ -1,8 +1,8 @@
 ---
 symbol: SMARCB1
-aliases: [INI1, SNF5]
-cancer_types: [MNG, PAAD]
-tags: [swi-snf, tumor-suppressor, meningioma]
+aliases: [SNF5, INI1]
+cancer_types: [MRTL, ATRT]
+tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, biallelic-loss, ezh2-target]
 processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
@@ -11,57 +11,32 @@ processed_at: 2026-05-15
 
 ## Overview
 
-SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling complex and a well-established tumor suppressor. In the corpus it is referenced as a known meningioma driver gene assessed in the mutational landscape of meningiomas.
+SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chromatin, Subfamily B, Member 1), also known as SNF5 or INI1, encodes a core subunit of the SWI/SNF chromatin-remodeling complex. Biallelic inactivation of SMARCB1 is the defining molecular event of malignant rhabdoid tumors (MRT) and atypical teratoid/rhabdoid tumors (ATRT). Tumors with SMARCB1 loss are synthetic lethal with EZH2 activity and are targets for EZH2 inhibitor therapy.
 
 ## Alterations observed in the corpus
 
-- SMARCB1 was assessed as a known meningioma driver gene in the mutational analysis of the four-group integrative molecular classification of meningiomas (n=121 discovery cohort) [PMID:34433969](../papers/34433969.md).
-- SMARCB1 alterations enriched in MAPK-WT PDAC (8% vs <1% in KRAS-mutant, P = 2.4 × 10⁻⁶) in a 2,336-patient MSK-IMPACT cohort; 3/4 SMARCB1-altered MAPK-WT tumors showed aggressive histology (poorly differentiated or high grade), though none met criteria for monomorphic anaplastic carcinoma. [PMID:39753968](../papers/39753968.md)
-- Homozygous deletion with complete loss of protein expression (IHC) in a myoepithelial carcinoma (MEC1); part of a chromoplexy event on Chr 22 [PMID:36577525](../papers/36577525.md)
-- Chromatin remodeler truncated or hit at COSMIC sites in metastatic cSCC; chromatin-remodeling inactivation present in 48% of cohort and associated with longer PFS in prognostic stratification [PMID:25589618](../papers/25589618.md)
-- SWI/SNF subunit mutated in 36% of ATC vs 6% of PDTC (P = 1×10⁻⁴) in thyroid cancer; mutations generally mutually exclusive within the SWI/SNF complex [PMID:26878173](../papers/26878173.md)
-- Biallelic inactivation (mutations, deletions, somatic LOH) in 39/40 extra-cranial MRT cases; the dominant driver; loss associated with downstream loss of H3K27me3 at homeobox promoters and gain of MRT-specific super-enhancers at HOX clusters [PMID:26977886](../papers/26977886.md)
-- Deletion in recurrent/metastatic head and neck cancer; loss of SMARCB1 led to enrollment on an EZH2 inhibitor trial within a genomics-driven basket study [PMID:27442865](../papers/27442865.md)
-- Mutated in 3 uRCC tumours (T23, T38, T41, ~5%) but all retained INI1 expression by IHC, distinguishing these cases from renal medullary carcinoma; tumours assigned to mTORC1, NF2-loss and FH-deficient subsets respectively. [PMID:27713405](../papers/27713405.md)
+- Homozygous deletion of chr22q11.23 with biallelic loss of SMARCB1 expression identified in a hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an EZH2-inhibitor target. [PMID:28007021](../papers/28007021.md)
+- Overexpression of [ASCL1](../genes/ASCL1.md) with 22q11.21 LOH including SMARCB1 was diagnostic of [ATRT](../cancer_types/ATRT.md) and prognostic for improved outcome in the same cohort. [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
-- [MNG](../cancer_types/MNG.md) — known driver gene assessed in the meningioma molecular classification landscape [PMID:34433969](../papers/34433969.md).
-- Pancreatic adenocarcinoma ([PAAD](../cancer_types/PAAD.md)) — SMARCB1 alterations significantly enriched in MAPK-WT PDAC (8%), associated with aggressive histologic features including poorly differentiated and high-grade morphology. [PMID:39753968](../papers/39753968.md)
+- [MRTL](../cancer_types/MRTL.md): Biallelic SMARCB1 deletion (chr22q11.23) is the defining event in pediatric hepatic rhabdoid tumor; EZH2 inhibitor indicated. [PMID:28007021](../papers/28007021.md)
+- [ATRT](../cancer_types/ATRT.md): 22q11.21 LOH including SMARCB1 alongside ASCL1 overexpression is diagnostic and associated with improved prognosis within ATRT. [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Part of the known meningioma driver gene panel evaluated in the MG1–MG4 molecular classification; frequency relative to [NF2](../genes/NF2.md) and chromatin remodeling drivers not separately enumerated [PMID:34433969](../papers/34433969.md).
+- Part of the SWI/SNF complex alongside [SMARCA4](../genes/SMARCA4.md) and [SMARCC2](../genes/SMARCC2.md); alterations in these genes collectively define rhabdoid phenotype tumors. [PMID:28007021](../papers/28007021.md)
 
 ## Therapeutic relevance
 
-- No direct targeted therapy reported in the corpus.
+- EZH2 inhibitors are the designated targeted therapy for SMARCB1-deficient rhabdoid tumors (synthetic lethality); this was an actionable finding in the PIPseq pediatric cohort. [PMID:28007021](../papers/28007021.md)
 
 ## Open questions
 
-- Precise frequency of SMARCB1 alterations across MG1–MG4 molecular groups is not reported separately in the corpus [PMID:34433969](../papers/34433969.md).
+- The prognostic distinction between SMARCB1-deleted hepatic rhabdoid tumor (MRTL) and ATRT in terms of EZH2-inhibitor response requires clinical trial evidence. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 
-- [PMID:34433969](../papers/34433969.md)
-- [PMID:39753968](../papers/39753968.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:36577525](../papers/36577525.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26977886](../papers/26977886.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27713405](../papers/27713405.md)
+- [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

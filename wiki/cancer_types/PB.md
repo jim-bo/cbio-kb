@@ -4,8 +4,8 @@ oncotree_code: PB
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Pancreatoblastoma (PB)
@@ -21,6 +21,7 @@ Pancreatoblastoma is a rare malignant pancreatic neoplasm that sits under Pancre
 ## Recurrent alterations
 
 - Two pancreatoblastomas in a whole-exome sequencing cohort of 23 pancreatic neoplasms with acinar differentiation carried [CTNNB1](../genes/CTNNB1.md) mutations (present in 2/2 pancreatoblastomas, 0/21 acinar cell carcinomas) and markedly lower mutation burdens (18 and 17 somatic mutations vs mean 131 for acinar cell carcinomas), reinforcing CTNNB1/Wnt-beta-catenin activation as a defining molecular feature. [PMID:24293293](../papers/24293293.md)
+- PIPseq cohort: UGT1A1 homozygous *28 (TA)7TAA allele identified in a pineoblastoma patient as pharmacogenomic flag for irinotecan/SN-38 toxicity; DICER1 frameshift L1603Pfs identified as germline flag for Sertoli-Leydig tumor risk (DICER1 syndrome) [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ Pancreatoblastoma is a rare malignant pancreatic neoplasm that sits under Pancre
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

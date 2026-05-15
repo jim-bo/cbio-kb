@@ -1,44 +1,40 @@
 ---
 symbol: SDHC
 aliases: []
-cancer_types: []
-tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-12
+cancer_types: [BLL]
+tags: [tumor-suppressor, germline, sdh-complex, vous]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SDHC
 
 ## Overview
 
-One-paragraph summary of the gene's role and why it matters in cancer genomics.
+SDHC (Succinate Dehydrogenase Complex Subunit C) encodes a membrane-anchoring subunit of mitochondrial complex II (succinate dehydrogenase). Variants in SDHC have been associated with hereditary paraganglioma-pheochromocytoma syndrome. In the corpus, SDHC appears as a variant of uncertain significance (VOUS) identified through germline whole-exome sequencing in a pediatric oncology setting.
 
 ## Alterations observed in the corpus
 
-- Germline LOF in 2/35 KIT/PDGFRA-wildtype [GIST](../cancer_types/GIST.md) patients; SDHC promoter methylation tested and ruled out in driver-negative tumors [PMID:36593350](../papers/36593350.md)
-- SDHC referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
+- SDHC G75D was identified as a germline variant of uncertain significance (VOUS) in a pediatric patient with B-cell lymphoblastic leukemia ([BLL](../cancer_types/BLL.md)) in the PIPseq pediatric precision sequencing program (n=101 patients, Columbia University). Returned to the family under stringent criteria after evaluation by the molecular tumor board. [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
-- Per cancer type: prevalence, co-mutation patterns, clinical significance.
+- [BLL](../cancer_types/BLL.md): SDHC G75D VOUS identified in one patient; causal relationship to BLL not established. [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Linked partner genes with the relationship and the paper(s) reporting it.
+- No co-occurrence data available in the corpus.
 
 ## Therapeutic relevance
 
-- Drugs (linked) targeting this gene or its pathway, with the studies supporting them.
+- No therapeutic implications established in the corpus for SDHC VOUS in BLL.
 
 ## Open questions
 
-- Conflicts or unresolved findings across papers.
+- The clinical significance of SDHC G75D in a BLL patient is unresolved; functional validation is required to reclassify this variant. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 
-- [PMID:36593350](../papers/36593350.md)
+- [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
-- [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

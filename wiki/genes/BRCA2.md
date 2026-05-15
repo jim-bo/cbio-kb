@@ -64,6 +64,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 deletion flagged as actionable in cisplatin-resistant germ cell tumors; PARP inhibitor sensitivity implicated [PMID:27646943](../papers/27646943.md)
 - BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - BRCA2 among additional recurrently mutated genes in a 62-patient uRCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
+- 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish olaparib + spautin-1 synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -180,5 +181,10 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:27346245](../papers/27346245.md)
 
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

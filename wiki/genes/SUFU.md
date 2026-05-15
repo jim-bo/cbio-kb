@@ -1,53 +1,40 @@
 ---
 symbol: SUFU
 aliases: []
-cancer_types: [MBL, ACYC]
-tags: [SHH-pathway, tumor-suppressor, hedgehog, medulloblastoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+cancer_types: [MBL]
+tags: [tumor-suppressor, somatic, hedgehog-pathway, overexpression, smo-target]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SUFU
 
 ## Overview
 
-SUFU (Suppressor of Fused) is a negative regulator of the Hedgehog (HH) signaling pathway, acting downstream of [PTCH1](../genes/PTCH1.md) and upstream of the GLI transcription factors. Loss of SUFU function leads to constitutive activation of the [SHH](../genes/SHH.md) pathway, promoting tumor cell proliferation. In medulloblastoma, biallelic inactivation of SUFU is a characteristic driver of the SHH molecular subgroup, alongside mutations in [PTCH1](../genes/PTCH1.md).
+SUFU (Suppressor of Fused Homolog) encodes a negative regulator of the Hedgehog (HH) signaling pathway that sequesters GLI transcription factors in the cytoplasm, preventing their nuclear entry. Loss of SUFU results in constitutive Hedgehog pathway activation and is associated with medulloblastoma (particularly the SHH subtype) and basal cell carcinoma. Overexpression of SUFU pathway components (including PTCH1 and ZIC3) marks certain HH-activated tumors.
 
 ## Alterations observed in the corpus
 
-- Biallelic inactivation of SUFU identified as an expected SHH-pathway driver in medulloblastoma WGS (PCGP cohort, 37 tumors); mutations cluster in the SHH molecular subgroup [PMID:22722829](../papers/22722829.md)
-- Recurrently mutated in medulloblastoma WES cohort (92 tumors, Broad); SUFU loss-of-function mutations identified as a driver in SHH-subgroup medulloblastoma [PMID:22820256](../papers/22820256.md)
-- Significantly mutated in medulloblastoma WGS/WES cohort (76 tumors, ICGC); SUFU inactivation in the Hedgehog pathway implicated in SHH-subgroup medulloblastoma [PMID:22832583](../papers/22832583.md)
-- Truncating mutation identified in the discovery cohort of adenoid cystic carcinoma; classified among known cancer/tumor-suppressor genes with loss-of-function mutations in ACC. [PMID:23778141](../papers/23778141.md)
+- SUFU overexpression (alongside [PTCH1](../genes/PTCH1.md) and [ZIC3](../genes/ZIC3.md)) identified in a pediatric medulloblastoma ([MBL](../cancer_types/MBL.md)) case in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an SMO (Smoothened) inhibitor target. [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
-- **Medulloblastoma ([MBL](../cancer_types/MBL.md))**: SUFU biallelic inactivation is a canonical driver of the SHH subgroup; co-occurs with [PTCH1](../genes/PTCH1.md) loss and [TP53](../genes/TP53.md) mutations [PMID:22722829](../papers/22722829.md)
+- [MBL](../cancer_types/MBL.md): SUFU overexpression together with PTCH1 and ZIC3 marks Hedgehog-activated medulloblastoma; SMO inhibitors (vismodegib, sonidegib) are the relevant targeted class. [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [PTCH1](../genes/PTCH1.md) biallelic inactivation in the SHH medulloblastoma subgroup, both targeting the same pathway [PMID:22722829](../papers/22722829.md)
-- SHH subgroup [TP53](../genes/TP53.md) mutations co-occur with chromothripsis events in medulloblastoma [PMID:22722829](../papers/22722829.md)
+- Co-overexpressed with [PTCH1](../genes/PTCH1.md) and [ZIC3](../genes/ZIC3.md) as a Hedgehog pathway expression signature in pediatric MBL. [PMID:28007021](../papers/28007021.md)
 
 ## Therapeutic relevance
 
-- SHH pathway inhibitors (e.g., vismodegib targeting PTCH1/SMO upstream) may have limited efficacy for SUFU-mutant tumors since SUFU loss activates the pathway downstream of [SMO](../genes/SMO.md).
+- SMO inhibitors designated as targeted therapy for SUFU/PTCH1/ZIC3 overexpression-defined Hedgehog-activated MBL in the PIPseq cohort. [PMID:28007021](../papers/28007021.md)
 
 ## Open questions
 
-- Whether SUFU germline mutations confer familial medulloblastoma predisposition (analogous to PTCH1 germline mutations in Gorlin syndrome) is not addressed in the corpus.
+- Whether overexpression alone (vs. loss-of-function mutation in SUFU) predicts SMO-inhibitor response in pediatric MBL requires further study. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 
-- [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort
+- [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22820256](../papers/22820256.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22832583](../papers/22832583.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23778141](../papers/23778141.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

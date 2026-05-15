@@ -3,7 +3,7 @@ symbol: ERBB4
 aliases: [HER4]
 cancer_types: [PLLS, MFS]
 tags: [receptor-tyrosine-kinase, oncogene, sarcoma]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -24,6 +24,7 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - ERBB-pathway member cited in context of prior [GBC](../cancer_types/GBC.md) whole-exome data showing recurrent ERBB-pathway mutations activating AKT in [GBC](../cancer_types/GBC.md) [PMID:24997986](../papers/24997986.md)
 - Mutated in 20/294 GC cases (~6.8%); kinase-domain (33%) and receptor-domain (20%) mutations; p.R50C shared with melanoma hotspot. With [NRG1](../genes/NRG1.md), defines a candidate lapatinib-targetable subset (~11.6% of GCs carry [NRG1](../genes/NRG1.md) and/or ERBB4 mutations). [PMID:25583476](../papers/25583476.md)
 - E563K activating mutation in cSCC; this allele previously reported in 19% of melanomas [PMID:25589618](../papers/25589618.md)
+- More frequently mutated in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) vs early breast cancer at FDR<0.1; 9 missense mutations in 8 mBCs including hotspots COSM4764538 and COSM1015992; 5/8 were HR+/HER2−; functional consequences require experimental validation [PMID:28027327](../papers/28027327.md).
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

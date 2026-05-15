@@ -9,8 +9,8 @@ tags:
   - pediatric
   - NTRK
   - ETV6-NTRK3
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Infantile Fibrosarcoma (IFS)
@@ -27,6 +27,7 @@ Infantile fibrosarcoma is a pediatric soft-tissue sarcoma occurring predominantl
 
 - [ETV6](../genes/ETV6.md)–[NTRK3](../genes/NTRK3.md) fusion: canonical driver, present in ~90% of IFS. FISH-negative ETV6 status in SARC0127 helped redirect diagnosis from IFS to [SCSRMS](../cancer_types/SCSRMS.md). [PMID:39305899](../papers/39305899.md)
 - [NTRK1](../genes/NTRK1.md), [NTRK2](../genes/NTRK2.md), [NTRK3](../genes/NTRK3.md): relevant TRK family members assessed by FISH in the UCLA study. [PMID:39305899](../papers/39305899.md)
+- PIPseq cohort: EML4-NTRK3 fusion detected in a congenital fibrosarcoma patient, supporting diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; fusion is an ALK-inhibitor target [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ Infantile fibrosarcoma is a pediatric soft-tissue sarcoma occurring predominantl
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

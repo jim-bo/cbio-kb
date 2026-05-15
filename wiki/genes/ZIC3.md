@@ -3,8 +3,8 @@ symbol: ZIC3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ZIC3
@@ -16,6 +16,7 @@ ZIC3 (Zic family member 3) encodes a zinc-finger transcription factor with key r
 ## Alterations observed in the corpus
 
 - Among the most under-expressed developmental genes vs hESC and fetal cerebellum in extra-cranial MRT with SMARCB1 biallelic inactivation [PMID:26977886](../papers/26977886.md)
+- Overexpressed in medulloblastoma (MBL) alongside PTCH1 and SUFU; identified as part of a Hedgehog-pathway activation signature making tumors potential SMO-inhibitor targets [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ ZIC3 (Zic family member 3) encodes a zinc-finger transcription factor with key r
 
 - [PMID:26977886](../papers/26977886.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

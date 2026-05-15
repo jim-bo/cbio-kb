@@ -7,8 +7,8 @@ tags:
   - adrenergic-marker
   - chromaffin-differentiation
   - neuroblastoma
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PNMT
@@ -20,6 +20,7 @@ PNMT (Phenylethanolamine N-Methyltransferase) encodes the enzyme that converts n
 ## Alterations observed in the corpus
 
 - PNMT marks the adrenergic terminal state in the normal adrenal gland differentiation trajectory reconstructed by RNA velocity and pseudotime analyses: undifferentiated [RTTN](../genes/RTTN.md)+ progenitors (hC1) transition through a noradrenergic [DBH](../genes/DBH.md)+ stage to a PNMT+ adrenergic chromaffin state (hC4). PNMT is part of the noradrenergic/adrenergic panel significantly over-expressed in NOR tumor clusters of neuroblastoma (FDR <0.01, Welch's t-test). [PMID:34493726](../papers/34493726.md)
+- Highest expression in the kinase signaling subtype of pheochromocytoma/paraganglioma (PCC/PGL); encodes the enzyme converting norepinephrine to epinephrine, marking adrenergic tumor biochemistry [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PNMT (Phenylethanolamine N-Methyltransferase) encodes the enzyme that converts n
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

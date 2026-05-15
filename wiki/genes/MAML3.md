@@ -3,8 +3,8 @@ symbol: MAML3
 aliases: []
 cancer_types: [PAAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MAML3
@@ -16,6 +16,7 @@ MAML3 (Mastermind Like Transcriptional Coactivator 3) is a transcriptional co-ac
 ## Alterations observed in the corpus
 
 - MAML3 part of NOTCH-pathway alterations ([NOTCH1](../genes/NOTCH1.md)–4, JAG1/JAG2, [MAML1](../genes/MAML1.md)–3) totalling 31% of cases in a 109-case PDA WES cohort; amplification/mutation patterns nominate γ-secretase inhibitor MK0752 as a candidate therapy. [PMID:25855536](../papers/25855536.md)
+- Recurrent in-frame UBTF–MAML3 and TCF4–MAML3 fusions (10 fusion-positive tumors) in pheochromocytoma/paraganglioma; 2.7-fold overexpression (p<5e-6); drives DNA hypomethylation and Wnt/Hedgehog signaling; defines the Wnt-altered subtype and is a clinical marker of metastasis and poor aggressive-disease-free survival [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ MAML3 (Mastermind Like Transcriptional Coactivator 3) is a transcriptional co-ac
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

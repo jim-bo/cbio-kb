@@ -8,7 +8,7 @@ tags:
   - homologous-recombination
   - synthetic-lethality
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 ## Alterations observed in the corpus
 
 - RAD51 expression is induced upon [ARID1A](../genes/ARID1A.md) depletion as part of the DNA damage response in small cell lung cancer ([SCLC](../cancer_types/SCLC.md)) cells; overexpression of ARID1A suppresses RAD51; JQ1 (BET inhibitor) treatment dose-dependently reduces RAD51 expression [PMID:22037554](../papers/22037554.md)
+- Recruitment to DSBs requires TRMT10A pSer28-dependent BRCA1 loading; RAD51 foci reduced by TRMT10A or USP10 loss and by the USP10 inhibitor spautin-1 in mCRPC models [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ RAD51 is a central mediator of homologous recombination (HR) DNA repair. In the 
 - [PMID:22037554](../papers/22037554.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

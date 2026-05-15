@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -45,6 +45,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Mutated in periampullary adenocarcinomas (duodenal/DUOAC subtype) and contributed to elevated WNT-pathway mutation frequency; APC and SOX9 were the primary WNT-pathway drivers in this site [PMID:26804919](../papers/26804919.md)
 - Single truncating APC p.Q1529X mutation found in 117 advanced thyroid tumors (PDTC/ATC); the study explicitly failed to replicate prior reports of frequent WNT-pathway alterations in ATC [PMID:26878173](../papers/26878173.md)
 - Wnt-pathway alteration observed in cisplatin-resistant germ cell tumors alongside AXIN1 and FAT1 [PMID:27646943](../papers/27646943.md)
+- APC R1114* germline variant in hepatoblastoma diagnostic of familial adenomatous polyposis (FAP); APC E1554fs in poorly differentiated carcinoma diagnostic of newly recognized Gardner syndrome; APC V1822D returned as a variant of uncertain significance in Ewing sarcoma [PMID:28007021](../papers/28007021.md)
+- APC mutation rate lower in esophageal adenocarcinoma (EAC) vs CIN gastric — pan-esophageal/gastroesophageal cancer genomic landscape study [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -135,10 +137,16 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

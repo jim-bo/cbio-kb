@@ -165,6 +165,10 @@
 - drug: jq1 — observed in PMID:22037554 — note: BET bromodomain inhibitor (tool compound); synthetic lethal with ARID1A loss in SCLC; r=0.368 correlation with ARID1A expression IC50
 - drug: brd-k98645985 — observed in PMID:22037554 — note: BAF complex inhibitor targeting ARID1A-containing SWI/SNF; Bliss synergy with JQ1 in SCLC xenografts
 - drug: axitinib — observed in PMID:22138691 — note: selective VEGFR1/2/3 TKI; used in JAVELIN Renal 101 avelumab+axitinib combination for ccRCC
+- drug: talazoparib — observed in PMID:28068672 — note: PARP1/PARP2 trapping inhibitor; named alongside olaparib/rucaparib/niraparib/veliparib as class members in mCRPC TRMT10A study
+- drug: spautin-1 — observed in PMID:28068672 — note: USP10 inhibitor (tool compound); degrades TRMT10A and synergizes with olaparib in BRCA1/2-WT mCRPC CDX and PDX models
+- drug: ku-55933 — observed in PMID:28068672 — note: selective ATM kinase inhibitor (tool compound); used to confirm ATM-mediated TRMT10A Ser28 phosphorylation in DDR experiments
+- drug: mg-132 — observed in PMID:28068672 — note: proteasome inhibitor (tool compound); used to rescue TRMT10A protein levels after USP10 knockdown or spautin-1 treatment
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
 - drug: cetuximab — observed in PMID:27698471 — note: anti-EGFR IgG1 mAb; used as ADC carrier in C-MMAE; preclinical radiosensitizer study in HNSCC/NSCLC xenografts
 - drug: mertansine — observed in PMID:27698471 — note: DM1; free maytansinoid cytotoxin; ADC warhead in T-DM1; indiscriminate radiosensitizer at ~10 nM IC50
@@ -172,6 +176,15 @@
 - drug: monomethyl-auristatin-e — observed in PMID:27698471 — note: MMAE/vedotin; free auristatin cytotoxin; ADC warhead in brentuximab-vedotin and experimental C-MMAE/T-MMAE; indiscriminate radiosensitizer at 2 nM
 - drug: paclitaxel — observed in PMID:27698471 — note: taxane microtubule stabilizer; comparator in HER2+ cell viability assays vs T-DM1
 - drug: lapatinib — observed in PMID:27698471 — note: dual EGFR/HER2 TKI; comparator in HER2+ cell viability assays vs T-DM1
+- method: columbia-comprehensive-cancer-panel — observed in PMID:28007021 — note: CCCP 467-gene FFPE-optimized targeted panel (5.59 Mb Agilent SureSelectXT); backup assay in PIPseq pediatric precision oncology program
+- method: excavator-cnv — observed in PMID:28007021 — note: EXCAVATOR v2.2 CNV inference tool applied to WES data in PIPseq program
+- method: fusionmap — observed in PMID:28007021 — note: FusionMap RNA fusion caller applied to unmapped reads from TopHat2/Bowtie2 in PIPseq tumor RNA-seq
+- method: tophat-cufflinks — observed in PMID:28007021 — note: Tuxedo Suite (TopHat2/Bowtie2/Cufflinks) for transcript mapping and quantification in PIPseq tumor RNA-seq
+- method: nextgene-aligner — observed in PMID:28007021 — note: NextGene v2.3.4 aligner (modified Burrows-Wheeler transform) used for read alignment in PIPseq WES/targeted sequencing
+- method: clonogenic-survival-assay — observed in PMID:28068672 — note: colony-formation clonogenic assay used to quantify PARPi sensitivity of TRMT10A/USP10 knockdown prostate cancer cell lines
+- method: synergyfinder-hsa — observed in PMID:28068672 — note: SynergyFinder highest-single-agent (HSA) scoring used to quantify olaparib + spautin-1 drug synergy in prostate cancer cell lines
+- method: hr-nhej-gfp-reporter-assay — observed in PMID:28068672 — note: DR-GFP (HR) / EJ5-GFP (NHEJ) / MMEJ-GFP reporter assays used to quantify DNA repair pathway activity in TRMT10A/USP10 knockdown cells
+- method: patient-derived-xenograft — observed in PMID:28068672 — note: mCRPC PDX lines (#546, #1092, #1102, #1267) in NOD-SCID mice used to test olaparib + spautin-1 combination; PDX#546 and PDX#1092 selected for high TRMT10A/USP10
 - drug: nivolumab — observed in PMID:38780927 — note: anti-PD-1 mAb; concurrent + maintenance with IMRT reirradiation in NCT03521570 recurrent/second-primary HNSCC; 1-year PFS 61.7%
 - dataset: radcure — observed in PMID:38362943 — note: 3346-patient HNC RT planning CT dataset from Princess Margaret Cancer Centre, hosted on TCIA; not a cBioPortal genomic study
 - method: ct-imaging — observed in PMID:38362943 — note: RT simulation computed tomography acquisition

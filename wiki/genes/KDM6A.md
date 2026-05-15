@@ -3,8 +3,8 @@ symbol: KDM6A
 aliases: [UTX]
 cancer_types: [BLCA, UTUC, MNG, PRAD]
 tags: [tumor-suppressor, chromatin, histone-demethylase, meningioma, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KDM6A
@@ -41,6 +41,8 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 - Recurrent chromatin-regulator mutation in adenoid cystic carcinoma (ACC; n=25 WGS); co-occurs with KMT2C, KMT2D, and SMARCA2/SMARCC1 mutations, consistent with a broader chromatin-remodeling axis in ACC pathogenesis [PMID:26862087](../papers/26862087.md)
 - Significantly mutated in lung SqCC but not other cancer types (excluding HNSC, BLCA) in the TCGA pan-lung cohort [PMID:27158780](../papers/27158780.md)
 - Mut-driver in breast cancer; well-known driver in other cancer types suggesting cross-cancer drug repurposing potential [PMID:27161491](../papers/27161491.md)
+- KDM6A M997fs frameshift identified in pediatric medulloblastoma (MBL) as a prognostic marker for risk-stratification into group 4 [PMID:28007021](../papers/28007021.md).
+- KDM6A (UTX) histone-modifier alterations frequent in esophageal squamous cell carcinoma (ESCC), especially in the ESCC2 molecular subtype; co-altered with KMT2D and KMT2C [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -120,16 +122,22 @@ KDM6A (UTX) is an H3K27 histone demethylase and chromatin-modifying tumor suppre
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

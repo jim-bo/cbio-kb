@@ -3,8 +3,8 @@ symbol: PAX7
 aliases: []
 cancer_types: [ARMS, RMS]
 tags: [fusion, pediatric, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PAX7
@@ -19,6 +19,7 @@ PAX7 is a paired-box transcription factor. PAX7::[FOXO1](../genes/FOXO1.md) fusi
 - PAX7::[FOXO1](../genes/FOXO1.md) [ARMS](../cancer_types/ARMS.md) carries more favorable prognosis relative to [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) (HR 3.45 favoring PAX7, P=.016) [PMID:37315267](../papers/37315267.md).
 - PAX7::[FOXO1](../genes/FOXO1.md) fusion found in 2/18 FP-RMS patients in a multi-institutional sequential genomic study; associated with [FOXO1](../genes/FOXO1.md) amplification in these tumors [PMID:37730754](../papers/37730754.md).
 - Defines PAX7-FOXO1 fusion via t(1;13) in [ARMS](../cancer_types/ARMS.md) rhabdomyosarcoma (n=15); PAX7-FOXO1 fusion gene amplified in 12/15 (80%) PAX7-FOXO1 tumors, frequently driving high copy number of the fusion [PMID:24436047](../papers/24436047.md)
+- PAX7-FOXO1 fusion identified by RNA-seq in alveolar rhabdomyosarcoma (ARMS) — diagnostic and high-risk-group prognostic marker, despite repeatedly negative FOXO1 break-apart FISH; a pediatric precision-oncology case [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ PAX7 is a paired-box transcription factor. PAX7::[FOXO1](../genes/FOXO1.md) fusi
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -11,8 +11,8 @@ cancer_types:
   - GEJ
   - HGSOC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CCNE1
@@ -47,6 +47,8 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - Cell-cycle/RB axis alteration in [HCC](../cancer_types/HCC.md); [CDKN2A](../genes/CDKN2A.md) loss enriched in alcohol-related [HCC](../cancer_types/HCC.md) and independently associated with poor survival [PMID:25822088](../papers/25822088.md)
 - Present among tumor-suppressor candidates in desmoplastic melanoma exome sequencing cohort (n=60 discovery + 42 validation); listed as a gene with LOF-burden alteration [PMID:26343386](../papers/26343386.md)
 - CCNE1 focal amplification is significantly IDC-enriched (7% [IDC](../cancer_types/IDC.md) vs 0% [ILC](../cancer_types/ILC.md), q=0.01) in the TCGA multi-platform breast cancer analysis of 817 tumors [PMID:26451490](../papers/26451490.md)
+- CCNE1 overexpression in osteosarcoma (OS) alongside MYC and MCL1 identified as BET- and CDK4/6-inhibitor targets in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- CCNE1 amplified at 19q12 more often in esophageal adenocarcinoma (EAC) than in ESCC, in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -135,3 +137,11 @@ CCNE1 encodes Cyclin E1, which partners with [CDK2](../genes/CDK2.md) to drive t
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

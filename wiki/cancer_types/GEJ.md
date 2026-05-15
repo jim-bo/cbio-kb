@@ -4,8 +4,8 @@ oncotree_code: GEJ
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Adenocarcinoma of the Gastroesophageal Junction (GEJ)
@@ -26,6 +26,7 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [CDKN2A](../genes/CDKN2A.md) — enriched in average-onset [EGC](../cancer_types/EGC.md); associated with worse survival (HR=1.55, P<0.001). [PMID:37699004](../papers/37699004.md)
 - See also [EGC](../cancer_types/EGC.md) for shared alterations across the esophagogastric spectrum.
 - WES of 149 treatment-naïve EAC tumors including gastroesophageal junction adenocarcinomas identified 26 significantly mutated genes and a distinctive EAC/GEJ-specific A>C transversion signature; 23% harbored mutations in genes with approved/preclinical inhibitors, rising to 48% when amplifications included [PMID:23525077](../papers/23525077.md)
+- TCGA profiling included 36 GEJ adenocarcinomas of indeterminate origin showing continuous molecular spectrum from oesophageal adenocarcinoma to CIN gastric cancer with no discrete boundary; CIN proportion increases proximally along the gastroesophageal axis [PMID:28052061](../papers/28052061.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Adenocarcinoma of the gastroesophageal junction (GEJ) arises at the junction of 
 - [PMID:23525077](../papers/23525077.md) — Dulak et al. Exome and whole-genome sequencing of esophageal adenocarcinoma identifies recurrent driver events and mutational complexity. *Nat Genet* 2013.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

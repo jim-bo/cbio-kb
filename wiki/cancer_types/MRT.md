@@ -8,7 +8,7 @@ tags:
   - pediatric
   - SMARCB1
   - SWI-SNF
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -31,6 +31,7 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - [KCNJ3](../genes/KCNJ3.md) — intronic mutations in 8/40 cases associated with increased expression [PMID:26977886](../papers/26977886.md)
 - [NF2](../genes/NF2.md), [LIF](../genes/LIF.md) — focally deleted in the only chromosome-22 deletions that spare [SMARCB1](../genes/SMARCB1.md) [PMID:26977886](../papers/26977886.md)
 - Quiet somatic genome: median 612.5 SNVs/case (0.231 mutations/Mb), 97.1% non-coding; median 5 non-synonymous substitutions/case [PMID:26977886](../papers/26977886.md)
+- PIPseq cohort included rhabdoid tumor cases; SMARCB1 homozygous deletion of chr22q11.23 with biallelic loss of expression identified as EZH2-inhibitor target [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -51,3 +52,6 @@ Rhabdoid cancer (MRT in OncoTree; also called malignant rhabdoid tumor of the ki
 - [PMID:26977886](../papers/26977886.md) — Chun et al., integrative multi-omic reference of 40 extra-cranial MRTs (WGS + WGBS + RNA-Seq + miRNA-Seq + ChIP-Seq)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: CEBPA
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -18,6 +18,7 @@ CEBPA (CCAAT Enhancer Binding Protein Alpha) encodes a transcription factor crit
 - Recurrently mutated in AML; part of the mutual-exclusivity set with transcription-factor fusions, [NPM1](../genes/NPM1.md), [RUNX1](../genes/RUNX1.md), and [TP53](../genes/TP53.md) [PMID:23634996](../papers/23634996.md)
 - Focal amplification observed in bladder TCC [PMID:24121792](../papers/24121792.md)
 - CEBPA biallelic mutations define favorable AML subgroup (4%, n=66); HR 0.6 (0.4-0.7), P=4x10⁻⁵ for overall survival [PMID:27276561](../papers/27276561.md)
+- CEBPA biallelic frameshift mutations in AML; identified as a prognostic marker of improved outcome in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,8 @@ CEBPA (CCAAT Enhancer Binding Protein Alpha) encodes a transcription factor crit
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

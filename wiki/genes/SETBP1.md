@@ -1,52 +1,40 @@
 ---
 symbol: SETBP1
 aliases: []
-cancer_types:
-  - MDS
-  - STAD
-tags:
-  - mds-driver
-  - granulocytic-dysplasia
-  - hematologic-malignancy
-  - gastric-cancer
-processed_by: crosslinker
-processed_at: 2026-05-14
-canonical_source: cbioportal
-unverified: false
+cancer_types: [AML, JMML]
+tags: [somatic, driver, myeloid]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SETBP1
 
 ## Overview
 
-SETBP1 encodes a SET-binding protein whose somatic gain-of-function mutations are recurrently observed in myeloid malignancies, particularly myelodysplastic syndromes ([MDS](../cancer_types/MDS.md)) and atypical chronic myeloid leukemia. In [MDS](../cancer_types/MDS.md), SETBP1 mutations associate with abnormal granulocytic morphology.
+SETBP1 (SET Binding Protein 1) encodes a nuclear protein that binds the oncoprotein SET and is recurrently mutated in myeloid neoplasms. Hotspot mutations in the degron region (around D868) impair SETBP1 degradation, leading to protein accumulation and dysregulation of downstream targets. SETBP1 mutations are characteristic of atypical chronic myeloid leukemia and juvenile myelomonocytic leukemia (JMML).
 
 ## Alterations observed in the corpus
 
-- SETBP1 mutations are associated with abnormal granulocytic nuclear segmentation in [MDS](../cancer_types/MDS.md) patients (Tokyo cohort), identified in a cohort study linking somatic mutations to [MDS](../cancer_types/MDS.md) morphologic features [PMID:21909114](../papers/21909114.md)
-- SETBP1 p.S944N mutation detected in a gastric cancer (GC) patient (Pt2) in the Tianjin Chinese GC cohort; the mutation matches the recurrent myeloid-malignancy hotspot site. [PMID:25583476](../papers/25583476.md)
+- SETBP1 D868N co-occurring with PTPN11 D61Y in a 4-year-old: this combination reclassified the diagnosis from de novo [AML](../cancer_types/AML.md) to [JMML](../cancer_types/JMML.md) (which subsequently evolved into AML) in the PIPseq pediatric precision sequencing program (n=101, Columbia University). [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
-- **[MDS](../cancer_types/MDS.md)**: SETBP1 mutations associate with granulocytic dysplasia, specifically abnormal nuclear segmentation in myeloid cells [PMID:21909114](../papers/21909114.md)
+- [AML](../cancer_types/AML.md) / [JMML](../cancer_types/JMML.md): SETBP1 D868N co-mutation with [PTPN11](../genes/PTPN11.md) D61Y was diagnostically reclassifying in one pediatric case, changing management from de novo AML to JMML-evolved AML. [PMID:28007021](../papers/28007021.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-occurs with [STAG2](../genes/STAG2.md), [SRSF2](../genes/SRSF2.md), [RUNX1](../genes/RUNX1.md), and [SF3B1](../genes/SF3B1.md) mutations in the [MDS](../cancer_types/MDS.md) Tokyo cohort [PMID:21909114](../papers/21909114.md)
+- Co-occurred with [PTPN11](../genes/PTPN11.md) D61Y in one pediatric JMML/AML case; the combination is characteristic of RAS-pathway-driven myeloid neoplasia. [PMID:28007021](../papers/28007021.md)
 
 ## Therapeutic relevance
 
-- No direct therapeutic implications established in the corpus.
+- No direct targeted therapy for SETBP1 mutations is described in the corpus; MEK inhibitors may be relevant given the RAS-pathway context. [PMID:28007021](../papers/28007021.md)
 
 ## Open questions
 
-- The mechanistic link between SETBP1 mutations and granulocytic nuclear segmentation defects in [MDS](../cancer_types/MDS.md) is not yet established.
+- The prognostic impact of SETBP1 mutations in pediatric AML versus JMML requires larger cohort validation. [PMID:28007021](../papers/28007021.md)
 
 ## Sources
 
-- [PMID:21909114](../papers/21909114.md)
+- [PMID:28007021](../papers/28007021.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

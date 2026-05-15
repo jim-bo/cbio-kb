@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MYCN
@@ -31,6 +31,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with TERT rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
 - Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by EZH2 inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
 - Amplification in 5 patients (all cisplatin resistant); transcriptionally targets both TP53 and MDM2; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type GCT [PMID:27646943](../papers/27646943.md)
+- MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma (NBL) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -94,5 +95,8 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

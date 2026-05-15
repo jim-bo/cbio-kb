@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - PAAD
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ GLI2 is a transcription factor and effector of Hedgehog (Hh) signaling. In PDAC,
 ## Alterations observed in the corpus
 
 - Hedgehog-pathway alteration in PDAC (alongside [GLI3](../genes/GLI3.md), [SMO](../genes/SMO.md), [PTCH1](../genes/PTCH1.md), [LRP2](../genes/LRP2.md)) [PMID:25855536](../papers/25855536.md)
+- Overexpressed in MAML3 fusion-positive pheochromocytoma/paraganglioma ([PHC](../cancer_types/PHC.md)/[PGNG](../cancer_types/PGNG.md)) as part of the Wnt/Hedgehog pathway gene overexpression signature in the Wnt-altered mRNA subtype (TCGA PCPG study, n=173) [PMID:28162975](../papers/28162975.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ GLI2 is a transcription factor and effector of Hedgehog (Hh) signaling. In PDAC,
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

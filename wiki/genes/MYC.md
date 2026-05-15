@@ -80,6 +80,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC driver copy-number amplification at 8q24 defines IntClust9 in breast cancer; used in the IntClust copy-number taxonomy [PMID:27161491](../papers/27161491.md)
 - Novel hotspot mutations described in the AML cohort (Supplementary Results S1) [PMID:27276561](../papers/27276561.md)
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype (IGH–DUX4 rearrangement) relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
+- Recurrent MYC amplification in metastatic breast cancer (mBC), consistent with findings in primary breast cancer [PMID:28027327](../papers/28027327.md)
+- MYC amplification more common in EAC than CIN gastric adenocarcinoma; identified as a recurrent somatic amplification in esophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -272,5 +274,10 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

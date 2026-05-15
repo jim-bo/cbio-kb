@@ -5,8 +5,8 @@ drug_class: taxane microtubule stabilizer
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # paclitaxel
@@ -24,6 +24,7 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); clonal heterogeneity analysis (HiC subtype, adjusted HR 4.69, P=0.0043) suggests combination targeting strategies are needed to address subclonal drivers [PMID:25583476](../papers/25583476.md)
 - Taxane chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients as part of platinum-based combination regimens [PMID:27346245](../papers/27346245.md)
 - Taxane; listed among salvage/combination regimens in the clinical context of cisplatin-resistant GCT management [PMID:27646943](../papers/27646943.md)
+- TRMT10A loss in 22Rv1 and C4-2 mCRPC cells enhanced sensitivity to paclitaxel in addition to PARP inhibitors, consistent with impaired homologous recombination shifting double-strand break repair toward NHEJ/MMEJ [PMID:28068672](../papers/28068672.md)
 
 ## Resistance mechanisms
 
@@ -54,3 +55,6 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; TRMT10A loss confers paclitaxel sensitivity in 22Rv1 and C4-2 cells consistent with impaired HR shifting DSB repair toward NHEJ/MMEJ.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.

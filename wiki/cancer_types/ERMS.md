@@ -4,8 +4,8 @@ oncotree_code: ERMS
 main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Embryonal Rhabdomyosarcoma (ERMS)
@@ -24,6 +24,7 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 - FN-RMS (ERMS): [TP53](../genes/TP53.md) loss-of-function in 41%, [BCOR](../genes/BCOR.md) alterations in 30%, RAS/PIK3CA pathway alterations in 5/17 cases [PMID:37730754](../papers/37730754.md).
 - [SMARCA2](../genes/SMARCA2.md) missense mutations and frameshift deletions (24%) found exclusively at relapse in FN-RMS; FN-RMS acquired an average of 4.3 new alterations per patient at relapse (range 0–17) [PMID:37730754](../papers/37730754.md).
 - PAX-fusion-negative (PFN) rhabdomyosarcomas — the dominant ERMS genotype — accumulate ~17.8 non-synonymous somatic mutations/tumor (vs 6.4 in PFP, P=2×10⁻⁴) and concentrate hits in [NRAS](../genes/NRAS.md) (11.7%), [FGFR4](../genes/FGFR4.md) (9.6%), [PIK3CA](../genes/PIK3CA.md) (7.4%), [FBXW7](../genes/FBXW7.md) (7.4%), [KRAS](../genes/KRAS.md) (6.4%), [BCOR](../genes/BCOR.md) (7%), and [TP53](../genes/TP53.md) (5.3%) [PMID:24436047](../papers/24436047.md).
+- PIPseq cohort included embryonal RMS cases; FGFR4 hotspot mutations G528C, V550L, R650L identified in two RMS patients as FGFR4-inhibitor targets; NRAS activating mutations also present in RMS cases [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -41,3 +42,6 @@ Embryonal Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), 
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

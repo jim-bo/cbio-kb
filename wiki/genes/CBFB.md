@@ -3,7 +3,7 @@ symbol: CBFB
 aliases: [PEBP2B, CBF-beta]
 cancer_types: [BRCA]
 tags: [transcription-factor, differentiation, ER-positive, tumor-suppressor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -20,6 +20,8 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - MYH11-CBFB fusion defines a favorable-risk transcription-factor fusion subgroup in [AML](../cancer_types/AML.md); mutually exclusive with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) mutations [PMID:23634996](../papers/23634996.md)
 - CBFB was identified as a Mut-driver transcription factor in breast cancer (ER+ enriched); inactivating mutations associated with lower tumor grade (OR=0.56), younger age at diagnosis (OR=0.48), and enrichment in IntClust3 (7.8%) and IntClust8 (9.7%); CBFB mutations co-associate with the t(1q;16p) copy-number pattern (OR=5) [PMID:27161491](../papers/27161491.md).
 - CBFB-MYH11 inv(16)/t(16;16) defines favorable AML subgroup (5%, n=81); HR 0.3 (0.2-0.4) in multivariate survival analysis [PMID:27276561](../papers/27276561.md)
+- CBFB-MYH11 fusion in AML identified as a prognostic marker of low-risk stratification in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
+- CBFB is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC), identified by MutSig analysis of 216 mBC whole-exome sequences vs TCGA primary tumors [PMID:28027327](../papers/28027327.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +56,11 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

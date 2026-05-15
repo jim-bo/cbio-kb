@@ -3,8 +3,8 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS]
 tags: [cell-cycle, amplification, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CDK4
@@ -40,6 +40,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Focal amplification (IHC-confirmed) in desmoplastic melanoma; CDK4 is explicitly named as a small-molecule inhibitor target in this tumor type given the absence of [BRAF](../genes/BRAF.md) V600E [PMID:26343386](../papers/26343386.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - CDK4 harbored a recurrent p.R24L mutation in lung adenocarcinoma identified in the TCGA Pan-Lung analysis [PMID:27158780](../papers/27158780.md).
+- CDK4 co-overexpression with MDM2 in neuroblastoma (NBL); patient enrolled on the NEPENTHE trial (NCT02780128) targeting CDK4/6 in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -119,3 +120,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

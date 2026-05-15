@@ -42,6 +42,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
 - Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
 - Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:27346245](../papers/27346245.md)
+- The Columbia Comprehensive Cancer Panel (CCCP) targeted-sequencing backup (467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material) was applied to 13 of 120 pediatric oncology samples in the PIPseq program achieving >500-fold average coverage [PMID:28007021](../papers/28007021.md).
 
 ## Notes
 
@@ -119,3 +120,6 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

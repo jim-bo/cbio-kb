@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC]
 tags: [fusion-partner]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # EML4
@@ -21,6 +21,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - EML4/ALK fusion detected in papillary thyroid carcinoma (PTC); part of 4/484 (0.8%) [ALK](../genes/ALK.md) fusions in the TCGA PTC cohort; represents a potentially targetable alteration. [PMID:25417114](../papers/25417114.md)
 - EML4 is a fusion partner for ALK in PDTC (poorly differentiated thyroid cancer); ALK-EML4 fusions are present in 14% of PDTCs overall (together with other ALK partners STRN and novel CCDC149), mutually exclusive with BRAF/RAS mutations, and enriched in younger patients (median 49 vs 58 years) [PMID:26878173](../papers/26878173.md)
 - EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (>80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib [PMID:27346245](../papers/27346245.md)
+- EML4–NTRK3 fusion detected in congenital fibrosarcoma ([IFS](../cancer_types/IFS.md)) in the PIPseq pediatric cohort; RNA-seq was required to detect the fusion and supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; flagged as an ALK-inhibitor target [PMID:28007021](../papers/28007021.md).
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

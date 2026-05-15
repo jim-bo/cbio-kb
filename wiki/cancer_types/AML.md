@@ -4,8 +4,8 @@ oncotree_code: AML
 main_type: Leukemia
 parent: MNM
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Acute Myeloid Leukemia (AML)
@@ -24,6 +24,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - In a Sanger sequencing screen of 1,345 hematologic cancers for [CALR](../genes/CALR.md) exon 9 mutations, AML cases showed no CALR mutations, confirming that CALR indels are restricted to the MPN/MDS disease spectrum and are absent from acute myeloid leukemia. [PMID:24325359](../papers/24325359.md)
 - Papaemmanuil et al. 2016 sequenced 111 cancer genes in 1540 adults with AML (AMLSG trials), identifying 5234 driver mutations across 76 genes and 11 mutually exclusive genomic subgroups; three new categories (chromatin–spliceosome 18%, TP53–aneuploidy 13%, provisional IDH2 R172 1%) were defined, with the full genomic model achieving ~71% concordance for overall survival versus ~64% with ELN variables alone [PMID:27276561](../papers/27276561.md).
 - Single-arm prospective trial (N=116, Washington University) of 10-day decitabine cycles: 100% blast clearance in TP53-mutant AML (21/21) vs 41% in TP53 wild-type (P<0.001); unfavorable-risk karyotype predicted response (67% vs 34%, P<0.001); remissions were short-lived and mutation clearance never complete; median OS 12.7 months (TP53-mutant) vs 15.4 months (TP53 wild-type, P=0.79) — substantially better than 4–6 months with conventional induction in TP53-mutant AML [PMID:27959731](../papers/27959731.md).
+- PIPseq program (101 high-risk pediatric patients, Columbia University Medical Center) sequenced AML cases including KIT Asn655Lys, IDH1 R132C, JAK3 A573V, KMT2A-AFF1, NUP98-NSD1, PTPN11 G503V, CEBPA biallelic frameshift, CBFB-MYH11 fusion, and KMT2C E704X mutations/fusions; actionable alterations identified in 47% of hematologic cases [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -49,5 +50,8 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

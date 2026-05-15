@@ -44,6 +44,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (cell-cycle TSG); co-mutation of TP53+RB1 (OR=5.3) is characteristic of triple-negative breast cancers. [PMID:27161491](../papers/27161491.md)
 - RB1 alterations found in 3/20 (15%) recurrent/metastatic HPV-positive HNSCC; co-mutation with TP53 associated with elevated chromosomal instability [PMID:27442865](../papers/27442865.md).
 - Combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy urothelial carcinoma tumors but only 37.9% of post-chemotherapy tumors (p=0.05), suggesting selective elimination of RB1-altered clones by cisplatin-based chemotherapy [PMID:27749842](../papers/27749842.md)
+- Loss-of-function mutations in 5% of HR+/HER2− metastatic breast cancer (vs <1% in early breast cancer, p=0.008, FDR=0.09); mostly truncating; implies potential primary resistance to CDK4 inhibitors (palbociclib) since RB1 is required for palbociclib bioactivity [PMID:28027327](../papers/28027327.md)
+- Germline splice-site c.1216-3A>G in osteosarcoma (OS) — increased risk for second cancers; returned as clinically impactful germline finding in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Recurrently deleted at 13q14.2 in esophageal squamous cell carcinoma (ESCC) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -147,3 +150,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

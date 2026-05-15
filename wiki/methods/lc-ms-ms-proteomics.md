@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [proteomics, mass-spectrometry, multi-omics]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # LC-MS/MS proteomics
@@ -20,6 +20,7 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 - [PMID:34433969](../papers/34433969.md) — single-shot LC-MS/MS whole-cell proteomics was applied to 96 meningioma tumors from the University Health Network Brain Tumor BioBank, quantifying 6,568 proteins; integrated with WES, EPIC methylation, and mRNA-seq data to characterize four stable molecular groups (MG1–MG4) and identify MG4-specific proteomic markers [PMID:34433969](../papers/34433969.md).
 - Applied to 15 neuroblastoma tumor samples to quantify protein abundance and stratify tumors by [MYCN](../genes/MYCN.md) amplification status [PMID:22367537](../papers/22367537.md)
 - LC-MS/MS used for global proteome and phosphoproteome quantification in TCGA high-grade serous ovarian cancer samples [PMID:26200345](../papers/26200345.md)
+- LC-MS/MS proteomics (PXD059301) used to identify USP10 as a TRMT10A protein interactor from Co-IP pulldown in prostate cancer cells [PMID:28068672](../papers/28068672.md).
 
 ## Notes
 
@@ -37,3 +38,6 @@ Liquid chromatography tandem mass spectrometry (LC-MS/MS) whole-cell proteomics 
 - [PMID:26200345](../papers/26200345.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

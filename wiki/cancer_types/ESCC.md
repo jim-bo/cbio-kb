@@ -4,8 +4,8 @@ oncotree_code: ESCC
 main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Esophageal Squamous Cell Carcinoma (ESCC)
@@ -26,6 +26,7 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 - Recurrent focal amplifications: CCND1 (11q13.2, most frequent), FGFR1 (amplified in 11/53 ESCC by FISH; overexpressed by IHC in 17.3%), EGFR, MYC, KRAS; recurrent focal deletion: CDKN2A [PMID:24686850](../papers/24686850.md)
 - Significantly altered pathways: MAPK (P = 0.0005), PI3K (P = 0.0004), JAK-STAT3 (P = 0.0006), G1-S cell cycle (P = 1.63E-05), and epigenetic modification (P = 0.0013) [PMID:24686850](../papers/24686850.md)
 - Oral microbial signatures (Prevotella, Porphyromonas gingivalis, Fusobacterium nucleatum enrichment; Neisseria, Lautropia, Corynebacterium depletion) associate with ESCC risk; pooled OR 9.50 (95% CI 5.89–15.29) from two-study meta-analysis [PMID:24670651](../papers/24670651.md)
+- TCGA profiling of 90 esophageal squamous cell carcinomas defined three molecular subtypes: ESCC1 (NRF2-pathway/classical squamous, NFE2L2/KEAP1/CUL3 alterations, SOX2/TP63 amplification, VGLL4 deletion), ESCC2 (NOTCH/PI3K/immune-infiltrated, NOTCH1/ZNF750 mutations, KMT2D/KDM6A alterations, CDK6 amplification), ESCC3 (PI3K-activated, SMARCA4/KMT2D mutant, US/Canada only); ESCC resembles head/neck and lung squamous tumors; no HPV aetiologic role; Vietnamese ESCC enriched for NFE2L2 mutations (24% vs 6%) [PMID:28052061](../papers/28052061.md)
 
 ## Subtypes
 
@@ -43,3 +44,6 @@ Esophageal Squamous Cell Carcinoma (ESCC) is the predominant histologic subtype 
 - [PMID:24670651](../papers/24670651.md) — Chen et al. (2024), systematic review of oral microbiome in esophageal cancer (ESCC focus).
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

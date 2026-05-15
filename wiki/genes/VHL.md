@@ -30,6 +30,8 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - VHL somatic mutation was present in 9/10 ccRCC tumors; the remaining case was silenced by promoter methylation. VHL loss is truncal in all 10 tumors and confirmed as the founding driver event together with chromosome 3p loss [PMID:24487277](../papers/24487277.md)
 - VHL referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
 - Only 1/62 uRCC cases (T08) carried a VHL mutation; the near-absence of VHL alteration despite frequent 3p loss distinguishes unclassified high-grade RCC from clear-cell RCC (where VHL is altered in ~75%). [PMID:27713405](../papers/27713405.md)
+- V166G germline mutation diagnostic of Von Hippel-Lindau syndrome in a pediatric renal cell carcinoma patient; I180T germline mutation in an ependymoma patient flagged as Von Hippel-Lindau syndrome (ACMG secondary finding) [PMID:28007021](../papers/28007021.md)
+- Germline (4%) and somatic mutations specific to the pseudohypoxia subtype of PCC/PGL; germline VHL co-occurs with 3p chromosomal deletion; FDA-approved targeted therapies are available for VHL-mutant tumors [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +68,9 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

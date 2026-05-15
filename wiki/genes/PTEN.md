@@ -99,6 +99,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN loss-of-function mutations (n=5) plus missense VUS (n=4) detected in a germ cell tumor cohort; PI3K/mTOR pathway alterations as actionable targets for cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
 - PTEN alteration prompted PI3K-inhibitor trial enrollment in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
 - Mutated in uRCC, falling within the mTORC1-hyperactive subset alongside MTOR, TSC1, and TSC2 mutations; mutually exclusive with other mTORC1-pathway alterations across 62 uRCC cases [PMID:27713405](../papers/27713405.md)
+- Listed as a significantly mutated driver in HR+/HER2− metastatic breast cancer, also recurrent in early breast cancer [PMID:28027327](../papers/28027327.md)
+- PI3K-pathway alteration enriched in ESCC2 subtype alongside PIK3CA and PIK3R1; part of 24% PI3K-activating-alteration frequency in ESCCs in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -356,3 +358,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

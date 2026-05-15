@@ -89,6 +89,10 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF: mutated in 1% (n=9) of AML cases; independently adverse (P=0.009, q=0.06); proposed candidate for BRAF inhibitor therapy [PMID:27276561](../papers/27276561.md)
 - BRAF: 3 hotspot mutations (D594N, D594G, G466E) in germ cell tumor cohort (1.7% rate); sorafenib nominated as therapeutic option [PMID:27646943](../papers/27646943.md)
 - BRAF Y472C pathogenic mutation found in a single uRCC case (T69), suggesting overlap with papillary RCC and providing a candidate therapeutic target [PMID:27713405](../papers/27713405.md)
+- TMEM106B-BRAF fusion identified in pleiomorphic xanthoastrocytoma (PXA); classified as a MEK-inhibitor target in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- BRAF is each more frequently mutated in HR+ metastatic breast cancer (mBC) vs primary breast cancer at FDR<0.1; potentially actionable but functional consequences not established [PMID:28027327](../papers/28027327.md)
+- BRAF referenced in the TCGA multi-platform esophageal carcinoma study context; FDA-approved targeted therapies are noted as available for BRAF-mutant tumors in comparison with other MAPK-pathway driver genes profiled in the study [PMID:28052061](../papers/28052061.md)
+- Somatic BRAF p.G469A point mutation and recurrent RUNDC1-BRAF fusion (5.2-fold BRAF overexpression) identified in pheochromocytoma/paraganglioma (PCC/PGL); FDA-approved targeted therapies noted as available for BRAF-mutant tumors [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -306,5 +310,19 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:27646943](../papers/27646943.md)
 
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

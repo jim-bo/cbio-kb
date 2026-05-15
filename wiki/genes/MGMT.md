@@ -3,8 +3,8 @@ symbol: MGMT
 aliases: []
 cancer_types: [BRAIN, DIFG, AST, GB]
 tags: [epigenetic, methylation, chemotherapy-response, glioma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MGMT
@@ -20,6 +20,7 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - Promoter DNA methylation in 48.5% of [GBM](../cancer_types/GBM.md) (n=543); predictive of [temozolomide](../drugs/temozolomide.md) response specifically in the classical [GBM](../cancer_types/GBM.md) subtype (p=0.01) but not proneural, mesenchymal, or neural subtypes [PMID:24120142](../papers/24120142.md)
 - Low expression and/or VUS used to support [temozolomide](../drugs/temozolomide.md) selection in PanNET patients PN26 and PN28 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
 - Aberrant promoter DNA methylation observed in hypermutated low-grade glioma recurrences after [temozolomide](../drugs/temozolomide.md) (TMZ) treatment, consistent with reduced MGMT-mediated repair of TMZ-induced O6-methylguanine adducts driving the hypermutator phenotype [PMID:24336570](../papers/24336570.md)
+- MGMT epigenetic silencing enriched in the proximal hypermethylated GEA-CIN cluster 1 (oesophagus/proximal-stomach); raises the prospect of differential alkylating-agent response in esophageal/gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ MGMT (O6-methylguanine-DNA methyltransferase) is a DNA repair enzyme that remove
 - [PMID:24336570](../papers/24336570.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

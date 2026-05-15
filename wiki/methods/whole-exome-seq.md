@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -134,6 +134,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - CLIA-grade EXaCT-1 whole-exome sequencing (Agilent HaloPlex, 21,522 genes, mean 85x coverage) applied to 72 urothelial carcinoma tumours from 32 patients to map clonal evolution pre- and post-chemotherapy. [PMID:27749842](../papers/27749842.md)
 - WES on N=44 B-ALL cases from the DUX4/ERG subtype study (1,913 total cases) to detect sequence mutations; mean 17.5 non-silent mutations per case with a paucity of structural alterations. [PMID:27776115](../papers/27776115.md)
 - Enhanced exome sequencing (NimbleGen v3 capture + 264 AML gene probes, Illumina HiSeq 2000/2500) on 39 AML/MDS patients with 157 serial exomes to track clonal dynamics during decitabine therapy. [PMID:27959731](../papers/27959731.md)
+- Used as a CLIA-certified clinical assay (Agilent SureSelectXT All Exon V5+UTRs, HiSeq2500, paired-end 125 bp × 2) in the PIPseq pediatric precision oncology program; achieved >150-fold average coverage and >98% coding sequence at ≥10× across 82 pediatric tumor/normal pairs [PMID:28007021](../papers/28007021.md).
+- Applied to 216 metastatic breast cancer tumor-normal pairs (Agilent SureSelect All Exon V5/Clinical Research Exome; Illumina HiSeq 2500/4000 or NextSeq 500; mean 83± 18× normal, 122±15× tumor) to identify 12 significantly mutated driver genes in metastatic breast cancer [PMID:28027327](../papers/28027327.md).
+- Applied to 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study (Agilent SureSelect V5 at Broad Institute and Nimblegen SeqCap EZ v3.0 at Washington University) to define squamous vs. adenocarcinoma molecular subtypes [PMID:28052061](../papers/28052061.md).
+- Applied to 173 pheochromocytoma/paraganglioma tumors in the TCGA PCPG study (paired tumor + matched normal) yielding a somatic mutation rate of ~0.67 mutations/Mb and identifying five significant driver genes [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -451,3 +455,15 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

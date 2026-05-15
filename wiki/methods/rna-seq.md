@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -90,6 +90,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on 495 lung ADC and 476 lung SqCC samples; used for fusion calling via PRADA and for mutational-signature transcriptional cross-validation in the NSCLC landscape study [PMID:27158780](../papers/27158780.md)
 - Applied on 7 uRCC tumours (4 NF2-loss, 3 NF2-WT) using Illumina HiSeq 2500, with STAR alignment, to evaluate YAP/TAZ transcriptional signatures via GSEA. [PMID:27713405](../papers/27713405.md)
 - Transcriptome sequencing (RNA-seq) on N=54 cases used to characterize the DUX4/ERG B-ALL subtype; identified ERGalt from a novel non-canonical first exon and distinguished this subtype from other B-ALL classes. [PMID:27776115](../papers/27776115.md)
+- Used as tumor transcriptome profiling (TruSeq Stranded Total RNA LT) in the PIPseq program; RNA-seq independently contributed ~40% of clinically impactful findings including fusion detection, BCR-ABL1-like signature identification, and expression-based subtyping across 65 pediatric patients [PMID:28007021](../papers/28007021.md).
+- Used for mRNA profiling of 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study; mRNA-seq confirmed no HPV transcripts in ESCC and provided expression data for iCluster integrative subtyping [PMID:28052061](../papers/28052061.md).
+- Applied to 173 PCPG tumors in the TCGA PCPG study; mRNA-seq revealed four molecular subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture) and confirmed CSDE1 splice-site mutation effects via intron retention and exon skipping [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -294,3 +297,12 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

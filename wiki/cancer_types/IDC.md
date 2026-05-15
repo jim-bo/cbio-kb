@@ -7,7 +7,7 @@ tags:
   - breast
   - invasive
   - ductal
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [CCNE1](../genes/CCNE1.md) focal amplification: IDC-enriched (7% IDC vs 0% ILC, q=0.01) [PMID:26451490](../papers/26451490.md).
 - [CDH1](../genes/CDH1.md) mutation: 2% of IDC vs 63% of ILC (q=3.94E-53); E-cadherin loss is the defining molecular feature distinguishing ILC from IDC [PMID:26451490](../papers/26451490.md).
 - Invasive ductal carcinoma histology was produced in rat models by combined [NF1](../genes/NF1.md)+[TP53](../genes/TP53.md) Indel editing (uniformly invasive, moderately differentiated) and PIK3CA-H1047R+[TP53](../genes/TP53.md) Indel editing (invasive with papillary features) [PMID:26437033](../papers/26437033.md).
+- WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) encompassing predominantly IDC tumors: ESR1, RB1, PALB2, TSC1/TSC2, and APOBEC enrichments characterize the metastatic vs primary mutation landscape; all ESR1-mutant patients had received prior endocrine therapy [PMID:28027327](../papers/28027327.md)
 
 ## Subtypes
 
@@ -49,3 +50,6 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [PMID:26437033](../papers/26437033.md) — Bu et al., *Rat somatic genome editing enables ER+ breast cancer modeling*, bioRxiv 2025.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

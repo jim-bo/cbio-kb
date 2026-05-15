@@ -3,8 +3,8 @@ symbol: FOXO1
 aliases: []
 cancer_types: [RMS, ARMS]
 tags: [fusion, pediatric]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # FOXO1
@@ -22,6 +22,7 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - FOXO1 was identified as a recurrently mutated gene in DLBCL and [FL](../cancer_types/FL.md) through whole-genome/exome sequencing of non-Hodgkin lymphomas [PMID:21796119](../papers/21796119.md)
 - Recurrent disruptive rearrangement by chromoplexy affecting a gene implicated in prostate cancer signaling [PMID:23622249](../papers/23622249.md)
 - FOXO1 is the translocation partner in defining PAX3-FOXO1 [t(2;13)] and PAX7-FOXO1 [t(1;13)] fusions in alveolar rhabdomyosarcoma ([ARMS](../cancer_types/ARMS.md)); PAX7-FOXO1 fusion gene amplified in 12/15 PAX7-FOXO1 tumors; singleton expressed FOXO1 mutation also observed [PMID:24436047](../papers/24436047.md)
+- PAX7–FOXO1 fusion detected in alveolar rhabdomyosarcoma ([ARMS](../cancer_types/ARMS.md)) by RNA-seq in the PIPseq pediatric cohort; fusion was diagnostic and high-risk-group prognostic despite repeatedly negative FOXO1 break-apart FISH, demonstrating the added value of RNA-seq over FISH alone [PMID:28007021](../papers/28007021.md).
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ FOXO1 is a forkhead transcription factor whose PAX3/PAX7 fusions define alveolar
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

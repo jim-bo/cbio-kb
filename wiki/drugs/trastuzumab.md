@@ -5,8 +5,8 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # trastuzumab
@@ -32,6 +32,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in [HCC](../cancer_types/HCC.md); ERBB family members represent candidate therapeutic targets identified in the [HCC](../cancer_types/HCC.md) genomic landscape [PMID:24735922](../papers/24735922.md)
 - ERBB2-altered CCA: MyPathway phase IIa basket ORR 23% in combination with [pertuzumab](../drugs/pertuzumab.md); [ERBB2](../genes/ERBB2.md) amplification/overexpression in 4–6% iCCA and 3–20% eCCA [PMID:25526346](../papers/25526346.md)
 - Standard targeted therapy for ERBB2-amplified/mutated gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); defines a candidate biomarker-selected population; [NRG1](../genes/NRG1.md) and [ERBB4](../genes/ERBB4.md) mutations (11.6% of GC) define a potentially targetable subset beyond the <15% ERBB2-positive GC patients eligible for trastuzumab [PMID:25583476](../papers/25583476.md)
+- Comprehensive TCGA molecular profiling of 164 oesophageal carcinomas shows ERBB2 alteration in 32% of oesophageal adenocarcinomas (EAC); the authors note ERBB2-positive EACs are routinely treated off-label with trastuzumab and that ERBB2-mutant (non-amplified) EAC patients may also benefit; functional consequence of the EAC-specific ERBB2-JUP fusion transcript (lacking transmembrane/kinase domains) on trastuzumab response remains unresolved [PMID:28052061](../papers/28052061.md)
 
 ## Resistance mechanisms
 
@@ -81,3 +82,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md) — TCGA oesophageal carcinoma comprehensive molecular characterization; ERBB2 altered in 32% of EAC; trastuzumab used off-label in ERBB2+ EAC; ERBB2-JUP fusion in 6 amplified EACs with unknown functional significance for trastuzumab response.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.

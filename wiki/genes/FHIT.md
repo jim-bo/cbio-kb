@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - MEL
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -20,6 +20,7 @@ FHIT (Fragile Histidine Triad, 3p14.2) encodes a diadenosine triphosphate hydrol
 - Focal deletion on 3p in OSCC; candidate tumor suppressor in HNSCC [PMID:23619168](../papers/23619168.md)
 - FHIT (fragile histidine triad) shows germline and somatic variants observed uniquely in familial intestinal gastric cancer (FIGC) vs. sporadic intestinal GC, suggesting a role in familial gastric cancer predisposition. [PMID:24816255](../papers/24816255.md)
 - Recurrent focal deletion on 3p in [SCLC](../cancer_types/SCLC.md) (110-tumour WGS cohort) [PMID:26168399](../papers/26168399.md)
+- Fragile-site deletions at FHIT (3p) higher in esophageal adenocarcinoma (EAC) vs CIN gastric cancer in the TCGA esophageal carcinoma multi-platform study; FHIT low expression part of the poor-prognosis transcriptomic signature in one Ewing sarcoma patient [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ FHIT (Fragile Histidine Triad, 3p14.2) encodes a diadenosine triphosphate hydrol
 - [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

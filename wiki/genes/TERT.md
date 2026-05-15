@@ -1,8 +1,8 @@
 ---
 symbol: TERT
 aliases: []
-cancer_types: [HCC, THPA, IHCH]
-tags: [promoter-mutation, thyroid-cancer, cholangiocarcinoma, hbv-integration]
+cancer_types: [ESCC]
+tags: [oncogene, somatic, amplification, telomerase]
 processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
@@ -11,87 +11,30 @@ processed_at: 2026-05-15
 
 ## Overview
 
-TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsible for telomere maintenance. TERT promoter mutations are the single most frequent somatic alteration in hepatocellular carcinoma ([HCC](../cancer_types/HCC.md)), present across both major molecular subclasses (proliferation and non-proliferation).
+TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomerase, the ribonucleoprotein enzyme that maintains telomere length. TERT upregulation or amplification enables replicative immortality, one of the hallmarks of cancer. TERT promoter mutations (not captured by exome sequencing) and focal amplifications are recurrent oncogenic events across multiple cancer types. In esophageal squamous cell carcinoma, TERT is focally amplified.
 
 ## Alterations observed in the corpus
 
-- Promoter activating mutation in 54% of HCCs (range 44-59%; WES, n=1,289) — the most frequent somatic alteration in [HCC](../cancer_types/HCC.md). [PMID:24798001](../papers/24798001.md)
-- High-level focal amplification in 5% of HCCs (SNP-array, n=704). [PMID:24798001](../papers/24798001.md)
-- Focal amplification identified as a recurrent significant peak in [LUAD](../cancer_types/LUAD.md) copy-number analysis (TCGA, n=230). [PMID:25079552](../papers/25079552.md)
-- Recurrent genomic rearrangement breakpoints within ~10 kb upstream of TSS in 6/50 chromophobe RCC; associated with >500-unit TERT expression — a novel up-regulation mechanism distinct from C228T/C250T promoter point mutations (also seen in 3 cases at low expression) and from amplification [PMID:25155756](../papers/25155756.md)
-- TERT promoter mutations (C228T, C228A, C250T) in 9.4% (36/384) of informative PTCs; associated with older age (Kruskal-Wallis p=2.6×10⁻⁹), high MACIS score (p=1.3×10⁻¹¹), high risk of recurrence (Fisher's exact p=7×10⁻⁸), and reduced thyroid differentiation score (p=4.2×10⁻⁵); associations persisted within BRAFV600E tumors. [PMID:25417114](../papers/25417114.md)
-- TERT promoter hyperactivation via HBV DNA integration (as opposed to point mutations) observed in HBV-associated intrahepatic cholangiocarcinoma (iCCA); these two mechanisms are mutually exclusive. [PMID:25526346](../papers/25526346.md)
-- Promoter mutation and focal amplification together produce telomerase activation in 60% of [HCC](../cancer_types/HCC.md); TERT promoter mutation identified as the earliest event in cirrhotic progression. [PMID:25822088](../papers/25822088.md)
-- Recurrently amplified at 5p15.33 by GISTIC analysis in pancreatic ductal adenocarcinoma (109-case WES cohort). [PMID:25855536](../papers/25855536.md)
-- Promoter C228T (23.5%) and C250T (40.9%) mutations mutually exclusive in cutaneous melanoma; only C228T raises TERT mRNA; depleted in Triple-WT subtype (6.7%, P=8e-5), where TERT is activated via amplification or rearrangement instead. [PMID:26091043](../papers/26091043.md)
-- Promoter mutations in 85% (17/20) of evaluable desmoplastic melanoma samples; overall TERT activation (promoter mutation + amplification) in 90% of tumours; the most common genomic alteration in desmoplastic melanoma [PMID:26343386](../papers/26343386.md)
-- Recurrent 5p15.33 structural rearrangements ~50 kb upstream of the TSS in 31% (12/39) of high-risk WGS cases and 13% (28/217) of extended neuroblastoma cohort; rearrangements hijack enhancer/super-enhancer elements causing transcriptional upregulation, mono-allelic expression, and telomerase activation; mutually exclusive with [MYCN](../genes/MYCN.md) amplification and [ATRX](../genes/ATRX.md) mutations [PMID:26466568](../papers/26466568.md)
-- Amplification present at diagnosis but lost at recurrence in medulloblastoma case MB-REC-14, illustrating that targets identified in therapy-naive tumours may be absent in the dominant relapse clone [PMID:26760213](../papers/26760213.md)
-- TERT promoter mutations in 48% of diffuse gliomas drive TERT mRNA upregulation and co-occur with chr7 gain / chr10 loss in IDH-wildtype glioma; TERTp mutation did not independently predict survival after adjusting for age and grade in this cohort [PMID:26824661](../papers/26824661.md)
-- Promoter C228T or C250T in 40% PDTC and 73% ATC; clonal in advanced disease vs subclonal in PTC; co-occurs with BRAF/RAS (OR 3.4, P = 0.004); markedly worse survival in TERT-mutant ATC [PMID:26878173](../papers/26878173.md)
-- Referenced in the pan-lung NSCLC genomic landscape study comparing 660 lung ADC and 484 lung SqCC exomes [PMID:27158780](../papers/27158780.md).
-- Promoter mutations in 53% of HPV-negative HNSC (91% of HPV-negative tongue SCC), 52% of CSCC, 75% of BCC, and 14% of ACYC (first report in salivary gland cancers); zero in HPV-positive HNSC — strong HPV-status biomarker in head and neck cancer [PMID:27442865](../papers/27442865.md)
+- Recurrent focal amplification of TERT identified in ESCC ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=90 ESCC); listed among the recurrent focal amplifications in ESCC alongside [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md). [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
-- **[HCC](../cancer_types/HCC.md)** — TERT promoter mutation spans both the proliferation class (enriched for [TP53](../genes/TP53.md) inactivation) and the non-proliferation class (enriched for [CTNNB1](../genes/CTNNB1.md) mutations, where TERT promoter mutation rate is higher). Listed among trunk [HCC](../cancer_types/HCC.md) mutations not currently druggable. [PMID:24798001](../papers/24798001.md)
+- [ESCC](../cancer_types/ESCC.md): TERT focal amplification is a recurrent copy-number event; no subtype-specific enrichment described in the corpus. [PMID:28052061](../papers/28052061.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- TERT promoter mutations co-occur across all major [HCC](../cancer_types/HCC.md) molecular subclasses including both TP53-driven and CTNNB1-driven tumors. [PMID:24798001](../papers/24798001.md)
+- Co-amplified with [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md) as part of the recurrent amplification landscape of ESCC; no specific co-occurrence or mutual exclusivity patterns reported. [PMID:28052061](../papers/28052061.md)
 
 ## Therapeutic relevance
 
-- TERT is not directly druggable with currently approved agents; listed as a priority for future precision-medicine development in [HCC](../cancer_types/HCC.md). [PMID:24798001](../papers/24798001.md)
+- No direct targeted therapy for TERT amplification in ESCC is described in the corpus; telomerase inhibitors remain investigational.
 
 ## Open questions
 
-- Telomerase inhibitors are not validated in [HCC](../cancer_types/HCC.md). TERT's role as the most frequent trunk driver across all molecular classes makes it a high-priority but challenging therapeutic target.
+- Whether TERT amplification in ESCC correlates with subtype, prognosis, or therapeutic response requires further analysis. [PMID:28052061](../papers/28052061.md)
 
 ## Sources
 
-- [PMID:24798001](../papers/24798001.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26091043](../papers/26091043.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26466568](../papers/26466568.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26760213](../papers/26760213.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27442865](../papers/27442865.md)
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

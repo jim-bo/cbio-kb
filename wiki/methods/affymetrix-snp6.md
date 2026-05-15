@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -59,6 +59,8 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Used for DNA copy-number profiling in the TCGA pan-glioma study (n=1,084 samples); copy-number data from SNP6 arrays combined with exome and RNA-seq data for integrated pathway alteration analysis [PMID:26824661](../papers/26824661.md)
 - Affymetrix SNP 6.0 array used for copy-number profiling of 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal pairs; GISTIC2.0 applied to identify recurrent SCNAs [PMID:27158780](../papers/27158780.md)
 - Affymetrix SNP 6.0 copy-number profiling applied to all 1,913 B-ALL cases to detect focal ERG deletions (55.6% of DUX4/ERG subtype) and other copy-number alterations. [PMID:27776115](../papers/27776115.md)
+- Affymetrix SNP 6.0 arrays used for copy-number profiling of 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study, identifying CCND1 (57% ESCC) and CCNE1 (EAC-enriched) amplifications [PMID:28052061](../papers/28052061.md).
+- Affymetrix SNP6 arrays used for somatic copy-number analysis in 173 PCPG tumors; 95% of NF1-mutated tumors carried 17q11.2 focal deletions detected by this platform [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -192,3 +194,9 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

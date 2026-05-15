@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: false
 tags: [protein-interaction, biochemistry, pull-down]
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Co-Immunoprecipitation
@@ -18,6 +18,7 @@ Co-immunoprecipitation (Co-IP) is a biochemical technique used to identify prote
 ## Used by
 
 - Co-IP used to confirm direct interaction between HA-tagged SEMA7A and ITGB1 (integrin β1) in GBC cells; binding was lost when the SEMA7A RGD motif was mutated to RGE, confirming the RGD-dependent interaction mechanism [PMID:24997986](../papers/24997986.md)
+- Co-IP and Co-IP mass spectrometry (PXD059301) used to identify USP10 as a TRMT10A interactor and to characterize the TRMT10A–BRCA1 interaction in the context of ATM-mediated phosphorylation [PMID:28068672](../papers/28068672.md).
 
 ## Notes
 
@@ -28,3 +29,6 @@ Co-immunoprecipitation (Co-IP) is a biochemical technique used to identify prote
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLLKMT2A]
 tags: [relapse, nucleotidase]
 processed_by: entity-page-writer
-processed_at: 2026-04-08
+processed_at: 2026-05-15
 ---
 
 # NT5C2
@@ -16,6 +16,7 @@ NT5C2 encodes a cytosolic 5'-nucleotidase implicated in thiopurine resistance in
 ## Alterations observed in the corpus
 
 - Relapse-associated mutations identified in infant ALL [PMID:25730765](../papers/25730765.md).
+- NT5C2 D407Y pharmacogenomic variant in relapsed B-cell ALL (BLL) conferring resistance to nucleoside-analog therapy; informed salvage regimen choice in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NT5C2 encodes a cytosolic 5'-nucleotidase implicated in thiopurine resistance in
 - [PMID:25730765](../papers/25730765.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-08**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

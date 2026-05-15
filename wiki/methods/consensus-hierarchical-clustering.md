@@ -23,6 +23,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Used to define three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) from 1,277 SAM-differentiating genes (q=0) in n=106 LumA [ILC](../cancer_types/ILC.md), with survival differences validated in METABRIC [PMID:26451490](../papers/26451490.md)
 - Consensus hierarchical clustering applied to 1,300 tumor-specific CpG probes from merged HM27 + HM450 methylation data to define six pan-glioma methylation subtypes (LGm1–6) in 932 TCGA glioma samples [PMID:26824661](../papers/26824661.md)
 - Used for sub-group discovery across miRNA, mRNA, and methylation data in 40-66 MRT cases; yielded 2 miRNA sub-groups, 2 mRNA sub-groups (recapitulating AT/RT vs RTK distinction), and 2 WGBS methylation sub-groups (correlated with age >1 year at diagnosis). [PMID:26977886](../papers/26977886.md)
+- Consensus hierarchical clustering used for mRNA-based subtype discovery across 173 PCPG tumors; yielded four subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture) validated in an independent Burnichon et al. cohort [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -48,3 +49,6 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

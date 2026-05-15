@@ -1,8 +1,8 @@
 ---
 symbol: SETD2
 aliases: []
-cancer_types: [LUAD, NSCLC, CCRCC]
-tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
+cancer_types: [PHC, PGNG]
+tags: [tumor-suppressor, somatic, histone-methyltransferase, poor-prognosis]
 processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
@@ -11,92 +11,31 @@ processed_at: 2026-05-15
 
 ## Overview
 
-SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcriptional fidelity; loss-of-function mutations are recurrent across renal, lung, and other cancers.
+SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary enzyme responsible for trimethylation of histone H3 at lysine 36 (H3K36me3), a mark associated with transcription elongation and DNA mismatch repair. Loss-of-function mutations in SETD2 are found across multiple cancer types and are associated with genomic instability and poor clinical outcomes. In pheochromocytoma/paraganglioma, somatic SETD2 mutation was identified as a poor-outcome marker.
 
 ## Alterations observed in the corpus
 
-- Of 5,957 [LUAD](../cancer_types/LUAD.md) patients in MSK-CHORD, 204 (3%) had SETD2 driver mutations, which predicted longer overall survival and lower rates of CNS metastasis [PMID:39506116](../papers/39506116.md).
-- SETD2 mutation was associated with longer time to next treatment or death following immune checkpoint blockade but not cytotoxic chemotherapy or molecularly targeted therapy; the immunotherapy association held among TMB-low (<10 mut/Mb) patients and replicated in two independent validation cohorts (DFCI and a commercial RWD cohort) [PMID:39506116](../papers/39506116.md).
-- SETD2 mutation was associated with a small but statistically significant increase in TMB (Mann-Whitney P = 2x10^-9) [PMID:39506116](../papers/39506116.md).
-- SETD2 loss-of-function mutations are enriched in ccRCC and associate with a distinct molecular subtype characterized by altered immune infiltration patterns [PMID:22138691](../papers/22138691.md)
-- Identified as a significantly mutated gene in breast cancer WES of 100 tumors, with recurrent loss-of-function mutations [PMID:22722201](../papers/22722201.md)
-- Significant mutations identified in [LUAD](../cancer_types/LUAD.md) WES cohort (Broad, 183 tumors); classified as epigenetic regulator in the proposed 11th hallmark of epigenetic/RNA deregulation [PMID:22980975](../papers/22980975.md)
-- H3K36 methyltransferase; somatic mutation in ccRCC associated with regional DNA hypomethylation at non-promoter CpGs (n=2,557 differentially methylated loci); among top significantly mutated genes (q<0.00001) in clear cell renal cell carcinoma. [PMID:23792563](../papers/23792563.md)
-- SETD2 showed parallel inactivating mutations in 3 of 10 ccRCC tumors (e.g., p.Tyr545* and p.Thr1652Ile in EV007); absent in the remaining 7, illustrating intratumor heterogeneity [PMID:24487277](../papers/24487277.md)
-- Mutated in 9% of LUAD (TCGA, n=230); chromatin modifier; associated with CDKN2A methylation in iCluster 4 (TRU-associated, low ploidy, low mutation rate). [PMID:25079552](../papers/25079552.md)
-- Chromatin-modifier mutation identified in MSK prostate cancer cell lines, consistent with Grasso 2012 CRPC findings of frequent epigenetic gene alterations in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
-- SETD2 harbors novel somatic mutations (chromatin/methyltransferase regulator) in Ewing sarcoma; identified in whole-genome sequencing of 112 cases [PMID:25223734](../papers/25223734.md)
-- SETD2 identified as a significantly mutated gene in papillary renal cell carcinoma (pRCC) in a comprehensive UTSW nccRCC study [PMID:25401301](../papers/25401301.md)
-- SETD2 identified as a chromatin-modification driver gene (n=24 mutations) newly nominated in diffuse glioma by TCGA pan-glioma analysis [PMID:26824661](../papers/26824661.md)
-- HMT (histone methyltransferase) family member mutated in 24% of ATC vs 7% of PDTC (P = 0.02) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
-- Significantly mutated methyltransferase in lung ADC (LUAD), identified alongside [KMT2C](../genes/KMT2C.md) in a 1,144-NSCLC exome-sequencing cohort (q < 0.1 by MutSig2CV) [PMID:27158780](../papers/27158780.md).
-- Tumor-suppressor/chromatin alteration flagged as actionable in cisplatin-resistant germ cell tumors (GCT); part of a panel of epigenetic and DNA-repair events alongside EP300, PTPRD, and BRCA2 identified by targeted sequencing of 180 GCT patients [PMID:27646943](../papers/27646943.md)
-- Mutated in 18% of unclassified high-grade RCC (uRCC) overall and in 44% of the NF2-loss subset (Fisher P=0.004); all 7 NF2-loss/SETD2-mutated tumours show complete loss of H3K36me3 IHC mark; suggests synthetic-lethal opportunity with WEE1 inhibition in this context. [PMID:27713405](../papers/27713405.md)
-- One of the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (56.3% of cases have epigenetic-modifier mutations overall); SETD2 mutations specifically enriched in this subtype alongside KMT2D, ARID2, and NCOR1, in a cohort of 1,913 B-progenitor ALL patients. [PMID:27776115](../papers/27776115.md)
+- Somatic mutation identified in the TCGA PCC/PGL cohort (pcpg_tcga_pub, n=173) as part of a cancer-relevant gene scan; SETD2 somatic mutation was a statistically significant marker of poor outcome (worse ADFS and MFS). [PMID:28162975](../papers/28162975.md)
+- Listed among the somatic events associated with worse aggressive-disease-free survival (ADFS) and metastatic-free survival (MFS), alongside [MAML3](../genes/MAML3.md) fusion and [ATRX](../genes/ATRX.md) somatic mutation. [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
-- [LUAD](../cancer_types/LUAD.md) / [NSCLC](../cancer_types/NSCLC.md) — uncommon (~3%) driver predictive of longer [OS](../cancer_types/OS.md), lower CNS metastasis, and immune checkpoint blockade response [PMID:39506116](../papers/39506116.md).
+- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md): Somatic SETD2 mutation is a poor-prognosis marker; enriched in tumors with more aggressive clinical behavior. [PMID:28162975](../papers/28162975.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Positively associated with [BRAF](../genes/BRAF.md) and [ARID1A](../genes/ARID1A.md) alterations and negatively associated with [EGFR](../genes/EGFR.md) and [MDM2](../genes/MDM2.md) alterations and mucinous subtype in [LUAD](../cancer_types/LUAD.md) (q<0.05) [PMID:39506116](../papers/39506116.md).
+- No specific co-occurrence patterns reported in the corpus beyond its presence in PCC/PGL tumors with high somatic mutation burden.
 
 ## Therapeutic relevance
 
-- Proposed as an uncommon but promising biomarker of immune checkpoint blockade response in [LUAD](../cancer_types/LUAD.md) not explained by TMB, PD-L1, smoking status or histologic subtype; prospective validation suggested [PMID:39506116](../papers/39506116.md).
+- No direct targeted therapy for SETD2-mutant PCC/PGL described in the corpus.
 
 ## Open questions
 
-- Mechanism linking SETD2 loss to improved immunotherapy response in [LUAD](../cancer_types/LUAD.md) remains unresolved [PMID:39506116](../papers/39506116.md).
+- The mechanism by which somatic SETD2 loss promotes aggressive behavior in PCC/PGL (e.g., through H3K36me3 loss or DNA repair defects) is not characterized in the source paper. [PMID:28162975](../papers/28162975.md)
 
 ## Sources
 
-- [PMID:39506116](../papers/39506116.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22980975](../papers/22980975.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24487277](../papers/24487277.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25079552](../papers/25079552.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25223734](../papers/25223734.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26824661](../papers/26824661.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27158780](../papers/27158780.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27713405](../papers/27713405.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27776115](../papers/27776115.md)
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

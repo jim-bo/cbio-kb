@@ -35,6 +35,9 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Co-amplified with [WHSC1L1](../genes/WHSC1L1.md) at 8p11.23 in 8% of primary prostate cancers [PMID:26544944](../papers/26544944.md)
 - MAPK-pathway alteration (with FGFR2, BRAF, NF1, NTRK1/2) enriched in PA-like LGG (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); FGFR1 alterations associated with pilocytic-astrocytoma-like IDH-wildtype LGG subtype with favorable prognosis [PMID:26824661](../papers/26824661.md)
 - Amplification at FGFR1/WHSC1L1 locus is among the candidate Ras/Raf/RTK pathway events that raise the fraction of lung ADCs with an actionable driver to 76%; enriched in oncogene-negative lung ADC [PMID:27158780](../papers/27158780.md)
+- FGFR1 N577K paired with H3F3A K27M in a pediatric glioma patient in the PIPseq cohort; FGFR1 alterations listed among targetable somatic events in high-risk pediatric cancers [PMID:28007021](../papers/28007021.md).
+- Recurrent focal amplification in ESCC (alongside TERT, MDM2, NKX2-1) in the TCGA esophageal carcinoma multi-platform characterization [PMID:28052061](../papers/28052061.md).
+- Somatic mutation identified in pheochromocytoma/paraganglioma (PCC/PGL) by cancer-relevant gene scan in the TCGA PCPG multi-platform study; grouped in the kinase signaling pathway axis alongside NF1, HRAS, RET, BRAF, and NGFR [PMID:28162975](../papers/28162975.md).
 
 ## Cancer types (linked)
 
@@ -109,5 +112,14 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

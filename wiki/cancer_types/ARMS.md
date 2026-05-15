@@ -4,8 +4,8 @@ oncotree_code: ARMS
 main_type: Soft Tissue Sarcoma
 parent: RMS
 tags: [sarcoma, pediatric, rhabdomyosarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Alveolar Rhabdomyosarcoma (ARMS)
@@ -27,6 +27,7 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - FP-RMS (predominantly ARMS): [CDKN2A](../genes/CDKN2A.md)/[CDKN2B](../genes/CDKN2B.md) deletions 28%, [MYCN](../genes/MYCN.md) alterations 22%, [CDK4](../genes/CDK4.md) amplifications 17%; [MYCN](../genes/MYCN.md) alterations (p=0.0012) and [CDKN2A](../genes/CDKN2A.md) deletions (p=0.049) each independently predict worse [OS](../cancer_types/OS.md); combined alterations show worst [OS](../cancer_types/OS.md) (p=0.0017) and PFS (p=0.002) [PMID:37730754](../papers/37730754.md).
 - [PAX3](../genes/PAX3.md)::[FOXO1](../genes/FOXO1.md) fusion detectable in ctDNA at diagnosis (100%) and relapse (86%), with fusion read counts correlating with disease burden [PMID:37730754](../papers/37730754.md).
 - Genomic analysis of 147 [RMS](../cancer_types/RMS.md) tumors reclassified ARMS by PAX-fusion status: PAX-fusion-positive (PFP) ARMS carry [PAX3](../genes/PAX3.md)- or [PAX7](../genes/PAX7.md)-[FOXO1](../genes/FOXO1.md) fusions with low somatic mutation burden (mean 6.4 non-synonymous mutations/tumor) and rely on amplifications ([MYCN](../genes/MYCN.md), [CDK4](../genes/CDK4.md), [MIR17HG](../genes/MIR17HG.md)); 7 fusion-negative ARMS clustered molecularly with [ERMS](../cancer_types/ERMS.md) [PMID:24436047](../papers/24436047.md).
+- PIPseq cohort: PAX7-FOXO1 fusion detected by RNA-seq in an alveolar RMS patient despite repeatedly negative FOXO1 break-apart FISH; the fusion was diagnostic and placed the patient in the high-risk prognostic group [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Alveolar Rhabdomyosarcoma is a Soft Tissue Sarcoma subtype of [RMS](./RMS.md), t
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

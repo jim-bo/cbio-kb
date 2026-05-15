@@ -3,8 +3,8 @@ symbol: NKD1
 aliases: []
 cancer_types: [PRAD]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NKD1
@@ -16,6 +16,7 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 ## Alterations observed in the corpus
 
 - WNT-pathway [EZH2](../genes/EZH2.md) target significantly down-regulated in CRPC-NE (P = 0.0046) [PMID:26855148](../papers/26855148.md)
+- NKD1 identified as part of the Wnt/Hedgehog signaling network activated by MAML3 fusion genes in the Wnt-altered pheochromocytoma/paraganglioma subtype [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NKD1 (Naked Cuticle Homolog 1) encodes a WNT signaling antagonist that inhibits 
 - [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

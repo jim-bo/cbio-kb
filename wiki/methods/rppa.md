@@ -5,8 +5,8 @@ kind: PROTEIN_LEVEL
 canonical_source: corpus
 unverified: true
 tags: [proteomics, protein-expression, rppa]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Reverse-Phase Protein Array (RPPA)
@@ -28,6 +28,8 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - Applied to 633 of 817 breast tumor samples in the TCGA ILC/IDC study; quantified 180+ proteins including phospho-AKT S473/T308, total/phospho-EGFR, pSTAT3 Y705, p70S6K T389; revealed that [ILC](../cancer_types/ILC.md) has the highest average pAKT of any breast subtype, matching HER2+ and Basal-like [IDC](../cancer_types/IDC.md) despite predominantly Luminal A classification [PMID:26451490](../papers/26451490.md)
 - Reverse phase protein array profiling performed on 152 of 333 primary prostate adenocarcinomas in the TCGA molecular taxonomy study as part of multi-platform molecular characterization [PMID:26544944](../papers/26544944.md).
 - Applied to 473 glioma samples in the TCGA pan-glioma study for protein-level pathway analysis complementing genomic and transcriptomic data [PMID:26824661](../papers/26824661.md)
+- Reverse-phase protein array (RPPA) profiled 113 oesophageal/gastric tumors in the TCGA esophageal/stomach study; ESCC2 showed elevated cleaved Caspase-7; RPPA helped distinguish ESCC subtypes [PMID:28052061](../papers/28052061.md).
+- RPPA applied to 173 PCPG tumors in the TCGA PCPG study; RPPA cluster 3 (RAS-MAPK signaling) enriched in kinase signaling subtype; MAML3 fusion-positive tumors showed elevated β-catenin, DVL3, and GSK3 by RPPA [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -66,5 +68,11 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

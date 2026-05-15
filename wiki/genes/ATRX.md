@@ -30,6 +30,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - Mutated in n=220 diffuse gliomas (1,122-tumour TCGA pan-glioma cohort); mutations nearly mutually exclusive with TERT promoter mutations and associated with significantly longer telomeres (ALT phenotype); ALT-positive ATRX-mutant gliomas nominated as candidates for ATR-inhibitor sensitivity [PMID:26824661](../papers/26824661.md)
 - ATRX, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); first report of SWI/SNF disruption in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 - ATRX mutated in 7% of unclassified renal cell carcinoma (uRCC) cases in a 62-patient MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
+- ATRX T1747fs frameshift in neuroblastoma (NBL) — poor-prognosis marker identified in a pediatric pan-cancer sequencing cohort [PMID:28007021](../papers/28007021.md)
+- ATRX somatic mutations co-occurring with SDHB germline mutations in pheochromocytoma/paraganglioma (PCC/PGL); marker of aggressive disease, metastasis, and poor aggressive-disease-free survival (ADFS) [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -84,9 +86,15 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

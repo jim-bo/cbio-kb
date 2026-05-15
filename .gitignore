@@ -16,6 +16,11 @@ possible_improvements.md
 # Fact-verifier per-paper output (regenerate with scripts/verify_paper.py)
 eval/verify/
 
+# Auto-generated claim tests (regenerate with scripts/emit_claim_tests.py).
+# Source of truth is wiki/papers/*.claims.json; the helper module
+# tests/claims/_cbio.py and tests/claims/__init__.py ARE committed.
+tests/claims/test_*.py
+
 # OS metadata
 .DS_Store
 

@@ -3,8 +3,8 @@ symbol: ERBB2
 aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # ERBB2
@@ -63,6 +63,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Significant association with T stage in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
 - Recurrent S310F hotspot missense mutation in 4 desmoplastic melanoma tumors; identified as potentially targetable RTK alteration [PMID:26343386](../papers/26343386.md)
 - Amplification and mutations identified among upstream drivers of AKT activation in [ILC](../cancer_types/ILC.md); previously reported in relapsed [ILC](../cancer_types/ILC.md) (Ross et al., 2013) [PMID:26451490](../papers/26451490.md)
+- ERBB2 mutations are among the single-case alterations replicating findings from the prior whole-exome ATC study in the MSK-IMPACT 341-gene cohort of 117 advanced thyroid cancers (PDTC/ATC) [PMID:26878173](../papers/26878173.md)
+- ERBB2 alterations are recurrent in plasmacytoid-variant bladder cancer profiled by WES and 341-gene IMPACT panel (n=31 tumors); flagged as a clinically actionable target supporting early use of targeted agents [PMID:26901067](../papers/26901067.md)
 
 ## Cancer types (linked)
 
@@ -183,3 +185,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

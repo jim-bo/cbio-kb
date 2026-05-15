@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MSK-IMPACT panel (generic)
@@ -53,6 +53,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Custom 230-gene targeted capture panel (mean coverage 692×) applied to 69 matched CRC primary/metastasis trios; demonstrated 100% concordance of KRAS/NRAS/BRAF and 93% overall concordance for recurrent driver mutations. [PMID:25164765](../papers/25164765.md)
 - Used in [MPNST](../cancer_types/MPNST.md) validation cohort (37 FFPE MPNSTs and 7 neurofibromas from 32 [NF1](../genes/NF1.md) patients); targeted hybrid-capture panel including [NF1](../genes/NF1.md), [SUZ12](../genes/SUZ12.md), [EED](../genes/EED.md), [CDKN2A](../genes/CDKN2A.md), [TP53](../genes/TP53.md) confirmed PRC2 alterations in 70–90% of MPNSTs [PMID:25240281](../papers/25240281.md)
 - MSK-IMPACT targeted sequencing panel applied to >650 pancreatic ductal adenocarcinoma samples to profile somatic mutations and copy-number alterations [PMID:26278805](../papers/26278805.md)
+- Used as the 341-gene IMPACT341 targeted-capture NGS panel (mean depth 584x tumor / 236x normal; 739x for ATCs) to sequence 117 advanced thyroid tumors (84 PDTC, 33 ATC) at MSKCC; detected TP53, TERT, SWI/SNF, and HMT mutations at 2-3x higher frequency than WES due to deep coverage. [PMID:26878173](../papers/26878173.md)
+- Used as the CLIA-certified MSK-IMPACT 341-gene panel to profile 6 plasmacytoid-variant bladder tumors in a prospective clinical cohort at MSKCC; identified CDH1 truncating mutations in all 6 plasmacytoid cases and 0/56 urothelial NOS cases. [PMID:26901067](../papers/26901067.md)
 
 ## Notes
 
@@ -121,3 +123,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

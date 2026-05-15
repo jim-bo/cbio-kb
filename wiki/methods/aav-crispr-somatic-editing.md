@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [crispr, aav, somatic-editing, animal-model, breast-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # AAV-CRISPR Somatic Editing
@@ -18,6 +18,7 @@ AAV-CRISPR somatic editing is a platform for in vivo somatic genome engineering 
 ## Used by
 
 - Intraductal AAV-CRISPR delivery into Cas9-transgenic rats was used to engineer six distinct mammary tumor genotypes (Tp53Indel, Nf1Indel, Nf1Indel/Tp53Indel, Pik3caH1047R, Pik3caH1047R/Tp53Indel, triple-edit) modeling ER+/PR+ ductal carcinoma; single-gene Nf1 editing produced [DCIS](../cancer_types/DCIS.md) at 4-week median latency, triple editing (AAV-PNT) at 8-day median latency. [PMID:26437033](../papers/26437033.md)
+- LentiCRISPR v2 nickase (D10A Cas9) was used to knock out CDH1 in MGHU4 and RT4 bladder cancer cell lines; knockout enhanced cell migration in wound-healing scratch assay and Boyden chamber assay (p<0.05), providing mechanistic evidence for the plasmacytoid variant's peritoneal spread pattern. [PMID:26901067](../papers/26901067.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ AAV-CRISPR somatic editing is a platform for in vivo somatic genome engineering 
 - [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Whole-exome sequencing (WES)
@@ -125,6 +125,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used for whole-exome sequencing of 160 periampullary tumors (AMPAC, CAC, DUOAC) at ~120× coverage on HiSeq 2000, followed by HGSC Mercury pipeline variant calling, as part of the Australian Pancreatic Cancer Genome Initiative molecular taxonomy study [PMID:26804919](../papers/26804919.md)
 - Applied to 820 diffuse glioma samples from TCGA pan-glioma study (513 LGG + 307 GBM) to identify 75 significantly mutated genes including 45 novel glioma associations [PMID:26824661](../papers/26824661.md)
 - Used for whole-exome sequencing of 114 metastatic biopsies from 81 men with castration-resistant prostate cancer (CRPC-Adeno and CRPC-NE) using SureSelect v2/v4 or HaloPlex Exome at ~100× mean target coverage [PMID:26855148](../papers/26855148.md)
+- Used on 141 tumors from 56 men with metastatic CRPC (prad_fhcrc cohort) with Nimblegen V2/V3 capture on Illumina HiSeq 2000; alignment via bwa v0.7.1 with GATK indel realignment and MuTect somatic calling. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -408,10 +409,13 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

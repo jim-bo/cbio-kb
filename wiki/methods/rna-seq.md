@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RNA sequencing
@@ -85,6 +85,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used alongside WGS and ChIP-seq in adenoid cystic carcinoma (ACC) primagrafts and primary tumors to characterize MYB-driven transcriptional programs and the BRD4 super-enhancer landscape [PMID:26829750](../papers/26829750.md)
 - TruSeq, HiSeq 2500, 2×75 bp paired-end applied to 49 metastatic CRPC specimens (Adeno + NE) to identify the 70-gene NEPC classifier and characterize EZH2/PRC2 target dysregulation [PMID:26855148](../papers/26855148.md)
 - Illumina HiSeq 2000, ≥50M paired 100×100 bp reads applied to 17 adenoid cystic carcinoma (ACC) tumors; NFIB overexpression confirmed independent of fusion status (p=0.002 vs normal tissue); quantification by RSEM [PMID:26862087](../papers/26862087.md)
+- Applied to 40 MRT cases plus 3 hESC lines (with 4 fetal cerebellum normals); NMF on top-25% most-variable protein-coding genes identified 2 mRNA sub-groups recapitulating the AT/RT vs RTK distinction, with organ site associated with sub-group 1 (all 6 extra-renal cases; Fisher p=0.04). [PMID:26977886](../papers/26977886.md)
 
 ## Notes
 
@@ -258,19 +259,22 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

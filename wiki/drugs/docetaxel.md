@@ -5,8 +5,8 @@ drug_class: taxane (microtubule stabilizer)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, taxane, sarcoma]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # docetaxel
@@ -20,6 +20,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens), [gemcitabine](../drugs/gemcitabine.md) + docetaxel was one of the matched regimens received by patients in the prospective correlation cohort (n=5 patients); normalized organoid viability correlated with time-to-next-treatment across the matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
 - Docetaxel was listed among NCCN-listed top-five regimens recurrently identified for [osteosarcoma](../cancer_types/OS.md) in the PDTO functional screen, alongside [etoposide](../drugs/etoposide.md), [cisplatin](../drugs/cisplatin.md), [sorafenib](../drugs/sorafenib.md), [regorafenib](../drugs/regorafenib.md), [doxorubicin](../drugs/doxorubicin.md), [cabozantinib](../drugs/cabozantinib.md), gemcitabine, and [everolimus](../drugs/everolimus.md). [PMID:39305899](../papers/39305899.md)
 - Used in combination with [selumetinib](../drugs/selumetinib.md) in a co-clinical GEM/human trial for KRAS-mutant [LUAD](../cancer_types/LUAD.md); STK11/LKB1 loss was found to significantly influence resistance to the selumetinib + docetaxel combination in mouse lung adenocarcinoma models [PMID:23999436](../papers/23999436.md).
+- Most of 63 mCRPC men in the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort received at least one systemic chemotherapy, most commonly docetaxel, as part of their prior treatment history; docetaxel use is described as a background treatment rather than a study intervention. [PMID:26928463](../papers/26928463.md)
 
 ## Resistance mechanisms
 
@@ -32,9 +33,8 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; docetaxel as part of gemcitabine+docetaxel combination in matched-treatment cohort and NCCN-listed osteosarcoma screen hits.
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:39305899](../papers/39305899.md)
 - [PMID:23999436](../papers/23999436.md)
+- [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

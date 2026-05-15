@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BRCA2
@@ -58,6 +58,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - High Cyclin E1, FoxM1, [PCNA](../genes/PCNA.md), pChk1-S345, Rad50, Rad51, [XRCC1](../genes/XRCC1.md), and BRCA2 protein characterize the proliferative [ILC](../cancer_types/ILC.md) transcriptional subtype, which is associated with worse disease-specific and overall survival in METABRIC [PMID:26451490](../papers/26451490.md)
 - Inactivation in 3% of primary prostate cancer (germline + somatic); all 6 germline mutations were K3326* (C-terminal truncation, debated pathogenicity); 2 tumors had focal homozygous deletions with low transcript; [RB1](../genes/RB1.md) heterozygous loss often co-incident with BRCA2 loss at 13q [PMID:26544944](../papers/26544944.md)
 - Homozygous deletion shared across primary tumour, lymph-node metastasis, and CRPC-NE metastases in patient WCMC7520, marking a common clonal ancestor and supporting divergent clonal evolution model in metastatic prostate cancer [PMID:26855148](../papers/26855148.md)
+- BRCA2 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to RB1 loss/E2F1 activation); homozygous deleterious BRCA2 events were used as part of the DNA-repair-defect classifier predicting longer carboplatin response (P = 0.02) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -159,3 +160,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

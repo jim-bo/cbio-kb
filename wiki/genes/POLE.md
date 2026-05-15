@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 canonical_source: cbioportal
 unverified: false
@@ -31,6 +31,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Deleterious mutation identified in one of three [NSCLC](../cancer_types/NSCLC.md) DCB responders with the highest mutation burden on [pembrolizumab](../drugs/pembrolizumab.md); supports a DNA-repair–driven hypermutator mechanism for anti-PD-1 benefit in never-smokers [PMID:25765070](../papers/25765070.md)
 - In [PAAD](../cancer_types/PAAD.md), POLE was among the mismatch-repair/DNA-repair gene alterations in the top mutation-burden quartile of the 109-case microdissected exome cohort, contributing to the hypermutator phenotype. [PMID:25855536](../papers/25855536.md)
 - V411L exonuclease-domain hotspot in a single ultramutator upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) with 422 somatic mutations and no focal CNAs. [PMID:26278805](../papers/26278805.md)
+- POLE observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -93,3 +94,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

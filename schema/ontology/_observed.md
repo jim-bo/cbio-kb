@@ -391,3 +391,12 @@
 - drug: crenolanib — observed in PMID:26091043 — note: PDGFRA/FLT3 inhibitor; nominated for Triple-WT melanoma with 4q12 PDGFRA/KDR co-amplification
 - drug: aldesleukin — observed in PMID:26091043 — note: recombinant IL-2 cytokine immunotherapy; prior melanoma response data contextualize TCGA Immune-subclass survival findings
 - drug: h3b-8800 — observed in PMID:26200345 — note: SF3b complex splicing modulator (SF3B1-targeting); synergistic with temsirolimus in SF3B1-mutant/del(13q) CLL; prior phase I (NCT02841540) showed dose-limiting toxicity as monotherapy
+- drug: methoxsalen — observed in PMID:26950094 — note: 8-methoxypsoralen (8-MOP); used with UVA (PUVA) in ancillary HaCaT cell-line experiment to validate PUVA mutational signature; not an intervention tested in patients
+- drug: acitretin — observed in PMID:26950094 — note: synthetic retinoid used as prior anti-psoriatic/immunosuppressive agent in some patients; not an intervention tested in this study
+- method: nanoseq — observed in PMID:26950094 — note: duplex single-molecule error-correction sequencing (Abascal et al. 2021); error rate <5/billion bp; applied to epidermal DNA to quantify NB-UVB-induced somatic mutation burden in psoriasis patients; ~1/3-genome coverage per library
+- method: polygenic-risk-score — observed in PMID:26950094 — note: PGS for UV tanning propensity (PGS001244 "mildly/occasionally tanned", PGS001246 "very tanned", PGS001247 "never tan") correlated with dose-normalised NB-UVB mutation burden in skin biopsies; not a cBioPortal gene panel
+- method: targeted-dna-seq — observed in PMID:26901067 — note: 300-gene exon-capture panel applied to 19 plasmacytoid-variant bladder tumors as validation cohort; CDH1 truncating mutations in 14/19 cases
+- method: microarray-gene-expression — observed in PMID:26928463 — note: Agilent 44K expression array on 171 mCRPC tumors; GEO accession GSE74685; AR activity and CCP score concordant within patients
+- method: array-cgh-agilent-1m — observed in PMID:26878173,26928463 — note: Agilent SurePrint G3 1x1M and 2x400K array-CGH platforms for CNA profiling in thyroid and prostate cancer cohorts
+- method: integrative-genomics-viewer — observed in PMID:26878173,26928463 — note: IGV used for visual validation of somatic mutations and CNAs in MSK-IMPACT and WES datasets
+- method: shrna-rnai-screen — observed in PMID:26928463 — note: siRNA knockdown of 15 Fanconi anemia pathway genes in LNCaP, 22Rv1, VCaP, PC3 prostate cancer cell lines; reduced proliferation and increased gamma-H2AX after carboplatin

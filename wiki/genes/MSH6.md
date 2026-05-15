@@ -3,8 +3,8 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MSH6
@@ -33,6 +33,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 mismatch-repair defect detected in hypermutated gastric adenocarcinoma (Pt1); co-occurs with [TGFBR2](../genes/TGFBR2.md), [KDM5A](../genes/KDM5A.md), and [KMT2D](../genes/KMT2D.md) in the hypermutated subclone [PMID:25583476](../papers/25583476.md)
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MSH6 loss was identified among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed MMR deficiency signatures. [PMID:25855536](../papers/25855536.md)
 - In mCRPC, MSH6 was among MMR gene alterations in hypermutated cases; MMR deficiency contributing to ~50 mutations/Mb. [PMID:26000489](../papers/26000489.md)
+- MSH6 mutations, together with MSH2 and MLH1, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
+- MSH6, together with MSH2, underlies complex structural aberrations causing hypermutation in 5 men with mCRPC; MMR deficiency apparent in matched primaries, supporting MMR-deficiency testing in metastatic prostate cancer [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -101,3 +103,9 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

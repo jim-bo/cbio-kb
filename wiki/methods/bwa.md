@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BWA (Burrows-Wheeler Aligner)
@@ -33,6 +33,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Used for alignment in whole-genome sequencing of 28 uveal melanoma samples with GRCh37 reference, followed by GATK indel realignment and base quality recalibration; enabled discovery of the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot [PMID:26683228](../papers/26683228.md).
 - Used for alignment of whole-genome sequencing reads to GRCh37-lite in 46 matched diagnostic/recurrence medulloblastoma samples; enabled characterization of massive genetic divergence between primary and recurrent tumours [PMID:26760213](../papers/26760213.md).
 - BWA used for read alignment in the HGSC Mercury pipeline processing whole-exome sequencing data from 160 periampullary tumors on HiSeq 2000; followed by GATK recalibration and Atlas/PInDel variant calling [PMID:26804919](../papers/26804919.md)
+- bwa v0.7.1 used for alignment of WES reads from 141 tumors of 56 men with metastatic CRPC (prad_fhcrc), followed by GATK indel realignment and MuTect somatic mutation calling. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -87,4 +88,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -7,8 +7,8 @@ tags:
   - chromatin-remodeling
   - SWI-SNF
   - tumor-suppressor
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ARID1B
@@ -31,6 +31,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - Candidate dark-matter driver and chromatin-remodeling gene; among 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) papillary thyroid carcinomas in the TCGA PTC cohort [PMID:25417114](../papers/25417114.md)
 - Synthetic lethal partner with [ARID1A](../genes/ARID1A.md) in PDA; ARID1A-deficient PDA cell lines are vulnerable to ARID1B depletion; also part of SWI/SNF chromatin-remodeling lesions in >42% of PDA cases [PMID:25855536](../papers/25855536.md)
 - Mouse-model gCIS shared between local and metastatic medulloblastoma recurrences but absent from diagnostic samples; identified as a recurrence-specific driver in the Shh subgroup [PMID:26760213](../papers/26760213.md)
+- ARID1B, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); SWI/SNF disruption was the first such report in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -87,3 +88,6 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

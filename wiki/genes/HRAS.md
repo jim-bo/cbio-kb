@@ -3,8 +3,8 @@ symbol: HRAS
 aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # HRAS
@@ -36,6 +36,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Activating mutations in 13.6% of high-grade [UTUC](../cancer_types/UTUC.md) vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with [FGFR3](../genes/FGFR3.md) and [TP53](../genes/TP53.md); supports FGFR3/HRAS-driven low-grade-tumor-progression model of [UTUC](../cancer_types/UTUC.md) carcinogenesis [PMID:26278805](../papers/26278805.md)
 - Cited as prior lenti-HrasQ61L mammary intraductal model: produces ER-/metaplastic tumors in mice but ER+/PR+ ductal carcinoma in rats, providing historical evidence of species-specific lineage plasticity motivating CRISPR-based ER+ breast cancer modeling [PMID:26437033](../papers/26437033.md)
 - Q61R hotspot in 3/4 HRAS-mutant primary prostate cancers; paralogous to the canonical RAS Q61 oncogenic position; co-occurs with other non-canonical RAS-family activations ([RAC1](../genes/RAC1.md) Q61R, [RRAS2](../genes/RRAS2.md) Q72L) [PMID:26544944](../papers/26544944.md)
+- HRAS mutations occur collectively with NRAS and KRAS in 28% of PDTC and 24% of ATC; RAS mutations are mutually exclusive with BRAF V600E and gene fusions; RAS-mutant PDTCs trend toward distant metastasis and are enriched for Turin histological criteria [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -118,3 +119,6 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

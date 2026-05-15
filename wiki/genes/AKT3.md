@@ -3,8 +3,8 @@ symbol: AKT3
 aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # AKT3
@@ -20,6 +20,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - Recurrently altered across endometrial carcinoma subtypes in the [ucec_tcga_pub](../datasets/ucec_tcga_pub.md) TCGA cohort; identified in mutation panel analyses (Fig. 2d/Fig. 5b) [PMID:23636398](../papers/23636398.md)
 - Overexpression observed in 10% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); part of the PI(3)K/AKT/mTOR pathway altered in 42% of tumours, representing a potential therapeutic target with AKT inhibitors [PMID:24476821](../papers/24476821.md)
 - Amplification, overexpression, and recurrent fusions (CEP170-AKT3, AKT3-PLD5, ZEB2-AKT3, ARHGAP30-AKT3) enriched in RAS/NF1/Triple-WT melanoma subtypes vs [BRAF](../genes/BRAF.md) (p < 0.05); E17K mutation nominated as biomarker for MEK + PI3K/AKT/mTOR combination therapy [PMID:26091043](../papers/26091043.md)
+- AKT3 mutation identified as part of the PI3K/AKT/mTOR pathway gene set disrupted in 39% of anaplastic thyroid carcinomas (ATC) vs 11% of poorly differentiated thyroid carcinomas (PDTC) (P = 1×10⁻³) in a 341-gene targeted sequencing cohort (n=117 advanced tumors) [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

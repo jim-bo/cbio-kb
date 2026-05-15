@@ -17,8 +17,8 @@ tags:
   - integrative-genomics
   - parp-inhibitor
   - dna-repair
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Prostate Adenocarcinoma SU2C / PCF 2015 (Robinson et al.)
@@ -46,6 +46,7 @@ Prospective integrative clinical sequencing cohort of 150 men with metastatic ca
 
 - [PMID:26000489](../papers/26000489.md) — Robinson et al., *Cell* 2015: integrative clinical genomics of 150 mCRPC; primary discovery study for this cohort.
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: used as external validation cohort for the 70-gene NEPC classifier; up to 8% of metastatic cases scored NEPC-high.
+- [PMID:26928463](../papers/26928463.md) — Kumar et al., *Nat Genet* 2016: queried to verify metastasis-private mutations from prad_fhcrc rapid-autopsy cohort are non-driver.
 
 ## Notable findings derived from this cohort
 
@@ -56,10 +57,11 @@ Prospective integrative clinical sequencing cohort of 150 men with metastatic ca
 - Novel activating [PIK3CB](../genes/PIK3CB.md) mutations at positions equivalent to canonical [PIK3CA](../genes/PIK3CA.md) hotspots, co-occurring with [PTEN](../genes/PTEN.md) loss; activating [PIK3CB](../genes/PIK3CB.md) fusions also identified — nominating PIK3CB-specific inhibitors. [PMID:26000489](../papers/26000489.md)
 - ETS fusions (predominantly [ERG](../genes/ERG.md)) in 56% of mCRPC cases; WNT pathway ([APC](../genes/APC.md)/[CTNNB1](../genes/CTNNB1.md)/[RNF43](../genes/RNF43.md)/[ZNRF3](../genes/ZNRF3.md)/[RSPO2](../genes/RSPO2.md)) in 18%; recurrent [BRAF](../genes/BRAF.md) and [RAF1](../genes/RAF1.md) fusions in ~3%. [PMID:26000489](../papers/26000489.md)
 - Used as an external validation cohort (n=150 mCRPC) for the 70-gene NEPC classifier; up to 8% of metastatic cases scored NEPC-high and 0% of treatment-naïve adenocarcinomas did [PMID:26855148](../papers/26855148.md)
+- Used alongside prad_tcga to assess frequency of metastasis-private mutations from the prad_fhcrc rapid-autopsy cohort; only 2/51 patient-99-091 private mutations occurred at >5% frequency, arguing most are non-driver [PMID:26928463](../papers/26928463.md)
 
 ## Sources
 
 - cBioPortal study: `prad_su2c_2015`
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

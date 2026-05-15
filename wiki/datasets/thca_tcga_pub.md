@@ -24,8 +24,8 @@ tags:
   - gene-fusion
   - whole-exome-seq
   - integrated-multiomics
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Papillary Thyroid Carcinoma (TCGA, Cell 2014)
@@ -54,6 +54,7 @@ The TCGA multiplatform genomic characterization of 496 papillary thyroid carcino
 ## Papers using this cohort
 
 - [PMID:25417114](../papers/25417114.md) — TCGA Research Network, *Cell* 2014. "Integrated Genomic Characterization of Papillary Thyroid Carcinoma."
+- [PMID:26878173](../papers/26878173.md) — Landa et al., *J Clin Invest* 2016: used as reference comparator for MSKCC advanced thyroid cohort; BRS and TDS scores applied to PDTC and ATC.
 
 ## Notable findings derived from this cohort
 
@@ -63,10 +64,13 @@ The TCGA multiplatform genomic characterization of 496 papillary thyroid carcino
 - [TERT](../genes/TERT.md) promoter mutations in 9.4% (36/384) of informative tumors; associated with older age, high MACIS recurrence risk scores, and lower thyroid differentiation score (TDS) [PMID:25417114](../papers/25417114.md).
 - Fraction of PTC cases without an identified oncogenic driver reduced from ~25% (historical) to 3.5%; combining SSNVs, fusions, and SCNAs, putative drivers were identified in 397/402 (98.8%) of exome-sequenced PTCs [PMID:25417114](../papers/25417114.md).
 - A 71-gene BRAFV600E-RAS Score (BRS) and a 16-gene Thyroid Differentiation Score (TDS) distinguished two fundamental PTC molecular classes with distinct MAPK/PI3K signaling profiles, epigenomic patterns, and clinical outcomes [PMID:25417114](../papers/25417114.md).
+- Used as a reference comparator for the MSKCC advanced thyroid cohort (n=390–401 papillary thyroid carcinomas); BRAF-RAS score and thyroid differentiation score applied to validate driver associations in PDTC and ATC [PMID:26878173](../papers/26878173.md)
 
 ## Sources
 
 - cBioPortal study: `thca_tcga_pub`
 - Citation: TCGA, Cell 2014 [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,7 +3,7 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Expressed mutation seen in CRPC; MSK-PCa2 PIK3R1 mutation co-occurs with [PTEN](../genes/PTEN.md) loss and is associated with PI3K-inhibitor sensitivity in patient-derived prostate cancer organoids [PMID:25201530](../papers/25201530.md)
 - In-frame indels and frameshift mutations in 3/22 (14%) uterine/ovarian carcinosarcoma cases; mutually exclusive with [PIK3CA](../genes/PIK3CA.md); first implication of PIK3R1 in carcinosarcoma [PMID:25233892](../papers/25233892.md)
 - Mutated in 1% of HNSCC; one of multiple genes with at least one identical COSMIC-reported mutation; component of PI(3)K pathway altered in 61–62% of tumours [PMID:25631445](../papers/25631445.md)
+- PIK3R1 mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -100,3 +101,6 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

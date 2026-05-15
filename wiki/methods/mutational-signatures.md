@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Mutational Signatures Analysis (COSMIC)
@@ -23,6 +23,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - NMF-based mutational signature analysis (Wellcome Trust Sanger Institute framework, Alexandrov 2013) identified three signatures in Sézary syndrome: CpG deamination/aging (C>T at NpCpG), C>A at CpCpN, and C>T at CpCpN/TpCpN [PMID:26551667](../papers/26551667.md).
 - Mutational signature decomposition adapted from Alexandrov et al. (30 COSMIC signatures) applied to 28 uveal melanoma samples; identified BRCA/signature-3 in 79% of samples, with no UV signature (COSMIC 7) detected in any sample [PMID:26683228](../papers/26683228.md).
 - nsNMF-derived mutational signature analysis of periampullary tumors identified 5 prominent signatures (out of 21); signature #1 (AC/AT>AN) was independently associated with worse overall survival (multivariate Cox p=0.02) [PMID:26804919](../papers/26804919.md)
+- COSMIC mutational signatures SBS7a, SBS7b, SBS7c, SBS7d (UVR-associated) and DBS1 (CC>TT) were attributed in NanoSeq data from paired pre/post NB-UVB skin biopsies; post-treatment SBS7 increase in buttock skin was significant (P<0.001, Mann-Whitney U) and correlated tightly with DBS1 increase (Pearson r=0.897). [PMID:26950094](../papers/26950094.md)
 
 ## Notes
 
@@ -42,10 +43,13 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26950094](../papers/26950094.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

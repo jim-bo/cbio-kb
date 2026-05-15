@@ -104,6 +104,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in 48% of [ILC](../cancer_types/ILC.md) vs 33% of [IDC](../cancer_types/IDC.md); not associated with pAKT levels in this dataset despite driving PI3K pathway activation — [CDH1](../genes/CDH1.md) loss and upstream RTK alterations ([ERBB2](../genes/ERBB2.md), [EGFR](../genes/EGFR.md)) proposed as context-permissive factors [PMID:26451490](../papers/26451490.md)
 - HDR-based introduction of H1047R into rat Pik3ca yielded predominantly benign fibroadenomas (8/10); combined Pik3caH1047R + Tp53Indel produced moderately differentiated invasive ductal carcinoma at 42-day median latency in a CRISPR rat mammary tumor platform [PMID:26437033](../papers/26437033.md)
 - Hotspot mutations (E545K, Q546K, N345I, C420R, E542A) in 6 prostate adenocarcinoma tumors; focal amplification with overexpression in ~1% in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
+- PIK3CA mutated as part of the PI3K/AKT/mTOR pathway (disrupted in 39% ATC vs 11% PDTC, P=1×10⁻³); PIK3CA helical-domain mutations restricted to ATC in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
+- PIK3CA recurrently altered in plasmacytoid-variant bladder cancer; flagged by the authors as a clinically actionable target supporting early use of PI3K-pathway inhibitors. [PMID:26901067](../papers/26901067.md)
 
 ## Cancer types (linked)
 
@@ -362,5 +364,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

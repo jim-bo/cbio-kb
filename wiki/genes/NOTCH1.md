@@ -3,8 +3,8 @@ symbol: NOTCH1
 aliases: []
 cancer_types: [CLLSLL, ATC, CSCC, HNSC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NOTCH1
@@ -42,6 +42,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - Somatic mutations enriched in adenoid cystic carcinoma (ACC) tumors lacking both [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) fusions (~33% of 102-tumor cohort); raises possibility of NOTCH-targeted therapy substratification in fusion-negative ACC [PMID:26631609](../papers/26631609.md)
 - Activated by point mutations or structural alterations (tandem duplication of 3′ enhancers; 5′ partial deletion) in grade-3 ACC; intracellular NOTCH1 (ICN1) marks luminal epithelial cells [PMID:26829750](../papers/26829750.md)
 - Most-frequently mutated gene in ACC cohort: 4 mutations in 3/25 tumors (nonsense, missense, frameshift, in-frame deletion) — 12% frequency [PMID:26862087](../papers/26862087.md)
+- NOTCH1 was mutated in anaplastic thyroid carcinoma (ATC) as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated in ATC; part of low-frequency hits in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -132,5 +133,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

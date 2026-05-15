@@ -3,8 +3,8 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ARID1A
@@ -67,6 +67,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Inactivating mutations in the SWI/SNF complex in desmoplastic melanoma; protein loss confirmed by IHC; co-occurs with [ARID2](../genes/ARID2.md) inactivation [PMID:26343386](../papers/26343386.md)
 - One of the most frequent SWI/SNF chromatin-remodelling alterations in periampullary adenocarcinomas (AMPAC, DUOAC, CAC); equally distributed across the three tumour types [PMID:26804919](../papers/26804919.md)
 - Identified as a putative MYB transcriptional target in adenoid cystic carcinoma (ACC); mutated in ACC per prior sequencing studies cited in this analysis [PMID:26829750](../papers/26829750.md)
+- ARID1A, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations were largely mutually exclusive within the SWI/SNF complex [PMID:26878173](../papers/26878173.md)
+- ARID1A recurrently mutated in plasmacytoid-variant bladder cancer at frequencies comparable to conventional urothelial carcinoma, NOS, as part of a broader chromatin-remodeler mutation pattern [PMID:26901067](../papers/26901067.md)
 
 ## Cancer types (linked)
 
@@ -225,3 +227,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

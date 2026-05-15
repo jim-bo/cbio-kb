@@ -27,6 +27,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - Gene with at least one identical previously COSMIC-reported mutation in the HNSCC TCGA cohort (n=279) [PMID:25631445](../papers/25631445.md)
 - In [PAAD](../cancer_types/PAAD.md), PTCH1 alterations occur in 2% of cases as part of the Hedgehog-pathway alterations ([GLI3](../genes/GLI3.md) 8%, [SMO](../genes/SMO.md) 8%, [LRP2](../genes/LRP2.md) 6%, [GLI2](../genes/GLI2.md) 3%, PTCH1 2%) in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
 - Homozygous driver in primary medulloblastoma MB-REC-12 (heterozygous mutation + chr9q LOH); the PTCH1-driven primary clone was eradicated at recurrence, replaced by an ancestral chr9q-wild-type sister clone [PMID:26760213](../papers/26760213.md)
+- PTCH1 mutated as a single-case hit replicating findings from a prior whole-exome sequencing study of ATC in a targeted-sequencing study of poorly differentiated and anaplastic thyroid cancers. [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,8 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -9,8 +9,8 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MuTect
@@ -42,6 +42,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for SNV calling alongside MutationSeq in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples; contributed to identification of ~5-fold increased mutational burden at recurrence [PMID:26760213](../papers/26760213.md).
 - One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic mutation detection across 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
 - MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed TP53 and RB1 as top altered genes distinguishing CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
+- Used for somatic mutation calling in the discovery cohort of 6 plasmacytoid-variant bladder tumors profiled by whole-exome sequencing. [PMID:26901067](../papers/26901067.md)
+- Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC (prad_fhcrc cohort); identified AR, TP53, RB1, and MSH2/MSH6 driver mutations across metastatic sites. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -87,25 +89,31 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26278805](../papers/26278805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

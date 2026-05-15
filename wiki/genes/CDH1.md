@@ -7,8 +7,8 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CDH1
@@ -33,6 +33,7 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - Somatic mutations in 21/294 (7.1%) gastric cancer cases; enriched in diffuse-type and cardia tumors; LoF events common; associated with shorter survival; cardia GCs are enriched for CDH1, connecting to the diffuse-type/poor-prognosis axis [PMID:25583476](../papers/25583476.md)
 - Subclonal mutation in breast adenoid cystic carcinoma (AdCC); identified as a non-passenger subclonal event suggesting it may contribute to clonal evolution and therapeutic escape [PMID:26095796](../papers/26095796.md)
 - Biallelic CDH1 loss (truncating mutation + 16q loss) detected in 95% of [ILC](../cancer_types/ILC.md) (107/127 cases carry CDH1 mutations); no CDH1 promoter hypermethylation observed, contradicting prior MSP-based reports; CDH1 status is the dominant feature distinguishing ILC-like from IDC-like tumors among mixed histology cases [PMID:26451490](../papers/26451490.md)
+- CDH1 truncating somatic mutations (nonsense, frameshift) in 84% of plasmacytoid-variant bladder cancers vs 0% in 127 TCGA urothelial NOS tumors; promoter hypermethylation in 4/5 mutation-negative cases; the defining molecular event of the plasmacytoid variant driving E-cadherin loss, enhanced migration, and peritoneal dissemination [PMID:26901067](../papers/26901067.md)
 
 ## Cancer types (linked)
 
@@ -92,3 +93,6 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

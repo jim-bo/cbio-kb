@@ -3,7 +3,7 @@ symbol: PGR
 aliases: [PR, progesterone receptor]
 cancer_types: [UCEC]
 tags: [hormone-receptor, transcription-factor]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ PGR encodes the progesterone receptor, a nuclear hormone receptor that mediates 
 
 - Protein expression increased in the copy-number-low endometrial cancer cluster by RPPA, consistent with hormonal-therapy responsiveness of this endometrioid subgroup [PMID:23636398](../papers/23636398.md)
 - PR expression correlates with ER expression across CRISPR rat mammary tumor models; PGR transcript appears in the 58-gene set responsive to [fulvestrant](../drugs/fulvestrant.md) in rat tumors and in human GSE5462/GSE71791 datasets [PMID:26437033](../papers/26437033.md)
+- PGR (progesterone receptor) discussed as a candidate alternative activator of AR-pathway output in mCRPC tumors with AR activity but absent AR protein expression, alongside NR3C1 (GR) and ESR1 (ER-alpha). [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PGR encodes the progesterone receptor, a nuclear hormone receptor that mediates 
 - [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

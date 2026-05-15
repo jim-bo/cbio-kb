@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [HCC, THPA, IHCH]
 tags: [promoter-mutation, thyroid-cancer, cholangiocarcinoma, hbv-integration]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TERT
@@ -28,6 +28,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - Recurrent 5p15.33 structural rearrangements ~50 kb upstream of the TSS in 31% (12/39) of high-risk WGS cases and 13% (28/217) of extended neuroblastoma cohort; rearrangements hijack enhancer/super-enhancer elements causing transcriptional upregulation, mono-allelic expression, and telomerase activation; mutually exclusive with [MYCN](../genes/MYCN.md) amplification and [ATRX](../genes/ATRX.md) mutations [PMID:26466568](../papers/26466568.md)
 - Amplification present at diagnosis but lost at recurrence in medulloblastoma case MB-REC-14, illustrating that targets identified in therapy-naive tumours may be absent in the dominant relapse clone [PMID:26760213](../papers/26760213.md)
 - TERT promoter mutations in 48% of diffuse gliomas drive TERT mRNA upregulation and co-occur with chr7 gain / chr10 loss in IDH-wildtype glioma; TERTp mutation did not independently predict survival after adjusting for age and grade in this cohort [PMID:26824661](../papers/26824661.md)
+- Promoter C228T or C250T in 40% PDTC and 73% ATC; clonal in advanced disease vs subclonal in PTC; co-occurs with BRAF/RAS (OR 3.4, P = 0.004); markedly worse survival in TERT-mutant ATC [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -81,5 +82,8 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

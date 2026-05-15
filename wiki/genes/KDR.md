@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KDR
@@ -20,6 +20,7 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - KDR (VEGFR2) is an anti-angiogenic target in [NPC](../cancer_types/NPC.md); inhibited by [apatinib](../drugs/apatinib.md) (VEGFR2 TKI, + [camrelizumab](../drugs/camrelizumab.md) ORR 43.3% in ICI-refractory R/M [NPC](../cancer_types/NPC.md)), [surufatinib](../drugs/surufatinib.md), [axitinib](../drugs/axitinib.md), [anlotinib](../drugs/anlotinib.md), and [cabozantinib](../drugs/cabozantinib.md). [PMID:24952746](../papers/24952746.md)
 - KDR (VEGFR2) identified as a low-frequency FDA-druggable alteration in [HCC](../cancer_types/HCC.md) (<1% frequency); co-amplified with [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) at 4q12 in the Triple-WT melanoma subtype [PMID:25822088](../papers/25822088.md)
 - KDR co-amplified with [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) at 4q12 in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); part of rationale for [sorafenib](../drugs/sorafenib.md), [crenolanib](../drugs/crenolanib.md), [regorafenib](../drugs/regorafenib.md), and [pazopanib](../drugs/pazopanib.md) in this subtype [PMID:26091043](../papers/26091043.md)
+- KDR (VEGFR2) mutations observed at low frequency in ATC as part of RTK alterations alongside FLT1 and FLT4; reported among hits with ≥2 ATC occurrences in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

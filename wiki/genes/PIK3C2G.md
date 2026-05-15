@@ -6,7 +6,7 @@ cancer_types:
 tags:
   - pi3k-pathway
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # PIK3C2G
@@ -19,6 +19,8 @@ PIK3C2G encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 
 - PI3K pathway alteration contributing to a total of 22% PI3K pathway alteration rate in intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) discovery-screen tumors; identified alongside [PIK3CA](PIK3CA.md), [PTEN](PTEN.md), and [PIK3C2A](PIK3C2A.md) [PMID:24185509](../papers/24185509.md)
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
+- PIK3C2G mutated as part of the PI3K/AKT/mTOR pathway, which is disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
+- PIK3C2G S48R mutation observed as a truncal alteration shared between plasmacytoid-variant and adjacent urothelial NOS components in a mixed bladder tumor. [PMID:26901067](../papers/26901067.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +46,9 @@ PIK3C2G encodes phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

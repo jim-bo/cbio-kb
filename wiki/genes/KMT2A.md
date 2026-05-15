@@ -3,8 +3,8 @@ symbol: KMT2A
 aliases: [MLL, MLL1, ALL-1, HRX, TRX1]
 cancer_types: [BLLKMT2A]
 tags: [epigenetic-regulator, histone-methyltransferase, fusion-gene]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KMT2A
@@ -25,6 +25,7 @@ processed_at: 2026-05-14
 - KMT2A is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the chromatin-modifier/epigenetic regulator gene set in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 - KMT2A listed among additional candidate chromatin-remodeling drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors including KMT2A [PMID:25417114](../papers/25417114.md)
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
+- KMT2A, together with KMT2C, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -72,3 +73,6 @@ processed_at: 2026-05-14
 - [PMID:26278805](../papers/26278805.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: NCOR2
 aliases: [SMRT]
 cancer_types: [RMS, FPRMS]
 tags: [transcriptional-corepressor, rhabdomyosarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NCOR2
@@ -20,6 +20,7 @@ NCOR2 (Nuclear Receptor Corepressor 2, also known as SMRT) encodes a transcripti
 - Nonsense mutation identified in SHH-subgroup medulloblastoma in WES of 92 tumors (Broad cohort); component of the nuclear co-repressor complex [PMID:22820256](../papers/22820256.md)
 - In mCRPC, NCOR2 was identified as an [AR](../genes/AR.md) pathway regulator recurrently altered in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 - AR co-activator alteration enriched in CRPC-Adeno (21 cases) vs. CRPC-NE [PMID:26855148](../papers/26855148.md)
+- NCOR2 is one of only two genes (alongside CSMD1) from 51 metastasis-private non-synonymous variants in patient 99-091 that are altered at >5% frequency in TCGA PRAD or SU2C mCRPC datasets, suggesting most private mutations at metastatic sites are passenger events [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ NCOR2 (Nuclear Receptor Corepressor 2, also known as SMRT) encodes a transcripti
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ATM
@@ -48,6 +48,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Referenced as the previously published SF3B1-Atm co-mutant CLL murine model; used as comparison context for the SF3B1/del(13q) double-mutant model demonstrating accelerated CLL development via mTOR pathway activation [PMID:26200345](../papers/26200345.md)
 - ATM shows high co-occurrence with del(11q) (OR 10.99) in 538 CLL WES cases; del(11q) typically precedes ATM sSNV/sINDEL second hits in biallelic inactivation; 9 instances of multiple distinct alleles per CLL indicate convergent evolution; ATM did not replicate as an independent PFS predictor in the CLL8 trial [PMID:26466571](../papers/26466571.md)
 - Nonsense mutation in 1 case and kinase-dead N2875 hotspot in 2 cases in primary prostate cancer; ATM loss-of-function contributes to the 19% DNA-repair-gene-defect prevalence that supports PARP-inhibitor candidacy [PMID:26544944](../papers/26544944.md)
+- ATM mutated in 7% PDTC and 9% ATC in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); ATM mutations associated with higher mutation burden in both PDTC (P = 0.04) and ATC (P = 7×10⁻³) [PMID:26878173](../papers/26878173.md)
+- Heterozygous inactivating ATM events (somatic or germline) included in the DNA-repair-defect classifier; men with mCRPC harboring such events had significantly longer time on carboplatin treatment (Kaplan-Meier log-rank P = 0.02, n=20 carboplatin-treated men) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -159,3 +161,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

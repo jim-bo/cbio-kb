@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, non-coding-rna, expression]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # miRNA-seq
@@ -24,6 +24,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Included in the TCGA breast cancer ILC/IDC multi-platform study (n=817) for miRNA expression profiling as part of the comprehensive molecular characterization distinguishing [ILC](../cancer_types/ILC.md) from [IDC](../cancer_types/IDC.md) [PMID:26451490](../papers/26451490.md)
 - Profiled miRNA expression in 330 of 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform molecular characterization that defined seven mutually exclusive molecular subtypes [PMID:26544944](../papers/26544944.md).
 - miRNA-seq applied to TCGA glioma samples as part of the multi-platform pan-glioma data integration defining molecular subtypes [PMID:26824661](../papers/26824661.md)
+- Applied to 66 primary MRTs; unsupervised clustering of 535 miRNAs split MRT into a larger sub-group (n=57) clustering with normal cerebellum and TCGA PCPG, and a smaller sub-group (n=9) clustering with synovial sarcomas, linking MRT to neural-crest lineages. [PMID:26977886](../papers/26977886.md)
 
 ## Notes
 
@@ -46,7 +47,10 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

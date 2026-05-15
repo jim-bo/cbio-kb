@@ -4,8 +4,8 @@ oncotree_code: THAP
 main_type: Thyroid Cancer
 parent: THYROID
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Anaplastic Thyroid Cancer (THAP)
@@ -31,6 +31,7 @@ Anaplastic thyroid carcinoma (ATC/THAP) is the most aggressive thyroid malignanc
 - [RB1](../genes/RB1.md) — recurrent deletions in ATCs. [PMID:38412093](../papers/38412093.md)
 - [USH2A](../genes/USH2A.md) — recurrently mutated (top 5 by FDR). [PMID:38412093](../papers/38412093.md)
 - Mutational burden: 3.8 +/- 1.2 SNVs/Mb and 120 +/- 44 CNAs per tumor; 42 recurrently mutated genes by SeqSig (FDR<0.05). [PMID:38412093](../papers/38412093.md)
+- MSK-IMPACT deep-sequencing of 33 ATC tumors found [TP53](../genes/TP53.md) mutation in 73%, [BRAF](../genes/BRAF.md) V600E in 45%, [TERT](../genes/TERT.md) promoter mutations in 73%, and enrichment of PI3K/AKT/mTOR (39%), SWI/SNF (36%), and histone-methyltransferase (24%) alterations; TERT-mutant ATCs had markedly shorter survival (median 147 vs 732 days, P=0.03) [PMID:26878173](../papers/26878173.md)
 
 ## Subtypes
 
@@ -49,4 +50,6 @@ Anaplastic thyroid carcinoma (ATC/THAP) is the most aggressive thyroid malignanc
 
 - [PMID:38412093](../papers/38412093.md) — The genomic and evolutionary landscapes of anaplastic thyroid carcinoma (Cell Reports, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:26878173](../papers/26878173.md) — Landa et al., MSK-IMPACT sequencing of 84 PDTC and 33 ATC; ATC characterized by TP53 (73%), BRAF V600E (45%), TERT promoter (73%), and SWI/SNF (36%) alterations
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ALK
@@ -27,6 +27,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - Fusions detected in 3/230 (1.3%) [LUAD](../cancer_types/LUAD.md) cases; restricted to the transversion-low subgroup; represents a clinically actionable RTK/RAS/RAF pathway alteration in oncogene-defined [LUAD](../cancer_types/LUAD.md) [PMID:25079552](../papers/25079552.md)
 - Fusions in 0.8% (4/484) of papillary thyroid carcinomas, including EML4/ALK; fusion-positive tumors characterized by younger age and are a potential targetable alteration [PMID:25417114](../papers/25417114.md)
 - ALK somatic mutations detected in 7/56 (12.5%) WGS neuroblastoma cases, distributed across both high-risk and low-risk groups — not specific to the high-risk telomere-maintenance biology defined by [TERT](../genes/TERT.md) rearrangement, [MYCN](../genes/MYCN.md) amplification, or [ATRX](../genes/ATRX.md) mutation [PMID:26466568](../papers/26466568.md)
+- ALK fusions detected in 3 PDTC cases involving partners STRN, EML4, and a novel CCDC149 partner; mutually exclusive with BRAF, RAS, TSHR, and STK11 mutations; PDTCs with fusions were younger (median 49 vs 58 years, P = 0.04) [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:26466568](../papers/26466568.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

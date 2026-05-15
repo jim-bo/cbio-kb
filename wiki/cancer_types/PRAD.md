@@ -5,7 +5,7 @@ main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Prostate Adenocarcinoma (PRAD)
@@ -42,6 +42,7 @@ OncoTree code for prostate adenocarcinoma.
 - Prospective WES + transcriptome sequencing of 150 mCRPC bone/soft-tissue biopsies (SU2C-PCF Dream Team; dataset: [prad_su2c_2015](../datasets/prad_su2c_2015.md)): [AR](../genes/AR.md) altered in 62.7%, ETS fusions 56.7%, [TP53](../genes/TP53.md) 53.3%, [PTEN](../genes/PTEN.md) 40.7%; DNA-repair pathway (BRCA2/BRCA1/ATM) aberrations in 19.3% — substantially higher than primary PRAD; 89% of patients harbored a clinically actionable alteration; 8% had pathogenic germline variants; novel recurrent focal homozygous deletion of [ZBTB16](../genes/ZBTB16.md) at chr11q23 in 5% of cases [PMID:26000489](../papers/26000489.md)
 - Prostate adenocarcinoma (PRAD) multi-omic profiling identified subtypes defined by ETS fusions, SPOP/FOXA1/IDH1 mutations, and distinct epigenetic signatures [PMID:26544944](../papers/26544944.md)
 - Beltran et al. profiled 114 metastatic biopsies from 81 castration-resistant prostate cancer patients (51 CRPC-Adeno, 30 CRPC-NE); concurrent RB1+TP53 loss hallmarks neuroendocrine transdifferentiation (53.3% CRPC-NE vs 13.7% CRPC-Adeno); CYLD deleted in 51% CRPC-NE; 70-gene NEPC classifier (precision/recall >0.99) detects CRPC-NE in up to 8% of metastatic cases across external cohorts [PMID:26855148](../papers/26855148.md)
+- WES + array-CGH + expression microarray on 176 tumors from 63 men with mCRPC (rapid autopsy cohort) showed high intra-individual metastatic concordance for key drivers ([AR](../genes/AR.md) amplification/mutation 63%, [TMPRSS2](../genes/TMPRSS2.md)-[ERG](../genes/ERG.md) 100% concordant); somatic FA-pathway or [ATM](../genes/ATM.md) defects predicted longer carboplatin response (log-rank P=0.02) [PMID:26928463](../papers/26928463.md)
 
 ## Subtypes
 
@@ -81,4 +82,6 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md) — Kumar et al., WES + array-CGH + expression microarray on 176 mCRPC tumors from 63 men (rapid autopsy); intra-individual metastatic concordance and FA-pathway/ATM carboplatin response biomarker
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

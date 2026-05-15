@@ -3,8 +3,8 @@ symbol: FOXA2
 aliases: [HNF3B]
 cancer_types: [CCRCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FOXA2
@@ -16,6 +16,7 @@ FOXA2 (forkhead box A2, also known as HNF3B) is a pioneer transcription factor w
 ## Alterations observed in the corpus
 
 - Identified by LISA and ChEA3 (top 50 in both analyses) as a transcription factor whose binding sites are enriched at HIF2A-specific (but not HIF1A-specific) Vhl-dependent gene loci in a murine ccRCC precursor model; proposed to mediate HIF2A's tissue-restricted, dedifferentiation-linked transcriptional output [PMID:23797736](../papers/23797736.md)
+- Recurrent FOXA2 mutations were enriched in mCRPC tumors with neuroendocrine features (small-cell histology) across 63 men profiled at rapid autopsy [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ FOXA2 (forkhead box A2, also known as HNF3B) is a pioneer transcription factor w
 - [PMID:23797736](../papers/23797736.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

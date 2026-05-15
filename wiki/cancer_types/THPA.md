@@ -4,8 +4,8 @@ oncotree_code: THPA
 main_type: Thyroid Cancer
 parent: WDTC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Papillary Thyroid Cancer (THPA)
@@ -27,6 +27,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [TERT](../genes/TERT.md) — promoter mutations; co-occurs with [TP53](../genes/TP53.md) mutations in [BRAF](../genes/BRAF.md) fusion-positive thyroid cancers (73% of [BRAF](../genes/BRAF.md) fusion thyroid cancers). [PMID:38922339](../papers/38922339.md)
 - [CDKN2A](../genes/CDKN2A.md) — rare in PTC (~5%) vs. 42% in ATC; marks dedifferentiation. [PMID:38412093](../papers/38412093.md)
 - TCGA multiplatform genomic characterization of 496 PTCs identified 7 significantly mutated genes ([BRAF](../genes/BRAF.md) V600E in 61.7%, RAS in 12.9%, [EIF1AX](../genes/EIF1AX.md), [PPM1D](../genes/PPM1D.md), [CHEK2](../genes/CHEK2.md)), reduced 'dark matter' from ~25% to 3.5%, and defined BRAFV600E-like vs. RAS-like molecular subtypes with distinct signaling, differentiation, and clinical outcomes [PMID:25417114](../papers/25417114.md).
+- TCGA papillary thyroid carcinoma cohort (n=390) used as comparator; BRAF-RAS score (BRS) tracked driver mutation in PDTCs but ATCs were uniformly BRAF-like irrespective of driver, indicating a stepwise progression model from differentiated precursors [PMID:26878173](../papers/26878173.md)
 
 ## Subtypes
 
@@ -44,7 +45,7 @@ Papillary thyroid carcinoma (PTC/THPA) is the most common thyroid malignancy, wi
 - [PMID:38412093](../papers/38412093.md) — The genomic and evolutionary landscapes of anaplastic thyroid carcinoma (Cell Reports, 2024)
 - [PMID:38922339](../papers/38922339.md) — Tumor-agnostic genomic and clinical analysis of BRAF fusions identify actionable targets (Clinical Cancer Research, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25417114](../papers/25417114.md)
+- [PMID:26878173](../papers/26878173.md) — Landa et al., MSK-IMPACT deep-sequencing study; TCGA PTC cohort (n=390) used as comparator; BRAF-RAS score tracks driver in PDTC but ATCs are uniformly BRAF-like
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

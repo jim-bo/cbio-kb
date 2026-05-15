@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SMARCA4
@@ -41,6 +41,7 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Part of SWI/SNF chromatin-remodelling lesions in >42% of pancreatic ductal adenocarcinoma cases (along with [SMARCA2](../genes/SMARCA2.md), [SMARCC1](../genes/SMARCC1.md), [SMARCC2](../genes/SMARCC2.md), [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [PBRM1](../genes/PBRM1.md)). [PMID:25855536](../papers/25855536.md)
 - Somatic mutation detected in both low-grade and high-grade [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma); listed among chromatin-modifying genes (alongside [KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md)) that are frequently altered and concordant across spatial tumour components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - p.Ser1238Tyr (PolyPhen2 = 0.99) in Sézary syndrome; p.Arg251Lys in mycosis fungoides; SWI/SNF chromatin remodeling component [PMID:26551667](../papers/26551667.md)
+- Sole driver of SMARCB1-intact extra-cranial malignant rhabdoid tumor (MRT) via somatic LOH plus a germline one-base deletion, demonstrating SWI/SNF complex redundancy in MRT pathogenesis [PMID:26977886](../papers/26977886.md)
 
 ## Cancer types (linked)
 
@@ -126,5 +127,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BRAF
@@ -81,6 +81,7 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - 2.4% mutation rate in primary prostate cancer (higher than previously reported); 8 mutations, none V600E; includes K601E, G469A, L597R (MEK-inhibitor sensitive), K601 in-frame deletion, F468C; MAPK-pathway actionable [PMID:26544944](../papers/26544944.md)
 - p.Lys601Glu activating mutation in a CD30-negative CTCL (Sézary syndrome) sample; MEK-pathway convergence across CTCL subtypes [PMID:26551667](../papers/26551667.md)
 - MAPK-pathway alteration enriched in PA-like IDH-wildtype LGG (52%) and LGm6-GBM (32%) in a 1,122-tumour TCGA pan-glioma cohort; BRAF alterations nominate candidate targeted therapies for this favourable-prognosis IDH-wildtype LGG subset [PMID:26824661](../papers/26824661.md)
+- BRAF V600E in 33% PDTC and 45% ATC (n=117 advanced thyroid tumors); BRAF-mutant PDTCs were smaller, more often nodal-metastatic, and overrepresented in females (P = 0.005); 81% of BRAF-mutant PDTCs classified as PDTC only by MSKCC (not Turin) criteria; BRAF co-occurs with TERT promoter mutations (OR 3.4, P = 0.004) [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -277,3 +278,6 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

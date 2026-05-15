@@ -3,8 +3,8 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG]
 tags: [epigenetic-regulator, relapse]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CREBBP
@@ -39,6 +39,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - Chromatin-modifier mutations (CREBBP) found in both low- and high-grade [UTUC](../cancer_types/UTUC.md); concordant across spatial tumor components suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - Loss-of-function mutations (p.Gln839* nonsense, p.Ser1207fs frameshift) in the histone acetyltransferase domain in CTCL (Sézary syndrome) [PMID:26551667](../papers/26551667.md)
 - Only mouse-model gCIS (genome-wide common insertion site) observed across all compartments (primary + local + metastatic recurrence) in Shh medulloblastoma [PMID:26760213](../papers/26760213.md)
+- CREBBP identified among epigenetic regulator mutations in PDTC/ATC thyroid tumors (IMPACT 341-gene panel, 117 tumors); listed alongside EP300, BCOR, BCL6 as other epigenetic regulators recurrently altered in ATC [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -125,3 +126,6 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - [PMID:26760213](../papers/26760213.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -9,8 +9,8 @@ tags:
   - swi-snf
   - chromatin-remodeling
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ARID2
@@ -40,6 +40,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - Inactivating mutations in the SWI/SNF complex in desmoplastic melanoma; co-occurs with [ARID1A](../genes/ARID1A.md) inactivation; both confirmed as tumor-suppressor gene alterations [PMID:26343386](../papers/26343386.md)
 - One of the most frequent SWI/SNF chromatin-remodelling alterations in periampullary adenocarcinomas (AMPAC, DUOAC, CAC); equally distributed across the three tumour types [PMID:26804919](../papers/26804919.md)
 - Newly nominated glioma driver (n=20 mutations) in a pan-glioma WGS/WES cohort of 1,122 diffuse gliomas; classified as a chromatin-modification gene [PMID:26824661](../papers/26824661.md)
+- ARID2, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations generally mutually exclusive within the complex [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -114,3 +115,6 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

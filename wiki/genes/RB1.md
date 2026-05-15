@@ -36,6 +36,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Heterozygous loss often co-incident with [BRCA2](../genes/BRCA2.md) loss at 13q in primary prostate cancer [PMID:26544944](../papers/26544944.md)
 - 13q14.2 deletion in 4/25 (16%) Sézary syndrome [PMID:26551667](../papers/26551667.md)
 - Deletion in 70% of CRPC-NE vs. 32% of CRPC-Adeno (P = 0.003); concurrent RB1+TP53 loss in 53.3% of CRPC-NE (P < 0.0004) [PMID:26855148](../papers/26855148.md)
+- RB1 infrequently truncated in a targeted-sequencing study of poorly differentiated and anaplastic thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
+- RB1 frequently mutated in plasmacytoid-variant bladder cancer at frequencies similar to urothelial carcinoma NOS. [PMID:26901067](../papers/26901067.md)
+- RB1 loss in mCRPC associated with elevated CCP score, elevated E2F1 expression, and a 15-gene Fanconi anaemia signature; E2F1 high expression correlates with CCP (r=0.8, P<0.001) and FA pathway activity (r=0.78, P<0.001). [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -113,5 +116,14 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

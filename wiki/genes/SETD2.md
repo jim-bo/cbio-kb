@@ -3,8 +3,8 @@ symbol: SETD2
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SETD2
@@ -28,6 +28,7 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - SETD2 harbors novel somatic mutations (chromatin/methyltransferase regulator) in Ewing sarcoma; identified in whole-genome sequencing of 112 cases [PMID:25223734](../papers/25223734.md)
 - SETD2 identified as a significantly mutated gene in papillary renal cell carcinoma (pRCC) in a comprehensive UTSW nccRCC study [PMID:25401301](../papers/25401301.md)
 - SETD2 identified as a chromatin-modification driver gene (n=24 mutations) newly nominated in diffuse glioma by TCGA pan-glioma analysis [PMID:26824661](../papers/26824661.md)
+- HMT (histone methyltransferase) family member mutated in 24% of ATC vs 7% of PDTC (P = 0.02) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

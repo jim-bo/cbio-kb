@@ -268,6 +268,15 @@ def _cmd_wiki_reprocess_extract(args: argparse.Namespace) -> int:
     )
 
 
+def _cmd_wiki_normalize_brackets(args: argparse.Namespace) -> int:
+    from cbio_kb.wiki import normalize_brackets
+
+    paths = [Path(p) for p in args.paths] if args.paths else None
+    return normalize_brackets.run(
+        Path(args.wiki_dir), paths=paths, dry_run=args.dry_run
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="cbio-kb", description="cbio-kb CLI")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -465,6 +474,16 @@ def build_parser() -> argparse.ArgumentParser:
     w_reextract.add_argument("--prompts", action="store_true",
                               help="Emit agent prompts instead of JSON manifest")
     w_reextract.set_defaults(func=_cmd_wiki_reprocess_extract)
+
+    w_norm = wiki_sub.add_parser(
+        "normalize-brackets",
+        help="Repair Obsidian-style links ([[name]], [[[name](url)]], etc.) to plain Markdown",
+    )
+    w_norm.add_argument("--paths", nargs="*",
+                        help="Specific files to normalize (default: all .md under wiki/)")
+    w_norm.add_argument("--dry-run", action="store_true",
+                        help="Print changes without writing")
+    w_norm.set_defaults(func=_cmd_wiki_normalize_brackets)
 
     return p
 

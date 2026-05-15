@@ -102,10 +102,12 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 3. Dispatch **paper-compiler** with the PMID. It writes `wiki/papers/{pmid}.md` and returns the entity lists (genes, cancer_types, datasets, drugs, methods).
 4. For each entity kind with new/touched entries, dispatch **entity-page-writer** once with the entity→[PMID] mapping.
 5. Dispatch **crosslinker** over the new paper page plus any entity pages touched in step 4.
-6. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
-7. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
-8. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
-9. Commit.
+6. `uv run cbio-kb wiki normalize-brackets` — deterministic, repairs Obsidian-style links agents sometimes emit. Lint will error on the unbalanced shapes.
+7. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing what was added (paper count, key topics, PMIDs linked). Keep it to 1–2 lines.
+8. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
+9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
+10. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
+11. Commit.
 
 ### Adding a batch of N papers
 
@@ -114,10 +116,12 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 3. Collect all returned entity lists and invert to `{entity_kind: {entity: [pmids...]}}` with a Python one-liner.
 4. Fan out **entity-page-writer** once per kind. Shard `genes` into alphabetical buckets of ~20 to keep prompts tight.
 5. Single **crosslinker** pass over the new papers + all touched entity pages (pin to `haiku`).
-6. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from template.
-7. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` for the `/ask` Graph tab.
-8. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
-9. Commit per wave, not per paper.
+6. `uv run cbio-kb wiki normalize-brackets` — deterministic post-write step that repairs Obsidian-style links (`[[name]]`, `[[name](url)]]`, etc.) to plain Markdown. Always run before lint; `cbio-kb lint` treats the unbalanced variants as errors and will fail CI otherwise.
+7. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing the batch (paper count, key topics/diseases, notable PMIDs linked). One bullet per batch, not per paper.
+8. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from template.
+9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` for the `/ask` Graph tab.
+10. `cbio-kb lint`; optionally `cbio-kb ontology sync` if new studies/panels appeared.
+11. Commit per wave, not per paper.
 
 ### Reprocessing after ontology or template changes
 

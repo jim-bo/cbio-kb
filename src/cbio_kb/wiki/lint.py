@@ -7,6 +7,8 @@ import json
 import re
 from pathlib import Path
 
+import yaml
+
 from cbio_kb.ontology import lookup as ontology
 from cbio_kb.wiki.vault import _parse_frontmatter, _LINK_RE as LINK_RE, _FRONTMATTER_RE as FRONTMATTER_RE
 
@@ -74,6 +76,17 @@ def run(wiki_dir: Path, allow_orphans: bool = False) -> int:
         text = path.read_text()
         fm = _parse_frontmatter(text)
         section = rel.split("/", 1)[0]
+
+        # Strict YAML validation — Quarto's renderer fails the entire site
+        # build on the first unparseable frontmatter, so catch it here.
+        fm_match = FRONTMATTER_RE.match(text)
+        if fm_match:
+            try:
+                yaml.safe_load(fm_match.group(1))
+            except yaml.YAMLError as e:
+                msg = str(e).replace("\n", " ").strip()
+                errors.append(f"{rel}: malformed YAML frontmatter — {msg}")
+
         if section in REQUIRED_FRONTMATTER:
             missing = REQUIRED_FRONTMATTER[section] - {k for k, v in fm.items() if v}
             if missing:

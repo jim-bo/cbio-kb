@@ -11,6 +11,14 @@ data/
 
 # Scratch
 possible_improvements.md
+*.tmp
+
+# OS metadata
+.DS_Store
+
+# Gemini CLI local state
+.gemini/settings.json
+.gemini/telemetry.log
 
 # Quarto
 wiki/_site/
@@ -38,3 +46,6 @@ wiki/.obsidian/workspace.json
 *.pem
 credentials.json
 service-account*.json
+
+/.quarto/
+**/*.quarto_ipynb

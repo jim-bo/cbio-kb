@@ -97,8 +97,17 @@ def load_frontmatter(pmid: str) -> dict:
     return yaml.safe_load(text[4:end])
 
 
-def load_ontology() -> dict[str, set]:
-    out = {"genes": set(), "cancer_types": set(), "gene_panels": set(), "oncotree": set()}
+def load_ontology() -> dict:
+    """Return canonical sets plus a `parent_of` map for OncoTree ancestry walks.
+
+    Note: cBioPortal's `cancer_types.json` is content-identical to OncoTree
+    (897 codes both ways, lowercased on the cBioPortal side); we use the
+    cBioPortal flavor because it already has flat `parent` fields.
+    """
+    out: dict = {
+        "genes": set(), "cancer_types": set(), "gene_panels": set(),
+        "oncotree": set(), "parent_of": {},
+    }
     for name, key, dest in [
         ("genes.json", "hugoGeneSymbol", "genes"),
         ("cancer_types.json", "cancerTypeId", "cancer_types"),
@@ -106,8 +115,11 @@ def load_ontology() -> dict[str, set]:
     ]:
         p = ONTOLOGY_DIR / name
         if p.exists():
-            for row in json.loads(p.read_text()):
+            rows = json.loads(p.read_text())
+            for row in rows:
                 out[dest].add(row[key])
+            if name == "cancer_types.json":
+                out["parent_of"] = {r["cancerTypeId"]: r.get("parent") for r in rows}
     p = ONTOLOGY_DIR / "oncotree.json"
     if p.exists():
         stack = list(json.loads(p.read_text()))
@@ -124,6 +136,59 @@ def load_ontology() -> dict[str, set]:
     return out
 
 
+def _ancestors(code: str, parent_of: dict[str, str]) -> list[str]:
+    """Walk OncoTree parent chain from `code` to root. Excludes `code` itself."""
+    out: list[str] = []
+    seen = {code}
+    cur = parent_of.get(code)
+    while cur and cur not in seen:
+        out.append(cur)
+        seen.add(cur)
+        cur = parent_of.get(cur)
+    return out
+
+
+def _classify_cancer_type(api_ct: str, fm_cts: list[str],
+                           parent_of: dict[str, str]) -> tuple[str, str, str]:
+    """Return (severity, code, message) for the API↔frontmatter cancer-type
+    comparison. Implements the four-arm match: exact / API-generalization /
+    frontmatter-generalization / pan-cancer."""
+    if not api_ct:
+        return ("info", "study.cancer_type_only_paper",
+                "study lacks cancerTypeId; cannot compare")
+    if not fm_cts:
+        return ("info", "study.cancer_type_only_api",
+                f"frontmatter cancer_types empty; API says {api_ct!r}")
+
+    if api_ct in fm_cts:
+        return ("pass", "study.cancer_type_match",
+                f"cancerTypeId {api_ct!r} matches frontmatter exactly")
+
+    # API code is an ancestor of a frontmatter code → paper is more specific.
+    for c in fm_cts:
+        if api_ct in _ancestors(c, parent_of):
+            return ("pass", "study.cancer_type_generalization",
+                    f"API code {api_ct!r} is a parent of frontmatter {c!r} "
+                    f"(paper is more specific than the study record)")
+
+    # Frontmatter code is an ancestor of API code → paper is more general.
+    api_anc = _ancestors(api_ct, parent_of)
+    for c in fm_cts:
+        if c in api_anc:
+            return ("pass", "study.cancer_type_specialization",
+                    f"frontmatter code {c!r} is a parent of API {api_ct!r} "
+                    f"(paper is less specific than the study record)")
+
+    # Pan-cancer cohort: API says `mixed` and the paper enumerates ≥2 codes.
+    if api_ct == "mixed" and len(fm_cts) >= 2:
+        return ("pass", "study.cancer_type_pan_cancer",
+                f"API uses 'mixed' for pan-cancer cohort; "
+                f"paper enumerates {len(fm_cts)} specific types")
+
+    return ("warn", "study.cancer_type_mismatch",
+            f"cancerTypeId {api_ct!r} unrelated to frontmatter {fm_cts}")
+
+
 def hugo_to_entrez() -> dict[str, int]:
     p = ONTOLOGY_DIR / "genes.json"
     if not p.exists():
@@ -133,7 +198,8 @@ def hugo_to_entrez() -> dict[str, int]:
 
 # ---------- Checks ----------
 
-def check_study(study_id: str, fm: dict, *, is_primary: bool) -> tuple[dict | None, list[Finding]]:
+def check_study(study_id: str, fm: dict, *, is_primary: bool,
+                 parent_of: dict[str, str]) -> tuple[dict | None, list[Finding]]:
     """Identity + linkage checks for one study. Returns (study_record, findings).
 
     `is_primary` distinguishes the paper's own `study_id:` (where a PMID
@@ -177,19 +243,9 @@ def check_study(study_id: str, fm: dict, *, is_primary: bool) -> tuple[dict | No
 
     api_ct = (study.get("cancerTypeId") or "").lower()
     fm_cts = [c.lower() for c in (fm.get("cancer_types") or [])]
-    if api_ct:
-        if api_ct in fm_cts:
-            findings.append(Finding("pass", "study.cancer_type_match", scope,
-                                    f"cancerTypeId {api_ct!r} matches frontmatter cancer_types",
-                                    evidence={"api_cancer_type_id": api_ct, "frontmatter": fm_cts}))
-        elif fm_cts:
-            findings.append(Finding("warn", "study.cancer_type_mismatch", scope,
-                                    f"cancerTypeId {api_ct!r} not in frontmatter {fm_cts}",
-                                    evidence={"api_cancer_type_id": api_ct, "frontmatter": fm_cts}))
-        else:
-            findings.append(Finding("info", "study.cancer_type_only_api", scope,
-                                    f"frontmatter cancer_types empty; API says {api_ct!r}",
-                                    evidence={"api_cancer_type_id": api_ct}))
+    sev, code, msg = _classify_cancer_type(api_ct, fm_cts, parent_of)
+    findings.append(Finding(sev, code, scope, msg,
+                            evidence={"api_cancer_type_id": api_ct, "frontmatter": fm_cts}))
 
     findings.append(Finding("info", "study.samples", scope,
                             f"{study.get('sequencedSampleCount')} sequenced, "
@@ -359,7 +415,8 @@ def verify_pmid(pmid: str, *, gene_limit: int, ont: dict,
                                 "no study_id or datasets declared — skipping API study checks"))
     else:
         for sid, is_primary in seq:
-            _, study_findings = check_study(sid, fm, is_primary=is_primary)
+            _, study_findings = check_study(sid, fm, is_primary=is_primary,
+                                             parent_of=ont["parent_of"])
             findings.extend(study_findings)
             if any(f.code == "study.exists" and f.scope.endswith(sid) for f in study_findings):
                 findings.extend(check_panels(sid, fm.get("methods") or [],

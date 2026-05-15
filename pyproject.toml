@@ -48,6 +48,13 @@ cbio-kb = "cbio_kb.cli:main"
 [tool.hatch.build.targets.wheel]
 packages = ["src/cbio_kb"]
 
+[tool.pytest.ini_options]
+# Claim-verification tests hit the live cBioPortal API and are slow; they
+# are auto-generated from wiki/papers/*.claims.json by
+# `scripts/emit_claim_tests.py`. Opt in explicitly:
+#   uv run pytest tests/claims/
+addopts = "--ignore=tests/claims"
+
 [dependency-groups]
 dev = [
     "pytest>=9.0.3",

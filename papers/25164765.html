@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -224,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Primary tumor location: right colon 28 (40%), left colon 30 (44%), rectum 11 (16%).</li>
 <li>Treatment: 30 (43.5%) chemonaive prior to resection; 39 (56.5%) received prior therapy. None received anti-EGFR therapy before resection.</li>
 <li>Concurrent primary/metastasis resection: 52 (75%); subsequent: 17 (25%, mean interval 15.3 months).</li>
-<li>Cancer type: [[COADREAD]] (colorectal adenocarcinoma).</li>
+<li>Cancer type: <a href="../cancer_types/COADREAD.html">COADREAD</a> (colorectal adenocarcinoma).</li>
 <li>Dataset: <a href="../datasets/coadread_mskcc.html">coadread_mskcc</a> — cBioPortal study “Colorectal Adenocarcinoma Triplets”; raw data in dbGaP phs000790.v1.p1.</li>
 <li>Assay: <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> IMPACT custom capture covering all protein-coding exons of 230 actionable/cancer-related genes; mean target coverage 692X.</li>
 <li>Validation assay: <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> (WGS) of four trios at New York Genome Center / Illumina (median 87X tumor, 50X normal).</li>
@@ -235,50 +235,50 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
 <ul>
 <li><strong>434 distinct non-synonymous somatic mutations and indels</strong> were detected across the 69 trios; 344 (79%) were shared between patient-matched primary and metastatic tumors.</li>
-<li><strong>[[KRAS]], [[NRAS]], and [[BRAF]] mutations were 100% concordant</strong> between primary and metastasis — no discordant events in any of the 69 cases.</li>
-<li>Mutation frequencies matched <a href="../datasets/coadread_tcga.html">coadread_tcga</a> non-hypermutated cohort with minor differences: <a href="../genes/APC.html">APC</a> and <a href="../genes/TP53.html">TP53</a> were enriched (likely due to higher sequencing depth and more advanced disease in this cohort), [[NRAS]] was less frequent.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, and <a href="../genes/BRAF.html">BRAF</a> mutations were 100% concordant</strong> between primary and metastasis — no discordant events in any of the 69 cases.</li>
+<li>Mutation frequencies matched <a href="../datasets/coadread_tcga.html">coadread_tcga</a> non-hypermutated cohort with minor differences: <a href="../genes/APC.html">APC</a> and <a href="../genes/TP53.html">TP53</a> were enriched (likely due to higher sequencing depth and more advanced disease in this cohort), <a href="../genes/NRAS.html">NRAS</a> was less frequent.</li>
 <li>Among 247/434 (57%) mutations falling in genes called significantly mutated by [[TCGA]] for non-hypermutated CRC, 229/247 (93%) were concordant between primary and metastasis.</li>
-<li>18 private mutations in recurrent driver genes were found in [[APC]] (n=7), <a href="../genes/PIK3CA.html">PIK3CA</a> (n=5), <a href="../genes/SMAD4.html">SMAD4</a> (n=3), and [[TP53]] (n=3); 5/7 [[APC]] private mutations were secondary events on top of a shared clonal [[APC]] mutation.</li>
+<li>18 private mutations in recurrent driver genes were found in <a href="../genes/APC.html">APC</a> (n=7), <a href="../genes/PIK3CA.html">PIK3CA</a> (n=5), <a href="../genes/SMAD4.html">SMAD4</a> (n=3), and <a href="../genes/TP53.html">TP53</a> (n=3); 5/7 <a href="../genes/APC.html">APC</a> private mutations were secondary events on top of a shared clonal <a href="../genes/APC.html">APC</a> mutation.</li>
 <li><strong>Intra-tumor heterogeneity accounts for some discordance:</strong> resequencing 97 additional spatially separate regions from 22 patients resolved 17/46 originally discordant mutations, including 12/22 (55%) “metastasis-only” calls subsequently found subclonally in the primary.</li>
-<li><strong>Convergent/parallel evolution observed in two patients</strong> with distinct mutations in the same gene: one with independent [[TP53]] R248Q and Y163* mutations, another with separate hotspot [[PIK3CA]] E542K and E545K mutations.</li>
+<li><strong>Convergent/parallel evolution observed in two patients</strong> with distinct mutations in the same gene: one with independent <a href="../genes/TP53.html">TP53</a> R248Q and Y163* mutations, another with separate hotspot <a href="../genes/PIK3CA.html">PIK3CA</a> E542K and E545K mutations.</li>
 <li><strong>Metastasis-private RTK-RAS events in RAS/RAF wild-type tumors:</strong>
 <ul>
 <li>Patient 19: <a href="../genes/MAP2K1.html">MAP2K1</a> Q56P (MEK1) detected only in metastasis. Transfection into HEK 293H cells showed Q56P hyperactivates ERK signaling comparable to known activating mutation K57N. An additional A106T mutation did not affect signaling.</li>
-<li>Patient 3: chromosome 7p amplification present only in the metastasis, encompassing <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/ETV1.html">ETV1</a>, <a href="../genes/IKZF1.html">IKZF1</a>, and [[EGFR]]; [[fish]] confirmed high-level focal [[EGFR]] amplification in the metastasis (primary showed only 7p polysomy).</li>
+<li>Patient 3: chromosome 7p amplification present only in the metastasis, encompassing <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/ETV1.html">ETV1</a>, <a href="../genes/IKZF1.html">IKZF1</a>, and <a href="../genes/EGFR.html">EGFR</a>; <a href="../methods/fish.html">fish</a> confirmed high-level focal <a href="../genes/EGFR.html">EGFR</a> amplification in the metastasis (primary showed only 7p polysomy).</li>
 </ul></li>
 <li><strong>PI3K-pathway heterogeneity:</strong> private mutations of unknown significance found in <a href="../genes/PIK3CD.html">PIK3CD</a>, <a href="../genes/PIK3CG.html">PIK3CG</a>, <a href="../genes/PIK3C2G.html">PIK3C2G</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, and <a href="../genes/PTEN.html">PTEN</a>; four were detectable subclonally in other regions.</li>
 <li><strong>Clinical correlates:</strong> no difference in mutational concordance by primary tumor location or resection interval; no disease-specific survival difference between concordant and discordant cases.</li>
 <li><strong>Treatment effect on heterogeneity:</strong> among concurrently resected cases, chemonaive patients harbored discordant mutations more often than pre-treated patients (22/28, 79% vs 11/24, 46%; chi-square P=0.01). Pre-treated patients also had a slightly smaller mean primary tumor (4.2 vs 5.2 cm; T-test P=0.02), suggesting treatment may debulk or homogenize tumors.</li>
 <li><strong>WGS validates IMPACT:</strong> all SNVs/indels above 5% allele frequency detected by IMPACT were confirmed by WGS, with no additional mutations in the 230 panel genes. WGS of discordant cases (patients 3 and 19) confirmed broad genome-wide discordance (38% and 25% shared mutations genome-wide, rising to 46% and 32% for non-synonymous exonic).</li>
-<li><strong>Case-specific WGS findings:</strong> patient 14 carried a <a href="../genes/CDK8.html">CDK8</a> amplification (dysregulates WNT/β-catenin) and patient 54 carried two <a href="../genes/RASA1.html">RASA1</a> nonsense mutations (C372<em>, R679</em>) shared between primary and metastasis — [[RASA1]] is altered in ~2% of TCGA CRC, mutually exclusive with [[KRAS]]/[[NRAS]]. This finding prompted addition of [[RASA1]] capture probes to subsequent [[msk-impact-panel]] versions.</li>
-<li>Patient 3 also harbored a metastasis-specific <a href="../genes/PTK7.html">PTK7</a> Q304* nonsense mutation; [[PTK7]] inhibits canonical Wnt signaling via frizzled receptor binding but no [[PTK7]] nonsense mutations are reported in TCGA CRC.</li>
+<li><strong>Case-specific WGS findings:</strong> patient 14 carried a <a href="../genes/CDK8.html">CDK8</a> amplification (dysregulates WNT/β-catenin) and patient 54 carried two <a href="../genes/RASA1.html">RASA1</a> nonsense mutations (C372<em>, R679</em>) shared between primary and metastasis — <a href="../genes/RASA1.html">RASA1</a> is altered in ~2% of TCGA CRC, mutually exclusive with <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/NRAS.html">NRAS</a>. This finding prompted addition of <a href="../genes/RASA1.html">RASA1</a> capture probes to subsequent <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> versions.</li>
+<li>Patient 3 also harbored a metastasis-specific <a href="../genes/PTK7.html">PTK7</a> Q304* nonsense mutation; <a href="../genes/PTK7.html">PTK7</a> inhibits canonical Wnt signaling via frizzled receptor binding but no <a href="../genes/PTK7.html">PTK7</a> nonsense mutations are reported in TCGA CRC.</li>
 </ul>
 </section>
 <section id="genes-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
 <ul>
-<li>[[KRAS]], [[NRAS]], [[BRAF]] — driver mutations 100% concordant between primary and metastasis; trunk events established early in CRC carcinogenesis.</li>
-<li>[[APC]] — higher prevalence than TCGA; private mutations in 7 patients, mostly secondary to a shared clonal hit; in patient 10, the primary-private [[APC]] nonsense was rendered phenotypically equivalent in the metastasis by chromosomal deletion of the [[APC]] locus.</li>
-<li>[[TP53]] — higher prevalence than TCGA (attributed to metastatic-stage cohort); parallel evolution case with independent R248Q and Y163* mutations.</li>
-<li>[[PIK3CA]] — convergent evolution with independent E542K and E545K hotspots; three additional private events including primary-specific E545K (×2) and metastasis-specific N107 in-frame deletion.</li>
-<li>[[MAP2K1]] — metastasis-private Q56P confirmed by transfection to hyperactivate ERK signaling at levels comparable to known-activating K57N; A106T verified inactive by Western blot.</li>
-<li>[[EGFR]] — metastasis-private high-level amplification (chr 7p) confirmed by [[fish]]; co-amplified with [[CARD11]], [[ETV1]], [[IKZF1]].</li>
-<li>[[SMAD4]], <a href="../genes/SMAD3.html">SMAD3</a> — metastasis-specific events in patient 3 including a missense mutation in the [[SMAD3]] transcriptional-regulation domain.</li>
-<li>[[PTK7]] — novel metastasis-specific Q304* nonsense mutation in patient 3; functional relevance speculative (Wnt inhibition via frizzled).</li>
-<li>[[RASA1]] — two nonsense mutations (C372<em>, R679</em>) in patient 14, shared between primary and metastasis; mutually exclusive with RAS mutations; not on original [[msk-impact-panel]] design, added in subsequent panel version.</li>
-<li>[[CDK8]] — focal amplification in patient 14 in absence of β-catenin/RAS-pathway mutations; known WNT/β-catenin regulator.</li>
-<li>[[PIK3CD]], [[PIK3CG]], [[PIK3C2G]], [[PIK3R1]], [[PTEN]] — private PI3K-pathway events of unknown significance; four also detected in spatially separate regions, indicating subclonality.</li>
+<li><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/NRAS.html">NRAS</a>, <a href="../genes/BRAF.html">BRAF</a> — driver mutations 100% concordant between primary and metastasis; trunk events established early in CRC carcinogenesis.</li>
+<li><a href="../genes/APC.html">APC</a> — higher prevalence than TCGA; private mutations in 7 patients, mostly secondary to a shared clonal hit; in patient 10, the primary-private <a href="../genes/APC.html">APC</a> nonsense was rendered phenotypically equivalent in the metastasis by chromosomal deletion of the <a href="../genes/APC.html">APC</a> locus.</li>
+<li><a href="../genes/TP53.html">TP53</a> — higher prevalence than TCGA (attributed to metastatic-stage cohort); parallel evolution case with independent R248Q and Y163* mutations.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — convergent evolution with independent E542K and E545K hotspots; three additional private events including primary-specific E545K (×2) and metastasis-specific N107 in-frame deletion.</li>
+<li><a href="../genes/MAP2K1.html">MAP2K1</a> — metastasis-private Q56P confirmed by transfection to hyperactivate ERK signaling at levels comparable to known-activating K57N; A106T verified inactive by Western blot.</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — metastasis-private high-level amplification (chr 7p) confirmed by <a href="../methods/fish.html">fish</a>; co-amplified with <a href="../genes/CARD11.html">CARD11</a>, <a href="../genes/ETV1.html">ETV1</a>, <a href="../genes/IKZF1.html">IKZF1</a>.</li>
+<li><a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/SMAD3.html">SMAD3</a> — metastasis-specific events in patient 3 including a missense mutation in the <a href="../genes/SMAD3.html">SMAD3</a> transcriptional-regulation domain.</li>
+<li><a href="../genes/PTK7.html">PTK7</a> — novel metastasis-specific Q304* nonsense mutation in patient 3; functional relevance speculative (Wnt inhibition via frizzled).</li>
+<li><a href="../genes/RASA1.html">RASA1</a> — two nonsense mutations (C372<em>, R679</em>) in patient 14, shared between primary and metastasis; mutually exclusive with RAS mutations; not on original <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> design, added in subsequent panel version.</li>
+<li><a href="../genes/CDK8.html">CDK8</a> — focal amplification in patient 14 in absence of β-catenin/RAS-pathway mutations; known WNT/β-catenin regulator.</li>
+<li><a href="../genes/PIK3CD.html">PIK3CD</a>, <a href="../genes/PIK3CG.html">PIK3CG</a>, <a href="../genes/PIK3C2G.html">PIK3C2G</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a> — private PI3K-pathway events of unknown significance; four also detected in spatially separate regions, indicating subclonality.</li>
 <li><a href="../genes/AMER1.html">AMER1</a> (FAM123B), <a href="../genes/FBXW7.html">FBXW7</a>, <a href="../genes/CTNNB1.html">CTNNB1</a> — recurrently mutated as expected for non-hypermutated CRC; concordant per Figure 1B.</li>
 </ul>
 </section>
 <section id="clinical-implications" class="level2">
 <h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
 <ul>
-<li><strong>For routine clinical molecular profiling of metastatic CRC, sequencing either the primary tumor or the metastasis is appropriate</strong> — [[KRAS]]/[[NRAS]]/[[BRAF]] status, which guides <a href="../drugs/cetuximab.html">cetuximab</a> and <a href="../drugs/panitumumab.html">panitumumab</a> eligibility, is identical in both sites.</li>
-<li>Exceptions where testing the metastasis may add value: patients with multiple primary tumors/polyps, and patients whose interval drug treatment may have selected for clinically actionable subclones (e.g.&nbsp;anti-EGFR therapy is known to select for [[KRAS]] mutant subclones in initially [[KRAS]]/[[NRAS]]/[[BRAF]] wild-type tumors).</li>
-<li>In RAS/RAF wild-type CRC, <strong>the metastasis can harbor private actionable RTK-RAS events</strong> ([[MAP2K1]] activating mutations, [[EGFR]] amplification) that would be missed by primary-only sequencing — relevant when anti-EGFR therapy is being considered.</li>
-<li><strong>PI3K-pathway heterogeneity is clinically relevant</strong> given active development of PI3K inhibitors in CRC and evidence (Domingo et al.&nbsp;JCO 2013) that [[PIK3CA]] mutations may predict benefit from <a href="../drugs/aspirin.html">aspirin</a> therapy.</li>
-<li><strong>Targeted sequencing is a viable cost- and time-effective alternative to WGS</strong> for clinical CRC molecular profiling: WGS in this cohort did not surface additional actionable findings in the 230-gene panel space, though it did reveal one rare event ([[RASA1]] nonsense) that motivated panel expansion.</li>
+<li><strong>For routine clinical molecular profiling of metastatic CRC, sequencing either the primary tumor or the metastasis is appropriate</strong> — <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/NRAS.html">NRAS</a>/<a href="../genes/BRAF.html">BRAF</a> status, which guides <a href="../drugs/cetuximab.html">cetuximab</a> and <a href="../drugs/panitumumab.html">panitumumab</a> eligibility, is identical in both sites.</li>
+<li>Exceptions where testing the metastasis may add value: patients with multiple primary tumors/polyps, and patients whose interval drug treatment may have selected for clinically actionable subclones (e.g.&nbsp;anti-EGFR therapy is known to select for <a href="../genes/KRAS.html">KRAS</a> mutant subclones in initially <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/NRAS.html">NRAS</a>/<a href="../genes/BRAF.html">BRAF</a> wild-type tumors).</li>
+<li>In RAS/RAF wild-type CRC, <strong>the metastasis can harbor private actionable RTK-RAS events</strong> (<a href="../genes/MAP2K1.html">MAP2K1</a> activating mutations, <a href="../genes/EGFR.html">EGFR</a> amplification) that would be missed by primary-only sequencing — relevant when anti-EGFR therapy is being considered.</li>
+<li><strong>PI3K-pathway heterogeneity is clinically relevant</strong> given active development of PI3K inhibitors in CRC and evidence (Domingo et al.&nbsp;JCO 2013) that <a href="../genes/PIK3CA.html">PIK3CA</a> mutations may predict benefit from <a href="../drugs/aspirin.html">aspirin</a> therapy.</li>
+<li><strong>Targeted sequencing is a viable cost- and time-effective alternative to WGS</strong> for clinical CRC molecular profiling: WGS in this cohort did not surface additional actionable findings in the 230-gene panel space, though it did reveal one rare event (<a href="../genes/RASA1.html">RASA1</a> nonsense) that motivated panel expansion.</li>
 </ul>
 </section>
 <section id="limitations-open-questions" class="level2">
@@ -288,7 +288,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Only microsatellite-stable tumors included; concordance dynamics in MSI-high CRC may differ.</li>
 <li>Treatment-vs-heterogeneity association (chemonaive cases more discordant; smaller post-treatment primaries) is correlational; the authors note larger studies are needed to determine whether systemic treatment causes preferential mutational selection vs general debulking.</li>
 <li>IMPACT panel (230 genes) cannot detect discordance in genes outside the panel by design — addressed for four cases by WGS but not the full cohort.</li>
-<li>[[PTK7]] Q304* functional relevance is unproven; no other CRC nonsense mutations reported in TCGA.</li>
+<li><a href="../genes/PTK7.html">PTK7</a> Q304* functional relevance is unproven; no other CRC nonsense mutations reported in TCGA.</li>
 <li>Sample size (69 trios, 4 WGS) is modest; subgroup analyses (location, resection timing) underpowered.</li>
 </ul>
 </section>

@@ -47,6 +47,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Loss-of-function mutations in 5% of HR+/HER2− metastatic breast cancer (vs <1% in early breast cancer, p=0.008, FDR=0.09); mostly truncating; implies potential primary resistance to CDK4 inhibitors (palbociclib) since RB1 is required for palbociclib bioactivity [PMID:28027327](../papers/28027327.md)
 - Germline splice-site c.1216-3A>G in osteosarcoma (OS) — increased risk for second cancers; returned as clinically impactful germline finding in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Recurrently deleted at 13q14.2 in esophageal squamous cell carcinoma (ESCC) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- Recurrent baseline alteration in SCLC consistent with near-universal RB1 loss; preserved through acquired chemotherapy resistance in PDX models; no evidence of acquired driver mutations under chemotherapy selection [PMID:28196596](../papers/28196596.md)
 
 ## Cancer types (linked)
 
@@ -157,5 +158,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

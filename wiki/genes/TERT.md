@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [ESCC]
 tags: [oncogene, somatic, amplification, telomerase]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: "2026-05-15"
 ---
 
 # TERT
@@ -16,6 +16,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 ## Alterations observed in the corpus
 
 - Recurrent focal amplification of TERT identified in ESCC ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=90 ESCC); listed among the recurrent focal amplifications in ESCC alongside [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md). [PMID:28052061](../papers/28052061.md)
+- TERT aberrations (translocations, copy gains, missense and promoter mutations, or germline events) in 41% (14/34) of acral lentiginous melanoma ([ACRM](../cancer_types/ACRM.md)) patients; Telomerase Inhibitor IX produced ≥75% loss of viability in two primary ALM cell lines with TERT CNV gain or promoter mutation [PMID:28373299](../papers/28373299.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

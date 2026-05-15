@@ -3,8 +3,8 @@ symbol: FUS
 aliases: []
 cancer_types: [ES]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # FUS
@@ -16,6 +16,7 @@ FUS (FUS RNA Binding Protein) encodes a TET-family RNA-binding protein. In Ewing
 ## Alterations observed in the corpus
 
 - Listed as an alternative TET-family N-terminal fusion partner in rare Ewing sarcoma cases; mechanistically related to EWSR1 as both are TET-family RNA-binding proteins [PMID:25223734](../papers/25223734.md).
+- FUS fusions (e.g., FUS-ERG, FUS-FEV) were identified as alternative oncogenic drivers in a subset of Ewing sarcoma cases [PMID:28199314](../papers/28199314.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ FUS (FUS RNA Binding Protein) encodes a TET-family RNA-binding protein. In Ewing
 - [PMID:25223734](../papers/25223734.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

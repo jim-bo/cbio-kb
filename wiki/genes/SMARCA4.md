@@ -4,7 +4,7 @@ aliases: [BRG1]
 cancer_types: [MRTL, ESCA, ESCC, EAC]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, ezh2-target]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: "2026-05-15"
 ---
 
 # SMARCA4
@@ -18,6 +18,7 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - SMARCA4 R1192C missense mutation identified in a hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an EZH2-inhibitor target. [PMID:28007021](../papers/28007021.md)
 - Significantly mutated in both EAC ([ESCA](../cancer_types/ESCA.md)) and ESCC in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=164); more frequently altered in EAC than in CIN gastric cancer. SMARCA4 mutation defines the ESCC3 molecular subtype. [PMID:28052061](../papers/28052061.md)
 - SMARCA4 mutation is enriched in EAC versus CIN gastric adenocarcinoma. [PMID:28052061](../papers/28052061.md)
+- SMARCA4 (BRG1) protein expression retained by IHC in an EWSR1::BEND2 fusion sarcoma of the urinary bladder, used to rule out SWI/SNF-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ SMARCA4 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

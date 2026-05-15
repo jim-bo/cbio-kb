@@ -7,8 +7,8 @@ tags:
   - RAC1-GEF
   - invasion
   - esophageal
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: "2026-05-15"
 ---
 
 # TRIO
@@ -21,6 +21,7 @@ TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that
 
 - Recurrently mutated in EAC (145-tumor WES cohort); identified as one of several upstream regulators of RAC1 alongside [TIAM1](../genes/TIAM1.md), [VAV2](../genes/VAV2.md), [ECT2](../genes/ECT2.md), [DOCK2](../genes/DOCK2.md), and [ELMO1](../genes/ELMO1.md) [PMID:23525077](../papers/23525077.md).
 - TRIO recurrent focal amplification detected in TCC bladder cancer [PMID:24121792](../papers/24121792.md)
+- TRIO identified as a recurrent structural-variant partner of [CLPTM1L](../genes/CLPTM1L.md) in acral lentiginous melanoma ([ACRM](../cancer_types/ACRM.md)); all such rearrangements occurred in BRAF wild-type tumors [PMID:28373299](../papers/28373299.md).
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ TRIO is a guanine nucleotide exchange factor (GEF) with dual RhoGEF domains that
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

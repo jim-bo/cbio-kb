@@ -38,6 +38,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Mentioned in study [PMID:26855148](../papers/26855148.md)
 - EZH2 identified as a chromatin regulator within the chromatin-spliceosome AML subgroup in a genomic classification of 1,540 patients; SMARCB1 deletion in a related context nominated EZH2 inhibitors as a therapeutic strategy [PMID:27276561](../papers/27276561.md)
 - Mutated in 3 HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) cases including hotspot COSM220530; enriched in HR+ mBC at FDR<0.1 vs early breast cancer [PMID:28027327](../papers/28027327.md).
+- EZH2 mutations and/or altered expression were reported in the context of epigenetic dysregulation and cancer progression [PMID:28196596](../papers/28196596.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

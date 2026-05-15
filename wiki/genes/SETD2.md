@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PHC, PGNG]
 tags: [tumor-suppressor, somatic, histone-methyltransferase, poor-prognosis]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: "2026-05-15"
 ---
 
 # SETD2
@@ -17,6 +17,7 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 
 - Somatic mutation identified in the TCGA PCC/PGL cohort (pcpg_tcga_pub, n=173) as part of a cancer-relevant gene scan; SETD2 somatic mutation was a statistically significant marker of poor outcome (worse ADFS and MFS). [PMID:28162975](../papers/28162975.md)
 - Listed among the somatic events associated with worse aggressive-disease-free survival (ADFS) and metastatic-free survival (MFS), alongside [MAML3](../genes/MAML3.md) fusion and [ATRX](../genes/ATRX.md) somatic mutation. [PMID:28162975](../papers/28162975.md)
+- Chromatin modifier [SETD2](../genes/SETD2.md) enriched in the unknown mitogenic driver (UMD) subset of metastatic [LUAD](../cancer_types/LUAD.md) (especially never/former-light smokers) in a prospective MSK-IMPACT cohort of 860 patients [PMID:28336552](../papers/28336552.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

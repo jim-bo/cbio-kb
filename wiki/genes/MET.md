@@ -47,6 +47,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal tepotinib and capmatinib trials enrolled patients up to 74 years old [PMID:27346245](../papers/27346245.md)
 - Alteration contributing to the actionable alteration list in recurrent/metastatic head and neck cancers, alongside MAX, MCL1, KDR, and MYCN [PMID:27442865](../papers/27442865.md)
 - Harbors H1094Y pathogenic missense mutation in a single unclassified RCC (uRCC) case (T62), suggesting overlap with papillary RCC and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
+- Exon 14 alterations in prospective LUAD cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -156,3 +157,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

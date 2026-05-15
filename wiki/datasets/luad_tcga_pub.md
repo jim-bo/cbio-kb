@@ -51,6 +51,7 @@ Multi-platform molecular characterization of 230 resected, treatment-naive lung 
 
 - [PMID:25079552](../papers/25079552.md) — TCGA Research Network 2014, comprehensive molecular profiling of lung adenocarcinoma
 - [PMID:27158780](../papers/27158780.md) — Campbell et al. 2016, *Nature Genetics*: 227 TCGA LUAD cases incorporated into the integrated 1,144-NSCLC exome cohort [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md).
+- [PMID:28336552](../papers/28336552.md) — Jordan et al. 2017, *Cancer Discovery*: TCGA LUAD used as a retrospective treatment-naïve comparator cohort to benchmark genomic frequencies observed in the prospective MSK-IMPACT [lung_msk_2017](../datasets/lung_msk_2017.md) cohort.
 
 ## Notable findings derived from this cohort
 
@@ -61,10 +62,12 @@ Multi-platform molecular characterization of 230 resected, treatment-naive lung 
 - Three transcriptional subtypes defined: TRU (terminal respiratory unit, EGFR/fusion-enriched, favorable prognosis), PI (proximal-inflammatory, NF1+TP53), PP (proximal-proliferative, KRAS+STK11) [PMID:25079552](../papers/25079552.md)
 - CIMP-H methylation cluster shows hypermethylation of WNT pathway genes and CDKN2A; MYC overexpression associated with CIMP-H (P=0.003) [PMID:25079552](../papers/25079552.md)
 - 227 cases from this cohort were merged into the integrated [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md) Pan-Lung analysis (660 ADC + 484 SqCC); this larger sample identified additional SMGs ([PPP3CA](../genes/PPP3CA.md), [DOT1L](../genes/DOT1L.md), [KLF5](../genes/KLF5.md)) and raised the proportion of ADC with a defined RTK/Ras/Raf driver to 76%. [PMID:27158780](../papers/27158780.md)
+- Used as treatment-naïve comparator for the MSK-IMPACT [lung_msk_2017](../datasets/lung_msk_2017.md) prospective cohort: [EGFR](../genes/EGFR.md) activating mutations enriched in MSK cohort (27% vs. 11%, p<0.001); [EGFR](../genes/EGFR.md) T790M 5.5% vs. 0.4% (p<0.001) in TCGA; [NF1](../genes/NF1.md) truncating/deletion lower in MSK (2% vs. 8.3%, p<0.001); [BRAF](../genes/BRAF.md) mutations lower (3.6% vs. 7%, p=0.042), reflecting referral and treatment-experience bias. [PMID:28336552](../papers/28336552.md)
 
 ## Sources
 
 - cBioPortal studyId: luad_tcga_pub
 - TCGA Data Portal
+- [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

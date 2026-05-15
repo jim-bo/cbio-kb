@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone-cancer
   - pediatric
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Ewing Sarcoma (ES)
@@ -29,6 +29,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - WGS of 112 Ewing sarcoma tumors (extended to 299 patients) identified STAG2 (17%), CDKN2A deletion (12%), TP53 (7%), and epigenetic regulators EZH2/BCOR/ZMYM3 (2.7% each) as recurrently mutated; STAG2+TP53 co-mutation defined a high-risk subtype with markedly inferior survival [PMID:25223734](../papers/25223734.md)
 - One odontogenic tumor harboring an EWSR1-FLI1 fusion in the MSK-IMPACT cohort (Morris et al.) was reclassified from 'ameloblastic carcinoma' to Ewing sarcoma with epithelial differentiation, illustrating that EWSR1-FLI1 fusions can occur in unusual anatomic sites and require histologic re-evaluation [PMID:27442865](../papers/27442865.md).
 - PIPseq cohort identified EWSR1-FLI1 fusion as diagnostic in two Ewing sarcoma patients; one patient additionally showed low PAX8/FHIT/CASP10/CHD2 expression and high CHD11/FUS/MTA1 expression as a poor-prognosis transcriptomic signature; APC V1822D VOUS also returned in one ES patient [PMID:28007021](../papers/28007021.md)
+- EWSR1::BEND2 in-frame fusion sarcoma of the bladder initially diagnosed as extraskeletal Ewing sarcoma based on CD99 positivity and EWSR1 FISH; RNA-seq identified BEND2 (not an ETS family gene) as partner — reclassifying to EWSR1-non-ETS undifferentiated sarcoma per WHO 2020 [PMID:28199314](../papers/28199314.md)
 
 ## Subtypes
 
@@ -58,7 +59,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 *This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic 'ameloblastic carcinoma' as Ewing sarcoma with epithelial differentiation.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
+- [PMID:28199314](../papers/28199314.md) — Halava et al. 2025; EWSR1::BEND2 bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

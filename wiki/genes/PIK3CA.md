@@ -113,6 +113,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Canonical UC driver with heterogeneous clonal sharing between primary and post-chemotherapy urothelial carcinoma samples in a 32-patient WES cohort; present in both truncal and sub-clonal compartments [PMID:27749842](../papers/27749842.md)
 - N345K activating mutation in nephroblastomatosis (related to Wilms tumor, WT); PI3K/AKT/mTOR-inhibitor target; variant also supported diagnostic clarification in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - PI3K-pathway activating alterations (alongside PTEN and PIK3R1) in 24% of ESCCs; all 4 ESCC3 tumours had PI3K-activating alterations in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
+- 17 LUAD patients with PIK3CA as highest-level driver; 25 EGFR+PIK3CA co-mutations across the 860-patient MSK cohort; matched therapy uptake and benefit not specifically reported for PIK3CA-alone group [PMID:28336552](../papers/28336552.md)
+- Recurrent low-VAF hotspot mutations in endometrial polyps (WGS, 23 polyps); part of a canonical UCEC driver landscape that includes PIK3R1, PTEN, ERBB2, PPP2R1A, and FBXW7; supports treating polyps as potential precursor lesions [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -398,5 +400,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

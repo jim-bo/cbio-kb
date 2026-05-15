@@ -39,6 +39,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Non-passenger mutations in breast adenoid cystic carcinoma (AdCC); also recurrent in salivary gland AdCCs; some mutations were subclonal [PMID:26095796](../papers/26095796.md)
 - Truncating and WD-domain damaging mutations in 11% of desmoplastic melanoma tumors; loss-of-function burden candidate [PMID:26343386](../papers/26343386.md)
 - Recurrently mutated gene identified in the TCGA pan-lung cancer cohort (lung ADC/SqCC) [PMID:27158780](../papers/27158780.md)
+- FBXW7 loss-of-function mutations were identified alongside ERBB2 alterations and evaluated for their role in therapy resistance [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -125,5 +126,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

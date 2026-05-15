@@ -7,7 +7,7 @@ tags:
   - ras-pathway
   - rho-gap
   - tumor-suppressor
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -20,6 +20,7 @@ ARHGAP35 (Rho GTPase Activating Protein 35, also known as p190-A) encodes a GTPa
 ## Alterations observed in the corpus
 
 - Loss-of-function mutations in lung ADC (TCGA pan-lung WES); contributes to the Ras/Rho pathway driver landscape; inclusion of ARHGAP35 as a Ras pathway member raises proportion of lung ADCs with a candidate driver to 76% (85% in expert-reviewed subset) [PMID:27158780](../papers/27158780.md)
+- Possible biallelic events (missense + LoF) in endometrial polyps; recurrently mutated alongside PIEZO2 in a WGS cohort of 23 polyps [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ ARHGAP35 (Rho GTPase Activating Protein 35, also known as p190-A) encodes a GTPa
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

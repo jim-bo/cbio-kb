@@ -8,7 +8,7 @@ tags:
   - chromatin-remodeling
   - rhabdomyosarcoma
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # BCOR
@@ -30,6 +30,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR significantly co-occurs with trisomy 12 (tri(12)) among 11 significant co-occurrence/mutual-exclusivity pairs in 538 CLL WES cases [PMID:26466571](../papers/26466571.md)
 - BCOR identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside CREBBP, EP300, and BCL6 as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 - BCOR: chromatin regulator in the chromatin-spliceosome AML subgroup with independent adverse prognosis [PMID:27276561](../papers/27276561.md)
+- BCOR-altered sarcoma discussed as a related entity to EWSR1::BEND2 sarcomas (defining alteration for the undifferentiated small round cell sarcoma entity) [PMID:28199314](../papers/28199314.md)
 
 ## Cancer types (linked)
 
@@ -80,5 +81,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

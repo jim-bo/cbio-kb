@@ -4,7 +4,7 @@ aliases: [hamartin]
 cancer_types: [OS, BRCA]
 tags: [tumor-suppressor, somatic, mtor-pathway, splice-site, mtor-inhibitor-target]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: "2026-05-15"
 ---
 
 # TSC1
@@ -17,6 +17,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 
 - TSC1 c.2503-1G>C splice-site somatic mutation identified in an osteosarcoma ([OS](../cancer_types/OS.md)) patient in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an mTOR-inhibitor target. [PMID:28007021](../papers/28007021.md)
 - TSC1 combined with [TSC2](../genes/TSC2.md): together mutated in 6.3% of HR+/HER2− metastatic breast cancer (mBC) vs 0.7% of HR+/HER2− early breast cancer (eBC; p=0.0004) in 216 mBC patients; all in previously endocrine-therapy-treated patients. Authors hypothesize TSC1/2-mutant tumors may be outlier responders to mTOR inhibitor everolimus. [PMID:28027327](../papers/28027327.md)
+- TSC1 truncating alterations in 3 patients (0.3%) in 860 metastatic [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; classified as OncoKB level 2B; no patient received matched mTOR-inhibitor therapy in this cohort despite open basket trials NCT02201212 and NCT02675829 [PMID:28336552](../papers/28336552.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

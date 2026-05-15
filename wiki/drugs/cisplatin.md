@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # cisplatin
@@ -48,6 +48,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In head and neck cancer, germline FANCA deletion plus somatic FANCA stopgain in one HNSC patient identified as potential cisplatin-sensitivity biomarker by MSK-IMPACT profiling (N=151 advanced tumors) [PMID:27442865](../papers/27442865.md)
 - First-line platinum backbone in BEP (bleomycin+etoposide+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced GCT patients; TP53 alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); nutlin-3 showed antiproliferative synergy with cisplatin in TP53 wild-type cisplatin-resistant GCT cell lines [PMID:27646943](../papers/27646943.md)
 - Cisplatin + [gemcitabine](../drugs/gemcitabine.md) (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); post-chemotherapy tumors showed clonal enrichment of [L1CAM](../genes/L1CAM.md) and integrin-signaling missense mutations, an APOBEC3A-dominant mutational signature, and selective elimination of [ATM](../genes/ATM.md)/[RB1](../genes/RB1.md)/[FANCC](../genes/FANCC.md)-altered clones (73.3% pre- vs 37.9% post-chemotherapy, p=0.05); cisplatin specifically drove a C>A mutational signature consistent with its known adduct-forming mechanism [PMID:27749842](../papers/27749842.md)
+- Used in combination with etoposide (cisplatin/etoposide) as first-line chemotherapy in SCLC PDX models; 10/10 PDXs were sensitive to 6–8 cycles with 65–95% tumor growth inhibition; concurrent EZH2 inhibitor (EPZ011989) enhanced disease control and prevented SLFN11 suppression in SLFN11-high models [PMID:28196596](../papers/28196596.md).
 
 ## Resistance mechanisms
 
@@ -120,3 +121,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WES of 72 UC tumors (32 patients); cisplatin + gemcitabine clonal evolution study; APOBEC3A enrichment and L1CAM/integrin clonal enrichment post-chemotherapy.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

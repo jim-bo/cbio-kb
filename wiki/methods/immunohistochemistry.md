@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Immunohistochemistry (IHC)
@@ -39,6 +39,9 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Panel of NF2, YAP/TAZ, p-YAP, p-S6, p-4EBP1, FH, 2SC (succination), H3K36me3, and INI1 IHC used to validate molecular subset assignments in 62 uRCC tumours. [PMID:27713405](../papers/27713405.md)
 - IHC used to quantify TRMT10A and USP10 protein expression in 54 metastatic PRAD tissues and 30 paired adjacent non-cancerous samples; high TRMT10A by IHC correlated with shorter OS (P = 0.014, log-rank) [PMID:28068672](../papers/28068672.md).
 - IHC used to assess Ki-67 in 62 PCPG tumors; Ki-67 expression positively correlated with metastatic disease; the highest-Ki-67 tumor was MAML3 fusion-positive [PMID:28162975](../papers/28162975.md).
+- Applied immunohistochemistry to validate protein expression in tumor tissue sections [PMID:28196596](../papers/28196596.md)
+- Used immunohistochemistry for protein marker detection in sarcoma tissue samples [PMID:28199314](../papers/28199314.md)
+- Performed immunohistochemistry to confirm protein-level alterations in tissue samples [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -103,5 +106,14 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

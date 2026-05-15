@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 genePanelId: IMPACT410
 ---
 
@@ -25,6 +25,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:39753968](../papers/39753968.md) — IMPACT410 was one of four panel generations (n=438 patients) used in the 2,336-patient MSK PDAC cohort; allele-specific copy number inferred with FACETS; KRAS mutant-allele dosage gains correlated with shorter [OS](../cancer_types/OS.md) independent of whole-genome doubling [PMID:39753968](../papers/39753968.md).
 - IMPACT410 (MSK-IMPACT 410-gene panel) used with matched normal DNA at median 600x coverage (CLIA-approved) to profile 151 advanced head and neck tumors; enabled actionable finding detection in 21% of cases and guided therapy in 14% of patients [PMID:27442865](../papers/27442865.md)
 - IMPACT410 used as the targeted sequencing assay in a prospective 161-patient GCT validation cohort; confirmed TP53 alteration exclusivity to cisplatin-resistant tumors and identified RAC1 hotspot mutations at 5% incidence [PMID:27646943](../papers/27646943.md)
+- Deployed MSK-IMPACT410 panel for expanded targeted sequencing in the clinical sequencing program [PMID:28336552](../papers/28336552.md)
 
 ## Notes
 
@@ -46,3 +47,6 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

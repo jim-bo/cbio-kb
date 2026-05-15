@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # RNA sequencing
@@ -93,6 +93,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used as tumor transcriptome profiling (TruSeq Stranded Total RNA LT) in the PIPseq program; RNA-seq independently contributed ~40% of clinically impactful findings including fusion detection, BCR-ABL1-like signature identification, and expression-based subtyping across 65 pediatric patients [PMID:28007021](../papers/28007021.md).
 - Used for mRNA profiling of 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study; mRNA-seq confirmed no HPV transcripts in ESCC and provided expression data for iCluster integrative subtyping [PMID:28052061](../papers/28052061.md).
 - Applied to 173 PCPG tumors in the TCGA PCPG study; mRNA-seq revealed four molecular subtypes (kinase signaling, pseudohypoxia, Wnt-altered, cortical admixture) and confirmed CSDE1 splice-site mutation effects via intron retention and exon skipping [PMID:28162975](../papers/28162975.md).
+- Used RNA-seq to profile transcriptional changes in tumor models [PMID:28196596](../papers/28196596.md)
+- Employed RNA-seq for transcriptome profiling in sarcoma tumor samples [PMID:28199314](../papers/28199314.md)
+- Used RNA-seq for transcriptome profiling and fusion detection in cancer specimens [PMID:28373299](../papers/28373299.md)
 
 ## Notes
 
@@ -304,5 +307,14 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

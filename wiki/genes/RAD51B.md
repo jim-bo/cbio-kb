@@ -7,8 +7,8 @@ tags:
   - homologous-recombination
   - DNA-repair
   - HRD
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RAD51B
@@ -23,6 +23,7 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - In mCRPC, RAD51B was among the broader DNA-repair/recombination pathway alterations contributing to the 22.7% aggregate in the SU2C–PCF 150-case cohort. [PMID:26000489](../papers/26000489.md)
 - Intron-5 partner in a [MYBL1](../genes/MYBL1.md) truncation event (AC78) in adenoid cystic carcinoma [PMID:26631609](../papers/26631609.md)
 - Novel partner locus in 1/20 ACC tumors; downstream region contains smaller enhancers that are translocated to MYB, driving MYB overexpression [PMID:26829750](../papers/26829750.md)
+- Recurrent translocation partner of HMGA1/HMGA2 (14q24.1 breakpoints) in endometrial polyps (WGS, 23 polyps); intragenic and downstream breakpoints observed; not considered a classical driver in this context [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

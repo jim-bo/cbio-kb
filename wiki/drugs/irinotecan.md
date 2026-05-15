@@ -5,8 +5,8 @@ drug_class: topoisomerase I inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # irinotecan
@@ -24,6 +24,7 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - FOLFIRINOX (incorporating irinotecan) was administered to 38% of the curated 1,480-patient MSK PDAC cohort as first-line therapy; backbone choice between FOLFIRINOX and gemcitabine/nab-paclitaxel was not significantly associated with [OS](../cancer_types/OS.md) in 304 metastatic patients [PMID:39753968](../papers/39753968.md).
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via [elastic-net](../methods/elastic-net.md) regression [PMID:22460905](../papers/22460905.md)
 - High [TOP2A](../genes/TOP2A.md) expression and amplification in metastatic PanNET patient PN4 (MSH6/MLH1-deficient, TMB ~11 mut/Mb) supported irinotecan recommendation in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
+- In SCLC chemoresistant PDX models, EPZ011989 (EZH2 inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases [PMID:28196596](../papers/28196596.md).
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

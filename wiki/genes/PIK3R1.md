@@ -36,6 +36,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); mutually exclusive with PIK3CA mutations (OR=0.092), reflecting Akt-pathway redundancy. Part of the Akt-pathway driver cluster in which 45.2% of all tumors carried ≥1 functional mutation. [PMID:27161491](../papers/27161491.md)
 - PIK3R1 mutation identified in 1 ACYC patient enrolled on a PI3K-inhibitor trial based on MSK-IMPACT sequencing [PMID:27442865](../papers/27442865.md).
 - PI3K-pathway alteration enriched in ESCC2 subtype; part of a 24% PI3K-activating-alteration frequency in ESCCs (alongside PIK3CA and PTEN) in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
+- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurs with PIK3CA, PTEN, ERBB2, PPP2R1A, and FBXW7 mutations, phenocopying the canonical endometrial cancer driver landscape [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +115,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -4,7 +4,7 @@ aliases: [SNF5, INI1]
 cancer_types: [MRTL, ATRT]
 tags: [tumor-suppressor, somatic, swi-snf, chromatin-remodeling, biallelic-loss, ezh2-target]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: "2026-05-15"
 ---
 
 # SMARCB1
@@ -17,6 +17,7 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 
 - Homozygous deletion of chr22q11.23 with biallelic loss of SMARCB1 expression identified in a hepatic rhabdoid tumor ([MRTL](../cancer_types/MRTL.md)) in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an EZH2-inhibitor target. [PMID:28007021](../papers/28007021.md)
 - Overexpression of [ASCL1](../genes/ASCL1.md) with 22q11.21 LOH including SMARCB1 was diagnostic of [ATRT](../cancer_types/ATRT.md) and prognostic for improved outcome in the same cohort. [PMID:28007021](../papers/28007021.md)
+- SMARCB1 (INI1) protein expression retained by IHC in an EWSR1::BEND2 fusion sarcoma of the urinary bladder, ruling out rhabdoid/INI1-deficient differential diagnoses [PMID:28199314](../papers/28199314.md).
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ SMARCB1 (SWI/SNF Related, Matrix Associated, Actin Dependent Regulator of Chroma
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

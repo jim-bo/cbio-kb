@@ -3,8 +3,8 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # BRAF
@@ -93,6 +93,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF is each more frequently mutated in HR+ metastatic breast cancer (mBC) vs primary breast cancer at FDR<0.1; potentially actionable but functional consequences not established [PMID:28027327](../papers/28027327.md)
 - BRAF referenced in the TCGA multi-platform esophageal carcinoma study context; FDA-approved targeted therapies are noted as available for BRAF-mutant tumors in comparison with other MAPK-pathway driver genes profiled in the study [PMID:28052061](../papers/28052061.md)
 - Somatic BRAF p.G469A point mutation and recurrent RUNDC1-BRAF fusion (5.2-fold BRAF overexpression) identified in pheochromocytoma/paraganglioma (PCC/PGL); FDA-approved targeted therapies noted as available for BRAF-mutant tumors [PMID:28162975](../papers/28162975.md)
+- V600E (level 2A) in [LUAD](../cancer_types/LUAD.md): 55.6% matched-therapy uptake, 75% clinical benefit; non-V600E alleles (K601E, D594G, T599dup, SND1-BRAF fusion) had 4/13 matched patients and no clinical benefit; SND1-BRAF fusion treated with BRAF+MEK combo without benefit [PMID:28336552](../papers/28336552.md)
+- V600E (4 patients), V600K+R462K (1), G466E (1) in acral lentiginous melanoma (ALM, n=34); 18% frequency; mutually exclusive of NRAS mutations [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -326,3 +328,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

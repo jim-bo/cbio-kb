@@ -35,6 +35,7 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 - First-line [HCC](../cancer_types/HCC.md) standard of care (SHARP trial): sorafenib vs placebo median [OS](../cancer_types/OS.md) 10.7 vs 7.9 months (HR 0.69, 95% CI 0.55–0.87, P<0.001); standard for Child–Pugh A, BCLC-C/post-TACE-B from 2007 through 2017; no predictive biomarkers identified; STORM adjuvant trial was negative [PMID:24798001](../papers/24798001.md)
 - Nominated for Triple-WT melanoma subtype (14% of 318 TCGA cases) to target co-amplified PDGFRA/KDR at 4q12 alongside [imatinib](../drugs/imatinib.md), [crenolanib](../drugs/crenolanib.md), [regorafenib](../drugs/regorafenib.md), and [pazopanib](../drugs/pazopanib.md); Triple-WT lacks hot-spot BRAF/RAS/NF1 mutations [PMID:26091043](../papers/26091043.md)
 - Multi-kinase inhibitor; proposed as therapeutic candidate for BRAF D594-mutant GCT (3 BRAF mutations including D594N, D594G in 180 advanced GCT patients) per Appendix Table A2 [PMID:27646943](../papers/27646943.md)
+- Identified as sorafenib-sensitive agent for ARAF S214Y/S214P hotspot mutations (2 patients) in 860-patient MSK-IMPACT LUAD cohort based on prior preclinical work; these rare ARAF hotspots cited as potentially actionable [PMID:28336552](../papers/28336552.md).
 
 ## Resistance mechanisms
 
@@ -63,5 +64,8 @@ Sorafenib is an oral multi-kinase inhibitor with FDA approvals in hepatocellular
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -40,6 +40,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - KIT co-amplified with PDGFRA and KDR in 4 ACYC patients treated with regorafenib, in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
 - KIT hotspot mutations in 19/180 patients (10.6%), mostly exon 17; enriched in seminoma (SEM) versus nonseminoma (29.6% vs 4%; P<.001); imatinib-resistance pattern distinct from GIST; targeted by imatinib/sunitinib as candidate therapy in cisplatin-resistant germ cell tumors [PMID:27646943](../papers/27646943.md)
 - KIT Asn655Lys activating mutation in a 7-year-old with AML yielded near-complete peripheral blood blast clearance with palliative imatinib sustained over 9 months; a second AML patient harbored KIT D816H (c.2446G>C) co-occurring with TET2 and FLT3 variants [PMID:28007021](../papers/28007021.md).
+- 1 patient with exon 9 E490Q mutation (previously described in thymic carcinoma) in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- Single L576P mutation in 1 patient in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -129,3 +131,9 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

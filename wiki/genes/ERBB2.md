@@ -71,6 +71,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 identified as an actionable alteration in salivary duct carcinoma (SDCA) within a pan-head-and-neck NGS cohort sequenced with MSK-IMPACT (410-gene panel) [PMID:27442865](../papers/27442865.md)
 - Recurrent amplification (confirmed canonical breast-cancer event) in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)); amplitude at least as frequent as in early breast cancer (eBC) [PMID:28027327](../papers/28027327.md).
 - Altered (amplification or mutation) in 32% of EACs vs 3% of ESCCs; 4 EACs had ERBB2 mutations without amplification; 6 amplified EACs expressed an ERBB2 exon-12–JUP 3′-UTR fusion transcript lacking transmembrane and tyrosine-kinase domains; trastuzumab-directed therapy is active in ERBB2-positive EAC [PMID:28052061](../papers/28052061.md).
+- ERBB2 (HER2) amplification and activating mutations were identified across multiple cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
+- ERBB2 alterations co-occurred with FBXW7 mutations and were evaluated in the context of targeted therapy response [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -213,5 +215,11 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

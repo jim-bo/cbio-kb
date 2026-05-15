@@ -101,6 +101,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Mutated in uRCC, falling within the mTORC1-hyperactive subset alongside MTOR, TSC1, and TSC2 mutations; mutually exclusive with other mTORC1-pathway alterations across 62 uRCC cases [PMID:27713405](../papers/27713405.md)
 - Listed as a significantly mutated driver in HR+/HER2− metastatic breast cancer, also recurrent in early breast cancer [PMID:28027327](../papers/28027327.md)
 - PI3K-pathway alteration enriched in ESCC2 subtype alongside PIK3CA and PIK3R1; part of 24% PI3K-activating-alteration frequency in ESCCs in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
+- Partial loss via 10q deletion observed on methylation-derived copy-number profile in an EWSR1::BEND2 bladder sarcoma; flagged as potentially actionable (PI3K/AKT/mTOR pathway; possible mTOR-inhibitor or PARP-inhibitor sensitivity) but not pursued therapeutically [PMID:28199314](../papers/28199314.md)
+- 6 inactivating mutations in a prospective LUAD cohort (860 patients, MSK-IMPACT); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
+- Focal deletion in primary tumors only in ALM (34 patients, WGS); additionally a PTEN::RPL11 fusion identified in a single tumor with no other PTEN alterations [PMID:28373299](../papers/28373299.md)
+- Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurring with PIK3CA, PIK3R1, ERBB2, PPP2R1A, and FBXW7; supports classification of a subset of polyps as precursor lesions to UCEC [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -362,5 +366,17 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [cytogenetics, fusion-detection]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -51,6 +51,8 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used with custom three-probe NF2/22q11/Cen10 assay and ALK break-apart probes to confirm NF2 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
 - Used to confirm sub-clonal to clonal progression of CDKN2A deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
 - Used to validate IGH-DUX4 rearrangements and ERG deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; DUX4 rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
+- Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:28199314](../papers/28199314.md)
+- Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -151,3 +153,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

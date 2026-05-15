@@ -3,8 +3,8 @@ symbol: HMGA2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # HMGA2
@@ -17,6 +17,7 @@ HMGA2 (High Mobility Group AT-Hook 2) is a chromatin-associated non-histone prot
 
 - Listed among candidate alterations in HNSCC (Fig. 3) [PMID:25631445](../papers/25631445.md)
 - 3 recurrent fusions identified in cutaneous melanoma (PCBP2-HMGA2, TSFM-HMGA2, SENP1-HMGA2) in the TCGA 333-sample multi-platform characterisation study [PMID:26091043](../papers/26091043.md)
+- Chromosomal rearrangements in 4/23 endometrial polyps (intragenic in 2); average VAF 0.24; partners include LRMDA, RAD51B, and TRAF3IP2; protein overexpression by IHC in 3/3 HMGA2-only-rearranged polyps; mRNA upregulation did not reach significance (p=0.37) [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ HMGA2 (High Mobility Group AT-Hook 2) is a chromatin-associated non-histone prot
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
 - [PMID:26091043](../papers/26091043.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

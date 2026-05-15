@@ -21,6 +21,7 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - CSF ctDNA sequencing via MSK-IMPACT identified resistance mutations arising during crizotinib therapy, demonstrating the utility of CSF liquid biopsy for monitoring on-target resistance in the CNS compartment [PMID:39289779](../papers/39289779.md).
 - Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for HCC [PMID:24735922](../papers/24735922.md)
 - ALK/ROS1/MET inhibitor used as targeted therapy for ALK rearrangements (>80% EML4-ALK) over-represented in young-onset NSCLC; CROWN trial subgroup analyses showed consistent outcomes by age [PMID:27346245](../papers/27346245.md)
+- Matched therapy for ROS1 fusions in 860-patient MSK-IMPACT LUAD cohort; two ROS1-fusion patients died before crizotinib FDA approval (March 2016) for ROS1 indication; ALK fusions also matched to crizotinib with 90.9% uptake and 93.3% clinical benefit [PMID:28336552](../papers/28336552.md).
 
 ## Resistance mechanisms
 
@@ -41,5 +42,8 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

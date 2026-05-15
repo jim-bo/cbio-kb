@@ -19,13 +19,13 @@ Mycosis fungoides (MYCF) is the most common form of cutaneous T-cell lymphoma (C
 
 ## Cohorts in the corpus
 
-- [[ctcl_columbia_2015]] — whole-exome sequencing of 8 mycosis fungoides tumor-normal pairs (skin biopsies as tumor; buccal swab as germline) among 42 CTCL patients profiled [PMID:26551667](../papers/26551667.md).
+- [ctcl_columbia_2015](../datasets/ctcl_columbia_2015.md) — whole-exome sequencing of 8 mycosis fungoides tumor-normal pairs (skin biopsies as tumor; buccal swab as germline) among 42 CTCL patients profiled [PMID:26551667](../papers/26551667.md).
 
 ## Recurrent alterations
 
-- Whole-exome sequencing of 8 mycosis fungoides samples (median 62 non-synonymous somatic mutations/sample, range 2–419) identified mutations in epigenetic regulators ([[KMT2D]] p.Gln2418*, [[KMT2C]] p.Gly1246*, [[SMARCA4]] p.Arg251Lys) and TCR/MAPK signaling genes ([[MAPK1]] p.Glu322Ala/p.Glu322Lys, [[STAT3]] p.Tyr640Phe in 2 cases); mycosis fungoides had markedly fewer copy-number alterations than Sézary syndrome (median 1 CNA vs 21) [PMID:26551667](../papers/26551667.md).
-- [[MAPK1]] E322K/E322A activating alleles validated to drive elevated ERK1/2 activation in transfected cells [PMID:26551667](../papers/26551667.md).
-- [[STAT3]] p.Tyr640Phe activating mutation observed in two mycosis fungoides cases [PMID:26551667](../papers/26551667.md).
+- Whole-exome sequencing of 8 mycosis fungoides samples (median 62 non-synonymous somatic mutations/sample, range 2–419) identified mutations in epigenetic regulators ([KMT2D](../genes/KMT2D.md) p.Gln2418*, [KMT2C](../genes/KMT2C.md) p.Gly1246*, [SMARCA4](../genes/SMARCA4.md) p.Arg251Lys) and TCR/MAPK signaling genes ([MAPK1](../genes/MAPK1.md) p.Glu322Ala/p.Glu322Lys, [STAT3](../genes/STAT3.md) p.Tyr640Phe in 2 cases); mycosis fungoides had markedly fewer copy-number alterations than Sézary syndrome (median 1 CNA vs 21) [PMID:26551667](../papers/26551667.md).
+- [MAPK1](../genes/MAPK1.md) E322K/E322A activating alleles validated to drive elevated ERK1/2 activation in transfected cells [PMID:26551667](../papers/26551667.md).
+- [STAT3](../genes/STAT3.md) p.Tyr640Phe activating mutation observed in two mycosis fungoides cases [PMID:26551667](../papers/26551667.md).
 
 ## Subtypes
 
@@ -33,8 +33,8 @@ Mycosis fungoides (MYCF) is the most common form of cutaneous T-cell lymphoma (C
 
 ## Therapeutic landscape
 
-- Broad CTCL cell-line sensitivity to [[bortezomib]] (proteasome inhibitor) and Mi-2 (NFκB inhibitor) regardless of genotype, implicating convergent NFκB activation as a therapeutic vulnerability [PMID:26551667](../papers/26551667.md).
-- [[tofacitinib]] and [[ruxolitinib]] (JAK inhibitors) active in JAK3-mutant CTCL lines; JAK3/STAT3/SH2B3 genotyping proposed to stratify patients for JAK-inhibitor trials [PMID:26551667](../papers/26551667.md).
+- Broad CTCL cell-line sensitivity to [bortezomib](../drugs/bortezomib.md) (proteasome inhibitor) and Mi-2 (NFκB inhibitor) regardless of genotype, implicating convergent NFκB activation as a therapeutic vulnerability [PMID:26551667](../papers/26551667.md).
+- [tofacitinib](../drugs/tofacitinib.md) and [ruxolitinib](../drugs/ruxolitinib.md) (JAK inhibitors) active in JAK3-mutant CTCL lines; JAK3/STAT3/SH2B3 genotyping proposed to stratify patients for JAK-inhibitor trials [PMID:26551667](../papers/26551667.md).
 
 ## Sources
 

@@ -22333,6 +22333,18 @@
     },
     {
       "from": "cancer_types/COADREAD.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "cancer_types/COADREAD.md",
+      "to": "genes/NRAS.md"
+    },
+    {
+      "from": "cancer_types/COADREAD.md",
+      "to": "genes/BRAF.md"
+    },
+    {
+      "from": "cancer_types/COADREAD.md",
       "to": "papers/25164765.md"
     },
     {
@@ -23202,6 +23214,10 @@
     {
       "from": "cancer_types/ES.md",
       "to": "papers/22460905.md"
+    },
+    {
+      "from": "cancer_types/ES.md",
+      "to": "genes/BRCA1.md"
     },
     {
       "from": "cancer_types/ES.md",
@@ -25869,7 +25885,43 @@
     },
     {
       "from": "cancer_types/MYCF.md",
+      "to": "datasets/ctcl_columbia_2015.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
       "to": "papers/26551667.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "genes/KMT2D.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "genes/KMT2C.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "genes/SMARCA4.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "genes/MAPK1.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "genes/STAT3.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "drugs/bortezomib.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "drugs/tofacitinib.md"
+    },
+    {
+      "from": "cancer_types/MYCF.md",
+      "to": "drugs/ruxolitinib.md"
     },
     {
       "from": "cancer_types/MYEC.md",
@@ -27693,6 +27745,26 @@
     },
     {
       "from": "cancer_types/READ.md",
+      "to": "genes/KRAS.md"
+    },
+    {
+      "from": "cancer_types/READ.md",
+      "to": "genes/NRAS.md"
+    },
+    {
+      "from": "cancer_types/READ.md",
+      "to": "genes/BRAF.md"
+    },
+    {
+      "from": "cancer_types/READ.md",
+      "to": "genes/MAP2K1.md"
+    },
+    {
+      "from": "cancer_types/READ.md",
+      "to": "genes/EGFR.md"
+    },
+    {
+      "from": "cancer_types/READ.md",
       "to": "papers/25164765.md"
     },
     {
@@ -28181,7 +28253,91 @@
     },
     {
       "from": "cancer_types/SS.md",
+      "to": "datasets/ctcl_columbia_2015.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
       "to": "papers/26551667.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/TP53.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/PTEN.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/DNMT3A.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/CDKN1B.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/RB1.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/TET2.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/CREBBP.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/KMT2C.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/BRD9.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/SMARCA4.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/CHD3.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/CARD11.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/TNFRSF1B.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/PLCG1.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/PRKG1.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/JAK3.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "genes/PREX2.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "drugs/bortezomib.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "drugs/tofacitinib.md"
+    },
+    {
+      "from": "cancer_types/SS.md",
+      "to": "drugs/ruxolitinib.md"
     },
     {
       "from": "cancer_types/STAD.md",

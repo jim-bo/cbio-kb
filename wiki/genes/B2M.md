@@ -3,8 +3,8 @@ symbol: B2M
 aliases: []
 cancer_types: [CHL]
 tags: [immune-escape, mhc-class-i, early-event]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # B2M
@@ -26,6 +26,8 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - MHC class I alteration enriched in the MSI subtype of gastric adenocarcinoma; B2M and [HLA-B](../genes/HLA-B.md) mutations consistent with antigen-presentation escape in microsatellite-unstable tumours [PMID:25079317](../papers/25079317.md)
 - Implicated in HLA-A/B antigen presentation pathway alterations in HNSCC; altered in 7% of HPV(-) and 11% of HPV(+) tumors (279-tumor TCGA HNSCC cohort) [PMID:25631445](../papers/25631445.md)
 - Homozygous deletion in individual [PCNSL](../cancer_types/PCNSL.md) cases; contributes to immune-evasion through MHC-I loss in primary central nervous system lymphoma [PMID:25991819](../papers/25991819.md)
+- Component of MHC class I antigen-processing machinery; enriched for somatic mutations in TIL-rich colorectal carcinoma, consistent with immune-escape selection (Figure 6C, Table S10) [PMID:27149842](../papers/27149842.md)
+- Focally deleted in both lung ADC and SqCC; enriched for loss-of-function mutations (p < 0.01), Pan-Lung FDR q = 0.006; implicated in MHC-I antigen-presentation loss [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -73,3 +75,9 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

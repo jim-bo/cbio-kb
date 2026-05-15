@@ -3,7 +3,7 @@ symbol: KEAP1
 aliases: []
 cancer_types: [LUAD, HNSC, NSCLC]
 tags: [co-mutation, metastasis]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -27,6 +27,7 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - KEAP1 alterations co-occur with [NFE2L2](../genes/NFE2L2.md) and [CUL3](../genes/CUL3.md) in the classical mRNA subtype of [HNSC](../cancer_types/HNSC.md) (TCGA, n=279), associated with heavy smoking and laryngeal sub-site, paralleling the oxidative-stress axis in [LUSC](../cancer_types/LUSC.md). [PMID:25631445](../papers/25631445.md)
 - KEAP1 harbored deleterious mutations in ≥4 DCB patients and 0 NDB patients in a 34-patient [NSCLC](../cancer_types/NSCLC.md) [pembrolizumab](../drugs/pembrolizumab.md) cohort (association not corrected for mutation burden). [PMID:25765070](../papers/25765070.md)
 - KEAP1 significantly mutated by MutSigCV in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); part of oxidative-stress pathway altered in 12% of [HCC](../cancer_types/HCC.md); KEAP1-mutant cell lines show elevated [NQO1](../genes/NQO1.md) and candidate sensitivity to HSP90 inhibitors 17-AAG/17-DMAG, modulated by [NQO1](../genes/NQO1.md) P187S genotype [PMID:25822088](../papers/25822088.md)
+- Significantly mutated exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ KEAP1 is a substrate adaptor for NRF2 ubiquitination; loss of function drives NR
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: TRIM24
 aliases: [TIF1A]
 cancer_types: []
 tags: [fusion-partner, braf-fusion, bromodomain]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # TRIM24
@@ -16,6 +16,7 @@ TRIM24 (TIF1A) is a transcriptional co-regulator with bromodomain and PHD finger
 ## Alterations observed in the corpus
 
 - TRIM24 was identified as a 5' fusion partner for BRAF among 82 unique partners across 52 histologies in a tumor-agnostic BRAF fusion cohort (MSK-IMPACT/MSK-Fusion) [PMID:38922339](../papers/38922339.md).
+- TRIM24–NTRK2 fusion identified in a lung ADC sample in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TRIM24 (TIF1A) is a transcriptional co-regulator with bromodomain and PHD finger
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

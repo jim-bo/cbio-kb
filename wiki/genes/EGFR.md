@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # EGFR
@@ -68,6 +68,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Overexpressed in invasive lobular breast cancer ([ILC](../cancer_types/ILC.md)) at total and phospho levels (Y1068, Y1173); highest in the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype [PMID:26451490](../papers/26451490.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - EGFR is among the recurrently mutated RTKs identified as low-frequency hits in advanced thyroid cancers (PDTC/ATC) profiled by MSK-IMPACT 341-gene panel (n=117 tumors) [PMID:26878173](../papers/26878173.md)
+- Kinase-domain duplication detected in lung ADC sample TCGA-49-4512 (separately reported as afatinib-responsive); complex indels in EGFR or MET found in 11 tumors; EGFR p.G719A identified as a recurrent neoepitope hotspot candidate [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -188,5 +189,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

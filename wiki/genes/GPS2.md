@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - MB
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # GPS2
@@ -17,6 +17,7 @@ GPS2 (G Protein Pathway Suppressor 2) encodes a component of the N-CoR (nuclear 
 ## Alterations observed in the corpus
 
 - Missense mutations within the NCOR2-interaction domain (aa 53–90) identified in Group 3 medulloblastoma by WES (Broad, 92 tumors) [PMID:22820256](../papers/22820256.md)
+- Identified in a 173-gene targeted sequencing panel breast cancer study (n=2,433) as part of the mutational landscape analysis [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ GPS2 (G Protein Pathway Suppressor 2) encodes a component of the N-CoR (nuclear 
 - [PMID:22820256](../papers/22820256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

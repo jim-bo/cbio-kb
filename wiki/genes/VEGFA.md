@@ -1,10 +1,10 @@
 ---
 symbol: VEGFA
 aliases: []
-cancer_types: [HCC, NPC]
+cancer_types: [HCC, NPC, SKCM]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # VEGFA
@@ -20,11 +20,13 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 - Recurrent focal amplification in 7% of gastric cancers (TCGA, CIN subtype); rationale for VEGFR-pathway inhibition (e.g., [ramucirumab](../drugs/ramucirumab.md)). [PMID:25079317](../papers/25079317.md)
 - Cited in the context of mouse lymphatic-metastasis models of cutaneous squamous cell carcinoma (cSCC); not directly assayed in the 29-tumour targeted-sequencing cohort [PMID:25589618](../papers/25589618.md)
 - Focal amplification in 1% of [HCC](../cancer_types/HCC.md) cases; listed as FDA-targetable alteration in the druggable landscape of [HCC](../cancer_types/HCC.md). [PMID:25822088](../papers/25822088.md)
+- Transcriptionally up-regulated (immunosuppressive/angiogenic cytokine) in pre-treatment non-responding melanoma ([SKCM](../cancer_types/SKCM.md)) tumors; co-enriched within the IPRES innate anti-PD-1 resistance transcriptional signature; linked to a published mouse model of innate anti-PD-1 resistance (Peng et al. 2015) [PMID:26997480](../papers/26997480.md).
 
 ## Cancer types (linked)
 
 - **[HCC](../cancer_types/HCC.md)** — VEGFA amplification in 5%; angiogenic signaling prominent across all [HCC](../cancer_types/HCC.md) subclasses; mechanistic target of [sorafenib](../drugs/sorafenib.md), [lenvatinib](../drugs/lenvatinib.md), [regorafenib](../drugs/regorafenib.md), [cabozantinib](../drugs/cabozantinib.md), [ramucirumab](../drugs/ramucirumab.md), and [bevacizumab](../drugs/bevacizumab.md). [PMID:24798001](../papers/24798001.md)
 - **[NPC](../cancer_types/NPC.md)** — VEGFA pathway targeted via [bevacizumab](../drugs/bevacizumab.md) (ORR 54.5% combined with [sintilimab](../drugs/sintilimab.md)) and VEGFR2 TKI [apatinib](../drugs/apatinib.md) + [camrelizumab](../drugs/camrelizumab.md) (ORR 65.5%) in R/M disease. [PMID:24952746](../papers/24952746.md)
+- **[SKCM](../cancer_types/SKCM.md)** — VEGFA up-regulation in non-responding pre-treatment tumors as part of IPRES; linked to innate anti-PD-1 resistance [PMID:26997480](../papers/26997480.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -52,5 +54,6 @@ VEGFA encodes vascular endothelial growth factor A, the principal driver of tumo
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25822088](../papers/25822088.md)
+- [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

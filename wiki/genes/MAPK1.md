@@ -20,6 +20,7 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 - [CRKL](../genes/CRKL.md)–MAPK1 singleton sense-preserving fusion detected in prostate tumor P04-1084 via chromoplexy; MAPK1 kinase domain intact in fusion product, hypothesized to drive aberrant ERK2 kinase activity [PMID:23622249](../papers/23622249.md)
 - Phospho-ERK1/2 (T202/Y204, MAPK1/MAPK3) highest in RAS-mutant melanoma subtype by RPPA in the TCGA 333-sample cutaneous melanoma cohort; reflects hyperactivation of MAPK signalling in NRAS/HRAS/KRAS-mutant tumours [PMID:26091043](../papers/26091043.md)
 - Recurrent E322 mutations (p.Glu322Ala, p.Glu322Lys) in CTCL/Sézary syndrome exome cohort; E322K is a previously reported activating allele validated to drive ERK1/2 hyperactivation [PMID:26551667](../papers/26551667.md)
+- MAPK1 (ERK2) amplification raises the proportion of lung ADCs with a candidate Ras/Raf/RTK pathway driver to 76% in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ MAPK1 (also known as ERK2) is a central kinase in the RAS/MAPK signaling cascade
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

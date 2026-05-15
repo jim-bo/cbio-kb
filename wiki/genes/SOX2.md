@@ -29,6 +29,7 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 - High-level SOX2 amplification — common in lung SCC — was absent in the metastatic cSCC cohort (n=29), suggesting a distinguishing feature from pulmonary SCC [PMID:25589618](../papers/25589618.md)
 - 3q26 co-amplified squamous-lineage transcription factor (with [TP63](../genes/TP63.md)) in HNSCC (n=279 TCGA cohort); amplified in both HPV(+) and HPV(−) subsets [PMID:25631445](../papers/25631445.md)
 - SOX2 and most SOX-family members upregulated in G-CIMP-low glioma; SOX2 binding motif (TGTT) enriched at intergenic CpG sites that lose methylation in G-CIMP-low tumors [PMID:26824661](../papers/26824661.md)
+- Referenced in the context of the lung squamous cell carcinoma (LUSC) molecular landscape in a 1,144-NSCLC comparative exome-sequencing study [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -73,5 +74,8 @@ SOX2 (SRY-Box Transcription Factor 2) is a master transcription factor for neura
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

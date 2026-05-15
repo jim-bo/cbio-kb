@@ -19,6 +19,7 @@ TRAF3 is a negative regulator of NF-κB signaling disrupted in U-CLL via a recur
 - NF-kB regulator; recurrently mutated and homozygously deleted in multiple myeloma (MM); contributes to aberrant NF-kB pathway activation in a subset of MM tumors [PMID:24434212](../papers/24434212.md)
 - Recurrent deletions (14%) and truncating mutations (8%) in HPV(+) HNSCC; first reported link between TRAF3 loss and HPV-associated cancer; loss promotes aberrant NF-kB signalling [PMID:25631445](../papers/25631445.md)
 - Identified as a novel B-cell activity driver in CLL in a 538-patient WES study; involved in NF-kB signaling pathway in B-cell malignancies [PMID:26466571](../papers/26466571.md)
+- Recurrently focally deleted in both lung ADC and lung SqCC (Pan-Lung analysis) in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ TRAF3 is a negative regulator of NF-κB signaling disrupted in U-CLL via a recur
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

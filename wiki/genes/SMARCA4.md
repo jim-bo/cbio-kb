@@ -3,8 +3,8 @@ symbol: SMARCA4
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin-remodeler, metastasis, brain-metastasis, bone-metastasis]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # SMARCA4
@@ -42,6 +42,7 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 - Somatic mutation detected in both low-grade and high-grade [UTUC](../cancer_types/UTUC.md) (upper tract urothelial carcinoma); listed among chromatin-modifying genes (alongside [KDM6A](../genes/KDM6A.md), [KMT2D](../genes/KMT2D.md), [KMT2A](../genes/KMT2A.md), [KMT2C](../genes/KMT2C.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [ARID1A](../genes/ARID1A.md)) that are frequently altered and concordant across spatial tumour components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - p.Ser1238Tyr (PolyPhen2 = 0.99) in Sézary syndrome; p.Arg251Lys in mycosis fungoides; SWI/SNF chromatin remodeling component [PMID:26551667](../papers/26551667.md)
 - Sole driver of SMARCB1-intact extra-cranial malignant rhabdoid tumor (MRT) via somatic LOH plus a germline one-base deletion, demonstrating SWI/SNF complex redundancy in MRT pathogenesis [PMID:26977886](../papers/26977886.md)
+- Identified as a novel focal deletion target in lung ADC (LUAD) in a 1,144-NSCLC exome-sequencing cohort; also enriched for mutations in males with ADC (FDR q < 0.1) [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -130,5 +131,8 @@ SMARCA4 encodes the ATPase subunit of the SWI/SNF chromatin remodeling complex. 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

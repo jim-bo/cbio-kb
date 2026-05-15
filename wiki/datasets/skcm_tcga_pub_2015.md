@@ -24,8 +24,8 @@ tags:
   - nf1
   - tumor-microenvironment
   - immunotherapy-biomarker
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SKCM TCGA 2015 (TCGA Melanoma Working Group)
@@ -59,6 +59,7 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 ## Papers using this cohort
 
 - [PMID:26091043](../papers/26091043.md) — TCGA Network, *Cell* 2015: genomic classification of cutaneous melanoma; primary discovery study for this cohort.
+- [PMID:26997480](../papers/26997480.md) — Hugo et al. 2016, *Cell*: used as external reference to show IPRES co-enrichment is more prevalent in metastatic SKCM (90/282 metastatic) vs primary cutaneous tumors (6/69).
 
 ## Notable findings derived from this cohort
 
@@ -68,6 +69,7 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 - [TERT](../genes/TERT.md) promoter C228T enriched in [BRAF](../genes/BRAF.md) (75%), RAS (72%), [NF1](../genes/NF1.md) (83%) subtypes but depleted in Triple-WT (6.7%), which activates [TERT](../genes/TERT.md) via amplification or structural rearrangement instead. [PMID:26091043](../papers/26091043.md)
 - [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications ([KIT](../genes/KIT.md)/[PDGFRA](../genes/PDGFRA.md)/[KDR](../genes/KDR.md)) enriched in Triple-WT subtype; [CD274](../genes/CD274.md) (PD-L1) focal amplifications in [BRAF](../genes/BRAF.md) subtype — each subtype presents distinct therapeutic opportunities. [PMID:26091043](../papers/26091043.md)
 - 224 candidate fusion drivers identified; Triple-WT enriched for complex structural rearrangements (ShatterSeek p=0.00098) and driver fusions involving [AKT3](../genes/AKT3.md), [RAF1](../genes/RAF1.md), [MITF](../genes/MITF.md), and [HMGA2](../genes/HMGA2.md). [PMID:26091043](../papers/26091043.md)
+- IPRES (Innate anti-PD-1 Resistance) co-enrichment significantly over-represented in metastatic vs primary cutaneous tumors: 90/282 metastatic vs 6/69 primary (P=3.9e-5, OR=0.2 for primary vs metastatic), consistent with IPRES marking metastasis-associated mesenchymal programs. [PMID:26997480](../papers/26997480.md)
 
 ## Sources
 
@@ -75,4 +77,4 @@ Comprehensive multi-platform genomic characterization of 333 cutaneous melanomas
 - GDAC Firehose: `stddata__2013_11_14`
 - TCGA [SKCM](../cancer_types/SKCM.md) Data Portal
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

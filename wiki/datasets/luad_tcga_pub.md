@@ -20,7 +20,7 @@ tags:
   - multi-platform
   - non-small-cell-lung-cancer
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # TCGA Lung Adenocarcinoma (LUAD)
@@ -50,6 +50,7 @@ Multi-platform molecular characterization of 230 resected, treatment-naive lung 
 ## Papers using this cohort
 
 - [PMID:25079552](../papers/25079552.md) — TCGA Research Network 2014, comprehensive molecular profiling of lung adenocarcinoma
+- [PMID:27158780](../papers/27158780.md) — Campbell et al. 2016, *Nature Genetics*: 227 TCGA LUAD cases incorporated into the integrated 1,144-NSCLC exome cohort [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md).
 
 ## Notable findings derived from this cohort
 
@@ -59,10 +60,11 @@ Multi-platform molecular characterization of 230 resected, treatment-naive lung 
 - MET exon 14 skipping in 4% (10/230); U2AF1 S34F mutations drive 129 alternative splicing events including CTNNB1 [PMID:25079552](../papers/25079552.md)
 - Three transcriptional subtypes defined: TRU (terminal respiratory unit, EGFR/fusion-enriched, favorable prognosis), PI (proximal-inflammatory, NF1+TP53), PP (proximal-proliferative, KRAS+STK11) [PMID:25079552](../papers/25079552.md)
 - CIMP-H methylation cluster shows hypermethylation of WNT pathway genes and CDKN2A; MYC overexpression associated with CIMP-H (P=0.003) [PMID:25079552](../papers/25079552.md)
+- 227 cases from this cohort were merged into the integrated [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md) Pan-Lung analysis (660 ADC + 484 SqCC); this larger sample identified additional SMGs ([PPP3CA](../genes/PPP3CA.md), [DOT1L](../genes/DOT1L.md), [KLF5](../genes/KLF5.md)) and raised the proportion of ADC with a defined RTK/Ras/Raf driver to 76%. [PMID:27158780](../papers/27158780.md)
 
 ## Sources
 
 - cBioPortal studyId: luad_tcga_pub
 - TCGA Data Portal
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

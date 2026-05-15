@@ -52,6 +52,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig-CV identified 19 significantly mutated genes in periampullary tumors (ampullary, distal bile-duct, duodenal adenocarcinoma), plus 3 additional genes (PBRM1, RECQL4, KDM6A) by inactivation-bias test; MSI cases excluded [PMID:26804919](../papers/26804919.md)
 - MutSigCV identified 75 significantly mutated genes in 1,122 diffuse gliomas, 45 of which were novel glioma associations; applied within the TCGA pan-glioma study [PMID:26824661](../papers/26824661.md)
 - Used to identify significantly mutated genes in 114 metastatic CRPC biopsies; confirmed TP53 and RB1 as top altered genes differentiating CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
+- MutSigCV applied to 488 non-hypermutated CRCs, identifying 90 significantly mutated genes (73 novel for CRC); hypermutator threshold = 12 mutations/Mb [PMID:27149842](../papers/27149842.md)
+- MutSig2CV applied to 660 lung ADC and 484 lung SqCC exomes; identified 38 SMGs in ADC and 20 in SqCC (q < 0.1); 14 additional SMGs in the pan-lung joint analysis [PMID:27158780](../papers/27158780.md)
 
 ## Notes
 
@@ -165,5 +167,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

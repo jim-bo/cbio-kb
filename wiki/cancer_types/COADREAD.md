@@ -4,8 +4,8 @@ oncotree_code: COADREAD
 main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 mainType: Colorectal Cancer
 ---
 
@@ -30,6 +30,7 @@ this stub exists so child pages can resolve their `parent:` link.
 - WES and WGS of 276 colorectal carcinomas (TCGA) identified 24 significantly mutated genes including APC (81%), TP53 (60%), KRAS (43%), PIK3CA (18%), ARID1A, SOX9, and AMER1; 16% of tumors were hypermutated; ERBB2 amplification (4%) identified as potentially targetable with trastuzumab [PMID:22810696](../papers/22810696.md)
 - 74-tumor WES cohort (Genentech) characterised colorectal adenocarcinoma genomic landscape; RSPO2/RSPO3 fusions mutually exclusive with APC loss establish Wnt pathway as universal driver [PMID:22895193](../papers/22895193.md)
 - Targeted NGS (MSK-IMPACT, 230 genes) of 69 matched primary/metastasis/normal trios from microsatellite-stable colorectal cancer showed 100% concordance for [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), and [BRAF](../genes/BRAF.md) mutations and 93% overall concordance for recurrent driver alterations between primary and metastatic sites. [PMID:25164765](../papers/25164765.md)
+- WES of 619 CRC tumour/normal pairs from NHS and HPFS cohorts (coadread_dfci_2016) identified 90 significantly mutated genes (73 novel); neoantigen load correlated with TILs (Spearman rho=0.36, p=2e-19) and improved CRC-specific survival (multivariate HR=0.57, p=0.03); HLA class I somatic mutations in 11% of cases were enriched in TIL-rich tumours, implicating antigen-presentation escape [PMID:27149842](../papers/27149842.md)
 
 ## Therapeutic landscape
 
@@ -56,3 +57,6 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

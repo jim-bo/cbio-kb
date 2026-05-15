@@ -53,6 +53,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - Mutated in n=9 cases as part of the 4.1% RAS-mutant CLL fraction in a 538-sample WES cohort; contributes to the 8.7% of CLLs with MAPK-pathway mutations for which MEK inhibition is proposed [PMID:26466571](../papers/26466571.md)
 - No enrichment of nonsynonymous NRAS mutations by clinical-benefit vs. no-benefit subgroups in a 110-patient metastatic melanoma cohort treated with [ipilimumab](../drugs/ipilimumab.md) (CTLA-4 blockade), despite prior reports linking NRAS status to immunotherapy response [PMID:26359337](../papers/26359337.md)
 - Ras-pathway oncogene recurrently mutated (n=5) in diffuse glioma; previously known mainly from engineered mouse models [PMID:26824661](../papers/26824661.md)
+- NRAS identified as a known CRC driver and source of recurrent neopeptides in 619-tumor whole-exome sequencing study (NHS/HPFS cohort) [PMID:27149842](../papers/27149842.md)
 
 ## Cancer types (linked)
 
@@ -177,5 +178,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

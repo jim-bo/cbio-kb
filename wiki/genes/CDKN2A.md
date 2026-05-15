@@ -3,8 +3,8 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # CDKN2A
@@ -95,6 +95,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Mentioned in study [PMID:26804919](../papers/26804919.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - Single-case CDKN2A mutation observed in PDTC/ATC thyroid cancer targeted sequencing (IMPACT panel, 117 tumors), consistent with prior WES ATC findings [PMID:26878173](../papers/26878173.md)
+- CDKN2A was significantly mutated in both lung ADC and SqCC; significantly more frequently mutated in SqCC than ADC (p<0.01, Fisher's exact); one of only six genes significantly mutated in both NSCLC histologies [PMID:27158780](../papers/27158780.md).
+- CDKN2A homozygous deletions found in 53/2,087 breast tumors (most common HD target); confirmed as Mut-driver TSG in both ER+ and ER- breast cancer; identified among 40 Mut-driver genes in the METABRIC 2,433-tumor cohort [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -280,3 +282,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

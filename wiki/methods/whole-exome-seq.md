@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Whole-exome sequencing (WES)
@@ -126,6 +126,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 820 diffuse glioma samples from TCGA pan-glioma study (513 LGG + 307 GBM) to identify 75 significantly mutated genes including 45 novel glioma associations [PMID:26824661](../papers/26824661.md)
 - Used for whole-exome sequencing of 114 metastatic biopsies from 81 men with castration-resistant prostate cancer (CRPC-Adeno and CRPC-NE) using SureSelect v2/v4 or HaloPlex Exome at ~100× mean target coverage [PMID:26855148](../papers/26855148.md)
 - Used on 141 tumors from 56 men with metastatic CRPC (prad_fhcrc cohort) with Nimblegen V2/V3 capture on Illumina HiSeq 2000; alignment via bwa v0.7.1 with GATK indel realignment and MuTect somatic calling. [PMID:26928463](../papers/26928463.md)
+- Applied to 38 metastatic melanoma pretreatment biopsies on Illumina HiSeq2000 (2×100 bp; median 140× coverage) to call SNVs/INDELs for anti-PD-1 response analysis [PMID:26997480](../papers/26997480.md)
+- Applied to 619 CRC FFPE tumor/normal pairs (Illumina HiSeq 2000, SureSelect v.2 capture; mean 90× coverage, 87% of bases ≥20×) for driver discovery and neoantigen analysis [PMID:27149842](../papers/27149842.md)
+- Applied to 660 lung ADC and 484 lung SqCC tumor/normal pairs (Agilent SureSelect 50MB, Illumina paired-end) for comprehensive NSCLC driver and neoepitope landscape analysis [PMID:27158780](../papers/27158780.md)
 
 ## Notes
 
@@ -419,3 +422,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

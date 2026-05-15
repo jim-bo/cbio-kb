@@ -3,7 +3,7 @@ symbol: PDGFRA
 aliases: []
 cancer_types: [AST, DIFG, GIST, ANGS, NBL]
 tags: [receptor-tyrosine-kinase, amplification, gist, mesenchymal-marker]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - PDGFRA expression positively correlates with stromal [SEMA7A](../genes/SEMA7A.md) in [GBC](../cancer_types/GBC.md) (scRNA-seq, GEO datasets), co-marking cancer-associated fibroblast (CAF) subpopulations alongside [ACTA2](../genes/ACTA2.md), [MFAP5](../genes/MFAP5.md), [TGFBR1](../genes/TGFBR1.md), and [TGFBR2](../genes/TGFBR2.md); high stromal [SEMA7A](../genes/SEMA7A.md) associates with lymph node metastasis and poor [OS](../cancer_types/OS.md) in a [GBC](../cancer_types/GBC.md) cohort (n=86) [PMID:24997986](../papers/24997986.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDGFRA is co-amplified with [KIT](../genes/KIT.md) and [KDR](../genes/KDR.md) at 4q12 in the Triple-WT subtype (no hot-spot BRAF/RAS/NF1); focal amplification enriched in Triple-WT. [imatinib](../drugs/imatinib.md), [sorafenib](../drugs/sorafenib.md), and [crenolanib](../drugs/crenolanib.md) are nominated therapeutic candidates. [PMID:26091043](../papers/26091043.md)
 - Identified as a marker of one of the three [ILC](../cancer_types/ILC.md) mRNA subtypes in a comprehensive molecular analysis of invasive lobular carcinoma; associated with subtype-specific expression patterns [PMID:26451490](../papers/26451490.md)
+- Amplification of the PDGFRA/KIT/KDR locus was significantly enriched in oncogene-negative lung ADC (242 cases lacking known RTK/Ras/Raf activating events), nominating this locus as a candidate driver in this subset (q < 0.25); inclusion of this locus in the RTK/Ras/Raf driver pool raised the proportion of lung ADCs with a candidate driver to 76% overall. [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -98,3 +99,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

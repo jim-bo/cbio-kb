@@ -3,7 +3,7 @@ symbol: RASA1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -19,6 +19,7 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - Two nonsense mutations (C372*, R679*) identified as shared trunk events between primary and matched liver metastasis in patient 14, mutually exclusive with RAS mutations in colorectal carcinoma; not on original MSK-IMPACT panel design but added in subsequent version [PMID:25164765](../papers/25164765.md)
 - RASA1 mutated in 12.8% of aggressive cSCC (5/39 patients); 66% truncating mutations; nominated as a novel candidate tumor suppressor (RAS GTPase activating protein family) [PMID:25303977](../papers/25303977.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); rarely mutated in basal-like breast cancers. [PMID:26095796](../papers/26095796.md)
+- Novel significantly mutated gene (SMG) in lung SqCC enriched for frameshift mutations (p < 0.001 for RASA1 frameshift enrichment) in the 1,144-tumor NSCLC landscape study; also significantly enriched in oncogene-negative lung ADC (q < 0.1), nominating RASA1 (p120GAP, a RAS-GAP) as a candidate driver in RTK/Ras/Raf pathway-negative lung ADC. Raised the overall proportion of lung ADCs with a candidate driver to 76%. [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - [PMID:26095796](../papers/26095796.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

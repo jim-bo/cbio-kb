@@ -1,10 +1,10 @@
 ---
 symbol: ZFP36L1
 aliases: []
-cancer_types: [CLLSLL]
+cancer_types: [CLLSLL, BRCA]
 tags: [structural-variant, u-cll, notch1-regulator]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ZFP36L1
@@ -18,10 +18,12 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 - ZFP36L1 is disrupted (together with [DICER1](../genes/DICER1.md) and [TRAF3](../genes/TRAF3.md)) by a recurrent 37-Mb chr14 deletion in U-CLL (4/87 WGS, 4.6%) arising via class-switch recombination [PMID:35927489](../papers/35927489.md).
 - ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator, and its loss connects the structural-variant landscape of U-CLL to [NOTCH1](../genes/NOTCH1.md) pathway activation [PMID:35927489](../papers/35927489.md).
 - Significantly mutated gene (SMG) at frequency ≤8% in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) in the TCGA comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
+- Identified as a Mut-driver in breast cancer in the METABRIC/ICGC 2,433-sample targeted-panel WES; inactivating mutations associated with worse breast-cancer-specific survival in ER+ disease [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
 - [CLLSLL](../cancer_types/CLLSLL.md) — disrupted by the recurrent U-CLL chr14 deletion [PMID:35927489](../papers/35927489.md).
+- **[BRCA](../cancer_types/BRCA.md) (ER+):** Mut-driver; inactivating mutations associated with worse breast-cancer-specific survival [PMID:27161491](../papers/27161491.md).
 
 ## Co-occurrence and mutual exclusivity
 
@@ -41,5 +43,6 @@ ZFP36L1 is a [NOTCH1](../genes/NOTCH1.md) negative regulator disrupted in U-CLL 
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24476821](../papers/24476821.md)
+- [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

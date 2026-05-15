@@ -22,6 +22,7 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - Used for somatic variant calling in [MPNST](../cancer_types/MPNST.md) WES discovery cohort (15 tumors) [PMID:25240281](../papers/25240281.md)
 - Strelka used for somatic SNV calling in whole-exome sequencing of adrenocortical carcinoma [PMID:26095796](../papers/26095796.md)
 - Used for SNV calling in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples alongside MutationSeq; contributed to characterization of massive genetic divergence (mean <12% shared events) between primary and recurrent tumor clones [PMID:26760213](../papers/26760213.md).
+- Used alongside Indelocator for indel calling in 619 CRC FFPE tumor/normal WES pairs; only calls concordant between both tools were retained [PMID:27149842](../papers/27149842.md)
 
 ## Notes
 
@@ -42,5 +43,8 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

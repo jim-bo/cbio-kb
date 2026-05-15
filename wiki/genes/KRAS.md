@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # KRAS
@@ -90,6 +90,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Major activated RAS-pathway oncogene in periampullary adenocarcinoma; RTK/RAS/PI3K pathway activated in 84–94% of cases across three anatomical subtypes (AMPAC, DUOAC, CAC; n=160); KRAS is one of four MutSig-CV-significant genes restricted to the CAC subset [PMID:26804919](../papers/26804919.md)
 - n=25 KRAS mutations in pan-glioma TCGA cohort (n=1122); confirmed as a recurrently mutated Ras-pathway oncogene in human glioma, previously known mainly from engineered mouse models; co-occurs with NRAS (n=5) [PMID:26824661](../papers/26824661.md)
 - KRAS mutations occur collectively with NRAS and HRAS in 28% of PDTC and 24% of ATC; RAS mutations are mutually exclusive with BRAF V600E and gene fusions; RAS-mutant PDTCs trend toward distant metastasis [PMID:26878173](../papers/26878173.md)
+- Known CRC driver identified as a source of recurrent neopeptides; neoantigen load analysis in 619 colorectal cancer cases [PMID:27149842](../papers/27149842.md)
+- Co-occurs with activating PPP3CA mutations (p=0.033) in lung ADC in the TCGA pan-lung cohort; KRAS is a key Ras/Raf/RTK pathway driver considered when calculating the 76% actionable-driver fraction in lung ADC [PMID:27158780](../papers/27158780.md)
+- Classical hotspot activating mutations at codon 12 observed in 11 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event; cited as a cross-cancer driver candidate suggesting drug repurposing potential [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -310,5 +313,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

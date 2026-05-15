@@ -149,6 +149,12 @@
 - method: visium-hd — observed in PMID:41941260 — note: 10x Genomics Visium HD high-definition spatial transcriptomics on 140+ rectal-cancer biopsies (ImmunoRad)
 - method: xenium — observed in PMID:41941260 — note: 10x Genomics Xenium single-cell spatial profiling on pediatric neuroblastoma pre/post 131I-MIBG (KIDSROBIN)
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
+- method: polysolver — observed in PMID:27149842 — note: HLA class I typing and somatic HLA mutation calling from WES; 11% of 619 CRCs had HLA mutations enriched in TIL-high tumors
+- method: netmhcpan — observed in PMID:26997480 — note: pan-allele MHC class I binding affinity predictor; used for neoepitope prediction in melanoma (v2.8) and CRC (v2.4) WES cohorts
+- method: metabric-targeted-sequencing — observed in PMID:27161491 — note: 173-gene Illumina Nextera custom capture panel (~1.2 Mbp) applied to 2,433 METABRIC primary breast tumours
+- method: vogelstein-ratiometric — observed in PMID:27161491 — note: Vogelstein 20/20-style ONC/TSG ratiometric driver-discovery scheme; applied ER-stratified in METABRIC breast-cancer study
+- method: ascat — observed in PMID:27161491 — note: allele-specific copy-number and LOH calling; used for CCF estimation in 2,433 METABRIC breast tumours
+- method: math-score — observed in PMID:27161491 — note: Mutant-Allele Tumor Heterogeneity score (Mroz & Rocco); higher MATH associated with worse ER+ BCSS in METABRIC; paradoxically low in IntClust2
 - method: pycerr — observed in PMID:41941260 — note: Python Computational Environment for Radiotherapy Research with AI auto-segmentation and radiomics
 - method: smart-seq2 — observed in PMID:27806376 — note: plate-based full-length single-cell/single-nucleus RNA-seq protocol used for oligodendroglioma and neuroblastoma transcriptomics
 - method: rnascope-ish — observed in PMID:34493726 — note: RNAscope multiplex fluorescent in situ hybridization for spatial validation of snRNA-seq findings in neuroblastoma and adrenal gland

@@ -6,7 +6,7 @@ cancer_types:
   - ODG
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # CCND3
@@ -23,6 +23,7 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
 - Identified as an additional significantly mutated gene (SMG) at <=8% frequency in muscle-invasive bladder carcinoma ([BLCA](../cancer_types/BLCA.md), n=131); TCGA bladder urothelial carcinoma study [PMID:24476821](../papers/24476821.md)
 - Recurrent focal amplification in LUAD; identified as one of multiple significant amplification peaks in the TCGA lung adenocarcinoma dataset (n=230) [PMID:25079552](../papers/25079552.md)
+- CCND3 was identified as a novel focal amplification target in lung adenocarcinoma (Pan-Lung analysis) [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ CCND3 encodes Cyclin D3, a member of the D-type cyclin family that promotes cell
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -10,7 +10,7 @@ tags:
   - pd-l2
   - immunotherapy
   - amplification
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -24,6 +24,7 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 
 - PDCD1LG2 co-amplified with [JAK2](../genes/JAK2.md) and [CD274](../genes/CD274.md) at 9p24.1 in 15% of EBV-positive gastric tumors ([EGC](../cancer_types/EGC.md)); associated with elevated mRNA expression; provides rationale for PD-L1/L2 immune checkpoint blockade and [JAK2](../genes/JAK2.md) inhibition in this subtype [PMID:25079317](../papers/25079317.md)
 - Tumor RNA expression of PDCD1LG2 (PD-L2) is significantly higher in clinical-benefit patients (P=0.041, Mann-Whitney) in a 110-patient metastatic melanoma cohort treated with [ipilimumab](../drugs/ipilimumab.md); PD-L2 expression adds complementary information to DNA-level mutational burden [PMID:26359337](../papers/26359337.md)
+- Expression of PDCD1LG2 (PD-L2) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset); whole-tumor bulk transcriptome may dilute immune-cell-restricted signal. [PMID:26997480](../papers/26997480.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 - [PMID:26359337](../papers/26359337.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

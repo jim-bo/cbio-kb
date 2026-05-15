@@ -43,6 +43,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Focal amplifications in 2 desmoplastic melanoma tumors, IHC-confirmed; identified as a targetable RTK alteration with potential therapeutic implications [PMID:26343386](../papers/26343386.md)
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (characterized by high [EGFR](../genes/EGFR.md) overexpression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - LINE-element insertion fusion involving MET detected in a single periampullary (DUOAC) tumor lacking KRAS/TP53 mutations, with high MET expression [PMID:26804919](../papers/26804919.md)
+- MET significantly mutated exclusively in lung adenocarcinoma vs other TCGA tumor types (q<0.1); MET-CAPZA2 novel fusion and KIF5B-MET previously reported fusion identified; MET and ERBB2 high-level amplifications enriched in tumors lacking other RTK/Ras/Raf activating events (p<0.01) [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -138,5 +139,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

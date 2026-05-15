@@ -24,7 +24,7 @@ tags:
   - GISTIC
   - MutSig
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # Lung Squamous Cell Carcinoma (TCGA, Nature 2012)
@@ -54,6 +54,7 @@ processed_at: 2026-05-06
 ## Papers using this cohort
 
 - [PMID:22960745](../papers/22960745.md) — primary TCGA characterisation (Cancer Genome Atlas Research Network, Nature 2012)
+- [PMID:27158780](../papers/27158780.md) — Campbell et al. 2016, *Nature Genetics*: 176 TCGA SqCC cases incorporated into the integrated 1,144-NSCLC exome cohort [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md).
 
 ## Notable findings derived from this cohort
 
@@ -63,9 +64,10 @@ processed_at: 2026-05-06
 - Squamous differentiation pathway altered in 44%: SOX2/TP63 amplification/overexpression; NOTCH1/2 loss-of-function. [PMID:22960745](../papers/22960745.md)
 - PI3K/AKT pathway altered in 47%; CDKN2A/RB1 pathway altered in 72%. [PMID:22960745](../papers/22960745.md)
 - Potential therapeutic targets identified in 64% of tumours. [PMID:22960745](../papers/22960745.md)
+- 176 cases from this cohort merged into the integrated [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md) Pan-Lung analysis; the expanded SqCC sample identified novel SMGs [RASA1](../genes/RASA1.md), [CUL3](../genes/CUL3.md) and novel focal amplifications [YES1](../genes/YES1.md) and [MIR205](../genes/MIR205.md). [PMID:27158780](../papers/27158780.md)
 
 ## Sources
 
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

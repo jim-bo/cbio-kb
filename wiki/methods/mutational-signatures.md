@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Mutational Signatures Analysis (COSMIC)
@@ -24,6 +24,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutational signature decomposition adapted from Alexandrov et al. (30 COSMIC signatures) applied to 28 uveal melanoma samples; identified BRCA/signature-3 in 79% of samples, with no UV signature (COSMIC 7) detected in any sample [PMID:26683228](../papers/26683228.md).
 - nsNMF-derived mutational signature analysis of periampullary tumors identified 5 prominent signatures (out of 21); signature #1 (AC/AT>AN) was independently associated with worse overall survival (multivariate Cox p=0.02) [PMID:26804919](../papers/26804919.md)
 - COSMIC mutational signatures SBS7a, SBS7b, SBS7c, SBS7d (UVR-associated) and DBS1 (CC>TT) were attributed in NanoSeq data from paired pre/post NB-UVB skin biopsies; post-treatment SBS7 increase in buttock skin was significant (P<0.001, Mann-Whitney U) and correlated tightly with DBS1 increase (Pearson r=0.897). [PMID:26950094](../papers/26950094.md)
+- Six mutational signatures extracted by NMF from 1,144 NSCLC exomes; smoking signature SI4 separated never- vs ever-smokers well in ADC (AUC=0.87) but poorly in SqCC (AUC=0.62) [PMID:27158780](../papers/27158780.md)
 
 ## Notes
 
@@ -53,3 +54,6 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:26950094](../papers/26950094.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

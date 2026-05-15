@@ -19,6 +19,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 - GSEA of 486 fulvestrant-responsive differentially expressed genes in Nf1Indel rat mammary tumors showed significant enrichment of genes induced by neoadjuvant [letrozole](../drugs/letrozole.md) (GSE5462) and [fulvestrant](../drugs/fulvestrant.md) (GSE71791) in patient datasets; 58-gene overlap included [PGR](../genes/PGR.md), AREG, SGK3, and other ER-response genes, validating cross-species transcriptome concordance. [PMID:26437033](../papers/26437033.md)
 - Used to compare gene expression between long-fusion (breakpoint after exon 11) and short-fusion (exons 8/9) MYBL1/MYB ACC subsets; identified 19 gene sets enriched in long fusions (RNA processing/translation) and 5 in short fusions (tissue development) [PMID:26631609](../papers/26631609.md).
+- Used (alongside GSVA) with MSigDB C2/C6/C7 gene sets to identify the IPRES co-enriched transcriptional resistance program in anti-PD-1-treated metastatic melanoma [PMID:26997480](../papers/26997480.md)
 
 ## Notes
 
@@ -32,5 +33,8 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26631609](../papers/26631609.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -26,6 +26,8 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - Used to call somatic indels from whole-exome data of 45 [BRAF](../genes/BRAF.md) V600 metastatic melanoma FFPE tumors (DeCOG cohort) as part of the Broad Picard/Firehose pipeline alongside MuTect for SNVs [PMID:24265153](../papers/24265153.md).
 - Used to call somatic indels in 50 muscle-invasive urothelial carcinoma tumors as part of the cisplatin-response WES study. [PMID:25096233](../papers/25096233.md)
 - One of four mutation callers (MuTect, Indelocator, VarScan, RADIA) used in ≥2-caller consensus strategy for somatic indel detection in 820 TCGA diffuse glioma exomes [PMID:26824661](../papers/26824661.md)
+- Used alongside Strelka for indel calling in 619 CRC FFPE tumor/normal WES pairs; concordant calls from both tools were retained to reduce false positives [PMID:27149842](../papers/27149842.md)
+- Used alongside MuTect for indel calling in 1,144 NSCLC (660 lung ADC + 484 lung SqCC) tumor/normal exome pairs [PMID:27158780](../papers/27158780.md)
 
 ## Notes
 
@@ -43,5 +45,11 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

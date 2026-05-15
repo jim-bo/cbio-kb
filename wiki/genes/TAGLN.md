@@ -3,8 +3,8 @@ symbol: TAGLN
 aliases: [SM22, SMCC, TAGLN1]
 cancer_types: [SKIN]
 tags: [transcriptomic-marker, neural-crest, smooth-muscle, melanocyte]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # TAGLN
@@ -17,6 +17,7 @@ TAGLN (transgelin, also known as SM22-alpha) is a smooth-muscle actin-binding pr
 
 - TAGLN is transcriptionally upregulated in LowMut melanocytes (bottom UV-burden quartile) compared to HighMut melanocytes in a single-melanocyte multi-omics study (297 clonally-expanded cells, 31 donors); LowMut cells are enriched for smooth-muscle/neural-crest genes including TAGLN, [MYL9](../genes/MYL9.md), [MYLK](../genes/MYLK.md), [SGCE](../genes/SGCE.md), and [HACD1](../genes/HACD1.md) [PMID:39975212](../papers/39975212.md).
 - TAGLN expression defines the neural-crest/stem-like transcriptional state of LowMut melanocytes, which carry predominantly clock-like SBS1/SBS5 mutational signatures rather than UV-attributable SBS7 [PMID:39975212](../papers/39975212.md).
+- Mesenchymal-transition transcript up-regulated in pretreatment melanoma tumors that failed to respond to anti-PD-1 therapy; co-enriched within the IPRES (innate anti-PD-1 resistance) transcriptional signature [PMID:26997480](../papers/26997480.md).
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ TAGLN (transgelin, also known as SM22-alpha) is a smooth-muscle actin-binding pr
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

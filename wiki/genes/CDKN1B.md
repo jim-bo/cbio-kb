@@ -3,8 +3,8 @@ symbol: CDKN1B
 aliases: [p27, KIP1]
 cancer_types: [PRAD]
 tags: [cell-cycle, tumor-suppressor, CDK-inhibitor, prostate-cancer]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # CDKN1B
@@ -24,6 +24,7 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - Significantly mutated gene in primary prostate cancer (TCGA prostate cohort); part of the recurrently mutated gene set MED12/CDKN1B/NKX3-1/ZMYM3 [PMID:26544944](../papers/26544944.md)
 - 12p13.1 heterozygous deletion in 5/25 (20%) Sézary syndrome cases [PMID:26551667](../papers/26551667.md)
 - Single-case CDKN1B mutation detected in PDTC/ATC thyroid cancer sequencing cohort (341-gene IMPACT panel, 117 tumors), replicating findings from prior WES ATC study [PMID:26878173](../papers/26878173.md)
+- CDKN1B was identified as a cell-cycle Mut-driver in breast cancer, listed among the 40 Mut-driver genes spanning Akt-signaling, cell-cycle, chromatin function, DNA damage, and apoptosis pathways [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -65,3 +66,6 @@ CDKN1B encodes p27 (KIP1), a cyclin-dependent kinase inhibitor that restrains ce
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

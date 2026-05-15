@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27161491.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27161491.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The somatic mutation profiles of 2,433 breast cancers refines their genomic and transcriptomic landscapes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Bernard Pereira </p>
+             <p>Suet-Feung Chin </p>
+             <p>Oscar M. Rueda </p>
+             <p>Hans-Kristian Moen Vollan </p>
+             <p>Elena Provenzano </p>
+             <p>Helen A. Bardwell </p>
+             <p>Michelle Pugh </p>
+             <p>Linda Jones </p>
+             <p>Roslin Russell </p>
+             <p>Stephen-John Sammut </p>
+             <p>Dana W.Y. Tsui </p>
+             <p>Bin Liu </p>
+             <p>Sarah-Jane Dawson </p>
+             <p>Jean Abraham </p>
+             <p>Helen Northen </p>
+             <p>John F. Peden </p>
+             <p>Abhik Mukherjee </p>
+             <p>Gulisa Turashvili </p>
+             <p>Andrew R. Green </p>
+             <p>Steve McKinney </p>
+             <p>Arusha Oloumi </p>
+             <p>Sohrab Shah </p>
+             <p>Nitzan Rosenfeld </p>
+             <p>Leigh Murphy </p>
+             <p>David R. Bentley </p>
+             <p>Ian O. Ellis </p>
+             <p>Arnie Purushotham </p>
+             <p>Sarah E. Pinder </p>
+             <p>Anne-Lise Børresen-Dale </p>
+             <p>Helena M. Earl </p>
+             <p>Paul D. Pharoah </p>
+             <p>Mark T. Ross </p>
+             <p>Samuel Aparicio </p>
+             <p>Carlos Caldas </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ncomms11479">10.1038/ncomms11479</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 27161491 · <strong>DOI:</strong> 10.1038/ncomms11479 · <strong>Journal:</strong> Nature Communications (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Pereira, Chin, Rueda et al.&nbsp;targeted-sequenced 173 breast-cancer genes in 2,433 primary tumours from the <a href="../datasets/brca_metabric.html">METABRIC</a> cohort that already had matched copy-number, expression, and long-term clinical follow-up data (median 115 months). Using a <a href="../methods/vogelstein-ratiometric.html">ratiometric driver-discovery scheme</a>, they identified 40 mutation-driver (Mut-driver) genes (22 ER+ only, 3 ER- only, 15 shared), characterised co-mutation/mutual-exclusivity patterns, mapped Mut-driver mutations onto the 10 <a href="../methods/gistic.html">Integrative Clusters (IntClusts)</a>, estimated cancer-cell fractions to score clonality, and computed <a href="../methods/math-score.html">MATH</a> intra-tumour heterogeneity scores. The headline clinical result is that <a href="../genes/PIK3CA.html">PIK3CA</a> mutations carry distinct prognostic value depending on the IntClust background — they are associated with shorter breast-cancer-specific survival in ER+ tumours belonging to IntClust1, IntClust2, and IntClust9 (each driven by amplification of 17q23, 11q13–14, or 8q24 respectively) but not in other ER+ IntClusts. High MATH scores were also associated with worse outcome in ER+ disease, except in the highly aggressive IntClust2 (CCND1/PAK1 11q13–14 co-amplification) which paradoxically showed low intra-tumour heterogeneity.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>2,433 primary breast tumours (<a href="../cancer_types/BRCA.html">BRCA</a>), with 2,319 patients (95%) carrying long-term follow-up data (median 115 months). Source cohorts pooled in <a href="../datasets/brca_metabric.html">METABRIC</a>: METABRIC, NeoTango, Nottingham, and DETECT (<a href="../papers/27161491.html">PMID:27161491</a>).</li>
+<li>650 normal samples (523 normal-adjacent breast, 127 peripheral blood); 548 matched tumour/normal pairs; 221 primary tumours sequenced in replicate.</li>
+<li>Targeted capture of 173 genes (~1.2 Mbp) selected from 5 large 2012 breast-cancer sequencing studies plus genes recurrently homozygously deleted in the prior METABRIC CNA analysis. Method: Illumina Nextera Custom Target Enrichment + paired-end 100 bp HiSeq 2000 sequencing — see <a href="../methods/metabric-targeted-sequencing.html">metabric-targeted-sequencing</a>. Mean depth ≥112× in 80% of samples (median 152×).</li>
+<li>ER status assigned by IHC where available, reconciled with bimodal <a href="../genes/ESR1.html">ESR1</a> gaussian-mixture expression calls; <a href="../genes/ERBB2.html">ERBB2</a> expression similarly used to corroborate HER2 IHC.</li>
+<li>ER+ n=1,780; ER- n=630 (status available for 2,410 tumours).</li>
+<li>Driver discovery: <a href="../methods/vogelstein-ratiometric.html">Vogelstein 20/20-style ratiometric scheme</a> requiring ≥5 recurrent or inactivating mutations, with ER-stratified ONC ≥20% (oncogene) and TSG ≥20% with ONC ≥5% (tumour suppressor) cut-offs.</li>
+<li>LOH calls from <a href="../methods/ascat.html">ASCAT</a>; recurrent CNAs from <a href="../methods/gistic.html">GISTIC2</a>; MATH scores per <a href="../methods/math-score.html">Mroz &amp; Rocco</a>; panel-of-normals filtering analogous to <a href="../methods/mutect.html">MuTect</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation landscape.</strong> 32,476 somatic mutations called; 13,084 protein-affecting (11,006 SNVs — 10,193 missense, 808 nonsense, 5 read-through; 1,635 indels — 1,315 frameshift, 320 in-frame; plus 443 splice-site variants). Mean 13 mutations per tumour (5 coding); 131 tumours had ≥30 mutations and 38 had no mutations at all (76 had no coding mutations).</li>
+<li><strong>Top recurrently mutated genes.</strong> Coding mutation frequencies: <a href="../genes/PIK3CA.html">PIK3CA</a> 40.1%, <a href="../genes/TP53.html">TP53</a> 35.4%, <a href="../genes/MUC16.html">MUC16</a> 16.8%, <a href="../genes/AHNAK2.html">AHNAK2</a> 16.2%, <a href="../genes/SYNE1.html">SYNE1</a> 12.0%, <a href="../genes/KMT2C.html">KMT2C</a> 11.4%, <a href="../genes/GATA3.html">GATA3</a> 11.1% (<a href="../papers/27161491.html">PMID:27161491</a>).</li>
+<li><strong>Pathogenic germline mutations.</strong> <a href="../genes/BRCA1.html">BRCA1</a> 1.36%, <a href="../genes/BRCA2.html">BRCA2</a> 1.64%, <a href="../genes/CHEK2.html">CHEK2</a> 2.22%, <a href="../genes/TP53.html">TP53</a> 0.82% of the cohort.</li>
+<li><strong>40 Mut-driver genes</strong> identified (22 ER+ only, 3 ER- only, 15 shared; only 6 oncogenes); list spans Akt-signalling (<a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/FOXO3.html">FOXO3</a>), cell-cycle (<a href="../genes/RB1.html">RB1</a>, <a href="../genes/CDKN1B.html">CDKN1B</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>), chromatin function (<a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/NCOR1.html">NCOR1</a>, <a href="../genes/CTCF.html">CTCF</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/TBL1XR1.html">TBL1XR1</a>), DNA damage &amp; apoptosis (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/BRCA1.html">BRCA1</a>, <a href="../genes/BRCA2.html">BRCA2</a>, <a href="../genes/CHEK2.html">CHEK2</a>, <a href="../genes/BAP1.html">BAP1</a>), MAPK signalling (<a href="../genes/NF1.html">NF1</a>, <a href="../genes/MAP3K1.html">MAP3K1</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/ERBB2.html">ERBB2</a>), tissue organisation (<a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/CTNNA1.html">CTNNA1</a>, <a href="../genes/AFDN.html">AFDN</a>/MLLT4), transcription (<a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/TBX3.html">TBX3</a>, <a href="../genes/CBFB.html">CBFB</a>, <a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/FOXO3.html">FOXO3</a>), ubiquitination (<a href="../genes/USP9X.html">USP9X</a>), splicing (<a href="../genes/SF3B1.html">SF3B1</a>), and others (<a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/GPS2.html">GPS2</a>, <a href="../genes/ZFP36L1.html">ZFP36L1</a>, <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/AGTR2.html">AGTR2</a>) (<a href="../papers/27161491.html">PMID:27161491</a>, Fig. 1a).</li>
+<li><strong>22.6% of all tumours</strong> harboured a coding mutation in one of seven chromatin-function Mut-drivers (<a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/NCOR1.html">NCOR1</a>, <a href="../genes/CTCF.html">CTCF</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/TBL1XR1.html">TBL1XR1</a>).</li>
+<li><strong>Ras-pathway events.</strong> <a href="../genes/KRAS.html">KRAS</a> codon 12 mutations in 11 samples (ER+ ONC=89%, ER- ONC=60%); two <a href="../genes/HRAS.html">HRAS</a> codon-61 and one codon-12 mutations; one <a href="../genes/BRAF.html">BRAF</a> V600E in an ER- tumour. <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, and <a href="../genes/AKT1.html">AKT1</a> amplification more common in ER- tumours (3.9%, 2.7%, 1.2%).</li>
+<li><strong>ER-stratified differences.</strong> <a href="../genes/SMAD4.html">SMAD4</a> had a high TSG score only in ER+ tumours (TSG=35% vs 0% in ER-). <a href="../genes/ERBB2.html">ERBB2</a> mutation frequencies were similar by ER status (ER+ 2.8%, ER- 3.2%) but codon 755 mutations were enriched in ER+ tumours (13/53 ER+ vs 1/22 ER-, P=0.053). <a href="../genes/PIK3CA.html">PIK3CA</a> helical-domain (codons 542/545) and codon 345 mutations were enriched in ER+ tumours, while kinase-domain codon 1047 mutations were enriched in ER-.</li>
+<li><strong>Homozygous-deletion-derived tumour suppressors.</strong> Of 40 HD-targeted genes resequenced, 8 were independently confirmed as Mut-driver TSGs (<a href="../genes/FOXO3.html">FOXO3</a>, <a href="../genes/CTNNA1.html">CTNNA1</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/CHEK2.html">CHEK2</a> in ER+; <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/AFDN.html">AFDN</a>/MLLT4 in both). <a href="../genes/CDKN2A.html">CDKN2A</a> HDs in 53/2,087 tumours (most common HD target). <a href="../genes/JAK1.html">JAK1</a> had 4 HDs + 4 inactivating + 4 missense/LOH events; <a href="../genes/NT5E.html">NT5E</a> (CD73) had 3 HDs + 1 inactivating + 4 missense/LOH events.</li>
+<li><strong>Clinical-pathology associations.</strong> ER+ functional mutations in <a href="../genes/PIK3CA.html">PIK3CA</a> (OR=0.58, 95%CI 0.49–0.69), <a href="../genes/GATA3.html">GATA3</a> (OR=0.77), <a href="../genes/MAP3K1.html">MAP3K1</a> (OR=0.52), <a href="../genes/KMT2C.html">KMT2C</a> (OR=0.69), and <a href="../genes/CBFB.html">CBFB</a> (OR=0.56) associated with lower grade. <a href="../genes/TP53.html">TP53</a> mutations associated with higher grade in both ER+ (OR=3.3, P&lt;0.001) and ER- (OR=3.6, P&lt;0.001). Younger age at diagnosis associated with <a href="../genes/GATA3.html">GATA3</a> (OR=0.63) and <a href="../genes/CBFB.html">CBFB</a> (OR=0.48) inactivating mutations; older age with <a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/KMT2C.html">KMT2C</a>, and <a href="../genes/SF3B1.html">SF3B1</a> (OR=4.5).</li>
+<li><strong>Histology.</strong> <a href="../genes/CDH1.html">CDH1</a> inactivating mutations in 52.6% of lobular carcinomas vs 3.4% of ductal/NST. Mucinous (8.3%) and medullary (8.8%) carcinomas had significantly fewer functional <a href="../genes/PIK3CA.html">PIK3CA</a> mutations than ductal (36.9%), mixed (50.0%), or lobular (46.9%).</li>
+<li><strong>Co-mutation / mutual exclusivity.</strong> Mutual exclusivity between <a href="../genes/PIK3CA.html">PIK3CA</a> and each of <a href="../genes/AKT1.html">AKT1</a> (OR=0.017), <a href="../genes/PIK3R1.html">PIK3R1</a> (OR=0.092), and <a href="../genes/FOXO3.html">FOXO3</a> (OR=0.10), reflecting Akt-pathway redundancy. 45.2% of all tumours had a functional mutation in at least one Akt-pathway member (<a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/FOXO3.html">FOXO3</a>). Mutual exclusivity between <a href="../genes/TP53.html">TP53</a> and <a href="../genes/CDH1.html">CDH1</a> (OR=0.23), <a href="../genes/GATA3.html">GATA3</a> (OR=0.13), and <a href="../genes/SF3B1.html">SF3B1</a> (OR=0.049). Co-mutation of <a href="../genes/TP53.html">TP53</a>+<a href="../genes/RB1.html">RB1</a> (OR=5.3) characteristic of triple-negative cancers; co-mutation of <a href="../genes/CDH1.html">CDH1</a> with <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/TBX3.html">TBX3</a>, <a href="../genes/RUNX1.html">RUNX1</a>, and <a href="../genes/ERBB2.html">ERBB2</a> (OR=5.7) characteristic of lobular biology.</li>
+<li><strong>Mutation–CNA interactions.</strong> Classic mutation/LOH coupling for tumour suppressors (<a href="../genes/PTEN.html">PTEN</a> + 10q23.1 deletion OR=3.4; <a href="../genes/GPS2.html">GPS2</a> + 17p13.1 deletion OR=7.1). <a href="../genes/CDH1.html">CDH1</a> (OR=2) and <a href="../genes/CBFB.html">CBFB</a> (OR=5) (both at 16q22) associated with the t(1q;16p)-driven 1q-gain/16q-loss pattern. Mutual exclusivity of <a href="../genes/AKT1.html">AKT1</a> mutations with <a href="../genes/ERBB2.html">ERBB2</a> 17q12 amplification (OR=0.091).</li>
+<li><strong>IntClust-specific Mut-driver enrichment.</strong> <a href="../genes/TP53.html">TP53</a> mutated in 84.6% of IntClust10, 64.2% of IntClust5, 50.5% of IntClust4-, 44.7% of IntClust9, 40.7% of IntClust6, but only 4.4% of IntClust8, 10.0% of IntClust3, and 14.0% of IntClust7. <a href="../genes/GATA3.html">GATA3</a> enriched in IntClust1 (20.0%) and IntClust8 (19.5%). <a href="../genes/CBFB.html">CBFB</a> enriched in IntClust3 (7.8%) and IntClust8 (9.7%). 27/2,021 ER+ tumours mapped to IntClust10 (basal-like-mimicking ER+) had 59.3% <a href="../genes/TP53.html">TP53</a> mutation rate vs 18.7% in all ER+.</li>
+<li><strong>Clonality.</strong> Most Mut-driver mutation CCFs centred near 1 (early/clonal). PIK3CA mutations were near-clonal in IntClust9 (median 1.0) and IntClust10 (median 1.0) but more subclonal in IntClust3 (median 0.96, IQR 0.75–1, n=215). 199 tumours (10.4%) carried &gt;1 functional mutation in a single Mut-driver gene; <a href="../genes/MAP3K1.html">MAP3K1</a> most often multi-hit (53/152 mutants).</li>
+<li><strong>Survival in ER+ disease.</strong> <a href="../genes/MAP3K1.html">MAP3K1</a> (HR=0.56, CI 0.38–0.82) and <a href="../genes/GATA3.html">GATA3</a> (HR=0.58, CI 0.4–0.82) associated with longer breast-cancer-specific survival (BCSS). Inactivating <a href="../genes/SMAD4.html">SMAD4</a> (HR=3.4, CI 1.4–8.3) and <a href="../genes/USP9X.html">USP9X</a> (HR=3.0, CI 1.2–7.2) mutations associated with worse BCSS. <a href="../genes/TP53.html">TP53</a> mutations associated with worse outcome in ER+ (HR=1.6, P=0.0001) but not ER- (HR=1.1).</li>
+<li><strong>Survival in ER- disease.</strong> <a href="../genes/PIK3CA.html">PIK3CA</a> mutations were prognostic (HR=1.4, CI 1.1–1.9) in both helical and kinase domains; <a href="../genes/NF1.html">NF1</a> inactivating mutations associated with shorter BCSS (HR=2.7, CI 1.3–5.5).</li>
+<li><strong>PIK3CA × IntClust interaction (key novel finding).</strong> PIK3CA mutations were associated with poor outcome in ER+ tumours specifically within IntClust1 (P=0.02), IntClust2 (P=0.05), and IntClust9 (P=0.09 trend) — i.e.&nbsp;IntClusts defined by 17q23, 11q13–14, and 8q24 amplifications respectively — but not in IntClusts 3, 4+, 7, or 8.</li>
+<li><strong>Intra-tumour heterogeneity (<a href="../methods/math-score.html">MATH</a>).</strong> ER+ tumours had lower MATH scores (median 0.29) than ER- (median 0.41). Higher MATH scores associated with worse BCSS in ER+ (P=0.003) but not ER- (P=0.302). IntClust10 had the highest MATH (median 0.47); IntClust2 had paradoxically <em>low</em> MATH (median 0.25) despite poor outcome — likely because the <a href="../genes/CCND1.html">CCND1</a>/<a href="../genes/PAK1.html">PAK1</a> 11q13–14 co-amplification driving IntClust2 is a single early clonal event.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a></strong> — 40.1% coding-mutation frequency; ER+ ONC=94%, ER- ONC=81%. Helical-domain (codons 542/545) and codon 345 hotspots enriched in ER+; kinase-domain codon 1047 enriched in ER-. Mutually exclusive with <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/FOXO3.html">FOXO3</a>. Prognostic in ER- across both domains (HR=1.4); prognostic in ER+ <em>only</em> within IntClusts 1, 2, and 9. Frequently co-occurs with <a href="../genes/PTEN.html">PTEN</a> inactivating mutations (15/57 PTEN-mutant tumours also have recurrent PIK3CA mutations).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — 35.4% coding-mutation frequency; ER+ ONC=42% TSG=35%, ER- ONC=45% TSG=40%. 85.4% of TP53-mutant tumours show LOH. Mutated in 84.6% of IntClust10. Mutations in the DNA-binding domain associated with worst outcomes; prognostic in ER+ (HR=1.6) but not ER-.</li>
+<li><strong><a href="../genes/MUC16.html">MUC16</a>, <a href="../genes/AHNAK2.html">AHNAK2</a>, <a href="../genes/SYNE1.html">SYNE1</a></strong> — high coding-mutation frequencies (16.8%, 16.2%, 12.0%) but flagged as having high background mutation rates; uncertain breast-cancer driver status.</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a> (MLL3)</strong> — 11.4% mutated; ER+ TSG-driver. Often subclonal in IntClust1, more clonal in IntClust8. Lower-grade-associated.</li>
+<li><strong><a href="../genes/GATA3.html">GATA3</a></strong> — 11.1% mutated; enriched in HER2+/ER+ (8.2%) vs HER2+/ER- (0.5%). Mutations associated with younger age, lower grade, longer survival (HR=0.58 ER+).</li>
+<li><strong><a href="../genes/CDH1.html">CDH1</a></strong> — Inactivating mutations in 52.6% of lobular carcinomas (hallmark of invasive lobular); 96.0% of mutant tumours show LOH. Co-mutated with <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/TBX3.html">TBX3</a>, <a href="../genes/RUNX1.html">RUNX1</a>, <a href="../genes/ERBB2.html">ERBB2</a>. Strongly mutually exclusive with <a href="../genes/TP53.html">TP53</a>. HD in 18 ductal/NST and 4 lobular cases.</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a></strong> — 2.8% ER+, 3.2% ER- somatic mutation frequency; codon 755 hotspot enriched in ER+; mutations observed in relapsed CDH1-mutant lobular carcinomas; mutually exclusive of <a href="../genes/AKT1.html">AKT1</a> mutations within 17q12-amplified context.</li>
+<li><strong><a href="../genes/MAP3K1.html">MAP3K1</a></strong> — Most common multi-hit gene (53/152 mutants with &gt;1 functional mutation), suggesting biallelic inactivation. ER+ TSG. Mutations protect against worse survival (HR=0.56).</li>
+<li><strong><a href="../genes/SF3B1.html">SF3B1</a></strong> — Recurrent K700E in 3.5% of ER+ tumours (ONC=52%); linked to differential splicing in breast tumours.</li>
+<li><strong>SWI/SNF members <a href="../genes/ARID1A.html">ARID1A</a> and <a href="../genes/PBRM1.html">PBRM1</a></strong> — Inactivating mutations identified as Mut-drivers; raises possibility of synthetic-lethal vulnerabilities (e.g.&nbsp;<a href="../genes/ARID1B.html">ARID1B</a> dependency in ARID1A-deficient context).</li>
+<li><strong>HD-defined TSGs <a href="../genes/FOXO3.html">FOXO3</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/CTNNA1.html">CTNNA1</a>, <a href="../genes/AFDN.html">AFDN</a>/MLLT4, <a href="../genes/MEN1.html">MEN1</a></strong> — newly nominated breast-cancer Mut-drivers via combined HD + inactivating-mutation evidence.</li>
+<li><strong><a href="../genes/NF1.html">NF1</a></strong> — Inactivating mutations associated with shorter BCSS in ER- tumours (HR=2.7).</li>
+<li><strong><a href="../genes/SMAD4.html">SMAD4</a>, <a href="../genes/USP9X.html">USP9X</a></strong> — Inactivating mutations associated with worse BCSS in ER+ (HR=3.4 and 3.0 respectively).</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/BRAF.html">BRAF</a></strong> — classical hotspot activating mutations observed at low frequencies (KRAS codon 12 in 11 samples; <a href="../genes/HRAS.html">HRAS</a> at codons 12/61 in 3 samples; one <a href="../genes/BRAF.html">BRAF</a> V600E in ER-) but did not meet Mut-driver criteria as standalone breast-cancer events.</li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a> + <a href="../genes/PAK1.html">PAK1</a></strong> — co-amplification at 11q13–14 defines IntClust2; single early clonal driver event explains the paradoxically low MATH heterogeneity despite poor outcomes.</li>
+<li><strong><a href="../genes/ZNF703.html">ZNF703</a>, <a href="../genes/MYC.html">MYC</a></strong> — driver CNAs at 8p11 (IntClust6) and 8q24 (IntClust9) respectively, used in the IntClust copy-number taxonomy referenced here.</li>
+<li><strong><a href="../genes/JAK1.html">JAK1</a>, NT5E (CD73)</strong> — newly identified HD-targeted candidates linked to immune evasion / immune modulation.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>PIK3CA prognostic context-dependence in ER+ disease.</strong> The paper explicitly argues that the contradictory literature on <a href="../genes/PIK3CA.html">PIK3CA</a>’s prognostic value in ER+ breast cancer can be resolved by stratifying on IntClust: PIK3CA mutations are associated with shorter BCSS specifically in IntClust1 (17q23-amp), IntClust2 (11q13–14-amp), and IntClust9 (8q24-amp) ER+ tumours. The authors call this out as a finding that should inform stratification in future PI3K-inhibitor trials (<a href="../papers/27161491.html">PMID:27161491</a>, Discussion).</li>
+<li><strong>PI3K-inhibitor trial design.</strong> No specific PI3K inhibitor is named or tested, but the authors flag that clinical-trial interpretation should account for IntClust background in addition to PIK3CA mutation status.</li>
+<li><strong>Cross-cancer drug repurposing hypothesis.</strong> Mut-drivers like <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/PBRM1.html">PBRM1</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/MEN1.html">MEN1</a>, <a href="../genes/FOXP1.html">FOXP1</a>, <a href="../genes/USP9X.html">USP9X</a>, <a href="../genes/BAP1.html">BAP1</a>, and <a href="../genes/SMAD4.html">SMAD4</a> — well-known drivers in other cancer types — are detectable subsets of breast cancer where therapies developed elsewhere may be applicable. Specifically suggested: ARID1B-targeting in ARID1A-deficient SWI/SNF tumours.</li>
+<li><strong><a href="../genes/AGTR2.html">AGTR2</a> (angiotensin II receptor type 2).</strong> Recurrent P271L mutations in 6 ER+ tumours; flagged as a possible therapeutic target.</li>
+<li><strong>HER2 + ER subgroup heterogeneity.</strong> HER2+/ER- tumours had higher TP53 functional mutation rates (67.5%) than HER2+/ER+ (42.6%); HER2+/ER+ had higher <a href="../genes/GATA3.html">GATA3</a> mutation rates (8.2% vs 0.5%). Implications for resistance to anti-HER2 therapy via PIK3CA mutations are noted (HER2-/ER+ had 46.5% PIK3CA mutation rate vs HER2+/ER+ 29.5%).</li>
+<li><strong>MATH heterogeneity as a survival biomarker in ER+.</strong> Higher MATH score (upper quartile) associated with significantly worse BCSS in ER+ (P=0.003) but not ER-. The authors caution this should be interpreted in the IntClust context: IntClust2 (CCND1/PAK1-amp) has <em>low</em> heterogeneity but very poor outcome, so heterogeneity-based biomarkers must be IntClust-aware.</li>
+<li><strong>Resistance to neo-adjuvant chemotherapy in IntClust2.</strong> Tumours co-amplifying <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/PAK1.html">PAK1</a> at 11q13–14 are highlighted as a small but highly aggressive subgroup that has previously been shown to be resistant to neo-adjuvant cytotoxic chemotherapy and warrants development of better strategies.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Pan-cancer-frequent genes <a href="../genes/MUC16.html">MUC16</a>, <a href="../genes/AHNAK2.html">AHNAK2</a>, and <a href="../genes/SYNE1.html">SYNE1</a> appear at high coding-mutation rates (16.8%, 16.2%, 12.0%) but their tumorigenic roles in breast cancer remain uncertain — high background mutation rate confounds interpretation.</li>
+<li>The 173-gene targeted panel excludes whole-genome / whole-exome events; novel drivers outside the panel would not be detected. The panel was assembled from 5 prior 2012 sequencing studies plus HD-targeted genes — recently nominated drivers are necessarily under-represented.</li>
+<li>Several IntClust × PIK3CA interactions reach P=0.02–0.09 in fairly small per-IntClust subgroups (e.g.&nbsp;IntClust1 21/117 PIK3CA-mutant; IntClust2 28/74); the authors explicitly flag the need for external validation.</li>
+<li>MATH score depends on having ≥5 mutations per sample; tumours with very few mutations were excluded from the heterogeneity analysis, limiting analysis of mutation-quiet (e.g.&nbsp;IntClust4-CNA-devoid) tumours.</li>
+<li>Cancer-cell-fraction estimates depend on copy number and purity calls from <a href="../methods/ascat.html">ASCAT</a>; subclonal architecture is only approximated, not directly reconstructed.</li>
+<li>No specific PI3K inhibitor (e.g.&nbsp;<a href="../drugs/alpelisib.html">alpelisib</a>, <a href="../drugs/buparlisib.html">buparlisib</a>) is tested — the trial-design implications are correlative/observational only.</li>
+<li>Pathogenic germline classification was performed in-cohort; concordance with established germline-variant classifications is not formally benchmarked.</li>
+<li>The “tissue-organisation” cluster of <a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/CTNNA1.html">CTNNA1</a>, <a href="../genes/AFDN.html">AFDN</a>/MLLT4 is biologically compelling but functional confirmation of <a href="../genes/CTNNA1.html">CTNNA1</a> and AFDN/MLLT4 as breast-cancer TSGs is left to future work.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We sequence 173 genes in 2,433 primary breast tumours that have copy number aberration (CNA), gene expression and long-term clinical follow-up data. We identify 40 mutation-driver (Mut-driver) genes…” (Abstract).</li>
+<li>“PIK3CA (coding mutations in 40.1% of the samples) and TP53 (35.4%) dominated the mutation landscape. Only five other genes harboured coding mutations in at least 10% of the samples: <a href="../genes/MUC16.html">MUC16</a> (16.8%); <a href="../genes/AHNAK2.html">AHNAK2</a> (16.2%); <a href="../genes/SYNE1.html">SYNE1</a> (12.0%); <a href="../genes/KMT2C.html">KMT2C</a> (also known as MLL3; 11.4%) and GATA3 (11.1%)” (Results, p.2).</li>
+<li>“Predicted pathogenic germline mutations… in <a href="../genes/BRCA1.html">BRCA1</a> and <a href="../genes/BRCA2.html">BRCA2</a> were identified in 1.36% and 1.64% of the cohort, respectively, and 2.22% of tumours harboured pathogenic <a href="../genes/CHEK2.html">CHEK2</a> germline mutations. TP53 pathogenic germline mutations were found in 0.82% of the tumours.” (Results, p.2).</li>
+<li>“After stratifying by ER status, we identified 40 genes (22 in ER+ only, 3 in ER- only, 15 shared) that are here on referred to as Mut-drivers genes.” (Results, p.3).</li>
+<li>“Mutual exclusivity between mutations in PIK3CA and AKT1 (OR=0.017, CI=0.00044–0.1), between PIK3CA and <a href="../genes/PIK3R1.html">PIK3R1</a> (OR=0.092…), and between PIK3CA and <a href="../genes/FOXO3.html">FOXO3</a> (OR=0.1…) reflect functional redundancy within the Akt signalling pathway.” (Results, p.7).</li>
+<li>“TP53 has functional mutations in 84.6% of IntClust10, 64.2% of IntClust5, 50.5% of IntClust4-, and 44.7% and 40.7% of IntClusts 9 and 6, respectively… In contrast, TP53 mutations occurred in only 10.0% of IntClust3, 14.0% of IntClust7 and 4.4% of IntClust8…” (Results, p.7–8).</li>
+<li>“In ER+ tumours, mutations in both <a href="../genes/MAP3K1.html">MAP3K1</a> (HR=0.56, CI=0.38–0.82) and GATA3 (HR=0.58, CI=0.4–0.82) were associated with longer survival… inactivating mutations in <a href="../genes/SMAD4.html">SMAD4</a> (HR=3.4) and <a href="../genes/USP9X.html">USP9X</a> (HR=3) were associated with worse BCSS.” (Results, p.8).</li>
+<li>“Significant interactions were identified in IntClusts 1+, 2+ and 9+, suggesting that PIK3CA mutations in these specific groups were associated with poor outcome.” (Results, p.10).</li>
+<li>“Tumours within IntClust10 had the highest MATH scores (median=0.47, IQR=0.31–0.61)… Surprisingly, tumours in IntClust2 had low MATH scores (median=0.25, IQR=0.16–0.37) despite patients in this subgroup having poor outcomes. The 11q13–14 amplicon (two gene cassettes centred around <a href="../genes/CCND1.html">CCND1</a> and <a href="../genes/PAK1.html">PAK1</a>, respectively) is a key driver CNA in IntClust2.” (Results, p.10).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27161491.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27161491.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

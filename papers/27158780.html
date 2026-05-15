@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27158780.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27158780.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Joshua D. Campbell </p>
+             <p>Anton Alexandrov </p>
+             <p>Jaegil Kim </p>
+             <p>Jeremiah Wala </p>
+             <p>Alice H. Berger </p>
+             <p>Chandra Sekhar Pedamallu </p>
+             <p>Sachet A. Shukla </p>
+             <p>Guangwu Guo </p>
+             <p>Angela N. Brooks </p>
+             <p>Bradley A. Murray </p>
+             <p>Marcin Imielinski </p>
+             <p>Xin Hu </p>
+             <p>Shiyun Ling </p>
+             <p>Rehan Akbani </p>
+             <p>Mara Rosenberg </p>
+             <p>Carrie Cibulskis </p>
+             <p>Aruna Ramachandran </p>
+             <p>Eric A. Collisson </p>
+             <p>David J. Kwiatkowski </p>
+             <p>Michael S. Lawrence </p>
+             <p>John N. Weinstein </p>
+             <p>Roel G. W. Verhaak </p>
+             <p>Catherine J. Wu </p>
+             <p>Peter S. Hammerman </p>
+             <p>Andrew D. Cherniack </p>
+             <p>Gad Getz </p>
+             <p>Cancer Genome Atlas Research Network </p>
+             <p>Maxim N. Artyomov </p>
+             <p>Robert Schreiber </p>
+             <p>Ramaswamy Govindan </p>
+             <p>Matthew Meyerson </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.3564">10.1038/ng.3564</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 27158780 · <strong>DOI:</strong> 10.1038/ng.3564 · <strong>Journal:</strong> Nature Genetics (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Campbell et al.&nbsp;compared exome sequences and SNP-array copy-number profiles from 660 lung adenocarcinoma (ADC) and 484 lung squamous cell carcinoma (SqCC) tumor/normal pairs (1,144 NSCLCs total) to identify novel drivers and to contrast molecular landscapes between the two histologies. Recurrently altered genes in lung SqCC more closely resembled those of head &amp; neck squamous and bladder carcinomas than they did lung ADC. The authors nominated novel significantly mutated genes (<a href="../genes/PPP3CA.html">PPP3CA</a>, <a href="../genes/DOT1L.html">DOT1L</a>, CMTR2/FTSJD1 in ADC; <a href="../genes/RASA1.html">RASA1</a> in SqCC; <a href="../genes/KLF5.html">KLF5</a>, <a href="../genes/EP300.html">EP300</a>, <a href="../genes/CREBBP.html">CREBBP</a> in both); novel amplification peaks (<a href="../genes/MIR21.html">MIR21</a> in ADC, <a href="../genes/MIR205.html">MIR205</a> and <a href="../genes/YES1.html">YES1</a> in SqCC, <a href="../genes/MAPK1.html">MAPK1</a> in both); and additional Ras/Raf/RTK pathway candidates (<a href="../genes/SOS1.html">SOS1</a>, <a href="../genes/VAV1.html">VAV1</a>, RASA1, <a href="../genes/ARHGAP35.html">ARHGAP35</a>) in oncogene-negative lung ADCs. 47% of lung ADC and 53% of lung SqCC tumors had ≥5 predicted neoepitopes, supporting broad immunotherapy applicability across both subtypes (<a href="../papers/27158780.html">PMID:27158780</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Lung ADC:</strong> 660 tumor/normal exome pairs — 274 previously unpublished, 227 from prior TCGA (<a href="../datasets/luad_tcga_pub.html">luad_tcga_pub</a>), 159 from the Imielinski et al cohort (<a href="../datasets/luad_broad.html">luad_broad</a>) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Lung SqCC:</strong> 484 tumor/normal exome pairs — 308 previously unpublished, 176 previously described in TCGA (<a href="../datasets/lusc_tcga_pub.html">lusc_tcga_pub</a>) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Cancer types:</strong> <a href="../cancer_types/LUAD.html">LUAD</a> and <a href="../cancer_types/LUSC.html">LUSC</a> (combined cohort referred to as “Pan-Lung” / <a href="../cancer_types/NSCLC.html">NSCLC</a>).</li>
+<li><strong>Cohort/study:</strong> <a href="../datasets/nsclc_tcga_broad_2016.html">nsclc_tcga_broad_2016</a>.</li>
+<li><strong>Assays:</strong> Exome capture with Agilent SureSelect Human All Exon 50MB followed by Illumina paired-end sequencing (<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>); SNP-array copy number on Affymetrix SNP 6.0 (<a href="../methods/affymetrix-snp6.html">affymetrix-snp6</a>); RNA-seq for 495 ADCs and 476 SqCCs (<a href="../methods/rna-seq.html">rna-seq</a>); mutation calling with <a href="../methods/mutect.html">mutect</a> and <a href="../methods/indelocator.html">indelocator</a>; driver discovery with MutSig2CV (<a href="../methods/mutsig.html">mutsig</a>); recurrent SCNAs with <a href="../methods/gistic.html">gistic</a> (GISTIC2.0); purity/ploidy with <a href="../methods/absolute.html">absolute</a>; mutational signatures via non-negative matrix factorization (<a href="../methods/bayesian-nmf.html">bayesian-nmf</a>, <a href="../methods/mutational-signatures.html">mutational-signatures</a>); fusion calls via <a href="../methods/prada.html">prada</a> (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Median somatic mutation rate</strong> was 8.7/Mb in lung ADC and 9.7/Mb in lung SqCC; MutSig2CV identified <strong>38 significantly mutated genes in ADC</strong> and <strong>20 in SqCC</strong> (q &lt; 0.1) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>Only six genes — <a href="../genes/TP53.html">TP53</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/NF1.html">NF1</a> — were significantly mutated in both histologies; <a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, and <a href="../genes/PIK3CA.html">PIK3CA</a> were significantly more frequently mutated in SqCC than ADC (p &lt; 0.01, Fisher’s exact) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>Lung SqCC most closely resembled <a href="../cancer_types/HNSC.html">HNSC</a> and <a href="../cancer_types/BLCA.html">BLCA</a> (&gt;25% overlap of significantly mutated genes), while lung ADC most resembled <a href="../cancer_types/GBM.html">GBM</a> and CRC; the two <a href="../cancer_types/NSCLC.html">NSCLC</a> subtypes overlapped only ~12% with each other (p = 0.105) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Six mutational signatures</strong> identified by NMF, mapping to COSMIC SI4 (smoking, C&gt;A transversions), SI7 (UV), SI13/SI2 (APOBEC), SI15/SI6 (MMR), and SI5 (clock-like). Smoking-signature SI4 separated never- vs ever-smokers far better in ADC (AUC = 0.87) than in SqCC (AUC = 0.62) — implying inaccurate smoking annotation in some SqCC cases (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>87% of lung ADCs from never-smokers were transversion-low (TV-L; ≤0.696 SI4 mutations/Mb; p = 8.5 × 10⁻³⁷), but only 45% of TV-L lung ADCs came from never-smokers (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>Three lung SqCCs (~1%) showed UV-pattern mutations (SI7) and one (TCGA-18-3409) had a documented prior basal-cell carcinoma — likely cutaneous metastases misclassified as lung primaries (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>Seven tumors (4 ADC, 3 SqCC) had MMR-like signature (SI15/SI6) with elevated SSNVs and indels (p &lt; 0.001) and reduced <a href="../genes/MLH1.html">MLH1</a> expression (p = 0.011) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Pan-Lung joint analysis</strong> revealed 14 additional significantly mutated genes including <a href="../genes/KLF5.html">KLF5</a> (zinc-finger hotspot), the <a href="../genes/EP300.html">EP300</a>/<a href="../genes/CREBBP.html">CREBBP</a> HAT-domain hotspot region, <a href="../genes/FBXW7.html">FBXW7</a>, and <a href="../genes/B2M.html">B2M</a> (FDR q = 0.006) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Novel focal amplifications:</strong> <a href="../genes/CCND3.html">CCND3</a> and <a href="../genes/MIR21.html">MIR21</a>/<a href="../genes/TUBD1.html">TUBD1</a> in ADC; <a href="../genes/YES1.html">YES1</a> and <a href="../genes/MIR205.html">MIR205</a> in SqCC; <a href="../genes/MAPK1.html">MAPK1</a> in the Pan-Lung analysis (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Novel focal deletions:</strong> <a href="../genes/SMARCA4.html">SMARCA4</a> and <a href="../genes/ARID2.html">ARID2</a> in ADC; <a href="../genes/ZMYND11.html">ZMYND11</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/ROBO1.html">ROBO1</a>, <a href="../genes/USP22.html">USP22</a>, <a href="../genes/KDM6A.html">KDM6A</a> in SqCC; <a href="../genes/B2M.html">B2M</a> and <a href="../genes/TRAF3.html">TRAF3</a> recurrently lost in both (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Sex-specific enrichment:</strong> <a href="../genes/EGFR.html">EGFR</a> mutations in females and <a href="../genes/SMARCA4.html">SMARCA4</a> mutations in males in ADC; <a href="../genes/RB1.html">RB1</a> mutations in females and <a href="../genes/PASK.html">PASK</a> mutations exclusively in males in SqCC (FDR q &lt; 0.1) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Oncogene-negative lung ADC:</strong> 242/660 ADCs lacked a known activating RTK/Ras/Raf alteration. Among them, <a href="../genes/SOS1.html">SOS1</a> (recurrent autoinhibitory-domain p.N233Y, n=4), <a href="../genes/VAV1.html">VAV1</a> (p.S67Y near CH/Ac/PH interface), <a href="../genes/RASA1.html">RASA1</a>, and <a href="../genes/ARHGAP35.html">ARHGAP35</a> were significantly enriched (q &lt; 0.1), as were amplifications around <a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/WHSC1L1.html">WHSC1L1</a>, <a href="../genes/PDGFRA.html">PDGFRA</a>/<a href="../genes/KIT.html">KIT</a>/<a href="../genes/KDR.html">KDR</a>, and <a href="../genes/MAPK1.html">MAPK1</a> (q &lt; 0.25) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>After incorporating these new candidates, <strong>499/660 (76%) lung ADCs</strong> harbored an alteration in a known or putative RTK/Ras/Raf driver; in the 227-tumor expert-pathology-reviewed subset with RNA-seq, the rate rose to <strong>193/227 (85%)</strong> (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Co-occurrence:</strong> <a href="../genes/STK11.html">STK11</a> mutations significantly co-occurred with activating <a href="../genes/KRAS.html">KRAS</a> (p = 1.1 × 10⁻⁶), and 28 oncogene-negative ADCs additionally carried <a href="../genes/STK11.html">STK11</a> mutations — suggesting an unrecognized KRAS-related event complementary to STK11 loss (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>High <a href="../genes/EGFR.html">EGFR</a> amplification overlapped with activating <a href="../genes/EGFR.html">EGFR</a> mutations (p = 1.9 × 10⁻⁸); <a href="../genes/MET.html">MET</a> amplifications co-occurred with <a href="../genes/NF1.html">NF1</a> mutations (p = 0.019) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Neoantigens:</strong> Recurrent predicted neoepitopes included <a href="../genes/PIK3CA.html">PIK3CA</a> p.E542K, <a href="../genes/NFE2L2.html">NFE2L2</a> p.E79Q, <a href="../genes/BRAF.html">BRAF</a> p.G466V, <a href="../genes/EGFR.html">EGFR</a> p.G719A, <a href="../genes/TP53.html">TP53</a> p.V157F/p.G154V/p.R175G/p.P278A, and a previously unappreciated recurrent <a href="../genes/MB21D2.html">MB21D2</a> (C3orf59) p.Q311E. <strong>47% of lung ADC and 53% of lung SqCC</strong> tumors had ≥5 predicted neoepitopes (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>Neoepitope and nonsynonymous mutation counts were significantly <strong>lower in never-smoker ADCs vs ever-smoker ADCs</strong> (p &lt; 0.001, Wilcoxon rank-sum), but did not differ between ever-smoker ADCs and SqCCs (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/TP53.html">TP53</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/PIK3CA.html">PIK3CA</a></strong> — significantly more frequently mutated in lung SqCC than ADC (p &lt; 0.01) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/STK11.html">STK11</a>, <a href="../genes/RBM10.html">RBM10</a>, <a href="../genes/KEAP1.html">KEAP1</a>, <a href="../genes/RAF1.html">RAF1</a>, <a href="../genes/RIT1.html">RIT1</a>, <a href="../genes/MET.html">MET</a></strong> — significantly mutated exclusively in lung ADC vs other TCGA tumor types (q &lt; 0.1) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/NFE2L2.html">NFE2L2</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, <a href="../genes/HRAS.html">HRAS</a></strong> — significantly mutated in lung SqCC but not other cancer types (excluding HNSC, BLCA) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/AKT1.html">AKT1</a></strong> — recurrent p.E17K mutation in lung ADC; <strong><a href="../genes/CDK4.html">CDK4</a></strong> — recurrent p.R24L; <strong><a href="../genes/DNMT3A.html">DNMT3A</a></strong> — modest q-value in ADC (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/PPP3CA.html">PPP3CA</a></strong> (calcineurin catalytic subunit) — novel SMG in lung ADC; missense mutations cluster in the autoinhibitory C-terminal domain (suggesting gain of function) and co-occur with activating <a href="../genes/KRAS.html">KRAS</a> (p = 0.033) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/DOT1L.html">DOT1L</a></strong> (H3K79 methyltransferase) — novel SMG in 3% of lung ADCs, enriched for truncating mutations (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a> (MLL3) and <a href="../genes/SETD2.html">SETD2</a></strong> — significantly mutated methyltransferases in lung ADC (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/CMTR2.html">CMTR2</a> / FTSJD1</strong> (cap methyltransferase) — novel SMG in lung ADC enriched for frameshifts; also recurrent in <a href="../genes/SF3B1.html">SF3B1</a> and <a href="../genes/SNRPD3.html">SNRPD3</a> (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/RASA1.html">RASA1</a></strong> (p120GAP) and <strong><a href="../genes/CUL3.html">CUL3</a></strong> (<a href="../genes/KEAP1.html">KEAP1</a> partner) — novel SMGs in lung SqCC enriched for frameshift mutations (p &lt; 0.001 for RASA1 frameshift enrichment) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a></strong> — kinase-domain duplication in lung ADC sample TCGA-49-4512; complex indels in EGFR or <a href="../genes/MET.html">MET</a> in 11 tumors (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/MAP2K1.html">MAP2K1</a></strong> — recurrent in-frame insertion in lung ADC (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>MET fusions:</strong> novel <strong><a href="../genes/MET.html">MET</a>–<a href="../genes/CAPZA2.html">CAPZA2</a></strong> fusion (with neighboring gene) and previously reported <strong><a href="../genes/KIF5B.html">KIF5B</a>–MET</strong> (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/NTRK2.html">NTRK2</a> fusions:</strong> <strong><a href="../genes/TRIM24.html">TRIM24</a>–<a href="../genes/NTRK2.html">NTRK2</a></strong> in ADC and a novel <strong>NTRK2–<a href="../genes/TP63.html">TP63</a></strong> fusion in lung SqCC (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/MET.html">MET</a> and <a href="../genes/ERBB2.html">ERBB2</a> high-level amplifications</strong> — enriched in tumors lacking other RTK/Ras/Raf activating events (p &lt; 0.01) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Novel amplification target genes:</strong> <a href="../genes/KAT6A.html">KAT6A</a>, <a href="../genes/ZNF217.html">ZNF217</a>, <a href="../genes/MYCL.html">MYCL</a> (ADC); <a href="../genes/IGF1R.html">IGF1R</a>, <a href="../genes/KDM5A.html">KDM5A</a>, <a href="../genes/PTP4A1.html">PTP4A1</a>/<a href="../genes/PHF3.html">PHF3</a>, <a href="../genes/MYCL.html">MYCL</a> (SqCC) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/B2M.html">B2M</a></strong> — focally deleted in both ADC and SqCC, enriched for loss-of-function mutations (p &lt; 0.01), Pan-Lung FDR q = 0.006 — implicated in MHC-I antigen presentation loss (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong><a href="../genes/MB21D2.html">MB21D2</a> (C3orf59)</strong> — recurrent p.Q311E with predicted neoepitope properties; not previously implicated in lung cancer (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Targeted therapy is largely subtype-specific.</strong> The subtype-distinct landscapes of recurrently mutated drivers and SCNAs imply that approved RTK-directed therapies (e.g., EGFR-TKI for <a href="../genes/EGFR.html">EGFR</a> mutant ADC, <a href="../genes/ALK.html">ALK</a> and <a href="../genes/ROS1.html">ROS1</a> inhibitors for <a href="../genes/ALK.html">ALK</a>/<a href="../genes/ROS1.html">ROS1</a> fusion ADC) are expected to apply almost exclusively to lung ADC, while lung SqCC has few directly actionable kinase drivers (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Expanded druggable pool in oncogene-negative lung ADC.</strong> Adding <a href="../genes/SOS1.html">SOS1</a>, <a href="../genes/VAV1.html">VAV1</a>, <a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/ARHGAP35.html">ARHGAP35</a>, and amplifications at <a href="../genes/FGFR1.html">FGFR1</a>/<a href="../genes/WHSC1L1.html">WHSC1L1</a>, <a href="../genes/PDGFRA.html">PDGFRA</a>/<a href="../genes/KIT.html">KIT</a>/<a href="../genes/KDR.html">KDR</a>, and <a href="../genes/MAPK1.html">MAPK1</a> raises the proportion of lung ADCs with a candidate Ras/Raf/RTK pathway driver to 76% (overall) and 85% (in expert-reviewed subset) — narrowing the unexplained fraction (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Predicted <a href="../genes/EGFR.html">EGFR</a> kinase-domain duplication (KDD)</strong> in TCGA-49-4512 — separately reported as afatinib-responsive in lung cancer (citation 31 in the paper) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Immunotherapy applies broadly across NSCLC histologies.</strong> With ≥5 predicted neoepitopes in 47% of ADCs and 53% of SqCCs, the authors argue that checkpoint immunotherapy is expected to benefit both subtypes (in contrast to histology-restricted targeted therapies) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Smoking history is the dominant correlate of neoantigen load in ADC.</strong> Never-smoker ADCs have significantly fewer neoepitopes than ever-smoker ADCs (p &lt; 0.001) — relevant for biomarker stratification of immunotherapy candidates (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Recurrent neoepitope hotspots</strong> — <a href="../genes/PIK3CA.html">PIK3CA</a> p.E542K, <a href="../genes/NFE2L2.html">NFE2L2</a> p.E79Q, <a href="../genes/BRAF.html">BRAF</a> p.G466V, <a href="../genes/EGFR.html">EGFR</a> p.G719A, multiple <a href="../genes/TP53.html">TP53</a> hotspots, and <a href="../genes/MB21D2.html">MB21D2</a> p.Q311E — are candidate shared neoantigens for off-the-shelf vaccine design (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li>No mutation-status association with patient survival or tumor stage survived multiple-hypothesis correction (with or without controlling for stage) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Whole-exome only.</strong> The study could not detect mutations in non-coding regions or regulatory elements; the authors flag this as a target for future whole-genome lung cancer studies (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Single sample per patient.</strong> Intra-tumoral heterogeneity could not be assessed (in contrast to multi-region sequencing studies) (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Underpowered for rare RTK/Ras/Raf events.</strong> With 15–25% of lung ADCs still lacking a detectable activating alteration, additional rare recurrent drivers in known and novel pathway members likely remain undiscovered (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Incomplete RNA-seq coverage</strong> — fusion calling and MET exon-14 skipping may be underestimated because matched RNA-seq was not available for every tumor (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Smoking annotation inaccuracy</strong> — SI4-based classification predicted ever-smoker status well in ADC (AUC 0.87) but poorly in SqCC (AUC 0.62), suggesting some clinically annotated SqCC “never-smokers” are misclassified (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+<li><strong>Possible cutaneous metastases</strong> — three lung SqCCs with UV signature SI7 may represent skin SCC metastatic to the lung, not true lung primaries (<a href="../papers/27158780.html">PMID:27158780</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“we examined exome sequences and copy number profiles of 660 lung ADC and 484 lung SqCC tumor/normal pairs” (Abstract).</li>
+<li>“Novel significantly mutated genes included PPP3CA, DOT1L, and FTSJD1 in lung ADC, RASA1 in lung SqCC, and KLF5, EP300, and CREBBP in both tumor types.” (Abstract).</li>
+<li>“Novel amplification peaks encompassed MIR21 in lung ADC, MIR205 in lung SqCC, and MAPK1 in both.” (Abstract).</li>
+<li>“Lung ADCs lacking receptor tyrosine kinase/Ras/Raf alterations revealed mutations in SOS1, VAV1, RASA1, and ARHGAP35.” (Abstract).</li>
+<li>“47% of the lung ADC and 53% of the lung SqCC tumors had at least 5 predicted neoepitopes.” (Abstract).</li>
+<li>“Only 6 genes, TP53, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, CDKN2A, PIK3CA, and <a href="../genes/NF1.html">NF1</a>, were significantly mutated in both tumor types.” (Results — Comparison of somatically altered genes).</li>
+<li>“Recurrently mutated and amplified genes in lung SqCC most closely resembled the alterations in head and neck squamous cell carcinoma (HNSC) and bladder cancer (BLCA).” (Results — Comparison of somatically altered genes).</li>
+<li>“87% of lung ADCs from never smokers were categorized as transversion-low (TV-L; ≤0.696 of SI4 per Mb; p = 8.5 × 10⁻³⁷).” (Results — Mutational signatures).</li>
+<li>“499 (76%) lung ADCs displayed an alteration in known or putative Ras/Raf/RTK driver genes” and “193 out of 227 (85%) lung ADCs that previously underwent secondary expert pathological review and had RNA-seq data available for fusion analysis contained a predicted activating alteration in the RTK/Ras/Raf pathway.” (Results — Identifying Ras/Raf/RTK drivers).</li>
+<li>“STK11 mutations significantly overlapped with activating <a href="../genes/KRAS.html">KRAS</a> mutations (p = 1.1 × 10⁻⁶)” (Results — Identifying Ras/Raf/RTK drivers).</li>
+<li>“Both nonsynonymous mutation and neoepitope counts … were significantly lower in lung ADCs from never smokers compared to lung ADCs from ever smokers (p &lt; 0.001; Wilcoxon rank-sum test).” (Results — Assessment of neoantigen load).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/27158780.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/27158780.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

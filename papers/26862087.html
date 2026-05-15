@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole-Genome Sequencing of Salivary Gland Adenoid Cystic Carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26862087.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26862087.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole-Genome Sequencing of Salivary Gland Adenoid Cystic Carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Rettig EM </p>
+             <p>Talbot CC Jr </p>
+             <p>Sausen M </p>
+             <p>Jones S </p>
+             <p>Bishop JA </p>
+             <p>Wood LD </p>
+             <p>Tokheim C </p>
+             <p>Niknafs N </p>
+             <p>Karchin R </p>
+             <p>Fertig EJ </p>
+             <p>Wheelan SJ </p>
+             <p>Marchionni L </p>
+             <p>Considine M </p>
+             <p>Ling S </p>
+             <p>Fakhry C </p>
+             <p>Papadopoulos N </p>
+             <p>Kinzler KW </p>
+             <p>Vogelstein B </p>
+             <p>Ha PK </p>
+             <p>Agrawal N </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/1940-6207.CAPR-15-0316">10.1158/1940-6207.CAPR-15-0316</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26862087 · <strong>DOI:</strong> 10.1158/1940-6207.CAPR-15-0316 · <strong>Journal:</strong> Cancer Prevention Research (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Rettig et al.&nbsp;performed whole-genome sequencing of 25 fresh-frozen salivary-gland adenoid cystic carcinomas (ACCs) with matched normal tissue, plus mRNA expression analysis of 17 of those tumors. Beyond the canonical t(6;9) <a href="../genes/MYB.html">MYB</a>–<a href="../genes/NFIB.html">NFIB</a> fusion (44%), they uncovered five additional rearrangements involving <a href="../genes/NFIB.html">NFIB</a> (with <a href="../genes/MAP3K5.html">MAP3K5</a>, <a href="../genes/MYBL1.html">MYBL1</a>, <a href="../genes/RIMS1.html">RIMS1</a>, <a href="../genes/MYO6.html">MYO6</a>, and <a href="../genes/RPS6KA2.html">RPS6KA2</a>), pushing total <a href="../genes/NFIB.html">NFIB</a> translocation prevalence to 60% (15/25). <a href="../genes/NFIB.html">NFIB</a> mRNA was overexpressed in tumors versus normal tissue (p=0.002) regardless of fusion status, suggesting an <a href="../genes/MYB.html">MYB</a>-independent oncogenic role for <a href="../genes/NFIB.html">NFIB</a> in <a href="../cancer_types/ACYC.html">ACYC</a>. The study also reports recurrent somatic mutations in Rho-family GTPase signaling (44% of tumors, p=3.9×10⁻⁶) and axon-guidance signaling (56%, p=8.3×10⁻⁵) pathways, and corroborates earlier findings of chromatin-regulator and Notch-pathway disruption.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>n=25</strong> fresh-frozen surgically resected ACC tumors with matched blood/normal tissue, accrued under IRB at Johns Hopkins Hospital and the Salivary Gland Tumor Biorepository (<a href="../papers/26862087.html">PMID:26862087</a>).</li>
+<li>Cancer type: salivary-gland <a href="../cancer_types/ACYC.html">ACYC</a> (adenoid cystic carcinoma); tumor sites included parotid, submandibular, sublingual, minor salivary glands of palate/maxilla/lip/septum/ear (Table 1).</li>
+<li>Neoplastic cellularity ≥60% (mean) achieved via macro-dissection from frozen-section histology.</li>
+<li>Dataset: <a href="../datasets/acyc_jhu_2016.html">acyc_jhu_2016</a> (genomic and mRNA data deposition described as “in process” at time of publication).</li>
+<li>Assays: <a href="../methods/whole-genome-seq.html">whole-genome-seq</a> on all 25 tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal, 98.2% of targets ≥10×); <a href="../methods/rna-seq.html">rna-seq</a> on 17 tumors (Illumina HiSeq 2000, ≥50M paired 100×100 bp reads/sample).</li>
+<li>Bioinformatics: <a href="../methods/variantdx.html">variantdx</a> custom somatic-mutation caller (matched tumor/normal, hg19), <a href="../methods/tophat-fusion.html">tophat-fusion</a> for fusion-transcript discovery, <a href="../methods/rsem.html">rsem</a> for transcript quantification, snpEff for functional annotation, <a href="../methods/ingenuity-pathway-analysis.html">ingenuity-pathway-analysis</a> for pathway enrichment.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>396 somatic mutations in 372 genes</strong> across 25 tumors, median 14 mutations/tumor (range 2–36) (<a href="../papers/26862087.html">PMID:26862087</a>).</li>
+<li><strong>253 chromosomal rearrangements</strong> total (median 7/tumor, range 0–42), with breakpoint hotspots on chromosome 6q (28% of breakpoints) and 9p (14%).</li>
+<li><strong>MYB-NFIB fusion</strong> detected in 11/25 tumors (44%, 95% CI 27–63%) by <a href="../methods/whole-genome-seq.html">whole-genome-seq</a>.</li>
+<li><strong>Five novel/expanded NFIB fusion partners</strong> identified: <a href="../genes/MAP3K5.html">MAP3K5</a>–<a href="../genes/NFIB.html">NFIB</a> (2 tumors), <a href="../genes/MYBL1.html">MYBL1</a>–<a href="../genes/NFIB.html">NFIB</a> (2 tumors), <a href="../genes/RPS6KA2.html">RPS6KA2</a>–<a href="../genes/NFIB.html">NFIB</a> (1), <a href="../genes/MYO6.html">MYO6</a>–<a href="../genes/NFIB.html">NFIB</a> (1), <a href="../genes/RIMS1.html">RIMS1</a>–<a href="../genes/NFIB.html">NFIB</a> (1). Three tumors carried both MYB-NFIB and a non-MYB NFIB fusion. Total NFIB translocation prevalence: <strong>15/25 (60%, 95% CI 41–77%)</strong>.</li>
+<li><strong>NFIB intrachromosomal rearrangements</strong> in 3 additional tumors (2 deletions, 1 inversion), including HN 324 which lacked any NFIB translocation.</li>
+<li>mRNA confirmation: 9/9 tumors with MYB-NFIB DNA rearrangement and available RNA expressed the fusion transcript; one extra tumor (HN 335 PT) had MYB-NFIB transcript without detected DNA rearrangement; only 2/6 non-MYB NFIB rearrangements (RIMS1-NFIB, MYBL1-NFIB) yielded detectable fusion transcripts.</li>
+<li><strong>NFIB overexpressed</strong> in tumors vs.&nbsp;normal tissue (p=0.002), with <strong>no difference</strong> between NFIB-fusion-positive and -negative tumors (p=0.91).</li>
+<li><strong>MYB overexpressed</strong> in tumors vs.&nbsp;normal (p&lt;0.001), and higher in MYB-NFIB-fusion-positive than -negative tumors (p&lt;0.001). The two MYBL1-NFIB tumors (HN 333 PT, HN 320 PT) uniquely lacked MYB expression and trended toward higher MYBL1 expression (p=0.07), consistent with mutually exclusive MYB/MYBL1 alterations.</li>
+<li><strong>Most-mutated gene:</strong> <a href="../genes/NOTCH1.html">NOTCH1</a> (4 mutations in 3 tumors; nonsense, missense, frameshift, in-frame deletion). <a href="../genes/NOTCH2.html">NOTCH2</a> also carried a non-synonymous substitution (Table 2).</li>
+<li><strong>Chromatin-regulator mutations</strong> in <a href="../genes/KMT2D.html">KMT2D</a> (MLL2; 3 mutations/2 tumors), <a href="../genes/KMT2C.html">KMT2C</a> (MLL3), <a href="../genes/EP300.html">EP300</a>, <a href="../genes/SMARCA2.html">SMARCA2</a>, <a href="../genes/SMARCC1.html">SMARCC1</a>, and <a href="../genes/KDM6A.html">KDM6A</a>; truncating mutations were enriched (6 of 11 non-silent) at p=3.8×10⁻⁶ vs.&nbsp;randomization-based null. Individually significant: MLL2 (p=0.008) and EP300 (p=0.01).</li>
+<li><strong>Rho-family GTPase signaling</strong> disrupted in 11/25 tumors (44%, p=3.9×10⁻⁶ by IPA), including <a href="../genes/RHOA.html">RHOA</a> (2 tumors with distinct mutations), <a href="../genes/CDH2.html">CDH2</a>, <a href="../genes/CDH13.html">CDH13</a>, <a href="../genes/ARHGEF3.html">ARHGEF3</a>, <a href="../genes/ARHGEF5.html">ARHGEF5</a>, <a href="../genes/ARHGEF18.html">ARHGEF18</a>, <a href="../genes/ACTB.html">ACTB</a> and others (Figure 4).</li>
+<li><strong>Axon-guidance signaling</strong> disrupted in 14/25 tumors (56%, p=8.3×10⁻⁵), including <a href="../genes/PLXNB1.html">PLXNB1</a> (2), <a href="../genes/PRKD1.html">PRKD1</a> (2), <a href="../genes/SLIT1.html">SLIT1</a>, <a href="../genes/PLXNA1.html">PLXNA1</a>, <a href="../genes/SRGAP2.html">SRGAP2</a>, <a href="../genes/SRGAP3.html">SRGAP3</a>, <a href="../genes/ADAM2.html">ADAM2</a>, <a href="../genes/ADAMTS5.html">ADAMTS5</a>, <a href="../genes/ADAMTS13.html">ADAMTS13</a>, <a href="../genes/SEMA3G.html">SEMA3G</a> (one each). An identical <a href="../genes/SEMA3G.html">SEMA3G</a> 474S&gt;P substitution was also observed in the prior Ho et al.&nbsp;cohort (<a href="../papers/23685749.html">PMID:23685749</a>).</li>
+<li><strong>41 copy-number variations</strong> in 12/25 tumors (range 0–9). Most common: amplifications at 7p14.1 (5 tumors) and 14q11.2 (4 tumors) — both T-cell-receptor loci, possibly artifactual; deletions at 10q26.3 spanning <a href="../genes/DUX4.html">DUX4</a>/DUX4L homeobox genes in 3 tumors.</li>
+<li>Pathway-level disruption (mutations + rearrangements) corroborated prior reports for protein-kinase-A signaling (21 tumors), FGF signaling (15), Wnt/β-catenin (13), PI3K/AKT (13), and Notch (9).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/NFIB.html">NFIB</a></strong> — translocations in 15/25 (60%) tumors with five distinct partners (<a href="../genes/MYB.html">MYB</a>, <a href="../genes/MAP3K5.html">MAP3K5</a>, <a href="../genes/MYBL1.html">MYBL1</a>, <a href="../genes/RIMS1.html">RIMS1</a>, <a href="../genes/MYO6.html">MYO6</a>, <a href="../genes/RPS6KA2.html">RPS6KA2</a>); plus intrachromosomal rearrangements in 3 tumors. Overexpressed at the mRNA level vs.&nbsp;normal (p=0.002) <strong>independent of fusion status</strong> (p=0.91), implicating a fusion-independent oncogenic role.</li>
+<li><strong><a href="../genes/MYB.html">MYB</a></strong> — t(6;9) <a href="../genes/MYB.html">MYB</a>–<a href="../genes/NFIB.html">NFIB</a> fusion in 11/25 tumors. Overexpressed in tumors vs.&nbsp;normal (p&lt;0.001) and significantly higher in fusion-positive tumors (p&lt;0.001).</li>
+<li><strong><a href="../genes/MYBL1.html">MYBL1</a></strong> — recurrent <a href="../genes/MYBL1.html">MYBL1</a>–<a href="../genes/NFIB.html">NFIB</a> fusion in 2 tumors (HN 333 PT, HN 320 PT) which uniquely lacked MYB expression, supporting a mutually exclusive <a href="../genes/MYB.html">MYB</a>/<a href="../genes/MYBL1.html">MYBL1</a> alteration model in <a href="../cancer_types/ACYC.html">ACYC</a>.</li>
+<li><strong><a href="../genes/MAP3K5.html">MAP3K5</a></strong> (ASK1) — recurrent fusion partner with <a href="../genes/NFIB.html">NFIB</a> in 2 tumors; encodes a serine/threonine kinase regulating apoptosis.</li>
+<li><strong><a href="../genes/RIMS1.html">RIMS1</a></strong>, <strong><a href="../genes/MYO6.html">MYO6</a></strong>, <strong><a href="../genes/RPS6KA2.html">RPS6KA2</a></strong> — single-tumor <a href="../genes/NFIB.html">NFIB</a> fusion partners on chromosome 6q.</li>
+<li><strong><a href="../genes/NOTCH1.html">NOTCH1</a></strong> — most-frequently mutated gene; 4 mutations in 3 tumors (nonsense, missense, frameshift, in-frame deletion) — 12% of cohort.</li>
+<li><strong><a href="../genes/NOTCH2.html">NOTCH2</a></strong> — non-synonymous substitution in one tumor.</li>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a> (MLL2)</strong> — 3 mutations in 2 tumors; significant enrichment of truncating mutations (p=0.008).</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a> (MLL3)</strong> — 2 mutations in 2 tumors.</li>
+<li><strong><a href="../genes/EP300.html">EP300</a></strong> — 2 mutations in 2 tumors; significant enrichment of truncating mutations (p=0.01).</li>
+<li><strong><a href="../genes/SMARCA2.html">SMARCA2</a></strong>, <strong><a href="../genes/SMARCC1.html">SMARCC1</a></strong>, <strong><a href="../genes/KDM6A.html">KDM6A</a></strong> — recurrent chromatin-regulator mutations.</li>
+<li><strong><a href="../genes/RHOA.html">RHOA</a></strong> — two distinct somatic mutations in 2 tumors; first reported in <a href="../cancer_types/ACYC.html">ACYC</a>. (Recurrent RHOA hotspot mutations had previously been reported in angioimmunoblastic T-cell lymphoma; see <a href="../cancer_types/AITL.html">AITL</a>.)</li>
+<li><strong><a href="../genes/ARHGEF3.html">ARHGEF3</a></strong>, <strong><a href="../genes/ARHGEF5.html">ARHGEF5</a></strong>, <strong><a href="../genes/ARHGEF18.html">ARHGEF18</a></strong>, <strong><a href="../genes/CDH2.html">CDH2</a></strong>, <strong><a href="../genes/CDH13.html">CDH13</a></strong>, <strong><a href="../genes/ACTB.html">ACTB</a></strong> — additional Rho-pathway mutations.</li>
+<li><strong><a href="../genes/PLXNB1.html">PLXNB1</a></strong>, <strong><a href="../genes/PRKD1.html">PRKD1</a></strong> — recurrent (2 tumors each) axon-guidance mutations.</li>
+<li><strong><a href="../genes/PLXNA1.html">PLXNA1</a></strong>, <strong><a href="../genes/SLIT1.html">SLIT1</a></strong>, <strong><a href="../genes/SRGAP2.html">SRGAP2</a></strong>, <strong><a href="../genes/SRGAP3.html">SRGAP3</a></strong>, <strong><a href="../genes/SEMA3G.html">SEMA3G</a></strong>, <strong><a href="../genes/ADAM2.html">ADAM2</a></strong>, <strong><a href="../genes/ADAMTS5.html">ADAMTS5</a></strong>, <strong><a href="../genes/ADAMTS13.html">ADAMTS13</a></strong> — single-tumor axon-guidance mutations.</li>
+<li><strong><a href="../genes/DUX4.html">DUX4</a></strong> — homozygous deletions at 10q26.3 in 3 tumors (interpreted with caution as DUX4/DUX4L are tandemly repeated).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong><a href="../genes/NFIB.html">NFIB</a> as a therapeutic target.</strong> Authors argue that the high prevalence of <a href="../genes/NFIB.html">NFIB</a> translocations (60% of cases) and fusion-independent <a href="../genes/NFIB.html">NFIB</a> overexpression suggest “targeting NFIB alone may also be of high yield,” independent of <a href="../genes/MYB.html">MYB</a>. (Statement of hypothesis only; no functional/therapeutic data.)</li>
+<li><strong>Rho-pathway and axon-guidance pathway inhibition</strong> are flagged as candidate therapeutic strategies for <a href="../cancer_types/ACYC.html">ACYC</a>, leveraging existing precision-anticancer Rho-targeting research and Slit/Robo pathway exploration.</li>
+<li><strong>Notch pathway</strong> disruption (12% of cases) is highlighted as a potentially targetable signaling axis, given existing Notch-targeting therapeutics in development.</li>
+<li><strong>Perineural invasion (PNI) link.</strong> The disruption of axon-guidance signaling in 56% of tumors is hypothesis-generating for <a href="../cancer_types/ACYC.html">ACYC</a>’s well-known propensity for PNI; the same pathway is disrupted in pancreatic adenocarcinoma, another PNI-prone malignancy.</li>
+<li>No predictive biomarker, treatment outcome, or survival analysis is reported in this study (n=25, fresh-frozen discovery cohort).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small cohort (n=25).</strong> Statistical power for rare events and pathway enrichment is limited; novel single-tumor NFIB fusion partners (RPS6KA2, MYO6, RIMS1) are not corroborated by other ACC sequencing studies.</li>
+<li><strong>mRNA confirmation incomplete.</strong> Only 2/6 non-MYB NFIB DNA rearrangements yielded detectable fusion transcripts, leaving the functional significance of those novel rearrangements unclear.</li>
+<li><strong>Functional role of NFIB overexpression unresolved.</strong> NFIB mRNA is elevated in tumors regardless of fusion status (p=0.91 between groups), but the mechanism of dysregulation in fusion-negative tumors is not characterized.</li>
+<li><strong>T-cell-receptor amplifications interpreted with caution</strong> as potential artifacts of TCR gene rearrangement in tumor-infiltrating lymphocytes.</li>
+<li><strong>No survival/outcome data</strong>; cohort is descriptive genomic-discovery only.</li>
+<li><strong>DUX4 deletion calls</strong> at 10q26.3 are flagged by the genomic context (tandem-repeat region) as needing orthogonal validation.</li>
+<li><strong>Therapeutic implications are speculative.</strong> The paper proposes <a href="../genes/NFIB.html">NFIB</a>, Rho, axon-guidance, and Notch pathways as therapeutic targets but provides no in vitro or in vivo functional data; downstream functional characterization is called out as required.</li>
+<li><strong>Cross-paper synthesis:</strong> authors corroborate chromatin-regulator and Notch findings from Ho et al.&nbsp;(<a href="../papers/23685749.html">PMID:23685749</a>), Stephens et al.&nbsp;(<a href="../papers/23778141.html">PMID:23778141</a>), and Ross et al.&nbsp;(<a href="../papers/24418857.html">PMID:24418857</a>); the novel finding here is the pan-NFIB rearrangement landscape and the Rho-pathway involvement.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified this translocation [t(6;9) MYB-NFIB] in 11 of 25 tumors (44%, 95%CI=27–63%)” — Results, p.7.</li>
+<li>“Overall, NFIB translocations occurred in 15 of 25 tumors (60%, 95%CI=41–77%)” — Results, p.7.</li>
+<li>“NFIB was overexpressed in tumors relative to normal tissues (p=0.002)” — Results, p.7.</li>
+<li>“NFIB expression was not significantly different in tumors with NFIB fusion genes compared to those without NFIB fusion genes (p=0.91)” — Results, p.7.</li>
+<li>“11 (44%, 95%CI=27–63%) tumors containing somatic mutations in one or more members of this [Rho GTPase] pathway (p=3.9x10−6)” — Results (Pathway analyses), p.8.</li>
+<li>“The axon guidance signaling pathway was also highly disrupted (14 tumors [56%, 95%CI=37–73%], p=8.3x10−5)” — Results (Pathway analyses), p.8.</li>
+<li>“NOTCH1 was the most frequently altered gene, with four mutations in three tumors” — Results (Sequence mutations), p.6.</li>
+<li>“p=3.8 x 10−6, randomization-based test” for chromatin-regulator truncating-mutation enrichment, with MLL2 (p=0.008) and EP300 (p=0.01) individually significant — Results, p.6.</li>
+<li>“Our data implicate that targeting NFIB alone may also be of high yield” — Discussion, p.10.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26862087.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26862087.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

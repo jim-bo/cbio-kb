@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "msk_impact_2017",
+    "value": 10945,
+    "denominator": null,
+    "quote": "10,336 patients, 10,945 successfully sequenced tumors",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "msk_impact_2017",
+    "gene": "TP53",
+    "modifier": "any",
+    "value": 0.41,
+    "denominator": 10945,
+    "quote": "TP53 — 41% of samples, altered in >10% of cases for 43/62 principal tumor types",
+    "section": "Key findings"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "msk_impact_2017",
+    "gene": "KRAS",
+    "modifier": "any",
+    "value": 0.15,
+    "denominator": 10945,
+    "quote": "KRAS: 2nd most altered (15%)",
+    "section": "Key findings"
+  }
+]

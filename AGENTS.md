@@ -87,6 +87,7 @@ Rules:
 - **`paper-compiler`**: Ingests raw papers into the wiki.
 - **`entity-page-writer`**: Creates/updates gene, cancer type, and drug pages.
 - **`crosslinker`**: Rewrites entity mentions as internal wiki links.
+- **`claims-extractor`**: Emits `wiki/papers/{pmid}.claims.json` of API-checkable quantitative claims (cohort size, mutation rate). Consumed by `scripts/verify_paper.py` and `scripts/emit_claim_tests.py`.
 - **`wiki-linter`**: Audits the wiki for structural issues.
 - **`wiki-querier`**: Answers questions using the wiki and FAISS index.
 - **`theme-synthesizer`**: Identifies cross-cutting research themes.
@@ -102,12 +103,14 @@ The **main loop** (Claude Code or Gemini CLI) is the orchestrator. Sub-agents ar
 3. Dispatch **paper-compiler** with the PMID. It writes `wiki/papers/{pmid}.md` and returns the entity lists (genes, cancer_types, datasets, drugs, methods).
 4. For each entity kind with new/touched entries, dispatch **entity-page-writer** once with the entity→[PMID] mapping.
 5. Dispatch **crosslinker** over the new paper page plus any entity pages touched in step 4.
-6. `uv run cbio-kb wiki normalize-brackets` — deterministic, repairs Obsidian-style links agents sometimes emit. Lint will error on the unbalanced shapes.
-7. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing what was added (paper count, key topics, PMIDs linked). Keep it to 1–2 lines.
-8. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
-9. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
-10. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
-11. Commit.
+6. Dispatch **claims-extractor** with the PMID. Writes `wiki/papers/{pmid}.claims.json` (may be `[]` for review papers). Optional but recommended for any paper with quantitative claims about a cBioPortal study.
+7. `uv run cbio-kb wiki normalize-brackets` — deterministic, repairs Obsidian-style links agents sometimes emit. Lint will error on the unbalanced shapes.
+8. **Update the News section** in `schema/templates/index.md` — prepend a dated bullet summarizing what was added (paper count, key topics, PMIDs linked). Keep it to 1–2 lines.
+9. `uv run cbio-kb wiki build-index` — deterministic, regenerates `wiki/index.md` from `schema/templates/index.md`.
+10. `uv run cbio-kb wiki build-graph` — deterministic, regenerates `wiki/graph.json` (powers the `/ask` Graph tab).
+11. `uv run cbio-kb lint --wiki-dir wiki` and fix any structural errors.
+12. (Optional) `uv run python scripts/verify_paper.py --pmid <pmid>` to confirm claims pass the API round-trip. `uv run python scripts/emit_claim_tests.py` then regenerates `tests/claims/test_{pmid}.py`.
+13. Commit.
 
 ### Adding a batch of N papers
 
@@ -141,7 +144,7 @@ Not every change requires a full recompilation. Three tiers:
 
 ### Rules of thumb
 
-- **Model pinning**: `crosslinker` and `wiki-linter` → `haiku` (mechanical). `paper-compiler`, `theme-synthesizer`, and `wiki-querier` → `opus` (reasoning). `entity-page-writer` → `sonnet` (bounded extraction).
+- **Model pinning**: `crosslinker` and `wiki-linter` → `haiku` (mechanical). `paper-compiler`, `theme-synthesizer`, and `wiki-querier` → `opus` (reasoning). `entity-page-writer` and `claims-extractor` → `sonnet` (bounded extraction).
 - **Index generation**: no agent edits `wiki/index.md`. Run `uv run cbio-kb wiki build-index` once at the end — it reads `schema/templates/index.md` and fills section counts + entity links from disk.
 - **Graph manifest**: no agent edits `wiki/graph.json`. Run `uv run cbio-kb wiki build-graph` after `build-index` — it walks `wiki/` to emit nodes (root + sections + entities), tree edges, and cross-link adjacency for the `/ask` Graph tab.
 - **Rerun semantics**: `paper-compiler` overwrites `wiki/papers/{pmid}.md` via Write (idempotent rerun OK); `entity-page-writer` merges via Edit (append-only, idempotent by PMID dedup).

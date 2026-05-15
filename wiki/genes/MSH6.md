@@ -5,6 +5,7 @@ cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
 processed_by: entity-page-writer
 P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MSH6
@@ -36,6 +37,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MSH6 mutations, together with MSH2 and MLH1, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
 - MSH6, together with MSH2, underlies complex structural aberrations causing hypermutation in 5 men with mCRPC; MMR deficiency apparent in matched primaries, supporting MMR-deficiency testing in metastatic prostate cancer [PMID:26928463](../papers/26928463.md)
 - Mismatch repair defect identified in hypermutated HNSC tumors, alongside MLH1, MSH2, and POLD1 [PMID:27442865](../papers/27442865.md)
+- Somatic mutation observed in the hypermutated clear-cell endometrial carcinoma (CCEC) case T113; associated with MSI-high tumor phenotype [PMID:28485815](../papers/28485815.md)
+- Less frequent DDR alteration in non-muscle-invasive bladder cancer (NMIBC); contributes to the 30% DDR-altered fraction seen in high-grade NMIBC [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -111,5 +114,11 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

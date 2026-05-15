@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wes]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Whole-exome sequencing (WES)
@@ -141,6 +141,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied whole-exome sequencing to characterize somatic mutations in tumor samples [PMID:28196596](../papers/28196596.md)
 - Performed whole-exome sequencing as part of clinical genomic profiling for cancer patients [PMID:28336552](../papers/28336552.md)
 - Applied whole-exome sequencing to identify somatic mutations in pediatric cancer cohort [PMID:28445112](../papers/28445112.md)
+- Whole-exome sequencing of 16 paired tumor-normal clear cell endometrial carcinoma samples (Illumina Truseq and Agilent SureSelect; mean depth 75x) in the uccc_nih_2017 discovery cohort [PMID:28485815](../papers/28485815.md)
+- WES of 327 spatially separated primary NSCLC tumor regions and 4 metastatic biopsies through the TRACERx M-Seq pipeline, used to design bespoke ctDNA monitoring panels (median 18 SNVs/patient) [PMID:28445469](../papers/28445469.md)
+- 106 MSK-IMPACT tumors re-captured with Agilent Exome Kit v3 (mean 240x) for cross-platform TMB validation; WES vs MSK-IMPACT TMB correlation R2=0.76 [PMID:28481359](../papers/28481359.md)
 
 ## Notes
 
@@ -479,3 +482,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

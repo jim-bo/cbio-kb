@@ -4,8 +4,8 @@ oncotree_code: EGC
 main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Esophagogastric Adenocarcinoma (EGC)
@@ -31,6 +31,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PIK3CA](../genes/PIK3CA.md) — present in >10% of patients; identified as a resistance mechanism. [PMID:37406106](../papers/37406106.md)
 - [MET](../genes/MET.md) — co-amplification detected in ctDNA at progression; [MET](../genes/MET.md) IHC expression confirmed in escape lesions. [PMID:37406106](../papers/37406106.md)
 - [FGFR3](../genes/FGFR3.md)-[TACC3](../genes/TACC3.md) — subclonal fusion identified at single-cell level by serial ctDNA; expanded on-treatment, implicating it as a resistance driver. [PMID:37406106](../papers/37406106.md)
+- Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (msk_impact_2017) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -51,4 +52,6 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:37406106](../papers/37406106.md) — Determinants of Survival with Combined HER2 and PD-1 Blockade in Metastatic Esophagogastric Cancer (Clinical Cancer Research, 2023)
 - [PMID:37699004](../papers/37699004.md) — Clinical and molecular characteristics of early-onset vs average-onset esophagogastric cancer (JNCI, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -4,8 +4,8 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Colon Adenocarcinoma (COAD)
@@ -29,6 +29,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - 74-tumor WES cohort of colorectal adenocarcinoma (Genentech) identified RSPO2/RSPO3 fusions mutually exclusive with [APC](../genes/APC.md) mutations, implicating Wnt pathway activation as a universal driver [PMID:22895193](../papers/22895193.md)
 - In 69 matched MSS colorectal cancer primary/metastasis trios (40% right colon, 44% left colon), [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md)/[BRAF](../genes/BRAF.md) status was 100% concordant, supporting use of either primary or metastatic biopsy for clinical RAS/RAF testing. [PMID:25164765](../papers/25164765.md)
 - Whole-exome and targeted resequencing of 103 MSS [COAD](../cancer_types/COAD.md) from African Americans identified 20 new significantly mutated genes, including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific driver candidates, with a ~twofold higher mutation rate per tumor versus 129 Caucasian CRCs (P<0.001). [PMID:25583493](../papers/25583493.md)
+- In the MSK-IMPACT pan-cancer cohort, KRAS was mutated in 44% of COAD (90% in PAAD); POLE and MMR mutation signatures predominated in colorectal cancer alongside elevated MSI rates; MSI COAD patients showed responses to immune checkpoint blockade. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -62,4 +63,6 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

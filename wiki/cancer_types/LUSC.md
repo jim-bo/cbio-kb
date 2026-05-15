@@ -27,6 +27,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - In a 247-patient advanced [NSCLC](../cancer_types/NSCLC.md) cohort (15% squamous/LUSC), multimodal DyAM model integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC, and genomics achieved AUC=0.80 for ICI response prediction; the model handles missing modalities and provides modality-specific risk scores enabling clinical interpretability [PMID:36038778](../papers/36038778.md)
 - TCGA WES of 178 lung squamous cell carcinomas defined the genomic landscape: near-universal CDKN2A loss, TP53 mutation, and frequent KEAP1/NFE2L2 alterations [PMID:22960745](../papers/22960745.md)
 - Pan-NSCLC WES of 660 LUAD and 484 LUSC tumour/normal pairs (nsclc_tcga_broad_2016); LUSC had median somatic mutation rate 9.7/Mb and 20 SMGs; novel LUSC driver RASA1; TP53, CDKN2A, and PIK3CA were significantly more frequently mutated in LUSC than LUAD (p<0.01); LUSC genetic landscape more closely resembled HNSC and BLCA than LUAD; 53% of LUSCs had ≥5 predicted neoepitopes [PMID:27158780](../papers/27158780.md)
+- LUSC had a 97% pre-operative ctDNA detection rate (30/31 cases) in the TRACERx cohort, compared with 19% for LUAD; non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 were independent predictors of ctDNA detection on multivariable logistic regression. [PMID:28445469](../papers/28445469.md)
 
 ## Subtypes
 
@@ -51,5 +52,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:27158780](../papers/27158780.md)
+
+- [PMID:28445469](../papers/28445469.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -4,7 +4,7 @@ aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ESR1
@@ -22,6 +22,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ESR1 expression was observed in mCRPC tumors with AR transcriptional activity but absent AR protein, suggesting ERalpha may sustain AR-pathway output as an alternative activator in AR-low phenotypes [PMID:26928463](../papers/26928463.md)
 - ER status (ER+/ER-) is the primary stratifier in a 2,433-sample breast cancer mutation landscape study; ER+ tumors have distinct mutation frequencies (e.g., PIK3CA 40.1%, GATA3 11.1%) vs ER- tumors [PMID:27161491](../papers/27161491.md)
 - Metastasis-specific driver (OR=29, p=1.2e-12) in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)); 22 mBCs with hormone-receptor-domain hotspot mutations and 9 with focal amplification (combined 19% of HR+/HER2− mBC); all 22 ESR1-mutant patients had received prior endocrine therapy, establishing ESR1 as a primary mechanism of acquired endocrine resistance [PMID:28027327](../papers/28027327.md).
+- Recurrent hotspot mutations in BRCA and UCEC, almost exclusively in post-hormone-therapy metastases; enriched in the MSK-IMPACT metastatic cohort vs TCGA, clinically relevant for hormone-therapy management [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

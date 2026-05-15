@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Immunohistochemistry (IHC)
@@ -42,6 +42,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Applied immunohistochemistry to validate protein expression in tumor tissue sections [PMID:28196596](../papers/28196596.md)
 - Used immunohistochemistry for protein marker detection in sarcoma tissue samples [PMID:28199314](../papers/28199314.md)
 - Performed immunohistochemistry to confirm protein-level alterations in tissue samples [PMID:28445112](../papers/28445112.md)
+- Ki67 immunohistochemistry performed on TMA cores in TRACERx; high Ki67 proliferation index was an independent predictor of pre-operative ctDNA detection in early-stage NSCLC [PMID:28445469](../papers/28445469.md)
 
 ## Notes
 
@@ -117,3 +118,6 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

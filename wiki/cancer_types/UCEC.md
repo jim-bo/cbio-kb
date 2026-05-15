@@ -34,6 +34,8 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [KMT2B](../genes/KMT2B.md) — mutations enriched in CN-H/TP53abn ECs (16% vs. 8%) and carcinosarcomas (31% vs. 10%) from Black patients. [PMID:37651310](../papers/37651310.md)
 - TCGA integrated analysis of 373 endometrial carcinomas (307 endometrioid, 53 serous, 13 mixed) proposed four molecular subgroups: [POLE](../genes/POLE.md) ultramutated (~7%, improved PFS), MSI hypermutated (~28%), copy-number low (CTNNB1-high), and copy-number high/serous-like ([TP53](../genes/TP53.md) ~90%, worse PFS); 93% of endometrioid tumors had PI3K/AKT alterations [PMID:23636398](../papers/23636398.md)
 - Endometrial polyps harbour low-VAF hotspot mutations in canonical UCEC driver genes ([KRAS](../genes/KRAS.md) 26%, [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [FBXW7](../genes/FBXW7.md)); KEGG pathway analysis flags 'endometrial cancer' as top enriched pathway (FDR p=2.8×10⁻⁵), supporting polyps as potential UCEC precursor lesions [PMID:28445112](../papers/28445112.md)
+- In the MSK-IMPACT pan-cancer cohort, ESR1 hotspot mutations were found in UCEC almost exclusively in post-hormone-therapy metastatic tumors; MSI UCEC patients showed responses to immune checkpoint blockade; POLE and MMR mutation signatures were enriched in endometrial lineages. [PMID:28481359](../papers/28481359.md)
+- Whole-exome sequencing of 63 clear cell endometrial carcinomas (UCCC) in the uccc_nih_2017 cohort revealed molecular heterogeneity: 27% serous-like (TP53/PPP2R1A), 20.6% endometrioid-like, 19.1% mixed, and 33.3% with no detectable alteration across the 7-gene + MSI panel; MSI was present in 11.3%; the molecular four-subgroup TCGA UCEC framework (POLE-ultramutated, MSI-hypermutated, copy-number-low, copy-number-high) provides context for CCEC classification. [PMID:28485815](../papers/28485815.md)
 
 ## Subtypes
 
@@ -59,5 +61,8 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
 
 - [PMID:28445112](../papers/28445112.md) — Reinikka et al. 2025; endometrial polyp WGS/RNA-seq; low-VAF UCEC-driver hotspot mutations in 26% KRAS, PIK3CA, PIK3R1, PTEN, ERBB2, FBXW7.
+
+- [PMID:28481359](../papers/28481359.md)
+- [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

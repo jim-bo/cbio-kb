@@ -72,6 +72,10 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Inactivating mutations detected in lung ADC by pan-lung WES (TCGA); identified as a significantly mutated gene in the lung cancer landscape [PMID:27158780](../papers/27158780.md)
 - SWI/SNF member; inactivating mutations identified as Mut-drivers in breast cancer (METABRIC 2,433-sample cohort); ARID1B synthetic-lethal dependency proposed as therapeutic strategy in ARID1A-deficient tumors [PMID:27161491](../papers/27161491.md)
 - ARID1A (SWI/SNF complex) more frequently altered in esophageal adenocarcinoma (EAC) than ESCC; part of a recurrent SWI/SNF complex alteration pattern in upper GI cancers [PMID:28052061](../papers/28052061.md)
+- Y551Lfs*72 frameshift mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas [PMID:28472509](../papers/28472509.md)
+- Stop-gain driver SNV detected in the para-vertebral metastasis of NSCLC patient CRUK0063, below multi-region sequencing calling threshold in the primary tumor region from which the metastatic subclone derived; illustrates subclonal metastatic seeding in [LUAD](../cancer_types/LUAD.md) [PMID:28445469](../papers/28445469.md)
+- Mutated in 15.9% of clear-cell endometrial carcinomas (CCEC; n=63); one of the top recurrently altered genes in this histology [PMID:28485815](../papers/28485815.md)
+- Mutated in 21% of non-muscle-invasive bladder cancers (NMIBC); the only single gene significantly associated with recurrence after BCG immunotherapy (HR = 3.14, p = 0.002); ARID1A mutations may predict BCG failure and motivate testing of EZH2 inhibitors (synthetic lethality in ARID1A-deficient tumors) [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -243,5 +247,17 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

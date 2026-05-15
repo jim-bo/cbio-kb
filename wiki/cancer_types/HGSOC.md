@@ -4,8 +4,8 @@ oncotree_code: HGSOC
 main_type: Ovarian Cancer
 parent: SOC
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # High-Grade Serous Ovarian Cancer (HGSOC)
@@ -32,6 +32,7 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - High-grade serous ovarian cancer showed homologous recombination deficiency (HRD) in a significant proportion of cases with implications for PARP inhibitor sensitivity [PMID:36517593](../papers/36517593.md)
 - TCGA integrated genomic analysis of 489 HGSOC tumors found TP53 mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
 - TCGA breast cancer study included HGSOC comparison; BRCA1/BRCA2 germline mutations identified as shared features between basal-like breast and HGSOC tumors [PMID:23000897](../papers/23000897.md)
+- In the MSK-IMPACT pan-cancer cohort, HGSOC had the highest TP53 mutation rate of any principal tumor type at 98%, consistent with its near-universal TP53 inactivation; HGSOC was included among 62 principal tumor types in the msk_impact_2017 dataset. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -64,4 +65,6 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 *This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

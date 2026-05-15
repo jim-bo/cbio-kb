@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, ct, computed-tomography, radiology]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # CT imaging
@@ -22,6 +22,7 @@ Computed tomography (CT) imaging: X-ray-based cross-sectional imaging producing 
 - [PMID:38362943](../papers/38362943.md) — RT simulation CT scans from 3346 HNC patients at Princess Margaret Cancer Centre, acquired on three scanner manufacturers under standard clinical protocols; released as the [RADCURE](../datasets/radcure.md) dataset for [radiomics](radiomics.md) and machine-learning research [PMID:38362943](../papers/38362943.md).
 - [PMID:30179230](../papers/30179230.md) — multi-modality imaging archive for 215 HNSCC patients at MD Anderson Cancer Center, including diagnostic CT, PET-CT, MRI, and RT simulation CT; 433,384 DICOM files across 3,225 series; released as the [TCIA HNSCC collection](../datasets/tcia-hnscc.md) [PMID:30179230](../papers/30179230.md).
 - [PMID:37397861](../papers/37397861.md) — pretreatment contrast-enhanced CT from 2,552 [HNSC](../cancer_types/HNSC.md) patients at Princess Margaret Cancer Centre was the primary imaging input for the RADCURE prognostic challenge; CT-derived primary tumor volume was the single most informative imaging feature, included in the top-performing MTLR model (AUROC 0.823 on internal test); CT [radiomics](../methods/radiomics.md) did not improve on EMR+volume models [PMID:37397861](../papers/37397861.md).
+- 3D primary tumor volume measured on CT using 3D Slicer in TRACERx; tumor volume correlated linearly with mean clonal plasma VAF (Spearman's rho=0.63, P<0.001, n=37) [PMID:28445469](../papers/28445469.md)
 
 ## Notes
 
@@ -35,3 +36,6 @@ Computed tomography (CT) imaging: X-ray-based cross-sectional imaging producing 
 - [PMID:37397861](../papers/37397861.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

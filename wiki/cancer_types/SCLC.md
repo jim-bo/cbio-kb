@@ -26,6 +26,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - JHU WES/WGS of 36 SCLC tumors confirmed biallelic [TP53](../genes/TP53.md)+[RB1](../genes/RB1.md) loss and highlighted [SOX2](../genes/SOX2.md) amplification and [MYCL](../genes/MYCL.md) amplification as recurrent oncogenic events [PMID:22941189](../papers/22941189.md)
 - Comprehensive genomic analysis of SCLC revealed near-universal [RB1](../genes/RB1.md) and [TP53](../genes/TP53.md) loss, recurrent CREBBP/EP300 alterations, and NOTCH pathway mutations defining therapeutic vulnerabilities [PMID:26168399](../papers/26168399.md)
 - EZH2-mediated H3K27me3 spreading silences [SLFN11](../genes/SLFN11.md) in 4/10 chemoresistant PDX models; EZH2 inhibitor EPZ011989 (tazemetostat homolog) re-expresses SLFN11 and restores cisplatin/etoposide sensitivity in vivo [PMID:28196596](../papers/28196596.md)
+- In the MSK-IMPACT pan-cancer cohort, SCLC had one of the highest TP53 mutation rates at 85% of samples — ranking alongside HGSOC (98%) and esophageal adenocarcinoma (89%). [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -44,5 +45,7 @@ Small cell lung cancer (SCLC) is a neuroendocrine carcinoma of the lung characte
 - [PMID:22941189](../papers/22941189.md)
 - [PMID:26168399](../papers/26168399.md)
 - [PMID:28196596](../papers/28196596.md) — Gardner et al. 2017; EZH2-mediated SLFN11 silencing drives chemoresistance in SCLC PDX models.
+
+- [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

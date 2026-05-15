@@ -30,6 +30,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - One odontogenic tumor harboring an EWSR1-FLI1 fusion in the MSK-IMPACT cohort (Morris et al.) was reclassified from 'ameloblastic carcinoma' to Ewing sarcoma with epithelial differentiation, illustrating that EWSR1-FLI1 fusions can occur in unusual anatomic sites and require histologic re-evaluation [PMID:27442865](../papers/27442865.md).
 - PIPseq cohort identified EWSR1-FLI1 fusion as diagnostic in two Ewing sarcoma patients; one patient additionally showed low PAX8/FHIT/CASP10/CHD2 expression and high CHD11/FUS/MTA1 expression as a poor-prognosis transcriptomic signature; APC V1822D VOUS also returned in one ES patient [PMID:28007021](../papers/28007021.md)
 - EWSR1::BEND2 in-frame fusion sarcoma of the bladder initially diagnosed as extraskeletal Ewing sarcoma based on CD99 positivity and EWSR1 FISH; RNA-seq identified BEND2 (not an ETS family gene) as partner — reclassifying to EWSR1-non-ETS undifferentiated sarcoma per WHO 2020 [PMID:28199314](../papers/28199314.md)
+- In the MSK-IMPACT pan-cancer cohort, EWSR1-FLI1 was detected in 25 Ewing sarcoma (ES) cases — the 4th most common rearrangement overall (after TMPRSS2-ERG n=151, EGFRvIII n=65, EML4-ALK n=38); ES was included among 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -61,5 +62,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 
 - [PMID:28007021](../papers/28007021.md)
 - [PMID:28199314](../papers/28199314.md) — Halava et al. 2025; EWSR1::BEND2 bladder sarcoma initially classified as extraskeletal ES; EWSR1-non-ETS reclassification by RNA-seq.
+
+- [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

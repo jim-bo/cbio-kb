@@ -29,6 +29,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - NOTCH2 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - NOTCH2 mutation found uniquely in the plasmacytoid component of a mixed plasmacytoid/urothelial NOS bladder tumor (multi-region sequencing); functional consequence not dissected [PMID:26901067](../papers/26901067.md)
 - Recurrent mutation in 5% of unclassified RCC (uRCC) in the MSK-IMPACT 230-gene panel cohort (n=62) [PMID:27713405](../papers/27713405.md)
+- Mutated in 5/19 (26%) of 1p/19q-codeleted anaplastic oligodendroglioma; not predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -50,43 +51,32 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 
 - [PMID:39091884](../papers/39091884.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21798893](../papers/21798893.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22960745](../papers/22960745.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24145436](../papers/24145436.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27713405](../papers/27713405.md)
+
+- [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

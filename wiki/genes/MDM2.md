@@ -46,6 +46,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 co-overexpression with CDK4 in neuroblastoma (NBL) in a pediatric precision-oncology cohort; enrolled on the NEPENTHE trial (NCT02780128) [PMID:28007021](../papers/28007021.md)
 - MDM2 recurrent focal amplification in esophageal squamous cell carcinoma (ESCC) [PMID:28052061](../papers/28052061.md)
 - Copy gain in metastases-only; MDM2:GNS and MDM2:CCT2 RNA fusions detected in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
+- Amplification in 1/19 sequenced cases; observed in 1p/19q-intact glioblastoma-like tumors rather than true 1p/19q-codeleted oligodendroglioma [PMID:28472509](../papers/28472509.md)
+- Alterations rise stepwise with tumor stage and grade in NMIBC (p < 0.001); co-altered with TP53 in the p53-pathway axis [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -147,3 +149,9 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

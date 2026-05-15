@@ -4,8 +4,8 @@ oncotree_code: GB
 main_type: Glioma
 parent: ADIFG
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Glioblastoma, IDH-Wildtype (GB)
@@ -32,6 +32,7 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [EGFR](../genes/EGFR.md) — amplification is a hallmark of IDH-wildtype glioblastoma (not specifically quantified in these corpus studies).
 - [EGFR](../genes/EGFR.md) low/absent expression in LN229 GB cells prevents C-MMAE binding, accumulation, and radiosensitization — confirms that [EGFR](../genes/EGFR.md) expression level, not mere tumor histology, gates ADC activity. [PMID:27698471](../papers/27698471.md)
 - Re-analysis of 48 pediatric GB exomes identified 3/48 (6%) cases with the triple-mutation constellation [FGFR1](../genes/FGFR1.md) activation + [H3-3A](../genes/H3-3A.md) K27M + [NF1](../genes/NF1.md) alteration (all TP53-wildtype), extending FGFR-targeted therapy rationale to a subset of pediatric glioblastoma [PMID:23817572](../papers/23817572.md)
+- Glioblastoma was included in the MSK-IMPACT pan-cancer cohort; TP53 was significantly enriched in glioblastoma vs TCGA primary tumors; EGFRvIII (exon 2-7 deletion) was detected in 65 cases and EGFR mutations localized to the extracellular N-terminal domain in glioma vs kinase domain in lung cancer. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -55,4 +56,6 @@ Glioblastoma, IDH-wildtype (GB) is the most common and aggressive primary brain 
 - [PMID:28872634](../papers/28872634.md)
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

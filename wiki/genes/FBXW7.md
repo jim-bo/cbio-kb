@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MNG, CESC, UCEC, RMS]
 tags: [tumor-suppressor, ubiquitin-ligase]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # FBXW7
@@ -40,6 +40,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Truncating and WD-domain damaging mutations in 11% of desmoplastic melanoma tumors; loss-of-function burden candidate [PMID:26343386](../papers/26343386.md)
 - Recurrently mutated gene identified in the TCGA pan-lung cancer cohort (lung ADC/SqCC) [PMID:27158780](../papers/27158780.md)
 - FBXW7 loss-of-function mutations were identified alongside ERBB2 alterations and evaluated for their role in therapy resistance [PMID:28445112](../papers/28445112.md)
+- R465H hotspot missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
+- Mutated in 7.9% of clear cell endometrial carcinoma (CCEC) in the UCCC-NIH targeted sequencing study [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -131,3 +133,9 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

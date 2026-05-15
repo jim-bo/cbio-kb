@@ -66,6 +66,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - CCND1 recurrent amplification in metastatic breast cancer (mBC), consistent with primary breast cancer profiles; identified in WES of 216 mBC samples vs TCGA primary tumors [PMID:28027327](../papers/28027327.md)
 - CCND1 amplified in 57% of ESCC and 15% of EAC in the TCGA esophageal carcinoma study; combined CDKN2A loss and CCND1 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
 - CCND1 amplification discussed as a previously reported alteration in acral lentiginous melanoma (ALM) based on cited literature [PMID:28373299](../papers/28373299.md)
+- K114del mutation observed in 1/19 (5.3%) sequenced anaplastic oligodendroglioma tumors profiled by [MSK-IMPACT 410](../methods/IMPACT410.md) in the [odg_msk_2017](../datasets/odg_msk_2017.md) cohort [PMID:28472509](../papers/28472509.md)
+- Cell-cycle gene alterations including CCND1 increased significantly with stage (p = 0.028) and grade (p = 0.009) in 105 nonmuscle invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)) tumors profiled by [MSK-IMPACT](../methods/msk-impact-panel.md) [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -217,5 +219,11 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

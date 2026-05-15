@@ -5,7 +5,7 @@ main_type: Thymic Tumor
 parent: TET
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Thymic Carcinoma (THYC)
@@ -25,6 +25,7 @@ Thymic carcinoma is an aggressive thymic epithelial malignancy; in OncoTree THYC
 - KIT mutations in ~10% of thymic carcinomas (literature context cited in paper); the three GTF2I-mutant thymic carcinomas in the cohort were KIT-positive by IHC [PMID:24974848](../papers/24974848.md).
 - BRD4–NUTM1 fusion confirmed in TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md).
 - Copy-number burden enriched relative to thymomas: arm-level gains (1q, 7p, 7q, 20p) and losses (6p, 6q, 3p, 13q) more frequent in aggressive histotypes [PMID:24974848](../papers/24974848.md).
+- In the MSK-IMPACT pan-cancer cohort, thyroid cancer (THYC) had a TERT promoter mutation rate of 60% (3rd highest after BLCA 70% and glioma 67%); 60% of thyroid patients harbored an OncoKB-actionable alteration (2nd highest after GIST 76%). [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -38,4 +39,6 @@ Thymic carcinoma is an aggressive thymic epithelial malignancy; in OncoTree THYC
 
 - [PMID:24974848](../papers/24974848.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - rhabdomyosarcoma
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BCOR
@@ -31,6 +31,7 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside CREBBP, EP300, and BCL6 as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 - BCOR: chromatin regulator in the chromatin-spliceosome AML subgroup with independent adverse prognosis [PMID:27276561](../papers/27276561.md)
 - BCOR-altered sarcoma discussed as a related entity to EWSR1::BEND2 sarcomas (defining alteration for the undifferentiated small round cell sarcoma entity) [PMID:28199314](../papers/28199314.md)
+- R810 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental chromatin-modifier alteration [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

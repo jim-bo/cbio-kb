@@ -23,6 +23,7 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 - p53–p21–[RB1](../genes/RB1.md) pathway intact in EWS::FLI1-expressing heMSCs; p21 (CDKN1A) induction limits long-term in vitro culture of transduced cells in Ewing sarcoma cell-of-origin model [PMID:25186949](../papers/25186949.md)
 - Cell-cycle/RB axis alteration in [HCC](../cancer_types/HCC.md); part of CDKN2A/CDKN1A/RB1/CCND1/CCNE1 cluster; [CDKN2A](../genes/CDKN2A.md) loss enriched in alcohol-related [HCC](../cancer_types/HCC.md) and independently associated with poor survival [PMID:25822088](../papers/25822088.md)
 - CDKN1A A45fs truncal frameshift mutation shared between plasmacytoid and adjacent urothelial NOS components in a mixed bladder tumor, identified by multi-region sequencing [PMID:26901067](../papers/26901067.md)
+- Cell-cycle gene alterations including CDKN1A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 nonmuscle invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)) tumors; [TP53](../genes/TP53.md)/[MDM2](../genes/MDM2.md) and cell-cycle pathway alterations ([RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), CDKN1A, [CDKN2A](../genes/CDKN2A.md)) co-enriched with stage [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ CDKN1A encodes p21, a cyclin-dependent kinase inhibitor and p53 effector that en
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

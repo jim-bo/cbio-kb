@@ -9,8 +9,8 @@ tags:
   - transcription-factor
   - tfiid-complex
   - basal-transcription
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TAF1
@@ -22,6 +22,7 @@ TAF1 encodes the largest subunit of the TFIID general transcription factor compl
 ## Alterations observed in the corpus
 
 - Single-case splice-site mutation identified in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling; classified among rare single-case driver candidates [PMID:24418857](../papers/24418857.md)
+- Mutated in 9.5% of CCEC (8 missense mutations); recurrent HAT-domain residues Arg843 and Ala850; first report of somatic TAF1 mutation in CCEC and nominated as a candidate driver [PMID:28485815](../papers/28485815.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ TAF1 encodes the largest subunit of the TFIID general transcription factor compl
 - [PMID:24418857](../papers/24418857.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

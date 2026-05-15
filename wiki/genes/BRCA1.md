@@ -14,8 +14,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BRCA1
@@ -61,6 +61,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag [PMID:28007021](../papers/28007021.md)
 - BRCA1 is recruited to DSBs via TRMT10A pSer28; BRCA1 recruitment (but not protein abundance) is impaired by TRMT10A or USP10 loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
 - 3 likely-inactivating truncating mutations (0.3%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
+- Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -176,3 +177,6 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

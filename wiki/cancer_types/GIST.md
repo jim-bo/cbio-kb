@@ -4,8 +4,8 @@ oncotree_code: GIST
 main_type: Gastrointestinal Stromal Tumor
 parent: SOFT_TISSUE
 tags: [sarcoma, gi]
-processed_by: crosslinker
-processed_at: 2026-05-05
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Gastrointestinal Stromal Tumor (GIST)
@@ -29,6 +29,7 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 - In 26 SDH-deficient GISTs, [TP53](../genes/TP53.md) mutations or chr1q amplification portended worse recurrence-free and disease-free survival [PMID:37477937](../papers/37477937.md).
 - Longitudinal sequencing detected most KIT-independent genomic alterations already at baseline [PMID:37477937](../papers/37477937.md).
 - GIST patients with [KIT](../genes/KIT.md) exon 9 mutations showed distinct response patterns to [imatinib](../drugs/imatinib.md) compared to those with exon 11 mutations in a large retrospective cohort [PMID:36593350](../papers/36593350.md)
+- In the MSK-IMPACT pan-cancer cohort, GIST had the highest proportion of OncoKB-actionable alterations at 76% of patients — the highest of all 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -47,4 +48,6 @@ Mesenchymal GI neoplasm typically driven by [KIT](../genes/KIT.md) or [PDGFRA](.
 *This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

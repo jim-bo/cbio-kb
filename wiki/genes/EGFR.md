@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # EGFR
@@ -74,6 +74,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Amplified or mutated in 19% of ESCCs and some EACs in the TCGA esophageal carcinoma multi-platform study; EGFR alterations co-occur with [ERBB2](../genes/ERBB2.md)/[KRAS](../genes/KRAS.md)/[VEGFA](../genes/VEGFA.md) amplifications in EAC subsets [PMID:28052061](../papers/28052061.md).
 - Alterations in EGFR (including amplification, missense, and truncating mutations) were profiled across multiple cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 - EGFR alterations including activating mutations and fusions were identified as clinically actionable findings in a pan-cancer sequencing cohort [PMID:28373299](../papers/28373299.md)
+- Driver SNVs detected in LUAD within the TRACERx ctDNA study; not associated with pre-operative ctDNA detection rate within the LUAD subset [PMID:28445469](../papers/28445469.md)
+- Hotspot A289V missense mutation in 1/19 oligodendroglioma cases (FISH-confirmed 1p/19q-codeleted); EGFR amplification observed in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
+- Tumor-type-specific alteration localization: extracellular N-terminal domain in glioma vs kinase domain in lung cancer; EGFRvIII (exon 2-7 deletion) detected in 65 cases across MSK-IMPACT cohort [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -214,3 +217,12 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: RASA1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RASA1
@@ -20,6 +20,7 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - RASA1 mutated in 12.8% of aggressive cSCC (5/39 patients); 66% truncating mutations; nominated as a novel candidate tumor suppressor (RAS GTPase activating protein family) [PMID:25303977](../papers/25303977.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); rarely mutated in basal-like breast cancers. [PMID:26095796](../papers/26095796.md)
 - Novel significantly mutated gene (SMG) in lung SqCC enriched for frameshift mutations (p < 0.001 for RASA1 frameshift enrichment) in the 1,144-tumor NSCLC landscape study; also significantly enriched in oncogene-negative lung ADC (q < 0.1), nominating RASA1 (p120GAP, a RAS-GAP) as a candidate driver in RTK/Ras/Raf pathway-negative lung ADC. Raised the overall proportion of lung ADCs with a candidate driver to 76%. [PMID:27158780](../papers/27158780.md)
+- E208Vfs*16 frameshift mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -41,16 +42,14 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

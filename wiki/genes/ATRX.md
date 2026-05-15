@@ -32,6 +32,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - ATRX mutated in 7% of unclassified renal cell carcinoma (uRCC) cases in a 62-patient MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
 - ATRX T1747fs frameshift in neuroblastoma (NBL) — poor-prognosis marker identified in a pediatric pan-cancer sequencing cohort [PMID:28007021](../papers/28007021.md)
 - ATRX somatic mutations co-occurring with SDHB germline mutations in pheochromocytoma/paraganglioma (PCC/PGL); marker of aggressive disease, metastasis, and poor aggressive-disease-free survival (ADFS) [PMID:28162975](../papers/28162975.md)
+- C1531 mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; notable as ATRX loss is typically associated with 1p/19q-intact astrocytoma/GBM rather than oligodendroglioma [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +97,8 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

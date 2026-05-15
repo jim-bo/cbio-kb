@@ -20,6 +20,7 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 - CIC appeared in the MSK-CHORD volcano plots of metastasis and Gleason-association analyses across the 24,950-patient pan-cancer cohort; the alteration was not further characterized clinically in this dataset [PMID:39506116](../papers/39506116.md).
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - CIC — discussed as the defining alteration of CIC-rearranged undifferentiated small round cell sarcoma, a related entity in the differential diagnosis for EWSR1-non-ETS fusion sarcomas [PMID:28199314](../papers/28199314.md)
+- Mutated in 10/19 (53%) sequenced anaplastic oligodendroglioma tumors profiled by [MSK-IMPACT 410](../methods/IMPACT410.md); canonical oligodendroglioma driver on the 19q chromosome; not predictive of PFS or OS in this cohort ([odg_msk_2017](../datasets/odg_msk_2017.md)) [PMID:28472509](../papers/28472509.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ CIC (capicua) is a transcriptional repressor downstream of RTK/RAS/MAPK signalin
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

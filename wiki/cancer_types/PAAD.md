@@ -30,6 +30,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - The [gemcitabine](../drugs/gemcitabine.md) + [saridegib](../drugs/saridegib.md) (Smoothened inhibitor) co-clinical trial in PAAD was halted after interim analysis showed inferior survival in the experimental arm despite positive preclinical signal in Kras-driven GEM models; post-clinical mouse experiments suggested chronic Smoothened targeting induces a more aggressive phenotype, illustrating the risk of short preclinical dosing windows [PMID:23999436](../papers/23999436.md).
 - Whole-exome sequencing of 109 microdissected PAAD (plus 11 [PAASC](../cancer_types/PAASC.md), 4 [PAAC](../cancer_types/PAAC.md)) identified 24 SMGs; [KRAS](../genes/KRAS.md) 92%, [TP53](../genes/TP53.md) 50%, [SMAD4](../genes/SMAD4.md) 19%, CDKN2A/B 36%; [MYC](../genes/MYC.md) amplification at 8q24.13 uniquely associates with poor overall survival (P=0.0013) and adenosquamous ([PAASC](../cancer_types/PAASC.md)) subtype; [BRAF](../genes/BRAF.md) V600E (3%) is mutually exclusive with [KRAS](../genes/KRAS.md) and vemurafenib-sensitive in a patient-derived cell line; codon-61 [KRAS](../genes/KRAS.md) alleles confer favourable prognosis vs codon-12 (P=0.01999) [PMID:25855536](../papers/25855536.md)
 - Narrative review of nine prospective SBRT trials in locally advanced PAAD: 33 Gy/5-fraction regimen with gemcitabine (Herman et al., n=49) achieved 79% 1-year local control and 13.9-month median OS with only 2% acute and 6% late grade 3+ GI toxicity; SMAD4/DPC4 loss is a candidate biomarker for metastatic propensity and patient selection for local intensification; duodenal dose constraints (V15Gy <9 cc, V20Gy <3 cc, V33Gy <1 cc) are essential [PMID:27826200](../papers/27826200.md).
+- In the MSK-IMPACT pan-cancer cohort, KRAS was mutated in 90% of PAAD — the highest rate of any principal tumor type — with G12 codon variants comprising 80% of all KRAS mutations; KRAS was classified as non-actionable under then-current OncoKB criteria (predating approval of KRAS G12C inhibitors). [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -70,4 +71,6 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27826200](../papers/27826200.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

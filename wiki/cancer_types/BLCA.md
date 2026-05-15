@@ -37,6 +37,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Plasmacytoid-variant bladder cancer (SRCBC) arises within the context of urothelial carcinoma; [CDH1](../genes/CDH1.md) truncating mutations are pathognomonic for the plasmacytoid subtype (84% frequency, vs 0% in 127 TCGA urothelial NOS tumors), and E-cadherin loss is universal; co-mutation profile otherwise overlaps with conventional urothelial carcinoma ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [ERBB2](../genes/ERBB2.md), [PIK3CA](../genes/PIK3CA.md)) [PMID:26901067](../papers/26901067.md)
 - WES of 72 urothelial tumors from 32 patients (16 matched pre/post-chemotherapy sets + 2 rapid autopsies) at Weill Cornell showed only 28.4% of mutations shared between matched pre- and post-chemotherapy samples; post-chemotherapy tumors showed clonal enrichment of L1CAM/integrin-signaling pathway mutations and dominant APOBEC3A mutagenesis, supporting repeat biopsy and L1CAM/FAK inhibition as candidate strategies in chemotherapy-resistant BLCA [PMID:27749842](../papers/27749842.md).
 - Single case of EWSR1::BEND2 fusion sarcoma (small round cell) of the urinary bladder; initial misdiagnosis as Ewing sarcoma (CD99+, EWSR1 FISH+) corrected by RNA-seq revealing EWSR1 exon 10::BEND2 exon 2 in-frame fusion; [PTEN](../genes/PTEN.md) loss co-occurring on 10q deletion [PMID:28199314](../papers/28199314.md)
+- In the MSK-IMPACT pan-cancer cohort, BLCA had the highest TERT promoter mutation rate of any principal tumor type at 70%; MSI BLCA patients showed responses to immune checkpoint blockade; BLCA was included among 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
+- MSK-IMPACT targeted sequencing of 105 nonmuscle invasive bladder cancer (NMIBC) tumors (blca_nmibc_2017) found TERT promoter mutations in 73% across all grade/stage groups; chromatin-modifying gene alterations in 69% (KDM6A 38%, ARID1A 21%); ERBB2 and FGFR3 alterations in 57% of high-grade NMIBC in a mutually exclusive pattern; DDR gene alterations in 30% of high-grade NMIBC; ARID1A mutations associated with 3.14-fold higher BCG-recurrence risk (HR=3.14, 95% CI 1.51-6.51, P=0.002). [PMID:28583311](../papers/28583311.md)
 
 ## Subtypes
 
@@ -73,5 +75,8 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 
 - [PMID:27749842](../papers/27749842.md)
 - [PMID:28199314](../papers/28199314.md) — Halava et al. 2025; EWSR1::BEND2 fusion sarcoma of the urinary bladder initially misdiagnosed as Ewing sarcoma.
+
+- [PMID:28481359](../papers/28481359.md)
+- [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

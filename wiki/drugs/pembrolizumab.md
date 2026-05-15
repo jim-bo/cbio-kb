@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # pembrolizumab
@@ -39,6 +39,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): pembrolizumab (and [nivolumab](../drugs/nivolumab.md)) anti-PD-1 therapy; overall mutational load associated with survival but not response (P=0.30); [BRCA2](../genes/BRCA2.md) LOF mutations enriched 6× in responders (28% vs 6%, Fisher P=0.002, OR=6.2); IPRES transcriptional program (mesenchymal transition, angiogenesis, ECM remodeling) defined innate non-responders (9/13 NR vs 1/15 R); IPRES overlaps MAPKi-induced signatures, implicating [vemurafenib](../drugs/vemurafenib.md)/[dabrafenib](../drugs/dabrafenib.md)/[trametinib](../drugs/trametinib.md) sequencing as potential resistance driver [PMID:26997480](../papers/26997480.md)
 - PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in NSCLC; largest absolute 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:27346245](../papers/27346245.md)
 - Used as anti-PD-1 immune checkpoint blockade in acral lentiginous melanoma (ALM); 2 of 3 complete responders were anti-PD-1-treated but had low mutational burden (<75 coding mutations), suggesting response in ALM may occur via mechanisms distinct from mutational load [PMID:28373299](../papers/28373299.md).
+- In whole-exome sequencing of 63 [clear cell endometrial carcinomas (UCCC)](../cancer_types/UCCC.md), 11.3% were MSI-high; the authors cite two MSI-H EC patients with clinical responses to pembrolizumab in a phase 2 trial of mismatch-repair-deficient tumors as motivation for immunotherapy evaluation in CCEC. [PMID:28485815](../papers/28485815.md)
 
 ## Resistance mechanisms
 
@@ -56,6 +57,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [NSCLC](../cancer_types/NSCLC.md)
 - [BLCA](../cancer_types/BLCA.md)
 - [SKCM](../cancer_types/SKCM.md)
+- [UCCC](../cancer_types/UCCC.md) — 11.3% MSI-H clear cell endometrial carcinomas potentially eligible for pembrolizumab per tumor-agnostic indication.
 
 ## Sources
 
@@ -99,7 +101,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28373299](../papers/28373299.md)
+- [PMID:28485815](../papers/28485815.md) — Le Gallo et al. 2017, *Oncotarget*. Whole-exome sequencing of 63 CCECs; 11.3% MSI-H; pembrolizumab cited as clinically active in MSI-H EC.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

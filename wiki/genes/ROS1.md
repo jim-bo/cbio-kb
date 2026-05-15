@@ -25,6 +25,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 structural variants identified as interesting alterations in salivary duct carcinoma (SDCA) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
 - ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older NSCLC patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
 - Fusions identified in LUAD; level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before crizotinib FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
+- Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
 
 ## Cancer types (linked)
 
@@ -48,28 +49,22 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28336552](../papers/28336552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

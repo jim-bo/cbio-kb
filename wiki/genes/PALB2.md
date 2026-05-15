@@ -31,6 +31,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - Part of the Fanconi anaemia (FA) pathway; homozygous deleterious events used as a DNA-repair-defect classifier for carboplatin sensitivity analysis in mCRPC; siRNA knockdown of FA genes (including PALB2) reduced proliferation in prostate cancer cell lines. [PMID:26928463](../papers/26928463.md)
 - Somatic mutations in 4% of metastatic breast cancer (mBC) vs 0.1% of early breast cancer (eBC) (FDR=0.006); authors propose PALB2-deficient mBC may be sensitive to PARP inhibitors such as olaparib [PMID:28027327](../papers/28027327.md)
 - TRMT10A expression correlated positively with PALB2 (along with BRCA1, BRCA2, RAD51) in TCGA prostate samples, linking PALB2 to the TRMT10A-dependent HR repair scaffold [PMID:28068672](../papers/28068672.md)
+- Less frequent DDR alteration in non-muscle-invasive bladder cancer (NMIBC; n=105), contributing to the 30% high-grade NMIBC DDR-altered fraction; markedly elevated mutational burden associated with DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
 
 ## Cancer types (linked)
 
@@ -52,28 +53,22 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28068672](../papers/28068672.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

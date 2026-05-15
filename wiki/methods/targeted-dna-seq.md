@@ -5,7 +5,7 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -43,6 +43,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
 - Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:27346245](../papers/27346245.md)
 - The Columbia Comprehensive Cancer Panel (CCCP) targeted-sequencing backup (467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material) was applied to 13 of 120 pediatric oncology samples in the PIPseq program achieving >500-fold average coverage [PMID:28007021](../papers/28007021.md).
+- Targeted exon-capture sequencing using MSK-IMPACT 341- or 410-gene panels on 105 NMIBC pretreatment index tumors with matched germline DNA; the largest NGS effort focused on NMIBC at time of publication [PMID:28583311](../papers/28583311.md)
 
 ## Notes
 
@@ -123,3 +124,6 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -4,8 +4,8 @@ oncotree_code: UEC
 main_type: Endometrial Cancer
 parent: UCEC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Uterine Endometrioid Carcinoma (UEC)
@@ -26,6 +26,7 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 - POLE exonuclease-domain hotspots Pro286Arg and Val411Leu in 13/17 (76%) ultramutated samples; POLE-ultramutated subgroup associated with significantly better PFS (log-rank P=0.02). [PMID:23636398](../papers/23636398.md)
 - MSI detected in 40% of endometrioid tumors (vs. 2% of serous); MSI tumors had ~10× higher mutation frequency than MSS endometrioid tumors. [PMID:23636398](../papers/23636398.md)
 - [ARID5B](../genes/ARID5B.md) newly identified as recurrently mutated at 23.1% in MSI vs. 5.6% in MSS endometrioid vs. 0% in serous-like. [PMID:23636398](../papers/23636398.md)
+- Cross-histology analysis of 63 CCECs against 40 endometrioid carcinomas (UEC) showed: 82.5% of UEC had endometrioid-like molecular profiles (PTEN/KRAS/ARID1A/PIK3R1/PIK3CA mutations, MSI); POLE and MMR mutation signatures were enriched in endometrioid lineages per the four-subgroup TCGA UCEC framework referenced in this study. [PMID:28485815](../papers/28485815.md)
 
 ## Subtypes
 
@@ -45,4 +46,6 @@ Uterine Endometrioid Carcinoma (UEC) is the most common histologic subtype of en
 
 - [PMID:23636398](../papers/23636398.md) — Cancer Genome Atlas Research Network. Integrated genomic characterization of endometrial carcinoma. *Nature* 2013.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

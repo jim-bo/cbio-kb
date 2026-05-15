@@ -6,7 +6,7 @@ canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 genePanelId: IMPACT341
 ---
 
@@ -25,6 +25,8 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Profiled 117 advanced thyroid tumors (84 PDTC, 33 ATC) at mean depth 584x tumor / 236x normal (739x for ATCs); detected TP53 73% vs 8%, BRAF 45% vs 33%, PIK3CA 18% vs 9% in ATC vs PDTC — 2-3x higher detection rates than WES due to deep sequencing depth. [PMID:26878173](../papers/26878173.md)
 - Used to profile 6 plasmacytoid-variant bladder tumors in a prospective MSKCC cohort; identified CDH1 truncating mutations in 6/6 plasmacytoid tumors and 0/56 urothelial carcinoma NOS tumors. [PMID:26901067](../papers/26901067.md)
 - Used MSK-IMPACT341 panel for targeted tumor sequencing in a large clinical cohort [PMID:28336552](../papers/28336552.md)
+- 341-gene panel used in 26% (2,809/10,945) of the MSK-IMPACT prospective cohort; superseded by the 410-gene version which covers 74% of cases [PMID:28481359](../papers/28481359.md)
+- 341-gene MSK-IMPACT panel version used alongside the 410-gene version to sequence NMIBC tumors from the blca_nmibc_2017 cohort at Memorial Sloan Kettering [PMID:28583311](../papers/28583311.md)
 
 ## Notes
 
@@ -48,3 +50,9 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

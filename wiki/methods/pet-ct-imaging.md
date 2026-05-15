@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [imaging, pet-ct, nuclear-medicine, radiology]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # PET-CT imaging
@@ -18,6 +18,7 @@ Hybrid positron emission tomography combined with computed tomography (PET-CT), 
 ## Used by
 
 - [PMID:30179230](../papers/30179230.md) — whole-body PET-CT acquired in 212/215 (98.6%) HNSCC patients at baseline and 213/215 (99.1%) post-treatment in the MD Anderson HNSCC imaging archive ([tcia-hnscc](../datasets/tcia-hnscc.md)); scanners included GE Discovery RX, Discovery ST, and Discovery STE; archive includes 433,384 DICOM files spanning diagnostic CT, PET-CT, MRI, simulation CT, [RTSTRUCT](../methods/dicom-rt-struct.md), [RTPLAN](../methods/dicom-rt-planning.md), and RTDOSE [PMID:30179230](../papers/30179230.md).
+- Pre-operative PET/CT reviewed for 92/96 TRACERx patients; FDG avidity (tumor-to-background ratio) predicted pre-operative ctDNA detection by ROC AUC 0.84 (P<0.001) [PMID:28445469](../papers/28445469.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ Hybrid positron emission tomography combined with computed tomography (PET-CT), 
 - [PMID:30179230](../papers/30179230.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

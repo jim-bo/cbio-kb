@@ -53,6 +53,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Pan-NSCLC WES of 660 LUAD and 484 LUSC tumour/normal pairs (nsclc_tcga_broad_2016); LUAD had median somatic mutation rate 8.7/Mb and 38 SMGs; novel LUAD drivers include PPP3CA, DOT1L, and CMTR2/FTSJD1; 76% of LUADs harboured an RTK/Ras/Raf alteration after adding SOS1, VAV1, RASA1, and ARHGAP35; 47% of LUADs had ≥5 predicted neoepitopes [PMID:27158780](../papers/27158780.md)
 - In young-onset lung adenocarcinoma review: 50–70% of YLC patients present with stage IV disease; median OS 26 months in Indian YLC cohort (Malik et al., n=133, TruSight Oncology 500); the subset <30 years had worse median OS of 15.67 months versus 26 months for 30–40-year-olds; EGFR mutations found in 35.51%, ALK rearrangement 65.7%, and ROS1 rearrangement 7.25% [PMID:27346245](../papers/27346245.md).
 - 860 recurrent/metastatic LUAD patients profiled by MSK-IMPACT (IMPACT341/410); actionable OncoKB level 1–4 alterations in 86.9%; [EGFR](../genes/EGFR.md) sensitizing mutations 24.9%, [KRAS](../genes/KRAS.md) 25.3%, [ALK](../genes/ALK.md)/[ROS1](../genes/ROS1.md) fusions; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking actionable driver [PMID:28336552](../papers/28336552.md)
+- In the TRACERx cohort (n=58 LUAD), pre-operative ctDNA detection was only 19% (11/58) for LUAD vs 97% for LUSC; driver mutations in KRAS, EGFR, and TP53 were not associated with ctDNA detection within the LUAD subset; an expanded 28-SNV panel was required for improved sensitivity. [PMID:28445469](../papers/28445469.md)
+- In the MSK-IMPACT pan-cancer cohort, ALK, RET, and ROS1 fusions were enriched in LUAD but also detected in 11 additional tumor types; EML4-ALK fusions were the 3rd most common rearrangement (n=38) predominantly in LUAD; EGFR mutations localized to the kinase domain in lung cancer vs the extracellular N-terminal domain in glioma. [PMID:28481359](../papers/28481359.md)
 
 ## Subtypes
 
@@ -109,5 +111,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset LUAD molecular landscape and therapy.
 
 - [PMID:28336552](../papers/28336552.md) — Jordan et al. 2017; MSK-IMPACT prospective profiling of 860 recurrent/metastatic LUAD; actionable alterations in 86.9%.
+
+- [PMID:28445469](../papers/28445469.md)
+- [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

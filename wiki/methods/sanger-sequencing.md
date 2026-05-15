@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Sanger Sequencing
@@ -56,6 +56,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Applied Sanger sequencing for targeted validation of somatic mutations [PMID:28199314](../papers/28199314.md)
 - Used Sanger sequencing for orthogonal validation of somatic variants [PMID:28373299](../papers/28373299.md)
 - Applied Sanger sequencing to validate somatic variants and germline mutations [PMID:28445112](../papers/28445112.md)
+- Sanger sequencing of 22 genes-of-interest used in the prevalence screen of 47 clear cell endometrial carcinoma (CCEC) cases from the uccc_nih_2017 cohort [PMID:28485815](../papers/28485815.md)
 
 ## Notes
 
@@ -180,3 +181,6 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

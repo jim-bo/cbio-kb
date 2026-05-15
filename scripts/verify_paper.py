@@ -258,6 +258,35 @@ def check_study(study_id: str, fm: dict, *, is_primary: bool,
     return study, findings
 
 
+def _study_panels(study_id: str) -> tuple[set[str] | None, str | None]:
+    """Return (panel_ids_used_in_study, query_profile_id) by asking the
+    `/molecular-profiles/{id}/gene-panel-data/fetch` endpoint which panel
+    each sample was profiled with. Returns (None, None) if the study has no
+    profile we can query."""
+    profiles = _get(f"/studies/{urllib.parse.quote(study_id)}/molecular-profiles") or []
+    # Prefer MUTATION_EXTENDED — gene-panel-data is most useful for mutation
+    # profiles. Fall back to any profile if none is present.
+    profile_id = next(
+        (p["molecularProfileId"] for p in profiles
+         if p.get("molecularAlterationType") == "MUTATION_EXTENDED"),
+        None,
+    )
+    if not profile_id and profiles:
+        profile_id = profiles[0]["molecularProfileId"]
+    if not profile_id:
+        return (None, None)
+    try:
+        rows = _post(
+            f"/molecular-profiles/{urllib.parse.quote(profile_id)}/gene-panel-data/fetch"
+            f"?projection=SUMMARY",
+            {"sampleListId": f"{study_id}_all"},
+        ) or []
+    except urllib.error.HTTPError:
+        return (None, profile_id)
+    panels = {r.get("genePanelId") for r in rows if r.get("genePanelId")}
+    return (panels, profile_id)
+
+
 def check_panels(study_id: str, fm_methods: list[str],
                  known_panels: set[str], *, is_primary: bool) -> list[Finding]:
     scope = f"{'study_id' if is_primary else 'dataset'}:{study_id}"
@@ -266,33 +295,45 @@ def check_panels(study_id: str, fm_methods: list[str],
         return [Finding("info", "method.no_panels_in_frontmatter", scope,
                         f"no frontmatter methods resolve to known panel IDs "
                         f"(of {len(fm_methods)} methods)")]
-    profiles = _get(f"/studies/{urllib.parse.quote(study_id)}/molecular-profiles") or []
-    sample_lists = _get(f"/studies/{urllib.parse.quote(study_id)}/sample-lists") or []
-    haystack = " ".join(
-        (p.get("molecularProfileId", "") + " " + p.get("name", "") + " " + p.get("description", ""))
-        for p in profiles
-    ) + " " + " ".join(
-        (s.get("sampleListId", "") + " " + s.get("name", "") + " " + s.get("description", ""))
-        for s in sample_lists
-    )
-    haystack_lower = haystack.lower()
+
+    api_panels, profile_id = _study_panels(study_id)
+    if api_panels is None:
+        return [Finding("info", "method.no_panel_data", scope,
+                        "study exposes no profile we can query for gene-panel-data",
+                        evidence={"profile_id": profile_id})]
+    if not api_panels:
+        # Profile exists but the API reports no panel assignment per sample —
+        # common for legacy / pre-panel studies (WGS, WES without targeted panel).
+        return [Finding("info", "method.api_no_panels", scope,
+                        f"API reports no panel assignment for any sample "
+                        f"(study likely uses WGS/WES rather than a targeted panel); "
+                        f"frontmatter claims {sorted(panel_methods)}",
+                        evidence={"frontmatter_panels": sorted(panel_methods),
+                                  "profile_id": profile_id})]
+
     findings: list[Finding] = []
     for method in panel_methods:
-        if method.lower() in haystack_lower:
+        if method in api_panels:
             findings.append(Finding("pass", "method.panel_in_study", scope,
-                                    f"{method} referenced in study profiles/sample-lists",
-                                    evidence={"method": method}))
+                                    f"{method} confirmed via gene-panel-data "
+                                    f"(study uses: {sorted(api_panels)})",
+                                    evidence={"method": method,
+                                              "api_panels": sorted(api_panels)}))
         else:
-            stem = "".join(c for c in method if c.isalpha()).lower()
-            if stem and stem in haystack_lower:
+            stem = "".join(c for c in method if c.isalpha()).upper()
+            family = sorted(p for p in api_panels if stem and stem in p.upper())
+            if family:
                 findings.append(Finding("warn", "method.panel_family_only", scope,
-                                        f"{method}: exact id not in study, "
-                                        f"but family '{stem}' is referenced",
-                                        evidence={"method": method, "stem": stem}))
+                                        f"{method}: study uses related panels "
+                                        f"{family} but not this exact version",
+                                        evidence={"method": method, "family": family,
+                                                  "api_panels": sorted(api_panels)}))
             else:
                 findings.append(Finding("warn", "method.panel_missing", scope,
-                                        f"{method}: no matching profile/sample-list in study",
-                                        evidence={"method": method}))
+                                        f"{method}: not used by any sample in study "
+                                        f"(study uses: {sorted(api_panels)})",
+                                        evidence={"method": method,
+                                                  "api_panels": sorted(api_panels)}))
     return findings
 
 

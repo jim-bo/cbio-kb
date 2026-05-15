@@ -127,18 +127,21 @@ def build_report(reports: list[dict], summary: dict) -> str:
                     ("API cancerTypeId", lambda r, f: f"`{f['evidence'].get('api_cancer_type_id','')}`"),
                     ("frontmatter cancer_types", lambda r, f: ", ".join(f["evidence"].get("frontmatter", [])))])
 
-    _section_table(out, "Frontmatter panel ID claimed but not in study profiles",
+    _section_table(out, "Panel claimed by paper but not used by any sample in study",
                    _findings_with_code(reports, "method.panel_missing"),
                    [("PMID", lambda r, f: r["pmid"]),
                     ("scope", lambda r, f: f"`{f['scope']}`"),
-                    ("panel", lambda r, f: f"`{f['evidence'].get('method','')}`")])
+                    ("panel", lambda r, f: f"`{f['evidence'].get('method','')}`"),
+                    ("study uses", lambda r, f: ", ".join(f"`{p}`" for p in
+                                                          f["evidence"].get("api_panels", [])) or "—")])
 
-    _section_table(out, "Panel id has fuzzy family match only",
+    _section_table(out, "Panel family used by study but not the exact version",
                    _findings_with_code(reports, "method.panel_family_only"),
                    [("PMID", lambda r, f: r["pmid"]),
                     ("scope", lambda r, f: f"`{f['scope']}`"),
-                    ("panel", lambda r, f: f"`{f['evidence'].get('method','')}`"),
-                    ("family", lambda r, f: f"`{f['evidence'].get('stem','')}`")])
+                    ("claimed", lambda r, f: f"`{f['evidence'].get('method','')}`"),
+                    ("actual versions in study", lambda r, f: ", ".join(f"`{p}`" for p in
+                                                                        f["evidence"].get("family", [])))])
 
     _section_table(out, "HUGO symbols that did not resolve",
                    [(r, f) for r, f in _findings_with_code(reports, "ontology.genes")

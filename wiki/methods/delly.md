@@ -19,6 +19,7 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 
 - Used in ICGC PedBrain pilocytic astrocytoma WGS study (96 cases, hg19) alongside [pindel](../methods/pindel.md) and [crest](../methods/crest.md) for somatic SV detection; helped identify the full spectrum of MAPK-pathway rearrangements including novel [BRAF](../genes/BRAF.md) fusions [PMID:23817572](../papers/23817572.md)
 - DELLY used for structural variant detection in targeted sequencing of pancreatic cancer [PMID:26278805](../papers/26278805.md)
+- Used DELLY to detect structural variants including deletions, duplications, and inversions from sequencing data [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -29,5 +30,8 @@ DELLY is a structural variant detection tool that discovers deletions, tandem du
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26278805](../papers/26278805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

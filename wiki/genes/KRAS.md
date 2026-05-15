@@ -97,6 +97,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS hotspot mutations in 22/180 patients (12.2%; 23 total mutations, G12 dominant) in advanced germ cell tumors; enriched in seminomas overall (20% vs 8.7% in nonseminoma; P=.045); in nonseminomas, 8 of 11 KRAS mutations occurred in cisplatin-resistant tumors; MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
 - KRAS Q61H and G12C activating mutations identified in pediatric ALL and neuroblastoma (NBL) as MEK-inhibitor targets; KRAS V14I also co-occurred with STAT5B I704L and JAK1 K1026E in T-BLL [PMID:28007021](../papers/28007021.md).
 - KRAS amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, IGF1R, and VEGFA amplifications in a multi-platform genomic characterization of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md).
+- 218 patients with KRAS mutations in prospective LUAD cohort (860 patients, MSK-IMPACT); codon 12 dominant; codon 61 in 12/235 (5%) of KRAS-mutated tumors; only 0.9% (2/218) received matched therapy; mutually exclusive with EGFR (p<0.0001) [PMID:28336552](../papers/28336552.md)
+- Single-patient missense event in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
+- 6/23 (26%) endometrial polyps harbored low-VAF KRAS hotspot mutations including G12V and G13V; one sample bore both on independent reads; may indicate precursor lesion biology [PMID:28445112](../papers/28445112.md)
 
 ## Cancer types (linked)
 
@@ -340,3 +343,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

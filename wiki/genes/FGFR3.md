@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BLCA, UTUC, EGC]
 tags: [oncogene, receptor-tyrosine-kinase, targeted-therapy, resistance, fusion]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # FGFR3
@@ -40,6 +40,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Amplification in 2% HPV(-) vs 11% HPV(+) HNSCC; FGFR3-TACC3 fusions in 2 HPV(+) tumors [PMID:25631445](../papers/25631445.md)
 - Activating missense (e.g., S249C) in 22/23 low-grade and 27.1% of high-grade [UTUC](../cancer_types/UTUC.md); 5 FGFR3-TACC3 gene fusions in high-grade [UTUC](../cancer_types/UTUC.md); enriched vs UCB and associated with low grade/lower T stage; largest targetable alteration in [UTUC](../cancer_types/UTUC.md) [PMID:26278805](../papers/26278805.md)
 - FGFR3 mutation identified in one adenoid cystic carcinoma (ACYC) patient, who was enrolled on an FGFR inhibitor trial through MSK-IMPACT-guided basket study [PMID:27442865](../papers/27442865.md)
+- FGFR3 alterations (including activating mutations and fusions) were profiled across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -125,3 +126,6 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

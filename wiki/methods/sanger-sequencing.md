@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Sanger Sequencing
@@ -53,6 +53,9 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used to validate [MYBL1](../genes/MYBL1.md) fusion breakpoints and to characterize [MYBL1](../genes/MYBL1.md) truncations identified by whole-genome sequencing in salivary adenoid cystic carcinomas, including 3'-RACE for truncation characterization [PMID:26631609](../papers/26631609.md).
 - Used to validate the recurrent [PLCB4](../genes/PLCB4.md) p.D630Y hotspot mutation identified by WGS/WES in uveal melanoma samples; confirmed mutation in 2/28 discovery samples and 1/56 previously published [UM](../cancer_types/UM.md) tumors [PMID:26683228](../papers/26683228.md).
 - Used as readout for bisulfite sequencing of the CDH1 promoter CpG island to detect hypermethylation in CDH1 wild-type plasmacytoid bladder tumors. [PMID:26901067](../papers/26901067.md)
+- Applied Sanger sequencing for targeted validation of somatic mutations [PMID:28199314](../papers/28199314.md)
+- Used Sanger sequencing for orthogonal validation of somatic variants [PMID:28373299](../papers/28373299.md)
+- Applied Sanger sequencing to validate somatic variants and germline mutations [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -168,3 +171,12 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:26901067](../papers/26901067.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

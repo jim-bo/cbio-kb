@@ -33,6 +33,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - TCGA integrative multi-platform profiling of 333 primary/metastatic SKCM (dataset: [skcm_tcga_pub_2015](../datasets/skcm_tcga_pub_2015.md)) defined four genomic subtypes: BRAF-mutant (52%), RAS-mutant (28% [NRAS](../genes/NRAS.md)), NF1-mutant (14%), and Triple-WT (14%); mean 16.8 mut/Mb — highest of any TCGA type; transcriptomic Immune subclass (51%) associated with significantly improved survival in regional metastases (log-rank P=0.003); bivariate LScore + [LCK](../genes/LCK.md) model proposed as a clinical-grade prognostic tool (HR=5.5, P=7.9e-5) [PMID:26091043](../papers/26091043.md)
 - Comprehensive genomic analysis of cutaneous melanoma revealed mutational landscape dominated by UV-signature mutations with recurrent alterations in [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), and [NF1](../genes/NF1.md) [PMID:26359337](../papers/26359337.md)
 - 38 pretreatment metastatic SKCM biopsies profiled by WES and RNA-seq to identify genomic and transcriptomic correlates of anti-PD-1 response; the IPRES mesenchymal/angiogenic transcriptional program defined innate resistance in 9/13 non-responders vs 1/15 responders, and BRCA2 LOF mutations were enriched in responders (28% vs 6%, Fisher P=0.002, OR=6.2) [PMID:26997480](../papers/26997480.md)
+- Cutaneous melanoma (SKCM) used as comparator to acral melanoma (ACRM): SKCM harbours canonical UV-signature BRAF/NRAS/NF1 drivers and higher mutation burden, contrasting with ACRM's structural-variant dominance and UV-signature absence [PMID:28373299](../papers/28373299.md)
 
 ## Subtypes
 
@@ -75,5 +76,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26997480](../papers/26997480.md)
+
+- [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; ACRM integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

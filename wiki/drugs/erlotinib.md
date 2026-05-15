@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, egfr-tki]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # erlotinib
@@ -27,6 +27,7 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - Broad LUAD WES (183 tumors) confirmed EGFR-activating mutations as the primary predictor of erlotinib response; co-occurring STK11 loss associated with resistance [PMID:22980975](../papers/22980975.md)
 - Cited among ERBB-targeting agents in the list of 31 potentially actionable alterations in HCC; ERBB family alterations represent candidate targets in the HCC therapeutic landscape as of early 2014 [PMID:24735922](../papers/24735922.md)
 - Failed as a frontline HCC agent in comparison vs sorafenib: median OS 8.0–8.8 months vs 9.9–10.0 months for sorafenib (HR ~1.12–1.15) [PMID:24798001](../papers/24798001.md)
+- Matched therapy for sensitizing EGFR mutations (exon 19 del/L858R) in 860 LUAD patients via MSK-IMPACT; clinical benefit rate 84.8% in sensitizing EGFR-mutant patients; significantly lower benefit for L861Q (43%) and exon 18 deletions (40%); 1 EGFR exon 20 insertion patient treated with erlotinib had no response; 1 ERRFI1-A143D patient derived benefit despite no EGFR mutation [PMID:28336552](../papers/28336552.md).
 
 ## Resistance mechanisms
 
@@ -62,3 +63,6 @@ First-generation reversible [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor.
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -25,6 +25,7 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 - Mutated in 20/294 GC cases (~6.8%); kinase-domain (33%) and receptor-domain (20%) mutations; p.R50C shared with melanoma hotspot. With [NRG1](../genes/NRG1.md), defines a candidate lapatinib-targetable subset (~11.6% of GCs carry [NRG1](../genes/NRG1.md) and/or ERBB4 mutations). [PMID:25583476](../papers/25583476.md)
 - E563K activating mutation in cSCC; this allele previously reported in 19% of melanomas [PMID:25589618](../papers/25589618.md)
 - More frequently mutated in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) vs early breast cancer at FDR<0.1; 9 missense mutations in 8 mBCs including hotspots COSM4764538 and COSM1015992; 5/8 were HR+/HER2−; functional consequences require experimental validation [PMID:28027327](../papers/28027327.md).
+- ERBB4 (HER4) mutations were catalogued across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +74,8 @@ ERBB4 (HER4) is a receptor tyrosine kinase of the ErbB/HER family. It has been i
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

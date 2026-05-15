@@ -26,6 +26,7 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - In [HCC](../cancer_types/HCC.md), NFE2L2 and [KEAP1](../genes/KEAP1.md) are both significantly mutated components of the oxidative-stress pathway (altered in 12% combined); NFE2L2-mutant [HCC](../cancer_types/HCC.md) shows elevated [NQO1](../genes/NQO1.md) expression and may be sensitive to HSP90 inhibitors (17-AAG/17-DMAG), modulated by [NQO1](../genes/NQO1.md) P187S (rs1800566) variant. [PMID:25822088](../papers/25822088.md)
 - NFE2L2 significantly mutated in lung squamous cell carcinoma but not other cancer types (excluding HNSC, BLCA) in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - Significantly mutated in ESCC (especially ESCC1 subtype); 24% mutation frequency in Vietnamese cohort vs 6% in other cohorts (P=0.017); activates the NRF2 pathway and is associated with chemoradiotherapy resistance [PMID:28052061](../papers/28052061.md)
+- Mutations in 2.9% (3/103) of unmatched driver (UMD) LUAD samples; KEAP1 missense variants cluster in the Kelch domain that interacts with NFE2L2/Nrf2, implicating this oxidative-stress pathway in UMD lung adenocarcinoma [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ NFE2L2 (NRF2) is a transcription factor that is the master regulator of the cell
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

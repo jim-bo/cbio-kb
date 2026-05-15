@@ -45,6 +45,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Focal amplifications in cisplatin-resistant GCT, mutually exclusive with TP53 alteration; 71% of MDM2-amplified tumors are cisplatin resistant; therapeutic target via nutlin-3 and other MDM2 inhibitors; MYCN amplification predicts MDM2-inhibitor sensitivity in TP53-wild-type tumors [PMID:27646943](../papers/27646943.md)
 - MDM2 co-overexpression with CDK4 in neuroblastoma (NBL) in a pediatric precision-oncology cohort; enrolled on the NEPENTHE trial (NCT02780128) [PMID:28007021](../papers/28007021.md)
 - MDM2 recurrent focal amplification in esophageal squamous cell carcinoma (ESCC) [PMID:28052061](../papers/28052061.md)
+- Copy gain in metastases-only; MDM2:GNS and MDM2:CCT2 RNA fusions detected in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -143,3 +144,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

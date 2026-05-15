@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [knowledge-base, variant-annotation, precision-oncology]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # OncoKB
@@ -27,6 +27,7 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:39506116](../papers/39506116.md) — OncoKB used to annotate oncogenicity and clinical actionability of somatic alterations across 24,950 MSK-CHORD patients; variants classified for downstream multimodal survival and metastasis-tropism analyses [PMID:39506116](../papers/39506116.md).
 - [PMID:39753968](../papers/39753968.md) — OncoKB v4.12 (Dec 2023) used to annotate all somatic alterations in 2,336 [PAAD](../cancer_types/PAAD.md) patients; ~10% of patients harbored OncoKB level 1 or 2 biomarkers; an additional 78% met level 3A based on [KRAS](../genes/KRAS.md) G12D/V/R/A/S reflecting the emerging RAS-inhibitor pipeline [PMID:39753968](../papers/39753968.md).
 - Used to annotate variants in 244 [GBC](../cancer_types/GBC.md) samples; identified actionable alterations in 35% of patients (OncoKB levels 1, 3A, or 3B), including [NTRK1](../genes/NTRK1.md) fusions (level 1) and [ERBB2](../genes/ERBB2.md) amplifications (level 3B) [PMID:36228155](../papers/36228155.md)
+- Used OncoKB to annotate clinical actionability of somatic variants in pediatric cancer [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -48,3 +49,6 @@ Precision oncology knowledge base curating the oncogenic effect and clinical act
 - [PMID:36228155](../papers/36228155.md)
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:28445112](../papers/28445112.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

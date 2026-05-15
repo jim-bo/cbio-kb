@@ -15,8 +15,8 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # BRCA2
@@ -65,6 +65,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 - BRCA2 among additional recurrently mutated genes in a 62-patient uRCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
 - 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish olaparib + spautin-1 synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
+- 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -188,3 +189,6 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

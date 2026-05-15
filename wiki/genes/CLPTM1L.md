@@ -1,10 +1,10 @@
 ---
 symbol: CLPTM1L
 aliases: []
-cancer_types: [NBL]
-tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+cancer_types: [NBL, ACRM]
+tags: [structural-variant, tert-adjacent]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CLPTM1L
@@ -16,6 +16,7 @@ CLPTM1L (Cleft Lip and Palate Transmembrane Protein 1-Like) is a transmembrane p
 ## Alterations observed in the corpus
 
 - CLPTM1L is the proximal-side neighbour of TERT at 5p15.33 and, in contrast to the distal neighbours SLC6A18/SLC6A19, is *not* transcriptionally upregulated in TERT-rearranged neuroblastoma tumors; it is used as the FISH probe target (BAC CTD-2191M2) to call structural rearrangements at the TERT locus in the validation cohort of 217 high-risk neuroblastoma cases [PMID:26466568](../papers/26466568.md).
+- CLPTM1L — frequent structural breakpoints (15% of patients, 22 breakpoints across 6 samples) and consensus copy gain on Chr 5p adjacent to TERT in acral lentiginous melanoma (ALM); recurrent translocation partner with ADCY2, PDZD2, RAI14, and TRIO; all events occurred in BRAF wild-type tumors [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CLPTM1L (Cleft Lip and Palate Transmembrane Protein 1-Like) is a transmembrane p
 - [PMID:26466568](../papers/26466568.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

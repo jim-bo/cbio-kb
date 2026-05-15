@@ -82,6 +82,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype (IGH–DUX4 rearrangement) relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
 - Recurrent MYC amplification in metastatic breast cancer (mBC), consistent with findings in primary breast cancer [PMID:28027327](../papers/28027327.md)
 - MYC amplification more common in EAC than CIN gastric adenocarcinoma; identified as a recurrent somatic amplification in esophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
+- Referenced as a known SCLC oncogene contributing to transcriptional addictions and super-enhancer biology in acquired chemoresistance study (EZH2/SLFN11 axis in SCLC) [PMID:28196596](../papers/28196596.md)
 
 ## Cancer types (linked)
 
@@ -281,3 +282,6 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

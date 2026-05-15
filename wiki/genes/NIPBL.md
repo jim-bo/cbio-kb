@@ -3,8 +3,8 @@ symbol: NIPBL
 aliases: []
 cancer_types: [BLCA]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NIPBL
@@ -17,6 +17,7 @@ NIPBL (NIPBL, Cohesin Loading Factor) encodes a cohesin-loading factor essential
 
 - Somatic mutation in 4% of TCC bladder cancers (UCGC cohort, n=99); part of the cohesin loader/subunit alteration set (NIPBL, [SMC1A](../genes/SMC1A.md), [SMC3](../genes/SMC3.md)) contributing to 32% of tumors harboring SCCS pathway alterations [PMID:24121792](../papers/24121792.md)
 - Cohesin complex gene mutated/altered in 16% of LGG/GBM; nominated as a therapeutic vulnerability (PARP/DNA-damage agents) [PMID:26824661](../papers/26824661.md)
+- Listed among genes with alterations in the acral melanoma (ALM) integrated genomic analysis cohort (34 patients; WGS + RNA-seq + SNP array) [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ NIPBL (NIPBL, Cohesin Loading Factor) encodes a cohesin-loading factor essential
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

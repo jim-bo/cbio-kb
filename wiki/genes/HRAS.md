@@ -41,6 +41,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Classical hotspot activating mutations at codons 12/61 observed in 3 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event in a 2,433-sample targeted sequencing study [PMID:27161491](../papers/27161491.md)
 - HRAS mutated in salivary duct carcinoma (SDCA) and one HNSC patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma (MUCC) treated similarly; recurrent in SDCA in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
 - HRAS recurrent somatic Q61 hotspot mutations activate MAPK signaling in pheochromocytoma/paraganglioma; enriched in the kinase signaling molecular subtype [PMID:28162975](../papers/28162975.md).
+- Single patient with HRAS mutation in prospective lung adenocarcinoma cohort (860 patients, MSK-IMPACT); HRAS is in the RAS family alongside KRAS and NRAS which are more commonly mutated in LUAD [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -138,3 +139,6 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

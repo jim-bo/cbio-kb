@@ -1,7 +1,7 @@
 ---
 symbol: CDKN2A
 aliases: []
-cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
+cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD, ACRM]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
 processed_by: entity-page-writer
 processed_at: 2026-05-15
@@ -101,6 +101,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - 9p21 codeletion (with [CDKN2B](../genes/CDKN2B.md) and [MTAP](../genes/MTAP.md)) defines CN Cluster A in urothelial carcinoma; in patient WCM117, CDKN2A progressed from sub-clonal heterozygous deletion in the primary to clonal homozygous deletion in distant metastases (FISH-confirmed) [PMID:27749842](../papers/27749842.md)
 - CDKN2A is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC); identified by MutSig analysis of 216 mBC whole-exome sequences [PMID:28027327](../papers/28027327.md)
 - CDKN2A inactivated in 76% of EAC and 76% of ESCC (by mutation, deletion, or epigenetic silencing); significantly mutated in EAC; combined CDKN2A loss and CCND1/CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
+- CDKN2A — deletions identified in advanced LUAD; no patient with CDKN2A deletion as the highest actionable alteration received matched therapy in this precision oncology cohort [PMID:28336552](../papers/28336552.md)
+- CDKN2A — recurrent deletion on Chr 9 in acral lentiginous melanoma (ALM), retained significance in both primary and metastatic tumor subsets [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -304,5 +306,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

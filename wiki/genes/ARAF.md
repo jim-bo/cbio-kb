@@ -9,7 +9,7 @@ tags:
   - adenoid-cystic-carcinoma
   - subclonal-mutation
   - raf-kinase
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -22,6 +22,7 @@ ARAF (A-Raf proto-oncogene, serine/threonine kinase) is a member of the RAF kina
 ## Alterations observed in the corpus
 
 - Subclonal missense mutation in at least one breast adenoid cystic carcinoma (AdCC) case; identified as a non-passenger event in a WES cohort of 12 breast AdCCs; associated with intra-tumor heterogeneity at diagnosis [PMID:26095796](../papers/26095796.md)
+- 2 hotspot S214Y/S214P missense mutations in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT cohort, n=860); S214 alleles are sorafenib-sensitive in prior preclinical work [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ ARAF (A-Raf proto-oncogene, serine/threonine kinase) is a member of the RAF kina
 - [PMID:26095796](../papers/26095796.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

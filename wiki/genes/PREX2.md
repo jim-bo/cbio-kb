@@ -3,8 +3,8 @@ symbol: PREX2
 aliases: [P-REX2, DEPDC2]
 cancer_types: [SKCM]
 tags: [mutation, structural-rearrangement, amplification, melanoma, PTEN-pathway, oncogene]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PREX2
@@ -19,6 +19,7 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 - Complex structural rearrangements and high-level amplification of PREX2 detected in acral melanoma ME032 [PMID:22622578](../papers/22622578.md)
 - Ectopic expression of 3 truncated PREX2 variants and the G844D point mutant significantly accelerated in vivo tumor formation in PMEL-NRAS* melanocytes compared to wild-type PREX2 or GFP controls [PMID:22622578](../papers/22622578.md)
 - p.Arg297Cys and p.Glu1295Lys mutations (alleles previously reported in melanoma, cutaneous SCC, and head and neck cancer); encodes a Rac exchange factor that inhibits [PTEN](../genes/PTEN.md); functionally connected to recurrent [PTEN](../genes/PTEN.md) 10q23.3 deletions in Sézary syndrome [PMID:26551667](../papers/26551667.md)
+- Two novel nonsynonymous events (S1167T, A355T) in acral melanoma; not previously reported as recurrent in melanoma, although S1167N was reported in a cutaneous melanoma metastasis [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ PREX2 (Phosphatidylinositol-3,4,5-Trisphosphate Dependent Rac Exchange Factor 2)
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

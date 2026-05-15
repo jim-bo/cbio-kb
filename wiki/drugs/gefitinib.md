@@ -30,6 +30,7 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via [EGFR](../genes/EGFR.md) inhibition; gefitinib trials in cSCC noted alongside [cetuximab](../drugs/cetuximab.md) in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
 - Cited as the sole phase II agent trialed in metastatic cutaneous SCC (cSCC), reporting an 18% CR rate; the authors argue [EGFR](../genes/EGFR.md) pathway biomarker refinement ([EGFR](../genes/EGFR.md) S720F, amplification) is needed before uniform [EGFR](../genes/EGFR.md) targeting in this disease [PMID:25589618](../papers/25589618.md)
 - First-generation EGFR TKI; low-cost and broadly accessible in India for young-onset NSCLC patients with EGFR mutations; review cites enrichment of EGFR exon 19 deletions (52.6% of EGFR-mutant cases) in young patients as rationale for first-line use [PMID:27346245](../papers/27346245.md)
+- Mentioned as first-generation EGFR TKI in 860-patient MSK-IMPACT LUAD cohort context; L861Q and exon 18 deletion alleles had significantly lower clinical-benefit rates with first-generation TKIs, supporting evaluation of second/third-generation agents over gefitinib for these alleles [PMID:28336552](../papers/28336552.md).
 
 ## Resistance mechanisms
 
@@ -62,5 +63,8 @@ Gefitinib (Iressa) is a first-generation, reversible [EGFR](../genes/EGFR.md) ty
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

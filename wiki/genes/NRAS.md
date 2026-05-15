@@ -58,6 +58,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - 4 mutations in cisplatin-resistant germ cell tumors (GCT); 3 of 4 in cisplatin-resistant tumors; MEK inhibitors (trametinib, selumetinib, binimetinib) listed as targeted therapy candidates [PMID:27646943](../papers/27646943.md)
 - Ras-pathway activating mutations (including NRAS G12D) in 35.2% of DUX4/ERG B-ALL cases; NRAS G12D cooperated with dominant-negative ERGalt to sustain lymphoid colony replating in Arf−/− mouse cells [PMID:27776115](../papers/27776115.md)
 - Activating NRAS mutations (Q61H, Q61R, Q61K, G13A, G13D) across multiple pediatric AML, ALL, neuroblastoma (NBL), and rhabdomyosarcoma (RMS) cases; MEK-inhibitor targets identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- 10 mutations detected in a prospective LUAD cohort (860 patients): 9 Q61 and 1 G13; no patient with NRAS as highest-level driver received matched therapy [PMID:28336552](../papers/28336552.md)
+- 4 mutations in 34 acral melanoma (ALM) patients: Q61K in 3 (9%) and A59G in 1; mutually exclusive of BRAF mutations in this cohort [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -199,3 +201,9 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

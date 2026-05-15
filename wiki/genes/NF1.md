@@ -63,6 +63,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 inactivating mutations associated with shorter breast cancer-specific survival in ER- tumours (HR=2.7) in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
 - Interesting structural variant identified in salivary duct carcinoma (SDCA) [PMID:27442865](../papers/27442865.md)
 - Germline (3%) and somatic NF1 mutations in pheochromocytoma/paraganglioma; 17q11.2 focal deletion present in 95% of NF1-mutated tumors; an NF1–RAB11FIP4 underexpressed fusion was also identified [PMID:28162975](../papers/28162975.md)
+- Truncating mutations and deletions in 16 LUAD patients (level 4); enriched in TCGA LUAD cohort vs MSK clinical cohort (8.3% vs 2%, p<0.001) [PMID:28336552](../papers/28336552.md)
+- Homozygous loss in 9% (3/34) of acral melanoma patients; additionally LOH plus nonsense mutation E2578* in one further patient; NF1-subtype tumors were BRAF/NRAS wild-type with co-occurring PAK1 copy gains [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -213,3 +215,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

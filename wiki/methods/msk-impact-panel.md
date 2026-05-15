@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # MSK-IMPACT panel (generic)
@@ -58,6 +58,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT 410-gene panel (IMPACT410) applied to 151 advanced head and neck tumors at MSK; CLIA-approved, median coverage 600x; guided therapy in 21/151 (14%) patients and 13/53 (25%) HNSC cases [PMID:27442865](../papers/27442865.md)
 - MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective GCT patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
 - Used for targeted DNA sequencing (230-gene panel, avg 348x tumour / 280x normal coverage) to characterize 62 high-grade unclassified renal cell carcinoma (uRCC) tumours at MSKCC; variant calling via MuTect and GATK Somatic Indel Detector on hg19-aligned reads. [PMID:27713405](../papers/27713405.md)
+- MSK-IMPACT panel sequencing (341 and 410-gene versions) applied to 10,945 tumors across 62 cancer types for clinical actionability [PMID:28336552](../papers/28336552.md)
 
 ## Notes
 
@@ -141,3 +142,6 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

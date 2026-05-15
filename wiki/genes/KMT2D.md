@@ -53,6 +53,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, SETD2, ARID2 and NCOR1 as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
 - KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted [PMID:28007021](../papers/28007021.md).
 - KMT2D (MLL2) histone-modifier alterations frequent in ESCC, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and KDM6A [PMID:28052061](../papers/28052061.md).
+- Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -184,3 +185,6 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

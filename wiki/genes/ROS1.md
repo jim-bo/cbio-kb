@@ -24,6 +24,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 fusions are an established therapeutic target in lung ADC; mentioned in the 1,144-tumor NSCLC landscape study in the context of RTK-directed therapies (ALK and ROS1 inhibitors) applying almost exclusively to lung ADC rather than lung SqCC, given the histology-restricted molecular landscape. [PMID:27158780](../papers/27158780.md)
 - ROS1 structural variants identified as interesting alterations in salivary duct carcinoma (SDCA) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
 - ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older NSCLC patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
+- Fusions identified in LUAD; level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before crizotinib FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
 
 ## Cancer types (linked)
 
@@ -69,3 +70,6 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

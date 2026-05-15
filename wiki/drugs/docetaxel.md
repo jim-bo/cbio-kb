@@ -5,8 +5,8 @@ drug_class: taxane (microtubule stabilizer)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, taxane, sarcoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # docetaxel
@@ -22,6 +22,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - Used in combination with [selumetinib](../drugs/selumetinib.md) in a co-clinical GEM/human trial for KRAS-mutant [LUAD](../cancer_types/LUAD.md); STK11/LKB1 loss was found to significantly influence resistance to the selumetinib + docetaxel combination in mouse lung adenocarcinoma models [PMID:23999436](../papers/23999436.md).
 - Most of 63 mCRPC men in the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort received at least one systemic chemotherapy, most commonly docetaxel, as part of their prior treatment history; docetaxel use is described as a background treatment rather than a study intervention. [PMID:26928463](../papers/26928463.md)
 - Listed as a later-line regimen in the WashU urothelial carcinoma WES cohort (n=32 patients); specifically, docetaxel + [ramucirumab](../drugs/ramucirumab.md) was administered at disease progression in the WCM117 case after cisplatin + gemcitabine, illustrating the multi-line treatment context of post-chemotherapy clonal evolution [PMID:27749842](../papers/27749842.md)
+- Used in combination with gemcitabine (16 cycles) after nephrotoxicity precluded continuation of ISG/SSG IV protocol in EWSR1::BEND2 bladder sarcoma; disease was approximately stable on this regimen; patient died at 26 months post-diagnosis [PMID:28199314](../papers/28199314.md).
 
 ## Resistance mechanisms
 
@@ -40,3 +41,6 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; docetaxel + ramucirumab as later-line regimen in WCM117 post-cisplatin/gemcitabine.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28199314](../papers/28199314.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

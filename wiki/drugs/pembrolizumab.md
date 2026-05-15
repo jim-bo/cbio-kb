@@ -38,6 +38,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PD-1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA melanoma cases) contextualize pembrolizumab biomarker hypotheses; Immune-subclass survival advantage and LCK/LScore bivariate model proposed as predictive framework [PMID:26091043](../papers/26091043.md)
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): pembrolizumab (and [nivolumab](../drugs/nivolumab.md)) anti-PD-1 therapy; overall mutational load associated with survival but not response (P=0.30); [BRCA2](../genes/BRCA2.md) LOF mutations enriched 6× in responders (28% vs 6%, Fisher P=0.002, OR=6.2); IPRES transcriptional program (mesenchymal transition, angiogenesis, ECM remodeling) defined innate non-responders (9/13 NR vs 1/15 R); IPRES overlaps MAPKi-induced signatures, implicating [vemurafenib](../drugs/vemurafenib.md)/[dabrafenib](../drugs/dabrafenib.md)/[trametinib](../drugs/trametinib.md) sequencing as potential resistance driver [PMID:26997480](../papers/26997480.md)
 - PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in NSCLC; largest absolute 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:27346245](../papers/27346245.md)
+- Used as anti-PD-1 immune checkpoint blockade in acral lentiginous melanoma (ALM); 2 of 3 complete responders were anti-PD-1-treated but had low mutational burden (<75 coding mutations), suggesting response in ALM may occur via mechanisms distinct from mutational load [PMID:28373299](../papers/28373299.md).
 
 ## Resistance mechanisms
 
@@ -97,5 +98,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

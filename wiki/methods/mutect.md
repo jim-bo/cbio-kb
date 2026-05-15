@@ -9,8 +9,8 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MuTect
@@ -50,6 +50,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for SNV calling in 62 uRCC tumours profiled with the MSK-IMPACT 230-gene panel (matched normal available in 61/62 cases). [PMID:27713405](../papers/27713405.md)
 - SNV calling pipeline applied alongside SNVseeqer on 72 urothelial carcinoma WES samples; only ~28% of mutations were shared between matched pre/post-chemotherapy tumour pairs. [PMID:27749842](../papers/27749842.md)
 - Used (MuTect v1.1.7) as the primary substitution caller in analysis of 216 metastatic breast cancer whole-exome sequencing datasets, downstream of BWA-MEM alignment and GATK base recalibration [PMID:28027327](../papers/28027327.md).
+- Used MuTect for somatic SNV calling from paired tumor-normal sequencing data [PMID:28373299](../papers/28373299.md)
+- Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -139,5 +141,11 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

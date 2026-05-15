@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # TopHat/Cufflinks (Tuxedo Suite)
@@ -18,6 +18,7 @@ The Tuxedo Suite is a bioinformatics pipeline for RNA-seq analysis consisting of
 ## Used by
 
 - TopHat2/Bowtie2/Cufflinks (Tuxedo Suite) used for transcript mapping and quantification in the PIPseq pediatric precision oncology program at Columbia University Medical Center; relative gene expression was compared against a 124-transcriptome reference panel (13 blood, 20 liver, 24 kidney, 17 lung, 50 brain tissues) [PMID:28007021](../papers/28007021.md).
+- Used TopHat/Cufflinks pipeline for RNA-seq alignment and transcript quantification [PMID:28373299](../papers/28373299.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ The Tuxedo Suite is a bioinformatics pipeline for RNA-seq analysis consisting of
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

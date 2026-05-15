@@ -151,6 +151,10 @@
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
 - method: polysolver — observed in PMID:27149842 — note: HLA class I typing and somatic HLA mutation calling from WES; 11% of 619 CRCs had HLA mutations enriched in TIL-high tumors
 - method: netmhcpan — observed in PMID:26997480 — note: pan-allele MHC class I binding affinity predictor; used for neoepitope prediction in melanoma (v2.8) and CRC (v2.4) WES cohorts
+- drug: tazemetostat — observed in PMID:28196596 — note: EZH2 inhibitor (structurally related to tool compound EPZ011989); proposed combination with cisplatin/etoposide or irinotecan in SCLC to prevent SLFN11 silencing
+- drug: dacomitinib — observed in PMID:28336552 — note: 2nd-gen pan-HER TKI; cited as preferred agent for atypical EGFR alleles (L861Q, exon 18 del) in LUAD
+- drug: telomerase-inhibitor-ix — observed in PMID:28373299 — note: TERT inhibitor compound; 2.5 µM produced ≥75% viability loss in ALM cell lines with TERT gains/promoter mutations; spared normal melanocytes
+- drug: tamoxifen — observed in PMID:28445112 — note: known risk factor for endometrial polyps with KRAS mutations; none of the 23 study patients had been on tamoxifen so the association could not be tested
 - method: metabric-targeted-sequencing — observed in PMID:27161491 — note: 173-gene Illumina Nextera custom capture panel (~1.2 Mbp) applied to 2,433 METABRIC primary breast tumours
 - method: vogelstein-ratiometric — observed in PMID:27161491 — note: Vogelstein 20/20-style ONC/TSG ratiometric driver-discovery scheme; applied ER-stratified in METABRIC breast-cancer study
 - method: ascat — observed in PMID:27161491 — note: allele-specific copy-number and LOH calling; used for CCF estimation in 2,433 METABRIC breast tumours
@@ -447,3 +451,16 @@
 - drug: melphalan — observed in PMID:27959731 — note: nitrogen mustard alkylating agent; RIC/myeloablative conditioning for allo-SCT in AML/MDS; corpus-grown slug
 - drug: cladribine — observed in PMID:27959731 — note: purine analog; CLAG/CLAG-M salvage induction in relapsed AML; corpus-grown slug
 - drug: daunorubicin — observed in PMID:27959731 — note: anthracycline; 7+3 induction backbone in AML (daunorubicin + cytarabine); TP53-mutant AML yields only 4–6-month OS on 7+3; corpus-grown slug
+- method: 3prime-rna-seq — observed in PMID:28445112 — note: Lexogen QuantSeq 3' mRNA-Seq FWD on NovaSeq 6000; 25 endometrial polyps + 6 normal endometrium; gene-level expression only
+- method: cnvkit — observed in PMID:28445112 — note: CNVkit copy-number calling against pooled blood normal of 18 matched controls in endometrial polyp WGS pipeline
+- method: sigprofiler — observed in PMID:28445112 — note: SigProfiler mutational signature extraction from endometrial polyp SNVs; SBS1/SBS5/SBS40 dominant
+- method: mutationalpatterns — observed in PMID:28445112 — note: MutationalPatterns 3.4.1 complementary signature analysis; additionally identified SBS8 and SBS89 in endometrial polyps
+- method: oncodriveclust — observed in PMID:28445112 — note: OncodriveCLUST driver detection by mutation clustering; nominated UBE2A codon-6 as candidate driver (score 0.83, q=1.51×10⁻⁵) in endometrial polyps
+- method: alphamissense — observed in PMID:28445112 — note: AlphaMissense deep-learning pathogenicity scorer; UBE2A p.(Arg6Trp) score 0.96 (likely pathogenic) in endometrial polyp driver analysis
+- method: cadd — observed in PMID:28445112 — note: CADD Phred-scaled deleteriousness scorer; UBE2A p.(Arg6Trp) CADD=24.4 in endometrial polyp variant annotation
+- method: revel — observed in PMID:28445112 — note: REVEL ensemble pathogenicity predictor; UBE2A p.(Arg6Trp) REVEL=0.56 in endometrial polyp variant annotation
+- method: splice-ai — observed in PMID:28445112 — note: SpliceAI deep-learning splice-site predictor; HMGA1 c.268C>G scored delta 0.25 (weak donor-site loss) in endometrial polyp study
+- method: dynamut — observed in PMID:28445112 — note: DynaMut protein-stability predictor (PDB 6CYO); UBE2A p.(Arg6Trp) ΔΔG=+1.650 kcal/mol (stabilizing) in endometrial polyp driver analysis
+- method: trusight-pan-cancer-rna-panel — observed in PMID:28199314 — note: Illumina TruSight Pan-Cancer RNA panel; detected EWSR1::BEND2 fusion in bladder small round cell sarcoma; retrospective research use
+- method: sarcoma-methylation-classifier — observed in PMID:28199314 — note: Koelsche et al. v13 sarcoma DNA-methylation classifier; no class match for EWSR1::BEND2 bladder sarcoma on EPIC array
+- method: brain-tumor-methylation-classifier — observed in PMID:28199314 — note: Capper et al. CNS tumor methylation classifier; low-confidence score 0.364 for MN1-rearranged astroblastoma in EWSR1::BEND2 bladder sarcoma

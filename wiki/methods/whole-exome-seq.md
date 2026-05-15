@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Whole-exome sequencing (WES)
@@ -138,6 +138,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 216 metastatic breast cancer tumor-normal pairs (Agilent SureSelect All Exon V5/Clinical Research Exome; Illumina HiSeq 2500/4000 or NextSeq 500; mean 83± 18× normal, 122±15× tumor) to identify 12 significantly mutated driver genes in metastatic breast cancer [PMID:28027327](../papers/28027327.md).
 - Applied to 164 oesophageal carcinomas and 359 gastric adenocarcinomas in the TCGA esophageal/stomach study (Agilent SureSelect V5 at Broad Institute and Nimblegen SeqCap EZ v3.0 at Washington University) to define squamous vs. adenocarcinoma molecular subtypes [PMID:28052061](../papers/28052061.md).
 - Applied to 173 pheochromocytoma/paraganglioma tumors in the TCGA PCPG study (paired tumor + matched normal) yielding a somatic mutation rate of ~0.67 mutations/Mb and identifying five significant driver genes [PMID:28162975](../papers/28162975.md).
+- Applied whole-exome sequencing to characterize somatic mutations in tumor samples [PMID:28196596](../papers/28196596.md)
+- Performed whole-exome sequencing as part of clinical genomic profiling for cancer patients [PMID:28336552](../papers/28336552.md)
+- Applied whole-exome sequencing to identify somatic mutations in pediatric cancer cohort [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -465,5 +468,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28336552](../papers/28336552.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

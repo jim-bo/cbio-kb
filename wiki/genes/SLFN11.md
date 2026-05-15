@@ -7,7 +7,7 @@ tags:
   - pharmacogenomics
   - topoisomerase-inhibitor-biomarker
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: "2026-05-15"
 canonical_source: cbioportal
 unverified: false
 ---
@@ -21,6 +21,7 @@ SLFN11 (Schlafen Family Member 11) encodes a member of the Schlafen protein fami
 ## Alterations observed in the corpus
 
 - SLFN11 expression predicts sensitivity to topoisomerase I inhibitors (irinotecan, topotecan) across multiple cancer lineages in the Cancer Cell Line Encyclopedia (947 cell lines, 24 drugs); SLFN11 knockdown via shRNA did not affect steady-state growth, leaving the mechanistic basis unresolved [PMID:22460905](../papers/22460905.md)
+- EZH2-mediated H3K27me3 spreading across the SLFN11 gene body silences SLFN11 expression in chemoresistant SCLC PDX models; loss of SLFN11 confers cross-resistance to cisplatin, etoposide, topotecan, and irinotecan [PMID:28196596](../papers/28196596.md).
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ SLFN11 (Schlafen Family Member 11) encodes a member of the Schlafen protein fami
 - [PMID:22460905](../papers/22460905.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28196596](../papers/28196596.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Whole-genome sequencing (WGS)
@@ -84,6 +84,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset NSCLC [PMID:27346245](../papers/27346245.md)
 - WGS on N=32 B-ALL cases to identify IGH-DUX4 rearrangements and characterize the genomic landscape of the DUX4/ERG B-ALL subtype. [PMID:27776115](../papers/27776115.md)
 - Low-pass (6–8×) whole-genome sequencing performed on 51 oesophageal cancers as part of the TCGA esophageal/stomach multi-platform study to characterize structural variants [PMID:28052061](../papers/28052061.md).
+- Performed whole-genome sequencing to comprehensively catalog structural variants and mutational signatures [PMID:28373299](../papers/28373299.md)
+- Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:28445112](../papers/28445112.md)
 
 ## Notes
 
@@ -277,5 +279,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: MITF
 aliases: []
 cancer_types: [MEL]
 tags: [melanocyte-master-regulator, transcription-factor, cell-identity, melanoma-driver]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MITF
@@ -22,6 +22,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - Relapse-associated focal amplification in resistant melanoma tumors; overexpression confers pan-MAPK-inhibitor cross-resistance (30–80-fold) in WM266.4/SKMEL19/UACC62 cell lines; represents a transcriptional-effector resistance mechanism [PMID:24265153](../papers/24265153.md)
 - ACTG1-MITF fusion identified in pRCC (sample 159T); activates [HIF1A](../genes/HIF1A.md), [MET](../genes/MET.md), and [APEX1](../genes/APEX1.md); greater protein stability and transforming activity than wild-type MITF; defines 'MiTF-high' subtype alongside TFE3/TFEB fusions and amplifications [PMID:25401301](../papers/25401301.md)
 - MITF focal amplifications in BRAF-mutant cutaneous melanoma subtype (TCGA 333-sample cohort); recurrent fusions identified (MITF-FOXP1, CADM2-MITF, FRMD4B-MITF); defines a low-expression transcriptomic subclass [PMID:26091043](../papers/26091043.md)
+- Notably absent from the top 421 differentially expressed genes used for expression clustering in acral lentiginous melanoma (ALM), in contrast to its key role in cutaneous melanoma; this absence distinguishes ALM's transcriptional landscape from CM [PMID:28373299](../papers/28373299.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28373299](../papers/28373299.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

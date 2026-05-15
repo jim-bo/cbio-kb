@@ -1,10 +1,10 @@
 ---
 symbol: KRT14
 aliases: []
-cancer_types: []
+cancer_types: [BLCA]
 tags: [keratinocyte-marker, cell-identity, transcriptomic-marker]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KRT14
@@ -16,6 +16,7 @@ KRT14 (Keratin 14) is an intermediate filament protein expressed in the basal la
 ## Alterations observed in the corpus
 
 - Used as a lineage-confirmation marker for keratinocytes in normal human skin atlas profiling (297 single melanocytes from 31 donors, Xenium spatial validation); co-expressed with [KRT17](../genes/KRT17.md) and [KRT5](../genes/KRT5.md) to confirm keratinocyte identity and exclude non-melanocyte contamination from melanocyte clonal expansion. No somatic alterations in KRT14 reported. [PMID:39975212](../papers/39975212.md)
+- Defining basal/stem marker of the basal-squamous MIBC subtype (35% of 412 tumors, TCGA BLCA 2017); high expression co-occurs with CD44, KRT5, and KRT6A in squamous-differentiated, immune-infiltrated tumors. [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ KRT14 (Keratin 14) is an intermediate filament protein expressed in the basal la
 - [PMID:39975212](../papers/39975212.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

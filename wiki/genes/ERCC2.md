@@ -25,6 +25,7 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - Significantly mutated gene in renal oncocytoma (ROCY) identified by whole-exome sequencing of 167 non-clear cell RCCs; driver status requires functional validation in larger cohorts [PMID:25401301](../papers/25401301.md)
 - Rare in chemotherapy-progressing urothelial carcinoma, consistent with prior data that ERCC2 mutations mark cisplatin responders and are selected against in progressing tumors [PMID:27749842](../papers/27749842.md)
 - Most common DNA damage repair (DDR) gene alteration in NMIBC (17% of high-grade cases); missense mutations cluster in conserved helicase domains and associate with markedly elevated mutational burden [PMID:28583311](../papers/28583311.md)
+- Missense mutations in 9% of MIBC (n=40), preferentially in/around the helicase domain (suggested dominant-negative effect); defines the MSig4 mutational-signature cluster (24/39 ERCC2-mutant tumors; p=10⁻¹³); ERCC2-signature mutations highest in smokers with ERCC2 mutations (p=6.9×10⁻¹¹) [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -70,5 +71,8 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

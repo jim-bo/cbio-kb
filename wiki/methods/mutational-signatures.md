@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -31,6 +31,9 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Mutation signatures decomposed against the Alexandrov 30-signature catalog (KL-divergence) in 994 high-TMB cases from MSK-IMPACT, tracking aging, APOBEC, smoking, BRCA1/2, MMR, UV, POLE, and TMZ signatures [PMID:28481359](../papers/28481359.md)
 - Ten COSMIC mutational signatures identified in 489 CCAs (Signatures 1, 5, 8, 16, 17; APOBEC 2/13; MMR-deficient 6/20; aristolochic acid 22); APOBEC enriched in Fluke-Pos and Signature 1 elevated in CpG-island Cluster 1 [PMID:28667006](../papers/28667006.md)
 - 24 mutational signatures detected with ≥5% contribution across 491 medulloblastomas; Signature 3 (BRCA-associated) unexpectedly prevalent in Group 3/4; Signatures 18 and 5 enriched in Group 3 (P=4.7×10⁻⁵) and Group 4 (P=1.0×10⁻¹¹) respectively [PMID:28726821](../papers/28726821.md)
+- Five APOBEC-dominated mutational signature clusters (MSig1–MSig4) defined from 412 BLCA tumors; MSig1 (high-APOBEC, high-burden) had best 5-year survival (75%) while MSig2 (low mutation rate) had the worst (22%) [PMID:28988769](../papers/28988769.md)
+- Mutational signatures decomposed using deconstructSigs v1.8.0 against COSMIC in 68 paired melanoma WES samples; COSMIC signature 11 (temozolomide/melanoma-related) was enriched in novel on-therapy mutations in progressive-disease patients [PMID:29033130](../papers/29033130.md)
+- COSMIC mutational signatures applied to 206 TCGA sarcomas; 90% of mutations attributed to COSMIC5 (53%) and COSMIC1 (37%); APOBEC signatures elevated in DDLPS and MPNST (p<10⁻⁶) [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -74,10 +77,19 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

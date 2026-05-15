@@ -3,7 +3,7 @@ symbol: MET
 aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC, HNSC]
 tags: [rtk, metastasis, resistance, amplification]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -49,6 +49,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Harbors H1094Y pathogenic missense mutation in a single unclassified RCC (uRCC) case (T62), suggesting overlap with papillary RCC and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
 - Exon 14 alterations in prospective LUAD cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
 - Included in the targetable-alteration tally recovered by broad-panel sequencing vs amplicon panels and shallow WES in a 62-tumor-type pan-cancer cohort [PMID:28481359](../papers/28481359.md)
+- MET amplification or oncogenic mutation was identified in 5% of esophagogastric cancer (EGC) patients in the MSK cohort; MET was one of several potentially targetable kinase targets frequently co-occurring with other RTK-RAS-PI3K alterations, suggesting combination strategies may be needed for clinical actionability [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -164,3 +165,6 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

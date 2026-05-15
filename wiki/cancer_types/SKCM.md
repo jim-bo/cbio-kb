@@ -7,7 +7,7 @@ tags:
   - melanoma
   - skin-cancer
   - UV-mutagenesis
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - Comprehensive genomic analysis of cutaneous melanoma revealed mutational landscape dominated by UV-signature mutations with recurrent alterations in [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), and [NF1](../genes/NF1.md) [PMID:26359337](../papers/26359337.md)
 - 38 pretreatment metastatic SKCM biopsies profiled by WES and RNA-seq to identify genomic and transcriptomic correlates of anti-PD-1 response; the IPRES mesenchymal/angiogenic transcriptional program defined innate resistance in 9/13 non-responders vs 1/15 responders, and BRCA2 LOF mutations were enriched in responders (28% vs 6%, Fisher P=0.002, OR=6.2) [PMID:26997480](../papers/26997480.md)
 - Cutaneous melanoma (SKCM) used as comparator to acral melanoma (ACRM): SKCM harbours canonical UV-signature BRAF/NRAS/NF1 drivers and higher mutation burden, contrasting with ACRM's structural-variant dominance and UV-signature absence [PMID:28373299](../papers/28373299.md)
+- Riaz et al. profiled paired pre- and on-therapy biopsies from 68 advanced melanoma patients on anti-PD-1 (nivolumab, CA209-038 trial), demonstrating that pre-therapy TMB predicts OS in ipilimumab-naive but not ipilimumab-progressed patients, and that genomic contraction (selective depletion of neoantigenic clones on-therapy) in responders provides evidence of immunoediting under PD-1 blockade [PMID:29033130](../papers/29033130.md)
 
 ## Subtypes
 
@@ -80,3 +81,6 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; ACRM integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

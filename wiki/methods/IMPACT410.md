@@ -5,7 +5,7 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 genePanelId: IMPACT410
 ---
@@ -29,6 +29,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used to sequence 19 anaplastic oligodendroglioma tumors from the MSK HDC-ASCT trial (odg_msk_2017), confirming canonical IDH1/TERT/CIC/FUBP1 signatures in 1p/19q-codeleted cases [PMID:28472509](../papers/28472509.md)
 - 410-gene panel used in 74% (8,136/10,945) of the MSK-IMPACT prospective cohort; hybrid-capture, mean depth 718x, with patient-matched normal blood DNA for 98% of cases [PMID:28481359](../papers/28481359.md)
 - Used alongside IMPACT341 to sequence 105 NMIBC tumors from the blca_nmibc_2017 cohort; identified ARID1A mutations as the only gene significantly associated with BCG recurrence [PMID:28583311](../papers/28583311.md)
+- 410-gene version of MSK-IMPACT applied to a subset of 295 metastatic EGC patients in the MSKCC prospective sequencing cohort [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -55,10 +56,13 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

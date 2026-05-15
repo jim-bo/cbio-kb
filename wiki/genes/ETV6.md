@@ -24,6 +24,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - ETV6/NTRK3 fusion detected in papillary thyroid carcinoma (PTC); part of 6/484 (1.2%) NTRK1/3 fusions combined; fusion is BRS-neutral (neither BVL nor RL phenotype). [PMID:25417114](../papers/25417114.md)
 - Implicated in [PCNSL](../cancer_types/PCNSL.md) via focal amplification or homozygous deletion event [PMID:25991819](../papers/25991819.md)
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
+- Preferentially mutated in ABC-DLBCL; ETV6 mutations in DLBCL are ABC-subtype-enriched in the comprehensive genetic and functional driver analysis [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

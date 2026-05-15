@@ -65,6 +65,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Upregulated expression in Cluster 2 CCA (p < 0.05), alongside WNT5B and AKT1, implicating Wnt pathway activation in this molecular subtype of cholangiocarcinoma [PMID:28667006](../papers/28667006.md).
 - Hotspot mutations in 86% of WNT-subgroup medulloblastomas; sometimes subclonal alongside subclonal DDX3X variants in the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 - Wnt-pathway co-alteration alongside RNF43 and APC in prostate cancer; enriched in metastatic disease states relative to locoregional in the SU2C/PCF pan-cancer prostate cohort [PMID:28825054](../papers/28825054.md).
+- placeholder
 
 ## Cancer types (linked)
 
@@ -179,5 +180,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

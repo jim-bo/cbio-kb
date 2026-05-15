@@ -30,6 +30,8 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - Applied to 473 glioma samples in the TCGA pan-glioma study for protein-level pathway analysis complementing genomic and transcriptomic data [PMID:26824661](../papers/26824661.md)
 - Reverse-phase protein array (RPPA) profiled 113 oesophageal/gastric tumors in the TCGA esophageal/stomach study; ESCC2 showed elevated cleaved Caspase-7; RPPA helped distinguish ESCC subtypes [PMID:28052061](../papers/28052061.md).
 - RPPA applied to 173 PCPG tumors in the TCGA PCPG study; RPPA cluster 3 (RAS-MAPK signaling) enriched in kinase signaling subtype; MAML3 fusion-positive tumors showed elevated β-catenin, DVL3, and GSK3 by RPPA [PMID:28162975](../papers/28162975.md).
+- Applied to 343/412 BLCA tumors with 208 antibodies; five proteomic clusters with distinct outcomes (p=0.019) identified, including HER2-high clusters proposed for trastuzumab and an EGFR-high cluster for EGFR inhibitors [PMID:28988769](../papers/28988769.md)
+- Applied to 206 TCGA sarcomas for protein expression profiling; STLMS showed highest PD-L1 expression among sarcoma subtypes (p=4×10⁻⁵ vs ULMS) [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -76,3 +78,9 @@ Reverse-phase protein array (RPPA) is a high-throughput antibody-based platform 
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -9,7 +9,7 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -38,6 +38,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - PI3K/mTOR pathway event in cisplatin-resistant GCT; mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
 - Missense mutations in 8% of unclassified RCC (uRCC); recurrent L2427R (×3) is functionally activating; co-occurs with TSC1/TSC2/PTEN alterations defining a mutually exclusive mTORC1-hyperactive uRCC subset responsive to mTOR inhibitors [PMID:27713405](../papers/27713405.md)
 - 1 patient with S2215Y as highest driver; 1 UMD patient with novel L2383F missense had 1-month no-benefit course on everolimus in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- MTOR was identified as a functional oncogene in DLBCL by CRISPR screen (its knockout depleted cell growth across lines) and was a driver gene in 1001 DLBCL patients; MTOR mutations are prevalent in DLBCL but associate with generally good outcomes in the GCB subtype, suggesting patients with MTOR alterations may be underrepresented in clinical trials of MTOR inhibitors [PMID:28985567](../papers/28985567.md)
+- Aberrant PI3K-AKT-MTOR signaling is recurrent in leiomyosarcoma (LMS), with frequent amplification and upregulation of MTOR along with PTEN deletion/mutation, IGF1R, AKT, and RICTOR alterations; MTOR inhibitors (everolimus, temsirolimus) have shown limited clinical efficacy in LMS; dual PI3K/MTOR inhibitors may offer improved outcomes [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -109,3 +111,9 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

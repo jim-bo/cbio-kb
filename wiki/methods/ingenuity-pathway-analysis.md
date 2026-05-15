@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, gene-set-enrichment, functional-annotation, commercial]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Ingenuity Pathway Analysis
@@ -18,6 +18,7 @@ Ingenuity Pathway Analysis (IPA) is a commercial bioinformatics platform (Qiagen
 ## Used by
 
 - Used for pathway enrichment analysis of somatically mutated genes in 25 adenoid cystic carcinomas (ACCs) from whole-genome sequencing; identified Rho-family GTPase signaling (44% of tumors, p=3.9×10⁻⁶) and axon-guidance signaling (56%, p=8.3×10⁻⁵) as significantly enriched pathways, nominating these as candidate therapeutic targets in [ACYC](../cancer_types/ACYC.md) [PMID:26862087](../papers/26862087.md)
+- Ingenuity Pathway Analysis (IPA) used alongside GSEA for pathway enrichment in the melanoma nivolumab study (CA209-038) immune and genomic response gene sets [PMID:29033130](../papers/29033130.md)
 
 ## Notes
 
@@ -32,3 +33,6 @@ Ingenuity Pathway Analysis (IPA) is a commercial bioinformatics platform (Qiagen
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

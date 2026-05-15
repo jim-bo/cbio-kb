@@ -107,6 +107,11 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Cell-cycle gene alterations including CDKN2A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 [BLCA](../cancer_types/BLCA.md) NMIBC tumors profiled by [MSK-IMPACT](../methods/msk-impact-panel.md); grouped with [RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), [CDKN1A](../genes/CDKN1A.md) as a cell-cycle pathway unit [PMID:28583311](../papers/28583311.md)
 - Recurrent focal deletion in CCA (n=17 of 71 WGS cases), among the most frequent recurrent deletions in the cohort alongside UTY and KDM5D [PMID:28667006](../papers/28667006.md).
 - Second most frequently altered tumor suppressor in the MET500 metastatic pan-cancer cohort (80/500, 16%) [PMID:28783718](../papers/28783718.md).
+- placeholder
+- placeholder
+- placeholder
+- placeholder
+- placeholder
 
 ## Cancer types (linked)
 
@@ -328,5 +333,20 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

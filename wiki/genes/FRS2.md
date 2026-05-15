@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - amplification
   - FGF-signaling
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FRS2
@@ -19,6 +19,7 @@ FRS2 (Fibroblast Growth Factor Receptor Substrate 2) is an adaptor protein that 
 ## Alterations observed in the corpus
 
 - FRS2 located within the 12q15 amplicon amplified in 9% of rhabdomyosarcoma cases, skewed toward fusion-negative (PFN) tumors; co-amplified with [MDM2](../genes/MDM2.md) within this locus [PMID:24436047](../papers/24436047.md)
+- FRS2 amplification (96%) is part of the defining 12q13-15 amplicon in dedifferentiated liposarcoma (DDLPS), alongside MDM2 (100%), CDK4 (92%), HMGA2 (76%), and NAV3 (60%) [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ FRS2 (Fibroblast Growth Factor Receptor Substrate 2) is an adaptor protein that 
 - [PMID:24436047](../papers/24436047.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

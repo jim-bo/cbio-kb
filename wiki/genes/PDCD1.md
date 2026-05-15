@@ -28,6 +28,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - Expression of PDCD1 (PD-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset, whole-tumor transcriptome); lack of significant difference attributed to dilution of immune-cell-specific signal in bulk RNA-seq. [PMID:26997480](../papers/26997480.md)
 - PDCD1 not directly altered in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); 47% of lung ADC and 53% of lung SqCC had ≥5 predicted neoepitopes, providing rationale for broad checkpoint immunotherapy applicability across both subtypes. [PMID:27158780](../papers/27158780.md)
 - PDCD1 (PD-1) specifically upregulated in Cluster 3 of cholangiocarcinoma molecular subtypes alongside PDCD1LG2 (PD-L2) and BTLA, motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
+- PDCD1 (PD-1) strongly expressed in luminal-infiltrated subtype of MIBC, the proposed checkpoint-immunotherapy-responsive subset; expression also high in basal-squamous [PMID:28988769](../papers/28988769.md)
+- PDCD1 (PD-1) upregulated on-therapy regardless of response in metastatic melanoma patients treated with nivolumab; pre-therapy expression not differentially expressed between responders/non-responders by RNA-seq, though PD-L1 IHC positivity selected for response among Ipi-P patients [PMID:29033130](../papers/29033130.md)
 
 ## Cancer types (linked)
 
@@ -89,3 +91,9 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -5,7 +5,7 @@ drug_class: taxane microtubule stabilizer
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, anti-tubulin, radiosensitizer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - Taxane chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients as part of platinum-based combination regimens [PMID:27346245](../papers/27346245.md)
 - Taxane; listed among salvage/combination regimens in the clinical context of cisplatin-resistant GCT management [PMID:27646943](../papers/27646943.md)
 - TRMT10A loss in 22Rv1 and C4-2 mCRPC cells enhanced sensitivity to paclitaxel in addition to PARP inhibitors, consistent with impaired homologous recombination shifting double-strand break repair toward NHEJ/MMEJ [PMID:28068672](../papers/28068672.md)
+- Paclitaxel-containing regimens were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen PFS (HR=0.99, P=0.947) and MSI-H patients had inferior outcomes on cytotoxic therapy [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -58,3 +59,6 @@ Paclitaxel (Taxol) is a taxane that stabilizes microtubule polymers, preventing 
 - [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; TRMT10A loss confers paclitaxel sensitivity in 22Rv1 and C4-2 cells consistent with impaired HR shifting DSB repair toward NHEJ/MMEJ.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

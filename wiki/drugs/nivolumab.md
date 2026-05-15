@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -30,6 +30,8 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Anti-PD-1 ICI listed among investigational agents for recurrent/metastatic [NPC](../cancer_types/NPC.md); PD-1/PD-L1 monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md); [relatlimab](../drugs/relatlimab.md) + nivolumab in randomized REMAIN trial for LAG-3 co-blockade [PMID:24952746](../papers/24952746.md)
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PDCD1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA cases) identified as rationale for checkpoint blockade including nivolumab; LScore + [LCK](../genes/LCK.md) bivariate prognostic model proposed for adjuvant-therapy decisions [PMID:26091043](../papers/26091043.md)
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): nivolumab (and [pembrolizumab](../drugs/pembrolizumab.md)) anti-PD-1 therapy; IPRES transcriptional program (mesenchymal transition, angiogenesis, wound healing) enriched in innate non-responders; IPRES co-enrichment not predictive in anti-CTLA-4 cohort ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)), distinguishing anti-PD-1 from anti-CTLA-4 resistance mechanisms; 14/38 patients had prior MAPKi therapy [PMID:26997480](../papers/26997480.md)
+- In a 68-patient melanoma cohort treated with nivolumab (ipilimumab-naive and ipilimumab-progressed), pre-therapy clonal mutation load predicted OS and response only in ipilimumab-naive patients; on-therapy genomic contraction at week 4 predicted response (CR/PR vs PD p=5.87e-5) better than raw TMB change [PMID:29033130](../papers/29033130.md)
+- Authors advocate considering anti-PD-1 agents including nivolumab early in MSI-H EGC, where median PFS on first-line chemotherapy was only 4.8 months but multiple durable immunotherapy responses were observed [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -72,3 +74,9 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

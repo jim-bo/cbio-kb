@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -78,6 +78,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutated in 21% of non-muscle-invasive bladder cancers (NMIBC); the only single gene significantly associated with recurrence after BCG immunotherapy (HR = 3.14, p = 0.002); ARID1A mutations may predict BCG failure and motivate testing of EZH2 inhibitors (synthetic lethality in ARID1A-deficient tumors) [PMID:28583311](../papers/28583311.md)
 - ARID1A enriched in Cluster 1 of cholangiocarcinoma (p < 0.01) and also a recurrent structural variant target [PMID:28667006](../papers/28667006.md)
 - ARID1A is a SWI/SNF subunit mutated in medulloblastoma; together with SMARCA4 and ARID2, SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
+- SWI/SNF chromatin remodeler with recurrent inactivating mutations and 4.2% deletions in MIBC (TCGA, n=412) [PMID:28988769](../papers/28988769.md)
+- Mutated in 15% of metastatic esophagogastric cancer (EGC) tumors profiled by MSK-IMPACT (n=200) [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -265,7 +267,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+- [PMID:28988769](../papers/28988769.md)
+- [PMID:29122777](../papers/29122777.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

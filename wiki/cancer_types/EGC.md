@@ -4,7 +4,7 @@ oncotree_code: EGC
 main_type: Esophagogastric Cancer
 parent: STOMACH
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -32,6 +32,7 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [MET](../genes/MET.md) — co-amplification detected in ctDNA at progression; [MET](../genes/MET.md) IHC expression confirmed in escape lesions. [PMID:37406106](../papers/37406106.md)
 - [FGFR3](../genes/FGFR3.md)-[TACC3](../genes/TACC3.md) — subclonal fusion identified at single-cell level by serial ctDNA; expanded on-treatment, implicating it as a resistance driver. [PMID:37406106](../papers/37406106.md)
 - Esophagogastric carcinoma / esophageal gastric adenocarcinoma was included in the MSK-IMPACT pan-cancer cohort (msk_impact_2017) spanning 62 principal tumor types; MSI gastric/esophageal tumors were among those showing responses to immune checkpoint blockade in the pan-cancer MSI analysis. [PMID:28481359](../papers/28481359.md)
+- Janjigian et al. prospectively profiled 295 stage-IV esophagogastric adenocarcinoma patients with MSK-IMPACT (341/410/468-gene panels); 53% had at least one actionable alteration; MSI-H tumors (3%) were chemotherapy-refractory but immunotherapy-sensitive; NGS-based ERBB2 amplification level predicted trastuzumab benefit better than IHC/FISH; HRD/LST did not predict platinum response [PMID:29122777](../papers/29122777.md)
 
 ## Subtypes
 
@@ -55,3 +56,6 @@ Esophagogastric adenocarcinoma (EGC) encompasses adenocarcinomas of the esophagu
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

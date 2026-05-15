@@ -21,6 +21,7 @@ FANCI (Fanconi Anemia Complementation Group I) forms a heterodimer with [FANCD2]
 
 - FANCI expression is elevated in high-CCP mCRPC tumors as part of the FA complex gene set (alongside [FANCA](../genes/FANCA.md), FANCD2, [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md)); correlated with E2F1 and RB1 loss; part of the 15-gene FA signature (r = 0.78 with CCP score, P < 0.001); homozygous deleterious FANCI events qualify patients for the DNA-repair-defect carboplatin-response group (log-rank P = 0.02). [PMID:26928463](../papers/26928463.md)
 - FANCI identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCM, LZTR1, and XRCC3 [PMID:27346245](../papers/27346245.md)
+- FANCI is overexpressed in the poor-prognosis STLMS iCluster C1, grouped with CCNE2 and MCM2 as cell-cycle / DNA replication / DNA-repair genes characterizing the worse-prognosis LMS subtype [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ FANCI (Fanconi Anemia Complementation Group I) forms a heterodimer with [FANCD2]
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

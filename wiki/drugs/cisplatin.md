@@ -10,7 +10,7 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -50,6 +50,8 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Cisplatin + [gemcitabine](../drugs/gemcitabine.md) (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); post-chemotherapy tumors showed clonal enrichment of [L1CAM](../genes/L1CAM.md) and integrin-signaling missense mutations, an APOBEC3A-dominant mutational signature, and selective elimination of [ATM](../genes/ATM.md)/[RB1](../genes/RB1.md)/[FANCC](../genes/FANCC.md)-altered clones (73.3% pre- vs 37.9% post-chemotherapy, p=0.05); cisplatin specifically drove a C>A mutational signature consistent with its known adduct-forming mechanism [PMID:27749842](../papers/27749842.md)
 - Used in combination with etoposide (cisplatin/etoposide) as first-line chemotherapy in SCLC PDX models; 10/10 PDXs were sensitive to 6–8 cycles with 65–95% tumor growth inhibition; concurrent EZH2 inhibitor (EPZ011989) enhanced disease control and prevented SLFN11 suppression in SLFN11-high models [PMID:28196596](../papers/28196596.md).
 - Adjuvant cisplatin/[carboplatin](../drugs/carboplatin.md) plus [vinorelbine](../drugs/vinorelbine.md) was the standard adjuvant chemotherapy backbone in the TRACERx NSCLC ctDNA study (NCT01888601, n=24 longitudinal patients). ctDNA clearance after adjuvant therapy correlated with sustained remission (CRUK0013, 688 days relapse-free), while rising ctDNA SNV burden during adjuvant therapy identified resistance in real time in patients who all recurred within 1 year. [PMID:28445469](../papers/28445469.md)
+- Luminal-papillary MIBC (35% of TCGA bladder cohort, FGFR3-enriched) shows preliminary low likelihood of response to cisplatin-based neoadjuvant chemotherapy, while basal-squamous MIBC is proposed as appropriate for cisplatin-based regimens; etoposide-cisplatin is proposed for the neuronal subtype [PMID:28988769](../papers/28988769.md)
+- In 295 metastatic EGC patients (MSK-IMPACT), HRD/LST scores did not predict PFS on first-line platinum-based chemotherapy (HR=0.99, P=0.947); MSI-H patients had significantly shorter PFS on cytotoxic therapy (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -128,3 +130,9 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

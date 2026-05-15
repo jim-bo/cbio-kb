@@ -21,6 +21,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - Co-amplified with [BIRC2](../genes/BIRC2.md) at 11q22 in HPV(-) HNSCC (TCGA, n=279); majority of 11q13-amplified tumours carried large telomeric 11q22 deletions including [ATM](../genes/ATM.md) and CASP1-5-12; inferred selection via BIRC2-FADD-caspase cascade inhibiting cell death [PMID:25631445](../papers/25631445.md)
 - Focal amplification in 1–3 desmoplastic melanoma tumours; IHC confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
 - YAP1 is not mutated but accumulates in nuclei of NF2-loss uRCC tumours (26% of cohort); shRNA knockdown of YAP1 in NF2-loss nccRCC lines ACHN and LB996-RCC reduces S- and G2/M-phase cells (P<0.001) and decreases soft-agar colony formation, validating functional dependency. [PMID:27713405](../papers/27713405.md)
+- Focally amplified (3%) in UPS/MFS and also amplified in 16% of DDLPS as an adipocyte-differentiation inhibitor; the YAP1/VGLL3 TEAD-cofactor target signature is strongly expressed (p=1e-24) in UPS/MFS, supporting a role for Hippo pathway activation in these sarcoma subtypes [PMID:29100075](../papers/29100075.md).
 
 ## Cancer types (linked)
 
@@ -41,17 +42,10 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 ## Sources
 
 - [PMID:24816255](../papers/24816255.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24997986](../papers/24997986.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26343386](../papers/26343386.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27713405](../papers/27713405.md)
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

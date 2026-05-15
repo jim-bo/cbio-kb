@@ -3,7 +3,7 @@ symbol: CDK4
 aliases: []
 cancer_types: [RMS, ARMS, ERMS, ACRM]
 tags: [cell-cycle, amplification, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -43,6 +43,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - CDK4 co-overexpression with MDM2 in neuroblastoma (NBL); patient enrolled on the NEPENTHE trial (NCT02780128) targeting CDK4/6 in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - CDK4 — recurrent copy gain on Chr 12, with significance retained specifically in metastatic ALM subsets; mutually exclusive patterns with CDKN2A deletion on Chr 9 [PMID:28373299](../papers/28373299.md)
 - Amplification in 2/19 (10.5%) anaplastic oligodendroglioma tumors sequenced by [MSK-IMPACT 410](../methods/IMPACT410.md); classified [OncoKB](../methods/oncokb-annotation.md) Level 2B (FDA-recognized biomarker predictive of response in another indication) [PMID:28472509](../papers/28472509.md)
+- placeholder
+- placeholder
 
 ## Cancer types (linked)
 
@@ -133,3 +135,9 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

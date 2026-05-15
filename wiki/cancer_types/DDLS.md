@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - liposarcoma
   - soft-tissue
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 canonical_source: oncotree
 unverified: false
 ---
@@ -31,6 +31,7 @@ Dedifferentiated liposarcoma (DDLS) is a high-grade soft tissue sarcoma characte
 - [YEATS4](../genes/YEATS4.md) — co-amplified with MDM2 on 12q; upregulated in amplified vs. copy-neutral tumors; knockdown anti-proliferative; proposed p53-network repressor. [PMID:20601955](../papers/20601955.md)
 - Complex karyotype: copy-neutral LOH confined to DDLS and other complex subtypes ([PLLS](../cancer_types/PLLS.md), [LMS](../cancer_types/LMS.md), [MFS](../cancer_types/MFS.md)). [PMID:20601955](../papers/20601955.md)
 - Of 385 genes screened by shRNA in three DDLS lines, 99 showed anti-proliferative effects (nominal p<0.05) in ≥1 line; 91/99 confirmed by ≥2 independent shRNAs; 27/99 were amplified in ≥1 line, supporting 12q amplification as a source of oncogene dependencies. [PMID:20601955](../papers/20601955.md)
+- DDLPS (n=50) had the highest SCNA frequency of any TCGA tumor type, driven by near-universal 12q13~15 amplification (MDM2 100%, CDK4 92%, HMGA2 76%); SCNA + methylation sub-clustering defined three DSS-stratified groups (K1 JUN-amplified, K2 TERT-amplified, K3 6q25.1-amplified) with worst outcome in hypermethylated K1+K2 (Meth2 HR=4.4, p=0.002) [PMID:29100075](../papers/29100075.md)
 
 ## Subtypes
 
@@ -46,3 +47,6 @@ Dedifferentiated liposarcoma (DDLS) is a high-grade soft tissue sarcoma characte
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

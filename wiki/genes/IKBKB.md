@@ -1,10 +1,10 @@
 ---
 symbol: IKBKB
 aliases: [IKK2, IKK-beta]
-cancer_types: [OSCC]
+cancer_types: [OSCC, DLBCLNOS]
 tags: [NF-kB-pathway, kinase, 11q13-amplicon, HNSCC]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # IKBKB
@@ -16,6 +16,7 @@ IKBKB (inhibitor of nuclear factor kappa B kinase subunit beta, also known as IK
 ## Alterations observed in the corpus
 
 - Located within or near the 11q13 CCND1 amplicon in OSCC with strong copy-number-expression correlation; possibly contributes to oncogenesis alongside CCND1 in this genomic context [PMID:23619168](../papers/23619168.md)
+- ABC-selective CRISPR essentiality in DLBCL (B-cell-development/NF-κB signaling); reinforces NF-κB pathway targeting (e.g., BTK inhibitors, IRAK inhibitors) for ABC DLBCL patients in a 1001-patient cohort. [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ IKBKB (inhibitor of nuclear factor kappa B kinase subunit beta, also known as IK
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

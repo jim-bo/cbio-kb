@@ -21,7 +21,7 @@ tags:
   - chromatin-remodeling
   - apobec-mutagenesis
   - multi-platform
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -71,6 +71,7 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - Used as comparator for plasmacytoid-variant bladder cancer: CDH1 truncating mutations were absent in 127 urothelial carcinoma NOS tumors from this cohort, establishing CDH1 mutation as specific to the plasmacytoid variant [PMID:26901067](../papers/26901067.md)
 - Used as mutation-frequency benchmark for matched pre/post-chemotherapy WES of 72 UC tumors from 32 patients at Weill Cornell; copy-number landscape stability and APOBEC mutagenesis prevalence in this cohort provided the reference distribution for evolution analyses in the Cornell dataset [PMID:27749842](../papers/27749842.md)
 - Used as MIBC comparator in the MSK NMIBC NGS study: [FGFR3](../genes/FGFR3.md) alteration rates in this TCGA MIBC cohort (16%) vs LGTa NMIBC (83%) supported the interpretation that FGFR3 alterations decrease progressively with stage; [STAG2](../genes/STAG2.md) truncating mutation rate (15% in TCGA MIBC) confirmed enrichment of STAG2 truncations in low-grade NMIBC (39%) vs advanced disease [PMID:28583311](../papers/28583311.md)
+- Superseded by the expanded 412-tumor [blca_tcga_pub_2017](../datasets/blca_tcga_pub_2017.md) cohort (Robertson et al. 2017); the 2014 131-tumor set is retained as the historical baseline for the original TCGA BLCA molecular characterization [PMID:28988769](../papers/28988769.md)
 
 ## Sources
 
@@ -78,3 +79,6 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - cBioPortal study ID: blca_tcga_pub
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

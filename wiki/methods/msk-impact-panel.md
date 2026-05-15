@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -63,6 +63,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Prospective CLIA-certified hybrid-capture sequencing of 10,945 advanced/metastatic tumors from 10,336 patients across 62 tumor types; catalogued 78,066 non-synonymous mutations, 22,989 CNAs, and 1,875 rearrangements [PMID:28481359](../papers/28481359.md)
 - Sequenced 105 NMIBC tumors and 40 MIBC comparators with matched germline DNA; ARID1A mutation was the only gene significantly associated with BCG recurrence (HR=3.14, p=0.002) [PMID:28583311](../papers/28583311.md)
 - Hybridization-capture targeted DNA panel covering >300 cancer-related genes (SNVs, indels, somatic CNAs, structural rearrangements) applied to 504 tumors from 451 prostate cancer patients spanning locoregional to mCRPC; matched normal blood used for germline filtering; 68% sequencing success rate [PMID:28825054](../papers/28825054.md)
+- CLIA-certified hybrid-capture targeted NGS assay applied to 295 metastatic esophagogastric adenocarcinoma (EGC) patients at MSKCC; mean coverage 744X; detected mutations, copy-number alterations, and select rearrangements [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -151,13 +152,16 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

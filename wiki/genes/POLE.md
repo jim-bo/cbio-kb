@@ -38,6 +38,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - One LGTa NMIBC harbored a truncating H1901Lfs*15 mutation deemed likely non-functional (3' end, no hypermutation phenotype); no POLE-exonuclease hotspot mutations found in this NMIBC cohort (n=105) [PMID:28583311](../papers/28583311.md)
 - Mutated in 2 of 3 hypermutator cholangiocarcinomas alongside MSI mutational signatures; hypermutator subtype represents a candidate for immune-checkpoint blockade [PMID:28667006](../papers/28667006.md)
 - Somatic POLE mutation explains one of two hypermutator medulloblastomas (ICGC_MB62) in a 491-sample pan-MB WGS/WES cohort; the MLH1-mutant case illustrates an alternate MMR-deficiency hypermutator mechanism [PMID:28726821](../papers/28726821.md)
+- POLE P286R mutation in a single ultra-mutated MIBC tumor (>4000 SNVs), defining the POLE mutational-signature subset [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -104,3 +105,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

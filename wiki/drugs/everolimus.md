@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # everolimus
@@ -31,6 +31,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - TSC1/TSC2 mutations occur in 6.3% of HR+/HER2- metastatic breast cancer vs 0.7% of primary breast cancer (p=0.0004), enriched in endocrine-therapy-pre-treated patients; authors hypothesize TSC1/2-mutant tumors may be outlier responders to everolimus, which is approved for HR+/HER2- mBC [PMID:28027327](../papers/28027327.md)
 - 1 MTOR-L2383F UMD patient received 1-month no-benefit course of everolimus in 860-patient MSK-IMPACT LUAD cohort; TSC1/TSC2 truncating mutations (level 2B) identified in 6 patients, none received matched mTOR-inhibitor therapy due to off-label barriers [PMID:28336552](../papers/28336552.md).
 - Proposed as potentially actionable agent for PTEN loss (10q deletion) identified in EWSR1::BEND2 bladder sarcoma via PI3K/AKT/mTOR pathway rationale; not administered to the patient [PMID:28199314](../papers/28199314.md).
+- Authors note prior efficacy of everolimus in leiomyosarcoma but flag the limitation of compensatory AKT activation; recommend evaluating dual PI3K/MTOR inhibitors given pervasive PTEN/AKT3/MTOR/IGF1R/RICTOR pathway alterations in 84% of ULMS+STLMS C1 [PMID:29100075](../papers/29100075.md)
 
 ## Resistance mechanisms
 
@@ -75,3 +76,6 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:28199314](../papers/28199314.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

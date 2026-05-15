@@ -67,6 +67,9 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Homozygous loss in 9% (3/34) of acral melanoma patients; additionally LOH plus nonsense mutation E2578* in one further patient; NF1-subtype tumors were BRAF/NRAS wild-type with co-occurring PAK1 copy gains [PMID:28373299](../papers/28373299.md)
 - Mutated in 4/19 (21%; F1247Ifs*18, F1455Lfs*9, F2386, K2595Sfs*5) in 1p/19q-codeleted anaplastic oligodendroglioma; also found in 1p/19q-intact glioblastoma-like tumors; none of the individual mutations were predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
 - Most commonly fused tumor suppressor in MET500 500-patient metastatic cancer cohort (n=18 fusion events) [PMID:28783718](../papers/28783718.md)
+- Mutations in NF1 were associated with more favorable overall survival in DLBCL (combined GCB and ABC cohort analysis of 1001 patients) [PMID:28985567](../papers/28985567.md)
+- Homozygous copy-number deletions in NF1 were manually reviewed and confirmed in melanoma patients treated with nivolumab as part of copy-number analysis from the Riaz et al. cohort [PMID:29033130](../papers/29033130.md)
+- Truncating mutations in NF1 (n=3) were found among potentially functional driver mutations in the TCGA sarcoma cohort; NF1 shallow deletions occurred in 22% and deep deletions in 6% of DDLPS; NF1 was not epigenetically silenced in bladder cancer (no promoter hypermethylation detected) [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -189,5 +192,14 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

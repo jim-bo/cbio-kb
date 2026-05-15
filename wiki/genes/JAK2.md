@@ -1,10 +1,10 @@
 ---
 symbol: JAK2
 aliases: []
-cancer_types: []
+cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # JAK2
@@ -22,6 +22,8 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - Co-amplified with [CD274](../genes/CD274.md) (PD-L1) and [PDCD1LG2](../genes/PDCD1LG2.md) (PD-L2) at 9p24.1 in 15% of EBV-positive gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)) tumours (TCGA); elevated mRNA expression; supports rationale for JAK2 inhibitors and immune-checkpoint blockade in EBV-positive [STAD](../cancer_types/STAD.md) [PMID:25079317](../papers/25079317.md)
 - Among 60 genes with COSMIC hotspot mutations identified as potential drug targets across non-clear cell RCC subtypes [PMID:25401301](../papers/25401301.md)
 - Identified as a marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
+- Recurrent driver in DLBCL (1001-patient cohort) but CRISPR knockout did NOT impair growth, suggesting JAK2 may act in early pathogenesis or via non-targetable functions in established DLBCL; cautions against naive mutation-based targeting. [PMID:28985567](../papers/28985567.md)
+- Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +61,9 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

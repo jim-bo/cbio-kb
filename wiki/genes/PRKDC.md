@@ -3,8 +3,8 @@ symbol: PRKDC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PRKDC
@@ -22,6 +22,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Frameshift (I1137fs) and nonsense (E640*) mutations identified in an aggressive localized prostate cancer case (Michigan WES, 112 tumors); DNA damage response gene [PMID:22722839](../papers/22722839.md)
 - DNA-PKcs (PRKDC) activation is preserved in EWS::FLI1-expressing heMSCs despite basal hyperphosphorylation of ATM/ATR and failure of etoposide-induced DDR signaling [PMID:25186949](../papers/25186949.md)
 - Nonsense mutations observed in [NSCLC](../cancer_types/NSCLC.md) tumors from pembrolizumab-treated patients; required for DNA-dependent protein kinase (DNA-PK) activity and genomic integrity [PMID:25765070](../papers/25765070.md)
+- PRKDC has truncating mutations (n=4) in sarcoma; implicated in telomere stabilization and double-strand-break repair [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:25765070](../papers/25765070.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

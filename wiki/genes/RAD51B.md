@@ -24,6 +24,7 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - Intron-5 partner in a [MYBL1](../genes/MYBL1.md) truncation event (AC78) in adenoid cystic carcinoma [PMID:26631609](../papers/26631609.md)
 - Novel partner locus in 1/20 ACC tumors; downstream region contains smaller enhancers that are translocated to MYB, driving MYB overexpression [PMID:26829750](../papers/26829750.md)
 - Recurrent translocation partner of HMGA1/HMGA2 (14q24.1 breakpoints) in endometrial polyps (WGS, 23 polyps); intragenic and downstream breakpoints observed; not considered a classical driver in this context [PMID:28445112](../papers/28445112.md)
+- RAD51B shows recurrent focal deletions (n=10, 2%) at 14q24.1 in MIBC; a new finding not seen in the original 131-tumor cohort [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

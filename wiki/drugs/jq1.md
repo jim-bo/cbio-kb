@@ -13,8 +13,8 @@ tags:
   - SCLC
   - synthetic-lethality
   - tool-compound
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # JQ1
@@ -31,6 +31,7 @@ JQ1 is a potent, selective BET (bromodomain and extra-terminal) bromodomain inhi
 - Bliss synergy between JQ1 and BRD-K98645985 demonstrated in vitro in [SCLC](../cancer_types/SCLC.md) cell lines [PMID:22037554](../papers/22037554.md).
 - [MYC](../genes/MYC.md) amplification (~14% of pancreatic ductal adenocarcinoma cases, associated with poor overall survival and adenosquamous histology) nominates BET-bromodomain inhibitor JQ1 as a therapeutic candidate [PMID:25855536](../papers/25855536.md)
 - JQ1 (50 mg/kg daily orally) significantly slowed tumor growth in 2 grade-2 adenoid cystic carcinoma (ACC) primagrafts (X5M1, X9), with modest decreases in [MYB](../genes/MYB.md) and MYB-target gene expression; both grade-3 Notch-activated primagrafts failed to respond, implicating [BRD4](../genes/BRD4.md) occupancy at [MYB](../genes/MYB.md) super-enhancers as a grade-2-specific dependency [PMID:26829750](../papers/26829750.md)
+- BET inhibitor JQ1 shows preclinical benefit in KDM6A-loss bladder cancer (Ler et al. 2017, cited); KDM6A loss affects ~5% of MIBC by focal deletion plus inactivating mutations in a subset, and the BRD4-EZH2 axis is proposed as a combination-therapy target in MIBC [PMID:28988769](../papers/28988769.md)
 
 ## Resistance mechanisms
 
@@ -49,3 +50,6 @@ JQ1 is a potent, selective BET (bromodomain and extra-terminal) bromodomain inhi
 - [PMID:26829750](../papers/26829750.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

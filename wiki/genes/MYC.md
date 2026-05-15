@@ -85,6 +85,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Referenced as a known SCLC oncogene contributing to transcriptional addictions and super-enhancer biology in acquired chemoresistance study (EZH2/SLFN11 axis in SCLC) [PMID:28196596](../papers/28196596.md)
 - Recurrent oncogene amplification in cholangiocarcinoma (n=12 WGS cases) [PMID:28667006](../papers/28667006.md)
 - Amplification restricted to Group 3 medulloblastoma (17% of Group 3 cases) in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
+- MYC was identified as a functional oncogene in DLBCL by CRISPR screen (depletion on knockout); MYC mutations were strongly associated with poorer overall survival (p<0.05); MYC translocations correlated with high MYC expression; high MYC expression combined with high BCL2 expression (double expressors) defined the poorest prognosis subgroup; MYC genetic alterations combined with high MYC expression defined the least favorable prognosis subgroup in a multivariate genomic model [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -291,5 +292,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

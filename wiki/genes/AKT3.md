@@ -3,7 +3,7 @@ symbol: AKT3
 aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -22,6 +22,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - Amplification, overexpression, and recurrent fusions (CEP170-AKT3, AKT3-PLD5, ZEB2-AKT3, ARHGAP30-AKT3) enriched in RAS/NF1/Triple-WT melanoma subtypes vs [BRAF](../genes/BRAF.md) (p < 0.05); E17K mutation nominated as biomarker for MEK + PI3K/AKT/mTOR combination therapy [PMID:26091043](../papers/26091043.md)
 - AKT3 mutation identified as part of the PI3K/AKT/mTOR pathway gene set disrupted in 39% of anaplastic thyroid carcinomas (ATC) vs 11% of poorly differentiated thyroid carcinomas (PDTC) (P = 1×10⁻³) in a 341-gene targeted sequencing cohort (n=117 advanced tumors) [PMID:26878173](../papers/26878173.md)
 - AKT3 carries activating hotspot mutations alongside AKT1, PIK3CA, and PIK3R1 in prostate cancer; combined PI3K/AKT pathway alterations nominate PI3K-pathway inhibitors as candidates [PMID:28825054](../papers/28825054.md)
+- PI3K/AKT/MTOR pathway alterations occur in 84% of ULMS+STLMS C1 vs 44% of STLMS C2 sarcomas; AKT3 is among the pathway components with recurrent alterations nominating dual PI3K/MTOR or TORC1/TORC2 inhibitors [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -58,7 +59,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+- [PMID:29100075](../papers/29100075.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

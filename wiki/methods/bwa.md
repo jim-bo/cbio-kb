@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [alignment, short-read, dna-seq, bioinformatics]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -42,6 +42,7 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 - Used BWA for short-read alignment to the reference genome in WGS/WES pipelines [PMID:28373299](../papers/28373299.md)
 - BWA MEM used for alignment to hg19 in the MSK-IMPACT bioinformatics pipeline, followed by ABRA realignment and GATK base-quality recalibration [PMID:28481359](../papers/28481359.md)
 - Used for alignment of whole-genome sequencing reads (Illumina HiSeq X10/2500/2000) in the ICGC cholangiocarcinoma study (n=71 WGS tumor/normal pairs) [PMID:28667006](../papers/28667006.md)
+- BWA mem alignment to hg19 applied in the DLBCL whole-exome sequencing pipeline for 1001 tumors [PMID:28985567](../papers/28985567.md)
 
 ## Notes
 
@@ -120,7 +121,10 @@ BWA (Burrows-Wheeler Aligner) is a short-read alignment tool for mapping sequenc
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: CCNE2
 aliases: []
 cancer_types: [GBM]
 tags: [amplification, cell-cycle]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # CCNE2
@@ -16,6 +16,7 @@ CCNE2 encodes cyclin E2, a regulatory subunit of cyclin-dependent kinase 2 ([CDK
 ## Alterations observed in the corpus
 
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated alongside [CCND1](../genes/CCND1.md) and [CCND2](../genes/CCND2.md) [PMID:24120142](../papers/24120142.md)
+- placeholder
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CCNE2 encodes cyclin E2, a regulatory subunit of cyclin-dependent kinase 2 ([CDK
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

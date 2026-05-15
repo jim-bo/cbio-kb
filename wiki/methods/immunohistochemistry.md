@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -44,6 +44,9 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Performed immunohistochemistry to confirm protein-level alterations in tissue samples [PMID:28445112](../papers/28445112.md)
 - Ki67 immunohistochemistry performed on TMA cores in TRACERx; high Ki67 proliferation index was an independent predictor of pre-operative ctDNA detection in early-stage NSCLC [PMID:28445469](../papers/28445469.md)
 - IHC for Ki67, E-cadherin, and Vimentin performed on subcutaneous DU145 and PC3 xenograft sections after NOL10 knockdown; confirmed reduced proliferation and reduced EMT markers (lower Vimentin, higher E-cadherin) [PMID:28927585](../papers/28927585.md)
+- Used for IRF4, BCL6, and CD10 protein expression as part of the Hans IHC algorithm for cell-of-origin classification in 654 DLBCL cases (cross-validated against RNA-seq, p<10⁻⁶) [PMID:28985567](../papers/28985567.md)
+- IHC performed for PD-L1 (28-8/Dako), CD3, CD4, CD8, and FOXP3 with duplex chromogenic readout in 68 melanoma biopsies; PD-L1 IHC positivity selected for nivolumab response in ipilimumab-progressed patients [PMID:29033130](../papers/29033130.md)
+- IHC used for HER2 status assessment (3+ positive per CAP/ASCO criteria) and B2M protein expression validation in 295 metastatic EGC patients; HER2 IHC concordance with NGS-based ERBB2 amplification was 93.7% [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -121,7 +124,16 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28445469](../papers/28445469.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

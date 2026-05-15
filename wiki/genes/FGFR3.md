@@ -43,6 +43,9 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 alterations (including activating mutations and fusions) were profiled across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 - Hotspot mutations in 49% of NMIBC overall (more frequent in lower grade/stage); four fusions identified including novel FGFR3-TNIP2 and FGFR3-TACC3; mutually exclusive with ERBB2; together covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
 - FGFR3-TACC3 fusion reported for the first time in cholangiocarcinoma (CCA) in the 489-sample ICGC multi-platform cohort; this fusion was previously characterized as oncogenic in bladder cancer, glioblastoma, and lung cancer [PMID:28667006](../papers/28667006.md)
+- Hotspot S249C/Y373C mutations dominate in MIBC; enriched in luminal-papillary subtype (42/57; p<10⁻⁹) and lower-stage T2 tumors (21% vs 10% T3/T4, p=0.003); associated with better survival (p=0.04); recurrent FGFR3-TACC3 fusions (n=10); dominant driver in 44% of luminal-papillary tumors; candidate for pan-FGFR tyrosine kinase inhibitors [PMID:28988769](../papers/28988769.md)
+- Highly expressed in CR/PR vs PD melanoma patients pre-therapy (189-DEG set, q<0.20) in nivolumab-treated cohort; nominated as an immune-environment modulator predictive of anti-PD-1 response [PMID:29033130](../papers/29033130.md)
+- High FGFR3 expression is characteristic of the synovial sarcoma (SS) iCluster C4 in soft-tissue sarcoma (p=7e-20) [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -135,5 +138,14 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

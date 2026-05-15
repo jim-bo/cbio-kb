@@ -7,7 +7,7 @@ tags:
   - chromatin-remodeling
   - swi-snf
   - tumor-suppressor-candidate
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ ARID5B (AT-rich interaction domain 5B) is a member of the ARID family of chromat
 - Chromatin remodeler truncated or hit at COSMIC sites in cutaneous squamous cell carcinoma; part of SWI/SNF complex alterations observed in 48% of 29-tumor cSCC cohort [PMID:25589618](../papers/25589618.md)
 - ARID5B, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); first report of SWI/SNF disruption in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 - ARID5B identified as an additional context gene in disease-state enrichment analyses of prostate cancer progression (locoregional to mCRPC) alongside FOXA1 [PMID:28825054](../papers/28825054.md)
+- Mutations in ARID5B are associated with better survival in GCB DLBCL (1001-patient cohort); ARID5B is classified as a survival modifier in GCB subtype [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -61,4 +62,6 @@ ARID5B (AT-rich interaction domain 5B) is a member of the ARID family of chromat
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

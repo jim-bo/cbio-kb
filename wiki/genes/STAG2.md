@@ -33,6 +33,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - Chromatin regulator in AML chromatin-spliceosome subgroup; co-occurs with splicing factors SF3B1, SRSF2, U2AF1, ZRSR2 and chromatin regulators BCOR, EZH2, PHF6 in the same adverse-risk genomic cluster [PMID:27276561](../papers/27276561.md)
 - Truncating mutations in 23% of non-muscle-invasive bladder cancer (NMIBC; n=105); enriched in low-grade Ta tumors (p=0.046), supporting association with lower-grade/stage disease [PMID:28583311](../papers/28583311.md)
 - Recurrently altered candidate driver across medulloblastoma subgroups in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
+- Recurrent SMG in MIBC; one of the MutCN cluster definers alongside [FGFR3](../genes/FGFR3.md) and [KDM6A](../genes/KDM6A.md) [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -84,5 +85,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

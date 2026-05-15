@@ -5,7 +5,7 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 genePanelId: IMPACT341
 ---
@@ -27,6 +27,7 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used MSK-IMPACT341 panel for targeted tumor sequencing in a large clinical cohort [PMID:28336552](../papers/28336552.md)
 - 341-gene panel used in 26% (2,809/10,945) of the MSK-IMPACT prospective cohort; superseded by the 410-gene version which covers 74% of cases [PMID:28481359](../papers/28481359.md)
 - 341-gene MSK-IMPACT panel version used alongside the 410-gene version to sequence NMIBC tumors from the blca_nmibc_2017 cohort at Memorial Sloan Kettering [PMID:28583311](../papers/28583311.md)
+- 341-gene version of MSK-IMPACT applied to a subset of 295 metastatic EGC patients in the MSKCC prospective sequencing cohort [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -52,7 +53,10 @@ Targeted (341 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

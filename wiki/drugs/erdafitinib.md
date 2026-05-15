@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [fgfr-inhibitor, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # erdafitinib
@@ -24,6 +24,7 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - In a multi-site paired primary-metastasis WES study of bladder cancer (n=60 pairs), [FGFR3](../genes/FGFR3.md) mutations/fusions were discordant in 9% of primary-metastasis pairs, and cfDNA detected acquired [FGFR3](../genes/FGFR3.md) resistance mutations (N540S, K650E, V553M) during erdafitinib therapy; both tissue and cfDNA profiling recommended to assess erdafitinib eligibility [PMID:36543146](../papers/36543146.md)
 - Referenced as an FGFR inhibitor actionable in metastatic urothelial carcinoma with [FGFR3](../genes/FGFR3.md) mutations (e.g., S249C hotspot); 69.3% of UC-GENOME patients had NGS-identified treatment options including erdafitinib, but only 5.0% received targeted therapy [PMID:36333289](../papers/36333289.md)
 - Cited in HCC context as an FGFR inhibitor relevant to FGF19/FGFR4-amplified tumors; part of discussion of FGFR-targeted therapy landscape [PMID:24798001](../papers/24798001.md)
+- Pan-FGFR tyrosine kinase inhibitors including erdafitinib are proposed as rational targeted therapy for luminal-papillary MIBC (35% of cohort), which is enriched for FGFR3 mutations (42/57, p<1e-9), FGFR3-TACC3 fusions (8/10), and FGFR3 amplification [PMID:28988769](../papers/28988769.md)
 
 ## Resistance mechanisms
 
@@ -50,3 +51,6 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

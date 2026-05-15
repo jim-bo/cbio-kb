@@ -4,8 +4,8 @@ oncotree_code: LMS
 main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Leiomyosarcoma (LMS)
@@ -29,6 +29,7 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [CDKN2A](../genes/CDKN2A.md) — deletions in 10% ULMS vs. 2.6% STLMS. [PMID:38488807](../papers/38488807.md)
 - [MED12](../genes/MED12.md) — recurrent mutations in ULMS (15%), infrequent in STLMS (1%). [PMID:38488807](../papers/38488807.md)
 - TMB low: median 2 mut/Mb (STLMS) and 3 mut/Mb (ULMS); 99% and 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
+- LMS (n=80) split into STLMS (n=53) and ULMS (n=27) by iCluster; pan-LMS SMGs include TP53 (50%), RB1 (mutations 15%, deep deletions 14%), and PTEN (deep+shallow deletions ~81%); AKT-pathway alterations affected 84% of ULMS+STLMS C1 vs 44% of STLMS C2; miR-181b-5p was an independent RFS predictor (multivariate HR 7.4, p=9e-6) [PMID:29100075](../papers/29100075.md)
 
 ## Subtypes
 
@@ -48,3 +49,6 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [PMID:20601955](../papers/20601955.md) — Barretina et al. *Nature* 2010. Integrative genomic analysis of 207 high-grade soft tissue sarcomas across seven subtypes (MSKCC Sarcoma Genome Project).
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

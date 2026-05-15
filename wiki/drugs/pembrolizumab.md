@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -40,6 +40,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in NSCLC; largest absolute 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:27346245](../papers/27346245.md)
 - Used as anti-PD-1 immune checkpoint blockade in acral lentiginous melanoma (ALM); 2 of 3 complete responders were anti-PD-1-treated but had low mutational burden (<75 coding mutations), suggesting response in ALM may occur via mechanisms distinct from mutational load [PMID:28373299](../papers/28373299.md).
 - In whole-exome sequencing of 63 [clear cell endometrial carcinomas (UCCC)](../cancer_types/UCCC.md), 11.3% were MSI-high; the authors cite two MSI-H EC patients with clinical responses to pembrolizumab in a phase 2 trial of mismatch-repair-deficient tumors as motivation for immunotherapy evaluation in CCEC. [PMID:28485815](../papers/28485815.md)
+- Authors cite the SARC028 trial showing 40% response to a PD-1 inhibitor in UPS and propose that MFS — molecularly indistinguishable from UPS — should be added to checkpoint-inhibitor trials evaluating pembrolizumab; STLMS has the highest PD-L1 expression among sarcoma types (significantly higher than ULMS, p=4e-5) [PMID:29100075](../papers/29100075.md)
+- Reflex MSI testing and pembrolizumab (FDA-approved for MSI-H tumors) are recommended as standard practice in metastatic EGC; MSI-H patients had median PFS 4.8 months on first-line chemotherapy vs multiple durable immunotherapy responses; high TMB (>9.7 mut/Mb) was associated with median OS 16.8 vs 6.62 months on immunotherapy (HR=0.40, P=0.058) [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -105,3 +107,9 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:28485815](../papers/28485815.md) — Le Gallo et al. 2017, *Oncotarget*. Whole-exome sequencing of 63 CCECs; 11.3% MSI-H; pembrolizumab cited as clinically active in MSI-H EC.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -26,6 +26,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - FAT1 is among the low-frequency recurrently mutated genes (>=2 ATC or >=3 PDTC) identified by MSK-IMPACT 341-gene sequencing of 117 advanced thyroid tumors [PMID:26878173](../papers/26878173.md)
 - FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant germ cell tumors (GCT), alongside APC and AXIN1 [PMID:27646943](../papers/27646943.md)
 - R937 missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
+- 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -74,5 +75,8 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

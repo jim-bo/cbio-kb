@@ -5,7 +5,7 @@ drug_class: fluoropyrimidine antimetabolite
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ processed_at: 2026-05-15
 - Cited in [HCC](../cancer_types/HCC.md) systemic therapy review as a reference chemotherapy agent in historical combination regimens [PMID:24798001](../papers/24798001.md)
 - Implicated in standard chemotherapy regimens for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); high-clonality (HiC) GC subtype (adjusted HR 4.69, P=0.0043 for shorter survival) and subclonal [TP53](../genes/TP53.md) suggest single-agent regimens may select for resistant clones [PMID:25583476](../papers/25583476.md)
 - Listed among concurrent systemic therapies used in SBRT trials for locally advanced [PAAD](../cancer_types/PAAD.md), alongside [gemcitabine](../drugs/gemcitabine.md) and [capecitabine](../drugs/capecitabine.md); the Koong et al Phase II (n=16, 45 Gy IMRT + 25 Gy SBRT boost + 5-FU) achieved 94% 1-year freedom from local recurrence with 13% grade 3+ acute toxicity [PMID:27826200](../papers/27826200.md)
+- Fluorouracil-containing regimens (FOLFOX, FOLFIRI, capecitabine-containing) were used as standard first-line chemotherapy in the 295-patient metastatic EGC cohort; MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -53,3 +54,6 @@ processed_at: 2026-05-15
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

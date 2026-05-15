@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ipilimumab
@@ -25,6 +25,8 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PD-1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA cases) provide rationale for checkpoint blockade; the authors caution that Immune subtype responsiveness to ipilimumab, [pembrolizumab](../drugs/pembrolizumab.md), and [nivolumab](../drugs/nivolumab.md) is unproven in this cohort [PMID:26091043](../papers/26091043.md)
 - In 110 metastatic melanoma ([SKCM](../cancer_types/SKCM.md)) patients, high pretreatment nonsynonymous mutational load (P=0.0076) and predicted neoantigen load (P=0.027) were significantly associated with clinical benefit from anti-CTLA-4 blockade; cytolytic activity ([GZMA](../genes/GZMA.md)+[PRF1](../genes/PRF1.md), P=0.042) and tumor [CTLA4](../genes/CTLA4.md) expression (P=0.033) were each elevated in responders [PMID:26359337](../papers/26359337.md).
 - Used as immune checkpoint blockade (anti-CTLA-4) in 22 acral lentiginous melanoma (ALM) patients; 3 complete responders to anti-CTLA-4 ± anti-PD-1 had low mutation (<75) and neo-antigen (<60) burdens — opposite of the expected mutation-burden correlation seen in cutaneous melanoma [PMID:28373299](../papers/28373299.md).
+- In the nivolumab melanoma study, prior ipilimumab exposure (Ipi-P vs Ipi-N) defined distinct biomarker contexts: TMB/clonal load predicted response only in Ipi-N patients; TCR diversity dynamics differed between groups; SERPINB3/B4 mutations previously associated with anti-CTLA-4 benefit showed a non-significant trend toward disease control [PMID:29033130](../papers/29033130.md)
+- Authors advocate considering combination checkpoint blockade with anti-CTLA4 agents including ipilimumab for MSI-H EGC given rapid failure on first-line cytotoxic therapy (median PFS 4.8 months) but durable immunotherapy responses in the MSK-IMPACT cohort [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -58,3 +60,9 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

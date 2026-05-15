@@ -8,7 +8,7 @@ tags:
   - cytidine-deaminase
   - apobec
   - chemotherapy-resistance
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -23,6 +23,7 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 - APOBEC3A YTCA mutagenesis significantly enriched in post-chemotherapy urothelial carcinoma tumors (P=1×10⁻⁵, Fisher's exact test); APOBEC3A identified as the dominant cytidine deaminase shaping the post-chemotherapy UC mutational landscape, with clonal APOBEC-induced mutations rising after treatment [PMID:27749842](../papers/27749842.md).
 - APOBEC-induced mutations enriched in ABC-transporter (OR=2.7, P=0.038) and homologous-recombination DNA-repair (OR=3.8, P=0.033) pathways in post-chemotherapy tumors [PMID:27749842](../papers/27749842.md).
 - APOBEC3A mutational signature modestly enriched at the NOL10 locus in CPGEA and TCGA PRAD vs. genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation in prostate cancer [PMID:28927585](../papers/28927585.md)
+- Expression correlates with APOBEC-signature mutation load in MIBC; APOBEC3A/3B together account for 67% of all SNVs in the TCGA MIBC cohort (n=412), with their expression as the dominant mutagenic source [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -46,7 +47,7 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 
 - [PMID:27749842](../papers/27749842.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28927585](../papers/28927585.md)
+- [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

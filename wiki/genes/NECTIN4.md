@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - BLCA
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # NECTIN4
@@ -18,6 +18,7 @@ NECTIN4 (nectin cell adhesion molecule 4, formerly PVRL4) encodes a cell-adhesio
 ## Alterations observed in the corpus
 
 - Focal amplification (PVRL4/NECTIN4) in 19% of muscle-invasive bladder carcinomas, the highest frequency focal amplification in the TCGA bladder cohort; a potential therapeutic target [PMID:24476821](../papers/24476821.md)
+- PVRL4 (NECTIN4) amplification was identified by GISTIC analysis as a recurrent focal amplification in muscle-invasive bladder cancer (MIBC), consistent with prior TCGA findings [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ NECTIN4 (nectin cell adhesion molecule 4, formerly PVRL4) encodes a cell-adhesio
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

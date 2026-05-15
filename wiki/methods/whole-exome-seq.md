@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Whole-exome sequencing (WES)
@@ -129,6 +129,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 38 metastatic melanoma pretreatment biopsies on Illumina HiSeq2000 (2×100 bp; median 140× coverage) to call SNVs/INDELs for anti-PD-1 response analysis [PMID:26997480](../papers/26997480.md)
 - Applied to 619 CRC FFPE tumor/normal pairs (Illumina HiSeq 2000, SureSelect v.2 capture; mean 90× coverage, 87% of bases ≥20×) for driver discovery and neoantigen analysis [PMID:27149842](../papers/27149842.md)
 - Applied to 660 lung ADC and 484 lung SqCC tumor/normal pairs (Agilent SureSelect 50MB, Illumina paired-end) for comprehensive NSCLC driver and neoepitope landscape analysis [PMID:27158780](../papers/27158780.md)
+- Whole-exome sequencing applied in germline susceptibility studies of young-onset NSCLC, including identification of pathogenic variants in BRCA1, BRCA2, and Fanconi-anemia-pathway genes in YLC cohorts [PMID:27346245](../papers/27346245.md)
+- WES applied to a discovery cohort of 19 advanced germ cell tumors (10 cisplatin-resistant, 9 cisplatin-sensitive) at mean 116x coverage; identified TP53 mutations exclusive to resistant tumors and novel RAC1 hotspot mutations validated in the prospective MSK-IMPACT cohort [PMID:27646943](../papers/27646943.md)
 
 ## Notes
 
@@ -431,3 +433,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

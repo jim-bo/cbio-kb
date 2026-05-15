@@ -3,8 +3,8 @@ symbol: FLT3
 aliases: []
 cancer_types: [BLLKMT2A, THAP]
 tags: [kinase, signaling, sub-clonal]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FLT3
@@ -22,6 +22,7 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - Mutated in 56/200 (28%) of [AML](../cancer_types/AML.md) cases; part of the activated-signaling category; mutually exclusive with other tyrosine kinases/RAS-family genes; co-occurs with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) [PMID:23634996](../papers/23634996.md)
 - FLT3 internal tandem duplications (ITDs) in [AML](../cancer_types/AML.md) serve as the conceptual parallel for the [FGFR1](../genes/FGFR1.md) kinase-domain ITD identified in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
 - FLT3 is listed among the genomic context genes in nasopharyngeal carcinoma (NPC) therapeutic development. [PMID:24952746](../papers/24952746.md)
+- FLT3-ITD present in 22% (341/1,540) of AML; deleterious effect strongest in NPM1+/DNMT3A+ context; FLT3-TKD is mutationally and prognostically distinct from FLT3-ITD (different co-mutation patterns, different interaction with KMT2A-PTD); FLT3 and RAS-pathway inhibitors expected to alter outcome predictions for respective subgroups [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ FLT3 is a receptor tyrosine kinase whose activating mutations drive proliferatio
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

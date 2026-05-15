@@ -3,8 +3,8 @@ symbol: MLLT3
 aliases: [AF9]
 cancer_types: [AML]
 tags: [fusion, KMT2A-partner, leukemia, transcription-factor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # MLLT3
@@ -16,6 +16,7 @@ MLLT3 (MLLT3 Super Elongation Complex Subunit), also known as AF9, is a transcri
 ## Alterations observed in the corpus
 
 - KMT2A (MLL)–MLLT3 (AF9) fusion identified as one of the recurrent KMT2A fusion partners among 11 KMT2A-fused cases in 200 adult de novo AML cases (TCGA AML cohort); KMT2A-fused samples had mean 2.09 cooperating tier-1 mutations vs 5.24 overall (P=0.002) [PMID:23634996](../papers/23634996.md)
+- MLLT3-KMT2A (t(9;11)) fusion in AML appears favorable relative to other KMT2A fusions; KMT2A fusions overall present in 3% (n=44) of the cohort with multiple partners [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -38,4 +39,7 @@ MLLT3 (MLLT3 Super Elongation Complex Subunit), also known as AF9, is a transcri
 
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

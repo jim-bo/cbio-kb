@@ -3,8 +3,8 @@ symbol: PML
 aliases: [MYL, RNF71, TRIM19]
 cancer_types: [AML]
 tags: [fusion-gene, tumor-suppressor, transcription-factor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PML
@@ -16,6 +16,7 @@ PML (Promyelocytic Leukemia) encodes a RING-domain nuclear body protein that fun
 ## Alterations observed in the corpus
 
 - PML–RARA fusion categorized as a favorable-risk transcription-factor fusion in [AML](../cancer_types/AML.md); mutually exclusive with [NPM1](../genes/NPM1.md) mutations and [DNMT3A](../genes/DNMT3A.md) mutations in the TCGA 200-case AML cohort [PMID:23634996](../papers/23634996.md)
+- PML-RARA fusion from t(15;17) defines 4% (n=60) of AML; class-defining for a favorable-risk subgroup with HR 0.3 (95% CI 0.2–0.4) for overall survival [PMID:27276561](../papers/27276561.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ PML (Promyelocytic Leukemia) encodes a RING-domain nuclear body protein that fun
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

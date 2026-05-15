@@ -25,6 +25,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 - Tumor-suppressor mutation identified in MSK prostate cancer cell lines in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
 - TSC2 recurrently mutated in chromophobe renal cell carcinoma (chRCC), suggesting mTORC1 addiction and possible responsiveness to mTORC1 inhibitors (rapalogs) [PMID:25401301](../papers/25401301.md)
 - PI3K/AKT/mTOR pathway member; the pathway is disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
+- PI3K/mTOR pathway event in cisplatin-resistant germ cell tumors; co-occurs with TSC1, AKT1, MTOR, PIK3CA, and PTEN alterations as part of actionable PI3K/mTOR pathway events identified by targeted sequencing in 180 GCT patients [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -73,4 +74,7 @@ TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) fo
 *This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

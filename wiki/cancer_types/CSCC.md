@@ -29,6 +29,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including [TP53](../genes/TP53.md) (95%), [NOTCH1](../genes/NOTCH1.md) (59%), [NOTCH2](../genes/NOTCH2.md) (51%), [FAT1](../genes/FAT1.md) (44%), [CDKN2A](../genes/CDKN2A.md) (44%), [KMT2C](../genes/KMT2C.md) (39%); [KMT2C](../genes/KMT2C.md) mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
 - Targeted sequencing of 504 cancer-associated genes on 29 lymph-node metastases from HPV-negative CSCC identified high UV mutational burden (~33 mut/Mb), recurrent [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), [NOTCH1](../genes/NOTCH1.md)/2/4 inactivation, and activating RAS/RTK/PI3K events (38%); RAS/RTK/PI3K + chromatin-remodeling co-mutation was the strongest predictor of shorter PFS. [PMID:25589618](../papers/25589618.md)
 - NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin established UVR signature (SBS7a/SBS7b/DBS1) accumulation as a precursor risk model; cSCC mean mutation burden of 50 substitutions/Mb was used as the endpoint for surveillance-exposure modelling [PMID:26950094](../papers/26950094.md)
+- In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); TERT promoter mutations in 52%; 3p deletion + TP53 co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -47,5 +48,8 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [PMID:25303977](../papers/25303977.md)
 - [PMID:25589618](../papers/25589618.md)
 - [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq NB-UVB mutation-burden study; cSCC mean burden of 50 substitutions/Mb used as endpoint for surveillance-exposure modelling
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). UV signature in 86% of 21 advanced CSCC; TERT promoter mutations 52%; first report of 3p deletion + TP53 in cutaneous SCC.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

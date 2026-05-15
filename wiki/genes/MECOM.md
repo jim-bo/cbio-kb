@@ -9,8 +9,8 @@ tags:
   - oncogene
   - transcription-factor
   - amplification
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # MECOM
@@ -24,6 +24,7 @@ MECOM (MDS1 and EVI1 Complex Locus) encodes a zinc finger transcription factor w
 - MECOM was recurrently amplified at 3q26 in >20% of [HGSOC](../cancer_types/HGSOC.md) tumors, identified by TCGA integrated genomic analysis of 489 stage II-IV samples; enriched in the Immunoreactive transcriptional subtype [PMID:21720365](../papers/21720365.md)
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - MECOM recurrent focal amplification identified as a significant GISTIC peak in LUAD (TCGA, n=230) [PMID:25079552](../papers/25079552.md)
+- inv(3)/MECOM rearrangement in 1% (n=20) of AML; among the strongest adverse main effects for overall survival (HR 2.9 [1.8–4.7], P=9×10⁻⁶, q=0.0003) [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -45,10 +46,13 @@ MECOM (MDS1 and EVI1 Complex Locus) encodes a zinc finger transcription factor w
 
 - [PMID:21720365](../papers/21720365.md) — TCGA integrated genomic analysis of ovarian carcinoma (HGSOC)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

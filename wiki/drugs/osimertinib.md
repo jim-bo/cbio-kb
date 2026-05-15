@@ -5,8 +5,8 @@ drug_class: 3rd-generation EGFR TKI
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, egfr-tki]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # osimertinib
@@ -23,6 +23,7 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 - LMD patients had more [EGFR](../genes/EGFR.md) alterations than non-progressors (45% vs 21%, p=0.044) [PMID:37591896](../papers/37591896.md).
 - In MSK-CHORD (n=29 [NSCLC](../cancer_types/NSCLC.md) on immunotherapy with PDL1 testing), [EGFR](../genes/EGFR.md) T790M and concomitant [MET](../genes/MET.md) amplifications were enriched after prior targeted therapy (including osimertinib) in EGFR-mutant [NSCLC](../cancer_types/NSCLC.md). The survival advantage seen in EGFR-mutant [LUAD](../cancer_types/LUAD.md) was attributed to receipt of targeted therapy rather than [EGFR](../genes/EGFR.md) mutation status itself. [PMID:39506116](../papers/39506116.md)
 - [SETD2](../genes/SETD2.md)-mutant [LUAD](../cancer_types/LUAD.md) patients on immunotherapy showed longer time-to-next-treatment-or-death (HR 0.5, 95% CI 0.36–0.72) but not after targeted therapy (HR 0.8, 95% CI 0.58–1.15), suggesting [SETD2](../genes/SETD2.md) is a biomarker for immunotherapy rather than osimertinib/targeted-therapy benefit in [LUAD](../cancer_types/LUAD.md). [PMID:39506116](../papers/39506116.md)
+- Third-generation EGFR TKI used in FLAURA and AURA3 trials; review reports consistent outcomes across age subgroups in young-onset NSCLC (YLC); only 1/63 Indian YLC patients on TKIs received osimertinib (1.5%) due to access disparities [PMID:27346245](../papers/27346245.md)
 
 ## Resistance mechanisms
 
@@ -40,3 +41,6 @@ Third-generation [EGFR](../genes/EGFR.md) tyrosine kinase inhibitor active again
 - [PMID:39506116](../papers/39506116.md) — Kehl et al. 2024, MSK-CHORD; [EGFR](../genes/EGFR.md) post-treatment enrichment and [SETD2](../genes/SETD2.md) immunotherapy-vs-targeted-therapy biomarker contrast in [LUAD](../cancer_types/LUAD.md).
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

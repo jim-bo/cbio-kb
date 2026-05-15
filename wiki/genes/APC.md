@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -44,6 +44,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Truncating mutations observed in primary prostate cancer as part of beta-catenin pathway alterations; co-occurs with [CTNNB1](../genes/CTNNB1.md) mutations [PMID:26544944](../papers/26544944.md)
 - Mutated in periampullary adenocarcinomas (duodenal/DUOAC subtype) and contributed to elevated WNT-pathway mutation frequency; APC and SOX9 were the primary WNT-pathway drivers in this site [PMID:26804919](../papers/26804919.md)
 - Single truncating APC p.Q1529X mutation found in 117 advanced thyroid tumors (PDTC/ATC); the study explicitly failed to replicate prior reports of frequent WNT-pathway alterations in ATC [PMID:26878173](../papers/26878173.md)
+- Wnt-pathway alteration observed in cisplatin-resistant germ cell tumors alongside AXIN1 and FAT1 [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -138,3 +139,6 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

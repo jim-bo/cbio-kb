@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - SKCM
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # GNAQ
@@ -18,6 +18,7 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 
 - Rare Q209 hotspot in Triple-WT cutaneous melanoma (typically a uveal-melanoma driver); co-occurs with [SF3B1](../genes/SF3B1.md) R625H but not [BAP1](../genes/BAP1.md) mutations in this cutaneous cohort [PMID:26091043](../papers/26091043.md)
 - Mutated in 8/28 uveal melanoma samples (7 p.Q209P, 1 p.G48L); mutually exclusive with [GNA11](../genes/GNA11.md); together GNAQ/GNA11 account for ~83% of [UM](../cancer_types/UM.md) drivers [PMID:26683228](../papers/26683228.md)
+- GNAQ Q209P (uveal-melanoma hotspot) observed in one patient in a cohort of 180 advanced germ cell tumors profiled by MSK-IMPACT; listed as a potentially actionable alteration with MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 - [PMID:26683228](../papers/26683228.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

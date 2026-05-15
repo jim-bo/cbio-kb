@@ -3,8 +3,8 @@ symbol: SETD2
 aliases: []
 cancer_types: [LUAD, NSCLC, CCRCC]
 tags: [chromatin, histone-methyltransferase, immunotherapy-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SETD2
@@ -30,6 +30,7 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 - SETD2 identified as a chromatin-modification driver gene (n=24 mutations) newly nominated in diffuse glioma by TCGA pan-glioma analysis [PMID:26824661](../papers/26824661.md)
 - HMT (histone methyltransferase) family member mutated in 24% of ATC vs 7% of PDTC (P = 0.02) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
 - Significantly mutated methyltransferase in lung ADC (LUAD), identified alongside [KMT2C](../genes/KMT2C.md) in a 1,144-NSCLC exome-sequencing cohort (q < 0.1 by MutSig2CV) [PMID:27158780](../papers/27158780.md).
+- Tumor-suppressor/chromatin alteration flagged as actionable in cisplatin-resistant germ cell tumors (GCT); part of a panel of epigenetic and DNA-repair events alongside EP300, PTPRD, and BRCA2 identified by targeted sequencing of 180 GCT patients [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -81,10 +82,13 @@ SETD2 is a histone H3K36 methyltransferase that maintains chromatin and transcri
 *This page was processed by **wiki-cli** on **2026-05-12**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

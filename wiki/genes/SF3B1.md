@@ -3,8 +3,8 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SF3B1
@@ -34,6 +34,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Low-frequency recurrent mutation in thyroid cancer (PDTC/ATC), detected alongside other low-frequency hits in a targeted sequencing study [PMID:26878173](../papers/26878173.md)
 - Co-listed with CMTR2/FTSJD1 and [SNRPD3](../genes/SNRPD3.md) as recurrently mutated splicing factors in lung ADC, in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 - Recurrent K700E mutation in 3.5% of ER+ breast tumours (ONC=52%); linked to differential splicing; associated with older age at diagnosis (OR=4.5) and mutually exclusive with [TP53](../genes/TP53.md) (OR=0.049) in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
+- Splicing factor mutation; part of the chromatin-spliceosome subgroup in AML (n=1,540); co-occurs with ASXL1, SRSF2, U2AF1, and ZRSR2 as an adverse-risk cluster [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -96,16 +97,19 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

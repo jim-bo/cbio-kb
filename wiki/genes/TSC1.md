@@ -31,6 +31,7 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 - Mutated in 11.9% of [UTUC](../cancer_types/UTUC.md) vs 3.9% of UCB (upper tract vs bladder urothelial carcinoma; p=0.100, trend); all mutations confirmed by orthogonal sequencing [PMID:26278805](../papers/26278805.md)
 - PI3K/AKT/mTOR pathway member; the pathway is disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³) in thyroid cancer [PMID:26878173](../papers/26878173.md)
 - Listed among clinically actionable alterations recurrent in plasmacytoid-variant bladder cancer; recurrence implies potential benefit from mTOR-pathway agents [PMID:26901067](../papers/26901067.md)
+- PI3K/mTOR pathway event in cisplatin-resistant germ cell tumors; mutually expands the actionable alteration landscape alongside TSC2, AKT1, MTOR, PIK3CA, and PTEN in the same cohort of 180 GCT patients [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -92,7 +93,10 @@ TSC1 encodes hamartin, a tumor suppressor that, with [TSC2](../genes/TSC2.md), r
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

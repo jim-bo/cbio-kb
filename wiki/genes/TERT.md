@@ -3,8 +3,8 @@ symbol: TERT
 aliases: []
 cancer_types: [HCC, THPA, IHCH]
 tags: [promoter-mutation, thyroid-cancer, cholangiocarcinoma, hbv-integration]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TERT
@@ -30,6 +30,7 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 - TERT promoter mutations in 48% of diffuse gliomas drive TERT mRNA upregulation and co-occur with chr7 gain / chr10 loss in IDH-wildtype glioma; TERTp mutation did not independently predict survival after adjusting for age and grade in this cohort [PMID:26824661](../papers/26824661.md)
 - Promoter C228T or C250T in 40% PDTC and 73% ATC; clonal in advanced disease vs subclonal in PTC; co-occurs with BRAF/RAS (OR 3.4, P = 0.004); markedly worse survival in TERT-mutant ATC [PMID:26878173](../papers/26878173.md)
 - Referenced in the pan-lung NSCLC genomic landscape study comparing 660 lung ADC and 484 lung SqCC exomes [PMID:27158780](../papers/27158780.md).
+- Promoter mutations in 53% of HPV-negative HNSC (91% of HPV-negative tongue SCC), 52% of CSCC, 75% of BCC, and 14% of ACYC (first report in salivary gland cancers); zero in HPV-positive HNSC — strong HPV-status biomarker in head and neck cancer [PMID:27442865](../papers/27442865.md)
 
 ## Cancer types (linked)
 
@@ -81,13 +82,16 @@ TERT encodes the catalytic subunit of telomerase reverse transcriptase, responsi
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26760213](../papers/26760213.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

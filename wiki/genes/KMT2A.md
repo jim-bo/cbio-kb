@@ -26,6 +26,7 @@ processed_at: 2026-05-15
 - KMT2A listed among additional candidate chromatin-remodeling drivers in PTC; 93 mutations across 57 epigenetic regulator genes in 80/402 (20.0%) tumors including KMT2A [PMID:25417114](../papers/25417114.md)
 - Chromatin-modifying gene mutated in [UTUC](../cancer_types/UTUC.md); mutations common in both low- and high-grade tumors and concordant across spatial tumor components, suggesting early/clonal events [PMID:26278805](../papers/26278805.md)
 - KMT2A, together with KMT2C, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02); HMT enrichment in ATC is cited as rationale for chromatin-targeted therapy [PMID:26878173](../papers/26878173.md)
+- KMT2A PTD is a chromatin regulator defining the chromatin-spliceosome AML subgroup (18%, n=275); KMT2A PTD × FLT3 TKD co-occurrence (n=10) was strongly adverse (q=0.008); KMT2A fusions present in 3% (n=44) of 1540 AML patients with multiple partners — MLLT3-KMT2A t(9;11) appears favorable relative to other KMT2A fusions [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ processed_at: 2026-05-15
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -10,8 +10,8 @@ tags:
   - rna-seq
   - fusion-detection
   - illumina
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TruSight Oncology 500 (TSO500)
@@ -23,6 +23,7 @@ TruSight Oncology 500 (TSO500) is an Illumina hybrid-capture targeted sequencing
 ## Used by
 
 - Illumina TruSight Oncology 500 (DNA + RNA) panel applied to 31/88 sinonasal adenoid cystic carcinoma cases on NovaSeq 6000; identified pathogenic mutations in 21/31 (68%) tumors including [BCOR](../genes/BCOR.md) (19%), [NOTCH1](../genes/NOTCH1.md) (14%), [EP300](../genes/EP300.md) (14%); panel detected four noncanonical RNA fusions but missed ~10% of AdCCs detectable only by FISH [PMID:24418857](../papers/24418857.md)
+- TruSight Oncology 500 panel used to profile 133 young Indian NSCLC patients (Malik et al.), finding EGFR mutations in 35.5%, ALK rearrangements in 65.7%, ROS1 fusions in 7.25%, and KRAS in 3.7%; the review recommends broad NGS panels like TSO500 as standard for young patients [PMID:27346245](../papers/27346245.md)
 
 ## Notes
 
@@ -33,3 +34,6 @@ TruSight Oncology 500 (TSO500) is an Illumina hybrid-capture targeted sequencing
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: KIT
 aliases: []
 cancer_types: [OGCT, GIST, ANGS, CSCC]
 tags: [germ-cell-tumor, gist, oncogene]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KIT
@@ -36,6 +36,9 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Identified as a marker of the reactive-like [ILC](../cancer_types/ILC.md) mRNA subtype (with high [EGFR](../genes/EGFR.md) expression) in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - KIT serves as a luminal epithelial cell marker by immunohistochemistry in adenoid cystic carcinoma (ACC); used to identify luminal vs. myoepithelial cell compartments in low-grade ACC (n=20 WGS tumors) [PMID:26829750](../papers/26829750.md)
 - Amplification at PDGFRA/KIT/KDR locus is among the candidate Ras/Raf/RTK pathway events that raise the fraction of lung ADCs with an actionable driver to 76%; enriched in oncogene-negative lung ADC [PMID:27158780](../papers/27158780.md)
+- KIT is a member of the chromatin-spliceosome AML subgroup context; the AML cohort of 1540 patients identified KIT among the 76 driver genes/regions with 5234 total driver mutations [PMID:27276561](../papers/27276561.md)
+- KIT co-amplified with PDGFRA and KDR in 4 ACYC patients treated with regorafenib, in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
+- KIT hotspot mutations in 19/180 patients (10.6%), mostly exon 17; enriched in seminoma (SEM) versus nonseminoma (29.6% vs 4%; P<.001); imatinib-resistance pattern distinct from GIST; targeted by imatinib/sunitinib as candidate therapy in cisplatin-resistant germ cell tumors [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -113,3 +116,12 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

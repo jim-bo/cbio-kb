@@ -3,8 +3,8 @@ symbol: RUNX1T1
 aliases: [ETO, MTG8]
 cancer_types: [AML]
 tags: [transcription-factor, fusion, AML, favorable-risk]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RUNX1T1
@@ -17,6 +17,7 @@ RUNX1T1 (also known as ETO or MTG8) is a transcriptional repressor that forms th
 
 - RUNX1-RUNX1T1 fusion (from t(8;21)) is a favorable-risk transcription-factor fusion in AML, mutually exclusive with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) mutations; RUNX1-RUNX1T1-fused samples carried the fewest cooperating mutations in the AML cohort [PMID:23634996](../papers/23634996.md)
 - Referenced in the context of colorectal carcinoma genomic characterization; altered in the primary-metastasis matched cohort studied by whole-exome sequencing [PMID:25164765](../papers/25164765.md)
+- RUNX1-RUNX1T1 t(8;21) fusion defines a favorable-risk AML subgroup (4%, n=60) in a 1540-patient genomic landscape study across AML treatment trials [PMID:27276561](../papers/27276561.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ RUNX1T1 (also known as ETO or MTG8) is a transcriptional repressor that forms th
 - [PMID:25164765](../papers/25164765.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

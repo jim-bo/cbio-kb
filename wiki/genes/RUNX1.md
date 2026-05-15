@@ -3,8 +3,8 @@ symbol: RUNX1
 aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RUNX1
@@ -23,6 +23,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - Mutated in 2/21 sequenced sinonasal adenoid cystic carcinomas (AdCC; 9%); frameshift duplications/deletions detected; chromatin-regulatory context alongside [EP300](../genes/EP300.md), [KDM6A](../genes/KDM6A.md), and [BCOR](../genes/BCOR.md) mutations [PMID:24418857](../papers/24418857.md)
 - ILC-enriched mutations (10% [ILC](../cancer_types/ILC.md) vs 3% [IDC](../cancer_types/IDC.md), all-comers) in TCGA/METABRIC integrated analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Identified as a Mut-driver transcription factor in the METABRIC 2,433-tumor breast cancer cohort; co-mutation with CDH1 is characteristic of invasive lobular carcinoma biology (CDH1 co-mutated with PIK3CA, TBX3, RUNX1, and ERBB2; OR=5.7 for CDH1+ERBB2 co-mutation). [PMID:27161491](../papers/27161491.md)
+- RUNX1 is a transcription factor in the chromatin-spliceosome AML subgroup; the RUNX1-RUNX1T1 t(8;21) fusion defines a favorable subgroup (4%, n=60); authors recommend RUNX1 evaluation at diagnosis [PMID:27276561](../papers/27276561.md).
 
 ## Cancer types (linked)
 
@@ -65,4 +66,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

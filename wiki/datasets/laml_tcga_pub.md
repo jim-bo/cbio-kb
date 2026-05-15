@@ -17,8 +17,8 @@ tags:
   - AML
   - acute myeloid leukemia
   - TCGA
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Acute Myeloid Leukemia — TCGA (2013)
@@ -53,10 +53,11 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 - [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md)-mutant samples showed extensive methylation gains; [KMT2A](../genes/KMT2A.md) fusions and the triple-mutant group showed extensive methylation loss; 160,519 CpG loci differentially methylated (67% gain, 33% loss). [PMID:23634996](../papers/23634996.md)
 - Deep digital sequencing enabled VAF-based clonal architecture reconstruction: >50% of WGS tumors had a founding clone plus ≥1 subclone; minimal aneuploidy (median 1 somatic SCNV per genome) and no chromothripsis. [PMID:23634996](../papers/23634996.md)
 - 118 gene fusions identified in 80/179 samples by de novo RNA-seq assembly; recurrent in-frame fusions included [PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), and [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md). [PMID:23634996](../papers/23634996.md)
+- Used as an independent validation cohort to replicate 11 AML genomic subgroups (chromatin–spliceosome, TP53–aneuploidy, IDH2 R172, etc.) identified in 1540 AMLSG trial patients; subgroup structure and prognostic associations were confirmed in this TCGA AML dataset. [PMID:27276561](../papers/27276561.md)
 
 ## Sources
 
 - DOI: 10.1056/NEJMoa1301689
 - Washington University tissue-banking protocol (Nov 2001–Mar 2010)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

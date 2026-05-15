@@ -4,8 +4,8 @@ oncotree_code: OPHSC
 main_type: Head and Neck Cancer
 parent: HNSC
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Oropharynx Squamous Cell Carcinoma (OPHSC)
@@ -24,6 +24,7 @@ Oropharynx squamous cell carcinoma arises from the squamous epithelium of the or
 - [FGFR3](../genes/FGFR3.md) alterations enriched in HPV+ vs HPV− oropharyngeal tumors (11% vs 2%), including [FGFR3](../genes/FGFR3.md)–[TACC3](../genes/TACC3.md) fusions in 2 HPV+ cases. [PMID:25631445](../papers/25631445.md)
 - [TP53](../genes/TP53.md) mutation rate reduced in oropharyngeal tumors relative to oral cavity and larynx (P<0.001), reflecting HPV E6-mediated [TP53](../genes/TP53.md) degradation in the HPV+ majority. [PMID:25631445](../papers/25631445.md)
 - [NSD1](../genes/NSD1.md) and [CASP8](../genes/CASP8.md) mutations also had reduced rates in oropharyngeal tumors compared with other HNSCC subsites. [PMID:25631445](../papers/25631445.md)
+- Included in the MSK-IMPACT cohort of 53 recurrent/metastatic HNSC (Morris et al., N=151 total); overall NGS-guided therapy rate was 25% for HNSC; HPV-positive oropharyngeal tumors were enriched in the advanced disease cohort and 43% acquired an HPV-negative-like genotype [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -39,3 +40,6 @@ Oropharynx squamous cell carcinoma arises from the squamous epithelium of the or
 - TCGA multi-platform profiling of 279 HNSCCs; oropharynx site (n=33, 12% of cohort) was the most HPV-enriched subsite (64% HPV+); HPV+ biology defined by [TRAF3](../genes/TRAF3.md) loss, [PIK3CA](../genes/PIK3CA.md) helical-domain mutations, and [E2F1](../genes/E2F1.md) amplification, with favorable survival outcomes. [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). MSK-IMPACT of 151 advanced head and neck tumors; HPV-positive oropharyngeal tumors predominate and 43% acquire HPV-negative-like genotype.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

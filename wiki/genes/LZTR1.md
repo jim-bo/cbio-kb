@@ -3,8 +3,8 @@ symbol: LZTR1
 aliases: []
 cancer_types: [GBM]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # LZTR1
@@ -17,6 +17,7 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 
 - Novel significantly mutated gene (SMG) identified by MutSig/InVEx in [GBM](../cancer_types/GBM.md) (n=291 WES); putative transcriptional regulator at 22q; hemizygous deletion in 5/6 samples with CNA data [PMID:24120142](../papers/24120142.md)
 - Single-case missense p.Gly404Arg mutation detected in the sequenced AdCC cohort; observed among the recurrently mutated minor genes in sinonasal adenoid cystic carcinoma [PMID:24418857](../papers/24418857.md)
+- Recurrent germline pathogenic/likely-pathogenic variant in the Indian familial NSCLC cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCA, FANCI, FANCM, and XRCC3 [PMID:27346245](../papers/27346245.md)
 
 ## Cancer types (linked)
 
@@ -39,7 +40,10 @@ LZTR1 (Leucine-Zipper-Like Transcription Regulator 1) is a putative transcriptio
 
 - [PMID:24120142](../papers/24120142.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24418857](../papers/24418857.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

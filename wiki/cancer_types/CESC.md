@@ -4,8 +4,8 @@ oncotree_code: CESC
 main_type: Cervical Cancer
 parent: CERVIX
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Cervical Squamous Cell Carcinoma (CESC)
@@ -29,6 +29,7 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - [STK11](../genes/STK11.md) — altered in 14% of gastric type and 33% of adenosquamous carcinoma. [PMID:37643132](../papers/37643132.md)
 - [TERT](../genes/TERT.md) — promoter mutations in 12% of squamous cases. [PMID:37643132](../papers/37643132.md)
 - [CDKN2A](../genes/CDKN2A.md), [SMAD4](../genes/SMAD4.md) — genomic drivers in gastric-type adenocarcinoma resembling pancreatobiliary tumors. [PMID:37643132](../papers/37643132.md)
+- In 16 recurrent/metastatic cervical SCC profiled by MSK-IMPACT (Morris et al.): TP53 mutation frequency 25% (4/16) versus 3% (5/170) in TCGA primary cervix tumors (OR 8.3, P=.008); paralleling the pattern in advanced HPV-positive HNSC where TP53 mutations accumulate with disease progression [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -54,3 +55,6 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 *This page was processed by **crosslinker** on **2026-05-04**.*
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). TP53 mutation rate 25% in recurrent/metastatic CESC vs 3% in TCGA primary cervix (OR 8.3, P=.008).
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

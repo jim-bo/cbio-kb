@@ -3,8 +3,8 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # MLH1
@@ -35,6 +35,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - MLH1 MMR alteration in 3 of 4 hypermutated mCRPC cases (~50 mutations/Mb) in the SU2C–PCF 150-case prospective WES cohort; MMR deficiency in ~2% of cases [PMID:26000489](../papers/26000489.md)
 - MLH1 mutations, together with MSH2 and MSH6, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
 - MLH1 somatic alterations observed in pan-lung cancer TCGA analysis (n=1144) across lung adenocarcinoma and squamous cell carcinoma subtypes [PMID:27158780](../papers/27158780.md)
+- Mismatch repair defect identified in hypermutated HNSC tumors, alongside MSH2, MSH6, and POLD1 [PMID:27442865](../papers/27442865.md)
 
 ## Cancer types (linked)
 
@@ -68,43 +69,46 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,7 +5,7 @@ drug_class: tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 papers: [36862133, 37477937, 20601955]
 ---
@@ -27,6 +27,7 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - One [PDGFRA](../genes/PDGFRA.md) p.Thr674Ile-mutant sinonasal adenoid cystic carcinoma patient received imatinib as targeted therapy and was NED at 19 months — the only targeted-therapy case in an 88-case [ACYC](../cancer_types/ACYC.md) cohort [PMID:24418857](../papers/24418857.md)
 - Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in [HCC](../cancer_types/HCC.md) targeted therapy development [PMID:24735922](../papers/24735922.md)
 - Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1); [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications enriched in Triple-WT; imatinib/dasatinib proposed as targeted therapy based on prior Carvajal and Hodi reports [PMID:26091043](../papers/26091043.md)
+- KIT inhibitor; proposed as targeted therapy candidate for KIT-mutant GCT (mostly exon 17 hotspots, enriched in seminoma 29.6%); KIT exon 17 mutations in GCT represent an imatinib-resistance pattern distinct from GIST [PMID:27646943](../papers/27646943.md)
 
 ## Resistance mechanisms
 
@@ -59,3 +60,6 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

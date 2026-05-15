@@ -3,8 +3,8 @@ symbol: NTRK2
 aliases: [TRKB]
 cancer_types: [NBL]
 tags: [neurotrophin-receptor, neuroblastoma, poor-prognosis, cell-of-origin, progenitor]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # NTRK2
@@ -25,6 +25,7 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
 - MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK2 fusions identified in pan-lung cancer TCGA analysis (n=1144): TRIM24-NTRK2 in adenocarcinoma and novel NTRK2-TP63 fusion in squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
+- Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
 
 ## Cancer types (linked)
 
@@ -50,19 +51,22 @@ NTRK2 (neurotrophic receptor tyrosine kinase 2, also known as TRKB) encodes the 
 - [PMID:34493726](../papers/34493726.md)
 - [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

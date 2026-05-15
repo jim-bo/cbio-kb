@@ -3,8 +3,8 @@ symbol: RARA
 aliases: [RAR-alpha]
 cancer_types: [AML]
 tags: [transcription-factor, fusion, APL, AML]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RARA
@@ -16,6 +16,7 @@ RARA encodes retinoic acid receptor alpha, a nuclear receptor transcription fact
 ## Alterations observed in the corpus
 
 - PML-RARA fusion (from t(15;17)) is a favorable-risk transcription-factor fusion in AML, mutually exclusive with [NPM1](../genes/NPM1.md) and [DNMT3A](../genes/DNMT3A.md) mutations; PML-RARA-fused samples carried the fewest cooperating mutations in the AML cohort [PMID:23634996](../papers/23634996.md)
+- RARA participates in the PML-RARA fusion from t(15;17), which defines a favorable-risk AML subgroup (4%, n=60; HR 0.3 [0.2–0.4]) in a 1540-patient AML genomic study [PMID:27276561](../papers/27276561.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RARA encodes retinoic acid receptor alpha, a nuclear receptor transcription fact
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

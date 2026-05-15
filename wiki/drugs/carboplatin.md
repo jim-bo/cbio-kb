@@ -5,8 +5,8 @@ drug_class: platinum-based chemotherapy (second-generation)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # carboplatin
@@ -23,6 +23,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Used as part of platinum-based chemoimmunotherapy backbone in R/M NPC trials cited in this review [PMID:24952746](../papers/24952746.md)
 - In muscle-invasive bladder cancer patients ineligible for cisplatin, carboplatin-based regimens are proposed as candidates for study in ERCC2-mutant tumors, given the mechanistic link between ERCC2 loss-of-function and platinum sensitivity [PMID:25096233](../papers/25096233.md)
 - In 20 mCRPC men treated with carboplatin (from the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort), those with a somatic DNA-repair pathway aberration (homozygous loss in any FA-pathway gene or hetero-/homozygous inactivating event in [ATM](../genes/ATM.md)) had significantly longer time on carboplatin (log-rank P = 0.02), supporting platinum-based therapy in DNA-repair-deficient mCRPC. [PMID:26928463](../papers/26928463.md)
+- Platinum chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients when combined with taxanes or vinca alkaloids; recommended as pregnancy-compatible alternative to cisplatin in this review [PMID:27346245](../papers/27346245.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

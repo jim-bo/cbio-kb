@@ -3,8 +3,8 @@ symbol: MAX
 aliases: []
 cancer_types: [GIST]
 tags: [myc-pathway, transcription-factor]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # MAX
@@ -17,6 +17,7 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 - High-risk small bowel [GIST](../cancer_types/GIST.md) class in the MSK [elastic-net](../methods/elastic-net.md) Cox genomic risk model was defined by alterations in any of MAX/MGA/MYC, [CDKN2A](../genes/CDKN2A.md), or [RB1](../genes/RB1.md) (n=80 primary localized small bowel [GIST](../cancer_types/GIST.md)) [PMID:37477937](../papers/37477937.md).
 - 3 coding mutations with LOH identified in multiple myeloma (MM) whole-exome sequencing; MAX is the [MYC](../genes/MYC.md) heterodimerization partner and its dysregulation implicates MYC-axis disruption in MM pathogenesis [PMID:24434212](../papers/24434212.md)
+- Alteration identified as part of the actionable alteration list in cisplatin-resistant germ cell tumors (GCT) [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ MAX is the obligate dimerization partner of [MYC](../genes/MYC.md) and a member 
 
 - [PMID:37477937](../papers/37477937.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24434212](../papers/24434212.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

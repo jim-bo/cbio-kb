@@ -3,8 +3,8 @@ symbol: NPM1
 aliases: []
 cancer_types: [AML]
 tags: [AML-driver, co-mutation, epigenetic-subtype, intermediate-risk]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # NPM1
@@ -17,6 +17,7 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 
 - Mutated in 27% of 200 adult de novo AML cases (TCGA AML cohort); central co-occurring node with [DNMT3A](../genes/DNMT3A.md) (P<6.3×10⁻⁷) and [FLT3](../genes/FLT3.md) (P<1.9×10⁻⁶); concurrent NPM1 + DNMT3A + FLT3 samples clustered together in mRNA, miRNA, and DNA-methylation space, defining a putative novel AML subtype [PMID:23634996](../papers/23634996.md)
 - NPM1 is mutually exclusive of transcription-factor fusions ([PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [KMT2A](../genes/KMT2A.md) fusions) and of [RUNX1](../genes/RUNX1.md), [TP53](../genes/TP53.md), and [CEBPA](../genes/CEBPA.md) mutations [PMID:23634996](../papers/23634996.md)
+- Mutations in 28% (n=436) of AML; class-defining for the largest subgroup; favorable as monotherapy but outcome strongly modified by co-occurring FLT3, DNMT3A, IDH2, NRAS, PTPN11, and chromatin-spliceosome mutations; allogeneic transplant decisions should integrate co-mutation profiles [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -39,4 +40,7 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: DEK
 aliases: []
 cancer_types: [PRAD]
 tags: [copy-number, allelic-imbalance, neuroendocrine, prostate-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # DEK
@@ -16,6 +16,7 @@ DEK is a chromatin-associated oncoprotein involved in DNA repair, mRNA splicing,
 ## Alterations observed in the corpus
 
 - Focal allelic imbalance at the DEK locus enriched in CRPC-NE vs. CRPC-Adeno (P = 0.04, binomial test) in a cohort of 114 metastatic biopsies from 81 patients with castration-resistant prostate cancer. [PMID:26855148](../papers/26855148.md)
+- DEK-NUP214 t(6;9) fusion identified in 15/1,540 (1%) AML patients in a large genomic classification cohort, representing a recurrent cytogenetic subgroup with distinct molecular features [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ DEK is a chromatin-associated oncoprotein involved in DNA repair, mRNA splicing,
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. (2016), molecular characterization of 114 metastatic CRPC biopsies ([nepc_wcm_2016](../datasets/nepc_wcm_2016.md)), CRPC-NE vs. CRPC-Adeno integrated multi-omic profiling.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

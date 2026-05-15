@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # pembrolizumab
@@ -37,6 +37,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - Nonsynonymous tumor mutation burden (TMB) predicted durable clinical benefit (DCB) on pembrolizumab in [NSCLC](../cancer_types/NSCLC.md) (median 302 vs 148 mutations in DCB vs NDB, Mann-Whitney P=0.02); a candidate cutoff of ≥178 nonsynonymous mutations distinguished responders with 73% DCB vs 13% in the discovery cohort [PMID:25765070](../papers/25765070.md)
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PD-1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA melanoma cases) contextualize pembrolizumab biomarker hypotheses; Immune-subclass survival advantage and LCK/LScore bivariate model proposed as predictive framework [PMID:26091043](../papers/26091043.md)
 - Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): pembrolizumab (and [nivolumab](../drugs/nivolumab.md)) anti-PD-1 therapy; overall mutational load associated with survival but not response (P=0.30); [BRCA2](../genes/BRCA2.md) LOF mutations enriched 6× in responders (28% vs 6%, Fisher P=0.002, OR=6.2); IPRES transcriptional program (mesenchymal transition, angiogenesis, ECM remodeling) defined innate non-responders (9/13 NR vs 1/15 R); IPRES overlaps MAPKi-induced signatures, implicating [vemurafenib](../drugs/vemurafenib.md)/[dabrafenib](../drugs/dabrafenib.md)/[trametinib](../drugs/trametinib.md) sequencing as potential resistance driver [PMID:26997480](../papers/26997480.md)
+- PD-1 checkpoint inhibitor; KEYNOTE-042 and KEYNOTE-024 subgroup analyses showed comparable survival benefit across age cut-off of 65 in NSCLC; largest absolute 2-year survival gain post-2011 was in patients <55 years (37.7% to 50.3%) [PMID:27346245](../papers/27346245.md)
 
 ## Resistance mechanisms
 
@@ -95,3 +96,6 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

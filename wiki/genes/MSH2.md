@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+P26-05-15
 ---
 
 # MSH2
@@ -29,6 +29,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - In metastatic castration-resistant prostate cancer (mCRPC), MSH2 alterations were among MMR gene changes in 3 of 4 hypermutated (~50 mutations/Mb) cases. [PMID:26000489](../papers/26000489.md)
 - MSH2 mutations, together with MSH6 and MLH1, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
 - MSH2, together with MSH6, underlies complex structural aberrations causing hypermutation in 5 men with metastatic castration-resistant prostate cancer (mCRPC); MMR deficiency apparent in matched primaries [PMID:26928463](../papers/26928463.md)
+- Mismatch repair defect identified in hypermutated HNSC tumors, alongside MLH1, MSH6, and POLD1 [PMID:27442865](../papers/27442865.md)
 
 ## Cancer types (linked)
 
@@ -60,28 +61,31 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25765070](../papers/25765070.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

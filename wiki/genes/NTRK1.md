@@ -3,8 +3,8 @@ symbol: NTRK1
 aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+P26-05-15
 ---
 
 # NTRK1
@@ -29,6 +29,7 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK1 fusions in thyroid cancer could not be assessed because the IMPACT 341-gene panel does not cover NTRK1 intronic regions; explicitly flagged as a detection gap in the study of PDTC and ATC [PMID:26878173](../papers/26878173.md)
 - NTRK1 fusions identified in pan-lung cancer TCGA analysis (n=1144) in lung adenocarcinoma [PMID:27158780](../papers/27158780.md)
+- Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
 
 ## Cancer types (linked)
 
@@ -57,28 +58,31 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:18948947](../papers/18948947.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36228155](../papers/36228155.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23817572](../papers/23817572.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25417114](../papers/25417114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

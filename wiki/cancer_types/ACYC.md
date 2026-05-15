@@ -5,7 +5,7 @@ main_type: Salivary Gland Cancer
 parent: SACA
 tags: [rare-cancers, salivary-gland]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Adenoid Cystic Carcinoma (ACYC)
@@ -27,6 +27,7 @@ Adenoid Cystic Carcinoma is a rare salivary gland cancer (OncoTree mainType: Sal
 - Adenoid cystic carcinoma (ACYC) targeted sequencing identified recurrent alterations in chromatin remodeling and NOTCH signaling pathway genes [PMID:26631609](../papers/26631609.md)
 - WGS of 20 ACCs revealed MYB rearrangements in 75% (15/20) acting via enhancer hijacking (not fusion protein) from NFIB, TGFBR3, or RAD51B super-enhancers; BET bromodomain inhibitor JQ1 slowed grade-2 primagraft growth but was inactive against Notch-driven grade-3 tumors; NOTCH1/SPEN activating events present in 7/9 grade-3 ACCs [PMID:26829750](../papers/26829750.md)
 - WGS of 25 ACCs with matched normals found MYB-NFIB fusion in 44%, total NFIB translocations in 60% (five novel partners including MAP3K5, MYBL1); NFIB overexpressed independent of fusion status (p=0.002); recurrent somatic mutations in Rho-family GTPase signaling (44%) and axon-guidance signaling (56%) pathways [PMID:26862087](../papers/26862087.md)
+- In 36 recurrent/metastatic ACYC profiled by MSK-IMPACT (Morris et al.), NOTCH1 was altered in 33% with activating mutations or amplifications in 22.2% (OR 8.3 vs. primary ACYC, P=.005); TERT promoter mutations found in 5/36 (14%) — the first report in salivary cancers; PDGFRA, KDR, and KIT co-amplification in 4 patients [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Adenoid Cystic Carcinoma is a rare salivary gland cancer (OncoTree mainType: Sal
 - [PMID:26862087](../papers/26862087.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). NOTCH1 enrichment and first TERT promoter mutations in salivary cancer; 36 recurrent/metastatic ACYC.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

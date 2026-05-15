@@ -10,7 +10,7 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -44,6 +44,9 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [gemcitabine](../drugs/gemcitabine.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; BRCA1/2 mutations (~3–5% of CCA) predict platinum sensitivity [PMID:25526346](../papers/25526346.md)
 - Standard front-line platinum-based chemotherapy for gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)); [BRCA2](../genes/BRCA2.md) mutation (17/294 cases, 5.8%) independently predicts longer survival (pooled HR 0.37, P=0.05) and may predict platinum and PARP-inhibitor sensitivity, paralleling ovarian cancer [PMID:25583476](../papers/25583476.md)
 - Referenced as a chemotherapy backbone for iCCA; [futibatinib](../drugs/futibatinib.md) is cited as synergizing with cisplatin in FGFR2-rearranged iCCA [PMID:25608663](../papers/25608663.md)
+- Platinum chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients; review notes TKIs and immunotherapy are contraindicated in pregnancy whereas platinum-based regimens are acceptable from T2 [PMID:27346245](../papers/27346245.md)
+- In head and neck cancer, germline FANCA deletion plus somatic FANCA stopgain in one HNSC patient identified as potential cisplatin-sensitivity biomarker by MSK-IMPACT profiling (N=151 advanced tumors) [PMID:27442865](../papers/27442865.md)
+- First-line platinum backbone in BEP (bleomycin+etoposide+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced GCT patients; TP53 alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); nutlin-3 showed antiproliferative synergy with cisplatin in TP53 wild-type cisplatin-resistant GCT cell lines [PMID:27646943](../papers/27646943.md)
 
 ## Resistance mechanisms
 
@@ -106,3 +109,12 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -221,13 +221,13 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>PMID:</strong> 26278805 · <strong>DOI:</strong> 10.1016/j.eururo.2015.07.039 · <strong>Journal:</strong> European Urology (2015)</p>
 <section id="tldr" class="level2">
 <h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p>Sfakianos et al.&nbsp;performed targeted next-generation sequencing of 300 cancer-associated genes (MSK-IMPACT) on 83 <a href="../cancer_types/UTUC.html">upper tract urothelial carcinoma</a> tumors and compared the high-grade subset (n=59) to a previously sequenced cohort of 102 high-grade <a href="../cancer_types/BLCA.html">urothelial carcinoma of the bladder</a> tumors. UTUC and UCB share the same gene catalog but differ in mutation prevalence: UTUC was enriched for <a href="../genes/FGFR3.html">FGFR3</a> (35.6% vs 21.6%), <a href="../genes/HRAS.html">HRAS</a> (13.6% vs 1.0%, p=0.001), and <a href="../genes/CDKN2B.html">CDKN2B</a> (15.3% vs 3.9%, p=0.016) alterations and depleted of <a href="../genes/TP53.html">TP53</a> (25.4% vs 57.8%, p&lt;0.001) and <a href="../genes/RB1.html">RB1</a> (0% vs 18.6%, p&lt;0.001) mutations. Activating [[FGFR3]] mutations were found in 22 of 23 low-grade UTUC tumors, and five FGFR3-TACC3 fusions were detected exclusively in high-grade UTUC.</p>
+<p>Sfakianos et al.&nbsp;performed targeted next-generation sequencing of 300 cancer-associated genes (MSK-IMPACT) on 83 <a href="../cancer_types/UTUC.html">upper tract urothelial carcinoma</a> tumors and compared the high-grade subset (n=59) to a previously sequenced cohort of 102 high-grade <a href="../cancer_types/BLCA.html">urothelial carcinoma of the bladder</a> tumors. UTUC and UCB share the same gene catalog but differ in mutation prevalence: UTUC was enriched for <a href="../genes/FGFR3.html">FGFR3</a> (35.6% vs 21.6%), <a href="../genes/HRAS.html">HRAS</a> (13.6% vs 1.0%, p=0.001), and <a href="../genes/CDKN2B.html">CDKN2B</a> (15.3% vs 3.9%, p=0.016) alterations and depleted of <a href="../genes/TP53.html">TP53</a> (25.4% vs 57.8%, p&lt;0.001) and <a href="../genes/RB1.html">RB1</a> (0% vs 18.6%, p&lt;0.001) mutations. Activating <a href="../genes/FGFR3.html">FGFR3</a> mutations were found in 22 of 23 low-grade UTUC tumors, and five FGFR3-TACC3 fusions were detected exclusively in high-grade UTUC.</p>
 </section>
 <section id="cohort-data" class="level2">
 <h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
 <ul>
-<li>83 [[UTUC]] tumors (60 high-grade, 23 low-grade) from patients treated with radical nephroureterectomy at MSKCC, all primary urothelial histology, no predominant variants.</li>
-<li>Comparator: 102 high-grade [[BLCA]] tumors without history of UTUC sequenced on the same platform (<a href="../datasets/blca_mskcc_solit_2014.html">blca_mskcc_solit_2014</a>, from ref [24] = <a href="../papers/25092538.html">PMID:25092538</a>).</li>
+<li>83 <a href="../cancer_types/UTUC.html">UTUC</a> tumors (60 high-grade, 23 low-grade) from patients treated with radical nephroureterectomy at MSKCC, all primary urothelial histology, no predominant variants.</li>
+<li>Comparator: 102 high-grade <a href="../cancer_types/BLCA.html">BLCA</a> tumors without history of UTUC sequenced on the same platform (<a href="../datasets/blca_mskcc_solit_2014.html">blca_mskcc_solit_2014</a>, from ref [24] = <a href="../papers/25092538.html">PMID:25092538</a>).</li>
 <li>Dataset: <a href="../datasets/utuc_mskcc_2015.html">utuc_mskcc_2015</a> — publicly available through MSKCC cBioPortal for Cancer Genomics.</li>
 <li>Assay: <a href="../methods/msk-impact-panel.html">MSK-IMPACT</a> 300-gene custom hybrid-capture panel, Illumina HiSeq 2500, mean coverage 650× (UTUC) and 579× (UCB); reference genome hg19.</li>
 <li>Variant calling: BWA v0.6.2 alignment, <a href="../methods/mutect.html">MuTect v1.0.27783</a> for SNVs, <a href="../methods/gatk-somatic-indel-detector.html">SomaticIndelDetector</a> for indels, <a href="../methods/delly.html">DELLY</a> for structural rearrangements. Orthogonal validation with MiSeq and <a href="../methods/sanger-sequencing.html">Sanger sequencing</a> (100% concordance for 10-gene re-test).</li>
@@ -239,53 +239,53 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Median 5 mutated genes per UTUC sample (n=82 after excluding one ultramutator).</li>
 <li>One ultramutated tumor harbored 422 somatic mutations and a hotspot <a href="../genes/POLE.html">POLE</a> V411L exonuclease-domain mutation; reported as the first POLE-driven ultramutated urothelial tumor.</li>
-<li>Top 14 recurrently altered genes in UTUC included [[FGFR3]], <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, [[TP53]], <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/CREBBP.html">CREBBP</a>, [[HRAS]], <a href="../genes/PIK3CA.html">PIK3CA</a>, with 67 recurrent COSMIC missense, 31 novel missense, 114 truncating mutations, 7 amplifications, 26 homozygous deletions across the cohort.</li>
+<li>Top 14 recurrently altered genes in UTUC included <a href="../genes/FGFR3.html">FGFR3</a>, <a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/TSC1.html">TSC1</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/HRAS.html">HRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, with 67 recurrent COSMIC missense, 31 novel missense, 114 truncating mutations, 7 amplifications, 26 homozygous deletions across the cohort.</li>
 <li>5 intrachromosomal FGFR3-TACC3 fusions identified (8.5% of UTUC vs 2.0% in UCB); breakpoints in FGFR3 intron 17 (4/5) or exon 18 (1/5) and <a href="../genes/TACC3.html">TACC3</a> intron 10 (4/5) or exon 7 (1/5); confirmed by Sanger.</li>
 <li>Mutually exclusive alteration pattern observed between the RTK/RAS/MAPK pathway and the p53/MDM2 pathway in UTUC (Supplementary Fig. 3).</li>
 <li>High-grade UTUC vs high-grade UCB (n=59 vs n=102):
 <ul>
-<li>[[FGFR3]] 35.6% vs 21.6%, p=0.065</li>
-<li>[[HRAS]] 13.6% vs 1.0%, p=0.001</li>
-<li>[[CDKN2B]] 15.3% vs 3.9%, p=0.016</li>
-<li>[[TP53]] 25.4% vs 57.8%, p&lt;0.001</li>
-<li>[[RB1]] 0% vs 18.6%, p&lt;0.001</li>
-<li>[[ARID1A]] 13.6% vs 27.5%, p=0.050</li>
-<li>[[TP53]]/<a href="../genes/MDM2.html">MDM2</a> combined: 35.6% vs 62.7%, p=0.001</li>
-<li>Trends: [[TSC1]] 11.9% vs 3.9% (p=0.100); [[PIK3CA]] 10.2% vs 21.6% (p=0.084).</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> 35.6% vs 21.6%, p=0.065</li>
+<li><a href="../genes/HRAS.html">HRAS</a> 13.6% vs 1.0%, p=0.001</li>
+<li><a href="../genes/CDKN2B.html">CDKN2B</a> 15.3% vs 3.9%, p=0.016</li>
+<li><a href="../genes/TP53.html">TP53</a> 25.4% vs 57.8%, p&lt;0.001</li>
+<li><a href="../genes/RB1.html">RB1</a> 0% vs 18.6%, p&lt;0.001</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> 13.6% vs 27.5%, p=0.050</li>
+<li><a href="../genes/TP53.html">TP53</a>/<a href="../genes/MDM2.html">MDM2</a> combined: 35.6% vs 62.7%, p=0.001</li>
+<li>Trends: <a href="../genes/TSC1.html">TSC1</a> 11.9% vs 3.9% (p=0.100); <a href="../genes/PIK3CA.html">PIK3CA</a> 10.2% vs 21.6% (p=0.084).</li>
 <li>Differences (except FGFR3) remained significant after adjustment for T stage.</li>
 </ul></li>
 <li>Copy-number landscape: TP53/MDM2-altered high-grade invasive UTUC (n=16) showed significantly more CNAs than FGFR3/HRAS/KRAS-mutant high-grade invasive UTUC (n=21) — rate ratios 2.91 (95% CI 1.13–7.71, p=0.028) for copy-number gains and 2.49 (95% CI 1.19–5.33, p=0.017) for total CNAs.</li>
 <li>High-grade tumors carried more CNAs than low-grade (p=0.004); invasive more than noninvasive (p&lt;0.001).</li>
-<li>Low-grade UTUC: 22 of 23 (96%) harbored activating [[FGFR3]] mutations; all 23 were TP53 and RB1 wild-type.</li>
+<li>Low-grade UTUC: 22 of 23 (96%) harbored activating <a href="../genes/FGFR3.html">FGFR3</a> mutations; all 23 were TP53 and RB1 wild-type.</li>
 <li>High-grade UTUC showed mutual exclusivity among FGFR3, HRAS, and TP53; TP53 mutations were found exclusively in high-grade tumors. Chromatin-modifying gene mutations were common in both low- and high-grade tumors.</li>
-<li>Microdissection of 4 UTUC cases (low- vs high-grade, noninvasive vs invasive, primary vs lymph node metastasis) showed complete concordance for FGFR3 status and for [[KDM6A]]/[[KMT2D]] chromatin-modifier mutations across spatially distinct tumor components — consistent with these alterations being clonal/early events.</li>
-<li>Clinicopathologic associations: [[TP53]] (p=0.008), [[FGFR3]] (p&lt;0.001), [[CREBBP]] (p=0.04), <a href="../genes/KMT2C.html">KMT2C</a> (p=0.02), and <a href="../genes/STAG2.html">STAG2</a> (p=0.006) were associated with grade; TP53 with high grade, FGFR3/CREBBP/STAG2 with low grade. [[TP53]] (p=0.002), <a href="../genes/CCND1.html">CCND1</a> (p=0.046), [[FGFR3]] (p&lt;0.001), <a href="../genes/ERBB2.html">ERBB2</a> (p=0.046), <a href="../genes/ERBB3.html">ERBB3</a> (p=0.046), <a href="../genes/KRAS.html">KRAS</a> (p=0.016), and [[STAG2]] (p=0.013) were associated with T stage.</li>
+<li>Microdissection of 4 UTUC cases (low- vs high-grade, noninvasive vs invasive, primary vs lymph node metastasis) showed complete concordance for FGFR3 status and for <a href="../genes/KDM6A.html">KDM6A</a>/<a href="../genes/KMT2D.html">KMT2D</a> chromatin-modifier mutations across spatially distinct tumor components — consistent with these alterations being clonal/early events.</li>
+<li>Clinicopathologic associations: <a href="../genes/TP53.html">TP53</a> (p=0.008), <a href="../genes/FGFR3.html">FGFR3</a> (p&lt;0.001), <a href="../genes/CREBBP.html">CREBBP</a> (p=0.04), <a href="../genes/KMT2C.html">KMT2C</a> (p=0.02), and <a href="../genes/STAG2.html">STAG2</a> (p=0.006) were associated with grade; TP53 with high grade, FGFR3/CREBBP/STAG2 with low grade. <a href="../genes/TP53.html">TP53</a> (p=0.002), <a href="../genes/CCND1.html">CCND1</a> (p=0.046), <a href="../genes/FGFR3.html">FGFR3</a> (p&lt;0.001), <a href="../genes/ERBB2.html">ERBB2</a> (p=0.046), <a href="../genes/ERBB3.html">ERBB3</a> (p=0.046), <a href="../genes/KRAS.html">KRAS</a> (p=0.016), and <a href="../genes/STAG2.html">STAG2</a> (p=0.013) were associated with T stage.</li>
 </ul>
 </section>
 <section id="genes-alterations" class="level2">
 <h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
 <ul>
-<li>[[FGFR3]] — activating missense (e.g., S249C) in 22/23 low-grade and 27.1% of high-grade UTUC; 5 FGFR3-TACC3 gene fusions in high-grade UTUC; enriched vs UCB and associated with low grade / lower T stage.</li>
-<li>[[HRAS]] — activating mutations in 13.6% of high-grade UTUC vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with FGFR3 and TP53.</li>
-<li>[[TP53]] — 25.4% high-grade UTUC vs 57.8% high-grade UCB (p&lt;0.001); exclusive to high-grade tumors in this UTUC cohort; associated with higher T stage and high CNA burden.</li>
-<li>[[RB1]] — 0/59 high-grade UTUC vs 18.6% high-grade UCB (p&lt;0.001).</li>
-<li>[[CDKN2B]] — homozygous deletions enriched in UTUC (15.3% vs 3.9%, p=0.016).</li>
-<li>[[MDM2]] — combined TP53/MDM2 alterations depleted in UTUC (35.6% vs 62.7%, p=0.001); MDM2-altered tumors carried high CNA burden.</li>
-<li>[[TACC3]] — partner in recurrent FGFR3-TACC3 fusions; breakpoints in intron 10 or exon 7.</li>
-<li>[[POLE]] — V411L exonuclease-domain hotspot in a single ultramutator UTUC (422 somatic mutations, no focal CNAs).</li>
-<li>[[KDM6A]], [[KMT2D]], <a href="../genes/KMT2A.html">KMT2A</a>, [[KMT2C]], [[CREBBP]], <a href="../genes/EP300.html">EP300</a>, [[ARID1A]], <a href="../genes/SMARCA4.html">SMARCA4</a> — chromatin-modifying genes; mutations common in both low- and high-grade UTUC and concordant across spatial tumor components, suggesting early/clonal events. [[ARID1A]] specifically was lower in UTUC than UCB (13.6% vs 27.5%, p=0.050).</li>
-<li>[[TSC1]] — 11.9% UTUC vs 3.9% UCB (p=0.100, trend); all mutations confirmed by orthogonal sequencing.</li>
-<li>[[PIK3CA]] — 10.2% UTUC vs 21.6% UCB (p=0.084, trend).</li>
-<li>[[CCND1]], [[ERBB2]], [[ERBB3]], [[KRAS]], [[STAG2]] — significant associations with T stage in UTUC.</li>
+<li><a href="../genes/FGFR3.html">FGFR3</a> — activating missense (e.g., S249C) in 22/23 low-grade and 27.1% of high-grade UTUC; 5 FGFR3-TACC3 gene fusions in high-grade UTUC; enriched vs UCB and associated with low grade / lower T stage.</li>
+<li><a href="../genes/HRAS.html">HRAS</a> — activating mutations in 13.6% of high-grade UTUC vs 1.0% of high-grade UCB (p=0.001); largely mutually exclusive with FGFR3 and TP53.</li>
+<li><a href="../genes/TP53.html">TP53</a> — 25.4% high-grade UTUC vs 57.8% high-grade UCB (p&lt;0.001); exclusive to high-grade tumors in this UTUC cohort; associated with higher T stage and high CNA burden.</li>
+<li><a href="../genes/RB1.html">RB1</a> — 0/59 high-grade UTUC vs 18.6% high-grade UCB (p&lt;0.001).</li>
+<li><a href="../genes/CDKN2B.html">CDKN2B</a> — homozygous deletions enriched in UTUC (15.3% vs 3.9%, p=0.016).</li>
+<li><a href="../genes/MDM2.html">MDM2</a> — combined TP53/MDM2 alterations depleted in UTUC (35.6% vs 62.7%, p=0.001); MDM2-altered tumors carried high CNA burden.</li>
+<li><a href="../genes/TACC3.html">TACC3</a> — partner in recurrent FGFR3-TACC3 fusions; breakpoints in intron 10 or exon 7.</li>
+<li><a href="../genes/POLE.html">POLE</a> — V411L exonuclease-domain hotspot in a single ultramutator UTUC (422 somatic mutations, no focal CNAs).</li>
+<li><a href="../genes/KDM6A.html">KDM6A</a>, <a href="../genes/KMT2D.html">KMT2D</a>, <a href="../genes/KMT2A.html">KMT2A</a>, <a href="../genes/KMT2C.html">KMT2C</a>, <a href="../genes/CREBBP.html">CREBBP</a>, <a href="../genes/EP300.html">EP300</a>, <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/SMARCA4.html">SMARCA4</a> — chromatin-modifying genes; mutations common in both low- and high-grade UTUC and concordant across spatial tumor components, suggesting early/clonal events. <a href="../genes/ARID1A.html">ARID1A</a> specifically was lower in UTUC than UCB (13.6% vs 27.5%, p=0.050).</li>
+<li><a href="../genes/TSC1.html">TSC1</a> — 11.9% UTUC vs 3.9% UCB (p=0.100, trend); all mutations confirmed by orthogonal sequencing.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — 10.2% UTUC vs 21.6% UCB (p=0.084, trend).</li>
+<li><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/ERBB3.html">ERBB3</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/STAG2.html">STAG2</a> — significant associations with T stage in UTUC.</li>
 <li><a href="../genes/INPP4A.html">INPP4A</a> — among the top 14 frequently altered genes in UTUC; included in orthogonal MiSeq confirmation panel.</li>
-<li>[[CDKN2A]] — recurrently altered in UTUC alongside other p15/p16 pathway events.</li>
+<li><a href="../genes/CDKN2A.html">CDKN2A</a> — recurrently altered in UTUC alongside other p15/p16 pathway events.</li>
 </ul>
 </section>
 <section id="clinical-implications" class="level2">
 <h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
 <ul>
-<li>UTUC and UCB are biologically related but distinct: the higher prevalence of activating [[FGFR3]] and [[HRAS]] mutations in high-grade UTUC implies a larger fraction of patients potentially eligible for FGFR or RAS/MAPK-pathway-directed therapies than the UCB experience would suggest.</li>
-<li>The lower prevalence of [[TP53]] and [[RB1]] alterations, combined with lower CNA burden in FGFR3/HRAS/KRAS-mutant tumors, supports a “low-grade-tumor-progression” model of UTUC carcinogenesis distinct from de novo high-grade urothelial carcinogenesis dominant in UCB.</li>
+<li>UTUC and UCB are biologically related but distinct: the higher prevalence of activating <a href="../genes/FGFR3.html">FGFR3</a> and <a href="../genes/HRAS.html">HRAS</a> mutations in high-grade UTUC implies a larger fraction of patients potentially eligible for FGFR or RAS/MAPK-pathway-directed therapies than the UCB experience would suggest.</li>
+<li>The lower prevalence of <a href="../genes/TP53.html">TP53</a> and <a href="../genes/RB1.html">RB1</a> alterations, combined with lower CNA burden in FGFR3/HRAS/KRAS-mutant tumors, supports a “low-grade-tumor-progression” model of UTUC carcinogenesis distinct from de novo high-grade urothelial carcinogenesis dominant in UCB.</li>
 <li>Authors argue routine genomic profiling of UTUC may be valuable given the high prevalence of potentially actionable alterations and the historical reliance on UCB-derived treatment paradigms.</li>
 <li>Microdissection concordance for FGFR3 and chromatin-modifier mutations across primary, invasive, low-grade, and lymph-node-metastatic tumor components supports using single-region biopsies for biomarker-driven therapy selection in UTUC.</li>
 </ul>

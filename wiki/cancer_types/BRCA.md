@@ -4,8 +4,8 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Invasive Breast Carcinoma (BRCA)
@@ -38,6 +38,7 @@ OncoTree code for invasive breast carcinoma.
 - Adenoid cystic breast carcinoma ([ACBC](../cancer_types/ACBC.md)) is a rare subtype of invasive breast carcinoma; study characterized its genomic landscape including MYB-NFIB fusions and copy number alterations [PMID:26095796](../papers/26095796.md)
 - Large-scale multi-platform analysis of invasive breast carcinoma identified distinct molecular subtypes including luminal A, luminal B, HER2-enriched, and basal-like, with comprehensive genomic characterization across 825 samples [PMID:26437033](../papers/26437033.md)
 - Comparative genomic profiling of invasive breast carcinoma subtypes identified recurrent alterations in [PIK3CA](../genes/PIK3CA.md), [TP53](../genes/TP53.md), and [CDH1](../genes/CDH1.md) with subtype-specific patterns across [IDC](../cancer_types/IDC.md) and [ILC](../cancer_types/ILC.md) [PMID:26451490](../papers/26451490.md)
+- Targeted sequencing of 173 genes in 2,433 primary breast tumours (METABRIC cohort) identified 40 Mut-driver genes; top altered genes: PIK3CA (40.1%), TP53 (35.4%), KMT2C (11.4%), GATA3 (11.1%); 45.2% of tumours harboured an Akt-pathway mutation; PIK3CA prognostic value in ER+ disease depends on IntClust background (poor outcome in IntClusts 1, 2, 9 only); CDH1 inactivating mutations in 52.6% of lobular carcinomas [PMID:27161491](../papers/27161491.md)
 
 ## Subtypes
 
@@ -92,3 +93,6 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

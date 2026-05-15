@@ -4,7 +4,7 @@ aliases: [MKK4, SEK1, JNKK1]
 cancer_types: [BRCA]
 tags: [deletion, tumor-suppressor, breast-cancer, MAPK-pathway]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-14
 ---
 
 # MAP2K4
@@ -19,6 +19,7 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - Identified as a recessive cancer gene with inactivating mutations in breast cancer WES (100 tumors, Sanger cohort); functions as a downstream target of MAP3K1 in the JUN kinase signalling pathway [PMID:22722201](../papers/22722201.md)
 - Inactivating mutations in Luminal A breast cancer (12% of Luminal A tumors combined with MAP3K1); acts in the p38/JNK1 pathway; mutually exclusive with MAP3K1 mutations [PMID:23000897](../papers/23000897.md)
 - Significantly mutated gene in pancreatic ductal adenocarcinoma (ICGC, 142 tumors); novel finding involving Toll-like receptor/MAPK signaling [PMID:23103869](../papers/23103869.md)
+- MAP2K4 identified as a mutation-driver in breast cancer in a 2,433-tumor whole-genome/exome sequencing study (METABRIC/ICGC cohort) [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - [PMID:23103869](../papers/23103869.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

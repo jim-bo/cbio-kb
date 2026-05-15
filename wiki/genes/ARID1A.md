@@ -69,6 +69,8 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Identified as a putative MYB transcriptional target in adenoid cystic carcinoma (ACC); mutated in ACC per prior sequencing studies cited in this analysis [PMID:26829750](../papers/26829750.md)
 - ARID1A, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations were largely mutually exclusive within the SWI/SNF complex [PMID:26878173](../papers/26878173.md)
 - ARID1A recurrently mutated in plasmacytoid-variant bladder cancer at frequencies comparable to conventional urothelial carcinoma, NOS, as part of a broader chromatin-remodeler mutation pattern [PMID:26901067](../papers/26901067.md)
+- Inactivating mutations detected in lung ADC by pan-lung WES (TCGA); identified as a significantly mutated gene in the lung cancer landscape [PMID:27158780](../papers/27158780.md)
+- SWI/SNF member; inactivating mutations identified as Mut-drivers in breast cancer (METABRIC 2,433-sample cohort); ARID1B synthetic-lethal dependency proposed as therapeutic strategy in ARID1A-deficient tumors [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -223,13 +225,19 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

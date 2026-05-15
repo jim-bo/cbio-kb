@@ -92,6 +92,10 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - PTEN mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³); NF1 truncating mutations co-occurred with PTEN truncation in 3 BRAF/RAS-WT ATCs (P=2×10⁻³). [PMID:26878173](../papers/26878173.md)
 - PTEN mutation unique to the plasmacytoid component of a mixed bladder tumor (alongside CDH1 Y68fs), supporting branched clonal evolution within the plasmacytoid variant. [PMID:26901067](../papers/26901067.md)
 - PTEN homozygous CN loss assessed for site-distribution analysis in mCRPC; no metastatic-site association was detected. [PMID:26928463](../papers/26928463.md)
+- Only one homozygous PTEN deletion observed (in the non-responding group) in 38 anti-PD-1-treated metastatic melanoma patients (WES); cohort was underpowered to confirm the Peng et al. 2015 PTEN-loss/immunotherapy-resistance association. [PMID:26997480](../papers/26997480.md)
+- Confirmed as a significantly mutated gene (pan-cancer tumor suppressor) in 619-case colorectal carcinoma WES cohort (NHS/HPFS); newly statistically designated as a CRC driver gene by virtue of cohort size. PTEN+10q23.1 deletion LOH coupling also noted in the METABRIC breast cancer cohort. [PMID:27149842](../papers/27149842.md)
+- Not highlighted as a significantly mutated gene in the 1,144-tumor NSCLC landscape study but referenced in the broader RTK/Ras/Raf pathway context; PI3K pathway alterations including PTEN inactivation contribute to oncogene-negative lung ADC. [PMID:27158780](../papers/27158780.md)
+- Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); PTEN + 10q23.1 deletion co-occurrence (OR=3.4) confirms classic two-hit inactivation; 15/57 PTEN-mutant tumors also carried recurrent PIK3CA mutations. [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -326,5 +330,17 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

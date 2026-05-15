@@ -3,7 +3,7 @@ symbol: GATA3
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -21,6 +21,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - Significantly mutated in luminal A and luminal B breast cancer (TCGA, 510 tumors); frameshift and truncating mutations observed [PMID:23000897](../papers/23000897.md)
 - GATA3 identified among significantly mutated genes in muscle-invasive bladder cancer in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
 - IDC-enriched mutations (20% LumA [IDC](../cancer_types/IDC.md) vs 5% LumA [ILC](../cancer_types/ILC.md)); mutually exclusive with [FOXA1](../genes/FOXA1.md) mutations; LumA [ILC](../cancer_types/ILC.md) has lower GATA3 mRNA and protein levels [PMID:26451490](../papers/26451490.md)
+- Mutated in 11.1% of breast cancers; enriched in HER2+/ER+ (8.2%) vs HER2+/ER- (0.5%); mutations associated with younger age, lower grade, and longer survival (HR=0.58 in ER+) [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:26451490](../papers/26451490.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

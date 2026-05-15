@@ -5,8 +5,8 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # nivolumab
@@ -29,9 +29,11 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - CheckMate 040 in [HCC](../cancer_types/HCC.md): nivolumab investigator-assessed ORR 20%, median duration of response 9.9 months (n=214 dose-expansion); [OS](../cancer_types/OS.md) 15.6 months in second-line; FDA accelerated approval based on 154 sorafenib-pretreated patients (ORR 14.3% RECIST 1.1, 18.2% mRECIST, DoR 16.6 months); PD-L1 IHC does not predict response in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - Anti-PD-1 ICI listed among investigational agents for recurrent/metastatic [NPC](../cancer_types/NPC.md); PD-1/PD-L1 monotherapy ORR approximately 15–20% in [NPC](../cancer_types/NPC.md); [relatlimab](../drugs/relatlimab.md) + nivolumab in randomized REMAIN trial for LAG-3 co-blockade [PMID:24952746](../papers/24952746.md)
 - [CD274](../genes/CD274.md) (PD-L1) focal amplifications in BRAF-mutant melanoma subtype and high PDCD1/PD-L1 expression in Immune transcriptomic subclass (51% of 329 TCGA cases) identified as rationale for checkpoint blockade including nivolumab; LScore + [LCK](../genes/LCK.md) bivariate prognostic model proposed for adjuvant-therapy decisions [PMID:26091043](../papers/26091043.md)
+- Hugo et al. (n=38 metastatic [melanoma](../cancer_types/SKCM.md)): nivolumab (and [pembrolizumab](../drugs/pembrolizumab.md)) anti-PD-1 therapy; IPRES transcriptional program (mesenchymal transition, angiogenesis, wound healing) enriched in innate non-responders; IPRES co-enrichment not predictive in anti-CTLA-4 cohort ([skcm_dfci_2015](../datasets/skcm_dfci_2015.md)), distinguishing anti-PD-1 from anti-CTLA-4 resistance mechanisms; 14/38 patients had prior MAPKi therapy [PMID:26997480](../papers/26997480.md)
 
 ## Resistance mechanisms
 
+- IPRES (Innate anti-PD-1 Resistance) transcriptional program — co-enriched mesenchymal, angiogenic, hypoxia, and wound-healing signatures — enriched in 9/13 non-responding vs 1/15 responding pretreatment [melanoma](../cancer_types/SKCM.md) biopsies; IPRES was NOT predictive in an anti-CTLA-4 cohort, indicating mechanism-specific resistance distinct from anti-PD-1 [PMID:26997480](../papers/26997480.md).
 - Non-GNH diffuse pleural mesothelioma shows very poor response rates (2%) to nivolumab-based or [pembrolizumab](../drugs/pembrolizumab.md) immunotherapy [PMID:38630790](../papers/38630790.md).
 - Within dMMR-selected gynecologic cancer patients, TMB and PD-L1 expression do not identify responders vs non-responders, suggesting these biomarkers are insufficient for further stratification in this population [PMID:38653864](../papers/38653864.md).
 
@@ -42,6 +44,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [CESC](../cancer_types/CESC.md)
 - [PLMESO](../cancer_types/PLMESO.md)
 - [HNSC](../cancer_types/HNSC.md)
+- [SKCM](../cancer_types/SKCM.md)
 
 ## Sources
 
@@ -66,3 +69,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

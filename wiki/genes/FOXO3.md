@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - PRAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # FOXO3
@@ -18,6 +18,7 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 
 - 6q21 deletions (containing FOXO3 and [PRDM1](../genes/PRDM1.md)) are enriched in SPOP-mutant prostate cancers (P = 3.4e-7) in a 112-tumor WES cohort (Broad); FOXO3 loss co-occurs with [SPOP](../genes/SPOP.md) mutations as part of a coordinated genomic alteration pattern in ETS-negative prostate cancer [PMID:22610119](../papers/22610119.md)
 - Mutation identified in ~7% of adenoid cystic carcinoma (ACC) cases; PI3K-pathway transcription factor [PMID:23685749](../papers/23685749.md)
+- HD-defined TSG newly nominated as a breast-cancer Mut-driver via combined homozygous deletion and inactivating-mutation evidence; mutually exclusive with PIK3CA in breast tumors [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ FOXO3 is a FOXO-family transcription factor located at 6q21 that functions as a 
 - [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

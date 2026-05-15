@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - histone-methyltransferase
   - chromatin-remodeling
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MEN1
@@ -24,6 +24,7 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (PanNENs/PulNENs); PanNEN-specific large-scale LOH observed; MEN1 loss used to support cell-cycle and MTOR-inhibitor ([everolimus](../drugs/everolimus.md)) therapy recommendations in multiple patients [PMID:24326773](../papers/24326773.md)
 - MEN1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors in the TCGA thyroid cohort [PMID:25417114](../papers/25417114.md)
 - MEN1 truncating mutations observed at low frequency in PDTC and ATC as part of a set of infrequent truncating mutations alongside NF2 and RB1 [PMID:26878173](../papers/26878173.md)
+- MEN1 nominated as a breast cancer mutation-driver via combined homozygous deletion and inactivating-mutation evidence in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

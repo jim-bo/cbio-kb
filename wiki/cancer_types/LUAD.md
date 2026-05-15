@@ -5,7 +5,7 @@ main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Lung Adenocarcinoma (LUAD)
@@ -50,6 +50,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - A co-clinical trial in KRAS-mutant LUAD using GEM models running in parallel with a human phase II trial demonstrated that the murine arm delivered predictive response data for [selumetinib](../drugs/selumetinib.md) + [docetaxel](../drugs/docetaxel.md) in nine months and surfaced STK11 loss as a genetic modifier of resistance, prompting retrospective reanalysis of the human trial [PMID:23999436](../papers/23999436.md).
 - SMARCA4 inactivating mutations occur in 5–8% of LUAD (TCGA data) and are associated with poor outcome; SMARCA4 loss creates a synthetic-lethal vulnerability to SMARCA2 inhibition [PMID:24658004](../papers/24658004.md)
 - TCGA multi-platform profiling of 230 resected LUADs (n=412 with prior published) identifies 18 significantly mutated genes including novel drivers RIT1 (2%) and MGA (8%, mutually exclusive with MYC amplification); MET exon 14 skipping in 4%; with focal MET/ERBB2 amplifications in oncogene-negative cases, 76% of LUADs now harbor a defined RTK/RAS/RAF activating event [PMID:25079552](../papers/25079552.md)
+- Pan-NSCLC WES of 660 LUAD and 484 LUSC tumour/normal pairs (nsclc_tcga_broad_2016); LUAD had median somatic mutation rate 8.7/Mb and 38 SMGs; novel LUAD drivers include PPP3CA, DOT1L, and CMTR2/FTSJD1; 76% of LUADs harboured an RTK/Ras/Raf alteration after adding SOS1, VAV1, RASA1, and ARHGAP35; 47% of LUADs had ≥5 predicted neoepitopes [PMID:27158780](../papers/27158780.md)
 
 ## Subtypes
 
@@ -100,3 +101,6 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

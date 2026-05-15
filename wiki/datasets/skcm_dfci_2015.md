@@ -18,8 +18,8 @@ tags:
   - tumor-mutational-burden
   - neoantigens
   - tumor-microenvironment
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Skin Cutaneous Melanoma (DFCI, Science 2015)
@@ -45,6 +45,7 @@ The skcm_dfci_2015 dataset is from Van Allen et al. (Science, 2015) and comprise
 ## Papers using this cohort
 
 - [PMID:26359337](../papers/26359337.md) — Van Allen et al. 2015, Science — "Genomic correlates of response to CTLA-4 blockade in metastatic melanoma."
+- [PMID:26997480](../papers/26997480.md) — Hugo et al. 2016, *Cell*: used as external reference cohort to validate that IPRES transcriptomic signature does NOT distinguish anti-CTLA-4 responders from non-responders (in contrast to its discrimination of anti-PD-1 response).
 
 ## Notable findings derived from this cohort
 
@@ -53,9 +54,10 @@ The skcm_dfci_2015 dataset is from Van Allen et al. (Science, 2015) and comprise
 - Cytolytic activity signature (geometric mean of [GZMA](../genes/GZMA.md) and [PRF1](../genes/PRF1.md) expression) was significantly elevated in clinical-benefit tumors (P=0.042); tumor [CTLA4](../genes/CTLA4.md) expression (P=0.033) and [PDCD1LG2](../genes/PDCD1LG2.md) / PD-L2 expression (P=0.041) also higher in responders [PMID:26359337](../papers/26359337.md).
 - Of 77,803 unique neoantigens, only 28 (~0.04%) were shared across benefit patients; no recurrent peptide sequence signature validated — response-associated neoantigens are overwhelmingly private events [PMID:26359337](../papers/26359337.md).
 - No individual genes (including [BRAF](../genes/BRAF.md) and [NRAS](../genes/NRAS.md)) were enriched for nonsynonymous mutations in either response subgroup; clinical covariates (age, gender, histology, LDH) did not correlate with response [PMID:26359337](../papers/26359337.md).
+- IPRES co-enrichment (26 transcriptomic signatures of mesenchymal transition/angiogenesis/wound-healing) was not differentially distributed between anti-CTLA-4 responders and non-responders in this cohort, arguing that innate resistance mechanisms differ between anti-PD-1 and anti-CTLA-4 checkpoint axes. [PMID:26997480](../papers/26997480.md)
 
 ## Sources
 
 - Van Allen EM et al. "Genomic correlates of response to CTLA-4 blockade in metastatic melanoma." Science. 2015;350(6257):207-211. [PMID:26359337](../papers/26359337.md). DOI: 10.1126/science.aad0095.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -6,8 +6,8 @@ cancer_types:
 tags:
   - transcription-factor
   - SMG
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # KLF5
@@ -19,6 +19,8 @@ KLF5 (Kruppel Like Factor 5) is a zinc-finger transcription factor involved in c
 ## Alterations observed in the corpus
 
 - KLF5 identified as a significantly mutated gene (SMG) at ≤8% frequency in muscle-invasive bladder cancers in TCGA urothelial carcinoma comprehensive genomic characterization [PMID:24476821](../papers/24476821.md)
+- Zinc-finger transcription factor regulating intestinal stem-cell niche; identified as a new CRC significantly mutated gene; deletion suppresses CRC oncogenesis (Nakaya et al. 2014) [PMID:27149842](../papers/27149842.md)
+- Recurrently mutated gene identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +43,9 @@ KLF5 (Kruppel Like Factor 5) is a zinc-finger transcription factor involved in c
 - [PMID:24476821](../papers/24476821.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

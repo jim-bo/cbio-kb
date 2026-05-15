@@ -5,8 +5,8 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # dabrafenib
@@ -24,6 +24,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - In multiple myeloma, dabrafenib paradoxically activated MAPK and promoted growth in BRAF-WT, KRAS/NRAS-mutant cell lines; conversely, dabrafenib + [trametinib](../drugs/trametinib.md) combined selectively killed BRAF-mutant (K601N) U266 MM cells without benefit in BRAF-WT lines [PMID:24434212](../papers/24434212.md)
 - [BRAF](../genes/BRAF.md) V600E-mutant CCA (3–7% iCCA, near 0% eCCA): ROAR basket phase II ORR ~47% in 43 CCA patients, mPFS ~9 mo, mOS ~14 mo in combination with [trametinib](../drugs/trametinib.md) [PMID:25526346](../papers/25526346.md)
 - One of three FDA-approved BRAF-targeted therapies for the BRAF-mutant subtype of cutaneous melanoma (52% of 318 TCGA cases; V600E n=124, V600K n=18, V600R n=3, K601 n=5); nominated alongside [vemurafenib](../drugs/vemurafenib.md) and [trametinib](../drugs/trametinib.md) in TCGA melanoma integrative analysis [PMID:26091043](../papers/26091043.md)
+- Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including [vemurafenib](../drugs/vemurafenib.md), dabrafenib, or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap with the IPRES innate anti-PD-1 resistance signature, suggesting prior dabrafenib may compromise anti-PD-1 efficacy in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 
 ## Resistance mechanisms
 
@@ -32,6 +33,7 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 ## Cancer types (linked)
 
 - [LCH](../cancer_types/LCH.md), [ECD](../cancer_types/ECD.md)
+- [SKCM](../cancer_types/SKCM.md)
 
 ## Sources
 
@@ -54,3 +56,6 @@ Selective [BRAF](../genes/BRAF.md) V600E/K kinase inhibitor.
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

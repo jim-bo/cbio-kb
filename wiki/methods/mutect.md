@@ -9,8 +9,8 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MuTect
@@ -44,6 +44,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - MuTect used for somatic SNV detection in 114 metastatic CRPC biopsies (81 patients); confirmed TP53 and RB1 as top altered genes distinguishing CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
 - Used for somatic mutation calling in the discovery cohort of 6 plasmacytoid-variant bladder tumors profiled by whole-exome sequencing. [PMID:26901067](../papers/26901067.md)
 - Used for somatic mutation calling on WES data from 141 tumors (56 men) with metastatic CRPC (prad_fhcrc cohort); identified AR, TP53, RB1, and MSH2/MSH6 driver mutations across metastatic sites. [PMID:26928463](../papers/26928463.md)
+- Used for SNV calling in 619 CRC FFPE tumor/normal pairs alongside Indelocator (indels) and Strelka (concordant indel filtering) [PMID:27149842](../papers/27149842.md)
+- Used for somatic mutation calling in 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study [PMID:27158780](../papers/27158780.md)
+- Used (panel-of-normals filtering analogous to MuTect) for somatic mutation calling in 2,433 primary breast tumours from the METABRIC cohort targeted-sequencing study [PMID:27161491](../papers/27161491.md)
 
 ## Notes
 
@@ -117,3 +120,12 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-14
 ---
 
 # ROS1
@@ -21,6 +21,7 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 fusion in 7% of advanced [NSCLC](../cancer_types/NSCLC.md) immunotherapy cohort; included in multivariate model for PFS [PMID:36038778](../papers/36038778.md)
 - Frameshift mutation (suspected germline) identified as a single-case alteration in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling [PMID:24418857](../papers/24418857.md)
 - Fusions in 4/230 (1.7%) LUAD cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴); enriched in the TRU transcriptional subtype. [PMID:25079552](../papers/25079552.md)
+- ROS1 fusions are an established therapeutic target in lung ADC; mentioned in the 1,144-tumor NSCLC landscape study in the context of RTK-directed therapies (ALK and ROS1 inhibitors) applying almost exclusively to lung ADC rather than lung SqCC, given the histology-restricted molecular landscape. [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:25079552](../papers/25079552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

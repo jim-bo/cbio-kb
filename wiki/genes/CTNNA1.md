@@ -3,8 +3,8 @@ symbol: CTNNA1
 aliases: [E-catenin, alpha-E-catenin]
 cancer_types: [STAD]
 tags: [hereditary-cancer, gastric-cancer, germline, cell-adhesion, HDGC]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # CTNNA1
@@ -16,6 +16,7 @@ CTNNA1 encodes alpha-E-catenin, a cytoskeletal linker protein that connects cadh
 ## Alterations observed in the corpus
 
 - Second-most-common HDGC gene (germline); also a recurrent somatic variant in FIGC tumors; included in the recommended multigene panel for hereditary/familial gastric cancer [PMID:24816255](../papers/24816255.md)
+- CTNNA1 was nominated as a breast cancer Mut-driver TSG via combined homozygous-deletion plus inactivating-mutation evidence; part of the 'tissue-organisation' cluster with CDH1 and AFDN/MLLT4; functional confirmation of CTNNA1 as a breast-cancer TSG was flagged as future work [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ _No conflicts in current corpus._
 - [PMID:24816255](../papers/24816255.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

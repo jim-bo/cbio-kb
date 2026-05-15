@@ -21,6 +21,7 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 - Chromatin-remodeling gene mutated as part of the cohesin/chromatin-modifier landscape in TCC bladder cancer; mutations totaling 58% of 99 UCGC cases across chromatin-remodeling genes [PMID:24121792](../papers/24121792.md)
 - In mCRPC, NCOR1 was identified as an [AR](../genes/AR.md) pathway regulator recurrently altered in the 150-patient SU2C–PCF prospective cohort. [PMID:26000489](../papers/26000489.md)
 - AR co-activator alteration enriched in CRPC-Adeno (21 cases) vs. CRPC-NE [PMID:26855148](../papers/26855148.md)
+- NCOR1 identified as a mutation-driver in breast cancer in a 2,433-tumor whole-genome/exome sequencing study (METABRIC/ICGC cohort) [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ NCOR1 (Nuclear Receptor Corepressor 1) encodes a transcriptional corepressor tha
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

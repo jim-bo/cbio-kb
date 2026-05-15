@@ -3,7 +3,7 @@ symbol: MUC16
 aliases: [CA125]
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -16,6 +16,7 @@ MUC16 (Mucin 16, Cell Surface Associated), also known as CA-125, is a large tran
 ## Alterations observed in the corpus
 
 - Somatic mutations enriched in tumors lacking both [MYB](../genes/MYB.md) and [MYBL1](../genes/MYBL1.md) fusions in adenoid cystic carcinoma (ACC), suggesting preferential involvement in the fusion-negative subclass [PMID:26631609](../papers/26631609.md)
+- MUC16 has a high coding-mutation frequency (16.8%) in breast cancer but flagged as having a high background mutation rate; uncertain breast-cancer driver status in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -34,3 +35,6 @@ MUC16 (Mucin 16, Cell Surface Associated), also known as CA-125, is a large tran
 - [PMID:26631609](../papers/26631609.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

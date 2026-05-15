@@ -3,7 +3,7 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -40,6 +40,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 focal amplifications enriched in Triple-WT cutaneous melanoma subtype (TCGA 333-sample cohort); rationale for MDM2 inhibitors ([nutlin-3](../drugs/nutlin-3.md), AMG-232) in this subtype [PMID:26091043](../papers/26091043.md)
 - Combined TP53/MDM2 alterations depleted in [UTUC](../cancer_types/UTUC.md) vs UCB (35.6% vs 62.7%, p=0.001); MDM2-altered tumors carried high CNA burden [PMID:26278805](../papers/26278805.md)
 - Focal amplification in 1-3 desmoplastic melanoma tumors; IHC-confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
+- MDM2 amplification observed in pan-lung cancer TCGA analysis (n=1144) as a copy-number alteration in lung adenocarcinoma and squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -124,3 +125,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:26343386](../papers/26343386.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

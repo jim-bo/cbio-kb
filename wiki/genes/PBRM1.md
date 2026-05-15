@@ -30,6 +30,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), PBRM1 was altered in 5% of cases as part of the SWI/SNF chromatin-remodelling complex lesions affecting >42% of cases in the 109-case microdissected exome cohort. [PMID:25855536](../papers/25855536.md)
 - Added to significant gene list by inactivation-bias test in a periampullary cancer WGS study (DUOAC/AMPAC/CAC); alteration type not individually specified for PBRM1 in this cohort [PMID:26804919](../papers/26804919.md)
 - PBRM1 (SWI/SNF subunit) mutated as part of a chromatin-remodelling complex enriched in ATC vs PDTC (SWI/SNF subunit mutations in 36% ATC vs 6% PDTC, P=1×10⁻⁴); mutations generally mutually exclusive within the complex. [PMID:26878173](../papers/26878173.md)
+- Identified as a Mut-driver gene (inactivating mutations) in the METABRIC 2,433-tumor breast cancer cohort; classified as a SWI/SNF chromatin-function driver (22.6% of all tumors had a coding mutation in ≥1 of seven chromatin-function Mut-drivers including PBRM1). Raises possibility of synthetic-lethal vulnerabilities analogous to ARID1A/ARID1B in the breast cancer setting. [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -86,5 +87,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

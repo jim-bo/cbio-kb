@@ -32,6 +32,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - In [PAAD](../cancer_types/PAAD.md), POLE was among the mismatch-repair/DNA-repair gene alterations in the top mutation-burden quartile of the 109-case microdissected exome cohort, contributing to the hypermutator phenotype. [PMID:25855536](../papers/25855536.md)
 - V411L exonuclease-domain hotspot in a single ultramutator upper tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) with 422 somatic mutations and no focal CNAs. [PMID:26278805](../papers/26278805.md)
 - POLE observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
+- Exonuclease-domain hotspot mutations (p.Pro286Arg, p.Val411Leu, p.Ser459Phe) found in 4 MSS colorectal carcinoma samples (619-case WES cohort from NHS/HPFS); carriers had elevated neoantigen load and were excluded from MSS-restricted TIL analyses. POLE-mutated CRCs were too few for survival statistics but proposed as candidates for checkpoint blockade based on neoantigen burden. [PMID:27149842](../papers/27149842.md)
 
 ## Cancer types (linked)
 
@@ -95,5 +96,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

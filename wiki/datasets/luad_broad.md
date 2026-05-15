@@ -19,7 +19,7 @@ tags:
   - WGS
   - MutSig
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # Lung Adenocarcinoma (Broad, Nature Genetics 2012)
@@ -44,6 +44,7 @@ processed_at: 2026-05-06
 ## Papers using this cohort
 
 - [PMID:22980975](../papers/22980975.md) — primary characterisation study (Imielinski et al., Nature Genetics 2012)
+- [PMID:27158780](../papers/27158780.md) — Campbell et al. 2016, *Nature Genetics*: 159 cases from this cohort incorporated into the integrated 1,144-NSCLC exome analysis [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md).
 
 ## Notable findings derived from this cohort
 
@@ -53,9 +54,10 @@ processed_at: 2026-05-06
 - [RBM10](../genes/RBM10.md) mutated in 7% with recurrent truncating mutations. [PMID:22980975](../papers/22980975.md)
 - [ARID1A](../genes/ARID1A.md) mutated in 8% with significant accumulation of truncating mutations. [PMID:22980975](../papers/22980975.md)
 - Novel oncogenic EGFR C-terminal in-frame deletion discovered. [PMID:22980975](../papers/22980975.md)
+- 159 cases from this cohort merged into the integrated [nsclc_tcga_broad_2016](../datasets/nsclc_tcga_broad_2016.md) Pan-Lung analysis alongside TCGA ADC/SqCC cases; used to maximize statistical power for rare-driver discovery in the 660-ADC analysis. [PMID:27158780](../papers/27158780.md)
 
 ## Sources
 
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

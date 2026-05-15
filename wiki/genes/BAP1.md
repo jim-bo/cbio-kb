@@ -8,8 +8,8 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BAP1
@@ -38,6 +38,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Co-occurs with [SF3B1](../genes/SF3B1.md) R625H and GNAQ/GNA11 hot-spots in Triple-WT cutaneous melanoma (typically uveal-melanoma drivers); BAP1 and [SF3B1](../genes/SF3B1.md) mutations are mutually exclusive [PMID:26091043](../papers/26091043.md)
 - 11 truncating/splice/missense mutations in uveal melanoma (28/28 samples); all 6 BAP1-mutant WGS samples were chromosome-3 hemizygous, consistent with two-hit tumor-suppressor inactivation; one intronic 154 bp deletion identified via SV calling [PMID:26683228](../papers/26683228.md)
 - Essentially absent in extrahepatic cholangiocarcinoma (CAC) in this periampullary tumour cohort (single IDH1 hotspot only); contrasts with intrahepatic CAC where BAP1 alterations are common, confirming molecular distinctness of extra- vs intra-hepatic subtypes [PMID:26804919](../papers/26804919.md)
+- Inactivating mutation identified as a Mut-driver in breast cancer (METABRIC 2,433-sample cohort); flagged as a cross-cancer driver where therapies developed in other cancer types may be applicable [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -105,7 +106,10 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26683228](../papers/26683228.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

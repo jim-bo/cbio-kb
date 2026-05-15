@@ -3,8 +3,8 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # SF3B1
@@ -32,6 +32,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Associated with shorter PFS in CLL patients on frontline fludarabine-based chemoimmunotherapy (CLL8 trial); CCF as likely to rise as fall on therapy; 9 instances of multiple distinct alleles per CLL indicating convergent evolution [PMID:26466571](../papers/26466571.md)
 - 3 mutations in uveal melanoma: p.R625C, p.R625H, p.K666T [PMID:26683228](../papers/26683228.md)
 - Low-frequency recurrent mutation in thyroid cancer (PDTC/ATC), detected alongside other low-frequency hits in a targeted sequencing study [PMID:26878173](../papers/26878173.md)
+- Co-listed with CMTR2/FTSJD1 and [SNRPD3](../genes/SNRPD3.md) as recurrently mutated splicing factors in lung ADC, in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
+- Recurrent K700E mutation in 3.5% of ER+ breast tumours (ONC=52%); linked to differential splicing; associated with older age at diagnosis (OR=4.5) and mutually exclusive with [TP53](../genes/TP53.md) (OR=0.049) in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -99,5 +101,11 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

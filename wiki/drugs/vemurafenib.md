@@ -5,8 +5,8 @@ drug_class: BRAF V600 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # vemurafenib
@@ -27,6 +27,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - Referenced as an acquired-resistance [paradigm](../methods/paradigm.md) (BRAF-mutant melanoma + vemurafenib) to motivate combination regimens and second-generation inhibitors for [HCC](../cancer_types/HCC.md) targeted therapy [PMID:24735922](../papers/24735922.md)
 - BRAF V600E mutations occur in 3% of pancreatic ductal adenocarcinomas (mutually exclusive with [KRAS](../genes/KRAS.md)); patient-derived cell line PDA_014 (BRAF V600E) was as sensitive to vemurafenib (PLX-4032) as MNT1 melanoma control cells across ERK phosphorylation, cell-cycle, and viability assays [PMID:25855536](../papers/25855536.md)
 - Vemurafenib is one of three FDA-approved BRAF-targeted therapies (with [dabrafenib](../drugs/dabrafenib.md) and [trametinib](../drugs/trametinib.md)) for the BRAF-mutant subtype of melanoma (52% of 318 TCGA cases; V600E/K/R mutations); BRAF non-hot-spot mutations and fusions (ATG7-BRAF, TAX1BP1-BRAF) also identified in TCGA melanoma cohort [PMID:26091043](../papers/26091043.md)
+- Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including vemurafenib, [dabrafenib](../drugs/dabrafenib.md), or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap substantially with the IPRES innate anti-PD-1 resistance signature, raising concern that prior/concurrent vemurafenib therapy may compromise subsequent anti-PD-1 response in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
 
 ## Resistance mechanisms
 
@@ -35,6 +36,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 ## Cancer types (linked)
 
 - [LCH](../cancer_types/LCH.md), [ECD](../cancer_types/ECD.md)
+- [SKCM](../cancer_types/SKCM.md)
 
 ## Sources
 
@@ -66,3 +68,6 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

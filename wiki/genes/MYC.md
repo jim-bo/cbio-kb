@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MYC
@@ -76,6 +76,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC locus chromothripsis acquired only at recurrence in medulloblastoma case MB-REC-09 (P=3.97x10-7), illustrating de novo oncogene activation as a recurrence mechanism in Shh-subgroup medulloblastoma [PMID:26760213](../papers/26760213.md)
 - Putative MYB target gene in ACC; among downstream targets identified in super-enhancer-driven MYB regulatory program [PMID:26829750](../papers/26829750.md)
 - MYC shows recurrent 8q copy gain in metastatic castration-resistant prostate cancer (mCRPC) rapid-autopsy cohort; gain is largely shared across metastases within a patient [PMID:26928463](../papers/26928463.md)
+- MYC amplification observed as a copy-number alteration in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
+- MYC driver copy-number amplification at 8q24 defines IntClust9 in breast cancer; used in the IntClust copy-number taxonomy [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -256,5 +258,11 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

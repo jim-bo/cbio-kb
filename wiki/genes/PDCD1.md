@@ -3,7 +3,7 @@ symbol: PDCD1
 aliases: [PD-1, PD1]
 cancer_types: [COAD, HNSC]
 tags: [immune-checkpoint, icr-signature, pd-1, flow-cytometry]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -25,6 +25,8 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PD-1 upregulated on T cells in non-keratinizing [NPC](../cancer_types/NPC.md) due to chronic EBV antigen exposure; multiple anti-PD-1 mAbs approved or investigational in [NPC](../cancer_types/NPC.md) ([toripalimab](../drugs/toripalimab.md), [tislelizumab](../drugs/tislelizumab.md), [penpulimab](../drugs/penpulimab.md), [pembrolizumab](../drugs/pembrolizumab.md), [nivolumab](../drugs/nivolumab.md), [sintilimab](../drugs/sintilimab.md), [serplulimab](../drugs/serplulimab.md), [tagitanlimab](../drugs/tagitanlimab.md)) [PMID:24952746](../papers/24952746.md)
 - PD-1 immune checkpoint whose blockade efficacy in biliary tract cancer is modulated by gut microbiota composition; Bacteroidetes enrichment improves anti-PD-1 outcomes while Proteobacteria dominance reduces [sintilimab](../drugs/sintilimab.md)+[anlotinib](../drugs/anlotinib.md) efficacy [PMID:25608663](../papers/25608663.md)
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), PDCD1 (PD-1) expression is elevated in the Immune transcriptomic subclass, which is associated with improved post-accession survival in regional-metastasis cases and high lymphocyte infiltration on pathology. [PMID:26091043](../papers/26091043.md)
+- Expression of PDCD1 (PD-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset, whole-tumor transcriptome); lack of significant difference attributed to dilution of immune-cell-specific signal in bulk RNA-seq. [PMID:26997480](../papers/26997480.md)
+- PDCD1 not directly altered in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); 47% of lung ADC and 53% of lung SqCC had ≥5 predicted neoepitopes, providing rationale for broad checkpoint immunotherapy applicability across both subtypes. [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -77,3 +79,9 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:26091043](../papers/26091043.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -25,6 +25,7 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - Focal deletions in the HPV(−) tumor-suppressor gene set in HNSCC (n=279 TCGA cohort) [PMID:25631445](../papers/25631445.md)
 - Mutated/deleted in 19–43% of pancreatic ductal adenocarcinoma cases across analyses; backbone of TGF-β pathway lesions in PDA. [PMID:25855536](../papers/25855536.md)
 - SMAD4 identified as the most commonly mutated TGF-β-pathway gene in ampullary and distal common bile duct adenocarcinomas (the sites closest to the pancreas) in a pan-periampullary WGS study [PMID:26804919](../papers/26804919.md)
+- Inactivating mutations associated with worse breast-cancer-specific survival in ER+ tumours (HR=3.4, 95%CI not stated); TSG score high only in ER+ (TSG=35% vs 0% in ER-); identified as a Mut-driver gene in the 2,433-tumour METABRIC targeted-sequencing cohort [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

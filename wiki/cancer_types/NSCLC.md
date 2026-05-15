@@ -4,8 +4,8 @@ oncotree_code: NSCLC
 main_type: Non-Small Cell Lung Cancer
 parent: LUNG
 tags: [lung, nsclc]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Non-Small Cell Lung Cancer (NSCLC)
@@ -42,6 +42,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - DyAM multimodal ML framework (n=247 advanced NSCLC at MSK) integrating CT [radiomics](../methods/radiomics.md), PD-L1 IHC texture, and MSK-IMPACT genomics predicted PD-(L)1 blockade response with AUC=0.80 (95% CI 0.74-0.86), significantly outperforming TMB alone (AUC=0.61) and PD-L1 TPS alone (AUC=0.73); [EGFR](../genes/EGFR.md) mutation (8.9%, aHR=2.14, P=0.03) and [STK11](../genes/STK11.md) mutation (17.8%, aHR=2.53, P<0.005) were independent negative predictors of immunotherapy response [PMID:36038778](../papers/36038778.md)
 - Orthotopic implantation of resected NSCLC under the renal capsule of NOD-scid mice increased engraftment rates from 30-40% to 90% and enabled drug testing within 6-8 weeks; 11 of 16 evaluable PDX models showed concordant drug response between mouse and patient, with strong concordance particularly for resistance to conventional chemotherapy [PMID:23999436](../papers/23999436.md).
 - Whole-exome sequencing of 34 advanced NSCLC patients treated with [pembrolizumab](../drugs/pembrolizumab.md) showed higher nonsynonymous somatic mutation burden significantly associated with objective response, durable clinical benefit, and PFS (pooled Mann-Whitney P=0.0008; PFS HR 0.19, P=0.0004); a candidate cutoff of ≥178 nonsynonymous mutations, molecular smoking signature, neoantigen burden, and deleterious mutations in [POLD1](../genes/POLD1.md)/[POLE](../genes/POLE.md)/[MSH2](../genes/MSH2.md) also correlated with efficacy. [PMID:25765070](../papers/25765070.md)
+- Largest NSCLC WES study to date (660 LUAD + 484 LUSC, n=1,144 total; nsclc_tcga_broad_2016): identified 6 genes SMG in both histologies (TP53, RB1, ARID1A, CDKN2A, PIK3CA, NF1), 14 pan-lung SMGs in joint analysis including KLF5 and EP300/CREBBP; ≥5 predicted neoepitopes in 47% of LUAD and 53% of LUSC, supporting broad immunotherapy applicability [PMID:27158780](../papers/27158780.md)
 
 ## Subtypes
 
@@ -80,3 +81,6 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [PMID:25765070](../papers/25765070.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

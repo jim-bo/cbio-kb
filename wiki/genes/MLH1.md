@@ -3,8 +3,8 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # MLH1
@@ -34,6 +34,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - MLH1 not specifically highlighted but MLH1/MLH3 are part of MMR/mismatch-repair pathway alterations in PDA (109-case WES cohort) [PMID:25855536](../papers/25855536.md)
 - MLH1 MMR alteration in 3 of 4 hypermutated mCRPC cases (~50 mutations/Mb) in the SU2C–PCF 150-case prospective WES cohort; MMR deficiency in ~2% of cases [PMID:26000489](../papers/26000489.md)
 - MLH1 mutations, together with MSH2 and MSH6, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
+- MLH1 somatic alterations observed in pan-lung cancer TCGA analysis (n=1144) across lung adenocarcinoma and squamous cell carcinoma subtypes [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -102,5 +103,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

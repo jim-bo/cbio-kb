@@ -3,7 +3,7 @@ symbol: JAK1
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [kinase, JAK-STAT, MSI, immunotherapy-resistance, mismatch-repair]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -22,6 +22,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - JAK1 is listed among recurrently mutated genes in the [HCC](../cancer_types/HCC.md) WES landscape (n=1,289), part of the JAK/STAT signaling axis implicated in hepatocellular carcinoma. [PMID:24798001](../papers/24798001.md)
 - JAK1 was identified as one of 20 significantly mutated genes in African American colorectal cancers (103 AA vs 129 Caucasian MSS CRC), part of the 15-gene subset preferentially mutated in AA CRCs (~41% of AA vs 15% of Caucasian CRCs). [PMID:25583493](../papers/25583493.md)
 - JAK1 identified as a low-frequency but FDA-druggable alteration in JAK/STAT pathway in [HCC](../cancer_types/HCC.md) (<1% frequency); part of 28% of [HCC](../cancer_types/HCC.md) with at least one FDA-targetable alteration in the 243-case European cohort [PMID:25822088](../papers/25822088.md)
+- HD-defined candidate newly identified as linked to immune evasion/immune modulation in breast cancer via combined homozygous deletion and inactivating-mutation evidence [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -61,3 +62,6 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

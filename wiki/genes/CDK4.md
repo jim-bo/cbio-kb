@@ -39,6 +39,7 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 - Focal amplifications enriched in Triple-WT melanoma subtype; co-amplified with [CCND1](../genes/CCND1.md) [PMID:26091043](../papers/26091043.md)
 - Focal amplification (IHC-confirmed) in desmoplastic melanoma; CDK4 is explicitly named as a small-molecule inhibitor target in this tumor type given the absence of [BRAF](../genes/BRAF.md) V600E [PMID:26343386](../papers/26343386.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
+- CDK4 harbored a recurrent p.R24L mutation in lung adenocarcinoma identified in the TCGA Pan-Lung analysis [PMID:27158780](../papers/27158780.md).
 
 ## Cancer types (linked)
 
@@ -113,5 +114,8 @@ CDK4 encodes a cyclin-dependent kinase central to G1/S cell-cycle progression; f
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

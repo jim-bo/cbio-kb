@@ -39,6 +39,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - RB1 infrequently truncated in a targeted-sequencing study of poorly differentiated and anaplastic thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 - RB1 frequently mutated in plasmacytoid-variant bladder cancer at frequencies similar to urothelial carcinoma NOS. [PMID:26901067](../papers/26901067.md)
 - RB1 loss in mCRPC associated with elevated CCP score, elevated E2F1 expression, and a 15-gene Fanconi anaemia signature; E2F1 high expression correlates with CCP (r=0.8, P<0.001) and FA pathway activity (r=0.78, P<0.001). [PMID:26928463](../papers/26928463.md)
+- Confirmed as a significantly mutated gene (pan-cancer tumor suppressor) in a 619-case colorectal carcinoma WES cohort (NHS/HPFS); newly statistically designated as a CRC driver gene due to cohort size. [PMID:27149842](../papers/27149842.md)
+- One of six genes significantly mutated in both lung ADC and lung SqCC histologies in the 1,144-tumor NSCLC landscape study (alongside TP53, ARID1A, CDKN2A, PIK3CA, NF1); sex-specific enrichment: RB1 mutations enriched in females in lung SqCC (FDR q < 0.1). [PMID:27158780](../papers/27158780.md)
+- Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (cell-cycle TSG); co-mutation of TP53+RB1 (OR=5.3) is characteristic of triple-negative breast cancers. [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -125,5 +128,14 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27149842](../papers/27149842.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

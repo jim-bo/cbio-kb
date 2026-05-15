@@ -3,8 +3,8 @@ symbol: KAT6A
 aliases: [MYST3, MOZ, ZC2HC6A]
 cancer_types: [EAC]
 tags: [acetyltransferase, chromatin-remodeling, esophageal-adenocarcinoma, candidate-driver]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # KAT6A
@@ -16,6 +16,7 @@ KAT6A (lysine acetyltransferase 6A, formerly MYST3 or MOZ) encodes a MYST-family
 ## Alterations observed in the corpus
 
 - Mutated in 7/145 (5%) of esophageal adenocarcinomas (EAC) in a WGS/WES cohort; lysine acetyltransferase (formerly MYST3) nominated as significant driver candidate, not experimentally validated in this study [PMID:23525077](../papers/23525077.md)
+- Novel amplification target gene in lung ADC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ KAT6A (lysine acetyltransferase 6A, formerly MYST3 or MOZ) encodes a MYST-family
 - [PMID:23525077](../papers/23525077.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

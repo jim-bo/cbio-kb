@@ -4,7 +4,7 @@ aliases: [ER]
 cancer_types: [BRCA]
 tags: [endocrine-resistance, post-treatment-enrichment, breast-cancer, hormone-receptor]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # ESR1
@@ -20,6 +20,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - [ILC](../cancer_types/ILC.md) and [IDC](../cancer_types/IDC.md) differentially modulate ER activity via [FOXA1](../genes/FOXA1.md) vs [GATA3](../genes/GATA3.md); LumA [ILC](../cancer_types/ILC.md) has lower total and phospho-ER than LumA [IDC](../cancer_types/IDC.md) [PMID:26451490](../papers/26451490.md)
 - Rat tumors broadly express ER protein; Esr1 mRNA correlates with Pgr expression in CRISPR-engineered ER+ breast cancer rat models; ESR1 ligand-binding-domain mutations flagged as a future expansion of the somatic editing platform [PMID:26437033](../papers/26437033.md)
 - ESR1 expression was observed in mCRPC tumors with AR transcriptional activity but absent AR protein, suggesting ERalpha may sustain AR-pathway output as an alternative activator in AR-low phenotypes [PMID:26928463](../papers/26928463.md)
+- ER status (ER+/ER-) is the primary stratifier in a 2,433-sample breast cancer mutation landscape study; ER+ tumors have distinct mutation frequencies (e.g., PIK3CA 40.1%, GATA3 11.1%) vs ER- tumors [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

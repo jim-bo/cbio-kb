@@ -59,6 +59,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Inactivation in 3% of primary prostate cancer (germline + somatic); all 6 germline mutations were K3326* (C-terminal truncation, debated pathogenicity); 2 tumors had focal homozygous deletions with low transcript; [RB1](../genes/RB1.md) heterozygous loss often co-incident with BRCA2 loss at 13q [PMID:26544944](../papers/26544944.md)
 - Homozygous deletion shared across primary tumour, lymph-node metastasis, and CRPC-NE metastases in patient WCMC7520, marking a common clonal ancestor and supporting divergent clonal evolution model in metastatic prostate cancer [PMID:26855148](../papers/26855148.md)
 - BRCA2 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to RB1 loss/E2F1 activation); homozygous deleterious BRCA2 events were used as part of the DNA-repair-defect classifier predicting longer carboplatin response (P = 0.02) [PMID:26928463](../papers/26928463.md)
+- Recurrent likely loss-of-function nsSNVs across NPM1-interacting, POLH-interacting, and FANCD2-interacting domains; enriched in anti-PD-1 responders (28% vs 6% non-responders; Fisher P=0.002, OR=6.2); BRCA2-mutant melanomas have higher overall mutational loads; proposed as candidate immunotherapy response biomarker [PMID:26997480](../papers/26997480.md)
+- Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -159,7 +161,13 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

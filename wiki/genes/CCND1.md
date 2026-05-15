@@ -59,6 +59,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Significant association with T stage in upper-tract urothelial carcinoma ([UTUC](../cancer_types/UTUC.md)) in a 300-gene panel sequencing study (MSK-IMPACT cohort, n=83 [UTUC](../cancer_types/UTUC.md) vs 102 UCB) [PMID:26278805](../papers/26278805.md)
 - Focal amplification (IHC-confirmed) in desmoplastic melanoma; found in 1–3 cases alongside [CDK4](../genes/CDK4.md), [MDM2](../genes/MDM2.md), [YAP1](../genes/YAP1.md), and [MYC](../genes/MYC.md) amplifications [PMID:26343386](../papers/26343386.md)
 - Recurrent focal amplification in 2% of primary prostate cancer tumors (TCGA prostate cohort) [PMID:26544944](../papers/26544944.md)
+- CCND1 is part of a co-amplification event at 11q13-14 with PAK1 that defines IntClust2 in lung cancer genomics context; novel focal amplifications at the CCND3/MIR21 locus were identified in lung ADC [PMID:27158780](../papers/27158780.md).
+- CCND1 co-amplification with PAK1 at 11q13-14 defines IntClust2 in breast cancer; this co-amplification represents a single early clonal driver event and explains paradoxically low intra-tumor heterogeneity (MATH) despite poor outcomes; IntClust2 tumors show resistance to neo-adjuvant cytotoxic chemotherapy [PMID:27161491](../papers/27161491.md).
 
 ## Cancer types (linked)
 
@@ -190,5 +192,11 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

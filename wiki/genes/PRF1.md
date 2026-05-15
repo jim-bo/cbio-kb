@@ -3,7 +3,7 @@ symbol: PRF1
 aliases: [perforin]
 cancer_types: [COAD]
 tags: [cytotoxic, icr-signature]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 
 - Effector cytotoxic component of the 20-gene ICR signature used to classify 348 primary colon cancers in the AC-ICAM cohort; no PRF1-specific mutation finding reported [PMID:37202560](../papers/37202560.md).
 - PRF1 encodes perforin, a component of the cytolytic-activity signature (geometric mean of [GZMA](../genes/GZMA.md) + PRF1); elevated expression in clinical-benefit tumors receiving [ipilimumab](../drugs/ipilimumab.md) in metastatic melanoma (P = 0.042, Mann-Whitney) [PMID:26359337](../papers/26359337.md)
+- Expression of PRF1 (perforin-1) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset); the checkpoint/effector gene panel including PRF1 was not differentially expressed in whole-tumor bulk transcriptome analysis, potentially due to dilution of immune-cell signal. [PMID:26997480](../papers/26997480.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ PRF1 encodes perforin, a cytotoxic effector molecule. In the corpus it is part o
 - [PMID:26359337](../papers/26359337.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

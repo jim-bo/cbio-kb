@@ -3,7 +3,7 @@ symbol: HLA-A
 aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -22,6 +22,8 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - HLA-A is recurrently mutated in DLBCL by whole-exome sequencing of 55 tumors (MutSig analysis, Broad Institute) [PMID:22343534](../papers/22343534.md)
 - Nonsense/splice-site loss-of-function mutations in 7 of 8 mutated cases; novel finding in lung squamous cell carcinoma (TCGA, 178 tumors); one of 10 significantly mutated genes (FDR q < 0.1); implicated in immune evasion; relevant to immunotherapy patient selection [PMID:22960745](../papers/22960745.md)
 - Significantly mutated in 3% of HNSCC; immune-evasion role; implicated alongside [B2M](../genes/B2M.md) in antigen presentation pathway alterations (7% HPV(-), 11% HPV(+)) [PMID:25631445](../papers/25631445.md)
+- 96 somatic HLA class I (HLA-A/B/C) mutations in 11% of colorectal cancer cases; biased toward exon 4 (TCR-binding domain) and peptide-contact residues in exons 2-3; mutated alleles carry more neoantigens than non-mutated alleles (Wilcoxon p=0.006) [PMID:26997480](../papers/26997480.md)
+- B2M focally deleted in both lung ADC and SqCC, enriched for loss-of-function mutations (Pan-Lung FDR q=0.006); HLA-A/B implicated in MHC-I antigen presentation loss in TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +61,9 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26997480](../papers/26997480.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

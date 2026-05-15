@@ -3,7 +3,7 @@ symbol: KDM5A
 aliases: [JARID1A, RBP2]
 cancer_types: [ADCA]
 tags: [chromatin-remodeling, histone-demethylase, somatic-mutation]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -18,6 +18,7 @@ KDM5A (Lysine Demethylase 5A, also known as JARID1A or RBP2) is a histone H3K4 d
 - Mutated in adenoid cystic carcinoma (ACC); part of a cluster of chromatin-remodeling genes (including [ARID1A](../genes/ARID1A.md), [ARID1B](../genes/ARID1B.md), [ARID5B](../genes/ARID5B.md), [KMT2C](../genes/KMT2C.md), [KDM6A](../genes/KDM6A.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [SMARCA2](../genes/SMARCA2.md), [CHD2](../genes/CHD2.md), [BRD2](../genes/BRD2.md)) collectively mutated in 12/24 ACC cases [PMID:23778141](../papers/23778141.md)
 - Somatic mutation as part of the histone demethylase KDM5A/KDM5B gene group, altered in 6% of transitional cell carcinoma ([BLCA](../cancer_types/BLCA.md)) bladder tumors; contributes to the 58% overall chromatin-remodeler mutation rate in the 99-tumor TCC cohort [PMID:24121792](../papers/24121792.md)
 - KDM5A mismatch-repair and chromatin-remodeling defect detected in hypermutated gastric adenocarcinoma (Pt1); co-occurs with [MSH6](../genes/MSH6.md), [TGFBR2](../genes/TGFBR2.md), and [KMT2D](../genes/KMT2D.md) in the hypermutated subclone [PMID:25583476](../papers/25583476.md)
+- Novel amplification target gene in lung SqCC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ KDM5A (Lysine Demethylase 5A, also known as JARID1A or RBP2) is a histone H3K4 d
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

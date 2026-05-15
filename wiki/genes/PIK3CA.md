@@ -106,6 +106,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Hotspot mutations (E545K, Q546K, N345I, C420R, E542A) in 6 prostate adenocarcinoma tumors; focal amplification with overexpression in ~1% in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - PIK3CA mutated as part of the PI3K/AKT/mTOR pathway (disrupted in 39% ATC vs 11% PDTC, P=1×10⁻³); PIK3CA helical-domain mutations restricted to ATC in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
 - PIK3CA recurrently altered in plasmacytoid-variant bladder cancer; flagged by the authors as a clinically actionable target supporting early use of PI3K-pathway inhibitors. [PMID:26901067](../papers/26901067.md)
+- Significantly more frequently mutated in lung SqCC than lung ADC (p < 0.01, Fisher's exact); one of only six genes significantly mutated in both NSCLC histologies (alongside TP53, RB1, ARID1A, CDKN2A, NF1). PIK3CA p.E542K is a recurrent predicted neoepitope candidate for off-the-shelf vaccine design. [PMID:27158780](../papers/27158780.md)
+- Most frequently mutated gene in the METABRIC 2,433-tumor breast cancer cohort (40.1% coding-mutation frequency); ER+ ONC=94%, ER- ONC=81%. Helical-domain (codons 542/545) and codon 345 hotspots enriched in ER+; kinase-domain codon 1047 enriched in ER-. Mutually exclusive with AKT1, PIK3R1, and FOXO3. Prognostic in ER- disease (HR=1.4); prognostic in ER+ only within IntClusts 1, 2, and 9 (defined by 17q23, 11q13-14, and 8q24 amplifications). 45.2% of all tumors had a mutation in at least one Akt-pathway member. [PMID:27161491](../papers/27161491.md)
 
 ## Cancer types (linked)
 
@@ -370,5 +372,11 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

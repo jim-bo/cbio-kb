@@ -3,8 +3,8 @@ symbol: NTRK1
 aliases: [TRKA]
 cancer_types: [LCH, ECD, pan-cancer, NBL]
 tags: [fusion, actionable, BRAF-resistance, neuroblastoma, favorable-prognosis, neurotrophin-receptor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # NTRK1
@@ -28,6 +28,7 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
 - MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in diffuse glioma [PMID:26824661](../papers/26824661.md)
 - NTRK1 fusions in thyroid cancer could not be assessed because the IMPACT 341-gene panel does not cover NTRK1 intronic regions; explicitly flagged as a detection gap in the study of PDTC and ATC [PMID:26878173](../papers/26878173.md)
+- NTRK1 fusions identified in pan-lung cancer TCGA analysis (n=1144) in lung adenocarcinoma [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

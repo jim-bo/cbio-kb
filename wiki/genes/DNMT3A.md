@@ -22,6 +22,7 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - Somatic variants in 13 variants across 12 patients (epigenetic regulator) in whole-exome sequencing of myeloproliferative neoplasms ([ET](../cancer_types/ET.md), [PV](../cancer_types/PV.md), [MF](../cancer_types/MF.md)) as part of the [CALR](../genes/CALR.md) discovery cohort [PMID:24325359](../papers/24325359.md)
 - Focal 2p23.3 deletion in 5/25 (20%) Sézary syndrome (2 homozygous) with concordant loss of expression, implicating DNMT3A as an epigenetic tumor suppressor in CTCL [PMID:26551667](../papers/26551667.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
+- Modest q-value as a significantly mutated gene in lung ADC; recurrent AKT1 p.E17K and CDK4 p.R24L mutations observed in the same cohort [PMID:27158780](../papers/27158780.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +59,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -43,6 +43,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Used immunohistochemistry for protein marker detection in sarcoma tissue samples [PMID:28199314](../papers/28199314.md)
 - Performed immunohistochemistry to confirm protein-level alterations in tissue samples [PMID:28445112](../papers/28445112.md)
 - Ki67 immunohistochemistry performed on TMA cores in TRACERx; high Ki67 proliferation index was an independent predictor of pre-operative ctDNA detection in early-stage NSCLC [PMID:28445469](../papers/28445469.md)
+- IHC for Ki67, E-cadherin, and Vimentin performed on subcutaneous DU145 and PC3 xenograft sections after NOL10 knockdown; confirmed reduced proliferation and reduced EMT markers (lower Vimentin, higher E-cadherin) [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -119,5 +120,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

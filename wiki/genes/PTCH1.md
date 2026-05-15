@@ -31,6 +31,7 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - PTCH1 mutations detected in 3 of 4 basal cell carcinoma (BCC) patients in a recurrent/metastatic head and neck NGS cohort; all 3 had responded to hedgehog-pathway inhibitors prior to NGS [PMID:27442865](../papers/27442865.md).
 - Overexpression in medulloblastoma (MBL) alongside SUFU and ZIC3; SMO-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Inactivating alterations in 6% of ESCCs (no EACs), suggesting active hedgehog signalling in esophageal squamous cell carcinoma [PMID:28052061](../papers/28052061.md)
+- Germline PTCH1 variants predominantly restricted to SHH medulloblastoma subgroup [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -89,3 +90,6 @@ PTCH1 (Patched 1) is the primary receptor for Hedgehog (HH) ligands and a key tu
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

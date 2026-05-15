@@ -77,6 +77,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Driver SNVs detected in LUAD within the TRACERx ctDNA study; not associated with pre-operative ctDNA detection rate within the LUAD subset [PMID:28445469](../papers/28445469.md)
 - Hotspot A289V missense mutation in 1/19 oligodendroglioma cases (FISH-confirmed 1p/19q-codeleted); EGFR amplification observed in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
 - Tumor-type-specific alteration localization: extracellular N-terminal domain in glioma vs kinase domain in lung cancer; EGFRvIII (exon 2-7 deletion) detected in 65 cases across MSK-IMPACT cohort [PMID:28481359](../papers/28481359.md)
+- Recurrent oncogene amplification in CCA (n=11 of 71 WGS cases); co-amplified with MYC, MDM2, and CCND1 in Fluke-associated cholangiocarcinoma subsets [PMID:28667006](../papers/28667006.md).
 
 ## Cancer types (linked)
 
@@ -224,5 +225,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

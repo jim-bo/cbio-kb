@@ -3,8 +3,8 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-15"
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # STK11
@@ -22,6 +22,8 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Low-frequency mutation detected in both PDTC and ATC cohorts in thyroid cancer targeted sequencing [PMID:26878173](../papers/26878173.md)
 - Significantly mutated exclusively in lung ADC vs other TCGA tumor types (q < 0.1); significantly co-occurs with activating [KRAS](../genes/KRAS.md) mutations (p = 1.1 × 10⁻⁶) in a 660-ADC exome cohort [PMID:27158780](../papers/27158780.md).
 - STK11 significantly enriched in the unknown mitogenic driver (UMD) subset of 860 metastatic [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT (p<0.05); also enriched in heavy-smoker UMD samples; authors nominate STK11 as a candidate targetable mitogenic driver [PMID:28336552](../papers/28336552.md).
+- Newly nominated CCA driver; mutated in 5%, mostly inactivating (7 nonsense, 9 frameshift mutations) [PMID:28667006](../papers/28667006.md)
+- Used as co-deletion partner with Pten in murine prostate organoid model (Pten^pc-/-;Lkb1^pc-/-) for in-vivo NOL10/USF1 knockdown experiments in prostate cancer [PMID:28927585](../papers/28927585.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +64,9 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

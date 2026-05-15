@@ -3,7 +3,7 @@ symbol: BRIP1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -20,6 +20,7 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - Loss-of-function mutation in PanNEN patient PN27 in a WGTA-guided therapy study; supported PARP-inhibitor therapy recommendation [PMID:24326773](../papers/24326773.md)
 - HBOC gene (BRIP1) included in the standard multigene panel for hereditary/familial gastric cancer risk stratification [PMID:24816255](../papers/24816255.md)
 - BRIP1 (FANCJ) listed as part of the Fanconi anemia pathway gene set; homozygous deleterious events in FA-pathway genes including BRIP1 were used as a DNA-repair-defect classifier predicting longer response to carboplatin in mCRPC (P = 0.02, n=20 treated men) [PMID:26928463](../papers/26928463.md)
+- BRIP1 is an additional germline cancer-predisposition finding in prostate cancer (<1–1% frequency) [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -48,3 +49,6 @@ BRIP1 (BRCA1-Interacting Protein C-Terminal Helicase 1, also known as FANCJ) is 
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

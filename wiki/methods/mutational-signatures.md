@@ -29,6 +29,8 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - COSMIC mutational signature decomposition applied to urothelial carcinoma WES data identified four signatures (APOBEC sigs 2/13, age, smoking, ERCC2-associated); post-chemotherapy tumours were enriched for APOBEC3A YTCA-context mutations (P=1×10⁻⁵). [PMID:27749842](../papers/27749842.md)
 - WTSI/Sanger deconstructSigs framework applied over 13 COSMIC breast-cancer signatures to metastatic breast cancer exomes; APOBEC signatures 2+13 contributed 58.8% of mutations in HR+/HER2− mBC vs 31.9% in primary TCGA samples (p<2e-16) [PMID:28027327](../papers/28027327.md).
 - Mutation signatures decomposed against the Alexandrov 30-signature catalog (KL-divergence) in 994 high-TMB cases from MSK-IMPACT, tracking aging, APOBEC, smoking, BRCA1/2, MMR, UV, POLE, and TMZ signatures [PMID:28481359](../papers/28481359.md)
+- Ten COSMIC mutational signatures identified in 489 CCAs (Signatures 1, 5, 8, 16, 17; APOBEC 2/13; MMR-deficient 6/20; aristolochic acid 22); APOBEC enriched in Fluke-Pos and Signature 1 elevated in CpG-island Cluster 1 [PMID:28667006](../papers/28667006.md)
+- 24 mutational signatures detected with ≥5% contribution across 491 medulloblastomas; Signature 3 (BRCA-associated) unexpectedly prevalent in Group 3/4; Signatures 18 and 5 enriched in Group 3 (P=4.7×10⁻⁵) and Group 4 (P=1.0×10⁻¹¹) respectively [PMID:28726821](../papers/28726821.md)
 
 ## Notes
 
@@ -71,5 +73,11 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -3,7 +3,7 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -66,6 +66,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Truncating mutations and deletions in 16 LUAD patients (level 4); enriched in TCGA LUAD cohort vs MSK clinical cohort (8.3% vs 2%, p<0.001) [PMID:28336552](../papers/28336552.md)
 - Homozygous loss in 9% (3/34) of acral melanoma patients; additionally LOH plus nonsense mutation E2578* in one further patient; NF1-subtype tumors were BRAF/NRAS wild-type with co-occurring PAK1 copy gains [PMID:28373299](../papers/28373299.md)
 - Mutated in 4/19 (21%; F1247Ifs*18, F1455Lfs*9, F2386, K2595Sfs*5) in 1p/19q-codeleted anaplastic oligodendroglioma; also found in 1p/19q-intact glioblastoma-like tumors; none of the individual mutations were predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
+- Most commonly fused tumor suppressor in MET500 500-patient metastatic cancer cohort (n=18 fusion events) [PMID:28783718](../papers/28783718.md)
 
 ## Cancer types (linked)
 
@@ -187,3 +188,6 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

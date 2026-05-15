@@ -4,8 +4,8 @@ oncotree_code: MBL
 main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Medulloblastoma (MBL)
@@ -26,6 +26,7 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - ICJG WGS/WES of 125 pediatric medulloblastomas identified 8 significantly mutated genes ([CTNNB1](../genes/CTNNB1.md) 12%, DDX3X 8%, [PTCH1](../genes/PTCH1.md) 6%, [SMARCA4](../genes/SMARCA4.md) 5%, [KMT2D](../genes/KMT2D.md) 5%, [TP53](../genes/TP53.md) 4%, [KDM6A](../genes/KDM6A.md) 4%, [CTDNEP1](../genes/CTDNEP1.md) 3%); tetraploidy found in 54% of Group 3 and 40% of Group 4 tumors; chromatin modifiers altered in 36% of cases; first medulloblastoma fusion genes described [PMID:22832583](../papers/22832583.md)
 - Medulloblastoma (MBL) whole-genome sequencing revealed recurrent somatic mutations and structural variants, including subgroup-specific alterations in WNT, [SHH](../genes/SHH.md), Group 3, and Group 4 tumors [PMID:26760213](../papers/26760213.md)
 - PIPseq cohort: KDM6A M997fs used for risk-stratification (group 4 classification); PTCH1/SUFU/ZIC3 overexpression identified as SMO-inhibitor target; ATM R189K + K2756* germline variants flagged for increased risk of other cancers [PMID:28007021](../papers/28007021.md)
+- ICGC/MAGIC integrated WGS (n=491) and methylation profiling (n=1,256) of medulloblastoma defined driver events in 76% of Group 3 and 82% of Group 4 cases; identified KBTBD4 hotspot in-frame insertions (Groups 3/4), SNCAIP tandem-duplication-driven PRDM6 enhancer hijacking (17% of Group 4, most prevalent Group 4 driver), and eight DNA-methylation-defined Group 3/4 subtypes. [PMID:28726821](../papers/28726821.md)
 
 ## Subtypes
 
@@ -37,21 +38,12 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 
 ## Sources
 
+- [PMID:22722829](../papers/22722829.md)
+- [PMID:22820256](../papers/22820256.md)
+- [PMID:22832583](../papers/22832583.md)
+- [PMID:26760213](../papers/26760213.md)
+- [PMID:28007021](../papers/28007021.md)
+- [PMID:28726821](../papers/28726821.md)
 - [PMID:35927489](../papers/35927489.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22722829](../papers/22722829.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22820256](../papers/22820256.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22832583](../papers/22832583.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26760213](../papers/26760213.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

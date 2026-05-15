@@ -17,8 +17,8 @@ tags:
   - chromatin-remodeling
   - swi-snf
   - idh-mutation
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # JHU Intrahepatic Cholangiocarcinoma / Gallbladder Carcinoma WES 2013
@@ -52,9 +52,13 @@ The chol_jhu_2013 cohort was assembled by Jiao, Pawlik, Wood and colleagues at J
 - [IDH1](../genes/IDH1.md)/[IDH2](../genes/IDH2.md) hotspot mutations in 20% of IHCH; associated with significantly worse survival (3-year [OS](../cancer_types/OS.md) 33% vs 81%, log-rank P=0.0034; Cox HR 7.37 after stage/age/sex adjustment) [PMID:24185509](../papers/24185509.md)
 - [FGFR2](../genes/FGFR2.md) point mutations in 4/32 (13%) discovery-screen IHCH, complementing known [FGFR2](../genes/FGFR2.md) gene fusions in cholangiocarcinoma [PMID:24185509](../papers/24185509.md)
 - [TP53](../genes/TP53.md) was the dominant GBC alteration (5/8, 63% discovery screen; 44% combined GBC cohort), supporting genomically distinct biology between IHCH and GBC [PMID:24185509](../papers/24185509.md)
+- Used as a comparison dataset in the ICGC multi-omic CCA study; the TCGA 'IDH' and 'METH3' groups from this lineage of CCA studies map approximately to Cluster 4 of the four etiology-driven molecular subtypes [PMID:28667006](../papers/28667006.md).
 
 ## Sources
 
 - [PMID:24185509](../papers/24185509.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

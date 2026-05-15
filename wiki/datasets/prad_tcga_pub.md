@@ -22,8 +22,8 @@ tags:
   - molecular-taxonomy
   - ets-fusions
   - multi-platform
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Prostate Adenocarcinoma — TCGA 2015
@@ -66,6 +66,7 @@ Integrated multi-platform molecular characterization of 333 primary prostate ade
 - [IDH1](../genes/IDH1.md) R132 mutations define a CIMP-like epigenetic subgroup with greater genome-wide hypermethylation than IDH1-mutant [GBM](../cancer_types/GBM.md) or [AML](../cancer_types/AML.md), associated with younger age and ETS/SPOP-wild-type status [PMID:26544944](../papers/26544944.md).
 - PI3K/MAPK pathway lesions in ~25% of tumors; [AR](../genes/AR.md) splice variants including AR-V7 detectable at low levels in hormone-naive primary tumors [PMID:26544944](../papers/26544944.md).
 - [SPOP](../genes/SPOP.md) and [FOXA1](../genes/FOXA1.md) mutations confer highest [AR](../genes/AR.md) transcriptional activity; SPOP-mutant tumors showed distinct co-mutation landscape (HEXA silencing, no ETS fusions) [PMID:26544944](../papers/26544944.md).
+- Served as a comparison primary-prostate-cancer cohort (333 cases) in the MSK-IMPACT prospective profiling study; locoregional MSK-IMPACT tumors showed higher TP53 and FOXA1 frequencies than TCGA primaries, reflecting selection bias toward cases that subsequently recurred or metastasized [PMID:28825054](../papers/28825054.md).
 
 ## Sources
 
@@ -73,3 +74,6 @@ Integrated multi-platform molecular characterization of 333 primary prostate ade
 - TCGA data portal (prad_tcga_pub)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

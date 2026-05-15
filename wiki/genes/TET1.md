@@ -3,8 +3,8 @@ symbol: TET1
 aliases: []
 cancer_types: [THPA]
 tags: [dna-methylation, epigenetic, thyroid]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TET1
@@ -16,6 +16,7 @@ TET1 is a dioxygenase that oxidizes 5-methylcytosine to drive DNA demethylation.
 ## Alterations observed in the corpus
 
 - TET1 was identified as a recurrent SNV by SeqSig analysis in anaplastic thyroid carcinoma across a comprehensive genomic and evolutionary landscape study of ATC [PMID:38412093](../papers/38412093.md).
+- Downregulated expression in Cluster 1 cholangiocarcinoma, suggesting loss-of-demethylation as an epigenetic mechanism for Cluster 1 hypermethylation [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TET1 is a dioxygenase that oxidizes 5-methylcytosine to drive DNA demethylation.
 - [PMID:38412093](../papers/38412093.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -18,7 +18,7 @@ tags:
   - crpc
   - metastatic
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Prostate Cancer — Michigan WES (prad_mich)
@@ -55,6 +55,7 @@ A cohort assembled by the University of Michigan comprising 50 lethal metastatic
 - [TMPRSS2](../genes/TMPRSS2.md):[ERG](../genes/ERG.md) fusion present in the majority of ETS+ cases; [ETS2](../genes/ETS2.md) deleted in ~1/3 of CRPCs [PMID:22722839](../papers/22722839.md).
 - Overall mutation rate in CRPC is low (2.00/Mb), confirming monoclonal origin; genomic complexity arises primarily from copy-number alterations and rearrangements [PMID:22722839](../papers/22722839.md).
 - Used as an external validation cohort (Grasso et al. Michigan CRPC cases) for the NEPC classifier; up to 8% of metastatic samples across prad_mich, prad_tcga, and prad_su2c_2015 scored NEPC-high on pathology re-review [PMID:26855148](../papers/26855148.md)
+- Used (Grasso et al. / GSE35988, n=28 normal / 59 primary / 35 metastasis) to demonstrate elevated NOL10 mRNA in metastases relative to normals and primaries, and for Kaplan-Meier overall survival analysis (high NOL10 HR=2.20, 95% CI 1.03–4.69, P=0.034) [PMID:28927585](../papers/28927585.md).
 
 ## Sources
 
@@ -62,3 +63,6 @@ A cohort assembled by the University of Michigan comprising 50 lethal metastatic
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

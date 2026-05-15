@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [sequencing, wgs]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Whole-genome sequencing (WGS)
@@ -86,6 +86,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Low-pass (6–8×) whole-genome sequencing performed on 51 oesophageal cancers as part of the TCGA esophageal/stomach multi-platform study to characterize structural variants [PMID:28052061](../papers/28052061.md).
 - Performed whole-genome sequencing to comprehensively catalog structural variants and mutational signatures [PMID:28373299](../papers/28373299.md)
 - Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:28445112](../papers/28445112.md)
+- Used in the ICGC cholangiocarcinoma cohort (n=71 tumor/normal pairs, average 64.2× depth on Illumina HiSeq X10/2500/2000) to define four etiology-driven molecular subtypes of CCA [PMID:28667006](../papers/28667006.md)
+- Applied across 390 medulloblastoma tumor/normal pairs (200 new + 190 previously published) to map driver events in all four consensus subgroups; identified hotspot KBTBD4 insertions, PRDM6 enhancer-hijacking, and 24 mutational signatures [PMID:28726821](../papers/28726821.md)
 
 ## Notes
 
@@ -287,3 +289,9 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: GNAS
 aliases: []
 cancer_types: [APAD, PTAD, PAAD]
 tags: [oncogene, chemoresistance, molecular-subtype]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # GNAS
@@ -24,6 +24,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - Somatic mutation in 2/23 (9%) pancreatic acinar cell carcinomas, both at the codon 201 oncogenic hotspot, in whole-exome sequencing of a rare pancreatic tumor subtype [PMID:24293293](../papers/24293293.md)
 - Mutated in 6% of PDAC at hotspot codon 201 (R201C/R201H); all invasive cases derived from [IPMN](../cancer_types/IPMN.md) precursors; frequent co-mutation with [KRAS](../genes/KRAS.md) [PMID:25855536](../papers/25855536.md)
 - Selectively mutated in mCRPC vs. primary prostate cancer (q<0.1); mutation observed exclusively in mCRPC [PMID:26000489](../papers/26000489.md)
+- Identified as a lineage-associated oncogene in the MET500 cohort of 500 metastatic solid tumors profiled by paired whole-exome and transcriptome sequencing; enrichment restricted to selected tumor types [PMID:28783718](../papers/28783718.md)
 
 ## Cancer types (linked)
 
@@ -59,3 +60,6 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

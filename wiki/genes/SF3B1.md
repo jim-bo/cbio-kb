@@ -3,7 +3,7 @@ symbol: SF3B1
 aliases: []
 cancer_types: [CLLSLL, PTAD, ACYC]
 tags: [splicing-factor, cll-driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -36,6 +36,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Recurrent K700E mutation in 3.5% of ER+ breast tumours (ONC=52%); linked to differential splicing; associated with older age at diagnosis (OR=4.5) and mutually exclusive with [TP53](../genes/TP53.md) (OR=0.049) in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
 - Splicing factor mutation; part of the chromatin-spliceosome subgroup in AML (n=1,540); co-occurs with ASXL1, SRSF2, U2AF1, and ZRSR2 as an adverse-risk cluster [PMID:27276561](../papers/27276561.md)
 - Alongside TP53, the only gene whose mutations consistently declined to VAF <5% during 10-day decitabine therapy in AML/MDS patients (N=116 combined cohort); included in both the 264-gene enhanced exome and the 8-gene AmpliSeq panel used on this trial. [PMID:27959731](../papers/27959731.md)
+- Newly nominated CCA driver; mutated in 4.6% at hotspots codon 625 (23%) and codon 700 (14%), implicating splicing dysregulation paralleling uveal melanoma and breast cancer hotspots [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -117,3 +118,6 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

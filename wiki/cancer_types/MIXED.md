@@ -7,8 +7,8 @@ tags:
   - mixed-histology
   - breast
   - idc-ilc
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Mixed Cancer Types (MIXED)
@@ -25,6 +25,7 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 
 - Mixed IDC/ILC tumors molecularly resolve into ILC-like (24/88) or IDC-like (64/88) classes by majority vote of three orthogonal classifiers (ISOpure, OncoSign-adapted, ElasticNet); [CDH1](../genes/CDH1.md) mutation status is the dominant discriminating feature — all CDH1-mutated mixed tumors classified as ILC-like [PMID:26451490](../papers/26451490.md).
 - [CDH1](../genes/CDH1.md) alteration rate in mixed tumors is intermediate between [ILC](../cancer_types/ILC.md) (63%) and [IDC](../cancer_types/IDC.md) (2%), consistent with the histologic mixture [PMID:26451490](../papers/26451490.md).
+- MET500 cohort (n=500 metastatic solid tumors across 20 cancer types) is the defining MIXED-lineage study in this corpus: top three types were PRAD (18.6%), BRCA (18.2%), and SARCNOS (8.4%); pan-cancer somatic landscape across lineages found TP53 (53.2%), CDKN2A (16%), PTEN (15.8%), PIK3CA (13.4%), AR (12.6%), and KRAS (10.2%) as most-altered genes. [PMID:28783718](../papers/28783718.md)
 
 ## Subtypes
 
@@ -38,6 +39,7 @@ The MIXED OncoTree code designates tumors with mixed histologic features that do
 
 ## Sources
 
-- [PMID:26451490](../papers/26451490.md) — Ciriello et al., *Comprehensive molecular portraits of invasive lobular breast cancer*, Cell 2015.
+- [PMID:26451490](../papers/26451490.md)
+- [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

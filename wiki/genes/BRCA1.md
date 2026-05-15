@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -62,6 +62,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 is recruited to DSBs via TRMT10A pSer28; BRCA1 recruitment (but not protein abundance) is impaired by TRMT10A or USP10 loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
 - 3 likely-inactivating truncating mutations (0.3%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
+- BRCA1 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
+- BRCA1 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (5 PPGM carriers); HR deficiency from BRCA1 alterations implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
+- BRCA1 is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -180,3 +183,12 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [transcriptomics, microarray, gene-expression]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Illumina gene-expression microarray
@@ -20,6 +20,7 @@ Hybridization-based gene-expression profiling using Illumina BeadChip arrays (e.
 - [PMID:30325352](../papers/30325352.md) — Illumina HT-12 gene-expression microarrays applied to 26 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) radiogenomic dataset; 17 subjects have overlapping RNA-seq data; raw data deposited at GEO accession GSE28827 [PMID:30325352](../papers/30325352.md).
 - Illumina gene-expression microarray used alongside SNP arrays in METABRIC to derive integrative clustering of ~2,000 breast tumors into 10 subtypes [PMID:22522925](../papers/22522925.md)
 - Used for copy number variation analysis in colorectal cancer [PMID:23897969](../papers/23897969.md)
+- HumanHT-12 v4 Expression BeadChip (Illumina) used for gene-expression profiling of 118 CCA tumors; HumanOmniExpress SNP arrays used for copy-number analysis of 175 cases in the ICGC cholangiocarcinoma cohort [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -37,3 +38,6 @@ Hybridization-based gene-expression profiling using Illumina BeadChip arrays (e.
 - [PMID:23897969](../papers/23897969.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [methylation, epigenetics, array]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Illumina 450k methylation array
@@ -25,6 +25,8 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - Applied Illumina Infinium 450K to all 373 endometrial carcinoma samples; identified MSI hypermutated tumours via [MLH1](../genes/MLH1.md) promoter hypermethylation and defined the POLE-ultramutated, MSI, copy-number-low, and copy-number-high subtypes [PMID:23636398](../papers/23636398.md)
 - Used in TCGA clear cell renal cell carcinoma study (n=224 samples) to profile DNA methylation, revealing [SETD2](../genes/SETD2.md) mutation-associated regional hypomethylation at non-promoter CpGs and [VHL](../genes/VHL.md) promoter silencing in ~7% of tumors [PMID:23792563](../papers/23792563.md)
 - Used in TCGA PTC multiplatform profiling; methylation clusters aligned with BVL/RL meta-cluster split, and a CpG-island RL-PTC sub-cluster was associated with higher tumor purity and reduced lymphocyte infiltration [PMID:25417114](../papers/25417114.md)
+- Illumina 450K methylation BeadChip applied to 138 CCA cases to reveal two distinct hypermethylation subgroups: CpG-island (Cluster 1/Fluke-Pos) and CpG-shore (Cluster 4/Fluke-Neg) patterns [PMID:28667006](../papers/28667006.md)
+- Illumina 450K methylation arrays profiled 1,256 medulloblastoma cases; t-SNE on 12,454 most-variable probes resolved eight molecular subtypes within Group 3/4, the largest methylation-based MB classification to date [PMID:28726821](../papers/28726821.md)
 
 ## Notes
 
@@ -54,3 +56,9 @@ Bead-based array measuring DNA methylation at ~450,000 CpG sites across the huma
 - [PMID:25417114](../papers/25417114.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

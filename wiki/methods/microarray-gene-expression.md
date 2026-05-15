@@ -21,6 +21,7 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - Illumina HumanHT-12 V4 expression microarrays (ArrayExpress E-MTAB-1397) analyzed via limma to characterize expression differences between MYB/MYBL1 fusion subclasses in 102 salivary adenoid cystic carcinomas [PMID:26631609](../papers/26631609.md).
 - Agilent 44K expression microarray applied to 171 tumors from 63 men with metastatic CRPC; expression clustering grouped tumors by patient, revealing high intra-individual concordance for AR activity and cell-cycle progression (CCP) scores. Data deposited at GEO accession GSE74685. [PMID:26928463](../papers/26928463.md)
 - All 1,913 B-ALL cases profiled by microarray gene expression to identify the DUX4/ERG subtype cluster (141/1,913, 7.6%) as a distinct expression signature. [PMID:27776115](../papers/27776115.md)
+- HumanHT-12 Expression BeadChip (Illumina platform) applied to 118 CCA cases; transcript-level data contributed to the four-cluster integrative iCluster analysis and GSEA of PRC2-pathway dysregulation [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -39,3 +40,6 @@ Hybridization-based platform for simultaneous measurement of mRNA abundance acro
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

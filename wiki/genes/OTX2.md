@@ -7,8 +7,8 @@ tags:
   - transcription_factor
   - amplification
   - medulloblastoma
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # OTX2
@@ -20,6 +20,7 @@ OTX2 (Orthodenticle Homeobox 2) is a homeodomain transcription factor with roles
 ## Alterations observed in the corpus
 
 - Amplification in subgroup-3/4 medulloblastoma (PCGP WGS, 37 tumors); cooperative with DDX31/TSC1 deletion at 9q34; co-occurs with MYCN amplification [PMID:22722829](../papers/22722829.md)
+- Recurrently altered in Group 3 (3%) and Group 4 (6%) medulloblastoma in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ OTX2 (Orthodenticle Homeobox 2) is a homeodomain transcription factor with roles
 - [PMID:22722829](../papers/22722829.md) — Medulloblastoma WGS, 37 tumors, PCGP cohort.
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

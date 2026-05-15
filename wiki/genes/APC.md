@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -49,6 +49,9 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC mutation rate lower in esophageal adenocarcinoma (EAC) vs CIN gastric — pan-esophageal/gastroesophageal cancer genomic landscape study [PMID:28052061](../papers/28052061.md)
 - Cited as a lineage-restricted driver in colorectal cancer, contrasted with pan-cancer drivers TP53/PIK3CA, in the MSK-IMPACT prospective profiling cohort (n=10,945) [PMID:28481359](../papers/28481359.md)
 - V2194Ffs*5 frameshift mutation detected in 1/19 sequenced 1p/19q-codeleted anaplastic oligodendrogliomas; incidental alteration alongside canonical IDH1/TERT/CIC/FUBP1 drivers [PMID:28472509](../papers/28472509.md)
+- Pathogenic germline APC variants found in 3 CTNNB1-wild-type WNT medulloblastomas — Turcot syndrome predisposition; APC germline testing warranted when WNT MB is suspected without CTNNB1 mutation [PMID:28726821](../papers/28726821.md)
+- APC is a non-DNA-repair presumed pathogenic germline mutation (PPGM) gene in 6 of 500 metastatic cancer patients (9.5%), significantly enriched vs. ExAC controls in the MET500 pan-cancer cohort [PMID:28783718](../papers/28783718.md)
+- APC enriched in both metastatic prostate cancer states relative to locoregional disease, implicating it as a driver of metastasis; co-occurs with CTNNB1 and RNF43 as Wnt-pathway alterations [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -158,3 +161,12 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

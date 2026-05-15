@@ -23,8 +23,8 @@ tags:
   - carboplatin
   - dna-repair
   - ar-signaling
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Metastatic Castration-Resistant Prostate Cancer FHCRC 2016 (Kumar et al.)
@@ -65,6 +65,8 @@ Rapid-autopsy multi-region genomic study of 63 men with metastatic castration-re
 - Fanconi anemia pathway gene expression elevated in high-CCP (cell-cycle progression) tumors; [RB1](../genes/RB1.md) loss associated with elevated CCP and 15-gene FA signature (r = 0.78, P < 0.001) [PMID:26928463](../papers/26928463.md).
 - Men with somatic DNA-repair pathway aberration (FA-gene homozygous loss or [ATM](../genes/ATM.md) inactivation) had significantly longer time on carboplatin (Kaplan-Meier log-rank P = 0.02, n=20 carboplatin-treated) [PMID:26928463](../papers/26928463.md).
 - Metastasis-private mutations compared against [prad_tcga](../datasets/prad_tcga.md) and [prad_su2c_2015](../datasets/prad_su2c_2015.md) — only 2/51 private mutations occurred at >5% frequency in those cohorts, arguing most are non-driver events [PMID:26928463](../papers/26928463.md).
+- Used as a comparison mCRPC cohort (63 cases) in the MSK-IMPACT prostate cancer profiling study; HR gene alteration frequencies were cross-validated against this cohort [PMID:28825054](../papers/28825054.md).
+- Used for cross-cohort correlation of the NOL10 cell-cycle signature (CCS) with the clinical cell-cycle-progression (CCP) score [PMID:28927585](../papers/28927585.md).
 
 ## Sources
 
@@ -73,3 +75,9 @@ Rapid-autopsy multi-region genomic study of 63 men with metastatic castration-re
 - [PMID:26928463](../papers/26928463.md) — Kumar A et al., "Substantial interindividual and limited intraindividual genomic diversity among tumors from men with metastatic prostate cancer." *Nat Genet* 2016.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

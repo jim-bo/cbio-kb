@@ -41,6 +41,7 @@ OncoTree code for invasive breast carcinoma.
 - Targeted sequencing of 173 genes in 2,433 primary breast tumours (METABRIC cohort) identified 40 Mut-driver genes; top altered genes: PIK3CA (40.1%), TP53 (35.4%), KMT2C (11.4%), GATA3 (11.1%); 45.2% of tumours harboured an Akt-pathway mutation; PIK3CA prognostic value in ER+ disease depends on IntClust background (poor outcome in IntClusts 1, 2, 9 only); CDH1 inactivating mutations in 52.6% of lobular carcinomas [PMID:27161491](../papers/27161491.md)
 - WES on 216 metastatic breast cancer (mBC) tumor-blood pairs from French SAFIR01/SAFIR02/SHIVA/MOSCATO trials: ESR1 mutations in 14% and amplification in 6% of HR+/HER2- mBC (combined 19%), emerging as metastasis-specific drivers; RB1 loss-of-function in 6% of HR+/HER2- mBC (CDK4i resistance marker); TSC1/TSC2 combined 6.3% of HR+/HER2- mBC vs 0.7% primary (p=0.0004); PALB2 somatic 4% of mBC vs 0.1% of primary; APOBEC signatures 2+13 contributed 58.8% vs 31.9% of mutations in HR+ primary; 8-gene metastatic-enrichment signature carried 2-fold higher death hazard (HR=1.97, p=0.001) [PMID:28027327](../papers/28027327.md)
 - In the MSK-IMPACT pan-cancer cohort, ESR1 hotspot mutations were found in 11% of BRCA (vs 4% in TCGA), almost exclusively in post-hormone-therapy metastases, consistent with endocrine-resistance; 57% of BRCA patients harbored an OncoKB-actionable alteration (3rd highest after GIST and thyroid). [PMID:28481359](../papers/28481359.md)
+- MET500 metastatic cohort: breast carcinoma was the second most common cancer type (91/500, 18.2%); BRCA1/BRCA2 germline pathogenic variants were significantly enriched vs ExAC controls (BRCA1 n=5, BRCA2 n=9); MImmScore immune analysis showed metastatic breast tumors have low immune infiltration similar to primary disease. [PMID:28783718](../papers/28783718.md)
 
 ## Subtypes
 
@@ -55,49 +56,25 @@ OncoTree code for invasive breast carcinoma.
 
 ## Sources
 
-- [PMID:27634761](../papers/27634761.md)
-- [PMID:39289779](../papers/39289779.md)
-- [PMID:39147831](../papers/39147831.md)
-- [PMID:39506116](../papers/39506116.md)
-- [PMID:27698471](../papers/27698471.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:36585450](../papers/36585450.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158541](../papers/22158541.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22495314](../papers/22495314.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22522925](../papers/22522925.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722201](../papers/22722201.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722202](../papers/22722202.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25470049](../papers/25470049.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26437033](../papers/26437033.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26451490](../papers/26451490.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
-
+- [PMID:27634761](../papers/27634761.md)
+- [PMID:27698471](../papers/27698471.md)
 - [PMID:28027327](../papers/28027327.md)
 - [PMID:28481359](../papers/28481359.md)
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:36585450](../papers/36585450.md)
+- [PMID:39147831](../papers/39147831.md)
+- [PMID:39289779](../papers/39289779.md)
+- [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

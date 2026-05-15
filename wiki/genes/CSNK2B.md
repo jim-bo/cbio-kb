@@ -3,8 +3,8 @@ symbol: CSNK2B
 aliases: [CK2B]
 cancer_types: [MB]
 tags: [kinase, WNT-pathway, medulloblastoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # CSNK2B
@@ -16,6 +16,7 @@ CSNK2B encodes the regulatory beta subunit of Casein Kinase 2 (CK2), a constitut
 ## Alterations observed in the corpus
 
 - CSNK2B is recurrently mutated in medulloblastoma WES of 92 tumors (Broad cohort), with mutations co-occurring with CTNNB1 mutations in the WNT subgroup, implicating it as a cooperative driver in WNT-subgroup medulloblastoma [PMID:22820256](../papers/22820256.md)
+- Clinically actionable mutation identified in 14% of WNT-subgroup medulloblastomas in the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CSNK2B encodes the regulatory beta subunit of Casein Kinase 2 (CK2), a constitut
 - [PMID:22820256](../papers/22820256.md) — Medulloblastoma WES (Broad, 92 tumors)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

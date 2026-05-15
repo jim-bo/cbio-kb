@@ -3,8 +3,8 @@ symbol: CTDNEP1
 aliases: [DULLARD]
 cancer_types: [MB]
 tags: [tumor-suppressor, phosphatase, chromosome-17, medulloblastoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # CTDNEP1
@@ -17,6 +17,7 @@ CTDNEP1 (CTD Nuclear Envelope Phosphatase 1) encodes a serine/threonine phosphat
 
 - CTDNEP1 is mutated by frameshift and splice-site variants in medulloblastoma WES of 92 tumors (Broad cohort), enriched in Group 3; hemizygous inactivation via isodicentric 17q is a frequent co-occurring mechanism [PMID:22820256](../papers/22820256.md)
 - CTDNEP1 truncating alterations are observed in 4/125 medulloblastoma cases (3%) in the ICGC WGS/WES cohort of 76 tumors; in 3 cases the wild-type allele is lost via isodicentric 17q, establishing it as a candidate 17p tumor suppressor [PMID:22832583](../papers/22832583.md)
+- Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ CTDNEP1 (CTD Nuclear Envelope Phosphatase 1) encodes a serine/threonine phosphat
 - [PMID:22832583](../papers/22832583.md) — Medulloblastoma WGS/WES (ICGC, 76 tumors)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

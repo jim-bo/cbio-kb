@@ -25,6 +25,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Hotspot mutations in 11% of primary prostate cancer ([PRAD](../cancer_types/PRAD.md)); mutually exclusive with ETS fusions; defines a subtype with [CHD1](../genes/CHD1.md) deletion, elevated methylation, [SPINK1](../genes/SPINK1.md) overexpression, and highest [AR](../genes/AR.md) transcriptional output [PMID:26544944](../papers/26544944.md)
 - Recurrent mCRPC driver mutation consistent with prior reports; identified among pan-metastasis driver genes in a rapid-autopsy whole-genome sequencing cohort [PMID:26928463](../papers/26928463.md)
 - Mutated in 14.3% of clear-cell endometrial carcinoma (CCEC; n=63) in a cross-histology endometrial sequencing study [PMID:28485815](../papers/28485815.md)
+- Enriched in earlier prostate cancer disease states (12% locoregional vs 5% mCRPC); paired with FOXA1, defines a possibly androgen-deprivation-sensitive subset (functional validation pending) [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

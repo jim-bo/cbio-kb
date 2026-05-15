@@ -3,7 +3,7 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 P26-05-15
 processed_at: 2026-05-15
 ---
@@ -39,6 +39,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Mismatch repair defect identified in hypermutated HNSC tumors, alongside MLH1, MSH2, and POLD1 [PMID:27442865](../papers/27442865.md)
 - Somatic mutation observed in the hypermutated clear-cell endometrial carcinoma (CCEC) case T113; associated with MSI-high tumor phenotype [PMID:28485815](../papers/28485815.md)
 - Less frequent DDR alteration in non-muscle-invasive bladder cancer (NMIBC); contributes to the 30% DDR-altered fraction seen in high-grade NMIBC [PMID:28583311](../papers/28583311.md)
+- MMR gene altered in ~3% of advanced prostate cancer patients alongside MLH1, MSH2, and PMS2; alterations produce a hypermutator phenotype with MMR/MSI signatures suggesting immune-checkpoint blockade candidacy [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -122,3 +123,6 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

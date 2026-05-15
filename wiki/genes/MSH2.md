@@ -3,7 +3,7 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 P26-05-15
 processed_at: 2026-05-15
 ---
@@ -32,6 +32,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MSH2, together with MSH6, underlies complex structural aberrations causing hypermutation in 5 men with metastatic castration-resistant prostate cancer (mCRPC); MMR deficiency apparent in matched primaries [PMID:26928463](../papers/26928463.md)
 - Mismatch repair defect identified in hypermutated HNSC tumors, alongside MLH1, MSH6, and POLD1 [PMID:27442865](../papers/27442865.md)
 - R680 missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
+- MMR gene altered in ~3% of advanced prostate cancer patients alongside MLH1, MSH6, and PMS2; alterations produce a hypermutator phenotype with MMR/MSI signatures suggesting immune-checkpoint blockade candidacy [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -94,3 +95,6 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

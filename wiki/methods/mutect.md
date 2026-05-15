@@ -53,6 +53,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used MuTect for somatic SNV calling from paired tumor-normal sequencing data [PMID:28373299](../papers/28373299.md)
 - Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:28445112](../papers/28445112.md)
 - Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV [PMID:28481359](../papers/28481359.md)
+- Applied for somatic SNV calling on CCA whole-genome and exome sequencing data in the ICGC cholangiocarcinoma cohort (489 tumors across three sequencing platforms) [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -151,5 +152,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

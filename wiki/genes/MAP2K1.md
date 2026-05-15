@@ -3,7 +3,7 @@ symbol: MAP2K1
 aliases: [MEK1]
 cancer_types: [LCH, ECD]
 tags: [mapk, histiocytosis, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -29,6 +29,7 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - MAP2K1 nominated as a RAS-pathway kinase CRC driver in a 619-tumor whole-exome sequencing study (NHS/HPFS cohort) [PMID:27149842](../papers/27149842.md)
 - MAP2K1 harbors a recurrent in-frame insertion in lung adenocarcinoma identified in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - 6 patients with activating alleles (E203K, K57N, Q56P, G128V, E102_I103del) in prospective LUAD cohort (860 patients, MSK-IMPACT); none received matched therapy as highest-level alteration [PMID:28336552](../papers/28336552.md)
+- Hotspot MAPK-pathway missense mutation observed in ~5% of advanced prostate cancer patients across locoregional, metastatic noncastrate, and mCRPC disease states alongside [BRAF](../genes/BRAF.md), [HRAS](../genes/HRAS.md), and [KRAS](../genes/KRAS.md) [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -90,3 +91,6 @@ MAP2K1 (MEK1) is a core MAPK-pathway kinase and an actionable driver in histiocy
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

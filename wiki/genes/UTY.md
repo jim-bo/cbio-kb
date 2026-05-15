@@ -8,8 +8,8 @@ tags:
   - histone-demethylase
   - Y-chromosome
   - bladder-cancer
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # UTY
@@ -21,6 +21,7 @@ UTY (Ubiquitously Transcribed Tetratricopeptide Repeat Containing, Y-Linked) is 
 ## Alterations observed in the corpus
 
 - UTY mutations identified as part of the KDM6A/UTY chromatin-remodeling axis in TCC bladder cancer; alterations across the broader chromatin-remodeling gene set (including KDM6A/UTY, ARID1A/ARID4A, KMT2A/C/E, EP300/EP400, [CREBBP](../genes/CREBBP.md), [NCOR1](../genes/NCOR1.md), [CHD6](../genes/CHD6.md), [SMARCA4](../genes/SMARCA4.md), KDM5A/B) total 58% of TCC cases [PMID:24121792](../papers/24121792.md).
+- Recurrent deletion in cholangiocarcinoma (n=17 cases) in the 489-sample multi-omic CCA cohort [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ UTY (Ubiquitously Transcribed Tetratricopeptide Repeat Containing, Y-Linked) is 
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

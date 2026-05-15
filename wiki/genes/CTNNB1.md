@@ -12,7 +12,7 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -62,6 +62,9 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Only one non-hotspot CTNNB1 p.L347P mutation detected among 117 PDTC/ATC thyroid tumors; study explicitly fails to replicate prior reports of frequent WNT-pathway alterations in ATC (also one APC truncation and two unverified AXIN1 variants found) [PMID:26878173](../papers/26878173.md)
 - CTNNB1 beta-catenin activation more common in esophageal adenocarcinoma (EAC) than ESCC in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
 - CTNNB1/Wnt signaling activated in PCC/PGL Wnt-altered subtype driven by MAML3 fusions and CSDE1 mutations; beta-catenin antagonists (e.g., PRI-274) proposed as a therapeutic approach [PMID:28162975](../papers/28162975.md)
+- Upregulated expression in Cluster 2 CCA (p < 0.05), alongside WNT5B and AKT1, implicating Wnt pathway activation in this molecular subtype of cholangiocarcinoma [PMID:28667006](../papers/28667006.md).
+- Hotspot mutations in 86% of WNT-subgroup medulloblastomas; sometimes subclonal alongside subclonal DDX3X variants in the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
+- Wnt-pathway co-alteration alongside RNF43 and APC in prostate cancer; enriched in metastatic disease states relative to locoregional in the SU2C/PCF pan-cancer prostate cohort [PMID:28825054](../papers/28825054.md).
 
 ## Cancer types (linked)
 
@@ -169,3 +172,12 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

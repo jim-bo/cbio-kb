@@ -3,7 +3,7 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG, LUAD]
 tags: [epigenetic-regulator, relapse]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -42,6 +42,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - CREBBP identified among epigenetic regulator mutations in PDTC/ATC thyroid tumors (IMPACT 341-gene panel, 117 tumors); listed alongside EP300, BCOR, BCL6 as other epigenetic regulators recurrently altered in ATC [PMID:26878173](../papers/26878173.md)
 - CREBBP was identified in the Pan-Lung analysis as part of the EP300/CREBBP HAT-domain hotspot region (additional significantly mutated gene); CREBBP focal deletions were found in lung SqCC [PMID:27158780](../papers/27158780.md).
 - CREBBP — chromatin modifier enriched among unmet medical need (UMD) LUAD patients, particularly in never/former-light smokers; co-occurs with KMT2D, KMT2C, and SETD2 as a cluster of epigenetic alterations in this subset [PMID:28336552](../papers/28336552.md)
+- Recurrent HAT-complex alteration in medulloblastoma, predominantly in SHH subgroup (HAT complex genes collectively altered in 19% of SHH MBs); found alongside EP300, KAT6B, BRPF1, and KANSL1 [PMID:28726821](../papers/28726821.md).
 
 ## Cancer types (linked)
 
@@ -137,3 +138,6 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

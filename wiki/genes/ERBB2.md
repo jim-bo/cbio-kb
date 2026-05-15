@@ -75,6 +75,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 alterations co-occurred with FBXW7 mutations and were evaluated in the context of targeted therapy response [PMID:28445112](../papers/28445112.md)
 - Focal amplification (>15 copies on triploid background) identified on a relapse-dominant subclone in patient CRUK0004 plasma; flagged as a potentially targetable relapse driver in NSCLC [PMID:28445469](../papers/28445469.md)
 - Hotspot S310F missense and amplification in high-grade NMIBC, almost exclusively in HGTis (6/12 specimens); mutually exclusive with FGFR3; together with FGFR3 covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
+- Amplification in 3.9–8.5% of CCAs; enriched in Fluke-positive tumors (10.4% vs 2.7%, p < 0.01) with average 14 copies and FISH validation; activating point mutations (S310F/Y, G292R, T862A, D769H, L869R, V842I, G660D) in 2% of cases. Defining co-feature of molecular Clusters 1 and 2; nominated as anti-HER2 therapeutic target [PMID:28667006](../papers/28667006.md).
 
 ## Cancer types (linked)
 
@@ -229,5 +230,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

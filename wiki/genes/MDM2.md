@@ -3,7 +3,7 @@ symbol: MDM2
 aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -48,6 +48,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Copy gain in metastases-only; MDM2:GNS and MDM2:CCT2 RNA fusions detected in acral lentiginous melanoma (ALM) integrated genomic study (34 patients) [PMID:28373299](../papers/28373299.md)
 - Amplification in 1/19 sequenced cases; observed in 1p/19q-intact glioblastoma-like tumors rather than true 1p/19q-codeleted oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Alterations rise stepwise with tumor stage and grade in NMIBC (p < 0.001); co-altered with TP53 in the p53-pathway axis [PMID:28583311](../papers/28583311.md)
+- Recurrent oncogene amplification in cholangiocarcinoma (n=9 WGS cases) [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -155,3 +156,6 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

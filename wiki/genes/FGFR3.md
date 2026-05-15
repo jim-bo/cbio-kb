@@ -42,6 +42,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 mutation identified in one adenoid cystic carcinoma (ACYC) patient, who was enrolled on an FGFR inhibitor trial through MSK-IMPACT-guided basket study [PMID:27442865](../papers/27442865.md)
 - FGFR3 alterations (including activating mutations and fusions) were profiled across cancer types in a large-scale targeted sequencing study [PMID:28336552](../papers/28336552.md)
 - Hotspot mutations in 49% of NMIBC overall (more frequent in lower grade/stage); four fusions identified including novel FGFR3-TNIP2 and FGFR3-TACC3; mutually exclusive with ERBB2; together covers 57% of high-grade NMIBC [PMID:28583311](../papers/28583311.md)
+- FGFR3-TACC3 fusion reported for the first time in cholangiocarcinoma (CCA) in the 489-sample ICGC multi-platform cohort; this fusion was previously characterized as oncogenic in bladder cancer, glioblastoma, and lung cancer [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -131,5 +132,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

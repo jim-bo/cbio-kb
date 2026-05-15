@@ -3,7 +3,7 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -35,6 +35,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK mutation enriched in HR+/HER2- metastatic breast cancer (mBC) at FDR<0.1 — potentially actionable but functional consequences require further characterization [PMID:28027327](../papers/28027327.md)
 - ALK fusions (level 1) in [LUAD](../cancer_types/LUAD.md); high matched-therapy uptake (93%) and benefit (85.8%); two ROS1-fusion patients died before crizotinib FDA approval in March 2016 [PMID:28336552](../papers/28336552.md)
 - Kinase fusions enriched in [LUAD](../cancer_types/LUAD.md) but also detected across 11 additional tumor types; EML4-ALK fusion in n=38 predominantly LUAD, part of the pan-cancer MSK-IMPACT profiling dataset (n=10,945 consecutive patients) [PMID:28481359](../papers/28481359.md)
+- Activating ALK fusions identified with novel partners in MET500 pan-cancer metastatic cohort (500 patients), expanding the targetable fusion landscape beyond canonical contexts [PMID:28783718](../papers/28783718.md)
 
 ## Cancer types (linked)
 
@@ -107,3 +108,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

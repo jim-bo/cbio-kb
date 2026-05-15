@@ -57,6 +57,8 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used Sanger sequencing for orthogonal validation of somatic variants [PMID:28373299](../papers/28373299.md)
 - Applied Sanger sequencing to validate somatic variants and germline mutations [PMID:28445112](../papers/28445112.md)
 - Sanger sequencing of 22 genes-of-interest used in the prevalence screen of 47 clear cell endometrial carcinoma (CCEC) cases from the uccc_nih_2017 cohort [PMID:28485815](../papers/28485815.md)
+- Used to PCR-validate structural variants detected by CREST in CCA WGS data (91% validation rate across ~93 somatic SVs/tumor) [PMID:28667006](../papers/28667006.md)
+- Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -182,5 +184,11 @@ A first-generation DNA sequencing method based on the selective incorporation of
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

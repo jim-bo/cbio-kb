@@ -3,7 +3,7 @@ symbol: MYCN
 aliases: []
 cancer_types: [AST, DIFG, RMS, PRAD, NBL]
 tags: [oncogene, amplification, neuroendocrine, neuroblastoma, risk-stratification]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -32,6 +32,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by EZH2 inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
 - Amplification in 5 patients (all cisplatin resistant); transcriptionally targets both TP53 and MDM2; predicts MDM2-inhibitor sensitivity by analogy to neuroblastoma in TP53-wild-type GCT [PMID:27646943](../papers/27646943.md)
 - MYCN amplification with 1p/11q LOH, 17q gain, and MYCN overexpression used in neuroblastoma (NBL) for risk-based therapy stratification across four patients in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Amplification found in Group 3 (5%) and Group 4 (6%) medulloblastoma at comparable frequencies in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -100,3 +101,6 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

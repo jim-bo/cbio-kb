@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [immune-repertoire, t-cell, sequencing]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TCR sequencing (TCR-seq)
@@ -18,6 +18,7 @@ Targeted sequencing of T-cell receptor (typically TCRβ) CDR3 regions to charact
 ## Used by
 
 - [PMID:37202560](../papers/37202560.md) — deep TCRβ sequencing (immunoSEQ) on 348 AC-ICAM colon cancer tumor/normal pairs; the ICR signature captured the presence of clonally expanded, tumor-enriched T cell clones and outperformed CMS and MSI classification for prognosis [PMID:37202560](../papers/37202560.md).
+- T-cell receptor β CDR3 deep sequencing via Adaptive Biotechnologies immunoSEQ performed on MET500 metastatic tumors; TCR-β clonality confirmed expansion of dominant T-cell clones in high-MImmScore tumors and validated RNA-seq-based immune scoring [PMID:28783718](../papers/28783718.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Targeted sequencing of T-cell receptor (typically TCRβ) CDR3 regions to charact
 - [PMID:37202560](../papers/37202560.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

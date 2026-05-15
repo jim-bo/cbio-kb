@@ -36,6 +36,8 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - Loss-of-function somatic mutations underlie POLE-signature hypermutation, predominantly in colorectal and endometrial cancer, across 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
 - No exonuclease-domain hotspot mutations detected in clear-cell endometrial carcinoma (CCEC; n=63); one non-hotspot frameshift (H1901Lfs*15) without ultramutated phenotype, contrasting with POLE-driven hypermutation in endometrioid endometrial cancer [PMID:28485815](../papers/28485815.md)
 - One LGTa NMIBC harbored a truncating H1901Lfs*15 mutation deemed likely non-functional (3' end, no hypermutation phenotype); no POLE-exonuclease hotspot mutations found in this NMIBC cohort (n=105) [PMID:28583311](../papers/28583311.md)
+- Mutated in 2 of 3 hypermutator cholangiocarcinomas alongside MSI mutational signatures; hypermutator subtype represents a candidate for immune-checkpoint blockade [PMID:28667006](../papers/28667006.md)
+- Somatic POLE mutation explains one of two hypermutator medulloblastomas (ICGC_MB62) in a 491-sample pan-MB WGS/WES cohort; the MLH1-mutant case illustrates an alternate MMR-deficiency hypermutator mechanism [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -96,5 +98,9 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:28485815](../papers/28485815.md)
 
 - [PMID:28583311](../papers/28583311.md)
+
+- [PMID:28667006](../papers/28667006.md)
+
+- [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

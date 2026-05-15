@@ -24,6 +24,7 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - Long-term enzalutamide treatment of LNCaP cells induced CRPC-NE molecular features including [SPDEF](../genes/SPDEF.md) promoter methylation, providing in vitro evidence that AR-targeted therapy pressure drives neuroendocrine trans-differentiation [PMID:26855148](../papers/26855148.md)
 - CRPC-NE tumors with high NEPC classifier scores are predicted to be unlikely responders to further enzalutamide (or [abiraterone](../drugs/abiraterone.md)) and may be candidates for platinum chemotherapy or co-targeting strategies [PMID:26855148](../papers/26855148.md)
 - Only 3 of 63 mCRPC men in the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort had received enzalutamide; with such a small n the study could not assess whether this potent AR antagonist induces divergent inter-metastasis resistance patterns (AR amplification, AR ligand-binding-domain mutation, AR splice variants). [PMID:26928463](../papers/26928463.md)
+- AR F877L resistance mutation detected in an mCRPC patient progressing after 4 years on apalutamide (ARN-509) and also confers resistance to enzalutamide; identified via MSK-IMPACT sequencing [PMID:28825054](../papers/28825054.md)
 
 ## Resistance mechanisms
 
@@ -41,5 +42,7 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
 - [PMID:26928463](../papers/26928463.md)
+
+- [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer profiling; AR F877L resistance to enzalutamide and apalutamide.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

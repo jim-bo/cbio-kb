@@ -19,6 +19,7 @@ ASCAT (Allele-Specific Copy number Analysis of Tumors) is a computational method
 
 - [Pereira et al. 2016 — METABRIC breast cancer landscape](../papers/27161491.md): Used to call LOH in 2,433 primary breast tumours from the METABRIC cohort; cancer-cell-fraction (CCF) estimates for clonality analysis relied on ASCAT purity/ploidy calls; the authors explicitly note that subclonal architecture is only approximated rather than directly reconstructed from ASCAT output [PMID:27161491](../papers/27161491.md).
 - Used in TRACERx to derive copy number, purity, and ploidy from multi-region exome sequencing data of 327 primary NSCLC tumor regions [PMID:28445469](../papers/28445469.md)
+- Applied to SNP array data (175 CCA cases) to estimate allele-specific copy numbers; identified ERBB2 amplifications (average 14 copies in amplified cases) confirmed independently by FISH [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -34,5 +35,8 @@ ASCAT (Allele-Specific Copy number Analysis of Tumors) is a computational method
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

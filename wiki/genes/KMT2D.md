@@ -3,7 +3,7 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -54,6 +54,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted [PMID:28007021](../papers/28007021.md).
 - KMT2D (MLL2) histone-modifier alterations frequent in ESCC, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and KDM6A [PMID:28052061](../papers/28052061.md).
 - Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
+- Recurrent histone-methylation-modifier mutations across medulloblastoma subgroups [PMID:28726821](../papers/28726821.md)
+- Identified as an epigenetic regulator with truncal/subclonal events in matched-tumor phylogenetic analysis of prostate cancer [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -188,3 +190,9 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

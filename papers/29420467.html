@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HER kinase inhibition in patients with HER2- and HER3-mutant cancers – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29420467.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29420467.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">HER kinase inhibition in patients with HER2- and HER3-mutant cancers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>David M. Hyman </p>
+             <p>Sarina A. Piha-Paul </p>
+             <p>Helen Won </p>
+             <p>Jordi Rodon </p>
+             <p>Cristina Saura </p>
+             <p>Geoffrey I. Shapiro </p>
+             <p>Dejan Juric </p>
+             <p>David I. Quinn </p>
+             <p>Victor Moreno </p>
+             <p>Bernard Doger </p>
+             <p>Ingrid A. Mayer </p>
+             <p>Valentina Boni </p>
+             <p>Emiliano Calvo </p>
+             <p>Sherene Loi </p>
+             <p>Albert C. Lockhart </p>
+             <p>Funda Meric-Bernstam </p>
+             <p>José Baselga </p>
+             <p>David B. Solit </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature25475">10.1038/nature25475</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29420467 · <strong>DOI:</strong> 10.1038/nature25475 · <strong>Journal:</strong> Nature (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>SUMMIT (NCT01953926) is a multi-histology, genomically selected basket trial of the irreversible pan-HER tyrosine kinase inhibitor <a href="../drugs/neratinib.html">neratinib</a> in 141 patients with advanced solid tumours harbouring somatic <a href="../genes/ERBB2.html">ERBB2</a> (HER2; n=125) or <a href="../genes/ERBB3.html">ERBB3</a> (HER3; n=16) mutations across 21 cancer types. Response to <a href="../drugs/neratinib.html">neratinib</a> varied as a joint function of tumour lineage and mutant allele: the strongest activity was in <a href="../cancer_types/BRCA.html">breast cancer</a> (ORR8 32%, 95% CI 15–54%), with additional responses in <a href="../cancer_types/CESC.html">cervical</a>, <a href="../cancer_types/CHOL.html">biliary</a> and <a href="../cancer_types/SACA.html">salivary</a> cancers, while <a href="../cancer_types/BLCA.html">bladder</a> and <a href="../cancer_types/COAD.html">colorectal</a> cohorts showed lineage-based resistance and no <a href="../genes/ERBB3.html">ERBB3</a>-mutant patient responded. Co-mutations in <a href="../genes/TP53.html">TP53</a> and <a href="../genes/ERBB3.html">ERBB3</a> and cell-cycle pathway alterations were enriched in non-responders.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>141 patients (125 <a href="../genes/ERBB2.html">ERBB2</a>-mutant, 16 <a href="../genes/ERBB3.html">ERBB3</a>-mutant) across 21 cancer types; most common were breast, lung, bladder and colorectal (61% of treated patients).</li>
+<li>Pre-specified disease cohorts: endometrial, gastroesophageal, ovarian, <a href="../cancer_types/COAD.html">colorectal</a>, bladder/urinary tract, plus a “Solid tumour (NOS)” cohort. Breast, <a href="../cancer_types/CESC.html">cervical</a>, biliary and lung accrued enough patients in NOS to permit independent efficacy analysis. All <a href="../genes/ERBB3.html">ERBB3</a>-mutant patients enrolled in a single histology-agnostic cohort.</li>
+<li>Treatment: <a href="../drugs/neratinib.html">neratinib</a> 240 mg PO daily continuous, with mandatory loperamide prophylaxis during cycle 1.</li>
+<li>Primary endpoint: ORR at week 8 (ORR8) by RECIST v1.1; PET Response Criteria (PRC, modified PERCIST v1.0 with <a href="../methods/fdg-pet-ct.html">FDG PET/CT</a>) used for patients not RECIST-evaluable.</li>
+<li>Local mutation testing accepted from 30 unique sequencing assays in 25 laboratories; 85% (120/141) by NGS, of which 81% had full <a href="../genes/ERBB2.html">ERBB2</a>/<a href="../genes/ERBB3.html">ERBB3</a> exon coverage.</li>
+<li>Central sequencing on archival FFPE tumour (n=91) and plasma cfDNA (n=15) with matched germline (n=102) using the <a href="../methods/msk-impact-panel.html">MSK-IMPACT panel</a> — either <a href="../methods/IMPACT341.html">IMPACT341</a> (n=18) or <a href="../methods/IMPACT410.html">IMPACT410</a> (n=88) — at mean 738× coverage (range 253–1383). Custom single-gene <a href="../genes/ERBB2.html">ERBB2</a> capture cfDNA assay used in a subset.</li>
+<li>Copy number, purity and ploidy estimated with <a href="../methods/facets.html">FACETS</a> v0.3.9; clonality estimated with the <a href="../methods/absolute.html">ABSOLUTE</a> v1.0.6 algorithm; MSI assessed with <a href="../methods/msisensor.html">MSIsensor</a>; pathway-level oncogenicity calls from <a href="../methods/oncokb-annotation.html">OncoKB</a> (Sept 2017); <a href="../methods/mutational-signatures.html">mutational signatures</a> decomposed into 30 constituent processes.</li>
+<li>Data interim cut: 10 Mar 2017 (enrollment through 16 Dec 2016). All clinical and sequencing data deposited in cBioPortal as study <a href="../datasets/summit_2018.html">summit_2018</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Tumour-type efficacy</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Breast cancer met its pre-specified efficacy endpoint with ORR8 32% (8/25, 95% CI 15–54%); responses observed across extracellular and kinase domain missense mutations and kinase domain insertions, in both ER+ (30%, 6/20) and ER− (40%, 2/5) tumours, all centrally HER2-non-amplified. Biliary, cervical and salivary gland cancers also produced responses; bladder (n=16) and colorectal (n=12) cohorts produced no RECIST responses, consistent with lineage-based resistance to single-agent pan-HER kinase inhibition.</li>
+<li><strong>Lung cancer outcome</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Of 26 <a href="../cancer_types/NSCLC.html">non-small-cell lung</a> patients (predominantly <a href="../cancer_types/LUAD.html">LUAD</a> with HER2 exon 20 insertions), only 1 RECIST response — in a patient with kinase domain missense L755S. Median PFS in recurrent lung cancer was 5.5 months with 6 patients on therapy &gt;1 year, comparing favourably to second-line chemotherapy and checkpoint inhibitors despite the low ORR. HER2 exon 20 insertions are paralogous to <a href="../genes/EGFR.html">EGFR</a> exon 20 insertions resistant to first/second-generation <a href="../genes/EGFR.html">EGFR</a> TKIs.</li>
+<li><strong>HER3-mutant cohort</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): No RECIST responses in 16 patients with <a href="../genes/ERBB3.html">ERBB3</a>-mutant tumours despite preclinical data suggesting some HER3 mutations are oncogenic drivers via wild-type HER2.</li>
+<li><strong>Allele-specific responses</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Responses observed in HER2 S310, L755, V777, G778_P780dup, Y772_A775dup mutants. Among 42 patients with kinase domain hotspot missense mutations, responders included L755S (n=4), V777L (n=4), L869R (n=1) across breast, biliary, lung, salivary. In 30 patients with HER2 S310 (extracellular hotspot), responses occurred in breast, cervical and biliary but not bladder, where S310 predominates. Glycine preservation at position 770 in exon 20 insertions did NOT predict response, contrary to preclinical predictions.</li>
+<li><strong>Hotspot vs non-hotspot</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): 87% (109/125) of HER2 mutations and 75% (12/16) of HER3 mutations occurred at known hotspots. Among 15 patients with non-hotspot HER2 mutations, only 1 responded — a breast cancer patient with the previously unobserved insertion/substitution L755_E757delinsS at a recurrent insertion locus.</li>
+<li><strong>HER2 amplification co-occurrence</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): 17% (15/86) of patients with broader profiling had concurrent <a href="../genes/ERBB2.html">ERBB2</a> mutation + amplification; 86% (12/14 evaluable) of amplifications targeted the mutant allele locus. Concurrent amplification did NOT correlate with clinical benefit (p=0.50), suggesting amplification adds no extra sensitivity beyond mutation alone for irreversible HER kinase inhibitors.</li>
+<li><strong>Clonality</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): 95% (70/74 with adequate material) of HER2 mutations were clonal (CCF &gt;0.85 by <a href="../methods/absolute.html">ABSOLUTE</a> integrated with <a href="../methods/facets.html">FACETS</a> segmentation). None of 4 patients with subclonal HER2 mutations achieved clinical benefit.</li>
+<li><strong>Tumour mutational burden</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Using a ≥13.8 nonsyn mut/Mb cutoff, 20% (17/86) had high TMB. High TMB was 24% (16/66) in patients without clinical benefit vs 5% (1/20) in those with benefit (p=0.10, n.s.).</li>
+<li><strong>Co-mutation modifiers</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Coincident <a href="../genes/TP53.html">TP53</a> (nominal p=0.018) and <a href="../genes/ERBB3.html">ERBB3</a> (nominal p=0.064) mutations were enriched in non-responders; no patient with concurrent <a href="../genes/ERBB2.html">ERBB2</a>+<a href="../genes/ERBB3.html">ERBB3</a> mutation achieved benefit (n=8 unique HER2 + n=9 unique HER3 alleles, across breast n=3, bladder n=2, gastroesophageal n=2, colorectal n=1, pancreatic n=1).</li>
+<li><strong>Pathway modifiers</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Cell cycle checkpoint aberrations associated with lack of clinical benefit (p=0.043, but driven by <a href="../genes/TP53.html">TP53</a>; p=0.769 after <a href="../genes/TP53.html">TP53</a> removal); RTK/RAS/RAF activation trended worse (p=0.060); <a href="../genes/PIK3CA.html">PIK3CA</a>/AKT/mTOR activation did NOT adversely affect benefit (p=0.753) — diverging from the established negative-predictor role of PI3K pathway alterations in HER2-amplified breast cancer.</li>
+<li><strong>Central confirmation</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Concordance between local and central HER2 mutation calls was 95% (69/73) by tissue and/or plasma cfDNA. One locally reported HER2 V773M was reclassified as germline polymorphism by central testing (patient had renal cell carcinoma, PD at first scan). Discordant cases had median PFS of 43 days (range 5–58); none responded. HER3 concordance was 75% (6/8).</li>
+<li><strong>Safety</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Grade 3 diarrhoea rate 22% with mandatory anti-diarrhoeal prophylaxis; median onset day 10, median episode duration 2 days; only 2.8% permanent discontinuation due to diarrhoea.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/ERBB2.html">ERBB2</a> (HER2): 125 patients with 31 unique somatic mutations. Domain distribution: kinase 66%, extracellular 26%, transmembrane/juxtamembrane 8%. Class distribution: missense 74%, in-frame insertions 22% (kinase domain only), 2 indels, 1 in-frame kinase-retaining fusion (GRB7-ERBB2). Most frequent alleles: S310, L755, Y772_A775dup, V777. V777L (13.6% vs 5.3%) and Y772_A755dup (12.0% vs 2.7%) were over-represented vs TCGA/ICGC. Responders identified across S310, L755S, V777L, G778_P780dup, Y772_A775dup, L869R, and the novel insertion/substitution L755_E757delinsS. HER2 mutation was clonal in 95% of evaluable patients.</li>
+<li><a href="../genes/ERBB3.html">ERBB3</a> (HER3): 16 patients with 11 unique missense mutations clustered in the extracellular furin-like and receptor domains. No RECIST responses to neratinib monotherapy. Frequently co-occurred with <a href="../genes/ERBB2.html">ERBB2</a> mutations in non-responders.</li>
+<li><a href="../genes/GRB7.html">GRB7</a>: One patient harboured a GRB7-ERBB2 in-frame kinase-retaining fusion as the qualifying <a href="../genes/ERBB2.html">ERBB2</a> alteration.</li>
+<li><a href="../genes/TP53.html">TP53</a>: Co-mutation enriched in patients without clinical benefit (nominal p=0.018); drives the cell-cycle pathway association.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>: Activation of PI3K/AKT/mTOR pathway did NOT adversely affect benefit (p=0.753), in contrast to its established negative-predictor role in HER2-amplified disease.</li>
+<li><a href="../genes/EGFR.html">EGFR</a>: Cited as the paralogous receptor whose exon 20 insertions resist first/second-generation TKIs, motivating the lung cancer findings; not itself a study qualifier.</li>
+<li><a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/ALK.html">ALK</a>, <a href="../genes/ROS1.html">ROS1</a>: Cited as comparators (other oncogenic drivers with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Tumour-agnostic targeting is incomplete</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Pan-HER kinase inhibition with <a href="../drugs/neratinib.html">neratinib</a> is NOT tumour-agnostic for HER2 mutations. Sensitivity is jointly determined by tissue lineage and specific mutant allele — bladder and colorectal HER2-mutant tumours show intrinsic lineage-based resistance regardless of allele.</li>
+<li><strong>Practice signal</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): HER2-mutant, non-amplified breast cancer met its pre-specified efficacy bar with <a href="../drugs/neratinib.html">neratinib</a> monotherapy (ORR8 32%) across ER subgroups and across mutation domains. This supports HER2 mutation as an actionable biomarker in <a href="../cancer_types/BRCA.html">BRCA</a> independent of HER2 amplification status.</li>
+<li><strong>HER2 exon 20 insertion lung cancer is poorly served by single-agent neratinib</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): ORR was minimal in HER2-exon-20-insertion-driven <a href="../cancer_types/LUAD.html">LUAD</a>, but median PFS of 5.5 months with a long-tail of &gt;1-year responders suggests neratinib still has activity worth pursuing in combination regimens.</li>
+<li><strong>HER3 mutations are not actionable with single-agent pan-HER TKI</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Despite preclinical oncogenic data, no HER3-mutant patient responded — argues against single-agent HER kinase inhibition as a strategy in HER3-mutant disease.</li>
+<li><strong>Co-mutation context matters</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Concurrent <a href="../genes/TP53.html">TP53</a> or <a href="../genes/ERBB3.html">ERBB3</a> mutation and cell-cycle pathway lesions associate with lack of benefit; these may represent stratification or combination-strategy biomarkers in future trials. SUMMIT was amended to evaluate neratinib combinations in multiple HER2-mutant tumour types.</li>
+<li><strong>Local-to-central NGS concordance is high</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): 95–96% concordance across 30 unique assays from 25 labs supports basket-trial enrollment based on local NGS testing without mandatory central confirmation.</li>
+<li><strong>Permissive enrolment validates novel variants</strong> (<a href="../papers/29420467.html">PMID:29420467</a>): Patients with previously uncharacterized HER2 variants (V697, D769N, L869R) responded, providing first clinical proof-of-concept of gain-of-function before formal preclinical characterization. Supports allele prioritization by recurrence and paralogy as whole-exome/genome testing scales.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Each tumour-specific cohort is small; subgroup p-values are nominal and several pathway associations did not survive Benjamini-Hochberg correction.</li>
+<li>Patients with prior HER kinase inhibitor exposure and unstable brain metastases were excluded — generalizability to those populations unknown.</li>
+<li>The interim data cut (10 Mar 2017) leaves several cohorts (cervical, biliary, salivary) without completed efficacy analyses.</li>
+<li>Why does the PI3K/AKT/mTOR pathway, a strong negative predictor in HER2-amplified breast cancer, not predict resistance in HER2-mutant disease? Authors call for disease-specific follow-up.</li>
+<li>Mechanism of lineage-based resistance in <a href="../cancer_types/BLCA.html">BLCA</a> and <a href="../cancer_types/COAD.html">COAD</a> HER2-mutant tumours remains unexplained — preclinical work suggests combination HER-targeted therapy may overcome it in colorectal.</li>
+<li>Master/umbrella protocols enrolling 30–40 patients per arm may be underpowered to discover the kind of lineage × allele interactions SUMMIT (n=141) revealed.</li>
+<li>Whether HER3 mutations are oncogenic drivers at all — or merely co-mutations of HER2 — is open; the failure of single-agent neratinib in HER3-mutant disease does not resolve this.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Efficacy in HER2-mutant cancers varied as a function of both tumour type and mutant allele to a degree not predicted by preclinical models, with the greatest activity seen in breast, cervical and biliary cancers and with tumours harbouring kinase domain missense mutations.” (Summary)</li>
+<li>“In total, 141 patients (125 with HER2-mutant tumours, 16 with HER3-mutant tumours) received neratinib. These patients were diagnosed with one of 21 unique cancer types…” (Results, Patient and mutation characteristics)</li>
+<li>“Neratinib exhibited the greatest degree of activity in patients with breast cancer (n=25 total, objective response rate at week 8 [ORR8] 32%, 95% confidence interval [CI] 15–54%)” (Results, Treatment outcomes)</li>
+<li>“Despite preclinical data suggesting that HER3 mutations can be oncogenic drivers, no responses to neratinib were observed in patients with HER3-mutant tumours.” (Results, Treatment outcomes)</li>
+<li>“<a href="../genes/ERBB2.html">ERBB2</a> amplification did not correlate with outcome (p=0.50)… in the presence of ERBB2 mutations, amplification may not confer additional sensitivity to irreversible HER kinase inhibitors.” (Results, Genomic modifiers of response)</li>
+<li>“In patients with HER2-mutant disease, coincident mutations in TP53 and HER3 were enriched in patients with no clinical benefit (nominal p=0.018 and p=0.064, respectively)” (Results, Genomic modifiers of response)</li>
+<li>“All datasets generated during and/or analysed during the current study, including patient-level clinical data as well as all sequencing data have been deposited and are publically available in the cBioPortal for Cancer Genomics under the accession code ‘SUMMIT, Nature, 2018’ (http://www.cbioportal.org/study?id=<a href="../datasets/summit_2018.html">summit_2018</a>).” (Methods, Data availability)</li>
+<li>“concordance on retrospective central review was extremely high (96%)… 30 unique sequencing assays performed in 25 different laboratories.” (Discussion)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29420467.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29420467.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

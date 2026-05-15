@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Implementation of next generation sequencing into pediatric hematology-oncology practice: moving beyond actionable alterations – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a>
+  <ul class="collapse">
+  <li><a href="#targetable-somatic-alterations-table-2" id="toc-targetable-somatic-alterations-table-2" class="nav-link" data-scroll-target="#targetable-somatic-alterations-table-2">Targetable somatic alterations (Table 2)</a></li>
+  <li><a href="#diagnostic-prognostic-pharmacogenomic-findings-table-3" id="toc-diagnostic-prognostic-pharmacogenomic-findings-table-3" class="nav-link" data-scroll-target="#diagnostic-prognostic-pharmacogenomic-findings-table-3">Diagnostic / prognostic / pharmacogenomic findings (Table 3)</a></li>
+  <li><a href="#clinically-impactful-germline-findings-table-4" id="toc-clinically-impactful-germline-findings-table-4" class="nav-link" data-scroll-target="#clinically-impactful-germline-findings-table-4">Clinically impactful germline findings (Table 4)</a></li>
+  </ul></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28007021.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28007021.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Implementation of next generation sequencing into pediatric hematology-oncology practice: moving beyond actionable alterations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jennifer A. Oberg </p>
+             <p>Julia L. Glade Bender </p>
+             <p>Maria Luisa Sulis </p>
+             <p>Danielle Pendrick </p>
+             <p>Anthony N. Sireci </p>
+             <p>Susan J. Hsiao </p>
+             <p>Andrew T. Turk </p>
+             <p>Filemon S. Dela Cruz </p>
+             <p>Hanina Hibshoosh </p>
+             <p>Helen Remotti </p>
+             <p>Rebecca J. Zylber </p>
+             <p>Jiuhong Pang </p>
+             <p>Daniel Diolaiti </p>
+             <p>Carrie Koval </p>
+             <p>Stuart J. Andrews </p>
+             <p>James H. Garvin </p>
+             <p>Darrell J. Yamashiro </p>
+             <p>Wendy K. Chung </p>
+             <p>Stephen G. Emerson </p>
+             <p>Peter L. Nagy </p>
+             <p>Mahesh M. Mansukhani </p>
+             <p>Andrew L. Kung </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1186/s13073-016-0389-6">10.1186/s13073-016-0389-6</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28007021 · <strong>DOI:</strong> 10.1186/s13073-016-0389-6 · <strong>Journal:</strong> Genome Medicine (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Oberg et al.&nbsp;report the first 101 high-risk pediatric hematology-oncology patients enrolled in the Precision in Pediatric Sequencing (PIPseq) program at Columbia University Medical Center. Using CLIA-certified cancer <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> of paired tumor/normal tissue plus tumor <a href="../methods/rna-seq.html">RNA-seq</a> (with a 467-gene FFPE panel as backup), they show that potentially actionable somatic alterations occur in 38% of patients but only 16% of those receive matched targeted therapy. By taking a broader view of “clinical impact” — diagnostic, prognostic, and pharmacogenomic value beyond drug-target identification — sequencing meaningfully informed clinical management in 66% of all 101 cases and in 75% (45/60) of cases that received the full cWES + RNA-seq combination. Germline cancer-predisposition variants were identified in 14% of patients, and ACMG secondary findings in six. Data were deposited in the <a href="../datasets/mixed_pipseq_2017.html">PIPseq cBioPortal study</a> <a href="../papers/28007021.html">PMID:28007021</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>101 consecutive high-risk pediatric patients</strong> (mean age 9.3 years, median 8.0, range 2 weeks–26 years) sequenced January 2014–April 2016 at Columbia University Medical Center; 60% male, 41% female; 64% solid tumors, 36% hematologic conditions <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>120 samples tested</strong>: 85 primary disease, 35 relapse/refractory. Sarcoma (n=17) was the most common solid-tumor category, followed by brain tumors (n=16); lymphoid disease (n=17) dominated hematologic conditions <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Sequencing platforms</strong> (n=120 samples): cancer WES + transcriptome 63 (53%), cancer WES alone 19 (16%), constitutional WES 22 (18%), transcriptome only 3 (2%), targeted 467-gene panel 13 (11%) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Assays.</strong> <a href="../methods/whole-exome-seq.html">Whole-exome sequencing</a> used the Agilent SureSelectXT All Exon V5+UTRs capture kit on a HiSeq2500 (paired-end 125 cycle × 2). <a href="../methods/rna-seq.html">RNA-seq</a> used the TruSeq Stranded Total RNA LT kit. The <a href="../methods/columbia-comprehensive-cancer-panel.html">Columbia Comprehensive Cancer Panel</a> (CCCP) sequenced 467 cancer-associated genes on a 5.59 Mb Custom Agilent SureSelectXT library, optimized for FFPE material. WES achieved &gt;150-fold and targeted capture &gt;500-fold average coverage with &gt;98% of coding sequence at ≥10X <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Bioinformatics.</strong> Reads aligned to GRCh37/hg19 using a modified Burrows-Wheeler transform in <a href="../methods/nextgene-aligner.html">NextGene v2.3.4</a>. <a href="../methods/excavator-cnv.html">CNV inferred from WES via EXCAVATOR v2.2</a>. Transcripts mapped with <a href="../methods/tophat-cufflinks.html">TopHat2/Bowtie2/Cufflinks (Tuxedo Suite)</a>; fusions called from unmapped reads via <a href="../methods/fusionmap.html">FusionMap</a>. Relative gene expression compared against a 124-transcriptome reference (13 blood, 20 liver, 24 kidney, 17 lung, 50 brain) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Diagnostic categories</strong> spanned solid tumors (<a href="../cancer_types/NBL.html">NBL</a>, <a href="../cancer_types/OS.html">OS</a>, <a href="../cancer_types/ES.html">ES</a>, <a href="../cancer_types/ARMS.html">ARMS</a>, <a href="../cancer_types/ERMS.html">ERMS</a>, <a href="../cancer_types/IFS.html">IFS</a>, <a href="../cancer_types/ASPS.html">ASPS</a>, <a href="../cancer_types/DSRCT.html">DSRCT</a>, <a href="../cancer_types/MBL.html">MBL</a>, <a href="../cancer_types/EPM.html">EPM</a>/<a href="../cancer_types/EPMT.html">EPMT</a>, <a href="../cancer_types/HGGNOS.html">HGGNOS</a>, <a href="../cancer_types/DIFG.html">DIFG</a>, <a href="../cancer_types/PXA.html">PXA</a>, <a href="../cancer_types/ATRT.html">ATRT</a>, <a href="../cancer_types/MRT.html">MRT</a>, <a href="../cancer_types/MRTL.html">MRTL</a>, <a href="../cancer_types/LIHB.html">LIHB</a>, <a href="../cancer_types/HCC.html">HCC</a>, <a href="../cancer_types/WT.html">WT</a>, <a href="../cancer_types/RCC.html">RCC</a>, <a href="../cancer_types/ACC.html">ACC</a>, <a href="../cancer_types/PPB.html">PPB</a>, <a href="../cancer_types/PB.html">PB</a>, <a href="../cancer_types/IMT.html">IMT</a>, <a href="../cancer_types/PINT.html">PINT</a>) and hematologic disease (<a href="../cancer_types/AML.html">AML</a>, <a href="../cancer_types/JMML.html">JMML</a>, <a href="../cancer_types/AMKL.html">AMKL</a>, <a href="../cancer_types/CML.html">CML</a>, <a href="../cancer_types/BLL.html">BLL</a>/<a href="../cancer_types/BLLNOS.html">BLLNOS</a>, <a href="../cancer_types/TLL.html">TLL</a>, <a href="../cancer_types/ALCL.html">ALCL</a>, <a href="../cancer_types/HL.html">HL</a>, <a href="../cancer_types/PTLD.html">PTLD</a>) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/mixed_pipseq_2017.html">mixed_pipseq_2017</a> — VCFs, translocations, and gene expression released through cBioPortal under CUMC IRB approval <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Genomic aberrations were reported in 92/101 patients (91%).</strong> A total of 180 somatic mutations and 20 fusions were reported; solid tumors averaged 2.91 aberrations per sample (median 2, range 1–6) and hematologic samples averaged 5.2 (median 4, range 1–12) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Mean mutational load was 216.9 variants per patient (SD 829.3, median 69),</strong> higher in solid tumors than hematologic conditions; pediatric loads were lower than published adult-cancer benchmarks <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Most frequently mutated genes:</strong> <a href="../genes/TP53.html">TP53</a> in solid tumors (n=9, 9%); RAS-pathway genes in hematologic samples (<a href="../genes/NRAS.html">NRAS</a> n=5 / 5%; <a href="../genes/KRAS.html">KRAS</a> n=3 / 3%) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Potentially actionable alterations identified in 38/101 patients (38%)</strong> — 21/65 solid (32%) and 17/36 hematologic (47%). Only 6/38 (16%) actually received matched targeted therapy <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Non-targetable somatic findings were clinically informative for diagnostic, prognostic, or pharmacogenomic purposes in 38 additional patients (38%),</strong> giving 66/101 patients (66%) clinically impactful results overall (Fig. 4) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>In the 60 patients with full cWES + RNA-seq, 72 clinically impactful results were found in 45 cases (75%);</strong> cWES contributed 85% of findings (tumor/normal WES 45%, n=32; RNA-seq 40%, n=29; CNV 7%, n=5; RNA-seq + CNV combined 8%, n=6) (Fig. 5) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>RNA-seq supplied unique clinical impact in 23/33 patients (70%)</strong> through fusion detection, expression-based subtyping, and identification of <a href="../genes/BCR.html">BCR-ABL1</a>-like signaling patterns <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Germline alterations were sequenced in 90 patients; clinically impactful germline findings in 18/90 (20%),</strong> with 14% carrying alterations in cancer-predisposition genes — slightly higher than published rates of 8.5–10% <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>ACMG secondary findings returned to six patients,</strong> including germline <a href="../genes/BRCA1.html">BRCA1</a> (in two patients), <a href="../genes/TP53.html">TP53</a>, <a href="../genes/TNNT2.html">TNNT2</a> (dilated cardiomyopathy), <a href="../genes/RYR1.html">RYR1</a> (malignant hyperthermia), and <a href="../genes/VHL.html">VHL</a> <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Cost and reimbursement.</strong> Estimated per-case cost: $4,459 for cWES + $1,764 for RNA-seq (variable + fixed costs, excluding administrative overhead). Reimbursement averaged $2,747 from commercial payers, $2,918 from managed government plans, and $0 from straight government plans <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Patient consent uptake was high.</strong> Of 67 patients consented under the clinical cWES protocol, only 4 (6%) opted out of learning ACMG secondary findings; 21 (31%) opted out of having those findings appear in the EMR; only 1 (2%) opted out of future contact <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<section id="targetable-somatic-alterations-table-2" class="level3">
+<h3 class="anchored" data-anchor-id="targetable-somatic-alterations-table-2">Targetable somatic alterations (Table 2)</h3>
+<ul>
+<li><strong><a href="../genes/KIT.html">KIT</a></strong> — Activating Asn655Lys mutation in a 7-year-old boy with <a href="../cancer_types/AML.html">AML</a>; palliative <a href="../drugs/imatinib.html">imatinib</a> gave near-complete clearing of peripheral blood blasts with sustained 9-month response. A second <a href="../cancer_types/AML.html">AML</a> patient harbored c.2446G&gt;C (D816H) co-occurring with <a href="../genes/TET2.html">TET2</a> and <a href="../genes/FLT3.html">FLT3</a> variants <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/BCR.html">BCR</a>–<a href="../genes/ABL1.html">ABL1</a> fusion</strong> — Diagnostic of <a href="../cancer_types/CML.html">CML</a> (PIPID 14-85546); also detected as a <a href="../genes/BCR.html">BCR-ABL1</a>-like RNA-seq signature in a 9-year-old girl with relapsed/refractory B-cell <a href="../cancer_types/BLL.html">BLL</a>, where confirmatory RT-PCR identified a <a href="../genes/NUP214.html">NUP214</a>–<a href="../genes/ABL1.html">ABL1</a> fusion; addition of <a href="../drugs/dasatinib.html">dasatinib</a> to third-line induction produced deep remission enabling curative bone-marrow transplant <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a></strong> — R132C in <a href="../cancer_types/AML.html">AML</a>; IDH-inhibitor target. Same variant separately diagnostic of Maffucci syndrome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/NRAS.html">NRAS</a></strong> — Q61H, Q61R, Q61K, G13A, G13D activating mutations across multiple <a href="../cancer_types/AML.html">AML</a>, ALL, <a href="../cancer_types/NBL.html">NBL</a>, and <a href="../cancer_types/RMS.html">RMS</a> cases — MEK-inhibitor targets <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — Q61H and G12C in ALL and <a href="../cancer_types/NBL.html">NBL</a>; MEK-inhibitor targets <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/JAK3.html">JAK3</a></strong> — A573V activating mutation in <a href="../cancer_types/AML.html">AML</a>; JAK-inhibitor target. <strong><a href="../genes/JAK1.html">JAK1</a></strong> K1026E in T-<a href="../cancer_types/BLL.html">BLL</a> (T-ALL) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/KMT2A.html">KMT2A</a>–<a href="../genes/AFF1.md">AFF1</a> (MLL-AFF1) fusion</strong> in <a href="../cancer_types/AML.html">AML</a> — DOT1L-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/NUP98.html">NUP98</a>–<a href="../genes/NSD1.html">NSD1</a> fusion</strong> in <a href="../cancer_types/AML.html">AML</a> — DOT1L-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/FOXP1.html">FOXP1</a>–<a href="../genes/ABL1.html">ABL1</a> fusion</strong> in <a href="../cancer_types/BLL.html">BLL</a> — TKI target (treated) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PTPN11.html">PTPN11</a></strong> — G503V mutation in <a href="../cancer_types/AML.html">AML</a> (MEK-inhibitor target); separately a <a href="../genes/PTPN11.html">PTPN11</a> D61Y co-mutation with <a href="../genes/SETBP1.html">SETBP1</a> D868N (reported as “SETB1” in the paper) reclassified one 4-year-old’s diagnosis from de novo <a href="../cancer_types/AML.html">AML</a> to <a href="../cancer_types/JMML.html">JMML</a> (which evolved into AML) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/KMT2C.html">KMT2C</a> (MLL3)</strong> — E704X nonsense in <a href="../cancer_types/AML.html">AML</a>; BET-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/SMARCA4.html">SMARCA4</a></strong> — R1192C in hepatic rhabdoid tumor (<a href="../cancer_types/MRTL.html">MRTL</a>); EZH2-inhibitor target. <strong><a href="../genes/SMARCB1.html">SMARCB1</a></strong> homozygous deletion of chr22q11.23 with biallelic loss of expression in another hepatic rhabdoid tumor — also EZH2-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/SMARCC2.html">SMARCC2</a>–<a href="../genes/PDGFRB.html">PDGFRB</a> fusion</strong> in <a href="../cancer_types/BLL.html">BLL</a> — TKI target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/TSC1.html">TSC1</a></strong> — c.2503-1G&gt;C splice-site mutation in <a href="../cancer_types/OS.html">OS</a>; mTOR-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a></strong> — N345K in nephroblastomatosis (related to <a href="../cancer_types/WT.html">WT</a>); PI3K/AKT/mTOR-inhibitor target. The same variant also supported the diagnosis of nephroblastomatosis <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/TMEM106B.html">TMEM106B</a>–<a href="../genes/BRAF.html">BRAF</a> fusion</strong> in <a href="../cancer_types/PXA.html">PXA</a>; MEK-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/FGFR4.html">FGFR4</a></strong> — G528C, V550L, R650L hotspot mutations in two patients with <a href="../cancer_types/RMS.html">RMS</a>; FGFR4-inhibitor targets <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CDK2.html">CDK2</a></strong> — Gain at 12q14.1 involving <a href="../genes/CDK2.html">CDK2</a> in glioblastoma multiforme; CDK4/6-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CDK4.html">CDK4</a>, <a href="../genes/MDM2.html">MDM2</a></strong> — co-overexpression in <a href="../cancer_types/NBL.html">NBL</a>; enrolled on the NEPENTHE trial (NCT02780128) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PTCH1.html">PTCH1</a>, <a href="../genes/SUFU.html">SUFU</a>, <a href="../genes/ZIC3.html">ZIC3</a></strong> — overexpression in <a href="../cancer_types/MBL.html">MBL</a>; SMO-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/H3-3A.html">H3-3A</a> (H3F3A)</strong> — K28M (i.e., K27M) in glioma and glioblastoma multiforme; HDAC-inhibitor target. Also paired with <a href="../genes/FGFR1.html">FGFR1</a> N577K in one glioma patient <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a>, <a href="../genes/MCL1.html">MCL1</a>, <a href="../genes/CCNE1.html">CCNE1</a></strong> — overexpression in <a href="../cancer_types/OS.html">OS</a>; BET- and CDK4/6-inhibitor targets in the same patient <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CUL4A.html">CUL4A</a></strong> — overexpression in <a href="../cancer_types/OS.html">OS</a>; NAE (NEDD8-activating enzyme) inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/RAD51C.html">RAD51C</a></strong> — F8L variant in <a href="../cancer_types/OS.html">OS</a>; PARP-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PDGFRA.html">PDGFRA</a>, <a href="../genes/KDR.html">KDR</a> (VEGFR2)</strong> — overexpression in <a href="../cancer_types/OS.html">OS</a>; multi-targeted kinase inhibitor (MTKI) target (treated) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/EML4.html">EML4</a>–<a href="../genes/NTRK3.html">NTRK3</a> fusion</strong> in congenital fibrosarcoma (<a href="../cancer_types/IFS.html">IFS</a>) — supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; ALK-inhibitor target <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/VCAN.html">VCAN</a>–<a href="../genes/IL23R.html">IL23R</a> fusion</strong> in inflammatory myofibroblastic tumor (<a href="../cancer_types/IMT.html">IMT</a>) — JAK-inhibitor target (treated) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/ALK.html">ALK</a></strong> — Q1146K in adrenocortical carcinoma (<a href="../cancer_types/ACC.html">ACC</a>); ALK-inhibitor target (treated) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/STAT5B.html">STAT5B</a></strong> — I704L mutation in T-<a href="../cancer_types/BLL.html">BLL</a> (paired with <a href="../genes/KRAS.html">KRAS</a> V14I and <a href="../genes/JAK1.html">JAK1</a> K1026E); BCL2/BCL-XL-inhibitor target. Same variant separately diagnostic of gamma-delta T-cell lymphoma <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+<section id="diagnostic-prognostic-pharmacogenomic-findings-table-3" class="level3">
+<h3 class="anchored" data-anchor-id="diagnostic-prognostic-pharmacogenomic-findings-table-3">Diagnostic / prognostic / pharmacogenomic findings (Table 3)</h3>
+<ul>
+<li><strong><a href="../genes/NT5C2.html">NT5C2</a></strong> D407Y — pharmacogenomic variant in relapsed <a href="../cancer_types/BLL.html">BLL</a> conferring resistance to nucleoside-analog therapy; informed salvage regimen choice in the same girl with <a href="../genes/NUP214.html">NUP214</a>–<a href="../genes/ABL1.html">ABL1</a> B-ALL <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CEBPA.html">CEBPA</a></strong> — biallelic frameshift mutations in <a href="../cancer_types/AML.html">AML</a>, prognostic marker of improved outcome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/VHL.html">VHL</a></strong> — V166G mutation in renal cell carcinoma diagnostic of Von Hippel-Lindau syndrome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/KDM6A.html">KDM6A</a></strong> — M997fs in <a href="../cancer_types/MBL.html">MBL</a>, prognostic for risk-stratification (group 4) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/ATRX.html">ATRX</a></strong> — T1747fs in <a href="../cancer_types/NBL.html">NBL</a>, poor-prognosis marker <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/DICER1.html">DICER1</a></strong> — E1813G in pleuropulmonary blastoma (<a href="../cancer_types/PPB.html">PPB</a>) — health-maintenance flag for <a href="../genes/DICER1.html">DICER1</a> syndrome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CBFB.html">CBFB</a>–<a href="../genes/MYH11.html">MYH11</a> fusion</strong> in <a href="../cancer_types/AML.html">AML</a> — prognostic for low-risk stratification <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CBFA2T3.html">CBFA2T3</a>–<a href="../genes/GLIS2.html">GLIS2</a> fusion</strong> in <a href="../cancer_types/AMKL.html">AMKL</a> — diagnostic and poor-prognosis marker; supported recommendation for bone-marrow transplant <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PAX7.html">PAX7</a>–<a href="../genes/FOXO1.html">FOXO1</a> fusion</strong> in alveolar <a href="../cancer_types/RMS.html">RMS</a> (<a href="../cancer_types/ARMS.html">ARMS</a>) — diagnostic and high-risk-group prognostic, despite repeatedly negative <a href="../genes/FOXO1.html">FOXO1</a> break-apart FISH <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/ASPSCR1.html">ASPSCR1</a>–<a href="../genes/TFE3.html">TFE3</a> fusion</strong> — diagnostic of alveolar soft part sarcoma (<a href="../cancer_types/ASPS.html">ASPS</a>) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/EWSR1.html">EWSR1</a>–<a href="../genes/FLI1.html">FLI1</a> fusion</strong> — diagnostic of <a href="../cancer_types/ES.html">ES</a> (two patients). One <a href="../cancer_types/ES.html">ES</a> patient additionally showed low expression of <a href="../genes/PAX8.html">PAX8</a>, <a href="../genes/FHIT.html">FHIT</a>, CASP10, <a href="../genes/CHD2.html">CHD2</a> with high expression of CHD11, <a href="../genes/FUS.html">FUS</a>, MTA1 — a poor-prognosis transcriptomic signature <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/EWSR1.html">EWSR1</a>–<a href="../genes/WT1.html">WT1</a> fusion</strong> — diagnostic of <a href="../cancer_types/DSRCT.html">DSRCT</a> <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>C11orf95–<a href="../genes/RELA.html">RELA</a> fusion</strong> + chromothripsis-like alternating gains/losses on chr11 and 22 in <a href="../cancer_types/EPM.html">EPM</a> — diagnostic of RELA-type supratentorial ependymoma and prognostic for poor outcome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/MYCN.html">MYCN</a></strong> amplification + 1p/11q LOH + 17q gain + <a href="../genes/MYCN.html">MYCN</a> overexpression — used in <a href="../cancer_types/NBL.html">NBL</a> for risk-based therapy stratification across four patients <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a></strong> — 11q13.2 amplification with overexpression in hepatoblastoma (<a href="../cancer_types/LIHB.html">LIHB</a>) — good-prognosis indicator <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/ASCL1.html">ASCL1</a></strong> — overexpression with 22q11.21 LOH including <a href="../genes/SMARCB1.html">SMARCB1</a> — diagnostic of <a href="../cancer_types/ATRT.html">ATRT</a> and prognostic for improved outcome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Isochromosome 7q</strong> — copy-number diagnostic of gamma-delta T-cell lymphoma in the same T-<a href="../cancer_types/BLL.html">BLL</a> patient with the <a href="../genes/STAT5B.html">STAT5B</a> mutation <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+<section id="clinically-impactful-germline-findings-table-4" class="level3">
+<h3 class="anchored" data-anchor-id="clinically-impactful-germline-findings-table-4">Clinically impactful germline findings (Table 4)</h3>
+<ul>
+<li><strong><a href="../genes/KMT2D.html">KMT2D</a> (MLL2)</strong> — homozygous frameshift M3881Cfs*9 establishing Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/C1QA.html">C1QA</a></strong> — homozygous Q208* nonsense, diagnostic of C1Q deficiency in a 2-year-old with HLH <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/GATA2.html">GATA2</a></strong> — heterozygous frameshift (de novo) in <a href="../cancer_types/AML.html">AML</a> with myelodysplastic syndrome — transplant-recommendation modifier <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/PMS2.html">PMS2</a></strong> — homozygous S459X diagnostic of constitutional mismatch-repair deficiency syndrome in a patient with T-cell lymphoblastic lymphoma and consanguineous parentage <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/XIAP.html">XIAP</a></strong> — heterozygous R443P missense diagnostic of X-linked lymphoproliferative syndrome 2 (XLP2) in a 6-year-old girl with HLH and recurrent EBV infections <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/RUNX1.html">RUNX1</a></strong> — heterozygous splice-site c.806-2A&gt;G in <a href="../cancer_types/AML.html">AML</a>, diagnostic of familial platelet disorder; HLA-matched sibling and father carried the same variant, prompting selection of an unrelated donor <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/APC.html">APC</a></strong> — R1114* in hepatoblastoma diagnostic of familial adenomatous polyposis (<a href="../genes/FAP.html">FAP</a>); E1554fs in poorly differentiated carcinoma diagnostic of newly appreciated Gardner syndrome <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong> — splice-site c.1216-3A&gt;G in <a href="../cancer_types/OS.html">OS</a>, increased risk for second cancers <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/ATM.html">ATM</a></strong> — R189K + K2756* missense + nonsense in <a href="../cancer_types/MBL.html">MBL</a>, increased risk for other cancers <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/UGT1A1.html">UGT1A1</a></strong> — homozygous *28 (TA)7TAA allele in two patients with <a href="../cancer_types/PB.html">PB</a> and hepatocellular carcinoma — pharmacogenomic flag for irinotecan/SN-38 toxicity <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/DICER1.html">DICER1</a></strong> — frameshift L1603Pfs in pineoblastoma — health maintenance for Sertoli-Leydig tumor risk <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — S215N missense in <a href="../cancer_types/AML.html">AML</a> — explained lack of response to conventional therapy and increased other-cancer risk <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/BRCA1.html">BRCA1</a></strong> — frameshift in nested stromal epithelial liver tumor and a separate frameshift in <a href="../cancer_types/EPM.html">EPM</a> — breast-cancer health-maintenance flag (also returned as ACMG secondary findings) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/RYR1.html">RYR1</a></strong> — V2280I missense in <a href="../cancer_types/NBL.html">NBL</a> — malignant-hyperthermia anesthesia precaution (ACMG secondary) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/TNNT2.html">TNNT2</a></strong> — R141Q heterozygous in <a href="../cancer_types/OS.html">OS</a> — dilated cardiomyopathy (ACMG secondary) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong><a href="../genes/VHL.html">VHL</a></strong> — I180T in <a href="../cancer_types/EPM.html">EPM</a> — Von Hippel-Lindau syndrome (ACMG secondary) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>VOUS returned to four families</strong> under stringent criteria: <a href="../genes/ITK.html">ITK</a> V175V in Hodgkin lymphoma + EBV, <a href="../genes/SDHC.html">SDHC</a> G75D in <a href="../cancer_types/BLL.html">BLL</a>, <a href="../genes/DICER1.html">DICER1</a> D609Y in anaplastic large cell lymphoma (<a href="../cancer_types/ALCL.html">ALCL</a>), and <a href="../genes/APC.html">APC</a> V1822D in Ewing sarcoma <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>A more inclusive definition of “clinical utility” reframes the value of pediatric NGS.</strong> Limiting benefit to actionable-target identification understates the impact: 66% of all 101 cases and 75% of cases with cWES + RNA-seq received clinically meaningful information, including diagnostic clarification, prognostic risk-stratification, and pharmacogenomic guidance <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Tumor RNA-seq is essential for comprehensive characterization, not optional.</strong> RNA-seq independently produced ~40% of clinically impactful findings in the cWES cohort, including translocation detection (e.g., <a href="../genes/PAX7.html">PAX7</a>–<a href="../genes/FOXO1.html">FOXO1</a>, C11orf95–<a href="../genes/RELA.html">RELA</a>), expression-pattern subtyping (<a href="../genes/BCR.html">BCR</a>-<a href="../genes/ABL1.html">ABL1</a>-like signature in <a href="../cancer_types/BLL.html">BLL</a>, Ewing prognostic signature, medulloblastoma subgrouping, <a href="../cancer_types/ATRT.html">ATRT</a> classification), and overexpression-based therapeutic targeting (CDK4/6 inhibitors for <a href="../genes/CDK4.html">CDK4</a>/<a href="../genes/MDM2.html">MDM2</a> co-overexpression) <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Germline analysis should be routine in pediatric oncology.</strong> Cancer-predisposition variants in 14% of patients (slightly above the 8.5–10% literature baseline) carry implications for the patient (e.g., transplant-donor selection in <a href="../genes/RUNX1.html">RUNX1</a> familial platelet disorder; avoiding transplant in Kabuki syndrome misdiagnosed as familial HLH) and for at-risk family members <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Matched targeted therapy remains a bottleneck despite actionable findings.</strong> Only 16% of patients with potentially actionable alterations received matched therapy, due to lack of pediatric-approved drugs, limited single-agent efficacy of MEK inhibitors in RAS-mutant tumors, insurance non-coverage of off-label use, and limited compassionate-use access <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Patients and families overwhelmingly choose to receive secondary findings.</strong> 94% of clinically consented patients opted in to learn ACMG secondary findings, undercutting the paternalistic argument for restricting return of results <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Cost-benefit framing should weigh test-replacement value.</strong> Comprehensive NGS may replace multiple sequential conventional assays (karyotype, FISH, single-gene panels), particularly important when initial diagnostic biopsies are minimally invasive and tissue is limited <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>cBioPortal data deposit.</strong> VCFs, translocations, and gene expression are accessible through the <a href="../datasets/mixed_pipseq_2017.html">PIPseq cBioPortal study</a> under CUMC IRB approval <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Single-institution experience.</strong> All 101 cases come from Columbia University Medical Center; generalizability across pediatric oncology programs with different referral patterns or molecular tumor-board composition is not established.</li>
+<li><strong>Selection bias.</strong> The cohort represents ~32% of the institution’s pediatric oncology practice, restricted to &lt;50% 5-year survival, outlier phenotype, rare cancers without standard-of-care, suspected predisposition, or relapsed disease — explicitly enriched for high-risk patients, possibly inflating both predisposition-allele frequency and actionable-alteration yield relative to unselected pediatric oncology populations <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Retrospective review of clinical impact.</strong> “Clinically impactful” is a broad investigator-defined category; the authors do not report patient-outcome differences attributable to genomic-guided versus standard management.</li>
+<li><strong>Matched-therapy translation gap.</strong> Of 38 patients with actionable alterations, only 6 received matched targeted therapy, leaving open the question of whether the genomic findings would change outcome if barriers (drug access, insurance coverage, pediatric labeling) were removed <a href="../papers/28007021.html">PMID:28007021</a>.</li>
+<li><strong>Variant-calling thresholds.</strong> The pipeline’s tolerance (5% allelic fraction in normal, 10% in tumor) was set to maximize sensitivity for tumor-board review; specificity tradeoffs against orthogonal validation in a multi-center setting are not characterized.</li>
+<li><strong>Reimbursement uncertainty.</strong> 80% of patients with reimbursement decisions received only partial reimbursement, and government plans paid $0 — sustainability of the program outside grant-funded contexts remains an open question.</li>
+<li><strong>Reporting policy heterogeneity.</strong> Carrier status, adult-onset variants, and most VOUS were not returned; this conservative policy may underestimate the patient-relevant yield of WES that other programs (with different return policies) would report.</li>
+<li><strong>No comparison against standard-of-care molecular testing.</strong> Whether comprehensive cWES + RNA-seq replaces (vs.&nbsp;supplements) karyotyping, FISH, or targeted panels for specific diagnoses is asserted but not formally benchmarked.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“NGS was performed on tumor and/or normal tissue from 101 high-risk pediatric patients. Potentially actionable alterations were identified in 38% of patients, of which only 16% subsequently received matched therapy” (Abstract).</li>
+<li>“RNA-seq was clinically impactful in 37/65 patients (57%) providing diagnostic and/or prognostic information for 17 patients (26%) and identified therapeutic targets in 15 patients (23%)” (Abstract).</li>
+<li>“Known or likely pathogenic germline alterations were discovered in 18/90 patients (20%) with 14% having germline alternations in cancer predisposition genes. American College of Medical Genetics (ACMG) secondary findings were identified in six patients” (Abstract).</li>
+<li>“66% of cases tested through our program had clinically impactful findings and samples interrogated with both WES and RNA-seq resulted in data that impacted clinical decisions in 75% of cases” (Abstract).</li>
+<li>“The mean mutational load across patients was 216.9 variants (SD=829.3, median =69), with a higher mean mutational load in solid tumors compared to hematologic malignancies” (p.&nbsp;6).</li>
+<li>“The most commonly mutated gene was <a href="../genes/TP53.html">TP53</a> (n=9, 9%) in solid tumor samples and RAS pathway constituents (<a href="../genes/NRAS.html">NRAS</a>: n=5, 5%; <a href="../genes/KRAS.html">KRAS</a>: n=3, 3%) in hematologic samples” (p.&nbsp;6).</li>
+<li>“the identification of a cKIT (p.Asn655Lys) mutation in a 7-year-old boy with acute myeloid leukemia (AML), who was subsequently treated with palliative <a href="../drugs/imatinib.html">imatinib</a> and achieved a near-complete clearing of peripheral blood leukemic blasts with a sustained response for 9 months” (p.&nbsp;7).</li>
+<li>“Subsequent analysis identified a NUP214-ABL1 fusion by real-time polymerase chain reaction (RT-PCR) and the addition of <a href="../drugs/dasatinib.html">dasatinib</a> to the third-line induction regimen resulted in a deep remission allowing for a curative bone marrow transplant” (p.&nbsp;7).</li>
+<li>“Datasets are available through the cBioPortal for Cancer Genomics (http://cbioportal.org)” (p.&nbsp;5).</li>
+<li>“germline WES identified a pathogenic homozygous mutation in MLL2 (p.M3881Cfs*9) establishing the diagnosis of Kabuki syndrome … familial HLH was ruled out … and subsequently plans for a bone marrow transplant were averted” (p.&nbsp;10).</li>
+<li>“The estimated cost of WES (tumor/normal) was $4459 and the cost of RNA-seq was $1764” (p.&nbsp;6).</li>
+<li>“we identified germline alterations that predispose to cancer in 14% of our patients. This is slightly higher than other studies that have demonstrated approximately 8.5–10% frequency of germline risk alleles in pediatric oncology patients” (p.&nbsp;11).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28007021.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28007021.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

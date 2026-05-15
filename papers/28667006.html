@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Whole-Genome and Epigenomic Landscapes of Etiologically Distinct Subtypes of Cholangiocarcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28667006.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28667006.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Whole-Genome and Epigenomic Landscapes of Etiologically Distinct Subtypes of Cholangiocarcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Apinya Jusakul </p>
+             <p>Ioana Cutcutache </p>
+             <p>Chern Han Yong </p>
+             <p>Jing Quan Lim </p>
+             <p>Mi Ni Huang </p>
+             <p>Nisha Padmanabhan </p>
+             <p>Vishwa Nellore </p>
+             <p>Sarinya Kongpetch </p>
+             <p>Alvin Wei Tian Ng </p>
+             <p>Ley Moy Ng </p>
+             <p>Su Pin Choo </p>
+             <p>Swe Swe Myint </p>
+             <p>Rajasegaran Thanan </p>
+             <p>Sanjanaa Nagarajan </p>
+             <p>Weng Khong Lim </p>
+             <p>Cedric Chuan Young Ng </p>
+             <p>Arnoud Boot </p>
+             <p>Mo Liu </p>
+             <p>Choon Kiat Ong </p>
+             <p>Vikneswari Rajasegaran </p>
+             <p>Stefanus Lie </p>
+             <p>Alvin Soon Tiong Lim </p>
+             <p>Tse Hui Lim </p>
+             <p>Jing Tan </p>
+             <p>Jia Liang Loh </p>
+             <p>John R. McPherson </p>
+             <p>Narong Khuntikeo </p>
+             <p>Vajaraphongsa Bhudhisawasdi </p>
+             <p>Puangrat Yongvanit </p>
+             <p>Sopit Wongkham </p>
+             <p>Yasushi Totoki </p>
+             <p>Hiromi Nakamura </p>
+             <p>Yasuhito Arai </p>
+             <p>Shinichi Yamasaki </p>
+             <p>Pierce Kah-Hoe Chow </p>
+             <p>Alexander Yaw Fui Chung </p>
+             <p>London Lucien Peng Jin Ooi </p>
+             <p>Kiat Hon Lim </p>
+             <p>Simona Dima </p>
+             <p>Dan G. Duda </p>
+             <p>Irinel Popescu </p>
+             <p>Philippe Broet </p>
+             <p>Sun-Whe Kim </p>
+             <p>Dong Wook Choi </p>
+             <p>Sung-Hoon Moon </p>
+             <p>Jin-Young Jang </p>
+             <p>Yong Bok Yang </p>
+             <p>Pankaj K. Singh </p>
+             <p>Sandhya Annaiah </p>
+             <p>Vinay Tergaonkar </p>
+             <p>Patrick Tan </p>
+             <p>Steven G. Rozen </p>
+             <p>Bin Tean Teh </p>
+             <p>Tatsuhiro Shibata </p>
+             <p>Chawalit Pairojkul </p>
+             <p>Raluca Gordân </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1158/2159-8290.CD-17-0368">10.1158/2159-8290.CD-17-0368</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28667006 · <strong>DOI:</strong> 10.1158/2159-8290.CD-17-0368 · <strong>Journal:</strong> Cancer Discovery (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Jusakul et al., on behalf of the International Cancer Genome Consortium, profiled 489 <a href="../cancer_types/CHOL.html">cholangiocarcinomas</a> (CCAs) from 10 countries — combining whole-genome (71), exome (200), targeted (188), copy-number (175), DNA methylation (138), and gene-expression (118) platforms — to define four etiology-driven molecular subtypes. Fluke-Positive Clusters 1 and 2 are enriched in <a href="../genes/ERBB2.html">ERBB2</a> amplifications and <a href="../genes/TP53.html">TP53</a> mutations; Fluke-Negative Clusters 3 and 4 either exhibit high copy-number alterations with <a href="../genes/PDCD1.html">PD-1</a>/<a href="../genes/PDCD1LG2.html">PD-L2</a> immune-checkpoint expression (Cluster 3) or carry chromatin-modifier mutations (<a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a>, <a href="../genes/BAP1.html">BAP1</a>) with <a href="../genes/FGFR2.html">FGFR</a>/PRKA-related rearrangements (Cluster 4). The study nominates four new CCA driver genes (<a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/STK11.html">STK11</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/SF3B1.html">SF3B1</a>), reports the first <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a> fusion in CCA, identifies <a href="../genes/FGFR2.html">FGFR2</a> 3′UTR deletions as a new mechanism of <a href="../genes/FGFR2.html">FGFR2</a> upregulation, and reveals two epigenetically distinct hypermethylation subtypes (CpG-island vs CpG-shore) reflecting carcinogen-driven vs genetically-driven oncogenesis <a href="../papers/28667006.html">PMID:28667006</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Total cohort:</strong> 489 <a href="../cancer_types/CHOL.html">cholangiocarcinomas</a> (133 Fluke-Positive: 132 <em>Opisthorchis viverrini</em>, 1 <em>Clonorchis sinensis</em>; 356 Fluke-Negative; 39 HBV/HCV-positive; 5 PSC-positive) from 10 countries (Singapore, Romania, Thailand, Italy, France, South Korea, Brazil, Taiwan, China, Japan), all staged AJCC 7th edition, none pretreated <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Anatomical breakdown:</strong> intrahepatic (<a href="../cancer_types/IHCH.html">IHCH</a>), perihilar (<a href="../cancer_types/PHCH.html">PHCH</a>), and distal extrahepatic (<a href="../cancer_types/EHCH.html">EHCH</a>) tumors, with anatomical and survival data on 459 samples <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Genomic platforms:</strong> <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> on 71 tumor/normal pairs at average 64.2× depth (Illumina HiSeq X10/2500/2000); <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on 200 cases (previously published); <a href="../methods/targeted-dna-seq.html">targeted DNA sequencing</a> of 404 genes via SureSelect XT2 capture on 188 cases (HiSeq 4000, 99.6% coding coverage); HumanOmniExpress SNP arrays on 175 cases (<a href="../methods/affymetrix-snp6.html">Affymetrix-style SNP CN profiling</a>); <a href="../methods/450k-methylation-array.html">Illumina 450K methylation BeadChip</a> on 138 cases; HumanHT-12 Expression BeadChip (<a href="../methods/microarray-gene-expression.html">microarray gene expression</a>, <a href="../methods/illumina-microarray.html">Illumina platform</a>) on 118 cases <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Integrative clustering:</strong> <a href="../methods/icluster.html">iCluster (iClusterPlus)</a> on the 94 samples with all four data types (sSNVs/indels, sCNAs, mRNA, methylation); validated by randomized subsampling and an expanded 121-sample reanalysis with 90% cluster-prediction accuracy <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Validation cohort:</strong> newly classified samples plus a published 38-sample US TCGA CCA series for survival reproducibility <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cell lines:</strong> H69 (immortalized cholangiocyte), HEK293T, EGI-1 (DSMZ <a href="../cancer_types/ACC.html">ACC</a> 385), HUCCT1 (JCRB0425), and M213 (JCRB1557, from the Liver Fluke and Cholangiocarcinoma Research Center) were used for luciferase reporter and shRNA functional assays <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/chol_icgc_2017.html">chol_icgc_2017</a>. Comparison study: <a href="../datasets/chol_jhu_2013.html">chol_jhu_2013</a>.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Four molecular CCA clusters from integrative multi-omic clustering.</strong> Cluster 1 (mostly Fluke-Pos): CpG-island promoter hypermethylation, enriched in <a href="../genes/ARID1A.html">ARID1A</a> (p &lt; 0.01) and <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a> (p &lt; 0.05) mutations, high non-synonymous mutation burden, H3K27me3-promoter mutation enrichment. Cluster 2 (mixed): upregulated <a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/WNT5B.html">WNT5B</a>, <a href="../genes/AKT1.html">AKT1</a> expression. Clusters 1 and 2 are enriched in <a href="../genes/TP53.html">TP53</a> mutations (p &lt; 0.001) and <a href="../genes/ERBB2.html">ERBB2</a> amplifications (p &lt; 0.01), Fisher’s exact test. Cluster 3 (Fluke-Neg): highest sCNA burden, immune-checkpoint upregulation (<a href="../genes/PDCD1.html">PDCD1</a>, <a href="../genes/PDCD1LG2.html">PDCD1LG2</a>, <a href="../genes/BTLA.html">BTLA</a>). Cluster 4 (Fluke-Neg): <a href="../genes/BAP1.html">BAP1</a>, <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> mutations, <a href="../genes/FGFR2.html">FGFR</a> alterations (all p &lt; 0.01), CpG-shore hypermethylation <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster correlates with anatomy and prognosis.</strong> Clusters 1 and 2 are enriched in extrahepatic tumors; Clusters 3 and 4 are almost entirely intrahepatic (p &lt; 0.001). Patients in Clusters 3 and 4 have significantly better overall survival (log-rank p &lt; 0.001), independent of fluke status, anatomical location, and stage (Cox p &lt; 0.05); reproduced in an independent validation cohort <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Mutation burden:</strong> average 82 non-silent somatic mutations/tumor (median 47); 64 sSNVs (median 41) and 18 indels (median 6). Three CCAs were hypermutated (5.91 sSNVs/Mb and 24.17 indels/Mb) with MSI signatures and two carrying <a href="../genes/POLE.html">POLE</a> mutations. Excluding hypermutators, Fluke-Pos CCAs carried significantly more somatic mutations than Fluke-Neg CCAs (median 4,700 vs 3,143/tumor, p &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Four new CCA driver genes</strong> (32 SMGs total by <a href="../methods/mutsig.html">MutSigCV</a> and IntOGen, q &lt; 0.1 by both): <a href="../genes/RASA1.html">RASA1</a> (4.1%, mostly frame-shift/nonsense; shRNA knockdown enhances migration/invasion in CCA cell lines), <a href="../genes/STK11.html">STK11</a> (5%, mostly inactivating), <a href="../genes/MAP2K4.html">MAP2K4</a> (homozygous deletions in 2 Fluke-Pos cases plus 2.2% mutations, half inactivating), and <a href="../genes/SF3B1.html">SF3B1</a> (4.6%, hotspots at codons 625 and 700, previously seen in uveal melanoma and breast cancer) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a> amplification is enriched in Fluke-Pos CCAs</strong> (10.4% vs 2.7% in Fluke-Neg, p &lt; 0.01). <a href="../genes/ERBB2.html">ERBB2</a>-amplified samples averaged 14 copies (by <a href="../methods/ascat.html">ASCAT</a> on SNP array or Quandico on sequencing data) and were independently validated by <a href="../methods/fish.html">FISH</a>. Activating <a href="../genes/ERBB2.html">ERBB2</a> mutations (S310F/Y, G292R, T862A, D769H, L869R, V842I, G660D) were detected in 9 cases (2%) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Other recurrent CN events:</strong> <a href="../genes/MYC.html">MYC</a> amplification (n=12), <a href="../genes/MDM2.html">MDM2</a> (n=9), <a href="../genes/EGFR.html">EGFR</a> (n=11), <a href="../genes/CCND1.html">CCND1</a> (n=7) amplifications; <a href="../genes/CDKN2A.html">CDKN2A</a> (n=17), <a href="../genes/UTY.html">UTY</a> (n=17), <a href="../genes/KDM5D.html">KDM5D</a> (n=16) deletions <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Structural variants:</strong> <a href="../methods/crest.html">CREST</a> called ~93 somatic SVs/tumor (median 69, range 0–395), 91% PCR-validated, mostly intra-chromosomal (65%), associated with <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/CDKN2A.html">CDKN2A/B</a>, <a href="../genes/TTC28.html">TTC28</a>, and fragile site 1q21.3. SV burden varied across clusters (Kruskal–Wallis p &lt; 0.05); <a href="../genes/TP53.html">TP53</a>, <a href="../genes/FBXW7.html">FBXW7</a>, and <a href="../genes/SMAD4.html">SMAD4</a> mutation status was associated with increased SV burden (q &lt; 0.1) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>FGFR rearrangement landscape.</strong> Five in-frame fusions with intact tyrosine-kinase domains: <a href="../genes/FGFR2.html">FGFR2</a>-STK26, <a href="../genes/FGFR2.html">FGFR2</a>-TBC1D1, <a href="../genes/FGFR2.html">FGFR2</a>-WAC, <a href="../genes/FGFR2.html">FGFR2</a>-<a href="../genes/BICC1.html">BICC1</a>, and <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a>. The <a href="../genes/FGFR3.html">FGFR3</a>-<a href="../genes/TACC3.html">TACC3</a> fusion is the first reported in CCA. All <a href="../genes/FGFR2.html">FGFR2</a> rearrangements occurred exclusively in Cluster 4 (p &lt; 0.001) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>FGFR2 3′UTR loss as a new activation mechanism.</strong> Recurrent truncating SVs translocated <a href="../genes/FGFR2.html">FGFR2</a> without its 3′UTR to intergenic regions; FGFR2-truncated CCAs had significantly higher FGFR2 transcript levels (p &lt; 0.01), and luciferase reporter assays in HEK293T and H69 cells confirmed that the intact FGFR2 3′UTR represses expression <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/PRKACB.html">PRKACB</a> (PKA catalytic subunit B) rearrangements.</strong> ATP1B1-<a href="../genes/PRKACB.html">PRKACB</a> and LINC00261-<a href="../genes/PRKACB.html">PRKACB</a> fusions retain the PKA pseudokinase domain and may activate downstream MAPK signaling <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>L1 (LINE-1) retrotransposition is recurrent and Fluke-Pos-associated.</strong> 52 events in 20/71 (28.2%) of WGS tumors, 98% PCR-validated, predominantly originating from a <a href="../genes/TTC28.html">TTC28</a> intron-1 L1 element. L1 retrotransposition was enriched in Fluke-Pos tumors (p &lt; 0.01) and correlated with increased SV burden (p &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/TERT.html">TERT</a> promoter mutations are rare in CCA.</strong> Only 2/71 WGS cases (2.8%) carried <a href="../genes/TERT.html">TERT</a> promoter mutations (chr5:1295228); no other recurrent non-coding promoter point mutations were identified <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>FIREFLY (a new method) identifies non-coding regulatory dysregulation at the gene-set level.</strong> Applied to 70 WGS samples and 6,639 mutated promoters, <a href="../methods/firefly.html">FIREFLY</a> — which integrates <a href="../methods/protein-binding-microarray.html">protein-binding microarray</a> data for 486 TFs — identified four gene sets enriched for promoter mutations that alter TF binding and produce concordant transcriptional dysregulation. Two of the four sets (MIKKELSEN_MCV6_HCP_WITH_H3K27ME3 and MIKKELSEN_MEF_ICP_WITH_H3K27ME3) are PRC2 targets bearing the H3K27me3 mark, and 3 of 4 sets were preferentially mutated in Cluster 1, supporting a role for PRC2/H3K27me3 dysregulation in that subtype <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Two distinct DNA-methylation subgroups.</strong> Unsupervised methylation clustering on 138 CCAs reproduced Cluster 1 (CpG-island hypermethylation, Fluke-Pos) and Cluster 4 (CpG-shore hypermethylation, Fluke-Neg) at 96.3% and 86.1% concordance with the integrative clusters. <a href="../methods/gsea.html">GSEA</a> showed both target PRC2 pathways but at different genomic features. Promoter methylation was inversely correlated with transcript level in both clusters (q &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Distinct mechanisms drive Cluster 1 vs Cluster 4 hypermethylation.</strong> Cluster 1 shows downregulation of the demethylase <a href="../genes/TET1.html">TET1</a> and upregulation of histone methyltransferase <a href="../genes/EZH2.html">EZH2</a>. Cluster 4 is enriched in <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> mutations (31.6% vs 1.0% in other clusters, q &lt; 0.001) and, among IDH-WT Cluster 4 tumors, enriched in <a href="../genes/BAP1.html">BAP1</a> inactivating point mutations and regional deletions (q &lt; 0.001 and q &lt; 0.05 respectively) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../methods/mutational-signatures.html">Mutational signatures</a>:</strong> ten established signatures detected — COSMIC Signatures 1, 5, 8, 16, 17; APOBEC (Signatures 2, 13); MMR-deficient (Signatures 6, 20); aristolochic acid (Signature 22). Fluke-Pos CCAs were enriched for APOBEC mutation burden (p &lt; 0.001). Signature 1 (CpG&gt;TpG) was elevated in Cluster 1 even after age adjustment (p &lt; 0.001), and CpG&gt;TpG mutations were preferentially located near hypermethylated regions in Cluster 1 (p &lt; 0.001) but not Cluster 4 — consistent with deamination of methylated cytosines as a Cluster 1 mutational driver <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster 1 is subclonally heterogeneous, Cluster 4 is clonal.</strong> VAF-distribution analysis of point mutations (in copy-neutral regions, purity-adjusted) showed wide spread in Cluster 1 indicating heterogeneous subclones, vs tightly clonal structure in Cluster 4 <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Driver-gene–anatomy associations:</strong> <a href="../genes/BAP1.html">BAP1</a> and <a href="../genes/KRAS.html">KRAS</a> were more frequently mutated in intrahepatic CCAs (q &lt; 0.1, Fisher’s exact test), persisting after fluke-status adjustment in multivariate regression <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Immune signal in Cluster 3.</strong> <a href="../methods/estimate.html">ESTIMATE</a> showed immune infiltration in both Clusters 2 and 3, but only Cluster 3 specifically upregulated immune-checkpoint genes (<a href="../genes/PDCD1.html">PDCD1</a>, <a href="../genes/PDCD1LG2.html">PDCD1LG2</a>, <a href="../genes/BTLA.html">BTLA</a>) and antigen cross-presentation, CD28 co-stimulation, and T-cell signaling pathways <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/ERBB2.html">ERBB2</a></strong> — Amplification in 3.9–8.5% of CCAs, enriched in Fluke-Pos (10.4% vs 2.7%, p &lt; 0.01); average 14 copies; FISH-validated. Activating point mutations (S310F/Y, G292R, T862A, D769H, L869R, V842I, G660D) in 2% of cases. Defining co-feature of Clusters 1 and 2; nominated as anti-HER2 therapeutic target <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Significantly enriched in Clusters 1 and 2 (p &lt; 0.001). <a href="../genes/TP53.html">TP53</a> mutation associated with increased SV burden (q &lt; 0.1) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/ARID1A.html">ARID1A</a></strong> — Enriched in Cluster 1 (p &lt; 0.01); also a recurrent SV target <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a></strong> — Enriched in Cluster 1 (p &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a></strong> — Enriched in Cluster 4 (31.6% vs 1.0% in other clusters, q &lt; 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production. Suggested as candidates for IDH inhibitors (e.g.&nbsp;<a href="../drugs/ivosidenib.html">ivosidenib</a>, then in trial NCT02073994) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/BAP1.html">BAP1</a></strong> — Enriched in IDH-WT Cluster 4 (q &lt; 0.001 for inactivating point mutations, q &lt; 0.05 for regional deletions); BAP1-mutant CCAs show increased CpG hypermethylation. More frequent in intrahepatic CCAs (q &lt; 0.1) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/FGFR2.html">FGFR2</a></strong> — In-frame fusions (<a href="../genes/FGFR2.html">FGFR2</a>-STK26, -TBC1D1, -WAC, -<a href="../genes/BICC1.html">BICC1</a>) and a new class of recurrent truncating rearrangements removing the 3′UTR — both classes elevate FGFR2 expression. Indels (n=3), SNVs (n=10), and copy-gain (n=1) also observed. Rearrangements are exclusive to Cluster 4 (p &lt; 0.001); aggregated FGFR2 alterations enriched in Cluster 4 (p &lt; 0.01) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/FGFR3.html">FGFR3</a>–<a href="../genes/TACC3.html">TACC3</a></strong> — First reported in CCA; previously characterized as oncogenic in bladder cancer, glioblastoma, and lung cancer <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/PRKACB.html">PRKACB</a></strong> — ATP1B1-PRKACB and LINC00261-PRKACB fusions retain the pseudokinase domain; proposed to activate MAPK signaling <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/RASA1.html">RASA1</a></strong> — Newly nominated CCA driver; inactivating mutations in 4.1% (10 frame-shift, 4 nonsense) plus focal CN losses, both correlated with reduced expression. shRNA knockdown in CCA cell lines (M213, HUCCT1) enhanced migration and invasion in Transwell assays — supporting tumor-suppressor function <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/STK11.html">STK11</a></strong> — Newly nominated CCA driver; mutated in 5%, mostly inactivating (7 nonsense, 9 frame-shift) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/MAP2K4.html">MAP2K4</a></strong> — Newly nominated CCA driver; homozygous deletions in 2 Fluke-Pos cases plus 2.2% mutations (half inactivating) — consistent with tumor-suppressor role <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/SF3B1.html">SF3B1</a></strong> — Newly nominated CCA driver; mutated in 4.6% at hotspots codon 625 (23%) and codon 700 (14%) — implicating splicing dysregulation in CCA, paralleling uveal melanoma and breast cancer hotspots <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a></strong> — Significantly more frequent in intrahepatic CCAs (q &lt; 0.1) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/TERT.html">TERT</a></strong> — Promoter mutations rare in CCA (2/71 WGS cases, 2.8%) at chr5:1295228 <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/FBXW7.html">FBXW7</a>, <a href="../genes/SMAD4.html">SMAD4</a></strong> — Mutations associated with elevated SV burden (q &lt; 0.1) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/CTNNB1.html">CTNNB1</a>, <a href="../genes/WNT5B.html">WNT5B</a>, <a href="../genes/AKT1.html">AKT1</a></strong> — Upregulated expression in Cluster 2 (p &lt; 0.05) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/MYC.html">MYC</a>, <a href="../genes/MDM2.html">MDM2</a>, <a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/CCND1.html">CCND1</a></strong> — Recurrent oncogene amplifications (n=12, 9, 11, 7 respectively) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a>, <a href="../genes/UTY.html">UTY</a>, <a href="../genes/KDM5D.html">KDM5D</a></strong> — Recurrent deletions (n=17, 17, 16 respectively) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/TTC28.html">TTC28</a></strong> — Source of recurrent somatic L1 retrotransposition in 28.2% of WGS tumors <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/POLE.html">POLE</a></strong> — Mutated in 2 of the 3 hypermutator CCAs (alongside MSI mutational signatures) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/PDCD1.html">PDCD1</a> (PD-1), <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> (PD-L2), <a href="../genes/BTLA.html">BTLA</a></strong> — Specifically upregulated in Cluster 3, motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong><a href="../genes/TET1.html">TET1</a>, <a href="../genes/EZH2.html">EZH2</a></strong> — Cluster 1 shows downregulated <a href="../genes/TET1.html">TET1</a> and upregulated <a href="../genes/EZH2.html">EZH2</a> expression, suggesting loss-of-demethylation plus gain-of-repressive-methylation as the epigenetic mechanism for Cluster 1 hypermethylation <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Molecular subtype provides prognostic information beyond anatomy.</strong> Clusters 3 and 4 carry significantly better overall survival than Clusters 1 and 2 (log-rank p &lt; 0.001), independent of fluke status, anatomical site, and stage on multivariate Cox regression (p &lt; 0.05); reproduced in an independent validation cohort <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster-specific therapeutic hypotheses (require clinical validation):</strong>
+<ul>
+<li><strong>Clusters 1 and 2 — anti-HER2.</strong> <a href="../genes/ERBB2.html">ERBB2</a>-amplified CCAs (predominantly Fluke-Pos) are candidates for HER2-targeted agents; cell-line data referenced by the authors suggest high-ERBB2 CCAs are more sensitive to ERBB2 inhibition than low-ERBB2 cases <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster 3 — immune checkpoint blockade.</strong> Upregulation of <a href="../genes/PDCD1.html">PDCD1</a> (PD-1), <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> (PD-L2), and <a href="../genes/BTLA.html">BTLA</a>, combined with antigen-presentation and T-cell signaling pathway upregulation, motivates immunotherapy trials in this subtype — though sample size is small <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster 4 — IDH inhibitors and FGFR-targeted agents.</strong> <a href="../genes/IDH1.html">IDH1</a>/<a href="../genes/IDH2.html">IDH2</a> mutations and <a href="../genes/FGFR2.html">FGFR2</a>/<a href="../genes/FGFR3.html">FGFR3</a> rearrangements suggest opportunities for IDH inhibitors (e.g.&nbsp;<a href="../drugs/ivosidenib.html">ivosidenib</a>, then in NCT02073994) and FGFR inhibitors. <a href="../genes/FGFR2.html">FGFR2</a> 3′UTR-loss truncating rearrangements expand the FGFR-targetable population beyond canonical in-frame fusions and activating mutations <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+</ul></li>
+<li><strong>Anatomical classification alone is insufficient for treatment decisions.</strong> Tumors in different anatomical sites can be molecularly similar, and tumors in the same anatomical site span all four molecular clusters; current oncology guidelines do not discriminate CCA treatment by anatomical site <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Liver fluke status is not equivalent to molecular subtype.</strong> Cluster-associated survival differences persist after fluke-status adjustment, and Cluster 2 contains both Fluke-Pos and Fluke-Neg tumors — cautioning against using fluke status as a proxy for molecular classification <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Platform heterogeneity.</strong> Sample-resource constraints (DNA, RNA, FFPE) prevented all platforms from being applied to all samples; the integrative clustering rests on 94–121 samples with multi-platform data while the full driver/SV/CN analyses use larger but partially-overlapping subsets. Authors used statistical models and overlap concordance to argue platform bias is minimal, but cross-platform merging restricts analysis to common genomic regions <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cluster 3 is small.</strong> Immunotherapy nominations for Cluster 3 rest on a small sample size; the mechanistic basis for immune-checkpoint upregulation in this subtype is unresolved (the authors note that aneuploidy-associated immunogenicity is one possible explanation) <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Center-specific pre-processing differences</strong> (collection, biopsy site, processing protocols) may introduce sequencing biases; partially mitigated by standardized AJCC 7th-edition histology review and tumor-cell-content estimation <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Functional validation is restricted.</strong> Only <a href="../genes/RASA1.html">RASA1</a> (shRNA knockdown migration/invasion) and <a href="../genes/FGFR2.html">FGFR2</a> 3′UTR (luciferase reporter) and 2/3 selected promoter mutations (FIREFLY-prediction validation) were experimentally tested; the other newly nominated drivers (<a href="../genes/STK11.html">STK11</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/SF3B1.html">SF3B1</a>) and the proposed therapeutic vulnerabilities require further functional and clinical validation <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>FIREFLY does not predict directionality of expression change</strong> for individual TF binding-change mutations, since TFs can be activators or repressors; gene-set-level effects are inferred without per-mutation directionality <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Cell-of-origin remains a competing explanation</strong> for the Cluster 1 vs Cluster 4 hypermethylation differences. The biliary system contains multipotent stem/progenitor cells; liver fluke infection primarily affects large bile ducts while parenchymal liver diseases affect canals of Hering and bile ductules — distinct vulnerable populations could partly explain the molecular differences alongside the proposed extrinsic-vs-intrinsic carcinogenesis model <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Comparison with the contemporary US TCGA CCA series</strong> (38 samples, exclusively fluke-negative, mostly intrahepatic, North American — overlaps with <a href="../datasets/chol_jhu_2013.html">chol_jhu_2013</a> lineage of CCA studies). The TCGA “IDH” and “METH3” groups map approximately to Cluster 4; “ECC” to Cluster 2; the TCGA “METH2” group (<a href="../genes/CCND1.html">CCND1</a> amplifications) and Cluster 3 are not obviously matched <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+<li><strong>Generalizability of FIREFLY.</strong> Whether the gene-set-level promoter-mutation framework recovers analogous H3K27me3/PRC2 signals in other cancer types remains an open empirical question raised by the authors <a href="../papers/28667006.html">PMID:28667006</a>.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We analysed 489 CCAs from 10 countries, combining whole-genome (71 cases), targeted/exome, copy-number, gene expression, and DNA methylation information” (Abstract).</li>
+<li>“Integrative clustering defined four CCA clusters – Fluke-Positive CCAs (Clusters 1/2) are enriched in ERBB2 amplifications and <a href="../genes/TP53.html">TP53</a> mutations, conversely Fluke-Negative CCAs (Clusters 3/4) exhibit high copy-number alterations and PD-1/PD-L2 expression, or epigenetic mutations (IDH1/2, <a href="../genes/BAP1.html">BAP1</a>) and FGFR/PRKA-related gene rearrangements” (Abstract).</li>
+<li>“Whole-genome analysis highlighted FGFR2 3′UTR deletion as a mechanism of FGFR2 upregulation” (Abstract).</li>
+<li>“Our analysis revealed four potentially new CCA driver genes not highlighted in previous CCA publications – <a href="../genes/RASA1.html">RASA1</a>, <a href="../genes/STK11.html">STK11</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, and <a href="../genes/SF3B1.html">SF3B1</a>” (Results, p.&nbsp;5).</li>
+<li>“RASA1 … was predicted to be inactivated in 4.1% of cases (10 frame shift, 4 nonsense) … shRNA-mediated knockdown of RASA1 resulted in significantly enhanced migration and invasion” (Results, p.&nbsp;5).</li>
+<li>“ERBB2 amplifications were more frequent in Fluke-Pos cases (10.4% in Fluke-Pos vs 2.7% in Fluke-Neg CCA, p &lt; 0.01, Fisher’s exact test)” (Results, p.&nbsp;5).</li>
+<li>“we identified 5 in-frame gene fusions with intact tyrosine kinase domains – four involving FGFR2 (FGFR2-STK26, FGFR2-TBC1D1, FGFR2-WAC, and FGFR2-BICC1) and one involving <a href="../genes/FGFR3.html">FGFR3</a> (FGFR3-TACC3) … this is the first report of FGFR3 fusions in CCA” (Results, p.&nbsp;6).</li>
+<li>“FGFR2 3′UTR loss may thus represent a new and additional mechanism for enhancing FGFR2 expression in CCA” (Results, p.&nbsp;6).</li>
+<li>“FGFR2 rearrangements were observed exclusively in Cluster 4 (p &lt; 0.001, Fisher’s exact test)” (Results, p.&nbsp;6).</li>
+<li>“we observed frequent somatic L1 retrotranspositions, particularly originating from an L1 element in intron 1 of the <a href="../genes/TTC28.html">TTC28</a> gene (52 events in 20/71 tumors, 28.2%)” (Results, p.&nbsp;7).</li>
+<li>“only two CCAs (2.8%) harboured TERT-promoter mutations (chr5:1295228)” (Results, p.&nbsp;7).</li>
+<li>“FIREFLY (FInding Regulatory mutations in gEne sets with FunctionaL dYsregulation) … uses experimentally determined high-throughput TF-DNA binding data for 486 TFs” (Results, p.&nbsp;7).</li>
+<li>“two of these (MIKKELSEN_MCV6_HCP_WITH_H3K27ME3 and MIKKELSEN_MEF_ICP_WITH_H3K27ME3) are subsets of PRC2 target genes” (Results, p.&nbsp;8).</li>
+<li>“Cluster 1 … was dominated by hypermethylation in promoter CpG islands, while Cluster 4, enriched in Fluke-Neg CCAs, was dominated by hypermethylation in promoter CpG island shores” (Results, p.&nbsp;9).</li>
+<li>“Cluster 4 CCAs were significantly enriched in IDH1/2 mutations, which are known to be associated with CCA hypermethylation (31.6% in Cluster 4 versus 1.0% in other clusters, q &lt; 0.001)” (Results, p.&nbsp;9).</li>
+<li>“patients in Clusters 3 and 4 had significantly better overall survival relative to the other 2 clusters (p &lt; 0.001, log-rank test)” (Results, p.&nbsp;4).</li>
+<li>“Cluster 4 CCAs, which are associated with IDH1/2 mutations and FGFR2 and PRKA-related gene rearrangements, might also be tested with recently described IDH inhibitors (ClinicalTrials.gov identifier: NCT02073994) or FGFR-targeting agents” (Discussion, p.&nbsp;11).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28667006.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28667006.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

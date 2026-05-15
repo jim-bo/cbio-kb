@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,6 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="papers-using-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="papers-using-this-cohort">Papers using this cohort</h2>
 <ul>
+<li><a href="../papers/28481359.html">PMID:28481359</a> — Zehir et al., <em>Nat Med</em> 2017: Seminal MSK-IMPACT report; prospective CLIA-certified targeted sequencing of 10,945 tumors from 10,336 patients across 62 principal tumor types using IMPACT341/IMPACT410 panels; 36.7% of patients harbored an OncoKB-actionable alteration; 11% (527/5,009) matched to a genomically targeted clinical trial; full dataset deposited to cBioPortal as msk_impact_2017. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li><a href="../papers/36862133.html">PMID:36862133</a> — Doe-Tetteh et al.&nbsp;list <code>msk_impact_2017</code> alongside <code>[makeanimpact_ccr_2023](../datasets/makeanimpact_ccr_2023.md)</code> as the cBioPortal dataset context for their rare-cancer Make-an-IMPACT outreach program, which itself used the MSK-IMPACT clinical platform to return results to patients and local physicians <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 <li><a href="../papers/39506116.html">PMID:39506116</a> — Kehl et al.&nbsp;MSK-CHORD: the 24,950-patient MSK-CHORD real-world dataset was built on top of MSK-IMPACT sequencing; <code>msk_impact_2017</code> is cited as the foundational clinical sequencing backbone whose tumor genomics feed into MSK-CHORD <a href="../papers/39506116.html">PMID:39506116</a>.</li>
 <li><a href="../papers/39746944.html">PMID:39746944</a> — Ziegler et al.&nbsp;MiMSI: the global comparison cohort (n=45,112 samples from 40,414 patients) drawn from prospective MSK-IMPACT clinical sequencing (January 2014–April 2020) is the same pipeline documented in <code>msk_impact_2017</code>; concordance between MSISensor and MiMSI was evaluated on this cohort <a href="../papers/39746944.html">PMID:39746944</a>.</li>
@@ -195,18 +196,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="notable-findings-derived-from-this-cohort" class="level2">
 <h2 class="anchored" data-anchor-id="notable-findings-derived-from-this-cohort">Notable findings derived from this cohort</h2>
 <ul>
+<li><a href="../genes/TP53.html">TP53</a> was the most frequently altered gene (41% of 10,945 tumors, &gt;10% in 43/62 principal tumor types); <a href="../genes/KRAS.html">KRAS</a> was 2nd (15%), with G12 codons comprising 80% of all KRAS mutations and 12% of all patients; 36.7% of patients harbored an OncoKB-actionable alteration. <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>81% of all mutations fell outside the combined target regions of commercially available amplicon hotspot panels; ≥9% of mutations would have been missed by WES to 150× mean depth, including targetable <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/EGFR.html">EGFR</a>, and <a href="../genes/MET.html">MET</a> alterations. <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>Mutation-signature calling identified MMR deficiency (MSI) in 102 patients across 11 tumor types; 45% had not been previously tested, including a prostate cancer patient who responded to anti-PD-L1 therapy. <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>11% (527/5,009) of patients with ≥12-month follow-up were enrolled on a genomically matched targeted-therapy trial; 72% of matches occurred after MSK-IMPACT reporting itself. <a href="../papers/28481359.html">PMID:28481359</a></li>
 <li>The original Make-an-IMPACT report demonstrates that the MSK-IMPACT clinical platform underpinning msk_impact_2017 can be extended via direct-to-patient outreach to enroll international rare-cancer cohorts with 86.8% sequencing success <a href="../papers/36862133.html">PMID:36862133</a>.</li>
 <li>Across 45,112 MSK-IMPACT samples from the same clinical sequencing pipeline, MiMSI reduced MSI-indeterminate calls from 3.8% (n=1,724 by MSISensor) to 0.47% (n=210), with 96% concordance for definitive MSS/MSI-H calls <a href="../papers/39746944.html">PMID:39746944</a>.</li>
 <li>The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone <a href="../cancer_types/OS.html">OS</a> prediction in <a href="../cancer_types/NSCLC.html">NSCLC</a>, breast, colorectal, prostate, and pancreatic cancers <a href="../papers/39506116.html">PMID:39506116</a>.</li>
+<li>706 advanced prostate cancers from MSK-IMPACT in this cohort were used as validation for 97 significantly mutated genes discovered in the prad_p1000 pan-1000 prostate meta-cohort, confirming novel drivers including CUL3 (9 cases), SPEN, SF3B1, and PIK3R2 <a href="../papers/29610475.html">PMID:29610475</a></li>
 </ul>
 </section>
 <section id="sources" class="level2">
 <h2 class="anchored" data-anchor-id="sources">Sources</h2>
 <ul>
-<li>cBioPortal study <code>msk_impact_2017</code>.</li>
-<li>Zehir A, et al.&nbsp;<em>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.</em> Nat Med. 2017. PMID:28481359 — original cohort paper (not in the cbio-kb corpus).</li>
+<li><p>cBioPortal study <code>msk_impact_2017</code>.</p></li>
+<li><p>Zehir A, et al.&nbsp;<em>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.</em> Nat Med. 2017. <a href="../papers/28481359.html">PMID:28481359</a></p></li>
+<li><p><a href="../papers/29610475.html">PMID:29610475</a></p></li>
 </ul>
-<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-04-30</strong>.</em></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em></p>
 
 
 </section>

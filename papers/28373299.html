@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Integrated genomic analyses reveal frequent aberrations in acral melanoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28373299.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28373299.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Integrated genomic analyses reveal frequent aberrations in acral melanoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Winnie S. Liang </p>
+             <p>William Hendricks </p>
+             <p>Jeffrey Kiefer </p>
+             <p>Jessica Schmidt </p>
+             <p>Shobana Sekar </p>
+             <p>John Carpten </p>
+             <p>David W. Craig </p>
+             <p>Jonathan Adkins </p>
+             <p>Lori Cuyugan </p>
+             <p>Zarko Manojlovic </p>
+             <p>Rebecca F. Halperin </p>
+             <p>Adrienne Helland </p>
+             <p>Sara Nasser </p>
+             <p>Christophe Legendre </p>
+             <p>Laurence H. Hurley </p>
+             <p>Karthigayini Sivaprakasam </p>
+             <p>Douglas B. Johnson </p>
+             <p>Holly Crandall </p>
+             <p>Klaus J. Busam </p>
+             <p>Victoria Zismann </p>
+             <p>Valerie Deluca </p>
+             <p>Jeeyun Lee </p>
+             <p>Aleksandar Sekulic </p>
+             <p>Charlotte E. Ariyan </p>
+             <p>Jeffrey Sosman </p>
+             <p>Jeffrey Trent </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1101/gr.213348.116">10.1101/gr.213348.116</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28373299 · <strong>DOI:</strong> 10.1101/gr.213348.116 · <strong>Journal:</strong> Genome Research (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Liang et al.&nbsp;performed integrated whole-exome, long-insert whole-genome, and RNA-seq analysis of 38 acral lentiginous melanoma (ALM) tumors from 34 patients — a rare, sun-shielded melanoma subtype with worse prognosis than cutaneous melanoma. Unlike cutaneous melanoma, ALM was dominated by structural variation rather than UV-derived single-nucleotide variants: only 38% of patients carried canonical <a href="../genes/BRAF.html">BRAF</a>/<a href="../genes/NRAS.html">NRAS</a>/<a href="../genes/NF1.html">NF1</a> driver mutations. The authors identified <a href="../genes/PAK1.html">PAK1</a> copy gains in 15% of patients (exclusively in <a href="../genes/BRAF.html">BRAF</a>/<a href="../genes/NRAS.html">NRAS</a> wild-type tumors) and aberrations in <a href="../genes/TERT.html">TERT</a> (translocations, copy gains, missense and promoter mutations, or germline events) in 41% of patients. In vitro, Telomerase Inhibitor IX produced ≥75% loss of viability in two primary ALM cell lines (one with a <a href="../genes/TERT.html">TERT</a> CNV gain, one with a homozygous <a href="../genes/TERT.html">TERT</a> promoter mutation) but not in normal melanocytes — providing preliminary evidence for <a href="../genes/TERT.html">TERT</a> as a therapeutic target in ALM.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Cohort:</strong> 38 ALM tumors from 34 patients (<a href="../cancer_types/ACRM.html">acral melanoma, ACRM</a>) enrolled at Vanderbilt University and Memorial Sloan-Kettering Cancer Center; 3 patients contributed multiple tumors (patient 25: two metastases; patient 29: primary + two metastases; patient 34: primary + metastasis). Median tumor cellularity = 50%.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/mel_tsam_liang_2017.html">mel_tsam_liang_2017</a>; raw sequencing deposited in dbGaP under accession <code>phs001036.v1.p1</code>.</li>
+<li><strong>Assays:</strong> paired tumor/constitutional <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> (33 patients; tumor-only for 1), long-insert (~900 bp) <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> for SV/CNV detection (31 patients), and tumor <a href="../methods/rna-seq.html">RNA-seq</a> (33 patients). <a href="../methods/sanger-sequencing.html">Sanger sequencing</a> was used to interrogate the <a href="../genes/TERT.html">TERT</a> promoter (poorly covered by exome baits) in 28 patients.</li>
+<li><strong>Bioinformatics:</strong> alignment with <a href="../methods/bwa.html">BWA</a> (DNA) and <a href="../methods/star.html">STAR</a> (RNA); somatic SNV calling required 2-of-3 callers — Seurat (Q&gt;30), <a href="../methods/mutect.html">MuTect</a>, and <a href="../methods/strelka.html">Strelka</a>; RNA fusions detected with <a href="../methods/tophat-fusion.html">TopHat-Fusion</a> (quality&gt;100); differential expression with <a href="../methods/tophat-cufflinks.html">Cufflinks/Cuffdiff</a> and DESeq2.</li>
+<li><strong>Comparator:</strong> the cutaneous melanoma (<a href="../cancer_types/SKCM.html">SKCM</a>) genomic landscape per The Cancer Genome Atlas Network (2015) and other prior CM cohorts.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Low SNV burden, high SV burden.</strong> Median 42 somatic coding mutations per tumor (range 0–869); 90% of somatic coding point mutations were confirmed in matched RNA-seq. Across 31 LIWG-sequenced patients, 2,490 somatic breakpoints were identified across 74% of patients (median 31, range 0–683). Patient 14 showed chromothripsis with 503 breakpoints on Chr 12.</li>
+<li><strong>UV signature largely absent.</strong> C&gt;T transitions made up 55.0% of point mutations, but only 39.4% occurred at dipyrimidines — below the 60% threshold defining a dominant UV signature. Two ALMs (patients 7 and 15; both BRAF-mutant) individually displayed a UV signature; signature analysis correlated dominant ALM signature S1 with the Alexandrov UV signature S7.</li>
+<li><strong>Canonical MAPK drivers under-represented vs CM.</strong> <a href="../genes/BRAF.html">BRAF</a> was mutated in 6 patients (V600E in 4 patients [12%], plus V600K/R462K and G466E); <a href="../genes/NRAS.html">NRAS</a> Q61K was mutated in 3 patients (9%) plus a fourth A59G event; the events were mutually exclusive. Combined, BRAF/NRAS driving events occurred in only 10/34 patients (29%). A single <a href="../genes/KIT.html">KIT</a> L576P mutation was identified.</li>
+<li><strong><a href="../genes/NF1.html">NF1</a> loss in 12% of patients.</strong> Homozygous loss in 9% (3 patients); a fourth (patient 19) had LOH plus a nonsense mutation (E2578*) on the second allele.</li>
+<li><strong>Low-frequency mutations in other key genes.</strong> Single events in <a href="../genes/EGFR.html">EGFR</a> (R334C, V726M), <a href="../genes/KRAS.html">KRAS</a> (V14L with CNV gain in patient 5), <a href="../genes/TP53.html">TP53</a> (R248W), and <a href="../genes/ERBB3.html">ERBB3</a> (S1119C). Two novel nonsynonymous events in <a href="../genes/PREX2.html">PREX2</a> (S1167T, A355T).</li>
+<li><strong>Recurrent CNVs.</strong> 1,115 somatic focal CNVs (median 12, range 0–211); 48 statistically significant consensus CNVs (40 deletions, 8 amplifications). Key events: <a href="../genes/TERT.html">TERT</a> and <a href="../genes/CLPTM1L.html">CLPTM1L</a> gains on Chr 5p, <a href="../genes/CDKN2A.html">CDKN2A</a> loss on Chr 9, and <a href="../genes/CDK4.html">CDK4</a> gain on Chr 12. <a href="../genes/TERT.html">TERT</a> gains were validated by qPCR in 6/8 ALMs (75%). <a href="../genes/PTEN.html">PTEN</a> and <a href="../genes/NF1.html">NF1</a> deletions appeared only in primary tumors; <a href="../genes/MDM2.html">MDM2</a> gain appeared only in metastases.</li>
+<li><strong><a href="../genes/PAK1.html">PAK1</a> copy gains in 5/34 patients (15%).</strong> Validated by real-time PCR in 4/5 (80%); elevated <a href="../genes/PAK1.html">PAK1</a> expression in 2/5. All PAK1-gain patients were BRAF/NRAS wild-type — one NF1-subtype, four triple-wild-type — supporting PAK1 as an alternative MAPK-pathway dysregulation route in TWT ALM.</li>
+<li><strong>Most-rearranged genes.</strong> <a href="../genes/ADCY2.html">ADCY2</a> (32 breakpoints across 7 samples = 21% of patients) and <a href="../genes/CLPTM1L.html">CLPTM1L</a> (22 breakpoints across 6 samples = 15%). <a href="../genes/ADCY2.html">ADCY2</a> partners include <a href="../genes/CLPTM1L.html">CLPTM1L</a>, <a href="../genes/HECTD4.html">HECTD4</a>, <a href="../genes/TERT.html">TERT</a>, and <a href="../genes/UBE2QL1.html">UBE2QL1</a>; <a href="../genes/CLPTM1L.html">CLPTM1L</a> partners include <a href="../genes/ADCY2.html">ADCY2</a>, <a href="../genes/PDZD2.html">PDZD2</a>, <a href="../genes/RAI14.html">RAI14</a>, and <a href="../genes/TRIO.html">TRIO</a>. All occurred in <a href="../genes/BRAF.html">BRAF</a> wild-type tumors.</li>
+<li><strong>Pathway-level perturbation.</strong> MAPK/PI3K (proliferation/survival) altered in 66% of patients; <a href="../genes/TERT.html">TERT</a> (telomere maintenance) in 37%; <a href="../genes/CDK4.html">CDK4</a>/<a href="../genes/CDKN2A.html">CDKN2A</a> (cell cycle) in 51%; <a href="../genes/MDM2.html">MDM2</a>/<a href="../genes/TP53.html">TP53</a> (apoptosis/senescence) in 17%.</li>
+<li><strong>RNA fusions.</strong> 106 fusions across 74% of patients (median 2); 13% had supporting DNA breakpoints. Notable fusions include <a href="../genes/MDM2.html">MDM2</a>:GNS, MDM2:CCT2, <a href="../genes/PTEN.html">PTEN</a>:RPL11, <a href="../genes/PAK2.html">PAK2</a>:LOC646214, and <a href="../genes/MAP3K8.html">MAP3K8</a>:<a href="../genes/DEK.html">DEK</a>.</li>
+<li><strong>Neo-antigen burden.</strong> Across 22 patients receiving immune checkpoint blockade (10 anti-CTLA-4 only; 10 anti-CTLA-4 + anti-PD-1), neo-antigen burden correlated strongly with mutation burden (Pearson r = 0.89). Three complete responders (two to anti-PD-1, one to anti-CTLA-4) had low mutation (&lt;75) and neo-antigen (&lt;60) burdens — opposite of the trend reported in cutaneous melanoma.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/TERT.html">TERT</a> — 41% of patients (14/34) with somatic or germline aberrations.</strong> Includes consensus CNV gains (TERT-CLPTM1L locus on Chr 5p), promoter mutations in 4/28 patients sequenced by Sanger (Chr5:1,295,113:G&gt;A; patients 15, 24, 25a, 25b), one exonic nonsynonymous mutation (F919L; patient 12), one intronic SNV in the RNA-interacting/oligomerization domain (patient 24), <a href="../genes/TERT.html">TERT</a> breakpoints in 4 patients (12, 17, 29a/29c, 33), and rare germline polymorphisms (A1062T in patients 1, 4; T1110M in patient 8) predicted damaging by FATHMM and mutually exclusive of somatic TERT events. All patients with somatic TERT events expressed TERT. Patient 12 expressed a TERT:<a href="../genes/ADCY2.html">ADCY2</a> RNA fusion. Patient 29 (both metastases) carried a TERT:<a href="../genes/PDCD1LG2.html">PDCD1LG2</a> interchromosomal rearrangement plus a possible TERT-<a href="../genes/FER.html">FER</a> inversion.</li>
+<li><strong><a href="../genes/PAK1.html">PAK1</a> — focal copy gains in 5/34 patients (15%);</strong> validated by qPCR in 4/5; all in BRAF/NRAS wild-type tumors (1 NF1-subtype, 4 triple-wild-type).</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a> — 6 patients (18%):</strong> V600E (4), V600K + R462K (1), G466E (1). Mutually exclusive of <a href="../genes/NRAS.html">NRAS</a>.</li>
+<li><strong><a href="../genes/NRAS.html">NRAS</a> — 4 patients:</strong> Q61K (3, 9%) and A59G (1).</li>
+<li>**<a href="../genes/NF1.html">NF1</a> — homozygous loss in 9% (3 patients) plus LOH+nonsense (E2578*) in patient 19.**</li>
+<li><strong><a href="../genes/KIT.html">KIT</a> — single L576P mutation (1 patient).</strong></li>
+<li><strong><a href="../genes/CDKN2A.html">CDKN2A</a> — recurrent deletion (Chr 9), retained significance in both primary and metastatic subsets.</strong></li>
+<li><strong><a href="../genes/CDK4.html">CDK4</a> — recurrent gain (Chr 12), significance retained only in metastases.</strong></li>
+<li><strong><a href="../genes/CLPTM1L.html">CLPTM1L</a> — frequent breakpoints (15% of patients) and consensus copy gain on Chr 5p, adjacent to TERT.</strong></li>
+<li><strong><a href="../genes/ADCY2.html">ADCY2</a> — most-rearranged gene (21% of patients).</strong></li>
+<li><strong><a href="../genes/MDM2.html">MDM2</a> — copy gain in metastases-only; MDM2:GNS and MDM2:CCT2 RNA fusions.</strong></li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a> — focal deletion in primary tumors only; PTEN:RPL11 fusion (single tumor, no other PTEN alterations).</strong></li>
+<li><strong><a href="../genes/PREX2.html">PREX2</a> — two novel nonsynonymous events (S1167T, A355T); not previously reported in melanoma although S1167N was reported in CM metastasis.</strong></li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a>, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/TP53.html">TP53</a>, <a href="../genes/ERBB3.html">ERBB3</a> — single-patient missense events.</strong></li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/GAB2.html">GAB2</a> — discussed as previously reported ALM amplifications (cited literature).</strong></li>
+<li><strong><a href="../genes/MITF.html">MITF</a> — notably absent from the top 421 differentially expressed genes used for clustering, in contrast to its key role in CM.</strong></li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong><a href="../genes/TERT.html">TERT</a> inhibition is selectively cytotoxic to ALM cells in vitro.</strong> Treatment with 2.5 µM Telomerase Inhibitor IX for 72 h produced ≥75% loss of viability in two primary ALM lines (SMC-09 with TERT CNV gain; SU2C-001-002 with homozygous TERT promoter mutation Chr5:1,295,113:G&gt;A) versus only ~12% loss in normal melanocyte controls (NHM-002). TERT mRNA dropped ≥25% in ALM lines and was undetectable in NHM-002. The authors propose <a href="../drugs/telomerase-inhibitor-ix.html">Telomerase Inhibitor IX</a>–type compounds as a putative therapeutic strategy for ALM, particularly given limited targeted treatment options.</li>
+<li><strong><a href="../genes/PAK1.html">PAK1</a> copy gains identify a BRAF/NRAS wild-type subgroup.</strong> PAK1 has been proposed as a target in BRAF wild-type melanoma; this study supports that hypothesis in the ALM TWT context, suggesting alternate MAPK-pathway dysregulation routes.</li>
+<li><strong>Immune checkpoint blockade — atypical responder profile.</strong> Among 22 patients treated with <a href="../drugs/ipilimumab.html">ipilimumab</a> and/or <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, the three complete responders had low mutation (&lt;75) and neo-antigen (&lt;60) burdens. The expected mutation/neo-antigen-burden correlation with response (well-established in CM) was not observed — the authors flag low statistical power but raise the possibility that ALM responders use distinct immunogenic mechanisms.</li>
+<li><strong>TERT-PDCD1LG2 (PDL2) rearrangement (patient 29).</strong> A novel structural rearrangement linking the TERT reverse-transcriptase domain (exon 7) to intron 5 of <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> — clinically intriguing given PDL2’s role in PD-1 ligand biology, although no expressed RNA fusion was detected.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Functional impact of TERT structural events is unclear.</strong> Patient 12’s complex TERT rearrangement was associated with elevated TERT expression (FPKM 32.5), but most other TERT SVs lacked supporting RNA fusions; the authors call out that further functional studies are needed to verify how these aberrations modulate TERT activity.</li>
+<li><strong>Sample size limits power for survival/biomarker correlations.</strong> No significant correlation was detected between mutation burden and BRAF/NRAS status, between expression clusters and clinical features (age, gender, race, primary site, in-transit status, immunotherapy response), or between mutation/neo-antigen burden and checkpoint response.</li>
+<li><strong>Three previously reported ALM-recurrent genes were not mutated here.</strong> No somatic SNVs/indels were observed in <a href="../genes/DYNC1I1.md">DYNC1I1</a>, <a href="../genes/ARID1A.html">ARID1A</a>, or <a href="../genes/APC.html">APC</a> (cited Furney et al.&nbsp;2014).</li>
+<li><strong>TERT promoter coverage was poor in exome data.</strong> Required orthogonal Sanger sequencing; only 28 of 34 patients had sufficient DNA, so promoter-mutation prevalence may be undercounted.</li>
+<li><strong>Pretreatment confounds mutation burden.</strong> Patient 7 (highest SNV burden, 867 coding SNVs) was sequenced after <a href="../drugs/ipilimumab.html">ipilimumab</a> → <a href="../drugs/pembrolizumab.html">pembrolizumab</a>; pretreated patients 4, 5, 28 also trended toward higher mutation counts — complicating comparisons of “raw” mutation burden to other ALM cohorts.</li>
+<li><strong>Etiologic relationship between ALM and sun-shielded CM remains unresolved.</strong> The authors note that characterizing ALM may also illuminate non-UV oncogenic mechanisms in other cancers, but the current cohort is too small to anchor cross-subtype claims.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li><em>“Only 38% of patients demonstrated driver BRAF/NRAS/NF1 mutations. In contrast with CM, we observed PAK1 copy gains in 15% of patients, and somatic TERT translocations, copy gains, and missense and promoter mutations, or germline events, in 41% of patients.”</em> — Abstract.</li>
+<li><em>“After 72 h of drug treatment, we observed at least a 75% decrease in cell viability with 2.5 µM of Telomerase Inhibitor IX, and not in normal melanocytes.”</em> — Results, TERT inhibition in ALM.</li>
+<li><em>“PAK1 gains were separately validated by real-time PCR for available samples (four of five ALMs; 80%). … These patients were exclusive of characteristic CM BRAF and RAS subtypes, with one patient demonstrating the <a href="../genes/NF1.html">NF1</a> subtype and the remaining four demonstrating the triple-wild-type (TWT) subtype.”</em> — Results, Structural alterations in ALM.</li>
+<li><em>“In addition to TERT gains, additional TERT events were also detected with a total of 14 (41%) patients demonstrating either somatic or germline aberrations in this gene.”</em> — Results, TERT alterations in ALM.</li>
+<li><em>“Two patients with complete response to anti-PD1, and one with complete response to anti-CTLA4 treatments had lower mutation (less than 75) and neo-antigen (less than 60) burdens.”</em> — Results, Neo-antigen burden.</li>
+<li><em>“The sequencing data from this study have been submitted to the NCBI Database of Genotypes and Phenotypes (dbGaP; …) under accession number phs001036.v1.p1.”</em> — Methods, Data access.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28373299.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28373299.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

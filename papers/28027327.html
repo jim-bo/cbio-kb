@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutational Profile of Metastatic Breast Cancers: A Retrospective Analysis – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28027327.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28027327.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutational Profile of Metastatic Breast Cancers: A Retrospective Analysis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Celine Lefebvre </p>
+             <p>Thomas Bachelot </p>
+             <p>Thomas Filleron </p>
+             <p>Marion Pedrero </p>
+             <p>Mario Campone </p>
+             <p>Jean-Charles Soria </p>
+             <p>Christophe Massard </p>
+             <p>Christelle Lévy </p>
+             <p>Monica Arnedos </p>
+             <p>Magali Lacroix-Triki </p>
+             <p>Julie Garrabey </p>
+             <p>Yannick Boursin </p>
+             <p>Marc Deloger </p>
+             <p>Yu Fu </p>
+             <p>Frédéric Commo </p>
+             <p>Véronique Scott </p>
+             <p>Ludovic Lacroix </p>
+             <p>Maria Vittoria Dieci </p>
+             <p>Maud Kamal </p>
+             <p>Véronique Diéras </p>
+             <p>Anthony Gonçalves </p>
+             <p>Jean-Marc Ferrerro </p>
+             <p>Gilles Romieu </p>
+             <p>Laurence Vanlemmens </p>
+             <p>Marie-Ange Mouret-Reynier </p>
+             <p>Jean-Christophe Théry </p>
+             <p>Fanny Le Du </p>
+             <p>Séverine Guiu </p>
+             <p>Florence Dalenc </p>
+             <p>Gilles Clapisson </p>
+             <p>Hervé Bonnefoi </p>
+             <p>Marta Jimenez </p>
+             <p>Christophe Le Tourneau </p>
+             <p>Fabrice André </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1371/journal.pmed.1002201">10.1371/journal.pmed.1002201</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28027327 · <strong>DOI:</strong> <a href="https://doi.org/10.1371/journal.pmed.1002201">10.1371/journal.pmed.1002201</a> · <strong>Journal:</strong> PLOS Medicine (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Lefebvre and colleagues performed whole-exome sequencing on 216 tumor–blood pairs from metastatic breast cancer (mBC) patients enrolled in the French SAFIR01, SAFIR02, SHIVA, and MOSCATO prospective trials, and compared mutational profiles to 772 primary breast cancers from TCGA. They identified 12 driver genes in mBC by <a href="../methods/mutsig.html">MutSig</a> (FDR&lt;0.1), of which <a href="../genes/ESR1.html">ESR1</a> and <a href="../genes/RB1.html">RB1</a> emerged as metastasis-specific drivers rare in early breast cancer (eBC). Eight genes (<a href="../genes/ESR1.html">ESR1</a>, <a href="../genes/FSIP2.html">FSIP2</a>, <a href="../genes/FRAS1.html">FRAS1</a>, <a href="../genes/OSBPL3.html">OSBPL3</a>, <a href="../genes/EDC4.html">EDC4</a>, <a href="../genes/PALB2.html">PALB2</a>, <a href="../genes/IGFN1.html">IGFN1</a>, AGRN) were significantly more mutated in mBC vs eBC (FDR&lt;0.01), and patients carrying mutations in any of these had a 2-fold higher hazard of death (HR=1.97, 95% CI 1.34–2.89, p=0.001). HR+/HER2− mBC showed enrichment of <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> mTOR-pathway mutations and a substantial increase in APOBEC-mediated mutagenesis (signatures 2 and 13: 58.8% of mutations in mBC vs 31.9% in primary, p&lt;2e-16).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>216 tumor–normal pairs</strong> from metastatic breast cancer patients, deposited at EGA (EGAS00001001695) and at cBioPortal as study <a href="../datasets/brca_igr_2015.html">brca_igr_2015</a> (“Mutational profiles of metastatic breast cancer (France, 2016)”).</li>
+<li>Source trials: <strong>SAFIR01</strong> (n=86, NCT01414933), <strong>SAFIR02</strong> (n=80, NCT02299999), <strong>SHIVA</strong> (n=35, NCT01771458), <strong>MOSCATO</strong> (n=15, NCT01566019).</li>
+<li>Subtype distribution: 143 (66%) HR+/HER2−, 51 (24%) triple-negative (HR−/HER2−), 14 (6%) HER2+. 8 cases unclassified by subtype.</li>
+<li>Median age 54 (range 26–82); 94% had received prior chemotherapy; 84% of HR+/HER2− patients had received prior endocrine therapy.</li>
+<li>Cancer type: <a href="../cancer_types/BRCA.html">breast carcinoma</a> (mostly metastatic; bone metastases were excluded due to DNA-extraction difficulty).</li>
+<li>Reference cohort: 772 primary breast tumors from TCGA (<a href="../datasets/brca_tcga_pub.html">brca_tcga_pub</a>) — 419 HR+/HER2−, 100 HR−/HER2−, 145 HER2+.</li>
+<li>Assay: <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on Illumina HiSeq 2500/4000 or NextSeq 500 with Agilent SureSelect All Exon V5 or Clinical Research Exome capture; mean coverage 83±18× (normal) and 122±15× (tumor).</li>
+<li>Mutation calling: BWA-MEM (<a href="../methods/bwa.html">bwa</a>) → GATK base recalibration → <a href="../methods/mutect.html">Mutect</a> v1.1.7 (substitutions) + Scalpel v0.5.2 (indels); annotated with snpEff/snpSift.</li>
+<li>Driver detection: <a href="../methods/mutsig.html">MutSig</a>, <a href="../methods/genome-music.html">MuSiC</a>, and drGAP (FDR&lt;0.1).</li>
+<li>Copy number: ExomeCNV + DNAcopy + <a href="../methods/gistic.html">GISTIC2</a> (amp &gt;0.3, del &lt;−0.3 log2 ratio).</li>
+<li>Mutational signatures: WTSI/Sanger framework + deconstructSigs over the 13 COSMIC signatures operative in breast cancer (<a href="../methods/mutational-signatures.html">mutational-signatures</a>).</li>
+<li>Cancer cell fraction (CCF): Sequenza tumor purity → ABSOLUTE-style framework (<a href="../methods/absolute.html">absolute</a>) per Carter et al.&nbsp;([PMID:22544022]).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Twelve significantly mutated driver genes</strong> in mBC by MutSig (FDR&lt;0.1): <a href="../genes/TP53.html">TP53</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/ESR1.html">ESR1</a>, <a href="../genes/MAP3K1.html">MAP3K1</a>, <a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/RB1.html">RB1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/CBFB.html">CBFB</a>, <a href="../genes/CDKN2A.html">CDKN2A</a>. Ten overlap with eBC drivers; <a href="../genes/ESR1.html">ESR1</a> and <a href="../genes/RB1.html">RB1</a> are essentially mBC-specific (each &lt;1% in HR+/HER2− eBC in TCGA).</li>
+<li><strong><a href="../genes/ESR1.html">ESR1</a></strong> mutations in 22 mBCs (driver odds ratio = 29, 95% CI 9–155, p=1.2e-12). 24 mutations (1 synonymous, 2 indels, 21 missense), all in the hormone-receptor domain, including known hotspots and 2 novel variants. 22 mutations occurred in 20/143 (14%) HR+/HER2− mBCs; <strong>all 22 ESR1-mutant patients had received prior endocrine therapy</strong>.</li>
+<li><strong>ESR1 focal amplification</strong> in 9 mBCs (7 of which were HR+/HER2−). Combined: <strong>27/143 (19%) HR+/HER2− mBCs</strong> carried either an ESR1 mutation or amplification; 31 mBCs total.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong> disrupted in 7/143 (5%) HR+/HER2− and 3/51 (6%) HR−/HER2− mBCs; mostly truncating (5 nonsense, 3 splice-site, 1 indel, 2 missense). Counting the 2 HR+/HER2− mBCs with homozygous deletion: 9/143 (6%) HR+/HER2− mBCs RB1-deficient.</li>
+<li><strong>CCF analysis</strong>: ESR1 mutations subclonal in 14/21 (67%); RB1 subclonal in 5/10 (50%). For comparison, <a href="../genes/PIK3CA.html">PIK3CA</a> and <a href="../genes/TP53.html">TP53</a> mutations were subclonal in 32% and 37% of cases respectively.</li>
+<li><strong>Eight genes more mutated in mBC vs eBC at FDR&lt;0.01</strong>: <a href="../genes/ESR1.html">ESR1</a>, FSIP2, AGRN, FRAS1, IGFN1, EDC4, OSBPL3, <a href="../genes/PALB2.html">PALB2</a>. <a href="../genes/PALB2.html">PALB2</a> somatic mutations in 8/216 mBC (4%) vs 1/772 eBC (0.1%), FDR=0.006; 5 of 8 PALB2-mutant mBCs were HR+/HER2−; none had a deleterious germline <a href="../genes/PALB2.html">PALB2</a> polymorphism in the other allele.</li>
+<li><strong>Survival impact</strong>: mBC patients carrying ≥1 mutation in the 8-gene metastatic-enrichment set (n=76) vs the rest (n=140) had a 2-fold increase in death hazard on multivariate analysis (HR=1.97, 95% CI 1.34–2.89, <strong>p=0.001</strong>).</li>
+<li><strong>HR+/HER2−-restricted comparison</strong> (n=143): 278 genes more mutated in mBC than in HR+/HER2− eBC (FDR&lt;0.1).</li>
+<li><strong>mTOR-pathway enrichment in HR+/HER2− mBC</strong>: <a href="../genes/TSC1.html">TSC1</a> mutated in 5/143 (3.5%), <a href="../genes/TSC2.html">TSC2</a> in 4/143 (2.8%); combined 6.3% of HR+/HER2− mBC vs 0.7% of HR+/HER2− eBC (p=0.0004). All TSC1/2-mutant patients had received prior endocrine therapy.</li>
+<li><strong>Other actionable HR+ mBC enrichments</strong> (FDR&lt;0.1): <a href="../genes/ERBB4.html">ERBB4</a> (9 missense in 8 mBCs, including hotspots COSM4764538 and COSM1015992; 5/8 HR+/HER2−); <a href="../genes/NOTCH3.html">NOTCH3</a> (8 missense + 1 splice-site in 7 mBCs; 4/7 HR+/HER2−); <a href="../genes/ALK.html">ALK</a> (5 missense + 2 splice-site in 7 mBCs; 6/7 HR+/HER2−); <a href="../genes/EZH2.html">EZH2</a> (3 mutations including COSM220530 in 3 HR+/HER2− mBCs); <a href="../genes/BRAF.html">BRAF</a> (4 missense including COSM476 in 4 mBCs; 3/4 HR+/HER2−).</li>
+<li><strong>Mutational signatures</strong>: 5 signatures operative in both primary and metastatic breast cancer; <strong>none specific to the metastatic setting</strong>. Among the 13 COSMIC breast-cancer signatures, the most represented in mBC were signature 1 (aging), signatures 2 and 13 (<a href="../genes/APOBEC3B.html">APOBEC3B</a>), signature 3 (HR-deficiency), and signature 6 (mismatch-repair deficiency).</li>
+<li><strong>APOBEC enrichment in HR+/HER2− mBC</strong>: signatures 2+13 contributed <strong>58.8%</strong> of mutations in HR+/HER2− mBC vs <strong>31.9%</strong> in HR+/HER2− primary TCGA samples (<strong>p&lt;2e-16</strong>), confirming a link between APOBEC-mediated mutagenesis and acquisition of subclonal mutations in metastatic disease.</li>
+<li><strong>Copy-number alterations</strong> confirmed canonical breast-cancer events: amplifications of <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/MYC.html">MYC</a>; deletion of <a href="../genes/PTEN.html">PTEN</a>. Novel: focal amplification of <a href="../genes/ESR1.html">ESR1</a> locus in 7 HR+/HER2− mBCs.</li>
+<li>Mutational load did not correlate with global genomic index (GGI) or breakpoint count (chromosomal-instability indices).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><strong><a href="../genes/ESR1.html">ESR1</a></strong> — 22 mBCs with mutations (all in hormone-receptor domain hotspots); 9 with focal amplification; combined 19% of HR+/HER2− mBC. <strong>Metastasis-specific driver</strong> (OR=29, p=1.2e-12). All ESR1-mutant patients had prior endocrine therapy → mediates <strong>acquired endocrine resistance</strong>.</li>
+<li><strong><a href="../genes/RB1.html">RB1</a></strong> — Loss-of-function mutations in 5% of HR+/HER2− mBC (vs &lt;1% in HR+/HER2− eBC, p=0.008, FDR=0.09); mostly truncating. Implies a subset of HR+/HER2− mBC may show <strong>primary resistance to <a href="../genes/CDK4.html">CDK4</a> inhibitors</strong> (<a href="../drugs/palbociclib.html">palbociclib</a>) since RB1 is required for <a href="../drugs/palbociclib.html">palbociclib</a> bioactivity.</li>
+<li><strong><a href="../genes/PALB2.html">PALB2</a></strong> — Somatic mutations in 4% of mBC vs 0.1% of eBC (FDR=0.006). Authors propose that PALB2-deficient mBC may be sensitive to PARP inhibitors (<a href="../drugs/olaparib.html">olaparib</a>).</li>
+<li><strong><a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a></strong> — Combined 6.3% of HR+/HER2− mBC vs 0.7% of HR+/HER2− eBC (p=0.0004); all in patients previously treated with endocrine therapy. Authors hypothesize TSC1/2-mutant tumors may be <strong>outlier responders to mTOR inhibitor <a href="../drugs/everolimus.html">everolimus</a></strong>.</li>
+<li><strong><a href="../genes/ERBB4.html">ERBB4</a>, <a href="../genes/NOTCH3.html">NOTCH3</a>, <a href="../genes/ALK.html">ALK</a>, <a href="../genes/EZH2.html">EZH2</a>, <a href="../genes/BRAF.html">BRAF</a></strong> — Each more frequently mutated in HR+ mBC at FDR&lt;0.1; potentially actionable but functional consequences not always clear (mutations spread across protein domains without obvious hotspots for ERBB4/NOTCH3).</li>
+<li><strong><a href="../genes/TP53.html">TP53</a></strong> — Mutated in 27% of HR+/HER2− mBC vs 20% of HR+/HER2− eBC (Fisher p=0.13, not significant).</li>
+<li><strong><a href="../genes/PIK3CA.html">PIK3CA</a></strong> — Mutated in 37% of HR+/HER2− mBC vs 40% of HR+/HER2− eBC; not enriched in metastatic setting.</li>
+<li><strong><a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/MYC.html">MYC</a></strong> — Recurrent amplifications, consistent with primary breast cancer.</li>
+<li><strong><a href="../genes/APOBEC3B.html">APOBEC3B</a></strong> — Activity (signatures 2 and 13) nearly doubled in HR+/HER2− mBC vs primary TCGA samples; linked to subclonal mutation acquisition under therapy.</li>
+<li><strong><a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/GATA3.html">GATA3</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/MAP3K1.html">MAP3K1</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/CBFB.html">CBFB</a>, <a href="../genes/CDKN2A.html">CDKN2A</a></strong> — Significantly mutated drivers in mBC, also recurrent in eBC.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>ESR1-mutant HR+/HER2− mBC</strong> defines an unmet-need genomic segment for which the authors call for fast-track approval of next-generation endocrine agents; ESR1 amplification adds another 5% of HR+/HER2− mBC (combined 19%).</li>
+<li><strong>RB1 testing should be considered on metastatic samples before initiating CDK4 inhibitors</strong> (<a href="../drugs/palbociclib.html">palbociclib</a>); ~5% of HR+/HER2− mBC may have intrinsic CDK4i resistance via RB1 loss-of-function.</li>
+<li><strong>PALB2-deficient mBC (4%)</strong> is a candidate population for PARP-inhibitor trials (<a href="../drugs/olaparib.html">olaparib</a>).</li>
+<li><strong>TSC1/2 mutations in HR+/HER2− mBC (6.3%)</strong> warrant evaluation as a biomarker of outlier response to mTOR inhibitor <a href="../drugs/everolimus.html">everolimus</a> (currently approved in HR+/HER2− mBC but with predominantly modest PFS gains).</li>
+<li>Eight-gene metastasis-enrichment signature (ESR1, FSIP2, AGRN, FRAS1, IGFN1, EDC4, OSBPL3, PALB2) carries a <strong>2-fold higher death hazard</strong>, suggesting potential prognostic stratification — though the authors note this finding requires validation independent of mutational load and signature composition.</li>
+<li>Increased APOBEC mutagenesis in HR+/HER2− mBC after treatment may be a generalized resistance mechanism warranting further mechanistic investigation.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>No bone metastases</strong> included due to DNA-extraction difficulty from these lesions — biases the metastatic-site distribution.</li>
+<li><strong>Cohort size</strong> (n=216, with only 51 triple-negative and 14 HER2+ samples) limits power to detect rare events, especially in non-HR+ subtypes.</li>
+<li><strong>No paired primary tumors</strong>: comparison was between this mBC cohort and TCGA primary tumors, not within-patient primary→metastasis pairs.</li>
+<li><strong>Different bioinformatics pipelines</strong> between this study and TCGA could introduce subtle biases despite the authors’ validation that 80% of mutations were called by both pipelines on a 33-sample subset (R²=0.98 for mutation counts).</li>
+<li><strong>Possible enrollment bias</strong>: the most aggressive metastatic disease may not reach trial enrollment, potentially missing the most lethal mutational profiles.</li>
+<li><strong>Survival association</strong> with the 8-gene metastatic signature was not corrected for mutational load or signature contribution, limiting causal inference.</li>
+<li><strong>Copy-number analysis</strong> is limited by non-uniform exome capture coverage.</li>
+<li>Functional consequences of <a href="../genes/ERBB4.html">ERBB4</a>, <a href="../genes/NOTCH3.html">NOTCH3</a> missense mutations across diverse protein domains remain unclear; therapeutic actionability needs experimental validation.</li>
+<li>The proposed <a href="../genes/TSC1.html">TSC1</a>/<a href="../genes/TSC2.html">TSC2</a> → <a href="../drugs/everolimus.html">everolimus</a> outlier-response hypothesis and the <a href="../genes/RB1.html">RB1</a> → <a href="../drugs/palbociclib.html">palbociclib</a> primary-resistance hypothesis both require prospective clinical validation.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Twelve genes (<a href="../genes/TP53.html">TP53</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/GATA3.html">GATA3</a>, ESR1, <a href="../genes/MAP3K1.html">MAP3K1</a>, <a href="../genes/CDH1.html">CDH1</a>, <a href="../genes/AKT1.html">AKT1</a>, <a href="../genes/MAP2K4.html">MAP2K4</a>, RB1, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/CBFB.html">CBFB</a>, and <a href="../genes/CDKN2A.html">CDKN2A</a>) were identified as significantly mutated in mBC (false discovery rate [FDR]&lt;0.1).” — Abstract.</li>
+<li>“ESR1 was identified both as a driver and as a metastatic gene (n=22, odds ratio=29, 95% CI [9–155], p=1.2e-12) and also presented with focal amplification (n=9) for a total of 31 mBCs with either ESR1 mutation or amplification, including 27 hormone receptor positive (HR+) and HER2 negative (HER2−) mBCs (19%).” — Abstract.</li>
+<li>“HR+/HER2− mBC presented a high prevalence of mutations on genes located on the mechanistic target of rapamycin (mTOR) pathway (<a href="../genes/TSC1.html">TSC1</a> and <a href="../genes/TSC2.html">TSC2</a>) as compared to HR+/HER2− eBC (respectively 6% and 0.7%, p=0.0004).” — Abstract.</li>
+<li>“Eight genes (ESR1, FSIP2, FRAS1, OSBPL3, EDC4, PALB2, IGFN1, and AGRN) were more frequently mutated in mBC as compared to eBC (FDR&lt;0.01).” — Abstract.</li>
+<li>“Analysis of mutational signatures revealed a significant increase in APOBEC-mediated mutagenesis in HR+/HER2− metastatic tumors as compared to primary TCGA samples (p&lt;2e-16).” — Abstract.</li>
+<li>“In a multivariate analysis, mBC with at least one mutation in the 8 genes enriched in the metastatic setting presented a 2-fold increase in the hazard of death (hazard ratio=1.97, 95% CI: 1.34–2.89, p=0.001).” — Results, “Mutations Enriched in mBCs.”</li>
+<li>“All ESR1 mutations occurred in the hormone receptor domain … All of these 22 patients had received prior endocrine therapy.” — Results, “Genes Mutated in Metastatic Breast Cancers.”</li>
+<li>“RB1 was mutated in 7 out of 143 HR+/HER2− mBCs (5%) and 3 out of 51 HR−/HER2− mBCs (6%). Most of the mutations were disruptive, leading to truncated proteins.” — Results, “Genes Mutated in Metastatic Breast Cancers.”</li>
+<li>“The protein is required for the bioactivity of palbociclib (CDK4 inhibitor), a drug recently approved to treat HR+/HER2− mBC … If validated, this finding suggests that RB1 mutations should be assessed on metastatic samples before starting CDK4 inhibitors.” — Discussion.</li>
+<li>“PALB2 somatic mutations were found in 4% of metastatic samples (n=8), while the gene is mutated in only 0.1% of eBC (FDR=0.006). The present results suggest that there is a population of PALB2-deficient mBC in which PARP inhibitors could be evaluated.” — Discussion.</li>
+<li>“Further studies should evaluate whether the subset of patients with genomic alterations on mTOR pathways (TSC1 and TSC2) could be outlier responders to <a href="../drugs/everolimus.html">everolimus</a>.” — Discussion.</li>
+<li>“The somatic mutations and copy number alterations are available at cBioPortal (http://www.cbioportal.org/) under the descriptor ‘Mutational profiles of metastatic breast cancer (France, 2016).’” — Data Availability Statement.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28027327.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28027327.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

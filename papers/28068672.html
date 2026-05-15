@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Targeting the ATM-TRMT10A-BRCA1 axis confers synthetic lethality to PARP inhibition in metastatic castration-resistant prostate cancer – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28068672.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28068672.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Targeting the ATM-TRMT10A-BRCA1 axis confers synthetic lethality to PARP inhibition in metastatic castration-resistant prostate cancer</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ying Yang </p>
+             <p>Qiang Liu </p>
+             <p>Xinyan Li </p>
+             <p>Hua Zhang </p>
+             <p>Xin Xu </p>
+             <p>Qi Ma </p>
+             <p>Somaira Nowsheen </p>
+             <p>Khaled Aziz </p>
+             <p>Ye-Xiong Li </p>
+             <p>Zhenkun Lou </p>
+             <p>Qiuzi Zhong </p>
+             <p>Min Deng </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1126/sciadv.adw7989">10.1126/sciadv.adw7989</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28068672 · <strong>DOI:</strong> 10.1126/sciadv.adw7989 · <strong>Journal:</strong> Science Advances (2025)</p>
+<blockquote class="blockquote">
+<p><strong>Note (data integrity):</strong> The raw extracted text under PMID 28068672 / PMC12513462 corresponds to Yang et al., <em>Sci. Adv.</em> 11, eadw7989 (2025). The <code>study_id: prad_cpcg_2017</code> field in the raw frontmatter does not match this paper’s content; this page summarizes the extracted text as-is.</p>
+</blockquote>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Yang and colleagues identify the tRNA methyltransferase <a href="../genes/TRMT10A.html">TRMT10A</a> as a non-canonical regulator of homologous-recombination (HR) repair in prostate cancer. <a href="../genes/ATM.html">ATM</a> phosphorylates TRMT10A at Ser28 after DNA damage, enabling early <a href="../genes/BRCA1.html">BRCA1</a> recruitment to double-strand breaks; TRMT10A loss impairs BRCA1/RAD51 foci, shifts repair toward NHEJ/MMEJ, and sensitizes BRCA1/2-wild-type metastatic castration-resistant prostate cancer (mCRPC) cells to PARP inhibitors. TRMT10A is stabilized by the deubiquitinase <a href="../genes/USP10.html">USP10</a>, and the small-molecule USP10 inhibitor <a href="../drugs/spautin-1.html">spautin-1</a> degrades TRMT10A, induces “BRCAness,” and synergizes with <a href="../drugs/olaparib.html">olaparib</a> in 22Rv1 cell-derived xenografts and two patient-derived xenografts (PDX#546, PDX#1092) from mCRPC patients with high USP10/TRMT10A expression. The work nominates the USP10–TRMT10A axis as a therapeutic vulnerability that could extend PARPi benefit to mCRPC patients lacking classical BRCA1/2 mutations (<a href="../papers/28068672.html">PMID:28068672</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patient cohort:</strong> 54 metastatic <a href="../cancer_types/PRAD.html">PRAD</a> tissues plus 30 paired adjacent non-cancerous samples for TRMT10A IHC, collected pre-treatment from hormone-sensitive patients with confirmed wild-type <a href="../genes/BRCA1.html">BRCA1</a>/<a href="../genes/BRCA2.html">BRCA2</a>; a separate cohort of 46 PCa patients was scored for USP10/TRMT10A IHC correlation (R² = 0.4232, P &lt; 0.0001) (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>PCa cell lines:</strong> LNCaP, C4-2, 22Rv1, PC-3, DU145 (STR-authenticated; HEK293T and U2OS used for biochemistry / DDR foci assays) (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Public genomics:</strong> TCGA prostate adenocarcinoma (<a href="../datasets/prad_tcga.html">prad_tcga</a>) for TRMT10A expression vs normal (n = 52 normal, n = 500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts); SU2C/PCF mCRPC cohorts (<a href="../datasets/prad_su2c_2019.html">prad_su2c_2019</a>) referenced for USP10 deletion frequency (~10%); GEO datasets GSE62872, GSE6099, GSE28680 for benign/localized/metastatic and ADT-response stratification (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>PDX models:</strong> 4 mCRPC PDX lines (#546, #1092, #1102, #1267); models #546 and #1092 (high TRMT10A + high USP10) advanced to combination-therapy testing in NOD-SCID mice (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Assays:</strong> DR-GFP / EJ5-GFP / MMEJ GFP reporter assays for HR/NHEJ/MMEJ efficiency; immunofluorescence for γ-H2AX, MDC1, RNF8, RNF168, FK2, 53BP1, BRCA1, <a href="../genes/RAD51.html">RAD51</a> foci; clonogenic survival; Co-IP / Co-IP mass spectrometry (PXD059301); CHX chase; ubiquitination assay; SynergyFinder HSA scoring (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>TRMT10A is up-regulated in mCRPC and predicts olaparib resistance.</strong> TCGA shows higher TRMT10A in tumor vs normal prostate, increasing with stage; GSE6099 / GSE28680 confirm elevation in metastatic and castration-resistant disease. High IHC TRMT10A correlated with shorter overall survival in the 54-patient cohort (P = 0.014, log-rank). Across PCa cell lines, baseline TRMT10A protein levels tracked olaparib IC50 (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>TRMT10A loss sensitizes PCa cells to PARPi.</strong> <a href="../genes/TRMT10A.html">TRMT10A</a> shRNA knockdown in 22Rv1, DU145 and C4-2 substantially increased olaparib sensitivity in clonogenic assays (comparable to BRCA1 knockdown). Conversely, TRMT10A overexpression in PC-3 (low-baseline) cells reduced olaparib sensitivity. In vivo, TRMT10A-knockdown DU145 xenografts were significantly more growth-suppressed by olaparib (50 mg/kg, 5×/wk) than shCtrl, with lower Ki-67 and higher cleaved caspase-3 / γ-H2AX (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>TRMT10A acts within the BRCA1-mediated HR arm.</strong> TRMT10A knockdown in BRCA1-deficient 22Rv1 cells did not further sensitize to olaparib, placing TRMT10A epistatically upstream of/within BRCA1 function. TRMT10A also enhanced sensitivity to <a href="../genes/ATR.html">ATR</a> inhibitors and <a href="../drugs/paclitaxel.html">paclitaxel</a> in 22Rv1 and C4-2 (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>TRMT10A is required for HR but not early DDR signaling.</strong> γ-H2AX foci form normally at 1 h post-IR but persist at 8 h in TRMT10A-knockdown U2OS. DR-GFP reporter shows loss of HR with compensatory rise in NHEJ (EJ5-GFP) and MMEJ. γ-H2AX, MRE11, <a href="../genes/RAD50.html">RAD50</a>, NBS1, MDC1, RNF8, RNF168, FK2 and 53BP1 foci are unaffected, but BRCA1 and RAD51 foci are selectively impaired (mirroring shBRCA1) (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>HR function is independent of TRMT10A’s tRNA m1G9 methyltransferase activity.</strong> A G206R catalytic-dead mutant rescues BRCA1/RAD51 foci and HR repair as efficiently as <a href="../cancer_types/WT.html">WT</a>, decoupling DDR function from canonical methyltransferase activity (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>ATM phosphorylates TRMT10A at Ser28.</strong> Ser28 lies in a conserved pSQ/TQ ATM/ATR motif. Irradiation-induced pSQ/TQ signal on FLAG-TRMT10A is abolished by the ATM inhibitor <a href="../drugs/ku-55933.html">KU-55933</a> and a kinase-dead ATM mutant; ATM knockdown reduces phosphorylation, with ATR providing residual compensation. The S28A mutant loses both phosphorylation and BRCA1 binding (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Ser28 phosphorylation drives BRCA1/RAD51 recruitment and PARPi response.</strong> In TRMT10A-knockdown 22Rv1 reconstituted with WT or S28A TRMT10A, only WT restored HR efficiency, BRCA1/RAD51 foci, and olaparib resistance; S28A behaved like vector. Notably, ATM knockdown alone did <strong>not</strong> sensitize 22Rv1, C4-2 or DU145 to PARPi, consistent with prior reports of partial HR retention after ATM loss (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>USP10 deubiquitinates and stabilizes TRMT10A.</strong> Co-IP MS identified USP10 as a TRMT10A interactor (table S1; PXD059301). USP10 knockdown reduced TRMT10A protein in HEK293T and 22Rv1, was rescued by MG-132, accelerated TRMT10A degradation in CHX chase, and increased TRMT10A polyubiquitination. USP10 and TRMT10A protein levels positively correlated in 5 paired PCa tumor/normal pairs and in a 46-patient IHC cohort (R² = 0.4232) (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>USP10 inhibition phenocopies TRMT10A loss.</strong> USP10 shRNA reduced HR, increased NHEJ, and reduced BRCA1/RAD51 (but not γ-H2AX) foci in C4-2; clonogenic assays showed PARPi sensitization (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Spautin-1 degrades TRMT10A and synergizes with olaparib.</strong> <a href="../drugs/spautin-1.html">spautin-1</a> (USP10 inhibitor) reduced TRMT10A protein dose-dependently in 22Rv1 (rescued by MG-132) without changing TRMT10A mRNA, decreased HR efficiency, and reduced BRCA1/RAD51 foci. Combined olaparib + spautin-1 produced HSA synergy scores &gt;10 in 22Rv1 and C4-2; the strongest dose-response zone was olaparib 0.4–0.8 µM with spautin-1 2–4 µM. Synergy persisted in BRCA2-WT-overexpressing 22Rv1 (which corrects the line’s monoallelic <a href="../genes/BRCA2.html">BRCA2</a> T3033Nfs*11), arguing the effect is not driven by 22Rv1’s partial BRCA2 deficiency (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>In vivo synergy in CDX and mCRPC PDX.</strong> In 22Rv1 subcutaneous CDX, the olaparib (50 mg/kg) + spautin-1 (20 mg/kg) combination outperformed either monotherapy (CI = 0.76). In PDX#546 and PDX#1092 (selected for high TRMT10A/USP10), the combination further suppressed tumor growth vs olaparib alone (PDX#1092: 42.9% additional volume reduction), with elevated cleaved caspase-3, cleaved PARP, γ-H2AX and reduced TRMT10A in tumor lysates (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Tolerability in C57BL/6 mice.</strong> No histopathological abnormalities (heart, brain, testis, spleen, liver, lung, kidney). Olaparib alone caused mild HGB/PLT/WBC/NEU reduction; combination did not exacerbate it. Bone-marrow lineage counts and splenic CD4/CD8/CD69 T-cell proportions were unchanged. Combination showed minimal cytotoxicity in non-tumor BEAS-2B lung epithelial cells (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TRMT10A.html">TRMT10A</a> — overexpressed in PCa/mCRPC; somatic amplification/deletion in 1.22–5.26% of mCRPC cohorts (no recurrent mutations). Functions as an ATM-substrate scaffold (Ser28) for BRCA1 recruitment, independent of its tRNA m1G9 methyltransferase activity. High expression predicts shorter <a href="../cancer_types/OS.html">OS</a> and PARPi resistance (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/USP10.html">USP10</a> — deubiquitinase that stabilizes TRMT10A; co-overexpressed with TRMT10A in mCRPC tissue; ~10% deep deletions in SU2C/PCF mCRPC (<a href="../datasets/prad_su2c_2019.html">prad_su2c_2019</a>) cohorts. Druggable with spautin-1 (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/BRCA1.html">BRCA1</a> — recruited to DSBs via TRMT10A pSer28; recruitment (but not protein abundance) is impaired by TRMT10A or USP10 loss. Knockdown phenocopies TRMT10A loss for PARPi sensitivity (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/BRCA2.html">BRCA2</a> — 22Rv1 carries a monoallelic loss-of-function T3033Nfs*11; BRCA2-WT rescue does not abolish olaparib + spautin-1 synergy, indicating the effect is independent of this background (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/ATM.html">ATM</a> — kinase responsible for TRMT10A Ser28 phosphorylation after IR; ATM knockdown reduces phospho-TRMT10A and HR but does <strong>not</strong> sensitize 22Rv1/C4-2/DU145 to PARPi alone (consistent with clinical heterogeneity of ATM-loss PARPi response) (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/ATR.html">ATR</a> — provides compensatory TRMT10A phosphorylation when ATM is impaired; TRMT10A loss also confers ATR-inhibitor sensitivity (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/RAD51.html">RAD51</a> — recruitment to DSBs requires TRMT10A pSer28-dependent BRCA1 loading; foci reduced by TRMT10A or USP10 loss and by spautin-1 (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/PALB2.html">PALB2</a> — TRMT10A expression correlated positively with <a href="../genes/PALB2.html">PALB2</a> (along with BRCA1, BRCA2, RAD51) in TCGA prostate samples (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><a href="../genes/PARP1.html">PARP1</a> / <a href="../genes/PARP2.html">PARP2</a> — direct targets of olaparib/rucaparib/niraparib/talazoparib; <a href="../genes/PARP1.html">PARP1</a> knockdown used as positive control for PARPi sensitivity (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Predictive biomarker.</strong> TRMT10A IHC (and possibly USP10 co-staining) could stratify mCRPC patients without classical BRCA1/2 alterations for PARPi benefit; high TRMT10A predicts intrinsic PARPi resistance whereas low TRMT10A or USP10 deep-deletion tumors may be intrinsically PARPi-vulnerable (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Drug-combination strategy.</strong> The authors propose <a href="../drugs/spautin-1.html">spautin-1</a> (USP10 inhibitor) + <a href="../drugs/olaparib.html">olaparib</a> as a synthetic-lethal combination for BRCA1/2-WT mCRPC, supported by HSA synergy &gt;10 in cell lines, CI = 0.76 in 22Rv1 CDX, and additive activity in two TRMT10A/USP10-high PDX models. The combination did not worsen olaparib’s hematologic toxicity in C57BL/6 mice (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Prognostic marker.</strong> High tumoral TRMT10A is associated with shorter overall survival (P = 0.014) and higher-grade (Gleason 8–10) disease in the 54-patient mCRPC cohort (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Mechanism distinct from existing PARPi-combination strategies.</strong> Unlike direct HR inhibitors (BRCA1/2, RAD51, ATR), the USP10–TRMT10A axis induces BRCAness indirectly by degrading a BRCA1-recruitment scaffold, potentially limiting compensatory HR pathway activation (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Discrepancy with prior PARPi-sensitivity literature in PCa cell lines.</strong> The authors find DU145 and PC-3 more PARPi-sensitive than LNCaP and C4-2B, opposite to refs (36, 48); they attribute this to genetic drift and lab conditions but it should be independently reproduced (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>No clinical-grade USP10 inhibitor.</strong> Spautin-1 is a tool compound; pharmacokinetics, on-target specificity, and translational dosing in humans remain to be established (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Cross-talk with established BRCA1 regulators (<a href="../genes/BARD1.html">BARD1</a>, RAP80–ABRAXAS) and DNA end-resection factors (CtIP, MRE11, <a href="../genes/EXO1.html">EXO1</a>) was not delineated</strong>; potential redundancy or context-specific compensation is acknowledged but unmeasured (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Patient cohort size and geography are limited</strong> (54 mCRPC for OS / IHC; 46 for USP10–TRMT10A correlation; 4 PDXs total, 2 advanced to therapy). Validation in external cohorts and prospective biomarker studies is required before clinical translation (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>ATM-loss tumors are not addressed by this strategy.</strong> ATM knockdown alone did not sensitize PCa lines to PARPi, suggesting USP10–TRMT10A-axis targeting may not benefit ATM-deficient mCRPC; predictive biomarker development should account for this (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>USP10 has multiple substrates (p53, Beclin-1, AMPK).</strong> While the authors argue HR effects are TRMT10A-dependent, off-target consequences of long-term USP10 inhibition in proliferating tissues need fuller characterization (<a href="../papers/28068672.html">PMID:28068672</a>).</li>
+<li><strong>Raw-file metadata mismatch.</strong> The PMID/PMCID assigned to this extracted text (28068672 / PMC12513462) and the <code>study_id: prad_cpcg_2017</code> field do not appear to correspond to the Yang et al.&nbsp;2025 <em>Sci. Adv.</em> paper whose text is in the file. Downstream linking and provenance should be reconciled with the source PDF.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“TRMT10A is a tRNA methyltransferase responsible for catalyzing the formation of N1-methylguanosine (m1G) at position 9 (m1G9) in tRNAs … In our study, we identify TRMT10A as a crucial regulator in the HR pathway, independent of its known methyltransferase activity.” — Introduction.</li>
+<li>“Genomic alteration analysis revealed that TRMT10A amplification and deletion occur in 1.22 to 5.26% of mCRPC cases across multiple cohorts, with no observed mutations.” — Results, Fig. 1.</li>
+<li>“Combination of olaparib and spautin-1 resulted in highest single agent (HSA) synergy scores greater than 10 in 22Rv1 cells … The CI of 0.76 indicated an obvious synergy effect.” — Results, Fig. 7.</li>
+<li>“ATM knockdown did not sensitize PCa cells (22Rv1, C4-2, and DU145) to PARPis (fig.&nbsp;S5, A to F), likely reflecting that ATM loss only partially impairs HR repair capacity.” — Results.</li>
+<li>“Given the ~10% frequency of USP10 deletions observed in PCa cohorts (SU2C/PCF mCRPC), it becomes critical to consider genetic contexts that might influence therapeutic efficacy.” — Discussion.</li>
+<li>“All patients in our study carried WT BRCA1/2, as confirmed through genomic profiling conducted before this analysis.” — Methods, Immunohistochemistry.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28068672.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28068672.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Combined SNPs sequencing and allele specific proteomics capture reveal functional causality underpinning the 2p25 prostate cancer susceptibility locus – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28927585.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28927585.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Combined SNPs sequencing and allele specific proteomics capture reveal functional causality underpinning the 2p25 prostate cancer susceptibility locus</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dandan Dong </p>
+             <p>Zixian Wang </p>
+             <p>Mengqi Liu </p>
+             <p>Qin Zhang </p>
+             <p>Wenjie Xu </p>
+             <p>Yu Wei </p>
+             <p>Jing Zhu </p>
+             <p>Xiayun Yang </p>
+             <p>Qixiang Zhang </p>
+             <p>Yao Zhu </p>
+             <p>Liang Wang </p>
+             <p>Peng Zhang </p>
+             <p>Gong-Hong Wei </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/s41467-025-64005-w">10.1038/s41467-025-64005-w</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28927585 · <strong>DOI:</strong> 10.1038/s41467-025-64005-w · <strong>Journal:</strong> Nature Communications (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Dong et al.&nbsp;used their high-throughput SNPs-seq screen across 374 prostate-cancer GWAS risk loci to nominate rs4519489 in the 2p25 locus (intron of <a href="../genes/NOL10.html">NOL10</a>) as a functional SNP showing strong allele-specific protein binding. The risk A allele binds the transcription factor <a href="../genes/USF1.html">USF1</a> preferentially, upregulating <a href="../genes/NOL10.html">NOL10</a>. Across multiple <a href="../cancer_types/PRAD.html">PRAD</a> cohorts (CPGEA, <a href="../datasets/prad_tcga.html">TCGA PRAD</a>, <a href="../datasets/prad_mskcc.html">MSKCC</a>, <a href="../datasets/prad_fhcrc.html">FHCRC</a>, <a href="../datasets/prad_su2c_2019.html">SU2C</a>, <a href="../datasets/prad_mich.html">Grasso/U-Michigan</a>, DKFZ, FUSCC), elevated NOL10 expression — and the rs4519489 A/A genotype — track with higher tumor stage, lymph-node metastasis, Gleason score, biochemical recurrence and shorter survival. NOL10 knockdown in DU145, 22Rv1, LNCaP and PC3 cells, in xenografts, and in <em>Pten</em><sup>pc-/-</sup>;<em>Lkb1</em><sup>pc-/-</sup> murine organoids reduces proliferation, migration, EMT and tumor growth via cell-cycle (E2F / G2M) gene downregulation. The rs4519489–<a href="../genes/USF1.html">USF1</a>–NOL10 axis is proposed as a prognostic biomarker and therapeutic target for prostate cancer (<a href="../papers/28927585.html">PMID:28927585</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Disease:</strong> Prostate adenocarcinoma (<a href="../cancer_types/PRAD.html">PRAD</a>).</li>
+<li><strong>Discovery / functional cohorts (genotype, eQTL, ChIP-seq, expression, survival):</strong>
+<ul>
+<li>CPGEA — Chinese Prostate Cancer Genome and Epigenome Atlas (n≈134 tumors used in eQTL; 136 in CCS analysis; not in cBioPortal).</li>
+<li><a href="../datasets/prad_tcga.html">prad_tcga</a> — TCGA <a href="../cancer_types/PRAD.html">PRAD</a> (n=497 tumors, 52 normals; 144 staged tumors; n=409 with lymph-node data; n=122 <a href="../genes/BCR.html">BCR</a>; n=492 in BCR meta-analysis).</li>
+<li><a href="../datasets/prad_mskcc.html">prad_mskcc</a> — Taylor 2010 MSKCC cohort (GSE21034, n=140 in BCR meta-analysis; n=150 in NOL10–EMT/AR signature correlation).</li>
+<li><a href="../datasets/prad_fhcrc.html">prad_fhcrc</a> — FHCRC cohort (NOL10 CCS / CCP correlation).</li>
+<li><a href="../datasets/prad_su2c_2019.html">prad_su2c_2019</a> — SU2C/PCF Dream Team metastatic CRPC (PNAS 2019, n=266 polyA samples).</li>
+<li><a href="../datasets/prad_mich.html">prad_mich</a> — Grasso et al.&nbsp;University of Michigan cohort (GSE35988, used for NOL10/OS Kaplan-Meier and metastasis analysis; n=28 normal / 59 primary / 35 metastasis).</li>
+<li>DKFZ Heidelberg cohort (n=105 in BCR meta-analysis; not in cBioPortal as a registered prad_* study).</li>
+<li>FUSCC (Fudan University Shanghai Cancer Center) — RT-qPCR + Western blot validation in matched tumor/normal pairs.</li>
+<li>GSE62872 (n=160 normal / 264 tumor), GSE10645 (Chandran cohort, n=10 tumor / 21 metastasis), Stockholm CamCap (n=213), <a href="../cancer_types/NPC.html">NPC</a>, SMMU EU 2017 (n=65) cohorts for cross-cohort NOL10/USF1 expression and EMT/AR signature analysis.</li>
+</ul></li>
+<li><strong>Cell models:</strong> LNCaP, DU145, 22Rv1, PC3, VCaP, RM1 (murine), 293T.</li>
+<li><strong>In vivo / organoid models:</strong> Subcutaneous xenografts in male nude mice (DU145, PC3); prostate-cancer organoids derived from <em>Pten</em><sup>pc-/-</sup>;<em>Lkb1</em><sup>pc-/-</sup> C57BL/6J mice (<a href="../methods/subcutaneous-xenograft.html">subcutaneous-xenograft</a>, <a href="../methods/prostate-organoid-pten-lkb1.html">prostate-organoid-pten-lkb1</a>).</li>
+<li><strong>Assays / panels:</strong> <a href="../methods/snps-seq.html">SNPs-seq</a> screen of 374 prostate-cancer risk loci; <a href="../methods/emsa.html">EMSA</a> and super-shift EMSA; <a href="../methods/chip-seq.html">ChIP-seq</a> for H3K27ac/H3K4me1/H3K4me3 in cell lines and CPGEA tissues; <a href="../methods/chip-qpcr.html">ChIP-qPCR / ChIP-AS-qPCR</a>; <a href="../methods/luciferase-reporter-assay.html">allele-specific luciferase reporter assays</a>; <a href="../methods/crispri.html">CRISPRi</a> (dCas9 + sgRNAs targeting rs4519489 enhancer); <a href="../methods/crispr-base-editing.html">CRISPR base editing</a> (CBE in PC3 PC3 T/T→A/T; AYBE editor in DU145 A/A→T/T); <a href="../methods/lc-ms-ms-proteomics.html">LC-MS/MS proteomics</a> (PWAS-inspired allele-specific TF capture); <a href="../methods/rna-seq.html">RNA-seq</a>; <a href="../methods/quantitative-rt-pcr.html">RT-qPCR</a>; <a href="../methods/sanger-sequencing.html">Sanger sequencing</a>; <a href="../methods/immunohistochemistry.html">IHC</a> (Ki67, E-cadherin, Vimentin); <a href="../methods/gsea.html">GSEA</a>; <a href="../methods/integrative-genomics-viewer.html">IGV</a>; Enhancer Element Locator (EEL) motif analysis; <a href="../methods/genome-wide-association-study.html">GWAS</a> lead-SNP linkage analysis (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Functional SNP nomination at 2p25.</strong> SNPs-seq across 374 prostate-cancer risk loci flagged rs4519489 (intron of NOL10) as exhibiting biased allelic protein binding, with the A allele binding more strongly than the T allele. rs4519489 is in strong LD with the GWAS lead SNPs rs9287719 (R²=0.67, D’=0.82) and rs1990613 (R²=0.8, D’=0.98) (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>Allele-specific binding and enhancer activity.</strong> EMSA in 293T and LNCaP showed stronger A-allele binding (specifically displaced by consensus competitor); luciferase reporters in LNCaP, DU145, 22Rv1, PC3 and VCaP (±DHT) gave significantly higher activity for the A allele. Active enhancer marks (H3K27ac, H3K4me1, H3K4me3) were enriched at the rs4519489 locus in cell lines and in CPGEA tumor/normal prostate tissues; allele-specific ChIP-qPCR in heterozygous tissues showed greater H3K4me1/H3K27ac at the A allele (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>eQTL: A allele → higher NOL10 mRNA.</strong> In CPGEA the A allele significantly correlated with elevated NOL10 expression (P=0.00056, n=18 AA / 62 AT / 54 <a href="../cancer_types/TT.html">TT</a>). sQTL analysis in TCGA PRAD and CPGEA showed no genotype-dependent NOL10 isoform usage (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>Direct enhancer–gene causality.</strong> CRISPRi against the rs4519489 region reduced NOL10 mRNA in 22Rv1 and PC3 (P=9.79E-5, 4.79E-4). CRISPR base-editing of T→A in PC3 (T/T→A/T) increased NOL10 expression (P=9.06E-3); reverse editing A→T in DU145 reduced NOL10 (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>NOL10 is overexpressed in prostate cancer and tracks with severity.</strong> NOL10 mRNA is elevated in tumor vs normal across CPGEA, TCGA PRAD, GSE62872 and FUSCC; protein up by Western blot. Higher NOL10 correlates with advanced T stage (TCGA PRAD, P=0.0058), lymph-node metastasis (P=0.045), Gleason score (P=0.015), biochemical recurrence (P=0.036), and shorter overall survival in the Grasso cohort (HR=2.20, 95% CI 1.03–4.69, P=0.034) (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>rs4519489 genotype is a prognostic factor.</strong> A/A patients in TCGA PRAD have higher BCR rates (P=0.0110) and shorter disease-free / progression-free survival (HR=2.40, P=0.019; HR=1.72, P=0.017). Multivariate Cox: rs4519489 (AA vs AT+TT) HR=13.05 (1.16–147.20), P=0.038 for <a href="../cancer_types/OS.html">OS</a> (TCGA). Combined risk-A/A genotype + high NOL10 carries the worst OS / PFS (HR=2.79, P=0.015) (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>NOL10 is oncogenic in vitro and in vivo.</strong> shRNA / siRNA / sgRNA knockdown of NOL10 in DU145, LNCaP, 22Rv1 and PC3 reduced proliferation (CCK8), colony formation, migration and invasion. NOL10 overexpression in DU145 / 22Rv1 increased all four. Subcutaneous DU145 and PC3 xenografts in nude mice with NOL10-knockdown were significantly smaller (volume P=1.64E-2, 4.68E-3; weight P=3.22E-3, 3.38E-2) and showed lower Ki67, lower Vimentin and higher E-cadherin — consistent with reduced EMT. <em>Pten</em><sup>pc-/-</sup>;<em>Lkb1</em><sup>pc-/-</sup> murine organoids showed fewer/smaller organoids on NOL10 knockdown (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>NOL10 drives cell-cycle programs.</strong> GSEA on TCGA PRAD ranked by NOL10 expression scored E2F targets and G2M checkpoint among the top hallmarks. RNA-seq of NOL10-knockdown LNCaP identified 71 downregulated genes enriched in cell cycle (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6 — RT-qPCR validated). A NOL10 cell-cycle signature (CCS) correlated with cell-cycle-progression (CCP) score across CPGEA, TCGA PRAD, SU2C, FHCRC, GSE62872. Higher CCS predicted shorter OS (HR=2.45, P=2.01e-5), RFS (HR=2.36, P=5.34e-5) and <a href="../cancer_types/MFS.html">MFS</a> (HR=5.77, P=0.0132) and was an independent prognostic factor by multivariate Cox in CPGEA (HR=2.86, 95% CI 1.29–6.34, P=0.010). Fixed-effects meta-analysis of BCR across CPGEA / MSKCC / TCGA / DKFZ: HR=2.49 (1.85–3.35), P=1.81e-9 (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>USF1 is the allele-specific TF.</strong> Allele-specific PWAS-inspired LC-MS/MS proteomics on rs4519489 oligos identified USF1, <a href="../genes/TBX3.html">TBX3</a> and <a href="../genes/TFAP4.html">TFAP4</a> as A-allele-preferring binders. Enhancer Element Locator (EEL) ranked USF1 as the top motif at rs4519489. Only USF1 (not TBX3 or TFAP4) showed ChIP-qPCR enrichment at the locus; enrichment was stronger in A/A (LNCaP, VCaP) and A/T (22Rv1) than T/T (PC3) cells. ChIP-AS-qPCR and Flag-USF1 super-shift EMSA confirmed preferential binding to the A allele in LNCaP and 22Rv1; in vivo USF1 ChIP-seq on a heterozygous tissue showed input A:T = 1:5 vs USF1-IP A:T = 11:6 (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>USF1 is itself oncogenic and regulates NOL10.</strong> USF1 sgRNA-knockout in 22Rv1 and shRNA-knockdown in DU145 / PC3 reduced NOL10 protein and mRNA; USF1 overexpression raised NOL10. USF1 mRNA correlates with NOL10 across CPGEA (R=0.637, P=1.32e-25), TCGA PRAD (R=0.57, P=3.31e-13), GTEx, Stockholm CamCap, SMMU and NPC cohorts. High USF1 tracks with advanced T stage (CPGEA P=0.009), lymph-node metastasis (TCGA P=0.001), Gleason, BCR and shorter PFS. USF1 knockdown phenocopies NOL10 loss in proliferation / colony formation / migration / xenograft growth and <em>Pten</em><sup>pc-/-</sup>;<em>Lkb1</em><sup>pc-/-</sup> organoid assays (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>Synergistic NOL10 + USF1 effect.</strong> Co-overexpression in 22Rv1 superadditively boosted proliferation, colony formation and migration. NOL10<sup>Hi</sup>USF1<sup>Hi</sup> patients in TCGA had worse BCR-free (HR=2.44, P=0.003) and metastasis-free (HR=2.35, P=0.001) survival than NOL10<sup>Lo</sup>USF1<sup>Lo</sup>. ROC analyses across CPGEA, TCGA, SU2C and DKFZ showed the combined NOL10+USF1 score outperformed either gene alone for 1/3/5/10-year survival prediction (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>APOBEC mutagenesis at NOL10.</strong> APOBEC-associated mutations are modestly enriched within NOL10 vs the global mutational landscape in CPGEA and TCGA PRAD, suggesting <a href="../genes/APOBEC3A.html">APOBEC3A</a>/<a href="../genes/APOBEC3B.html">APOBEC3B</a>-mediated mutagenesis may contribute to NOL10 dysregulation in addition to the inherited rs4519489 risk allele (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/NOL10.html">NOL10</a> — eQTL target of rs4519489 at 2p25; intronic risk SNP A allele drives higher NOL10 mRNA via enhanced USF1 binding. Overexpressed in PRAD tumors vs normals across multiple cohorts; high expression correlates with stage, lymph-node metastasis, Gleason, BCR and shorter OS. Knockdown abrogates proliferation, colony formation, migration, invasion, EMT and xenograft growth; overexpression promotes them. Acts via cell-cycle regulators (E2F targets, G2M checkpoint: DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/USF1.html">USF1</a> — basic helix-loop-helix transcription factor; preferentially binds the A allele of rs4519489 and transactivates NOL10. Highly co-expressed with NOL10 across cohorts; overexpression in PRAD tracks with advanced stage, lymph-node positivity, Gleason and BCR. Knockdown reduces NOL10 protein/mRNA and phenocopies NOL10 loss in proliferation and xenograft assays. Independently of androgen signaling (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/TBX3.html">TBX3</a> — A-allele-preferring binder identified by PWAS-style proteomics and EEL motif analysis at rs4519489, but no ChIP-qPCR enrichment at the locus, so not a confirmed regulator in this paper (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/TFAP4.html">TFAP4</a> — A-allele-preferring binder identified by proteomics and EEL motif analysis at rs4519489; not enriched by ChIP-qPCR at the locus (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/APOBEC3A.html">APOBEC3A</a> / <a href="../genes/APOBEC3B.html">APOBEC3B</a> — APOBEC mutational signature is modestly enriched in NOL10 in CPGEA and TCGA PRAD vs the genome-wide background, suggesting ectopic APOBEC mutagenesis as a complementary somatic contributor to NOL10 deregulation (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/TMPRSS2.html">TMPRSS2</a> / <a href="../genes/ERG.html">ERG</a> — cited as canonical somatic prostate-cancer fusion in background; cross-referenced to the authors’ prior 17q12/<a href="../genes/HNF1B.html">HNF1B</a> work but not directly assayed here (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><a href="../genes/STK11.html">STK11</a> (LKB1) — not somatically profiled; used as a co-deletion partner with <em>Pten</em> in the murine prostate organoid model (<em>Pten</em><sup>pc-/-</sup>;<em>Lkb1</em><sup>pc-/-</sup>) for in-vivo NOL10 / USF1 knockdown experiments (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Prognostic biomarker.</strong> rs4519489 A/A genotype is an independent predictor of overall survival in TCGA PRAD (Cox HR=13.05, 95% CI 1.16–147.20, P=0.038), with combined high-NOL10 + A/A status further stratifying OS / PFS. The NOL10 cell-cycle signature is an independent BCR-free-survival predictor in CPGEA (HR=2.86, P=0.010), with a fixed-effects meta-analysis HR of 2.49 across CPGEA / MSKCC / TCGA / DKFZ. Combined NOL10 + USF1 expression outperforms either marker alone in time-dependent ROC for 1–10 year survival (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>Therapeutic target hypothesis.</strong> The authors propose the rs4519489–USF1–NOL10 axis as a candidate therapeutic target — degrading USF1 or NOL10 could blunt cell-cycle (E2F / G2M) drive in A-allele-carrying tumors. No clinical drug, dose, or trial is reported; this is a preclinical hypothesis only (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>Genetic stratification.</strong> Because the A allele exists in multi-ancestry GWAS at meaningful frequency and is in strong LD with the GWAS lead SNPs rs9287719 and rs1990613, genotyping at 2p25 is proposed as a way to identify men at higher risk of aggressive disease and to enrich for trials targeting the cell-cycle axis (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Inferential limits of the eQTL / survival associations.</strong> All clinical associations are observational across heterogeneous cohorts (CPGEA, TCGA PRAD, MSKCC, FHCRC, SU2C, DKFZ, FUSCC, NPC, SMMU, Stockholm CamCap, GSE10645, GSE21034, GSE35988, GSE62872) with differing endpoints (BCR, PFS, OS, MFS) and confounders. The TCGA PRAD multivariate HR for rs4519489 (13.05) has very wide 95% CI (1.16–147.20), reflecting limited A/A counts (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>CPGEA and several validation cohorts are not in cBioPortal.</strong> This complicates external reproduction; the FUSCC validation panel is small (8 paired tissues for USF1 RT-qPCR; 5 for NOL10).</li>
+<li><strong>Mechanism beyond cell cycle.</strong> While E2F / G2M GSEA enrichment is robust and consistent across LNCaP / DU145 / 22Rv1 / PC3 perturbations, direct USF1 ChIP-seq genome-wide is not reported; downstream NOL10 effectors (whether NOL10 acts via ribosome biogenesis, via specific TFs, or non-canonically) are not pinpointed.</li>
+<li><strong>TBX3 and TFAP4 discrepancy.</strong> Both score as A-allele-preferring in proteomics and EEL motif analysis but do not show ChIP-qPCR enrichment at the locus — potentially false positives of the proteomics screen, or context-dependent binding not captured by the antibody/conditions used (<a href="../papers/28927585.html">PMID:28927585</a>).</li>
+<li><strong>APOBEC contribution is modest and correlative.</strong> The enrichment is described as modest in both CPGEA and TCGA; the paper does not separate inherited rs4519489 effects from somatic APOBEC effects on NOL10 expression.</li>
+<li><strong>Therapeutic strategy is undefined.</strong> No drug, degrader, or inhibitor is tested for USF1 or NOL10; the “therapeutic target” claim is preclinical and aspirational. Whether USF1 inhibition would have acceptable on-target toxicity (USF1 is a broadly expressed bHLH TF with metabolic and other roles) is open.</li>
+<li><strong>PMID / publication-year mismatch (curatorial note).</strong> The PMID assigned in this corpus is 28927585, but the extracted PDF (PMC12508145) reports a 2024-submission / 2025-acceptance Nature Communications article (DOI 10.1038/s41467-025-64005-w). Citation metadata in this page reflects the actual paper text; downstream curators should confirm the PMID against PubMed.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“the A allele of rs4519489 had stronger protein binding than the T allele, with significant biased allelic binding (BAB) scores in different samples” (Fig. 1b).</li>
+<li>“The A allele conferred significantly greater luciferase activity compared to the T allele across multiple prostate cancer cell lines (LNCaP, DU145, 22Rv1, PC3, and VCaP), both in the presence and absence of dihydrotestosterone (DHT) treatment” (Fig. 1e).</li>
+<li>“The analysis linked the aggressive prostate cancer-associated A allele of rs4519489 with higher NOL10 mRNA expression” (CPGEA eQTL, Fig. 1f, P=0.00056).</li>
+<li>“Multivariate analysis confirmed that rs4519489 is an independent prognostic factor for overall survival in the TCGA cohort” (Fig. 2n; HR 13.05, CI 1.16–147.20, P=0.038).</li>
+<li>“patients with the A/A genotype and higher NOL10 levels exhibited markedly poorer overall and progression-free survival” (Fig. 2o,p).</li>
+<li>“GSEA … showed NOL10 expression significantly associated with critical cell cycle pathways, notably E2F targets and G2M checkpoint pathways” (Fig. 4a).</li>
+<li>“we discovered that several TFs, notably USF1, TBX3, and TFAP4, showed specific interactions with the A allele” (Fig. 5b, LC-MS/MS PWAS).</li>
+<li>“ChIP-AS-qPCR targeting rs4519489 demonstrated a notably higher enrichment of USF1 at the A allele compared to the T allele” (Fig. 5d).</li>
+<li>“the ratio of A to T read counts from the Input ChIP-seq sample in one prostate specimen was 1:5, while the ratio in the USF1 ChIP-seq sample shifted to 11:6” (Supplementary Fig. 13k).</li>
+<li>“Co-overexpression of USF1 and NOL10 resulted in a significant enhancement of cell proliferation, colony formation, and migration compared to the individual overexpression of either gene alone” (Fig. 7e–g).</li>
+<li>“Targeting the rs4519489-USF1-NOL10 regulatory axis holds promise for innovative therapeutic strategies aimed at curtailing prostate cancer progression and severity” (Discussion).</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28927585.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28927585.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

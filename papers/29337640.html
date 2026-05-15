@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Molecular Determinants of Response to Anti–Programmed Cell Death (PD)-1 and Anti–Programmed Death-Ligand 1 (PD-L1) Blockade in Patients With Non–Small-Cell Lung Cancer Profiled With Targeted Next-Generation Sequencing – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29337640.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29337640.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Molecular Determinants of Response to Anti–Programmed Cell Death (PD)-1 and Anti–Programmed Death-Ligand 1 (PD-L1) Blockade in Patients With Non–Small-Cell Lung Cancer Profiled With Targeted Next-Generation Sequencing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Hira Rizvi </p>
+             <p>Francisco Sanchez-Vega </p>
+             <p>Konnor La </p>
+             <p>Walid Chatila </p>
+             <p>Philip Jonsson </p>
+             <p>Darragh Halpenny </p>
+             <p>Andrew Plodkowski </p>
+             <p>Niamh Long </p>
+             <p>Jennifer L. Sauter </p>
+             <p>Natasha Rekhtman </p>
+             <p>Travis Hollmann </p>
+             <p>Kurt A. Schalper </p>
+             <p>Justin F. Gainor </p>
+             <p>Ronglai Shen </p>
+             <p>Ai Ni </p>
+             <p>Kathryn C. Arbour </p>
+             <p>Taha Merghoub </p>
+             <p>Jedd Wolchok </p>
+             <p>Alexandra Snyder </p>
+             <p>Jamie E. Chaft </p>
+             <p>Mark G. Kris </p>
+             <p>Charles M. Rudin </p>
+             <p>Nicholas D. Socci </p>
+             <p>Michael F. Berger </p>
+             <p>Barry S. Taylor </p>
+             <p>Ahmet Zehir </p>
+             <p>David B. Solit </p>
+             <p>Maria E. Arcila </p>
+             <p>Marc Ladanyi </p>
+             <p>Gregory J. Riely </p>
+             <p>Nikolaus Schultz </p>
+             <p>Matthew D. Hellmann </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1200/JCO.2017.75.3384">10.1200/JCO.2017.75.3384</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 29337640 · <strong>DOI:</strong> <a href="https://doi.org/10.1200/JCO.2017.75.3384">10.1200/JCO.2017.75.3384</a> · <strong>Journal:</strong> Journal of Clinical Oncology (2018)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Rizvi et al.&nbsp;retrospectively analyzed 240 patients with advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> treated with anti–PD-(L)1 therapy at MSKCC and profiled by the targeted <a href="../methods/IMPACT468.html">MSK-IMPACT</a> panel. Tumor mutation burden (TMB) measured on the targeted panel correlated tightly with whole-exome estimates (Spearman r = 0.86, P &lt; .001) and was significantly higher in patients with durable clinical benefit (DCB) than in those with no durable benefit (NDB). High TMB and PD-L1 expression were independent predictors of benefit; combining them further enriched for response (50% DCB when both high, vs 18% when both low). Mutations in <a href="../genes/EGFR.html">EGFR</a> and <a href="../genes/STK11.html">STK11</a> associated with lack of benefit, and high fraction of copy-number–altered genome (<a href="../genes/FGA.html">FGA</a>) was enriched in non-responders. The work established that targeted NGS panels routinely deployed in the clinic can reliably <a href="../methods/estimate.html">estimate</a> TMB and serve as a practical immunotherapy biomarker.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>240 patients</strong> with advanced <a href="../cancer_types/NSCLC.html">NSCLC</a> treated with anti–PD-1 or anti–PD-L1 therapy (alone or with anti–CTLA-4) at Memorial Sloan Kettering between April 2011 and January 2017, all profiled by <a href="../methods/IMPACT468.html">MSK-IMPACT</a> targeted NGS (<a href="../papers/29337640.html">PMID:29337640</a>).</li>
+<li><strong>Histology:</strong> 78% adenocarcinoma (<a href="../cancer_types/LUAD.html">LUAD</a>), 14% squamous (<a href="../cancer_types/LUSC.html">LUSC</a>), 8% other.</li>
+<li><strong>Treatment:</strong> 86% PD-(L)1 monotherapy, 14% PD-(L)1 + CTLA-4 combination (<a href="../drugs/nivolumab.html">nivolumab</a>, <a href="../drugs/pembrolizumab.html">pembrolizumab</a>, <a href="../drugs/atezolizumab.html">atezolizumab</a>, <a href="../drugs/durvalumab.html">durvalumab</a>, <a href="../drugs/ipilimumab.html">ipilimumab</a>).</li>
+<li><strong>Panel versions:</strong> <a href="../methods/IMPACT341.html">IMPACT341</a> (56 patients), <a href="../methods/IMPACT410.html">IMPACT410</a> (164), <a href="../methods/IMPACT468.html">IMPACT468</a> (20). Mean coverage 744×.</li>
+<li><strong>Validation subset:</strong> 49 patients had paired <a href="../methods/whole-exome-sequencing.md">whole-exome sequencing</a>.</li>
+<li><strong>PD-L1 IHC</strong> available for 84 patients (22C3, 28-8, E1L3N antibodies).</li>
+<li><strong>Comparison cohort:</strong> 1,836 non–ICI-treated <a href="../cancer_types/NSCLC.html">NSCLC</a> patients sequenced on MSK-IMPACT 2014–2017 (<a href="../datasets/nsclc_pd1_msk_2018.html">dataset: nsclc_pd1_msk_2018</a>).</li>
+<li><strong>Endpoints:</strong> RECIST 1.1; durable clinical benefit (DCB) = CR/PR/SD lasting &gt; 6 months; no durable benefit (NDB) = PD or SD ≤ 6 months. 49 (20%) had CR/PR; 69 (29%) had DCB; 158 (66%) NDB; 13 (5%) not evaluable.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Targeted NGS reliably quantifies TMB.</strong> TMB by MSK-IMPACT correlated with TMB by WES at Spearman r = 0.86 (P &lt; .001, n = 49) (<a href="../papers/29337640.html">PMID:29337640</a>).</li>
+<li><strong>TMB associates with benefit.</strong> Median TMB 8.5 SNVs/Mb in DCB vs 6.6 in NDB (P = .006); 8.5 vs 6.6 vs 6.6 across CR/PR vs SD vs PD (P = .049 / .015).</li>
+<li><strong>Dose–response with TMB.</strong> DCB rate above the 50th percentile was 38.6% vs 25.1% below (P = .009). PFS HR for above- vs below-median TMB = 1.38, P = .024. Odds ratios of DCB rose stepwise across TMB percentiles: 25th OR 1.75, 50th OR 2.02, 75th OR 2.06, 90th OR 3.24.</li>
+<li><strong>TMB is predictive, not prognostic.</strong> In the non–ICI-treated comparison cohort, higher TMB was associated with <em>worse</em> survival, ruling out a generic prognostic effect.</li>
+<li><strong>FGA is highest in non-responders.</strong> Fraction of copy-number–altered genome was significantly higher in NDB than in non-ICI NSCLC (median 0.16 vs 0.11; P = .007). FGA and TMB were modestly positively correlated despite their opposite associations with response.</li>
+<li><strong>TMB and PD-L1 are independent.</strong> No correlation between TMB and PD-L1% (Spearman r = 0.19, P = .08). AUC for predicting DCB: TMB 0.601, PD-L1 0.646. A composite of TMB-high + PD-L1 ≥ 1% gave 50% DCB rate, vs 18% when both were low (n = 22).</li>
+<li><strong><a href="../genes/EGFR.html">EGFR</a> mutations underrepresented in DCB</strong> (7% of EGFR-mutant patients had DCB; FDR-adjusted P = .013 vs non-ICI cohort).</li>
+<li><strong><a href="../genes/STK11.html">STK11</a> mutations enriched in NDB</strong> (FDR-adjusted P = .007 vs non-ICI cohort).</li>
+<li><strong><a href="../genes/B2M.html">B2M</a> / JAK pathway hits rare in this cohort.</strong> Likely-deleterious B2M mutation: 1 patient (S40* in trans with Q28L, with loss of B2M expression by IHC) — paradoxically had ongoing PR at 8.9 months. Homozygous deleterious <a href="../genes/JAK2.html">JAK2</a> mutation: 1 patient with PD.</li>
+<li><strong>MDM2/MDM4 amplification (n = 8) did not show distinct hyperprogression</strong> in this series (HR 1.4, P = .44), in contrast to prior reports.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/EGFR.html">EGFR</a> — Activating mutations in 17 patients (7%). Significantly underrepresented in the DCB group; only 7% of EGFR-mutant patients achieved DCB. Authors attribute this to the link between EGFR mutations, never-smoker status, and consequent low TMB (<a href="../papers/29337640.html">PMID:29337640</a>).</li>
+<li><a href="../genes/STK11.html">STK11</a> — Significantly enriched in NDB vs non-ICI NSCLC (FDR-adjusted P = .007). Consistent with STK11/LKB1-loss murine and human reports of low tumor inflammation.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — Mutated in 83 patients; DCB rate (36%) similar to overall cohort. <a href="../genes/KRAS.html">KRAS</a> mutation alone did not stratify response.</li>
+<li><a href="../genes/TP53.html">TP53</a> — Altered in 67% of DCB and 54% of NDB tumors (descriptive, no enrichment claim).</li>
+<li><a href="../genes/B2M.html">B2M</a> — Truncating mutations rare; one patient with biallelic deleterious B2M (S40* + Q28L) and confirmed loss of B2M IHC nonetheless had a PR ongoing at 8.9 months and TMB of 48 SNVs/Mb.</li>
+<li><a href="../genes/JAK1.html">JAK1</a> / <a href="../genes/JAK2.html">JAK2</a> — Few events overall; one patient with homozygous loss-of-function JAK2 splice mutation + LOH had primary resistance (PD), consistent with interferon-gamma signaling defects described in melanoma.</li>
+<li><a href="../genes/MDM2.html">MDM2</a> / <a href="../genes/MDM4.html">MDM4</a> — Amplifications identified in 8 patients; PFS not significantly different from the overall cohort (HR 1.4, P = .44). Hyperprogression signal previously reported elsewhere was not reproduced here.</li>
+<li>Other actionable drivers reported with low frequency: <a href="../genes/ALK.html">ALK</a> (1%), <a href="../genes/BRAF.html">BRAF</a> (2%), <a href="../genes/ROS1.html">ROS1</a> (3%), <a href="../genes/RET.html">RET</a> (1%), <a href="../genes/MET.html">MET</a> (3%), <a href="../genes/ERBB2.html">ERBB2</a> — too few events for response analysis.</li>
+<li>Antigen-presentation / immunology genes profiled in the OncoPrint: <a href="../genes/HLA-A.html">HLA-A</a>, <a href="../genes/POLE.html">POLE</a>, <a href="../genes/JAK3.html">JAK3</a>, <a href="../genes/CD274.html">CD274</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ATR.html">ATR</a>.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Targeted NGS panels (≥ ~1 Mb of coding sequence) can replace WES for TMB estimation in routine practice</strong> — directly supports clinical adoption of MSK-IMPACT and similar assays as immunotherapy biomarkers (<a href="../papers/29337640.html">PMID:29337640</a>).</li>
+<li><strong>TMB and PD-L1 should be combined, not substituted.</strong> Their AUCs for DCB are comparable but the variables are independent; a composite (TMB &gt; median + PD-L1 ≥ 1%) selects a subgroup with 50% DCB.</li>
+<li><strong>EGFR-mutant and STK11-mutant NSCLC are enriched in non-responders to anti–PD-(L)1 therapy</strong> — supporting use of these alterations as negative selectors when considering single-agent ICI.</li>
+<li><strong>No universal TMB cut point</strong> is recommended; appropriate thresholds are panel- and assay-specific. The authors caution against transferring numerical cutoffs across platforms.</li>
+<li><strong>Hyperprogression with MDM2/MDM4 amplification was not reproduced</strong>, leaving the prior signal an open question rather than a confirmed contraindication.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Moderate sample size (n = 240) limits power, particularly for subgroup and multivariable analyses.</li>
+<li>Retrospective clinical outcome adjudication for the non-trial subset, though authors argue the mixed real-world + trial composition improves generalizability.</li>
+<li>Single-institution, single-panel design; the <a href="../methods/absolute.html">absolute</a> TMB cutpoints derived here are not portable across panels of different sizes or informatics pipelines (caution noted for panels &lt; 0.5 Mb).</li>
+<li>Only 85% of MSK-IMPACT samples were collected pre-immunotherapy; the analysis was not designed to study acquired resistance or selection pressure on B2M/JAK genes.</li>
+<li>PD-L1 testing used three different antibodies (22C3, 28-8, E1L3N) — possible inter-assay variability despite reported concordance.</li>
+<li>Targeted panels lack the immunogenomic genes (HLA, antigen-processing machinery beyond a handful) that may be biologically central; authors call for panel expansion and continued WES/WGS discovery work.</li>
+<li>Mechanism of MDM2/MDM4 hyperprogression and the apparent discordance with prior reports remains unresolved.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Estimates of TMB by targeted NGS correlated well with WES (r = 0.86; P &lt; .001). TMB was greater in patients with DCB than with NDB (P = .006).” — Abstract.</li>
+<li>“DCB was more common, and progression-free survival was longer in patients at increasing thresholds above versus below the 50th percentile of TMB (38.6% v 25.1%; P &lt; .001; hazard ratio, 1.38; P = .024).” — Abstract.</li>
+<li>“Variants in EGFR and STK11 associated with a lack of benefit. TMB and PD-L1 expression were independent variables, and a composite of TMB plus PD-L1 further enriched for benefit to ICIs.” — Abstract / Results.</li>
+<li>“TMB in patients with DCB was similar to those with CR/PR (P = .85) and greater in those with non-ICI NSCLC (P &lt; .001).” — Fig 1B legend.</li>
+<li>“STK11 was significantly enriched in the NDB group compared with the non-ICI NSCLC group (FDR-adjusted P = .007).” — Results, Gene Alterations.</li>
+<li>“MDM2/MDM4 amplifications were identified in eight patients … PFS was not substantially different in this group compared with the overall patient cohort (HR, 1.4; P = .44).” — Results.</li>
+<li>“Patients with high TMB (greater than the group median) and PD-L1 positivity (≥ 1% expression) had a 50% rate of DCB, whereas the presence of only one or neither variable was associated with a lower rate of DCB.” — Results, PD-L1 + TMB composite.</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/29337640.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/29337640.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28481359.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28481359.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ahmet Zehir </p>
+             <p>Ryma Benayed </p>
+             <p>Ronak H. Shah </p>
+             <p>Aijazuddin Syed </p>
+             <p>Sumit Middha </p>
+             <p>Hyunjae R. Kim </p>
+             <p>Preethi Srinivasan </p>
+             <p>Jianjiong Gao </p>
+             <p>Debyani Chakravarty </p>
+             <p>Sean M. Devlin </p>
+             <p>Matthew D. Hellmann </p>
+             <p>David A. Barron </p>
+             <p>Alison M. Schram </p>
+             <p>David M. Hyman </p>
+             <p>Marc Ladanyi </p>
+             <p>Nikolaus Schultz </p>
+             <p>David B. Solit </p>
+             <p>Michael F. Berger </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nm.4333">10.1038/nm.4333</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28481359 · <strong>DOI:</strong> 10.1038/nm.4333 · <strong>Journal:</strong> Nature Medicine (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Zehir et al.&nbsp;report the first-wave results of MSK-IMPACT, a prospective, CLIA-certified, hybrid-capture targeted-sequencing initiative at Memorial Sloan Kettering. Between January 2014 and May 2016, they sequenced matched tumor + patient-matched normal DNA from 10,945 advanced/metastatic tumors (10,336 patients; 62 principal tumor types, &gt;300 detailed subtypes) using 341- or 410-gene panels. They cataloged 78,066 non-synonymous mutations, 22,989 CNAs, and 1,875 rearrangements; identified mutation signatures (MMR, <a href="../genes/POLE.html">POLE</a>, UV, TMZ, smoking, APOBEC, BRCA1/2, aging) directly from targeted data; and matched 11% of the first 5,009 patients to a genomically-targeted clinical trial. The full dataset was released through cBioPortal as study <a href="../datasets/msk_impact_2017.html">msk_impact_2017</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients / samples:</strong> 10,336 patients, 10,945 successfully sequenced tumors (rescue rate 75% on technical failures; final assay success rate 86%) (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Cancer types:</strong> 62 principal tumor types and &gt;300 detailed OncoTree subtypes; 43% of specimens were from metastatic sites (most commonly liver, lymph node, bone) (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Dataset:</strong> <a href="../datasets/msk_impact_2017.html">msk_impact_2017</a> — released through cBioPortal at <code>cbioportal.org/msk-impact</code>.</li>
+<li><strong>Assay / panels:</strong> <a href="../methods/msk-impact-panel.html">msk-impact-panel</a> using two versions: <a href="../methods/IMPACT341.html">IMPACT341</a> (341 genes; 2,809 tumors, 26%) and <a href="../methods/IMPACT410.html">IMPACT410</a> (410 genes; 8,136 tumors, 74%; superset of <a href="../methods/IMPACT341.html">IMPACT341</a>). Hybrid-capture, mean depth 718X, 98% with patient-matched normal blood DNA.</li>
+<li><strong>Bioinformatics:</strong> <a href="../methods/bwa.html">bwa</a> MEM alignment to hg19; ABRA realignment; GATK base-quality recalibration; union of <a href="../methods/mutect.html">mutect</a>, <a href="../methods/pindel.html">pindel</a>, and <a href="../methods/gatk-somatic-indel-detector.html">gatk-somatic-indel-detector</a> for SNVs/indels; in-house caller for CNAs; <a href="../methods/delly.html">delly</a> v0.6.1 for structural variants; manual review of every alteration in <a href="../methods/integrative-genomics-viewer.html">integrative-genomics-viewer</a> (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Orthogonal RNA fusion confirmation:</strong> <a href="../methods/msk-fusion.html">msk-fusion</a> (MSK-Solid Fusion) targeted RNA panel using <a href="../methods/archer-fusionplex.html">archer-fusionplex</a> Anchored Multiplex PCR over 35 rearranged genes (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>WES comparison:</strong> 106 tumors re-captured with the Agilent Exome Kit v3 (<a href="../methods/whole-exome-seq.html">whole-exome-seq</a>, mean 240X) for cross-platform validation; TMB correlation R²=0.76 between MSK-IMPACT and WES (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Clinical annotation:</strong> Tumor-type-specific actionability tiers via <a href="../methods/oncokb.html">oncokb</a>; mutation signatures decomposed against Alexandrov 30-signature catalog (<a href="../methods/mutational-signatures.html">mutational-signatures</a>); MSI calls cross-checked with <a href="../methods/msisensor.html">msisensor</a>.</li>
+<li><strong>Turnaround:</strong> Median &lt;21 days; throughput 563 cases/month over the final 12 months of the study (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Consent:</strong> &gt;85% enrolled on IRB-approved research protocol NCT01775072 with return of results.</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutation yield:</strong> 78,066 non-synonymous mutations, 22,989 CNAs, 1,875 rearrangements across 10,945 tumors; median variant allele fraction 0.21; mutation count and CNA count tended to be inversely proportional (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Why broad panels matter:</strong> 81% (n=63,184) of all mutations fell <em>outside</em> the combined target regions of common amplicon “hotspot” panels; downsampling showed ≥9% of mutations would have been missed by 150X WES, including targetable <a href="../genes/BRAF.html">BRAF</a>, <a href="../genes/EGFR.html">EGFR</a>, and <a href="../genes/MET.html">MET</a> alterations (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Matched-normal value:</strong> 69% of somatic mutations detected by MSK-IMPACT were not in COSMIC v78 — without matched-normal blood, these would be hard to distinguish from rare germline variants (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>TCGA concordance &amp; differences:</strong> Mutation frequencies in MSK-IMPACT were broadly concordant with TCGA across 16 common tumor types but several genes were significantly enriched in the metastatic cohort. <a href="../genes/TP53.html">TP53</a> was enriched in prostate cancer (29% vs 7%, &gt;4-fold), kidney chromophobe (<a href="../cancer_types/CHRCC.html">CHRCC</a>), glioblastoma, and gastric cancer; <a href="../genes/AR.html">AR</a> was mutated in 18% of <a href="../cancer_types/PRAD.html">PRAD</a> (vs 1% in TCGA) and <a href="../genes/ESR1.html">ESR1</a> in 11% of <a href="../cancer_types/BRCA.html">BRCA</a> (vs 4%) — both consistent with hormone-therapy resistance (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong><a href="../genes/AR.html">AR</a> resistance hotspots:</strong> L702H and H875Y were each observed in 10 <a href="../cancer_types/PRAD.html">PRAD</a> patients — both previously described as acquired AR-inhibitor-resistance mutations (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong><a href="../genes/ESR1.html">ESR1</a> mutations:</strong> Recurrent hotspots in both <a href="../cancer_types/BRCA.html">BRCA</a> and <a href="../cancer_types/UCEC.html">UCEC</a>, almost exclusively in metastatic post-hormone-therapy tumors (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Most-altered gene overall:</strong> <a href="../genes/TP53.html">TP53</a> — 41% of samples, altered in &gt;10% of cases for 43/62 principal tumor types; highest rates in <a href="../cancer_types/HGSOC.html">HGSOC</a> (98%), esophageal adenocarcinoma (89%), and <a href="../cancer_types/SCLC.html">SCLC</a> (85%) (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong><a href="../genes/KRAS.html">KRAS</a>:</strong> 2nd most altered (15%); 90% of <a href="../cancer_types/PAAD.html">PAAD</a> and 44% of <a href="../cancer_types/COAD.html">COAD</a>; G12 codon = 80% of all <a href="../genes/KRAS.html">KRAS</a> mutations and 12% of all patients (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Other recurrent codons:</strong> <a href="../genes/PIK3CA.html">PIK3CA</a> H1047, <a href="../genes/PIK3CA.html">PIK3CA</a> E545, and <a href="../genes/BRAF.html">BRAF</a> V600 each observed in &gt;20 principal tumor types (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Recurrent fusions:</strong> TMPRSS2-ERG (n=151) in prostate cancer, EGFRvIII (exon 2–7 deletion; n=65), EML4-ALK (n=38), EWSR1-FLI1 (n=25); cryptic <a href="../genes/TMPRSS2.html">TMPRSS2</a> rearrangements in 23 prostate cancers consistent with chromoplexy (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong><a href="../genes/TERT.html">TERT</a> promoter:</strong> Largest pan-cancer TERT promoter analysis to date — G&gt;A at −124/−146 dominated (96.3%), but 10 additional recurrent sites identified including position −138 (21 patients, presumptive ETS binding site). All novel recurrent TERT mutations within 100 bp of TSS. Highest rates: <a href="../cancer_types/BLCA.html">BLCA</a> 70%, glioma 67%, thyroid 60%, melanoma 49% (predominantly cutaneous). Trend toward shorter overall survival in TERT-promoter-mutant cases (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Kinase fusions:</strong> 35% (n=268) of fusions involved kinase genes; ALK/RET/ROS1 fusions found in 11 additional tumor types beyond <a href="../cancer_types/LUAD.html">LUAD</a>; 51 kinase fusions involved novel partners (mostly in tumors lacking other driver mutations) (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong><a href="../genes/BRAF.html">BRAF</a> rearrangements:</strong> 33 <a href="../genes/BRAF.html">BRAF</a> fusions across 11 principal tumor types involving 18 distinct partner genes (10 novel), including a novel recurrent <a href="../genes/CDK5RAP2.html">CDK5RAP2</a>-BRAF fusion in two melanomas. 7 cases harbored intragenic multi-exon BRAF deletions predicted to be in-frame and analogous to splicing isoforms previously reported in V600E-mutant melanomas with acquired BRAF-inhibitor resistance — but only 3/7 had prior BRAF-inhibitor exposure, suggesting a <em>de novo</em> driver role for the others (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Mutation signatures from targeted data:</strong> Among 994 cases (9%) with TMB &gt; 13.8 mut/Mb, signatures were assigned by KL-divergence decomposition against the Alexandrov 30-signature catalog, with a “dominant” call at &gt;40%. Eight signatures were tracked: aging (1), APOBEC (2,13), smoking (4), BRCA1/2 (3), MMR (6,15,20,26), UV (7), POLE (10), and TMZ (11). UV/TMZ/smoking signatures predominated in melanoma, glioma, and lung respectively; POLE and MMR predominated in colorectal and endometrial (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>MSI detection:</strong> 102 patients across 11 tumor types had a dominant MMR signature <em>and</em> MSI by <a href="../methods/msisensor.html">msisensor</a>; 45% had not been previously tested for MMR deficiency. Indel:SNV ratio in MMR samples was 0.46 vs 0.06 in POLE/other (p&lt;0.001). Responses to immune checkpoint blockade observed in MSI <a href="../cancer_types/COAD.html">COAD</a>, <a href="../cancer_types/UCEC.html">UCEC</a>, gastric, <a href="../cancer_types/PRAD.html">PRAD</a>, and <a href="../cancer_types/BLCA.html">BLCA</a>, including a 55-year-old prostate cancer patient with an unanticipated MMR signature who responded to anti-PD-L1 therapy (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Actionability:</strong> 36.7% of patients (n=3,792) harbored ≥1 <a href="../methods/oncokb.html">oncokb</a>-actionable alteration. Top tumor types by proportion: <a href="../cancer_types/GIST.html">GIST</a> 76%, thyroid 60%, <a href="../cancer_types/BRCA.html">BRCA</a> 57%, melanoma 56% (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Trial enrollment:</strong> Of 5,009 patients sequenced ≥1 year before analysis, 1,894 (38%) enrolled on any clinical trial, 811 (16%) on a trial with a targeted agent, and 527 (11%) were genomically matched to ≥1 of 197 trials targeting an alteration in their tumor. 72% of matches occurred <em>after</em> MSK-IMPACT reporting (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>BRAF V600 in non-melanoma:</strong> Detected in 211 non-melanoma patients; 75/211 (36%) received BRAF-targeted therapy on- or off-trial. Radiographic clinical-benefit rate was identical (71%) between melanoma and non-melanoma BRAF V600 patients (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/TP53.html">TP53</a> — most frequently altered gene overall (41% of samples; &gt;10% in 43/62 principal tumor types). Largely truncating/splice-disrupting and inactivating. Significantly enriched vs TCGA in <a href="../cancer_types/PRAD.html">PRAD</a>, <a href="../cancer_types/CHRCC.html">CHRCC</a>, glioblastoma, and gastric cancer.</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 2nd most altered (15%); G12 codon dominates (80% of KRAS mutations). 90% in <a href="../cancer_types/PAAD.html">PAAD</a>, 44% in <a href="../cancer_types/COAD.html">COAD</a>. Authors call out limited clinical actionability with then-available drugs.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a> — H1047 and E545 each observed in &gt;20 principal tumor types (cross-lineage selection).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — V600 in &gt;20 tumor types; non-V600 alterations include 33 fusions across 11 tumor types (18 partners; 10 novel), a novel recurrent <a href="../genes/CDK5RAP2.html">CDK5RAP2</a>-BRAF fusion in melanoma, and 7 intragenic multi-exon deletions phenocopying acquired-resistance splice isoforms (some without prior BRAF-inhibitor exposure → de novo drivers).</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — tumor-type-specific localization: extracellular N-terminal in glioma, kinase domain in lung cancer. EGFRvIII (exon 2–7 deletion) detected in 65 cases.</li>
+<li><a href="../genes/TERT.html">TERT</a> — promoter mutations at canonical −124/−146 hotspots (96.3% of TERT promoter events) plus 10 novel recurrent positions including −138 (n=21). Highest in <a href="../cancer_types/BLCA.html">BLCA</a>, glioma, thyroid, melanoma. Trend toward shorter overall survival.</li>
+<li><a href="../genes/AR.html">AR</a> — 18% in <a href="../cancer_types/PRAD.html">PRAD</a> (vs 1% TCGA); recurrent acquired-resistance hotspots L702H and H875Y (10 patients each).</li>
+<li><a href="../genes/ESR1.html">ESR1</a> — recurrent hotspots in <a href="../cancer_types/BRCA.html">BRCA</a> and <a href="../cancer_types/UCEC.html">UCEC</a>, almost exclusively in post-hormone-therapy metastases.</li>
+<li><a href="../genes/VHL.html">VHL</a>, <a href="../genes/APC.html">APC</a>, <a href="../genes/IDH1.html">IDH1</a> — examples of lineage-restricted drivers (renal-clear, colorectal, glioma) contrasted with pan-cancer drivers like TP53/PIK3CA.</li>
+<li><a href="../genes/ALK.html">ALK</a>, <a href="../genes/RET.html">RET</a>, <a href="../genes/ROS1.html">ROS1</a> — kinase fusions enriched in <a href="../cancer_types/LUAD.html">LUAD</a> but also detected across 11 additional tumor types.</li>
+<li><a href="../genes/MET.html">MET</a> — included in the targetable-alteration tally that broad-panel sequencing recovered vs amplicon panels and shallow WES.</li>
+<li><a href="../genes/TMPRSS2.html">TMPRSS2</a>-<a href="../genes/ERG.html">ERG</a> — most common rearrangement overall (n=151) in <a href="../cancer_types/PRAD.html">PRAD</a>; cryptic <a href="../genes/TMPRSS2.html">TMPRSS2</a> rearrangements in 23 <a href="../cancer_types/PRAD.html">PRAD</a> cases consistent with chromoplexy.</li>
+<li><a href="../genes/EML4.html">EML4</a>-<a href="../genes/ALK.html">ALK</a> — n=38, predominantly <a href="../cancer_types/LUAD.html">LUAD</a>.</li>
+<li><a href="../genes/EWSR1.html">EWSR1</a>-<a href="../genes/FLI1.html">FLI1</a> — n=25 in <a href="../cancer_types/ES.html">ES</a>.</li>
+<li><a href="../genes/DNAJB1.html">DNAJB1</a>-<a href="../genes/PRKACA.html">PRKACA</a> — pathognomonic for fibrolamellar hepatocellular carcinoma (<a href="../cancer_types/FLC.html">FLC</a>).</li>
+<li><a href="../genes/POLE.html">POLE</a> — loss-of-function somatic mutations underlie POLE-signature hypermutation, predominantly in colorectal and endometrial.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Direct trial matching:</strong> 11% (527/5,009) of patients with ≥12-month follow-up were enrolled on a genomically-matched targeted-therapy trial; 72% of matches were enabled by MSK-IMPACT reporting itself rather than prior testing — evidence that broad prospective profiling <a href="../methods/expands.html">expands</a> trial eligibility above the prior NGS-driven baseline (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Off-label / cross-tumor BRAF targeting:</strong> 71% radiographic clinical-benefit rate to BRAF-directed therapy among 75 non-melanoma BRAF V600 patients — same as the melanoma rate, supporting basket-trial designs and tumor-type-agnostic BRAF inhibition where mutation status is the criterion.</li>
+<li><strong>MSI as immunotherapy biomarker:</strong> Comprehensive panel-based mutation-signature + <a href="../methods/msisensor.html">msisensor</a> calling identified 102 MSI tumors across 11 lineages; 45% had not been previously tested for MMR deficiency, including a <a href="../cancer_types/PRAD.html">PRAD</a> case who responded to anti-PD-L1 — argues that broad genomic profiling expands the immunotherapy-eligible pool beyond conventional MSI testing’s current footprint (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Actionable-alteration prevalence as a planning metric:</strong> 36.7% of patients harbored an <a href="../methods/oncokb.html">oncokb</a>-actionable alteration; tumor-type-by-tumor-type proportions (<a href="../cancer_types/GIST.html">GIST</a> 76%, thyroid 60%, <a href="../cancer_types/BRCA.html">BRCA</a> 57%, melanoma 56%) inform expected match rates.</li>
+<li><strong>Resistance biomarkers picked up by routine sequencing:</strong> <a href="../genes/AR.html">AR</a> L702H/H875Y in <a href="../cancer_types/PRAD.html">PRAD</a> and <a href="../genes/ESR1.html">ESR1</a> hotspots in <a href="../cancer_types/BRCA.html">BRCA</a>/<a href="../cancer_types/UCEC.html">UCEC</a> were enriched in the metastatic cohort vs TCGA — clinically relevant for hormone-therapy management.</li>
+<li><strong>Novel actionable-resistance class:</strong> <a href="../genes/BRAF.html">BRAF</a> intragenic in-frame multi-exon deletions, predicted to drive RAS-independent dimerization, may benefit from RAF-dimer inhibitors — applicable both as acquired-resistance lesions in V600E-mutant disease and as <em>de novo</em> drivers in patients without prior BRAF-inhibitor exposure (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Germline by-product:</strong> Patient-matched normal sequencing enables IRB-approved return of inherited pathogenic variants to consenting patients, with implications for PARP-inhibitor response and family-member cancer susceptibility (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Data sharing:</strong> Full dataset deposited to cBioPortal as <a href="../datasets/msk_impact_2017.html">msk_impact_2017</a> at <code>cbioportal.org/msk-impact</code> to enable downstream biomarker discovery.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Treatment-decision attribution is observational.</strong> Clinical-utility assessment relied on retrospective trial-enrollment counts, not randomized comparison; many patients may have been too debilitated to enroll, and others receiving conventional therapy may later benefit from targeted agents (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>Incomplete follow-up.</strong> Only patients tested ≥12 months before analysis (5,009/10,336) were considered for enrollment metrics; the long-term match rate could be higher with maturing follow-up.</li>
+<li><strong>MSI prevalence underestimated.</strong> Signature-based MSI calling was restricted to tumors with TMB &gt; 13.8 mut/Mb (the top 9%); lower-burden MSI tumors may be missed by this approach (<a href="../papers/28481359.html">PMID:28481359</a>).</li>
+<li><strong>TERT-promoter survival association is preliminary.</strong> A consistent trend toward shorter survival was observed but the prognostic significance “remains incompletely understood” pending longer longitudinal data.</li>
+<li><strong>Targeted-panel signature inference is bounded.</strong> Mutation-signature decomposition required ≥13.8 mut/Mb and 994 samples; while WES correlation was R²=0.76, signature precision in low-TMB tumors is not addressed.</li>
+<li><strong>KRAS handling is conservative.</strong> Authors classify <a href="../genes/KRAS.html">KRAS</a> as non-actionable under their stricter OncoKB-tiered criteria, acknowledging that this will change as KRAS-targeting agents mature (<a href="../papers/28481359.html">PMID:28481359</a>) — predates clinical approval of <a href="../genes/KRAS.html">KRAS</a> G12C inhibitors.</li>
+<li><strong>Single-institution cohort.</strong> MSKCC referral patterns, pathology workflow, and trial portfolio may not generalize to community settings; broader inter-institution data sharing is explicitly called for.</li>
+<li><strong>Cohort skews to advanced disease.</strong> By design, the cohort is metastatic and often pretreated, which makes comparison to TCGA primary-tumor cohorts informative for treatment-emergent biology but limits inferences about untreated disease.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“Altogether, we successfully sequenced 10,945 tumor samples from 10,336 patients (91%).” (Results, Description of the Sequencing Cohort.)</li>
+<li>“Two panels were used throughout this study, encompassing 341 genes (2,809 tumors, 26%) and 410 genes (8,136 tumors, 74%), with all 341 genes included in the latter expanded panel.” (Results.)</li>
+<li>“81% (n=63,184) of all mutations fell outside the combined target regions of commercially available amplicon-based ‘hotspot’ panels … at least 9% of all mutations would have been missed by WES to a mean target depth of 150X, including therapeutically targetable alterations in BRAF, <a href="../genes/EGFR.html">EGFR</a>, and <a href="../genes/MET.html">MET</a>.” (Results.)</li>
+<li>“69% of somatic mutations detected by MSK-IMPACT were not previously reported in the COSMIC database (v78)…” (Results.)</li>
+<li>“In prostate cancer alone, the frequency of <a href="../genes/TP53.html">TP53</a> mutations was &gt;4-fold greater in MSK-IMPACT than TCGA (29% versus 7%)…” (Landscape of Somatically Altered Genes.)</li>
+<li>“AR (androgen receptor) in prostate cancer (18% versus 1%) and ESR1 (estrogen receptor) in breast cancer (11% versus 4%)…” (Landscape.)</li>
+<li>“The most common AR mutations in our cohort were L702H and H875Y (10 patients each)…” (Landscape.)</li>
+<li>“TP53 mutations occurred most often in high-grade serous ovarian cancer (98%), esophageal adenocarcinoma (89%), and small cell lung cancer (85%)…” (Landscape.)</li>
+<li>“KRAS mutations were most prevalent in pancreatic adenocarcinoma (90%) and colon adenocarcinoma (44%). KRAS also harbored the most frequently altered codon among tumors sequenced (G12), accounting for 80% of all KRAS mutations and 12% of all patients.” (Landscape.)</li>
+<li>“The most commonly observed rearrangements were TMPRSS2-ERG (n=151), EGFRvIII (deletion of exons 2–7; n=65), EML4-ALK (n=38), and EWSR1-FLI1 (n=25).” (Landscape.)</li>
+<li>“TERT promoter mutations were most commonly observed in bladder cancer (70%), glioma (67%), thyroid cancer (60%), and melanoma (49%)…” (TERT Promoter Mutations.)</li>
+<li>“Altogether we detected 33 BRAF fusions across 11 principal tumor types involving 18 distinct partner genes (10 novel), including a novel recurrent fusion gene, CDK5RAP2-BRAF…” (Kinase Fusions and Rearrangements.)</li>
+<li>“Altogether we identified 102 patients across 11 tumor types harboring both a dominant MMR signature and MSI classification by MSIsensor (Fig. 5e), 45% of whom were not previously tested for MMR deficiency.” (Mutation Signatures and Somatic Hypermutation.)</li>
+<li>“Altogether, 36.7% of patients (n=3,792) harbored at least one actionable alteration… The tumor types with the highest proportion of actionable mutations were gastrointestinal stromal tumor (76%), thyroid cancer (60%), breast cancer (57%), and melanoma (56%).” (Clinical Actionability and Utility.)</li>
+<li>“527 (11%) patients were enrolled on at least one of 197 trials involving molecularly targeted agents at our institution, based on a target aberration in their tumor.” (Clinical Actionability.)</li>
+<li>“BRAF V600 mutations were detected in 211 patients with non-melanoma histologies, of which 75/211 (36%) received BRAF targeted therapy on- or off-trial. While the proportion of non-melanoma patients receiving BRAF inhibitors was smaller, the rate of clinical benefit assessed by radiographic measurement among non-melanoma and melanoma patients was identical (71%)…” (Clinical Actionability.)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28481359.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28481359.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

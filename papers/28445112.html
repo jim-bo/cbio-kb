@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic landscape of endometrial polyps – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28445112.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28445112.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic landscape of endometrial polyps</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Siiri Reinikka </p>
+             <p>Miika Mehine </p>
+             <p>Pernilla von Nandelstadh </p>
+             <p>Terhi Ahvenainen </p>
+             <p>Sara Khamaiseh </p>
+             <p>Susanna Nousiainen </p>
+             <p>Vilja Jokinen </p>
+             <p>Annukka Pasanen </p>
+             <p>Ralf Bützow </p>
+             <p>Nanna Sarvilinna </p>
+             <p>Esa Pitkänen </p>
+             <p>Pia Vahteristo </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1186/s13073-025-01556-z">10.1186/s13073-025-01556-z</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28445112 · <strong>DOI:</strong> 10.1186/s13073-025-01556-z · <strong>Journal:</strong> Genome Medicine (2025)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Reinikka et al.&nbsp;performed whole-exome and whole-genome sequencing plus 3′RNA-seq on 23 endometrial polyps (with 18 matched bloods), validated key findings in a 54-polyp FFPE replication set, and report that chromosomal rearrangements affecting <a href="../genes/HMGA1.html">HMGA1</a> and/or <a href="../genes/HMGA2.html">HMGA2</a> occur in 17/23 (74%) of polyps and are the dominant driver event. They also nominate <a href="../genes/UBE2A.html">UBE2A</a> as a novel candidate driver gene through highly localized, recurrent codon 6–8 mutations carrying high allelic fractions, and confirm earlier reports of low-allelic-fraction hotspot mutations in canonical endometrial-cancer genes (<a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>). Source: <a href="../papers/28445112.html">PMID:28445112</a>.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Discovery cohort:</strong> 23 fresh-frozen endometrial polyps (18 nonfunctional, 5 functional) from 23 patients (11 postmenopausal, 12 premenopausal; mean age 52, range 31–78), collected 2016–2019 at Jorvi/Helsinki University Hospital. Matched blood available for 18/23. Endometrial polyps are benign uterine lesions related conceptually but not identical to uterine corpus cancers (<a href="../cancer_types/UCEC.html">UCEC</a>) and to uterine leiomyomas (<a href="../cancer_types/ULM.html">ULM</a>) discussed as comparators in the paper.</li>
+<li><strong>Validation cohort:</strong> 54 archival FFPE polyps, screened by Sanger sequencing for the <a href="../genes/UBE2A.html">UBE2A</a> codon-6 hotspot.</li>
+<li><strong>Assays:</strong> <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> on 22 polyps (Roche NimbleGen SeqCap EZ MedExome, Illumina HiSeq 2500, 101 bp PE, ~170× mean coverage); <a href="../methods/whole-genome-seq.html">whole-genome sequencing</a> on 23 polyps + 18 bloods (BGISEQ-500, 150 bp PE, ~81× tumor / ~38× normal); <a href="../methods/3prime-rna-seq.html">3′RNA-seq</a> (Lexogen QuantSeq 3′mRNA-Seq Library Prep FWD, NovaSeq 6000) on 25 polyps + 6 normal endometrium; <a href="../methods/sanger-sequencing.html">Sanger sequencing</a> for hotspot validation; <a href="../methods/fish.html">break-apart FISH</a> for <a href="../genes/HMGA1.html">HMGA1</a> (attempted on 9 rearranged + 3 wild-type FFPE polyps but FFPE quality was suboptimal); <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> for HMGA1/HMGA2 protein.</li>
+<li><strong>Bioinformatics pipeline:</strong> GRCh38 alignment with BWA-MEM; somatic SNV/indel calling with <a href="../methods/mutect.html">Mutect2</a>; structural variants with <a href="../methods/delly.html">Delly</a> (filter <code>-q 0 -u 0</code>, then quality ≥300, ≥1 discordant read, SVs &gt;1 kb); somatic CNAs with <a href="../methods/cnvkit.html">CNVkit</a> against a pooled normal of 18 bloods; mutational signatures with <a href="../methods/sigprofiler.html">SigProfiler</a> and <a href="../methods/mutationalpatterns.html">MutationalPatterns 3.4.1</a>; driver clustering with <a href="../methods/oncodriveclust.html">OncodriveCLUST</a>; functional annotation with <a href="../methods/oncokb.html">OncoKB annotator</a>, CADD, REVEL, AlphaMissense, Splice-AI, and DynaMut (PDB 6CYO).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Chromosomal rearrangements involving <a href="../genes/HMGA1.html">HMGA1</a> and/or <a href="../genes/HMGA2.html">HMGA2</a> in 17/23 (74%) polyps</strong>, the highest reported frequency to date and substantially higher than prior cytogenetic and targeted-sequencing estimates. One sample (1092_1_S1) carried both. Source: <a href="../papers/28445112.html">PMID:28445112</a>.</li>
+<li><strong>Rearrangement architecture:</strong> 9/23 (39%) carried a balanced two-way translocation involving <a href="../genes/HMGA1.html">HMGA1</a> or <a href="../genes/HMGA2.html">HMGA2</a>; 5/23 (22%) carried a 3-way translocation; 6/23 (26%) showed additional independent chromosomal alterations on top of the HMGA event.</li>
+<li><strong>Recurrent rearrangement partners (all linked to HMGA1 and/or HMGA2):</strong> a ~12 kb region of <strong>7p15.2</strong> containing the candidate enhancer ENSR00001272277 (3 polyps, no nearby genes — argues for <strong>enhancer hijacking</strong> rather than fusion); <a href="../genes/LRMDA.html">LRMDA</a> at 10q22.3 (2 polyps); <a href="../genes/RAD51B.html">RAD51B</a> at 14q24.1 (2 polyps); <a href="../genes/TRAF3IP2.html">TRAF3IP2</a> at 6q21 (2 polyps).</li>
+<li><strong>No intragenic breakpoints in <a href="../genes/HMGA1.html">HMGA1</a></strong> were observed; intragenic breakpoints in <a href="../genes/HMGA2.html">HMGA2</a> were seen in 2/4 HMGA2-rearranged polyps. Authors interpret this as evidence that fusion-gene formation is <em>not</em> the primary mechanism — instead, rearrangement disrupts cis-regulation, consistent with enhancer hijacking.</li>
+<li><strong>Expression effects of HMGA1/2 rearrangements (3′RNA-seq vs normal endometrium):</strong> <a href="../genes/HMGA1.html">HMGA1</a> upregulated in HMGA1-rearranged polyps (p = 0.02, log2FC = 1.06, Student’s t-test); <a href="../genes/HMGA2.html">HMGA2</a> upregulation trended higher but did not reach significance (p = 0.37, log2FC = 1.90); the downstream target <a href="../genes/PLAG1.html">PLAG1</a> was significantly upregulated in both HMGA1-rearranged (p = 3.91 × 10⁻⁶, log2FC = 3.22) and HMGA2-rearranged (p = 0.02, log2FC = 3.38) polyps.</li>
+<li><strong>Most upregulated gene in HMGA1/2-aberrant polyps:</strong> <a href="../genes/ZMAT3.html">ZMAT3</a> (q = 6.98 × 10⁻¹³, log2FC = 1.65) — a p53-induced RNA-binding protein previously reported by the same group as the most upregulated gene in uterine leiomyomas regardless of driver. <a href="../genes/C19ORF38.html">C19ORF38</a> (q = 3.49 × 10⁻⁴, log2FC = 2.03) was the 13th most upregulated, also flagged by the authors as a leiomyoma HMGA1/2/PLAG1 biomarker.</li>
+<li><strong>Concordance of HMGA IHC with WGS-called rearrangements:</strong> strong stromal HMGA1 staining in 9/12 HMGA1-altered polyps; strong stromal HMGA2 staining in 3/3 HMGA2-only–rearranged polyps. Fisher’s exact test for IHC vs WGS: HMGA1 p = 0.008, HMGA2 p = 0.012. Glandular epithelial cells stained positive in <em>both</em> polyps and normal endometrium, indicating the rearrangement-driven overexpression is anchored in the <strong>stromal compartment</strong>.</li>
+<li><strong><a href="../genes/UBE2A.html">UBE2A</a> as novel candidate driver:</strong> 3/23 (13%) WGS-cohort polyps carried recurrent codon-6 mutations (mean VAF 0.28, range 0.10–0.38 — much higher than other recurrently mutated genes); 2 additional codon-6 mutations identified in the 54-polyp FFPE validation set (5 total across 77 polyps). Variants observed: c.16C &gt; T p.(Arg6Trp) (4 polyps in this study; also reported in a TCGA endometrial cancer C3N-00386 and in <a href="../cancer_types/NSCLC.html">NSCLC</a>, colorectal, and pancreatic samples in <a href="https://www.cbioportal.org/">cBioPortal</a>) and c.16_18del p.(Arg6del) (1 polyp). All mutations confirmed somatic by Sanger; absent from gnomAD. OncodriveCLUST score 0.83, q = 1.51 × 10⁻⁵.</li>
+<li><strong>Functional predictions for <a href="../genes/UBE2A.html">UBE2A</a> p.(Arg6Trp):</strong> CADD 24.4, REVEL 0.56, AlphaMissense 0.96 (likely pathogenic); DynaMut ΔΔG = +1.650 kcal/mol on PDB 6CYO (predicted stabilizing). The c.16_18del p.(Arg6del) sits at a position with phyloP100 = 7.9 (highly conserved). The same arginine stretch (codons 6–8) hosts a germline UBE2A p.(Arg7Trp) variant linked to X-linked intellectual disability (Leiden Open Variation Database #0000408054).</li>
+<li><strong>Low-VAF cancer-gene mutations recapitulating endometrial cancer drivers:</strong> OncoKB-annotated oncogenic / likely-oncogenic mutations in 14 driver genes including hotspots in <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PPP2R1A.html">PPP2R1A</a>, <a href="../genes/PTEN.html">PTEN</a>, and <a href="../genes/FBXW7.html">FBXW7</a>. <a href="../genes/KRAS.html">KRAS</a> was the most frequently mutated (6/23 polyps, 26%); one sample carried two distinct hotspots (G12V and G13V) on different reads at low VAF, consistent with subclonal independent events. Possible biallelic missense + loss-of-function combinations were seen in <a href="../genes/ARHGAP35.html">ARHGAP35</a> and <a href="../genes/PIEZO2.html">PIEZO2</a>. KEGG pathway enrichment of recurrently mutated genes flagged “endometrial cancer” as the top hit (FDR-adjusted p = 2.824 × 10⁻⁵).</li>
+<li><strong>Tumor mutation burden:</strong> mean 2,149 mutations per sample (range 290–5,463; ~25 nonsynonymous coding mutations, range 2–64) — comparable to many cancers despite the benign nature of the lesion. No significant TMB difference between functional and nonfunctional polyps (p = 0.06 / p = 0.08).</li>
+<li><strong>Mutational signatures:</strong> SBS1, SBS5, and SBS40 dominant (SigProfiler); MutationalPatterns added SBS8 and SBS89. Signatures were similar in functional vs nonfunctional polyps. SBS1/5/40 typically correlate with age and have been seen in normal endometrium; SBS8 is unusual in benign tissue and may reflect late replication errors.</li>
+<li><strong>Copy-number landscape:</strong> very few CNAs — no high-level amplifications, no homozygous deletions, no aneuploidy — implying milder genomic instability than most cancers. Conversely, 420 chromosomal breakpoints distributed across simple-to-complex SVs were called.</li>
+<li><strong>Other structural events:</strong> retrocopy insertions of <a href="../genes/MATR3.html">MATR3</a> into chromosomes 1p21.1, 3q26.33, and 12q24.12 in one polyp (germline vs somatic indeterminate due to lack of matched normal).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/HMGA1.html">HMGA1</a> — chromosomal rearrangements upstream (12/14), in the 3′UTR (2/14), or downstream (1/14) of the gene in 14/23 polyps; mean rearrangement VAF 0.24 (range 0.06–0.43). Recurrent partners: 7p15.2 enhancer ENSR00001272277, <a href="../genes/LRMDA.html">LRMDA</a> (10q22.3), <a href="../genes/RAD51B.html">RAD51B</a> (14q24.1), <a href="../genes/TRAF3IP2.html">TRAF3IP2</a> (6q21). One sample also carried a high-VAF (0.34) somatic missense c.268C &gt; G p.(Leu90Val) in the penultimate exon of HMGA1 (Splice-AI weakly predicts donor-site loss, delta 0.25). Result: HMGA1 mRNA and protein overexpression in the stromal compartment.</li>
+<li><a href="../genes/HMGA2.html">HMGA2</a> — rearrangements in 4/23 polyps (intragenic in 2); average VAF 0.24 (range 0.14–0.45). Same partner repertoire as HMGA1. mRNA upregulation trended but did not reach significance (p = 0.37); protein overexpression by IHC in 3/3 HMGA2-only–rearranged polyps.</li>
+<li><a href="../genes/UBE2A.html">UBE2A</a> — recurrent codon-6 hotspot mutations: 4 × p.(Arg6Trp) and 1 × p.(Arg6del) across 77 polyps (3 from WGS discovery, 2 from Sanger validation). Mean VAF 0.28 in discovery cohort — clonally dominant relative to other low-VAF mutations. Predicted likely pathogenic by CADD/REVEL/AlphaMissense; predicted stabilizing by DynaMut. Authors propose gain-of-function. Same codon stretch hosts a germline X-linked intellectual disability allele p.(Arg7Trp).</li>
+<li><a href="../genes/PLAG1.html">PLAG1</a> — no DNA-level alterations reported, but transcriptional upregulation (downstream of HMGA1/2) in HMGA-rearranged polyps (log2FC 3.22 in HMGA1-rearranged, 3.38 in HMGA2-rearranged).</li>
+<li><a href="../genes/KRAS.html">KRAS</a> — 6/23 (26%) low-VAF hotspot mutations including G12V and G13V; one sample bore both on independent reads.</li>
+<li><a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>, <a href="../genes/ERBB2.html">ERBB2</a>, <a href="../genes/PPP2R1A.html">PPP2R1A</a>, <a href="../genes/FBXW7.html">FBXW7</a> — recurrent low-VAF hotspot or oncogenic mutations annotated by <a href="../methods/oncokb.html">OncoKB annotator</a>. The pattern phenocopies the canonical endometrial-cancer driver landscape.</li>
+<li><a href="../genes/ARHGAP35.html">ARHGAP35</a>, <a href="../genes/PIEZO2.html">PIEZO2</a> — possible biallelic events (missense + LoF), recurrently mutated.</li>
+<li><a href="../genes/ZMAT3.html">ZMAT3</a> — top differentially upregulated gene in HMGA-aberrant polyps; not directly mutated.</li>
+<li><a href="../genes/C19ORF38.html">C19ORF38</a> — 13th most upregulated in HMGA-aberrant polyps; previously reported as a HMGA1/HMGA2/PLAG1-leiomyoma biomarker.</li>
+<li><a href="../genes/LRMDA.html">LRMDA</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/TRAF3IP2.html">TRAF3IP2</a> — recurrent translocation partners of HMGA1/HMGA2 (intragenic and downstream breakpoints); not classical drivers themselves in this context.</li>
+<li><a href="../genes/JAZF1.html">JAZF1</a> — discussed but explicitly <em>excluded</em> as a likely target: 7p15.2 breakpoints in this cohort sit ~2 Mb upstream of <a href="../genes/JAZF1.html">JAZF1</a>, arguing against a JAZF1 fusion (the classic endometrial stromal tumor mechanism via t(7;17)(p15;q21)) in endometrial polyps.</li>
+<li><a href="../genes/MED12.html">MED12</a> — discussed only as a comparator; the dominant driver of uterine leiomyomas (70–80%), but not reported as recurrently mutated in these polyps.</li>
+<li><a href="../genes/MATR3.html">MATR3</a> — retrocopy insertion at three genomic positions in one polyp (somatic vs germline status indeterminate).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Mechanistic insight, not yet a clinical biomarker:</strong> the paper reframes endometrial polyps as <strong>stromal-driven neoplasms</strong> in which non-fusion HMGA1/2 enhancer hijacking is the dominant initiating event. Authors argue this could open avenues for “targeted, non-invasive” treatment in symptomatic polyps (currently treated by hysteroscopic polypectomy), but no specific drug or biomarker is proposed for current clinical use.</li>
+<li><strong>Risk stratification for malignant progression:</strong> endometrial polyps can progress to endometrial cancer (up to ~3%). The presence of OncoKB-annotated low-VAF driver mutations in canonical <a href="../cancer_types/UCEC.html">UCEC</a> genes (<a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, <a href="../genes/PTEN.html">PTEN</a>) supports treating a subset of polyps as <strong>precursor lesions</strong>. Authors flag — but do not test — the question of whether VAF or specific co-mutations predict transformation risk.</li>
+<li><strong>Cross-disease shared biology with <a href="../cancer_types/ULM.html">ULM</a>:</strong> HMGA1/2 alterations and <a href="../genes/ZMAT3.html">ZMAT3</a> upregulation parallel uterine leiomyoma biology, suggesting any HMGA-targeted therapy (e.g., gene silencing of HMGA2 explored in ovarian carcinoma) could in principle be repurposed across both lesion types.</li>
+<li><strong>No association with <a href="../drugs/tamoxifen.html">tamoxifen</a></strong> in this cohort: although <a href="../drugs/tamoxifen.html">tamoxifen</a> is a known risk factor for endometrial polyps and KRAS-mutated polyps in prior literature, none of the 23 patients in this study had been on tamoxifen, so the link could not be tested here.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>Only 23 polyps in the WGS discovery cohort and 54 in the Sanger validation cohort — UBE2A frequency estimates carry wide confidence intervals.</li>
+<li>FFPE quality precluded formal break-apart FISH cell counting / scoring for HMGA1 rearrangements (Supplementary Fig. S11).</li>
+<li>Some samples showed strong HMGA1 or HMGA2 staining without a corresponding WGS-detected rearrangement and vice versa — likely a mix of (a) cellular composition (stromal signal masked by glandular HMGA expression), (b) FFPE cautery artifact, and (c) sensitivity limits of short-read SV detection.</li>
+<li>The functional impact of <a href="../genes/UBE2A.html">UBE2A</a> codon-6 mutations is inferred from in silico tools and orthologous yeast/germline evidence — direct functional validation in polyp-relevant models is not done here.</li>
+<li>One sample’s <a href="../genes/MATR3.html">MATR3</a> retrocopy events could not be classified as somatic vs germline (no matched normal).</li>
+<li>3′RNA-seq clustering did <em>not</em> separate polyps by HMGA1/HMGA2/UBE2A status, possibly because epithelial HMGA expression in normal glands swamps the stromal signal — limits the use of expression as a stand-alone classifier.</li>
+<li>Open question for cross-paper synthesis: how do the low-VAF <a href="../genes/KRAS.html">KRAS</a>/<a href="../genes/PIK3CA.html">PIK3CA</a>/<a href="../genes/PIK3R1.html">PIK3R1</a>/<a href="../genes/PTEN.html">PTEN</a> hotspot patterns in benign endometrial polyps compare quantitatively with the same hotspots seen in normal endometrial glands and in <a href="../cancer_types/UCEC.html">UCEC</a>? Authors note all three contexts share these mutations but do not provide a head-to-head VAF / clonality comparison.</li>
+<li>The paper’s conclusions about <a href="../genes/JAZF1.html">JAZF1</a> hinge on the precise location of 7p15.2 breakpoints; the small enhancer ENSR00001272277 has no known target gene in this tissue, so the proposed enhancer-hijacking mechanism is plausible but not yet functionally proven.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“The most common alterations were chromosomal rearrangements affecting HMGA1 and HMGA2, identified in 74% (17/23) of the polyps. These rearrangements involved <a href="../genes/LRMDA.html">LRMDA</a>, <a href="../genes/RAD51B.html">RAD51B</a>, <a href="../genes/TRAF3IP2.html">TRAF3IP2</a>, and 7p15.2 as recurrent rearrangement partners.” (Abstract)</li>
+<li>“We also identified recurrent low-allelic fraction mutations in well-established cancer genes <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/PIK3CA.html">PIK3CA</a>, <a href="../genes/PIK3R1.html">PIK3R1</a>, and <a href="../genes/PTEN.html">PTEN</a>.” (Abstract)</li>
+<li>“The only exception was ubiquitin-conjugating enzyme E2 A (UBE2A), which harbored three mutations with an average allelic fraction of 0.28 (range 0.1–0.38).” (Results, p.&nbsp;5)</li>
+<li>“Two samples harbored the same missense mutation c.16C &gt; T, p.(Arg6Trp), and the third an in-frame deletion c.16_18del, p.(Arg6del).” (Results, p.&nbsp;5)</li>
+<li>“Targeted screening of an independent validation set of 54 FFPE polyp samples revealed two additional polyps with the c.16C &gt; T, p.(Arg6Trp) mutation.” (Results, p.&nbsp;6)</li>
+<li>“Analysis of recurrent breakpoint regions revealed simple and complex chromosomal rearrangements involving 6p21.31 (HMGA1) and/or 12q14.3 (HMGA2) in 17 of 23 (74%) polyps.” (Results, p.&nbsp;6)</li>
+<li>“We confirmed upregulation of HMGA1 in polyps harboring an HMGA1 rearrangement when compared to normal endometrium (p = 0.02, Student’s t-test, log2FC = 1.06).” (Results, p.&nbsp;9)</li>
+<li>“we identified significant upregulation of <a href="../genes/PLAG1.html">PLAG1</a> in endometrial polyps harboring either an HMGA1 (p = 3.91 × 10⁻⁶, Student’s t-test, log2FC = 3.22) or an HMGA2 (p = 0.02, Student’s t-test, log2FC = 3.38) rearrangement when compared to endometrium.” (Results, p.&nbsp;9)</li>
+<li>“ZMAT3 was the most significantly upregulated gene in these polyps.” (Results, p.&nbsp;9–10)</li>
+<li>“Fisher’s exact test revealed a significant association between the IHC and WGS results (HMGA1, p = 0.008, HMGA2, p = 0.012).” (Results, p.&nbsp;12)</li>
+<li>“We have characterized the genomic landscape of endometrial polyps. We show that chromosomal alterations affecting HMGA1 and HMGA2 are a major underlying cause for polyp development. In addition, we present UBE2A as a novel candidate gene for human tumorigenesis.” (Conclusions)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28445112.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28445112.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,6 +198,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Used for SNV calling in 619 CRC FFPE tumor/normal pairs alongside Indelocator (indels) and Strelka (concordant indel filtering) <a href="../papers/27149842.html">PMID:27149842</a></li>
 <li>Used for somatic mutation calling in 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study <a href="../papers/27158780.html">PMID:27158780</a></li>
 <li>Used (panel-of-normals filtering analogous to MuTect) for somatic mutation calling in 2,433 primary breast tumours from the METABRIC cohort targeted-sequencing study <a href="../papers/27161491.html">PMID:27161491</a></li>
+<li>Used for SNV calling in 62 uRCC tumours profiled with the MSK-IMPACT 230-gene panel (matched normal available in 61/62 cases). <a href="../papers/27713405.html">PMID:27713405</a></li>
+<li>SNV calling pipeline applied alongside SNVseeqer on 72 urothelial carcinoma WES samples; only ~28% of mutations were shared between matched pre/post-chemotherapy tumour pairs. <a href="../papers/27749842.html">PMID:27749842</a></li>
+<li>Used (MuTect v1.1.7) as the primary substitution caller in analysis of 216 metastatic breast cancer whole-exome sequencing datasets, downstream of BWA-MEM alignment and GATK base recalibration <a href="../papers/28027327.html">PMID:28027327</a>.</li>
+<li>Used MuTect for somatic SNV calling from paired tumor-normal sequencing data <a href="../papers/28373299.html">PMID:28373299</a></li>
+<li>Applied MuTect for somatic mutation calling from paired tumor-normal sequencing <a href="../papers/28445112.html">PMID:28445112</a></li>
+<li>Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>Applied for somatic SNV calling on CCA whole-genome and exome sequencing data in the ICGC cholangiocarcinoma cohort (489 tumors across three sequencing platforms) <a href="../papers/28667006.html">PMID:28667006</a></li>
+<li>Used for somatic SNV calling (MuTect v1.1.4) in 1001 DLBCL whole-exome sequencing samples <a href="../papers/28985567.html">PMID:28985567</a></li>
+<li>Used for SNV calling in 412 BLCA tumor-normal pairs identifying 128,772 SNVs; confirmed APOBEC-dominated mutational landscape (67% of SNVs) <a href="../papers/28988769.html">PMID:28988769</a></li>
+<li>One of four somatic variant callers applied to 68 paired melanoma biopsies in the CA209-038 nivolumab trial; intersection of MuTect 1.1.4, SomaticSniper 1.0.4, VarScan 2.3.7, and Strelka 1.0.13 was used <a href="../papers/29033130.html">PMID:29033130</a></li>
+<li>MuTect used for SNV calling in 35 metastatic <a href="../cancer_types/CCRCC.html">CCRCC</a> paired tumor/normal WES samples to identify PBRM1 LOF mutations enriched in anti-PD-1 responders <a href="../papers/29301960.html">PMID:29301960</a></li>
+<li>MuTect used for SNV calling in 15 vulvar SCC paired tumor/normal WES samples (Korean cohort) aligned to hg19 with BWA v0.7.15 <a href="../papers/29422544.html">PMID:29422544</a></li>
+<li>One of seven callers in the TCGA MC3 pipeline; detected the largest number of true positive SNVs and showed highest pair-wise agreement with MuSE; run by Broad Firehose <a href="../papers/29596782.html">PMID:29596782</a></li>
+<li>Used to call SNVs (v1.1.6) across 1,013 prostate tumor/normal pairs in the prad_p1000 dataset, identifying 97 SMGs <a href="../papers/29610475.html">PMID:29610475</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -232,9 +246,23 @@ ul.task-list li input[type="checkbox"] {
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26901067.html">PMID:26901067</a></p>
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27161491.html">PMID:27161491</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27749842.html">PMID:27749842</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28373299.html">PMID:28373299</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28445112.html">PMID:28445112</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28988769.html">PMID:28988769</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29033130.html">PMID:29033130</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29301960.html">PMID:29301960</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29422544.html">PMID:29422544</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29596782.html">PMID:29596782</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29610475.html">PMID:29610475</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
 
 
 </section>

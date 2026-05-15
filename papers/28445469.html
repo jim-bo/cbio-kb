@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Phylogenetic ctDNA analysis depicts early stage lung cancer evolution – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28445469.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28445469.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Phylogenetic ctDNA analysis depicts early stage lung cancer evolution</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christopher Abbosh </p>
+             <p>Nicolai J. Birkbak </p>
+             <p>Gareth A. Wilson </p>
+             <p>Mariam Jamal-Hanjani </p>
+             <p>Tudor Constantin </p>
+             <p>Raheleh Salari </p>
+             <p>John Le Quesne </p>
+             <p>David A. Moore </p>
+             <p>Selvaraju Veeriah </p>
+             <p>Rachel Rosenthal </p>
+             <p>Teresa Marafioti </p>
+             <p>Eser Kirkizlar </p>
+             <p>Thomas B. K. Watkins </p>
+             <p>Nicholas McGranahan </p>
+             <p>Sophia Ward </p>
+             <p>Luke Martinson </p>
+             <p>Joan Riley </p>
+             <p>Francesco Fraioli </p>
+             <p>Maise Al Bakir </p>
+             <p>Eva Gronroos </p>
+             <p>Francisco Zambrana </p>
+             <p>Raymondo Endozo </p>
+             <p>Wenya Linda Bi </p>
+             <p>Fiona M. Fennessy </p>
+             <p>Nicole Sponer </p>
+             <p>Diana Johnson </p>
+             <p>Joanne Laycock </p>
+             <p>Seema Shafi </p>
+             <p>Justyna Czyzewska-Khan </p>
+             <p>Andrew Rowan </p>
+             <p>Tim Chambers </p>
+             <p>Nirupa Matthews </p>
+             <p>Samra Turajlic </p>
+             <p>Crispin Hiley </p>
+             <p>Siow Ming Lee </p>
+             <p>Martin D. Forster </p>
+             <p>Tanya Ahmad </p>
+             <p>Mary Falzon </p>
+             <p>Elaine Borg </p>
+             <p>David Lawrence </p>
+             <p>Martin Hayward </p>
+             <p>Shyam Kolvekar </p>
+             <p>Nikolaos Panagiotopoulos </p>
+             <p>Sam M. Janes </p>
+             <p>Ricky Thakrar </p>
+             <p>Asia Ahmed </p>
+             <p>Fiona Blackhall </p>
+             <p>Yvonne Summers </p>
+             <p>Rajesh Shah </p>
+             <p>Leena Joseph </p>
+             <p>Anne M. Quinn </p>
+             <p>Phil Crosbie </p>
+             <p>Babu Naidu </p>
+             <p>Gary Middleton </p>
+             <p>Gerald Langman </p>
+             <p>Simon Trotter </p>
+             <p>Marianne Nicolson </p>
+             <p>Hardy Remmen </p>
+             <p>Keith Kerr </p>
+             <p>Mahendran Chetty </p>
+             <p>Lesley Gomersall </p>
+             <p>Dean A. Fennell </p>
+             <p>Apostolos Nakas </p>
+             <p>Sridhar Rathinam </p>
+             <p>Girija Anand </p>
+             <p>Sajid Khan </p>
+             <p>Peter Russell </p>
+             <p>Veni Ezhil </p>
+             <p>Babikir Ismail </p>
+             <p>Melanie Irvin-Sellers </p>
+             <p>Vineet Prakash </p>
+             <p>Jason Lester </p>
+             <p>Malgorzata Kornaszewska </p>
+             <p>Richard Attanoos </p>
+             <p>Haydn Adams </p>
+             <p>Helen Davies </p>
+             <p>Stefan Dentro </p>
+             <p>Peter Van Loo </p>
+             <p>Allan Hackshaw </p>
+             <p>Jacqui Shaw </p>
+             <p>Yenting Ngai </p>
+             <p>Hugo J. W. L. Aerts </p>
+             <p>Jonas Demeulemeester </p>
+             <p>Aengus Stewart </p>
+             <p>Sergio A. Quezada </p>
+             <p>Karl Peggs </p>
+             <p>Hisham Bandulet </p>
+             <p>Nitzan Rosenfeld </p>
+             <p>Caroline Dive </p>
+             <p>Javier Herrero </p>
+             <p>Bernhard Kohli </p>
+             <p>Allyson Hugues </p>
+             <p>Helen Lowe </p>
+             <p>Yelena Nuzhdina </p>
+             <p>Charles Swanton </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/nature22364">10.1038/nature22364</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 28445469 · <strong>DOI:</strong> <a href="https://doi.org/10.1038/nature22364">10.1038/nature22364</a> · <strong>Journal:</strong> Nature (2017)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Abbosh et al.&nbsp;report the first ctDNA analysis from the <a href="../datasets/nsclc_tracerx_2017.html">TRACERx</a> prospective lung cancer evolution study, profiling the first 100 surgically resected early-stage <a href="../cancer_types/NSCLC.html">NSCLC</a> patients with bespoke multiplex-PCR NGS panels (median 18 SNVs per patient) targeting clonal and subclonal variants identified by <a href="../methods/multiregion-exome-seq.html">multi-region exome sequencing</a>. Pre-operative ctDNA was detected in 48% (46/96) of tumors with a stark histology effect: 97% of <a href="../cancer_types/LUSC.html">LUSC</a> versus 19% of <a href="../cancer_types/LUAD.html">LUAD</a>. Post-operatively in a 24-patient longitudinal sub-cohort, ctDNA detected <a href="../cancer_types/NSCLC.html">NSCLC</a> relapse in 13/14 (93%) confirmed-relapse cases with a median lead-time of 70 days over imaging, identified adjuvant-chemotherapy resistance in real time, and resolved the subclonal architecture of metastatic seeding via phylogenetic tracking — including a targetable <a href="../genes/ERBB2.html">ERBB2</a> amplification subclone driving relapse in CRUK0004.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Cohort:</strong> First 100 patients of the prospective <a href="../datasets/nsclc_tracerx_2017.html">TRACERx</a> NSCLC study (NCT01888601); 96 evaluable for pre-operative ctDNA. Histologies include 58 <a href="../cancer_types/LUAD.html">LUAD</a>, 31 <a href="../cancer_types/LUSC.html">LUSC</a>, and 7 other NSCLC subtypes.</li>
+<li><strong>Longitudinal sub-cohort:</strong> 24 patients with pre- and post-surgical plasma profiling (14 confirmed relapse, 10 relapse-free with median follow-up 775 days).</li>
+<li><strong>Tumor genomics:</strong> 327 spatially separated primary tumor regions plus 4 metastatic biopsies underwent <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> through the TRACERx <a href="../methods/multiregion-exome-seq.html">multi-region exome</a> (M-Seq) pipeline; copy number / purity / ploidy via <a href="../methods/ascat.html">ASCAT</a>; subclonal clusters via a modified <a href="../methods/pyclone.html">PyClone</a>; <a href="../methods/phylogenetic-tree-reconstruction.html">phylogenetic trees</a> constructed with CITUP (0.1.0) plus manual reconstruction for relapse/autopsy cases (<a href="../papers/28445469.html">PMID:28445469</a>).</li>
+<li><strong>ctDNA assay:</strong> Bespoke patient-specific multiplex-PCR NGS panels (Natera assay design pipeline; precursor to Signatera) — <a href="../methods/amplicon-sequencing.html">amplicon sequencing</a> of clonal + subclonal SNVs, sequenced on Illumina HiSeq 2500 to ~40,000× target depth. Median 18 SNVs per panel pre-operatively; expanded to median 28 SNVs for <a href="../cancer_types/LUAD.html">LUAD</a> panels in the longitudinal phase. Analytical sensitivity &gt;99% at VAF ≥0.1%; specificity 99.6% per SNV.</li>
+<li><strong>Imaging:</strong> Pre-operative <a href="../methods/pet-ct-imaging.html">PET/CT</a> reviewed for 92/96 patients; primary tumor volume measured on <a href="../methods/ct-imaging.html">CT</a> using 3D Slicer. Ki67 <a href="../methods/immunohistochemistry.html">immunohistochemistry</a> on TMA cores.</li>
+<li><strong>Post-mortem analysis:</strong> One patient (CRUK0063) co-recruited to the PEACE post-mortem study (NCT03004755); 6 metastatic regions sampled within 24 h of death.</li>
+<li><strong>Validation:</strong> Cross-platform validation in 28 patients using the Oncomine Lung cfDNA Assay (ThermoFisher).</li>
+<li><strong>Data deposition:</strong> EGA accessions EGAS00001002247 (primary) and EGAS00001002415 (metastatic).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Pre-operative ctDNA detection rate is dominated by histology.</strong> ≥2 SNVs detected in 46/96 (48%) NSCLCs pre-operatively: 30/31 (97%) <a href="../cancer_types/LUSC.html">LUSC</a>, 5/7 (71%) other NSCLC, 11/58 (19%) LUAD. Stage I subgroup: 16/17 (94%) LUSC vs 5/39 (13%) LUAD (<a href="../papers/28445469.html">PMID:28445469</a>).</li>
+<li><strong>Independent predictors of ctDNA detection (multivariable logistic regression):</strong> non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 proliferation index. PET FDG-avidity (TBR) predicted ctDNA detection by ROC AUC 0.84 (P&lt;0.001, n=92).</li>
+<li><strong>Driver mutation status does not predict ctDNA in LUAD.</strong> Within the LUAD subgroup, <a href="../genes/KRAS.html">KRAS</a>, <a href="../genes/EGFR.html">EGFR</a>, and <a href="../genes/TP53.html">TP53</a> driver events were not associated with ctDNA detection (Extended Data Fig. 3e).</li>
+<li><strong>Tumor volume linearly predicts plasma clonal VAF.</strong> Tumor volume vs mean clonal VAF: Spearman’s ρ = 0.63, P&lt;0.001, n=37; pathological tumor size ρ = 0.405, P=0.005, n=46. Linear model predicts a 10 cm³ primary tumor → mean clonal plasma VAF of 0.1% (95% CI 0.06–0.18%), corresponding to ~302 million malignant cells.</li>
+<li><strong>Implication for screening sensitivity:</strong> A 4 mm low-dose CT-detectable nodule (~0.034 cm³) would correspond to a predicted plasma VAF of 1.8 × 10⁻⁴ % (95% CI 9.8 × 10⁻⁶ to 0.0033%), at or beyond current ctDNA platform detection limits.</li>
+<li><strong>Subclonal SNV detection scales with subclone volume.</strong> Shared subclones detected in 35/57 (61%) vs private subclones in 26/80 (33%); subclone volume (CCF × tumor volume × purity) correlated with subclonal plasma VAF.</li>
+<li><strong>Post-operative ctDNA detects relapse with a median 70-day lead-time.</strong> ≥2 SNVs detected in 13/14 (93%) confirmed-relapse patients prior to or at clinical relapse vs 1/10 (10%) relapse-free patients (CRUK0013). Lead-time range 10–346 days; 4/13 cases had &gt;6-month lead-times. In two cases ctDNA preceded inconclusive CT imaging by 157 (CRUK0004) and 163 days (CRUK0045).</li>
+<li><strong>ctDNA marks adjuvant chemotherapy resistance in real time.</strong> CRUK0080, CRUK0004, and CRUK0062 had detectable ctDNA within 30 days of surgery, with SNV counts increasing through adjuvant chemotherapy — all recurred within 1 year. Conversely, CRUK0013 had 20 SNVs detectable post-op, became undetectable after adjuvant chemoradiotherapy, and remained relapse-free at 688 days.</li>
+<li><strong>Phylogenetic ctDNA tracks the subclone(s) seeding metastasis.</strong> In CRUK0063, post-operative detection of an OR5D18 SNV traced back to a subclone private to primary region 3; metastatic biopsy confirmed this subclone gave rise to the para-vertebral metastasis (and contained an <a href="../genes/ARID1A.html">ARID1A</a> stop-gain driver only retrospectively detectable at lower threshold in primary region 3).</li>
+<li><strong>Targetable relapse-driving subclones can be identified.</strong> CRUK0004 relapse was dominated by a subclone harboring an <a href="../genes/ERBB2.html">ERBB2</a> (HER2) amplification (&gt;15 copies, triploid background) — a potentially actionable target in NSCLC.</li>
+<li><strong>Polyclonal vs monoclonal relapse can be distinguished.</strong> Relapses involving subclones from a single phylogenetic branch (CRUK0004, CRUK0063, CRUK0065, CRUK0044) vs multiple branches (CRUK0080, CRUK0062, CRUK0041) were resolvable from plasma.</li>
+<li><strong>Expanded 103-SNV panel detects relapse 189 days earlier.</strong> In the post-mortem case CRUK0063, the expanded panel detected ctDNA at day 151 post-surgery — 189 days before the 19-SNV panel.</li>
+<li><strong>Plasma VAF of subclonal clusters mirrors phylogenetic distance from the trunk.</strong> In CRUK0063, mean VAFs of clusters 11, 8, 12, 9, and 5 reflected their proximity to the clonal cluster on the M-Seq tree, supporting tiered-burden inference from plasma alone.</li>
+<li><strong>An ancestral subclone with <a href="../genes/KRAS.html">KRAS</a> amplification (&gt;15 copies, triploid background) drove residual lymph-node disease in CRUK0013</strong> that responded to adjuvant chemoradiotherapy.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/KRAS.html">KRAS</a> — driver SNVs targeted in LUAD assay-panels; not associated with pre-operative ctDNA detection within LUADs. <a href="../genes/KRAS.html">KRAS</a> amplification (&gt;15 copies) found as an ancestral subclonal event driving lymph-node residual disease in CRUK0013, which responded to adjuvant chemoradiotherapy (<a href="../papers/28445469.html">PMID:28445469</a>).</li>
+<li><a href="../genes/EGFR.html">EGFR</a> — driver SNVs in LUAD; not associated with pre-operative ctDNA detection within the LUAD subset.</li>
+<li><a href="../genes/TP53.html">TP53</a> — driver SNVs in LUAD; not associated with ctDNA detection within LUADs.</li>
+<li><a href="../genes/ERBB2.html">ERBB2</a> — focal amplification (&gt;15 copies, triploid background) on a relapse-dominant subclone identified in plasma for patient CRUK0004; flagged by the authors as a potentially targetable relapse driver in NSCLC.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — stop-gain driver SNV in the para-vertebral metastasis of CRUK0063, originally below M-Seq calling threshold in primary tumor region 3 from which the metastatic subclone derived.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Post-operative ctDNA as a residual-disease biomarker</strong> in early-stage NSCLC, with median 70-day lead-time over CT-confirmed relapse, supports adjuvant trials triggered by molecular-residual-disease detection rather than population-level treatment of all resected stage I–III patients (<a href="../papers/28445469.html">PMID:28445469</a>).</li>
+<li><strong>Adjuvant chemotherapy resistance can be detected in plasma</strong> within 1–6 months of surgery — patients whose ctDNA fails to clear (or whose SNV burden rises) on adjuvant <a href="../drugs/cisplatin.html">cisplatin</a>/<a href="../drugs/carboplatin.html">carboplatin</a> plus <a href="../drugs/vinorelbine.html">vinorelbine</a> recurred within 1 year, while ctDNA clearance after adjuvant therapy was associated with sustained remission (CRUK0013, 688 days relapse-free at publication).</li>
+<li><strong>Phylogenetic ctDNA tracking can identify targetable subclonal drivers of relapse</strong>, exemplified by an <a href="../genes/ERBB2.html">ERBB2</a>-amplified subclone in CRUK0004, opening the prospect of relapse-directed (rather than primary-tumor-directed) targeted therapy.</li>
+<li><strong>Histology must inform ctDNA assay design and clinical interpretation.</strong> With LUAD detection rates of only 13–19% for stage I disease using clonal-SNV panels of ~18 markers, LUAD-targeted residual-disease platforms require either expanded panels (28+ SNVs as used in the longitudinal cohort) or orthogonal approaches.</li>
+<li><strong>Cost remains a constraint:</strong> the authors <a href="../methods/estimate.html">estimate</a> ~$1,750 per patient for primary-tumor exome + bespoke panel synthesis + 5 plasma time points.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>LUAD sensitivity ceiling.</strong> Even the expanded LUAD panel (median 28 SNVs) may underdetect ctDNA-low adenocarcinomas; the volume-VAF model predicts that small (&lt;1 cm³) LUADs lie below current ctDNA detection thresholds.</li>
+<li><strong>Cohort size for the longitudinal phase is small</strong> (n=24): the 93% relapse-detection sensitivity and 70-day lead-time estimates carry wide confidence intervals and require validation in the planned larger TRACERx 421-patient cohort.</li>
+<li><strong>Sampling bias for relapse tissue.</strong> Metastatic biopsy was only available for 4 patients plus the CRUK0063 PEACE autopsy; the inferred dominance of monoclonal vs polyclonal relapse may shift with broader sampling.</li>
+<li><strong>Subclone resolution depends on M-Seq density.</strong> Subclones present below the M-Seq detection threshold in the primary tumor (e.g., the <a href="../genes/ARID1A.html">ARID1A</a> stop-gain in CRUK0063) can only be retrospectively validated; the platform cannot prospectively design assays against truly de-novo metastatic mutations.</li>
+<li><strong>No validation against orthogonal MRD platforms</strong> beyond a 28-patient cross-platform comparison with the Oncomine Lung cfDNA hotspot panel.</li>
+<li><strong>Type I error at scale.</strong> The 103-SNV expanded panel for CRUK0063 carried a 10.7% per-time-point risk of a single false-positive SNV call, motivating the ≥2-SNV positivity threshold but illustrating that panel expansion is not free.</li>
+<li><strong>Generalizability beyond surgically resected early-stage disease</strong> to unresectable, oligometastatic, or non-NSCLC settings remains untested in this report.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“At least two SNVs were detected in ctDNA pre-operatively in 46 of 96 (48%) early-stage NSCLCs… 97% (30/31) of lung squamous cell carcinomas (LUSCs)… compared with 19% (11/58) of lung adenocarcinomas (LUADs).” (Results, p.&nbsp;2)</li>
+<li>“Multivariable analysis revealed non-adenocarcinoma histology, the presence of lympho-vascular invasion and high Ki67 proliferation index as independent predictors of ctDNA detection.” (Results, p.&nbsp;3)</li>
+<li>“Tumor volume correlated with mean clonal plasma VAF (Spearman’s Rho = 0.63, P&lt;0.001, n=37)… a primary tumor burden of 10cm3 would result in a mean clonal plasma VAF of 0.1%.” (Results, p.&nbsp;3)</li>
+<li>“At least 2 SNVs were detected in 13 of 14 (93%) patients with confirmed NSCLC relapse prior to, or at, clinical relapse… the median interval between ctDNA detection and NSCLC relapse confirmed on clinically indicated CT imaging (lead-time) was 70 days (range 10 to 346 days).” (Results, p.&nbsp;4)</li>
+<li>“The subclone implicated by ctDNA as driving the relapse in the case of CRUK0004 contained an ERRB2 (HER2) amplification event (&gt;15 copies, triploid background), that may be targetable in NSCLC.” (Results, p.&nbsp;5)</li>
+<li>“This ancestral subclone contained a KRAS amplification (&gt;15 copies, triploid background) and was identified as present in primary tumor and sampled lymph-nodes by M-Seq.” (Results, p.&nbsp;6, CRUK0013)</li>
+<li>“A limitation to targeted ctDNA profiling is cost, estimated at $1750 per patient for sequencing a single tumor region, synthesis of a patient-specific assay-panel and profiling of five plasma samples.” (Discussion, p.&nbsp;7)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-15</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/28445469.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/28445469.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -191,6 +191,14 @@ ul.task-list li input[type="checkbox"] {
 <li>bwa v0.7.1 used for alignment of WES reads from 141 tumors of 56 men with metastatic CRPC (prad_fhcrc), followed by GATK indel realignment and MuTect somatic mutation calling. <a href="../papers/26928463.html">PMID:26928463</a></li>
 <li>BWA-MEM used for read realignment in 619 CRC FFPE tumor/normal WES pairs prior to SNV/indel calling with MuTect and Indelocator/Strelka <a href="../papers/27149842.html">PMID:27149842</a></li>
 <li>Used for read alignment in the NSCLC pan-lung WES study covering 1,144 tumor/normal pairs (660 ADC + 484 SqCC) <a href="../papers/27158780.html">PMID:27158780</a></li>
+<li>BWA-MEM used to align tumour and matched-normal reads to hg19 for MSK-IMPACT sequencing in 62 uRCC tumours; average coverage 348x tumour / 280x normal. <a href="../papers/27713405.html">PMID:27713405</a></li>
+<li>BWA-MEM used for read alignment of 216 metastatic breast cancer whole-exome sequencing samples before GATK base recalibration and MuTect/Scalpel mutation calling <a href="../papers/28027327.html">PMID:28027327</a>.</li>
+<li>Used for read alignment in the TCGA esophageal/stomach multi-platform study across 164 oesophageal carcinomas and 359 gastric adenocarcinomas <a href="../papers/28052061.html">PMID:28052061</a>.</li>
+<li>Used BWA for short-read alignment to the reference genome in WGS/WES pipelines <a href="../papers/28373299.html">PMID:28373299</a></li>
+<li>BWA MEM used for alignment to hg19 in the MSK-IMPACT bioinformatics pipeline, followed by ABRA realignment and GATK base-quality recalibration <a href="../papers/28481359.html">PMID:28481359</a></li>
+<li>Used for alignment of whole-genome sequencing reads (Illumina HiSeq X10/2500/2000) in the ICGC cholangiocarcinoma study (n=71 WGS tumor/normal pairs) <a href="../papers/28667006.html">PMID:28667006</a></li>
+<li>BWA mem alignment to hg19 applied in the DLBCL whole-exome sequencing pipeline for 1001 tumors <a href="../papers/28985567.html">PMID:28985567</a></li>
+<li>BWA v0.7.15 used to align WES reads to hg19 for 15 Korean vulvar SCC tumor/normal pairs; followed by Picard v2.7.1 and Samtools v1.3.1 de-duplication and GATK v3.6 local realignment/BQSR <a href="../papers/29422544.html">PMID:29422544</a></li>
 </ul>
 </section>
 <section id="notes" class="level2">
@@ -220,8 +228,16 @@ ul.task-list li input[type="checkbox"] {
 <p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/26804919.html">PMID:26804919</a></p>
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/26928463.html">PMID:26928463</a></p>
 <p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27149842.html">PMID:27149842</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
-<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27158780.html">PMID:27158780</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/27713405.html">PMID:27713405</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28027327.html">PMID:28027327</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28052061.html">PMID:28052061</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28373299.html">PMID:28373299</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-14</strong>.</em> - <a href="../papers/28481359.html">PMID:28481359</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28667006.html">PMID:28667006</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/28985567.html">PMID:28985567</a></p>
+<p><em>This page was processed by <strong>entity-page-writer</strong> on <strong>2026-05-15</strong>.</em> - <a href="../papers/29422544.html">PMID:29422544</a></p>
+<p><em>This page was processed by <strong>wiki-cli</strong> on <strong>2026-05-15</strong>.</em></p>
 
 
 </section>

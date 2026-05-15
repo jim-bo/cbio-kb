@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ERBB2
@@ -67,6 +67,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - ERBB2 alterations are recurrent in plasmacytoid-variant bladder cancer profiled by WES and 341-gene IMPACT panel (n=31 tumors); flagged as a clinically actionable target supporting early use of targeted agents [PMID:26901067](../papers/26901067.md)
 - High-level amplification enriched in lung tumors lacking other RTK/Ras/Raf activating events (p < 0.01) in a pan-lung TCGA cohort [PMID:27158780](../papers/27158780.md)
 - Somatic mutation frequency 2.8% ER+, 3.2% ER- in breast cancer; codon 755 hotspot enriched in ER+ tumors; mutations observed in relapsed CDH1-mutant lobular carcinomas; mutually exclusive of AKT1 mutations within 17q12-amplified context [PMID:27161491](../papers/27161491.md)
+- ERBB2 (HER2) amplification reported at 13.8% in young lung cancer (YLC) vs 4.4% in older patients (Hou et al.); conflicting data exist across studies; identified as an actionable alteration in this age group [PMID:27346245](../papers/27346245.md)
+- ERBB2 identified as an actionable alteration in salivary duct carcinoma (SDCA) within a pan-head-and-neck NGS cohort sequenced with MSK-IMPACT (410-gene panel) [PMID:27442865](../papers/27442865.md)
 
 ## Cancer types (linked)
 
@@ -189,13 +191,19 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

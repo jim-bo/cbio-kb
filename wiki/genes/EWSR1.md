@@ -3,8 +3,8 @@ symbol: EWSR1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # EWSR1
@@ -20,6 +20,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - EWSR1::[FLI1](../genes/FLI1.md) fusion expressed at low levels in human embryonic mesenchymal stem cells (heMSCs) is the sole genetic event required to induce an Ewing sarcoma–like transcriptome, DDR defect, and metastatic tumor formation; binds intronic CA microsatellites in the cell-of-origin context [PMID:25186949](../papers/25186949.md)
 - Obligate fusion partner in all Ewing sarcoma tumors: EWSR1-FLI1 in 101/112 cases, EWSR1-ERG in 9, EWSR1-ETV1 in 1; two additional somatic missense mutations observed [PMID:25223734](../papers/25223734.md)
 - Identified as an RNA processing and export driver in CLL; grouped with [XPO4](../genes/XPO4.md) and [NXF1](../genes/NXF1.md) in a WES study of 538 CLL patients [PMID:26466571](../papers/26466571.md)
+- EWSR1-FLI1 fusion identified in an odontogenic case, reclassifying it as Ewing sarcoma (ES) with epithelial differentiation; EWSR1-ATF1 fusion identified in a clear cell odontogenic carcinoma (CCOC), a novel finding in odontogenic tumors [PMID:27442865](../papers/27442865.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

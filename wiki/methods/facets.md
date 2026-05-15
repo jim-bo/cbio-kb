@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [copy-number, clonality, computational]
-processed_by: wiki-cli
-processed_at: 2026-05-05
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # FACETS
@@ -25,6 +25,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:38949888](../papers/38949888.md) — FACETS v0.5.6 used for copy-number analysis in 3,244 prostate cancer tumors from 2,257 patients sequenced by MSK-IMPACT [PMID:38949888](../papers/38949888.md).
 - [PMID:39753968](../papers/39753968.md) — FACETS v0.5.14 used in a two-step pipeline for allele-specific copy-number inference in 2,336 PDAC patients sequenced with MSK-IMPACT; 1,555 of 2,322 tumors passed copy-number QC; FACETS output enabled classification of [KRAS](../genes/KRAS.md) allelic imbalance events (focal/arm amplifications, gains, CNLOH, LOH, post-WGD loss) and showed that [KRAS](../genes/KRAS.md) mutant-allele dosage gains independently predict shorter [OS](../cancer_types/OS.md) across all clinical stages [PMID:39753968](../papers/39753968.md).
 - Used to assess tumor purity (>=25% threshold) in 22 primary-metastasis WES pairs for bladder cancer clonal evolution analysis [PMID:36543146](../papers/36543146.md)
+- FACETS used for allele-specific copy-number estimation and clonality assessment in 151 advanced head and neck tumors sequenced with MSK-IMPACT; identified whole-genome duplication in 25% of HNSC cases and quantified 3p deletions enriched in recurrent HPV-positive disease [PMID:27442865](../papers/27442865.md)
 
 ## Notes
 
@@ -44,3 +45,6 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:36543146](../papers/36543146.md)
 
 *This page was processed by **wiki-cli** on **2026-05-05**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

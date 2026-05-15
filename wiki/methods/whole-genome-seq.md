@@ -80,6 +80,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - WGS of 25 ACC tumor/normal pairs (mean coverage 65.2× tumor / 38.1× normal) on Illumina HiSeq; identified 253 chromosomal rearrangements including 5 novel NFIB fusion partners and Rho-GTPase pathway disruption in 44% of tumors [PMID:26862087](../papers/26862087.md)
 - Whole-genome sequencing data from the BCC/SCC corpus (EGAD0000101525) used as a reference baseline for skin cancer mutation burdens (cSCC mean 50 substitutions/Mb, BCC mean 65 substitutions/Mb) in the NB-UVB surveillance model. [PMID:26950094](../papers/26950094.md)
 - Applied to 40 MRT tumor/normal pairs (median tumor content 88.0%); identified near-universal SMARCB1 biallelic inactivation (39/40 cases), quiet overall genomes (median 612.5 SNVs/case, 0.231 mutations/Mb), and Chr22 as the dominant structural variation locus (9/15 recurrent CNA loci, 22/26 verified gene fusions). [PMID:26977886](../papers/26977886.md)
+- Whole-genome sequencing cited as reference methodology for comprehensive mutation detection in AML; the primary AMLSG study used a targeted 111-gene panel, with WGS noted as context for driver-gene discovery [PMID:27276561](../papers/27276561.md)
+- Whole-genome sequencing used alongside WES and targeted NGS in studies of germline susceptibility and somatic driver characterization in young-onset NSCLC [PMID:27346245](../papers/27346245.md)
 
 ## Notes
 
@@ -261,5 +263,11 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

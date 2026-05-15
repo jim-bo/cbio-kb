@@ -3,8 +3,8 @@ symbol: PIK3CA
 aliases: []
 cancer_types: [LUAD, LCH, ECD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, HCC, THAP, THPA, IHCH, EHCH, STAD, RMS, ERMS, GBM]
 tags: [pi3k-pathway, actionable, thyroid-cancer, cholangiocarcinoma, gastric-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PIK3CA
@@ -108,6 +108,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA recurrently altered in plasmacytoid-variant bladder cancer; flagged by the authors as a clinically actionable target supporting early use of PI3K-pathway inhibitors. [PMID:26901067](../papers/26901067.md)
 - Significantly more frequently mutated in lung SqCC than lung ADC (p < 0.01, Fisher's exact); one of only six genes significantly mutated in both NSCLC histologies (alongside TP53, RB1, ARID1A, CDKN2A, NF1). PIK3CA p.E542K is a recurrent predicted neoepitope candidate for off-the-shelf vaccine design. [PMID:27158780](../papers/27158780.md)
 - Most frequently mutated gene in the METABRIC 2,433-tumor breast cancer cohort (40.1% coding-mutation frequency); ER+ ONC=94%, ER- ONC=81%. Helical-domain (codons 542/545) and codon 345 hotspots enriched in ER+; kinase-domain codon 1047 enriched in ER-. Mutually exclusive with AKT1, PIK3R1, and FOXO3. Prognostic in ER- disease (HR=1.4); prognostic in ER+ only within IntClusts 1, 2, and 9 (defined by 17q23, 11q13-14, and 8q24 amplifications). 45.2% of all tumors had a mutation in at least one Akt-pathway member. [PMID:27161491](../papers/27161491.md)
+- PIK3CA E542K mutations (n=4) identified in cisplatin-resistant germ cell tumor patients; classified as actionable PI3K-pathway alteration in a targeted sequencing cohort [PMID:27646943](../papers/27646943.md).
+- PIK3CA mutated in 10% of recurrent/metastatic HPV-positive HNSCC (down from 36% in primary HPV+ tumors); 4 HNSCC and 1 NPC and 1 ACYC patients enrolled on PI3K-inhibitor trials based on this alteration [PMID:27442865](../papers/27442865.md).
 
 ## Cancer types (linked)
 
@@ -367,16 +369,22 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

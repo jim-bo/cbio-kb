@@ -5,8 +5,8 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 genePanelId: IMPACT410
 ---
 
@@ -23,6 +23,8 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:37591896](../papers/37591896.md) — one of the MSK-IMPACT panel versions used for 233 resected [NSCLC](../cancer_types/NSCLC.md) brain metastases plus matched primaries and extracranial mets [PMID:37591896](../papers/37591896.md).
 - [PMID:39214094](../papers/39214094.md) — IMPACT410 was one of the MSK-IMPACT panel generations (n=438 patients) used in the 397-patient sequenced subset of 1,360 resected PDAC cases at MSK; contributed to the allele-specific [KRAS](../genes/KRAS.md) profiling showing [KRAS](../genes/KRAS.md)^G12R^ enrichment in stage I disease and improved [OS](../cancer_types/OS.md) vs KRAS^G12D^ [PMID:39214094](../papers/39214094.md).
 - [PMID:39753968](../papers/39753968.md) — IMPACT410 was one of four panel generations (n=438 patients) used in the 2,336-patient MSK PDAC cohort; allele-specific copy number inferred with FACETS; KRAS mutant-allele dosage gains correlated with shorter [OS](../cancer_types/OS.md) independent of whole-genome doubling [PMID:39753968](../papers/39753968.md).
+- IMPACT410 (MSK-IMPACT 410-gene panel) used with matched normal DNA at median 600x coverage (CLIA-approved) to profile 151 advanced head and neck tumors; enabled actionable finding detection in 21% of cases and guided therapy in 14% of patients [PMID:27442865](../papers/27442865.md)
+- IMPACT410 used as the targeted sequencing assay in a prospective 161-patient GCT validation cohort; confirmed TP53 alteration exclusivity to cisplatin-resistant tumors and identified RAC1 hotspot mutations at 5% incidence [PMID:27646943](../papers/27646943.md)
 
 ## Notes
 
@@ -38,3 +40,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - `schema/ontology/gene_panels.json` (`genePanelId: IMPACT410`)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

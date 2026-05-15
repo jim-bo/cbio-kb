@@ -3,8 +3,8 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KRAS
@@ -93,6 +93,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Known CRC driver identified as a source of recurrent neopeptides; neoantigen load analysis in 619 colorectal cancer cases [PMID:27149842](../papers/27149842.md)
 - Co-occurs with activating PPP3CA mutations (p=0.033) in lung ADC in the TCGA pan-lung cohort; KRAS is a key Ras/Raf/RTK pathway driver considered when calculating the 76% actionable-driver fraction in lung ADC [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations at codon 12 observed in 11 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event; cited as a cross-cancer driver candidate suggesting drug repurposing potential [PMID:27161491](../papers/27161491.md)
+- KRAS mutations are under-represented in young-onset lung cancer (~9% in <40 yrs vs ~30% in 60-69 yrs); G12C and G12D dominate in the few KRAS-mutant young cases; Indian YLC data (Malik et al., n=133) showed 3.7% KRAS mutation rate [PMID:27346245](../papers/27346245.md)
+- KRAS hotspot mutations in 22/180 patients (12.2%; 23 total mutations, G12 dominant) in advanced germ cell tumors; enriched in seminomas overall (20% vs 8.7% in nonseminoma; P=.045); in nonseminomas, 8 of 11 KRAS mutations occurred in cisplatin-resistant tumors; MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -324,3 +326,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

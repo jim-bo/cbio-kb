@@ -5,7 +5,7 @@ main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # Nasopharyngeal Carcinoma (NPC)
@@ -25,6 +25,7 @@ Nasopharyngeal carcinoma (NPC) is an EBV-driven epithelial malignancy arising fr
 - TP53 mutations and reduced immune infiltration are enriched in EBV-negative NPC vs EBV-positive NPC [PMID:24952746](../papers/24952746.md).
 - CD276 (B7-H3) overexpressed; ADC YL201 achieved ORR 48.6% (median PFS 7.8 mo) in advanced NPC sub-cohort (n=70) [PMID:24952746](../papers/24952746.md).
 - CDK4/CDK6 — dalpiciclib + camrelizumab (PD-1-refractory R/M NPC, n=34): ORR 32.4%, median DOR 10.4 mo, median PFS 6.7 mo [PMID:24952746](../papers/24952746.md).
+- 8 NPC cases included in MSK-IMPACT head and neck cohort (Morris et al., N=151); PIK3CA mutation prompted PI3K-inhibitor trial enrollment in at least 1 NPC patient; NPC contributes to overall HNSC basket-trial enrollment rationale where 14% of 151 patients had NGS-guided therapy [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -43,3 +44,6 @@ Nasopharyngeal carcinoma (NPC) is an EBV-driven epithelial malignancy arising fr
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). 8 NPC cases in MSK-IMPACT cohort of 151 advanced head and neck tumors; PIK3CA mutation prompted PI3K-inhibitor trial enrollment.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

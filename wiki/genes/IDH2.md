@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # IDH2
@@ -28,6 +28,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 hotspot mutations in 13–29% intrahepatic CCA alongside [IDH1](../genes/IDH1.md); rare in extrahepatic CCA; IDH inhibitor resistance can involve isoform switching from [IDH1](../genes/IDH1.md) to IDH2 [PMID:25526346](../papers/25526346.md)
 - IDH1/IDH2 mutations in iCCA drive 2-HG accumulation, epigenetically suppressing bile acid biosynthesis genes (e.g., [CYP7A1](../genes/CYP7A1.md)) via DNA hypermethylation; [ivosidenib](../drugs/ivosidenib.md) (IDH1-specific) is the approved therapy highlighted as first targeted option for IDH1-mutant CCA. [PMID:25608663](../papers/25608663.md)
 - Defining hotspot mutation (alongside IDH1) across LGm1–3 / LGr1–3 IDH-mutant glioma subtypes in pan-glioma TCGA analysis (n=1122); IDH1/2 status forms the primary axis of methylome and transcriptome separation across diffuse glioma subtypes [PMID:26824661](../papers/26824661.md)
+- IDH2 R140 co-occurs strongly with NPM1 (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with NPM1 (OR 0.06, P=4e-5) and forms a provisional AML subgroup (1%, n=18) in a cohort of 1540 adults; DNMT3A × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -81,3 +82,6 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

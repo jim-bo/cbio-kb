@@ -40,6 +40,8 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Targeted DNA sequencing used alongside WES and WGS in colorectal cancer genomic profiling [PMID:26343386](../papers/26343386.md)
 - Hybrid-capture targeted sequencing across the TERT/CLPTM1L locus used alongside FISH to validate [TERT](../genes/TERT.md) 5p15.33 rearrangements in 161-sample neuroblastoma cohort; orthogonal confirmation by both methods required to call a rearrangement [PMID:26466568](../papers/26466568.md)
 - A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
+- Targeted 111-gene DNA sequencing panel applied to 1540 AML patients in three AMLSG trials to identify 5234 driver mutations across 76 genes and define 11 genomic subgroups [PMID:27276561](../papers/27276561.md)
+- Targeted NGS studies in young-onset lung cancer (YLC) employed targeted DNA sequencing alongside WES and WGS to profile germline susceptibility variants and somatic drivers [PMID:27346245](../papers/27346245.md)
 
 ## Notes
 
@@ -109,5 +111,11 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

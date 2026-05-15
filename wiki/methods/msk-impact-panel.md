@@ -55,6 +55,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT targeted sequencing panel applied to >650 pancreatic ductal adenocarcinoma samples to profile somatic mutations and copy-number alterations [PMID:26278805](../papers/26278805.md)
 - Used as the 341-gene IMPACT341 targeted-capture NGS panel (mean depth 584x tumor / 236x normal; 739x for ATCs) to sequence 117 advanced thyroid tumors (84 PDTC, 33 ATC) at MSKCC; detected TP53, TERT, SWI/SNF, and HMT mutations at 2-3x higher frequency than WES due to deep coverage. [PMID:26878173](../papers/26878173.md)
 - Used as the CLIA-certified MSK-IMPACT 341-gene panel to profile 6 plasmacytoid-variant bladder tumors in a prospective clinical cohort at MSKCC; identified CDH1 truncating mutations in all 6 plasmacytoid cases and 0/56 urothelial NOS cases. [PMID:26901067](../papers/26901067.md)
+- MSK-IMPACT 410-gene panel (IMPACT410) applied to 151 advanced head and neck tumors at MSK; CLIA-approved, median coverage 600x; guided therapy in 21/151 (14%) patients and 13/53 (25%) HNSC cases [PMID:27442865](../papers/27442865.md)
+- MSK-IMPACT 410-gene targeted exon-capture assay (>300 cancer genes, 500–1000x depth) used to validate in 161 prospective GCT patients the TP53/MDM2 alteration findings discovered by WES in the 19-patient discovery cohort [PMID:27646943](../papers/27646943.md)
 
 ## Notes
 
@@ -127,5 +129,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

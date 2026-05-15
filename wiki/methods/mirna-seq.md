@@ -25,6 +25,7 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - Profiled miRNA expression in 330 of 333 primary prostate adenocarcinomas (TCGA) as part of multi-platform molecular characterization that defined seven mutually exclusive molecular subtypes [PMID:26544944](../papers/26544944.md).
 - miRNA-seq applied to TCGA glioma samples as part of the multi-platform pan-glioma data integration defining molecular subtypes [PMID:26824661](../papers/26824661.md)
 - Applied to 66 primary MRTs; unsupervised clustering of 535 miRNAs split MRT into a larger sub-group (n=57) clustering with normal cerebellum and TCGA PCPG, and a smaller sub-group (n=9) clustering with synovial sarcomas, linking MRT to neural-crest lineages. [PMID:26977886](../papers/26977886.md)
+- miRNA-seq referenced as one of multiple sequencing modalities applied in molecular characterization studies of young-onset lung cancer (NSCLC) populations [PMID:27346245](../papers/27346245.md)
 
 ## Notes
 
@@ -52,5 +53,8 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

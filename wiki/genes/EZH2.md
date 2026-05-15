@@ -9,7 +9,7 @@ tags:
   - histone-methyltransferase
   - GCB
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # EZH2
@@ -36,6 +36,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Y641 hotspot mutation in Triple-WT cutaneous melanoma subtype (n=1) [PMID:26091043](../papers/26091043.md)
 - Y641S hotspot in 1 desmoplastic melanoma tumor [PMID:26343386](../papers/26343386.md)
 - Mentioned in study [PMID:26855148](../papers/26855148.md)
+- EZH2 identified as a chromatin regulator within the chromatin-spliceosome AML subgroup in a genomic classification of 1,540 patients; SMARCB1 deletion in a related context nominated EZH2 inhibitors as a therapeutic strategy [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -87,7 +88,10 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

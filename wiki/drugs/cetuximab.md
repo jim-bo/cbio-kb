@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
 processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_at: 2026-05-14
 ---
 
 # cetuximab
@@ -26,6 +26,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - Cited as a monoclonal antibody targeting EGFR in NPC with limited benefit; used as reference for EGFR-targeted therapy including ADC comparisons [PMID:24952746](../papers/24952746.md)
 - KRAS, NRAS, and BRAF driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, confirming that sequencing either site is equally valid for determining cetuximab eligibility [PMID:25164765](../papers/25164765.md)
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via anti-EGFR monoclonal antibody therapy; cetuximab trials in cSCC noted alongside gefitinib in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
+- EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for HNSC (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic HNSC [PMID:27442865](../papers/27442865.md)
 
 ## Resistance mechanisms
 
@@ -56,3 +57,6 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - [PMID:25303977](../papers/25303977.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

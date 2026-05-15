@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -85,6 +85,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600-mutant melanoma cohort used as cross-validation cohort 3 for IPRES resistance signature; prior/concurrent MAPK inhibitor therapy may induce IPRES-overlapping transcriptional programs, potentially compromising subsequent anti-PD-1 response [PMID:26997480](../papers/26997480.md)
 - BRAF p.G466V identified as a recurrent neoepitope hotspot in lung cancer; candidate shared neoantigen for off-the-shelf vaccine design [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations observed at low frequency in breast cancer (one BRAF V600E in ER- tumour); did not meet Mut-driver criteria as a standalone breast-cancer event in the 2,433-sample METABRIC cohort [PMID:27161491](../papers/27161491.md)
+- BRAF: lower frequency in young lung cancer compared to older patients; MET exon 14 skipping also age-skewed [PMID:27346245](../papers/27346245.md)
+- BRAF: mutated in 1% (n=9) of AML cases; independently adverse (P=0.009, q=0.06); proposed candidate for BRAF inhibitor therapy [PMID:27276561](../papers/27276561.md)
+- BRAF: 3 hotspot mutations (D594N, D594G, G466E) in germ cell tumor cohort (1.7% rate); sorafenib nominated as therapeutic option [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -293,3 +296,12 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

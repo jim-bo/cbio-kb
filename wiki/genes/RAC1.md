@@ -3,8 +3,8 @@ symbol: RAC1
 aliases: []
 cancer_types: [MEL]
 tags: [ras-family, gtpase, melanoma, uv-signature]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
 ---
@@ -26,6 +26,7 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - In cutaneous melanoma ([SKCM](../cancer_types/SKCM.md)), RAC1 is a UV-signature hot-spot significantly mutated gene occurring in 6.9% of cases; previously linked to BRAF-inhibitor resistance (Van Allen et al., 2014; Watson et al., 2014). [PMID:26091043](../papers/26091043.md)
 - P29S hotspot in 2 desmoplastic melanoma tumors. [PMID:26343386](../papers/26343386.md)
 - RAC1 Q61R mutation in one prostate tumor; paralogous to RAS Q61 hotspot [PMID:26544944](../papers/26544944.md)
+- RAC1 novel hotspot mutations at codons 12, 34, and 61 (G12V/R, P34R, Q61R/K) identified in ~5% of germ cell tumors — highest reported incidence across cancer types in TCGA at time of publication; functionally validated to activate PAK1 and MEK1/2 phosphorylation [PMID:27646943](../papers/27646943.md).
 
 ## Cancer types (linked)
 
@@ -72,3 +73,6 @@ RAC1 is a Rho-family GTPase involved in actin cytoskeleton organization, cell mi
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

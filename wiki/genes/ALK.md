@@ -3,7 +3,7 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -29,6 +29,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK somatic mutations detected in 7/56 (12.5%) WGS neuroblastoma cases, distributed across both high-risk and low-risk groups — not specific to the high-risk telomere-maintenance biology defined by [TERT](../genes/TERT.md) rearrangement, [MYCN](../genes/MYCN.md) amplification, or [ATRX](../genes/ATRX.md) mutation [PMID:26466568](../papers/26466568.md)
 - ALK fusions detected in 3 PDTC cases involving partners STRN, EML4, and a novel CCDC149 partner; mutually exclusive with BRAF, RAS, TSHR, and STK11 mutations; PDTCs with fusions were younger (median 49 vs 58 years, P = 0.04) [PMID:26878173](../papers/26878173.md)
 - ALK fusion inhibitors cited as subtype-specific targeted therapies applicable exclusively to lung ADC; ALK/ROS1 inhibitors expected to have no role in lung SqCC given histology-restricted driver landscape [PMID:27158780](../papers/27158780.md)
+- ALK rearrangements (most often EML4-ALK, >80% of cases) over-represented in young lung cancer (YLC); targetable with crizotinib and lorlatinib [PMID:27346245](../papers/27346245.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

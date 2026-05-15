@@ -3,8 +3,8 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PTEN
@@ -96,6 +96,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Confirmed as a significantly mutated gene (pan-cancer tumor suppressor) in 619-case colorectal carcinoma WES cohort (NHS/HPFS); newly statistically designated as a CRC driver gene by virtue of cohort size. PTEN+10q23.1 deletion LOH coupling also noted in the METABRIC breast cancer cohort. [PMID:27149842](../papers/27149842.md)
 - Not highlighted as a significantly mutated gene in the 1,144-tumor NSCLC landscape study but referenced in the broader RTK/Ras/Raf pathway context; PI3K pathway alterations including PTEN inactivation contribute to oncogene-negative lung ADC. [PMID:27158780](../papers/27158780.md)
 - Identified as a Mut-driver in the METABRIC 2,433-tumor breast cancer cohort (Akt-signaling pathway TSG); PTEN + 10q23.1 deletion co-occurrence (OR=3.4) confirms classic two-hit inactivation; 15/57 PTEN-mutant tumors also carried recurrent PIK3CA mutations. [PMID:27161491](../papers/27161491.md)
+- PTEN loss-of-function mutations (n=5) plus missense VUS (n=4) detected in a germ cell tumor cohort; PI3K/mTOR pathway alterations as actionable targets for cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
+- PTEN alteration prompted PI3K-inhibitor trial enrollment in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
 
 ## Cancer types (linked)
 
@@ -322,25 +324,31 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

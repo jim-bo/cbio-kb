@@ -8,8 +8,8 @@ tags:
   - dysplasia
   - bone-marrow
   - cohesin
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Myelodysplastic Syndromes (MDS)
@@ -33,6 +33,7 @@ Myelodysplastic syndromes (MDS) are a heterogeneous group of clonal hematopoieti
 - [RUNX1](../genes/RUNX1.md) — mutations associated with megakaryocytic dysplasia in univariate analysis. [PMID:21909114](../papers/21909114.md)
 - [SETBP1](../genes/SETBP1.md) — mutations independently associated with abnormal granulocytic nuclear segmentation (discovery cohort OR 12.2; P=0.042). [PMID:21909114](../papers/21909114.md)
 - [CALR](../genes/CALR.md) exon 9 frameshift indels were detected in 10/120 (8%; 95% CI 4-15) MDS cases in a Sanger sequencing screen of 1,345 hematologic cancers, making MDS the non-MPN cancer type with the highest CALR mutation prevalence in this study. [PMID:24325359](../papers/24325359.md)
+- The chromatin–spliceosome AML subgroup (18% of 1540 AMLSG trial patients) shares RNA-splicing and chromatin-modifier mutations with high-risk MDS and myeloproliferative neoplasms, suggesting shared evolutionary trajectories and possible reorganization of acute/chronic myeloid disease boundaries [PMID:27276561](../papers/27276561.md).
 
 ## Subtypes
 
@@ -50,3 +51,6 @@ No direct therapeutic implications were demonstrated in the corpus studies for M
 - [PMID:24325359](../papers/24325359.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27276561](../papers/27276561.md) — Papaemmanuil et al. 2016, NEJM. Chromatin–spliceosome AML overlaps mutationally with high-risk MDS.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

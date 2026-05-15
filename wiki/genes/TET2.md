@@ -3,8 +3,8 @@ symbol: TET2
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator, t-cell-lymphoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TET2
@@ -22,6 +22,7 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 - Identified as a DNA-methylation-related driver in [AML](../cancer_types/AML.md) (200 cases; TCGA); categorized within a functional group of epigenetic regulators alongside IDH1/IDH2 [PMID:23634996](../papers/23634996.md).
 - TET2 somatic mutations in 22/151 [MPN](../cancer_types/MPN.md) patients (epigenetic regulator); identified as a co-mutation alongside [CALR](../genes/CALR.md), [JAK2](../genes/JAK2.md), and splicing-factor mutations in [MPN](../cancer_types/MPN.md) exome sequencing [PMID:24325359](../papers/24325359.md)
 - Truncating (p.Gln1654*, p.Gln649*) and DHSBH-domain missense (p.Cys1932Phe) mutations in Sézary syndrome/CTCL; the catalytic-region missense mirrors recurrent disruptions seen in myeloid tumors and peripheral T-cell lymphoma [PMID:26551667](../papers/26551667.md)
+- Early epigenetic driver in AML; groups with ASXL1 as a founding-clone chromatin modifier in the chromatin-spliceosome subgroup [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ TET2 is a DNA demethylase and the most frequently mutated gene in nodal peripher
 - [PMID:26551667](../papers/26551667.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

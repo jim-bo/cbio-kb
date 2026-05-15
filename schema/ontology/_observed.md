@@ -406,3 +406,12 @@
 - method: array-cgh-agilent-1m — observed in PMID:26878173,26928463 — note: Agilent SurePrint G3 1x1M and 2x400K array-CGH platforms for CNA profiling in thyroid and prostate cancer cohorts
 - method: integrative-genomics-viewer — observed in PMID:26878173,26928463 — note: IGV used for visual validation of somatic mutations and CNAs in MSK-IMPACT and WES datasets
 - method: shrna-rnai-screen — observed in PMID:26928463 — note: siRNA knockdown of 15 Fanconi anemia pathway genes in LNCaP, 22Rv1, VCaP, PC3 prostate cancer cell lines; reduced proliferation and increased gamma-H2AX after carboplatin
+- drug: cytarabine — observed in PMID:27276561 — note: pyrimidine analog; ICE induction backbone in AMLSG AML trials (idarubicin+cytarabine+etoposide); canonical name ara-C; not in drugs ontology
+- drug: idarubicin — observed in PMID:27276561 — note: anthracycline; ICE induction backbone in AMLSG AML trials; not in drugs ontology
+- drug: tretinoin — observed in PMID:27276561 — note: all-trans retinoic acid (ATRA); RAR agonist; added to ICE induction in two AMLSG trial arms; standard APL therapy; not in drugs ontology
+- drug: lorlatinib — observed in PMID:27346245 — note: third-generation ALK/ROS1 TKI; CROWN trial; relevant to young-onset NSCLC with ALK rearrangements; not in drugs ontology
+- drug: tepotinib — observed in PMID:27346245 — note: selective MET TKI; VISION trial; MET exon 14 skipping age-skewed (rare in <50 yr); not in drugs ontology
+- drug: bleomycin — observed in PMID:27646943 — note: glycopeptide antibiotic; BEP component in first-line GCT therapy (37.2% of N=180); not in drugs ontology
+- drug: ifosfamide — observed in PMID:27646943 — note: alkylating agent; TIP/VIP salvage regimens in GCT (20% of N=180); not in drugs ontology
+- drug: pemetrexed — observed in PMID:27346245 — note: multitargeted antifolate; teratogenic and contraindicated in pregnancy in young-onset NSCLC; not in drugs ontology
+- method: genome-wide-association-study — observed in PMID:27346245 — note: GWAS for gene-environment interactions in young-onset NSCLC; review notes sparse GWAS in non-Caucasian populations; corpus-grown slug

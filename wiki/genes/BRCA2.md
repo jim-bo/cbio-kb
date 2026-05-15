@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -61,6 +61,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to RB1 loss/E2F1 activation); homozygous deleterious BRCA2 events were used as part of the DNA-repair-defect classifier predicting longer carboplatin response (P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Recurrent likely loss-of-function nsSNVs across NPM1-interacting, POLH-interacting, and FANCD2-interacting domains; enriched in anti-PD-1 responders (28% vs 6% non-responders; Fisher P=0.002, OR=6.2); BRCA2-mutant melanomas have higher overall mutational loads; proposed as candidate immunotherapy response biomarker [PMID:26997480](../papers/26997480.md)
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort [PMID:27161491](../papers/27161491.md)
+- BRCA2 deletion flagged as actionable in cisplatin-resistant germ cell tumors; PARP inhibitor sensitivity implicated [PMID:27646943](../papers/27646943.md)
+- BRCA2 germline variants advance lung cancer onset by 12.2 years in young lung cancer; specific variant p.Arg2784Trp reported by Donner et al. [PMID:27346245](../papers/27346245.md)
 
 ## Cancer types (linked)
 
@@ -171,3 +173,9 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

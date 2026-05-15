@@ -3,8 +3,8 @@ symbol: ROS1
 aliases: []
 cancer_types: [NSCLC, PAAD]
 tags: [fusion, kinase, actionable]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ROS1
@@ -22,6 +22,8 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - Frameshift mutation (suspected germline) identified as a single-case alteration in sinonasal adenoid cystic carcinoma (AdCC) whole-exome/RNA-seq profiling [PMID:24418857](../papers/24418857.md)
 - Fusions in 4/230 (1.7%) LUAD cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴); enriched in the TRU transcriptional subtype. [PMID:25079552](../papers/25079552.md)
 - ROS1 fusions are an established therapeutic target in lung ADC; mentioned in the 1,144-tumor NSCLC landscape study in the context of RTK-directed therapies (ALK and ROS1 inhibitors) applying almost exclusively to lung ADC rather than lung SqCC, given the histology-restricted molecular landscape. [PMID:27158780](../papers/27158780.md)
+- ROS1 structural variants identified as interesting alterations in salivary duct carcinoma (SDCA) from a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
+- ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older NSCLC patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
 
 ## Cancer types (linked)
 
@@ -60,4 +62,10 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

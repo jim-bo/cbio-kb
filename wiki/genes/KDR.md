@@ -3,8 +3,8 @@ symbol: KDR
 aliases: [VEGFR2]
 cancer_types: [ANGS]
 tags: [amplification, gain-of-function, VEGF-signaling, sarcoma, radiation-associated]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KDR
@@ -22,6 +22,8 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - KDR co-amplified with [KIT](../genes/KIT.md) and [PDGFRA](../genes/PDGFRA.md) at 4q12 in Triple-WT cutaneous melanoma (TCGA 333-sample cohort); part of rationale for [sorafenib](../drugs/sorafenib.md), [crenolanib](../drugs/crenolanib.md), [regorafenib](../drugs/regorafenib.md), and [pazopanib](../drugs/pazopanib.md) in this subtype [PMID:26091043](../papers/26091043.md)
 - KDR (VEGFR2) mutations observed at low frequency in ATC as part of RTK alterations alongside FLT1 and FLT4; reported among hits with ≥2 ATC occurrences in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
 - Amplification at PDGFRA/KIT/KDR locus is among the candidate Ras/Raf/RTK pathway events that raise the fraction of lung ADCs with an actionable driver to 76%; enriched in oncogene-negative lung ADC [PMID:27158780](../papers/27158780.md)
+- KDR amplification observed in 4 ACYC patients co-amplified with PDGFRA and KIT in a cohort of 151 advanced head and neck tumors; these patients were treated with regorafenib [PMID:27442865](../papers/27442865.md)
+- KDR amplification (4 patients) was among additional alterations contributing to the actionable-alteration list in 180 advanced germ cell tumors profiled by MSK-IMPACT [PMID:27646943](../papers/27646943.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +64,9 @@ KDR (also known as VEGFR2) encodes vascular endothelial growth factor receptor 2
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

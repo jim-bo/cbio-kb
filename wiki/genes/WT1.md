@@ -7,8 +7,8 @@ tags:
   - tumor-suppressor
   - transcription-factor
   - leukemia
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # WT1
@@ -20,6 +20,7 @@ WT1 (Wilms tumor 1) encodes a transcription factor with both tumor-suppressive a
 ## Alterations observed in the corpus
 
 - Identified as an additional recurrent driver in AML (200 cases; TCGA whole-genome/exome sequencing); grouped with [PHF6](../genes/PHF6.md) as genes outside the major functional categories but with recurrent mutation and allelic expression bias observed for PHF6 [PMID:23634996](../papers/23634996.md).
+- Mentioned in the context of AML genomic subgrouping in a cohort of 1,540 patients; contributes to the broader landscape of transcription-factor mutations alongside RUNX1 and CEBPA [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ WT1 (Wilms tumor 1) encodes a transcription factor with both tumor-suppressive a
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

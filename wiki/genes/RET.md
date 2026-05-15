@@ -3,8 +3,8 @@ symbol: RET
 aliases: []
 cancer_types: [NPC, THPA]
 tags: [fusion, thyroid-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RET
@@ -19,6 +19,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - Fusions in 2/230 (0.9%) [LUAD](../cancer_types/LUAD.md) cases (TCGA); exclusively in the transversion-low (TL) non-smoker subset (P = 1.85×10⁻⁴ for fusion enrichment in TL). [PMID:25079552](../papers/25079552.md)
 - RET fusions in 6.8% (33/484) of PTCs; most fusions weakly BVL (BRAFV600E-like expression score); 4 novel kinase-domain-preserving RET fusion partners discovered; mutually exclusive with BRAF/RAS/EIF1AX point mutations (Fisher's exact p=4.9×10⁻⁴³). [PMID:25417114](../papers/25417114.md)
 - RET found fused with CCDC6 or NCOA4 in 5 PDTCs in a targeted-sequencing study of advanced thyroid cancers; RET fusions were restricted to PDTC (not ATC) in this cohort. [PMID:26878173](../papers/26878173.md)
+- RET rearrangements occur in ~9.5% of young lung cancer patients (YLC, age ≤45) versus ~1% in patients >45 years per cBioPortal analysis; ERC1-RET fusion observed in Indian cohort [PMID:27346245](../papers/27346245.md).
 
 ## Cancer types (linked)
 
@@ -49,4 +50,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - bone-cancer
   - pediatric
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Ewing Sarcoma (ES)
@@ -27,6 +27,7 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - CCLE pharmacogenomic profiling included Ewing sarcoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - EWS::FLI1 expression in human embryonic mesenchymal stem cells (heMSCs) alone is sufficient to impose an ES-like transcriptome, directly upregulate [BRCA1](../genes/BRCA1.md) while impairing ATM/ATR-mediated DNA damage response, and generate metastatic Ewing-like tumors in NOD/SCID mice (40% penetrance), supporting heMSCs as the cell of origin. [PMID:25186949](../papers/25186949.md)
 - WGS of 112 Ewing sarcoma tumors (extended to 299 patients) identified STAG2 (17%), CDKN2A deletion (12%), TP53 (7%), and epigenetic regulators EZH2/BCOR/ZMYM3 (2.7% each) as recurrently mutated; STAG2+TP53 co-mutation defined a high-risk subtype with markedly inferior survival [PMID:25223734](../papers/25223734.md)
+- One odontogenic tumor harboring an EWSR1-FLI1 fusion in the MSK-IMPACT cohort (Morris et al.) was reclassified from 'ameloblastic carcinoma' to Ewing sarcoma with epithelial differentiation, illustrating that EWSR1-FLI1 fusions can occur in unusual anatomic sites and require histologic re-evaluation [PMID:27442865](../papers/27442865.md).
 
 ## Subtypes
 
@@ -54,3 +55,6 @@ Ewing sarcoma is an aggressive small-round-cell sarcoma of bone and soft tissue,
 - [PMID:25223734](../papers/25223734.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). EWSR1-FLI1 fusion reclassified an odontogenic 'ameloblastic carcinoma' as Ewing sarcoma with epithelial differentiation.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

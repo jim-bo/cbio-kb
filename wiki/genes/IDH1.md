@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # IDH1
@@ -36,6 +36,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - R132 hotspot mutations in ~1% of primary prostate cancers define a CIMP-like, ETS-negative, SPOP-wt, SCNA-quiet subtype with genome-wide hypermethylation exceeding that of IDH1-mutant [GBM](../cancer_types/GBM.md) and [AML](../cancer_types/AML.md); associated with younger age at diagnosis [PMID:26544944](../papers/26544944.md)
 - Essentially absent (single hotspot only) in this extrahepatic cholangiocarcinoma / periampullary cohort (n=160 AMPAC/DUOAC/CAC), in contrast to intrahepatic CAC where IDH1 mutations are common; underscores molecular distinction between intra- and extrahepatic biliary tumors [PMID:26804919](../papers/26804919.md)
 - Defining hotspot mutation in IDH-mutant glioma macro-cluster (LGm1–3 / LGr1–3 subtypes); 457 IDH1 mutations recovered in pan-glioma TCGA cohort (n=1122), comprising 99% of the IDH-mutant cluster; primary axis of methylome and transcriptome separation between glioma subtypes [PMID:26824661](../papers/26824661.md)
+- IDH1 acts as an early/founding driver in the epigenetic axis in AML; co-mutates with NPM1; among the 5234 driver mutations across 76 genes identified in 1540 AML patients enrolled in German-Austrian AMLSG intensive-therapy trials [PMID:27276561](../papers/27276561.md)
 
 ## Cancer types (linked)
 
@@ -115,3 +116,6 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

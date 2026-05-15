@@ -8,7 +8,7 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -28,6 +28,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Cisplatin + gemcitabine is the standard chemotherapy backbone for R/M [NPC](../cancer_types/NPC.md); multiple anti-PD-1 combination trials add ICIs to this doublet [PMID:24952746](../papers/24952746.md)
 - Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [cisplatin](../drugs/cisplatin.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing [PMID:25526346](../papers/25526346.md)
 - Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as [futibatinib](../drugs/futibatinib.md) [PMID:25608663](../papers/25608663.md)
+- Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard component of first-line NSCLC regimens [PMID:27346245](../papers/27346245.md)
 
 ## Resistance mechanisms
 
@@ -64,3 +65,6 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:27346245](../papers/27346245.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

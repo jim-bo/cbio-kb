@@ -28,6 +28,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - FANCA is part of the 15-gene FA pathway signature upregulated in high-CCP mCRPC tumors; homozygous deleterious FANCA events classify patients into the DNA-repair-defect group with significantly longer carboplatin response (log-rank P = 0.02; 20 treated men) [PMID:26928463](../papers/26928463.md)
 - FANCA identified among recurrent germline pathogenic/likely pathogenic variants in an Indian familial young lung cancer cohort (Rastogi et al.), alongside ATM, CHEK2, BAP1, FANCI, FANCM, LZTR1, and XRCC3 [PMID:27346245](../papers/27346245.md)
 - FANCA germline heterozygous deletion combined with somatic stopgain mutation identified in one HNSC patient sequenced with MSK-IMPACT; proposed as a potential cisplatin-sensitivity biomarker [PMID:27442865](../papers/27442865.md)
+- Identified as a somatic HR pathway gene in prostate cancer; CDK12 and FANCA loss hypothesized to confer PARP inhibitor sensitivity, though clinical significance remains emerging per OncoKB at time of publication [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

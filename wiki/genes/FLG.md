@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - PAAD
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FLG
@@ -17,6 +17,7 @@ FLG (Filaggrin) encodes a structural protein critical for skin barrier function.
 ## Alterations observed in the corpus
 
 - MutSigCV-significant gene in pancreatic ductal adenocarcinoma (PDAC); functional role in PDA biology remains to be validated [PMID:25855536](../papers/25855536.md)
+- Listed among additional recurrently altered candidate driver genes in medulloblastoma identified in the ICGC/MAGIC 491-tumor whole-genome sequencing cohort, stratified across subgroups [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ FLG (Filaggrin) encodes a structural protein critical for skin barrier function.
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

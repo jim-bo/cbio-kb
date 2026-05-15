@@ -3,8 +3,8 @@ symbol: BTLA
 aliases: [CD272]
 cancer_types: [NPC]
 tags: [checkpoint, T-cell-exhaustion, immunotherapy, tumor-microenvironment]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # BTLA
@@ -16,6 +16,7 @@ BTLA (B and T lymphocyte attenuator, also CD272) is an inhibitory co-receptor ex
 ## Alterations observed in the corpus
 
 - Implicated in T-cell exhaustion in NPC; tifcemalimab (JS004), an anti-BTLA antibody, is under clinical investigation [PMID:24952746](../papers/24952746.md)
+- BTLA specifically upregulated in Cluster 3 of cholangiocarcinoma alongside PDCD1 (PD-1) and PDCD1LG2 (PD-L2), motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ _No conflicts in current corpus._
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

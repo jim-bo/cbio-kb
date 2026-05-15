@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [in-vivo, mouse-model, tumor-model, xenograft]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -23,6 +23,7 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - Subcutaneous xenograft models used to assess in vivo drug sensitivity in ovarian cancer cell line experiments [PMID:26200345](../papers/26200345.md)
 - ACC patient-derived primagraft (PDX) models in Foxn1nu mice used for in vivo BET bromodomain inhibitor JQ1 testing (50 mg/kg daily oral); grade-2 primagrafts responded (tumor growth slowed) while grade-3 Notch-activated primagrafts did not [PMID:26829750](../papers/26829750.md)
 - 22Rv1 cell-derived subcutaneous xenografts (CDX) in NOD-SCID mice used to demonstrate in vivo TRMT10A-knockdown olaparib sensitization; combination index (CI = 0.76) for olaparib (50 mg/kg) + spautin-1 (20 mg/kg) [PMID:28068672](../papers/28068672.md).
+- DU145 and PC3 cells with NOL10 knockdown or USF1 knockdown grown as subcutaneous xenografts in male nude mice; NOL10-knockdown xenografts were significantly smaller by volume and weight, with lower Ki67, lower Vimentin, and higher E-cadherin by IHC [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -49,3 +50,6 @@ Subcutaneous xenograft models involve injecting human cancer cells into the flan
 - [PMID:28068672](../papers/28068672.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

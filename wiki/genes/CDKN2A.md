@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD, ACRM]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -105,6 +105,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A — recurrent deletion on Chr 9 in acral lentiginous melanoma (ALM), retained significance in both primary and metastatic tumor subsets [PMID:28373299](../papers/28373299.md)
 - CDKN2A W110 mutation in 1/19 sequenced anaplastic oligodendroglioma tumors; deletion also observed alongside [PTEN](../genes/PTEN.md) loss and [CDKN2B](../genes/CDKN2B.md) deletion in a false-positive 1p/19q FISH case with glioblastoma-like signature ([ODG](../cancer_types/ODG.md) cohort, [odg_msk_2017](../datasets/odg_msk_2017.md)) [PMID:28472509](../papers/28472509.md)
 - Cell-cycle gene alterations including CDKN2A increased significantly with stage (p = 0.028) and grade (p = 0.009) across 105 [BLCA](../cancer_types/BLCA.md) NMIBC tumors profiled by [MSK-IMPACT](../methods/msk-impact-panel.md); grouped with [RB1](../genes/RB1.md), [CCND1](../genes/CCND1.md), [CDKN1A](../genes/CDKN1A.md) as a cell-cycle pathway unit [PMID:28583311](../papers/28583311.md)
+- Recurrent focal deletion in CCA (n=17 of 71 WGS cases), among the most frequent recurrent deletions in the cohort alongside UTY and KDM5D [PMID:28667006](../papers/28667006.md).
+- Second most frequently altered tumor suppressor in the MET500 metastatic pan-cancer cohort (80/500, 16%) [PMID:28783718](../papers/28783718.md).
 
 ## Cancer types (linked)
 
@@ -322,3 +324,9 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

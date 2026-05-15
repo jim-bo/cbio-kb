@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -55,6 +55,7 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - ATM R189K + K2756* (missense + nonsense) germline variants in medulloblastoma (MBL) — returned as cancer-predisposition finding associated with increased risk for other cancers [PMID:28007021](../papers/28007021.md)
 - ATM kinase phosphorylates TRMT10A at Ser28 after ionizing radiation, enabling BRCA1 recruitment to DSBs; ATM knockdown reduces phospho-TRMT10A and HR but does not sensitize PCa lines to PARPi alone — consistent with clinical heterogeneity of ATM-loss PARPi response [PMID:28068672](../papers/28068672.md)
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction; elevated mutational burden in DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
+- ATM is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; ATM also shows somatic enrichment specifically in mCRPC, identifying it as a clinically actionable target for PARP inhibitors [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -186,3 +187,6 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

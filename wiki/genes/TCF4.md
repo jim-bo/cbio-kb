@@ -3,7 +3,7 @@ symbol: TCF4
 aliases: [E2-2, ITF2]
 cancer_types: [PHC, PGNG]
 tags: [somatic, fusion, maml3-partner, wnt-altered]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -17,6 +17,7 @@ TCF4 (Transcription Factor 4), also known as E2-2 or ITF2, encodes a basic helix
 
 - TCF4 identified as the 5' promoter-donor partner in one TCF4-[MAML3](../genes/MAML3.md) fusion gene in the TCGA PCC/PGL cohort (pcpg_tcga_pub, n=173); this fusion is one of 10 MAML3 fusion-positive tumors (the remainder are UBTF-MAML3). TCF4 promoter drives 2.7-fold MAML3 overexpression. [PMID:28162975](../papers/28162975.md)
 - The authors note they cannot exclude that TCF4 itself contributes tumorigenic properties beyond simply driving MAML3 overexpression. [PMID:28162975](../papers/28162975.md)
+- Recurrently altered candidate driver across medulloblastoma subgroups in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ TCF4 (Transcription Factor 4), also known as E2-2 or ITF2, encodes a basic helix
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

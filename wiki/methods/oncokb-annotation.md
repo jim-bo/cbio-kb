@@ -9,7 +9,7 @@ tags:
   - actionability
   - oncokb
   - clinical-interpretation
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -22,6 +22,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 ## Used by
 
 - OncoKB database (accessed 6 January 2017) used to classify potentially oncogenic and actionable mutations in 19 anaplastic oligodendroglioma tumors from the [odg_msk_2017](../datasets/odg_msk_2017.md) cohort (MSK-IMPACT 410-gene panel); identified Level 2B alterations ([CDK4](../genes/CDK4.md) amplification, [TSC1](../genes/TSC1.md)) and Level 3B alterations ([IDH1](../genes/IDH1.md) R132H, [IDH2](../genes/IDH2.md) R172K, [KRAS](../genes/KRAS.md) Q61H, [PIK3CA](../genes/PIK3CA.md)) [PMID:28472509](../papers/28472509.md).
+- Applied to MSK-IMPACT-profiled prostate cancer alterations (504 tumors from 451 patients) to identify actionable alterations; 36% of patients carried at least one potentially actionable alteration per OncoKB [PMID:28825054](../papers/28825054.md)
 
 ## Notes
 
@@ -34,3 +35,6 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:28472509](../papers/28472509.md) — Thomas et al., MSK HDC-ASCT phase II trial in anaplastic oligodendroglioma; OncoKB-classified actionable variants in 19 tumor exomes.
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

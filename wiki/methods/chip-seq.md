@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [sequencing, chromatin, epigenomics]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ChIP-seq
@@ -23,6 +23,8 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - H3K27me3 ChIP-Seq on 35 MRTs vs normals identified 158 promoters with decreased H3K27me3 enriched for homeobox/HOX terms (FDR 4.17e-44 to 1.67e-37); H3K27ac ChIP-Seq on 10 MRTs identified 136 MRT-specific super-enhancers at HOX clusters, HISTH1, HISTH2, FLT3LG, and STAT3. [PMID:26977886](../papers/26977886.md)
 - DUX4 ChIP-seq in NALM-6 and Reh cells confirmed direct DUX4 binding at ERG exon 6 alt and other non-canonical transcription start sites deregulated in DUX4/ERG B-ALL. [PMID:27776115](../papers/27776115.md)
 - Employed ChIP-seq to assess chromatin occupancy and epigenomic state in tumor cells [PMID:28196596](../papers/28196596.md)
+- H3K27ac and CTCF ChIP-seq performed on a subset of 28 medulloblastoma cases; ChIP-seq data demonstrated Group 4-specific SNCAIP super-enhancer repositioning into the PRDM6 TAD (enhancer-hijacking mechanism) [PMID:28726821](../papers/28726821.md)
+- ChIP-seq for H3K27ac, H3K4me1, and H3K4me3 performed in prostate cancer cell lines and CPGEA tissues to map the rs4519489 enhancer; allele-specific USF1 ChIP-seq in heterozygous tissue confirmed preferential A-allele binding (A:T ratio shifted from 1:5 in input to 11:6 in USF1-IP) [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -47,3 +49,9 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

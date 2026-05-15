@@ -8,8 +8,8 @@ tags:
   - soft-tissue
   - NOS
   - unclassified
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Sarcoma, NOS (SARCNOS)
@@ -25,6 +25,7 @@ Sarcoma, NOS (not otherwise specified) is a diagnostic category for sarcomas tha
 ## Recurrent alterations
 
 - [PIK3CA](../genes/PIK3CA.md): hotspot mutation (H1047L, rendered as "H1074L" in the manuscript) in SARC0117 (metastatic USS/SARCNOS) drove broad PI3K/mTOR sensitivity ([alpelisib](../drugs/alpelisib.md), apitolisib, copanlisib, BGT226, vistusertib). [PMID:39305899](../papers/39305899.md)
+- MET500 metastatic cohort: soft-tissue sarcoma (NOS) was the third most common lineage (42/500, 8.4%); a novel GREB1-NR4A3 activating fusion was identified in uterine leiomyosarcoma and a CIC-CITED1 fusion in undifferentiated high-grade sarcoma; NF1 was the most commonly fused tumor suppressor (n=18) across the cohort. [PMID:28783718](../papers/28783718.md)
 
 ## Subtypes
 
@@ -38,6 +39,7 @@ Sarcoma, NOS (not otherwise specified) is a diagnostic category for sarcomas tha
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:39305899](../papers/39305899.md)
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

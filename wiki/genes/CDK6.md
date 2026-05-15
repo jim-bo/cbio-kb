@@ -6,7 +6,7 @@ cancer_types:
 tags:
   - rb-pathway
   - cell-cycle
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -30,6 +30,7 @@ processed_at: 2026-05-15
 - Recurrently amplified in HNSCC in the 279-tumor TCGA HNSCC cohort (11q13.5 region); co-amplified with CCND1/FADD/CTTN cassette in HPV(-) subset [PMID:25631445](../papers/25631445.md)
 - Mentioned in study [PMID:26829750](../papers/26829750.md)
 - CDK6 amplified in additional ESCCs (especially ESCC2) lacking CCND1 amplification; combined CDKN2A loss and CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
+- Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 
 ## Cancer types (linked)
 
@@ -75,3 +76,6 @@ processed_at: 2026-05-15
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

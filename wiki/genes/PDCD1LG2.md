@@ -26,6 +26,7 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 - Tumor RNA expression of PDCD1LG2 (PD-L2) is significantly higher in clinical-benefit patients (P=0.041, Mann-Whitney) in a 110-patient metastatic melanoma cohort treated with [ipilimumab](../drugs/ipilimumab.md); PD-L2 expression adds complementary information to DNA-level mutational burden [PMID:26359337](../papers/26359337.md)
 - Expression of PDCD1LG2 (PD-L2) did not significantly differ between anti-PD-1 responders and non-responders in pretreatment metastatic melanoma (n=28 RNA-seq subset); whole-tumor bulk transcriptome may dilute immune-cell-restricted signal. [PMID:26997480](../papers/26997480.md)
 - TERT::PDCD1LG2 interchromosomal rearrangement (patient 29) linking the TERT reverse-transcriptase domain exon 7 to intron 5 of PDCD1LG2; no expressed RNA fusion detected; clinically intriguing given PDL2's role in PD-1 ligand biology [PMID:28373299](../papers/28373299.md)
+- PDCD1LG2 (PD-L2) specifically upregulated in Cluster 3 of cholangiocarcinoma molecular subtypes alongside PDCD1 (PD-1) and BTLA, motivating immune-checkpoint blockade as a candidate therapeutic strategy in that subtype [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ PDCD1LG2 (Programmed Cell Death 1 Ligand 2, also known as PD-L2 or CD273) is an 
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

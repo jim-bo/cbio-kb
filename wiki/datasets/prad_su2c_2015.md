@@ -17,7 +17,7 @@ tags:
   - integrative-genomics
   - parp-inhibitor
   - dna-repair
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -58,6 +58,7 @@ Prospective integrative clinical sequencing cohort of 150 men with metastatic ca
 - ETS fusions (predominantly [ERG](../genes/ERG.md)) in 56% of mCRPC cases; WNT pathway ([APC](../genes/APC.md)/[CTNNB1](../genes/CTNNB1.md)/[RNF43](../genes/RNF43.md)/[ZNRF3](../genes/ZNRF3.md)/[RSPO2](../genes/RSPO2.md)) in 18%; recurrent [BRAF](../genes/BRAF.md) and [RAF1](../genes/RAF1.md) fusions in ~3%. [PMID:26000489](../papers/26000489.md)
 - Used as an external validation cohort (n=150 mCRPC) for the 70-gene NEPC classifier; up to 8% of metastatic cases scored NEPC-high and 0% of treatment-naïve adenocarcinomas did [PMID:26855148](../papers/26855148.md)
 - Used alongside prad_tcga to assess frequency of metastasis-private mutations from the prad_fhcrc rapid-autopsy cohort; only 2/51 patient-99-091 private mutations occurred at >5% frequency, arguing most are non-driver [PMID:26928463](../papers/26928463.md)
+- Served as a comparison cohort (150 mCRPC cases) alongside prad_tcga_pub in the MSK-IMPACT prostate cancer prospective profiling study; used to contextualize DDR gene alteration frequencies and disease-state enrichment patterns [PMID:28825054](../papers/28825054.md).
 
 ## Sources
 
@@ -65,3 +66,6 @@ Prospective integrative clinical sequencing cohort of 150 men with metastatic ca
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

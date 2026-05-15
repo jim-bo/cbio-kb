@@ -3,7 +3,7 @@ symbol: SUFU
 aliases: []
 cancer_types: [MBL]
 tags: [tumor-suppressor, somatic, hedgehog-pathway, overexpression, smo-target]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -16,6 +16,7 @@ SUFU (Suppressor of Fused Homolog) encodes a negative regulator of the Hedgehog 
 ## Alterations observed in the corpus
 
 - SUFU overexpression (alongside [PTCH1](../genes/PTCH1.md) and [ZIC3](../genes/ZIC3.md)) identified in a pediatric medulloblastoma ([MBL](../cancer_types/MBL.md)) case in the PIPseq pediatric precision sequencing program (n=101, Columbia University); designated as an SMO (Smoothened) inhibitor target. [PMID:28007021](../papers/28007021.md)
+- Germline variants predominantly restricted to SHH medulloblastoma in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SUFU (Suppressor of Fused Homolog) encodes a negative regulator of the Hedgehog 
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

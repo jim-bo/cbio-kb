@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -67,6 +67,10 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - 22Rv1 prostate cancer cell line carries monoallelic BRCA2 T3033Nfs*11 loss-of-function; BRCA2-WT rescue does not abolish olaparib + spautin-1 synergy, indicating the synthetic-lethal effect is independent of this BRCA2 background [PMID:28068672](../papers/28068672.md)
 - 8 likely-inactivating truncating mutations (0.9%) in [LUAD](../cancer_types/LUAD.md) (MSK-IMPACT, n=860); level 2B actionability based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient received matched PARP-inhibitor therapy [PMID:28336552](../papers/28336552.md)
 - Less frequent DDR alteration in high-grade non-muscle-invasive bladder cancer (NMIBC), contributing to the 30% DDR-altered fraction; DDR-altered tumors carry markedly elevated mutational burden supporting checkpoint immunotherapy [PMID:28583311](../papers/28583311.md)
+- BRCA2 enriched in Cluster 1 of cholangiocarcinoma (p < 0.05) [PMID:28667006](../papers/28667006.md)
+- BRCA2 is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups; listed among candidates in WNT/SHH/Group 3/Group 4 oncoprint analysis [PMID:28726821](../papers/28726821.md)
+- BRCA2 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (9 PPGM carriers); HR deficiency implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
+- BRCA2 somatic alterations are clonal/truncal in matched prostate tumor samples; 9% germline pathogenic in 221 tested patients; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale (olaparib, TOPARP-A) [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -196,3 +200,15 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

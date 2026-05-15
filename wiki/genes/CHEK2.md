@@ -5,7 +5,7 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,8 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - CHEK2: recurrent germline pathogenic/likely pathogenic variant in Indian familial NSCLC cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
 - Recurrently mutated in 3% of unclassified renal cell carcinoma (uRCC) cases in a 62-case MSKCC MSK-IMPACT cohort; listed among additional recurrent mutations beyond the dominant NF2/SETD2/FH/mTORC1 subsets [PMID:27713405](../papers/27713405.md)
 - Less-frequent DNA damage repair (DDR) gene alteration contributing to the 30% DDR-altered fraction in high-grade [BLCA](../cancer_types/BLCA.md) NMIBC tumors (n=82); DDR alterations associated with significantly higher mutational burden vs DDR-intact (median 26 vs 8 mut/Mb, p < 0.001) [PMID:28583311](../papers/28583311.md)
+- Germline pathogenic/predicted-pathogenic mutation (PPGM) enriched in the MET500 metastatic pan-cancer cohort relative to ExAC controls; identified as a DNA-repair PPGM gene alongside BRCA1, BRCA2, and MLH1 [PMID:28783718](../papers/28783718.md).
+- Germline DDR alteration contributing to the 27% combined HR-deficiency rate in prostate cancer across disease states (locoregional to mCRPC); identified alongside BRCA1 and ATM as drivers of PARP-inhibitor therapeutic rationale [PMID:28825054](../papers/28825054.md).
 
 ## Cancer types (linked)
 
@@ -93,3 +95,9 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

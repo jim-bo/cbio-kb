@@ -5,7 +5,7 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -57,6 +57,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig used for driver gene identification (FDR<0.1) in 216 metastatic breast cancer exomes, yielding 12 significantly mutated genes including ESR1 and RB1 as metastasis-specific drivers [PMID:28027327](../papers/28027327.md).
 - MutSigCV2.0 applied to identify significantly mutated genes in 164 oesophageal carcinomas, yielding TP53, NFE2L2, KMT2D, ZNF750, NOTCH1, TGFBR2 in ESCC and TP53, CDKN2A, ARID1A, SMAD4, ERBB2 in EAC [PMID:28052061](../papers/28052061.md).
 - MutSig2 applied to 173 PCPG tumors identifying five significant somatic driver genes (q < 0.05): HRAS, NF1, EPAS1, RET, and the novel driver CSDE1 [PMID:28162975](../papers/28162975.md).
+- MutSigCV used alongside IntOGen to identify 32 significantly mutated genes (SMGs) at q < 0.1 in 489 CCA cases, including four newly nominated driver genes: RASA1, STK11, MAP2K4, and SF3B1 [PMID:28667006](../papers/28667006.md)
+- Driver detection tool used alongside GenomeMuSiC and IntOGen to call SMGs across 491 medulloblastoma cases, assigning driver events to 76% of Group 3 and 82% of Group 4 patients [PMID:28726821](../papers/28726821.md)
 
 ## Notes
 
@@ -187,3 +189,9 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -5,7 +5,7 @@ cancer_types:
   - ODG
 tags: [chromatin-remodeler, stem-progenitor, oligodendroglioma, neural-development]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # CHD7
@@ -18,6 +18,7 @@ CHD7 (chromodomain helicase DNA-binding protein 7) is an ATP-dependent chromatin
 
 - CHD7 is part of the stem/progenitor transcriptional program in grade II IDH-mutant 1p/19q-codeleted oligodendroglioma, co-expressed with [SOX2](../genes/SOX2.md), [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [NFIB](../genes/NFIB.md), [ASCL1](../genes/ASCL1.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), [TCF4](../genes/TCF4.md), and [CCND2](../genes/CCND2.md); identified from scRNA-seq of 4,347 cells across 6 tumors [PMID:27806376](../papers/27806376.md).
 - Identified as recurrently mutated in medulloblastoma (5/37 tumors, 14%), implicating chromatin remodeling pathways in pediatric brain cancer [PMID:22722829](../papers/22722829.md)
+- Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ CHD7 (chromodomain helicase DNA-binding protein 7) is an ATP-dependent chromatin
 - [PMID:22722829](../papers/22722829.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

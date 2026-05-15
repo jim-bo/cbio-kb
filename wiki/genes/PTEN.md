@@ -107,6 +107,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Recurrent low-VAF oncogenic mutations in endometrial polyps (WGS, 23 polyps); co-occurring with PIK3CA, PIK3R1, ERBB2, PPP2R1A, and FBXW7; supports classification of a subset of polyps as precursor lesions to UCEC [PMID:28445112](../papers/28445112.md)
 - Deletion in 1/19 (5%) of cases in the 1p/19q FISH false-positive subgroup with glioblastoma-like NGS signature in anaplastic oligodendroglioma cohort [PMID:28472509](../papers/28472509.md)
 - Assessed within 7-gene cross-histology panel in clear-cell endometrial carcinoma (CCEC); mutationally enriched in UEC-like profiles as part of the 34.9% of CCECs with PI3K-pathway alterations [PMID:28485815](../papers/28485815.md)
+- Altered in 79/500 (15.8%) in the MET500 pan-cancer metastatic cohort; also recurrently disrupted by fusions (n=11) [PMID:28783718](../papers/28783718.md)
+- Frequency rises sharply with castration resistance in prostate cancer (12% noncastrate → 29% mCRPC), co-occurring with RB1 loss; convergent PTEN+RB1 co-loss characterizes advanced mCRPC [PMID:28825054](../papers/28825054.md)
+- Recurrent rearrangements targeting PTEN identified in medulloblastoma (pan-MB WGS/WES cohort, n=491) [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -305,5 +308,11 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:28472509](../papers/28472509.md)
 
 - [PMID:28485815](../papers/28485815.md)
+
+- [PMID:28783718](../papers/28783718.md)
+
+- [PMID:28825054](../papers/28825054.md)
+
+- [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

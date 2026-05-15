@@ -62,6 +62,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT hybridization-capture Illumina HiSeq 2500 platform with full exon coverage of 410 cancer-related genes used to characterize 19 anaplastic oligodendroglioma tumors in the odg_msk_2017 cohort [PMID:28472509](../papers/28472509.md)
 - Prospective CLIA-certified hybrid-capture sequencing of 10,945 advanced/metastatic tumors from 10,336 patients across 62 tumor types; catalogued 78,066 non-synonymous mutations, 22,989 CNAs, and 1,875 rearrangements [PMID:28481359](../papers/28481359.md)
 - Sequenced 105 NMIBC tumors and 40 MIBC comparators with matched germline DNA; ARID1A mutation was the only gene significantly associated with BCG recurrence (HR=3.14, p=0.002) [PMID:28583311](../papers/28583311.md)
+- Hybridization-capture targeted DNA panel covering >300 cancer-related genes (SNVs, indels, somatic CNAs, structural rearrangements) applied to 504 tumors from 451 prostate cancer patients spanning locoregional to mCRPC; matched normal blood used for germline filtering; 68% sequencing success rate [PMID:28825054](../papers/28825054.md)
 
 ## Notes
 
@@ -155,5 +156,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

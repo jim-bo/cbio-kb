@@ -4,8 +4,8 @@ oncotree_code: PHCH
 main_type: Hepatobiliary Cancer
 parent: CHOL
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Perihilar Cholangiocarcinoma (PHCH)
@@ -21,6 +21,7 @@ _No primary cohort studies specific to PHCH have been processed yet._
 ## Recurrent alterations
 
 - FXR ([NR1H4](../genes/NR1H4.md)) expression is heterogeneous across pCCA/dCCA subtypes (H-score <120), suggesting DNMT-inhibitor combinations may be required to activate FXR-mediated tumor suppression. [PMID:25608663](../papers/25608663.md)
+- ICGC CCA cohort (n=489) includes perihilar tumors among its anatomical breakdown (intrahepatic, perihilar, distal extrahepatic), with survival and alteration data on 459 samples; perihilar CCA spans multiple molecular clusters with anatomical class distinct from but overlapping intrahepatic molecular subtypes. [PMID:28667006](../papers/28667006.md)
 
 ## Subtypes
 
@@ -32,6 +33,7 @@ _No primary cohort studies specific to PHCH have been processed yet._
 
 ## Sources
 
-- Narrative review synthesizing gut-liver axis dysregulation (microbiota, bile acids, immune microenvironment) in cholangiocarcinoma subtypes including pCCA; extrahepatic subtypes show heterogeneous FXR expression (H-score <120) suggesting need for combination approaches with DNMT inhibitors. [PMID:25608663](../papers/25608663.md)
+- [PMID:25608663](../papers/25608663.md)
+- [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

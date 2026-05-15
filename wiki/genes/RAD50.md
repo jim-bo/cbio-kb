@@ -3,8 +3,8 @@ symbol: RAD50
 aliases: []
 cancer_types: [UCEC]
 tags: [DNA-repair, endometrial-cancer, RPPA]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # RAD50
@@ -16,6 +16,7 @@ RAD50 encodes a component of the MRN (MRE11-RAD50-NBN) complex, essential for DN
 ## Alterations observed in the corpus
 
 - RAD50 shows elevated RPPA protein expression in the copy-number-low endometrial carcinoma subgroup, suggesting differences in DNA repair capacity across endometrial cancer subtypes [PMID:23636398](../papers/23636398.md)
+- CDK12, FANCA, PALB2, and RAD50 are additional somatic HR pathway genes identified in advanced prostate cancer (locoregional through mCRPC); combined germline+somatic HR-deficiency rate was 27% across canonical DDR genes [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RAD50 encodes a component of the MRN (MRE11-RAD50-NBN) complex, essential for DN
 - [PMID:23636398](../papers/23636398.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

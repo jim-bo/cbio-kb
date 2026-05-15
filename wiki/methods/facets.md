@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [copy-number, clonality, computational]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # FACETS
@@ -27,6 +27,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Used to assess tumor purity (>=25% threshold) in 22 primary-metastasis WES pairs for bladder cancer clonal evolution analysis [PMID:36543146](../papers/36543146.md)
 - FACETS used for allele-specific copy-number estimation and clonality assessment in 151 advanced head and neck tumors sequenced with MSK-IMPACT; identified whole-genome duplication in 25% of HNSC cases and quantified 3p deletions enriched in recurrent HPV-positive disease [PMID:27442865](../papers/27442865.md)
 - Applied FACETS algorithm to infer somatic copy number alterations and tumor purity/ploidy from sequencing data [PMID:28336552](../papers/28336552.md)
+- Used to estimate cancer cell fraction and clonality of alterations in MSK-IMPACT-sequenced prostate cancer tumors (504 tumors from 451 patients); identified TP53 and BRCA2 somatic alterations as early truncal clonal events in patients who later developed metastasis [PMID:28825054](../papers/28825054.md)
 
 ## Notes
 
@@ -52,3 +53,6 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

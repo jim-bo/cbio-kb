@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -104,6 +104,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Q61H missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
 - Second most altered gene in a 62-tumor-type pan-cancer cohort (15% overall); G12 codon dominates (80% of KRAS mutations); 90% mutation rate in PAAD, 44% in COAD; limited clinical actionability noted with then-available drugs [PMID:28481359](../papers/28481359.md)
 - Assessed in the 7-gene cross-histology panel for clear-cell endometrial carcinoma; mutations enriched in endometrioid-like (UEC) molecular profile subgroup [PMID:28485815](../papers/28485815.md)
+- Mutations significantly more frequent in intrahepatic cholangiocarcinomas vs. other CCA subtypes (q < 0.1) [PMID:28667006](../papers/28667006.md)
+- Altered in 51/500 (10.2%) of metastatic solid tumors in a pan-cancer metastatic sequencing cohort (MET500) [PMID:28783718](../papers/28783718.md)
+- Hotspot MAPK-pathway mutations in ~5% of prostate cancer patients across disease states [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -368,3 +371,12 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

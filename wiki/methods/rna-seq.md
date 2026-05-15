@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [transcriptomics, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # RNA sequencing
@@ -96,6 +96,9 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Used RNA-seq to profile transcriptional changes in tumor models [PMID:28196596](../papers/28196596.md)
 - Employed RNA-seq for transcriptome profiling in sarcoma tumor samples [PMID:28199314](../papers/28199314.md)
 - Used RNA-seq for transcriptome profiling and fusion detection in cancer specimens [PMID:28373299](../papers/28373299.md)
+- Poly(A)+ transcriptomes generated for 164 medulloblastoma cases; recurrent fusions targeting GLI2, PTEN, and PVT1 identified by integrating SV breakpoints with RNA-seq data [PMID:28726821](../papers/28726821.md)
+- Poly(A)+ and exome-capture transcriptomes generated for 868 libraries from 496 MET500 metastatic tumors (40–50M paired reads on Illumina HiSeq 2000/2500); enabled fusion calling (CODAC), immune deconvolution, and MImmScore derivation [PMID:28783718](../papers/28783718.md)
+- Applied to NOL10-knockdown LNCaP cells to identify 71 downregulated cell-cycle genes (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6); also used for GSEA and eQTL/sQTL analyses across CPGEA and TCGA PRAD cohorts [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -318,3 +321,12 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

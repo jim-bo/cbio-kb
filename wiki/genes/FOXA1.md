@@ -3,8 +3,8 @@ symbol: FOXA1
 aliases: []
 cancer_types: [LUAD, PRAD, BRCA]
 tags: [lineage-factor, metastasis]
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FOXA1
@@ -31,6 +31,7 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - Recurrent fork-head W2-region mutations (I176, D226 spatial hotspot) in [ILC](../cancer_types/ILC.md) (7%); mutations associated with increased FOXA1 mRNA expression, suggesting activating rather than loss-of-function mechanism; mutually exclusive with [GATA3](../genes/GATA3.md) mutations [PMID:26451490](../papers/26451490.md)
 - Mutated in 3-4% of primary prostate cancers; missense mutations cluster in the winged-helix DNA-binding domain but not at DNA-contact residues; mutually exclusive with most other subtype-defining alterations; FOXA1-mutant tumors have elevated [AR](../genes/AR.md) transcriptional output [PMID:26544944](../papers/26544944.md)
 - AR co-activator alterations (including FOXA1, NCOR1, NCOR2, ZBTB16) enriched in CRPC-Adeno (21 cases) vs. CRPC-NE; FOXA1 alterations support retained AR signaling axis in adenocarcinoma subtype [PMID:26855148](../papers/26855148.md)
+- Enriched in earlier disease states alongside SPOP in prostate cancer (defining a possibly androgen-deprivation-sensitive subset); also noted as a context gene in disease-state enrichment analyses; locoregional frequency higher than TCGA due to selection bias toward aggressive disease in the MSK-IMPACT cohort (n=451 patients) [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -84,3 +85,6 @@ FOXA1 is a forkhead/pioneer transcription factor with lineage-defining roles in 
 - [PMID:26855148](../papers/26855148.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

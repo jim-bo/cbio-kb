@@ -3,7 +3,7 @@ symbol: MED12
 aliases: []
 cancer_types: [ARMS, RMS, ULMS, UCEC]
 tags: [mediator-complex, hotspot, uterine]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -23,6 +23,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - Novel CLL driver candidate identified in CLL WES of 160 tumors (Broad) [PMID:23415222](../papers/23415222.md)
 - Significantly mutated gene in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - Not recurrently mutated in endometrial polyps; discussed only as comparator — MED12 is the dominant driver in uterine leiomyomas (70–80%) but was not found in this polyp cohort [PMID:28445112](../papers/28445112.md)
+- Recurrently altered candidate driver gene in medulloblastoma, stratified across subgroups in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

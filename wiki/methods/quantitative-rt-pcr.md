@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pcr, transcriptomics, gene-expression, validation]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -26,6 +26,7 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - Quantitative RT-PCR used to validate MYB and MYB-target gene expression changes following BET bromodomain inhibitor JQ1 treatment in grade-2 and grade-3 ACC primagrafts [PMID:26829750](../papers/26829750.md)
 - qRT-PCR used to quantify DUX4 and ERGalt expression in B-ALL cell lines and patient-derived xenografts in the DUX4/ERG B-ALL subtype study. [PMID:27776115](../papers/27776115.md)
 - Quantitative RT-PCR used to confirm that spautin-1 reduced TRMT10A protein but not mRNA levels, establishing post-transcriptional (proteasomal) regulation [PMID:28068672](../papers/28068672.md).
+- RT-qPCR used to validate RNA-seq-derived NOL10 cell-cycle signature gene set (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) and to measure NOL10 and USF1 expression changes after CRISPR perturbations and knockdown experiments across DU145, 22Rv1, LNCaP, and PC3 cells [PMID:28927585](../papers/28927585.md)
 
 ## Notes
 
@@ -59,3 +60,6 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - [PMID:28068672](../papers/28068672.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

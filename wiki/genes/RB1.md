@@ -49,6 +49,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Recurrently deleted at 13q14.2 in esophageal squamous cell carcinoma (ESCC) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - Recurrent baseline alteration in SCLC consistent with near-universal RB1 loss; preserved through acquired chemotherapy resistance in PDX models; no evidence of acquired driver mutations under chemotherapy selection [PMID:28196596](../papers/28196596.md)
 - Cell-cycle pathway gene with alterations more common at higher stage/grade in non-muscle-invasive bladder cancer (NMIBC; n=105) [PMID:28583311](../papers/28583311.md)
+- Altered in 68/500 (13.6%) in the MET500 pan-cancer metastatic cohort; also fusion-disrupted in 6 cases; germline PPGM enrichment noted [PMID:28783718](../papers/28783718.md)
+- Frequency rises sharply with castration resistance in prostate cancer (2% noncastrate → 18% mCRPC); locoregional-to-mCRPC progression is marked by convergent PTEN and RB1 co-loss [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -133,5 +135,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:28196596](../papers/28196596.md)
 
 - [PMID:28583311](../papers/28583311.md)
+
+- [PMID:28783718](../papers/28783718.md)
+
+- [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

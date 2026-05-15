@@ -10,7 +10,7 @@ assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
 tags: [prostate-cancer, prad, tcga, multi-platform]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Prostate Adenocarcinoma (TCGA, 2015)
@@ -40,6 +40,8 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 - Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier's specificity for castration-resistant neuroendocrine disease [PMID:26855148](../papers/26855148.md)
 - Used alongside prad_su2c_2015 to validate that metastasis-private mutations found at autopsy in the prad_fhcrc cohort are unlikely to be drivers (only 2/51 occurred at >5% frequency in these cohorts) [PMID:26928463](../papers/26928463.md)
 - Used for TRMT10A expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) [PMID:28068672](../papers/28068672.md)
+- Cited as a comparison primary-prostate-cancer cohort in the MSK-IMPACT prostate study; MSK locoregional tumors showed higher TP53 and FOXA1 frequencies than TCGA primaries [PMID:28825054](../papers/28825054.md).
+- Used to validate NOL10 overexpression in tumor vs. normal prostate, allele-specific BCR and survival outcomes (rs4519489 A/A genotype HR=13.05 for OS, P=0.038), and correlation of elevated NOL10 with advanced T stage (P=0.0058), lymph-node metastasis (P=0.045), and Gleason score (P=0.015) [PMID:28927585](../papers/28927585.md).
 
 ## Sources
 
@@ -50,3 +52,9 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 - [PMID:28068672](../papers/28068672.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

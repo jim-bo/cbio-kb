@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [cytogenetics, fusion-detection]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -53,6 +53,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used to validate IGH-DUX4 rearrangements and ERG deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; DUX4 rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
 - Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:28199314](../papers/28199314.md)
 - Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:28445112](../papers/28445112.md)
+- Used to independently validate ERBB2 amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -159,3 +160,6 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

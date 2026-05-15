@@ -5,7 +5,7 @@ main_type: Cancer of Unknown Primary
 parent: OTHER
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-15
 ---
 
 # Cancer of Unknown Primary (CUP)
@@ -21,6 +21,7 @@ Cancer of Unknown Primary (CUP) refers to metastatic malignancies in which the a
 ## Recurrent alterations
 
 - No systematic genomic profiling of CUP is reported in the current corpus. ATLAS uses RNA expression rather than mutation profiles for site-of-origin determination.
+- MET500 metastatic cohort: carcinoma of unknown primary represented 25/500 (5%) cases; expression-based t-SNE showed metastatic samples including CUP were less well-separated by tissue marker than primary tumors, consistent with dedifferentiation at metastatic sites. [PMID:28783718](../papers/28783718.md)
 
 ## Subtypes
 
@@ -32,6 +33,7 @@ Cancer of Unknown Primary (CUP) refers to metastatic malignancies in which the a
 
 ## Sources
 
-- [PMID:27634761](../papers/27634761.md) — A platform-independent AI tumor lineage and site (ATLAS) classifier (Communications Biology, 2024)
+- [PMID:27634761](../papers/27634761.md)
+- [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

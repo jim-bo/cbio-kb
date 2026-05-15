@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [immune-deconvolution, tumor-purity, stromal-scoring, expression-based]
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # ESTIMATE
@@ -18,6 +18,7 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 ## Used by
 
 - Applied to TCGA diffuse glioma expression data as part of the pan-glioma integrative analysis to estimate stromal and immune cell infiltration and tumor purity across the 1,122-sample cohort; used alongside PARADIGM and Tumor Map for multi-platform integration [PMID:26824661](../papers/26824661.md)
+- Applied to CCA transcriptome data to quantify immune infiltration, revealing elevated immune scores in both Cluster 2 and 3, but only Cluster 3 specifically upregulated immune-checkpoint genes (PDCD1, PDCD1LG2, BTLA) [PMID:28667006](../papers/28667006.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ ESTIMATE (Estimation of STromal and Immune cells in MAlignant Tumor tissues usin
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

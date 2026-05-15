@@ -3,7 +3,7 @@ symbol: HRAS
 aliases: []
 cancer_types: [ANGS, CESC, RMS]
 tags: [missense, hotspot, RAS, MAPK, VEGF-signaling, sarcoma, radiation-associated, cervical-cancer, rhabdomyosarcoma, RAS-pathway]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -42,6 +42,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - HRAS mutated in salivary duct carcinoma (SDCA) and one HNSC patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma (MUCC) treated similarly; recurrent in SDCA in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
 - HRAS recurrent somatic Q61 hotspot mutations activate MAPK signaling in pheochromocytoma/paraganglioma; enriched in the kinase signaling molecular subtype [PMID:28162975](../papers/28162975.md).
 - Single patient with HRAS mutation in prospective lung adenocarcinoma cohort (860 patients, MSK-IMPACT); HRAS is in the RAS family alongside KRAS and NRAS which are more commonly mutated in LUAD [PMID:28336552](../papers/28336552.md)
+- Hotspot MAPK-pathway mutation observed in ~5% of prostate cancer patients across all disease states in the 451-patient MSK-IMPACT cohort; co-detected with BRAF, KRAS, and MAP2K1 hotspot mutations [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -142,3 +143,6 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

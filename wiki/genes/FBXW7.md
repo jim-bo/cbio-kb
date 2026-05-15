@@ -42,6 +42,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - FBXW7 loss-of-function mutations were identified alongside ERBB2 alterations and evaluated for their role in therapy resistance [PMID:28445112](../papers/28445112.md)
 - R465H hotspot missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 7.9% of clear cell endometrial carcinoma (CCEC) in the UCCC-NIH targeted sequencing study [PMID:28485815](../papers/28485815.md)
+- Mutations in FBXW7 associated with elevated structural variant (SV) burden (q < 0.1) in cholangiocarcinoma (CCA) across a 489-sample ICGC multi-platform cohort [PMID:28667006](../papers/28667006.md)
+- Recurrently altered candidate driver in medulloblastoma across subgroups, identified in the ICGC/MAGIC 491-tumor WGS cohort; listed among additional recurrent driver genes stratified across subgroups [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +139,11 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28485815](../papers/28485815.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

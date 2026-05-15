@@ -12,8 +12,8 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # olaparib
@@ -37,6 +37,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - PALB2 somatic mutations occur in 4% of metastatic breast cancer vs 0.1% of primary breast cancer (FDR=0.006); authors propose PALB2-deficient mBC as a candidate population for PARP inhibitor (olaparib) trials [PMID:28027327](../papers/28027327.md)
 - In BRCA1/2-wild-type mCRPC cell lines and PDX models, olaparib combined with the USP10 inhibitor spautin-1 produced HSA synergy scores >10 in 22Rv1 and C4-2 cells and CI=0.76 in 22Rv1 CDX; TRMT10A is identified as a BRCA1-recruitment scaffold whose degradation via USP10 inhibition induces BRCAness and sensitizes cells to olaparib [PMID:28068672](../papers/28068672.md)
 - Cited as level 2B matched therapy for BRCA1/BRCA2 likely-inactivating mutations in 860-patient MSK-IMPACT LUAD cohort based on olaparib approval in BRCA-mutant ovarian carcinoma; no patient with BRCA1/BRCA2 truncating mutations received matched PARP-inhibitor therapy due to off-label barriers; basket trials NCT02201212 and NCT02675829 opened to address this gap [PMID:28336552](../papers/28336552.md).
+- 22% somatic HR-gene alteration rate (BRCA2 7%, ATM 5%, CDK12 7%) and 27% combined germline+somatic DDR-gene rate in 451 prostate cancer patients identifies candidates for olaparib and platinum-based therapy (per TOPARP-A and case-series citations) [PMID:28825054](../papers/28825054.md)
 
 ## Resistance mechanisms
 
@@ -63,7 +64,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; PALB2 somatic mutations in 4% of mBC proposed as candidate for PARPi trials.
 - [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; olaparib + spautin-1 synergy (HSA >10, CI=0.76) in BRCA1/2-WT mCRPC cell lines and PDX.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.
 - [PMID:28336552](../papers/28336552.md)
+- [PMID:28825054](../papers/28825054.md) — Abida et al. 2017, MSK-IMPACT pan-prostate cancer profiling; 22% somatic HR-gene alteration rate and 27% combined germline+somatic DDR rate nominate olaparib candidacy.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

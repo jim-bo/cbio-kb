@@ -3,8 +3,8 @@ symbol: TTC28
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-14"
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TTC28
@@ -16,6 +16,7 @@ TTC28 (Tetratricopeptide repeat domain 28) is located on chromosome 22 and has n
 ## Alterations observed in the corpus
 
 - Clustered chromosomal breakpoints at the TTC28 locus on chromosome 22 detected by whole-genome sequencing of 110 SCLC tumours, producing inactivating translocations [PMID:26168399](../papers/26168399.md)
+- Source of recurrent somatic L1 retrotransposition in 28.2% of WGS cholangiocarcinoma tumors [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -34,3 +35,6 @@ TTC28 (Tetratricopeptide repeat domain 28) is located on chromosome 22 and has n
 - [PMID:26168399](../papers/26168399.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

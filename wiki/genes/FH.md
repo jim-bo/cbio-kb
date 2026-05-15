@@ -3,7 +3,7 @@ symbol: FH
 aliases: []
 cancer_types: [PRCC, CHRCC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -17,6 +17,7 @@ FH (Fumarate Hydratase) encodes a mitochondrial and cytosolic enzyme catalyzing 
 
 - Referenced as a known germline kidney cancer predisposition gene in the context of comprehensive somatic profiling of 167 non-clear cell RCCs; not significantly mutated somatically in this cohort [PMID:25401301](../papers/25401301.md).
 - Defines FH-deficient uRCC subset; somatic homozygous deletion (T41) is a novel non-germline mechanism for FH-deficient RCC. FH-loss and 2SC IHC alone insufficient to distinguish HLRCC from sporadic FH-deficient RCC; genetic counselling required [PMID:27713405](../papers/27713405.md)
+- Identified as an additional germline cancer-predisposition finding (<1%) in a 451-patient prospective prostate cancer cohort profiled with MSK-IMPACT; clinical significance noted as emerging [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ FH (Fumarate Hydratase) encodes a mitochondrial and cytosolic enzyme catalyzing 
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

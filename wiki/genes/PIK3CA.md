@@ -119,6 +119,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - H1047 and E545 hotspots each observed in >20 principal tumor types across 10,336 MSK-IMPACT cases, exemplifying cross-lineage oncogenic selection; part of the 36.7% of patients with an OncoKB-actionable alteration [PMID:28481359](../papers/28481359.md)
 - Mutated in 23.8% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN), suggesting potential vulnerability to PI3K/AKT/mTOR-axis inhibitors [PMID:28485815](../papers/28485815.md)
 - Altered in 26% of non-muscle-invasive bladder cancer (NMIBC; n=105); part of the broadly altered RTK/PI3K pathway present in 79% of tumors [PMID:28583311](../papers/28583311.md)
+- Most frequently altered oncogene in the MET500 pan-cancer metastatic cohort (67/500, 13.4%) [PMID:28783718](../papers/28783718.md)
+- Predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable PI3K-pathway events [PMID:28825054](../papers/28825054.md)
 
 ## Cancer types (linked)
 
@@ -338,5 +340,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:28485815](../papers/28485815.md)
 
 - [PMID:28583311](../papers/28583311.md)
+
+- [PMID:28783718](../papers/28783718.md)
+
+- [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

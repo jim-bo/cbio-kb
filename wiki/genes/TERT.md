@@ -20,6 +20,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Promoter mutation in 18/19 sequenced oligodendroglioma tumors (95%), the most frequent abnormality observed; characteristic of 1p/19q-codeleted oligodendroglioma and absent in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
 - Promoter mutations at canonical -124/-146 hotspots (96.3% of TERT promoter events) plus 10 novel recurrent positions including -138 (n=21); highest frequency in bladder ([BLCA](../cancer_types/BLCA.md)), glioma, thyroid, and melanoma in pan-cancer MSK-IMPACT analysis (n=10,336); trend toward shorter overall survival [PMID:28481359](../papers/28481359.md)
 - Promoter mutations in 73% of NMIBC (n=105); uniformly high across grade and stage; supports use as a noninvasive urinary screening/surveillance biomarker [PMID:28583311](../papers/28583311.md)
+- Promoter mutations rare in cholangiocarcinoma (2/71 WGS cases, 2.8%) at chr5:1295228 [PMID:28667006](../papers/28667006.md)
+- Promoter hotspots are the only confident noncoding driver region across the 491-sample medulloblastoma ICGC cohort [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +54,11 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28583311](../papers/28583311.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

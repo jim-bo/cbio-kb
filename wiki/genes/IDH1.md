@@ -3,7 +3,7 @@ symbol: IDH1
 aliases: []
 cancer_types: [DIFG, AST, ODG, IHCH, GB]
 tags: [metabolic-driver, glioma, actionable, epigenetic-evolution]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -42,6 +42,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 R132C identified in a single pheochromocytoma/paraganglioma tumor in a comprehensive multi-platform genomic characterization study [PMID:28162975](../papers/28162975.md).
 - R132H mutation observed in 13/19 sequenced tumors (68%) in 1p/19q-codeleted oligodendroglioma; absent in 1p/19q-intact glioblastoma-like tumors; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
 - IDH1 identified as a lineage-restricted driver in glioma; contrasted with pan-cancer drivers TP53 and PIK3CA across a 62-tumor-type pan-cancer sequencing cohort [PMID:28481359](../papers/28481359.md)
+- Enriched in cholangiocarcinoma Cluster 4 (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production; candidate for IDH inhibitors (e.g. ivosidenib) [PMID:28667006](../papers/28667006.md)
+- R132C mutation in 6 medulloblastoma cases (5 SHH, 1 WNT); IDH1-mutant SHH tumours are CIMP+, mirroring G-CIMP in glioma [PMID:28726821](../papers/28726821.md)
 
 ## Cancer types (linked)
 
@@ -139,3 +141,9 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

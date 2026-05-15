@@ -3,7 +3,7 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -31,6 +31,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 R140 co-occurs strongly with NPM1 (OR 3.6, P=5e-10) while IDH2 R172 is mutually exclusive with NPM1 (OR 0.06, P=4e-5) and forms a provisional AML subgroup (1%, n=18) in a cohort of 1540 adults; DNMT3A × IDH2 R140 co-occurrence (n=19) was adverse (q=0.05) [PMID:27276561](../papers/27276561.md)
 - Covered by both the 264-gene and 8-gene amplicon panels in a 116-patient AML/MDS decitabine trial; previously hypothesized to predict hypomethylating-agent response but not validated as predictive of 10-day decitabine response. [PMID:27959731](../papers/27959731.md)
 - R172K mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases; wild-type in 1p/19q-intact glioblastoma-like cases; OncoKB Level 3B [PMID:28472509](../papers/28472509.md)
+- Enriched in cholangiocarcinoma Cluster 4 alongside IDH1 (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -93,3 +94,6 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

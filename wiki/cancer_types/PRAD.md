@@ -45,6 +45,9 @@ OncoTree code for prostate adenocarcinoma.
 - WES + array-CGH + expression microarray on 176 tumors from 63 men with mCRPC (rapid autopsy cohort) showed high intra-individual metastatic concordance for key drivers ([AR](../genes/AR.md) amplification/mutation 63%, [TMPRSS2](../genes/TMPRSS2.md)-[ERG](../genes/ERG.md) 100% concordant); somatic FA-pathway or [ATM](../genes/ATM.md) defects predicted longer carboplatin response (log-rank P=0.02) [PMID:26928463](../papers/26928463.md)
 - TRMT10A overexpressed in prostate cancer/mCRPC vs normal tissue (TCGA prad_tcga; n=500 tumor, n=52 normal); high TRMT10A IHC associated with shorter OS (P=0.014, log-rank) in 54 mCRPC patients; TRMT10A loss sensitizes BRCA1/2-WT mCRPC cells to PARPi (olaparib) by impairing ATM-dependent BRCA1 recruitment; USP10 inhibitor spautin-1 degrades TRMT10A and synergizes with olaparib in 22Rv1 CDX and two mCRPC PDX models [PMID:28068672](../papers/28068672.md)
 - In the MSK-IMPACT pan-cancer cohort (n=10,945 tumors), AR was mutated in 18% of metastatic PRAD vs 1% in TCGA primary tumors; recurrent acquired-resistance hotspots L702H and H875Y were observed in 10 patients each; TP53 was significantly enriched vs TCGA in metastatic prostate cancer; TMPRSS2-ERG was the most common rearrangement (n=151) with 23 cryptic TMPRSS2 rearrangements consistent with chromoplexy; MSI-detected prostate cancer (n=1) responded to anti-PD-L1 therapy. [PMID:28481359](../papers/28481359.md)
+- MET500 metastatic cohort: prostate adenocarcinoma was the largest lineage represented (93/500, 18.6%); AR alterations (12.6%) were lineage-restricted (predominantly PRAD); mutation burden was significantly elevated vs TCGA primaries with the largest increase in prostate cancer; germline pathogenic variants in HOXB13 (3 carriers, prostate-susceptibility allele) observed. [PMID:28783718](../papers/28783718.md)
+- MSK-IMPACT targeted profiling of 504 tumors from 451 PRAD patients spanning locoregional to mCRPC: actionable alterations in 36%, 22% somatic HR-gene alterations, 19% germline pathogenic variants in 221 tested (BRCA2 9%, CHEK2 4%, ATM 2%); AR, TP53, PTEN, RB1, ATM frequencies escalate with castration resistance; TP53 and BRCA2 alterations are early clonal events. [PMID:28825054](../papers/28825054.md)
+- SNPs-seq screen of 374 PRAD GWAS loci nominated rs4519489 (NOL10 intron, 2p25) as functional: A allele drives higher NOL10 expression via USF1 binding; elevated NOL10 tracks with advanced stage, lymph-node metastasis, Gleason score, BCR, and shorter OS across CPGEA, TCGA PRAD, and multiple validation cohorts (meta-analysis BCR HR=2.49, P=1.81e-9). [PMID:28927585](../papers/28927585.md)
 
 ## Subtypes
 
@@ -84,9 +87,11 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
 
-- [PMID:26928463](../papers/26928463.md) — Kumar et al., WES + array-CGH + expression microarray on 176 mCRPC tumors from 63 men (rapid autopsy); intra-individual metastatic concordance and FA-pathway/ATM carboplatin response biomarker
-
+- [PMID:26928463](../papers/26928463.md)
 - [PMID:28068672](../papers/28068672.md)
 - [PMID:28481359](../papers/28481359.md)
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:28825054](../papers/28825054.md)
+- [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: FGFR2
 aliases: []
 cancer_types: [BLCA, UTUC, PAAD]
 tags: [oncogene, receptor-tyrosine-kinase, fusion]
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FGFR2
@@ -33,6 +33,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - Candidate RTK alteration in HNSCC across HPV groups (Fig. 3) [PMID:25631445](../papers/25631445.md)
 - Non-passenger mutation in breast adenoid cystic carcinoma (AdCC); shared with salivary gland AdCCs; part of FGF-pathway enrichment [PMID:26095796](../papers/26095796.md)
 - MAPK-pathway alteration (with FGFR1, BRAF, NF1, NTRK1/2) enriched in PA-like LGG (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); alterations associated with pilocytic-astrocytoma-like IDH-wildtype LGG subtype [PMID:26824661](../papers/26824661.md)
+- In-frame fusions (FGFR2-STK26, -TBC1D1, -WAC, -BICC1), a novel class of recurrent truncating rearrangements removing the 3' UTR, indels (n=3), SNVs (n=10), and copy-gain (n=1) in cholangiocarcinoma; rearrangements exclusive to IDH/BAP1-bearing Cluster 4 (p < 0.001); aggregated alterations enriched in Cluster 4 (p < 0.01); FGFR2 3' UTR deletions are a new mechanism of FGFR2 overexpression [PMID:28667006](../papers/28667006.md)
 
 ## Cancer types (linked)
 
@@ -103,3 +104,6 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

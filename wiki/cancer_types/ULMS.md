@@ -4,8 +4,8 @@ oncotree_code: ULMS
 main_type: Uterine Sarcoma
 parent: USMT
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Uterine Leiomyosarcoma (ULMS)
@@ -27,6 +27,7 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 - [CDKN2A](../genes/CDKN2A.md) — deletions in 10% (more common than in STLMS at 2.6%). [PMID:38488807](../papers/38488807.md)
 - [MED12](../genes/MED12.md) — recurrent mutations in 15% (much more common than in STLMS at 1%). [PMID:38488807](../papers/38488807.md)
 - TMB: median 3 mut/Mb; 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
+- MET500 metastatic cohort identified a novel GREB1-NR4A3 activating fusion in uterine leiomyosarcoma; ULMS was sequenced as part of the 42/500 soft-tissue sarcoma cases within the cohort. [PMID:28783718](../papers/28783718.md)
 
 ## Subtypes
 
@@ -45,6 +46,7 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 
 ## Sources
 
-- [PMID:38488807](../papers/38488807.md) — Developing Novel Genomic Risk Stratification Models in Soft Tissue and Uterine Leiomyosarcoma (Clinical Cancer Research, 2024)
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:38488807](../papers/38488807.md)
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

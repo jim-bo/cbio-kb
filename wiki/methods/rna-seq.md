@@ -53,7 +53,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Applied in 73/96 pediatric pilocytic astrocytoma cases (ICGC cohort) for matched RNA sequencing alongside WGS; used for fusion discovery via TopHat-Fusion and deFuse, identifying novel [NTRK2](../genes/NTRK2.md) fusions ([QKI](../genes/QKI.md):[NTRK2](../genes/NTRK2.md), [NACC2](../genes/NACC2.md):[NTRK2](../genes/NTRK2.md)) and novel [BRAF](../genes/BRAF.md) fusion partners [PMID:23817572](../papers/23817572.md)
 - Applied to 164 [GBM](../cancer_types/GBM.md) transcriptomes; analyzed with PRADA to detect fusion transcripts (228 total in 106/164 samples) including recurrent EGFR-SEPT14, FGFR3-TACC3, and [PDGFRA](../genes/PDGFRA.md) intragenic splice variants [PMID:24120142](../papers/24120142.md)
 - Applied to 42 TCC bladder tumors with 16 matched normal bladder tissues; detected FGFR3-TACC3 in-frame fusion in 2/42 (5%) cases with outlier [TACC3](../genes/TACC3.md) expression [PMID:24121792](../papers/24121792.md)
-- Performed alongside whole-genome sequencing (STAR hg38 alignment + RSEM quantification) for 28 metastatic NENs in the BC Cancer POG program; expression data drove 6 of 10 clinical benefit outcomes through independent transcriptome-based therapy recommendations [PMID:24326773](../papers/24326773.md).
+- Performed alongside whole-genome sequencing (STAR hg38 alignment + RSEM quantification) for 28 metastatic NENs in the BC Cancer POG program; expression data drove 6 of 10 clinical benefit outcomes through independent transcriptome-based therapy recommendations [PMID:40328872](../papers/40328872.md).
 - Used to validate aberrant splicing in grade II glioma, including confirmation of [RB1](../genes/RB1.md) c.2520+1G>A splice-site mutation-driven premature termination and loss of growth-suppression domain in a TMZ-treated hypermutated recurrence [PMID:24336570](../papers/24336570.md)
 - PolyA RNA-seq on Illumina HiSeq2000 (100 bp PE) applied to 80 rhabdomyosarcoma tumors; mapped with TopHat2; fusions called via [tophat-fusion](../methods/tophat-fusion.md) and deFuse; showed 58% of DNA-level somatic mutations had RNA expression evidence; identified cryptic PAX rearrangements including PAX3-INO80D [PMID:24436047](../papers/24436047.md)
 - Applied to all 131 TCGA bladder carcinoma tumors (n=129 for mRNA clustering); miRNA-seq also performed; identified 4 mRNA expression clusters including papillary-like (cluster I, enriched for [FGFR3](../genes/FGFR3.md) mutations) and basal/squamous-like (cluster III, expressing KRT14/KRT5/EGFR); viral integration transcripts detected in 5/122 [PMID:24476821](../papers/24476821.md)
@@ -199,7 +199,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24336570](../papers/24336570.md)

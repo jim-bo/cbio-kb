@@ -52,7 +52,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Applied to 42 deep-coverage [GBM](../cancer_types/GBM.md) tumor/normal pairs; detected 238 high-confidence somatic rearrangements including [EGFR](../genes/EGFR.md) intragenic events and one case of chromothripsis; identified [TERT](../genes/TERT.md) promoter mutations in 84% [PMID:24120142](../papers/24120142.md)
 - Applied at fourfold mean haploid coverage in 99 [BLCA](../cancer_types/BLCA.md) tumors; WGS mate-pair reads confirmed FGFR3-TACC3 fusion junctions detected by RNA-seq [PMID:24121792](../papers/24121792.md)
 - Applied to 4 [MCL](../cancer_types/MCL.md) tumor/normal pairs; detected ~3,700 somatic mutations per tumor (1.2/Mb) and identified kataegis foci in 3/4 cases around the t(11;14) breakpoint and Ig loci [PMID:24145436](../papers/24145436.md)
-- Paired tumor/normal whole-genome sequencing on Illumina (hg19, BWA alignment) for 28 metastatic neuroendocrine neoplasms in the BC Cancer POG program; combined with RNA-seq in an integrated WGTA approach that identified actionable alterations in 24/28 patients [PMID:24326773](../papers/24326773.md).
+- Paired tumor/normal whole-genome sequencing on Illumina (hg19, BWA alignment) for 28 metastatic neuroendocrine neoplasms in the BC Cancer POG program; combined with RNA-seq in an integrated WGTA approach that identified actionable alterations in 24/28 patients [PMID:40328872](../papers/40328872.md).
 - Applied to 26 of 203 multiple myeloma tumor/normal pairs at ~30× average depth; all 26 samples harbored structural variants; enabled identification of SVs and complemented WES-based mutation calling [PMID:24434212](../papers/24434212.md)
 - Applied to 44 rhabdomyosarcoma tumor/normal pairs on Complete Genomics platform at mean 105× depth with 97% genome coverage; identified 553 somatic SVs affecting 419 genes and established the PAX-fusion-positive vs PAX-fusion-negative [RMS](../cancer_types/RMS.md) classification [PMID:24436047](../papers/24436047.md)
 - Low-pass paired-end WGS (6–8× coverage) of 114 bladder carcinoma tumors; identified 3 in-frame FGFR3-TACC3 fusions and 4 [ERBB2](../genes/ERBB2.md) rearrangements with different fusion partners; average 22 genomic rearrangements per sample [PMID:24476821](../papers/24476821.md)
@@ -191,7 +191,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:24145436](../papers/24145436.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24434212](../papers/24434212.md)

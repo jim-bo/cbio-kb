@@ -26,7 +26,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - MYCN focal amplification in 6% of [SCLC](../cancer_types/SCLC.md) tumors (CLCGP, 29 tumors); mutually exclusive with [MYCL](../genes/MYCL.md) and [MYC](../genes/MYC.md) amplification [PMID:22941188](../papers/22941188.md)
 - Recurrent p.Phe44Leu point mutation in 1.7% (4/240) of non-amplified neuroblastoma cases (Broad); highly conserved residue with predicted functional impact; MYCN amplification is mutually exclusive with [ATRX](../genes/ATRX.md) loss [PMID:23334666](../papers/23334666.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern observed in TCGA [GBM](../cancer_types/GBM.md) 2013 multi-platform analysis (n=543) [PMID:24120142](../papers/24120142.md)
-- Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- Amplified in a previously characterized pancreatic NEN; mentioned as a Cluster B driver alongside [MYC](../genes/MYC.md) in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Recurrent focal amplification in [SCLC](../cancer_types/SCLC.md); member of the [MYC](../genes/MYC.md) family amplified in [SCLC](../cancer_types/SCLC.md) alongside [MYC](../genes/MYC.md) and [MYCL](../genes/MYCL.md) [PMID:26168399](../papers/26168399.md)
 - Focal amplification in ~18% (10/56) of a high-risk neuroblastoma WGS cohort; mutually exclusive with [TERT](../genes/TERT.md) rearrangements and [ATRX](../genes/ATRX.md) mutations; MYCN amplification transcriptionally activates [TERT](../genes/TERT.md) ([TERT](../genes/TERT.md) is top hit upon MYCN knockdown in IMR5/75) and is functionally interchangeable with TERT rearrangement as a route to telomerase activation [PMID:26466568](../papers/26466568.md)
 - Over-expressed in CRPC-NE (P < 10⁻⁴); included in NEPC classifier; divergent allelic states across metastatic sites in patient WCMC7520; down-regulated by EZH2 inhibitor GSK343 in NCI-H660 [PMID:26855148](../papers/26855148.md)
@@ -83,7 +83,7 @@ MYCN encodes a MYC-family transcription factor; focal amplification is a recurre
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26168399](../papers/26168399.md)

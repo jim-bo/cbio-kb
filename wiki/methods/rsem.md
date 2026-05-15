@@ -17,7 +17,7 @@ RSEM uses an expectation-maximization algorithm to estimate transcript- and gene
 
 ## Used by
 
-- Used to quantify transcript-level gene expression from STAR-aligned RNA-seq reads (hg38) for 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) in the BC Cancer POG WGTA pipeline; expression values fed into edgeR differential expression, consensus hierarchical clustering, t-SNE visualization, and VIPER master-regulator analyses [PMID:24326773](../papers/24326773.md).
+- Used to quantify transcript-level gene expression from STAR-aligned RNA-seq reads (hg38) for 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) in the BC Cancer POG WGTA pipeline; expression values fed into edgeR differential expression, consensus hierarchical clustering, t-SNE visualization, and VIPER master-regulator analyses [PMID:40328872](../papers/40328872.md).
 - Used for RNA-seq quantification in bulk transcriptomics of 35 AAV-CRISPR-edited rat mammary tumors, enabling ANOVA-based identification of 1,579 differentially expressed genes and GSEA-based comparison with human endocrine therapy response datasets [PMID:26437033](../papers/26437033.md)
 - RSEM used for transcript-level quantification of RNA-seq data from 17 ACC tumors; confirmed NFIB overexpression vs normal tissue (p=0.002) independent of fusion status, and MYB overexpression in fusion-positive tumors [PMID:26862087](../papers/26862087.md)
 - MapSplice/RSEM pipeline used for mRNA quantification in the TCGA esophageal/stomach study of 164 oesophageal carcinomas and 359 gastric adenocarcinomas [PMID:28052061](../papers/28052061.md).

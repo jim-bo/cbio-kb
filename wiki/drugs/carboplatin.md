@@ -19,7 +19,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 - Carboplatin is listed in the UCLA sarcoma PDTO drug library ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens from 126 patients across 24 subtypes). The paper reports that 59% of specimens (57/97) and 58% of patients (43/74) had at least one FDA-approved or NCCN-recommended top-five regimen identified by the screen; carboplatin was among the compounds contributing to this actionability landscape across sarcoma subtypes. [PMID:39305899](../papers/39305899.md)
 - Used as part of platinum-based chemotherapy for metastatic urothelial carcinoma in the UC-GENOME study (n=218); [ERCC2](../genes/ERCC2.md) mutations associated with significantly higher chemotherapy response rate (p=0.0134) [PMID:36333289](../papers/36333289.md)
-- Prior platinum (carboplatin) exposure in ovarian MiNEN patient PN19 (11 months prior) generated platinum-therapy mutational signatures detected by WGTA in the POG NEN cohort [PMID:24326773](../papers/24326773.md)
+- Prior platinum (carboplatin) exposure in ovarian MiNEN patient PN19 (11 months prior) generated platinum-therapy mutational signatures detected by WGTA in the POG NEN cohort [PMID:40328872](../papers/40328872.md)
 - Used as part of platinum-based chemoimmunotherapy backbone in R/M NPC trials cited in this review [PMID:24952746](../papers/24952746.md)
 - In muscle-invasive bladder cancer patients ineligible for cisplatin, carboplatin-based regimens are proposed as candidates for study in ERCC2-mutant tumors, given the mechanistic link between ERCC2 loss-of-function and platinum sensitivity [PMID:25096233](../papers/25096233.md)
 - In 20 mCRPC men treated with carboplatin (from the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort), those with a somatic DNA-repair pathway aberration (homozygous loss in any FA-pathway gene or hetero-/homozygous inactivating event in [ATM](../genes/ATM.md)) had significantly longer time on carboplatin (log-rank P = 0.02), supporting platinum-based therapy in DNA-repair-deficient mCRPC. [PMID:26928463](../papers/26928463.md)
@@ -39,7 +39,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:36333289](../papers/36333289.md)
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 - [PMID:24952746](../papers/24952746.md)
 - [PMID:25096233](../papers/25096233.md)
 - [PMID:26928463](../papers/26928463.md)

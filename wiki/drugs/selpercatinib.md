@@ -23,7 +23,7 @@ Selpercatinib (LOXO-292) is a highly selective [RET](../genes/RET.md) kinase inh
 
 ## Evidence in the corpus
 
-- Activating RET mutations in metastatic medullary thyroid carcinoma patients (PN7, PN8) identified by WGTA (POG program) guided selpercatinib (LOXO-292) selection; PN7 achieved 1423 days stable disease on selpercatinib [PMID:24326773](../papers/24326773.md)
+- Activating RET mutations in metastatic medullary thyroid carcinoma patients (PN7, PN8) identified by WGTA (POG program) guided selpercatinib (LOXO-292) selection; PN7 achieved 1423 days stable disease on selpercatinib [PMID:40328872](../papers/40328872.md)
 
 ## Resistance mechanisms
 

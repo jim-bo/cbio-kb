@@ -15,19 +15,19 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 
 ## Alterations observed in the corpus
 
-- TOP2A amplification with high expression identified in neuroendocrine neoplasm patient PN4 (a PanNET) by whole-genome/transcriptome analysis; supported irinotecan recommendation within a WGTA-guided precision oncology cohort [PMID:24326773](../papers/24326773.md)
+- TOP2A amplification with high expression identified in neuroendocrine neoplasm patient PN4 (a PanNET) by whole-genome/transcriptome analysis; supported irinotecan recommendation within a WGTA-guided precision oncology cohort [PMID:40328872](../papers/40328872.md)
 
 ## Cancer types (linked)
 
-- **Pancreatic neuroendocrine neoplasm (PanNET):** TOP2A amplification and high expression observed in PN4; used to guide topoisomerase II inhibitor (irinotecan) therapy selection [PMID:24326773](../papers/24326773.md)
+- **Pancreatic neuroendocrine neoplasm (PanNET):** TOP2A amplification and high expression observed in PN4; used to guide topoisomerase II inhibitor (irinotecan) therapy selection [PMID:40328872](../papers/40328872.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- TOP2A amplification in PN4 co-occurred with biallelic MSH6/MLH1 loss-of-function and high TMB (~11 mut/Mb); the patient was classified as MSI-low despite dMMR [PMID:24326773](../papers/24326773.md)
+- TOP2A amplification in PN4 co-occurred with biallelic MSH6/MLH1 loss-of-function and high TMB (~11 mut/Mb); the patient was classified as MSI-low despite dMMR [PMID:40328872](../papers/40328872.md)
 
 ## Therapeutic relevance
 
-- TOP2A amplification/overexpression supports use of topoisomerase II inhibitors (irinotecan) in NENs; this approach was applied in patient PN4 within a precision oncology program [PMID:24326773](../papers/24326773.md)
+- TOP2A amplification/overexpression supports use of topoisomerase II inhibitors (irinotecan) in NENs; this approach was applied in patient PN4 within a precision oncology program [PMID:40328872](../papers/40328872.md)
 
 ## Open questions
 
@@ -35,6 +35,6 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 
 ## Sources
 
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

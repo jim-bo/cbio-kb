@@ -17,13 +17,13 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 
 ## Alterations observed in the corpus
 
-- High PIK3R2 expression supported TKI selection ([sorafenib](../drugs/sorafenib.md), [pazopanib](../drugs/pazopanib.md)) for metastatic neuroendocrine neoplasm patient PN1 in a WGTA precision-oncology study of 28 NEN patients [PMID:24326773](../papers/24326773.md)
+- High PIK3R2 expression supported TKI selection ([sorafenib](../drugs/sorafenib.md), [pazopanib](../drugs/pazopanib.md)) for metastatic neuroendocrine neoplasm patient PN1 in a WGTA precision-oncology study of 28 NEN patients [PMID:40328872](../papers/40328872.md)
 - PIK3R2 mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
 - Nominated as a novel PI3K-pathway SMG (1% frequency) in 1,013 prostate tumors (prad_p1000); the recurrent p.Asp557Tyr variant is paralogous to the known oncogenic PIK3R1 p.Asp560Tyr and was reproduced in the MSK-IMPACT validation cohort [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
-- **Neuroendocrine neoplasms (NENs)** — high expression informing TKI therapy selection in the WGTA precision-oncology cohort [PMID:24326773](../papers/24326773.md)
+- **Neuroendocrine neoplasms (NENs)** — high expression informing TKI therapy selection in the WGTA precision-oncology cohort [PMID:40328872](../papers/40328872.md)
 
 ## Co-occurrence and mutual exclusivity
 
@@ -31,7 +31,7 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 
 ## Therapeutic relevance
 
-- High PIK3R2 expression used as rationale for sorafenib and pazopanib (TKI) selection in a metastatic NEN patient [PMID:24326773](../papers/24326773.md)
+- High PIK3R2 expression used as rationale for sorafenib and pazopanib (TKI) selection in a metastatic NEN patient [PMID:40328872](../papers/40328872.md)
 
 ## Open questions
 
@@ -39,7 +39,7 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 
 ## Sources
 
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:26878173](../papers/26878173.md)

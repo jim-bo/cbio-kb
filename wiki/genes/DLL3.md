@@ -15,22 +15,22 @@ DLL3 (Delta-like ligand 3) is a Notch pathway ligand that acts as an inhibitory 
 
 ## Alterations observed in the corpus
 
-- High DLL3 expression supported DLL3-inhibitor therapeutic recommendations in neuroendocrine neoplasm patients PN11, PN19, and PN22 in a precision oncology cohort [PMID:24326773](../papers/24326773.md)
+- High DLL3 expression supported DLL3-inhibitor therapeutic recommendations in neuroendocrine neoplasm patients PN11, PN19, and PN22 in a precision oncology cohort [PMID:40328872](../papers/40328872.md)
 
 ## Cancer types (linked)
 
-- Neuroendocrine neoplasms (PanNENs, PulNENs, ovarian MiNEN): high DLL3 expression observed and used as a therapeutic biomarker [PMID:24326773](../papers/24326773.md)
+- Neuroendocrine neoplasms (PanNENs, PulNENs, ovarian MiNEN): high DLL3 expression observed and used as a therapeutic biomarker [PMID:40328872](../papers/40328872.md)
 
 ## Co-occurrence and mutual exclusivity
 
 ## Therapeutic relevance
 
-- DLL3-targeted therapy (DLL3 inhibitors) recommended in NEN patients with high DLL3 expression [PMID:24326773](../papers/24326773.md)
+- DLL3-targeted therapy (DLL3 inhibitors) recommended in NEN patients with high DLL3 expression [PMID:40328872](../papers/40328872.md)
 
 ## Open questions
 
 ## Sources
 
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*

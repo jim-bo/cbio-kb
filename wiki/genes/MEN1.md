@@ -21,7 +21,7 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 
 - MEN1 was the most frequently mutated gene in PanNETs, with inactivating mutations (indels, nonsense, splice-site) in 44% of 68 tumors by exome sequencing; biallelic inactivation documented, consistent with classic two-hit tumor suppressor model [PMID:21252315](../papers/21252315.md)
 - Somatic mutation in 1/23 (4%) pancreatic acinar cell carcinomas; occurred in a mixed acinar-ductal carcinoma without neuroendocrine features [PMID:24293293](../papers/24293293.md)
-- Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (PanNENs/PulNENs); PanNEN-specific large-scale LOH observed; MEN1 loss used to support cell-cycle and MTOR-inhibitor ([everolimus](../drugs/everolimus.md)) therapy recommendations in multiple patients [PMID:24326773](../papers/24326773.md)
+- Recurrent loss-of-function in pancreatic and pulmonary neuroendocrine neoplasms (PanNENs/PulNENs); PanNEN-specific large-scale LOH observed; MEN1 loss used to support cell-cycle and MTOR-inhibitor ([everolimus](../drugs/everolimus.md)) therapy recommendations in multiple patients [PMID:40328872](../papers/40328872.md)
 - MEN1 among tumor suppressor genes mutated in 15/402 (3.7%) PTC tumors in the TCGA thyroid cohort [PMID:25417114](../papers/25417114.md)
 - MEN1 truncating mutations observed at low frequency in PDTC and ATC as part of a set of infrequent truncating mutations alongside NF2 and RB1 [PMID:26878173](../papers/26878173.md)
 - MEN1 nominated as a breast cancer mutation-driver via combined homozygous deletion and inactivating-mutation evidence in 2,433-tumor whole-genome/exome sequencing study [PMID:27161491](../papers/27161491.md)
@@ -50,7 +50,7 @@ MEN1 encodes menin, a scaffold protein and component of the MLL/SET1-like histon
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:25417114](../papers/25417114.md)

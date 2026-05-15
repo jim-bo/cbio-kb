@@ -20,7 +20,7 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - PDCD1 (PD1) progressively upregulated on CD8+ T cells from the STIC.I stage onward in [HGSOC](../cancer_types/HGSOC.md) fallopian tube precursors; activation markers (Ki67+ or PD1+) rise from 11% in p53.I to 25–43% in STIC.I/STIC.C/cancer; exhaustion markers ([LAG3](../genes/LAG3.md)+ or PD1+[LAG3](../genes/LAG3.md)+) increase 3- to 7-fold; PDCD1 listed alongside [LAG3](../genes/LAG3.md), [HAVCR2](../genes/HAVCR2.md) (TIM3), and [CTLA4](../genes/CTLA4.md) as exhaustion/checkpoint markers in this 44-specimen [HGSOC](../cancer_types/HGSOC.md) spatial atlas. [PMID:39386723](../papers/39386723.md)
 - PD-1; marks antigen-experienced T cells in [HGSOC](../cancer_types/HGSOC.md); higher co-expression with [CD274](../genes/CD274.md) in HRD subtypes [PMID:36517593](../papers/36517593.md)
 - PDCD1 (PD-1) expression on tumor-infiltrating lymphocytes is elevated in PBRM1-mutant ccRCC tumors with high immune cell infiltration, supporting use as an immunotherapy biomarker [PMID:22138691](../papers/22138691.md)
-- High expression of PD-1 (PDCD1) flagged as an immune-checkpoint-inhibitor rationale in metastatic neuroendocrine neoplasms (NENs) PN5, PN18, and PN19 within the whole-genome/transcriptome analysis (WGTA) precision-oncology cohort [PMID:24326773](../papers/24326773.md)
+- High expression of PD-1 (PDCD1) flagged as an immune-checkpoint-inhibitor rationale in metastatic neuroendocrine neoplasms (NENs) PN5, PN18, and PN19 within the whole-genome/transcriptome analysis (WGTA) precision-oncology cohort [PMID:40328872](../papers/40328872.md)
 - PD-1 expression is a defining marker of the immune-active [HCC](../cancer_types/HCC.md) class; expression not predictive of response to [nivolumab](../drugs/nivolumab.md) or [pembrolizumab](../drugs/pembrolizumab.md) in [HCC](../cancer_types/HCC.md) trials; anti-PD-1 has FDA accelerated approval in [HCC](../cancer_types/HCC.md) [PMID:24798001](../papers/24798001.md)
 - PD-1 upregulated on T cells in non-keratinizing [NPC](../cancer_types/NPC.md) due to chronic EBV antigen exposure; multiple anti-PD-1 mAbs approved or investigational in [NPC](../cancer_types/NPC.md) ([toripalimab](../drugs/toripalimab.md), [tislelizumab](../drugs/tislelizumab.md), [penpulimab](../drugs/penpulimab.md), [pembrolizumab](../drugs/pembrolizumab.md), [nivolumab](../drugs/nivolumab.md), [sintilimab](../drugs/sintilimab.md), [serplulimab](../drugs/serplulimab.md), [tagitanlimab](../drugs/tagitanlimab.md)) [PMID:24952746](../papers/24952746.md)
 - PD-1 immune checkpoint whose blockade efficacy in biliary tract cancer is modulated by gut microbiota composition; Bacteroidetes enrichment improves anti-PD-1 outcomes while Proteobacteria dominance reduces [sintilimab](../drugs/sintilimab.md)+[anlotinib](../drugs/anlotinib.md) efficacy [PMID:25608663](../papers/25608663.md)
@@ -67,7 +67,7 @@ PDCD1 (PD-1) is an immune checkpoint receptor and the target of anti-PD-1 antibo
 - [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24798001](../papers/24798001.md)

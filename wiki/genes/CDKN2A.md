@@ -63,7 +63,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Only gene with recurrent homozygous deletions in [MCL](../cancer_types/MCL.md) (mantle cell lymphoma); no somatic point mutations detected [PMID:24145436](../papers/24145436.md)
 - Sporadic alteration included in the intrahepatic cholangiocarcinoma/gallbladder carcinoma prevalence-screen panel [PMID:24185509](../papers/24185509.md)
 - Homozygous deletion in 4/23 (17%) pancreatic acinar carcinomas, including 2/3 mixed acinar-ductal carcinomas [PMID:24293293](../papers/24293293.md)
-- Homozygous deletion together with [CDKN2B](../genes/CDKN2B.md) in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:24326773](../papers/24326773.md)
+- Homozygous deletion together with [CDKN2B](../genes/CDKN2B.md) in PanNEN patient PN16; supported CDK4/6-inhibitor therapy recommendation in WGTA-guided therapy study [PMID:40328872](../papers/40328872.md)
 - TMZ-associated P114L mutation acquired in patients 05 and 10 during low-grade glioma treatment; abrogates [CDK4](../genes/CDK4.md) inhibition and cell-cycle arrest, contributing to malignant progression to [GBM](../cancer_types/GBM.md) in TMZ-driven hypermutated recurrences [PMID:24336570](../papers/24336570.md)
 - Homozygous deletion in 3% of rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) cases; 9p21.3 LOH in 9% (PAX-fusion-negative-skewed); part of 12q15 amplicon context with MDM2/FRS2 alterations [PMID:24436047](../papers/24436047.md)
 - Focal homozygous deletion in 47% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md), n=131); most common focal deletion at 9p21.3; correlated with reduced mRNA expression; mutually exclusive with [RB1](../genes/RB1.md) loss [PMID:24476821](../papers/24476821.md)
@@ -226,7 +226,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 - [PMID:24293293](../papers/24293293.md)
 
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 - [PMID:24336570](../papers/24336570.md)
 

@@ -15,19 +15,19 @@ NTHL1 (Nth-like DNA glycosylase 1) encodes a base excision repair (BER) enzyme t
 
 ## Alterations observed in the corpus
 
-- Germline biallelic loss-of-function in PanNET patient PN2 in a WGTA study of rare metastatic neuroendocrine neoplasms; drove a strong dMMR mutational signature (previously published by the same group) [PMID:24326773](../papers/24326773.md)
+- Germline biallelic loss-of-function in PanNET patient PN2 in a WGTA study of rare metastatic neuroendocrine neoplasms; drove a strong dMMR mutational signature (previously published by the same group) [PMID:40328872](../papers/40328872.md)
 
 ## Cancer types (linked)
 
-- Pancreatic neuroendocrine tumor (PanNET) — germline NTHL1 biallelic loss as a predisposing event with dMMR signature [PMID:24326773](../papers/24326773.md)
+- Pancreatic neuroendocrine tumor (PanNET) — germline NTHL1 biallelic loss as a predisposing event with dMMR signature [PMID:40328872](../papers/40328872.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Associated with dMMR mutational signature in PN2; the germline origin suggests a hereditary predisposition context [PMID:24326773](../papers/24326773.md)
+- Associated with dMMR mutational signature in PN2; the germline origin suggests a hereditary predisposition context [PMID:40328872](../papers/40328872.md)
 
 ## Therapeutic relevance
 
-- dMMR tumors driven by NTHL1 loss may be candidates for immune-checkpoint inhibitor therapy; specific evaluation was not reported for PN2 in this study [PMID:24326773](../papers/24326773.md)
+- dMMR tumors driven by NTHL1 loss may be candidates for immune-checkpoint inhibitor therapy; specific evaluation was not reported for PN2 in this study [PMID:40328872](../papers/40328872.md)
 
 ## Open questions
 
@@ -35,6 +35,6 @@ NTHL1 (Nth-like DNA glycosylase 1) encodes a base excision repair (BER) enzyme t
 
 ## Sources
 
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*

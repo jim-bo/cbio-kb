@@ -22,7 +22,7 @@ Lanreotide is a synthetic somatostatin analog (long-acting depot formulation) ta
 
 ## Evidence in the corpus
 
-- High SSTR2 expression identified by WGTA (POG program) supported somatostatin-analog therapy (octreotide/lanreotide) in metastatic NEN patients PN5, PN7, PN10, PN23, PN28; PN23 had a 1972-day duration on octreotide/lanreotide [PMID:24326773](../papers/24326773.md)
+- High SSTR2 expression identified by WGTA (POG program) supported somatostatin-analog therapy (octreotide/lanreotide) in metastatic NEN patients PN5, PN7, PN10, PN23, PN28; PN23 had a 1972-day duration on octreotide/lanreotide [PMID:40328872](../papers/40328872.md)
 
 ## Resistance mechanisms
 

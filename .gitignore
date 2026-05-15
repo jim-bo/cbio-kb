@@ -13,6 +13,9 @@ data/
 possible_improvements.md
 *.tmp
 
+# Fact-verifier per-paper output (regenerate with scripts/verify_paper.py)
+eval/verify/
+
 # OS metadata
 .DS_Store
 

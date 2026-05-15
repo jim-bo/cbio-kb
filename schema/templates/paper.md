@@ -2,6 +2,7 @@
 pmid:
 pmcid:
 study_id:
+corpus:
 doi:
 title:
 authors: []

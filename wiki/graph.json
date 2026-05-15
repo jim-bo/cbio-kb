@@ -7,7 +7,7 @@
     {
       "id": "papers",
       "label": "Papers",
-      "count": 254
+      "count": 252
     },
     {
       "id": "genes",
@@ -852,12 +852,6 @@
       "title": "Genome-wide profiles of extra-cranial malignant rhabdoid tumors reveal heterogeneity and dysregulated developmental pathways"
     },
     {
-      "id": "papers/26978244.md",
-      "section": "papers",
-      "label": "26978244",
-      "title": "The FAIR Guiding Principles for scientific data management and stewardship"
-    },
-    {
       "id": "papers/26997480.md",
       "section": "papers",
       "label": "26997480",
@@ -892,12 +886,6 @@
       "section": "papers",
       "label": "27346245",
       "title": "A profile of lung cancer in the young population with a highlight on the Indian perspective"
-    },
-    {
-      "id": "papers/27389358.md",
-      "section": "papers",
-      "label": "27389358",
-      "title": "A Practical Guide for Improving Transparency and Reproducibility in Neuroimaging Research"
     },
     {
       "id": "papers/27442865.md",
@@ -16099,10 +16087,6 @@
     },
     {
       "from": "papers",
-      "to": "papers/26978244.md"
-    },
-    {
-      "from": "papers",
       "to": "papers/26997480.md"
     },
     {
@@ -16124,10 +16108,6 @@
     {
       "from": "papers",
       "to": "papers/27346245.md"
-    },
-    {
-      "from": "papers",
-      "to": "papers/27389358.md"
     },
     {
       "from": "papers",
@@ -137102,10 +137082,6 @@
     {
       "from": "papers/26977886.md",
       "to": "genes/HOTAIR.md"
-    },
-    {
-      "from": "papers/26978244.md",
-      "to": "methods/facets.md"
     },
     {
       "from": "papers/26997480.md",

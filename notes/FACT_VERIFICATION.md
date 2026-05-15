@@ -148,11 +148,21 @@ encode subsets (e.g. `samples_with_panel: IMPACT341`) and the
 walker to construct a sample list from clinical attributes. Defer
 until a real LLM extractor is in place.
 
+**Update 2026-05-15: extraction agent is live.**
+
+`.claude/agents/claims-extractor.md` (and matching `.gemini/agents/`)
+is a sonnet-level agent that reads a compiled paper page, validates
+declared studies/genes against the frontmatter, and writes the
+sidecar JSON. It correctly returns `[]` for review papers (tested on
+PMID 24735922) and produces verifying claims for primary-cohort
+papers (tested on PMID 28481359 — all 3 claims pass at exact rates:
+sample_count 10945, TP53 41%, KRAS 15%). Skipped-claim list returned
+to the orchestrator surfaces per-cancer-type subsets and aggregate
+event counts that v1 schema doesn't support — useful signal for v2
+schema design. Step 6 of the "Adding one paper" workflow in AGENTS.md
+now dispatches it. Pytest emit is step 12 (optional).
+
 **Open items for v2:**
-- LLM extraction agent (`.claude/agents/claims-extractor.md`, likely
-  sonnet) that reads each `wiki/papers/{pmid}.md` and emits the
-  sidecar JSON. Easiest path: run on the 240 papers without a
-  sidecar after a paper-compiler pass.
 - Additional claim kinds: `cna_rate` (amp/del), `co_occurrence`
   (two-gene intersect), `median_survival_months`, `tmb_median`.
 - Subset/cohort encoding for cases like 26901067 (denominator is

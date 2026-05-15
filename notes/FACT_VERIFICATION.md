@@ -106,10 +106,60 @@ Catches the bulk of metadata errors. Phase A breaks down further:
 ### Phase B — Claims manifest (compiler contract change)
 
 Add an extraction step to paper-compiler (or a sibling agent) that
-emits `data/claims/{pmid}.json` per the schema above. Hard part isn't
-the LLM call — it's deciding what counts as a claim and how to encode
-modifiers (mutationType class, sample subset, comparison cohort).
-Defer until Phase A failures cluster enough to suggest a schema.
+emits a sidecar `wiki/papers/{pmid}.claims.json` per the schema below.
+Hard part isn't the LLM call — it's deciding what counts as a claim
+and how to encode modifiers (mutationType class, sample subset,
+comparison cohort).
+
+**v1 status (2026-05-15): walker built, extractor still hand-rolled.**
+
+The verifier-side walker is in `scripts/verify_paper.py`
+(`check_claims`, `_check_sample_count_claim`, `_check_mutation_rate_claim`).
+It reads `wiki/papers/{pmid}.claims.json` if present and emits
+findings with `claim.*` codes via the same `Finding` pipeline that
+Phase A uses, so the existing aggregator / REPORT.md flow works
+unchanged. Two claim kinds supported in v1:
+
+- `sample_count`: claim integer compared to `sequencedSampleCount`.
+  Tolerance: `|Δ| ≤ 5` absolute OR `≤ 10%` relative.
+- `mutation_rate`: claim fraction compared to
+  `unique_samples_with_mutation / sequencedSampleCount`,
+  optionally filtered by mutationType class
+  (`truncating` / `missense` / `inframe` / `any`).
+  Tolerance: `± 5 percentage points`.
+
+Hand-extracted claim files exist for two papers as test data:
+- `wiki/papers/26901067.claims.json` — CDH1 plasmacytoid
+- `wiki/papers/36577525.claims.json` — myoepithelial soft tissue
+
+What they surface:
+- 26901067 sample_count (31 vs API 34): pass — within absolute
+  tolerance.
+- 26901067 CDH1 truncating (84% vs API 71%): warn — real
+  subset-vs-full-cohort issue (paper denominates against 31
+  plasmacytoid; API knows 34 total).
+- 26901067 TP53 any (59% vs API 59%): pass within 0.2pp.
+- 36577525 sample_count (12 vs API 12): pass — exact.
+
+The 84% / 71% discrepancy is a useful surfaced signal — it shows
+the walker cannot tell when a paper's denominator is a subset of
+the cBioPortal study. Fixing it requires the claim schema to
+encode subsets (e.g. `samples_with_panel: IMPACT341`) and the
+walker to construct a sample list from clinical attributes. Defer
+until a real LLM extractor is in place.
+
+**Open items for v2:**
+- LLM extraction agent (`.claude/agents/claims-extractor.md`, likely
+  sonnet) that reads each `wiki/papers/{pmid}.md` and emits the
+  sidecar JSON. Easiest path: run on the 240 papers without a
+  sidecar after a paper-compiler pass.
+- Additional claim kinds: `cna_rate` (amp/del), `co_occurrence`
+  (two-gene intersect), `median_survival_months`, `tmb_median`.
+- Subset/cohort encoding for cases like 26901067 (denominator is
+  panel-subsetted), with the walker constructing the sample list
+  from clinical attributes before computing rates.
+- Aggregator drilldown table for `claim.*` warns (today they
+  appear in the by-code table but not in their own section).
 
 ## Tradeoffs
 

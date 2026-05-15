@@ -38,21 +38,25 @@ def load_reports(in_dir: Path) -> list[dict]:
 
 def build_summary(reports: list[dict]) -> dict:
     corpus = {s: 0 for s in SEVERITY}
-    by_code: Counter = Counter()
-    by_code_severity: dict[str, str] = {}
+    # Key by (severity, code) so a finding code that emits both passes and warns
+    # — like claim.mutation_rate — surfaces both rows accurately.
+    by_pair: Counter = Counter()
     for r in reports:
         for s in SEVERITY:
             corpus[s] += r["tallies"].get(s, 0)
         for f in r["findings"]:
-            by_code[f["code"]] += 1
-            by_code_severity.setdefault(f["code"], f["severity"])
+            by_pair[(f["severity"], f["code"])] += 1
+    # Sort by severity rank (fail/warn first), then by count desc within rank.
+    sev_rank = {s: i for i, s in enumerate(("fail", "warn", "info", "pass"))}
+    rows = sorted(by_pair.items(),
+                  key=lambda kv: (sev_rank.get(kv[0][0], 99), -kv[1], kv[0][1]))
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "n_papers": len(reports),
         "corpus_tallies": corpus,
         "findings_by_code": [
-            {"code": code, "severity": by_code_severity[code], "count": n}
-            for code, n in by_code.most_common()
+            {"severity": sev, "code": code, "count": n}
+            for (sev, code), n in rows
         ],
         "papers": [
             {"pmid": r["pmid"], "title": r["title"],

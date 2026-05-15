@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "stmyec_wcm_2022",
+    "value": 12,
+    "denominator": null,
+    "quote": "12 samples from 2 patients with myoepithelial carcinoma of soft tissue",
+    "section": "Cohort & data"
+  }
+]

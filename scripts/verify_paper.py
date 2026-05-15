@@ -445,6 +445,100 @@ def check_genes(study_id: str, fm_genes: list[str], hugo2entrez: dict[str, int],
     return findings
 
 
+# ---------- Claim walker (Phase B) ----------
+
+CLAIM_RATE_TOLERANCE_PP = 0.05      # 5 percentage points
+CLAIM_COUNT_TOLERANCE_ABS = 5       # 5 samples absolute
+CLAIM_COUNT_TOLERANCE_REL = 0.10    # or 10% relative — whichever is larger
+
+
+def load_claims(pmid: str) -> list[dict]:
+    p = WIKI_PAPERS / f"{pmid}.claims.json"
+    if not p.exists():
+        return []
+    return json.loads(p.read_text())
+
+
+def _check_sample_count_claim(claim: dict, study: dict, scope: str) -> Finding:
+    claim_value = claim["value"]
+    api_value = study.get("sequencedSampleCount") or 0
+    delta = abs(api_value - claim_value)
+    pct = delta / max(1, api_value)
+    tol_msg = f"|Δ|≤{CLAIM_COUNT_TOLERANCE_ABS} or ≤{int(CLAIM_COUNT_TOLERANCE_REL*100)}%"
+    sev = "pass" if (delta <= CLAIM_COUNT_TOLERANCE_ABS
+                      or pct <= CLAIM_COUNT_TOLERANCE_REL) else "warn"
+    return Finding(sev, "claim.sample_count", scope,
+                   f"claim={claim_value}, API sequencedSampleCount={api_value} "
+                   f"(Δ={delta}, {pct:.0%}; tolerance {tol_msg})",
+                   evidence={"claim_value": claim_value, "api_value": api_value,
+                             "delta": delta, "quote": claim.get("quote")})
+
+
+def _check_mutation_rate_claim(claim: dict, study: dict, scope: str,
+                                hugo2entrez: dict[str, int]) -> Finding:
+    gene = claim["gene"]
+    modifier = (claim.get("modifier") or "any").lower()
+    study_id = claim["study"]
+    entrez = hugo2entrez.get(gene)
+    if entrez is None:
+        return Finding("warn", "claim.gene_no_entrez", scope,
+                       f"gene {gene} not in HUGO ontology")
+    profile_id = f"{study_id}_mutations"
+    try:
+        muts = _post(
+            f"/molecular-profiles/{urllib.parse.quote(profile_id)}/mutations/fetch"
+            f"?projection=DETAILED",
+            {"entrezGeneIds": [entrez], "sampleListId": f"{study_id}_all"},
+        ) or []
+    except urllib.error.HTTPError as e:
+        return Finding("warn", "claim.fetch_failed", scope,
+                       f"API error {e.code} fetching {gene} mutations")
+    if modifier != "any":
+        muts = [m for m in muts if _classify(m.get("mutationType", "")) == modifier]
+    samples_with_mut = {m.get("sampleId") for m in muts}
+    denom = study.get("sequencedSampleCount") or 0
+    api_rate = (len(samples_with_mut) / denom) if denom else 0.0
+    claim_value = claim["value"]
+    delta_pp = abs(api_rate - claim_value)
+    sev = "pass" if delta_pp <= CLAIM_RATE_TOLERANCE_PP else "warn"
+    return Finding(sev, f"claim.mutation_rate", scope,
+                   f"claim={claim_value:.0%} ({gene} {modifier}), "
+                   f"API={api_rate:.0%} ({len(samples_with_mut)}/{denom}) "
+                   f"— Δ {delta_pp*100:.1f}pp (tolerance ±{int(CLAIM_RATE_TOLERANCE_PP*100)}pp)",
+                   evidence={"gene": gene, "modifier": modifier,
+                             "claim_value": claim_value, "api_rate": api_rate,
+                             "api_samples": len(samples_with_mut), "denominator": denom,
+                             "quote": claim.get("quote")})
+
+
+def check_claims(claims: list[dict], study_records: dict[str, dict],
+                 hugo2entrez: dict[str, int]) -> list[Finding]:
+    findings: list[Finding] = []
+    for claim in claims:
+        kind = claim.get("kind")
+        study_id = claim.get("study")
+        scope = f"claim:{kind}:{study_id}"
+        if study_id and study_id not in study_records:
+            findings.append(Finding("warn", "claim.study_not_declared", scope,
+                                    f"claim references {study_id} but the paper's "
+                                    f"frontmatter does not list it in study_id/datasets"))
+            continue
+        study = study_records.get(study_id) if study_id else None
+        if not study:
+            findings.append(Finding("warn", "claim.study_unresolved", scope,
+                                    f"could not resolve {study_id} via API"))
+            continue
+        if kind == "sample_count":
+            findings.append(_check_sample_count_claim(claim, study, scope))
+        elif kind == "mutation_rate":
+            scope_g = scope + f":{claim.get('gene','?')}"
+            findings.append(_check_mutation_rate_claim(claim, study, scope_g, hugo2entrez))
+        else:
+            findings.append(Finding("info", "claim.unknown_kind", scope,
+                                    f"unsupported claim kind: {kind!r}"))
+    return findings
+
+
 # ---------- Orchestration ----------
 
 def verify_pmid(pmid: str, *, gene_limit: int, ont: dict,
@@ -464,22 +558,28 @@ def verify_pmid(pmid: str, *, gene_limit: int, ont: dict,
             seq.append((d, False))
             seen.add(d)
 
+    study_records: dict[str, dict] = {}
     if not seq:
         findings.append(Finding("info", "study.none_declared", "paper",
                                 "no study_id or datasets declared — skipping API study checks"))
     else:
         for sid, is_primary in seq:
-            _, study_findings = check_study(sid, fm, is_primary=is_primary,
-                                             parent_of=ont["parent_of"],
-                                             snapshot_studies=ont["snapshot_studies"])
+            study, study_findings = check_study(sid, fm, is_primary=is_primary,
+                                                 parent_of=ont["parent_of"],
+                                                 snapshot_studies=ont["snapshot_studies"])
             findings.extend(study_findings)
-            if any(f.code == "study.exists" and f.scope.endswith(sid) for f in study_findings):
+            if study is not None:
+                study_records[sid] = study
                 findings.extend(check_panels(sid, fm.get("methods") or [],
                                               ont["gene_panels"], is_primary=is_primary))
                 if gene_limit > 0:
                     findings.extend(check_genes(sid, fm.get("genes") or [],
                                                  hugo2entrez, gene_limit,
                                                  is_primary=is_primary))
+
+    claims = load_claims(pmid)
+    if claims:
+        findings.extend(check_claims(claims, study_records, hugo2entrez))
 
     findings.extend(check_ontology_sanity(fm, ont))
 

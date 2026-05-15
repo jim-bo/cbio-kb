@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>An oncogenic MYB feedback loop drives alternate cell fates in adenoid cystic carcinoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f06a00fcf47e943585fbd76a01b61172.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26829750.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26829750.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">An oncogenic MYB feedback loop drives alternate cell fates in adenoid cystic carcinoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Yotam Drier </p>
+             <p>Matthew J. Cotton </p>
+             <p>Kaylyn E. Williamson </p>
+             <p>Shawn M. Gillespie </p>
+             <p>Russell J.H. Ryan </p>
+             <p>Michael J. Kluk </p>
+             <p>Christopher D. Carey </p>
+             <p>Scott J. Rodig </p>
+             <p>Lynette M. Sholl </p>
+             <p>Amir H. Afrogheh </p>
+             <p>William C. Faquin </p>
+             <p>Lurdes Queimado </p>
+             <p>Jun Qi </p>
+             <p>Michael J. Wick </p>
+             <p>Adel K. El-Naggar </p>
+             <p>James E. Bradner </p>
+             <p>Christopher A. Moskaluk </p>
+             <p>Jon C. Aster </p>
+             <p>Birgit Knoechel </p>
+             <p>Bradley E. Bernstein </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1038/ng.3502">10.1038/ng.3502</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26829750 · <strong>DOI:</strong> 10.1038/ng.3502 · <strong>Journal:</strong> Nature Genetics (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Drier et al.&nbsp;integrated whole-genome sequencing and chromatin profiling of 20 adenoid cystic carcinomas (ACCs) — 12 published primary tumors, 2 additional primary tumors, and 6 patient-derived primagrafts — and showed that the recurrent <a href="../genes/MYB.html">MYB</a> rearrangements (15/20 tumors) act not by producing a fusion protein but by juxtaposing super-enhancers from <a href="../genes/NFIB.html">NFIB</a>, <a href="../genes/TGFBR3.html">TGFBR3</a>, or <a href="../genes/RAD51B.html">RAD51B</a> to the MYB locus. MYB protein binds these translocated enhancers, which loop to the MYB promoter, generating a positive feedback loop that sustains oncogenic MYB expression. MYB cooperates with <a href="../genes/TP63.html">TP63</a> in myoepithelial cells of low-grade tumors and with Notch in luminal epithelial cells, while grade-3 tumors carry NOTCH1/SPEN-activating events. The BET bromodomain inhibitor JQ1 slowed growth in grade-2 primagrafts but had no effect on Notch-driven grade-3 primagrafts, suggesting BET inhibition for low-grade ACC and Notch inhibition for high-grade ACC.</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li>20 <a href="../cancer_types/ACYC.html">ACYC</a> tumors analyzed for MYB translocations: 12 primary tumors from EGA <code>EGAS00001000030</code>, 5 additional published primaries, 6 patient-derived xenograft (primagraft) models, plus 2 ACCs sequenced by targeted paired-end sequencing.</li>
+<li>Chromatin landscapes (H3K4me3, H3K27ac, <a href="../genes/BRD4.html">BRD4</a> ChIP-seq) mapped in 13 ACCs (5 primary specimens + 8 primagrafts) using <a href="../methods/chip-seq.html">chip-seq</a>.</li>
+<li>MYB and TP63 ChIP-seq performed in 3 ACC primagrafts.</li>
+<li>Immunohistochemistry for MYB, TP63, ICN1 (active <a href="../genes/NOTCH1.html">NOTCH1</a>), <a href="../genes/KIT.html">KIT</a>, and Ki-67 across 19 grade-2 ACCs and 8 grade-3 ACCs (<a href="../methods/immunohistochemistry.html">immunohistochemistry</a>).</li>
+<li>WGS done on Illumina HiSeq 2500 with 100 bp paired-end reads (<a href="../methods/whole-genome-seq.html">whole-genome-seq</a>); reads aligned to hg19 with BWA; rearrangements called with dRanger and BreakPointer.</li>
+<li>Dataset registered as <a href="../datasets/acyc_mgh_2016.html">acyc_mgh_2016</a>; new sequencing data deposited at EGA <code>EGAS00001001457</code>.</li>
+<li>In vivo drug testing in nude (Foxn1nu) mice using 4 ACC primagrafts (2 grade-2, 2 grade-3); BET inhibitor <a href="../drugs/jq1.html">JQ1</a> at 50 mg/kg daily orally (<a href="../methods/subcutaneous-xenograft.html">subcutaneous-xenograft</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li>15/20 (75%) ACCs harbored <a href="../genes/MYB.html">MYB</a> rearrangements <a href="../papers/26829750.html">PMID:26829750</a>. Of the 20 tumors: 6/20 (30%) had canonical NFIB-MYB fusions with loss of MYB 3′UTR; 6/20 (30%) had NFIB-MYB rearrangements that retained the MYB 3′UTR; 2/20 had MYB–<a href="../genes/TGFBR3.html">TGFBR3</a> rearrangements; 1/20 had a MYB–<a href="../genes/RAD51B.html">RAD51B</a> rearrangement.</li>
+<li>Several rearrangements occur at the 5′ end of MYB, inconsistent with production of any fusion protein, indicating a regulatory rather than fusion-based mechanism.</li>
+<li>Translocated regions in <a href="../genes/NFIB.html">NFIB</a>, TGFBR3, and RAD51B all contain super-enhancers active in ACC. Chromosome Conformation Capture (3C) demonstrated that 4/8 H3K27ac elements between 13 kb and 750 kb from MYB physically interact with the MYB promoter in a NFIB-translocated tumor, and 7/9 in a MYB-TGFBR3 tumor.</li>
+<li>MYB ChIP-seq in 3 primagrafts identified 13,278 high-confidence MYB binding sites (75% distal regulatory, with strong enrichment for the MYB consensus motif CAGTT, p&lt;10⁻⁷⁵⁹). MYB binds the translocated enhancers in NFIB and TGFBR3, supporting a positive feedback loop.</li>
+<li>Reporter assays in Jurkat cells: 4/5 cloned 250 bp enhancer intervals from NFIB/TGFBR3 strongly induced reporter activity; mutating MYB motifs in 2 of these elements diminished activity.</li>
+<li>Putative MYB targets in ACC are enriched for development, migration, cell cycle, transcription regulation, and angiogenesis (REACTOME/GO/MSigDB FDR&lt;1%); examples include <a href="../genes/MYC.html">MYC</a>, <a href="../genes/BCL2.html">BCL2</a>, <a href="../genes/AURKA.html">AURKA</a>, <a href="../genes/CCND1.html">CCND1</a>, <a href="../genes/MET.html">MET</a>, <a href="../genes/FGFR2.html">FGFR2</a>, <a href="../genes/IGF1R.html">IGF1R</a>, MALAT1, <a href="../genes/CDK6.html">CDK6</a>, and GMNN.</li>
+<li>Second-ranked motif under MYB peaks is TP53/<a href="../genes/TP63.html">TP63</a>/TP73 (p&lt;10⁻³⁴⁰); 81% of TP63 binding sites in ACC are co-bound by MYB.</li>
+<li>Putative MYB-driven transcriptional regulators include <a href="../genes/EN1.html">EN1</a> (a high-grade ACC biomarker), <a href="../genes/ARID1A.html">ARID1A</a>, <a href="../genes/NOTCH1.html">NOTCH1</a>, the Notch ligands <a href="../genes/JAG1.html">JAG1</a> and <a href="../genes/JAG2.html">JAG2</a>, and the Notch repressor <a href="../genes/SPEN.html">SPEN</a>.</li>
+<li>Immunohistochemistry on 19 grade-2 ACCs: TP63 stains the myoepithelial compartment; <a href="../genes/KIT.html">KIT</a> and ICN1 (active NOTCH1) stain the luminal epithelial compartment; TP63 and ICN1 staining are mutually exclusive.</li>
+<li>Eight grade-3 ACCs lack TP63 staining and show diffuse ICN1 positivity; activating NOTCH1 mutations or <a href="../genes/SPEN.html">SPEN</a> loss-of-function were present in 7/9 grade-3 tumors but in none of the lower-grade tumors examined. Two additional grade-3 tumors had non-mutational NOTCH1 alterations (a tandem duplication 3′ of NOTCH1 in ACC X11; a partial 5′ NOTCH1 deletion in ACC D1).</li>
+<li>Differential motif analysis: TP63 motif enriched in grade-2-specific enhancers; <a href="../genes/RBPJ.html">RBPJ</a>/Notch motif enriched in grade-3-specific enhancers. Only the oncogenic ΔNp63 isoform is transcribed in the ACC cohort.</li>
+<li>BET bromodomain inhibitor <a href="../drugs/jq1.html">JQ1</a> (50 mg/kg daily orally) significantly slowed tumor growth in 2 grade-2 ACC primagrafts (X5M1, X9), with modest decreases in MYB and MYB-target gene expression. Both grade-3 primagrafts (X6, X11) — both Notch-activated — failed to respond to JQ1.</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/MYB.html">MYB</a> — recurrent rearrangement target (15/20 ACCs); enhancer hijacking by translocated super-enhancers establishes a positive feedback loop that drives MYB overexpression. MYB binding genome-wide (13,278 high-confidence peaks) cooperates with TP63 and Notch programs.</li>
+<li><a href="../genes/NFIB.html">NFIB</a> — partner locus in NFIB-MYB rearrangements (12/20 tumors total: 6 with 3′UTR loss, 6 with retained 3′UTR). Hosts super-enhancers that translocate to MYB.</li>
+<li><a href="../genes/TGFBR3.html">TGFBR3</a> — novel partner locus in 2/20 ACCs; downstream region contains super-enhancers translocated to MYB.</li>
+<li><a href="../genes/RAD51B.html">RAD51B</a> — novel partner locus in 1/20 ACC; downstream region contains smaller enhancers translocated to MYB.</li>
+<li><a href="../genes/TP63.html">TP63</a> — mediator of MYB regulatory program in myoepithelial cells of low-grade ACC; only the ΔNp63 isoform is transcribed.</li>
+<li><a href="../genes/NOTCH1.html">NOTCH1</a> — activated by point mutations or structural alterations (tandem duplication of 3′ enhancers; 5′ partial deletion) in grade-3 ACC; intracellular NOTCH1 (ICN1) marks luminal epithelial cells.</li>
+<li><a href="../genes/SPEN.html">SPEN</a> — loss-of-function mutations contribute to constitutive Notch activation in grade-3 ACC.</li>
+<li><a href="../genes/ARID1A.html">ARID1A</a> — putative MYB target; mutated in ACC (per Stephens et al.&nbsp;cited reference).</li>
+<li><a href="../genes/BRD4.html">BRD4</a> — BET bromodomain protein occupying super-enhancers at MYB and other MYB targets; functional dependency in grade-2 ACC.</li>
+<li><a href="../genes/JAG1.html">JAG1</a>, <a href="../genes/JAG2.html">JAG2</a> — Notch ligands among top MYB target transcription regulators.</li>
+<li><a href="../genes/RBPJ.html">RBPJ</a> — RBPJ/Notch motif enriched in grade-3-specific enhancers.</li>
+<li><a href="../genes/EN1.html">EN1</a> — high-grade ACC biomarker, identified as a putative MYB-driven transcription regulator.</li>
+<li><a href="../genes/KIT.html">KIT</a> — luminal epithelial marker in ACC IHC.</li>
+<li><a href="../genes/MYC.html">MYC</a>, <a href="../genes/BCL2.html">BCL2</a>, <a href="../genes/CDK6.html">CDK6</a> — among putative MYB target genes in ACC.</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li>The unifying mechanism in ACC is enhancer hijacking, not a fusion protein — diagnostic FISH/PCR strategies should look beyond MYB-NFIB fusion transcripts to detect the broader spectrum of regulatory rearrangements (including MYB-TGFBR3, MYB-RAD51B, and NFIB-MYB events that retain the MYB 3′UTR).</li>
+<li>Low-grade (grade 2) ACCs are dependent on the MYB-driven enhancer circuit and are sensitive to BET bromodomain inhibition with <a href="../drugs/jq1.html">JQ1</a> in primagraft models, suggesting BET inhibitors as a therapeutic candidate for non-resectable cribriform/low-grade ACC.</li>
+<li>High-grade (grade 3) ACCs harbor activating Notch pathway events (NOTCH1 mutations/structural alterations or SPEN loss in 7/9 grade-3 tumors) and are insensitive to JQ1; the authors note recent evidence that Notch-mutant ACCs respond to Notch inhibitors, supporting Notch inhibition as the appropriate strategy for grade-3 disease.</li>
+<li>TP63 and ICN1 IHC staining patterns can stratify ACC into low-grade (mixed cribriform with TP63-positive myoepithelial and ICN1-positive luminal compartments) versus high-grade (TP63-negative, diffusely ICN1-positive solid) tumors, and may help predict therapeutic vulnerability.</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li>ACC primagrafts and primary tumors largely substitute for the absence of faithful in vitro ACC models — the authors explicitly state that further validation of putative MYB targets “will require the development of faithful in vitro models for ACC.”</li>
+<li>The drug testing cohort is small (4 primagrafts; 4–9 mice per group), limiting statistical inference about JQ1 response heterogeneity.</li>
+<li>WGS lacked matched normal controls; rearrangement calls were filtered against a panel of 100 unmatched normals and DGV germline variants — residual germline contamination cannot be fully excluded.</li>
+<li>The mechanism by which the translocated enhancer engages the MYB promoter genomically (looping in cis vs.&nbsp;trans, role of TAD disruption) is demonstrated by 3C but the chromosomal architecture was not mapped at higher resolution (e.g., Hi-C).</li>
+<li>IHC differences in MYB intensity between grade-2 and grade-3 tumors may partly reflect technical variation; whether lower MYB protein levels causally underlie the grade-3 BET-resistance phenotype was not directly tested.</li>
+<li>No matched longitudinal samples — whether the grade-2 → grade-3 transition is accompanied by acquired Notch alterations within a single patient remains unresolved.</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“We identified MYB translocations as the main recurrent event (13 out of 18 ACCs) in these tumors… This yielded a total of 15 (out of 20) ACCs with MYB rearrangements.” (Results, p.&nbsp;3)</li>
+<li>“We identified canonical NFIB-MYB fusions with loss of the MYB 3′ UTR in 6 of the 20 tumors (30%)… An additional 6 tumors (30%) harbor an NFIB-MYB rearrangement but retain the MYB 3′UTR.” (Results, p.&nbsp;3)</li>
+<li>“MYB binding patterns… share a statistically significant overlap: 62% overlap with MYB-bound promoters in MCF7 (p&lt;10⁻⁶); 60% overlap with MYB targets in mouse myeloid progenitors (p&lt;10⁻⁵¹).” (Results, p.&nbsp;4–5)</li>
+<li>“we found that 81% of TP63 binding sites in ACC are co-bound by MYB” (Results, p.&nbsp;5)</li>
+<li>“These mutations are present in 7 out of 9 grade 3 tumors, but none of the lower grade tumors examined” (re: NOTCH1/SPEN in grade-3 ACC, Results, p.&nbsp;6)</li>
+<li>“BET inhibition significantly slowed tumor growth in the grade 2 primagrafts… In contrast, the grade 3 tumors did not respond to BET inhibition.” (Results, p.&nbsp;7)</li>
+<li>“All new data has been deposited at the European Genome-phenome Archive (EGA)… under accession number EGAS00001001457.” (Methods, p.&nbsp;9)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26829750.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26829750.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

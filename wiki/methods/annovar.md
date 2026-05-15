@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-annotation, bioinformatics]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotatin
 - ANNOVAR used for functional annotation of somatic variants called by the HGSC Mercury pipeline in 160 periampullary tumors, alongside COSMIC and dbSNP databases [PMID:26804919](../papers/26804919.md)
 - Used for variant annotation in MET500 whole-exome sequencing pipeline (500 metastatic solid tumors, GRCh37/hg19) alongside VarScan2 (SNVs) and Pindel (indels) [PMID:28783718](../papers/28783718.md)
 - Applied for variant annotation in the DLBCL 1001-tumor whole-exome sequencing analysis pipeline [PMID:28985567](../papers/28985567.md)
+- ANNOVAR used for functional annotation of somatic variants called in 15 Korean vulvar SCC tumor/normal WES pairs; PolyPhen-2 applied for missense impact prediction [PMID:29422544](../papers/29422544.md)
 
 ## Notes
 
@@ -51,3 +52,6 @@ ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotatin
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

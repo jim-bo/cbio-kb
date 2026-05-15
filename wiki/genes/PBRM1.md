@@ -34,6 +34,7 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - Mutated in 3% of unclassified RCC (uRCC) cases in a 62-sample MSK-IMPACT cohort; co-occurs with other chromatin-remodeling gene mutations distinguishing uRCC from ccRCC (VHL-low) [PMID:27713405](../papers/27713405.md)
 - SWI/SNF complex member; more frequently altered in esophageal adenocarcinoma (EAC) than esophageal squamous cell carcinoma (ESCC) in a multi-platform genomic study of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md)
 - S275 mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
+- Biallelic LOF (truncating mutation + chr3p loss) enriched in anti-PD-(L)1 responders in ccRCC; PBRM1-LOF tumors show up-regulated hypoxia and JAK/STAT3 programs and reduced immune-inhibitory ligand expression [PMID:29301960](../papers/29301960.md)
 
 ## Cancer types (linked)
 
@@ -86,5 +87,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - [PMID:28052061](../papers/28052061.md)
 
 - [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

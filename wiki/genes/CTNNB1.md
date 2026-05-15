@@ -66,6 +66,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Hotspot mutations in 86% of WNT-subgroup medulloblastomas; sometimes subclonal alongside subclonal DDX3X variants in the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
 - Wnt-pathway co-alteration alongside RNF43 and APC in prostate cancer; enriched in metastatic disease states relative to locoregional in the SU2C/PCF pan-cancer prostate cohort [PMID:28825054](../papers/28825054.md).
 - placeholder
+- Altered in 8% of 1,134 colorectal adenocarcinomas (24% MSI-H, 6% MSS); hotspot N-terminal exon-3 missense mutations (T41A, S45F, S45P) enriched in MSI-H, while large in-frame exon-3 deletions (26 whole-exon, 3 partial) were exclusive to MSS tumors — eliminating GSK3β phosphorylation sites and escaping β-TRCP-mediated degradation to drive nuclear β-catenin [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -183,5 +184,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

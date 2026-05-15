@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -43,6 +43,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with [TRAF3](../genes/TRAF3.md) loss (14%), [PIK3CA](../genes/PIK3CA.md) helical-domain mutations (56%), and [E2F1](../genes/E2F1.md) amplification; HPV(−) tumours with [TP53](../genes/TP53.md) mutation (86%), [CDKN2A](../genes/CDKN2A.md) loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q<0.1); candidate therapeutic alterations present in most tumours. [PMID:25631445](../papers/25631445.md)
 - Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
 - TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset [PMID:28052061](../papers/28052061.md)
+- TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% PIK3CA and FAT1 prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs [PMID:29422544](../papers/29422544.md)
 
 ## Subtypes
 
@@ -91,3 +92,6 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

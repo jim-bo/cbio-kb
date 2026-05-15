@@ -5,7 +5,7 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 genePanelId: IMPACT410
 ---
@@ -30,6 +30,9 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - 410-gene panel used in 74% (8,136/10,945) of the MSK-IMPACT prospective cohort; hybrid-capture, mean depth 718x, with patient-matched normal blood DNA for 98% of cases [PMID:28481359](../papers/28481359.md)
 - Used alongside IMPACT341 to sequence 105 NMIBC tumors from the blca_nmibc_2017 cohort; identified ARID1A mutations as the only gene significantly associated with BCG recurrence [PMID:28583311](../papers/28583311.md)
 - 410-gene version of MSK-IMPACT applied to a subset of 295 metastatic EGC patients in the MSKCC prospective sequencing cohort [PMID:29122777](../papers/29122777.md)
+- Used in 911 of 1,134 prospectively sequenced [COADREAD](../cancer_types/COADREAD.md) cases at MSKCC (mean coverage 747×) as the primary panel in the MSK-IMPACT CRC landscape study [PMID:29316426](../papers/29316426.md)
+- Applied to 164 of 240 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy; validated that targeted-panel TMB estimates correlate with WES (Spearman r=0.86) and predict durable clinical benefit [PMID:29337640](../papers/29337640.md)
+- Used in 88 of 106 centrally sequenced SUMMIT basket-trial patients for ERBB2/ERBB3-mutant solid tumors (mean coverage 738×) [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -66,3 +69,12 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

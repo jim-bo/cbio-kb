@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, cosmic, somatic-mutation, snv, indel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - Five APOBEC-dominated mutational signature clusters (MSig1–MSig4) defined from 412 BLCA tumors; MSig1 (high-APOBEC, high-burden) had best 5-year survival (75%) while MSig2 (low mutation rate) had the worst (22%) [PMID:28988769](../papers/28988769.md)
 - Mutational signatures decomposed using deconstructSigs v1.8.0 against COSMIC in 68 paired melanoma WES samples; COSMIC signature 11 (temozolomide/melanoma-related) was enriched in novel on-therapy mutations in progressive-disease patients [PMID:29033130](../papers/29033130.md)
 - COSMIC mutational signatures applied to 206 TCGA sarcomas; 90% of mutations attributed to COSMIC5 (53%) and COSMIC1 (37%); APOBEC signatures elevated in DDLPS and MPNST (p<10⁻⁶) [PMID:29100075](../papers/29100075.md)
+- 30 COSMIC mutational signature processes decomposed from SUMMIT basket-trial tumor sequencing; contributed to TMB and genomic context analysis of ERBB2/ERBB3-mutant solid tumors [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -93,3 +94,6 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

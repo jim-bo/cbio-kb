@@ -4,7 +4,7 @@ oncotree_code: ESCA
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -32,6 +32,7 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - TCGA multi-platform profiling of 72 oesophageal adenocarcinomas (EACs) plus 90 ESCCs: EAC is molecularly indistinguishable from chromosomally unstable (CIN) gastric cancer; significantly mutated genes in EAC are TP53, CDKN2A, ARID1A, SMAD4, ERBB2; recurrent amplifications include VEGFA, ERBB2, GATA6, CCNE1; EAC-specific ERBB2-JUP fusion transcript identified in 6 ERBB2-amplified cases; CDKN2A inactivated in 76% by mutation/deletion/epigenetic silencing [PMID:28052061](../papers/28052061.md)
 - Esophageal adenocarcinoma (included in ESCA in the MSK-IMPACT pan-cancer cohort) had one of the highest TP53 mutation rates at 89% — second only to HGSOC (98%) across the 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 - Esophageal carcinoma was among the cancer subtypes in the MSK cohort of 295 stage-IV esophagogastric adenocarcinoma patients profiled with MSK-IMPACT; most-mutated genes across EGC including ESCA were TP53 (73%), ARID1A (15%), CDKN2A (12%) [PMID:29122777](../papers/29122777.md)
+- TCGA ESCA mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma, placing vulvar SCC in the context of other SCCs [PMID:29422544](../papers/29422544.md)
 
 ## Subtypes
 
@@ -64,3 +65,6 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

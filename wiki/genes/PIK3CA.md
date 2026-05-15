@@ -123,6 +123,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable PI3K-pathway events [PMID:28825054](../papers/28825054.md)
 - PIK3CA mutated in 22% of MIBC (n=100); helical-domain E542/E545 (n=54) more common than kinase M1043/H1047 (n=10); APOBEC-attributable mutagenesis [PMID:28988769](../papers/28988769.md)
 - PIK3CA oncogenic alterations in 7% of CIN gastroesophageal tumors; activating co-mutations enriched post-trastuzumab progression (2% pre vs 8.6% post); newly acquired E545K mutation observed in one post-progression sample [PMID:29122777](../papers/29122777.md)
+- Mutated in 18% of mCRC overall; enriched in MSI-H (41% vs 16% MSS, p<0.01); right-sided enrichment observed [PMID:29316426](../papers/29316426.md)
+- PI3K/AKT/mTOR pathway activation (including PIK3CA) did NOT adversely affect benefit from neratinib in HER2-mutant solid tumors (p=0.753), contrasting with its negative-predictor role in HER2-amplified disease [PMID:29420467](../papers/29420467.md)
+- Altered in 40% of vulvar SCC cases overall; first description in HPV(+) vulvar SCC; authors propose PI3K-pathway inhibition as a tractable hypothesis in this disease [PMID:29422544](../papers/29422544.md)
 
 ## Cancer types (linked)
 
@@ -354,3 +357,12 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

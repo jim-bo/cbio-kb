@@ -5,7 +5,7 @@ kind: gene-panel
 canonical_source: msk
 unverified: false
 tags: [panel, msk-impact, targeted-sequencing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 genePanelId: IMPACT468
 ---
@@ -27,6 +27,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:39753968](../papers/39753968.md) — IMPACT468 was the most commonly used panel (n=1,536 of 2,336 patients) in the MSK PDAC cohort; allele-specific copy number from FACETS used to identify [KRAS](../genes/KRAS.md) mutant-allele dosage gains as an independent negative prognostic marker across clinical stages [PMID:39753968](../papers/39753968.md).
 - 468-gene MSK-IMPACT panel applied to 42 treatment-naive [HGSOC](../cancer_types/HGSOC.md) patients in MSK SPECTRUM cohort; complemented WGS mutational signature classification and scRNA-seq immune profiling [PMID:36517593](../papers/36517593.md)
 - 468-gene version of MSK-IMPACT applied to a subset of 295 metastatic EGC patients; the largest panel used in this study [PMID:29122777](../papers/29122777.md)
+- Used in 9 of 1,134 prospectively sequenced [COADREAD](../cancer_types/COADREAD.md) cases in the MSK-IMPACT CRC landscape study; latest panel expansion [PMID:29316426](../papers/29316426.md)
+- Applied to 20 of 240 advanced [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy in the MSK TMB study; panel was noted as the reference for 240-patient cohort TMB estimation [PMID:29337640](../papers/29337640.md)
 
 ## Notes
 
@@ -50,3 +52,9 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -4,8 +4,8 @@ oncotree_code: SACA
 main_type: Salivary Gland Cancer
 parent: HEAD_NECK
 tags: [salivary-gland, head-neck, rare-cancers]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Salivary Carcinoma (SACA)
@@ -25,6 +25,7 @@ Salivary Carcinoma is the OncoTree umbrella for all malignant salivary gland tum
 - **[ETV6](../genes/ETV6.md)-[NTRK3](../genes/NTRK3.md)** — fusion identifying MASC within histologically diagnosed ACCC; enables TRK inhibitor therapy [PMID:27442865](../papers/27442865.md).
 - **[ERBB2](../genes/ERBB2.md)**, **[AR](../genes/AR.md)**, **[HRAS](../genes/HRAS.md)**, **[PIK3CA](../genes/PIK3CA.md)** — actionable alterations in SDCA and other salivary subtypes [PMID:27442865](../papers/27442865.md).
 - **[PDGFRA](../genes/PDGFRA.md)**, **[KDR](../genes/KDR.md)**, **[KIT](../genes/KIT.md)** — co-amplification in 4 ACYC patients treated with [regorafenib](../drugs/regorafenib.md) [PMID:27442865](../papers/27442865.md).
+- Salivary gland carcinoma showed responses to neratinib in the SUMMIT basket trial for HER2-mutant solid tumors, including kinase domain missense mutations (L755, V777), in the histology-agnostic solid tumor NOS cohort [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Salivary Carcinoma is the OncoTree umbrella for all malignant salivary gland tum
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). MSK-IMPACT of 56 salivary carcinomas (36 ACYC + 20 other); multiple actionable alteration classes; basket-trial enrollment enabling precision therapy.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

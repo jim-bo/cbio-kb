@@ -45,6 +45,8 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Largest NSCLC WES study to date (660 LUAD + 484 LUSC, n=1,144 total; nsclc_tcga_broad_2016): identified 6 genes SMG in both histologies (TP53, RB1, ARID1A, CDKN2A, PIK3CA, NF1), 14 pan-lung SMGs in joint analysis including KLF5 and EP300/CREBBP; ≥5 predicted neoepitopes in 47% of LUAD and 53% of LUSC, supporting broad immunotherapy applicability [PMID:27158780](../papers/27158780.md)
 - Narrative review of young-onset NSCLC (YLC, generally defined as age <40–50 years) synthesizing ≥40 studies: targetable alterations present in 57–70% of YLC vs ~52% in older patients (Sacher et al., p<0.001); ALK rearrangements, ROS1 fusions, and EGFR mutations are over-represented while KRAS, BRAF, and MET alterations are under-represented; Indian patients present approximately a decade earlier than the global median [PMID:27346245](../papers/27346245.md).
 - Pre-operative ctDNA was detected in 48% (46/96) of early-stage NSCLCs in the TRACERx cohort, with a stark histology difference: 97% of LUSC vs 19% of LUAD; post-operative ctDNA detected relapse in 13/14 (93%) confirmed-relapse cases with a median 70-day lead-time over imaging. [PMID:28445469](../papers/28445469.md)
+- In 240 advanced NSCLC patients profiled by MSK-IMPACT and treated with anti-PD-(L)1, targeted-panel TMB correlated with WES at Spearman r=0.86 (p<0.001) and was higher in patients with durable clinical benefit (median 8.5 vs 6.6 SNVs/Mb, p=0.006); TMB and PD-L1 were independent predictors, together yielding 50% DCB rate; EGFR and STK11 mutations associated with lack of benefit [PMID:29337640](../papers/29337640.md)
+- In SUMMIT, 26 HER2-mutant NSCLC patients (predominantly LUAD with exon 20 insertions) achieved only 1 RECIST response to neratinib but median PFS 5.5 months with 6 patients on therapy >1 year; HER2 exon 20 insertions are analogous to EGFR exon 20 insertions resistant to first/second-generation TKIs [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -89,5 +91,9 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset NSCLC molecular landscape, epidemiology, and therapy.
 
 - [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

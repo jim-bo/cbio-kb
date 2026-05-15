@@ -3,7 +3,7 @@ symbol: JUN
 aliases: []
 cancer_types: [DDLS]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -17,6 +17,7 @@ JUN (Jun Proto-Oncogene, AP-1 Transcription Factor Subunit) encodes a component 
 
 - **Amplification in DDLPS (42%):** JUN amplification defines the poor-prognosis K1 SCNA cluster in DDLPS (n=50, TCGA SARC); JUN and [PTPRQ](../genes/PTPRQ.md) amplifications were nearly mutually exclusive (p=0.026). [PMID:29100075](../papers/29100075.md)
 - **Adipocyte-differentiation-inhibitor function:** JUN is one of five adipocyte-differentiation-inhibitor amplifications in DDLPS (alongside [DDIT3](../genes/DDIT3.md) 32%, PTPRQ 46%, [YAP1](../genes/YAP1.md) 16%, [CEBPA](../genes/CEBPA.md) 24%), contributing to the block in terminal differentiation. [PMID:29100075](../papers/29100075.md)
+- Identified as novel recurrently mutated gene in metastatic colorectal cancer in a 1,211-patient WES/WGS/transcriptome study [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ JUN (Jun Proto-Oncogene, AP-1 Transcription Factor Subunit) encodes a component 
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

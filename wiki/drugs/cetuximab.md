@@ -5,8 +5,8 @@ drug_class: anti-EGFR monoclonal antibody (IgG1)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, antibody, egfr, radiosensitizer]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # cetuximab
@@ -27,6 +27,7 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - KRAS, NRAS, and BRAF driver mutations were 100% concordant between primary and metastatic tumor sites in 69 MSS CRC trios, confirming that sequencing either site is equally valid for determining cetuximab eligibility [PMID:25164765](../papers/25164765.md)
 - Referenced as a largely unsuccessful therapeutic target in aggressive cutaneous squamous cell carcinoma (cSCC) via anti-EGFR monoclonal antibody therapy; cetuximab trials in cSCC noted alongside gefitinib in the context of the absence of actionable oncogenic drivers in whole-exome sequencing of 39 aggressive cSCC cases [PMID:25303977](../papers/25303977.md)
 - EGFR-targeting monoclonal antibody; noted as the last approved targeted therapy for HNSC (approved 2006); no new targeted therapies validated since, motivating routine NGS in recurrent/metastatic HNSC [PMID:27442865](../papers/27442865.md)
+- OncoKB Level 1 resistance biomarkers for cetuximab in [COADREAD](../cancer_types/COADREAD.md) are hotspot KRAS and NRAS mutations (44% and listed frequency respectively in this 1,134-CRC MSK-IMPACT cohort); one acquired-resistance case carried EGFR S492R after 1.5 years of cetuximab, concurrent with ERBB2 amplification [PMID:29316426](../papers/29316426.md)
 
 ## Resistance mechanisms
 
@@ -60,3 +61,6 @@ Cetuximab is a chimeric IgG1 monoclonal antibody targeting the extracellular dom
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

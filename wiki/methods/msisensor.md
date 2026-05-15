@@ -9,7 +9,7 @@ tags:
   - msi
   - msi-calling
   - targeted-sequencing
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -27,6 +27,8 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - Applied to WGS data of 28 metastatic NENs to predict MSI status; classified PN4 (homozygous MSH6/MLH1 loss, TMB ~11 mut/Mb) as MSI-low — illustrating that dMMR does not always predict MSI-high in non-colorectal tumors [PMID:24326773](../papers/24326773.md).
 - MSIsensor used to cross-check signature-based MSI calls in the MSK-IMPACT cohort; identified 102 MSI patients across 11 tumor types, 45% previously untested for MMR deficiency [PMID:28481359](../papers/28481359.md)
 - MSIsensor used to determine MSI status from targeted sequencing data in 295 metastatic EGC patients (MSI-H threshold ≥10); identified 9/295 (3%) MSI-H tumors [PMID:29122777](../papers/29122777.md)
+- MSIsensor score ≥10 used to classify 99 MSI-H/hypermutated (8.7%) and 1,027 MSS (90.6%) cases among 1,134 [COADREAD](../cancer_types/COADREAD.md) tumors; 98.6% concordance with MMR IHC [PMID:29316426](../papers/29316426.md)
+- MSIsensor used to assess microsatellite instability in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant solid tumors profiled by MSK-IMPACT; results contributed to TMB and co-mutation analysis [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -55,3 +57,9 @@ MSIsensor is a computational tool for detecting microsatellite instability (MSI)
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -80,6 +80,9 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Recurrent oncogene amplification in CCA (n=11 of 71 WGS cases); co-amplified with MYC, MDM2, and CCND1 in Fluke-associated cholangiocarcinoma subsets [PMID:28667006](../papers/28667006.md).
 - Recurrently amplified focal SCNA in MIBC; high EGFR protein expression in the basal-squamous subtype (RPPA cluster 3), proposed as a candidate for EGFR inhibitor therapy in muscle-invasive bladder cancer [PMID:28988769](../papers/28988769.md)
 - Oncogenic alterations in 8% of CIN-subtype esophagogastric cancers; listed among potentially targetable kinases, often concurrent with other actionable kinases (ERBB2, ERBB3, FGFR2, MET, CDK4, FGFR1) suggesting combination strategies are needed [PMID:29122777](../papers/29122777.md)
+- Hotspot mutations in 4 of 1,134 colorectal adenocarcinomas (two L861Q, one L858R, one R776H) — potentially TKI-sensitizing; one S492R allele observed as a cetuximab-resistance mechanism after 1.5 years of treatment; EGFR amplification co-occurred with ERBB2 amplification in one acquired-resistance case [PMID:29316426](../papers/29316426.md)
+- Activating mutations in 17/240 (7%) advanced NSCLC patients treated with anti-PD-(L)1; EGFR-mutant patients were significantly underrepresented in the durable clinical benefit group (only 7% DCB rate), attributed to the link between EGFR mutations, never-smoker status, and low tumor mutation burden [PMID:29337640](../papers/29337640.md)
+- Cited as the paralogous receptor to ERBB2 whose exon 20 insertions resist first/second-generation TKIs, providing context for the SUMMIT basket trial findings; EGFR exon 20 insertions in LUAD showed minimal ORR but a PFS tail with neratinib suggesting activity worth exploring in combination [PMID:29420467](../papers/29420467.md)
 
 ## Cancer types (linked)
 
@@ -236,5 +239,14 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

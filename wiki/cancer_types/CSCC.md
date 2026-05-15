@@ -30,6 +30,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - Targeted sequencing of 504 cancer-associated genes on 29 lymph-node metastases from HPV-negative CSCC identified high UV mutational burden (~33 mut/Mb), recurrent [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), [NOTCH1](../genes/NOTCH1.md)/2/4 inactivation, and activating RAS/RTK/PI3K events (38%); RAS/RTK/PI3K + chromatin-remodeling co-mutation was the strongest predictor of shorter PFS. [PMID:25589618](../papers/25589618.md)
 - NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin established UVR signature (SBS7a/SBS7b/DBS1) accumulation as a precursor risk model; cSCC mean mutation burden of 50 substitutions/Mb was used as the endpoint for surveillance-exposure modelling [PMID:26950094](../papers/26950094.md)
 - In 21 recurrent/metastatic CSCC profiled by MSK-IMPACT (Morris et al.): UV-light mutational signature in 86% (18/21) associated with higher mutation counts (37.9 vs 4.3, P=.008); TERT promoter mutations in 52%; 3p deletion + TP53 co-occurrence in 32% — the first report in cutaneous SCC [PMID:27442865](../papers/27442865.md).
+- Published cutaneous squamous cell carcinoma mutational signature datasets were used as a reference comparison in the first WES landscape of vulvar SCC; HPV(-) vulvar SCC displayed higher mutational load than HPV(+) cases, consistent with patterns observed in CSCC [PMID:29422544](../papers/29422544.md)
 
 ## Subtypes
 
@@ -51,5 +52,8 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). UV signature in 86% of 21 advanced CSCC; TERT promoter mutations 52%; first report of 3p deletion + TP53 in cutaneous SCC.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

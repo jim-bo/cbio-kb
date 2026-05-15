@@ -26,6 +26,7 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - Narrative review of etiology-driven genomic landscape across CCA subtypes: iCCA enriched for [IDH1](../genes/IDH1.md) (13-29%), [FGFR2](../genes/FGFR2.md) fusions (8-16%), [ARID1A](../genes/ARID1A.md) (18-23%), [KRAS](../genes/KRAS.md) (24-27%), [TP53](../genes/TP53.md) (20-27%); eCCA enriched for [KRAS](../genes/KRAS.md) (37-46%), [TP53](../genes/TP53.md) (35-68%), [SMAD4](../genes/SMAD4.md) (~25%); HBV integration near [TERT](../genes/TERT.md) and [MET](../genes/MET.md); HCV association with [FGFR2](../genes/FGFR2.md) fusions (OR 9.50); PSC-CCA enriched for TP53/KRAS/SMAD4/ERBB2; CDKN2A/B (15-27% iCCA, 19% eCCA) mediates acquired FGFR-inhibitor resistance [PMID:25526346](../papers/25526346.md).
 - Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; [ivosidenib](../drugs/ivosidenib.md) (IDH1-mutant iCCA) and [futibatinib](../drugs/futibatinib.md) (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. [PMID:25608663](../papers/25608663.md)
 - ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating ERBB2 amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, FGFR2 rearrangements, and four new drivers (RASA1, STK11, MAP2K4, SF3B1); integrative clusters predicted prognosis independently of anatomical location and fluke status. [PMID:28667006](../papers/28667006.md)
+- Biliary tract cancer (cholangiocarcinoma) showed responses to neratinib in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -47,5 +48,8 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - [PMID:25526346](../papers/25526346.md)
 - [PMID:25608663](../papers/25608663.md)
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

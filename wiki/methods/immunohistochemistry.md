@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -47,6 +47,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - Used for IRF4, BCL6, and CD10 protein expression as part of the Hans IHC algorithm for cell-of-origin classification in 654 DLBCL cases (cross-validated against RNA-seq, p<10⁻⁶) [PMID:28985567](../papers/28985567.md)
 - IHC performed for PD-L1 (28-8/Dako), CD3, CD4, CD8, and FOXP3 with duplex chromogenic readout in 68 melanoma biopsies; PD-L1 IHC positivity selected for nivolumab response in ipilimumab-progressed patients [PMID:29033130](../papers/29033130.md)
 - IHC used for HER2 status assessment (3+ positive per CAP/ASCO criteria) and B2M protein expression validation in 295 metastatic EGC patients; HER2 IHC concordance with NGS-based ERBB2 amplification was 93.7% [PMID:29122777](../papers/29122777.md)
+- Nuclear β-catenin staining by IHC confirmed WNT pathway activation in [CCRCC](../cancer_types/CCRCC.md) tumors harboring the recurrent APC intronic splice-acceptor mutation chr5:112151184 A>G [PMID:29301960](../papers/29301960.md)
+- MMR protein IHC (MLH1, MSH2, MSH6, PMS2) showed 98.6% concordance with MSIsensor score ≥10 for MSI classification in 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 
 ## Notes
 
@@ -137,3 +139,9 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

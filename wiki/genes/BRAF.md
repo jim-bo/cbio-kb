@@ -98,6 +98,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - V600 mutations detected in >20 tumor types; non-V600 alterations include 33 fusions across 11 tumor types (18 partners; 10 novel) and 7 intragenic multi-exon deletions phenocopying acquired-resistance splice isoforms; CDK5RAP2-BRAF fusion novel in melanoma; 71% radiographic clinical-benefit rate to BRAF-directed therapy in non-melanoma BRAF V600 patients [PMID:28481359](../papers/28481359.md)
 - Activating BRAF fusions identified with novel partners in the MET500 pan-cancer metastatic cohort (500 patients), expanding the targetable fusion landscape beyond canonical contexts [PMID:28783718](../papers/28783718.md)
 - BRAF carries hotspot MAPK-pathway mutations in ~5% of prostate cancer patients alongside HRAS, KRAS, and MAP2K1 [PMID:28825054](../papers/28825054.md)
+- BRAF V600E in 22% of MSI-H vs 5% of MSS mCRC; right-sided enrichment; HR=2.02 for OS. Class 1 (V600), class 2 (RAS-independent dimers), and class 3 (RAS-dependent) mutants all observed; two MSS mCRC cases harbored activating BRAF fusions (AGAP3-BRAF, CUL1-BRAF) [PMID:29316426](../papers/29316426.md).
+- BRAF mutations observed at low frequency (~2%) in a 240-patient NSCLC ICI cohort; too few events for ICI-response analysis [PMID:29337640](../papers/29337640.md).
+- BRAF cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md).
 
 ## Cancer types (linked)
 
@@ -344,5 +347,14 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

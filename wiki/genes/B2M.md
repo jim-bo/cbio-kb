@@ -30,6 +30,8 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 - Focally deleted in both lung ADC and SqCC; enriched for loss-of-function mutations (p < 0.01), Pan-Lung FDR q = 0.006; implicated in MHC-I antigen-presentation loss [PMID:27158780](../papers/27158780.md)
 - placeholder
 - placeholder
+- A validation-cohort non-clinical-benefit (NCB) patient with PBRM1 LOF had a co-occurring B2M alteration, hypothesized to explain non-response to anti-PD-(L)1 therapy in ccRCC [PMID:29301960](../papers/29301960.md).
+- Truncating B2M mutations were rare in a 240-patient NSCLC ICI cohort; one patient with biallelic deleterious B2M (S40* + Q28L) and confirmed loss of B2M IHC nonetheless had a PR ongoing at 8.9 months with TMB of 48 SNVs/Mb [PMID:29337640](../papers/29337640.md).
 
 ## Cancer types (linked)
 
@@ -87,5 +89,11 @@ B2M encodes beta-2-microglobulin, an essential component of MHC class I; loss-of
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -12,7 +12,7 @@ tags:
   - ETV6
   - larotrectinib
   - NTRK-inhibitor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - Mentioned as a rare fusion target in young lung cancer (YLC) with scarce age-stratified frequency data [PMID:27346245](../papers/27346245.md)
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to a TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - EML4–NTRK3 fusion in congenital fibrosarcoma (IFS) supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; ALK-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- Fusions present in 8% of MSI-H vs 1% of MSS mCRC; specific fusion identified: ETV6-NTRK3; TRK-inhibitor candidates in MSI-H mCRC [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -84,3 +85,6 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

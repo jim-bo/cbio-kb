@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [significantly-mutated-genes, statistical-analysis, bioinformatics]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -23,6 +23,7 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 - MuSiC (Genome MuSiC) used alongside MutSig and drGAP for driver gene detection (FDR<0.1) in 216 metastatic breast cancer exomes [PMID:28027327](../papers/28027327.md).
 - GenomeMuSiC used alongside MutSigCV and IntOGen for significantly mutated gene detection across 491 medulloblastoma cases, enabling confident driver assignment to 76% of Group 3 and 82% of Group 4 tumors [PMID:28726821](../papers/28726821.md)
 - MuSiC (Genome MuSiC) used for significantly mutated gene analysis in 206 TCGA sarcomas; identified only 3 SMGs (TP53, ATRX, RB1) consistent with the low mutation burden (mean 1.06/Mb) of these tumors [PMID:29100075](../papers/29100075.md)
+- Applied alongside MutSig to identify 47 significantly recurrently mutated genes across 1,027 MSS [COADREAD](../cancer_types/COADREAD.md) tumors prospectively sequenced by MSK-IMPACT [PMID:29316426](../papers/29316426.md)
 
 ## Notes
 
@@ -47,3 +48,6 @@ Genome MuSiC (Mutation Significance in Cancer) is a computational suite for iden
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -19,6 +19,7 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 - Co-occurs with [MYC](../genes/MYC.md) amplification, [CRKL](../genes/CRKL.md), [HRAS](../genes/HRAS.md), and [KMT2D](../genes/KMT2D.md) alterations in breast/chest wall RT-AS [PMID:37350195](../papers/37350195.md).
 - Identified among significantly mutated genes in 188 primary [LUAD](../cancer_types/LUAD.md) tumours (TSP cohort); VEGFR-3 receptor tyrosine kinase. [PMID:18948947](../papers/18948947.md)
 - FLT4 (VEGFR3) mutations are among the low-frequency RTK hits identified in advanced thyroid cancers (PDTC/ATC) by MSK-IMPACT 341-gene sequencing (n=117 tumors) [PMID:26878173](../papers/26878173.md)
+- Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ FLT4 (also known as VEGFR3) encodes vascular endothelial growth factor receptor 
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

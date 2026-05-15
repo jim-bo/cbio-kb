@@ -22,6 +22,7 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - MAP2K4 identified as a mutation-driver in breast cancer in a 2,433-tumor whole-genome/exome sequencing study (METABRIC/ICGC cohort) [PMID:27161491](../papers/27161491.md)
 - Identified as a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early-stage breast cancer; enriched among HR+/HER2− mBC drivers [PMID:28027327](../papers/28027327.md)
 - Newly nominated cholangiocarcinoma (CCA) tumor suppressor; homozygous deletions in 2 fluke-positive cases plus 2.2% mutation rate (half inactivating), consistent with tumor-suppressor role [PMID:28667006](../papers/28667006.md)
+- Identified as a novel recurrently mutated gene in metastatic colorectal cancer (mCRC) via MSK-IMPACT targeted sequencing of 1,152 patients [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -59,5 +60,8 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

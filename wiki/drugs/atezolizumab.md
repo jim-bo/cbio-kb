@@ -5,7 +5,7 @@ drug_class: PD-L1 inhibitor (immune checkpoint inhibitor)
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint_inhibitor, pd-l1]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -22,6 +22,8 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - Reviewed as part of the HCC therapeutic landscape; atezolizumab + bevacizumab achieved ORR 65% in 23 patients and received FDA breakthrough designation for HCC [PMID:24798001](../papers/24798001.md)
 - Cited as supporting context for checkpoint immunotherapy trials in nonmuscle invasive bladder cancer (NMIBC): high-grade NMIBC has mutational burden comparable to MIBC, and DDR-altered tumors carry markedly elevated burden (median 26 vs 8 mut/Mb, p<0.001); the established mutational-load → atezolizumab response link in metastatic urothelial carcinoma motivates ongoing PD-L1 inhibitor trials in NMIBC. [PMID:28583311](../papers/28583311.md)
 - Luminal-infiltrated MIBC (19% of TCGA cohort; high CD274/PD-L1, CTLA4, EMT markers; corresponds to TCGA Cluster-II) was previously reported to respond to anti-PD-L1 atezolizumab (Rosenberg et al. 2016) and may be resistant to cisplatin-based chemotherapy; this subtype is proposed as a positive biomarker for checkpoint blockade [PMID:28988769](../papers/28988769.md)
+- Included among the anti-PD-(L)1 regimens in the validation cohort (n=63 ccRCC) studied for PBRM1 LOF as a predictive biomarker; patients with biallelic PBRM1 loss had prolonged OS and PFS on anti-PD-(L)1 therapy [PMID:29301960](../papers/29301960.md)
+- One of the anti-PD-(L)1 agents evaluated in the 240-patient MSK NSCLC cohort; high TMB (above 50th percentile by MSK-IMPACT) associated with DCB across the cohort including atezolizumab-treated patients (DCB 38.6% vs 25.1%, p=0.009) [PMID:29337640](../papers/29337640.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +47,9 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

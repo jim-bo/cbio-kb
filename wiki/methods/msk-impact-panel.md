@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [msk-impact, targeted-sequencing, panel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -64,6 +64,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Sequenced 105 NMIBC tumors and 40 MIBC comparators with matched germline DNA; ARID1A mutation was the only gene significantly associated with BCG recurrence (HR=3.14, p=0.002) [PMID:28583311](../papers/28583311.md)
 - Hybridization-capture targeted DNA panel covering >300 cancer-related genes (SNVs, indels, somatic CNAs, structural rearrangements) applied to 504 tumors from 451 prostate cancer patients spanning locoregional to mCRPC; matched normal blood used for germline filtering; 68% sequencing success rate [PMID:28825054](../papers/28825054.md)
 - CLIA-certified hybrid-capture targeted NGS assay applied to 295 metastatic esophagogastric adenocarcinoma (EGC) patients at MSKCC; mean coverage 744X; detected mutations, copy-number alterations, and select rearrangements [PMID:29122777](../papers/29122777.md)
+- MSK-IMPACT prospectively sequenced 1,134 [COADREAD](../cancer_types/COADREAD.md) tumors (panels [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), [IMPACT468](../methods/IMPACT468.md)) with 98.6% MMR-IHC/MSIsensor concordance; characterized recurrently mutated genes, APC intronic variants, and CTNNB1 exon-3 deletions in MSS and MSI-H CRC [PMID:29316426](../papers/29316426.md)
+- Central sequencing of 91 archival FFPE tumors and 15 plasma cfDNA samples from the SUMMIT neratinib basket trial using [IMPACT341](../methods/IMPACT341.md) (n=18) or [IMPACT410](../methods/IMPACT410.md) (n=88) at mean 738× coverage; concordance with local testing 95% [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -165,3 +167,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

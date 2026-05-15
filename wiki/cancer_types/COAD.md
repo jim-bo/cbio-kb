@@ -30,6 +30,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - In 69 matched MSS colorectal cancer primary/metastasis trios (40% right colon, 44% left colon), [KRAS](../genes/KRAS.md)/[NRAS](../genes/NRAS.md)/[BRAF](../genes/BRAF.md) status was 100% concordant, supporting use of either primary or metastatic biopsy for clinical RAS/RAF testing. [PMID:25164765](../papers/25164765.md)
 - Whole-exome and targeted resequencing of 103 MSS [COAD](../cancer_types/COAD.md) from African Americans identified 20 new significantly mutated genes, including [EPHA6](../genes/EPHA6.md) and [FLCN](../genes/FLCN.md) as AA-specific driver candidates, with a ~twofold higher mutation rate per tumor versus 129 Caucasian CRCs (P<0.001). [PMID:25583493](../papers/25583493.md)
 - In the MSK-IMPACT pan-cancer cohort, KRAS was mutated in 44% of COAD (90% in PAAD); POLE and MMR mutation signatures predominated in colorectal cancer alongside elevated MSI rates; MSI COAD patients showed responses to immune checkpoint blockade. [PMID:28481359](../papers/28481359.md)
+- In MSK-IMPACT sequencing of 1,134 CRCs, colon cancer showed enrichment for KRAS, BRAF, PIK3CA, RNF43, and SMAD4 alterations in right-sided versus left-sided tumors; 37% of left-sided MSS mCRC lacked detectable mitogenic-pathway mutations, suggesting ligand-driven RTK activation [PMID:29316426](../papers/29316426.md)
+- In the SUMMIT basket trial (n=12 colorectal), HER2-mutant colon cancer showed no RECIST responses to neratinib, consistent with lineage-based resistance; the study speculates combination HER-targeted therapy may be needed to overcome this resistance [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -64,5 +66,9 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - [PMID:25583493](../papers/25583493.md)
 
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

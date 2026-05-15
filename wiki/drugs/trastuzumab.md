@@ -5,7 +5,7 @@ drug_class: anti-HER2 monoclonal antibody
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -35,6 +35,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - Comprehensive TCGA molecular profiling of 164 oesophageal carcinomas shows ERBB2 alteration in 32% of oesophageal adenocarcinomas (EAC); the authors note ERBB2-positive EACs are routinely treated off-label with trastuzumab and that ERBB2-mutant (non-amplified) EAC patients may also benefit; functional consequence of the EAC-specific ERBB2-JUP fusion transcript (lacking transmembrane/kinase domains) on trastuzumab response remains unresolved [PMID:28052061](../papers/28052061.md)
 - RPPA HER2-high clusters 1 and 2 (elevated ERBB2 protein) in MIBC are candidates for trastuzumab or ado-trastuzumab-emtansine; ERBB2 is mutated in 12% and recurrently amplified in the TCGA 412-tumor MIBC cohort [PMID:28988769](../papers/28988769.md)
 - In a 295-patient metastatic EGC cohort (MSK-IMPACT), ERBB2 amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed ERBB2 amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis [PMID:29122777](../papers/29122777.md)
+- Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by neratinib — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from neratinib [PMID:29420467](../papers/29420467.md)
 
 ## Resistance mechanisms
 
@@ -93,3 +94,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -8,8 +8,8 @@ tags:
   - ret-fusion
   - nuclear-receptor-coactivator
   - thyroid-cancer
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # NCOA4
@@ -21,6 +21,7 @@ NCOA4 (Nuclear Receptor Coactivator 4) is a nuclear receptor coactivator that fa
 ## Alterations observed in the corpus
 
 - NCOA4 acts as a fusion partner for RET (RET-NCOA4 fusion) in 5 PDTC cases identified by targeted RNA-seq in a 341-gene panel study of poorly differentiated and anaplastic thyroid cancers; RET fusions (with [CCDC6](../genes/CCDC6.md) or NCOA4) are among the gene fusions detected in PDTC but not ATC in this cohort [PMID:26878173](../papers/26878173.md)
+- Partner in one NCOA4-RET fusion identified in MSS metastatic CRC; RET fusions are rare but potentially actionable events in this cohort [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ NCOA4 (Nuclear Receptor Coactivator 4) is a nuclear receptor coactivator that fa
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

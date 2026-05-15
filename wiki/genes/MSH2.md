@@ -34,6 +34,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - R680 missense mutation in 1/19 sequenced 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 - MMR gene altered in ~3% of advanced prostate cancer patients alongside MLH1, MSH6, and PMS2; alterations produce a hypermutator phenotype with MMR/MSI signatures suggesting immune-checkpoint blockade candidacy [PMID:28825054](../papers/28825054.md)
 - Low MSH2 expression was identified in one of the two sarcoma tumors (along with an MSH6 frameshift mutation in the other) with the COSMIC6 mismatch repair signature and highest mutational burden in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
+- Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -100,5 +101,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

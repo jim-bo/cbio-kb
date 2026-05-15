@@ -39,6 +39,7 @@ Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of
 - Multiregion exome sequencing (M-seq) of 10 ccRCCs found 73–75% of driver alterations were subclonal; only chromosome 3p loss and VHL inactivation were truncal across all tumors — single-biopsy approaches systematically underestimate driver-mutation prevalence [PMID:24487277](../papers/24487277.md)
 - TCGA multi-platform characterization of 66 ChRCC tumors identified [CCRCC](../cancer_types/CCRCC.md) as a comparative cohort (417 tumors); ChRCC has a 3-fold lower mutation rate than ccRCC (~0.4/Mb), a non-Warburg mitochondrial metabolism phenotype, and distinct distal-nephron cell-of-origin — underscoring biological separation between the two RCC subtypes. [PMID:25155756](../papers/25155756.md)
 - URCC cohort (n=62, MSKCC) shows only 1/62 VHL mutations — stark contrast to ~75% in [CCRCC](../cancer_types/CCRCC.md); URCC NF2-loss and mTORC1-hyperactive subsets are mutually exclusive and both lack VHL alteration [PMID:27713405](../papers/27713405.md).
+- PBRM1 loss-of-function was associated with clinical benefit from anti-PD-(L)1 therapy in metastatic CCRCC (9/11 CB vs 3/13 NCB, Fisher p=0.012; validated in 63-patient cohort, p=0.0071); PBRM1-LOF tumors showed upregulated JAK/STAT3 and hypoxia transcriptional programs [PMID:29301960](../papers/29301960.md)
 
 ## Subtypes
 
@@ -73,4 +74,6 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27713405](../papers/27713405.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

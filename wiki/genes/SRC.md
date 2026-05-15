@@ -3,8 +3,8 @@ symbol: SRC
 aliases: []
 cancer_types: [OSCC, HNSCC]
 tags: [kinase, SRC-family, copy-gain, mitogenic-signaling]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SRC
@@ -16,6 +16,7 @@ SRC encodes a non-receptor tyrosine kinase and is the prototypical member of the
 ## Alterations observed in the corpus
 
 - SRC and SRC-family kinases LYN and YES1 are collectively altered (copy gain with high expression) in 29% (10/35) of oral squamous cell carcinoma (OSCC) tumors [PMID:23619168](../papers/23619168.md)
+- Identified as a univariate survival hit in MSS mCRC but did not retain significance in multivariate analysis alongside APC, BRAF, KRAS, and NRAS. [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SRC encodes a non-receptor tyrosine kinase and is the prototypical member of the
 - [PMID:23619168](../papers/23619168.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

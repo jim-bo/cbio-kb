@@ -50,6 +50,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Exon 14 alterations in prospective LUAD cohort (860 patients, MSK-IMPACT): 65.4% matched therapy rate with 76.5% clinical benefit; wild-type MET amplification 16.7% matched (50% benefit) [PMID:28336552](../papers/28336552.md)
 - Included in the targetable-alteration tally recovered by broad-panel sequencing vs amplicon panels and shallow WES in a 62-tumor-type pan-cancer cohort [PMID:28481359](../papers/28481359.md)
 - MET amplification or oncogenic mutation was identified in 5% of esophagogastric cancer (EGC) patients in the MSK cohort; MET was one of several potentially targetable kinase targets frequently co-occurring with other RTK-RAS-PI3K alterations, suggesting combination strategies may be needed for clinical actionability [PMID:29122777](../papers/29122777.md)
+- Altered in 3% of NSCLC patients in this MSK-IMPACT cohort; too few events for response analysis to anti-PD-(L)1 therapy [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -166,5 +167,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

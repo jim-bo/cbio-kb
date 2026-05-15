@@ -29,6 +29,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Mutated in metastatic castration-resistant prostate cancer (mCRPC); WNT-pathway tumour suppressor; mutually exclusive with [APC](../genes/APC.md) alterations; combined with [ZNRF3](../genes/ZNRF3.md), predicted to confer sensitivity to porcupine inhibitors. [PMID:26000489](../papers/26000489.md)
 - Known CRC driver identified as a source of recurrent neopeptides (Table S6) in the 619-case colorectal carcinoma WES cohort (NHS/HPFS); frameshift indels in RNF43 generate a disproportionately high share of predicted neoantigens. [PMID:27149842](../papers/27149842.md)
 - CTNNB1 and RNF43 identified as Wnt-pathway co-alterations alongside APC in advanced prostate cancer (locoregional through mCRPC) [PMID:28825054](../papers/28825054.md)
+- Altered in 9% of mCRC; right-sided enrichment observed in MSS mCRC in a 1,640-tumor targeted sequencing cohort [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -81,5 +82,8 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,7 +5,7 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -27,6 +27,8 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - Used as immune checkpoint blockade (anti-CTLA-4) in 22 acral lentiginous melanoma (ALM) patients; 3 complete responders to anti-CTLA-4 ± anti-PD-1 had low mutation (<75) and neo-antigen (<60) burdens — opposite of the expected mutation-burden correlation seen in cutaneous melanoma [PMID:28373299](../papers/28373299.md).
 - In the nivolumab melanoma study, prior ipilimumab exposure (Ipi-P vs Ipi-N) defined distinct biomarker contexts: TMB/clonal load predicted response only in Ipi-N patients; TCR diversity dynamics differed between groups; SERPINB3/B4 mutations previously associated with anti-CTLA-4 benefit showed a non-significant trend toward disease control [PMID:29033130](../papers/29033130.md)
 - Authors advocate considering combination checkpoint blockade with anti-CTLA4 agents including ipilimumab for MSI-H EGC given rapid failure on first-line cytotoxic therapy (median PFS 4.8 months) but durable immunotherapy responses in the MSK-IMPACT cohort [PMID:29122777](../papers/29122777.md)
+- Used as anti-CTLA-4 agent in combination with anti-PD-(L)1 in a subset of the 63-patient ccRCC validation cohort; PBRM1 biallelic LOF was enriched in clinical benefit patients across both mono- and combination-therapy regimens [PMID:29301960](../papers/29301960.md)
+- 14% of the 240-patient MSK NSCLC cohort received PD-(L)1 + ipilimumab combination therapy; high TMB associated with durable clinical benefit across both mono- and combination-therapy arms [PMID:29337640](../papers/29337640.md)
 
 ## Resistance mechanisms
 
@@ -66,3 +68,9 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

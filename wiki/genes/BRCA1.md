@@ -66,6 +66,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (5 PPGM carriers); HR deficiency from BRCA1 alterations implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
 - BRCA1 is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale [PMID:28825054](../papers/28825054.md)
 - placeholder
+- Alterations in BRCA1 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 
 ## Cancer types (linked)
 
@@ -194,5 +195,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

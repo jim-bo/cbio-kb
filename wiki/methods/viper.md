@@ -17,7 +17,7 @@ VIPER infers the activity of transcription factors and other signaling proteins 
 
 ## Used by
 
-- Applied to RNA-seq profiles of 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) to perform master-regulator inference; Cluster B NENs showed [MYC](../genes/MYC.md) family activation, and Cluster A showed relative inhibition of [MEN1](../genes/MEN1.md) and [DAXX](../genes/DAXX.md) compared with other clusters [PMID:24326773](../papers/24326773.md).
+- Applied to RNA-seq profiles of 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) to perform master-regulator inference; Cluster B NENs showed [MYC](../genes/MYC.md) family activation, and Cluster A showed relative inhibition of [MEN1](../genes/MEN1.md) and [DAXX](../genes/DAXX.md) compared with other clusters [PMID:40328872](../papers/40328872.md).
 - VIPER-style regulon analysis applied to 23 candidate transcription factor regulators in 408 BLCA RNA-seq samples; identified GATA3, FOXA1, PPARG as luminal drivers and TP63, EGFR as basal-squamous discriminators; validated in independent Sjödahl 308-sample cohort [PMID:28988769](../papers/28988769.md)
 
 ## Notes

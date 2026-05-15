@@ -24,7 +24,7 @@ Vandetanib is an oral multi-kinase inhibitor targeting [RET](../genes/RET.md), V
 
 ## Evidence in the corpus
 
-- Activating RET mutations in metastatic medullary thyroid carcinoma patients identified by WGTA (POG program) guided vandetanib selection; patient PN7 subsequently received [selpercatinib](../drugs/selpercatinib.md) with 1423 days of stable disease [PMID:24326773](../papers/24326773.md)
+- Activating RET mutations in metastatic medullary thyroid carcinoma patients identified by WGTA (POG program) guided vandetanib selection; patient PN7 subsequently received [selpercatinib](../drugs/selpercatinib.md) with 1423 days of stable disease [PMID:40328872](../papers/40328872.md)
 
 ## Resistance mechanisms
 

@@ -31,7 +31,7 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 - [PTEN](../genes/PTEN.md): mutations in 7.3% (5/68); mTOR pathway tumor suppressor. [PMID:21252315](../papers/21252315.md)
 - [PIK3CA](../genes/PIK3CA.md): mutations in 1.4% (1/68); mTOR/PI3K pathway. [PMID:21252315](../papers/21252315.md)
 - Overall mTOR pathway alteration rate: 14%; mean somatic mutation burden 16 per tumor (range 8–23), ~60% fewer than PDAC. [PMID:21252315](../papers/21252315.md)
-- Whole-genome and transcriptome analysis (WGTA) of 10 metastatic pancreatic NENs (PanNENs) in the POG cohort confirmed recurrent [MEN1](../genes/MEN1.md), DAXX, ATRX, [RB1](../genes/RB1.md), and [TP53](../genes/TP53.md) alterations; MEN1-mutant PanNENs (but not PulNENs) showed large-scale LOH. Actionable alterations were identified in the majority of cases, with MTOR-inhibitor ([everolimus](../drugs/everolimus.md)), somatostatin analogs, and CDKN2A/CDK4/6-inhibitor recommendations supported by genomic findings. Median TMB was 2.19 mut/Mb across the full 28-patient NEN cohort. [PMID:24326773](../papers/24326773.md)
+- Whole-genome and transcriptome analysis (WGTA) of 10 metastatic pancreatic NENs (PanNENs) in the POG cohort confirmed recurrent [MEN1](../genes/MEN1.md), DAXX, ATRX, [RB1](../genes/RB1.md), and [TP53](../genes/TP53.md) alterations; MEN1-mutant PanNENs (but not PulNENs) showed large-scale LOH. Actionable alterations were identified in the majority of cases, with MTOR-inhibitor ([everolimus](../drugs/everolimus.md)), somatostatin analogs, and CDKN2A/CDK4/6-inhibitor recommendations supported by genomic findings. Median TMB was 2.19 mut/Mb across the full 28-patient NEN cohort. [PMID:40328872](../papers/40328872.md)
 
 ## Subtypes
 
@@ -47,6 +47,6 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 - [PMID:21252315](../papers/21252315.md) — Jiao et al. (2011), whole-exome sequencing of 68 sporadic PanNETs identifying recurrent MEN1, DAXX, and ATRX mutations.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

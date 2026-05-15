@@ -53,7 +53,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Focal amplification identified in clear cell renal cell carcinoma (ccRCC) by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated amplification pattern noted across [GBM](../cancer_types/GBM.md) transcriptomic subtypes [PMID:24120142](../papers/24120142.md)
 - Focal amplification identified in TCC bladder cancer (UCGC cohort, n=99) [PMID:24121792](../papers/24121792.md)
-- Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:24326773](../papers/24326773.md)
+- Amplified in ovarian MiNEN patient PN19; Cluster B transcriptome signature showed enrichment of MYC-target gene sets and MYC-family activation by master-regulator analysis; MYC-amplified NENs flagged as highly aggressive and chemo-resistant [PMID:40328872](../papers/40328872.md)
 - Dysregulated in multiple myeloma through disruption of the MAX-MYC heterodimer axis; [MAX](../genes/MAX.md) coding mutations with LOH implicate MYC-axis oncogenic signaling [PMID:24434212](../papers/24434212.md)
 - MYC focal amplification observed in [ESCC](../cancer_types/ESCC.md) tumors [PMID:24686850](../papers/24686850.md)
 - MYC gains at 8q are observed in [HCC](../cancer_types/HCC.md) as a recurrent copy-number alteration [PMID:24735922](../papers/24735922.md)
@@ -199,7 +199,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24434212](../papers/24434212.md)

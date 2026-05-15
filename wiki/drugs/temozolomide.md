@@ -24,7 +24,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Irinotecan + temozolomide was among the five matched-therapy regimens tested in the UCLA PDTO sarcoma clinical application cohort (n=5 patients); normalized organoid viability correlated with time-to-next-treatment across the matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
 - In glioblastoma ([GBM](../cancer_types/GBM.md)), [MGMT](../genes/MGMT.md) promoter methylation is a potential biomarker for response to temozolomide; however, it also serves as a prerequisite for the development of a mismatch repair-deficient hypermutator phenotype upon tumor recurrence if mismatch repair is compromised [PMID:18772890](../papers/18772890.md).
 - [MGMT](../genes/MGMT.md) promoter methylation predicts response to temozolomide + radiation specifically in the classical [GBM](../cancer_types/GBM.md) transcriptomic subtype (p=0.01) but not in proneural, mesenchymal, or neural subtypes; 40% of the 543-patient TCGA [GBM](../cancer_types/GBM.md) cohort received concurrent TMZ + adjuvant radiation [PMID:24120142](../papers/24120142.md).
-- Low [MGMT](../genes/MGMT.md) expression and/or [MGMT](../genes/MGMT.md) VUS guided temozolomide selection in metastatic PanNEN patients PN26 and PN28 in the POG NEN WGTA cohort (n=28) [PMID:24326773](../papers/24326773.md)
+- Low [MGMT](../genes/MGMT.md) expression and/or [MGMT](../genes/MGMT.md) VUS guided temozolomide selection in metastatic PanNEN patients PN26 and PN28 in the POG NEN WGTA cohort (n=28) [PMID:40328872](../papers/40328872.md)
 - In grade II astrocytomas, 6/10 TMZ-treated patients developed hypermutated recurrent tumors (31.9–90.9 mutations/Mb) with TMZ-signature C>T/G>A transitions; all 6 hypermutated cases progressed to [GBM](../cancer_types/GBM.md) and acquired driver mutations in the RB and AKT–mTOR pathways [PMID:24336570](../papers/24336570.md)
 - Single-agent TMZ induction (200 mg/m² days 1–5, 28-day cycles × 6) was the induction phase in a phase II trial (NCT00588523) for newly diagnosed [anaplastic oligodendroglioma (ODG3)](../cancer_types/ODG3.md) and oligoastrocytoma (85% with 1p/19q codeletion, n=41): 70.7% completed all 6 cycles; 2-year PFS in transplanted patients was 85.7% (95% CI 62%–95.2%); in an exploratory cross-trial comparison TMZ induction was non-inferior to PCV induction (HR 3.38 for OS, P=0.005). [PMID:28472509](../papers/28472509.md)
 - Novel on-therapy mutations in melanoma patients treated with nivolumab are enriched for COSMIC signature 11 (temozolomide/melanoma signature), suggesting a stress-induced repair-process dysfunction during immunotherapy rather than prior temozolomide exposure driving these events [PMID:29033130](../papers/29033130.md)
@@ -57,7 +57,7 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24336570](../papers/24336570.md)

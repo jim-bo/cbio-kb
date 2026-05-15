@@ -17,7 +17,7 @@ edgeR is an R/Bioconductor package for differential gene expression analysis of 
 
 ## Used by
 
-- Used to perform differential gene expression analysis across transcriptome clusters in 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) using RSEM-quantified RNA-seq data; identified gene sets enriched in MYC-target programs in Cluster B NENs (high-grade/poorly differentiated), supporting master-regulator inference by VIPER [PMID:24326773](../papers/24326773.md).
+- Used to perform differential gene expression analysis across transcriptome clusters in 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) using RSEM-quantified RNA-seq data; identified gene sets enriched in MYC-target programs in Cluster B NENs (high-grade/poorly differentiated), supporting master-regulator inference by VIPER [PMID:40328872](../papers/40328872.md).
 - Used for differential gene expression analysis of RNA-seq data from AALE chr_3p-deleted vs. wild-type cells; identified 64% of 3p genes significantly down-regulated at early passage (FDR < 0.05) [PMID:29622463](../papers/29622463.md)
 
 ## Notes

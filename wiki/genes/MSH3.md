@@ -20,7 +20,7 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - Mismatch-repair gene mutated in hypermutated colorectal tumors in the 276-tumor TCGA CRC cohort [PMID:22810696](../papers/22810696.md)
 - Co-mutated with [MSH6](../genes/MSH6.md) in the most hypermutated MSI-positive esophageal adenocarcinoma (EAC) case in the 149-tumor Broad WES cohort; this MSI-positive case was excluded from significance analysis [PMID:23525077](../papers/23525077.md)
 - Somatic mutation in ACINAR01 (MSI-H) and other pancreatic acinar cell carcinomas; pathogenic significance unclear [PMID:24293293](../papers/24293293.md)
-- Heterozygous variant of uncertain significance (VUS) in PanNET patient PN1; MSI-stable prediction by MSIsensor [PMID:24326773](../papers/24326773.md)
+- Heterozygous variant of uncertain significance (VUS) in PanNET patient PN1; MSI-stable prediction by MSIsensor [PMID:40328872](../papers/40328872.md)
 
 ## Cancer types (linked)
 
@@ -56,6 +56,6 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - [PMID:24293293](../papers/24293293.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*

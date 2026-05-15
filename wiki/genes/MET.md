@@ -28,7 +28,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - Copy-number amplification in Basal-like breast cancer; listed among druggable RTK targets (alongside FGFR1/2, [IGF1R](../genes/IGF1R.md), [KIT](../genes/KIT.md), [PDGFRA](../genes/PDGFRA.md)) in TCGA 510-tumor analysis [PMID:23000897](../papers/23000897.md)
 - Alteration in ~2% of high-grade urothelial bladder tumors; part of the RTK–RAS–RAF pathway alteration landscape [PMID:23897969](../papers/23897969.md)
 - RTK intratumoral heterogeneity: co-existing EGFR/PDGFRA/MET alterations within individual [GBM](../cancer_types/GBM.md) tumors cannot be resolved by bulk profiling; MET noted as part of the RTK alteration landscape in [GBM](../cancer_types/GBM.md) [PMID:24120142](../papers/24120142.md)
-- High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- High expression supported MET-inhibitor therapy recommendations in patients PN13 and PN15 in a WGTA study of rare metastatic neuroendocrine neoplasms [PMID:40328872](../papers/40328872.md)
 - Altered in rhabdomyosarcoma as a known downstream target of the PAX3-FOXO1 fusion oncogene; pathway-level alteration implicated in PAX3-FOXO1-driven oncogenesis (P=1.54×10⁻³) [PMID:24436047](../papers/24436047.md)
 - MET is mutated in ~3% of [HCC](../cancer_types/HCC.md) and located at a 7q31 focal amplification; high MET expression is used as an enrichment biomarker for [tivantinib](../drugs/tivantinib.md) trials in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 - Overexpression associated with poor prognosis and [sorafenib](../drugs/sorafenib.md) resistance in [HCC](../cancer_types/HCC.md); [tivantinib](../drugs/tivantinib.md) failed in MET-high [HCC](../cancer_types/HCC.md) (mechanism may be MET-independent); [capmatinib](../drugs/capmatinib.md) and [cabozantinib](../drugs/cabozantinib.md) (which inhibits MET alongside VEGFRs) still under evaluation [PMID:24798001](../papers/24798001.md)
@@ -103,7 +103,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - [PMID:24120142](../papers/24120142.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24436047](../papers/24436047.md)

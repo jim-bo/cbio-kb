@@ -17,7 +17,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 ## Used by
 
-- Applied to WGS data of 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) using COSMIC v3; identified AID/APOBEC and dMMR/replication-slippage contributions in multiple cases; PN12 showed kataegis; PN2 (germline biallelic [NTHL1](../genes/NTHL1.md) loss) carried a strong dMMR signature; PN19 (11 months prior platinum) exhibited platinum-therapy signatures [PMID:24326773](../papers/24326773.md).
+- Applied to WGS data of 28 metastatic neuroendocrine neoplasms ([pog570_bcgsc_2020](../datasets/pog570_bcgsc_2020.md)) using COSMIC v3; identified AID/APOBEC and dMMR/replication-slippage contributions in multiple cases; PN12 showed kataegis; PN2 (germline biallelic [NTHL1](../genes/NTHL1.md) loss) carried a strong dMMR signature; PN19 (11 months prior platinum) exhibited platinum-therapy signatures [PMID:40328872](../papers/40328872.md).
 - Five distinct mutational signatures (S1–S5) identified across 167 nccRCC tumors; pRCC dominated by S1+S3, chRCC and renal oncocytoma by S3+S4; kidney cancer subtypes co-clustered by signature [PMID:25401301](../papers/25401301.md)
 - Wellcome Trust Sanger Institute NMF-based mutational-signatures framework applied to 243 [HCC](../cancer_types/HCC.md) exomes, identifying 8 signatures (including novel 23 and 24); signature 24 (C>A-rich) linked to aflatoxin B1 exposure in HBV-positive tumors and validated in 452 ICGC-Japan + 198 TCGA exomes. [PMID:25822088](../papers/25822088.md)
 - NMF-based mutational signature analysis (Wellcome Trust Sanger Institute framework, Alexandrov 2013) identified three signatures in Sézary syndrome: CpG deamination/aging (C>T at NpCpG), C>A at CpCpN, and C>T at CpCpN/TpCpN [PMID:26551667](../papers/26551667.md).
@@ -40,7 +40,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 - COSMIC v3 (signatures SBS1–SBS60+) supersedes v2 (30 signatures); results are version-dependent and not always interchangeable.
 - Accurate decomposition requires sufficiently large mutation catalogues; small samples or low-TMB tumors may yield unstable fits.
-- dMMR ≠ MSI-High in all non-colorectal contexts (illustrated by PMID:24326773 PN4 — biallelic MSH6/MLH1 loss, predicted MSI-low by MSIsensor despite dMMR signatures).
+- dMMR ≠ MSI-High in all non-colorectal contexts (illustrated by PMID:40328872 PN4 — biallelic MSH6/MLH1 loss, predicted MSI-low by MSIsensor despite dMMR signatures).
 - Tool variants: SigProfilerExtractor, MutationalPatterns, deconstructSigs, SigMA (for HRD).
 
 ## Sources

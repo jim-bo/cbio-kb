@@ -23,7 +23,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - In the AURORA US Metastasis Project, metastatic breast cancer treatment context included multiple therapy lines; everolimus-targeted mTOR/PI3K pathway was implicated through [PIK3CA](../genes/PIK3CA.md) mutations (13%) detected across primary and metastatic paired specimens [PMID:36585450](../papers/36585450.md)
 - mTOR pathway mutations ([PTEN](../genes/PTEN.md), [TSC2](../genes/TSC2.md), [PIK3CA](../genes/PIK3CA.md)) in 14% of PanNETs provide a genetic rationale for stratifying patients for everolimus (RAD-001) therapy; RADIANT-3 trial showed increased progression-free survival in advanced PanNET [PMID:21252315](../papers/21252315.md)
 - PI3K/AKT/mTOR pathway altered in ~28% of clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) tumors in the TCGA cohort; the authors nominate this pathway as a therapeutic target citing prior trials of everolimus in advanced RCC [PMID:23792563](../papers/23792563.md).
-- [MEN1](../genes/MEN1.md) loss-of-function and/or high [RICTOR](../genes/RICTOR.md) expression guided everolimus selection in metastatic PanNEN/PulNEN patients (PN6, PN17, PN21, PN23, PN26) in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
+- [MEN1](../genes/MEN1.md) loss-of-function and/or high [RICTOR](../genes/RICTOR.md) expression guided everolimus selection in metastatic PanNEN/PulNEN patients (PN6, PN17, PN21, PN23, PN26) in the POG NEN WGTA cohort [PMID:40328872](../papers/40328872.md)
 - Six of 10 ccRCC tumors in the TRACERx multi-region sequencing study received short-course preoperative everolimus (or sunitinib); authors argue these cytostatic exposures did not collapse subclonal diversity, though a treatment-naive baseline is absent [PMID:24487277](../papers/24487277.md)
 - mTOR signaling is disrupted in 40–50% of HCCs; everolimus failed in unselected second-line HCC trials but the review proposes mTOR-pathway dysregulation as a biomarker to enrich future trials [PMID:24735922](../papers/24735922.md)
 - Phase III second-line trial in HCC (post-sorafenib) failed to demonstrate OS benefit; cited as a negative result for mTOR inhibition in HCC [PMID:24798001](../papers/24798001.md)
@@ -53,7 +53,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:23792563](../papers/23792563.md) — TCGA [CCRCC](../cancer_types/CCRCC.md) comprehensive molecular characterization; PI3K/AKT/mTOR pathway altered in ~28% of tumors, nominating everolimus as a therapeutic strategy in advanced RCC.
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24326773](../papers/24326773.md)
+- [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24487277](../papers/24487277.md)

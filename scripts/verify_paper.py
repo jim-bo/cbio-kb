@@ -106,8 +106,11 @@ def load_ontology() -> dict:
     """
     out: dict = {
         "genes": set(), "cancer_types": set(), "gene_panels": set(),
-        "oncotree": set(), "parent_of": {},
+        "oncotree": set(), "parent_of": {}, "snapshot_studies": set(),
     }
+    p = ONTOLOGY_DIR / "studies.json"
+    if p.exists():
+        out["snapshot_studies"] = {r["studyId"] for r in json.loads(p.read_text())}
     for name, key, dest in [
         ("genes.json", "hugoGeneSymbol", "genes"),
         ("cancer_types.json", "cancerTypeId", "cancer_types"),
@@ -199,7 +202,8 @@ def hugo_to_entrez() -> dict[str, int]:
 # ---------- Checks ----------
 
 def check_study(study_id: str, fm: dict, *, is_primary: bool,
-                 parent_of: dict[str, str]) -> tuple[dict | None, list[Finding]]:
+                 parent_of: dict[str, str],
+                 snapshot_studies: set[str]) -> tuple[dict | None, list[Finding]]:
     """Identity + linkage checks for one study. Returns (study_record, findings).
 
     `is_primary` distinguishes the paper's own `study_id:` (where a PMID
@@ -211,8 +215,17 @@ def check_study(study_id: str, fm: dict, *, is_primary: bool,
     findings: list[Finding] = []
     study = _get(f"/studies/{urllib.parse.quote(study_id)}")
     if study is None:
-        findings.append(Finding("fail", "study.missing", scope,
-                                "not found on cBioPortal"))
+        if study_id in snapshot_studies:
+            findings.append(Finding("info", "study.removed_since_compile", scope,
+                                    "study was in the locally synced ontology "
+                                    "snapshot but is no longer live on cBioPortal "
+                                    "(study likely withdrawn or renamed; paper-compiler "
+                                    "did its job correctly at the time)",
+                                    evidence={"study_id": study_id}))
+        else:
+            findings.append(Finding("fail", "study.missing", scope,
+                                    "not found on cBioPortal "
+                                    "(also absent from local ontology snapshot)"))
         return None, findings
 
     findings.append(Finding("pass", "study.exists", scope,
@@ -457,7 +470,8 @@ def verify_pmid(pmid: str, *, gene_limit: int, ont: dict,
     else:
         for sid, is_primary in seq:
             _, study_findings = check_study(sid, fm, is_primary=is_primary,
-                                             parent_of=ont["parent_of"])
+                                             parent_of=ont["parent_of"],
+                                             snapshot_studies=ont["snapshot_studies"])
             findings.extend(study_findings)
             if any(f.code == "study.exists" and f.scope.endswith(sid) for f in study_findings):
                 findings.extend(check_panels(sid, fm.get("methods") or [],

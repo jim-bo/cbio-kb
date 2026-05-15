@@ -4,8 +4,8 @@ oncotree_code: CSCC
 main_type: Skin Cancer, Non-Melanoma
 parent: SKIN
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Cutaneous Squamous Cell Carcinoma (CSCC)
@@ -28,6 +28,7 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 - [NOTCH2](../genes/NOTCH2.md) — loss-of-function in AK; secondary hits to Notch pathway on phylogenetic branches. [PMID:39091884](../papers/39091884.md)
 - WES of 39 aggressive head-and-neck cSCCs revealed an extreme UV-driven mutation burden (median 61.2 mutations/Mb); 23 candidate drivers identified including [TP53](../genes/TP53.md) (95%), [NOTCH1](../genes/NOTCH1.md) (59%), [NOTCH2](../genes/NOTCH2.md) (51%), [FAT1](../genes/FAT1.md) (44%), [CDKN2A](../genes/CDKN2A.md) (44%), [KMT2C](../genes/KMT2C.md) (39%); [KMT2C](../genes/KMT2C.md) mutation associated with bone invasion and shorter recurrence-free survival (HR 5.16) [PMID:25303977](../papers/25303977.md)
 - Targeted sequencing of 504 cancer-associated genes on 29 lymph-node metastases from HPV-negative CSCC identified high UV mutational burden (~33 mut/Mb), recurrent [TP53](../genes/TP53.md) (79%), [CDKN2A](../genes/CDKN2A.md) (48%), [NOTCH1](../genes/NOTCH1.md)/2/4 inactivation, and activating RAS/RTK/PI3K events (38%); RAS/RTK/PI3K + chromatin-remodeling co-mutation was the strongest predictor of shorter PFS. [PMID:25589618](../papers/25589618.md)
+- NanoSeq quantification of NB-UVB-induced somatic mutation burden in normal skin established UVR signature (SBS7a/SBS7b/DBS1) accumulation as a precursor risk model; cSCC mean mutation burden of 50 substitutions/Mb was used as the endpoint for surveillance-exposure modelling [PMID:26950094](../papers/26950094.md)
 
 ## Subtypes
 
@@ -43,10 +44,8 @@ Cutaneous squamous cell carcinoma (CSCC) is a keratinocyte-derived malignancy of
 
 - [PMID:39091884](../papers/39091884.md) — Genetic evolution of keratinocytes to cutaneous squamous cell carcinoma (bioRxiv, 2024)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25303977](../papers/25303977.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+- [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq NB-UVB mutation-burden study; cSCC mean burden of 50 substitutions/Mb used as endpoint for surveillance-exposure modelling
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

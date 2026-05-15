@@ -3,8 +3,8 @@ symbol: TMPRSS2
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion-partner, erg-fusion, prostate]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TMPRSS2
@@ -24,6 +24,7 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG interstitial deletion fusion present in MSK-PCa1 (non-expressed, AR-negative line) and MSK-PCa3 (expressed); enables modeling of the most common fusion in prostate cancer across distinct AR-pathway contexts [PMID:25201530](../papers/25201530.md)
 - Dominant androgen-regulated 5' fusion partner in primary prostate cancer ([PRAD](../cancer_types/PRAD.md)); TMPRSS2-ERG is the most common ETS fusion (46%) [PMID:26544944](../papers/26544944.md)
 - TMPRSS2–ERG fusion concordance between adenocarcinoma and neuroendocrine foci of mixed tumors cited as evidence supporting a common cell of origin in CRPC-NE [PMID:26855148](../papers/26855148.md)
+- TMPRSS2-ERG fusion status 100% concordant across metastases by FISH (53 tumors, 13 men) and 94% concordant by array CGH (32/34 men) in mCRPC rapid-autopsy cohort [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

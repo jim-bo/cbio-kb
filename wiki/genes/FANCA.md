@@ -8,8 +8,8 @@ tags:
   - dna-repair
   - fanconi-anemia
   - homologous-recombination
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FANCA
@@ -25,6 +25,7 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - Listed as a gene observed in the TCGA papillary thyroid carcinoma (PTC) cohort ([thca_tcga_pub](../datasets/thca_tcga_pub.md)); specific alteration details not described in the narrative sections of this paper. [PMID:25417114](../papers/25417114.md)
 - DNA double-strand-break and Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
 - Broader DNA-repair pathway alteration contributing to 22.7% aggregate HRR deficiency in mCRPC [PMID:26000489](../papers/26000489.md)
+- FANCA is part of the 15-gene FA pathway signature upregulated in high-CCP mCRPC tumors; homozygous deleterious FANCA events classify patients into the DNA-repair-defect group with significantly longer carboplatin response (log-rank P = 0.02; 20 treated men) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ FANCA (Fanconi Anemia Complementation Group A) encodes a core component of the F
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

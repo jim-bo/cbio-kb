@@ -4,8 +4,8 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Bladder Urothelial Carcinoma (BLCA)
@@ -34,6 +34,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - MSK-IMPACT targeted sequencing of 109 high-grade urothelial carcinomas: [PIK3CA](../genes/PIK3CA.md) mutations (21%) associated with improved RFS/CSS post-cystectomy (HR 0.35, P=0.014); [CDKN2A](../genes/CDKN2A.md) alterations independently predict worse outcomes (RFS HR 5.76, P<0.001); [TP53](../genes/TP53.md) mutation (57%) not prognostic after stage adjustment; chromatin-modifying genes mutated in 83% but not prognostic [PMID:25092538](../papers/25092538.md)
 - Whole-exome sequencing of 50 muscle-invasive urothelial carcinoma patients (25 [cisplatin](../drugs/cisplatin.md) responders vs 25 non-responders) identified somatic [ERCC2](../genes/ERCC2.md) mutations exclusively in responders (9/25, 36%; q=0.007), proposing [ERCC2](../genes/ERCC2.md) as a predictive biomarker for neoadjuvant cisplatin-based chemotherapy response. [PMID:25096233](../papers/25096233.md)
 - [UTUC](../cancer_types/UTUC.md) and BLCA share recurrent [FGFR3](../genes/FGFR3.md) alterations; targeted sequencing of upper-tract urothelial carcinoma cohort identified [FGFR3](../genes/FGFR3.md) mutations in a subset with bladder cancer comparisons [PMID:26278805](../papers/26278805.md)
+- Plasmacytoid-variant bladder cancer (SRCBC) arises within the context of urothelial carcinoma; [CDH1](../genes/CDH1.md) truncating mutations are pathognomonic for the plasmacytoid subtype (84% frequency, vs 0% in 127 TCGA urothelial NOS tumors), and E-cadherin loss is universal; co-mutation profile otherwise overlaps with conventional urothelial carcinoma ([TP53](../genes/TP53.md), [RB1](../genes/RB1.md), [ERBB2](../genes/ERBB2.md), [PIK3CA](../genes/PIK3CA.md)) [PMID:26901067](../papers/26901067.md)
 
 ## Subtypes
 
@@ -62,16 +63,10 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:24121792](../papers/24121792.md)
 - [PMID:24476821](../papers/24476821.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24658004](../papers/24658004.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25092538](../papers/25092538.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25096233](../papers/25096233.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26278805](../papers/26278805.md)
+- [PMID:26901067](../papers/26901067.md) — Al-Ahmadie et al., plasmacytoid-variant bladder cancer WES; CDH1 truncating mutations pathognomonic for the SRCBC subtype
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

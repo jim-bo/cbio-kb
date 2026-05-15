@@ -89,6 +89,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Homozygous deletion in 15% of primary prostate tumors (highest rates among TCGA tumor types); total alteration rate 17%; preferentially co-occurs with [ERG](../genes/ERG.md) fusion [PMID:26544944](../papers/26544944.md)
 - 10q23.3 deletion in 5/25 (20%) Sézary syndrome; functionally connected to recurrent [PREX2](../genes/PREX2.md) mutations that inhibit PTEN [PMID:26551667](../papers/26551667.md)
 - Mutated in n=168 diffuse gliomas (LGG/GBM) across TCGA multi-platform dataset; recovered as a known glioma driver [PMID:26824661](../papers/26824661.md)
+- PTEN mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³); NF1 truncating mutations co-occurred with PTEN truncation in 3 BRAF/RAS-WT ATCs (P=2×10⁻³). [PMID:26878173](../papers/26878173.md)
+- PTEN mutation unique to the plasmacytoid component of a mixed bladder tumor (alongside CDH1 Y68fs), supporting branched clonal evolution within the plasmacytoid variant. [PMID:26901067](../papers/26901067.md)
+- PTEN homozygous CN loss assessed for site-distribution analysis in mCRPC; no metastatic-site association was detected. [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -314,5 +317,14 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

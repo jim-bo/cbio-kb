@@ -3,8 +3,8 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CDKN2A
@@ -94,6 +94,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Homozygous loss drove the recurrent clone in medulloblastoma patient MB-REC-12 after the PTCH1-driven primary clone was eliminated by therapy; acquired alongside [CDKN2B](../genes/CDKN2B.md) loss [PMID:26760213](../papers/26760213.md)
 - Mentioned in study [PMID:26804919](../papers/26804919.md)
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
+- Single-case CDKN2A mutation observed in PDTC/ATC thyroid cancer targeted sequencing (IMPACT panel, 117 tumors), consistent with prior WES ATC findings [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -276,3 +277,6 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

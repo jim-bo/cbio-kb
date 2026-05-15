@@ -21,8 +21,8 @@ tags:
   - chromatin-remodeling
   - apobec-mutagenesis
   - multi-platform
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TCGA Bladder Urothelial Carcinoma (2014)
@@ -53,6 +53,7 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 ## Papers using this cohort
 
 - [PMID:24476821](../papers/24476821.md) — TCGA Research Network, *Nature* (2014): Comprehensive molecular characterization of urothelial bladder carcinoma.
+- [PMID:26901067](../papers/26901067.md) — Al-Ahmadie et al., *Nat Genet* 2016: CDH1 mutations absent in 127 NOS tumors from this cohort; used as comparator for plasmacytoid-variant bladder cancer.
 
 ## Notable findings derived from this cohort
 
@@ -65,13 +66,14 @@ The blca_tcga_pub dataset is the inaugural comprehensive multi-platform molecula
 - Potential therapeutic targets identified in **69% of tumors**: 42% in PI(3)K/AKT/mTOR pathway (including [PIK3CA](../genes/PIK3CA.md) 17%, [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) 9%); 45% in RTK/MAPK pathway (including [FGFR3](../genes/FGFR3.md) 17%, [ERBB2](../genes/ERBB2.md) 9%). [PMID:24476821](../papers/24476821.md)
 - [CDKN2A](../genes/CDKN2A.md) focal deletion in 47% of samples (most common focal deletion); [RXRA](../genes/RXRA.md) S427 hotspot mutations in 7 of 12 RXRA-mutant tumors (5 S427F, 2 S427Y) associated with elevated adipogenesis/lipid-metabolism gene expression. [PMID:24476821](../papers/24476821.md)
 - Comprehensive molecular characterization of 131 muscle-invasive urothelial carcinomas revealed APOBEC mutagenesis, chromatin remodeling alterations, and immune pathway enrichment [PMID:25096233](../papers/25096233.md)
+- Used as comparator for plasmacytoid-variant bladder cancer: CDH1 truncating mutations were absent in 127 urothelial carcinoma NOS tumors from this cohort, establishing CDH1 mutation as specific to the plasmacytoid variant [PMID:26901067](../papers/26901067.md)
 
 ## Sources
 
 - TCGA data portal / GDC
 - cBioPortal study ID: blca_tcga_pub
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:25096233](../papers/25096233.md)
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26901067](../papers/26901067.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **wiki-cli** on **2026-05-14**.*

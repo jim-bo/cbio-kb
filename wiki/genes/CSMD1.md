@@ -3,8 +3,8 @@ symbol: CSMD1
 aliases: []
 cancer_types: [MEL]
 tags: [tumor-suppressor, complement, melanoma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CSMD1
@@ -18,6 +18,7 @@ CSMD1 (CUB and Sushi Multiple Domains 1) encodes a large transmembrane protein i
 - Recurrently altered in melanoma; identified in a WGS study of 25 melanoma tumors examining the mutational landscape beyond the known BRAF/NRAS drivers [PMID:22622578](../papers/22622578.md)
 - Focal deletion on 8p in OSCC; candidate tumor suppressor [PMID:23619168](../papers/23619168.md)
 - Missense c.G10337A (p.G3446E) yields neoepitope GLEREGFTF that drove a polyfunctional T-cell response in melanoma patient CR0095 treated with CTLA-4 blockade; the peptide shares 80% homology with a known Burkholderia pseudomallei antigen (IEDB ID 1027043) [PMID:25409260](../papers/25409260.md)
+- CSMD1 altered in one metastasis-private non-synonymous variant in patient 99-091 in multi-metastasis mCRPC autopsy study; one of only two genes (with NCOR2) altered at >5% frequency in prad_tcga or prad_su2c_2015, suggesting the private mutation is likely not a driver [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ CSMD1 (CUB and Sushi Multiple Domains 1) encodes a large transmembrane protein i
 - [PMID:25409260](../papers/25409260.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

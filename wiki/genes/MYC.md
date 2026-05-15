@@ -3,8 +3,8 @@ symbol: MYC
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC, ANGS, MNM, CESC, DLBCL, EGC, CSCC, HNSC]
 tags: [oncogene, amplification, brain-metastasis, translocation]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MYC
@@ -75,6 +75,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - Recurrent focal amplification in 8% of prostate adenocarcinoma tumors in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MYC locus chromothripsis acquired only at recurrence in medulloblastoma case MB-REC-09 (P=3.97x10-7), illustrating de novo oncogene activation as a recurrence mechanism in Shh-subgroup medulloblastoma [PMID:26760213](../papers/26760213.md)
 - Putative MYB target gene in ACC; among downstream targets identified in super-enhancer-driven MYB regulatory program [PMID:26829750](../papers/26829750.md)
+- MYC shows recurrent 8q copy gain in metastatic castration-resistant prostate cancer (mCRPC) rapid-autopsy cohort; gain is largely shared across metastases within a patient [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -252,5 +253,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

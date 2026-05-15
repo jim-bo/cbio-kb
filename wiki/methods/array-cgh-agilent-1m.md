@@ -5,8 +5,8 @@ kind: COPY_NUMBER_ALTERATION
 canonical_source: corpus
 unverified: true
 tags: [copy-number, array-cgh, agilent]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Agilent 1M Human Oligonucleotide aCGH
@@ -24,6 +24,8 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 - Agilent SurePrint G3 1M array-CGH used to profile copy-number alterations in seven prostate cancer organoid lines; identified [PTEN](../genes/PTEN.md) homozygous deletions, [CHD1](../genes/CHD1.md) loss, [AR](../genes/AR.md) amplification, and RB1/CDKN2A alterations (note: missed a complete [RB1](../genes/RB1.md) deletion detected by RNA-seq). [PMID:25201530](../papers/25201530.md)
 - Agilent Human Genome 244A + Sureprint G3 array-CGH applied to 18 [PCNSL](../cancer_types/PCNSL.md) cases; CNA calling via Nexus RANK segmentation filtered with TCAG and 10 in-house HapMap controls; identified median 21 copy-number abnormalities/patient. [PMID:25991819](../papers/25991819.md)
 - Agilent 1M array-CGH used for copy-number alteration profiling in colorectal cancer [PMID:26343386](../papers/26343386.md)
+- Agilent SurePrint G3 1x1M array-CGH used to profile 37 fresh-frozen advanced thyroid tumors; identified arm-level CNAs including 8p, 17p, 20q alterations enriched in ATCs, and 22q loss enriched in RAS-mutant PDTCs. [PMID:26878173](../papers/26878173.md)
+- Agilent 2x400K SurePrint G3 CGH array used on 149 tumors from 60 men with metastatic CRPC at rapid autopsy; CBS segmentation and GISTIC 2.0 analysis identified 8q gain (MYC), 8p loss, AR amplification, and RB1/PTEN loss across metastatic sites. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -51,4 +53,10 @@ Array comparative genomic hybridization (aCGH) using the Agilent 1M human oligon
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

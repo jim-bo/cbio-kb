@@ -3,8 +3,8 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NF1
@@ -58,6 +58,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Loss-of-function mutations and focal deletions in 4 desmoplastic melanoma cases; RAS pathway tumor suppressor lost in a BRAF/NRAS-wild-type melanoma context [PMID:26343386](../papers/26343386.md)
 - Indel editing of rat Nf1 alone produced ER+/PR+/Ki67+ ductal carcinoma in situ at 4-week median latency (12/13 cases, ~80% allelic editing); NF1 acts as a RAS GAP and ER-alpha transcriptional co-repressor; 4% somatic mutation and 20% copy-number loss rates in early ER+ human breast cancer; Nf1-loss tumors are highly endocrine-sensitive and regress on ovariectomy/fulvestrant [PMID:26437033](../papers/26437033.md)
 - MAPK-pathway alteration enriched in PA-like LGG (52%) and LGm6-GBM (32%) subtypes in the TCGA/CGGA diffuse glioma cohort [PMID:26824661](../papers/26824661.md)
+- NF1 truncating mutations in 3 BRAF/RAS-WT ATCs; all co-occurred with PTEN truncation (P = 2×10⁻³), suggesting NF1-PTEN co-inactivation as an alternative oncogenic axis in BRAF/RAS-wild-type anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -191,5 +192,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

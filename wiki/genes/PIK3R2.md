@@ -5,8 +5,8 @@ cancer_types:
   - PNET
 tags:
   - pi3k-pathway
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # PIK3R2
@@ -18,6 +18,7 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 ## Alterations observed in the corpus
 
 - High PIK3R2 expression supported TKI selection ([sorafenib](../drugs/sorafenib.md), [pazopanib](../drugs/pazopanib.md)) for metastatic neuroendocrine neoplasm patient PN1 in a WGTA precision-oncology study of 28 NEN patients [PMID:24326773](../papers/24326773.md)
+- PIK3R2 mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ PIK3R2 encodes the p85-beta regulatory subunit of class IA phosphatidylinositol 
 - [PMID:24326773](../papers/24326773.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

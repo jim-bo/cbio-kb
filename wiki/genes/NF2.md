@@ -3,8 +3,8 @@ symbol: NF2
 aliases: []
 cancer_types: [MNG, PLMESO, CSCC]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NF2
@@ -21,6 +21,8 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - Newly nominated significantly mutated gene in papillary renal cell carcinoma (pRCC) [PMID:25401301](../papers/25401301.md)
 - NF2 within the 22q loss region characteristic of the SCNA-22q-del follicular-variant PTC subtype; also among tumor suppressors mutated in 15/402 (3.7%) PTC tumors [PMID:25417114](../papers/25417114.md)
 - NF2 inactivating events observed in metastatic cSCC (n=29) as a chromatin/tumor suppressor hit. [PMID:25589618](../papers/25589618.md)
+- NF2 infrequent truncating mutations observed in PDTC and ATC as part of a set of low-frequency tumor-suppressor alterations [PMID:26878173](../papers/26878173.md)
+- NF2 is focally deleted by the only chromosome-22 deletions that spare SMARCB1 in extra-cranial malignant rhabdoid tumor (MRT), along with LIF; observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +59,11 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26977886](../papers/26977886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

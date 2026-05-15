@@ -12,8 +12,8 @@ tags:
   - pancreatic-cancer
   - sarcoma
   - functional-precision-medicine
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # olaparib
@@ -33,6 +33,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - Biallelic inactivation of [BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), or [ATM](../genes/ATM.md) in 19.3% of 150 mCRPC patients identifies a subset that may benefit from olaparib; multiple patients on a parallel PARP-inhibitor trial who achieved clinical benefit harbored biallelic [BRCA2](../genes/BRCA2.md) loss [PMID:26000489](../papers/26000489.md)
 - DNA repair deficiency (14% Fanconi-anaemia-pathway alterations, 3% BRCA1/2 alterations) in 109 resected pancreatic ductal adenocarcinomas nominates olaparib (PARP inhibitor) as a therapeutic candidate; high-CNV clusters enriched for DSB-repair lesions could serve as stratification biomarkers [PMID:25855536](../papers/25855536.md)
 - 19% of 333 primary [PRAD](../cancer_types/PRAD.md) tumors carry DNA-repair gene defects ([BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [CDK12](../genes/CDK12.md), [FANCD2](../genes/FANCD2.md), [RAD51C](../genes/RAD51C.md)); authors link this to TOPARP-A trial results in mCRPC and propose PARP-inhibitor strategies (e.g., olaparib) could be considered at earlier prostate cancer disease stages [PMID:26544944](../papers/26544944.md)
+- The FA-pathway/[ATM](../genes/ATM.md) biomarker that predicted longer carboplatin response in mCRPC ([prad_fhcrc](../datasets/prad_fhcrc.md)) was noted by the authors to dovetail with contemporaneous olaparib PARP-inhibitor responses in the same DNA-repair-deficient biomarker subset of prostate cancer. [PMID:26928463](../papers/26928463.md)
 
 ## Resistance mechanisms
 
@@ -45,28 +46,17 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. 2024, *Cell Stem Cell*. Sarcoma PDTO functional precision-medicine screen; olaparib included in drug library.
-- [PMID:39753968](../papers/39753968.md) — Varghese et al. 2025, *Nature Medicine*. MSK PDAC clinicogenomic landscape; PARPi outcomes in germline BRCA-mutated PDAC; biallelic [BRCA2](../genes/BRCA2.md) inactivation necessary but not sufficient for durable benefit.
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:39305899](../papers/39305899.md)
+- [PMID:39753968](../papers/39753968.md)
 - [PMID:36228155](../papers/36228155.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
+- [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

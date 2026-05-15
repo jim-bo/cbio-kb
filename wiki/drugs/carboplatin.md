@@ -5,8 +5,8 @@ drug_class: platinum-based chemotherapy (second-generation)
 canonical_source: corpus
 unverified: true
 tags: [chemotherapy, platinum, sarcoma]
-processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # carboplatin
@@ -22,6 +22,7 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 - Prior platinum (carboplatin) exposure in ovarian MiNEN patient PN19 (11 months prior) generated platinum-therapy mutational signatures detected by WGTA in the POG NEN cohort [PMID:24326773](../papers/24326773.md)
 - Used as part of platinum-based chemoimmunotherapy backbone in R/M NPC trials cited in this review [PMID:24952746](../papers/24952746.md)
 - In muscle-invasive bladder cancer patients ineligible for cisplatin, carboplatin-based regimens are proposed as candidates for study in ERCC2-mutant tumors, given the mechanistic link between ERCC2 loss-of-function and platinum sensitivity [PMID:25096233](../papers/25096233.md)
+- In 20 mCRPC men treated with carboplatin (from the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort), those with a somatic DNA-repair pathway aberration (homozygous loss in any FA-pathway gene or hetero-/homozygous inactivating event in [ATM](../genes/ATM.md)) had significantly longer time on carboplatin (log-rank P = 0.02), supporting platinum-based therapy in DNA-repair-deficient mCRPC. [PMID:26928463](../papers/26928463.md)
 
 ## Resistance mechanisms
 
@@ -33,18 +34,11 @@ Carboplatin is a second-generation platinum compound that, like [cisplatin](../d
 
 ## Sources
 
-- [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. (Cell Stem Cell 2024). UCLA sarcoma PDTO biobank; carboplatin in the >400-compound functional precision-medicine screen panel.
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
+- [PMID:39305899](../papers/39305899.md)
 - [PMID:36333289](../papers/36333289.md)
-
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:24326773](../papers/24326773.md)
-
-*This page was processed by **wiki-cli** on **2026-05-09**.*
 - [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:25096233](../papers/25096233.md)
+- [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

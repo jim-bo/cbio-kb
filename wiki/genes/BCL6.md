@@ -7,8 +7,8 @@ tags:
   - translocation
   - transcription-factor
   - lymphoma
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # BCL6
@@ -22,6 +22,7 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - BCL6 translocation enriched in the BN2 DLBCL subtype (77% of BN2 cases) in a real-world LymphGen classification validation study using a 400-gene clinical NGS panel (MSK-IMPACT Heme) in 241 DLBCL patients [PMID:38497151](../papers/38497151.md).
 - BCL6 translocation co-occurs with [MYC](../genes/MYC.md) translocation in 15.3% of BN2 cases [PMID:38497151](../papers/38497151.md).
 - IGH-BCL6 translocation in 2/11 FISH-screened [PCNSL](../cancer_types/PCNSL.md) cases; recurrent 3q27 gains with breakpoints suggesting translocation [PMID:25991819](../papers/25991819.md)
+- BCL6 identified as an epigenetic regulator mutated in the advanced thyroid cancer cohort (n=117 PDTC/ATC); reported alongside CREBBP, EP300, and BCOR as low-frequency epigenetic regulator alterations [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -47,3 +48,6 @@ BCL6 is a transcriptional repressor and proto-oncogene that plays a central role
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

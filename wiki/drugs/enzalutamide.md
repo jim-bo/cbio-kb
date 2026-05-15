@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, ar-antagonist, prostate-cancer]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # enzalutamide
@@ -23,6 +23,7 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - Variable [AR](../genes/AR.md) transcriptional output across [PRAD](../cancer_types/PRAD.md) subtypes implies subtype-stratified responses to AR-directed therapies; enzalutamide named alongside [abiraterone](../drugs/abiraterone.md) as relevant for SPOP/FOXA1-mutant primary prostate tumors with highest [AR](../genes/AR.md) output [PMID:26544944](../papers/26544944.md)
 - Long-term enzalutamide treatment of LNCaP cells induced CRPC-NE molecular features including [SPDEF](../genes/SPDEF.md) promoter methylation, providing in vitro evidence that AR-targeted therapy pressure drives neuroendocrine trans-differentiation [PMID:26855148](../papers/26855148.md)
 - CRPC-NE tumors with high NEPC classifier scores are predicted to be unlikely responders to further enzalutamide (or [abiraterone](../drugs/abiraterone.md)) and may be candidates for platinum chemotherapy or co-targeting strategies [PMID:26855148](../papers/26855148.md)
+- Only 3 of 63 mCRPC men in the [prad_fhcrc](../datasets/prad_fhcrc.md) rapid-autopsy cohort had received enzalutamide; with such a small n the study could not assess whether this potent AR antagonist induces divergent inter-metastasis resistance patterns (AR amplification, AR ligand-binding-domain mutation, AR splice variants). [PMID:26928463](../papers/26928463.md)
 
 ## Resistance mechanisms
 
@@ -39,5 +40,6 @@ Enzalutamide is a second-generation androgen receptor ([AR](../genes/AR.md)) ant
 - [PMID:26000489](../papers/26000489.md)
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26855148](../papers/26855148.md)
+- [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

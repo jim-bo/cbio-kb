@@ -3,8 +3,8 @@ symbol: FAT1
 aliases: []
 cancer_types: [PTCL, THAP, CSCC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FAT1
@@ -23,6 +23,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Recurrent truncating mutations, LOH, and 3.4% homozygous deletion in [ESCC](../cancer_types/ESCC.md); functional tumor suppressor validated by shRNA knockdown (n=139 tumors) [PMID:24686850](../papers/24686850.md)
 - Mutated in 43.6% of 39 aggressive cSCC tumors; identified as a differentiation-related tumor suppressor by inactivation-bias methods [PMID:25303977](../papers/25303977.md)
 - Mutated in 23% of HNSCC; novel significantly mutated gene; aberrant Wnt/beta-catenin activation; convergent with [AJUBA](../genes/AJUBA.md) and NOTCH inactivation [PMID:25631445](../papers/25631445.md)
+- FAT1 is among the low-frequency recurrently mutated genes (>=2 ATC or >=3 PDTC) identified by MSK-IMPACT 341-gene sequencing of 117 advanced thyroid tumors [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - [PMID:25631445](../papers/25631445.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -3,8 +3,8 @@ symbol: ATRX
 aliases: []
 cancer_types: [AST, DIFG, ANGS, LMS]
 tags: [chromatin-remodeler, alt, astrocytoma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ATRX
@@ -28,6 +28,7 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - Genomic-stability mutation detected in prostate cancer cell lines derived from CRPC [PMID:25201530](../papers/25201530.md)
 - ATRX inactivating mutations identified in 7/56 WGS neuroblastoma cases, exclusively in tumors lacking [MYCN](../genes/MYCN.md) amplification and [TERT](../genes/TERT.md) rearrangement; ATRX-mutant tumors show alternative lengthening of telomeres (ALT) as the third axis of telomere maintenance in high-risk neuroblastoma [PMID:26466568](../papers/26466568.md)
 - Mutated in n=220 diffuse gliomas (1,122-tumour TCGA pan-glioma cohort); mutations nearly mutually exclusive with TERT promoter mutations and associated with significantly longer telomeres (ALT phenotype); ALT-positive ATRX-mutant gliomas nominated as candidates for ATR-inhibitor sensitivity [PMID:26824661](../papers/26824661.md)
+- ATRX, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); first report of SWI/SNF disruption in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -83,3 +84,6 @@ ATRX is a SWI/SNF-family chromatin remodeler whose loss enables the alternative 
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

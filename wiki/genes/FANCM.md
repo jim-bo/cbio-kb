@@ -3,8 +3,8 @@ symbol: FANCM
 aliases: []
 cancer_types: [UCS, MXOV]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FANCM
@@ -17,6 +17,7 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 
 - Splice-site/frameshift mutations in 2/22 gynaecologic carcinosarcoma cases; identified by whole-exome sequencing [PMID:25233892](../papers/25233892.md).
 - Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
+- FANCM is included in the FA pathway gene classifier used to identify carboplatin-responsive mCRPC; homozygous deleterious FANCM events associate with longer time on carboplatin (log-rank P = 0.02 for the full FA/ATM group) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -40,4 +41,7 @@ FANCM (FA Complementation Group M) encodes a DNA translocase component of the Fa
 
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

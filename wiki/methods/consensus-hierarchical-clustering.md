@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [clustering, unsupervised, transcriptomics, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Consensus Hierarchical Clustering (ConsensusClusterPlus)
@@ -22,6 +22,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 - Consensus hierarchical clustering applied to top-1,500 variant genes in 329 melanoma RNA-seq samples, defining three transcriptomic subclasses (Immune 51%, Keratin 31%, MITF-low 18%) with distinct survival and mutational profiles. [PMID:26091043](../papers/26091043.md)
 - Used to define three [ILC](../cancer_types/ILC.md) transcriptional subtypes (reactive-like, immune-related, proliferative) from 1,277 SAM-differentiating genes (q=0) in n=106 LumA [ILC](../cancer_types/ILC.md), with survival differences validated in METABRIC [PMID:26451490](../papers/26451490.md)
 - Consensus hierarchical clustering applied to 1,300 tumor-specific CpG probes from merged HM27 + HM450 methylation data to define six pan-glioma methylation subtypes (LGm1–6) in 932 TCGA glioma samples [PMID:26824661](../papers/26824661.md)
+- Used for sub-group discovery across miRNA, mRNA, and methylation data in 40-66 MRT cases; yielded 2 miRNA sub-groups, 2 mRNA sub-groups (recapitulating AT/RT vs RTK distinction), and 2 WGBS methylation sub-groups (correlated with age >1 year at diagnosis). [PMID:26977886](../papers/26977886.md)
 
 ## Notes
 
@@ -43,4 +44,7 @@ Consensus hierarchical clustering (implemented in the R/Bioconductor package Con
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

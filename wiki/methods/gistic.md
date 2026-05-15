@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # GISTIC
@@ -47,6 +47,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Applied as GISTIC 2.0 to identify focal somatic copy-number alterations in 333 primary prostate adenocarcinomas; detected 20 amplifications and 35 deletions (q < 0.25), including homozygous [PTEN](../genes/PTEN.md) deletion in 15% — among the highest rates in any TCGA tumor type [PMID:26544944](../papers/26544944.md).
 - GISTIC analysis of Illumina HumanOmni2.5-8 SNP-array data from periampullary tumors identified focal 9p23.1 CDKN2A deletion and a chromosome-9 deletion removing the promoter/5′ end of KDM4C as statistically significant in AMPAC [PMID:26804919](../papers/26804919.md)
 - GISTIC2 applied to copy-number data from 1,084 diffuse gliomas in the TCGA pan-glioma study to map focal amplifications and deletions across the cohort [PMID:26824661](../papers/26824661.md)
+- GISTIC 2.0 applied to CBS-segmented array-CGH data from 149 tumors of 60 men with metastatic CRPC; identified focal and arm-level CNA drivers including 8q gain (MYC), 8p loss, AR amplification, RB1 and PTEN deletions. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -139,7 +140,10 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,8 +5,8 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Fluorescence in situ hybridization (FISH)
@@ -47,6 +47,7 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used with [MYBL1](../genes/MYBL1.md) (RP11-271O1) and [NFIB](../genes/NFIB.md) (RP11-54D21, RP11-79B9) BAC probes to detect t(8;9) translocations in 81 salivary adenoid cystic carcinoma validation samples; identified t(8;9) in 27.8% of t(6;9)-negative ACCs [PMID:26631609](../papers/26631609.md).
 - FISH used to validate MYB rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
 - FISH used to verify CYLD focal deletion in CRPC-NE samples; confirmed deletion in 51% of CRPC-NE metastatic biopsies with concordant mRNA downregulation [PMID:26855148](../papers/26855148.md)
+- FISH used on 53 tumors from 13 men to assess TMPRSS2-ERG fusion status; found 100% intra-individual concordance for TMPRSS2-ERG status across metastatic sites in mCRPC. [PMID:26928463](../papers/26928463.md)
 
 ## Notes
 
@@ -131,7 +132,10 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26829750](../papers/26829750.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26855148](../papers/26855148.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

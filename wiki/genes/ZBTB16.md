@@ -3,8 +3,8 @@ symbol: ZBTB16
 aliases: [PLZF]
 cancer_types: [PRAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ZBTB16
@@ -17,6 +17,7 @@ ZBTB16 (Zinc Finger and BTB Domain Containing 16), also known as PLZF (promyeloc
 
 - Novel recurrent focal homozygous deletion at chr11q23 in 8/150 (5%) of mCRPC cases (WGS/WES); ZBTB16 (PLZF) is androgen-regulated; preclinical models link loss to androgen resistance and MAPK pathway upregulation. [PMID:26000489](../papers/26000489.md)
 - ZBTB16, along with FOXA1, NCOR1, and NCOR2, identified as an AR co-activator whose alteration is enriched in CRPC-Adeno (21 cases) relative to CRPC-NE [PMID:26855148](../papers/26855148.md)
+- Recurrent mCRPC driver mutation consistent with prior reports; identified among pan-metastasis driver genes in a rapid-autopsy whole-genome sequencing cohort [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ ZBTB16 (Zinc Finger and BTB Domain Containing 16), also known as PLZF (promyeloc
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

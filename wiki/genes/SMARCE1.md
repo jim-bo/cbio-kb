@@ -3,8 +3,8 @@ symbol: SMARCE1
 aliases: []
 cancer_types: ["ACYC"]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SMARCE1
@@ -16,6 +16,7 @@ SMARCE1 is a subunit of the SWI/SNF chromatin remodeling complex that contains a
 ## Alterations observed in the corpus
 
 - HMG-box missense Y73C; frequency 2%; predicted loss of DNA-binding function; SWI/SNF complex subunit in adenoid cystic carcinoma. [PMID:23685749](../papers/23685749.md)
+- Putative miR-200a target in extra-cranial MRT, suggesting miRNA-mediated dysregulation of SWI/SNF complex members [PMID:26977886](../papers/26977886.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ SMARCE1 is a subunit of the SWI/SNF chromatin remodeling complex that contains a
 - [PMID:23685749](../papers/23685749.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

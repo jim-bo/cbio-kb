@@ -3,8 +3,8 @@ symbol: CDKN2C
 aliases: [p18, INK4C]
 cancer_types: [PCM]
 tags: [tumor-suppressor, cell-cycle]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CDKN2C
@@ -16,6 +16,7 @@ CDKN2C (Cyclin Dependent Kinase Inhibitor 2C, also known as p18-INK4C) encodes a
 ## Alterations observed in the corpus
 
 - Recurrent homozygous deletion at 1p32.3 in multiple myeloma (MM, n=153 patients with copy-number data); identified as one of the significant GISTIC peaks encompassing 32 genes across 7 regions; established MM tumor suppressor [PMID:24434212](../papers/24434212.md)
+- Single-case CDKN2C mutation observed in PDTC/ATC thyroid cancer targeted sequencing cohort (IMPACT panel, 117 tumors), replicating prior WES ATC findings [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ CDKN2C (Cyclin Dependent Kinase Inhibitor 2C, also known as p18-INK4C) encodes a
 - [PMID:24434212](../papers/24434212.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

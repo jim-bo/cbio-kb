@@ -3,8 +3,8 @@ symbol: FANCF
 aliases: []
 cancer_types: [THAP]
 tags: [DNA-repair, Fanconi-anemia, germline]
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FANCF
@@ -17,6 +17,7 @@ FANCF (Fanconi Anemia Complementation Group F) encodes a core component of the F
 
 - Germline FANCF pathogenic variants detected in 3 patients among a WES/WGS cohort of anaplastic thyroid carcinoma (ATC) as cancer predisposition gene alterations [PMID:38412093](../papers/38412093.md).
 - Fanconi-anaemia pathway lesion enriched in high-CNV PDAC clusters; nominates PARP inhibitor and cross-linking agent therapy [PMID:25855536](../papers/25855536.md)
+- FANCF is part of the FA gene classifier used to identify mCRPC patients with DNA-repair defects; homozygous deleterious FANCF events are associated with significantly longer time on carboplatin chemotherapy (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -40,4 +41,7 @@ FANCF (Fanconi Anemia Complementation Group F) encodes a core component of the F
 
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

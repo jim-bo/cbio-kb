@@ -3,8 +3,8 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MSH2
@@ -27,6 +27,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MSH2 deleterious mutation identified in one of the three [NSCLC](../cancer_types/NSCLC.md) patients with the highest mutation burden who achieved durable clinical benefit on [pembrolizumab](../drugs/pembrolizumab.md), consistent with mismatch-repair-driven hypermutation; MSH2 loss identified as a DNA repair mechanism elevating TMB and PD-1 response. [PMID:25765070](../papers/25765070.md)
 - In pancreatic ductal adenocarcinoma ([PAAD](../cancer_types/PAAD.md)), MSH2 loss was identified among mismatch-repair gene alterations in the top mutation-burden quartile; affected cases displayed T→C-at-CTG signatures consistent with MMR deficiency. [PMID:25855536](../papers/25855536.md)
 - In metastatic castration-resistant prostate cancer (mCRPC), MSH2 alterations were among MMR gene changes in 3 of 4 hypermutated (~50 mutations/Mb) cases. [PMID:26000489](../papers/26000489.md)
+- MSH2 mutations, together with MSH6 and MLH1, account for MMR deficiency in 12% of ATC vs 2% of PDTC; associated with hypermutator phenotype in anaplastic thyroid carcinoma [PMID:26878173](../papers/26878173.md)
+- MSH2, together with MSH6, underlies complex structural aberrations causing hypermutation in 5 men with metastatic castration-resistant prostate cancer (mCRPC); MMR deficiency apparent in matched primaries [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -77,3 +79,9 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:26000489](../papers/26000489.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

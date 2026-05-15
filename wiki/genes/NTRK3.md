@@ -12,8 +12,8 @@ tags:
   - ETV6
   - larotrectinib
   - NTRK-inhibitor
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NTRK3
@@ -30,6 +30,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - Discussed as analogous context: NTRK3 fusions in other cancers provide precedent for the [NTRK2](../genes/NTRK2.md) kinase-domain-retaining fusions newly described in pilocytic astrocytoma [PMID:23817572](../papers/23817572.md)
 - NTRK3 fusions (ETV6/NTRK3 and RBPMS/NTRK3) in 1.2% (6/484) PTC tumors; fusions were BRS-neutral in the BVL/RL transcriptome classification [PMID:25417114](../papers/25417114.md)
 - NTRK1/2/3 fusions reported in ~0.2% of CCA overall, up to 3.6% of intrahepatic CCA; targetable with [entrectinib](../drugs/entrectinib.md) and [larotrectinib](../drugs/larotrectinib.md) [PMID:25526346](../papers/25526346.md)
+- NTRK3 fusions in thyroid cancer could not be assessed because the IMPACT 341-gene panel does not cover NTRK3 intronic regions; explicitly flagged as a detection gap in the study of PDTC and ATC [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -68,3 +69,6 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

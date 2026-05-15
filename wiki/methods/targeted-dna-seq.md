@@ -5,8 +5,8 @@ kind: sequencing
 canonical_source: 
 unverified: true
 tags: [dna-seq, targeted]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Targeted DNA sequencing
@@ -39,6 +39,7 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - Targeted DNA sequencing via MSK-IMPACT panel applied to pancreatic ductal adenocarcinoma [PMID:26278805](../papers/26278805.md)
 - Targeted DNA sequencing used alongside WES and WGS in colorectal cancer genomic profiling [PMID:26343386](../papers/26343386.md)
 - Hybrid-capture targeted sequencing across the TERT/CLPTM1L locus used alongside FISH to validate [TERT](../genes/TERT.md) 5p15.33 rearrangements in 161-sample neuroblastoma cohort; orthogonal confirmation by both methods required to call a rearrangement [PMID:26466568](../papers/26466568.md)
+- A 300-gene exon-capture panel was applied to 19 additional plasmacytoid-variant bladder tumors as a validation cohort, identifying CDH1 truncating mutations in 14/19 (74%) cases. [PMID:26901067](../papers/26901067.md)
 
 ## Notes
 
@@ -107,3 +108,6 @@ Targeted DNA sequencing uses hybrid-capture or amplicon panels to deeply sequenc
 - [PMID:26466568](../papers/26466568.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26901067](../papers/26901067.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,7 +3,7 @@ symbol: RBM10
 aliases: []
 cancer_types: [LUAD]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -18,6 +18,7 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 - Truncating mutations (7% of [LUAD](../cancer_types/LUAD.md) cases, recurrent nonsense/frameshift/splice events); newly identified significantly mutated RNA-binding protein gene in lung adenocarcinoma [PMID:22980975](../papers/22980975.md)
 - Loss-of-function mutations in 8% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); strongly enriched in males (P = 0.002); 16/21 RBM10 mutations in the transversion-high subset occurred in males (P = 0.003). [PMID:25079552](../papers/25079552.md)
 - Loss-of-function mutations detected in 4% of pancreatic ductal adenocarcinoma cases (109-case WES cohort); associated with prolonged overall survival despite aggressive histology, independent of [IPMN](../cancer_types/IPMN.md) origin and [GNAS](../genes/GNAS.md) status (P=0.0345, n=4 mutant cases). [PMID:25855536](../papers/25855536.md)
+- RBM10 observed as a low-frequency hit (>=2 ATC or >=3 PDTC) in a targeted-sequencing study of advanced thyroid cancers (PDTC and ATC). [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ RBM10 (RNA Binding Motif Protein 10) is an RNA-binding protein that regulates al
 - [PMID:25855536](../papers/25855536.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

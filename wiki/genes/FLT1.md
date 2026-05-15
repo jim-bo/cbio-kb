@@ -3,8 +3,8 @@ symbol: FLT1
 aliases: [VEGFR1]
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # FLT1
@@ -16,6 +16,7 @@ FLT1 (FMS-like tyrosine kinase 1), also known as VEGFR1, is a receptor tyrosine 
 ## Alterations observed in the corpus
 
 - Amplification identified in ovarian mixed adenoneuroendocrine carcinoma (MiNEN) case PN19 in a precision oncology cohort for neuroendocrine neoplasms [PMID:24326773](../papers/24326773.md)
+- FLT1 (VEGFR1) mutations are among the low-frequency RTK hits identified in advanced thyroid cancers (PDTC/ATC) by MSK-IMPACT 341-gene sequencing (n=117 tumors) [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -31,4 +32,7 @@ FLT1 (FMS-like tyrosine kinase 1), also known as VEGFR1, is a receptor tyrosine 
 
 - [PMID:24326773](../papers/24326773.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

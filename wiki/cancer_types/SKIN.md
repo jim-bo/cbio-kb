@@ -8,8 +8,8 @@ tags:
   - normal-tissue
   - melanocyte
   - UV-damage
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Skin (SKIN)
@@ -28,6 +28,7 @@ This is primarily a normal-tissue atlas study; no somatic drivers are nominated 
 
 - UV-attributable signature SBS7 (C>T transitions at dipyrimidines): dominant in HighMut melanocytes from sun-damaged skin. [PMID:39975212](../papers/39975212.md)
 - Clock-like signatures SBS1/SBS5: dominant in LowMut melanocytes, enriched in hair-follicle niches. [PMID:39975212](../papers/39975212.md)
+- NanoSeq profiling of paired pre/post NB-UVB skin biopsies (16 psoriasis patients) quantified UVR-induced SBS7a/SBS7b mutation burden increase (median 0.55 substitutions/Mb in buttock, 0.89/Mb in forearm); surveillance-modelling recommends skin-cancer monitoring starting at 58–422 NB-UVB exposures (vs BAD guideline of 500) depending on sun-exposure behaviour and MED [PMID:26950094](../papers/26950094.md)
 
 ## Subtypes
 
@@ -43,4 +44,6 @@ Two coexisting melanocyte subpopulations identified within sun-damaged skin:
 
 - [PMID:39975212](../papers/39975212.md) — Tandukar et al. *Nature* 2025. Clonal single-cell profiling of normal skin melanocytes reveals UV-protected stem-cell niche in hair follicles.
 
-*This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:26950094](../papers/26950094.md) — Fowler et al., NanoSeq NB-UVB phototherapy study; SBS7a/SBS7b mutation burden in normal skin as precursor to cSCC/BCC; skin-cancer surveillance modelling
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

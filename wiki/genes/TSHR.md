@@ -7,8 +7,8 @@ tags:
   - thyroid-cancer
   - hormone-receptor
   - differentiation
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TSHR
@@ -21,6 +21,7 @@ TSHR (Thyroid Stimulating Hormone Receptor) is a G protein-coupled receptor that
 
 - TSHR is listed among the genes with somatic alterations in papillary thyroid carcinoma (PTC) in the TCGA PTC cohort (n=496); it is a component of the 16-gene Thyroid Differentiation Score (TDS) used to quantify thyroid metabolic and functional gene expression. [PMID:25417114](../papers/25417114.md)
 - TDS (which includes TSHR expression) strongly correlated with the BRAFV600E-RAS Score (BRS) (Spearman 0.78, p=3.1×10⁻⁸⁰) and with [TERT](../genes/TERT.md) promoter mutations (Kruskal-Wallis p=4.2×10⁻⁵); BRAFV600E-positive low-TDS tumors had the worst prognosis. [PMID:25417114](../papers/25417114.md)
+- Low-frequency mutation detected in both PDTC and ATC in thyroid cancer targeted sequencing [PMID:26878173](../papers/26878173.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ TSHR (Thyroid Stimulating Hormone Receptor) is a G protein-coupled receptor that
 - [PMID:25417114](../papers/25417114.md) — TCGA integrated genomic characterization of 496 papillary thyroid carcinomas.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

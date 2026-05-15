@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # FANCC
@@ -17,6 +17,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 
 - FANCC mutations associated with improved ICI overall survival in metastatic urothelial carcinoma when combined with ATM/RB1 alterations (p = 0.045) [PMID:36333289](../papers/36333289.md)
 - Passenger amplification detected in cSCC (cutaneous squamous cell carcinoma) by GISTIC copy-number analysis [PMID:25589618](../papers/25589618.md)
+- FANCC is a member of the FA pathway gene set; homozygous deleterious FANCC events classify mCRPC patients into the DNA-repair-defect group associated with significantly longer carboplatin response (log-rank P = 0.02) [PMID:26928463](../papers/26928463.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,8 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 
 *This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:25589618](../papers/25589618.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

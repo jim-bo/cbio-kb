@@ -42,6 +42,7 @@ OncoTree code for invasive breast carcinoma.
 - WES on 216 metastatic breast cancer (mBC) tumor-blood pairs from French SAFIR01/SAFIR02/SHIVA/MOSCATO trials: ESR1 mutations in 14% and amplification in 6% of HR+/HER2- mBC (combined 19%), emerging as metastasis-specific drivers; RB1 loss-of-function in 6% of HR+/HER2- mBC (CDK4i resistance marker); TSC1/TSC2 combined 6.3% of HR+/HER2- mBC vs 0.7% primary (p=0.0004); PALB2 somatic 4% of mBC vs 0.1% of primary; APOBEC signatures 2+13 contributed 58.8% vs 31.9% of mutations in HR+ primary; 8-gene metastatic-enrichment signature carried 2-fold higher death hazard (HR=1.97, p=0.001) [PMID:28027327](../papers/28027327.md)
 - In the MSK-IMPACT pan-cancer cohort, ESR1 hotspot mutations were found in 11% of BRCA (vs 4% in TCGA), almost exclusively in post-hormone-therapy metastases, consistent with endocrine-resistance; 57% of BRCA patients harbored an OncoKB-actionable alteration (3rd highest after GIST and thyroid). [PMID:28481359](../papers/28481359.md)
 - MET500 metastatic cohort: breast carcinoma was the second most common cancer type (91/500, 18.2%); BRCA1/BRCA2 germline pathogenic variants were significantly enriched vs ExAC controls (BRCA1 n=5, BRCA2 n=9); MImmScore immune analysis showed metastatic breast tumors have low immune infiltration similar to primary disease. [PMID:28783718](../papers/28783718.md)
+- In the SUMMIT basket trial of neratinib for ERBB2/ERBB3-mutant solid tumors, HER2-mutant non-amplified invasive breast carcinoma met its pre-specified efficacy endpoint with ORR8 32% (8/25, 95% CI 15-54%) across ER+ and ER- subtypes and across extracellular and kinase domain mutations [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -76,5 +77,8 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39289779](../papers/39289779.md)
 - [PMID:39506116](../papers/39506116.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

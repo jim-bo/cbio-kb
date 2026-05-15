@@ -72,6 +72,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (9 PPGM carriers); HR deficiency implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
 - BRCA2 somatic alterations are clonal/truncal in matched prostate tumor samples; 9% germline pathogenic in 221 tested patients; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale (olaparib, TOPARP-A) [PMID:28825054](../papers/28825054.md)
 - placeholder
+- Alterations in BRCA2 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
+- Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
 
 ## Cancer types (linked)
 
@@ -214,5 +216,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

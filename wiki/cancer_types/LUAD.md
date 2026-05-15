@@ -55,6 +55,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - 860 recurrent/metastatic LUAD patients profiled by MSK-IMPACT (IMPACT341/410); actionable OncoKB level 1–4 alterations in 86.9%; [EGFR](../genes/EGFR.md) sensitizing mutations 24.9%, [KRAS](../genes/KRAS.md) 25.3%, [ALK](../genes/ALK.md)/[ROS1](../genes/ROS1.md) fusions; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking actionable driver [PMID:28336552](../papers/28336552.md)
 - In the TRACERx cohort (n=58 LUAD), pre-operative ctDNA detection was only 19% (11/58) for LUAD vs 97% for LUSC; driver mutations in KRAS, EGFR, and TP53 were not associated with ctDNA detection within the LUAD subset; an expanded 28-SNV panel was required for improved sensitivity. [PMID:28445469](../papers/28445469.md)
 - In the MSK-IMPACT pan-cancer cohort, ALK, RET, and ROS1 fusions were enriched in LUAD but also detected in 11 additional tumor types; EML4-ALK fusions were the 3rd most common rearrangement (n=38) predominantly in LUAD; EGFR mutations localized to the kinase domain in lung cancer vs the extracellular N-terminal domain in glioma. [PMID:28481359](../papers/28481359.md)
+- Lung adenocarcinoma comprised 78% (187/240) of the anti-PD-(L)1 NSCLC cohort; EGFR-mutant LUAD had only 7% DCB rate (FDR p=0.013), attributed to low TMB from never-smoker biology; HER2 exon 20 insertion LUAD showed minimal RECIST response (1/26) to neratinib but median PFS 5.5 months [PMID:29337640](../papers/29337640.md)
+- In the SUMMIT trial, HER2 exon 20 insertion-driven LUAD (the predominant NSCLC histology in this cohort) showed minimal RECIST response (1/26) to single-agent neratinib, though median PFS of 5.5 months and a long-tail of >1-year responders suggest neratinib has activity worth pursuing in combinations [PMID:29420467](../papers/29420467.md)
 
 ## Subtypes
 
@@ -114,5 +116,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 - [PMID:28445469](../papers/28445469.md)
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

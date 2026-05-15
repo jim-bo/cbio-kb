@@ -19,6 +19,7 @@ Whole-body 18F-fluorodeoxyglucose (FDG) positron emission tomography combined wi
 
 - [PMID:30325352](../papers/30325352.md) — FDG PET/CT acquired in 201 of 211 [NSCLC](../cancer_types/NSCLC.md) subjects in the [nsclc-radiogenomics-stanford](../datasets/nsclc-radiogenomics-stanford.md) dataset; CT-based attenuation correction with iterative OSEM reconstruction; FDG dose 138.90–572.25 MBq (mean 309.26 MBq); uptake time 23.08–128.90 min (mean 66.58 min); tumor segmentations on co-registered CT were used for semantic annotation by one experienced radiologist [PMID:30325352](../papers/30325352.md).
 - Pre-SBRT FDG-PET/CT parameters (SUVmax, metabolic tumour volume, total lesion glycolysis) correlate with progression-free and overall survival in locally advanced pancreatic cancer, supporting their use in patient selection for SBRT. [PMID:27826200](../papers/27826200.md)
+- FDG PET/CT response criteria (modified PERCIST v1.0) used as primary endpoint assessment for SUMMIT basket-trial patients with ERBB2/ERBB3-mutant solid tumors not evaluable by RECIST v1.1 [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -33,3 +34,6 @@ Whole-body 18F-fluorodeoxyglucose (FDG) positron emission tomography combined wi
 - [PMID:27826200](../papers/27826200.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

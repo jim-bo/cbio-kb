@@ -25,6 +25,7 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 - Implicated in [PCNSL](../cancer_types/PCNSL.md) via focal amplification or homozygous deletion event [PMID:25991819](../papers/25991819.md)
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - Preferentially mutated in ABC-DLBCL; ETV6 mutations in DLBCL are ABC-subtype-enriched in the comprehensive genetic and functional driver analysis [PMID:28985567](../papers/28985567.md)
+- ETV6-NTRK3 fusion identified in MSI-H colorectal cancer (8% MSI-H vs 1% MSS NTRK fusion rate overall); ETV6-NTRK3 is a known oncogenic fusion relevant to TRK inhibitor therapy [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +67,8 @@ ETV6 encodes an ETS-family transcriptional repressor. The ETV6-NTRK3 fusion is t
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

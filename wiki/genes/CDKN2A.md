@@ -112,6 +112,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - placeholder
 - placeholder
 - placeholder
+- Recurrent mutation in HPV(−) vulvar squamous cell carcinomas (n=15 WES cohort); consistent with the established TP53/CDKN2A/HRAS mutation pattern of HPV(−) vulvar SCC [PMID:29422544](../papers/29422544.md)
 
 ## Cancer types (linked)
 
@@ -348,5 +349,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

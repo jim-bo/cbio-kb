@@ -3,7 +3,7 @@ symbol: JAK3
 aliases: []
 cancer_types: [HCC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -18,6 +18,7 @@ JAK3 (Janus Kinase 3) is a tyrosine kinase that mediates cytokine signalling thr
 - JAK3 recurrently amplified in [HCC](../cancer_types/HCC.md) (243-case European WES cohort); listed as FDA-targetable at 3% frequency in the druggable landscape. [PMID:25822088](../papers/25822088.md)
 - p.Val678Leu point mutation in a Sézary syndrome sample (previously reported in prolymphocytic leukemia); HUT78 CTCL cell line carries activating p.Ala573Val and responds to JAK inhibition with [tofacitinib](../drugs/tofacitinib.md) and [ruxolitinib](../drugs/ruxolitinib.md) [PMID:26551667](../papers/26551667.md)
 - JAK3 A573V activating mutation identified in pediatric AML as a JAK-inhibitor target in comprehensive clinical genomic sequencing [PMID:28007021](../papers/28007021.md).
+- Antigen-presentation/immunology gene profiled in OncoPrint alongside HLA-A, POLE, CD274, PTEN, and ATR in a 240-patient NSCLC immunotherapy cohort [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ JAK3 (Janus Kinase 3) is a tyrosine kinase that mediates cytokine signalling thr
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

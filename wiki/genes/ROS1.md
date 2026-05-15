@@ -26,6 +26,8 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - ROS1 fusions present in ~6–7% of young lung cancer patients (YLC) versus <2% in older NSCLC patients, making them significantly enriched in YLC [PMID:27346245](../papers/27346245.md).
 - Fusions identified in LUAD; level 1 actionability with high matched-therapy uptake and clinical benefit; 2 ROS1-fusion patients died before crizotinib FDA approval (March 2016) for this indication [PMID:28336552](../papers/28336552.md)
 - Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases; part of the targetable-alteration pool recovered by broad-panel sequencing vs amplicon panels [PMID:28481359](../papers/28481359.md)
+- Reported at 3% frequency in NSCLC with too few events for dedicated response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
+- Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib monotherapy in HER2-mutant solid tumors [PMID:29420467](../papers/29420467.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +68,11 @@ ROS1 encodes a receptor tyrosine kinase whose oncogenic fusions define a clinica
 - [PMID:28336552](../papers/28336552.md)
 
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

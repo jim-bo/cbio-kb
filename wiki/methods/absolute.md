@@ -9,7 +9,7 @@ tags:
   - tumor-purity
   - clonality
   - somatic-copy-number
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -36,6 +36,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - ABSOLUTE used for clonality estimation in 173 PCPG tumors in the TCGA PCPG study [PMID:28162975](../papers/28162975.md).
 - Used with Affymetrix SNP6 data to estimate tumor purity, ploidy, and cancer cell fraction (CCF) in 412 BLCA tumors; CCF used to characterize clonality of APOBEC mutations [PMID:28988769](../papers/28988769.md)
 - ABSOLUTE used to estimate tumor purity and ploidy in 206 TCGA sarcomas; 54% of BLCA tumors showed whole-genome doubling; enabled clonal mutation fraction calculations [PMID:29100075](../papers/29100075.md)
+- Used to estimate clonality of PBRM1 truncating mutations in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) WES samples; most PBRM1-LOF alterations were predicted to be clonal [PMID:29301960](../papers/29301960.md)
+- ABSOLUTE v1.0.6 integrated with FACETS segmentation to estimate clonality of HER2 mutations in the SUMMIT basket trial; 95% (70/74) of HER2 mutations were clonal (CCF >0.85); none of 4 patients with subclonal HER2 mutations achieved clinical benefit [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -88,3 +90,9 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

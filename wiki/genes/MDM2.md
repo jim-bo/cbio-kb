@@ -51,6 +51,7 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - Recurrent oncogene amplification in cholangiocarcinoma (n=9 WGS cases) [PMID:28667006](../papers/28667006.md)
 - MDM2 amplification (copy number >4) was found in 6% and MDM2 overexpression (>2-fold above median) in 19% of muscle-invasive bladder cancer (MIBC) tumors; the TP53/Cell Cycle pathway (including MDM2) was inactivated in 89% of tumors; MDM2 and TP53 alterations were mutually exclusive (q < 0.2) [PMID:28988769](../papers/28988769.md)
 - MDM2 amplification was present in 100% of dedifferentiated liposarcoma (DDLPS) by definition; MDM2, CDK4, and HMGA2 co-amplification at 12q13~15 is the defining hallmark of DDLPS; MDM2 amplification, CDK4 amplification, JUN amplification, and TERT amplification distinguished DDLPS from other sarcoma subtypes [PMID:29100075](../papers/29100075.md)
+- Amplification identified in 8 NSCLC patients; PFS not significantly different from overall cohort (HR 1.4, P=.44); hyperprogression signal on anti-PD-(L)1 therapy previously reported elsewhere was not reproduced [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -165,5 +166,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -9,7 +9,7 @@ tags:
   - actionability
   - oncokb
   - clinical-interpretation
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,8 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB database (accessed 6 January 2017) used to classify potentially oncogenic and actionable mutations in 19 anaplastic oligodendroglioma tumors from the [odg_msk_2017](../datasets/odg_msk_2017.md) cohort (MSK-IMPACT 410-gene panel); identified Level 2B alterations ([CDK4](../genes/CDK4.md) amplification, [TSC1](../genes/TSC1.md)) and Level 3B alterations ([IDH1](../genes/IDH1.md) R132H, [IDH2](../genes/IDH2.md) R172K, [KRAS](../genes/KRAS.md) Q61H, [PIK3CA](../genes/PIK3CA.md)) [PMID:28472509](../papers/28472509.md).
 - Applied to MSK-IMPACT-profiled prostate cancer alterations (504 tumors from 451 patients) to identify actionable alterations; 36% of patients carried at least one potentially actionable alteration per OncoKB [PMID:28825054](../papers/28825054.md)
 - OncoKB used to annotate oncogenic effect of alterations in 295 metastatic EGC patients; 53% had at least one OncoKB-defined potentially actionable alteration [PMID:29122777](../papers/29122777.md)
+- OncoKB actionability rates: 86% of MSI-H/hypermutated vs 37% of MSS metastatic [COADREAD](../cancer_types/COADREAD.md) carried potentially actionable alterations (p<0.001) in the 1,134-tumor MSK-IMPACT cohort [PMID:29316426](../papers/29316426.md)
+- OncoKB (Sept 2017) used for pathway-level oncogenicity calls in SUMMIT basket-trial patients with ERBB2/ERBB3-mutant tumors; contributed to co-mutation pathway analysis [PMID:29420467](../papers/29420467.md)
 
 ## Notes
 
@@ -42,3 +44,9 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

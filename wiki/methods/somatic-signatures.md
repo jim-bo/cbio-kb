@@ -5,8 +5,8 @@ kind: mutational_signature_analysis
 canonical_source: corpus
 unverified: true
 tags: [mutational-signatures, NMF, somatic, base-substitution]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Somatic Signatures
@@ -18,6 +18,7 @@ Somatic Signatures refers to the analysis framework for identifying and quantify
 ## Used by
 
 - [coad_caseccc_2015](../datasets/coad_caseccc_2015.md) — applied to characterize the mutational landscape of 29 AA CRC discovery exomes; documented C>T transitions as the predominant base substitution (consistent with age-related/CRC signature); contributed to comparison of AA vs Caucasian MSS CRC mutational profiles [PMID:25583493](../papers/25583493.md)
+- SomaticSignatures R package (NMF) used to decompose mutational signatures in 15 Korean vulvar SCCs; signatures compared to 30 COSMIC reference signatures (cosine similarity) and four TCGA SCC cohorts [PMID:29422544](../papers/29422544.md)
 
 ## Notes
 
@@ -30,3 +31,6 @@ Somatic Signatures refers to the analysis framework for identifying and quantify
 - [PMID:25583493](../papers/25583493.md) — Guda et al. 2015, WES of African American MSS CRC
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

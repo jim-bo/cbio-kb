@@ -44,6 +44,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Mutated in 7.9% of clear cell endometrial carcinoma (CCEC) in the UCCC-NIH targeted sequencing study [PMID:28485815](../papers/28485815.md)
 - Mutations in FBXW7 associated with elevated structural variant (SV) burden (q < 0.1) in cholangiocarcinoma (CCA) across a 489-sample ICGC multi-platform cohort [PMID:28667006](../papers/28667006.md)
 - Recurrently altered candidate driver in medulloblastoma across subgroups, identified in the ICGC/MAGIC 491-tumor WGS cohort; listed among additional recurrent driver genes stratified across subgroups [PMID:28726821](../papers/28726821.md)
+- Enriched in early-stage vs metastatic CRC in MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas, suggesting a possible protective or non-metastatic-driver role [PMID:29316426](../papers/29316426.md)
+- Novel mutation finding in HPV(+) vulvar squamous cell carcinomas identified by WES of 15 Korean vulvar SCC cases; not previously reported in HPV(+) vulvar SCC [PMID:29422544](../papers/29422544.md)
 
 ## Cancer types (linked)
 
@@ -145,5 +147,11 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

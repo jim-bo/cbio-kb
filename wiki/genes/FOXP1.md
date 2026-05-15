@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PAAD]
 tags: [transcription-factor, forkhead, molecular-subtype]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # FOXP1
@@ -27,6 +27,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - HD-defined TSG newly nominated as a breast-cancer Mut-driver; well-known driver in other cancer types suggesting potential for cross-cancer drug repurposing [PMID:27161491](../papers/27161491.md)
 - Mutation present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases (private to the eradicated clone); implicated in cellular cisplatin response alongside [POLD2](../genes/POLD2.md) [PMID:27749842](../papers/27749842.md)
 - FOXP1–ABL1 fusion detected in B-lymphoblastic leukemia ([BLL](../cancer_types/BLL.md)) in the PIPseq pediatric cohort; classified as a TKI target and treated accordingly [PMID:28007021](../papers/28007021.md).
+- Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -75,3 +76,6 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

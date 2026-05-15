@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -151,6 +151,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 412 chemotherapy-naive muscle-invasive bladder cancer (BLCA) tumor/normal pairs (Agilent SureSelect 50 Mb, mean 85X, 79% target ≥30X) identifying 128,772 SNVs and 2,888 indels [PMID:28988769](../papers/28988769.md)
 - Applied to 68 paired pre- and on-therapy melanoma biopsies (Agilent SureSelect All Exon V2, mean 168X; re-sequenced at 300X for selected responders) to quantify on-therapy somatic mutation and neoantigen loss [PMID:29033130](../papers/29033130.md)
 - Applied to 205 adult soft tissue sarcomas (6 histologies) for somatic mutation analysis; only 3 pan-cohort significantly mutated genes identified (TP53, ATRX, RB1), confirming SCNA-driven biology [PMID:29100075](../papers/29100075.md)
+- Applied to 35 pre-treatment metastatic [CCRCC](../cancer_types/CCRCC.md) tumor/normal pairs (mean 128× tumor / 91× normal) to identify PBRM1 LOF as an anti-PD-(L)1 response biomarker [PMID:29301960](../papers/29301960.md)
+- Paired WES (n=49) validated that MSK-IMPACT targeted-panel TMB correlates tightly with whole-exome TMB in [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy (Spearman r=0.86, P<0.001) [PMID:29337640](../papers/29337640.md)
+- Used to profile 15 Korean vulvar SCC tumor/normal pairs (Agilent SureSelect Human All Exome V4, BWA/GATK pipeline) for HPV-stratified mutational landscape analysis [PMID:29422544](../papers/29422544.md)
 
 ## Notes
 
@@ -519,3 +522,12 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

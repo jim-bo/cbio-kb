@@ -29,6 +29,7 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 - Germline Lynch-syndrome gene mutated in half of MSI periampullary tumor patients — a marked enrichment vs. <5% population frequency [PMID:26804919](../papers/26804919.md)
 - Homozygous S459X germline variant diagnostic of constitutional mismatch-repair deficiency (CMMRD) syndrome in a pediatric patient with T-cell lymphoblastic lymphoma and consanguineous parentage [PMID:28007021](../papers/28007021.md)
 - MSH2, MLH1, MSH6, and PMS2 are altered in 3% of advanced prostate cancers; MMR-gene alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
+- Assessed by IHC for MMR status alongside MLH1, MSH2, MSH6 in 1,640 mCRC tumors; IHC concordance with MSIsensor was 98.6% [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -80,5 +81,8 @@ PMS2 (PMS1 Homolog 2, Mismatch Repair System Component) is one of the four canon
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

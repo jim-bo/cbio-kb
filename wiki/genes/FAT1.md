@@ -27,6 +27,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - FAT1 identified as a Wnt-pathway alteration in a genomic profiling study of cisplatin-resistant germ cell tumors (GCT), alongside APC and AXIN1 [PMID:27646943](../papers/27646943.md)
 - R937 missense mutation in 1/19 (5%) FISH-confirmed 1p/19q-codeleted oligodendroglioma cases [PMID:28472509](../papers/28472509.md)
 - 12% mutated newly recognized SMG in MIBC; also subject to epigenetic silencing in a mutually exclusive subset of tumors, suggesting both genetic and epigenetic inactivation mechanisms [PMID:28988769](../papers/28988769.md)
+- Altered in 40% (6/15) of vulvar squamous cell carcinomas irrespective of HPV status — the highest-frequency alteration alongside PIK3CA in this first genome-wide WES characterization of vulvar SCC [PMID:29422544](../papers/29422544.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +79,8 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

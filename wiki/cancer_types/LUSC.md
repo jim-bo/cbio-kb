@@ -28,6 +28,8 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - TCGA WES of 178 lung squamous cell carcinomas defined the genomic landscape: near-universal CDKN2A loss, TP53 mutation, and frequent KEAP1/NFE2L2 alterations [PMID:22960745](../papers/22960745.md)
 - Pan-NSCLC WES of 660 LUAD and 484 LUSC tumour/normal pairs (nsclc_tcga_broad_2016); LUSC had median somatic mutation rate 9.7/Mb and 20 SMGs; novel LUSC driver RASA1; TP53, CDKN2A, and PIK3CA were significantly more frequently mutated in LUSC than LUAD (p<0.01); LUSC genetic landscape more closely resembled HNSC and BLCA than LUAD; 53% of LUSCs had ≥5 predicted neoepitopes [PMID:27158780](../papers/27158780.md)
 - LUSC had a 97% pre-operative ctDNA detection rate (30/31 cases) in the TRACERx cohort, compared with 19% for LUAD; non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 were independent predictors of ctDNA detection on multivariable logistic regression. [PMID:28445469](../papers/28445469.md)
+- Squamous cell lung cancer comprised 14% (34/240) of the anti-PD-(L)1 NSCLC MSK-IMPACT cohort used to validate targeted NGS-based TMB as an immunotherapy biomarker; LUSC mutational signatures were used as a comparison reference in the vulvar SCC WES landscape study [PMID:29337640](../papers/29337640.md)
+- LUSC mutational signatures (TCGA) were used as a reference comparison cohort in the first whole-exome sequencing landscape of vulvar squamous cell carcinoma; signature profiles were compared across HPV(+) and HPV(-) etiologic subgroups [PMID:29422544](../papers/29422544.md)
 
 ## Subtypes
 
@@ -54,5 +56,9 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:27158780](../papers/27158780.md)
 
 - [PMID:28445469](../papers/28445469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+- [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

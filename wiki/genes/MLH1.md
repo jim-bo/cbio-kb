@@ -40,6 +40,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - DNA-repair PPGM gene enriched in 500-patient MET500 metastatic cancer cohort vs. ExAC controls [PMID:28783718](../papers/28783718.md)
 - MMR gene altered in ~3% of advanced prostate cancer patients; alterations produce a hypermutator phenotype with MMR/MSI signatures, raising potential for immune-checkpoint blockade response [PMID:28825054](../papers/28825054.md)
 - Somatic MLH1 mutation identified as the driver of one of two cohort hypermutators (ICGC_MB265) in 491-sample medulloblastoma genome-wide analysis [PMID:28726821](../papers/28726821.md)
+- Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
 
 ## Cancer types (linked)
 
@@ -123,5 +124,8 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

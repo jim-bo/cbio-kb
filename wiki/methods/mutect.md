@@ -9,7 +9,7 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -57,6 +57,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for somatic SNV calling (MuTect v1.1.4) in 1001 DLBCL whole-exome sequencing samples [PMID:28985567](../papers/28985567.md)
 - Used for SNV calling in 412 BLCA tumor-normal pairs identifying 128,772 SNVs; confirmed APOBEC-dominated mutational landscape (67% of SNVs) [PMID:28988769](../papers/28988769.md)
 - One of four somatic variant callers applied to 68 paired melanoma biopsies in the CA209-038 nivolumab trial; intersection of MuTect 1.1.4, SomaticSniper 1.0.4, VarScan 2.3.7, and Strelka 1.0.13 was used [PMID:29033130](../papers/29033130.md)
+- MuTect used for SNV calling in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) paired tumor/normal WES samples to identify PBRM1 LOF mutations enriched in anti-PD-1 responders [PMID:29301960](../papers/29301960.md)
+- MuTect used for SNV calling in 15 vulvar SCC paired tumor/normal WES samples (Korean cohort) aligned to hg19 with BWA v0.7.15 [PMID:29422544](../papers/29422544.md)
 
 ## Notes
 
@@ -169,3 +171,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

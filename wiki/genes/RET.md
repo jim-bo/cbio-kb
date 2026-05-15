@@ -23,6 +23,8 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - Germline C634 (extracellular) vs somatic M918 (intracellular tyrosine kinase) mutations differentiate hereditary from sporadic PCC/PGL (p < 0.001); RET-mutant tumors overexpress RET (p < 0.003) in a comprehensive multi-omic PCC/PGL study [PMID:28162975](../papers/28162975.md)
 - Fusions in 1.7–3.8% of LUAD patients; level 2A actionability; 53.3% received matched therapy with 72.7% clinical benefit rate; cabozantinib cited as matched agent [PMID:28336552](../papers/28336552.md)
 - Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
+- One NCOA4-RET fusion observed in MSS mCRC in a 1,640-tumor targeted sequencing cohort [PMID:29316426](../papers/29316426.md)
+- Reported at 1% frequency as an actionable driver in NSCLC with too few events for response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -57,5 +59,11 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - [PMID:28336552](../papers/28336552.md)
 
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

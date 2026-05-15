@@ -3,7 +3,7 @@ symbol: JAK2
 aliases: []
 cancer_types: [DLBCLNOS, SKCM]
 tags: [kinase, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - Identified as a marker of the immune-related [ILC](../cancer_types/ILC.md) mRNA subtype in a comprehensive molecular analysis of invasive lobular carcinoma [PMID:26451490](../papers/26451490.md)
 - Recurrent driver in DLBCL (1001-patient cohort) but CRISPR knockout did NOT impair growth, suggesting JAK2 may act in early pathogenesis or via non-targetable functions in established DLBCL; cautions against naive mutation-based targeting. [PMID:28985567](../papers/28985567.md)
 - Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
+- Homozygous loss-of-function JAK2 splice mutation with LOH identified in one NSCLC patient with primary resistance to anti-PD-(L)1 therapy (PD), consistent with interferon-gamma signaling defects; few total events in the 240-patient cohort [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ JAK2 encodes a non-receptor tyrosine kinase central to cytokine signaling; the V
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

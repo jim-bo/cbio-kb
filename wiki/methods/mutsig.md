@@ -5,7 +5,7 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -61,6 +61,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Driver detection tool used alongside GenomeMuSiC and IntOGen to call SMGs across 491 medulloblastoma cases, assigning driver events to 76% of Group 3 and 82% of Group 4 patients [PMID:28726821](../papers/28726821.md)
 - MutSig 2CV applied to 412 BLCA tumors identifying 58 significantly mutated genes (q<0.1); 34 were new vs the prior 131-tumor cohort, including KMT2C (18%), ATM (14%), CREBBP (12%) [PMID:28988769](../papers/28988769.md)
 - MuSiC (Genome MuSiC) and MutSig 2CV applied to 206 TCGA sarcomas identifying only 3 significantly mutated genes (FDR<0.05): TP53, ATRX, RB1 [PMID:29100075](../papers/29100075.md)
+- MutSig2CV identified PBRM1 as the only recurrently mutated gene enriched in anti-PD-1 responders (9/11 vs 3/13 CB vs NCB; p=0.012) in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) WES samples [PMID:29301960](../papers/29301960.md)
+- Applied with MuSiC to identify 47 significantly recurrently mutated genes in 1,027 MSS colorectal adenocarcinomas, including APC (79%), TP53 (78%), KRAS (44%), PIK3CA (18%), and SMAD4 (16%) [PMID:29316426](../papers/29316426.md)
 
 ## Notes
 
@@ -203,3 +205,9 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

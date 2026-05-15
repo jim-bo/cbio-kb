@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -109,6 +109,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Hotspot MAPK-pathway mutations in ~5% of prostate cancer patients across disease states [PMID:28825054](../papers/28825054.md)
 - Recurrently focally amplified SCNA in MIBC (n=412, TCGA BLCA 2017). [PMID:28988769](../papers/28988769.md)
 - Oncogenic alterations in 16% of CIN gastroesophageal cancer tumors; acquired activating co-mutations enriched post-trastuzumab progression (2% pre vs 13% post; associated with intrinsic and acquired trastuzumab resistance). [PMID:29122777](../papers/29122777.md)
+- Mutated in 44% of MSS metastatic CRC; hotspot mutations are OncoKB Level 1 resistance markers for anti-EGFR antibodies; enriched in right-sided primaries; HR=1.40 for OS in multivariate analysis [PMID:29316426](../papers/29316426.md)
+- Mutated in 83 NSCLC patients (34%); KRAS mutation alone did not stratify durable clinical benefit to anti-PD-(L)1 therapy; DCB rate 36%, comparable to overall cohort [PMID:29337640](../papers/29337640.md)
+- Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease; not a qualifying alteration in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md)
+- Referenced from prior targeted-panel literature as a recurrent alteration in HPV(−) vulvar SCC; not specifically identified as a new finding in this WES cohort (N=15) [PMID:29422544](../papers/29422544.md)
 
 ## Cancer types (linked)
 
@@ -388,3 +392,15 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

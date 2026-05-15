@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [HGSOC]
 tags: [immune-evasion, antigen-presentation, MHC-I, interferon-signaling, ovarian-cancer]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # HLA-A
@@ -24,6 +24,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - Significantly mutated in 3% of HNSCC; immune-evasion role; implicated alongside [B2M](../genes/B2M.md) in antigen presentation pathway alterations (7% HPV(-), 11% HPV(+)) [PMID:25631445](../papers/25631445.md)
 - 96 somatic HLA class I (HLA-A/B/C) mutations in 11% of colorectal cancer cases; biased toward exon 4 (TCR-binding domain) and peptide-contact residues in exons 2-3; mutated alleles carry more neoantigens than non-mutated alleles (Wilcoxon p=0.006) [PMID:26997480](../papers/26997480.md)
 - B2M focally deleted in both lung ADC and SqCC, enriched for loss-of-function mutations (Pan-Lung FDR q=0.006); HLA-A/B implicated in MHC-I antigen presentation loss in TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
+- Antigen-presentation gene profiled in OncoPrint alongside JAK1/JAK2/JAK3, POLE, CD274, PTEN, and ATR in a 240-patient NSCLC immunotherapy cohort; targeted panels were noted to lack comprehensive HLA coverage, motivating future panel expansion [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

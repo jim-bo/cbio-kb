@@ -5,8 +5,8 @@ drug_class: irreversible pan-HER TKI
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, erbb2-inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # neratinib
@@ -20,6 +20,7 @@ Neratinib is an irreversible pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - In 177 cervical cancers profiled by MSK-IMPACT, neratinib demonstrated 25% ORR and 7.0-month median PFS in HER2-mutant cervical cancer; [ERBB2](../genes/ERBB2.md) is altered in 28% of unusual endocervical adenocarcinoma (UEA) subtype and 12% overall, making it a likely important therapeutic target in cervical cancer [PMID:37643132](../papers/37643132.md).
 - Bevacizumab was referenced as a prior therapy in the cervical cancer cohort; neratinib represents a HER2-directed alternative with emerging evidence [PMID:37643132](../papers/37643132.md).
 - HER2 resistance context in CCA: HER2 resistance to neratinib was associated with reduction in HER2 copy number and decreased [ERBB2](../genes/ERBB2.md) S310F variant allele frequency in paired tumor/cfDNA analyses [PMID:25526346](../papers/25526346.md)
+- Focus of the SUMMIT basket trial (NCT01953926): 141 patients with ERBB2-mutant (n=125) or ERBB3-mutant (n=16) advanced solid tumours across 21 cancer types; breast cancer met pre-specified efficacy endpoint (ORR8 32%, 95% CI 15-54%); bladder and colorectal cohorts showed lineage-based resistance; response jointly determined by tumour lineage and mutant allele [PMID:29420467](../papers/29420467.md)
 
 ## Resistance mechanisms
 
@@ -37,3 +38,6 @@ Neratinib is an irreversible pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - [PMID:25526346](../papers/25526346.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

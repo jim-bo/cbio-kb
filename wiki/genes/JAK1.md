@@ -3,7 +3,7 @@ symbol: JAK1
 aliases: []
 cancer_types: [UCEC, PRAD, COAD, SKCM]
 tags: [kinase, JAK-STAT, MSI, immunotherapy-resistance, mismatch-repair]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - HD-defined candidate newly identified as linked to immune evasion/immune modulation in breast cancer via combined homozygous deletion and inactivating-mutation evidence [PMID:27161491](../papers/27161491.md)
 - JAK1 K1026E activating mutation identified in pediatric T-cell lymphoblastic lymphoma/leukemia (T-BLL), co-occurring with STAT5B I704L and KRAS V14I as a JAK-inhibitor target [PMID:28007021](../papers/28007021.md).
 - Mutations not associated with resistance to nivolumab in advanced melanoma (CA209-038, n=68), contrary to prior reports linking JAK pathway disruption to IFN-γ-blockade resistance. [PMID:29033130](../papers/29033130.md)
+- Low-frequency loss-of-function events noted alongside JAK2 in a 240-patient NSCLC immunotherapy cohort; one patient with homozygous loss-of-function JAK2 splice mutation had primary resistance (PD), consistent with interferon-gamma signaling defects described in melanoma [PMID:29337640](../papers/29337640.md)
 
 ## Cancer types (linked)
 
@@ -73,3 +74,6 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - [PMID:29033130](../papers/29033130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29337640](../papers/29337640.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

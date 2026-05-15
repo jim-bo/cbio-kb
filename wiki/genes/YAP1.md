@@ -3,8 +3,8 @@ symbol: YAP1
 aliases: [YAP]
 cancer_types: [STAD]
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # YAP1
@@ -20,6 +20,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - Mechanotransducer in gallbladder cancer-associated fibroblasts; nuclear translocation driven by stiff matrix (16 kPa); required for stiffness-induced [SEMA7A](../genes/SEMA7A.md) transcription; YAP1 shRNA or [verteporfin](../drugs/verteporfin.md) abolishes GF activation and [SEMA7A](../genes/SEMA7A.md) secretion. [PMID:24997986](../papers/24997986.md)
 - Co-amplified with [BIRC2](../genes/BIRC2.md) at 11q22 in HPV(-) HNSCC (TCGA, n=279); majority of 11q13-amplified tumours carried large telomeric 11q22 deletions including [ATM](../genes/ATM.md) and CASP1-5-12; inferred selection via BIRC2-FADD-caspase cascade inhibiting cell death [PMID:25631445](../papers/25631445.md)
 - Focal amplification in 1–3 desmoplastic melanoma tumours; IHC confirmed protein-level overexpression [PMID:26343386](../papers/26343386.md)
+- YAP1 is not mutated but accumulates in nuclei of NF2-loss uRCC tumours (26% of cohort); shRNA knockdown of YAP1 in NF2-loss nccRCC lines ACHN and LB996-RCC reduces S- and G2/M-phase cells (P<0.001) and decreases soft-agar colony formation, validating functional dependency. [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -41,13 +42,16 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26343386](../papers/26343386.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

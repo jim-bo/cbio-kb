@@ -8,8 +8,8 @@ tags:
   - chemotherapy
   - cytotoxic
   - pyrimidine-antimetabolite
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # gemcitabine
@@ -29,6 +29,8 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 - Standard first-line therapy for advanced CCA (IHCH/EHCH/CHOL) in combination with [cisplatin](../drugs/cisplatin.md), with [durvalumab](../drugs/durvalumab.md) addition showing incremental benefit; molecular profiling at diagnosis recommended per ESMO guidelines before targeted therapy sequencing [PMID:25526346](../papers/25526346.md)
 - Referenced as part of standard chemotherapy backbones for CCA treatment in the context of novel combination strategies with targeted agents such as [futibatinib](../drugs/futibatinib.md) [PMID:25608663](../papers/25608663.md)
 - Antimetabolite; contraindicated throughout pregnancy (teratogenic) in young-onset NSCLC patients despite being a standard component of first-line NSCLC regimens [PMID:27346245](../papers/27346245.md)
+- [Cisplatin](../drugs/cisplatin.md) + gemcitabine (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); 72 tumors from 32 patients profiled by WES showed only 28.4% shared mutations between matched pre- and post-chemotherapy samples, with gemcitabine-cisplatin driving clonal selection for [L1CAM](../genes/L1CAM.md)/integrin-pathway and APOBEC3A-enriched clones [PMID:27749842](../papers/27749842.md)
+- In the multi-institutional Phase II (Herman et al, n=49), gemcitabine (up to 3 weekly doses) combined with 33 Gy/5 fx SBRT achieved 79% 1-year local control and 13.9-month median OS in unresectable locally advanced [PAAD](../cancer_types/PAAD.md), with only 2% acute and 6% late grade 3+ GI toxicity — the reference standard for SBRT-concurrent chemotherapy in pancreatic cancer [PMID:27826200](../papers/27826200.md)
 
 ## Resistance mechanisms
 
@@ -66,5 +68,7 @@ Gemcitabine (2',2'-difluoro-2'-deoxycytidine, dFdC) is a deoxycytidine analog in
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27346245](../papers/27346245.md)
+- [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WashU UC WES cohort; cisplatin + gemcitabine clonal evolution, APOBEC3A enrichment, and L1CAM/integrin clonal selection.
+- [PMID:27826200](../papers/27826200.md) — Tchelebi et al. 2016, *Semin Radiat Oncol*. SBRT in pancreatic cancer review; gemcitabine + SBRT 33 Gy/5 fx reference regimen (79% local control, 13.9 mo median OS).
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,7 +3,7 @@ symbol: DNMT3A
 aliases: []
 cancer_types: [PTCL, AITL]
 tags: [epigenetic-regulator]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,8 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 - Mentioned in study [PMID:26824661](../papers/26824661.md)
 - Modest q-value as a significantly mutated gene in lung ADC; recurrent AKT1 p.E17K and CDK4 p.R24L mutations observed in the same cohort [PMID:27158780](../papers/27158780.md)
 - DNMT3A identified as a frequent founding-clone driver in AML (n=1,540); modifies the prognostic effect of FLT3-ITD, NRAS G12/13, IDH2 R140, and RAD21 mutations; included in the authors' recommended prognostic panel [PMID:27276561](../papers/27276561.md)
+- Mutated in 5% of unclassified renal cell carcinoma (uRCC) cases in a 62-case MSKCC MSK-IMPACT cohort [PMID:27713405](../papers/27713405.md)
+- Frequently mutated in AML/MDS; persisted in remission in some patients after 10-day decitabine cycles, appearing in nonleukemic rising clones consistent with clonal hematopoiesis of indeterminate potential; did not predict decitabine response [PMID:27959731](../papers/27959731.md)
 
 ## Cancer types (linked)
 
@@ -66,5 +68,11 @@ DNMT3A encodes a de novo DNA methyltransferase and is a recurrently mutated epig
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

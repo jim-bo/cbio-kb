@@ -18,8 +18,8 @@ tags:
   - cholangiocarcinoma
   - gastric-cancer
   - mismatch-repair
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TGFBR2
@@ -41,6 +41,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor Type 2) encodes the type II rec
 - Sporadic inactivating mutations and deletions reported in HNSCC, primarily oral-cavity tumours, in a TCGA comprehensive genomic characterisation of 279 HPV(+) and HPV(−) cases [PMID:25631445](../papers/25631445.md)
 - TGF-β-axis alteration in pancreatic ductal adenocarcinoma, part of broader TGF-β pathway disruption (alongside [TGFBR1](../genes/TGFBR1.md), [TGFB1](../genes/TGFB1.md), [ACVR1B](../genes/ACVR1B.md), [ACVR1C](../genes/ACVR1C.md), [SMAD3](../genes/SMAD3.md), [SMAD6](../genes/SMAD6.md)) augmenting [SMAD4](../genes/SMAD4.md) loss. [PMID:25855536](../papers/25855536.md)
 - TGFBR2 more frequently mutated in duodenal adenocarcinoma (DUOAC); 5/12 TGFBR2 mutations targeted an A8 homopolymer MSI hotspot; ELF3 transactivates TGFBR2, suggesting ELF3 loss may suppress TGF-β tumor-suppressor signaling [PMID:26804919](../papers/26804919.md)
+- High TGF-betaR2 (TGFBR2) expression, in combination with SMAD4 expression and TGFB1 plasma levels, is correlated with poor outcomes in pancreatic cancer (PAAD); cited as a TGF-beta/SMAD pathway biomarker candidate for patient stratification in cooperative-group SBRT trials. [PMID:27826200](../papers/27826200.md)
 
 ## Cancer types (linked)
 
@@ -65,34 +66,37 @@ No direct TGFBR2-targeted therapies are reported in the current corpus. The broa
 
 - [PMID:39214094](../papers/39214094.md) — McIntyre et al. (2024). "Distinct clinical outcomes and biological features of specific [KRAS](../genes/KRAS.md) mutants in human pancreatic cancer." *Cancer Cell*. MSK PDAC resected cohort (n=1,360 patients; n=397 sequenced with MSK-IMPACT).
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24185509](../papers/24185509.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24997986](../papers/24997986.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27826200](../papers/27826200.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

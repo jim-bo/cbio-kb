@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [BRCA]
 tags: [deletion, tumor-suppressor, breast-cancer, CDKN2A-locus]
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # MTAP
@@ -16,6 +16,7 @@ MTAP (Methylthioadenosine Phosphorylase) is a metabolic enzyme involved in the m
 ## Alterations observed in the corpus
 
 - MTAP deletions frequently co-occur with CDKN2A and CDKN2B loss at the 9p21 locus across multiple cancer types; confirmed in the breast cancer METABRIC cohort (~2,000 tumors) by integrated CNA-expression analysis [PMID:22522925](../papers/22522925.md)
+- Co-deleted with CDKN2A and CDKN2B at 9p21 in urothelial carcinoma (UC); in patient WCM117, CDKN2A/MTAP deletion progressed from sub-clonal heterozygous in the primary to clonal homozygous in distant metastases (FISH-confirmed) [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ MTAP (Methylthioadenosine Phosphorylase) is a metabolic enzyme involved in the m
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

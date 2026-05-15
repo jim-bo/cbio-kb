@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -48,6 +48,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - FISH used to validate MYB rearrangements and characterize the spectrum of structural variants in adenoid cystic carcinoma tumors and primagrafts [PMID:26829750](../papers/26829750.md)
 - FISH used to verify CYLD focal deletion in CRPC-NE samples; confirmed deletion in 51% of CRPC-NE metastatic biopsies with concordant mRNA downregulation [PMID:26855148](../papers/26855148.md)
 - FISH used on 53 tumors from 13 men to assess TMPRSS2-ERG fusion status; found 100% intra-individual concordance for TMPRSS2-ERG status across metastatic sites in mCRPC. [PMID:26928463](../papers/26928463.md)
+- Used with custom three-probe NF2/22q11/Cen10 assay and ALK break-apart probes to confirm NF2 22q hemizygous loss and TPM3-ALK fusion in uRCC tumours. [PMID:27713405](../papers/27713405.md)
+- Used to confirm sub-clonal to clonal progression of CDKN2A deletion (from heterozygous in the primary to homozygous in distant metastases) in the WCM117 rapid-autopsy urothelial carcinoma case. [PMID:27749842](../papers/27749842.md)
+- Used to validate IGH-DUX4 rearrangements and ERG deletions in the DUX4/ERG B-ALL subtype in cell lines and patient-derived xenografts; DUX4 rearrangement is not detectable by conventional FISH due to repetitive subtelomeric DUX4 locus. [PMID:27776115](../papers/27776115.md)
 
 ## Notes
 
@@ -137,5 +140,14 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

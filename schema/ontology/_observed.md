@@ -414,4 +414,23 @@
 - drug: bleomycin — observed in PMID:27646943 — note: glycopeptide antibiotic; BEP component in first-line GCT therapy (37.2% of N=180); not in drugs ontology
 - drug: ifosfamide — observed in PMID:27646943 — note: alkylating agent; TIP/VIP salvage regimens in GCT (20% of N=180); not in drugs ontology
 - drug: pemetrexed — observed in PMID:27346245 — note: multitargeted antifolate; teratogenic and contraindicated in pregnancy in young-onset NSCLC; not in drugs ontology
+- method: oncoscan-snp-array — observed in PMID:27713405 — note: Affymetrix OncoScan FFPE SNP array for genome-wide CN/LOH; used on 15/16 NF2-loss uRCC cases; not in cBioPortal gene panels ontology
+- method: exact-1 — observed in PMID:27749842 — note: CLIA-grade whole-exome sequencing assay (Agilent HaloPlex, 21,522 genes, 85x mean coverage) developed at Weill Cornell Medicine; not in cBioPortal gene panels ontology
+- method: n250-targeted-panel — observed in PMID:27749842 — note: 250 cancer-gene targeted panel (NimbleGen SeqCap EZ Choice, 400x mean coverage) used as orthogonal WES validation; not in cBioPortal gene panels ontology
+- method: stereotactic-body-radiation-therapy — observed in PMID:27826200 — note: image-guided conformal high-dose hypofractionated radiation (1–5 fractions) for locally advanced pancreatic cancer; not a molecular assay
+- method: intensity-modulated-radiotherapy — observed in PMID:27826200 — note: IMRT planning and delivery for pancreatic SBRT; used as planning modality in linac-based SBRT; not a molecular assay
+- method: cyberknife — observed in PMID:27826200 — note: Accuray robotic radiosurgery system for frameless SBRT with real-time fiducial tracking; not a molecular assay
+- method: linac-sbrt — observed in PMID:27826200 — note: linac-based SBRT delivery for pancreatic cancer using IMRT/VMAT planning and CBCT-IGRT; not a molecular assay
+- method: proton-beam-therapy — observed in PMID:27826200 — note: proton SBRT for neoadjuvant pancreatic cancer (Harvard Phase I/II, 25 Gy/5 fx + capecitabine); not a molecular assay
+- method: four-dimensional-ct-simulation — observed in PMID:27826200 — note: 4D-CT for respiratory motion characterisation in pancreatic SBRT planning; not a molecular assay
+- method: endoscopic-fiducial-placement — observed in PMID:27826200 — note: EUS-guided gold fiducial implantation for image-guided pancreatic SBRT tumour tracking; not a molecular assay
+- method: cone-beam-ct-igrt — observed in PMID:27826200 — note: CBCT-based daily image-guided radiotherapy for positional verification in pancreatic SBRT; not a molecular assay
+- method: aml-264-gene-panel — observed in PMID:27959731 — note: enhanced WES with supplemental probes for 264 AML genes (NimbleGen v3 + custom capture, Illumina HiSeq); not in cBioPortal gene panels ontology
+- method: aml-8-gene-ampliseq-panel — observed in PMID:27959731 — note: Ion AmpliSeq panel covering TP53, DNMT3A, IDH1, IDH2, ASXL1, SRSF2, U2AF1, SF3B1 for serial AML clonal monitoring; not in cBioPortal gene panels ontology
 - method: genome-wide-association-study — observed in PMID:27346245 — note: GWAS for gene-environment interactions in young-onset NSCLC; review notes sparse GWAS in non-Caucasian populations; corpus-grown slug
+- drug: decitabine — observed in PMID:27959731 — note: hypomethylating agent; 10-day dosing (20 mg/m²/day) in AML/MDS; TP53-mutant AML 100% response rate; approved for MDS; corpus-grown slug (not confirmed in OncoKB drugs list)
+- drug: azacitidine — observed in PMID:27959731 — note: hypomethylating agent (HMA); parallel to decitabine; approved for MDS and AML; corpus-grown slug (not confirmed in OncoKB drugs list)
+- drug: busulfan — observed in PMID:27959731 — note: alkylating agent; Bu/Cy or Bu/Flu myeloablative conditioning for allo-SCT in AML/MDS; corpus-grown slug
+- drug: melphalan — observed in PMID:27959731 — note: nitrogen mustard alkylating agent; RIC/myeloablative conditioning for allo-SCT in AML/MDS; corpus-grown slug
+- drug: cladribine — observed in PMID:27959731 — note: purine analog; CLAG/CLAG-M salvage induction in relapsed AML; corpus-grown slug
+- drug: daunorubicin — observed in PMID:27959731 — note: anthracycline; 7+3 induction backbone in AML (daunorubicin + cytarabine); TP53-mutant AML yields only 4–6-month OS on 7+3; corpus-grown slug

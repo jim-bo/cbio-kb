@@ -10,7 +10,7 @@ tags:
   - whole-exome-seq
   - whole-genome-seq
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # MuTect
@@ -47,6 +47,8 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used for SNV calling in 619 CRC FFPE tumor/normal pairs alongside Indelocator (indels) and Strelka (concordant indel filtering) [PMID:27149842](../papers/27149842.md)
 - Used for somatic mutation calling in 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal exome pairs in the pan-lung landscape study [PMID:27158780](../papers/27158780.md)
 - Used (panel-of-normals filtering analogous to MuTect) for somatic mutation calling in 2,433 primary breast tumours from the METABRIC cohort targeted-sequencing study [PMID:27161491](../papers/27161491.md)
+- Used for SNV calling in 62 uRCC tumours profiled with the MSK-IMPACT 230-gene panel (matched normal available in 61/62 cases). [PMID:27713405](../papers/27713405.md)
+- SNV calling pipeline applied alongside SNVseeqer on 72 urothelial carcinoma WES samples; only ~28% of mutations were shared between matched pre/post-chemotherapy tumour pairs. [PMID:27749842](../papers/27749842.md)
 
 ## Notes
 
@@ -122,10 +124,16 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

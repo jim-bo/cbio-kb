@@ -35,6 +35,7 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - Co-listed with CMTR2/FTSJD1 and [SNRPD3](../genes/SNRPD3.md) as recurrently mutated splicing factors in lung ADC, in a 1,144-NSCLC exome-sequencing cohort [PMID:27158780](../papers/27158780.md).
 - Recurrent K700E mutation in 3.5% of ER+ breast tumours (ONC=52%); linked to differential splicing; associated with older age at diagnosis (OR=4.5) and mutually exclusive with [TP53](../genes/TP53.md) (OR=0.049) in the 2,433-tumour METABRIC cohort [PMID:27161491](../papers/27161491.md).
 - Splicing factor mutation; part of the chromatin-spliceosome subgroup in AML (n=1,540); co-occurs with ASXL1, SRSF2, U2AF1, and ZRSR2 as an adverse-risk cluster [PMID:27276561](../papers/27276561.md)
+- Alongside TP53, the only gene whose mutations consistently declined to VAF <5% during 10-day decitabine therapy in AML/MDS patients (N=116 combined cohort); included in both the 264-gene enhanced exome and the 8-gene AmpliSeq panel used on this trial. [PMID:27959731](../papers/27959731.md)
 
 ## Cancer types (linked)
 
@@ -58,43 +59,43 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 - [PMID:35927489](../papers/35927489.md)
 - [PMID:38758238](../papers/38758238.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:21909114](../papers/21909114.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22158541](../papers/22158541.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22722201](../papers/22722201.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23000897](../papers/23000897.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23415222](../papers/23415222.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23778141](../papers/23778141.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24325359](../papers/24325359.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26095796](../papers/26095796.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
@@ -111,5 +112,8 @@ SF3B1 is a core splicing factor recurrently mutated in hematologic malignancies.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27959731](../papers/27959731.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

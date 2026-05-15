@@ -3,8 +3,8 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # KMT2C
@@ -41,6 +41,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - KMT2C, together with KMT2A, KMT2D, and SETD2, are histone methyltransferases mutated collectively in 24% of ATC vs 7% of PDTC (P = 0.02) in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - Significantly mutated methyltransferase (MLL3) in lung ADC in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 - Mutated in 11.4% of breast cancers (ER+ TSG-driver); often subclonal in IntClust1, more clonal in IntClust8; associated with lower grade in a 2,433-sample targeted sequencing study [PMID:27161491](../papers/27161491.md)
+- Mutated in ~10% of unclassified renal cell carcinoma (uRCC, n=62); one of the most frequent chromatin-modulator alterations alongside KMT2D and KMT2A; KMT2A/C/D combined represent 16% of the cohort; cases cluster in the chromatin/DNA-damage regulator subgroup. [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -122,19 +123,22 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26551667](../papers/26551667.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26862087](../papers/26862087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

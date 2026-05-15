@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [sequencing, chromatin, epigenomics]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -21,6 +21,7 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 - Performed for H3K27ac, H3K4me1, H3K4me3, H3K36me3, H3K9me3, and H3K27me3 in three TERT-rearranged neuroblastoma tumours and cell lines, demonstrating enhancer-hijacking mechanism: rearrangements juxtapose [TERT](../genes/TERT.md) to super-enhancer clusters, spreading active chromatin marks and displacing H3K27me3 repression [PMID:26466568](../papers/26466568.md)
 - ChIP-seq for H3K4me3, H3K27ac, BRD4, MYB, and TP63 used to map chromatin landscapes and super-enhancer locations in 13 ACCs (5 primary + 8 primagrafts); identified translocated super-enhancers as drivers of MYB overexpression [PMID:26829750](../papers/26829750.md)
 - H3K27me3 ChIP-Seq on 35 MRTs vs normals identified 158 promoters with decreased H3K27me3 enriched for homeobox/HOX terms (FDR 4.17e-44 to 1.67e-37); H3K27ac ChIP-Seq on 10 MRTs identified 136 MRT-specific super-enhancers at HOX clusters, HISTH1, HISTH2, FLT3LG, and STAT3. [PMID:26977886](../papers/26977886.md)
+- DUX4 ChIP-seq in NALM-6 and Reh cells confirmed direct DUX4 binding at ERG exon 6 alt and other non-canonical transcription start sites deregulated in DUX4/ERG B-ALL. [PMID:27776115](../papers/27776115.md)
 
 ## Notes
 
@@ -37,5 +38,8 @@ Chromatin immunoprecipitation followed by next-generation sequencing (ChIP-seq);
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26977886](../papers/26977886.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

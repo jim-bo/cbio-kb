@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -98,6 +98,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A was significantly mutated in both lung ADC and SqCC; significantly more frequently mutated in SqCC than ADC (p<0.01, Fisher's exact); one of only six genes significantly mutated in both NSCLC histologies [PMID:27158780](../papers/27158780.md).
 - CDKN2A homozygous deletions found in 53/2,087 breast tumors (most common HD target); confirmed as Mut-driver TSG in both ER+ and ER- breast cancer; identified among 40 Mut-driver genes in the METABRIC 2,433-tumor cohort [PMID:27161491](../papers/27161491.md).
 - CDKN2A mutation/deletion in 37% of HPV-negative versus 5% of HPV-positive recurrent/metastatic head and neck squamous cell carcinoma [PMID:27442865](../papers/27442865.md)
+- 9p21 codeletion (with [CDKN2B](../genes/CDKN2B.md) and [MTAP](../genes/MTAP.md)) defines CN Cluster A in urothelial carcinoma; in patient WCM117, CDKN2A progressed from sub-clonal heterozygous deletion in the primary to clonal homozygous deletion in distant metastases (FISH-confirmed) [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -292,3 +293,6 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

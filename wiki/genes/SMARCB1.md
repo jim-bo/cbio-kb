@@ -22,6 +22,7 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 - SWI/SNF subunit mutated in 36% of ATC vs 6% of PDTC (P = 1×10⁻⁴) in thyroid cancer; mutations generally mutually exclusive within the SWI/SNF complex [PMID:26878173](../papers/26878173.md)
 - Biallelic inactivation (mutations, deletions, somatic LOH) in 39/40 extra-cranial MRT cases; the dominant driver; loss associated with downstream loss of H3K27me3 at homeobox promoters and gain of MRT-specific super-enhancers at HOX clusters [PMID:26977886](../papers/26977886.md)
 - Deletion in recurrent/metastatic head and neck cancer; loss of SMARCB1 led to enrollment on an EZH2 inhibitor trial within a genomics-driven basket study [PMID:27442865](../papers/27442865.md)
+- Mutated in 3 uRCC tumours (T23, T38, T41, ~5%) but all retained INI1 expression by IHC, distinguishing these cases from renal medullary carcinoma; tumours assigned to mTORC1, NF2-loss and FH-deficient subsets respectively. [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -45,10 +46,10 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 - [PMID:34433969](../papers/34433969.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36577525](../papers/36577525.md)
 
-*This page was processed by **wiki-cli** on **2026-05-05**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
@@ -59,5 +60,8 @@ SMARCB1 (INI1/SNF5) is a core subunit of the SWI/SNF chromatin remodeling comple
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

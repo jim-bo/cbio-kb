@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [methylation, dna-methylation, illumina, infinium]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Illumina Infinium HumanMethylation450 BeadChip (HM450)
@@ -28,6 +28,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Profiled 39 primary neuroblastomas to characterize chromatin state at the [TERT](../genes/TERT.md) locus; CpG methylation increased in rearranged and MYCN-amplified tumors, particularly at a CpG near the [TERT](../genes/TERT.md) core promoter linked to disabled repression [PMID:26466568](../papers/26466568.md)
 - Profiled DNA methylation in 333 primary prostate adenocarcinomas (TCGA); identified four epigenetic clusters and a CIMP-like [IDH1](../genes/IDH1.md) R132-mutant subgroup with greater genome-wide hypermethylation than IDH1-mutant [GBM](../cancer_types/GBM.md) or [AML](../cancer_types/AML.md) [PMID:26544944](../papers/26544944.md).
 - Used for DNA methylation profiling of 516 LGG and 129 GBM samples in the TCGA pan-glioma study; merged with HM27 data to define six pan-glioma methylation clusters (LGm1–6); methylation subtype was an independent prognostic predictor (C-index 0.836 with age + grade) [PMID:26824661](../papers/26824661.md)
+- Illumina HumanMethylation450 BeadChip applied on day 0 and day 10 of cycle 1 in AML/MDS patients on decitabine; global CpG methylcytosine reduction was similar between responders and non-responders and not predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
 
 ## Notes
 
@@ -67,4 +68,7 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

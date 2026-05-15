@@ -10,7 +10,7 @@ tags:
   - PI3K_pathway
   - drug_target
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MTOR
@@ -36,6 +36,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - Rare activating mutations contributing to PI3K-pathway aberration in prostate adenocarcinoma in the TCGA cohort (n=333) [PMID:26544944](../papers/26544944.md)
 - MTOR is part of the PI3K/AKT/mTOR pathway disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³); pathway disruption includes PIK3CA, PTEN, AKT3, TSC1, TSC2, and MTOR alterations; supports use of mTOR inhibitors in ATC [PMID:26878173](../papers/26878173.md)
 - PI3K/mTOR pathway event in cisplatin-resistant GCT; mTOR inhibitors listed as targeted therapy candidates for PI3K-pathway alterations in cisplatin-resistant patients [PMID:27646943](../papers/27646943.md)
+- Missense mutations in 8% of unclassified RCC (uRCC); recurrent L2427R (×3) is functionally activating; co-occurs with TSC1/TSC2/PTEN alterations defining a mutually exclusive mTORC1-hyperactive uRCC subset responsive to mTOR inhibitors [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -99,5 +100,8 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

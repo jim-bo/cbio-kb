@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, NSCLC, ATC, EGC, HNSC]
 tags: [rtk, metastasis, resistance, amplification]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MET
@@ -46,6 +46,7 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 - MET significantly mutated exclusively in lung adenocarcinoma vs other TCGA tumor types (q<0.1); MET-CAPZA2 novel fusion and KIF5B-MET previously reported fusion identified; MET and ERBB2 high-level amplifications enriched in tumors lacking other RTK/Ras/Raf activating events (p<0.01) [PMID:27158780](../papers/27158780.md)
 - Lower frequency in young lung cancer (YLC) patients; MET exon 14 skipping is age-skewed: 0.72% (≤50 yrs), 1.1% (51–69 yrs), 3.25% (>70 yrs); pivotal tepotinib and capmatinib trials enrolled patients up to 74 years old [PMID:27346245](../papers/27346245.md)
 - Alteration contributing to the actionable alteration list in recurrent/metastatic head and neck cancers, alongside MAX, MCL1, KDR, and MYCN [PMID:27442865](../papers/27442865.md)
+- Harbors H1094Y pathogenic missense mutation in a single unclassified RCC (uRCC) case (T62), suggesting overlap with papillary RCC and providing a candidate MET-directed therapeutic target [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -150,5 +151,8 @@ MET is a receptor tyrosine kinase and an established actionable driver in [LUAD]
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

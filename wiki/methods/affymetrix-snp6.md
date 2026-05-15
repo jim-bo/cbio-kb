@@ -6,7 +6,7 @@ canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Affymetrix SNP 6.0
@@ -58,6 +58,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - Applied for copy-number alteration profiling in 333 primary prostate adenocarcinomas in the TCGA molecular taxonomy study; focal SCNAs identified with GISTIC 2.0 [PMID:26544944](../papers/26544944.md).
 - Used for DNA copy-number profiling in the TCGA pan-glioma study (n=1,084 samples); copy-number data from SNP6 arrays combined with exome and RNA-seq data for integrated pathway alteration analysis [PMID:26824661](../papers/26824661.md)
 - Affymetrix SNP 6.0 array used for copy-number profiling of 1,144 NSCLC (660 ADC + 484 SqCC) tumor/normal pairs; GISTIC2.0 applied to identify recurrent SCNAs [PMID:27158780](../papers/27158780.md)
+- Affymetrix SNP 6.0 copy-number profiling applied to all 1,913 B-ALL cases to detect focal ERG deletions (55.6% of DUX4/ERG subtype) and other copy-number alterations. [PMID:27776115](../papers/27776115.md)
 
 ## Notes
 
@@ -175,16 +176,19 @@ A high-density microarray platform used for detecting DNA copy number variations
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26168399](../papers/26168399.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26451490](../papers/26451490.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [ihc, pathology, protein-expression, diagnostic]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # Immunohistochemistry (IHC)
@@ -36,6 +36,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC for AR, synaptophysin, chromogranin A, CD56, EZH2, and MMR proteins used to classify 114 metastatic CRPC biopsies as adenocarcinoma or neuroendocrine histology [PMID:26855148](../papers/26855148.md)
 - IHC used to assess AR, GR (NR3C1), ER alpha/beta (ESR1), chromogranin A, and Ki-67 across 176 mCRPC tumors; CCP score correlated with Ki-67 by IHC (r=0.48, P<0.005). IHC staining for E-cadherin (CDH1) showed loss in all 31 plasmacytoid bladder tumors and retention in adjacent in situ components. [PMID:26928463](../papers/26928463.md)
 - Used on TMAs to quantify CD3+, CD8+, CD45RO+, and FOXP3+ T cell densities in 299 CRC samples; CD45RO+ memory T cell density most strongly correlated with neoantigen load [PMID:27149842](../papers/27149842.md)
+- Panel of NF2, YAP/TAZ, p-YAP, p-S6, p-4EBP1, FH, 2SC (succination), H3K36me3, and INI1 IHC used to validate molecular subset assignments in 62 uRCC tumours. [PMID:27713405](../papers/27713405.md)
 
 ## Notes
 
@@ -92,4 +93,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

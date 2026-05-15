@@ -10,8 +10,8 @@ tags:
   - chemoradiation
   - hnscc
   - standard-of-care
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # cisplatin
@@ -47,6 +47,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - Platinum chemotherapy; usable from second trimester in pregnant young-onset NSCLC patients; review notes TKIs and immunotherapy are contraindicated in pregnancy whereas platinum-based regimens are acceptable from T2 [PMID:27346245](../papers/27346245.md)
 - In head and neck cancer, germline FANCA deletion plus somatic FANCA stopgain in one HNSC patient identified as potential cisplatin-sensitivity biomarker by MSK-IMPACT profiling (N=151 advanced tumors) [PMID:27442865](../papers/27442865.md)
 - First-line platinum backbone in BEP (bleomycin+etoposide+cisplatin, 37.2%), EP (42.2%), and TIP/VIP (20%) regimens in 180 advanced GCT patients; TP53 alterations exclusive to cisplatin-resistant tumors (16.3% vs 0%; P<.001); nutlin-3 showed antiproliferative synergy with cisplatin in TP53 wild-type cisplatin-resistant GCT cell lines [PMID:27646943](../papers/27646943.md)
+- Cisplatin + [gemcitabine](../drugs/gemcitabine.md) (neoadjuvant/first-line) administered in the WashU urothelial carcinoma WES cohort (n=32 patients, 72 tumors); post-chemotherapy tumors showed clonal enrichment of [L1CAM](../genes/L1CAM.md) and integrin-signaling missense mutations, an APOBEC3A-dominant mutational signature, and selective elimination of [ATM](../genes/ATM.md)/[RB1](../genes/RB1.md)/[FANCC](../genes/FANCC.md)-altered clones (73.3% pre- vs 37.9% post-chemotherapy, p=0.05); cisplatin specifically drove a C>A mutational signature consistent with its known adduct-forming mechanism [PMID:27749842](../papers/27749842.md)
 
 ## Resistance mechanisms
 
@@ -57,7 +58,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [HNSC](../cancer_types/HNSC.md) — head and neck squamous cell carcinoma; standard concurrent CRT agent; GenRad comparator arm.
 - [CESC](../cancer_types/CESC.md) — cervical cancer; concurrent CRT backbone in the METEOR cohort.
 - [ESCA](../cancer_types/ESCA.md), [STAD](../cancer_types/STAD.md) — HER2+ esophageal/gastric cancer; preclinical comparator context.
-- [BLCA](../cancer_types/BLCA.md) — metastatic urothelial carcinoma; CALGB 90601 backbone cisplatin-based chemotherapy; DDR alteration predictive value not confirmed (underpowered).
+- [BLCA](../cancer_types/BLCA.md) — metastatic urothelial carcinoma; CALGB 90601 backbone cisplatin-based chemotherapy; DDR alteration predictive value not confirmed (underpowered). WashU WES cohort (n=32): cisplatin + [gemcitabine](../drugs/gemcitabine.md) reshapes clonal architecture and drives APOBEC mutagenesis.
 - [OS](../cancer_types/OS.md) — osteosarcoma; MAP regimen component; organoid viability correlated with post-resection necrosis.
 
 ## Sources
@@ -116,5 +117,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27646943](../papers/27646943.md)
+- [PMID:27749842](../papers/27749842.md) — Faltas et al. 2016, *Nature Genetics*. WES of 72 UC tumors (32 patients); cisplatin + gemcitabine clonal evolution study; APOBEC3A enrichment and L1CAM/integrin clonal enrichment post-chemotherapy.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

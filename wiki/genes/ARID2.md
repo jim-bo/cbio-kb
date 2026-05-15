@@ -42,6 +42,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 - Newly nominated glioma driver (n=20 mutations) in a pan-glioma WGS/WES cohort of 1,122 diffuse gliomas; classified as a chromatin-modification gene [PMID:26824661](../papers/26824661.md)
 - ARID2, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); mutations generally mutually exclusive within the complex [PMID:26878173](../papers/26878173.md)
 - Inactivating mutations identified in lung adenocarcinoma by pan-lung WES (TCGA); part of the SWI/SNF chromatin-remodeling complex altered in NSCLC [PMID:27158780](../papers/27158780.md)
+- ARID2 among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations present in 56.3% of cases overall) [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -120,5 +121,7 @@ ARID2 (AT-Rich Interaction Domain 2) is a subunit of the PBAF (polybromo BRG1-as
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
+
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

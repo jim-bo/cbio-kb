@@ -3,8 +3,8 @@ symbol: TGFB1
 aliases: ["TGF-beta-1", "TGF-beta1"]
 cancer_types: ["CCA"]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TGFB1
@@ -17,6 +17,7 @@ TGFB1 (Transforming Growth Factor Beta 1) is a pleiotropic cytokine with dual ro
 
 - Pro-inflammatory cytokine measured as a vancomycin-responsive immunomodulatory marker in the NCT03710122 trial context of cholangiocarcinoma/PSC; reviewed as part of gut-microbiota–bile-acid–immune signalling crosstalk [PMID:25608663](../papers/25608663.md)
 - TGF-β-axis alteration in pancreatic ductal adenocarcinoma, part of broader TGF-β pathway disruption (alongside [TGFBR1](../genes/TGFBR1.md), [TGFBR2](../genes/TGFBR2.md), [ACVR1B](../genes/ACVR1B.md), [ACVR1C](../genes/ACVR1C.md), [SMAD3](../genes/SMAD3.md), [SMAD6](../genes/SMAD6.md)) augmenting [SMAD4](../genes/SMAD4.md) loss. [PMID:25855536](../papers/25855536.md)
+- High TGF-beta1 (TGFB1) plasma levels correlate with poor outcomes in pancreatic cancer (PAAD); along with TGFBR2/SMAD4 expression and SMAD4 SNP rs11354983, TGFB1 is highlighted as a candidate biomarker for stratifying patients who may benefit from intensified local SBRT therapy. [PMID:27826200](../papers/27826200.md)
 
 ## Cancer types (linked)
 
@@ -38,7 +39,10 @@ TGFB1 (Transforming Growth Factor Beta 1) is a pleiotropic cytokine with dual ro
 
 - [PMID:25608663](../papers/25608663.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27826200](../papers/27826200.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

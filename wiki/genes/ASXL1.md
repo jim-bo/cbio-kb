@@ -3,7 +3,7 @@ symbol: ASXL1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - Somatic variants in 13/12 patients across [MPN](../cancer_types/MPN.md) subtypes (PV/ET/MF); co-mutated with splicing factors [U2AF1](../genes/U2AF1.md) and [SRSF2](../genes/SRSF2.md) in a pattern echoing [MDS](../cancer_types/MDS.md) [PMID:24325359](../papers/24325359.md)
 - ASXL1 identified as a chromatin modification driver in CLL in a 538-sample WES study; classified in the chromatin modification pathway alongside [BAZ2B](../genes/BAZ2B.md) and [IKZF3](../genes/IKZF3.md) [PMID:26466571](../papers/26466571.md)
 - ASXL1: early epigenetic driver in chromatin-spliceosome AML subgroup; independent adverse prognostic effect with additive interaction with SRSF2 [PMID:27276561](../papers/27276561.md)
+- ASXL1 mutations included in the 8-gene amplicon panel and observed in the AML/MDS cohort treated with 10-day decitabine cycles; not reported as a predictor of decitabine response [PMID:27959731](../papers/27959731.md)
 
 ## Cancer types (linked)
 
@@ -69,4 +70,6 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

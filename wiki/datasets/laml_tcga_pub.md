@@ -44,6 +44,7 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 ## Papers using this cohort
 
 - [PMID:23634996](../papers/23634996.md) — The Cancer Genome Atlas Research Network, "Genomic and Epigenomic Landscapes of Adult De Novo Acute Myeloid Leukemia," *N Engl J Med* 2013.
+- [PMID:27959731](../papers/27959731.md) — Welch et al., *N Engl J Med* 2016: Used as comparator to benchmark TP53 mutation spectrum and methylation patterns from the WashU decitabine trial (mnm_washu_2016); no TP53-driven methylation signature identifiable in either dataset.
 
 ## Notable findings derived from this cohort
 
@@ -54,6 +55,7 @@ The Cancer Genome Atlas comprehensive genomic and epigenomic characterization of
 - Deep digital sequencing enabled VAF-based clonal architecture reconstruction: >50% of WGS tumors had a founding clone plus ≥1 subclone; minimal aneuploidy (median 1 somatic SCNV per genome) and no chromothripsis. [PMID:23634996](../papers/23634996.md)
 - 118 gene fusions identified in 80/179 samples by de novo RNA-seq assembly; recurrent in-frame fusions included [PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), and [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md). [PMID:23634996](../papers/23634996.md)
 - Used as an independent validation cohort to replicate 11 AML genomic subgroups (chromatin–spliceosome, TP53–aneuploidy, IDH2 R172, etc.) identified in 1540 AMLSG trial patients; subgroup structure and prognostic associations were confirmed in this TCGA AML dataset. [PMID:27276561](../papers/27276561.md)
+- TP53 mutation spectrum (missense-dominant, hotspot distribution) in the WashU decitabine trial cohort was indistinguishable from that in this TCGA AML dataset; no TP53-driven CpG methylation signature was detectable in either cohort, arguing against a methylation-based mechanism for TP53-decitabine sensitivity. [PMID:27959731](../papers/27959731.md)
 
 ## Sources
 

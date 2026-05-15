@@ -9,8 +9,8 @@ tags:
   - hypoxia
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
 ---
@@ -29,6 +29,7 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Biallelic conditional inactivation (Vhl-null mouse model) is the central perturbation mimicking the truncal event in human ccRCC; VHL loss stabilizes both [HIF1A](../genes/HIF1A.md) and HIF2A, with HIF1A driving anti-survival effects in renal papilla and HIF2A driving dedifferentiation/proliferation in cortical proximal tubule cells [PMID:23797736](../papers/23797736.md)
 - VHL somatic mutation was present in 9/10 ccRCC tumors; the remaining case was silenced by promoter methylation. VHL loss is truncal in all 10 tumors and confirmed as the founding driver event together with chromosome 3p loss [PMID:24487277](../papers/24487277.md)
 - VHL referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
+- Only 1/62 uRCC cases (T08) carried a VHL mutation; the near-absence of VHL alteration despite frequent 3p loss distinguishes unclassified high-grade RCC from clear-cell RCC (where VHL is altered in ~75%). [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -51,16 +52,19 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23797736](../papers/23797736.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24487277](../papers/24487277.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
 
-*This page was processed by **wiki-cli** on **2026-05-12**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

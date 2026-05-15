@@ -23,6 +23,7 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - TCGA WGS/WES of 200 adult de novo AML cases identified 23 significantly mutated genes (FDR <0.05 by MuSiC); near-universal driver coverage: transcription-factor fusions (18%), [NPM1](../genes/NPM1.md) (27%), tumor suppressors (16%), DNA-methylation genes (44%), activated signaling (59%), chromatin modifiers (30%), myeloid transcription factors (22%), cohesin complex (13%), spliceosome (14%); a novel NPM1 + [DNMT3A](../genes/DNMT3A.md) + [FLT3](../genes/FLT3.md) co-occurring triplet defined a putative epigenetic AML subtype with distinct mRNA, miRNA, and CpG-sparse methylation signatures [PMID:23634996](../papers/23634996.md)
 - In a Sanger sequencing screen of 1,345 hematologic cancers for [CALR](../genes/CALR.md) exon 9 mutations, AML cases showed no CALR mutations, confirming that CALR indels are restricted to the MPN/MDS disease spectrum and are absent from acute myeloid leukemia. [PMID:24325359](../papers/24325359.md)
 - Papaemmanuil et al. 2016 sequenced 111 cancer genes in 1540 adults with AML (AMLSG trials), identifying 5234 driver mutations across 76 genes and 11 mutually exclusive genomic subgroups; three new categories (chromatin–spliceosome 18%, TP53–aneuploidy 13%, provisional IDH2 R172 1%) were defined, with the full genomic model achieving ~71% concordance for overall survival versus ~64% with ELN variables alone [PMID:27276561](../papers/27276561.md).
+- Single-arm prospective trial (N=116, Washington University) of 10-day decitabine cycles: 100% blast clearance in TP53-mutant AML (21/21) vs 41% in TP53 wild-type (P<0.001); unfavorable-risk karyotype predicted response (67% vs 34%, P<0.001); remissions were short-lived and mutation clearance never complete; median OS 12.7 months (TP53-mutant) vs 15.4 months (TP53 wild-type, P=0.79) — substantially better than 4–6 months with conventional induction in TP53-mutant AML [PMID:27959731](../papers/27959731.md).
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ Acute Myeloid Leukemia (AML) is a hematologic malignancy arising from myeloid pr
 - [PMID:27276561](../papers/27276561.md) — Papaemmanuil et al. 2016, NEJM. Genomic classification and prognosis in AML; 1540 patients, 111-gene panel, 11 genomic subgroups.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27959731](../papers/27959731.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

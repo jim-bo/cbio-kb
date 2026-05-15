@@ -3,8 +3,8 @@ symbol: ERCC2
 aliases: [XPD]
 cancer_types: [BLCA]
 tags: [DNA-damage-response, DDR, cisplatin, urothelial, prognostic-biomarker]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ERCC2
@@ -23,6 +23,7 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - ERCC2 mutated in 12% of muscle-invasive bladder cancers; 15 of 16 mutations were deleterious missense (dominant-negative mechanism); ERCC2-mutant tumors showed significantly fewer C→G mutations and trended toward higher overall mutation rate [PMID:24476821](../papers/24476821.md)
 - Nine non-synonymous somatic mutations in 9/25 (36%) cisplatin responders in muscle-invasive urothelial carcinoma, all clustered in helicase domains; functional assays show loss-of-function; proposed as predictive biomarker for cisplatin sensitivity [PMID:25096233](../papers/25096233.md)
 - Significantly mutated gene in renal oncocytoma (ROCY) identified by whole-exome sequencing of 167 non-clear cell RCCs; driver status requires functional validation in larger cohorts [PMID:25401301](../papers/25401301.md)
+- Rare in chemotherapy-progressing urothelial carcinoma, consistent with prior data that ERCC2 mutations mark cisplatin responders and are selected against in progressing tumors [PMID:27749842](../papers/27749842.md)
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - [PMID:25401301](../papers/25401301.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

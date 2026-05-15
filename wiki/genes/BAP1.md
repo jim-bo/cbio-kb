@@ -8,7 +8,7 @@ tags:
   - tumor-suppressor
   - chromatin-remodeling
   - deubiquitinase
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -40,6 +40,7 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 - Essentially absent in extrahepatic cholangiocarcinoma (CAC) in this periampullary tumour cohort (single IDH1 hotspot only); contrasts with intrahepatic CAC where BAP1 alterations are common, confirming molecular distinctness of extra- vs intra-hepatic subtypes [PMID:26804919](../papers/26804919.md)
 - Inactivating mutation identified as a Mut-driver in breast cancer (METABRIC 2,433-sample cohort); flagged as a cross-cancer driver where therapies developed in other cancer types may be applicable [PMID:27161491](../papers/27161491.md)
 - BAP1: recurrent germline pathogenic/likely pathogenic variant in Indian familial NSCLC cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
+- BAP1 mutated in 13% of uRCC cases (62-patient MSK-IMPACT cohort); no significant outcome stratification on its own in this sample [PMID:27713405](../papers/27713405.md)
 
 ## Cancer types (linked)
 
@@ -116,4 +117,6 @@ BAP1 (BRCA1-Associated Protein 1) is a nuclear deubiquitinase that functions as 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

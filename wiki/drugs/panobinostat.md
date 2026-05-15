@@ -10,8 +10,8 @@ unverified: true
 tags:
   - targeted-therapy
   - hdac-inhibitor
-processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # panobinostat
@@ -25,6 +25,7 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 - In the UCLA PDTO sarcoma screen, [bortezomib](../drugs/bortezomib.md) + panobinostat was among the top-ranked matched regimens tested in a patient-level clinical application (n=5 matched-therapy patients). Normalized organoid viability correlated with time-to-next-treatment across the n=5 matched cohort (R²=0.921, p=0.009). [PMID:39305899](../papers/39305899.md)
 - Chordoma PDTOs were significantly less sensitive to [bortezomib](../drugs/bortezomib.md) (p=1.8×10⁻⁵) than the pan-sarcoma average; panobinostat was not explicitly tested in a subtype-stratified analysis in the reported data. [PMID:39305899](../papers/39305899.md)
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via elastic-net regression [PMID:22460905](../papers/22460905.md)
+- Used in combination with 5-day [decitabine](../drugs/decitabine.md) in 3 patients in the WashU AML/MDS trial extension cohort (NCT01687400, N=116); panobinostat 10 mg three times weekly was combined with decitabine at Washington University in St. Louis as part of an extended protocol evaluation [PMID:27959731](../papers/27959731.md)
 
 ## Resistance mechanisms
 
@@ -33,12 +34,12 @@ Panobinostat is a pan-deacetylase (HDAC) inhibitor approved for relapsed/refract
 ## Cancer types (linked)
 
 - [OS](../cancer_types/OS.md), [CHDM](../cancer_types/CHDM.md)
+- [AML](../cancer_types/AML.md), [MDS](../cancer_types/MDS.md) — decitabine + panobinostat combination evaluated in WashU prospective trial extension cohort.
 
 ## Sources
 
 - [PMID:39305899](../papers/39305899.md) — Duminuco et al. 2024, UCLA PDTO sarcoma functional screen; bortezomib + panobinostat matched-therapy case series.
-
-*This page was processed by **crosslinker** on **2026-05-04**.*
 - [PMID:22460905](../papers/22460905.md)
+- [PMID:27959731](../papers/27959731.md) — Welch et al. 2016, *NEJM*. WashU 10-day decitabine AML/MDS trial; panobinostat combined with 5-day decitabine in 3 extension-cohort patients.
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -3,8 +3,8 @@ symbol: SMAD4
 aliases: [DPC4]
 cancer_types: [STAD, IHCH, EHCH]
 tags: [tgf-beta-signaling, tumor-suppressor, gi-cancers, cholangiocarcinoma]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SMAD4
@@ -26,6 +26,7 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 - Mutated/deleted in 19–43% of pancreatic ductal adenocarcinoma cases across analyses; backbone of TGF-β pathway lesions in PDA. [PMID:25855536](../papers/25855536.md)
 - SMAD4 identified as the most commonly mutated TGF-β-pathway gene in ampullary and distal common bile duct adenocarcinomas (the sites closest to the pancreas) in a pan-periampullary WGS study [PMID:26804919](../papers/26804919.md)
 - Inactivating mutations associated with worse breast-cancer-specific survival in ER+ tumours (HR=3.4, 95%CI not stated); TSG score high only in ER+ (TSG=35% vs 0% in ER-); identified as a Mut-driver gene in the 2,433-tumour METABRIC targeted-sequencing cohort [PMID:27161491](../papers/27161491.md).
+- Loss of SMAD4/DPC4 expression in the primary tumour correlates with greater propensity for metastatic disease (vs local-only progression) in stage III pancreatic cancer (PAAD) per a Johns Hopkins rapid autopsy study; SMAD4 status is used as a stratification factor (alongside CA19-9) in ongoing cooperative-group SBRT trials. rs11354983 SNP and high SMAD4 expression are associated with poor outcomes. [PMID:27826200](../papers/27826200.md)
 
 ## Cancer types (linked)
 
@@ -47,34 +48,37 @@ SMAD4 (DPC4) encodes a central mediator of TGF-beta signaling and is a tumor sup
 
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25526346](../papers/25526346.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25583476](../papers/25583476.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25583493](../papers/25583493.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25589618](../papers/25589618.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25631445](../papers/25631445.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27826200](../papers/27826200.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

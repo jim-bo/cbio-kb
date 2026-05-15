@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [APAD, LCH, ECD, ATC, RMS, PRAD]
 tags: [ras-pathway, oncogene, hotspot]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # NRAS
@@ -56,6 +56,7 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 - NRAS identified as a known CRC driver and source of recurrent neopeptides in 619-tumor whole-exome sequencing study (NHS/HPFS cohort) [PMID:27149842](../papers/27149842.md)
 - Late driver in RTK-RAS pathway in AML; G12/13 vs. Q61 hotspots have distinct co-mutation patterns; G12/13 in NPM1/DNMT3A context paradoxically favorable; G12/13 but not Q61 modifies DNMT3A-FLT3-ITD-NPM1 interaction [PMID:27276561](../papers/27276561.md)
 - 4 mutations in cisplatin-resistant germ cell tumors (GCT); 3 of 4 in cisplatin-resistant tumors; MEK inhibitors (trametinib, selumetinib, binimetinib) listed as targeted therapy candidates [PMID:27646943](../papers/27646943.md)
+- Ras-pathway activating mutations (including NRAS G12D) in 35.2% of DUX4/ERG B-ALL cases; NRAS G12D cooperated with dominant-negative ERGalt to sustain lymphoid colony replating in Arf−/− mouse cells [PMID:27776115](../papers/27776115.md)
 
 ## Cancer types (linked)
 
@@ -189,5 +190,8 @@ NRAS is a RAS-family GTPase frequently mutated across cancers. In the corpus it 
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

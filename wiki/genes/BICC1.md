@@ -3,7 +3,7 @@ symbol: BICC1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -16,6 +16,7 @@ BICC1 (BicC Family RNA Binding Protein 1) encodes an RNA-binding protein involve
 ## Alterations observed in the corpus
 
 - BICC1 is a fusion partner in FGFR2-BICC1 in-frame fusions in cholangiocarcinoma (Cluster 4, IDH-WT subtype); FGFR2 rearrangements including this fusion are exclusive to Cluster 4 (p < 0.001) and elevate FGFR2 expression, nominating FGFR-targeted therapy [PMID:28667006](../papers/28667006.md).
+- [FGFR2](../genes/FGFR2.md)–[BICC1](../genes/BICC1.md) is the most recurrent fusion in [CHOL](../cancer_types/CHOL.md) (5.6%) in a pan-cancer TCGA RNA-seq fusion analysis. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ BICC1 (BicC Family RNA Binding Protein 1) encodes an RNA-binding protein involve
 - [PMID:28667006](../papers/28667006.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

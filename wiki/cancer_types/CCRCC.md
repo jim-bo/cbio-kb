@@ -10,7 +10,7 @@ tags:
   - immunotherapy
   - tki
   - tumor-microenvironment
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -40,6 +40,7 @@ Clear cell renal cell carcinoma (ccRCC) is the most common histologic subtype of
 - TCGA multi-platform characterization of 66 ChRCC tumors identified [CCRCC](../cancer_types/CCRCC.md) as a comparative cohort (417 tumors); ChRCC has a 3-fold lower mutation rate than ccRCC (~0.4/Mb), a non-Warburg mitochondrial metabolism phenotype, and distinct distal-nephron cell-of-origin — underscoring biological separation between the two RCC subtypes. [PMID:25155756](../papers/25155756.md)
 - URCC cohort (n=62, MSKCC) shows only 1/62 VHL mutations — stark contrast to ~75% in [CCRCC](../cancer_types/CCRCC.md); URCC NF2-loss and mTORC1-hyperactive subsets are mutually exclusive and both lack VHL alteration [PMID:27713405](../papers/27713405.md).
 - PBRM1 loss-of-function was associated with clinical benefit from anti-PD-(L)1 therapy in metastatic CCRCC (9/11 CB vs 3/13 NCB, Fisher p=0.012; validated in 63-patient cohort, p=0.0071); PBRM1-LOF tumors showed upregulated JAK/STAT3 and hypoxia transcriptional programs [PMID:29301960](../papers/29301960.md)
+- MC3 pan-cancer mutation-calling project used KIRC (clear cell RCC) as a benchmark: running MutSig2CV and MuSiC2 on PASS variants yielded 10 SMGs each (TP53, PTEN, VHL, SETD2, PBRM1, BAP1, MTOR, and others); the unfiltered controlled MAF inflated these to 1,203 and 321 respectively, demonstrating the critical importance of the MC3 filtering strategy [PMID:29596782](../papers/29596782.md)
 
 ## Subtypes
 
@@ -77,3 +78,6 @@ Five harmonized immune tumor microenvironment (HiTME) subtypes were defined by d
 - [PMID:29301960](../papers/29301960.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

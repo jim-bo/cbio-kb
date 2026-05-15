@@ -3,7 +3,7 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -41,6 +41,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
 - PIK3CA and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
 - PIK3R1 identified as a driver-gene cluster member across signaling and cell growth functional groups in a 1001-patient DLBCL genomic cohort [PMID:28985567](../papers/28985567.md)
+- Referenced as the paralog of novel prostate-cancer SMG PIK3R2; the PIK3R2 p.Asp557Tyr variant is directly paralogous to the known oncogenic PIK3R1 p.Asp560Tyr mutation, supporting PI3K-pathway oncogenicity in prostate cancer [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
@@ -112,5 +113,8 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

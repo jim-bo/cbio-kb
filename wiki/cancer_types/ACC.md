@@ -4,8 +4,8 @@ oncotree_code: ACC
 main_type: Adrenocortical Carcinoma
 parent: ADRENAL_GLAND
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Adrenocortical Carcinoma (ACC)
@@ -21,6 +21,7 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 ## Recurrent alterations
 
 - PIPseq cohort: [ALK](../genes/ALK.md) Q1146K activating mutation identified in an adrenocortical carcinoma patient — an ALK-inhibitor target; the patient received matched targeted therapy (ALK inhibitor) [PMID:28007021](../papers/28007021.md).
+- Pan-cancer RNA-seq fusion profiling (9,624 TCGA samples) included ACC as one of 33 cancer types; ACC samples had a median of 1 fusion/sample consistent with the pan-cancer median [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -38,3 +39,6 @@ Adrenocortical carcinoma (ACC) is a rare, aggressive malignancy of the adrenal c
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

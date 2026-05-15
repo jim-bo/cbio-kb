@@ -9,7 +9,7 @@ tags:
   - kinase
   - PI3K_pathway
   - drug_target
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -40,6 +40,7 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 - 1 patient with S2215Y as highest driver; 1 UMD patient with novel L2383F missense had 1-month no-benefit course on everolimus in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - MTOR was identified as a functional oncogene in DLBCL by CRISPR screen (its knockout depleted cell growth across lines) and was a driver gene in 1001 DLBCL patients; MTOR mutations are prevalent in DLBCL but associate with generally good outcomes in the GCB subtype, suggesting patients with MTOR alterations may be underrepresented in clinical trials of MTOR inhibitors [PMID:28985567](../papers/28985567.md)
 - Aberrant PI3K-AKT-MTOR signaling is recurrent in leiomyosarcoma (LMS), with frequent amplification and upregulation of MTOR along with PTEN deletion/mutation, IGF1R, AKT, and RICTOR alterations; MTOR inhibitors (everolimus, temsirolimus) have shown limited clinical efficacy in LMS; dual PI3K/MTOR inhibitors may offer improved outcomes [PMID:29100075](../papers/29100075.md)
+- Called as a significantly mutated gene (SMG) in KIRC by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; confirmed as a consensus driver in clear cell renal cell carcinoma across two independent callers. [PMID:29596782](../papers/29596782.md)
 
 ## Cancer types (linked)
 
@@ -61,59 +62,24 @@ MTOR (Mechanistic Target of Rapamycin Kinase) is a serine/threonine kinase and c
 ## Sources
 
 - [PMID:22138691](../papers/22138691.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22634756](../papers/22634756.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23897969](../papers/23897969.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24336570](../papers/24336570.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24487277](../papers/24487277.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25822088](../papers/25822088.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26095796](../papers/26095796.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26200345](../papers/26200345.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27713405](../papers/27713405.md)
+- [PMID:28336552](../papers/28336552.md)
+- [PMID:28985567](../papers/28985567.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28336552](../papers/28336552.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*

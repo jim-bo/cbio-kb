@@ -27,6 +27,7 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 - WES of 55 diffuse large B-cell lymphoma tumors identified recurrent mutations; MutSig analysis revealed significantly mutated genes including those in [BCR](../genes/BCR.md) and TLR signaling [PMID:22343534](../papers/22343534.md)
 - [PCNSL](../cancer_types/PCNSL.md) is a CNS-restricted subtype of DLBCLNOS; genomic profiling of 19 immunocompetent [PCNSL](../cancer_types/PCNSL.md) cases identified PCNSL-specific biallelic inactivation of [TOX](../genes/TOX.md) and [PRKCD](../genes/PRKCD.md), and BCR/TLR/NF-κB pathway alterations in >90% of cases, shared with systemic DLBCL but with higher [MYD88](../genes/MYD88.md) mutation prevalence (~79%) [PMID:25991819](../papers/25991819.md)
 - Integrative WES + RNA-seq of 1001 de novo DLBCL patients (Reddy et al.) identified 150 recurrent driver genes, defined ABC/GCB subtype-specific essentialities by genome-wide CRISPR screen, and built a multivariate genomic risk model (IPI + cell-of-origin + MYC/BCL2 + driver-gene mutations) that outperformed standard prognostic tools across complete-responder and IPI-stratified subgroups [PMID:28985567](../papers/28985567.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included DLBCL (TCGA cohort identifier mapping to DLBCLNOS) as one of 33 cancer types; druggable fusions were annotated across 29 cancer types [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -54,5 +55,8 @@ Diffuse large B-cell lymphoma, not otherwise specified — the parent OncoTree c
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

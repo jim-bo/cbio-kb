@@ -23,6 +23,7 @@ Pindel is a pattern growth algorithm for detecting break points of large deletio
 - Used for indel detection in the plasmacytoid-variant bladder cancer WES discovery cohort; contributed to identifying CDH1 frameshift truncating mutations. [PMID:26901067](../papers/26901067.md)
 - Used as one of three somatic variant callers in the MSK-IMPACT pipeline (union of MuTect, Pindel, GATK somatic indel detector) for SNV and indel detection across 10,945 tumors [PMID:28481359](../papers/28481359.md)
 - Applied for somatic indel detection in MET500 whole-exome sequencing data (500 metastatic solid tumors, GRCh37/hg19 alignment) as part of the bioinformatics pipeline alongside VarScan2 and ANNOVAR [PMID:28783718](../papers/28783718.md)
+- One of seven callers in the TCGA MC3 pipeline; made the most indel calls overall, but >130K calls clustered in two samples indicating sample-specific artifacts; used Pindel-priority merging for complex indels [PMID:29596782](../papers/29596782.md)
 
 ## Notes
 
@@ -45,5 +46,8 @@ Pindel is a pattern growth algorithm for detecting break points of large deletio
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

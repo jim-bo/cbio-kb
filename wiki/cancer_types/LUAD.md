@@ -4,7 +4,7 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -57,6 +57,9 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - In the MSK-IMPACT pan-cancer cohort, ALK, RET, and ROS1 fusions were enriched in LUAD but also detected in 11 additional tumor types; EML4-ALK fusions were the 3rd most common rearrangement (n=38) predominantly in LUAD; EGFR mutations localized to the kinase domain in lung cancer vs the extracellular N-terminal domain in glioma. [PMID:28481359](../papers/28481359.md)
 - Lung adenocarcinoma comprised 78% (187/240) of the anti-PD-(L)1 NSCLC cohort; EGFR-mutant LUAD had only 7% DCB rate (FDR p=0.013), attributed to low TMB from never-smoker biology; HER2 exon 20 insertion LUAD showed minimal RECIST response (1/26) to neratinib but median PFS 5.5 months [PMID:29337640](../papers/29337640.md)
 - In the SUMMIT trial, HER2 exon 20 insertion-driven LUAD (the predominant NSCLC histology in this cohort) showed minimal RECIST response (1/26) to single-agent neratinib, though median PFS of 5.5 months and a long-tail of >1-year responders suggest neratinib has activity worth pursuing in combinations [PMID:29420467](../papers/29420467.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUAD; LUAD and LUSC had the largest median number of SNVs per sample, consistent with tobacco-carcinogen mutagen exposure [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified EML4–ALK in 1.0% of LUAD (5 of 20 ALK-fusion samples); never-smokers had a dramatically higher rate of druggable fusions (20%) vs smokers (2.1%; chi-square p < 1e-6); RET fusions also detected in LUAD [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed LUAD in the epithelial arm-level cluster (alongside BRCA and HCC) defined by 1q gain; <50% of LUAD tumors had 3p loss (vs ~80% in LUSC) and only 13% had 3q gain, contrasting sharply with the squamous LUSC signature [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -122,3 +125,12 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

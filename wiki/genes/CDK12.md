@@ -29,6 +29,7 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 - DNA-repair pathway alteration in mCRPC; part of 22.7% broader DNA-repair alteration aggregate including [BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [FANCA](../genes/FANCA.md), [RAD51B](../genes/RAD51B.md), [RAD51C](../genes/RAD51C.md), and [BRIP1](../genes/BRIP1.md) [PMID:26000489](../papers/26000489.md)
 - Loss-of-function or homozygous deletion in 1% (4 tumors) in primary prostate cancer; CDK12 loss contributes to the 19% DNA-repair-gene-defect prevalence supporting PARP-inhibitor candidacy [PMID:26544944](../papers/26544944.md)
 - Somatic CDK12 loss identified as a candidate HR-pathway alteration in prostate cancer across locoregional, metastatic noncastrate, and mCRPC disease states; CDK12 loss hypothesized to confer PARP inhibitor sensitivity based on preclinical evidence [PMID:28825054](../papers/28825054.md).
+- CDK12 is a significantly mutated gene (SMG) in prostate cancer with a truncating-biased mutation pattern (p<0.001) and frequent biallelic inactivation (15/31 in discovery cohort, 27/56 in MSK-IMPACT validation); missense variants cluster in the kinase domain; frequent biallelic CDK12 loss is consistent with a therapeutically relevant DNA-repair phenotype in metastatic prostate cancer [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ CDK12 is a cyclin-dependent kinase that regulates transcriptional elongation and
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

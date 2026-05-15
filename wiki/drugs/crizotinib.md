@@ -5,8 +5,8 @@ drug_class: ALK/ROS1/MET tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, kinase-inhibitor, cns-resistance]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # crizotinib
@@ -22,6 +22,7 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - Referenced as an example of acquired resistance in targeted therapy (ALK-fusion lung cancer + crizotinib), used to motivate anticipatory combination regimens and second-generation inhibitor strategies for HCC [PMID:24735922](../papers/24735922.md)
 - ALK/ROS1/MET inhibitor used as targeted therapy for ALK rearrangements (>80% EML4-ALK) over-represented in young-onset NSCLC; CROWN trial subgroup analyses showed consistent outcomes by age [PMID:27346245](../papers/27346245.md)
 - Matched therapy for ROS1 fusions in 860-patient MSK-IMPACT LUAD cohort; two ROS1-fusion patients died before crizotinib FDA approval (March 2016) for ROS1 indication; ALK fusions also matched to crizotinib with 90.9% uptake and 93.3% clinical benefit [PMID:28336552](../papers/28336552.md).
+- Flagged as the approved ALK inhibitor for 20 [ALK](../genes/ALK.md)-fusion samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion atlas (n=9,624); [EML4](../genes/EML4.md) was the dominant 5' partner (7/17 ALK fusions), and ALK overexpression was copy-number neutral — consistent with fusion-driven promoter capture rather than amplification [PMID:29617662](../papers/29617662.md)
 
 ## Resistance mechanisms
 
@@ -45,5 +46,6 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28336552](../papers/28336552.md)
+- [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); crizotinib flagged for 20 ALK-fusion samples across 8 cancer types; EML4-ALK dominant partner; ALK overexpression copy-number neutral.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [PAAD]
 tags: [pancreatic-cancer, axon-guidance, SLIT-ROBO, tumor-suppressor]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # ROBO1
@@ -18,6 +18,7 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 - Focal copy-number losses and point mutations identified in pancreatic cancer WES of 142 ICGC tumors; additional mutations found in targeted sequencing; loss of ROBO1 may deregulate [MET](../genes/MET.md) and WNT pathways [PMID:23103869](../papers/23103869.md)
 - Recurrent focal deletion on chromosome 3p12.3-3p12.2 in [SCLC](../cancer_types/SCLC.md) WGS of 110 tumours; co-deleted with [FHIT](../genes/FHIT.md) at 3p14.3-3p14.2 as part of the 3p loss landscape [PMID:26168399](../papers/26168399.md)
 - ROBO1 locus identified as a novel focal deletion in lung SqCC in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); GISTIC2.0 identified recurrent focal loss at the ROBO1 locus specifically in squamous cell carcinoma. [PMID:27158780](../papers/27158780.md)
+- One of the two most strongly down-regulated chr_3p genes after engineered chr_3p deletion in AALE cells (>15-fold at early passage; >13-fold at late passage), and negatively correlated with chr_3p loss in the pan-cancer TCGA transcriptomic model [PMID:29622463](../papers/29622463.md).
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ ROBO1 encodes roundabout guidance receptor 1, a transmembrane receptor for SLIT 
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

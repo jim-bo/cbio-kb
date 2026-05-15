@@ -10,7 +10,7 @@ assays: [bulk-rna-seq, snp-microarray, targeted-panel]
 panels: []
 tags: [cervical-cancer, cesc, tcga, pan-can-atlas]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-15
 ---
 
 # Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma (TCGA, PanCancer Atlas 2018)
@@ -36,9 +36,13 @@ TCGA PanCancer Atlas 2018 dataset for cervical squamous cell carcinoma and endoc
 ## Notable findings derived from this cohort
 
 - Served as a reference for mutation frequency comparisons in [CESC](../cancer_types/CESC.md); [KRAS](../genes/KRAS.md) mutations were 5% in TCGA vs. 12% in the MSK cohort, highlighting potential enrichment in a clinical cancer center population. [PMID:37643132](../papers/37643132.md)
+- MC3 ensemble mutation calls (7 callers, 10,510 TCGA tumor/normal pairs, 33 cancer types) form the somatic-variant backbone of this PanCanAtlas cBioPortal study [PMID:29596782](../papers/29596782.md)
+- Pan-cancer aneuploidy analysis of 10,522 TCGA tumors placed this cohort in the squamous cluster (3p loss, 3q gain) alongside LUSC, ESCC, and HPV-negative HNSC [PMID:29622463](../papers/29622463.md)
 
 ## Sources
 
 - cBioPortal study `cesc_tcga_pan_can_atlas_2018` [PMID:37643132](../papers/37643132.md).
+- [PMID:29596782](../papers/29596782.md)
+- [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **entity-page-writer** on **2026-04-11**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

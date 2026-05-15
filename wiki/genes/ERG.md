@@ -30,6 +30,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - Focal RAG-mediated 21q22.3 deletions in 55.6% of DUX4/ERG B-ALL cases (most commonly exons 3-7 or 3-9 of NM_182918.3); expression of a novel dominant-negative isoform ERGalt from non-canonical exon 6 alt (driven by DUX4 binding); NRAS-G12D cooperated with ERGalt to sustain lymphoid colony replating in Arf-/- mouse cells [PMID:27776115](../papers/27776115.md)
 - TMPRSS2-ERG fusion is the most common rearrangement in the MSK-IMPACT cohort (n=151) in PRAD; cryptic TMPRSS2 rearrangements detected in 23 additional PRAD cases consistent with chromoplexy [PMID:28481359](../papers/28481359.md)
 - TMPRSS2-ERG fusion cited as a canonical somatic prostate-cancer fusion in background context; cross-referenced to prior work on 17q12/HNF1B but not directly assayed in the NOL10/rs4519489 eQTL study [PMID:28927585](../papers/28927585.md).
+- ERG is confirmed as an established driver in prostate cancer via TMPRSS2-ERG fusions; metastasis-vs-primary enrichment was quantified in the 1,013-patient WES cohort; ERG/TMPRSS2 fusions are confirmed among the set of established drivers including TP53, AR, PTEN, RB1, FOXA1, APC, BRCA2, and SPOP [PMID:29610475](../papers/29610475.md).
+- **TMPRSS2-ERG** is the most-recurrent intra-cancer fusion overall in the TCGA pan-cancer fusion landscape (38.2% of [PRAD](../cancer_types/PRAD.md) samples, 205 samples flagged druggable); the fusion yields modest neoantigen yield in only a small subset of carriers [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -84,5 +86,11 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

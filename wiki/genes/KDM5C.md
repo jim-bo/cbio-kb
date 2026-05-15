@@ -8,7 +8,7 @@ cancer_types:
 tags:
   - histone_demethylase
   - epigenetic_regulator
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ KDM5C (Lysine Demethylase 5C, also known as JARID1C) is an X-linked histone H3K4
 - Among the top eight most significantly mutated genes (q<0.00001) in ccRCC; identified by TCGA comprehensive molecular characterization [PMID:23792563](../papers/23792563.md)
 - Parallel evolution of KDM5C inactivation previously demonstrated across spatially separated tumor regions in ccRCC (EV001/EV002), illustrating intratumor heterogeneity of this X-linked histone demethylase [PMID:24487277](../papers/24487277.md)
 - Frameshift in 1 UMD (unmatched molecular driver) patient in a prospective LUAD cohort (860 patients, MSK-IMPACT); patient achieved 6-month stable disease on off-label azacitidine [PMID:28336552](../papers/28336552.md)
+- KDM5C identified as a significantly mutated gene (SMG) in KIRC (kidney renal clear cell carcinoma) by MuSiC2 after long-gene filtering, but not by MutSig2CV, in the MC3 pan-cancer open-access MAF analysis (10,295 tumor samples). [PMID:29596782](../papers/29596782.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ KDM5C (Lysine Demethylase 5C, also known as JARID1C) is an X-linked histone H3K4
 - [PMID:28336552](../papers/28336552.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

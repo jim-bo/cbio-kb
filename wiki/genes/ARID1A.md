@@ -80,6 +80,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A is a SWI/SNF subunit mutated in medulloblastoma; together with SMARCA4 and ARID2, SWI/SNF subunits are altered in 33% of WNT MBs, providing rationale for PRC2 inhibitors (trial NCT02601937) [PMID:28726821](../papers/28726821.md)
 - SWI/SNF chromatin remodeler with recurrent inactivating mutations and 4.2% deletions in MIBC (TCGA, n=412) [PMID:28988769](../papers/28988769.md)
 - Mutated in 15% of metastatic esophagogastric cancer (EGC) tumors profiled by MSK-IMPACT (n=200) [PMID:29122777](../papers/29122777.md)
+- [ARID1A](../genes/ARID1A.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID2](../genes/ARID2.md), [ARID4A](../genes/ARID4A.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -272,3 +273,6 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

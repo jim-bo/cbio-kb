@@ -66,6 +66,8 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - CLIA-certified hybrid-capture targeted NGS assay applied to 295 metastatic esophagogastric adenocarcinoma (EGC) patients at MSKCC; mean coverage 744X; detected mutations, copy-number alterations, and select rearrangements [PMID:29122777](../papers/29122777.md)
 - MSK-IMPACT prospectively sequenced 1,134 [COADREAD](../cancer_types/COADREAD.md) tumors (panels [IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), [IMPACT468](../methods/IMPACT468.md)) with 98.6% MMR-IHC/MSIsensor concordance; characterized recurrently mutated genes, APC intronic variants, and CTNNB1 exon-3 deletions in MSS and MSI-H CRC [PMID:29316426](../papers/29316426.md)
 - Central sequencing of 91 archival FFPE tumors and 15 plasma cfDNA samples from the SUMMIT neratinib basket trial using [IMPACT341](../methods/IMPACT341.md) (n=18) or [IMPACT410](../methods/IMPACT410.md) (n=88) at mean 738× coverage; concordance with local testing 95% [PMID:29420467](../papers/29420467.md)
+- MC3 capture-kit mask excluded 170 CDS-altering calls in MSK-IMPACT's 410-gene panel that fall outside the Broad capture BED, including TERT promoter hits, CIC truncations, and CRLF2 splice alterations [PMID:29596782](../papers/29596782.md)
+- 706 advanced prostate cancers from MSK-IMPACT (msk_impact_2017) used as validation cohort for the prad_p1000 WES SMG analysis [PMID:29610475](../papers/29610475.md)
 
 ## Notes
 
@@ -171,5 +173,11 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

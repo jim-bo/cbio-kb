@@ -3,7 +3,7 @@ symbol: STK11
 aliases: [LKB1]
 cancer_types: [STAD]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - Newly nominated CCA driver; mutated in 5%, mostly inactivating (7 nonsense, 9 frameshift mutations) [PMID:28667006](../papers/28667006.md)
 - Used as co-deletion partner with Pten in murine prostate organoid model (Pten^pc-/-;Lkb1^pc-/-) for in-vivo NOL10/USF1 knockdown experiments in prostate cancer [PMID:28927585](../papers/28927585.md)
 - Significantly enriched in no-durable-benefit (NDB) vs non-ICI NSCLC (FDR-adjusted P=0.007); consistent with STK11/LKB1-loss-associated low tumor inflammation and reduced response to anti-PD-(L)1 therapy. [PMID:29337640](../papers/29337640.md)
+- One pLoF LP/PV identified: c.179dup p.(Tyr60*) in a boy with congenital Peutz-Jeghers syndrome and T-cell ALL; mother and maternal grandfather also have PJS. Single-cohort OR=199.5 (95% CI 12.5-3195.8, p=0.010) — extreme estimate driven by very low gnomAD baseline (1/74,022 controls) [PMID:29489754](../papers/29489754.md)
 
 ## Cancer types (linked)
 
@@ -74,3 +75,6 @@ STK11 (LKB1) encodes a serine/threonine kinase that acts as a tumor suppressor r
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

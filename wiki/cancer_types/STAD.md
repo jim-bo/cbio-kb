@@ -35,6 +35,8 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - TCGA integrated profiling added 77 new gastric adenocarcinomas (total 388) for comparison with esophageal carcinoma: chromosomally-unstable (CIN) gastric adenocarcinoma is molecularly indistinguishable from oesophageal adenocarcinoma; methylation gradient along the gastroesophageal axis shows proximal-to-distal hypermethylated-to-hypomethylated transition; MGMT/CHFR silencing enriched in proximal hypermethylated cluster [PMID:28052061](../papers/28052061.md)
 - In the MSK-IMPACT pan-cancer cohort, TP53 was significantly enriched in gastric cancer vs TCGA; MSI gastric tumors showed responses to immune checkpoint blockade; STAD was included among 62 principal tumor types profiled in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 - Stomach adenocarcinoma was among the cancer subtypes in the MSK EGC cohort (n=295, stage IV, MSK-IMPACT); the GS molecular subtype (34%) was enriched for diffuse histology (32% vs 9% in CIN, P=3e-5) and CDH1 mutations; TP53 mutation rate in the MSK metastatic cohort (73%) was higher than in TCGA (62%, q=0.11), consistent with metastatic enrichment [PMID:29122777](../papers/29122777.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included STAD; ERBB2 fusions were detected in gastric tumors; WNK-family fusions also present in STAD [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed STAD in the gastrointestinal arm-level cluster (alongside COAD, READ, PAAD); STAD is an exception to the positive aneuploidy–mutation-rate correlation, driven by MSI/POLE cases [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -74,5 +76,11 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

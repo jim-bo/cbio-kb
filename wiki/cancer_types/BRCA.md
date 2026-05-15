@@ -4,7 +4,7 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -43,6 +43,9 @@ OncoTree code for invasive breast carcinoma.
 - In the MSK-IMPACT pan-cancer cohort, ESR1 hotspot mutations were found in 11% of BRCA (vs 4% in TCGA), almost exclusively in post-hormone-therapy metastases, consistent with endocrine-resistance; 57% of BRCA patients harbored an OncoKB-actionable alteration (3rd highest after GIST and thyroid). [PMID:28481359](../papers/28481359.md)
 - MET500 metastatic cohort: breast carcinoma was the second most common cancer type (91/500, 18.2%); BRCA1/BRCA2 germline pathogenic variants were significantly enriched vs ExAC controls (BRCA1 n=5, BRCA2 n=9); MImmScore immune analysis showed metastatic breast tumors have low immune infiltration similar to primary disease. [PMID:28783718](../papers/28783718.md)
 - In the SUMMIT basket trial of neratinib for ERBB2/ERBB3-mutant solid tumors, HER2-mutant non-amplified invasive breast carcinoma met its pre-specified efficacy endpoint with ORR8 32% (8/25, 95% CI 15-54%) across ER+ and ER- subtypes and across extracellular and kinase domain mutations [PMID:29420467](../papers/29420467.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included BRCA; concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified 16 ESR1 fusions across 5 cancer types, 9 in BRCA (8 luminal A/B), with strict mutual exclusivity with ESR1 point mutations and elevated ESR1 expression in fusion-positive samples; ERBB2 fusions also detected with HPV-integration proximity [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed BRCA in the 'epithelial cluster' defined by 1q gain (alongside LUAD and HCC); chr_3p-loss/3q-gain squamous signature was absent in BRCA; TSG-partner fusion under-expression ranged 3% (BRCA) to 38% (PCPG) [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -82,3 +85,12 @@ OncoTree code for invasive breast carcinoma.
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

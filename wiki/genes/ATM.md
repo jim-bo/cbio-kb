@@ -57,6 +57,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction; elevated mutational burden in DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
 - ATM is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; ATM also shows somatic enrichment specifically in mCRPC, identifying it as a clinically actionable target for PARP inhibitors [PMID:28825054](../papers/28825054.md)
 - Mutated in 14% (n=57) of MIBC tumors (TCGA, n=412); established as a recurrently mutated DNA-repair gene in muscle-invasive bladder cancer [PMID:28988769](../papers/28988769.md)
+- Four monoallelic pLoF [ATM](../genes/ATM.md) LP/PVs were identified in a pediatric cancer predisposition cohort (n=372); burden OR=3.2, p=0.040 in single-cohort analysis but not significant in joint analysis; carriers developed BCP-ALL, medulloblastoma, or hepatoblastoma without ataxia-telangiectasia features. [PMID:29489754](../papers/29489754.md)
+- [ATM](../genes/ATM.md) is an SMG uniquely called by MutSig2CV (not MuSiC2) in KIRC using the TCGA MC3 open-access MAF. [PMID:29596782](../papers/29596782.md)
 
 ## Cancer types (linked)
 
@@ -193,3 +195,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

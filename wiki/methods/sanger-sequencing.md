@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [sequencing]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -60,6 +60,7 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - Used to PCR-validate structural variants detected by CREST in CCA WGS data (91% validation rate across ~93 somatic SVs/tumor) [PMID:28667006](../papers/28667006.md)
 - Used for validation of CRISPR base-editing outcomes (T→A and A→T conversions at rs4519489 in PC3 and DU145 cells) in the NOL10/USF1 functional study [PMID:28927585](../papers/28927585.md)
 - Used for validation of somatic variant calls from WES (1130 events across 61 genes in DLBCL cohort, 90% concordance) [PMID:28985567](../papers/28985567.md)
+- Used to confirm recombination of the artificial-telomere construct at the centromeric chr_3p break site in CRISPR-engineered AALE cell clones [PMID:29622463](../papers/29622463.md)
 
 ## Notes
 
@@ -196,3 +197,6 @@ A first-generation DNA sequencing method based on the selective incorporation of
 - [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

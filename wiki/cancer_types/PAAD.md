@@ -4,7 +4,7 @@ oncotree_code: PAAD
 main_type: Pancreatic Cancer
 parent: PANCREAS
 tags: [pancreas, kras-driven]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -31,6 +31,9 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - Whole-exome sequencing of 109 microdissected PAAD (plus 11 [PAASC](../cancer_types/PAASC.md), 4 [PAAC](../cancer_types/PAAC.md)) identified 24 SMGs; [KRAS](../genes/KRAS.md) 92%, [TP53](../genes/TP53.md) 50%, [SMAD4](../genes/SMAD4.md) 19%, CDKN2A/B 36%; [MYC](../genes/MYC.md) amplification at 8q24.13 uniquely associates with poor overall survival (P=0.0013) and adenosquamous ([PAASC](../cancer_types/PAASC.md)) subtype; [BRAF](../genes/BRAF.md) V600E (3%) is mutually exclusive with [KRAS](../genes/KRAS.md) and vemurafenib-sensitive in a patient-derived cell line; codon-61 [KRAS](../genes/KRAS.md) alleles confer favourable prognosis vs codon-12 (P=0.01999) [PMID:25855536](../papers/25855536.md)
 - Narrative review of nine prospective SBRT trials in locally advanced PAAD: 33 Gy/5-fraction regimen with gemcitabine (Herman et al., n=49) achieved 79% 1-year local control and 13.9-month median OS with only 2% acute and 6% late grade 3+ GI toxicity; SMAD4/DPC4 loss is a candidate biomarker for metastatic propensity and patient selection for local intensification; duodenal dose constraints (V15Gy <9 cc, V20Gy <3 cc, V33Gy <1 cc) are essential [PMID:27826200](../papers/27826200.md).
 - In the MSK-IMPACT pan-cancer cohort, KRAS was mutated in 90% of PAAD — the highest rate of any principal tumor type — with G12 codon variants comprising 80% of all KRAS mutations; KRAS was classified as non-actionable under then-current OncoKB criteria (predating approval of KRAS G12C inhibitors). [PMID:28481359](../papers/28481359.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included PAAD; PAAD recovered only 33% of original PanCan12 MAF calls due to low tumor purity (median ABSOLUTE purity 39.7%), making it the most problematic cancer type for MC3 concordance [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included PAAD; FGFR2 fusions were detected in PAAD and represent potential therapeutic targets; FGFR3 druggable target annotation spanned 15 cancer types including PAAD [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed PAAD in the gastrointestinal arm-level cluster (co-gaining 8q, 13q, chromosome 20 alongside COAD, READ, STAD); leukocyte fraction was most strongly negatively correlated with aneuploidy in PAAD (Spearman ρ = −0.428) [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -74,3 +77,12 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

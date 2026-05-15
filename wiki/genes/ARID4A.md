@@ -5,8 +5,8 @@ cancer_types:
   - BLCA
 tags:
   - chromatin-remodeling
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ARID4A
@@ -18,6 +18,7 @@ ARID4A (AT-rich interaction domain 4A) encodes a subunit of the NuRD chromatin-r
 ## Alterations observed in the corpus
 
 - Mutated in transitional cell carcinoma (TCC) of the bladder as part of the chromatin-remodeling gene alteration cluster (alongside [ARID1A](../genes/ARID1A.md) and other SWI/SNF and NuRD complex members); mutations in chromatin-remodeling genes collectively affect 58% of bladder TCC cases [PMID:24121792](../papers/24121792.md).
+- [ARID4A](../genes/ARID4A.md) is a SWI/SNF member altered in ~5% of 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)), enriched in ETS-fusion-negative tumors alongside [ARID1A](../genes/ARID1A.md), [ARID2](../genes/ARID2.md), and [SMARCA1](../genes/SMARCA1.md). [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ ARID4A (AT-rich interaction domain 4A) encodes a subunit of the NuRD chromatin-r
 - [PMID:24121792](../papers/24121792.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

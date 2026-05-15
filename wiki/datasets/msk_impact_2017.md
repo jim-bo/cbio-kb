@@ -9,7 +9,7 @@ unverified:
 assays: []
 panels: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 description: Targeted sequencing of 10,000 clinical cases using the MSK-IMPACT assay
 cancerTypeId: mixed
@@ -47,10 +47,13 @@ The foundational MSK-IMPACT clinical sequencing cohort (Zehir et al. 2017) compr
 - The original Make-an-IMPACT report demonstrates that the MSK-IMPACT clinical platform underpinning msk_impact_2017 can be extended via direct-to-patient outreach to enroll international rare-cancer cohorts with 86.8% sequencing success [PMID:36862133](../papers/36862133.md).
 - Across 45,112 MSK-IMPACT samples from the same clinical sequencing pipeline, MiMSI reduced MSI-indeterminate calls from 3.8% (n=1,724 by MSISensor) to 0.47% (n=210), with 96% concordance for definitive MSS/MSI-H calls [PMID:39746944](../papers/39746944.md).
 - The MSK-CHORD real-world dataset integrates MSK-IMPACT tumor genomics with NLP-derived EHR annotations for 24,950 patients; multimodal models combining genomic and NLP features outperformed stage-alone [OS](../cancer_types/OS.md) prediction in [NSCLC](../cancer_types/NSCLC.md), breast, colorectal, prostate, and pancreatic cancers [PMID:39506116](../papers/39506116.md).
+- 706 advanced prostate cancers from MSK-IMPACT in this cohort were used as validation for 97 significantly mutated genes discovered in the prad_p1000 pan-1000 prostate meta-cohort, confirming novel drivers including CUL3 (9 cases), SPEN, SF3B1, and PIK3R2 [PMID:29610475](../papers/29610475.md)
 
 ## Sources
 
 - cBioPortal study `msk_impact_2017`.
 - Zehir A, et al. *Mutational landscape of metastatic cancer revealed from prospective clinical sequencing of 10,000 patients.* Nat Med. 2017. [PMID:28481359](../papers/28481359.md)
+
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

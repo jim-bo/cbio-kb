@@ -35,6 +35,8 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - 38 pretreatment metastatic SKCM biopsies profiled by WES and RNA-seq to identify genomic and transcriptomic correlates of anti-PD-1 response; the IPRES mesenchymal/angiogenic transcriptional program defined innate resistance in 9/13 non-responders vs 1/15 responders, and BRCA2 LOF mutations were enriched in responders (28% vs 6%, Fisher P=0.002, OR=6.2) [PMID:26997480](../papers/26997480.md)
 - Cutaneous melanoma (SKCM) used as comparator to acral melanoma (ACRM): SKCM harbours canonical UV-signature BRAF/NRAS/NF1 drivers and higher mutation burden, contrasting with ACRM's structural-variant dominance and UV-signature absence [PMID:28373299](../papers/28373299.md)
 - Riaz et al. profiled paired pre- and on-therapy biopsies from 68 advanced melanoma patients on anti-PD-1 (nivolumab, CA209-038 trial), demonstrating that pre-therapy TMB predicts OS in ipilimumab-naive but not ipilimumab-progressed patients, and that genomic contraction (selective depletion of neoantigenic clones on-therapy) in responders provides evidence of immunoediting under PD-1 blockade [PMID:29033130](../papers/29033130.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included SKCM; concordance with the legacy PanCan12 MAF exceeded 90%; SKCM had the largest median SNVs per sample along with LUSC and LUAD, consistent with UV-mutagen exposure [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included SKCM; SKCM (melanoma) clustered in the neural-lineage arm-level group with GBM and LGG in the aneuploidy analysis; druggable fusions annotated across 29 cancer types including SKCM [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -82,5 +84,11 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

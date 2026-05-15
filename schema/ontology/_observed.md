@@ -482,3 +482,31 @@
 - method: crispr-base-editing — observed in PMID:28927585 — note: CBE for T→A conversion at rs4519489 in PC3 cells; AYBE editor for A→T in DU145; reciprocal edits established allele-specific NOL10 regulation
 - method: luciferase-reporter-assay — observed in PMID:28667006 — note: allele-specific reporter confirming FGFR2 3'UTR represses expression in HEK293T and H69 cells; also observed in PMID:28927585 for rs4519489 A-allele-higher enhancer activity in five PRAD cell lines
 - method: prostate-organoid-pten-lkb1 — observed in PMID:28927585 — note: organoids from Pten^pc-/-^;Lkb1^pc-/-^ C57BL/6J mice; NOL10/USF1 knockdown reduced organoid number and size; corpus-grown slug reflecting specific genotype
+- method: germline-burden-test — observed in PMID:29489754 — note: gene-level logistic regression + Fisher's exact burden testing of LP/PVs in 25 HBOC genes in 372 pediatric cancer patients vs. gnomAD v3.1.1 non-cancer controls
+- method: gnomad-non-cancer-controls — observed in PMID:29489754 — note: gnomAD v3.1.1 non-cancer subset (n=74,023) used as statistical comparator for germline burden testing in pediatric cancer cohort
+- method: acmg-variant-classification — observed in PMID:29489754 — note: ACMG/AMP five-tier variant pathogenicity classification (P/LP/VUS/LB/B) applied to germline WES variants in 25 HBOC genes in 372 pediatric cancer patients
+- method: muse — observed in PMID:29596782 — note: MuSE somatic SNV caller; one of seven callers in TCGA MC3; highest pair-wise agreement with MuTect; run on DNAnexus cloud
+- method: somatic-sniper — observed in PMID:29596782 — note: SomaticSniper somatic SNV caller; one of seven callers in TCGA MC3; fewest calls overall, lowest false-positive rate; run on DNAnexus cloud
+- method: contest — observed in PMID:29596782 — note: ContEst contamination estimator; samples with contamination >4% excluded from TCGA MC3; also used in prad_p1000 (PMID:29610475) with <5% threshold
+- method: oxog-filter — observed in PMID:29596782 — note: OxoG artifact filter for C>A transversions from 8-oxoguanine damage; one of eight named filters in TCGA MC3 pipeline; run on ISB CGC / Broad FireCloud
+- method: panel-of-normals-filter — observed in PMID:29596782 — note: Broad Panel of Normals v2 (broad_PoN_v2) removed ~30% of called variants in TCGA MC3; largest single filter in the pipeline
+- method: mc3-pipeline — observed in PMID:29596782 — note: seven-caller + eight-filter ensemble somatic calling pipeline for TCGA PanCancer Atlas; distributed as CWL+Docker at github.com/OpenGenomics/mc3
+- method: gatk-cocleaning — observed in PMID:29596782 — note: GATK indel realignment co-cleaning of ~1,600 tumor/normal BAM pairs at UCSC NCI cluster for TCGA MC3 preprocessing
+- method: mutation-validator — observed in PMID:29596782 — note: cross-validation of MC3 somatic calls against TCGA targeted deep-sequencing data on 3,128 samples; run on ISB CGC and Broad FireCloud
+- method: vep — observed in PMID:29596782 — note: Ensembl VEP for functional consequence annotation; invoked via vcf2maf v1.6.11 in the TCGA MC3 pipeline
+- method: vcf2maf — observed in PMID:29596782 — note: VCF-to-MAF conversion with VEP annotation and ExAC common-variant filter (AC>16); v1.6.11 used in TCGA MC3
+- method: cwl-docker-workflow — observed in PMID:29596782 — note: CWL + Docker packaging of TCGA MC3 seven-caller pipeline; released at github.com/OpenGenomics/mc3 for reproducible cloud execution
+- method: star-fusion — observed in PMID:29617662 — note: primary RNA-seq fusion caller in TCGA pan-cancer fusion analysis (9,624 samples, 33 cancer types); dominant caller; FFPM >0.1 required for STAR-Fusion-only calls
+- method: ericscript — observed in PMID:29617662 — note: one of three fusion callers in TCGA pan-cancer analysis; used alongside STAR-Fusion and BREAKFAST with 5 kb/100 kb min-distance cutoffs
+- method: breakfast — observed in PMID:29617662 — note: one of three fusion callers in TCGA pan-cancer analysis; used alongside STAR-Fusion and EricScript with distance cutoffs to reduce readthrough artifacts
+- method: agfusion — observed in PMID:29617662 — note: AGFusion protein-domain annotation tool; determined kinase-domain integrity for 2,892 kinase fusions; 1,275 (44.1%) had intact kinase domain
+- method: mc3 — observed in PMID:29617662 — note: MC3 Public MAF used as mutation-data source for fusion-driver integration in 8,955 TCGA patients; distinct from mc3-pipeline (the workflow)
+- method: netmhc4 — observed in PMID:29617662 — note: NetMHC 4.0 neoantigen predictor; predicted mean 1.5 neoantigens per fusion across 9,624 TCGA samples; results described as exploratory
+- method: depo — observed in PMID:29617662 — note: Database of Evidence for Precision Oncology; druggability annotation oracle; 574/9,624 samples (6%) had at least one druggable fusion (off-label permitted)
+- method: tukey-outlier-detection — observed in PMID:29617662 — note: Tukey IQR-based expression outlier detection to identify overexpressed fusion partners in TCGA pan-cancer RNA-seq; 6–28% of kinase fusions were outliers by cancer type
+- method: crispr-cas9-arm-deletion — observed in PMID:29622463 — note: CRISPR DSB + artificial-telomere strategy to delete chr_3p arm in AALE cells (Uno et al. 2017 method); confirmed by Sanger, qPCR, WGS, karyotyping
+- method: chromosome-arm-aneuploidy-score — observed in PMID:29622463 — note: per-sample count of altered arm-level SCNAs (0–39 scale) from ABSOLUTE segmented copy number; Gaussian mixture model + BIC cluster selection; range 0 to 39
+- method: hmmcopy — observed in PMID:29622463 — note: HMMCopy applied to low-coverage MiSeq WGS from AALE chr_3p-deleted clones to detect subclonal copy-number changes
+- method: ichorcna — observed in PMID:29622463 — note: IchorCNA applied to low-coverage MiSeq WGS from AALE chr_3p-deleted clones alongside HMMCopy to detect chromosome-3 duplication subclones
+- method: star-aligner — observed in PMID:29622463 — note: STAR aligner used for RNA-seq mapping in AALE chr_3p-deleted cell experiments (HiSeq 2500 PE100); part of STAR + RSEM + edgeR pipeline
+- method: karyotyping — observed in PMID:29622463 — note: cytogenetic confirmation of chr_3p hemizygosity in CRISPR-engineered AALE clones alongside Sanger sequencing, qPCR, and WGS

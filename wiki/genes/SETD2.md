@@ -19,6 +19,7 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 - Listed among the somatic events associated with worse aggressive-disease-free survival (ADFS) and metastatic-free survival (MFS), alongside [MAML3](../genes/MAML3.md) fusion and [ATRX](../genes/ATRX.md) somatic mutation. [PMID:28162975](../papers/28162975.md)
 - Chromatin modifier [SETD2](../genes/SETD2.md) enriched in the unknown mitogenic driver (UMD) subset of metastatic [LUAD](../cancer_types/LUAD.md) (especially never/former-light smokers) in a prospective MSK-IMPACT cohort of 860 patients [PMID:28336552](../papers/28336552.md).
 - E282Rfs*9 frameshift mutation observed in 1/19 sequenced oligodendroglioma tumors [PMID:28472509](../papers/28472509.md)
+- Identified as a significantly mutated gene (SMG) in kidney renal clear cell carcinoma (KIRC), called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF [PMID:29596782](../papers/29596782.md)
 
 ## Cancer types (linked)
 
@@ -45,5 +46,8 @@ SETD2 (SET Domain Containing 2, Histone Lysine Methyltransferase) is the primary
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28472509](../papers/28472509.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

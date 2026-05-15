@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -67,6 +67,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 is a germline DDR gene contributing to the 27% combined HR-deficiency rate in prostate cancer; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale [PMID:28825054](../papers/28825054.md)
 - placeholder
 - Alterations in BRCA1 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
+- One missense [BRCA1](../genes/BRCA1.md) LP/PV was identified in a pediatric cancer predisposition cohort (n=372); burden test was non-significant (OR=1.9, p=0.406). [PMID:29489754](../papers/29489754.md)
 
 ## Cancer types (linked)
 
@@ -198,5 +199,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

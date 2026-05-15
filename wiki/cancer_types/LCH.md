@@ -4,8 +4,8 @@ oncotree_code: LCH
 main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
-processed_by: crosslinker
-processed_at: 2026-04-08
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Langerhans Cell Histiocytosis (LCH)
@@ -22,6 +22,7 @@ Langerhans Cell Histiocytosis is a Histiocytosis (parent HDCN).
 
 - Across histiocytosis: [BRAF](../genes/BRAF.md) 33% (mostly V600E), [MAP2K1](../genes/MAP2K1.md) 13%, [KRAS](../genes/KRAS.md) 7%, [CSF1R](../genes/CSF1R.md) 2.4% [PMID:36862133](../papers/36862133.md).
 - Actionable fusions: MS4A6A-BRAF, DOCK8-BRAF, HLA-A-BRAF, TFG-[ALK](../genes/ALK.md), PRDX1-[NTRK1](../genes/NTRK1.md) (detected by [RNA-seq](../methods/rna-seq.md)) [PMID:36862133](../papers/36862133.md).
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) identified one LCH patient (LPP_20) carrying two distinct heterozygous LP/PVs: CHEK2 c.1165C>T p.(Arg389Cys) and NF1 c.4137dup p.(Ala1380Serfs*15), without neurofibromatosis type 1 features but with positive family history of late-onset cancers [PMID:29489754](../papers/29489754.md)
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Langerhans Cell Histiocytosis is a Histiocytosis (parent HDCN).
 - [PMID:36862133](../papers/36862133.md)
 
 *This page was processed by **crosslinker** on **2026-04-08**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

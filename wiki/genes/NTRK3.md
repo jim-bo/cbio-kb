@@ -12,7 +12,7 @@ tags:
   - ETV6
   - larotrectinib
   - NTRK-inhibitor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -35,6 +35,7 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 - ETV6-NTRK3 fusion identified in 2 tumors initially diagnosed as acinic cell carcinoma, reclassifying them as mammary analogue secretory carcinoma (MASC); both patients responded to a TRK inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - EML4–NTRK3 fusion in congenital fibrosarcoma (IFS) supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; ALK-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - Fusions present in 8% of MSI-H vs 1% of MSS mCRC; specific fusion identified: ETV6-NTRK3; TRK-inhibitor candidates in MSI-H mCRC [PMID:29316426](../papers/29316426.md)
+- Among the top recurrent 3'-kinase tyrosine kinases enriched in THCA (thyroid carcinoma) fusions in pan-cancer RNA-seq analysis of 9,624 TCGA samples; 94% of THCA kinase fusions involve 3'-enriched kinases including NTRK1, NTRK3, and BRAF. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -57,34 +58,17 @@ NTRK3 (Neurotrophic Receptor Tyrosine Kinase 3, also TRKC) is a member of the ne
 
 ## Sources
 
+- [PMID:18948947](../papers/18948947.md)
+- [PMID:23817572](../papers/23817572.md)
+- [PMID:25417114](../papers/25417114.md)
+- [PMID:25526346](../papers/25526346.md)
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:27346245](../papers/27346245.md)
+- [PMID:27442865](../papers/27442865.md)
+- [PMID:28007021](../papers/28007021.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29617662](../papers/29617662.md)
 - [PMID:39305899](../papers/39305899.md)
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23817572](../papers/23817572.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25417114](../papers/25417114.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25526346](../papers/25526346.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27346245](../papers/27346245.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28007021](../papers/28007021.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*

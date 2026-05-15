@@ -3,7 +3,7 @@ symbol: RET
 aliases: []
 cancer_types: [NPC, THPA]
 tags: [fusion, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - Kinase fusions enriched in LUAD but also detected across 11 additional tumor types in 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
 - One NCOA4-RET fusion observed in MSS mCRC in a 1,640-tumor targeted sequencing cohort [PMID:29316426](../papers/29316426.md)
 - Reported at 1% frequency as an actionable driver in NSCLC with too few events for response analysis in the MSK-IMPACT anti-PD-(L)1 TMB cohort (n=240) [PMID:29337640](../papers/29337640.md)
+- CCDC6–RET and other RET fusions are recurrent in THCA (4.2%; 33 samples flagged as druggable) and also seen in LUAD; RET is among the top 3'-kinase recurrent partners in the TCGA 9,624-sample pan-cancer fusion catalog, with intact kinase domains and elevated 3' expression consistent with promoter-swap-driven oncogene activation [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -4,7 +4,7 @@ oncotree_code: PRAD
 main_type: Prostate Cancer
 parent: PROSTATE
 tags: [prostate]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -48,6 +48,8 @@ OncoTree code for prostate adenocarcinoma.
 - MET500 metastatic cohort: prostate adenocarcinoma was the largest lineage represented (93/500, 18.6%); AR alterations (12.6%) were lineage-restricted (predominantly PRAD); mutation burden was significantly elevated vs TCGA primaries with the largest increase in prostate cancer; germline pathogenic variants in HOXB13 (3 carriers, prostate-susceptibility allele) observed. [PMID:28783718](../papers/28783718.md)
 - MSK-IMPACT targeted profiling of 504 tumors from 451 PRAD patients spanning locoregional to mCRPC: actionable alterations in 36%, 22% somatic HR-gene alterations, 19% germline pathogenic variants in 221 tested (BRCA2 9%, CHEK2 4%, ATM 2%); AR, TP53, PTEN, RB1, ATM frequencies escalate with castration resistance; TP53 and BRCA2 alterations are early clonal events. [PMID:28825054](../papers/28825054.md)
 - SNPs-seq screen of 374 PRAD GWAS loci nominated rs4519489 (NOL10 intron, 2p25) as functional: A allele drives higher NOL10 expression via USF1 binding; elevated NOL10 tracks with advanced stage, lymph-node metastasis, Gleason score, BCR, and shorter OS across CPGEA, TCGA PRAD, and multiple validation cohorts (meta-analysis BCR HR=2.49, P=1.81e-9). [PMID:28927585](../papers/28927585.md)
+- WES meta-analysis of 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) identified 97 SMGs; novel drivers include CUL3 (1.3%, SPOP-like), SPEN (2.4%, metastasis-enriched AR-pathway), SF3B1/U2AF1 spliceosome pathway (4%), PIK3R2 p.Asp557Tyr, CDK12 biallelic inactivation, MRE11, and PALB2; TMPRSS2–ERG fusions define the dominant fusion subtype [PMID:29610475](../papers/29610475.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified TMPRSS2–ERG as the most recurrent single-cancer fusion (38.2% of PRAD, 205 samples); 205 PRAD samples were annotated as druggable via TMPRSS2, making it the largest druggable-fusion group in the pan-cancer cohort [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -95,3 +97,9 @@ OncoTree code for prostate adenocarcinoma.
 - [PMID:28927585](../papers/28927585.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

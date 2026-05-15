@@ -4,7 +4,7 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -44,6 +44,9 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
 - TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset [PMID:28052061](../papers/28052061.md)
 - TCGA HNSC mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma; open question remains whether the 40% PIK3CA and FAT1 prevalences in vulvar SCC align with rates in HNSC and other head-and-neck SCCs [PMID:29422544](../papers/29422544.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included HNSC; HNSC concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified a TRABD–DDR2 promoter-swap fusion driving DDR2 overexpression in one HNSC sample (candidate for dasatinib); DDR2 fusions seen in nine additional samples across five cancer types; FGFR3–TACC3 was present in 1.2% of LUSC (squamous) tumors [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed HPV+ and HPV− HNSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); the squamous signature was strongest in LUSC, ESCC, and HPV-negative HNSC; leukocyte fraction was negatively correlated with aneuploidy in HNSC (Spearman ρ = −0.312) [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -95,3 +98,12 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -4,7 +4,7 @@ oncotree_code: LUSC
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -30,6 +30,9 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - LUSC had a 97% pre-operative ctDNA detection rate (30/31 cases) in the TRACERx cohort, compared with 19% for LUAD; non-adenocarcinoma histology, lymphovascular invasion, and high Ki67 were independent predictors of ctDNA detection on multivariable logistic regression. [PMID:28445469](../papers/28445469.md)
 - Squamous cell lung cancer comprised 14% (34/240) of the anti-PD-(L)1 NSCLC MSK-IMPACT cohort used to validate targeted NGS-based TMB as an immunotherapy biomarker; LUSC mutational signatures were used as a comparison reference in the vulvar SCC WES landscape study [PMID:29337640](../papers/29337640.md)
 - LUSC mutational signatures (TCGA) were used as a reference comparison cohort in the first whole-exome sequencing landscape of vulvar squamous cell carcinoma; signature profiles were compared across HPV(+) and HPV(-) etiologic subgroups [PMID:29422544](../papers/29422544.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included LUSC; LUSC and LUAD had the largest median SNVs per sample, consistent with tobacco-mutagen exposure [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 1.2% of LUSC samples; FGFR3 is a druggable target across 15 cancer types [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed LUSC in the squamous arm-level cluster (chr_3p loss + chr_3q gain); chr_3p was deleted in ~80% of LUSC tumors and chr_3q gained in >60%; co-occurrence was significantly above chance (chi-square p = 0.0386); the squamous signature was most prominent in LUSC [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -62,3 +65,12 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

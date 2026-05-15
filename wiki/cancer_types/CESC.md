@@ -4,7 +4,7 @@ oncotree_code: CESC
 main_type: Cervical Cancer
 parent: CERVIX
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -32,6 +32,8 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - In 16 recurrent/metastatic cervical SCC profiled by MSK-IMPACT (Morris et al.): TP53 mutation frequency 25% (4/16) versus 3% (5/170) in TCGA primary cervix tumors (OR 8.3, P=.008); paralleling the pattern in advanced HPV-positive HNSC where TP53 mutations accumulate with disease progression [PMID:27442865](../papers/27442865.md).
 - Cervical cancer showed responses to neratinib in the SUMMIT basket trial for HER2-mutant solid tumors, including HER2 S310 (extracellular hotspot) mutants, in contrast to bladder cancer which showed lineage-based resistance despite the same allele [PMID:29420467](../papers/29420467.md)
 - TCGA CESC mutational signatures were compared with vulvar SCC (the first WES landscape of that tumor type); open question remains whether PIK3CA and FAT1 prevalences align across gynecologic SCCs including CESC and vulvar SCC [PMID:29422544](../papers/29422544.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 1.7% of CESC samples; CESC was part of the squamous cluster with chr_3p loss and chr_3q gain in the aneuploidy analysis; ERBB2 fusions with HPV-integration proximity were also detected in cervical tumors [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed CESC in the squamous arm-level cluster (chr_3p loss + chr_3q gain) alongside HPV+ and HPV− HNSC, ESCC, and LUSC; HPV-positive status stratifies samples within this cluster [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -64,3 +66,9 @@ Cervical squamous cell carcinoma (CESC) is a malignant epithelial tumor of the u
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

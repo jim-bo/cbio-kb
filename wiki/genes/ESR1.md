@@ -24,6 +24,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - Metastasis-specific driver (OR=29, p=1.2e-12) in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)); 22 mBCs with hormone-receptor-domain hotspot mutations and 9 with focal amplification (combined 19% of HR+/HER2− mBC); all 22 ESR1-mutant patients had received prior endocrine therapy, establishing ESR1 as a primary mechanism of acquired endocrine resistance [PMID:28027327](../papers/28027327.md).
 - Recurrent hotspot mutations in BRCA and UCEC, almost exclusively in post-hormone-therapy metastases; enriched in the MSK-IMPACT metastatic cohort vs TCGA, clinically relevant for hormone-therapy management [PMID:28481359](../papers/28481359.md)
 - ESR1 target genes are hypomethylated in uterine leiomyosarcoma (ULMS) compared to somatic-tissue LMS (STLMS), supporting hormonal-axis differences between uterine and soft-tissue LMS subtypes in sarcoma [PMID:29100075](../papers/29100075.md)
+- ESR1 fusions detected in 16 samples across 5 cancer types (9 in [BRCA](../cancer_types/BRCA.md), 8 of which luminal A/B) in the TCGA pan-cancer fusion landscape; strict mutual exclusivity with ESR1 point mutations; when ESR1 is the 5' partner the AF1 transactivation domain is preserved, when 3' the AF2 domain is preserved; ESR1 expression is elevated in fusion-positive samples [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -68,5 +69,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

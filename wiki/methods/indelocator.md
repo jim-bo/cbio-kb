@@ -9,7 +9,7 @@ tags:
   - somatic-mutation
   - whole-exome-seq
   - whole-genome-seq
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -29,6 +29,7 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - Used alongside Strelka for indel calling in 619 CRC FFPE tumor/normal WES pairs; concordant calls from both tools were retained to reduce false positives [PMID:27149842](../papers/27149842.md)
 - Used alongside MuTect for indel calling in 1,144 NSCLC (660 lung ADC + 484 lung SqCC) tumor/normal exome pairs [PMID:27158780](../papers/27158780.md)
 - Applied alongside MuTect for indel calling in 412 BLCA whole-exome sequencing tumor-normal pairs [PMID:28988769](../papers/28988769.md)
+- One of seven callers in the TCGA MC3 pipeline; run by Broad Firehose alongside MuTect and ContEst [PMID:29596782](../papers/29596782.md)
 
 ## Notes
 
@@ -57,3 +58,6 @@ Indelocator is a somatic indel (insertion/deletion) caller developed at the Broa
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

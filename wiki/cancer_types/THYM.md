@@ -4,8 +4,8 @@ oncotree_code: THYM
 main_type: Thymic Tumor
 parent: TET
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Thymoma (THYM)
@@ -22,6 +22,9 @@ Thymoma encompasses WHO types A, AB, B1, B2, and B3 thymic epithelial tumors; in
 
 - GTF2I p.Leu404His (chr7:74146970 T>A) in 82% of type A, 74% of type AB, 78% combined A/AB thymomas (n=270 TETs total); associated with 96% 10-year disease-related survival vs 70% for GTF2I wild-type (P<0.001); GTF2I mutation was enriched in early-stage (I–II, 57%) vs advanced (III–IV, 19%) disease [PMID:24974848](../papers/24974848.md).
 - Mutation burden is significantly lower in thymomas than thymic carcinomas (mean 18.4 vs 43.5 coding mutations per sample; P=0.001) [PMID:24974848](../papers/24974848.md).
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included THYM; THYM showed large sample-to-sample variability in mutations per sample attributable to low tumor purity (median ABSOLUTE purity 39.0%) [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) found THYM had a median of 0 fusions/sample (low-fusion cancer type) but the highest mean predicted fusion-derived neoantigens (2.88 per fusion among cancer types) [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study found THYM has one of the lowest mean aneuploidy scores (3.8), consistent with being a near-diploid cancer type; THYM was included in the pan-cancer cohort of 10,522 TCGA tumors [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -37,3 +40,12 @@ Thymoma encompasses WHO types A, AB, B1, B2, and B3 thymic epithelial tumors; in
 - [PMID:24974848](../papers/24974848.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

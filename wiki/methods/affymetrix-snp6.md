@@ -5,7 +5,7 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, microarray]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -64,6 +64,7 @@ A high-density microarray platform used for detecting DNA copy number variations
 - HumanOmniExpress SNP arrays (Affymetrix-style SNP copy-number profiling) applied to 175 CCA cases for somatic copy-number alteration calling in the ICGC cholangiocarcinoma cohort [PMID:28667006](../papers/28667006.md)
 - Used for copy-number analysis in 412 BLCA tumors with GISTIC 2.0 and ABSOLUTE; identified 34 amplified and 32 deleted focal regions, with CDKN2A (9p21.3) deletion in 22% of tumors [PMID:28988769](../papers/28988769.md)
 - Used for somatic copy-number analysis in 206 TCGA sarcomas; DDLPS showed the highest SCNA frequency of any TCGA tumor type, driven by recurrent 12q13~15 amplification [PMID:29100075](../papers/29100075.md)
+- Affymetrix SNP 6.0 arrays used for copy-number profiling of 10,522 TCGA pan-cancer samples; processed with ABSOLUTE to derive arm-level aneuploidy scores [PMID:29622463](../papers/29622463.md)
 
 ## Notes
 
@@ -212,3 +213,6 @@ A high-density microarray platform used for detecting DNA copy number variations
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

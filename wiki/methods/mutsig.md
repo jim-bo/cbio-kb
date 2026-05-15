@@ -63,6 +63,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MuSiC (Genome MuSiC) and MutSig 2CV applied to 206 TCGA sarcomas identifying only 3 significantly mutated genes (FDR<0.05): TP53, ATRX, RB1 [PMID:29100075](../papers/29100075.md)
 - MutSig2CV identified PBRM1 as the only recurrently mutated gene enriched in anti-PD-1 responders (9/11 vs 3/13 CB vs NCB; p=0.012) in 35 metastatic [CCRCC](../cancer_types/CCRCC.md) WES samples [PMID:29301960](../papers/29301960.md)
 - Applied with MuSiC to identify 47 significantly recurrently mutated genes in 1,027 MSS colorectal adenocarcinomas, including APC (79%), TP53 (78%), KRAS (44%), PIK3CA (18%), and SMAD4 (16%) [PMID:29316426](../papers/29316426.md)
+- MutSig2CV (P < 3.5e-5) applied to KIRC PASS variants from the MC3 open-access MAF; identified 10 SMGs; the unfiltered MAF inflated the list to 1,203 SMGs, demonstrating the necessity of stringent filtering [PMID:29596782](../papers/29596782.md)
+- MutSig2CV (integrating MutSigCV, MutSigFN, MutSigCL) applied to 1,013 prostate WES samples with additional biological filters (≥10 altered samples, allelic-fraction floors, length/expression/oncogenic-variant filters); identified 97 SMGs [PMID:29610475](../papers/29610475.md)
 
 ## Notes
 
@@ -209,5 +211,11 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -26,6 +26,7 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 - FGFR3-TACC3 fusion identified in 1 low-grade Ta NMIBC tumor; novel fusion detected by targeted NGS panel in the MSK NMIBC cohort (n=105) [PMID:28583311](../papers/28583311.md)
 - FGFR3-TACC3 fusion first reported in cholangiocarcinoma; previously characterized as oncogenic in bladder cancer, glioblastoma, and lung cancer [PMID:28667006](../papers/28667006.md)
 - Fusion partner of [FGFR3](../genes/FGFR3.md) in the recurrent intra-chromosomal FGFR3-TACC3 fusion (n=10), an in-frame activating event particularly enriched in the luminal-papillary MIBC subtype [PMID:28988769](../papers/28988769.md)
+- FGFR3-TACC3 is a recurrent inframe activating kinase fusion across BLCA (2.0%), CESC (1.7%), and LUSC (1.2%); FGFR3 named as a druggable target in 15 cancer types in the TCGA pan-cancer fusion landscape [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ TACC3 is a centrosomal/spindle protein best known in cancer genomics as the cano
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

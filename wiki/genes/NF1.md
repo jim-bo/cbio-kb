@@ -3,7 +3,7 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -70,6 +70,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Mutations in NF1 were associated with more favorable overall survival in DLBCL (combined GCB and ABC cohort analysis of 1001 patients) [PMID:28985567](../papers/28985567.md)
 - Homozygous copy-number deletions in NF1 were manually reviewed and confirmed in melanoma patients treated with nivolumab as part of copy-number analysis from the Riaz et al. cohort [PMID:29033130](../papers/29033130.md)
 - Truncating mutations in NF1 (n=3) were found among potentially functional driver mutations in the TCGA sarcoma cohort; NF1 shallow deletions occurred in 22% and deep deletions in 6% of DDLPS; NF1 was not epigenetically silenced in bladder cancer (no promoter hypermethylation detected) [PMID:29100075](../papers/29100075.md)
+- Two LP/PVs (one pLoF, one truncating intronic splice-region variant) in German pediatric cancer predisposition cohort; burden OR=9.8, p=.020 single-cohort, confirmed in joint analysis; one carrier (LPP_20) co-carried CHEK2 LP/PV and lacked typical NF1 clinical features; no CNV analysis performed so carrier frequency may be underestimated. [PMID:29489754](../papers/29489754.md)
 
 ## Cancer types (linked)
 
@@ -112,94 +113,49 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39147831](../papers/39147831.md)
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
-- [PMID:20601955](../papers/20601955.md)
-
 - [PMID:18948947](../papers/18948947.md)
-
+- [PMID:20601955](../papers/20601955.md)
+- [PMID:21720365](../papers/21720365.md)
+- [PMID:22722201](../papers/22722201.md)
+- [PMID:22817889](../papers/22817889.md)
+- [PMID:22842228](../papers/22842228.md)
+- [PMID:22960745](../papers/22960745.md)
+- [PMID:22980975](../papers/22980975.md)
+- [PMID:23000897](../papers/23000897.md)
+- [PMID:23334668](../papers/23334668.md)
+- [PMID:23525077](../papers/23525077.md)
+- [PMID:23817572](../papers/23817572.md)
+- [PMID:23897969](../papers/23897969.md)
+- [PMID:24120142](../papers/24120142.md)
+- [PMID:24265153](../papers/24265153.md)
+- [PMID:24418857](../papers/24418857.md)
+- [PMID:24436047](../papers/24436047.md)
+- [PMID:25079317](../papers/25079317.md)
+- [PMID:25079552](../papers/25079552.md)
+- [PMID:25240281](../papers/25240281.md)
+- [PMID:25417114](../papers/25417114.md)
+- [PMID:25589618](../papers/25589618.md)
+- [PMID:25631445](../papers/25631445.md)
+- [PMID:26091043](../papers/26091043.md)
+- [PMID:26343386](../papers/26343386.md)
+- [PMID:26437033](../papers/26437033.md)
+- [PMID:26824661](../papers/26824661.md)
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:27158780](../papers/27158780.md)
+- [PMID:27161491](../papers/27161491.md)
+- [PMID:27442865](../papers/27442865.md)
+- [PMID:28162975](../papers/28162975.md)
+- [PMID:28336552](../papers/28336552.md)
+- [PMID:28373299](../papers/28373299.md)
+- [PMID:28472509](../papers/28472509.md)
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:28985567](../papers/28985567.md)
+- [PMID:29033130](../papers/29033130.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29489754](../papers/29489754.md)
+- [PMID:36355783](../papers/36355783.md)
+- [PMID:36577525](../papers/36577525.md)
+- [PMID:36585450](../papers/36585450.md)
 - [PMID:36593350](../papers/36593350.md)
 
-- [PMID:36585450](../papers/36585450.md)
-
-- [PMID:36577525](../papers/36577525.md)
-
-- [PMID:36355783](../papers/36355783.md)
-
-- [PMID:21720365](../papers/21720365.md)
-
-- [PMID:22722201](../papers/22722201.md)
-
-- [PMID:22817889](../papers/22817889.md)
-
-- [PMID:22842228](../papers/22842228.md)
-
-- [PMID:22960745](../papers/22960745.md)
-
-- [PMID:22980975](../papers/22980975.md)
-
-- [PMID:23000897](../papers/23000897.md)
-
-- [PMID:23334668](../papers/23334668.md)
-
-- [PMID:23525077](../papers/23525077.md)
-
-- [PMID:23817572](../papers/23817572.md)
-
-- [PMID:23897969](../papers/23897969.md)
-
-- [PMID:24120142](../papers/24120142.md)
-
-- [PMID:24265153](../papers/24265153.md)
-
-- [PMID:24418857](../papers/24418857.md)
-
-- [PMID:24436047](../papers/24436047.md)
-
-- [PMID:25079317](../papers/25079317.md)
-
-- [PMID:25079552](../papers/25079552.md)
-
-- [PMID:25240281](../papers/25240281.md)
-
-- [PMID:25417114](../papers/25417114.md)
-
-- [PMID:25589618](../papers/25589618.md)
-
-- [PMID:25631445](../papers/25631445.md)
-
-- [PMID:26091043](../papers/26091043.md)
-
-- [PMID:26343386](../papers/26343386.md)
-
-- [PMID:26437033](../papers/26437033.md)
-
-- [PMID:26824661](../papers/26824661.md)
-
-- [PMID:26878173](../papers/26878173.md)
-
-- [PMID:27158780](../papers/27158780.md)
-
-- [PMID:27161491](../papers/27161491.md)
-
-- [PMID:27442865](../papers/27442865.md)
-
-- [PMID:28162975](../papers/28162975.md)
-
-- [PMID:28336552](../papers/28336552.md)
-
-- [PMID:28373299](../papers/28373299.md)
-
-- [PMID:28472509](../papers/28472509.md)
-
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29033130](../papers/29033130.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*

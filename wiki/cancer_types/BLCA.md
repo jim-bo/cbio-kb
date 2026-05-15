@@ -4,7 +4,7 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -41,6 +41,9 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - MSK-IMPACT targeted sequencing of 105 nonmuscle invasive bladder cancer (NMIBC) tumors (blca_nmibc_2017) found TERT promoter mutations in 73% across all grade/stage groups; chromatin-modifying gene alterations in 69% (KDM6A 38%, ARID1A 21%); ERBB2 and FGFR3 alterations in 57% of high-grade NMIBC in a mutually exclusive pattern; DDR gene alterations in 30% of high-grade NMIBC; ARID1A mutations associated with 3.14-fold higher BCG-recurrence risk (HR=3.14, 95% CI 1.51-6.51, P=0.002). [PMID:28583311](../papers/28583311.md)
 - TCGA expanded comprehensive molecular characterization of 412 chemotherapy-naive muscle-invasive bladder cancers integrating WES, RNA-seq, miRNA-seq, DNA methylation, SNP6, and RPPA; defined five mRNA subtypes (luminal-papillary, luminal-infiltrated, luminal, basal-squamous, neuronal), identified 58 SMGs, and linked APOBEC-dominated mutagenesis (67% of SNVs) paradoxically to best survival [PMID:28988769](../papers/28988769.md)
 - In the SUMMIT basket trial (n=16 bladder), HER2-mutant bladder urothelial carcinoma showed no RECIST responses to neratinib despite S310 hotspot predominance, demonstrating lineage-based intrinsic resistance to single-agent pan-HER kinase inhibition [PMID:29420467](../papers/29420467.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included BLCA; BLCA concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified FGFR3–TACC3 in 2.0% of BLCA samples as a top recurrent intra-cancer fusion; FGFR3 was annotated as a druggable target in BLCA across 15 cancer types [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study (10,522 TCGA tumors) included BLCA in the pan-cancer cohort; BLCA was not highlighted as an outlier for aneuploidy score [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -88,3 +91,12 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

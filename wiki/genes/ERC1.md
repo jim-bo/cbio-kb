@@ -3,8 +3,8 @@ symbol: ERC1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # ERC1
@@ -16,6 +16,7 @@ ERC1 (ELKS/RAB6-interacting/CAST family member 1) encodes a scaffold protein inv
 ## Alterations observed in the corpus
 
 - ERC1-RET fusion observed in an Indian familial young lung cancer (YLC) cohort (Malik et al.); RET rearrangements are enriched in YLC at 9.5% vs 1% in patients >45 years per cBioPortal analysis (Hou et al. 2020) [PMID:27346245](../papers/27346245.md)
+- **ERC1-WNK1** fusion independently reported in a Chinese ESCC cohort; ERC1 is among 23 WNK-family fusions detected in the TCGA pan-cancer fusion analysis, mostly showing elevated WNK mRNA without copy-number amplification [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ERC1 (ELKS/RAB6-interacting/CAST family member 1) encodes a scaffold protein inv
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

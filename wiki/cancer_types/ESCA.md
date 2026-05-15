@@ -4,7 +4,7 @@ oncotree_code: ESCA
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -33,6 +33,9 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - Esophageal adenocarcinoma (included in ESCA in the MSK-IMPACT pan-cancer cohort) had one of the highest TP53 mutation rates at 89% — second only to HGSOC (98%) across the 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 - Esophageal carcinoma was among the cancer subtypes in the MSK cohort of 295 stage-IV esophagogastric adenocarcinoma patients profiled with MSK-IMPACT; most-mutated genes across EGC including ESCA were TP53 (73%), ARID1A (15%), CDKN2A (12%) [PMID:29122777](../papers/29122777.md)
 - TCGA ESCA mutational signatures were used as a reference comparison in the first WES landscape of vulvar squamous cell carcinoma, placing vulvar SCC in the context of other SCCs [PMID:29422544](../papers/29422544.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included ESCA as one of 33 cancer types [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified WNK1/WNK2 fusions in ESCA without matching copy-number amplification, suggesting promoter-swap-driven overexpression; ERC1–WNK1 was independently reported in a Chinese ESCC cohort [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study placed non-squamous ESCA in the gastrointestinal arm-level cluster; squamous ESCA (ESCC) was part of the squamous cluster defined by chr_3p loss and chr_3q gain [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -68,3 +71,12 @@ Esophageal adenocarcinoma (ESCA) is a subtype of esophagogastric adenocarcinoma 
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -36,6 +36,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - RPPA HER2-high clusters 1 and 2 (elevated ERBB2 protein) in MIBC are candidates for trastuzumab or ado-trastuzumab-emtansine; ERBB2 is mutated in 12% and recurrently amplified in the TCGA 412-tumor MIBC cohort [PMID:28988769](../papers/28988769.md)
 - In a 295-patient metastatic EGC cohort (MSK-IMPACT), ERBB2 amplification level by NGS predicted trastuzumab PFS (top-quartile patients: median PFS 24.3 months); 16% of post-trastuzumab samples showed ERBB2 amplification loss; RTK-RAS-PI3K co-alterations independently shortened trastuzumab PFS in multivariate analysis [PMID:29122777](../papers/29122777.md)
 - Cited as context for HER2-targeted therapy in SUMMIT; ERBB2-amplified breast cancer (trastuzumab-indicated) differs from ERBB2-mutant (non-amplified) disease targeted by neratinib — 95% of HER2 mutations in SUMMIT were clonal and 17% co-occurred with amplification, but amplification did not correlate with additional clinical benefit from neratinib [PMID:29420467](../papers/29420467.md)
+- In the TCGA pan-cancer fusion atlas (n=9,624), four [ERBB2](../genes/ERBB2.md) fusions were identified (partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md), genomic neighbors at 17q; 3 of 4 had HPV integration within 1 Mb of ERBB2), representing a fusion-driven mechanism of HER2 dysregulation distinct from — but potentially complementary to — the trastuzumab-targetable amplification in [BRCA](../cancer_types/BRCA.md) [PMID:29617662](../papers/29617662.md)
 
 ## Resistance mechanisms
 
@@ -95,5 +96,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
+- [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); four ERBB2 fusions identified with PPP1R1B/IKZF3 partners, likely arising from HPV-driven local instability; contextualized against trastuzumab-targetable ERBB2 amplification.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

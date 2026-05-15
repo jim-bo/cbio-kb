@@ -44,6 +44,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 identified as a lineage-restricted driver in glioma; contrasted with pan-cancer drivers TP53 and PIK3CA across a 62-tumor-type pan-cancer sequencing cohort [PMID:28481359](../papers/28481359.md)
 - Enriched in cholangiocarcinoma Cluster 4 (31.6% vs 1.0% in other clusters, q < 0.001); proposed driver of CpG-shore DNA hypermethylation via 2-hydroxyglutarate oncometabolite production; candidate for IDH inhibitors (e.g. ivosidenib) [PMID:28667006](../papers/28667006.md)
 - R132C mutation in 6 medulloblastoma cases (5 SHH, 1 WNT); IDH1-mutant SHH tumours are CIMP+, mirroring G-CIMP in glioma [PMID:28726821](../papers/28726821.md)
+- Confirmed established prostate cancer driver; enriched in primary vs metastatic PRAD tumors (p=0.01, weighted permutation test) in the 1,013-sample WES meta-cohort (prad_p1000). [PMID:29610475](../papers/29610475.md)
+- IDH1 mutation defines the LGG subgroup that clusters separately from GBM by aneuploidy pattern: IDH-mutant LGG is characterized by 1p loss and 19q gain (1p/19q co-deletion), while IDH-wildtype GBM shows chromosome 7 gain and chromosome 10 loss. [PMID:29622463](../papers/29622463.md)
 
 ## Cancer types (linked)
 
@@ -145,5 +147,11 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

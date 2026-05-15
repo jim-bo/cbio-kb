@@ -22,7 +22,7 @@ Rectal adenocarcinoma (READ) is a malignant epithelial tumor arising in the rect
 ## Recurrent alterations
 
 No gene-level variant claims are made in the corpus for READ specifically; studies are at the translational/MCT-design stage.
-- In 69 matched MSS colorectal cancer trios (16% rectal primary), rectal tumors showed the same high primary-metastasis concordance for driver mutations ([[KRAS]], [[NRAS]], [[BRAF]]) as colon tumors; metastasis-private RTK-RAS events ([[MAP2K1]] Q56P, [[EGFR]] amplification) were identified in RAS/RAF wild-type cases. [PMID:25164765](../papers/25164765.md)
+- In 69 matched MSS colorectal cancer trios (16% rectal primary), rectal tumors showed the same high primary-metastasis concordance for driver mutations ([KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md), [BRAF](../genes/BRAF.md)) as colon tumors; metastasis-private RTK-RAS events ([MAP2K1](../genes/MAP2K1.md) Q56P, [EGFR](../genes/EGFR.md) amplification) were identified in RAS/RAF wild-type cases. [PMID:25164765](../papers/25164765.md)
 
 ## Subtypes
 

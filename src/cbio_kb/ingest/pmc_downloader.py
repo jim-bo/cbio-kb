@@ -200,7 +200,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Download NIH/PMC PDFs in batches from a pmid→pmcid CSV.")
     ap.add_argument("--in", dest="in_csv", required=True, help="Input CSV (from pmid2pmcid.py)")
     ap.add_argument("--out-dir", required=True, help="Directory to write PDFs")
-    ap.add_argument("--manifest", default="pmc_download_manifest.csv", help="CSV manifest output (default: pmc_download_manifest.csv)")
+    ap.add_argument("--manifest", default="notes/pmc_download_manifest.csv", help="CSV manifest output (default: notes/pmc_download_manifest.csv)")
     ap.add_argument("--batch-size", type=int, default=40, help="Items per batch (default: 40)")
     ap.add_argument("--concurrency", type=int, default=4, help="Concurrent downloads per batch (default: 4)")
     ap.add_argument("--delay", type=float, default=1.0, help="Seconds to sleep between batches (default: 1.0)")

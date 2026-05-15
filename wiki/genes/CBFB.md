@@ -3,7 +3,7 @@ symbol: CBFB
 aliases: [PEBP2B, CBF-beta]
 cancer_types: [BRCA]
 tags: [transcription-factor, differentiation, ER-positive, tumor-suppressor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -22,6 +22,7 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 - CBFB-MYH11 inv(16)/t(16;16) defines favorable AML subgroup (5%, n=81); HR 0.3 (0.2-0.4) in multivariate survival analysis [PMID:27276561](../papers/27276561.md)
 - CBFB-MYH11 fusion in AML identified as a prognostic marker of low-risk stratification in the PIPseq pediatric precision-oncology cohort (Table 3) [PMID:28007021](../papers/28007021.md)
 - CBFB is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC), identified by MutSig analysis of 216 mBC whole-exome sequences vs TCGA primary tumors [PMID:28027327](../papers/28027327.md)
+- Identified in the TCGA pan-cancer fusion landscape as part of the recurrent **CBFB-MYH11** fusion in [LAML](../cancer_types/LAML.md); strongly associated with decreased CBFB (TSG/transcriptional regulator) expression — CBFB is fused but rarely mutated in LAML, representing an alternative inactivation mechanism [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -64,3 +65,6 @@ CBFB encodes the beta subunit of the core binding factor (CBF) transcription fac
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

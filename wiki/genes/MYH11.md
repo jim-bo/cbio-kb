@@ -3,7 +3,7 @@ symbol: MYH11
 aliases: []
 cancer_types: [AML]
 tags: [fusion, CBFB-partner, core-binding-factor, leukemia, inv16]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -20,6 +20,7 @@ MYH11 (Myosin Heavy Chain 11) encodes a smooth muscle myosin heavy chain. In [AM
 - CBFB-MYH11 inv(16)/t(16;16) fusion in 5% (n=81) of AML; class-defining favorable event with HR 0.3 (0.2–0.4) for overall survival [PMID:27276561](../papers/27276561.md)
 - CBFB–MYH11 fusion detected in pediatric AML; prognostic marker for low-risk stratification in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 - MYH11 mRNA expression was among the highest in leiomyosarcoma (LMS) relative to other sarcoma subtypes (all p<5e-39), reflecting the myogenic differentiation program characteristic of LMS; it was a key discriminator between LMS and other sarcoma types in iCluster analysis [PMID:29100075](../papers/29100075.md)
+- Partner gene in the CBFB-MYH11 fusion, a classic recurrent leukemic fusion recovered in LAML fusion-only tumors; strongly associated with decreased CBFB (TSG/transcriptional regulator) expression — an alternative CBFB inactivation mechanism distinct from point mutation. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -40,14 +41,9 @@ MYH11 (Myosin Heavy Chain 11) encodes a smooth muscle myosin heavy chain. In [AM
 ## Sources
 
 - [PMID:23634996](../papers/23634996.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28007021](../papers/28007021.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -7,7 +7,7 @@ tags:
   - biliary
   - hepatobiliary
   - cholangiocarcinoma
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -27,6 +27,7 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - Narrative review of gut-liver axis dysregulation in cholangiocarcinoma identifies gut microbiota dysbiosis, bile acid metabolic reprogramming (conjugated primary BAs accumulate; a CDCA+TCDCA panel outperformed CA19-9, AUC=0.95), and LPS/TLR4-driven immunosuppression as CCA progression mechanisms; [ivosidenib](../drugs/ivosidenib.md) (IDH1-mutant iCCA) and [futibatinib](../drugs/futibatinib.md) (FGFR2-rearranged iCCA) are highlighted as precision therapeutics. [PMID:25608663](../papers/25608663.md)
 - ICGC multi-omic profiling of 489 cholangiocarcinomas from 10 countries defined four etiology-driven molecular clusters, nominating ERBB2 amplification (10.4% Fluke-Pos), IDH1/IDH2 mutations, FGFR2 rearrangements, and four new drivers (RASA1, STK11, MAP2K4, SF3B1); integrative clusters predicted prognosis independently of anatomical location and fluke status. [PMID:28667006](../papers/28667006.md)
 - Biliary tract cancer (cholangiocarcinoma) showed responses to neratinib in the SUMMIT basket trial for HER2/HER3-mutant solid tumors, including HER2 kinase domain missense mutations (L755, V777), contributing to the lineage-plus-allele pattern of pan-HER TKI sensitivity [PMID:29420467](../papers/29420467.md)
+- Pan-cancer fusion study (9,624 TCGA samples) identified FGFR2–BICC1 as the most recurrent fusion in CHOL (5.6% of cholangiocarcinoma samples), with FGFR2 being a candidate druggable target [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -53,3 +54,6 @@ Cholangiocarcinoma (CCA) is a malignancy arising from the biliary epithelium. In
 - [PMID:29420467](../papers/29420467.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

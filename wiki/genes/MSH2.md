@@ -3,8 +3,7 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
-P26-05-15
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -35,6 +34,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MMR gene altered in ~3% of advanced prostate cancer patients alongside MLH1, MSH6, and PMS2; alterations produce a hypermutator phenotype with MMR/MSI signatures suggesting immune-checkpoint blockade candidacy [PMID:28825054](../papers/28825054.md)
 - Low MSH2 expression was identified in one of the two sarcoma tumors (along with an MSH6 frameshift mutation in the other) with the COSMIC6 mismatch repair signature and highest mutational burden in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 - Assayed by IHC for MMR protein status in mCRC (N=1,152); concordance between IHC-based MMR status and MSIsensor score was 98.6% [PMID:29316426](../papers/29316426.md)
+- One pLoF likely pathogenic/pathogenic variant in German pediatric cancer predisposition cohort (n=390); reached significance in joint analysis with Zhang et al. (OR=7.1, p=.039); MSH2 is the only DNA-repair gene consistently associated with childhood cancer in a prior meta-analysis. [PMID:29489754](../papers/29489754.md)
 
 ## Cancer types (linked)
 
@@ -59,50 +59,25 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 ## Sources
 
-- [PMID:38653864](../papers/38653864.md)
 - [PMID:18772890](../papers/18772890.md)
+- [PMID:22810696](../papers/22810696.md)
+- [PMID:24293293](../papers/24293293.md)
+- [PMID:24816255](../papers/24816255.md)
+- [PMID:25765070](../papers/25765070.md)
+- [PMID:25855536](../papers/25855536.md)
+- [PMID:26000489](../papers/26000489.md)
+- [PMID:26878173](../papers/26878173.md)
+- [PMID:26928463](../papers/26928463.md)
+- [PMID:27442865](../papers/27442865.md)
+- [PMID:28472509](../papers/28472509.md)
+- [PMID:28825054](../papers/28825054.md)
+- [PMID:29100075](../papers/29100075.md)
+- [PMID:29316426](../papers/29316426.md)
+- [PMID:29489754](../papers/29489754.md)
+- [PMID:38653864](../papers/38653864.md)
 - [PMID:38758238](../papers/38758238.md)
 - [PMID:38949888](../papers/38949888.md)
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24816255](../papers/24816255.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25765070](../papers/25765070.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25855536](../papers/25855536.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26000489](../papers/26000489.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27442865](../papers/27442865.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28472509](../papers/28472509.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28825054](../papers/28825054.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29316426](../papers/29316426.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*

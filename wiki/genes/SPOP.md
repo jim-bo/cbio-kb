@@ -26,6 +26,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Recurrent mCRPC driver mutation consistent with prior reports; identified among pan-metastasis driver genes in a rapid-autopsy whole-genome sequencing cohort [PMID:26928463](../papers/26928463.md)
 - Mutated in 14.3% of clear-cell endometrial carcinoma (CCEC; n=63) in a cross-histology endometrial sequencing study [PMID:28485815](../papers/28485815.md)
 - Enriched in earlier prostate cancer disease states (12% locoregional vs 5% mCRPC); paired with FOXA1, defines a possibly androgen-deprivation-sensitive subset (functional validation pending) [PMID:28825054](../papers/28825054.md)
+- Established prostate cancer driver confirmed in a 1,013-sample cohort; mutually exclusive with CUL3 mutations; both function in the BTB-CUL3-RBX1 E3 ubiquitin ligase complex. Metastasis-vs-primary enrichment quantified [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -76,5 +77,8 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

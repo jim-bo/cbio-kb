@@ -9,8 +9,8 @@ tags:
   - dna-repair
   - lung-adenocarcinoma
   - never-smoker
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MRE11
@@ -22,6 +22,7 @@ MRE11 (MRE11 Homolog, Double Strand Break Repair Nuclease) encodes a component o
 ## Alterations observed in the corpus
 
 - Enriched in the never/former-light smoker UMD (unmatched molecular driver) subset of a prospective [LUAD](../cancer_types/LUAD.md) cohort (860 patients, MSK-IMPACT); the paper uses the legacy symbol "MRE11A" but the current HUGO symbol is MRE11; specific mutation type and frequency not detailed in the primary alteration table [PMID:28336552](../papers/28336552.md)
+- Novel prostate-cancer-specific DNA-repair significantly mutated gene (SMG) in the MSK/PCF pan-prostate WES cohort (1,013 primary + 1,424 metastatic); truncating-biased mutation pattern supporting a tumor-suppressor role alongside PALB2. [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -42,5 +43,6 @@ MRE11 (MRE11 Homolog, Double Strand Break Repair Nuclease) encodes a component o
 ## Sources
 
 - [PMID:28336552](../papers/28336552.md)
+- [PMID:29610475](../papers/29610475.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

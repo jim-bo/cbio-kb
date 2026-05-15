@@ -23,6 +23,7 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 - EML4-ALK fusion is the predominant ALK rearrangement in young lung cancer (>80% of ALK+ cases per Tian et al.); ALK rearrangements are over-represented in YLC vs older NSCLC and are targetable with crizotinib and lorlatinib [PMID:27346245](../papers/27346245.md)
 - EML4–NTRK3 fusion detected in congenital fibrosarcoma ([IFS](../cancer_types/IFS.md)) in the PIPseq pediatric cohort; RNA-seq was required to detect the fusion and supported diagnostic reclassification from undifferentiated sarcoma to infantile fibrosarcoma; flagged as an ALK-inhibitor target [PMID:28007021](../papers/28007021.md).
 - EML4-ALK fusion detected in n=38 cases, predominantly LUAD, within the MSK-IMPACT pan-cancer cohort of 10,336 patients [PMID:28481359](../papers/28481359.md)
+- **EML4-ALK** is one of the ALK fusions detected across 20 samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion landscape; EML4 is the most frequent 5' partner (7/17 ALK-fusion samples); fusion status corresponds to copy-number-neutral ALK overexpression, forming the rationale for [crizotinib](../drugs/crizotinib.md) and other approved ALK inhibitors [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -62,5 +63,8 @@ EML4 (echinoderm microtubule-associated protein-like 4) is best known as the mos
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

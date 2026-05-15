@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -101,6 +101,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - BRAF V600E in 22% of MSI-H vs 5% of MSS mCRC; right-sided enrichment; HR=2.02 for OS. Class 1 (V600), class 2 (RAS-independent dimers), and class 3 (RAS-dependent) mutants all observed; two MSS mCRC cases harbored activating BRAF fusions (AGAP3-BRAF, CUL1-BRAF) [PMID:29316426](../papers/29316426.md).
 - BRAF mutations observed at low frequency (~2%) in a 240-patient NSCLC ICI cohort; too few events for ICI-response analysis [PMID:29337640](../papers/29337640.md).
 - BRAF cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md).
+- [BRAF](../genes/BRAF.md) is among the top recurrent 3'-kinase tyrosine kinases enriched in [THCA](../cancer_types/THCA.md) fusions in a pan-cancer TCGA RNA-seq analysis. [PMID:29617662](../papers/29617662.md)
+- [BRAF](../genes/BRAF.md) established hotspot mutations are newly significant in prostate cancer, confirmed in 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)). [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -356,5 +358,11 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -7,7 +7,7 @@ tags:
   - hormone-receptor
   - oncogene
   - neuroendocrine
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - Mutated in 18% of [PRAD](../cancer_types/PRAD.md) patients (vs 1% in TCGA); recurrent acquired-resistance hotspots L702H and H875Y (10 patients each), detected via MSK-IMPACT pan-cancer profiling (n=10,945) [PMID:28481359](../papers/28481359.md)
 - AR altered in 63/500 metastatic cancer patients (12.6%) in the MET500 pan-cancer cohort, strongly tied to PRAD [PMID:28783718](../papers/28783718.md)
 - AR amplification and resistance mutations (F877L conferring resistance to enzalutamide/apalutamide; H875Y conferring resistance to flutamide) enriched in mCRPC; 4% of metastatic noncastrate tumors already carried AR alterations, consistent with subclinical transition to castration resistance [PMID:28825054](../papers/28825054.md)
+- [AR](../genes/AR.md) is an established driver confirmed in metastatic prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)). [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -93,5 +94,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -83,6 +83,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Hotspot mutations in 4 of 1,134 colorectal adenocarcinomas (two L861Q, one L858R, one R776H) — potentially TKI-sensitizing; one S492R allele observed as a cetuximab-resistance mechanism after 1.5 years of treatment; EGFR amplification co-occurred with ERBB2 amplification in one acquired-resistance case [PMID:29316426](../papers/29316426.md)
 - Activating mutations in 17/240 (7%) advanced NSCLC patients treated with anti-PD-(L)1; EGFR-mutant patients were significantly underrepresented in the durable clinical benefit group (only 7% DCB rate), attributed to the link between EGFR mutations, never-smoker status, and low tumor mutation burden [PMID:29337640](../papers/29337640.md)
 - Cited as the paralogous receptor to ERBB2 whose exon 20 insertions resist first/second-generation TKIs, providing context for the SUMMIT basket trial findings; EGFR exon 20 insertions in LUAD showed minimal ORR but a PFS tail with neratinib suggesting activity worth exploring in combination [PMID:29420467](../papers/29420467.md)
+- EGFR was among the genes assessed in the TCGA pan-cancer fusion landscape (9,624 samples, 33 cancer types); EGFR fusions are catalogued but were not among the top-recurrent fusion events reported; the study provides a reference pan-cancer fusion compendium relevant to EGFR fusion biology [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -248,5 +249,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

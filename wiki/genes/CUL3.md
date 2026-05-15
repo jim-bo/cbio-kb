@@ -3,7 +3,7 @@ symbol: CUL3
 aliases: []
 cancer_types: [LUSC]
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -19,6 +19,7 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 - Oxidative-stress complex partner of NFE2L2/KEAP1; altered in classical HNSCC subtype with tobacco signature (279-tumor TCGA cohort) [PMID:25631445](../papers/25631445.md)
 - CUL3 (KEAP1 partner) was identified as a novel significantly mutated gene in lung SqCC, enriched for frameshift mutations (p<0.001) in the TCGA Pan-Lung analysis [PMID:27158780](../papers/27158780.md).
 - CUL3 altered alongside KEAP1 and ATG7 as an NRF2-degradation component in ESCC1 (NRF2-pathway subtype) in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
+- CUL3 harbors a recurrent missense hotspot p.Met299Arg in 1.3% of primary prostate cancers and 1.3% of MSK-IMPACT validation samples; mutations are mutually exclusive with SPOP and show a SPOP-like copy-number profile (losses on 5q, 6q, 13); CUL3 encodes part of the BTB-CUL3-RBX1 E3 ubiquitin ligase complex with SPOP [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
@@ -52,3 +53,6 @@ CUL3 (Cullin 3) encodes a scaffold protein of the Cullin-RING E3 ubiquitin ligas
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

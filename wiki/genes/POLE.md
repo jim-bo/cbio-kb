@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
@@ -41,6 +41,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE P286R mutation in a single ultra-mutated MIBC tumor (>4000 SNVs), defining the POLE mutational-signature subset [PMID:28988769](../papers/28988769.md)
 - Exonuclease-domain hotspots P286R, S459F, V411L defined the ultra-mutated subgroup (n=8, 0.7%) in 1,640 mCRC tumors; ultra-mutated cases were typically early-stage and male [PMID:29316426](../papers/29316426.md)
 - POLE listed among antigen-presentation and immunology genes profiled in NSCLC patients evaluated for TMB and anti-PD-(L)1 benefit (n=240) [PMID:29337640](../papers/29337640.md)
+- POLE-mutant tumors (together with MSI) drive the apparent pan-cancer anti-correlation between mutation rate and aneuploidy; excluding POLE-mutant hypermutators from 10,522 TCGA samples flips the correlation positive (Spearman rho = 0.38) [PMID:29622463](../papers/29622463.md).
 
 ## Cancer types (linked)
 
@@ -116,3 +117,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:29337640](../papers/29337640.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

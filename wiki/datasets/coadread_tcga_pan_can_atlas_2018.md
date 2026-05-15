@@ -16,8 +16,8 @@ tags:
   - TCGA
   - pan-cancer
   - copy-number
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TCGA Pan-Cancer Atlas Colorectal Adenocarcinoma 2018
@@ -46,9 +46,13 @@ The TCGA Pan-Cancer Atlas colorectal adenocarcinoma cohort, accessed via cBioPor
 ## Notable findings derived from this cohort
 
 - FBXO7 shallow deletions (heterozygous loss) occur in 32.5% (169/526) of CRC cases; deep deletions are rare (<0.2%); FBXO7 shallow deletions associate with increased genome instability (fraction altered, aneuploidy score, tumor break load; q < 0.0001) and worse overall, progression-free, and disease-specific survival (log rank, p < 0.05) [PMID:36334560](../papers/36334560.md).
+- MC3 ensemble mutation calls (7 callers, 10,510 TCGA tumor/normal pairs, 33 cancer types) form the somatic-variant backbone of this PanCanAtlas cBioPortal study [PMID:29596782](../papers/29596782.md)
+- Pan-cancer aneuploidy analysis of 10,522 TCGA tumors used this cohort as part of the gastrointestinal cluster (COAD/READ) analysis of arm-level copy-number alterations [PMID:29622463](../papers/29622463.md)
 
 ## Sources
 
 - cBioPortal study: `coadread_tcga_pan_can_atlas_2018`
+- [PMID:29596782](../papers/29596782.md)
+- [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

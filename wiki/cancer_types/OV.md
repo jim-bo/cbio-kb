@@ -6,8 +6,8 @@ parent: WOMB
 tags:
   - ovarian-cancer
   - gynecologic
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Ovarian Epithelial Tumor (OV)
@@ -23,6 +23,7 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 ## Recurrent alterations
 
 - [TP53](../genes/TP53.md), [BRCA1](../genes/BRCA1.md), [BRCA2](../genes/BRCA2.md), [CCNE1](../genes/CCNE1.md) — see [HGSOC](HGSOC.md) for the canonical subtype profile.
+- Pan-cancer fusion study (9,624 TCGA samples) included OV as one of 33 TCGA cancer types; ovarian tumors were included in the gynecological cluster analyzed for arm-level aneuploidy; druggable fusions covered 6% of pan-can samples [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -42,3 +43,6 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 *Page last touched by entity-page-writer on 2026-05-01.*
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

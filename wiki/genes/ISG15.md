@@ -3,8 +3,8 @@ symbol: ISG15
 aliases: []
 cancer_types: [HGSOC]
 tags: [interferon-stimulated-gene, ubiquitin-like, IFN-signaling, ovarian-cancer]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # ISG15
@@ -16,6 +16,7 @@ ISG15 encodes a ubiquitin-like protein that is robustly induced by type I interf
 ## Alterations observed in the corpus
 
 - ISG15 is an IFN-stimulated gene upregulated early in [HGSOC](../cancer_types/HGSOC.md) development beginning at the p53 signature stage; part of an IFN-alpha and IFN-gamma pathway gene upregulation program also including [STAT1](../genes/STAT1.md), [IFITM1](../genes/IFITM1.md), [IRF7](../genes/IRF7.md), [IRF9](../genes/IRF9.md), [TAP1](../genes/TAP1.md), and [HLA-A](../genes/HLA-A.md) [PMID:39386723](../papers/39386723.md).
+- ISG15 encodes an interferon-stimulated ubiquitin-like modifier that is targeted by UBA7 (a 3p-encoded E1 ubiquitin enzyme); UBA7 is up-regulated greater-than 2-fold in early-passage cells with engineered chromosome 3p deletion, consistent with IFN-pathway up-regulation observed by GSEA after 3p loss. [PMID:29622463](../papers/29622463.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ ISG15 encodes a ubiquitin-like protein that is robustly induced by type I interf
 - [PMID:39386723](../papers/39386723.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

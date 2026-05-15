@@ -4,8 +4,8 @@ oncotree_code: GBM
 main_type: CNS/Brain Cancer
 parent: DIFG
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Glioblastoma Multiforme (GBM)
@@ -40,6 +40,9 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - TCGA 2013 multi-platform analysis of 543 primary GBM identified 71 significantly mutated genes; [EGFR](../genes/EGFR.md) altered in 57% (rearrangements, EGFRvIII, novel splice variants); [TERT](../genes/TERT.md) promoter mutations in 84% of deep-coverage cases; [MGMT](../genes/MGMT.md) methylation predicted TMZ response only in classical subtype; proneural survival advantage attributable to G-CIMP epigenotype [PMID:24120142](../papers/24120142.md).
 - All 6 hypermutated recurrent grade II astrocytomas (arising after [temozolomide](../drugs/temozolomide.md) therapy) progressed to GBM, acquiring TMZ-signature driver mutations in the RB and AKT–mTOR pathways ([RB1](../genes/RB1.md), [CDKN2A](../genes/CDKN2A.md), [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [MTOR](../genes/MTOR.md)), with validated in vivo mTORC1 hyperactivation [PMID:24336570](../papers/24336570.md).
 - TCGA pan-glioma study included 590 GBM cases (56% of 1,122-patient cohort); GBM enriched for TERTp mutations, chr7 gain/chr10 loss, and IDH-wildtype methylation subtypes (Classic-like, Mesenchymal-like, LGm6-GBM); LGm6-GBM cluster had MAPK-pathway alterations in 32% of cases [PMID:26824661](../papers/26824661.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included GBM as one of 33 cancer types; the MC3 MAF provides the somatic variant backbone for gbm_tcga_pan_can_atlas_2018 in cBioPortal [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included GBM; GBM fusions included chromosome 7 gains in IDH-wildtype GBM; druggable fusions covered 6% of pan-can samples including GBM [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study found GBM has the highest rate of any arm-level event (99% of samples, mean score 8.2); IDH-wildtype GBM is characterized by chromosome 7 gain and chromosome 10 loss; GBM clusters in the neural-lineage arm-level group with LGG and melanoma [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -59,3 +62,12 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

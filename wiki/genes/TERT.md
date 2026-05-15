@@ -24,6 +24,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Promoter hotspots are the only confident noncoding driver region across the 491-sample medulloblastoma ICGC cohort [PMID:28726821](../papers/28726821.md)
 - Amplification defines DDLPS K2 cluster in sarcoma; recurrent TRIO-TERT fusions (n=3) drive highest TERT expression in sarcoma [PMID:28988769](../papers/28988769.md)
 - Amplification defines DDLPS K2 cluster; recurrent [TRIO](../genes/TRIO.md)-TERT fusions (n=3) produce highest TERT expression across sarcoma subtypes [PMID:29100075](../papers/29100075.md)
+- TERT promoter mutations are non-coding and fall outside the Broad BED capture kit, causing them to be excluded by the MC3 bitgt filter; the authors flag this as a clinically meaningful side-effect of pancan one-size-fits-all capture masking [PMID:29596782](../papers/29596782.md)
+- TERT invoked in discussion as a potentially insufficient activation context (alongside p53/RB inhibition) for selection of broad aneuploidies in vitro in the AALE cell model [PMID:29622463](../papers/29622463.md)
 
 ## Cancer types (linked)
 
@@ -68,5 +70,11 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

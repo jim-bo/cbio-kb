@@ -27,6 +27,8 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG fusion status 100% concordant across metastases by FISH (53 tumors, 13 men) and 94% concordant by array CGH (32/34 men) in mCRPC rapid-autopsy cohort [PMID:26928463](../papers/26928463.md)
 - TMPRSS2-ERG rearrangement is the most common rearrangement detected across 62 principal tumor types in MSK-IMPACT (n=10,336); observed in 151 prostate adenocarcinoma ([PRAD](../cancer_types/PRAD.md)) cases; cryptic TMPRSS2 rearrangements consistent with chromoplexy detected in 23 additional PRAD cases [PMID:28481359](../papers/28481359.md)
 - Cited as canonical somatic prostate-cancer fusion gene (TMPRSS2-ERG) in background context; not directly assayed in this eQTL study of rs4519489-USF1-NOL10 axis [PMID:28927585](../papers/28927585.md)
+- TMPRSS2-ERG fusions confirmed as an established driver in the SU2C/PCF 1,013-sample prostate cancer cohort; metastasis-vs-primary enrichment quantified [PMID:29610475](../papers/29610475.md)
+- TMPRSS2-ERG is the most-recurrent intra-cancer fusion overall (38.2% of PRAD, 205 samples flagged druggable); predicted fusion-derived neoantigens were highest for TMPRSS2-ERG among all PRAD fusions though only in a small subset [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -78,5 +80,11 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

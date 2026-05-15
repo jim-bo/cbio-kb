@@ -1,0 +1,30 @@
+---
+name: vcf2maf
+slug: vcf2maf
+kind: method
+canonical_source: corpus
+unverified: true
+tags: [annotation, format-conversion, pipeline]
+processed_by: crosslinker
+processed_at: 2026-05-15
+---
+
+# vcf2maf
+
+## Overview
+
+vcf2maf is a Perl/Python tool that converts VCF (Variant Call Format) files to the Mutation Annotation Format (MAF) used by TCGA and cBioPortal, while simultaneously annotating variants with functional consequences via VEP (Variant Effect Predictor). It handles multi-allelic sites, applies common-population-variant filters (e.g., based on ExAC/gnomAD allele counts), and produces the standardized MAF columns required for downstream analyses.
+
+## Used by
+
+- Used in the TCGA MC3 pipeline (v1.6.11) to convert ensemble VCFs to MAF format and apply the "Common in ExAC" filter (AC > 16 unless ClinVar-pathogenic); the AC = 16 threshold was anchored to [SF3B1](../genes/SF3B1.md) K700E as the highest ExAC count observed for a known clonal-hematopoiesis somatic event [PMID:29596782](../papers/29596782.md)
+
+## Notes
+
+- vcf2maf v1.6.11 was the version used in MC3; later versions may behave differently for edge cases.
+- The ExAC/gnomAD allele count threshold used by vcf2maf is a critical parameter that affects which variants are labeled as germline.
+- Produces standardized MAF columns compatible with cBioPortal import and downstream tools such as MutSig2CV.
+
+## Sources
+
+*This page was processed by **crosslinker** on **2026-05-15**.*

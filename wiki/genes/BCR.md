@@ -21,6 +21,7 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 - BCR–ABL1 — recurrent in-frame fusion detected by RNA-seq in 200 adult de novo AML cases (TCGA [laml_tcga_pub](../datasets/laml_tcga_pub.md)); listed among additional recurrent fusions alongside [NUP98](../genes/NUP98.md)–[NSD1](../genes/NSD1.md) and [PICALM](../genes/PICALM.md)–[MLLT10](../genes/MLLT10.md). [PMID:23634996](../papers/23634996.md)
 - Referenced in HCC targeted therapy resistance analogy context (BCR-ABL/imatinib model informs combination regimen design for HCC) [PMID:24735922](../papers/24735922.md)
 - BCR-ABL1 fusion detected as a BCR-ABL1-like RNA-seq signature in a 9-year-old girl with relapsed/refractory B-cell BLL; addition of dasatinib to third-line induction produced deep remission enabling curative bone-marrow transplant [PMID:28007021](../papers/28007021.md)
+- The [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md) fusion is a classic leukemic fusion recovered in [LAML](../cancer_types/LAML.md) 'fusion-only' tumors in a pan-cancer RNA-seq fusion analysis across TCGA. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -51,3 +52,6 @@ BCR (breakpoint cluster region) encodes a multi-domain signaling protein most no
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -20,6 +20,7 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 - ZMYM3 mutated in 3/112 Ewing sarcoma cases (two L82fs frameshift indels and one 17-kb intragenic deletion) [PMID:25223734](../papers/25223734.md)
 - Significantly mutated in 2% of primary prostate cancer ([PRAD](../cancer_types/PRAD.md)); novel in prostate cancer context [PMID:26544944](../papers/26544944.md)
 - Recurrent histone-methylation-modifier mutation especially enriched in medulloblastoma methylation subtype VIII; recurrently altered across subgroups in the 491-sample ICGC cohort [PMID:28726821](../papers/28726821.md)
+- Confirmed as an established prostate cancer driver in the SU2C/PCF 1,013-sample cohort; metastasis-vs-primary enrichment quantified [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -54,5 +55,8 @@ ZMYM3 (Zinc Finger MYM-Type Containing 3) is an X-linked chromatin regulator inv
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

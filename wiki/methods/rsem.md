@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [rna-seq, quantification, expression, bioinformatics]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -21,6 +21,7 @@ RSEM uses an expectation-maximization algorithm to estimate transcript- and gene
 - Used for RNA-seq quantification in bulk transcriptomics of 35 AAV-CRISPR-edited rat mammary tumors, enabling ANOVA-based identification of 1,579 differentially expressed genes and GSEA-based comparison with human endocrine therapy response datasets [PMID:26437033](../papers/26437033.md)
 - RSEM used for transcript-level quantification of RNA-seq data from 17 ACC tumors; confirmed NFIB overexpression vs normal tissue (p=0.002) independent of fusion status, and MYB overexpression in fusion-positive tumors [PMID:26862087](../papers/26862087.md)
 - MapSplice/RSEM pipeline used for mRNA quantification in the TCGA esophageal/stomach study of 164 oesophageal carcinomas and 359 gastric adenocarcinomas [PMID:28052061](../papers/28052061.md).
+- Used to quantify transcript-level expression from RNA-seq data in AALE chr_3p-deleted cell experiments and in the TCGA pan-cancer expression dataset (Broad GDAC Firehose 2016_01_28 release) [PMID:29622463](../papers/29622463.md)
 
 ## Notes
 
@@ -40,3 +41,6 @@ RSEM uses an expectation-maximization algorithm to estimate transcript- and gene
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

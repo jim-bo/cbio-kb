@@ -113,6 +113,7 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Mutated in 83 NSCLC patients (34%); KRAS mutation alone did not stratify durable clinical benefit to anti-PD-(L)1 therapy; DCB rate 36%, comparable to overall cohort [PMID:29337640](../papers/29337640.md)
 - Cited as a comparator oncogenic driver with approved targeted therapies achieving higher response rates than neratinib in HER2-mutant disease; not a qualifying alteration in the SUMMIT basket trial [PMID:29420467](../papers/29420467.md)
 - Referenced from prior targeted-panel literature as a recurrent alteration in HPV(−) vulvar SCC; not specifically identified as a new finding in this WES cohort (N=15) [PMID:29422544](../papers/29422544.md)
+- KRAS established hotspot mutations newly reach statistical significance (SMG status) in prostate cancer in the 1,013-sample WES meta-cohort (prad_p1000); RAS/RAF/MAPK pathway altered in 5% of PRAD overall. [PMID:29610475](../papers/29610475.md)
 
 ## Cancer types (linked)
 
@@ -402,5 +403,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -74,6 +74,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - placeholder
 - Alterations in BRCA2 observed in 22% of MSI-H vs 1% of MSS mCRC tumors in a 1,122-patient panel sequencing cohort [PMID:29316426](../papers/29316426.md).
 - Novel BRCA2 mutation finding in HPV(+) vulvar squamous cell carcinoma identified by whole-exome sequencing of 15 tumors [PMID:29422544](../papers/29422544.md).
+- [BRCA2](../genes/BRCA2.md) is confirmed as an established driver in prostate cancer with metastasis-vs-primary enrichment quantified across 1,013 prostate cancers ([prad_p1000](../datasets/prad_p1000.md)); frequent biallelic [CDK12](../genes/CDK12.md) inactivation in metastatic prostate cancer supports [BRCA2](../genes/BRCA2.md) loss as a therapeutically relevant DNA-repair phenotype. [PMID:29610475](../papers/29610475.md)
+- [BRCA2](../genes/BRCA2.md) was included in the 25-gene HBOC candidate panel screened via WES in a pediatric cancer predisposition cohort (n=372); no LP/PVs were detected in this cohort. [PMID:29489754](../papers/29489754.md)
 
 ## Cancer types (linked)
 
@@ -222,5 +224,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

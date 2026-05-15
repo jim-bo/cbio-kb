@@ -7,7 +7,7 @@ tags:
   - fusion
   - pathognomonic
   - fibrolamellar
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -20,6 +20,7 @@ DNAJB1 encodes a co-chaperone protein (DnaJ Heat Shock Protein Family Member B1)
 ## Alterations observed in the corpus
 
 - [DNAJB1](../genes/DNAJB1.md)-[PRKACA](../genes/PRKACA.md) fusion was identified as pathognomonic for fibrolamellar hepatocellular carcinoma ([FLC](../cancer_types/FLC.md)) in the [msk_impact_2017](../datasets/msk_impact_2017.md) pan-cancer cohort (10,945 tumors across 62 tumor types profiled by [MSK-IMPACT](../methods/msk-impact-panel.md)); the fusion was detected by both targeted DNA sequencing and orthogonal RNA fusion analysis [PMID:28481359](../papers/28481359.md).
+- **DNAJB1-PRKACA** fusion is liver-only and specific to the fibrolamellar carcinoma (FLC) subtype of [LIHC](../cancer_types/LIHC.md), corroborating Dinh et al. 2017; detected in the TCGA pan-cancer fusion landscape analysis [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ DNAJB1 encodes a co-chaperone protein (DnaJ Heat Shock Protein Family Member B1)
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

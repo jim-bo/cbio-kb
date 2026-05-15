@@ -28,6 +28,7 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 - Mutation present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases (private to the eradicated clone); implicated in cellular cisplatin response alongside [POLD2](../genes/POLD2.md) [PMID:27749842](../papers/27749842.md)
 - FOXP1–ABL1 fusion detected in B-lymphoblastic leukemia ([BLL](../cancer_types/BLL.md)) in the PIPseq pediatric cohort; classified as a TKI target and treated accordingly [PMID:28007021](../papers/28007021.md).
 - Identified as a novel recurrently mutated gene (1–4% frequency) in microsatellite-stable metastatic colorectal cancer by MSK-IMPACT sequencing of 1,134 colorectal adenocarcinomas [PMID:29316426](../papers/29316426.md)
+- A cluster of events in the 5-prime end of FOXP1 was excluded by the Broad capture-BED (bitgt) filter in the MC3 pan-cancer mutation calling pipeline, illustrating how capture-kit masking discards biologically meaningful variants outside target regions. [PMID:29596782](../papers/29596782.md)
 
 ## Cancer types (linked)
 
@@ -77,5 +78,8 @@ FOXP1 is a forkhead box transcription factor with roles in B-cell development an
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:29316426](../papers/29316426.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

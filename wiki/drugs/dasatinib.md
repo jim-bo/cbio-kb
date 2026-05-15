@@ -20,6 +20,7 @@ Dasatinib is a second-generation BCR-ABL1/Src-family tyrosine kinase inhibitor t
 - In the UCLA sarcoma PDTO biobank ([sarcoma_ucla_2024](../datasets/sarcoma_ucla_2024.md), n=194 specimens), PDTOs from patients with progressive disease at follow-up were more resistant to dasatinib (p=0.039) than those from patients without disease progression — linking dasatinib ex vivo resistance to an aggressive clinical trajectory in sarcoma. [PMID:39305899](../papers/39305899.md)
 - Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1) alongside [imatinib](../drugs/imatinib.md); [KIT](../genes/KIT.md) and co-amplified PDGFRA/KDR at 4q12 provide rationale for [KIT](../genes/KIT.md) inhibitor strategies in this subgroup [PMID:26091043](../papers/26091043.md)
 - In 101 pediatric high-risk oncology patients (PIPseq), dasatinib added to third-line induction for a NUP214-ABL1 BCR-ABL1-like B-cell ALL patient produced deep remission enabling curative bone-marrow transplant [PMID:28007021](../papers/28007021.md)
+- Proposed as a therapeutic for [DDR2](../genes/DDR2.md)-overexpressed tumors harboring TRABD–[DDR2](../genes/DDR2.md) promoter-swap fusions, identified in one [HNSC](../cancer_types/HNSC.md) sample in the TCGA pan-cancer fusion atlas (n=9,624); DDR2 fusions were detected in nine additional samples across five cancer types [PMID:29617662](../papers/29617662.md)
 
 ## Resistance mechanisms
 
@@ -38,5 +39,6 @@ Dasatinib is a second-generation BCR-ABL1/Src-family tyrosine kinase inhibitor t
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. 2017, PIPseq; dasatinib added to third-line induction in NUP214-ABL1 BCR-ABL1-like B-cell ALL, producing deep remission enabling curative BMT.
+- [PMID:29617662](../papers/29617662.md) — Gao et al. 2018, Cell Reports. TCGA pan-cancer fusion atlas (n=9,624); dasatinib proposed for DDR2-overexpressed tumors with TRABD–DDR2 promoter-swap fusion in HNSC.
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

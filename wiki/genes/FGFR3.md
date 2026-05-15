@@ -46,6 +46,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - Hotspot S249C/Y373C mutations dominate in MIBC; enriched in luminal-papillary subtype (42/57; p<10⁻⁹) and lower-stage T2 tumors (21% vs 10% T3/T4, p=0.003); associated with better survival (p=0.04); recurrent FGFR3-TACC3 fusions (n=10); dominant driver in 44% of luminal-papillary tumors; candidate for pan-FGFR tyrosine kinase inhibitors [PMID:28988769](../papers/28988769.md)
 - Highly expressed in CR/PR vs PD melanoma patients pre-therapy (189-DEG set, q<0.20) in nivolumab-treated cohort; nominated as an immune-environment modulator predictive of anti-PD-1 response [PMID:29033130](../papers/29033130.md)
 - High FGFR3 expression is characteristic of the synovial sarcoma (SS) iCluster C4 in soft-tissue sarcoma (p=7e-20) [PMID:29100075](../papers/29100075.md)
+- FGFR3-TACC3 inframe activating kinase fusion detected in BLCA (2.0%), CESC (1.7%), and LUSC (1.2%); FGFR3 is a druggable target in 15 cancer types and shows predicted fusion-derived neoantigens among the highest in the pan-cancer atlas. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -147,5 +148,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

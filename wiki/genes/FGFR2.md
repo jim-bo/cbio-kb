@@ -35,6 +35,7 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - MAPK-pathway alteration (with FGFR1, BRAF, NF1, NTRK1/2) enriched in PA-like LGG (52%) and LGm6-GBM (32%) in a pan-glioma TCGA methylation/genomic study (n=1122); alterations associated with pilocytic-astrocytoma-like IDH-wildtype LGG subtype [PMID:26824661](../papers/26824661.md)
 - In-frame fusions (FGFR2-STK26, -TBC1D1, -WAC, -BICC1), a novel class of recurrent truncating rearrangements removing the 3' UTR, indels (n=3), SNVs (n=10), and copy-gain (n=1) in cholangiocarcinoma; rearrangements exclusive to IDH/BAP1-bearing Cluster 4 (p < 0.001); aggregated alterations enriched in Cluster 4 (p < 0.01); FGFR2 3' UTR deletions are a new mechanism of FGFR2 overexpression [PMID:28667006](../papers/28667006.md)
 - Oncogenic alterations in 5% of CIN-subtype esophagogastric cancers; listed among potentially targetable kinases [PMID:29122777](../papers/29122777.md)
+- FGFR2-BICC1 is the most recurrent fusion in CHOL (5.6% of samples); FGFR2 is a top recurrent 5-prime kinase fusion partner across 33 TCGA cancer types (9,624 samples); druggable in 15 cancer types per DEPO annotation. [PMID:29617662](../papers/29617662.md)
 
 ## Cancer types (linked)
 
@@ -109,5 +110,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

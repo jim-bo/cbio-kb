@@ -154,6 +154,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 35 pre-treatment metastatic [CCRCC](../cancer_types/CCRCC.md) tumor/normal pairs (mean 128× tumor / 91× normal) to identify PBRM1 LOF as an anti-PD-(L)1 response biomarker [PMID:29301960](../papers/29301960.md)
 - Paired WES (n=49) validated that MSK-IMPACT targeted-panel TMB correlates tightly with whole-exome TMB in [NSCLC](../cancer_types/NSCLC.md) patients treated with anti-PD-(L)1 therapy (Spearman r=0.86, P<0.001) [PMID:29337640](../papers/29337640.md)
 - Used to profile 15 Korean vulvar SCC tumor/normal pairs (Agilent SureSelect Human All Exome V4, BWA/GATK pipeline) for HPV-stratified mutational landscape analysis [PMID:29422544](../papers/29422544.md)
+- Used for trio whole-exome sequencing of 372 pediatric cancer patients to identify germline LP/PVs in 25 HBOC-associated genes (GRCh38/hg38); CNVs were not analyzed [PMID:29489754](../papers/29489754.md)
+- Formed the sequencing backbone of the TCGA MC3 project, processing ~10,510 tumor/normal pairs across 33 cancer types on Illumina platforms with multiple capture kits; intersection-of-capture-kit BED used as exonic mask [PMID:29596782](../papers/29596782.md)
+- Applied to 1,013 prostate tumor/normal pairs (680 primary, 333 metastatic castration-resistant) to define 97 significantly mutated genes; mean target coverage 104.7× (tumor) and 103.8× (normal) [PMID:29610475](../papers/29610475.md)
 
 ## Notes
 
@@ -529,5 +532,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29422544](../papers/29422544.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -104,6 +104,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Performed on 45 baseline and 26 paired pre/on-therapy melanoma biopsies (STAR-aligned, hg19); 189 pre-therapy DEGs distinguished CR/PR from PD and 475 on-therapy DEGs captured pharmacodynamic immune response to nivolumab [PMID:29033130](../papers/29033130.md)
 - Performed on 206 TCGA sarcomas; revealed that UPS and MFS are transcriptomically indistinguishable and identified miR-181b-5p as an independent recurrence-free survival predictor in LMS (HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 - Performed on 18 PBRM1-LOF vs. 14 PBRM1-intact pre-treatment [CCRCC](../cancer_types/CCRCC.md) tumors; GSEA confirmed up-regulation of hypoxia and IL6/JAK-STAT3 gene sets in PBRM1-deficient tumors [PMID:29301960](../papers/29301960.md)
+- RNA-seq fusion calling across 9,624 TCGA tumor samples and 713 normal samples (33 cancer types) using STAR-Fusion, EricScript, and BREAKFAST pipelines; GRCh38 reference; yielded 25,664 filtered fusions [PMID:29617662](../papers/29617662.md)
+- HiSeq 2500 PE100 RNA-seq performed on AALE chr_3p-deleted cells; processed via STAR + RSEM + edgeR for differential expression analysis [PMID:29622463](../papers/29622463.md)
 
 ## Notes
 
@@ -348,5 +350,11 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29301960](../papers/29301960.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

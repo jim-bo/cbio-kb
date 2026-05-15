@@ -4,8 +4,8 @@ oncotree_code: LIHB
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Hepatoblastoma (LIHB)
@@ -21,6 +21,7 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 ## Recurrent alterations
 
 - PIPseq cohort: [CCND1](../genes/CCND1.md) 11q13.2 amplification with overexpression identified in a hepatoblastoma patient as a good-prognosis indicator; APC R1114* germline mutation identified in a hepatoblastoma patient as diagnostic of familial adenomatous polyposis ([FAP](../genes/FAP.md)) [PMID:28007021](../papers/28007021.md).
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) included a hepatoblastoma patient (LPP_04) carrying a monoallelic ATM pLoF LP/PV; ATM burden OR=3.2 (p=.040) in the single-cohort analysis [PMID:29489754](../papers/29489754.md)
 
 ## Subtypes
 
@@ -37,3 +38,6 @@ Hepatoblastoma is the most common primary liver tumor in children, with peak inc
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

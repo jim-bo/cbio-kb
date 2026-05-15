@@ -11,7 +11,7 @@ tags:
   - cAMP-signaling
   - kinase
   - adrenal
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -25,6 +25,7 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 
 - Grouped within the cAMP-dependent PKA kinase signaling axis in PCC/PGL molecular pathway analysis, alongside PRKAR1A and other kinase-signaling drivers (RET, NF1, HRAS, [BRAF](../genes/BRAF.md), FGFR, [NGFR](../genes/NGFR.md)); relevant to the kinase signaling mRNA subtype in a TCGA multi-platform study of 173 PCC/PGL tumors [PMID:28162975](../papers/28162975.md)
 - DNAJB1-PRKACA fusion identified as pathognomonic for fibrolamellar hepatocellular carcinoma (FLC) in 10,336 MSK-IMPACT cases [PMID:28481359](../papers/28481359.md)
+- The DNAJB1–PRKACA fusion is liver-specific, recovered exclusively in fibrolamellar carcinoma (FLC subtype of LIHC) across 9,624 TCGA pan-cancer samples, corroborating Dinh et al. 2017 [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ PRKACA encodes the catalytic alpha subunit of cAMP-dependent protein kinase A (P
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -4,7 +4,7 @@ oncotree_code: MBL
 main_type: Embryonal Tumor
 parent: EMBT
 tags: [cns, embryonal, pediatric]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -27,6 +27,7 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - Medulloblastoma (MBL) whole-genome sequencing revealed recurrent somatic mutations and structural variants, including subgroup-specific alterations in WNT, [SHH](../genes/SHH.md), Group 3, and Group 4 tumors [PMID:26760213](../papers/26760213.md)
 - PIPseq cohort: KDM6A M997fs used for risk-stratification (group 4 classification); PTCH1/SUFU/ZIC3 overexpression identified as SMO-inhibitor target; ATM R189K + K2756* germline variants flagged for increased risk of other cancers [PMID:28007021](../papers/28007021.md)
 - ICGC/MAGIC integrated WGS (n=491) and methylation profiling (n=1,256) of medulloblastoma defined driver events in 76% of Group 3 and 82% of Group 4 cases; identified KBTBD4 hotspot in-frame insertions (Groups 3/4), SNCAIP tandem-duplication-driven PRDM6 enhancer hijacking (17% of Group 4, most prevalent Group 4 driver), and eight DNA-methylation-defined Group 3/4 subtypes. [PMID:28726821](../papers/28726821.md)
+- Germline WES of 372 pediatric cancer patients (Düsseldorf) included brain tumor cases; brain tumors represented 71 of 372 patients (19%); LP/PV carriers included medulloblastoma patient (LPP_01) carrying a monoallelic ATM pLoF LP/PV [PMID:29489754](../papers/29489754.md)
 
 ## Subtypes
 
@@ -47,3 +48,6 @@ OncoTree lists MBL as Medulloblastoma within Embryonal Tumors (parent EMBT). Not
 - [PMID:35927489](../papers/35927489.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29489754](../papers/29489754.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

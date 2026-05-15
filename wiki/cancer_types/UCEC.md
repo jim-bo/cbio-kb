@@ -4,7 +4,7 @@ oncotree_code: UCEC
 main_type: Endometrial Cancer
 parent: UTERUS
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -36,6 +36,9 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - Endometrial polyps harbour low-VAF hotspot mutations in canonical UCEC driver genes ([KRAS](../genes/KRAS.md) 26%, [PIK3CA](../genes/PIK3CA.md), [PIK3R1](../genes/PIK3R1.md), [PTEN](../genes/PTEN.md), [ERBB2](../genes/ERBB2.md), [FBXW7](../genes/FBXW7.md)); KEGG pathway analysis flags 'endometrial cancer' as top enriched pathway (FDR p=2.8×10⁻⁵), supporting polyps as potential UCEC precursor lesions [PMID:28445112](../papers/28445112.md)
 - In the MSK-IMPACT pan-cancer cohort, ESR1 hotspot mutations were found in UCEC almost exclusively in post-hormone-therapy metastatic tumors; MSI UCEC patients showed responses to immune checkpoint blockade; POLE and MMR mutation signatures were enriched in endometrial lineages. [PMID:28481359](../papers/28481359.md)
 - Whole-exome sequencing of 63 clear cell endometrial carcinomas (UCCC) in the uccc_nih_2017 cohort revealed molecular heterogeneity: 27% serous-like (TP53/PPP2R1A), 20.6% endometrioid-like, 19.1% mixed, and 33.3% with no detectable alteration across the 7-gene + MSI panel; MSI was present in 11.3%; the molecular four-subgroup TCGA UCEC framework (POLE-ultramutated, MSI-hypermutated, copy-number-low, copy-number-high) provides context for CCEC classification. [PMID:28485815](../papers/28485815.md)
+- MC3 pan-cancer mutation-calling project (10,510 TCGA pairs) included UCEC; concordance with the legacy PanCan12 MAF exceeded 90% [PMID:29596782](../papers/29596782.md)
+- Pan-cancer fusion study (9,624 TCGA samples) included UCEC; ESR1 fusions were among the recurrent events spanning gynecological cancers; druggable fusions annotated across 29 cancer types including UCEC [PMID:29617662](../papers/29617662.md)
+- Pan-cancer aneuploidy study included UCEC in the gynecological arm-level cluster (alongside UCS); UCEC is an exception to the positive aneuploidy–mutation-rate correlation due to MSI-high and POLE-mutant cases; copy-number-high serous-like endometrial is a notable exception that clusters outside the typical UCEC pattern [PMID:29622463](../papers/29622463.md)
 
 ## Subtypes
 
@@ -66,3 +69,12 @@ Endometrial carcinoma (UCEC) is the most common gynecologic malignancy in the Un
 - [PMID:28485815](../papers/28485815.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29622463](../papers/29622463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

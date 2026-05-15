@@ -10,7 +10,7 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -33,6 +33,7 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - TRMT10A expression correlated positively with PALB2 (along with BRCA1, BRCA2, RAD51) in TCGA prostate samples, linking PALB2 to the TRMT10A-dependent HR repair scaffold [PMID:28068672](../papers/28068672.md)
 - Less frequent DDR alteration in non-muscle-invasive bladder cancer (NMIBC; n=105), contributing to the 30% high-grade NMIBC DDR-altered fraction; markedly elevated mutational burden associated with DDR-altered tumors supports checkpoint immunotherapy trials [PMID:28583311](../papers/28583311.md)
 - Somatic HR pathway gene; CDK12, FANCA, PALB2, and RAD50 identified as additional somatic HR-deficiency contributors in advanced prostate cancer across locoregional, metastatic noncastrate, and mCRPC disease states; CDK12 loss hypothesized to confer PARP inhibitor sensitivity [PMID:28825054](../papers/28825054.md)
+- Nominated as a novel prostate-cancer-specific DNA-repair SMG in a WES meta-analysis of 1,013 primary and metastatic prostate tumors (prad_p1000); DNA-repair pathway altered in 16% of cases overall [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
@@ -75,3 +76,6 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

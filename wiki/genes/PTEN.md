@@ -3,7 +3,7 @@ symbol: PTEN
 aliases: []
 cancer_types: [LUAD, NSCLC, OS, MNG, CESC, UCEC, STLMS, ULMS, PRAD, THPA, IHCH]
 tags: [tumor-suppressor, pi3k-pathway, thyroid-cancer, cholangiocarcinoma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -116,6 +116,8 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Altered in 35% of MSI-H vs 5% of MSS mCRC (p<0.01) in a cohort of 1,640 metastatic colorectal tumors [PMID:29316426](../papers/29316426.md)
 - Listed among antigen-presentation and immunology genes profiled in the MSK-IMPACT NSCLC cohort evaluating TMB and anti-PD-(L)1 response (n=240) [PMID:29337640](../papers/29337640.md)
 - Referenced from prior targeted-panel literature as recurrent in HPV(−) vulvar SCC; not identified as a new finding in this 15-tumor WES cohort [PMID:29422544](../papers/29422544.md)
+- Confirmed as a KIRC SMG by both MutSig2CV and MuSiC2 in the MC3 pan-cancer open-access MAF (10,510 TCGA tumor/normal pairs, 33 cancer types) [PMID:29596782](../papers/29596782.md).
+- Homozygous loss or truncating mutation in 16% of 1,013 prostate tumors (prad_p1000); PTEN alteration is enriched in metastatic vs. primary PRAD and is part of the genomic signature proposed for prospective risk stratification [PMID:29610475](../papers/29610475.md).
 
 ## Cancer types (linked)
 
@@ -340,3 +342,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:29422544](../papers/29422544.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29596782](../papers/29596782.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29610475](../papers/29610475.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

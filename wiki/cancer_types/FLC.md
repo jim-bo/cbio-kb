@@ -4,7 +4,7 @@ oncotree_code: FLC
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -21,6 +21,7 @@ FLC (Fibrolamellar Carcinoma) is a rare primary liver cancer arising predominant
 ## Recurrent alterations
 
 - DNAJB1-PRKACA fusion — pathognomonic for fibrolamellar hepatocellular carcinoma; detected in the MSK-IMPACT pan-cancer cohort among the 1,875 rearrangements catalogued across 62 tumor types. [PMID:28481359](../papers/28481359.md)
+- Pan-cancer fusion study (9,624 TCGA samples) confirmed DNAJB1–PRKACA as a liver-only fusion specific to fibrolamellar carcinoma (FLC), corroborating Dinh et al. 2017; FLC is a subtype of LIHC with a distinct and highly specific fusion driver [PMID:29617662](../papers/29617662.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ FLC (Fibrolamellar Carcinoma) is a rare primary liver cancer arising predominant
 - [PMID:28481359](../papers/28481359.md) — Zehir et al., MSK-IMPACT prospective pan-cancer sequencing ([msk_impact_2017](../datasets/msk_impact_2017.md)); DNAJB1-PRKACA identified as pathognomonic FLC rearrangement.
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

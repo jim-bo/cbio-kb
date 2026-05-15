@@ -81,6 +81,7 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Amplifications in 4% of MSS metastatic colorectal cancers — the most common RTK alteration in this cohort; one case co-occurred with EGFR S492R as a likely dual cetuximab-resistance mechanism, in 1,134 colorectal adenocarcinomas profiled by MSK-IMPACT [PMID:29316426](../papers/29316426.md)
 - Reported with low frequency among advanced NSCLC patients treated with anti-PD-(L)1 (n=240); too few events for response analysis in this TMB-focused study [PMID:29337640](../papers/29337640.md)
 - 125 patients with somatic ERBB2 (HER2) mutations enrolled in SUMMIT basket trial of neratinib across 21 cancer types; 31 unique alleles (domain distribution: kinase 66%, extracellular 26%, transmembrane/juxtamembrane 8%); most frequent: S310, L755, Y772_A775dup, V777; HER2 mutation clonal in 95%; breast cancer ORR8 32%; bladder and colorectal cohorts showed lineage-based resistance [PMID:29420467](../papers/29420467.md)
+- Four ERBB2 fusions (with partners [PPP1R1B](../genes/PPP1R1B.md) and [IKZF3](../genes/IKZF3.md)) identified in the TCGA pan-cancer fusion landscape; 3 of 4 had HPV integration within 1 Mb of ERBB2, suggesting fusions arise from local genomic instability induced by viral integration — a mechanism distinct from, but potentially complementary to, [trastuzumab](../drugs/trastuzumab.md)-targetable HER2 amplification [PMID:29617662](../papers/29617662.md).
 
 ## Cancer types (linked)
 
@@ -253,5 +254,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29617662](../papers/29617662.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

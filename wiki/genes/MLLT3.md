@@ -4,7 +4,7 @@ aliases: [AF9]
 cancer_types: [AML]
 tags: [fusion, KMT2A-partner, leukemia, transcription-factor]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MLLT3

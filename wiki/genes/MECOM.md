@@ -10,7 +10,7 @@ tags:
   - transcription-factor
   - amplification
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MECOM

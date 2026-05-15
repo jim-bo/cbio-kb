@@ -4,7 +4,7 @@ aliases: [ERK2]
 cancer_types: [BRAF-fusion, CRC]
 tags: [MAPK-pathway, kinase, co-mutation]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MAPK1

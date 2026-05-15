@@ -4,6 +4,7 @@ aliases: []
 cancer_types:
   - MM
   - HNSC
+  - LMS
 tags:
   - pharmacogenomics
   - drug-sensitivity-predictor
@@ -30,6 +31,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - IGF1R is listed as a candidate RTK alteration in [HNSC](../cancer_types/HNSC.md) (n=279 TCGA) with somatic events across HPV(+) and HPV(−) groups in the multi-platform genomic analysis. [PMID:25631445](../papers/25631445.md)
 - Novel amplification target gene in lung SqCC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 - IGF1R amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, VEGFA, and KRAS amplifications [PMID:28052061](../papers/28052061.md).
+- Part of the PI3K/AKT/MTOR pathway co-alteration cluster (with PTEN, AKT3, MTOR, RICTOR) in 84% of ULMS+STLMS iCluster C1 vs 44% of STLMS C2 (p=1e-04); upregulated in poor-prognosis STLMS C1 in TCGA SARC (n=80 LMS). [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -74,5 +76,8 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

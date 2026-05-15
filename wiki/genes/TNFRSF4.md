@@ -3,8 +3,8 @@ symbol: TNFRSF4
 aliases: [OX40, CD134]
 cancer_types: [NPC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TNFRSF4
@@ -16,6 +16,7 @@ TNFRSF4 (OX40, CD134) is a T-cell co-stimulatory receptor in the TNF receptor su
 ## Alterations observed in the corpus
 
 - TNFRSF4 (OX40) is a T-cell co-stimulatory receptor; agonist BAT6026 tested in phase I trials with no significant NPC-specific activity reported to date. [PMID:24952746](../papers/24952746.md)
+- OX40; selectively upregulated on-therapy in nivolumab responders in melanoma; nominated as a candidate target for combination immunotherapy [PMID:29033130](../papers/29033130.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TNFRSF4 (OX40, CD134) is a T-cell co-stimulatory receptor in the TNF receptor su
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

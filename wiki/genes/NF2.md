@@ -3,7 +3,7 @@ symbol: NF2
 aliases: []
 cancer_types: [MNG, PLMESO, CSCC]
 tags: [tumor-suppressor, 22q-loss, merlin, meningioma]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - NF2 infrequent truncating mutations observed in PDTC and ATC as part of a set of low-frequency tumor-suppressor alterations [PMID:26878173](../papers/26878173.md)
 - NF2 is focally deleted by the only chromosome-22 deletions that spare SMARCB1 in extra-cranial malignant rhabdoid tumor (MRT), along with LIF; observed in a minority of the 40 WGS MRT cases [PMID:26977886](../papers/26977886.md)
 - Recurrent truncating and missense mutations in 18% of unclassified RCC (uRCC); biallelic inactivation via mutation plus 22q12 LOH defines the dominant NF2-loss uRCC subset; drives Hippo–YAP dysregulation and confers significantly worse cancer-specific and progression-free survival [PMID:27713405](../papers/27713405.md)
+- A truncating mutation in NF2 (n=1) was identified among potentially functional driver mutations surveyed in the TCGA sarcoma cohort [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ NF2 encodes merlin, a FERM-domain tumor suppressor that regulates Hippo signalin
 - [PMID:27713405](../papers/27713405.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

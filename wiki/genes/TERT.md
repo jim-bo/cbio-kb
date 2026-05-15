@@ -22,6 +22,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Promoter mutations in 73% of NMIBC (n=105); uniformly high across grade and stage; supports use as a noninvasive urinary screening/surveillance biomarker [PMID:28583311](../papers/28583311.md)
 - Promoter mutations rare in cholangiocarcinoma (2/71 WGS cases, 2.8%) at chr5:1295228 [PMID:28667006](../papers/28667006.md)
 - Promoter hotspots are the only confident noncoding driver region across the 491-sample medulloblastoma ICGC cohort [PMID:28726821](../papers/28726821.md)
+- Amplification defines DDLPS K2 cluster in sarcoma; recurrent TRIO-TERT fusions (n=3) drive highest TERT expression in sarcoma [PMID:28988769](../papers/28988769.md)
+- Amplification defines DDLPS K2 cluster; recurrent [TRIO](../genes/TRIO.md)-TERT fusions (n=3) produce highest TERT expression across sarcoma subtypes [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -60,5 +62,11 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

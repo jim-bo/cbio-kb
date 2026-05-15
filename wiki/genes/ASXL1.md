@@ -26,6 +26,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - ASXL1 identified as a chromatin modification driver in CLL in a 538-sample WES study; classified in the chromatin modification pathway alongside [BAZ2B](../genes/BAZ2B.md) and [IKZF3](../genes/IKZF3.md) [PMID:26466571](../papers/26466571.md)
 - ASXL1: early epigenetic driver in chromatin-spliceosome AML subgroup; independent adverse prognostic effect with additive interaction with SRSF2 [PMID:27276561](../papers/27276561.md)
 - ASXL1 mutations included in the 8-gene amplicon panel and observed in the AML/MDS cohort treated with 10-day decitabine cycles; not reported as a predictor of decitabine response [PMID:27959731](../papers/27959731.md)
+- Polycomb-group chromatin-modifier SMG in MIBC (TCGA, n=412) with predominantly inactivating mutations [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -71,5 +72,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - [PMID:27276561](../papers/27276561.md)
 
 - [PMID:27959731](../papers/27959731.md)
+
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

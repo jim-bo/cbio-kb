@@ -4,8 +4,8 @@ oncotree_code: DSTAD
 main_type: Esophagogastric Cancer
 parent: STAD
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Diffuse Type Stomach Adenocarcinoma (DSTAD)
@@ -21,6 +21,7 @@ Diffuse-type stomach adenocarcinoma (DSTAD) is a histologically distinct subtype
 ## Recurrent alterations
 
 - RHOA R5Q (attenuated-output loss-of-function; reduces RhoA activation) is recurrent in diffuse-type gastric carcinoma (DSTAD) and Burkitt lymphoma; functional yeast modelling shows it complements RHO1 and clusters morphologically close to wild-type [PMID:24816253](../papers/24816253.md).
+- Diffuse-type stomach adenocarcinoma was represented within the MSK EGC cohort; the GS molecular subtype (genomically stable, 34%) was enriched for diffuse histology and CDH1 mutations (20% vs 7% in CIN, P=0.01), consistent with the role of E-cadherin loss in diffuse gastric carcinogenesis [PMID:29122777](../papers/29122777.md)
 
 ## Subtypes
 
@@ -35,3 +36,6 @@ Diffuse-type stomach adenocarcinoma (DSTAD) is a histologically distinct subtype
 - [PMID:24816253](../papers/24816253.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

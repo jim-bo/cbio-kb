@@ -8,7 +8,7 @@ tags:
   - chromatin-remodeling
   - therapeutic-target
   - synthetic-lethality
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 - BRD4–NUTM1 fusion present in the TY82 thymic carcinoma cell line [PMID:24974848](../papers/24974848.md)
 - BET bromodomain protein occupying super-enhancers at MYB locus and other MYB target genes in adenoid cystic carcinoma (ACC); grade-2 ACC shows functional dependency on BRD4/BET activity, and BET inhibitor JQ1 suppresses tumour growth in ACC primagraft models [PMID:26829750](../papers/26829750.md)
 - BRD4 involved in a novel NUTM1-BRD4 in-frame fusion (NUT exons 1-2, BRD4 exons 14-20) in a single ATC case from a 34-year-old woman who was alive 10 years post-diagnosis — a clinical outlier in the PDTC/ATC cohort (n=117) [PMID:26878173](../papers/26878173.md)
+- placeholder
 
 ## Cancer types (linked)
 
@@ -57,3 +58,6 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

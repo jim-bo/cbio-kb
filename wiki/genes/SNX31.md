@@ -7,8 +7,8 @@ tags:
   - sorting-nexin
   - melanoma
   - candidate-driver
-processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # SNX31
@@ -20,6 +20,7 @@ SNX31 (Sorting Nexin 31) encodes a member of the sorting nexin family characteri
 ## Alterations observed in the corpus
 
 - Distributed missense mutations in the FERM-like domain identified as significantly mutated in melanoma WES cohort (121 tumors, Broad); proposed as a potential Ras effector; functional validation of oncogenic activity was not performed in this study [PMID:22817889](../papers/22817889.md)
+- Highest expression in the new luminal MIBC subtype (bladder cancer), suggesting umbrella-cell-like differentiation [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ SNX31 (Sorting Nexin 31) encodes a member of the sorting nexin family characteri
 - [PMID:22817889](../papers/22817889.md) — Melanoma WES, Broad Institute, 121 tumors
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

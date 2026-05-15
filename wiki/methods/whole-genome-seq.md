@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wgs]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -88,6 +88,8 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - Used whole-genome sequencing to detect structural variants and mutational signatures in pediatric cancers [PMID:28445112](../papers/28445112.md)
 - Used in the ICGC cholangiocarcinoma cohort (n=71 tumor/normal pairs, average 64.2× depth on Illumina HiSeq X10/2500/2000) to define four etiology-driven molecular subtypes of CCA [PMID:28667006](../papers/28667006.md)
 - Applied across 390 medulloblastoma tumor/normal pairs (200 new + 190 previously published) to map driver events in all four consensus subgroups; identified hotspot KBTBD4 insertions, PRDM6 enhancer-hijacking, and 24 mutational signatures [PMID:28726821](../papers/28726821.md)
+- Applied to 136 of 412 BLCA tumors for deep structural variant and mutation clonality analysis (supplementing WES) [PMID:28988769](../papers/28988769.md)
+- Applied to 37 of 206 TCGA sarcomas to complement WES and characterize structural variants and whole-genome doubling across 6 histologies [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -291,7 +293,13 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

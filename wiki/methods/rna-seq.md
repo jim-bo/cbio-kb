@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [transcriptomics, sequencing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -99,6 +99,10 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - Poly(A)+ transcriptomes generated for 164 medulloblastoma cases; recurrent fusions targeting GLI2, PTEN, and PVT1 identified by integrating SV breakpoints with RNA-seq data [PMID:28726821](../papers/28726821.md)
 - Poly(A)+ and exome-capture transcriptomes generated for 868 libraries from 496 MET500 metastatic tumors (40–50M paired reads on Illumina HiSeq 2000/2500); enabled fusion calling (CODAC), immune deconvolution, and MImmScore derivation [PMID:28783718](../papers/28783718.md)
 - Applied to NOL10-knockdown LNCaP cells to identify 71 downregulated cell-cycle genes (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6); also used for GSEA and eQTL/sQTL analyses across CPGEA and TCGA PRAD cohorts [PMID:28927585](../papers/28927585.md)
+- Performed on 775 DLBCL cases (625 used in core analysis) for cell-of-origin assignment (ABC vs GCB) and integrated prognostic modeling [PMID:28985567](../papers/28985567.md)
+- Performed on 408/412 BLCA tumors enabling five mRNA expression subtype classification (luminal-papillary, luminal-infiltrated, luminal, basal-squamous, neuronal) with subtype-associated survival p=4×10⁻⁴ [PMID:28988769](../papers/28988769.md)
+- Performed on 45 baseline and 26 paired pre/on-therapy melanoma biopsies (STAR-aligned, hg19); 189 pre-therapy DEGs distinguished CR/PR from PD and 475 on-therapy DEGs captured pharmacodynamic immune response to nivolumab [PMID:29033130](../papers/29033130.md)
+- Performed on 206 TCGA sarcomas; revealed that UPS and MFS are transcriptomically indistinguishable and identified miR-181b-5p as an independent recurrence-free survival predictor in LMS (HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -323,10 +327,22 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

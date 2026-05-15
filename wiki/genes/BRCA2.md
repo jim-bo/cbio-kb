@@ -71,6 +71,7 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - BRCA2 is a recurrently altered candidate driver in medulloblastoma, stratified across subgroups; listed among candidates in WNT/SHH/Group 3/Group 4 oncoprint analysis [PMID:28726821](../papers/28726821.md)
 - BRCA2 germline PPGMs significantly enriched vs. ExAC in MET500 pan-cancer metastatic cohort (9 PPGM carriers); HR deficiency implies PARP inhibitor sensitivity [PMID:28783718](../papers/28783718.md)
 - BRCA2 somatic alterations are clonal/truncal in matched prostate tumor samples; 9% germline pathogenic in 221 tested patients; combined germline+somatic frequency drives PARP-inhibitor and platinum sensitivity rationale (olaparib, TOPARP-A) [PMID:28825054](../papers/28825054.md)
+- placeholder
 
 ## Cancer types (linked)
 
@@ -210,5 +211,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

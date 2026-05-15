@@ -40,6 +40,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - Mutated in 3 HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) cases including hotspot COSM220530; enriched in HR+ mBC at FDR<0.1 vs early breast cancer [PMID:28027327](../papers/28027327.md).
 - EZH2 mutations and/or altered expression were reported in the context of epigenetic dysregulation and cancer progression [PMID:28196596](../papers/28196596.md)
 - Upregulated EZH2 expression in Cluster 1 CCA alongside downregulated TET1, suggesting gain-of-repressive-methylation as the epigenetic mechanism driving CpG-shore hypermethylation in this cholangiocarcinoma subtype [PMID:28667006](../papers/28667006.md).
+- Preferentially mutated in GCB-DLBCL; EZH2 mutations associated with better survival in GCB-DLBCL in the comprehensive genetic and functional driver analysis (n=1,001 patients) [PMID:28985567](../papers/28985567.md)
+- Identified via cited preclinical work (Ler et al. 2017; Wu et al. 2016) as part of the BRD4–EZH2 chromatin-modification growth pathway whose inhibition is therapeutically tractable in KDM6A-loss bladder cancer; EZH2 inhibitors proposed alongside JQ1 for KDM6A-deficient MIBC [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -105,5 +107,11 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

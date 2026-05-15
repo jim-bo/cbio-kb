@@ -69,6 +69,7 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - K114del mutation observed in 1/19 (5.3%) sequenced anaplastic oligodendroglioma tumors profiled by [MSK-IMPACT 410](../methods/IMPACT410.md) in the [odg_msk_2017](../datasets/odg_msk_2017.md) cohort [PMID:28472509](../papers/28472509.md)
 - Cell-cycle gene alterations including CCND1 increased significantly with stage (p = 0.028) and grade (p = 0.009) in 105 nonmuscle invasive bladder cancer ([BLCA](../cancer_types/BLCA.md)) tumors profiled by [MSK-IMPACT](../methods/msk-impact-panel.md) [PMID:28583311](../papers/28583311.md)
 - Recurrent oncogene amplification in CCA (n=7 of 71 WGS cases); co-amplified with MYC, MDM2, and EGFR in a subset of Fluke-associated cholangiocarcinomas [PMID:28667006](../papers/28667006.md).
+- placeholder
 
 ## Cancer types (linked)
 
@@ -229,5 +230,8 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

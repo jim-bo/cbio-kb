@@ -34,6 +34,8 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - ABSOLUTE-style cancer cell fraction (CCF) framework applied after Sequenza tumor purity estimation to 216 metastatic breast cancer exomes; revealed ESR1 mutations were subclonal in 14/21 (67%) of cases [PMID:28027327](../papers/28027327.md).
 - ABSOLUTE used for allelic copy number, tumor purity, and ploidy estimation in 164 oesophageal carcinomas and 359 gastric adenocarcinomas as part of the TCGA esophageal/stomach study [PMID:28052061](../papers/28052061.md).
 - ABSOLUTE used for clonality estimation in 173 PCPG tumors in the TCGA PCPG study [PMID:28162975](../papers/28162975.md).
+- Used with Affymetrix SNP6 data to estimate tumor purity, ploidy, and cancer cell fraction (CCF) in 412 BLCA tumors; CCF used to characterize clonality of APOBEC mutations [PMID:28988769](../papers/28988769.md)
+- ABSOLUTE used to estimate tumor purity and ploidy in 206 TCGA sarcomas; 54% of BLCA tumors showed whole-genome doubling; enabled clonal mutation fraction calculations [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -80,3 +82,9 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

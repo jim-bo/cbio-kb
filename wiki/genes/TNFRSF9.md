@@ -3,8 +3,8 @@ symbol: TNFRSF9
 aliases: [4-1BB, CD137]
 cancer_types: [NPC]
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TNFRSF9
@@ -16,6 +16,7 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 ## Alterations observed in the corpus
 
 - TNFRSF9 (4-1BB) is a T-cell co-stimulatory receptor; agonist ADG106 tested in phase I trials with no significant NPC-specific activity reported to date. [PMID:24952746](../papers/24952746.md)
+- 4-1BB; immune checkpoint/co-stimulatory gene upregulated on-therapy in all patients receiving nivolumab in melanoma; nominated as combination immunotherapy target [PMID:29033130](../papers/29033130.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TNFRSF9 (4-1BB, CD137) is a T-cell co-stimulatory receptor in the TNF receptor s
 - [PMID:24952746](../papers/24952746.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

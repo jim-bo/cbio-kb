@@ -28,6 +28,8 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - miRNA-seq referenced as one of multiple sequencing modalities applied in molecular characterization studies of young-onset lung cancer (NSCLC) populations [PMID:27346245](../papers/27346245.md)
 - miRNA-seq included in the multi-platform TCGA esophageal/stomach profiling of 164 oesophageal carcinomas; APOBEC signature was enriched in ESCC2 subtype and miRNA data contributed to iCluster subtyping [PMID:28052061](../papers/28052061.md).
 - miRNA sequencing applied to 173 PCPG tumors in the TCGA PCPG study; miR-375 underexpression in MAML3 fusion-positive (Wnt-altered) tumors was noted; miRNA cluster 3 with mir-210 overexpression tightly associated with the pseudohypoxia subtype [PMID:28162975](../papers/28162975.md).
+- Performed on 412 BLCA tumors; four miRNA consensus clusters with distinct survival (p=1.7×10⁻³) refined the mRNA expression taxonomy [PMID:28988769](../papers/28988769.md)
+- Performed on 206 TCGA sarcomas; miR-181b-5p identified as an independent prognostic marker for recurrence-free survival in LMS (multivariate HR=7.4, p=9×10⁻⁶) [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -66,3 +68,9 @@ Small RNA (microRNA) sequencing by next-generation sequencing platforms; quantif
 - [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

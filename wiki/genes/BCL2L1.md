@@ -3,8 +3,8 @@ symbol: BCL2L1
 aliases: [BCL-XL, BCL2L]
 cancer_types: [LUSC]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # BCL2L1
@@ -18,6 +18,7 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 - Amplification/copy number alteration identified in TCGA lung squamous cell carcinoma cohort (178 tumors) as part of the landscape of somatic copy number alterations [PMID:22960745](../papers/22960745.md)
 - Focal amplification in 11% of muscle-invasive bladder carcinomas ([BLCA](../cancer_types/BLCA.md)); one HPV16-positive tumour had the virus integrated into BCL2L1, which was amplified (~6x) and overexpressed (~10x median) [PMID:24476821](../papers/24476821.md)
 - Bcl-xL-mediated survival downstream of [STAT3](../genes/STAT3.md) phosphorylation; loss of FXR/NR1H4 activity unleashes [STAT3](../genes/STAT3.md) signaling and BCL2L1-mediated apoptosis resistance in cholangiocarcinoma [PMID:25608663](../papers/25608663.md)
+- placeholder
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ BCL2L1 (BCL2-Like 1), also known as BCL-XL, is an anti-apoptotic member of the B
 - [PMID:25608663](../papers/25608663.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -1,9 +1,9 @@
 ---
 symbol: KANSL1
 aliases: []
-cancer_types: []
+cancer_types: [BLCA]
 tags: []
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -16,6 +16,7 @@ KANSL1 (KAT8 Regulatory NSL Complex Subunit 1) encodes a component of the NSL hi
 ## Alterations observed in the corpus
 
 - Recurrent alteration as part of HAT-complex mutations in SHH medulloblastoma (19% of SHH cases collectively with [KAT6B](../genes/KAT6B.md), [CREBBP](../genes/CREBBP.md), [EP300](../genes/EP300.md), [BRPF1](../genes/BRPF1.md)) [PMID:28726821](../papers/28726821.md)
+- Histone acetylase significantly mutated gene (SMG) in muscle-invasive bladder cancer (MIBC, n=412, TCGA BLCA 2017); part of the pervasive chromatin-modifier mutation cluster. [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ KANSL1 (KAT8 Regulatory NSL Complex Subunit 1) encodes a component of the NSL hi
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

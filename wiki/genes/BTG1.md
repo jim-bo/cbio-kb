@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [DLBCL, FL]
 tags: [apoptosis, lymphoma, tumor-suppressor]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # BTG1
@@ -17,6 +17,7 @@ BTG1 (B-cell translocation gene 1) is an anti-proliferative protein involved in 
 
 - Nonsense and missense mutations identified as recurrent alterations in DLBCL and [FL](../cancer_types/FL.md) by whole-genome/exome sequencing of non-Hodgkin lymphomas; implicated in apoptosis regulation [PMID:21796119](../papers/21796119.md)
 - Identified as a recurrently mutated gene in diffuse large B-cell lymphoma (DLBCL) by whole-exome sequencing of 55 tumors [PMID:22343534](../papers/22343534.md)
+- placeholder
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ BTG1 (B-cell translocation gene 1) is an anti-proliferative protein involved in 
 - [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -23,6 +23,7 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 - ER status (ER+/ER-) is the primary stratifier in a 2,433-sample breast cancer mutation landscape study; ER+ tumors have distinct mutation frequencies (e.g., PIK3CA 40.1%, GATA3 11.1%) vs ER- tumors [PMID:27161491](../papers/27161491.md)
 - Metastasis-specific driver (OR=29, p=1.2e-12) in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)); 22 mBCs with hormone-receptor-domain hotspot mutations and 9 with focal amplification (combined 19% of HR+/HER2− mBC); all 22 ESR1-mutant patients had received prior endocrine therapy, establishing ESR1 as a primary mechanism of acquired endocrine resistance [PMID:28027327](../papers/28027327.md).
 - Recurrent hotspot mutations in BRCA and UCEC, almost exclusively in post-hormone-therapy metastases; enriched in the MSK-IMPACT metastatic cohort vs TCGA, clinically relevant for hormone-therapy management [PMID:28481359](../papers/28481359.md)
+- ESR1 target genes are hypomethylated in uterine leiomyosarcoma (ULMS) compared to somatic-tissue LMS (STLMS), supporting hormonal-axis differences between uterine and soft-tissue LMS subtypes in sarcoma [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ ESR1 encodes the estrogen receptor alpha (ERα), a ligand-activated nuclear tran
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

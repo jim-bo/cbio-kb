@@ -5,7 +5,7 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -59,6 +59,8 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - MutSig2 applied to 173 PCPG tumors identifying five significant somatic driver genes (q < 0.05): HRAS, NF1, EPAS1, RET, and the novel driver CSDE1 [PMID:28162975](../papers/28162975.md).
 - MutSigCV used alongside IntOGen to identify 32 significantly mutated genes (SMGs) at q < 0.1 in 489 CCA cases, including four newly nominated driver genes: RASA1, STK11, MAP2K4, and SF3B1 [PMID:28667006](../papers/28667006.md)
 - Driver detection tool used alongside GenomeMuSiC and IntOGen to call SMGs across 491 medulloblastoma cases, assigning driver events to 76% of Group 3 and 82% of Group 4 patients [PMID:28726821](../papers/28726821.md)
+- MutSig 2CV applied to 412 BLCA tumors identifying 58 significantly mutated genes (q<0.1); 34 were new vs the prior 131-tumor cohort, including KMT2C (18%), ATM (14%), CREBBP (12%) [PMID:28988769](../papers/28988769.md)
+- MuSiC (Genome MuSiC) and MutSig 2CV applied to 206 TCGA sarcomas identifying only 3 significantly mutated genes (FDR<0.05): TP53, ATRX, RB1 [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -191,7 +193,13 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -7,8 +7,8 @@ tags:
   - transcription-factor
   - b-cell-development
   - b-all
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ PAX5 (Paired Box 5) encodes a transcription factor essential for B-cell identity
 ## Alterations observed in the corpus
 
 - Alterations (mutations or deletions) in 11.3% of DUX4/ERG B-ALL subtype cases in a multi-cohort study of 1,913 children, adolescents, and young adults; classified among lymphoid transcription-factor lesions (total 46.5% of cases), alongside [IKZF1](../genes/IKZF1.md) alterations (36.7%) [PMID:27776115](../papers/27776115.md)
+- Alterations in PAX5 associated with poorer survival in ABC DLBCL in a 1001-patient DLBCL genomic cohort [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -45,3 +46,6 @@ PAX5 (Paired Box 5) encodes a transcription factor essential for B-cell identity
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

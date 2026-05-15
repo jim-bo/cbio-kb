@@ -3,7 +3,7 @@ symbol: MGA
 aliases: []
 cancer_types: [LUAD]
 tags: [myc-pathway, metastasis]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -22,6 +22,7 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - MGA loss-of-function (frameshift/nonsense) mutations in 8% of [LUAD](../cancer_types/LUAD.md) (TCGA, n=230); mutually exclusive with focal [MYC](../genes/MYC.md) amplification (Fisher's exact P=0.04); encodes a Max-interacting protein; nominated as significantly mutated gene by MutSig2CV [PMID:25079552](../papers/25079552.md)
 - Recurrent truncating insertions and nonsense mutations in n=17 (3.2%) of 538 CLL cases; [MYC](../genes/MYC.md) suppressor; RNA-seq shows derepression of MYC-suppressed B-cell programs in MGA-mutant CLL [PMID:26466571](../papers/26466571.md)
 - Transcriptional-regulator gene with mutations enriched in the DUX4/ERG B-ALL subtype relative to 209 other B-ALL and 16 T-ALL comparator cases [PMID:27776115](../papers/27776115.md)
+- MGA was identified as one of 150 DLBCL driver genes, and its knockout in a CRISPR screen was enriched (consistent with a tumor suppressor function) across DLBCL cell lines; MGA was one of 27 genes not previously implicated in DLBCL [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ MGA is a MAX-interacting transcriptional repressor in the MYC/MAX/MXD network, f
 - [PMID:27776115](../papers/27776115.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

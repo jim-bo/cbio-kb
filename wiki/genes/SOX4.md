@@ -8,8 +8,8 @@ tags:
   - neural-stem-progenitor
   - glioma
   - cancer-stem-cell
-processed_by: entity-page-writer
-processed_at: "2026-04-15"
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # SOX4
@@ -21,6 +21,7 @@ SOX4 (SRY-Box Transcription Factor 4) is a transcription factor involved in neur
 ## Alterations observed in the corpus
 
 - SOX4 is the highest-ranking gene (by PC2/PC3 loading) in the stem/progenitor program across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2). The PC2/PC3 stem/progenitor signature overlaps glioblastoma CSC signatures (hypergeometric P = 1.5×10⁻⁴) and is preferentially expressed in prenatal brain (P = 8×10⁻¹⁸). SOX4 expression was also validated by RNA in situ hybridization on tumor sections. [PMID:27806376](../papers/27806376.md)
+- Recurrently amplified focal SCNA target in MIBC (TCGA 412-tumor cohort); listed among known bladder-cancer amplification targets including AHR, BCL2L1, CCND1, CCNE1, E2F3, EGFR, ERBB2, FGFR3, GATA3, KRAS, MDM2, TERT [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ SOX4 (SRY-Box Transcription Factor 4) is a transcription factor involved in neur
 - [PMID:27806376](../papers/27806376.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

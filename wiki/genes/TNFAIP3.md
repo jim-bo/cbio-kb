@@ -3,8 +3,8 @@ symbol: TNFAIP3
 aliases: [A20]
 cancer_types: [CHL]
 tags: [nfkb, hodgkin-lymphoma]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # TNFAIP3
@@ -19,6 +19,7 @@ TNFAIP3 (A20) is a negative regulator of NF-κB signaling and a recurrent driver
 - Recurrently mutated in diffuse large B-cell lymphoma (DLBCL) and follicular lymphoma identified by whole-genome/exome sequencing [PMID:21796119](../papers/21796119.md)
 - Identified as significantly mutated in TCGA [LUSC](../cancer_types/LUSC.md) (178 tumors) via COSMIC-restricted analysis [PMID:22960745](../papers/22960745.md)
 - 6q23 deletion in 55% of primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)) cases; somatic mutations in 20%; part of the BCR/TLR/NF-kB pathway alterations present in >90% of [PCNSL](../cancer_types/PCNSL.md). [PMID:25991819](../papers/25991819.md)
+- Tumor-suppressor mutational pattern in DLBCL [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -50,3 +51,6 @@ TNFAIP3 (A20) is a negative regulator of NF-κB signaling and a recurrent driver
 - [PMID:25991819](../papers/25991819.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

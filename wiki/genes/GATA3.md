@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # GATA3
@@ -23,6 +23,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - IDC-enriched mutations (20% LumA [IDC](../cancer_types/IDC.md) vs 5% LumA [ILC](../cancer_types/ILC.md)); mutually exclusive with [FOXA1](../genes/FOXA1.md) mutations; LumA [ILC](../cancer_types/ILC.md) has lower GATA3 mRNA and protein levels [PMID:26451490](../papers/26451490.md)
 - Mutated in 11.1% of breast cancers; enriched in HER2+/ER+ (8.2%) vs HER2+/ER- (0.5%); mutations associated with younger age, lower grade, and longer survival (HR=0.58 in ER+) [PMID:27161491](../papers/27161491.md)
 - Identified as one of 12 significantly mutated driver genes in metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)) by MutSig (FDR<0.1) in 216 mBC samples; also a known eBC driver, not enriched in the metastatic setting [PMID:28027327](../papers/28027327.md).
+- Recurrently amplified in MIBC; differentially expressed across mRNA subtypes; key luminal-driver transcription factor by regulon analysis; GATA3 regulon activity associated with better survival in multivariate model; co-driver with FOXA1 and PPARG in the luminal transcriptional program [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

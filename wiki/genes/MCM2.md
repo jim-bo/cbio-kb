@@ -3,8 +3,8 @@ symbol: MCM2
 aliases: []
 cancer_types: [MNG]
 tags: [proliferation, biomarker, IHC]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # MCM2
@@ -16,6 +16,7 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 ## Alterations observed in the corpus
 
 - MCM2 protein validated by IHC as a marker for MG4 (proliferative, highest-risk) meningioma molecular group; specific IHC marker within the four-protein panel ([S100B](../genes/S100B.md) for MG1, [SCGN](../genes/SCGN.md) for MG2, [ACADL](../genes/ACADL.md) for MG3, MCM2 for MG4) enabling molecular group assignment in routine neuropathology settings [PMID:34433969](../papers/34433969.md).
+- MCM2 mRNA expression was elevated in STLMS iCluster C1 (worse prognosis) vs C2 sarcomas (adjusted p≤0.03), suggesting a role for enhanced DNA replication activity in aggressive leiomyosarcoma [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ MCM2 is a component of the MCM2-7 DNA helicase complex required for eukaryotic D
 - [PMID:34433969](../papers/34433969.md)
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

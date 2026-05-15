@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [pathway-analysis, gene-sets, transcriptomics, enrichment]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -24,6 +24,7 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 - Applied over REACTOME pathways to identify clonal enrichment in post-chemotherapy urothelial carcinoma tumours; highlighted L1CAM (OR=1.9, FDR=0.12) and integrin signaling (OR=2.8, FDR=0.02) as candidate resistance pathways. [PMID:27749842](../papers/27749842.md)
 - Applied to CCA methylation data showing both Cluster 1 and Cluster 4 hypermethylation target PRC2 pathway gene sets (at CpG islands vs CpG shores respectively), and to transcriptome data for immune-pathway characterization across the four clusters [PMID:28667006](../papers/28667006.md)
 - Applied to TCGA PRAD ranked by NOL10 expression; E2F targets and G2M checkpoint ranked as top hallmarks. Also applied to RNA-seq of NOL10-knockdown LNCaP, identifying 71 downregulated genes enriched in cell-cycle processes [PMID:28927585](../papers/28927585.md)
+- GSEA used with IPA for pathway analysis of DEGs between on-therapy responders and non-responders in 45 melanoma RNA-seq samples; enriched pathways included PD-1 signaling, IFN-γ, IL-2, and TCR signaling [PMID:29033130](../papers/29033130.md)
 
 ## Notes
 
@@ -50,7 +51,10 @@ Gene Set Enrichment Analysis (GSEA) is a computational method for determining wh
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

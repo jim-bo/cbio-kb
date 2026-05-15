@@ -4,7 +4,7 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -39,6 +39,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Single case of EWSR1::BEND2 fusion sarcoma (small round cell) of the urinary bladder; initial misdiagnosis as Ewing sarcoma (CD99+, EWSR1 FISH+) corrected by RNA-seq revealing EWSR1 exon 10::BEND2 exon 2 in-frame fusion; [PTEN](../genes/PTEN.md) loss co-occurring on 10q deletion [PMID:28199314](../papers/28199314.md)
 - In the MSK-IMPACT pan-cancer cohort, BLCA had the highest TERT promoter mutation rate of any principal tumor type at 70%; MSI BLCA patients showed responses to immune checkpoint blockade; BLCA was included among 62 principal tumor types in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
 - MSK-IMPACT targeted sequencing of 105 nonmuscle invasive bladder cancer (NMIBC) tumors (blca_nmibc_2017) found TERT promoter mutations in 73% across all grade/stage groups; chromatin-modifying gene alterations in 69% (KDM6A 38%, ARID1A 21%); ERBB2 and FGFR3 alterations in 57% of high-grade NMIBC in a mutually exclusive pattern; DDR gene alterations in 30% of high-grade NMIBC; ARID1A mutations associated with 3.14-fold higher BCG-recurrence risk (HR=3.14, 95% CI 1.51-6.51, P=0.002). [PMID:28583311](../papers/28583311.md)
+- TCGA expanded comprehensive molecular characterization of 412 chemotherapy-naive muscle-invasive bladder cancers integrating WES, RNA-seq, miRNA-seq, DNA methylation, SNP6, and RPPA; defined five mRNA subtypes (luminal-papillary, luminal-infiltrated, luminal, basal-squamous, neuronal), identified 58 SMGs, and linked APOBEC-dominated mutagenesis (67% of SNVs) paradoxically to best survival [PMID:28988769](../papers/28988769.md)
 
 ## Subtypes
 
@@ -80,3 +81,6 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:28583311](../papers/28583311.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -3,7 +3,7 @@ symbol: KRAS
 aliases: []
 cancer_types: [LUAD, LUSC, APAD, LCH, ECD, NSCLC, PAAD, CESC, HCC, EGC, UCEC, RMS, COAD, CSCC, CHOL]
 tags: [oncogene, mapk, driver, allele-specific]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -107,6 +107,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Mutations significantly more frequent in intrahepatic cholangiocarcinomas vs. other CCA subtypes (q < 0.1) [PMID:28667006](../papers/28667006.md)
 - Altered in 51/500 (10.2%) of metastatic solid tumors in a pan-cancer metastatic sequencing cohort (MET500) [PMID:28783718](../papers/28783718.md)
 - Hotspot MAPK-pathway mutations in ~5% of prostate cancer patients across disease states [PMID:28825054](../papers/28825054.md)
+- Recurrently focally amplified SCNA in MIBC (n=412, TCGA BLCA 2017). [PMID:28988769](../papers/28988769.md)
+- Oncogenic alterations in 16% of CIN gastroesophageal cancer tumors; acquired activating co-mutations enriched post-trastuzumab progression (2% pre vs 13% post; associated with intrinsic and acquired trastuzumab resistance). [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -380,3 +382,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

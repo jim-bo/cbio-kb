@@ -51,6 +51,9 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Cell-cycle pathway gene with alterations more common at higher stage/grade in non-muscle-invasive bladder cancer (NMIBC; n=105) [PMID:28583311](../papers/28583311.md)
 - Altered in 68/500 (13.6%) in the MET500 pan-cancer metastatic cohort; also fusion-disrupted in 6 cases; germline PPGM enrichment noted [PMID:28783718](../papers/28783718.md)
 - Frequency rises sharply with castration resistance in prostate cancer (2% noncastrate → 18% mCRPC); locoregional-to-mCRPC progression is marked by convergent PTEN and RB1 co-loss [PMID:28825054](../papers/28825054.md)
+- RB1 has recurrent point mutations in addition to historically described copy-number losses in DLBCL [PMID:28985567](../papers/28985567.md)
+- RB1 mostly inactivating mutations (17%) in MIBC with associated reduced mRNA; hallmark co-event with TP53 loss in the neuronal subtype [PMID:28988769](../papers/28988769.md)
+- RB1 is a pan-sarcoma SMG with deep deletions in 14% LMS, 16% UPS, 24% MFS; enriched mutations in STLMS iCluster C1 (p=0.04) [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -141,3 +144,12 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

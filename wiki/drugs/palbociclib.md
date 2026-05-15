@@ -9,7 +9,7 @@ unverified: true
 tags:
   - targeted-therapy
   - cdk-inhibitor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -26,6 +26,7 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - CDK4/6 inhibitor palbociclib under evaluation in RB1-intact [HCC](../cancer_types/HCC.md) as a rationale-driven trial target; [RB1](../genes/RB1.md) LOF occurs in 4% and homozygous deletion in 5% of HCCs [PMID:24798001](../papers/24798001.md)
 - [CDKN2A](../genes/CDKN2A.md) loss (>36%), [CDK4](../genes/CDK4.md) amplification, and [CCND1](../genes/CCND1.md) amplification in pancreatic ductal adenocarcinoma (109 resected cases, WES) make PDA a high-prior candidate for CDK4/6 inhibition with palbociclib (PD-0332991); synergy with pathway-selective agents shown in PDA models [PMID:25855536](../papers/25855536.md)
 - RB1 loss-of-function mutations occur in 5% of HR+/HER2- metastatic breast cancer (mBC) and may confer primary resistance to palbociclib, since RB1 protein is required for CDK4/6 inhibitor bioactivity; authors recommend RB1 testing on metastatic samples before initiating CDK4/6 inhibitors [PMID:28027327](../papers/28027327.md)
+- p53/Rb-pathway-altered MIBC (CDKN2A loss with retained Rb) is being targeted with palbociclib (PD-0332991) in NCT02334527, motivated by the pervasive p53/cell-cycle pathway inactivation (89% of tumors) found in the TCGA MIBC cohort [PMID:28988769](../papers/28988769.md)
 
 ## Resistance mechanisms
 
@@ -50,3 +51,6 @@ Palbociclib is an oral CDK4/6 inhibitor that blocks G1-to-S-phase cell-cycle pro
 - [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; RB1 loss in 5% of HR+/HER2- mBC may confer primary palbociclib resistance.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

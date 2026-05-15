@@ -5,8 +5,8 @@ drug_class: Anti-CD20 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [DLBCL, B-cell-lymphoma, immunotherapy, antibody]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Rituximab
@@ -20,6 +20,7 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 - R-CHOP (including rituximab) is the standard of care for DLBCL; WES of 55 DLBCL tumors identified 58 significantly mutated genes across [BCR](../genes/BCR.md) signaling ([CD79B](../genes/CD79B.md), [CARD11](../genes/CARD11.md)), NF-kB ([MYD88](../genes/MYD88.md)), and epigenetic ([EZH2](../genes/EZH2.md), [CREBBP](../genes/CREBBP.md), [KMT2D](../genes/KMT2D.md)) pathways that may inform combination or salvage strategies [PMID:22343534](../papers/22343534.md).
 - Rituximab-refractory CLL cases included in WES cohort; [NOTCH1](../genes/NOTCH1.md) mutations associated with inferior outcome under chemo-immunotherapy [PMID:23415222](../papers/23415222.md)
 - Component of the FCR (fludarabine/cyclophosphamide/rituximab) chemoimmunotherapy arm of the CLL8 trial (n=538 CLL); [TP53](../genes/TP53.md), [SF3B1](../genes/SF3B1.md), and [RPS15](../genes/RPS15.md) mutations predicted shorter PFS under FCR; the eventual relapse clone was pre-treatment detectable in 30% of cases [PMID:26466571](../papers/26466571.md).
+- All 1001 patients in the DLBCL genomic study received rituximab-containing immunochemotherapy as standard of care, providing a uniformly-treated reference cohort for biomarker discovery [PMID:28985567](../papers/28985567.md)
 
 ## Resistance mechanisms
 
@@ -41,3 +42,6 @@ Rituximab is a chimeric anti-CD20 (MS4A1) monoclonal antibody that depletes CD20
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

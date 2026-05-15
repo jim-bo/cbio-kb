@@ -3,7 +3,7 @@ symbol: TGFBR2
 aliases: []
 cancer_types: [ESCC]
 tags: [tumor-suppressor, somatic, tgfb-pathway, significantly-mutated]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -16,6 +16,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 ## Alterations observed in the corpus
 
 - Significantly mutated in ESCC ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=90 ESCC), identified by MutSigCV2.0 analysis. [PMID:28052061](../papers/28052061.md)
+- GCB-selective CRISPR essential dependency in DLBCL [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

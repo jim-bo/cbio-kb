@@ -4,7 +4,7 @@ aliases: [LMYC, L-MYC]
 cancer_types: [SCLC]
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # MYCL
@@ -20,6 +20,7 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 - Copy-number amplification confirmed as a recurrent alteration in [SCLC](../cancer_types/SCLC.md) (JHU cohort, 36 tumors) [PMID:22941189](../papers/22941189.md)
 - Recurrent focal amplification in SCLC (L-MYC); member of the [MYC](../genes/MYC.md) family amplified in SCLC alongside MYC and [MYCN](../genes/MYCN.md) [PMID:26168399](../papers/26168399.md)
 - MYCL identified as a novel amplification target gene in both lung adenocarcinoma and squamous cell carcinoma in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
+- MYCL1 (MYCL) amplification was identified by GISTIC analysis as a recurrent focal amplification in muscle-invasive bladder cancer (MIBC), consistent with prior TCGA findings [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -49,3 +50,6 @@ MYCL (L-MYC) is a member of the [MYC](../genes/MYC.md) family of basic helix-loo
 - [PMID:27158780](../papers/27158780.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

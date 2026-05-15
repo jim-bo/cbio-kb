@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [variant-calling, snv, indel, somatic, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # Strelka
@@ -24,6 +24,7 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - Used for SNV calling in whole-genome sequencing of 46 matched primary/recurrent medulloblastoma samples alongside MutationSeq; contributed to characterization of massive genetic divergence (mean <12% shared events) between primary and recurrent tumor clones [PMID:26760213](../papers/26760213.md).
 - Used alongside Indelocator for indel calling in 619 CRC FFPE tumor/normal WES pairs; only calls concordant between both tools were retained [PMID:27149842](../papers/27149842.md)
 - Used Strelka for somatic indel and SNV calling in paired tumor-normal samples [PMID:28373299](../papers/28373299.md)
+- Applied alongside MuTect, SomaticSniper, and VarScan for somatic variant calling in 68 paired melanoma WES samples; intersection-based approach used to increase specificity [PMID:29033130](../papers/29033130.md)
 
 ## Notes
 
@@ -52,3 +53,6 @@ Strelka (and its successor Strelka2) is a somatic small-variant caller for match
 - [PMID:28373299](../papers/28373299.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [cytogenetics, fusion-detection]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -54,6 +54,9 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 - Used fluorescence in situ hybridization (FISH) to detect chromosomal copy number alterations and gene fusions [PMID:28199314](../papers/28199314.md)
 - Used FISH to detect copy number alterations and gene fusions in pediatric tumor specimens [PMID:28445112](../papers/28445112.md)
 - Used to independently validate ERBB2 amplification calls from ASCAT/SNP-array analysis in ICGC CCA cohort; enrichment confirmed for Fluke-Pos CCAs (10.4% vs 2.7% in Fluke-Neg, p < 0.01) [PMID:28667006](../papers/28667006.md)
+- Applied to detect MYC and BCL2 translocations in the 1001-patient DLBCL cohort; MYC FISH translocations associated with MYC mutations and high MYC expression [PMID:28985567](../papers/28985567.md)
+- Used for HER2 (ERBB2) status assessment per CAP/ASCO criteria as part of standard clinical workup in the BLCA TCGA cohort [PMID:28988769](../papers/28988769.md)
+- FISH used for HER2 status assessment per CAP/ASCO criteria in 295 metastatic EGC patients; NGS-based ERBB2 amplification showed 93.7% overall concordance with IHC/FISH, with NGS predicting trastuzumab benefit more precisely [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -162,4 +165,13 @@ Cytogenetic technique using fluorescent DNA probes to detect specific genomic re
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

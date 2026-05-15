@@ -1,9 +1,9 @@
 ---
 symbol: KMT2C
 aliases: []
-cancer_types: [CLLSLL, CESC]
+cancer_types: [CLLSLL, CESC, BLCA, EGC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -47,6 +47,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Chromatin modifier enriched in UMD (unmatched molecular driver) subset, especially never/former-light smokers, in prospective LUAD cohort (860 patients, MSK-IMPACT) [PMID:28336552](../papers/28336552.md)
 - Mutated in 7.9% of clear-cell endometrial carcinoma (CCEC); 3 N-terminal frameshifts plus 3 missense mutations affecting the SET methyltransferase domain; first report of KMT2C somatic mutation in CCEC [PMID:28485815](../papers/28485815.md)
 - Recurrent histone-methylation-modifier mutations across medulloblastoma subgroups [PMID:28726821](../papers/28726821.md)
+- Most frequently mutated newly recognized SMG in MIBC (18%, n=412, TCGA BLCA 2017); less frequently mutated in MSK metastatic gastroesophageal cancer vs TCGA non-MSI-H (q≤0.10). [PMID:28988769](../papers/28988769.md)
+- Significantly less frequently mutated in MSK metastatic gastroesophageal cancer (EGC) cohort vs TCGA non-MSI-H (q≤0.10), suggesting differential selection in metastatic vs localized disease. [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -162,3 +164,9 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

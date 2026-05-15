@@ -7,8 +7,8 @@ tags:
   - sarcoma
   - soft-tissue
   - myxofibrosarcoma
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Myxofibrosarcoma (MFS)
@@ -28,6 +28,7 @@ Myxofibrosarcoma (formerly myxoid malignant fibrous histiocytoma) is a soft-tiss
 - [ERBB4](../genes/ERBB4.md) — mutations found on resequencing of MFS (and [PLLS](../cancer_types/PLLS.md)) samples. [PMID:20601955](../papers/20601955.md)
 - Complex karyotype: MFS clusters with [DDLS](../cancer_types/DDLS.md), PLLS, and [LMS](../cancer_types/LMS.md) as complex-karyotype subtypes with copy-neutral LOH; MFS and PLLS are strikingly similar genomically, supporting a unified molecular class. [PMID:20601955](../papers/20601955.md)
 - No recurrent driver alterations specifically characterized for MFS in the UCLA PDTO study. Complex karyotype with [TP53](../genes/TP53.md) and [RB1](../genes/RB1.md) alterations are common in the broader literature.
+- MFS (n=17) was molecularly indistinguishable from UPS across platforms; myxoid-stroma gene expression was the primary separator; recurrent CCNE1 (10%), VGLL3 (11%), and YAP1 (3%) amplifications implicate the Hippo pathway; high NK-cell and dendritic-cell immune signatures correlated with improved DSS, nominating MFS alongside UPS for checkpoint-inhibitor trials [PMID:29100075](../papers/29100075.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Myxofibrosarcoma (formerly myxoid malignant fibrous histiocytoma) is a soft-tiss
 - [PMID:39305899](../papers/39305899.md) — Al Shihabi et al. *Cell Stem Cell* 2024. UCLA sarcoma PDTO drug-sensitivity landscape.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

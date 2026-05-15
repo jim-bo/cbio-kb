@@ -18,6 +18,7 @@ EXCAVATOR is a bioinformatics tool for copy-number variation (CNV) inference fro
 ## Used by
 
 - EXCAVATOR v2.2 used to infer CNV from WES data in the PIPseq pediatric precision oncology program at Columbia University Medical Center; CNV findings contributed 7% of clinically impactful results in the 60-patient cWES + RNA-seq cohort [PMID:28007021](../papers/28007021.md).
+- Used to call somatic copy-number variants from whole-exome sequencing in 1001 DLBCL tumors [PMID:28985567](../papers/28985567.md)
 
 ## Notes
 
@@ -25,5 +26,8 @@ EXCAVATOR is a bioinformatics tool for copy-number variation (CNV) inference fro
 - CNV calls were integrated with somatic mutation and fusion data for tumor-board reporting.
 
 ## Sources
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

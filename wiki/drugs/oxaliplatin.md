@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # oxaliplatin
@@ -22,6 +22,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Component of FOLFIRINOX ([fluorouracil](../drugs/fluorouracil.md) + [irinotecan](../drugs/irinotecan.md) + oxaliplatin + [leucovorin](../drugs/leucovorin.md)) — the most commonly used neoadjuvant chemotherapy regimen in the MSK resected PDAC cohort (n=1,360). [KRAS](../genes/KRAS.md)^G12R^ patients were enriched among FOLFIRINOX-followed-by-resection patients (32.7% vs 17.9%; p=0.094), suggesting possible higher chemosensitivity of [KRAS](../genes/KRAS.md)^G12R^ PDAC to oxaliplatin-containing regimens. [PMID:39214094](../papers/39214094.md)
 - FOLFIRINOX (38% of curated cohort) and gemcitabine/nab-paclitaxel (37%) were the dominant first-line regimens in the MSK PDAC 2024 prospective cohort (n=2,336 patients, n=304 metastatic with [OS](../cancer_types/OS.md) analysis); backbone choice was not significantly associated with [OS](../cancer_types/OS.md) in the metastatic subset. [PMID:39753968](../papers/39753968.md)
 - Mentioned in HCC systemic therapy review as part of FOLFOX4 chemotherapy regimen in the context of HCC treatment options [PMID:24798001](../papers/24798001.md)
+- Oxaliplatin-containing regimens (FOLFOX) were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict response, and MSI-H tumors had inferior cytotoxic PFS (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - [PMID:24798001](../papers/24798001.md)
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -22,6 +22,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - Recurrent homozygous deletion in multiple myeloma; proposed to feed into IL6/STAT3 signaling as a tumor suppressor through [STAT3](../genes/STAT3.md) dephosphorylation [PMID:24434212](../papers/24434212.md)
 - Novel 5'-NFIB fusion partner in adenoid cystic carcinoma; identified in t(6;9)-positive/MYB-NFIB-negative tumors [PMID:26631609](../papers/26631609.md)
 - PTPRD tumor-suppressor alterations flagged as actionable in a targeted sequencing study of germ cell tumors, particularly among cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
+- PTPRD less frequently mutated in the MSK metastatic gastroesophageal cohort vs TCGA non-MSI-H (q<=0.10), suggesting selective pressure against PTPRD mutations in metastatic disease [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

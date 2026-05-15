@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [chemotherapy]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-15
 ---
 
 # irinotecan
@@ -25,6 +25,7 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - Included in the CCLE pharmacogenomic screen across 947 cancer cell lines; sensitivity correlated with genomic features via [elastic-net](../methods/elastic-net.md) regression [PMID:22460905](../papers/22460905.md)
 - High [TOP2A](../genes/TOP2A.md) expression and amplification in metastatic PanNET patient PN4 (MSH6/MLH1-deficient, TMB ~11 mut/Mb) supported irinotecan recommendation in the POG NEN WGTA cohort [PMID:24326773](../papers/24326773.md)
 - In SCLC chemoresistant PDX models, EPZ011989 (EZH2 inhibitor) + irinotecan over 6 weekly cycles produced potent combinatorial activity; SLFN11-high chemonaive models achieved complete responses in 5/5 animals with EPZ + irinotecan; a single in vivo irinotecan dose induced EZH2 protein and H3K27me3 increases [PMID:28196596](../papers/28196596.md).
+- Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead [PMID:29122777](../papers/29122777.md)
 
 ## Resistance mechanisms
 
@@ -53,3 +54,6 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:28196596](../papers/28196596.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

@@ -7,7 +7,7 @@ cancer_types:
   - ESCA
   - GEJ
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -38,6 +38,8 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 - CDH1 inactivating mutations found in 52.6% of lobular breast carcinomas (hallmark of invasive lobular); 96.0% of mutant tumors show LOH; co-mutated with PIK3CA, TBX3, RUNX1, and ERBB2; strongly mutually exclusive with TP53 (OR=0.23); homozygous deletions in 18 ductal/NST and 4 lobular cases; associated with older age at diagnosis (OR=4.5 for SF3B1 context) [PMID:27161491](../papers/27161491.md).
 - CDH1 is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC); identified by MutSig analysis of 216 mBC whole-exome sequences [PMID:28027327](../papers/28027327.md)
 - CDH1-linked upregulated E-cadherin signalling pathway identified in EAC vs ESCC by gene-expression analysis in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
+- placeholder
+- placeholder
 
 ## Cancer types (linked)
 
@@ -114,3 +116,9 @@ CDH1 encodes E-cadherin, a calcium-dependent cell adhesion protein essential for
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

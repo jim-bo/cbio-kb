@@ -30,6 +30,8 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - Used for DNA methylation profiling of 516 LGG and 129 GBM samples in the TCGA pan-glioma study; merged with HM27 data to define six pan-glioma methylation clusters (LGm1–6); methylation subtype was an independent prognostic predictor (C-index 0.836 with age + grade) [PMID:26824661](../papers/26824661.md)
 - Illumina HumanMethylation450 BeadChip applied on day 0 and day 10 of cycle 1 in AML/MDS patients on decitabine; global CpG methylcytosine reduction was similar between responders and non-responders and not predictive of decitabine response. [PMID:27959731](../papers/27959731.md)
 - Illumina HumanMethylation450 (HM450) arrays profiled DNA methylation of 164 oesophageal carcinomas and gastric cancers; revealed a proximal-to-distal hypermethylation gradient in GEA-CIN tumors and defined the hypermethylated cluster enriched in EAC [PMID:28052061](../papers/28052061.md).
+- Profiled all 412 BLCA tumors; identified 158 epigenetically silenced genes and a hypomethylation cluster corresponding to the luminal-papillary subtype (enriched FGFR3 mutations, better survival) [PMID:28988769](../papers/28988769.md)
+- Applied to 206 TCGA sarcomas; combined SCNA + methylation clustering defined DDLPS prognostic subtypes (K3 vs K1+K2, p=0.001); hypermethylation alone (Meth2) yielded HR=4.4 (p=0.002) in DDLPS [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -76,3 +78,9 @@ The Illumina Infinium HumanMethylation450 BeadChip (HM450) is a genome-wide DNA 
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [copy-number, clonality, computational]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -28,6 +28,8 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - FACETS used for allele-specific copy-number estimation and clonality assessment in 151 advanced head and neck tumors sequenced with MSK-IMPACT; identified whole-genome duplication in 25% of HNSC cases and quantified 3p deletions enriched in recurrent HPV-positive disease [PMID:27442865](../papers/27442865.md)
 - Applied FACETS algorithm to infer somatic copy number alterations and tumor purity/ploidy from sequencing data [PMID:28336552](../papers/28336552.md)
 - Used to estimate cancer cell fraction and clonality of alterations in MSK-IMPACT-sequenced prostate cancer tumors (504 tumors from 451 patients); identified TP53 and BRCA2 somatic alterations as early truncal clonal events in patients who later developed metastasis [PMID:28825054](../papers/28825054.md)
+- FACETS v0.5.0 used for allele-specific copy-number analysis from WES in 68 melanoma biopsies; identified focal CDKN2A loss emerging on-therapy in 4 progressive-disease patients [PMID:29033130](../papers/29033130.md)
+- FACETS used for allele-specific copy-number estimation and tumor purity calculation in 295 metastatic EGC samples; ERBB2 amplification level by FACETS-based NGS predicted trastuzumab PFS better than IHC/FISH [PMID:29122777](../papers/29122777.md)
 
 ## Notes
 
@@ -55,4 +57,10 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

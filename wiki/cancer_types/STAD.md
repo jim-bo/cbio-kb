@@ -4,7 +4,7 @@ oncotree_code: STAD
 main_type: Esophagogastric Cancer
 parent: EGC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -34,6 +34,7 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - WES of 78 primary gastric adenocarcinomas (294-patient pooled cohort) identified HiC (high-clonality) and LoC (low-clonality) subtypes; HiC tumors enriched for subclonal [TP53](../genes/TP53.md), older onset, and significantly shorter survival (adjusted HR 4.69, P=0.0043); [NRG1](../genes/NRG1.md) or [ERBB4](../genes/ERBB4.md) mutations in 11.6% and [BRCA2](../genes/BRCA2.md) mutations in 5.8% of cases [PMID:25583476](../papers/25583476.md).
 - TCGA integrated profiling added 77 new gastric adenocarcinomas (total 388) for comparison with esophageal carcinoma: chromosomally-unstable (CIN) gastric adenocarcinoma is molecularly indistinguishable from oesophageal adenocarcinoma; methylation gradient along the gastroesophageal axis shows proximal-to-distal hypermethylated-to-hypomethylated transition; MGMT/CHFR silencing enriched in proximal hypermethylated cluster [PMID:28052061](../papers/28052061.md)
 - In the MSK-IMPACT pan-cancer cohort, TP53 was significantly enriched in gastric cancer vs TCGA; MSI gastric tumors showed responses to immune checkpoint blockade; STAD was included among 62 principal tumor types profiled in msk_impact_2017. [PMID:28481359](../papers/28481359.md)
+- Stomach adenocarcinoma was among the cancer subtypes in the MSK EGC cohort (n=295, stage IV, MSK-IMPACT); the GS molecular subtype (34%) was enriched for diffuse histology (32% vs 9% in CIN, P=3e-5) and CDH1 mutations; TP53 mutation rate in the MSK metastatic cohort (73%) was higher than in TCGA (62%, q=0.11), consistent with metastatic enrichment [PMID:29122777](../papers/29122777.md)
 
 ## Subtypes
 
@@ -72,3 +73,6 @@ Stomach adenocarcinoma (STAD) is a malignant epithelial tumor of the gastric muc
 - [PMID:28481359](../papers/28481359.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

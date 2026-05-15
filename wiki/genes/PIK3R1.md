@@ -40,6 +40,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - G376R hotspot mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma; unknown therapeutic implication [PMID:28472509](../papers/28472509.md)
 - Mutated in 15.9% of clear-cell endometrial carcinoma (CCEC; n=63); part of the 34.9% of CCECs with PI3K-pathway alterations (PIK3CA/PIK3R1/PTEN) [PMID:28485815](../papers/28485815.md)
 - PIK3CA and PIK3R1 alterations are predominantly known activating hotspots in advanced prostate cancer; one patient acquired a PIK3CA E545K hotspot ~3 years post-prostatectomy, illustrating late-emergent actionable events [PMID:28825054](../papers/28825054.md)
+- PIK3R1 identified as a driver-gene cluster member across signaling and cell growth functional groups in a 1001-patient DLBCL genomic cohort [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -110,3 +111,6 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:28825054](../papers/28825054.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

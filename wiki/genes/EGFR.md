@@ -78,6 +78,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Hotspot A289V missense mutation in 1/19 oligodendroglioma cases (FISH-confirmed 1p/19q-codeleted); EGFR amplification observed in 1p/19q-intact glioblastoma-like cases [PMID:28472509](../papers/28472509.md)
 - Tumor-type-specific alteration localization: extracellular N-terminal domain in glioma vs kinase domain in lung cancer; EGFRvIII (exon 2-7 deletion) detected in 65 cases across MSK-IMPACT cohort [PMID:28481359](../papers/28481359.md)
 - Recurrent oncogene amplification in CCA (n=11 of 71 WGS cases); co-amplified with MYC, MDM2, and CCND1 in Fluke-associated cholangiocarcinoma subsets [PMID:28667006](../papers/28667006.md).
+- Recurrently amplified focal SCNA in MIBC; high EGFR protein expression in the basal-squamous subtype (RPPA cluster 3), proposed as a candidate for EGFR inhibitor therapy in muscle-invasive bladder cancer [PMID:28988769](../papers/28988769.md)
+- Oncogenic alterations in 8% of CIN-subtype esophagogastric cancers; listed among potentially targetable kinases, often concurrent with other actionable kinases (ERBB2, ERBB3, FGFR2, MET, CDK4, FGFR1) suggesting combination strategies are needed [PMID:29122777](../papers/29122777.md)
 
 ## Cancer types (linked)
 
@@ -228,5 +230,11 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*

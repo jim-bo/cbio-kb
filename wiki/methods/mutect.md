@@ -9,7 +9,7 @@ tags:
   - snv-calling
   - whole-exome-seq
   - whole-genome-seq
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -54,6 +54,9 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Applied MuTect for somatic mutation calling from paired tumor-normal sequencing [PMID:28445112](../papers/28445112.md)
 - Used as one of three somatic variant callers (MuTect, Pindel, GATK somatic indel detector) in the MSK-IMPACT SNV/indel pipeline; all calls manually reviewed in IGV [PMID:28481359](../papers/28481359.md)
 - Applied for somatic SNV calling on CCA whole-genome and exome sequencing data in the ICGC cholangiocarcinoma cohort (489 tumors across three sequencing platforms) [PMID:28667006](../papers/28667006.md)
+- Used for somatic SNV calling (MuTect v1.1.4) in 1001 DLBCL whole-exome sequencing samples [PMID:28985567](../papers/28985567.md)
+- Used for SNV calling in 412 BLCA tumor-normal pairs identifying 128,772 SNVs; confirmed APOBEC-dominated mutational landscape (67% of SNVs) [PMID:28988769](../papers/28988769.md)
+- One of four somatic variant callers applied to 68 paired melanoma biopsies in the CA209-038 nivolumab trial; intersection of MuTect 1.1.4, SomaticSniper 1.0.4, VarScan 2.3.7, and Strelka 1.0.13 was used [PMID:29033130](../papers/29033130.md)
 
 ## Notes
 
@@ -153,7 +156,16 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

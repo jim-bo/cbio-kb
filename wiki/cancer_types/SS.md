@@ -7,8 +7,8 @@ tags:
   - lymphoid
   - cutaneous-t-cell-lymphoma
   - ctcl
-processed_by: entity-page-writer
-processed_at: "2026-05-14"
+processed_by: wiki-cli
+processed_at: 2026-05-15
 ---
 
 # Sezary Syndrome (SS)
@@ -28,6 +28,7 @@ Sézary syndrome (SS) is an aggressive leukemic form of cutaneous T-cell lymphom
 - Epigenetic regulator mutations: [TET2](../genes/TET2.md) (p.Gln1654*, p.Cys1932Phe, p.Gln649*), [CREBBP](../genes/CREBBP.md) (p.Gln839*, p.Ser1207fs), [KMT2C](../genes/KMT2C.md) p.Thr3941fs, [BRD9](../genes/BRD9.md) p.Gln479His/p.His467_Leu468del, [SMARCA4](../genes/SMARCA4.md) p.Ser1238Tyr, [CHD3](../genes/CHD3.md) p.Gln660His/p.Ser230Leu [PMID:26551667](../papers/26551667.md).
 - TCR/NFκB signaling mutations: [CARD11](../genes/CARD11.md) linker-domain p.Ser615Phe and p.Glu626Lys (NFκB-activating, validated functionally), [TNFRSF1B](../genes/TNFRSF1B.md) p.Gly256Cys/p.Thr377Ile, [PLCG1](../genes/PLCG1.md) p.Gly722Val/p.Arg48Trp/p.Glu1163Lys, [PRKG1](../genes/PRKG1.md) p.Glu17Lys/p.Arg21Gln (cGKIβ LoF, validated to enhance NFAT signaling), [JAK3](../genes/JAK3.md) p.Val678Leu [PMID:26551667](../papers/26551667.md).
 - [PREX2](../genes/PREX2.md) p.Arg297Cys and p.Glu1295Lys (PTEN-inhibitory Rac-GEF; alleles also reported in melanoma and head-and-neck cancer) [PMID:26551667](../papers/26551667.md).
+- SS (n=10) was genomically distinct with the fewest SCNAs and mutations of any histology; all 10 cases carried SS18-SSX1 or SS18-SSX2 t(X;18) fusions; iCluster placed all SS in C4 (high FGFR3, miR-183, PDE4A promoter methylation, partial/complete 3p loss in 5/10 cases) [PMID:29100075](../papers/29100075.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Sézary syndrome (SS) is an aggressive leukemic form of cutaneous T-cell lymphom
 - [PMID:26551667](../papers/26551667.md) — da Silva Almeida et al., whole-exome sequencing of 42 CTCL patients (25 Sézary syndrome, 8 mycosis fungoides).
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

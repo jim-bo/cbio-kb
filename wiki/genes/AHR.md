@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: [transcription-factor, pharmacogenomics, MEK-inhibitor-sensitivity]
 processed_by: entity-page-writer
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # AHR
@@ -16,6 +16,7 @@ AHR (aryl hydrocarbon receptor) is a ligand-activated transcription factor invol
 ## Alterations observed in the corpus
 
 - Elevated AHR expression correlates with MEK inhibitor (PD-0325901) sensitivity in NRAS-mutant cancer cell lines; functional dependency confirmed by shRNA knockdown [PMID:22460905](../papers/22460905.md)
+- Expression correlates with APOBEC-signature mutation load in muscle-invasive bladder cancer (MIBC); AHR is identified as part of the broader mutagenic landscape driven by APOBEC activity [PMID:28988769](../papers/28988769.md)
 
 ## Cancer types (linked)
 
@@ -37,5 +38,6 @@ AHR (aryl hydrocarbon receptor) is a ligand-activated transcription factor invol
 ## Sources
 
 - [PMID:22460905](../papers/22460905.md) — Cancer Cell Line Encyclopedia (CCLE) pharmacogenomic profiling of 947 cancer cell lines
+- [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

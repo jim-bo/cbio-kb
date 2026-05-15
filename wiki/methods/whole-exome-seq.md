@@ -5,7 +5,7 @@ kind: method
 canonical_source: 
 unverified: true
 tags: [sequencing, wes]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -147,6 +147,10 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Applied to 200 CCA cases as part of the multi-platform ICGC cholangiocarcinoma cohort (489 total tumors), contributing somatic mutation calls to the integrative four-cluster analysis [PMID:28667006](../papers/28667006.md)
 - Used for 101 medulloblastoma cases (from prior PCGP/MAGIC studies) complementing 390 whole-genome sequenced cases in the ICGC PedBrain MAGIC cohort of 491 diagnostic tumor-normal pairs [PMID:28726821](../papers/28726821.md)
 - Applied to 500 adult patients with metastatic solid tumors (MET500 cohort) using Agilent SureSelect Human All Exon v4 (mean 180× tumor / 120× normal coverage), generating the primary somatic variant calls for SNVs (VarScan2), indels (Pindel), and annotations (ANNOVAR) [PMID:28783718](../papers/28783718.md)
+- Used for somatic variant discovery in 1001 de novo DLBCL tumors (400 paired tumor-normal; Agilent All Exon V5, ~75X on Illumina HiSeq 2500) [PMID:28985567](../papers/28985567.md)
+- Applied to 412 chemotherapy-naive muscle-invasive bladder cancer (BLCA) tumor/normal pairs (Agilent SureSelect 50 Mb, mean 85X, 79% target ≥30X) identifying 128,772 SNVs and 2,888 indels [PMID:28988769](../papers/28988769.md)
+- Applied to 68 paired pre- and on-therapy melanoma biopsies (Agilent SureSelect All Exon V2, mean 168X; re-sequenced at 300X for selected responders) to quantify on-therapy somatic mutation and neoantigen loss [PMID:29033130](../papers/29033130.md)
+- Applied to 205 adult soft tissue sarcomas (6 histologies) for somatic mutation analysis; only 3 pan-cohort significantly mutated genes identified (TP53, ATRX, RB1), confirming SCNA-driven biology [PMID:29100075](../papers/29100075.md)
 
 ## Notes
 
@@ -487,19 +491,31 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28485815](../papers/28485815.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28445469](../papers/28445469.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28667006](../papers/28667006.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28988769](../papers/28988769.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

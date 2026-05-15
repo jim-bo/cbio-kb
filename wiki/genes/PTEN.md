@@ -110,6 +110,9 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - Altered in 79/500 (15.8%) in the MET500 pan-cancer metastatic cohort; also recurrently disrupted by fusions (n=11) [PMID:28783718](../papers/28783718.md)
 - Frequency rises sharply with castration resistance in prostate cancer (12% noncastrate → 29% mCRPC), co-occurring with RB1 loss; convergent PTEN+RB1 co-loss characterizes advanced mCRPC [PMID:28825054](../papers/28825054.md)
 - Recurrent rearrangements targeting PTEN identified in medulloblastoma (pan-MB WGS/WES cohort, n=491) [PMID:28726821](../papers/28726821.md)
+- PTEN shows a CRISPR-enriched (tumor-suppressor) pattern in DLBCL [PMID:28985567](../papers/28985567.md)
+- PTEN reviewed for homozygous CN loss in metastatic melanoma treated with nivolumab; no significant association with response to nivolumab was reported [PMID:29033130](../papers/29033130.md)
+- PTEN deletions (81% combined deep+shallow) and mutations (5%) in sarcoma; PI3K/AKT/MTOR pathway alterations in 84% of ULMS+STLMS C1 vs 44% of STLMS C2; nominates dual PI3K/MTOR or TORC1/TORC2 inhibitors [PMID:29100075](../papers/29100075.md)
 
 ## Cancer types (linked)
 
@@ -316,3 +319,12 @@ PTEN is a phosphatase tumor suppressor antagonizing PI3K-AKT signaling; loss-of-
 - [PMID:28726821](../papers/28726821.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29033130](../papers/29033130.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:29100075](../papers/29100075.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

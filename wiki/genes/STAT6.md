@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CHL]
 tags: [jak-stat, hodgkin-lymphoma]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-15
 ---
 
 # STAT6
@@ -17,6 +17,7 @@ STAT6 is a JAK/STAT pathway transcription factor recurrently mutated in classic 
 
 - STAT6 was mutated in 20% of classic Hodgkin lymphoma cases, placing it among the top drivers identified by WGS/WES [PMID:36723991](../papers/36723991.md).
 - WES of 55 DLBCL tumors identified recurrent STAT6 mutations, implicating IL-4/IL-13 signaling dysregulation in diffuse large B-cell lymphoma pathogenesis [PMID:22343534](../papers/22343534.md)
+- Preferentially mutated in GCB DLBCL [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ STAT6 is a JAK/STAT pathway transcription factor recurrently mutated in classic 
 - [PMID:22343534](../papers/22343534.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

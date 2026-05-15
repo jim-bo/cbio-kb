@@ -3,7 +3,7 @@ symbol: NOTCH2
 aliases: []
 cancer_types: [CSCC]
 tags: [tumor-suppressor, skin-cancer, Notch-pathway, loss-of-function]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-15
 ---
 
@@ -30,6 +30,7 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - NOTCH2 mutation found uniquely in the plasmacytoid component of a mixed plasmacytoid/urothelial NOS bladder tumor (multi-region sequencing); functional consequence not dissected [PMID:26901067](../papers/26901067.md)
 - Recurrent mutation in 5% of unclassified RCC (uRCC) in the MSK-IMPACT 230-gene panel cohort (n=62) [PMID:27713405](../papers/27713405.md)
 - Mutated in 5/19 (26%) of 1p/19q-codeleted anaplastic oligodendroglioma; not predictive of PFS or OS in this small NGS subset [PMID:28472509](../papers/28472509.md)
+- NOTCH2 was identified as a DLBCL driver gene; however, CRISPR-based knockout of NOTCH2 did not significantly impair growth of DLBCL cell lines, suggesting NOTCH2 may play a role in early pathogenesis rather than being a direct therapeutic target in established DLBCL [PMID:28985567](../papers/28985567.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +81,6 @@ NOTCH2 is a receptor in the Notch signaling pathway. In the context of normal sk
 - [PMID:28472509](../papers/28472509.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28985567](../papers/28985567.md)
+
+*This page was processed by **wiki-cli** on **2026-05-15**.*

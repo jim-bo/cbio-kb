@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "sample_count",
+    "study": "blca_plasmacytoid_mskcc_2016",
+    "value": 31,
+    "denominator": null,
+    "quote": "Six plasmacytoid-variant bladder tumors were initially analyzed by whole exome sequencing... 19 additional plasmacytoid-variant tumors... 6 plasmacytoid-variant tumors profiled with the CLIA-certified MSK-IMPACT 341-gene panel",
+    "section": "Cohort & data"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "blca_plasmacytoid_mskcc_2016",
+    "gene": "CDH1",
+    "modifier": "truncating",
+    "value": 0.84,
+    "denominator": 31,
+    "quote": "truncating somatic alterations in the CDH1 gene occur in 84% of plasmacytoid carcinomas",
+    "section": "TL;DR"
+  },
+  {
+    "kind": "mutation_rate",
+    "study": "blca_plasmacytoid_mskcc_2016",
+    "gene": "TP53",
+    "modifier": "any",
+    "value": 0.59,
+    "denominator": null,
+    "quote": "frequent mutations in the tumor suppressors TP53 and RB1",
+    "section": "Key findings"
+  }
+]

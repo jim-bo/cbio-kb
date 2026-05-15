@@ -21,6 +21,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - In [PAAD](../cancer_types/PAAD.md), NOTCH3 alterations occurred at low frequency as part of the 31% NOTCH-pathway alteration in the 109-case exome cohort. [PMID:25855536](../papers/25855536.md)
 - Inactivating mutations (often in the extracellular domain) observed as part of pan-NOTCH inactivation in 25% of human [SCLC](../cancer_types/SCLC.md); mouse models confirm Notch activation suppresses [SCLC](../cancer_types/SCLC.md) initiation and prolongs survival. [PMID:26168399](../papers/26168399.md)
 - NOTCH3 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
+- More frequently mutated in HR+ metastatic breast cancer (mBC) than early-stage breast cancer at FDR<0.1; mutations spread across protein domains without obvious hotspots, leaving therapeutic actionability unclear [PMID:28027327](../papers/28027327.md)
 
 ## Cancer types (linked)
 
@@ -57,4 +58,6 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

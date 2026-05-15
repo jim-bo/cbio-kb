@@ -60,6 +60,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Beta-catenin pathway mutations in primary prostate cancer (TCGA prostate cohort); co-occurs with [APC](../genes/APC.md) truncating mutations [PMID:26544944](../papers/26544944.md)
 - Mentioned in study [PMID:26804919](../papers/26804919.md)
 - Only one non-hotspot CTNNB1 p.L347P mutation detected among 117 PDTC/ATC thyroid tumors; study explicitly fails to replicate prior reports of frequent WNT-pathway alterations in ATC (also one APC truncation and two unverified AXIN1 variants found) [PMID:26878173](../papers/26878173.md)
+- CTNNB1 beta-catenin activation more common in esophageal adenocarcinoma (EAC) than ESCC in the TCGA multi-platform esophageal carcinoma study [PMID:28052061](../papers/28052061.md)
+- CTNNB1/Wnt signaling activated in PCC/PGL Wnt-altered subtype driven by MAML3 fusions and CSDE1 mutations; beta-catenin antagonists (e.g., PRI-274) proposed as a therapeutic approach [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -157,5 +159,13 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -1,8 +1,8 @@
 ---
 symbol: TSC2
 aliases: [tuberin]
-cancer_types: [HCC, PTAD]
-tags: [tumor-suppressor, mtor-pathway, actionable]
+cancer_types: [BRCA]
+tags: [tumor-suppressor, somatic, mtor-pathway, mtor-inhibitor-target, metastasis-enriched]
 processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
@@ -11,74 +11,31 @@ processed_at: 2026-05-15
 
 ## Overview
 
-TSC2 encodes tuberin, which together with [TSC1](../genes/TSC1.md) (hamartin) forms the TSC complex that restrains mTORC1 signaling. TSC2 loss-of-function is an actionable alteration linked to mTOR inhibitor sensitivity.
+TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protein complex with TSC1 (hamartin) to inhibit RHEB and consequently mTORC1 signaling. Loss of TSC2 leads to constitutive mTOR activation, driving cellular growth. Germline mutations cause tuberous sclerosis complex; somatic mutations are enriched in the metastatic breast cancer setting, particularly following endocrine therapy, suggesting a role in treatment resistance.
 
 ## Alterations observed in the corpus
 
-- TSC2 alterations (splice site, frameshift) were detected in 14% of advanced hepatocellular carcinoma patients profiled by cfDNA (MSK-ACCESS); combined TSC1/TSC2 alterations in 18%; classified as actionable (OncoKB 3b) [PMID:37769223](../papers/37769223.md).
-- TSC2 mutations were found exclusively in treatment-refractory corticotroph and other pituitary neuroendocrine tumors (PitNETs); not present in benign PitNETs [PMID:38758238](../papers/38758238.md).
-- Mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); mTOR pathway tumour suppressor; part of the >30% of tumours with mTOR pathway alteration. [PMID:18948947](../papers/18948947.md)
-- Mutated in pancreatic neuroendocrine tumors (PanNET) identified by exome sequencing [PMID:21252315](../papers/21252315.md)
-- Higher TSC2 expression correlated with better survival in TCGA [CCRCC](../cancer_types/CCRCC.md); TSC2 is a PI3K pathway inhibitor and its expression level was linked to pathway alteration status [PMID:23792563](../papers/23792563.md)
-- Mutated in bladder urothelial carcinoma ([BLCA](../cancer_types/BLCA.md)) as part of the PI3K/AKT/mTOR pathway; TSC1/TSC2 loss identifies a subgroup of BLCA (42% PI3K/AKT/mTOR pathway-altered) with potential sensitivity to mTOR inhibition [PMID:24476821](../papers/24476821.md)
-- Somatic mutation in chromophobe RCC (combined TSC1/TSC2 rate 4/66); germline TSC2 mutations (tuberous sclerosis complex) predispose to ChRCC [PMID:25155756](../papers/25155756.md)
-- Tumor-suppressor mutation identified in MSK prostate cancer cell lines in castration-resistant prostate cancer [PMID:25201530](../papers/25201530.md)
-- TSC2 recurrently mutated in chromophobe renal cell carcinoma (chRCC), suggesting mTORC1 addiction and possible responsiveness to mTORC1 inhibitors (rapalogs) [PMID:25401301](../papers/25401301.md)
-- PI3K/AKT/mTOR pathway member; the pathway is disrupted in 39% of ATC vs 11% of PDTC (P = 1×10⁻³) in a thyroid cancer sequencing cohort [PMID:26878173](../papers/26878173.md)
-- PI3K/mTOR pathway event in cisplatin-resistant germ cell tumors; co-occurs with TSC1, AKT1, MTOR, PIK3CA, and PTEN alterations as part of actionable PI3K/mTOR pathway events identified by targeted sequencing in 180 GCT patients [PMID:27646943](../papers/27646943.md)
-- Mutated in 3/62 uRCC (4.8%); part of the mTORC1-hyperactive subset alongside MTOR, TSC1, and PTEN mutations; all TSC2-mutated tumours show maximal p-4EBP1 IHC (H-score=300), and the subset is mutually exclusive with NF2 loss. [PMID:27713405](../papers/27713405.md)
+- TSC2 combined with [TSC1](../genes/TSC1.md): together mutated in 6.3% of HR+/HER2− metastatic breast cancer (mBC) vs 0.7% of HR+/HER2− early breast cancer (eBC; p=0.0004) in 216 mBC patients from French prospective trials (SAFIR01, SAFIR02, SHIVA, MOSCATO); all cases in prior-endocrine-therapy-treated patients. Authors hypothesize outlier response to mTOR inhibitor everolimus. [PMID:28027327](../papers/28027327.md)
 
 ## Cancer types (linked)
 
-- [HCC](../cancer_types/HCC.md) — 14% of advanced [HCC](../cancer_types/HCC.md) by cfDNA (MSK-ACCESS); two patients received [everolimus](../drugs/everolimus.md): one achieved stable disease for 5.4 months (TSC2 splice site), the other progressed after 2.5 months (TSC2 frameshift) [PMID:37769223](../papers/37769223.md).
-- [PTAD](../cancer_types/PTAD.md) — mutations exclusive to treatment-refractory pituitary neuroendocrine tumors (PitNETs); candidate aggressive behavior biomarker [PMID:38758238](../papers/38758238.md).
+- [BRCA](../cancer_types/BRCA.md) (HR+/HER2− mBC): TSC2 (combined with TSC1) mutations are significantly enriched in metastatic versus early breast cancer (6.3% vs 0.7%, p=0.0004). All mutant cases had prior endocrine therapy, consistent with mTOR activation as an acquired endocrine-resistance mechanism. [PMID:28027327](../papers/28027327.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- In [HCC](../cancer_types/HCC.md), TSC1/TSC2 alterations co-occur with other mTOR-AKT pathway alterations ([PIK3CA](../genes/PIK3CA.md)) [PMID:37769223](../papers/37769223.md).
-- In PitNETs, TSC2 mutations co-occur with [TP53](../genes/TP53.md), [TERT](../genes/TERT.md), and MMR gene mutations in treatment-refractory tumors [PMID:38758238](../papers/38758238.md).
+- TSC2 mutations cluster with prior endocrine therapy in HR+/HER2− mBC; no specific co-mutation partner analysis reported in the corpus. [PMID:28027327](../papers/28027327.md)
 
 ## Therapeutic relevance
 
-- TSC2 alterations are OncoKB level 3b actionable in [HCC](../cancer_types/HCC.md); two patients received [everolimus](../drugs/everolimus.md) (mTOR inhibitor) with mixed outcomes [PMID:37769223](../papers/37769223.md).
+- TSC1/2-mutant HR+/HER2− mBC is hypothesized to be an outlier responder to everolimus (mTOR inhibitor, FDA-approved in HR+/HER2− mBC); current evidence is enrichment data, not prospective biomarker trial. [PMID:28027327](../papers/28027327.md)
 
 ## Open questions
 
-- The 2.5-month vs 5.4-month discrepancy in [everolimus](../drugs/everolimus.md) response by TSC2 alteration subtype (frameshift vs splice site) may reflect differential residual protein function but is not resolved in the corpus [PMID:37769223](../papers/37769223.md).
+- The TSC1/2 → everolimus outlier-response hypothesis requires a prospective biomarker-selected clinical trial for validation. [PMID:28027327](../papers/28027327.md)
+- Whether TSC2 vs TSC1 mutations have differential mTOR-inhibitor sensitivity is not addressed in the corpus. [PMID:28027327](../papers/28027327.md)
 
 ## Sources
 
-- [PMID:37769223](../papers/37769223.md)
-- [PMID:38758238](../papers/38758238.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:21252315](../papers/21252315.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:23792563](../papers/23792563.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:24476821](../papers/24476821.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27646943](../papers/27646943.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:27713405](../papers/27713405.md)
+- [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

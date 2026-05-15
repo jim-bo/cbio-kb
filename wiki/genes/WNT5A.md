@@ -17,6 +17,7 @@ WNT5A (Wnt family member 5A) encodes a secreted glycoprotein that activates non-
 
 - Among the most over-expressed genes in mRNA sub-group 2 (cell adhesion/migration, WNT, differentiation) of extra-cranial MRT with SMARCB1 biallelic inactivation [PMID:26977886](../papers/26977886.md)
 - Mesenchymal-transition transcript up-regulated in pre-treatment non-responding melanoma ([SKCM](../cancer_types/SKCM.md)) tumors; co-enriched within the IPRES innate anti-PD-1 resistance transcriptional signature alongside [AXL](../genes/AXL.md), [ROR2](../genes/ROR2.md), [LOXL2](../genes/LOXL2.md), [TWIST2](../genes/TWIST2.md) [PMID:26997480](../papers/26997480.md).
+- Overexpressed in MAML3 fusion-positive PCC/PGL tumors as part of the Wnt/Hedgehog activation signature of the Wnt-altered molecular subtype; upregulation linked to promoter hypomethylation driven by aberrant MAML3 expression (p < 4e-10) [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -40,5 +41,7 @@ WNT5A (Wnt family member 5A) encodes a secreted glycoprotein that activates non-
 - [PMID:26977886](../papers/26977886.md)
 
 - [PMID:26997480](../papers/26997480.md)
+
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -111,6 +111,8 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - PIK3CA E542K mutations (n=4) identified in cisplatin-resistant germ cell tumor patients; classified as actionable PI3K-pathway alteration in a targeted sequencing cohort [PMID:27646943](../papers/27646943.md).
 - PIK3CA mutated in 10% of recurrent/metastatic HPV-positive HNSCC (down from 36% in primary HPV+ tumors); 4 HNSCC and 1 NPC and 1 ACYC patients enrolled on PI3K-inhibitor trials based on this alteration [PMID:27442865](../papers/27442865.md).
 - Canonical UC driver with heterogeneous clonal sharing between primary and post-chemotherapy urothelial carcinoma samples in a 32-patient WES cohort; present in both truncal and sub-clonal compartments [PMID:27749842](../papers/27749842.md)
+- N345K activating mutation in nephroblastomatosis (related to Wilms tumor, WT); PI3K/AKT/mTOR-inhibitor target; variant also supported diagnostic clarification in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- PI3K-pathway activating alterations (alongside PTEN and PIK3R1) in 24% of ESCCs; all 4 ESCC3 tumours had PI3K-activating alterations in a multi-platform GEA genomic study [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -392,3 +394,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

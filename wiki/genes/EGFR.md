@@ -3,8 +3,8 @@ symbol: EGFR
 aliases: []
 cancer_types: [LUAD, LUSC, NSCLC, EGC, GBM]
 tags: [oncogene, targeted-therapy, tki-resistance]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # EGFR
@@ -71,6 +71,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Kinase-domain duplication detected in lung ADC sample TCGA-49-4512 (separately reported as afatinib-responsive); complex indels in EGFR or MET found in 11 tumors; EGFR p.G719A identified as a recurrent neoepitope hotspot candidate [PMID:27158780](../papers/27158780.md)
 - EGFR mutations more prevalent in young lung cancer (YLC) vs older NSCLC (e.g. 60.6% vs 52.5% in Hsu et al.); exon 19 deletions enriched; drives use of gefitinib and osimertinib in YLC; FLAURA and AURA3 subgroup analyses show consistent outcomes by age [PMID:27346245](../papers/27346245.md)
 - Present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases in urothelial carcinoma, indicating it was private to the eradicated clone [PMID:27749842](../papers/27749842.md)
+- Amplified or mutated in 19% of ESCCs and some EACs in the TCGA esophageal carcinoma multi-platform study; EGFR alterations co-occur with [ERBB2](../genes/ERBB2.md)/[KRAS](../genes/KRAS.md)/[VEGFA](../genes/VEGFA.md) amplifications in EAC subsets [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -202,3 +203,6 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

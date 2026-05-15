@@ -3,8 +3,8 @@ symbol: GATA6
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # GATA6
@@ -16,6 +16,7 @@ GATA6 is a zinc-finger transcription factor of the GATA family involved in gastr
 ## Alterations observed in the corpus
 
 - Focal amplification in CIN gastric adenocarcinoma (STAD) tumours (TCGA cohort) [PMID:25079317](../papers/25079317.md)
+- Amplified in esophageal adenocarcinoma (EAC) in the TCGA multi-platform characterization; experimentally validated as an EAC driver in prior work cited by the authors; co-amplified with [VEGFA](../genes/VEGFA.md) and [GATA4](../genes/GATA4.md) [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -30,3 +31,6 @@ GATA6 is a zinc-finger transcription factor of the GATA family involved in gastr
 - [PMID:25079317](../papers/25079317.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

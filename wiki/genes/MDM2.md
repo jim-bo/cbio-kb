@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [LUAD, RMS]
 tags: [p53-pathway, metastasis, amplification, ctDNA]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # MDM2
@@ -43,6 +43,8 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 - MDM2 amplification observed in pan-lung cancer TCGA analysis (n=1144) as a copy-number alteration in lung adenocarcinoma and squamous cell carcinoma [PMID:27158780](../papers/27158780.md)
 - Amplification in 1 adenoid cystic carcinoma (ACYC) patient directed treatment with an MDM2 inhibitor on a basket trial [PMID:27442865](../papers/27442865.md)
 - Focal amplifications in cisplatin-resistant GCT, mutually exclusive with TP53 alteration; 71% of MDM2-amplified tumors are cisplatin resistant; therapeutic target via nutlin-3 and other MDM2 inhibitors; MYCN amplification predicts MDM2-inhibitor sensitivity in TP53-wild-type tumors [PMID:27646943](../papers/27646943.md)
+- MDM2 co-overexpression with CDK4 in neuroblastoma (NBL) in a pediatric precision-oncology cohort; enrolled on the NEPENTHE trial (NCT02780128) [PMID:28007021](../papers/28007021.md)
+- MDM2 recurrent focal amplification in esophageal squamous cell carcinoma (ESCC) [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -134,5 +136,10 @@ MDM2 is the principal E3 ligase for [TP53](../genes/TP53.md). In the corpus it a
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

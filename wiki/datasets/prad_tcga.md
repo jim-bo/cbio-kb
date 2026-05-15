@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, methylation-array, snp-microarray, whole-exome-seq]
 panels: []
 tags: [prostate-cancer, prad, tcga, multi-platform]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Prostate Adenocarcinoma (TCGA, 2015)
@@ -39,6 +39,7 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 - [FGFR1](../genes/FGFR1.md) promoter CpG methylation inversely correlated with [FGFR1](../genes/FGFR1.md) expression in both PDXs and TCGA-PRAD, confirming epigenetic regulation of FGFR1 in prostate cancer. [PMID:38488813](../papers/38488813.md)
 - Queried for the NEPC classifier validation (n=460 treatment-naïve adenocarcinomas); 0% scored NEPC-high, confirming the classifier's specificity for castration-resistant neuroendocrine disease [PMID:26855148](../papers/26855148.md)
 - Used alongside prad_su2c_2015 to validate that metastasis-private mutations found at autopsy in the prad_fhcrc cohort are unlikely to be drivers (only 2/51 occurred at >5% frequency in these cohorts) [PMID:26928463](../papers/26928463.md)
+- Used for TRMT10A expression analysis vs normal prostate (n=52 normal, n=500 tumor), tumor-stage stratification, HR-gene Spearman correlations, and TRMT10A amplification/deletion frequencies (1.22–5.26% across mCRPC cohorts) [PMID:28068672](../papers/28068672.md)
 
 ## Sources
 
@@ -46,3 +47,6 @@ TCGA multi-platform genomic characterization of prostate adenocarcinoma, represe
 - [PMID:26855148](../papers/26855148.md) — Beltran et al. 2016, *Nature Medicine*: NEPC classifier validation using this cohort (n=460 treatment-naïve adenocarcinomas).
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

@@ -8,8 +8,8 @@ cancer_types:
   - GEJ
   - ODG
 tags: []
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # CCND1
@@ -61,6 +61,9 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - Recurrent focal amplification in 2% of primary prostate cancer tumors (TCGA prostate cohort) [PMID:26544944](../papers/26544944.md)
 - CCND1 is part of a co-amplification event at 11q13-14 with PAK1 that defines IntClust2 in lung cancer genomics context; novel focal amplifications at the CCND3/MIR21 locus were identified in lung ADC [PMID:27158780](../papers/27158780.md).
 - CCND1 co-amplification with PAK1 at 11q13-14 defines IntClust2 in breast cancer; this co-amplification represents a single early clonal driver event and explains paradoxically low intra-tumor heterogeneity (MATH) despite poor outcomes; IntClust2 tumors show resistance to neo-adjuvant cytotoxic chemotherapy [PMID:27161491](../papers/27161491.md).
+- CCND1 amplification at 11q13.2 with overexpression in hepatoblastoma (LIHB) used as a good-prognosis indicator in the PIPseq pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- CCND1 recurrent amplification in metastatic breast cancer (mBC), consistent with primary breast cancer profiles; identified in WES of 216 mBC samples vs TCGA primary tumors [PMID:28027327](../papers/28027327.md)
+- CCND1 amplified in 57% of ESCC and 15% of EAC in the TCGA esophageal carcinoma study; combined CDKN2A loss and CCND1 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -200,3 +203,14 @@ CCND1 encodes Cyclin D1, a key regulator of the G1-to-S phase cell cycle transit
 - [PMID:27161491](../papers/27161491.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

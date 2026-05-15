@@ -4,7 +4,7 @@ oncotree_code: DIFG
 main_type: Glioma
 parent: GLIOMA
 tags: [glioma, cns]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -31,6 +31,7 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - Temozolomide mutational signatures identified in CSF ctDNA from glioma samples among high-TMB cases [PMID:39289779](../papers/39289779.md).
 - Exome sequencing of 23 paired initial/recurrent grade II diffuse gliomas showed pervasive early clonal branching; [IDH1](../genes/IDH1.md) R132H was the only mutation shared in every patient pair, confirming it as the initiating event in low-grade gliomagenesis [PMID:24336570](../papers/24336570.md).
 - TCGA pan-glioma study (n=1,122 grade II-IV diffuse gliomas) identified 75 significantly mutated genes including novel drivers SETD2, ARID2, DNMT3A, KRAS, NRAS; six methylation subclusters (LGm1–6) provide an independent prognostic classification on top of age and grade [PMID:26824661](../papers/26824661.md)
+- PIPseq cohort included diffuse intrinsic pontine glioma cases; H3-3A (H3F3A) K27M mutation identified as HDAC-inhibitor target; paired with FGFR1 N577K in one patient [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -53,3 +54,6 @@ OncoTree parent for adult diffuse gliomas, including IDH-mutant astrocytoma ([AS
 - [PMID:26824661](../papers/26824661.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

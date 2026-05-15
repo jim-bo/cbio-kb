@@ -52,6 +52,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Heterozygous inactivating ATM events (somatic or germline) included in the DNA-repair-defect classifier; men with mCRPC harboring such events had significantly longer time on carboplatin treatment (Kaplan-Meier log-rank P = 0.02, n=20 carboplatin-treated men) [PMID:26928463](../papers/26928463.md)
 - ATM: recurrent germline pathogenic/likely pathogenic variant in Indian familial NSCLC cohort enriched in young lung cancer [PMID:27346245](../papers/27346245.md)
 - ATM canonical driver mutations heterogeneously shared between primary and post-chemotherapy UC tumors; combined ATM/RB1/FANCC alteration signature present in 73.3% of pre-chemotherapy tumors vs 37.9% post-chemotherapy (p=0.05), suggesting selective elimination of these clones by cisplatin/gemcitabine [PMID:27749842](../papers/27749842.md)
+- ATM R189K + K2756* (missense + nonsense) germline variants in medulloblastoma (MBL) — returned as cancer-predisposition finding associated with increased risk for other cancers [PMID:28007021](../papers/28007021.md)
+- ATM kinase phosphorylates TRMT10A at Ser28 after ionizing radiation, enabling BRCA1 recruitment to DSBs; ATM knockdown reduces phospho-TRMT10A and HR but does not sensitize PCa lines to PARPi alone — consistent with clinical heterogeneity of ATM-loss PARPi response [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -156,21 +158,27 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26200345](../papers/26200345.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26466571](../papers/26466571.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26544944](../papers/26544944.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26928463](../papers/26928463.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
 - [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28068672](../papers/28068672.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

@@ -4,8 +4,8 @@ oncotree_code: OS
 main_type: Bone Cancer
 parent: BONE
 tags: [radiation-associated-sarcoma, bone-tumor]
-processed_by: crosslinker
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 canonical_source: oncotree
 unverified: false
 ---
@@ -29,6 +29,7 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 - [PTPRT](../genes/PTPRT.md) missense mutations in 17% of RT-OS vs 7% sporadic OS [PMID:37350195](../papers/37350195.md).
 - FGA of 32% in RT-OS [PMID:37350195](../papers/37350195.md).
 - Translocations were more frequent in RT-OS (and RT-MPNST) compared to other RT-sarcoma histotypes [PMID:37350195](../papers/37350195.md).
+- PIPseq cohort identified TSC1 splice-site c.2503-1G>C (mTOR-inhibitor target), RAD51C F8L (PARP-inhibitor target), PDGFRA/KDR overexpression (MTKI treated), MYC/MCL1/CCNE1 overexpression (BET- and CDK4/6 targets), CUL4A overexpression (NAE-inhibitor target), RB1 splice-site c.1216-3A>G (germline, increased second-cancer risk), and TNNT2 R141Q (ACMG secondary, dilated cardiomyopathy) in osteosarcoma patients [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -44,3 +45,6 @@ Osteosarcoma is a primary malignant bone tumor classified under BONE in the Onco
 - [PMID:37350195](../papers/37350195.md) — Dermawan JK et al., J Pathol 2023. Comparative genomic analysis of 82 RT-sarcomas including 12 RT-osteosarcomas.
 
 *This page was processed by **crosslinker** on **2026-04-11**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

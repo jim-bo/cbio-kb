@@ -9,8 +9,8 @@ tags:
   - tumor-purity
   - clonality
   - somatic-copy-number
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ABSOLUTE
@@ -31,6 +31,9 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 - Used in whole-exome sequencing of 538 CLL samples (CLL8 trial cohort) to estimate tumor purity and clonal fractions, enabling CCF-based temporal ordering of driver acquisition and tracking of clonal shifts at relapse [PMID:26466571](../papers/26466571.md)
 - Used in the TCGA prostate cancer study to estimate tumor purity in 333 primary prostate adenocarcinomas, alongside other DNA/RNA-based methods, as part of integrated multi-platform molecular characterization [PMID:26544944](../papers/26544944.md).
 - Used for tumor purity and ploidy estimation in 1,144 NSCLC exome pairs to enable accurate somatic copy-number and mutation calling [PMID:27158780](../papers/27158780.md)
+- ABSOLUTE-style cancer cell fraction (CCF) framework applied after Sequenza tumor purity estimation to 216 metastatic breast cancer exomes; revealed ESR1 mutations were subclonal in 14/21 (67%) of cases [PMID:28027327](../papers/28027327.md).
+- ABSOLUTE used for allelic copy number, tumor purity, and ploidy estimation in 164 oesophageal carcinomas and 359 gastric adenocarcinomas as part of the TCGA esophageal/stomach study [PMID:28052061](../papers/28052061.md).
+- ABSOLUTE used for clonality estimation in 173 PCPG tumors in the TCGA PCPG study [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -66,5 +69,14 @@ ABSOLUTE (Absolute quantification of somatic DNA alterations Using Tumor Heterog
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

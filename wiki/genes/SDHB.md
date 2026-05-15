@@ -1,57 +1,44 @@
 ---
 symbol: SDHB
 aliases: []
-cancer_types: [GIST]
-tags: [tumor-suppressor, sdh-deficient, gist]
-processed_by: crosslinker
-processed_at: 2026-05-14
+cancer_types: [PHC, PGNG]
+tags: [tumor-suppressor, germline, pseudohypoxia, krebs-cycle]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # SDHB
 
 ## Overview
 
-SDHB encodes a subunit of the succinate dehydrogenase complex (mitochondrial complex II); loss of SDHB protein expression defines SDH-deficient tumors including a subset of [GIST](../cancer_types/GIST.md), pheochromocytoma/paraganglioma, and renal cell carcinoma.
+SDHB (Succinate Dehydrogenase Complex Iron Sulfur Subunit B) encodes the iron-sulfur subunit of the mitochondrial succinate dehydrogenase complex (complex II), linking the Krebs cycle to the electron transport chain. Germline loss-of-function mutations in SDHB are among the most common hereditary drivers of pheochromocytoma (PCC) and paraganglioma (PGL), defining the pseudohypoxia molecular subtype. SDHB germline carriers are at substantially elevated risk for aggressive, metastatic disease.
 
 ## Alterations observed in the corpus
 
-- Loss of SDHB protein expression defined high-risk gastric [GIST](../cancer_types/GIST.md) in the MSK [elastic-net](../methods/elastic-net.md) Cox genomic risk stratification model (n=152 primary localized gastric [GIST](../cancer_types/GIST.md)) [PMID:37477937](../papers/37477937.md).
-- KIT/PDGFRA wild-type [GIST](../cancer_types/GIST.md) cases with SDHB IHC loss were classified as SDH-deficient (n=26 in the SDH-deficient subanalysis) [PMID:37477937](../papers/37477937.md).
-- Germline LOF in 7/35 (20%) KIT/PDGFRA-wildtype [GIST](../cancer_types/GIST.md) patients; 10/11 variants in tumor-only sequencing were germline [PMID:36593350](../papers/36593350.md)
-- Among 43 mitochondrial-GO genes significantly elevated in chromophobe renal cell carcinoma cases harboring MT-ND5 somatic mutations (>70% heteroplasmy), implicating SDHB in mitochondrial dysfunction associated with ChRCC [PMID:25155756](../papers/25155756.md)
-- SDHB referenced as a known germline kidney-cancer predisposition gene; contrasted against somatic nccRCC mutation profiles in the UTSW comprehensive study [PMID:25401301](../papers/25401301.md)
-- Passenger amplification observed in metastatic cSCC cohort (n=29) as part of recurrent copy-number gain events [PMID:25589618](../papers/25589618.md)
+- Germline pathogenic mutations present in 9% of the 173-patient TCGA PCC/PGL cohort ([pcpg_tcga_pub](../datasets/pcpg_tcga_pub.md)), the most frequent germline susceptibility gene; mutations are specific to the pseudohypoxia mRNA subtype. [PMID:28162975](../papers/28162975.md)
+- SDHB germline mutations co-occur with somatic [ATRX](../genes/ATRX.md) mutations in 3 tumors; ATRX co-mutation marks alternative lengthening of telomeres and aggressive disease. [PMID:28162975](../papers/28162975.md)
+- SDHB germline status associates with the hypermethylated DNA methylation subtype and with worse aggressive-disease-free survival (ADFS) and metastatic-free survival (MFS). [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
-- [GIST](../cancer_types/GIST.md) — SDHB loss is a high-risk feature for recurrence in gastric [GIST](../cancer_types/GIST.md) [PMID:37477937](../papers/37477937.md).
+- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md): Germline SDHB mutation is the leading hereditary driver; the pseudohypoxia subtype was enriched for genome-doubling (74% of most-doubled tumors) and hypermethylation. SDHB germline is a significant negative marker for both ADFS and MFS. [PMID:28162975](../papers/28162975.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- SDHB loss occurs in KIT/PDGFRA wild-type [GIST](../cancer_types/GIST.md) [PMID:37477937](../papers/37477937.md).
+- Co-occurs with somatic [ATRX](../genes/ATRX.md) mutations in 3 PCC/PGL tumors; otherwise driver mutations in the 21-gene susceptibility set were strikingly mutually exclusive (p < 1e-4). [PMID:28162975](../papers/28162975.md)
+- Mutually exclusive with [RET](../genes/RET.md), [VHL](../genes/VHL.md), [NF1](../genes/NF1.md), [SDHD](../genes/SDHD.md), [MAX](../genes/MAX.md), [EGLN1](../genes/EGLN1.md), [TMEM127](../genes/TMEM127.md) germline events in the same cohort. [PMID:28162975](../papers/28162975.md)
 
 ## Therapeutic relevance
 
-- SDH-deficient [GIST](../cancer_types/GIST.md) patients warrant closer surveillance, especially with concurrent [TP53](../genes/TP53.md) mutation or chr1q amplification [PMID:37477937](../papers/37477937.md).
+- SDH-mutant tumors accumulate glutamine; the authors propose glutaminase inhibitors (e.g., NCT02071862) as a therapeutic strategy. [PMID:28162975](../papers/28162975.md)
+- ATRX-loss tumors (enriched in SDHB-germline cases) may be sensitive to ATR inhibitors (hypothesis only, not tested). [PMID:28162975](../papers/28162975.md)
 
 ## Open questions
 
-- The SDH-deficient subanalysis is small (n=26) [PMID:37477937](../papers/37477937.md).
+- Whether ATRX-co-mutant SDHB-germline tumors represent a clinically distinct subset warranting ATR-inhibitor trials requires prospective study. [PMID:28162975](../papers/28162975.md)
 
 ## Sources
 
-- [PMID:37477937](../papers/37477937.md)
+- [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:36593350](../papers/36593350.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25155756](../papers/25155756.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25401301](../papers/25401301.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

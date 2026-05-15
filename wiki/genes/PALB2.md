@@ -10,8 +10,8 @@ tags:
   - HRD
   - PARPi
   - germline
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # PALB2
@@ -29,6 +29,8 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 - Single frameshift mutation (suspected germline) identified in the sinonasal adenoid cystic carcinoma cohort; PALB2 is a known BRCA2-interacting genome stability gene [PMID:24418857](../papers/24418857.md)
 - Germline PALB2 mutations confer HBOC-spectrum risk including elevated gastric cancer susceptibility; must be ruled out before FNHGC labeling; included in standard multigene GC panel alongside BRCA1, BRCA2, ATM, and BRIP1 [PMID:24816255](../papers/24816255.md)
 - Part of the Fanconi anaemia (FA) pathway; homozygous deleterious events used as a DNA-repair-defect classifier for carboplatin sensitivity analysis in mCRPC; siRNA knockdown of FA genes (including PALB2) reduced proliferation in prostate cancer cell lines. [PMID:26928463](../papers/26928463.md)
+- Somatic mutations in 4% of metastatic breast cancer (mBC) vs 0.1% of early breast cancer (eBC) (FDR=0.006); authors propose PALB2-deficient mBC may be sensitive to PARP inhibitors such as olaparib [PMID:28027327](../papers/28027327.md)
+- TRMT10A expression correlated positively with PALB2 (along with BRCA1, BRCA2, RAD51) in TCGA prostate samples, linking PALB2 to the TRMT10A-dependent HR repair scaffold [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -67,5 +69,11 @@ PALB2 (Partner And Localizer of [BRCA2](../genes/BRCA2.md)) encodes a protein th
 
 *This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:26928463](../papers/26928463.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28068672](../papers/28068672.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

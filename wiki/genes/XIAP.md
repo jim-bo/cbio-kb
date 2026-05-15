@@ -4,7 +4,7 @@ aliases: [BIRC4]
 cancer_types: [NPC]
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_at: 2026-05-15
 ---
 
 # XIAP
@@ -16,6 +16,7 @@ XIAP (X-linked inhibitor of apoptosis protein, BIRC4) is a member of the IAP fam
 ## Alterations observed in the corpus
 
 - XIAP (along with BIRC2/BIRC3) is an inhibitor-of-apoptosis protein targeted by the IAP antagonist tolinapant in combination with radiotherapy in NPC. [PMID:24952746](../papers/24952746.md)
+- Heterozygous germline R443P missense mutation diagnostic of X-linked lymphoproliferative syndrome 2 (XLP2) in a 6-year-old girl with hemophagocytic lymphohistiocytosis (HLH) and recurrent EBV infections [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -37,4 +38,6 @@ XIAP (X-linked inhibitor of apoptosis protein, BIRC4) is a member of the IAP fam
 
 - [PMID:24952746](../papers/24952746.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

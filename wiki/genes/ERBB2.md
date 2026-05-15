@@ -4,7 +4,7 @@ aliases: [HER2]
 cancer_types: [LUAD, OGCT, BLCA, UTUC, BRCA, NSCLC, EGC, CESC, UCEC, GBM]
 tags: [oncogene, amplification, targeted-therapy]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-14
 ---
 
 # ERBB2
@@ -69,6 +69,8 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Somatic mutation frequency 2.8% ER+, 3.2% ER- in breast cancer; codon 755 hotspot enriched in ER+ tumors; mutations observed in relapsed CDH1-mutant lobular carcinomas; mutually exclusive of AKT1 mutations within 17q12-amplified context [PMID:27161491](../papers/27161491.md)
 - ERBB2 (HER2) amplification reported at 13.8% in young lung cancer (YLC) vs 4.4% in older patients (Hou et al.); conflicting data exist across studies; identified as an actionable alteration in this age group [PMID:27346245](../papers/27346245.md)
 - ERBB2 identified as an actionable alteration in salivary duct carcinoma (SDCA) within a pan-head-and-neck NGS cohort sequenced with MSK-IMPACT (410-gene panel) [PMID:27442865](../papers/27442865.md)
+- Recurrent amplification (confirmed canonical breast-cancer event) in HR+/HER2− metastatic breast cancer ([BRCA](../cancer_types/BRCA.md)); amplitude at least as frequent as in early breast cancer (eBC) [PMID:28027327](../papers/28027327.md).
+- Altered (amplification or mutation) in 32% of EACs vs 3% of ESCCs; 4 EACs had ERBB2 mutations without amplification; 6 amplified EACs expressed an ERBB2 exon-12–JUP 3′-UTR fusion transcript lacking transmembrane and tyrosine-kinase domains; trastuzumab-directed therapy is active in ERBB2-positive EAC [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -207,3 +209,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

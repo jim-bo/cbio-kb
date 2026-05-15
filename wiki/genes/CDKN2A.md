@@ -99,6 +99,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - CDKN2A homozygous deletions found in 53/2,087 breast tumors (most common HD target); confirmed as Mut-driver TSG in both ER+ and ER- breast cancer; identified among 40 Mut-driver genes in the METABRIC 2,433-tumor cohort [PMID:27161491](../papers/27161491.md).
 - CDKN2A mutation/deletion in 37% of HPV-negative versus 5% of HPV-positive recurrent/metastatic head and neck squamous cell carcinoma [PMID:27442865](../papers/27442865.md)
 - 9p21 codeletion (with [CDKN2B](../genes/CDKN2B.md) and [MTAP](../genes/MTAP.md)) defines CN Cluster A in urothelial carcinoma; in patient WCM117, CDKN2A progressed from sub-clonal heterozygous deletion in the primary to clonal homozygous deletion in distant metastases (FISH-confirmed) [PMID:27749842](../papers/27749842.md)
+- CDKN2A is a significantly mutated driver in metastatic breast cancer (mBC), also recurrent in early breast cancer (eBC); identified by MutSig analysis of 216 mBC whole-exome sequences [PMID:28027327](../papers/28027327.md)
+- CDKN2A inactivated in 76% of EAC and 76% of ESCC (by mutation, deletion, or epigenetic silencing); significantly mutated in EAC; combined CDKN2A loss and CCND1/CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -294,5 +296,13 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27749842](../papers/27749842.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

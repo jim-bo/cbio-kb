@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL, ATC, CSCC, HNSC]
 tags: [cll-driver, tumor-suppressor, skin-cancer, loss-of-function]
 processed_by: entity-page-writer
-P26-05-15
+processed_at: 2026-05-15
 ---
 
 # NOTCH1
@@ -45,6 +45,7 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - NOTCH1 was mutated in anaplastic thyroid carcinoma (ATC) as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated in ATC; part of low-frequency hits in a 341-gene panel sequencing study [PMID:26878173](../papers/26878173.md)
 - NOTCH1 significantly mutated in lung squamous cell carcinoma but not other cancer types (excluding HNSC, BLCA) in pan-lung cancer TCGA analysis (n=1144) [PMID:27158780](../papers/27158780.md)
 - Altered in 33% of adenoid cystic carcinoma (ACYC) with activating mutations/amplifications in 22.2% (8.3-fold enriched versus primary ACYC); recurrent S2467 truncating events; nominates gamma-secretase inhibitors as a therapeutic strategy [PMID:27442865](../papers/27442865.md)
+- Significantly mutated in ESCC (enriched in the ESCC2 subtype); modulator of squamous cell maturation [PMID:28052061](../papers/28052061.md)
 
 ## Cancer types (linked)
 
@@ -144,5 +145,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

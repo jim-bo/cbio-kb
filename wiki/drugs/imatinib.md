@@ -5,8 +5,8 @@ drug_class: tyrosine kinase inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 papers: [36862133, 37477937, 20601955]
 ---
 
@@ -28,6 +28,7 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - Cited in the context of acquired resistance paradigms — analogous to ALK-fusion lung cancer/crizotinib and BRAF-mutant melanoma/vemurafenib — motivating combination regimens in [HCC](../cancer_types/HCC.md) targeted therapy development [PMID:24735922](../papers/24735922.md)
 - Nominated for KIT-mutated/amplified Triple-WT melanoma subtype (14% of TCGA cases; no hot-spot BRAF/RAS/NF1); [KIT](../genes/KIT.md) mutations and 4q12 focal amplifications enriched in Triple-WT; imatinib/dasatinib proposed as targeted therapy based on prior Carvajal and Hodi reports [PMID:26091043](../papers/26091043.md)
 - KIT inhibitor; proposed as targeted therapy candidate for KIT-mutant GCT (mostly exon 17 hotspots, enriched in seminoma 29.6%); KIT exon 17 mutations in GCT represent an imatinib-resistance pattern distinct from GIST [PMID:27646943](../papers/27646943.md)
+- In 101 pediatric high-risk oncology patients (PIPseq), palliative imatinib produced near-complete clearing of peripheral blood blasts with a sustained 9-month response in a KIT Asn655Lys-mutant AML patient [PMID:28007021](../papers/28007021.md)
 
 ## Resistance mechanisms
 
@@ -63,3 +64,6 @@ Small-molecule inhibitor of BCR-ABL, [KIT](../genes/KIT.md), and [PDGFRA](../gen
 - [PMID:27646943](../papers/27646943.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md) — Oberg et al. 2017, PIPseq; palliative imatinib in KIT Asn655Lys-mutant pediatric AML.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

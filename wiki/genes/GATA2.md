@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - AML
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -17,6 +17,7 @@ GATA2 encodes a zinc-finger transcription factor that is essential for hematopoi
 ## Alterations observed in the corpus
 
 - GATA2 was identified as one of the driver genes among 76 genes/genomic regions harboring 5234 total driver mutations in 1540 adults with AML enrolled in German-Austrian AMLSG intensive-therapy trials (AML-HD98A, AMLSG-07-04, AML-HD98B); sequencing panel included 111 leukemia genes including GATA2 [PMID:27276561](../papers/27276561.md)
+- Germline heterozygous frameshift (de novo) identified in a pediatric patient with AML and myelodysplastic syndrome in the PIPseq cohort; the finding was a transplant-recommendation modifier (diagnostic of GATA2 deficiency/Emberger syndrome) [PMID:28007021](../papers/28007021.md).
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ GATA2 encodes a zinc-finger transcription factor that is essential for hematopoi
 - [PMID:27276561](../papers/27276561.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

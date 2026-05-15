@@ -51,6 +51,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Recurrently mutated in unclassified renal cell carcinoma (uRCC, n=62 MSKCC cohort); among the most frequent chromatin-modulator alterations alongside KMT2C and KMT2A (combined KMT2 family 16%); clusters in the chromatin/DNA-damage regulator subgroup with intermediate clinical outcome. [PMID:27713405](../papers/27713405.md)
 - Among canonical urothelial carcinoma (UC) drivers (alongside PIK3CA and ATM) shown to be heterogeneously shared between matched pre/post-chemotherapy samples in a 32-patient cohort — mean ~28% mutation sharing — highlighting tumor evolutionary instability under platinum-based chemotherapy. [PMID:27749842](../papers/27749842.md)
 - Among the most frequently mutated epigenetic modifiers in DUX4/ERG B-ALL (epigenetic-modifier mutations in 56.3% of cases overall, with KMT2D, SETD2, ARID2 and NCOR1 as top hits) in a 1,913-patient B-ALL cohort. [PMID:27776115](../papers/27776115.md)
+- KMT2D (MLL2) homozygous frameshift M3881Cfs*9 established Kabuki syndrome in a 2-month-old hospitalized for fulminant hemophagocytic syndrome; familial HLH was ruled out and stem-cell transplant was averted [PMID:28007021](../papers/28007021.md).
+- KMT2D (MLL2) histone-modifier alterations frequent in ESCC, especially in the ESCC2 subtype; mutated in 3/4 ESCC3 tumors; co-altered with KMT2C and KDM6A [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -174,5 +176,11 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

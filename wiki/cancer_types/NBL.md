@@ -4,7 +4,7 @@ oncotree_code: NBL
 main_type: Peripheral Nervous System
 parent: PNS
 tags: [pediatric, neuroblastoma, radiation, intra-tumoral-heterogeneity, mibg]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ No corpus-specific gene-level variant frequencies are reported; the focus is on 
 - CCLE pharmacogenomic profiling included neuroblastoma cell lines among 947 lines tested across 24 drugs, enabling genotype-response correlation analyses [PMID:22460905](../papers/22460905.md)
 - WES/WGS of 240 neuroblastoma tumors identified [ALK](../genes/ALK.md), [PTPN11](../genes/PTPN11.md), and [ATRX](../genes/ATRX.md) as key recurrently mutated genes; low overall somatic mutation rate with enrichment in RAS-MAPK pathway [PMID:23334666](../papers/23334666.md)
 - Comprehensive genomic analysis of neuroblastoma identified recurrent driver alterations including [MYCN](../genes/MYCN.md) amplification and [ALK](../genes/ALK.md) mutations with implications for targeted therapy [PMID:26466568](../papers/26466568.md)
+- PIPseq cohort included 4 neuroblastoma cases; MYCN amplification + 1p/11q LOH + 17q gain used for risk-based therapy stratification; ATRX T1747fs identified as poor-prognosis marker; CDK4/MDM2 co-overexpression enrolled one patient on the NEPENTHE trial (NCT02780128); NRAS and KRAS activating mutations also identified [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -67,3 +68,6 @@ High-risk NBL is the focus of KIDSROBIN; no further subtype stratification in th
 - [PMID:26466568](../papers/26466568.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

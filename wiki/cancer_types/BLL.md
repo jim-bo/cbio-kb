@@ -4,8 +4,8 @@ oncotree_code: BLL
 main_type: Leukemia
 parent: LEUK
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # B-Lymphoblastic Leukemia/Lymphoma (BLL)
@@ -24,6 +24,7 @@ B-Lymphoblastic Leukemia/Lymphoma (BLL) is an aggressive hematologic malignancy 
 - Low hypodiploid ALL (32–39 chromosomes): TP53 alterations in 91.2% of pediatric cases (43.3% inherited, linked to Li-Fraumeni syndrome); IKZF2 deletions in 52.9%; RB1 alterations in 41.2% [PMID:23334668](../papers/23334668.md).
 - Both subtypes show activation of Ras and PI3K signaling (elevated pERK, pmTOR, pS6) [PMID:23334668](../papers/23334668.md).
 - DUX4/ERG B-ALL subtype identified in 141/1913 (7.6%) B-progenitor ALL cases (St. Jude/COG multi-center cohort); defined by IGH-DUX4 rearrangement (100%) and focal RAG-mediated ERG deletions (55.6%); expresses dominant-negative ERGalt isoform; associated with favorable outcome despite IKZF1 alterations in 36.7% of cases; transcriptome or genome sequencing required for reliable detection [PMID:27776115](../papers/27776115.md).
+- PIPseq cohort identified BCR-ABL1-like RNA-seq signature leading to NUP214-ABL1 fusion detection in a relapsed BLL patient (addition of dasatinib produced deep remission enabling curative bone-marrow transplant); also FOXP1-ABL1, SMARCC2-PDGFRB, JAK1 K1026E, STAT5B I704L, and NT5C2 D407Y pharmacogenomic variant conferring nucleoside-analog resistance [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -42,5 +43,8 @@ B-Lymphoblastic Leukemia/Lymphoma (BLL) is an aggressive hematologic malignancy 
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
 - [PMID:27776115](../papers/27776115.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

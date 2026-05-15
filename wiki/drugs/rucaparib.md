@@ -10,8 +10,8 @@ tags:
   - targeted-therapy
   - parp-inhibitor
   - brca
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # rucaparib
@@ -24,6 +24,7 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 
 - The MSK PDAC 2024 cohort (n=2,336) analyzed outcomes in n=29 stage-IV patients who received a PARPi (class includes rucaparib, [olaparib](../drugs/olaparib.md), niraparib, [veliparib](../drugs/veliparib.md)). 38% (11/29) had ≥6 months on therapy; 10/11 long-responders had biallelic [BRCA2](../genes/BRCA2.md) mutations. However, 6/16 BRCA2-mutant tumors with biallelic loss did not benefit, indicating biallelic [BRCA2](../genes/BRCA2.md) loss is necessary but not sufficient for durable PARPi response. [PMID:39753968](../papers/39753968.md)
 - One [BAP1](../genes/BAP1.md) loss-of-function fusion tumor (BRCA1/2 wild-type, MAPK-WT) also received durable PARPi benefit, pointing to broader HRD beyond BRCA1/2 as a predictive context. [PMID:39753968](../papers/39753968.md)
+- Rucaparib directly targets PARP1/PARP2; in BRCA1/2-wild-type mCRPC, resistance to PARP inhibitors (including rucaparib) may be driven by high TRMT10A expression, which supports BRCA1 recruitment to DNA double-strand breaks via ATM-mediated Ser28 phosphorylation [PMID:28068672](../papers/28068672.md)
 
 ## Resistance mechanisms
 
@@ -38,3 +39,6 @@ Rucaparib is an oral PARP1/2 inhibitor with FDA approval for germline BRCA1/2-mu
 - [PMID:39753968](../papers/39753968.md) — Zhu et al. 2024, MSK PDAC cohort ([pdac_msk_2024](../datasets/pdac_msk_2024.md)); PARPi outcomes in BRCA2-mutant PDAC.
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; rucaparib named as PARPi class member; high TRMT10A expression tracks with PARPi resistance across the class.
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.

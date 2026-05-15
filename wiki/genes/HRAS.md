@@ -40,6 +40,7 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Significantly mutated in lung SqCC but not other cancer types (excluding HNSC, BLCA) in the TCGA pan-lung cohort [PMID:27158780](../papers/27158780.md)
 - Classical hotspot activating mutations at codons 12/61 observed in 3 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event in a 2,433-sample targeted sequencing study [PMID:27161491](../papers/27161491.md)
 - HRAS mutated in salivary duct carcinoma (SDCA) and one HNSC patient (treated on farnesyl-transferase-inhibitor trial); G13V observed in a mucoepidermoid carcinoma (MUCC) treated similarly; recurrent in SDCA in a cohort of 151 advanced head and neck tumors profiled by MSK-IMPACT 410-gene panel [PMID:27442865](../papers/27442865.md)
+- HRAS recurrent somatic Q61 hotspot mutations activate MAPK signaling in pheochromocytoma/paraganglioma; enriched in the kinase signaling molecular subtype [PMID:28162975](../papers/28162975.md).
 
 ## Cancer types (linked)
 
@@ -124,13 +125,16 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

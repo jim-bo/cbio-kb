@@ -95,6 +95,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Classical hotspot activating mutations at codon 12 observed in 11 breast cancer samples; did not meet Mut-driver criteria as a standalone breast-cancer driver event; cited as a cross-cancer driver candidate suggesting drug repurposing potential [PMID:27161491](../papers/27161491.md)
 - KRAS mutations are under-represented in young-onset lung cancer (~9% in <40 yrs vs ~30% in 60-69 yrs); G12C and G12D dominate in the few KRAS-mutant young cases; Indian YLC data (Malik et al., n=133) showed 3.7% KRAS mutation rate [PMID:27346245](../papers/27346245.md)
 - KRAS hotspot mutations in 22/180 patients (12.2%; 23 total mutations, G12 dominant) in advanced germ cell tumors; enriched in seminomas overall (20% vs 8.7% in nonseminoma; P=.045); in nonseminomas, 8 of 11 KRAS mutations occurred in cisplatin-resistant tumors; MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
+- KRAS Q61H and G12C activating mutations identified in pediatric ALL and neuroblastoma (NBL) as MEK-inhibitor targets; KRAS V14I also co-occurred with STAT5B I704L and JAK1 K1026E in T-BLL [PMID:28007021](../papers/28007021.md).
+- KRAS amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, IGF1R, and VEGFA amplifications in a multi-platform genomic characterization of gastroesophageal adenocarcinoma [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -310,25 +312,31 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26804919](../papers/26804919.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26824661](../papers/26824661.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27161491](../papers/27161491.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

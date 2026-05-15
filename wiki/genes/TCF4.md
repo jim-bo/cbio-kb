@@ -1,59 +1,41 @@
 ---
 symbol: TCF4
-aliases: [ITF2, E2-2]
-cancer_types:
-  - ODG
-  - SKIN
-tags:
-  - transcription-factor
-  - neural-stem-progenitor
-  - glioma
-  - cancer-stem-cell
-  - melanocyte-neural-crest
-processed_by: wiki-cli
-processed_at: 2026-05-14
+aliases: [E2-2, ITF2]
+cancer_types: [PHC, PGNG]
+tags: [somatic, fusion, maml3-partner, wnt-altered]
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # TCF4
 
 ## Overview
 
-TCF4 (Transcription Factor 4), also known as ITF2 or E2-2, is a basic helix-loop-helix transcription factor involved in neural, immune, and intestinal cell differentiation. Mutations in TCF4 cause Pitt-Hopkins syndrome. In glioma, TCF4 is a component of the neural stem/progenitor gene program in oligodendroglioma, co-defining the rare proliferative CSC-like compartment.
+TCF4 (Transcription Factor 4), also known as E2-2 or ITF2, encodes a basic helix-loop-helix transcription factor involved in neural and lymphoid development. In pheochromocytoma/paraganglioma, TCF4 was identified as the 5' fusion partner of MAML3 in a recurrent TCF4-MAML3 fusion gene, where the TCF4 promoter drives ectopic overexpression of MAML3, activating Wnt and Hedgehog signaling rather than canonical NOTCH targets.
 
 ## Alterations observed in the corpus
 
-- TCF4 is one of the 63-gene stem/progenitor program (PC2/PC3) markers across 4,347 single cells from 6 untreated grade II IDH-mutant 1p/19q-codeleted oligodendrogliomas (Smart-Seq2); co-expressed with neurodevelopmental TFs [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [SOX2](../genes/SOX2.md), [NFIB](../genes/NFIB.md), [ASCL1](../genes/ASCL1.md), [CHD7](../genes/CHD7.md), [CD24](../genes/CD24.md), [BOC](../genes/BOC.md), and [CCND2](../genes/CCND2.md). The program overlaps glioblastoma CSC signatures (hypergeometric P = 1.5×10⁻⁴). [PMID:27806376](../papers/27806376.md)
-- TCF4 is transcriptionally upregulated in LowMut melanocytes (bottom UV-burden quartile) compared to HighMut melanocytes in a single-melanocyte multi-omics study (297 clonally-expanded cells, 31 donors; G&T-Seq + SMART-Seq2 + 10X Xenium); expression is part of the neuronal/neural-crest gene signature of LowMut cells, consistent with TCF4's role as an E-protein transcription factor controlling neural progenitor identity [PMID:39975212](../papers/39975212.md).
-- Implicated in one or two cases as part of focal amplification or homozygous deletion events in primary central nervous system lymphoma ([PCNSL](../cancer_types/PCNSL.md)). [PMID:25991819](../papers/25991819.md)
-- Identified as a mouse driver gCIS in the Sleeping Beauty transposon screen, shared between local and metastatic medulloblastoma recurrences but absent in diagnostic samples [PMID:26760213](../papers/26760213.md)
+- TCF4 identified as the 5' promoter-donor partner in one TCF4-[MAML3](../genes/MAML3.md) fusion gene in the TCGA PCC/PGL cohort (pcpg_tcga_pub, n=173); this fusion is one of 10 MAML3 fusion-positive tumors (the remainder are UBTF-MAML3). TCF4 promoter drives 2.7-fold MAML3 overexpression. [PMID:28162975](../papers/28162975.md)
+- The authors note they cannot exclude that TCF4 itself contributes tumorigenic properties beyond simply driving MAML3 overexpression. [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
-- [ODG](../cancer_types/ODG.md) — TCF4 is part of the stem/progenitor gene program defining the rare proliferating subpopulation (1.5–8% of cells per tumor) in oligodendroglioma; nearly all cycling cancer cells express the stem/progenitor program including TCF4. [PMID:27806376](../papers/27806376.md)
-- [SKIN](../cancer_types/SKIN.md) — TCF4 marks the LowMut/neural-crest-like melanocyte subpopulation in normal cutaneous skin; the TCF4-high state aligns with the "AXL/Neuronal/Invasive" melanocyte state in the WIMMS framework and with melanocyte stem cell (MSC) signatures from fetal hair-follicle-derived cells [PMID:39975212](../papers/39975212.md).
+- [PHC](../cancer_types/PHC.md) / [PGNG](../cancer_types/PGNG.md): TCF4-MAML3 fusion defines the Wnt-altered mRNA subtype; all 10 MAML3 fusion-positive tumors (including this one) were adrenal PCCs, associated with metastatic disease and poor ADFS/MFS. [PMID:28162975](../papers/28162975.md)
 
 ## Co-occurrence and mutual exclusivity
 
-- Co-expressed with [SOX4](../genes/SOX4.md), [SOX11](../genes/SOX11.md), [SOX2](../genes/SOX2.md), [ASCL1](../genes/ASCL1.md), [CCND2](../genes/CCND2.md) in the stem/progenitor compartment; mutually exclusive with differentiated oligodendrocytic ([OLIG1](../genes/OLIG1.md), [OLIG2](../genes/OLIG2.md)) and astrocytic ([SOX9](../genes/SOX9.md), [APOE](../genes/APOE.md)) programs. [PMID:27806376](../papers/27806376.md)
-- In melanocytes, co-expressed with [VCAN](../genes/VCAN.md), [FBN1](../genes/FBN1.md), [PALLD](../genes/PALLD.md), [ITM2A](../genes/ITM2A.md), [TAGLN](../genes/TAGLN.md), [MYL9](../genes/MYL9.md), [MYLK](../genes/MYLK.md), [SGCE](../genes/SGCE.md), [HACD1](../genes/HACD1.md), [SEMA3C](../genes/SEMA3C.md), [DAAM2](../genes/DAAM2.md), [RGMB](../genes/RGMB.md), [NTNG1](../genes/NTNG1.md) in the LowMut neural-crest state; mutually exclusive with HighMut pigmentation markers ([HMOX1](../genes/HMOX1.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) [PMID:39975212](../papers/39975212.md).
+- TCF4-MAML3 fusion is mutually exclusive with UBTF-MAML3 and with germline susceptibility gene mutations in the 21-gene driver set. [PMID:28162975](../papers/28162975.md)
 
 ## Therapeutic relevance
 
-- No specific drug targeting TCF4 is evaluated in this corpus. The TCF4-expressing stem/progenitor compartment is proposed as a target for future therapeutic development. [PMID:27806376](../papers/27806376.md)
+- MAML3 fusion activates Wnt and STAT3 signaling; downstream antagonists of beta-catenin (e.g., PRI-274) and STAT3 (e.g., BB1608) are proposed as therapeutic strategies. [PMID:28162975](../papers/28162975.md)
 
 ## Open questions
 
-- Whether TCF4 is functionally required for the stem/progenitor state in oligodendroglioma or is a passenger of the broader neural progenitor transcriptional program is not tested. [PMID:27806376](../papers/27806376.md)
+- Whether TCF4 makes an independent oncogenic contribution beyond serving as a promoter donor in the MAML3 fusion is unresolved; direct binding studies (e.g., ChIP-seq) are not provided. [PMID:28162975](../papers/28162975.md)
 
 ## Sources
 
-- [PMID:27806376](../papers/27806376.md)
-- [PMID:39975212](../papers/39975212.md)
+- [PMID:28162975](../papers/28162975.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25991819](../papers/25991819.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26760213](../papers/26760213.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

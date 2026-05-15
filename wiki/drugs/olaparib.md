@@ -34,6 +34,8 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - DNA repair deficiency (14% Fanconi-anaemia-pathway alterations, 3% BRCA1/2 alterations) in 109 resected pancreatic ductal adenocarcinomas nominates olaparib (PARP inhibitor) as a therapeutic candidate; high-CNV clusters enriched for DSB-repair lesions could serve as stratification biomarkers [PMID:25855536](../papers/25855536.md)
 - 19% of 333 primary [PRAD](../cancer_types/PRAD.md) tumors carry DNA-repair gene defects ([BRCA2](../genes/BRCA2.md), [BRCA1](../genes/BRCA1.md), [ATM](../genes/ATM.md), [CDK12](../genes/CDK12.md), [FANCD2](../genes/FANCD2.md), [RAD51C](../genes/RAD51C.md)); authors link this to TOPARP-A trial results in mCRPC and propose PARP-inhibitor strategies (e.g., olaparib) could be considered at earlier prostate cancer disease stages [PMID:26544944](../papers/26544944.md)
 - The FA-pathway/[ATM](../genes/ATM.md) biomarker that predicted longer carboplatin response in mCRPC ([prad_fhcrc](../datasets/prad_fhcrc.md)) was noted by the authors to dovetail with contemporaneous olaparib PARP-inhibitor responses in the same DNA-repair-deficient biomarker subset of prostate cancer. [PMID:26928463](../papers/26928463.md)
+- PALB2 somatic mutations occur in 4% of metastatic breast cancer vs 0.1% of primary breast cancer (FDR=0.006); authors propose PALB2-deficient mBC as a candidate population for PARP inhibitor (olaparib) trials [PMID:28027327](../papers/28027327.md)
+- In BRCA1/2-wild-type mCRPC cell lines and PDX models, olaparib combined with the USP10 inhibitor spautin-1 produced HSA synergy scores >10 in 22Rv1 and C4-2 cells and CI=0.76 in 22Rv1 CDX; TRMT10A is identified as a BRCA1-recruitment scaffold whose degradation via USP10 inhibition induces BRCAness and sensitizes cells to olaparib [PMID:28068672](../papers/28068672.md)
 
 ## Resistance mechanisms
 
@@ -57,6 +59,7 @@ Olaparib (Lynparza) is an orally available PARP1/PARP2 inhibitor with FDA approv
 - [PMID:26544944](../papers/26544944.md)
 - [PMID:26928463](../papers/26928463.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md) — Lefebvre et al. 2016, metastatic breast cancer WES; PALB2 somatic mutations in 4% of mBC proposed as candidate for PARPi trials.
+- [PMID:28068672](../papers/28068672.md) — Yang et al., TRMT10A/USP10 axis in mCRPC; olaparib + spautin-1 synergy (HSA >10, CI=0.76) in BRCA1/2-WT mCRPC cell lines and PDX.
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.

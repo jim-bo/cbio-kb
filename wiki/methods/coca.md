@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [clustering, multi-omics, computational, integrative-genomics]
 processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_at: 2026-05-15
 ---
 
 # COCA (Cluster-of-Clusters Algorithm)
@@ -18,6 +18,7 @@ COCA is a multi-platform integrative unsupervised clustering method that combine
 ## Used by
 
 - [PMID:34433969](../papers/34433969.md) — COCA integration of six CNA clusters, six DNA methylation clusters, and six mRNA clusters from 121 fresh-frozen meningiomas converged on four stable molecular groups (MG1–MG4) independently associated with recurrence-free survival (log-rank P = 5 x 10^-15) and superior to WHO grade, individual-datatype clustering, or methylation-only classification for predicting time to recurrence [PMID:34433969](../papers/34433969.md).
+- COCA (Cluster of Clusters Analysis) used for inter-cohort cluster integration in the TCGA esophageal/stomach study, enabling comparison of oesophageal subtypes with TCGA lung squamous, head-and-neck squamous, and gastric adenocarcinoma datasets [PMID:28052061](../papers/28052061.md).
 
 ## Notes
 
@@ -29,3 +30,6 @@ COCA is a multi-platform integrative unsupervised clustering method that combine
 - [PMID:34433969](../papers/34433969.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

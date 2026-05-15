@@ -34,6 +34,7 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Identified as a marker of one of the three [ILC](../cancer_types/ILC.md) mRNA subtypes in a comprehensive molecular analysis of invasive lobular carcinoma; associated with subtype-specific expression patterns [PMID:26451490](../papers/26451490.md)
 - Amplification of the PDGFRA/KIT/KDR locus was significantly enriched in oncogene-negative lung ADC (242 cases lacking known RTK/Ras/Raf activating events), nominating this locus as a candidate driver in this subset (q < 0.25); inclusion of this locus in the RTK/Ras/Raf driver pool raised the proportion of lung ADCs with a candidate driver to 76% overall. [PMID:27158780](../papers/27158780.md)
 - Co-amplification of PDGFRA, KDR, and KIT observed in 4 adenoid cystic carcinoma (ACYC) patients treated with regorafenib in a recurrent/metastatic head and neck cancer NGS cohort [PMID:27442865](../papers/27442865.md).
+- Overexpression in osteosarcoma (OS); identified as a multi-targeted kinase inhibitor (MTKI) target in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -106,3 +107,6 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

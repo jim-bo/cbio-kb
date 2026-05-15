@@ -19,7 +19,7 @@ tags:
   - stad
   - tcga
   - multi-platform
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -60,6 +60,7 @@ Multi-platform molecular characterization of 295 primary, treatment-naive gastri
 - CIN tumors: [TP53](../genes/TP53.md) mutation in 71%; recurrent focal amplifications of [ERBB2](../genes/ERBB2.md), [KRAS](../genes/KRAS.md), [MYC](../genes/MYC.md), [EGFR](../genes/EGFR.md), [CCNE1](../genes/CCNE1.md), [CDK6](../genes/CDK6.md), [VEGFA](../genes/VEGFA.md) [PMID:25079317](../papers/25079317.md)
 - [MET](../genes/MET.md) exon 2 skipping in 30% and exon 18/19 skipping in 17% across the full cohort [PMID:25079317](../papers/25079317.md)
 - Used as validation cohort for [BRCA2](../genes/BRCA2.md) mutation-survival analysis in gastric adenocarcinoma; 289 cases with 28 BRCA2-mutant tumors contributed to pooled log-rank P=0.03 survival association, and [ERBB4](../genes/ERBB4.md) kinase-domain mutations (p.V744L, p.774N/G) and [NRG1](../genes/NRG1.md)–[ERBB4](../genes/ERBB4.md) mutual exclusivity confirmed in this cohort [PMID:25583476](../papers/25583476.md)
+- Provided 359 gastric adenocarcinoma samples as historical comparator for the TCGA oesophageal-stomach combined analysis; 77 additional STADs not in the original stad_tcga_pub were incorporated into [stes_tcga_pub](../datasets/stes_tcga_pub.md) [PMID:28052061](../papers/28052061.md)
 
 ## Sources
 
@@ -70,3 +71,6 @@ Multi-platform molecular characterization of 295 primary, treatment-naive gastri
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

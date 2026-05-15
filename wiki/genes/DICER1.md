@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [CLLSLL]
 tags: [mirna-biogenesis, novel-driver, u-cll]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-14
 ---
 
 # DICER1
@@ -18,6 +18,7 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 - Nominated as a novel CLL driver via 3-D clustering with [CLUMPS](../methods/clumps.md) in the 1,148-patient integrated CLL map [PMID:35927489](../papers/35927489.md).
 - Also disrupted by the recurrent ~37-Mb chromosome 14 deletion observed in U-CLL (4/87 WGS, 4.6%), which arises via class-switch recombination and simultaneously disrupts [ZFP36L1](../genes/ZFP36L1.md) and [TRAF3](../genes/TRAF3.md) [PMID:35927489](../papers/35927489.md).
 - DICER1 somatic mutations identified in HNSCC by whole-exome sequencing of 74 tumor-normal pairs (Broad Institute cohort) [PMID:21798893](../papers/21798893.md)
+- Somatic E1813G identified in pleuropulmonary blastoma ([PPB](../cancer_types/PPB.md)) as health-maintenance flag for DICER1 syndrome; germline frameshift L1603Pfs in pineoblastoma flagged for Sertoli-Leydig tumor surveillance; VUS D609Y returned to a family of a patient with anaplastic large cell lymphoma ([ALCL](../cancer_types/ALCL.md)) [PMID:28007021](../papers/28007021.md).
 
 ## Cancer types (linked)
 
@@ -43,3 +44,6 @@ DICER1 encodes the endoribonuclease essential for miRNA biogenesis; rare somatic
 - [PMID:21798893](../papers/21798893.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

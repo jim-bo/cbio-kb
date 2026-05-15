@@ -3,8 +3,8 @@ symbol: NUP98
 aliases: []
 cancer_types: [AML]
 tags: [fusion, NSD1-partner, nucleoporin, leukemia, HOXA-activation]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # NUP98
@@ -16,6 +16,7 @@ NUP98 (Nucleoporin 98) is a component of the nuclear pore complex. NUP98 is an o
 ## Alterations observed in the corpus
 
 - NUP98–NSD1 recurrent in-frame fusion detected by RNA-seq in adult de novo AML; identified among the recurrent in-frame fusions beyond the major known fusions ([PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [RUNX1](../genes/RUNX1.md)–[RUNX1T1](../genes/RUNX1T1.md), [BCR](../genes/BCR.md)–[ABL1](../genes/ABL1.md)) in the TCGA 200-case AML cohort [PMID:23634996](../papers/23634996.md)
+- NUP98–NSD1 fusion in pediatric AML; DOT1L-inhibitor target identified in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NUP98 (Nucleoporin 98) is a component of the nuclear pore complex. NUP98 is an o
 - [PMID:23634996](../papers/23634996.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

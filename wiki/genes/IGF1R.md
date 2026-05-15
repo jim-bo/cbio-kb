@@ -9,8 +9,8 @@ tags:
   - drug-sensitivity-predictor
   - receptor-tyrosine-kinase
   - targeted-therapy
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # IGF1R
@@ -29,6 +29,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 - Activated in ~21% of [HCC](../cancer_types/HCC.md); part of the IGF axis (alongside [IGF2](../genes/IGF2.md) overexpression and [IGF2R](../genes/IGF2R.md) allelic loss) implicated as a therapeutic target in [HCC](../cancer_types/HCC.md) [PMID:24735922](../papers/24735922.md)
 - IGF1R is listed as a candidate RTK alteration in [HNSC](../cancer_types/HNSC.md) (n=279 TCGA) with somatic events across HPV(+) and HPV(−) groups in the multi-platform genomic analysis. [PMID:25631445](../papers/25631445.md)
 - Novel amplification target gene in lung SqCC identified in the TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
+- IGF1R amplified in subsets of esophageal adenocarcinoma (EAC) alongside ERBB2, EGFR, VEGFA, and KRAS amplifications [PMID:28052061](../papers/28052061.md).
 
 ## Cancer types (linked)
 
@@ -71,4 +72,7 @@ IGF1R (insulin-like growth factor 1 receptor) encodes a receptor tyrosine kinase
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

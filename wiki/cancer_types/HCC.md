@@ -4,7 +4,7 @@ oncotree_code: HCC
 main_type: Hepatobiliary Cancer
 parent: LIVER
 tags: [liver, hepatobiliary]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -30,6 +30,7 @@ Primary liver cancer of hepatocellular origin.
 - Narrative review notes overlap of HCC with cholangiocarcinoma (combined hepatocellular-cholangiocarcinoma); HBV DNA integration near [TERT](../genes/TERT.md), [MET](../genes/MET.md), [ALKBH5](../genes/ALKBH5.md), and [FAT2](../genes/FAT2.md) is a shared oncogenic mechanism across HBV-associated HCC and iCCA [PMID:25526346](../papers/25526346.md).
 - Review references HCC in the context of differentiating CCA from HCC: oral microbiota three-bacterial-biomarker classifier (AUC=0.981) distinguishes iCCA from HCC; BA-panel diagnostics also outperform CA19-9 for CCA vs HCC; prolonged broad-spectrum antibiotic use correlates with reduced survival in HCC patients on anti-PD-1 therapy. [PMID:25608663](../papers/25608663.md)
 - Whole-exome sequencing of 243 European HCC identified 161 putative driver genes in 11 pathways; [TERT](../genes/TERT.md) activation (60%), WNT/β-catenin (54%), PI3K/AKT/mTOR (51%), and TP53/cell-cycle (49%) are most frequent; 28% of HCC harbor FDA-targetable alterations; [CDKN2A](../genes/CDKN2A.md) inactivation and FGF3/4/19/CCND1 amplification independently predict poor overall survival; two novel mutational signatures 23 and 24 discovered (signature 24 linked to aflatoxin B1/HBV) [PMID:25822088](../papers/25822088.md)
+- PIPseq cohort included hepatocellular carcinoma cases; UGT1A1 homozygous *28 (TA)7TAA allele identified as pharmacogenomic flag for irinotecan/SN-38 toxicity [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -61,3 +62,6 @@ Primary liver cancer of hepatocellular origin.
 - [PMID:25822088](../papers/25822088.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

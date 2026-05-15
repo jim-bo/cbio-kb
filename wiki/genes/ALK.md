@@ -31,6 +31,8 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - ALK fusion inhibitors cited as subtype-specific targeted therapies applicable exclusively to lung ADC; ALK/ROS1 inhibitors expected to have no role in lung SqCC given histology-restricted driver landscape [PMID:27158780](../papers/27158780.md)
 - ALK rearrangements (most often EML4-ALK, >80% of cases) over-represented in young lung cancer (YLC); targetable with crizotinib and lorlatinib [PMID:27346245](../papers/27346245.md)
 - TPM3–ALK fusion identified in a uRCC case (T12), marking an emerging RCC entity and raising the possibility of ALK inhibitor therapy in molecularly selected cases [PMID:27713405](../papers/27713405.md)
+- ALK Q1146K activating mutation identified in adrenocortical carcinoma (ACC) in a pediatric pan-cancer sequencing cohort; ALK-inhibitor therapy initiated [PMID:28007021](../papers/28007021.md)
+- ALK mutation enriched in HR+/HER2- metastatic breast cancer (mBC) at FDR<0.1 — potentially actionable but functional consequences require further characterization [PMID:28027327](../papers/28027327.md)
 
 ## Cancer types (linked)
 
@@ -89,5 +91,11 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 
 - [PMID:27346245](../papers/27346245.md)
 - [PMID:27713405](../papers/27713405.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*

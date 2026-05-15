@@ -7,7 +7,7 @@ tags:
   - kidney
   - renal
   - umbrella
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-14
 ---
 
@@ -32,6 +32,7 @@ Alterations vary substantially by RCC subtype. Cross-subtype observations from t
 - [SETD2](../genes/SETD2.md), [BAP1](../genes/BAP1.md) — shared chromatin-modifier drivers across CCRCC, [PRCC](../cancer_types/PRCC.md), and URCC [PMID:27713405](../papers/27713405.md).
 
 See individual subtype pages for full alteration catalogs.
+- PIPseq cohort: VHL V166G mutation identified in a renal cell carcinoma patient as diagnostic of Von Hippel-Lindau syndrome [PMID:28007021](../papers/28007021.md)
 
 ## Subtypes
 
@@ -54,3 +55,6 @@ See individual subtype pages. Notable pan-RCC observations from the corpus:
 - [PMID:27713405](../papers/27713405.md) — Chen et al., molecular characterization of 62 MSKCC high-grade uRCCs; defines molecular subtypes of URCC and contextualizes within broader RCC nosology.
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

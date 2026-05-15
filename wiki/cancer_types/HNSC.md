@@ -4,8 +4,8 @@ oncotree_code: HNSC
 main_type: Head and Neck Cancer
 parent: HEAD_NECK
 tags: [head-neck, squamous, hpv, immunotherapy, radiation]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Head and Neck Squamous Cell Carcinoma (HNSC)
@@ -42,6 +42,7 @@ No gene-level variant frequencies are reported in the corpus for HNSC; studies f
 - Narrative review of R/M [NPC](../cancer_types/NPC.md) therapeutics notes [EGFR](../genes/EGFR.md) overexpression in a substantial fraction of [NPC](../cancer_types/NPC.md) (a head-and-neck malignancy); NPC-specific agents are catalogued but HNSC more broadly is referenced in the EBV-negative squamous carcinoma context [PMID:24952746](../papers/24952746.md)
 - TCGA multi-platform profiling of 279 HNSC defined two non-overlapping biologies: HPV(+) tumours with [TRAF3](../genes/TRAF3.md) loss (14%), [PIK3CA](../genes/PIK3CA.md) helical-domain mutations (56%), and [E2F1](../genes/E2F1.md) amplification; HPV(−) tumours with [TP53](../genes/TP53.md) mutation (86%), [CDKN2A](../genes/CDKN2A.md) loss, and 11q13/22 co-amplification. Eleven significantly mutated genes identified (MutSigCV q<0.1); candidate therapeutic alterations present in most tumours. [PMID:25631445](../papers/25631445.md)
 - Morris et al. (MSK, N=151 advanced/recurrent head and neck tumors, MSK-IMPACT 410-gene panel) found that NGS guided therapy in 13/53 (25%) of HNSC patients; TERT promoter mutations in 16/30 (53%) HPV-negative recurrent/metastatic HNSC versus 12/70 (17%) primary HPV-negative tumors (OR 5.5, P<.001); 43% of advanced HPV-positive tumors acquired an HPV-negative-like genotype associated with worse survival [PMID:27442865](../papers/27442865.md).
+- TCGA comparison: ESCC1 and ESCC2 gene expression profiles closely resemble TCGA head and neck squamous cell carcinoma (HNSCC) classical and basal subtypes respectively; ESCC3 (SMARCA4-mutant, US/Canada only) has no analogue in the TCGA HNSCC dataset [PMID:28052061](../papers/28052061.md)
 
 ## Subtypes
 
@@ -87,3 +88,6 @@ No molecular subtype breakdown in the corpus for HNSC beyond HPV context implied
 - [PMID:27442865](../papers/27442865.md) — Morris et al. 2017 (JAMA Oncol). MSK-IMPACT of 151 advanced head and neck tumors; NGS guided therapy in 25% of HNSC patients.
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

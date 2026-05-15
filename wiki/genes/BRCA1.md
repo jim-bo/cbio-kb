@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -58,6 +58,8 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - BRCA1 included in the Fanconi anemia pathway gene set upregulated in high-cell-cycle-progression mCRPC tumors (linked to RB1 loss/E2F1 activation); homozygous deleterious BRCA1 events were used as part of the DNA-repair-defect classifier predicting longer carboplatin response (P = 0.02) [PMID:26928463](../papers/26928463.md)
 - Inactivating/germline mutations identified in breast cancer within the METABRIC 2,433-sample cohort; pathogenic germline classification performed in-cohort; flagged as cross-cancer driver [PMID:27161491](../papers/27161491.md)
 - BRCA1 pathogenic germline variants enriched in young lung cancer (OR=4.1); specific variant p.Cys47Arg reported by Donner et al. [PMID:27346245](../papers/27346245.md)
+- Germline BRCA1 frameshift variants found in two pediatric patients (nested stromal epithelial liver tumor and ependymoma); returned as ACMG secondary findings with breast-cancer health-maintenance flag [PMID:28007021](../papers/28007021.md)
+- BRCA1 is recruited to DSBs via TRMT10A pSer28; BRCA1 recruitment (but not protein abundance) is impaired by TRMT10A or USP10 loss, and BRCA1 knockdown phenocopies TRMT10A loss for PARPi sensitivity in prostate cancer [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -162,3 +164,11 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

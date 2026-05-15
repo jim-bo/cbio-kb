@@ -9,8 +9,8 @@ unverified: false
 assays: [bulk-rna-seq, whole-genome-seq]
 panels: []
 tags: [prostate-cancer, prad, metastatic-castration-resistant, su2c, neuroendocrine]
-processed_by: entity-page-writer
-processed_at: 2026-04-11
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # Prostate Cancer (SU2C/PCF Dream Team, 2019)
@@ -37,9 +37,13 @@ Multi-institutional metastatic castration-resistant prostate cancer (mCRPC) coho
 
 - DDR-associated gene expression pattern concordant with morphologic classification confirmed in SU2C dataset; NEPC samples exhibited elevated [MYCN](../genes/MYCN.md) and/or [AURKA](../genes/AURKA.md) expression. [PMID:38488813](../papers/38488813.md)
 - Three [FGFR1](../genes/FGFR1.md) downstream genes (NRP2, LRP4, TGFBI) preferentially expressed in bone metastases in the SU2C dataset. [PMID:38488813](../papers/38488813.md)
+- Referenced for USP10 deep deletion frequency (~10%) in metastatic castration-resistant prostate cancer, used to contextualize the therapeutic vulnerability of the USP10–TRMT10A axis [PMID:28068672](../papers/28068672.md)
 
 ## Sources
 
 - cBioPortal study `prad_su2c_2019` [PMID:38488813](../papers/38488813.md).
 
 *This page was processed by **entity-page-writer** on **2026-04-11**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

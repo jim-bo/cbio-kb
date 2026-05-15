@@ -7,8 +7,8 @@ tags:
   - dna-damage-response
   - replication-stress
   - kinase
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # ATR
@@ -24,6 +24,7 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - Inactivating mutation contributing to G2/M checkpoint pathway alteration in transitional cell carcinoma (TCC) of the bladder [PMID:24121792](../papers/24121792.md)
 - Basally hyperphosphorylated in EWS::FLI1-expressing heMSCs but fails to further phosphorylate after [etoposide](../drugs/etoposide.md); authors hypothesize EWS::FLI1-driven phosphatase activity (Ewing sarcoma cell-of-origin model) [PMID:25186949](../papers/25186949.md)
 - Cell-cycle/DNA-damage tumor suppressor with inactivating hits in cutaneous squamous cell carcinoma (29-tumor cSCC NGS cohort) [PMID:25589618](../papers/25589618.md)
+- ATR provides compensatory TRMT10A Ser28 phosphorylation when ATM is impaired; TRMT10A loss confers ATR-inhibitor sensitivity in prostate cancer cell lines [PMID:28068672](../papers/28068672.md)
 
 ## Cancer types (linked)
 
@@ -58,3 +59,6 @@ ATR ([ATM](../genes/ATM.md) and Rad3-Related) is a serine/threonine kinase that 
 - [PMID:25589618](../papers/25589618.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:28068672](../papers/28068672.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

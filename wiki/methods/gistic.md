@@ -5,8 +5,8 @@ kind: method
 canonical_source: "[PMID:18772890](../papers/18772890.md)"
 unverified: true
 tags: [copy-number, bioinformatics]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # GISTIC
@@ -50,6 +50,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - GISTIC 2.0 applied to CBS-segmented array-CGH data from 149 tumors of 60 men with metastatic CRPC; identified focal and arm-level CNA drivers including 8q gain (MYC), 8p loss, AR amplification, RB1 and PTEN deletions. [PMID:26928463](../papers/26928463.md)
 - GISTIC2.0 applied to Affymetrix SNP 6.0 copy-number data from 1,144 NSCLC pairs to identify recurrent SCNAs; novel focal amplifications (MIR21, MIR205, MAPK1) and deletions (SMARCA4, B2M, TRAF3) discovered [PMID:27158780](../papers/27158780.md)
 - GISTIC2 applied to METABRIC copy-number data to identify recurrent CNAs underpinning the 10 Integrative Clusters in 2,433 primary breast tumours [PMID:27161491](../papers/27161491.md)
+- GISTIC2 applied to metastatic breast cancer WES data to identify recurrent copy number alterations including ESR1 focal amplification and PTEN deletion; thresholds set at amp >0.3 and del <−0.3 log2 ratio [PMID:28027327](../papers/28027327.md).
+- GISTIC 2.0 used to identify recurrent somatic copy-number alterations in 164 oesophageal carcinomas including CCND1 amplification in 57% of ESCC and CCNE1 amplification in EAC [PMID:28052061](../papers/28052061.md).
 
 ## Notes
 
@@ -153,5 +155,11 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27161491](../papers/27161491.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

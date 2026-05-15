@@ -20,6 +20,7 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - RET fusions in 6.8% (33/484) of PTCs; most fusions weakly BVL (BRAFV600E-like expression score); 4 novel kinase-domain-preserving RET fusion partners discovered; mutually exclusive with BRAF/RAS/EIF1AX point mutations (Fisher's exact p=4.9×10⁻⁴³). [PMID:25417114](../papers/25417114.md)
 - RET found fused with CCDC6 or NCOA4 in 5 PDTCs in a targeted-sequencing study of advanced thyroid cancers; RET fusions were restricted to PDTC (not ATC) in this cohort. [PMID:26878173](../papers/26878173.md)
 - RET rearrangements occur in ~9.5% of young lung cancer patients (YLC, age ≤45) versus ~1% in patients >45 years per cBioPortal analysis; ERC1-RET fusion observed in Indian cohort [PMID:27346245](../papers/27346245.md).
+- Germline C634 (extracellular) vs somatic M918 (intracellular tyrosine kinase) mutations differentiate hereditary from sporadic PCC/PGL (p < 0.001); RET-mutant tumors overexpress RET (p < 0.003) in a comprehensive multi-omic PCC/PGL study [PMID:28162975](../papers/28162975.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ RET encodes a receptor tyrosine kinase involved in cell growth, differentiation,
 - [PMID:27346245](../papers/27346245.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28162975](../papers/28162975.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

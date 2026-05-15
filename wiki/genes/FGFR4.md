@@ -3,8 +3,8 @@ symbol: FGFR4
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-14
 ---
 
 # FGFR4
@@ -23,6 +23,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - FGFR4 recurrently mutated in 9.6% of fusion-negative rhabdomyosarcoma (PFN) tumors and 0% of fusion-positive (PFP) tumors; shared leading-edge PAX-FOXO1 downstream target; RAS/FGFR4 pathway mutationally activated in ≥45% of PFN tumors; MEK inhibition proposed as a therapeutic strategy [PMID:24436047](../papers/24436047.md)
 - FGFR4 is the predominant hepatic FGFR; a therapeutic target in HCC via selective inhibitors BLU-554, H3B-6527, and FGF401, enriched by FGF19 IHC positivity (≥1%). [PMID:24798001](../papers/24798001.md)
 - Present in the untreated primary (TURBT) of patient WCM117 but absent from post-chemotherapy metastases in urothelial carcinoma, private to the eradicated clone [PMID:27749842](../papers/27749842.md)
+- G528C, V550L, and R650L hotspot mutations detected in two pediatric patients with rhabdomyosarcoma ([RMS](../cancer_types/RMS.md)) in the PIPseq cohort; classified as FGFR4-inhibitor targets [PMID:28007021](../papers/28007021.md).
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:27749842](../papers/27749842.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28007021](../papers/28007021.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*

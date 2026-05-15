@@ -5,8 +5,8 @@ kind: MUTATION_EXTENDED
 canonical_source: corpus
 unverified: true
 tags: [statistical-method, somatic-mutation, cancer-genomics, significance-testing]
-processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-15
 ---
 
 # MutSig
@@ -54,6 +54,9 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 - Used to identify significantly mutated genes in 114 metastatic CRPC biopsies; confirmed TP53 and RB1 as top altered genes differentiating CRPC-NE from CRPC-Adeno [PMID:26855148](../papers/26855148.md)
 - MutSigCV applied to 488 non-hypermutated CRCs, identifying 90 significantly mutated genes (73 novel for CRC); hypermutator threshold = 12 mutations/Mb [PMID:27149842](../papers/27149842.md)
 - MutSig2CV applied to 660 lung ADC and 484 lung SqCC exomes; identified 38 SMGs in ADC and 20 in SqCC (q < 0.1); 14 additional SMGs in the pan-lung joint analysis [PMID:27158780](../papers/27158780.md)
+- MutSig used for driver gene identification (FDR<0.1) in 216 metastatic breast cancer exomes, yielding 12 significantly mutated genes including ESR1 and RB1 as metastasis-specific drivers [PMID:28027327](../papers/28027327.md).
+- MutSigCV2.0 applied to identify significantly mutated genes in 164 oesophageal carcinomas, yielding TP53, NFE2L2, KMT2D, ZNF750, NOTCH1, TGFBR2 in ESCC and TP53, CDKN2A, ARID1A, SMAD4, ERBB2 in EAC [PMID:28052061](../papers/28052061.md).
+- MutSig2 applied to 173 PCPG tumors identifying five significant somatic driver genes (q < 0.05): HRAS, NF1, EPAS1, RET, and the novel driver CSDE1 [PMID:28162975](../papers/28162975.md).
 
 ## Notes
 
@@ -173,5 +176,14 @@ MutSig (Mutation Significance) is a statistical algorithm developed at the Broad
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:27158780](../papers/27158780.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28052061](../papers/28052061.md)
+
+*This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:28162975](../papers/28162975.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

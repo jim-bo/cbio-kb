@@ -3,7 +3,7 @@ symbol: AKT1
 aliases: []
 cancer_types: [BLCA, UTUC]
 tags: [pi3k-pathway, oncogene, resistance]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-15
 ---
 
@@ -40,6 +40,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - Recurrent p.E17K mutation identified in lung adenocarcinoma (NSCLC) via pan-lung WES analysis; mutually exclusive with other RTK/Ras/Raf activating events [PMID:27158780](../papers/27158780.md)
 - Mutually exclusive with PIK3CA, PIK3R1, and FOXO3 mutations in breast cancer; identified as a PI3K-pathway co-exclusion partner in 2,433-sample METABRIC cohort [PMID:27161491](../papers/27161491.md)
 - PI3K/mTOR pathway alteration observed in cisplatin-resistant germ cell tumors alongside MTOR, TSC1, TSC2 events [PMID:27646943](../papers/27646943.md)
+- AKT1 identified as a significantly mutated driver in metastatic breast cancer (mBC); also mutated in early breast cancer (eBC) — no significant enrichment in the metastatic setting [PMID:28027327](../papers/28027327.md)
 
 ## Cancer types (linked)
 
@@ -126,4 +127,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27646943](../papers/27646943.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:28027327](../papers/28027327.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-15**.*

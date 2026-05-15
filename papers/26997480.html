@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Genomic and Transcriptomic Features of Response to Anti-PD-1 Therapy in Metastatic Melanoma – cbio-kb</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3ab3c25880d787e734ee9f73ca06a7d1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../site-styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">cbio-kb</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../papers/index.html"> 
+<span class="menu-text">Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../genes/index.html"> 
+<span class="menu-text">Genes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../cancer_types/index.html"> 
+<span class="menu-text">Cancers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets/index.html"> 
+<span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../drugs/index.html"> 
+<span class="menu-text">Drugs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methods/index.html"> 
+<span class="menu-text">Methods</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../themes/index.html"> 
+<span class="menu-text">Themes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../experiments/index.html"> 
+<span class="menu-text">Experiments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ask.html"> 
+<span class="menu-text">Ask</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#cohort-data" id="toc-cohort-data" class="nav-link" data-scroll-target="#cohort-data">Cohort &amp; data</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  <li><a href="#genes-alterations" id="toc-genes-alterations" class="nav-link" data-scroll-target="#genes-alterations">Genes &amp; alterations</a></li>
+  <li><a href="#clinical-implications" id="toc-clinical-implications" class="nav-link" data-scroll-target="#clinical-implications">Clinical implications</a></li>
+  <li><a href="#limitations-open-questions" id="toc-limitations-open-questions" class="nav-link" data-scroll-target="#limitations-open-questions">Limitations &amp; open questions</a></li>
+  <li><a href="#citations-from-this-paper-used-in-the-wiki" id="toc-citations-from-this-paper-used-in-the-wiki" class="nav-link" data-scroll-target="#citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26997480.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26997480.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Genomic and Transcriptomic Features of Response to Anti-PD-1 Therapy in Metastatic Melanoma</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Willy Hugo </p>
+             <p>Jesse M. Zaretsky </p>
+             <p>Lu Sun </p>
+             <p>Chunying Song </p>
+             <p>Blanca Homet Moreno </p>
+             <p>Siwen Hu-Lieskovan </p>
+             <p>Beata Berent-Maoz </p>
+             <p>Jia Pang </p>
+             <p>Bartosz Chmielowski </p>
+             <p>Grace Cherry </p>
+             <p>Elizabeth Seja </p>
+             <p>Shirley Lomeli </p>
+             <p>Xiangju Kong </p>
+             <p>Mark C. Kelley </p>
+             <p>Jeffrey A. Sosman </p>
+             <p>Douglas B. Johnson </p>
+             <p>Antoni Ribas </p>
+             <p>Roger S. Lo </p>
+          </div>
+  </div>
+    
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.1016/j.cell.2016.02.065">10.1016/j.cell.2016.02.065</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>PMID:</strong> 26997480 · <strong>DOI:</strong> 10.1016/j.cell.2016.02.065 · <strong>Journal:</strong> Cell (2016)</p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>Hugo et al.&nbsp;profiled pretreatment metastatic <a href="../cancer_types/SKCM.html">melanoma</a> biopsies from 38 patients treated with anti-PD-1 antibodies (<a href="../drugs/pembrolizumab.html">pembrolizumab</a> or <a href="../drugs/nivolumab.html">nivolumab</a>) using <a href="../methods/whole-exome-seq.html">whole-exome sequencing</a> and matched <a href="../methods/rna-seq.html">RNA-seq</a> on a 28-tumor subset. Overall mutational load did not separate responders from non-responders but did associate with longer survival. Responding tumors were enriched for likely loss-of-function mutations in <a href="../genes/BRCA2.html">BRCA2</a> (28% vs 6%, Fisher P=0.002, OR=6.2). Non-responding tumors converged on a co-regulated transcriptional program — Innate anti-PD-1 Resistance (IPRES) — covering mesenchymal transition, ECM remodeling, angiogenesis, hypoxia, and wound healing, and shared substantial overlap with MAPK-inhibitor-induced signatures. The IPRES program defines a transcriptomic subset present across multiple TCGA cancer types (<a href="../datasets/mel_ucla_2016.html">mel_ucla_2016</a>) (<a href="../papers/26997480.html">PMID:26997480</a>).</p>
+</section>
+<section id="cohort-data" class="level2">
+<h2 class="anchored" data-anchor-id="cohort-data">Cohort &amp; data</h2>
+<ul>
+<li><strong>Patients:</strong> 38 metastatic <a href="../cancer_types/SKCM.html">melanoma</a> patients treated with anti-PD-1 (<a href="../drugs/pembrolizumab.html">pembrolizumab</a> or <a href="../drugs/nivolumab.html">nivolumab</a>); responding n=21, non-responding n=17 (irRECIST criteria; mixed responses excluded). 14 of 38 had prior MAPK-inhibitor therapy.</li>
+<li><strong>Specimens:</strong> 32 pretreatment tumors, 2 pretreatment tumor-derived cultures, 3 early on-treatment tumors without response, 1 early on-treatment tumor with response, plus patient-matched normals.</li>
+<li><strong>Assays:</strong> <a href="../methods/whole-exome-seq.html">Whole-exome sequencing</a> on Illumina HiSeq2000 (2×100 bp; median 140× coverage) for all 38 tumors; <a href="../methods/rna-seq.html">RNA-seq</a> on a 28-tumor subset with sufficient RNA quality.</li>
+<li><strong>Dataset:</strong> <a href="../datasets/mel_ucla_2016.html">mel_ucla_2016</a>; transcriptome data deposited as GEO accession GSE78220.</li>
+<li><strong>External cohorts referenced:</strong> TCGA cutaneous melanoma metastatic subset n=282 (<a href="../datasets/skcm_tcga_pub_2015.html">skcm_tcga_pub_2015</a>); pre-anti-CTLA-4 cohort n=42 (<a href="../datasets/skcm_dfci_2015.html">skcm_dfci_2015</a>, Van Allen et al.&nbsp;2015); pre-MAPKi cohort n=32 (Hugo et al.&nbsp;2015); 469-tumor melanoma background mutation-rate cohort (Hodis et al.&nbsp;2012 + TCGA 2015).</li>
+<li><strong>Variant calling:</strong> <a href="../methods/oncotator.html">Oncotator</a> for SNV/INDEL annotation; copy-number from intersection of Sequenza and <a href="../methods/varscan.html">VarScan2</a>. HLA typing via ATHLATES; neoepitope prediction via NetMHCpan v2.8 / NetMHCIIpan v3.0. Gene set enrichment via GSVA and <a href="../methods/gsea.html">GSEA</a> using MSigDB C2/C6/C7 (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+</ul>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<ul>
+<li><strong>Mutational load and response:</strong> Median non-synonymous SNVs were higher in responding (495) vs non-responding (281) pretreatment tumors but the difference was not significant (P=0.30, Mann-Whitney). HLA class I (231 vs 156, P=0.41) and class II (130 vs 95, P=0.36) predicted neoepitope loads similarly trended higher without statistical significance (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Mutational load and survival:</strong> Patients in the top tertile of mutational load had significantly improved overall survival vs the bottom tertile (log-rank P significant in Figure 1A). Among non-responding/responding subgroups split at within-group median load, responders with low loads still significantly outlived non-responders with high loads (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong><a href="../genes/BRCA2.html">BRCA2</a> enrichment in responders:</strong> nsSNVs in <a href="../genes/BRCA2.html">BRCA2</a> occurred in 6 of 21 responders (28%) vs 1 of 17 non-responders (6%); against a 6% melanoma background rate (28/469 tumors), Fisher P=0.002, odds ratio=6.2. Mutations distributed across NPM1-interacting, POLH-interacting, and FANCD2-interacting (helical) domains, consistent with loss-of-function. <a href="../genes/BRCA2.html">BRCA2</a>-mutant tumors had significantly higher overall mutational loads than <a href="../genes/BRCA2.html">BRCA2</a>-wildtype tumors in this cohort and in two independent melanoma cohorts (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>No predictive copy-number alterations:</strong> Genome-wide CNV analysis identified no recurrent alterations exclusive to either responder group (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Differentially expressed genes:</strong> 693 genes met two-fold median difference at nominal Mann-Whitney p≤0.1; FDR p≤0.25 left only <a href="../genes/ALDH1L2.html">ALDH1L2</a> and MFAP2 (up in non-responders) and <a href="../genes/CDH1.html">CDH1</a> (up in responders). Up-regulated in non-responders: mesenchymal-transition genes (<a href="../genes/AXL.html">AXL</a>, <a href="../genes/ROR2.html">ROR2</a>, <a href="../genes/WNT5A.html">WNT5A</a>, <a href="../genes/LOXL2.html">LOXL2</a>, <a href="../genes/TWIST2.html">TWIST2</a>, <a href="../genes/TAGLN.html">TAGLN</a>, <a href="../genes/FAP.html">FAP</a>); immunosuppressive cytokines (<a href="../genes/IL10.html">IL10</a>, <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/VEGFC.html">VEGFC</a>); monocyte/macrophage chemoattractants (<a href="../genes/CCL2.html">CCL2</a>, <a href="../genes/CCL7.html">CCL7</a>, <a href="../genes/CCL8.html">CCL8</a>, <a href="../genes/CCL13.html">CCL13</a>); and down-regulation of <a href="../genes/CDH1.html">CDH1</a> (E-cadherin) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>No significant differences in checkpoint/effector genes:</strong> <a href="../genes/CD8A.html">CD8A</a>/<a href="../genes/CD8B.html">CD8B</a>, <a href="../genes/PDCD1.html">PDCD1</a> (PD-1), <a href="../genes/CD274.html">CD274</a> (PD-L1), <a href="../genes/PDCD1LG2.html">PDCD1LG2</a> (PD-L2), <a href="../genes/CTLA4.html">CTLA4</a>, <a href="../genes/LAG3.html">LAG3</a>, <a href="../genes/IFNG.html">IFNG</a>, <a href="../genes/GZMA.html">GZMA</a>, and <a href="../genes/PRF1.html">PRF1</a> did not differ between responders and non-responders. HLA class I gene expression (<a href="../genes/HLA-A.html">HLA-A</a>, <a href="../genes/HLA-B.html">HLA-B</a>, <a href="../genes/HLA-C.html">HLA-C</a>) trended higher in responders but not significantly (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong><a href="../genes/PTEN.html">PTEN</a>:</strong> Only one homozygous <a href="../genes/PTEN.html">PTEN</a> deletion (in the non-responding group); no significant overall PTEN expression difference between groups (insufficient power) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>IPRES signature:</strong> A set of 26 co-enriched transcriptomic signatures (mesenchymal transition, angiogenesis, hypoxia, wound healing) were enriched en bloc in 9 of 13 non-responding vs 1 of 15 responding pretreatment tumors. Signatures included MAPK-inhibitor-induced programs derived from melanoma cell lines and patient tumors (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>GO enrichment:</strong> Genes up in non-responders enriched for cell adhesion, ECM organization, wound healing, and angiogenesis (FDR-significant); no GO terms were enriched among responder-up genes (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Cross-cohort validation:</strong> IPRES co-enrichment was over-represented in non-responders (Fisher P=0.013, OR=4.6) and under-represented in responders (P=0.04, OR=0.15) within cohort 1. IPRES was NOT differentially distributed between pre-anti-CTLA-4 responders and non-responders in cohort 2 (<a href="../datasets/skcm_dfci_2015.html">skcm_dfci_2015</a>), suggesting innate resistance mechanisms differ between anti-PD-1 and anti-CTLA-4 (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>IPRES across cancers:</strong> IPRES co-enrichment defines a transcriptomic subset across TCGA pancreatic adenocarcinoma (majority of tumors), lung adenocarcinoma, colon adenocarcinoma, and clear-cell renal cell carcinoma, in addition to melanoma. Within melanoma, only 6 of 69 primary cutaneous tumors showed IPRES co-enrichment vs 90 of 282 metastatic TCGA tumors (<a href="../datasets/skcm_tcga_pub_2015.html">skcm_tcga_pub_2015</a>; P=3.9e-5, OR=0.2), consistent with IPRES marking metastasis-associated mesenchymal programs (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+</ul>
+</section>
+<section id="genes-alterations" class="level2">
+<h2 class="anchored" data-anchor-id="genes-alterations">Genes &amp; alterations</h2>
+<ul>
+<li><a href="../genes/BRCA2.html">BRCA2</a> — Recurrent likely loss-of-function nsSNVs across NPM1-interacting, POLH-interacting, and FANCD2-interacting helical domains; 28% of anti-PD-1 responders vs 6% of non-responders (Fisher P=0.002, OR=6.2 vs background); BRCA2-mutant melanomas have higher overall mutational loads than wild-type (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/AXL.html">AXL</a>, <a href="../genes/ROR2.html">ROR2</a>, <a href="../genes/WNT5A.html">WNT5A</a>, <a href="../genes/LOXL2.html">LOXL2</a>, <a href="../genes/TWIST2.html">TWIST2</a>, <a href="../genes/TAGLN.html">TAGLN</a>, <a href="../genes/FAP.html">FAP</a> — Mesenchymal-transition transcripts up-regulated in non-responding pretreatment tumors; co-enriched within IPRES signature (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/IL10.html">IL10</a>, <a href="../genes/VEGFA.html">VEGFA</a>, <a href="../genes/VEGFC.html">VEGFC</a> — Immunosuppressive/angiogenic cytokines up-regulated in non-responders; <a href="../genes/VEGFA.html">VEGFA</a> and <a href="../genes/CCL2.html">CCL2</a> link to a published mouse model of innate anti-PD-1 resistance (Peng et al.&nbsp;2015) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/CCL2.html">CCL2</a>, <a href="../genes/CCL7.html">CCL7</a>, <a href="../genes/CCL8.html">CCL8</a>, <a href="../genes/CCL13.html">CCL13</a> — Monocyte/macrophage chemoattractants up-regulated in non-responders (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/CDH1.html">CDH1</a> — E-cadherin down-regulated in non-responders (one of three FDR-significant DEGs at q≤0.25) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/PTEN.html">PTEN</a> — One case of homozygous deletion (non-responder); cohort underpowered to confirm Peng et al.&nbsp;2015 PTEN-loss / immunotherapy-resistance association (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/PDCD1.html">PDCD1</a>, <a href="../genes/CD274.html">CD274</a>, <a href="../genes/PDCD1LG2.html">PDCD1LG2</a>, <a href="../genes/CTLA4.html">CTLA4</a>, <a href="../genes/LAG3.html">LAG3</a>, <a href="../genes/IFNG.html">IFNG</a>, <a href="../genes/GZMA.html">GZMA</a>, <a href="../genes/PRF1.html">PRF1</a> — No significant differential expression between responders vs non-responders in this whole-tumor transcriptome cohort (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><a href="../genes/BRAF.html">BRAF</a> — Status not the primary focus; cited indirectly as a contextual factor (a separate cohort of V600BRAF-mutant melanomas under MAPKi therapy used as cross-validation cohort 3) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+</ul>
+</section>
+<section id="clinical-implications" class="level2">
+<h2 class="anchored" data-anchor-id="clinical-implications">Clinical implications</h2>
+<ul>
+<li><strong>Mutational load is prognostic, not predictive of response:</strong> High mutational load predicts longer survival on anti-PD-1 but does not reliably distinguish responders from non-responders. Low-load tumors can respond and high-load tumors can fail (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong><a href="../genes/BRCA2.html">BRCA2</a> status as a candidate response biomarker:</strong> The 6× enrichment of <a href="../genes/BRCA2.html">BRCA2</a> LOF mutations among anti-PD-1 responders in melanoma supports prospective evaluation of HR-deficiency markers as predictors of immunotherapy benefit (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>IPRES as a candidate resistance biomarker:</strong> The transcriptional IPRES program is enriched in innately resistant tumors and detectable across multiple cancer types, suggesting tractable patient stratification by RNA-seq and a target for combination strategies (e.g., anti-angiogenics, EMT modulators, or other interventions targeting wound-healing/ECM programs) (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>MAPKi cross-resistance hypothesis:</strong> Because MAPK-inhibitor treatment of melanoma induces transcriptional programs that overlap with IPRES, prior or concurrent MAPKi therapy may compromise subsequent anti-PD-1 response — relevant for sequencing of <a href="../drugs/pembrolizumab.html">pembrolizumab</a> / <a href="../drugs/nivolumab.html">nivolumab</a> with <a href="../drugs/vemurafenib.html">vemurafenib</a>, <a href="../drugs/dabrafenib.html">dabrafenib</a>, or <a href="../drugs/trametinib.html">trametinib</a> in <a href="../genes/BRAF.html">BRAF</a>-mutant disease (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Mechanism distinct from anti-CTLA-4 resistance:</strong> IPRES did not distinguish anti-CTLA-4 responders from non-responders in the Van Allen cohort (<a href="../datasets/skcm_dfci_2015.html">skcm_dfci_2015</a>), arguing against using a single transcriptomic resistance signature for both checkpoint axes (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+</ul>
+</section>
+<section id="limitations-open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-open-questions">Limitations &amp; open questions</h2>
+<ul>
+<li><strong>Small cohort (n=38 WES, n=28 RNA-seq):</strong> Underpowered for many subgroup comparisons; authors had to bypass multiple-hypothesis correction in single-gene differential-expression analysis to retain enough genes for GO enrichment (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>No recurrent neoepitope or experimentally validated neoantigen:</strong> The Snyder et al.&nbsp;tetrapeptide signature for anti-CTLA-4 response did not transfer to anti-PD-1 in this cohort or in the independent Van Allen cohort (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>PTEN-loss / immunotherapy-resistance link could not be tested:</strong> Only a single PTEN-deleted case in the cohort (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Whole-tumor transcriptome may mask immune-cell-restricted signals:</strong> Authors note their negative result on interferon-γ signature differs from the Ribas et al.&nbsp;nanostring panel result, possibly because bulk RNA-seq dilutes immune-cell-specific signal (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Mechanism by which BRCA2 loss promotes anti-PD-1 sensitivity is unresolved:</strong> Hypotheses include specific HRD-derived mutational signatures producing more immunogenic neoepitopes vs DNA-damage-induced cell death and immune priming — neither directly tested (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>IPRES is correlative, not causal:</strong> The signature predicts non-response but the paper does not demonstrate that pharmacologically suppressing IPRES restores anti-PD-1 sensitivity; authors call this out as the next step (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+<li><strong>Validation in independent prospective cohorts is required</strong> before IPRES can be used clinically (<a href="../papers/26997480.html">PMID:26997480</a>).</li>
+</ul>
+</section>
+<section id="citations-from-this-paper-used-in-the-wiki" class="level2">
+<h2 class="anchored" data-anchor-id="citations-from-this-paper-used-in-the-wiki">Citations from this paper used in the wiki</h2>
+<ul>
+<li>“BRCA2 harbored nsSNVs in six of 21 responding tumors (28%) but only one of 17 non-responding tumors (6%)… Fisher P=0.002, odds ratio=6.2.” (Results, p.&nbsp;4)</li>
+<li>“responding tumors are specifically enriched for mutations in the DNA repair gene BRCA2” (Summary)</li>
+<li>“Innately resistant tumors display a transcriptional signature (referred to as the IPRES or Innate anti-PD-1 Resistance) indicating concurrent upexpression of genes involved in the regulation of mesenchymal transition, cell adhesion, ECM remodeling, angiogenesis and wound-healing.” (Summary)</li>
+<li>“MAPK-targeted therapy (MAPKi) induces similar signatures in melanoma, suggesting that a non-genomic form of MAPKi resistance mediates cross-resistance to anti-PD-1 therapy.” (Summary)</li>
+<li>“a group of 26 transcriptomic signatures were co-enriched en bloc in 9 of 13 non-responding versus 1 of 15 responding pre-anti-PD-1 tumors” (Results, p.&nbsp;6)</li>
+<li>“this IPRES-enriched transcriptomic subset was over-represented among the anti-PD-1 non-responding pretreatment tumors (Fisher P=0.013, odds ratio=4.6) and under-represented among the responding pretreatment tumors (Fisher P=0.04, odds ratio=0.15)” (Results, p.&nbsp;7)</li>
+<li>“median nsSNVs responding=495 and non-responding=281, P=0.30, Mann-Whitney” (Results, p.&nbsp;3)</li>
+<li>“the GEO accession number for the transcriptome data is GSE78220” (Accession Number)</li>
+</ul>
+<p><em>This page was processed by <strong>crosslinker</strong> on <strong>2026-05-14</strong>.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jim-bo\.github\.io\/cbio-kb\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jim-bo/cbio-kb/edit/main/papers/26997480.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/jim-bo/cbio-kb/blob/main/papers/26997480.md" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

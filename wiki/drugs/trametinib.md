@@ -5,7 +5,7 @@ drug_class: MEK1/2 inhibitor
 canonical_source: 
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -33,6 +33,7 @@ Allosteric MEK1/2 inhibitor.
 - SCBO-1 and SCBO-5 (both FGFR3-mutant bladder organoids) responded to trametinib (MEK1/2 inhibitor, 0.5 mg/kg 5-on/2-off oral gavage); SCBO-2 and SCBO-6 (also FGFR3-mutant) did not respond, showing FGFR3 mutation alone is insufficient to predict MEK-inhibitor sensitivity; in vivo orthotopic xenograft studies confirmed significant tumor-size reduction and decreased Ki67 with trametinib [PMID:29625057](../papers/29625057.md)
 - Clinical responses to MEK inhibitors including trametinib (used in BRAF+MEK combinations) in BRAF V600 glioma are conditioned by BRAF allele class and clonality; 4 of 7 BRAF V600E-treated glioma patients achieved partial/near-complete responses (ongoing at 9–41 months), while subclonal V600E and CDKN2A deletion in treatment-escaping lesions predict resistance. [PMID:31263031](../papers/31263031.md)
 - A melanoma cell line harboring GON4L-NTRK1 fusion + NRAS Q61R was insensitive to larotrectinib and LOXO-195 (with absent pan-TRK expression) but responsive to trametinib, demonstrating that co-occurring MAPK pathway activation can redirect oncogenic dependence away from TRK toward RAS-MEK signaling [PMID:31871300](../papers/31871300.md).
+- Used in combination with dabrafenib in 8 of 11 BRAFi+MEKi combination-arm patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md); pretreatment [PTEN](../genes/PTEN.md) loss and elevated [BRAF](../genes/BRAF.md)-mutant allele fraction were identified as candidate biomarkers for response in this 66-patient cohort [PMID:32913971](../papers/32913971.md).
 
 ## Resistance mechanisms
 
@@ -79,5 +80,8 @@ Allosteric MEK1/2 inhibitor.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

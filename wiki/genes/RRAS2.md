@@ -5,8 +5,8 @@ aliases:
 cancer_types:
   - PRAD
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-14"
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RRAS2
@@ -18,6 +18,7 @@ RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPa
 ## Alterations observed in the corpus
 
 - RRAS2 Q72L mutation in one primary prostate tumor; paralogous to RAS Q61 activating hotspot [PMID:26544944](../papers/26544944.md)
+- Activating mutation with CNLOH identified as a shared truncal alteration in a patient whose germ cell tumor, MDS, and post-transplant histiocytic sarcoma were all clonally related, supporting a common shared precursor origin [PMID:32897884](../papers/32897884.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ RRAS2 (also known as TC21) encodes a member of the RAS superfamily of small GTPa
 - [PMID:26544944](../papers/26544944.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-14**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

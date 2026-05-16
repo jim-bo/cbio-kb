@@ -3,8 +3,8 @@ symbol: MLH3
 aliases: []
 cancer_types: []
 tags: [mismatch-repair, MMR]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # MLH3
@@ -17,6 +17,7 @@ MLH3 (MutL homolog 3) encodes a MutL family protein that forms heterodimers with
 
 - Somatic mutation in pancreatic acinar cell carcinomas; identified in ACINAR01 (MSI-H) and other tumors; pathogenic significance unclear and did not clearly correlate with elevated mutation burden [PMID:24293293](../papers/24293293.md)
 - MLH3 part of mismatch-repair/MMR pathway alterations identified in a 109-case PDA WES cohort [PMID:25855536](../papers/25855536.md)
+- MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; MLH1 and MSH6 promoter hypomethylation is also observed; COSMIC signatures 6/15 are present in these tumors but no microsatellite instability is detected [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -35,10 +36,8 @@ MLH3 (MutL homolog 3) encodes a MutL family protein that forms heterodimers with
 - Whether MLH3 mutations alone are sufficient to drive MSI or require co-occurring MMR defects remains unresolved [PMID:24293293](../papers/24293293.md)
 
 ## Sources
-
 - [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
+- [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

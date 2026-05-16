@@ -1,0 +1,37 @@
+---
+name: dNdScv
+slug: dndscv
+kind: method
+canonical_source: corpus
+unverified: true
+tags:
+  - selection-inference
+  - somatic-mutation
+  - driver-discovery
+  - bioinformatics
+processed_by: entity-page-writer
+processed_at: 2026-05-16
+---
+
+# dNdScv
+
+## Overview
+
+dNdScv (dN/dS in cancer using a Poisson framework with covariate correction) is an R package for inferring positive and negative selection acting on somatic point mutations across cancer genes. It models the expected number of synonymous and nonsynonymous mutations under neutrality — controlling for gene-specific mutation rates, trinucleotide context, and gene length — and then computes gene-level dN/dS ratios. Genes with dN/dS significantly above 1 are inferred to be under positive selection (i.e., candidate drivers). The method was designed to reduce false positives relative to earlier recurrence-based approaches by explicitly modeling mutational heterogeneity.
+
+## Used by
+
+- Bolton et al. applied dNdScv to clonal hematopoiesis (CH) mutations from 24,146 cancer patients (MSK-IMPACT), restricting the analysis to the IMPACT-410/468 sub-cohorts with q < 0.1 and ≥25 variants per gene, to identify genes under positive selection in hematopoietic stem and progenitor cells across diverse cancer and therapy contexts [PMID:33106634](../papers/33106634.md)
+
+## Notes
+
+- Input: somatic SNV calls from a targeted or whole-exome/genome panel, plus a reference of expected mutation rates (typically trinucleotide frequencies).
+- Output: per-gene dN/dS ratios, p-values, and q-values for positive and negative selection.
+- Analysis in [PMID:33106634](../papers/33106634.md) was restricted to genes with ≥25 variants and FDR q < 0.1, requiring large cohort sizes.
+- Original method publication: Martincorena et al. (2017), Cell 171:1029–1041.
+
+## Sources
+
+- [PMID:33106634](../papers/33106634.md) — Bolton et al., clonal hematopoiesis in 24,146 cancer patients; dNdScv used to map positive selection in CH across cancer types and treatment exposures.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

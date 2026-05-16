@@ -5,7 +5,7 @@ main_type: Leukemia
 parent: AMLNOS
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Acute Megakaryoblastic Leukemia (AMKL)
@@ -21,6 +21,7 @@ Acute megakaryoblastic leukemia (AMKL) is a subtype of acute myeloid leukemia de
 ## Recurrent alterations
 
 - PIPseq cohort: CBFA2T3-GLIS2 fusion detected by RNA-seq in an AMKL patient — diagnostic and poor-prognosis marker; finding supported recommendation for bone-marrow transplant [PMID:28007021](../papers/28007021.md).
+- AMKL (megakaryoblastic AML, M7) accounted for nearly half of the AML cases arising in PM NSGCT patients; all associated hematologic malignancies lacked canonical AML drivers (FLT3, DNMT3A, TET2, NPM1) and shared TP53/RAS-pathway truncal mutations with the paired GCT. [PMID:32897884](../papers/32897884.md)
 
 ## Subtypes
 
@@ -35,4 +36,7 @@ Acute megakaryoblastic leukemia (AMKL) is a subtype of acute myeloid leukemia de
 
 - [PMID:28007021](../papers/28007021.md) — Oberg et al. PIPseq pediatric pan-cancer sequencing program (n=101).
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

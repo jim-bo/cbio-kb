@@ -3,8 +3,8 @@ symbol: MSH3
 aliases: []
 cancer_types: [CRC, PRAD]
 tags: [mismatch-repair, MMR, BRAF-fusion, microsatellite]
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # MSH3
@@ -21,6 +21,7 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - Co-mutated with [MSH6](../genes/MSH6.md) in the most hypermutated MSI-positive esophageal adenocarcinoma (EAC) case in the 149-tumor Broad WES cohort; this MSI-positive case was excluded from significance analysis [PMID:23525077](../papers/23525077.md)
 - Somatic mutation in ACINAR01 (MSI-H) and other pancreatic acinar cell carcinomas; pathogenic significance unclear [PMID:24293293](../papers/24293293.md)
 - Heterozygous variant of uncertain significance (VUS) in PanNET patient PN1; MSI-stable prediction by MSIsensor [PMID:40328872](../papers/40328872.md)
+- MMR gene transcriptionally upregulated in SWNTS-SWNs vs. NS-SWNs; COSMIC signatures 6/15 are present but no microsatellite instability is detected [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -42,20 +43,12 @@ MSH3 forms the MutSbeta heterodimer with [MSH2](../genes/MSH2.md) to recognize i
 - Whether MSH3 mutations in BRAF fusion-positive CRC are a cause or consequence of the MMR-deficient phenotype is not resolved.
 
 ## Sources
-
+- [PMID:22810696](../papers/22810696.md)
+- [PMID:23525077](../papers/23525077.md)
+- [PMID:24293293](../papers/24293293.md)
+- [PMID:33025139](../papers/33025139.md)
 - [PMID:38922339](../papers/38922339.md)
 - [PMID:38949888](../papers/38949888.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:22810696](../papers/22810696.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24293293](../papers/24293293.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: MUTYH
 aliases: []
 cancer_types: []
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -20,6 +20,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 - Most common DNA-repair PPGM gene in MET500 metastatic cancer cohort (n=10, 16% of all PPGMs across 500 patients); reclassified as a tumor suppressor in this study based on its aberration profile [PMID:28783718](../papers/28783718.md)
 - Monoallelic germline MUTYH pathogenic variants found in 4/88 (5%) of metastatic panNET patients tested; classified as low-penetrance germline carriers, supporting universal germline testing in panNET [PMID:30687805](../papers/30687805.md)
 - Germline pathogenic/likely-pathogenic MUTYH allele identified among DNA-repair germline findings in glioma patients (13% overall germline P/LP rate). [PMID:31263031](../papers/31263031.md)
+- COSMIC mutational signature 1A (C>A transversions attributed to MUTYH-type base-excision repair deficiency) present in 26/29 SWNTS-SWN WES samples, making it the most prevalent signature in this schwannomatosis cohort; tumor mutation burden was low overall (WES 0.17/Mb) [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -33,18 +34,11 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 
 ## Sources
 
+- [PMID:24816255](../papers/24816255.md)
+- [PMID:28783718](../papers/28783718.md)
+- [PMID:30687805](../papers/30687805.md)
+- [PMID:31263031](../papers/31263031.md)
+- [PMID:33025139](../papers/33025139.md)
 - [PMID:36333289](../papers/36333289.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
-- [PMID:24816255](../papers/24816255.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
-- [PMID:28783718](../papers/28783718.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

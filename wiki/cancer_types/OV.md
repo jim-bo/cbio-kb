@@ -6,7 +6,7 @@ parent: WOMB
 tags:
   - ovarian-cancer
   - gynecologic
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -28,6 +28,7 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 - OV is the cancer type most skewed toward genome-integrity disruption, driven by BRCA1/BRCA2 germline variants and high-frequency TP53 mutation; germline BRCA1/2-significant FDR in OV is 9.12e-6; MYC pathway driven mainly by 8q amplification most common in OV [PMID:29625049](../papers/29625049.md)
 - MYC pathway (8q amplification) most common in OV and BRCA; included in pan-cancer pathway analysis of 9,125 TCGA tumors [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for OV [PMID:29625055](../papers/29625055.md)
+- PPM1D CH mutations were found in 13% of ovarian cancer patients in the MSK-IMPACT CH cohort (n=24,146), vs <5% in most other tumor types; PPM1D CH in untreated ovarian patients was 8% — among the highest background rates — with the remainder explained by platinum/topoisomerase II inhibitor/taxane therapy exposure. [PMID:33106634](../papers/33106634.md)
 
 ## Subtypes
 
@@ -46,19 +47,22 @@ OV is the OncoTree umbrella code for epithelial tumors of the ovary and fallopia
 
 *Page last touched by entity-page-writer on 2026-05-01.*
 
-*This page was processed by **crosslinker** on **2026-05-04**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: PIK3CD
 aliases: []
 cancer_types: [EGC, STAD, ESCA]
 tags: [pi3k-pathway, resistance, esophagogastric]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -22,6 +22,7 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 - Private PI3K-pathway event of unknown significance in paired primary/metastasis CRC cohort; detected in spatially separate tumor regions indicating subclonality [PMID:25164765](../papers/25164765.md)
 - PIK3CD is a recurrent driver in DLBCL but CRISPR knockout did NOT impair growth, suggesting it may act in early pathogenesis or via non-targetable functions in established DLBCL [PMID:28985567](../papers/28985567.md)
 - PIK3CD profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations in 34/80 (43%) patients [PMID:30687805](../papers/30687805.md)
+- Mutation present in the ancestral precursor of a 19-year-old patient with 4 clonally related malignancies (GCT, MDS, and post-transplant histiocytic sarcoma), supporting shared precursor origin [PMID:32897884](../papers/32897884.md)
 
 ## Cancer types (linked)
 
@@ -40,19 +41,11 @@ PIK3CD encodes the catalytic p110-delta subunit of PI3K, a class I PI3K isoform 
 - The frequency of PIK3CD mutations as a resistance mechanism in HER2-positive solid tumors beyond [EGC](../cancer_types/EGC.md) is unknown; the S367L variant may be a rare but functionally relevant event warranting systematic assessment by ctDNA monitoring.
 
 ## Sources
-
+- [PMID:24436047](../papers/24436047.md)
+- [PMID:25164765](../papers/25164765.md)
+- [PMID:28985567](../papers/28985567.md)
+- [PMID:30687805](../papers/30687805.md)
+- [PMID:32897884](../papers/32897884.md)
 - [PMID:37406106](../papers/37406106.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:24436047](../papers/24436047.md)
-
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:25164765](../papers/25164765.md)
-
-*This page was processed by **wiki-cli** on **2026-05-11**.*
-- [PMID:28985567](../papers/28985567.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:30687805](../papers/30687805.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

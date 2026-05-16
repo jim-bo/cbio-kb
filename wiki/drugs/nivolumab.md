@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - The T-cell-depleted, luminal-papillary contexture of UTUC is mechanistically consistent with low response rates of luminal-papillary urothelial carcinoma to nivolumab observed in CheckMate 275 (cluster I tumors with low IFNG signature were less responsive), implicating FGFR3-driven immune exclusion as a driver of ICI resistance. [PMID:31278255](../papers/31278255.md)
 - Prior ipilimumab exposure stratifies predictors of anti-PD1 response in melanoma; post-ipilimumab patients with low MHC-II HLA expression are very likely resistant to subsequent nivolumab monotherapy — sequence ipilimumab → nivolumab should shift to alternative regimens in this subgroup [PMID:31792460](../papers/31792460.md).
 - CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
+- Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the study characterised pretreatment molecular features (including [PTEN](../genes/PTEN.md) loss) that predict intrinsic BRAFi resistance, providing context for sequencing of targeted therapy versus checkpoint immunotherapy [PMID:32913971](../papers/32913971.md).
 
 ## Resistance mechanisms
 
@@ -118,3 +119,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

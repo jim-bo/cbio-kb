@@ -3,7 +3,7 @@ symbol: NF1
 aliases: []
 cancer_types: [LUAD, NSCLC, MPNST, ATC, RMS, UCEC, SKCM, HCC, GBM, CSCC, HNSC]
 tags: [tumor-suppressor, ras-pathway, metastasis, loss-of-function, CNA-loss]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -86,6 +86,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 mutations in LUAD (CPTAC n=110) reduced cognate protein and phosphosite abundance; RBM10/NF1 mutations both showed this pattern suggesting post-transcriptional regulation [PMID:32649874](../papers/32649874.md)
 - Cited among known LUAD subclonal genes with higher alteration frequencies in micropapillary/solid (MIP/SOL) vs less invasive histologic subtypes of resected stage I-III LUAD (n=604, MSK-IMPACT). [PMID:32791233](../papers/32791233.md)
 - MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), consistent with MAPK-pathway bypass resistance. [PMID:32864625](../papers/32864625.md)
+- One splice variant (X2441_splice) identified in a poor BRAFi responder in BRAF-mutant melanoma, consistent with preclinical models of NF1-loss conferring BRAFi resistance [PMID:32913971](../papers/32913971.md)
+- Loss-of-function variants (p.W1314*, p.P1847L, p.Q2239*, p.R1276*, p.V2511fs) detected as MAPK-pathway driver mutations in normal melanocytes from sun-damaged skin (Donors 6, 10, 13); classified as weak activators, insufficient alone to produce visible lesions [PMID:33029006](../papers/33029006.md)
 
 ## Cancer types (linked)
 
@@ -115,19 +117,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Whether NF1 loss in FN-RMS represents a genuine driver vs. passenger event requires functional studies.
 
 ## Sources
-
 - [PMID:18772890](../papers/18772890.md)
-- [PMID:37084736](../papers/37084736.md)
-- [PMID:37591896](../papers/37591896.md)
-- [PMID:37350195](../papers/37350195.md)
-- [PMID:38412093](../papers/38412093.md)
-- [PMID:37730754](../papers/37730754.md)
-- [PMID:37651310](../papers/37651310.md)
-- [PMID:38895302](../papers/38895302.md)
-- [PMID:37769223](../papers/37769223.md)
-- [PMID:39147831](../papers/39147831.md)
-- [PMID:39506116](../papers/39506116.md)
-- [PMID:39753968](../papers/39753968.md)
 - [PMID:18948947](../papers/18948947.md)
 - [PMID:20601955](../papers/20601955.md)
 - [PMID:21720365](../papers/21720365.md)
@@ -168,54 +158,37 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:29033130](../papers/29033130.md)
 - [PMID:29100075](../papers/29100075.md)
 - [PMID:29489754](../papers/29489754.md)
+- [PMID:29625049](../papers/29625049.md)
+- [PMID:29625050](../papers/29625050.md)
+- [PMID:30205045](../papers/30205045.md)
+- [PMID:30427539](../papers/30427539.md)
+- [PMID:31263031](../papers/31263031.md)
+- [PMID:31693904](../papers/31693904.md)
+- [PMID:31748746](../papers/31748746.md)
+- [PMID:31768066](../papers/31768066.md)
+- [PMID:31792460](../papers/31792460.md)
+- [PMID:31852831](../papers/31852831.md)
+- [PMID:32404308](../papers/32404308.md)
+- [PMID:32561749](../papers/32561749.md)
+- [PMID:32649874](../papers/32649874.md)
+- [PMID:32791233](../papers/32791233.md)
+- [PMID:32864625](../papers/32864625.md)
+- [PMID:32913971](../papers/32913971.md)
+- [PMID:33029006](../papers/33029006.md)
 - [PMID:36355783](../papers/36355783.md)
 - [PMID:36577525](../papers/36577525.md)
 - [PMID:36585450](../papers/36585450.md)
 - [PMID:36593350](../papers/36593350.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:29625049](../papers/29625049.md)
+- [PMID:37084736](../papers/37084736.md)
+- [PMID:37350195](../papers/37350195.md)
+- [PMID:37591896](../papers/37591896.md)
+- [PMID:37651310](../papers/37651310.md)
+- [PMID:37730754](../papers/37730754.md)
+- [PMID:37769223](../papers/37769223.md)
+- [PMID:38412093](../papers/38412093.md)
+- [PMID:38895302](../papers/38895302.md)
+- [PMID:39147831](../papers/39147831.md)
+- [PMID:39506116](../papers/39506116.md)
+- [PMID:39753968](../papers/39753968.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
-- [PMID:30427539](../papers/30427539.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:30205045](../papers/30205045.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31263031](../papers/31263031.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31693904](../papers/31693904.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31768066](../papers/31768066.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31792460](../papers/31792460.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32404308](../papers/32404308.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32561749](../papers/32561749.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32649874](../papers/32649874.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32791233](../papers/32791233.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32864625](../papers/32864625.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*

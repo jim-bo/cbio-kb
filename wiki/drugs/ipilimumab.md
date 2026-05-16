@@ -5,7 +5,7 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -34,6 +34,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - In a pan-cancer ICI cohort (n=1,662 patients; 146 received anti-CTLA4 including ipilimumab), high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS, with no equivalent benefit in 5,371 non-ICI–treated patients, confirming the ICI-specific predictive value of TMB [PMID:30643254](../papers/30643254.md).
 - Prior ipilimumab (anti-CTLA4) exposure stratifies predictors of subsequent anti-PD1 ICB response in melanoma: post-ipilimumab biopsies with low MHC-II HLA expression and low immune infiltrate identify patients very likely resistant to subsequent nivolumab/pembrolizumab monotherapy (median PFS 2.8 vs 38.1 months; median OS 9.0 months vs not reached) [PMID:31792460](../papers/31792460.md).
 - CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
+- Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the paper establishes PTEN loss-of-function as a biomarker of intrinsic BRAFi resistance, with checkpoint inhibitor context informing the pre-BRAFi treatment landscape [PMID:32913971](../papers/32913971.md).
 
 ## Resistance mechanisms
 
@@ -94,3 +95,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

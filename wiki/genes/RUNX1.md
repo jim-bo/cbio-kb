@@ -3,7 +3,7 @@ symbol: RUNX1
 aliases: []
 cancer_types: []
 tags: [transcription-factor, clonal-hematopoiesis, hematologic-malignancy-risk]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - RUNX1 mutations associated with PI3K/mTOR and VEGFR-multikinase sensitivity ex vivo in Beat AML (aml_ohsu_2018); co-mutation of RUNX1 + BCOR drove JAK-inhibitor (momelotinib, ruxolitinib, tofacitinib) sensitivity, implicating context-specific JAK-pathway dependence [PMID:30333627](../papers/30333627.md)
 - ETV6-RUNX1 fusion present in 88% of ETV6-rearranged BCP-ALL PDX models (27% of total BCP-ALL models had ETV6 fusions) in the PPTC 261-model pediatric cancer genomic characterization [PMID:31693904](../papers/31693904.md).
 - RUNX1 listed among the 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched variants in cfDNA sequencing, helping distinguish CH from tumor-derived signal [PMID:31768066](../papers/31768066.md)
+- Classified as a CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame variants were classed as putative CH drivers in cancer patients with prior therapy exposure [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -80,3 +81,6 @@ RUNX1 encodes a master hematopoietic transcription factor; germline and somatic 
 - [PMID:31768066](../papers/31768066.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -37,6 +37,8 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 - BCOR alone sensitizes AML cells to XAV-939 and crizotinib ex vivo; co-mutation with RUNX1 sensitizes to JAK inhibitors (momelotinib, ruxolitinib, tofacitinib) in Beat AML [PMID:30333627](../papers/30333627.md)
 - Largest fold-change among chromatin-remodeling genes enriched in recurrent/metastatic vs. primary adenoid cystic carcinoma (OR 8.92, P=0.0002) in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
 - BCOR–ZC3H7B fusion identified in one uterine sarcoma initially classified as high-grade myxoid uLMS; reclassified as BCOR-mutated high-grade stromal sarcoma following MSK-Fusion RNA sequencing; patient survived 3.4 years [PMID:32299819](../papers/32299819.md)
+- BCOR truncating and hotspot variants classed as CH-myeloid putative drivers per annotation rules in a 9,437-patient MSK-IMPACT clonal hematopoiesis study; CH at VAF >2% associates with tMN risk (HR=6.9) [PMID:33106634](../papers/33106634.md)
+- BCOR G943D shared across germ cell tumor, MDS, and post-allogeneic-transplant histiocytic sarcoma of one patient, supporting host (not donor) origin and shared clonal precursor in primary mediastinal NSGCT with subsequent hematologic malignancy [PMID:32897884](../papers/32897884.md)
 
 ## Cancer types (linked)
 
@@ -100,13 +102,19 @@ BCOR ([BCL6](../genes/BCL6.md) Corepressor) is a component of a polycomb repress
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29713087](../papers/29713087.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

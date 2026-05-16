@@ -5,7 +5,7 @@ cancer_types:
   - PRAD
   - PRNE
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -43,6 +43,7 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; matched WBC sequencing required to distinguish CH-derived CHEK2 variants from tumor-derived signal [PMID:31768066](../papers/31768066.md)
 - Present in the original oligodendroglioma that gave rise to recurrent GBM154; CHEK2 (along with TERT promoter mutation and 1p/19q co-deletion) was retained in the high-grade recurrent PDX, while CIC and FUBP1 were lost [PMID:31852831](../papers/31852831.md)
 - CHEK2 S163 phosphosite elevated in serous endometrial carcinoma tumors; PLK1-driven inactivation of the DDR and G2M-checkpoint progression identified in the proteogenomic analysis [PMID:32059776](../papers/32059776.md)
+- CHEK2 DDR clonal hematopoiesis therapy-associated (OR=4.5, q=6x10^-6); platinum class effect (OR=2.4) and topoisomerase II inhibitor class effect (OR=2.2); identified in MSK-IMPACT study of 9,437 cancer patients [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -113,19 +114,22 @@ CHEK2 encodes checkpoint kinase 2 (CHK2), a serine/threonine kinase activated by
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

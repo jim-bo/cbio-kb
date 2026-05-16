@@ -3,7 +3,7 @@ symbol: ASXL1
 aliases: []
 cancer_types: [CLLSLL]
 tags: [epigenetic, prognostic, u-cll]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -29,6 +29,7 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 - Polycomb-group chromatin-modifier SMG in MIBC (TCGA, n=412) with predominantly inactivating mutations [PMID:28988769](../papers/28988769.md)
 - ASXL1 mutation confers broad drug resistance in AML ex vivo with a trend toward panobinostat sensitivity; identified as a candidate for genotype-matched repurposing in poor-prognosis disease [PMID:30333627](../papers/30333627.md)
 - One of 15 canonical clonal hematopoiesis (CH) driver genes used to classify WBC-matched cfDNA variants in a multi-cancer liquid biopsy cohort; majority of cfDNA mutations in cancer patients and controls arose from CH [PMID:31768066](../papers/31768066.md)
+- ASXL1 clonal hematopoiesis significantly enriched in current/former smokers (OR=2.5, q=1x10^-4); stronger signal in current smokers (OR=3.1) vs. former (OR=2.4); identified across 9,437 cancer patients with MSK-IMPACT sequencing [PMID:33106634](../papers/33106634.md)
 
 ## Cancer types (linked)
 
@@ -80,7 +81,10 @@ ASXL1 is an epigenetic regulator recurrently mutated at low frequency across mye
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31768066](../papers/31768066.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33106634](../papers/33106634.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

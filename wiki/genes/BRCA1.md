@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -81,6 +81,7 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Discussed as a potential mechanism of homologous recombination deficiency via promoter hypermethylation in uterine leiomyosarcoma (uLMS); not directly assayed for methylation by MSK-IMPACT in this 107-patient uterine sarcoma cohort [PMID:32299819](../papers/32299819.md)
 - Germline BRCA1 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm (fuzuloparib) and anti-VEGFR arm (apatinib) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
 - BRCA1/BRCA2 were referenced as DDR alterations in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
+- BRCA1 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (MSH3, MSH6, PMS2, MLH3), with MLH1 and MSH6 promoter hypomethylation; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
 
 ## Cancer types (linked)
 
@@ -219,40 +220,43 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29713003](../papers/29713003.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32719455](../papers/32719455.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33025139](../papers/33025139.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

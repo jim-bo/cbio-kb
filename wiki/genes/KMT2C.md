@@ -54,6 +54,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Altered in 7/80 (9%) of metastatic panNET patients sequenced with MSK-IMPACT; one of the top-10 most frequently altered genes in this cohort [PMID:30687805](../papers/30687805.md)
 - KMT2C is recurrently mutated in upper tract urothelial carcinoma (UTUC) at frequencies not significantly different from TCGA muscle-invasive bladder cancer [PMID:31278255](../papers/31278255.md).
 - Altered in 14.3% of R/M adenoid cystic carcinoma vs. 4.0% of primaries (OR 4.06) in a multi-institutional cohort; enriched in relapsed/metastatic disease as part of a chromatin-remodeling alteration cluster [PMID:31483290](../papers/31483290.md).
+- KMT2C — frequently co-mutated with BRAF in BRAF-mutant melanoma; most variants classified as VUS likely representing passenger events given high tumor mutational burden [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -188,5 +189,8 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

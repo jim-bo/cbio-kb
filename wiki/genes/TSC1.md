@@ -3,7 +3,7 @@ symbol: TSC1
 aliases: [hamartin]
 cancer_types: [OS, BRCA]
 tags: [tumor-suppressor, somatic, mtor-pathway, splice-site, mtor-inhibitor-target]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -26,6 +26,7 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - OncoKB Level 2b actionable alteration in metastatic panNET (panet_msk_2018); 1 patient with TSC1 somatic alteration eligible for mTOR inhibitor therapy [PMID:30687805](../papers/30687805.md)
 - Recurrently mutated in upper tract urothelial carcinoma (UTUC, n=37 high-grade tumors) at frequencies not significantly different from TCGA urothelial bladder carcinoma [PMID:31278255](../papers/31278255.md)
 - TSC1 listed among recurrent RTK/RAS/PI3K-pathway drivers in upper tract urothelial carcinoma (UTUC) PDX models, consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
+- Rare non-recurrent VUS observed in both excellent and poor responders among BRAF-mutant melanoma patients treated with BRAFi; no association with intrinsic resistance [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ TSC1 (TSC Complex Subunit 1), encoding hamartin, forms a heterodimeric complex w
 - [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

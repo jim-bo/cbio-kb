@@ -4,7 +4,7 @@ aliases: []
 cancer_types: [MEL]
 tags: [melanocyte-master-regulator, transcription-factor, cell-identity, melanoma-driver]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # MITF
@@ -24,6 +24,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - MITF focal amplifications in BRAF-mutant cutaneous melanoma subtype (TCGA 333-sample cohort); recurrent fusions identified (MITF-FOXP1, CADM2-MITF, FRMD4B-MITF); defines a low-expression transcriptomic subclass [PMID:26091043](../papers/26091043.md)
 - Notably absent from the top 421 differentially expressed genes used for expression clustering in acral lentiginous melanoma (ALM), in contrast to its key role in cutaneous melanoma; this absence distinguishes ALM's transcriptional landscape from CM [PMID:28373299](../papers/28373299.md)
 - Non-DNA-repair presumed pathogenic germline mutation (PPGM) identified in 5 of 500 metastatic cancer patients (8%), enriched vs. ExAC controls; implicated as a germline cancer-predisposition gene across cancer types in MET500 cohort [PMID:28783718](../papers/28783718.md)
+- MITF — 3 amplifications observed exclusively in poor/intermediate responders among BRAF-mutant melanoma patients treated with BRAFi; association with resistance not statistically significant due to small numbers [PMID:32913971](../papers/32913971.md)
 
 ## Cancer types (linked)
 
@@ -70,3 +71,6 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - [PMID:28783718](../papers/28783718.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

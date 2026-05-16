@@ -16,8 +16,8 @@ tags:
   - csc-progression
   - single-cell
   - clonal-evolution
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Normal Skin Melanocytes and Keratinocytes (2024)
@@ -51,6 +51,7 @@ Single-cell resolution clonal genomic study of normal skin cells (keratinocytes,
 - Within sun-damaged skin, HighMut melanocytes (UV signature SBS7-dominated, dendritic, differentiated) reside in the interfollicular epidermis; LowMut melanocytes (clock-like SBS1/SBS5-dominated, smaller, stem-like, neural-crest transcriptome) are concentrated in hair follicles — consistent with a model of follicular UV-protected stem-cell replenishment [PMID:39975212](../papers/39975212.md).
 - HighMut melanocyte transcriptome upregulates pigmentation/metabolism genes ([HMOX1](../genes/HMOX1.md), [ABCC2](../genes/ABCC2.md), [MC1R](../genes/MC1R.md), [HERC2](../genes/HERC2.md)) and antigen-presentation markers; LowMut melanocytes upregulate neural-crest lineage genes ([VCAN](../genes/VCAN.md), [TAGLN](../genes/TAGLN.md), [SEMA3C](../genes/SEMA3C.md), [TCF4](../genes/TCF4.md)), aligning with MSC signatures from hair-follicle fetal atlases [PMID:39975212](../papers/39975212.md).
 - 297 single melanocytes were profiled by clonal joint DNA/RNA amplification (G&T-Seq + SMART-Seq2) with whole-exome sequencing; a custom 360-gene spatial Xenium panel validated subpopulation spatial niche separation on FFPE skin in situ [PMID:39975212](../papers/39975212.md).
+- 133 clonally expanded single melanocytes from 6 donors at 19 anatomic sites profiled by UCSF500 targeted sequencing + WES; mean 7.9 mut/Mb with UV-signature dominance; intermittently sun-exposed sites showed higher mutation burden than chronically exposed sites, mirroring melanoma anatomic distribution — [PMID:33029006](../papers/33029006.md)
 
 ## Sources
 
@@ -58,3 +59,6 @@ Single-cell resolution clonal genomic study of normal skin cells (keratinocytes,
 - Tandukar et al. single-melanocyte atlas, with data at dbGaP `phs001979.v1.p1` / `phs003683.v2.p1` (single-cell DNA/RNA) and GEO `GSE286964` (Xenium spatial) [PMID:39975212](../papers/39975212.md).
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:33029006](../papers/33029006.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

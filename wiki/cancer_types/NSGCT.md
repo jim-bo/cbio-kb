@@ -4,8 +4,8 @@ oncotree_code: NSGCT
 main_type: Germ Cell Tumor
 parent: TESTIS
 tags: [germ-cell, cisplatin, testicular]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Non-Seminomatous Germ Cell Tumor (NSGCT)
@@ -26,6 +26,7 @@ Non-Seminomatous Germ Cell Tumor encompasses testicular germ cell tumors with no
 - **[RAC1](../genes/RAC1.md)** — novel hotspot mutations (G12V/R, P34R, Q61R/K) at 5% frequency; functionally validated to activate [PAK1](../genes/PAK1.md) and MEK1/2 [PMID:27646943](../papers/27646943.md).
 - **[MDM2](../genes/MDM2.md)** — amplifications in cisplatin-resistant NSGCT; mutually exclusive with TP53 alterations [PMID:27646943](../papers/27646943.md).
 - **PI3K pathway** — [PIK3CA](../genes/PIK3CA.md), [PTEN](../genes/PTEN.md), [AKT1](../genes/AKT1.md), [MTOR](../genes/MTOR.md), [TSC1](../genes/TSC1.md), [TSC2](../genes/TSC2.md) alterations in ~13% of combined cohort [PMID:27646943](../papers/27646943.md).
+- 15 PM NSGCT patients (ages 18–33) with concomitant hematologic malignancy; 1 in ~17 PM NSGCT patients will develop a hematologic malignancy; TP53 shared in 91% and KRAS/NRAS activating mutations in 63% of GCT–hematologic-malignancy pairs; median survival 6.3 months (95% CI 4.6–25.2). [PMID:32897884](../papers/32897884.md)
 
 ## Subtypes
 
@@ -42,4 +43,7 @@ Non-Seminomatous Germ Cell Tumor encompasses testicular germ cell tumors with no
 
 - [PMID:27646943](../papers/27646943.md) — Bagrodia et al. 2016 (JCO). 126 NSGCT in MSK cohort of 180 advanced GCT; TP53 exclusive to [cisplatin](../drugs/cisplatin.md) resistance; 72% TP53 in primary mediastinal nonseminoma.
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32897884](../papers/32897884.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

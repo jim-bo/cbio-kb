@@ -3,7 +3,7 @@ symbol: ALK
 aliases: []
 cancer_types: [LCH, ECD, NSCLC, NBL]
 tags: [fusion, kinase, histiocytosis, neuroblastoma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -47,6 +47,7 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 - Seven in-frame ALK fusions (EML4-ALK, HMBOX1-ALK, ANKRD36B-ALK) identified in treatment-naïve LUAD; outlier ALK Y1507 phosphorylation specific to fusion-positive samples validated by IHC; hyperphosphorylated WEE1 and PTPN11 observed [PMID:32649874](../papers/32649874.md)
 - In 696 melanomas profiled by MSK-IMPACT, oncogenic ALK fusions were identified as rare drivers within the RTK-RAS-MAPK pathway, targeted successfully with kinase inhibitors in the checkpoint-refractory setting. [PMID:33509808](../papers/33509808.md)
 - EML4-ALK fusions detected de novo and by genotyping in NSCLC by the MSK-ACCESS 129-gene cfDNA panel; ALK also included in the 10-gene orthogonal-truth accuracy cohort for MSK-ACCESS analytical validation [PMID:34145282](../papers/34145282.md)
+- Fusion-driver alterations detected in 6.0% of lung cancers in never- or light-smokers (LCINS) in a 232-sample WGS cohort; trend toward worse OS (not statistically significant); enriched in the mezzo-forte subtype. [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -133,25 +134,28 @@ ALK is a receptor tyrosine kinase recurrently activated by gene fusions in multi
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

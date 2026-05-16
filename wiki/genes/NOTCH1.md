@@ -52,6 +52,8 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 - One of the most common co-mutations in TRK fusion-positive tumors in the MSK cohort (n=113 NTRK-positive cases); co-mutation with NOTCH2 also observed [PMID:31871300](../papers/31871300.md)
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction); also detected at varying frequencies across both groups in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - Loss-of-function mutations in 55.4% of cutaneous squamous cell carcinomas in a meta-analysis of 88 QC-passed tumors; ubiquitous NOTCH-pathway inactivation identified as near-obligate in CSCC [PMID:34272401](../papers/34272401.md)
+- Discussed as a candidate exit-from-quiescence driver in the piano (never-smoker, low-CNA) subtype of lung cancer in never-smokers (LCINS), consistent with the long-latency quiescent-cell origin hypothesis [PMID:34493867](../papers/34493867.md).
+- Mutations in [LUSC](../cancer_types/LUSC.md) associated with elevated GSK3B protein and T433 phosphorylation, decreased inhibitory GSK3A S21, and upregulated NLK; both NLK and GSK3B inhibit NOTCH1, consistent with its tumor-suppressor role in squamous lung cancer [PMID:34358469](../papers/34358469.md).
 
 ## Cancer types (linked)
 
@@ -131,19 +133,18 @@ NOTCH1 is a canonical CLL driver. In the corpus it is one of the four cardinal C
 
 - [PMID:28472509](../papers/28472509.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33863915](../papers/33863915.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+- [PMID:34493867](../papers/34493867.md)
+
+- [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - RBL
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,8 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 ## Alterations observed in the corpus
 
 - Germline pathogenic variant CHEK2 p.Ile157Thr identified in 1 of 42 retinoblastoma patients tested for germline mutations in the rbl_mskcc_2020 cohort (MSK-IMPACT); this is a known moderate-penetrance CHEK2 variant associated with breast and colorectal cancer predisposition [PMID:33466343](../papers/33466343.md).
+- Identified among moderate/low-penetrance germline cancer-predisposition genes interrogated in early-onset colorectal cancer; rates similar between EO-CRC and AO-CRC after adjustment [PMID:34405229](../papers/34405229.md)
+- Loss of heterozygosity (LOH) at CHEK2 independently associated with poor overall survival in lung cancers from never smokers (LCINS; HR significant in Cox PH analysis) [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ CHEK2 (Checkpoint Kinase 2) is a serine/threonine kinase that functions as a tum
 - [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

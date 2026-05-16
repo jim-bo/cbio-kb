@@ -48,6 +48,7 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 - EZH2 is part of the histone modification/DNA methylation pathway jointly mutated in 35.6% of 133 cHCC-ICC cases, alongside KMT2D, IDH1, and BAP1 [PMID:31130341](../papers/31130341.md)
 - EZH2 inhibition +/- cisplatin proposed as therapeutic strategy for SWI/SNF-mutant EpiC-high UTUC subtype based on prior NK-cell-activating mechanism; no in-paper EZH2 mutation data reported [PMID:33397444](../papers/33397444.md)
 - Mutated in 2.4% of CSCC tumors; hotspot Y646N observed in a 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Dependency observed in SOX2-amplified LSCC cell lines; nominated as an actionable upstream regulator of undruggable SOX2 via chromatin modification in the 3q-amplified LSCC subtype [PMID:34358469](../papers/34358469.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +138,8 @@ EZH2 encodes the catalytic subunit of the Polycomb Repressive Complex 2 (PRC2), 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

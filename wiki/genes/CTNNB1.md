@@ -5,7 +5,7 @@ aliases:
 cancer_types:
   - GBM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 ## Alterations observed in the corpus
 
 - CTNNB1 protein is elevated despite decreased mRNA in EGFR-altered GBM tumors (gbm_cptac_2021, n=99); EGFR phosphorylates CTNNB1 at S33, the N-terminal proteasomal-degradation site — a novel trans-phosphorylation relationship identified by phosphoproteomic analysis [PMID:33577785](../papers/33577785.md).
+- Assessed in LUAD at ≥2% alteration frequency without significant association with pathologic lymph node (pN) metastasis status [PMID:34290393](../papers/34290393.md)
 
 ## Cancer types (linked)
 
@@ -40,3 +41,6 @@ CTNNB1 (beta-catenin) is the central effector of the canonical Wnt signaling pat
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

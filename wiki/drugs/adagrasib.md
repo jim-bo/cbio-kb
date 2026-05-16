@@ -5,8 +5,8 @@ drug_class: KRASG12C inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted_therapy, ras_inhibitor]
-processed_by: crosslinker
-processed_at: 2026-05-06
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # adagrasib
@@ -18,6 +18,7 @@ Adagrasib (MRTX849) is a covalent, irreversible small-molecule inhibitor targeti
 ## Evidence in the corpus
 
 - Used in combination with cetuximab (anti-EGFR antibody) for KRASG12C-mutant colorectal cancer (n=8 patients: adagrasib + cetuximab); response rate approximately 40%. Resistance is highly heterogeneous with multiple low-frequency alterations co-occurring; KRASG12C amplification is the only resistance alteration that increases steadily in proportion to tumor markers [PMID:36355783](../papers/36355783.md)
+- In PDAC, KRAS G12C is present in <1% of 140 treatment-naive tumors (paad_cptac_2021); adagrasib (MRTX849) therefore applies to only a small PDAC minority — for the broader cohort the authors propose combined PAK1/PAK2 inhibition with MAPK-ERK and PI3K-AKT-mTOR inhibitors as an alternative KRAS-targeting strategy [PMID:34534465](../papers/34534465.md)
 
 ## Resistance mechanisms
 
@@ -27,9 +28,11 @@ Adagrasib (MRTX849) is a covalent, irreversible small-molecule inhibitor targeti
 ## Cancer types (linked)
 
 - [COADREAD](../cancer_types/COADREAD.md) — KRASG12C-mutant colorectal cancer treated with adagrasib + cetuximab combination
+- [PAAD](../cancer_types/PAAD.md) — KRAS G12C present in <1% of PDAC; adagrasib applicable to this rare subset
 
 ## Sources
 
 - [PMID:36355783](../papers/36355783.md)
+- [PMID:34534465](../papers/34534465.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

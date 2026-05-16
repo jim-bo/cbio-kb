@@ -8,7 +8,7 @@ tags:
   - cytidine-deaminase
   - apobec
   - chemotherapy-resistance
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 - Germline *APOBEC3B* deletion (complete loss of coding sequence) shifts prostate cancer mutagenesis toward APOBEC3A-like patterns, with a reduction in signature 2/13 mutations and lower APOBEC3B expression in 292-case WGS cohort (EOPC/LOPC) [PMID:30537516](../papers/30537516.md)
 - Germline ~30-kb APOBEC3A–APOBEC3B fusion deletion (rs12628403) and independent rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer across 2,658 whole-genome-sequenced PCAWG tumors [PMID:32025007](../papers/32025007.md)
 - APOBEC3A is implicated as an enzymatic source of SBS2 and SBS13 mutational signatures in resected lung adenocarcinoma; these signatures were independently associated with postresection recurrence (~2-fold elevated risk), particularly in acinar/papillary tumors. [PMID:32791233](../papers/32791233.md)
+- Kataegis events in LCINS WGS cohort show APOBEC3A-like mutational signatures; enriched in tumors co-occurring with MDM2 amplification (kataegis hotspot P=1.3e-15). [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -56,10 +57,13 @@ APOBEC3A (Apolipoprotein B mRNA Editing Catalytic Polypeptide-Like 3A) is a memb
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30537516](../papers/30537516.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

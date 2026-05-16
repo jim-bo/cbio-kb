@@ -93,6 +93,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Loss-of-function alterations in GBM ([gbm_cptac_2021](../datasets/gbm_cptac_2021.md)) track with decreased NF1 RNA/protein and upregulated IRF8 (microglial motility TF); drug-connectivity analysis (LINCS L1000 and P100) converges on MAPK inhibitors as top signature-reversing compounds for NF1-altered GBM [PMID:33577785](../papers/33577785.md)
 - Alterations in 1.7% of 412 intrahepatic cholangiocarcinoma tumors ([ihch_msk_2021](../datasets/ihch_msk_2021.md)); contributes to RTK/RAS pathway alterations present in 48% of the cohort [PMID:33765338](../papers/33765338.md)
 - NF1 enriched in cfDNA relative to tissue in breast cancer patients profiled by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
+- Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status [PMID:34290393](../papers/34290393.md).
 
 ## Cancer types (linked)
 
@@ -196,19 +197,16 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33765338](../papers/33765338.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+- [PMID:34290393](../papers/34290393.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

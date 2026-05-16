@@ -40,6 +40,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - Used to classify oncogenic driver calls for genomic-survival analysis in 219 intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; IDH1/2 mutations, FGFR2 fusions, TP53/KRAS mutations, and CDKN2A/B deletions annotated as oncogenic or likely oncogenic to define the high-risk composite biomarker [PMID:33963001](../papers/33963001.md)
 - Applied to annotate somatic mutations detected by cf-IMPACT ([IMPACT410](../methods/IMPACT410.md)) and [MSK-ACCESS](../methods/ACCESS129.md) in 118 metastatic solid tumor patients; identified OncoKB level 1–4 actionable variants in 25% of patients by cf-IMPACT; level 1 actionable mutations detected in 41% of MSK-ACCESS samples [PMID:34059130](../papers/34059130.md)
 - Used to classify clinical actionability for variants reported by MSK-ACCESS in 681 prospective plasma samples; 41% (278/681) had OncoKB level 1–3B alterations; level-1 yield was 48% in bladder, 37% in breast, and 33% in NSCLC [PMID:34145282](../papers/34145282.md)
+- Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 
 ## Notes
 
@@ -106,3 +107,6 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

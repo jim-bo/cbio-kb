@@ -3,7 +3,7 @@ symbol: NKX2-1
 aliases: [TTF1]
 cancer_types: [LUAD, NSCLC]
 tags: [lineage-factor, lung]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,8 @@ NKX2-1 (TTF1) is a lineage-defining transcription factor in lung adenocarcinoma.
 - NKX2-1 (TTF-1) somatic alterations observed in pan-lung cancer TCGA analysis (n=1144) in lung adenocarcinoma [PMID:27158780](../papers/27158780.md)
 - NKX2-1 identified as a recurrent focal amplification target in esophageal squamous cell carcinoma (ESCC) [PMID:28052061](../papers/28052061.md)
 - Recurrently amplified oncogene (copy-number gain) across 604 stage I-III resected LUAD patients profiled by MSK-IMPACT; consistent with its role as a lineage survival oncogene in LUAD. [PMID:32791233](../papers/32791233.md)
+- 4 mutations identified in [LUAD](../cancer_types/LUAD.md), all in the piano (never-smoker, low-CNA) subtype; NKX2-1 regulates RET expression, placing it in the mutually exclusive piano driver set (KRAS, UBA1, RET, ARID1A); NKX2-1 locus also a recurrent SV breakpoint hotspot in LCINS [PMID:34493867](../papers/34493867.md).
+- Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status [PMID:34290393](../papers/34290393.md).
 
 ## Cancer types (linked)
 
@@ -46,18 +48,18 @@ NKX2-1 (TTF1) is a lineage-defining transcription factor in lung adenocarcinoma.
 - [PMID:37591896](../papers/37591896.md)
 - [PMID:39506116](../papers/39506116.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-01**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27158780](../papers/27158780.md)
 
 - [PMID:28052061](../papers/28052061.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

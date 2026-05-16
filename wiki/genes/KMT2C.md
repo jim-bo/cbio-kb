@@ -3,7 +3,7 @@ symbol: KMT2C
 aliases: []
 cancer_types: [CLLSLL, CESC, BLCA, EGC]
 tags: [epigenetic-regulator, m-cll, cervical-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -58,6 +58,7 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - Mutated in >10% UTUC (P=0.02); co-occurs with FGFR3 (LOR=3.1, P=0.04); replicated in utuc_mskcc_2015 (LOR=2.9, P<0.001). [PMID:33397444](../papers/33397444.md)
 - Missense mutation private to DCIS+IDC-NST components in juvenile papillomatosis case JuP3 with coexisting breast carcinoma; shared clonal origin with PIK3CA E542K. [PMID:33263939](../papers/33263939.md)
 - Mutations identified only in TERT-WT metaplastic breast cancers (not statistically significant after multiple-testing correction) in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -206,3 +207,6 @@ KMT2C (MLL3) is a histone H3K4 methyltransferase and a recurrent epigenetic-regu
 - [PMID:33863915](../papers/33863915.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

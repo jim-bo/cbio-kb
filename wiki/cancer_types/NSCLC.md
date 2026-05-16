@@ -54,6 +54,7 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 - Among 604 surgically resected stage I–III LUAD (a subtype of [NSCLC](../cancer_types/NSCLC.md)) profiled by MSK-IMPACT, histologic architectural grade (LEP / ACI-PAP / MIP-SOL) tracked genomic complexity; EGFR alterations were enriched in low-grade LEP (42%), BRAF-V600E in high-grade MIP/SOL (5%), and APOBEC signatures (SBS2, SBS13) independently predicted postresection recurrence [PMID:32791233](../papers/32791233.md).
 - cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in NSCLC patients in a 118-patient metastatic solid-tumor cohort at MSKCC; tumor-fraction-guided three-assay strategy (cf-IMPACT + MSK-ACCESS + cf-WES) improved overall detection yield to 76%; NSCLC was among the tumor types represented [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS (129-gene cfDNA assay) was prospectively applied to 617 patients; NSCLC was the dominant tumor type (349/617, 51%); [TP53](../genes/TP53.md) was mutated in 144/248 (58%) NSCLC samples with detectable alterations; OncoKB level 1 actionable alterations detected in 33% of NSCLC samples; [EGFR](../genes/EGFR.md) mutations enriched in cfDNA vs tissue in lung; [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) and [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors without known mitogenic drivers [PMID:34145282](../papers/34145282.md).
+- Sherlock-Lung WGS study (n=232 never-smoker lung cancers, dataset lung_nci_2022) found no SBS4 tobacco signature even in 62 passive-smoker cases; 54.3% of tumors harbored at least one RTK-RAS pathway alteration (EGFR 30.6%, KRAS 7.3%, ALK 6.0%); five-feature genomic risk score predicted ~2× mortality per alteration [PMID:34493867](../papers/34493867.md)
 
 ## Subtypes
 
@@ -120,6 +121,6 @@ Non-Small Cell Lung Cancer (parent LUNG); encompasses histologies including [LUA
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

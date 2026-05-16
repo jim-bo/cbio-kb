@@ -25,6 +25,9 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 - EGFR amplification is a recurrent driver at ≥5% in esophageal/GEJ adenocarcinoma (egc_mskcc_2020, n=487); no independent OS association demonstrated in this cohort [PMID:33795256](../papers/33795256.md).
 - EGFR P551L flagged as a single hotspot call requiring additional evidence in an 83-tumor CSCC meta-analysis; classified as 'possible false positive' [PMID:34272401](../papers/34272401.md)
 - Recurrent oncogenic driver mutations and amplifications in NSCLC; EGFR mutations were enriched in cfDNA relative to tissue MSK-IMPACT in lung cancer in the MSK-ACCESS multi-cancer liquid biopsy study [PMID:34145282](../papers/34145282.md)
+- Most frequently altered gene in LUAD (33% pN-negative / 31% pN-positive); no significant difference in alteration frequency by pathologic lymph node (pN) status in a 426-patient cohort [PMID:34290393](../papers/34290393.md)
+- Protein significantly upregulated in LSCC and HNSCC but not LUAD; EGFR amplification did not correlate with PROGENy EGFR pathway activity, which instead tracked mRNA abundance of five EGFR ligands; ligand abundance proposed as a better biomarker for response to cetuximab-class therapy in squamous lung tumors [PMID:34358469](../papers/34358469.md)
+- Most frequently altered RTK-RAS gene in lung cancers from never smokers (LCINS; 30.6% overall, 51.4% in mezzo-forte SCNA subtype); mutations occur before clonal copy gain; MRCA appears ~8 yr before clinical diagnosis; independently associated with poor overall survival [PMID:34493867](../papers/34493867.md)
 
 ## Cancer types (linked)
 
@@ -58,5 +61,14 @@ EGFR (Epidermal Growth Factor Receptor, ERBB1) is a receptor tyrosine kinase and
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

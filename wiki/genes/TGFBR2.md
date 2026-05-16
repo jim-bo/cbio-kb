@@ -18,6 +18,7 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 - Significantly mutated in ESCC ([ESCC](../cancer_types/ESCC.md)) in the TCGA esophageal carcinoma cohort (stes_tcga_pub, n=90 ESCC), identified by MutSigCV2.0 analysis. [PMID:28052061](../papers/28052061.md)
 - GCB-selective CRISPR essential dependency in DLBCL [PMID:28985567](../papers/28985567.md)
 - Frameshift mutations reduce TGFBR2-S553 phosphosite abundance in colon cancer proteogenomics (coad_cptac_2019) [PMID:31031003](../papers/31031003.md)
+- Altered in >=5% of PDAC tumors in the CPTAC 2021 proteogenomic cohort (n=140 treatment-naive resected tumors); one of the recurrently mutated non-KRAS/TP53/CDKN2A/SMAD4 genes in PDAC [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ TGFBR2 (Transforming Growth Factor Beta Receptor 2) encodes the type II receptor
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

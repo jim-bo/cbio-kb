@@ -4,7 +4,7 @@ oncotree_code: LUSC
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc, squamous]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -38,6 +38,7 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 - NRF2/oxidative-stress pathway alteration rate 25% in LUSC, highest pan-cancer; PI3K pathway alteration rate 68% in LUSC; NRF2+PI3K co-alteration concentrated in squamous lung [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); all four endpoints (OS, PFI, DFI, DSS) recommended without reservation for LUSC; LUSC never-disease-free cases had HR=6.68 (95% CI 4.25-10.51) for new tumor events [PMID:29625055](../papers/29625055.md)
 - In PCAWG, lung squamous cell carcinoma showed high chromothripsis frequency; [SOX2](../genes/SOX2.md) amplification via chromothripsis was identified as a late event (many SNVs predated the amplification); chromothripsis was clonal and early in lung squamous [PMID:32025007](../papers/32025007.md).
+- CPTAC proteogenomic study of 108 treatment-naive LUSC tumors identified five NMF subtypes (Basal-Inclusive, EMT-Enriched, Classical, Inflamed-Secretory, Proliferative-Primitive); NSD3 proteomically nominated over FGFR1 as the 8p11.23 amplicon driver; CDK4/6-pathway loss (CDKN2A or RB1) was universal; TP63-low tumors overexpressed survivin (BIRC5); dataset lusc_cptac_2021 [PMID:34358469](../papers/34358469.md)
 
 ## Subtypes
 
@@ -93,4 +94,6 @@ Lung Squamous Cell Carcinoma is a Non-Small Cell Lung Cancer histology (parent [
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,8 +3,8 @@ symbol: POLD1
 aliases: []
 cancer_types: [UCEC]
 tags: [dna-polymerase, proofreading, ultramutator]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -22,6 +22,7 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 - No somatic mutations identified across 23 pancreatic acinar cell carcinomas and pancreatoblastomas; wild-type status documented alongside [POLE](../genes/POLE.md) in this exome sequencing cohort [PMID:24293293](../papers/24293293.md)
 - Exonuclease-domain mutations E374K and C284Y observed in [NSCLC](../cancer_types/NSCLC.md) DCB patients on [pembrolizumab](../drugs/pembrolizumab.md); E374K in a never-smoker with the highest never-smoker mutation burden (507 nonsynonymous mutations); C284Y in the highest-burden tumor overall; both lie in the proofreading domain and produce a hypermutator phenotype with C→T predominance distinct from smoking signature [PMID:25765070](../papers/25765070.md)
 - POLD1 proofreading defect identified among mismatch repair / proofreading-deficient hypermutated HNSC tumors in a recurrent/metastatic head and neck NGS cohort [PMID:27442865](../papers/27442865.md).
+- Germline P/LP variant identified in 1 EO-CRC high-penetrance carrier; defines an ultramutated subgroup alongside POLE [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -56,3 +57,6 @@ POLD1 encodes the catalytic subunit of DNA polymerase delta, a key proofreading 
 - [PMID:27442865](../papers/27442865.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

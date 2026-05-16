@@ -74,6 +74,7 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - Used (MuTect, as well as Strelka, VarScan2, Platypus, Lancet, Scalpel) for somatic variant calling in WES and MSK-IMPACT data from 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) [PMID:33863915](../papers/33863915.md)
 - MuTect2 v4.1.2.0 used to call somatic SNVs in reprocessed WES/WGS data from 88 CSCC tumors aligned with BWA-MEM to hg19; annotated with Funcotator v4.1.2.0 [PMID:34272401](../papers/34272401.md)
 - MuTect used alongside [VarDict](../methods/vardict.md) for SNV/indel calling in cfDNA from 681 plasma samples in the MSK-ACCESS analytical validation and prospective clinical cohort [PMID:34145282](../papers/34145282.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -237,3 +238,6 @@ MuTect is a Bayesian statistical framework for the sensitive and specific detect
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

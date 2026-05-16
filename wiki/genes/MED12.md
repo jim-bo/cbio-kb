@@ -3,7 +3,7 @@ symbol: MED12
 aliases: []
 cancer_types: [ARMS, RMS, ULMS, UCEC]
 tags: [mediator-complex, hotspot, uterine]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -26,6 +26,7 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - Recurrently altered candidate driver gene in medulloblastoma, stratified across subgroups in genome-wide analysis of 491 medulloblastomas [PMID:28726821](../papers/28726821.md)
 - MED12 mutated in only 11% (9/80) of uterine leiomyosarcoma (uLMS), in contrast to ~70% mutation frequency in benign uterine leiomyomas; MED12 was absent in non-uterine LMS (0% vs 11%, p=0.01), arguing that uLMS rarely evolves from antecedent leiomyomas [PMID:32299819](../papers/32299819.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
+- Assessed at ≥2% frequency in 426 treatment-naive clinical N2-negative LUAD patients (MSK-IMPACT); no significant difference in alteration frequency by pN status. [PMID:34290393](../papers/34290393.md)
 
 ## Cancer types (linked)
 
@@ -76,3 +77,6 @@ MED12 is a subunit of the Mediator transcriptional coactivator complex. In the c
 - [PMID:33863915](../papers/33863915.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

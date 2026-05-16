@@ -33,6 +33,7 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 - Variants from 304 DLBCLs annotated with Oncotator after MuTect/Indelocator calling [PMID:29713087](../papers/29713087.md)
 - Used for variant annotation in the uniform somatic-calling pipeline (MuTect + Strelka + Oncotator) applied to 249 MSS tumor/normal WES samples from seven ICB cohorts [PMID:30150660](../papers/30150660.md)
 - Used for somatic variant annotation in the high-grade UTUC WES study (37 tumor-normal pairs); re-annotated external TCGA (894) and Foundation Medicine (739) reference cohorts with VEP v88 via [vcf2maf](../methods/vcf2maf.md) alongside Oncotator [PMID:31278255](../papers/31278255.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -85,5 +86,8 @@ Oncotator is a cancer-focused variant annotation tool developed at the Broad Ins
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -33,6 +33,7 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 - Identified as a newly discovered hypermutated-group SMG (>50% mutation frequency in hypermutated samples) in colon cancer proteogenomics, not reported in the TCGA colorectal study [PMID:31031003](../papers/31031003.md)
 - RNF43 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but was not significantly prognostic for survival or time on androgen receptor signaling inhibitors (ARSI) in this tumor cohort [PMID:31061129](../papers/31061129.md)
 - Wnt ligand-level alteration co-occurring with RAS pathway mutations in 71% of cases in MSK mCRC cohort; marks a poor-prognosis subgroup of MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
+- Altered in ≥5% of PDAC tumors in a proteogenomic study of treatment-naive resected pancreatic adenocarcinoma [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ RNF43 is an E3 ubiquitin ligase that negatively regulates Wnt signaling by promo
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -64,6 +64,7 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 - Applied for recurrent copy-number alteration calling in the pan-Asia cHCC-ICC study (133 cases); identified amplifications at [MYC](../genes/MYC.md), [MET](../genes/MET.md), [CCNE1](../genes/CCNE1.md), [CDK6](../genes/CDK6.md), and [TERT](../genes/TERT.md), and deletions at [CDKN2A](../genes/CDKN2A.md), [RB1](../genes/RB1.md), and [AXIN1](../genes/AXIN1.md) [PMID:31130341](../papers/31130341.md)
 - Used as GISTIC2.0 in the PCAWG pan-cancer WGS study (n=2,658 tumors) to identify significantly mutated copy-number regions; flagged FGFR2, FANCA, and PCM1 in copy-number-loss peaks in driverless cases [PMID:32025007](../papers/32025007.md).
 - Used to identify arm-level and focal copy-number alterations across 604 resected LUAD tumors; detected significant arm-level differences at 2p, 2q, 4q, 5p, 6p, 6q, 7p, 7q, 11p, 11q, 12p, 17p, 17q [PMID:32791233](../papers/32791233.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -209,5 +210,8 @@ Genomic Identification of Significant Targets in Cancer (GISTIC) is a bioinforma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

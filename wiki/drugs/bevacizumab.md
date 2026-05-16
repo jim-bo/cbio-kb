@@ -29,6 +29,7 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 - Single-agent bevacizumab yielded a survival ratio >1.3 in only 23% (7/30) of GBM patient-derived xenografts tested in the Mayo PDX panel; no predictive biomarker was identified, consistent with modest clinical benefit [PMID:31852831](../papers/31852831.md).
 - Nominated as a therapeutic candidate for schwannomatosis-associated schwannomas ([SCHW](../cancer_types/SCHW.md)) exhibiting upregulated PIGF/VEGF/RAF pathways, particularly painful tumors; the authors propose bevacizumab for tumor and pain management pending clinical trials [PMID:33025139](../papers/33025139.md).
 - [PIK3CA](../genes/PIK3CA.md) hotspot mutation enrichment in non-chondroid [metaplastic breast cancers (MBC)](../cancer_types/MBC.md) supports prior phase 1 data showing higher response rates to mTOR inhibition ([temsirolimus](../drugs/temsirolimus.md) or [everolimus](../drugs/everolimus.md)) combined with liposomal doxorubicin and bevacizumab in PI3K-pathway-altered advanced triple-negative MBC [PMID:33863915](../papers/33863915.md).
+- In metastatic MSS CRC, fluorouracil + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response and median OS were equivalent across early-onset (≤35, 36-49 years) and adult-onset cohorts at MSK (n=759 EO-CRC, n=687 AO-CRC) [PMID:34405229](../papers/34405229.md)
 
 ## Resistance mechanisms
 
@@ -66,10 +67,13 @@ Humanized monoclonal antibody against VEGF-A, used as an antiangiogenic agent ac
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -52,6 +52,7 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Used to call copy-number alterations and LOH in WES and MSK-IMPACT data from 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)); TERT-altered MBCs had significantly lower fraction of genome altered (median 22%) than TERT-WT MBCs (median 54%; p=0.002) [PMID:33863915](../papers/33863915.md)
 - Used for tumor clonality estimation (CCF) in plasma cf-IMPACT samples from 118 metastatic solid tumor patients; tumor purity from FACETS did not differ between concordant and discordant plasma-tissue sample pairs (p=0.812) [PMID:34059130](../papers/34059130.md)
 - Applied for tumor purity estimation in the MSK-ACCESS clinical deployment pipeline; tumor purity did not significantly differ between concordant and tissue/plasma-discordant sample groups [PMID:34145282](../papers/34145282.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -152,3 +153,6 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

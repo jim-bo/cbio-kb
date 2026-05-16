@@ -21,6 +21,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 - Monoallelic germline MUTYH pathogenic variants found in 4/88 (5%) of metastatic panNET patients tested; classified as low-penetrance germline carriers, supporting universal germline testing in panNET [PMID:30687805](../papers/30687805.md)
 - Germline pathogenic/likely-pathogenic MUTYH allele identified among DNA-repair germline findings in glioma patients (13% overall germline P/LP rate). [PMID:31263031](../papers/31263031.md)
 - COSMIC mutational signature 1A (C>A transversions attributed to MUTYH-type base-excision repair deficiency) present in 26/29 SWNTS-SWN WES samples, making it the most prevalent signature in this schwannomatosis cohort; tumor mutation burden was low overall (WES 0.17/Mb) [PMID:33025139](../papers/33025139.md)
+- Among the moderate- and low-penetrance germline cancer-predisposition genes interrogated in EO-CRC; rates of MUTYH mutations were similar between early-onset and average-onset cohorts after adjustment for number of genes tested [PMID:34405229](../papers/34405229.md).
 
 ## Cancer types (linked)
 
@@ -40,5 +41,7 @@ MUTYH (MutY DNA Glycosylase) is a base excision repair enzyme that removes adeni
 - [PMID:31263031](../papers/31263031.md)
 - [PMID:33025139](../papers/33025139.md)
 - [PMID:36333289](../papers/36333289.md)
+
+- [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

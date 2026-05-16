@@ -3,8 +3,8 @@ symbol: LOXL2
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # LOXL2
@@ -16,6 +16,7 @@ LOXL2 (Lysyl Oxidase Like 2) is a member of the lysyl oxidase family of amine ox
 ## Alterations observed in the corpus
 
 - LOXL2 is among mesenchymal-transition transcripts up-regulated in anti-PD-1 non-responding pretreatment melanoma tumors; co-enriched within the IPRES (innate anti-PD-1 resistance) transcriptional signature [PMID:26997480](../papers/26997480.md)
+- Protein abundance associated with shorter overall survival in PDAC; identified as one of 12 secreted proteins upregulated >2-fold vs normal in the CPTAC PDAC cohort and validated by DIA mass spectrometry as a candidate serum/pancreatic-juice early-detection biomarker. [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ LOXL2 (Lysyl Oxidase Like 2) is a member of the lysyl oxidase family of amine ox
 - [PMID:26997480](../papers/26997480.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

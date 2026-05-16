@@ -47,6 +47,7 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - In CCLE proteomics (n=375 cell lines, 22 lineages), colon adenocarcinoma lines contributed to the mixed-lineage cohort; MSI endometrial and colorectal lines showed proteome buffering with only ~50 differentially expressed proteins vs >1,000 dysregulated mRNAs [PMID:31978347](../papers/31978347.md).
 - In 430 MSS unresectable metastatic colorectal adenocarcinoma patients (including [COAD](../cancer_types/COAD.md) primaries) profiled by MSK-IMPACT, N-terminal APC mutations (5' of aa 1400) were associated with longer OS (HR 0.56, p<0.001) and PFS (HR 0.68, p<0.001) than C-terminal APC mutations, which co-occurred more frequently with KRAS (72% vs 46%), BRAF (13% vs 2%), PIK3CA (28% vs 11%), and PTEN (12% vs 3%) alterations [PMID:32730818](../papers/32730818.md).
 - TIMER 2.0 pan-cancer analysis confirmed CGREF1 significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed CGREF1 over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:32888432](../papers/32888432.md).
+- MSK single-institution cohort (759 early-onset + 687 average-onset CRC) profiled by MSK-IMPACT found most common somatic alterations in microsatellite-stable COAD/READ were APC (79%), TP53 (82%), and KRAS (43%); left-sided tumors dominated in early-onset CRC (>80%); somatic and survival differences by age disappeared after sidedness adjustment [PMID:34405229](../papers/34405229.md)
 
 ## Subtypes
 
@@ -131,6 +132,6 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

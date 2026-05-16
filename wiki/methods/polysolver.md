@@ -22,6 +22,7 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 - Used for HLA typing in the MSK IMPACT neoantigen study to identify patient-specific HLA alleles for neoantigen prediction [PMID:29657128](../papers/29657128.md)
 - POLYSOLVER used for HLA typing from germline WES data across 249 MSS ICB-treated tumors, enabling HLA-restricted neoantigen prediction with NetMHCpan [PMID:30150660](../papers/30150660.md)
 - Used for HLA typing from WES data in the GBM anti-PD-1 immunotherapy cohort; HLA zygosity was not significantly associated with response or survival (n=17 typed patients) [PMID:30742119](../papers/30742119.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -46,5 +47,8 @@ POLYSOLVER (POLYmorphic loci SOLVER) is a computational tool for HLA class I typ
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

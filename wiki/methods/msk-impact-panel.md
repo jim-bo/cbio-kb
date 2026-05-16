@@ -99,6 +99,7 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - MSK-IMPACT hybridization-capture NGS (v1/v2/v3 panels) applied to 487 lower esophageal/EGJ adenocarcinoma patients at MSK between 2014–2019; all 16 recurrent driver genes covered on every panel version [PMID:33795256](../papers/33795256.md)
 - Applied to 17 of 44 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC using the 341–468 gene panel versions ([IMPACT341](../methods/IMPACT341.md), [IMPACT410](../methods/IMPACT410.md), [IMPACT468](../methods/IMPACT468.md)); combined with WES (n=27) for somatic mutation and CNA profiling [PMID:33863915](../papers/33863915.md)
 - Used to profile 219/433 resected or HAIC-treated intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients; panel versions used were [IMPACT341](../methods/IMPACT341.md) (N=26), [IMPACT410](../methods/IMPACT410.md) (N=93), and [IMPACT468](../methods/IMPACT468.md) (N=100); identified composite high-risk alteration set (TP53/KRAS mutation or CDKN2A/B deletion) stratifying N1 disease prognosis [PMID:33963001](../papers/33963001.md)
+- Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 
 ## Notes
 
@@ -305,3 +306,6 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - [PMID:33963001](../papers/33963001.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

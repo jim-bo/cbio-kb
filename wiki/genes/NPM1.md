@@ -3,7 +3,7 @@ symbol: NPM1
 aliases: []
 cancer_types: [AML]
 tags: [AML-driver, co-mutation, epigenetic-subtype, intermediate-risk]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -19,6 +19,7 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 - NPM1 is mutually exclusive of transcription-factor fusions ([PML](../genes/PML.md)–[RARA](../genes/RARA.md), [MYH11](../genes/MYH11.md)–[CBFB](../genes/CBFB.md), [KMT2A](../genes/KMT2A.md) fusions) and of [RUNX1](../genes/RUNX1.md), [TP53](../genes/TP53.md), and [CEBPA](../genes/CEBPA.md) mutations [PMID:23634996](../papers/23634996.md)
 - Mutations in 28% (n=436) of AML; class-defining for the largest subgroup; favorable as monotherapy but outcome strongly modified by co-occurring FLT3, DNMT3A, IDH2, NRAS, PTPN11, and chromatin-spliceosome mutations; allogeneic transplant decisions should integrate co-mutation profiles [PMID:27276561](../papers/27276561.md)
 - 4-bp insertion mutations detected by internal PCR assay in the Beat AML cohort (aml_ohsu_2018); any NPM1 mutation sensitized cells to ibrutinib/entospletinib ex vivo; co-mutation with FLT3-ITD (regardless of DNMT3A status) defined a subset with strong BTK/SYK pathway sensitivity [PMID:30333627](../papers/30333627.md)
+- Phospho-NPM1 S70/S214 levels elevated in [PAAD](../cancer_types/PAAD.md) tumors harboring CDKN2A deletions (altered in 48%), suggesting a downstream phosphoproteomic consequence of CDKN2A loss [PMID:34534465](../papers/34534465.md).
 
 ## Cancer types (linked)
 
@@ -41,10 +42,10 @@ NPM1 (Nucleophosmin 1) is a multifunctional nucleocytoplasmic shuttling protein 
 
 - [PMID:23634996](../papers/23634996.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27276561](../papers/27276561.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:30333627](../papers/30333627.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

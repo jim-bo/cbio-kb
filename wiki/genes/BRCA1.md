@@ -82,6 +82,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Germline BRCA1 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm (fuzuloparib) and anti-VEGFR arm (apatinib) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
 - BRCA1/BRCA2 were referenced as DDR alterations in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
 - BRCA1 transcriptionally upregulated in SWNTS-SWN schwannomatosis tumors alongside MMR/DNA-repair genes (MSH3, MSH6, PMS2, MLH3), with MLH1 and MSH6 promoter hypomethylation; COSMIC signatures 6/15 present but no microsatellite instability detected [PMID:33025139](../papers/33025139.md)
+- Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
+- Germline variants in BRCA1 in 3 carriers in the 232-sample LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
+- Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -258,5 +261,14 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -27,6 +27,7 @@ ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotatin
 - ANNOVAR used for functional annotation of somatic variants called in 15 Korean vulvar SCC tumor/normal WES pairs; PolyPhen-2 applied for missense impact prediction [PMID:29422544](../papers/29422544.md)
 - Used for variant annotation in the pan-cancer MSI analysis of 11,139 whole-exome tumor-normal pairs from TCGA, TARGET, and external cohorts [PMID:29850653](../papers/29850653.md)
 - Applied in the pan-Asia cHCC-ICC WES/WGS study (133 cases) for functional annotation of somatic variants called from 173 tumors; used alongside [bwa](../methods/bwa.md), [mutect](../methods/mutect.md), and [gistic](../methods/gistic.md) [PMID:31130341](../papers/31130341.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -61,5 +62,8 @@ ANNOVAR (ANNOtate VARiation) is a bioinformatics tool for functionally annotatin
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

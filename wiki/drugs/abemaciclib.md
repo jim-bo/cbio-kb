@@ -10,7 +10,7 @@ tags:
   - targeted_therapy
   - cdk4_6_inhibitor
   - cell_cycle
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,7 @@ Abemaciclib (Verzenio) is a selective CDK4/6 inhibitor that blocks [CDK4](../gen
 ## Evidence in the corpus
 
 - In vitro overexpression of candidate resistance drivers ([AKT1](../genes/AKT1.md), [KRAS](../genes/KRAS.md) G12D, [AURKA](../genes/AURKA.md), [CCNE2](../genes/CCNE2.md)) or CRISPR knockout of [RB1](../genes/RB1.md) in T47D and MCF7 HR+/HER2- breast cancer cell lines was sufficient to confer resistance to abemaciclib (and palbociclib), validating each alteration as a functional CDK4/6i resistance mechanism; context-dependence was noted (AURKA overexpression drove resistance in T47D but not MCF7) [PMID:32404308](../papers/32404308.md).
+- In LUSC, universal CDK4/6-pathway dysregulation means every tumor loses CDKN2A or RB1 function; heterogeneous Rb protein and phospho-Rb in CCND1-amplified tumors may explain variable responses to abemaciclib, and the authors argue RB1 protein + phospho-Rb status should guide patient selection over CDKN2A status alone [PMID:34358469](../papers/34358469.md)
 
 ## Resistance mechanisms
 
@@ -42,3 +43,6 @@ Abemaciclib (Verzenio) is a selective CDK4/6 inhibitor that blocks [CDK4](../gen
 - [PMID:32404308](../papers/32404308.md) — Wander et al., whole-exome sequencing of 59 metastatic HR+/HER2- breast cancer biopsies identifying eight categories of CDK4/6 inhibitor resistance mechanisms.
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34358469](../papers/34358469.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -5,8 +5,8 @@ cancer_types:
   - ACRM
   - SKCM
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # PAK2
@@ -18,6 +18,7 @@ PAK2 (p21-activated kinase 2) is a serine/threonine kinase in the PAK family tha
 ## Alterations observed in the corpus
 
 - Listed among genes with alterations in the acral melanoma (ALM) integrated genomic analysis cohort (34 patients; WGS + RNA-seq + SNP array); observed in the context of BRAF/NRAS wild-type tumors and structural alteration profiling [PMID:28373299](../papers/28373299.md).
+- Protein elevated in ~90% of [PAAD](../cancer_types/PAAD.md) tumors; downstream effector of KRAS via RAC1; co-elevated with PAK1, MET at RNA and protein levels; targeted alongside PAK1 in proposed combination MAPK-ERK/PI3K-AKT-mTOR inhibition strategy [PMID:34534465](../papers/34534465.md).
 
 ## Cancer types (linked)
 
@@ -39,4 +40,6 @@ PAK2 (p21-activated kinase 2) is a serine/threonine kinase in the PAK family tha
 
 - [PMID:28373299](../papers/28373299.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

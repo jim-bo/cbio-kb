@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -63,6 +63,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - Most frequently mutated gene in both the 65-tumoroid rectal cancer biorepository and the matched 287-patient MSK clinical cohort (rectal_msk_2019), consistent with canonical Wnt-pathway loss in rectal adenocarcinoma [PMID:31591597](../papers/31591597.md)
 - Loss-of-function mutations in 11 CTNNB1-WT uterine corpus endometrial carcinoma tumors provide an alternative route to β-catenin overexpression; APC and AXIN1 protein are upregulated when CTNNB1 is hotspot-mutated [PMID:32059776](../papers/32059776.md)
 - Truncating APC mutations split at aa 1400 into N-terminal (longer OS/PFS, fewer concurrent mitogenic hits) and C-terminal (shorter OS/PFS, enriched RAS/PI3K co-mutation) prognostic groups in MSS metastatic colorectal cancer, identifying APC mutation site — not merely mutation status — as a clinically relevant biomarker. [PMID:32730818](../papers/32730818.md)
+- Assessed at >=2% frequency in a 514-sample LUAD genomics cohort (pN+ vs pN- node-metastasis study); no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
+- Truncating mutations in 78.7% of early-onset CRC (EO-CRC) MSS tumors; germline pathogenic/likely-pathogenic APC variants in 3/14 high-penetrance carriers; APC alteration or 20q amplification associated with improved survival on univariate analysis (HR=0.64, 95% CI 0.44-0.93, P=0.02) in 1,163 MSS CRC patients. [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -204,13 +206,19 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31061129](../papers/31061129.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34290393](../papers/34290393.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

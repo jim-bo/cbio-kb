@@ -70,6 +70,8 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - CPTAC proteogenomic profiling of 110 treatment-naive LUAD tumors identified four multi-omics NMF subgroups; EGFR-mutant and ALK-fusion tumors showed outlier PTPN11/Shp2 phosphorylation nominating Shp2 inhibitors, and KRAS-mutant tumors showed outlier SOS1 S1161 phosphorylation; STK11 mutation strongly associated with immune-cold phenotype and neutrophil-degranulation protein signature [PMID:32649874](../papers/32649874.md)
 - In 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients with complete resection profiled by MSK-IMPACT, MIP/SOL-predominant tumors had the highest TMB (7.9 vs 4.9 vs 3.9 mut/Mb) and WGD rate (18% vs 10% vs 4.5%); APOBEC mutational signatures SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) were independently associated with postresection recurrence risk [PMID:32791233](../papers/32791233.md).
 - MSK-ACCESS cfDNA panel (129 genes, n=617 patients) found LUAD among the most common tumor types profiled; [KRAS](../genes/KRAS.md) p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC + cfDNA fragment-length evidence; [EGFR](../genes/EGFR.md) mutations were enriched in LUAD cfDNA relative to MSK-IMPACT tissue; [MET](../genes/MET.md), [ERBB2](../genes/ERBB2.md), [BRAF](../genes/BRAF.md) amplifications and [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) / [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected de novo and by genotyping; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking known mitogenic drivers [PMID:34145282](../papers/34145282.md).
+- Sherlock-Lung WGS (n=189 never-smoker LUAD) identified three SCNA subtypes: piano (49.6%, EGFR-low, carcinoid-enriched), mezzo-forte (30.2%, 51.4% EGFR-mutant, 1q/5p/7p gains), and forte (20.2%, 95.7% WGD); median TMB 1.1 Mut/Mb (>7-fold lower than smoker LUAD); five independent alterations (TP53 mut, MDM2 amp, EGFR mut, CHEK2 LOH, 22q/15q loss) each approximately doubled mortality risk [PMID:34493867](../papers/34493867.md)
+- In 426 clinical N2-negative stage I/II LUAD patients (MSK-IMPACT), SMARCA4 (OR 3.67) and SMAD4 (OR 5.01) alterations were independently associated with pathologic lymph node metastasis; fraction of genome altered and WGD were also enriched in pN-positive tumors; preoperative clinical staging had a 15% false-negative rate for occult LN metastasis [PMID:34290393](../papers/34290393.md)
 
 ## Subtypes
 
@@ -171,6 +173,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+- [PMID:34290393](../papers/34290393.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

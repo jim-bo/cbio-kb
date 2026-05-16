@@ -51,6 +51,7 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 - Mutated in 3.8% of relapsed/metastatic adenoid cystic carcinoma cases as a Notch-pathway activator [PMID:31483290](../papers/31483290.md)
 - Among the top recurrently mutated genes in rectal cancer tumoroids and the 287-patient MSK RC cohort (rectal_msk_2019) [PMID:31591597](../papers/31591597.md)
 - circRNA derived from FBXW7 is reported to encode a protein product that reduces c-Myc half-life; FBXW7 circRNA cited as a mechanistic observation in EC proteogenomics [PMID:32059776](../papers/32059776.md)
+- Mutated in 8.9% of early-onset CRC (MSS tumors, age ≤35); no statistically significant difference in alteration frequency between EO-CRC and AO-CRC age cohorts [PMID:34405229](../papers/34405229.md)
 
 ## Cancer types (linked)
 
@@ -173,5 +174,8 @@ FBXW7 (F-Box And WD Repeat Domain Containing 7) encodes an E3 ubiquitin ligase s
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -47,6 +47,7 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - One of three MSK-IMPACT panel versions (alongside IMPACT341, IMPACT410) used to profile 17 metaplastic breast cancers ([MBC](../cancer_types/MBC.md)) at MSKCC [PMID:33863915](../papers/33863915.md)
 - Applied to 100 of 219 genomically profiled intrahepatic cholangiocarcinoma ([IHCH](../cancer_types/IHCH.md)) patients (largest fraction of the profiled cohort); used with [IMPACT341](../methods/IMPACT341.md) (N=26) and [IMPACT410](../methods/IMPACT410.md) (N=93) across the 2000–2018 study period [PMID:33963001](../papers/33963001.md)
 - Used as tissue comparator panel in the MSK-ACCESS clinical cohort (520 MSK-IMPACT tissues from 383 of 617 patients); 1,206 mutations in overlapping target regions compared with ACCESS129 plasma results; 59% were shared, 21% tissue-only, 20% plasma-only [PMID:34145282](../papers/34145282.md)
+- Applied in the MSK early-onset colorectal cancer cohort (759 EO-CRC patients vs 687 AO-CRC) for somatic and germline profiling at Memorial Sloan Kettering Cancer Center [PMID:34405229](../papers/34405229.md)
 
 ## Notes
 
@@ -130,3 +131,6 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - [PMID:34145282](../papers/34145282.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

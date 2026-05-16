@@ -46,6 +46,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MSH2 protein (MutS complex) is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
 - MSH2 IHC loss in one of two hypermutated MSI-H uLMS cases; no somatic driver identified in MSH2, suggesting epigenetic or germline etiology; the MSI-H patient remains disease-free 5.9 years from diagnosis after multimodality therapy without immune checkpoint inhibitors [PMID:32299819](../papers/32299819.md)
 - MSH2 germline loss identifies Lynch syndrome UTUC subsets (UCC36, UCC34); MSH2/MSH6 IHC-negative without identifiable germline cause (UCC17) represents sporadic MSI-H UTUC; all MSI-H cases had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin [PMID:32332851](../papers/32332851.md)
+- Germline Lynch syndrome mismatch-repair gene; MSH2 variants contributed to the 5.5% Lynch syndrome prevalence in EO-CRC, with germline P/LP variants accounting for 9 of 14 high-penetrance carriers in the early-onset cohort [PMID:34405229](../papers/34405229.md).
 
 ## Cancer types (linked)
 
@@ -91,37 +92,28 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31263031](../papers/31263031.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: MLH1
 aliases: []
 cancer_types: [UCEC, PRAD, PLMESO, PITU, GB]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -53,6 +53,7 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - MLH1 is silenced by promoter methylation in MSI endometrial carcinoma tumors (CPTAC cohort, n=95); MLH1 protein is downregulated and co-methylation silences EPM2AIP1 via a shared promoter [PMID:32059776](../papers/32059776.md)
 - Germline MLH1 loss defines a Lynch syndrome UTUC subset (UCC15); MSI-H Lynch-associated UTUC (n=4, including MLH1, MSH2, and MSH6 germline carriers) had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin (0/2 pathologic responses vs 10/17 in MSS patients), suggesting redirection to immune checkpoint blockade [PMID:32332851](../papers/32332851.md)
 - MLH1 — promoter hypomethylated in SWNTS-SWNs; transcriptionally upregulated MMR gene despite absence of 22q microsatellite instability; COSMIC signatures 6/15 present [PMID:33025139](../papers/33025139.md)
+- Germline Lynch syndrome mismatch-repair gene; pathogenic/likely pathogenic germline variants in MLH1 accounted for a portion of the 5.5% Lynch syndrome prevalence in early-onset colorectal cancer (EO-CRC) and 9 of 14 high-penetrance carriers [PMID:34405229](../papers/34405229.md).
 
 ## Cancer types (linked)
 
@@ -86,97 +87,68 @@ MLH1 is a key mismatch repair (MMR) gene whose inactivation — via somatic muta
 - [PMID:39746944](../papers/39746944.md)
 - [PMID:39753968](../papers/39753968.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:36593350](../papers/36593350.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23334666](../papers/23334666.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:23636398](../papers/23636398.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24293293](../papers/24293293.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:24816255](../papers/24816255.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25079317](../papers/25079317.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25233892](../papers/25233892.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26000489](../papers/26000489.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:26878173](../papers/26878173.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27442865](../papers/27442865.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28783718](../papers/28783718.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28825054](../papers/28825054.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28726821](../papers/28726821.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29848569](../papers/29848569.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30068706](../papers/30068706.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29850653](../papers/29850653.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33025139](../papers/33025139.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34405229](../papers/34405229.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -23,6 +23,7 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 - STAT3 is upregulated as part of the JAK-STAT pathway (with JAK2, STAT1, STAT6) in pan-cancer iClusters C3, C20, C14 (LUAD), and C10 (pan-SCC) in the 28-iCluster TCGA pan-cancer classification, raising the hypothesis of repurposing approved JAK-STAT inhibitors across these tumor types [PMID:29625048](../papers/29625048.md)
 - RAS/JAK/STAT pathway mutation enriched in C4 GCB-DLBCL; co-occurring with BRAF, KRAS, MAP2K1 mutations; among 98 CCGs identified in 304 primary DLBCLs by MutSigCV/CLUMPS [PMID:29713087](../papers/29713087.md)
 - STAT3-related immunosuppressive signature elevated in post-treatment responder GBM tumors, interpreted as an acquired-resistance signal following anti-PD-1 therapy (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
+- STAT3 pathway activation observed in the PDAC proteogenomic landscape; JAK-STAT signaling components profiled in the CPTAC 2021 cohort (n=140 treatment-naive resected tumors) [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -64,5 +65,8 @@ STAT3 is a JAK/STAT pathway transcription factor recurrently altered in peripher
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -103,6 +103,7 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - PCR-free WGS on Illumina HiSeq X (minimum 15× tumor depth) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling (paired with WES at ≥150× on-target) [PMID:33577785](../papers/33577785.md)
 - Some of the 10 source studies in the CSCC meta-analysis contributed WGS data (in addition to WES from most studies); 88 QC-passed tumors retained from 105 total across all sequencing types (hg19, BWA-MEM v0.7.13) [PMID:34272401](../papers/34272401.md)
 - Shallow WGS (sWGS, ~10M reads/sample) of cfDNA used for genome-wide z-score-based tumor fraction estimation in 118 metastatic solid tumor patients; sWGS z-score achieved AUC=0.925 for predicting high tumor fraction and directed sample triage to MSK-ACCESS (low z-score) or cf-WES (high z-score) [PMID:34059130](../papers/34059130.md)
+- Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
 
 ## Notes
 
@@ -355,3 +356,6 @@ Unbiased short-read sequencing of the entire tumor (and matched normal) genome, 
 - [PMID:34059130](../papers/34059130.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -78,6 +78,7 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Recurrently mutated (P=0.037) in UTUC; associated with higher mutational load (P=0.04); enriched in iCluster-low (FGFR3-rich) subtype (P=0.028); iClusterBayes posterior probability 0.63. [PMID:33397444](../papers/33397444.md)
 - Detected at varying frequencies across both TERT-altered and TERT-WT metaplastic breast cancers in a 60-case multi-institutional cohort [PMID:33863915](../papers/33863915.md)
 - Nominated as a candidate CSCC driver in prior studies but not supported by this meta-analysis (88 QC-passed tumors); authors flag it as a gene that may yet prove to be under selection but present data did not support nomination [PMID:34272401](../papers/34272401.md)
+- Significantly mutated gene (SMG) altered in ≥5% of treatment-naive PDACs in the CPTAC proteogenomic cohort (n=140). [PMID:34534465](../papers/34534465.md)
 
 ## Cancer types (linked)
 
@@ -284,3 +285,6 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34534465](../papers/34534465.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

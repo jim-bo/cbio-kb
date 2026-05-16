@@ -3,7 +3,7 @@ symbol: TMPRSS2
 aliases: []
 cancer_types: [PRAD]
 tags: [fusion-partner, erg-fusion, prostate]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,7 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG is the most-recurrent intra-cancer fusion overall (38.2% of PRAD, 205 samples flagged druggable); predicted fusion-derived neoantigens were highest for TMPRSS2-ERG among all PRAD fusions though only in a small subset [PMID:29617662](../papers/29617662.md)
 - TMPRSS2-ERG fusions occur in 70% of EOPC prostate cancer tumours and represent the most frequent initiating event in the PRESCIENT temporal-order model; some TMPRSS2-ERG fusions arise from APOBEC-associated SV breakpoints co-localizing with kataegis events [PMID:30537516](../papers/30537516.md).
 - TMPRSS2-ERG gene fusion present in a subset of prostate adenocarcinoma patients in a 12-patient hyperpolarized MRI study; the fusion did not correlate with HP lactate signal in this cohort, though authors note emerging evidence for ERG regulation of lactate export in lung cancer [PMID:31564440](../papers/31564440.md).
+- TMPRSS2-ERG fusions observed less frequently in CDK12-biallelic inactivation (CDK12-Bi) prostate cancer compared to CDK12 wild-type [PMID:32317181](../papers/32317181.md)
 
 ## Cancer types (linked)
 
@@ -96,3 +97,6 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - [PMID:31564440](../papers/31564440.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

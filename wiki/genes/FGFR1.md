@@ -45,6 +45,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Somatic FGFR1 alteration (×1 patient) classified as OncoKB Level 4 actionable in metastatic panNET (MSK-IMPACT cohort, n=80); 47% of patients had at least one Level 2b/3b/4 actionable alteration [PMID:30687805](../papers/30687805.md)
 - FGFR1 alterations are among the oncogenic drivers whose phospho-SHP2 (PTPN11 pY542) level explains ponatinib sensitivity in AML/CML cell lines in the expanded CCLE multi-omic dataset [PMID:31068700](../papers/31068700.md)
 - Cited as an established endocrine-therapy resistance mechanism in ER+/HER2- metastatic breast cancer; trial context for buparlisib + letrozole in endocrine-refractory disease [PMID:31552290](../papers/31552290.md)
+- Mentioned in the context of pan-cancer genomic profiling of synchronous DCIS/IDC-NST pairs (WES n=25 patients) [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -149,5 +150,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -106,6 +106,8 @@
 - drug: gdc-0941 — observed in PMID:23334668 — note: pan-PI3K inhibitor (pictilisib); ex vivo activity against both near haploid and low hypodiploid ALL subtypes
 - drug: bez235 — observed in PMID:23334668 — note: dual PI3K/mTOR inhibitor (dactolisib); ex vivo activity against hypodiploid ALL; MEK inhibitors were ineffective
 - method: epic-methylation-array — observed in PMID:34433969 — note: Illumina Infinium MethylationEPIC BeadChip for genome-wide DNA methylation profiling of 121 meningiomas
+- method: medicc — observed in PMID:32220886 — note: phylogenetic CNA tree reconstruction tool; applied alongside FACETS/ABSOLUTE/PyClone in bulk WES DCIS/IDC-NST study
+- method: deconstructsigs — observed in PMID:32220886 — note: R package for COSMIC mutational signature deconvolution; applied to DCIS/IDC-NST WES cohort (≥40 SNVs threshold)
 - method: coca — observed in PMID:34433969 — note: Cluster of Cluster Algorithm for multi-platform integrative unsupervised clustering
 - method: droplet-digital-pcr — observed in PMID:24336570 — note: ddPCR used to validate subclonal VAFs in grade II glioma paired tumor cohort; corpus-grown slug, not in cBioPortal gene panels
 - method: trusight-oncology-500 — observed in PMID:24418857 — note: Illumina TSO500 DNA+RNA panel on NovaSeq 6000 for sinonasal AdCC; tumor-only workflow; corpus-grown slug

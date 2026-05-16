@@ -3,7 +3,7 @@ symbol: MAP2K4
 aliases: [MKK4, SEK1, JNKK1]
 cancer_types: [BRCA]
 tags: [deletion, tumor-suppressor, breast-cancer, MAPK-pathway]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -24,6 +24,7 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 - Newly nominated cholangiocarcinoma (CCA) tumor suppressor; homozygous deletions in 2 fluke-positive cases plus 2.2% mutation rate (half inactivating), consistent with tumor-suppressor role [PMID:28667006](../papers/28667006.md)
 - Identified as a novel recurrently mutated gene in metastatic colorectal cancer (mCRC) via MSK-IMPACT targeted sequencing of 1,152 patients [PMID:29316426](../papers/29316426.md)
 - Downstream effector of MAP3K1 in the JNK pathway; co-loss with PIK3CA alteration in TCGA did not enhance PIK3CA-GS readout in ER+/HER2- metastatic breast cancer [PMID:31552290](../papers/31552290.md).
+- MAP2K4 amplifications identified in 8% (6/80) of uterine leiomyosarcoma (uLMS) vs 19% (13/68) of non-uterine LMS (p=0.06); amplifications were most common in uterine sarcomas relative to the pan-cancer MSK-IMPACT cohort, suggesting MAP2K4 copy gain may be a relatively uterine-sarcoma-enriched event [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -67,5 +68,8 @@ MAP2K4 (Mitogen-Activated Protein Kinase Kinase 4) is a dual-specificity kinase 
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

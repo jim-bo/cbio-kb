@@ -20,6 +20,7 @@ SOX2 (SRY-Box Transcription Factor 2) is a transcription factor essential for ma
 - SOX2 is a chr_3q oncogene invoked to explain the squamous chr_3q-gain signature; its gain is proposed to rescue proliferation when AALE 3p-deleted subclones acquire chromosome-3 duplication [PMID:29622463](../papers/29622463.md)
 - Used as tumor marker in the Opal multiplex immunofluorescence panel (with DAPI, CD3, CD8, CD68, HLA-DR, PD-L1) for spatial profiling of GBM immune microenvironment in anti-PD-1 response study (gbm_columbia_2019) [PMID:30742119](../papers/30742119.md)
 - Amplified in lung squamous cell carcinoma chromothripsis events, but as a late event (many predating SNVs are amplified) [PMID:32025007](../papers/32025007.md)
+- Case-specific private IDC-NST subclone mutation (Case 2 multifocal BRCA1-mutant DCIS/IDC-NST); also listed among IDC-NST–private alterations in synchronous DCIS/invasive breast cancer cohort (n=25 patients; BRCA) [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -52,5 +53,8 @@ SOX2 (SRY-Box Transcription Factor 2) is a transcription factor essential for ma
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

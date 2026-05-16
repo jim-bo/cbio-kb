@@ -3,8 +3,8 @@ symbol: NUTM1
 aliases: [NUT, BRD4-NUT, NUT midline carcinoma]
 cancer_types: [THYM]
 tags: [fusion, BRD4, NUT-carcinoma, thymic-carcinoma]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NUTM1
@@ -17,6 +17,7 @@ NUTM1 (Nuclear protein in testis midline carcinoma 1) is a chromatin-regulatory 
 
 - BRD4-NUTM1 fusion present in TY82 thymic carcinoma cell line, establishing NUT carcinoma as a molecular subtype of thymic carcinoma [PMID:24974848](../papers/24974848.md)
 - NUTM1–BRD4 fusion identified in 1 ATC case by targeted RNA-seq; NUT carcinoma-defining fusion found in a single anaplastic thyroid carcinoma case in this 341-gene panel study [PMID:26878173](../papers/26878173.md)
+- IDC-NST–private focal amplification at 15q11.1-q26.1 observed in an individual DCIS/IDC-NST case; one of several invasive-restricted amplifications supporting late acquisition of this locus [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ NUTM1 (Nuclear protein in testis midline carcinoma 1) is a chromatin-regulatory 
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

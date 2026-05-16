@@ -5,7 +5,7 @@ main_type: Soft Tissue Sarcoma
 parent: SOFT_TISSUE
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Leiomyosarcoma (LMS)
@@ -30,6 +30,7 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [MED12](../genes/MED12.md) — recurrent mutations in ULMS (15%), infrequent in STLMS (1%). [PMID:38488807](../papers/38488807.md)
 - TMB low: median 2 mut/Mb (STLMS) and 3 mut/Mb (ULMS); 99% and 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
 - LMS (n=80) split into STLMS (n=53) and ULMS (n=27) by iCluster; pan-LMS SMGs include TP53 (50%), RB1 (mutations 15%, deep deletions 14%), and PTEN (deep+shallow deletions ~81%); AKT-pathway alterations affected 84% of ULMS+STLMS C1 vs 44% of STLMS C2; miR-181b-5p was an independent RFS predictor (multivariate HR 7.4, p=9e-6) [PMID:29100075](../papers/29100075.md)
+- Comparison of 80 uLMS vs 68 non-uterine LMS sequenced by MSK-IMPACT showed TP53 alterations more common in non-uterine LMS (71% vs 56%, p=0.01), MAP2K4 amplifications trending higher in non-uterine LMS (19% vs 8%, p=0.06), and MED12 mutations exclusively in uLMS (11% vs 0%, p=0.01) [PMID:32299819](../papers/32299819.md)
 
 ## Subtypes
 
@@ -52,3 +53,6 @@ Leiomyosarcoma (LMS) is a malignant mesenchymal tumor with smooth muscle differe
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

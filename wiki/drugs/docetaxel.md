@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [chemotherapy, taxane, sarcoma]
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # docetaxel
@@ -24,6 +24,7 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - Listed as a later-line regimen in the WashU urothelial carcinoma WES cohort (n=32 patients); specifically, docetaxel + [ramucirumab](../drugs/ramucirumab.md) was administered at disease progression in the WCM117 case after cisplatin + gemcitabine, illustrating the multi-line treatment context of post-chemotherapy clonal evolution [PMID:27749842](../papers/27749842.md)
 - Used in combination with gemcitabine (16 cycles) after nephrotoxicity precluded continuation of ISG/SSG IV protocol in EWSR1::BEND2 bladder sarcoma; disease was approximately stable on this regimen; patient died at 26 months post-diagnosis [PMID:28199314](../papers/28199314.md).
 - Docetaxel-containing regimens were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); MSI-H patients had inferior PFS on cytotoxic therapy (4.8 vs 6.9 months, HR=0.4, P=0.027) and durable responses to immunotherapy instead [PMID:29122777](../papers/29122777.md)
+- NOTCH-pathway alterations are enriched in high-volume mCSPC, the subgroup for which docetaxel shows preferential benefit in phase-3 trials; NOTCH alterations have been previously implicated in docetaxel resistance (Domingo-Domenech 2012), marking this pathway as a candidate biomarker for docetaxel benefit studies [PMID:32220891](../papers/32220891.md)
 
 ## Resistance mechanisms
 
@@ -48,3 +49,6 @@ Docetaxel is a semi-synthetic taxane that stabilizes microtubules, preventing de
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

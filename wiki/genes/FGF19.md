@@ -3,7 +3,7 @@ symbol: FGF19
 aliases: []
 cancer_types: [NSCLC, LUAD]
 tags: [amplification, metastasis, FGFR, pan-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -21,6 +21,7 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - Intestinal FXR target (FGF15 in mouse) induced by Lactobacillus rhamnosus GG (LGG) to suppress bile acid synthesis; implicated in bile acid homeostasis in the cholangiocarcinoma microenvironment [PMID:25608663](../papers/25608663.md)
 - Co-amplified at 11q13.3 locus with [FGF3](../genes/FGF3.md), [FGF4](../genes/FGF4.md), and [CCND1](../genes/CCND1.md) in ~6% of [HCC](../cancer_types/HCC.md); focal amplification appears at advanced stages and is independently associated with poor survival [PMID:25822088](../papers/25822088.md)
 - Co-amplified with CCND1 on the 11q13 amplicon in 7% (FGF19 amplification 6.3% by actionable-call) of HCC; rationale for FGFR4 inhibitors in FGF19-amplified HCC [PMID:30373752](../papers/30373752.md)
+- Located within the 11q13.3 region of recurrent copy-number gain in CDK12-biallelic prostate cancer; co-amplified with FGF3 and FGF4 [PMID:32317181](../papers/32317181.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ FGF19 encodes fibroblast growth factor 19, a member of the endocrine FGF subfami
 - [PMID:30373752](../papers/30373752.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

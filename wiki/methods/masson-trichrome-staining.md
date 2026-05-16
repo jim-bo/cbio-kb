@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: false
 tags: [histology, staining, fibrosis, collagen]
-processed_by: entity-page-writer
-processed_at: 2026-05-11
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Masson Trichrome Staining
@@ -18,6 +18,7 @@ Masson trichrome staining is a histological technique that uses three dyes to di
 ## Used by
 
 - Used to quantify collagen deposition and assess desmoplastic stroma in 86 GBC patient tissues; substantial collagen deposition was confirmed in GBC stroma alongside α-SMA+ (ACTA2) CAF infiltration [PMID:24997986](../papers/24997986.md)
+- Masson trichrome staining (and Picro Sirius red) applied to UTUC PDX models to characterize extracellular matrix; ECM-enriched tumors had lower PDX engraftment rates [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ Masson trichrome staining is a histological technique that uses three dyes to di
 ## Sources
 
 *This page was processed by **entity-page-writer** on **2026-05-11**.*
+- [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -23,6 +23,7 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 - Phylogenetic trees constructed with CITUP (v0.1.0) plus manual reconstruction in TRACERx to resolve monoclonal vs polyclonal relapse seeding patterns detectable from post-operative plasma ctDNA [PMID:28445469](../papers/28445469.md)
 - Applied to WES data from serial-passage organoid lines to reconstruct linear and branched clonal evolution patterns; demonstrated both linear and branched evolution in patient-derived bladder cancer organoids [PMID:29625057](../papers/29625057.md).
 - Clonal phylogenetic trees reconstructed for cHCC-ICC cases (133 total) to infer monoclonal vs. multiclonal origin; 4/6 separate-type cases shared 46–67% of mutations (monoclonal origin); subsequent CCF analysis with [pyclone](../methods/pyclone.md) confirmed subclonal structure in mixed-type tumors [PMID:31130341](../papers/31130341.md)
+- MEDICC-based phylogenetic trees reconstructed from bulk WES allele-specific CNA profiles in synchronous DCIS/IDC-NST pairs; bulk phylogenies consistent with single-cell studies (Casasent 2018, Martelotto 2017) [PMID:32220886](../papers/32220886.md)
 
 ## Notes
 
@@ -45,5 +46,8 @@ Computational method applied to multiregion tumor sequencing data to infer the e
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

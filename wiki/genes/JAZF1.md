@@ -8,8 +8,8 @@ tags:
   - transcription-factor
   - endometrial-stromal-tumor
   - fusion-gene
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # JAZF1
@@ -21,6 +21,7 @@ JAZF1 (JAZF Zinc Finger 1) encodes a transcriptional repressor involved in gluco
 ## Alterations observed in the corpus
 
 - Explicitly excluded as a likely target of 7p15.2 breakpoints observed in endometrial polyps: breakpoints sit approximately 2 Mb upstream of JAZF1, arguing against a JAZF1 fusion (the classic endometrial stromal tumor mechanism via t(7;17)(p15;q21)) in this context; the breakpoints instead appear to dysregulate the nearby enhancer ENSR00001272277 to drive [HMGA1](../genes/HMGA1.md) overexpression [PMID:28445112](../papers/28445112.md)
+- JAZF1-SUZ12 fusion identified by MSK-Fusion RNA sequencing in a uterine sarcoma case, confirming diagnosis of low-grade endometrial stromal sarcoma (LGESS); fusion-positive cases can be definitively reclassified using paired DNA/RNA profiling [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -44,3 +45,6 @@ JAZF1 (JAZF Zinc Finger 1) encodes a transcriptional repressor involved in gluco
 - [PMID:28445112](../papers/28445112.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

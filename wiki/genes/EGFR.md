@@ -100,6 +100,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - High RNA-protein correlation (contrasting with low BRAF correlation) in the CCLE pan-cancer proteome; EGFR-targeting drugs constituted the largest subset of compounds whose sensitivity correlated with the proteome-wide EMT axis (PC1) [PMID:31978347](../papers/31978347.md)
 - Mutations more frequent in the steady subtype of NS-LUAD (p=3.65×10⁻³, not FDR-significant); consistent with previously reported slow growth of EGFR-positive NS-LUAD tumors; EGFR mutation used in the 'Mutation model' Cox prognostic comparator [PMID:32015526](../papers/32015526.md)
 - Focally amplified in glioblastoma chromothripsis events in the PCAWG pan-cancer cohort (n=2,658 donors) [PMID:32025007](../papers/32025007.md)
+- Cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in a UTUC PDX study (119 MSK-IMPACT-sequenced patients) [PMID:32220886](../papers/32220886.md)
+- EGFR cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in the UTUC PDX cohort (N=119) [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -316,5 +318,11 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

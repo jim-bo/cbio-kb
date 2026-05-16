@@ -3,7 +3,7 @@ symbol: IDH2
 aliases: []
 cancer_types: [PTCL, AITL, DIFG, AST, ODG, GB]
 tags: [metabolic-driver, glioma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -42,6 +42,7 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 - IDH2 mutation serves as an alternative IDH-mutant marker for glioma subtype classification in the GLASS cohort; IDH2-mutant cases are analyzed within the broader IDH-mutant group [PMID:31748746](../papers/31748746.md)
 - IDH2 is one of 15 canonical clonal hematopoiesis (CH) genes used to classify WBC-matched cfDNA variants; IDH2 mutations in cfDNA can originate from CH and must be interpreted with matched WBC sequencing [PMID:31768066](../papers/31768066.md)
 - IDH2-mutant status checked in all 83 WES-profiled Mayo GBM PDX; only 2 lines were IDH-mutant (GBM164, GBM196), both classified as GBM IDH-mutant, consistent with the rarity of IDH2 mutation in glioblastoma vs lower-grade glioma [PMID:31852831](../papers/31852831.md)
+- IDC-NST-private focal amplification at the 15q11.1–q26.1 locus (containing IDH2 and NUTM1) was observed in individual synchronous invasive breast cancer cases, suggesting IDH2 amplification is an invasive-stage-acquired event in a subset of breast cancers [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -135,5 +136,8 @@ IDH2 encodes mitochondrial isocitrate dehydrogenase 2; hotspot neomorphic mutati
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31852831](../papers/31852831.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -54,6 +54,7 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - In 295 metastatic EGC patients (MSK-IMPACT), HRD/LST scores did not predict PFS on first-line platinum-based chemotherapy (HR=0.99, P=0.947); MSI-H patients had significantly shorter PFS on cytotoxic therapy (4.8 vs 6.9 months, HR=0.4, P=0.027) [PMID:29122777](../papers/29122777.md)
 - Pietzak et al. compared cisplatin-based neoadjuvant chemotherapy (NAC) outcomes in 288 MIBC patients: pathologic response 26% in secondary MIBC vs 45% in primary MIBC (OR=0.4, p=0.02); NAC was associated with worse CSS in secondary MIBC (p=0.002), and enrichment of [ERCC2](../genes/ERCC2.md) missense mutations in primary MIBC (12% vs 1.3%, p=0.004) provides a genomic explanation for differential cisplatin sensitivity [PMID:30290956](../papers/30290956.md).
 - In a 3D cell culture review, cisplatin co-culture of ovarian cancer cell lines with fibroblasts in liquid-overlay spheroids increased cisplatin susceptibility, demonstrating stromal modulation of drug response; anchored-droplet microfluidic chips delivered IC50 measurements for cisplatin + etoposide combinations on Ewing sarcoma (A673) spheroids consistent with 96-well plates, with etoposide-first sequencing showing greater synergy [PMID:30643250](../papers/30643250.md).
+- MSI-H UTUC PDX models (UCC17 MSI-H, UCC36 MSI-H Lynch) showed minimal gemcitabine/cisplatin inhibition (p=0.07) in contrast to MSS tumors; in a 20-patient NAC cohort, 0/2 MSI-H UTUC patients achieved pathologic response vs 10/17 MSS (59%), suggesting MSI status should redirect patients toward immunotherapy rather than cytotoxic NAC [PMID:32332851](../papers/32332851.md)
 
 ## Resistance mechanisms
 
@@ -144,3 +145,6 @@ Cisplatin is a platinum-based alkylating agent that forms intrastrand and inters
 - [PMID:30643250](../papers/30643250.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

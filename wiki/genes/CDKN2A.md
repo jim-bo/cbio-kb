@@ -3,7 +3,7 @@ symbol: CDKN2A
 aliases: []
 cancer_types: [PTCL, MEITL, LUAD, NSCLC, RMS, ARMS, BLCA, UTUC, PAAD, MPNST, MFH, OS, ANGS, EGC, STAD, ESCA, GEJ, CESC, HCC, DIFG, GB, ASTR, LMS, ULMS, PLMESO, MEL, THAP, PTAD, ACRM]
 tags: [cell-cycle, tumor-suppressor, deletion, prognostic, kras-allele-specific]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -128,6 +128,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Biallelic alteration in 27% of anti-PD1 responders vs 38% of progressors in melanoma (OR=0.6, P=0.24); not significantly associated with response to anti-PD1 ICB [PMID:31792460](../papers/31792460.md)
 - Homozygous deletion in 70% (n=59) of 83 glioblastoma PDX; GBM164 and GBM187 showed homozygous loss in PDX versus single-copy loss in matched patient tumor, indicating clonal selection during engraftment [PMID:31852831](../papers/31852831.md)
 - Biallelic inactivation in 475 tumors across the PCAWG pan-cancer cohort (n=2,658 donors); co-deleted in chromothripsis events in glioblastoma [PMID:32025007](../papers/32025007.md)
+- Tumor-suppressor losses identified in 119 UTUC patients (MSK-IMPACT); PDX-specific deep deletions of CDKN2A/CDKN2B occurred in 29% of PDX models, suggesting selection pressure during engraftment; co-deleted with CDKN2B in the UTUC genomic landscape [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -412,5 +413,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

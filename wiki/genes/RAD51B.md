@@ -7,8 +7,8 @@ tags:
   - homologous-recombination
   - DNA-repair
   - HRD
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RAD51B
@@ -25,6 +25,7 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - Novel partner locus in 1/20 ACC tumors; downstream region contains smaller enhancers that are translocated to MYB, driving MYB overexpression [PMID:26829750](../papers/26829750.md)
 - Recurrent translocation partner of HMGA1/HMGA2 (14q24.1 breakpoints) in endometrial polyps (WGS, 23 polyps); intragenic and downstream breakpoints observed; not considered a classical driver in this context [PMID:28445112](../papers/28445112.md)
 - RAD51B shows recurrent focal deletions (n=10, 2%) at 14q24.1 in MIBC; a new finding not seen in the original 131-tumor cohort [PMID:28988769](../papers/28988769.md)
+- IDC-NST–private mutation observed among invasive-restricted alterations in synchronous DCIS/IDC-NST cohort (n=25 patients; BRCA); supports acquisition of RAD51B alteration at or after the invasive transition [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -63,3 +64,6 @@ RAD51B ([RAD51](../genes/RAD51.md) Paralog B) encodes a member of the [RAD51](..
 - [PMID:28988769](../papers/28988769.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

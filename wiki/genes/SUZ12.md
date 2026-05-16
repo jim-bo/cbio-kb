@@ -3,8 +3,8 @@ symbol: SUZ12
 aliases: []
 cancer_types: [MPNST]
 tags: [prc2-complex, epigenetic-regulator, tumor-suppressor]
-processed_by: wiki-cli
-processed_at: 2026-05-12
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # SUZ12
@@ -17,6 +17,7 @@ SUZ12 encodes a core component of the Polycomb Repressive Complex 2 (PRC2), whic
 
 - Inactivating mutations and deletions in 33% of RT-MPNST vs 17% of sporadic [MPNST](../cancer_types/MPNST.md), indicating enrichment in radiation-associated [MPNST](../cancer_types/MPNST.md) [PMID:37350195](../papers/37350195.md).
 - SUZ12 undergoes homozygous and heterozygous deletions plus local genomic rearrangements producing aberrant transcripts in MPNST; mutually exclusive with EED loss; SUZ12 re-expression rescues H3K27me3 and inhibits growth [PMID:25240281](../papers/25240281.md)
+- JAZF1-SUZ12 fusion identified by MSK-Fusion in a uterine sarcoma cohort, confirming low-grade endometrial stromal sarcoma (LGESS) diagnosis in one case [PMID:32299819](../papers/32299819.md)
 
 ## Cancer types (linked)
 
@@ -42,3 +43,6 @@ SUZ12 encodes a core component of the Polycomb Repressive Complex 2 (PRC2), whic
 - [PMID:25240281](../papers/25240281.md)
 
 *This page was processed by **wiki-cli** on **2026-05-12**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

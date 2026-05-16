@@ -33,6 +33,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - Dominant drug in a pooled 249-patient MSS WES ICB cohort (N=145 anti-CTLA-4 patients, concentrated in melanoma); clonal PIK3CA/KRAS/PBRM1 mutations enriched in CR/PR; biallelic PTEN loss and 11q/12q amplifications enriched in PD [PMID:30150660](../papers/30150660.md)
 - In a pan-cancer ICI cohort (n=1,662 patients; 146 received anti-CTLA4 including ipilimumab), high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS, with no equivalent benefit in 5,371 non-ICI–treated patients, confirming the ICI-specific predictive value of TMB [PMID:30643254](../papers/30643254.md).
 - Prior ipilimumab (anti-CTLA4) exposure stratifies predictors of subsequent anti-PD1 ICB response in melanoma: post-ipilimumab biopsies with low MHC-II HLA expression and low immune infiltrate identify patients very likely resistant to subsequent nivolumab/pembrolizumab monotherapy (median PFS 2.8 vs 38.1 months; median OS 9.0 months vs not reached) [PMID:31792460](../papers/31792460.md).
+- CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
 
 ## Resistance mechanisms
 
@@ -90,3 +91,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - [PMID:31792460](../papers/31792460.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

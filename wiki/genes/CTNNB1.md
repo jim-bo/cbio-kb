@@ -12,7 +12,7 @@ cancer_types:
   - PRAD
   - BLCA
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -77,6 +77,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - CTNNB1 is recurrently altered in metastatic castration-resistant prostate cancer (mCRPC) but not significantly prognostic for survival or time on ARSI in a 429-patient tumor biopsy cohort [PMID:31061129](../papers/31061129.md)
 - Mutations in 15% of Wilms tumor PDX models (KT-6 and NCH-WT-6-S13-1506), mutually exclusive with AMER1/WTX alterations; also p.D32G in a pediatric hepatic model in the PPTC PDX dataset [PMID:31693904](../papers/31693904.md)
 - Exon 3 hotspot mutations centered at S33 (phosphosites Y30, S33, T40; mutations D32, G34) found in 23/95 endometrial carcinoma tumors; increases Wnt-pathway activity, β-catenin protein, and H2B N-terminal acetylation (K16/K20/K24); identifies subset of low-grade, low-stage endometrioid tumors with potentially worse prognosis [PMID:32059776](../papers/32059776.md)
+- CTNNB1 is a key WNT-pathway gene; WNT-pathway alterations were associated with better prognosis in 424 mCSPC patients (lower castration resistance and OS hazard ratios), in contrast to two prior smaller mCRPC studies (Chen 2019, Wang 2018) that linked WNT/CTNNB1 alterations to worse outcomes — this conflict is flagged as an open question [PMID:32220891](../papers/32220891.md)
 
 ## Cancer types (linked)
 
@@ -227,5 +228,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: BCL2
 aliases: []
 cancer_types: [CLLSLL, DLBCLNOS]
 tags: [translocation, apoptosis, m-cll]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 - placeholder
 - IgH-juxtaposed structural variants in C3 GCB-DLBCL (97% partner IgH) in dlbcl_dfci_2018; 18q21.33/BCL2 focal gain in C5 ABC-DLBCL independently prognostic for inferior PFS [PMID:29713087](../papers/29713087.md)
 - BCL2 discussed as a known therapeutic-target gene in the AML landscape, with venetoclax as the relevant therapeutic agent in Beat AML ex vivo profiling context [PMID:30333627](../papers/30333627.md)
+- IDC-NST–private 18q21.33–q22.1 amplification identified in synchronous DCIS/IDC-NST breast cancer cohort, consistent with an invasive-stage-acquired copy-number event [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -79,5 +80,8 @@ BCL2 encodes an anti-apoptotic protein canonically deregulated in B-cell lymphom
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

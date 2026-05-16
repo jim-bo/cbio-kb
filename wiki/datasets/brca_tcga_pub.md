@@ -19,7 +19,7 @@ tags:
   - breast-cancer
   - multi-platform
   - intrinsic-subtypes
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -46,6 +46,7 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 ## Papers using this cohort
 
 - [PMID:23000897](../papers/23000897.md) — Comprehensive molecular portraits of human breast tumors (TCGA, Nature 2012).
+- [PMID:32220886](../papers/32220886.md) — Pareja et al., used as an age-, menopausal-status-, and ER/HER2-matched IDC-NST comparator cohort (1:3 ratio) for synchronous DCIS genomic analysis at MSKCC.
 
 ## Notable findings derived from this cohort
 
@@ -56,15 +57,15 @@ Landmark multi-platform molecular characterization of 825 primary breast cancers
 - Cross-species transcriptome concordance: 297 of 1,469 genes up-regulated in rat Pik3caH1047R/Tp53Indel tumors also enriched in TCGA [PIK3CA](../genes/PIK3CA.md)+[TP53](../genes/TP53.md) vs PIK3CA-only/WT-TP53 breast cancers (Fisher's p<1×10^-14) [PMID:26437033](../papers/26437033.md)
 - Used as the 772-sample primary breast cancer reference cohort (419 HR+/HER2−, 100 HR−/HER2−, 145 HER2+) for comparison against 216 metastatic breast cancers; APOBEC signatures (2+13) contributed 31.9% of mutations in HR+/HER2− primary samples vs 58.8% in HR+/HER2− metastatic tumors (p<2e-16) [PMID:28027327](../papers/28027327.md)
 - Used as a public reference cohort (n=959 RNA-seq) to show that PIK3CA + MAP3K1 co-altered tumors are significantly enriched for luminal A PAM50 subtype (p<0.0001), supporting the hypothesis that MAP3K1 loss is a surrogate for luminal A biology rather than a direct PI3K-sensitivity driver [PMID:31552290](../papers/31552290.md).
+- Used as a 1:3 matched comparator cohort of age-/receptor-matched IDC-NSTs (n=81 total matches) to show that synchronous DCIS has a comparable number of non-synonymous mutations and overlapping cancer-gene mutation frequencies to invasive breast cancers; mutational frequencies of TP53, PIK3CA, and GATA3 in DCIS were indistinguishable from matched TCGA IDC-NSTs. [PMID:32220886](../papers/32220886.md)
 
 ## Sources
 
 - [PMID:23000897](../papers/23000897.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26437033](../papers/26437033.md)
+- [PMID:32220886](../papers/32220886.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:28027327](../papers/28027327.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*

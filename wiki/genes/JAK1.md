@@ -3,7 +3,7 @@ symbol: JAK1
 aliases: []
 cancer_types: [UCEC, PRAD, COAD, SKCM]
 tags: [kinase, JAK-STAT, MSI, immunotherapy-resistance, mismatch-repair]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -30,6 +30,7 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 - JAK1 or JAK2 lesions observed in 24% of ETP-ALL/T-ALL PDX models in the PPTC pediatric cancer panel (261 models, 37 pediatric cancer types); JAK-STAT pathway alterations are a recurrent feature of T-cell leukemia models in this resource [PMID:31693904](../papers/31693904.md).
 - JAK1 LOH significantly associated with resistance to anti-PD1 ICB in advanced melanoma (OR=0.33; Fisher's P=0.02), confirming prior IFN-γ-pathway resistance findings; JAK1 loss impairs interferon signaling and antigen presentation [PMID:31792460](../papers/31792460.md)
 - JAK1 is a putative SMG in MSI endometrial cancer (44%, FDR = 6.4e-07); all JAK1 frameshifts were in MSI samples derived from microsatellite indels; associated with higher tumor grade and enriched in TMB-H/APM-L tumors — candidate immune-evasion driver [PMID:32059776](../papers/32059776.md)
+- IDC-NST-private focal amplification at 19p13.11 (JAK1 locus) observed in individual synchronous invasive breast cancer cases; JAK1 amplification was restricted to the invasive component, suggesting it is acquired during DCIS-to-IDC-NST progression [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -91,5 +92,8 @@ JAK1 encodes a Janus kinase involved in cytokine receptor signaling through the 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

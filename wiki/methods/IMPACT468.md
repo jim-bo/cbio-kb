@@ -37,6 +37,8 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used for 57 of 96 (59%) panNET samples, the primary version in the MSK panNET prospective cohort (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 - Hybridization-capture 468-gene panel used on pre-surgery biopsies from 12 prostate cancer patients; identified PTEN copy-number loss and TMPRSS2-ERG fusions; raw data deposited at EVA accession PRJEB33969 and cBioPortal [prad_msk_2019](../datasets/prad_msk_2019.md) [PMID:31564440](../papers/31564440.md).
 - 468-gene MSK-IMPACT hybridization-capture panel used for genomic profiling of 31 rectal cancer tumoroid lines; 92% of likely-oncogenic tumor mutations were preserved in matched tumoroids; top mutated genes (APC, TP53, KRAS, FBXW7) matched the 287-patient comparator cohort [PMID:31591597](../papers/31591597.md).
+- Applied to 4 samples (Case 9) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT468 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
+- One of three panel versions (341/410/468) used across 26,743 MSK-IMPACT pan-cancer tumors; all include CDK12 [PMID:32317181](../papers/32317181.md)
 
 ## Notes
 
@@ -88,5 +90,11 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

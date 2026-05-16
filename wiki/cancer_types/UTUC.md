@@ -4,7 +4,7 @@ oncotree_code: UTUC
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, upper-tract, fgfr3]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - Targeted sequencing of upper-tract urothelial carcinoma identified recurrent [FGFR3](../genes/FGFR3.md) mutations, copy number alterations, and shared genomic features with bladder urothelial carcinoma [PMID:26278805](../papers/26278805.md)
 - 2 of 18 patients in the bladder cancer organoid biobank contributed patient-derived xenograft (PDX) lines from nephroureterectomies (upper-tract urothelial carcinoma, UTUC) at Memorial Sloan Kettering; organoids from these UTUC cases were sequenced with MSK-IMPACT 468-gene panel [PMID:29625057](../papers/29625057.md)
 - Integrated WES and RNA-seq of 37 high-grade UTUC tumors showed: FGFR3 activating mutations in 29.7% (vs 13.7% TCGA UCB, P=0.04); 84.3% luminal-papillary subtype; 87.5% T-cell depleted; lower TMB (2.91 vs 5.46 mut/Mb, P=1.9×10⁻⁵); FGFR3 cell-autonomously suppresses IFNG response, supporting FGFR3 inhibitor + ICI combination [PMID:31278255](../papers/31278255.md).
+- MSK-IMPACT sequencing of 119 UTUC patients showed recurrent drivers FGFR3 (47-48%), KDM6A (38%), KMT2D (26%), TERT (26%), TP53 (25%), ERBB2 (8-9%); RNA-seq on 80 tumors: 87.5% luminal, 12.5% basal; 17 PDX (50% take rate) and 6 PDC models released as utuc_msk_2019 and utuc_pdx_msk_2019 on cBioPortal; MSI-H UTUC associated with chemotherapy resistance (0/2 pathologic responses vs 10/17 in MSS) [PMID:32332851](../papers/32332851.md)
 
 ## Subtypes
 
@@ -53,5 +54,8 @@ Urothelial carcinoma arising in the renal pelvis or ureter; OncoTree code `UTUC`
 - [PMID:31278255](../papers/31278255.md) — Robinson, Vlachostergios et al. UTUC WES+RNA-seq (Nature Communications 2019).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

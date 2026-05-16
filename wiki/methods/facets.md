@@ -39,6 +39,10 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Used for allele-specific copy-number estimation (v0.3.9) in 837 paired tumor-normal MSK-IMPACT glioma samples; 1p/19q codeletion called at 75% threshold, chr7 gain / chr10 loss at 90% threshold; BRAF V600 clonality estimated from FACETS purity-corrected CCF [PMID:31263031](../papers/31263031.md)
 - Used to infer clonality and intratumor heterogeneity in 1,045 adenoid cystic carcinoma cases; allele-specific copy-number analysis identified BRCA1/2 germline variants as monoallelic (no LOH) and confirmed 4 molecular subgroups by purity/ploidy estimates [PMID:31483290](../papers/31483290.md).
 - Run sequentially (purity at critical value 100, then sensitivity 50) on IMPACT468 panel data from 12 prostate cancer patients to call allele-specific PTEN copy number; homozygous PTEN loss in 2 ROIs tracked with the highest hyperpolarized lactate signal (P=0.059) [PMID:31564440](../papers/31564440.md).
+- Used alongside ABSOLUTE and PyClone to infer allele-specific copy number and whole-genome doubling in 56-sample DCIS/IDC-NST WES cohort [PMID:32220886](../papers/32220886.md)
+- Applied (with tumor purity ≤20% excluded) for allele-specific copy-number and clonality inference in 424 mCSPC MSK-IMPACT-sequenced tumors [PMID:32220891](../papers/32220891.md)
+- v0.5.6 applied for allele-specific copy number, purity, and ploidy estimation in 107 uterine sarcoma MSK-IMPACT samples [PMID:32299819](../papers/32299819.md)
+- Used for allele-specific copy-number and clonality inference in 26,743 MSK-IMPACT pan-cancer cohort; CDK12-Bi prostate cancer showed higher fraction of genome gain and more breakpoints consistent with tandem duplicator phenotype [PMID:32317181](../papers/32317181.md)
 
 ## Notes
 
@@ -98,5 +102,17 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31564440](../papers/31564440.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

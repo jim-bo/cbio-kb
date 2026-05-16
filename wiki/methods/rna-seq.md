@@ -125,6 +125,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - TCGA breast cancer RNA-seq (brca_tcga_pub, n=959) used for PIK3CA/MAP3K1 luminal-correlate analysis and PIK3CA-GS scoring; PIK3CA + MAP3K1 co-mutated tumors showed significantly higher correlation to luminal A vs luminal B PAM50 centroid (p<0.0001) [PMID:31552290](../papers/31552290.md).
 - Primary assay in the Sherlock-Lung NS-LUAD study (n=684 tumors); Illumina NovaSeq6000 2×151bp paired-end; STAR v2.7.3 alignment to GRCh38; NMF clustering of transcriptomes identified three prognostic subtypes (steady, proliferative, chaotic) [PMID:32015526](../papers/32015526.md).
 - Total RNA-seq performed in the CPTAC endometrial carcinoma proteogenomics study (n=95 tumors, 49 normal tissues) on Illumina HiSeq4000; integrated with proteomics, methylation, and exome data to characterize four genomic subtypes (POLE, MSI, CNV-low, CNV-high) [PMID:32059776](../papers/32059776.md).
+- RNA-seq performed on 80/119 UTUC tumors; BASE47 classifier assigned 87.5% luminal and 12.5% basal; consensus MIBC classifier assigned 82.5% luminal-papillary; basal/squamous subtype correlated with PDX engraftment (P=0.04) [PMID:32332851](../papers/32332851.md)
 
 ## Notes
 
@@ -432,5 +433,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

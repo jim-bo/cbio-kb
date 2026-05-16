@@ -48,6 +48,8 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 - Hotspot mutations in MAPK effectors including HRAS enriched in post-endocrine-therapy HR+ breast tumors [PMID:30205045](../papers/30205045.md)
 - Oncogenic missense mutations detected at <1% frequency in advanced HCC [PMID:30373752](../papers/30373752.md)
 - HRAS Q61K mutation observed in ERMS PDX model Rh-36; RAS-pathway mutations (including HRAS) enriched in Fusion- rhabdomyosarcoma in the PPTC pediatric cancer PDX dataset [PMID:31693904](../papers/31693904.md)
+- Invasive-restricted focal amplification observed in individual synchronous DCIS/IDC-NST cases by WES (n=25 patients, MSKCC) [PMID:32220886](../papers/32220886.md)
+- Recurrent RTK/RAS/PI3K-pathway driver in UTUC (N=119 MSK-IMPACT-sequenced patients) consistent with prior UTUC genomics [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -164,5 +166,11 @@ HRAS encodes a GTPase in the RAS/MAPK signaling pathway. In radiation-associated
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31693904](../papers/31693904.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

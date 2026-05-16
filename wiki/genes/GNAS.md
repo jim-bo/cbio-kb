@@ -26,6 +26,7 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 - Selectively mutated in mCRPC vs. primary prostate cancer (q<0.1); mutation observed exclusively in mCRPC [PMID:26000489](../papers/26000489.md)
 - Identified as a lineage-associated oncogene in the MET500 cohort of 500 metastatic solid tumors profiled by paired whole-exome and transcriptome sequencing; enrichment restricted to selected tumor types [PMID:28783718](../papers/28783718.md)
 - Mutated in a single inflammatory HCA (hepatocellular adenoma) case in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC) [PMID:30052636](../papers/30052636.md)
+- Case-specific private mutation defining an individual IDC-NST subclone in Case 2 multifocal BRCA1-mutant DCIS/IDC-NST by WES [PMID:32220886](../papers/32220886.md)
 
 ## Cancer types (linked)
 
@@ -65,5 +66,8 @@ GNAS encodes the Gαs subunit of the heterotrimeric G protein; activating hotspo
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30052636](../papers/30052636.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

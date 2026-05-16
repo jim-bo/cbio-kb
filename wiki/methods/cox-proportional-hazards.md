@@ -25,6 +25,8 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Used as a component of the non-homogeneous semi-Markov multistate model in the METABRIC breast cancer recurrence study (n=3,240 patients); IntClust subtypes added C-index 0.70 vs 0.63 at 10 years in late ER+/HER2- relapse prediction [PMID:30867590](../papers/30867590.md)
 - Used in multivariate survival analysis of 128 taxane-naive mCRPC patients starting first-line ARSI; [RB1](../genes/RB1.md) alteration was the only molecular feature independently associated with both overall survival (RR=3.31) and time on first-line ARSI (RR=6.56) [PMID:31061129](../papers/31061129.md)
 - Used for multivariable survival analysis in the Sherlock-Lung NS-LUAD study (n=684 tumors, age/sex/stage adjusted): steady HR=0.43 (95% CI 0.30–0.63), chaotic HR=1.4 (95% CI 0.99–2.0); stage I subset chaotic HR=2.5–3.7 [PMID:32015526](../papers/32015526.md).
+- Used for time-to-event regression in 424 mCSPC patients; adjusted HR for castration resistance 1.84 (95% CI 1.40–2.41) for high-volume vs. low-volume disease [PMID:32220891](../papers/32220891.md)
+- Applied in 1,465 prostate cancer patients to adjust OS for age, Gleason, PSA, visceral metastasis, and FGA; CDK12-altered patients had aHR 1.80 (95% CI 1.12–2.89; p=0.024) for shorter OS [PMID:32317181](../papers/32317181.md)
 
 ## Notes
 
@@ -55,5 +57,11 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32015526](../papers/32015526.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32317181](../papers/32317181.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

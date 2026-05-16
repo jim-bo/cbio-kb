@@ -7,7 +7,7 @@ tags:
   - breast
   - invasive
   - ductal
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - WES of 216 metastatic breast carcinomas (SAFIR01/SAFIR02/SHIVA/MOSCATO trials) encompassing predominantly IDC tumors: ESR1, RB1, PALB2, TSC1/TSC2, and APOBEC enrichments characterize the metastatic vs primary mutation landscape; all ESR1-mutant patients had received prior endocrine therapy [PMID:28027327](../papers/28027327.md)
 - IDC comprised 92.0% of Korean SMC breast tumors vs 74.4% of TCGA BRCA (p<0.001); SMC IDC showed higher TP53 (47.9%) and ERBB2 (20%) somatic alteration rates and greater HRD-signature (S3) enrichment in TNBC (85% HRD-positive) [PMID:29713003](../papers/29713003.md)
 - In 1,918 prospectively sequenced breast tumors, IDC-specific alterations identified included CTCF hotspots (H284, Y226) arising exclusively in invasive ductal carcinomas post-hormonal therapy; FOXA1 Forkhead-domain hotspots on wing 1 were ductal-specific; PIK3CA was the most commonly mutated gene (36.4% combined cohort); dataset [breast_msk_2018](../datasets/breast_msk_2018.md) [PMID:30205045](../papers/30205045.md)
+- IDC-NSTs (n=26) paired with synchronous DCIS showed identical mutation frequencies: TP53 54%, PIK3CA 42%, GATA3 23%; clonal selection (minor DCIS subclone becoming dominant in IDC-NST) drove progression in 7/25 patients (28%), with higher intra-lesion heterogeneity distinguishing selection cases (Shannon/Gini-Simpson P<0.05) [PMID:32220886](../papers/32220886.md)
 
 ## Subtypes
 
@@ -61,3 +62,6 @@ Breast Invasive Ductal Carcinoma (IDC) is the most common histologic subtype of 
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: KMT2D
 aliases: []
 cancer_types: [CLLSLL, ANGS, MFH, CESC, PRAD, CSCC, HNSC, DLBCLNOS, BLCA]
 tags: [epigenetic-regulator, m-cll, cervical-cancer, prostate, BRAF-fusion-co-alteration]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -71,6 +71,8 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 - Altered in 12.8% of R/M adenoid cystic carcinoma vs. 4.5% of primaries in a multi-institutional cohort; enriched in relapsed/metastatic disease alongside other chromatin-remodeling genes [PMID:31483290](../papers/31483290.md).
 - KMT2D is an H3K4 methyltransferase downregulated in MSI cancer cell lines (CCLE); H3K4me1 and H3K4me2 marks are correspondingly reduced [PMID:31978347](../papers/31978347.md)
 - KMT2D is among genes downstream of TP53/CTNNB1/ARID1A mutations in trans in endometrial cancer proteogenomics [PMID:32059776](../papers/32059776.md)
+- KMT2D mutation observed as an IDC-NST-private alteration restricted to the invasive component of synchronous breast tumors, consistent with KMT2D loss being an invasive-stage-acquired event rather than a pre-invasive driver in this cohort [PMID:32220886](../papers/32220886.md)
+- KMT2D mutated in 26% of 119 UTUC patients by MSK-IMPACT; co-occurs with KDM6A, ARID1A, CREBBP, and STAG2 chromatin-remodeling alterations in the UTUC genomic landscape [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -254,5 +256,11 @@ KMT2D (MLL2) is a histone H3K4 methyltransferase frequently mutated in B-cell ly
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

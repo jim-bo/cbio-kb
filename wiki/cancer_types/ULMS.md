@@ -5,7 +5,7 @@ main_type: Uterine Sarcoma
 parent: USMT
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # Uterine Leiomyosarcoma (ULMS)
@@ -29,6 +29,7 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 - TMB: median 3 mut/Mb; 98% of cases <10 mut/Mb. [PMID:38488807](../papers/38488807.md)
 - MET500 metastatic cohort identified a novel GREB1-NR4A3 activating fusion in uterine leiomyosarcoma; ULMS was sequenced as part of the 42/500 soft-tissue sarcoma cases within the cohort. [PMID:28783718](../papers/28783718.md)
 - ULMS (n=27) was molecularly distinguishable from STLMS by iCluster, with PI3K/AKT/MTOR pathway alterations in 84% and ESR1 target-gene hypomethylation supporting a hormonal-axis difference; STLMS had significantly higher PD-L1 (CD274) expression than ULMS (p=4e-5) [PMID:29100075](../papers/29100075.md)
+- Prospective MSK-IMPACT sequencing of 80 uLMS at MSKCC (dataset: usarc_msk_2020) showed dominant loss-of-function alterations in TP53 (56%), RB1 (51%), and ATRX (31%); BRCA2 homozygous deletions in 5%; highest PDCD1 homozygous deletion rate across all cancer types in the 15,816-patient MSK-IMPACT cohort; actionable alterations in 45%; PARP-inhibitor therapy produced sustained responses in BRCA2-altered uLMS [PMID:32299819](../papers/32299819.md)
 
 ## Subtypes
 
@@ -54,3 +55,6 @@ Uterine leiomyosarcoma (ULMS) is a malignant smooth-muscle tumor of the uterus, 
 - [PMID:29100075](../papers/29100075.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

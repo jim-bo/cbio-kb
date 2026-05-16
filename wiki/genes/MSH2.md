@@ -3,7 +3,7 @@ symbol: MSH2
 aliases: []
 cancer_types: [UCEC, PRAD, PITU, GYNEC, GB, NSCLC]
 tags: [mismatch-repair, MMR, MSI, immunotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -44,6 +44,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - Significantly reduced transcript and protein expression (by IHC) in UTUC vs UCB in the absence of germline or somatic mutations; insufficient to cause MSI or elevate TMB. [PMID:31278255](../papers/31278255.md)
 - Co-occurring mutation with MSH5, PMS1, and POLE in IC-1621GBM (Lynch/constitutional MMR-deficiency) PDX model in the PPTC panel; this model was ultrahypermutated at 124 Mut/Mb [PMID:31693904](../papers/31693904.md).
 - MSH2 protein (MutS complex) is downregulated in MSI cell lines in the CCLE proteomic dataset; its abundance predicts WRN knockdown sensitivity [PMID:31978347](../papers/31978347.md)
+- MSH2 IHC loss in one of two hypermutated MSI-H uLMS cases; no somatic driver identified in MSH2, suggesting epigenetic or germline etiology; the MSI-H patient remains disease-free 5.9 years from diagnosis after multimodality therapy without immune checkpoint inhibitors [PMID:32299819](../papers/32299819.md)
+- MSH2 germline loss identifies Lynch syndrome UTUC subsets (UCC36, UCC34); MSH2/MSH6 IHC-negative without identifiable germline cause (UCC17) represents sporadic MSI-H UTUC; all MSI-H cases had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin [PMID:32332851](../papers/32332851.md)
 
 ## Cancer types (linked)
 
@@ -115,5 +117,11 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

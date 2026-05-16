@@ -27,6 +27,7 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - Pan-FGFR tyrosine kinase inhibitors including erdafitinib are proposed as rational targeted therapy for luminal-papillary MIBC (35% of cohort), which is enriched for FGFR3 mutations (42/57, p<1e-9), FGFR3-TACC3 fusions (8/10), and FGFR3 amplification [PMID:28988769](../papers/28988769.md)
 - SCBO-6 bladder organoid (FGFR3-mutant, TSC1-null) showed additive response to erdafitinib (JNJ-42756493, pan-FGFR inhibitor) combined with mTOR inhibitors AZD8055 or sirolimus; no bladder organoid lines responded to FGFR inhibitors as single agents under conditions tested [PMID:29625057](../papers/29625057.md)
 - Erdafitinib (pan-FGFR inhibitor) at 1 nM and 5 nM significantly upregulated IFNG-response gene BST2 in FGFR3-fusion-positive UCB cell lines (RT-112, RT-4, SW780), mirroring shRNA knockdown of FGFR3 and supporting the hypothesis that erdafitinib can remodel the immune-cold tumor microenvironment of UTUC; FDA accelerated approval in metastatic urothelial carcinoma with actionable FGFR alterations (phase 2 response rate 32.2% in 87 patients) is cited as precedent. [PMID:31278255](../papers/31278255.md)
+- FGFR3 mutations occur in 47-48% of UTUC; although erdafitinib is FDA-approved for FGFR3-altered metastatic bladder cancer, the authors note its impact in UC has been limited and position the UTUC PDX platform as a resource for testing FGFR3-targeted precision strategies [PMID:32332851](../papers/32332851.md)
 
 ## Resistance mechanisms
 
@@ -62,3 +63,6 @@ Oral pan-FGFR tyrosine kinase inhibitor targeting FGFR1/[FGFR2](../genes/FGFR2.m
 - [PMID:31278255](../papers/31278255.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

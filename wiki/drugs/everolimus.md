@@ -5,7 +5,7 @@ drug_class: mTOR inhibitor (rapalogue)
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, mtor-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - Cited as prior VEGF-targeted therapy in the ccRCC cohorts; PBRM1-LOF benefit from anti-PD-(L)1 was more pronounced in previously VEGF-inhibitor-treated patients, suggesting a treatment-sequencing interaction relevant to mTOR-pathway agents [PMID:29301960](../papers/29301960.md)
 - In MSKCC prospective NGS of 127 advanced HCC patients, 4/10 patients with [TSC1](../genes/TSC1.md)/[TSC2](../genes/TSC2.md) inactivating alterations received everolimus off-label or on-trial after progressing on sorafenib; all 4 achieved at least stable disease at first scan and 3/4 had ≥5 months clinical benefit, supporting mTOR inhibitor activity in this genomically-selected HCC subset [PMID:30373752](../papers/30373752.md).
 - In 80 metastatic panNET patients, mTOR-pathway mutation status (43% of patients with [TSC2](../genes/TSC2.md), [PTEN](../genes/PTEN.md), or [RHEB](../genes/RHEB.md) alterations) did not predict everolimus benefit — response rates were 17% vs 29% in mTOR-altered vs wild-type patients; serial biopsies identified acquired resistance mutations including [PTEN](../genes/PTEN.md) Q298*, [RHEB](../genes/RHEB.md) Y35S, [TSC2](../genes/TSC2.md) splice, and [AKT2](../genes/AKT2.md) G16D [PMID:30687805](../papers/30687805.md)
+- In the FUTURE umbrella trial, everolimus combined with nab-paclitaxel in arm G (MES-subtype TNBC with PI3K-AKT pathway mutation) achieved ORR 50% (1/2 evaluable); very small arm, results preliminary [PMID:32719455](../papers/32719455.md).
 
 ## Resistance mechanisms
 
@@ -89,3 +90,6 @@ Everolimus is an orally bioavailable mTOR (mechanistic target of rapamycin) inhi
 - [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80); mTOR-pathway mutation status did not predict everolimus benefit; serial biopsies identified acquired resistance mutations (PTEN Q298*, RHEB Y35S, TSC2 splice, AKT2 G16D).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

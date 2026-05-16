@@ -23,6 +23,7 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 - NOTCH3 was mutated in ATC as part of a finding that all four NOTCH family members (NOTCH1–NOTCH4) were mutated; part of low-frequency hits in a 341-gene panel sequencing study of thyroid cancers [PMID:26878173](../papers/26878173.md)
 - More frequently mutated in HR+ metastatic breast cancer (mBC) than early-stage breast cancer at FDR<0.1; mutations spread across protein domains without obvious hotspots, leaving therapeutic actionability unclear [PMID:28027327](../papers/28027327.md)
 - Lower-prevalence NOTCH-family mutations numerically enriched in R/M ACC alongside NOTCH2 and NOTCH4 (NOTCH4 OR 6.59, P=0.067) [PMID:31483290](../papers/31483290.md).
+- Included among drug-resistance-related mutations enriched in progressive-disease patients in the FUTURE trial TNBC cohort (n=69, refractory metastatic TNBC). [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ NOTCH3 encodes a member of the Notch receptor family involved in cell fate deter
 
 *This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

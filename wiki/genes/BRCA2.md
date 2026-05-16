@@ -15,7 +15,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -89,6 +89,8 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 - Germline PTVs associated with somatic small-deletion burden (P=1×10⁻⁸) across 2,658 whole-genome-sequenced PCAWG tumors; one of three genes accounting for 81% of germline+somatic biallelic combinations pan-cancer [PMID:32025007](../papers/32025007.md)
 - Exploratory sensitivity analysis in 424 mCSPC patients: adjusted HR for castration resistance 1.60 (95% CI 0.98–2.63), OS HR 1.08 (95% CI 0.50–2.33); compatible with but did not establish poor prognosis; no significant prognostic signal at pathway level [PMID:32220891](../papers/32220891.md)
 - Homozygous deletions in 5% of uterine leiomyosarcoma (uLMS, 4/80) and somatic mutations in 3/80, totaling 7 somatic BRCA2 alterations (exclusively in uLMS, not in high-grade non-LMS); validation in five additional uLMS patients with BRCA2 alterations treated with [PARP inhibitors](../drugs/olaparib.md) showed radiographic regression in all, including one complete response; authors recommend BRCA testing in all uLMS patients [PMID:32299819](../papers/32299819.md)
+- Germline BRCA2 mutation status stratified BLIS-subtype metastatic TNBC patients between PARP-inhibitor arm (fuzuloparib) and anti-VEGFR arm (apatinib) in a biomarker-guided umbrella trial; PARP inhibitor monotherapy showed no responses in 3 platinum-refractory BRCA1/2-mutant patients. [PMID:32719455](../papers/32719455.md)
+- BRCA2 was referenced alongside BRCA1 as a DDR alteration in MSS metastatic colorectal cancer; LST analysis showed no enrichment for homologous recombination deficiency signatures, and the authors argue against PARP-inhibitor strategies in this disease. [PMID:32730818](../papers/32730818.md)
 
 ## Cancer types (linked)
 
@@ -282,5 +284,11 @@ BRCA2 is a critical homologous recombination DNA repair factor. Germline and som
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

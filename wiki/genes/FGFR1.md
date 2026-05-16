@@ -47,6 +47,7 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Cited as an established endocrine-therapy resistance mechanism in ER+/HER2- metastatic breast cancer; trial context for buparlisib + letrozole in endocrine-refractory disease [PMID:31552290](../papers/31552290.md)
 - Mentioned in the context of pan-cancer genomic profiling of synchronous DCIS/IDC-NST pairs (WES n=25 patients) [PMID:32220886](../papers/32220886.md)
 - Copy-number gains in 4/18 (22.2%) sensitive and 4/41 (9.8%) resistant HR+/HER2- MBC biopsies — not enriched in CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
+- One arm B (anti-AR + CDK4/6 inhibitor) TNBC patient with FGFR1 amplification responded to anlotinib after progression on anti-AR + anti-CDK4/6 therapy in a biomarker-guided umbrella trial for metastatic TNBC. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -157,5 +158,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

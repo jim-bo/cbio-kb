@@ -27,6 +27,8 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Used for multivariable survival analysis in the Sherlock-Lung NS-LUAD study (n=684 tumors, age/sex/stage adjusted): steady HR=0.43 (95% CI 0.30–0.63), chaotic HR=1.4 (95% CI 0.99–2.0); stage I subset chaotic HR=2.5–3.7 [PMID:32015526](../papers/32015526.md).
 - Used for time-to-event regression in 424 mCSPC patients; adjusted HR for castration resistance 1.84 (95% CI 1.40–2.41) for high-volume vs. low-volume disease [PMID:32220891](../papers/32220891.md)
 - Applied in 1,465 prostate cancer patients to adjust OS for age, Gleason, PSA, visceral metastasis, and FGA; CDK12-altered patients had aHR 1.80 (95% CI 1.12–2.89; p=0.024) for shorter OS [PMID:32317181](../papers/32317181.md)
+- Used for multivariate survival analysis in 430 MSS mCRC patients; APC mutation (N-terminal) associated with longer PFS (HR 0.68, p<0.001) and OS (HR 0.56, p<0.001) [PMID:32730818](../papers/32730818.md)
+- Univariate and multivariate Cox analyses in 80-patient CRC tissue microarray identified CGREF1 expression (HR 3.85, 95% CI 1.32–11.2, p=0.014) and venous invasion as independent predictors of disease-free survival [PMID:32888432](../papers/32888432.md)
 
 ## Notes
 
@@ -63,5 +65,11 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

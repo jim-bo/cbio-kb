@@ -61,6 +61,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - H&E plus IHC on whole-mount step-section prostatectomies used to validate histopathology fidelity of 65 rectal cancer tumoroids against parental tumors; tumoroids retained morphology and oncogenic mutation profiles of source tissue [PMID:31591597](../papers/31591597.md).
 - IHC used to confirm MMR protein loss (MLH1, MSH2, MSH6, PMS2) and PDCD1 protein loss in homozygous-deletion cases among 107 uterine sarcoma patients [PMID:32299819](../papers/32299819.md)
 - IHC performed for MMR proteins to identify MSI-H Lynch-associated UTUC tumors in 119-patient cohort; Masson trichrome and Picro Sirius red also used for ECM characterization [PMID:32332851](../papers/32332851.md)
+- IHC staining for AR, CD8, and FOXC1 used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC [PMID:32719455](../papers/32719455.md)
+- IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; CGREF1 overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC [PMID:32888432](../papers/32888432.md)
 
 ## Notes
 
@@ -191,5 +193,11 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

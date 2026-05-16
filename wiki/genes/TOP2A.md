@@ -3,8 +3,8 @@ symbol: TOP2A
 aliases: ["topoisomerase II alpha", "TOP2"]
 cancer_types: ["PNET"]
 tags: []
-processed_by: crosslinker
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # TOP2A
@@ -16,6 +16,7 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 ## Alterations observed in the corpus
 
 - TOP2A amplification with high expression identified in neuroendocrine neoplasm patient PN4 (a PanNET) by whole-genome/transcriptome analysis; supported irinotecan recommendation within a WGTA-guided precision oncology cohort [PMID:40328872](../papers/40328872.md)
+- Somatic mutations found in 2/6 non-PR patients (and 0/10 PR patients) in arm C (anti-PD-1 + nab-paclitaxel) of the FUTURE trial; mutations near the topoisomerase 2-like DNA-binding domain; nominated as a candidate negative predictor of ICI response in IM-subtype metastatic TNBC. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ TOP2A encodes DNA topoisomerase II alpha, an enzyme essential for DNA replicatio
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **crosslinker** on **2026-05-09**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

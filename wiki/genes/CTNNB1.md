@@ -79,6 +79,7 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 - Exon 3 hotspot mutations centered at S33 (phosphosites Y30, S33, T40; mutations D32, G34) found in 23/95 endometrial carcinoma tumors; increases Wnt-pathway activity, β-catenin protein, and H2B N-terminal acetylation (K16/K20/K24); identifies subset of low-grade, low-stage endometrioid tumors with potentially worse prognosis [PMID:32059776](../papers/32059776.md)
 - CTNNB1 is a key WNT-pathway gene; WNT-pathway alterations were associated with better prognosis in 424 mCSPC patients (lower castration resistance and OS hazard ratios), in contrast to two prior smaller mCRPC studies (Chen 2019, Wang 2018) that linked WNT/CTNNB1 alterations to worse outcomes — this conflict is flagged as an open question [PMID:32220891](../papers/32220891.md)
 - CTNNB1 protein and phosphoprotein elevated in EGFR-mutant LUAD despite reduced RNA, identified by proteogenomic multi-omics profiling of 110 treatment-naïve tumors [PMID:32649874](../papers/32649874.md)
+- CTNNB1 activating mutations represent a highly activating Wnt alteration; co-occurred with RAS-pathway alterations in 63% of cases and marked a poor-prognosis subgroup in MSS metastatic colorectal cancer. [PMID:32730818](../papers/32730818.md)
 
 ## Cancer types (linked)
 
@@ -235,5 +236,8 @@ CTNNB1 encodes beta-catenin, the key effector of the canonical Wnt signaling pat
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

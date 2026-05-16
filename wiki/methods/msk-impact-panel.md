@@ -90,6 +90,9 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Prospective targeted DNA sequencing (341-gene n=44, 410-gene n=44, 468-gene n=20) on 107 uterine sarcoma patients at ~646× average coverage; 45% had actionable alterations [PMID:32299819](../papers/32299819.md)
 - IMPACT341, IMPACT410, and IMPACT468 used across 26,743 patients in 25 solid tumor types; pan-cancer CDK12 alteration prevalence analysis (1.5% overall) [PMID:32317181](../papers/32317181.md)
 - MSK-IMPACT (300/341/410/468-gene versions) used on 119 UTUC patients and all PDX/PDC models; PDCD1 homozygous deletion enrichment in uLMS identified through 15,816-patient MSK-IMPACT pan-cancer reference [PMID:32332851](../papers/32332851.md)
+- Applied for targeted NGS profiling of 430 MSS unresectable mCRC patients at MSKCC (dataset crc_apc_impact_2020); identified APC mutation site as a prognostic marker independent of tumor sidedness [PMID:32730818](../papers/32730818.md)
+- Profiled 604 stage I–III LUAD patients after resection at MSKCC (dataset luad_mskcc_2020); 8 patients on IMPACT341, 190 on IMPACT410, 406 on IMPACT468; linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
+- Applied to 39 baseline HR+ MBC tumor biopsies in the breast_alpelisib_2020 trial; identified clonal PIK3CA mutations in 70% of evaluable pre-treatment tumors and baseline PTEN/ESR1 alterations as resistance predictors [PMID:32864625](../papers/32864625.md)
 
 ## Notes
 
@@ -267,5 +270,14 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

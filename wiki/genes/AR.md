@@ -7,7 +7,7 @@ tags:
   - hormone-receptor
   - oncogene
   - neuroendocrine
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -41,6 +41,7 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 - AR amplifications and missense mutations enriched post-ARSI vs ARSI-naive mCRPC; AR alteration associated with shorter time on first-line ARSI (P=0.005, CPE=0.651) but not overall survival; AR splice variants (AR-V7, AR-V3) in tumor RNA were not prognostic in this 429-patient cohort [PMID:31061129](../papers/31061129.md)
 - Recurrent variant of uncertain significance (VUSo) in castration-resistant prostate cancer (CRPC) cfDNA, consistent with subclonal androgen-receptor evolution detected by broad-coverage liquid biopsy [PMID:31768066](../papers/31768066.md)
 - Oncogenic AR alterations were the strongest predictor of castration resistance and death in 424 mCSPC patients profiled by MSK-IMPACT; AR alterations were enriched 8.6 pp in metastatic-recurrent vs de-novo disease before adjusting for ADT exposure; AR pathway status proposed for prognostic stratification in metastatic castration-sensitive disease [PMID:32220891](../papers/32220891.md)
+- AR was used as an IHC surrogate marker for the LAR (luminal androgen receptor) subtype of metastatic TNBC in a biomarker-guided umbrella trial; anti-AR + CDK4/6 inhibitor therapy was assigned to LAR-subtype patients without ERBB2 mutations. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -121,5 +122,8 @@ AR (Androgen Receptor) is a ligand-activated transcription factor and the centra
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220891](../papers/32220891.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

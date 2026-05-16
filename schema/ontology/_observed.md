@@ -185,6 +185,10 @@
 - drug: axitinib — observed in PMID:22138691 — note: selective VEGFR1/2/3 TKI; used in JAVELIN Renal 101 avelumab+axitinib combination for ccRCC
 - drug: talazoparib — observed in PMID:28068672 — note: PARP1/PARP2 trapping inhibitor; named alongside olaparib/rucaparib/niraparib/veliparib as class members in mCRPC TRMT10A study
 - drug: spautin-1 — observed in PMID:28068672 — note: USP10 inhibitor (tool compound); degrades TRMT10A and synergizes with olaparib in BRCA1/2-WT mCRPC CDX and PDX models
+- drug: pyrotinib — observed in PMID:32719455 — note: HER2 TKI (irreversible pan-HER inhibitor); Hengrui-developed; arm A of FUTURE umbrella trial (ERBB2-mutant LAR-subtype TNBC)
+- drug: famitinib — observed in PMID:32719455 — note: multi-target VEGFR/PDGFR/FGFR/c-Kit TKI; Hengrui-developed; arms E and F of FUTURE umbrella trial in refractory metastatic TNBC
+- drug: eribulin — observed in PMID:32719455 — note: microtubule dynamics inhibitor; listed as a reference treatment arm in the FUTURE umbrella trial for refractory metastatic TNBC
+- drug: exemestane — observed in PMID:32864625 — note: aromatase inhibitor (irreversible steroidal); partner drug for alpelisib in arms B and D of NCT01870505 HR+ MBC trial
 - drug: ku-55933 — observed in PMID:28068672 — note: selective ATM kinase inhibitor (tool compound); used to confirm ATM-mediated TRMT10A Ser28 phosphorylation in DDR experiments
 - drug: mg-132 — observed in PMID:28068672 — note: proteasome inhibitor (tool compound); used to rescue TRMT10A protein levels after USP10 knockdown or spautin-1 treatment
 - method: multiparameter-flow-cytometry — observed in PMID:38780927 — note: serial PBMC immunophenotyping (CD4, CD8, FOXP3, PD-1, Ki-67) in NCT03521570; early CD4+PD-1+Ki-67+ surge trended with worse PFS
@@ -557,3 +561,4 @@
 - method: rb1-cfdna-custom-capture-panel — observed in PMID:32633890 — note: MSK custom hybrid-capture panel tiling all 27 RB1 exons + heterozygous-SNP regions; ~1530× unique coverage; used for plasma cfDNA somatic RB1 detection in pediatric retinoblastoma; no genePanelId in cBioPortal
 - method: vardict — observed in PMID:32633890 — note: open-source tumor-blind somatic variant caller applied to retinoblastoma cfDNA (de novo RB1 calling at sub-1% VAF); no genePanelId in cBioPortal
 - method: waltz — observed in PMID:32633890 — note: MSK tumor-guided cfDNA variant caller (v2.0) applied to retinoblastoma plasma cfDNA; Pearson r²=0.993 technical replicate concordance; no genePanelId in cBioPortal
+- method: fuscc-ngs-484-panel — observed in PMID:32719455 — note: Fudan University Shanghai Cancer Center 484-gene targeted NGS panel used for somatic and germline variant calling in metastatic TNBC (FUTURE trial); not registered in cBioPortal gene_panels ontology

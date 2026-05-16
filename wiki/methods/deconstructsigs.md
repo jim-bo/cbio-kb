@@ -9,7 +9,7 @@ tags:
   - signature-deconvolution
   - somatic-mutation
   - cosmic
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 ## Used by
 
 - [brca_pareja_msk_2020](../datasets/brca_pareja_msk_2020.md) — mutational signature decomposition in synchronous [DCIS](../cancer_types/DCIS.md) and IDC-NST [PMID:32220886](../papers/32220886.md)
+- Applied to identify APOBEC mutational signatures (SBS2, SBS13) in 3 of 4 patients with acquired PTEN mutations in a phase I/II alpelisib + AI trial in HR+ MBC [PMID:32864625](../papers/32864625.md)
 
 ## Notes
 
@@ -34,3 +35,6 @@ deconstructSigs is an R package for decomposing the mutational spectrum of a tum
 - Used for COSMIC signature decomposition (aging signatures 1/5, HRD signature 3, APOBEC signatures 2/13) in DCIS and IDC-NST samples with ≥40 SNVs [PMID:32220886](../papers/32220886.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -34,6 +34,7 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 - ARID1B, as part of the SWI/SNF complex, mutated in 36% ATC vs 6% PDTC (P = 1×10⁻⁴) in a 341-gene targeted sequencing cohort (n=117 advanced thyroid tumors); SWI/SNF disruption was the first such report in advanced thyroid cancer [PMID:26878173](../papers/26878173.md)
 - ARID1B identified as a somatic alteration in metastatic panNET (80-patient MSK-IMPACT cohort); SWI/SNF chromatin-remodeling complex member [PMID:30687805](../papers/30687805.md)
 - Enriched in recurrent/metastatic adenoid cystic carcinoma vs. primary tumors (OR 4.00); SWI/SNF complex member in the acc_2019 cohort (n=1,045) [PMID:31483290](../papers/31483290.md)
+- ARID1B was observed at low frequency, enriched in metastatic vs. primary TNBC samples; functional significance in the metastatic context is not yet established. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -97,5 +98,8 @@ ARID1B encodes a subunit of the SWI/SNF chromatin-remodeling complex, serving as
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31483290](../papers/31483290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

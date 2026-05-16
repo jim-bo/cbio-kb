@@ -151,6 +151,9 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 - Mutated in 41% of synchronous DCIS and 42% of IDC-NSTs (P>0.05); 9/12 mutations affected H1047R/L or E545D hotspots; completely absent (0%) in pure DCIS vs 41% in synchronous DCIS, marking PIK3CA as one of the few features distinguishing synchronous from pure DCIS [PMID:32220886](../papers/32220886.md)
 - Recurrent RTK/RAS/PI3K-pathway driver in UTUC (consistent with prior UTUC genomics); identified in MSK-IMPACT profiling of upper-tract urothelial carcinoma cohort and PDX models [PMID:32332851](../papers/32332851.md)
 - Mutated at similar frequencies in sensitive (8/18, 44.4%) and resistant (18/41, 43.9%) HR+/HER2- MBC biopsies — not a CDK4/6i resistance marker in this cohort [PMID:32404308](../papers/32404308.md)
+- Mutated in 18% of refractory metastatic TNBC patients in the FUSCC cohort (n=69); MES-subtype TNBC patients with PI3K-AKT pathway mutations were enrolled in arm G (everolimus + nab-paclitaxel), which achieved 50% ORR (1/2 evaluable). [PMID:32719455](../papers/32719455.md)
+- Enriched in C-terminal APC mutant MSS mCRC tumors vs N-terminal (28% vs 11%; p<0.01, q<0.1) in 430 patients; part of co-occurring mitogenic activation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
+- Activating hotspot mutations (H1047R/L/Y kinase domain; E545K/A and E542K helical domain) in 88% of baseline-genotyped HR+ metastatic breast cancer patients (n=50) in the alpelisib + AI phase I/II trial (NCT01870505); PIK3CA-WT tumors derived no clinical benefit (0/6); 70% of mutations were clonal. [PMID:32864625](../papers/32864625.md)
 
 ## Cancer types (linked)
 
@@ -464,5 +467,14 @@ PIK3CA encodes the catalytic p110-alpha subunit of PI3K. In the corpus it appear
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

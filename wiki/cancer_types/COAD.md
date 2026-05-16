@@ -4,7 +4,7 @@ oncotree_code: COAD
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [colorectal, gi-oncology]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -45,6 +45,8 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 - First proteogenomic study of a prospectively collected colon adenocarcinoma cohort (n=110; [coad_cptac_2019](../datasets/coad_cptac_2019.md)) identified RB1 hyperphosphorylation (not loss) as a colon-cancer driver suggesting CDK2 inhibition, reclassified SOX9 as oncogenic despite truncating mutations, and showed glycolysis inversely correlated with CD8 infiltration in MSI-H tumors [PMID:31031003](../papers/31031003.md).
 - TRK fusion-positive colorectal cancer was enriched for MSI-H (6/7 cases, 86%) and co-occurred with hypermethylated MLH1 and wild-type BRAF/KRAS; TRK fusions occurred at 0.28% overall but were uniquely associated with MSI-H in CRC — the only context where checkpoint inhibitors showed benefit (1 CR lasting 3.5 years) [PMID:31871300](../papers/31871300.md)
 - In CCLE proteomics (n=375 cell lines, 22 lineages), colon adenocarcinoma lines contributed to the mixed-lineage cohort; MSI endometrial and colorectal lines showed proteome buffering with only ~50 differentially expressed proteins vs >1,000 dysregulated mRNAs [PMID:31978347](../papers/31978347.md).
+- In 430 MSS unresectable metastatic colorectal adenocarcinoma patients (including [COAD](../cancer_types/COAD.md) primaries) profiled by MSK-IMPACT, N-terminal APC mutations (5' of aa 1400) were associated with longer OS (HR 0.56, p<0.001) and PFS (HR 0.68, p<0.001) than C-terminal APC mutations, which co-occurred more frequently with KRAS (72% vs 46%), BRAF (13% vs 2%), PIK3CA (28% vs 11%), and PTEN (12% vs 3%) alterations [PMID:32730818](../papers/32730818.md).
+- TIMER 2.0 pan-cancer analysis confirmed CGREF1 significantly upregulated in [COAD](../cancer_types/COAD.md); IHC on an 80-patient CRC tissue microarray showed CGREF1 over-expression in 61.25% of CRC tissues, with high expression independently associated with shorter disease-free survival (HR 3.85, 95% CI 1.32–11.2, p=0.014) by multivariate Cox analysis [PMID:32888432](../papers/32888432.md).
 
 ## Subtypes
 
@@ -122,5 +124,13 @@ Colon Adenocarcinoma is a Colorectal Cancer (parent [COADREAD](../cancer_types/C
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31978347](../papers/31978347.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

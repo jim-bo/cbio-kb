@@ -99,6 +99,9 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 - Oncogenic ERBB2 mutations in 8–9% of UTUC and 10.3% of bladder UC; HER2 S310F PDX (UCC14) showed ADC sensitivity (trastuzumab deruxtecan) but resistance to kinase inhibitor neratinib [PMID:32332851](../papers/32332851.md)
 - Activating mutations and amplifications in 5/41 (12.2%) resistant HR+/HER2- MBC biopsies vs 0/18 sensitive; two VUS variants (L377M, P1074L) included; consistent with CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - ERBB2 (HER2) amplification/focal gain detected in 21/32 (66%) tumors by NGS and 18/33 (54%) by plasma ctDNA; VAF-adjusted ctDNA amplification significantly associated with longer PFS (16.4 vs 6.2 months, p=0.013) in HER2-positive metastatic esophagogastric cancer [PMID:32437664](../papers/32437664.md)
+- Somatic ERBB2 mutations were used as a stratifier for arm A (pyrotinib + capecitabine) in a biomarker-guided umbrella trial targeting the LAR subtype of metastatic TNBC; patients with ERBB2 mutations were assigned to the HER2-directed arm rather than the anti-AR + CDK4/6 arm. [PMID:32719455](../papers/32719455.md)
+- ERBB2 was identified as a recurrently amplified oncogene across resected lung adenocarcinoma (LUAD), consistent with prior LUAD reports; subtype-specific amplification frequency was not individually reported. [PMID:32791233](../papers/32791233.md)
+- ERBB2 was among MAPK-pathway alterations that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on alpelisib + AI, suggesting a parallel bypass resistance pathway. [PMID:32864625](../papers/32864625.md)
 
 ## Cancer types (linked)
 
@@ -325,5 +328,14 @@ ERBB2 (HER2) is a receptor tyrosine kinase whose amplification and activating mu
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

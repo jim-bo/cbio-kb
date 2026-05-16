@@ -123,6 +123,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - Driver in 162 tumors across 2,658 whole-genome-sequenced PCAWG tumors spanning 38 cancer types [PMID:32025007](../papers/32025007.md)
 - Two activating mutations identified in uterine leiomyosarcoma (uLMS): V600E (patient progressed within 4 weeks on a first-generation BRAF inhibitor) and K601E (class-2 dimer-dependent; patient achieved 4 months stable disease on a pan-RAF inhibitor); consistent with prior characterization of K601E as resistant to first-generation BRAF inhibitors [PMID:32299819](../papers/32299819.md)
 - Outlier BRAF hyperphosphorylation identified in TP53-mutant LUAD tumors by proteogenomic analysis; nominated as a driver-specific druggable kinase target [PMID:32649874](../papers/32649874.md)
+- BRAF alteration frequency was prognostic in MSS metastatic colorectal cancer; enriched in C-terminal APC mutant tumors (13% vs 2%) as part of the RAS-pathway co-mutation pattern associated with shorter OS/PFS. [PMID:32730818](../papers/32730818.md)
+- Targetable BRAF-V600E mutations were more frequent in MIP/SOL (5%) than ACI/PAP (1.2%) or LEP (1.1%) lung adenocarcinoma subtypes (p=0.046); BRAF-V600K, K601E, and K601N variants were also observed in LEP tumors. [PMID:32791233](../papers/32791233.md)
+- BRAF — among MAPK-pathway alterations (ERBB2, HRAS, NF1, BRAF, MAP2K1) that selectively expanded in post-treatment ctDNA from HR+ metastatic breast cancer patients on alpelisib + AI, suggesting parallel bypass resistance pathways. [PMID:32864625](../papers/32864625.md)
 
 ## Cancer types (linked)
 
@@ -444,5 +447,14 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

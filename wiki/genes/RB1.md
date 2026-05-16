@@ -3,7 +3,7 @@ symbol: RB1
 aliases: []
 cancer_types: [HCC, THPA]
 tags: [tumor-suppressor, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -76,6 +76,7 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 - Mutations associated with increased CDK4 protein abundance in [LUAD](../cancer_types/LUAD.md) proteogenomics (CPTAC cohort, n=110), potentially conferring CDK4/6-inhibitor resistance [PMID:32649874](../papers/32649874.md)
 - Biallelic disruption (single-copy loss + second-allele point/splice/frameshift) in 4/41 (9.8%) CDK4/6i-resistant biopsies, exclusive to resistance; convergent evolution in one patient; CRISPR RB1 knockout confers CDK4/6i resistance in T47D/MCF7 cells; elevated CDK4 protein is a proposed mechanism [PMID:32404308](../papers/32404308.md)
 - Canonical retinoblastoma driver; 13 somatic RB1 variants detected across 10 pediatric retinoblastoma patients (nonsense, frameshift, splice, in-frame deletion) by MSK-IMPACT tumor profiling; plasma cfDNA recovered 10/13 mutations (median VAF 4.9%) by tumor-guided genotyping [PMID:32633890](../papers/32633890.md)
+- Drug-resistance–related mutation more frequent in PD (non-responding) patients in the FUTURE umbrella trial for metastatic TNBC; co-listed with NOTCH3 as candidate resistance mutations. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -220,5 +221,8 @@ RB1 encodes the retinoblastoma tumor suppressor protein, a master regulator of t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32633890](../papers/32633890.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

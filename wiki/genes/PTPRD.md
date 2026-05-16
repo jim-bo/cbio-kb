@@ -3,8 +3,8 @@ symbol: PTPRD
 aliases: []
 cancer_types: [MPNST]
 tags: [phosphatase, tumor-suppressor]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PTPRD
@@ -23,6 +23,7 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - Novel 5'-NFIB fusion partner in adenoid cystic carcinoma; identified in t(6;9)-positive/MYB-NFIB-negative tumors [PMID:26631609](../papers/26631609.md)
 - PTPRD tumor-suppressor alterations flagged as actionable in a targeted sequencing study of germ cell tumors, particularly among cisplatin-resistant patients [PMID:27646943](../papers/27646943.md).
 - PTPRD less frequently mutated in the MSK metastatic gastroesophageal cohort vs TCGA non-MSI-H (q<=0.10), suggesting selective pressure against PTPRD mutations in metastatic disease [PMID:29122777](../papers/29122777.md)
+- Low-frequency gene enriched in metastatic vs primary TNBC samples in the FUSCC cohort (n=69 refractory metastatic TNBC); also among resistance-mutation-tendency genes more frequent in PD patients of the FUTURE trial. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -66,3 +67,6 @@ PTPRD (protein tyrosine phosphatase receptor type D) encodes a receptor-type pho
 - [PMID:29122777](../papers/29122777.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

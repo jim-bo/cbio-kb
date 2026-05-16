@@ -48,6 +48,7 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 - COSMIC mutational signature decomposition (via deconstructSigs, ≥40 SNVs threshold) in synchronous DCIS/IDC-NST: aging signatures 1/5 dominant in 63%/58%, HRD signature 3 in 21%/26%, APOBEC signatures 2/13 in 16%/16% [PMID:32220886](../papers/32220886.md)
 - Mutational signature decomposition applied to uterine sarcoma MSK-IMPACT samples with ≥10 SNVs; MMR-D signatures identified in two MSI-H uLMS outliers; aging signatures prevalent in uLMS [PMID:32299819](../papers/32299819.md)
 - AID/APOBEC Signatures 2+13 and aging/MMR-D signatures confirmed stable across PDX passages in UTUC models; Signature 2 lost in UCC30 PDX flagged as engraftment-driven genomic drift [PMID:32332851](../papers/32332851.md)
+- Computed for 268 LUAD tumors (44%) with ≥13.8 mut/Mb; SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) associated with increased postresection recurrence risk; APOBEC signatures increased with histologic-subtype invasiveness [PMID:32791233](../papers/32791233.md)
 
 ## Notes
 
@@ -147,5 +148,8 @@ Decomposition of somatic mutation patterns (single-base substitution trinucleoti
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

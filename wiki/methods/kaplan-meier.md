@@ -28,6 +28,9 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 - PFS analysis by Kaplan-Meier with log-rank testing stratified by PIK3CA and MAP3K1 genotype in 33 metastatic ER+/HER2- breast cancer patients; MAP3K1 alteration improved PFS (p=0.03), PIK3CA alteration improved PFS (p=0.009); co-alteration showed greatest benefit (p=0.02 trend test) [PMID:31552290](../papers/31552290.md).
 - Kaplan-Meier curves generated for time-to-castration-resistance and overall survival in 424 mCSPC patients; high-volume vs. low-volume and genomic-alteration subgroups compared [PMID:32220891](../papers/32220891.md)
 - Used to display OS and time-to-CRPC in 1,465 prostate cancer patients stratified by CDK12 alteration status (CDK12-WT vs CDK12-altered vs CDK12-Bi) [PMID:32317181](../papers/32317181.md)
+- RECIST v1.1 imaging assessments and Kaplan-Meier survival analysis used in the FUTURE trial to evaluate PFS and DOR across 7 biomarker-matched arms in 69 refractory metastatic TNBC patients [PMID:32719455](../papers/32719455.md)
+- Used for PFS and OS estimation from first-line chemotherapy start in 430 MSS mCRC patients; revealed significantly longer OS/PFS for N-terminal vs C-terminal APC truncating mutations [PMID:32730818](../papers/32730818.md)
+- Kaplan-Meier analysis in 80-patient CRC tissue microarray showed high CGREF1 expression associated with significantly shorter overall survival (log-rank p<0.0001) [PMID:32888432](../papers/32888432.md)
 
 ## Notes
 
@@ -66,5 +69,14 @@ The Kaplan-Meier (KM) estimator is a non-parametric method for estimating the su
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

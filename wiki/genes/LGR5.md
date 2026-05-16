@@ -3,8 +3,8 @@ symbol: LGR5
 aliases: []
 cancer_types: [NBL]
 tags: [stem-cell-marker, wnt-signaling, neuroblastoma, progenitor]
-processed_by: entity-page-writer
-processed_at: 2026-04-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # LGR5
@@ -16,6 +16,7 @@ LGR5 (leucine-rich repeat containing G protein-coupled receptor 5) is an establi
 ## Alterations observed in the corpus
 
 - LGR5 is over-expressed in the undifferentiated high-risk nC3 neuroblastoma cluster (FDR <0.01, Welch's t-test), alongside [MYCN](../genes/MYCN.md), [ALK](../genes/ALK.md), [BRCA1](../genes/BRCA1.md), [NTRK2](../genes/NTRK2.md), [LGR5](../genes/LGR5.md), [USH2A](../genes/USH2A.md), and migratory markers; low-risk NOR clusters do not express LGR5 at significant levels [PMID:34493726](../papers/34493726.md).
+- LGR5+ crypt-base stem cells are the cell of origin for conventional adenomas (TAs/TVAs) driven by APC-truncation-mediated WNT-pathway expansion; LGR5, OLFM4, MYC, and ASCL2 define the WNT/stem-cell transcriptional program over-expressed in adenoma stem cells (ASCs) [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ LGR5 (leucine-rich repeat containing G protein-coupled receptor 5) is an establi
 - [PMID:34493726](../papers/34493726.md)
 
 *This page was processed by **entity-page-writer** on **2026-04-15**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

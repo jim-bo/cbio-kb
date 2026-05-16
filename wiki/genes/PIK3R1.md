@@ -3,7 +3,7 @@ symbol: PIK3R1
 aliases: []
 cancer_types: [ODG, DIFG, UCEC, GBM]
 tags: [pi3k-pathway]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - PIK3R1 is altered in 2.8% of mCRPC tumors; part of the PI3K-pathway alteration set with PIK3CA, PIK3CB, and AKT1; pathway alteration not associated with survival or time on ARSI [PMID:31061129](../papers/31061129.md)
 - Mutations identified only in TERT-WT metaplastic breast carcinomas (not reaching statistical significance after multiple-testing correction); component of the PI3K regulatory subunit pathway [PMID:33863915](../papers/33863915.md)
 - High-positive Δκ<sub>risk</sub> gene flagged as a putative network driver of ICI-modulated robustness in HGSOC, based on CNA-derived network curvature analysis of 45 ICI-treated patients. [PMID:34819508](../papers/34819508.md)
+- PIK3R1 enriched in Nigerian MSS CRC tumors vs. MSKCC (8.7% vs 2.2%, P=0.02); PI3K pathway enrichment in West African MSS CRC argues for regionally distinct therapeutic-trial applicability [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -104,3 +105,6 @@ PIK3R1 encodes the p85-alpha regulatory subunit of PI3K; loss-of-function altera
 - [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

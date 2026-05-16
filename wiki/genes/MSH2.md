@@ -48,6 +48,7 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 - MSH2 germline loss identifies Lynch syndrome UTUC subsets (UCC36, UCC34); MSH2/MSH6 IHC-negative without identifiable germline cause (UCC17) represents sporadic MSI-H UTUC; all MSI-H cases had TMB 20.3–157.2 mut/Mb and showed resistance to neoadjuvant gemcitabine/cisplatin [PMID:32332851](../papers/32332851.md)
 - Germline Lynch syndrome mismatch-repair gene; MSH2 variants contributed to the 5.5% Lynch syndrome prevalence in EO-CRC, with germline P/LP variants accounting for 9 of 14 high-penetrance carriers in the early-onset cohort [PMID:34405229](../papers/34405229.md).
 - MSH2 (DNA mismatch repair gene) showed no significant alteration-prevalence difference by race in an MSK-IMPACT prostate cancer cohort (n=2,069); MSI prevalence and TMB also did not differ by race, contradicting a prior Project GENIE-based report. [PMID:34667026](../papers/34667026.md)
+- MSH2 germline pathogenic variant identified in 1 MSI-H Nigerian CRC patient; MSH2 protein assayed by IHC as part of the MMR panel in 94 Nigerian tumors [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -119,5 +120,8 @@ MSH2 is a core component of the mismatch repair complex (MutSalpha with [MSH6](.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

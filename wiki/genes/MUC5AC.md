@@ -3,7 +3,7 @@ symbol: MUC5AC
 aliases: []
 cancer_types: [PAAD]
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ MUC5AC is a secreted gel-forming mucin glycoprotein. In pancreatic cancer, it is
 ## Alterations observed in the corpus
 
 - Mucin glycoprotein upregulated in [PAAD](../cancer_types/PAAD.md) vs normal tissue; enriched even in early-stage tumors and among the proteins nominated as candidate serum/pancreatic-juice early-detection biomarkers in a proteogenomic landscape study of 140 treatment-naive pancreatic tumors [PMID:34534465](../papers/34534465.md).
+- MUC5AC is a gastric-type metaplasia marker that distinguishes 13/14 MSI-H from 0/17 MSS CRCs in the COLON MAP/HTAN cohort; MUC5AC+ / CDX2-low is proposed as a diagnostic biomarker pair for SSL identification [PMID:34910928](../papers/34910928.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ MUC5AC is a secreted gel-forming mucin glycoprotein. In pancreatic cancer, it is
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

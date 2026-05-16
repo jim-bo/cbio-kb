@@ -128,6 +128,7 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 - RNA-seq performed on 80/119 UTUC tumors; BASE47 classifier assigned 87.5% luminal and 12.5% basal; consensus MIBC classifier assigned 82.5% luminal-papillary; basal/squamous subtype correlated with PDX engraftment (P=0.04) [PMID:32332851](../papers/32332851.md)
 - Total RNA-seq on Illumina HiSeq 4000 (≥120M reads/sample, hg38) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling study [PMID:33577785](../papers/33577785.md)
 - Used in the Sherlock-Lung WGS study of 232 never-smoker lung cancers (LCINS) for somatic variant calling and genomic analysis of the lung_nci_2022 cohort [PMID:34493867](../papers/34493867.md)
+- Bulk RNA-seq performed on 66 colorectal polyps from the Tennessee Colorectal Polyp Study as an orthogonal validation layer in the COLON MAP pre-cancer atlas [PMID:34910928](../papers/34910928.md)
 
 ## Notes
 
@@ -444,5 +445,8 @@ Bulk RNA sequencing of tumor (and where available matched normal) tissue for gen
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

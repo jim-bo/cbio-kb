@@ -3,7 +3,7 @@ symbol: AFF1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -16,6 +16,7 @@ AFF1 (AF4/FMR2 Family Member 1) encodes a scaffold component of the super elonga
 ## Alterations observed in the corpus
 
 - AFF1-KMT2A fusion identified in CCLE cancer cell lines; AFF1 dependence is linked to the fusion event, establishing AFF1 as a fusion-driven dependency in cell line models [PMID:31068700](../papers/31068700.md)
+- KMT2A fusion partner in therapy-related MDS/AL arising in high-risk neuroblastoma patients; detected by RNA capture at MSKCC in serial bone-marrow surveillance [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ AFF1 (AF4/FMR2 Family Member 1) encodes a scaffold component of the super elonga
 - [PMID:31068700](../papers/31068700.md)
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

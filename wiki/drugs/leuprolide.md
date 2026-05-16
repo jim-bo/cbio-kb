@@ -9,8 +9,8 @@ tags:
   - adt
   - prostate-cancer
   - real-world-data
-processed_by: crosslinker
-processed_at: 2026-04-30
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # leuprolide
@@ -22,6 +22,7 @@ Leuprolide (Lupron) is a synthetic GnRH (gonadotropin-releasing hormone) agonist
 ## Evidence in the corpus
 
 - Leuprolide was identified as one of the prior treatments extracted by the MSK-CHORD NLP pipeline from clinical notes across 3,211 prostate cancer ([PRAD](../cancer_types/PRAD.md)) patients in the MSK-CHORD dataset. It was captured as part of the treatment-annotation component used to define prior systemic therapy exposure for the multimodal survival modeling and post-treatment genomic enrichment analyses [PMID:39506116](../papers/39506116.md).
+- OncoMark hallmark-survival analysis (TCGA logistic regression) associated leuprolide with the Evading Replicative Immortality (ERI) hallmark for overall survival, alongside anastrozole, nominating ERI-high tumors as candidate responders [PMID:35121966](../papers/35121966.md)
 
 ## Resistance mechanisms
 
@@ -36,3 +37,6 @@ Leuprolide (Lupron) is a synthetic GnRH (gonadotropin-releasing hormone) agonist
 - [PMID:39506116](../papers/39506116.md) — Jee et al. 2024, *Nature*. MSK-CHORD real-world data integration; leuprolide as NLP-extracted prior treatment in the prostate cancer cohort.
 
 *This page was processed by **crosslinker** on **2026-04-30**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

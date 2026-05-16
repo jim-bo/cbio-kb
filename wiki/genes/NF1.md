@@ -95,6 +95,7 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - NF1 enriched in cfDNA relative to tissue in breast cancer patients profiled by MSK-ACCESS cfDNA assay [PMID:34145282](../papers/34145282.md)
 - Assessed at ≥2% frequency in clinical-stage I/II [LUAD](../cancer_types/LUAD.md); no statistically significant association with pathologic lymph-node (pN) metastasis status [PMID:34290393](../papers/34290393.md).
 - NF1 biallelic loss-of-function (truncating mutations, deep deletions, intragenic inversions) found in 8% of metastatic vs 4% of primary HER2-amplified breast tumors (n=733); the most common MAPK alteration; sufficient to confer resistance to lapatinib/neratinib/tucatinib and MEK hypersensitivity (~57-fold trametinib sensitization in shNF1 SKBR3). In vivo: BT-474 shNF1 xenografts show 37% growth inhibition with trametinib (p=0.0059); HER2+/NF1-null PDX shows 70% inhibition with trametinib monotherapy (p<0.001). [PMID:34795269](../papers/34795269.md)
+- NF1 mutations more frequent in SKCM lung metastases vs. SKCM primary tumors (20% vs 38%, q=0.003) in the MSK-MET pan-cancer cohort (25,775 patients) [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -212,5 +213,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

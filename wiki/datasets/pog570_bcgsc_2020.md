@@ -17,8 +17,8 @@ tags:
   - personalized-oncogenomics
   - mutational-signatures
   - clinical-actionability
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BC Cancer Personalized OncoGenomics (POG) Program — Metastatic NEN Cohort 2025
@@ -68,9 +68,13 @@ The pog570_bcgsc_2020 dataset represents the BC Cancer Personalized OncoGenomics
 - 82% (23/28) of POG NENs clustered with external NEN datasets and away from TCGA primary tumour types using a 1,553-gene discriminator panel [PMID:40328872](../papers/40328872.md)
 - Biallelic MSH6/MLH1 loss in PN4 produced 18% unstable microsatellites but MSIsensor predicted MSI-low — illustrating limitations of MSI tools in non-colorectal NENs [PMID:40328872](../papers/40328872.md)
 - Six patients with clinical benefit received therapies driven by transcriptome expression data alone, supporting value of WGTA beyond somatic mutation profiling [PMID:40328872](../papers/40328872.md)
+- Used as a bulk RNA-seq benchmarking cohort (n=570 metastatic samples) to validate OncoMark hallmark predictions; K-S statistics >0.69 versus GTEx/ENCODE normal references across all ten hallmarks [PMID:35121966](../papers/35121966.md)
 
 ## Sources
 
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

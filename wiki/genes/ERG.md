@@ -38,6 +38,7 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 - Invasive-restricted focal amplification observed in individual synchronous DCIS/IDC-NST cases by WES (n=25 patients, paired DCIS/IDC-NST) [PMID:32220886](../papers/32220886.md)
 - TMPRSS2-ERG fusions observed less frequently in CDK12-biallelic prostate cancer vs CDK12-WT in a pan-cancer MSK-IMPACT cohort (N=26,743; 100 CDK12-altered prostate cases) [PMID:32317181](../papers/32317181.md)
 - TMPRSS2:ERG fusions intentionally excluded from racial alteration-prevalence comparisons in an MSK-IMPACT prostate cancer cohort (n=2,069) due to suboptimal panel sensitivity for fusions; known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
+- Fusions less frequent in PRAD bone metastases (30% primary vs 15% bone met, q=0.002; secondary analysis 29% vs 24%, q=0.04), indicating negative selection for ERG fusions at the bone metastatic site in prostate cancer [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -116,5 +117,8 @@ ERG (ETS-Related Gene) is a transcription factor of the ETS family. In prostate 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

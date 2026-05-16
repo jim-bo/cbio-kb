@@ -8,7 +8,7 @@ cancer_types:
 tags:
   - clonal-hematopoiesis
   - therapy-related
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - Therapy-related clonal hematopoiesis gene; truncating C-terminal mutations significantly enriched in cancer patients vs controls (age-adjusted p=0.0115) and in chemotherapy/radiation-exposed patients (age- and smoking-adjusted p=0.0008); must be interpreted carefully in heavily pre-treated patients as plasma PPM1D variants may reflect therapy-related CH rather than tumor [PMID:31768066](../papers/31768066.md)
 - Observed among somatic alterations in synchronous DCIS/IDC-NST cohort (n=25 patients; BRCA); context: panel of cancer-relevant genes sequenced by WES or MSK-IMPACT [PMID:32220886](../papers/32220886.md)
 - DNA damage response gene with the strongest therapy-associated CH selection (OR=4.3, q<10⁻⁶); highest enrichment in ovarian (13%) and endometrial (7%) cancer patients; canonical CH form is C-terminal truncating variants; almost entirely explained by prior therapy exposure; not on older MSK-IMPACT-341 panel, leading to under-ascertainment in earlier sub-cohorts [PMID:33106634](../papers/33106634.md)
+- Identified as a DDR-pathway clone driver at transformation and in the transient cohort; co-occurs with [TP53](../genes/TP53.md) mutations in 2 patients (118730, 118731) in pediatric therapy-related myeloid neoplasms [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -54,3 +55,6 @@ PPM1D (protein phosphatase Mg2+/Mn2+-dependent 1D, also known as Wip1) encodes a
 - [PMID:39506116](../papers/39506116.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

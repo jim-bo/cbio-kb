@@ -50,6 +50,7 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 - Single-melanocyte sequencing of 133 clonally expanded cells from 6 elderly donors showed mean somatic burden 7.9 mut/Mb (range 0.82–32.3); melanocytes adjacent to BCC/MEL lesions had the highest burdens; BRAF V600E was absent, supporting a distinct UV-driven high-CSD melanoma origin. [PMID:33029006](../papers/33029006.md)
 - 66 pretreatment BRAF V600E/K-mutant metastatic SKCM tumors; PTEN loss-of-function alterations (11/19 poor-responder patients) associated with shorter PFS (HR 3.46, P<.001) and OS (HR 3.10, P<.001) on BRAFi monotherapy; elevated BRAF mutant-allele fraction tracked with excellent response. [PMID:32913971](../papers/32913971.md)
 - MSK-IMPACT profiling of 696 cutaneous melanoma tumors identified MAPK-pathway oncogenic drivers in 96%, with BRAF V600E/K/R (31%), NRAS (29%), NF1 loss-of-function (23%), and MAP2K1/2 (7%) as the leading classes; NF1-altered tumors had the highest median TMB (43 mut/Mb) and longest TTF on PD-1 monotherapy (22 mo), while TMB was an independent predictor of TTF and OS across both PD-1 monotherapy and nivolumab+ipilimumab cohorts [PMID:33509808](../papers/33509808.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; SKCM is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -69,79 +70,57 @@ SKCM is the OncoTree code for cutaneous (skin) melanoma. SKCM is a high-TMB mali
 
 *Page last touched by entity-page-writer on 2026-05-01.*
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22622578](../papers/22622578.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22817889](../papers/22817889.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:22842228](../papers/22842228.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:24265153](../papers/24265153.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:25409260](../papers/25409260.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:26091043](../papers/26091043.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:26359337](../papers/26359337.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:26997480](../papers/26997480.md)
 
 - [PMID:28373299](../papers/28373299.md) — Liang et al. 2017; ACRM integrated genomics; SKCM used as comparator for UV-mutation-burden and BRAF/NRAS/NF1 driver landscape.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29033130](../papers/29033130.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
 
 - [PMID:31068700](../papers/31068700.md) — Ghandi et al. CCLE multi-omic profiling (Nature 2019).
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31792460](../papers/31792460.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33029006](../papers/33029006.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33509808](../papers/33509808.md)
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

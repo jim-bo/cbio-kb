@@ -64,6 +64,7 @@ The companion cell-line resource providing mutation, copy-number, and expression
 - [EP300](../genes/EP300.md) and [CREBBP](../genes/CREBBP.md) truncating mutations distal to the HAT domain define a novel H3K18/H3K27 hyperacetylation cluster — nominated as the first cancer-associated gain-of-function alterations of p300/CBP [PMID:31068700](../papers/31068700.md).
 - Used as the proteomics-extended CCLE resource: 375 cell lines profiled by TMT 10-plex proteomics (>12,000 proteins), with MSI-specific proteome analysis revealing co-downregulation of mismatch repair, SKI, and RQC surveillance complexes — results linked to WRN synthetic lethality [PMID:31978347](../papers/31978347.md)
 - 20 bladder cell lines profiled for DNA methylation and expression (GDSC data); validated the 14,209-probe EpiC methylation signature — cell lines clustered by FGFR3 alteration vs SWI/SNF gene mutation status; SWI/SNF-mutant cluster showed higher interferon-γ stimulation signature (P=0.022) [PMID:33397444](../papers/33397444.md)
+- Used as a bulk RNA-seq benchmarking cohort (n=1,019 cell lines) to validate OncoMark hallmark predictions — K-S statistics >0.69 separating cancer from normal across all ten hallmarks (p≈0) [PMID:35121966](../papers/35121966.md)
 
 ## Sources
 
@@ -73,5 +74,8 @@ The companion cell-line resource providing mutation, copy-number, and expression
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

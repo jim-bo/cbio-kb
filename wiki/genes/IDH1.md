@@ -66,6 +66,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - Mutations in 20% of intrahepatic cholangiocarcinoma (iCCA) cases (n=412); mutually exclusive with FGFR2 fusions and CDKN2A deletions; not independently prognostic for OS (trend toward improvement, P=0.08); associated with lower CA19-9 levels [PMID:33765338](../papers/33765338.md)
 - Targetable alteration recurrently detected in intrahepatic cholangiocarcinoma by MSK-ACCESS liquid biopsy [PMID:34145282](../papers/34145282.md)
 - IDH1 mutations present at 18.7% prevalence across profiled intrahepatic cholangiocarcinoma cohort; in N1-node patients IDH1/2 mutation had no significant survival effect (HR 0.73, 95% CI 0.3–1.6, P=0.429; median OS 27.7 vs 18.1 months, P=0.427) [PMID:33963001](../papers/33963001.md)
+- R132H mutation acquired in patient 118725 during clonal evolution toward therapy-related AML in pediatric neuroblastoma; emerged 12 months after NPM1 mutation detection, illustrating multi-step molecular progression [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -233,5 +234,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33963001](../papers/33963001.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

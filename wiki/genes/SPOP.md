@@ -3,7 +3,7 @@ symbol: SPOP
 aliases: []
 cancer_types: [PRAD, THPA]
 tags: [ubiquitin-ligase, tumor-suppressor, prostate, thyroid-cancer]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -32,6 +32,7 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - Mutations associated with longer time on first-line androgen-receptor signaling inhibitor (ARSI) therapy in metastatic castration-resistant prostate cancer (mCRPC, n=429 patients); mutually exclusive with ERG and co-occurring with CHD1; not significantly associated with overall survival benefit [PMID:31061129](../papers/31061129.md)
 - Alterations associated with better prognosis in mCSPC: ~1.5-fold lower rate of castration resistance and 2- to 4-fold longer survival differences in multivariable models (n=424 patients, MSK-IMPACT); less common in de-novo metastatic disease [PMID:32220891](../papers/32220891.md)
 - Single hotspot call in CSCC; classified as requiring additional evidence before formal driver nomination in the UCSF CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- Mutations less frequent in primary PRAD from metastatic patients (18% vs 12%, q=0.03), consistent with previously reported pattern of decreased metastatic potential [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -102,3 +103,6 @@ SPOP is a substrate-binding adaptor for a Cullin3-based E3 ubiquitin ligase comp
 - [PMID:34272401](../papers/34272401.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ drug_class: fluoropyrimidine antimetabolite
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,7 @@ processed_at: 2026-05-16
 - Ex vivo AUC for 5-FU in patient-derived rectal cancer tumoroids correlated with patient PFS (Spearman r=0.86, p=0.024, n=7 patients); in vivo mouse xenograft studies showed RC-MSK-008 (aggressive, OS=1.1 yr) failed to respond to 5-FU while RC-MSK-002 (OS=3.3 yr) responded, recapitulating patient-specific responses [PMID:31591597](../papers/31591597.md)
 - 5-Fluorouracil (5-FU) used as fluoropyrimidine backbone in first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536 (n=37 HER2-positive mEG); combination achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
 - In metastatic MSS CRC, fluoropyrimidine (fluorouracil) + oxaliplatin ± bevacizumab was the standard first-line regimen; radiographic response (71.9% vs 61.8% vs 66.5%) and median OS (46.9 vs 56.4 vs 54.5 months) did not differ between early-onset (≤35, 36-49 years) and adult-onset patients [PMID:34405229](../papers/34405229.md)
+- In Nigerian colorectal cancer (28.1% MSI-H), authors note that the MSI-H subset may derive only marginal benefit from fluorouracil-based chemotherapy, supporting earlier consideration of PD-1 blockade in this population [PMID:34819518](../papers/34819518.md)
 
 ## Resistance mechanisms
 
@@ -77,3 +78,6 @@ processed_at: 2026-05-16
 - [PMID:34405229](../papers/34405229.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

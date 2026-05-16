@@ -59,6 +59,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - Germline Lynch syndrome mismatch-repair gene; MSH6 P/LP germline variants contributed to the 5.5% Lynch syndrome prevalence among EO-CRC patients (9 of 14 high-penetrance carriers); MSH6 is among genes tested on the 76- and 88-gene germline panels [PMID:34405229](../papers/34405229.md).
 - Germline MSH6 variant identified in a piano-subtype lung cancer in never-smokers tumor; driver/timing observation noted alongside RET, RBM10, and SOS1 germline variants [PMID:34493867](../papers/34493867.md).
 - MSH6 (DNA mismatch repair gene) showed no significant alteration-prevalence difference by race in an MSK-IMPACT prostate cancer cohort (n=2,069); MSI prevalence and TMB also did not differ by race, contradicting a prior Project GENIE-based report. [PMID:34667026](../papers/34667026.md)
+- MSH6 protein assayed by IHC as part of the MMR panel in 94 Nigerian CRC tumors; MSH6 loss contributes to the markedly elevated MSI-H rate (28.1%) observed in the Nigerian ARGO cohort vs. TCGA (14.2%) and MSKCC (8.5%, P<0.001) [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -132,5 +133,8 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

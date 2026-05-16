@@ -43,6 +43,7 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - Included in PCAWG pan-cancer WGS cohort (n=2,658 tumors, 38 types); pancreatic adenocarcinoma analyzed for somatic driver landscape including [KRAS](../genes/KRAS.md) (287 PCAWG driver events), [SMAD4](../genes/SMAD4.md), and [ARID1A](../genes/ARID1A.md) alterations [PMID:32025007](../papers/32025007.md).
 - MSK-ACCESS cfDNA panel prospectively profiled pancreatic cancer patients (part of 28% group including PAAD/BLCA/PRAD/biliary, n=617 patients total); [KRAS](../genes/KRAS.md) was noted as a gene where cfDNA detection was lower than tissue in pancreatic cancer; matched WBC sequencing removed >10,000 germline/CH confounders that would otherwise appear as false somatic calls in pancreatic cancer plasma [PMID:34145282](../papers/34145282.md).
 - CPTAC proteogenomic study of 140 treatment-naive pancreatic tumors (135 PDAC + 5 adenosquamous) found KRAS alterations in 97%, TP53 in 83%, CDKN2A in 48%, and SMAD4 in 29%; two proteogenomic subtypes (C1 classical, C2 basal-like) showed stronger prognostic separation than Moffitt RNA-only subtypes (HR 3.4 vs 2.3); only ~6% of tumors were immune-hot; dataset paad_cptac_2021 [PMID:34534465](../papers/34534465.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; PAAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -67,55 +68,41 @@ OncoTree code for pancreatic adenocarcinoma. In the corpus, PAAD is characterize
 - [PMID:39506116](../papers/39506116.md)
 - [PMID:41941260](../papers/41941260.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22158988](../papers/22158988.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23103869](../papers/23103869.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25855536](../papers/25855536.md)
 
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:27826200](../papers/27826200.md)
 
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
 - [PMID:34534465](../papers/34534465.md)
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -20,7 +20,7 @@ tags:
   - structural-variant
   - mutational-signatures
   - non-coding-drivers
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -62,6 +62,7 @@ The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) cohort is the canonic
 - 16 hot-L1 retrotransposition source elements account for 67% (2,440/3,669) of all L1-mediated transductions; Plinian elements (rare MAF ≤2%) are far more productive than Strombolian (common) elements [PMID:32025007](../papers/32025007.md).
 - Germline 22q13.1 [APOBEC3A](../genes/APOBEC3A.md)–[APOBEC3B](../genes/APOBEC3B.md) fusion deletion (rs12628403) and rs2142833 cis-eQTL modulate APOBEC mutagenesis pan-cancer; germline [MBD4](../genes/MBD4.md) PTVs cause elevated somatic CpG>T mutagenesis (p<2.5×10⁻⁶, replicated in TCGA n=8,134) [PMID:32025007](../papers/32025007.md).
 - PCAWG missed [JAK2](../genes/JAK2.md) V617F in 35 MPNs due to panel-of-normals filtering — illustrates a systematic failure mode of blood-derived reference panels [PMID:32025007](../papers/32025007.md).
+- Used as a bulk RNA-seq benchmarking cohort (n=1,210 samples) by OncoMark to demonstrate hallmark score separation between cancer and normal tissue across all ten cancer hallmarks [PMID:35121966](../papers/35121966.md)
 
 ## Sources
 
@@ -71,3 +72,6 @@ The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes (PCAWG) cohort is the canonic
 - AWS open data: s3://pcawg.icgc.org
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

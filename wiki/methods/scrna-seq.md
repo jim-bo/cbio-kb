@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [single-cell, transcriptomics, sequencing]
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # Single-cell RNA sequencing (scRNA-seq)
@@ -27,6 +27,8 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - Re-analyzed public scRNA-seq dataset (National Omics Data Encyclopedia OEP00001237, 13 [GBC](../cancer_types/GBC.md) patients) to identify 16 cell types including [ACTA2](../genes/ACTA2.md)+ and [MFAP5](../genes/MFAP5.md)+ CAF subpopulations with co-expression of [YAP1](../genes/YAP1.md) and [SEMA7A](../genes/SEMA7A.md) [PMID:24997986](../papers/24997986.md)
 - Single-cell RNA sequencing with consensus hierarchical clustering (Deng M, cited) classified CCA into BA-active vs BA-inactive metabolic subtypes; BA-active subtype showed shorter [OS](../cancer_types/OS.md) and immunotherapy resistance with [SLCO1B3](../genes/SLCO1B3.md) and [CEACAM1](../genes/CEACAM1.md) as prognostic markers [PMID:25608663](../papers/25608663.md)
 - 10x Chromium Single Cell Gene Expression 3'v3.1 applied across multiple AAV-CRISPR rat breast tumor genotypes; UMAP showed genotype-driven immune microenvironment differences: adaptive immune enrichment in single-edit tumors, myeloid-dominated immunosuppression (macrophage vs neutrophil dichotomy) in multi-edit tumors [PMID:26437033](../papers/26437033.md)
+- inDrop/TruDrop scRNA-seq (dropkick QC) on 62 colorectal polyp/tumor specimens (128 datasets, 142,065 cells) in the COLON MAP HTAN atlas; identified adenoma-specific (ASC) and serrated-specific (SSC) neoplastic cell populations [PMID:34910928](../papers/34910928.md)
+- Training data for OncoMark derived from 3.1 million single-cell transcriptomes (941 patients, 14 tumor sites, Weizmann 3CA repository); pseudo-bulk profiles generated from scRNA-seq to train the hallmark-activity MTL classifier [PMID:35121966](../papers/35121966.md)
 
 ## Notes
 
@@ -61,3 +63,9 @@ Single-cell RNA sequencing (scRNA-seq) enables transcriptome-wide gene expressio
 - [PMID:26437033](../papers/26437033.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

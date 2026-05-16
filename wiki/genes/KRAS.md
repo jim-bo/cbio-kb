@@ -155,6 +155,10 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - Altered in 97% of 140 treatment-naive PDACs in the CPTAC cohort (96% hotspot mutations + 1 amplification); dominant hotspots G12D, G12V, G12R; G12C present in <1% of PDACs. CEACAM5/6 upregulated selectively in G12D/G12V/Q61H (not G12R) tumors; PAK1/PAK2 concordantly elevated downstream of KRAS/RAC1. [PMID:34534465](../papers/34534465.md)
 - KRAS cited as a canonical HGSOC oncogene commonly overexpressed via CNA-driven aneuploidy; AKT1 and MYC co-listed; appears in curvature-ranked gene lists in a 45-patient HGSOC ICI cohort. [PMID:34819508](../papers/34819508.md)
 - KRAS activating mutations (e.g., G12V) found in 0.3% of both metastatic and primary HER2-amplified breast cancers (n=733); G12V phenocopies NF1 loss in driving resistance to lapatinib/tucatinib and confers MEK sensitization (IC50 16–24 nM trametinib). [PMID:34795269](../papers/34795269.md)
+- RAS-pathway mutations (KRAS, NRAS, PTPN11) identified among transformation drivers in pediatric neuroblastoma patients who developed therapy-related AML/MDS; patient 118728 had multiple RAS-pathway hits [PMID:35078859](../papers/35078859.md)
+- Mutated in 1/13 (8%) tubular adenomas vs. 2/2 tubulovillous adenomas by WES; 5% to 42% frequency from TA to TVA in 281 polyps; 35% of MSS CRCs vs. 0% of MSI-H CRCs, marking KRAS as a key driver of the conventional adenoma-to-carcinoma MSS pathway [PMID:34910928](../papers/34910928.md)
+- Mutations more frequent in pancreatic neuroendocrine metastases (1% vs 10%, q=0.03); 12p gain (encompassing KRAS) more frequent in PAAD metastases (17% vs 4%, q=0.002); MSS COAD patients with lung metastasis had higher KRAS mutation frequency (39% vs 52%, q<0.001) [PMID:35120664](../papers/35120664.md)
+- Enriched in Nigerian MSS colorectal tumors (RAS pathway 76.1% vs. 59.6% MSKCC, P=0.03); 61.1% in Nigerian MSI-H tumors (vs. 41.1% MSKCC, P=0.20), suggesting a distinct mutational landscape in West African CRC patients [PMID:34819518](../papers/34819518.md)
 
 ## Cancer types (linked)
 
@@ -570,5 +574,17 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819518](../papers/34819518.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

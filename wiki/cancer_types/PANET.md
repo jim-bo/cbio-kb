@@ -8,7 +8,7 @@ tags:
   - neuroendocrine
   - mtor
   - chromatin-remodeling
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -34,6 +34,7 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 - Whole-genome and transcriptome analysis (WGTA) of 10 metastatic pancreatic NENs (PanNENs) in the POG cohort confirmed recurrent [MEN1](../genes/MEN1.md), DAXX, ATRX, [RB1](../genes/RB1.md), and [TP53](../genes/TP53.md) alterations; MEN1-mutant PanNENs (but not PulNENs) showed large-scale LOH. Actionable alterations were identified in the majority of cases, with MTOR-inhibitor ([everolimus](../drugs/everolimus.md)), somatostatin analogs, and CDKN2A/CDK4/6-inhibitor recommendations supported by genomic findings. Median TMB was 2.19 mut/Mb across the full 28-patient NEN cohort. [PMID:40328872](../papers/40328872.md)
 - Prospective MSK-IMPACT sequencing of 80 metastatic panNET patients ([panet_msk_2018](../datasets/panet_msk_2018.md)) found somatic alterations in 95%; top genes MEN1 56%, DAXX 40%, ATRX 25%, TSC2 25%; chromatin-remodeling (65%) and histone methyltransferase (66%) pathways dominated; 16% had clinically actionable germline pathogenic variants; alkylator-induced hypermutation observed [PMID:30687805](../papers/30687805.md).
 - In PCAWG (n=81 pancreatic neuroendocrine tumors), 22% (18/81) had no identifiable driver — among the highest driverless rates; recurrent aneuploidy patterns noted; [SETD2](../genes/SETD2.md) loss observed as a novel driver in driverless cases [PMID:32025007](../papers/32025007.md).
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; PANET is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -48,13 +49,12 @@ Pancreatic neuroendocrine tumors (PanNETs / PANET) are rare epithelial neoplasms
 
 - [PMID:21252315](../papers/21252315.md) — Jiao et al. (2011), whole-exome sequencing of 68 sporadic PanNETs identifying recurrent MEN1, DAXX, and ATRX mutations.
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:40328872](../papers/40328872.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:30687805](../papers/30687805.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

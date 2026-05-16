@@ -28,6 +28,7 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 - RHOA is a CRISPR-essential dependency in DLBCL associated with proliferation gene-expression signatures [PMID:28985567](../papers/28985567.md)
 - Mutations cluster at the ARHGEF-binding interface (CLUMPS/EMPRINT analysis), keeping RHOA inactive and de-repressing PI3K/Gα-mediated migration; enriched in C4 GCB-DLBCL tumors in a cohort of 304 primary DLBCLs [PMID:29713087](../papers/29713087.md)
 - RHOA L22R subclonal hotspot present in a treatment-naive primary HR+HER2- breast cancer but lost at post-progression biopsy, illustrating subclone replacement under endocrine therapy [PMID:30205045](../papers/30205045.md)
+- Mutations enriched in lobular breast ovarian metastasis (3% vs 36%, q=0.02) in a pan-cancer primary-vs-metastasis genomic comparison across 50 tumor types [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -75,5 +76,8 @@ RHOA encodes a small GTPase of the Rho family that regulates actin cytoskeleton 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

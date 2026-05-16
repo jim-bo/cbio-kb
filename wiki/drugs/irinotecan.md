@@ -5,7 +5,7 @@ drug_class: topoisomerase I inhibitor
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -28,6 +28,7 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - Irinotecan-containing regimens (FOLFIRI) were used as chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); MSI-H patients showed inferior PFS on cytotoxic regimens (4.8 vs 6.9 months) and are candidates for early immunotherapy instead [PMID:29122777](../papers/29122777.md)
 - In a 3D cell culture review, gelatin-foam glioblastoma tumoroids were resistant to irinotecan and fluorouracil but more sensitive to the hypoxia-activated agent tirapazamine, coincident with HIF-1α upregulation, illustrating how 3D hypoxic cores alter drug sensitivity rankings relative to monolayers [PMID:30643250](../papers/30643250.md).
 - Irinotecan-containing regimens (e.g., FOLFIRI) were used as systemic chemotherapy in the 140-patient systemic-chemotherapy-alone arm of a single-institution MSKCC retrospective study of 573 liver-limited [IHCH](../cancer_types/IHCH.md) patients (2000–2018); systemic chemotherapy alone produced median OS 11.2 months in N1 patients vs 18–20 months with locoregional treatment [PMID:33963001](../papers/33963001.md).
+- OncoMark hallmark-survival analysis (TCGA logistic regression) associated irinotecan with the Genome Instability and Mutation (GIM) and Inducing Angiogenesis (IA) hallmarks for overall survival [PMID:35121966](../papers/35121966.md)
 
 ## Resistance mechanisms
 
@@ -63,3 +64,6 @@ Camptothecin-derivative topoisomerase I inhibitor; component of FOLFIRI/FOLFIRIN
 - [PMID:33963001](../papers/33963001.md) — Jolissaint et al. 2021, MSKCC IHCH retrospective (N=573); irinotecan-containing regimens (FOLFIRI) used in systemic chemotherapy arm; systemic chemotherapy alone inferior to HAIC or resection in N1 IHC (median OS 11.2 vs 18–20 months).
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:35121966](../papers/35121966.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

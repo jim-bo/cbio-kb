@@ -60,6 +60,7 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 - FGFR3 mutations in 50% (15/30) of UTUC WES cases; defining driver of EpiC-low (hypomethylated, immune-cold) subtype; mutually exclusive with 8q22.3 gain; FGFR3-mutant UTUC has globally hypomethylated genome (97.8% of differential probes hypomethylated); one FGFR3-TACC3 fusion detected; associates with better OS/PFS [PMID:33397444](../papers/33397444.md)
 - Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); observed predominantly as a co-alteration with primary MAPK pathway drivers [PMID:33509808](../papers/33509808.md)
 - FGFR3 point mutations conferring resistance to FGFR inhibitors detected in bladder cancers with FGFR3-TACC3 fusions; FGFR3 also recurrently altered in bladder cancer in the MSK-ACCESS liquid biopsy study [PMID:34145282](../papers/34145282.md)
+- Mutations more frequent in bladder urothelial lung metastases (11% primary vs 39% lung met, q=0.005), identifying FGFR3-mutant urothelial tumors as having enhanced lung-tropic dissemination potential [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -203,5 +204,8 @@ FGFR3 is a receptor tyrosine kinase recurrently activated in urothelial carcinom
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

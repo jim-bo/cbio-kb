@@ -72,6 +72,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - MSK-ACCESS cfDNA panel (129 genes, n=617 patients) found LUAD among the most common tumor types profiled; [KRAS](../genes/KRAS.md) p.G12S in a lung adenocarcinoma case was reclassified from somatic to clonal hematopoiesis using matched WBC + cfDNA fragment-length evidence; [EGFR](../genes/EGFR.md) mutations were enriched in LUAD cfDNA relative to MSK-IMPACT tissue; [MET](../genes/MET.md), [ERBB2](../genes/ERBB2.md), [BRAF](../genes/BRAF.md) amplifications and [EML4](../genes/EML4.md)-[ALK](../genes/ALK.md) / [KIF5B](../genes/KIF5B.md)-[RET](../genes/RET.md) fusions detected de novo and by genotyping; [STK11](../genes/STK11.md) and [KEAP1](../genes/KEAP1.md) enriched in tumors lacking known mitogenic drivers [PMID:34145282](../papers/34145282.md).
 - Sherlock-Lung WGS (n=189 never-smoker LUAD) identified three SCNA subtypes: piano (49.6%, EGFR-low, carcinoid-enriched), mezzo-forte (30.2%, 51.4% EGFR-mutant, 1q/5p/7p gains), and forte (20.2%, 95.7% WGD); median TMB 1.1 Mut/Mb (>7-fold lower than smoker LUAD); five independent alterations (TP53 mut, MDM2 amp, EGFR mut, CHEK2 LOH, 22q/15q loss) each approximately doubled mortality risk [PMID:34493867](../papers/34493867.md)
 - In 426 clinical N2-negative stage I/II LUAD patients (MSK-IMPACT), SMARCA4 (OR 3.67) and SMAD4 (OR 5.01) alterations were independently associated with pathologic lymph node metastasis; fraction of genome altered and WGD were also enriched in pN-positive tumors; preoperative clinical staging had a 15% false-negative rate for occult LN metastasis [PMID:34290393](../papers/34290393.md)
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; LUAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -110,22 +111,16 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:18948947](../papers/18948947.md)
 - [PMID:36038778](../papers/36038778.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:22980975](../papers/22980975.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:23999436](../papers/23999436.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
 - [PMID:24658004](../papers/24658004.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:25079552](../papers/25079552.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-11**.*
 - [PMID:27158780](../papers/27158780.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:27346245](../papers/27346245.md) — Tansir et al. 2025, narrative review of young-onset LUAD molecular landscape and therapy.
 
 - [PMID:28336552](../papers/28336552.md) — Jordan et al. 2017; MSK-IMPACT prospective profiling of 860 recurrent/metastatic LUAD; actionable alterations in 86.9%.
@@ -133,47 +128,36 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - [PMID:28445469](../papers/28445469.md)
 - [PMID:28481359](../papers/28481359.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29337640](../papers/29337640.md)
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29657128](../papers/29657128.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32015526](../papers/32015526.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
 
 - [PMID:34493867](../papers/34493867.md)
 - [PMID:34290393](../papers/34290393.md)
+
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

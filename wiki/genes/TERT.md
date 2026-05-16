@@ -51,6 +51,7 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Included in the 30-gene CSCC driver-discovery set on the basis of prior literature reporting frequent promoter mutations; not directly interrogated in this exome-based meta-analysis [PMID:34272401](../papers/34272401.md)
 - Present at >=2% frequency in LUAD but without significant association to pN (lymph node) metastasis status in clinical stage I/II LUAD [PMID:34290393](../papers/34290393.md)
 - Amplified in 11.6% and promoter-mutated in only 0.9% of LCINS; rare in piano subtype; SV breakpoint hotspot alongside MDM2, CDKN2A, NKX2-1; insufficient to explain telomere length elongation in piano [PMID:34493867](../papers/34493867.md)
+- Promoter mutations more frequent in papillary thyroid metastases (46% vs 69%, q=0.001) and SKCM metastases (70% vs 81%, q=0.02), but more frequent in primary HNSC (41% vs 25%, q=0.02); TERT amplification associated with LUAD CNS/brain metastasis [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -156,5 +157,8 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34493867](../papers/34493867.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

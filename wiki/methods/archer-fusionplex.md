@@ -22,6 +22,7 @@ Targeted RNA-based anchored multiplex PCR sequencing assay used to detect gene f
 - [PMID:39753968](../papers/39753968.md) — MSK-Fusion (Archer FusionPlex) RNA-based fusion testing performed in 90 of 2,336 PDAC patients; identified activating MAPK-pathway fusions (e.g. GIT2-BRAF, ATP1B1-NRG1) nearly exclusive to KRAS-WT tumors (3.2% vs 0.04%, P=2×10⁻³⁵), directly informing classification of KRAS-WT and other-MAPK-mutant PDAC subtypes [PMID:39753968](../papers/39753968.md).
 - Archer FusionPlex Anchored Multiplex PCR used in MSK-Solid Fusion panel to confirm rearrangements across 35 cancer-relevant genes in the 10,945-tumor MSK-IMPACT cohort [PMID:28481359](../papers/28481359.md)
 - Used for targeted RNA fusion detection in histiocytic neoplasm patients (cobimetinib trial, n=18) as part of a multi-platform genomic profiling strategy to detect MAPK-pathway alterations [PMID:30867592](../papers/30867592.md)
+- Used to profile serial bone marrow samples from 52 neuroblastoma patients with ArcherDX FusionPlex Pan-Heme RNA panel, detecting KMT2A rearrangements including two novel fusion partners (PRDM10, DDX6) [PMID:35078859](../papers/35078859.md)
 
 ## Notes
 
@@ -38,5 +39,8 @@ Targeted RNA-based anchored multiplex PCR sequencing assay used to detect gene f
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

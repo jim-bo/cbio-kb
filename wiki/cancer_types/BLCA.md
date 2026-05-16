@@ -4,7 +4,7 @@ oncotree_code: BLCA
 main_type: Bladder Cancer
 parent: BLADDER
 tags: [urothelial, fgfr3]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,7 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - Integrative genomic/methylation profiling of 40 UTUC cases identified [FGFR3](../genes/FGFR3.md) (50%), [KDM6A](../genes/KDM6A.md) (27%), and [ZFP36L1](../genes/ZFP36L1.md) (20%) as significantly mutated genes; methylation defines EpiC-high (hypermethylated, MI-enriched, SWI/SNF-mutant, poor OS HR=6.57) and EpiC-low (FGFR3-enriched, immune-cold) subtypes translatable to TCGA MI-BLCA [PMID:33397444](../papers/33397444.md)
 - cf-IMPACT targeted cfDNA panel (410 genes) identified somatic mutations in bladder cancer patients in the 118-patient metastatic solid-tumor cohort at MSKCC; [EP400](../genes/EP400.md) likely oncogenic frameshift deletion detected by cf-WES in a urothelial cancer patient in a region outside the cf-IMPACT panel footprint; BLCA was among tumor types with actionable alterations found by tumor-fraction-guided multi-assay strategy [PMID:34059130](../papers/34059130.md).
 - MSK-ACCESS (129-gene cfDNA assay) prospectively profiled 617 patients; bladder cancer was among the top tumor types (part of the 28% NSCLC/PRAD/BLCA/PAAD/biliary group); OncoKB level 1 actionable alterations detected in 48% of BLCA samples — the highest rate among all tumor types; acquired [FGFR3](../genes/FGFR3.md) point mutations conferring FGFR-inhibitor resistance detected in BLCA patients with FGFR3-TACC3 fusions; [FGFR3](../genes/FGFR3.md) recurrently altered in bladder cancer [PMID:34145282](../papers/34145282.md).
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; BLCA is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
 
 ## Subtypes
 
@@ -97,57 +98,42 @@ Urothelial carcinoma arising in the bladder; OncoTree code `BLCA` under the blad
 - [PMID:28481359](../papers/28481359.md)
 - [PMID:28583311](../papers/28583311.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:28988769](../papers/28988769.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29420467](../papers/29420467.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29596782](../papers/29596782.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29622463](../papers/29622463.md)
 
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625048](../papers/29625048.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625050](../papers/29625050.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29625057](../papers/29625057.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30150660](../papers/30150660.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30290956](../papers/30290956.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
 
 - [PMID:33397444](../papers/33397444.md) — Su et al. integrative genomic/methylation profiling of 40 UTUC cases.
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34059130](../papers/34059130.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34145282](../papers/34145282.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -44,6 +44,7 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 - CH-myeloid-PD gene in therapy-associated clonal hematopoiesis landscape study; truncating, hotspot, or in-frame variants classed as putative drivers per annotation rules [PMID:33106634](../papers/33106634.md)
 - Truncating mutation private to DCIS component of patient JuP3 (juvenile papillomatosis with coexisting DCIS and IDC-NST); identified in whole-exome sequencing of this rare JP case [PMID:33263939](../papers/33263939.md)
 - Recurrent mutations (MutSigCV P=8.3×10⁻⁷) in UTUC (n=40, IGBMC cohort); co-occurs with ZFP36L1 (LOR=3.29, P=0.04); part of the significantly mutated gene set [PMID:33397444](../papers/33397444.md)
+- Myeloid-malignancy driver mutation observed at transformation in pediatric therapy-related AML arising from neuroblastoma [PMID:35078859](../papers/35078859.md)
 
 ## Cancer types (linked)
 
@@ -126,5 +127,8 @@ STAG2 encodes a subunit of the cohesin complex essential for sister chromatid co
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33397444](../papers/33397444.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

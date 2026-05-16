@@ -8,7 +8,7 @@ tags:
   - myeloid
   - clonal-hematopoiesis
   - TP53
-processed_by: crosslinker
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -28,6 +28,7 @@ Therapy-Related Myeloid Neoplasms (TMN) are [AML](../cancer_types/AML.md), [MDS]
 - TP53-mutant TMN: 14/35 (40%) of TMN cases carried [TP53](../genes/TP53.md); 10/14 detectable at the CH stage; 12/13 evaluable TP53-mutant TMN cases co-occurred with complex karyotype or isolated aneuploidy at transformation. [PMID:33106634](../papers/33106634.md)
 - Late-progression drivers acquired between CH and TMN diagnosis: [FLT3](../genes/FLT3.md), [KRAS](../genes/KRAS.md), [NRAS](../genes/NRAS.md) (chromosomal aneuploidies in 91% of transformations). [PMID:33106634](../papers/33106634.md)
 - Strongest gene-specific TMN predictors: TP53, [SRSF2](../genes/SRSF2.md), [U2AF1](../genes/U2AF1.md), [SF3B1](../genes/SF3B1.md) (spliceosome); CH VAF >2% HR=6.9 (p<10⁻⁶) rising with clone size and mutation number. [PMID:33106634](../papers/33106634.md)
+- Therapy-related myeloid neoplasms arose in 17/52 neuroblastoma patients; dominant drivers were KMT2A rearrangements (6/17 patients, including novel partners PRDM10 and DDX6) and TP53 mutations (5/17 patients, all post-therapy onset); integrated DNA + RNA capture detected alterations median 15 months before leukemia diagnosis [PMID:35078859](../papers/35078859.md)
 
 ## Subtypes
 
@@ -43,4 +44,6 @@ Therapy-Related Myeloid Neoplasms (TMN) are [AML](../cancer_types/AML.md), [MDS]
 
 - [PMID:33106634](../papers/33106634.md) — Bolton et al., clonal hematopoiesis and therapy-related myeloid neoplasm risk in 24,146 cancer patients (MSK-IMPACT CH cohort).
 
-*This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:35078859](../papers/35078859.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

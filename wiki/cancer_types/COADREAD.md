@@ -38,6 +38,9 @@ this stub exists so child pages can resolve their `parent:` link.
 - In PCAWG, colorectal adenocarcinoma showed point mutation dominance over SVs (mean 7.4 ± 7.0 point mutations vs 2.4 ± 1.4 SVs, P = 4×10⁻¹⁰); [TP53](../genes/TP53.md) associated with chromothripsis (colorectal OR=25) [PMID:32025007](../papers/32025007.md).
 - Mondaca et al. profiled 430 MSS unresectable metastatic [COADREAD](../cancer_types/COADREAD.md) patients (colon and rectal primaries) by MSK-IMPACT; APC mutation site (N- vs C-terminal at aa 1400) was independently prognostic for OS and PFS, while DDR pathway alterations were not associated with survival or oxaliplatin-chemotherapy response in this MSS cohort [PMID:32730818](../papers/32730818.md).
 - CGREF1 was overexpressed in 61.25% (49/80) of CRC tissues by IHC across a tissue microarray cohort; TCGA TIMER 2.0 / GEPIA2 analyses confirmed significant upregulation in both [COAD](../cancer_types/COAD.md) and [READ](../cancer_types/READ.md) subtypes; CGREF1 promoted liver metastasis via F-actin remodeling in orthotopic mouse models without affecting primary tumor growth [PMID:32888432](../papers/32888432.md).
+- MSK-MET pan-cancer cohort (25,775 patients, 50 tumor types, MSK-IMPACT) characterizes primary vs. metastatic genomic differences; COADREAD is among tumor types analyzed for FGA, TMB, WGD, and driver-alteration frequency shifts between primary and metastatic specimens [PMID:35120664](../papers/35120664.md)
+- ARGO Nigerian colorectal cohort (380 patients): Nigerian patients younger (median 55.8 vs. 60.0y), more likely rectal (50.8% vs. 33.7%) and stage IV (53.8% vs. 36.2%); MSI-H rate 28.1% vs. 14.2% TCGA; MSS tumors had depleted APC and WNT signaling but enriched RAS-pathway [PMID:34819518](../papers/34819518.md)
+- COLON MAP / HTAN multi-omic polyp atlas (142,065 cells, 62 participants): defines adenoma vs. serrated polyp cell-of-origin (stem vs. differentiated lineage); CRC molecular subtypes retain precursor transcriptomic signatures; MSI-H CRCs gain stemness on metaplastic background [PMID:34910928](../papers/34910928.md)
 
 ## Therapeutic landscape
 
@@ -54,39 +57,33 @@ this stub exists so child pages can resolve their `parent:` link.
 - [PMID:36355783](../papers/36355783.md)
 - [PMID:36334560](../papers/36334560.md)
 
-*This page was processed by **crosslinker** on **2026-05-06**.*
 - [PMID:22810696](../papers/22810696.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:22895193](../papers/22895193.md)
 
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:25164765](../papers/25164765.md)
 
-*This page was processed by **wiki-cli** on **2026-05-11**.*
 - [PMID:27149842](../papers/27149842.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29316426](../papers/29316426.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:29670109](../papers/29670109.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32730818](../papers/32730818.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
+
+- [PMID:34819518](../papers/34819518.md)
+
+- [PMID:34910928](../papers/34910928.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

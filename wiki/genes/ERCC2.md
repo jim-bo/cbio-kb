@@ -30,6 +30,7 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 - ERCC2 is among the 'Other' DNA-repair germline pathogenic/likely-pathogenic alleles annotated in a 931-tumor MSK-IMPACT longitudinal glioma cohort [PMID:31263031](../papers/31263031.md)
 - ERCC2 is recurrently mutated in 37 UTUC cases at frequencies not significantly different from TCGA UCB [PMID:31278255](../papers/31278255.md)
 - Included in the recurrent-mutation panel (4% of UTUC) and cited as a platinum-response biomarker per prior advanced-UC literature in a UTUC PDX cohort (N=119 MSK-IMPACT) [PMID:32332851](../papers/32332851.md)
+- Mutations negatively correlated with metastatic burden in urothelial bladder cancer, suggesting that ERCC2-mutant tumors may have attenuated metastatic potential in this histology [PMID:35120664](../papers/35120664.md)
 
 ## Cancer types (linked)
 
@@ -90,5 +91,8 @@ ERCC2 (excision repair cross-complementation group 2), also known as XPD, encode
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:35120664](../papers/35120664.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

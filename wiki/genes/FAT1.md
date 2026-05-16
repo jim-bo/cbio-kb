@@ -32,6 +32,7 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 - Discussed as a prior-literature CDK4/6i resistance candidate; not enriched in 41 resistant vs 18 sensitive HR+/HER2- MBC biopsies in this cohort [PMID:32404308](../papers/32404308.md)
 - Recurrent mutations in MSK-IMPACT retinoblastoma cohort (n=83 enucleated specimens); all variants were classified as VUS — no putative-driver variants identified; functional assessment not possible given small cohort size [PMID:33466343](../papers/33466343.md)
 - Mutated in 30.1% of CSCC tumors; Hippo-pathway tumor suppressor; one of the most frequent alterations identified in an 83-tumor CSCC meta-analysis [PMID:34272401](../papers/34272401.md)
+- FAT1 loss-of-function alterations found in 1.6% of 1,115 HR+/HER2- metastatic breast cancer patients profiled by MSK-IMPACT (breast_ink4_msk_2021); FAT1 loss drives CDK6 upregulation via Hippo-pathway derepression, conferring CDK4/6i resistance in an isogenic MCF7 FAT1CR CRISPR model. [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -98,5 +99,8 @@ FAT1 encodes an atypical cadherin and putative tumor suppressor recurrently alte
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

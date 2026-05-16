@@ -4,7 +4,7 @@ aliases: [ATBF1]
 cancer_types: [PRAD, THPA]
 tags: [transcription-factor, zinc-finger, homeobox, tumor-suppressor, prostate-cancer, thyroid-cancer]
 processed_by: entity-page-writer
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # ZFHX3
@@ -17,6 +17,7 @@ ZFHX3 (Zinc Finger Homeobox 3, also known as ATBF1) is a large transcription fac
 
 - ZFHX3 identified as one of nine significantly mutated genes (FDR ≤ 0.10) in prostate cancer WES of 112 tumors (Michigan cohort, including 50 lethal CRPCs); mutations present in castration-resistant disease [PMID:22722839](../papers/22722839.md)
 - ZFHX3 mutated in 7/402 (1.7%, q=0.79) PTCs; near-significant putative tumor suppressor in PTC; does not meet the q<0.1 threshold for SMG designation but represents a candidate dark-matter driver. [PMID:25417114](../papers/25417114.md)
+- Mutations and CNAs enriched in Asian prostate cancer patients (17% vs. 7% White men) in MSK-IMPACT cohort (n=1,123); profiled in only 93% of samples due to later panel inclusion. [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -37,9 +38,8 @@ ZFHX3 (Zinc Finger Homeobox 3, also known as ATBF1) is a large transcription fac
 
 ## Sources
 
-- [PMID:22722839](../papers/22722839.md) — Prostate cancer WES, 112 tumors, Michigan cohort
-
-*This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:22722839](../papers/22722839.md)
 - [PMID:25417114](../papers/25417114.md)
+- [PMID:34667026](../papers/34667026.md)
 
-*This page was processed by **wiki-cli** on **2026-05-14**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -107,6 +107,7 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - Mutations associated with higher TMB and downregulated ARID1A protein in CPTAC LSCC proteogenomics (108 tumors); ARID1A loss linked to worse OS in NSCLC. [PMID:34358469](../papers/34358469.md)
 - Enriched in piano (low-grade, carcinoid-like) LCINS tumors (P=7.5e-4); part of the mutually-exclusive piano driver set alongside KRAS, UBA1, and RET. [PMID:34493867](../papers/34493867.md)
 - Altered in >=5% of PDAC tumors in CPTAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
+- Loss of ARID1A (8% of MSK-IMPACT HR+/HER2− metastatic breast cancer cohort, n=1,115) upregulates CDK6 in a YAP1-dependent manner; shYAP1 in shARID1A cells shifts abemaciclib IC50 from 135.5 to 9.45 nmol/L, re-sensitizing to CDK4/6 inhibition [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -374,3 +375,6 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

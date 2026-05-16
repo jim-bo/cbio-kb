@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - EAC
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,8 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 ## Alterations observed in the corpus
 
 - CCNE1 amplification is a major contributor to Cell Cycle pathway enrichment in the perioperative intent to treat (PIT) cohort of esophageal/GEJ adenocarcinomas (egc_mskcc_2020, n=487) [PMID:33795256](../papers/33795256.md).
+- CCNE1 cited as an additional reported CDK4/6i resistance mechanism that operates outside the CDK6–INK4 axis in HR+/HER2− breast cancer [PMID:34544752](../papers/34544752.md)
+- CCNE1 cited as a canonical HGSOC oncogene commonly overexpressed via CNA-driven aneuploidy downstream of TP53 loss; drives G1→S progression and centrosome dysregulation in HGSOC [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +41,9 @@ CCNE1 (Cyclin E1) is a regulator of G1/S cell cycle transition that partners wit
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

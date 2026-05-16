@@ -5,8 +5,8 @@ drug_class: dual EGFR/HER2 tyrosine kinase inhibitor
 canonical_source: corpus
 unverified: true
 tags: [targeted-therapy, tki, egfr, her2]
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # lapatinib
@@ -23,6 +23,7 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - NCI-60 CellMiner pharmacogenomics analysis linked EGFR/ERBB2 pathway activity to lapatinib sensitivity across cancer cell lines including colon [PMID:22802077](../papers/22802077.md)
 - [EGFR](../genes/EGFR.md) over-expression and phosphorylation in the PI3K/AKT/mTOR alteration module in clear cell renal cell carcinoma ([CCRCC](../cancer_types/CCRCC.md)) was linked to prior lapatinib response data (Ravaud et al. 2008 phase III trial) in this cancer type [PMID:23792563](../papers/23792563.md).
 - Candidate therapy for ERBB4-mutated (6.8%) and NRG1-mutated (7.1%) gastric adenocarcinoma ([STAD](../cancer_types/STAD.md)): dual TKI inhibits [ERBB4](../genes/ERBB4.md) and PI3K-AKT signaling; NRG1/ERBB4 mutations occur in 11.6% of GC (34/294), defining a candidate biomarker-selected population; in phase III trial NCT01264081 in ERBB4-mutated melanoma at time of publication [PMID:25583476](../papers/25583476.md)
+- NF1-null and ERBB2-mutant (L755S) HER2+ breast cancer cells are resistant to lapatinib (500 nM); NF1 re-expression restores lapatinib sensitivity. MAPK-pathway alterations (NF1 loss 8%, ERBB2 mutations 7%) correlate with shorter PFS (9.9 vs 21 months) on first-line anti-HER2 therapy in 145 patients. [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -44,3 +45,6 @@ Lapatinib (Tykerb) is an oral small-molecule reversible inhibitor of both [EGFR]
 - [PMID:25583476](../papers/25583476.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

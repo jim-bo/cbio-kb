@@ -18,6 +18,7 @@ CCNE2 encodes cyclin E2, a regulatory subunit of cyclin-dependent kinase 2 ([CDK
 - Recurrent focal amplification in [GBM](../cancer_types/GBM.md); subtype-correlated alongside [CCND1](../genes/CCND1.md) and [CCND2](../genes/CCND2.md) [PMID:24120142](../papers/24120142.md)
 - placeholder
 - Amplification in 6/41 (14.6%) CDK4/6i-resistant vs 1/18 (5.6%) sensitive HR+/HER2- breast cancer biopsies; overexpression confers CDK4/6i resistance; CCNE2-amplified cells sensitized to CHEK1 inhibitor prexasertib; first report linking CCNE2 (rather than CCNE1) to CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
+- CCNE2 (cyclin E2) knockdown via shRNA rescues anti-HER2 sensitivity in shNF1 HER2i-resistant SKBR3 cells, confirming the CDK2/cyclin E axis as the proximal cell-cycle driver of MAPK-mediated HER2i resistance [PMID:34795269](../papers/34795269.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ CCNE2 encodes cyclin E2, a regulatory subunit of cyclin-dependent kinase 2 ([CDK
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

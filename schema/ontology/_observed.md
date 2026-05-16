@@ -157,6 +157,9 @@
 - method: cbct-delta-radiomics — observed in PMID:41941260 — note: Cone-Beam CT daily-fraction delta radiomics standardized across ROBIN CBCT WG
 - method: sequenza — observed in PMID:29422544 — note: R/Bioconductor allele-specific CNA and LOH inference tool; used on 15 Korean vulvar SCC WES pairs alongside Nexus Copy Number
 - method: g-and-t-seq — observed in PMID:33029006 — note: single-cell Genome & Transcriptome Sequencing protocol; matched DNA/RNA profiling from same cell; used with UCSF500 panel + Smart-Seq2 on 133 melanocytes
+- method: ascets — observed in PMID:34667026 — note: Arm-level Somatic Copy-number Events in Targeted Sequencing; infers chromosome arm-level SCNAs from FACETS output on MSK-IMPACT; used to score aneuploidy in 2,069 prostate cancer patients
+- method: admixture — observed in PMID:34667026 — note: supervised ADMIXTURE v1.3 using 5,072 bi-allelic SNPs within MSK-IMPACT468 baits and 1KGP reference populations to estimate AFR/EUR/EAS/NAM/SAS ancestry proportions
+- method: ollivier-ricci-curvature — observed in PMID:34819508 — note: discrete geometric network-curvature measure (optimal transport) applied to CNA profiles over HPRD PPI topology; novel ICI-response biomarker in HGSOC (log-rank p=0.00047)
 - method: dndscv — observed in PMID:33106634 — note: dN/dS selection-inference R package; used to identify positively selected CH genes in 24,146 MSK-IMPACT cancer patients
 - method: icare — observed in PMID:33106634 — note: individualized Coherent Absolute Risk Estimation R package; absolute tMN risk modeling combining CH hazard ratios with SEER/NCCN incidence
 - method: gatk — observed in PMID:33106634 — note: Genome Analysis Toolkit v3.3-0; used for BQSR preprocessing in MSK-IMPACT CH calling pipeline
@@ -599,3 +602,4 @@
 - method: fastngsadmix — observed in PMID:34493867 — note: population ancestry estimation from NGS genotype likelihoods; Sherlock-Lung cohort: 97.4% European, 1.7% Asian, 0.9% African
 - method: ups-indel — observed in PMID:34493867 — note: somatic indel caller optimised for WGS; part of multi-caller pipeline in Sherlock-Lung; ERBB2 mutations were all indels (3.9% of tumours)
 - method: tnscope — observed in PMID:34493867 — note: Sentieon haplotype-based tumour-normal somatic caller; part of multi-caller pipeline (TNscope + MuTect + Strelka) in Sherlock-Lung WGS study
+- drug: tucatinib — observed in PMID:34795269 — note: HER2-selective TKI (Tukysa; brand name); FDA-approved 2020; not found in cbio-kb ontology lookup but is an established approved agent targeting ERBB2

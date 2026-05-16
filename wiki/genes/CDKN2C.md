@@ -6,7 +6,7 @@ aliases:
 cancer_types:
   - GBM
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -19,6 +19,7 @@ CDKN2C (p18/INK4C) is a cyclin-dependent kinase inhibitor that specifically inhi
 ## Alterations observed in the corpus
 
 - CDKN2C is upregulated in EGFR-altered GBM tumors in the CPTAC proteogenomic cohort (gbm_cptac_2021, n=99); upregulation co-occurs with CDK6 and CTNND2 elevation specifically in the EGFR-altered subgroup [PMID:33577785](../papers/33577785.md).
+- CDKN2C (p18INK4C) is the second most abundant INK4 binder to CDK6 in abemaciclib-resistant FAT1CR MCF7 cells (4 unique peptides in IP-MS); single CDKN2C knockout partially restores RB-phosphorylation suppression; double knockout with CDKN2B almost entirely restores abemaciclib sensitivity (P<0.0001) [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -41,3 +42,6 @@ CDKN2C (p18/INK4C) is a cyclin-dependent kinase inhibitor that specifically inhi
 - [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34544752](../papers/34544752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

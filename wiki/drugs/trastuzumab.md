@@ -40,6 +40,7 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - HER2-targeted monoclonal antibody combined with pembrolizumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); combination achieved 91% ORR and 27.2-month median OS versus ~47% ORR and ~16-month OS historically for trastuzumab + chemotherapy alone; RTK-RAS co-alterations predicted shorter PFS (5.9 vs. 14.6 months, p=0.011) [PMID:32437664](../papers/32437664.md).
 - In the CPTAC breast cancer proteogenomics cohort (n=122), 2/17 ERBB2-amplified cases were pseudo-ERBB2+ (amplified but protein within the ERBB2-negative distribution); authors propose integrated DNA + protein quantification as a more reliable diagnostic and suggest pseudo-ERBB2+ status may explain trastuzumab-refractory amplified tumors. [PMID:33212010](../papers/33212010.md)
 - 86/108 ERBB2-amplified EAC patients received trastuzumab (64 first-line, 22 second-line); ERBB2 amplification was independently associated with improved OS (adjusted HR 0.65, p=0.009), largely attributable to trastuzumab access; 79/86 trastuzumab-treated patients had stage IV disease [PMID:33795256](../papers/33795256.md)
+- In a HER2+/NF1-null patient-derived xenograft, trastuzumab monotherapy had no significant effect on tumor growth while trametinib (MEK inhibitor) produced 70% growth inhibition (p<0.001); in 145 patients on first-line THP, MAPK-altered tumors had median PFS 9.9 vs 21 months (HR 2.03, p=0.011 multivariate). [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -81,3 +82,6 @@ Humanized monoclonal antibody targeting [ERBB2](../genes/ERBB2.md) (HER2).
 - [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

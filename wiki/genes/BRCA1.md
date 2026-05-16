@@ -14,7 +14,7 @@ tags:
   - homologous-recombination
   - germline
   - tumor-suppressor
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -85,6 +85,9 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; specific carrier frequencies shown in Figure 4; rates similar between EO and AO CRC after adjustment. [PMID:34405229](../papers/34405229.md)
 - Germline variants in BRCA1 in 3 carriers in the 232-sample LCINS WGS cohort; BRCA2 LOH enriched in RTK-RAS+ tumors; >15% of tumors have LOH of an HRD-associated gene, nominating PARP inhibitor candidates. [PMID:34493867](../papers/34493867.md)
 - Referenced as germline-mutation context for PARP-inhibitor therapy in pancreatic ductal adenocarcinoma in CPTAC PDAC proteogenomic cohort (140 high-purity tumors). [PMID:34534465](../papers/34534465.md)
+- BRCA1 cited as established HR-pathway gene; biallelic BRCA1 loss defines the strongest HRD phenotype benchmark — biallelic RAD51B loss confers intermediate LST/Signature 3 scores between WT and biallelic BRCA1/BRCA2 loss [PMID:34635660](../papers/34635660.md)
+- No significant difference in BRCA1 alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) on MSK-IMPACT; BRCA1/2 mutation status did not differ by curvature group in the ICI cohort [PMID:34667026](../papers/34667026.md)
+- BRCA1 captured as a clinical covariate (10/45 HGSOC patients mutated); no association with curvature group (p=1.000); BRCA1 also appears in the top-50 positive Δκ risk list (rank 43, Δκ=0.003) [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -272,3 +275,12 @@ BRCA1 is a tumor suppressor gene encoding a protein critical for homologous reco
 - [PMID:34534465](../papers/34534465.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

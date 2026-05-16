@@ -3,7 +3,7 @@ symbol: ATM
 aliases: []
 cancer_types: [CLLSLL, ANGS]
 tags: [dna-damage-response, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -78,6 +78,8 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - Assessed at >=2% frequency in a 514-sample LUAD pN-metastasis genomics cohort; no statistically significant association with pathologic nodal status. [PMID:34290393](../papers/34290393.md)
 - Among germline moderate- and low-penetrance genes interrogated in 1,163 MSS CRC patients; 2 LCINS germline ATM carriers identified; rates of moderate/low-penetrance gene mutations were similar between early-onset (EO) and adult-onset (AO) CRC after adjustment for number of genes tested. [PMID:34405229](../papers/34405229.md)
 - Germline variants in ATM identified in 2 LCINS carriers (232-sample WGS cohort); BRCA2 LOH enriched in RTK-RAS+ tumors in the same cohort. [PMID:34493867](../papers/34493867.md)
+- ATM cited as established HR-pathway gene and used as biological comparator; 3 RAD51B germline carriers were excluded from primary analysis because they co-harbored a deleterious variant in ATM [PMID:34635660](../papers/34635660.md)
+- No significant difference in ATM alteration prevalence by race in 1,012 mPC patients (Black, Asian, White) on MSK-IMPACT; contradicts the prior Project GENIE-based analysis by Mahal et al. (NEJM 2020) [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -275,3 +277,9 @@ ATM is a core DNA damage response kinase and one of the cardinal drivers of chro
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34635660](../papers/34635660.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

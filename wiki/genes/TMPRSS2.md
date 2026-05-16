@@ -32,6 +32,7 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 - TMPRSS2-ERG fusions occur in 70% of EOPC prostate cancer tumours and represent the most frequent initiating event in the PRESCIENT temporal-order model; some TMPRSS2-ERG fusions arise from APOBEC-associated SV breakpoints co-localizing with kataegis events [PMID:30537516](../papers/30537516.md).
 - TMPRSS2-ERG gene fusion present in a subset of prostate adenocarcinoma patients in a 12-patient hyperpolarized MRI study; the fusion did not correlate with HP lactate signal in this cohort, though authors note emerging evidence for ERG regulation of lactate export in lung cancer [PMID:31564440](../papers/31564440.md).
 - TMPRSS2-ERG fusions observed less frequently in CDK12-biallelic inactivation (CDK12-Bi) prostate cancer compared to CDK12 wild-type [PMID:32317181](../papers/32317181.md)
+- TMPRSS2:ERG fusions intentionally excluded from race comparisons in MSK-IMPACT prostate cancer profiling (n=1,123) due to suboptimal panel sensitivity for fusions; fusions are known to be more common in European-ancestry men. [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -53,50 +54,21 @@ TMPRSS2 is a serine protease gene that is the most common 5' fusion partner for 
 
 - [PMID:38488813](../papers/38488813.md)
 - [PMID:38949888](../papers/38949888.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:20579941](../papers/20579941.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22610119](../papers/22610119.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:22722839](../papers/22722839.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:23622249](../papers/23622249.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:25201530](../papers/25201530.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26544944](../papers/26544944.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26855148](../papers/26855148.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:26928463](../papers/26928463.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:28481359](../papers/28481359.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:28927585](../papers/28927585.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29610475](../papers/29610475.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29617662](../papers/29617662.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:30537516](../papers/30537516.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31564440](../papers/31564440.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+- [PMID:34667026](../papers/34667026.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

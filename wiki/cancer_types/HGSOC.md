@@ -5,7 +5,7 @@ main_type: Ovarian Cancer
 parent: SOC
 tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # High-Grade Serous Ovarian Cancer (HGSOC)
@@ -33,6 +33,8 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - TCGA integrated genomic analysis of 489 HGSOC tumors found TP53 mutated in 96% of cases and identified 4 molecular subtypes (immunoreactive, differentiated, proliferative, mesenchymal) [PMID:21720365](../papers/21720365.md)
 - TCGA breast cancer study included HGSOC comparison; BRCA1/BRCA2 germline mutations identified as shared features between basal-like breast and HGSOC tumors [PMID:23000897](../papers/23000897.md)
 - In the MSK-IMPACT pan-cancer cohort, HGSOC had the highest TP53 mutation rate of any principal tumor type at 98%, consistent with its near-universal TP53 inactivation; HGSOC was included among 62 principal tumor types in the msk_impact_2017 dataset. [PMID:28481359](../papers/28481359.md)
+- [RAD51B](../genes/RAD51B.md) germline LOF variants enriched in ovarian cancer: 4/1,157 ovarian patients in the MSK-IMPACT cohort carried LOF alleles (0.35%); 6/13 total [RAD51B](../genes/RAD51B.md) carriers had biallelic inactivation with dominant Signature 3 and LST-high HRD phenotype; authors recommend [RAD51B](../genes/RAD51B.md) inclusion on clinical germline hereditary breast/ovarian cancer panels [PMID:34635660](../papers/34635660.md)
+- Ollivier–Ricci network curvature (κ<sub>G</sub>) of gene-level CNAs over a PPI scaffold stratified OS in 45 ICI-treated recurrent HGSOC patients (log-rank p=0.00047); low-curvature group median OS 7.4 months vs 20.3 months high-curvature; [TP53](../genes/TP53.md) ranked #1 by positive Δκ<sub>risk</sub> (0.209), consistent with near-universal TP53 inactivation; curvature was not prognostic in non-ICI HGSOC, suggesting ICI-predictive specificity; dataset [hgsoc_msk_2021](../datasets/hgsoc_msk_2021.md) [PMID:34819508](../papers/34819508.md)
 
 ## Subtypes
 
@@ -56,15 +58,11 @@ High-grade serous ovarian carcinoma (HGSOC) is the most common and lethal ovaria
 - [PMID:39386723](../papers/39386723.md) — Multimodal Spatial Profiling Reveals Immune Suppression and Microenvironment Remodeling in Fallopian Tube Precursors to High-Grade Serous Ovarian Carcinoma (bioRxiv, 2024)
 - [PMID:35764743](../papers/35764743.md) — Multimodal data integration using machine learning improves risk stratification of high-grade serous ovarian cancer; Boehm et al. 2022, Nature Cancer.
 
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:36517593](../papers/36517593.md)
-
-*This page was processed by **crosslinker** on **2026-05-05**.*
 - [PMID:21720365](../papers/21720365.md)
-
-*This page was processed by **wiki-cli** on **2026-05-06**.*
 - [PMID:23000897](../papers/23000897.md)
-
 - [PMID:28481359](../papers/28481359.md)
+- [PMID:34635660](../papers/34635660.md)
+- [PMID:34819508](../papers/34819508.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

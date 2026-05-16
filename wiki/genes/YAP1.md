@@ -24,6 +24,7 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - Focally amplified (3%) in UPS/MFS and also amplified in 16% of DDLPS as an adipocyte-differentiation inhibitor; the YAP1/VGLL3 TEAD-cofactor target signature is strongly expressed (p=1e-24) in UPS/MFS, supporting a role for Hippo pathway activation in these sarcoma subtypes [PMID:29100075](../papers/29100075.md).
 - Hippo pathway effector; TEAD1 knockdown sensitivity in CCLE cell lines associated with integrin complexes (ITGB1), consistent with the YAP1/Hippo mechanosensing axis [PMID:31978347](../papers/31978347.md)
 - Focal amplification in 1.2% of CSCC tumors; Hippo-pathway effector observed in cutaneous squamous cell carcinoma meta-analysis [PMID:34272401](../papers/34272401.md)
+- Hippo-pathway alteration (combined with LATS1/2, 1.8% of HR+/HER2− breast cancer cohort); YAP1-dependent CDK6 upregulation mediates abemaciclib resistance downstream of ARID1A loss — shYAP1 in shARID1A cells shifts IC50 from 135.5 to 9.45 nmol/L. [PMID:34544752](../papers/34544752.md)
 
 ## Cancer types (linked)
 
@@ -49,11 +50,8 @@ YAP1 (Yes-associated protein 1) is a transcriptional co-activator and downstream
 - [PMID:26343386](../papers/26343386.md)
 - [PMID:27713405](../papers/27713405.md)
 - [PMID:29100075](../papers/29100075.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:31978347](../papers/31978347.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+- [PMID:34544752](../papers/34544752.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

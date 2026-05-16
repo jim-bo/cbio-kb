@@ -3,7 +3,7 @@ symbol: MSH6
 aliases: []
 cancer_types: [BRAIN, PRAD, PITU, GYNEC, UCEC, GB]
 tags: [mismatch-repair, MMR, MSI, hypermutation, immunotherapy, alkylator-resistance]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -58,6 +58,7 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - MMR gene transcriptionally upregulated in SWNTS-SWNs; MSH6 promoter is hypomethylated in SWNTS-SWNs; COSMIC signatures 6/15 present without microsatellite instability [PMID:33025139](../papers/33025139.md)
 - Germline Lynch syndrome mismatch-repair gene; MSH6 P/LP germline variants contributed to the 5.5% Lynch syndrome prevalence among EO-CRC patients (9 of 14 high-penetrance carriers); MSH6 is among genes tested on the 76- and 88-gene germline panels [PMID:34405229](../papers/34405229.md).
 - Germline MSH6 variant identified in a piano-subtype lung cancer in never-smokers tumor; driver/timing observation noted alongside RET, RBM10, and SOS1 germline variants [PMID:34493867](../papers/34493867.md).
+- MSH6 (DNA mismatch repair gene) showed no significant alteration-prevalence difference by race in an MSK-IMPACT prostate cancer cohort (n=2,069); MSI prevalence and TMB also did not differ by race, contradicting a prior Project GENIE-based report. [PMID:34667026](../papers/34667026.md)
 
 ## Cancer types (linked)
 
@@ -130,3 +131,6 @@ MSH6 forms the MutSalpha heterodimer with [MSH2](../genes/MSH2.md) to recognize 
 - [PMID:34493867](../papers/34493867.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34667026](../papers/34667026.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

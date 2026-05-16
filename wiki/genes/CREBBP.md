@@ -21,6 +21,7 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 - CREBBP harbors a single putative-driver somatic mutation in retinoblastoma (rbl_mskcc_2020, n=83), previously implicated by whole-exome sequencing studies in this disease [PMID:33466343](../papers/33466343.md).
 - CREBBP and EP300 protein/acetylation levels are strongly associated with H2B-K12/K13/K16/K17/K21 acetylation in GBM (gbm_cptac_2021, n=99) by Lasso regression; CREBBP/EP300 activity defines a classical-like, immune-low GBM subset with H2B N-terminal hyperacetylation [PMID:33577785](../papers/33577785.md).
 - Mutated in 15.7% of CSCC tumors; paralog of EP300; nominated as a driver gene in the 30-gene CSCC catalog from meta-analysis of 88 WES/WGS tumors [PMID:34272401](../papers/34272401.md)
+- CREBBP is the top-ranked negative Δκ risk gene (Δκ = −0.064) — the largest decrease in curvature between low- and high-risk HGSOC groups in ICI-treated patients; flagged as a putative network driver of ICI-modulated robustness [PMID:34819508](../papers/34819508.md)
 
 ## Cancer types (linked)
 
@@ -47,5 +48,8 @@ CREBBP (CREB-binding protein, CBP) is a transcriptional coactivator and histone 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:34272401](../papers/34272401.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:34819508](../papers/34819508.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

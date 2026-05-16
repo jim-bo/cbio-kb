@@ -22,6 +22,7 @@ Neratinib is an irreversible pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - HER2 resistance context in CCA: HER2 resistance to neratinib was associated with reduction in HER2 copy number and decreased [ERBB2](../genes/ERBB2.md) S310F variant allele frequency in paired tumor/cfDNA analyses [PMID:25526346](../papers/25526346.md)
 - Focus of the SUMMIT basket trial (NCT01953926): 141 patients with ERBB2-mutant (n=125) or ERBB3-mutant (n=16) advanced solid tumours across 21 cancer types; breast cancer met pre-specified efficacy endpoint (ORR8 32%, 95% CI 15-54%); bladder and colorectal cohorts showed lineage-based resistance; response jointly determined by tumour lineage and mutant allele [PMID:29420467](../papers/29420467.md)
 - In HER2 S310F UTUC PDC (UCC14), neratinib IC50 was 508.3 nM (vs 0.1 nM for HER2-amplified BT-474); neratinib suppressed p-ERK but not p-AKT, indicating HER2-independent AKT signaling; UCC14 PDX was largely refractory to neratinib in vivo (p=0.0034 but negligible tumor inhibition), whereas trastuzumab deruxtecan showed strong inhibition (p<0.0001) [PMID:32332851](../papers/32332851.md)
+- NF1-null HER2+ breast cancer cells (SKBR3, BT-474, MDA-MB-361, HCC1954) are resistant to neratinib (50 nM); biallelic NF1 loss (8% of metastatic HER2+ tumors) is the most frequent MAPK alteration conferring anti-HER2 resistance in a 733-patient MSK-IMPACT cohort. [PMID:34795269](../papers/34795269.md)
 
 ## Resistance mechanisms
 
@@ -45,3 +46,6 @@ Neratinib is an irreversible pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor
 - [PMID:32332851](../papers/32332851.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:34795269](../papers/34795269.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

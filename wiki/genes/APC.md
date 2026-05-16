@@ -62,6 +62,7 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC recurrently altered in mCRPC tumors but not significantly prognostic for survival or time on first-line ARSI in a 429-patient whole-exome/RNA-seq cohort [PMID:31061129](../papers/31061129.md)
 - Most frequently mutated gene in both the 65-tumoroid rectal cancer biorepository and the matched 287-patient MSK clinical cohort (rectal_msk_2019), consistent with canonical Wnt-pathway loss in rectal adenocarcinoma [PMID:31591597](../papers/31591597.md)
 - Loss-of-function mutations in 11 CTNNB1-WT uterine corpus endometrial carcinoma tumors provide an alternative route to β-catenin overexpression; APC and AXIN1 protein are upregulated when CTNNB1 is hotspot-mutated [PMID:32059776](../papers/32059776.md)
+- Truncating APC mutations split at aa 1400 into N-terminal (longer OS/PFS, fewer concurrent mitogenic hits) and C-terminal (shorter OS/PFS, enriched RAS/PI3K co-mutation) prognostic groups in MSS metastatic colorectal cancer, identifying APC mutation site — not merely mutation status — as a clinically relevant biomarker. [PMID:32730818](../papers/32730818.md)
 
 ## Cancer types (linked)
 
@@ -208,5 +209,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

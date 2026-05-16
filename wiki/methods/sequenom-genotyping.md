@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [genotyping, mass-spectrometry, targeted-sequencing]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # Sequenom Genotyping
@@ -26,6 +26,7 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 - Used for [KRAS](../genes/KRAS.md) mutation genotyping in colorectal cancer patient samples [PMID:23897969](../papers/23897969.md)
 - Mass-spectrometry genotyping used for orthogonal SNV validation in nccRCC WES study; confirmed 92% (164/178) of selected SNVs [PMID:25401301](../papers/25401301.md)
 - Custom Sequenom SNP genotyping panel (alongside AmpFISTR Identifiler) used for patient-identity QC across the four sequencing centers in the TCGA esophageal/stomach study [PMID:28052061](../papers/28052061.md).
+- Sequenom MassARRAY mass-spectrometry hotspot panel (AKT1, BRAF, EGFR, ERBB2, KRAS, MAP2K1, NRAS, PIK3CA) applied to 9 HR+ MBC patients with insufficient tissue for MSK-IMPACT in the breast_alpelisib_2020 trial [PMID:32864625](../papers/32864625.md)
 
 ## Notes
 
@@ -60,3 +61,6 @@ Sequenom MassARRAY genotyping is a mass spectrometry-based platform for high-thr
 - [PMID:28052061](../papers/28052061.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

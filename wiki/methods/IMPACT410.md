@@ -44,6 +44,7 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Used for 16 of 96 (17%) panNET samples in the MSK prospective cohort (panet_msk_2018) as part of matched tumor-normal hybridization-capture NGS [PMID:30687805](../papers/30687805.md)
 - Applied to 4 samples (Case 3) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT410 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - Used alongside IMPACT341 and IMPACT468 in 26,743 MSK-IMPACT pan-cancer cohort; CDK12 is included in all three panel versions [PMID:32317181](../papers/32317181.md)
+- Used to sequence 190 of 604 surgically resected stage I–III LUAD patients (1.06 Mb coverage) in a histologic-subtype genomic landscape study at MSKCC [PMID:32791233](../papers/32791233.md)
 
 ## Notes
 
@@ -120,5 +121,8 @@ Targeted (410 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32317181](../papers/32317181.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

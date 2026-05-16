@@ -4,7 +4,7 @@ oncotree_code: READ
 main_type: Colorectal Cancer
 parent: COADREAD
 tags: [rectal, colorectal, immunotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -34,6 +34,8 @@ No gene-level variant claims are made in the corpus for READ specifically; studi
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); standardized OS, PFI, DFI, and DSS endpoints derived for READ [PMID:29625055](../papers/29625055.md)
 - MSI-H detected in 5.7% of rectal adenocarcinoma cases by MANTIS WES caller; MSI prevalence lower than colon adenocarcinoma (19.7%), consistent with known biology [PMID:29850653](../papers/29850653.md)
 - 65 rectal adenocarcinoma (READ) tumoroids from 41 patients (77% derivation success rate) faithfully recapitulated mutation landscapes of APC, TP53, KRAS, FBXW7; 92% of oncogenic mutations preserved; ex vivo 5-FU/FOLFOX sensitivity correlated with patient PFS (Spearman r=0.86, p=0.024) across 7 patients with mature follow-up [PMID:31591597](../papers/31591597.md).
+- In the crc_apc_impact_2020 MSS mCRC cohort (n=430, MSK-IMPACT), [READ](../cancer_types/READ.md) primaries were included alongside colon primaries; N-terminal APC mutations (5' of aa 1400) were more common in left-sided colon/rectal primaries and carried better prognosis than C-terminal APC mutations, which were enriched in right-sided tumors [PMID:32730818](../papers/32730818.md).
+- TIMER 2.0 pan-cancer analysis confirmed CGREF1 significantly upregulated in [READ](../cancer_types/READ.md); high CGREF1 IHC expression across an 80-patient CRC tissue microarray (including rectal primaries) was an independent predictor of shorter disease-free survival and promoted liver metastasis via F-actin cytoskeletal remodeling in orthotopic CRC models [PMID:32888432](../papers/32888432.md).
 
 ## Subtypes
 
@@ -85,5 +87,13 @@ No molecular subtyping data from the corpus specific to READ yet.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31591597](../papers/31591597.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

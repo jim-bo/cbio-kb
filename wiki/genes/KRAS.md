@@ -138,6 +138,8 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - G12D (activating), Q61L pathogenic mutation in resistant HR+/HER2- MBC biopsies; KRAS G12D overexpression confers CDK4/6i resistance in vitro; ERK inhibition (LY3214996) restores sensitivity; spontaneous KRAS G12V acquired in resistant cell line 361-AR-1 [PMID:32404308](../papers/32404308.md)
 - RTK-RAS pathway co-alterations in HER2-positive metastatic esophagogastric cancer associated with significantly shorter PFS (median 5.9 vs 14.6 months, p=0.011) on pembrolizumab + trastuzumab + chemotherapy [PMID:32437664](../papers/32437664.md)
 - Mutant LUAD tumors showed outlier SOS1 S1161 phosphorylation, hyperphosphorylated PRKCD, MAPK1/TAK1 pathway activation, upregulation of complement/coagulation cascades; SOS1 inhibition nominated as therapeutic strategy; PRKCD nominated as druggable kinase in KRAS-mutant LUAD [PMID:32649874](../papers/32649874.md)
+- No statistically significant difference in KRAS-G12C mutation frequency across lepidic, acinar/papillary, or micropapillary/solid histologic subtypes of resected stage I-III LUAD (n=604, MSK-IMPACT). [PMID:32791233](../papers/32791233.md)
+- Strongly enriched in C-terminal APC mutant mCRC tumors vs N-terminal (72% vs 46%; p<0.001, q<0.01) in 430 MSS unresectable mCRC patients treated with first-line chemotherapy at MSK; part of co-occurring RAS pathway activation pattern associated with poorer prognosis. [PMID:32730818](../papers/32730818.md)
 
 ## Cancer types (linked)
 
@@ -502,5 +504,11 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

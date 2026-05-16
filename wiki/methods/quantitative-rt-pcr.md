@@ -28,6 +28,7 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 - Quantitative RT-PCR used to confirm that spautin-1 reduced TRMT10A protein but not mRNA levels, establishing post-transcriptional (proteasomal) regulation [PMID:28068672](../papers/28068672.md).
 - RT-qPCR used to validate RNA-seq-derived NOL10 cell-cycle signature gene set (DLGAP5, MCM4, KIF20B, DIAPH3, SUV39H1, CENPE, GINS2, HMGB3, CDC6) and to measure NOL10 and USF1 expression changes after CRISPR perturbations and knockdown experiments across DU145, 22Rv1, LNCaP, and PC3 cells [PMID:28927585](../papers/28927585.md)
 - Used to confirm MAP3K1 shRNA knockdown efficiency (~70% mRNA reduction) in T47D cells before functional assessment of PI3K-inhibitor sensitization; knockdown abolished buparlisib-induced p-cJUN induction without affecting p-AKT suppression [PMID:31552290](../papers/31552290.md).
+- qRT-PCR normalized to GAPDH validated CGREF1 mRNA overexpression in 15/19 (78.9%) CRC paired tumor/normal specimens; confirmed TIMER 2.0 and GEPIA2 bioinformatic findings [PMID:32888432](../papers/32888432.md)
 
 ## Notes
 
@@ -65,5 +66,8 @@ Reverse-transcription quantitative PCR for measuring mRNA expression levels. Use
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31552290](../papers/31552290.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

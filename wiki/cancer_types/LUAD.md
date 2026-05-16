@@ -4,7 +4,7 @@ oncotree_code: LUAD
 main_type: Non-Small Cell Lung Cancer
 parent: NSCLC
 tags: [lung, nsclc]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -68,6 +68,7 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 - Lung adenocarcinoma (n=6, 7.9%) was among TRK fusion-positive tumor types in the MSK prospective cohort (n=26,312); driver-negative lung cancers are recommended for reflex RNA fusion testing given large NTRK2/3 introns that cause ~26% of fusions to be missed by DNA-only assays [PMID:31871300](../papers/31871300.md)
 - In 684 never-smoker lung adenocarcinomas (NS-LUAD; Sherlock-Lung + TCGA), NMF identified three transcriptomic subtypes — *steady* (HR=0.43, p=1.3×10⁻⁵), *proliferative* ([TP53](../genes/TP53.md)-enriched), and *chaotic* (EMT/fibroblast-enriched, HR=1.5 at 5y, p=0.031); a 60-gene signature validated in GIS cohort (n=110, c-index=0.682) [PMID:32015526](../papers/32015526.md).
 - CPTAC proteogenomic profiling of 110 treatment-naive LUAD tumors identified four multi-omics NMF subgroups; EGFR-mutant and ALK-fusion tumors showed outlier PTPN11/Shp2 phosphorylation nominating Shp2 inhibitors, and KRAS-mutant tumors showed outlier SOS1 S1161 phosphorylation; STK11 mutation strongly associated with immune-cold phenotype and neutrophil-degranulation protein signature [PMID:32649874](../papers/32649874.md)
+- In 604 stage I–III [LUAD](../cancer_types/LUAD.md) patients with complete resection profiled by MSK-IMPACT, MIP/SOL-predominant tumors had the highest TMB (7.9 vs 4.9 vs 3.9 mut/Mb) and WGD rate (18% vs 10% vs 4.5%); APOBEC mutational signatures SBS2 (SHR 2.07, p=0.021) and SBS13 (SHR 2.27, p=0.005) were independently associated with postresection recurrence risk [PMID:32791233](../papers/32791233.md).
 
 ## Subtypes
 
@@ -164,5 +165,10 @@ Lung Adenocarcinoma is the most common Non-Small Cell Lung Cancer histology (par
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

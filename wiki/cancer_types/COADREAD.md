@@ -4,7 +4,7 @@ oncotree_code: COADREAD
 main_type: Colorectal Cancer
 parent: BOWEL
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 mainType: Colorectal Cancer
 ---
@@ -36,6 +36,8 @@ this stub exists so child pages can resolve their `parent:` link.
 - WGS pan-cancer reanalysis: 19% of colorectal tumors carry a mutation in ≥1 of 11 recurrent CTCF-binding-site (CBS) hotspots — the second-most-mutated functional element in GI cancers after TP53 (50% of GC); CBS hotspot mutations enriched in CIN-subtype tumors [PMID:29670109](../papers/29670109.md)
 - Rectal cancer tumoroid biorepository (65 lines from 41 patients) confirmed APC, TP53, KRAS, FBXW7 as top drivers in both tumoroids and 287-patient MSK cohort; 62% of tumoroids RAS-mutant; ex vivo 5-FU/FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md).
 - In PCAWG, colorectal adenocarcinoma showed point mutation dominance over SVs (mean 7.4 ± 7.0 point mutations vs 2.4 ± 1.4 SVs, P = 4×10⁻¹⁰); [TP53](../genes/TP53.md) associated with chromothripsis (colorectal OR=25) [PMID:32025007](../papers/32025007.md).
+- Mondaca et al. profiled 430 MSS unresectable metastatic [COADREAD](../cancer_types/COADREAD.md) patients (colon and rectal primaries) by MSK-IMPACT; APC mutation site (N- vs C-terminal at aa 1400) was independently prognostic for OS and PFS, while DDR pathway alterations were not associated with survival or oxaliplatin-chemotherapy response in this MSS cohort [PMID:32730818](../papers/32730818.md).
+- CGREF1 was overexpressed in 61.25% (49/80) of CRC tissues by IHC across a tissue microarray cohort; TCGA TIMER 2.0 / GEPIA2 analyses confirmed significant upregulation in both [COAD](../cancer_types/COAD.md) and [READ](../cancer_types/READ.md) subtypes; CGREF1 promoted liver metastasis via F-actin remodeling in orthotopic mouse models without affecting primary tumor growth [PMID:32888432](../papers/32888432.md).
 
 ## Therapeutic landscape
 
@@ -78,5 +80,13 @@ this stub exists so child pages can resolve their `parent:` link.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32025007](../papers/32025007.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -53,6 +53,7 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 - In 66 recurrent [GBM](../cancer_types/GBM.md) patients treated with PD-1 inhibitors (pembrolizumab or nivolumab), responders had median post-treatment survival of 14.3 vs 10.1 months for non-responders (p=0.0081); [PTEN](../genes/PTEN.md) mutations (OR=8.5, p=0.0063) predicted non-response and MAPK-pathway alterations ([BRAF](../genes/BRAF.md)/[PTPN11](../genes/PTPN11.md)) predicted response; TMB and PD-L1 expression were not predictive [PMID:30742119](../papers/30742119.md)
 - In melanoma patients previously treated with ipilimumab, low MHC-II HLA gene expression in post-ipilimumab biopsies identified primary resistance to pembrolizumab; combined with LDH and lymph-node metastasis status, MHC-II HLA yielded an AUC of 0.90 (CV 0.83) for anti-PD1 response [PMID:31792460](../papers/31792460.md).
 - Added to trastuzumab + fluoropyrimidine/platinum as first-line therapy in 37 HER2-positive metastatic esophagogastric cancer patients (NCT02954536); achieved 70% 6-month PFS (primary endpoint met), 91% ORR, and 27.2-month median OS; benefit was independent of PD-L1 CPS status; these data motivated the phase 3 KEYNOTE-811 trial (NCT03615326) [PMID:32437664](../papers/32437664.md).
+- Pembrolizumab (anti-PD-1) was cited as a comparator immunotherapy in the FUTURE umbrella trial context for refractory metastatic TNBC; historical ICI-monotherapy ORRs of 5–10% in this population provided the benchmark against which the 52.6% camrelizumab + nab-paclitaxel ORR was compared [PMID:32719455](../papers/32719455.md).
 
 ## Resistance mechanisms
 
@@ -153,5 +154,8 @@ Humanized anti-PD-1 immune checkpoint inhibitor with tumor-agnostic TMB-H approv
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

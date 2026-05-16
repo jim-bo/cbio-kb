@@ -130,6 +130,7 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 - Biallelic inactivation in 475 tumors across the PCAWG pan-cancer cohort (n=2,658 donors); co-deleted in chromothripsis events in glioblastoma [PMID:32025007](../papers/32025007.md)
 - Tumor-suppressor losses identified in 119 UTUC patients (MSK-IMPACT); PDX-specific deep deletions of CDKN2A/CDKN2B occurred in 29% of PDX models, suggesting selection pressure during engraftment; co-deleted with CDKN2B in the UTUC genomic landscape [PMID:32332851](../papers/32332851.md)
 - Loss observed in malignant peripheral nerve sheath tumors (MPNST) vs neurofibromas in a 55-sample WES/RNA-seq NF1 biospecimen cohort; mutational fidelity preserved across tumor, derived cell line, and PDX models [PMID:32561749](../papers/32561749.md)
+- All arm B (anti-AR + CDK4/6 inhibitor, LAR-without-ERBB2-mutation) tumors in a metastatic TNBC umbrella trial were CDKN2A-neutral, possibly reducing CDK4/6 inhibitor efficacy and contributing to the negative result in this arm; future LAR-arm designs should select for CDKN2A loss/alteration. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -420,5 +421,8 @@ CDKN2A encodes the p16^INK4a and p14^ARF tumor suppressors that restrain CDK4/6-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32561749](../papers/32561749.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -25,6 +25,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - Used as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma patients; primary regimen was gemcitabine/platinum (80% of 158 first-line patients) [PMID:29848569](../papers/29848569.md)
 - Capecitabine-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic [PANET](../cancer_types/PANET.md) cohort; the study noted that alkylator chemotherapy exposure was associated with hypermutation and grade 1→3 progression in panNET [PMID:30687805](../papers/30687805.md)
 - Fluoropyrimidine used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy regimen in HER2-positive metastatic esophagogastric cancer; capecitabine or 5-FU were the fluoropyrimidine options in NCT02954536 [PMID:32437664](../papers/32437664.md).
+- In the FUTURE umbrella trial, capecitabine was combined with pyrotinib (HER2 TKI) in arm A for LAR-subtype TNBC with ERBB2 somatic mutation; 2/2 evaluable patients achieved PR after 2 cycles; also noted in ≥75% of enrolled patients' prior therapy history [PMID:32719455](../papers/32719455.md).
 
 ## Resistance mechanisms
 
@@ -47,5 +48,8 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -4,7 +4,7 @@ oncotree_code: BRCA
 main_type: Breast Cancer
 parent: BREAST
 tags: [breast]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -61,6 +61,8 @@ OncoTree code for invasive breast carcinoma.
 - Prior breast cancer and radiotherapy identified as major risk factor for secondary radiation-associated cutaneous angiosarcoma; 24/25 secondary AS cases (96%) were cutaneous breast AS after radiotherapy; breast cancer history associated with worse 5-year AS survival (OR 5.143, p=0.02) [PMID:32042194](../papers/32042194.md).
 - WES of 27 synchronous DCIS and 26 paired IDC-NSTs from 25 MSKCC patients (cBioPortal: brca_pareja_msk_2020) showed mutational repertoires indistinguishable between stages: TP53 52% vs 54%, PIK3CA 41% vs 42% (P>0.05 for all genes); 92% of DCIS-IDC-NST pairs were clonally related [PMID:32220886](../papers/32220886.md)
 - WES of 59 metastatic HR+/HER2- breast cancer biopsies identified eight CDK4/6 inhibitor resistance categories (RB1 loss, AKT1, RAS, FGFR2, ERBB2, AURKA, CCNE2, ER loss) accounting for 65.9% of resistant tumors; AURKA amplification was the most enriched novel mechanism (26.8% resistant vs 0% sensitive, p=0.0081) [PMID:32404308](../papers/32404308.md)
+- The FUTURE umbrella trial enrolled 69 heavily pretreated refractory metastatic triple-negative [BRCA](../cancer_types/BRCA.md) patients (median 3 prior lines) across 7 biomarker-guided arms; ITT ORR was 29.0% (20/69; 95% CI 18.7%–41.2%), with 52.6% ORR in the IM-subtype arm receiving camrelizumab + nab-paclitaxel [PMID:32719455](../papers/32719455.md).
+- A phase I/II trial of alpelisib + aromatase inhibitor in 51 HR+ metastatic [BRCA](../cancer_types/BRCA.md) patients achieved a 52% clinical benefit rate; PIK3CA-mutant tumors benefited (CBR 57.5%) while PIK3CA-WT patients derived no benefit (0/6), and PTEN loss (25%) and ESR1 mutations were established as recurrent resistance mechanisms [PMID:32864625](../papers/32864625.md).
 
 ## Subtypes
 
@@ -152,5 +154,13 @@ OncoTree code for invasive breast carcinoma.
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

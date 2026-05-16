@@ -84,6 +84,8 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 - Alterations in 4/41 (9.8%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; potentially funnels into MAPK-pathway CDK4/6i resistance [PMID:32404308](../papers/32404308.md)
 - Germline driver of neurofibromatosis; somatic biallelic inactivation (e.g. 50% copy ratio at chromosome 17 NF1 locus) is the signature alteration tracked across tumor/cell line/PDX; NF1 mutations reduced cognate protein and phosphosite abundance [PMID:32561749](../papers/32561749.md)
 - NF1 mutations in LUAD (CPTAC n=110) reduced cognate protein and phosphosite abundance; RBM10/NF1 mutations both showed this pattern suggesting post-transcriptional regulation [PMID:32649874](../papers/32649874.md)
+- Cited among known LUAD subclonal genes with higher alteration frequencies in micropapillary/solid (MIP/SOL) vs less invasive histologic subtypes of resected stage I-III LUAD (n=604, MSK-IMPACT). [PMID:32791233](../papers/32791233.md)
+- MAPK-pathway alteration with selectively expanded VAF in post-treatment ctDNA under alpelisib + aromatase inhibitor therapy in HR+ metastatic breast cancer (n=51, MSKCC NCT01870505), consistent with MAPK-pathway bypass resistance. [PMID:32864625](../papers/32864625.md)
 
 ## Cancer types (linked)
 
@@ -209,5 +211,11 @@ NF1 encodes neurofibromin, a RAS GAP tumor suppressor. Loss activates RAS signal
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -27,6 +27,7 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 - Oxaliplatin-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic panNET cohort; the study noted that cytotoxic chemotherapy exposure (especially alkylators) was associated with hypermutation and grade progression [PMID:30687805](../papers/30687805.md)
 - Component of FOLFOX (5-FU + leucovorin + oxaliplatin) regimen used in ex vivo and in vivo rectal cancer tumoroid sensitivity assays; ex vivo FOLFOX AUC correlated with patient PFS (Spearman r=0.86, p=0.024) [PMID:31591597](../papers/31591597.md)
 - Platinum agent used as part of first-line trastuzumab + pembrolizumab + fluoropyrimidine/platinum chemotherapy in NCT02954536; 37 HER2-positive metastatic esophagogastric cancer patients achieved 91% ORR and 27.2-month median OS [PMID:32437664](../papers/32437664.md).
+- In MSS mCRC (n=430, MSK-IMPACT), DDR pathway alterations were not associated with PFS benefit from oxaliplatin-containing first-line chemotherapy (HR 1.1, 95% CI 0.7–1.6, p=0.74), arguing against HRD-targeted patient selection for oxaliplatin regimens [PMID:32730818](../papers/32730818.md).
 
 ## Resistance mechanisms
 
@@ -58,5 +59,8 @@ Third-generation platinum agent forming DNA adducts; component of FOLFOX/FOLFIRI
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32437664](../papers/32437664.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32730818](../papers/32730818.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

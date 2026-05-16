@@ -103,6 +103,7 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 - Cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in a UTUC PDX study (119 MSK-IMPACT-sequenced patients) [PMID:32220886](../papers/32220886.md)
 - EGFR cited as a basal-marker gene in the BASE47-defined basal/squamous cluster in the UTUC PDX cohort (N=119) [PMID:32332851](../papers/32332851.md)
 - Activating mutations enriched in multi-omics cluster C4 (terminal respiratory unit), female sex, Chinese nationality; EGFR-mutant LUAD shows outlier PTPN11/Shp2 Y62 phosphorylation without RNA/protein change — first report in primary treatment-naïve LUAD; EGFR protein/phosphosite abundance elevated [PMID:32649874](../papers/32649874.md)
+- Targetable EGFR alterations (exon 19 deletion or L858R) were more frequent in lepidic (LEP, 23%) than acinar/papillary (ACI/PAP, 14%) or micropapillary/solid (MIP/SOL, 5%) lung adenocarcinoma subtypes (p=0.001); EGFR was also recurrently amplified across the cohort. Overall EGFR mutation rate: 42% LEP, 31% ACI/PAP, 19% MIP/SOL. [PMID:32791233](../papers/32791233.md)
 
 ## Cancer types (linked)
 
@@ -328,5 +329,8 @@ EGFR encodes the epidermal growth factor receptor tyrosine kinase, one of the be
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32649874](../papers/32649874.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32791233](../papers/32791233.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

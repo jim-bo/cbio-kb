@@ -27,6 +27,7 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 - Included in a pooled WES cohort of 249 MSS tumors across 6 cancer types (N=20 anti-PD-L1 patients); anti-PD-L1 use concentrated in bladder and NSCLC; TMB + clonality + specific CNAs outperform TMB alone (AUC=0.66) for ICB response prediction [PMID:30150660](../papers/30150660.md)
 - In a pan-cancer ICI cohort (n=1,662), atezolizumab was one of the anti-PD-L1 agents used; patients in the top-20% TMB stratum had HR 0.52 (p=1.6×10⁻⁶) for OS versus the bottom 80%, supporting TMB as a predictive biomarker for anti-PD-1/PD-L1 therapy [PMID:30643254](../papers/30643254.md).
 - The luminal-papillary, T-cell-depleted profile of UTUC is consistent with the lower response rates of luminal-papillary urothelial carcinoma to atezolizumab observed in IMvigor210 (cluster I had the lowest response), providing a mechanistic explanation for blunted ICI efficacy in FGFR3-high UTUC. [PMID:31278255](../papers/31278255.md)
+- Atezolizumab (PD-L1 inhibitor) was listed as a reference immunotherapy option evaluated in the FUTURE umbrella trial context for refractory metastatic TNBC; the trial used camrelizumab (anti-PD-1) rather than atezolizumab in arm C [PMID:32719455](../papers/32719455.md).
 
 ## Resistance mechanisms
 
@@ -63,5 +64,8 @@ Atezolizumab (MPDL3280A) is a humanized IgG1 monoclonal antibody that blocks PD-
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31278255](../papers/31278255.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -50,6 +50,7 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 - AKT1 altered in 0.9% of mCRPC tumors as part of the broader PI3K-pathway alteration set; PI3K-pathway alterations overall were not associated with survival or time on ARSI in this 429-patient mCRPC cohort [PMID:31061129](../papers/31061129.md)
 - Listed among the somatic genes identified in WES of synchronous DCIS and invasive IDC-NST pairs (n=25 patients); AKT1/PI3K pathway context in this cohort was dominated by PIK3CA mutations (41% of DCIS, 42% IDC-NST) [PMID:32220886](../papers/32220886.md)
 - Activating mutations (e.g., W80R) and amplifications in 5/41 (12.2%) CDK4/6i-resistant HR+/HER2- breast cancer biopsies vs 1/18 (5.6%) sensitive; lentiviral overexpression confers CDK4/6i and fulvestrant resistance in T47D cells; first patient-level demonstration of AKT1 as CDK4/6i resistance driver [PMID:32404308](../papers/32404308.md)
+- Pathogenic AKT1 alterations (downstream of PI3K) showed disproportionate VAF expansion under alpelisib + AI therapy in HR+ metastatic breast cancer, consistent with a bypass resistance mechanism. [PMID:32864625](../papers/32864625.md)
 
 ## Cancer types (linked)
 
@@ -165,5 +166,8 @@ AKT1 is a central PI3K/AKT pathway kinase whose activating mutations (notably E1
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

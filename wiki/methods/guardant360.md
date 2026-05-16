@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [liquid-biopsy, ctdna, targeted-sequencing, panel]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -19,6 +19,7 @@ Guardant360 CDx is a commercially available cell-free DNA (cfDNA) liquid biopsy 
 
 - Used for ctDNA profiling of patients 1--5 and 11 in a 12-patient KRASG12C-mutant colorectal cancer cohort treated with combined KRAS/EGFR inhibition; detected heterogeneous acquired resistance alterations including [KRAS](../genes/KRAS.md) switch mutations, [NRAS](../genes/NRAS.md) mutations, [BRAF](../genes/BRAF.md) mutations/fusions, [MET](../genes/MET.md) amplification, and [RET](../genes/RET.md) fusions, all at low variant allele frequency [PMID:36355783](../papers/36355783.md)
 - Used for plasma ctDNA profiling (n=33 patients) in a phase 2 pembrolizumab + trastuzumab + chemotherapy trial for HER2-positive metastatic esophagogastric cancer; detected ERBB2 amplification in 54% of plasma samples with 93% tissue concordance, and VAF-adjusted ERBB2 amplification predicted longer PFS (16.4 vs. 6.2 months; p=0.013) [PMID:32437664](../papers/32437664.md)
+- 73-gene targeted cfDNA panel (CLIA/CAP) applied to 90 pre-/on-/post-treatment plasma samples from 47 HR+ MBC patients in the breast_alpelisib_2020 trial; detected emergent PTEN and ESR1 resistance alleles invisible to single-site biopsy [PMID:32864625](../papers/32864625.md)
 
 ## Notes
 
@@ -32,5 +33,8 @@ Guardant360 CDx is a commercially available cell-free DNA (cfDNA) liquid biopsy 
 - [PMID:32437664](../papers/32437664.md) — Phase 2 pembrolizumab + trastuzumab + chemotherapy trial in HER2-positive metastatic esophagogastric cancer; Guardant360 used for plasma ctDNA ERBB2 amplification profiling and ctDNA dynamics.
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32864625](../papers/32864625.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

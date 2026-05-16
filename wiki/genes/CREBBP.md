@@ -3,7 +3,7 @@ symbol: CREBBP
 aliases: []
 cancer_types: [BLLKMT2A, MNG, LUAD]
 tags: [epigenetic-regulator, relapse]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -50,6 +50,7 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 - CREBBP truncating mutations distal to the HAT domain define a new H3K18/H3K27 hyperacetylation cluster across 1,072 CCLE cancer cell lines, nominated as gain-of-function [PMID:31068700](../papers/31068700.md)
 - MYB transcriptional coactivator; co-occurs with NOTCH1 mutations in relapsed/metastatic adenoid cystic carcinoma [PMID:31483290](../papers/31483290.md)
 - Altered in 20% of 119 UTUC patients (MSK-IMPACT); one of the most frequent chromatin/cohesin pathway alterations alongside KDM6A (38%), ARID1A (20%), KMT2D (26%), and STAG2 (22%) in the upper tract urothelial carcinoma landscape [PMID:32332851](../papers/32332851.md)
+- CREBBP was observed at low frequency, enriched in metastatic vs. primary TNBC samples in a biomarker-guided umbrella trial; functional significance in the metastatic TNBC context is not yet established. [PMID:32719455](../papers/32719455.md)
 
 ## Cancer types (linked)
 
@@ -167,5 +168,8 @@ CREBBP encodes a histone acetyltransferase and transcriptional coactivator. In t
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:32719455](../papers/32719455.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -1,9 +1,9 @@
 ---
 symbol: TERT
 aliases: []
-cancer_types: [ESCC]
+cancer_types: [ESCC, GBM, RBL, IHCH]
 tags: [oncogene, somatic, amplification, telomerase]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -44,14 +44,22 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - Enriched in LEP-predominant LUAD (14% vs 5% ACI/PAP vs 10% MIP/SOL; p=0.012) and among recurrently amplified oncogenes in a 604-patient MSKCC resected LUAD cohort. [PMID:32791233](../papers/32791233.md)
 - TERT promoter explicitly capture-baited in single-melanocyte sequencing study of normal human skin; no TERT promoter mutations detected across sampled normal melanocytes [PMID:33029006](../papers/33029006.md)
 - CH-myeloid-PD gene in therapy-shaped clonal hematopoiesis; truncating, hotspot, or in-frame TERT variants classed as putative drivers per the study annotation rules [PMID:33106634](../papers/33106634.md)
+- Recurrently mutated at 3.6% (3/83) in retinoblastoma ([RBL](../cancer_types/RBL.md)); only non-[RB1](../genes/RB1.md) genes with putative driver status in MSK-IMPACT profiling of 83 enucleated specimens. [PMID:33466343](../papers/33466343.md)
+- Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA; mutually exclusive with [ATRX](../genes/ATRX.md) mutations and co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H in a CPTAC proteogenomic cohort of 99 treatment-naive GBMs. [PMID:33577785](../papers/33577785.md)
+- Promoter alterations enriched in cirrhotic iCCA patients (21% vs 4% non-cirrhotic); co-occurs with [TP53](../genes/TP53.md) mutations (τ=0.19, Q=0.002); univariate OS association dropped from multivariate models due to collinearity with TP53. [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
 - [ESCC](../cancer_types/ESCC.md): TERT focal amplification is a recurrent copy-number event; no subtype-specific enrichment described in the corpus. [PMID:28052061](../papers/28052061.md)
+- [GBM](../cancer_types/GBM.md): Promoter C228T/C250T mutations in 74% of primary GBMs with elevated TERT RNA expression; mutually exclusive with ATRX mutations and co-occurs with TP53 and IDH1 R132H. [PMID:33577785](../papers/33577785.md)
+- [RBL](../cancer_types/RBL.md): Recurrently mutated at 3.6% (3/83) with putative driver status, among the top recurrently altered non-RB1 genes in enucleated retinoblastoma specimens. [PMID:33466343](../papers/33466343.md)
+- [IHCH](../cancer_types/IHCH.md): Promoter alterations enriched in cirrhosis-associated iCCA (21% vs 4%); co-occurs with TP53 (τ=0.19, Q=0.002); not an independent prognostic factor after adjusting for TP53. [PMID:33765338](../papers/33765338.md)
 
 ## Co-occurrence and mutual exclusivity
 
 - Co-amplified with [FGFR1](../genes/FGFR1.md), [MDM2](../genes/MDM2.md), and [NKX2-1](../genes/NKX2-1.md) as part of the recurrent amplification landscape of ESCC; no specific co-occurrence or mutual exclusivity patterns reported. [PMID:28052061](../papers/28052061.md)
+- Mutually exclusive with [ATRX](../genes/ATRX.md) promoter hotspot mutations in GBM; co-occurs with [TP53](../genes/TP53.md) and [IDH1](../genes/IDH1.md) R132H. [PMID:33577785](../papers/33577785.md)
+- Co-occurs with [TP53](../genes/TP53.md) mutations in iCCA (τ=0.19, Q=0.002); mutually exclusive with IDH1/2 mutations (τ=−0.13, Q=0.04). [PMID:33765338](../papers/33765338.md)
 
 ## Therapeutic relevance
 
@@ -125,3 +133,12 @@ TERT (Telomerase Reverse Transcriptase) encodes the catalytic subunit of telomer
 - [PMID:33106634](../papers/33106634.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

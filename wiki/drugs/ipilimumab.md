@@ -5,7 +5,7 @@ drug_class: anti-CTLA-4 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -35,6 +35,7 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 - Prior ipilimumab (anti-CTLA4) exposure stratifies predictors of subsequent anti-PD1 ICB response in melanoma: post-ipilimumab biopsies with low MHC-II HLA expression and low immune infiltrate identify patients very likely resistant to subsequent nivolumab/pembrolizumab monotherapy (median PFS 2.8 vs 38.1 months; median OS 9.0 months vs not reached) [PMID:31792460](../papers/31792460.md).
 - CDK12-biallelic prostate cancers may be enriched for fusion neoantigens and respond to immune checkpoint blockade; a multi-institutional phase 2 trial (NCT03570619) combines nivolumab with ipilimumab in CDK12-altered mCRPC [PMID:32317181](../papers/32317181.md)
 - Listed among prior/comparator therapies in 66 patients with BRAF V600E/K-mutant metastatic [melanoma](../cancer_types/SKCM.md) who subsequently received BRAFi-based treatment; the paper establishes PTEN loss-of-function as a biomarker of intrinsic BRAFi resistance, with checkpoint inhibitor context informing the pre-BRAFi treatment landscape [PMID:32913971](../papers/32913971.md).
+- Used in combination with nivolumab (N=141) in cutaneous/unknown-primary melanoma; nivolumab+ipilimumab TTF did not vary by MAPK driver class, suggesting combination immunotherapy is preferable to PD-1 monotherapy in BRAF V600 and NRAS Q61 patients; TMB still independently predicted TTF (HR 0.51 per 10-fold, P=0.008) and OS [PMID:33509808](../papers/33509808.md)
 
 ## Resistance mechanisms
 
@@ -97,4 +98,6 @@ Ipilimumab is an anti-CTLA-4 monoclonal antibody immune checkpoint inhibitor wit
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:32913971](../papers/32913971.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

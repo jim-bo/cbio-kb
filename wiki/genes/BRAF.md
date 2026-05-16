@@ -3,7 +3,7 @@ symbol: BRAF
 aliases: []
 cancer_types: [CLLSLL, LCH, ECD, MEL, DIFG, NSCLC, THPA]
 tags: [kinase, mapk, actionable]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -129,6 +129,8 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - V600E/K confirmed in all 66 BRAF-mutant melanoma pretreatment tumors; amplification in 3 patients (all intermediate responders); elevated mutant-allele fraction (>2x median) in 9 patients significantly enriched in excellent BRAFi responders (P < .001 vs. poor) [PMID:32913971](../papers/32913971.md)
 - Non-V600 hotspot mutations p.G466R (x1) and p.D594G (x6) detected in normal perilesional melanocytes from donors 6 and 13 (adjacent to melanoma/BCC); classified as weak activators insufficient alone to drive malignancy [PMID:33029006](../papers/33029006.md)
 - BRAFV600E is the dominant oncogenic event in pediatric LGG; BRAFV600E LGG showed downregulated total BRAF protein abundance and upregulation of MAPK pathway substrates and AKT1/AKT2; a subset of craniopharyngioma lacking BRAFV600E shared the BRAFV600E LGG proteomic signature (C4 cluster), nominating MEK inhibition for these CP (CPTAC pediatric brain tumor proteogenomics, n=218 samples) [PMID:33242424](../papers/33242424.md)
+- In 696 melanomas profiled by MSK-IMPACT, BRAF V600E/K/R was present in 31% (N=216); non-V600 BRAF included 55 Class 2 and 30 Class 3 variants; Class 3 mutants co-altered in 97% vs. 38% for Class 2 (p=3.4e-08). A BRAF-AGK Class 2 fusion achieved durable complete metabolic response to PLX8394; BRAF V600 predicted shorter TTF on PD-1 monotherapy (median 7.5 months) vs. NF1-altered tumors (22 months). [PMID:33509808](../papers/33509808.md)
+- In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, BRAF harbored activating mutations in 5% of tumors. [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -468,3 +470,9 @@ BRAF is a serine/threonine kinase in the MAPK pathway whose V600E and fusion alt
 - [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

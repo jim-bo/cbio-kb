@@ -3,8 +3,8 @@ symbol: NTHL1
 aliases: [NTH1]
 cancer_types: []
 tags: [base-excision-repair, BER, germline, dMMR]
-processed_by: entity-page-writer
-processed_at: 2026-05-09
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # NTHL1
@@ -16,6 +16,7 @@ NTHL1 (Nth-like DNA glycosylase 1) encodes a base excision repair (BER) enzyme t
 ## Alterations observed in the corpus
 
 - Germline biallelic loss-of-function in PanNET patient PN2 in a WGTA study of rare metastatic neuroendocrine neoplasms; drove a strong dMMR mutational signature (previously published by the same group) [PMID:40328872](../papers/40328872.md)
+- Germline pathogenic variant p.Gln90* (truncating, autosomal recessive cancer-predisposition gene) identified in 1/42 (~2.4%) retinoblastoma patients tested ([rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md)); part of the 12% non-RB1 germline pathogenic variant rate in retinoblastoma; functional role in retinoblastoma tumorigenesis is not established [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ NTHL1 (Nth-like DNA glycosylase 1) encodes a base excision repair (BER) enzyme t
 - [PMID:40328872](../papers/40328872.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-09**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

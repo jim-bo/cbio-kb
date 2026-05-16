@@ -46,6 +46,9 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 - Applied for allele-specific copy number and LOH analysis in 430 MSS mCRC patients; large state transitions (LST) computed as ≥10 Mb breaks per chromosome arm to assess HRD [PMID:32730818](../papers/32730818.md)
 - Used for copy-number and fraction-genome-altered (FGA) calculations across 604 LUAD patients; FGA correlated with histologic-subtype invasiveness (LEP 0.174, ACI/PAP 0.222, MIP/SOL 0.304) [PMID:32791233](../papers/32791233.md)
 - Applied for allele-specific copy number and cancer cell fraction (CCF) analysis in the breast_alpelisib_2020 cohort; identified PTEN homozygous deletion in ctDNA of resistant HR+ MBC patients [PMID:32864625](../papers/32864625.md)
+- FACETS v0.5.14 applied to 74 matched retinoblastoma specimens for copy-number and clonality calling; 69 yielded evaluable arm-level CNA profiles [PMID:33466343](../papers/33466343.md)
+- FACETS allele-specific copy-number tool applied to 428 melanoma samples (of 696 total) with adequate quality; 92% had only clonal driver alterations [PMID:33509808](../papers/33509808.md)
+- FACETS used for copy-number purity/ploidy correction in 487 EAC/EGJ tumor samples sequenced with MSK-IMPACT [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -126,5 +129,14 @@ Allele-specific copy-number and clonality inference tool for tumor/normal NGS da
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

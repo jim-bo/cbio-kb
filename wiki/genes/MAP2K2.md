@@ -19,6 +19,7 @@ MAP2K2 (MEK2) is a MAPK kinase paralog of [MAP2K1](../genes/MAP2K1.md). In CLL i
 - Novel RAF-inhibitor resistance gene; acquired mutations V35M, L46F, C125S, N126D identified in [BRAF](../genes/BRAF.md) V600-mutant melanoma patients; C125S confers >100-fold cross-resistance to both RAF and MEK inhibition [PMID:24265153](../papers/24265153.md)
 - MAP2K2 (MEK2) listed as part of the MAPK pathway landscape in cutaneous melanoma (TCGA 333-sample cohort); pathway members include [BRAF](../genes/BRAF.md), [NRAS](../genes/NRAS.md), [NF1](../genes/NF1.md), [MAP2K1](../genes/MAP2K1.md), and [RAC1](../genes/RAC1.md) [PMID:26091043](../papers/26091043.md)
 - MAP2K2 (MEK2) Y134H identified in an ECD patient; first functional characterization of MEK2 Y134H in any setting — confirmed ERK-activating and cobimetinib-sensitive in Ba/F3 cells [PMID:30867592](../papers/30867592.md)
+- MAP2K1/MAP2K2 combined at 7% in 696 melanomas ([mel_mskimpact_2020](../datasets/mel_mskimpact_2020.md)); combined with MAP2K1 as 7% of MAPK-pathway drivers; MAP2K2 classified jointly as MAPK-pathway kinase drivers in melanoma [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -48,5 +49,8 @@ MAP2K2 (MEK2) is a MAPK kinase paralog of [MAP2K1](../genes/MAP2K1.md). In CLL i
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

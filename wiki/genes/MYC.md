@@ -102,6 +102,7 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 - MYC amplification enriched in CDK12-biallelic (CDK12-Bi) prostate cancer relative to CDK12-WT (FDR < 0.05); co-occurs with CCND1 and MCL1 amplifications as part of cell-cycle pathway enrichment in CDK12-Bi tumors [PMID:32317181](../papers/32317181.md)
 - Amplifications in 8/41 (19.5%) resistant vs 1/18 (5.6%) sensitive HR+/HER2- MBC biopsies; background enrichment in CDK4/6i-resistant tumors [PMID:32404308](../papers/32404308.md)
 - Recurrently amplified oncogene across 604 stage I-III resected LUAD; the Myc oncogenic pathway is significantly enriched in micropapillary/solid subtypes (13% vs 5.6% ACI/PAP vs 9.1% LEP; p=0.022). [PMID:32791233](../papers/32791233.md)
+- MYC amplification is one of 10 amplification-driven recurrent oncogenic drivers (≥5% prevalence) in 487 esophagogastric adenocarcinoma tumors ([egc_mskcc_2020](../datasets/egc_mskcc_2020.md)); no independent OS association reported for MYC alone in this cohort [PMID:33795256](../papers/33795256.md)
 
 ## Cancer types (linked)
 
@@ -359,5 +360,8 @@ MYC is a master transcriptional oncogene dysregulated across many cancers throug
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

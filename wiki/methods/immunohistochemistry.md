@@ -63,6 +63,7 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 - IHC performed for MMR proteins to identify MSI-H Lynch-associated UTUC tumors in 119-patient cohort; Masson trichrome and Picro Sirius red also used for ECM characterization [PMID:32332851](../papers/32332851.md)
 - IHC staining for AR, CD8, and FOXC1 used as subtype surrogates to classify 69 refractory metastatic TNBC patients into LAR/IM/BLIS/MES subtypes in the FUTURE umbrella trial; MMR status also assessed by IHC [PMID:32719455](../papers/32719455.md)
 - IHC with immunoreactivity score (IRS = intensity × proportion, 0–12) applied to 80-patient CRC tissue microarray; CGREF1 overexpressed (IRS ≥4) in 61.25% of CRC vs 0% of normal tissues (p=0.00001); MMR assessed by IHC [PMID:32888432](../papers/32888432.md)
+- IHC used to validate ATRX protein loss in 9 ATRX-mutant GBMs, immune subtypes (CD3, CD68, CD163, PD-1, PD-L1), and EGFR-related proteins (SOX9, GAB1); xCell-based immune subtypes confirmed by IHC on 99-tumor CPTAC GBM cohort [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -199,5 +200,8 @@ Antibody-based detection of protein expression in formalin-fixed, paraffin-embed
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

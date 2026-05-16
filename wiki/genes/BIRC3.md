@@ -9,8 +9,8 @@ tags:
   - apoptosis
   - iap-family
   - amplification
-processed_by: crosslinker
-processed_at: 2026-05-14
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # BIRC3
@@ -26,6 +26,7 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 - Within a recurrent significant homozygous-deletion peak in multiple myeloma (MM); co-deleted with [BIRC2](../genes/BIRC2.md) as part of the NF-kB pathway regulatory locus; recurrent homozygous deletions at this locus identified by GISTIC across 153 MM patients [PMID:24434212](../papers/24434212.md)
 - Inhibitor-of-apoptosis protein cIAP2; targeted by [tolinapant](../drugs/tolinapant.md) + radiotherapy in [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
 - BIRC3 enriched in prior-treatment CLL samples; co-occurs with tri(12); copy loss precedes sSNV/sINDEL in biallelic inactivation; did not replicate as a PFS predictor in the CLL8 trial (frontline fludarabine-based chemoimmunotherapy, n=278) [PMID:26466571](../papers/26466571.md)
+- In 83 enucleated retinoblastomas profiled by MSK-IMPACT, BIRC3 harbored a subclonal mutation (p.A385D, VUS) in a single RB1-wildtype specimen alongside a PBRM1 truncating mutation; this tumor had only a 6p gain detectable on panel sequencing. [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +61,6 @@ BIRC3 (baculoviral IAP repeat-containing 3, also known as cIAP2) is an IAP famil
 - [PMID:26466571](../papers/26466571.md)
 
 *This page was processed by **crosslinker** on **2026-05-14**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [transcriptomics, clustering, subtype-discovery, dimensionality-reduction]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ Non-negative matrix factorization (NMF) clustering is an unsupervised machine-le
 ## Used by
 
 - Applied in the Sherlock-Lung NS-LUAD study ([luad_oncosg_2020](../datasets/luad_oncosg_2020.md)) on RNA-seq from 684 treatment-naive never-smoker lung adenocarcinomas (610 Sherlock-Lung + 74 TCGA-LUAD); rank-3 NMF identified three transcriptomic subtypes — *steady* (normal-like, alveolar-enriched, best survival), *proliferative* (MYC-driven, TP53-mutant-enriched), and *chaotic* (EMT-high, fibroblast-enriched, worst prognosis); subtypes validated with a 60-gene [ClaNC](../methods/clanc.md)-derived signature in the GIS cohort (n=110) [PMID:32015526](../papers/32015526.md).
+- Multi-omics NMF clustering across 10 data platforms in 99 treatment-naive GBMs recapitulated TCGA expression subtypes (proneural-like nmf1, mesenchymal-like nmf2, classical-like nmf3) but reclassified 29% of tumors; mixed-subtype tumors (n=12) had significantly worse survival (log-rank p=1.7e-4) [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -31,3 +32,6 @@ Non-negative matrix factorization (NMF) clustering is an unsupervised machine-le
 - [PMID:32015526](../papers/32015526.md) — Sherlock-Lung NS-LUAD transcriptomic subtyping
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

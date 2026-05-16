@@ -2,11 +2,10 @@
 symbol: CDK6
 aliases: []
 cancer_types:
-  - GB
-tags:
-  - rb-pathway
-  - cell-cycle
-processed_by: wiki-cli
+  - EAC
+  - GBM
+tags: []
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -14,90 +13,34 @@ processed_at: 2026-05-16
 
 ## Overview
 
-*CDK6* (Cyclin-dependent kinase 6) is a member of the cyclin-dependent kinase family, which plays a crucial role in cell cycle progression by phosphorylating and inactivating the retinoblastoma protein (pRb). Alterations in *CDK6*, such as amplification, lead to constitutive activation of the cell cycle and are frequently observed in various cancers, including glioblastoma.
+CDK6 (Cyclin-Dependent Kinase 6) partners with Cyclin D proteins to phosphorylate and inactivate RB1, driving cell cycle progression through G1 into S phase. CDK6 amplification is a recurrent oncogenic event in multiple cancer types. In glioblastoma, CDK6 is upregulated specifically in EGFR-altered tumors, while in esophageal adenocarcinoma it is among the amplification-driven recurrent drivers.
 
 ## Alterations observed in the corpus
 
-- **Amplification/Alteration**: Observed in 1% of glioblastoma samples as part of the core RB pathway alterations [PMID:18772890](../papers/18772890.md).
-- Identified as mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); cell cycle pathway member co-altered with [CDK4](../genes/CDK4.md), [CCND1](../genes/CCND1.md), [CCNE1](../genes/CCNE1.md), and CDKN2A/B. [PMID:18948947](../papers/18948947.md)
-- Amplified/mutated in TCGA lung squamous cell carcinoma cohort (178 tumors) [PMID:22960745](../papers/22960745.md)
-- Frequently focally amplified in esophageal adenocarcinoma (EAC), contributing to cell-cycle deregulation [PMID:23525077](../papers/23525077.md)
-- Recurrent focal amplification in [GBM](../cancer_types/GBM.md); contributes to Rb-pathway dysregulation (overall 78.9% of [GBM](../cancer_types/GBM.md)) [PMID:24120142](../papers/24120142.md)
-- Co-targeted with [CDK4](../genes/CDK4.md) by [dalpiciclib](../drugs/dalpiciclib.md) in [NPC](../cancer_types/NPC.md); combination + [camrelizumab](../drugs/camrelizumab.md) achieved ORR 32.4% in PD-1-refractory R/M [NPC](../cancer_types/NPC.md) [PMID:24952746](../papers/24952746.md)
-- Recurrent focal amplification in CIN gastric adenocarcinoma; co-amplified with [CCNE1](../genes/CCNE1.md) and [CCND1](../genes/CCND1.md); suggests CDK4/6 inhibitor evaluation in CIN-subtype tumours [PMID:25079317](../papers/25079317.md)
-- Amplification identified in Pt2 of a multi-region WGS gastric cancer case study; combined [AURKC](../genes/AURKC.md) and CDK6 inhibitors proposed as therapeutic strategy for this patient [PMID:25583476](../papers/25583476.md)
-- High-level copy-number gain in 2 of 29 cutaneous squamous cell carcinoma samples by GISTIC analysis [PMID:25589618](../papers/25589618.md)
-- Recurrently amplified in HNSCC in the 279-tumor TCGA HNSCC cohort (11q13.5 region); co-amplified with CCND1/FADD/CTTN cassette in HPV(-) subset [PMID:25631445](../papers/25631445.md)
-- Mentioned in study [PMID:26829750](../papers/26829750.md)
-- CDK6 amplified in additional ESCCs (especially ESCC2) lacking CCND1 amplification; combined CDKN2A loss and CDK6 amplification in ESCC supports CDK4/6 inhibitor evaluation [PMID:28052061](../papers/28052061.md)
-- Additional recurrently altered candidate driver in medulloblastoma, stratified across subgroups in oncoprint analyses of the ICGC/CBTTC cohort (n=491) [PMID:28726821](../papers/28726821.md).
-- CDK6 amplification co-occurs with TP53 mutation in the cell-cycle pathway co-alteration cluster; CDK6 is part of the 10-pathway framework across 9,125 TCGA tumors where the cell-cycle pathway is broadly altered except in UVM, THYM, TGCT, and LAML [PMID:29625050](../papers/29625050.md)
-- Focal amplification in 20% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases; one of the most recurrent copy-number gains alongside MYC (73%), MET (24%), and CCNE1 (24%) [PMID:31130341](../papers/31130341.md)
-- Focal gain co-acquired with CDKN2A loss as part of the cell-cycle module in recurrent IDHmut-noncodel glioma (along with CDK4 and CCND2); the aneuploidy + cell-cycle alteration subgroup has significantly shorter survival (log-rank P < 0.0001) [PMID:31748746](../papers/31748746.md)
-- CDK6 amplification in 1% of 83 glioblastoma PDX, contributing to Rb pathway inactivation alongside CDK4 amplification (8%) and RB1 loss/mutation (16%) [PMID:31852831](../papers/31852831.md)
-- Discussed as a prior-literature CDK4/6 inhibitor resistance candidate; not enriched in resistant vs sensitive HR+/HER2- breast cancer biopsies in this 59-biopsy cohort [PMID:32404308](../papers/32404308.md)
-- CDK4/6 activity tracks proliferation in HR+/ERBB2− but not TNBC breast tumors (CPTAC proteogenomics, n=122); in TNBC, Rb protein status — not RB1 genotype — is the determinant of CDK4/6 inhibitor sensitivity [PMID:33212010](../papers/33212010.md)
+- CDK6 upregulation is observed in EGFR-altered GBM tumors in the CPTAC proteogenomic cohort (gbm_cptac_2021, n=99); CDK6 protein tracks with UBE2I (Pearson r = 0.413), a known SUMOylation target [PMID:33577785](../papers/33577785.md).
+- CDK6 amplification is a recurrent driver at ≥5% frequency in esophageal/GEJ adenocarcinoma (egc_mskcc_2020, n=487); grouped among amplification-driven recurrent drivers without independently demonstrated OS association [PMID:33795256](../papers/33795256.md).
 
 ## Cancer types (linked)
 
-- **Glioblastoma ([GB](../cancer_types/GB.md))**: Identified as a component of the RB signaling pathway, which is altered in approximately 88% of glioblastoma cases [PMID:18772890](../papers/18772890.md).
+- **Glioblastoma (GBM):** CDK6 protein upregulated in EGFR-altered tumors; correlates with UBE2I SUMOylation activity [PMID:33577785](../papers/33577785.md).
+- **Esophageal/gastroesophageal junction adenocarcinoma (EAC):** CDK6 amplification at ≥5% frequency; no independent OS association in this cohort [PMID:33795256](../papers/33795256.md).
+
+## Co-occurrence and mutual exclusivity
+
+- Co-occurs with EGFR structural variants and amplification in GBM; also elevated alongside CTNND2 and CDKN2C in EGFR-altered tumors [PMID:33577785](../papers/33577785.md).
+- Co-occurs with MYC, VEGFA, EGFR, and CCND3 amplifications in EAC [PMID:33795256](../papers/33795256.md).
+
+## Therapeutic relevance
+
+- CDK6 upregulation in EGFR-altered GBM may be relevant to CDK4/6 inhibitor strategies; not directly tested in the corpus [PMID:33577785](../papers/33577785.md).
+
+## Open questions
+
+- Whether CDK6 amplification independently drives resistance or contributes to prognosis in EAC beyond its association with chromosomal instability is not established [PMID:33795256](../papers/33795256.md).
 
 ## Sources
 
-- [PMID:18772890](../papers/18772890.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:18948947](../papers/18948947.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:22960745](../papers/22960745.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:23525077](../papers/23525077.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24120142](../papers/24120142.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:24952746](../papers/24952746.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25079317](../papers/25079317.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25583476](../papers/25583476.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25589618](../papers/25589618.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:25631445](../papers/25631445.md)
-
-*This page was processed by **crosslinker** on **2026-05-14**.*
-- [PMID:26829750](../papers/26829750.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-- [PMID:28052061](../papers/28052061.md)
-
-*This page was processed by **wiki-cli** on **2026-05-14**.*
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
-- [PMID:28726821](../papers/28726821.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
-- [PMID:29625050](../papers/29625050.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31130341](../papers/31130341.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31748746](../papers/31748746.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:31852831](../papers/31852831.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
-- [PMID:32404308](../papers/32404308.md)
-- [PMID:33212010](../papers/33212010.md)
+- [PMID:33577785](../papers/33577785.md)
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

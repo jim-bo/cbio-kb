@@ -24,6 +24,7 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 - Identified as significantly mutated in TCGA colorectal cancer cohort (276 tumors); SOX9 mutations observed among Wnt pathway-related alterations [PMID:22810696](../papers/22810696.md)
 - SOX9 alteration drives elevated WNT-pathway mutation frequency in duodenal adenocarcinoma (DUOAC) alongside APC in the pan-periampullary WGS study [PMID:26804919](../papers/26804919.md)
 - 19 mutated colon tumors (mostly truncating, downstream of HMG box, upstream of K398 ubiquitin site); protein significantly overexpressed vs NATs (p=1.02×10⁻¹⁰) despite truncating mutations; reclassified as oncogene because truncations stabilize the protein [PMID:31031003](../papers/31031003.md)
+- Protein upregulated in EGFR-altered GBM tumors; IHC-validated in 5/6 tested tumors; identified in multi-omic proteogenomic profiling as an EGFR-associated marker [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ SOX9 (SRY-Box Transcription Factor 9) is a master transcription factor in chondr
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

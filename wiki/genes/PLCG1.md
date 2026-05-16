@@ -18,6 +18,7 @@ PLCG1 (phospholipase C gamma 1) encodes a signaling enzyme involved in receptor 
 - PLCG1 mutations were identified in RT-AS in a whole-genome sequencing study of radiation-associated secondary malignancies; PLCG1 mutations were found alongside [PTPRB](../genes/PTPRB.md) mutations in RT-AS driver landscapes [PMID:37350195](../papers/37350195.md).
 - Three point mutations in Sézary syndrome: novel p.Gly722Val and previously reported gain-of-function alleles p.Arg48Trp and p.Glu1163Lys [PMID:26551667](../papers/26551667.md)
 - Low-frequency gene enriched in metastatic vs primary TNBC samples in the FUSCC cohort; profiled by 484-gene targeted NGS panel in 69 refractory metastatic TNBC patients. [PMID:32719455](../papers/32719455.md)
+- Y783 phosphorylation significantly elevated in EGFR-altered GBM (Wilcox FDR <0.01) without change in PLCG1 protein; diacylglycerol (DG) levels correlate with PLCG1 protein; acts downstream of EGFR [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -44,5 +45,8 @@ PLCG1 (phospholipase C gamma 1) encodes a signaling enzyme involved in receptor 
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:32719455](../papers/32719455.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

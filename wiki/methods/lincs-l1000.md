@@ -5,7 +5,7 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [drug-connectivity, perturbation-database, transcriptomics, drug-repurposing]
-processed_by: crosslinker
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -18,6 +18,7 @@ LINCS L1000 is a high-throughput gene expression profiling platform and perturba
 ## Used by
 
 - Used in a drug-connectivity analysis comparing HGG vs [LGG](../cancer_types/LGG.md) RNA and phosphoproteomic signatures in pediatric brain tumors (N=218, [brain_cptac_2020](../datasets/brain_cptac_2020.md)); CDK inhibitors were predicted (from RNA + phosphoproteomic evidence) to reverse the HGG-aggressiveness signature, and MEK, proteasome, and HDAC inhibitors were predicted from RNA data alone [PMID:33242424](../papers/33242424.md)
+- LINCS L1000 RNA perturbation signatures combined with P100 phosphoproteomic data used for drug-connectivity analysis in 99 GBM tumors; nominated broader kinase-inhibitor panel for EGFR-altered and MAPK inhibitors for NF1-altered tumors [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -29,3 +30,6 @@ LINCS L1000 is a high-throughput gene expression profiling platform and perturba
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

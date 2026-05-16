@@ -26,6 +26,7 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 - B2M focally deleted in both lung ADC and SqCC, enriched for loss-of-function mutations (Pan-Lung FDR q=0.006); HLA-A/B implicated in MHC-I antigen presentation loss in TCGA pan-lung cancer cohort [PMID:27158780](../papers/27158780.md)
 - Antigen-presentation gene profiled in OncoPrint alongside JAK1/JAK2/JAK3, POLE, CD274, PTEN, and ATR in a 240-patient NSCLC immunotherapy cohort; targeted panels were noted to lack comprehensive HLA coverage, motivating future panel expansion [PMID:29337640](../papers/29337640.md)
 - HLA-A focal amplification (chr 6p21 MHC-I region, ~1.5 Mb) found exclusively in anti-PD1 responders among 144 advanced melanoma patients (n=6; Fisher's P=0.008); HLA-A LOH was not associated with response (Fisher's P=0.52) [PMID:31792460](../papers/31792460.md)
+- Recurrently altered at ~3.6% in MSK-IMPACT retinoblastoma cohort (n=83); listed among the top ten non-RB1 recurrently altered genes with putative-driver variants [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -73,5 +74,8 @@ HLA-A encodes a classical MHC class I molecule critical for antigen presentation
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:31792460](../papers/31792460.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

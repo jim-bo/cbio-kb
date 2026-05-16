@@ -25,6 +25,7 @@ TMT phosphoproteomics combines isobaric tandem mass tag (TMT) labeling with phos
 
 - Applied to 96 CPTAC colon cancer tumor/NAT pairs ([coad_cptac_2019](../datasets/coad_cptac_2019.md)); quantified 7,295 phosphosites; 63 were upregulated >2-fold in tumors (mapping to 50 proteins); revealed [RB1](../genes/RB1.md) hyperphosphorylation at four E2F-regulating sites (T373, S807, S811, T826) as the principal Rb-pathway lesion (1.84-fold higher than NATs, p<2.2×10⁻¹⁶), with [CDK2](../genes/CDK2.md) predicted to be the dominant upstream kinase (r=0.47, p=1.8×10⁻⁶) [PMID:31031003](../papers/31031003.md)
 - Performed with IMAC enrichment alongside global proteomics in the CPTAC endometrial carcinoma study (n=95 tumors); identified PLK1-T210 phosphorylation elevated in TP53-truncating mutant tumors and CHEK2-S163/TP53BP1-S1763 phosphorylation elevated in serous tumors [PMID:32059776](../papers/32059776.md).
+- TMT-11-plex IMAC-enriched phosphoproteome on Orbitrap Fusion Lumos applied to 99 treatment-naive GBMs; identified 95 cis-trans phosphorylation events and nominated PTPN11/PLCG1 as convergent RTK signaling hubs; validated in 39-tumor CBTTC pediatric cohort [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -36,5 +37,8 @@ TMT phosphoproteomics combines isobaric tandem mass tag (TMT) labeling with phos
 
 *This page was processed by **crosslinker** on **2026-05-16**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

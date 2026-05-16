@@ -7,7 +7,7 @@ tags:
   - pi3k-pathway
   - oncogene
   - amplification
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -27,6 +27,7 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - AKT2 G16D acquired post-everolimus in a metastatic panNET patient, detected by serial NGS as a resistance mechanism [PMID:30687805](../papers/30687805.md)
 - No hotspot mutations observed in AKT2 across 51 BRAF-mutant melanoma patients treated with BRAFi monotherapy; AKT2 was surveyed but did not emerge as a resistance driver in this pretreatment sequencing study [PMID:32913971](../papers/32913971.md)
 - AKT2 protein and RNA are upregulated in BRAFV600E pediatric LGG vs BRAFWT (validated by MRM); AKT2-substrate phosphosites (including HNRNPUL1/HNRNPUL2) formed a BRAFV600E-specific phosphosite co-expression module in the CPTAC pediatric brain tumor proteogenomic study (n=218 samples) [PMID:33242424](../papers/33242424.md)
+- In a proteogenomic study of 99 GBMs, AKT2 is potentially activated downstream of PTEN loss; AKT1S1 connects strongly to AKT1/AKT2/AKT3 kinases in phosphoproteomic network analysis. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -67,3 +68,6 @@ AKT2 is a serine/threonine kinase in the PI3K-AKT-mTOR signaling pathway. It is 
 - [PMID:33242424](../papers/33242424.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

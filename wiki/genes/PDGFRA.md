@@ -43,6 +43,8 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 - Among 12 candidate dNdScv-nominated mutation drivers tested in diffuse glioma (GLASS cohort); not significantly enriched in non-hypermutator recurrences [PMID:31748746](../papers/31748746.md)
 - No amplification observed in any GBM PDX (n=84) despite ~15% expected frequency in IDH-wildtype GBM; three PDX carried SNVs including D842V; GBM159 demonstrated PDX-engraftment-associated amplification loss (FISH: 45–75% of patient cells amplified, none in PDX) [PMID:31852831](../papers/31852831.md)
 - Top druggable kinase nominated by a BRAFFusion-specific phosphosite module in pediatric LGG; PDGFRA RNA/protein in BRAFFusion LGG were comparable to HGG levels, motivating evaluation of PDGFRA inhibitors in this subtype. [PMID:33242424](../papers/33242424.md)
+- RTK gene in the 28-gene melanoma driver panel; appears more often as a co-alteration than a sole driver in BRAF/RAS-stratified melanoma [PMID:33509808](../papers/33509808.md)
+- Amplified preferentially in proneural and IDH-mutant GBM tumors; elevated phospho-S1067/S1070; trans-phosphorylates PTPN11 Y546/Y584 [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -140,5 +142,11 @@ PDGFRA encodes platelet-derived growth factor receptor alpha; activating mutatio
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:33242424](../papers/33242424.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

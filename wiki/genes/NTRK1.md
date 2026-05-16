@@ -35,6 +35,7 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 - NTRK1 fusions were not observed in 195 cholangiocarcinoma patients profiled by MSK-IMPACT, despite prior reports of NTRK1 fusions in cholangiocarcinoma [PMID:29848569](../papers/29848569.md)
 - CHTOP–NTRK1 fusion detected in GBM PDX; flagged as potentially targetable alongside PTPRZ1–MET and FGFR3–TACC3 fusions [PMID:31852831](../papers/31852831.md)
 - Recurrent in-frame kinase-domain-preserving fusions; predominantly intrachromosomal (not interstitial deletions); partners include ETV6 (exclusive to NTRK3), GON4L, TPM3, LMNA; 48 unique NTRK fusion events across 113 cases in MSK cohort [PMID:31871300](../papers/31871300.md)
+- Rare oncogenic fusion (NTRK1 fusion) reported in melanoma; targeted successfully with [larotrectinib](../drugs/larotrectinib.md) yielding complete response in a BRAF V600-wild-type patient [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -82,5 +83,8 @@ NTRK1 encodes the TrkA receptor tyrosine kinase. Oncogenic NTRK1 fusions are act
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31871300](../papers/31871300.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

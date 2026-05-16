@@ -21,6 +21,7 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 - GNAQ Q209P (uveal-melanoma hotspot) observed in one patient in a cohort of 180 advanced germ cell tumors profiled by MSK-IMPACT; listed as a potentially actionable alteration with MEK inhibitors nominated as candidate therapy [PMID:27646943](../papers/27646943.md)
 - GNAQ activating mutations in uveal melanoma (UVM) drive calcium-signaling deregulation; GNAQ and GNA11 mutations are the dominant oncogenic events in UVM, identified in pan-cancer somatic-interaction analysis across 33 TCGA tumor types [PMID:29625049](../papers/29625049.md)
 - Mentioned in the pan-cancer genomic context of synchronous DCIS/IDC-NST analysis by WES (n=25 patients, MSKCC) [PMID:32220886](../papers/32220886.md)
+- Rare G-protein driver at 1% frequency in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas) [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -53,5 +54,8 @@ GNAQ encodes a G-protein alpha subunit (Gq) that transduces signals from G-prote
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32220886](../papers/32220886.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

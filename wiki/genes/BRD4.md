@@ -26,6 +26,7 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 - BRD4 involved in a novel NUTM1-BRD4 in-frame fusion (NUT exons 1-2, BRD4 exons 14-20) in a single ATC case from a 34-year-old woman who was alive 10 years post-diagnosis — a clinical outlier in the PDTC/ATC cohort (n=117) [PMID:26878173](../papers/26878173.md)
 - placeholder
 - BRD4 protein levels negatively correlated with H3K27 and H3K36 acetylation in uterine corpus endometrial carcinomas (n=95, CPTAC 2020); BRD4 and SIRT3 protein show inverse correlation with histone acetylation marks in ARID1A- and KRAS-mutant samples [PMID:32059776](../papers/32059776.md)
+- In a proteogenomic study of 99 GBMs, BRD4 was linked via Lasso regression to H2B N-terminal acetylation sites; BRD1/BRD3/BRD4 activity marks a classical-like, immune-low GBM subset and nominating BET inhibitors as therapeutic candidates. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -63,5 +64,8 @@ BRD4 is a member of the BET (bromodomain and extraterminal domain) family of chr
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32059776](../papers/32059776.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

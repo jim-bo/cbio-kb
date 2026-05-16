@@ -25,6 +25,7 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 - Notably absent from the top 421 differentially expressed genes used for expression clustering in acral lentiginous melanoma (ALM), in contrast to its key role in cutaneous melanoma; this absence distinguishes ALM's transcriptional landscape from CM [PMID:28373299](../papers/28373299.md)
 - Non-DNA-repair presumed pathogenic germline mutation (PPGM) identified in 5 of 500 metastatic cancer patients (8%), enriched vs. ExAC controls; implicated as a germline cancer-predisposition gene across cancer types in MET500 cohort [PMID:28783718](../papers/28783718.md)
 - MITF — 3 amplifications observed exclusively in poor/intermediate responders among BRAF-mutant melanoma patients treated with BRAFi; association with resistance not statistically significant due to small numbers [PMID:32913971](../papers/32913971.md)
+- Germline pathogenic variant p.Glu419Lys identified in 1/42 (~2.4%) retinoblastoma patients tested ([rbl_mskcc_2020](../datasets/rbl_mskcc_2020.md)); detected as a non-RB1 cancer-predisposition germline mutation in a cohort where 5/42 (12%) had germline pathogenic variants outside RB1 [PMID:33466343](../papers/33466343.md)
 
 ## Cancer types (linked)
 
@@ -72,5 +73,8 @@ MITF (Microphthalmia-Associated Transcription Factor) is the master transcriptio
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:32913971](../papers/32913971.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

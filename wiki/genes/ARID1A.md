@@ -3,7 +3,7 @@ symbol: ARID1A
 aliases: []
 cancer_types: [CLLSLL, LUAD, NSCLC]
 tags: [swi-snf, chromatin-remodeling, driver]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -98,6 +98,9 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - ARID1A mutations in breast cancer (CPTAC proteogenomics, n=122) associate with elevated phospho-TNIK (WNT pathway), nominating TNIK inhibition as a synthetic-lethal strategy in ARID1A-mutant luminal BRCA [PMID:33212010](../papers/33212010.md)
 - ARID1A truncating mutation identified as private to the DCIS+IDC-NST components of case JuP3 in a 3-patient juvenile papillomatosis (JP) cohort with matched benign/DCIS/invasive sampling [PMID:33263939](../papers/33263939.md)
 - ARID1A recurrent (P=0.01) in UTUC WES cohort (n=40); associated with higher mutational load (P=0.01); enriched in muscle-invasive (MI) tumors (33% MI vs 0% NMI, P=0.042, FDR=0.2); collapsed into the SWI/SNF composite mutation feature for iClusterBayes subtyping [PMID:33397444](../papers/33397444.md)
+- In 83 enucleated retinoblastomas profiled by MSK-IMPACT, ARID1A was somatically mutated in 3/83 (3.6%) specimens and carried putative-driver variants, making it one of the few non-RB1 genes with driver-level mutations in this cohort. [PMID:33466343](../papers/33466343.md)
+- In a bi-institutional cohort of 412 iCCA patients profiled by MSK-IMPACT, ARID1A was inactivated in 20% of tumors, consistent with its role as a major chromatin-remodeling tumor suppressor in biliary tract cancers. [PMID:33765338](../papers/33765338.md)
+- In 487 esophagogastric adenocarcinomas profiled by MSK-IMPACT, ARID1A was altered in 17% of TP53-wild-type tumors, serving as one of the most common alternative drivers in this TP53-WT subset. [PMID:33795256](../papers/33795256.md)
 
 ## Cancer types (linked)
 
@@ -338,3 +341,12 @@ ARID1A encodes a SWI/SNF chromatin-remodeling complex subunit and is recurrently
 - [PMID:33397444](../papers/33397444.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -180,6 +180,7 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - Used in the CPTAC endometrial carcinoma study (n=95 tumors, 49 normal samples) on Illumina HiSeq4000 (paired 76-cycle, min 150× on-target coverage, hg38); identified novel SMGs in MSI tumors including INPPL1 (56%), KMT2B (56%), and JAK1 (44%) [PMID:32059776](../papers/32059776.md).
 - WES (median 186× tumor / 126× normal) performed on 56 samples from 25 patients with synchronous DCIS/IDC-NST pairs plus 7 pure DCIS; median 37 non-synonymous somatic mutations per DCIS [PMID:32220886](../papers/32220886.md)
 - WES performed on UCC03 and UCC30 UTUC tumor/PDX pairs to confirm linear and branched clonal evolution; APOBEC signature stable across passages in UCC03 but Signature 2 lost in UCC30 PDX [PMID:32332851](../papers/32332851.md)
+- WES on Illumina HiSeq 4000 (minimum 150× on-target) performed on all 99 treatment-naive GBM tumors as part of 10-platform CPTAC proteogenomic profiling (PCR-free WGS also performed at ≥15× tumor depth) [PMID:33577785](../papers/33577785.md)
 
 ## Notes
 
@@ -633,5 +634,8 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32332851](../papers/32332851.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

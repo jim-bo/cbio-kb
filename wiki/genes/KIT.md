@@ -48,6 +48,7 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 - Single OncoKB-level-annotated actionable alteration (n=1 patient) contributing to the 67% actionable tally in metastatic endometrial cancer (189 patients, MSK cohort) [PMID:30068706](../papers/30068706.md)
 - KIT amplification was acquired in patient #28 (IDH-WT GBM) tumour sample #3 alongside PDGFRA amplification but was lost in the later CSF sample, illustrating branched evolution in receptor tyrosine kinase signalling during glioma progression (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
 - KIT alterations co-occur with high phospho-SHP2 (Y542) in AML cell lines sensitive to ponatinib; in 7/9 ponatinib-sensitive AML lines, alterations in FLT3, PDGFRA, FGFR1, or KIT were detected [PMID:31068700](../papers/31068700.md).
+- Altered in 4% of melanomas in a 28-gene MSK-IMPACT cohort (n=655); KIT-driven patients were older (median 72 years) with median TMB 37 mut/Mb; not targeted on study but historically responds to imatinib [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -159,5 +160,8 @@ KIT is a receptor tyrosine kinase and a canonical oncogenic driver in [GIST](../
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31068700](../papers/31068700.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

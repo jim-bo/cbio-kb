@@ -41,6 +41,8 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 - Truncating / biallelic loss-of-function mutations enriched in CR/PR responders across multiple histologies (melanoma, lung, bladder, HNSCC) in a pooled ICB cohort (193 patients); generalizes prior ccRCC findings; PBAF SWI/SNF family alterations show the same responder-enrichment pattern [PMID:30150660](../papers/30150660.md)
 - Detected as a somatic alteration in metastatic panNET patients sequenced with MSK-IMPACT; PBRM1 is among the chromatin-remodeling genes in the SWI/SNF complex class interrogated in this cohort [PMID:30687805](../papers/30687805.md)
 - PBRM1 is a member of the SWI/SNF complex mutated in 19.5% of combined hepatocellular-cholangiocarcinoma (cHCC-ICC) cases jointly with ARID1A, ARID2, and BRD7 [PMID:31130341](../papers/31130341.md)
+- Subclonal alteration in a single RB1-wildtype retinoblastoma specimen (along with BIRC3); not recurrently mutated in the 83-tumor cohort [PMID:33466343](../papers/33466343.md)
+- Mutated in 12% of intrahepatic cholangiocarcinoma (iCCA) in a 412-patient retrospective cohort at MSKCC/Erasmus; not independently prognostic in this analysis [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -114,5 +116,11 @@ PBRM1 (Polybromo-1) encodes a chromatin-remodeling subunit of the SWI/SNF comple
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:31130341](../papers/31130341.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -40,6 +40,10 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 - Applied to 4 samples (Case 9) in synchronous DCIS/IDC-NST WES cohort (n=56); IMPACT468 at median 596× tumor depth [PMID:32220886](../papers/32220886.md)
 - One of three panel versions (341/410/468) used across 26,743 MSK-IMPACT pan-cancer tumors; all include CDK12 [PMID:32317181](../papers/32317181.md)
 - Used to sequence 406 of 604 surgically resected stage I–III LUAD patients (1.22 Mb coverage); the predominant panel version in this LUAD histologic-subtype study at MSKCC [PMID:32791233](../papers/32791233.md)
+- MSK-IMPACT468 (468-gene somatic panel, 88-gene germline panel) applied to 83 enucleated retinoblastoma specimens; detects SNVs, indels, focal CNAs, and select rearrangements [PMID:33466343](../papers/33466343.md)
+- IMPACT468 (468-gene panel) used to sequence the majority of 696 melanoma tumors at MSKCC and Lehigh Valley between 2014–2019 [PMID:33509808](../papers/33509808.md)
+- IMPACT468 (468-gene panel) used to sequence 225 of 412 iCCA patients (largest version subset) in bi-institutional NGS study [PMID:33765338](../papers/33765338.md)
+- IMPACT468 (468-gene panel) applied to 338 of 487 EAC/EGJ patients (the predominant version) at MSK; all 16 recurrent driver genes present in each panel version [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -100,5 +104,17 @@ Targeted (468 cancer genes) sequencing of various tumor types via MSK-IMPACT on 
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

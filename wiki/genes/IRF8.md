@@ -4,7 +4,7 @@ aliases: []
 cancer_types:
   - DLBCLNOS
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -17,6 +17,7 @@ IRF8 (Interferon Regulatory Factor 8) is a transcription factor critical for B-c
 ## Alterations observed in the corpus
 
 - IRF8 identified as a recurrently mutated gene in DLBCL in a 304-patient WES cohort (Chapuy et al.); part of the 98 candidate cancer genes including 40 previously undescribed drivers defined across C1–C5 subtypes. [PMID:29713087](../papers/29713087.md)
+- RNA and protein upregulated in NF1-altered GBM tumors; identified as a microglial motility transcription factor whose expression tracks NF1 loss-of-function alterations in a CPTAC GBM proteogenomic cohort (n=99) [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ IRF8 (Interferon Regulatory Factor 8) is a transcription factor critical for B-c
 - [PMID:29713087](../papers/29713087.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

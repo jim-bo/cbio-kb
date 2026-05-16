@@ -3,7 +3,7 @@ symbol: RASA1
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,8 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - E208Vfs*16 frameshift mutation in 1/19 (5%) of 1p/19q-codeleted anaplastic oligodendroglioma [PMID:28472509](../papers/28472509.md)
 - Newly nominated CCA driver; inactivating mutations in 4.1% (10 frame-shift, 4 nonsense) plus focal copy-number losses, both correlated with reduced expression; shRNA knockdown in CCA cell lines (M213, HUCCT1) enhanced migration and invasion in Transwell assays, supporting tumor-suppressor function [PMID:28667006](../papers/28667006.md)
 - RASA1 (RAS GTPase-activating protein) is a RAS-pathway negative regulator whose loss is mutually exclusive with EGFR amplification pan-cancer, suggesting an antagonistic functional interaction with upstream EGFR signaling [PMID:29625050](../papers/29625050.md)
+- Secondary RTK-RAS regulator (RAS GAP) contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; backseat co-alteration in driver-stratified immunotherapy study [PMID:33509808](../papers/33509808.md)
+- Alterations in 3% of intrahepatic cholangiocarcinoma (iCCA) in a 412-patient retrospective cohort; part of RTK-RAS pathway co-alteration landscape with TP53 [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -60,3 +62,9 @@ RASA1 encodes RAS p21 protein activator 1, a GTPase-activating protein (GAP) tha
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

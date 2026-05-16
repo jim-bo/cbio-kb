@@ -93,6 +93,10 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 - Applied for targeted NGS profiling of 430 MSS unresectable mCRC patients at MSKCC (dataset crc_apc_impact_2020); identified APC mutation site as a prognostic marker independent of tumor sidedness [PMID:32730818](../papers/32730818.md)
 - Profiled 604 stage I–III LUAD patients after resection at MSKCC (dataset luad_mskcc_2020); 8 patients on IMPACT341, 190 on IMPACT410, 406 on IMPACT468; linked genomic burden and mutational signatures to histologic subtype [PMID:32791233](../papers/32791233.md)
 - Applied to 39 baseline HR+ MBC tumor biopsies in the breast_alpelisib_2020 trial; identified clonal PIK3CA mutations in 70% of evaluable pre-treatment tumors and baseline PTEN/ESR1 alterations as resistance predictors [PMID:32864625](../papers/32864625.md)
+- MSK-IMPACT (IMPACT468 somatic + 88-gene germline) applied to 83 enucleated retinoblastoma specimens at MSKCC; identifies SNVs, indels, focal CNAs, and select rearrangements from FFPE tissue [PMID:33466343](../papers/33466343.md)
+- MSK-IMPACT (IMPACT341/410/468) capture-based NGS applied to 696 melanoma tumors at MSKCC and Lehigh Valley; median sequencing depth 709×; oncogenic calls restricted to OncoKB-annotated variants [PMID:33509808](../papers/33509808.md)
+- MSK-IMPACT targeted hybridization-capture NGS (341/410/468-gene panels) applied to 412 iCCA patients at MSKCC and Erasmus MC; all sequenced against matched normal with >60% tumor content [PMID:33765338](../papers/33765338.md)
+- MSK-IMPACT hybridization-capture NGS (v1/v2/v3 panels) applied to 487 lower esophageal/EGJ adenocarcinoma patients at MSK between 2014–2019; all 16 recurrent driver genes covered on every panel version [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -279,5 +283,17 @@ Generic slug for MSK-IMPACT, the Memorial Sloan Kettering matched tumor/normal h
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32864625](../papers/32864625.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33466343](../papers/33466343.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

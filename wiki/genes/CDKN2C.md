@@ -1,44 +1,43 @@
 ---
 symbol: CDKN2C
-aliases: [p18, INK4C]
-cancer_types: [PCM]
-tags: [tumor-suppressor, cell-cycle]
+aliases:
+  - p18
+  - INK4C
+cancer_types:
+  - GBM
+tags: []
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # CDKN2C
 
 ## Overview
 
-CDKN2C (Cyclin Dependent Kinase Inhibitor 2C, also known as p18-INK4C) encodes a CDK4/6 inhibitor that regulates the G1/S cell cycle transition by inhibiting cyclin D-CDK4/6 complexes, preventing RB phosphorylation and E2F activation. Located at 1p32.3, it is a known tumor suppressor in multiple myeloma (MM) where homozygous deletions are recurrent.
+CDKN2C (p18/INK4C) is a cyclin-dependent kinase inhibitor that specifically inhibits CDK4 and CDK6, thereby maintaining RB1 in a hypophosphorylated, active tumor-suppressor state. In glioblastoma, CDKN2C is upregulated in the context of EGFR alteration, suggesting a complex relationship between RTK signaling and cell-cycle control in this disease.
 
 ## Alterations observed in the corpus
 
-- Recurrent homozygous deletion at 1p32.3 in multiple myeloma (MM, n=153 patients with copy-number data); identified as one of the significant GISTIC peaks encompassing 32 genes across 7 regions; established MM tumor suppressor [PMID:24434212](../papers/24434212.md)
-- Single-case CDKN2C mutation observed in PDTC/ATC thyroid cancer targeted sequencing cohort (IMPACT panel, 117 tumors), replicating prior WES ATC findings [PMID:26878173](../papers/26878173.md)
+- CDKN2C is upregulated in EGFR-altered GBM tumors in the CPTAC proteogenomic cohort (gbm_cptac_2021, n=99); upregulation co-occurs with CDK6 and CTNND2 elevation specifically in the EGFR-altered subgroup [PMID:33577785](../papers/33577785.md).
 
 ## Cancer types (linked)
 
-- Plasma cell myeloma (PCM/MM): recurrent homozygous deletion at 1p32.3; known MM tumor suppressor; loss of CDKN2C promotes CDK4/6-driven cell cycle entry in plasma cell tumors [PMID:24434212](../papers/24434212.md)
+- **Glioblastoma (GBM):** CDKN2C protein upregulated in EGFR-altered tumors (45/99 with EGFR structural variants + amplification); co-elevated with CDK6 and CTNND2 [PMID:33577785](../papers/33577785.md).
 
 ## Co-occurrence and mutual exclusivity
 
-- Homozygous deletion co-occurs in the broader context of cell-cycle dysregulation in MM; co-listed with [TRAF3](../genes/TRAF3.md), BIRC2/BIRC3, [CYLD](../genes/CYLD.md), and [PTPRD](../genes/PTPRD.md) in significant GISTIC deletion peaks [PMID:24434212](../papers/24434212.md)
+- Co-occurs with CDK6 and CTNND2 upregulation in EGFR-altered GBM [PMID:33577785](../papers/33577785.md).
 
 ## Therapeutic relevance
 
-- CDKN2C loss would be expected to increase dependence on CDK4/6 activity; CDK4/6 inhibitors (e.g., [palbociclib](../drugs/palbociclib.md), ribociclib, abemaciclib) are potential therapeutic strategies in CDKN2C-deleted MM, though not yet established as standard of care [PMID:24434212](../papers/24434212.md)
+- The paradoxical upregulation of the CDK inhibitor CDKN2C in EGFR-altered GBM warrants further investigation; it may represent a compensatory feedback or selection context rather than a straightforward tumor-suppressor role [PMID:33577785](../papers/33577785.md).
 
 ## Open questions
 
-- Frequency of CDKN2C homozygous deletion and its interaction with other MM drivers (hyperdiploidy, IGH translocations) is not fully characterized in this cohort [PMID:24434212](../papers/24434212.md)
+- The mechanistic basis for CDKN2C upregulation in EGFR-altered GBM (compensatory feedback vs. alternative function) is not resolved in this dataset [PMID:33577785](../papers/33577785.md).
 
 ## Sources
 
-- [PMID:24434212](../papers/24434212.md)
+- [PMID:33577785](../papers/33577785.md)
 
-*This page was processed by **crosslinker** on **2026-05-09**.*
-- [PMID:26878173](../papers/26878173.md)
-
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -25,6 +25,7 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 - Flagged as the approved ALK inhibitor for 20 [ALK](../genes/ALK.md)-fusion samples spanning 8 cancer types (5 in [LUAD](../cancer_types/LUAD.md)) in the TCGA pan-cancer fusion atlas (n=9,624); [EML4](../genes/EML4.md) was the dominant 5' partner (7/17 ALK fusions), and ALK overexpression was copy-number neutral — consistent with fusion-driven promoter capture rather than amplification [PMID:29617662](../papers/29617662.md)
 - In Beat AML ex vivo screen (409 specimens / 363 AML patients), [BCOR](../genes/BCOR.md) mutation alone (without RUNX1 co-mutation) correlated with sensitivity to crizotinib (multi-kinase inhibitor), distinguishing BCOR-solo from BCOR/RUNX1 co-mutant AML which instead showed JAK-inhibitor sensitivity [PMID:30333627](../papers/30333627.md).
 - In uterine sarcoma profiling, one ALK-fusion case (LBH-ALK, reclassified as IMT) achieved 30+ months radiographic stabilization on crizotinib; a second ALK-fusion patient had a brief crizotinib response before progressing, then progressing again on ceritinib [PMID:32299819](../papers/32299819.md)
+- Produced a durable complete response in a BRAF V600 wild-type melanoma patient with a ROS1 fusion after progression through checkpoint blockade [PMID:33509808](../papers/33509808.md)
 
 ## Resistance mechanisms
 
@@ -55,5 +56,7 @@ Crizotinib is a first-generation multi-target tyrosine kinase inhibitor of [ALK]
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32299819](../papers/32299819.md)
+
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*

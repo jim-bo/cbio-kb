@@ -21,6 +21,7 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 - Identified as a significantly mutated gene exclusively in lung ADC vs other TCGA tumor types (q < 0.1) in the 1,144-tumor NSCLC landscape study (660 lung ADC, 484 lung SqCC); contributes to the RTK/Ras/Raf pathway driver landscape in lung adenocarcinoma. [PMID:27158780](../papers/27158780.md)
 - 2 S257L hotspot mutations identified in a prospective LUAD cohort (860 patients, MSK-IMPACT panel); classified as unmatched driver alteration [PMID:28336552](../papers/28336552.md)
 - RAF1 K106N mutation identified in a patient with mixed histiocytosis; first description of RAF1 mutation in histiocytic neoplasms; functionally validated as ERK-activating and cobimetinib-sensitive in Ba/F3 IL3-independence assay (two-way ANOVA p<0.0001; IC50 difference one-way ANOVA p<0.01); patient responded to cobimetinib [PMID:30867592](../papers/30867592.md)
+- Secondary RTK-RAS regulator contributing to NF1/BRAF Class 3 co-alteration patterns in melanoma; identified in the 28-gene driver panel as a co-alteration partner rather than a sole driver [PMID:33509808](../papers/33509808.md)
 
 ## Cancer types (linked)
 
@@ -56,5 +57,8 @@ RAF1 (CRAF) is a serine/threonine kinase in the RAS–MAPK signaling pathway. It
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
 - [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

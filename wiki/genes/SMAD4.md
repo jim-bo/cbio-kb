@@ -24,6 +24,7 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 - Confirmed deletion driver in the 18q focal-deletion region in colon cancer proteogenomics (coad_cptac_2019) [PMID:31031003](../papers/31031003.md)
 - Pan-cancer PCAWG driver in 181 tumors [PMID:32025007](../papers/32025007.md)
 - Known LUAD subclonal gene with higher alteration frequency in MIP/SOL-predominant tumors; cited alongside NF1 and ATM as subclonal drivers in aggressive LUAD histologic subtypes. [PMID:32791233](../papers/32791233.md)
+- Alterations associated with worse OS in esophageal adenocarcinoma (EAC) (KM p=0.028; multivariable HR 1.61, 95% CI 1.14-2.28, p=0.007; n=487 MSK cohort); consistent with prior reports linking SMAD4 loss to disease recurrence [PMID:33795256](../papers/33795256.md)
 
 ## Cancer types (linked)
 
@@ -65,5 +66,8 @@ SMAD4 (SMAD Family Member 4) is a central mediator of TGF-beta signaling, acting
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32791233](../papers/32791233.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

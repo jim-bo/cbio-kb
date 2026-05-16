@@ -3,7 +3,7 @@ symbol: AKT3
 aliases: [PKB gamma, PKBG, RAC-PK-gamma]
 cancer_types: [BRCA]
 tags: [PI3K-AKT-pathway, fusion, triple-negative-breast-cancer, kinase]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -25,6 +25,7 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - PI3K/AKT/MTOR pathway alterations occur in 84% of ULMS+STLMS C1 vs 44% of STLMS C2 sarcomas; AKT3 is among the pathway components with recurrent alterations nominating dual PI3K/MTOR or TORC1/TORC2 inhibitors [PMID:29100075](../papers/29100075.md)
 - AKT3 mentioned in the context of mTOR/PI3K pathway alterations in metastatic panNET; AKT2 G16D was identified as a post-everolimus resistance mutation in the same pathway [PMID:30687805](../papers/30687805.md)
 - AKT3 E17K hotspot detected in one poor responder on BRAFi + MEKi combination therapy in BRAF-mutant melanoma (n=66 pretreatment tumors profiled) [PMID:32913971](../papers/32913971.md)
+- In a proteogenomic study of 99 GBMs, AKT3 showed higher expression in IDH-mutant and proneural subtypes, consistent with a developmental adult-brain expression pattern; AKT1S1 connects to AKT1/AKT2/AKT3 kinases in phosphoproteomic network analysis. [PMID:33577785](../papers/33577785.md)
 
 ## Cancer types (linked)
 
@@ -71,3 +72,6 @@ AKT3 encodes a serine/threonine protein kinase that is a member of the AKT/PKB f
 - [PMID:32913971](../papers/32913971.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:33577785](../papers/33577785.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

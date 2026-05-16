@@ -42,6 +42,8 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 - FGFR2-related fusion events occur in 6.5% of 133 pan-Asia cHCC-ICC cases and may identify a subset targetable by FGFR inhibitors [PMID:31130341](../papers/31130341.md)
 - FGFR2 is among cancer-associated genes inside significant copy-number-loss peaks (GISTIC2.0) in driverless tumor cases in the PCAWG pan-cancer WGS cohort [PMID:32025007](../papers/32025007.md)
 - Mutations/amplifications in 3/41 (7.3%) resistant HR+/HER2- MBC biopsies, all intrinsic resistance; one of eight categories covering 65.9% of resistant tumors [PMID:32404308](../papers/32404308.md)
+- Listed as a driver-panel RTK gene in a 28-gene MSK-IMPACT melanoma cohort (n=655 cutaneous/unknown-primary melanomas); functions predominantly as a co-alteration with primary MAPK pathway drivers [PMID:33509808](../papers/33509808.md)
+- Fusions in 47/412 (11%) of intrahepatic cholangiocarcinoma (iCCA) cases (38 known in-frame); total FGFR2 alterations in 15% of cohort; mutually exclusive with IDH1/2 mutations but not independently prognostic for OS [PMID:33765338](../papers/33765338.md)
 
 ## Cancer types (linked)
 
@@ -137,5 +139,11 @@ FGFR2 is a receptor tyrosine kinase whose activating fusions and mutations are a
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32404308](../papers/32404308.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

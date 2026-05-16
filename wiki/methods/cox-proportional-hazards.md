@@ -29,6 +29,9 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 - Applied in 1,465 prostate cancer patients to adjust OS for age, Gleason, PSA, visceral metastasis, and FGA; CDK12-altered patients had aHR 1.80 (95% CI 1.12–2.89; p=0.024) for shorter OS [PMID:32317181](../papers/32317181.md)
 - Used for multivariate survival analysis in 430 MSS mCRC patients; APC mutation (N-terminal) associated with longer PFS (HR 0.68, p<0.001) and OS (HR 0.56, p<0.001) [PMID:32730818](../papers/32730818.md)
 - Univariate and multivariate Cox analyses in 80-patient CRC tissue microarray identified CGREF1 expression (HR 3.85, 95% CI 1.32–11.2, p=0.014) and venous invasion as independent predictors of disease-free survival [PMID:32888432](../papers/32888432.md)
+- Cox proportional-hazards regression (backward selection of univariately significant covariates) used to model time-to-treatment failure in 322 melanoma patients on frontline PD-1 or nivo+ipi therapy in R 3.4.4 [PMID:33509808](../papers/33509808.md)
+- Cox proportional-hazards regression (univariate and multivariate) used to model OS in 412 iCCA patients, adjusted for nodal disease, multifocal liver disease, and lymphovascular invasion in R 4.0.0 [PMID:33765338](../papers/33765338.md)
+- Cox proportional-hazards multivariable model (adjusting for age, clinical stage, tumor grade, treatment intent) used to assess independent OS predictors in 487 EAC/EGJ patients; Harrell's C-index rose from 0.68 to 0.71 with genomic variables added [PMID:33795256](../papers/33795256.md)
 
 ## Notes
 
@@ -71,5 +74,14 @@ Cox proportional hazards regression is a semi-parametric survival analysis model
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:32888432](../papers/32888432.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33509808](../papers/33509808.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33765338](../papers/33765338.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:33795256](../papers/33795256.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

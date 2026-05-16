@@ -41,6 +41,8 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - Among potentially targetable kinases in CIN-subtype esophagogastric cancer; often concurrent with other actionable kinases suggesting combination strategies are needed [PMID:29122777](../papers/29122777.md)
 - Amplification enriched in carcinosarcoma (p=0.007) in a 189-patient MSK advanced endometrial cancer sequencing cohort [PMID:30068706](../papers/30068706.md)
 - Focal amplification noted as a clonal event in a representative matched-pair HR+ metastatic breast cancer patient [PMID:30205045](../papers/30205045.md)
+- Focal 8p12 amplification with ZNF703 defines IntClust6 (5.5% of ER+ breast cancer); 100% of IntClust6 cases carry this amplification vs 2-21% of other IntClust groups; identified as a targetable copy-number driver in late-recurring ER+/HER2- disease [PMID:30867590](../papers/30867590.md)
+- Somatic FGFR1 alteration (×1 patient) classified as OncoKB Level 4 actionable in metastatic panNET (MSK-IMPACT cohort, n=80); 47% of patients had at least one Level 2b/3b/4 actionable alteration [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -135,3 +137,9 @@ FGFR1 encodes fibroblast growth factor receptor 1, a receptor tyrosine kinase in
 - [PMID:30205045](../papers/30205045.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

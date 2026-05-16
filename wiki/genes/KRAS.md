@@ -123,6 +123,9 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 - KRAS mutations predicted MAPK-inhibitor sensitivity ex vivo in the Beat AML cohort (aml_ohsu_2018); sensitivity association weaker than NRAS [PMID:30333627](../papers/30333627.md)
 - KRAS mutated in 9% of gallbladder carcinoma tumors; previously associated with anomalous pancreatobiliary duct junction (a Japanese-predominant risk factor); detected by MSK-IMPACT in a three-region cohort [PMID:30427539](../papers/30427539.md)
 - KRAS G12R hotspot mutation highlighted as a subclonal-to-clonal switch under endocrine-therapy selection in a matched primary-to-metastasis pair in HR+HER2- breast cancer; KRAS and other MAPK effector mutations enriched post-endocrine therapy [PMID:30205045](../papers/30205045.md)
+- Detected in 3 patients with metastatic panNET; classified as OncoKB Level 4 actionable (3 of 14 Level-4 somatic findings in this cohort) [PMID:30687805](../papers/30687805.md)
+- KRAS mutations observed in histiocytic neoplasms: R149G (single-mutation ECD patient), G12R and G13C (compound-mutation patients); all KRAS-mutant patients responded to cobimetinib MEK inhibition [PMID:30867592](../papers/30867592.md)
+- Listed as a classic colorectal cancer SMG in a CPTAC proteogenomic colon cancer cohort (n=110); BRAF and POLE mutations enriched in the MSI-H/hypermutated subgroup of this cohort [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -442,5 +445,14 @@ KRAS is a canonical RAS-family oncogene and one of the most frequently mutated d
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30205045](../papers/30205045.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

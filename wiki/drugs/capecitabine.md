@@ -5,7 +5,7 @@ drug_class: fluoropyrimidine prodrug
 canonical_source: 
 unverified: true
 tags: [chemotherapy]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -23,6 +23,7 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - Listed as a concurrent systemic agent in reviewed SBRT trials for locally advanced [PAAD](../cancer_types/PAAD.md); the Harvard proton-beam neoadjuvant program (50 patients, 25 Gy/5 fx + concurrent capecitabine) achieved 84% R0 resection rate in 39 resected patients, 27-month median survival, and 4.1% grade 3 acute toxicity [PMID:27826200](../papers/27826200.md)
 - Capecitabine-containing regimens were used as first-line chemotherapy in the 295-patient metastatic EGC cohort (MSK-IMPACT); HRD/LST scores did not predict platinum-based regimen response, and MSI-H patients had inferior PFS on cytotoxic therapy vs non-MSI-H [PMID:29122777](../papers/29122777.md)
 - Used as an alternative first-line chemotherapy regimen in advanced cholangiocarcinoma patients; primary regimen was gemcitabine/platinum (80% of 158 first-line patients) [PMID:29848569](../papers/29848569.md)
+- Capecitabine-based regimens were among the cytotoxic chemotherapy options used in the 80-patient metastatic [PANET](../cancer_types/PANET.md) cohort; the study noted that alkylator chemotherapy exposure was associated with hypermutation and grade 1→3 progression in panNET [PMID:30687805](../papers/30687805.md)
 
 ## Resistance mechanisms
 
@@ -39,10 +40,8 @@ Oral 5-FU prodrug used in colorectal and other GI adenocarcinomas.
 - [PMID:40328872](../papers/40328872.md)
 - [PMID:27826200](../papers/27826200.md) — Tchelebi et al. 2016, *Semin Radiat Oncol*. SBRT in pancreatic cancer review; capecitabine as concurrent agent in Harvard proton-beam neoadjuvant series (84% R0 resection, 27-month median OS).
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
 - [PMID:29122777](../papers/29122777.md)
-
-*This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29848569](../papers/29848569.md)
+- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort (n=80 metastatic); capecitabine-based regimens among cytotoxic chemotherapy options; alkylator exposure linked to hypermutation and grade progression.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

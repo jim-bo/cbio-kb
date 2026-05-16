@@ -19,6 +19,7 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 - TSC2 truncating alterations in 3 patients (0.3%) in 860 metastatic [LUAD](../cancer_types/LUAD.md) patients profiled by MSK-IMPACT; classified as OncoKB level 2B; no patient received matched mTOR-inhibitor therapy in this cohort [PMID:28336552](../papers/28336552.md).
 - Rare level-2B actionable finding (n=3 TSC1/TSC2 combined) in a 189-patient prospective NGS cohort of advanced cholangiocarcinoma; identified as a potentially targetable mTOR-pathway alteration [PMID:29848569](../papers/29848569.md)
 - Inactivating/truncating mutations in ~10.6% of advanced HCC (MSK-IMPACT cohort); together with TSC1 defines mTOR negative-regulator loss subtype; one TSC2 E95*-mutant patient achieved disease stabilization with minor tumor shrinkage on everolimus after sorafenib progression [PMID:30373752](../papers/30373752.md)
+- Somatic alterations in 25% (20/80) of metastatic panNET patients; dominant mTOR-pathway driver; one germline R1200W carrier missed by phenotype-based clinical TSC criteria; acquired splice mutation in one patient at everolimus progression; 16 patients with TSC2 somatic alterations at OncoKB Level 2b (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -49,5 +50,8 @@ TSC2 (TSC Complex Subunit 2), encoding tuberin, forms a GTPase-activating protei
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

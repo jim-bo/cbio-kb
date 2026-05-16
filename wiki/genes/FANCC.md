@@ -3,7 +3,7 @@ symbol: FANCC
 aliases: []
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 ---
 
@@ -22,6 +22,7 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - Less frequent DDR alteration in high-grade NMIBC, contributing to the 30% DDR-altered fraction of high-grade disease [PMID:28583311](../papers/28583311.md)
 - One pLoF LP/PV identified by WES of 25 HBOC-related candidate genes in 372 pediatric cancer patients; burden OR=1.3, p=0.534 (non-significant single-cohort). [PMID:29489754](../papers/29489754.md)
 - Pre-specified DDR/NAC-response gene in MIBC analysis; no significant difference observed between primary and secondary MIBC groups [PMID:30290956](../papers/30290956.md)
+- Germline pathogenic/likely pathogenic carrier identified in panNET cohort (MSK-IMPACT, 80 patients); classified as a recessive germline susceptibility gene for cancer [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -62,3 +63,6 @@ FANCC (Fanconi Anemia Complementation Group C) is a component of the Fanconi ane
 - [PMID:30290956](../papers/30290956.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

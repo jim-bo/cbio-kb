@@ -10,7 +10,7 @@ tags:
   - ubiquitin-ligase
   - pancreatic-cystic-neoplasm
 processed_by: wiki-cli
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
 ---
@@ -35,6 +35,7 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - Identified as a lineage-restricted driver gene in renal clear-cell carcinoma in a pan-cancer MSK-IMPACT analysis of 10,336 patients across 62 tumor types [PMID:28481359](../papers/28481359.md)
 - Most commonly mutated gene in ccRCC; VHL LOF status did NOT correlate with immune-related gene expression, indicating the PBRM1-associated immune-transcriptional signal is PBRM1-specific and not a general consequence of VHL loss. [PMID:29301960](../papers/29301960.md)
 - Confirmed as a KIRC SMG called by both MutSig2CV and MuSiC2 on the TCGA MC3 open-access MAF; VHL is one of the canonical KIRC drivers consistently recovered across callers [PMID:29596782](../papers/29596782.md)
+- Germline pathogenic variant in 1/88 metastatic panNET patients (high-penetrance germline carrier); argues for universal germline testing in panNET (panet_msk_2018) [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -86,3 +87,6 @@ VHL (Von Hippel-Lindau Tumor Suppressor) encodes an E3 ubiquitin ligase subunit 
 - [PMID:29596782](../papers/29596782.md)
 
 *This page was processed by **wiki-cli** on **2026-05-15**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

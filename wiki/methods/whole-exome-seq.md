@@ -168,6 +168,9 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 - WES at median 358× coverage used for 30 matched primary/post-progression tumor pairs in breast cancer endocrine-resistance study; selected variants confirmed by ddPCR [PMID:30205045](../papers/30205045.md)
 - WES via Illumina Nextera and TCGA pipelines used for 412 MIBC tumors in retrospective discovery cohort; ERCC2-mutant tumors showed 14.7 vs 5.5 mutations/Mb [PMID:30290956](../papers/30290956.md)
 - Applied to 622 of 672 AML specimens (531 patients) on Illumina Nextera RapidCapture (37 Mb capture); 94% SNV / 82% indel validation rate confirmed in 96-specimen custom-capture library [PMID:30333627](../papers/30333627.md)
+- Applied with fingernail-derived germline control in histiocytic neoplasm patients (cobimetinib trial, n=18) as part of a multi-platform somatic profiling strategy [PMID:30867592](../papers/30867592.md)
+- 58 matched tumor-blood WES pairs generated at ~100x tumor / ~60x normal coverage in GBM anti-PD-1 immunotherapy study; somatic mutations called by SAVI2, copy number by CNVkit, HLA by POLYSOLVER [PMID:30742119](../papers/30742119.md)
+- 106 CPTAC colon cancer tumor/normal-blood pairs profiled by Illumina Nextera Rapid Capture Exome / HiSeq4000 at >=150x coverage; identified 64,010 SNVs, 7,691 INDELs, and 6,186 microsatellite INDELs [PMID:31031003](../papers/31031003.md)
 
 ## Notes
 
@@ -585,5 +588,14 @@ Capture-based sequencing of the protein-coding portion of the genome (~1–2% of
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30333627](../papers/30333627.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

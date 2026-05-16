@@ -3,8 +3,8 @@ symbol: RSF1
 aliases: [HBXAP]
 cancer_types: []
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-06"
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # RSF1
@@ -16,6 +16,7 @@ RSF1 (Remodeling and Spacing Factor 1) encodes a chromatin remodeling protein th
 ## Alterations observed in the corpus
 
 - Amplified in the 11q13/14 cis-acting amplicon cassette alongside PAK1 in IntClust 2 breast cancers (predominantly ER-positive); 34-39/45 IntClust 2 cases amplified at this locus [PMID:22522925](../papers/22522925.md)
+- Co-amplified on chromosome 11q13 with CCND1/FGF3/EMSY/PAK1; defines IntClust2 (4.5% of ER+ breast tumors); amplified in 96% of IntClust2 vs 0–22% of other IntClust groups in the METABRIC cohort (brca_metabric) [PMID:30867590](../papers/30867590.md)
 
 ## Cancer types (linked)
 
@@ -38,3 +39,6 @@ RSF1 (Remodeling and Spacing Factor 1) encodes a chromatin remodeling protein th
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

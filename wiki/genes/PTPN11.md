@@ -3,8 +3,8 @@ symbol: PTPN11
 aliases: [SHP2]
 cancer_types: [LCH, ECD]
 tags: [ras-pathway]
-processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # PTPN11
@@ -26,6 +26,7 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - Recurrent missense mutations in CLL (n=7, 1.3%); identified as a novel CLL driver modulating [MYC](../genes/MYC.md) activity in a 538-patient WES study [PMID:26466571](../papers/26466571.md)
 - PTPN11 co-occurs with NPM1 and modifies outcome in NPM1-mutated AML; part of the RTK-RAS pathway group identified in a 1540-patient AML genomic study [PMID:27276561](../papers/27276561.md).
 - G503V mutation in AML (MEK-inhibitor target); D61Y co-mutation with SETBP1 D868N reclassified a 4-year-old's diagnosis from de novo AML to JMML (which evolved into AML) in a pediatric precision-oncology cohort [PMID:28007021](../papers/28007021.md)
+- PTPN11 mutations enriched in anti-PD-1 responders in recurrent GBM (4 MAPK-pathway mutations among 13 responders vs 1 in 32 non-responders; within-cohort OR=12.8, p=0.019; vs TCGA background OR=5.1, p=0.018); authors highlight a PTEN/PTPN11 axis governing immunosuppression described in prostate cancer [PMID:30742119](../papers/30742119.md)
 
 ## Cancer types (linked)
 
@@ -78,3 +79,6 @@ PTPN11 (SHP2) is a tyrosine phosphatase that acts upstream of RAS/MAPK signaling
 - [PMID:28007021](../papers/28007021.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

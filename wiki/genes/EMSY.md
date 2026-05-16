@@ -4,8 +4,8 @@ aliases: []
 cancer_types:
   - BRCA
 tags: []
-processed_by: entity-page-writer
-processed_at: "2026-05-06"
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # EMSY
@@ -17,6 +17,7 @@ EMSY (11q13.5) encodes a protein that binds the [BRCA2](../genes/BRCA2.md) trans
 ## Alterations observed in the corpus
 
 - Amplification in 34/45 cases (76%) of IntClust 2 breast cancer (11q13/14 amplicon, ER-positive) in the METABRIC cohort (2,000 tumors); co-amplified with [CCND1](../genes/CCND1.md), [PAK1](../genes/PAK1.md), and [RSF1](../genes/RSF1.md) as part of a cis-acting cassette; links the BRCA2 pathway to sporadic breast cancer [PMID:22522925](../papers/22522925.md)
+- Co-amplified on chromosome 11q13 with CCND1, FGF3, PAK1, RSF1; defines IntClust2 (4.5% of ER+ breast cancer cases); 96% of IntClust2 tumours carry RSF1 amplification; associated with chronic late-relapse risk to 20 years in ER+/HER2- disease [PMID:30867590](../papers/30867590.md)
 
 ## Cancer types (linked)
 
@@ -39,3 +40,6 @@ EMSY (11q13.5) encodes a protein that binds the [BRCA2](../genes/BRCA2.md) trans
 - [PMID:22522925](../papers/22522925.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-06**.*
+- [PMID:30867590](../papers/30867590.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

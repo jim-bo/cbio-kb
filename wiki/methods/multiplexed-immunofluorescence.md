@@ -6,7 +6,7 @@ canonical_source: corpus
 unverified: true
 tags: [imaging, immunofluorescence, tme, spatial, multiplex]
 processed_by: wiki-cli
-processed_at: 2026-05-06
+processed_at: 2026-05-16
 ---
 
 # Multiplexed immunofluorescence
@@ -21,6 +21,7 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 - [PMID:39386723](../papers/39386723.md) — CyCIF (cyclic immunofluorescence) with a 31-antibody panel applied to 44 fallopian tube FFPE specimens spanning the [HGSOC](../cancer_types/HGSOC.md) progression axis (p53 signatures through invasive cancer); 3D CyCIF on a Zeiss LSM980 confocal used for one STIC.C case to validate micronuclear rupture and cGAS recruitment; quantification by MCMICRO Nextflow + UNMICST2 segmentation pipeline; identified stepwise increase in [HLA-E](../genes/HLA-E.md)+ and p-STAT1+ epithelial cells and NK–cDC1 axis collapse from STIC.I to STIC.C [PMID:39386723](../papers/39386723.md).
 - Applied to 100 [HGSOC](../cancer_types/HGSOC.md) multi-site biopsy samples; showed CD8+PD-1+ T cells within 30 um of PD-L1+ cancer cells common in HRD-Dup but rare/absent in FBI tumours; confirmed spatial immune-exclusion pattern in FBI [PMID:36517593](../papers/36517593.md)
 - Multiplexed immunofluorescence (MxIF) performed on 34 WU-RCC patients with a 19-marker ccRCC antibody panel for spatial proteomics validation of HiTME subtypes [PMID:22138691](../papers/22138691.md)
+- Used in GBM anti-PD-1 immunotherapy study (n=17 paired pre/post samples) via Opal/Vectra platform staining for CD3, CD8, CD68, HLA-DR, PD-L1, and SOX2 on FFPE specimens; revealed PTEN-mutant tumors had significantly more CD68+HLA-DR- macrophages (p=0.011) [PMID:30742119](../papers/30742119.md)
 
 ## Notes
 
@@ -39,3 +40,6 @@ Multiplexed immunofluorescence (mIF) enables simultaneous detection of multiple 
 - [PMID:22138691](../papers/22138691.md)
 
 *This page was processed by **wiki-cli** on **2026-05-06**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

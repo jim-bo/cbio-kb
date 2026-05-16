@@ -5,8 +5,8 @@ kind: method
 canonical_source: corpus
 unverified: true
 tags: [rna-seq, alignment, spliced-reads]
-processed_by: crosslinker
-processed_at: 2026-05-15
+processed_by: wiki-cli
+processed_at: 2026-05-16
 ---
 
 # STAR Aligner
@@ -18,6 +18,7 @@ processed_at: 2026-05-15
 ## Used by
 
 - Used for RNA-seq alignment in AALE chr_3p-deleted cell experiments (HiSeq 2500 PE100) as part of the STAR + RSEM + edgeR pipeline for differential expression analysis [PMID:29622463](../papers/29622463.md)
+- Used to align RNA-seq reads in the GBM anti-PD-1 immunotherapy study (38 longitudinal transcriptomes); downstream pathway scoring performed by ssGSEA/GSEA [PMID:30742119](../papers/30742119.md)
 
 ## Notes
 
@@ -28,3 +29,6 @@ processed_at: 2026-05-15
 ## Sources
 
 *This page was processed by **crosslinker** on **2026-05-15**.*
+- [PMID:30742119](../papers/30742119.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

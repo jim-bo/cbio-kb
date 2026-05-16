@@ -31,6 +31,7 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 - OncoKB (annotated 22-Dec-2016) used to assess actionability of alterations in 189 advanced endometrial cancer patients; 67% (127/189) carried ≥1 actionable alteration; most common actionable events were PIK3CA mutation (35%), PTEN mutation (29%), MSI-H (16%), and ERBB2 amplification (16%) [PMID:30068706](../papers/30068706.md)
 - OncoKB levels 1–4 used to filter actionable variants; 24% of 127 advanced HCC tumors had ≥1 actionable alteration, but no level 1/2A alterations were found [PMID:30373752](../papers/30373752.md)
 - OncoKB used to define actionable gene targets in 81 GBCA tumors; 80% of patients carried ≥1 potentially actionable alteration [PMID:30427539](../papers/30427539.md)
+- Used to annotate somatic alterations with actionability tier levels (OncoKB levels 1–4) in 80 metastatic panNET patients; guided identification of clinically actionable alterations [PMID:30687805](../papers/30687805.md)
 
 ## Notes
 
@@ -68,5 +69,8 @@ A bioinformatics annotation step in which somatic variants identified by tumor s
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30427539](../papers/30427539.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

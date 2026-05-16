@@ -6,7 +6,7 @@ canonical_source:
 unverified: true
 tags: [targeted-therapy, mapk-inhibitor]
 processed_by: entity-page-writer
-processed_at: 2026-05-15
+processed_at: 2026-05-16
 ---
 
 # vemurafenib
@@ -28,6 +28,8 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 - BRAF V600E mutations occur in 3% of pancreatic ductal adenocarcinomas (mutually exclusive with [KRAS](../genes/KRAS.md)); patient-derived cell line PDA_014 (BRAF V600E) was as sensitive to vemurafenib (PLX-4032) as MNT1 melanoma control cells across ERK phosphorylation, cell-cycle, and viability assays [PMID:25855536](../papers/25855536.md)
 - Vemurafenib is one of three FDA-approved BRAF-targeted therapies (with [dabrafenib](../drugs/dabrafenib.md) and [trametinib](../drugs/trametinib.md)) for the BRAF-mutant subtype of melanoma (52% of 318 TCGA cases; V600E/K/R mutations); BRAF non-hot-spot mutations and fusions (ATG7-BRAF, TAX1BP1-BRAF) also identified in TCGA melanoma cohort [PMID:26091043](../papers/26091043.md)
 - Referenced as prior MAPKi context in Hugo et al. anti-PD-1 melanoma study (n=38): 14/38 patients had prior MAPK-inhibitor therapy including vemurafenib, [dabrafenib](../drugs/dabrafenib.md), or [trametinib](../drugs/trametinib.md); MAPKi-induced transcriptional programs overlap substantially with the IPRES innate anti-PD-1 resistance signature, raising concern that prior/concurrent vemurafenib therapy may compromise subsequent anti-PD-1 response in [BRAF](../genes/BRAF.md)-mutant [melanoma](../cancer_types/SKCM.md) [PMID:26997480](../papers/26997480.md)
+- In a panNET patient with [BRAF](../genes/BRAF.md) V600E treated with vemurafenib, acquired [NRAS](../genes/NRAS.md) Q61R was detected at progression by serial [MSK-IMPACT](../methods/msk-impact-panel.md) sequencing, exemplifying on-target resistance via RAS-mediated MAPK pathway reactivation [PMID:30687805](../papers/30687805.md)
+- Cobimetinib (MEK1/2 inhibitor) achieved 89% PET ORR in histiocytic neoplasms regardless of MAPK genotype, contrasting with vemurafenib which is approved only for BRAF V600-mutant Erdheim–Chester disease — extending molecularly targeted therapy to the ~50% of histiocytosis patients without BRAF V600 who previously had no standard targeted option beyond vemurafenib [PMID:30867592](../papers/30867592.md)
 
 ## Resistance mechanisms
 
@@ -70,4 +72,7 @@ Selective [BRAF](../genes/BRAF.md) V600E inhibitor.
 *This page was processed by **crosslinker** on **2026-05-14**.*
 - [PMID:26997480](../papers/26997480.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-15**.*
+- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort; BRAF V600E patient on vemurafenib acquired NRAS Q61R at progression.
+- [PMID:30867592](../papers/30867592.md) — Diamond et al. 2019, histiocytic neoplasms phase 2 trial; cobimetinib extended targeted therapy to ~50% of histiocytosis patients lacking BRAF V600 who previously had no standard option beyond vemurafenib.
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

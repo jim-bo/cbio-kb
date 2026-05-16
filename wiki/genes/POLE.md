@@ -3,7 +3,7 @@ symbol: POLE
 aliases: []
 cancer_types: [UCEC, PRAD, COAD]
 tags: [dna-polymerase, ultramutator, immunotherapy-biomarker, tmb]
-processed_by: entity-page-writer
+processed_by: wiki-cli
 processed_at: 2026-05-16
 canonical_source: cbioportal
 unverified: false
@@ -45,6 +45,7 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - POLE-mutation signature found in hypermutated subsets of iCluster C8 (UCEC) and C4 (pan-GI, CRC) in the 28-iCluster TCGA pan-cancer classification [PMID:29625048](../papers/29625048.md)
 - POLE-mutant tumors define a hypermutated UCEC subtype in the pan-cancer multi-platform integration; POLE-associated hypermutation drives one of the highest neoantigen loads pan-cancer [PMID:29625049](../papers/29625049.md)
 - POLE-mutant tumor subtypes (alongside MSI-H) carry the highest mutation burden and the highest overall pathway alteration frequency pan-cancer, dominated by inactivating mutations [PMID:29625050](../papers/29625050.md)
+- POLE mutations enriched in the MSI-H/hypermutated subgroup of a 106-tumor colon cancer proteogenomic cohort (CPTAC 2019); MSI-H tumors showed increased A>G/T>C transitions and decreased G>C/C>G transversions, with POLE and mismatch-repair pathway mutations as defining features of the hypermutated group [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -132,3 +133,6 @@ POLE encodes the catalytic and proofreading subunit of DNA polymerase epsilon. H
 - [PMID:29625050](../papers/29625050.md)
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

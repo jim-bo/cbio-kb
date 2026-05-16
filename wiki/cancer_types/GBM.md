@@ -4,7 +4,7 @@ oncotree_code: GBM
 main_type: CNS/Brain Cancer
 parent: DIFG
 tags: []
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -48,6 +48,7 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 - EGFR altered in 50% of GBM tumors (mutation/amplification/fusion); EGFR amplification co-occurs with KIT/PDGFRA 4q12 amplification in glioma; CDK4+PI3K combination actionable in 7% of GBM [PMID:29625050](../papers/29625050.md)
 - Included in TCGA Pan-Cancer Clinical Data Resource (11,160 patients, 33 cancer types); GBM had shortest median follow-up (~12 months); TCGA-derived median OS=12.6 months and PFI=6.1 months, consistent with Stupp 2005 standard-care arms [PMID:29625055](../papers/29625055.md)
 - GBM (grade IV) comprised 46/85 (54%) of the adult diffuse glioma liquid-biopsy cohort; in IDH-WT GBM, CSF ctDNA positivity was associated with median OS of 2.04 vs 9.89 months (ctDNA− log-rank p=6.24×10⁻⁵), and truncal alterations (EGFR amplification, CDKN2A/B deletions) were 100% concordant between CSF and tumor in non-hypermutated cases. [PMID:30675060](../papers/30675060.md)
+- Longitudinal profiling of 66 recurrent GBM patients treated with PD-1 inhibitors (nivolumab or pembrolizumab; [gbm_columbia_2019](../datasets/gbm_columbia_2019.md)) showed PTEN mutations enriched in non-responders (23/32 vs 3/13, OR=8.5, p=0.0063) and MAPK pathway alterations (BRAF, PTPN11) enriched in responders; TMB did not predict response [PMID:30742119](../papers/30742119.md).
 
 ## Subtypes
 
@@ -89,5 +90,8 @@ Nearly all GBMs (88-90%) exhibit alterations in three core signaling pathways:
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

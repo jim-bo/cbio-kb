@@ -5,7 +5,7 @@ drug_class: anti-PD-1 monoclonal antibody
 canonical_source: corpus
 unverified: true
 tags: [immunotherapy, checkpoint-inhibitor]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -38,6 +38,7 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 - Included in a pooled WES cohort of 249 MSS tumors across 6 cancer types (part of the N=74 anti-PD-1 arm); clonal TMB, PBRM1 loss, and absence of biallelic PTEN loss and focal 11q/12q amplifications associated with CR/PR [PMID:30150660](../papers/30150660.md)
 - In MSKCC prospective NGS of 127 advanced HCC patients, 31 received immune checkpoint inhibitors (25 anti-PD-1/PD-L1 mono including nivolumab); activating WNT/beta-catenin alterations ([CTNNB1](../genes/CTNNB1.md) gain-of-function or AXIN1 loss) were associated with innate resistance: 0/10 WNT-altered vs 9/17 non-WNT patients achieved disease control (DCR 0% vs 53%, p=0.009; PFS HR 9.2, p<0.0001) [PMID:30373752](../papers/30373752.md).
 - In a pan-cancer ICI cohort (n=1,662), nivolumab was among the anti-PD-1 agents used; high TMB (top 20% within histology) was associated with HR 0.52 (p=1.6×10⁻⁶) for OS in a multivariable Cox model adjusting for cancer type, age, and year of ICI start [PMID:30643254](../papers/30643254.md).
+- In 66 recurrent [GBM](../cancer_types/GBM.md) patients treated with PD-1 inhibitors (nivolumab or pembrolizumab), responders had median post-treatment survival of 14.3 vs 10.1 months for non-responders (p=0.0081); [PTEN](../genes/PTEN.md) mutations (OR=8.5, p=0.0063) predicted non-response and MAPK-pathway alterations ([BRAF](../genes/BRAF.md)/[PTPN11](../genes/PTPN11.md)) predicted response; TMB was not predictive [PMID:30742119](../papers/30742119.md)
 
 ## Resistance mechanisms
 
@@ -102,5 +103,6 @@ Nivolumab is an anti-PD-1 monoclonal antibody immune checkpoint inhibitor with b
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30643254](../papers/30643254.md)
+- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM cohort (n=66); nivolumab/pembrolizumab in recurrent GBM; PTEN mutations (OR=8.5) predicted non-response; MAPK alterations predicted response; TMB not predictive.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

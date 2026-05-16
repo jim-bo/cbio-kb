@@ -54,6 +54,7 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 - IDH1 mutations showed broad ex vivo drug resistance in the Beat AML cohort, in contrast to IDH2 which showed broad sensitivity [PMID:30333627](../papers/30333627.md)
 - Missense mutations detected at <1% in advanced HCC; possibly defines a cholangiocarcinoma-like HCC subset susceptible to selective IDH1 inhibitors such as ivosidenib [PMID:30373752](../papers/30373752.md)
 - IDH1 hotspot mutations (esp. R132) are truncal LGG-defining events; detected with 100% concordance between tumour tissue and CSF ctDNA in all non-hypermutated LGG and GBM cases; CSF ctDNA positivity remained prognostic (HR 4.16) after adjusting for IDH1 status (85-patient MSK cohort) [PMID:30675060](../papers/30675060.md)
+- R132G/H mutations in 11/56 (20%) recurrent GBM cohort tumors (4 responders, 7 non-responders); IDH1-mutant cases were excluded from the primary mutation-enrichment analysis comparing anti-PD-1 responders vs non-responders [PMID:30742119](../papers/30742119.md)
 
 ## Cancer types (linked)
 
@@ -185,5 +186,8 @@ IDH1 encodes cytosolic isocitrate dehydrogenase 1; neomorphic hotspot mutations 
 
 *This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
+- [PMID:30742119](../papers/30742119.md)
 
 *This page was processed by **wiki-cli** on **2026-05-16**.*

@@ -7,7 +7,7 @@ tags:
   - tumor-suppressor
   - wnt-pathway
   - truncating
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -57,6 +57,8 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 - APC- and KRAS-driven COAD/READ tumors share mRNA cluster 15 and RPPA cluster C8 but partition into distinct methylation clusters (10 vs 11), illustrating how the same oncogenic driver can yield different epigenomic states [PMID:29625049](../papers/29625049.md)
 - Mutated in 2/10 HCC (hepatocellular carcinoma) in a pilot HCA-to-HCC transformation series (n=11 HCA, n=10 HCC); absent in the HCA subset, suggesting a late-stage event [PMID:30052636](../papers/30052636.md)
 - APC alterations observed in 5.2% of hepatocellular carcinoma tumors in a 344-patient MSK-IMPACT cohort [PMID:30373752](../papers/30373752.md)
+- APC identified as a germline pathogenic/likely-pathogenic carrier gene in metastatic panNET (80-patient MSK-IMPACT cohort); classified as low- or moderate-penetrance germline variant [PMID:30687805](../papers/30687805.md)
+- APC stop-gain and frameshift mutations identified in proteogenomic colon cancer cohort (n=110); reduced abundance of downstream phosphosite APC-T2451 observed in mutant tumors [PMID:31031003](../papers/31031003.md)
 
 ## Cancer types (linked)
 
@@ -183,10 +185,16 @@ APC (Adenomatous Polyposis Coli) is a canonical tumor suppressor and negative re
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625049](../papers/29625049.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30052636](../papers/30052636.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30373752](../papers/30373752.md)
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*
+- [PMID:31031003](../papers/31031003.md)
+
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

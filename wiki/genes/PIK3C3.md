@@ -4,7 +4,7 @@ aliases: []
 cancer_types: []
 tags: []
 processed_by: wiki-cli
-processed_at: 2026-05-14
+processed_at: 2026-05-16
 ---
 
 # PIK3C3
@@ -19,6 +19,7 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
   links to the papers that report them.
 - Frequently mutated in [LUAD](../cancer_types/LUAD.md) (TSP, n=188); co-mutates with [PTPRD](../genes/PTPRD.md); part of mTOR pathway alteration in >30% of tumours. [PMID:18948947](../papers/18948947.md)
 - PIK3C3 mutated as part of the PI3K/AKT/mTOR pathway, disrupted in 39% ATC vs 11% PDTC (P=1×10⁻³) in a targeted-sequencing study of advanced thyroid cancers. [PMID:26878173](../papers/26878173.md)
+- PIK3C3 (VPS34) profiled as part of the PI3K/mTOR pathway in metastatic panNET (80 patients, MSK-IMPACT panet_msk_2018); mTOR-pathway alterations in 34/80 (43%) patients [PMID:30687805](../papers/30687805.md)
 
 ## Cancer types (linked)
 
@@ -46,3 +47,6 @@ One-paragraph summary of the gene's role and why it matters in cancer genomics.
 - [PMID:26878173](../papers/26878173.md)
 
 *This page was processed by **wiki-cli** on **2026-05-14**.*
+- [PMID:30687805](../papers/30687805.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*

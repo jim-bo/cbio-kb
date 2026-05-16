@@ -5,7 +5,7 @@ drug_class: alkylating chemotherapy
 canonical_source: 
 unverified: 
 tags: [chemotherapy, cns-lymphoma, glioblastoma]
-processed_by: wiki-cli
+processed_by: entity-page-writer
 processed_at: 2026-05-16
 ---
 
@@ -31,6 +31,8 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 - Used as historical comparator for GBM survival benchmarking: TCGA-CDR GBM median OS (12.6 mo) and PFI (6.1 mo) fall between the Stupp 2005 standard-care arm (OS 12.1 mo, PFI 5.0 mo) and the standard-care-plus-temozolomide arm (OS 14.6 mo, PFI 6.9 mo) [PMID:29625055](../papers/29625055.md)
 - In a 3D cell culture review, glioblastoma cells grown in chitosan-hyaluronic porous scaffolds showed greater temozolomide resistance vs. monolayers, coincident with upregulation of CD44, ABCG2, and MGMT in a pore-size–dependent manner, demonstrating that 3D scaffold architecture amplifies drug resistance [PMID:30643250](../papers/30643250.md).
 - In a CSF ctDNA glioma study (n=85), 5/42 (12%) CSF-ctDNA-positive patients displayed alkylator-induced hypermutation (G:C→A:T signature), all of whom had received temozolomide; the hypermutator phenotype correlated with lower shared-mutation rate between CSF and tumour (median 19.6% vs 81.7%), with implications for immunotherapy candidacy and interpretation of subclonal variants [PMID:30675060](../papers/30675060.md).
+- Temozolomide (alkylating agent) administered to panNET patients induced marked hypermutation in serial biopsies — tumors acquired >100 new somatic mutations (up to 267), a predominant C>T signature, and mismatch-repair gene mutations; all three alkylator-hypermutated tumors progressed from grade 1 to grade 3, a previously unreported pattern in this disease that may be relevant to subsequent immunotherapy decisions [PMID:30687805](../papers/30687805.md)
+- All 66 recurrent [GBM](../cancer_types/GBM.md) patients in this anti-PD-1 cohort had received standard temozolomide plus radiation as prior therapy before initiating PD-1 blockade; the study examined genomic/TME predictors of response to subsequent nivolumab or pembrolizumab [PMID:30742119](../papers/30742119.md)
 
 ## Resistance mechanisms
 
@@ -71,10 +73,9 @@ Oral alkylating agent used in CNS malignancies, including as a component of salv
 *This page was processed by **wiki-cli** on **2026-05-15**.*
 - [PMID:29625055](../papers/29625055.md)
 
-*This page was processed by **entity-page-writer** on **2026-05-16**.*
 - [PMID:30643250](../papers/30643250.md)
-
-*This page was processed by **wiki-cli** on **2026-05-16**.*
 - [PMID:30675060](../papers/30675060.md)
+- [PMID:30687805](../papers/30687805.md) — Raj et al. 2018, MSK panNET cohort; TMZ (alkylating agent) induced >100 new mutations, C>T signature, MMR-gene mutations, and G1→G3 grade progression in serial panNET biopsies; a previously unreported hypermutation pattern with implications for subsequent immunotherapy.
+- [PMID:30742119](../papers/30742119.md) — Zhao et al. 2019, Columbia/Northwestern GBM (n=66); all patients received prior TMZ + radiation before PD-1 blockade; PTEN mutations and MAPK alterations (not TMB) predicted checkpoint inhibitor response.
 
-*This page was processed by **wiki-cli** on **2026-05-16**.*
+*This page was processed by **entity-page-writer** on **2026-05-16**.*

@@ -4,8 +4,8 @@ oncotree_code: ECD
 main_type: Histiocytosis
 parent: HDCN
 tags: [histiocytosis, rare-cancers]
-processed_by: crosslinker
-processed_at: 2026-05-04
+processed_by: entity-page-writer
+processed_at: 2026-05-16
 ---
 
 # Erdheim-Chester Disease (ECD)
@@ -22,6 +22,7 @@ Erdheim-Chester Disease is a Histiocytosis (parent HDCN).
 
 - Across histiocytosis: [BRAF](../genes/BRAF.md) 33% (mostly V600E), [MAP2K1](../genes/MAP2K1.md) 13%, [KRAS](../genes/KRAS.md) 7%, [CSF1R](../genes/CSF1R.md) 2.4% [PMID:36862133](../papers/36862133.md).
 - Actionable fusions in histiocytosis: MS4A6A-BRAF, DOCK8-BRAF, HLA-A-BRAF, TFG-[ALK](../genes/ALK.md), and PRDX1-[NTRK1](../genes/NTRK1.md) (detected by [RNA-seq](../methods/rna-seq.md)) [PMID:36862133](../papers/36862133.md).
+- Single-arm phase 2 trial (NCT02649972, n=18 histiocytic neoplasm patients, 12 ECD) of cobimetinib showed PET ORR 89% (90% CI 73–100) with 72% complete responses; 100% of responses ongoing at 1 year, no acquired resistance; MAPK-pathway mutations in 83% of patients including novel MEK2 Y134H and RAF1 K106N validated as activating in Ba/F3 cells [PMID:30867592](../papers/30867592.md).
 
 ## Subtypes
 
@@ -40,3 +41,6 @@ Erdheim-Chester Disease is a Histiocytosis (parent HDCN).
 - [PMID:38922339](../papers/38922339.md)
 
 *This page was processed by **crosslinker** on **2026-05-04**.*
+- [PMID:30867592](../papers/30867592.md)
+
+*This page was processed by **wiki-cli** on **2026-05-16**.*
